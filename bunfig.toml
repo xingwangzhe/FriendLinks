@@ -1,0 +1,4 @@
+# Bun 配置文件：使用国内 npm 镜像源
+
+[install]
+registry = "https://registry.npmmirror.com"
