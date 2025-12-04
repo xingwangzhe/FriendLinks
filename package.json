@@ -3,13 +3,17 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "json": "node ./utils/tojson.ts",
+    "watch": "node ./utils/watch.ts",
+    "dev": "npm run json && concurrently \"npm run watch\" \"astro dev\"",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
     "astro": "^5.16.4",
+    "chokidar": "^5.0.0",
+    "concurrently": "^9.2.1",
     "echarts": "^6.0.0",
     "yaml": "^2.8.2",
     "zod": "^4.1.13"

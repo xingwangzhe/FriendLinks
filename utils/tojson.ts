@@ -1,6 +1,8 @@
 import { readdir, stat, readFile, writeFile, mkdir } from "node:fs/promises";
 import YAML from "yaml";
 import path from "node:path";
+import type { Site } from "../types/site";
+import type { GraphNode, GraphLink, GraphCategory } from "../types/graph";
 
 async function listYamlFiles(dir: string): Promise<string[]> {
   const entries = await readdir(dir, { withFileTypes: true });
@@ -19,13 +21,7 @@ async function listYamlFiles(dir: string): Promise<string[]> {
   return files;
 }
 
-type Friend = { name: string; url: string };
-type Site = {
-  name: string;
-  description: string;
-  url: string;
-  friends: Friend[];
-};
+// 类型均从 types/ 目录引入，避免重复定义
 
 function isString(v: unknown): v is string {
   return typeof v === "string";
@@ -41,7 +37,7 @@ function isValidUrl(u: unknown): u is string {
   }
 }
 
-function isFriend(obj: unknown): obj is Friend {
+function isFriend(obj: unknown): obj is { name: string; url: string } {
   return (
     !!obj &&
     typeof obj === "object" &&
@@ -56,6 +52,7 @@ function isSite(obj: unknown): obj is Site {
   if (!isString(o.name) || o.name.trim() === "") return false;
   if (!isString(o.description) || o.description.trim() === "") return false;
   if (!isValidUrl(o.url)) return false;
+  if (o.favicon != null && !isValidUrl(o.favicon)) return false;
   const friends = o.friends;
   if (friends == null) return false;
   if (!Array.isArray(friends)) return false;
@@ -106,7 +103,7 @@ async function parseAndValidate(file: string): Promise<Site | null> {
 
 async function main() {
   const inputDir = path.resolve("links");
-  const outPath = path.resolve("links", "all.json");
+  const outPath = path.resolve("public", "all.json");
 
   try {
     const st = await stat(inputDir);
@@ -137,10 +134,155 @@ async function main() {
   console.log(
     `已生成: ${outPath}（有效文件数: ${validSites.length}/${files.length}）`
   );
+
+  // 生成 ECharts 力导图数据（关系图）
+  const categories: GraphCategory[] = [{ name: "site" }, { name: "friend" }];
+  const nodes: GraphNode[] = [];
+
+  // 收集所有站点URL（规范化）
+  const siteUrlSet = new Set<string>();
+  const normalizeUrl = (u: string): string => {
+    try {
+      const url = new URL(u);
+      // 去掉末尾斜杠，统一格式
+      return url.origin + url.pathname.replace(/\/$/, "");
+    } catch {
+      return u;
+    }
+  };
+
+  for (const s of validSites) {
+    siteUrlSet.add(normalizeUrl(s.url));
+  }
+
+  // site url -> 它友链到的站点url集合
+  const linkMap = new Map<string, Set<string>>();
+  // url -> node id
+  const urlToId = new Map<string, string>();
+
+  // 第一步：创建所有站点节点
+  for (const s of validSites) {
+    const siteId = `site:${s.url}`;
+    const hostname = (() => {
+      try {
+        return new URL(s.url).hostname;
+      } catch {
+        return "";
+      }
+    })();
+    const defaultIcon = hostname
+      ? `https://favicon.im/${hostname}`
+      : `https://favicon.im/`;
+    const siteIcon = s.favicon ?? defaultIcon;
+    nodes.push({
+      id: siteId,
+      name: s.name,
+      url: s.url,
+      favicon: siteIcon,
+      desc: s.description,
+    });
+    linkMap.set(normalizeUrl(s.url), new Set());
+    urlToId.set(normalizeUrl(s.url), siteId);
+  }
+
+  // 第二步：分析友链关系，区分"站点间友链"和"外部友链"
+  const externalFriends: Array<{
+    siteId: string;
+    friend: { name: string; url: string };
+  }> = [];
+
+  for (const s of validSites) {
+    const sourceNorm = normalizeUrl(s.url);
+    for (const f of s.friends) {
+      const targetNorm = normalizeUrl(f.url);
+      if (siteUrlSet.has(targetNorm)) {
+        // 这是一个指向另一个yaml定义站点的友链
+        linkMap.get(sourceNorm)!.add(targetNorm);
+      } else {
+        // 这是一个外部友链（没有yaml文件定义的站点）
+        externalFriends.push({ siteId: `site:${s.url}`, friend: f });
+      }
+    }
+  }
+
+  // 第三步：创建外部友链节点
+  for (const { friend } of externalFriends) {
+    const friendNorm = normalizeUrl(friend.url);
+    if (!urlToId.has(friendNorm)) {
+      const friendId = `friend:${friend.url}`;
+      const fh = (() => {
+        try {
+          return new URL(friend.url).hostname;
+        } catch {
+          return "";
+        }
+      })();
+      const friendIcon = fh
+        ? `https://favicon.im/${fh}`
+        : `https://favicon.im/`;
+      nodes.push({
+        id: friendId,
+        name: friend.name,
+        url: friend.url,
+        favicon: friendIcon,
+      });
+      urlToId.set(friendNorm, friendId);
+    }
+  }
+
+  // 第四步：生成连线
+  const linksArr: GraphLink[] = [];
+  const addedSiteLinks = new Set<string>(); // 避免重复添加站点间连线
+
+  // 处理站点间的连线（双向=无箭头，单向=有箭头）
+  for (const [sourceNorm, targetNorms] of linkMap) {
+    for (const targetNorm of targetNorms) {
+      const sourceId = urlToId.get(sourceNorm)!;
+      const targetId = urlToId.get(targetNorm)!;
+      const pairKey = [sourceNorm, targetNorm].sort().join("<->");
+
+      if (addedSiteLinks.has(pairKey)) continue; // 已处理过这对
+      addedSiteLinks.add(pairKey);
+
+      const aLinksB = linkMap.get(sourceNorm)?.has(targetNorm);
+      const bLinksA = linkMap.get(targetNorm)?.has(sourceNorm);
+
+      if (aLinksB && bLinksA) {
+        // 双向友链：无箭头
+        linksArr.push({ source: sourceId, target: targetId });
+      } else if (aLinksB) {
+        // A单向链接B：A->B箭头
+        linksArr.push({
+          source: sourceId,
+          target: targetId,
+          symbol: ["none", "arrow"],
+        });
+      } else if (bLinksA) {
+        // B单向链接A：B->A箭头
+        linksArr.push({
+          source: targetId,
+          target: sourceId,
+          symbol: ["none", "arrow"],
+        });
+      }
+    }
+  }
+
+  // 处理外部友链的连线（始终单向箭头）
+  for (const { siteId, friend } of externalFriends) {
+    const friendNorm = normalizeUrl(friend.url);
+    const friendId = urlToId.get(friendNorm)!;
+    linksArr.push({
+      source: siteId,
+      target: friendId,
+      symbol: ["none", "arrow"],
+    });
+  }
+
+  const graph = { nodes, links: linksArr, categories };
+  const graphPath = path.resolve("public", "graph.json");
+  await writeFile(graphPath, JSON.stringify(graph, null, 2), "utf8");
+  console.log(`已生成力导图数据: ${graphPath}`);
 }
 
-// 作为脚本执行
-if (require.main === module) {
-  // Bun/Node 兼容：Bun 支持 require.main 判定
-  main();
-}
+main();
