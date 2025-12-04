@@ -6,7 +6,8 @@ import edgeoneAdapter from '@edgeone/astro';
 
 export default defineConfig({
 	output: 'server',
-	adapter: edgeoneAdapter({
+    adapter: edgeoneAdapter({
+        outDir: ".edgeone",
 		includeFiles: ['public/**'],
 	}),
 });
