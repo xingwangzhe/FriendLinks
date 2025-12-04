@@ -166,10 +166,12 @@ async function main() {
   const files = await readdir(LINKS_DIR);
   const ymlFiles = files.filter((f) => f.endsWith(".yml"));
 
-  for (const file of ymlFiles) {
+  const promises = ymlFiles.map((file) => {
     const filePath = join(LINKS_DIR, file);
-    await processYamlFile(filePath);
-  }
+    return processYamlFile(filePath);
+  });
+
+  await Promise.allSettled(promises);
 
   console.log("All YAML files processed.");
 }
