@@ -44,7 +44,7 @@ function isFriend(
   const o = obj as any;
   if (!isString(o.name)) return false;
   if (!isValidUrl(o.url)) return false;
-  if (o.favicon != null && !isValidUrl(o.favicon)) return false;
+  if (o.favicon != null && !isString(o.favicon)) return false; // 允许任何string，包括本地路径
   return true;
 }
 

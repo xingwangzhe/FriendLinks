@@ -42,6 +42,7 @@ export function init(data: GraphData) {
         force: { repulsion: 150, edgeLength: 80 },
         focusNodeAdjacency: true,
         emphasis: {
+          focus: "adjacency",
           lineStyle: { opacity: 1, width: 2 },
           itemStyle: { opacity: 1 },
         },
@@ -183,8 +184,16 @@ export function init(data: GraphData) {
     if (!n.favicon) continue;
     const url = n.favicon;
     // 如果已在 cache 且成功过，直接设置符号
+    const localFallback = "/StreamlinePlumpColorWebFlat.svg";
     if (faviconLoadCache[url]?.ok) {
       updateMap.set(n.id, `image://${url}`);
+      scheduleFlush();
+      continue;
+    }
+
+    // 如果缓存中标记为失败，直接使用本地图标避免重复请求
+    if (faviconLoadCache[url]?.ok === false) {
+      updateMap.set(n.id, `image://${localFallback}`);
       scheduleFlush();
       continue;
     }
@@ -197,9 +206,11 @@ export function init(data: GraphData) {
         updateMap.set(n.id, `image://${url}`);
         scheduleFlush();
       } catch {
-        // 失败则记缓存并略过
+        // 失败则记缓存并用本地图标替换圆形
         faviconLoadCache[url] = { ok: false, ts: Date.now() };
         saveCache();
+        updateMap.set(n.id, `image://${localFallback}`);
+        scheduleFlush();
       }
     });
   }
