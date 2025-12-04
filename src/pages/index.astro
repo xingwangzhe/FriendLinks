@@ -44,8 +44,8 @@ export const prerender = true;
         }
       }
     </style>
-    <script>
-      import { initFromUrl } from "../scripts/graph.ts";
+    <script type="module">
+      import { initFromUrl } from "/src/scripts/graph.ts";
       initFromUrl("/graph.json");
     </script>
   </body>

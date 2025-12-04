@@ -1,4 +1,4 @@
-export type Friend = { name: string; url: string };
+export type Friend = { name: string; url: string; favicon?: string };
 export type Site = {
   name: string;
   description: string;

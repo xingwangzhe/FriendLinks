@@ -37,13 +37,15 @@ function isValidUrl(u: unknown): u is string {
   }
 }
 
-function isFriend(obj: unknown): obj is { name: string; url: string } {
-  return (
-    !!obj &&
-    typeof obj === "object" &&
-    isString((obj as any).name) &&
-    isValidUrl((obj as any).url)
-  );
+function isFriend(
+  obj: unknown
+): obj is { name: string; url: string; favicon?: string } {
+  if (!obj || typeof obj !== "object") return false;
+  const o = obj as any;
+  if (!isString(o.name)) return false;
+  if (!isValidUrl(o.url)) return false;
+  if (o.favicon != null && !isValidUrl(o.favicon)) return false;
+  return true;
 }
 
 function isSite(obj: unknown): obj is Site {
@@ -140,40 +142,38 @@ async function main() {
   const nodes: GraphNode[] = [];
 
   // 收集所有站点URL（规范化）
-  const siteUrlSet = new Set<string>();
-  const normalizeUrl = (u: string): string => {
+  // 使用 hostname 作为唯一标识（域名天然唯一）
+  const siteHostSet = new Set<string>();
+  const getHost = (u: string): string => {
     try {
-      const url = new URL(u);
-      // 去掉末尾斜杠，统一格式
-      return url.origin + url.pathname.replace(/\/$/, "");
+      return new URL(u).hostname.toLowerCase();
     } catch {
-      return u;
+      return u.toLowerCase();
     }
   };
 
   for (const s of validSites) {
-    siteUrlSet.add(normalizeUrl(s.url));
+    siteHostSet.add(getHost(s.url));
   }
 
-  // site url -> 它友链到的站点url集合
+  // site host -> 它友链到的站点 host 集合
   const linkMap = new Map<string, Set<string>>();
-  // url -> node id
-  const urlToId = new Map<string, string>();
+  // host -> node id (我们使用 host 作为 id)
+  const hostToId = new Map<string, string>();
 
   // 第一步：创建所有站点节点
+  // favicon 回退策略：仅使用 YAML 中提供的 favicon（如果合法）；否则回退到本地 svg
+  // 注意：不再使用第三方服务（如 favicon.im）。这样前端只依赖本地或 YAML 明确提供的图标。
+  const resolveFavicon = (fav: string | undefined) => {
+    const localFallback = "/StreamlinePlumpColorWebFlat.svg";
+    if (fav && isValidUrl(fav)) return fav;
+    return localFallback;
+  };
+
   for (const s of validSites) {
-    const siteId = `site:${s.url}`;
-    const hostname = (() => {
-      try {
-        return new URL(s.url).hostname;
-      } catch {
-        return "";
-      }
-    })();
-    const defaultIcon = hostname
-      ? `https://favicon.im/${hostname}`
-      : `https://favicon.im/`;
-    const siteIcon = s.favicon ?? defaultIcon;
+    const host = getHost(s.url) || s.url;
+    const siteId = host;
+    const siteIcon = resolveFavicon(s.favicon);
     nodes.push({
       id: siteId,
       name: s.name,
@@ -181,52 +181,44 @@ async function main() {
       favicon: siteIcon,
       desc: s.description,
     });
-    linkMap.set(normalizeUrl(s.url), new Set());
-    urlToId.set(normalizeUrl(s.url), siteId);
+    linkMap.set(host, new Set());
+    hostToId.set(host, siteId);
   }
 
   // 第二步：分析友链关系，区分"站点间友链"和"外部友链"
   const externalFriends: Array<{
     siteId: string;
-    friend: { name: string; url: string };
+    friend: { name: string; url: string; favicon?: string };
   }> = [];
 
   for (const s of validSites) {
-    const sourceNorm = normalizeUrl(s.url);
+    const sourceNorm = getHost(s.url);
     for (const f of s.friends) {
-      const targetNorm = normalizeUrl(f.url);
-      if (siteUrlSet.has(targetNorm)) {
-        // 这是一个指向另一个yaml定义站点的友链
-        linkMap.get(sourceNorm)!.add(targetNorm);
+      const targetHost = getHost(f.url);
+      if (siteHostSet.has(targetHost)) {
+        // 指向另一个 yaml 定义站点的友链
+        linkMap.get(sourceNorm)!.add(targetHost);
       } else {
         // 这是一个外部友链（没有yaml文件定义的站点）
-        externalFriends.push({ siteId: `site:${s.url}`, friend: f });
+        externalFriends.push({ siteId: sourceNorm, friend: f });
       }
     }
   }
 
   // 第三步：创建外部友链节点
   for (const { friend } of externalFriends) {
-    const friendNorm = normalizeUrl(friend.url);
-    if (!urlToId.has(friendNorm)) {
-      const friendId = `friend:${friend.url}`;
-      const fh = (() => {
-        try {
-          return new URL(friend.url).hostname;
-        } catch {
-          return "";
-        }
-      })();
-      const friendIcon = fh
-        ? `https://favicon.im/${fh}`
-        : `https://favicon.im/`;
+    const friendHost = getHost(friend.url);
+    // 如果该 host 已经存在于主站中，优先使用主站的信息（跳过创建外部节点）
+    if (!hostToId.has(friendHost)) {
+      const friendId = friendHost || friend.url;
+      const friendIcon = resolveFavicon(friend.favicon);
       nodes.push({
         id: friendId,
         name: friend.name,
         url: friend.url,
         favicon: friendIcon,
       });
-      urlToId.set(friendNorm, friendId);
+      hostToId.set(friendHost, friendId);
     }
   }
 
@@ -235,17 +227,17 @@ async function main() {
   const addedSiteLinks = new Set<string>(); // 避免重复添加站点间连线
 
   // 处理站点间的连线（双向=无箭头，单向=有箭头）
-  for (const [sourceNorm, targetNorms] of linkMap) {
-    for (const targetNorm of targetNorms) {
-      const sourceId = urlToId.get(sourceNorm)!;
-      const targetId = urlToId.get(targetNorm)!;
-      const pairKey = [sourceNorm, targetNorm].sort().join("<->");
+  for (const [sourceHost, targetHosts] of linkMap) {
+    for (const targetNorm of targetHosts) {
+      const sourceId = hostToId.get(sourceHost)!;
+      const targetId = hostToId.get(targetNorm)!;
+      const pairKey = [sourceHost, targetNorm].sort().join("<->");
 
       if (addedSiteLinks.has(pairKey)) continue; // 已处理过这对
       addedSiteLinks.add(pairKey);
 
-      const aLinksB = linkMap.get(sourceNorm)?.has(targetNorm);
-      const bLinksA = linkMap.get(targetNorm)?.has(sourceNorm);
+      const aLinksB = linkMap.get(sourceHost)?.has(targetNorm);
+      const bLinksA = linkMap.get(targetNorm)?.has(sourceHost);
 
       if (aLinksB && bLinksA) {
         // 双向友链：无箭头
@@ -270,8 +262,8 @@ async function main() {
 
   // 处理外部友链的连线（始终单向箭头）
   for (const { siteId, friend } of externalFriends) {
-    const friendNorm = normalizeUrl(friend.url);
-    const friendId = urlToId.get(friendNorm)!;
+    const friendHost = getHost(friend.url);
+    const friendId = hostToId.get(friendHost)!;
     linksArr.push({
       source: siteId,
       target: friendId,

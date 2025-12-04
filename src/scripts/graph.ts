@@ -89,7 +89,6 @@ export function init(data: GraphData) {
   function loadImage(url: string) {
     return new Promise<void>((resolve, reject) => {
       const img = new Image();
-      img.crossOrigin = "anonymous";
       img.onload = () => resolve();
       img.onerror = () => reject(new Error("img load error"));
       img.src = url;
@@ -142,7 +141,14 @@ export function init(data: GraphData) {
     flushTimer = window.setTimeout(() => {
       const updates: any[] = [];
       updateMap.forEach((symbol, id) => {
-        updates.push({ id, symbol });
+        const raw = idToRaw[id] || {};
+        updates.push({
+          id,
+          symbol,
+          name: raw.name,
+          value: raw.value,
+          desc: raw.desc,
+        });
       });
       if (updates.length) {
         chart.setOption({
@@ -161,6 +167,18 @@ export function init(data: GraphData) {
 
   // 加载所有节点的 favicon（仅对具有 favicon 字段的节点）
   const nodes = data.nodes;
+  // 建立 id -> 原始节点数据映射（用于在局部更新时保留 name/value/desc 等字段，避免丢失 tooltip 信息）
+  const idToRaw: Record<
+    string,
+    { name?: string; value?: string; desc?: string }
+  > = {};
+  nodes.forEach((n) => {
+    idToRaw[n.id] = {
+      name: n.name,
+      value: (n as any).url || (n as any).value,
+      desc: (n as any).desc,
+    };
+  });
   for (const n of nodes) {
     if (!n.favicon) continue;
     const url = n.favicon;

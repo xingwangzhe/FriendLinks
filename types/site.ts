@@ -6,5 +6,6 @@ export interface Site {
   friends: Array<{
     name: string;
     url: string;
+    favicon?: string;
   }>;
 }
