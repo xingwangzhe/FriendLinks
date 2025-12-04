@@ -12,7 +12,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 links/*.json
-public/*.json
+
 # environment variables
 .env
 .env.production
