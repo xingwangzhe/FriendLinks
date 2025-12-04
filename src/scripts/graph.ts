@@ -37,6 +37,7 @@ export function init(data: GraphData) {
         type: "graph",
         layout: "force",
         roam: true,
+        draggable: true,
         label: { show: true, position: "right" },
         force: { repulsion: 150, edgeLength: 80 },
         focusNodeAdjacency: true,
