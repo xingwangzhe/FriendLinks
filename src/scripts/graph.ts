@@ -56,7 +56,8 @@ export function init(data: GraphData) {
           // 不再使用分类字段
           value: n.url,
           desc: (n as any).desc,
-          symbol: n.favicon ? `image://${n.favicon}` : "circle",
+          // 初始显示为圆形占位符，图标由并发加载队列按需替换
+          symbol: "circle",
           symbolSize: 28,
         })),
         links: data.links,
@@ -67,6 +68,123 @@ export function init(data: GraphData) {
   };
 
   chart.setOption(option);
+
+  // ======= 优化：有控制的并发加载图标（favicon） =======
+  // 避免同时发起过多请求，防止浏览器/API 限流
+  const CONCURRENCY = 6; // 可根据需要调整
+  const CACHE_KEY = "faviconLoadCache_v1";
+  const cacheRaw = localStorage.getItem(CACHE_KEY);
+  const faviconLoadCache: Record<string, { ok: boolean; ts: number }> = cacheRaw
+    ? JSON.parse(cacheRaw)
+    : {};
+
+  function saveCache() {
+    try {
+      localStorage.setItem(CACHE_KEY, JSON.stringify(faviconLoadCache));
+    } catch {
+      // ignore storage write errors
+    }
+  }
+
+  function loadImage(url: string) {
+    return new Promise<void>((resolve, reject) => {
+      const img = new Image();
+      img.crossOrigin = "anonymous";
+      img.onload = () => resolve();
+      img.onerror = () => reject(new Error("img load error"));
+      img.src = url;
+    });
+  }
+
+  async function attemptLoadImage(
+    url: string,
+    retries = 2,
+    delayMs = 250
+  ): Promise<void> {
+    for (let i = 0; i <= retries; i++) {
+      try {
+        await loadImage(url);
+        return;
+      } catch {
+        if (i === retries) throw new Error(`load fail ${url}`);
+        await new Promise((r) => setTimeout(r, delayMs * Math.pow(2, i)));
+      }
+    }
+  }
+
+  function createQueue(limit: number) {
+    const q: Array<() => Promise<void>> = [];
+    let running = 0;
+    async function next() {
+      if (running >= limit || q.length === 0) return;
+      const task = q.shift()!;
+      running++;
+      try {
+        await task();
+      } catch {
+        // swallow error for single task
+      }
+      running--;
+      next();
+    }
+    return function enqueue(task: () => Promise<void>) {
+      q.push(task);
+      next();
+    };
+  }
+
+  const enqueue = createQueue(CONCURRENCY);
+  // 批量更新到 ECharts，减少频繁 setOption
+  const updateMap = new Map<string, string>();
+  let flushTimer: number | undefined;
+  function scheduleFlush() {
+    if (flushTimer != null) return;
+    flushTimer = window.setTimeout(() => {
+      const updates: any[] = [];
+      updateMap.forEach((symbol, id) => {
+        updates.push({ id, symbol });
+      });
+      if (updates.length) {
+        chart.setOption({
+          series: [
+            {
+              id: "main-graph",
+              data: updates,
+            },
+          ],
+        });
+      }
+      updateMap.clear();
+      flushTimer = undefined;
+    }, 250);
+  }
+
+  // 加载所有节点的 favicon（仅对具有 favicon 字段的节点）
+  const nodes = data.nodes;
+  for (const n of nodes) {
+    if (!n.favicon) continue;
+    const url = n.favicon;
+    // 如果已在 cache 且成功过，直接设置符号
+    if (faviconLoadCache[url]?.ok) {
+      updateMap.set(n.id, `image://${url}`);
+      scheduleFlush();
+      continue;
+    }
+
+    enqueue(async () => {
+      try {
+        await attemptLoadImage(url);
+        faviconLoadCache[url] = { ok: true, ts: Date.now() };
+        saveCache();
+        updateMap.set(n.id, `image://${url}`);
+        scheduleFlush();
+      } catch {
+        // 失败则记缓存并略过
+        faviconLoadCache[url] = { ok: false, ts: Date.now() };
+        saveCache();
+      }
+    });
+  }
 
   // 亮暗切换：通过按钮切换色板与背景
   const btn = document.getElementById("theme-toggle");
