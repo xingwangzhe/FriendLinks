@@ -6,7 +6,7 @@
     "json": "node ./utils/tojson.ts",
     "watch": "node ./utils/watch.ts",
     "dev": "npm run json && concurrently \"npm run watch\" \"astro dev\"",
-    "build": "astro build",
+    "build": "npm run json && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
