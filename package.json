@@ -8,7 +8,8 @@
     "check-access": "bun ./scripts/check-access.ts",
     "watch": "node ./utils/watch.ts",
     "dev": "npm run json && concurrently \"npm run watch\" \"astro dev\"",
-    "build": "npm run json && astro build",
+    "bundle-client": "node ./scripts/bundle-client.mjs",
+    "build": "npm run json && npm run bundle-client && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
