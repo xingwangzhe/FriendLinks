@@ -8,8 +8,7 @@
     "dev": "npm run json && concurrently \"npm run watch\" \"astro dev\"",
     "build": "npm run json && astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "fetch-favicons": "node --loader ts-node/esm ./scripts/fetch-favicons.ts"
+    "astro": "astro"
   },
   "dependencies": {
     "@edgeone/astro": "^1.0.4",
