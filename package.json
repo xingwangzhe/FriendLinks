@@ -5,6 +5,7 @@
   "scripts": {
     "json": "node --loader ts-node/esm ./utils/tojson.ts",
     "remove-favicons": "node ./scripts/remove-favicons.mjs",
+    "check-access": "bun ./scripts/check-access.ts",
     "watch": "node ./utils/watch.ts",
     "dev": "npm run json && concurrently \"npm run watch\" \"astro dev\"",
     "build": "npm run json && astro build",

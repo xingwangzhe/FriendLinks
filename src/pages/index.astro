@@ -18,10 +18,76 @@ export const prerender = true;
       #main {
         width: 100%;
         height: 100vh;
+        touch-action: none; /* 让画布接管触摸拖拽，避免浏览器滚动 */
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none; /* 禁用文本选择，改善拖拽手感 */
+        cursor: grab;
+      }
+      /* 顶栏搜索样式 */
+      .topbar {
+        position: fixed;
+        top: 8px;
+        left: 12px;
+        right: 12px;
+        height: 44px;
+        z-index: 20;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        pointer-events: none; /* 画布之上但不阻挡底层交互，控制内部元素单独启用 */
+      }
+      .topbar .search {
+        pointer-events: auto;
+        margin-left: 6px;
+        flex: 0 0 420px;
+        display: flex;
+        position: relative;
+      }
+      .topbar input[type=text] {
+        width: 100%;
+        height: 36px;
+        padding: 6px 10px;
+        border-radius: 8px;
+        border: 1px solid rgba(0,0,0,0.12);
+        background: rgba(255,255,255,0.92);
+        outline: none;
+        font-size: 14px;
+      }
+      .topbar .results {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        right: 0;
+        max-height: 320px;
+        overflow: auto;
+        background: #fff;
+        border: 1px solid rgba(0,0,0,0.08);
+        border-radius: 6px;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+        display: none;
+        z-index: 30;
+      }
+      .topbar .results .item {
+        padding: 8px 10px;
+        cursor: pointer;
+        font-size: 13px;
+      }
+      .topbar .results .item:hover { background: rgba(0,0,0,0.03); }
+      @media (prefers-color-scheme: dark) {
+        .topbar input[type=text] { background: rgba(16,16,16,0.8); color: #ddd; border-color: rgba(255,255,255,0.06); }
+        .topbar .results { background: #0f1115; color: #ddd; border-color: rgba(255,255,255,0.06); box-shadow: none; }
       }
     </style>
   </head>
   <body>
+    <div class="topbar">
+      <div style="font-weight:600; padding-left:6px; pointer-events:auto">友链图谱</div>
+      <div class="search">
+        <input id="graph-search" type="text" placeholder="搜索：站点名或域名（示例: example.com）" autocomplete="off" />
+        <div id="graph-search-results" class="results" role="listbox"></div>
+      </div>
+    </div>
     <div id="main"></div>
     <button id="theme-toggle" aria-label="切换主题">切换主题</button>
     <style>
@@ -46,7 +112,51 @@ export const prerender = true;
     </style>
     <script type="module">
       import { initFromUrl } from "/src/scripts/graph.ts";
-      initFromUrl("/graph.json");
+
+      (async () => {
+        await initFromUrl("/graph.json");
+
+        const input = document.getElementById('graph-search');
+        const results = document.getElementById('graph-search-results');
+        function render(list) {
+          if (!results) return;
+          results.innerHTML = '';
+          if (!list.length) { results.style.display = 'none'; return; }
+          for (const it of list) {
+            const el = document.createElement('div');
+            el.className = 'item';
+            el.innerHTML = `<div style="font-weight:600">${it.name}</div><div style="font-size:12px;color:var(--muted,#666)">${it.url}</div>`;
+            el.onclick = () => {
+              try { if (window.__graphApi && window.__graphApi.focusNodeById) { window.__graphApi.focusNodeById(it.id); } } catch (e) { console.error(e); }
+              results.style.display = 'none';
+            };
+            results.appendChild(el);
+          }
+          results.style.display = 'block';
+        }
+
+        if (input) {
+          input.addEventListener('input', (ev) => {
+            const v = (ev.target && ev.target.value) ? ev.target.value.trim() : '';
+            if (!v) { render([]); return; }
+            try {
+              const list = (window.__graphApi && window.__graphApi.find) ? window.__graphApi.find(v) : [];
+              render(list.slice(0, 12));
+            } catch (e) { console.error(e); }
+          });
+        }
+
+        // 支持通过 ?local=<url> 聚焦到对应域名节点
+        try {
+          const params = new URLSearchParams(location.search);
+          const local = params.get('local');
+          if (local) {
+            setTimeout(() => {
+              try { if (window.__graphApi && window.__graphApi.focusByDomain) { window.__graphApi.focusByDomain(local); } } catch (e) { console.error(e); }
+            }, 600);
+          }
+        } catch (e) {}
+      })();
     </script>
   </body>
 </html>

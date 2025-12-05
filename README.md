@@ -1,43 +1,22 @@
-# Astro Starter Kit: Minimal
+# 博客友链网
 
-```sh
-bun create astro@latest -- --template minimal
-```
+ **法律合规说明：** 网站所有者和投稿者必须确保其发布内容及网站运营遵守中华人民共和国以及适用情况下的美利坚合众国法律法规（包括但不限于版权、隐私、网络安全与信息内容方面的法律）。
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-## 🚀 Project Structure
+ 添加你的博客及其友链（建议为博客），汇聚到这个巨大的网络中吧！
 
-Inside of your Astro project, you'll see the following folders and files:
+ 在 `links/url.yml` 下填写
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+ 格式：
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+ ```yml
+ site:
+   name: 我的博客
+   description: 分享编程和技术相关的文章
+   url: https://example.com
+   friends:
+     - name: 编程小站
+       url: https://codehub.example.com
+     - name: 技术前沿
+       url: https://techfrontier.example.com
+ ```
