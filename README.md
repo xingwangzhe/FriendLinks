@@ -30,11 +30,11 @@
 
 - 使用域名（hostname）匹配：
 
-  `https://needhelp.icu/?local=example.com`
+  `https://links.needhelp.icu/?local=example.com`
 
 - 使用完整 URL：
 
-  `https://needhelp.icu/?local=https://example.com` 或 `?local=http://example.com/path`
+  `https://links.needhelp.icu/?local=https://example.com` 或 `?local=http://example.com/path`
 
 匹配规则（弱匹配，大小写不敏感）：
 - 优先匹配节点的 `url` 的 hostname；
@@ -48,4 +48,4 @@
 
 示例：
 
-`https://needhelp.icu/?local=example.com` — 页面加载后会自动聚焦并高亮与 `example.com` 匹配的节点。
+`https://links.needhelp.icu/?local=example.com` — 页面加载后会自动聚焦并高亮与 `example.com` 匹配的节点。
