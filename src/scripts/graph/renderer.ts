@@ -130,6 +130,9 @@ export function wireRendererEvents(
     try {
       const nodeId = e.node as string;
       const attrs = (g as any).getNodeAttributes(nodeId) as any;
+      console.log(
+        `[hover] node ${nodeId} coordinates: x=${attrs.x}, y=${attrs.y}`,
+      );
       const name = attrs.label || nodeId;
       const url = attrs.url || "";
       const desc = attrs.desc || "";
@@ -223,7 +226,11 @@ export function wireRendererEvents(
   // move tooltip with mouse while it is visible
   renderer.on("mousemove", (e: any) => {
     try {
-      if (tooltipApi && tooltipApi.el && (tooltipApi.el.style.display === "block")) {
+      if (
+        tooltipApi &&
+        tooltipApi.el &&
+        tooltipApi.el.style.display === "block"
+      ) {
         const clientX =
           e.event && e.event.clientX ? e.event.clientX : window.innerWidth / 2;
         const clientY =

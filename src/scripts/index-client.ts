@@ -1,7 +1,7 @@
 import { initFromUrl } from "./graph/index";
 
 (async () => {
-  await initFromUrl("/graph.json");
+  const controller = await initFromUrl("/graph.json");
 
   const input = document.getElementById("graph-search");
   const results = document.getElementById("graph-search-results");
@@ -18,7 +18,9 @@ import { initFromUrl } from "./graph/index";
       el.innerHTML = `<div style="font-weight:600">${it.name}</div><div style="font-size:12px;color:var(--muted,#666)">${it.url}</div>`;
       el.onclick = () => {
         try {
-          if (window.__graphApi && window.__graphApi.focusNodeById) {
+          if (controller && controller.focusNodeById) {
+            controller.focusNodeById(it.id);
+          } else if (window.__graphApi && window.__graphApi.focusNodeById) {
             window.__graphApi.focusNodeById(it.id);
           }
         } catch (e) {
@@ -40,10 +42,12 @@ import { initFromUrl } from "./graph/index";
       }
       try {
         const list =
-          window.__graphApi && window.__graphApi.find
-            ? window.__graphApi.find(v)
-            : [];
-        render(list.slice(0, 12));
+          controller && (controller.find as any)
+            ? (controller.find as any)(v)
+            : window.__graphApi && window.__graphApi.find
+              ? window.__graphApi.find(v)
+              : [];
+        render((list || []).slice(0, 12));
       } catch (e) {
         console.error(e);
       }
@@ -57,7 +61,9 @@ import { initFromUrl } from "./graph/index";
     if (local) {
       setTimeout(() => {
         try {
-          if (window.__graphApi && window.__graphApi.focusByDomain) {
+          if (controller && (controller as any).focusByDomain) {
+            (controller as any).focusByDomain(local);
+          } else if (window.__graphApi && window.__graphApi.focusByDomain) {
             window.__graphApi.focusByDomain(local);
           }
         } catch (e) {
