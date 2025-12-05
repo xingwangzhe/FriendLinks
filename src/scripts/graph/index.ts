@@ -7,6 +7,7 @@
 
 import type { GraphData } from "../../../types/graph"; //
 import { Decimal } from "decimal.js";
+import Fuse from "fuse.js";
 import { buildGraphFromData } from "./builder";
 import { startForceAtlas2Worker } from "./layout";
 import { createOrGetTooltip } from "./tooltip";
@@ -24,6 +25,22 @@ export function init(data: GraphData) {
 
   // Build graph and supporting metadata
   const { g, degreeMap, originalColors, maxDegree } = buildGraphFromData(data);
+
+  // Build search index for nodes
+  const nodesList: any[] = [];
+  (g as any).forEachNode((id: string, attr: any) => {
+    nodesList.push({
+      id,
+      name: attr.label || id,
+      url: attr.url,
+      desc: attr.desc,
+    });
+  });
+  const fuse = new Fuse(nodesList, {
+    keys: ["name", "url", "id"],
+    threshold: 0.3, // Allow some fuzziness
+    includeScore: true,
+  });
 
   // Track the last highlighted node for restoration
   let lastHighlightedNode: string | null = null;
@@ -75,24 +92,15 @@ export function init(data: GraphData) {
 
   // Expose a small global API for convenience (find, focus)
   function find(query: string) {
-    const q = (query || "").trim().toLowerCase();
+    const q = (query || "").trim();
     if (!q) return [];
-    const out: any[] = [];
     try {
-      (g as any).forEachNode((id: string, attr: any) => {
-        const name = (attr.label || "").toString().toLowerCase();
-        const url = (attr.url || "").toString().toLowerCase();
-        if (name.includes(q) || url.includes(q) || id.includes(q)) {
-          out.push({
-            id,
-            name: attr.label || id,
-            url: attr.url,
-            desc: attr.desc,
-          });
-        }
-      });
-    } catch {}
-    return out;
+      const results = fuse.search(q);
+      return results.map((result) => result.item);
+    } catch (e) {
+      console.error(e);
+      return [];
+    }
   }
 
   function focusNodeById(id: string) {
