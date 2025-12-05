@@ -1,4 +1,4 @@
-import { initFromUrl } from "./graph.ts";
+import { initFromUrl } from "./graph/index";
 
 (async () => {
   await initFromUrl("/graph.json");
