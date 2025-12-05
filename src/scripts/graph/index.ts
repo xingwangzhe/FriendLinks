@@ -103,6 +103,57 @@ export function init(data: GraphData) {
     }
   }
 
+  function focusByDomain(urlOrHost: string) {
+    if (!urlOrHost) return;
+    const input = urlOrHost.trim().toLowerCase();
+    let targetHost = input;
+    try {
+      // Try to extract hostname from URL
+      const url = new URL(
+        input.startsWith("http") ? input : `https://${input}`
+      );
+      targetHost = url.hostname.toLowerCase();
+    } catch {
+      // If not a valid URL, use as-is
+      targetHost = input;
+    }
+
+    let matchedId: string | null = null;
+    try {
+      (g as any).forEachNode((id: string, attr: any) => {
+        if (matchedId) return; // Already found
+        const nodeUrl = (attr.url || "").toString().toLowerCase();
+        let nodeHost = nodeUrl;
+        try {
+          const url = new URL(
+            nodeUrl.startsWith("http") ? nodeUrl : `https://${nodeUrl}`
+          );
+          nodeHost = url.hostname.toLowerCase();
+        } catch {
+          // Use as-is if not valid URL
+        }
+        // First, try exact hostname match
+        if (nodeHost === targetHost) {
+          matchedId = id;
+          return;
+        }
+        // Then, try contains match in the full URL
+        if (nodeUrl.includes(targetHost)) {
+          matchedId = id;
+          return;
+        }
+      });
+    } catch (e) {
+      console.error("Error in focusByDomain:", e);
+    }
+
+    if (matchedId) {
+      focusNodeById(matchedId);
+    } else {
+      console.warn("No node found for domain:", urlOrHost);
+    }
+  }
+
   function focusNodeById(id: string) {
     try {
       const pos = (g as any).getNodeAttributes(id) as any;
@@ -297,6 +348,7 @@ export function init(data: GraphData) {
   try {
     (window as any).__graphApi = (window as any).__graphApi || {};
     (window as any).__graphApi.find = find;
+    (window as any).__graphApi.focusByDomain = focusByDomain;
     (window as any).__graphApi.focusNodeById = focusNodeById;
   } catch {}
 
@@ -318,6 +370,7 @@ export function init(data: GraphData) {
     layoutController,
     themeController,
     find,
+    focusByDomain,
     focusNodeById,
   };
 }
