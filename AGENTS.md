@@ -11,3 +11,23 @@
 5. 计算目标缩放：`targetRatio = new Decimal(nodeSize).div(50)`
 6. 设置相机：`camera.setState({ x: newX.toNumber(), y: newY.toNumber(), angle: 0, ratio: targetRatio.toNumber() })`
 7. 刷新渲染器：`renderer.refresh()`
+
+
+## 添加友链
+ 添加你的博客及其友链（建议为博客），汇聚到这个巨大的网络中吧！
+
+ 在 `links/{yoursite}.yml` 中填写
+
+ 格式：
+
+ ```yml
+ site:
+   name: 我的博客
+   description: 分享编程和技术相关的文章
+   url: https://example.com
+   friends:
+     - name: 编程小站
+       url: https://codehub.example.com
+     - name: 技术前沿
+       url: https://techfrontier.example.com
+ ```
