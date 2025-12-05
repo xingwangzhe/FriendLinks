@@ -135,66 +135,68 @@ export function init(data: GraphData) {
       // Log initial camera center and target node coordinates
       try {
         const camera = renderer.camera;
-        const state =
+        const _state =
           typeof camera.getState === "function"
             ? camera.getState()
             : { x: camera.x, y: camera.y, ratio: camera.ratio };
-        console.log("[图表] focusNodeById - 相机初始状态", state);
+        // console.log("[图表] focusNodeById - 相机初始状态", state);
 
-        console.log("[图表] focusNodeById - 目标节点坐标", {
-          id,
-          x: pos.x,
-          y: pos.y,
-          size: pos.size,
-        });
+        // console.log("[图表] focusNodeById - 目标节点坐标", {
+        //   id,
+        //   x: pos.x,
+        //   y: pos.y,
+        //   size: pos.size,
+        // });
 
         // Container dimensions & center pixel
         const containerEl =
           typeof renderer.getContainer === "function"
             ? renderer.getContainer()
             : container;
-        const width = containerEl ? containerEl.clientWidth : window.innerWidth;
-        const height = containerEl
+        const _width = containerEl
+          ? containerEl.clientWidth
+          : window.innerWidth;
+        const _height = containerEl
           ? containerEl.clientHeight
           : window.innerHeight;
-        const centerPixel = { x: width / 2, y: height / 2 };
-        console.log("[图表] focusNodeById - 容器尺寸和中心像素", {
-          width,
-          height,
-          centerPixel,
-        });
+        const _centerPixel = { x: _width / 2, y: _height / 2 };
+        // console.log("[图表] focusNodeById - 容器尺寸和中心像素", {
+        //   width,
+        //   height,
+        //   centerPixel,
+        // });
 
         // If available, convert node graph coords -> viewport (pixel)
         if (typeof renderer.graphToViewport === "function") {
           try {
-            const nodeViewport = renderer.graphToViewport({
+            const _nodeViewport = renderer.graphToViewport({
               x: pos.x,
               y: pos.y,
             });
-            console.log(
-              "[图表] focusNodeById - 节点图坐标到像素坐标转换",
-              nodeViewport
-            );
-          } catch (err) {
-            console.warn("[图表] focusNodeById - graphToViewport 失败:", err);
+            // console.log(
+            //   "[图表] focusNodeById - 节点图坐标到像素坐标转换",
+            //   nodeViewport
+            // );
+          } catch {
+            // console.warn("[图表] focusNodeById - graphToViewport 失败:", err);
           }
         } else {
-          console.log("[图表] focusNodeById - renderer.graphToViewport 不可用");
+          // console.log("[图表] focusNodeById - renderer.graphToViewport 不可用");
         }
 
         // If available, convert container center pixel -> graph coords
         if (typeof renderer.viewportToGraph === "function") {
           try {
-            const centerGraph = renderer.viewportToGraph(centerPixel);
-            console.log(
-              "[图表] focusNodeById - 容器中心像素到图坐标转换",
-              centerGraph
-            );
-          } catch (err) {
-            console.warn("[图表] focusNodeById - viewportToGraph 失败:", err);
+            const _centerGraph = renderer.viewportToGraph(_centerPixel);
+            // console.log(
+            //   "[图表] focusNodeById - 容器中心像素到图坐标转换",
+            //   centerGraph
+            // );
+          } catch {
+            // console.warn("[图表] focusNodeById - viewportToGraph 失败:", err);
           }
         } else {
-          console.log("[图表] focusNodeById - renderer.viewportToGraph 不可用");
+          // console.log("[图表] focusNodeById - renderer.viewportToGraph 不可用");
         }
       } catch {
         // ignore logging errors
@@ -218,32 +220,32 @@ export function init(data: GraphData) {
       const containerEl = renderer.getContainer();
       const relX = new Decimal(nodePixel.x).div(containerEl.clientWidth);
       const relY = new Decimal(nodePixel.y).div(containerEl.clientHeight);
-      console.log("[图表] focusNodeById - 相对坐标计算", {
-        relX: relX.toNumber(),
-        relY: relY.toNumber(),
-      });
+      // console.log("[图表] focusNodeById - 相对坐标计算", {
+      //   relX: relX.toNumber(),
+      //   relY: relY.toNumber(),
+      // });
       // Calculate the delta to move node to center (0.5, 0.5), adjusted by current zoom
       const scaleFactor = new Decimal(currentState.ratio);
       const half = new Decimal(0.5);
       const deltaX = half.minus(relX).mul(scaleFactor);
       const deltaY = half.minus(relY).mul(scaleFactor);
-      console.log("[图表] focusNodeById - delta 计算", {
-        deltaX: deltaX.toNumber(),
-        deltaY: deltaY.toNumber(),
-        scaleFactor: scaleFactor.toNumber(),
-      });
+      // console.log("[图表] focusNodeById - delta 计算", {
+      //   deltaX: deltaX.toNumber(),
+      //   deltaY: deltaY.toNumber(),
+      //   scaleFactor: scaleFactor.toNumber(),
+      // });
       const newX = new Decimal(currentState.x).minus(deltaX);
       const newY = new Decimal(currentState.y).plus(deltaY);
-      console.log("[图表] focusNodeById - 新相机位置计算", {
-        newX: newX.toNumber(),
-        newY: newY.toNumber(),
-      });
+      // console.log("[图表] focusNodeById - 新相机位置计算", {
+      //   newX: newX.toNumber(),
+      //   newY: newY.toNumber(),
+      // });
       // Calculate target zoom based on node size (larger nodes zoom out more)
       const targetRatio = new Decimal(pos.size).div(50);
-      console.log("[图表] focusNodeById - 目标缩放计算", {
-        targetRatio: targetRatio.toNumber(),
-        nodeSize: pos.size,
-      });
+      // console.log("[图表] focusNodeById - 目标缩放计算", {
+      //   targetRatio: targetRatio.toNumber(),
+      //   nodeSize: pos.size,
+      // });
       camera.setState({
         x: newX.toNumber(),
         y: newY.toNumber(),
@@ -300,30 +302,7 @@ export function init(data: GraphData) {
     }
   } catch {}
 
-  // Add temporary button to log camera coordinates
-  try {
-    const button = document.createElement("button");
-    button.textContent = "Log Camera";
-    button.style.position = "absolute";
-    button.style.top = "10px";
-    button.style.right = "10px";
-    button.style.zIndex = "1000";
-    button.onclick = () => {
-      try {
-        const state = renderer.camera.getState();
-        console.log("[button] current camera coordinates:", {
-          x: state.x,
-          y: state.y,
-          ratio: state.ratio,
-        });
-      } catch (e) {
-        console.error("[button] error logging camera:", e);
-      }
-    };
-    container.appendChild(button);
-  } catch (e) {
-    console.error("[graph] focusNodeById failed:", e);
-  } // Return an object with some handles so callers can programmatically control things
+  // Return an object with some handles so callers can programmatically control things
   return {
     graph: g,
     renderer,
