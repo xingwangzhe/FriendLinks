@@ -18,7 +18,10 @@
     "astro": "^5.16.4",
     "chokidar": "^5.0.0",
     "concurrently": "^9.2.1",
-    "echarts": "^6.0.0",
+    "graphology": "^0.26.0",
+    "graphology-layout-forceatlas2": "^0.10.1",
+    "graphology-utils": "^2.5.2",
+    "sigma": "^3.0.2",
     "yaml": "^2.8.2",
     "zod": "^4.1.13"
   },

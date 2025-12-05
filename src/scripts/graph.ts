@@ -1,389 +1,451 @@
-import * as echarts from "echarts/core";
-import { GraphChart } from "echarts/charts";
-import { TooltipComponent, TitleComponent } from "echarts/components";
-import { CanvasRenderer } from "echarts/renderers";
+// Sigma.js + Graphology 渲染实现（干净替换）
+import Sigma from "sigma";
+import Graph from "graphology";
+import FA2Layout from "graphology-layout-forceatlas2/worker";
 import type { GraphData } from "../../types/graph";
 
-echarts.use([GraphChart, TooltipComponent, TitleComponent, CanvasRenderer]);
+const PALETTE = [
+  "#E69F00",
+  "#56B4E9",
+  "#009E73",
+  "#0072B2",
+  "#D55E00",
+  "#CC79A7",
+  "#8C564B",
+  "#E377C2",
+  "#7F7F7F",
+  "#17BECF",
+  "#4E79A7",
+  "#B1C94E",
+];
 
-// 类型统一从 types/graph.ts 引入
+function hashToIndex(s: string) {
+  let h = 2166136261 >>> 0;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 16777619) >>> 0;
+  }
+  return h % PALETTE.length;
+}
+
+function degreeToSize(d: number, maxDegree: number) {
+  const MIN = 6;
+  const MAX = 22;
+  if (!d || d <= 1) return MIN;
+  const norm = Math.sqrt(d) / Math.sqrt(Math.max(1, maxDegree));
+  return Math.round(MIN + Math.min(1, norm) * (MAX - MIN));
+}
 
 export function init(data: GraphData) {
-  const el = document.getElementById("main");
-  if (!el) return;
-  const chart = echarts.init(el);
+  const container = document.getElementById("main");
+  if (!container) return;
 
-  const option: echarts.EChartsCoreOption = {
-    title: { text: "友链关系图" },
-    tooltip: {
-      trigger: "item",
-      formatter: (params: any) => {
-        const d = params?.data || {};
-        const name = d.name || "";
-        const url = d.value || "";
-        const desc = d.desc;
-        const lines = [
-          `<strong>${name}</strong>`,
-          desc ? `<div style="max-width:320px;color:#666">${desc}</div>` : "",
-          url ? `<div style="color:#888">${url}</div>` : "",
-        ].filter(Boolean);
-        return lines.join("");
-      },
-    },
-    // 不展示分类图例
-    series: [
-      {
-        id: "main-graph",
-        type: "graph",
-        layout: "force",
-        roam: true,
-        draggable: true,
-        label: { show: true, position: "right" },
-        force: { repulsion: 750, edgeLength: 240 },
-        focusNodeAdjacency: true,
-        emphasis: {
-          focus: "adjacency",
-          lineStyle: { opacity: 1, width: 2 },
-          itemStyle: { opacity: 1 },
-        },
-        blur: {
-          lineStyle: { opacity: 0.1 },
-          itemStyle: { opacity: 0.2 },
-        },
-        // 不使用分类，统一样式
-        data: data.nodes.map((n) => ({
-          id: n.id,
-          name: n.name,
-          // 不再使用分类字段
-          value: n.url,
-          desc: (n as any).desc,
-          // 初始显示为圆形占位符，图标由并发加载队列按需替换
-          symbol: "circle",
-          symbolSize: 28,
-        })),
-        links: data.links,
-        lineStyle: { color: "#aaa" },
-        itemStyle: { color: "#5470C6" },
-      },
-    ],
-  };
+  const g = new Graph();
+  const nodes = data.nodes || [];
+  const links = (data as any).links || [];
+  // 保存原始节点颜色以便 hover 时恢复
+  const originalColors: Map<string, string> = new Map();
 
-  chart.setOption(option);
-
-  // ======= 改为使用色盲友好的 12 色调色板，完全放弃网站图标 =======
-  // 使用稳定哈希将节点映射到 12 色中的一种，保证颜色在刷新间稳定
-  // 选择对比稳定、与背景无关的 12 色（避免纯黑/白及极浅色）
-  const PALETTE = [
-    "#E69F00",
-    "#56B4E9",
-    "#009E73",
-    "#0072B2",
-    "#D55E00",
-    "#CC79A7",
-    "#8C564B",
-    "#E377C2",
-    "#7F7F7F",
-    "#17BECF",
-    "#4E79A7",
-    "#B1C94E",
-  ];
-
-  function hashToIndex(s: string) {
-    let h = 2166136261 >>> 0;
-    for (let i = 0; i < s.length; i++) {
-      h ^= s.charCodeAt(i);
-      h = Math.imul(h, 16777619) >>> 0;
-    }
-    return h % PALETTE.length;
+  const degreeMap: Record<string, number> = {};
+  for (const l of links) {
+    const s = l.source ?? l[0];
+    const t = l.target ?? l[1];
+    if (s) degreeMap[s] = (degreeMap[s] || 0) + 1;
+    if (t) degreeMap[t] = (degreeMap[t] || 0) + 1;
   }
+  const degreeValues = Object.values(degreeMap);
+  const maxDegree = degreeValues.length ? Math.max(...degreeValues) : 1;
 
-  const nodes = data.nodes;
-  // 建立 id -> 原始节点数据映射并在后续读取位置
-  const idToRaw: Record<string, any> = {};
-  nodes.forEach((n) => {
-    idToRaw[n.id] = {
-      name: n.name,
-      value: (n as any).url || (n as any).value,
+  for (let i = 0; i < nodes.length; i++) {
+    const n = nodes[i];
+    const id = n.id;
+    const deg = degreeMap[id] || 0;
+    const angle = (i / Math.max(1, nodes.length)) * Math.PI * 2;
+    const radius =
+      100 + (1 - Math.min(1, Math.sqrt(deg) / Math.sqrt(maxDegree))) * 400;
+    const x = Math.cos(angle) * radius + (Math.random() - 0.5) * 10;
+    const y = Math.sin(angle) * radius + (Math.random() - 0.5) * 10;
+    const baseColor = PALETTE[hashToIndex(id)];
+    g.addNode(id, {
+      label: n.name,
+      url: n.url,
       desc: (n as any).desc,
-      x: undefined,
-      y: undefined,
-    };
-  });
-
-  // 读取图表中已计算的位置，保存在 idToRaw 以便后续局部更新不触发重布局
-  try {
-    const current = chart.getOption();
-    const seriesData =
-      ((current.series as any[]) || []).find((s) => s && s.id === "main-graph")
-        ?.data || [];
-    for (const d of seriesData) {
-      if (d && d.id && (d.x != null || d.y != null)) {
-        idToRaw[d.id] = Object.assign(idToRaw[d.id] || {}, { x: d.x, y: d.y });
-      }
-    }
-  } catch {
-    // ignore if getOption not available
+      x,
+      y,
+      size: degreeToSize(deg, maxDegree),
+      // store both current color and immutable baseColor to avoid cumulative changes
+      color: baseColor,
+      baseColor,
+    });
+    originalColors.set(id, baseColor);
   }
 
-  // 批量用颜色替换节点（不使用图标），保留位置以避免触发重布局
-  const colorUpdates: any[] = nodes.map((n) => {
-    const raw = idToRaw[n.id] || {};
-    const color = PALETTE[hashToIndex(n.id)];
-    const item: any = {
-      id: n.id,
-      name: raw.name,
-      value: raw.value,
-      desc: raw.desc,
-      symbol: "circle",
-      symbolSize: 28,
-      itemStyle: { color },
-    };
-    if (raw.x != null && raw.y != null) {
-      item.x = raw.x;
-      item.y = raw.y;
-      item.fixed = true;
-    }
-    return item;
-  });
+  for (const l of links) {
+    const s = l.source ?? l[0];
+    const t = l.target ?? l[1];
+    if (!s || !t) continue;
+    try {
+      g.addEdge(s.toString(), t.toString());
+    } catch {}
+  }
 
-  chart.setOption({
-    series: [
-      {
-        id: "main-graph",
-        data: colorUpdates,
+  // 启动 ForceAtlas2 布局（在 worker 中运行），以获得自然的力导向动画
+  try {
+    const layout = new FA2Layout(g, {
+      settings: {
+        barnesHutOptimize: true,
+        barnesHutTheta: 0.6,
+        gravity: 1,
+        slowDown: 10,
+        scalingRatio: 2,
       },
-    ],
-  });
-
-  // 改善拖拽体验：在画布上显示抓手光标并在按下时切换为抓握
-  try {
-    const zr = chart.getZr();
-    zr.on("mousedown", (_e: any) => {
-      // 只有在空白区域或画布上按下时切换为抓握（避免影响节点拖动视觉）
-      (el as HTMLElement).style.cursor = "grabbing";
     });
-    zr.on("mouseup", (_e: any) => {
-      (el as HTMLElement).style.cursor = "grab";
-    });
-    zr.on("globalout", () => {
-      (el as HTMLElement).style.cursor = "default";
-    });
-  } catch {
-    // 若 getZr 不可用则忽略
+    layout.start();
+    // 暴露停止接口，便于在页面卸载或需要时停止布局计算
+    try {
+      (window as any).__graphLayout = (window as any).__graphLayout || {};
+      (window as any).__graphLayout.stop = () => layout.stop && layout.stop();
+      (window as any).__graphLayout.kill = () => layout.kill && layout.kill();
+    } catch {}
+  } catch (e) {
+    // 若 worker 不可用，则回退到同步布局或保持初始布局
+    console.warn("ForceAtlas2 worker unavailable, skipping layout worker.", e);
   }
 
-  // 亮暗切换：通过按钮切换色板与背景
-  const btn = document.getElementById("theme-toggle");
-  let isDark = false;
-  const lightBg = "#ffffff";
-  const darkBg = "#0f1115";
-
-  function applyTheme() {
-    const backgroundColor = isDark ? darkBg : lightBg;
-    chart.setOption({
-      backgroundColor,
-      series: [
-        {
-          id: "main-graph",
-          // 不覆盖节点的 itemStyle.color，保留基于 PALETTE 的颜色映射
-          lineStyle: { color: isDark ? "#888" : "#aaa" },
-          emphasis: {
-            lineStyle: { opacity: 1, width: 2 },
-            itemStyle: { opacity: 1 },
-          },
-          blur: { lineStyle: { opacity: 0.1 }, itemStyle: { opacity: 0.2 } },
-        },
-      ],
-    });
-  }
-
-  btn?.addEventListener("click", () => {
-    isDark = !isDark;
-    applyTheme();
-  });
-  // 初始化按系统偏好设置
-  isDark =
+  // detect initial theme before creating the Sigma renderer so reducers can use it
+  let isDark =
     window.matchMedia &&
     window.matchMedia("(prefers-color-scheme: dark)").matches;
-  applyTheme();
 
-  // 使用 ECharts 内置的相邻高亮机制，避免重载/抖动
-  // focusNodeAdjacency 已开启，无需手动过滤和 setOption
+  const renderer = new Sigma(g, container, {
+    renderEdgeLabels: false,
+    // Ensure node labels are rendered and their color is taken from node attributes
+    renderLabels: true,
+    // Tell Sigma to read label color from the node attribute `labelColor`
+    labelColor: { attribute: "labelColor" },
+    allowInvalidContainer: true,
+    zIndex: 0,
+    // Use reducers carefully: preserve original data and only override render-only fields
+    nodeReducer: (node: string, data: any) => {
+      return {
+        ...data,
+        labelColor: data.labelColor || (isDark ? "#fff" : "#111"),
+      } as any;
+    },
+    edgeReducer: (edge: string, data: any) => {
+      return {
+        ...data,
+        color: data.color,
+      } as any;
+    },
+    // Override the default hover drawer so the hover box and label follow our theme
+    defaultDrawNodeHover: (
+      context: CanvasRenderingContext2D,
+      data: any,
+      settings: any
+    ) => {
+      try {
+        const size = settings.labelSize;
+        const font = settings.labelFont;
+        const weight = settings.labelWeight;
+        context.font = `${weight} ${size}px ${font}`;
 
-  chart.on("click", (params: any) => {
-    const url = params?.data?.value as string | undefined;
-    if (url) window.open(url, "_blank");
+        // Choose background based on current theme
+        const bg = isDark ? "rgba(255,255,255,0.06)" : "rgba(0,0,0,0.06)";
+        context.fillStyle = bg;
+        context.shadowOffsetX = 0;
+        context.shadowOffsetY = 0;
+        context.shadowBlur = isDark ? 8 : 4;
+        context.shadowColor = isDark ? "#000" : "#000";
+
+        const PADDING = 2;
+        if (typeof data.label === "string") {
+          const textWidth = context.measureText(data.label).width;
+          const boxWidth = Math.round(textWidth + 5);
+          const boxHeight = Math.round(size + 2 * PADDING);
+          const radius = Math.max(data.size, size / 2) + PADDING;
+          const angleRadian = Math.asin(boxHeight / 2 / radius);
+          const xDeltaCoord = Math.sqrt(
+            Math.abs(Math.pow(radius, 2) - Math.pow(boxHeight / 2, 2))
+          );
+          context.beginPath();
+          context.moveTo(data.x + xDeltaCoord, data.y + boxHeight / 2);
+          context.lineTo(data.x + radius + boxWidth, data.y + boxHeight / 2);
+          context.lineTo(data.x + radius + boxWidth, data.y - boxHeight / 2);
+          context.lineTo(data.x + xDeltaCoord, data.y - boxHeight / 2);
+          context.arc(data.x, data.y, radius, angleRadian, -angleRadian);
+          context.closePath();
+          context.fill();
+        } else {
+          context.beginPath();
+          context.arc(data.x, data.y, data.size + PADDING, 0, Math.PI * 2);
+          context.closePath();
+          context.fill();
+        }
+        context.shadowOffsetX = 0;
+        context.shadowOffsetY = 0;
+        context.shadowBlur = 0;
+
+        // Do not draw the label text here — Sigma draws labels in a separate
+        // pass using the node's `labelColor`. Drawing text here causes double
+        // rendering (ghosting). Leave text drawing to Sigma's label renderer.
+      } catch {
+        // ignore drawing errors
+      }
+    },
+  } as any);
+
+  // Tooltip element for hover
+  let tooltip: HTMLElement | null = document.getElementById("graph-tooltip");
+  if (!tooltip) {
+    tooltip = document.createElement("div");
+    tooltip.id = "graph-tooltip";
+    tooltip.style.position = "fixed";
+    tooltip.style.pointerEvents = "none";
+    tooltip.style.zIndex = "9999";
+    tooltip.style.background = "rgba(0,0,0,0.75)";
+    tooltip.style.color = "#fff";
+    tooltip.style.padding = "8px 10px";
+    tooltip.style.borderRadius = "6px";
+    tooltip.style.maxWidth = "320px";
+    tooltip.style.fontSize = "13px";
+    tooltip.style.display = "none";
+    document.body.appendChild(tooltip);
+  }
+
+  function showTooltip(
+    content: HTMLElement | string,
+    clientX: number,
+    clientY: number
+  ) {
+    if (!tooltip) return;
+    // clear previous
+    tooltip.innerHTML = "";
+    if (typeof content === "string") {
+      // fallback: put string inside a div
+      const wrapper = document.createElement("div");
+      wrapper.innerText = content;
+      tooltip.appendChild(wrapper);
+    } else {
+      tooltip.appendChild(content);
+    }
+    tooltip.style.left = `${clientX + 12}px`;
+    tooltip.style.top = `${clientY + 12}px`;
+    tooltip.style.display = "block";
+  }
+
+  function hideTooltip() {
+    if (!tooltip) return;
+    tooltip.style.display = "none";
+  }
+
+  renderer.on("clickNode", (e: any) => {
+    try {
+      const node = e.node as string;
+      const attrs = g.getNodeAttributes(node) as any;
+      if (attrs && attrs.url) window.open(attrs.url, "_blank");
+    } catch {}
   });
 
-  window.addEventListener("resize", () => chart.resize());
+  // Hover handlers: enter/leave/move
+  (renderer as any).on("enterNode", (e: any) => {
+    try {
+      const nodeId = e.node as string;
+      const attrs = g.getNodeAttributes(nodeId) as any;
+      const name = attrs.label || nodeId;
+      const url = attrs.url || "";
+      const desc = attrs.desc || "";
+      // build DOM content for tooltip (allows external CSS control)
+      const content = document.createElement("div");
+      content.className = "graph-tooltip-content";
+      const titleEl = document.createElement("strong");
+      titleEl.className = "graph-tooltip-title";
+      titleEl.textContent = name;
+      content.appendChild(titleEl);
+      if (desc) {
+        const descEl = document.createElement("div");
+        descEl.className = "graph-tooltip-desc";
+        descEl.textContent = desc;
+        content.appendChild(descEl);
+      }
+      if (url) {
+        const urlEl = document.createElement("div");
+        urlEl.className = "graph-tooltip-url";
+        const a = document.createElement("a");
+        a.href = url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = url;
+        urlEl.appendChild(a);
+        content.appendChild(urlEl);
+      }
+      const clientX =
+        e.event && e.event.clientX ? e.event.clientX : window.innerWidth / 2;
+      const clientY =
+        e.event && e.event.clientY ? e.event.clientY : window.innerHeight / 2;
+      showTooltip(content, clientX, clientY);
+      // 临时高亮节点（不更改原始颜色记录）
+      try {
+        const base =
+          attrs.baseColor ||
+          originalColors.get(nodeId) ||
+          PALETTE[hashToIndex(nodeId)];
+        const highlight = adjustHex(base, 40);
+        g.setNodeAttribute(nodeId, "color", highlight);
+        // 略微放大
+        g.setNodeAttribute(nodeId, "size", (attrs.size || 6) * 1.3);
+        try {
+          renderer.refresh();
+        } catch {}
+      } catch {}
+    } catch {}
+  });
+  (renderer as any).on("leaveNode", (e: any) => {
+    try {
+      const nodeId = e.node as string;
+      const attrs = g.getNodeAttributes(nodeId) as any;
+      // 恢复颜色与大小
+      try {
+        const base =
+          attrs.baseColor ||
+          originalColors.get(nodeId) ||
+          PALETTE[hashToIndex(nodeId)];
+        const themed = isDark ? adjustHex(base, 20) : base;
+        g.setNodeAttribute(nodeId, "color", themed);
+        if (attrs && attrs.size != null)
+          g.setNodeAttribute(
+            nodeId,
+            "size",
+            degreeToSize(degreeMap[nodeId] || 0, maxDegree)
+          );
+        try {
+          renderer.refresh();
+        } catch {}
+      } catch {}
+    } catch {}
+    hideTooltip();
+  });
+  (renderer as any).on("mousemove", (e: any) => {
+    try {
+      if (tooltip && tooltip.style.display === "block") {
+        const clientX =
+          e.event && e.event.clientX ? e.event.clientX : window.innerWidth / 2;
+        const clientY =
+          e.event && e.event.clientY ? e.event.clientY : window.innerHeight / 2;
+        tooltip.style.left = `${clientX + 12}px`;
+        tooltip.style.top = `${clientY + 12}px`;
+      }
+    } catch {}
+  });
 
-  // 暴露搜索与聚焦 API 到全局，供页面顶部搜索框调用
+  // Theme handling
+  function hexToRgb(hex: string) {
+    const h = hex.replace("#", "");
+    const bigint = parseInt(h, 16);
+    return [(bigint >> 16) & 255, (bigint >> 8) & 255, bigint & 255];
+  }
+  function rgbToHex(r: number, g: number, b: number) {
+    return "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
+  }
+  function adjustHex(hex: string, percent: number) {
+    const [r, g, b] = hexToRgb(hex);
+    const amt = Math.round(255 * (percent / 100));
+    const nr = Math.max(0, Math.min(255, r + amt));
+    const ng = Math.max(0, Math.min(255, g + amt));
+    const nb = Math.max(0, Math.min(255, b + amt));
+    return rgbToHex(nr, ng, nb);
+  }
+
+  function applyTheme(dark: boolean) {
+    try {
+      const bg = dark ? "#0f1115" : "#ffffff";
+      const edgeColor = dark ? "#888" : "#aaa";
+      container!.style.background = bg;
+      // update nodes and edges colors
+      g.forEachNode((id: string, attr: any) => {
+        // use immutable baseColor to compute themed color to avoid cumulative changes
+        const base = attr.baseColor || PALETTE[hashToIndex(id)];
+        const newColor = dark ? adjustHex(base, 20) : base;
+        try {
+          g.setNodeAttribute(id, "color", newColor);
+          // 强制设置标签颜色，确保文本在暗/亮主题下可读
+          const labelColor = dark ? "#fff" : "#111";
+          g.setNodeAttribute(id, "labelColor", labelColor);
+        } catch {}
+      });
+      g.forEachEdge((edge: any, _attr: any) => {
+        try {
+          g.setEdgeAttribute(edge, "color", edgeColor);
+        } catch {}
+      });
+      // update tooltip style to follow theme
+      if (tooltip) {
+        tooltip.style.background = dark
+          ? "rgba(0,0,0,0.75)"
+          : "rgba(255,255,255,0.95)";
+        tooltip.style.color = dark ? "#fff" : "#111";
+        tooltip.style.boxShadow = dark
+          ? "0 2px 10px rgba(0,0,0,0.5)"
+          : "0 2px 10px rgba(0,0,0,0.08)";
+      }
+      // refresh renderer to reflect changes
+      try {
+        renderer.refresh();
+      } catch {}
+    } catch {}
+  }
+
+  const btn = document.getElementById("theme-toggle");
+  btn?.addEventListener("click", () => {
+    isDark = !isDark;
+    applyTheme(isDark);
+  });
+  // listen to system preference changes
+  try {
+    if (window.matchMedia) {
+      const mq = window.matchMedia("(prefers-color-scheme: dark)");
+      if (mq.addEventListener)
+        mq.addEventListener("change", (ev: any) => {
+          isDark = ev.matches;
+          applyTheme(isDark);
+        });
+    }
+  } catch {}
+  applyTheme(isDark);
+
   function find(query: string) {
     const q = (query || "").trim().toLowerCase();
     if (!q) return [];
-    const out: Array<any> = [];
-    for (const n of nodes) {
-      const name = (n.name || "").toString().toLowerCase();
-      const url = ((n as any).url || (n as any).value || "")
-        .toString()
-        .toLowerCase();
-      let hostname = "";
-      try {
-        hostname = new URL(url).hostname;
-      } catch {
-        hostname = "";
-      }
-      if (
-        name.includes(q) ||
-        url.includes(q) ||
-        hostname.includes(q) ||
-        n.id.includes(q)
-      ) {
+    const out: any[] = [];
+    g.forEachNode((id: string, attr: any) => {
+      const name = (attr.label || "").toString().toLowerCase();
+      const url = (attr.url || "").toString().toLowerCase();
+      if (name.includes(q) || url.includes(q) || id.includes(q)) {
         out.push({
-          id: n.id,
-          name: n.name,
-          url: (n as any).url || (n as any).value,
-          desc: (n as any).desc,
+          id,
+          name: attr.label || id,
+          url: attr.url,
+          desc: attr.desc,
         });
       }
-    }
+    });
     return out;
   }
 
-  function getNodeLayout(id: string) {
+  function focusNodeById(id: string) {
     try {
-      const seriesModel =
-        (chart.getModel &&
-          (chart.getModel() as any).getSeriesByIndex &&
-          (chart.getModel() as any).getSeriesByIndex(0)) ||
-        null;
-      const graph =
-        seriesModel &&
-        (seriesModel.getGraph
-          ? seriesModel.getGraph()
-          : seriesModel.graph || null);
-      const node = graph && (graph.getNodeById ? graph.getNodeById(id) : null);
-      if (node && node.getLayout) return node.getLayout();
+      const camera = renderer.getCamera();
+      if (!camera) return;
+      const pos = g.getNodeAttributes(id) as any;
+      if (!pos || pos.x == null || pos.y == null) return;
+      camera.animate({ x: pos.x, y: pos.y, ratio: 0.6 }, { duration: 600 });
     } catch {}
-    // fallback to saved positions
-    const r = idToRaw[id];
-    if (r && r.x != null && r.y != null) return [r.x, r.y];
-    return null;
   }
 
-  function focusNodeById(id: string, zoom = 1.4) {
-    try {
-      const layout = getNodeLayout(id);
-      if (!layout) return;
-      const zr = chart.getZr && chart.getZr();
-      let pixel: any = null;
-      try {
-        pixel = chart.convertToPixel
-          ? chart.convertToPixel({ seriesIndex: 0 }, layout as any)
-          : null;
-      } catch {}
-      const elRect = (el as HTMLElement).getBoundingClientRect();
-      if (!pixel) {
-        // fallback：根据布局尝试估算
-        pixel = [
-          elRect.width / 2 + (layout[0] || 0) * 0.001,
-          elRect.height / 2 + (layout[1] || 0) * 0.001,
-        ];
-      }
-
-      try {
-        const vp =
-          zr &&
-          zr.painter &&
-          zr.painter.getViewportRoot &&
-          zr.painter.getViewportRoot();
-        if (vp) {
-          const cx = elRect.width / 2;
-          const cy = elRect.height / 2;
-          const curPos = vp.position || [0, 0];
-          const dx = cx - pixel[0];
-          const dy = cy - pixel[1];
-          vp.position = [(curPos[0] || 0) + dx, (curPos[1] || 0) + dy];
-          // set scale if API available
-          try {
-            if (typeof zoom === "number" && zoom > 0) {
-              vp.scale = zoom;
-              vp.scaleX = zoom;
-              vp.scaleY = zoom;
-            }
-          } catch {}
-          if (zr && zr.refresh) {
-            zr.refresh();
-          }
-        }
-      } catch {
-        // ignore viewport failures
-      }
-
-      // 高亮目标节点（视觉提示）
-      try {
-        const seriesOpt =
-          (chart.getOption && (chart.getOption().series || [])) || [];
-        const data = (seriesOpt[0] && seriesOpt[0].data) || [];
-        const dataIndex = data.findIndex((d: any) => d && d.id === id);
-        if (dataIndex >= 0 && chart.dispatchAction) {
-          chart.dispatchAction({
-            type: "highlight",
-            seriesId: "main-graph",
-            dataIndex,
-          });
-          setTimeout(
-            () =>
-              chart.dispatchAction &&
-              chart.dispatchAction({
-                type: "downplay",
-                seriesId: "main-graph",
-                dataIndex,
-              }),
-            3000
-          );
-        }
-      } catch {}
-    } catch (e) {
-      console.error(e);
-    }
-  }
-
-  function focusByDomain(u: string) {
-    try {
-      let host = u || "";
-      try {
-        host = new URL(u).hostname;
-      } catch {
-        /* maybe user passed hostname */
-      }
-      host = (host || u || "").toLowerCase();
-      if (!host) return;
-      // 尝试匹配 url 或 id
-      for (const n of nodes) {
-        const url = ((n as any).url || (n as any).value || "")
-          .toString()
-          .toLowerCase();
-        let hostname = "";
-        try {
-          hostname = new URL(url).hostname;
-        } catch {}
-        if (hostname === host || url.includes(host) || n.id === host) {
-          focusNodeById(n.id);
-          return;
-        }
-      }
-    } catch (e) {
-      console.error(e);
-    }
-  }
-
-  // attach to window for external use
   try {
     (window as any).__graphApi = (window as any).__graphApi || {};
     (window as any).__graphApi.find = find;
     (window as any).__graphApi.focusNodeById = focusNodeById;
-    (window as any).__graphApi.focusByDomain = focusByDomain;
   } catch {}
 }
 
