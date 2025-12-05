@@ -5,123 +5,105 @@ site:
   friends:
     - name: 爱吃肉的猫
       url: https://meuicat.com/
-      favicon: https://meuicat.com/media/favicon.ico
     - name: 杜老师说
       url: https://dusays.com/
-      favicon: /StreamlinePlumpColorWebFlat.svg
     - name: Akilar
       url: https://akilar.top/
-      favicon: /StreamlinePlumpColorWebFlat.svg
     - name: 张洪Heo
       url: https://blog.zhheo.com/
-      favicon: https://p.zhheo.com/20234681e06b8e086aa5b15481cb89fd38c7071002.png!cover
     - name: 星の野
       url: https://blog.byer.top/
-      favicon: https://blog.byer.top/favicon.ico
-    - name: 青桔气球
-      url: https://blog.qingju.cn/
-      favicon: /StreamlinePlumpColorWebFlat.svg
+    # - name: 青桔气球
+    #   url: https://blog.qingju.cn/
+    #   favicon: /StreamlinePlumpColorWebFlat.svg
     - name: 东方月初
       url: https://blog.biuxin.com/
-      favicon: https://x.xinb.de/i/2025/12/02/692eaca3886a1.webp
     - name: 方寻
       url: https://blog.findingx.cc/
-      favicon: https://blog.findingx.cc/favicon.ico
     - name: AirTouch
       url: https://xsl.im/
-      favicon: https://www.xsl.im/favicon.webp
-    - name: 银河星港
-      url: https://starsdock.com/
-      favicon: /StreamlinePlumpColorWebFlat.svg
+#     - name: 银河星港
+#       url: https://starsdock.com/
+#       favicon: /StreamlinePlumpColorWebFlat.svg
     - name: 花生莲子粥
       url: https://blog.hslzz.cn/
-      favicon: https://blog.hslzz.cn/favicon/favicon-96x96.png
-    - name: 星港Star
-      url: https://blog.starsdock.top/
-      favicon: /StreamlinePlumpColorWebFlat.svg
+#     - name: 星港Star
+#       url: https://blog.starsdock.top/
+#       favicon: /StreamlinePlumpColorWebFlat.svg
     - name: 星辰
       url: https://blog.6ing.top/
-      favicon: /StreamlinePlumpColorWebFlat.svg
     - name: HiPeach
       url: https://blog.opeach.cn/
-      favicon: https://blog.opeach.cn/
     - name: 轻笑
       url: https://www.qcqx.cn/
-      favicon: https://www.qcqx.cn/favicon.ico
     - name: M.Talen
       url: https://blog.talen.top/
-      favicon: /StreamlinePlumpColorWebFlat.svg
     - name: 微生之最
       url: https://www.swszz.cn/
-      favicon: https://cos.swszz.cn/2025/09/20250916130136343.webp
-    - name: SerMs
-      url: https://blog.serms.top/
-      favicon: /StreamlinePlumpColorWebFlat.svg
-    - name: 绯鞠
-      url: https://blog.feiqiu.top/
-      favicon: /StreamlinePlumpColorWebFlat.svg
-    - name: 凌霞软件
-      url: https://www.lxware.cn/
-      favicon: https://file.lxware.cn/fav-2.png
-    - name: 开往
-      url: https://www.travellings.cn/
-      favicon: /StreamlinePlumpColorWebFlat.svg
-    - name: 博友圈
-      url: https://www.boyouquan.com/home
-      favicon: https://www.boyouquan.com/assets/favicon.ico
-    - name: 发现博客
-      url: https://bf.zzxworld.com/
-      favicon: https://bf.zzxworld.com/images/favicon.png
-    - name: 博客我们
-      url: https://blogwe.com/
-      favicon: https://blogwe.com/favicon.ico
-    - name: 笔墨迹
-      url: https://blogscn.fun/
-      favicon: /StreamlinePlumpColorWebFlat.svg
-    - name: 博客圈
-      url: https://blogquan.cn/
-      favicon: https://blogquan.cn/favicon.ico
+    # - name: SerMs
+    #   url: https://blog.serms.top/
+    #   favicon: /StreamlinePlumpColorWebFlat.svg
+    # - name: 绯鞠
+    #   url: https://blog.feiqiu.top/
+    #   favicon: /StreamlinePlumpColorWebFlat.svg
+#     - name: 凌霞软件
+#       url: https://www.lxware.cn/
+#       favicon: https://file.lxware.cn/fav-2.png
+#     - name: 开往
+#       url: https://www.travellings.cn/
+#       favicon: /StreamlinePlumpColorWebFlat.svg
+#     - name: 博友圈
+#       url: https://www.boyouquan.com/home
+#       favicon: https://www.boyouquan.com/assets/favicon.ico
+#     - name: 发现博客
+#       url: https://bf.zzxworld.com/
+#       favicon: https://bf.zzxworld.com/images/favicon.png
+#     - name: 博客我们
+#       url: https://blogwe.com/
+#       favicon: https://blogwe.com/favicon.ico
+#     - name: 笔墨迹
+#       url: https://blogscn.fun/
+#       favicon: /StreamlinePlumpColorWebFlat.svg
+#     - name: 博客圈
+#       url: https://blogquan.cn/
+#       favicon: https://blogquan.cn/favicon.ico
     - name: 龙
       url: https://dragonboyl.github.io/
-      favicon: /StreamlinePlumpColorWebFlat.svg
-    - name: Yu Sir
-      url: https://gaoyuyu.eu.org/
-      favicon: /StreamlinePlumpColorWebFlat.svg
-    - name: LINUX DO
-      url: https://linux.do/?source=blog_liushen_fun
-      favicon: /StreamlinePlumpColorWebFlat.svg
-    - name: Hexo官网
-      url: https://hexo.io/zh-tw/
-      favicon: https://hexo.io/icon/apple-touch-icon-57x57.png
-    - name: Gitee
-      url: https://gitee.com/
-      favicon: https://gitee.com/favicon.ico
-    - name: github
-      url: https://github.com/
-    - name: 柳神云图床
-      url: https://img.liiiu.cn/
-      favicon: https://img.liiiu.cn/favicon.ico
-    - name: TianLiGPT
-      url: https://summary.zhheo.com/admin
-      favicon: https://bu.dusays.com/2023/04/15/643a29d0cf651.png
-    - name: 多吉云CDN
-      url: https://console.dogecloud.com/home/overview
-      favicon: https://console.dogecloud.com/images/icon/favicon.png
-    - name: 阿里云服务器
-      url: https://ecs.console.aliyun.com/home
-      favicon: https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
-    - name: 缤纷云
-      url: https://console.bitiful.com/buckets
-      favicon: https://console.bitiful.com/favicon.ico
-    - name: 必应站长
-      url: https://www.bing.com/webmasters/home
-      favicon: https://www.bing.com/favicon.ico
-    - name: 百度站长
-      url: https://ziyuan.baidu.com/site/index
-      favicon: https://www.baidu.com/img/baidu.svg
-    - name: 谷歌站长
-      url: https://search.google.com/search-console/about
-      favicon: https://www.gstatic.com/search-console/scfe/favicon.png
-    - name: 阿里云域名
-      url: https://dc.console.aliyun.com/next/index#/domain-list/all
-      favicon: https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
+    # - name: Yu Sir
+    #   url: https://gaoyuyu.eu.org/
+    #   favicon: /StreamlinePlumpColorWebFlat.svg
+#     - name: LINUX DO
+#       url: https://linux.do/?source=blog_liushen_fun
+#       favicon: /StreamlinePlumpColorWebFlat.svg
+#     - name: Gitee
+#       url: https://gitee.com/
+#       favicon: https://gitee.com/favicon.ico
+#     - name: github
+#       url: https://github.com/
+#     - name: 柳神云图床
+#       url: https://img.liiiu.cn/
+#       favicon: https://img.liiiu.cn/favicon.ico
+#     - name: TianLiGPT
+#       url: https://summary.zhheo.com/admin
+#       favicon: https://bu.dusays.com/2023/04/15/643a29d0cf651.png
+#     - name: 多吉云CDN
+#       url: https://console.dogecloud.com/home/overview
+#       favicon: https://console.dogecloud.com/images/icon/favicon.png
+#     - name: 阿里云服务器
+#       url: https://ecs.console.aliyun.com/home
+#       favicon: https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico
+#     - name: 缤纷云
+#       url: https://console.bitiful.com/buckets
+#       favicon: https://console.bitiful.com/favicon.ico
+#     - name: 必应站长
+#       url: https://www.bing.com/webmasters/home
+#       favicon: https://www.bing.com/favicon.ico
+#     - name: 百度站长
+#       url: https://ziyuan.baidu.com/site/index
+#       favicon: https://www.baidu.com/img/baidu.svg
+#     - name: 谷歌站长
+#       url: https://search.google.com/search-console/about
+#       favicon: https://www.gstatic.com/search-console/scfe/favicon.png
+#     - name: 阿里云域名
+#       url: https://dc.console.aliyun.com/next/index#/domain-list/all
+#       favicon: https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico

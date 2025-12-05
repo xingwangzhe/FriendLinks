@@ -39,7 +39,7 @@ export function init(data: GraphData) {
         roam: true,
         draggable: true,
         label: { show: true, position: "right" },
-        force: { repulsion: 150, edgeLength: 80 },
+        force: { repulsion: 150, edgeLength: 240 },
         focusNodeAdjacency: true,
         emphasis: {
           focus: "adjacency",
@@ -70,150 +70,89 @@ export function init(data: GraphData) {
 
   chart.setOption(option);
 
-  // ======= 优化：有控制的并发加载图标（favicon） =======
-  // 避免同时发起过多请求，防止浏览器/API 限流
-  const CONCURRENCY = 6; // 可根据需要调整
-  const CACHE_KEY = "faviconLoadCache_v1";
-  const cacheRaw = localStorage.getItem(CACHE_KEY);
-  const faviconLoadCache: Record<string, { ok: boolean; ts: number }> = cacheRaw
-    ? JSON.parse(cacheRaw)
-    : {};
+  // ======= 改为使用色盲友好的 12 色调色板，完全放弃网站图标 =======
+  // 使用稳定哈希将节点映射到 12 色中的一种，保证颜色在刷新间稳定
+  const PALETTE = [
+    "#E69F00",
+    "#56B4E9",
+    "#009E73",
+    "#F0E442",
+    "#0072B2",
+    "#D55E00",
+    "#CC79A7",
+    "#000000",
+    "#8C564B",
+    "#E377C2",
+    "#7F7F7F",
+    "#17BECF",
+  ];
 
-  function saveCache() {
-    try {
-      localStorage.setItem(CACHE_KEY, JSON.stringify(faviconLoadCache));
-    } catch {
-      // ignore storage write errors
+  function hashToIndex(s: string) {
+    let h = 2166136261 >>> 0;
+    for (let i = 0; i < s.length; i++) {
+      h ^= s.charCodeAt(i);
+      h = Math.imul(h, 16777619) >>> 0;
     }
+    return h % PALETTE.length;
   }
 
-  function loadImage(url: string) {
-    return new Promise<void>((resolve, reject) => {
-      const img = new Image();
-      img.onload = () => resolve();
-      img.onerror = () => reject(new Error("img load error"));
-      img.src = url;
-    });
-  }
-
-  async function attemptLoadImage(
-    url: string,
-    retries = 2,
-    delayMs = 250
-  ): Promise<void> {
-    for (let i = 0; i <= retries; i++) {
-      try {
-        await loadImage(url);
-        return;
-      } catch {
-        if (i === retries) throw new Error(`load fail ${url}`);
-        await new Promise((r) => setTimeout(r, delayMs * Math.pow(2, i)));
-      }
-    }
-  }
-
-  function createQueue(limit: number) {
-    const q: Array<() => Promise<void>> = [];
-    let running = 0;
-    async function next() {
-      if (running >= limit || q.length === 0) return;
-      const task = q.shift()!;
-      running++;
-      try {
-        await task();
-      } catch {
-        // swallow error for single task
-      }
-      running--;
-      next();
-    }
-    return function enqueue(task: () => Promise<void>) {
-      q.push(task);
-      next();
-    };
-  }
-
-  const enqueue = createQueue(CONCURRENCY);
-  // 批量更新到 ECharts，减少频繁 setOption
-  const updateMap = new Map<string, string>();
-  let flushTimer: number | undefined;
-  function scheduleFlush() {
-    if (flushTimer != null) return;
-    flushTimer = window.setTimeout(() => {
-      const updates: any[] = [];
-      updateMap.forEach((symbol, id) => {
-        const raw = idToRaw[id] || {};
-        updates.push({
-          id,
-          symbol,
-          name: raw.name,
-          value: raw.value,
-          desc: raw.desc,
-        });
-      });
-      if (updates.length) {
-        chart.setOption({
-          series: [
-            {
-              id: "main-graph",
-              data: updates,
-            },
-          ],
-        });
-      }
-      updateMap.clear();
-      flushTimer = undefined;
-    }, 250);
-  }
-
-  // 加载所有节点的 favicon（仅对具有 favicon 字段的节点）
   const nodes = data.nodes;
-  // 建立 id -> 原始节点数据映射（用于在局部更新时保留 name/value/desc 等字段，避免丢失 tooltip 信息）
-  const idToRaw: Record<
-    string,
-    { name?: string; value?: string; desc?: string }
-  > = {};
+  // 建立 id -> 原始节点数据映射并在后续读取位置
+  const idToRaw: Record<string, any> = {};
   nodes.forEach((n) => {
     idToRaw[n.id] = {
       name: n.name,
       value: (n as any).url || (n as any).value,
       desc: (n as any).desc,
+      x: undefined,
+      y: undefined,
     };
   });
-  for (const n of nodes) {
-    if (!n.favicon) continue;
-    const url = n.favicon;
-    // 如果已在 cache 且成功过，直接设置符号
-    const localFallback = "/StreamlinePlumpColorWebFlat.svg";
-    if (faviconLoadCache[url]?.ok) {
-      updateMap.set(n.id, `image://${url}`);
-      scheduleFlush();
-      continue;
-    }
 
-    // 如果缓存中标记为失败，直接使用本地图标避免重复请求
-    if (faviconLoadCache[url]?.ok === false) {
-      updateMap.set(n.id, `image://${localFallback}`);
-      scheduleFlush();
-      continue;
-    }
-
-    enqueue(async () => {
-      try {
-        await attemptLoadImage(url);
-        faviconLoadCache[url] = { ok: true, ts: Date.now() };
-        saveCache();
-        updateMap.set(n.id, `image://${url}`);
-        scheduleFlush();
-      } catch {
-        // 失败则记缓存并用本地图标替换圆形
-        faviconLoadCache[url] = { ok: false, ts: Date.now() };
-        saveCache();
-        updateMap.set(n.id, `image://${localFallback}`);
-        scheduleFlush();
+  // 读取图表中已计算的位置，保存在 idToRaw 以便后续局部更新不触发重布局
+  try {
+    const current = chart.getOption();
+    const seriesData =
+      ((current.series as any[]) || []).find((s) => s && s.id === "main-graph")
+        ?.data || [];
+    for (const d of seriesData) {
+      if (d && d.id && (d.x != null || d.y != null)) {
+        idToRaw[d.id] = Object.assign(idToRaw[d.id] || {}, { x: d.x, y: d.y });
       }
-    });
+    }
+  } catch {
+    // ignore if getOption not available
   }
+
+  // 批量用颜色替换节点（不使用图标），保留位置以避免触发重布局
+  const colorUpdates: any[] = nodes.map((n) => {
+    const raw = idToRaw[n.id] || {};
+    const color = PALETTE[hashToIndex(n.id)];
+    const item: any = {
+      id: n.id,
+      name: raw.name,
+      value: raw.value,
+      desc: raw.desc,
+      symbol: "circle",
+      symbolSize: 28,
+      itemStyle: { color },
+    };
+    if (raw.x != null && raw.y != null) {
+      item.x = raw.x;
+      item.y = raw.y;
+      item.fixed = true;
+    }
+    return item;
+  });
+
+  chart.setOption({
+    series: [
+      {
+        id: "main-graph",
+        data: colorUpdates,
+      },
+    ],
+  });
 
   // 亮暗切换：通过按钮切换色板与背景
   const btn = document.getElementById("theme-toggle");

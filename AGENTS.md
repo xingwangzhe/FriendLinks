@@ -1,89 +1,60 @@
-# AI规范
+# 项目协作提示（AI规范 & 文件规则）
 
-## Ts类型定义
+这个项目使用 Astro + TypeScript 管线，数据以 `links/` 目录下的独立 YAML 文件维护，图谱数据由 `utils/tojson.ts` 生成到 `public/all.json` / `public/graph.json`。请在修改数据或代码时遵循下列约定。
 
-都要写在**types**文件夹里面，然后其它ts去引用！！！
+**类型约定（TypeScript）**:
+- **所有类型定义放在** `types/` 目录（例如 `types/site.ts`、`types/graph.ts`）。
+- 新增约定：`Friend` 类型允许可选 `favicon?: string`（可为外部 URL 或本地路径，如 `/links/icons/xxx.png` 或 `/StreamlinePlumpColorWebFlat.svg`）。
 
+**links 目录下的 YAML 规范**:
+- 每个站点使用独立 YAML 文件，建议以域名命名（`example.com.yml`）。
+- 必需字段：
+  - `site.name`（非空字符串）
+  - `site.description`（非空字符串）
+  - `site.url`（以 `http://` 或 `https://` 开头）
+  - `site.friends`（数组，即使为空也写成 `friends: []`）
+  - `site.friends[].name`（非空字符串）
+  - `site.friends[].url`（以 `http://` 或 `https://` 开头）
+- 可选字段：
+  - `site.favicon`（可为外部 URL 或本地相对路径）
+  - `site.friends[].favicon`（可为外部 URL 或本地相对路径）
 
-
-## links里文件规范
-
-每个友链站点使用独立的 YAML 文件，文件名建议使用站点域名（如 `example.com.yml`）。
-
-### 必需字段
-
-- `site.name`: 站点名称（非空字符串）
-- `site.description`: 站点描述（非空字符串）
-- `site.url`: 站点 URL（必须是合法的 http/https 链接）
-- `site.friends`: 友链数组，每项包含：
-  - `name`: 友链名称（非空字符串）
-  - `url`: 友链 URL（必须是合法的 http/https 链接）
-
-### 可选字段
-
-- `site.favicon`: 站点图标 URL（若不填，自动使用 `https://favicon.im/{hostname}`）
-# AI规范
-
-## Ts 类型定义
-
-- 所有 TypeScript 类型都应放在 `types/` 目录下，其他代码通过引用这些类型保持一致。
-- 新增约定：`Friend` 类型包含可选字段 `favicon?: string`，用于为单个友链指定图标。
-
-请确保在修改类型后同时更新 `types/site.ts` 和 `types/graph.ts`，并在生成脚本（例如 `utils/tojson.ts`）中保持兼容。
-
-## links 里文件规范
-
-每个友链站点使用独立的 YAML 文件，文件名建议使用站点域名（如 `example.com.yml`）。
-
-### 必需字段
-
-- `site.name`: 站点名称（非空字符串）
-- `site.description`: 站点描述（非空字符串）
-- `site.url`: 站点 URL（必须是合法的 `http`/`https` 链接）
-- `site.friends`: 友链数组，每项包含：
-  - `name`: 友链名称（非空字符串）
-  - `url`: 友链 URL（必须是合法的 `http`/`https` 链接）
-
-### 可选字段
-
-- `site.favicon`: 站点图标 URL（可选）
-- `site.friends[].favicon`: 友链的图标 URL（可选，单独为该友链指定图标）
-
-### 示例
-
+**示例**:
 ```yaml
 site:
   name: 我的博客
   description: 分享编程和技术相关的文章
   url: https://example.com
-  favicon: https://example.com/favicon.png  # 可选
+  favicon: /StreamlinePlumpColorWebFlat.svg  # 可为本地文件
   friends:
     - name: 编程小站
       url: https://codehub.example.com
-      favicon: https://codehub.example.com/favicon.ico  # 可选
+      favicon: /links/icons/codehub.png
     - name: 技术前沿
       url: https://techfrontier.example.com
 ```
 
-### favicon 回退与合并策略（重要）
+**favicon 回退与合并策略（重要）**:
+- 回退优先级（生成器 `utils/tojson.ts` 会按此规则处理）：
+  1. 使用 YAML 中 `site.favicon` 或 `site.friends[].favicon`（如果存在且为字符串）
+  2. 否则使用 `https://favicon.im/{hostname}`（hostname 为域名的小写形式）
+  3. 如果以上均不可用或目标站存在证书/跨域问题，则回退到本地占位图标 `/StreamlinePlumpColorWebFlat.svg`
 
-- 回退策略：生成脚本将按优先级选择图标：
-  1. 使用 YAML 中 `site.favicon` 或 `site.friends[].favicon`（如果存在且为合法 URL）；
-  2. 否则使用 `https://favicon.im/{hostname}`（hostname 为域名的小写形式）；
-  3. 如果 hostname 无法解析或以上均不可用，则回退到本地占位图标 `/StreamlinePlumpColorWebFlat.svg`。
+注意：项目已决定在前端图谱中放弃显示网站 favicon（出于隐私、跨域和稳定性考虑）。客户端渲染现在使用一个色盲友好的 12 色调色板来表示节点，`src/scripts/graph.ts` 中已移除图标加载逻辑。YAML 中仍可保留 `favicon` 字段供其它用途，但图谱渲染不会使用它们。
+- 节点 ID 规则：使用域名（hostname，小写）作为 `id`，以保证唯一性与合并便利
+- 合并优先级：当同一域名既作为 `links/` 下的主站，又出现在其他站的 `friends` 中，以 `links/` 下主站定义为准（名称、favicon、description 等）
 
-- 节点 ID 规则：图谱使用域名（hostname，小写）作为节点 `id`，因为域名天然唯一且便于合并。
+**注意事项**:
+1. 所有 URL 请尽量使用 `https://`；若站点证书过期或无法访问，生成器会回退为本地占位图标
+2. `name` 和 `description` 不应为空
+3. `friends` 必须是数组
+4. 在添加/修改 YAML 后请运行 `npm run json` 校验并生成 `public/all.json` 与 `public/graph.json`
+5. 不符合规范的文件会在终端打印错误并被跳过
 
-- 合并优先级：当同一域名既作为 `links/` 下的“主站”存在，又作为别的主站的 `friend` 出现时，**以主站（links 下定义）的信息优先**（名称、favicon、描述等均使用主站定义），避免重复节点。
+---
 
-### 注意事项
-
-1. 所有 URL 必须以 `http://` 或 `https://` 开头
-2. `name` 和 `description` 不能为空字符串
-3. `friends` 必须是数组，即使为空也应写成 `friends: []`
-4. 文件放置在 `links/` 目录下
-5. 运行 `npm run json` 会校验所有 YAML 文件并生成 `public/all.json` 和 `public/graph.json`（生成器将使用域名作为节点 id，并按上述合并与回退策略处理 favicon）
-6. 不符合规范的文件会在终端打印错误并被跳过
+**维护规则（新增）**:
+- 每次对项目结构或生成逻辑（例如修改 `utils/tojson.ts`、`src/scripts/graph.ts`、类型定义或 `public/` 路径）进行更新时，必须检查并评估本文件（提示词/协作规范）是否需要同步更新；若需要，请立刻更新并提交本 `AGENTS.md`。
 
 ---
 
