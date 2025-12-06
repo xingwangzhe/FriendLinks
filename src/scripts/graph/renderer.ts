@@ -11,7 +11,7 @@ import type { TooltipApi } from "./tooltip";
 export function createRenderer(
   g: Graph,
   container: HTMLElement,
-  isDark: boolean,
+  isDark: boolean
 ): any {
   const renderer = new Sigma(g as any, container, {
     renderEdgeLabels: false,
@@ -35,7 +35,7 @@ export function createRenderer(
     defaultDrawNodeHover: (
       context: CanvasRenderingContext2D,
       data: any,
-      settings: any,
+      settings: any
     ) => {
       try {
         const size = settings.labelSize;
@@ -58,7 +58,7 @@ export function createRenderer(
           const radius = Math.max(data.size, size / 2) + PADDING;
           const angleRadian = Math.asin(boxHeight / 2 / radius);
           const xDeltaCoord = Math.sqrt(
-            Math.abs(Math.pow(radius, 2) - Math.pow(boxHeight / 2, 2)),
+            Math.abs(Math.pow(radius, 2) - Math.pow(boxHeight / 2, 2))
           );
           context.beginPath();
           context.moveTo(data.x + xDeltaCoord, data.y + boxHeight / 2);
@@ -112,7 +112,7 @@ export function wireRendererEvents(
   originalColors: Map<string, string>,
   degreeMap: Record<string, number>,
   maxDegree: number,
-  isDarkRef: { value: boolean },
+  isDarkRef: { value: boolean }
 ) {
   // click -> open url
   renderer.on("clickNode", (e: any) => {
@@ -131,7 +131,7 @@ export function wireRendererEvents(
       const nodeId = e.node as string;
       const attrs = (g as any).getNodeAttributes(nodeId) as any;
       console.log(
-        `[hover] node ${nodeId} coordinates: x=${attrs.x}, y=${attrs.y}`,
+        `[hover] node ${nodeId} coordinates: x=${attrs.x}, y=${attrs.y}`
       );
       const name = attrs.label || nodeId;
       const url = attrs.url || "";
@@ -209,7 +209,7 @@ export function wireRendererEvents(
           (g as any).setNodeAttribute(
             nodeId,
             "size",
-            degreeToSize(degreeMap[nodeId] || 0, maxDegree),
+            degreeToSize(degreeMap[nodeId] || 0, maxDegree)
           );
         }
         try {
