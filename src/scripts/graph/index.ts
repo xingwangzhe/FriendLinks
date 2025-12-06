@@ -299,8 +299,17 @@ export function init(data: GraphData) {
       //   newX: newX.toNumber(),
       //   newY: newY.toNumber(),
       // });
-      // Calculate target zoom based on node size (larger nodes zoom out more)
-      const targetRatio = new Decimal(pos.size).div(50);
+      // Calculate target zoom so that larger nodes -> smaller ratio (zoom out),
+      // and smaller nodes -> larger ratio (zoom in). Use inverse proportionality
+      // and clamp to a reasonable range to avoid extreme zooms.
+      const nodeSizeDecimal = new Decimal(pos.size || 1);
+      // const minRatio = new Decimal(0.25);
+      // const maxRatio = new Decimal(4);
+      // Inverse relationship: baseFactor * (50 / nodeSize)
+      const baseFactor = new Decimal(1);
+      let targetRatio = baseFactor.mul(new Decimal(5).div(nodeSizeDecimal));
+      // if (targetRatio.lessThan(minRatio)) targetRatio = minRatio;
+      // if (targetRatio.greaterThan(maxRatio)) targetRatio = maxRatio;
       // console.log("[图表] focusNodeById - 目标缩放计算", {
       //   targetRatio: targetRatio.toNumber(),
       //   nodeSize: pos.size,
