@@ -8,7 +8,7 @@ import YAML from 'yaml';
 
 const LINKS_DIR = path.resolve(process.cwd(), 'links');
 const OUTPUT_FILE = path.resolve(process.cwd(), 'unreachable-sites.json');
-const TIMEOUT_MS = 30000;
+const TIMEOUT_MS = 60000;
 const CONCURRENCY = process.env.CONCURRENCY ? Number(process.env.CONCURRENCY) : 8;
 
 const ARGS = process.argv.slice(2);
@@ -21,48 +21,90 @@ function isTlsErrorMessage(msg, code) {
   return /certificate|ssl|tls|unable to get local issuer|unable to verify the first certificate|CERT_|ERR_TLS|DEPTH_ZERO_SELF_SIGNED_CERT/i.test(s);
 }
 
-async function checkUrlWithBrowser(browser, url) {
+async function checkUrlWithBrowser(browser, url, opts = {}) {
   let context;
+  const timeout = opts.timeout || TIMEOUT_MS;
+
+  function isTimeoutError(err) {
+    if (!err) return false;
+    const msg = (err.message || String(err)).toLowerCase();
+    const code = (err.code || '').toString().toLowerCase();
+    return /timeout|navigation timeout|navigation failed because|net::err_|net::err_connection_reset/i.test(msg) || /timeout/.test(code) || (err.name && err.name.toLowerCase && err.name.toLowerCase().includes('timeout'));
+  }
+
+  async function doGoto(page, t) {
+    return page.goto(url, { timeout: t, waitUntil: 'domcontentloaded' });
+  }
+
   try {
     context = await browser.newContext({ ignoreHTTPSErrors: false });
     const page = await context.newPage();
-    const resp = await page.goto(url, { timeout: TIMEOUT_MS, waitUntil: 'domcontentloaded' });
-    if (resp) {
-      const status = resp.status();
 
-      // Build server-side redirect chain (if any) by walking redirectedFrom()
-      const req = resp.request();
-      const redirectChain = [];
-      try {
-        let cur = req;
-        // Walk backwards to the original request
-        while (cur && typeof cur.redirectedFrom === 'function' && cur.redirectedFrom()) {
-          const prev = cur.redirectedFrom();
-          if (!prev) break;
-          // unshift to get chain from original -> ... -> last
-          redirectChain.unshift(prev.url());
-          cur = prev;
+    try {
+      const resp = await doGoto(page, timeout);
+      if (resp) {
+        const status = resp.status();
+        const req = resp.request();
+        const redirectChain = [];
+        try {
+          let cur = req;
+          while (cur && typeof cur.redirectedFrom === 'function' && cur.redirectedFrom()) {
+            const prev = cur.redirectedFrom();
+            if (!prev) break;
+            redirectChain.unshift(prev.url());
+            cur = prev;
+          }
+          if (redirectChain.length > 0) redirectChain.push(req.url());
+        } catch {
+          // ignore if Playwright API differs
         }
-        // include the request url as last element if chain not empty
-        if (redirectChain.length > 0) {
-          redirectChain.push(req.url());
+
+        const finalUrl = page.url();
+        const clientRedirect = finalUrl && finalUrl !== url;
+        return { ok: status >= 200 && status < 400, status, redirectChain, finalUrl, clientRedirect };
+      }
+      return { ok: false, error: 'no-response' };
+    } catch (err) {
+      // If it looks like a timeout, attempt one retry with extended timeout
+      if (isTimeoutError(err)) {
+        const extended = Math.max(timeout * 4, 120000);
+        console.log(`  超时，尝试使用更长超时重试：${extended}ms  url=${url}`);
+        try {
+          const resp2 = await doGoto(page, extended);
+          if (resp2) {
+            const status = resp2.status();
+            const req = resp2.request();
+            const redirectChain = [];
+            try {
+              let cur = req;
+              while (cur && typeof cur.redirectedFrom === 'function' && cur.redirectedFrom()) {
+                const prev = cur.redirectedFrom();
+                if (!prev) break;
+                redirectChain.unshift(prev.url());
+                cur = prev;
+              }
+              if (redirectChain.length > 0) redirectChain.push(req.url());
+            } catch {}
+
+            const finalUrl = page.url();
+            const clientRedirect = finalUrl && finalUrl !== url;
+            console.log(`  重试成功： ${url}  status=${status}`);
+            return { ok: status >= 200 && status < 400, status, redirectChain, finalUrl, clientRedirect };
+          }
+          return { ok: false, error: 'no-response-after-retry' };
+        } catch (err2) {
+          // fallthrough to return original error info below
+          const msg2 = err2 && (err2.message || String(err2)) || String(err2);
+          const code2 = err2 && (err2.code || err2.errno) || null;
+          return { ok: false, error: msg2, code: code2, isTls: isTlsErrorMessage(msg2, code2) };
         }
-      } catch (_) {
-        // ignore if Playwright API differs
       }
 
-      // Detect client-side redirect (JS or meta refresh) by comparing final page URL
-      const finalUrl = page.url();
-      const clientRedirect = finalUrl && finalUrl !== url;
-
-      return { ok: status >= 200 && status < 400, status, redirectChain, finalUrl, clientRedirect };
+      const msg = err && (err.message || String(err)) || String(err);
+      const code = err && (err.code || err.errno) || null;
+      return { ok: false, error: msg, code, isTls: isTlsErrorMessage(msg, code) };
     }
-    return { ok: false, error: 'no-response' };
-  } catch (err) {
-    const msg = err && (err.message || String(err)) || String(err);
-    const code = err && (err.code || err.errno) || null;
-    return { ok: false, error: msg, code, isTls: isTlsErrorMessage(msg, code) };
-    } finally {
+  } finally {
     if (context) {
       try { await context.close(); } catch (e) { console.warn('context.close failed:', e && e.message ? e.message : e); }
     }
