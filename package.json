@@ -16,6 +16,7 @@
   "dependencies": {
     "@edgeone/astro": "^1.0.4",
     "astro": "^5.16.4",
+    "axios": "^1.13.2",
     "chokidar": "^5.0.0",
     "concurrently": "^9.2.1",
     "decimal.js": "^10.6.0",
@@ -24,11 +25,26 @@
     "graphology-layout-forceatlas2": "^0.10.1",
     "graphology-utils": "^2.5.2",
     "sigma": "^3.0.2",
+    "user-agents": "^1.1.669",
     "yaml": "^2.8.2",
     "zod": "^4.1.13"
   },
   "devDependencies": {
+    "playwright": "^1.57.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
-  }
+  },
+  "description": "**法律合规说明：** 网站所有者和投稿者必须确保其发布内容及网站运营遵守中华人民共和国以及适用情况下的美利坚合众国法律法规（包括但不限于版权、隐私、网络安全与信息内容方面的法律）。",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingwangzhe/FriendLinks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xingwangzhe/FriendLinks/issues"
+  },
+  "homepage": "https://github.com/xingwangzhe/FriendLinks#readme"
 }
