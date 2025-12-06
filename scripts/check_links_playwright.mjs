@@ -84,11 +84,13 @@ async function run() {
       continue;
     }
     if (doc && doc.site) {
-      addUrl(doc.site.url, file, 'main');
+      // save main site url with its name and parent info as extra
+      // main's parent is the site itself (so it will appear in parents if referenced)
+      addUrl(doc.site.url, file, 'main', { name: doc.site.name, parentName: doc.site.name, parentUrl: doc.site.url });
       const friends = doc.site.friends || [];
       if (Array.isArray(friends)) {
         friends.forEach((f, idx) => {
-          if (f && f.url) addUrl(f.url, file, 'friend', { index: idx, name: f.name });
+          if (f && f.url) addUrl(f.url, file, 'friend', { index: idx, name: f.name, parentName: doc.site.name, parentUrl: doc.site.url });
         });
       }
     }
@@ -147,17 +149,67 @@ async function run() {
 
   if (DRY) {
     console.log('不可访问站点（JSON）：');
-    console.log(JSON.stringify(results, null, 2));
+    // 输出精简后的 JSON
+    const compact = buildCompact(results, urlMap);
+    console.log(JSON.stringify(compact, null, 2));
     return;
   }
 
   try {
-    await fs.writeFile(OUTPUT_FILE, JSON.stringify(results, null, 2), 'utf8');
-    console.log('已写入不可访问站点列表：', OUTPUT_FILE);
+    const compact = buildCompact(results, urlMap);
+    await fs.writeFile(OUTPUT_FILE, JSON.stringify(compact, null, 2), 'utf8');
+    console.log('已写入不可访问站点列表（精简）：', OUTPUT_FILE);
   } catch (err) {
     console.error('写入输出文件失败：', err && err.message);
     process.exit(1);
   }
+}
+
+function buildCompact(results, urlMap) {
+  // Map by url to merge duplicates (should already be unique in results)
+  const map = new Map();
+  for (const r of results) {
+    const entry = urlMap.get(r.url) || { refs: [] };
+    const refs = entry.refs || [];
+
+    // determine site name: prefer main site name, else first friend name, else empty
+    let name = '';
+    let isMain = false;
+    for (const ref of refs) {
+      if (ref.role === 'main' && ref.extra && ref.extra.name) {
+        name = ref.extra.name;
+        isMain = true;
+        break;
+      }
+    }
+    if (!name) {
+      const friendRef = refs.find((f) => f.role === 'friend' && f.extra && f.extra.name);
+      if (friendRef) name = friendRef.extra.name || '';
+    }
+
+    // parents: collect unique parent sites (parentName + parentUrl) from any ref that points to this URL
+    const parents = [];
+    const seen = new Set();
+    for (const ref of refs) {
+      if (ref && ref.extra) {
+        const pUrl = ref.extra.parentUrl || ref.extra.siteUrl || null;
+        const pName = ref.extra.parentName || ref.extra.name || '';
+        if (pUrl) {
+          if (!seen.has(pUrl)) {
+            seen.add(pUrl);
+            parents.push({ name: pName || '', url: pUrl });
+          }
+        }
+      }
+    }
+
+    // remove self-parent entries (parent.url === this site's url)
+    const filteredParents = parents.filter((p) => p.url !== r.url);
+    map.set(r.url, { url: r.url, name: name || '', isMain: isMain, parents: filteredParents });
+  }
+
+  const sites = Array.from(map.values());
+  return { total: sites.length, sites };
 }
 
 run().catch((e) => {
