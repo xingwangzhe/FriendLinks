@@ -1,4 +1,8 @@
 ---
+import "../css/base.css";
+import "../css/topbar.css";
+import "../css/buttons.css";
+import "../css/modal.css";
 export const prerender = true;
 const clientScript = import.meta.env.DEV
   ? "/src/scripts/index-client.ts"
@@ -16,10 +20,6 @@ const clientScript = import.meta.env.DEV
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>友链图谱</title>
-    <link rel="stylesheet" href="/src/css/base.css" />
-    <link rel="stylesheet" href="/src/css/topbar.css" />
-    <link rel="stylesheet" href="/src/css/buttons.css" />
-    <link rel="stylesheet" href="/src/css/modal.css" />
   </head>
   <body>
     <div class="topbar">
@@ -59,8 +59,12 @@ const clientScript = import.meta.env.DEV
     </div>
     <div id="main"></div>
     <div class="top-buttons">
-      <button id="theme-toggle" class="top-button" aria-label="切换主题">切换主题</button>
-      <button id="stats-toggle" class="top-button" aria-label="查看统计信息">📊友链统计</button>
+      <button id="theme-toggle" class="top-button" aria-label="切换主题"
+        >切换主题</button
+      >
+      <button id="stats-toggle" class="top-button" aria-label="查看统计信息"
+        >📊友链统计</button
+      >
     </div>
 
     <!-- 统计弹窗 -->
@@ -89,7 +93,8 @@ const clientScript = import.meta.env.DEV
         white-space: nowrap;
       }
       .top-button:focus {
-        outline: 2px solid color-mix(in srgb, var(--text-color) 20%, transparent);
+        outline: 2px solid
+          color-mix(in srgb, var(--text-color) 20%, transparent);
       }
 
       /* 按钮容器 */

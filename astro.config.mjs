@@ -19,8 +19,8 @@ export default defineConfig({
 			},
 		},
 	},
-	adapter: edgeoneAdapter({
-	    outDir: ".edgeone",
-	    includeFiles: ['public/**'],
-	}),
+	// adapter: edgeoneAdapter({
+	//     outDir: ".edgeone",
+	//     includeFiles: ['public/**'],
+	// }),
 });
