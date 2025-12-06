@@ -29,7 +29,33 @@ async function checkUrlWithBrowser(browser, url) {
     const resp = await page.goto(url, { timeout: TIMEOUT_MS, waitUntil: 'domcontentloaded' });
     if (resp) {
       const status = resp.status();
-      return { ok: status >= 200 && status < 400, status };
+
+      // Build server-side redirect chain (if any) by walking redirectedFrom()
+      const req = resp.request();
+      const redirectChain = [];
+      try {
+        let cur = req;
+        // Walk backwards to the original request
+        while (cur && typeof cur.redirectedFrom === 'function' && cur.redirectedFrom()) {
+          const prev = cur.redirectedFrom();
+          if (!prev) break;
+          // unshift to get chain from original -> ... -> last
+          redirectChain.unshift(prev.url());
+          cur = prev;
+        }
+        // include the request url as last element if chain not empty
+        if (redirectChain.length > 0) {
+          redirectChain.push(req.url());
+        }
+      } catch (_) {
+        // ignore if Playwright API differs
+      }
+
+      // Detect client-side redirect (JS or meta refresh) by comparing final page URL
+      const finalUrl = page.url();
+      const clientRedirect = finalUrl && finalUrl !== url;
+
+      return { ok: status >= 200 && status < 400, status, redirectChain, finalUrl, clientRedirect };
     }
     return { ok: false, error: 'no-response' };
   } catch (err) {
@@ -116,6 +142,9 @@ async function run() {
   const browser = await playwright.chromium.launch({ headless: true });
   const results = [];
 
+  // incremental id for each failure entry
+  let failId = 1;
+
   const queue = [...urls];
   const workers = [];
   for (let i = 0; i < Math.min(CONCURRENCY, queue.length); i++) {
@@ -132,13 +161,23 @@ async function run() {
           console.log(`  结果： ${res.ok ? '正常' : '不可达'}  ${res.status ? `status=${res.status}` : `err=${res.error}`}  time=${duration}ms`);
           if (!res.ok) {
             const entry = urlMap.get(url);
-            results.push({ url, reason: res.error || `status-${res.status || 'unknown'}`, status: res.status || null, isTls: !!res.isTls, refs: entry ? entry.refs : [] });
+            results.push({
+              id: failId++,
+              url,
+              reason: res.error || `status-${res.status || 'unknown'}`,
+              status: res.status || null,
+              isTls: !!res.isTls,
+              redirectChain: res.redirectChain || [],
+              finalUrl: res.finalUrl || null,
+              clientRedirect: !!res.clientRedirect,
+              refs: entry ? entry.refs : []
+            });
           }
         } catch (err) {
           const duration = Date.now() - start;
           console.log(`  结果： 不可达  err=${String(err)}  domain=${domain}  time=${duration}ms`);
           const entry = urlMap.get(url);
-          results.push({ url, reason: String(err), status: null, isTls: false, refs: entry ? entry.refs : [] });
+          results.push({ id: failId++, url, reason: String(err), status: null, isTls: false, redirectChain: [], finalUrl: null, clientRedirect: false, refs: entry ? entry.refs : [] });
         }
       }
     })());
@@ -205,7 +244,21 @@ function buildCompact(results, urlMap) {
 
     // remove self-parent entries (parent.url === this site's url)
     const filteredParents = parents.filter((p) => p.url !== r.url);
-    map.set(r.url, { url: r.url, name: name || '', isMain: isMain, parents: filteredParents });
+
+    // preserve failure metadata (id, reason, status, isTls, redirectChain, finalUrl, clientRedirect)
+    map.set(r.url, {
+      id: r.id || null,
+      url: r.url,
+      name: name || '',
+      isMain: isMain,
+      parents: filteredParents,
+      reason: r.reason || null,
+      status: r.status || null,
+      isTls: !!r.isTls,
+      redirectChain: Array.isArray(r.redirectChain) ? r.redirectChain : [],
+      finalUrl: r.finalUrl || null,
+      clientRedirect: !!r.clientRedirect
+    });
   }
 
   const sites = Array.from(map.values());
