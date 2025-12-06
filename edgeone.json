@@ -3,5 +3,11 @@
   "installCommand": "bun install",
   "buildCommand": "bun run build",
   "nodeVersion": "22.11.0",
-  "outputDirectory": ".edgeone"
+  "outputDirectory": ".edgeone",
+  "caches": [
+    {
+      "source": "/*.json",
+      "cacheTtl": 0
+    }
+  ]
 }
