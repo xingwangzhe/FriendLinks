@@ -158,6 +158,9 @@ export function wireRendererEvents(
         a.target = "_blank";
         a.rel = "noopener noreferrer";
         a.textContent = url;
+        // 添加样式确保在暗色和亮色背景下都能看清
+        a.style.color = isDarkRef.value ? "#87ceeb" : "#0066cc"; // 暗色主题用天蓝色，亮色主题用深蓝色
+        a.style.textDecoration = "underline";
         urlEl.appendChild(a);
         content.appendChild(urlEl);
       }
