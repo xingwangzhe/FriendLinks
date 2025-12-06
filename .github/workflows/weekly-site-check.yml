@@ -1,0 +1,175 @@
+name: Weekly Site Check
+
+on:
+  schedule:
+    # every Sunday at 00:00 UTC
+    - cron: "0 0 * * 0"
+  workflow_dispatch: {}
+
+jobs:
+  check-sites:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Install dependencies for HTTP check
+        run: |
+          npm init -y
+          npm i axios user-agents
+
+      - name: Run site check (Node + axios)
+        run: |
+          node ./scripts/check_links_node.mjs
+        env:
+          GITHUB_ACTOR: ${{ github.actor }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Package modified files
+        run: |
+          if [ -f .modified_links.txt ]; then
+            awk '{print "links/"$0}' .modified_links.txt > .modified_links_prefixed.txt
+            tar -czf modified_links.tgz -T .modified_links_prefixed.txt || true
+            echo "modified_links.tgz created"
+          else
+            echo "no modified files"
+          fi
+
+      - name: Upload modified files artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: modified-links
+          path: modified_links.tgz
+          if-no-files-found: ignore
+
+      - name: Upload modified list artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: modified-list
+          path: .modified_links.txt
+          if-no-files-found: ignore
+
+      - name: Upload Playwright TLS targets
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-tls-targets
+          path: .playwright_tls_targets.json
+          if-no-files-found: ignore
+
+  browser-verify:
+    name: Browser verify failed URLs
+    runs-on: ubuntu-latest
+    needs: check-sites
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download Playwright TLS targets
+        uses: actions/download-artifact@v4
+        with:
+          name: playwright-tls-targets
+          path: ./
+
+      - name: Ensure targets file exists
+        run: |
+          if [ -f .playwright_tls_targets.json ]; then
+            echo "Found .playwright_tls_targets.json"
+          else
+            echo "No TLS targets to verify"
+          fi
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Install Playwright
+        run: |
+          npm init -y
+          npm i -D playwright
+          npx playwright install --with-deps
+
+      - name: Run Playwright TLS verifier
+        run: |
+          if [ -f .playwright_tls_targets.json ]; then
+            node ./scripts/playwright_tls_verify.mjs .playwright_tls_targets.json || true
+            # many verifier scripts write .playwright_tls_restore.txt — normalize to .restore_links.txt
+            if [ -f .playwright_tls_restore.txt ]; then
+              mv .playwright_tls_restore.txt .restore_links.txt
+            fi
+            if [ -f .playwright_tls_restore.txt ]; then
+              echo "Playwright produced .playwright_tls_restore.txt"
+            fi
+            if [ -f .playwright_tls_results.json ]; then
+              echo "Playwright produced results json"
+            fi
+          else
+            echo "No TLS targets to verify"
+          fi
+
+      - name: Upload restore list
+        uses: actions/upload-artifact@v4
+        with:
+          name: restore-list
+          path: .restore_links.txt
+          if-no-files-found: ignore
+
+  apply-commit:
+    name: Apply commit and push
+    runs-on: ubuntu-latest
+    needs: browser-verify
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download modified files
+        uses: actions/download-artifact@v4
+        with:
+          name: modified-links
+          path: ./modified_links
+        continue-on-error: true
+
+      - name: Download restore list
+        uses: actions/download-artifact@v4
+        with:
+          name: restore-list
+          path: ./
+        continue-on-error: true
+
+      - name: Restore files confirmed reachable
+        run: |
+          if [ -f .restore_links.txt ]; then
+            while IFS= read -r file; do
+              echo "Restoring $file to HEAD state"
+              git checkout -- "$file" || true
+            done < .restore_links.txt
+          else
+            echo "No files to restore"
+          fi
+
+      - name: Commit remaining changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add links/*.yml || true
+          FILES=$(git diff --name-only --cached | tr '\n' ',' | sed 's/,$//')
+          if [ -z "$FILES" ]; then
+            echo "No staged files to commit"
+          else
+            MSG="chore: 标记不可用或非 HTTPS 站点 ($FILES)"
+            git commit -m "$MSG" || echo "no changes to commit"
+            git push
+            echo "已提交并推送更改。"
+          fi
