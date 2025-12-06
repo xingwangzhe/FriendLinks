@@ -2,7 +2,6 @@
 import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
-import edgeoneAdapter from '@edgeone/astro';
 import path from 'node:path';
 
 export default defineConfig({

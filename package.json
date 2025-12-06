@@ -14,9 +14,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@edgeone/astro": "^1.0.4",
     "astro": "^5.16.4",
-    "axios": "^1.13.2",
     "chokidar": "^5.0.0",
     "concurrently": "^9.2.1",
     "decimal.js": "^10.6.0",
@@ -25,9 +23,7 @@
     "graphology-layout-forceatlas2": "^0.10.1",
     "graphology-utils": "^2.5.2",
     "sigma": "^3.0.2",
-    "user-agents": "^1.1.669",
-    "yaml": "^2.8.2",
-    "zod": "^4.1.13"
+    "yaml": "^2.8.2"
   },
   "devDependencies": {
     "playwright": "^1.57.0",
