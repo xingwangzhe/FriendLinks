@@ -1,230 +1,83 @@
 ---
 export const prerender = true;
 const clientScript = import.meta.env.DEV
-  ? '/src/scripts/index-client.ts'
-  : '/scripts/index-client.js';
-
+  ? "/src/scripts/index-client.ts"
+  : "/scripts/index-client.js";
 ---
 
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/StreamlinePlumpColorWebFlat.svg" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/StreamlinePlumpColorWebFlat.svg"
+    />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>友链图谱</title>
-    <style>
-      :root{
-        --bg: #ffffff;
-        --text-color: #111827;
-        --muted: #666666;
-        --card-bg: #ffffff;
-        --border: rgba(0,0,0,0.12);
-      }
-      @media (prefers-color-scheme: dark) {
-        :root{
-          --bg: #0f1115;
-          --text-color: #e6eef8;
-          --muted: #bfc9d6;
-          --card-bg: #0f1115;
-          --border: rgba(255,255,255,0.06);
-        }
-      }
-
-      html,
-      body {
-        height: 100%;
-        margin: 0;
-        background: var(--bg);
-        color: var(--text-color);
-        -webkit-font-smoothing:antialiased;
-        -moz-osx-font-smoothing:grayscale;
-      }
-      #main {
-        width: 100%;
-        height: 100vh;
-        touch-action: none; /* 让画布接管触摸拖拽，避免浏览器滚动 */
-        -webkit-user-select: none;
-        -ms-user-select: none;
-        user-select: none; /* 禁用文本选择，改善拖拽手感 */
-        cursor: grab;
-      }
-      /* 顶栏搜索样式 */
-      .topbar {
-        position: fixed;
-        top: 8px;
-        left: 12px;
-        right: 12px;
-        height: 44px;
-        z-index: 20;
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        pointer-events: none; /* 画布之上但不阻挡底层交互，控制内部元素单独启用 */
-      }
-      .topbar .title {
-        font-weight: 700;
-        padding-left: 6px;
-        pointer-events: auto;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-      }
-      .topbar .title span{ color: var(--title-color, var(--text-color)); font-size:16px }
-
-      /* 标题与图标颜色由 data-theme 或 prefers-color-scheme 驱动 */
-      :root { --title-color: #000; --icon-color: #000 }
-      @media (prefers-color-scheme: dark) {
-        :root { --title-color: #fff; --icon-color: #fff }
-      }
-      html[data-theme="dark"] { --title-color: #fff; --icon-color: #fff }
-      html[data-theme="light"] { --title-color: #000; --icon-color: #000 }
-
-      /* GitHub icon should follow primary text color for good contrast */
-      .topbar a.github-link{ 
-        display:inline-flex;
-        align-items:center;
-        gap:6px;
-        color: var(--icon-color);
-        opacity:1;
-        pointer-events:auto;
-        text-decoration:none;
-      }
-      .topbar a.github-link svg{ display:inline-block; vertical-align:middle; fill:currentColor; width:18px;height:18px }
-      .topbar a.github-link:hover{ opacity:1 }
-
-      .topbar .search {
-        pointer-events: auto;
-        margin-left: 6px;
-        flex: 0 0 420px;
-        display: flex;
-        position: relative;
-      }
-      .topbar input[type=text] {
-        width: 100%;
-        height: 36px;
-        padding: 6px 10px;
-        border-radius: 8px;
-        border: 1px solid color-mix(in srgb, var(--border) 80%, black 20%);
-        background: color-mix(in srgb, var(--card-bg) 96%, black 4%);
-        outline: none;
-        font-size: 14px;
-        color: var(--text-color);
-      }
-      .topbar input[type=text]::placeholder{ color: var(--muted); opacity:0.95 }
-      .topbar .results {
-        position: absolute;
-        top: 40px;
-        left: 0;
-        right: 0;
-        max-height: 320px;
-        overflow: auto;
-        background: var(--card-bg);
-        border: 1px solid var(--border);
-        border-radius: 6px;
-        box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-        display: none;
-        z-index: 30;
-      }
-      .topbar .results .item {
-        padding: 8px 10px;
-        cursor: pointer;
-        font-size: 13px;
-        color: var(--text-color);
-      }
-      .topbar .results .item:hover { background: color-mix(in srgb, var(--card-bg) 92%, black 8%); }
-
-      @media (prefers-color-scheme: dark) {
-        .topbar input[type=text] { background: rgba(16,16,16,0.8); color: var(--text-color); border-color: var(--border); }
-        .topbar .results { color: var(--text-color); box-shadow: none; }
-      }
-
-      /* Mobile layout tweaks */
-      @media (max-width: 640px) {
-        .topbar {
-          left: 8px;
-          right: 8px;
-          top: 6px;
-          height: auto;
-          padding: 6px 8px;
-          gap: 6px;
-          display: flex;
-          flex-wrap: wrap;
-          align-items: center;
-          pointer-events: auto;
-          background: transparent;
-        }
-
-        .topbar .title {
-          font-weight: 700;
-          display: flex;
-          align-items: center;
-          gap: 8px;
-          flex: 0 0 auto;
-          padding: 0;
-        }
-
-        .topbar .title span { font-size: 14px; }
-
-        .topbar .search {
-          flex: 1 1 100%;
-          margin-left: 0;
-          position: relative;
-        }
-
-        .topbar input[type=text] {
-          width: 100%;
-          height: 36px;
-          font-size: 14px;
-          padding: 6px 10px;
-        }
-
-        .topbar .results {
-          top: 44px;
-          max-height: 200px;
-        }
-
-        /* Make theme toggle smaller and keep it reachable */
-        #theme-toggle {
-          position: fixed;
-          top: 8px;
-          right: 8px;
-          z-index: 40;
-          padding: 6px 8px;
-          font-size: 13px;
-          border-radius: 6px;
-        }
-
-        /* Ensure main canvas starts below the topbar area on small screens */
-        #main {
-          margin-top: 56px;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="/src/css/base.css" />
+    <link rel="stylesheet" href="/src/css/topbar.css" />
+    <link rel="stylesheet" href="/src/css/buttons.css" />
+    <link rel="stylesheet" href="/src/css/modal.css" />
   </head>
   <body>
     <div class="topbar">
       <div class="title" style="font-weight:600; padding-left:6px;">
         <span>友链图谱</span>
-        <a class="github-link" href="https://github.com/xingwangzhe/FriendLinks" target="_blank" rel="noopener noreferrer" aria-label="Open GitHub repository">
-          <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+        <a
+          class="github-link"
+          href="https://github.com/xingwangzhe/FriendLinks"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Open GitHub repository"
+        >
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 16 16"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+            ></path>
           </svg>
         </a>
       </div>
       <div class="search">
-        <input id="graph-search" type="text" placeholder="搜索：站点名或域名（示例: example.com）" autocomplete="off" />
+        <input
+          id="graph-search"
+          type="text"
+          placeholder="搜索：站点名或域名（示例: example.com）"
+          autocomplete="off"
+        />
         <div id="graph-search-results" class="results" role="listbox"></div>
       </div>
     </div>
     <div id="main"></div>
-    <button id="theme-toggle" aria-label="切换主题">切换主题</button>
+    <div class="top-buttons">
+      <button id="theme-toggle" class="top-button" aria-label="切换主题">切换主题</button>
+      <button id="stats-toggle" class="top-button" aria-label="查看统计信息">📊友链统计</button>
+    </div>
+
+    <!-- 统计弹窗 -->
+    <div id="stats-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>📊 友链统计</h2>
+          <button class="close-btn" aria-label="关闭">&times;</button>
+        </div>
+        <div id="stats-content">
+          <div class="loading">加载中...</div>
+        </div>
+      </div>
+    </div>
     <style>
-      #theme-toggle {
-        position: fixed;
-        top: 12px;
-        right: 12px;
-        z-index: 10;
+      /* 顶部按钮通用样式 */
+      .top-button {
         padding: 6px 10px;
         border: 1px solid var(--border);
         border-radius: 6px;
@@ -232,37 +85,373 @@ const clientScript = import.meta.env.DEV
         color: var(--text-color);
         cursor: pointer;
         pointer-events: auto;
+        font-size: 14px;
+        white-space: nowrap;
       }
-      #theme-toggle:focus{ outline: 2px solid color-mix(in srgb, var(--text-color) 20%, transparent); }
+      .top-button:focus {
+        outline: 2px solid color-mix(in srgb, var(--text-color) 20%, transparent);
+      }
+
+      /* 按钮容器 */
+      .top-buttons {
+        position: fixed;
+        top: 12px;
+        right: 12px;
+        z-index: 60; /* 高于 .topbar (20) 和移动端的 #theme-toggle (40) */
+        display: flex;
+        gap: 8px;
+        pointer-events: auto;
+      }
+
+      /* 覆盖可能存在的 id 选择器定位（来自 topbar.css），确保按钮在容器内正常布局 */
+      #theme-toggle,
+      #stats-toggle {
+        position: relative !important;
+        top: auto !important;
+        right: auto !important;
+        z-index: 61 !important;
+      }
+
+      /* 移动端调整 */
+      @media (max-width: 640px) {
+        .top-buttons {
+          top: 8px;
+          right: 8px;
+          gap: 6px;
+        }
+        .top-button {
+          font-size: 12px;
+          padding: 4px 8px;
+        }
+      }
+
+      /* 统计弹窗样式 */
+      #stats-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        opacity: 0;
+        visibility: hidden;
+        transition:
+          opacity 0.3s ease,
+          visibility 0.3s ease;
+      }
+      #stats-modal.show {
+        opacity: 1;
+        visibility: visible;
+      }
+      #stats-modal .modal-content {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 20px;
+        max-width: 500px;
+        width: 90%;
+        max-height: 80vh;
+        overflow-y: auto;
+        position: relative;
+        transform: translateY(-20px);
+        transition: transform 0.3s ease;
+        margin: 20px; /* 在小屏幕上添加边距 */
+      }
+      #stats-modal.show .modal-content {
+        transform: translateY(0);
+      }
+      #stats-modal .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--border);
+      }
+      #stats-modal .modal-header h2 {
+        margin: 0;
+        color: var(--text-color);
+        font-size: 18px;
+      }
+      #stats-modal .close-btn {
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        color: var(--text-color);
+        padding: 0;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #stats-modal .stats-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+      }
+      #stats-modal .stat-item {
+        background: color-mix(in srgb, var(--card-bg) 95%, black 5%);
+        padding: 15px;
+        border-radius: 6px;
+        text-align: center;
+        border: 1px solid var(--border);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 60px;
+      }
+      #stats-modal .stat-label {
+        font-size: 14px;
+        color: var(--muted);
+        font-weight: 500;
+        line-height: 1.2;
+      }
+      #stats-modal .stat-value {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.2;
+        color: #007acc; /* 亮色主题下的高亮蓝色 */
+      }
+
+      /* 暗色主题下的数字颜色 */
+      html[data-theme="dark"] #stats-modal .stat-value {
+        color: #4da6ff; /* 暗色主题下的浅蓝色 */
+      }
+      #stats-modal .loading {
+        text-align: center;
+        color: var(--muted);
+        padding: 40px;
+      }
+      #stats-modal .error {
+        text-align: center;
+        color: #e74c3c;
+        padding: 40px;
+      }
+      #stats-modal .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+      }
+      #stats-modal .stat-section {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 16px;
+      }
+      #stats-modal .stat-section h3 {
+        margin: 0 0 12px 0;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--text-color);
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 8px;
+      }
+
+      /* 移动端响应式 */
+      @media (max-width: 640px) {
+        #stats-modal .modal-content {
+          width: calc(100% - 40px);
+          margin: 20px;
+          padding: 15px;
+          max-height: 90vh;
+        }
+        #stats-modal .stats-grid {
+          grid-template-columns: 1fr;
+          gap: 15px;
+        }
+        #stats-modal .stat-section {
+          padding: 12px;
+        }
+        #stats-modal .stat-section h3 {
+          font-size: 13px;
+          margin-bottom: 10px;
+        }
+        #stats-modal .stat-item {
+          padding: 12px;
+          min-height: 50px;
+        }
+        #stats-modal .stat-label {
+          font-size: 13px;
+        }
+        #stats-modal .stat-value {
+          font-size: 16px;
+        }
+        #stats-modal .modal-header h2 {
+          font-size: 16px;
+        }
+      }
     </style>
     <script type="module" src={clientScript}></script>
     <script lang="js">
       (function () {
-        const btn = document.getElementById('theme-toggle');
-        const titleText = document.querySelector('.topbar .title span');
-        const ghLink = document.querySelector('.topbar a.github-link');
+        const btn = document.getElementById("theme-toggle");
+        const titleText = document.querySelector(".topbar .title span");
+        const ghLink = document.querySelector(".topbar a.github-link");
 
         // 初始化并维护 document.dataset.theme，让 CSS 使用变量切换颜色
-        const mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
-        let isDark = mq ? mq.matches : (document.documentElement.dataset.theme === 'dark');
+        const mq =
+          window.matchMedia &&
+          window.matchMedia("(prefers-color-scheme: dark)");
+        let isDark = mq
+          ? mq.matches
+          : document.documentElement.dataset.theme === "dark";
         // 初始化 dataset，以便 CSS 变量（html[data-theme]) 生效
-        document.documentElement.dataset.theme = isDark ? 'dark' : 'light';
+        document.documentElement.dataset.theme = isDark ? "dark" : "light";
 
         // 点击切换按钮时同时更新 document.dataset.theme
         if (btn) {
-          btn.addEventListener('click', () => {
+          btn.addEventListener("click", () => {
             isDark = !isDark;
-            document.documentElement.dataset.theme = isDark ? 'dark' : 'light';
+            document.documentElement.dataset.theme = isDark ? "dark" : "light";
           });
         }
 
         // 监听系统主题改变并同步
         if (mq && mq.addEventListener) {
-          mq.addEventListener('change', (e) => {
+          mq.addEventListener("change", (e) => {
             isDark = e.matches;
-            document.documentElement.dataset.theme = isDark ? 'dark' : 'light';
+            document.documentElement.dataset.theme = isDark ? "dark" : "light";
           });
         }
+
+        // 统计弹窗功能
+        const statsBtn = document.getElementById("stats-toggle");
+        const statsModal = document.getElementById("stats-modal");
+        const statsContent = document.getElementById("stats-content");
+        const closeBtn = statsModal?.querySelector(".close-btn");
+
+        function showStatsModal() {
+          if (!statsModal) return;
+          statsModal.classList.add("show");
+          loadStatsData();
+        }
+
+        function hideStatsModal() {
+          if (!statsModal) return;
+          statsModal.classList.remove("show");
+        }
+
+        function loadStatsData() {
+          if (!statsContent) return;
+
+          statsContent.innerHTML = '<div class="loading">加载中...</div>';
+
+          fetch("/stats.json")
+            .then((response) => {
+              if (!response.ok) {
+                throw new Error("网络请求失败");
+              }
+              return response.json();
+            })
+            .then((data) => {
+              renderStats(data);
+            })
+            .catch((error) => {
+              console.error("加载统计数据失败:", error);
+              statsContent.innerHTML =
+                '<div class="error">加载失败，请稍后重试</div>';
+            });
+        }
+
+        function renderStats(data) {
+          if (!statsContent) return;
+
+          const statsHtml = `
+            <div class="stats-grid">
+              <div class="stat-section">
+                <h3>核心节点</h3>
+                <div class="stat-item">
+                  <span class="stat-label">核心节点数</span>
+                  <span class="stat-value">${data.coreNodes.count}</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-label">唯一域名</span>
+                  <span class="stat-value">${data.coreNodes.uniqueHosts}</span>
+                </div>
+              </div>
+
+              <div class="stat-section">
+                <h3>友链节点</h3>
+                <div class="stat-item">
+                  <span class="stat-label">友链节点总数</span>
+                  <span class="stat-value">${data.friendNodes.total}</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-label">外部友链</span>
+                  <span class="stat-value">${data.friendNodes.externalFriends}</span>
+                </div>
+              </div>
+
+              <div class="stat-section">
+                <h3>核心节点间连接</h3>
+                <div class="stat-item">
+                  <span class="stat-label">连接总数</span>
+                  <span class="stat-value">${data.connections.coreToCore.total}</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-label">双向连接</span>
+                  <span class="stat-value">${data.connections.coreToCore.bidirectional}</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-label">单向连接</span>
+                  <span class="stat-value">${data.connections.coreToCore.unidirectional}</span>
+                </div>
+              </div>
+
+              <div class="stat-section">
+                <h3>核心节点到友链</h3>
+                <div class="stat-item">
+                  <span class="stat-label">连接数量</span>
+                  <span class="stat-value">${data.connections.coreToFriend}</span>
+                </div>
+              </div>
+
+              <div class="stat-section">
+                <h3>总览</h3>
+                <div class="stat-item">
+                  <span class="stat-label">所有节点数</span>
+                  <span class="stat-value">${data.overview.totalNodes}</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-label">总连接数</span>
+                  <span class="stat-value">${data.overview.totalConnections}</span>
+                </div>
+              </div>
+            </div>
+          `;
+
+          statsContent.innerHTML = statsHtml;
+        }
+
+        if (statsBtn) {
+          statsBtn.addEventListener("click", showStatsModal);
+        }
+
+        if (closeBtn) {
+          closeBtn.addEventListener("click", hideStatsModal);
+        }
+
+        if (statsModal) {
+          statsModal.addEventListener("click", (e) => {
+            if (e.target === statsModal) {
+              hideStatsModal();
+            }
+          });
+        }
+
+        // ESC键关闭弹窗
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape" && statsModal?.classList.contains("show")) {
+            hideStatsModal();
+          }
+        });
       })();
     </script>
   </body>

@@ -275,6 +275,73 @@ async function main() {
   const graphPath = path.resolve("public", "graph.json");
   await writeFile(graphPath, JSON.stringify(graph, null, 2), "utf8");
   console.log(`已生成力导图数据: ${graphPath}`);
+
+  // 生成统计信息（基于核心概念重新设计）
+  const stats = {
+    // 核心节点统计
+    coreNodes: {
+      count: validSites.length,
+      uniqueHosts: siteHostSet.size,
+    },
+    // 友链节点统计
+    friendNodes: {
+      total: nodes.length - validSites.length,
+      externalFriends: externalFriends.length,
+    },
+    // 连接统计
+    connections: {
+      coreToCore: {
+        total: 0,
+        bidirectional: 0,
+        unidirectional: 0,
+      },
+      coreToFriend: externalFriends.length,
+      total: 0,
+    },
+    // 总览
+    overview: {
+      totalNodes: nodes.length,
+      totalConnections: 0,
+    },
+  };
+
+  // 基于生成links的逻辑进行统计
+  const processedCoreLinks = new Set<string>(); // 避免重复统计核心节点间连线
+
+  // 统计核心节点间的连线
+  for (const [sourceHost, targetHosts] of linkMap) {
+    for (const targetNorm of targetHosts) {
+      const pairKey = [sourceHost, targetNorm].sort().join("<->");
+
+      if (processedCoreLinks.has(pairKey)) continue; // 已处理过这对
+      processedCoreLinks.add(pairKey);
+
+      // 排除自链接
+      if (sourceHost === targetNorm) continue;
+
+      const aLinksB = linkMap.get(sourceHost)?.has(targetNorm);
+      const bLinksA = linkMap.get(targetNorm)?.has(sourceHost);
+
+      stats.connections.coreToCore.total++;
+
+      if (aLinksB && bLinksA) {
+        // 双向友链
+        stats.connections.coreToCore.bidirectional++;
+      } else {
+        // 单向友链
+        stats.connections.coreToCore.unidirectional++;
+      }
+    }
+  }
+
+  // 计算总连接数
+  stats.connections.total =
+    stats.connections.coreToCore.total + stats.connections.coreToFriend;
+  stats.overview.totalConnections = stats.connections.total;
+
+  const statsPath = path.resolve("public", "stats.json");
+  await writeFile(statsPath, JSON.stringify(stats, null, 2), "utf8");
+  console.log(`已生成统计数据: ${statsPath}`);
 }
 
 main();

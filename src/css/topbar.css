@@ -1,0 +1,188 @@
+/* 顶栏搜索样式 */
+.topbar {
+  position: fixed;
+  top: 8px;
+  left: 12px;
+  right: 12px;
+  height: 44px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  pointer-events: none; /* 画布之上但不阻挡底层交互，控制内部元素单独启用 */
+}
+.topbar .title {
+  font-weight: 700;
+  padding-left: 6px;
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.topbar .title span {
+  color: var(--title-color, var(--text-color));
+  font-size: 16px;
+}
+
+/* 标题与图标颜色由 data-theme 或 prefers-color-scheme 驱动 */
+:root {
+  --title-color: #000;
+  --icon-color: #000;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --title-color: #fff;
+    --icon-color: #fff;
+  }
+}
+html[data-theme="dark"] {
+  --title-color: #fff;
+  --icon-color: #fff;
+}
+html[data-theme="light"] {
+  --title-color: #000;
+  --icon-color: #000;
+}
+
+/* GitHub icon should follow primary text color for good contrast */
+.topbar a.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--icon-color);
+  opacity: 1;
+  pointer-events: auto;
+  text-decoration: none;
+}
+.topbar a.github-link svg {
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentColor;
+  width: 18px;
+  height: 18px;
+}
+.topbar a.github-link:hover {
+  opacity: 1;
+}
+
+.topbar .search {
+  pointer-events: auto;
+  margin-left: 6px;
+  flex: 0 0 420px;
+  display: flex;
+  position: relative;
+}
+.topbar input[type="text"] {
+  width: 100%;
+  height: 36px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid color-mix(in srgb, var(--border) 80%, black 20%);
+  background: color-mix(in srgb, var(--card-bg) 96%, black 4%);
+  outline: none;
+  font-size: 14px;
+  color: var(--text-color);
+}
+.topbar input[type="text"]::placeholder {
+  color: var(--muted);
+  opacity: 0.95;
+}
+.topbar .results {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  max-height: 320px;
+  overflow: auto;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  display: none;
+  z-index: 30;
+}
+.topbar .results .item {
+  padding: 8px 10px;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--text-color);
+}
+.topbar .results .item:hover {
+  background: color-mix(in srgb, var(--card-bg) 92%, black 8%);
+}
+
+@media (prefers-color-scheme: dark) {
+  .topbar input[type="text"] {
+    background: rgba(16, 16, 16, 0.8);
+    color: var(--text-color);
+    border-color: var(--border);
+  }
+  .topbar .results {
+    color: var(--text-color);
+    box-shadow: none;
+  }
+}
+
+/* Mobile layout tweaks */
+@media (max-width: 640px) {
+  .topbar {
+    left: 8px;
+    right: 8px;
+    top: 6px;
+    height: auto;
+    padding: 6px 8px;
+    gap: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    pointer-events: auto;
+    background: transparent;
+  }
+
+  .topbar .title {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 0 0 auto;
+    padding: 0;
+  }
+
+  .topbar .title span {
+    font-size: 14px;
+  }
+
+  .topbar .search {
+    flex: 1 1 100%;
+    margin-left: 0;
+    position: relative;
+  }
+
+  .topbar input[type="text"] {
+    width: 100%;
+    height: 36px;
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .topbar .results {
+    top: 44px;
+    max-height: 200px;
+  }
+
+  /* Make theme toggle smaller and keep it reachable */
+  #theme-toggle {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    z-index: 40;
+    padding: 6px 8px;
+    font-size: 13px;
+    border-radius: 6px;
+  }
+
+  /* Ensure main canvas starts below the topbar area on small screens */
+  #main {
+    margin-top: 56px;
+  }
+}

@@ -1,9 +1,34 @@
-## AGENTS
+# AGENTS
+
+## 核心概念
+
+links/*.yml中
+
+```yml
+ site:
+   name: 我的博客
+   description: 分享编程和技术相关的文章
+   url: https://example.com
+   friends:
+     - name: 编程小站
+       url: https://codehub.example.com
+     - name: 技术前沿
+       url: https://techfrontier.example.com
+
+```
+
+这里的**yml**名字同时也是`site`的`url` 我们叫作**核心节点**
+
+`friends`里面的节点数组我们统称**友链节点**
+
+由于可能存在核心节点互相成为友链节点，所以在总统计时，需要排重
+
+### 成功的聚焦节点方法
 
 **Directly set camera to the node's position using relative coordinates**
 **禁止直接设置相机到像素坐标，这会导致超大的位置偏移**
 
-### 成功的聚焦节点方法
+
 1. 获取节点的当前像素位置：`nodePixel = renderer.graphToViewport({ x: pos.x, y: pos.y })`
 2. 使用高精度库转换为相对坐标：`relX = new Decimal(nodePixel.x).div(containerWidth)`, `relY = new Decimal(nodePixel.y).div(containerHeight)`
 3. 计算 delta：`deltaX = (new Decimal(0.5).minus(relX)).mul(scaleFactor)`, `deltaY = (new Decimal(0.5).minus(relY)).mul(scaleFactor)`

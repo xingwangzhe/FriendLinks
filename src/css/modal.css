@@ -1,0 +1,138 @@
+/* 统计弹窗样式 */
+#stats-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--overlay);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+#stats-modal.show {
+  opacity: 1;
+  visibility: visible;
+}
+#stats-modal .modal-content {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  max-width: 500px;
+  width: 90%;
+  max-height: 85vh;
+  overflow-y: auto;
+  position: relative;
+  transform: translateY(-20px);
+  transition: transform 0.3s ease;
+  margin: 10px; /* 在小屏幕上添加边距 */
+}
+#stats-modal.show .modal-content {
+  transform: translateY(0);
+}
+#stats-modal .modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+#stats-modal .modal-header h2 {
+  margin: 0;
+  color: var(--text-color);
+  font-size: 18px;
+}
+#stats-modal .close-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--text-color);
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#stats-modal .stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+#stats-modal .stat-section {
+  padding: 12px 0;
+}
+#stats-modal .stat-section h3 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+#stats-modal .stat-item {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: auto;
+}
+#stats-modal .stat-label {
+  font-size: 14px;
+  color: var(--muted);
+  font-weight: 500;
+}
+#stats-modal .stat-value {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--accent);
+}
+#stats-modal .loading {
+  text-align: center;
+  color: var(--muted);
+  padding: 20px;
+}
+#stats-modal .error {
+  text-align: center;
+  color: var(--danger);
+  padding: 20px;
+}
+
+/* 移动端响应式 */
+@media (max-width: 640px) {
+  #stats-modal .modal-content {
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 10px;
+    max-height: 90vh;
+  }
+  #stats-modal .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  #stats-modal .stat-section {
+    padding: 8px 0;
+  }
+  #stats-modal .stat-section h3 {
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+  #stats-modal .stat-item {
+    padding: 4px 0;
+  }
+  #stats-modal .stat-label {
+    font-size: 13px;
+  }
+  #stats-modal .stat-value {
+    font-size: 15px;
+  }
+  #stats-modal .modal-header h2 {
+    font-size: 16px;
+  }
+}
