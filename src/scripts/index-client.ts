@@ -19,8 +19,9 @@ declare global {
 (async () => {
   const controller = await initFromUrl("/graph.json");
 
-  const input = document.getElementById("graph-search");
+  const input = document.getElementById("graph-search") as HTMLInputElement | null;
   const results = document.getElementById("graph-search-results");
+  const clearBtn = document.getElementById("graph-search-clear") as HTMLButtonElement | null;
   function render(list: SearchResult[]) {
     if (!results) return;
     results.innerHTML = "";
@@ -84,6 +85,18 @@ declare global {
     input.addEventListener("input", (ev: Event) => {
       const target = ev.target as HTMLInputElement | null;
       const v = target && target.value ? target.value.trim() : "";
+      // toggle clear button visibility
+      try {
+        if (clearBtn) {
+          if (v) {
+            clearBtn.style.display = "flex";
+            clearBtn.setAttribute("aria-hidden", "false");
+          } else {
+            clearBtn.style.display = "none";
+            clearBtn.setAttribute("aria-hidden", "true");
+          }
+        }
+      } catch {}
       if (!v) {
         render([]);
         return;
@@ -96,6 +109,35 @@ declare global {
             ? window.__graphApi.find(v)
             : [];
         render((list || []).slice(0, 12));
+      } catch (err) {
+        console.error(err);
+      }
+    });
+  }
+
+  // Clear button interaction
+  if (clearBtn && input) {
+    // initial state
+    try {
+      clearBtn.style.display = (input.value && input.value.trim()) ? "flex" : "none";
+      clearBtn.setAttribute("aria-hidden", clearBtn.style.display === "none" ? "true" : "false");
+    } catch {}
+    clearBtn.addEventListener("click", () => {
+      try {
+        input.value = "";
+        render([]);
+        // call clearHighlights on controller or window.__graphApi
+        if (controller && (controller as any).clearHighlights) {
+          (controller as any).clearHighlights();
+        } else if (window.__graphApi && window.__graphApi.clearHighlights) {
+          window.__graphApi.clearHighlights();
+        }
+        // hide results
+        if (results) results.style.display = "none";
+        // hide button
+        clearBtn.style.display = "none";
+        clearBtn.setAttribute("aria-hidden", "true");
+        input.focus();
       } catch (err) {
         console.error(err);
       }

@@ -101,6 +101,40 @@ html[data-theme="light"] {
   display: none;
   z-index: 30;
 }
+
+/* search clear button inside the input area */
+.topbar .search .search-clear {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+  color: var(--muted);
+  border-radius: 6px;
+}
+.topbar .search .search-clear:hover {
+  background: color-mix(in srgb, var(--card-bg) 92%, black 8%);
+}
+.topbar .search .search-clear:focus {
+  outline: 2px solid color-mix(in srgb, var(--text-color) 20%, transparent);
+}
+
+@media (prefers-color-scheme: dark) {
+  .topbar .search .search-clear:hover {
+    background: rgba(255, 255, 255, 0.03);
+  }
+  .topbar .search .search-clear {
+    color: var(--muted);
+  }
+}
 .topbar .results .item {
   padding: 8px 10px;
   cursor: pointer;
