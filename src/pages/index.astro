@@ -63,13 +63,16 @@ const clientScript = import.meta.env.DEV
       <button id="theme-toggle" class="top-button" aria-label="切换主题"
         >切换主题</button
       >
+      <button id="about-toggle" class="top-button" aria-label="关于项目"
+        >关于</button
+      >
       <button id="stats-toggle" class="top-button" aria-label="查看统计信息"
         >📊友链统计</button
       >
     </div>
 
     <!-- 统计弹窗 -->
-    <div id="stats-modal">
+    <div id="stats-modal" role="dialog" aria-modal="true">
       <div class="modal-content">
         <div class="modal-header">
           <h2>📊 友链统计</h2>
@@ -77,6 +80,58 @@ const clientScript = import.meta.env.DEV
         </div>
         <div id="stats-content">
           <div class="loading">加载中...</div>
+        </div>
+      </div>
+    </div>
+    <!-- 关于弹窗 -->
+    <div id="about-modal" role="dialog" aria-modal="true">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>关于 FriendLinks</h2>
+          <button class="close-btn" aria-label="关闭">&times;</button>
+        </div>
+        <div class="about-content">
+          <h3>VIBE CODE — 博客友链网</h3>
+          <p><strong>法律合规说明：</strong>网站所有者和投稿者必须确保其发布内容及网站运营遵守中华人民共和国以及适用情况下的美利坚合众国法律法规（包括但不限于版权、隐私、网络安全与信息内容方面的法律）。</p>
+          <p><strong>请确保：</strong>你的站点使用 <code>https</code> 并可以在大陆访问。</p>
+          <h4>添加你的博客</h4>
+          <p>在 <code>links/&#123;yoursite&#125;.yml</code> 中填写你的站点信息，示例格式如下：</p>
+          <pre><code class="yaml">site:
+  name: 我的博客
+  description: 分享编程和技术相关的文章
+  url: https://example.com
+  friends:
+    - name: 编程小站
+      url: https://codehub.example.com
+    - name: 技术前沿
+      url: https://techfrontier.example.com</code></pre>
+          <h4>URL 聚焦查询（自动高亮）</h4>
+          <p>你可以通过在页面地址中添加查询参数来自动聚焦并高亮指定站点节点。支持以下格式：</p>
+          <ul>
+            <li>使用域名（hostname）匹配：<code>?local=example.com</code></li>
+            <li>使用完整 URL：<code>?local=https://example.com</code> 或 <code>?local=http://example.com/path</code></li>
+          </ul>
+          <p>匹配规则（弱匹配，大小写不敏感）：</p>
+          <ul>
+            <li>优先匹配节点的 <code>url</code> 的 hostname；</li>
+            <li>如果未解析出 hostname，则尝试在节点的 <code>url</code> 中进行包含匹配；</li>
+            <li>成功匹配后页面会尝试把目标节点移动到屏幕中心并进行短时高亮（视觉提示）。</li>
+          </ul>
+          <h4>脚本 API（供程序化使用）</h4>
+          <ul>
+            <li><code>window.__graphApi.find(query)</code>：按名称/域名/URL 搜索，返回匹配项数组（含 <code>name</code> 与 <code>url</code>）。</li>
+            <li><code>window.__graphApi.focusByDomain(urlOrHost)</code>：根据域名或完整 URL 查找并聚焦/高亮对应节点。</li>
+          </ul>
+          <p>示例：<code>https://links.needhelp.icu/?local=example.com</code> — 页面加载后会自动聚焦并高亮与 <code>example.com</code> 匹配的节点。</p>
+          <h4>如何贡献</h4>
+          <ol>
+            <li>Fork 本仓库并创建新分支用于改动。</li>
+            <li>在 <code>links/</code> 下添加或更新你的 <code>blog.yml</code> 文件（见 <code>AGENTS.md</code> 说明）。</li>
+            <li>提交改动并提 PR，我们会审查并合并入主干。</li>
+          </ol>
+          <div style="margin-top: 12px; display:flex; gap:8px; flex-wrap:wrap;">
+            <a href="https://github.com/xingwangzhe/FriendLinks" target="_blank" rel="noopener" class="modal-link">查看仓库</a>
+          </div>
         </div>
       </div>
     </div>
@@ -452,11 +507,42 @@ const clientScript = import.meta.env.DEV
           });
         }
 
-        // ESC键关闭弹窗
+        // About modal
+        const aboutBtn = document.getElementById("about-toggle");
+        const aboutModal = document.getElementById("about-modal");
+        const aboutClose = aboutModal?.querySelector(".close-btn");
+
+        function showAboutModal() {
+          if (!aboutModal) return;
+          aboutModal.classList.add("show");
+        }
+
+        function hideAboutModal() {
+          if (!aboutModal) return;
+          aboutModal.classList.remove("show");
+        }
+
+        if (aboutBtn) {
+          aboutBtn.addEventListener("click", showAboutModal);
+        }
+
+        if (aboutClose) {
+          aboutClose.addEventListener("click", hideAboutModal);
+        }
+
+        if (aboutModal) {
+          aboutModal.addEventListener("click", (e) => {
+            if (e.target === aboutModal) {
+              hideAboutModal();
+            }
+          });
+        }
+
+        // ESC键关闭弹窗（关闭任一显示的弹窗）
         document.addEventListener("keydown", (e) => {
-          if (e.key === "Escape" && statsModal?.classList.contains("show")) {
-            hideStatsModal();
-          }
+          if (e.key !== "Escape") return;
+          if (statsModal?.classList.contains("show")) hideStatsModal();
+          if (aboutModal?.classList.contains("show")) hideAboutModal();
         });
       })();
     </script>

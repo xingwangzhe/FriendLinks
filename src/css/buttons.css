@@ -1,7 +1,7 @@
 /* 顶部按钮通用样式 */
 .top-button {
-  position: fixed;
-  top: 12px;
+  position: relative;
+  top: auto;
   z-index: 10;
   padding: 6px 10px;
   border: 1px solid var(--border);
@@ -16,25 +16,14 @@
   outline: 2px solid color-mix(in srgb, var(--text-color) 20%, transparent);
 }
 
-/* 具体按钮定位 */
-#theme-toggle {
-  right: 12px;
-}
-#stats-toggle {
-  right: 100px;
-}
+/* Buttons are positioned via the .top-buttons container; remove per-button absolute offsets */
 
 /* 移动端调整 */
 @media (max-width: 640px) {
   .top-button {
-    top: 8px;
+    top: auto;
     font-size: 12px;
     padding: 4px 8px;
   }
-  #theme-toggle {
-    right: 8px;
-  }
-  #stats-toggle {
-    right: 70px;
-  }
+  /* on small screens the .top-buttons container handles placement */
 }

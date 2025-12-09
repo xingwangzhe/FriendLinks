@@ -229,10 +229,10 @@ export function init(data: GraphData) {
       targetHost = input;
     }
 
-    let matchedId: string | null = null;
+    // 新增：收集所有匹配节点id
+    const matchedIds: string[] = [];
     try {
       (g as any).forEachNode((id: string, attr: any) => {
-        if (matchedId) return; // Already found
         const nodeUrl = (attr.url || "").toString().toLowerCase();
         let nodeHost = nodeUrl;
         try {
@@ -245,12 +245,12 @@ export function init(data: GraphData) {
         }
         // First, try exact hostname match
         if (nodeHost === targetHost) {
-          matchedId = id;
+          matchedIds.push(id);
           return;
         }
         // Then, try contains match in the full URL
         if (nodeUrl.includes(targetHost)) {
-          matchedId = id;
+          matchedIds.push(id);
           return;
         }
       });
@@ -258,10 +258,24 @@ export function init(data: GraphData) {
       console.error("Error in focusByDomain:", e);
     }
 
-    if (matchedId) {
-      focusNodeById(matchedId);
+    if (matchedIds.length) {
+      // 先高亮所有匹配节点（群组轮廓）
+      highlightNodesByDomain(matchedIds);
+      // 再聚焦第一个节点
+      focusNodeById(matchedIds[0]);
     } else {
       console.warn("No node found for domain:", urlOrHost);
+    }
+  }
+
+  // 新增API：高亮所有同域名节点（群组轮廓）
+  async function highlightNodesByDomain(ids: string[] = []) {
+    try {
+      // 只高亮传入的节点，不包含邻居
+      const toHighlight = new Set<string>(ids);
+      await pushHighlightState(toHighlight);
+    } catch (e) {
+      console.error("highlightNodesByDomain failed:", e);
     }
   }
 
@@ -460,6 +474,8 @@ export function init(data: GraphData) {
     (window as any).__graphApi.highlightNodesAndNeighbors = (
       ids: string[] = []
     ) => highlightNodesAndNeighbors(ids);
+    (window as any).__graphApi.highlightNodesByDomain = (ids: string[] = []) =>
+      highlightNodesByDomain(ids);
     (window as any).__graphApi.clearHighlights = () => clearHighlights();
     (window as any).__graphApi.popHighlight = () => popHighlightState();
     (window as any).__graphApi.clearAllHighlights = () => clearAllHighlights();
@@ -529,6 +545,7 @@ export function init(data: GraphData) {
     focusByDomain,
     focusNodeById,
     highlightNodesAndNeighbors,
+    highlightNodesByDomain,
     clearHighlights,
   };
 }

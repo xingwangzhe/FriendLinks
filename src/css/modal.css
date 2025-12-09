@@ -1,5 +1,6 @@
-/* 统计弹窗样式 */
-#stats-modal {
+/* 统计/关于 弹窗样式 （共享） */
+#stats-modal,
+#about-modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -14,11 +15,14 @@
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
-#stats-modal.show {
+#stats-modal.show,
+#about-modal.show {
   opacity: 1;
   visibility: visible;
 }
-#stats-modal .modal-content {
+/* 共享弹窗主体 */
+#stats-modal .modal-content,
+#about-modal .modal-content {
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -32,10 +36,13 @@
   transition: transform 0.3s ease;
   margin: 10px; /* 在小屏幕上添加边距 */
 }
-#stats-modal.show .modal-content {
+#stats-modal.show .modal-content,
+#about-modal.show .modal-content {
   transform: translateY(0);
 }
-#stats-modal .modal-header {
+/* header, close button, content shared */
+#stats-modal .modal-header,
+#about-modal .modal-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,12 +50,14 @@
   padding-bottom: 8px;
   border-bottom: 1px solid var(--border);
 }
-#stats-modal .modal-header h2 {
+#stats-modal .modal-header h2,
+#about-modal .modal-header h2 {
   margin: 0;
   color: var(--text-color);
   font-size: 18px;
 }
-#stats-modal .close-btn {
+#stats-modal .close-btn,
+#about-modal .close-btn {
   background: none;
   border: none;
   font-size: 24px;
@@ -61,6 +70,7 @@
   align-items: center;
   justify-content: center;
 }
+/* 统计具体布局仍使用专属类名 .stats-grid */
 #stats-modal .stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -135,4 +145,37 @@
   #stats-modal .modal-header h2 {
     font-size: 16px;
   }
+}
+
+/* modal embedded link buttons */
+.modal-link {
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--card-bg);
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 13px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.modal-link:hover {
+  background: color-mix(in srgb, var(--card-bg) 92%, black 8%);
+}
+
+/* style for pre/code blocks in modal */
+pre {
+  background: color-mix(in srgb, var(--card-bg) 96%, black 4%);
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  overflow: auto;
+}
+pre code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono",
+    "Noto Mono", monospace;
+  font-size: 13px;
+  color: var(--text-color);
 }

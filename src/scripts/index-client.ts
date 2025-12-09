@@ -7,6 +7,7 @@ interface GraphApi {
   focusNodeById?: (id: string) => void;
   focusByDomain?: (domain: string) => void;
   highlightNodesAndNeighbors?: (ids: string[]) => void;
+  highlightNodesByDomain?: (ids: string[]) => void;
   clearHighlights?: () => void;
 }
 
@@ -19,9 +20,13 @@ declare global {
 (async () => {
   const controller = await initFromUrl("/graph.json");
 
-  const input = document.getElementById("graph-search") as HTMLInputElement | null;
+  const input = document.getElementById(
+    "graph-search"
+  ) as HTMLInputElement | null;
   const results = document.getElementById("graph-search-results");
-  const clearBtn = document.getElementById("graph-search-clear") as HTMLButtonElement | null;
+  const clearBtn = document.getElementById(
+    "graph-search-clear"
+  ) as HTMLButtonElement | null;
   function render(list: SearchResult[]) {
     if (!results) return;
     results.innerHTML = "";
@@ -119,8 +124,12 @@ declare global {
   if (clearBtn && input) {
     // initial state
     try {
-      clearBtn.style.display = (input.value && input.value.trim()) ? "flex" : "none";
-      clearBtn.setAttribute("aria-hidden", clearBtn.style.display === "none" ? "true" : "false");
+      clearBtn.style.display =
+        input.value && input.value.trim() ? "flex" : "none";
+      clearBtn.setAttribute(
+        "aria-hidden",
+        clearBtn.style.display === "none" ? "true" : "false"
+      );
     } catch {}
     clearBtn.addEventListener("click", () => {
       try {
