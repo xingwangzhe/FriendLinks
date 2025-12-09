@@ -7,8 +7,10 @@ interface GraphApi {
   focusNodeById?: (id: string) => void;
   focusByDomain?: (domain: string) => void;
   highlightNodesAndNeighbors?: (ids: string[]) => void;
-  highlightNodesByDomain?: (ids: string[]) => void;
+  // Accept either a domain string (domain or full URL) OR array of node ids.
+  highlightNodesByDomain?: (domainOrIds: string | string[]) => void;
   clearHighlights?: () => void;
+  clearLocalEffects?: () => void;
 }
 
 declare global {
@@ -27,6 +29,44 @@ declare global {
   const clearBtn = document.getElementById(
     "graph-search-clear"
   ) as HTMLButtonElement | null;
+  // Remove only `local` param from URL without causing a reload
+  function clearLocalQueryParam() {
+    try {
+      const u = new URL(location.href);
+      if (u.searchParams.has("local")) {
+        u.searchParams.delete("local");
+        const search = u.search ? `?${u.searchParams.toString()}` : "";
+        const newUrl = `${u.pathname}${search}${u.hash || ""}`;
+        history.replaceState(null, document.title, newUrl);
+        try {
+          if (controller && (controller as any).clearLocalEffects) {
+            (controller as any).clearLocalEffects();
+          } else if (window.__graphApi && window.__graphApi.clearLocalEffects) {
+            window.__graphApi.clearLocalEffects();
+          } else {
+            // Fallback: clear highlights and try to clear focused node highlight
+            if (controller && (controller as any).clearAllHighlights) {
+              (controller as any).clearAllHighlights();
+            } else if (
+              window.__graphApi &&
+              window.__graphApi.clearAllHighlights
+            ) {
+              window.__graphApi.clearAllHighlights();
+            }
+            if (controller && (controller as any).clearHighlights) {
+              (controller as any).clearHighlights();
+            } else if (window.__graphApi && window.__graphApi.clearHighlights) {
+              window.__graphApi.clearHighlights();
+            }
+          }
+        } catch (err) {
+          console.error(err);
+        }
+      }
+    } catch (err) {
+      console.error("clearLocalQueryParam failed:", err);
+    }
+  }
   function render(list: SearchResult[]) {
     if (!results) return;
     results.innerHTML = "";
@@ -43,6 +83,7 @@ declare global {
       }
       return;
     }
+
     for (const it of list) {
       const el = document.createElement("div");
       el.className = "item";
@@ -53,6 +94,9 @@ declare global {
       }</div>`;
       el.onclick = () => {
         try {
+          try {
+            clearLocalQueryParam();
+          } catch {}
           // First, clear previous highlights and then highlight node + neighbors (contour overlay)
           try {
             if (controller && (controller as any).clearHighlights) {
@@ -107,6 +151,9 @@ declare global {
         return;
       }
       try {
+        clearLocalQueryParam();
+      } catch {}
+      try {
         const list: SearchResult[] =
           controller && (controller as any).find
             ? (controller as any).find(v)
@@ -147,6 +194,9 @@ declare global {
         clearBtn.style.display = "none";
         clearBtn.setAttribute("aria-hidden", "true");
         input.focus();
+        try {
+          clearLocalQueryParam();
+        } catch {}
       } catch (err) {
         console.error(err);
       }
@@ -160,7 +210,20 @@ declare global {
     if (local) {
       setTimeout(() => {
         try {
-          if (controller && (controller as any).focusByDomain) {
+          // Prefer the highlighted group API which accepts domain string. If available, call highlightNodesByDomain
+          if (controller && (controller as any).highlightNodesByDomain) {
+            (controller as any).highlightNodesByDomain(local);
+            if (controller && (controller as any).focusByDomain) {
+              (controller as any).focusByDomain(local);
+            }
+          } else if (
+            window.__graphApi &&
+            window.__graphApi.highlightNodesByDomain
+          ) {
+            window.__graphApi.highlightNodesByDomain(local);
+            if (window.__graphApi.focusByDomain)
+              window.__graphApi.focusByDomain(local);
+          } else if (controller && (controller as any).focusByDomain) {
             (controller as any).focusByDomain(local);
           } else if (window.__graphApi && window.__graphApi.focusByDomain) {
             window.__graphApi.focusByDomain(local);

@@ -229,8 +229,8 @@ export function init(data: GraphData) {
       targetHost = input;
     }
 
-    // 新增：收集所有匹配节点id
-    const matchedIds: string[] = [];
+    // Use helper to match node ids for domain
+    const matchedIds: string[] = matchNodeIdsForDomain(targetHost);
     try {
       (g as any).forEachNode((id: string, attr: any) => {
         const nodeUrl = (attr.url || "").toString().toLowerCase();
@@ -269,14 +269,53 @@ export function init(data: GraphData) {
   }
 
   // 新增API：高亮所有同域名节点（群组轮廓）
-  async function highlightNodesByDomain(ids: string[] = []) {
+  async function highlightNodesByDomain(idsOrDomain: string | string[] = []) {
     try {
+      let ids: string[] = [];
+      if (typeof idsOrDomain === "string") {
+        ids = matchNodeIdsForDomain(idsOrDomain);
+      } else {
+        ids = idsOrDomain || [];
+      }
       // 只高亮传入的节点，不包含邻居
       const toHighlight = new Set<string>(ids);
       await pushHighlightState(toHighlight);
     } catch (e) {
       console.error("highlightNodesByDomain failed:", e);
     }
+  }
+
+  // Helper: given a host or domain string, return matching node ids
+  function matchNodeIdsForDomain(input: string) {
+    if (!input) return [];
+    const targetHost = (() => {
+      try {
+        const url = new URL(
+          input.startsWith("http") ? input : `https://${input}`
+        );
+        return url.hostname.toLowerCase();
+      } catch {
+        return input.trim().toLowerCase();
+      }
+    })();
+    const matchedIds: string[] = [];
+    try {
+      (g as any).forEachNode((id: string, attr: any) => {
+        const nodeUrl = (attr.url || "").toString().toLowerCase();
+        let nodeHost = nodeUrl;
+        try {
+          const url = new URL(
+            nodeUrl.startsWith("http") ? nodeUrl : `https://${nodeUrl}`
+          );
+          nodeHost = url.hostname.toLowerCase();
+        } catch {}
+        if (nodeHost === targetHost || nodeUrl.includes(targetHost))
+          matchedIds.push(id);
+      });
+    } catch (e) {
+      console.error("Error in matchNodeIdsForDomain:", e);
+    }
+    return matchedIds;
   }
 
   function focusNodeById(id: string) {
@@ -474,11 +513,13 @@ export function init(data: GraphData) {
     (window as any).__graphApi.highlightNodesAndNeighbors = (
       ids: string[] = []
     ) => highlightNodesAndNeighbors(ids);
-    (window as any).__graphApi.highlightNodesByDomain = (ids: string[] = []) =>
-      highlightNodesByDomain(ids);
+    (window as any).__graphApi.highlightNodesByDomain = (
+      idsOrDomain: string | string[] = []
+    ) => highlightNodesByDomain(idsOrDomain as any);
     (window as any).__graphApi.clearHighlights = () => clearHighlights();
     (window as any).__graphApi.popHighlight = () => popHighlightState();
     (window as any).__graphApi.clearAllHighlights = () => clearAllHighlights();
+    (window as any).__graphApi.clearLocalEffects = () => clearLocalEffects();
   } catch {}
 
   function clearHighlights() {
@@ -496,6 +537,53 @@ export function init(data: GraphData) {
     } catch (e) {
       console.error("clearAllHighlights failed:", e);
     }
+  }
+
+  // Clear both contour highlights and the focused node's highlight
+  function clearLocalEffects() {
+    try {
+      clearAllHighlights();
+    } catch {
+      // ignore
+    }
+    try {
+      if (lastHighlightedNode) {
+        try {
+          const prevAttrs = (g as any).getNodeAttributes(lastHighlightedNode);
+          if (prevAttrs) {
+            const base =
+              originalColors.get(lastHighlightedNode) ||
+              prevAttrs.baseColor ||
+              "#888";
+            const themed = isDark ? adjustHex(base, 20) : base;
+            (g as any).setNodeAttribute(lastHighlightedNode, "color", themed);
+            const originalSize = degreeMap[lastHighlightedNode]
+              ? Math.max(
+                  6,
+                  Math.min(
+                    22,
+                    6 +
+                      (Math.sqrt(degreeMap[lastHighlightedNode]) /
+                        Math.sqrt(maxDegree)) *
+                        16
+                  )
+                )
+              : 6;
+            (g as any).setNodeAttribute(
+              lastHighlightedNode,
+              "size",
+              originalSize
+            );
+          }
+        } catch {}
+        lastHighlightedNode = null;
+      }
+    } catch {
+      // ignore
+    }
+    try {
+      renderer.refresh();
+    } catch {}
   }
 
   // Deprecated function removed: clearHighlightsDeprecated
@@ -547,6 +635,7 @@ export function init(data: GraphData) {
     highlightNodesAndNeighbors,
     highlightNodesByDomain,
     clearHighlights,
+    clearLocalEffects,
   };
 }
 
