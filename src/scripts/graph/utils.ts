@@ -47,7 +47,7 @@ export function degreeToSize(d: number, maxDegree: number) {
 export function hexToRgb(hex: string): [number, number, number] {
   const h = hex.replace("#", "");
   const bigint = parseInt(h, 16);
-  return [((bigint >> 16) & 255), ((bigint >> 8) & 255), (bigint & 255)];
+  return [(bigint >> 16) & 255, (bigint >> 8) & 255, bigint & 255];
 }
 
 /**
@@ -70,4 +70,12 @@ export function adjustHex(hex: string, percent: number) {
   const ng = Math.max(0, Math.min(255, g + amt));
   const nb = Math.max(0, Math.min(255, b + amt));
   return rgbToHex(nr, ng, nb);
+}
+
+/**
+ * Convert a hex color string '#rrggbb' to an rgba() string with provided alpha (0..1).
+ */
+export function hexToRgba(hex: string, alpha: number) {
+  const [r, g, b] = hexToRgb(hex);
+  return `rgba(${r},${g},${b},${alpha})`;
 }

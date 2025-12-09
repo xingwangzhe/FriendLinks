@@ -14,6 +14,8 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@sigma/layer-webgl": "^3.0.0",
+    "@sigma/utils": "^3.0.0",
     "astro": "^5.16.4",
     "chokidar": "^5.0.0",
     "concurrently": "^9.2.1",

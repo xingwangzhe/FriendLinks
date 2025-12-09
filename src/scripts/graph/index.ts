@@ -11,6 +11,7 @@ import Fuse from "fuse.js";
 import { buildGraphFromData } from "./builder";
 import { startForceAtlas2Worker } from "./layout";
 import { createOrGetTooltip } from "./tooltip";
+import { fitViewportToNodes } from "@sigma/utils";
 import { createRenderer, wireRendererEvents } from "./renderer";
 import { setupThemeHandlers, applyThemeToGraph } from "./theme";
 import { adjustHex } from "./utils";
@@ -44,6 +45,116 @@ export function init(data: GraphData) {
 
   // Track the last highlighted node for restoration
   let lastHighlightedNode: string | null = null;
+  // Track a highlighted group (search results + neighbors)
+  let highlightedGroup: Set<string> = new Set();
+  type HighlightState = {
+    nodeAttrs: Map<string, { color?: string; size?: number }>;
+    edgeAttrs: Map<string, { color?: string }>;
+    contourCleanup?: (() => void) | null;
+  };
+  const highlightStack: HighlightState[] = [];
+
+  async function pushHighlightState(toHighlight: Set<string>) {
+    const prevNodeAttrs = new Map<string, { color?: string; size?: number }>();
+    const prevEdgeAttrs = new Map<string, { color?: string }>();
+    try {
+      // We intentionally do NOT change node attributes here: highlight is provided
+      // via a contour overlay only (no color/size change for nodes nor edges).
+
+      // We purposely do NOT change edges here either; the contour overlay will
+      // visually highlight the group without mutating edge colors.
+
+      // Optionally create a contour layer around the highlighted nodes
+      let contourCleanup: (() => void) | null = null;
+      try {
+        // Use dynamic import to avoid hard dependency and type issues.
+        const layerWebgl = await import("@sigma/layer-webgl");
+        const {
+          createContoursProgram: createProgram,
+          bindWebGLLayer: bindLayer,
+        } = layerWebgl as any;
+        const nodesArr = [...toHighlight];
+        if (nodesArr.length) {
+          const nodeColor =
+            (originalColors.get(nodesArr[0]) as string) || "#fff";
+          const program = createProgram(nodesArr, {
+            radius: 150,
+            border: { color: nodeColor, thickness: 8 },
+            levels: [
+              {
+                color: "#00000000",
+                threshold: 0.5,
+              },
+            ],
+          });
+          contourCleanup = bindLayer(
+            `highlight-contour`,
+            renderer as any,
+            program as any
+          ) as any;
+        }
+      } catch (err) {
+        // If the layer isn't available or fails, we silently continue.
+        console.error("Contour layer creation failed:", err);
+        contourCleanup = null;
+      }
+
+      highlightStack.push({
+        nodeAttrs: prevNodeAttrs,
+        edgeAttrs: prevEdgeAttrs,
+        contourCleanup,
+      });
+      highlightedGroup = new Set(toHighlight);
+      try {
+        renderer.refresh();
+      } catch {}
+    } catch (e) {
+      console.error("pushHighlightState failed:", e);
+    }
+  }
+
+  function popHighlightState() {
+    if (!highlightStack.length) return;
+    const state = highlightStack.pop() as HighlightState;
+    try {
+      // Remove contour layer if present for this state
+      try {
+        if (state.contourCleanup) {
+          state.contourCleanup();
+        }
+      } catch {}
+      state.nodeAttrs.forEach((val, node) => {
+        try {
+          if (val.color != null)
+            (g as any).setNodeAttribute(node, "color", val.color);
+          if (val.size != null)
+            (g as any).setNodeAttribute(node, "size", val.size);
+        } catch {}
+      });
+      state.edgeAttrs.forEach((val, edge) => {
+        try {
+          if (val.color != null)
+            (g as any).setEdgeAttribute(edge, "color", val.color);
+        } catch {}
+      });
+      // rebuild highlightedGroup from stack (last state)
+      if (!highlightStack.length) {
+        highlightedGroup.clear();
+      } else {
+        const last = highlightStack[highlightStack.length - 1];
+        highlightedGroup = new Set(
+          [...last.nodeAttrs.keys()].filter((k) => (g as any).hasNode(k))
+        );
+      }
+      try {
+        renderer.refresh();
+      } catch {}
+    } catch (e) {
+      console.error("popHighlightState failed:", e);
+    }
+  }
+
+  // clearAllHighlights is defined later and exposed on the API (avoid duplicate def)
 
   // Start layout worker (if available) - returns controller or null
   const layoutController = startForceAtlas2Worker(g);
@@ -261,67 +372,54 @@ export function init(data: GraphData) {
         // ignore logging errors
       }
 
-      // Directly set camera to the node's position using relative coordinates
-      // 禁止直接设置相机到像素坐标，这会导致超大的位置偏移
+      // Prepare camera reference for logging/fallback and use official utility to fit viewport to the target node(s).
       const camera = renderer.camera;
-      const currentState =
-        typeof camera.getState === "function"
-          ? camera.getState()
-          : {
-              x: camera.x,
-              y: camera.y,
-              angle: camera.angle || 0,
-              ratio: camera.ratio,
-            };
-      // Get node's current pixel position
-      const nodePixel = renderer.graphToViewport({ x: pos.x, y: pos.y });
-      // Convert to relative coordinates (0 to 1) with high precision
-      const containerEl = renderer.getContainer();
-      const relX = new Decimal(nodePixel.x).div(containerEl.clientWidth);
-      const relY = new Decimal(nodePixel.y).div(containerEl.clientHeight);
-      // console.log("[图表] focusNodeById - 相对坐标计算", {
-      //   relX: relX.toNumber(),
-      //   relY: relY.toNumber(),
-      // });
-      // Calculate the delta to move node to center (0.5, 0.5), adjusted by current zoom
-      const scaleFactor = new Decimal(currentState.ratio);
-      const half = new Decimal(0.5);
-      const deltaX = half.minus(relX).mul(scaleFactor);
-      const deltaY = half.minus(relY).mul(scaleFactor);
-      // console.log("[图表] focusNodeById - delta 计算", {
-      //   deltaX: deltaX.toNumber(),
-      //   deltaY: deltaY.toNumber(),
-      //   scaleFactor: scaleFactor.toNumber(),
-      // });
-      const newX = new Decimal(currentState.x).minus(deltaX);
-      const newY = new Decimal(currentState.y).plus(deltaY);
-      // console.log("[图表] focusNodeById - 新相机位置计算", {
-      //   newX: newX.toNumber(),
-      //   newY: newY.toNumber(),
-      // });
-      // Calculate target zoom so that larger nodes -> smaller ratio (zoom out),
-      // and smaller nodes -> larger ratio (zoom in). Use inverse proportionality
-      // and clamp to a reasonable range to avoid extreme zooms.
-      const nodeSizeDecimal = new Decimal(pos.size || 1);
-      // const minRatio = new Decimal(0.25);
-      // const maxRatio = new Decimal(4);
-      // Inverse relationship: baseFactor * (50 / nodeSize)
-      const baseFactor = new Decimal(1);
-      let targetRatio = baseFactor.mul(new Decimal(5).div(nodeSizeDecimal));
-      // if (targetRatio.lessThan(minRatio)) targetRatio = minRatio;
-      // if (targetRatio.greaterThan(maxRatio)) targetRatio = maxRatio;
-      // console.log("[图表] focusNodeById - 目标缩放计算", {
-      //   targetRatio: targetRatio.toNumber(),
-      //   nodeSize: pos.size,
-      // });
-      camera.setState({
-        x: newX.toNumber(),
-        y: newY.toNumber(),
-        angle: 0,
-        ratio: targetRatio.toNumber(),
-      });
-      // Refresh renderer to apply changes
-      renderer.refresh();
+      try {
+        // `fitViewportToNodes` accepts the renderer and an iterable of node ids
+        // Graphology's `filterNodes` returns an array of node ids for the predicate.
+        const nodesToFit: string[] = (g as any).filterNodes
+          ? (g as any).filterNodes((n: string) => n === id)
+          : [id];
+        // Use animation for smooth user experience.
+        fitViewportToNodes(renderer as any, nodesToFit, { animate: true });
+      } catch (err) {
+        console.error(
+          "fitViewportToNodes failed, falling back to manual move:",
+          err
+        );
+        // If the utility fails for any reason, keep existing behavior: center node without zoom change
+        try {
+          const camera = renderer.camera;
+          const currentState =
+            typeof camera.getState === "function"
+              ? camera.getState()
+              : {
+                  x: camera.x,
+                  y: camera.y,
+                  angle: camera.angle || 0,
+                  ratio: camera.ratio,
+                };
+          const nodePixel = renderer.graphToViewport({ x: pos.x, y: pos.y });
+          const containerEl = renderer.getContainer();
+          const relX = new Decimal(nodePixel.x).div(containerEl.clientWidth);
+          const relY = new Decimal(nodePixel.y).div(containerEl.clientHeight);
+          const scaleFactor = new Decimal(currentState.ratio);
+          const half = new Decimal(0.5);
+          const deltaX = half.minus(relX).mul(scaleFactor);
+          const deltaY = half.minus(relY).mul(scaleFactor);
+          const newX = new Decimal(currentState.x).minus(deltaX);
+          const newY = new Decimal(currentState.y).plus(deltaY);
+          camera.setState({
+            x: newX.toNumber(),
+            y: newY.toNumber(),
+            angle: 0,
+            ratio: currentState.ratio,
+          });
+          renderer.refresh();
+        } catch (e) {
+          console.error("fallback move failed:", e);
+        }
+      }
 
       // Highlight the focused node
       try {
@@ -359,7 +457,56 @@ export function init(data: GraphData) {
     (window as any).__graphApi.find = find;
     (window as any).__graphApi.focusByDomain = focusByDomain;
     (window as any).__graphApi.focusNodeById = focusNodeById;
+    (window as any).__graphApi.highlightNodesAndNeighbors = (
+      ids: string[] = []
+    ) => highlightNodesAndNeighbors(ids);
+    (window as any).__graphApi.clearHighlights = () => clearHighlights();
+    (window as any).__graphApi.popHighlight = () => popHighlightState();
+    (window as any).__graphApi.clearAllHighlights = () => clearAllHighlights();
   } catch {}
+
+  function clearHighlights() {
+    if (!highlightStack.length) return;
+    try {
+      popHighlightState();
+    } catch (e) {
+      console.error("clearHighlights failed:", e);
+    }
+  }
+
+  function clearAllHighlights() {
+    try {
+      while (highlightStack.length) popHighlightState();
+    } catch (e) {
+      console.error("clearAllHighlights failed:", e);
+    }
+  }
+
+  // Deprecated function removed: clearHighlightsDeprecated
+
+  async function highlightNodesAndNeighbors(ids: string[] = []) {
+    try {
+      // Build the set of nodes to highlight: selected + their neighbors
+      const toHighlight = new Set<string>();
+      for (const id of ids) {
+        if (!(g as any).hasNode) continue;
+        if (!(g as any).hasNode(id)) continue;
+        toHighlight.add(id);
+        try {
+          (g as any).forEachNeighbor(id, (neighbor: string) => {
+            toHighlight.add(neighbor);
+          });
+        } catch {}
+      }
+
+      // Push a highlight state onto the stack: this will dim others and
+      // highlight the selected nodes + neighbors. Using the stack allows
+      // temporary overlays (e.g., hover) to be popped to restore previous state.
+      await pushHighlightState(toHighlight);
+    } catch (e) {
+      console.error("highlightNodesAndNeighbors failed:", e);
+    }
+  }
 
   // Ensure layout controller is exposed for external control if provided
   try {
@@ -381,6 +528,8 @@ export function init(data: GraphData) {
     find,
     focusByDomain,
     focusNodeById,
+    highlightNodesAndNeighbors,
+    clearHighlights,
   };
 }
 

@@ -6,6 +6,8 @@ interface GraphApi {
   find?: (q: string) => SearchResult[];
   focusNodeById?: (id: string) => void;
   focusByDomain?: (domain: string) => void;
+  highlightNodesAndNeighbors?: (ids: string[]) => void;
+  clearHighlights?: () => void;
 }
 
 declare global {
@@ -24,6 +26,15 @@ declare global {
     results.innerHTML = "";
     if (!list.length) {
       results.style.display = "none";
+      try {
+        if (controller && (controller as any).clearHighlights) {
+          (controller as any).clearHighlights();
+        } else if (window.__graphApi && window.__graphApi.clearHighlights) {
+          window.__graphApi.clearHighlights();
+        }
+      } catch (err) {
+        console.error(err);
+      }
       return;
     }
     for (const it of list) {
@@ -36,6 +47,24 @@ declare global {
       }</div>`;
       el.onclick = () => {
         try {
+          // First, clear previous highlights and then highlight node + neighbors (contour overlay)
+          try {
+            if (controller && (controller as any).clearHighlights) {
+              (controller as any).clearHighlights();
+            } else if (window.__graphApi && window.__graphApi.clearHighlights) {
+              window.__graphApi.clearHighlights();
+            }
+          } catch {}
+          if (controller && (controller as any).highlightNodesAndNeighbors) {
+            (controller as any).highlightNodesAndNeighbors([it.id]);
+          } else if (
+            window.__graphApi &&
+            window.__graphApi.highlightNodesAndNeighbors
+          ) {
+            window.__graphApi.highlightNodesAndNeighbors([it.id]);
+          }
+
+          // Then focus the node (camera)
           if (controller && (controller as any).focusNodeById) {
             (controller as any).focusNodeById(it.id);
           } else if (window.__graphApi && window.__graphApi.focusNodeById) {
