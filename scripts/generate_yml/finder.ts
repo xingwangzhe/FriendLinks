@@ -1,5 +1,5 @@
 import type { Browser } from "playwright";
-import type { Anchor } from "./types";
+import type { Anchor, PageMeta } from "./types";
 import { looksLikeFriendLink, isLikelyNonBlog, isDebugEnabled } from "./utils";
 
 export async function findFriendPageAnchors(
@@ -7,7 +7,11 @@ export async function findFriendPageAnchors(
   pageUrl: string,
   baseHost: string,
   verbose = false
-): Promise<Anchor[] | null> {
+): Promise<{
+  length: number;
+  anchors: Anchor[];
+  meta: PageMeta;
+} | null> {
   const ctx = await browser.newContext({});
   const page = await ctx.newPage();
   try {
@@ -40,6 +44,21 @@ export async function findFriendPageAnchors(
       }
     }
 
+    // gather page meta: title and meta description
+    let title: string | undefined;
+    let description: string | undefined;
+    try {
+      title = (await page.title()) || undefined;
+    } catch {}
+    try {
+      const descHandle = await page.$('meta[name="description"]');
+      if (descHandle) {
+        // @ts-ignore
+        const content = await descHandle.getAttribute("content");
+        if (content) description = String(content);
+      }
+    } catch {}
+
     const anchors: Anchor[] = await page.$$eval("a", (anchors) =>
       anchors.map((a) => ({
         href: (a as HTMLAnchorElement).href,
@@ -65,7 +84,11 @@ export async function findFriendPageAnchors(
         console.log(`  -> ${a.href}  [${(a.text || "").slice(0, 80)}]`);
       }
     }
-    return friendAnchors;
+    return {
+      length: friendAnchors.length,
+      anchors: friendAnchors,
+      meta: { title, description },
+    };
   } catch (err) {
     const dbg = verbose || isDebugEnabled();
     if (dbg) console.warn(`Failed to open ${pageUrl}:`, err);

@@ -186,6 +186,7 @@ export async function mainCLI(): Promise<void> {
       if (dbgGlobal) console.log(`Crawling (${curDepth}) ${url}`);
 
       let targetAnchors = null as any;
+      let pageMeta: { title?: string; description?: string } | undefined;
 
       for (const c of FRIEND_PAGE_CANDIDATES) {
         const attempt = new URL(c, url).href;
@@ -196,8 +197,9 @@ export async function mainCLI(): Promise<void> {
           baseHost,
           verbose
         );
-        if (found && found.length > 0) {
-          targetAnchors = found;
+        if (found && found.anchors && found.anchors.length > 0) {
+          targetAnchors = found.anchors;
+          pageMeta = found.meta;
           break;
         }
       }
@@ -209,7 +211,10 @@ export async function mainCLI(): Promise<void> {
           baseHost,
           verbose
         );
-        if (found && found.length > 0) targetAnchors = found;
+        if (found && found.anchors && found.anchors.length > 0) {
+          targetAnchors = found.anchors;
+          pageMeta = found.meta;
+        }
       }
 
       if (!targetAnchors || targetAnchors.length === 0) {
@@ -239,10 +244,15 @@ export async function mainCLI(): Promise<void> {
           .then(() => true)
           .catch(() => false)) || queuedWrites.has(baseFilename);
       if (!baseYamlExists && friendsList.length > 0) {
+        const siteNameRaw = pageMeta?.title ?? url;
+        const siteName = sanitizeLabel(siteNameRaw) || baseHost;
+        const siteDescRaw = pageMeta?.description ?? siteNameRaw;
+        const siteDesc = sanitizeLabel(siteDescRaw) || siteName;
         const yamlObj = {
           site: {
-            name: sanitizeLabel(url) || baseHost,
+            name: siteName,
             url,
+            description: siteDesc,
             friends: friendsList,
           },
         };

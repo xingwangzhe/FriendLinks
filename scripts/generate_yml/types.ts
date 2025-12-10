@@ -10,6 +10,8 @@ export type SeedEntry = {
 
 export type Anchor = { href: string; text: string };
 
+export type PageMeta = { title?: string; description?: string };
+
 export const IGNORED_HOSTS = new Set([
   "google.com",
   "gstatic.com",
@@ -48,7 +50,12 @@ export const AGGREGATORS = new Set([
 
 export const FRIEND_PAGE_CANDIDATES = [
   "/links",
+  "/links.html",
+  "/friend",
   "/friends",
+  "/friends.html",
+  "/peer",
+  "/index.php/links.html",
   "/friend-links",
   "/friend_link",
   "/friend-links.html",
@@ -58,7 +65,6 @@ export const FRIEND_PAGE_CANDIDATES = [
   "/about.html",
   "/about-me",
   "/关于",
-  "index.php/links.html",
   "/links.html",
   "/peer",
   "/peers",
