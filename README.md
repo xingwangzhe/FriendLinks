@@ -26,6 +26,7 @@
        url: https://techfrontier.example.com
  ```
 
+
 ## URL 聚焦查询（自动高亮）
 
 你可以通过在页面地址中添加查询参数来自动聚焦并高亮指定站点节点。支持以下格式：
@@ -44,3 +45,4 @@
 - 如果未解析出 hostname，则尝试在节点的 `url`中进行包含匹配；
 - 成功匹配后页面会尝试把目标节点移动到屏幕中心并进行短时高亮（视觉提示）。
 
+DEBUG_GENERATOR=1 bun run ./scripts/generate_yml/generate-yml-from-friends.ts
