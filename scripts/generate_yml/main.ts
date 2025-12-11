@@ -9,8 +9,8 @@ import type { SeedEntry } from "./types";
 import {
   hostnameFromUrl,
   sanitizeLabel,
-  isDebugEnabled,
   hostMatchesSet,
+  extractFriendName,
 } from "./utils";
 import { findFriendPageAnchors } from "./finder";
 import { createAsyncWriter } from "./writer";
@@ -38,18 +38,18 @@ export async function mainCLI(): Promise<void> {
 
   const linksDir = path.resolve(process.cwd(), "links");
   const outDir = linksDir;
-
-  const dbgGlobal = verbose || isDebugEnabled();
   const { enqueueWrite, flushWrites, queuedWrites } = createAsyncWriter(
     verbose,
     writeConcurrency
   );
 
   const files = await fs.readdir(linksDir).catch(() => [] as string[]);
-  if (dbgGlobal) console.log(`Found ${files.length} files in ${linksDir}`);
+  if (global) console.log(`Found ${files.length} files in ${linksDir}`);
   const seeds: string[] = [];
   const seedHosts = new Set<string>();
   for (const f of files) {
+    // Explicitly skip JSON files such as visited.json and any non-YAML files
+    if (f === "visited.json" || f.endsWith(".json")) continue;
     if (!f.endsWith(".yml") && !f.endsWith(".yaml")) continue;
     const content = await fs.readFile(path.join(linksDir, f), "utf8");
     try {
@@ -57,7 +57,8 @@ export async function mainCLI(): Promise<void> {
       if (data?.site?.friends && data.site.friends.length > 0) {
         for (const friend of data.site.friends) {
           if (!friend?.url) continue;
-          const h = hostnameFromUrl(friend.url);
+          const hFull = hostnameFromUrl(friend.url);
+          const h = hFull;
           if (!h) continue;
           if (
             hostMatchesSet(h, IGNORED_HOSTS) ||
@@ -75,7 +76,8 @@ export async function mainCLI(): Promise<void> {
           seeds.push(friend.url);
         }
       } else if (data?.site?.url) {
-        const h = hostnameFromUrl(data.site.url);
+        const hFull = hostnameFromUrl(data.site.url);
+        const h = hFull;
         if (h && !seedHosts.has(h)) {
           const filename = path.join(outDir, `${h}.yml`);
           const fileExists = await fs
@@ -89,11 +91,40 @@ export async function mainCLI(): Promise<void> {
         }
       }
     } catch (err) {
-      if (dbgGlobal) console.warn("Failed to parse yaml", f, err);
+      if (global) console.warn("Failed to parse yaml", f, err);
     }
   }
 
-  if (dbgGlobal) {
+  // Load visited hosts from visited.json (if present) and exclude them from initial seeds
+  const visitedFromFile = new Set<string>();
+  try {
+    const prev = await fs
+      .readFile(path.join(outDir, "visited.json"), "utf8")
+      .catch(() => "");
+    if (prev) {
+      const arr: string[] = JSON.parse(prev || "[]");
+      for (const h of arr) visitedFromFile.add(h);
+      if (global)
+        console.log(`Loaded ${arr.length} visited hosts from visited.json`);
+    }
+  } catch (err) {
+    if (global) console.warn(`Failed to read visited.json`, err);
+  }
+
+  // Filter seeds to remove already visited hosts
+  if (visitedFromFile.size > 0 && seeds.length > 0) {
+    const before = seeds.length;
+    for (let i = seeds.length - 1; i >= 0; i--) {
+      const h = hostnameFromUrl(seeds[i]);
+      if (!h) continue;
+      if (visitedFromFile.has(h)) seeds.splice(i, 1);
+    }
+    if (global)
+      console.log(
+        `Filtered seeds ${before} -> ${seeds.length} after removing visited hosts`
+      );
+  }
+  if (global) {
     console.log(
       `Discovered ${seeds.length} seed URLs (unique hosts: ${seedHosts.size})`
     );
@@ -103,6 +134,25 @@ export async function mainCLI(): Promise<void> {
 
   const discovered = new Map<string, string | null>();
   const visited = new Set<string>();
+
+  // Merge visitedFromFile (loaded earlier) into runtime visited set so we skip already-visited hosts
+  try {
+    // `visitedFromFile` may be undefined in older versions, guard access
+    // @ts-ignore
+    if (
+      typeof visitedFromFile !== "undefined" &&
+      visitedFromFile instanceof Set
+    ) {
+      // @ts-ignore
+      for (const h of visitedFromFile) visited.add(h);
+      if (global)
+        console.log(
+          `Initialized visited set with ${visited.size} hosts from visited.json`
+        );
+    }
+  } catch (e) {
+    if (global) console.warn("Failed to merge visitedFromFile into visited", e);
+  }
 
   async function loadVisitedFile(filePath: string): Promise<Set<string>> {
     try {
@@ -123,14 +173,27 @@ export async function mainCLI(): Promise<void> {
   async function saveVisitedFile(filePath: string, set: Set<string>) {
     try {
       await fs.mkdir(path.dirname(filePath), { recursive: true });
-      const arr = Array.from(set.values());
+      // Read existing visited file (if any) and merge to avoid overwriting concurrent entries
+      let existing = new Set<string>();
+      try {
+        const prev = await fs.readFile(filePath, "utf8").catch(() => "");
+        if (prev) {
+          const arr: string[] = JSON.parse(prev || "[]");
+          for (const v of arr) existing.add(v);
+        }
+      } catch {
+        // ignore parse/read errors, treat as empty
+      }
+      // Merge incoming set
+      for (const v of set) existing.add(v);
+      const arr = Array.from(existing.values());
       const tmp = `${filePath}.tmp`;
       await fs.writeFile(tmp, JSON.stringify(arr, null, 2), "utf8");
       await fs.rename(tmp, filePath);
       if (verbose)
         console.log(`Saved ${arr.length} visited hosts to ${filePath}`);
-    } catch {
-      console.warn(`Failed to persist visited-file ${filePath}`);
+    } catch (err) {
+      console.warn(`Failed to persist visited-file ${filePath}`, err);
     }
   }
 
@@ -149,11 +212,11 @@ export async function mainCLI(): Promise<void> {
     for (const h of prev) visited.add(h);
   }
   for (const seed of seeds) {
-    const h = hostnameFromUrl(seed);
-    if (h) discovered.set(h, seed);
+    const hFull = hostnameFromUrl(seed);
+    if (hFull) discovered.set(hFull, seed);
   }
 
-  if (dbgGlobal)
+  if (global)
     console.log(
       `Starting BFS with ${discovered.size} seeds, depth=${depth}, dryRun=${dryRun}`
     );
@@ -163,15 +226,62 @@ export async function mainCLI(): Promise<void> {
 
   const browser = await chromium.launch();
 
+  // Helper: try to fetch the main site's title (root origin) to use as site.name
+  async function fetchSiteMainName(
+    browser: Browser,
+    pageUrl: string,
+    verboseFlag = false
+  ) {
+    try {
+      const urlObj = new URL(pageUrl);
+      const origin = urlObj.origin;
+      const page = await browser.newPage();
+      try {
+        await page
+          .goto(origin, { waitUntil: "domcontentloaded", timeout: 5000 })
+          .catch(() => {});
+        const metaTitle = await page
+          .evaluate(() => {
+            const sel =
+              document.querySelector('meta[property="og:site_name"]') ||
+              document.querySelector('meta[property="og:title"]') ||
+              document.querySelector('meta[name="title"]') ||
+              document.querySelector("title");
+            return sel
+              ? sel.getAttribute
+                ? sel.getAttribute("content") || sel.textContent
+                : sel.textContent
+              : null;
+          })
+          .catch(() => null);
+        await page.close();
+        const candidate =
+          (metaTitle && String(metaTitle).trim()) || urlObj.hostname;
+        const cleaned = sanitizeLabel(candidate) || urlObj.hostname;
+        return extractFriendName(cleaned, origin);
+      } catch (e) {
+        try {
+          await page.close();
+        } catch {}
+        if (verboseFlag) console.warn("fetchSiteMainName inner error", e);
+        return urlObj.hostname;
+      }
+    } catch (e) {
+      if (verboseFlag) console.warn("fetchSiteMainName failed", e);
+      return pageUrl;
+    }
+  }
+
   try {
     while (queue.length > 0) {
       const { url, depth: curDepth } = queue.shift()!;
-      if (dbgGlobal)
+      if (global)
         console.log(
           `Queue pop: ${url} (depth=${curDepth}, remaining=${queue.length})`
         );
       if (curDepth > depth) continue;
-      const baseHost = hostnameFromUrl(url);
+      const baseHostFull = hostnameFromUrl(url);
+      const baseHost = baseHostFull;
       if (!baseHost) continue;
       if (visited.has(baseHost)) {
         if (verbose)
@@ -183,14 +293,14 @@ export async function mainCLI(): Promise<void> {
         await saveVisitedFile(visitedFile, visited);
       }
 
-      if (dbgGlobal) console.log(`Crawling (${curDepth}) ${url}`);
+      if (global) console.log(`Crawling (${curDepth}) ${url}`);
 
       let targetAnchors = null as any;
       let pageMeta: { title?: string; description?: string } | undefined;
 
       for (const c of FRIEND_PAGE_CANDIDATES) {
         const attempt = new URL(c, url).href;
-        if (dbgGlobal) console.log("Trying candidate friend page:", attempt);
+        if (global) console.log("Trying candidate friend page:", attempt);
         const found = await findFriendPageAnchors(
           browser as Browser,
           attempt,
@@ -218,13 +328,14 @@ export async function mainCLI(): Promise<void> {
       }
 
       if (!targetAnchors || targetAnchors.length === 0) {
-        if (dbgGlobal) console.log(`No friend anchors found for ${url}`);
+        if (global) console.log(`No friend anchors found for ${url}`);
         continue;
       }
 
       const friendsList = targetAnchors
         .map((a: any) => {
-          const h = hostnameFromUrl(a.href);
+          const hFull = hostnameFromUrl(a.href);
+          const h = hFull;
           if (!h) return null;
           if (h === baseHost) return null;
           if (
@@ -232,7 +343,7 @@ export async function mainCLI(): Promise<void> {
             hostMatchesSet(h, AGGREGATORS)
           )
             return null;
-          const nm = sanitizeLabel(a.text || h) || h;
+          const nm = extractFriendName(a.text || null, a.href) || h;
           return { name: nm, url: a.href } as { name: string; url: string };
         })
         .filter(Boolean) as { name: string; url: string }[];
@@ -244,7 +355,10 @@ export async function mainCLI(): Promise<void> {
           .then(() => true)
           .catch(() => false)) || queuedWrites.has(baseFilename);
       if (!baseYamlExists && friendsList.length > 0) {
-        const siteNameRaw = pageMeta?.title ?? url;
+        // Prefer the site's main/root title instead of the friend-list page title
+        const siteMainName =
+          (await fetchSiteMainName(browser, url, !!global)) || undefined;
+        const siteNameRaw = siteMainName || pageMeta?.title || url;
         const siteName = sanitizeLabel(siteNameRaw) || baseHost;
         const siteDescRaw = pageMeta?.description ?? siteNameRaw;
         const siteDesc = sanitizeLabel(siteDescRaw) || siteName;
@@ -261,10 +375,10 @@ export async function mainCLI(): Promise<void> {
           if (asyncWrite) enqueueWrite(baseFilename, yamlContent);
           else {
             await fs.writeFile(baseFilename, yamlContent, "utf8");
-            if (dbgGlobal)
+            if (global)
               console.log(`Wrote base YAML for ${baseHost} -> ${baseFilename}`);
           }
-        } else if (dbgGlobal) {
+        } else if (global) {
           console.log(
             `[DRY] Would write base YAML for ${baseHost} -> ${baseFilename}`
           );
@@ -272,7 +386,8 @@ export async function mainCLI(): Promise<void> {
       }
 
       for (const anchor of targetAnchors) {
-        const anchorHost = hostnameFromUrl(anchor.href);
+        const anchorHostFull = hostnameFromUrl(anchor.href);
+        const anchorHost = anchorHostFull;
         if (!anchorHost) continue;
         if (anchorHost === baseHost) continue;
         if (
@@ -288,7 +403,7 @@ export async function mainCLI(): Promise<void> {
             .then(() => true)
             .catch(() => false)) || queuedWrites.has(anchorFilename);
         if (anchorYamlExists) {
-          if (dbgGlobal)
+          if (global)
             console.log(
               `Skipping ${anchorHost}: yaml already present (${anchorFilename})`
             );
@@ -298,7 +413,7 @@ export async function mainCLI(): Promise<void> {
         if (!discovered.has(anchorHost) && !visited.has(anchorHost)) {
           discovered.set(anchorHost, anchor.href);
           queue.push({ url: anchor.href, depth: curDepth + 1 });
-          if (dbgGlobal)
+          if (global)
             console.log(`Enqueued ${anchor.href} (host=${anchorHost})`);
         }
       }

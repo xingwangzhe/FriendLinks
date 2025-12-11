@@ -56,6 +56,21 @@ export function buildGraphFromData(data: GraphData): BuildResult {
     const y = Math.sin(angle) * radius + (Math.random() - 0.5) * 10;
 
     const baseColor = PALETTE[hashToIndex(id)];
+    // 如果已有相同 id 的节点，说明输入数据存在重复，跳过以避免抛错
+    if ((g as any).hasNode && (g as any).hasNode(id)) {
+      try {
+        const existingAttrs = (g as any).getNodeAttributes
+          ? (g as any).getNodeAttributes(id)
+          : null;
+        originalColors.set(
+          id,
+          (existingAttrs && existingAttrs.baseColor) || baseColor
+        );
+      } catch {
+        originalColors.set(id, baseColor);
+      }
+      continue;
+    }
 
     // Add node with attributes expected by renderer
     g.addNode(id, {

@@ -23,10 +23,22 @@ export function createAsyncWriter(verbose = false, writeConcurrency = 4) {
       (async () => {
         try {
           await fs.mkdir(path.dirname(job.fname), { recursive: true });
-          const tmp = `${job.fname}.tmp`;
-          await fs.writeFile(tmp, job.content, "utf8");
-          await fs.rename(tmp, job.fname);
-          if (dbg) console.log(`(async-write) Wrote ${job.fname}`);
+          // Final safety: if the target file already exists, skip writing to avoid overwriting.
+          const exists = await fs
+            .access(job.fname)
+            .then(() => true)
+            .catch(() => false);
+          if (exists) {
+            if (dbg)
+              console.log(
+                `(async-write) Skipping write for ${job.fname} because it already exists`
+              );
+          } else {
+            const tmp = `${job.fname}.tmp`;
+            await fs.writeFile(tmp, job.content, "utf8");
+            await fs.rename(tmp, job.fname);
+            if (dbg) console.log(`(async-write) Wrote ${job.fname}`);
+          }
         } catch (err) {
           console.warn(`(async-write) Failed to write ${job.fname}`, err);
         } finally {
