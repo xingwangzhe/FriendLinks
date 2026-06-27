@@ -169,19 +169,45 @@ export function init3d(graphData: GraphData) {
       const mesh = new THREE.Mesh(geometry, material);
       group.add(mesh);
       
-      // 发光圈（仅高亮节点显示）
+      // 发光圈（仅高亮节点显示）- 多层涟漪效果
       if (isHighlighted) {
-        const glowSize = size * 3; // 光圈半径为节点的三倍
-        const glowTexture = createGlowTexture(baseColor);
-        const glowMaterial = new THREE.SpriteMaterial({
-          map: glowTexture,
+        const baseOpacity = 0.4 + highlightLevel * 0.15;
+        
+        // 内层光圈（3倍）
+        const glowTexture1 = createGlowTexture(baseColor);
+        const glowMaterial1 = new THREE.SpriteMaterial({
+          map: glowTexture1,
           transparent: true,
-          opacity: 0.6 + highlightLevel * 0.1,
+          opacity: baseOpacity,
           blending: THREE.AdditiveBlending,
         });
-        const glowSprite = new THREE.Sprite(glowMaterial);
-        glowSprite.scale.set(glowSize * 2, glowSize * 2, 1);
-        group.add(glowSprite);
+        const glowSprite1 = new THREE.Sprite(glowMaterial1);
+        glowSprite1.scale.set(size * 6, size * 6, 1);
+        group.add(glowSprite1);
+        
+        // 中层光圈（6倍）
+        const glowTexture2 = createGlowTexture(baseColor);
+        const glowMaterial2 = new THREE.SpriteMaterial({
+          map: glowTexture2,
+          transparent: true,
+          opacity: baseOpacity * 0.6,
+          blending: THREE.AdditiveBlending,
+        });
+        const glowSprite2 = new THREE.Sprite(glowMaterial2);
+        glowSprite2.scale.set(size * 12, size * 12, 1);
+        group.add(glowSprite2);
+        
+        // 外层光圈（10倍）- 宇宙级涟漪
+        const glowTexture3 = createGlowTexture(baseColor);
+        const glowMaterial3 = new THREE.SpriteMaterial({
+          map: glowTexture3,
+          transparent: true,
+          opacity: baseOpacity * 0.3,
+          blending: THREE.AdditiveBlending,
+        });
+        const glowSprite3 = new THREE.Sprite(glowMaterial3);
+        glowSprite3.scale.set(size * 20, size * 20, 1);
+        group.add(glowSprite3);
       }
       
       return group;
@@ -218,6 +244,40 @@ export function init3d(graphData: GraphData) {
     }
   });
   ro.observe(container);
+
+  // 涟漪波动动画
+  let animationTime = 0;
+  function animateRipples() {
+    animationTime += 0.02;
+    const currentData = Graph.graphData() as any;
+    if (currentData.nodes) {
+      for (const node of currentData.nodes) {
+        if (node.__threeObj && node.__threeObj.children.length > 1) {
+          const sprites = node.__threeObj.children.slice(1);
+          // 内层波动
+          if (sprites[0]) {
+            const scale1 = 6 + Math.sin(animationTime * 2) * 0.5;
+            sprites[0].scale.set(scale1, scale1, 1);
+            sprites[0].material.opacity = (0.4 + (focusedId === node.id ? 0.45 : hoveredId === node.id ? 0.3 : 0.15)) * (0.8 + Math.sin(animationTime * 3) * 0.2);
+          }
+          // 中层波动
+          if (sprites[1]) {
+            const scale2 = 12 + Math.sin(animationTime * 1.5 + 1) * 1;
+            sprites[1].scale.set(scale2, scale2, 1);
+            sprites[1].material.opacity = (0.4 + (focusedId === node.id ? 0.45 : hoveredId === node.id ? 0.3 : 0.15)) * 0.6 * (0.8 + Math.sin(animationTime * 2 + 1) * 0.2);
+          }
+          // 外层波动
+          if (sprites[2]) {
+            const scale3 = 20 + Math.sin(animationTime + 2) * 2;
+            sprites[2].scale.set(scale3, scale3, 1);
+            sprites[2].material.opacity = (0.4 + (focusedId === node.id ? 0.45 : hoveredId === node.id ? 0.3 : 0.15)) * 0.3 * (0.8 + Math.sin(animationTime * 1.5 + 2) * 0.2);
+          }
+        }
+      }
+    }
+    requestAnimationFrame(animateRipples);
+  }
+  animateRipples();
 
   // ── 8. 鼠标位置追踪（用于 tooltip） ─────────────────────────────
   let mouseX = 0;
