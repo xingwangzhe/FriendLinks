@@ -2,7 +2,6 @@
   "name": "friendlinks",
   "installCommand": "bun install",
   "buildCommand": "bun run build",
-  "nodeVersion": "22.11.0",
   "outputDirectory": "dist",
   "caches": [
     {
