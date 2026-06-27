@@ -210,7 +210,7 @@ export function init3d(graphData: GraphData) {
     .nodeLabel(null) // 关闭内置标签，使用自定义 tooltip
     .nodeThreeObject((n: any) => {
       const id = n.id;
-      const baseColor = getBaseColor(n);
+      const baseColor = themedColor(getBaseColor(n), isDarkRef.value);
       const state = getNodeVisualState(id, hoveredId, focusedId, highlightedSet);
       const baseSize = baseSizeMap.get(id) || 1;
       const size = baseSize * state.scale;
