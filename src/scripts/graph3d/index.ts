@@ -62,34 +62,6 @@ type NodeVisualState = {
   opacity: number;       // 透明度
 };
 
-// 材质缓存，避免重复创建
-const materialCache = new Map<string, THREE.MeshStandardMaterial>();
-
-function getNodeMaterial(
-  baseColor: string,
-  state: NodeVisualState,
-  isDark: boolean
-): THREE.MeshBasicMaterial {
-  const cacheKey = `${baseColor}-${state.scale}-${state.emissiveIntensity}-${state.opacity}-${isDark}`;
-  if (materialCache.has(cacheKey)) {
-    return materialCache.get(cacheKey)!;
-  }
-
-  // 发光效果：直接调亮颜色（MeshBasicMaterial 不支持 emissive）
-  const displayColor = state.emissiveIntensity > 0
-    ? getEmissiveColor(baseColor, state.emissiveIntensity)
-    : baseColor;
-
-  const material = new THREE.MeshBasicMaterial({
-    color: displayColor,
-    transparent: state.opacity < 1,
-    opacity: state.opacity,
-  });
-
-  materialCache.set(cacheKey, material);
-  return material;
-}
-
 // 计算节点视觉状态
 function getNodeVisualState(
   nodeId: string,
@@ -183,7 +155,6 @@ export function init3d(graphData: GraphData) {
   let lastFocusedId: string | null = null;
 
   function refreshColors() {
-    materialCache.clear();
     Graph.refresh();
   }
 
@@ -212,9 +183,14 @@ export function init3d(graphData: GraphData) {
       const baseSize = baseSizeMap.get(id) || 1;
       const size = baseSize * state.scale;
 
-      const geometry = new THREE.SphereGeometry(size, 16, 16);
-      const material = getNodeMaterial(baseColor, state, isDarkRef.value);
-
+      const geometry = new THREE.SphereGeometry(size, 8, 8);
+      const material = new THREE.MeshBasicMaterial({
+        color: state.emissiveIntensity > 0
+          ? getEmissiveColor(baseColor, state.emissiveIntensity)
+          : baseColor,
+        transparent: state.opacity < 1,
+        opacity: state.opacity,
+      });
       const mesh = new THREE.Mesh(geometry, material);
       return mesh;
     })
@@ -222,9 +198,6 @@ export function init3d(graphData: GraphData) {
       isDarkRef.value ? "rgba(255,255,255,0.12)" : "rgba(0,0,0,0.12)",
     )
     .linkWidth(0.2)
-    .linkDirectionalParticles(1)
-    .linkDirectionalParticleWidth(1)
-    .linkDirectionalParticleSpeed(0.005)
     .backgroundColor(isDarkRef.value ? "#0f1115" : "#ffffff")
     .enableNodeDrag(true)
     .enableNavigationControls(true)
