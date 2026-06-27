@@ -49,7 +49,7 @@ import "../css/modal.css";
         <input
           id="graph-search"
           type="text"
-          placeholder="搜索：站点名或域名（示例: example.com）"
+          placeholder="搜索站点名或域名 | 左键打开网站 | 右键聚焦节点"
           autocomplete="off"
         />
         <button id="graph-search-clear" class="search-clear" aria-label="清空搜索" title="清空搜索">✖</button>
@@ -92,6 +92,24 @@ import "../css/modal.css";
           <h3>VIBE CODE — 博客友链网</h3>
           <p><strong>法律合规说明：</strong>网站所有者和投稿者必须确保其发布内容及网站运营遵守中华人民共和国以及适用情况下的美利坚合众国法律法规（包括但不限于版权、隐私、网络安全与信息内容方面的法律）。</p>
           <p><strong>请确保：</strong>你的站点使用 <code>https</code> 并可以在大陆访问。</p>
+          <h4>操作说明</h4>
+          <ul>
+            <li><strong>左键点击节点</strong>：在新标签页打开对应网站</li>
+            <li><strong>右键点击节点</strong>：聚焦该节点（相机拉近、节点放大 1.5 倍、连线高亮金色）</li>
+            <li><strong>悬停节点</strong>：显示站点名称、描述和链接</li>
+            <li><strong>鼠标拖拽</strong>：旋转 3D 视角</li>
+            <li><strong>滚轮</strong>：缩放视图</li>
+            <li><strong>搜索框</strong>：模糊搜索站点名或域名</li>
+          </ul>
+          <h4>聚焦效果说明</h4>
+          <p>右键点击节点后，会触发以下视觉效果：</p>
+          <ul>
+            <li>节点半径<strong>放大 1.5 倍</strong></li>
+            <li>节点颜色<strong>调亮 60%</strong></li>
+            <li>相连连线变为<strong>亮金色</strong>（2.5 倍粗、高不透明）</li>
+            <li>相机自动将节点移动到视野中心</li>
+            <li>邻居节点轻微高亮（调亮 20%）</li>
+          </ul>
           <h4>添加你的博客</h4>
           <p>在 <code>links/&#123;yoursite&#125;.yml</code> 中填写你的站点信息，示例格式如下：</p>
           <pre><code class="yaml">site:
