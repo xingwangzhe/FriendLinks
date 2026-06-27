@@ -183,7 +183,7 @@ export function init3d(graphData: GraphData) {
       const src = typeof l.source === 'object' ? l.source.id : l.source;
       const tgt = typeof l.target === 'object' ? l.target.id : l.target;
       const isConnectedToFocus = focusedId && (src === focusedId || tgt === focusedId);
-      return isConnectedToFocus ? 0.8 : 0.2;
+      return isConnectedToFocus ? 1.2 : 0.4;
     })
     .linkDirectionalParticles(1)
     .linkDirectionalParticleWidth(0.5)
