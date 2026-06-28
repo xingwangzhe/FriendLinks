@@ -4,7 +4,6 @@ import "../css/topbar.css";
 import "../css/buttons.css";
 import "../css/modal.css";
 	export const prerender = true;
-	const clientScript = "/scripts/index-client.js";
 ---
 
 <html lang="zh-CN">
@@ -359,7 +358,9 @@ import "../css/modal.css";
         }
       }
     </style>
-    <script type="module" src={clientScript}></script>
+    <script>
+      import "../scripts/index-client.ts";
+    </script>
     <script lang="js">
       (function () {
         const btn = document.getElementById("theme-toggle");
