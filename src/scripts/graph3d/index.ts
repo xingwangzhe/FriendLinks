@@ -71,9 +71,17 @@ export function init3d(graphData: GraphData) {
   const degValues = Object.values(degreeMap);
   const maxDegree = degValues.length ? Math.max(...degValues) : 1;
 
-  // ── 2. 预处理节点 & 预计算颜色 ─────────────────────────────────
+  // ── 2. 主题检测（提前定义，供预计算颜色使用）────────────────────
+  const prefersDark = (): boolean => {
+    if (document.documentElement.dataset.theme === "dark") return true;
+    if (document.documentElement.dataset.theme === "light") return false;
+    return window.matchMedia?.("(prefers-color-scheme: dark)").matches ?? false;
+  };
+  const isDarkRef: ThemeRef = { value: prefersDark() };
+
+  // ── 3. 预处理节点 & 预计算颜色 ─────────────────────────────────
   const rawNodes = graphData.nodes || [];
-  const isDark = prefersDark();
+  const isDark = isDarkRef.value;
   const nodes = rawNodes.map((n: any) => {
     const base = PALETTE[hashToIndex(n.id)];
     return {
@@ -91,14 +99,6 @@ export function init3d(graphData: GraphData) {
     source: l.source ?? l[0],
     target: l.target ?? l[1],
   }));
-
-  // ── 3. 主题检测 ──────────────────────────────────────────────────
-  const prefersDark = (): boolean => {
-    if (document.documentElement.dataset.theme === "dark") return true;
-    if (document.documentElement.dataset.theme === "light") return false;
-    return window.matchMedia?.("(prefers-color-scheme: dark)").matches ?? false;
-  };
-  const isDarkRef: ThemeRef = { value: prefersDark() };
 
   // ── 4. 搜索索引 ──────────────────────────────────────────────────
   const fuse = new Fuse(nodes, {
