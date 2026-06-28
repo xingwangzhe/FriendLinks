@@ -129,7 +129,7 @@ export async function GET() {
     });
   }
 
-  // ── 节点不带位置输出，让客户端 3d-force-graph 自行跑力导 ─────
+  // 节点不带位置，客户端 3d-force-graph 从随机位置自然跑力导
   const graph = { nodes, links: linksArr, categories };
   return new Response(JSON.stringify(graph), {
     headers: { "Content-Type": "application/json" },
