@@ -121,6 +121,91 @@ export function init3d(graphData: GraphData) {
   // ── 6. Tooltip ──────────────────────────────────────────────────
   const tooltip = createTooltip();
 
+  // ── 6b. 连线透明度控制 ─────────────────────────────────────────
+  const linkOpacity = { value: 1.0 }; // 0~1
+
+  function createControlPanel() {
+    // 复用已存在的面板
+    let panel = document.getElementById("graph-control-panel") as HTMLElement | null;
+    if (panel) return panel;
+
+    panel = document.createElement("div");
+    panel.id = "graph-control-panel";
+
+    const label = document.createElement("label");
+    label.textContent = "连线透明度";
+    label.style.cssText = "font-size:12px;color:var(--muted,#888);display:block;margin-bottom:4px;";
+
+    const slider = document.createElement("input");
+    slider.type = "range";
+    slider.min = "0";
+    slider.max = "1";
+    slider.step = "0.05";
+    slider.value = String(linkOpacity.value);
+    slider.style.cssText = "width:100%;accent-color:var(--primary,#4a9eff);";
+
+    const valueDisplay = document.createElement("span");
+    valueDisplay.textContent = slider.value;
+    valueDisplay.style.cssText = "font-size:11px;color:var(--muted,#888);margin-left:6px;";
+
+    slider.addEventListener("input", () => {
+      linkOpacity.value = parseFloat(slider.value);
+      valueDisplay.textContent = slider.value;
+      Graph.refresh(); // 触发 linkColor 重新计算
+    });
+
+    const wrapper = document.createElement("div");
+    wrapper.style.cssText = "display:flex;align-items:center;";
+    wrapper.appendChild(slider);
+    wrapper.appendChild(valueDisplay);
+
+    panel.appendChild(label);
+    panel.appendChild(wrapper);
+
+    // 悬浮在右下角
+    panel.style.cssText = `
+      position:fixed;bottom:70px;right:16px;z-index:9998;
+      background:var(--card-bg,rgba(30,30,40,0.85));
+      backdrop-filter:blur(8px);
+      border:1px solid var(--border,rgba(255,255,255,0.1));
+      border-radius:8px;
+      padding:10px 14px;
+      min-width:140px;
+      display:none;
+      font-family:sans-serif;
+    `;
+
+    document.body.appendChild(panel);
+    return panel;
+  }
+
+  const controlPanel = createControlPanel();
+
+  // 短按控制面板切换显示
+  let panelTimeout: ReturnType<typeof setTimeout> | null = null;
+  function showPanel() {
+    controlPanel.style.display = "block";
+    if (panelTimeout) clearTimeout(panelTimeout);
+    panelTimeout = setTimeout(() => {
+      controlPanel.style.display = "none";
+    }, 5000);
+  }
+  controlPanel.addEventListener("mouseenter", () => {
+    if (panelTimeout) clearTimeout(panelTimeout);
+  });
+  controlPanel.addEventListener("mouseleave", () => {
+    panelTimeout = setTimeout(() => {
+      controlPanel.style.display = "none";
+    }, 2000);
+  });
+
+  // 双击空白区域显示控制面板
+  container.addEventListener("dblclick", (e) => {
+    // 确保不是点在节点上
+    const target = e.target as HTMLElement;
+    if (!target.closest(".clickable")) showPanel();
+  });
+
   // ── 7. 创建 3D 图 ────────────────────────────────────────────────
 
   const Graph = ForceGraph3D()(container, {
@@ -157,14 +242,15 @@ export function init3d(graphData: GraphData) {
       const src = typeof l.source === "object" ? l.source.id : l.source;
       const tgt = typeof l.target === "object" ? l.target.id : l.target;
       const dark = isDarkRef.value;
+      const a = linkOpacity.value;
 
       if (focusedId && (src === focusedId || tgt === focusedId)) {
-        return dark ? "rgba(255,220,80,0.95)" : "rgba(255,180,30,0.95)";
+        return `rgba(255,${dark ? 220 : 180},${dark ? 80 : 30},${a})`;
       }
       if (hoveredId && !focusedId && (src === hoveredId || tgt === hoveredId)) {
-        return "rgba(200,200,200,0.6)";
+        return `rgba(200,200,200,${a})`;
       }
-      return "rgba(200,200,200,0.4)";
+      return `rgba(200,200,200,${Math.min(a, 0.4)})`;
     })
     .linkWidth((l: any) => {
       const src = typeof l.source === "object" ? l.source.id : l.source;
