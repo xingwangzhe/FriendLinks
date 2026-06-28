@@ -16,11 +16,9 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "remove-favicons": "node ./scripts/remove-favicons.mjs",
     "check-access": "bun ./scripts/check-access.ts",
-    "dev": "node ./scripts/bundle-client.mjs && astro dev",
-    "bundle-client": "node ./scripts/bundle-client.mjs",
-    "build": "bun run bundle-client && astro build",
+    "dev": "astro dev",
+    "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
