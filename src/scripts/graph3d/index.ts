@@ -182,18 +182,17 @@ export function init3d(graphData: GraphData) {
       const isConnectedToFocus = focusedId && (srcStr === focusedId || tgtStr === focusedId);
       const isConnectedToHover = hoveredId && (srcStr === hoveredId || tgtStr === hoveredId);
       const isConnectedToHighlight =
-        highlightedSet.size > 0 &&
+        !focusedId && highlightedSet.size > 0 &&
         (highlightedSet.has(srcStr) || highlightedSet.has(tgtStr));
 
       let r: number, g: number, b: number;
       if (isConnectedToFocus) {
         r = 1.0; g = dark ? 0.86 : 0.71; b = dark ? 0.31 : 0.12;
-      } else if (isConnectedToHover) {
+      } else if (isConnectedToHover && !focusedId) {
         r = 0.8; g = 0.8; b = 0.8;
       } else if (isConnectedToHighlight) {
         r = 0.7; g = 0.7; b = 0.7;
       } else {
-        // 融入背景 = 不可见
         r = bg[0]; g = bg[1]; b = bg[2];
       }
 
