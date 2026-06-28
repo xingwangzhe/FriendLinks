@@ -195,9 +195,7 @@ export function init3d(graphData: GraphData) {
     .d3AlphaDecay(0.02)
     .d3VelocityDecay(0.3);
 
-  // 禁用默认力——位置已由构建时预计算
-  Graph.d3Force("charge", null);
-  Graph.d3Force("link", null);
+  // 位置已由构建时预计算，cooldownTicks(0) 冻结仿真
 
   // 渲染后自动适配视角
   requestAnimationFrame(() => {
