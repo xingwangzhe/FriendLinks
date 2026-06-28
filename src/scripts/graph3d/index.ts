@@ -262,8 +262,21 @@ export function init3d(graphData: GraphData) {
   });
 
   // ── 9. 交互事件 ──────────────────────────────────────────────────
+
+  /** 追加来源参数，指向当前友链图谱页面 */
+  function withRef(url: string): string {
+    try {
+      const u = new URL(url);
+      const ref = window.location.origin;
+      u.searchParams.set("ref", ref);
+      return u.href;
+    } catch {
+      return url;
+    }
+  }
+
   Graph.onNodeClick((n: any) => {
-    if (n.url) window.open(n.url, "_blank");
+    if (n.url) window.open(withRef(n.url), "_blank");
   });
 
   Graph.onNodeRightClick((n: any) => {
@@ -315,7 +328,7 @@ export function init3d(graphData: GraphData) {
         const urlEl = document.createElement("div");
         urlEl.className = "graph-tooltip-url";
         const a = document.createElement("a");
-        a.href = n.url;
+        a.href = withRef(n.url);
         a.target = "_blank";
         a.rel = "noopener noreferrer";
         a.textContent = n.url;
