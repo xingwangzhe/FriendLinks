@@ -167,53 +167,40 @@ export function init3d(graphData: GraphData) {
 
   const linkMat = new THREE.LineBasicMaterial({
     vertexColors: true,
-    transparent: true,
-    opacity: 0, // 默认全透明，视线图干干净净
+    transparent: false,
   });
 
   const linkSegments = new THREE.LineSegments(linkGeom, linkMat);
   let linkObjCreated = false;
 
-  // 是否有任何激活态（focus / hover / highlight）
+  // 是否有任何激活态
   function hasActiveState(): boolean {
     return !!(focusedId || hoveredId || highlightedSet.size > 0);
   }
 
   // 7b ─ 颜色刷新函数 ──────────────────────────────────────────
-  /** 仅在有激活态时显示连线，其余全透明 */
+  /** 非激活线 = 精确背景色，transparent:false 不做混合，肉眼永远看不见 */
   function refreshLinkColors() {
     const dark = isDarkRef.value;
     const col = linkGeom.attributes.color.array;
-    const active = hasActiveState();
-
-    // 控制整体显隐
-    linkMat.opacity = active ? 1 : 0;
-
-    if (!active) {
-      linkGeom.attributes.color.needsUpdate = true;
-      return;
-    }
-
     const [br, bg, bb] = dark ? BG_HEX.dark : BG_HEX.light;
+    const active = hasActiveState();
 
     for (let i = 0; i < links.length; i++) {
       const srcStr = typeof links[i].source === "object" ? links[i].source.id : links[i].source;
       const tgtStr = typeof links[i].target === "object" ? links[i].target.id : links[i].target;
 
-      const isConnectedToFocus = focusedId && (srcStr === focusedId || tgtStr === focusedId);
-      const isConnectedToHover = hoveredId && (srcStr === hoveredId || tgtStr === hoveredId);
-      const isConnectedToHighlight =
-        !focusedId && highlightedSet.size > 0 &&
-        (highlightedSet.has(srcStr) || highlightedSet.has(tgtStr));
-
       let r: number, g: number, b: number;
-      if (isConnectedToFocus) {
+
+      if (active && focusedId && (srcStr === focusedId || tgtStr === focusedId)) {
         r = 1.0; g = dark ? 0.86 : 0.71; b = dark ? 0.31 : 0.12;
-      } else if (isConnectedToHover && !focusedId) {
+      } else if (active && hoveredId && !focusedId && (srcStr === hoveredId || tgtStr === hoveredId)) {
         r = 0.95; g = 0.95; b = 0.95;
-      } else if (isConnectedToHighlight) {
+      } else if (active && !focusedId && highlightedSet.size > 0 &&
+                 (highlightedSet.has(srcStr) || highlightedSet.has(tgtStr))) {
         r = 0.9; g = 0.9; b = 0.9;
       } else {
+        // 精确背景色，不做混合 → 完全不可见
         r = br; g = bg; b = bb;
       }
 
