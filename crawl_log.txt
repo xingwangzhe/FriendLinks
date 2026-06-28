@@ -1,0 +1,202 @@
+======================================================================
+半自动化友链爬虫 - 遍历子站发现新主站
+======================================================================
+
+已有主站: 72 个
+友链总数: 2153 个
+待探测子链: 1000 个（已过滤已是主站的）
+
+
+[1/1000] blog.leonus.cn... 
+  尝试 /links... ✗
+  尝试 /link... ✅ 找到 156 个链接
+  ✅ 新增: blog.leonus.cn.yml (50 友链)
+[2/1000] zouht.com... 
+  尝试 /links... ✗
+  尝试 /link... ✗
+  尝试 /friends... ✗
+  尝试 /friend... ✗
+  尝试 /links.html... ✗
+  尝试 /friends.html... ✗
+  尝试 /flink... ✗
+  尝试 /link/... ✗
+  尝试 /friends/... ✗
+  尝试 /friend-links... ✗
+  尝试 /friend_link... ✗
+  尝试 /peers... ✗
+  尝试 /links.html... ✗
+  尝试 /page/friendlinks... ✗
+  尝试 /page/friendlinks/... ✗
+  尝试 /yourenzhang... ✗
+  尝试 /yourenzhang/... ✗
+  尝试 /about... ✗
+  尝试首页 / ... ✅ 首页找到 8 个链接
+  ✅ 新增: zouht.com.yml (8 友链)
+[3/1000] blog.anheyu.com... 
+  尝试 /links... ✗
+  尝试 /link... (页面无友链)
+  尝试 /friends... ✗
+  尝试 /friend... ✗
+  尝试 /links.html... ✗
+  尝试 /friends.html... ✗
+  尝试 /flink... ✗
+  尝试 /link/... (页面无友链)
+  尝试 /friends/... ✗
+  尝试 /friend-links... ✗
+  尝试 /friend_link... ✗
+  尝试 /peers... ✗
+  尝试 /links.html... ✗
+  尝试 /page/friendlinks... ✗
+  尝试 /page/friendlinks/... ✗
+  尝试 /yourenzhang... ✗
+  尝试 /yourenzhang/... ✗
+  尝试 /about... (页面无友链)
+  尝试首页 / ... ✗ 首页只有 0 个外链，不够
+  ⏭️ 未找到友链，跳过
+[4/1000] blog.imsyy.top... 
+  尝试 /links... ✗
+  尝试 /link... ✗
+  尝试 /friends... ✗
+  尝试 /friend... ✗
+  尝试 /links.html... ✗
+  尝试 /friends.html... ✗
+  尝试 /flink... ✗
+  尝试 /link/... ✗
+  尝试 /friends/... ✗
+  尝试 /friend-links... ✗
+  尝试 /friend_link... ✗
+  尝试 /peers... ✗
+  尝试 /links.html... ✗
+  尝试 /page/friendlinks... ✗
+  尝试 /page/friendlinks/... ✗
+  尝试 /yourenzhang... ✗
+  尝试 /yourenzhang/... ✗
+  尝试 /about... ✗
+  尝试首页 / ... ✅ 首页找到 21 个链接
+  ✅ 新增: blog.imsyy.top.yml (21 友链)
+[5/1000] blog.byer.ink... 
+  尝试 /links... (页面无友链)
+  尝试 /link... (页面无友链)
+  尝试 /friends... (页面无友链)
+  尝试 /friend... (页面无友链)
+  尝试 /links.html... (页面无友链)
+  尝试 /friends.html... (页面无友链)
+  尝试 /flink... (页面无友链)
+  尝试 /link/... (页面无友链)
+  尝试 /friends/... (页面无友链)
+  尝试 /friend-links... (页面无友链)
+  尝试 /friend_link... (页面无友链)
+  尝试 /peers... (页面无友链)
+  尝试 /links.html... (页面无友链)
+  尝试 /page/friendlinks... (页面无友链)
+  尝试 /page/friendlinks/... (页面无友链)
+  尝试 /yourenzhang... (页面无友链)
+  尝试 /yourenzhang/... (页面无友链)
+  尝试 /about... (页面无友链)
+  尝试首页 / ... ✗ 首页只有 0 个外链，不够
+  ⏭️ 未找到友链，跳过
+[6/1000] kmar.top... 
+  尝试 /links... ✗
+  尝试 /link... ✗
+  尝试 /friends... ✗
+  尝试 /friend... ✗
+  尝试 /links.html... ✗
+  尝试 /friends.html... ✗
+  尝试 /flink... ✗
+  尝试 /link/... ✗
+  尝试 /friends/... ✗
+  尝试 /friend-links... ✗
+  尝试 /friend_link... ✗
+  尝试 /peers... ✗
+  尝试 /links.html... ✗
+  尝试 /page/friendlinks... ✗
+  尝试 /page/friendlinks/... ✗
+  尝试 /yourenzhang... ✗
+  尝试 /yourenzhang/... ✗
+  尝试 /about... ✗
+  尝试首页 / ... 
+  ⏭️ 未找到友链，跳过
+[7/1000] blog.tianli0.top... 
+  尝试 /links... ✗
+  尝试 /link... ✗
+  尝试 /friends... ✗
+  尝试 /friend... ✗
+  尝试 /links.html... ✗
+  尝试 /friends.html... ✗
+  尝试 /flink... ✗
+  尝试 /link/... ✗
+  尝试 /friends/... ✗
+  尝试 /friend-links... ✗
+  尝试 /friend_link... ✗
+  尝试 /peers... ✗
+  尝试 /links.html... ✗
+  尝试 /page/friendlinks... ✗
+  尝试 /page/friendlinks/... ✗
+  尝试 /yourenzhang... ✗
+  尝试 /yourenzhang/... ✗
+  尝试 /about... ✗
+  尝试首页 / ... ✗ 首页只有 2 个外链，不够
+  ⏭️ 未找到友链，跳过
+[8/1000] blog.qjqq.cn... 
+  尝试 /links... (页面无友链)
+  尝试 /link... (页面无友链)
+  尝试 /friends... (页面无友链)
+  尝试 /friend... (页面无友链)
+  尝试 /links.html... (页面无友链)
+  尝试 /friends.html... (页面无友链)
+  尝试 /flink... (页面无友链)
+  尝试 /link/... (页面无友链)
+  尝试 /friends/... (页面无友链)
+  尝试 /friend-links... (页面无友链)
+  尝试 /friend_link... (页面无友链)
+  尝试 /peers... (页面无友链)
+  尝试 /links.html... (页面无友链)
+  尝试 /page/friendlinks... (页面无友链)
+  尝试 /page/friendlinks/... (页面无友链)
+  尝试 /yourenzhang... (页面无友链)
+  尝试 /yourenzhang/... (页面无友链)
+  尝试 /about... (页面无友链)
+  尝试首页 / ... ✗ 首页只有 0 个外链，不够
+  ⏭️ 未找到友链，跳过
+[9/1000] blog.xsot.cn... 
+  尝试 /links... ✗
+  尝试 /link... ✅ 找到 29 个链接
+  ✅ 新增: blog.xsot.cn.yml (29 友链)
+[10/1000] blog.zhilu.cyou... 
+  尝试 /links... ✗
+  尝试 /link... ✅ 找到 145 个链接
+  ✅ 新增: blog.zhilu.cyou.yml (50 友链)
+[11/1000] webjing.cn... 
+  尝试 /links... ✅ 找到 12 个链接
+  ✅ 新增: webjing.cn.yml (12 友链)
+[12/1000] zhoutian.com... 
+  尝试 /links... ✗
+  尝试 /link... ✗
+  尝试 /friends... ✗
+  尝试 /friend... ✗
+  尝试 /links.html... ✅ 找到 79 个链接
+  ✅ 新增: zhoutian.com.yml (50 友链)
+[13/1000] blog.starsharbor.com... 
+  尝试 /links... ✅ 找到 100 个链接
+  ✅ 新增: blog.starsharbor.com.yml (50 友链)
+[14/1000] blog.anxw.cn... 
+  尝试 /links... ✗
+  尝试 /link... ✅ 找到 3 个链接
+  ✅ 新增: blog.anxw.cn.yml (3 友链)
+[15/1000] lxink.cn... 
+  尝试 /links... ✗
+  尝试 /link... ✗
+  尝试 /friends... ✗
+  尝试 /friend... ✗
+  尝试 /links.html... ✗
+  尝试 /friends.html... ✗
+  尝试 /flink... ✗
+  尝试 /link/... ✗
+  尝试 /friends/... ✗
+  尝试 /friend-links... ✗
+  尝试 /friend_link... ✗
+  尝试 /peers... ✅ 找到 3 个链接
+  ✅ 新增: lxink.cn.yml (3 友链)
+[16/1000] blog.418121.xyz... 
+  尝试 /links... 
+错误: newPage: Target page, context or browser has been closed
