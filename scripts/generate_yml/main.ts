@@ -97,8 +97,7 @@ export async function mainCLI(): Promise<void> {
       if (!h) continue;
       if (visitedFromFile.has(h)) seeds.splice(i, 1);
     }
-    if (global)
-      console.log(`Filtered seeds ${before} -> ${seeds.length} after removing visited hosts`);
+    if (global) console.log(`Filtered seeds ${before} -> ${seeds.length} after removing visited hosts`);
   }
   if (global) {
     console.log(`Discovered ${seeds.length} seed URLs (unique hosts: ${seedHosts.size})`);
@@ -115,8 +114,7 @@ export async function mainCLI(): Promise<void> {
     if (typeof visitedFromFile !== "undefined" && visitedFromFile instanceof Set) {
       // @ts-ignore
       for (const h of visitedFromFile) visited.add(h);
-      if (global)
-        console.log(`Initialized visited set with ${visited.size} hosts from visited.json`);
+      if (global) console.log(`Initialized visited set with ${visited.size} hosts from visited.json`);
     }
   } catch (e) {
     if (global) console.warn("Failed to merge visitedFromFile into visited", e);
@@ -176,8 +174,7 @@ export async function mainCLI(): Promise<void> {
     if (hFull) discovered.set(hFull, seed);
   }
 
-  if (global)
-    console.log(`Starting BFS with ${discovered.size} seeds, depth=${depth}, dryRun=${dryRun}`);
+  if (global) console.log(`Starting BFS with ${discovered.size} seeds, depth=${depth}, dryRun=${dryRun}`);
 
   // ponytail: deque via index pointer, O(1) pop vs O(n) shift. Upgrade to actual Deque if 10k+ items.
   const queue: Array<{ url: string; depth: number }> = [];
@@ -201,11 +198,7 @@ export async function mainCLI(): Promise<void> {
               document.querySelector('meta[property="og:title"]') ||
               document.querySelector('meta[name="title"]') ||
               document.querySelector("title");
-            return sel
-              ? sel.getAttribute
-                ? sel.getAttribute("content") || sel.textContent
-                : sel.textContent
-              : null;
+            return sel ? (sel.getAttribute ? sel.getAttribute("content") || sel.textContent : sel.textContent) : null;
           })
           .catch(() => null);
         await page.close();
@@ -228,8 +221,7 @@ export async function mainCLI(): Promise<void> {
   try {
     while (qHead < queue.length) {
       const { url, depth: curDepth } = queue[qHead++];
-      if (global)
-        console.log(`Queue pop: ${url} (depth=${curDepth}, remaining=${queue.length - qHead})`);
+      if (global) console.log(`Queue pop: ${url} (depth=${curDepth}, remaining=${queue.length - qHead})`);
       const baseHostFull = hostnameFromUrl(url);
       const baseHost = baseHostFull;
       if (!baseHost) continue;
@@ -321,8 +313,7 @@ export async function mainCLI(): Promise<void> {
         const anchorHost = anchorHostFull;
         if (!anchorHost) continue;
         if (anchorHost === baseHost) continue;
-        if (hostMatchesSet(anchorHost, IGNORED_HOSTS) || hostMatchesSet(anchorHost, AGGREGATORS))
-          continue;
+        if (hostMatchesSet(anchorHost, IGNORED_HOSTS) || hostMatchesSet(anchorHost, AGGREGATORS)) continue;
 
         const anchorFilename = path.join(outDir, `${anchorHost}.yml`);
         const anchorYamlExists =
@@ -331,8 +322,7 @@ export async function mainCLI(): Promise<void> {
             .then(() => true)
             .catch(() => false)) || queuedWrites.has(anchorFilename);
         if (anchorYamlExists) {
-          if (global)
-            console.log(`Skipping ${anchorHost}: yaml already present (${anchorFilename})`);
+          if (global) console.log(`Skipping ${anchorHost}: yaml already present (${anchorFilename})`);
           continue;
         }
 

@@ -88,9 +88,7 @@ export function looksLikeFriendLink(href: string, text: string | null, baseHost:
 }
 
 export function isDebugEnabled(): boolean {
-  return Boolean(
-    process.env.DEBUG_GENERATOR === "1" || process.env.DEBUG === "1" || process.env.VERBOSE === "1",
-  );
+  return Boolean(process.env.DEBUG_GENERATOR === "1" || process.env.DEBUG === "1" || process.env.VERBOSE === "1");
 }
 
 /**

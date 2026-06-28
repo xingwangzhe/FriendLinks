@@ -88,18 +88,13 @@ type NodeVisualState = {
 // 材质缓存，避免重复创建
 const materialCache = new Map<string, THREE.MeshStandardMaterial>();
 
-function getNodeMaterial(
-  baseColor: string,
-  state: NodeVisualState,
-  isDark: boolean,
-): THREE.MeshStandardMaterial {
+function getNodeMaterial(baseColor: string, state: NodeVisualState, isDark: boolean): THREE.MeshStandardMaterial {
   const cacheKey = `${baseColor}-${state.scale}-${state.emissiveIntensity}-${state.opacity}-${isDark}`;
   if (materialCache.has(cacheKey)) {
     return materialCache.get(cacheKey)!;
   }
 
-  const emissiveColor =
-    state.emissiveIntensity > 0 ? getEmissiveColor(baseColor, state.emissiveIntensity) : "#000000";
+  const emissiveColor = state.emissiveIntensity > 0 ? getEmissiveColor(baseColor, state.emissiveIntensity) : "#000000";
 
   const material = new THREE.MeshStandardMaterial({
     color: baseColor,

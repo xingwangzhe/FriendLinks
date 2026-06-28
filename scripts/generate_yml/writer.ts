@@ -15,8 +15,7 @@ export function createAsyncWriter(verbose = false, writeConcurrency = 4) {
     while (writeActive < writeConcurrency && writeQueue.length > 0) {
       const job = writeQueue.shift()!;
       const dbg = verbose || isDebugEnabled();
-      if (dbg)
-        console.log(`(async-write) Starting job for ${job.fname} (queue=${writeQueue.length})`);
+      if (dbg) console.log(`(async-write) Starting job for ${job.fname} (queue=${writeQueue.length})`);
       writeActive++;
       (async () => {
         try {
@@ -27,10 +26,7 @@ export function createAsyncWriter(verbose = false, writeConcurrency = 4) {
             .then(() => true)
             .catch(() => false);
           if (exists) {
-            if (dbg)
-              console.log(
-                `(async-write) Skipping write for ${job.fname} because it already exists`,
-              );
+            if (dbg) console.log(`(async-write) Skipping write for ${job.fname} because it already exists`);
           } else {
             const tmp = `${job.fname}.tmp`;
             await fs.writeFile(tmp, job.content, "utf8");

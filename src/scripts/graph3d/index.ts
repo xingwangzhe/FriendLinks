@@ -84,15 +84,14 @@ export function init3d(graphData: GraphData) {
   const isDark = isDarkRef.value;
   const nodes = rawNodes.map((n: any) => {
     const base = PALETTE[hashToIndex(n.id)];
-    return {
-      ...n,
+    return Object.assign({}, n, {
       palColor: base,
       // 预计算所有颜色变体，避免 hover/focus 时重复计算 adjustHex
       _cDefault: isDark ? adjustHex(base, 20) : base,
       _cHover: adjustHex(base, 40),
       _cFocus: adjustHex(base, 60),
       _cHighlight: adjustHex(base, 20),
-    };
+    });
   });
 
   const links = rawLinks.map((l: any) => ({
@@ -150,7 +149,7 @@ export function init3d(graphData: GraphData) {
       if (hoveredId === id) return n._cHover;
       // 高亮组内节点：轻微高亮
       if (highlightedSet.size > 0) {
-        return highlightedSet.has(id) ? n._cHighlight : (isDarkRef.value ? "#2a2a2a" : "#e0e0e0");
+        return highlightedSet.has(id) ? n._cHighlight : isDarkRef.value ? "#2a2a2a" : "#e0e0e0";
       }
       return n._cDefault;
     })
@@ -166,8 +165,7 @@ export function init3d(graphData: GraphData) {
       const tgt = typeof l.target === "object" ? l.target.id : l.target;
       const isConnectedToFocus = focusedId && (src === focusedId || tgt === focusedId);
       const isConnectedToHover = hoveredId && (src === hoveredId || tgt === hoveredId);
-      const isConnectedToHighlight =
-        highlightedSet.size > 0 && (highlightedSet.has(src) || highlightedSet.has(tgt));
+      const isConnectedToHighlight = highlightedSet.size > 0 && (highlightedSet.has(src) || highlightedSet.has(tgt));
 
       if (isConnectedToFocus) {
         return isDarkRef.value ? "rgba(255,220,80,0.95)" : "rgba(255,180,30,0.95)";
@@ -193,7 +191,7 @@ export function init3d(graphData: GraphData) {
     .enableNodeDrag(true)
     .enableNavigationControls(true)
     .nodeOpacity(1.0)
-    .warmupTicks(0)    // 位置已在构建时精确算好，客户端不额外跑
+    .warmupTicks(0) // 位置已在构建时精确算好，客户端不额外跑
     .cooldownTicks(0)
     .cooldownTime(0)
     .d3AlphaDecay(0.99) // 仿真立即冻结
@@ -444,9 +442,7 @@ export function init3d(graphData: GraphData) {
         const nodeUrl = (n.url || "").toString().toLowerCase();
         let nodeHost = nodeUrl;
         try {
-          nodeHost = new URL(
-            nodeUrl.startsWith("http") ? nodeUrl : `https://${nodeUrl}`,
-          ).hostname.toLowerCase();
+          nodeHost = new URL(nodeUrl.startsWith("http") ? nodeUrl : `https://${nodeUrl}`).hostname.toLowerCase();
         } catch {}
         return nodeHost === targetHost || nodeUrl.includes(targetHost);
       }) ?? [];

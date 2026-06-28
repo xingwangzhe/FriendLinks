@@ -1,0 +1,33 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "unicorn", "oxc"],
+  "categories": {
+    "correctness": "error",
+    "perf": "warn"
+  },
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-console": "off"
+  },
+  "env": {
+    "builtin": true,
+    "browser": true,
+    "es2022": true
+  },
+  "ignorePatterns": ["dist/", "node_modules/", "public/scripts/"],
+  "overrides": [
+    {
+      "files": ["scripts/generate_yml/*.ts", "scripts/check_links_playwright.mjs"],
+      "rules": {
+        "no-await-in-loop": "off",
+        "unicorn/prefer-set-has": "off"
+      }
+    },
+    {
+      "files": ["src/utils/load-sites.ts"],
+      "rules": {
+        "no-await-in-loop": "off"
+      }
+    }
+  ]
+}

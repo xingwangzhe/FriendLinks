@@ -11,8 +11,8 @@ const OUTPUT_FILE = path.resolve(process.cwd(), "unreachable-sites.json");
 const TIMEOUT_MS = 60000;
 const CONCURRENCY = process.env.CONCURRENCY ? Number(process.env.CONCURRENCY) : 8;
 
-const ARGS = process.argv.slice(2);
-const DRY = ARGS.includes("--dry") || ARGS.includes("-n");
+const ARGS = new Set(process.argv.slice(2));
+const DRY = ARGS.has("--dry") || ARGS.has("-n");
 if (DRY) console.log("Running in dry mode: 仅打印结果，不写入文件");
 
 function isTlsErrorMessage(msg, code) {
@@ -32,9 +32,7 @@ async function checkUrlWithBrowser(browser, url, opts = {}) {
     const msg = (err.message || String(err)).toLowerCase();
     const code = (err.code || "").toString().toLowerCase();
     return (
-      /timeout|navigation timeout|navigation failed because|net::err_|net::err_connection_reset/i.test(
-        msg,
-      ) ||
+      /timeout|navigation timeout|navigation failed because|net::err_|net::err_connection_reset/i.test(msg) ||
       /timeout/.test(code) ||
       (err.name && err.name.toLowerCase && err.name.toLowerCase().includes("timeout"))
     );
@@ -211,10 +209,7 @@ async function run() {
   try {
     playwright = await import("playwright");
   } catch (err) {
-    console.error(
-      "请先安装 Playwright：npm i -D playwright",
-      err && err.message ? err.message : err,
-    );
+    console.error("请先安装 Playwright：npm i -D playwright", err && err.message ? err.message : err);
     process.exit(2);
   }
 
@@ -263,9 +258,7 @@ async function run() {
             }
           } catch (err) {
             const duration = Date.now() - start;
-            console.log(
-              `  结果： 不可达  err=${String(err)}  domain=${domain}  time=${duration}ms`,
-            );
+            console.log(`  结果： 不可达  err=${String(err)}  domain=${domain}  time=${duration}ms`);
             const entry = urlMap.get(url);
             results.push({
               id: failId++,

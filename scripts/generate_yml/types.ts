@@ -155,7 +155,6 @@ export const FRIEND_PAGE_CANDIDATES = [
   "/关于",
 ];
 
-export const RESOURCE_EXT_REGEX =
-  /\.(png|jpg|jpeg|gif|svg|pdf|zip|rar|7z|iso|dmg|rar|mp4|webm|mp3|ogg)$/i;
+export const RESOURCE_EXT_REGEX = /\.(png|jpg|jpeg|gif|svg|pdf|zip|rar|7z|iso|dmg|rar|mp4|webm|mp3|ogg)$/i;
 
 export const NON_BLOG_TEXT_INDICATORS = ["下载", "镜像", "工具", "cdn", "样式", "assets", "静态"];

@@ -68,16 +68,14 @@ async function parseAndValidate(file: string): Promise<Site | null> {
       if (!o || typeof o !== "object") {
         console.error(" - site: 需要对象");
       } else {
-        if (!isString(o.name) || o.name.trim() === "")
-          console.error(" - site.name: 需要非空字符串");
+        if (!isString(o.name) || o.name.trim() === "") console.error(" - site.name: 需要非空字符串");
         if (!isString(o.description) || o.description.trim() === "")
           console.error(" - site.description: 需要非空字符串");
         if (!isValidUrl(o.url)) console.error(" - site.url: 需要合法 http/https URL");
         if (!Array.isArray(o.friends)) console.error(" - site.friends: 需要数组");
         else {
           o.friends.forEach((f: any, idx: number) => {
-            if (!isFriend(f))
-              console.error(` - site.friends[${idx}]: 需要 { name: string; url: url }`);
+            if (!isFriend(f)) console.error(` - site.friends[${idx}]: 需要 { name: string; url: url }`);
           });
         }
       }

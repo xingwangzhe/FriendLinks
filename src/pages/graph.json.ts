@@ -132,6 +132,7 @@ export async function GET() {
 
   // ── 构建时 3D 力导布局 ────────────────────────────────────────
   // 为每个节点生成初始随机位置
+  // eslint-disable-next-line oxc/no-map-spread
   const simNodes = nodes.map((n, i) => ({
     ...n,
     // 球面初始分布，避免全从原点开始
@@ -201,8 +202,16 @@ export async function GET() {
   }
 
   const compact = {
-    nid, nnm, nur, nfa, nde, nx, ny, nz,
-    ls, lt,
+    nid,
+    nnm,
+    nur,
+    nfa,
+    nde,
+    nx,
+    ny,
+    nz,
+    ls,
+    lt,
     c: categories,
   };
 

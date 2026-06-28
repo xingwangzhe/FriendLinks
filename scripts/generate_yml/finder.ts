@@ -68,8 +68,7 @@ export async function findFriendPageAnchors(
     );
 
     const friendAnchors = anchors.filter(
-      (a) =>
-        looksLikeFriendLink(a.href, a.text, baseHost) && !isLikelyNonBlog(a.href, a.text ?? ""),
+      (a) => looksLikeFriendLink(a.href, a.text, baseHost) && !isLikelyNonBlog(a.href, a.text ?? ""),
     );
     if (dbg) console.log(`Found ${friendAnchors.length} friend-like anchors on ${pageUrl}`);
     if (dbg && friendAnchors.length > 0) {
