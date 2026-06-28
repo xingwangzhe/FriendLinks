@@ -1,6 +1,6 @@
 import { loadSites } from "../utils/load-sites";
 import type { GraphNode, GraphLink, GraphCategory } from "../types/graph";
-import { forceSimulation, forceLink, forceManyBody, forceX, forceY } from "d3-force-3d";
+import { forceSimulation, forceLink, forceManyBody, forceCenter } from "d3-force-3d";
 
 function getHost(u: string): string {
   try {
@@ -137,12 +137,11 @@ export async function GET() {
     target: typeof l.target === "string" ? l.target : (l as any).target,
   }));
 
-  // 仅水平居中，Z 轴完全自由
+  // 三轴等强微弱居中，保持 3D 散布
   const sim = forceSimulation(simNodes as any, 3)
     .force("link", forceLink(simLinks as any).id((d: any) => d.id).distance(40))
     .force("charge", forceManyBody().strength(-120))
-    .force("x", forceX(0).strength(0.03))
-    .force("y", forceY(0).strength(0.03))
+    .force("center", forceCenter(0, 0, 0).strength(0.02))
     .alphaDecay(0.01)
     .velocityDecay(0.4);
 
