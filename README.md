@@ -20,6 +20,7 @@ site:
   name: 我的博客
   description: 分享编程和技术相关的文章
   url: https://example.com
+  links: /links
   friends:
     - name: 编程小站
       url: https://codehub.example.com
