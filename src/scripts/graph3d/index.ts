@@ -191,15 +191,11 @@ export function init3d(graphData: GraphData) {
     .enableNodeDrag(true)
     .enableNavigationControls(true)
     .nodeOpacity(1.0)
-    .warmupTicks(0)
-    .cooldownTicks(0)
-    .cooldownTime(0)
-    .d3AlphaDecay(1)
-    .d3VelocityDecay(1);
-
-  // 禁用所有默认力——位置已由 ngraph 预计算，d3 不要再动
-  Graph.d3Force("charge", null);
-  Graph.d3Force("center", null);
+    .warmupTicks(0) // 位置已在构建时算好，客户端直接从那儿开始
+    .cooldownTicks(200)
+    .cooldownTime(20000)
+    .d3AlphaDecay(0.02)
+    .d3VelocityDecay(0.3);
 
   // 渲染后自动适配视角
   requestAnimationFrame(() => {
@@ -520,15 +516,13 @@ export function init3d(graphData: GraphData) {
 // ─── 紧凑格式展开 ─────────────────────────────────────────────────────────
 
 function expandCompact(c: any): GraphData {
-  const { nid, nnm, nur, nfa, nde, nx, ny, nz } = c;
+  const { nid, nnm, nur, nfa, nde } = c;
   const nodes = nid.map((_id: string, i: number) => ({
     id: nid[i],
     name: nnm[i],
     url: nur[i],
     favicon: nfa[i],
     desc: nde[i],
-    // 如果有 ngraph 预计算的位置则带上，让客户端直接使用（不再跑仿真）
-    ...(nx ? { x: nx[i], y: ny[i], z: nz[i] } : {}),
   }));
   const links = (c.ls || []).map((s: number, i: number) => ({
     source: nid[s],

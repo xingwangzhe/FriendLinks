@@ -1,10 +1,5 @@
 import { loadSites } from "../utils/load-sites";
 import type { GraphNode, GraphLink, GraphCategory } from "../types/graph";
-import { createRequire } from "node:module";
-
-const _require = createRequire(import.meta.url);
-const createGraph = _require("ngraph.graph") as (options?: any) => any;
-const createLayout = _require("ngraph.forcelayout") as (graph: any, settings?: any) => any;
 
 function getHost(u: string): string {
   try {
@@ -134,38 +129,18 @@ export async function GET() {
     });
   }
 
-  // ── ngraph 3D 力导布局 ─────────────────────────────────────────
-  console.log(`ngraph: building graph with ${nodes.length} nodes, ${linksArr.length} links...`);
-  const g = createGraph();
-  for (const n of nodes) g.addNode(n.id);
-  for (const l of linksArr) {
-    if (l.source && l.target) g.addLink(l.source, l.target);
-  }
-
-  const layout = createLayout(g, { dimensions: 3, springLength: 30, gravity: -5 });
-  const steps = 500;
-  for (let i = 0; i < steps; i++) layout.step();
-  console.log(`ngraph: ${steps} iterations done`);
-
-  // ── 列式紧凑输出（含 ngraph 计算的三维位置） ─────────────────
+  // ── 列式紧凑输出（无位置，客户端自行跑力导） ─────────────────
   const nid: string[] = [];
   const nnm: string[] = [];
   const nur: string[] = [];
   const nfa: string[] = [];
   const nde: string[] = [];
-  const nx: number[] = [];
-  const ny: number[] = [];
-  const nz: number[] = [];
   for (const n of nodes) {
     nid.push(n.id);
     nnm.push(n.name);
     nur.push(n.url);
     nfa.push(n.favicon ?? "");
     nde.push(n.desc ?? "");
-    const pos = layout.getNodePosition(n.id);
-    nx.push(pos.x);
-    ny.push(pos.y);
-    nz.push(pos.z ?? 0);
   }
 
   const idIndex = new Map<string, number>();
@@ -178,7 +153,7 @@ export async function GET() {
     if (si != null && ti != null) { ls.push(si); lt.push(ti); }
   }
 
-  const compact = { nid, nnm, nur, nfa, nde, nx, ny, nz, ls, lt, c: categories };
+  const compact = { nid, nnm, nur, nfa, nde, ls, lt, c: categories };
   return new Response(JSON.stringify(compact), {
     headers: { "Content-Type": "application/json" },
   });
