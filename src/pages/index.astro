@@ -867,7 +867,15 @@ import "../css/modal.css";
           if (api.clearPath) api.clearPath();
         };
 
-        if (pathToggleBtn) pathToggleBtn.addEventListener("click", showPathModal);
+        if (pathToggleBtn) {
+          pathToggleBtn.addEventListener("click", () => {
+            if (pathModal && pathModal.classList.contains("show")) {
+              hidePathModal();
+            } else {
+              showPathModal();
+            }
+          });
+        }
         if (pathModal) {
           const pathCloseBtn = pathModal.querySelector(".close-btn");
           if (pathCloseBtn) pathCloseBtn.addEventListener("click", hidePathModal);
@@ -933,6 +941,14 @@ import "../css/modal.css";
           if (!selectedFrom || !selectedTo) return;
           const api = getApi();
           if (!api.showShortestPath) return;
+
+          // 边界条件：起点终点相同
+          if (selectedFrom.id === selectedTo.id) {
+            pathError.textContent = "起点和终点相同，请选择两个不同的节点";
+            pathError.style.display = "block";
+            pathInfo.style.display = "none";
+            return;
+          }
 
           const path = api.showShortestPath(selectedFrom.id, selectedTo.id);
           if (!path || !path.length) {

@@ -1,6 +1,7 @@
 /* 统计/关于 弹窗样式 （共享） */
 #stats-modal,
-#about-modal {
+#about-modal,
+#path-modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -18,13 +19,15 @@
     visibility 0.3s ease;
 }
 #stats-modal.show,
-#about-modal.show {
+#about-modal.show,
+#path-modal.show {
   opacity: 1;
   visibility: visible;
 }
 /* 共享弹窗主体 */
 #stats-modal .modal-content,
-#about-modal .modal-content {
+#about-modal .modal-content,
+#path-modal .modal-content {
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -39,12 +42,14 @@
   margin: 10px; /* 在小屏幕上添加边距 */
 }
 #stats-modal.show .modal-content,
-#about-modal.show .modal-content {
+#about-modal.show .modal-content,
+#path-modal.show .modal-content {
   transform: translateY(0);
 }
 /* header, close button, content shared */
 #stats-modal .modal-header,
-#about-modal .modal-header {
+#about-modal .modal-header,
+#path-modal .modal-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,13 +58,15 @@
   border-bottom: 1px solid var(--border);
 }
 #stats-modal .modal-header h2,
-#about-modal .modal-header h2 {
+#about-modal .modal-header h2,
+#path-modal .modal-header h2 {
   margin: 0;
   color: var(--text-color);
   font-size: 18px;
 }
 #stats-modal .close-btn,
-#about-modal .close-btn {
+#about-modal .close-btn,
+#path-modal .close-btn {
   background: none;
   border: none;
   font-size: 24px;

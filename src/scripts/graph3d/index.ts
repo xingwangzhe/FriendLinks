@@ -507,6 +507,9 @@ export function init3d(graphData: GraphData) {
         } else {
           setNodeColor(nd, "#FF8C00");
         }
+      } else {
+        // 非路径节点恢复默认颜色，清除之前聚焦/高亮的残留色
+        setNodeColor(nd, nd._cDefault);
       }
     }
   }
@@ -659,6 +662,7 @@ export function init3d(graphData: GraphData) {
         const scale = dist / 600;
         const clamped = Math.max(0.5, Math.min(scale, 5));
         for (const child of overlayGroup.children) {
+          if (child === pathOverlayGroup) continue; // 跳过路径叠加组，由其独立缩放
           const mesh = child as THREE.Mesh;
           const curScale = mesh.scale;
           mesh.scale.set(clamped, curScale.y, clamped);
@@ -803,9 +807,9 @@ export function init3d(graphData: GraphData) {
     if (prevNode) setNodeColor(prevNode, prevNode._cDefault);
     if (currNode) setNodeColor(currNode, currNode._cHover);
 
-    // 更新叠加线网（聚焦优先，聚焦时不显示悬停叠加线）
-    if (focusedId) {
-      // 聚焦状态下悬停不改变叠加线
+    // 更新叠加线网（聚焦/路径模式下不显示悬停叠加线）
+    if (focusedId || pathNodeIds) {
+      // 聚焦/路径模式下悬停不改变叠加线
     } else if (n) {
       buildOverlay(n.id, isDarkRef.value ? 0xeeeeee : 0x888888);
     } else {
@@ -1027,6 +1031,10 @@ export function init3d(graphData: GraphData) {
 
     // 清理旧状态
     clearOldPathState();
+    // 清理聚焦/高亮状态，避免与路径高亮视觉冲突
+    focusedId = null;
+    _lastFocusedId = null;
+    highlightedSet.clear();
 
     pathNodeIds = path;
     pathStepIndex = 0; // 默认步进到起点
