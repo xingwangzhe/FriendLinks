@@ -132,6 +132,8 @@ const JUNK_NAME_PATTERNS: RegExp[] = [
   /^(抖音|Youtube|YouTube)$/i,
   // 购物/营销
   /^(微信红包|红包|封面|优惠|促销|购物|淘宝|天猫|京东|拼多多|闲鱼|转转|商城|店铺|商店|下单|购买)/i,
+  // 死站/过期域名
+  /^(站点已过期|域名出售|域名停放|域名过期|site is for sale|domain is parked|this domain|buy this domain|备案过期|网站已关闭|网站已停止)/i,
   // 借贷/金融
   /^(借款|贷款|借贷|金融|理财|投资|信用贷|网贷)/i,
   // 迷信/测试/算卦
@@ -335,6 +337,8 @@ function isJunkEntry(f: { name: string; url: string }, siteUrl?: string): boolea
       "nies.live", "www.nies.live",
       "moa.moe", "www.moa.moe",
       "linuxcat.top", "www.linuxcat.top",
+      // 死站
+      "blog.sunguoqi.com",
       "wanfangdata.com", "www.wanfangdata.com",
       "cqvip.com", "www.cqvip.com",
       "arxiv.org", "www.arxiv.org",
