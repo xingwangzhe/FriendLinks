@@ -6,6 +6,7 @@
 import ForceGraph3D from "3d-force-graph";
 import Fuse from "fuse.js";
 import * as THREE from "three";
+import { decode } from "msgpackr";
 import { PALETTE, hashToIndex, degreeToSize, adjustHex } from "./utils";
 import type { GraphData } from "../../../types/graph";
 
@@ -800,7 +801,8 @@ function expandCompact(c: any): GraphData {
 export async function init3dFromUrl(url: string) {
   const res = await fetch(url);
   if (!res.ok) throw new Error(`获取图数据失败: ${res.status}`);
-  const raw = await res.json();
+  const buf = new Uint8Array(await res.arrayBuffer());
+  const raw = decode(buf) as any;
   const data = raw.nid ? expandCompact(raw) : (raw as GraphData);
   return init3d(data);
 }

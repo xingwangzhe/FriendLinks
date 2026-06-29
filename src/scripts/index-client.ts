@@ -36,10 +36,10 @@ declare global {
 
   const { init3dFromUrl } = await import("./graph3d/index");
 
-  if (textEl) textEl.textContent = "下载图数据中 (1.2 MB)...";
+  if (textEl) textEl.textContent = "下载图数据中...";
   if (barEl) barEl.style.width = "30%";
 
-  const controller = await init3dFromUrl("/graph.json");
+  const controller = await init3dFromUrl("/graph.bin");
 
   if (textEl) textEl.textContent = "渲染 3D 场景中...";
   if (barEl) barEl.style.width = "70%";

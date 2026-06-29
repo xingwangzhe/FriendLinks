@@ -1,16 +1,7 @@
-/**
- * JSON 格式的图数据端点（已废弃，仅保留作为参考）
- *
- * 客户端现在加载 /graph.bin（msgpack 二进制，更紧凑），
- * 因此本端点不再构建输出。如需 JSON 格式，请参考 graph.bin.ts
- * 将 import { encode } from "msgpackr" 替换为 JSON.stringify。
- *
- * 文件保留在代码中以供阅读和理解数据格式。
- */
-
 import { loadSites } from "../utils/load-sites";
 import type { GraphNode, GraphLink, GraphCategory } from "../types/graph";
 import { forceSimulation, forceLink, forceManyBody, forceCenter } from "d3-force-3d";
+import { encode } from "msgpackr";
 
 function getHost(u: string): string {
   try {
@@ -36,12 +27,7 @@ const resolveFavicon = (fav: string | undefined) => {
   return localFallback;
 };
 
-// 不导出 GET → 构建时不生成此路由
-// 下方代码逻辑与 graph.bin.ts 一致，仅输出格式不同（JSON vs msgpack）
-// 如需启用，将 async function GET() 改为 export async function GET()
-// 并将最后一行改为 return new Response(JSON.stringify(compact), { headers: { "Content-Type": "application/json" } });
-
-async function GET() {
+export async function GET() {
   const validSites = await loadSites();
 
   const categories: GraphCategory[] = [{ name: "site" }, { name: "friend" }];
@@ -194,7 +180,7 @@ async function GET() {
   }
 
   const compact = { nid, nnm, nur, nfa, nde, nx, ny, nz, ls, lt, c: categories };
-  return new Response(JSON.stringify(compact), {
-    headers: { "Content-Type": "application/json" },
+  return new Response(encode(compact), {
+    headers: { "Content-Type": "application/octet-stream" },
   });
 }
