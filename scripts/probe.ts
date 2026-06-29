@@ -21,7 +21,8 @@ const RENDER_WAIT = 2000;
 const ROUTES = [
   "/links", "/link", "/friends", "/friend", "/links.html", "/friends.html",
   "/flink", "/link/", "/friends/", "/friend-links", "/friend_link", "/peers",
-  "/page/friendlinks", "/page/friendlinks/", "/about",
+  "/friend/link",
+  "/page/friendlinks", "/page/friendlinks/",
 ];
 
 async function probeOne(
@@ -34,7 +35,16 @@ async function probeOne(
       try {
         await page.goto(url, { waitUntil: "domcontentloaded", timeout: TIMEOUT });
         await page.waitForTimeout(RENDER_WAIT);
-        const status = await page.evaluate(() => document.title !== "" ? 200 : 0).catch(() => 0);
+
+        // 检查页面标题和内容是否指示 404/错误页（即使 HTTP 200）
+        const pageCheck = await page.evaluate(() => {
+          const title = (document.title || "").toLowerCase();
+          const body = (document.body?.innerText || "").slice(0, 200).toLowerCase();
+          const errorKeywords = ["404", "not found", "page not found", "页面不存在", "页面未找到",
+            "页面没有找到", "找不到页面", "无法访问", "error", "页面失效"];
+          return errorKeywords.some(k => title.includes(k) || body.includes(k));
+        });
+        if (pageCheck) continue; // 是错误页，跳过此路由
 
         const links = await page.evaluate((exHost: string) => {
           const seen = new Set<string>();
@@ -116,17 +126,19 @@ async function main() {
 
   async function processOne(host: string) {
     const page = await context.newPage();
+    let probeResult: Awaited<ReturnType<typeof probeOne>> = null;
+    let filtered: Array<{ name: string; url: string }> = [];
     try {
-      const result = await probeOne(page, host);
-      if (result) {
-        const raw = result.links.map(f => ({
+      probeResult = await probeOne(page, host);
+      if (probeResult) {
+        const raw = probeResult.links.map(f => ({
           name: f.t.replace(/[\r\n]+/g, " ").replace(/\s+/g, " ").trim(),
           url: f.h,
         }));
-        const filtered = filterFriends(raw, `https://${host}/`);
+        filtered = filterFriends(raw, `https://${host}/`);
         if (filtered.length >= 2) {
           const doc = {
-            site: { name: host, url: `https://${host}/`, description: "友情链接", links: result.route, friends: filtered },
+            site: { name: host, url: `https://${host}/`, description: "友情链接", links: probeResult.route, friends: filtered },
           };
           writeFileSync(`links/${host}.yml`, YAML.stringify(doc, { indent: 2, lineWidth: 0, defaultStringType: "QUOTE_SINGLE" }), "utf8");
           written++;
@@ -135,7 +147,7 @@ async function main() {
     } catch { failed++; }
     await page.close();
     done++;
-    const status = result ? `✅ ${result.route} (${filtered?.length || 0})` : "⏭️";
+    const status = probeResult ? `✅ ${probeResult.route} (${filtered.length})` : "⏭️";
     console.log(`[${String(done).padStart(3)}/${targets.length}] ${host.padEnd(24)} ${status}`);
   }
 
