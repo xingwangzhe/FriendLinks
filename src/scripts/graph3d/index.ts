@@ -421,12 +421,28 @@ export function init3d(graphData: GraphData) {
   });
   ro.observe(container);
 
-  // 涟漪波动动画（仅保留 1 层）
+  // 涟漪波动动画 + 叠加线自适应缩放
   let animationTime = 0;
   let ripplesInited = false;
   function animateRipples() {
     animationTime += 0.02;
     const currentData = Graph.graphData() as any;
+
+    // 叠加线自适应：视野越大线越粗，保持屏幕像素宽度
+    if (overlayGroup.visible && overlayGroup.children.length > 0) {
+      try {
+        const cam = Graph.cameraPosition();
+        const dist = Math.sqrt(cam.x * cam.x + cam.y * cam.y + cam.z * cam.z);
+        const scale = dist / 600;
+        const clamped = Math.max(0.5, Math.min(scale, 5));
+        for (const child of overlayGroup.children) {
+          const mesh = child as THREE.Mesh;
+          const curScale = mesh.scale;
+          mesh.scale.set(clamped, curScale.y, clamped);
+        }
+      } catch {}
+    }
+
     if (currentData.nodes) {
       if (!ripplesInited) {
         for (const node of currentData.nodes) {
