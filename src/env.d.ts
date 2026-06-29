@@ -13,19 +13,104 @@ declare module "msgpackr" {
 declare module "three" {
   namespace THREE {
     type ColorRepresentation = string | number;
-    class Color { constructor(color?: ColorRepresentation); set(color: ColorRepresentation): this; clone(): Color; }
-    class Vector3 { x: number; y: number; z: number; constructor(x?: number, y?: number, z?: number); set(x: number, y: number, z: number): this; addVectors(a: Vector3, b: Vector3): this; subVectors(a: Vector3, b: Vector3): this; multiplyScalar(s: number): this; normalize(): this; length(): number; copy(v: Vector3): this; }
-    class Quaternion { setFromUnitVectors(from: Vector3, to: Vector3): this; copy(q: Quaternion): this; }
-    class BufferGeometry { setAttribute(name: string, attr: any): void; attributes: Record<string, any>; }
-    class BufferAttribute { constructor(array: any, size: number); needsUpdate: boolean; array: any; }
-    class LineBasicMaterial { constructor(params?: any); color: any; opacity: number; transparent?: boolean; needsUpdate?: boolean; depthWrite?: boolean; }
-    class LineSegments { constructor(geom?: BufferGeometry, mat?: LineBasicMaterial); geometry: BufferGeometry; material: any; }
-    class CylinderGeometry { constructor(rt?: number, rb?: number, h?: number, segs?: number); }
-    class MeshStandardMaterial { constructor(params?: any); color: any; emissive: any; emissiveIntensity: number; transparent?: boolean; opacity: number; depthWrite?: boolean; }
-    class Mesh { constructor(geom?: any, mat?: any); position: Vector3; quaternion: Quaternion; scale: Vector3; geometry: any; material: any; }
-    class Group { children: any[]; add(child: any): void; remove(child: any): void; visible: boolean; }
-    class Object3D { children: any[]; }
-    class Material { dispose(): void; }
+    class Color {
+      constructor(color?: ColorRepresentation);
+      set(color: ColorRepresentation): this;
+      clone(): Color;
+      copy(c: Color): this;
+      getHex(): number;
+    }
+    class Vector3 {
+      x: number;
+      y: number;
+      z: number;
+      constructor(x?: number, y?: number, z?: number);
+      set(x: number, y: number, z: number): this;
+      addVectors(a: Vector3, b: Vector3): this;
+      subVectors(a: Vector3, b: Vector3): this;
+      multiplyScalar(s: number): this;
+      normalize(): this;
+      length(): number;
+      copy(v: Vector3): this;
+    }
+    class Quaternion {
+      setFromUnitVectors(from: Vector3, to: Vector3): this;
+      copy(q: Quaternion): this;
+    }
+    class BufferGeometry {
+      setAttribute(name: string, attr: any): void;
+      attributes: Record<string, any>;
+    }
+    class BufferAttribute {
+      constructor(array: any, size: number);
+      needsUpdate: boolean;
+      array: any;
+    }
+    class LineBasicMaterial {
+      constructor(params?: any);
+      color: any;
+      opacity: number;
+      transparent?: boolean;
+      needsUpdate?: boolean;
+      depthWrite?: boolean;
+    }
+    class LineSegments {
+      constructor(geom?: BufferGeometry, mat?: LineBasicMaterial);
+      geometry: BufferGeometry;
+      material: any;
+    }
+    class CylinderGeometry {
+      constructor(rt?: number, rb?: number, h?: number, segs?: number);
+    }
+    class SphereGeometry {
+      constructor(radius?: number, widthSegments?: number, heightSegments?: number);
+    }
+    class MeshStandardMaterial {
+      constructor(params?: any);
+      color: any;
+      emissive: any;
+      emissiveIntensity: number;
+      transparent?: boolean;
+      opacity: number;
+      depthWrite?: boolean;
+    }
+    class MeshBasicMaterial {
+      constructor(params?: any);
+      color: any;
+    }
+    class MeshLambertMaterial {
+      constructor(params?: any);
+      color: any;
+    }
+    class Mesh extends Object3D {
+      constructor(geom?: any, mat?: any);
+      position: Vector3;
+      quaternion: Quaternion;
+      scale: Vector3;
+      geometry: any;
+      material: any;
+    }
+    class Group {
+      children: any[];
+      add(child: any): void;
+      remove(child: any): void;
+      visible: boolean;
+    }
+    class Object3D {
+      children: any[];
+      scale: Vector3;
+    }
+    class Material {
+      dispose(): void;
+    }
+    class PerspectiveCamera {}
+    class LOD extends Object3D {
+      addLevel(object: Object3D, distance: number): void;
+      levels: Array<{ object: Object3D; distance: number }>;
+      update(camera: PerspectiveCamera): void;
+      getCurrentLevel(): number;
+      isLOD: boolean;
+    }
   }
   export = THREE;
 }

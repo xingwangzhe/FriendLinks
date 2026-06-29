@@ -1,5 +1,7 @@
 // 调色板与颜色工具（从 graph/utils.ts 移植）
 
+import * as THREE from "three";
+
 export const PALETTE = [
   "#E69F00",
   "#56B4E9",
@@ -74,4 +76,77 @@ export function getEmissiveColor(baseHex: string, intensity: number): string {
   const eg = Math.round(g + (255 - g) * blend);
   const eb = Math.round(b + (255 - b) * blend);
   return rgbToHex(er, eg, eb);
+}
+
+// ─── LOD (Level of Detail) ─────────────────────────────────────────────────
+
+/** LOD 距离阈值 */
+export const LOD_DISTANCES = {
+  NEAR: 200,
+  MID: 500,
+} as const;
+
+/** 全局共享的 LOD 几何体（半径=1，实际尺寸由 scale 控制） */
+let _sharedLODGeoms: { near: THREE.SphereGeometry; mid: THREE.SphereGeometry; far: THREE.SphereGeometry } | null = null;
+
+export function getSharedLODGeometries() {
+  if (!_sharedLODGeoms) {
+    _sharedLODGeoms = {
+      near: new THREE.SphereGeometry(1, 16, 16), // 高细节
+      mid: new THREE.SphereGeometry(1, 8, 8), // 中细节
+      far: new THREE.SphereGeometry(1, 4, 4), // 低细节
+    };
+  }
+  return _sharedLODGeoms;
+}
+
+/**
+ * 为单个节点创建 THREE.LOD 对象（3 个细节层级）
+ * @param baseColor hex 颜色字符串 (如 "#ff6600")
+ * @returns THREE.LOD 实例，可直接替换 node.__threeObj.children[0]
+ */
+export function createNodeLOD(baseColor: string): THREE.LOD {
+  const geoms = getSharedLODGeometries();
+  const color = new THREE.Color(baseColor);
+
+  // 近层：标准材质 + 高分段球体
+  const meshNear = new THREE.Mesh(
+    geoms.near,
+    new THREE.MeshStandardMaterial({
+      color,
+      roughness: 0.6,
+      metalness: 0.1,
+    }),
+  );
+
+  // 中层：Lambert 漫反射 + 中分段球体
+  const meshMid = new THREE.Mesh(geoms.mid, new THREE.MeshLambertMaterial({ color }));
+
+  // 远层：Basic 无光照 + 低分段球体（最省 GPU）
+  const meshFar = new THREE.Mesh(geoms.far, new THREE.MeshBasicMaterial({ color }));
+
+  const lod = new THREE.LOD();
+  lod.addLevel(meshNear, LOD_DISTANCES.NEAR);
+  lod.addLevel(meshMid, LOD_DISTANCES.MID);
+  lod.addLevel(meshFar, Infinity);
+
+  return lod;
+}
+
+/**
+ * 更新 LOD 对象内所有层级的材质颜色
+ */
+export function updateLODColor(lod: THREE.LOD, color: string): void {
+  const c = new THREE.Color(color);
+  for (let i = 0; i < lod.levels.length; i++) {
+    const obj = lod.levels[i].object;
+    if (obj instanceof THREE.Mesh && obj.material) {
+      const mats = Array.isArray(obj.material) ? obj.material : [obj.material];
+      for (const mat of mats) {
+        if ("color" in mat) {
+          (mat as THREE.MeshBasicMaterial).color.copy(c);
+        }
+      }
+    }
+  }
 }

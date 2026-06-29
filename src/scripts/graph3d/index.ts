@@ -7,7 +7,7 @@ import ForceGraph3D from "3d-force-graph";
 import Fuse from "fuse.js";
 import * as THREE from "three";
 import { decode } from "msgpackr";
-import { PALETTE, hashToIndex, degreeToSize, adjustHex } from "./utils";
+import { PALETTE, hashToIndex, degreeToSize, adjustHex, createNodeLOD, updateLODColor } from "./utils";
 import type { GraphData } from "../../../types/graph";
 
 // ─── Tooltip ─────────────────────────────────────────────────────────────
@@ -404,6 +404,57 @@ export function init3d(graphData: GraphData) {
   // 初始颜色（必须在 graphData 之后调用，否则框架会重置）
   refreshLinkColors();
 
+  // ── 8. LOD 替换：将默认球体替换为多层级细节模型 ──────────
+  let lodsCreated = false;
+
+  /** 刷新所有节点颜色（替代 Graph.nodeColor()，兼容 LOD） */
+  function refreshAllNodeColors() {
+    const gd = Graph.graphData() as any;
+    if (!gd.nodes) return;
+    for (const nd of gd.nodes) {
+      let color: string;
+      if (focusedId === nd.id) {
+        color = nd._cFocus;
+      } else if (highlightedSet.size > 0 && highlightedSet.has(nd.id)) {
+        color = nd._cHighlight;
+      } else {
+        color = nd._cDefault;
+      }
+      setNodeColor(nd, color);
+    }
+  }
+
+  function initLODs() {
+    if (lodsCreated) return;
+    const gd = Graph.graphData() as any;
+    if (!gd.nodes || gd.nodes.length === 0) {
+      requestAnimationFrame(initLODs);
+      return;
+    }
+    const first = gd.nodes[0];
+    if (!first.__threeObj || !first.__threeObj.children[0]) {
+      requestAnimationFrame(initLODs);
+      return;
+    }
+    for (const node of gd.nodes) {
+      if (!node.__threeObj || !node.__threeObj.children[0]) continue;
+      const oldMesh = node.__threeObj.children[0] as THREE.Mesh;
+      if ((oldMesh as any).isLOD) continue; // 已经是 LOD，跳过
+      const currentColor = "#" + oldMesh.material.color.getHex().toString(16).padStart(6, "0");
+      const lod = createNodeLOD(currentColor);
+      // 保持旧 mesh 的 scale（由 nodeVal 设置）
+      lod.scale.copy(oldMesh.scale);
+      node.__threeObj.children[0] = lod;
+      (node as any).__lod = lod;
+      // 清理旧材质（几何体由 3d-force-graph 管理，不 dispose）
+      if (oldMesh.material) {
+        (oldMesh.material as THREE.Material).dispose();
+      }
+    }
+    lodsCreated = true;
+  }
+  requestAnimationFrame(initLODs);
+
   // 位置已由构建时预计算，cooldownTicks(0) 冻结仿真
 
   // 渲染后自动适配视角
@@ -422,7 +473,7 @@ export function init3d(graphData: GraphData) {
   });
   ro.observe(container);
 
-  // 涟漪波动动画 + 叠加线自适应缩放
+  // 涟漪波动动画 + 叠加线自适应缩放 + LOD 更新
   let animationTime = 0;
   let ripplesInited = false;
   function animateRipples() {
@@ -444,6 +495,18 @@ export function init3d(graphData: GraphData) {
       } catch {}
     }
 
+    // LOD 更新：每帧根据相机距离切换节点精度
+    if (lodsCreated && currentData.nodes) {
+      try {
+        const cam = Graph.camera() as THREE.PerspectiveCamera;
+        if (cam) {
+          for (const node of currentData.nodes) {
+            if (node.__lod) (node.__lod as THREE.LOD).update(cam);
+          }
+        }
+      } catch {}
+    }
+
     if (currentData.nodes) {
       if (!ripplesInited) {
         for (const node of currentData.nodes) {
@@ -461,10 +524,17 @@ export function init3d(graphData: GraphData) {
         if (node.__threeObj && node.__threeObj.children.length > 1) {
           const sprite = node.__threeObj.children[1];
           if (sprite) {
-            const s = 6 + sinA2 * 0.5;
-            sprite.scale.setScalar(s);
-            sprite.material.opacity =
-              (0.4 + (focusedId === node.id ? 0.45 : hoveredId === node.id ? 0.3 : 0.15)) * (0.8 + sinA3 * 0.2);
+            // 远节点跳过 sprite 动画（LOD 远层已无光照计算，sprite 更无必要）
+            const skipSprite = node.__lod && (node.__lod as THREE.LOD).getCurrentLevel() >= 2;
+            if (skipSprite) {
+              sprite.visible = false;
+            } else {
+              sprite.visible = true;
+              const s = 6 + sinA2 * 0.5;
+              sprite.scale.setScalar(s);
+              sprite.material.opacity =
+                (0.4 + (focusedId === node.id ? 0.45 : hoveredId === node.id ? 0.3 : 0.15)) * (0.8 + sinA3 * 0.2);
+            }
           }
         }
       }
@@ -524,9 +594,11 @@ export function init3d(graphData: GraphData) {
 
   function setNodeColor(node: any, color: string) {
     if (!node || !node.__threeObj) return;
-    const mesh = node.__threeObj.children[0];
-    if (mesh && mesh.material && mesh.material.color) {
-      mesh.material.color.set(color);
+    const obj = node.__threeObj.children[0];
+    if (obj && (obj as any).isLOD) {
+      updateLODColor(obj as THREE.LOD, color);
+    } else if (obj && obj.material && obj.material.color) {
+      obj.material.color.set(color);
     }
   }
 
@@ -621,13 +693,8 @@ export function init3d(graphData: GraphData) {
         nd._cDefault = dark ? adjustHex(nd.palColor, 20) : nd.palColor;
       }
     }
-    // 刷新节点颜色
-    Graph.nodeColor((n: any) => {
-      const id = n.id;
-      if (focusedId === id) return n._cFocus;
-      if (highlightedSet.size > 0 && highlightedSet.has(id)) return n._cHighlight;
-      return n._cDefault;
-    });
+    // 刷新节点颜色（兼容 LOD）
+    refreshAllNodeColors();
     // 刷新基础线网透明度
     refreshLinkColors();
     // 如果叠加线网可见，重建以匹配主题
@@ -664,11 +731,7 @@ export function init3d(graphData: GraphData) {
     _lastFocusedId = focusedId;
     focusedId = id;
     // 刷新节点颜色
-    Graph.nodeColor((n: any) => {
-      if (focusedId === n.id) return n._cFocus;
-      if (highlightedSet.size > 0 && highlightedSet.has(n.id)) return n._cHighlight;
-      return n._cDefault;
-    });
+    refreshAllNodeColors();
     // 聚焦叠加线网（金色）
     buildOverlay(id, isDarkRef.value ? 0xffdd44 : 0xff9900);
 
@@ -699,11 +762,7 @@ export function init3d(graphData: GraphData) {
         if (tgt === id && src) highlightedSet.add(String(src));
       }
     }
-    Graph.nodeColor((n: any) => {
-      if (focusedId === n.id) return n._cFocus;
-      if (highlightedSet.size > 0 && highlightedSet.has(n.id)) return n._cHighlight;
-      return n._cDefault;
-    });
+    refreshAllNodeColors();
     refreshLinkColors();
   }
 
@@ -716,10 +775,7 @@ export function init3d(graphData: GraphData) {
     } else {
       buildOverlay(null, 0xffffff);
     }
-    Graph.nodeColor((n: any) => {
-      if (highlightedSet.size > 0 && highlightedSet.has(n.id)) return n._cHighlight;
-      return n._cDefault;
-    });
+    refreshAllNodeColors();
     if (hoveredId) {
       const gd = Graph.graphData() as any;
       const h = gd.nodes?.find((nd: any) => nd.id === hoveredId);
@@ -735,7 +791,13 @@ export function init3d(graphData: GraphData) {
     lastHoveredId = null;
     tooltip.hide();
     buildOverlay(null, 0xffffff); // 清除叠加线网
-    Graph.nodeColor((n: any) => n._cDefault);
+    // 恢复所有节点到默认颜色
+    const gd = Graph.graphData() as any;
+    if (gd.nodes) {
+      for (const nd of gd.nodes) {
+        setNodeColor(nd, nd._cDefault);
+      }
+    }
   }
 
   function focusByDomain(urlOrHost: string) {
