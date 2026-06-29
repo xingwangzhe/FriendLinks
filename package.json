@@ -16,14 +16,15 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "check-access": "bun ./scripts/check-access.ts",
+    "check-access": "bun scripts/check-access.ts",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
     "lint": "oxlint src/",
     "fmt": "oxfmt src/ --write",
-    "fmt-check": "oxfmt src/ --check"
+    "fmt-check": "oxfmt src/ --check",
+    "prune": "bun scripts/prune-irrelevant.ts",
+    "probe": "bun scripts/probe_subs.ts"
   },
   "dependencies": {
     "3d-force-graph": "^1.80.0",

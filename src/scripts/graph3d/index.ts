@@ -364,7 +364,7 @@ export function init3d(graphData: GraphData) {
   }
 
   // 7c ─ 创建 Graph（颜色在 graphData 之后设置）───────────────
-  const Graph = (ForceGraph3D as any)(container, {
+  const Graph = ForceGraph3D()(container, {
     controlType: "orbit",
   })
     .graphData({ nodes, links })
