@@ -1,5 +1,5 @@
 import { loadSites } from "../utils/load-sites";
-import type { GraphNode, GraphLink, GraphCategory } from "../types/graph";
+import type { GraphNode, GraphLink, GraphCategory } from "../../types/graph";
 import { forceSimulation, forceLink, forceManyBody, forceCenter } from "d3-force-3d";
 import { encode } from "msgpackr";
 
@@ -170,8 +170,8 @@ export async function GET() {
     nur.push(n.url);
     nfa.push(n.favicon ?? "");
     nde.push(n.desc ?? "");
-    nx.push(n.x);
-    ny.push(n.y);
+    nx.push(n.x ?? 0);
+    ny.push(n.y ?? 0);
     nz.push(n.z ?? 0);
   }
 
@@ -189,7 +189,7 @@ export async function GET() {
   }
 
   const compact = { nid, nnm, nur, nfa, nde, nx, ny, nz, ls, lt, c: categories };
-  return new Response(encode(compact), {
+  return new Response(encode(compact) as unknown as BodyInit, {
     headers: { "Content-Type": "application/octet-stream" },
   });
 }

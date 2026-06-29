@@ -69,8 +69,9 @@ export function init3d(graphData: GraphData) {
   const degreeMap: Record<string, number> = {};
   const rawLinks = graphData.links || [];
   for (const l of rawLinks) {
-    const s = l.source ?? l[0];
-    const t = l.target ?? l[1];
+    const link = l as any;
+    const s = link.source ?? link[0];
+    const t = link.target ?? link[1];
     if (s != null) degreeMap[s] = (degreeMap[s] || 0) + 1;
     if (t != null) degreeMap[t] = (degreeMap[t] || 0) + 1;
   }
@@ -363,7 +364,7 @@ export function init3d(graphData: GraphData) {
   }
 
   // 7c ─ 创建 Graph（颜色在 graphData 之后设置）───────────────
-  const Graph = ForceGraph3D()(container, {
+  const Graph = (ForceGraph3D as any)(container, {
     controlType: "orbit",
   })
     .graphData({ nodes, links })
@@ -595,10 +596,8 @@ export function init3d(graphData: GraphData) {
       applyTheme();
     }
   };
-  if (mq?.addEventListener) {
+  if (mq) {
     mq.addEventListener("change", mqHandler as any);
-  } else if (mq?.addListener) {
-    (mq as any).addListener(mqHandler);
   }
 
   const themeBtn = document.getElementById("theme-toggle");
@@ -808,7 +807,7 @@ function expandCompact(c: any): GraphData {
     source: nid[s],
     target: nid[c.lt[i]],
   }));
-  return { nodes, links, categories: c.c || [] };
+  return { nodes, links, categories: c.c || [], adjacency: {} };
 }
 
 // ─── 从 URL 加载 ─────────────────────────────────────────────────────────

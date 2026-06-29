@@ -15,6 +15,9 @@ export type GraphNode = {
   favicon?: string;
   desc?: string;
   color?: string;
+  x?: number;
+  y?: number;
+  z?: number;
 };
 export type GraphLink = { source: string; target: string; symbol?: string[] };
 export type GraphCategory = { name: string };

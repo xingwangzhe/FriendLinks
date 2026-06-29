@@ -10,12 +10,6 @@ interface GraphApi {
   clearLocalEffects?: () => void;
 }
 
-declare global {
-  interface Window {
-    __graphApi?: GraphApi;
-  }
-}
-
 (async () => {
   // ── 首屏加载蒙版 ──────────────────────────────────────────────
   const loadingEl = document.getElementById("loading-overlay");
@@ -78,8 +72,8 @@ declare global {
             // Fallback: clear highlights and try to clear focused node highlight
             if (controller && (controller as any).clearAllHighlights) {
               (controller as any).clearAllHighlights();
-            } else if (window.__graphApi && window.__graphApi.clearAllHighlights) {
-              window.__graphApi.clearAllHighlights();
+            } else if ((window as any).__graphApi?.clearAllHighlights) {
+              (window as any).__graphApi.clearAllHighlights();
             }
             if (controller && (controller as any).clearHighlights) {
               (controller as any).clearHighlights();
@@ -252,3 +246,5 @@ declare global {
     console.error(err);
   }
 })();
+
+export {};

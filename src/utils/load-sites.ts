@@ -1,7 +1,7 @@
 import { readdir, readFile } from "node:fs/promises";
 import YAML from "yaml";
 import path from "node:path";
-import type { Site } from "../types/site";
+import type { Site } from "../../types/site";
 
 function isString(v: unknown): v is string {
   return typeof v === "string";
