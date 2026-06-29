@@ -84,6 +84,9 @@ import "../css/modal.css";
       <button id="opacity-toggle" class="top-button" aria-label="连线透明度设置"
         >连线设置</button
       >
+      <button id="path-toggle" class="top-button" aria-label="路径查找"
+        >🔗 路径查找</button
+      >
     </div>
 
     <!-- 统计弹窗 -->
@@ -154,6 +157,53 @@ import "../css/modal.css";
           <div style="margin-top: 12px; display:flex; gap:8px; flex-wrap:wrap;">
             <a href="https://github.com/xingwangzhe/FriendLinks" target="_blank" rel="noopener" class="modal-link">查看仓库</a>
           </div>
+        </div>
+      </div>
+    </div>
+    <!-- 路径查找弹窗 -->
+    <div id="path-modal" role="dialog" aria-modal="true">
+      <div class="modal-content path-modal-content">
+        <div class="modal-header">
+          <h2>🔗 最短路径查找</h2>
+          <button class="close-btn" aria-label="关闭">&times;</button>
+        </div>
+        <div class="path-body">
+          <div class="path-search-row">
+            <label>起点站点</label>
+            <div class="path-search-wrap">
+              <input
+                id="path-search-from"
+                type="text"
+                placeholder="搜索起点站点…"
+                autocomplete="off"
+              />
+              <div id="path-results-from" class="path-results" role="listbox"></div>
+            </div>
+          </div>
+          <div class="path-search-row">
+            <label>终点站点</label>
+            <div class="path-search-wrap">
+              <input
+                id="path-search-to"
+                type="text"
+                placeholder="搜索终点站点…"
+                autocomplete="off"
+              />
+              <div id="path-results-to" class="path-results" role="listbox"></div>
+            </div>
+          </div>
+          <div id="path-info" class="path-info" style="display:none;">
+            <div class="path-stats">
+              <span id="path-length"></span>
+              <span id="path-step-indicator"></span>
+            </div>
+            <div class="path-controls">
+              <button id="path-prev-btn" class="path-nav-btn" disabled>◀ 上一步</button>
+              <button id="path-next-btn" class="path-nav-btn" disabled>下一步 ▶</button>
+            </div>
+            <button id="path-clear-btn" class="path-clear-btn">清除路径</button>
+          </div>
+          <div id="path-error" class="path-error" style="display:none;"></div>
         </div>
       </div>
     </div>
@@ -434,6 +484,126 @@ import "../css/modal.css";
         border-radius: 2px;
         transition: width 0.3s ease;
       }
+
+      /* 路径模态 */
+      .path-modal-content {
+        max-width: 560px;
+      }
+      .path-body {
+        padding: 12px 0;
+      }
+      .path-search-row {
+        margin-bottom: 12px;
+      }
+      .path-search-row label {
+        display: block;
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--text-color);
+        margin-bottom: 4px;
+      }
+      .path-search-wrap {
+        position: relative;
+      }
+      .path-search-wrap input {
+        width: 100%;
+        height: 36px;
+        padding: 0 10px;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background: var(--card-bg);
+        color: var(--text-color);
+        font-size: 14px;
+        box-sizing: border-box;
+      }
+      .path-search-wrap input:focus {
+        outline: 2px solid color-mix(in srgb, var(--text-color) 20%, transparent);
+      }
+      .path-results {
+        position: absolute;
+        top: 38px;
+        left: 0;
+        right: 0;
+        max-height: 200px;
+        overflow-y: auto;
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+        display: none;
+        z-index: 10;
+      }
+      .path-results .path-result-item {
+        padding: 8px 10px;
+        cursor: pointer;
+        font-size: 13px;
+        color: var(--text-color);
+      }
+      .path-results .path-result-item:hover {
+        background: color-mix(in srgb, var(--card-bg) 92%, black 8%);
+      }
+      .path-result-item .path-result-name {
+        font-weight: 600;
+      }
+      .path-result-item .path-result-url {
+        font-size: 11px;
+        color: var(--muted, #666);
+        margin-top: 2px;
+      }
+      .path-info {
+        border-top: 1px solid var(--border);
+        padding-top: 12px;
+        margin-top: 8px;
+      }
+      .path-stats {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        font-size: 13px;
+        color: var(--text-color);
+      }
+      .path-controls {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 8px;
+      }
+      .path-nav-btn {
+        flex: 1;
+        padding: 8px 12px;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background: var(--card-bg);
+        color: var(--text-color);
+        cursor: pointer;
+        font-size: 14px;
+      }
+      .path-nav-btn:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+      }
+      .path-nav-btn:not(:disabled):hover {
+        background: color-mix(in srgb, var(--card-bg) 92%, black 8%);
+      }
+      .path-clear-btn {
+        width: 100%;
+        padding: 6px;
+        border: 1px solid #e74c3c;
+        border-radius: 6px;
+        background: transparent;
+        color: #e74c3c;
+        cursor: pointer;
+        font-size: 13px;
+      }
+      .path-clear-btn:hover {
+        background: rgba(231, 76, 60, 0.1);
+      }
+      .path-error {
+        color: #e74c3c;
+        font-size: 13px;
+        text-align: center;
+        padding: 8px;
+      }
     </style>
     <script>
       import "../scripts/index-client.ts";
@@ -653,6 +823,188 @@ import "../css/modal.css";
             }
           });
         }
+
+        // ── 路径查找模态 ──────────────────────────────────────────
+        var pathModal = document.getElementById("path-modal");
+        var pathToggle2 = document.getElementById("path-toggle");
+        var pathFromInput = document.getElementById("path-search-from");
+        var pathToInput = document.getElementById("path-search-to");
+        var pathFromResults = document.getElementById("path-results-from");
+        var pathToResults = document.getElementById("path-results-to");
+        var pathInfo = document.getElementById("path-info");
+        var pathLength = document.getElementById("path-length");
+        var pathStepIndicator = document.getElementById("path-step-indicator");
+        var pathPrevBtn = document.getElementById("path-prev-btn");
+        var pathNextBtn = document.getElementById("path-next-btn");
+        var pathClearBtn = document.getElementById("path-clear-btn");
+        var pathError = document.getElementById("path-error");
+
+        var selectedFrom = null; // { id, name, url }
+        var selectedTo = null;
+
+        function getApi() {
+          return window.__graphApi || {};
+        }
+
+        function showPathModal() {
+          if (pathModal) {
+            pathModal.classList.add("show");
+            if (pathFromInput) pathFromInput.focus();
+          }
+        }
+        function hidePathModal() {
+          if (pathModal) pathModal.classList.remove("show");
+          clearPathSelections();
+        }
+        function clearPathSelections() {
+          selectedFrom = null;
+          selectedTo = null;
+          if (pathFromInput) { pathFromInput.value = ""; }
+          if (pathToInput) { pathToInput.value = ""; }
+          if (pathFromResults) { pathFromResults.style.display = "none"; pathFromResults.innerHTML = ""; }
+          if (pathToResults) { pathToResults.style.display = "none"; pathToResults.innerHTML = ""; }
+          if (pathInfo) pathInfo.style.display = "none";
+          if (pathError) pathError.style.display = "none";
+          var api = getApi();
+          if (api.clearPath) api.clearPath();
+        }
+
+        if (pathToggle2) pathToggle2.addEventListener("click", showPathModal);
+        if (pathModal) {
+          var pathCloseBtn = pathModal.querySelector(".close-btn");
+          if (pathCloseBtn) pathCloseBtn.addEventListener("click", hidePathModal);
+          pathModal.addEventListener("click", function(e) {
+            if (e.target === pathModal) hidePathModal();
+          });
+        }
+
+        // 搜索结果渲染
+        function renderPathResults(container, list, onSelect) {
+          container.innerHTML = "";
+          if (!list || !list.length) {
+            container.style.display = "none";
+            return;
+          }
+          for (var i = 0; i < Math.min(list.length, 8); i++) {
+            var it = list[i];
+            var el = document.createElement("div");
+            el.className = "path-result-item";
+            el.innerHTML = '<div class="path-result-name">' + it.name + '</div>' +
+              '<div class="path-result-url">' + (it.url || '') + '</div>';
+            el.onclick = (function(item) {
+              return function() {
+                onSelect(item);
+                container.style.display = "none";
+              };
+            })(it);
+            container.appendChild(el);
+          }
+          container.style.display = "block";
+        }
+
+        // 起点搜索
+        if (pathFromInput) {
+          pathFromInput.addEventListener("input", function() {
+            var v = pathFromInput.value.trim();
+            if (!v) { pathFromResults.style.display = "none"; return; }
+            var api = getApi();
+            var list = api.find ? api.find(v) : [];
+            renderPathResults(pathFromResults, list, function(item) {
+              selectedFrom = item;
+              pathFromInput.value = item.name;
+              checkBothSelected();
+            });
+          });
+        }
+
+        // 终点搜索
+        if (pathToInput) {
+          pathToInput.addEventListener("input", function() {
+            var v = pathToInput.value.trim();
+            if (!v) { pathToResults.style.display = "none"; return; }
+            var api = getApi();
+            var list = api.find ? api.find(v) : [];
+            renderPathResults(pathToResults, list, function(item) {
+              selectedTo = item;
+              pathToInput.value = item.name;
+              checkBothSelected();
+            });
+          });
+        }
+
+        // 两个站点都选定后自动计算路径
+        function checkBothSelected() {
+          if (!selectedFrom || !selectedTo) return;
+          var api = getApi();
+          if (!api.showShortestPath) return;
+
+          var path = api.showShortestPath(selectedFrom.id, selectedTo.id);
+          if (!path || !path.length) {
+            pathError.textContent = "未找到从 " + selectedFrom.name + " 到 " + selectedTo.name + " 的路径";
+            pathError.style.display = "block";
+            pathInfo.style.display = "none";
+            return;
+          }
+
+          pathError.style.display = "none";
+          pathInfo.style.display = "block";
+          updatePathUI();
+        }
+
+        function updatePathUI() {
+          var api = getApi();
+          var info = api.getPathInfo ? api.getPathInfo() : null;
+          if (!info) return;
+
+          pathLength.textContent = info.totalSteps + " 个节点";
+          pathStepIndicator.textContent = "当前: 第 " + (info.currentStep + 1) + " / " + info.totalSteps + " 步";
+          pathPrevBtn.disabled = info.currentStep <= 0;
+          pathNextBtn.disabled = info.currentStep >= info.totalSteps - 1;
+        }
+
+        // 步进按钮
+        if (pathPrevBtn) {
+          pathPrevBtn.addEventListener("click", function() {
+            var api = getApi();
+            if (api.stepPathPrev) {
+              api.stepPathPrev();
+              updatePathUI();
+            }
+          });
+        }
+        if (pathNextBtn) {
+          pathNextBtn.addEventListener("click", function() {
+            var api = getApi();
+            if (api.stepPathNext) {
+              api.stepPathNext();
+              updatePathUI();
+            }
+          });
+        }
+
+        // 清除路径
+        if (pathClearBtn) {
+          pathClearBtn.addEventListener("click", function() {
+            clearPathSelections();
+          });
+        }
+
+        // 点击外部关闭搜索结果
+        document.addEventListener("click", function(e) {
+          if (pathFromInput && pathFromResults && !pathFromInput.contains(e.target) && !pathFromResults.contains(e.target)) {
+            pathFromResults.style.display = "none";
+          }
+          if (pathToInput && pathToResults && !pathToInput.contains(e.target) && !pathToResults.contains(e.target)) {
+            pathToResults.style.display = "none";
+          }
+        });
+
+        // ESC 关闭
+        document.addEventListener("keydown", function(e) {
+          if (e.key === "Escape" && pathModal && pathModal.classList.contains("show")) {
+            hidePathModal();
+          }
+        });
       })();
     </script>
   </body>

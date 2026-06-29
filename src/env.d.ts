@@ -32,6 +32,7 @@ declare module "three" {
       normalize(): this;
       length(): number;
       copy(v: Vector3): this;
+      addScaledVector(v: Vector3, s: number): this;
     }
     class Quaternion {
       setFromUnitVectors(from: Vector3, to: Vector3): this;
@@ -61,6 +62,9 @@ declare module "three" {
     }
     class CylinderGeometry {
       constructor(rt?: number, rb?: number, h?: number, segs?: number);
+    }
+    class ConeGeometry {
+      constructor(radius?: number, height?: number, radialSegments?: number, heightSegments?: number);
     }
     class SphereGeometry {
       constructor(radius?: number, widthSegments?: number, heightSegments?: number);
@@ -142,6 +146,11 @@ interface Window {
     clearHighlights?: () => void;
     clearLocalEffects?: () => void;
     getGraphData?: () => any;
+    showShortestPath?: (fromId: string, toId: string) => string[] | null;
+    stepPathNext?: () => boolean;
+    stepPathPrev?: () => boolean;
+    clearPath?: () => void;
+    getPathInfo?: () => { path: string[]; totalSteps: number; currentStep: number; currentId: string | null } | null;
   };
   __toggleOpacityPanel?: () => void;
 }

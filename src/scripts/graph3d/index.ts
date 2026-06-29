@@ -8,6 +8,7 @@ import Fuse from "fuse.js";
 import * as THREE from "three";
 import { decode } from "msgpackr";
 import { PALETTE, hashToIndex, degreeToSize, adjustHex, createNodeLOD, updateLODColor } from "./utils";
+import { findShortestPath } from "./pathfinder";
 import type { GraphData } from "../../../types/graph";
 
 // ─── Tooltip ─────────────────────────────────────────────────────────────
@@ -119,6 +120,11 @@ export function init3d(graphData: GraphData) {
   let highlightedSet = new Set<string>();
 
   let _lastFocusedId: string | null = null;
+
+  // ── 路径查找状态（独立于 focus/highlight）──────────────────
+  let pathNodeIds: string[] | null = null; // 当前最短路径节点 ID 序列
+  let pathStepIndex = -1; // 当前步进到的节点在 pathNodeIds 中的索引，-1 表示未步进
+  let pathOverlayGroup: THREE.Group | null = null; // 路径管道 + 箭头的叠加组
 
   // ── 6. Tooltip ──────────────────────────────────────────────────
   const tooltip = createTooltip();
@@ -265,6 +271,12 @@ export function init3d(graphData: GraphData) {
   const sharedCoreGeom = new THREE.CylinderGeometry(LINK_THICKNESS * 0.3, LINK_THICKNESS * 0.3, 1, 5);
   const sharedHaloGeom = new THREE.CylinderGeometry(LINK_THICKNESS * 1.8, LINK_THICKNESS * 1.8, 1, 8);
 
+  // 路径管道 + 箭头共享几何体（金黄色，比 hover/focus 管道略细）
+  const PATH_TUBE_THICKNESS = 0.25;
+  const sharedPathCoreGeom = new THREE.CylinderGeometry(PATH_TUBE_THICKNESS * 0.3, PATH_TUBE_THICKNESS * 0.3, 1, 5);
+  const sharedPathHaloGeom = new THREE.CylinderGeometry(PATH_TUBE_THICKNESS * 1.5, PATH_TUBE_THICKNESS * 1.5, 1, 8);
+  const sharedArrowGeom = new THREE.ConeGeometry(0.4, 1.0, 6, 8);
+
   const overlayGroup = new THREE.Group();
   overlayGroup.visible = false;
 
@@ -363,6 +375,155 @@ export function init3d(graphData: GraphData) {
     overlayGroup.visible = true;
   }
 
+  /** 清除路径状态（不触发颜色刷新） */
+  function clearOldPathState() {
+    pathNodeIds = null;
+    pathStepIndex = -1;
+    if (pathOverlayGroup) {
+      while (pathOverlayGroup.children.length > 0) {
+        const child = pathOverlayGroup.children[0] as THREE.Mesh;
+        if (child.material) (child.material as THREE.Material).dispose();
+        pathOverlayGroup.remove(child);
+      }
+      overlayGroup.remove(pathOverlayGroup);
+      pathOverlayGroup = null;
+    }
+  }
+
+  /** 渲染路径叠加线网：黄色管道 + 方向箭头 */
+  function buildPathOverlay(pathIds: string[]) {
+    // 清除旧路径叠加
+    if (pathOverlayGroup) {
+      while (pathOverlayGroup.children.length > 0) {
+        const child = pathOverlayGroup.children[0] as THREE.Mesh;
+        if (child.material) (child.material as THREE.Material).dispose();
+        pathOverlayGroup.remove(child);
+      }
+      overlayGroup.remove(pathOverlayGroup);
+      pathOverlayGroup = null;
+    }
+
+    if (!pathIds || pathIds.length < 2) return;
+
+    pathOverlayGroup = new THREE.Group();
+
+    const pathColor = new THREE.Color("#FFD700"); // 金黄色
+
+    // 管道材质
+    const coreMat = new THREE.MeshStandardMaterial({
+      color: pathColor,
+      emissive: pathColor,
+      emissiveIntensity: 0.6,
+      transparent: true,
+      opacity: 0.9,
+      depthWrite: false,
+    });
+    const haloMat = new THREE.MeshStandardMaterial({
+      color: pathColor,
+      emissive: pathColor,
+      emissiveIntensity: 0.3,
+      transparent: true,
+      opacity: 0.2,
+      depthWrite: false,
+    });
+
+    // 箭头材质
+    const arrowMat = new THREE.MeshStandardMaterial({
+      color: pathColor,
+      emissive: pathColor,
+      emissiveIntensity: 0.5,
+      depthWrite: false,
+    });
+
+    const up = new THREE.Vector3(0, 1, 0);
+    const start = new THREE.Vector3();
+    const end = new THREE.Vector3();
+    const dir = new THREE.Vector3();
+    const mid = new THREE.Vector3();
+    const quat = new THREE.Quaternion();
+
+    // 查找节点的 3D 坐标
+    const gd = Graph.graphData() as any;
+    const nodePosMap = new Map<string, THREE.Vector3>();
+    if (gd.nodes) {
+      for (const nd of gd.nodes) {
+        if (nd.x != null) {
+          nodePosMap.set(nd.id, new THREE.Vector3(nd.x, nd.y, nd.z));
+        }
+      }
+    }
+
+    for (let i = 0; i < pathIds.length - 1; i++) {
+      const srcPos = nodePosMap.get(pathIds[i]);
+      const tgtPos = nodePosMap.get(pathIds[i + 1]);
+      if (!srcPos || !tgtPos) continue;
+
+      start.copy(srcPos);
+      end.copy(tgtPos);
+
+      dir.subVectors(end, start);
+      const length = dir.length();
+      if (length < 0.01) continue;
+      dir.normalize();
+
+      mid.addVectors(start, end).multiplyScalar(0.5);
+      quat.setFromUnitVectors(up, dir);
+
+      // 光晕管道
+      const haloMesh = new THREE.Mesh(sharedPathHaloGeom, haloMat);
+      haloMesh.position.copy(mid);
+      haloMesh.quaternion.copy(quat);
+      haloMesh.scale.set(1, length, 1);
+      pathOverlayGroup.add(haloMesh);
+
+      // 核心管道
+      const coreMesh = new THREE.Mesh(sharedPathCoreGeom, coreMat);
+      coreMesh.position.copy(mid);
+      coreMesh.quaternion.copy(quat);
+      coreMesh.scale.set(1, length, 1);
+      pathOverlayGroup.add(coreMesh);
+
+      // 箭头（圆锥）：放在中点偏目标 60% 处，锥尖指向目标
+      const arrowPos = new THREE.Vector3().copy(start).addScaledVector(dir, length * 0.6);
+      const arrowMesh = new THREE.Mesh(sharedArrowGeom, arrowMat);
+      arrowMesh.position.copy(arrowPos);
+      arrowMesh.quaternion.copy(quat);
+      pathOverlayGroup.add(arrowMesh);
+    }
+
+    overlayGroup.add(pathOverlayGroup);
+    overlayGroup.visible = true;
+  }
+
+  /** 刷新路径节点颜色（路径节点使用橙色系，步进节点最亮） */
+  function refreshPathNodeColors() {
+    const gd = Graph.graphData() as any;
+    if (!gd.nodes || !pathNodeIds) return;
+    const pathSet = new Set(pathNodeIds);
+    for (const nd of gd.nodes) {
+      if (pathSet.has(nd.id)) {
+        if (pathStepIndex >= 0 && nd.id === pathNodeIds[pathStepIndex]) {
+          setNodeColor(nd, adjustHex(nd.palColor, 70));
+        } else {
+          setNodeColor(nd, "#FF8C00");
+        }
+      }
+    }
+  }
+
+  /** 相机飞到指定路径节点 */
+  function focusPathStepNode(id: string) {
+    const gd = Graph.graphData() as any;
+    const node = gd.nodes?.find((n: any) => n.id === id);
+    if (!node || node.x == null) return;
+    const padding = 120;
+    Graph.cameraPosition(
+      { x: node.x + padding, y: node.y + padding * 0.5, z: node.z + padding },
+      { x: node.x, y: node.y, z: node.z },
+      500,
+    );
+  }
+
   // 7c ─ 创建 Graph（颜色在 graphData 之后设置）───────────────
   const Graph = ForceGraph3D()(container, {
     controlType: "orbit",
@@ -373,6 +534,11 @@ export function init3d(graphData: GraphData) {
     .nodeLabel(null)
     .nodeColor((n: any) => {
       const id = n.id;
+      // 路径步进节点最高优先级
+      if (pathNodeIds && pathStepIndex >= 0 && id === pathNodeIds[pathStepIndex]) return adjustHex(n.palColor, 70);
+      // 路径节点次优先级
+      if (pathNodeIds && pathNodeIds.includes(id)) return "#FF8C00";
+      // 原有优先级
       if (focusedId === id) return n._cFocus;
       if (highlightedSet.size > 0 && highlightedSet.has(id)) return n._cHighlight;
       return n._cDefault;
@@ -413,7 +579,12 @@ export function init3d(graphData: GraphData) {
     if (!gd.nodes) return;
     for (const nd of gd.nodes) {
       let color: string;
-      if (focusedId === nd.id) {
+      // 路径步进节点最高优先级
+      if (pathNodeIds && pathStepIndex >= 0 && nd.id === pathNodeIds[pathStepIndex]) {
+        color = adjustHex(nd.palColor, 70);
+      } else if (pathNodeIds && pathNodeIds.includes(nd.id)) {
+        color = "#FF8C00";
+      } else if (focusedId === nd.id) {
         color = nd._cFocus;
       } else if (highlightedSet.size > 0 && highlightedSet.has(nd.id)) {
         color = nd._cHighlight;
@@ -491,6 +662,21 @@ export function init3d(graphData: GraphData) {
           const mesh = child as THREE.Mesh;
           const curScale = mesh.scale;
           mesh.scale.set(clamped, curScale.y, clamped);
+        }
+      } catch {}
+    }
+
+    // 路径叠加线使用独立的缩放因子（比 hover/focus 管道稍细）
+    if (pathOverlayGroup && pathOverlayGroup.children.length > 0) {
+      try {
+        const cam = Graph.cameraPosition();
+        const dist = Math.sqrt(cam.x * cam.x + cam.y * cam.y + cam.z * cam.z);
+        const pathScale = dist / 700;
+        const pathClamped = Math.max(0.4, Math.min(pathScale, 4));
+        for (const child of pathOverlayGroup.children) {
+          const mesh = child as THREE.Mesh;
+          const curScale = mesh.scale;
+          mesh.scale.set(pathClamped, curScale.y, pathClamped);
         }
       } catch {}
     }
@@ -784,6 +970,7 @@ export function init3d(graphData: GraphData) {
   }
 
   function clearLocalEffects() {
+    clearOldPathState(); // 清理路径状态
     highlightedSet.clear();
     focusedId = null;
     _lastFocusedId = null;
@@ -833,6 +1020,79 @@ export function init3d(graphData: GraphData) {
     return Graph.graphData();
   }
 
+  /** 查找并高亮两个节点之间的最短路径 */
+  function showShortestPath(fromId: string, toId: string): string[] | null {
+    const path = findShortestPath(neighborMap, fromId, toId);
+    if (!path) return null;
+
+    // 清理旧状态
+    clearOldPathState();
+
+    pathNodeIds = path;
+    pathStepIndex = 0; // 默认步进到起点
+
+    // 高亮路径节点
+    refreshPathNodeColors();
+    // 清除原有的 hover/focus 叠加线
+    buildOverlay(null, 0xffffff);
+    // 渲染路径管道 + 箭头
+    buildPathOverlay(path);
+
+    // 相机飞到起点
+    const gd = Graph.graphData() as any;
+    const firstNode = gd.nodes?.find((n: any) => n.id === path[0]);
+    if (firstNode && firstNode.x != null) {
+      const padding = 120;
+      Graph.cameraPosition(
+        { x: firstNode.x + padding, y: firstNode.y + padding * 0.5, z: firstNode.z + padding },
+        { x: firstNode.x, y: firstNode.y, z: firstNode.z },
+        600,
+      );
+    }
+
+    return path;
+  }
+
+  /** 步进到路径上的下一个节点 */
+  function stepPathNext(): boolean {
+    if (!pathNodeIds || pathStepIndex >= pathNodeIds.length - 1) return false;
+    pathStepIndex++;
+    refreshPathNodeColors();
+    focusPathStepNode(pathNodeIds[pathStepIndex]);
+    return true;
+  }
+
+  /** 步进到路径上的上一个节点 */
+  function stepPathPrev(): boolean {
+    if (!pathNodeIds || pathStepIndex <= 0) return false;
+    pathStepIndex--;
+    refreshPathNodeColors();
+    focusPathStepNode(pathNodeIds[pathStepIndex]);
+    return true;
+  }
+
+  /** 清除路径状态 */
+  function clearPath() {
+    clearOldPathState();
+    refreshAllNodeColors();
+    if (hoveredId) {
+      buildOverlay(hoveredId, isDarkRef.value ? 0xeeeeee : 0x888888);
+    } else {
+      buildOverlay(null, 0xffffff);
+    }
+  }
+
+  /** 获取当前路径信息 */
+  function getPathInfo() {
+    if (!pathNodeIds) return null;
+    return {
+      path: pathNodeIds,
+      totalSteps: pathNodeIds.length,
+      currentStep: pathStepIndex,
+      currentId: pathStepIndex >= 0 ? pathNodeIds[pathStepIndex] : null,
+    };
+  }
+
   const api = {
     find,
     focusNodeById,
@@ -841,6 +1101,11 @@ export function init3d(graphData: GraphData) {
     clearHighlights,
     clearLocalEffects,
     getGraphData,
+    showShortestPath,
+    stepPathNext,
+    stepPathPrev,
+    clearPath,
+    getPathInfo,
     _graph: Graph,
   };
 
