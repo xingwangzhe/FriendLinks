@@ -1,68 +1,68 @@
-site:
-  name: "KEVIN"
-  url: "https://blog.kevinchu.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "知识库"
-      url: "https://kode.kevinchu.top"
-    - name: "备忘录"
-      url: "https://memos.kevinchu.top/explore"
-    - name: "游戏"
-      url: "https://game.kevinchu.top"
-    - name: "音乐"
-      url: "https://music.kevinchu.top"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "虫洞"
-      url: "https://foreverblog.cn/go.html"
-    - name: "Kevin's Homepage\n            Kevin的个人主页"
-      url: "https://www.kevinchu.top"
-    - name: "Kevin's Blog-博客园\n            Kevin的博客园博客"
-      url: "https://www.cnblogs.com/kevinchu7"
-    - name: "杜老师说\n            师者，传道，授业，解惑！"
-      url: "https://dusays.com"
-    - name: "运维小弟\n            分享DevOps、容器化技术、云原生等运维优秀实践经验"
-      url: "https://srebro.cn"
-    - name: "张洪Heo\n            分享设计与科技生活"
-      url: "https://blog.zhheo.com"
-    - name: "Lafcadia's Blog\n            神秘主义的屋舍"
-      url: "https://chuishen.xyz"
-    - name: "LineXic书屋\n            难离难舍，想抱紧些"
-      url: "https://www.linexic.top"
-    - name: "Jasper Hsu\n            技术话题分享，向向往的生活靠近"
-      url: "https://xuchangwei.com"
-    - name: "XingJiのBlog\n            迄今所有人生都大写着失败，但不妨碍我继续向前✨"
-      url: "https://love.xingji.fun"
-    - name: "青萍叙事\n            一个懂技术的产品汪🐶"
-      url: "https://blog.lusyoe.com"
-    - name: "Liu Zijian's Blog\n            Keep on going never give up"
-      url: "https://blog.liuzijian.com"
-    - name: "ChasonWang的博客\n            一个热爱摸鱼的OIer"
-      url: "https://ChasonWang2012.github.io"
-    - name: "【⚠️失联】Camill\n            Camill的博客"
-      url: "https://camill.love"
-    - name: "【⚠️失联】Owenzjg的小窝\n            生活与编程"
-      url: "https://blog.owenzjg.com"
-    - name: "【⚠️失联】xiaoger\n            个人学习和分享壁纸的博客"
-      url: "https://xiaoger.top"
-    - name: "【⚠️失联】归途的秘密基地\n            科技，无限想象！"
-      url: "https://halo.qq-channel.cn"
-    - name: "【⚠️失联】秋风起\n            时间会冲淡一切"
-      url: "https://5x0.cn/"
-    - name: "【⚠️失联】XiaoWangのBlog\n            上进的运维工程师"
-      url: "https://wanghaiyang.cc"
-    - name: "【⚠️失联】viisaus（小欧同学）\n            静水深流，笃志前行♨️♨️♨️"
-      url: "https://viisaus.tech"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "Waline"
-      url: "https://github.com/walinejs/waline"
-    - name: "腾讯云"
-      url: "https://cloud.tencent.com/"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Fluid"
-      url: "https://github.com/fluid-dev/hexo-theme-fluid"
-    - name: "苏ICP备2021007974号"
-      url: "http://beian.miit.gov.cn/"
+'site':
+  'name': 'KEVIN'
+  'url': 'https://blog.kevinchu.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '知识库'
+      'url': 'https://kode.kevinchu.top'
+    - 'name': '备忘录'
+      'url': 'https://memos.kevinchu.top/explore'
+    - 'name': '游戏'
+      'url': 'https://game.kevinchu.top'
+    - 'name': '音乐'
+      'url': 'https://music.kevinchu.top'
+    - 'name': "Kevin's Homepage
+
+        \            Kevin的个人主页"
+      'url': 'https://www.kevinchu.top'
+    - 'name': "Kevin's Blog-博客园
+
+        \            Kevin的博客园博客"
+      'url': 'https://www.cnblogs.com/kevinchu7'
+    - 'name': "杜老师说\n            师者，传道，授业，解惑！"
+      'url': 'https://dusays.com'
+    - 'name': "运维小弟
+
+        \            分享DevOps、容器化技术、云原生等运维优秀实践经验"
+      'url': 'https://srebro.cn'
+    - 'name': "张洪Heo\n            分享设计与科技生活"
+      'url': 'https://blog.zhheo.com'
+    - 'name': "Lafcadia's Blog\n            神秘主义的屋舍"
+      'url': 'https://chuishen.xyz'
+    - 'name': "LineXic书屋\n            难离难舍，想抱紧些"
+      'url': 'https://www.linexic.top'
+    - 'name': "Jasper Hsu
+
+        \            技术话题分享，向向往的生活靠近"
+      'url': 'https://xuchangwei.com'
+    - 'name': "XingJiのBlog
+
+        \            迄今所有人生都大写着失败，但不妨碍我继续向前✨"
+      'url': 'https://love.xingji.fun'
+    - 'name': "青萍叙事\n            一个懂技术的产品汪🐶"
+      'url': 'https://blog.lusyoe.com'
+    - 'name': "Liu Zijian's Blog
+
+        \            Keep on going never give up"
+      'url': 'https://blog.liuzijian.com'
+    - 'name': "【⚠️失联】Camill\n            Camill的博客"
+      'url': 'https://camill.love'
+    - 'name': "【⚠️失联】Owenzjg的小窝\n            生活与编程"
+      'url': 'https://blog.owenzjg.com'
+    - 'name': "【⚠️失联】xiaoger
+
+        \            个人学习和分享壁纸的博客"
+      'url': 'https://xiaoger.top'
+    - 'name': "【⚠️失联】归途的秘密基地\n            科技，无限想象！"
+      'url': 'https://halo.qq-channel.cn'
+    - 'name': "【⚠️失联】秋风起\n            时间会冲淡一切"
+      'url': 'https://5x0.cn/'
+    - 'name': "【⚠️失联】XiaoWangのBlog
+
+        \            上进的运维工程师"
+      'url': 'https://wanghaiyang.cc'
+    - 'name': "【⚠️失联】viisaus（小欧同学）
+
+        \            静水深流，笃志前行♨️♨️♨️"
+      'url': 'https://viisaus.tech'

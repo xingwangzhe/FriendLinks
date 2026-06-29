@@ -1,44 +1,32 @@
-site:
-  name: "dllcnx.com"
-  description: "友情链接"
-  url: "https://dllcnx.com/"
-  links: "/link"
-  friends:
-    - name: "学习笔记"
-      url: "https://dllcnx.com/notes/"
-    - name: "私有仓库"
-      url: "https://home.dllcnx.com:30000"
-    - name: "Github"
-      url: "https://github.com/dllcnx"
-    - name: "NPM"
-      url: "https://www.npmjs.com/~jukaifeng"
-    - name: "DockerHub"
-      url: "https://hub.docker.com/u/jkf19980216"
-    - name: "掘金"
-      url: "https://juejin.cn/user/3896324939076743"
-    - name: "思否"
-      url: "https://segmentfault.com/u/dllcnx"
-    - name: "CSDN"
-      url: "https://blog.csdn.net/u012149927"
-    - name: "Hexo \n      快速、简单且强大的网志框架"
-      url: "https://hexo.io/zh-cn/"
-    - name: "butterfly \n      A Hexo Theme, Butterfly"
-      url: "https://butterfly.js.org/"
-    - name: "张洪Heo \n      分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Weibo \n      中国最大社交分享平台"
-      url: "https://www.weibo.com/"
-    - name: "思否"
-      url: "https://segmentfault.com/u/dllcnx/articles"
-    - name: "学习笔记"
-      url: "https://dllcnx.com:10000"
-    - name: "Vue"
-      url: "https://cn.vuejs.org/"
-    - name: "React"
-      url: "https://react.dev"
-    - name: "Svelte"
-      url: "https://svelte.dev"
-    - name: "Angular"
-      url: "https://angular.io/"
-    - name: "京ICP备18052139号-2"
-      url: "https://beian.miit.gov.cn"
+'site':
+  'name': 'dllcnx.com'
+  'description': '友情链接'
+  'url': 'https://dllcnx.com/'
+  'links': '/link'
+  'friends':
+    - 'name': '私有仓库'
+      'url': 'https://home.dllcnx.com:30000'
+    - 'name': 'NPM'
+      'url': 'https://www.npmjs.com/~jukaifeng'
+    - 'name': 'DockerHub'
+      'url': 'https://hub.docker.com/u/jkf19980216'
+    - 'name': '掘金'
+      'url': 'https://juejin.cn/user/3896324939076743'
+    - 'name': '思否'
+      'url': 'https://segmentfault.com/u/dllcnx'
+    - 'name': 'CSDN'
+      'url': 'https://blog.csdn.net/u012149927'
+    - 'name': "Hexo\ \n      快速、简单且强大的网志框架"
+      'url': 'https://hexo.io/zh-cn/'
+    - 'name': "butterfly\ 
+
+        \      A Hexo Theme, Butterfly"
+      'url': 'https://butterfly.js.org/'
+    - 'name': "张洪Heo\ \n      分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '思否'
+      'url': 'https://segmentfault.com/u/dllcnx/articles'
+    - 'name': 'Svelte'
+      'url': 'https://svelte.dev'
+    - 'name': 'Angular'
+      'url': 'https://angular.io/'

@@ -1,76 +1,46 @@
-site:
-  name: "blog.gzzz.pro"
-  description: "友情链接"
-  url: "https://blog.gzzz.pro/"
-  links: "/link"
-  friends:
-    - name: "个人工具"
-      url: "http://gzzz.pro"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "Akilar の糖果屋 \n      欢迎光临糖果屋"
-      url: "https://akilar.top/"
-    - name: "张洪 Heo \n      分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Guo Le's Blog \n      生命是独立是自由是爱与和平"
-      url: "https://blog.guole.fun/"
-    - name: "清羽飞扬 \n      柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
-      url: "https://blog.liushen.fun"
-    - name: "爱吃肉的猫 \n      有肉有猫有生活."
-      url: "https://meuicat.com/"
-    - name: "荒野孤灯 \n      荒野中的一盏孤灯，照亮夜里依然前行的人们！"
-      url: "https://www.80srz.com"
-    - name: "浅草物语 \n      清静的一亩三分地。"
-      url: "https://www.chillg.top/"
-    - name: "Mr.Sun 的博客 \n      保持热爱，奔赴山海"
-      url: "https://www.mrsunn.cn"
-    - name: "XingJi の Blog \n      迄今所有人生都大写着失败，但不妨碍我继续向前✨"
-      url: "https://love.xingji.fun/"
-    - name: "Joker2Yue 的个人博客 \n      Joker Never Plays Jokes."
-      url: "https://blog.joker2yue.com/"
-    - name: "唐志远 \n      古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志"
-      url: "https://fe32.top/"
-    - name: "Gzzz’s Blog"
-      url: "https://blog.gzzz.pro/"
-    - name: "https://com.z2m.store"
-      url: "https://com.z2m.store"
-    - name: "https://img.z2m.store/file/1779081943822_butterfly-icon.png"
-      url: "https://img.z2m.store/file/1779081943822_butterfly-icon.png"
-    - name: "浅草物语"
-      url: "http://www.chillg.de"
-    - name: "www.chillg.top"
-      url: "http://www.chillg.top"
-    - name: "九歌"
-      url: "http://blog.joker2yue.com"
-    - name: "Gzzz"
-      url: "https://blog.gzzz.pro"
-    - name: "blackpumpkin"
-      url: "http://blackpumpkin.site"
-    - name: "https://www.blackpumpkin.site/"
-      url: "https://www.blackpumpkin.site/"
-    - name: "https://pic.imgdb.cn/item/66c605b4d9c307b7e9a53ea1.jpg"
-      url: "https://pic.imgdb.cn/item/66c605b4d9c307b7e9a53ea1.jpg"
-    - name: "https://pic.imgdb.cn/item/674b0897d0e0a243d4db771e.png"
-      url: "https://pic.imgdb.cn/item/674b0897d0e0a243d4db771e.png"
-    - name: "https://i.p-i.vip/47/20240920-66ed7b168c38c.jpg"
-      url: "https://i.p-i.vip/47/20240920-66ed7b168c38c.jpg"
-    - name: "https://i.p-i.vip/47/20240920-66ed7b6730ca9.png"
-      url: "https://i.p-i.vip/47/20240920-66ed7b6730ca9.png"
-    - name: "OvO"
-      url: "https://www.qqe4.com"
-    - name: "https://image.qqe4.com/PicGo/202409190834575.jpg"
-      url: "https://image.qqe4.com/PicGo/202409190834575.jpg"
-    - name: "九歌"
-      url: "http://blog.joker2yue.cn"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Github"
-      url: "https://github.com/gzzzxx"
-    - name: "Gitee"
-      url: "https://gitee.com/gzzzxx"
-    - name: "CSDN"
-      url: "https://blog.csdn.net/weixin_41386222?type=blog"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
+'site':
+  'name': 'blog.gzzz.pro'
+  'description': '友情链接'
+  'url': 'https://blog.gzzz.pro/'
+  'links': '/link'
+  'friends':
+    - 'name': "Akilar の糖果屋\ \n      欢迎光临糖果屋"
+      'url': 'https://akilar.top/'
+    - 'name': "张洪 Heo\ \n      分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "Guo Le's Blog\ \n      生命是独立是自由是爱与和平"
+      'url': 'https://blog.guole.fun/'
+    - 'name': "清羽飞扬\ \n      柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
+      'url': 'https://blog.liushen.fun'
+    - 'name': "爱吃肉的猫\ \n      有肉有猫有生活."
+      'url': 'https://meuicat.com/'
+    - 'name': "荒野孤灯\ \n      荒野中的一盏孤灯，照亮夜里依然前行的人们！"
+      'url': 'https://www.80srz.com'
+    - 'name': "浅草物语\ \n      清静的一亩三分地。"
+      'url': 'https://www.chillg.top/'
+    - 'name': "Mr.Sun 的博客\ \n      保持热爱，奔赴山海"
+      'url': 'https://www.mrsunn.cn'
+    - 'name': "XingJi の Blog\ 
+
+        \      迄今所有人生都大写着失败，但不妨碍我继续向前✨"
+      'url': 'https://love.xingji.fun/'
+    - 'name': "Joker2Yue 的个人博客\ 
+
+        \      Joker Never Plays Jokes."
+      'url': 'https://blog.joker2yue.com/'
+    - 'name': "唐志远\ \n      古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志"
+      'url': 'https://fe32.top/'
+    - 'name': '浅草物语'
+      'url': 'http://www.chillg.de'
+    - 'name': 'www.chillg.top'
+      'url': 'http://www.chillg.top'
+    - 'name': '九歌'
+      'url': 'http://blog.joker2yue.com'
+    - 'name': 'blackpumpkin'
+      'url': 'http://blackpumpkin.site'
+    - 'name': 'OvO'
+      'url': 'https://www.qqe4.com'
+    - 'name': '九歌'
+      'url': 'http://blog.joker2yue.cn'
+    - 'name': 'CSDN'
+      'url': 'https://blog.csdn.net/weixin_41386222?type=blog'

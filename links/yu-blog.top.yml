@@ -1,42 +1,28 @@
-site:
-  name: "yu-blog.top"
-  description: "友情链接"
-  url: "https://yu-blog.top/"
-  links: "/link"
-  friends:
-    - name: "网站统计"
-      url: "https://cloud.umami.is/share/RTGyugXkhj7obUCG"
-    - name: "网站状态"
-      url: "https://stats.uptimerobot.com/iNEHIzeCxS"
-    - name: "Hexo\n      快速、简单且强大的网志框架"
-      url: "https://hexo.io/zh-tw/"
-    - name: "二叉树树\n      一个高质量的个人技术博客，以实用性强、技术深度足、个人见解独特为特色，是技术学习和实践的优质资源"
-      url: "https://2x.nz/"
-    - name: "辰渊尘の个人博客\n      05后，高中生，内容偏技术向，希望能对你有用QwQ"
-      url: "https://blog.mcxiaochen.top/"
-    - name: "mccsjs\n      素敵な一日が始まります🎉🎉🎉"
-      url: "https://seln.cn/"
-    - name: "张恒华\n      SDN研究者"
-      url: "https://zhh2001.github.io"
-    - name: "张洪Heo\n      分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "安知鱼\n      生活明朗，万物可爱"
-      url: "https://blog.anheyu.com/"
-    - name: "CcoMm\n      你要吃C4吗？"
-      url: "https://blog.ccomm.top/"
-    - name: "阿叶Ayeez的小站\n      记录学习历程，记录美好生活"
-      url: "https://blog.Ayeez.cn"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "Waline"
-      url: "https://github.com/walinejs/waline"
-    - name: "Follow Me"
-      url: "https://github.com/rossiniortensia-ops"
-    - name: "Hexo 8.1.1"
-      url: "https://hexo.io"
-    - name: "Butterfly 5.5.0-b1"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
-    - name: "萌ICP备20251880号"
-      url: "https://icp.gov.moe/?keyword=20251880"
-    - name: "茶ICP备2025100187号"
-      url: "https://icp.redcha.cn/beian/ICP-2025100187.html"
+'site':
+  'name': 'yu-blog.top'
+  'description': '友情链接'
+  'url': 'https://yu-blog.top/'
+  'links': '/link'
+  'friends':
+    - 'name': "Hexo\n      快速、简单且强大的网志框架"
+      'url': 'https://hexo.io/zh-tw/'
+    - 'name': "二叉树树
+
+        \      一个高质量的个人技术博客，以实用性强、技术深度足、个人见解独特为特色，是技术学习和实践的优质资源"
+      'url': 'https://2x.nz/'
+    - 'name': "辰渊尘の个人博客
+
+        \      05后，高中生，内容偏技术向，希望能对你有用QwQ"
+      'url': 'https://blog.mcxiaochen.top/'
+    - 'name': "mccsjs\n      素敵な一日が始まります🎉🎉🎉"
+      'url': 'https://seln.cn/'
+    - 'name': "张洪Heo\n      分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "安知鱼\n      生活明朗，万物可爱"
+      'url': 'https://blog.anheyu.com/'
+    - 'name': "CcoMm\n      你要吃C4吗？"
+      'url': 'https://blog.ccomm.top/'
+    - 'name': "阿叶Ayeez的小站\n      记录学习历程，记录美好生活"
+      'url': 'https://blog.Ayeez.cn'
+    - 'name': 'Hexo 8.1.1'
+      'url': 'https://hexo.io'

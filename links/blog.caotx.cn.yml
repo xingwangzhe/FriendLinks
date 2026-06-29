@@ -1,64 +1,44 @@
-site:
-  name: "blog.caotx.cn"
-  description: "友情链接"
-  url: "https://blog.caotx.cn/"
-  links: "/link"
-  friends:
-    - name: "网盘"
-      url: "https://pan.caotx.cn"
-    - name: "统计"
-      url: "https://umami.caotx.cn/share/wLAFs7QUhanh4y2a"
-    - name: "相册集"
-      url: "https://album.caotx.cn/"
-    - name: "关于本人"
-      url: "https://caotx.cn/"
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "熙の主页"
-      url: "https://yilx.net/"
-    - name: "葱苓小筑"
-      url: "https://blog.ciraos.top/"
-    - name: "ZSSO"
-      url: "https://www.zsso.cn"
-    - name: "haohang"
-      url: "https://www.shimmerl.top/"
-    - name: "fishcpy的小破站"
-      url: "https://blog.fis.ink/"
-    - name: "Mo的记事簿"
-      url: "https://blog.xiowo.net/"
-    - name: "二叉树树分享技术与实践的个人技术博客"
-      url: "https://2x.nz/"
-    - name: "椰汁の博客分享生活中的灵感碎片"
-      url: "https://blog.132614.xyz/"
-    - name: "AnKode都是风景，幸会。"
-      url: "https://blog.anxko.cn/"
-    - name: "卖烤肉分享生活中的灵感碎片"
-      url: "https://b.ncii.cn/"
-    - name: "夏夜流萤飞萤之火自无梦的长夜亮起，绽放在终竟的明天。"
-      url: "https://blog.cuteleaf.cn/"
-    - name: "FeiTwnd’s Blog初出茅庐 | 科班码农 | 拾枝者"
-      url: "https://blog.feitwnd.cc/"
-    - name: "狼林鱼池风带来了故事的种子，时间使之发芽"
-      url: "https://blog.jiyu134.top/"
-    - name: "启明曙光官网东方曙光 星火燎原"
-      url: "https://www.orientdawn.com/"
-    - name: "https://blog.caotx.cn/"
-      url: "https://blog.caotx.cn/"
-    - name: "https://pic.caotx.cn/home/friends/avatars_0_myweb.webp"
-      url: "https://pic.caotx.cn/home/friends/avatars_0_myweb.webp"
-    - name: "https://pic.caotx.cn/blog/site_screenshot.webp"
-      url: "https://pic.caotx.cn/blog/site_screenshot.webp"
-    - name: "https://www.orientdawn.com"
-      url: "https://www.orientdawn.com"
-    - name: "https://orientdawn.com/image/logo.png"
-      url: "https://orientdawn.com/image/logo.png"
-    - name: "小曹同学"
-      url: "https://blog.caotx.cn"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "主题"
-      url: "https://github.com/anzhiyu-c/hexo-theme-anzhiyu"
-    - name: "渝ICP备2025050595号-1"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'blog.caotx.cn'
+  'description': '友情链接'
+  'url': 'https://blog.caotx.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '统计'
+      'url': 'https://umami.caotx.cn/share/wLAFs7QUhanh4y2a'
+    - 'name': '相册集'
+      'url': 'https://album.caotx.cn/'
+    - 'name': '关于本人'
+      'url': 'https://caotx.cn/'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '熙の主页'
+      'url': 'https://yilx.net/'
+    - 'name': '葱苓小筑'
+      'url': 'https://blog.ciraos.top/'
+    - 'name': 'ZSSO'
+      'url': 'https://www.zsso.cn'
+    - 'name': 'haohang'
+      'url': 'https://www.shimmerl.top/'
+    - 'name': 'fishcpy的小破站'
+      'url': 'https://blog.fis.ink/'
+    - 'name': 'Mo的记事簿'
+      'url': 'https://blog.xiowo.net/'
+    - 'name': '二叉树树分享技术与实践的个人技术博客'
+      'url': 'https://2x.nz/'
+    - 'name': '椰汁の博客分享生活中的灵感碎片'
+      'url': 'https://blog.132614.xyz/'
+    - 'name': 'AnKode都是风景，幸会。'
+      'url': 'https://blog.anxko.cn/'
+    - 'name': '卖烤肉分享生活中的灵感碎片'
+      'url': 'https://b.ncii.cn/'
+    - 'name': '夏夜流萤飞萤之火自无梦的长夜亮起，绽放在终竟的明天。'
+      'url': 'https://blog.cuteleaf.cn/'
+    - 'name': 'FeiTwnd’s Blog初出茅庐 | 科班码农 | 拾枝者'
+      'url': 'https://blog.feitwnd.cc/'
+    - 'name': '狼林鱼池风带来了故事的种子，时间使之发芽'
+      'url': 'https://blog.jiyu134.top/'
+    - 'name': '启明曙光官网东方曙光 星火燎原'
+      'url': 'https://www.orientdawn.com/'

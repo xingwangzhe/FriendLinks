@@ -1,110 +1,98 @@
-site:
-  name: "Liu Zijian"
-  url: "https://blog.liuzijian.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "张凯强\n            本站主题Fluid作者的个人博客"
-      url: "https://zkqiang.cn/"
-    - name: "鸦鸦的巢穴\n            在乌鸦统治的世界里，洁白的羽毛是有罪的。"
-      url: "https://crowya.com"
-    - name: "九陌斋博客\n            每一条思想的道路都通向知识的繁华！"
-      url: "https://blog.jiumoz.com"
-    - name: "小小黑的个人小站\n            技术宅拯救世界"
-      url: "https://lonelyenderman.top/"
-    - name: "陶其的个人博客\n            当下，即是未来"
-      url: "https://www.tqazy.com"
-    - name: "iMaeGoo’s Blog\n            虹墨空间站"
-      url: "https://www.imaegoo.com"
-    - name: "echeverra\n            let's go, together!"
-      url: "https://echeverra.cn"
-    - name: "陈冬冬博客\n            欢迎到访陈冬冬的个人经验整理分享平台"
-      url: "https://www.chendd.cn"
-    - name: "故人随笔\n            寒江孤影，江湖故人"
-      url: "https://ifwww.com"
-    - name: "知行博客\n            Java开发代码实战，搜你所需，快速CV，早点下班～"
-      url: "https://zxalive.com/"
-    - name: "星系天文学\n            用生活的画笔绘制星空，用技术的光芒点亮夜空"
-      url: "https://www.xxtwx.com/"
-    - name: "张洪Heo\n            分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "希乐博客\n            总有人间人间一两风，吹我十万八千梦"
-      url: "https://blog.xlenco.top"
-    - name: "FunnyWii's Zone\n            算法攻城狮/皮具爱好者/摩托骑不倒/吉他能出声"
-      url: "https://funnywii.com"
-    - name: "慢慢懂の分享站\n            记录，分享。"
-      url: "https://blog.manmandong.top/"
-    - name: "Maverick的摄影日记\n            分享摄影，分享生活"
-      url: "https://redmou.com"
-    - name: "郭同学的笔记本\n            行己所爱，爱己所行"
-      url: "http://lovexl.top"
-    - name: "阿锦在线\n            记录生活点滴！"
-      url: "https://www.ajinol.com"
-    - name: "無.Flac\n            Indulge in Sound Effects"
-      url: "https://w-flac.org.cn/"
-    - name: "哈利の小屋\n            Java小白的进阶之路"
-      url: "https://blog.kangyaocoding.top"
-    - name: "WXY\n            工欲善其事，必先利其器"
-      url: "https://www.wxy97.com"
-    - name: "TASA-Ed官网\n            TASA-Ed工作室官网"
-      url: "https://www.tasaed.top"
-    - name: "pidanxia’ s Blog\n            一个有梦想的程序员～~"
-      url: "https://pidanxia.ink/"
-    - name: "顾梦\n            不想满心遗憾，那就全力以赴."
-      url: "https://blog.gumengyo.top"
-    - name: "LogDict\n            一个专注于记录, 分享, 学习的网站"
-      url: "https://www.logdict.com"
-    - name: "良的世界\n            忙点充实，闲点自在"
-      url: "https://www.lemonary.cn/"
-    - name: "WQG\n            A SIMPLE BLOG."
-      url: "https://wqg.life/"
-    - name: "zhyyao\n            记录和分享学习经验，永远保持一颗学徒之心。"
-      url: "https://zhyyao.me"
-    - name: "KEVIN'S BLOG\n            Kevin的博客"
-      url: "https://blog.kevinchu.top/"
-    - name: "南宫乘风\n            💻运维开发📝Devops技术🔗自动化"
-      url: "https://ownit.top/"
-    - name: "小林酱博客\n            小林酱博客-记录生活，专注于自媒体资源分享"
-      url: "https://blog.zxiaolin.com"
-    - name: "Liu Houliang\n            日常摸鱼，偶尔写go"
-      url: "https://liuhouliang.com"
-    - name: "橘智的安宁之地\n            共享博客&深度思考。"
-      url: "https://juzhiart.com"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "Liu Zijian"
-      url: "https://blog.liuzijian.com"
-    - name: "https://blog.zxiaolin.com/upload/humuziwt.png"
-      url: "https://blog.zxiaolin.com/upload/humuziwt.png"
-    - name: "https://blog.jiumoz.com//upload/logo.png"
-      url: "https://blog.jiumoz.com//upload/logo.png"
-    - name: "https://blog.jiumoz.com/rss.xml"
-      url: "https://blog.jiumoz.com/rss.xml"
-    - name: "https://blog.jiumoz.com/upload/logo.png"
-      url: "https://blog.jiumoz.com/upload/logo.png"
-    - name: "天渺studio"
-      url: "https://tianmiao.site"
-    - name: "https://tuchuang.boke.lu/博客录/2024年非生活类logo/天渺工作室.jpg"
-      url: "https://tuchuang.boke.lu/%E5%8D%9A%E5%AE%A2%E5%BD%95/2024%E5%B9%B4%E9%9D%9E%E7%94%9F%E6%B4%BB%E7%B1%BBlogo/%E5%A4%A9%E6%B8%BA%E5%B7%A5%E4%BD%9C%E5%AE%A4.jpg"
-    - name: "https://zhyyao.me/home/icon.png"
-      url: "https://zhyyao.me/home/icon.png"
-    - name: "https://cdn.wqg.life/common/logo.jpg"
-      url: "https://cdn.wqg.life/common/logo.jpg"
-    - name: "https://www.blogplanet.cn/"
-      url: "https://www.blogplanet.cn/"
-    - name: "https://www.blogplanet.cn/img/bkxq.png"
-      url: "https://www.blogplanet.cn/img/bkxq.png"
-    - name: "小码同学"
-      url: "https://blog.hikki.site"
-    - name: "https://bu.dusays.com/2022/11/04/636511250b21b.jpg"
-      url: "https://bu.dusays.com/2022/11/04/636511250b21b.jpg"
-    - name: "Unicorn"
-      url: "https://blog.unicornit.cn/"
-    - name: "Waline"
-      url: "https://github.com/walinejs/waline"
-    - name: "Fluid"
-      url: "https://github.com/fluid-dev/hexo-theme-fluid"
-    - name: "京ICP备2024061581号-1"
-      url: "http://beian.miit.gov.cn/"
-    - name: "|\n            \n          \n          京公网安备11010502058039号"
-      url: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502058039"
+'site':
+  'name': 'Liu Zijian'
+  'url': 'https://blog.liuzijian.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': "鸦鸦的巢穴
+
+        \            在乌鸦统治的世界里，洁白的羽毛是有罪的。"
+      'url': 'https://crowya.com'
+    - 'name': "九陌斋博客\n            每一条思想的道路都通向知识的繁华！"
+      'url': 'https://blog.jiumoz.com'
+    - 'name': "小小黑的个人小站\n            技术宅拯救世界"
+      'url': 'https://lonelyenderman.top/'
+    - 'name': "陶其的个人博客\n            当下，即是未来"
+      'url': 'https://www.tqazy.com'
+    - 'name': "iMaeGoo’s Blog\n            虹墨空间站"
+      'url': 'https://www.imaegoo.com'
+    - 'name': "echeverra
+
+        \            let's go, together!"
+      'url': 'https://echeverra.cn'
+    - 'name': "陈冬冬博客\n            欢迎到访陈冬冬的个人经验整理分享平台"
+      'url': 'https://www.chendd.cn'
+    - 'name': "故人随笔\n            寒江孤影，江湖故人"
+      'url': 'https://ifwww.com'
+    - 'name': "知行博客
+
+        \            Java开发代码实战，搜你所需，快速CV，早点下班～"
+      'url': 'https://zxalive.com/'
+    - 'name': "星系天文学
+
+        \            用生活的画笔绘制星空，用技术的光芒点亮夜空"
+      'url': 'https://www.xxtwx.com/'
+    - 'name': "张洪Heo\n            分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "希乐博客\n            总有人间人间一两风，吹我十万八千梦"
+      'url': 'https://blog.xlenco.top'
+    - 'name': "FunnyWii's Zone
+
+        \            算法攻城狮/皮具爱好者/摩托骑不倒/吉他能出声"
+      'url': 'https://funnywii.com'
+    - 'name': "慢慢懂の分享站\n            记录，分享。"
+      'url': 'https://blog.manmandong.top/'
+    - 'name': "Maverick的摄影日记\n            分享摄影，分享生活"
+      'url': 'https://redmou.com'
+    - 'name': "郭同学的笔记本\n            行己所爱，爱己所行"
+      'url': 'http://lovexl.top'
+    - 'name': "阿锦在线\n            记录生活点滴！"
+      'url': 'https://www.ajinol.com'
+    - 'name': "無.Flac
+
+        \            Indulge in Sound Effects"
+      'url': 'https://w-flac.org.cn/'
+    - 'name': "哈利の小屋\n            Java小白的进阶之路"
+      'url': 'https://blog.kangyaocoding.top'
+    - 'name': "WXY\n            工欲善其事，必先利其器"
+      'url': 'https://www.wxy97.com'
+    - 'name': "TASA-Ed官网\n            TASA-Ed工作室官网"
+      'url': 'https://www.tasaed.top'
+    - 'name': "pidanxia’ s Blog
+
+        \            一个有梦想的程序员～~"
+      'url': 'https://pidanxia.ink/'
+    - 'name': "顾梦\n            不想满心遗憾，那就全力以赴."
+      'url': 'https://blog.gumengyo.top'
+    - 'name': "LogDict
+
+        \            一个专注于记录, 分享, 学习的网站"
+      'url': 'https://www.logdict.com'
+    - 'name': "良的世界\n            忙点充实，闲点自在"
+      'url': 'https://www.lemonary.cn/'
+    - 'name': "WQG\n            A SIMPLE BLOG."
+      'url': 'https://wqg.life/'
+    - 'name': "zhyyao
+
+        \            记录和分享学习经验，永远保持一颗学徒之心。"
+      'url': 'https://zhyyao.me'
+    - 'name': "KEVIN'S BLOG\n            Kevin的博客"
+      'url': 'https://blog.kevinchu.top/'
+    - 'name': "南宫乘风
+
+        \            💻运维开发📝Devops技术🔗自动化"
+      'url': 'https://ownit.top/'
+    - 'name': "小林酱博客
+
+        \            小林酱博客-记录生活，专注于自媒体资源分享"
+      'url': 'https://blog.zxiaolin.com'
+    - 'name': "Liu Houliang\n            日常摸鱼，偶尔写go"
+      'url': 'https://liuhouliang.com'
+    - 'name': "橘智的安宁之地\n            共享博客&深度思考。"
+      'url': 'https://juzhiart.com'
+    - 'name': '天渺studio'
+      'url': 'https://tianmiao.site'
+    - 'name': '小码同学'
+      'url': 'https://blog.hikki.site'
+    - 'name': 'Unicorn'
+      'url': 'https://blog.unicornit.cn/'

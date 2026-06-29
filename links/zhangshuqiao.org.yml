@@ -1,26 +1,16 @@
-site:
-  name: "zhangshuqiao.org"
-  description: "友情链接"
-  url: "https://zhangshuqiao.org/"
-  links: "/friends"
-  friends:
-    - name: "GitHub → https://github.com/stevenjoezhang"
-      url: "https://github.com/stevenjoezhang"
-    - name: "Unsplash → https://unsplash.com/@stevenjoezhang"
-      url: "https://unsplash.com/@stevenjoezhang"
-    - name: "Zhihu → https://www.zhihu.com/people/zhang-shu-qiao-59"
-      url: "https://www.zhihu.com/people/zhang-shu-qiao-59"
-    - name: "bear's moon"
-      url: "https://xxyyue.com/"
-    - name: "ZSQ.IM"
-      url: "https://zsq.im/"
-    - name: "Three Body"
-      url: "https://earth.three-body.org/"
-    - name: "Hamilton Huaji"
-      url: "https://hamiltonhuaji.github.io/"
-    - name: "https://zhangshuqiao.org"
-      url: "https://zhangshuqiao.org/"
-    - name: "Hexo"
-      url: "https://hexo.io/"
-    - name: "NexT.Gemini"
-      url: "https://theme-next.js.org/"
+'site':
+  'name': 'zhangshuqiao.org'
+  'description': '友情链接'
+  'url': 'https://zhangshuqiao.org/'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Unsplash → https://unsplash.com/@stevenjoezhang'
+      'url': 'https://unsplash.com/@stevenjoezhang'
+    - 'name': 'bear''s moon'
+      'url': 'https://xxyyue.com/'
+    - 'name': 'ZSQ.IM'
+      'url': 'https://zsq.im/'
+    - 'name': 'Three Body'
+      'url': 'https://earth.three-body.org/'
+    - 'name': 'NexT.Gemini'
+      'url': 'https://theme-next.js.org/'

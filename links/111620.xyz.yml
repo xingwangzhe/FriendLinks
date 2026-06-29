@@ -1,82 +1,52 @@
-site:
-  name: "111620.xyz"
-  description: "友情链接"
-  url: "https://111620.xyz/"
-  links: "/friends"
-  friends:
-    - name: "摄影相册"
-      url: "https://111620.xyz/photography/"
-    - name: "薅薅羊毛"
-      url: "https://111620.xyz/wool/"
-    - name: "薅薅羊毛"
-      url: "https://111620.xyz/wool"
-    - name: "🐉Pro上车"
-      url: "https://pro.00337788.xyz"
-    - name: "🐇兔兔上车"
-      url: "https://biu.20001116.xyz"
-    - name: "我的分享"
-      url: "https://111620.xyz/share/"
-    - name: "😬神神叨叨"
-      url: "https://111620.xyz/hhh/"
-    - name: "📚阅读记录"
-      url: "https://111620.xyz/books/"
-    - name: "🎵音乐分享"
-      url: "https://111620.xyz/music/"
-    - name: "🎬观影感悟"
-      url: "https://111620.xyz/movie/"
-    - name: "文章分类"
-      url: "https://111620.xyz/posts/"
-    - name: "一起聊聊"
-      url: "https://111620.xyz/social/"
-    - name: "关于本站"
-      url: "https://111620.xyz/about/"
-    - name: "留言板板"
-      url: "https://111620.xyz/message/"
-    - name: "左邻右舍"
-      url: "https://111620.xyz/friends/"
-    - name: "Toggle website search"
-      url: "https://111620.xyz/#"
-    - name: "菜单\n\t\t\t\t关闭"
-      url: "https://111620.xyz/#mobile-menu-toggle"
-    - name: "https://img.111620.xyz/2025/07/29/6887b5efbf768.png"
-      url: "https://img.111620.xyz/2025/07/29/6887b5efbf768.png"
-    - name: "资源分享-新新好学\n        分享刷机、重装系统、各类实用工具的网站"
-      url: "https://www.212636.xyz"
-    - name: "Puo’s菜园子\n        Puo’s菜园子"
-      url: "http://puo.cn/"
-    - name: "Sun Blog\n        只有走在路上，才能摆脱局限，摆脱执着，让所有的选择、探寻、猜测、想象都生气勃勃"
-      url: "https://blog.csun.site/"
-    - name: "志夏の小破站\n       一个二次元技术宅"
-      url: "https://bok.zhixiaxia.top/"
-    - name: "Simon's Blog\n        编程和生活中的无聊碎碎念,一名喜欢摇滚的程序猿。"
-      url: "https://blog.glemon.cn"
-    - name: "Noospic Site\n        星露谷农民"
-      url: "https://blog.noospic.me/"
-    - name: "lurk\n        风吹哪页读哪页"
-      url: "https://633399.xyz/"
-    - name: "CC的博客\n    我们永不消逝！"
-      url: "https://main.791197.xyz/"
-    - name: "浮生闲记\n    以文字为舟，溯流时光之河"
-      url: "https://xsfly.com"
-    - name: "码字·兮\n    时间就是生命，Life is money，Money is time"
-      url: "https://blog.demius.tech/"
-    - name: "AsZero\n    大道至简 算理无边"
-      url: "https://nya.hiyun.top/"
-    - name: "春华秋实\n    无恙桃花，依然燕子，春景多别"
-      url: "https://linqiushi.top/"
-    - name: "红石の空间站\n    一个高中牲的小站"
-      url: "https://hongshi.qzz.io"
-    - name: "Oblique\n    一滩败草 一袖寒风"
-      url: "https://www.aspchang.com"
-    - name: "SumyBlog"
-      url: "https://sumygg.com/"
-    - name: "for_the_zero的小站\n        想要成为一个有趣的、厉害的、快乐的、善良的、……能被你记住的人"
-      url: "https://ftz.is-a.dev"
-    - name: "墨然\n        记录代码与生活的间隙"
-      url: "https://moran.cc.cd"
-    - name: "高新炀的小站\n        一个装着些稀奇古怪东西的个人小站，欢迎来逛逛~"
-      url: "https://xinyang-gao.github.io"
-    - name: "了解你的评论数据如何被处理"
-      url: "https://akismet.com/privacy/"
-    - name: "口袋分享记"
-      url: "https://111620.xyz"
+'site':
+  'name': '111620.xyz'
+  'description': '友情链接'
+  'url': 'https://111620.xyz/'
+  'links': '/friends'
+  'friends':
+    - 'name': '🐉Pro上车'
+      'url': 'https://pro.00337788.xyz'
+    - 'name': '🐇兔兔上车'
+      'url': 'https://biu.20001116.xyz'
+    - 'name': "Puo’s菜园子\n        Puo’s菜园子"
+      'url': 'http://puo.cn/'
+    - 'name': "Sun Blog
+
+        \        只有走在路上，才能摆脱局限，摆脱执着，让所有的选择、探寻、猜测、想象都生气勃勃"
+      'url': 'https://blog.csun.site/'
+    - 'name': "志夏の小破站\n       一个二次元技术宅"
+      'url': 'https://bok.zhixiaxia.top/'
+    - 'name': "Simon's Blog
+
+        \        编程和生活中的无聊碎碎念,一名喜欢摇滚的程序猿。"
+      'url': 'https://blog.glemon.cn'
+    - 'name': "Noospic Site\n        星露谷农民"
+      'url': 'https://blog.noospic.me/'
+    - 'name': "lurk\n        风吹哪页读哪页"
+      'url': 'https://633399.xyz/'
+    - 'name': "CC的博客\n    我们永不消逝！"
+      'url': 'https://main.791197.xyz/'
+    - 'name': "浮生闲记\n    以文字为舟，溯流时光之河"
+      'url': 'https://xsfly.com'
+    - 'name': "码字·兮
+
+        \    时间就是生命，Life is money，Money is time"
+      'url': 'https://blog.demius.tech/'
+    - 'name': "AsZero\n    大道至简 算理无边"
+      'url': 'https://nya.hiyun.top/'
+    - 'name': "春华秋实\n    无恙桃花，依然燕子，春景多别"
+      'url': 'https://linqiushi.top/'
+    - 'name': "红石の空间站\n    一个高中牲的小站"
+      'url': 'https://hongshi.qzz.io'
+    - 'name': "Oblique\n    一滩败草 一袖寒风"
+      'url': 'https://www.aspchang.com'
+    - 'name': 'SumyBlog'
+      'url': 'https://sumygg.com/'
+    - 'name': "for_the_zero的小站
+
+        \        想要成为一个有趣的、厉害的、快乐的、善良的、……能被你记住的人"
+      'url': 'https://ftz.is-a.dev'
+    - 'name': "墨然\n        记录代码与生活的间隙"
+      'url': 'https://moran.cc.cd'
+    - 'name': '了解你的评论数据如何被处理'
+      'url': 'https://akismet.com/privacy/'

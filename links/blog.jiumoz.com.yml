@@ -1,12 +1,8 @@
-site:
-  name: "九陌斋"
-  url: "https://blog.jiumoz.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "AI产品狗"
-      url: "https://aipmgo.com/"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "渝ICP备2023008438号-1"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': '九陌斋'
+  'url': 'https://blog.jiumoz.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'AI产品狗'
+      'url': 'https://aipmgo.com/'

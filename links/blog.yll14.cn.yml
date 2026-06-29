@@ -1,36 +1,48 @@
-site:
-  name: "blog.yll14.cn"
-  description: "友情链接"
-  url: "https://blog.yll14.cn/"
-  links: "/link"
-  friends:
-    - name: "清羽飞扬\n      \n      清羽飞扬\n      柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
-      url: "https://blog.liushen.fun/"
-    - name: "拥抱日出的小屋\n      \n      拥抱日出的小屋\n      拥抱日出，也拥抱生活"
-      url: "https://ybrc.byside.top/"
-    - name: "朽丘秋雨\n      \n      朽丘秋雨\n      一定会和喜欢的人在夏日夜晚牵手慢步"
-      url: "https://koxiuqiu.cn/"
-    - name: "fishcpy的小破站\n      \n      fishcpy的小破站\n      非淡泊无以明志，非宁静无以致远"
-      url: "https://blog.fis.ink"
-    - name: "花生莲子粥\n      \n      花生莲子粥\n      与世无争，不染于泥"
-      url: "https://blog.hslzz.cn/"
-    - name: "花生莲子粥"
-      url: "https://blog.hslzz.cn"
-    - name: "https://hslzz.cn/assets/img/favicon.png"
-      url: "https://hslzz.cn/assets/img/favicon.png"
-    - name: "https://blog.hslzz.cn/atom.xml"
-      url: "https://blog.hslzz.cn/atom.xml"
-    - name: "https://blog.hslzz.cn/rss2.xml"
-      url: "https://blog.hslzz.cn/rss2.xml"
-    - name: "桉南"
-      url: "https://blog.yll14.cn"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Github"
-      url: "https://github.com/yll14"
-    - name: "QQ"
-      url: "https://wpa.qq.com/msgrd?v=3&uin=2443958507&site=qq&menu=yes"
-    - name: "赣ICP备2025061952号"
-      url: "https://beian.miit.gov.cn/"
-    - name: "赣公网安备36072702000240号"
-      url: "https://beian.mps.gov.cn/#/query/webSearch?code=36072702000240"
+'site':
+  'name': 'blog.yll14.cn'
+  'description': '友情链接'
+  'url': 'https://blog.yll14.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': "清羽飞扬
+
+        \     \ 
+
+        \      清羽飞扬
+
+        \      柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
+      'url': 'https://blog.liushen.fun/'
+    - 'name': "拥抱日出的小屋
+
+        \     \ 
+
+        \      拥抱日出的小屋
+
+        \      拥抱日出，也拥抱生活"
+      'url': 'https://ybrc.byside.top/'
+    - 'name': "朽丘秋雨
+
+        \     \ 
+
+        \      朽丘秋雨
+
+        \      一定会和喜欢的人在夏日夜晚牵手慢步"
+      'url': 'https://koxiuqiu.cn/'
+    - 'name': "fishcpy的小破站
+
+        \     \ 
+
+        \      fishcpy的小破站
+
+        \      非淡泊无以明志，非宁静无以致远"
+      'url': 'https://blog.fis.ink'
+    - 'name': "花生莲子粥
+
+        \     \ 
+
+        \      花生莲子粥
+
+        \      与世无争，不染于泥"
+      'url': 'https://blog.hslzz.cn/'
+    - 'name': '花生莲子粥'
+      'url': 'https://blog.hslzz.cn'

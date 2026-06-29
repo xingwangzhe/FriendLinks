@@ -1,102 +1,80 @@
-site:
-  name: "钧言极客"
-  url: "https://jinjun.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "钧言极客"
-      url: "https://www.jinjun.top/"
-    - name: "文章"
-      url: "https://www.jinjun.top/posts/"
-    - name: "朋友"
-      url: "https://www.jinjun.top/links/"
-    - name: "钧言极客记录生活、爱好学习、不爱折腾"
-      url: "https://www.jinjun.top"
-    - name: "极客乐趣不断学习、探索、创新"
-      url: "https://www.boke.fun"
-    - name: "心语难诉生活不止眼前的苟且，还有诗和远方！"
-      url: "https://xinyu19.com"
-    - name: "小俊博客不断学习、探索、创新"
-      url: "https://www.smalljun.com"
-    - name: "peachRL的小站万亿及秭"
-      url: "https://wanyijizi.com"
-    - name: "团团生活志爱生活 爱分享"
-      url: "https://t-t.live/"
-    - name: "城南旧事另一个平行世界的生活"
-      url: "https://els.cc/"
-    - name: "目的地-Destination前程似锦、未来可期、寻得良人、共赴白头，祝你也祝我。"
-      url: "https://chrison.cn/"
-    - name: "风记星辰热爱你来过的每一份温度"
-      url: "https://www.thyuu.com/"
-    - name: "荒野孤灯荒野中的一盏孤灯，照亮夜里依然前行的人们!"
-      url: "https://www.80srz.com"
-    - name: "懋和道人李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。"
-      url: "https://www.dao.js.cn/"
-    - name: "倾城于你一个热爱分享的Typecho小站。"
-      url: "https://qninq.cn/"
-    - name: "iNetech Blog凡心所向，素履所往"
-      url: "https://blog.udp0.com/"
-    - name: "颔首的博客颔首的博客 天曾缺掉的角,无非此等神采"
-      url: "https://www.38blog.com"
-    - name: "十三的小站分享生活中的趣事"
-      url: "https://www.123bk.cn/"
-    - name: "CrantPersonal Blog"
-      url: "https://www.crant.cn/"
-    - name: "柒柒blog代码写的好不好，我DEBUG一下就知道了。"
-      url: "https://blog.lwgzs.cn/"
-    - name: "青桔气球分享网络安全与科技生活"
-      url: "https://blog.qjqq.cn/"
-    - name: "梦爱吃鱼但愿日子清静抬头遇见的满是柔情"
-      url: "https://blog.bsgun.cn/"
-    - name: "Spark’s Blog星星之火，可以燎原。"
-      url: "https://www.aspark.cc"
-    - name: "一粒微尘撷光以望，纳星于瞳"
-      url: "https://blog.667408.xyz"
-    - name: "葱苓samaDo not worry, just be happy."
-      url: "https://blog.ciraos.top"
-    - name: "胜天半子事已至此，先吃饭吧😋"
-      url: "https://blog.291055.xyz/"
-    - name: "XingJiのBlog迄今所有人生都大写着失败，但不妨碍我继续向前✨"
-      url: "https://love.xingji.fun/%3e"
-    - name: "阿飞博客一个热爱书法的电脑爱好者！"
-      url: "https://www.liaao.cn"
-    - name: "云端日志百事如意轻歌扬,岁月风雨成器长."
-      url: "https://57767.top"
-    - name: "❖星港◎Star☆以博客记录生活与热爱！"
-      url: "https://blog.starsharbor.com"
-    - name: "蒙需记录生活与热爱！"
-      url: "https://jiangcl.com/"
-    - name: "叶泯希意义是自己赐予的"
-      url: "https://blog.418121.xyz"
-    - name: "LogDict一个专注于记录, 分享, 学习的网站"
-      url: "https://www.logdict.com"
-    - name: "陵长镜Everything collapses, but you rise."
-      url: "https://r1n.top"
-    - name: "清羽飞扬柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
-      url: "https://blog.liushen.fun/"
-    - name: "陶小桃Blog热衷于分享日常和技术的机械专业小哥哥~"
-      url: "https://www.52txr.cn"
-    - name: "江一铭一个读书人"
-      url: "https://jiangsihan.cn/"
-    - name: "Pinpe的云端一个属于自己的云朵。"
-      url: "https://pinpe.top/"
-    - name: "乙未极客记录生活分享与留存。"
-      url: "https://www.yvii.cn/"
-    - name: "东东博客城市与信仰"
-      url: "https://nihaha.com/"
-    - name: "十年之约一个人的寂寞，一群人的狂欢。"
-      url: "https://www.foreverblog.cn/"
-    - name: "博友圈博友圈是博客人的专属朋友圈，连接还在写博的博友，让那属于文字的时代延续光辉！"
-      url: "https://www.boyouquan.com/home"
-    - name: "中文博客列表尝试链接几乎所有的中文博客"
-      url: "https://zhblogs.ohyee.cc/"
-    - name: "开往开往 Travellings"
-      url: "https://www.travellings.cn/go.html"
-    - name: "Hugo"
-      url: "https://gohugo.io/"
-    - name: "PaperMod"
-      url: "https://github.com/adityatelange/hugo-PaperMod/"
-    - name: "粤ICP备16101751号"
-      url: "https://beian.miit.gov.cn/"
-    - name: "粤公网安备44090202000424号"
-      url: "http://www.beian.gov.cn/portal/registerSystemInfo"
+'site':
+  'name': '钧言极客'
+  'url': 'https://jinjun.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '极客乐趣不断学习、探索、创新'
+      'url': 'https://www.boke.fun'
+    - 'name': '心语难诉生活不止眼前的苟且，还有诗和远方！'
+      'url': 'https://xinyu19.com'
+    - 'name': '小俊博客不断学习、探索、创新'
+      'url': 'https://www.smalljun.com'
+    - 'name': 'peachRL的小站万亿及秭'
+      'url': 'https://wanyijizi.com'
+    - 'name': '团团生活志爱生活 爱分享'
+      'url': 'https://t-t.live/'
+    - 'name': '城南旧事另一个平行世界的生活'
+      'url': 'https://els.cc/'
+    - 'name': '目的地-Destination前程似锦、未来可期、寻得良人、共赴白头，祝你也祝我。'
+      'url': 'https://chrison.cn/'
+    - 'name': '风记星辰热爱你来过的每一份温度'
+      'url': 'https://www.thyuu.com/'
+    - 'name': '荒野孤灯荒野中的一盏孤灯，照亮夜里依然前行的人们!'
+      'url': 'https://www.80srz.com'
+    - 'name': '懋和道人李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。'
+      'url': 'https://www.dao.js.cn/'
+    - 'name': '倾城于你一个热爱分享的Typecho小站。'
+      'url': 'https://qninq.cn/'
+    - 'name': 'iNetech Blog凡心所向，素履所往'
+      'url': 'https://blog.udp0.com/'
+    - 'name': '颔首的博客颔首的博客 天曾缺掉的角,无非此等神采'
+      'url': 'https://www.38blog.com'
+    - 'name': '十三的小站分享生活中的趣事'
+      'url': 'https://www.123bk.cn/'
+    - 'name': 'CrantPersonal Blog'
+      'url': 'https://www.crant.cn/'
+    - 'name': '柒柒blog代码写的好不好，我DEBUG一下就知道了。'
+      'url': 'https://blog.lwgzs.cn/'
+    - 'name': '青桔气球分享网络安全与科技生活'
+      'url': 'https://blog.qjqq.cn/'
+    - 'name': '梦爱吃鱼但愿日子清静抬头遇见的满是柔情'
+      'url': 'https://blog.bsgun.cn/'
+    - 'name': 'Spark’s Blog星星之火，可以燎原。'
+      'url': 'https://www.aspark.cc'
+    - 'name': '一粒微尘撷光以望，纳星于瞳'
+      'url': 'https://blog.667408.xyz'
+    - 'name': '葱苓samaDo not worry, just be happy.'
+      'url': 'https://blog.ciraos.top'
+    - 'name': '胜天半子事已至此，先吃饭吧😋'
+      'url': 'https://blog.291055.xyz/'
+    - 'name': 'XingJiのBlog迄今所有人生都大写着失败，但不妨碍我继续向前✨'
+      'url': 'https://love.xingji.fun/%3e'
+    - 'name': '阿飞博客一个热爱书法的电脑爱好者！'
+      'url': 'https://www.liaao.cn'
+    - 'name': '云端日志百事如意轻歌扬,岁月风雨成器长.'
+      'url': 'https://57767.top'
+    - 'name': '❖星港◎Star☆以博客记录生活与热爱！'
+      'url': 'https://blog.starsharbor.com'
+    - 'name': '蒙需记录生活与热爱！'
+      'url': 'https://jiangcl.com/'
+    - 'name': '叶泯希意义是自己赐予的'
+      'url': 'https://blog.418121.xyz'
+    - 'name': 'LogDict一个专注于记录, 分享, 学习的网站'
+      'url': 'https://www.logdict.com'
+    - 'name': '陵长镜Everything collapses, but you rise.'
+      'url': 'https://r1n.top'
+    - 'name': '清羽飞扬柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜'
+      'url': 'https://blog.liushen.fun/'
+    - 'name': '陶小桃Blog热衷于分享日常和技术的机械专业小哥哥~'
+      'url': 'https://www.52txr.cn'
+    - 'name': '江一铭一个读书人'
+      'url': 'https://jiangsihan.cn/'
+    - 'name': 'Pinpe的云端一个属于自己的云朵。'
+      'url': 'https://pinpe.top/'
+    - 'name': '乙未极客记录生活分享与留存。'
+      'url': 'https://www.yvii.cn/'
+    - 'name': '东东博客城市与信仰'
+      'url': 'https://nihaha.com/'
+    - 'name': '中文博客列表尝试链接几乎所有的中文博客'
+      'url': 'https://zhblogs.ohyee.cc/'

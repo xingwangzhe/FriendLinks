@@ -1,18 +1,10 @@
-site:
-  name: "slowsail.top"
-  description: "友情链接"
-  url: "https://slowsail.top/"
-  links: "/link"
-  friends:
-    - name: "Hexo快速、簡單且強大的網誌框架"
-      url: "https://hexo.io/zh-tw/"
-    - name: "贰猹的小窝用这生命中的每一秒，给自己一个不后悔的未来"
-      url: "https://noionion.top/"
-    - name: "Follow Me"
-      url: "https://github.com/xxxxxx"
-    - name: "Github"
-      url: "https://github.com/SlowSailKnowNothing"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
+'site':
+  'name': 'slowsail.top'
+  'description': '友情链接'
+  'url': 'https://slowsail.top/'
+  'links': '/link'
+  'friends':
+    - 'name': 'Hexo快速、簡單且強大的網誌框架'
+      'url': 'https://hexo.io/zh-tw/'
+    - 'name': '贰猹的小窝用这生命中的每一秒，给自己一个不后悔的未来'
+      'url': 'https://noionion.top/'

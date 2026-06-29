@@ -1,18 +1,8 @@
-site:
-  name: "猫普"
-  url: "https://maplezz.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "https://maplezz.com/favicon/avatar.webp"
-      url: "https://maplezz.com/favicon/avatar.webp"
-    - name: "https://maplezz.com/rss.xml"
-      url: "https://maplezz.com/rss.xml"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "萌ICP备20258066号"
-      url: "https://icp.gov.moe/?keyword=20258066"
-    - name: "小红书"
-      url: "https://www.xiaohongshu.com/user/profile/5cfa99580000000010025d89?xsec_token=YBit33q6A9osu2LXbFCL9K00-5t3PhXlSZomFTnBhzuRY=&xsec_source=app_share&xhsshare=CopyLink&appuid=5cfa99580000000010025d89&apptime=1753068592&share_id=03158ede13ef4050b7503171ea7d972a"
-    - name: "GitHub"
-      url: "https://github.com/maplezzzzzz/MapleBlog"
+'site':
+  'name': '猫普'
+  'url': 'https://maplezz.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '小红书'
+      'url': 'https://www.xiaohongshu.com/user/profile/5cfa99580000000010025d89?xsec_token=YBit33q6A9osu2LXbFCL9K00-5t3PhXlSZomFTnBhzuRY=&xsec_source=app_share&xhsshare=CopyLink&appuid=5cfa99580000000010025d89&apptime=1753068592&share_id=03158ede13ef4050b7503171ea7d972a'

@@ -1,184 +1,166 @@
-site:
-  name: Pinpe 的云端
-  description: 一个属于自己的云朵
-  url: https://pinpe.top
-  links: /links
-  friends:
-    - name: 幽默的小刘吖
-      url: https://blog.lzch.top
-    - name: dpkg123 的小站
-      url: https://dpkg123.top/
-    - name: 老 T 博客
-      url: https://lawtee.com
-    - name: 千百度
-      url: https://blog.qaiu.top
-    - name: AULyPc の Blog
-      url: https://blog.aulypc0x0.online
-    - name: iVampireSP 的物语
-      url: https://ivampiresp.com
-    - name: Kegongteng
-      url: https://kegongteng.cn/
-    - name: I’m Luochancy
-      url: https://www.luochancy.com
-    - name: 轻风 blog
-      url: https://www.qingfengnb.cn/
-    # - name: 久流的个人小站
-    #   url: https://jiuliu.top/
-    - name: KEKKJ BLOG
-      url: https://kekkj123.github.io/
-    - name: 笔记星球
-      url: https://note-star.cn/
-    - name: fishcpy 的小破站
-      url: https://blog.fis.ink
-    # - name: 吴先生の博客
-    #   url: https://blog.ecylt.top/yllb.html
-    - name: 苏阳 Twisuki
-      url: https://twis.uk
-    - name: mei 的网络日志
-      url: https://mei.lv
-    - name: Casear 的技术栈
-      url: https://casear.net
-    - name: Silvaire's Blog
-      url: https://qwq.blue/
-    - name: 姓王者的博客
-      url: https://xingwangzhe.fun/
-    - name: 秋实 - Allenyou 的小窝
-      url: https://www.allenyou.wang/
-    - name: 远野千束的个人主页
-      url: https://blog.sfkm.me/
-    - name: Santisify
-      url: https://santisify.top/
-    - name: LineXic 书屋
-      url: https://www.linexic.top
-    - name: 语景小站
-      url: https://rainview.net/
-    - name: 木锦棉棉の小窝
-      url: https://blog.mjmm.top
-    - name: 绘星里
-      url: https://blog.storical.fun/
-    # - name: 365 云栈
-    #   url: https://blog.365sites.top/
-    - name: zhu's blog
-      url: https://zhu.happy365.day
-    - name: 墨泽
-      url: https://blog.imzy.ink/
-    - name: Hsu Yeung 的博客
-      url: https://www.hsuyeung.com
-    - name: 路何求|创想工坊
-      url: https://www.luheqiu.com
-    - name: Bleaz's Blog
-      url: https://blog.bleaz.net/
-    - name: LeonXie の小窝
-      url: https://www.leonxie.cn
-    - name: 雨雪冰屋
-      url: https://iamyukino.cn/
-    # - name: 天翔 TNXG の自留地
-    #   url: https://tnxg.top/friends
-    - name: Lanke's blog
-      url: https://blog.blueke.top/
-    - name: 良的世界
-      url: https://www.lemonary.cn/
-    - name: Ryan's 家门口 📢
-      url: https://teleblog.ryanyuan.top/
-    - name: Angine’s blog
-      url: https://angine.tech/
-    - name: 陈陈菌博客
-      url: https://blog.glumi.cn/
-    - name: 钧言极客
-      url: https://www.jinjun.top
-    - name: voyage200 的博客
-      url: https://blog.voyage200.top/
-    - name: 又睡过了黎明
-      url: https://eu7.cn/
-    - name: 冰糖 xh 的秘密基地
-      url: https://www.bingtangxh.moe/
-    - name: Zyx 的小窝
-      url: https://www.dorazhang.cn/
-    - name: 开源大数据驿站
-      url: https://blog.kpretty.tech/
-    - name: Glimmer
-      url: https://i.duckxu.com
-    - name: 洛屿的小站
-      url: https://www.drluo.top/
-    - name: Xeonzilla’s Note
-      url: https://xeonzilla.top/
-    - name: 雪球 Bqiu 的小破站
-      url: https://www.bqiu.top
-    - name: 狐狸反走矣
-      url: https://blog.southfox.me/
-    - name: LYEy_isine 个人博客
-      url: https://caiyifeng.top
-    - name: 柏荟的桃源
-      url: http://baihuiblog.top/
-    - name: 世上云川
-      url: https://blog.ssyc.me
-    - name: Oyiso's Blog
-      url: https://oyiso.cn
-    - name: 薄荷の小屋
-      url: https://www.hoshiroko.com
-    - name: VnYzm 的博客
-      url: https://vnyzm.top
-    - name: 纱雾の闺房 - 不可进入の房间
-      url: https://blog.dragon1573.wang/
-    # - name: SSR - FF 摄影📸
-    #   url: https://pic.ffnb.top
-    - name: 陵长镜
-      url: https://r1n.top
-    - name: 狐言
-      url: https://blog.dukefox.com/
-    # - name: EastWind
-    #   url: https://blog.1wind.cn/
-    - name: Magma Ink
-      url: https://magma.ink/
-    - name: Ariasaka の小窝
-      url: https://blog.yaria.top
-    - name: 哈冬猪的小站
-      url: https://hadongzhu.com
-    - name: 葱苓小筑
-      url: https://blog.ciraos.top/
-    - name: ImQi1 / 棋
-      url: https://imqi1.com
-    - name: Emnasop Blog
-      url: https://emnasop.cn/
-    - name: 一只辣鸡鹅🐧の窝
-      url: https://blog.conoha.vip/
-    - name: 小城寒风
-      url: https://blog.atago.moe
-    - name: bbb-lsy07
-      url: https://blog.6uu.us/
-    - name: qlAD
-      url: https://www.qladgk.com/
-    - name: Momo5418's Blog
-      url: https://blog.mocn.top
-    - name: 伞菌の博客
-      url: https://umb.ink
-    - name: Mayx 的博客
-      url: https://mabbs.github.io/
-    - name: 寒夏摸鱼站
-      url: https://blog.rainiar.top
-    - name: 栖童の小站
-      url: https://blog.linux-qitong.top
-    - name: 樹海サライ 或 JUKAI.SITE
-      url: https://jukai.site/
-    - name: Wcowin's Blog
-      url: https://wcowin.work/
-    - name: 希乐博客
-      url: https://blog.xlenco.top/
-    - name: peachRL 的小站
-      url: https://wanyijizi.com
-    - name: Tiger の小窝
-      url: https://tigercoder.top/
-    - name: 路明笔记
-      url: https://luming.cool
-    - name: shenlyy 的存档点
-      url: https://blog.shenley.cn/
-    - name: xyx404's blog
-      url: https://xyx404.github.io/
-    - name: Q2019.NET
-      url: https://blog.q2019.net
-    - name: 纸鹿摸鱼处
-      url: https://blog.zhilu.cyou/
-    - name: 朱某的生活印记
-      url: https://zhuxu.asia/
-    - name: MC_Kero
-      url: https://blog.mckero.com/
+'site':
+  'name': 'Pinpe 的云端'
+  'description': '一个属于自己的云朵'
+  'url': 'https://pinpe.top'
+  'links': '/links'
+  'friends':
+    - 'name': '幽默的小刘吖'
+      'url': 'https://blog.lzch.top'
+    - 'name': 'dpkg123 的小站'
+      'url': 'https://dpkg123.top/'
+    - 'name': '老 T 博客'
+      'url': 'https://lawtee.com'
+    - 'name': '千百度'
+      'url': 'https://blog.qaiu.top'
+    - 'name': 'AULyPc の Blog'
+      'url': 'https://blog.aulypc0x0.online'
+    - 'name': 'iVampireSP 的物语'
+      'url': 'https://ivampiresp.com'
+    - 'name': 'Kegongteng'
+      'url': 'https://kegongteng.cn/'
+    - 'name': 'I’m Luochancy'
+      'url': 'https://www.luochancy.com'
+    - 'name': '轻风 blog'
+      'url': 'https://www.qingfengnb.cn/'
+    - 'name': '笔记星球'
+      'url': 'https://note-star.cn/'
+    - 'name': 'fishcpy 的小破站'
+      'url': 'https://blog.fis.ink'
+    - 'name': '苏阳 Twisuki'
+      'url': 'https://twis.uk'
+    - 'name': 'mei 的网络日志'
+      'url': 'https://mei.lv'
+    - 'name': 'Casear 的技术栈'
+      'url': 'https://casear.net'
+    - 'name': 'Silvaire''s Blog'
+      'url': 'https://qwq.blue/'
+    - 'name': '姓王者的博客'
+      'url': 'https://xingwangzhe.fun/'
+    - 'name': '秋实 - Allenyou 的小窝'
+      'url': 'https://www.allenyou.wang/'
+    - 'name': '远野千束的个人主页'
+      'url': 'https://blog.sfkm.me/'
+    - 'name': 'Santisify'
+      'url': 'https://santisify.top/'
+    - 'name': 'LineXic 书屋'
+      'url': 'https://www.linexic.top'
+    - 'name': '语景小站'
+      'url': 'https://rainview.net/'
+    - 'name': '木锦棉棉の小窝'
+      'url': 'https://blog.mjmm.top'
+    - 'name': '绘星里'
+      'url': 'https://blog.storical.fun/'
+    - 'name': 'zhu''s blog'
+      'url': 'https://zhu.happy365.day'
+    - 'name': '墨泽'
+      'url': 'https://blog.imzy.ink/'
+    - 'name': 'Hsu Yeung 的博客'
+      'url': 'https://www.hsuyeung.com'
+    - 'name': '路何求|创想工坊'
+      'url': 'https://www.luheqiu.com'
+    - 'name': 'Bleaz''s Blog'
+      'url': 'https://blog.bleaz.net/'
+    - 'name': 'LeonXie の小窝'
+      'url': 'https://www.leonxie.cn'
+    - 'name': '雨雪冰屋'
+      'url': 'https://iamyukino.cn/'
+    - 'name': 'Lanke''s blog'
+      'url': 'https://blog.blueke.top/'
+    - 'name': '良的世界'
+      'url': 'https://www.lemonary.cn/'
+    - 'name': 'Ryan''s 家门口 📢'
+      'url': 'https://teleblog.ryanyuan.top/'
+    - 'name': 'Angine’s blog'
+      'url': 'https://angine.tech/'
+    - 'name': '陈陈菌博客'
+      'url': 'https://blog.glumi.cn/'
+    - 'name': '钧言极客'
+      'url': 'https://www.jinjun.top'
+    - 'name': 'voyage200 的博客'
+      'url': 'https://blog.voyage200.top/'
+    - 'name': '又睡过了黎明'
+      'url': 'https://eu7.cn/'
+    - 'name': '冰糖 xh 的秘密基地'
+      'url': 'https://www.bingtangxh.moe/'
+    - 'name': 'Zyx 的小窝'
+      'url': 'https://www.dorazhang.cn/'
+    - 'name': '开源大数据驿站'
+      'url': 'https://blog.kpretty.tech/'
+    - 'name': 'Glimmer'
+      'url': 'https://i.duckxu.com'
+    - 'name': '洛屿的小站'
+      'url': 'https://www.drluo.top/'
+    - 'name': 'Xeonzilla’s Note'
+      'url': 'https://xeonzilla.top/'
+    - 'name': '雪球 Bqiu 的小破站'
+      'url': 'https://www.bqiu.top'
+    - 'name': '狐狸反走矣'
+      'url': 'https://blog.southfox.me/'
+    - 'name': 'LYEy_isine 个人博客'
+      'url': 'https://caiyifeng.top'
+    - 'name': '柏荟的桃源'
+      'url': 'http://baihuiblog.top/'
+    - 'name': '世上云川'
+      'url': 'https://blog.ssyc.me'
+    - 'name': 'Oyiso''s Blog'
+      'url': 'https://oyiso.cn'
+    - 'name': '薄荷の小屋'
+      'url': 'https://www.hoshiroko.com'
+    - 'name': 'VnYzm 的博客'
+      'url': 'https://vnyzm.top'
+    - 'name': '纱雾の闺房 - 不可进入の房间'
+      'url': 'https://blog.dragon1573.wang/'
+    - 'name': '陵长镜'
+      'url': 'https://r1n.top'
+    - 'name': '狐言'
+      'url': 'https://blog.dukefox.com/'
+    - 'name': 'Magma Ink'
+      'url': 'https://magma.ink/'
+    - 'name': 'Ariasaka の小窝'
+      'url': 'https://blog.yaria.top'
+    - 'name': '哈冬猪的小站'
+      'url': 'https://hadongzhu.com'
+    - 'name': '葱苓小筑'
+      'url': 'https://blog.ciraos.top/'
+    - 'name': 'ImQi1 / 棋'
+      'url': 'https://imqi1.com'
+    - 'name': 'Emnasop Blog'
+      'url': 'https://emnasop.cn/'
+    - 'name': '一只辣鸡鹅🐧の窝'
+      'url': 'https://blog.conoha.vip/'
+    - 'name': '小城寒风'
+      'url': 'https://blog.atago.moe'
+    - 'name': 'bbb-lsy07'
+      'url': 'https://blog.6uu.us/'
+    - 'name': 'qlAD'
+      'url': 'https://www.qladgk.com/'
+    - 'name': 'Momo5418''s Blog'
+      'url': 'https://blog.mocn.top'
+    - 'name': '伞菌の博客'
+      'url': 'https://umb.ink'
+    - 'name': '寒夏摸鱼站'
+      'url': 'https://blog.rainiar.top'
+    - 'name': '栖童の小站'
+      'url': 'https://blog.linux-qitong.top'
+    - 'name': '樹海サライ 或 JUKAI.SITE'
+      'url': 'https://jukai.site/'
+    - 'name': 'Wcowin''s Blog'
+      'url': 'https://wcowin.work/'
+    - 'name': '希乐博客'
+      'url': 'https://blog.xlenco.top/'
+    - 'name': 'peachRL 的小站'
+      'url': 'https://wanyijizi.com'
+    - 'name': 'Tiger の小窝'
+      'url': 'https://tigercoder.top/'
+    - 'name': '路明笔记'
+      'url': 'https://luming.cool'
+    - 'name': 'shenlyy 的存档点'
+      'url': 'https://blog.shenley.cn/'
+    - 'name': 'Q2019.NET'
+      'url': 'https://blog.q2019.net'
+    - 'name': '纸鹿摸鱼处'
+      'url': 'https://blog.zhilu.cyou/'
+    - 'name': '朱某的生活印记'
+      'url': 'https://zhuxu.asia/'
+    - 'name': 'MC_Kero'
+      'url': 'https://blog.mckero.com/'

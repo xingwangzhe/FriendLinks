@@ -1,58 +1,28 @@
-site:
-  name: "yukliu.cn"
-  description: "友情链接"
-  url: "https://yukliu.cn/"
-  links: "/link"
-  friends:
-    - name: "博客"
-      url: "https://yukliu.cn/"
-    - name: "Web3.0博客"
-      url: "https://yukliu.xlog.app/"
-    - name: "安知鱼图床"
-      url: "https://image.anheyu.com/"
-    - name: "安知鱼生活明朗，万物可爱"
-      url: "https://blog.anheyu.com/"
-    - name: "zhiyb三星芯片设计师"
-      url: "http://zhiyb.github.io/#"
-    - name: "张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "小植同学生生不息，好运不止"
-      url: "https://blog.xiaoztx.top"
-    - name: "张子涵的博客今下把酒同一醉，明日即是天涯人。"
-      url: "https://zhangzihan0.github.io/"
-    - name: "葱苓Dare && Do"
-      url: "https://blog.itciraos.cn"
-    - name: "铭心石刻愿岁并谢，与友长兮"
-      url: "https://blog.kouseki.cn/"
-    - name: "Leonus进一寸有进一寸的欢喜。"
-      url: "https://blog.leonus.cn/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "微博"
-      url: "https://weibo.com/u/3254778247"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/14452840"
-    - name: "站酷"
-      url: "https://www.zcool.com.cn/u/17129490"
-    - name: "Behance"
-      url: "https://www.behance.net/2449533867814b"
-    - name: "Pinterest"
-      url: "https://www.pinterest.com/yk10131123/"
-    - name: "51la统计"
-      url: "https://v6.51.la/"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/"
-    - name: "开往"
-      url: "https://github.com/travellings-link/travellings"
-    - name: "源码"
-      url: "https://github.com/anzhiyu-c/hexo-theme-anzhiyu"
-    - name: "博客框架为Hexo"
-      url: "https://hexo.io/"
-    - name: "本站使用又拍云为静态资源提供CDN加速"
-      url: "https://www.upyun.com/"
-    - name: "本站已在京进行备案"
-      url: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502052996"
-    - name: "萌ICP备-20233101"
-      url: "https://icp.gov.moe/?keyword=20233101"
-    - name: "京ICP备2023017403号-1"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'yukliu.cn'
+  'description': '友情链接'
+  'url': 'https://yukliu.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': 'Web3.0博客'
+      'url': 'https://yukliu.xlog.app/'
+    - 'name': '安知鱼生活明朗，万物可爱'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '张洪Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '小植同学生生不息，好运不止'
+      'url': 'https://blog.xiaoztx.top'
+    - 'name': '葱苓Dare && Do'
+      'url': 'https://blog.itciraos.cn'
+    - 'name': '铭心石刻愿岁并谢，与友长兮'
+      'url': 'https://blog.kouseki.cn/'
+    - 'name': 'Leonus进一寸有进一寸的欢喜。'
+      'url': 'https://blog.leonus.cn/'
+    - 'name': '站酷'
+      'url': 'https://www.zcool.com.cn/u/17129490'
+    - 'name': 'Behance'
+      'url': 'https://www.behance.net/2449533867814b'
+    - 'name': '51la统计'
+      'url': 'https://v6.51.la/'
+    - 'name': '博客框架为Hexo'
+      'url': 'https://hexo.io/'

@@ -1,58 +1,14 @@
-site:
-  name: "easyf12.top"
-  description: "友情链接"
-  url: "https://easyf12.top/"
-  links: "/friends"
-  friends:
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "issue"
-      url: "https://github.com/easyf12/friends/issues/new/choose"
-    - name: "https://ayellowdogsays.top/"
-      url: "https://ayellowdogsays.top/"
-    - name: "https://api.iconify.design/line-md:moon-alt-loop.svg"
-      url: "https://api.iconify.design/line-md:moon-alt-loop.svg"
-    - name: "https://sanbaiblog.cn/"
-      url: "https://sanbaiblog.cn/"
-    - name: "https://s21.ax1x.com/2025/01/05/pE9CfDU.jpg"
-      url: "https://s21.ax1x.com/2025/01/05/pE9CfDU.jpg"
-    - name: "https://s21.ax1x.com/2025/02/15/pEKUBgs.png"
-      url: "https://s21.ax1x.com/2025/02/15/pEKUBgs.png"
-    - name: "https://cn-sy1.rains3.com/binhongtea/studio2.png"
-      url: "https://cn-sy1.rains3.com/binhongtea/studio2.png"
-    - name: "https://www.redcha.cn/links.html"
-      url: "https://www.redcha.cn/links.html"
-    - name: "https://consolelz.github.io/"
-      url: "https://consolelz.github.io/"
-    - name: "https://image.kfdzcoffee.cn/i/1/avatar.png"
-      url: "https://image.kfdzcoffee.cn/i/1/avatar.png"
-    - name: "https://blog.snowflake.zone/assets/profile.jpg"
-      url: "https://blog.snowflake.zone/assets/profile.jpg"
-    - name: "https://mkirin.top/"
-      url: "https://mkirin.top/"
-    - name: "https://pan.mkirin.top/f/9Bt9/icon.png"
-      url: "https://pan.mkirin.top/f/9Bt9/icon.png"
-    - name: "https://xiaolu.mangzhuyun.net/fiend-links"
-      url: "https://xiaolu.mangzhuyun.net/fiend-links"
-    - name: "https://www.lyshark.com/images/favicon-32x32-next.png"
-      url: "https://www.lyshark.com/images/favicon-32x32-next.png"
-    - name: "https://www.lyshark.com"
-      url: "https://www.lyshark.com"
-    - name: "Artalk"
-      url: "https://artalk.js.org"
-    - name: "GitHub"
-      url: "https://github.com/easyf12"
-    - name: "Stellar"
-      url: "https://github.com/xaoxuu/hexo-theme-stellar"
-    - name: "又拍云"
-      url: "https://www.upyun.com/"
-    - name: "无畏云"
-      url: "https://su.sctes.com/"
-    - name: "开往"
-      url: "https://www.travellings.cn/"
-    - name: "CC BY-NC-SA 4.0"
-      url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "皖ICP备 2022014435号-1"
-      url: "https://beian.miit.gov.cn"
-    - name: "皖公网安备 34030002020871号"
-      url: "http://www.beian.gov.cn"
+'site':
+  'name': 'easyf12.top'
+  'description': '友情链接'
+  'url': 'https://easyf12.top/'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Artalk'
+      'url': 'https://artalk.js.org'
+    - 'name': '又拍云'
+      'url': 'https://www.upyun.com/'
+    - 'name': '无畏云'
+      'url': 'https://su.sctes.com/'
+    - 'name': 'CC BY-NC-SA 4.0'
+      'url': 'https://creativecommons.org/licenses/by-nc-sa/4.0/'

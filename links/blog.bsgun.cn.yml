@@ -1,178 +1,148 @@
-site:
-  name: "blog.bsgun.cn"
-  description: "友情链接"
-  url: "https://blog.bsgun.cn/"
-  links: "/link"
-  friends:
-    - name: "东方月初"
-      url: "https://zhilu.biuxin.com/"
-    - name: "LiuShen's Blog"
-      url: "https://blog.liushen.fun/"
-    - name: "幻想の日常"
-      url: "https://blog.someo.top"
-    - name: "刘郎阁"
-      url: "https://vjo.cc/"
-    - name: "FloatSheep's Blog"
-      url: "https://blog.hesiy.cn/"
-    - name: "CWorld Site"
-      url: "https://cworld0.com/"
-    - name: "無名小栈"
-      url: "https://blog.imsyy.top/"
-    - name: "纸鹿摸鱼处"
-      url: "https://blog.zhilu.cyou/"
-    - name: "青桔气球"
-      url: "https://blog.qjqq.cn/"
-    - name: "周润发"
-      url: "https://blog.zrf.me/"
-    - name: "ZLA 小站"
-      url: "https://www.zla.pub/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "凌尘Blog"
-      url: "https://b.icxk.cn/"
-    - name: "落尘up"
-      url: "https://www.luochen.chat/"
-    - name: "龙窝"
-      url: "https://blog.245179.xyz/"
-    - name: "猫酣 | Mioz"
-      url: "https://www.mioz.life/"
-    - name: "旧絮"
-      url: "https://blog.zhkax.cn/"
-    - name: "葱苓sama"
-      url: "https://blog.ciraos.top/"
-    - name: "素心"
-      url: "https://haiy.space/"
-    - name: "小林昕岛"
-      url: "https://lner.top/"
-    - name: "枝语风笺"
-      url: "https://blog.chario.cn"
-    - name: "AI悦创"
-      url: "https://blog.bornforthis.cn/"
-    - name: "柠檬星"
-      url: "https://blog.lemonstar.me"
-    - name: "小林的小窝"
-      url: "https://www.xiaorin.com/"
-    - name: "二つの影"
-      url: "https://sylveredukas.com/"
-    - name: "落憾"
-      url: "https://blog.luoh.org/"
-    - name: "钧言极客"
-      url: "https://www.jinjun.top/"
-    - name: "Daily"
-      url: "https://blog.200536.xyz"
-    - name: "HiPeach"
-      url: "https://blog.opeach.cn"
-    - name: "Peter267"
-      url: "https://peter267.github.io"
-    - name: "茗辰原"
-      url: "https://mingcy.cn/"
-    - name: "未似风不息"
-      url: "https://www.weisifengbuxi.top/"
-    - name: "AirTouchの小站"
-      url: "https://www.xsl.im/"
-    - name: "fishcpy 的小破站"
-      url: "https://blog.fis.ink/"
-    - name: "Fantasy`Ke Blog"
-      url: "https://blog.fantasyke.cn/"
-    - name: "lololowe 的博客"
-      url: "https://blog.lololowe.com/"
-    - name: "陵长镜"
-      url: "https://r1n.top"
-    - name: "Imz's Blog"
-      url: "https://blog.imz.me/"
-    - name: "❖星港◎Star☆"
-      url: "https://blog.starsharbor.com"
-    - name: "RisingIce"
-      url: "https://www.imrising.cn/"
-    - name: "XingJiのBlog"
-      url: "https://love.xingji.fun/"
-    - name: "Mo的记事簿"
-      url: "https://blog.xiowo.net/"
-    - name: "陆小启Kairo"
-      url: "https://blog.zonox.top/"
-    - name: "大爱无痕"
-      url: "https://blog.youngboy.top/"
-    - name: "FrWalker"
-      url: "https://blog.frwalker.top/"
-    - name: "Elykia"
-      url: "https://blog.elykia.cn/"
-    - name: "SparkのBlog"
-      url: "https://www.aspark.cc/"
-    - name: "青稚的空间"
-      url: "https://blog.linux-qitong.top/"
-    - name: "紗夕里"
-      url: "https://blog.ovofish.com/"
-    - name: "bbb-lsy07"
-      url: "https://blog.tsoo.net/"
-    - name: "Viki 写东西的地方"
-      url: "https://blog.viki.moe/"
-    - name: "青序栈"
-      url: "https://www.qixz.cn/"
-    - name: "Evilrabbit"
-      url: "https://blog.yujiay.wang/"
-    - name: "一清三白"
-      url: "https://sanbaiblog.cn/"
-    - name: "彬红茶博客"
-      url: "https://blog.redcha.cn/"
-    - name: "Tim’s Blog"
-      url: "https://blog.timxs.com/"
-    - name: "希乐博客"
-      url: "https://blog.xlenco.top"
-    - name: "晚official的小站"
-      url: "https://wanblog.qzz.io/"
-    - name: "小倪 | BioEZ"
-      url: "https://bioez.xyz"
-    - name: "前尘小筑"
-      url: "https://mnchen.cn/"
-    - name: "Saimen blog"
-      url: "https://com.z2m.store/"
-    - name: "猫不吃鱼."
-      url: "https://starsei.com/"
-    - name: "Z.L Vansiit's blog"
-      url: "https://vansiit.cc/"
-    - name: "Rolenx"
-      url: "https://home.yesord.top/"
-    - name: "青萍叙事"
-      url: "https://blog.lusyoe.com/"
-    - name: "梦爱吃鱼"
-      url: "https://blog.bsgun.cn/"
-    - name: "加入开往"
-      url: "https://www.travellings.cn/docs/join.html"
-    - name: "茗辰原"
-      url: "http://mingcy.cn"
-    - name: "Vansiit"
-      url: "http:// https://vansiit.cc/"
-    - name: "https://vansiit.cc/img/logo.svg"
-      url: "https://vansiit.cc/img/logo.svg"
-    - name: "https://haiy.space/'"
-      url: "https://haiy.space/'"
-    - name: "https://com.z2m.store"
-      url: "https://com.z2m.store"
-    - name: "https://img.z2m.store/file/1779081943822_butterfly-icon.png"
-      url: "https://img.z2m.store/file/1779081943822_butterfly-icon.png"
-    - name: "https://blog.lololowe.com"
-      url: "https://blog.lololowe.com"
-    - name: "https://blog.lololowe.com/favicon.ico"
-      url: "https://blog.lololowe.com/favicon.ico"
-    - name: "https://blog.lololowe.com/atom.xml"
-      url: "https://blog.lololowe.com/atom.xml"
-    - name: "3089755630"
-      url: "https://wanblog.qzz.io"
-    - name: "https://s41.ax1x.com/2025/12/20/pZ310V1.jpg"
-      url: "https://s41.ax1x.com/2025/12/20/pZ310V1.jpg"
-    - name: "bbb-lsy07"
-      url: "https://blog.6uu.us/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "QQ"
-      url: "https://qm.qq.com/q/769Bn9qYo2"
-    - name: "主题: Clarity 3.6.0"
-      url: "https://github.com/L33Z22L11/blog-v3"
-    - name: "豫ICP备20017009号"
-      url: "https://beian.miit.gov.cn/"
-    - name: "豫公网安备41168102000061号"
-      url: "https://beian.mps.gov.cn/#/query/webSearch"
-    - name: "EdgeOne"
-      url: "https://edgeone.ai/zh/"
-    - name: "若梦图床"
-      url: "https://dev.bsgun.cn/"
+'site':
+  'name': 'blog.bsgun.cn'
+  'description': '友情链接'
+  'url': 'https://blog.bsgun.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '朽丘秋雨'
+      'url': 'https://www.koxiuqiu.cn'
+    - 'name': 'LiuShen''s Blog'
+      'url': 'https://blog.liushen.fun/'
+    - 'name': '东方月初'
+      'url': 'https://zhilu.biuxin.com/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '無名小栈'
+      'url': 'https://blog.imsyy.top/'
+    - 'name': '刘郎阁'
+      'url': 'https://vjo.cc/'
+    - 'name': 'FloatSheep''s Blog'
+      'url': 'https://blog.hesiy.cn/'
+    - 'name': '白丁往事'
+      'url': 'https://blog.rayvv.com'
+    - 'name': '青桔气球'
+      'url': 'https://blog.qjqq.cn/'
+    - 'name': '纸鹿摸鱼处'
+      'url': 'https://blog.zhilu.cyou/'
+    - 'name': 'CWorld Site'
+      'url': 'https://cworld0.com/'
+    - 'name': 'ZLA 小站'
+      'url': 'https://www.zla.pub/'
+    - 'name': '周润发'
+      'url': 'https://blog.zrf.me/'
+    - 'name': '幻想の日常'
+      'url': 'https://blog.someo.top'
+    - 'name': '猫不吃鱼.'
+      'url': 'https://starsei.com/'
+    - 'name': '❖星港◎Star☆'
+      'url': 'https://blog.starsharbor.com'
+    - 'name': '前尘小筑'
+      'url': 'https://mnchen.cn/'
+    - 'name': '葱苓sama'
+      'url': 'https://blog.ciraos.top/'
+    - 'name': '凌尘Blog'
+      'url': 'https://b.icxk.cn/'
+    - 'name': 'AI悦创'
+      'url': 'https://blog.bornforthis.cn/'
+    - 'name': 'RisingIce'
+      'url': 'https://www.imrising.cn/'
+    - 'name': 'Elykia'
+      'url': 'https://blog.elykia.cn/'
+    - 'name': 'XingJiのBlog'
+      'url': 'https://love.xingji.fun/'
+    - 'name': 'Imz''s Blog'
+      'url': 'https://blog.imz.me/'
+    - 'name': 'Mo的记事簿'
+      'url': 'https://blog.xiowo.net/'
+    - 'name': '青稚的空间'
+      'url': 'https://blog.linux-qitong.top/'
+    - 'name': '龙窝'
+      'url': 'https://blog.245179.xyz/'
+    - 'name': '一只小白菜''Blog'
+      'url': 'https://blog.1zxbc.cn'
+    - 'name': 'SparkのBlog'
+      'url': 'https://www.aspark.cc/'
+    - 'name': '弈鸣小筑'
+      'url': 'https://blog.lwtools.site'
+    - 'name': '钧言极客'
+      'url': 'https://www.jinjun.top/'
+    - 'name': 'Daily'
+      'url': 'https://blog.200536.xyz'
+    - 'name': '陆小启Kairo'
+      'url': 'https://blog.zonox.top/'
+    - 'name': '陵长镜'
+      'url': 'https://r1n.top'
+    - 'name': 'Sky-cat✨'
+      'url': 'https://blog.075262.xyz'
+    - 'name': '大爱无痕'
+      'url': 'https://blog.youngboy.top/'
+    - 'name': 'fishcpy 的小破站'
+      'url': 'https://blog.fis.ink/'
+    - 'name': 'Fantasy`Ke Blog'
+      'url': 'https://blog.fantasyke.cn/'
+    - 'name': '一清三白'
+      'url': 'https://sanbaiblog.cn/'
+    - 'name': 'FrWalker'
+      'url': 'https://blog.frwalker.top/'
+    - 'name': 'Rolenx'
+      'url': 'https://home.yesord.top/'
+    - 'name': '猫酣 | Mioz'
+      'url': 'https://www.mioz.life/'
+    - 'name': '智码Moss'
+      'url': 'https://www.qxssec.com'
+    - 'name': '彬红茶博客'
+      'url': 'https://blog.redcha.cn/'
+    - 'name': '小林的小窝'
+      'url': 'https://www.xiaorin.com/'
+    - 'name': '青萍叙事'
+      'url': 'https://blog.lusyoe.com/'
+    - 'name': '紗夕里'
+      'url': 'https://blog.ovofish.com/'
+    - 'name': '青序栈'
+      'url': 'https://www.qixz.cn/'
+    - 'name': 'HiPeach'
+      'url': 'https://blog.opeach.cn'
+    - 'name': '希乐博客'
+      'url': 'https://blog.xlenco.top'
+    - 'name': '小米里的大麦'
+      'url': 'https://cn.minbit.top'
+    - 'name': '落憾'
+      'url': 'https://blog.luoh.org/'
+    - 'name': '落尘up'
+      'url': 'https://www.luochen.chat/'
+    - 'name': '小倪 | BioEZ'
+      'url': 'https://bioez.xyz'
+    - 'name': '旧絮'
+      'url': 'https://blog.zhkax.cn/'
+    - 'name': 'Evilrabbit'
+      'url': 'https://blog.yujiay.wang/'
+    - 'name': '柠檬星'
+      'url': 'https://blog.lemonstar.me'
+    - 'name': 'AirTouchの小站'
+      'url': 'https://www.xsl.im/'
+    - 'name': '未似风不息'
+      'url': 'https://www.weisifengbuxi.top/'
+    - 'name': 'Tim''s Blog'
+      'url': 'https://blog.timxs.com/'
+    - 'name': '二つの影'
+      'url': 'https://sylveredukas.com/'
+    - 'name': '小林昕岛'
+      'url': 'https://lner.top/'
+    - 'name': 'bbb-lsy07'
+      'url': 'https://blog.tsoo.net/'
+    - 'name': 'Viki 写东西的地方'
+      'url': 'https://blog.viki.moe/'
+    - 'name': '枝语风笺'
+      'url': 'https://blog.chario.cn'
+    - 'name': '茗辰原'
+      'url': 'https://mingcy.cn/'
+    - 'name': 'Z.L Vansiit''s blog'
+      'url': 'https://vansiit.cc/'
+    - 'name': '素心'
+      'url': 'https://haiy.space/'
+    - 'name': 'Saimen blog'
+      'url': 'https://com.z2m.store/'
+    - 'name': 'lololowe 的博客'
+      'url': 'https://blog.lololowe.com/'
+    - 'name': '晚official的小站'
+      'url': 'https://wanblog.qzz.io/'

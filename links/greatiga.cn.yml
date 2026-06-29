@@ -1,46 +1,34 @@
-site:
-  name: "greatiga.cn"
-  description: "友情链接"
-  url: "https://greatiga.cn/"
-  links: "/link"
-  friends:
-    - name: "https://greatiga.cn/"
-      url: "https://greatiga.cn/"
-    - name: "https://static.greatiga.cn/greatiga.jpg"
-      url: "https://static.greatiga.cn/greatiga.jpg"
-    - name: "博客驿站发现新博客认识新朋友！"
-      url: "https://www.bloginn.vip/"
-    - name: "旺东自留地爱分享、爱折腾、爱生活、爱摸鱼"
-      url: "https://wang618.cn/"
-    - name: "有余浮名本是身外物，不著方寸也风流"
-      url: "https://dongping.link"
-    - name: "宇阳记录一个架构师的崛起"
-      url: "http://liuyuyang.net/"
-    - name: "ccstyleCCstyle的blog"
-      url: "https://www.sitehost.cn"
-    - name: "博客录（boke.lu）boke.lu · 博客收录展示平台~"
-      url: "https://boke.lu"
-    - name: "新逸Cary一个专注技术的程序猿"
-      url: "https://blog.xinac.cn/"
-    - name: "biaoblog-个人博客专注web开发技术分享"
-      url: "http://biaoblog.cn"
-    - name: "Lundrea博学而笃志，切问而近思。"
-      url: "https://ymiir.asia/"
-    - name: "一篇文字不是只有视频和音乐才带给人欢乐！还有一篇文字！"
-      url: "https://www.dumogu.top/"
-    - name: "杨青青个人博客优秀的个人博客网站！"
-      url: "http://hehua.ip3q.com/"
-    - name: "若志随笔记点想记的东西，做点想做的事情。"
-      url: "https://www.rz.sb/"
-    - name: "在码圈代码改变未来，努力coding"
-      url: "https://www.bedebug.com"
-    - name: "博击长空Web 前后端技术博客，积跬步以至千里，喜欢学习喜欢你。"
-      url: "https://www.xilikeli.cn/"
-    - name: "CSS-Design-Awards国外CSS设计网站"
-      url: "https://www.cssdesignawards.com/"
-    - name: "努力向前站长的前端学习笔记"
-      url: "https://greatigalink.github.io/"
-    - name: "滇ICP备20002333-2号"
-      url: "https://beian.miit.gov.cn/#/Integrated/recordQuery"
-    - name: "滇公网安备53232302532326"
-      url: "https://beian.mps.gov.cn/#/query/webSearch?code=53232302532326"
+'site':
+  'name': 'greatiga.cn'
+  'description': '友情链接'
+  'url': 'https://greatiga.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '博客驿站发现新博客认识新朋友！'
+      'url': 'https://www.bloginn.vip/'
+    - 'name': '旺东自留地爱分享、爱折腾、爱生活、爱摸鱼'
+      'url': 'https://wang618.cn/'
+    - 'name': '有余浮名本是身外物，不著方寸也风流'
+      'url': 'https://dongping.link'
+    - 'name': '宇阳记录一个架构师的崛起'
+      'url': 'http://liuyuyang.net/'
+    - 'name': 'ccstyleCCstyle的blog'
+      'url': 'https://www.sitehost.cn'
+    - 'name': '新逸Cary一个专注技术的程序猿'
+      'url': 'https://blog.xinac.cn/'
+    - 'name': 'biaoblog-个人博客专注web开发技术分享'
+      'url': 'http://biaoblog.cn'
+    - 'name': 'Lundrea博学而笃志，切问而近思。'
+      'url': 'https://ymiir.asia/'
+    - 'name': '一篇文字不是只有视频和音乐才带给人欢乐！还有一篇文字！'
+      'url': 'https://www.dumogu.top/'
+    - 'name': '杨青青个人博客优秀的个人博客网站！'
+      'url': 'http://hehua.ip3q.com/'
+    - 'name': '若志随笔记点想记的东西，做点想做的事情。'
+      'url': 'https://www.rz.sb/'
+    - 'name': '在码圈代码改变未来，努力coding'
+      'url': 'https://www.bedebug.com'
+    - 'name': '博击长空Web 前后端技术博客，积跬步以至千里，喜欢学习喜欢你。'
+      'url': 'https://www.xilikeli.cn/'
+    - 'name': 'CSS-Design-Awards国外CSS设计网站'
+      'url': 'https://www.cssdesignawards.com/'

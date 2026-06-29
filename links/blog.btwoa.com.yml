@@ -1,130 +1,110 @@
-site:
-  name: "放养平凡"
-  url: "https://blog.btwoa.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "YPMusic"
-      url: "https://music.btwoa.com/"
-    - name: "DailyHot"
-      url: "https://dailyhot.btwoa.com/"
-    - name: "Xc1Ym"
-      url: "https://xdym11235.com"
-    - name: "UkiHG"
-      url: "https://ishya.top"
-    - name: "Eurkon"
-      url: "https://blog.eurkon.com"
-    - name: "7gugu"
-      url: "https://www.7gugu.com"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com"
-    - name: "十玖八柒"
-      url: "https://blog.ahzoo.cn"
-    - name: "L1nSn0w"
-      url: "https://log.vaaat.com"
-    - name: "橙梓"
-      url: "https://blog.orangii.cn"
-    - name: "Whisper"
-      url: "https://blog.whispery.cn"
-    - name: "Leonus"
-      url: "https://blog.leonus.cn"
-    - name: "风记星辰"
-      url: "https://www.thyuu.com"
-    - name: "飞鸟"
-      url: "https://lzxjack.top"
-    - name: "轻笑"
-      url: "https://www.qcqx.cn"
-    - name: "Black Flies"
-      url: "https://www.yyyzyyyz.cn"
-    - name: "Shiro"
-      url: "https://snow.js.org"
-    - name: "DORAKIKA"
-      url: "https://dorakika.life"
-    - name: "iMaeGoo"
-      url: "https://www.imaegoo.com"
-    - name: "hiifong"
-      url: "https://hiif.ong"
-    - name: "Ciraos"
-      url: "https://blog.ciraos.top"
-    - name: "everfu"
-      url: "https://blog.efu.me"
-    - name: "GanSer"
-      url: "https://www.gan1ser.top"
-    - name: "Wcowin"
-      url: "https://wcowin.work"
-    - name: "Magren"
-      url: "https://magren.cc"
-    - name: "MiaoMint"
-      url: "https://0u0.ren"
-    - name: "Kegongteng"
-      url: "https://kegongteng.cn"
-    - name: "無名小栈"
-      url: "https://blog.imsyy.top"
-    - name: "浅草物语"
-      url: "https://www.chillg.de"
-    - name: "星纪"
-      url: "https://xingji.fun"
-    - name: "Imz"
-      url: "https://blog.imz.me"
-    - name: "柠檬星"
-      url: "https://blog.lemonstar.me"
-    - name: "ZERO"
-      url: "https://www.zerofc.cn"
-    - name: "细粒丁"
-      url: "https://www.tenyding.cn"
-    - name: "btwoa"
-      url: "https://blog.btwoa.com"
-    - name: "启明曙光"
-      url: "https://www.orientdawn.com"
-    - name: "https://orientdawn.com/image/logo.png"
-      url: "https://orientdawn.com/image/logo.png"
-    - name: "细粒丁"
-      url: "https://tenyding.cn/"
-    - name: "btwoa"
-      url: "http://htpps://blog.btwoa.com"
-    - name: "mp4网"
-      url: "http://mp4wang.cc"
-    - name: "ZERO开发"
-      url: "https://www.zerofc.cn/"
-    - name: "浅草物语"
-      url: "http://www.chillg.de"
-    - name: "www.chillg.top"
-      url: "http://www.chillg.top"
-    - name: "Imz"
-      url: "http://blog.imz.me"
-    - name: "星纪"
-      url: "https://love.xingji.fun/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Telegram"
-      url: "https://t.me/btwoa"
-    - name: "Twitter"
-      url: "https://twitter.com/btwoao"
-    - name: "Github"
-      url: "https://github.com/btwoa"
-    - name: "Steam"
-      url: "https://steamcommunity.com/id/ba2in9a"
-    - name: "Tiktok"
-      url: "https://vt.tiktok.com/ZSeX615XA"
-    - name: "Youtobe"
-      url: "https://www.youtube.com/@btwoao"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/291866794"
-    - name: "Uptime"
-      url: "https://stats.uptimerobot.com/EReLbNe2Gr"
-    - name: "Umami"
-      url: "https://umami.btwoa.com/share/BQARJAYibxHHNAYY/blog.btwoa.com"
-    - name: "Afdian"
-      url: "https://afdian.com/a/btwoa"
-    - name: "YPMusic"
-      url: "https://music.btwoa.com"
-    - name: "NextChat"
-      url: "https://nextchat.btwoa.com"
-    - name: "DailyHot"
-      url: "https://dailyhot.btwoa.com"
-    - name: "放养平凡"
-      url: "https://btwoa.com"
-    - name: "陇ICP备20001210号"
-      url: "https://beian.miit.gov.cn"
-    - name: "甘公网安备62052502000136号"
-      url: "https://beian.mps.gov.cn/#/query/webSearch?code=62052502000136"
+'site':
+  'name': '放养平凡'
+  'url': 'https://blog.btwoa.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'YPMusic'
+      'url': 'https://music.btwoa.com/'
+    - 'name': 'DailyHot'
+      'url': 'https://dailyhot.btwoa.com/'
+    - 'name': 'Xc1Ym'
+      'url': 'https://xdym11235.com'
+    - 'name': 'UkiHG'
+      'url': 'https://ishya.top'
+    - 'name': 'Eurkon'
+      'url': 'https://blog.eurkon.com'
+    - 'name': '7gugu'
+      'url': 'https://www.7gugu.com'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com'
+    - 'name': '十玖八柒'
+      'url': 'https://blog.ahzoo.cn'
+    - 'name': 'L1nSn0w'
+      'url': 'https://log.vaaat.com'
+    - 'name': '橙梓'
+      'url': 'https://blog.orangii.cn'
+    - 'name': 'Whisper'
+      'url': 'https://blog.whispery.cn'
+    - 'name': 'Leonus'
+      'url': 'https://blog.leonus.cn'
+    - 'name': '风记星辰'
+      'url': 'https://www.thyuu.com'
+    - 'name': '飞鸟'
+      'url': 'https://lzxjack.top'
+    - 'name': '轻笑'
+      'url': 'https://www.qcqx.cn'
+    - 'name': 'Black Flies'
+      'url': 'https://www.yyyzyyyz.cn'
+    - 'name': 'Shiro'
+      'url': 'https://snow.js.org'
+    - 'name': 'DORAKIKA'
+      'url': 'https://dorakika.life'
+    - 'name': 'iMaeGoo'
+      'url': 'https://www.imaegoo.com'
+    - 'name': 'hiifong'
+      'url': 'https://hiif.ong'
+    - 'name': 'Ciraos'
+      'url': 'https://blog.ciraos.top'
+    - 'name': 'everfu'
+      'url': 'https://blog.efu.me'
+    - 'name': 'GanSer'
+      'url': 'https://www.gan1ser.top'
+    - 'name': 'Wcowin'
+      'url': 'https://wcowin.work'
+    - 'name': 'Magren'
+      'url': 'https://magren.cc'
+    - 'name': 'MiaoMint'
+      'url': 'https://0u0.ren'
+    - 'name': 'Kegongteng'
+      'url': 'https://kegongteng.cn'
+    - 'name': '無名小栈'
+      'url': 'https://blog.imsyy.top'
+    - 'name': '浅草物语'
+      'url': 'https://www.chillg.de'
+    - 'name': '星纪'
+      'url': 'https://xingji.fun'
+    - 'name': 'Imz'
+      'url': 'https://blog.imz.me'
+    - 'name': '柠檬星'
+      'url': 'https://blog.lemonstar.me'
+    - 'name': 'ZERO'
+      'url': 'https://www.zerofc.cn'
+    - 'name': '细粒丁'
+      'url': 'https://www.tenyding.cn'
+    - 'name': '启明曙光'
+      'url': 'https://www.orientdawn.com'
+    - 'name': '细粒丁'
+      'url': 'https://tenyding.cn/'
+    - 'name': 'btwoa'
+      'url': 'http://htpps://blog.btwoa.com'
+    - 'name': 'mp4网'
+      'url': 'http://mp4wang.cc'
+    - 'name': 'ZERO开发'
+      'url': 'https://www.zerofc.cn/'
+    - 'name': '浅草物语'
+      'url': 'http://www.chillg.de'
+    - 'name': 'www.chillg.top'
+      'url': 'http://www.chillg.top'
+    - 'name': 'Imz'
+      'url': 'http://blog.imz.me'
+    - 'name': '星纪'
+      'url': 'https://love.xingji.fun/'
+    - 'name': 'Steam'
+      'url': 'https://steamcommunity.com/id/ba2in9a'
+    - 'name': 'Tiktok'
+      'url': 'https://vt.tiktok.com/ZSeX615XA'
+    - 'name': 'Youtobe'
+      'url': 'https://www.youtube.com/@btwoao'
+    - 'name': 'Umami'
+      'url': 'https://umami.btwoa.com/share/BQARJAYibxHHNAYY/blog.btwoa.com'
+    - 'name': 'Afdian'
+      'url': 'https://afdian.com/a/btwoa'
+    - 'name': 'YPMusic'
+      'url': 'https://music.btwoa.com'
+    - 'name': 'NextChat'
+      'url': 'https://nextchat.btwoa.com'
+    - 'name': 'DailyHot'
+      'url': 'https://dailyhot.btwoa.com'
+    - 'name': '放养平凡'
+      'url': 'https://btwoa.com'

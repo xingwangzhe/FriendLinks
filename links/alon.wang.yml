@@ -1,84 +1,54 @@
-site:
-  name: "alon.wang"
-  description: "友情链接"
-  url: "https://alon.wang/"
-  links: "/link"
-  friends:
-    - name: "Alon图床"
-      url: "https://image.alon.wang/"
-    - name: "Alon网盘"
-      url: "https://file.alon.wang/"
-    - name: "m-finder"
-      url: "https://m-finder.alon.wang"
-    - name: "will"
-      url: "https://weibo.com/u/2954474083"
-    - name: "overtrue"
-      url: "https://overtrue.me/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "林木木"
-      url: "https://immmmm.com/"
-    - name: "CrazyWong"
-      url: "https://crazywong.com/"
-    - name: "Takagi"
-      url: "https://lixingyong.com"
-    - name: "墨点白"
-      url: "https://nanwish.love"
-    - name: "祈杰博客"
-      url: "https://qijieya.cn/"
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com/"
-    - name: "LearnKu"
-      url: "https://learnku.com/"
-    - name: "Hyperf"
-      url: "https://www.hyperf.io"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Halo"
-      url: "https://www.halo.run/"
-    - name: "xxmac"
-      url: "https://www.xxmac.com/"
-    - name: "Json.cn"
-      url: "https://www.json.cn/?fullscreen"
-    - name: "即时设计"
-      url: "https://js.design/"
-    - name: "APP ICON"
-      url: "https://tool.sakura.vin/appicon"
-    - name: "Emoji 大全"
-      url: "https://emoji6.com/emojiall/"
-    - name: "coverview"
-      url: "https://coverview.vercel.app/"
-    - name: "彩虹工具网"
-      url: "https://tool.cccyun.cc/ascii_art"
-    - name: "ROLL"
-      url: "https://www.mxnzp.com/doc/list"
-    - name: ".net core服务发布经验总结"
-      url: "https://vrast.cn/posts/4461/"
-    - name: "Keyle's Blog在这里记录一些偶尔冒出来转眼就会忘的灵感"
-      url: "https://vrast.cn/"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/"
-    - name: "Alon"
-      url: "https://alon.wang"
-    - name: "祈杰"
-      url: "https://qijieya.cn"
-    - name: "祈杰"
-      url: "http://www.qijieya.cn"
-    - name: "www.qijieya.cn/"
-      url: "http://www.qijieya.cn/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Github"
-      url: "https://github.com/AAAAAAlon"
-    - name: "51la统计"
-      url: "https://v6.51.la/"
-    - name: "博客框架为Hexo_v5.4.0"
-      url: "https://hexo.io/"
-    - name: "本站使用AnZhiYu主题"
-      url: "https://docs.anheyu.com/intro.html"
-    - name: "本站已在鲁进行备案"
-      url: "https://beian.miit.gov.cn/"
-    - name: "鲁公网安备 37078402000345号"
-      url: "https://beian.mps.gov.cn/#/query/webSearch"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+'site':
+  'name': 'alon.wang'
+  'description': '友情链接'
+  'url': 'https://alon.wang/'
+  'links': '/link'
+  'friends':
+    - 'name': 'overtrue'
+      'url': 'https://overtrue.me/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '林木木'
+      'url': 'https://immmmm.com/'
+    - 'name': 'CrazyWong'
+      'url': 'https://crazywong.com/'
+    - 'name': 'Takagi'
+      'url': 'https://lixingyong.com'
+    - 'name': '墨点白'
+      'url': 'https://nanwish.love'
+    - 'name': '祈杰博客'
+      'url': 'https://qijieya.cn/'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': 'LearnKu'
+      'url': 'https://learnku.com/'
+    - 'name': 'Hyperf'
+      'url': 'https://www.hyperf.io'
+    - 'name': 'Halo'
+      'url': 'https://www.halo.run/'
+    - 'name': 'xxmac'
+      'url': 'https://www.xxmac.com/'
+    - 'name': 'Json.cn'
+      'url': 'https://www.json.cn/?fullscreen'
+    - 'name': '即时设计'
+      'url': 'https://js.design/'
+    - 'name': 'APP ICON'
+      'url': 'https://tool.sakura.vin/appicon'
+    - 'name': 'Emoji 大全'
+      'url': 'https://emoji6.com/emojiall/'
+    - 'name': 'ROLL'
+      'url': 'https://www.mxnzp.com/doc/list'
+    - 'name': '.net core服务发布经验总结'
+      'url': 'https://vrast.cn/posts/4461/'
+    - 'name': 'Keyle''s Blog在这里记录一些偶尔冒出来转眼就会忘的灵感'
+      'url': 'https://vrast.cn/'
+    - 'name': '祈杰'
+      'url': 'https://qijieya.cn'
+    - 'name': '祈杰'
+      'url': 'http://www.qijieya.cn'
+    - 'name': 'www.qijieya.cn/'
+      'url': 'http://www.qijieya.cn/'
+    - 'name': '51la统计'
+      'url': 'https://v6.51.la/'
+    - 'name': '博客框架为Hexo_v5.4.0'
+      'url': 'https://hexo.io/'

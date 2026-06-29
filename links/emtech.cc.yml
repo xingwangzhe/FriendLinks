@@ -1,56 +1,52 @@
-site:
-  name: "emtech.cc"
-  description: "友情链接"
-  url: "https://emtech.cc/"
-  links: "/friends"
-  friends:
-    - name: "小蔡 他很會連上家裡 Wi-Fi xn--yets96g.tw"
-      url: "https://小蔡.tw/"
-    - name: "柴   柴犬 Lily 據說這隻柴犬叼著毛哥的 SSD 從臺北跑到臺中 superlily.dev"
-      url: "https://superlily.dev/"
-    - name: "颉文 一只会写代码的小棕熊 shellwen.com"
-      url: "https://shellwen.com/"
-    - name: "賴奕帆 約翰·孟塔古唯一授權三明治經銷商 linktr.ee"
-      url: "https://linktr.ee/ivantw829"
-    - name: "Chao28661 第三屆中電會會長 blog.chaontc.tw"
-      url: "https://blog.chaontc.tw/"
-    - name: "Each Chen 網路技術愛好者與工程師 iach.cc"
-      url: "https://www.iach.cc/"
-    - name: "OsGa CTF Player | Developer osga.dev"
-      url: "https://www.osga.dev/"
-    - name: "Pan in the Nutshell 後端大大 blog.pan93.com"
-      url: "https://blog.pan93.com/"
-    - name: "SamHacker 把 GitHub 當垃圾桶的高中牲 510208.github.io"
-      url: "https://510208.github.io/"
-    - name: "sangege 超大咖託管 Coffee Host 創始者 linktr.ee"
-      url: "https://linktr.ee/san.ge.ge"
-    - name: "Wolf Yuan Furry Developer wolf-yuan.dev"
-      url: "https://wolf-yuan.dev/"
-    - name: "Y   Yuan 網路技術愛好者與工程師 yuan-tw.net"
-      url: "https://yuan-tw.net/"
-    - name: "Yuanlin Lin Zeabur 創辦人 yual.in"
-      url: "https://yual.in/"
-    - name: "堇姬 Naup A 4002-year-old demigod crane naup.mygo.tw"
-      url: "https://naup.mygo.tw/"
-    - name: "CBJ's 程式日記 Chung cbjsprogramdiary.com"
-      url: "https://cbjsprogramdiary.com"
-    - name: "Ching367436 竹狐隊長 blog.ching367436.me"
-      url: "https://blog.ching367436.me/"
-    - name: "Sean Wei 為國家守護聖文森 sean.taipei"
-      url: "https://www.sean.taipei/"
-    - name: "Yorukot 一隻喜歡開源的小貓 yorukot.me"
-      url: "https://yorukot.me/"
-    - name: "异次元 de 机智君 前端开发工程师，优质 Notion 主题开发者 anzifan.com"
-      url: "https://www.anzifan.com/"
-    - name: "张洪 Heo 产品设计师，独立开发者，设计与科技分享。 blog.zhheo.com"
-      url: "https://blog.zhheo.com/"
-    - name: "鱈魚 結合各類領域技術、開發酷酷的東西 codlin.me"
-      url: "https://codlin.me/"
-    - name: "SCOTT Studio 不知名前端攻城狮，分享编程经验和技术干货。 blog.scott-studio.cn"
-      url: "https://blog.scott-studio.cn/"
-    - name: "GitHub 登入"
-      url: "https://api.emtech.cc/api/auth/github/start?returnTo=https%3A%2F%2Femtech.cc%2Ffriends%2F%23comments"
-    - name: "CC BY-SA 4.0（另開新視窗）"
-      url: "https://creativecommons.org/licenses/by-sa/4.0/"
-    - name: "無障礙網站"
-      url: "https://accessibility.moda.gov.tw/Applications/Detail?category=20260605161909"
+'site':
+  'name': 'emtech.cc'
+  'description': '友情链接'
+  'url': 'https://emtech.cc/'
+  'links': '/friends'
+  'friends':
+    - 'name': '小蔡 他很會連上家裡 Wi-Fi xn--yets96g.tw'
+      'url': 'https://小蔡.tw/'
+    - 'name': '柴   柴犬 Lily 據說這隻柴犬叼著毛哥的 SSD 從臺北跑到臺中 superlily.dev'
+      'url': 'https://superlily.dev/'
+    - 'name': '颉文 一只会写代码的小棕熊 shellwen.com'
+      'url': 'https://shellwen.com/'
+    - 'name': '賴奕帆 約翰·孟塔古唯一授權三明治經銷商 linktr.ee'
+      'url': 'https://linktr.ee/ivantw829'
+    - 'name': 'Chao28661 第三屆中電會會長 blog.chaontc.tw'
+      'url': 'https://blog.chaontc.tw/'
+    - 'name': 'Each Chen 網路技術愛好者與工程師 iach.cc'
+      'url': 'https://www.iach.cc/'
+    - 'name': 'OsGa CTF Player | Developer osga.dev'
+      'url': 'https://www.osga.dev/'
+    - 'name': 'Pan in the Nutshell 後端大大 blog.pan93.com'
+      'url': 'https://blog.pan93.com/'
+    - 'name': 'sangege 超大咖託管 Coffee Host 創始者 linktr.ee'
+      'url': 'https://linktr.ee/san.ge.ge'
+    - 'name': 'Wolf Yuan Furry Developer wolf-yuan.dev'
+      'url': 'https://wolf-yuan.dev/'
+    - 'name': 'Y   Yuan 網路技術愛好者與工程師 yuan-tw.net'
+      'url': 'https://yuan-tw.net/'
+    - 'name': 'Yuanlin Lin Zeabur 創辦人 yual.in'
+      'url': 'https://yual.in/'
+    - 'name': '堇姬 Naup A 4002-year-old demigod crane naup.mygo.tw'
+      'url': 'https://naup.mygo.tw/'
+    - 'name': 'CBJ''s 程式日記 Chung cbjsprogramdiary.com'
+      'url': 'https://cbjsprogramdiary.com'
+    - 'name': 'Ching367436 竹狐隊長 blog.ching367436.me'
+      'url': 'https://blog.ching367436.me/'
+    - 'name': 'Sean Wei 為國家守護聖文森 sean.taipei'
+      'url': 'https://www.sean.taipei/'
+    - 'name': 'Yorukot 一隻喜歡開源的小貓 yorukot.me'
+      'url': 'https://yorukot.me/'
+    - 'name': '异次元 de 机智君 前端开发工程师，优质 Notion 主题开发者 anzifan.com'
+      'url': 'https://www.anzifan.com/'
+    - 'name': '张洪 Heo 产品设计师，独立开发者，设计与科技分享。 blog.zhheo.com'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '鱈魚 結合各類領域技術、開發酷酷的東西 codlin.me'
+      'url': 'https://codlin.me/'
+    - 'name': 'SCOTT Studio 不知名前端攻城狮，分享编程经验和技术干货。 blog.scott-studio.cn'
+      'url': 'https://blog.scott-studio.cn/'
+    - 'name': 'CC BY-SA 4.0（另開新視窗）'
+      'url': 'https://creativecommons.org/licenses/by-sa/4.0/'
+    - 'name': '無障礙網站'
+      'url': 'https://accessibility.moda.gov.tw/Applications/Detail?category=20260605161909'

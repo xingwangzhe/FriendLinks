@@ -1,76 +1,52 @@
-site:
-  name: "bmpi.dev"
-  description: "友情链接"
-  url: "https://bmpi.dev/"
-  links: "/link"
-  friends:
-    - name: "BMPI"
-      url: "https://www.bmpi.dev/"
-    - name: "GitHub"
-      url: "https://github.com/madawei2699"
-    - name: "Twitter"
-      url: "https://twitter.com/madawei2699"
-    - name: "学习"
-      url: "https://www.bmpi.dev/self/"
-    - name: "技术"
-      url: "https://www.bmpi.dev/dev/"
-    - name: "投资"
-      url: "https://www.bmpi.dev/money/"
-    - name: "English"
-      url: "https://www.bmpi.dev/en/"
-    - name: "十年之约"
-      url: "https://foreverblog.cn"
-    - name: "2021/05/11"
-      url: "https://www.foreverblog.cn/blog/2159.html"
-    - name: "虫洞"
-      url: "https://foreverblog.cn/go.html"
-    - name: "DHTalk’s Blog"
-      url: "https://zhangdinghao.cn/"
-    - name: "Indie Hackers"
-      url: "https://indiehackers.net/"
-    - name: "食灯鬼"
-      url: "https://shidenggui.com/"
-    - name: "ZoomQuiet"
-      url: "https://blog.zoomquiet.io/"
-    - name: "认知.xKnow"
-      url: "https://blog.xknow.net/"
-    - name: "刘悦的技术博客"
-      url: "https://v3u.cn/"
-    - name: "麻广广的博客"
-      url: "https://maguangguang.xyz/"
-    - name: "少个分号"
-      url: "https://shaogefenhao.com/"
-    - name: "爱码叔-iCodeBook"
-      url: "https://icodebook.com/"
-    - name: "Bright LGM’s Blog"
-      url: "https://brightliao.com/"
-    - name: "BY林子"
-      url: "https://www.bylinzi.com/"
-    - name: "软件测试与质量沉思"
-      url: "https://liuranthinking.com/"
-    - name: "于晓南"
-      url: "https://qualityfocus.club/yxn"
-    - name: "聂子云"
-      url: "http://www.niezitalk.com/"
-    - name: "张凯峰"
-      url: "https://www.kaifengzhang.com/"
-    - name: "Thoughtworks洞见"
-      url: "https://insights.thoughtworks.cn/"
-    - name: "面向信仰编程"
-      url: "https://draveness.me/"
-    - name: "酷壳 (R.I.P.)"
-      url: "https://coolshell.cn/"
-    - name: "Limboy"
-      url: "https://limboy.me/"
-    - name: "策引"
-      url: "https://www.myinvestpilot.com/"
-    - name: "MinePilot"
-      url: "https://www.myminepilot.com/"
-    - name: "free4chat"
-      url: "https://www.free4.chat/"
-    - name: "i365"
-      url: "https://www.i365.tech/"
-    - name: "演讲"
-      url: "https://www.bmpi.dev/talk/"
-    - name: "社区"
-      url: "https://www.bmpi.dev/community/"
+'site':
+  'name': 'bmpi.dev'
+  'description': '友情链接'
+  'url': 'https://bmpi.dev/'
+  'links': '/link'
+  'friends':
+    - 'name': 'DHTalk’s Blog'
+      'url': 'https://zhangdinghao.cn/'
+    - 'name': 'Indie Hackers'
+      'url': 'https://indiehackers.net/'
+    - 'name': '食灯鬼'
+      'url': 'https://shidenggui.com/'
+    - 'name': 'ZoomQuiet'
+      'url': 'https://blog.zoomquiet.io/'
+    - 'name': '认知.xKnow'
+      'url': 'https://blog.xknow.net/'
+    - 'name': '刘悦的技术博客'
+      'url': 'https://v3u.cn/'
+    - 'name': '麻广广的博客'
+      'url': 'https://maguangguang.xyz/'
+    - 'name': '少个分号'
+      'url': 'https://shaogefenhao.com/'
+    - 'name': '爱码叔-iCodeBook'
+      'url': 'https://icodebook.com/'
+    - 'name': 'Bright LGM’s Blog'
+      'url': 'https://brightliao.com/'
+    - 'name': 'BY林子'
+      'url': 'https://www.bylinzi.com/'
+    - 'name': '软件测试与质量沉思'
+      'url': 'https://liuranthinking.com/'
+    - 'name': '于晓南'
+      'url': 'https://qualityfocus.club/yxn'
+    - 'name': '聂子云'
+      'url': 'http://www.niezitalk.com/'
+    - 'name': '张凯峰'
+      'url': 'https://www.kaifengzhang.com/'
+    - 'name': 'Thoughtworks洞见'
+      'url': 'https://insights.thoughtworks.cn/'
+    - 'name': '面向信仰编程'
+      'url': 'https://draveness.me/'
+    - 'name': '酷壳 (R.I.P.)'
+      'url': 'https://coolshell.cn/'
+    - 'name': 'Limboy'
+      'url': 'https://limboy.me/'
+    - 'name': '策引'
+      'url': 'https://www.myinvestpilot.com/'
+    - 'name': 'MinePilot'
+      'url': 'https://www.myminepilot.com/'
+    - 'name': 'free4chat'
+      'url': 'https://www.free4.chat/'
+    - 'name': 'i365'
+      'url': 'https://www.i365.tech/'

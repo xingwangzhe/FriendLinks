@@ -1,20 +1,12 @@
-site:
-  name: "Reimu"
-  url: "https://blog.k8s.li/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Books"
-      url: "https://reading.k8s.li/"
-    - name: "Kindle"
-      url: "https://kindle.k8s.li/"
-    - name: "GitHub"
-      url: "https://github.com/muzi502"
-    - name: "Twitter"
-      url: "https://twitter.com/muzi_ii"
-    - name: "Telegram"
-      url: "https://t.me/muzi502"
-    - name: "Hexo"
-      url: "https://hexo.io/"
-    - name: "NexT.Gemini"
-      url: "https://theme-next.js.org/"
+'site':
+  'name': 'Reimu'
+  'url': 'https://blog.k8s.li/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Books'
+      'url': 'https://reading.k8s.li/'
+    - 'name': 'Kindle'
+      'url': 'https://kindle.k8s.li/'
+    - 'name': 'NexT.Gemini'
+      'url': 'https://theme-next.js.org/'

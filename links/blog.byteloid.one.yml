@@ -1,100 +1,128 @@
-site:
-  name: "Bingxin Blog"
-  url: "https://blog.byteloid.one/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "DN42"
-      url: "https://dn42.baka.pub/peering-request/bingxin-network.html"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "Baka.AC\n            笨蛋的实验室"
-      url: "https://baka.ac.cn"
-    - name: "动车组担当查询\n            RailGo附属项目"
-      url: "https://crtracker.azteam.cn"
-    - name: "23335507的生草小站\n            闲聊和草"
-      url: "https://www.233355607.xyz"
-    - name: "XieXiLin 的小站\n            一个学生的小站点"
-      url: "https://www.xiexilin.com"
-    - name: "Yanmo Blog\n            屑博（划）"
-      url: "https://ymbit.cn"
-    - name: "荣6的博客\n            永远相信美好的事情即将发生！"
-      url: "https://rong6.cn"
-    - name: "思遥方的小家\n            翻译 · 创作 · 日常"
-      url: "https://blog.1kyr.top"
-    - name: "晓雨杂记\n            也许我们会分别，但我们将永远不会忘记彼此。"
-      url: "https://lihaoyu.cn/"
-    - name: "mail_set 的铺子\n            只是一个博客"
-      url: "https://www.mailset.top"
-    - name: "御坂秋生の小窝\n            不努力就只能听到别人的好消息"
-      url: "https://www.akio.top"
-    - name: "沙雕的Blog\n            哈喽~欢迎光临"
-      url: "https://blog.sdbit.net.cn/"
-    - name: "Clover Yan 的小屋\n            生命是灰色的，理论之树常青。"
-      url: "http://khyan.top"
-    - name: "随笔空雨\n            记下空雨之事."
-      url: "https://rainsky.xyz"
-    - name: "确石如此\n            A blog site from CertStone."
-      url: "https://certstone.top/"
-    - name: "寒寒\n            技术菜菜，梦想大大"
-      url: "https://alikia2x.com/"
-    - name: "Restent Ou\n            Secret with Silent"
-      url: "https://www.gxres.net"
-    - name: "Cynosura\n            Trying to light up the dark."
-      url: "https://cynosura.one"
-    - name: "worable's Blog\n            ≡ω≡ 嗯对，一名普通的职一牲~"
-      url: "https://www.worable.top"
-    - name: "墨夜の博客\n            日常记录之处"
-      url: "https://inknight.org"
-    - name: "chihuo2104の部落格\n            一个不喜欢随波逐流的高中生的blog"
-      url: "https://blog.chihuo2104.dev/"
-    - name: "Ursa Major\n            Further Beyond."
-      url: "https://elfile4138.moe/"
-    - name: "liuzhen932 的小窝\n            只要愿意去做，人无所不通"
-      url: "https://blog.liuzhen932.top/"
-    - name: "AULyPcのBlog\n            今日も生きててえらい ☁"
-      url: "https://blog.aulypc0x0.online"
-    - name: "阳帆の小窝\n            黄鹤一去不复返，白云千载空悠悠"
-      url: "https://blog.wolfyang.fan"
-    - name: "零狼 の 小窝\n            为了前行而努力，即使前方不一定有光。"
-      url: "https://zerowolf.cn/"
-    - name: "阿龙的笔记\n            阿巴阿巴…"
-      url: "https://www.alongw.cn/"
-    - name: "米露小窝\n            放弃个性,就和死了没什么区别"
-      url: "https://milu.ink"
-    - name: "Daiyangcheng‘s Blog\n            dyc 的碎碎念"
-      url: "https://www.daiyangcheng.cn/"
-    - name: "IcyBlog\n            IcyBlog Share My Life"
-      url: "https://blog.icybit.cn"
-    - name: "SerinaNya\n            哇这个好可爱呀"
-      url: "https://serinanya.cn/"
-    - name: "盐木的小破站\n            卷土重来未可知。——《题乌江亭》"
-      url: "https://ski.ink/"
-    - name: "damesck的小屋\n            致不完美的明天_"
-      url: "https://damesck.net"
-    - name: "三河の小窝\n            在这里分享有趣的资源"
-      url: "https://blog.17347417.xyz/"
-    - name: "听风小屋\n            近水楼台先得月，向阳花木易为春"
-      url: "https://blog.ifeng.asia/"
-    - name: "洛雨の小站\n            历史终将证明一切"
-      url: "https://luotianyi.eu/"
-    - name: "汐雨 Zone\n            以自己的一切面对世间"
-      url: "https://aurorainic.top"
-    - name: "熊猫の小窝\n            一个温暖的家/一只懒懒的熊猫"
-      url: "https://www.pysio.online/"
-    - name: "森钢SenGun\n            一个五行缺木和金的鳗～"
-      url: "https://sengun.cc/"
-    - name: "libxcnya.so の Blog\n            静かで奥深い"
-      url: "https://blog.xcnya.cn/"
-    - name: "Norcleeh's Site\n            由一条咸鱼搭建的网站"
-      url: "https://nocp.space"
-    - name: "祈杰のblog\n            敬不完美的...明天。"
-      url: "https://qijieya.cn/"
-    - name: "Jack≠Hijack\n            乱喊？那我可就 “Hijack” 全场啦"
-      url: "https://www.yuheng.hl.cn/"
-    - name: "VConet的杂物间\n            探索，永不停息"
-      url: "https://blog.vconet.top/"
-    - name: "Nekro’s SEKAI\n            愿此行，终抵群星。"
-      url: "https://www.nekro.top/"
-    - name: "蜓留\n            飞行于世，栖息一隅"
-      url: "https://odonata.top/"
+'site':
+  'name': 'Bingxin Blog'
+  'url': 'https://blog.byteloid.one/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'DN42'
+      'url': 'https://dn42.baka.pub/peering-request/bingxin-network.html'
+    - 'name': "Baka.AC\n            笨蛋的实验室"
+      'url': 'https://baka.ac.cn'
+    - 'name': "动车组担当查询\n            RailGo附属项目"
+      'url': 'https://crtracker.azteam.cn'
+    - 'name': "23335507的生草小站\n            闲聊和草"
+      'url': 'https://www.233355607.xyz'
+    - 'name': "XieXiLin 的小站\n            一个学生的小站点"
+      'url': 'https://www.xiexilin.com'
+    - 'name': "Yanmo Blog\n            屑博（划）"
+      'url': 'https://ymbit.cn'
+    - 'name': "荣6的博客\n            永远相信美好的事情即将发生！"
+      'url': 'https://rong6.cn'
+    - 'name': "思遥方的小家\n            翻译 · 创作 · 日常"
+      'url': 'https://blog.1kyr.top'
+    - 'name': "晓雨杂记
+
+        \            也许我们会分别，但我们将永远不会忘记彼此。"
+      'url': 'https://lihaoyu.cn/'
+    - 'name': "mail_set 的铺子\n            只是一个博客"
+      'url': 'https://www.mailset.top'
+    - 'name': "御坂秋生の小窝\n            不努力就只能听到别人的好消息"
+      'url': 'https://www.akio.top'
+    - 'name': "沙雕的Blog\n            哈喽~欢迎光临"
+      'url': 'https://blog.sdbit.net.cn/'
+    - 'name': "Clover Yan 的小屋
+
+        \            生命是灰色的，理论之树常青。"
+      'url': 'http://khyan.top'
+    - 'name': "随笔空雨\n            记下空雨之事."
+      'url': 'https://rainsky.xyz'
+    - 'name': "确石如此
+
+        \            A blog site from CertStone."
+      'url': 'https://certstone.top/'
+    - 'name': "寒寒\n            技术菜菜，梦想大大"
+      'url': 'https://alikia2x.com/'
+    - 'name': "Restent Ou
+
+        \            Secret with Silent"
+      'url': 'https://www.gxres.net'
+    - 'name': "Cynosura
+
+        \            Trying to light up the dark."
+      'url': 'https://cynosura.one'
+    - 'name': "worable's Blog
+
+        \            ≡ω≡ 嗯对，一名普通的职一牲~"
+      'url': 'https://www.worable.top'
+    - 'name': "墨夜の博客\n            日常记录之处"
+      'url': 'https://inknight.org'
+    - 'name': "chihuo2104の部落格
+
+        \            一个不喜欢随波逐流的高中生的blog"
+      'url': 'https://blog.chihuo2104.dev/'
+    - 'name': "Ursa Major
+
+        \            Further Beyond."
+      'url': 'https://elfile4138.moe/'
+    - 'name': "liuzhen932 的小窝
+
+        \            只要愿意去做，人无所不通"
+      'url': 'https://blog.liuzhen932.top/'
+    - 'name': "AULyPcのBlog\n            今日も生きててえらい ☁"
+      'url': 'https://blog.aulypc0x0.online'
+    - 'name': "阳帆の小窝\n            黄鹤一去不复返，白云千载空悠悠"
+      'url': 'https://blog.wolfyang.fan'
+    - 'name': "零狼 の 小窝
+
+        \            为了前行而努力，即使前方不一定有光。"
+      'url': 'https://zerowolf.cn/'
+    - 'name': "阿龙的笔记\n            阿巴阿巴…"
+      'url': 'https://www.alongw.cn/'
+    - 'name': "米露小窝\n            放弃个性,就和死了没什么区别"
+      'url': 'https://milu.ink'
+    - 'name': "Daiyangcheng‘s Blog
+
+        \            dyc 的碎碎念"
+      'url': 'https://www.daiyangcheng.cn/'
+    - 'name': "IcyBlog
+
+        \            IcyBlog Share My Life"
+      'url': 'https://blog.icybit.cn'
+    - 'name': "SerinaNya\n            哇这个好可爱呀"
+      'url': 'https://serinanya.cn/'
+    - 'name': "盐木的小破站\n            卷土重来未可知。——《题乌江亭》"
+      'url': 'https://ski.ink/'
+    - 'name': "damesck的小屋\n            致不完美的明天_"
+      'url': 'https://damesck.net'
+    - 'name': "三河の小窝\n            在这里分享有趣的资源"
+      'url': 'https://blog.17347417.xyz/'
+    - 'name': "听风小屋\n            近水楼台先得月，向阳花木易为春"
+      'url': 'https://blog.ifeng.asia/'
+    - 'name': "洛雨の小站\n            历史终将证明一切"
+      'url': 'https://luotianyi.eu/'
+    - 'name': "汐雨 Zone\n            以自己的一切面对世间"
+      'url': 'https://aurorainic.top'
+    - 'name': "熊猫の小窝\n            一个温暖的家/一只懒懒的熊猫"
+      'url': 'https://www.pysio.online/'
+    - 'name': "森钢SenGun\n            一个五行缺木和金的鳗～"
+      'url': 'https://sengun.cc/'
+    - 'name': "libxcnya.so の Blog
+
+        \            静かで奥深い"
+      'url': 'https://blog.xcnya.cn/'
+    - 'name': "Norcleeh's Site
+
+        \            由一条咸鱼搭建的网站"
+      'url': 'https://nocp.space'
+    - 'name': "祈杰のblog\n            敬不完美的...明天。"
+      'url': 'https://qijieya.cn/'
+    - 'name': "Jack≠Hijack
+
+        \            乱喊？那我可就 “Hijack” 全场啦"
+      'url': 'https://www.yuheng.hl.cn/'
+    - 'name': "VConet的杂物间\n            探索，永不停息"
+      'url': 'https://blog.vconet.top/'
+    - 'name': "Nekro’s SEKAI\n            愿此行，终抵群星。"
+      'url': 'https://www.nekro.top/'
+    - 'name': "蜓留\n            飞行于世，栖息一隅"
+      'url': 'https://odonata.top/'

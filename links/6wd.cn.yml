@@ -1,16 +1,6 @@
-site:
-  name: "枫の屋"
-  url: "https://6wd.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "服务器监控"
-      url: "https://ag.6wd.cn"
-    - name: "豫ICP备2024085089号"
-      url: "https://beian.miit.gov.cn/"
-    - name: "豫公网安备 41138102000261号"
-      url: "http://www.beian.gov.cn/portal/registerSystemInfo"
-    - name: "Astro"
-      url: "https://astro.build"
-    - name: "Mizuki"
-      url: "https://github.com/LyraVoid/Mizuki"
+'site':
+  'name': '枫の屋'
+  'url': 'https://6wd.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends': []

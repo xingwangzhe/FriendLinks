@@ -1,58 +1,56 @@
-site:
-  name: 木偶の笔记
-  description: 记录学习、生活中的点点滴滴~
-  url: https://www.pupper.cn
-  links: /link/
-  friends:
-    - name: Akilar
-      url: https://akilar.top/
-    - name: 张洪Heo
-      url: https://blog.zhheo.com/
-    - name: 安知鱼
-      url: https://blog.anheyu.com/
-    - name: 小植同学
-      url: https://blog.xiaoztx.top
-    - name: Fomalhaut
-      url: https://www.fomal.cc/
-    - name: Mr.喵帕斯
-      url: https://blog.mpsxx.top
-    - name: 怕冷爱上雪
-      url: https://blog.4t.pw/
-    - name: 启明曙光科技
-      url: https://www.orientdawn.com
-    - name: 贰猹
-      url: https://noionion.top/
-    - name: 萌傀儡
-      url: https://blhorizon.github.io/
-    - name: 屑殇
-      url: https://jinghuashang.cn/
-    - name: 海阔蓝
-      url: https://blog.hklan.top/
-    - name: 铭心石刻
-      url: https://blog.kouseki.cn/
-    - name: Leonus
-      url: https://blog.leonus.cn/
-    - name: 青桔气球
-      url: https://blog.qjqq.cn/
-    - name: GanSer
-      url: https://www.gan1ser.top/
-    - name: 老生杂谈的 IT 人
-      url: https://www.oldit.cn
-    - name: 未知之旅
-      url: https://blog.xenosp.cn/
-    - name: 夜雨柠檬
-      url: https://blog.yeyulemon.top/
-    - name: yiiko
-      url: https://blog.yik.at/
-    - name: Calyee
-      url: https://blog.calyee.top/
-    - name: Naokuo
-      url: https://www.naokuo.top
-    - name: 前尘小筑
-      url: https://mnchen.cn/
-    - name: 周润发
-      url: https://blog.aizrf.com/
-    - name: Ethereal
-      url: https://ethereal.ac.cn
-    - name: Mr.Sun的博客
-      url: https://www.mrsunn.cn
+'site':
+  'name': '木偶の笔记'
+  'description': '记录学习、生活中的点点滴滴~'
+  'url': 'https://www.pupper.cn'
+  'links': '/link/'
+  'friends':
+    - 'name': 'Akilar'
+      'url': 'https://akilar.top/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '小植同学'
+      'url': 'https://blog.xiaoztx.top'
+    - 'name': 'Fomalhaut'
+      'url': 'https://www.fomal.cc/'
+    - 'name': 'Mr.喵帕斯'
+      'url': 'https://blog.mpsxx.top'
+    - 'name': '怕冷爱上雪'
+      'url': 'https://blog.4t.pw/'
+    - 'name': '启明曙光科技'
+      'url': 'https://www.orientdawn.com'
+    - 'name': '贰猹'
+      'url': 'https://noionion.top/'
+    - 'name': '屑殇'
+      'url': 'https://jinghuashang.cn/'
+    - 'name': '海阔蓝'
+      'url': 'https://blog.hklan.top/'
+    - 'name': '铭心石刻'
+      'url': 'https://blog.kouseki.cn/'
+    - 'name': 'Leonus'
+      'url': 'https://blog.leonus.cn/'
+    - 'name': '青桔气球'
+      'url': 'https://blog.qjqq.cn/'
+    - 'name': 'GanSer'
+      'url': 'https://www.gan1ser.top/'
+    - 'name': '老生杂谈的 IT 人'
+      'url': 'https://www.oldit.cn'
+    - 'name': '未知之旅'
+      'url': 'https://blog.xenosp.cn/'
+    - 'name': '夜雨柠檬'
+      'url': 'https://blog.yeyulemon.top/'
+    - 'name': 'yiiko'
+      'url': 'https://blog.yik.at/'
+    - 'name': 'Calyee'
+      'url': 'https://blog.calyee.top/'
+    - 'name': 'Naokuo'
+      'url': 'https://www.naokuo.top'
+    - 'name': '前尘小筑'
+      'url': 'https://mnchen.cn/'
+    - 'name': '周润发'
+      'url': 'https://blog.aizrf.com/'
+    - 'name': 'Ethereal'
+      'url': 'https://ethereal.ac.cn'
+    - 'name': 'Mr.Sun的博客'
+      'url': 'https://www.mrsunn.cn'

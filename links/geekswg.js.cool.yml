@@ -1,86 +1,44 @@
-site:
-  name: "geekswg.js.cool"
-  description: "友情链接"
-  url: "https://geekswg.js.cool/"
-  links: "/friends"
-  friends:
-    - name: "了解更多"
-      url: "https://www.cookiesandyou.com"
-    - name: "影视"
-      url: "https://libretv.geekswg.dpdns.org/"
-    - name: "4.开往"
-      url: "https://travellings.cn/go-by-clouds.html"
-    - name: "5.黑洞"
-      url: "https://www.foreverblog.cn/go.html"
-    - name: "Blog-342901.xyz"
-      url: "https://blog.342901.xyz"
-    - name: "Blog-Astro-Mizuki"
-      url: "https://astro.342901.xyz/"
-    - name: "Blog-CloudFlare"
-      url: "https://geekswg.pages.dev/"
-    - name: "Blog-Hexo-Anzhiyu"
-      url: "https://hexo.geekswg.dpdns.org"
-    - name: "Blog-Netlify"
-      url: "https://geekswg.netlify.app/"
-    - name: "Blog-stellar"
-      url: "https://gavinblog.github.io/stellar/"
-    - name: "umami"
-      url: "https://cloud.umami.is/share/FLnT7nP7X3IXiB0C"
-    - name: "站点监测"
-      url: "https://status.geekswg.dpdns.org/"
-    - name: "开往"
-      url: "https://www.travellings.cn/go-by-clouds.html"
-    - name: "@Hexo 博客"
-      url: "https://hexo.geekswg.dpdns.org/"
-    - name: "@FixIt-Doc"
-      url: "https://fixit.lruihao.cn/zh-cn/"
-    - name: "@Lruihao"
-      url: "https://lruihao.cn"
-    - name: "@张洪 Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "@雨临 Lewis"
-      url: "https://lewky.cn"
-    - name: "@ADD"
-      url: "https://github.com/geekswg/blog-fixit/edit/master/data/friends.yml"
-    - name: "创建 PR"
-      url: "https://github.com/geekswg/blog-fixit/pulls"
-    - name: "黑盒出关・三把钥匙定江湖1024@lruihao.cn (Lruihao)2025-08-05 11:31:52"
-      url: "https://lruihao.cn/posts/wc-01-prologue/"
-    - name: "cron表达式文章作者2025-03-06 23:52:35"
-      url: "https://lewky.cn/posts/cron/"
-    - name: "cmd - 常用命令文章作者2025-02-03 21:28:39"
-      url: "https://lewky.cn/posts/cmd-commands/"
-    - name: "Eureka问题汇总文章作者2025-01-09 17:29:20"
-      url: "https://lewky.cn/posts/eureka-issues/"
-    - name: "Excel常见用法文章作者2024-12-16 23:04:22"
-      url: "https://lewky.cn/posts/excel-skill/"
-    - name: "shell脚本常用语法文章作者2024-11-25 00:09:52"
-      url: "https://lewky.cn/posts/shell/"
-    - name: "Notes/常用笔记geekswg@qq.com (geekswg)2026-03-07 15:01:09"
-      url: "https://geekswg.js.cool/posts/2026/comm-note/"
-    - name: "Hugo博客添加作者声明geekswg@qq.com (geekswg)2026-03-03 18:14:12"
-      url: "https://geekswg.js.cool/posts/2026/hugo-add-author-statement/"
-    - name: "代码块功能增强geekswg@qq.com (geekswg)2026-01-25 16:18:21"
-      url: "https://geekswg.js.cool/posts/2026/codeblock-demo/"
-    - name: "hugo博客添加数据统计页面geekswg@qq.com (geekswg)2026-01-24 15:22:51"
-      url: "https://geekswg.js.cool/posts/2026/blog-stats/"
-    - name: "js的魔法特效geekswg@qq.com (geekswg)2026-01-19 18:51:00"
-      url: "https://geekswg.js.cool/posts/2026/js-magic/"
-    - name: "快速上手1024@lruihao.cn (Lruihao)2024-03-01 15:18:19"
-      url: "https://fixit.lruihao.cn/zh-cn/documentation/getting-started/quick-start/"
-    - name: "代码块扩展语法 - JSON1024@lruihao.cn (Lruihao)2025-10-14 06:49:42"
-      url: "https://fixit.lruihao.cn/zh-cn/documentation/content-management/json-viewer/"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "Hugo"
-      url: "https://gohugo.io/"
-    - name: "FixIt"
-      url: "https://github.com/hugo-fixit/FixIt"
-    - name: "geekswg"
-      url: "https://github.com/geekswg"
-    - name: "CC BY-NC-SA 4.0"
-      url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "萌ICP备20231992号"
-      url: "https://icp.gov.moe/?keyword=20231992"
-    - name: "在 GitHub 查看代码"
-      url: "https://github.com/geekswg/blog-fixit/"
+'site':
+  'name': 'geekswg.js.cool'
+  'description': '友情链接'
+  'url': 'https://geekswg.js.cool/'
+  'links': '/friends'
+  'friends':
+    - 'name': '了解更多'
+      'url': 'https://www.cookiesandyou.com'
+    - 'name': '影视'
+      'url': 'https://libretv.geekswg.dpdns.org/'
+    - 'name': 'Blog-342901.xyz'
+      'url': 'https://blog.342901.xyz'
+    - 'name': 'Blog-Astro-Mizuki'
+      'url': 'https://astro.342901.xyz/'
+    - 'name': 'Blog-Hexo-Anzhiyu'
+      'url': 'https://hexo.geekswg.dpdns.org'
+    - 'name': '@Hexo 博客'
+      'url': 'https://hexo.geekswg.dpdns.org/'
+    - 'name': '@FixIt-Doc'
+      'url': 'https://fixit.lruihao.cn/zh-cn/'
+    - 'name': '@Lruihao'
+      'url': 'https://lruihao.cn'
+    - 'name': '@张洪 Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '@雨临 Lewis'
+      'url': 'https://lewky.cn'
+    - 'name': '黑盒出关・三把钥匙定江湖1024@lruihao.cn (Lruihao)2025-08-05 11:31:52'
+      'url': 'https://lruihao.cn/posts/wc-01-prologue/'
+    - 'name': 'cron表达式文章作者2025-03-06 23:52:35'
+      'url': 'https://lewky.cn/posts/cron/'
+    - 'name': 'cmd - 常用命令文章作者2025-02-03 21:28:39'
+      'url': 'https://lewky.cn/posts/cmd-commands/'
+    - 'name': 'Eureka问题汇总文章作者2025-01-09 17:29:20'
+      'url': 'https://lewky.cn/posts/eureka-issues/'
+    - 'name': 'Excel常见用法文章作者2024-12-16 23:04:22'
+      'url': 'https://lewky.cn/posts/excel-skill/'
+    - 'name': 'shell脚本常用语法文章作者2024-11-25 00:09:52'
+      'url': 'https://lewky.cn/posts/shell/'
+    - 'name': '快速上手1024@lruihao.cn (Lruihao)2024-03-01 15:18:19'
+      'url': 'https://fixit.lruihao.cn/zh-cn/documentation/getting-started/quick-start/'
+    - 'name': '代码块扩展语法 - JSON1024@lruihao.cn (Lruihao)2025-10-14 06:49:42'
+      'url': 'https://fixit.lruihao.cn/zh-cn/documentation/content-management/json-viewer/'
+    - 'name': 'CC BY-NC-SA 4.0'
+      'url': 'https://creativecommons.org/licenses/by-nc-sa/4.0/'

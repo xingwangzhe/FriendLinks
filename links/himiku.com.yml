@@ -1,12 +1,10 @@
-site:
-  name: "himiku"
-  url: "https://himiku.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Anubis"
-      url: "https://github.com/TecharoHQ/anubis"
-    - name: "Techaro"
-      url: "https://techaro.lol"
-    - name: "CELPHASE"
-      url: "https://bsky.app/profile/celphase.bsky.social"
+'site':
+  'name': 'himiku'
+  'url': 'https://himiku.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Techaro'
+      'url': 'https://techaro.lol'
+    - 'name': 'CELPHASE'
+      'url': 'https://bsky.app/profile/celphase.bsky.social'

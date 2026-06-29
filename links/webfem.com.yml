@@ -1,48 +1,74 @@
-site:
-  name: "webfem.com"
-  description: "友情链接"
-  url: "https://webfem.com/"
-  links: "/friends"
-  friends:
-    - name: "陶小桃Blog\n                                热衷于分享日常和技术的机械专业小哥哥~"
-      url: "https://www.52txr.cn"
-    - name: "张洪Heo\n                                分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Tianli\n                                自知之明是最可贵的知识！"
-      url: "https://blog.tianli0.top/"
-    - name: "清羽飞扬\n                                柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
-      url: "https://blog.liushen.fun/"
-    - name: "马浩飞丨博客\n                                无限进步！"
-      url: "https://www.mahaofei.com/"
-    - name: "Kezade\n                                全栈开发，架构师，向往躺平"
-      url: "https://zyxelva.github.io"
-    - name: "夜法之书的Blog\n                                深度思考，深入生活！"
-      url: "https://blog.17lai.fun/"
-    - name: "王鑫的小屋\n                                一个玩转信用卡的招商人"
-      url: "https://wonse.info/"
-    - name: "Sukka's Blog\n                                童话只美在真实却从不续写"
-      url: "https://blog.skk.moe"
-    - name: "杜老师说\n                                师者，传道，授业，解惑！"
-      url: "https://dusays.com"
-    - name: "花非花\n                                回首向来萧瑟处，归去，也无风雨也无晴。"
-      url: "https://www.941741.xyz/"
-    - name: "贪婪的君子\n                                君子不器"
-      url: "https://iachieveall.com/"
-    - name: "joojenZhou 个人网站\n                                升级人生系统"
-      url: "https://joojen.com"
-    - name: "小妖客栈\n                                精选优质内容，一站式上网体验"
-      url: "https://wangkay.top"
-    - name: "Apex-八尺妖剑\n                                一个爱玩马超的游戏程序员。"
-      url: "https://www.ilikexff.cn/"
-    - name: "韩小韩博客\n                                运气是计划之外的东西."
-      url: "https://www.vvhan.com/"
-    - name: "雅余\n                                茶余饭后，闲情雅致"
-      url: "https://yayu.net/"
-    - name: "Onew\n                                学习是进步的阶梯"
-      url: "https://blog.onew.us.kg/"
-    - name: "https://webfem.com"
-      url: "https://webfem.com"
-    - name: "https://webfem.com/img/logo.jpg"
-      url: "https://webfem.com/img/logo.jpg"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
+'site':
+  'name': 'webfem.com'
+  'description': '友情链接'
+  'url': 'https://webfem.com/'
+  'links': '/friends'
+  'friends':
+    - 'name': "陶小桃Blog
+
+        \                                热衷于分享日常和技术的机械专业小哥哥~"
+      'url': 'https://www.52txr.cn'
+    - 'name': "张洪Heo
+
+        \                                分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "Tianli
+
+        \                                自知之明是最可贵的知识！"
+      'url': 'https://blog.tianli0.top/'
+    - 'name': "清羽飞扬
+
+        \                                柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
+      'url': 'https://blog.liushen.fun/'
+    - 'name': "马浩飞丨博客
+
+        \                                无限进步！"
+      'url': 'https://www.mahaofei.com/'
+    - 'name': "夜法之书的Blog
+
+        \                                深度思考，深入生活！"
+      'url': 'https://blog.17lai.fun/'
+    - 'name': "王鑫的小屋
+
+        \                                一个玩转信用卡的招商人"
+      'url': 'https://wonse.info/'
+    - 'name': "Sukka's Blog
+
+        \                                童话只美在真实却从不续写"
+      'url': 'https://blog.skk.moe'
+    - 'name': "杜老师说
+
+        \                                师者，传道，授业，解惑！"
+      'url': 'https://dusays.com'
+    - 'name': "花非花
+
+        \                                回首向来萧瑟处，归去，也无风雨也无晴。"
+      'url': 'https://www.941741.xyz/'
+    - 'name': "贪婪的君子
+
+        \                                君子不器"
+      'url': 'https://iachieveall.com/'
+    - 'name': "joojenZhou 个人网站
+
+        \                                升级人生系统"
+      'url': 'https://joojen.com'
+    - 'name': "小妖客栈
+
+        \                                精选优质内容，一站式上网体验"
+      'url': 'https://wangkay.top'
+    - 'name': "Apex-八尺妖剑
+
+        \                                一个爱玩马超的游戏程序员。"
+      'url': 'https://www.ilikexff.cn/'
+    - 'name': "韩小韩博客
+
+        \                                运气是计划之外的东西."
+      'url': 'https://www.vvhan.com/'
+    - 'name': "雅余
+
+        \                                茶余饭后，闲情雅致"
+      'url': 'https://yayu.net/'
+    - 'name': "Onew
+
+        \                                学习是进步的阶梯"
+      'url': 'https://blog.onew.us.kg/'

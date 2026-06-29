@@ -1,24 +1,16 @@
-site:
-  name: "111654.xyz"
-  description: "友情链接"
-  url: "https://111654.xyz/"
-  links: "/friends"
-  friends:
-    - name: "白荼日记\n                                    望山叹高，登愈艰。入世哀难，伤无泪。"
-      url: "https://blog.iletter.top/"
-    - name: "NNNullptr南\n                                    数学生的古早拼贴风格网站"
-      url: "https://xnmoe.com"
-    - name: "https://www.ittoolman.top/images/avatar.png"
-      url: "https://www.ittoolman.top/images/avatar.png"
-    - name: "HansJack"
-      url: "https://hansjack.com/"
-    - name: "https://hansjack.com/\""
-      url: "https://hansjack.com/\""
-    - name: "https://hansjack.com/favicon/avatar.png\""
-      url: "https://hansjack.com/favicon/avatar.png\""
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "蜀ICP备2023036728号-2"
-      url: "https://beian.miit.gov.cn"
-    - name: "本站所有内容除特别声明外，均采用 CC BY-NC-SA 4.0 许可协议。"
-      url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+'site':
+  'name': '111654.xyz'
+  'description': '友情链接'
+  'url': 'https://111654.xyz/'
+  'links': '/friends'
+  'friends':
+    - 'name': "白荼日记
+
+        \                                    望山叹高，登愈艰。入世哀难，伤无泪。"
+      'url': 'https://blog.iletter.top/'
+    - 'name': "NNNullptr南
+
+        \                                    数学生的古早拼贴风格网站"
+      'url': 'https://xnmoe.com'
+    - 'name': 'HansJack'
+      'url': 'https://hansjack.com/'

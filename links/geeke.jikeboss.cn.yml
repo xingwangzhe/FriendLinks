@@ -1,138 +1,120 @@
-site:
-  name: "geeke.jikeboss.cn"
-  description: "友情链接"
-  url: "https://geeke.jikeboss.cn/"
-  links: "/link"
-  friends:
-    - name: "副业课程 搞钱"
-      url: "https://ug95.com/category/ziyuan/"
-    - name: "福缘网"
-      url: "https://ug95.com/category/ziyuan/fuyuan/"
-    - name: "中创网"
-      url: "https://ug95.com/category/ziyuan/zhongchuan/"
-    - name: "冒泡网"
-      url: "https://ug95.com/category/ziyuan/maopao/"
-    - name: "自学网"
-      url: "https://ug95.com/category/ziyuan/zixue/"
-    - name: "网站建设 程序"
-      url: "https://ug95.com/category/wzjs/"
-    - name: "网站源码"
-      url: "https://ug95.com/category/wzjs/yuanma/"
-    - name: "子比美化"
-      url: "https://ug95.com/category/wzjs/meihua/"
-    - name: "W P 插件"
-      url: "https://ug95.com/category/wzjs/chajian/"
-    - name: "技术教程"
-      url: "https://ug95.com/category/wzjs/jishu/"
-    - name: "会员中心 打折"
-      url: "https://ug95.com/vip"
-    - name: "关于我们"
-      url: "https://ug95.com/gywm/"
-    - name: "免责申明"
-      url: "https://ug95.com/mzsm/"
-    - name: "服务协议"
-      url: "https://ug95.com/fwxy/"
-    - name: "隐私政策"
-      url: "https://ug95.com/privacy-policy/"
-    - name: "友情链接"
-      url: "https://ug95.com/youqing/"
-    - name: "码支付"
-      url: "https://ug95.com/?s=码支付&type=post"
-    - name: "2027"
-      url: "https://ug95.com/?s=2027&type=post"
-    - name: "易支付"
-      url: "https://ug95.com/?s=易支付&type=post"
-    - name: "拉新"
-      url: "https://ug95.com/?s=拉新&type=post"
-    - name: "网站地图"
-      url: "https://ug95.com/?s=网站地图&type=post"
-    - name: "弹窗"
-      url: "https://ug95.com/?s=弹窗&type=post"
-    - name: "2026"
-      url: "https://ug95.com/?s=2026&type=post"
-    - name: "发布页"
-      url: "https://ug95.com/?s=发布页&type=post"
-    - name: "ea量化"
-      url: "https://ug95.com/?s=ea量化&type=post"
-    - name: "2025"
-      url: "https://ug95.com/?s=2025&type=post"
-    - name: "新发布"
-      url: "https://ug95.com/?s=新发布&type=post"
-    - name: "广告"
-      url: "https://ug95.com/?s=广告&type=post"
-    - name: "会员中心"
-      url: "https://ug95.com/?s=会员中心&type=post"
-    - name: "子比"
-      url: "https://ug95.com/?s=子比&type=post"
-    - name: "可灵"
-      url: "https://ug95.com/?s=可灵&type=post"
-    - name: "夸夸"
-      url: "https://ug95.com/?s=夸夸&type=post"
-    - name: "网盘"
-      url: "https://ug95.com/?s=网盘&type=post"
-    - name: "发布"
-      url: "https://ug95.com/newposts/"
-    - name: "找回密码"
-      url: "https://ug95.com/user-sign/?tab=resetpassword&redirect_to=https://ug95.com/53811.html/"
-    - name: "QQ登录"
-      url: "https://ug95.com/oauth/clogin?type=qq&rurl=https%3A%2F%2Fug95.com%2F53811.html%2F"
-    - name: "微信登录"
-      url: "https://ug95.com/oauth/clogin?type=weixin&rurl=https%3A%2F%2Fug95.com%2F53811.html%2F"
-    - name: "LinkedIn 营销实战指南：快速掌握专业技巧，精准开发外贸客户"
-      url: "https://ug95.com/53811.html/"
-    - name: "QQ空间"
-      url: "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://ug95.com/53811.html/&title=LinkedIn 营销实战指南：快速掌握专业技巧，精准开发外贸客户-优聚轻创&pics=https://ug95.com/wp-content/uploads/replace/2026/06/12/5fe6c7e59d1d35fdcc3ad8135a12c868.jpeg&summary=本文介绍了LinkedIn营销的优势和特点，以及一个针对LinkedIn营销的详细课程大纲。通过该课程，学习者可以掌握快速入门LinkedIn的方法技巧，并找到更多的精准客户。适合新外贸人和无思路的业务员。 课程大纲 【Linkedin】01.简介&注册 【Linkedin】02.主界面功能介绍 【Linkedin】03.头像上传 【Linkedin】04.完善档案（一） 【Linkedin】05...."
-    - name: "微博"
-      url: "https://service.weibo.com/share/share.php?url=https://ug95.com/53811.html/&title=LinkedIn 营销实战指南：快速掌握专业技巧，精准开发外贸客户-优聚轻创&pic=https://ug95.com/wp-content/uploads/replace/2026/06/12/5fe6c7e59d1d35fdcc3ad8135a12c868.jpeg&searchPic=false"
-    - name: "QQ好友"
-      url: "https://connect.qq.com/widget/shareqq/index.html?url=https://ug95.com/53811.html/&title=LinkedIn 营销实战指南：快速掌握专业技巧，精准开发外贸客户-优聚轻创&pics=https://ug95.com/wp-content/uploads/replace/2026/06/12/5fe6c7e59d1d35fdcc3ad8135a12c868.jpeg&desc=本文介绍了LinkedIn营销的优势和特点，以及一个针对LinkedIn营销的详细课程大纲。通过该课程，学习者可以掌握快速入门LinkedIn的方法技巧，并找到更多的精准客户。适合新外贸人和无思路的业务员。 课程大纲 【Linkedin】01.简介&注册 【Linkedin】02.主界面功能介绍 【Linkedin】03.头像上传 【Linkedin】04.完善档案（一） 【Linkedin】05...."
-    - name: "运行"
-      url: "https://ug95.com/tag/%e8%bf%90%e8%a1%8c/"
-    - name: "豆包"
-      url: "https://ug95.com/tag/%e8%b1%86%e5%8c%85/"
-    - name: "美化"
-      url: "https://ug95.com/tag/%e7%be%8e%e5%8c%96/"
-    - name: "网站地图"
-      url: "https://ug95.com/tag/%e7%bd%91%e7%ab%99%e5%9c%b0%e5%9b%be/"
-    - name: "缓存"
-      url: "https://ug95.com/tag/%e7%bc%93%e5%ad%98/"
-    - name: "私信"
-      url: "https://ug95.com/tag/%e7%a7%81%e4%bf%a1/"
-    - name: "用户管理"
-      url: "https://ug95.com/tag/%e7%94%a8%e6%88%b7%e7%ae%a1%e7%90%86/"
-    - name: "文章顶部信息"
-      url: "https://ug95.com/tag/%e6%96%87%e7%ab%a0%e9%a1%b6%e9%83%a8%e4%bf%a1%e6%81%af/"
-    - name: "文章角标"
-      url: "https://ug95.com/tag/%e6%96%87%e7%ab%a0%e8%a7%92%e6%a0%87/"
-    - name: "数据库"
-      url: "https://ug95.com/tag/%e6%95%b0%e6%8d%ae%e5%ba%93/"
-    - name: "改价"
-      url: "https://ug95.com/tag/%e6%94%b9%e4%bb%b7/"
-    - name: "插件"
-      url: "https://ug95.com/tag/%e6%8f%92%e4%bb%b6/"
-    - name: "弹窗"
-      url: "https://ug95.com/tag/%e5%bc%b9%e7%aa%97/"
-    - name: "弹幕"
-      url: "https://ug95.com/tag/%e5%bc%b9%e5%b9%95/"
-    - name: "底部提示"
-      url: "https://ug95.com/tag/%e5%ba%95%e9%83%a8%e6%8f%90%e7%a4%ba/"
-    - name: "底部按钮"
-      url: "https://ug95.com/tag/%e5%ba%95%e9%83%a8%e6%8c%89%e9%92%ae/"
-    - name: "广告位"
-      url: "https://ug95.com/tag/%e5%b9%bf%e5%91%8a%e4%bd%8d/"
-    - name: "小黑屋"
-      url: "https://ug95.com/tag/%e5%b0%8f%e9%bb%91%e5%b1%8b/"
-    - name: "小工具"
-      url: "https://ug95.com/tag/%e5%b0%8f%e5%b7%a5%e5%85%b7/"
-    - name: "字体"
-      url: "https://ug95.com/tag/%e5%ad%97%e4%bd%93/"
-    - name: "子比"
-      url: "https://ug95.com/tag/%e5%ad%90%e6%af%94/"
-    - name: "夸夸"
-      url: "https://ug95.com/tag/%e5%a4%b8%e5%a4%b8/"
-    - name: "头像"
-      url: "https://ug95.com/tag/%e5%a4%b4%e5%83%8f/"
-    - name: "网站地图"
-      url: "https://ug95.com/sitemap.xml"
-    - name: "找回密码"
-      url: "https://ug95.com/user-sign/?tab=resetpassword&redirect_to=https%3A%2F%2Fug95.com%2F53811.html%2F"
+'site':
+  'name': 'geeke.jikeboss.cn'
+  'description': '友情链接'
+  'url': 'https://geeke.jikeboss.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '副业课程 搞钱'
+      'url': 'https://ug95.com/category/ziyuan/'
+    - 'name': '福缘网'
+      'url': 'https://ug95.com/category/ziyuan/fuyuan/'
+    - 'name': '中创网'
+      'url': 'https://ug95.com/category/ziyuan/zhongchuan/'
+    - 'name': '冒泡网'
+      'url': 'https://ug95.com/category/ziyuan/maopao/'
+    - 'name': '自学网'
+      'url': 'https://ug95.com/category/ziyuan/zixue/'
+    - 'name': '网站建设 程序'
+      'url': 'https://ug95.com/category/wzjs/'
+    - 'name': '网站源码'
+      'url': 'https://ug95.com/category/wzjs/yuanma/'
+    - 'name': '子比美化'
+      'url': 'https://ug95.com/category/wzjs/meihua/'
+    - 'name': 'W P 插件'
+      'url': 'https://ug95.com/category/wzjs/chajian/'
+    - 'name': '技术教程'
+      'url': 'https://ug95.com/category/wzjs/jishu/'
+    - 'name': '会员中心 打折'
+      'url': 'https://ug95.com/vip'
+    - 'name': '关于我们'
+      'url': 'https://ug95.com/gywm/'
+    - 'name': '免责申明'
+      'url': 'https://ug95.com/mzsm/'
+    - 'name': '服务协议'
+      'url': 'https://ug95.com/fwxy/'
+    - 'name': '隐私政策'
+      'url': 'https://ug95.com/privacy-policy/'
+    - 'name': '码支付'
+      'url': 'https://ug95.com/?s=码支付&type=post'
+    - 'name': '易支付'
+      'url': 'https://ug95.com/?s=易支付&type=post'
+    - 'name': '拉新'
+      'url': 'https://ug95.com/?s=拉新&type=post'
+    - 'name': '网站地图'
+      'url': 'https://ug95.com/?s=网站地图&type=post'
+    - 'name': '弹窗'
+      'url': 'https://ug95.com/?s=弹窗&type=post'
+    - 'name': '发布页'
+      'url': 'https://ug95.com/?s=发布页&type=post'
+    - 'name': 'ea量化'
+      'url': 'https://ug95.com/?s=ea量化&type=post'
+    - 'name': '新发布'
+      'url': 'https://ug95.com/?s=新发布&type=post'
+    - 'name': '广告'
+      'url': 'https://ug95.com/?s=广告&type=post'
+    - 'name': '会员中心'
+      'url': 'https://ug95.com/?s=会员中心&type=post'
+    - 'name': '子比'
+      'url': 'https://ug95.com/?s=子比&type=post'
+    - 'name': '可灵'
+      'url': 'https://ug95.com/?s=可灵&type=post'
+    - 'name': '夸夸'
+      'url': 'https://ug95.com/?s=夸夸&type=post'
+    - 'name': '发布'
+      'url': 'https://ug95.com/newposts/'
+    - 'name': '找回密码'
+      'url': 'https://ug95.com/user-sign/?tab=resetpassword&redirect_to=https://ug95.com/53811.html/'
+    - 'name': 'QQ登录'
+      'url': 'https://ug95.com/oauth/clogin?type=qq&rurl=https%3A%2F%2Fug95.com%2F53811.html%2F'
+    - 'name': '微信登录'
+      'url': 'https://ug95.com/oauth/clogin?type=weixin&rurl=https%3A%2F%2Fug95.com%2F53811.html%2F'
+    - 'name': 'LinkedIn 营销实战指南：快速掌握专业技巧，精准开发外贸客户'
+      'url': 'https://ug95.com/53811.html/'
+    - 'name': '运行'
+      'url': 'https://ug95.com/tag/%e8%bf%90%e8%a1%8c/'
+    - 'name': '豆包'
+      'url': 'https://ug95.com/tag/%e8%b1%86%e5%8c%85/'
+    - 'name': '美化'
+      'url': 'https://ug95.com/tag/%e7%be%8e%e5%8c%96/'
+    - 'name': '网站地图'
+      'url': 'https://ug95.com/tag/%e7%bd%91%e7%ab%99%e5%9c%b0%e5%9b%be/'
+    - 'name': '缓存'
+      'url': 'https://ug95.com/tag/%e7%bc%93%e5%ad%98/'
+    - 'name': '私信'
+      'url': 'https://ug95.com/tag/%e7%a7%81%e4%bf%a1/'
+    - 'name': '用户管理'
+      'url': 'https://ug95.com/tag/%e7%94%a8%e6%88%b7%e7%ae%a1%e7%90%86/'
+    - 'name': '文章顶部信息'
+      'url': 'https://ug95.com/tag/%e6%96%87%e7%ab%a0%e9%a1%b6%e9%83%a8%e4%bf%a1%e6%81%af/'
+    - 'name': '文章角标'
+      'url': 'https://ug95.com/tag/%e6%96%87%e7%ab%a0%e8%a7%92%e6%a0%87/'
+    - 'name': '数据库'
+      'url': 'https://ug95.com/tag/%e6%95%b0%e6%8d%ae%e5%ba%93/'
+    - 'name': '改价'
+      'url': 'https://ug95.com/tag/%e6%94%b9%e4%bb%b7/'
+    - 'name': '插件'
+      'url': 'https://ug95.com/tag/%e6%8f%92%e4%bb%b6/'
+    - 'name': '弹窗'
+      'url': 'https://ug95.com/tag/%e5%bc%b9%e7%aa%97/'
+    - 'name': '弹幕'
+      'url': 'https://ug95.com/tag/%e5%bc%b9%e5%b9%95/'
+    - 'name': '底部提示'
+      'url': 'https://ug95.com/tag/%e5%ba%95%e9%83%a8%e6%8f%90%e7%a4%ba/'
+    - 'name': '底部按钮'
+      'url': 'https://ug95.com/tag/%e5%ba%95%e9%83%a8%e6%8c%89%e9%92%ae/'
+    - 'name': '广告位'
+      'url': 'https://ug95.com/tag/%e5%b9%bf%e5%91%8a%e4%bd%8d/'
+    - 'name': '小黑屋'
+      'url': 'https://ug95.com/tag/%e5%b0%8f%e9%bb%91%e5%b1%8b/'
+    - 'name': '字体'
+      'url': 'https://ug95.com/tag/%e5%ad%97%e4%bd%93/'
+    - 'name': '子比'
+      'url': 'https://ug95.com/tag/%e5%ad%90%e6%af%94/'
+    - 'name': '夸夸'
+      'url': 'https://ug95.com/tag/%e5%a4%b8%e5%a4%b8/'
+    - 'name': '头像'
+      'url': 'https://ug95.com/tag/%e5%a4%b4%e5%83%8f/'
+    - 'name': '网站地图'
+      'url': 'https://ug95.com/sitemap.xml'
+    - 'name': '找回密码'
+      'url': 'https://ug95.com/user-sign/?tab=resetpassword&redirect_to=https%3A%2F%2Fug95.com%2F53811.html%2F'

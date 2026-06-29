@@ -1,98 +1,62 @@
-site:
-  name: "blog.scott-studio.cn"
-  description: "友情链接"
-  url: "https://blog.scott-studio.cn/"
-  links: "/friends"
-  friends:
-    - name: "箴言"
-      url: "https://blog.scott-studio.cn/category/say"
-    - name: "阅读"
-      url: "https://blog.scott-studio.cn/category/word"
-    - name: "随心杂记"
-      url: "https://blog.scott-studio.cn/category/note"
-    - name: "站点和设计"
-      url: "https://blog.scott-studio.cn/category/changelog"
-    - name: "照片"
-      url: "https://blog.scott-studio.cn/category/photo"
-    - name: "生活气息"
-      url: "https://blog.scott-studio.cn/category/livephoto"
-    - name: "文章归档"
-      url: "https://blog.scott-studio.cn/archive"
-    - name: "众言"
-      url: "https://blog.scott-studio.cn/board"
-    - name: "众星"
-      url: "https://blog.scott-studio.cn/friends"
-    - name: "足迹"
-      url: "https://blog.scott-studio.cn/footprint"
-    - name: "走心评论"
-      url: "https://blog.scott-studio.cn/mindful"
-    - name: "豆瓣记录"
-      url: "https://blog.scott-studio.cn/douban"
-    - name: "木木导航"
-      url: "https://blog.scott-studio.cn/nav"
-    - name: "壹些说明"
-      url: "https://blog.scott-studio.cn/statement"
-    - name: "站点声明"
-      url: "https://blog.scott-studio.cn/copyright"
-    - name: "隐私政策"
-      url: "https://blog.scott-studio.cn/privacy-policy"
-    - name: "主题文档"
-      url: "https://docs.scott-studio.cn/"
-    - name: "生辰八字算命"
-      url: "https://www.tiatiatoutiao.com/"
-    - name: "免费算命"
-      url: "https://www.resobang.cn/"
-    - name: "三禾木木"
-      url: "https://scott-studio.cn"
-    - name: "ftyhub"
-      url: "http://www.ftyhub.com"
-    - name: "毛哥EM"
-      url: "https://emtech.cc"
-    - name: "草东"
-      url: "https://www.gaicas.com"
-    - name: "William Smith"
-      url: "https://getmacos.com/gopanel/"
-    - name: "THYUU/星度主题 26.4.0 更新内容"
-      url: "https://www.thyuu.com/82028/"
-    - name: "风记星辰"
-      url: "https://www.thyuu.com"
-    - name: "CRON 表达式"
-      url: "https://www.gaicas.com/cron.html"
-    - name: "草东日记"
-      url: "https://www.gaicas.com/"
-    - name: "这一刻，万象更新"
-      url: "https://www.gaicas.com/life-20260220.html"
-    - name: "风记得的第2084天星辰：被资本玩坏的车厘子、集卡活动一个没参加、遇到一只小猫咪"
-      url: "https://www.thyuu.com/81910/"
-    - name: "风记得的音乐：R&B风格改编《我记得》"
-      url: "https://www.thyuu.com/81905/"
-    - name: "THYUU/星度春节限定主题：骅骝开道·一马当先"
-      url: "https://kunkunyu.com/archives/oQllDH1N"
-    - name: "回忆航线"
-      url: "https://kunkunyu.com"
-    - name: "THYUU/星度春节限定主题：骅骝开道·一马当先"
-      url: "https://www.thyuu.com/81895/"
-    - name: "THYUU/星度主题 26.1.0 更新内容"
-      url: "https://www.thyuu.com/81598/"
-    - name: "零下 42 度，冻醒了心事"
-      url: "https://www.gaicas.com/talk-8.html"
-    - name: "THYUU/星度主题 26.1.0 更新内容"
-      url: "https://kunkunyu.com/archives/BmvlUW7u"
-    - name: "Halo插件：微信公众号工具"
-      url: "https://kunkunyu.com/archives/yfUObpHT"
-    - name: "NetEase Music Player Demo"
-      url: "https://www.gaicas.com/netease-music-demo.html"
-    - name: "FavLink Demo"
-      url: "https://www.gaicas.com/favlink-demo.html"
-    - name: "THYUU/星度冬季限定主题：莫负白首约·鹿衔梅梢风"
-      url: "https://kunkunyu.com/archives/KX78B0Em"
-    - name: "THYUU/星度秋季限定主题：莫负金穗浪·轻步落枫风"
-      url: "https://kunkunyu.com/archives/qwas3PR4"
-    - name: "繁华如风的小站"
-      url: "https://fhsf.cn/"
-    - name: "NvPress"
-      url: "https://docs.panda-studio.cn:8282/docs/post-19/page-100"
-    - name: "THYUU/星度"
-      url: "https://theme.thyuu.com/"
-    - name: "赣ICP备19001528号-1"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'blog.scott-studio.cn'
+  'description': '友情链接'
+  'url': 'https://blog.scott-studio.cn/'
+  'links': '/friends'
+  'friends':
+    - 'name': '主题文档'
+      'url': 'https://docs.scott-studio.cn/'
+    - 'name': '生辰八字算命'
+      'url': 'https://www.tiatiatoutiao.com/'
+    - 'name': '免费算命'
+      'url': 'https://www.resobang.cn/'
+    - 'name': '三禾木木'
+      'url': 'https://scott-studio.cn'
+    - 'name': 'ftyhub'
+      'url': 'http://www.ftyhub.com'
+    - 'name': '毛哥EM'
+      'url': 'https://emtech.cc'
+    - 'name': '草东'
+      'url': 'https://www.gaicas.com'
+    - 'name': 'William Smith'
+      'url': 'https://getmacos.com/gopanel/'
+    - 'name': 'THYUU/星度主题 26.4.0 更新内容'
+      'url': 'https://www.thyuu.com/82028/'
+    - 'name': '风记星辰'
+      'url': 'https://www.thyuu.com'
+    - 'name': 'CRON 表达式'
+      'url': 'https://www.gaicas.com/cron.html'
+    - 'name': '草东日记'
+      'url': 'https://www.gaicas.com/'
+    - 'name': '这一刻，万象更新'
+      'url': 'https://www.gaicas.com/life-20260220.html'
+    - 'name': '风记得的第2084天星辰：被资本玩坏的车厘子、集卡活动一个没参加、遇到一只小猫咪'
+      'url': 'https://www.thyuu.com/81910/'
+    - 'name': '风记得的音乐：R&B风格改编《我记得》'
+      'url': 'https://www.thyuu.com/81905/'
+    - 'name': 'THYUU/星度春节限定主题：骅骝开道·一马当先'
+      'url': 'https://kunkunyu.com/archives/oQllDH1N'
+    - 'name': '回忆航线'
+      'url': 'https://kunkunyu.com'
+    - 'name': 'THYUU/星度春节限定主题：骅骝开道·一马当先'
+      'url': 'https://www.thyuu.com/81895/'
+    - 'name': 'THYUU/星度主题 26.1.0 更新内容'
+      'url': 'https://www.thyuu.com/81598/'
+    - 'name': '零下 42 度，冻醒了心事'
+      'url': 'https://www.gaicas.com/talk-8.html'
+    - 'name': 'THYUU/星度主题 26.1.0 更新内容'
+      'url': 'https://kunkunyu.com/archives/BmvlUW7u'
+    - 'name': 'NetEase Music Player Demo'
+      'url': 'https://www.gaicas.com/netease-music-demo.html'
+    - 'name': 'FavLink Demo'
+      'url': 'https://www.gaicas.com/favlink-demo.html'
+    - 'name': 'THYUU/星度冬季限定主题：莫负白首约·鹿衔梅梢风'
+      'url': 'https://kunkunyu.com/archives/KX78B0Em'
+    - 'name': 'THYUU/星度秋季限定主题：莫负金穗浪·轻步落枫风'
+      'url': 'https://kunkunyu.com/archives/qwas3PR4'
+    - 'name': '繁华如风的小站'
+      'url': 'https://fhsf.cn/'
+    - 'name': 'NvPress'
+      'url': 'https://docs.panda-studio.cn:8282/docs/post-19/page-100'
+    - 'name': 'THYUU/星度'
+      'url': 'https://theme.thyuu.com/'

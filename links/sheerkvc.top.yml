@@ -1,130 +1,106 @@
-site:
-  name: "sheerkvc"
-  url: "https://sheerkvc.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "书签站"
-      url: "https://tool.sheerkvc.top/"
-    - name: "导航站 (test)"
-      url: "https://nav.sheerkvc.top/"
-    - name: "监控探针"
-      url: "https://monitor.sheerkvc.top/"
-    - name: "Umami 数据 (公开)"
-      url: "https://info.sheerkvc.top/share/Cr17ddtQ5SNF1Zig/www.sheerkvc.top"
-    - name: "PDF 翻译"
-      url: "https://pdf2zh.sheerkvc.top"
-    - name: "音乐"
-      url: "https://music.sheerkvc.top/"
-    - name: "文档"
-      url: "https://doc.sheerkvc.top/web/#/683654252/240842362"
-    - name: "文件"
-      url: "https://file.sheerkvc.top/"
-    - name: "订阅管理"
-      url: "https://wallos.sheerkvc.top/"
-    - name: "随机前往一个开往项目网站"
-      url: "https://www.travellings.cn/go.html"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com"
-    - name: "残页的小博客"
-      url: "https://canyie.github.io/"
-    - name: "Akilarの糖果屋"
-      url: "https://akilar.top/"
-    - name: "小冰博客"
-      url: "https://zfe.space"
-    - name: "Mereith's Blog"
-      url: "https://www.mereith.com"
-    - name: "毒奶"
-      url: "https://limbopro.com"
-    - name: "Joyer的博客"
-      url: "https://blog.joyer.top"
-    - name: "UyoAhz"
-      url: "https://uyoahz.cn"
-    - name: "Fomalhaut🥝"
-      url: "https://www.fomal.cc/"
-    - name: "满心Hrn"
-      url: "https://blog.lovelu.top/"
-    - name: "第三夏尔"
-      url: "https://thirdshire.com"
-    - name: "Yuin"
-      url: "https://zhoulingyu.net"
-    - name: "才学浅"
-      url: "https://chengzc.club"
-    - name: "笑话人生"
-      url: "https://www.cylong.com/"
-    - name: "EdNovas的小站"
-      url: "https://ednovas.xyz/"
-    - name: "枫叶🍁（心流）"
-      url: "https://blog.aqcoder.cn"
-    - name: "luoxx的博客"
-      url: "https://www.luoxx.top/"
-    - name: "云烟成雨"
-      url: "https://shiyu.dev"
-    - name: "寒澈笔记"
-      url: "https://www.hancher.top"
-    - name: "InsectMk"
-      url: "https://insectmk.cn"
-    - name: "黑色曙光"
-      url: "https://www.hssgweb.com"
-    - name: "UTOPIA"
-      url: "https://ishya.top/"
-    - name: "小倪 | BioEZ"
-      url: "https://bioez.xyz/"
-    - name: "Ordis大白萝卜"
-      url: "https://imbhj.com"
-    - name: "Mr.Ma"
-      url: "https://iwalyou.com"
-    - name: "MJ's Blog"
-      url: "https://blog.justlovesmile.top"
-    - name: "Guo Le's Blog"
-      url: "https://guole.fun/"
-    - name: "七鳄の学习格"
-      url: "https://blog.gmcj0816.top/"
-    - name: "知觉思墨网"
-      url: "https://mojuec.cn/"
-    - name: "😊with1874"
-      url: "https://www.with1874.ltd"
-    - name: "白雾茫茫丶"
-      url: "https://blog.xmwpro.com/"
-    - name: "水月镜心"
-      url: "https://syjx.dpdns.org"
-    - name: "Domo"
-      url: "https://domob.org/"
-    - name: "锦梦思隅"
-      url: "https://www.marksea.cn"
-    - name: "可执行程序"
-      url: "https://blog.hanta2011.top/"
-    - name: "安小歪"
-      url: "https://blog.anxy.top/"
-    - name: "DivineEngine - Conners Hua"
-      url: "https://diveng.xyz"
-    - name: "浮生hjz的博客"
-      url: "http://huangjiazhang.xyz"
-    - name: "小小笔记大大用处"
-      url: "https://blog.uptoz.cn"
-    - name: "方寸间\n                                花开堪折直须折，莫待无花空折枝"
-      url: "https://10101.io"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "telegram"
-      url: "https://t.me/sheerkvcBot"
-    - name: "spotify"
-      url: "https://open.spotify.com/playlist/6dxiCQ92kgL83S8ipj7K2g?si=9de31d85e7c54a15"
-    - name: "github"
-      url: "https://github.com/sheerkvc"
-    - name: "steam"
-      url: "https://steamcommunity.com/id/sheerkvc/"
-    - name: "由Halo2.x驱动"
-      url: "https://halo.run/"
-    - name: "由Hao提供主题支持"
-      url: "https://github.com/chengzhongxue/halo-theme-hao"
-    - name: "VPS采用GreenCloud"
-      url: "https://greencloudvps.com"
-    - name: "OSS图床为阿里云"
-      url: "https://www.aliyun.com/product/oss"
-    - name: "数据库采用MongoDB"
-      url: "https://www.mongodb.com"
-    - name: "Netlify Status"
-      url: "https://app.netlify.com/sites/sheerkvc/"
-    - name: "主题"
-      url: "https://github.com/liuzhihang/halo-theme-hao"
+'site':
+  'name': 'sheerkvc'
+  'url': 'https://sheerkvc.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '书签站'
+      'url': 'https://tool.sheerkvc.top/'
+    - 'name': 'Umami 数据 (公开)'
+      'url': 'https://info.sheerkvc.top/share/Cr17ddtQ5SNF1Zig/www.sheerkvc.top'
+    - 'name': 'PDF 翻译'
+      'url': 'https://pdf2zh.sheerkvc.top'
+    - 'name': '音乐'
+      'url': 'https://music.sheerkvc.top/'
+    - 'name': '文档'
+      'url': 'https://doc.sheerkvc.top/web/#/683654252/240842362'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com'
+    - 'name': 'Akilarの糖果屋'
+      'url': 'https://akilar.top/'
+    - 'name': '小冰博客'
+      'url': 'https://zfe.space'
+    - 'name': 'Mereith''s Blog'
+      'url': 'https://www.mereith.com'
+    - 'name': '毒奶'
+      'url': 'https://limbopro.com'
+    - 'name': 'Joyer的博客'
+      'url': 'https://blog.joyer.top'
+    - 'name': 'UyoAhz'
+      'url': 'https://uyoahz.cn'
+    - 'name': 'Fomalhaut🥝'
+      'url': 'https://www.fomal.cc/'
+    - 'name': '满心Hrn'
+      'url': 'https://blog.lovelu.top/'
+    - 'name': '第三夏尔'
+      'url': 'https://thirdshire.com'
+    - 'name': 'Yuin'
+      'url': 'https://zhoulingyu.net'
+    - 'name': '才学浅'
+      'url': 'https://chengzc.club'
+    - 'name': '笑话人生'
+      'url': 'https://www.cylong.com/'
+    - 'name': 'EdNovas的小站'
+      'url': 'https://ednovas.xyz/'
+    - 'name': '枫叶🍁（心流）'
+      'url': 'https://blog.aqcoder.cn'
+    - 'name': 'luoxx的博客'
+      'url': 'https://www.luoxx.top/'
+    - 'name': '云烟成雨'
+      'url': 'https://shiyu.dev'
+    - 'name': '寒澈笔记'
+      'url': 'https://www.hancher.top'
+    - 'name': 'InsectMk'
+      'url': 'https://insectmk.cn'
+    - 'name': '黑色曙光'
+      'url': 'https://www.hssgweb.com'
+    - 'name': 'UTOPIA'
+      'url': 'https://ishya.top/'
+    - 'name': '小倪 | BioEZ'
+      'url': 'https://bioez.xyz/'
+    - 'name': 'Ordis大白萝卜'
+      'url': 'https://imbhj.com'
+    - 'name': 'Mr.Ma'
+      'url': 'https://iwalyou.com'
+    - 'name': 'MJ''s Blog'
+      'url': 'https://blog.justlovesmile.top'
+    - 'name': 'Guo Le''s Blog'
+      'url': 'https://guole.fun/'
+    - 'name': '七鳄の学习格'
+      'url': 'https://blog.gmcj0816.top/'
+    - 'name': '知觉思墨网'
+      'url': 'https://mojuec.cn/'
+    - 'name': '😊with1874'
+      'url': 'https://www.with1874.ltd'
+    - 'name': '白雾茫茫丶'
+      'url': 'https://blog.xmwpro.com/'
+    - 'name': '水月镜心'
+      'url': 'https://syjx.dpdns.org'
+    - 'name': 'Domo'
+      'url': 'https://domob.org/'
+    - 'name': '锦梦思隅'
+      'url': 'https://www.marksea.cn'
+    - 'name': '可执行程序'
+      'url': 'https://blog.hanta2011.top/'
+    - 'name': '安小歪'
+      'url': 'https://blog.anxy.top/'
+    - 'name': 'DivineEngine - Conners Hua'
+      'url': 'https://diveng.xyz'
+    - 'name': '浮生hjz的博客'
+      'url': 'http://huangjiazhang.xyz'
+    - 'name': '小小笔记大大用处'
+      'url': 'https://blog.uptoz.cn'
+    - 'name': "方寸间
+
+        \                                花开堪折直须折，莫待无花空折枝"
+      'url': 'https://10101.io'
+    - 'name': 'spotify'
+      'url': 'https://open.spotify.com/playlist/6dxiCQ92kgL83S8ipj7K2g?si=9de31d85e7c54a15'
+    - 'name': 'steam'
+      'url': 'https://steamcommunity.com/id/sheerkvc/'
+    - 'name': '由Halo2.x驱动'
+      'url': 'https://halo.run/'
+    - 'name': 'VPS采用GreenCloud'
+      'url': 'https://greencloudvps.com'
+    - 'name': '数据库采用MongoDB'
+      'url': 'https://www.mongodb.com'

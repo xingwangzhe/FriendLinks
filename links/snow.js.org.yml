@@ -1,78 +1,68 @@
-site:
-  name: "snow.js.org"
-  description: "友情链接"
-  url: "https://snow.js.org/"
-  links: "/friends"
-  friends:
-    - name: "Download on GitHub"
-      url: "https://github.com/ppoffice/hexo-theme-icarus"
-    - name: "小嘉的部落格\n        一个爱折腾的Java开发工程师"
-      url: "https://blog.imzjw.cn"
-    - name: "Lete乐特\n        人生只有一次，大胆的生活！！"
-      url: "https://blog.imlete.cn"
-    - name: "ZYKJ's Blog\n        做一个普普通通的人"
-      url: "https://zykj.js.org/"
-    - name: "Heo\n        爱折腾的设计师"
-      url: "https://blog.zhheo.com/"
-    - name: "Jared h\n        🤪🤪🤪"
-      url: "https://jaredh.cn/"
-    - name: "小N同学\n        青石落晚巷 故人未还乡"
-      url: "https://www.nesxc.com"
-    - name: "大白萝卜\n        一只爱吃兔子的萝卜🥕"
-      url: "https://www.imbhj.com"
-    - name: "HelloWorld\n        不知道呢┑(￣Д ￣)┍"
-      url: "https://mzdluo123.github.io"
-    - name: "Colsrch\n        愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。"
-      url: "https://colsrch.cn"
-    - name: "ConstOwn\n        能与你一起成长，我荣幸之至。"
-      url: "https://blog.juanertu.com"
-    - name: "煎鱼的海\n        人之帅，莫过于煎鱼"
-      url: "https://euukey.com"
-    - name: "圣文のblog\n        学深夜的习，读清晨的书"
-      url: "https://todcsw.github.io/"
-    - name: "Sakura` Blogs\n        或苦或甜都不要辜负"
-      url: "https://jinan6.vip"
-    - name: "忧郁的派大星\n        越学习，越发现自己的无知"
-      url: "https://www.impdx.vip"
-    - name: "hfzvictory\n        深自缄默，如云漂泊"
-      url: "http://blog.jing999.cn/"
-    - name: "羿潇贤鱼\n        为之则易，不为则难。"
-      url: "https://blog.raxianch.moe"
-    - name: "Khighness\n        炒菜 K 殿下"
-      url: "https://www.parak.top"
-    - name: "SeaYJ’s Blog\n        放弃向他人证明自己，放弃向自己证明自己！"
-      url: "https://seayj.cn"
-    - name: "Yin Guai\n        音夬的摸鱼小站"
-      url: "https://yinguai.github.io"
-    - name: "Mirrorors\n        A Miracle Has Taken Place 🚗"
-      url: "https://monocle.js.org/"
-    - name: "btwoa\n        我仍相信人间滚烫"
-      url: "https://blog.btwoa.com"
-    - name: "欢乐小王\n        聚散无常，别来无恙。"
-      url: "https://blog.happyking.top/"
-    - name: "Shine\n        “Let’s go! Target: The Vast Stars!”"
-      url: "https://blog.shineyu.cn/"
-    - name: "曦秋的小屋\n        西交的学术小垃圾"
-      url: "https://atdanliu.cn/"
-    - name: "猫羽のブログす\n        欢迎来到猫羽のブログす~分享技术，享受生活，体会成长，感受乐趣！"
-      url: "https://www.maoyv.cn/"
-    - name: "https://snow.js.org/friends/"
-      url: "https://snow.js.org/friends/"
-    - name: "Creative Commons"
-      url: "https://creativecommons.org/"
-    - name: "Attribution"
-      url: "https://creativecommons.org/licenses/by/4.0/"
-    - name: "Noncommercial"
-      url: "https://creativecommons.org/licenses/by-nc/4.0/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "关注我"
-      url: "https://github.com/SerokSSR"
-    - name: "Facebook"
-      url: "https://facebook.com"
-    - name: "Twitter"
-      url: "https://twitter.com"
-    - name: "Dribbble"
-      url: "https://dribbble.com"
-    - name: "Hexo"
-      url: "https://hexo.io/"
+'site':
+  'name': 'snow.js.org'
+  'description': '友情链接'
+  'url': 'https://snow.js.org/'
+  'links': '/friends'
+  'friends':
+    - 'name': "小嘉的部落格\n        一个爱折腾的Java开发工程师"
+      'url': 'https://blog.imzjw.cn'
+    - 'name': "Lete乐特\n        人生只有一次，大胆的生活！！"
+      'url': 'https://blog.imlete.cn'
+    - 'name': "ZYKJ's Blog\n        做一个普普通通的人"
+      'url': 'https://zykj.js.org/'
+    - 'name': "Heo\n        爱折腾的设计师"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "Jared h\n        🤪🤪🤪"
+      'url': 'https://jaredh.cn/'
+    - 'name': "小N同学\n        青石落晚巷 故人未还乡"
+      'url': 'https://www.nesxc.com'
+    - 'name': "大白萝卜\n        一只爱吃兔子的萝卜🥕"
+      'url': 'https://www.imbhj.com'
+    - 'name': "Colsrch
+
+        \        愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。"
+      'url': 'https://colsrch.cn'
+    - 'name': "ConstOwn\n        能与你一起成长，我荣幸之至。"
+      'url': 'https://blog.juanertu.com'
+    - 'name': "煎鱼的海\n        人之帅，莫过于煎鱼"
+      'url': 'https://euukey.com'
+    - 'name': "Sakura` Blogs\n        或苦或甜都不要辜负"
+      'url': 'https://jinan6.vip'
+    - 'name': "忧郁的派大星\n        越学习，越发现自己的无知"
+      'url': 'https://www.impdx.vip'
+    - 'name': "hfzvictory\n        深自缄默，如云漂泊"
+      'url': 'http://blog.jing999.cn/'
+    - 'name': "羿潇贤鱼\n        为之则易，不为则难。"
+      'url': 'https://blog.raxianch.moe'
+    - 'name': "Khighness\n        炒菜 K 殿下"
+      'url': 'https://www.parak.top'
+    - 'name': "SeaYJ’s Blog
+
+        \        放弃向他人证明自己，放弃向自己证明自己！"
+      'url': 'https://seayj.cn'
+    - 'name': "Mirrorors
+
+        \        A Miracle Has Taken Place 🚗"
+      'url': 'https://monocle.js.org/'
+    - 'name': "btwoa\n        我仍相信人间滚烫"
+      'url': 'https://blog.btwoa.com'
+    - 'name': "欢乐小王\n        聚散无常，别来无恙。"
+      'url': 'https://blog.happyking.top/'
+    - 'name': "Shine
+
+        \        “Let’s go! Target: The Vast Stars!”"
+      'url': 'https://blog.shineyu.cn/'
+    - 'name': "曦秋的小屋\n        西交的学术小垃圾"
+      'url': 'https://atdanliu.cn/'
+    - 'name': "猫羽のブログす
+
+        \        欢迎来到猫羽のブログす~分享技术，享受生活，体会成长，感受乐趣！"
+      'url': 'https://www.maoyv.cn/'
+    - 'name': 'Creative Commons'
+      'url': 'https://creativecommons.org/'
+    - 'name': 'Attribution'
+      'url': 'https://creativecommons.org/licenses/by/4.0/'
+    - 'name': 'Noncommercial'
+      'url': 'https://creativecommons.org/licenses/by-nc/4.0/'
+    - 'name': 'Dribbble'
+      'url': 'https://dribbble.com'

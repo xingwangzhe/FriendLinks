@@ -1,20 +1,10 @@
-site:
-  name: "Imz"
-  url: "https://blog.imz.me/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "博客"
-      url: "https://blog.imz.me"
-    - name: "Home"
-      url: "https://home.imz.me"
-    - name: "Imz的小站"
-      url: "https://blog.imz.me/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "❖星港◎Star☆"
-      url: "https://blog.starsharbor.com/"
-    - name: "冰梦"
-      url: "https://icemyst.github.io"
-    - name: "理随。"
-      url: "https://lisui.top/"
+'site':
+  'name': 'Imz'
+  'url': 'https://blog.imz.me/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '❖星港◎Star☆'
+      'url': 'https://blog.starsharbor.com/'
+    - 'name': '理随。'
+      'url': 'https://lisui.top/'

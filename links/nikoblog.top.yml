@@ -1,14 +1,6 @@
-site:
-  name: "Niko"
-  url: "https://nikoblog.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "Waline"
-      url: "https://github.com/walinejs/waline"
-    - name: "Gitee"
-      url: "https://gitee.com/niko2009"
-    - name: "Stellar"
-      url: "https://github.com/xaoxuu/hexo-theme-stellar"
+'site':
+  'name': 'Niko'
+  'url': 'https://nikoblog.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends': []

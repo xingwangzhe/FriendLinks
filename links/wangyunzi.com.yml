@@ -1,34 +1,30 @@
-site:
-  name: "RAE"
-  url: "https://wangyunzi.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "一大加贝"
-      url: "https://tianheg.co/"
-    - name: "我思"
-      url: "https://tianheg.co/posts/me-thinking/"
-    - name: "园区的猫"
-      url: "https://tianheg.co/posts/park-cat/"
-    - name: "1900"
-      url: "https://1900.live/"
-    - name: "286、夏至"
-      url: "https://1900.live/286-xia-zhi/"
-    - name: "Lhasa"
-      url: "https://lhasa.icu/"
-    - name: "Linux 服务器翻墙"
-      url: "https://blog.lhasa.icu/posts/technology/2026-06-17-mihomo/"
-    - name: "订阅新姿势"
-      url: "https://blog.lhasa.icu/posts/technology/2026-06-17-miniflux/"
-    - name: "胡涂说"
-      url: "https://hutusi.com/"
-    - name: "Claude Fable 5: 短暂的寓言"
-      url: "https://hutusi.com/flows/2026/06/13"
-    - name: "老孙博客"
-      url: "https://www.imsun.org/"
-    - name: "搬家 & 测试"
-      url: "https://www.imsun.org/archives/1786.html"
-    - name: "Astro Lite 6"
-      url: "https://blog.lhasa.icu/posts/technology/2026-06-12-astro-lite-v6/"
-    - name: "WP Royal"
-      url: "https://wp-royal-themes.com/"
+'site':
+  'name': 'RAE'
+  'url': 'https://wangyunzi.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '一大加贝'
+      'url': 'https://tianheg.co/'
+    - 'name': '我思'
+      'url': 'https://tianheg.co/posts/me-thinking/'
+    - 'name': '园区的猫'
+      'url': 'https://tianheg.co/posts/park-cat/'
+    - 'name': '286、夏至'
+      'url': 'https://1900.live/286-xia-zhi/'
+    - 'name': 'Lhasa'
+      'url': 'https://lhasa.icu/'
+    - 'name': 'Linux 服务器翻墙'
+      'url': 'https://blog.lhasa.icu/posts/technology/2026-06-17-mihomo/'
+    - 'name': '胡涂说'
+      'url': 'https://hutusi.com/'
+    - 'name': 'Claude Fable 5: 短暂的寓言'
+      'url': 'https://hutusi.com/flows/2026/06/13'
+    - 'name': '老孙博客'
+      'url': 'https://www.imsun.org/'
+    - 'name': '搬家 & 测试'
+      'url': 'https://www.imsun.org/archives/1786.html'
+    - 'name': 'Astro Lite 6'
+      'url': 'https://blog.lhasa.icu/posts/technology/2026-06-12-astro-lite-v6/'
+    - 'name': 'WP Royal'
+      'url': 'https://wp-royal-themes.com/'

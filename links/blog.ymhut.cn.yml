@@ -1,26 +1,36 @@
-site:
-  name: "弈鸣小筑"
-  url: "https://blog.ymhut.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "ip查询"
-      url: "https://search.ymhut.cn/"
-    - name: "Cloudreve网盘"
-      url: "https://files.lwtools.online/"
-    - name: "小奥のblog\n                                        不经一事，不长一智。"
-      url: "https://www.aokaoka.top/"
-    - name: "LUORUI\n                                        LUORUI的小站"
-      url: "https://wntab.work"
-    - name: "胜天半子\n                                        事已至此，先吃饭吧😋"
-      url: "https://blog.291055.xyz/"
-    - name: "阿锦在线\n                                        记录生活点滴！"
-      url: "https://www.ajinol.com/"
-    - name: "卖桃翁小窝\n                                        一切向好，生活向阳"
-      url: "https://ayakasuki.com"
-    - name: "世上云川\n                                        若有韶月熹微，愿作流萤徂岁。"
-      url: "https://blog.ssyc.me"
-    - name: "Halo"
-      url: "https://www.halo.run"
-    - name: "THYUU/星度"
-      url: "https://theme.thyuu.com"
+'site':
+  'name': '弈鸣小筑'
+  'url': 'https://blog.ymhut.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'ip查询'
+      'url': 'https://search.ymhut.cn/'
+    - 'name': "小奥のblog
+
+        \                                        不经一事，不长一智。"
+      'url': 'https://www.aokaoka.top/'
+    - 'name': "LUORUI
+
+        \                                        LUORUI的小站"
+      'url': 'https://wntab.work'
+    - 'name': "胜天半子
+
+        \                                        事已至此，先吃饭吧😋"
+      'url': 'https://blog.291055.xyz/'
+    - 'name': "阿锦在线
+
+        \                                        记录生活点滴！"
+      'url': 'https://www.ajinol.com/'
+    - 'name': "卖桃翁小窝
+
+        \                                        一切向好，生活向阳"
+      'url': 'https://ayakasuki.com'
+    - 'name': "世上云川
+
+        \                                        若有韶月熹微，愿作流萤徂岁。"
+      'url': 'https://blog.ssyc.me'
+    - 'name': 'Halo'
+      'url': 'https://www.halo.run'
+    - 'name': 'THYUU/星度'
+      'url': 'https://theme.thyuu.com'

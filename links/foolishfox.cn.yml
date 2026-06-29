@@ -1,146 +1,116 @@
-site:
-  name: "foolishfox.cn"
-  description: "友情链接"
-  url: "https://foolishfox.cn/"
-  links: "/link"
-  friends:
-    - name: "运动"
-      url: "https://work.foolishfox.cn"
-    - name: "爱吃肉的猫\n              有肉有猫有生活."
-      url: "https://meuicat.com/"
-    - name: "怡红院落\n              Austin Lee"
-      url: "https://imnerd.org/"
-    - name: "liuyib\n              write code and love life"
-      url: "https://liuyib.github.io/"
-    - name: "木木木木木\n              神秘的人"
-      url: "https://immmmm.com"
-    - name: "陈YFの博客\n              一个在互联网角落挣扎的小小博客，很小很小"
-      url: "https://blog.eurekac.cn/"
-    - name: "Mingxuan Liu\n              Mingxuan Liu's Home Page"
-      url: "https://arktis2022.github.io/"
-    - name: "NinePendoragon\n              是一只矛盾型的龙"
-      url: "https://www.ninependoragon.moe/"
-    - name: "Apricot\n              是魔怔人不是乐子人。"
-      url: "https://apricot1024.github.io/ApricotsZone/"
-    - name: "Jack Tang\n              Jack Tang's Home Page"
-      url: "https://mcjacktang.github.io/"
-    - name: "菲兹克斯喵\n              Eclipse first, the rest nowhere."
-      url: "https://physnya.top"
-    - name: "Elykia\n              致以无暇之人"
-      url: "https://blog.elykia.cn/"
-    - name: "峡州仙士之页\n              世上本没有路"
-      url: "https://xlog.cjh0613.com/"
-    - name: "2BROEAR\n              兴趣指引方向，会玩才会学"
-      url: "https://blog.2broear.com"
-    - name: "UpXuu\n              逐光而上"
-      url: "https://upxuu.com/"
-    - name: "Austen\n              Austen's Blog"
-      url: "https://blogbyme.cn"
-    - name: "半方池水半方田\n              分析编程经验、发现生活乐趣"
-      url: "https://www.uuanqin.top"
-    - name: "乱话三千\n              养了一只叫基金的可爱小猫,平时会写点技术向的东西,有点做饭的小爱好"
-      url: "https://www.zanks.link"
-    - name: "fghwett\n              神秘的人"
-      url: "https://www.zqcnc.cn/"
-    - name: "大大的小蜗牛\n              机会总是垂青于有准备的人"
-      url: "https://eallion.com"
-    - name: "银海里泛摘天星\n              灵槎准拟泛银河，剩摘天星几个"
-      url: "https://www.tabirstrees.top/"
-    - name: "枋柚梓的猫会发光\n              繁星永存，记忆更古不变。"
-      url: "https://inkss.cn"
-    - name: "zd小达's blog\n              一些无聊的破事儿 |´・ω・) ノ"
-      url: "https://blog.xiaoda.fun"
-    - name: "CC的部落格\n              CC康纳百川"
-      url: "https://blog.ccknbc.cc"
-    - name: "CAYZLH\n              神秘的人"
-      url: "https://www.cayzlh.com"
-    - name: "Joker2Yue\n              Joker Never Plays Jokes."
-      url: "https://blog.joker2yue.com/"
-    - name: "cungudafa\n              一个学习记录者"
-      url: "https://cungudafa.js.org"
-    - name: "Eurkon\n              不只是代码的搬运工"
-      url: "https://blog.eurkon.com"
-    - name: "ImCaO's Blog\n              花有重开日，人无再少年。"
-      url: "https://www.imcao.cn"
-    - name: "QWQAQ\n              QWQAQ的博客"
-      url: "https://qwqaq.com/"
-    - name: "豆豆\n              AmosHk"
-      url: "https://blog.amooos.com/"
-    - name: "Savant\n              Savant‘s Blog"
-      url: "https://blog.lxscloud.top"
-    - name: "Uncle_drew\n              Hand down,man down"
-      url: "https://drew233.github.io"
-    - name: "Leonus\n              进一寸有进一寸的欢喜。"
-      url: "https://blog.leonus.cn/"
-    - name: "FKUN\n              神秘的人"
-      url: "https://blog.fkun.tech/"
-    - name: "技术宅改变世界\n              神秘的人"
-      url: "https://run.la"
-    - name: "penggeon 的鸽巢\n              闭门即是深山，读书随处净土"
-      url: "https://penggeon.top/"
-    - name: "ZestJourney\n              自由的代价~"
-      url: "https://www.zestaken.top"
-    - name: "xiaoger\n              个人学习和分享壁纸的博客"
-      url: "https://xiaoger.top/"
-    - name: "SHAXUTANG\n              略懂前端的后端 boy"
-      url: "http://taoy.icu/"
-    - name: "梁布斯博客\n              May all the beauty be blessed."
-      url: "https://cnmobile.link/"
-    - name: "不染轻裳\n              念念不忘 必有回响"
-      url: "https://www.itsbrqs.com"
-    - name: "itsNekoDeng\n              十万伏特皮卡丘，梦想是世界和平，想要发光发热"
-      url: "https://dyfa.top"
-    - name: "L1nSn0w's Blog\n              借问酒家何处有."
-      url: "https://linsnow.cn/"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "UpXuu"
-      url: "https://upxuu.com"
-    - name: "https://upxuu.com/images/20260214145619.jpg"
-      url: "https://upxuu.com/images/20260214145619.jpg"
-    - name: "https://zimingyuan.github.io"
-      url: "https://zimingyuan.github.io"
-    - name: "https://zimingyuan.github.io/img/profile.jpg"
-      url: "https://zimingyuan.github.io/img/profile.jpg"
-    - name: "VnYzm"
-      url: "https://zimingyuan.github.io/"
-    - name: "VnYzm"
-      url: "https://vnyzm.top/"
-    - name: "https://vnyzm.top"
-      url: "https://vnyzm.top"
-    - name: "https://vnyzm.top/img/profile.jpg"
-      url: "https://vnyzm.top/img/profile.jpg"
-    - name: "https://avatars.githubusercontent.com/u/144093429?v=4"
-      url: "https://avatars.githubusercontent.com/u/144093429?v=4"
-    - name: "fox"
-      url: "https://foolishfox.cn/"
-    - name: "https://bu.dusays.com/2024/10/25/671b2438203a6.gif"
-      url: "https://bu.dusays.com/2024/10/25/671b2438203a6.gif"
-    - name: "https://bu.dusays.com/2024/10/25/671b50dc2dd2b.png"
-      url: "https://bu.dusays.com/2024/10/25/671b50dc2dd2b.png"
-    - name: "https://physnya.top/img/physics_nya.jpg"
-      url: "https://physnya.top/img/physics_nya.jpg"
-    - name: "https://blog.xiaoda.fun/feed"
-      url: "https://blog.xiaoda.fun/feed"
-    - name: "https://image.xiaoger.top/xiaoger/config/xiaoger.jpg"
-      url: "https://image.xiaoger.top/xiaoger/config/xiaoger.jpg"
-    - name: "https://xiaoger.top"
-      url: "https://xiaoger.top"
-    - name: "Subscribe to comments of this post"
-      url: "https://waline.foolishfox.cn/api/comment/rss?path=%2Flink%2F"
-    - name: "Subscribe to comments of this site"
-      url: "https://waline.foolishfox.cn/api/comment/rss"
-    - name: "Waline"
-      url: "https://github.com/walinejs/waline"
-    - name: "Hexo"
-      url: "https://hexo.io/zh-cn/"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
-    - name: "IPv6 supported"
-      url: "https://test-ipv6.com/index.html"
-    - name: "京公网安备11010802033122"
-      url: "https://beian.mps.gov.cn/#/query/webSearch?code=11010802033122"
-    - name: "京ICP备2020033890号-1"
-      url: "https://beian.miit.gov.cn/"
-    - name: "萌ICP备20250429号"
-      url: "https://icp.gov.moe/?keyword=20250429"
+'site':
+  'name': 'foolishfox.cn'
+  'description': '友情链接'
+  'url': 'https://foolishfox.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '运动'
+      'url': 'https://work.foolishfox.cn'
+    - 'name': "爱吃肉的猫\n              有肉有猫有生活."
+      'url': 'https://meuicat.com/'
+    - 'name': "怡红院落\n              Austin Lee"
+      'url': 'https://imnerd.org/'
+    - 'name': "木木木木木\n              神秘的人"
+      'url': 'https://immmmm.com'
+    - 'name': "陈YFの博客
+
+        \              一个在互联网角落挣扎的小小博客，很小很小"
+      'url': 'https://blog.eurekac.cn/'
+    - 'name': "NinePendoragon
+
+        \              是一只矛盾型的龙"
+      'url': 'https://www.ninependoragon.moe/'
+    - 'name': "菲兹克斯喵
+
+        \              Eclipse first, the rest nowhere."
+      'url': 'https://physnya.top'
+    - 'name': "Elykia\n              致以无暇之人"
+      'url': 'https://blog.elykia.cn/'
+    - 'name': "峡州仙士之页\n              世上本没有路"
+      'url': 'https://xlog.cjh0613.com/'
+    - 'name': "2BROEAR\n              兴趣指引方向，会玩才会学"
+      'url': 'https://blog.2broear.com'
+    - 'name': "UpXuu\n              逐光而上"
+      'url': 'https://upxuu.com/'
+    - 'name': "Austen\n              Austen's Blog"
+      'url': 'https://blogbyme.cn'
+    - 'name': "半方池水半方田\n              分析编程经验、发现生活乐趣"
+      'url': 'https://www.uuanqin.top'
+    - 'name': "乱话三千
+
+        \              养了一只叫基金的可爱小猫,平时会写点技术向的东西,有点做饭的小爱好"
+      'url': 'https://www.zanks.link'
+    - 'name': "fghwett\n              神秘的人"
+      'url': 'https://www.zqcnc.cn/'
+    - 'name': "大大的小蜗牛\n              机会总是垂青于有准备的人"
+      'url': 'https://eallion.com'
+    - 'name': "银海里泛摘天星\n              灵槎准拟泛银河，剩摘天星几个"
+      'url': 'https://www.tabirstrees.top/'
+    - 'name': "枋柚梓的猫会发光\n              繁星永存，记忆更古不变。"
+      'url': 'https://inkss.cn'
+    - 'name': "zd小达's blog
+
+        \              一些无聊的破事儿 |´・ω・) ノ"
+      'url': 'https://blog.xiaoda.fun'
+    - 'name': "CC的部落格\n              CC康纳百川"
+      'url': 'https://blog.ccknbc.cc'
+    - 'name': "CAYZLH\n              神秘的人"
+      'url': 'https://www.cayzlh.com'
+    - 'name': "Joker2Yue
+
+        \              Joker Never Plays Jokes."
+      'url': 'https://blog.joker2yue.com/'
+    - 'name': "cungudafa\n              一个学习记录者"
+      'url': 'https://cungudafa.js.org'
+    - 'name': "Eurkon\n              不只是代码的搬运工"
+      'url': 'https://blog.eurkon.com'
+    - 'name': "ImCaO's Blog
+
+        \              花有重开日，人无再少年。"
+      'url': 'https://www.imcao.cn'
+    - 'name': "QWQAQ\n              QWQAQ的博客"
+      'url': 'https://qwqaq.com/'
+    - 'name': "豆豆\n              AmosHk"
+      'url': 'https://blog.amooos.com/'
+    - 'name': "Savant\n              Savant‘s Blog"
+      'url': 'https://blog.lxscloud.top'
+    - 'name': "Leonus\n              进一寸有进一寸的欢喜。"
+      'url': 'https://blog.leonus.cn/'
+    - 'name': "FKUN\n              神秘的人"
+      'url': 'https://blog.fkun.tech/'
+    - 'name': "技术宅改变世界\n              神秘的人"
+      'url': 'https://run.la'
+    - 'name': "penggeon 的鸽巢
+
+        \              闭门即是深山，读书随处净土"
+      'url': 'https://penggeon.top/'
+    - 'name': "ZestJourney\n              自由的代价~"
+      'url': 'https://www.zestaken.top'
+    - 'name': "xiaoger\n              个人学习和分享壁纸的博客"
+      'url': 'https://xiaoger.top/'
+    - 'name': "SHAXUTANG\n              略懂前端的后端 boy"
+      'url': 'http://taoy.icu/'
+    - 'name': "梁布斯博客
+
+        \              May all the beauty be blessed."
+      'url': 'https://cnmobile.link/'
+    - 'name': "不染轻裳\n              念念不忘 必有回响"
+      'url': 'https://www.itsbrqs.com'
+    - 'name': "itsNekoDeng
+
+        \              十万伏特皮卡丘，梦想是世界和平，想要发光发热"
+      'url': 'https://dyfa.top'
+    - 'name': "L1nSn0w's Blog
+
+        \              借问酒家何处有."
+      'url': 'https://linsnow.cn/'
+    - 'name': 'UpXuu'
+      'url': 'https://upxuu.com'
+    - 'name': 'VnYzm'
+      'url': 'https://vnyzm.top/'
+    - 'name': 'Subscribe to comments of this post'
+      'url': 'https://waline.foolishfox.cn/api/comment/rss?path=%2Flink%2F'
+    - 'name': 'Subscribe to comments of this site'
+      'url': 'https://waline.foolishfox.cn/api/comment/rss'
+    - 'name': 'IPv6 supported'
+      'url': 'https://test-ipv6.com/index.html'

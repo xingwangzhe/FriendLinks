@@ -1,40 +1,26 @@
-site:
-  name: "515code.com"
-  description: "友情链接"
-  url: "https://515code.com/"
-  links: "/link"
-  friends:
-    - name: "导航"
-      url: "https://hao.515code.com/"
-    - name: "网盘"
-      url: "https://pan.515code.com/#s/6UfzbTgw"
-    - name: "生活"
-      url: "https://zlife.515code.com/"
-    - name: "IPADSSJTU-并行与分布式系统研究所"
-      url: "https://ipads.se.sjtu.edu.cn/zh/"
-    - name: "张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "leadwhite交互设计师，记录思考与生活"
-      url: "https://www.leadwhite.net/"
-    - name: "GTIIT-IT广以IT部门"
-      url: "https://sites.gtiit.edu.cn/it/"
-    - name: "不更新的小马(SIPC)Machine Learning, I playing."
-      url: "https://aubreyii.github.io"
-    - name: "辅导猫(SIPC)从来没有真正的绝境，只有心灵的迷途"
-      url: "https://www.tsdy.club/blog/"
-    - name: "灰的博客我生活在鹏城，希望能在这里遇见你"
-      url: "https://shallowhui.github.io/"
-    - name: "清风拂林前端开发，技术分享"
-      url: "https://giserman001.github.io/blogs/"
-    - name: "半世的博客We will be faster than light."
-      url: "https://half_life.gitee.io/"
-    - name: "LyShark-孤风洗剑道，可道，非常道；名，可名，非常名。—— 老子《道德经》"
-      url: "https://www.lyshark.com"
-    - name: "七鳄の学习格如果世界多了精彩，每一位都是创造者，大家都是你的观众"
-      url: "https://blog.gmcj0816.top/"
-    - name: "GanSer紫箫吟断，素笺恨切"
-      url: "https://www.gan1ser.top/"
-    - name: "Follow Me"
-      url: "https://space.bilibili.com/54183978"
-    - name: "粤ICP备20013840号"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': '515code.com'
+  'description': '友情链接'
+  'url': 'https://515code.com/'
+  'links': '/link'
+  'friends':
+    - 'name': '生活'
+      'url': 'https://zlife.515code.com/'
+    - 'name': 'IPADSSJTU-并行与分布式系统研究所'
+      'url': 'https://ipads.se.sjtu.edu.cn/zh/'
+    - 'name': '张洪Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'leadwhite交互设计师，记录思考与生活'
+      'url': 'https://www.leadwhite.net/'
+    - 'name': 'GTIIT-IT广以IT部门'
+      'url': 'https://sites.gtiit.edu.cn/it/'
+    - 'name': '辅导猫(SIPC)从来没有真正的绝境，只有心灵的迷途'
+      'url': 'https://www.tsdy.club/blog/'
+    - 'name': '半世的博客We will be faster than light.'
+      'url': 'https://half_life.gitee.io/'
+    - 'name': 'LyShark-孤风洗剑道，可道，非常道；名，可名，非常名。—— 老子《道德经》'
+      'url': 'https://www.lyshark.com'
+    - 'name': '七鳄の学习格如果世界多了精彩，每一位都是创造者，大家都是你的观众'
+      'url': 'https://blog.gmcj0816.top/'
+    - 'name': 'GanSer紫箫吟断，素笺恨切'
+      'url': 'https://www.gan1ser.top/'

@@ -1,40 +1,28 @@
-site:
-  name: "blog.jiugg.top"
-  description: "友情链接"
-  url: "https://blog.jiugg.top/"
-  links: "/link"
-  friends:
-    - name: "新锐博客"
-      url: "https://blog.xrbk.cn"
-    - name: "葱苓小筑"
-      url: "https://blog.ciraos.top"
-    - name: "云坠の小窝"
-      url: "https://blog.yunzhui.cn/"
-    - name: "懒陌颜"
-      url: "https://blog.imoyan.top/"
-    - name: "Alex书"
-      url: "https://blog.demius.tech/"
-    - name: "Revelation"
-      url: "https://www.040426.xyz/"
-    - name: "凌乘风"
-      url: "https://blog.857996.xyz"
-    - name: "Mo的记事簿"
-      url: "https://blog.xiowo.net/"
-    - name: "CrCLARE"
-      url: "https://blog.crclare.top"
-    - name: "九戈戈阴暗角落"
-      url: "https://blog.jiugg.top/"
-    - name: "Alex书"
-      url: "http://blog.demius.tech"
-    - name: "MortalCat（蠢猪版"
-      url: "http://blog.xiowo.net"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "主题: Clarity"
-      url: "https://github.com/L33Z22L11/blog-v3"
-    - name: "可用性监控"
-      url: "https://status.jiugg.top/"
-    - name: "粤ICP备2025495418号-2"
-      url: "https://beian.miit.gov.cn/"
-    - name: "粤公网安备 44088302000276号"
-      url: "https://beian.mps.gov.cn/#/query/webSearch?code=44088302000276"
+'site':
+  'name': 'blog.jiugg.top'
+  'description': '友情链接'
+  'url': 'https://blog.jiugg.top/'
+  'links': '/link'
+  'friends':
+    - 'name': '新锐博客'
+      'url': 'https://blog.xrbk.cn'
+    - 'name': '葱苓小筑'
+      'url': 'https://blog.ciraos.top'
+    - 'name': '云坠の小窝'
+      'url': 'https://blog.yunzhui.cn/'
+    - 'name': '懒陌颜'
+      'url': 'https://blog.imoyan.top/'
+    - 'name': 'Alex书'
+      'url': 'https://blog.demius.tech/'
+    - 'name': 'Revelation'
+      'url': 'https://www.040426.xyz/'
+    - 'name': '凌乘风'
+      'url': 'https://blog.857996.xyz'
+    - 'name': 'Mo的记事簿'
+      'url': 'https://blog.xiowo.net/'
+    - 'name': 'CrCLARE'
+      'url': 'https://blog.crclare.top'
+    - 'name': 'Alex书'
+      'url': 'http://blog.demius.tech'
+    - 'name': 'MortalCat（蠢猪版'
+      'url': 'http://blog.xiowo.net'

@@ -1,26 +1,22 @@
-site:
-  name: "blog.dragon1573.wang"
-  description: "友情链接"
-  url: "https://blog.dragon1573.wang/"
-  links: "/link"
-  friends:
-    - name: "Qlittle\n              一个笔记Blog"
-      url: "https://qlittlo.github.io/"
-    - name: "Pinpe 的云端\n              这里是 Pinpe 的云端"
-      url: "https://pinpe.top/"
-    - name: "ShouChen's Blog\n              Hi 欢迎访问我的博客"
-      url: "https://shouchen.blog/"
-    - name: "冰白寒祭的博客\n              荠花榆荚深村里，亦道春风为我来"
-      url: "https://www.bingbaihanji.com/"
-    - name: "复制一份"
-      url: "https://github.com/Dragon1573/Boudoir-of-Sagiri"
-    - name: "Hexo 8.1.2"
-      url: "https://hexo.io"
-    - name: "Butterfly 5.5.5"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
-    - name: "GitHub Pages"
-      url: "https://pages.github.com/"
-    - name: "Vercel"
-      url: "https://vercel.com/home"
-    - name: "和泉纱雾"
-      url: "https://zh.moegirl.org.cn/%E5%92%8C%E6%B3%89%E7%BA%B1%E9%9B%BE"
+'site':
+  'name': 'blog.dragon1573.wang'
+  'description': '友情链接'
+  'url': 'https://blog.dragon1573.wang/'
+  'links': '/link'
+  'friends':
+    - 'name': "Pinpe 的云端
+
+        \              这里是 Pinpe 的云端"
+      'url': 'https://pinpe.top/'
+    - 'name': "ShouChen's Blog
+
+        \              Hi 欢迎访问我的博客"
+      'url': 'https://shouchen.blog/'
+    - 'name': "冰白寒祭的博客
+
+        \              荠花榆荚深村里，亦道春风为我来"
+      'url': 'https://www.bingbaihanji.com/'
+    - 'name': 'Hexo 8.1.2'
+      'url': 'https://hexo.io'
+    - 'name': '和泉纱雾'
+      'url': 'https://zh.moegirl.org.cn/%E5%92%8C%E6%B3%89%E7%BA%B1%E9%9B%BE'

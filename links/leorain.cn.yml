@@ -1,24 +1,8 @@
-site:
-  name: "leorain"
-  url: "https://leorain.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "github 6"
-      url: "https://github.com/lihexin88/leorain-blog"
-    - name: "浙ICP备19033456号-2"
-      url: "https://beian.miit.gov.cn/"
-    - name: "个站商店"
-      url: "https://storeweb.cn"
-    - name: "博客说"
-      url: "https://blogtalk.org"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn"
-    - name: "OurBlogs"
-      url: "https://ourblo.gs"
-    - name: "茶ICP备2025080067号"
-      url: "https://icp.redcha.cn/beian/ICP-2025080067.html"
-    - name: "萌ICP备20255585号"
-      url: "https://icp.gov.moe/?keyword=20255585"
-    - name: "元ICP备16016号"
-      url: "https://icp.6uu.us/query.php?icp_number=%E5%85%83-16016"
+'site':
+  'name': 'leorain'
+  'url': 'https://leorain.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'OurBlogs'
+      'url': 'https://ourblo.gs'

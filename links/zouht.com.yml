@@ -1,22 +1,8 @@
-site:
-  name: 颢天 – ChrisKim's Blog
-  description: 欢迎来到颢天博客！这里是我的个人博客，用来记录和分享一些原创内容，包括技术教程、产品评测、折腾笔记以及生活随笔，欢迎阅读与交流。
-  url: https://www.zouht.com
-  links: /
-  friends:
-    - name: directions_subway开往
-      url: https://www.travellings.cn/go.html
-    - name: info站点状态
-      url: https://www.chriskim.top/
-    - name: bookmark_border颢天主页
-      url: https://www.chriskim.cn/
-    - name: cloud颢天云盘
-      url: https://cloud.chriskim.cn/
-    - name: AxtonYao
-      url: https://github.com/yrccondor
-    - name: ChrisKimZHT
-      url: https://github.com/ChrisKimZHT
-    - name: 鄂ICP备2021010296号-1
-      url: https://beian.miit.gov.cn/
-    - name: 鄂公网安备42011202002275号
-      url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42011202002275
+'site':
+  'name': '颢天 – ChrisKim''s Blog'
+  'description': '欢迎来到颢天博客！这里是我的个人博客，用来记录和分享一些原创内容，包括技术教程、产品评测、折腾笔记以及生活随笔，欢迎阅读与交流。'
+  'url': 'https://www.zouht.com'
+  'links': '/'
+  'friends':
+    - 'name': 'bookmark_border颢天主页'
+      'url': 'https://www.chriskim.cn/'

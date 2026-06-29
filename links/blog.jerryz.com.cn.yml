@@ -1,20 +1,14 @@
-site:
-  name: "Jerry Zhou"
-  url: "https://blog.jerryz.com.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "个人主页"
-      url: "https://jerryz.com.cn/"
-    - name: "站点监控"
-      url: "https://status.jerryz.com.cn/"
-    - name: "Alist 云盘"
-      url: "https://cloud.jerryz.com.cn/"
-    - name: "工具和项目"
-      url: "https://tools.jerryz.com.cn/"
-    - name: "AI 镜像站"
-      url: "https://cn.ai1.bar/"
-    - name: "留言板"
-      url: "https://jerryz.com.cn/messageboard/"
-    - name: "支持"
-      url: "https://pay.jerryz.com.cn/"
+'site':
+  'name': 'Jerry Zhou'
+  'url': 'https://blog.jerryz.com.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '个人主页'
+      'url': 'https://jerryz.com.cn/'
+    - 'name': 'AI 镜像站'
+      'url': 'https://cn.ai1.bar/'
+    - 'name': '留言板'
+      'url': 'https://jerryz.com.cn/messageboard/'
+    - 'name': '支持'
+      'url': 'https://pay.jerryz.com.cn/'

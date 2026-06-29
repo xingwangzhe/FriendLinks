@@ -132,8 +132,24 @@ export function init3d(graphData: GraphData) {
     neighborMap.get(tgt)!.add(src);
   }
 
-  // ── 6b. 连线透明度控制 ─────────────────────────────────────────
-  const linkOpacity = { value: 0.3 }; // 0~1，默认 0.3 柔和
+  // ── 6b. 连线透明度控制（持久化） ──────────────────────────────
+  const STORAGE_KEY = "friendlinks_link_opacity";
+  const saved = (() => {
+    try {
+      const v = localStorage.getItem(STORAGE_KEY);
+      if (v !== null) {
+        const n = parseFloat(v);
+        if (!isNaN(n) && n >= 0 && n <= 1) return n;
+      }
+    } catch {}
+    return 0; // 默认透明，用户通过面板自行调节
+  })();
+
+  const linkOpacity = { value: saved };
+
+  function saveOpacity(v: number) {
+    try { localStorage.setItem(STORAGE_KEY, String(v)); } catch {}
+  }
 
   function createControlPanel() {
     let panel = document.getElementById("graph-control-panel") as HTMLElement | null;
@@ -159,8 +175,10 @@ export function init3d(graphData: GraphData) {
     valueDisplay.style.cssText = "font-size:11px;color:#aaa;margin-left:6px;";
 
     slider.addEventListener("input", () => {
-      linkOpacity.value = parseFloat(slider.value);
+      const v = parseFloat(slider.value);
+      linkOpacity.value = v;
       valueDisplay.textContent = slider.value;
+      saveOpacity(v);
       // 触发连线颜色刷新
       refreshLinkColors();
     });
@@ -170,8 +188,13 @@ export function init3d(graphData: GraphData) {
     wrapper.appendChild(slider);
     wrapper.appendChild(valueDisplay);
 
+    const hint = document.createElement("div");
+    hint.textContent = "⚙️ 持久化保存，下次自动恢复";
+    hint.style.cssText = "font-size:10px;color:#666;margin-top:6px;text-align:center;";
+
     panel.appendChild(label);
     panel.appendChild(wrapper);
+    panel.appendChild(hint);
 
     panel.style.cssText = `
       position:fixed;bottom:70px;right:16px;z-index:9998;
@@ -180,7 +203,7 @@ export function init3d(graphData: GraphData) {
       border:1px solid rgba(255,255,255,0.1);
       border-radius:8px;
       padding:10px 14px;
-      min-width:140px;
+      min-width:150px;
       display:none;
       font-family:sans-serif;
     `;
@@ -191,27 +214,17 @@ export function init3d(graphData: GraphData) {
 
   const controlPanel = createControlPanel();
 
-  let panelTimeout: ReturnType<typeof setTimeout> | null = null;
-  function showPanel() {
-    controlPanel.style.display = "block";
-    if (panelTimeout) clearTimeout(panelTimeout);
-    panelTimeout = setTimeout(() => { controlPanel.style.display = "none"; }, 5000);
+  function togglePanel() {
+    controlPanel.style.display = controlPanel.style.display === "none" ? "block" : "none";
   }
-  controlPanel.addEventListener("mouseenter", () => { if (panelTimeout) clearTimeout(panelTimeout); });
-  controlPanel.addEventListener("mouseleave", () => {
-    panelTimeout = setTimeout(() => { controlPanel.style.display = "none"; }, 2000);
-  });
 
-  container.addEventListener("dblclick", (e) => {
-    const target = e.target as HTMLElement;
-    if (!target.closest(".clickable")) showPanel();
-  });
+  // 暴露 toggle 方法给外部使用
+  (window as any).__toggleOpacityPanel = togglePanel;
 
   // ── 7. 创建 3D 图 ────────────────────────────────────────────────
 
   // 7a ─ 构建合并的 LineSegments ──────────────────────────────────
   const linkPosArr = new Float32Array(links.length * 2 * 3);
-  const linkColArr = new Float32Array(links.length * 2 * 3);
 
   // 用预计算坐标填充初始位置
   for (let i = 0; i < links.length; i++) {
@@ -230,74 +243,82 @@ export function init3d(graphData: GraphData) {
     }
   }
 
-  const linkGeom = new THREE.BufferGeometry();
-  linkGeom.setAttribute("position", new THREE.BufferAttribute(linkPosArr, 3));
-  linkGeom.setAttribute("color", new THREE.BufferAttribute(linkColArr, 3));
+  // ── 基础线网（始终可见，透明度由滑块控制） ──────────────────
+  const baseLinkGeom = new THREE.BufferGeometry();
+  baseLinkGeom.setAttribute("position", new THREE.BufferAttribute(linkPosArr, 3));
 
-  // 精确背景色（16进制 → 归一化）
-  const BG_HEX: Record<string, [number, number, number]> = {
-    dark: [0x0f / 255, 0x11 / 255, 0x15 / 255],   // #0f1115
-    light: [1, 1, 1],                                // #ffffff
-  };
-
-  const linkMat = new THREE.LineBasicMaterial({
-    vertexColors: true,
+  const baseLinkMat = new THREE.LineBasicMaterial({
+    color: isDarkRef.value ? 0x555555 : 0xbbbbbb,
     transparent: true,
-    opacity: 0, // 默认全透明，视线图干干净净
+    opacity: linkOpacity.value,
+    depthWrite: false,
   });
 
-  const linkSegments = new THREE.LineSegments(linkGeom, linkMat);
+  const baseLinkSegments = new THREE.LineSegments(baseLinkGeom, baseLinkMat);
+
+  // ── 叠加线网（hover/focus 时显示） ────────────────────────────
+  const overlayPosArr = new Float32Array(links.length * 2 * 3);
+  const overlayGeom = new THREE.BufferGeometry();
+  overlayGeom.setAttribute("position", new THREE.BufferAttribute(overlayPosArr, 3));
+  overlayGeom.setDrawRange(0, 0); // 默认不绘制任何线段
+
+  const overlayMat = new THREE.LineBasicMaterial({
+    color: 0xffffff,
+    transparent: true,
+    opacity: 0.8,
+    depthWrite: false,
+  });
+
+  const overlaySegments = new THREE.LineSegments(overlayGeom, overlayMat);
+  overlaySegments.visible = false;
+
+  // 合并成组供 linkThreeObject 使用
+  const linkGroup = new THREE.Group();
+  linkGroup.add(baseLinkSegments);
+  linkGroup.add(overlaySegments);
+
   let linkObjCreated = false;
 
-  // 是否有任何激活态（focus / hover / highlight）
-  function hasActiveState(): boolean {
-    return !!(focusedId || hoveredId || highlightedSet.size > 0);
+  // 7b ─ 颜色刷新函数 ──────────────────────────────────────────
+  /** 基础线网透明度始终跟随滑块，不受 hover/focus 影响 */
+  function refreshLinkColors() {
+    baseLinkMat.opacity = linkOpacity.value;
+    baseLinkMat.needsUpdate = true;
   }
 
-  // 7b ─ 颜色刷新函数 ──────────────────────────────────────────
-  /** 仅在有激活态时显示连线，其余全透明 */
-  function refreshLinkColors() {
-    const dark = isDarkRef.value;
-    const col = linkGeom.attributes.color.array;
-    const active = hasActiveState();
-
-    // 控制整体显隐
-    linkMat.opacity = active ? linkOpacity.value : 0;
-
-    if (!active) {
-      linkGeom.attributes.color.needsUpdate = true;
+  /** 构建叠加线网：只包含与指定节点相连的连线 */
+  function buildOverlay(nodeId: string | null, color: THREE.ColorRepresentation) {
+    if (!nodeId) {
+      overlaySegments.visible = false;
       return;
     }
 
-    const [br, bg, bb] = dark ? BG_HEX.dark : BG_HEX.light;
+    const pos = overlayGeom.attributes.position.array as Float32Array;
+    let count = 0;
 
     for (let i = 0; i < links.length; i++) {
       const srcStr = typeof links[i].source === "object" ? links[i].source.id : links[i].source;
       const tgtStr = typeof links[i].target === "object" ? links[i].target.id : links[i].target;
 
-      const isConnectedToFocus = focusedId && (srcStr === focusedId || tgtStr === focusedId);
-      const isConnectedToHover = hoveredId && (srcStr === hoveredId || tgtStr === hoveredId);
-      const isConnectedToHighlight =
-        !focusedId && highlightedSet.size > 0 &&
-        (highlightedSet.has(srcStr) || highlightedSet.has(tgtStr));
+      if (srcStr === nodeId || tgtStr === nodeId) {
+        const baseIdx = i * 6;
+        const overlayIdx = count * 6;
 
-      let r: number, g: number, b: number;
-      if (isConnectedToFocus) {
-        r = 1.0; g = dark ? 0.86 : 0.71; b = dark ? 0.31 : 0.12;
-      } else if (isConnectedToHover && !focusedId) {
-        r = 0.95; g = 0.95; b = 0.95;
-      } else if (isConnectedToHighlight) {
-        r = 0.9; g = 0.9; b = 0.9;
-      } else {
-        r = br; g = bg; b = bb;
+        pos[overlayIdx]     = linkPosArr[baseIdx];
+        pos[overlayIdx + 1] = linkPosArr[baseIdx + 1];
+        pos[overlayIdx + 2] = linkPosArr[baseIdx + 2];
+        pos[overlayIdx + 3] = linkPosArr[baseIdx + 3];
+        pos[overlayIdx + 4] = linkPosArr[baseIdx + 4];
+        pos[overlayIdx + 5] = linkPosArr[baseIdx + 5];
+
+        count++;
       }
-
-      const idx = i * 6;
-      col[idx] = r; col[idx + 1] = g; col[idx + 2] = b;
-      col[idx + 3] = r; col[idx + 4] = g; col[idx + 5] = b;
     }
 
-    linkGeom.attributes.color.needsUpdate = true;
+    overlayMat.color.set(color);
+    overlayGeom.setDrawRange(0, count * 2);
+    overlayGeom.attributes.position.needsUpdate = true;
+    overlaySegments.visible = true;
   }
 
   // 7c ─ 创建 Graph（颜色在 graphData 之后设置）───────────────
@@ -323,7 +344,7 @@ export function init3d(graphData: GraphData) {
     .linkThreeObject(() => {
       if (!linkObjCreated) {
         linkObjCreated = true;
-        return linkSegments;
+        return linkGroup;
       }
       return new THREE.Object3D();
     })
@@ -467,8 +488,14 @@ export function init3d(graphData: GraphData) {
     if (prevNode) setNodeColor(prevNode, prevNode._cDefault);
     if (currNode) setNodeColor(currNode, currNode._cHover);
 
-    // 更新连线颜色
-    refreshLinkColors();
+    // 更新叠加线网（聚焦优先，聚焦时不显示悬停叠加线）
+    if (focusedId) {
+      // 聚焦状态下悬停不改变叠加线
+    } else if (n) {
+      buildOverlay(n.id, isDarkRef.value ? 0xeeeeee : 0x888888);
+    } else {
+      buildOverlay(null, 0xffffff);
+    }
 
     if (n) {
       const content = document.createElement("div");
@@ -529,6 +556,9 @@ export function init3d(graphData: GraphData) {
   function applyTheme() {
     const dark = isDarkRef.value;
     Graph.backgroundColor(dark ? "#0f1115" : "#ffffff");
+    // 更新基础线网颜色适配主题
+    baseLinkMat.color.set(dark ? 0x555555 : 0xbbbbbb);
+    baseLinkMat.needsUpdate = true;
     // 更新所有节点的默认颜色
     const gd = Graph.graphData() as any;
     if (gd.nodes) {
@@ -543,8 +573,16 @@ export function init3d(graphData: GraphData) {
       if (highlightedSet.size > 0 && highlightedSet.has(id)) return n._cHighlight;
       return n._cDefault;
     });
-    // 刷新连线颜色
+    // 刷新基础线网透明度
     refreshLinkColors();
+    // 如果叠加线网可见，重建以匹配主题
+    if (overlaySegments.visible) {
+      if (focusedId) {
+        buildOverlay(focusedId, dark ? 0xffdd44 : 0xff9900);
+      } else if (hoveredId) {
+        buildOverlay(hoveredId, dark ? 0xeeeeee : 0x888888);
+      }
+    }
     // 更新 tooltip 样式
     tooltip.el.style.background = dark ? "rgba(0,0,0,0.75)" : "rgba(255,255,255,0.95)";
     tooltip.el.style.color = dark ? "#fff" : "#111";
@@ -576,7 +614,8 @@ export function init3d(graphData: GraphData) {
       if (highlightedSet.size > 0 && highlightedSet.has(n.id)) return n._cHighlight;
       return n._cDefault;
     });
-    refreshLinkColors();
+    // 聚焦叠加线网（金色）
+    buildOverlay(id, isDarkRef.value ? 0xffdd44 : 0xff9900);
 
     const currentData = Graph.graphData() as any;
     const node = currentData.nodes?.find((n: any) => n.id === id);
@@ -616,7 +655,12 @@ export function init3d(graphData: GraphData) {
   function clearHighlights() {
     highlightedSet.clear();
     focusedId = null;
-    refreshLinkColors();
+    // 如果有悬停，恢复悬停叠加线网
+    if (hoveredId) {
+      buildOverlay(hoveredId, isDarkRef.value ? 0xeeeeee : 0x888888);
+    } else {
+      buildOverlay(null, 0xffffff);
+    }
     Graph.nodeColor((n: any) => {
       if (highlightedSet.size > 0 && highlightedSet.has(n.id)) return n._cHighlight;
       return n._cDefault;
@@ -635,7 +679,7 @@ export function init3d(graphData: GraphData) {
     hoveredId = null;
     lastHoveredId = null;
     tooltip.hide();
-    refreshLinkColors();
+    buildOverlay(null, 0xffffff); // 清除叠加线网
     Graph.nodeColor((n: any) => n._cDefault);
   }
 

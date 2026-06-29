@@ -1,80 +1,50 @@
-site:
-  name: "plasmon222.github.io"
-  description: "友情链接"
-  url: "https://plasmon222.github.io/"
-  links: "/link"
-  friends:
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com/"
-    - name: "Akilarの糖果屋"
-      url: "https://akilar.top/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "轻笑Chuckle"
-      url: "https://www.qcqx.cn"
-    - name: "Innei"
-      url: "https://innei.in/"
-    - name: "雨月空间站专注与你分享技术教程～"
-      url: "https://www.mintimate.cn/"
-    - name: "polar-bear～Blog如果不曾开始，永远不会抵达。"
-      url: "https://polar-bear.eu.org/"
-    - name: "葱苓samaDon't worry, Be happy."
-      url: "https://blog.ciraos.top"
-    - name: "小植同学锦鲤相随，好运常伴"
-      url: "https://blog.xiaoztx.top"
-    - name: "铭心石刻愿岁并谢，与友长兮"
-      url: "https://blog.kouseki.cn/"
-    - name: "桜紺狸の部落阁一个闲聊萌新动漫技术交流站"
-      url: "https://www.skira.top"
-    - name: "辰灿汐以自己的一切面对世间"
-      url: "https://aurorainic.top"
-    - name: "yiiko梦想成为庄稼地里的读书人....."
-      url: "https://blog.yik.at/"
-    - name: "陈郑逸领域岁月如歌，荏苒同行！"
-      url: "https://fujianprovince.github.io/"
-    - name: "Guhe Blog分享技术与生活趣事"
-      url: "https://blog.aevi.top/"
-    - name: "煮雪话河山`Blog如月之恒，如日之升。"
-      url: "https://blog.cent1pedee.top/"
-    - name: "闪闪の小窝来玩！玩累了…就睡觉！没问题的！"
-      url: "https://moechun.fun/"
-    - name: "小旦SNTube Studio"
-      url: "https://satera.cn"
-    - name: "屑殇桃李春风一杯酒，江湖夜雨十年灯"
-      url: "https://jinghuashang.cn/"
-    - name: "Mikuの次行星心有多宽，世界就有多远"
-      url: "https://sotkg.com"
-    - name: "吮指原味姬无论什么时候，都不要后悔"
-      url: "https://www.yejinblok.cn/"
-    - name: "YYSの小窝May all the beauty be blessed."
-      url: "https://home.wfqyys.cn/"
-    - name: "WzzzzzzWWzz喵`Home"
-      url: "https://wzzzzzzw.github.io/"
-    - name: "https://bu.dusays.com/2023/07/26/64c07513293ef.jpg"
-      url: "https://bu.dusays.com/2023/07/26/64c07513293ef.jpg"
-    - name: "https://blog.loveak.top/"
-      url: "https://blog.loveak.top/"
-    - name: "https://bu.dusays.com/2023/09/01/64f19e6f783a9.png"
-      url: "https://bu.dusays.com/2023/09/01/64f19e6f783a9.png"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Waline"
-      url: "https://github.com/walinejs/waline"
-    - name: "微博"
-      url: "https://weibo.com/u/5687775872"
-    - name: "Github"
-      url: "https://github.com/Plasmon222"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/8342463"
-    - name: "博客框架为Hexo_v5.4.0"
-      url: "https://hexo.io/"
-    - name: "冀ICP备2023017267号-1"
-      url: "https://beian.miit.gov.cn/#/Integrated/recordQuery"
-    - name: "萌ICP备20232201号"
-      url: "https://icp.gov.moe/?keyword=20232201"
-    - name: "本站项目由Github托管"
-      url: "https://github.com/"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "安知鱼图床"
-      url: "https://image.anheyu.com/"
+'site':
+  'name': 'plasmon222.github.io'
+  'description': '友情链接'
+  'url': 'https://plasmon222.github.io/'
+  'links': '/link'
+  'friends':
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': 'Akilarの糖果屋'
+      'url': 'https://akilar.top/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '轻笑Chuckle'
+      'url': 'https://www.qcqx.cn'
+    - 'name': 'Innei'
+      'url': 'https://innei.in/'
+    - 'name': '雨月空间站专注与你分享技术教程～'
+      'url': 'https://www.mintimate.cn/'
+    - 'name': 'polar-bear～Blog如果不曾开始，永远不会抵达。'
+      'url': 'https://polar-bear.eu.org/'
+    - 'name': '葱苓samaDon''t worry, Be happy.'
+      'url': 'https://blog.ciraos.top'
+    - 'name': '小植同学锦鲤相随，好运常伴'
+      'url': 'https://blog.xiaoztx.top'
+    - 'name': '铭心石刻愿岁并谢，与友长兮'
+      'url': 'https://blog.kouseki.cn/'
+    - 'name': '桜紺狸の部落阁一个闲聊萌新动漫技术交流站'
+      'url': 'https://www.skira.top'
+    - 'name': '辰灿汐以自己的一切面对世间'
+      'url': 'https://aurorainic.top'
+    - 'name': 'yiiko梦想成为庄稼地里的读书人.....'
+      'url': 'https://blog.yik.at/'
+    - 'name': 'Guhe Blog分享技术与生活趣事'
+      'url': 'https://blog.aevi.top/'
+    - 'name': '煮雪话河山`Blog如月之恒，如日之升。'
+      'url': 'https://blog.cent1pedee.top/'
+    - 'name': '闪闪の小窝来玩！玩累了…就睡觉！没问题的！'
+      'url': 'https://moechun.fun/'
+    - 'name': '小旦SNTube Studio'
+      'url': 'https://satera.cn'
+    - 'name': '屑殇桃李春风一杯酒，江湖夜雨十年灯'
+      'url': 'https://jinghuashang.cn/'
+    - 'name': 'Mikuの次行星心有多宽，世界就有多远'
+      'url': 'https://sotkg.com'
+    - 'name': '吮指原味姬无论什么时候，都不要后悔'
+      'url': 'https://www.yejinblok.cn/'
+    - 'name': 'YYSの小窝May all the beauty be blessed.'
+      'url': 'https://home.wfqyys.cn/'
+    - 'name': '博客框架为Hexo_v5.4.0'
+      'url': 'https://hexo.io/'

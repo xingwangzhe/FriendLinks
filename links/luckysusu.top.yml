@@ -1,40 +1,30 @@
-site:
-  name: "苏苏"
-  url: "https://luckysusu.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "苏苏の休憩小屋 \n      归途依旧可爱"
-      url: "https://luckysusu.top/"
-    - name: "Ethan.Tzy \n      古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志"
-      url: "https://fe32.top/"
-    - name: "小孙同学 \n      路虽远行则将至，事随难做则必成！"
-      url: "https://blog.sunguoqi.com"
-    - name: "微霞 \n      水风清，晚霞明"
-      url: "https://yuuu.org"
-    - name: "呓语梦轩 \n      用心享受生活"
-      url: "https://blog.awaae001.top"
-    - name: "星の野 \n      我自是年少，韶华倾负"
-      url: "https://byer.top/"
-    - name: "青桔气球 \n      分享网络安全与科技生活"
-      url: "https://blog.qjqq.cn/"
-    - name: "哇子 \n      活在当下，去感受生活的热烈和自由。"
-      url: "https://blog.wazicode.top"
-    - name: "Tianli \n      自知之明是最可贵的知识！"
-      url: "https://tianli-blog.club/"
-    - name: "卡卡的云笔记 \n      人生缓缓,自有答案"
-      url: "https://kakablog.top/"
-    - name: "云灿の随笔小站 \n      浮云一别后，流水十年间"
-      url: "https://blog.yuncan.xyz/"
-    - name: "Pzai \n      从入门到放弃"
-      url: "https://blog.pzai.cloud/"
-    - name: "github"
-      url: "https://github.com/susu147226"
-    - name: "QQ"
-      url: "https://qm.qq.com/q/xDTwcB9nN0"
-    - name: "微博"
-      url: "https://weibo.com/u/7034760934"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
+'site':
+  'name': '苏苏'
+  'url': 'https://luckysusu.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': "Ethan.Tzy\ 
+
+        \      古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志"
+      'url': 'https://fe32.top/'
+    - 'name': "小孙同学\ \n      路虽远行则将至，事随难做则必成！"
+      'url': 'https://blog.sunguoqi.com'
+    - 'name': "微霞\ \n      水风清，晚霞明"
+      'url': 'https://yuuu.org'
+    - 'name': "呓语梦轩\ \n      用心享受生活"
+      'url': 'https://blog.awaae001.top'
+    - 'name': "星の野\ \n      我自是年少，韶华倾负"
+      'url': 'https://byer.top/'
+    - 'name': "青桔气球\ \n      分享网络安全与科技生活"
+      'url': 'https://blog.qjqq.cn/'
+    - 'name': "哇子\ \n      活在当下，去感受生活的热烈和自由。"
+      'url': 'https://blog.wazicode.top'
+    - 'name': "Tianli\ \n      自知之明是最可贵的知识！"
+      'url': 'https://tianli-blog.club/'
+    - 'name': "卡卡的云笔记\ \n      人生缓缓,自有答案"
+      'url': 'https://kakablog.top/'
+    - 'name': "云灿の随笔小站\ \n      浮云一别后，流水十年间"
+      'url': 'https://blog.yuncan.xyz/'
+    - 'name': "Pzai\ \n      从入门到放弃"
+      'url': 'https://blog.pzai.cloud/'

@@ -1,40 +1,34 @@
-site:
-  name: "MoZhi"
-  url: "https://blog.mozhix.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "BIIBII记录生活中的技术脉搏"
-      url: "https://www.biibii.cn"
-    - name: "傥师妹TangShiMei的小空间想和你重新认识一次，从你叫什么开始"
-      url: "https://blog.224418.xyz/"
-    - name: "❖星港◎Star☆以博客记录生活与热爱！"
-      url: "https://blog.starsharbor.com"
-    - name: "山岳库博开发学习启发性二刺螈"
-      url: "https://kmar.top/"
-    - name: "23朵毒蘑菇一个简单的前端开发者"
-      url: "https://blog.dumogu.top/"
-    - name: "Liseezn'blog分享个人学习，项目，及一些教程"
-      url: "https://blog.liseezn.top"
-    - name: "Admibrill我像风一样自由"
-      url: "https://blog.qyadbr.top"
-    - name: "Hinai曇花一現"
-      url: "https://blog.woo.moe"
-    - name: "轻笑Chuckle漫天倾尘,风中轻笑"
-      url: "https://www.qcqx.cn"
-    - name: "zeroanon不做圣经里腐朽的诗集，要做禁书里最惊世骇俗的篇章"
-      url: "https://zeroanon.com"
-    - name: "worable's Blog≡ω≡ 嗯对，一名普通的职一牲~"
-      url: "https://www.worable.top/"
-    - name: "LsAng学习、探索中"
-      url: "https://llds.cloud"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "GitHub"
-      url: "https://github.com/mozhi-it"
-    - name: "优丰互联"
-      url: "https://www.disxcloud.com"
-    - name: "edgeone"
-      url: "https://console.tencentcloud.com"
-    - name: "七牛云"
-      url: "https://portal.qiniu.com"
+'site':
+  'name': 'MoZhi'
+  'url': 'https://blog.mozhix.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'BIIBII记录生活中的技术脉搏'
+      'url': 'https://www.biibii.cn'
+    - 'name': '傥师妹TangShiMei的小空间想和你重新认识一次，从你叫什么开始'
+      'url': 'https://blog.224418.xyz/'
+    - 'name': '❖星港◎Star☆以博客记录生活与热爱！'
+      'url': 'https://blog.starsharbor.com'
+    - 'name': '山岳库博开发学习启发性二刺螈'
+      'url': 'https://kmar.top/'
+    - 'name': '23朵毒蘑菇一个简单的前端开发者'
+      'url': 'https://blog.dumogu.top/'
+    - 'name': 'Liseezn''blog分享个人学习，项目，及一些教程'
+      'url': 'https://blog.liseezn.top'
+    - 'name': 'Admibrill我像风一样自由'
+      'url': 'https://blog.qyadbr.top'
+    - 'name': 'Hinai曇花一現'
+      'url': 'https://blog.woo.moe'
+    - 'name': '轻笑Chuckle漫天倾尘,风中轻笑'
+      'url': 'https://www.qcqx.cn'
+    - 'name': 'zeroanon不做圣经里腐朽的诗集，要做禁书里最惊世骇俗的篇章'
+      'url': 'https://zeroanon.com'
+    - 'name': 'worable''s Blog≡ω≡ 嗯对，一名普通的职一牲~'
+      'url': 'https://www.worable.top/'
+    - 'name': 'LsAng学习、探索中'
+      'url': 'https://llds.cloud'
+    - 'name': '优丰互联'
+      'url': 'https://www.disxcloud.com'
+    - 'name': '七牛云'
+      'url': 'https://portal.qiniu.com'

@@ -1,102 +1,80 @@
-site:
-  name: "lazyingman.cn"
-  description: "友情链接"
-  url: "https://lazyingman.cn/"
-  links: "/link"
-  friends:
-    - name: "在线壁纸"
-      url: "https://wallpaper.lazyingman.cn/"
-    - name: "站点监控"
-      url: "https://status.lazyingman.cn/"
-    - name: "个性音乐"
-      url: "https://music.lazyingman.cn/"
-    - name: "流体模拟器"
-      url: "http://lazyingman.gitee.io/fluideffects"
-    - name: "别亦难"
-      url: "https://lazyingman.cn/"
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com/"
-    - name: "铭心石刻"
-      url: "https://blog.kouseki.cn/"
-    - name: "GanSer"
-      url: "https://www.gan1ser.top/"
-    - name: "萌傀儡"
-      url: "https://blhorizon.github.io/"
-    - name: "Mycpen"
-      url: "https://blog.cpen.top/"
-    - name: "Cisyam"
-      url: "https://manamn.space/"
-    - name: "Ethan.Tzy"
-      url: "https://fe32.top/"
-    - name: "阮一峰"
-      url: "https://www.ruanyifeng.com/blog/"
-    - name: "山岳库博"
-      url: "https://kmar.top/"
-    - name: "包子哟"
-      url: "https://blog.bugjava.cn"
-    - name: "海拥"
-      url: "https://haiyong.site"
-    - name: "枫叶"
-      url: "https://blog.aqcoder.cn"
-    - name: "小码同学"
-      url: "https://blog.hikki.site"
-    - name: "LogDict"
-      url: "https://www.logdict.com"
-    - name: "小帕鲁"
-      url: "https://www.master-jsx.top/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "Akilarの糖果屋"
-      url: "https://akilar.top/"
-    - name: "Nuyoah"
-      url: "https://262259.xyz/"
-    - name: "神经蛙"
-      url: "https://hexo.sjava.cn/"
-    - name: "王先森"
-      url: "https://www.boysec.cn"
-    - name: "青桔气球"
-      url: "https://blog.qjqq.cn/"
-    - name: "無名小栈"
-      url: "https://blog.imsyy.top/"
-    - name: "杜老师说师者，传道，授业，解惑！"
-      url: "https://dusays.com"
-    - name: "Tianli自知之明是最可贵的知识！"
-      url: "https://tianli-blog.club/"
-    - name: "Pzai从入门到放弃"
-      url: "https://blog.pzai.cloud/"
-    - name: "爱吃肉的猫有肉有猫有生活."
-      url: "https://meuicat.com/"
-    - name: "Revincx可爱就是正义~"
-      url: "https://blog.revincx.icu/"
-    - name: "Calyee追求充实，分享快乐"
-      url: "https://blog.calyee.top/"
-    - name: "绾秋小站用文字记录生活。"
-      url: "https://www.gx.gx.cn/"
-    - name: "Elykia致以无暇之人"
-      url: "https://blog.elykia.cn/"
-    - name: "卡卡的云笔记人生缓缓,自有答案。"
-      url: "https://kakablog.top/"
-    - name: "Lian"
-      url: "https://blog.kisskiss.store/"
-    - name: "https://bu.dusays.com/2023/06/28/649c105e00a4f.png"
-      url: "https://bu.dusays.com/2023/06/28/649c105e00a4f.png"
-    - name: "https://lazyingman.cn"
-      url: "https://lazyingman.cn"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "github"
-      url: "https://github.com/lazyingman"
-    - name: "bilibili"
-      url: "https://space.bilibili.com/1878597596"
-    - name: "tiktok"
-      url: "https://v.douyin.com/Ubn6Fdw/"
-    - name: "51la统计"
-      url: "https://v6.51.la/"
-    - name: "灵雀应用监控"
-      url: "https://perf.51.la/"
-    - name: "来动力家族喝杯酒"
-      url: "https://pikachen-pick.github.io/"
-    - name: "醉喵の小屋"
-      url: "https://www.zuimiao33.cn"
-    - name: "赣ICP备2024037277号"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'lazyingman.cn'
+  'description': '友情链接'
+  'url': 'https://lazyingman.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '在线壁纸'
+      'url': 'https://wallpaper.lazyingman.cn/'
+    - 'name': '个性音乐'
+      'url': 'https://music.lazyingman.cn/'
+    - 'name': '流体模拟器'
+      'url': 'http://lazyingman.gitee.io/fluideffects'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '铭心石刻'
+      'url': 'https://blog.kouseki.cn/'
+    - 'name': 'GanSer'
+      'url': 'https://www.gan1ser.top/'
+    - 'name': 'Mycpen'
+      'url': 'https://blog.cpen.top/'
+    - 'name': 'Cisyam'
+      'url': 'https://manamn.space/'
+    - 'name': 'Ethan.Tzy'
+      'url': 'https://fe32.top/'
+    - 'name': '阮一峰'
+      'url': 'https://www.ruanyifeng.com/blog/'
+    - 'name': '山岳库博'
+      'url': 'https://kmar.top/'
+    - 'name': '包子哟'
+      'url': 'https://blog.bugjava.cn'
+    - 'name': '海拥'
+      'url': 'https://haiyong.site'
+    - 'name': '枫叶'
+      'url': 'https://blog.aqcoder.cn'
+    - 'name': '小码同学'
+      'url': 'https://blog.hikki.site'
+    - 'name': 'LogDict'
+      'url': 'https://www.logdict.com'
+    - 'name': '小帕鲁'
+      'url': 'https://www.master-jsx.top/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Akilarの糖果屋'
+      'url': 'https://akilar.top/'
+    - 'name': 'Nuyoah'
+      'url': 'https://262259.xyz/'
+    - 'name': '神经蛙'
+      'url': 'https://hexo.sjava.cn/'
+    - 'name': '王先森'
+      'url': 'https://www.boysec.cn'
+    - 'name': '青桔气球'
+      'url': 'https://blog.qjqq.cn/'
+    - 'name': '無名小栈'
+      'url': 'https://blog.imsyy.top/'
+    - 'name': '杜老师说师者，传道，授业，解惑！'
+      'url': 'https://dusays.com'
+    - 'name': 'Tianli自知之明是最可贵的知识！'
+      'url': 'https://tianli-blog.club/'
+    - 'name': 'Pzai从入门到放弃'
+      'url': 'https://blog.pzai.cloud/'
+    - 'name': '爱吃肉的猫有肉有猫有生活.'
+      'url': 'https://meuicat.com/'
+    - 'name': 'Revincx可爱就是正义~'
+      'url': 'https://blog.revincx.icu/'
+    - 'name': 'Calyee追求充实，分享快乐'
+      'url': 'https://blog.calyee.top/'
+    - 'name': '绾秋小站用文字记录生活。'
+      'url': 'https://www.gx.gx.cn/'
+    - 'name': 'Elykia致以无暇之人'
+      'url': 'https://blog.elykia.cn/'
+    - 'name': '卡卡的云笔记人生缓缓,自有答案。'
+      'url': 'https://kakablog.top/'
+    - 'name': 'Lian'
+      'url': 'https://blog.kisskiss.store/'
+    - 'name': 'tiktok'
+      'url': 'https://v.douyin.com/Ubn6Fdw/'
+    - 'name': '51la统计'
+      'url': 'https://v6.51.la/'
+    - 'name': '醉喵の小屋'
+      'url': 'https://www.zuimiao33.cn'

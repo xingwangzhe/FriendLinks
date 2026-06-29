@@ -1,76 +1,42 @@
-site:
-  name: "euukey.com"
-  description: "友情链接"
-  url: "https://euukey.com/"
-  links: "/link"
-  friends:
-    - name: "网盘"
-      url: "https://pan.euukey.com"
-    - name: "网站收藏"
-      url: "https://dh.euukey.com"
-    - name: "镜像站"
-      url: "https://blog.233.one/"
-    - name: "Github文件加速"
-      url: "https://gh.euukey.cn"
-    - name: "自动签到"
-      url: "https://qd.euukey.com"
-    - name: "服务器监控"
-      url: "https://s.euukey.cn"
-    - name: "毒鸡汤"
-      url: "https://jt.euukey.com"
-    - name: "幕光倾城-Linfeng Mei \n      钝学累功-勤能补拙"
-      url: "https://www.meilinfeng.top"
-    - name: "Kongerの万事屋 \n      嘤嘤嘤"
-      url: "https://blog.ninglans.top"
-    - name: "Rui.plus \n      浪里白嫖-诸葛村夫:-)"
-      url: "https://rui.plus/"
-    - name: "潘高的小站 \n      IT套路深，必须瞎折腾"
-      url: "https://blog.pangao.vip"
-    - name: "Roi's Blog \n      null"
-      url: "https://roi.moe/"
-    - name: "⑨BIE \n      伪技术宅的迷之地"
-      url: "https://9bie.org"
-    - name: "Sakura` Blogs \n      个人小站"
-      url: "https://jinan6.vip"
-    - name: "百般美好 \n      山有扶苏，隰有荷华"
-      url: "https://ply.cool/"
-    - name: "Seeker \n      木有灵兮"
-      url: "https://snow.js.org/"
-    - name: "seeseeu \n      人生如水，越淡越真"
-      url: "https://seeseeu.top"
-    - name: "张洪Heo \n      分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "https://euukey.com"
-      url: "https://euukey.com/"
-    - name: "我是谁"
-      url: "https://euukey.com"
-    - name: "https://4m.cn/ff1yA"
-      url: "https://4m.cn/ff1yA"
-    - name: "我是谁"
-      url: "http://euukey.com"
-    - name: "镜像站"
-      url: "https://hexo.euukey.now.sh/"
-    - name: "https://jinan6.vip/img/avatar.png"
-      url: "https://jinan6.vip/img/avatar.png"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Valine"
-      url: "https://valine.js.org"
-    - name: "WOW!"
-      url: "https://euukey.com/about/"
-    - name: "Gayhub"
-      url: "https://github.com/euukey"
-    - name: "B站"
-      url: "https://space.bilibili.com/18786402"
-    - name: "网易云音乐"
-      url: "https://music.163.com/#/user/home?id=101821532"
-    - name: "酷安"
-      url: "http://www.coolapk.com/u/646589"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
-    - name: "萌ICP备"
-      url: "https://icp.gov.moe"
-    - name: "20200230号"
-      url: "https://icp.gov.moe/?keyword=20200230"
+'site':
+  'name': 'euukey.com'
+  'description': '友情链接'
+  'url': 'https://euukey.com/'
+  'links': '/link'
+  'friends':
+    - 'name': '网站收藏'
+      'url': 'https://dh.euukey.com'
+    - 'name': '镜像站'
+      'url': 'https://blog.233.one/'
+    - 'name': '自动签到'
+      'url': 'https://qd.euukey.com'
+    - 'name': '毒鸡汤'
+      'url': 'https://jt.euukey.com'
+    - 'name': "幕光倾城-Linfeng Mei\ \n      钝学累功-勤能补拙"
+      'url': 'https://www.meilinfeng.top'
+    - 'name': "Kongerの万事屋\ \n      嘤嘤嘤"
+      'url': 'https://blog.ninglans.top'
+    - 'name': "Rui.plus\ \n      浪里白嫖-诸葛村夫:-)"
+      'url': 'https://rui.plus/'
+    - 'name': "潘高的小站\ \n      IT套路深，必须瞎折腾"
+      'url': 'https://blog.pangao.vip'
+    - 'name': "Roi's Blog\ \n      null"
+      'url': 'https://roi.moe/'
+    - 'name': "⑨BIE\ \n      伪技术宅的迷之地"
+      'url': 'https://9bie.org'
+    - 'name': "Sakura` Blogs\ \n      个人小站"
+      'url': 'https://jinan6.vip'
+    - 'name': "百般美好\ \n      山有扶苏，隰有荷华"
+      'url': 'https://ply.cool/'
+    - 'name': "Seeker\ \n      木有灵兮"
+      'url': 'https://snow.js.org/'
+    - 'name': "seeseeu\ \n      人生如水，越淡越真"
+      'url': 'https://seeseeu.top'
+    - 'name': "张洪Heo\ \n      分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '镜像站'
+      'url': 'https://hexo.euukey.now.sh/'
+    - 'name': 'Valine'
+      'url': 'https://valine.js.org'
+    - 'name': '酷安'
+      'url': 'http://www.coolapk.com/u/646589'

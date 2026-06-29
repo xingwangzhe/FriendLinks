@@ -1,16 +1,8 @@
-site:
-  name: "晓寒"
-  url: "https://blog.xiaohan-kaka.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "前往副站"
-      url: "https://blog-bk.xiaohan-kaka.me"
-    - name: "GitHub"
-      url: "https://github.com/Dreamkaka"
-    - name: "Mix Space"
-      url: "https://github.com/mx-space"
-    - name: "Shiro"
-      url: "https://github.com/innei/Shiro"
-    - name: "萌 ICP 备 20231369 号"
-      url: "https://icp.gov.moe/?keyword=20231369"
+'site':
+  'name': '晓寒'
+  'url': 'https://blog.xiaohan-kaka.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '前往副站'
+      'url': 'https://blog-bk.xiaohan-kaka.me'

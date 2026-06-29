@@ -1,66 +1,42 @@
-site:
-  name: "blog.mocn.top"
-  description: "友情链接"
-  url: "https://blog.mocn.top/"
-  links: "/link"
-  friends:
-    - name: "博客"
-      url: "https://blog.mocn.top"
-    - name: "Github 加速"
-      url: "https://ghdl.mocn.top/"
-    - name: "音乐馆"
-      url: "https://music.mocn.top"
-    - name: "在线监测"
-      url: "https://status.mocn.top"
-    - name: "追番页"
-      url: "https://blog.mocn.top/bangumis"
-    - name: "Luminous’ Home"
-      url: "https://luotianyi.vc"
-    - name: "未知狐的笔记"
-      url: "https://xfox.fun"
-    - name: "啊不都"
-      url: "https://www.oplog.cn"
-    - name: "GoodBoyboy's Blog"
-      url: "https://blog.goodboyboy.top"
-    - name: "爱吃猫的鱼BLOG"
-      url: "https://blog.talen.top"
-    - name: "LanYunのBlog"
-      url: "https://lanyundev.com"
-    - name: "Pinpe 的云端"
-      url: "https://pinpe.top"
-    - name: "彬红茶博客"
-      url: "https://blog.redcha.cn"
-    - name: "Puresys纯净系统"
-      url: "https://www.puresys.net"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com"
-    - name: "志成zhi_cheng"
-      url: "https://blog.zhicheng233.top"
-    - name: "TimochanのBlog"
-      url: "https://www.timochan.cn"
-    - name: "PandaX Blog"
-      url: "https://pandax.wiki"
-    - name: "🌹Dominic的二手博客🌹"
-      url: "https://blog.dominickk.top"
-    - name: "Wcowin's Blog"
-      url: "https://wcowin.work"
-    - name: "VnYzm的博客"
-      url: "https://vnyzm.top"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Github"
-      url: "https://github.com/momo54181"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/551991483"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/blog/5505.html"
-    - name: "开往"
-      url: "https://github.com/travellings-link/travellings"
-    - name: "BlogFinder"
-      url: "https://bf.zzxworld.com/s/1011"
-    - name: "Umami"
-      url: "https://cloud.umami.is/share/q1IBxeA972pcFzFw/blog.mocn.top"
-    - name: "晋ICP备2023017547号-1"
-      url: "https://beian.miit.gov.cn/"
-    - name: "萌ICP备20230012号"
-      url: "https://icp.gov.moe/?keyword=20230012"
+'site':
+  'name': 'blog.mocn.top'
+  'description': '友情链接'
+  'url': 'https://blog.mocn.top/'
+  'links': '/link'
+  'friends':
+    - 'name': '音乐馆'
+      'url': 'https://music.mocn.top'
+    - 'name': 'Luminous’ Home'
+      'url': 'https://luotianyi.vc'
+    - 'name': '未知狐的笔记'
+      'url': 'https://xfox.fun'
+    - 'name': '啊不都'
+      'url': 'https://www.oplog.cn'
+    - 'name': 'GoodBoyboy''s Blog'
+      'url': 'https://blog.goodboyboy.top'
+    - 'name': '爱吃猫的鱼BLOG'
+      'url': 'https://blog.talen.top'
+    - 'name': 'LanYunのBlog'
+      'url': 'https://lanyundev.com'
+    - 'name': 'Pinpe 的云端'
+      'url': 'https://pinpe.top'
+    - 'name': '彬红茶博客'
+      'url': 'https://blog.redcha.cn'
+    - 'name': 'Puresys纯净系统'
+      'url': 'https://www.puresys.net'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com'
+    - 'name': '志成zhi_cheng'
+      'url': 'https://blog.zhicheng233.top'
+    - 'name': 'TimochanのBlog'
+      'url': 'https://www.timochan.cn'
+    - 'name': 'PandaX Blog'
+      'url': 'https://pandax.wiki'
+    - 'name': '🌹Dominic的二手博客🌹'
+      'url': 'https://blog.dominickk.top'
+    - 'name': 'Wcowin''s Blog'
+      'url': 'https://wcowin.work'
+    - 'name': 'VnYzm的博客'
+      'url': 'https://vnyzm.top'
+    - 'name': 'BlogFinder'
+      'url': 'https://bf.zzxworld.com/s/1011'

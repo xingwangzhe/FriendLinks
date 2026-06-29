@@ -1,70 +1,48 @@
-site:
-  name: "azusemisa.top"
-  description: "友情链接"
-  url: "https://azusemisa.top/"
-  links: "/friends"
-  friends:
-    - name: "开往"
-      url: "https://www.travellings.cn/typewriter.html"
-    - name: "褪色染坊褪色染坊dyfea蜗居于此"
-      url: "https://www.dyfea.top/"
-    - name: "EnonyaEnonyaNo comment."
-      url: "https://enonya.github.io/"
-    - name: "David_HDavid_H嗷~"
-      url: "https://david-h-devs.github.io/"
-    - name: "Mysterious_birdMysterious_bird世界终极死胖子"
-      url: "https://hackerjintian.github.io/"
-    - name: "ColsrchColsrch愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。"
-      url: "https://colsrch.cn"
-    - name: "ClouderClouder一个爱好摸鱼的蒟蒻OIer"
-      url: "https://www.codein.icu/"
-    - name: "ReqweyReqweySYZOJ is waiting at :::9016"
-      url: "https://reqwey.vercel.app"
-    - name: "Ghyuav 的博客Ghyuav 的博客恭喜，你发现了宝藏！"
-      url: "https://ghyuav.netlify.app"
-    - name: "小刚的天堂小刚的天堂旧的回忆已成过去，新的梦想即将起航！"
-      url: "https://www.pokemon.vip/"
-    - name: "月落星沉月落星沉斯人如彩虹，遇上方知有"
-      url: "https://www.asxe.vip"
-    - name: "AomanHaoAomanHao图像处理，优化世界"
-      url: "https://www.aomanhao.top/"
-    - name: "FANTASY博客FANTASY博客记录学习、生活的小站"
-      url: "https://blog.tigerxly.com/"
-    - name: "Wittoy’s BlogWittoy’s Blog摸鱼天下第一"
-      url: "https://blog.wittoy.com/"
-    - name: "云游君的小站云游君的小站希望能成为一个有趣的人。"
-      url: "https://www.yunyoujun.cn"
-    - name: "guqing's blogguqing's blog毕生所求无它，爱与自由而已"
-      url: "https://guqing.io"
-    - name: "優萌初華優萌初華琉璃的医学 & 编程笔记"
-      url: "https://shoka.lostyu.me"
-    - name: "ctzctz一只兼职蒟蒻OIer的死宅"
-      url: "https://ctz45562.github.io"
-    - name: "fly6022fly6022即使遍体鳞伤，也要奋勇前行。"
-      url: "https://blog.kuri.ink/"
-    - name: "星空未屿星空未屿遇见即是上上签"
-      url: "https://www.mrrxx.com"
-    - name: "pai233の小窝pai233の小窝Write Down My Life."
-      url: "https://blog.pai233.top/"
-    - name: "LanYunのBlogLanYunのBlogShare Technology."
-      url: "https://lanyundev.com/"
-    - name: "王鑫的小站王鑫的小站活着就是为了折腾！"
-      url: "https://wxweb.xyz"
-    - name: "橙の小站橙の小站靠自己，实际一些！"
-      url: "https://blog.zhaozilin.cn"
-    - name: "VnYzmの博客VnYzmの博客分享技术心得和摸鱼感想"
-      url: "https://vnyzm.top"
-    - name: "Valine"
-      url: "https://valine.js.org"
-    - name: "Luogu"
-      url: "https://www.luogu.com.cn/user/183235"
-    - name: "Github"
-      url: "https://github.com/xiao-lin52"
-    - name: "Hexo 8.1.1"
-      url: "https://hexo.io"
-    - name: "Butterfly 5.5.4"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
-    - name: "萌 ICP 备"
-      url: "https://icp.gov.moe"
-    - name: "20201652 号"
-      url: "https://icp.gov.moe/?keyword=20201652"
+'site':
+  'name': 'azusemisa.top'
+  'description': '友情链接'
+  'url': 'https://azusemisa.top/'
+  'links': '/friends'
+  'friends':
+    - 'name': '褪色染坊褪色染坊dyfea蜗居于此'
+      'url': 'https://www.dyfea.top/'
+    - 'name': 'ColsrchColsrch愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。'
+      'url': 'https://colsrch.cn'
+    - 'name': 'ClouderClouder一个爱好摸鱼的蒟蒻OIer'
+      'url': 'https://www.codein.icu/'
+    - 'name': '小刚的天堂小刚的天堂旧的回忆已成过去，新的梦想即将起航！'
+      'url': 'https://www.pokemon.vip/'
+    - 'name': '月落星沉月落星沉斯人如彩虹，遇上方知有'
+      'url': 'https://www.asxe.vip'
+    - 'name': 'AomanHaoAomanHao图像处理，优化世界'
+      'url': 'https://www.aomanhao.top/'
+    - 'name': 'FANTASY博客FANTASY博客记录学习、生活的小站'
+      'url': 'https://blog.tigerxly.com/'
+    - 'name': 'Wittoy’s BlogWittoy’s Blog摸鱼天下第一'
+      'url': 'https://blog.wittoy.com/'
+    - 'name': '云游君的小站云游君的小站希望能成为一个有趣的人。'
+      'url': 'https://www.yunyoujun.cn'
+    - 'name': 'guqing''s blogguqing''s blog毕生所求无它，爱与自由而已'
+      'url': 'https://guqing.io'
+    - 'name': '優萌初華優萌初華琉璃的医学 & 编程笔记'
+      'url': 'https://shoka.lostyu.me'
+    - 'name': 'fly6022fly6022即使遍体鳞伤，也要奋勇前行。'
+      'url': 'https://blog.kuri.ink/'
+    - 'name': '星空未屿星空未屿遇见即是上上签'
+      'url': 'https://www.mrrxx.com'
+    - 'name': 'pai233の小窝pai233の小窝Write Down My Life.'
+      'url': 'https://blog.pai233.top/'
+    - 'name': 'LanYunのBlogLanYunのBlogShare Technology.'
+      'url': 'https://lanyundev.com/'
+    - 'name': '王鑫的小站王鑫的小站活着就是为了折腾！'
+      'url': 'https://wxweb.xyz'
+    - 'name': '橙の小站橙の小站靠自己，实际一些！'
+      'url': 'https://blog.zhaozilin.cn'
+    - 'name': 'VnYzmの博客VnYzmの博客分享技术心得和摸鱼感想'
+      'url': 'https://vnyzm.top'
+    - 'name': 'Valine'
+      'url': 'https://valine.js.org'
+    - 'name': 'Luogu'
+      'url': 'https://www.luogu.com.cn/user/183235'
+    - 'name': 'Hexo 8.1.1'
+      'url': 'https://hexo.io'

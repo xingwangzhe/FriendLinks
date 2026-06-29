@@ -1,54 +1,40 @@
-site:
-  name: "com.z2m.store"
-  description: "友情链接"
-  url: "https://com.z2m.store/"
-  links: "/friends"
-  friends:
-    - name: "进入"
-      url: "https://blog.z2m.store/"
-    - name: "自助友链申请"
-      url: "https://github.com/yzg011/Link/issues/new?template=friend-request.yml"
-    - name: "个人主页\n        博客主页"
-      url: "https://home.z2m.store"
-    - name: "笔记📒\n        一个安防人的笔记"
-      url: "https://bj.z2m.store"
-    - name: "免费图床\n        永久免费图床"
-      url: "https://pic.z2m.store"
-    - name: "小鱼钓猫🐱\n        技术成长、生活随笔"
-      url: "https://blog.z2m.store"
-    - name: "个人博客\n        读史可以明智,知古方能鉴今"
-      url: "https://com.z2m.store"
-    - name: "碎碎念\n        分享个人生活动态"
-      url: "https://yu.z2m.store"
-    - name: "Blog\n        一个分享学习的知识网站"
-      url: "https://plog.z2m.store/"
-    - name: "年华\n        分享生活和技术。"
-      url: "https://blog.520781.xyz/"
-    - name: "朋友圈\n        你我的朋友圈"
-      url: "https://py.z2m.store/"
-    - name: "十三\n        欲买桂花同载酒，终不似，少年游。"
-      url: "https://blog.nw177.cn"
-    - name: "Hyde Blog\n        人心中的成见是一座大山"
-      url: "https://seasir.top/"
-    - name: "vlog\n        技术与生活"
-      url: "https://vlog.z2m.store/"
-    - name: "iwexe\n        Go with the flow."
-      url: "https://iwexe.top"
-    - name: "Eysnter的窝窝\n        头顶长颗草，幸福会开花!"
-      url: "https://eysnter.cn/"
-    - name: "BBS\n        极简论坛"
-      url: "https://bbs.z2m.store"
-    - name: "D_SUPER BLOG\n        分享效率笔记、娱乐生活"
-      url: "https://dsuper.xyz"
-    - name: "EdgeCat"
-      url: "http://catp.cc"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "chat with me"
-      url: "https://work.weixin.qq.com/kfid/kfc90518b0eacba59c3"
-    - name: "Github"
-      url: "https://github.com/yzg011"
-    - name: "Hexo 8.1.2"
-      url: "https://hexo.io"
-    - name: "Butterfly 5.5.4"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
+'site':
+  'name': 'com.z2m.store'
+  'description': '友情链接'
+  'url': 'https://com.z2m.store/'
+  'links': '/friends'
+  'friends':
+    - 'name': '进入'
+      'url': 'https://blog.z2m.store/'
+    - 'name': "个人主页\n        博客主页"
+      'url': 'https://home.z2m.store'
+    - 'name': "笔记📒\n        一个安防人的笔记"
+      'url': 'https://bj.z2m.store'
+    - 'name': "小鱼钓猫🐱\n        技术成长、生活随笔"
+      'url': 'https://blog.z2m.store'
+    - 'name': "碎碎念\n        分享个人生活动态"
+      'url': 'https://yu.z2m.store'
+    - 'name': "Blog\n        一个分享学习的知识网站"
+      'url': 'https://plog.z2m.store/'
+    - 'name': "年华\n        分享生活和技术。"
+      'url': 'https://blog.520781.xyz/'
+    - 'name': "朋友圈\n        你我的朋友圈"
+      'url': 'https://py.z2m.store/'
+    - 'name': "十三\n        欲买桂花同载酒，终不似，少年游。"
+      'url': 'https://blog.nw177.cn'
+    - 'name': "Hyde Blog\n        人心中的成见是一座大山"
+      'url': 'https://seasir.top/'
+    - 'name': "vlog\n        技术与生活"
+      'url': 'https://vlog.z2m.store/'
+    - 'name': "iwexe\n        Go with the flow."
+      'url': 'https://iwexe.top'
+    - 'name': "Eysnter的窝窝\n        头顶长颗草，幸福会开花!"
+      'url': 'https://eysnter.cn/'
+    - 'name': "BBS\n        极简论坛"
+      'url': 'https://bbs.z2m.store'
+    - 'name': "D_SUPER BLOG\n        分享效率笔记、娱乐生活"
+      'url': 'https://dsuper.xyz'
+    - 'name': 'EdgeCat'
+      'url': 'http://catp.cc'
+    - 'name': 'Hexo 8.1.2'
+      'url': 'https://hexo.io'

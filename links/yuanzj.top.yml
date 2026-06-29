@@ -1,52 +1,38 @@
-site:
-  name: "圆周率"
-  url: "https://yuanzj.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "Fluid Blog主题博客"
-      url: "https://hexo.fluid-dev.com/"
-    - name: "jacksen168jacksen168’s Blog"
-      url: "https://www.jacksen168.top/"
-    - name: "Wlog一个普通人"
-      url: "https://blog.wmz1024.com/"
-    - name: "Fgaoxing一个少年的博客"
-      url: "https://www.yt-blog.top/"
-    - name: "Akilarの糖果屋欢迎光临糖果屋"
-      url: "https://akilar.top/"
-    - name: "祈星海循此苦旅，以达星辰"
-      url: "https://www.zzzzhi.com"
-    - name: "Allenyou’s Blog稻花香里说丰年，听取WA声一片"
-      url: "https://www.allenyou.wang/"
-    - name: "Muidar's Site努力学习，活在当下。"
-      url: "https://www.muidar.com"
-    - name: "写bug的代码人没有比这再简陋的网站了"
-      url: "https://bugcoder.asia/"
-    - name: "jingdutiao’s blog向前看，那便是属于网安的光明万丈"
-      url: "https://www.chinesehacker.org"
-    - name: "大棉博客念念不忘，必有回响"
-      url: "https://www.rua.ink/"
-    - name: "LeZi的猫窝世界上本没有博客，直到有了程序员"
-      url: "https://leziblog.com"
-    - name: "布丁の小窝一个有梦想的咸鱼"
-      url: "https://www.furryowo.top/"
-    - name: "电子鱼计算机·硬件·图形学"
-      url: "https://www.efish.top/"
-    - name: "Virelyx清醒独立，慎辩是非。"
-      url: "https://riseforever.cn/"
-    - name: "雨云新一代云服务提供商"
-      url: "https://www.rainyun.com/MjY4NzM=_"
-    - name: "浪海导航浪海导航 ~ 收录各种类型的博客"
-      url: "https://www.langhai.net/"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Fluid"
-      url: "https://github.com/fluid-dev/hexo-theme-fluid"
-    - name: "萌ICP备20236666号"
-      url: "https://icp.gov.moe/?keyword=20236666"
-    - name: "无聊湾 🥱 The Boring Bay"
-      url: "https://boringbay.com"
+'site':
+  'name': '圆周率'
+  'url': 'https://yuanzj.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Fluid Blog主题博客'
+      'url': 'https://hexo.fluid-dev.com/'
+    - 'name': 'jacksen168jacksen168’s Blog'
+      'url': 'https://www.jacksen168.top/'
+    - 'name': 'Wlog一个普通人'
+      'url': 'https://blog.wmz1024.com/'
+    - 'name': 'Fgaoxing一个少年的博客'
+      'url': 'https://www.yt-blog.top/'
+    - 'name': 'Akilarの糖果屋欢迎光临糖果屋'
+      'url': 'https://akilar.top/'
+    - 'name': '祈星海循此苦旅，以达星辰'
+      'url': 'https://www.zzzzhi.com'
+    - 'name': 'Allenyou’s Blog稻花香里说丰年，听取WA声一片'
+      'url': 'https://www.allenyou.wang/'
+    - 'name': 'Muidar''s Site努力学习，活在当下。'
+      'url': 'https://www.muidar.com'
+    - 'name': '写bug的代码人没有比这再简陋的网站了'
+      'url': 'https://bugcoder.asia/'
+    - 'name': 'jingdutiao’s blog向前看，那便是属于网安的光明万丈'
+      'url': 'https://www.chinesehacker.org'
+    - 'name': '大棉博客念念不忘，必有回响'
+      'url': 'https://www.rua.ink/'
+    - 'name': 'LeZi的猫窝世界上本没有博客，直到有了程序员'
+      'url': 'https://leziblog.com'
+    - 'name': '布丁の小窝一个有梦想的咸鱼'
+      'url': 'https://www.furryowo.top/'
+    - 'name': '电子鱼计算机·硬件·图形学'
+      'url': 'https://www.efish.top/'
+    - 'name': 'Virelyx清醒独立，慎辩是非。'
+      'url': 'https://riseforever.cn/'
+    - 'name': '雨云新一代云服务提供商'
+      'url': 'https://www.rainyun.com/MjY4NzM=_'

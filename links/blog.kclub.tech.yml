@@ -1,56 +1,32 @@
-site:
-  name: "blog.kclub.tech"
-  description: "友情链接"
-  url: "https://blog.kclub.tech/"
-  links: "/link"
-  friends:
-    - name: "博客"
-      url: "https://blog.kclub.tech/"
-    - name: "Open-WebUI"
-      url: "https://chat.kclub.tech/"
-    - name: "Docker加速"
-      url: "https://docker.kclub.tech/"
-    - name: "Helm加速"
-      url: "https://helm.kclub.tech/"
-    - name: "Nick的琐碎日常"
-      url: "https://www.nickwald.top/"
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com/"
-    - name: "koto's Site"
-      url: "https://koto.cc"
-    - name: "江修的博客"
-      url: "https://blogs.obelisync.com"
-    - name: "Dao-Miruu"
-      url: "https://www.silverdragon.cn/?link=blog.kclub.tech"
-    - name: "DP 小木屋"
-      url: "https://dpii.club"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "西西のBlog"
-      url: "https://xxand.cc"
-    - name: "SharpIceSharpIce锐冰龙温馨的小窝~"
-      url: "https://sharpice.top"
-    - name: "渣渣120渣渣120[object Object]"
-      url: "https://zhazha120.cn"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Github"
-      url: "https://github.com/smallki-d"
-    - name: "BiliBili"
-      url: "https://space.bilibili.com/38091588"
-    - name: "QQ"
-      url: "https://qm.qq.com/q/bcvDAwl3TG"
-    - name: "Telegram"
-      url: "https://t.me/smallkidOwO"
-    - name: "Github"
-      url: "https://github.com/SmallKi-d"
-    - name: "Discord(不常用)"
-      url: "https://discord.gg/SmallKid#4549"
-    - name: "BlogFinder"
-      url: "https://bf.zzxworld.com/s/1154"
-    - name: "服务状态"
-      url: "https://status.kclub.tech/status/main"
-    - name: "Theme-AnzhiYu"
-      url: "https://github.com/anzhiyu-c/hexo-theme-anzhiyu"
-    - name: "图床"
-      url: "https://phost.kclub.tech/"
+'site':
+  'name': 'blog.kclub.tech'
+  'description': '友情链接'
+  'url': 'https://blog.kclub.tech/'
+  'links': '/link'
+  'friends':
+    - 'name': 'Open-WebUI'
+      'url': 'https://chat.kclub.tech/'
+    - 'name': 'Nick的琐碎日常'
+      'url': 'https://www.nickwald.top/'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': 'koto''s Site'
+      'url': 'https://koto.cc'
+    - 'name': '江修的博客'
+      'url': 'https://blogs.obelisync.com'
+    - 'name': 'Dao-Miruu'
+      'url': 'https://www.silverdragon.cn/?link=blog.kclub.tech'
+    - 'name': 'DP 小木屋'
+      'url': 'https://dpii.club'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '西西のBlog'
+      'url': 'https://xxand.cc'
+    - 'name': 'SharpIceSharpIce锐冰龙温馨的小窝~'
+      'url': 'https://sharpice.top'
+    - 'name': '渣渣120渣渣120[object Object]'
+      'url': 'https://zhazha120.cn'
+    - 'name': 'Discord(不常用)'
+      'url': 'https://discord.gg/SmallKid#4549'
+    - 'name': 'BlogFinder'
+      'url': 'https://bf.zzxworld.com/s/1154'

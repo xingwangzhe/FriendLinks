@@ -1,108 +1,68 @@
-site:
-  name: "会飞的猫"
-  url: "https://blog.flycat.tech/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "IT工具箱"
-      url: "https://tools.flycat.tech/"
-    - name: "Linux命令查询"
-      url: "https://linux-cmd.flycat.tech"
-    - name: "Ryan Wang"
-      url: "https://ryanc.cc"
-    - name: "guqing's blog"
-      url: "https://guqing.io"
-    - name: "nukix的工具箱"
-      url: "https://blog.uso6.com/"
-    - name: "刘俊辉个人博客"
-      url: "https://www.ljh99.cn"
-    - name: "無.Flac‘s Blog"
-      url: "https://w-flac.org.cn"
-    - name: "Photon Yao - Notes"
-      url: "https://blog.kangyaocoding.top"
-    - name: "ZLX STUDIO"
-      url: "https://blog.iooioio.com"
-    - name: "云留月的技术小站"
-      url: "https://www.cloudstaymoon.com"
-    - name: "叩钉壹刻"
-      url: "https://www.lxfycloud.cn"
-    - name: "LogDict"
-      url: "https://www.logdict.com"
-    - name: "张天赐的小世界"
-      url: "https://www.zhangtianci.cn"
-    - name: "dreamChaser的小屋🏡"
-      url: "https://blog.wenjing.xin"
-    - name: "樽前小筑"
-      url: "https://blog.yefoenix.ws"
-    - name: "jiutian的博客"
-      url: "https://blog.jiutian.work"
-    - name: "Linzepore’s Blog"
-      url: "https://zepo.re"
-    - name: "小苏打笔记"
-      url: "https://www.teh.top"
-    - name: "未雨绸缪"
-      url: "https://7boe.top"
-    - name: "酷谷的谷子"
-      url: "https://www.i8520.cn"
-    - name: "跨境Ritch"
-      url: "https://www.cctv14.us.kg"
-    - name: "回忆宫殿"
-      url: "https://f10atingheart.xyz"
-    - name: "我剑也未尝不利"
-      url: "https://tch.cool"
-    - name: "灯火不休时"
-      url: "https://blog.dhbxs.top"
-    - name: "恐怖屋"
-      url: "https://www.kongbuwu.com/"
-    - name: "小林酱博客"
-      url: "https://blog.zxiaolin.com"
-    - name: "会飞的猫"
-      url: "https://blog.flycat.tech/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "小慧博客\n                                小慧的技术博客"
-      url: "https://www.itxiaohui.top/"
-    - name: "阮一峰的网络日志\n                                阮一峰的个人网站"
-      url: "http://www.ruanyifeng.com/blog/"
-    - name: "https://blog.flycat.tech"
-      url: "https://blog.flycat.tech"
-    - name: "https://img-gh.flycat.tech/10/main/avatar.jpg"
-      url: "https://img-gh.flycat.tech/10/main/avatar.jpg"
-    - name: "https://cdn.zxiaolin.com/imgas/humuziwt.png"
-      url: "https://cdn.zxiaolin.com/imgas/humuziwt.png"
-    - name: "https://blog.zxiaolin.com/rss.xml"
-      url: "https://blog.zxiaolin.com/rss.xml"
-    - name: "https://www.kongbuwu.com/upload/kongbuwu-logo-IYKJ.png"
-      url: "https://www.kongbuwu.com/upload/kongbuwu-logo-IYKJ.png"
-    - name: "https://www.kongbuwu.com/rss.xml"
-      url: "https://www.kongbuwu.com/rss.xml"
-    - name: "https://file.dhbxs.top/favicon.ico"
-      url: "https://file.dhbxs.top/favicon.ico"
-    - name: "https://tch.cool/upload/logo.png"
-      url: "https://tch.cool/upload/logo.png"
-    - name: "F10atingHeart."
-      url: "http://f10atingheart.xyz"
-    - name: "https://s21.ax1x.com/2024/06/21/pkDN2ND.jpg"
-      url: "https://s21.ax1x.com/2024/06/21/pkDN2ND.jpg"
-    - name: "https://www.i8520.cn/link"
-      url: "https://www.i8520.cn/link"
-    - name: "https://www.i8520.cn/upload/logn.png"
-      url: "https://www.i8520.cn/upload/logn.png"
-    - name: "https://oss.7boe.top/2024/03/11/65ee77dac4869.png"
-      url: "https://oss.7boe.top/2024/03/11/65ee77dac4869.png"
-    - name: "会飞的猫"
-      url: "http://blog.flycat.tech"
-    - name: "Celia"
-      url: "http://7boe.top"
-    - name: "https://www.teh.top/friends"
-      url: "https://www.teh.top/friends"
-    - name: "https://www.teh.top/"
-      url: "https://www.teh.top/"
-    - name: "https://www.teh.top/favicon.ico"
-      url: "https://www.teh.top/favicon.ico"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "粤ICP备2024204056号-1"
-      url: "https://beian.miit.gov.cn/#/Integrated/index"
-    - name: "粤公网安备44010602012529号"
-      url: "http://www.beian.gov.cn/portal/registerSystemInfo"
+'site':
+  'name': '会飞的猫'
+  'url': 'https://blog.flycat.tech/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Linux命令查询'
+      'url': 'https://linux-cmd.flycat.tech'
+    - 'name': 'Ryan Wang'
+      'url': 'https://ryanc.cc'
+    - 'name': 'guqing''s blog'
+      'url': 'https://guqing.io'
+    - 'name': '刘俊辉个人博客'
+      'url': 'https://www.ljh99.cn'
+    - 'name': '無.Flac‘s Blog'
+      'url': 'https://w-flac.org.cn'
+    - 'name': 'Photon Yao - Notes'
+      'url': 'https://blog.kangyaocoding.top'
+    - 'name': 'ZLX STUDIO'
+      'url': 'https://blog.iooioio.com'
+    - 'name': '云留月的技术小站'
+      'url': 'https://www.cloudstaymoon.com'
+    - 'name': '叩钉壹刻'
+      'url': 'https://www.lxfycloud.cn'
+    - 'name': 'LogDict'
+      'url': 'https://www.logdict.com'
+    - 'name': '张天赐的小世界'
+      'url': 'https://www.zhangtianci.cn'
+    - 'name': 'dreamChaser的小屋🏡'
+      'url': 'https://blog.wenjing.xin'
+    - 'name': '樽前小筑'
+      'url': 'https://blog.yefoenix.ws'
+    - 'name': 'jiutian的博客'
+      'url': 'https://blog.jiutian.work'
+    - 'name': 'Linzepore’s Blog'
+      'url': 'https://zepo.re'
+    - 'name': '小苏打笔记'
+      'url': 'https://www.teh.top'
+    - 'name': '未雨绸缪'
+      'url': 'https://7boe.top'
+    - 'name': '酷谷的谷子'
+      'url': 'https://www.i8520.cn'
+    - 'name': '跨境Ritch'
+      'url': 'https://www.cctv14.us.kg'
+    - 'name': '回忆宫殿'
+      'url': 'https://f10atingheart.xyz'
+    - 'name': '我剑也未尝不利'
+      'url': 'https://tch.cool'
+    - 'name': '灯火不休时'
+      'url': 'https://blog.dhbxs.top'
+    - 'name': '恐怖屋'
+      'url': 'https://www.kongbuwu.com/'
+    - 'name': '小林酱博客'
+      'url': 'https://blog.zxiaolin.com'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "小慧博客
+
+        \                                小慧的技术博客"
+      'url': 'https://www.itxiaohui.top/'
+    - 'name': "阮一峰的网络日志
+
+        \                                阮一峰的个人网站"
+      'url': 'http://www.ruanyifeng.com/blog/'
+    - 'name': 'F10atingHeart.'
+      'url': 'http://f10atingheart.xyz'
+    - 'name': 'Celia'
+      'url': 'http://7boe.top'

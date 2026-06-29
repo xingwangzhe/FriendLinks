@@ -1,20 +1,16 @@
-site:
-  name: "blog.shenley.cn"
-  description: "友情链接"
-  url: "https://blog.shenley.cn/"
-  links: "/link"
-  friends:
-    - name: "葱苓sama"
-      url: "https://blog.ciraos.top"
-    - name: "Silvaire"
-      url: "https://qwq.blue"
-    - name: "天翔TNXG"
-      url: "https://tnxgmoe.com"
-    - name: "Pinpe"
-      url: "https://pinpe.top"
-    - name: "纸鹿本鹿"
-      url: "https://blog.zhilu.cyou/"
-    - name: "shenley存档点"
-      url: "https://blog.shenley.cn/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
+'site':
+  'name': 'blog.shenley.cn'
+  'description': '友情链接'
+  'url': 'https://blog.shenley.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '葱苓sama'
+      'url': 'https://blog.ciraos.top'
+    - 'name': 'Silvaire'
+      'url': 'https://qwq.blue'
+    - 'name': '天翔TNXG'
+      'url': 'https://tnxgmoe.com'
+    - 'name': 'Pinpe'
+      'url': 'https://pinpe.top'
+    - 'name': '纸鹿本鹿'
+      'url': 'https://blog.zhilu.cyou/'

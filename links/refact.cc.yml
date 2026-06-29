@@ -1,48 +1,40 @@
-site:
-  name: "refact.cc"
-  description: "友情链接"
-  url: "https://refact.cc/"
-  links: "/friends"
-  friends:
-    - name: "枫落丰源 枫落丰源  和你的日常，就是奇迹"
-      url: "https://blog.feng1026.top/"
-    - name: "纸鹿摸鱼处 纸鹿本鹿  纸鹿至麓不知路，支炉制露不止漉"
-      url: "https://blog.zhilu.site/"
-    - name: "Nebula Blog C-4-C-4  No Further Information"
-      url: "https://www.996icu.eu.org/"
-    - name: "叁睦のBlog 叁睦  无限进步"
-      url: "https://blog.3mua.cn"
-    - name: "单项式的笔记本 BCMonomial  “你想在这里看到什么呢？”"
-      url: "https://bcmonomial.xyz"
-    - name: "鈴奈咲桜のBlog 鈴奈咲桜  愛することを忘れないで"
-      url: "https://blog.sakura.ink"
-    - name: "kzhik's website kzhik  EXPLORE THE WORLD!"
-      url: "https://www.kzhik.cn"
-    - name: "RavelloH's Blog RavelloH  Beginning of meditation."
-      url: "https://ravelloh.top/"
-    - name: "SAKURAIN TEAM SAKURAIN  用代码构建未来"
-      url: "https://sakurain.net/"
-    - name: "酥米的小站 酥米  终有一日，寻梦中人"
-      url: "https://www.sumi233.top/"
-    - name: "LYEy_isine个人博客 LYEy_isine  花海无一日,少年踏自来"
-      url: "https://caiyifeng.top"
-    - name: "Mikuの极光星 Mikuの鬆  心有多宽，世界就有多远"
-      url: "https://blog.sotkg.com"
-    - name: "木竹 木竹  喜欢把复杂的图纸变成简洁优雅的造价文件"
-      url: "https://www.laomuzhu.cn"
-    - name: "Ag's Playground SilverAg.L  No Further Information"
-      url: "https://agxcoy.shimakaze.org"
-    - name: "Saneko Saneko  Do the things that I like."
-      url: "https://saneko.me/"
-    - name: "咖啡豆子coffee的小站 咖啡豆子coffee  所有奇迹的始发点"
-      url: "https://blog.kfdzcoffee.cn"
-    - name: "Emnasop Blog Emnasop  一个简易的个人博客"
-      url: "https://emnasop.cn/"
-    - name: "Astro"
-      url: "https://astro.build"
-    - name: "Vercel"
-      url: "https://www.vercel.com"
-    - name: "Source Code"
-      url: "https://github.com/Refac7/RefactX"
-    - name: "萌ICP备 20252280号"
-      url: "https://icp.gov.moe/?keyword=20252280"
+'site':
+  'name': 'refact.cc'
+  'description': '友情链接'
+  'url': 'https://refact.cc/'
+  'links': '/friends'
+  'friends':
+    - 'name': '枫落丰源 枫落丰源  和你的日常，就是奇迹'
+      'url': 'https://blog.feng1026.top/'
+    - 'name': '纸鹿摸鱼处 纸鹿本鹿  纸鹿至麓不知路，支炉制露不止漉'
+      'url': 'https://blog.zhilu.site/'
+    - 'name': 'Nebula Blog C-4-C-4  No Further Information'
+      'url': 'https://www.996icu.eu.org/'
+    - 'name': '叁睦のBlog 叁睦  无限进步'
+      'url': 'https://blog.3mua.cn'
+    - 'name': '单项式的笔记本 BCMonomial  “你想在这里看到什么呢？”'
+      'url': 'https://bcmonomial.xyz'
+    - 'name': '鈴奈咲桜のBlog 鈴奈咲桜  愛することを忘れないで'
+      'url': 'https://blog.sakura.ink'
+    - 'name': 'kzhik''s website kzhik  EXPLORE THE WORLD!'
+      'url': 'https://www.kzhik.cn'
+    - 'name': 'RavelloH''s Blog RavelloH  Beginning of meditation.'
+      'url': 'https://ravelloh.top/'
+    - 'name': 'SAKURAIN TEAM SAKURAIN  用代码构建未来'
+      'url': 'https://sakurain.net/'
+    - 'name': '酥米的小站 酥米  终有一日，寻梦中人'
+      'url': 'https://www.sumi233.top/'
+    - 'name': 'LYEy_isine个人博客 LYEy_isine  花海无一日,少年踏自来'
+      'url': 'https://caiyifeng.top'
+    - 'name': 'Mikuの极光星 Mikuの鬆  心有多宽，世界就有多远'
+      'url': 'https://blog.sotkg.com'
+    - 'name': '木竹 木竹  喜欢把复杂的图纸变成简洁优雅的造价文件'
+      'url': 'https://www.laomuzhu.cn'
+    - 'name': 'Ag''s Playground SilverAg.L  No Further Information'
+      'url': 'https://agxcoy.shimakaze.org'
+    - 'name': 'Saneko Saneko  Do the things that I like.'
+      'url': 'https://saneko.me/'
+    - 'name': '咖啡豆子coffee的小站 咖啡豆子coffee  所有奇迹的始发点'
+      'url': 'https://blog.kfdzcoffee.cn'
+    - 'name': 'Emnasop Blog Emnasop  一个简易的个人博客'
+      'url': 'https://emnasop.cn/'

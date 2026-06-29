@@ -1,64 +1,50 @@
-site:
-  name: "blog.gnaixeuy.cn"
-  description: "友情链接"
-  url: "https://blog.gnaixeuy.cn/"
-  links: "/link"
-  friends:
-    - name: "博客"
-      url: "https://blog.gnaixeuy.cn/"
-    - name: "站点运行监测"
-      url: "https://status.gnaixeuy.cn/"
-    - name: "Nas私有云"
-      url: "https://home.gnaixeuy.cn:5001/"
-    - name: "it-tools工具集"
-      url: "https://ittools.gnaixeuy.cn"
-    - name: "ChatGPT-Next"
-      url: "http://nas.gnaixeuy.cn:3000"
-    - name: "爱国学习平台(暂时关闭)"
-      url: "http://xxqg.gnaixeuy.cn:7452"
-    - name: "LobeHub 智能AI聚合站"
-      url: "http://nas.gnaixeuy.cn:3001"
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com/"
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com"
-    - name: "闪光桐人"
-      url: "https://moechun.fun/"
-    - name: "思宁HERE"
-      url: "https://www.snhere.com"
-    - name: "探人间"
-      url: "https://www.hydsb0.com"
-    - name: "前尘小筑"
-      url: "https://mnchen.cn/"
-    - name: "青桔气球"
-      url: "https://blog.qjqq.cn/"
-    - name: "东方月初"
-      url: "https://blog.liuer.xin/"
-    - name: "Chfychin🥝"
-      url: "https://www.chfychin.cn/"
-    - name: "张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "ksgfkZzz..."
-      url: "https://ksgfk.github.io"
-    - name: "哇塞码农其实，我是一个工程师"
-      url: "https://wscoder.com/"
-    - name: "Qeem一名大四的菜鸡"
-      url: "http://itstarqeem.space"
-    - name: "zhecydn的博客站送君茉莉，愿君莫离"
-      url: "https://blog.zhecydn.asia/"
-    - name: "小旦SNTube Studio"
-      url: "https://satera.cn"
-    - name: "Elykia致以无暇之人"
-      url: "https://blog.elykia.cn/"
-    - name: "咱们俩の博客高不可攀"
-      url: "https://blog.zamlia.com"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "GnaixEuy"
-      url: "https://www.gnaixeuy.cn"
-    - name: "Github"
-      url: "https://github.com/GnaixEuy"
-    - name: "微博"
-      url: "https://weibo.com/u/5442690682"
-    - name: "抖音"
-      url: "https://www.douyin.com/user/MS4wLjABAAAAT618N_R7izb2I5l2_WttZilpct9ZSdgngSzsQSLvMWE"
+'site':
+  'name': 'blog.gnaixeuy.cn'
+  'description': '友情链接'
+  'url': 'https://blog.gnaixeuy.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': 'Nas私有云'
+      'url': 'https://home.gnaixeuy.cn:5001/'
+    - 'name': 'ChatGPT-Next'
+      'url': 'http://nas.gnaixeuy.cn:3000'
+    - 'name': '爱国学习平台(暂时关闭)'
+      'url': 'http://xxqg.gnaixeuy.cn:7452'
+    - 'name': 'LobeHub 智能AI聚合站'
+      'url': 'http://nas.gnaixeuy.cn:3001'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com'
+    - 'name': '闪光桐人'
+      'url': 'https://moechun.fun/'
+    - 'name': '思宁HERE'
+      'url': 'https://www.snhere.com'
+    - 'name': '探人间'
+      'url': 'https://www.hydsb0.com'
+    - 'name': '前尘小筑'
+      'url': 'https://mnchen.cn/'
+    - 'name': '青桔气球'
+      'url': 'https://blog.qjqq.cn/'
+    - 'name': '东方月初'
+      'url': 'https://blog.liuer.xin/'
+    - 'name': 'Chfychin🥝'
+      'url': 'https://www.chfychin.cn/'
+    - 'name': '张洪Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '哇塞码农其实，我是一个工程师'
+      'url': 'https://wscoder.com/'
+    - 'name': 'Qeem一名大四的菜鸡'
+      'url': 'http://itstarqeem.space'
+    - 'name': 'zhecydn的博客站送君茉莉，愿君莫离'
+      'url': 'https://blog.zhecydn.asia/'
+    - 'name': '小旦SNTube Studio'
+      'url': 'https://satera.cn'
+    - 'name': 'Elykia致以无暇之人'
+      'url': 'https://blog.elykia.cn/'
+    - 'name': '咱们俩の博客高不可攀'
+      'url': 'https://blog.zamlia.com'
+    - 'name': 'GnaixEuy'
+      'url': 'https://www.gnaixeuy.cn'
+    - 'name': '抖音'
+      'url': 'https://www.douyin.com/user/MS4wLjABAAAAT618N_R7izb2I5l2_WttZilpct9ZSdgngSzsQSLvMWE'

@@ -1,136 +1,74 @@
-site:
-  name: "qlAD"
-  url: "https://qladgk.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Travelling Icon"
-      url: "https://www.travellings.cn/go.html"
-    - name: "张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "大大的小蜗牛机会总是垂青于有准备的人"
-      url: "https://www.eallion.com"
-    - name: "Spencer北京理工大学博士生"
-      url: "https://spencerwoo.com/"
-    - name: "宇阳记录所学知识，缩短和大神的差距！"
-      url: "https://liuyuyang.net/"
-    - name: "草东日记独立思考，不困于众声扰"
-      url: "https://www.gaicas.com"
-    - name: "安知鱼生活明朗，万物可爱"
-      url: "https://blog.anheyu.com/"
-    - name: "Leonus进一寸有进一寸的欢喜。"
-      url: "https://blog.leonus.cn/"
-    - name: "REDEYESの小窝努力学网络的计科人"
-      url: "https://www.redeyes.top/"
-    - name: "Elykia致以无暇之人"
-      url: "https://blog.elykia.cn/"
-    - name: "爱吃肉的猫有肉有猫有生活."
-      url: "https://meuicat.com/"
-    - name: "修远的小屋路漫漫其修远兮，吾将上下而求索"
-      url: "https://house.coderxst.top/"
-    - name: "半方池水半方田只能懂一点点"
-      url: "https://uuanqin.top/"
-    - name: "爱玩实验室定期分享一些好玩的东西，包括但不局限于服务器、Web3等相关知识。"
-      url: "https://iwanlab.com/"
-    - name: "坠入星野的月🌙不以物喜，不以己悲。"
-      url: "https://www.uf4te.cn/"
-    - name: "超光速我们的征途是星辰大海！"
-      url: "https://www.ftls.xyz/"
-    - name: "徐徐爱coding一个精美的个人博客,记录平时的学习笔记"
-      url: "https://www.xu69.com"
-    - name: "陈圈圈一执一念一浮生，一悲一喜一枉然"
-      url: "https://coobk.com"
-    - name: "Bore's Notes博观而约取，厚积而薄发。"
-      url: "https://bore.vip"
-    - name: "ZLX STUDIO为音乐创作发电！"
-      url: "https://blog.iooioio.com/"
-    - name: "Anyeの小站Always Nurturing Your Enthusiasm"
-      url: "https://www.anye.xyz"
-    - name: "RE施恩勿念，受恩莫忘"
-      url: "https://blog.randench.cn/"
-    - name: "时光の流言是你把那座小城告诉了我。希望在这里能与你相遇，我的朋友，我的爱人。"
-      url: "https://blog.hansjack.top"
-    - name: "久流借由他人 寻找自我"
-      url: "https://www.jiuliu.top/"
-    - name: "ProriseProrise - 分享全栈技术与实战"
-      url: "https://prorise666.site/"
-    - name: "AntJust So So …"
-      url: "https://blog.wryhf.com/"
-    - name: "Lufs一个假的博客~"
-      url: "https://blog.isteed.cc/"
-    - name: "Pinpe 的云端一个属于自己的云朵"
-      url: "https://blog.pinpe.top/"
-    - name: "旧絮记录生活"
-      url: "https://blog.ivil.top/"
-    - name: "qlAD"
-      url: "https://www.qladgk.com/"
-    - name: "https://cdn.qladgk.com/images/qlAD.jpg"
-      url: "https://cdn.qladgk.com/images/qlAD.jpg"
-    - name: "https://www.qladgk.com/links"
-      url: "https://www.qladgk.com/links"
-    - name: "天渺studio"
-      url: "https://tianmiao.site"
-    - name: "https://s21.ax1x.com/2024/12/22/pAXtJat.jpg"
-      url: "https://s21.ax1x.com/2024/12/22/pAXtJat.jpg"
-    - name: "https://tianmiao.site/friend"
-      url: "https://tianmiao.site/friend"
-    - name: "https://www.80tz.cn"
-      url: "https://www.80tz.cn"
-    - name: "https://80tz.cn/fluid.png"
-      url: "https://80tz.cn/fluid.png"
-    - name: "https://www.80tz.cn/links"
-      url: "https://www.80tz.cn/links"
-    - name: "CBDT"
-      url: "http://www.weitao-jiang.cn"
-    - name: "www.weitao-jiang.cn/images/avatar.jpg"
-      url: "http://www.weitao-jiang.cn/images/avatar.jpg"
-    - name: "https://www.weitao-jiang.cn"
-      url: "https://www.weitao-jiang.cn"
-    - name: "https://www.weitao-jiang.cn/index.html#links"
-      url: "https://www.weitao-jiang.cn/index.html#links"
-    - name: "https://blog.wryhf.com"
-      url: "https://blog.wryhf.com"
-    - name: "https://blog.wryhf.com/upload/tx.png"
-      url: "https://blog.wryhf.com/upload/tx.png"
-    - name: "https://blog.wryhf.com/links"
-      url: "https://blog.wryhf.com/links"
-    - name: "草东"
-      url: "https://gaicas.com"
-    - name: "https://oss.gaicas.com/link_logo.png"
-      url: "https://oss.gaicas.com/link_logo.png"
-    - name: "https://www.gaicas.com/friends"
-      url: "https://www.gaicas.com/friends"
-    - name: "https://prorise666.site/link/"
-      url: "https://prorise666.site/link/"
-    - name: "HC"
-      url: "https://blog.ivil.top"
-    - name: "https://thirdqq.qlogo.cn/g?b=qq&nk=3362991369&s=640"
-      url: "https://thirdqq.qlogo.cn/g?b=qq&nk=3362991369&s=640"
-    - name: "qlAD"
-      url: "https://www.qladgk.com"
-    - name: "Pinpe"
-      url: "https://pinpe.top"
-    - name: "https://pinpe.top/head.jpg"
-      url: "https://pinpe.top/head.jpg"
-    - name: "https://blog.pinpe.top/friend/"
-      url: "https://blog.pinpe.top/friend/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "GitHub Icon"
-      url: "https://github.com/qlAD"
-    - name: "Bilibili Icon"
-      url: "https://space.bilibili.com/505243833"
-    - name: "十年之约"
-      url: "https://foreverblog.cn/go.html"
-    - name: "Status"
-      url: "https://status.qladgk.com/status/qlad"
-    - name: "源代码"
-      url: "https://github.com/qlAD/gkBlog"
-    - name: "陕ICP备2024050194号-1"
-      url: "https://beian.miit.gov.cn/"
-    - name: "陕公网安备61072102000193"
-      url: "https://beian.mps.gov.cn/#/query/webSearch?code=61072102000193"
-    - name: "查看作者原仓库"
-      url: "https://github.com/enjidev/enji.dev"
-    - name: "CC BY-NC-ND"
-      url: "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans"
+'site':
+  'name': 'qlAD'
+  'url': 'https://qladgk.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '张洪Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '大大的小蜗牛机会总是垂青于有准备的人'
+      'url': 'https://www.eallion.com'
+    - 'name': 'Spencer北京理工大学博士生'
+      'url': 'https://spencerwoo.com/'
+    - 'name': '宇阳记录所学知识，缩短和大神的差距！'
+      'url': 'https://liuyuyang.net/'
+    - 'name': '草东日记独立思考，不困于众声扰'
+      'url': 'https://www.gaicas.com'
+    - 'name': '安知鱼生活明朗，万物可爱'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': 'Leonus进一寸有进一寸的欢喜。'
+      'url': 'https://blog.leonus.cn/'
+    - 'name': 'REDEYESの小窝努力学网络的计科人'
+      'url': 'https://www.redeyes.top/'
+    - 'name': 'Elykia致以无暇之人'
+      'url': 'https://blog.elykia.cn/'
+    - 'name': '爱吃肉的猫有肉有猫有生活.'
+      'url': 'https://meuicat.com/'
+    - 'name': '修远的小屋路漫漫其修远兮，吾将上下而求索'
+      'url': 'https://house.coderxst.top/'
+    - 'name': '半方池水半方田只能懂一点点'
+      'url': 'https://uuanqin.top/'
+    - 'name': '爱玩实验室定期分享一些好玩的东西，包括但不局限于服务器、Web3等相关知识。'
+      'url': 'https://iwanlab.com/'
+    - 'name': '坠入星野的月🌙不以物喜，不以己悲。'
+      'url': 'https://www.uf4te.cn/'
+    - 'name': '超光速我们的征途是星辰大海！'
+      'url': 'https://www.ftls.xyz/'
+    - 'name': '徐徐爱coding一个精美的个人博客,记录平时的学习笔记'
+      'url': 'https://www.xu69.com'
+    - 'name': '陈圈圈一执一念一浮生，一悲一喜一枉然'
+      'url': 'https://coobk.com'
+    - 'name': 'Bore''s Notes博观而约取，厚积而薄发。'
+      'url': 'https://bore.vip'
+    - 'name': 'ZLX STUDIO为音乐创作发电！'
+      'url': 'https://blog.iooioio.com/'
+    - 'name': 'Anyeの小站Always Nurturing Your Enthusiasm'
+      'url': 'https://www.anye.xyz'
+    - 'name': 'RE施恩勿念，受恩莫忘'
+      'url': 'https://blog.randench.cn/'
+    - 'name': '时光の流言是你把那座小城告诉了我。希望在这里能与你相遇，我的朋友，我的爱人。'
+      'url': 'https://blog.hansjack.top'
+    - 'name': '久流借由他人 寻找自我'
+      'url': 'https://www.jiuliu.top/'
+    - 'name': 'ProriseProrise - 分享全栈技术与实战'
+      'url': 'https://prorise666.site/'
+    - 'name': 'AntJust So So …'
+      'url': 'https://blog.wryhf.com/'
+    - 'name': 'Lufs一个假的博客~'
+      'url': 'https://blog.isteed.cc/'
+    - 'name': 'Pinpe 的云端一个属于自己的云朵'
+      'url': 'https://blog.pinpe.top/'
+    - 'name': '旧絮记录生活'
+      'url': 'https://blog.ivil.top/'
+    - 'name': '天渺studio'
+      'url': 'https://tianmiao.site'
+    - 'name': 'CBDT'
+      'url': 'http://www.weitao-jiang.cn'
+    - 'name': '草东'
+      'url': 'https://gaicas.com'
+    - 'name': 'HC'
+      'url': 'https://blog.ivil.top'
+    - 'name': 'Pinpe'
+      'url': 'https://pinpe.top'
+    - 'name': 'CC BY-NC-ND'
+      'url': 'https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans'

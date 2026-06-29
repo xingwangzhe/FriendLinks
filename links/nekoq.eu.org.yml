@@ -1,98 +1,78 @@
-site:
-  name: "湛蓝的调色板"
-  url: "https://nekoq.eu.org/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Lily EllenviaLily Network"
-      url: "https://lilynet.work/"
-    - name: "Lenger 的后花园如果是你的话，一定没问题"
-      url: "https://varraro.github.io/"
-    - name: "Fika's blog遇到困难睡大觉"
-      url: "https://fika.ink/"
-    - name: "高科技大脑指挥部https://blog.hightechbrain.net/"
-      url: "https://blog.hightechbrain.net/"
-    - name: "akearer's blog一起努力吧"
-      url: "https://akearer.top/"
-    - name: "老陈の咸鱼日常Life is fantanstic."
-      url: "https://www.fantanstic.top/"
-    - name: "Isoheptane工程师猫娘"
-      url: "https://blog.cascade.moe/"
-    - name: "Pivot of Winslowhttps://winsloweric.com/"
-      url: "https://winsloweric.com/"
-    - name: "SheepChef Bloghttps://shef.cc/"
-      url: "https://shef.cc/"
-    - name: "Sunyz's Blog下一次相遇可能在任何地方，但我们始终灿烂如星海"
-      url: "https://sunyz.net/"
-    - name: "Cynosurahttps://cynosura.one/"
-      url: "https://cynosura.one/"
-    - name: "U.M.R Powered BlogU.M.R 想要被检索。"
-      url: "https://umrpowered.codeberg.page/"
-    - name: "萌 (//∇//) 贴士愿你把酒执剑，归来仍是少年"
-      url: "https://moe.tips/"
-    - name: "一叶知秋二分之一少女，乘着比特流环游世界"
-      url: "https://www.qy.al/"
-    - name: "SakuraKooi梦是幽蓝色彩 灵魂如雪纯白"
-      url: "https://blog.sakurakooi.cyou/"
-    - name: "dpkg123 的小站路漫漫其修远兮，吾将上下而求索。"
-      url: "https://dpkg123.top/"
-    - name: "風雪城浩繁星空下的一场稚嫩的梦"
-      url: "https://chyk.ink/"
-    - name: "krau's blog子供の时の梦は言えますか"
-      url: "https://krau.top"
-    - name: "Snow's BlogCode Blog"
-      url: "https://blog.ivansnow02.xyz/"
-    - name: "柠檬苏打夹心是夹子！"
-      url: "https://lemonkoi.one"
-    - name: "/var/log/gblab此处会不定时产生包含大量废话的日志文件"
-      url: "https://lab.gb0.dev/"
-    - name: "Anillc's BlogAnillc dayo~"
-      url: "https://anillc.cn/"
-    - name: "Jackie 的猫窝一只猫猫的猫窝"
-      url: "https://jackiecat.top/"
-    - name: "Souiken’s Homepage愿我们度过这个漫漫长夜之后，依旧能看到那旭日东升。"
-      url: "https://souiken.moe/"
-    - name: "huige233's blogEveryone can be the light in the darkness."
-      url: "https://www.huige233.com"
-    - name: "py's bloghttps://py233.net/"
-      url: "https://py233.net/"
-    - name: "天码行空的小破站路漫漫其修远兮，吾将上下而求索"
-      url: "https://cs.gt.tc"
-    - name: "https://nekoq.eu.org/static/images/avatar.png"
-      url: "https://nekoq.eu.org/static/images/avatar.png"
-    - name: "此处"
-      url: "https://github.com/taranakineko/blog/blob/main/source/links/index.md"
-    - name: "梦墨's Blog这个人很懒，但 ta 似乎留下了什么？"
-      url: "https://dreamo.ink/"
-    - name: "Izumi Chino's Blog写代码，二次元，妹控，MtF🏳️‍⚧️，无线电，德国骨科，数学高联什么的太棒了~"
-      url: "https://www.izumichino.tk"
-    - name: "Tony Ding's BlogWorld Peace."
-      url: "https://blog.tonyding.net/"
-    - name: "Ny3ahttps://ny3a.github.io/"
-      url: "https://ny3a.github.io/"
-    - name: "Moeri 落落格看一只自稱貓娘的日常"
-      url: "https://blog.bakalu.site/"
-    - name: "伊緻幻の主页Take my hands."
-      url: "https://www.chwin.asia"
-    - name: "Steven Lynn's BlogSteven Lynn 的个人博客"
-      url: "https://blog.stv.lol"
-    - name: "Nofated's BlogForever you will be in my heart."
-      url: "https://blog.nofated.win"
-    - name: "Unknown blogimaging what i cannot do..."
-      url: "https://blog.tdiant.net"
-    - name: "琥珀の身体"
-      url: "https://music.163.com/#/song?id=1432169641"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "Waline"
-      url: "https://github.com/walinejs/waline"
-    - name: "CC BY-NC-SA 4.0"
-      url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "@TaranakiNeko"
-      url: "https://blog.nekoq.top/"
-    - name: "Stellaris"
-      url: "https://github.com/chiyuki0325/hexo-theme-stellaris"
-    - name: "GitHub"
-      url: "https://github.com/taranakineko/blog"
-    - name: "Hexo"
-      url: "https://hexo.io"
+'site':
+  'name': '湛蓝的调色板'
+  'url': 'https://nekoq.eu.org/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Lily EllenviaLily Network'
+      'url': 'https://lilynet.work/'
+    - 'name': 'Fika''s blog遇到困难睡大觉'
+      'url': 'https://fika.ink/'
+    - 'name': '高科技大脑指挥部https://blog.hightechbrain.net/'
+      'url': 'https://blog.hightechbrain.net/'
+    - 'name': 'akearer''s blog一起努力吧'
+      'url': 'https://akearer.top/'
+    - 'name': '老陈の咸鱼日常Life is fantanstic.'
+      'url': 'https://www.fantanstic.top/'
+    - 'name': 'Isoheptane工程师猫娘'
+      'url': 'https://blog.cascade.moe/'
+    - 'name': 'Pivot of Winslowhttps://winsloweric.com/'
+      'url': 'https://winsloweric.com/'
+    - 'name': 'SheepChef Bloghttps://shef.cc/'
+      'url': 'https://shef.cc/'
+    - 'name': 'Sunyz''s Blog下一次相遇可能在任何地方，但我们始终灿烂如星海'
+      'url': 'https://sunyz.net/'
+    - 'name': 'Cynosurahttps://cynosura.one/'
+      'url': 'https://cynosura.one/'
+    - 'name': 'U.M.R Powered BlogU.M.R 想要被检索。'
+      'url': 'https://umrpowered.codeberg.page/'
+    - 'name': '萌 (//∇//) 贴士愿你把酒执剑，归来仍是少年'
+      'url': 'https://moe.tips/'
+    - 'name': '一叶知秋二分之一少女，乘着比特流环游世界'
+      'url': 'https://www.qy.al/'
+    - 'name': 'SakuraKooi梦是幽蓝色彩 灵魂如雪纯白'
+      'url': 'https://blog.sakurakooi.cyou/'
+    - 'name': 'dpkg123 的小站路漫漫其修远兮，吾将上下而求索。'
+      'url': 'https://dpkg123.top/'
+    - 'name': '風雪城浩繁星空下的一场稚嫩的梦'
+      'url': 'https://chyk.ink/'
+    - 'name': 'krau''s blog子供の时の梦は言えますか'
+      'url': 'https://krau.top'
+    - 'name': 'Snow''s BlogCode Blog'
+      'url': 'https://blog.ivansnow02.xyz/'
+    - 'name': '柠檬苏打夹心是夹子！'
+      'url': 'https://lemonkoi.one'
+    - 'name': '/var/log/gblab此处会不定时产生包含大量废话的日志文件'
+      'url': 'https://lab.gb0.dev/'
+    - 'name': 'Anillc''s BlogAnillc dayo~'
+      'url': 'https://anillc.cn/'
+    - 'name': 'Jackie 的猫窝一只猫猫的猫窝'
+      'url': 'https://jackiecat.top/'
+    - 'name': 'Souiken’s Homepage愿我们度过这个漫漫长夜之后，依旧能看到那旭日东升。'
+      'url': 'https://souiken.moe/'
+    - 'name': 'huige233''s blogEveryone can be the light in the darkness.'
+      'url': 'https://www.huige233.com'
+    - 'name': 'py''s bloghttps://py233.net/'
+      'url': 'https://py233.net/'
+    - 'name': '天码行空的小破站路漫漫其修远兮，吾将上下而求索'
+      'url': 'https://cs.gt.tc'
+    - 'name': '梦墨''s Blog这个人很懒，但 ta 似乎留下了什么？'
+      'url': 'https://dreamo.ink/'
+    - 'name': 'Izumi Chino''s Blog写代码，二次元，妹控，MtF🏳️‍⚧️，无线电，德国骨科，数学高联什么的太棒了~'
+      'url': 'https://www.izumichino.tk'
+    - 'name': 'Tony Ding''s BlogWorld Peace.'
+      'url': 'https://blog.tonyding.net/'
+    - 'name': 'Moeri 落落格看一只自稱貓娘的日常'
+      'url': 'https://blog.bakalu.site/'
+    - 'name': '伊緻幻の主页Take my hands.'
+      'url': 'https://www.chwin.asia'
+    - 'name': 'Steven Lynn''s BlogSteven Lynn 的个人博客'
+      'url': 'https://blog.stv.lol'
+    - 'name': 'Nofated''s BlogForever you will be in my heart.'
+      'url': 'https://blog.nofated.win'
+    - 'name': 'Unknown blogimaging what i cannot do...'
+      'url': 'https://blog.tdiant.net'
+    - 'name': 'CC BY-NC-SA 4.0'
+      'url': 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
+    - 'name': '@TaranakiNeko'
+      'url': 'https://blog.nekoq.top/'

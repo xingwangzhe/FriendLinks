@@ -1,96 +1,66 @@
-site:
-  name: "sszsj.com"
-  description: "友情链接"
-  url: "https://sszsj.com/"
-  links: "/link"
-  friends:
-    - name: "摸鱼派\n      专为程序员打造的摸鱼社区"
-      url: "https://fishpi.cn"
-    - name: "贼拉正经的技术博客\n      死钻技术 | 绝不抄袭"
-      url: "https://www.stackoverflow.wiki"
-    - name: "顾阑的的技术小站\n      凡打不倒我的，必使我强大！！！"
-      url: "https://gooohlan.cn/"
-    - name: "和平哥\n      他甚至懒得留个签名。"
-      url: "https://iwpz.github.io/"
-    - name: "Hancel's Blog\n      人生而自由，却无往不在枷锁之中。"
-      url: "https://my.hancel.org/"
-    - name: "Gakkiyomi\n      为往圣继绝学"
-      url: "http://gakkiyomi.blog"
-    - name: "Yui\n      会点代码，就是浪。"
-      url: "https://www.lingmx.com/"
-    - name: "stillwarter\n      林深时见猫"
-      url: "https://stillwarter.github.io/"
-    - name: "傅皮蛋儿\n      无人问津的自留地》》》"
-      url: "https://blog.fpdan.cn/"
-    - name: "糖醋鱼的小破站\n      鱼生成长记"
-      url: "https://expoli.tech"
-    - name: "咕咕咕\n      路漫漫其修远兮，吾将上下而求索。"
-      url: "https://cooooing.github.io/"
-    - name: "三月柳絮四月雨\n      要做一个不动声色的大人了"
-      url: "https://lemon-cxh.github.io/"
-    - name: "bulabula\n      这个人很懒，没有留下什么"
-      url: "https://fishpi.cn/member/bulabula"
-    - name: "chaichai\n      优秀的博客模板作者"
-      url: "https://chaichaisocute.top/home"
-    - name: "琼西往事\n      往事只能追忆~"
-      url: "https://fushaolei.fun/"
-    - name: "Frank笔记\n      记录蜕变后的生活"
-      url: "https://frank2019.life"
-    - name: "JssDream 的个人博客\n      静以修身，俭以养德"
-      url: "https://www.hjava.cn"
-    - name: "殆己\n      好看的皮囊扫黄打非，有趣的灵魂涉嫌违规。"
-      url: "https://heycmm.cn"
-    - name: "YuZhangWang的领域\n      两岸猿声啼不住 轻舟已过万重山"
-      url: "https://www.yuzhang.wang"
-    - name: "风记星辰\n      分享生活 · 留下感动"
-      url: "https://www.thyuu.com"
-    - name: "犹念觏止\n      公众号：技术乱舞"
-      url: "https://aeneag.xyz"
-    - name: "Jeffrey的博客\n      左脑编程，右脑写诗"
-      url: "https://www.yejiefeng.com/"
-    - name: "ghostsf\n      Do what i love and just do it !"
-      url: "https://ghostsf.com"
-    - name: "ncc的个人网站\n      keep trying!"
-      url: "https://www.zqcnc.cn"
-    - name: "知录\n      知录，记录每一个技术灵感！"
-      url: "https://kacper.fun"
-    - name: "浪海导航\n      浪海导航 ~ 收录各种类型的博客"
-      url: "https://www.langhai.net/"
-    - name: "雾林博客\n      首听未闻曲中意，再听已是曲中人"
-      url: "https://www.baiwulin.com"
-    - name: "🌹Dominic·KK🌹\n      写文档使我快乐🍺"
-      url: "https://blog.dominickk.top/"
-    - name: "张文保的博客\n      功不唐捐，玉汝于成"
-      url: "https://zhangwenbao.com"
-    - name: "晨曦映露\n      道阻且长，行则将至。"
-      url: "https://cjsy.cc/"
-    - name: "CcoMm\n      你要吃C4吗？"
-      url: "https://blog.ccomm.top"
-    - name: "雷顿\n      他睡觉时真的不打雷"
-      url: "https://leidun.pp.ua"
-    - name: "零糖加辣（drda）\n      奶茶少糖，喜欢吃辣"
-      url: "https://drda-x.github.io/drda-blog/"
-    - name: "https://sszsj.com"
-      url: "https://sszsj.com/"
-    - name: "https://tmx.fishpi.cn/image/head.jpg"
-      url: "https://tmx.fishpi.cn/image/head.jpg"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "Follow Me"
-      url: "https://github.com/csfwff"
-    - name: "网易云"
-      url: "https://music.163.com/#/user/home?id=40898262"
-    - name: "微信"
-      url: "https://tmx.fishpi.cn/image/add_weixin.jpg"
-    - name: "开往-友链接力"
-      url: "https://www.travellings.cn/go.html"
-    - name: "Hexo 8.1.2"
-      url: "https://hexo.io"
-    - name: "Butterfly 5.5.5"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
-    - name: "萌ICP备20211205号"
-      url: "https://icp.gov.moe/?keyword=20211205"
-    - name: "免费免版税图片库pixabay"
-      url: "https://pixabay.com/"
-    - name: "本网站由提供CDN加速/云存储服务"
-      url: "https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
+'site':
+  'name': 'sszsj.com'
+  'description': '友情链接'
+  'url': 'https://sszsj.com/'
+  'links': '/link'
+  'friends':
+    - 'name': "摸鱼派\n      专为程序员打造的摸鱼社区"
+      'url': 'https://fishpi.cn'
+    - 'name': "贼拉正经的技术博客\n      死钻技术 | 绝不抄袭"
+      'url': 'https://www.stackoverflow.wiki'
+    - 'name': "顾阑的的技术小站\n      凡打不倒我的，必使我强大！！！"
+      'url': 'https://gooohlan.cn/'
+    - 'name': "Hancel's Blog\n      人生而自由，却无往不在枷锁之中。"
+      'url': 'https://my.hancel.org/'
+    - 'name': "Gakkiyomi\n      为往圣继绝学"
+      'url': 'http://gakkiyomi.blog'
+    - 'name': "Yui\n      会点代码，就是浪。"
+      'url': 'https://www.lingmx.com/'
+    - 'name': "傅皮蛋儿\n      无人问津的自留地》》》"
+      'url': 'https://blog.fpdan.cn/'
+    - 'name': "糖醋鱼的小破站\n      鱼生成长记"
+      'url': 'https://expoli.tech'
+    - 'name': "bulabula\n      这个人很懒，没有留下什么"
+      'url': 'https://fishpi.cn/member/bulabula'
+    - 'name': "chaichai\n      优秀的博客模板作者"
+      'url': 'https://chaichaisocute.top/home'
+    - 'name': "琼西往事\n      往事只能追忆~"
+      'url': 'https://fushaolei.fun/'
+    - 'name': "Frank笔记\n      记录蜕变后的生活"
+      'url': 'https://frank2019.life'
+    - 'name': "JssDream 的个人博客\n      静以修身，俭以养德"
+      'url': 'https://www.hjava.cn'
+    - 'name': "殆己\n      好看的皮囊扫黄打非，有趣的灵魂涉嫌违规。"
+      'url': 'https://heycmm.cn'
+    - 'name': "YuZhangWang的领域\n      两岸猿声啼不住 轻舟已过万重山"
+      'url': 'https://www.yuzhang.wang'
+    - 'name': "风记星辰\n      分享生活 · 留下感动"
+      'url': 'https://www.thyuu.com'
+    - 'name': "犹念觏止\n      公众号：技术乱舞"
+      'url': 'https://aeneag.xyz'
+    - 'name': "Jeffrey的博客\n      左脑编程，右脑写诗"
+      'url': 'https://www.yejiefeng.com/'
+    - 'name': "ghostsf
+
+        \      Do what i love and just do it !"
+      'url': 'https://ghostsf.com'
+    - 'name': "ncc的个人网站\n      keep trying!"
+      'url': 'https://www.zqcnc.cn'
+    - 'name': "知录\n      知录，记录每一个技术灵感！"
+      'url': 'https://kacper.fun'
+    - 'name': "雾林博客\n      首听未闻曲中意，再听已是曲中人"
+      'url': 'https://www.baiwulin.com'
+    - 'name': "🌹Dominic·KK🌹\n      写文档使我快乐🍺"
+      'url': 'https://blog.dominickk.top/'
+    - 'name': "张文保的博客\n      功不唐捐，玉汝于成"
+      'url': 'https://zhangwenbao.com'
+    - 'name': "晨曦映露\n      道阻且长，行则将至。"
+      'url': 'https://cjsy.cc/'
+    - 'name': "CcoMm\n      你要吃C4吗？"
+      'url': 'https://blog.ccomm.top'
+    - 'name': "雷顿\n      他睡觉时真的不打雷"
+      'url': 'https://leidun.pp.ua'
+    - 'name': 'Hexo 8.1.2'
+      'url': 'https://hexo.io'
+    - 'name': '免费免版税图片库pixabay'
+      'url': 'https://pixabay.com/'

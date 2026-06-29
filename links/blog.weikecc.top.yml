@@ -1,20 +1,6 @@
-site:
-  name: "ChenShang"
-  url: "https://blog.weikecc.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "ChenShang's Blog~♥️"
-      url: "https://blog.weikecc.top/"
-    - name: "关于我"
-      url: "https://blog.weikecc.top/about/"
-    - name: "友情链接"
-      url: "https://blog.weikecc.top/links/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "PaperMod Contributors"
-      url: "https://github.com/adityatelange/hugo-PaperMod/graphs/contributors"
-    - name: "Hugo"
-      url: "https://gohugo.io/?utm_source=papermod"
-    - name: "PaperMod"
-      url: "https://github.com/adityatelange/hugo-PaperMod/"
+'site':
+  'name': 'ChenShang'
+  'url': 'https://blog.weikecc.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends': []

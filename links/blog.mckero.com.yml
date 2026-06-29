@@ -1,40 +1,26 @@
-site:
-  name: "blog.mckero.com"
-  description: "友情链接"
-  url: "https://blog.mckero.com/"
-  links: "/friends"
-  friends:
-    - name: "状态"
-      url: "https://status.mckero.com"
-    - name: "统计"
-      url: "https://umami.mckero.com/share/v4wXkxwCYns2ypLN/blog.mckero.com"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "Ad_closeNN の Blog    Ad_closeNN 的小站，时不时会刷新一些野生东西"
-      url: "https://adclosenn.top"
-    - name: "LYEy_isine个人博客    花海无一日,少年踏自来"
-      url: "https://caiyifeng.top/"
-    - name: "Elykia    致以无暇之人"
-      url: "https://blog.elykia.cn/"
-    - name: "咖啡豆子coffee的小站    所有奇迹的始发点"
-      url: "https://blog.kfdzcoffee.cn"
-    - name: "Pinpe 的云端    一个属于自己的云朵。"
-      url: "https://pinpe.top/"
-    - name: "星雪    银光渐深星无灭，古杉月空探花雪。"
-      url: "https://snowtafir.top"
-    - name: "AcoFork Blog    爱你所爱~ ❤。"
-      url: "https://2x.nz/"
-    - name: "路明笔记    不慌张，不绝望，不狂妄，不投降。"
-      url: "https://luming.cool"
-    - name: "张洪Heo    分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "神奇的Willem    我们为什么活着？当然是为了我们以后更好的活着。"
-      url: "https://cdn.bk.wished.cc/"
-    - name: "提交申请"
-      url: "https://github.com/MCKero6423/fuwari/blob/main/src/pages/friends.astro"
-    - name: "隐私政策和免责声明"
-      url: "https://blog.mckero.com/about/"
-    - name: "Astro"
-      url: "https://astro.build"
-    - name: "Fuwari"
-      url: "https://github.com/saicaca/fuwari"
+'site':
+  'name': 'blog.mckero.com'
+  'description': '友情链接'
+  'url': 'https://blog.mckero.com/'
+  'links': '/friends'
+  'friends':
+    - 'name': '统计'
+      'url': 'https://umami.mckero.com/share/v4wXkxwCYns2ypLN/blog.mckero.com'
+    - 'name': 'Ad_closeNN の Blog    Ad_closeNN 的小站，时不时会刷新一些野生东西'
+      'url': 'https://adclosenn.top'
+    - 'name': 'LYEy_isine个人博客    花海无一日,少年踏自来'
+      'url': 'https://caiyifeng.top/'
+    - 'name': 'Elykia    致以无暇之人'
+      'url': 'https://blog.elykia.cn/'
+    - 'name': '咖啡豆子coffee的小站    所有奇迹的始发点'
+      'url': 'https://blog.kfdzcoffee.cn'
+    - 'name': 'Pinpe 的云端    一个属于自己的云朵。'
+      'url': 'https://pinpe.top/'
+    - 'name': '星雪    银光渐深星无灭，古杉月空探花雪。'
+      'url': 'https://snowtafir.top'
+    - 'name': 'AcoFork Blog    爱你所爱~ ❤。'
+      'url': 'https://2x.nz/'
+    - 'name': '路明笔记    不慌张，不绝望，不狂妄，不投降。'
+      'url': 'https://luming.cool'
+    - 'name': '张洪Heo    分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'

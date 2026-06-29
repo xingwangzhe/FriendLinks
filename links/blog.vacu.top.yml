@@ -1,34 +1,22 @@
-site:
-  name: "blog.vacu.top"
-  description: "友情链接"
-  url: "https://blog.vacu.top/"
-  links: "/link"
-  friends:
-    - name: "纸鹿本鹿摸鱼处"
-      url: "https://blog.zhilu.site/"
-    - name: "kzhik"
-      url: "https://www.kzhik.cn"
-    - name: "云森🍥🍥🍥"
-      url: "https://blog.imysen.com/"
-    - name: "Nahida"
-      url: "https://nahida.im/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "vacuole部落格"
-      url: "https://blog.vacu.top/"
-    - name: "加入开往"
-      url: "https://www.travellings.cn/docs/join.html"
-    - name: "开往"
-      url: "https://www.travellings.cn/go-by-clouds.html"
-    - name: "BlogFinder"
-      url: "https://bf.zzxworld.com/"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/518590350"
-    - name: "GitHub"
-      url: "https://github.com/vacuolepaoo"
-    - name: "Discord"
-      url: "https://dc.vacu.top"
-    - name: "Clarity 3.6.3"
-      url: "https://github.com/L33Z22L11/blog-v3"
-    - name: "主题和组件文档"
-      url: "https://blog.zhilu.site/theme"
+'site':
+  'name': 'blog.vacu.top'
+  'description': '友情链接'
+  'url': 'https://blog.vacu.top/'
+  'links': '/link'
+  'friends':
+    - 'name': '纸鹿本鹿摸鱼处'
+      'url': 'https://blog.zhilu.site/'
+    - 'name': 'kzhik'
+      'url': 'https://www.kzhik.cn'
+    - 'name': '云森🍥🍥🍥'
+      'url': 'https://blog.imysen.com/'
+    - 'name': 'Nahida'
+      'url': 'https://nahida.im/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'BlogFinder'
+      'url': 'https://bf.zzxworld.com/'
+    - 'name': 'Discord'
+      'url': 'https://dc.vacu.top'
+    - 'name': '主题和组件文档'
+      'url': 'https://blog.zhilu.site/theme'

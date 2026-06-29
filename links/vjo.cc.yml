@@ -1,262 +1,566 @@
-site:
-  name: "vjo.cc"
-  description: "友情链接"
-  url: "https://vjo.cc/"
-  links: "/link"
-  friends:
-    - name: "Email Center"
-      url: "https://vjo.cc/email"
-    - name: "评论排行榜"
-      url: "https://vjo.cc/plphb"
-    - name: "留言板"
-      url: "https://vjo.cc/message"
-    - name: "友情链接"
-      url: "https://vjo.cc/link"
-    - name: "文章归档"
-      url: "https://vjo.cc/gd"
-    - name: "关于本站"
-      url: "https://vjo.cc/about"
-    - name: "网站声明"
-      url: "https://vjo.cc/declare"
-    - name: "值得推荐"
-      url: "https://vjo.cc/tj"
-    - name: "我\n    \n        我心向阳\n        我心向阳补精神之钙 学无止境味灵魂之汤"
-      url: "https://hollowman.cn"
-    - name: "我\n    \n        我剑也未尝不利\n        对所有的烦恼说拜拜，对所有的快乐说嗨嗨~"
-      url: "https://tch.cool"
-    - name: "我\n    \n        我是军爸\n        记录编程教学、生活与成长点滴"
-      url: "https://me.xu19.com/"
-    - name: "浮\n    \n        浮生闲记\n        以文字为舟，溯流时光之河"
-      url: "https://xsfly.com"
-    - name: "宗\n    \n        宗宗酱\n        用文字和图片记录生活"
-      url: "https://ygz.ink"
-    - name: "来\n    \n        来看听雨轩\n        梦想是遥远而不可及的颠峰，我们一样都在努力的攀登～"
-      url: "https://loongmint1314.mycloudnas.com:4443/"
-    - name: "彬\n    \n        彬红茶日记\n        个人生活笔记"
-      url: "https://note.redcha.cn"
-    - name: "彬\n    \n        彬红茶博客\n        乌拉乌拉乌拉"
-      url: "https://blog.redcha.cn"
-    - name: "J\n    \n        James的小站\n        兴趣广泛，每样都不精通～～"
-      url: "https://nasliangjian.mycloudnas.com:4443"
-    - name: "徐\n    \n        徐建伟\n        分享经典语录随笔文字的微博客"
-      url: "http://www.xulog.cn"
-    - name: "周\n    \n        周天记\n        我在人间混日子"
-      url: "https://zhoutian.com"
-    - name: "浮\n    \n        浮生半页\n        人生漫长，但只记半页，留白处更美"
-      url: "https://baiwumm.com"
-    - name: "Z\n    \n        ZTGD\n        Aloha~"
-      url: "https://ztgdblog.icu"
-    - name: "V\n    \n        Vei Blog\n        松窗竹户，万千潇洒"
-      url: "https://blog.veitzn.top"
-    - name: "顶\n    \n        顶茶社\n        乌拉乌拉乌拉"
-      url: "https://www.toptea.xin"
-    - name: "咕\n    \n        咕咚同学\n        一个独立开发者的日常"
-      url: "https://gudong.site"
-    - name: "君\n    \n        君主阁\n        分享技术与生活"
-      url: "https://gfjzz.cn"
-    - name: "H\n    \n        HIPVOGUE\n        生活中的每个小事、思考、灵感都值得被记录。"
-      url: "https://hipvogue.com/"
-    - name: "风\n    \n        风起笔记\n        愿我们都能被世界温暖相拥"
-      url: "https://www.yanyuplus.cn"
-    - name: "又\n    \n        又见梅林\n        与其诅咒黑暗，不如点燃一支蜡烛。"
-      url: "https://www.ryanzm.cn/"
-    - name: "星\n    \n        星雨博客\n        路途随远，祝你得偿所愿！"
-      url: "https://www.wniui.com"
-    - name: "小\n    \n        小新笔记坊\n        笔耕学思悟，细绘生活卷。"
-      url: "https://xxbjf.com"
-    - name: "似\n    \n        似水流年\n        如花美眷，怎敌得过似水流年"
-      url: "https://my1981.cn"
-    - name: "秋\n    \n        秋码记录\n        一个游离于山间之上的Java爱好者"
-      url: "https://qiucode.cn"
-    - name: "沦\n    \n        沧海网络\n        人间忽晚，山河已秋"
-      url: "https://silverisky.com/"
-    - name: "X\n    \n        XINGYE\n        不要放弃，坚持学习，坚守理想，等待时机！"
-      url: "https://blog.xing-ye.top/"
-    - name: "短\n    \n        短巷与雨\n        为学日益，为道日损。"
-      url: "https://www.hudi.space"
-    - name: "文\n    \n        文案姐笔记\n        爱自己，从每一个小细节做起。"
-      url: "https://www.5186a.com"
-    - name: "凌\n    \n        凌飞阁\n        烂柯山与浮云齐，突星骑石凌飞鸟。"
-      url: "https://llingfei.com/"
-    - name: "万\n    \n        万事屋日记\n        每天写下自己的喜好"
-      url: "https://rjjr.cn/"
-    - name: "一\n    \n        一只小白菜Blog\n        分享白菜的快乐，努力地工作"
-      url: "https://blog.1zxbc.cn"
-    - name: "A\n    \n        AI悦创\n        AI悦创·创造不同～"
-      url: "https://blog.bornforthis.cn"
-    - name: "半\n    \n        半方池水半方田\n        只能懂一点点"
-      url: "https://uuanqin.top/"
-    - name: "栗\n    \n        栗子\n        万物可爱，人间值得，未来可期。"
-      url: "https://logyu.cc"
-    - name: "拾\n    \n        拾光志\n        忆流年，记浮生"
-      url: "https://www.shiguang.xyz"
-    - name: "L\n    \n        LS-Shandong\n        LS-Shandong 的博客网站"
-      url: "https://ls-shandong.codeberg.page/"
-    - name: "小\n    \n        小植同学\n        锦鲤相随，好运常伴"
-      url: "https://blog.xiaoztx.top"
-    - name: "I\n    \n        ImQi1\n        做技术的分享者、生活的摄影师、时事的评论员。"
-      url: "https://imqi1.com"
-    - name: "丹\n    \n        丹作百年\n        汝果欲学诗，工夫在诗外。"
-      url: "https://playet.cn"
-    - name: "故\n    \n        故事的程序猿\n        好好学习，天天向上"
-      url: "https://blog.lichenghao.cn"
-    - name: "H\n    \n        haohang\n        承诺不值钱, 做个言而有信的人太难了。"
-      url: "https://www.shimmerl.top"
-    - name: "爱\n    \n        爱吃猫的鱼\n        前景可待 未来可期"
-      url: "https://talen.top/"
-    - name: "Y\n    \n        Yves\n        Welcome!"
-      url: "https://blog.maoyiwei.com/"
-    - name: "小\n    \n        小帕鲁\n        安安心心搞运维"
-      url: "https://www.master-jsx.top/"
-    - name: "没\n    \n        没有楼的楼长\n        没有楼的楼长的咕咕咕博客"
-      url: "https://blog.sdnie.fun/"
-    - name: "J\n    \n        Junes Blog\n        遇事不决，可问春风"
-      url: "https://blog.june-pj.cn/"
-    - name: "月\n    \n        月夜拾光\n        做好量变的准备，促进事物的质变"
-      url: "https://www.iczrx.cn"
-    - name: "梦\n    \n        梦爱吃鱼\n        但愿日子清静抬头遇见的满是柔情"
-      url: "https://blog.bsgun.cn/"
-    - name: "张\n    \n        张洪Heo\n        分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "杜\n    \n        杜老师说\n        师者，传道，授业，解惑！"
-      url: "https://dusays.com"
-    - name: "梅\n    \n        梅之夏\n        Explore, Dream, Discover."
-      url: "https://blog.mcenahle.org.cn"
-    - name: "前\n    \n        前尘小筑\n        虽多尘色染，犹见墨痕浓"
-      url: "https://mnchen.cn/"
-    - name: "终\n    \n        终成博客\n        以时光为笔，终成岁月馈赠"
-      url: "https://blog.zc.wiki/"
-    - name: "未\n    \n        未知之旅\n        在未知中成长，超越自我"
-      url: "https://blog.xenosp.cn/"
-    - name: "小\n    \n        小李同学\n        一支努力变强的小彩笔"
-      url: "https://blog.xxfer.cn/"
-    - name: "O\n    \n        OBABY\n        AI界的小学生，逆向分析工程师，非专业APP开发者"
-      url: "https://zhongxiaojie.cn/"
-    - name: "清\n    \n        清羽飞扬\n        柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
-      url: "https://blog.liushen.fun/"
-    - name: "记\n    \n        记录生活，精彩一刻\n        资源 共享 生活 学习"
-      url: "https://9sb.net"
-    - name: "三\n    \n        三毛笔记\n        喜欢编程头发渐少，仅剩三根拒绝秃顶"
-      url: "https://aboss.top/"
-    - name: "胖\n    \n        胖氪笔记\n        专注互联网精选资源收藏与分享！"
-      url: "https://pknote.top/"
-    - name: "M\n    \n        Mello的赛博本子\n        在本子上写写画画"
-      url: "https://www.dmxvx.cc/"
-    - name: "洗\n    \n        洗子の小窝\n        但行己路 无问山海"
-      url: "https://xizi.live/"
-    - name: "一\n    \n        一世繁华\n        一世繁华，分享一二"
-      url: "https://blog.hantaotao.top/"
-    - name: "高\n    \n        高先生笔记\n        个人笔记，网站建设等，致力创造一个高质量分享平台"
-      url: "https://www.gxsnote.cn/"
-    - name: "湘\n    \n        湘铭Blog\n        湘铭的秘密基地啊！"
-      url: "https://xiangming.site"
-    - name: "优\n    \n        优世界\n        记录生活点点滴滴"
-      url: "https://usj.cc"
-    - name: "宇\n    \n        宇阳\n        记录一个架构师的崛起"
-      url: "https://liuyuyang.net/"
-    - name: "Y\n    \n        Young143 Blog\n        我不舍得为将来的难测放弃当下这一刻"
-      url: "https://www.young143.top/"
-    - name: "老\n    \n        老罗\n        瞎折腾"
-      url: "https://www.luosir.cn/"
-    - name: "蜡\n    \n        蜡客生活系\n        个人博客，心感记述，电脑技术，软件分享。"
-      url: "https://www.lknc.vip/"
-    - name: "肖\n    \n        肖寒武的博客\n        我歌月徘徊，我舞影零乱。"
-      url: "https://www.xiaohanwu.com"
-    - name: "许\n    \n        许大阳的日记本\n        潇洒不是洒脱，自由但是有度"
-      url: "https://imxcy.cn/"
-    - name: "春\n    \n        春日心动日记\n        Live and learn."
-      url: "https://blog.mletter.cn/"
-    - name: "半\n    \n        半日闲\n        偷得浮生半日闲"
-      url: "https://xiaoa.me"
-    - name: "晓\n    \n        晓梦羊博客集\n        致力于收集优秀的中文独立博客。"
-      url: "https://bloginc.cn/"
-    - name: "博\n    \n        博客星球\n        每一个博客都是一个独立星球！"
-      url: "https://www.blogplanet.cn/"
-    - name: "B\n    \n        BlogsClub\n        一个独立的个人博客聚合集结地。"
-      url: "https://www.blogsclub.org/apply.html?inviteCode=8c935e18"
-    - name: "个\n    \n        个站商店\n        穿梭虫洞 不忘初心方得始终"
-      url: "https://storeweb.cn/s/2103"
-    - name: "博\n    \n        博客录\n        boke.lu · 博客收录展示平台~"
-      url: "https://boke.lu"
-    - name: "取消回复"
-      url: "https://vjo.cc/link#respond-page-229"
-    - name: "mcenahle"
-      url: "https://blog.mcenahle.page"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6876#respond-page-229"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6874#respond-page-229"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6875#respond-page-229"
-    - name: "允赫先森"
-      url: "https://www.3v.hk/"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6838#respond-page-229"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6839#respond-page-229"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6531#respond-page-229"
-    - name: "刘郎"
-      url: "https://vjo.cc"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6533#respond-page-229"
-    - name: "rawley"
-      url: "https://rawley2025.xyz/"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6376#respond-page-229"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6377#respond-page-229"
-    - name: "SummerGao"
-      url: "https://www.summergao.com"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6269#respond-page-229"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6270#respond-page-229"
-    - name: "秋記Autumn"
-      url: "https://www.zhyok.cn"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6134#respond-page-229"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6135#respond-page-229"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6138#respond-page-229"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6101#respond-page-229"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6107#respond-page-229"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6112#respond-page-229"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=6114#respond-page-229"
-    - name: "我是军爸"
-      url: "https://me.xu19.com"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=5732#respond-page-229"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=5733#respond-page-229"
-    - name: "阿航"
-      url: "https://blog.yinyuhang.com/"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=5634#respond-page-229"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=5638#respond-page-229"
-    - name: "阿航"
-      url: "https://blog.yinyuhang.com"
-    - name: "回复"
-      url: "https://vjo.cc/link/comment-page-1?replyTo=5639#respond-page-229"
-    - name: "10"
-      url: "https://vjo.cc/link/comment-page-10#comments"
-    - name: "下一页"
-      url: "https://vjo.cc/link/comment-page-2#comments"
-    - name: "黔ICP备2024020400号 |"
-      url: "https://beian.miit.gov.cn/"
-    - name: "萌ICP备20246777号"
-      url: "https://icp.gov.moe/?keyword=20246777"
-    - name: "BLOGS·CN"
-      url: "https://blogscn.fun/"
-    - name: "博友圈 星球穿梭"
-      url: "https://www.boyouquan.com/planet-shuttle"
-    - name: "开往-友链接力"
-      url: "https://www.travellings.cn/go.html"
-    - name: "本网站由“又拍云”提供CDN加速/云存储服务"
-      url: "https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
+'site':
+  'name': 'vjo.cc'
+  'description': '友情链接'
+  'url': 'https://vjo.cc/'
+  'links': '/link'
+  'friends':
+    - 'name': "我
+
+        \   \ 
+
+        \        我心向阳
+
+        \        我心向阳补精神之钙 学无止境味灵魂之汤"
+      'url': 'https://hollowman.cn'
+    - 'name': "我
+
+        \   \ 
+
+        \        我剑也未尝不利
+
+        \        对所有的烦恼说拜拜，对所有的快乐说嗨嗨~"
+      'url': 'https://tch.cool'
+    - 'name': "我
+
+        \   \ 
+
+        \        我是军爸
+
+        \        记录编程教学、生活与成长点滴"
+      'url': 'https://me.xu19.com/'
+    - 'name': "浮
+
+        \   \ 
+
+        \        浮生闲记
+
+        \        以文字为舟，溯流时光之河"
+      'url': 'https://xsfly.com'
+    - 'name': "宗
+
+        \   \ 
+
+        \        宗宗酱
+
+        \        用文字和图片记录生活"
+      'url': 'https://ygz.ink'
+    - 'name': "来
+
+        \   \ 
+
+        \        来看听雨轩
+
+        \        梦想是遥远而不可及的颠峰，我们一样都在努力的攀登～"
+      'url': 'https://loongmint1314.mycloudnas.com:4443/'
+    - 'name': "彬
+
+        \   \ 
+
+        \        彬红茶日记
+
+        \        个人生活笔记"
+      'url': 'https://note.redcha.cn'
+    - 'name': "彬
+
+        \   \ 
+
+        \        彬红茶博客
+
+        \        乌拉乌拉乌拉"
+      'url': 'https://blog.redcha.cn'
+    - 'name': "J
+
+        \   \ 
+
+        \        James的小站
+
+        \        兴趣广泛，每样都不精通～～"
+      'url': 'https://nasliangjian.mycloudnas.com:4443'
+    - 'name': "徐
+
+        \   \ 
+
+        \        徐建伟
+
+        \        分享经典语录随笔文字的微博客"
+      'url': 'http://www.xulog.cn'
+    - 'name': "周\n   \ \n        周天记\n        我在人间混日子"
+      'url': 'https://zhoutian.com'
+    - 'name': "浮
+
+        \   \ 
+
+        \        浮生半页
+
+        \        人生漫长，但只记半页，留白处更美"
+      'url': 'https://baiwumm.com'
+    - 'name': "Z\n   \ \n        ZTGD\n        Aloha~"
+      'url': 'https://ztgdblog.icu'
+    - 'name': "V
+
+        \   \ 
+
+        \        Vei Blog
+
+        \        松窗竹户，万千潇洒"
+      'url': 'https://blog.veitzn.top'
+    - 'name': "顶\n   \ \n        顶茶社\n        乌拉乌拉乌拉"
+      'url': 'https://www.toptea.xin'
+    - 'name': "咕
+
+        \   \ 
+
+        \        咕咚同学
+
+        \        一个独立开发者的日常"
+      'url': 'https://gudong.site'
+    - 'name': "君\n   \ \n        君主阁\n        分享技术与生活"
+      'url': 'https://gfjzz.cn'
+    - 'name': "H
+
+        \   \ 
+
+        \        HIPVOGUE
+
+        \        生活中的每个小事、思考、灵感都值得被记录。"
+      'url': 'https://hipvogue.com/'
+    - 'name': "风
+
+        \   \ 
+
+        \        风起笔记
+
+        \        愿我们都能被世界温暖相拥"
+      'url': 'https://www.yanyuplus.cn'
+    - 'name': "又
+
+        \   \ 
+
+        \        又见梅林
+
+        \        与其诅咒黑暗，不如点燃一支蜡烛。"
+      'url': 'https://www.ryanzm.cn/'
+    - 'name': "星
+
+        \   \ 
+
+        \        星雨博客
+
+        \        路途随远，祝你得偿所愿！"
+      'url': 'https://www.wniui.com'
+    - 'name': "小
+
+        \   \ 
+
+        \        小新笔记坊
+
+        \        笔耕学思悟，细绘生活卷。"
+      'url': 'https://xxbjf.com'
+    - 'name': "似
+
+        \   \ 
+
+        \        似水流年
+
+        \        如花美眷，怎敌得过似水流年"
+      'url': 'https://my1981.cn'
+    - 'name': "秋
+
+        \   \ 
+
+        \        秋码记录
+
+        \        一个游离于山间之上的Java爱好者"
+      'url': 'https://qiucode.cn'
+    - 'name': "沦
+
+        \   \ 
+
+        \        沧海网络
+
+        \        人间忽晚，山河已秋"
+      'url': 'https://silverisky.com/'
+    - 'name': "X
+
+        \   \ 
+
+        \        XINGYE
+
+        \        不要放弃，坚持学习，坚守理想，等待时机！"
+      'url': 'https://blog.xing-ye.top/'
+    - 'name': "短
+
+        \   \ 
+
+        \        短巷与雨
+
+        \        为学日益，为道日损。"
+      'url': 'https://www.hudi.space'
+    - 'name': "文
+
+        \   \ 
+
+        \        文案姐笔记
+
+        \        爱自己，从每一个小细节做起。"
+      'url': 'https://www.5186a.com'
+    - 'name': "凌
+
+        \   \ 
+
+        \        凌飞阁
+
+        \        烂柯山与浮云齐，突星骑石凌飞鸟。"
+      'url': 'https://llingfei.com/'
+    - 'name': "万
+
+        \   \ 
+
+        \        万事屋日记
+
+        \        每天写下自己的喜好"
+      'url': 'https://rjjr.cn/'
+    - 'name': "一
+
+        \   \ 
+
+        \        一只小白菜Blog
+
+        \        分享白菜的快乐，努力地工作"
+      'url': 'https://blog.1zxbc.cn'
+    - 'name': "A
+
+        \   \ 
+
+        \        AI悦创
+
+        \        AI悦创·创造不同～"
+      'url': 'https://blog.bornforthis.cn'
+    - 'name': "半
+
+        \   \ 
+
+        \        半方池水半方田
+
+        \        只能懂一点点"
+      'url': 'https://uuanqin.top/'
+    - 'name': "栗
+
+        \   \ 
+
+        \        栗子
+
+        \        万物可爱，人间值得，未来可期。"
+      'url': 'https://logyu.cc'
+    - 'name': "拾\n   \ \n        拾光志\n        忆流年，记浮生"
+      'url': 'https://www.shiguang.xyz'
+    - 'name': "L
+
+        \   \ 
+
+        \        LS-Shandong
+
+        \        LS-Shandong 的博客网站"
+      'url': 'https://ls-shandong.codeberg.page/'
+    - 'name': "小
+
+        \   \ 
+
+        \        小植同学
+
+        \        锦鲤相随，好运常伴"
+      'url': 'https://blog.xiaoztx.top'
+    - 'name': "I
+
+        \   \ 
+
+        \        ImQi1
+
+        \        做技术的分享者、生活的摄影师、时事的评论员。"
+      'url': 'https://imqi1.com'
+    - 'name': "丹
+
+        \   \ 
+
+        \        丹作百年
+
+        \        汝果欲学诗，工夫在诗外。"
+      'url': 'https://playet.cn'
+    - 'name': "故
+
+        \   \ 
+
+        \        故事的程序猿
+
+        \        好好学习，天天向上"
+      'url': 'https://blog.lichenghao.cn'
+    - 'name': "H
+
+        \   \ 
+
+        \        haohang
+
+        \        承诺不值钱, 做个言而有信的人太难了。"
+      'url': 'https://www.shimmerl.top'
+    - 'name': "爱
+
+        \   \ 
+
+        \        爱吃猫的鱼
+
+        \        前景可待 未来可期"
+      'url': 'https://talen.top/'
+    - 'name': "Y
+
+        \   \ 
+
+        \        Yves
+
+        \        Welcome!"
+      'url': 'https://blog.maoyiwei.com/'
+    - 'name': "小\n   \ \n        小帕鲁\n        安安心心搞运维"
+      'url': 'https://www.master-jsx.top/'
+    - 'name': "没
+
+        \   \ 
+
+        \        没有楼的楼长
+
+        \        没有楼的楼长的咕咕咕博客"
+      'url': 'https://blog.sdnie.fun/'
+    - 'name': "J
+
+        \   \ 
+
+        \        Junes Blog
+
+        \        遇事不决，可问春风"
+      'url': 'https://blog.june-pj.cn/'
+    - 'name': "月
+
+        \   \ 
+
+        \        月夜拾光
+
+        \        做好量变的准备，促进事物的质变"
+      'url': 'https://www.iczrx.cn'
+    - 'name': "梦
+
+        \   \ 
+
+        \        梦爱吃鱼
+
+        \        但愿日子清静抬头遇见的满是柔情"
+      'url': 'https://blog.bsgun.cn/'
+    - 'name': "张
+
+        \   \ 
+
+        \        张洪Heo
+
+        \        分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "杜
+
+        \   \ 
+
+        \        杜老师说
+
+        \        师者，传道，授业，解惑！"
+      'url': 'https://dusays.com'
+    - 'name': "梅
+
+        \   \ 
+
+        \        梅之夏
+
+        \        Explore, Dream, Discover."
+      'url': 'https://blog.mcenahle.org.cn'
+    - 'name': "前
+
+        \   \ 
+
+        \        前尘小筑
+
+        \        虽多尘色染，犹见墨痕浓"
+      'url': 'https://mnchen.cn/'
+    - 'name': "终
+
+        \   \ 
+
+        \        终成博客
+
+        \        以时光为笔，终成岁月馈赠"
+      'url': 'https://blog.zc.wiki/'
+    - 'name': "未
+
+        \   \ 
+
+        \        未知之旅
+
+        \        在未知中成长，超越自我"
+      'url': 'https://blog.xenosp.cn/'
+    - 'name': "小
+
+        \   \ 
+
+        \        小李同学
+
+        \        一支努力变强的小彩笔"
+      'url': 'https://blog.xxfer.cn/'
+    - 'name': "O
+
+        \   \ 
+
+        \        OBABY
+
+        \        AI界的小学生，逆向分析工程师，非专业APP开发者"
+      'url': 'https://zhongxiaojie.cn/'
+    - 'name': "清
+
+        \   \ 
+
+        \        清羽飞扬
+
+        \        柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
+      'url': 'https://blog.liushen.fun/'
+    - 'name': "记
+
+        \   \ 
+
+        \        记录生活，精彩一刻
+
+        \        资源 共享 生活 学习"
+      'url': 'https://9sb.net'
+    - 'name': "三
+
+        \   \ 
+
+        \        三毛笔记
+
+        \        喜欢编程头发渐少，仅剩三根拒绝秃顶"
+      'url': 'https://aboss.top/'
+    - 'name': "胖
+
+        \   \ 
+
+        \        胖氪笔记
+
+        \        专注互联网精选资源收藏与分享！"
+      'url': 'https://pknote.top/'
+    - 'name': "M
+
+        \   \ 
+
+        \        Mello的赛博本子
+
+        \        在本子上写写画画"
+      'url': 'https://www.dmxvx.cc/'
+    - 'name': "洗
+
+        \   \ 
+
+        \        洗子の小窝
+
+        \        但行己路 无问山海"
+      'url': 'https://xizi.live/'
+    - 'name': "一
+
+        \   \ 
+
+        \        一世繁华
+
+        \        一世繁华，分享一二"
+      'url': 'https://blog.hantaotao.top/'
+    - 'name': "高
+
+        \   \ 
+
+        \        高先生笔记
+
+        \        个人笔记，网站建设等，致力创造一个高质量分享平台"
+      'url': 'https://www.gxsnote.cn/'
+    - 'name': "湘
+
+        \   \ 
+
+        \        湘铭Blog
+
+        \        湘铭的秘密基地啊！"
+      'url': 'https://xiangming.site'
+    - 'name': "优
+
+        \   \ 
+
+        \        优世界
+
+        \        记录生活点点滴滴"
+      'url': 'https://usj.cc'
+    - 'name': "宇
+
+        \   \ 
+
+        \        宇阳
+
+        \        记录一个架构师的崛起"
+      'url': 'https://liuyuyang.net/'
+    - 'name': "Y
+
+        \   \ 
+
+        \        Young143 Blog
+
+        \        我不舍得为将来的难测放弃当下这一刻"
+      'url': 'https://www.young143.top/'
+    - 'name': "老\n   \ \n        老罗\n        瞎折腾"
+      'url': 'https://www.luosir.cn/'
+    - 'name': "蜡
+
+        \   \ 
+
+        \        蜡客生活系
+
+        \        个人博客，心感记述，电脑技术，软件分享。"
+      'url': 'https://www.lknc.vip/'
+    - 'name': "肖
+
+        \   \ 
+
+        \        肖寒武的博客
+
+        \        我歌月徘徊，我舞影零乱。"
+      'url': 'https://www.xiaohanwu.com'
+    - 'name': "许
+
+        \   \ 
+
+        \        许大阳的日记本
+
+        \        潇洒不是洒脱，自由但是有度"
+      'url': 'https://imxcy.cn/'
+    - 'name': "春
+
+        \   \ 
+
+        \        春日心动日记
+
+        \        Live and learn."
+      'url': 'https://blog.mletter.cn/'
+    - 'name': "半\n   \ \n        半日闲\n        偷得浮生半日闲"
+      'url': 'https://xiaoa.me'
+    - 'name': 'mcenahle'
+      'url': 'https://blog.mcenahle.page'
+    - 'name': '允赫先森'
+      'url': 'https://www.3v.hk/'
+    - 'name': 'rawley'
+      'url': 'https://rawley2025.xyz/'
+    - 'name': 'SummerGao'
+      'url': 'https://www.summergao.com'
+    - 'name': '秋記Autumn'
+      'url': 'https://www.zhyok.cn'
+    - 'name': '我是军爸'
+      'url': 'https://me.xu19.com'
+    - 'name': '阿航'
+      'url': 'https://blog.yinyuhang.com/'
+    - 'name': '阿航'
+      'url': 'https://blog.yinyuhang.com'

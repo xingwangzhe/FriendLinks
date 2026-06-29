@@ -1,38 +1,26 @@
-site:
-  name: "laneljc.cn"
-  description: "友情链接"
-  url: "https://laneljc.cn/"
-  links: "/friends"
-  friends:
-    - name: "Lane's Blog"
-      url: "https://www.laneljc.cn/"
-    - name: "TraceDiary"
-      url: "https://diary.laneljc.cn/"
-    - name: "PlanTick"
-      url: "https://plantick.laneljc.cn/"
-    - name: "Jayden's site为天地立心，为生民立命，为往圣继绝学，为万世开太平。"
-      url: "https://xxu.do/"
-    - name: "Abnerhexu's Blog涉水阔波出四江，山高峻险势难量。有识乾坤物堪大，仍怜世间草木青。"
-      url: "https://hexu.shahe.org/"
-    - name: "老T博客法律、科技和生活"
-      url: "https://lawtee.com"
-    - name: "张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Arthals' ink所见高山远木，阔云流风；所幸岁月盈余，了无拘束"
-      url: "https://arthals.ink/"
-    - name: "Elainafan's blog只因\"现在\"深爱其中"
-      url: "https://www.elainafan.one/"
-    - name: "LineXic's website难离难舍，想抱紧些"
-      url: "https://www.linexic.top"
-    - name: "CWorld Site求知若愚，虚怀若谷"
-      url: "https://cworld0.com/"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "HUGO"
-      url: "https://gohugo.io/"
-    - name: "Maverick"
-      url: "https://github.com/canhtran/maverick"
-    - name: "Vercel"
-      url: "https://vercel.com/"
-    - name: "Umami"
-      url: "https://cloud.umami.is/share/wHCdgFHWYJp1WG49/www.laneljc.cn"
+'site':
+  'name': 'laneljc.cn'
+  'description': '友情链接'
+  'url': 'https://laneljc.cn/'
+  'links': '/friends'
+  'friends':
+    - 'name': 'TraceDiary'
+      'url': 'https://diary.laneljc.cn/'
+    - 'name': 'PlanTick'
+      'url': 'https://plantick.laneljc.cn/'
+    - 'name': 'Jayden''s site为天地立心，为生民立命，为往圣继绝学，为万世开太平。'
+      'url': 'https://xxu.do/'
+    - 'name': 'Abnerhexu''s Blog涉水阔波出四江，山高峻险势难量。有识乾坤物堪大，仍怜世间草木青。'
+      'url': 'https://hexu.shahe.org/'
+    - 'name': '老T博客法律、科技和生活'
+      'url': 'https://lawtee.com'
+    - 'name': '张洪Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Arthals'' ink所见高山远木，阔云流风；所幸岁月盈余，了无拘束'
+      'url': 'https://arthals.ink/'
+    - 'name': 'Elainafan''s blog只因"现在"深爱其中'
+      'url': 'https://www.elainafan.one/'
+    - 'name': 'LineXic''s website难离难舍，想抱紧些'
+      'url': 'https://www.linexic.top'
+    - 'name': 'CWorld Site求知若愚，虚怀若谷'
+      'url': 'https://cworld0.com/'

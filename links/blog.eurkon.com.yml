@@ -1,220 +1,182 @@
-site:
-  name: "blog.eurkon.com"
-  description: "友情链接"
-  url: "https://blog.eurkon.com/"
-  links: "/link"
-  friends:
-    - name: "MYW"
-      url: "https://crazywong.com/"
-    - name: "Akilar"
-      url: "https://akilar.top/"
-    - name: "小冰博客"
-      url: "https://zfe.space"
-    - name: "Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "Leonus"
-      url: "https://blog.leonus.cn/"
-    - name: "Maxbit"
-      url: "https://cakepanit.com/"
-    - name: "FF"
-      url: "https://foolishfox.cn/"
-    - name: "Harris"
-      url: "https://blog.harriswong.top/"
-    - name: "Tianli"
-      url: "https://tianli-blog.club"
-    - name: "慕木"
-      url: "https://iori-yimaga.top"
-    - name: "沐印小站"
-      url: "https://c.undf.top/"
-    - name: "MJ"
-      url: "https://blog.justlovesmile.top"
-    - name: "Gahotx"
-      url: "https://gahotx.cn/"
-    - name: "小孙同学"
-      url: "https://blog.sunguoqi.com/"
-    - name: "星空下的YZY"
-      url: "https://226yzy.com"
-    - name: "DoraKika"
-      url: "https://blog.dorakika.cn"
-    - name: "ImCaO"
-      url: "https://www.imcao.cn"
-    - name: "btwoa"
-      url: "https://blog.btwoa.com"
-    - name: "小曹同学"
-      url: "https://cgq.suduhulian.top/"
-    - name: "欢乐小王"
-      url: "https://happyking.top/"
-    - name: "EmoryHuang"
-      url: "https://emoryhuang.cn/"
-    - name: "LanYun"
-      url: "https://lanyundev.com/"
-    - name: "Bore"
-      url: "https://bore.vip"
-    - name: "JayHrn"
-      url: "https://blog.lvhrn.cn/"
-    - name: "枫叶"
-      url: "https://blog.aqcoder.cn"
-    - name: "liferecords"
-      url: "https://nav.liferecords.top/"
-    - name: "Fomalhaut🥝"
-      url: "https://www.fomal.cc/"
-    - name: "Mycpen"
-      url: "https://blog.cpen.top/"
-    - name: "小城故事"
-      url: "https://www.webxc.ml/"
-    - name: "Xlenco"
-      url: "https://xlenco.eu.org"
-    - name: "ichika"
-      url: "https://ichika.cc"
-    - name: "九九九感冒绫"
-      url: "https://miku-39.love/"
-    - name: "丘卡饮品店"
-      url: "https://blog.zerolacqua.top"
-    - name: "张时贰"
-      url: "https://zhsher.cn"
-    - name: "Heyiki"
-      url: "https://www.heyiki.top"
-    - name: "小华同学927"
-      url: "https://blog.xiaohua927.top/"
-    - name: "竹山一叶"
-      url: "https://zsyyblog.com"
-    - name: "云野生SRE"
-      url: "https://www.xadocker.cn"
-    - name: "SLOVER"
-      url: "https://678777.xyz"
-    - name: "ReCclay🖥️"
-      url: "https://www.recclay.cc/"
-    - name: "Shine"
-      url: "https://blog.shineyu.cn/"
-    - name: "小码博客"
-      url: "https://blog.hikki.site"
-    - name: "南方嘉木"
-      url: "https://gavin-chen.top/"
-    - name: "Prong"
-      url: "https://prong.ltd"
-    - name: "满心记"
-      url: "https://blog.lovelu.top"
-    - name: "怕冷爱上雪"
-      url: "https://blog.4t.pw/"
-    - name: "雷雷屋头"
-      url: "https://ll.sc.cn"
-    - name: "小吉崽汁の窝"
-      url: "https://wuxingzzz.top"
-    - name: "龙儿之家"
-      url: "https://blog.huangge1199.cn"
-    - name: "小朋同学"
-      url: "https://blog.vip88.email"
-    - name: "王同学"
-      url: "https://demo.wxz666.icu/"
-    - name: "李程ic"
-      url: "https://www.licic.net/"
-    - name: "回忆航线"
-      url: "https://moony.la/"
-    - name: "爱吃肉的猫"
-      url: "https://meuicat.com/"
-    - name: "虎了吧唧"
-      url: "https://hulebaji.me"
-    - name: "毕少侠"
-      url: "https://hexo.geekswg.top/"
-    - name: "猫四叔"
-      url: "https://blog.hieroglyphs.top/"
-    - name: "铭心石刻"
-      url: "https://blog.kouseki.cn/"
-    - name: "xhang"
-      url: "https://xhablog.online/"
-    - name: "海拥"
-      url: "https://haiyong.site"
-    - name: "虹色轨迹🌠"
-      url: "https://ovoz.cn"
-    - name: "SuYi-宿仪"
-      url: "https://www.thotz.top/"
-    - name: "神经蛙"
-      url: "https://hexo.sjava.cn/"
-    - name: "小嗷犬的技术小站"
-      url: "https://blog.marquis.eu.org/"
-    - name: "Cisyam"
-      url: "https://manamn.space/"
-    - name: "杀死一只知更鸟"
-      url: "https://www.shangjidong.com"
-    - name: "棋の小站"
-      url: "https://blog.qi1.zone/"
-    - name: "qxdn"
-      url: "https://qianxu.run"
-    - name: "阳小楊"
-      url: "https://blog.yxyang.top"
-    - name: "云深不知处"
-      url: "https://www.lanzlz.cn"
-    - name: "虹色轨迹🌠"
-      url: "https://dil.illlli.com"
-    - name: "小鹿"
-      url: "https://siena.zone"
-    - name: "Calyee"
-      url: "https://blog.calyee.top/"
-    - name: "琅環书生"
-      url: "https://blog.chn.us.kg"
-    - name: "SeaEpoch"
-      url: "https://www.seaepoch.com"
-    - name: "彬红茶栈"
-      url: "https://resource.redcha.cn"
-    - name: "HoshinoAi"
-      url: "https://hoshinoai.xin"
-    - name: "Admibrill"
-      url: "https://blog.qyadbr.top"
-    - name: "云野阁"
-      url: "https://marsperl.github.io"
-    - name: "liangbm3’s blog"
-      url: "https://liangbm3.site/"
-    - name: "CIK"
-      url: "https://www.cikcc.com"
-    - name: "ZERO开发"
-      url: "https://www.zerofc.cn/"
-    - name: "28.7"
-      url: "https://blog.kong.college/"
-    - name: "yusuble特效"
-      url: "https://blog.suble.cn"
-    - name: "Eurkon"
-      url: "https://blog.eurkon.com"
-    - name: "fasdfasdfsda"
-      url: "https://www.orientdawn.com"
-    - name: "https://orientdawn.com/image/logo.png"
-      url: "https://orientdawn.com/image/logo.png"
-    - name: "liseezn"
-      url: "http://blog.liseezn.top"
-    - name: "https://blog.liseezn.top/friend-links-apply/"
-      url: "https://blog.liseezn.top/friend-links-apply/"
-    - name: "https://blog.liseezn.top’"
-      url: "https://blog.liseezn.top%E2%80%99"
-    - name: "https://blog.liseezn.top/logo.webp’"
-      url: "https://blog.liseezn.top/logo.webp%E2%80%99"
-    - name: "https://blog.suble.cn/upload/images/1763020550478.jpg"
-      url: "https://blog.suble.cn/upload/images/1763020550478.jpg"
-    - name: "28.7"
-      url: "https://blog.kong.college"
-    - name: "https://image.kong.college/i/2025/09/09/spq9n6.png"
-      url: "https://image.kong.college/i/2025/09/09/spq9n6.png"
-    - name: "https://image.kong.college/i/2025/09/18/seixpl.png"
-      url: "https://image.kong.college/i/2025/09/18/seixpl.png"
-    - name: "SeaEpoch"
-      url: "http://www.seaepoch.com"
-    - name: "https://www.seaepoch.com/img/avatar.png"
-      url: "https://www.seaepoch.com/img/avatar.png"
-    - name: "https://www.seaepoch.com/img/siteshoot.jpg"
-      url: "https://www.seaepoch.com/img/siteshoot.jpg"
-    - name: "https://www.seaepoch.com/rss2.xml"
-      url: "https://www.seaepoch.com/rss2.xml"
-    - name: "liangbm3"
-      url: "http://liangbm3.site"
-    - name: "https://liangbm3.site/avatar.png"
-      url: "https://liangbm3.site/avatar.png"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "魔改源码"
-      url: "https://github.com/Eurkon/hexo-theme-butterfly-eurkon"
-    - name: "BlogFinder"
-      url: "https://bf.zzxworld.com/s/686"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
-    - name: "粤ICP备2022108639号"
-      url: "https://beian.miit.gov.cn"
+'site':
+  'name': 'blog.eurkon.com'
+  'description': '友情链接'
+  'url': 'https://blog.eurkon.com/'
+  'links': '/link'
+  'friends':
+    - 'name': 'MYW'
+      'url': 'https://crazywong.com/'
+    - 'name': 'Akilar'
+      'url': 'https://akilar.top/'
+    - 'name': '小冰博客'
+      'url': 'https://zfe.space'
+    - 'name': 'Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Leonus'
+      'url': 'https://blog.leonus.cn/'
+    - 'name': 'Maxbit'
+      'url': 'https://cakepanit.com/'
+    - 'name': 'FF'
+      'url': 'https://foolishfox.cn/'
+    - 'name': 'Harris'
+      'url': 'https://blog.harriswong.top/'
+    - 'name': 'Tianli'
+      'url': 'https://tianli-blog.club'
+    - 'name': '慕木'
+      'url': 'https://iori-yimaga.top'
+    - 'name': '沐印小站'
+      'url': 'https://c.undf.top/'
+    - 'name': 'MJ'
+      'url': 'https://blog.justlovesmile.top'
+    - 'name': 'Gahotx'
+      'url': 'https://gahotx.cn/'
+    - 'name': '小孙同学'
+      'url': 'https://blog.sunguoqi.com/'
+    - 'name': '星空下的YZY'
+      'url': 'https://226yzy.com'
+    - 'name': 'DoraKika'
+      'url': 'https://blog.dorakika.cn'
+    - 'name': 'ImCaO'
+      'url': 'https://www.imcao.cn'
+    - 'name': 'btwoa'
+      'url': 'https://blog.btwoa.com'
+    - 'name': '小曹同学'
+      'url': 'https://cgq.suduhulian.top/'
+    - 'name': '欢乐小王'
+      'url': 'https://happyking.top/'
+    - 'name': 'EmoryHuang'
+      'url': 'https://emoryhuang.cn/'
+    - 'name': 'LanYun'
+      'url': 'https://lanyundev.com/'
+    - 'name': 'Bore'
+      'url': 'https://bore.vip'
+    - 'name': 'JayHrn'
+      'url': 'https://blog.lvhrn.cn/'
+    - 'name': '枫叶'
+      'url': 'https://blog.aqcoder.cn'
+    - 'name': 'Fomalhaut🥝'
+      'url': 'https://www.fomal.cc/'
+    - 'name': 'Mycpen'
+      'url': 'https://blog.cpen.top/'
+    - 'name': '小城故事'
+      'url': 'https://www.webxc.ml/'
+    - 'name': 'Xlenco'
+      'url': 'https://xlenco.eu.org'
+    - 'name': 'ichika'
+      'url': 'https://ichika.cc'
+    - 'name': '九九九感冒绫'
+      'url': 'https://miku-39.love/'
+    - 'name': '丘卡饮品店'
+      'url': 'https://blog.zerolacqua.top'
+    - 'name': '张时贰'
+      'url': 'https://zhsher.cn'
+    - 'name': 'Heyiki'
+      'url': 'https://www.heyiki.top'
+    - 'name': '小华同学927'
+      'url': 'https://blog.xiaohua927.top/'
+    - 'name': '竹山一叶'
+      'url': 'https://zsyyblog.com'
+    - 'name': '云野生SRE'
+      'url': 'https://www.xadocker.cn'
+    - 'name': 'SLOVER'
+      'url': 'https://678777.xyz'
+    - 'name': 'ReCclay🖥️'
+      'url': 'https://www.recclay.cc/'
+    - 'name': 'Shine'
+      'url': 'https://blog.shineyu.cn/'
+    - 'name': '小码博客'
+      'url': 'https://blog.hikki.site'
+    - 'name': '南方嘉木'
+      'url': 'https://gavin-chen.top/'
+    - 'name': 'Prong'
+      'url': 'https://prong.ltd'
+    - 'name': '满心记'
+      'url': 'https://blog.lovelu.top'
+    - 'name': '怕冷爱上雪'
+      'url': 'https://blog.4t.pw/'
+    - 'name': '雷雷屋头'
+      'url': 'https://ll.sc.cn'
+    - 'name': '小吉崽汁の窝'
+      'url': 'https://wuxingzzz.top'
+    - 'name': '龙儿之家'
+      'url': 'https://blog.huangge1199.cn'
+    - 'name': '小朋同学'
+      'url': 'https://blog.vip88.email'
+    - 'name': '王同学'
+      'url': 'https://demo.wxz666.icu/'
+    - 'name': '李程ic'
+      'url': 'https://www.licic.net/'
+    - 'name': '回忆航线'
+      'url': 'https://moony.la/'
+    - 'name': '爱吃肉的猫'
+      'url': 'https://meuicat.com/'
+    - 'name': '虎了吧唧'
+      'url': 'https://hulebaji.me'
+    - 'name': '毕少侠'
+      'url': 'https://hexo.geekswg.top/'
+    - 'name': '猫四叔'
+      'url': 'https://blog.hieroglyphs.top/'
+    - 'name': '铭心石刻'
+      'url': 'https://blog.kouseki.cn/'
+    - 'name': 'xhang'
+      'url': 'https://xhablog.online/'
+    - 'name': '海拥'
+      'url': 'https://haiyong.site'
+    - 'name': '虹色轨迹🌠'
+      'url': 'https://ovoz.cn'
+    - 'name': 'SuYi-宿仪'
+      'url': 'https://www.thotz.top/'
+    - 'name': '神经蛙'
+      'url': 'https://hexo.sjava.cn/'
+    - 'name': '小嗷犬的技术小站'
+      'url': 'https://blog.marquis.eu.org/'
+    - 'name': 'Cisyam'
+      'url': 'https://manamn.space/'
+    - 'name': '杀死一只知更鸟'
+      'url': 'https://www.shangjidong.com'
+    - 'name': '棋の小站'
+      'url': 'https://blog.qi1.zone/'
+    - 'name': 'qxdn'
+      'url': 'https://qianxu.run'
+    - 'name': '阳小楊'
+      'url': 'https://blog.yxyang.top'
+    - 'name': '云深不知处'
+      'url': 'https://www.lanzlz.cn'
+    - 'name': '虹色轨迹🌠'
+      'url': 'https://dil.illlli.com'
+    - 'name': '小鹿'
+      'url': 'https://siena.zone'
+    - 'name': 'Calyee'
+      'url': 'https://blog.calyee.top/'
+    - 'name': '琅環书生'
+      'url': 'https://blog.chn.us.kg'
+    - 'name': 'SeaEpoch'
+      'url': 'https://www.seaepoch.com'
+    - 'name': '彬红茶栈'
+      'url': 'https://resource.redcha.cn'
+    - 'name': 'HoshinoAi'
+      'url': 'https://hoshinoai.xin'
+    - 'name': 'Admibrill'
+      'url': 'https://blog.qyadbr.top'
+    - 'name': 'liangbm3’s blog'
+      'url': 'https://liangbm3.site/'
+    - 'name': 'CIK'
+      'url': 'https://www.cikcc.com'
+    - 'name': 'ZERO开发'
+      'url': 'https://www.zerofc.cn/'
+    - 'name': '28.7'
+      'url': 'https://blog.kong.college/'
+    - 'name': 'yusuble特效'
+      'url': 'https://blog.suble.cn'
+    - 'name': 'fasdfasdfsda'
+      'url': 'https://www.orientdawn.com'
+    - 'name': 'liseezn'
+      'url': 'http://blog.liseezn.top'
+    - 'name': '28.7'
+      'url': 'https://blog.kong.college'
+    - 'name': 'SeaEpoch'
+      'url': 'http://www.seaepoch.com'
+    - 'name': 'liangbm3'
+      'url': 'http://liangbm3.site'
+    - 'name': 'BlogFinder'
+      'url': 'https://bf.zzxworld.com/s/686'

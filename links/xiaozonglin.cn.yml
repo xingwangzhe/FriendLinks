@@ -1,78 +1,62 @@
-site:
-  name: "xiaozonglin.cn"
-  description: "友情链接"
-  url: "https://xiaozonglin.cn/"
-  links: "/friends"
-  friends:
-    - name: "林林杂语"
-      url: "https://www.xiaozonglin.cn/"
-    - name: "关于我"
-      url: "https://www.xiaozonglin.cn/about-me/"
-    - name: "笔记维基"
-      url: "https://wiki.xiaozonglin.cn/"
-    - name: "友情链接"
-      url: "https://www.xiaozonglin.cn/friends/"
-    - name: "开往友链接力"
-      url: "https://www.travellings.cn/go.html"
-    - name: "阿锋的小宇宙"
-      url: "https://feng.pub/"
-    - name: "Jdeal"
-      url: "https://www.jdeal.cn/"
-    - name: "澄沨的漫游茶记"
-      url: "https://champhoon.xyz/"
-    - name: "胡涂说"
-      url: "https://hutusi.com/"
-    - name: "OhYee 博客"
-      url: "https://www.ohyee.cc/"
-    - name: "I'm Luochancy"
-      url: "https://www.luochancy.com/"
-    - name: "铎鸣也"
-      url: "https://zhengduo.wordpress.com/"
-    - name: "雅余"
-      url: "https://yayu.net/"
-    - name: "Norcleeh's Site"
-      url: "https://nocp.space/"
-    - name: "威言威语"
-      url: "https://www.weisay.com/blog/"
-    - name: "RIVALSA网络空间"
-      url: "https://main.rivalsa.net/"
-    - name: "涓滴意念汇成河"
-      url: "https://www.zahui.top/"
-    - name: "Chlorine"
-      url: "https://chlo.is/"
-    - name: "HamCQ社区"
-      url: "https://forum.hamcq.cn/"
-    - name: "Restent Ou"
-      url: "https://www.gxres.net/"
-    - name: "ImQi1"
-      url: "https://imqi1.com/"
-    - name: "Lanke's Blog"
-      url: "https://www.blueke.top/"
-    - name: "土木坛子"
-      url: "https://tumutanzi.com/"
-    - name: "菲兹克斯喵"
-      url: "https://physnya.top"
-    - name: "夜海行舟"
-      url: "https://brocalife.com/"
-    - name: "墨希"
-      url: "https://note.moxiify.cn/"
-    - name: "咖啡豆子"
-      url: "https://blog.kfdzcoffee.cn/"
-    - name: "CopperKoi"
-      url: "https://copperkoi.cn/"
-    - name: "MintLab"
-      url: "https://www.mintlab.top/"
-    - name: "Potatowo"
-      url: "https://blog.potatowo.top/"
-    - name: "秋风于渭水"
-      url: "https://www.tjsky.net/"
-    - name: "林林杂语"
-      url: "https://www.xiaozonglin.cn"
-    - name: "YAYU"
-      url: "https://yayu.net"
-    - name: "闽ICP备2023011626号-2"
-      url: "https://beian.miit.gov.cn/"
-    - name: "陕公网安备61019002003556号"
-      url: "https://beian.mps.gov.cn/#/query/webSearch?code=61019002003556"
-    - name: "长亭雷池 WAF"
-      url: "https://waf-ce.chaitin.com/"
+'site':
+  'name': 'xiaozonglin.cn'
+  'description': '友情链接'
+  'url': 'https://xiaozonglin.cn/'
+  'links': '/friends'
+  'friends':
+    - 'name': '阿锋的小宇宙'
+      'url': 'https://feng.pub/'
+    - 'name': 'Jdeal'
+      'url': 'https://www.jdeal.cn/'
+    - 'name': '澄沨的漫游茶记'
+      'url': 'https://champhoon.xyz/'
+    - 'name': '胡涂说'
+      'url': 'https://hutusi.com/'
+    - 'name': 'OhYee 博客'
+      'url': 'https://www.ohyee.cc/'
+    - 'name': 'I''m Luochancy'
+      'url': 'https://www.luochancy.com/'
+    - 'name': '铎鸣也'
+      'url': 'https://zhengduo.wordpress.com/'
+    - 'name': '雅余'
+      'url': 'https://yayu.net/'
+    - 'name': 'Norcleeh''s Site'
+      'url': 'https://nocp.space/'
+    - 'name': '威言威语'
+      'url': 'https://www.weisay.com/blog/'
+    - 'name': 'RIVALSA网络空间'
+      'url': 'https://main.rivalsa.net/'
+    - 'name': '涓滴意念汇成河'
+      'url': 'https://www.zahui.top/'
+    - 'name': 'Chlorine'
+      'url': 'https://chlo.is/'
+    - 'name': 'HamCQ社区'
+      'url': 'https://forum.hamcq.cn/'
+    - 'name': 'Restent Ou'
+      'url': 'https://www.gxres.net/'
+    - 'name': 'ImQi1'
+      'url': 'https://imqi1.com/'
+    - 'name': 'Lanke''s Blog'
+      'url': 'https://www.blueke.top/'
+    - 'name': '土木坛子'
+      'url': 'https://tumutanzi.com/'
+    - 'name': '菲兹克斯喵'
+      'url': 'https://physnya.top'
+    - 'name': '夜海行舟'
+      'url': 'https://brocalife.com/'
+    - 'name': '墨希'
+      'url': 'https://note.moxiify.cn/'
+    - 'name': '咖啡豆子'
+      'url': 'https://blog.kfdzcoffee.cn/'
+    - 'name': 'CopperKoi'
+      'url': 'https://copperkoi.cn/'
+    - 'name': 'MintLab'
+      'url': 'https://www.mintlab.top/'
+    - 'name': 'Potatowo'
+      'url': 'https://blog.potatowo.top/'
+    - 'name': '秋风于渭水'
+      'url': 'https://www.tjsky.net/'
+    - 'name': 'YAYU'
+      'url': 'https://yayu.net'
+    - 'name': '长亭雷池 WAF'
+      'url': 'https://waf-ce.chaitin.com/'

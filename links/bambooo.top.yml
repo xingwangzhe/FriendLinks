@@ -1,14 +1,6 @@
-site:
-  name: "扳布屋"
-  url: "https://bambooo.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Mix Space"
-      url: "https://github.com/mx-space"
-    - name: "余白 / Yohaku"
-      url: "https://github.com/Innei/Yohaku"
-    - name: "GitHub ↗"
-      url: "https://github.com/climbingmouse"
-    - name: "萌 ICP 备 20260620 号"
-      url: "https://icp.gov.moe/?keyword=20260620"
+'site':
+  'name': '扳布屋'
+  'url': 'https://bambooo.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends': []

@@ -1,32 +1,56 @@
-site:
-  name: "onektas.top"
-  description: "友情链接"
-  url: "https://onektas.top/"
-  links: "/link"
-  friends:
-    - name: "Onektas博客\n      \n      Onektas博客 \n      花开如火，也如寂寞"
-      url: "https://onektas.top/"
-    - name: "OneShare\n      \n      OneShare \n      即刻分享"
-      url: "https://share.onektas.top/"
-    - name: "Akilarの糖果屋\n      \n      Akilarの糖果屋 \n      期待您的光临！"
-      url: "https://akilar.top/"
-    - name: "小冰博客\n      \n      小冰博客 \n      做个有梦想的人！"
-      url: "https://zfe.space/"
-    - name: "张洪Heo\n      \n      张洪Heo \n      分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "花猪\n      \n      花猪 \n      佛系青年"
-      url: "https://cnhuazhu.top/"
-    - name: "极客日记\n      \n      极客日记 \n      莫愁前路无知己，天下谁人不识君。"
-      url: "https://www.explorexd.com/"
-    - name: "yusuble特效\n      \n      yusuble特效 \n      专注欧美影视的特效字幕的制作与分享。"
-      url: "https://blog.suble.cn"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "GitHub"
-      url: "https://github.com/Onektas"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
-    - name: "备案号:浙ICP备2023039152号-1"
-      url: "https://beian.miit.gov.cn"
+'site':
+  'name': 'onektas.top'
+  'description': '友情链接'
+  'url': 'https://onektas.top/'
+  'links': '/link'
+  'friends':
+    - 'name': "OneShare
+
+        \     \ 
+
+        \      OneShare\ 
+
+        \      即刻分享"
+      'url': 'https://share.onektas.top/'
+    - 'name': "Akilarの糖果屋
+
+        \     \ 
+
+        \      Akilarの糖果屋\ 
+
+        \      期待您的光临！"
+      'url': 'https://akilar.top/'
+    - 'name': "小冰博客
+
+        \     \ 
+
+        \      小冰博客\ 
+
+        \      做个有梦想的人！"
+      'url': 'https://zfe.space/'
+    - 'name': "张洪Heo
+
+        \     \ 
+
+        \      张洪Heo\ 
+
+        \      分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "花猪\n     \ \n      花猪\ \n      佛系青年"
+      'url': 'https://cnhuazhu.top/'
+    - 'name': "极客日记
+
+        \     \ 
+
+        \      极客日记\ 
+
+        \      莫愁前路无知己，天下谁人不识君。"
+      'url': 'https://www.explorexd.com/'
+    - 'name': "yusuble特效
+
+        \     \ 
+
+        \      yusuble特效\ 
+
+        \      专注欧美影视的特效字幕的制作与分享。"
+      'url': 'https://blog.suble.cn'

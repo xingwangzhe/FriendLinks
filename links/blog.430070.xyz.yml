@@ -1,46 +1,16 @@
-site:
-  name: "blog.430070.xyz"
-  description: "友情链接"
-  url: "https://blog.430070.xyz/"
-  links: "/link"
-  friends:
-    - name: "博客"
-      url: "https://baoo.pages.dev/"
-    - name: "阿堡图床"
-      url: "https://www.baiwulin.work/login"
-    - name: "Hexo"
-      url: "https://hexo.io/zh-tw/"
-    - name: "anzhiyu主题"
-      url: "https://blog.anheyu.com/"
-    - name: "清羽飞扬"
-      url: "https://blog.liushen.fun/"
-    - name: "Github"
-      url: "https://github.com/anzhiyu-c"
-    - name: "BiliBili"
-      url: "https://space.bilibili.com/372204786"
-    - name: "微博"
-      url: "https://weibo.com/u/6378063631"
-    - name: "facebook"
-      url: "https://www.facebook.com/profile.php?id=100092208016287&sk=about"
-    - name: "抖音"
-      url: "https://v.douyin.com/DwCpMEy/"
-    - name: "51la统计"
-      url: "https://v6.51.la/"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/"
-    - name: "开往"
-      url: "https://github.com/travellings-link/travellings"
-    - name: "源码"
-      url: "https://github.com/anzhiyu-c/hexo-theme-anzhiyu"
-    - name: "博客框架为Hexo_v5.4.0"
-      url: "https://hexo.io/"
-    - name: "本站使用多吉云为静态资源提供CDN加速"
-      url: "https://www.dogecloud.com/"
-    - name: "本站项目由Github托管"
-      url: "https://github.com/"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "图床"
-      url: "https://image.anheyu.com"
-    - name: "湘ICP备-xxxxxxx号"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'blog.430070.xyz'
+  'description': '友情链接'
+  'url': 'https://blog.430070.xyz/'
+  'links': '/link'
+  'friends':
+    - 'name': 'anzhiyu主题'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '清羽飞扬'
+      'url': 'https://blog.liushen.fun/'
+    - 'name': '抖音'
+      'url': 'https://v.douyin.com/DwCpMEy/'
+    - 'name': '51la统计'
+      'url': 'https://v6.51.la/'
+    - 'name': '博客框架为Hexo_v5.4.0'
+      'url': 'https://hexo.io/'

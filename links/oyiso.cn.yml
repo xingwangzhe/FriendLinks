@@ -1,82 +1,104 @@
-site:
-  name: "oyiso.cn"
-  description: "友情链接"
-  url: "https://oyiso.cn/"
-  links: "/friends"
-  friends:
-    - name: "Oyiso's Blog"
-      url: "https://oyiso.cn"
-    - name: "文章列表"
-      url: "https://oyiso.cn/posts"
-    - name: "文章分类"
-      url: "https://oyiso.cn/categories"
-    - name: "文章标签"
-      url: "https://oyiso.cn/tags"
-    - name: "文章归档"
-      url: "https://oyiso.cn/archives"
-    - name: "片刻瞬间"
-      url: "https://oyiso.cn/moments"
-    - name: "臻藏家画展"
-      url: "https://oyiso.cn/galleries"
-    - name: "关于本站"
-      url: "https://oyiso.cn/about"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "友人帐"
-      url: "https://oyiso.cn/friends"
-    - name: "主题教程"
-      url: "https://oyiso.cn/guide"
-    - name: "关于主题"
-      url: "https://oyiso.cn/buy"
-    - name: "张洪Heo\n                                            分享设计与科技生活"
-      url: "https://blog.zhheo.com"
-    - name: "墨轩博客\n                                            云游四方"
-      url: "https://hercat.cn/"
-    - name: "Wind\n                                            萌新捏~"
-      url: "https://foreverhome.live"
-    - name: "彼岸SKY\n                                            学习与分享"
-      url: "https://lonelyx.cn"
-    - name: "歌梦罗\n                                            努力生活、努力热爱"
-      url: "https://www.gmero.com"
-    - name: "风月琉璃\n                                            我在等风，也卖等你。"
-      url: "https://miui.ink"
-    - name: "Elykia\n                                            致以无暇之人"
-      url: "https://blog.elykia.cn/"
-    - name: "RhoPaperの小站\n                                            纸至执"
-      url: "https://rhopaper.top/"
-    - name: "平凡博客\n                                            很懒，没有描述"
-      url: "http://blog.hzyo.cn"
-    - name: "青萍叙事\n                                            一个懂技术的产品汪"
-      url: "https://blog.lusyoe.com"
-    - name: "素心\n                                            我来互联网是当皇帝的"
-      url: "https://haiy.space"
-    - name: "阿辉の小破站\n                                            热爱可抵岁月漫长"
-      url: "https://www.ahuiwd.top/"
-    - name: "小林笔记\n                                            轻生活，秒上签"
-      url: "https://m.senlinm.cn"
-    - name: "森语博客\n                                            有幸遇见，恰巧合拍"
-      url: "https://blog.lsenyu.cn"
-    - name: "爱吃肉的猫\n                                            有肉有猫有生活."
-      url: "https://meuicat.com"
-    - name: "你好可爱\n                                            山水一程，三生有幸✨"
-      url: "https://wjldarling.top/"
-    - name: "并非正文\n                                            兴趣使然・一腔热血"
-      url: "https://bfzw.top/"
-    - name: "学园都市\n                                            被遗忘的都市传说"
-      url: "http://baimu.live/"
-    - name: "北海的鱼\n                                            就是喜欢折腾"
-      url: "https://blog.qsuu.cn"
-    - name: "老孙博客\n                                            资深网民孙先生"
-      url: "https://www.imsun.org"
-    - name: "慢慢懂の分享站\n                                            记录，分享。"
-      url: "https://blog.manmandong.top/"
-    - name: "酥米的小站\n                                            终有一日，寻梦中人"
-      url: "https://www.sumi233.top"
-    - name: "语络\n                                            这家伙很懒，什么都没写"
-      url: "https://ay21.com/"
-    - name: "幻影博客\n                                            苦逼站长和他的博客"
-      url: "https://www.olxl.cn"
-    - name: "cjq的小窝\n                                            相信美好总会发生"
-      url: "https://caojingqian.cn/"
-    - name: "Elykia"
-      url: "https://blog.elykia.cn"
+'site':
+  'name': 'oyiso.cn'
+  'description': '友情链接'
+  'url': 'https://oyiso.cn/'
+  'links': '/friends'
+  'friends':
+    - 'name': "张洪Heo
+
+        \                                            分享设计与科技生活"
+      'url': 'https://blog.zhheo.com'
+    - 'name': "墨轩博客
+
+        \                                            云游四方"
+      'url': 'https://hercat.cn/'
+    - 'name': "Wind
+
+        \                                            萌新捏~"
+      'url': 'https://foreverhome.live'
+    - 'name': "彼岸SKY
+
+        \                                            学习与分享"
+      'url': 'https://lonelyx.cn'
+    - 'name': "歌梦罗
+
+        \                                            努力生活、努力热爱"
+      'url': 'https://www.gmero.com'
+    - 'name': "风月琉璃
+
+        \                                            我在等风，也卖等你。"
+      'url': 'https://miui.ink'
+    - 'name': "Elykia
+
+        \                                            致以无暇之人"
+      'url': 'https://blog.elykia.cn/'
+    - 'name': "RhoPaperの小站
+
+        \                                            纸至执"
+      'url': 'https://rhopaper.top/'
+    - 'name': "平凡博客
+
+        \                                            很懒，没有描述"
+      'url': 'http://blog.hzyo.cn'
+    - 'name': "青萍叙事
+
+        \                                            一个懂技术的产品汪"
+      'url': 'https://blog.lusyoe.com'
+    - 'name': "素心
+
+        \                                            我来互联网是当皇帝的"
+      'url': 'https://haiy.space'
+    - 'name': "阿辉の小破站
+
+        \                                            热爱可抵岁月漫长"
+      'url': 'https://www.ahuiwd.top/'
+    - 'name': "森语博客
+
+        \                                            有幸遇见，恰巧合拍"
+      'url': 'https://blog.lsenyu.cn'
+    - 'name': "爱吃肉的猫
+
+        \                                            有肉有猫有生活."
+      'url': 'https://meuicat.com'
+    - 'name': "你好可爱
+
+        \                                            山水一程，三生有幸✨"
+      'url': 'https://wjldarling.top/'
+    - 'name': "并非正文
+
+        \                                            兴趣使然・一腔热血"
+      'url': 'https://bfzw.top/'
+    - 'name': "学园都市
+
+        \                                            被遗忘的都市传说"
+      'url': 'http://baimu.live/'
+    - 'name': "北海的鱼
+
+        \                                            就是喜欢折腾"
+      'url': 'https://blog.qsuu.cn'
+    - 'name': "老孙博客
+
+        \                                            资深网民孙先生"
+      'url': 'https://www.imsun.org'
+    - 'name': "慢慢懂の分享站
+
+        \                                            记录，分享。"
+      'url': 'https://blog.manmandong.top/'
+    - 'name': "酥米的小站
+
+        \                                            终有一日，寻梦中人"
+      'url': 'https://www.sumi233.top'
+    - 'name': "语络
+
+        \                                            这家伙很懒，什么都没写"
+      'url': 'https://ay21.com/'
+    - 'name': "幻影博客
+
+        \                                            苦逼站长和他的博客"
+      'url': 'https://www.olxl.cn'
+    - 'name': "cjq的小窝
+
+        \                                            相信美好总会发生"
+      'url': 'https://caojingqian.cn/'
+    - 'name': 'Elykia'
+      'url': 'https://blog.elykia.cn'

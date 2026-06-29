@@ -1,272 +1,248 @@
-site:
-  name: "林卷"
-  url: "https://geedea.pro/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Hsins"
-      url: "https://hsins.me/"
-    - name: "空栈顶"
-      url: "https://emptystack.top/"
-    - name: "非理勿试"
-      url: "https://www.ntiy.com/"
-    - name: "Paul Graham: Essays"
-      url: "http://www.paulgraham.com/"
-    - name: "BlogBlog.Club 部落部落俱樂部 Blog"
-      url: "https://blogblog.club/"
-    - name: "小倪 | BioEZ"
-      url: "https://bioez.xyz/"
-    - name: "Anna’s Blog"
-      url: "https://annas-archive.gl/"
-    - name: "Sightless Scribbles"
-      url: "https://sightlessscribbles.com/"
-    - name: "Ahmad Shadeed"
-      url: "https://ishadeed.com/"
-    - name: "伏枥之间"
-      url: "https://leehenry.top/"
-    - name: "localghost"
-      url: "https://localghost.dev/"
-    - name: "Allen Pike"
-      url: "https://www.allenpike.com/"
-    - name: "映屿"
-      url: "https://blog.verdant.ee/"
-    - name: "CatCoding"
-      url: "http://catcoding.me/"
-    - name: "LessWrong"
-      url: "https://www.lesswrong.com/"
-    - name: "瓠樽"
-      url: "https://blog.dylanwu.space/"
-    - name: "心的道理"
-      url: "https://stephenleng.com/"
-    - name: "SkyWT"
-      url: "https://skywt.cn/"
-    - name: "保持思考、等待、斋戒"
-      url: "https://polebug.github.io/"
-    - name: "Bluepikachu"
-      url: "https://bluepika.life/"
-    - name: "Jenneral HQ 🌠"
-      url: "https://www.jenn.site/"
-    - name: "Weepinbell Feed"
-      url: "https://wm.geedea.pro/"
-    - name: "Memozine"
-      url: "https://memozine.me/"
-    - name: "Lofi'Log 低保真日志"
-      url: "https://lofilog.com/"
-    - name: "主页 on 刘家财的个人网站"
-      url: "https://liujiacai.net/"
-    - name: "Markon Review"
-      url: "https://markonreview.com/"
-    - name: "V2EX"
-      url: "https://blog.v2ex.com/"
-    - name: "CC的数字花园"
-      url: "https://cyrus19.cc/"
-    - name: "Garden of Outlier"
-      url: "https://chlo.is/"
-    - name: "金色河流"
-      url: "https://goldenriver.site/"
-    - name: "关门说话"
-      url: "https://hugo-stack-theme-mod-six.vercel.app/"
-    - name: "Sam Altman"
-      url: "https://blog.samaltman.com/"
-    - name: "涛叔"
-      url: "https://tao.zz.ac/"
-    - name: "桜庭夜 | 杂话铺子"
-      url: "https://yuuikic.com/"
-    - name: "查令十字街 84 号"
-      url: "https://www.javis.me/"
-    - name: "H.-H.'s Blog"
-      url: "https://blog.hhpeng.org/"
-    - name: "Rebel Zhang 的博客"
-      url: "https://rebel1725.codeberg.page/"
-    - name: "Sukka's Blog"
-      url: "https://blog.skk.moe/"
-    - name: "Wait But Why"
-      url: "https://waitbutwhy.com/"
-    - name: "Cytrogen 的个人博客"
-      url: "https://blog.cytrogen.icu/"
-    - name: "陈仓颉"
-      url: "https://imzm.im/"
-    - name: "云游君的小站"
-      url: "https://www.yunyoujun.cn/"
-    - name: "云风的 BLOG"
-      url: "https://blog.codingnow.com/"
-    - name: "Planet Clojure"
-      url: "http://planet.clojure.in/"
-    - name: "一直游到海水变蓝"
-      url: "https://nelsonboss.ink/"
-    - name: "Owen的博客"
-      url: "https://www.owenyoung.com/"
-    - name: "明琪的日记"
-      url: "https://yumieko.kikowiwu.com/"
-    - name: "1sle"
-      url: "https://1sle29.github.io/"
-    - name: "Psychic Paper"
-      url: "https://yuqiqin.me/"
-    - name: "The Pudding"
-      url: "https://buttondown.com/"
-    - name: "景の域"
-      url: "https://v1sta.xyz/"
-    - name: "白熊阿丸的小屋"
-      url: "https://blog.bxaw.name/"
-    - name: "Dhole Moments"
-      url: "https://soatok.blog/"
-    - name: "楼船 𝑰𝑵𝑲𝑭𝑳𝑨𝑲𝑬"
-      url: "https://fravilion.top/"
-    - name: "夜海行舟"
-      url: "https://brocalife.com/"
-    - name: "dyron503's"
-      url: "https://career.dyron503.top/"
-    - name: "按钮与磁带"
-      url: "https://jefftay.com/"
-    - name: "杜尚此在沙龙"
-      url: "https://www.lhooq.life/"
-    - name: "KAIX.IN"
-      url: "https://kaix.in/"
-    - name: "Codeberg News"
-      url: "https://blog.codeberg.org/"
-    - name: "atpX"
-      url: "https://atpx.com/"
-    - name: "記緒漂流"
-      url: "https://ttio.cc/"
-    - name: "Taxodium"
-      url: "https://taxodium.ink/"
-    - name: "LocalThunk"
-      url: "https://localthunk.com/"
-    - name: "Velas电波站"
-      url: "https://www.velasx.com/"
-    - name: "Randy's Blog"
-      url: "https://lutaonan.com/"
-    - name: "狐狸反走矣"
-      url: "https://blog.southfox.me/"
-    - name: "Alex Hsu"
-      url: "https://alexhsu.com/"
-    - name: "inessential.com"
-      url: "https://inessential.com/"
-    - name: "l3on.site"
-      url: "https://l3on.site/"
-    - name: "Hsuan's Space"
-      url: "https://quarkpixel.github.io/"
-    - name: "88x31"
-      url: "https://indieweb.org/88x31"
-    - name: "github.com"
-      url: "https://github.com/"
-    - name: "en.wikipedia.org"
-      url: "https://en.wikipedia.org/"
-    - name: "zh.wikipedia.org"
-      url: "https://zh.wikipedia.org/"
-    - name: "www.geedea.pro"
-      url: "https://www.geedea.pro/"
-    - name: "backrooms-wiki-cn.wikidot.com"
-      url: "https://backrooms-wiki-cn.wikidot.com/"
-    - name: "music.apple.com"
-      url: "https://music.apple.com/"
-    - name: "podcasts.apple.com"
-      url: "https://podcasts.apple.com/"
-    - name: "open.spotify.com"
-      url: "https://open.spotify.com/"
-    - name: "codeberg.org"
-      url: "https://codeberg.org/"
-    - name: "www.xiaoyuzhoufm.com"
-      url: "https://www.xiaoyuzhoufm.com/"
-    - name: "www.bilibili.com"
-      url: "https://www.bilibili.com/"
-    - name: "embed.music.apple.com"
-      url: "https://embed.music.apple.com/"
-    - name: "www.etymonline.com"
-      url: "https://www.etymonline.com/"
-    - name: "sspai.com"
-      url: "https://sspai.com/"
-    - name: "music.163.com"
-      url: "https://music.163.com/"
-    - name: "onojyun.com"
-      url: "https://onojyun.com/"
-    - name: "en.wiktionary.org"
-      url: "https://en.wiktionary.org/"
-    - name: "www.w3.org"
-      url: "https://www.w3.org/"
-    - name: "c7.io"
-      url: "https://c7.io/"
-    - name: "www.reddit.com"
-      url: "https://www.reddit.com/"
-    - name: "neodb.social"
-      url: "https://neodb.social/"
-    - name: "unsplash.com"
-      url: "https://unsplash.com/"
-    - name: "jar.geedea.pro"
-      url: "https://jar.geedea.pro/"
-    - name: "www.ultrali.me"
-      url: "https://www.ultrali.me/"
-    - name: "t.me"
-      url: "https://t.me/"
-    - name: "webmention.io"
-      url: "https://webmention.io/"
-    - name: "www.youtube.com"
-      url: "https://www.youtube.com/"
-    - name: "developer.mozilla.org"
-      url: "https://developer.mozilla.org/"
-    - name: "pmc.ncbi.nlm.nih.gov"
-      url: "https://pmc.ncbi.nlm.nih.gov/"
-    - name: "blog.jim-nielsen.com"
-      url: "https://blog.jim-nielsen.com/"
-    - name: "farside.link"
-      url: "https://farside.link/"
-    - name: "gohugo.io"
-      url: "https://gohugo.io/"
-    - name: "ieji.de"
-      url: "https://ieji.de/"
-    - name: "microformats.org"
-      url: "https://microformats.org/"
-    - name: "allenpike.com"
-      url: "https://allenpike.com/"
-    - name: "apps.apple.com"
-      url: "https://apps.apple.com/"
-    - name: "www.essay.ink"
-      url: "https://www.essay.ink/"
-    - name: "alice.blog"
-      url: "https://alice.blog/"
-    - name: "migadu.com"
-      url: "https://migadu.com/"
-    - name: "web.archive.org"
-      url: "https://web.archive.org/"
-    - name: "archive.org"
-      url: "https://archive.org/"
-    - name: "book.douban.com"
-      url: "https://book.douban.com/"
-    - name: "clojure.org"
-      url: "https://clojure.org/"
-    - name: "eltrac.itch.io"
-      url: "https://eltrac.itch.io/"
-    - name: "github.blog"
-      url: "https://github.blog/"
-    - name: "helium.computer"
-      url: "https://helium.computer/"
-    - name: "johnnydecimal.com"
-      url: "https://johnnydecimal.com/"
-    - name: "jointhefediverse.net"
-      url: "https://jointhefediverse.net/"
-    - name: "martinvol.pe"
-      url: "https://martinvol.pe/"
-    - name: "mastodon.social"
-      url: "https://mastodon.social/"
-    - name: "neal.fun"
-      url: "https://neal.fun/"
-    - name: "nownownow.com"
-      url: "https://nownownow.com/"
-    - name: "pnpm.io"
-      url: "https://pnpm.io/"
-    - name: "pudding.cool"
-      url: "https://pudding.cool/"
-    - name: "wetdry.world"
-      url: "https://wetdry.world/"
-    - name: "zed.dev"
-      url: "https://zed.dev/"
-    - name: "Eltrac"
-      url: "https://www.eltr.ac/"
-    - name: "CC BY-SA 4.0"
-      url: "https://creativecommons.org/licenses/by-sa/4.0/"
-    - name: "IndieWeb ring"
-      url: "https://xn--sr8hvo.ws"
-    - name: "Status"
-      url: "https://hows.eltr.ac/endpoints/%E6%9E%81%E5%AE%A2%E6%AD%BB%E4%BA%A1%E8%AE%A1%E5%88%92_%E6%9E%81%E5%AE%A2%E6%AD%BB%E4%BA%A1%E8%AE%A1%E5%88%92"
-    - name: "Forgejo"
-      url: "https://src.eltr.ac/eltrac/geedeapro"
+'site':
+  'name': '林卷'
+  'url': 'https://geedea.pro/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Hsins'
+      'url': 'https://hsins.me/'
+    - 'name': '空栈顶'
+      'url': 'https://emptystack.top/'
+    - 'name': '非理勿试'
+      'url': 'https://www.ntiy.com/'
+    - 'name': 'Paul Graham: Essays'
+      'url': 'http://www.paulgraham.com/'
+    - 'name': 'BlogBlog.Club 部落部落俱樂部 Blog'
+      'url': 'https://blogblog.club/'
+    - 'name': '小倪 | BioEZ'
+      'url': 'https://bioez.xyz/'
+    - 'name': 'Anna’s Blog'
+      'url': 'https://annas-archive.gl/'
+    - 'name': 'Sightless Scribbles'
+      'url': 'https://sightlessscribbles.com/'
+    - 'name': 'Ahmad Shadeed'
+      'url': 'https://ishadeed.com/'
+    - 'name': '伏枥之间'
+      'url': 'https://leehenry.top/'
+    - 'name': 'localghost'
+      'url': 'https://localghost.dev/'
+    - 'name': 'Allen Pike'
+      'url': 'https://www.allenpike.com/'
+    - 'name': '映屿'
+      'url': 'https://blog.verdant.ee/'
+    - 'name': 'CatCoding'
+      'url': 'http://catcoding.me/'
+    - 'name': 'LessWrong'
+      'url': 'https://www.lesswrong.com/'
+    - 'name': '瓠樽'
+      'url': 'https://blog.dylanwu.space/'
+    - 'name': '心的道理'
+      'url': 'https://stephenleng.com/'
+    - 'name': 'SkyWT'
+      'url': 'https://skywt.cn/'
+    - 'name': 'Bluepikachu'
+      'url': 'https://bluepika.life/'
+    - 'name': 'Jenneral HQ 🌠'
+      'url': 'https://www.jenn.site/'
+    - 'name': 'Weepinbell Feed'
+      'url': 'https://wm.geedea.pro/'
+    - 'name': 'Memozine'
+      'url': 'https://memozine.me/'
+    - 'name': 'Lofi''Log 低保真日志'
+      'url': 'https://lofilog.com/'
+    - 'name': '主页 on 刘家财的个人网站'
+      'url': 'https://liujiacai.net/'
+    - 'name': 'Markon Review'
+      'url': 'https://markonreview.com/'
+    - 'name': 'V2EX'
+      'url': 'https://blog.v2ex.com/'
+    - 'name': 'CC的数字花园'
+      'url': 'https://cyrus19.cc/'
+    - 'name': 'Garden of Outlier'
+      'url': 'https://chlo.is/'
+    - 'name': '金色河流'
+      'url': 'https://goldenriver.site/'
+    - 'name': 'Sam Altman'
+      'url': 'https://blog.samaltman.com/'
+    - 'name': '涛叔'
+      'url': 'https://tao.zz.ac/'
+    - 'name': '桜庭夜 | 杂话铺子'
+      'url': 'https://yuuikic.com/'
+    - 'name': '查令十字街 84 号'
+      'url': 'https://www.javis.me/'
+    - 'name': 'H.-H.''s Blog'
+      'url': 'https://blog.hhpeng.org/'
+    - 'name': 'Rebel Zhang 的博客'
+      'url': 'https://rebel1725.codeberg.page/'
+    - 'name': 'Sukka''s Blog'
+      'url': 'https://blog.skk.moe/'
+    - 'name': 'Wait But Why'
+      'url': 'https://waitbutwhy.com/'
+    - 'name': 'Cytrogen 的个人博客'
+      'url': 'https://blog.cytrogen.icu/'
+    - 'name': '陈仓颉'
+      'url': 'https://imzm.im/'
+    - 'name': '云游君的小站'
+      'url': 'https://www.yunyoujun.cn/'
+    - 'name': '云风的 BLOG'
+      'url': 'https://blog.codingnow.com/'
+    - 'name': 'Planet Clojure'
+      'url': 'http://planet.clojure.in/'
+    - 'name': '一直游到海水变蓝'
+      'url': 'https://nelsonboss.ink/'
+    - 'name': 'Owen的博客'
+      'url': 'https://www.owenyoung.com/'
+    - 'name': '明琪的日记'
+      'url': 'https://yumieko.kikowiwu.com/'
+    - 'name': 'Psychic Paper'
+      'url': 'https://yuqiqin.me/'
+    - 'name': 'The Pudding'
+      'url': 'https://buttondown.com/'
+    - 'name': '景の域'
+      'url': 'https://v1sta.xyz/'
+    - 'name': '白熊阿丸的小屋'
+      'url': 'https://blog.bxaw.name/'
+    - 'name': 'Dhole Moments'
+      'url': 'https://soatok.blog/'
+    - 'name': '楼船 𝑰𝑵𝑲𝑭𝑳𝑨𝑲𝑬'
+      'url': 'https://fravilion.top/'
+    - 'name': '夜海行舟'
+      'url': 'https://brocalife.com/'
+    - 'name': 'dyron503''s'
+      'url': 'https://career.dyron503.top/'
+    - 'name': '按钮与磁带'
+      'url': 'https://jefftay.com/'
+    - 'name': '杜尚此在沙龙'
+      'url': 'https://www.lhooq.life/'
+    - 'name': 'KAIX.IN'
+      'url': 'https://kaix.in/'
+    - 'name': 'Codeberg News'
+      'url': 'https://blog.codeberg.org/'
+    - 'name': 'atpX'
+      'url': 'https://atpx.com/'
+    - 'name': '記緒漂流'
+      'url': 'https://ttio.cc/'
+    - 'name': 'Taxodium'
+      'url': 'https://taxodium.ink/'
+    - 'name': 'LocalThunk'
+      'url': 'https://localthunk.com/'
+    - 'name': 'Velas电波站'
+      'url': 'https://www.velasx.com/'
+    - 'name': 'Randy''s Blog'
+      'url': 'https://lutaonan.com/'
+    - 'name': '狐狸反走矣'
+      'url': 'https://blog.southfox.me/'
+    - 'name': 'Alex Hsu'
+      'url': 'https://alexhsu.com/'
+    - 'name': 'inessential.com'
+      'url': 'https://inessential.com/'
+    - 'name': 'l3on.site'
+      'url': 'https://l3on.site/'
+    - 'name': '88x31'
+      'url': 'https://indieweb.org/88x31'
+    - 'name': 'en.wikipedia.org'
+      'url': 'https://en.wikipedia.org/'
+    - 'name': 'zh.wikipedia.org'
+      'url': 'https://zh.wikipedia.org/'
+    - 'name': 'backrooms-wiki-cn.wikidot.com'
+      'url': 'https://backrooms-wiki-cn.wikidot.com/'
+    - 'name': 'music.apple.com'
+      'url': 'https://music.apple.com/'
+    - 'name': 'podcasts.apple.com'
+      'url': 'https://podcasts.apple.com/'
+    - 'name': 'open.spotify.com'
+      'url': 'https://open.spotify.com/'
+    - 'name': 'codeberg.org'
+      'url': 'https://codeberg.org/'
+    - 'name': 'www.xiaoyuzhoufm.com'
+      'url': 'https://www.xiaoyuzhoufm.com/'
+    - 'name': 'embed.music.apple.com'
+      'url': 'https://embed.music.apple.com/'
+    - 'name': 'www.etymonline.com'
+      'url': 'https://www.etymonline.com/'
+    - 'name': 'sspai.com'
+      'url': 'https://sspai.com/'
+    - 'name': 'onojyun.com'
+      'url': 'https://onojyun.com/'
+    - 'name': 'en.wiktionary.org'
+      'url': 'https://en.wiktionary.org/'
+    - 'name': 'www.w3.org'
+      'url': 'https://www.w3.org/'
+    - 'name': 'c7.io'
+      'url': 'https://c7.io/'
+    - 'name': 'neodb.social'
+      'url': 'https://neodb.social/'
+    - 'name': 'unsplash.com'
+      'url': 'https://unsplash.com/'
+    - 'name': 'jar.geedea.pro'
+      'url': 'https://jar.geedea.pro/'
+    - 'name': 'www.ultrali.me'
+      'url': 'https://www.ultrali.me/'
+    - 'name': 'webmention.io'
+      'url': 'https://webmention.io/'
+    - 'name': 'www.youtube.com'
+      'url': 'https://www.youtube.com/'
+    - 'name': 'developer.mozilla.org'
+      'url': 'https://developer.mozilla.org/'
+    - 'name': 'pmc.ncbi.nlm.nih.gov'
+      'url': 'https://pmc.ncbi.nlm.nih.gov/'
+    - 'name': 'blog.jim-nielsen.com'
+      'url': 'https://blog.jim-nielsen.com/'
+    - 'name': 'farside.link'
+      'url': 'https://farside.link/'
+    - 'name': 'gohugo.io'
+      'url': 'https://gohugo.io/'
+    - 'name': 'ieji.de'
+      'url': 'https://ieji.de/'
+    - 'name': 'microformats.org'
+      'url': 'https://microformats.org/'
+    - 'name': 'allenpike.com'
+      'url': 'https://allenpike.com/'
+    - 'name': 'apps.apple.com'
+      'url': 'https://apps.apple.com/'
+    - 'name': 'www.essay.ink'
+      'url': 'https://www.essay.ink/'
+    - 'name': 'alice.blog'
+      'url': 'https://alice.blog/'
+    - 'name': 'migadu.com'
+      'url': 'https://migadu.com/'
+    - 'name': 'web.archive.org'
+      'url': 'https://web.archive.org/'
+    - 'name': 'archive.org'
+      'url': 'https://archive.org/'
+    - 'name': 'clojure.org'
+      'url': 'https://clojure.org/'
+    - 'name': 'eltrac.itch.io'
+      'url': 'https://eltrac.itch.io/'
+    - 'name': 'github.blog'
+      'url': 'https://github.blog/'
+    - 'name': 'helium.computer'
+      'url': 'https://helium.computer/'
+    - 'name': 'johnnydecimal.com'
+      'url': 'https://johnnydecimal.com/'
+    - 'name': 'jointhefediverse.net'
+      'url': 'https://jointhefediverse.net/'
+    - 'name': 'martinvol.pe'
+      'url': 'https://martinvol.pe/'
+    - 'name': 'mastodon.social'
+      'url': 'https://mastodon.social/'
+    - 'name': 'neal.fun'
+      'url': 'https://neal.fun/'
+    - 'name': 'nownownow.com'
+      'url': 'https://nownownow.com/'
+    - 'name': 'pnpm.io'
+      'url': 'https://pnpm.io/'
+    - 'name': 'pudding.cool'
+      'url': 'https://pudding.cool/'
+    - 'name': 'wetdry.world'
+      'url': 'https://wetdry.world/'
+    - 'name': 'zed.dev'
+      'url': 'https://zed.dev/'
+    - 'name': 'Eltrac'
+      'url': 'https://www.eltr.ac/'
+    - 'name': 'CC BY-SA 4.0'
+      'url': 'https://creativecommons.org/licenses/by-sa/4.0/'
+    - 'name': 'IndieWeb ring'
+      'url': 'https://xn--sr8hvo.ws'
+    - 'name': 'Forgejo'
+      'url': 'https://src.eltr.ac/eltrac/geedeapro'

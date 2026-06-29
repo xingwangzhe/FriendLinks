@@ -1,112 +1,80 @@
-site:
-  name: "blog.dreamfall.cn"
-  description: "友情链接"
-  url: "https://blog.dreamfall.cn/"
-  links: "/link"
-  friends:
-    - name: "网盘"
-      url: "https://pan.dreamfall.cn"
-    - name: "状态"
-      url: "https://status.mengluo.work"
-    - name: "时光轴"
-      url: "https://blog.dreamfall.cn/archives/"
-    - name: "留言板"
-      url: "https://blog.dreamfall.cn/comments/"
-    - name: "追番"
-      url: "https://blog.dreamfall.cn/bangumis/"
-    - name: "追剧"
-      url: "https://blog.dreamfall.cn/cinemas/"
-    - name: "Steam"
-      url: "https://blog.dreamfall.cn/steam/"
-    - name: "友情链接"
-      url: "https://blog.dreamfall.cn/link/"
-    - name: "隐私政策"
-      url: "https://blog.dreamfall.cn/privacy-policy/"
-    - name: "bilibili"
-      url: "https://space.bilibili.com/380535457"
-    - name: "cloudmusic"
-      url: "https://y.music.163.com/m/user?id=101743079"
-    - name: "github"
-      url: "https://github.com/meng-luo"
-    - name: "www.hohoyun.cn"
-      url: "https://www.hohoyun.cn/"
-    - name: "www.wwru.cn"
-      url: "https://www.wwru.cn/"
-    - name: "laity.cn"
-      url: "https://laity.cn/"
-    - name: "taoy.icu"
-      url: "https://taoy.icu/"
-    - name: "blog.shineyu.cn"
-      url: "https://blog.shineyu.cn/"
-    - name: "blog.gmcj0816.top"
-      url: "https://blog.gmcj0816.top/"
-    - name: "sakuracio.com"
-      url: "https://www.sakuracio.com/"
-    - name: "blog.unanaos.com"
-      url: "https://blog.unanaos.com/"
-    - name: "blog.verynb.me"
-      url: "https://blog.verynb.me/"
-    - name: "mengze2.top"
-      url: "https://mengze2.top/"
-    - name: "blog.qjhqy.com"
-      url: "https://blog.qjhqy.com/"
-    - name: "wangshuinn.com"
-      url: "https://wangshuinn.com/"
-    - name: "Akilar欢迎光临糖果屋"
-      url: "https://akilar.top/"
-    - name: "Ariasakaの小窝人有悲欢离合 月有阴晴圆缺"
-      url: "https://blog.yaria.top"
-    - name: "AULyPcのBlog今日も生きててえらい ☁"
-      url: "https://blog.aulypc0x0.online"
-    - name: "BushSEC慢慢理解世界，慢慢更新自己"
-      url: "https://bushsec.cn/"
-    - name: "CC康纳百川CC康纳百川的小窝"
-      url: "https://blog.ccknbc.cc"
-    - name: "Fomalhaut🥝Future is now 🍭🍭🍭"
-      url: "https://www.fomal.cc/"
-    - name: "GanSer紫箫吟断，素笺恨切"
-      url: "https://www.gan1ser.top/"
-    - name: "Inalineの小站此情可待成追忆，只是当时已惘然"
-      url: "https://inaline.net"
-    - name: "LanYun の BlogShare Technology."
-      url: "https://lanyundev.com/"
-    - name: "mccsjs素敵な一日が始まります🎉🎉🎉"
-      url: "https://mccsjs.eu.org/"
-    - name: "MTBlack - 你我皆是黑马！给时光以岁月，给岁月以文明。"
-      url: "https://www.lcoo.cc/"
-    - name: "Oyiso's BlogThe shortest answer is doing"
-      url: "https://oyiso.cn"
-    - name: "StarYuhen好神秘的一个人"
-      url: "https://www.yuhenm.com/"
-    - name: "Wind什么是孤独？——心里明明空荡荡的，却什么也装不下。"
-      url: "https://foreverhome.live/"
-    - name: "丘卡饮品店要来点喝的吗？"
-      url: "https://blog.zerolacqua.top"
-    - name: "咖啡豆子coffee的小站所有奇迹的始发点"
-      url: "https://blog.kfdzcoffee.cn"
-    - name: "张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "忘忧草の小破站这只是一个小破站而已！"
-      url: "https://owo.wyc.rest/"
-    - name: "涼花的书房这家伙好懒╮(╯▽╰)╭"
-      url: "https://suzuka.cc"
-    - name: "璇玑阁一个21世纪的小网站，存活于互联网边缘"
-      url: "https://xuanjidataworks.online"
-    - name: "糖茶砌站极具特色的软件网站"
-      url: "https://www.sg7z.com"
-    - name: "苓の小屋回首向来萧瑟处，归去，也无风雨也无晴。"
-      url: "https://moonxia.cn"
-    - name: "落雪の Cat好神秘的一个人"
-      url: "https://blog.sayhi.moe/"
-    - name: "青稚の空间越努力，越幸运."
-      url: "https://blog.linux-qitong.top/"
-    - name: "« Older"
-      url: "https://blog.dreamfall.cn/link/comment-page-4/#comments"
-    - name: "浙ICP备2021040035号-1"
-      url: "https://beian.miit.gov.cn"
-    - name: "萌ICP备20211214号"
-      url: "https://icp.gov.moe/?keyword=20211214"
-    - name: "Theme Sakurairo"
-      url: "https://github.com/mirai-mamori/Sakurairo"
-    - name: "by Fuukei"
-      url: "https://docs.fuukei.org/"
+'site':
+  'name': 'blog.dreamfall.cn'
+  'description': '友情链接'
+  'url': 'https://blog.dreamfall.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': 'www.hohoyun.cn'
+      'url': 'https://www.hohoyun.cn/'
+    - 'name': 'www.wwru.cn'
+      'url': 'https://www.wwru.cn/'
+    - 'name': 'laity.cn'
+      'url': 'https://laity.cn/'
+    - 'name': 'taoy.icu'
+      'url': 'https://taoy.icu/'
+    - 'name': 'blog.shineyu.cn'
+      'url': 'https://blog.shineyu.cn/'
+    - 'name': 'blog.gmcj0816.top'
+      'url': 'https://blog.gmcj0816.top/'
+    - 'name': 'sakuracio.com'
+      'url': 'https://www.sakuracio.com/'
+    - 'name': 'blog.unanaos.com'
+      'url': 'https://blog.unanaos.com/'
+    - 'name': 'blog.verynb.me'
+      'url': 'https://blog.verynb.me/'
+    - 'name': 'mengze2.top'
+      'url': 'https://mengze2.top/'
+    - 'name': 'blog.qjhqy.com'
+      'url': 'https://blog.qjhqy.com/'
+    - 'name': 'wangshuinn.com'
+      'url': 'https://wangshuinn.com/'
+    - 'name': 'Akilar欢迎光临糖果屋'
+      'url': 'https://akilar.top/'
+    - 'name': 'Ariasakaの小窝人有悲欢离合 月有阴晴圆缺'
+      'url': 'https://blog.yaria.top'
+    - 'name': 'AULyPcのBlog今日も生きててえらい ☁'
+      'url': 'https://blog.aulypc0x0.online'
+    - 'name': 'BushSEC慢慢理解世界，慢慢更新自己'
+      'url': 'https://bushsec.cn/'
+    - 'name': 'CC康纳百川CC康纳百川的小窝'
+      'url': 'https://blog.ccknbc.cc'
+    - 'name': 'Fomalhaut🥝Future is now 🍭🍭🍭'
+      'url': 'https://www.fomal.cc/'
+    - 'name': 'GanSer紫箫吟断，素笺恨切'
+      'url': 'https://www.gan1ser.top/'
+    - 'name': 'Inalineの小站此情可待成追忆，只是当时已惘然'
+      'url': 'https://inaline.net'
+    - 'name': 'LanYun の BlogShare Technology.'
+      'url': 'https://lanyundev.com/'
+    - 'name': 'mccsjs素敵な一日が始まります🎉🎉🎉'
+      'url': 'https://mccsjs.eu.org/'
+    - 'name': 'MTBlack - 你我皆是黑马！给时光以岁月，给岁月以文明。'
+      'url': 'https://www.lcoo.cc/'
+    - 'name': 'Oyiso''s BlogThe shortest answer is doing'
+      'url': 'https://oyiso.cn'
+    - 'name': 'StarYuhen好神秘的一个人'
+      'url': 'https://www.yuhenm.com/'
+    - 'name': 'Wind什么是孤独？——心里明明空荡荡的，却什么也装不下。'
+      'url': 'https://foreverhome.live/'
+    - 'name': '丘卡饮品店要来点喝的吗？'
+      'url': 'https://blog.zerolacqua.top'
+    - 'name': '咖啡豆子coffee的小站所有奇迹的始发点'
+      'url': 'https://blog.kfdzcoffee.cn'
+    - 'name': '张洪Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '忘忧草の小破站这只是一个小破站而已！'
+      'url': 'https://owo.wyc.rest/'
+    - 'name': '涼花的书房这家伙好懒╮(╯▽╰)╭'
+      'url': 'https://suzuka.cc'
+    - 'name': '璇玑阁一个21世纪的小网站，存活于互联网边缘'
+      'url': 'https://xuanjidataworks.online'
+    - 'name': '糖茶砌站极具特色的软件网站'
+      'url': 'https://www.sg7z.com'
+    - 'name': '苓の小屋回首向来萧瑟处，归去，也无风雨也无晴。'
+      'url': 'https://moonxia.cn'
+    - 'name': '落雪の Cat好神秘的一个人'
+      'url': 'https://blog.sayhi.moe/'
+    - 'name': '青稚の空间越努力，越幸运.'
+      'url': 'https://blog.linux-qitong.top/'
+    - 'name': 'by Fuukei'
+      'url': 'https://docs.fuukei.org/'

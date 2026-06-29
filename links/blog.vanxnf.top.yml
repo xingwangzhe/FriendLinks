@@ -1,14 +1,10 @@
-site:
-  name: "Vientiane"
-  url: "https://blog.vanxnf.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Fluid Docs\n            主题使用指南"
-      url: "https://hexo.fluid-dev.com/docs/"
-    - name: "Fluid Repo\n            主题 GitHub 仓库"
-      url: "https://github.com/fluid-dev/hexo-theme-fluid"
-    - name: "Fluid Example\n            主题操作示例"
-      url: "https://hexo.fluid-dev.com/docs/example/"
-    - name: "Hexo"
-      url: "https://hexo.io"
+'site':
+  'name': 'Vientiane'
+  'url': 'https://blog.vanxnf.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': "Fluid Docs\n            主题使用指南"
+      'url': 'https://hexo.fluid-dev.com/docs/'
+    - 'name': "Fluid Example\n            主题操作示例"
+      'url': 'https://hexo.fluid-dev.com/docs/example/'

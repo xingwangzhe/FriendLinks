@@ -1,20 +1,8 @@
-site:
-  name: "易困"
-  url: "https://blog.yikun.vip/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "易困Yikun"
-      url: "https://blog.yikun.vip/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "Github"
-      url: "https://github.com/yikun0714"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/4977602"
-    - name: "沪ICP备2024068600号"
-      url: "http://beian.miit.gov.cn/"
-    - name: "所有服务运行正常"
-      url: "https://status.yikun.vip"
-    - name: "主题"
-      url: "https://github.com/everfu/hexo-theme-solitude"
+'site':
+  'name': '易困'
+  'url': 'https://blog.yikun.vip/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'

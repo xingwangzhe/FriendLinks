@@ -1,36 +1,8 @@
-site:
-  name: "templum.cn"
-  description: "友情链接"
-  url: "https://templum.cn/"
-  links: "/link"
-  friends:
-    - name: "TEMPLUM"
-      url: "https://templum.cn/"
-    - name: "Works"
-      url: "https://templum.cn/zuopin/"
-    - name: "Essay"
-      url: "https://templum.cn/suibi/"
-    - name: "About"
-      url: "https://templum.cn/about/"
-    - name: "Site Statement"
-      url: "https://templum.cn/site-statement/"
-    - name: "Record"
-      url: "https://templum.cn/stone/"
-    - name: "93rd Street"
-      url: "https://templum.cn/93rd-street/"
-    - name: "More Pages"
-      url: "https://templum.cn/morepages/"
-    - name: "Link"
-      url: "https://templum.cn/morepages/link/"
-    - name: "我们的伙伴"
-      url: "https://templum.cn/morepages/link/templum-cn/"
-    - name: "关于伙伴"
-      url: "https://templum.cn/morepages/link/about-partner-link/"
-    - name: "下一篇文献电子化文库"
-      url: "https://templum.cn/morepages/%e6%96%87%e7%8c%ae%e7%94%b5%e5%ad%90%e5%8c%96%e6%96%87%e5%ba%93/"
-    - name: "鄂ICP备2025101490号-1"
-      url: "http://beian.miit.gov.cn/"
-    - name: "POWERED BY CGENG,STUDIO"
-      url: "https://tsm.miit.gov.cn/dxxzsp/"
-    - name: "由 ZAXU 主题构建"
-      url: "https://www.zaxu.com/"
+'site':
+  'name': 'templum.cn'
+  'description': '友情链接'
+  'url': 'https://templum.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '由 ZAXU 主题构建'
+      'url': 'https://www.zaxu.com/'

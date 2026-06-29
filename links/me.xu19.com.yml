@@ -1,306 +1,132 @@
-site:
-  name: "me.xu19.com"
-  description: "友情链接"
-  url: "https://me.xu19.com/"
-  links: "/link"
-  friends:
-    - name: "军爸主页"
-      url: "https://www.xu19.com"
-    - name: "关于军爸"
-      url: "https://me.xu19.com/about-junba/"
-    - name: "军爸明信片"
-      url: "https://me.xu19.com/free-postcard/"
-    - name: "军爸软件"
-      url: "https://me.xu19.com/junba-software/"
-    - name: "军爸编程"
-      url: "https://me.xu19.com/junba-code/"
-    - name: "友情链接"
-      url: "https://me.xu19.com/link-exchange/"
-    - name: "BlogFinder"
-      url: "https://bf.zzxworld.com/s/1671"
-    - name: "博友圈"
-      url: "https://www.boyouquan.com/blogs/me.xu19.com"
-    - name: "BlogsClub"
-      url: "https://www.blogsclub.org/blog/453.html"
-    - name: "博客录"
-      url: "https://boke.lu/"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/blog/7038.html"
-    - name: "个站商店"
-      url: "https://storeweb.cn/site/o/2502"
-    - name: "若梦博客"
-      url: "https://www.rmbk.cc/blogs/me.xu19.com"
-    - name: "笔墨迹"
-      url: "https://blogscn.fun/blogs/profile?bid=01k8hwm6d2jqrmn4v62pxsvpgh"
-    - name: "博客星球"
-      url: "https://www.blogplanet.cn/"
-    - name: "博客说"
-      url: "https://blogtalk.org/blogs/me.xu19.com"
-    - name: "聚合阅读"
-      url: "https://lilog.cn/is/index.php"
-    - name: "好站网"
-      url: "https://haozhan.wang/"
-    - name: "宗宗酱"
-      url: "https://ygz.ink/"
-    - name: "Yang's Blog"
-      url: "https://knay.net/"
-    - name: "屠·城"
-      url: "https://www.haomwei.com/"
-    - name: "彬红茶"
-      url: "https://note.redcha.cn/"
-    - name: "朱小呆"
-      url: "https://zhujay.com/"
-    - name: "清心语轩"
-      url: "https://www.lukeer.cn/"
-    - name: "我的日志"
-      url: "https://ilogs.cn"
-    - name: "一世繁华"
-      url: "https://blog.hantaotao.top/"
-    - name: "荒野菲克"
-      url: "https://ficor.net/"
-    - name: "织梦岁月"
-      url: "https://zhujianlin.com/"
-    - name: "暖心向阳335"
-      url: "https://nxxy335.top/"
-    - name: "我心向阳"
-      url: "https://www.hollowman.cn/"
-    - name: "瓦匠不舟"
-      url: "https://airy.ink/"
-    - name: "LiMhy'Blog"
-      url: "https://i.lilog.cn/"
-    - name: "栖童小站"
-      url: "https://blog.linux-qitong.top/"
-    - name: "威言威语"
-      url: "https://www.weisay.com/blog/"
-    - name: "韩情脉脉"
-      url: "https://www.hxy.cc/"
-    - name: "刘郎阁"
-      url: "https://vjo.cc/"
-    - name: "周天记"
-      url: "https://zhoutian.com/"
-    - name: "风舞心弦"
-      url: "https://fengwu.art"
-    - name: "Jeffer.Z"
-      url: "https://www.jeffer.xyz/"
-    - name: "似水流年"
-      url: "https://my1981.cn/"
-    - name: "faryou"
-      url: "https://blog.faryou.eu.org/"
-    - name: "如品之茗"
-      url: "https://blog.rpzm.com"
-    - name: "西瓜猜字谜"
-      url: "https://www.xiguacaizimi.top"
-    - name: "Jackie's Blog"
-      url: "https://jackie.openenet.com"
-    - name: "小生博客"
-      url: "https://blog.pet111.cn/"
-    - name: "老罗博客"
-      url: "https://www.luolog.com/"
-    - name: "允赫先森"
-      url: "https://www.3v.hk/"
-    - name: "心记|Mood"
-      url: "https://blog.moodlog.cn"
-    - name: "轻淡时光"
-      url: "https://www.lybblog.cn"
-    - name: "崔话记"
-      url: "https://cuixiping.com/blog"
-    - name: "湘铭"
-      url: "https://xiangming.site/"
-    - name: "爱娃子"
-      url: "https://www.aiwazi.com/"
-    - name: "静风说"
-      url: "https://www.jfsay.com/"
-    - name: "大嘴狗狗"
-      url: "https://sirit.com.cn/"
-    - name: "ACEVS"
-      url: "https://acevs.com/"
-    - name: "皇家元林"
-      url: "https://hjyl.org/"
-    - name: "蒙奇日记"
-      url: "https://luffy.cc/"
-    - name: "城南旧事"
-      url: "https://els.cc/"
-    - name: "林羽凡"
-      url: "https://www.linyufan.com/"
-    - name: "品味苏州"
-      url: "https://pwsz.com/"
-    - name: "小陈故事"
-      url: "https://www.chener.net/"
-    - name: "子夜松声"
-      url: "https://xyzbz.cn/"
-    - name: "橘林听风"
-      url: "https://xiejunhao.com/"
-    - name: "小杨生活志"
-      url: "https://www.yanghuaxing.com/"
-    - name: "呢喃"
-      url: "https://ninan.me/"
-    - name: "森木志"
-      url: "https://oxxx.cn/"
-    - name: "谋生者"
-      url: "https://www.icl.site/"
-    - name: "fuXes"
-      url: "https://fuxes.cn/"
-    - name: "秋記Autumn"
-      url: "https://www.zhyok.cn"
-    - name: "傥师妹"
-      url: "https://blog.224418.xyz/"
-    - name: "栖童"
-      url: "https://blog.linux-qitong.top"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=824#respond"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=825#respond"
-    - name: "@栖童"
-      url: "https://me.xu19.com/link-exchange/#comment-824"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=826#respond"
-    - name: "@军爸"
-      url: "https://me.xu19.com/link-exchange/#comment-825"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=831#respond"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=917#respond"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=919#respond"
-    - name: "@Hary"
-      url: "https://me.xu19.com/link-exchange/#comment-917"
-    - name: "Vind"
-      url: "https://VindLog.com"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1134#respond"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1136#respond"
-    - name: "@Vind"
-      url: "https://me.xu19.com/link-exchange/#comment-1134"
-    - name: "faryou"
-      url: "https://blog.faryou.eu.org"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1265#respond"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1269#respond"
-    - name: "@faryou"
-      url: "https://me.xu19.com/link-exchange/#comment-1265"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1568#respond"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1569#respond"
-    - name: "@似水流年"
-      url: "https://me.xu19.com/link-exchange/#comment-1568"
-    - name: "陈阳"
-      url: "https://blog.rpzm.com/"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1651#respond"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1710#respond"
-    - name: "@陈阳"
-      url: "https://me.xu19.com/link-exchange/#comment-1651"
-    - name: "若梦博客"
-      url: "https://www.rmbk.cc/"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1727#respond"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1736#respond"
-    - name: "@若梦博客"
-      url: "https://me.xu19.com/link-exchange/#comment-1727"
-    - name: "Vind🌙"
-      url: "https://vind.ink"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1759#respond"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1817#respond"
-    - name: "@Vind🌙"
-      url: "https://me.xu19.com/link-exchange/#comment-1759"
-    - name: "Vind"
-      url: "https://blog.vind.ink"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1819#respond"
-    - name: "@军爸"
-      url: "https://me.xu19.com/link-exchange/#comment-1817"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1820#respond"
-    - name: "@Vind"
-      url: "https://me.xu19.com/link-exchange/#comment-1819"
-    - name: "Jackie"
-      url: "https://jackie.openenet.cn/"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1797#respond"
-    - name: "Jackie"
-      url: "https://jackie.openenet.con/"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1802#respond"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1808#respond"
-    - name: "@Jackie"
-      url: "https://me.xu19.com/link-exchange/#comment-1802"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1821#respond"
-    - name: "@军爸"
-      url: "https://me.xu19.com/link-exchange/#comment-1808"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1839#respond"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=1842#respond"
-    - name: "@西瓜猜字谜"
-      url: "https://me.xu19.com/link-exchange/#comment-1839"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=2714#respond"
-    - name: "@军爸"
-      url: "https://me.xu19.com/link-exchange/#comment-1842"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=2715#respond"
-    - name: "@西瓜猜字谜"
-      url: "https://me.xu19.com/link-exchange/#comment-2714"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=2716#respond"
-    - name: "@军爸"
-      url: "https://me.xu19.com/link-exchange/#comment-2715"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=2046#respond"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=2049#respond"
-    - name: "@林子浩"
-      url: "https://me.xu19.com/link-exchange/#comment-2046"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=2437#respond"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=2439#respond"
-    - name: "@允赫先森"
-      url: "https://me.xu19.com/link-exchange/#comment-2437"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=2483#respond"
-    - name: "https://fengwu.art/feed"
-      url: "https://fengwu.art/feed"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=2485#respond"
-    - name: "@Vind"
-      url: "https://me.xu19.com/link-exchange/#comment-2483"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=2779#respond"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=2780#respond"
-    - name: "@Zhang"
-      url: "https://me.xu19.com/link-exchange/#comment-2779"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=3165#respond"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=3170#respond"
-    - name: "@秋記Autumn"
-      url: "https://me.xu19.com/link-exchange/#comment-3165"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=3249#respond"
-    - name: "https://blog.224418.xyz/img/favicon.ico"
-      url: "https://blog.224418.xyz/img/favicon.ico"
-    - name: "https://cdn.magicalapk.com/square/3185866214923561.jpg"
-      url: "https://cdn.magicalapk.com/square/3185866214923561.jpg"
-    - name: "https://blog.224418.xyz/rss2.xml"
-      url: "https://blog.224418.xyz/rss2.xml"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=3250#respond"
-    - name: "@TangShiMei"
-      url: "https://me.xu19.com/link-exchange/#comment-3249"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=3262#respond"
-    - name: "回复"
-      url: "https://me.xu19.com/link-exchange/?replytocom=3265#respond"
-    - name: "@Jackie"
-      url: "https://me.xu19.com/link-exchange/#comment-3262"
+'site':
+  'name': 'me.xu19.com'
+  'description': '友情链接'
+  'url': 'https://me.xu19.com/'
+  'links': '/link'
+  'friends':
+    - 'name': '军爸主页'
+      'url': 'https://www.xu19.com'
+    - 'name': 'BlogFinder'
+      'url': 'https://bf.zzxworld.com/s/1671'
+    - 'name': '聚合阅读'
+      'url': 'https://lilog.cn/is/index.php'
+    - 'name': '宗宗酱'
+      'url': 'https://ygz.ink/'
+    - 'name': 'Yang''s Blog'
+      'url': 'https://knay.net/'
+    - 'name': '屠·城'
+      'url': 'https://www.haomwei.com/'
+    - 'name': '彬红茶'
+      'url': 'https://note.redcha.cn/'
+    - 'name': '朱小呆'
+      'url': 'https://zhujay.com/'
+    - 'name': '清心语轩'
+      'url': 'https://www.lukeer.cn/'
+    - 'name': '我的日志'
+      'url': 'https://ilogs.cn'
+    - 'name': '一世繁华'
+      'url': 'https://blog.hantaotao.top/'
+    - 'name': '荒野菲克'
+      'url': 'https://ficor.net/'
+    - 'name': '织梦岁月'
+      'url': 'https://zhujianlin.com/'
+    - 'name': '暖心向阳335'
+      'url': 'https://nxxy335.top/'
+    - 'name': '我心向阳'
+      'url': 'https://www.hollowman.cn/'
+    - 'name': '瓦匠不舟'
+      'url': 'https://airy.ink/'
+    - 'name': 'LiMhy''Blog'
+      'url': 'https://i.lilog.cn/'
+    - 'name': '栖童小站'
+      'url': 'https://blog.linux-qitong.top/'
+    - 'name': '威言威语'
+      'url': 'https://www.weisay.com/blog/'
+    - 'name': '韩情脉脉'
+      'url': 'https://www.hxy.cc/'
+    - 'name': '刘郎阁'
+      'url': 'https://vjo.cc/'
+    - 'name': '周天记'
+      'url': 'https://zhoutian.com/'
+    - 'name': '风舞心弦'
+      'url': 'https://fengwu.art'
+    - 'name': 'Jeffer.Z'
+      'url': 'https://www.jeffer.xyz/'
+    - 'name': '似水流年'
+      'url': 'https://my1981.cn/'
+    - 'name': 'faryou'
+      'url': 'https://blog.faryou.eu.org/'
+    - 'name': '如品之茗'
+      'url': 'https://blog.rpzm.com'
+    - 'name': '西瓜猜字谜'
+      'url': 'https://www.xiguacaizimi.top'
+    - 'name': 'Jackie''s Blog'
+      'url': 'https://jackie.openenet.com'
+    - 'name': '小生博客'
+      'url': 'https://blog.pet111.cn/'
+    - 'name': '老罗博客'
+      'url': 'https://www.luolog.com/'
+    - 'name': '允赫先森'
+      'url': 'https://www.3v.hk/'
+    - 'name': '心记|Mood'
+      'url': 'https://blog.moodlog.cn'
+    - 'name': '轻淡时光'
+      'url': 'https://www.lybblog.cn'
+    - 'name': '崔话记'
+      'url': 'https://cuixiping.com/blog'
+    - 'name': '湘铭'
+      'url': 'https://xiangming.site/'
+    - 'name': '爱娃子'
+      'url': 'https://www.aiwazi.com/'
+    - 'name': '静风说'
+      'url': 'https://www.jfsay.com/'
+    - 'name': '大嘴狗狗'
+      'url': 'https://sirit.com.cn/'
+    - 'name': 'ACEVS'
+      'url': 'https://acevs.com/'
+    - 'name': '皇家元林'
+      'url': 'https://hjyl.org/'
+    - 'name': '蒙奇日记'
+      'url': 'https://luffy.cc/'
+    - 'name': '城南旧事'
+      'url': 'https://els.cc/'
+    - 'name': '林羽凡'
+      'url': 'https://www.linyufan.com/'
+    - 'name': '品味苏州'
+      'url': 'https://pwsz.com/'
+    - 'name': '小陈故事'
+      'url': 'https://www.chener.net/'
+    - 'name': '子夜松声'
+      'url': 'https://xyzbz.cn/'
+    - 'name': '橘林听风'
+      'url': 'https://xiejunhao.com/'
+    - 'name': '小杨生活志'
+      'url': 'https://www.yanghuaxing.com/'
+    - 'name': '呢喃'
+      'url': 'https://ninan.me/'
+    - 'name': '森木志'
+      'url': 'https://oxxx.cn/'
+    - 'name': '谋生者'
+      'url': 'https://www.icl.site/'
+    - 'name': 'fuXes'
+      'url': 'https://fuxes.cn/'
+    - 'name': '秋記Autumn'
+      'url': 'https://www.zhyok.cn'
+    - 'name': '傥师妹'
+      'url': 'https://blog.224418.xyz/'
+    - 'name': '栖童'
+      'url': 'https://blog.linux-qitong.top'
+    - 'name': 'Vind'
+      'url': 'https://VindLog.com'
+    - 'name': 'faryou'
+      'url': 'https://blog.faryou.eu.org'
+    - 'name': '陈阳'
+      'url': 'https://blog.rpzm.com/'
+    - 'name': 'Vind🌙'
+      'url': 'https://vind.ink'
+    - 'name': 'Vind'
+      'url': 'https://blog.vind.ink'
+    - 'name': 'Jackie'
+      'url': 'https://jackie.openenet.cn/'
+    - 'name': 'Jackie'
+      'url': 'https://jackie.openenet.con/'

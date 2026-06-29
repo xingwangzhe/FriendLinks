@@ -1,174 +1,90 @@
-site:
-  name: DuckXu's Notebook
-  url: https://i.duckxu.com
-  links: /links.html
-  description: 学生，记录生活思考。
-  friends:
-    - name: 极客死亡计划
-      url: https://www.geedea.pro/
-    - name: 莫比乌斯
-      url: https://onojyun.com/
-    - name: Tony
-      url: https://blog.iamsjy.com/
-    - name: 纸鹿
-      url: https://blog.zhilu.cyou/
-    - name: 往日信笺
-      url: https://www.xingmail.cn/
-    - name: Garden of Outlier
-      url: https://chlo.is/
-    - name: 柳橙睿
-      url: https://www.liuchengrui.cn/
-    - name: Echeverra
-      url: https://echeverra.cn/
-    - name: 刑辩人在路上
-      url: https://xingbianren.cn/
-    - name: 猫球博客
-      url: https://limaoqiu.com/
-    - name: 5had0w
-      url: https://www.5had0w.com/
-    - name: 皓子的小站
-      url: https://howiehz.top/
-    - name: 往日信笺
-      url: https://www.xingmail.cn/
-    - name: 纸鹿
-      url: https://blog.zhilu.cyou/
-    - name: Tony
-      url: https://blog.iamsjy.com/
-    - name: 岚天呀
-      url: https://blog.ltya.top/
-    - name: Satell1te_LK's SPACE
-      url: https://255650.xyz/
-    - name: 某科学的贝壳
-      url: https://blog.ning.moe/
-    - name: 南蛮子懋和
-      url: https://www.dao.js.cn/
-    - name: XiaoPang
-      url: https://blog.xpdbk.com/
-    - name: 陵长镜
-      url: https://r1n.top/
-    - name: 皓子的小站
-      url: https://howiehz.top/
-    - name: 路明笔记
-      url: https://luming.cool/
-    - name: 咖啡豆子coffee
-      url: https://blog.kfdzcoffee.cn/
-    - name: 拾光志
-      url: https://www.shiguang.xyz/
-    - name: XiaoPang
-      url: https://blog.xpdbk.com/
-    - name: Pinpe
-      url: https://pinpe.top/
-    - name: Ykuee
-      url: https://www.ykuee.link/
-    - name: 张苹果
-      url: https://www.zhangpingguo.com/
-    - name: Elykia
-      url: https://blog.elykia.cn/
-    - name: Avery's Blog
-      url: https://www.averyc.top/
-    - name: WilliamSun
-      url: https://www.lowion.cn/
-    - name: SSR-FF摄影📸
-      url: https://pic.ffnb.top/
-    - name: 亚斯之声
-      url: https://we.owaii.net/
-    - name: 隧三
-      url: https://www.thedustye.com/
-    - name: 小改学习志
-      url: https://www.haoyu233.com/
-    - name: KEKKJ BLOG
-      url: https://kekkj123.github.io/
-    - name: Nebula Blog
-      url: https://www.996icu.eu.org/
-    - name: 博客驿站
-      url: http://www.bloginn.vip/
-    - name: 浪海导航
-      url: https://www.langhai.net/
-    - name: datao的小站
-      url: http://datao2233.top/
-    - name: 墨尘
-      url: https://www.inkdust.top/
-    - name: 阿巴de小站
-      url: https://abin.pw/
-    - name: https://www.996icu.eu.org/
-      url: https://www.996icu.eu.org/
-    - name: DuckXu
-      url: https://duckxu.com/
-    - name: https://luming.cool
-      url: https://luming.cool/
-    - name: https://cn.cravatar.com/avatar/302380667bdaf4e1390800e62494d4af?s=500&r=X
-      url: https://cn.cravatar.com/avatar/302380667bdaf4e1390800e62494d4af?s=500&r=X
-    - name: RiseForever
-      url: https://luming.cool/
-    - name: DuckXu
-      url: https://duckxu.com/
-    - name: https://collaigo.com/zh
-      url: https://collaigo.com/zh
-    - name: https://collaigo.com/collagelogo.ico
-      url: https://collaigo.com/collagelogo.ico
-    - name: Collaigo
-      url: https://collaigo.com/
-    - name: DuckXu
-      url: https://duckxu.com/
-    - name: https://www.averyc.top/
-      url: https://www.averyc.top/
-    - name: Avery
-      url: https://www.averyc.top/
-    - name: DuckXu
-      url: https://duckxu.com/
-    - name: DuckXu
-      url: https://duckxu.com/
-    - name: DuckXu
-      url: https://duckxu.com/
-    - name: https://www.haoyu233.com
-      url: https://www.haoyu233.com/
-    - name: https://cn.cravatar.com/avatar/14e584196d31262ea144ab4d75d4c083?s=500&r=g
-      url: https://cn.cravatar.com/avatar/14e584196d31262ea144ab4d75d4c083?s=500&r=g
-    - name: https://www.haoyu233.com/feed
-      url: https://www.haoyu233.com/feed
-    - name: 是阿改哦
-      url: https://www.haoyu233.com/
-    - name: SSR-FF
-      url: https://pic.ffnb.top/
-    - name: 南蛮子懋和
-      url: https://www.dao.js.cn/
-    - name: https://chlor.me
-      url: https://chlor.me/
-    - name: https://img.viento.cc/avatar/01.webp
-      url: https://img.viento.cc/avatar/01.webp
-    - name: Chlorine
-      url: https://chlor.me/
-    - name: https://www.bloginn.vip/
-      url: https://www.bloginn.vip/
-    - name: https://we.owaii.net
-      url: https://we.owaii.net/
-    - name: https://cravatar.cn/avatar//3bf2088c38715ebf8559533ad593dfb3?s=65&r=G&d=mm
-      url: https://cravatar.cn/avatar//3bf2088c38715ebf8559533ad593dfb3?s=65&r=G&d=mm
-    - name: https://we.owaii.net/feed/
-      url: https://we.owaii.net/feed/
-    - name: Owaii
-      url: https://we.owaii.net/
-    - name: https://echeverra.cn8/
-      url: https://echeverra.cn8/
-    - name: Riseforever
-      url: https://i.riseforever.cn/
-    - name: https://blog.elykia.cn/
-      url: https://blog.elykia.cn/
-    - name: Elykia
-      url: https://blog.elykia.cn/
-    - name: 是路明呀
-      url: https://luming.chgskj.cn/
-    - name: 醉雨
-      url: https://www.shiguang.xyz/
-    - name: DuckXu
-      url: https://duckxu.com/
-    - name: foreverblog.cn
-      url: https://www.foreverblog.cn/
-    - name: foreverblog.cn
-      url: https://www.foreverblog.cn/go.html
-    - name: Typecho
-      url: http://typecho.org/
-    - name: Eltrac
-      url: https://guhub.cn/
-    - name: Status
-      url: https://dkx.instatus.com/
+'site':
+  'name': 'DuckXu''s Notebook'
+  'url': 'https://i.duckxu.com'
+  'links': '/links.html'
+  'description': '学生，记录生活思考。'
+  'friends':
+    - 'name': '极客死亡计划'
+      'url': 'https://www.geedea.pro/'
+    - 'name': '莫比乌斯'
+      'url': 'https://onojyun.com/'
+    - 'name': 'Tony'
+      'url': 'https://blog.iamsjy.com/'
+    - 'name': '纸鹿'
+      'url': 'https://blog.zhilu.cyou/'
+    - 'name': '往日信笺'
+      'url': 'https://www.xingmail.cn/'
+    - 'name': 'Garden of Outlier'
+      'url': 'https://chlo.is/'
+    - 'name': '柳橙睿'
+      'url': 'https://www.liuchengrui.cn/'
+    - 'name': 'Echeverra'
+      'url': 'https://echeverra.cn/'
+    - 'name': '刑辩人在路上'
+      'url': 'https://xingbianren.cn/'
+    - 'name': '猫球博客'
+      'url': 'https://limaoqiu.com/'
+    - 'name': '5had0w'
+      'url': 'https://www.5had0w.com/'
+    - 'name': '皓子的小站'
+      'url': 'https://howiehz.top/'
+    - 'name': '岚天呀'
+      'url': 'https://blog.ltya.top/'
+    - 'name': 'Satell1te_LK''s SPACE'
+      'url': 'https://255650.xyz/'
+    - 'name': '某科学的贝壳'
+      'url': 'https://blog.ning.moe/'
+    - 'name': '南蛮子懋和'
+      'url': 'https://www.dao.js.cn/'
+    - 'name': 'XiaoPang'
+      'url': 'https://blog.xpdbk.com/'
+    - 'name': '陵长镜'
+      'url': 'https://r1n.top/'
+    - 'name': '路明笔记'
+      'url': 'https://luming.cool/'
+    - 'name': '咖啡豆子coffee'
+      'url': 'https://blog.kfdzcoffee.cn/'
+    - 'name': '拾光志'
+      'url': 'https://www.shiguang.xyz/'
+    - 'name': 'Pinpe'
+      'url': 'https://pinpe.top/'
+    - 'name': 'Ykuee'
+      'url': 'https://www.ykuee.link/'
+    - 'name': '张苹果'
+      'url': 'https://www.zhangpingguo.com/'
+    - 'name': 'Elykia'
+      'url': 'https://blog.elykia.cn/'
+    - 'name': 'Avery''s Blog'
+      'url': 'https://www.averyc.top/'
+    - 'name': 'WilliamSun'
+      'url': 'https://www.lowion.cn/'
+    - 'name': 'SSR-FF摄影📸'
+      'url': 'https://pic.ffnb.top/'
+    - 'name': '亚斯之声'
+      'url': 'https://we.owaii.net/'
+    - 'name': '隧三'
+      'url': 'https://www.thedustye.com/'
+    - 'name': '小改学习志'
+      'url': 'https://www.haoyu233.com/'
+    - 'name': 'Nebula Blog'
+      'url': 'https://www.996icu.eu.org/'
+    - 'name': '博客驿站'
+      'url': 'http://www.bloginn.vip/'
+    - 'name': 'datao的小站'
+      'url': 'http://datao2233.top/'
+    - 'name': '墨尘'
+      'url': 'https://www.inkdust.top/'
+    - 'name': '阿巴de小站'
+      'url': 'https://abin.pw/'
+    - 'name': 'DuckXu'
+      'url': 'https://duckxu.com/'
+    - 'name': 'Collaigo'
+      'url': 'https://collaigo.com/'
+    - 'name': 'Chlorine'
+      'url': 'https://chlor.me/'
+    - 'name': 'Riseforever'
+      'url': 'https://i.riseforever.cn/'
+    - 'name': '是路明呀'
+      'url': 'https://luming.chgskj.cn/'
+    - 'name': 'Eltrac'
+      'url': 'https://guhub.cn/'

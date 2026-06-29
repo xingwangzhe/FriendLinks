@@ -1,54 +1,34 @@
-site:
-  name: "blog.hxrch.top"
-  description: "友情链接"
-  url: "https://blog.hxrch.top/"
-  links: "/friends"
-  friends:
-    - name: "状态监控"
-      url: "https://status.hxrch.top"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "异次元之旅"
-      url: "https://travel.moe/go.html"
-    - name: "夏夜流萤           飞萤之火自无梦的长夜亮起，绽放在终竟的明天。     博客"
-      url: "https://blog.cuteleaf.cn"
-    - name: "Firefly Docs           Firefly主题模板文档     文档"
-      url: "https://docs-firefly.cuteleaf.cn"
-    - name: "雨云           雨云 - 新一代云服务提供商     云厂商"
-      url: "https://www.rainyun.com/Horean66_?s=blog"
-    - name: "个站商店           一个精致的，带社交元素的个人网站发布平台，博客收录网站     博客收录"
-      url: "https://storeweb.cn"
-    - name: "小改学习志           从此刻开始，什么都不晚。     博客"
-      url: "https://www.haoyu233.com"
-    - name: "路明笔记           不慌张，不绝望，不狂妄，不投降。     博客"
-      url: "https://luming.cool"
-    - name: "我的技术成长笔记           零基础入门到进阶实战，记录每一步成长的思考。     博客"
-      url: "https://blog.longdahuasheng.top"
-    - name: "ZYBlog           一个技术探索与分享的平台     博客"
-      url: "https://blog.pljzy.top"
-    - name: "SLHAF's blog           SLHAF的个人博客     博客"
-      url: "https://blog.slhaf.work"
-    - name: "Anson           Anson国际导航页     导航"
-      url: "https://ansonq.com"
-    - name: "天码行空的小破站           路漫漫其修远兮，吾将上下而求索     博客"
-      url: "https://cosky.top"
-    - name: "默小班           一个初中生的小站点。     博客"
-      url: "https://www.memxb.top"
-    - name: "Rownix's Blog           慢即是快，快即是慢，致力于为大家提供最好的内容     博客"
-      url: "https://www.rownix.dev"
-    - name: "静かな森           致虚极，守静笃。     博客"
-      url: "https://innei.in"
-    - name: "Ksable's 小屋           身在无间，心在桃源     博客"
-      url: "https://blog.ksable.top"
-    - name: "洛元の小屋           洛元の小屋，科技，游戏，生活为主的blog     博客"
-      url: "https://blog.dimeta.top/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "萌ICP备20251935号"
-      url: "https://icp.gov.moe/?keyword=20251935"
-    - name: "茶ICP备2025080030号"
-      url: "https://icp.redcha.cn/beian/ICP-2025080030.html"
-    - name: "Astro"
-      url: "https://astro.build"
-    - name: "Firefly"
-      url: "https://github.com/CuteLeaf/Firefly"
+'site':
+  'name': 'blog.hxrch.top'
+  'description': '友情链接'
+  'url': 'https://blog.hxrch.top/'
+  'links': '/friends'
+  'friends':
+    - 'name': '夏夜流萤           飞萤之火自无梦的长夜亮起，绽放在终竟的明天。     博客'
+      'url': 'https://blog.cuteleaf.cn'
+    - 'name': 'Firefly Docs           Firefly主题模板文档     文档'
+      'url': 'https://docs-firefly.cuteleaf.cn'
+    - 'name': '雨云           雨云 - 新一代云服务提供商     云厂商'
+      'url': 'https://www.rainyun.com/Horean66_?s=blog'
+    - 'name': '小改学习志           从此刻开始，什么都不晚。     博客'
+      'url': 'https://www.haoyu233.com'
+    - 'name': '路明笔记           不慌张，不绝望，不狂妄，不投降。     博客'
+      'url': 'https://luming.cool'
+    - 'name': '我的技术成长笔记           零基础入门到进阶实战，记录每一步成长的思考。     博客'
+      'url': 'https://blog.longdahuasheng.top'
+    - 'name': 'ZYBlog           一个技术探索与分享的平台     博客'
+      'url': 'https://blog.pljzy.top'
+    - 'name': 'SLHAF''s blog           SLHAF的个人博客     博客'
+      'url': 'https://blog.slhaf.work'
+    - 'name': '天码行空的小破站           路漫漫其修远兮，吾将上下而求索     博客'
+      'url': 'https://cosky.top'
+    - 'name': '默小班           一个初中生的小站点。     博客'
+      'url': 'https://www.memxb.top'
+    - 'name': 'Rownix''s Blog           慢即是快，快即是慢，致力于为大家提供最好的内容     博客'
+      'url': 'https://www.rownix.dev'
+    - 'name': '静かな森           致虚极，守静笃。     博客'
+      'url': 'https://innei.in'
+    - 'name': 'Ksable''s 小屋           身在无间，心在桃源     博客'
+      'url': 'https://blog.ksable.top'
+    - 'name': '洛元の小屋           洛元の小屋，科技，游戏，生活为主的blog     博客'
+      'url': 'https://blog.dimeta.top/'

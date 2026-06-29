@@ -1,14 +1,10 @@
-site:
-  name: "默小班"
-  url: "https://z.memxb.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "爱发电\n                            请我喝杯咖啡"
-      url: "https://afdian.com/a/memxb"
-    - name: "闲鱼店铺\n                            逛逛我的小店"
-      url: "https://m.tb.cn/h.hrl84ds?tk=gClq4iDFjzK"
-    - name: "QQ"
-      url: "http://wpa.qq.com/msgrd?v=3&uin=3628951514&site=qq&menu=yes"
-    - name: "桂ICP备2025052852号"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': '默小班'
+  'url': 'https://z.memxb.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': "爱发电
+
+        \                            请我喝杯咖啡"
+      'url': 'https://afdian.com/a/memxb'

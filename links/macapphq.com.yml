@@ -1,20 +1,18 @@
-site:
-  name: "MacAppHQ"
-  url: "https://macapphq.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "小鸭计时"
-      url: "https://apps.apple.com/cn/app/%E5%B0%8F%E9%B8%AD%E8%AE%A1%E6%97%B6-%E5%84%BF%E7%AB%A5%E5%8F%AF%E8%A7%86%E5%8C%96%E8%AE%A1%E6%97%B6%E5%99%A8/id6747744932"
-    - name: "KidCue"
-      url: "https://kidcue.app/"
-    - name: "Alkaid`s Blog   blog.ifoz.net 外部链接"
-      url: "https://blog.ifoz.net/"
-    - name: "NotionNext Github   github.com 外部链接"
-      url: "https://github.com/tangly1024/NotionNext"
-    - name: "冷汐911 生活、思考与感悟的交织。  www.shang.ac.cn 外部链接"
-      url: "https://www.shang.ac.cn"
-    - name: "张洪Heo 分享设计与科技生活  blog.zhheo.com 外部链接"
-      url: "https://blog.zhheo.com/"
-    - name: "新趣集 一起发现有趣的新产品  xinquji.com 外部链接"
-      url: "https://xinquji.com/"
+'site':
+  'name': 'MacAppHQ'
+  'url': 'https://macapphq.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '小鸭计时'
+      'url': 'https://apps.apple.com/cn/app/%E5%B0%8F%E9%B8%AD%E8%AE%A1%E6%97%B6-%E5%84%BF%E7%AB%A5%E5%8F%AF%E8%A7%86%E5%8C%96%E8%AE%A1%E6%97%B6%E5%99%A8/id6747744932'
+    - 'name': 'KidCue'
+      'url': 'https://kidcue.app/'
+    - 'name': 'Alkaid`s Blog   blog.ifoz.net 外部链接'
+      'url': 'https://blog.ifoz.net/'
+    - 'name': '冷汐911 生活、思考与感悟的交织。  www.shang.ac.cn 外部链接'
+      'url': 'https://www.shang.ac.cn'
+    - 'name': '张洪Heo 分享设计与科技生活  blog.zhheo.com 外部链接'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '新趣集 一起发现有趣的新产品  xinquji.com 外部链接'
+      'url': 'https://xinquji.com/'

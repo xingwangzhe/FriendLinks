@@ -1,94 +1,50 @@
-site:
-  name: "zhujianlin.com"
-  description: "友情链接"
-  url: "https://zhujianlin.com/"
-  links: "/friends"
-  friends:
-    - name: "生活"
-      url: "https://zhujianlin.com/mylife"
-    - name: "折腾"
-      url: "https://zhujianlin.com/mywork"
-    - name: "读书"
-      url: "https://zhujianlin.com/read"
-    - name: "游玩"
-      url: "https://zhujianlin.com/%e6%b8%b8%e7%8e%a9"
-    - name: "观影"
-      url: "https://zhujianlin.com/movies"
-    - name: "说说"
-      url: "https://zhujianlin.com/time-after-time"
-    - name: "不拖拉"
-      url: "https://zhujianlin.com/time-after-time/efficient"
-    - name: "健身"
-      url: "https://zhujianlin.com/time-after-time/fitness"
-    - name: "精简"
-      url: "https://zhujianlin.com/time-after-time/simplify"
-    - name: "片段"
-      url: "https://zhujianlin.com/time-after-time/excerpt"
-    - name: "直播"
-      url: "https://zhujianlin.com/live"
-    - name: "友链"
-      url: "https://zhujianlin.com/friends"
-    - name: "韩情脉脉任何记录都是为了让以后有迹可循"
-      url: "https://www.hxy.cc/"
-    - name: "十年之约探索更多精彩内容"
-      url: "https://www.foreverblog.cn"
-    - name: "周天记(满心博客)记录生活里的小美好"
-      url: "https://zhoutian.com"
-    - name: "Jackie的博客记录|交流|分享"
-      url: "https://jackielzq.com/"
-    - name: "老张博客生活琐记，技术折腾，乐在记录点滴与分享！"
-      url: "https://laozhang.org/"
-    - name: "军爸使用同一个主题的非常热心的朋友"
-      url: "https://me.xu19.com/"
-    - name: "二猫blog一个简单的Blog站点"
-      url: "https://jingxin18.cn"
-    - name: "blogsclub博客俱乐部"
-      url: "https://www.blogsclub.org/"
-    - name: "皇家元林探索更多精彩内容"
-      url: "https://hjyl.org/"
-    - name: "leorain一个对技术和生活充满热爱的文艺型技术青年"
-      url: "https://www.leorain.cn"
-    - name: "瓦匠不舟大家都是倔强的人！"
-      url: "https://airy.ink"
-    - name: "荒野菲克在路上的思绪与脚印"
-      url: "https://ficor.net"
-    - name: "花非花回首向来萧瑟处，归去，也无风雨也无晴。"
-      url: "https://www.941741.xyz"
-    - name: "拾风人脑太复杂,时间过得久,记下来才是最真实的"
-      url: "https://www.leolin86.com/"
-    - name: "博友圈博客人的朋友圈，将一个个散落在各处的孤岛连接成一片广袤无垠的新大陆！"
-      url: "https://www.boyouquan.com/home"
-    - name: "龙鲲博客这短短的一生，我们最终都会失去。"
-      url: "https://lklog.cn"
-    - name: "记录生活，精彩一刻资源 共享 生活 学习"
-      url: "https://9sb.net"
-    - name: "暖心向阳335永不言败，砥砺前行"
-      url: "https://nxxy335.top/"
-    - name: "青山小站一个在帝都搬砖的新时代农民工所建立的一个小破站，主要是分享一些生活、摄影、学习、工作上的一些知识。"
-      url: "https://blog.yanqingshan.com/"
-    - name: "全局变量记录生活中的平凡事"
-      url: "https://ilogs.cn/"
-    - name: "黑羽黑羽的个人博客"
-      url: "https://blog.thetbw.xyz/"
-    - name: "登山亦有道苑晨岩的个人站点，记录生活的瞬间，分享学习的心得。"
-      url: "https://chenyan98.cn"
-    - name: "朱小呆简简单单的生活记录与你分享"
-      url: "https://zhujay.com"
-    - name: "崔话记向着理想的方向，爬一会儿，躺一会儿"
-      url: "https://cuixiping.com/"
-    - name: "https://zhujianlin.com/logo.jpg"
-      url: "https://zhujianlin.com/logo.jpg"
-    - name: "https://zhujianlin.com/feed"
-      url: "https://zhujianlin.com/feed"
-    - name: "Jackie"
-      url: "https://jackielzq.com"
-    - name: "回复"
-      url: "https://zhujianlin.com/friends?replytocom=13040#respond"
-    - name: "https://www.jackielzq.com/atom.xml"
-      url: "https://www.jackielzq.com/atom.xml"
-    - name: "回复"
-      url: "https://zhujianlin.com/friends?replytocom=13043#respond"
-    - name: "回复"
-      url: "https://zhujianlin.com/friends?replytocom=13323#respond"
-    - name: "浙ICP备17056719号"
-      url: "http://beian.miit.gov.cn/"
+'site':
+  'name': 'zhujianlin.com'
+  'description': '友情链接'
+  'url': 'https://zhujianlin.com/'
+  'links': '/friends'
+  'friends':
+    - 'name': '韩情脉脉任何记录都是为了让以后有迹可循'
+      'url': 'https://www.hxy.cc/'
+    - 'name': '周天记(满心博客)记录生活里的小美好'
+      'url': 'https://zhoutian.com'
+    - 'name': 'Jackie的博客记录|交流|分享'
+      'url': 'https://jackielzq.com/'
+    - 'name': '老张博客生活琐记，技术折腾，乐在记录点滴与分享！'
+      'url': 'https://laozhang.org/'
+    - 'name': '军爸使用同一个主题的非常热心的朋友'
+      'url': 'https://me.xu19.com/'
+    - 'name': '二猫blog一个简单的Blog站点'
+      'url': 'https://jingxin18.cn'
+    - 'name': '皇家元林探索更多精彩内容'
+      'url': 'https://hjyl.org/'
+    - 'name': 'leorain一个对技术和生活充满热爱的文艺型技术青年'
+      'url': 'https://www.leorain.cn'
+    - 'name': '瓦匠不舟大家都是倔强的人！'
+      'url': 'https://airy.ink'
+    - 'name': '荒野菲克在路上的思绪与脚印'
+      'url': 'https://ficor.net'
+    - 'name': '花非花回首向来萧瑟处，归去，也无风雨也无晴。'
+      'url': 'https://www.941741.xyz'
+    - 'name': '拾风人脑太复杂,时间过得久,记下来才是最真实的'
+      'url': 'https://www.leolin86.com/'
+    - 'name': '龙鲲博客这短短的一生，我们最终都会失去。'
+      'url': 'https://lklog.cn'
+    - 'name': '记录生活，精彩一刻资源 共享 生活 学习'
+      'url': 'https://9sb.net'
+    - 'name': '暖心向阳335永不言败，砥砺前行'
+      'url': 'https://nxxy335.top/'
+    - 'name': '青山小站一个在帝都搬砖的新时代农民工所建立的一个小破站，主要是分享一些生活、摄影、学习、工作上的一些知识。'
+      'url': 'https://blog.yanqingshan.com/'
+    - 'name': '全局变量记录生活中的平凡事'
+      'url': 'https://ilogs.cn/'
+    - 'name': '黑羽黑羽的个人博客'
+      'url': 'https://blog.thetbw.xyz/'
+    - 'name': '登山亦有道苑晨岩的个人站点，记录生活的瞬间，分享学习的心得。'
+      'url': 'https://chenyan98.cn'
+    - 'name': '朱小呆简简单单的生活记录与你分享'
+      'url': 'https://zhujay.com'
+    - 'name': '崔话记向着理想的方向，爬一会儿，躺一会儿'
+      'url': 'https://cuixiping.com/'
+    - 'name': 'Jackie'
+      'url': 'https://jackielzq.com'

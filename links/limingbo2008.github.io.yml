@@ -1,30 +1,26 @@
-site:
-  name: "limingbo2008.github.io"
-  description: "友情链接"
-  url: "https://limingbo2008.github.io/"
-  links: "/link"
-  friends:
-    - name: "学习论坛 \n      也是我本人建的:)"
-      url: "http://study.infinityfreeapp.com"
-    - name: "Roy \n      苏才郭福，姬子彭年"
-      url: "https://blog.laoda.de"
-    - name: "Guo Le's Blog \n      保持理智，相信明天"
-      url: "https://guole.fun/"
-    - name: "六个花生 \n      2024，武大等我!"
-      url: "http://49.232.108.114:100/"
-    - name: "大飞的部落阁 \n      专注于分享Python测试开发，云原生等领域的知识和经验"
-      url: "https://www.u1s1.vip"
-    - name: "一名中学生折腾的日记 \n      一名中学生日常折腾数码产品与科技项目的心得"
-      url: "https://blog.ddsrem.gq"
-    - name: "Akilarの糖果屋 \n      期待您的光临！"
-      url: "https://akilar.top/"
-    - name: "小冰博客 \n      做个有梦想的人！"
-      url: "https://zfe.one"
-    - name: "Butterfly \n      本站主题的官方文档"
-      url: "https://butterfly.js.org"
-    - name: "Hexo \n      快速、简单且强大的网誌框架"
-      url: "https://hexo.io/zh-tw/"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
+'site':
+  'name': 'limingbo2008.github.io'
+  'description': '友情链接'
+  'url': 'https://limingbo2008.github.io/'
+  'links': '/link'
+  'friends':
+    - 'name': "学习论坛\ \n      也是我本人建的:)"
+      'url': 'http://study.infinityfreeapp.com'
+    - 'name': "Roy\ \n      苏才郭福，姬子彭年"
+      'url': 'https://blog.laoda.de'
+    - 'name': "Guo Le's Blog\ \n      保持理智，相信明天"
+      'url': 'https://guole.fun/'
+    - 'name': "大飞的部落阁\ 
+
+        \      专注于分享Python测试开发，云原生等领域的知识和经验"
+      'url': 'https://www.u1s1.vip'
+    - 'name': "一名中学生折腾的日记\ 
+
+        \      一名中学生日常折腾数码产品与科技项目的心得"
+      'url': 'https://blog.ddsrem.gq'
+    - 'name': "Akilarの糖果屋\ \n      期待您的光临！"
+      'url': 'https://akilar.top/'
+    - 'name': "小冰博客\ \n      做个有梦想的人！"
+      'url': 'https://zfe.one'
+    - 'name': "Hexo\ \n      快速、简单且强大的网誌框架"
+      'url': 'https://hexo.io/zh-tw/'

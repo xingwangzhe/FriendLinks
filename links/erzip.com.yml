@@ -1,28 +1,10 @@
-site:
-  name: "星风之痕"
-  url: "https://erzip.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "相册"
-      url: "https://erzip.com/photos"
-    - name: "众星"
-      url: "https://erzip.com/links"
-    - name: "豆瓣记录"
-      url: "https://erzip.com/douban"
-    - name: "走心评论"
-      url: "https://erzip.com/mindful"
-    - name: "邮箱申请"
-      url: "https://erzip.com/free-mail"
-    - name: "壹个人"
-      url: "https://erzip.com/authors/admin"
-    - name: "图片转换"
-      url: "https://cdkm.com/cn/avif-to-jpg/"
-    - name: "图片转换2"
-      url: "https://to.imagestool.com/zh-CN/"
-    - name: "图床"
-      url: "https://img.lp99.top"
-    - name: "站点地图"
-      url: "https://erzip.com/sitemap.xml"
-    - name: "订阅链接"
-      url: "https://erzip.com/rss.xml"
+'site':
+  'name': '星风之痕'
+  'url': 'https://erzip.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '图片转换'
+      'url': 'https://cdkm.com/cn/avif-to-jpg/'
+    - 'name': '图片转换2'
+      'url': 'https://to.imagestool.com/zh-CN/'

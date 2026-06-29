@@ -66,6 +66,9 @@ import "../css/modal.css";
       <button id="stats-toggle" class="top-button" aria-label="查看统计信息"
         >📊友链统计</button
       >
+      <button id="opacity-toggle" class="top-button" aria-label="连线透明度设置"
+        >连线设置</button
+      >
     </div>
 
     <!-- 统计弹窗 -->
@@ -566,6 +569,17 @@ import "../css/modal.css";
           if (statsModal?.classList.contains("show")) hideStatsModal();
           if (aboutModal?.classList.contains("show")) hideAboutModal();
         });
+
+        // 连线设置面板按钮
+        const opacityBtn = document.getElementById("opacity-toggle");
+        if (opacityBtn) {
+          opacityBtn.addEventListener("click", function () {
+            var toggle = window.__toggleOpacityPanel;
+            if (typeof toggle === "function") {
+              toggle();
+            }
+          });
+        }
       })();
     </script>
   </body>

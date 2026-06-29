@@ -1,160 +1,112 @@
-site:
-  name: "ahao.ah.cn"
-  description: "友情链接"
-  url: "https://ahao.ah.cn/"
-  links: "/link"
-  friends:
-    - name: "个人主页"
-      url: "https://home.ahao.ah.cn/"
-    - name: "博客"
-      url: "https://ahao.ah.cn/"
-    - name: "安知鱼图床"
-      url: "https://image.anzhiy.cn/"
-    - name: "AI-GPT"
-      url: "https://ai.ahao.ah.cn/"
-    - name: "alist文件管理"
-      url: "https://pan.anzhiy.cn/"
-    - name: "德信官网"
-      url: "http://blgou.net/#/main/home"
-    - name: "鱼聪明AI"
-      url: "https://www.yucongming.com/chat/1661803823078920193/"
-    - name: "通义听悟"
-      url: "https://tingwu.aliyun.com/home/"
-    - name: "Hexo"
-      url: "https://hexo.io/zh-tw/"
-    - name: "AnZhiYu主题"
-      url: "https://blog.anheyu.com/"
-    - name: "芈渡"
-      url: "https://www.lllomh.com/"
-    - name: "张苹果"
-      url: "https://www.zhangpingguo.com"
-    - name: "朝而往"
-      url: "https://muerg.cn/"
-    - name: "小植の小破站"
-      url: "https://xiaoztx.top"
-    - name: "御网尚书的日记本"
-      url: "https://hack-gov.com.cn"
-    - name: "MoyuqLのBlog"
-      url: "https://blog.moyuql.top/"
-    - name: "铭心石刻"
-      url: "https://blog.kouseki.cn/"
-    - name: "DragonJay"
-      url: "https://blog.furrysp.top/"
-    - name: "Mxne"
-      url: "https://blog.mxne.cn/"
-    - name: "慕斯"
-      url: "https://blog.dd.ac.cn/"
-    - name: "葱苓"
-      url: "https://blog.itciraos.cn/"
-    - name: "Mr.喵帕斯"
-      url: "https://blog.mpsxx.top"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "轻笑Chuckle"
-      url: "https://www.qcqx.cn"
-    - name: "青桔气球"
-      url: "https://blog.qjqq.cn/"
-    - name: "Ganzhe顺其自然，持之以恒。"
-      url: "https://ganzhe2028.github.io/"
-    - name: "阿豪の博客人间值得，未来可期"
-      url: "https://ahao.ah.cn"
-    - name: "Edward恰如猛虎卧荒丘，潜伏爪牙忍受。"
-      url: "https://edwardshh.cn/"
-    - name: "rencai今天你学了么"
-      url: "https://btrencai.top"
-    - name: "徐徐微风心有所向，梦想可期。"
-      url: "https://lyzplus.cn/"
-    - name: "AGooden快快乐乐，简简单单"
-      url: "https://zo1.top/"
-    - name: "Gtwxxh-小小窝扣首问路，码梦为生"
-      url: "https://blog.gtwxxh.cn/"
-    - name: "小志IT知识库一个专注于安全领域的全栈博客"
-      url: "https://www.czfq99.cn/"
-    - name: "无恙一个专注分享前端技术和趋势的博客"
-      url: "https://wuyang.top/"
-    - name: "海底捞里没有鱼平安喜乐，万事胜意"
-      url: "https://smileszh.cn/"
-    - name: "神经蛙种一棵树最好的时间是十年前，其次是现在。"
-      url: "https://hexo.sjava.cn/"
-    - name: "可执行程序の天境小屋🥝The boy who lived"
-      url: "https://blog.hanta2011.top/"
-    - name: "Akilarの糖果屋欢迎光临糖果屋"
-      url: "https://akilar.top/"
-    - name: "贰猹的小窝用这生命中的每一秒，给自己一个不后悔的未来"
-      url: "https://noionion.top/"
-    - name: "小冰博客做个有梦想的人！"
-      url: "https://zfe.one"
-    - name: "Iceの小站海内存知己，天涯若比邻"
-      url: "https://blog.081113.xyz/"
-    - name: "SamのBlog念念不忘，必有回响。"
-      url: "https://www.welucky.top/"
-    - name: "咬一口激动的鱼风带来了故事的种子，时间使之发芽"
-      url: "https://jiyu134.top/"
-    - name: "萌傀儡珍惜现在，趁早摸鱼"
-      url: "https://blhorizon.github.io/"
-    - name: "REAI热爱漫无边际，生活自有分寸！"
-      url: "http://blogcn.ml"
-    - name: "海底捞里没有鱼平安喜乐，万事胜意"
-      url: "https://www.smileszh.cn/"
-    - name: "陌颜小屋愿永不忘初心！"
-      url: "https://blog.asever.top/"
-    - name: "大锤运维本是逆天而行,死在路上也很正常"
-      url: "https://dddachui.top"
-    - name: "月落星河Tsukistar浩瀚中的伟大，孤独间的渺小"
-      url: "https://www.tsukistar.fun"
-    - name: "仰止高山仰止，景行行止"
-      url: "https://www.yangzhiblog.com"
-    - name: "SuYi|宿仪随心写作，随缘阅读！"
-      url: "https://www.thotz.top"
-    - name: "Xlenco最好的地方,是没去过的地方。最好的时光，是回不来的时光。"
-      url: "https://xlenco.eu.org"
-    - name: "呆鱼命运之所以称为命运，正是因为它无可改变。"
-      url: "https://daiyu-233.top"
-    - name: "晨讯专注于编程技术分享，记录生活琐事"
-      url: "https://zsuh.cc"
-    - name: "凌冬过去不优秀，不代表未来不精彩"
-      url: "https://lyr-2000.github.io"
-    - name: "https://image.ahao.ah.cn/%E4%B8%8D%E5%B1%91.jpg"
-      url: "https://image.ahao.ah.cn/%E4%B8%8D%E5%B1%91.jpg"
-    - name: "点击这里快速添加"
-      url: "https://ahao.ah.cn/link/#post-comment"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "微博"
-      url: "https://weibo.com/u/5585358449"
-    - name: "facebook"
-      url: "https://www.facebook.com/profile.php?id=100091594833618&sk=about"
-    - name: "Github"
-      url: "https://github.com/404AHAO"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/295318061"
-    - name: "抖音"
-      url: "https://v.douyin.com/Dob1g16/"
-    - name: "51la统计"
-      url: "https://v6.51.la/"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/"
-    - name: "开往"
-      url: "https://github.com/travellings-link/travellings"
-    - name: "文档"
-      url: "https://docs.anheyu.com/"
-    - name: "源码"
-      url: "https://github.com/anzhiyu-c/hexo-theme-anzhiyu"
-    - name: "更新日志"
-      url: "https://blog.anheyu.com/update/"
-    - name: "博客框架为Hexo_v5.4.0"
-      url: "https://hexo.io/"
-    - name: "本站使用为静态资源提供CDN加速"
-      url: "https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
-    - name: "本站使用AnZhiYu主题"
-      url: "https://anzhiy.cn/"
-    - name: "本站已在工信部进行备案"
-      url: "https://beian.miit.gov.cn/#/Integrated/index"
-    - name: "本站项目由Github托管"
-      url: "https://github.com/"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "图床"
-      url: "https://image.anheyu.com"
-    - name: "粤ICP备2025419031号"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'ahao.ah.cn'
+  'description': '友情链接'
+  'url': 'https://ahao.ah.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '个人主页'
+      'url': 'https://home.ahao.ah.cn/'
+    - 'name': 'AI-GPT'
+      'url': 'https://ai.ahao.ah.cn/'
+    - 'name': 'alist文件管理'
+      'url': 'https://pan.anzhiy.cn/'
+    - 'name': '德信官网'
+      'url': 'http://blgou.net/#/main/home'
+    - 'name': '鱼聪明AI'
+      'url': 'https://www.yucongming.com/chat/1661803823078920193/'
+    - 'name': '通义听悟'
+      'url': 'https://tingwu.aliyun.com/home/'
+    - 'name': 'AnZhiYu主题'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '芈渡'
+      'url': 'https://www.lllomh.com/'
+    - 'name': '张苹果'
+      'url': 'https://www.zhangpingguo.com'
+    - 'name': '朝而往'
+      'url': 'https://muerg.cn/'
+    - 'name': '小植の小破站'
+      'url': 'https://xiaoztx.top'
+    - 'name': '御网尚书的日记本'
+      'url': 'https://hack-gov.com.cn'
+    - 'name': 'MoyuqLのBlog'
+      'url': 'https://blog.moyuql.top/'
+    - 'name': '铭心石刻'
+      'url': 'https://blog.kouseki.cn/'
+    - 'name': 'DragonJay'
+      'url': 'https://blog.furrysp.top/'
+    - 'name': 'Mxne'
+      'url': 'https://blog.mxne.cn/'
+    - 'name': '慕斯'
+      'url': 'https://blog.dd.ac.cn/'
+    - 'name': '葱苓'
+      'url': 'https://blog.itciraos.cn/'
+    - 'name': 'Mr.喵帕斯'
+      'url': 'https://blog.mpsxx.top'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '轻笑Chuckle'
+      'url': 'https://www.qcqx.cn'
+    - 'name': '青桔气球'
+      'url': 'https://blog.qjqq.cn/'
+    - 'name': 'Edward恰如猛虎卧荒丘，潜伏爪牙忍受。'
+      'url': 'https://edwardshh.cn/'
+    - 'name': 'rencai今天你学了么'
+      'url': 'https://btrencai.top'
+    - 'name': '徐徐微风心有所向，梦想可期。'
+      'url': 'https://lyzplus.cn/'
+    - 'name': 'AGooden快快乐乐，简简单单'
+      'url': 'https://zo1.top/'
+    - 'name': 'Gtwxxh-小小窝扣首问路，码梦为生'
+      'url': 'https://blog.gtwxxh.cn/'
+    - 'name': '小志IT知识库一个专注于安全领域的全栈博客'
+      'url': 'https://www.czfq99.cn/'
+    - 'name': '无恙一个专注分享前端技术和趋势的博客'
+      'url': 'https://wuyang.top/'
+    - 'name': '海底捞里没有鱼平安喜乐，万事胜意'
+      'url': 'https://smileszh.cn/'
+    - 'name': '神经蛙种一棵树最好的时间是十年前，其次是现在。'
+      'url': 'https://hexo.sjava.cn/'
+    - 'name': '可执行程序の天境小屋🥝The boy who lived'
+      'url': 'https://blog.hanta2011.top/'
+    - 'name': 'Akilarの糖果屋欢迎光临糖果屋'
+      'url': 'https://akilar.top/'
+    - 'name': '贰猹的小窝用这生命中的每一秒，给自己一个不后悔的未来'
+      'url': 'https://noionion.top/'
+    - 'name': '小冰博客做个有梦想的人！'
+      'url': 'https://zfe.one'
+    - 'name': 'Iceの小站海内存知己，天涯若比邻'
+      'url': 'https://blog.081113.xyz/'
+    - 'name': 'SamのBlog念念不忘，必有回响。'
+      'url': 'https://www.welucky.top/'
+    - 'name': '咬一口激动的鱼风带来了故事的种子，时间使之发芽'
+      'url': 'https://jiyu134.top/'
+    - 'name': 'REAI热爱漫无边际，生活自有分寸！'
+      'url': 'http://blogcn.ml'
+    - 'name': '海底捞里没有鱼平安喜乐，万事胜意'
+      'url': 'https://www.smileszh.cn/'
+    - 'name': '陌颜小屋愿永不忘初心！'
+      'url': 'https://blog.asever.top/'
+    - 'name': '大锤运维本是逆天而行,死在路上也很正常'
+      'url': 'https://dddachui.top'
+    - 'name': '月落星河Tsukistar浩瀚中的伟大，孤独间的渺小'
+      'url': 'https://www.tsukistar.fun'
+    - 'name': '仰止高山仰止，景行行止'
+      'url': 'https://www.yangzhiblog.com'
+    - 'name': 'SuYi|宿仪随心写作，随缘阅读！'
+      'url': 'https://www.thotz.top'
+    - 'name': 'Xlenco最好的地方,是没去过的地方。最好的时光，是回不来的时光。'
+      'url': 'https://xlenco.eu.org'
+    - 'name': '呆鱼命运之所以称为命运，正是因为它无可改变。'
+      'url': 'https://daiyu-233.top'
+    - 'name': '晨讯专注于编程技术分享，记录生活琐事'
+      'url': 'https://zsuh.cc'
+    - 'name': '抖音'
+      'url': 'https://v.douyin.com/Dob1g16/'
+    - 'name': '51la统计'
+      'url': 'https://v6.51.la/'
+    - 'name': '文档'
+      'url': 'https://docs.anheyu.com/'
+    - 'name': '更新日志'
+      'url': 'https://blog.anheyu.com/update/'
+    - 'name': '博客框架为Hexo_v5.4.0'
+      'url': 'https://hexo.io/'

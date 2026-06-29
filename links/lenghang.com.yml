@@ -1,20 +1,14 @@
-site:
-  name: "冷行日记"
-  url: "https://lenghang.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "leaf软件"
-      url: "https://www.leafsoft.com.cn"
-    - name: "图床"
-      url: "https://img.imotao.com"
-    - name: "秃头张\n                      保护好自己的头发"
-      url: "https://tutouzhang.com"
-    - name: "陌涛的记事本"
-      url: "https://imotao.com"
-    - name: "陕ICP备2023019570号-1"
-      url: "https://beian.miit.gov.cn/"
-    - name: "陕公网安备61011302001877号"
-      url: "https://beian.mps.gov.cn/#/query/webSearch"
-    - name: "Halo"
-      url: "https://halo.run"
+'site':
+  'name': '冷行日记'
+  'url': 'https://lenghang.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'leaf软件'
+      'url': 'https://www.leafsoft.com.cn'
+    - 'name': "秃头张\n                      保护好自己的头发"
+      'url': 'https://tutouzhang.com'
+    - 'name': '陌涛的记事本'
+      'url': 'https://imotao.com'
+    - 'name': 'Halo'
+      'url': 'https://halo.run'

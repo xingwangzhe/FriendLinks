@@ -1,142 +1,122 @@
-site:
-  name: "wiki.eryajf.net"
-  description: "友情链接"
-  url: "https://wiki.eryajf.net/"
-  links: "/friends"
-  friends:
-    - name: "备忘录清单\n    (opens new window)"
-      url: "https://ref.eryajf.net"
-    - name: "json2go\n    (opens new window)"
-      url: "http://public.eryajf.net/json2go"
-    - name: "gopher\n    (opens new window)"
-      url: "http://gopher.eryajf.net"
-    - name: "微信MD编辑\n    (opens new window)"
-      url: "http://public.eryajf.net/mdnice"
-    - name: "国内镜像\n    (opens new window)"
-      url: "http://public.eryajf.net/mirror"
-    - name: "出口IP查询\n    (opens new window)"
-      url: "http://ip.eryajf.net"
-    - name: "代码高亮工具\n    (opens new window)"
-      url: "http://public.eryajf.net/highlight/"
-    - name: "开往\n    (opens new window)"
-      url: "https://www.travellings.cn/go.html"
-    - name: "ldapdoc\n    (opens new window)"
-      url: "http://ldapdoc.eryajf.net"
-    - name: "HowToStartOpenSource\n    (opens new window)"
-      url: "https://howtosos.eryajf.net/"
-    - name: "vdoing-template\n    (opens new window)"
-      url: "https://eryajf.github.io/vdoing-template/"
-    - name: "GitHub\n      (opens new window)"
-      url: "https://github.com/eryajf"
-    - name: "二丫讲梵 💻学习📝记录🔗分享"
-      url: "https://wiki.eryajf.net"
-    - name: "abcdocker abcdocker资深博客"
-      url: "https://i4t.com/"
-    - name: "崔亮的博客 专注devops自动化运维"
-      url: "https://www.cuiliangblog.cn"
-    - name: "不死鸟 专注优质内容分享"
-      url: "https://iao.su/"
-    - name: "SRE运维进阶之路 SRE运维进阶之路"
-      url: "https://clay-wangzhi.com/"
-    - name: "RokasYang Rokas Yang's Blog"
-      url: "https://blog.linux-code.com/"
-    - name: "山山仙人博客 山山仙人博客"
-      url: "https://www.ssgeek.com/"
-    - name: "两双筷子 两双筷子博客"
-      url: "https://www.dbkuaizi.com"
-    - name: "老胡的周刊 优质资源聚合"
-      url: "https://weekly.howie6879.com/"
-    - name: "PeterJXL 那就从零开始"
-      url: "https://www.peterjxl.com"
-    - name: "zhangguanzhang 名流张馆长"
-      url: "https://zhangguanzhang.github.io/"
-    - name: "运维小弟 运维技术交流"
-      url: "https://blog.srebro.cn"
-    - name: "Young Kbt Blog 记录学习 Java, Web, 框架, 工具"
-      url: "https://notes.youngkbt.cn/"
-    - name: "White~Festa If you shout loud enough, you'll be the one."
-      url: "https://white-festa.net"
-    - name: "Evan's blog 积跬步以至千里，喜欢学习喜欢你。"
-      url: "https://xugaoyi.com/"
-    - name: "耳朵的主人 耳朵电台，庆幸我们还有耳朵"
-      url: "https://www.edzbe.com"
-    - name: "何三笔记 Python知识分享"
-      url: "https://www.h3blog.com"
-    - name: "inana 人生贵知心，定交无暮早"
-      url: "http://www.inana.top"
-    - name: "兰德胡涂 寄蜉蝣于天地，渺沧海之一栗"
-      url: "https://landhutu.cc"
-    - name: "lznauy 生之微欢，俄而感怀，奋勉有得，相携互舍"
-      url: "https://lznauy.cn/"
-    - name: "一路向北 专注DevOps运维自动化"
-      url: "http://www.showerlee.com/"
-    - name: "故事的程序猿 好好学习，天天向上↑"
-      url: "https://blog.lichenghao.cn"
-    - name: "朱双印个人日志 朱双印个人日志"
-      url: "https://www.zsythink.net/"
-    - name: "This Cute World 赞美快乐~"
-      url: "https://thiscute.world/"
-    - name: "张文保的博客 SEO顾问、高级SEO工程师"
-      url: "https://zhangwenbao.com"
-    - name: "Linux运维笔记 自动化运维攻城狮"
-      url: "https://blog.imdst.com/"
-    - name: "轻雅阁 新时代教师的日常"
-      url: "https://www.puresky.top"
-    - name: "郑文峰的博客 朝闻道,夕死可矣"
-      url: "https://www.zhengwenfeng.com"
-    - name: "后厂村路灯 技术至上,分享无限"
-      url: "https://www.eqishare.com/"
-    - name: "Alliot's blog 运维,k8s,硬件"
-      url: "https://www.iots.vip/"
-    - name: "南宫乘风 💻运维开发📝Devops技术🔗自动化"
-      url: "https://ownit.top/"
-    - name: "Keyle's Blog 记录一些偶尔冒出来转眼就会忘的灵感"
-      url: "https://vrast.cn/"
-    - name: "Celia 欲买桂花同载酒，终不似少年游"
-      url: "https://7boe.top"
-    - name: "敲代码的卡卡罗特 灵魂和身体都要在路上"
-      url: "https://blog.share888.top/"
-    - name: "Airing 的小屋 Airing 的博客"
-      url: "https://ursb.me"
-    - name: "人生若只如初见 全栈工程师一枚"
-      url: "https://www.wxy97.com"
-    - name: "tinsir888 Ηλύσια Πεδία ;-)"
-      url: "https://tinsir888.github.io"
-    - name: "GnixAij Life tracking & Tech Sharing"
-      url: "https://vluv.space"
-    - name: "问心斋 一只狗的精神自留地"
-      url: "https://blog.ehnap.com/"
-    - name: "Another Dayu 💻学习📝记录🔗分享"
-      url: "https://anotherdayu.com/"
-    - name: "tanscp 一只打呼噜的猫"
-      url: "https://tanscp.com"
-    - name: "网友小宋 一介草民，只为生活"
-      url: "https://xyzbz.cn"
-    - name: "碎言 记录分享个人学习的过程和一些平淡的日常"
-      url: "https://www.suiyan.cc/"
-    - name: "粽叶加米 总有一样是你的激情与动力"
-      url: "https://www.wordpace.com/"
-    - name: "运维咖啡吧 享受技术带来的乐趣，体验生活给予的感动"
-      url: "https://blog.ops-coffee.cn/"
-    - name: "缘生笔记 新时代云缘生农民工"
-      url: "https://ysicing.me"
-    - name: "花酒锄作田 DevOps笔记以及一点个人经历的记录"
-      url: "https://rainux.cn"
-    - name: "Garden of Outlier An Element-chan who writes."
-      url: "https://chlo.is"
-    - name: "慕鸢のblog 给岁月以文明，给时光以生命"
-      url: "https://www.muyuanhuck.cn"
-    - name: "冰可乐的前端笔记 作为一名前端开发的生涯的小记"
-      url: "https://bingkele.cc/"
-    - name: "敖武的博客 聚焦技术实践、工具应用与个人思考的独立博客"
-      url: "https://z.wiki/"
-    - name: "SelfBoot 程序员的思考沉淀"
-      url: "https://selfboot.cn"
-    - name: "乔克视界 云原生爱好者"
-      url: "https://jokerbai.com"
-    - name: "希仁之拥 独立开发者，开源爱好者"
-      url: "https://blog.keepchen.com"
-    - name: "Vdoing"
-      url: "https://github.com/xugaoyi/vuepress-theme-vdoing"
-    - name: "浙ICP备18057030号"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'wiki.eryajf.net'
+  'description': '友情链接'
+  'url': 'https://wiki.eryajf.net/'
+  'links': '/friends'
+  'friends':
+    - 'name': "备忘录清单\n    (opens new window)"
+      'url': 'https://ref.eryajf.net'
+    - 'name': "json2go\n    (opens new window)"
+      'url': 'http://public.eryajf.net/json2go'
+    - 'name': "gopher\n    (opens new window)"
+      'url': 'http://gopher.eryajf.net'
+    - 'name': "微信MD编辑\n    (opens new window)"
+      'url': 'http://public.eryajf.net/mdnice'
+    - 'name': "国内镜像\n    (opens new window)"
+      'url': 'http://public.eryajf.net/mirror'
+    - 'name': "出口IP查询\n    (opens new window)"
+      'url': 'http://ip.eryajf.net'
+    - 'name': "ldapdoc\n    (opens new window)"
+      'url': 'http://ldapdoc.eryajf.net'
+    - 'name': "HowToStartOpenSource
+
+        \    (opens new window)"
+      'url': 'https://howtosos.eryajf.net/'
+    - 'name': 'abcdocker abcdocker资深博客'
+      'url': 'https://i4t.com/'
+    - 'name': '崔亮的博客 专注devops自动化运维'
+      'url': 'https://www.cuiliangblog.cn'
+    - 'name': '不死鸟 专注优质内容分享'
+      'url': 'https://iao.su/'
+    - 'name': 'SRE运维进阶之路 SRE运维进阶之路'
+      'url': 'https://clay-wangzhi.com/'
+    - 'name': 'RokasYang Rokas Yang''s Blog'
+      'url': 'https://blog.linux-code.com/'
+    - 'name': '山山仙人博客 山山仙人博客'
+      'url': 'https://www.ssgeek.com/'
+    - 'name': '两双筷子 两双筷子博客'
+      'url': 'https://www.dbkuaizi.com'
+    - 'name': '老胡的周刊 优质资源聚合'
+      'url': 'https://weekly.howie6879.com/'
+    - 'name': 'PeterJXL 那就从零开始'
+      'url': 'https://www.peterjxl.com'
+    - 'name': '运维小弟 运维技术交流'
+      'url': 'https://blog.srebro.cn'
+    - 'name': 'White~Festa If you shout loud enough, you''ll be the one.'
+      'url': 'https://white-festa.net'
+    - 'name': 'Evan''s blog 积跬步以至千里，喜欢学习喜欢你。'
+      'url': 'https://xugaoyi.com/'
+    - 'name': '耳朵的主人 耳朵电台，庆幸我们还有耳朵'
+      'url': 'https://www.edzbe.com'
+    - 'name': '何三笔记 Python知识分享'
+      'url': 'https://www.h3blog.com'
+    - 'name': 'inana 人生贵知心，定交无暮早'
+      'url': 'http://www.inana.top'
+    - 'name': '兰德胡涂 寄蜉蝣于天地，渺沧海之一栗'
+      'url': 'https://landhutu.cc'
+    - 'name': 'lznauy 生之微欢，俄而感怀，奋勉有得，相携互舍'
+      'url': 'https://lznauy.cn/'
+    - 'name': '一路向北 专注DevOps运维自动化'
+      'url': 'http://www.showerlee.com/'
+    - 'name': '故事的程序猿 好好学习，天天向上↑'
+      'url': 'https://blog.lichenghao.cn'
+    - 'name': '朱双印个人日志 朱双印个人日志'
+      'url': 'https://www.zsythink.net/'
+    - 'name': 'This Cute World 赞美快乐~'
+      'url': 'https://thiscute.world/'
+    - 'name': '张文保的博客 SEO顾问、高级SEO工程师'
+      'url': 'https://zhangwenbao.com'
+    - 'name': 'Linux运维笔记 自动化运维攻城狮'
+      'url': 'https://blog.imdst.com/'
+    - 'name': '轻雅阁 新时代教师的日常'
+      'url': 'https://www.puresky.top'
+    - 'name': '郑文峰的博客 朝闻道,夕死可矣'
+      'url': 'https://www.zhengwenfeng.com'
+    - 'name': '后厂村路灯 技术至上,分享无限'
+      'url': 'https://www.eqishare.com/'
+    - 'name': 'Alliot''s blog 运维,k8s,硬件'
+      'url': 'https://www.iots.vip/'
+    - 'name': '南宫乘风 💻运维开发📝Devops技术🔗自动化'
+      'url': 'https://ownit.top/'
+    - 'name': 'Keyle''s Blog 记录一些偶尔冒出来转眼就会忘的灵感'
+      'url': 'https://vrast.cn/'
+    - 'name': 'Celia 欲买桂花同载酒，终不似少年游'
+      'url': 'https://7boe.top'
+    - 'name': '敲代码的卡卡罗特 灵魂和身体都要在路上'
+      'url': 'https://blog.share888.top/'
+    - 'name': 'Airing 的小屋 Airing 的博客'
+      'url': 'https://ursb.me'
+    - 'name': '人生若只如初见 全栈工程师一枚'
+      'url': 'https://www.wxy97.com'
+    - 'name': 'GnixAij Life tracking & Tech Sharing'
+      'url': 'https://vluv.space'
+    - 'name': '问心斋 一只狗的精神自留地'
+      'url': 'https://blog.ehnap.com/'
+    - 'name': 'Another Dayu 💻学习📝记录🔗分享'
+      'url': 'https://anotherdayu.com/'
+    - 'name': 'tanscp 一只打呼噜的猫'
+      'url': 'https://tanscp.com'
+    - 'name': '网友小宋 一介草民，只为生活'
+      'url': 'https://xyzbz.cn'
+    - 'name': '碎言 记录分享个人学习的过程和一些平淡的日常'
+      'url': 'https://www.suiyan.cc/'
+    - 'name': '粽叶加米 总有一样是你的激情与动力'
+      'url': 'https://www.wordpace.com/'
+    - 'name': '运维咖啡吧 享受技术带来的乐趣，体验生活给予的感动'
+      'url': 'https://blog.ops-coffee.cn/'
+    - 'name': '缘生笔记 新时代云缘生农民工'
+      'url': 'https://ysicing.me'
+    - 'name': '花酒锄作田 DevOps笔记以及一点个人经历的记录'
+      'url': 'https://rainux.cn'
+    - 'name': 'Garden of Outlier An Element-chan who writes.'
+      'url': 'https://chlo.is'
+    - 'name': '慕鸢のblog 给岁月以文明，给时光以生命'
+      'url': 'https://www.muyuanhuck.cn'
+    - 'name': '冰可乐的前端笔记 作为一名前端开发的生涯的小记'
+      'url': 'https://bingkele.cc/'
+    - 'name': 'SelfBoot 程序员的思考沉淀'
+      'url': 'https://selfboot.cn'
+    - 'name': '乔克视界 云原生爱好者'
+      'url': 'https://jokerbai.com'
+    - 'name': '希仁之拥 独立开发者，开源爱好者'
+      'url': 'https://blog.keepchen.com'

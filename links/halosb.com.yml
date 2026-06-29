@@ -1,12 +1,14 @@
-site:
-  name: "知栖小筑"
-  url: "https://halosb.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "b\n                  \n                  baidu.com"
-      url: "https://baidu.com"
-    - name: "蜀ICP备2024112410号-5"
-      url: "https://beian.miit.gov.cn/"
-    - name: "全国互联网违法和不良信息举报中心"
-      url: "https://www.12377.cn/"
+'site':
+  'name': '知栖小筑'
+  'url': 'https://halosb.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': "b
+
+        \                 \ 
+
+        \                  baidu.com"
+      'url': 'https://baidu.com'
+    - 'name': '全国互联网违法和不良信息举报中心'
+      'url': 'https://www.12377.cn/'

@@ -1,20 +1,8 @@
-site:
-  name: "材料与逻辑"
-  url: "https://zhyong.site/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "相册"
-      url: "https://gallery.zhyong.site/gallery"
-    - name: "网盘"
-      url: "https://dl.zhyong.site/#/"
-    - name: "GitHub"
-      url: "https://github.com/zhyong26"
-    - name: "Weibo"
-      url: "https://weibo.com/u/3724806144"
-    - name: "https://zhyong.site/"
-      url: "https://zhyong.site/"
-    - name: "https://zhyong.site/img/6994661354dc2.png"
-      url: "https://zhyong.site/img/6994661354dc2.png"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
+'site':
+  'name': '材料与逻辑'
+  'url': 'https://zhyong.site/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '相册'
+      'url': 'https://gallery.zhyong.site/gallery'

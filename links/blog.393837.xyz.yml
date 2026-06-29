@@ -1,84 +1,36 @@
-site:
-  name: "blog.393837.xyz"
-  description: "友情链接"
-  url: "https://blog.393837.xyz/"
-  links: "/link"
-  friends:
-    - name: "博客"
-      url: "https://blog.393837.xyz/"
-    - name: "今日热搜"
-      url: "https://hot.393837.xyz/"
-    - name: "站点检测"
-      url: "https://status.393837.xyz/"
-    - name: "流量消耗器"
-      url: "https://flow.393837.xyz/"
-    - name: "Shorter URL"
-      url: "https://xzc.asia/"
-    - name: "Coverview"
-      url: "https://coverview.393837.xyz/"
-    - name: "RSSRub"
-      url: "https://rsshub.393837.xyz/"
-    - name: "Genshin Impact Wish Simulator"
-      url: "https://ys-picker.393837.xyz/"
-    - name: "异次元之旅"
-      url: "https://travel.moe/go.html"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "虫洞"
-      url: "https://storeweb.cn/s/2173"
-    - name: "易往"
-      url: "https://icp.redcha.cn/go"
-    - name: "Hexo"
-      url: "https://hexo.io/zh-cn/"
-    - name: "Butterfly"
-      url: "https://butterfly.js.org/"
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com/"
-    - name: "风记星辰"
-      url: "https://www.thyuu.com"
-    - name: "霞阴云之都"
-      url: "https://blog.20097747.xyz/"
-    - name: "jsDelivr"
-      url: "https://www.jsdelivr.com/?docs=gh"
-    - name: "Fomalhaut🥝"
-      url: "https://www.fomal.cc/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "https://cdn.393837.xyz/img/vr6dCKNEtUwPYOBUi7GR.avif"
-      url: "https://cdn.393837.xyz/img/vr6dCKNEtUwPYOBUi7GR.avif"
-    - name: "https://cdn.393837.xyz/img/LfDhL4JP3JPvAJyW6TEY.avif"
-      url: "https://cdn.393837.xyz/img/LfDhL4JP3JPvAJyW6TEY.avif"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Github"
-      url: "https://github.com/Regionnor"
-    - name: "BiliBili"
-      url: "https://space.bilibili.com/525917669"
-    - name: "微博"
-      url: "https://weibo.com/u/7721285006"
-    - name: "抖音"
-      url: "https://v.douyin.com/CeiJ7T92"
-    - name: "51la统计"
-      url: "https://v6.51.la/"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/"
-    - name: "开往"
-      url: "https://github.com/travellings-link/travellings"
-    - name: "本站支持SSL安全访问"
-      url: "https://ipw.cn/ssl/?site=blog.393837.xyz"
-    - name: "博客框架为Hexo_v5.4.0"
-      url: "https://hexo.io/"
-    - name: "本站使用JSDMirror为静态资源提供CDN加速"
-      url: "https://www.jsdelivr.com/"
-    - name: "本站采用多线部署，主线路托管于Vercel"
-      url: "https://vercel.com/"
-    - name: "本站项目由Github托管"
-      url: "https://github.com/"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans"
-    - name: "萌ICP备20248855号"
-      url: "https://icp.gov.moe/?keyword=20248855"
-    - name: "茶ICP备20251010号"
-      url: "https://icp.redcha.cn/beian/ICP-20251010.html"
-    - name: "主题"
-      url: "https://github.com/anzhiyu-c/hexo-theme-anzhiyu"
+'site':
+  'name': 'blog.393837.xyz'
+  'description': '友情链接'
+  'url': 'https://blog.393837.xyz/'
+  'links': '/link'
+  'friends':
+    - 'name': '今日热搜'
+      'url': 'https://hot.393837.xyz/'
+    - 'name': '流量消耗器'
+      'url': 'https://flow.393837.xyz/'
+    - 'name': 'Shorter URL'
+      'url': 'https://xzc.asia/'
+    - 'name': 'Coverview'
+      'url': 'https://coverview.393837.xyz/'
+    - 'name': 'Genshin Impact Wish Simulator'
+      'url': 'https://ys-picker.393837.xyz/'
+    - 'name': '易往'
+      'url': 'https://icp.redcha.cn/go'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '风记星辰'
+      'url': 'https://www.thyuu.com'
+    - 'name': '霞阴云之都'
+      'url': 'https://blog.20097747.xyz/'
+    - 'name': 'jsDelivr'
+      'url': 'https://www.jsdelivr.com/?docs=gh'
+    - 'name': 'Fomalhaut🥝'
+      'url': 'https://www.fomal.cc/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '抖音'
+      'url': 'https://v.douyin.com/CeiJ7T92'
+    - 'name': '51la统计'
+      'url': 'https://v6.51.la/'
+    - 'name': '博客框架为Hexo_v5.4.0'
+      'url': 'https://hexo.io/'

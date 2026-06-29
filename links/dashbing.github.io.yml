@@ -1,34 +1,30 @@
-site:
-  name: "dashbing.github.io"
-  description: "友情链接"
-  url: "https://dashbing.github.io/"
-  links: "/link"
-  friends:
-    - name: "Hexo \n      快速、简洁且高效的博客框架"
-      url: "https://hexo.io/zh-cn/"
-    - name: "菜鸟教程 \n      学的不仅是技术，更是梦想！"
-      url: "https://www.runoob.com/"
-    - name: "马克思主义文库 \n      中文马克思主义文库"
-      url: "https://www.marxists.org/chinese/"
-    - name: "MareSera的小栈 \n      朝夕不倦 实事求是 坚韧不拔 有志竟成"
-      url: "https://blog.maresera.top/"
-    - name: "安知鱼`Blog \n      生活明朗，万物可爱"
-      url: "https://blog.anheyu.com/"
-    - name: "haloged的博客 \n      一直鸽子的住处"
-      url: "https://haloged.eu.org/"
-    - name: "神经蛙 \n      种一棵树最好的时间是十年前，其次是现在。"
-      url: "https://hexo.sjava.cn/"
-    - name: "忘忧草の小破站 \n      这只是一个小破站而已！"
-      url: "https://owo.wyc.rest/"
-    - name: "Heyiki \n      梦在旅途，永不止步。"
-      url: "https://www.heyiki.top"
-    - name: "张洪Heo \n      分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "SaroProck \n      一名喜欢折腾的Oler"
-      url: "https://www.saroprock.com/"
-    - name: "https://dashbing.github.io/"
-      url: "https://dashbing.github.io/"
-    - name: "https://s1.ax1x.com/2023/07/06/pC6Z3hd.jpg"
-      url: "https://s1.ax1x.com/2023/07/06/pC6Z3hd.jpg"
-    - name: "支持 Markdown 语法"
-      url: "https://guides.github.com/features/mastering-markdown/"
+'site':
+  'name': 'dashbing.github.io'
+  'description': '友情链接'
+  'url': 'https://dashbing.github.io/'
+  'links': '/link'
+  'friends':
+    - 'name': "Hexo\ \n      快速、简洁且高效的博客框架"
+      'url': 'https://hexo.io/zh-cn/'
+    - 'name': "菜鸟教程\ \n      学的不仅是技术，更是梦想！"
+      'url': 'https://www.runoob.com/'
+    - 'name': "马克思主义文库\ \n      中文马克思主义文库"
+      'url': 'https://www.marxists.org/chinese/'
+    - 'name': "MareSera的小栈\ 
+
+        \      朝夕不倦 实事求是 坚韧不拔 有志竟成"
+      'url': 'https://blog.maresera.top/'
+    - 'name': "安知鱼`Blog\ \n      生活明朗，万物可爱"
+      'url': 'https://blog.anheyu.com/'
+    - 'name': "haloged的博客\ \n      一直鸽子的住处"
+      'url': 'https://haloged.eu.org/'
+    - 'name': "神经蛙\ \n      种一棵树最好的时间是十年前，其次是现在。"
+      'url': 'https://hexo.sjava.cn/'
+    - 'name': "忘忧草の小破站\ \n      这只是一个小破站而已！"
+      'url': 'https://owo.wyc.rest/'
+    - 'name': "Heyiki\ \n      梦在旅途，永不止步。"
+      'url': 'https://www.heyiki.top'
+    - 'name': "张洪Heo\ \n      分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "SaroProck\ \n      一名喜欢折腾的Oler"
+      'url': 'https://www.saroprock.com/'

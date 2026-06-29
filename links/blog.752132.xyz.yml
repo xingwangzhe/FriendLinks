@@ -1,74 +1,50 @@
-site:
-  name: "blog.752132.xyz"
-  description: "友情链接"
-  url: "https://blog.752132.xyz/"
-  links: "/link"
-  friends:
-    - name: "博客"
-      url: "https://752132.xyz/"
-    - name: "医患路线规划程序"
-      url: "https://gitee.com/xiaoliang-11/patients_to_hospital_path"
-    - name: "封面站"
-      url: "https://cover.752132.xyz"
-    - name: "影视站"
-      url: "https://tv.752132.xyz"
-    - name: "聊天室"
-      url: "https://tpchat.752132.xyz/"
-    - name: "图床"
-      url: "https://tp.752132.xyz/"
-    - name: "朋友圈"
-      url: "https://flink.752132.xyz"
-    - name: "图床"
-      url: "https://tp.752132.xyz"
-    - name: "聊天室"
-      url: "https://tpchat.752132.xyz"
-    - name: "随机前往目标行星"
-      url: "https://www.jiuchan.org/"
-    - name: "我们一起去萌站成员的星球旅行吧！"
-      url: "https://travel.moe/go.html?travel=on"
-    - name: "Github"
-      url: "https://github.com/xiaoliang888"
-    - name: "BiliBili"
-      url: "https://space.bilibili.com/267047834"
-    - name: "曹丕"
-      url: "http://baike.baidu.com/subview/5199/5369025.htm"
-    - name: "郑和"
-      url: "http://baike.baidu.com/view/1988.htm"
-    - name: "亨利·克莱"
-      url: "http://baike.baidu.com/view/1409374.htm"
-    - name: "托马斯·亨利·赫胥黎"
-      url: "http://baike.baidu.com/view/279814.htm"
-    - name: "诺贝尔奖"
-      url: "http://baike.baidu.com/view/6170.htm"
-    - name: "第二次巴尔干战争"
-      url: "http://baike.baidu.com/view/161360.htm"
-    - name: "奥里亚娜·法拉奇"
-      url: "http://baike.baidu.com/view/3075080.htm"
-    - name: "保罗·克利"
-      url: "http://baike.baidu.com/view/1191179.htm"
-    - name: "种族隔离"
-      url: "http://baike.baidu.com/view/122490.htm"
-    - name: "东风二号"
-      url: "http://baike.baidu.com/view/2994035.htm"
-    - name: "柬埔寨"
-      url: "http://baike.baidu.com/view/7501.htm"
-    - name: "塞舌尔共和国"
-      url: "http://baike.baidu.com/view/22020.htm"
-    - name: "《中国妇女》"
-      url: "http://baike.baidu.com/view/1122785.htm"
-    - name: "三丰百货店"
-      url: "http://baike.baidu.com/view/1448657.htm"
-    - name: "青藏铁路"
-      url: "http://baike.baidu.com/view/2580.htm"
-    - name: "博客框架为Hexo_v5.4.0"
-      url: "https://hexo.io/"
-    - name: "本站使用AnZhiYu主题"
-      url: "https://blog.anheyu.com/"
-    - name: "本站项目由Github托管"
-      url: "https://github.com/xiaoliang888/xiaoliangblog/"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "主题"
-      url: "https://github.com/anzhiyu-c/hexo-theme-anzhiyu"
-    - name: "图床"
-      url: "https://tp.752131.xyz"
+'site':
+  'name': 'blog.752132.xyz'
+  'description': '友情链接'
+  'url': 'https://blog.752132.xyz/'
+  'links': '/link'
+  'friends':
+    - 'name': '博客'
+      'url': 'https://752132.xyz/'
+    - 'name': '封面站'
+      'url': 'https://cover.752132.xyz'
+    - 'name': '影视站'
+      'url': 'https://tv.752132.xyz'
+    - 'name': '聊天室'
+      'url': 'https://tpchat.752132.xyz/'
+    - 'name': '朋友圈'
+      'url': 'https://flink.752132.xyz'
+    - 'name': '聊天室'
+      'url': 'https://tpchat.752132.xyz'
+    - 'name': '曹丕'
+      'url': 'http://baike.baidu.com/subview/5199/5369025.htm'
+    - 'name': '郑和'
+      'url': 'http://baike.baidu.com/view/1988.htm'
+    - 'name': '亨利·克莱'
+      'url': 'http://baike.baidu.com/view/1409374.htm'
+    - 'name': '托马斯·亨利·赫胥黎'
+      'url': 'http://baike.baidu.com/view/279814.htm'
+    - 'name': '诺贝尔奖'
+      'url': 'http://baike.baidu.com/view/6170.htm'
+    - 'name': '第二次巴尔干战争'
+      'url': 'http://baike.baidu.com/view/161360.htm'
+    - 'name': '奥里亚娜·法拉奇'
+      'url': 'http://baike.baidu.com/view/3075080.htm'
+    - 'name': '保罗·克利'
+      'url': 'http://baike.baidu.com/view/1191179.htm'
+    - 'name': '种族隔离'
+      'url': 'http://baike.baidu.com/view/122490.htm'
+    - 'name': '东风二号'
+      'url': 'http://baike.baidu.com/view/2994035.htm'
+    - 'name': '柬埔寨'
+      'url': 'http://baike.baidu.com/view/7501.htm'
+    - 'name': '塞舌尔共和国'
+      'url': 'http://baike.baidu.com/view/22020.htm'
+    - 'name': '《中国妇女》'
+      'url': 'http://baike.baidu.com/view/1122785.htm'
+    - 'name': '三丰百货店'
+      'url': 'http://baike.baidu.com/view/1448657.htm'
+    - 'name': '青藏铁路'
+      'url': 'http://baike.baidu.com/view/2580.htm'
+    - 'name': '博客框架为Hexo_v5.4.0'
+      'url': 'https://hexo.io/'

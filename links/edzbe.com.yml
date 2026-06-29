@@ -1,306 +1,138 @@
-site:
-  name: "edzbe.com"
-  description: "友情链接"
-  url: "https://edzbe.com/"
-  links: "/link"
-  friends:
-    - name: "https://app.follow.is/share/feeds/59399897207132160"
-      url: "https://app.follow.is/share/feeds/59399897207132160"
-    - name: "树下语   记录过往，期待在未来遇见更好的自己！"
-      url: "https://yishu-life.com/"
-    - name: "鱼声音乐   遇见你的声音"
-      url: "https://ifish.fun/"
-    - name: "Xio's   狮子座的数字游牧者，用代码和文字探索科技世界，记录灵感与思考。"
-      url: "https://n2g.cn/"
-    - name: "Ruxin·s Personal   Ruxin，喜欢移动互联网应用与开发的伪艺术屌丝！"
-      url: "https://blog.imruxin.com/"
-    - name: "朱小呆   记录生活，分享美好"
-      url: "https://zhujay.com/"
-    - name: "盐酸小姐   盐酸小姐，一个爱好音乐高个妹纸。"
-      url: "http://www.misshcl.com"
-    - name: "SunoAPI   立即创作属于您独特的Suno AI音乐歌曲，免费使用并享受创新AI音乐生成的乐趣！"
-      url: "https://sunoapi.net/"
-    - name: "孤斗   做自己，不隨波逐流，不妥協"
-      url: "https://d-d.design/"
-    - name: "益友网站   美好的日常生活值得我们去记录，希望我们的生活每天都能充满着乐趣跟开心事。"
-      url: "https://www.yiyou.bj.cn/"
-    - name: "扶海浪子   IT技术与一些琐碎的所思所想所悟！"
-      url: "https://htl.pub/"
-    - name: "蘇 SU   在数字的海洋中，寻找属于自己的星辰。"
-      url: "https://suus.me"
-    - name: "Jeffer.Z   在此处我嗅到人间味道"
-      url: "https://www.jeffer.xyz/"
-    - name: "悦己   阅己，越己，悦己"
-      url: "https://www.yveji.com/"
-    - name: "水清无鱼   Bosir / 90后 / 室内设计师"
-      url: "https://bosir.cn"
-    - name: "bbb-lsy07   科技激荡人文，洞见智慧本真。"
-      url: "https://blog.tsoo.net/"
-    - name: "雅岚文艺博客   雅岚，暗夜一族大魔王之女，地中海恶龙之妻，梦幻白夜之妖女。"
-      url: "https://yalanart.com/"
-    - name: "博友圈   博客人的朋友圈，将一个个散落在各处的孤岛连接成一片广袤无垠的新大陆！"
-      url: "https://www.boyouquan.com"
-    - name: "Moodlog   繁华已尽，空散云烟。"
-      url: "https://blog.moodlog.cn/"
-    - name: "瀚海星辰   分享温暖，感悟人生真谛。"
-      url: "https://www.imuu.cn/"
-    - name: "未来往事   记录生活，存储回忆"
-      url: "https://felixway.cn"
-    - name: "青木   独立博客，记录技术与旅行，始于2010年。"
-      url: "https://www.iyoubo.com/"
-    - name: "湘铭`Blog   湘铭的秘密基地啊！"
-      url: "https://xiangming.site"
-    - name: "江子渔   管它岁月如梭还是白云苍狗，永远保留一颗赤子之心，爱憎分明！"
-      url: "https://ichov.com/"
-    - name: "拾趣博客导航   捡拾文字里的小乐趣！"
-      url: "https://s7.fan/"
-    - name: "BlogsClub   BlogsClub博客俱乐部"
-      url: "https://www.blogsclub.org/"
-    - name: "二丫讲梵   💻学习📝记录🔗分享"
-      url: "https://wiki.eryajf.net/"
-    - name: "凌飞阁   突星骑石凌飞鸟。"
-      url: "https://llingfei.com/"
-    - name: "逗妇鲁   逗妇鲁的博客"
-      url: "https://dou.lu/"
-    - name: "荒野菲克   在路上的思绪与脚印"
-      url: "https://ficor.net"
-    - name: "粽叶加米博客   总有一样是你的激情与动力"
-      url: "https://www.wordpace.com/"
-    - name: "周天记   我在人间混日子。"
-      url: "https://zhoutian.com"
-    - name: "林间拾语   技术与生活的温暖拾遗"
-      url: "https://www.xhhao.com"
-    - name: "河下   骄傲滴撸圆了太阳"
-      url: "https://underriver.net/"
-    - name: "阿呆日记   90后摆烂生活日记"
-      url: "https://dai.ge/"
-    - name: "若志随笔   一个若志的网络自留地"
-      url: "https://www.rz.sb/"
-    - name: "轻论坛   新一代现代社区平台"
-      url: "https://litebbs.com/"
-    - name: "子夜松声   一介草民，只为生活！"
-      url: "https://xyzbz.cn/"
-    - name: "城市里的游牧民族   记录平淡无奇可有可无的存在"
-      url: "http://www.citynomads.cn"
-    - name: "博客星球   每一个博客都是一个独立星球！"
-      url: "https://www.blogplanet.cn/"
-    - name: "博客录   boke.lu · 博客收录展示平台~"
-      url: "https://boke.lu/"
-    - name: "Leyar   90后，极度矛盾的才女，独自漫步，海洋，天空。"
-      url: "http://www.ileyar.com/"
-    - name: "老街里   一种宁静而落寞的气息"
-      url: "https://laojieli.cn/"
-    - name: "一世繁华   繁星点点，不过是分享一二"
-      url: "https://blog.hantaotao.top"
-    - name: "夜枫   不念过去，不畏将来，如此安好。"
-      url: "https://yefengs.com/"
-    - name: "Wcowin's Web   循此苦旅，以达星辰"
-      url: "https://wcowin.work/"
-    - name: "花开陌上   里有我的故事，欢迎你来倾听~陌上花开，可缓缓归矣！"
-      url: "https://moshanghua.net/"
-    - name: "Kn007's Blog   传统保守、略微的大男子主义的潮汕有为青年！"
-      url: "https://kn007.net/"
-    - name: "八对星星   极目星视穹苍无界•足履行者大地有疆"
-      url: "https://8dui.com"
-    - name: "彬红茶日记   个人生活笔记"
-      url: "https://note.redcha.cn/"
-    - name: "开放者   独立博客大全导航"
-      url: "https://blog.kaifangzhe.com/"
-    - name: "Vss Blog   用认真生活提升自己"
-      url: "https://vss.plus"
-    - name: "灰常记忆   记录生活 珍藏回忆"
-      url: "https://bestcherish.com"
-    - name: "未知素   一个基于内容分享的独立文艺情绪博客。"
-      url: "https://www.psrss.com"
-    - name: "梦幻辰风   梦幻辰风是一家个人原创文学博客网站,一个注重原创的个人文学博客网站。"
-      url: "https://www.mhcf.net"
-    - name: "Li’s Blog   写下最美的文章！！"
-      url: "https://blog.kokowo.cn"
-    - name: "博客集   由衷希望博客这种极具情怀的互联网光点能存续，不被时间长流所磨灭。​"
-      url: "https://bloginc.cn/"
-    - name: "文艺青年   冬烛之焰"
-      url: "https://www.wenyiqn.com/"
-    - name: "皮皮社   皮一下，很开心！"
-      url: "https://www.pipishe.com"
-    - name: "吾爱民谣   民谣音乐主题网站"
-      url: "http://www.52minyao.com/"
-    - name: "木先森   木先森博客，原名刚哥笔记，是一个记录生活和学习的地方。"
-      url: "https://www.meizg.cn/"
-    - name: "良工巨匠   展示与分享，拓展视野！"
-      url: "https://www.lgjj.net/"
-    - name: "瓦匠个人小站   大家都是倔强的人！"
-      url: "https://airy.ink/"
-    - name: "青木"
-      url: "https://erduo.shabi.one/go/?url=https://www.iyoubo.com"
-    - name: "2026年6月23日 上午10:49"
-      url: "https://www.edzbe.com/link#comment-9827"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9827#respond"
-    - name: "耳朵的主人²º²⁵"
-      url: "https://erduo.shabi.one/go/?url=https://www.edzbe.com"
-    - name: "2026年6月23日 下午8:42"
-      url: "https://www.edzbe.com/link#comment-9828"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9828#respond"
-    - name: "2026年6月25日 上午11:02"
-      url: "https://www.edzbe.com/link#comment-9832"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9832#respond"
-    - name: "2026年6月25日 下午3:27"
-      url: "https://www.edzbe.com/link#comment-9835"
-    - name: "https://www.edzbe.com/feed"
-      url: "https://erduo.shabi.one/go/?url=https://www.edzbe.com/feed"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9835#respond"
-    - name: "轻论坛"
-      url: "https://erduo.shabi.one/go/?url=https://litebbs.com"
-    - name: "2026年6月18日 下午3:51"
-      url: "https://www.edzbe.com/link#comment-9821"
-    - name: "https://litebbs.com/favicon.ico"
-      url: "https://erduo.shabi.one/go/?url=https://litebbs.com/favicon.ico"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9821#respond"
-    - name: "2026年6月20日 上午1:16"
-      url: "https://www.edzbe.com/link#comment-9823"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9823#respond"
-    - name: "2026年6月20日 上午2:16"
-      url: "https://www.edzbe.com/link#comment-9824"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9824#respond"
-    - name: "2026年6月23日 下午8:43"
-      url: "https://www.edzbe.com/link#comment-9829"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9829#respond"
-    - name: "剑星"
-      url: "https://erduo.shabi.one/go/?url=https://htl.pub/"
-    - name: "2026年4月27日 上午9:28"
-      url: "https://www.edzbe.com/link#comment-9720"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9720#respond"
-    - name: "2026年4月28日 上午3:52"
-      url: "https://www.edzbe.com/link#comment-9722"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9722#respond"
-    - name: "yishu"
-      url: "https://erduo.shabi.one/go/?url=https://yishu-life.com/"
-    - name: "2026年3月21日 下午12:03"
-      url: "https://www.edzbe.com/link#comment-9664"
-    - name: "https://yishu-life.com/Favicon.png"
-      url: "https://erduo.shabi.one/go/?url=https://yishu-life.com/Favicon.png"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9664#respond"
-    - name: "2026年3月21日 下午12:10"
-      url: "https://www.edzbe.com/link#comment-9665"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9665#respond"
-    - name: "2026年3月18日 上午7:55"
-      url: "https://www.edzbe.com/link#comment-9657"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9657#respond"
-    - name: "2026年3月18日 上午8:03"
-      url: "https://www.edzbe.com/link#comment-9658"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9658#respond"
-    - name: "bbb-lsy07"
-      url: "https://erduo.shabi.one/go/?url=https://blog.tsoo.net/"
-    - name: "2026年2月22日 下午10:28"
-      url: "https://www.edzbe.com/link#comment-9624"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9624#respond"
-    - name: "2026年2月23日 上午3:26"
-      url: "https://www.edzbe.com/link#comment-9625"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9625#respond"
-    - name: "皮皮社长"
-      url: "https://erduo.shabi.one/go/?url=https://www.pipishe.com"
-    - name: "2025年11月14日 下午1:10"
-      url: "https://www.edzbe.com/link#comment-9392"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9392#respond"
-    - name: "2025年11月22日 上午3:27"
-      url: "https://www.edzbe.com/link#comment-9417"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9417#respond"
-    - name: "2025年10月7日 上午10:37"
-      url: "https://www.edzbe.com/link#comment-9174"
-    - name: "https://laojieli.cn/"
-      url: "https://erduo.shabi.one/go/?url=https://laojieli.cn/"
-    - name: "https://laojieli.cn/favicon.ico"
-      url: "https://erduo.shabi.one/go/?url=https://laojieli.cn/favicon.ico"
-    - name: "https://laojieli.cn/rss.xml"
-      url: "https://erduo.shabi.one/go/?url=https://laojieli.cn/rss.xml"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9174#respond"
-    - name: "2025年10月7日 下午2:25"
-      url: "https://www.edzbe.com/link#comment-9178"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9178#respond"
-    - name: "冬烛之焰"
-      url: "https://erduo.shabi.one/go/?url=http://www.zhuhuadong.com"
-    - name: "2025年10月6日 下午8:27"
-      url: "https://www.edzbe.com/link#comment-9167"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9167#respond"
-    - name: "2025年10月7日 下午2:24"
-      url: "https://www.edzbe.com/link#comment-9177"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9177#respond"
-    - name: "彬红茶"
-      url: "https://erduo.shabi.one/go/?url=https://note.redcha.cn"
-    - name: "2025年9月7日 上午10:57"
-      url: "https://www.edzbe.com/link#comment-9040"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9040#respond"
-    - name: "2025年9月9日 上午1:17"
-      url: "https://www.edzbe.com/link#comment-9045"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9045#respond"
-    - name: "虫虫"
-      url: "https://erduo.shabi.one/go/?url=https://zhujay.com"
-    - name: "2025年8月27日 上午11:32"
-      url: "https://www.edzbe.com/link#comment-9005"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9005#respond"
-    - name: "2025年8月28日 上午11:52"
-      url: "https://www.edzbe.com/link#comment-9006"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=9006#respond"
-    - name: "2025年7月31日 下午10:41"
-      url: "https://www.edzbe.com/link#comment-8972"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=8972#respond"
-    - name: "李欲裕"
-      url: "https://erduo.shabi.one/go/?url=https://blog.kokowo.cn"
-    - name: "2025年7月30日 上午12:30"
-      url: "https://www.edzbe.com/link#comment-8950"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=8950#respond"
-    - name: "2025年7月30日 下午4:52"
-      url: "https://www.edzbe.com/link#comment-8963"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=8963#respond"
-    - name: "2025年7月30日 上午12:27"
-      url: "https://www.edzbe.com/link#comment-8949"
-    - name: "https://blog.kokowo.cn/usr/uploads/2025/07/3765681338.png"
-      url: "https://erduo.shabi.one/go/?url=https://blog.kokowo.cn/usr/uploads/2025/07/3765681338.png"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=8949#respond"
-    - name: "2025年7月30日 下午4:45"
-      url: "https://www.edzbe.com/link#comment-8954"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=8954#respond"
-    - name: "李欲裕"
-      url: "https://erduo.shabi.one/go/?url=https://blog.kokowo.cn/"
-    - name: "2025年7月30日 下午5:46"
-      url: "https://www.edzbe.com/link#comment-8964"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=8964#respond"
-    - name: "八对"
-      url: "https://erduo.shabi.one/go/?url=https://8dui.com"
-    - name: "2025年7月13日 下午11:10"
-      url: "https://www.edzbe.com/link#comment-8936"
-    - name: "回复"
-      url: "https://www.edzbe.com/link?replytocom=8936#respond"
-    - name: "2025年7月13日 下午11:25"
-      url: "https://www.edzbe.com/link#comment-8937"
+'site':
+  'name': 'edzbe.com'
+  'description': '友情链接'
+  'url': 'https://edzbe.com/'
+  'links': '/link'
+  'friends':
+    - 'name': '树下语   记录过往，期待在未来遇见更好的自己！'
+      'url': 'https://yishu-life.com/'
+    - 'name': '鱼声音乐   遇见你的声音'
+      'url': 'https://ifish.fun/'
+    - 'name': 'Xio''s   狮子座的数字游牧者，用代码和文字探索科技世界，记录灵感与思考。'
+      'url': 'https://n2g.cn/'
+    - 'name': 'Ruxin·s Personal   Ruxin，喜欢移动互联网应用与开发的伪艺术屌丝！'
+      'url': 'https://blog.imruxin.com/'
+    - 'name': '朱小呆   记录生活，分享美好'
+      'url': 'https://zhujay.com/'
+    - 'name': '盐酸小姐   盐酸小姐，一个爱好音乐高个妹纸。'
+      'url': 'http://www.misshcl.com'
+    - 'name': 'SunoAPI   立即创作属于您独特的Suno AI音乐歌曲，免费使用并享受创新AI音乐生成的乐趣！'
+      'url': 'https://sunoapi.net/'
+    - 'name': '孤斗   做自己，不隨波逐流，不妥協'
+      'url': 'https://d-d.design/'
+    - 'name': '益友网站   美好的日常生活值得我们去记录，希望我们的生活每天都能充满着乐趣跟开心事。'
+      'url': 'https://www.yiyou.bj.cn/'
+    - 'name': '扶海浪子   IT技术与一些琐碎的所思所想所悟！'
+      'url': 'https://htl.pub/'
+    - 'name': '蘇 SU   在数字的海洋中，寻找属于自己的星辰。'
+      'url': 'https://suus.me'
+    - 'name': 'Jeffer.Z   在此处我嗅到人间味道'
+      'url': 'https://www.jeffer.xyz/'
+    - 'name': '悦己   阅己，越己，悦己'
+      'url': 'https://www.yveji.com/'
+    - 'name': '水清无鱼   Bosir / 90后 / 室内设计师'
+      'url': 'https://bosir.cn'
+    - 'name': 'bbb-lsy07   科技激荡人文，洞见智慧本真。'
+      'url': 'https://blog.tsoo.net/'
+    - 'name': '雅岚文艺博客   雅岚，暗夜一族大魔王之女，地中海恶龙之妻，梦幻白夜之妖女。'
+      'url': 'https://yalanart.com/'
+    - 'name': 'Moodlog   繁华已尽，空散云烟。'
+      'url': 'https://blog.moodlog.cn/'
+    - 'name': '瀚海星辰   分享温暖，感悟人生真谛。'
+      'url': 'https://www.imuu.cn/'
+    - 'name': '青木   独立博客，记录技术与旅行，始于2010年。'
+      'url': 'https://www.iyoubo.com/'
+    - 'name': '湘铭`Blog   湘铭的秘密基地啊！'
+      'url': 'https://xiangming.site'
+    - 'name': '江子渔   管它岁月如梭还是白云苍狗，永远保留一颗赤子之心，爱憎分明！'
+      'url': 'https://ichov.com/'
+    - 'name': '凌飞阁   突星骑石凌飞鸟。'
+      'url': 'https://llingfei.com/'
+    - 'name': '逗妇鲁   逗妇鲁的博客'
+      'url': 'https://dou.lu/'
+    - 'name': '荒野菲克   在路上的思绪与脚印'
+      'url': 'https://ficor.net'
+    - 'name': '粽叶加米博客   总有一样是你的激情与动力'
+      'url': 'https://www.wordpace.com/'
+    - 'name': '周天记   我在人间混日子。'
+      'url': 'https://zhoutian.com'
+    - 'name': '林间拾语   技术与生活的温暖拾遗'
+      'url': 'https://www.xhhao.com'
+    - 'name': '河下   骄傲滴撸圆了太阳'
+      'url': 'https://underriver.net/'
+    - 'name': '阿呆日记   90后摆烂生活日记'
+      'url': 'https://dai.ge/'
+    - 'name': '若志随笔   一个若志的网络自留地'
+      'url': 'https://www.rz.sb/'
+    - 'name': '轻论坛   新一代现代社区平台'
+      'url': 'https://litebbs.com/'
+    - 'name': '子夜松声   一介草民，只为生活！'
+      'url': 'https://xyzbz.cn/'
+    - 'name': '城市里的游牧民族   记录平淡无奇可有可无的存在'
+      'url': 'http://www.citynomads.cn'
+    - 'name': 'Leyar   90后，极度矛盾的才女，独自漫步，海洋，天空。'
+      'url': 'http://www.ileyar.com/'
+    - 'name': '老街里   一种宁静而落寞的气息'
+      'url': 'https://laojieli.cn/'
+    - 'name': '一世繁华   繁星点点，不过是分享一二'
+      'url': 'https://blog.hantaotao.top'
+    - 'name': '夜枫   不念过去，不畏将来，如此安好。'
+      'url': 'https://yefengs.com/'
+    - 'name': 'Wcowin''s Web   循此苦旅，以达星辰'
+      'url': 'https://wcowin.work/'
+    - 'name': '花开陌上   里有我的故事，欢迎你来倾听~陌上花开，可缓缓归矣！'
+      'url': 'https://moshanghua.net/'
+    - 'name': 'Kn007''s Blog   传统保守、略微的大男子主义的潮汕有为青年！'
+      'url': 'https://kn007.net/'
+    - 'name': '八对星星   极目星视穹苍无界•足履行者大地有疆'
+      'url': 'https://8dui.com'
+    - 'name': '彬红茶日记   个人生活笔记'
+      'url': 'https://note.redcha.cn/'
+    - 'name': 'Vss Blog   用认真生活提升自己'
+      'url': 'https://vss.plus'
+    - 'name': '灰常记忆   记录生活 珍藏回忆'
+      'url': 'https://bestcherish.com'
+    - 'name': '未知素   一个基于内容分享的独立文艺情绪博客。'
+      'url': 'https://www.psrss.com'
+    - 'name': '梦幻辰风   梦幻辰风是一家个人原创文学博客网站,一个注重原创的个人文学博客网站。'
+      'url': 'https://www.mhcf.net'
+    - 'name': 'Li’s Blog   写下最美的文章！！'
+      'url': 'https://blog.kokowo.cn'
+    - 'name': '文艺青年   冬烛之焰'
+      'url': 'https://www.wenyiqn.com/'
+    - 'name': '皮皮社   皮一下，很开心！'
+      'url': 'https://www.pipishe.com'
+    - 'name': '吾爱民谣   民谣音乐主题网站'
+      'url': 'http://www.52minyao.com/'
+    - 'name': '木先森   木先森博客，原名刚哥笔记，是一个记录生活和学习的地方。'
+      'url': 'https://www.meizg.cn/'
+    - 'name': '良工巨匠   展示与分享，拓展视野！'
+      'url': 'https://www.lgjj.net/'
+    - 'name': '瓦匠个人小站   大家都是倔强的人！'
+      'url': 'https://airy.ink/'
+    - 'name': '青木'
+      'url': 'https://erduo.shabi.one/go/?url=https://www.iyoubo.com'
+    - 'name': '耳朵的主人²º²⁵'
+      'url': 'https://erduo.shabi.one/go/?url=https://www.edzbe.com'
+    - 'name': '轻论坛'
+      'url': 'https://erduo.shabi.one/go/?url=https://litebbs.com'
+    - 'name': '剑星'
+      'url': 'https://erduo.shabi.one/go/?url=https://htl.pub/'
+    - 'name': 'yishu'
+      'url': 'https://erduo.shabi.one/go/?url=https://yishu-life.com/'
+    - 'name': 'bbb-lsy07'
+      'url': 'https://erduo.shabi.one/go/?url=https://blog.tsoo.net/'
+    - 'name': '皮皮社长'
+      'url': 'https://erduo.shabi.one/go/?url=https://www.pipishe.com'
+    - 'name': '冬烛之焰'
+      'url': 'https://erduo.shabi.one/go/?url=http://www.zhuhuadong.com'
+    - 'name': '彬红茶'
+      'url': 'https://erduo.shabi.one/go/?url=https://note.redcha.cn'
+    - 'name': '虫虫'
+      'url': 'https://erduo.shabi.one/go/?url=https://zhujay.com'
+    - 'name': '李欲裕'
+      'url': 'https://erduo.shabi.one/go/?url=https://blog.kokowo.cn'
+    - 'name': '李欲裕'
+      'url': 'https://erduo.shabi.one/go/?url=https://blog.kokowo.cn/'
+    - 'name': '八对'
+      'url': 'https://erduo.shabi.one/go/?url=https://8dui.com'

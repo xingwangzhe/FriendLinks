@@ -1,60 +1,38 @@
-site:
-  name: "amiracle.site"
-  description: "友情链接"
-  url: "https://amiracle.site/"
-  links: "/link"
-  friends:
-    - name: "codeforces"
-      url: "https://codeforces.com/profile/AmiracleTa"
-    - name: "github"
-      url: "https://github.com/AmiracleTa"
-    - name: "dogecloud"
-      url: "https://www.dogecloud.com"
-    - name: "picgo"
-      url: "https://picgo.github.io/PicGo-Doc"
-    - name: "Amir's blog"
-      url: "https://amiracle.site"
-    - name: "Hexo"
-      url: "https://hexo.io/zh-tw/"
-    - name: "anzhiyu主题"
-      url: "https://hexo.anheyu.com/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "Amiracle向往之处，便是归途"
-      url: "https://amiracle.site/"
-    - name: "Cao XinCao Xin's Blog"
-      url: "https://www.caoxin.xyz/"
-    - name: "Arthals' ink所见高山远木，阔云流风；所幸岁月盈余，了无拘束"
-      url: "https://arthals.ink/"
-    - name: "CWorld Site求知若愚，虚怀若谷"
-      url: "https://cworld0.com/"
-    - name: "THW’s Blog前途似海，来日方长"
-      url: "https://tianhw.top/"
-    - name: "Elykia致以无暇之人"
-      url: "https://blog.elykia.cn/"
-    - name: "枫の屋技术宅拯救世界！"
-      url: "https://6wd.cn"
-    - name: "UTOPIA散落在世界一角的故事"
-      url: "https://ishya.top"
-    - name: "Tianli自知之明是最可贵的知识！"
-      url: "https://blog.tianli0.top"
-    - name: "Mo的记事簿万年鸽王，哈哈OvO"
-      url: "https://blog.xiowo.net"
-    - name: "栖童の小站越努力,越幸运"
-      url: "https://blog.linux-qitong.top"
-    - name: "咖啡豆子coffee的小站所有奇迹的始发点"
-      url: "https://blog.kfdzcoffee.cn"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "博客框架为Hexo_v8.1.1"
-      url: "https://hexo.io/"
-    - name: "本站使用AnZhiYu主题"
-      url: "https://blog.anheyu.com/"
-    - name: "本站使用多吉云为静态资源提供CDN加速"
-      url: "https://www.dogecloud.com/"
-    - name: "本站项目由Github托管"
-      url: "https://github.com/AmiracleTa/AmirBlog"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "浙ICP备-2025211301号-1"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'amiracle.site'
+  'description': '友情链接'
+  'url': 'https://amiracle.site/'
+  'links': '/link'
+  'friends':
+    - 'name': 'codeforces'
+      'url': 'https://codeforces.com/profile/AmiracleTa'
+    - 'name': 'dogecloud'
+      'url': 'https://www.dogecloud.com'
+    - 'name': 'anzhiyu主题'
+      'url': 'https://hexo.anheyu.com/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Cao XinCao Xin''s Blog'
+      'url': 'https://www.caoxin.xyz/'
+    - 'name': 'Arthals'' ink所见高山远木，阔云流风；所幸岁月盈余，了无拘束'
+      'url': 'https://arthals.ink/'
+    - 'name': 'CWorld Site求知若愚，虚怀若谷'
+      'url': 'https://cworld0.com/'
+    - 'name': 'THW’s Blog前途似海，来日方长'
+      'url': 'https://tianhw.top/'
+    - 'name': 'Elykia致以无暇之人'
+      'url': 'https://blog.elykia.cn/'
+    - 'name': '枫の屋技术宅拯救世界！'
+      'url': 'https://6wd.cn'
+    - 'name': 'UTOPIA散落在世界一角的故事'
+      'url': 'https://ishya.top'
+    - 'name': 'Tianli自知之明是最可贵的知识！'
+      'url': 'https://blog.tianli0.top'
+    - 'name': 'Mo的记事簿万年鸽王，哈哈OvO'
+      'url': 'https://blog.xiowo.net'
+    - 'name': '栖童の小站越努力,越幸运'
+      'url': 'https://blog.linux-qitong.top'
+    - 'name': '咖啡豆子coffee的小站所有奇迹的始发点'
+      'url': 'https://blog.kfdzcoffee.cn'
+    - 'name': '博客框架为Hexo_v8.1.1'
+      'url': 'https://hexo.io/'

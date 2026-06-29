@@ -1,112 +1,104 @@
-site:
-  name: "刘明禅"
-  url: "https://huotravel.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "旅行"
-      url: "https://www.liuzen.com/category/travel"
-    - name: "国内游"
-      url: "https://www.liuzen.com/category/travel/china"
-    - name: "出境游"
-      url: "https://www.liuzen.com/category/travel/world"
-    - name: "寺庙游"
-      url: "https://www.liuzen.com/category/travel/temple"
-    - name: "景点排行"
-      url: "https://www.liuzen.com/category/travel/best10"
-    - name: "摄影技巧"
-      url: "https://www.liuzen.com/category/travel/museum"
-    - name: "禅修"
-      url: "https://www.liuzen.com/category/zen"
-    - name: "折腾"
-      url: "https://www.liuzen.com/category/tech"
-    - name: "日常"
-      url: "https://www.liuzen.com/category/life"
-    - name: "来博客栈"
-      url: "http://mlei.co/blog/"
-    - name: "部落格实战指南"
-      url: "https://ofeyhong.pixnet.net/blog/post/221581416"
-    - name: "品味苏州"
-      url: "https://pwsz.com"
-    - name: "杜老师说"
-      url: "https://dusays.com/"
-    - name: "Macin 筷子小手"
-      url: "https://www.macin.org/2023/03/12/jin-cheng-yi-ri/"
-    - name: "偷工减料"
-      url: "https://crossub.xiaowude.com/"
-    - name: "网易见外平台字幕"
-      url: "https://jianwai.netease.com/"
-    - name: "Oeasy老师教程"
-      url: "https://www.bilibili.com/video/BV1hs41117be?p=5&spm_id_from=pageDriver"
-    - name: "卢松松博客"
-      url: "https://lusongsong.com/"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/feeds.html"
-    - name: "老鹰主机"
-      url: "https://my.hawkhost.com/aff.php?aff=6991"
-    - name: "hostsailor"
-      url: "https://hostsailor.com/"
-    - name: "typingclub"
-      url: "https://www.typingclub.com/"
-    - name: "中国野生动物 Wildaid 救援"
-      url: "https://wildaidchina.org.cn/"
-    - name: "联合国儿童基金会"
-      url: "http://www.unicef.cn/"
-    - name: "International AIDS Society"
-      url: "http://www.iasociety.org/"
-    - name: "中国野生动物保护协会"
-      url: "http://www.cwca.org.cn/"
-    - name: "大自然保护协会"
-      url: "http://tnc.org.cn/#TNC#world"
-    - name: "我的 YouTube 频道"
-      url: "https://www.youtube.com/channel/UCKVL-igcx1ToCjFurwoF2Zw"
-    - name: "我的 BiliBili 频道"
-      url: "https://space.bilibili.com/476683226/"
-    - name: "Teacher Du"
-      url: "https://dusays.com"
-    - name: "2023/03/20 10:42"
-      url: "https://www.liuzen.com/links#comment-27"
-    - name: "回复"
-      url: "https://www.liuzen.com/links?replytocom=27#respond"
-    - name: "阿巴ing_"
-      url: "https://abaing.com"
-    - name: "2023/09/22 21:06"
-      url: "https://www.liuzen.com/links#comment-410"
-    - name: "回复"
-      url: "https://www.liuzen.com/links?replytocom=410#respond"
-    - name: "Huotravel"
-      url: "https://www.liuzen.com"
-    - name: "2023/09/22 21:14"
-      url: "https://www.liuzen.com/links#comment-411"
-    - name: "回复"
-      url: "https://www.liuzen.com/links?replytocom=411#respond"
-    - name: "刘明禅"
-      url: "https://www.liuzen.com/liumingchan"
-    - name: "联系"
-      url: "https://www.liuzen.com/contact"
-    - name: "警惕西安钟楼附近的缝补衣服，大部分是诈骗呢"
-      url: "https://www.liuzen.com/xian-fengbu.html"
-    - name: "世界地球日，保护万物生灵，是人类的职责"
-      url: "https://www.liuzen.com/4-22.html"
-    - name: "Final Cut Pro 如何正确使用代理模式，加快剪辑"
-      url: "https://www.liuzen.com/final-cut-pro2026.html"
-    - name: "植发后容易有毛囊炎，用康王或者采乐"
-      url: "https://www.liuzen.com/kangwang-zhifa.html"
-    - name: "吊干杏，甜如蜜，最好吃的西安杏子"
-      url: "https://www.liuzen.com/xian-diaoxinggan.html"
-    - name: "2026年春节照样去了荣成岗西大集"
-      url: "https://www.liuzen.com/shandong-rongcheng.html"
-    - name: "2026年OnlyFans注册订阅、成为创作者、提现绑卡教程大全"
-      url: "https://www.liuzen.com/2026-onlyfans.html"
-    - name: "写博客就写博客，千万别被自媒体平台带偏"
-      url: "https://www.liuzen.com/write-blog.html"
-    - name: "推荐一家西安北郊的螺味王螺蛳粉，味道十足，好吃到爆，卤猪脚鸡脚爆炸笋"
-      url: "https://www.liuzen.com/luosifnen-xian.html"
-    - name: "太原晋祠圣母殿的牌匾，“显灵昭济圣母”最为殊胜"
-      url: "https://www.liuzen.com/ty-jinci.html"
-    - name: "友情链接"
-      url: "https://www.liuzen.com/links"
-    - name: "网站地图"
-      url: "https://www.liuzen.com/sitemap.xml"
-    - name: "隐私政策"
-      url: "https://www.liuzen.com/privacy-policy"
+'site':
+  'name': '刘明禅'
+  'url': 'https://huotravel.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '旅行'
+      'url': 'https://www.liuzen.com/category/travel'
+    - 'name': '国内游'
+      'url': 'https://www.liuzen.com/category/travel/china'
+    - 'name': '出境游'
+      'url': 'https://www.liuzen.com/category/travel/world'
+    - 'name': '寺庙游'
+      'url': 'https://www.liuzen.com/category/travel/temple'
+    - 'name': '景点排行'
+      'url': 'https://www.liuzen.com/category/travel/best10'
+    - 'name': '摄影技巧'
+      'url': 'https://www.liuzen.com/category/travel/museum'
+    - 'name': '禅修'
+      'url': 'https://www.liuzen.com/category/zen'
+    - 'name': '折腾'
+      'url': 'https://www.liuzen.com/category/tech'
+    - 'name': '日常'
+      'url': 'https://www.liuzen.com/category/life'
+    - 'name': '来博客栈'
+      'url': 'http://mlei.co/blog/'
+    - 'name': '部落格实战指南'
+      'url': 'https://ofeyhong.pixnet.net/blog/post/221581416'
+    - 'name': '品味苏州'
+      'url': 'https://pwsz.com'
+    - 'name': '杜老师说'
+      'url': 'https://dusays.com/'
+    - 'name': 'Macin 筷子小手'
+      'url': 'https://www.macin.org/2023/03/12/jin-cheng-yi-ri/'
+    - 'name': '偷工减料'
+      'url': 'https://crossub.xiaowude.com/'
+    - 'name': '网易见外平台字幕'
+      'url': 'https://jianwai.netease.com/'
+    - 'name': '卢松松博客'
+      'url': 'https://lusongsong.com/'
+    - 'name': '老鹰主机'
+      'url': 'https://my.hawkhost.com/aff.php?aff=6991'
+    - 'name': 'hostsailor'
+      'url': 'https://hostsailor.com/'
+    - 'name': 'typingclub'
+      'url': 'https://www.typingclub.com/'
+    - 'name': '中国野生动物 Wildaid 救援'
+      'url': 'https://wildaidchina.org.cn/'
+    - 'name': '联合国儿童基金会'
+      'url': 'http://www.unicef.cn/'
+    - 'name': 'International AIDS Society'
+      'url': 'http://www.iasociety.org/'
+    - 'name': '中国野生动物保护协会'
+      'url': 'http://www.cwca.org.cn/'
+    - 'name': '大自然保护协会'
+      'url': 'http://tnc.org.cn/#TNC#world'
+    - 'name': '我的 YouTube 频道'
+      'url': 'https://www.youtube.com/channel/UCKVL-igcx1ToCjFurwoF2Zw'
+    - 'name': 'Teacher Du'
+      'url': 'https://dusays.com'
+    - 'name': '2023/03/20 10:42'
+      'url': 'https://www.liuzen.com/links#comment-27'
+    - 'name': '回复'
+      'url': 'https://www.liuzen.com/links?replytocom=27#respond'
+    - 'name': '阿巴ing_'
+      'url': 'https://abaing.com'
+    - 'name': '2023/09/22 21:06'
+      'url': 'https://www.liuzen.com/links#comment-410'
+    - 'name': '回复'
+      'url': 'https://www.liuzen.com/links?replytocom=410#respond'
+    - 'name': 'Huotravel'
+      'url': 'https://www.liuzen.com'
+    - 'name': '2023/09/22 21:14'
+      'url': 'https://www.liuzen.com/links#comment-411'
+    - 'name': '回复'
+      'url': 'https://www.liuzen.com/links?replytocom=411#respond'
+    - 'name': '刘明禅'
+      'url': 'https://www.liuzen.com/liumingchan'
+    - 'name': '联系'
+      'url': 'https://www.liuzen.com/contact'
+    - 'name': '警惕西安钟楼附近的缝补衣服，大部分是诈骗呢'
+      'url': 'https://www.liuzen.com/xian-fengbu.html'
+    - 'name': '世界地球日，保护万物生灵，是人类的职责'
+      'url': 'https://www.liuzen.com/4-22.html'
+    - 'name': 'Final Cut Pro 如何正确使用代理模式，加快剪辑'
+      'url': 'https://www.liuzen.com/final-cut-pro2026.html'
+    - 'name': '植发后容易有毛囊炎，用康王或者采乐'
+      'url': 'https://www.liuzen.com/kangwang-zhifa.html'
+    - 'name': '吊干杏，甜如蜜，最好吃的西安杏子'
+      'url': 'https://www.liuzen.com/xian-diaoxinggan.html'
+    - 'name': '2026年春节照样去了荣成岗西大集'
+      'url': 'https://www.liuzen.com/shandong-rongcheng.html'
+    - 'name': '2026年OnlyFans注册订阅、成为创作者、提现绑卡教程大全'
+      'url': 'https://www.liuzen.com/2026-onlyfans.html'
+    - 'name': '写博客就写博客，千万别被自媒体平台带偏'
+      'url': 'https://www.liuzen.com/write-blog.html'
+    - 'name': '推荐一家西安北郊的螺味王螺蛳粉，味道十足，好吃到爆，卤猪脚鸡脚爆炸笋'
+      'url': 'https://www.liuzen.com/luosifnen-xian.html'
+    - 'name': '太原晋祠圣母殿的牌匾，“显灵昭济圣母”最为殊胜'
+      'url': 'https://www.liuzen.com/ty-jinci.html'
+    - 'name': '网站地图'
+      'url': 'https://www.liuzen.com/sitemap.xml'
+    - 'name': '隐私政策'
+      'url': 'https://www.liuzen.com/privacy-policy'

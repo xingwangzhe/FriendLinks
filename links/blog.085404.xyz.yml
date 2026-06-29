@@ -1,36 +1,18 @@
-site:
-  name: "blog.085404.xyz"
-  description: "友情链接"
-  url: "https://blog.085404.xyz/"
-  links: "/friends"
-  friends:
-    - name: "GitHub"
-      url: "https://github.com/sun2ot"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/100592034"
-    - name: "ORCID"
-      url: "https://orcid.org/0009-0009-9236-4883"
-    - name: "Komari"
-      url: "https://komari.085404.xyz"
-    - name: "友链申请"
-      url: "https://docs.qq.com/form/page/DU0JSRkRkTnV2QUZx?tdocapp_full_screen=1&templateId=25000&create_type=2&no_promotion=1&is_blank_or_template=blank"
-    - name: "blog.zhheo.com"
-      url: "https://blog.zhheo.com/"
-    - name: "docs.mizuki.mysqil.com"
-      url: "https://docs.mizuki.mysqil.com"
-    - name: "www.dawn114514.site"
-      url: "https://www.dawn114514.site"
-    - name: "github.com"
-      url: "https://github.com/withastro/astro"
-    - name: "ftz.pages.dev"
-      url: "https://ftz.pages.dev"
-    - name: "elysium-stack.cn"
-      url: "https://elysium-stack.cn"
-    - name: "萌ICP备20240129号"
-      url: "https://icp.gov.moe/?keyword=20240129"
-    - name: "本站支持SSL安全访问"
-      url: "https://ipw.cn/ssl/?site=blog.085404.xyz"
-    - name: "Astro"
-      url: "https://astro.build"
-    - name: "Mizuki"
-      url: "https://github.com/matsuzaka-yuki/mizuki"
+'site':
+  'name': 'blog.085404.xyz'
+  'description': '友情链接'
+  'url': 'https://blog.085404.xyz/'
+  'links': '/friends'
+  'friends':
+    - 'name': 'ORCID'
+      'url': 'https://orcid.org/0009-0009-9236-4883'
+    - 'name': 'Komari'
+      'url': 'https://komari.085404.xyz'
+    - 'name': 'blog.zhheo.com'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'docs.mizuki.mysqil.com'
+      'url': 'https://docs.mizuki.mysqil.com'
+    - 'name': 'www.dawn114514.site'
+      'url': 'https://www.dawn114514.site'
+    - 'name': 'elysium-stack.cn'
+      'url': 'https://elysium-stack.cn'

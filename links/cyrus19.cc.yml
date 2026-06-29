@@ -1,108 +1,44 @@
-site:
-  name: "CC的数字花园"
-  url: "https://cyrus19.cc/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "全站索引 & 时间轴"
-      url: "https://cyrus19.cc/timeline"
-    - name: "日寄系列"
-      url: "https://cyrus19.cc/archives/category/suibiji/riji"
-    - name: "随笔"
-      url: "https://cyrus19.cc/archives/category/suibiji"
-    - name: "日常随笔"
-      url: "https://cyrus19.cc/archives/category/suibiji/richangsuibi"
-    - name: "复盘与长记录"
-      url: "https://cyrus19.cc/archives/category/suibiji/fupanyuchangjilu"
-    - name: "作品与补番记录"
-      url: "https://cyrus19.cc/archives/category/suibiji/zuopinyubufanjilu"
-    - name: "写书"
-      url: "https://cyrus19.cc/archives/category/duyuxie"
-    - name: "OW素材"
-      url: "https://cyrus19.cc/archives/category/duyuxie/owsucai"
-    - name: "OW灵感与设定"
-      url: "https://cyrus19.cc/archives/category/duyuxie/owlingganyusheding"
-    - name: "CP灵感碎片与段落收集"
-      url: "https://cyrus19.cc/archives/category/duyuxie/cplinggansuipianyuduanluoshouji"
-    - name: "CP长篇摘抄"
-      url: "https://cyrus19.cc/archives/category/duyuxie/cpchangpianzhaichao"
-    - name: "OW完整篇章"
-      url: "https://cyrus19.cc/archives/category/duyuxie/owwanzhengpianzhang"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "碎碎念"
-      url: "https://cyrus19.cc/1-2"
-    - name: "链接"
-      url: "https://cyrus19.cc/links"
-    - name: "寻人启事"
-      url: "https://cyrus19.cc/archives/1246"
-    - name: "118\n\t\t\t\t\t\t\t\t\t\t文章"
-      url: "https://cyrus19.cc/?page_id=94"
-    - name: "RSS订阅"
-      url: "https://cyrus19.cc/feed"
-    - name: "NAS网络存储 0"
-      url: "https://cyrus19.cc/archives/category/kaifajilu/naswangluocunchu"
-    - name: "关于CC的一切 7"
-      url: "https://cyrus19.cc/archives/category/guanyuccdeyiqie"
-    - name: "单片机 0"
-      url: "https://cyrus19.cc/archives/category/kaifajilu/danpianji"
-    - name: "开发记录 0"
-      url: "https://cyrus19.cc/archives/category/kaifajilu"
-    - name: "杂项 1"
-      url: "https://cyrus19.cc/archives/category/uncategorized"
-    - name: "知识梳理 0"
-      url: "https://cyrus19.cc/archives/category/zhishishuli"
-    - name: "科普存档 3"
-      url: "https://cyrus19.cc/archives/category/kepucundang"
-    - name: "网站 0"
-      url: "https://cyrus19.cc/archives/category/kaifajilu/wangzhan"
-    - name: "Splatoon 0"
-      url: "https://cyrus19.cc/archives/tag/splatoon"
-    - name: "莫比乌斯"
-      url: "https://onojyun.com/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "Prologue"
-      url: "https://prologue.dev/"
-    - name: "阿锋的小宇宙"
-      url: "https://feng.pub"
-    - name: "白熊阿丸的小屋"
-      url: "https://bxaw.name/"
-    - name: "CC米饭"
-      url: "https://box.ccrice.com/"
-    - name: "松易涅的写作分享站"
-      url: "https://www.sungyinieh.com/"
-    - name: "極客死亡計劃"
-      url: "https://www.geedea.pro/"
-    - name: "第三夏尔"
-      url: "https://thirdshire.com"
-    - name: "纸糖织猫"
-      url: "https://brsu.me/"
-    - name: "孤斗"
-      url: "https://d-d.design"
-    - name: "金色河流"
-      url: "https://goldenriver.site/"
-    - name: "陈仓颉"
-      url: "https://imzm.im/"
-    - name: "消解炼金术"
-      url: "https://melusinn.net/"
-    - name: "时歌的博客"
-      url: "https://www.lapis.cafe"
-    - name: "个站商店"
-      url: "https://storeweb.cn/"
-    - name: "BlogFinder"
-      url: "https://bf.zzxworld.com/"
-    - name: "素问"
-      url: "https://sooon.ai/home/feed"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/"
-    - name: "2750 words"
-      url: "https://pathos.page/"
-    - name: "Rhizome"
-      url: "https://dongrentianyu.github.io/rhizome/"
-    - name: "Rolen's Blog"
-      url: "https://rolen.wiki/"
-    - name: "WordPress"
-      url: "https://wordpress.org/"
-    - name: "Argon"
-      url: "https://github.com/solstice23/argon-theme"
+'site':
+  'name': 'CC的数字花园'
+  'url': 'https://cyrus19.cc/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '莫比乌斯'
+      'url': 'https://onojyun.com/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Prologue'
+      'url': 'https://prologue.dev/'
+    - 'name': '阿锋的小宇宙'
+      'url': 'https://feng.pub'
+    - 'name': '白熊阿丸的小屋'
+      'url': 'https://bxaw.name/'
+    - 'name': 'CC米饭'
+      'url': 'https://box.ccrice.com/'
+    - 'name': '松易涅的写作分享站'
+      'url': 'https://www.sungyinieh.com/'
+    - 'name': '極客死亡計劃'
+      'url': 'https://www.geedea.pro/'
+    - 'name': '第三夏尔'
+      'url': 'https://thirdshire.com'
+    - 'name': '纸糖织猫'
+      'url': 'https://brsu.me/'
+    - 'name': '孤斗'
+      'url': 'https://d-d.design'
+    - 'name': '金色河流'
+      'url': 'https://goldenriver.site/'
+    - 'name': '陈仓颉'
+      'url': 'https://imzm.im/'
+    - 'name': '消解炼金术'
+      'url': 'https://melusinn.net/'
+    - 'name': '时歌的博客'
+      'url': 'https://www.lapis.cafe'
+    - 'name': 'BlogFinder'
+      'url': 'https://bf.zzxworld.com/'
+    - 'name': '素问'
+      'url': 'https://sooon.ai/home/feed'
+    - 'name': '2750 words'
+      'url': 'https://pathos.page/'
+    - 'name': 'Rolen''s Blog'
+      'url': 'https://rolen.wiki/'

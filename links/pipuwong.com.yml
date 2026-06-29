@@ -1,68 +1,58 @@
-site:
-  name: "pipuwong.com"
-  description: "友情链接"
-  url: "https://pipuwong.com/"
-  links: "/friends"
-  friends:
-    - name: "雅余  一位爱喝咖啡的产品经理曾经是位设计师，偶尔捣腾代码，不玩摄影的时候也泡泡工夫茶"
-      url: "https://yayu.net?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "Docker Wu  设计、摄影、代码"
-      url: "https://doctorwu.me?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "张洪Heo  设计师、产品经理、独立开发者、博主"
-      url: "https://blog.zhheo.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "我不是咕咕鸽  乐于分享docker部署知识"
-      url: "https://blog.laoda.de/?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "木木木木木  五木老师"
-      url: "https://immmmm.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "东评西就  80 后互联网老司机，专注于科技互联网、社交媒体运营领域"
-      url: "https://dongjunke.cn?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "拾月  英文 ID SKYue"
-      url: "https://www.skyue.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "Very Jack  Blogger、摄影爱好者"
-      url: "https://veryjack.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "Morick莫里克  2000 年，双非机械专业硕士生，但是并不热爱机械"
-      url: "https://www.morick66.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "大大的小蜗牛  工作于电商之都。后为生计南下深港"
-      url: "https://www.eallion.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "Bensz  一名医生"
-      url: "https://blognas.hwb0307.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "無名小栈  前端开发工程师、独立开发者、博主码"
-      url: "https://blog.imsyy.top?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "清羽飞扬  充满热情和理想的ENFJ-T"
-      url: "https://blog.liushen.fun?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "刘郎阁  记录生活、分享经验、见解和兴趣"
-      url: "https://vjo.cc/?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "若志  愿世界安康，愿你我皆好"
-      url: "https://www.rz.sb?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "Jerry Zhou  一名 OIer 和数码爱好者"
-      url: "https://blog.jerryz.com.cn?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "风记星辰  热爱你来过的每度温暖"
-      url: "https://www.thyuu.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "那个码农  偶尔触发 E 型人格喜欢与路人聊天互动"
-      url: "https://blog.thatcoder.cn?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "Moreality's Blog  The singularity is nearer"
-      url: "https://blog.roccoshi.top?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "Corey Chiu  一位居住在中国深圳的软件开发工程师，喜欢编码和旅行"
-      url: "https://coreychiu.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "技研录  代码重构世界，逻辑解构真理"
-      url: "https://linmohan.fun?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "Rico  写代码的设计师"
-      url: "https://www.ricoui.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "Liruifeng  Web 开发者，Astro 项目成员，开源爱好者。"
-      url: "https://liruifengv.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link"
-    - name: "腾讯云"
-      url: "https://curl.qcloud.com/PwRCf3zm"
-    - name: "Astro"
-      url: "https://astro.build/"
-    - name: "Tailwindcss"
-      url: "https://tailwindcss.com/"
-    - name: "流量 |"
-      url: "https://umami.pipulab.com/share/nbTOpsd7ZY4fRtHU/pipuwong.com"
-    - name: "状态 |"
-      url: "https://status.pipu.studio/status/1"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn"
-    - name: "博友圈"
-      url: "https://www.boyouquan.com/home"
-    - name: "开往"
-      url: "https://www.travellings.cn/plain.html"
+'site':
+  'name': 'pipuwong.com'
+  'description': '友情链接'
+  'url': 'https://pipuwong.com/'
+  'links': '/friends'
+  'friends':
+    - 'name': '雅余  一位爱喝咖啡的产品经理曾经是位设计师，偶尔捣腾代码，不玩摄影的时候也泡泡工夫茶'
+      'url': 'https://yayu.net?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': 'Docker Wu  设计、摄影、代码'
+      'url': 'https://doctorwu.me?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': '张洪Heo  设计师、产品经理、独立开发者、博主'
+      'url': 'https://blog.zhheo.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': '我不是咕咕鸽  乐于分享docker部署知识'
+      'url': 'https://blog.laoda.de/?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': '木木木木木  五木老师'
+      'url': 'https://immmmm.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': '东评西就  80 后互联网老司机，专注于科技互联网、社交媒体运营领域'
+      'url': 'https://dongjunke.cn?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': '拾月  英文 ID SKYue'
+      'url': 'https://www.skyue.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': 'Very Jack  Blogger、摄影爱好者'
+      'url': 'https://veryjack.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': 'Morick莫里克  2000 年，双非机械专业硕士生，但是并不热爱机械'
+      'url': 'https://www.morick66.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': '大大的小蜗牛  工作于电商之都。后为生计南下深港'
+      'url': 'https://www.eallion.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': 'Bensz  一名医生'
+      'url': 'https://blognas.hwb0307.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': '無名小栈  前端开发工程师、独立开发者、博主码'
+      'url': 'https://blog.imsyy.top?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': '清羽飞扬  充满热情和理想的ENFJ-T'
+      'url': 'https://blog.liushen.fun?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': '刘郎阁  记录生活、分享经验、见解和兴趣'
+      'url': 'https://vjo.cc/?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': '若志  愿世界安康，愿你我皆好'
+      'url': 'https://www.rz.sb?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': 'Jerry Zhou  一名 OIer 和数码爱好者'
+      'url': 'https://blog.jerryz.com.cn?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': '风记星辰  热爱你来过的每度温暖'
+      'url': 'https://www.thyuu.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': '那个码农  偶尔触发 E 型人格喜欢与路人聊天互动'
+      'url': 'https://blog.thatcoder.cn?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': 'Moreality''s Blog  The singularity is nearer'
+      'url': 'https://blog.roccoshi.top?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': 'Corey Chiu  一位居住在中国深圳的软件开发工程师，喜欢编码和旅行'
+      'url': 'https://coreychiu.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': '技研录  代码重构世界，逻辑解构真理'
+      'url': 'https://linmohan.fun?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': 'Rico  写代码的设计师'
+      'url': 'https://www.ricoui.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': 'Liruifeng  Web 开发者，Astro 项目成员，开源爱好者。'
+      'url': 'https://liruifengv.com?utm_source=pipuwong.com&utm_medium=referral&utm_campaign=external-link'
+    - 'name': '腾讯云'
+      'url': 'https://curl.qcloud.com/PwRCf3zm'
+    - 'name': 'Tailwindcss'
+      'url': 'https://tailwindcss.com/'
+    - 'name': '流量 |'
+      'url': 'https://umami.pipulab.com/share/nbTOpsd7ZY4fRtHU/pipuwong.com'

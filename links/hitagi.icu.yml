@@ -1,26 +1,20 @@
-site:
-  name: "hitagi.icu"
-  description: "友情链接"
-  url: "https://hitagi.icu/"
-  links: "/link"
-  friends:
-    - name: "Hexo\n      快速、簡單且強大的網誌框架"
-      url: "https://hexo.io/zh-tw/"
-    - name: "June's Blog\n      遇事不决，可问春风"
-      url: "https://blog.june-pj.cn/"
-    - name: "Tianli\n      自知之明是最可贵的知识！"
-      url: "https://tianli-blog.club/"
-    - name: "理随。\n      生而无畏，站至终章"
-      url: "https://lisui.top/"
-    - name: "清羽飞扬\n      柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
-      url: "https://blog.qyliu.top/"
-    - name: "Ariasakaの小窝\n      人有悲欢离合 月有阴晴圆缺"
-      url: "https://blog.yaria.top"
-    - name: "Youtube\n      視頻網站"
-      url: "https://www.youtube.com/"
-    - name: "Weibo\n      中國最大社交分享平台"
-      url: "https://www.weibo.com/"
-    - name: "Twitter\n      社交分享平台"
-      url: "https://twitter.com/"
-    - name: "Follow Me"
-      url: "https://github.com/Echo-xzp"
+'site':
+  'name': 'hitagi.icu'
+  'description': '友情链接'
+  'url': 'https://hitagi.icu/'
+  'links': '/link'
+  'friends':
+    - 'name': "Hexo\n      快速、簡單且強大的網誌框架"
+      'url': 'https://hexo.io/zh-tw/'
+    - 'name': "June's Blog\n      遇事不决，可问春风"
+      'url': 'https://blog.june-pj.cn/'
+    - 'name': "Tianli\n      自知之明是最可贵的知识！"
+      'url': 'https://tianli-blog.club/'
+    - 'name': "理随。\n      生而无畏，站至终章"
+      'url': 'https://lisui.top/'
+    - 'name': "清羽飞扬\n      柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
+      'url': 'https://blog.qyliu.top/'
+    - 'name': "Ariasakaの小窝\n      人有悲欢离合 月有阴晴圆缺"
+      'url': 'https://blog.yaria.top'
+    - 'name': "Youtube\n      視頻網站"
+      'url': 'https://www.youtube.com/'

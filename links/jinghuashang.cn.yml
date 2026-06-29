@@ -1,50 +1,48 @@
-site:
-  name: 屑殇
-  description: 屑殇的个人博客
-  url: https://jinghuashang.cn/
-  links: /link
-  friends:
-    - name: 安知鱼`Blog
-      url: https://blog.anheyu.com/
-    - name: 铭心石刻
-      url: https://blog.kouseki.cn
-    - name: 葱苓sama
-      url: https://blog.ciraos.top
-    - name: rencai
-      url: https://www.btrencai.top
-    - name: 小植の小破站
-      url: https://blog.xiaoztx.top
-    - name: 探人间
-      url: https://www.hydsb0.com
-    - name: 神经蛙
-      url: https://hexo.sjava.cn/
-    - name: Pupper
-      url: https://pupper.cn
-    - name: Mo的记事簿
-      url: https://blog.xiowo.net/
-    - name: Akilarの糖果屋
-      url: https://akilar.top/
-    - name: 青桔气球
-      url: https://blog.qjqq.cn/
-    - name: 桜紺狸の部落阁
-      url: https://www.skira.top
-    - name: Qeem
-      url: http://itstarqeem.space
-    - name: Moeyy Blog
-      url: https://moeyy.cn
-    - name: Plasmon222
-      url: https://blog.loveak.top/
-    - name: Calyee
-      url: https://blog.calyee.top/
-    - name: 星隅の小站
-      url: https://www.shingyu.cn
-    - name: 十玖八柒
-      url: https://blog.ahzoo.cn
-    - name: Elykia
-      url: https://blog.elykia.cn/
-    - name: Lucas的小博客
-      url: https://blog.lris625.top/
-    - name: LKYU
-      url: https://blog.lkyu.cf/
-    - name: L菌の导航站
-      url: https://www.lcatnya.top
+'site':
+  'name': '屑殇'
+  'description': '屑殇的个人博客'
+  'url': 'https://jinghuashang.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '安知鱼`Blog'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '铭心石刻'
+      'url': 'https://blog.kouseki.cn'
+    - 'name': '葱苓sama'
+      'url': 'https://blog.ciraos.top'
+    - 'name': 'rencai'
+      'url': 'https://www.btrencai.top'
+    - 'name': '小植の小破站'
+      'url': 'https://blog.xiaoztx.top'
+    - 'name': '探人间'
+      'url': 'https://www.hydsb0.com'
+    - 'name': '神经蛙'
+      'url': 'https://hexo.sjava.cn/'
+    - 'name': 'Pupper'
+      'url': 'https://pupper.cn'
+    - 'name': 'Mo的记事簿'
+      'url': 'https://blog.xiowo.net/'
+    - 'name': 'Akilarの糖果屋'
+      'url': 'https://akilar.top/'
+    - 'name': '青桔气球'
+      'url': 'https://blog.qjqq.cn/'
+    - 'name': '桜紺狸の部落阁'
+      'url': 'https://www.skira.top'
+    - 'name': 'Qeem'
+      'url': 'http://itstarqeem.space'
+    - 'name': 'Moeyy Blog'
+      'url': 'https://moeyy.cn'
+    - 'name': 'Plasmon222'
+      'url': 'https://blog.loveak.top/'
+    - 'name': 'Calyee'
+      'url': 'https://blog.calyee.top/'
+    - 'name': '星隅の小站'
+      'url': 'https://www.shingyu.cn'
+    - 'name': '十玖八柒'
+      'url': 'https://blog.ahzoo.cn'
+    - 'name': 'Elykia'
+      'url': 'https://blog.elykia.cn/'
+    - 'name': 'Lucas的小博客'
+      'url': 'https://blog.lris625.top/'
+    - 'name': 'LKYU'
+      'url': 'https://blog.lkyu.cf/'

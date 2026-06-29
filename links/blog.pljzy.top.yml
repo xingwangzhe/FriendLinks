@@ -1,180 +1,116 @@
-site:
-  name: "ZY知识库"
-  url: "https://blog.pljzy.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "爱发电-支持我"
-      url: "https://afdian.com/a/pljzy"
-    - name: "图片转Ico"
-      url: "https://ico.pljzy.top"
-    - name: "文件快递柜"
-      url: "https://www.pljzy.top/share"
-    - name: "日历记账系统"
-      url: "https://www.pljzy.top/bookkeeping.html"
-    - name: "便签墙"
-      url: "https://pljzy.top/note.html"
-    - name: "便签墙交互版"
-      url: "https://www.pljzy.top/noteweb"
-    - name: "网站监控"
-      url: "https://stats.uptimerobot.com/f3bIMzwfwF"
-    - name: "旧站"
-      url: "https://pljzy.top"
-    - name: "开往🚆"
-      url: "https://www.travellings.cn/go.html"
-    - name: "博客园技术分享与学习交流的园地"
-      url: "https://www.cnblogs.com/ZYPLJ/"
-    - name: "云深知处在喧嚣世界寻求片刻宁静"
-      url: "https://www.jjy2023.cn/"
-    - name: "空屿一颗树，一座灯塔，一座岛"
-      url: "https://pinaland.cn/"
-    - name: "Xeonzilla's NoteYuri is life."
-      url: "https://xeonzilla.top/"
-    - name: "Horean's BlogSpread the Knowledge Wisely & Widely"
-      url: "https://blog.hxrch.top"
-    - name: "SLHAF's blogSLHAF的个人博客"
-      url: "https://blog.slhaf.work/"
-    - name: "joeytodayShow, not tell. Thinking, Reading, Writing."
-      url: "https://joeytoday.com"
-    - name: "Guoweiyi不知何时春日悄来临， 不知何日春花已落尽。"
-      url: "https://gwy.fun"
-    - name: "Lan小站Lan小站"
-      url: "https://www.lanol.cn/"
-    - name: "飞鸟一只平凡的鸟罢了。"
-      url: "https://lzxjack.top"
-    - name: "iMaeGoo’s Blog虹墨空间站"
-      url: "https://www.imaegoo.com"
-    - name: "个站商店个站商店"
-      url: "https://storeweb.cn/site/o/2235"
-    - name: "云海花瑶我相信一切都会好起来的！"
-      url: "https://www.moeyao.cn/"
-    - name: "澄沨的漫游茶记Stay hungry, Stay foolish."
-      url: "https://champhoon.xyz/"
-    - name: "乱话三千养了一只叫基金的可爱小猫,平时会写点技术向的东西,有点做饭的小爱好"
-      url: "https://www.zanks.link"
-    - name: "Elin's BlogElin's Blog个人博客"
-      url: "https://elin521.cn"
-    - name: "远方博客因为喜欢，所以折腾！"
-      url: "https://blog.ltyuanfang.cn/"
-    - name: "伏枥之间莫听穿林打叶声，何妨吟啸且徐行。"
-      url: "https://www.leehenry.top"
-    - name: "酥米的小站终有一日，寻梦中人"
-      url: "https://www.sumi233.top/"
-    - name: "天海博客建站经验记录，实用工具推荐，免费资源分享。"
-      url: "https://woolyun.com/"
-    - name: "小野博客小野（Hirono）博客的个人网站，主要讲述关于小野的一些陈芝麻烂谷子事。网络、生活、我的主张，也是一个自留地"
-      url: "https://lb5.net/"
-    - name: "TimochanのBlogLet's start learning"
-      url: "https://www.timochan.cn/"
-    - name: "郭飞的笔记郭飞的笔记"
-      url: "https://www.guofei.site/"
-    - name: "peachRL的小站万亿及秭"
-      url: "https://wanyijizi.com"
-    - name: "繁华如风的小站醉后不知天在水,满船清梦压星河。"
-      url: "https://fhrf.top"
-    - name: "mccsjs点一盏灯，等一个迷路的夜🍁🍁🍁"
-      url: "https://mccsjs.eu.org/"
-    - name: "THW's Blog前途似海，来日方长"
-      url: "https://blog.tianhw.top"
-    - name: "阿叶Ayeez记录自己的学习历程，记录自己的美好生活"
-      url: "https://blog.Ayeez.cn"
-    - name: "夏夜流萤总有一场相遇，是互相喜欢的！"
-      url: "https://blog.cuteleaf.cn"
-    - name: "绘星里一起来绘制属于自己的星星！"
-      url: "https://blog.storia.ren/"
-    - name: "Thun888夏日当空，心如深渊"
-      url: "https://blog.hzchu.top/"
-    - name: "fishcpy的小破站非淡泊无以明志，非宁静无以致远"
-      url: "https://blog.fis.ink"
-    - name: "花墨好耶！是再花猫猫头ฅ•ω•ฅ"
-      url: "https://flowersink.com"
-    - name: "鈴奈咲桜のBlog愛することを忘れないで"
-      url: "https://blog.sakura.ink"
-    - name: "LYEy_isine个人博客花海无一日,少年踏自来"
-      url: "https://caiyifeng.top/"
-    - name: "LANSGANBS's Blog红叶最多情，一舞寄相思。"
-      url: "https://www.lansganbs.cn/"
-    - name: "幽默的小刘吖的博客每天分享不一样的知识内容"
-      url: "https://blog.lzch.top/"
-    - name: "千纸鹤《千纸鹤》是一个关于个人成长、心灵探索和生活哲学的博客。"
-      url: "http://blog.wilsonzy.cn/"
-    - name: "拾音集收集生活里的声与光"
-      url: "https://blog.tibtob.cn/"
-    - name: "浪小舟的博客向利而生，随心而活"
-      url: "https://blog.lonzov.top/"
-    - name: "栖梦集一席小筑结网缘，半分禅意伴闲言"
-      url: "https://www.lafoyer.com"
-    - name: "Serenity热爱可抵岁月漫长"
-      url: "https://www.aobp.cn/"
-    - name: "Inalineの小站此情可待成追忆，只是当时已惘然"
-      url: "https://inaline.net"
-    - name: "许耿彬的博客许耿彬的博客"
-      url: "https://xugengbin.com/"
-    - name: "小慧博客小慧的技术博客"
-      url: "https://www.itxiaohui.top/"
-    - name: "TXT转电子书工具将TXT文本文件转换为EPUB、MOBI、AZW3等电子书格式"
-      url: "https://ebook.deali.cn/"
-    - name: "https://github.com/ZyPLJ/fuwai_zyplj/issues"
-      url: "https://github.com/ZyPLJ/fuwai_zyplj/issues"
-    - name: "https://blog.pljzy.top/"
-      url: "https://blog.pljzy.top/"
-    - name: "https://blog.pljzy.top/_astro/logo.BxIxyJV1_Z19cEQW.webp"
-      url: "https://blog.pljzy.top/_astro/logo.BxIxyJV1_Z19cEQW.webp"
-    - name: "小慧博客"
-      url: "http://www.itxiaohui.top"
-    - name: "https://www.itxiaohui.top/\""
-      url: "https://www.itxiaohui.top/\""
-    - name: "https://blogoss.itxiaohui.top/logo%20-uhlgnmrf.png\""
-      url: "https://blogoss.itxiaohui.top/logo%20-uhlgnmrf.png\""
-    - name: "https://www.itxiaohui.top/rss.xml\""
-      url: "https://www.itxiaohui.top/rss.xml\""
-    - name: "https://www.itxiaohui.top/links"
-      url: "https://www.itxiaohui.top/links"
-    - name: "ZY"
-      url: "https://blog.pljzy.top"
-    - name: "https://serenity.aobp.cn/）："
-      url: "https://serenity.aobp.cn/%EF%BC%89%EF%BC%9A"
-    - name: "https://www..aobp.cn/upload/%E5%A4%B4%E5%83%8F.png"
-      url: "https://www..aobp.cn/upload/%E5%A4%B4%E5%83%8F.png"
-    - name: "https://www..aobp.cn/rss.xml"
-      url: "https://www..aobp.cn/rss.xml"
-    - name: "https://www..aobp.cn/links"
-      url: "https://www..aobp.cn/links"
-    - name: "阿叶Ayeez"
-      url: "https://blog.ayeez.cn"
-    - name: "https://butterfly.ayeez.cn"
-      url: "https://butterfly.ayeez.cn"
-    - name: "https://qiniu.ayeez.cn/avatar.jpg"
-      url: "https://qiniu.ayeez.cn/avatar.jpg"
-    - name: "https://github.com/Ayeez757/AyeezBlog（欢迎"
-      url: "https://github.com/Ayeez757/AyeezBlog%EF%BC%88%E6%AC%A2%E8%BF%8E"
-    - name: "许耿彬"
-      url: "http://xgb819.github.io"
-    - name: "https://xgb819.github.io"
-      url: "https://xgb819.github.io"
-    - name: "许耿彬"
-      url: "https://xugengbin.com"
-    - name: "HelloGakki"
-      url: "https://pinaland.cn"
-    - name: "https://blog.storia.ren/images/icon.png"
-      url: "https://blog.storia.ren/images/icon.png"
-    - name: "Horean"
-      url: "https://www.hxrch.top"
-    - name: "https://img.hxrch.top/bfav256.webp"
-      url: "https://img.hxrch.top/bfav256.webp"
-    - name: "Inaline"
-      url: "http://inaline.net"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Astro"
-      url: "https://astro.build"
-    - name: "Fuwari"
-      url: "https://github.com/ZyPLJ/fuwai_zyplj"
-    - name: "萌ICP备20257915号"
-      url: "https://icp.gov.moe/?keyword=20257915"
-    - name: "异次元之旅"
-      url: "https://travel.moe/go.html"
-    - name: "茶ICP备2025080106号"
-      url: "https://icp.redcha.cn/beian/ICP-2025080106.html"
-    - name: "湘ICP备2024053728号"
-      url: "https://beian.miit.gov.cn"
+'site':
+  'name': 'ZY知识库'
+  'url': 'https://blog.pljzy.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '爱发电-支持我'
+      'url': 'https://afdian.com/a/pljzy'
+    - 'name': '图片转Ico'
+      'url': 'https://ico.pljzy.top'
+    - 'name': '文件快递柜'
+      'url': 'https://www.pljzy.top/share'
+    - 'name': '日历记账系统'
+      'url': 'https://www.pljzy.top/bookkeeping.html'
+    - 'name': '便签墙'
+      'url': 'https://pljzy.top/note.html'
+    - 'name': '便签墙交互版'
+      'url': 'https://www.pljzy.top/noteweb'
+    - 'name': '旧站'
+      'url': 'https://pljzy.top'
+    - 'name': '博客园技术分享与学习交流的园地'
+      'url': 'https://www.cnblogs.com/ZYPLJ/'
+    - 'name': '云深知处在喧嚣世界寻求片刻宁静'
+      'url': 'https://www.jjy2023.cn/'
+    - 'name': '空屿一颗树，一座灯塔，一座岛'
+      'url': 'https://pinaland.cn/'
+    - 'name': 'Xeonzilla''s NoteYuri is life.'
+      'url': 'https://xeonzilla.top/'
+    - 'name': 'Horean''s BlogSpread the Knowledge Wisely & Widely'
+      'url': 'https://blog.hxrch.top'
+    - 'name': 'SLHAF''s blogSLHAF的个人博客'
+      'url': 'https://blog.slhaf.work/'
+    - 'name': 'joeytodayShow, not tell. Thinking, Reading, Writing.'
+      'url': 'https://joeytoday.com'
+    - 'name': 'Guoweiyi不知何时春日悄来临， 不知何日春花已落尽。'
+      'url': 'https://gwy.fun'
+    - 'name': 'Lan小站Lan小站'
+      'url': 'https://www.lanol.cn/'
+    - 'name': '飞鸟一只平凡的鸟罢了。'
+      'url': 'https://lzxjack.top'
+    - 'name': 'iMaeGoo’s Blog虹墨空间站'
+      'url': 'https://www.imaegoo.com'
+    - 'name': '云海花瑶我相信一切都会好起来的！'
+      'url': 'https://www.moeyao.cn/'
+    - 'name': '澄沨的漫游茶记Stay hungry, Stay foolish.'
+      'url': 'https://champhoon.xyz/'
+    - 'name': '乱话三千养了一只叫基金的可爱小猫,平时会写点技术向的东西,有点做饭的小爱好'
+      'url': 'https://www.zanks.link'
+    - 'name': 'Elin''s BlogElin''s Blog个人博客'
+      'url': 'https://elin521.cn'
+    - 'name': '远方博客因为喜欢，所以折腾！'
+      'url': 'https://blog.ltyuanfang.cn/'
+    - 'name': '伏枥之间莫听穿林打叶声，何妨吟啸且徐行。'
+      'url': 'https://www.leehenry.top'
+    - 'name': '酥米的小站终有一日，寻梦中人'
+      'url': 'https://www.sumi233.top/'
+    - 'name': '小野博客小野（Hirono）博客的个人网站，主要讲述关于小野的一些陈芝麻烂谷子事。网络、生活、我的主张，也是一个自留地'
+      'url': 'https://lb5.net/'
+    - 'name': 'TimochanのBlogLet''s start learning'
+      'url': 'https://www.timochan.cn/'
+    - 'name': '郭飞的笔记郭飞的笔记'
+      'url': 'https://www.guofei.site/'
+    - 'name': 'peachRL的小站万亿及秭'
+      'url': 'https://wanyijizi.com'
+    - 'name': '繁华如风的小站醉后不知天在水,满船清梦压星河。'
+      'url': 'https://fhrf.top'
+    - 'name': 'mccsjs点一盏灯，等一个迷路的夜🍁🍁🍁'
+      'url': 'https://mccsjs.eu.org/'
+    - 'name': 'THW''s Blog前途似海，来日方长'
+      'url': 'https://blog.tianhw.top'
+    - 'name': '阿叶Ayeez记录自己的学习历程，记录自己的美好生活'
+      'url': 'https://blog.Ayeez.cn'
+    - 'name': '夏夜流萤总有一场相遇，是互相喜欢的！'
+      'url': 'https://blog.cuteleaf.cn'
+    - 'name': '绘星里一起来绘制属于自己的星星！'
+      'url': 'https://blog.storia.ren/'
+    - 'name': 'Thun888夏日当空，心如深渊'
+      'url': 'https://blog.hzchu.top/'
+    - 'name': 'fishcpy的小破站非淡泊无以明志，非宁静无以致远'
+      'url': 'https://blog.fis.ink'
+    - 'name': '花墨好耶！是再花猫猫头ฅ•ω•ฅ'
+      'url': 'https://flowersink.com'
+    - 'name': '鈴奈咲桜のBlog愛することを忘れないで'
+      'url': 'https://blog.sakura.ink'
+    - 'name': 'LYEy_isine个人博客花海无一日,少年踏自来'
+      'url': 'https://caiyifeng.top/'
+    - 'name': 'LANSGANBS''s Blog红叶最多情，一舞寄相思。'
+      'url': 'https://www.lansganbs.cn/'
+    - 'name': '幽默的小刘吖的博客每天分享不一样的知识内容'
+      'url': 'https://blog.lzch.top/'
+    - 'name': '千纸鹤《千纸鹤》是一个关于个人成长、心灵探索和生活哲学的博客。'
+      'url': 'http://blog.wilsonzy.cn/'
+    - 'name': '拾音集收集生活里的声与光'
+      'url': 'https://blog.tibtob.cn/'
+    - 'name': '浪小舟的博客向利而生，随心而活'
+      'url': 'https://blog.lonzov.top/'
+    - 'name': '栖梦集一席小筑结网缘，半分禅意伴闲言'
+      'url': 'https://www.lafoyer.com'
+    - 'name': 'Serenity热爱可抵岁月漫长'
+      'url': 'https://www.aobp.cn/'
+    - 'name': 'Inalineの小站此情可待成追忆，只是当时已惘然'
+      'url': 'https://inaline.net'
+    - 'name': '许耿彬的博客许耿彬的博客'
+      'url': 'https://xugengbin.com/'
+    - 'name': '小慧博客小慧的技术博客'
+      'url': 'https://www.itxiaohui.top/'
+    - 'name': '小慧博客'
+      'url': 'http://www.itxiaohui.top'
+    - 'name': '许耿彬'
+      'url': 'https://xugengbin.com'
+    - 'name': 'HelloGakki'
+      'url': 'https://pinaland.cn'
+    - 'name': 'Horean'
+      'url': 'https://www.hxrch.top'
+    - 'name': 'Inaline'
+      'url': 'http://inaline.net'

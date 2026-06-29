@@ -1,24 +1,16 @@
-site:
-  name: "Hsyac"
-  url: "https://hsyac.github.io/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "点我申请互换链接"
-      url: "https://wj.qq.com/s2/15231112/43fb/"
-    - name: "张洪"
-      url: "https://blog.zhheo.com/"
-    - name: "Hexo"
-      url: "https://hexo.io/zh-cn/docs/writing"
-    - name: "Jayden's site"
-      url: "https://xxu.do/"
-    - name: "❖星港◎Star☆"
-      url: "https://blog.starsharbor.com"
-    - name: "baozongwi"
-      url: "http://baozongwi.xyz/"
-    - name: "Github"
-      url: "https://github.com/HSYAC"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/3546574542080360"
-    - name: "Douyin"
-      url: "https://www.douyin.com/user/MS4wLjABAAAA1RD9Z5FnuK_Y6XjC9oZzOulx8IcWVO8EXHZ61kgF_nDpn5ZhUKewg__8qfTfymXc"
+'site':
+  'name': 'Hsyac'
+  'url': 'https://hsyac.github.io/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '张洪'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Jayden''s site'
+      'url': 'https://xxu.do/'
+    - 'name': '❖星港◎Star☆'
+      'url': 'https://blog.starsharbor.com'
+    - 'name': 'baozongwi'
+      'url': 'http://baozongwi.xyz/'
+    - 'name': 'Douyin'
+      'url': 'https://www.douyin.com/user/MS4wLjABAAAA1RD9Z5FnuK_Y6XjC9oZzOulx8IcWVO8EXHZ61kgF_nDpn5ZhUKewg__8qfTfymXc'

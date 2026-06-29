@@ -1,44 +1,18 @@
-site:
-  name: "慕雪的寒舍"
-  url: "https://blog.musnow.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "虫洞"
-      url: "https://www.foreverblog.cn/go.html"
-    - name: "异次元"
-      url: "https://travel.moe/go.html?travel=on"
-    - name: "Main"
-      url: "https://blog.musnow.top/?utm_source=mirror"
-    - name: "Netlify"
-      url: "https://blog1.musnow.top/?utm_source=mirror"
-    - name: "Github"
-      url: "https://musnows.github.io/?utm_source=mirror"
-    - name: "Vercel"
-      url: "https://blog2.musnow.top/?utm_source=mirror"
-    - name: "Cloudflare"
-      url: "https://blog3.musnow.top/?utm_source=mirror"
-    - name: "KeepTheme"
-      url: "https://keep-hexo.musnow.top/?utm_source=mirror"
-    - name: "CSDN"
-      url: "https://musnow.blog.csdn.net/"
-    - name: "51CTO"
-      url: "https://blog.51cto.com/u_15307009"
-    - name: "说说"
-      url: "https://memos.musnow.top"
-    - name: "Uptime"
-      url: "https://stats.uptimerobot.com/qrNpVSLkgV"
-    - name: "Follow Me"
-      url: "https://github.com/musnows/"
-    - name: "个人主页"
-      url: "https://musnow.top/?utm_source=blog"
-    - name: "导航站点"
-      url: "https://web.musnow.top/?utm_source=blog"
-    - name: "Gitee"
-      url: "https://gitee.com/musnows"
-    - name: "CSDN"
-      url: "https://blog.csdn.net/muxuen"
-    - name: "粤公网安备44190002007715"
-      url: "https://beian.mps.gov.cn/#/query/webSearch?code=44190002007715"
+'site':
+  'name': '慕雪的寒舍'
+  'url': 'https://blog.musnow.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'KeepTheme'
+      'url': 'https://keep-hexo.musnow.top/?utm_source=mirror'
+    - 'name': 'CSDN'
+      'url': 'https://musnow.blog.csdn.net/'
+    - 'name': '51CTO'
+      'url': 'https://blog.51cto.com/u_15307009'
+    - 'name': '说说'
+      'url': 'https://memos.musnow.top'
+    - 'name': '个人主页'
+      'url': 'https://musnow.top/?utm_source=blog'
+    - 'name': 'CSDN'
+      'url': 'https://blog.csdn.net/muxuen'

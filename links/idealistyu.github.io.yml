@@ -1,14 +1,8 @@
-site:
-  name: "Yu"
-  url: "https://idealistyu.github.io/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "GitHub"
-      url: "https://github.com/IdealistYu"
-    - name: "Hexo"
-      url: "https://hexo.io/"
-    - name: "NexT.Mist"
-      url: "https://theme-next.js.org/mist/"
-    - name: "萌ICP备20236696号"
-      url: "https://icp.gov.moe/?keyword=20236696"
+'site':
+  'name': 'Yu'
+  'url': 'https://idealistyu.github.io/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'NexT.Mist'
+      'url': 'https://theme-next.js.org/mist/'

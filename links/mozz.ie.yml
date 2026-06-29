@@ -1,182 +1,168 @@
-site:
-  name: "蚊帐"
-  url: "https://mozz.ie/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Candy2-Hugo"
-      url: "https://github.com/Archeb/candy2-hugo"
-    - name: "Angelic47's Home\n         我是群底层のlowb 混子～啥都不会 (x"
-      url: "https://www.angelic47.com/"
-    - name: "苍灵冥梦\n         一条咸鱼的碎语"
-      url: "https://moe.me/"
-    - name: "boboLiu's devpage\n         专业蓝屏瞎调权限删备份格盘跑路人士"
-      url: "https://boboliu.dev/"
-    - name: "Mali's Blog\n         醉后不知天在水，满船清梦压星河。"
-      url: "https://imoe.ac.cn/"
-    - name: "⑨BIE\n         伪技术宅的迷之地"
-      url: "https://9bie.org/"
-    - name: "九世的博客\n         Become a hacker"
-      url: "https://422926799.github.io/"
-    - name: "地瓜\n         我们所度过的每一天的日常，也许就是连续发生的奇迹。"
-      url: "https://digua.me"
-    - name: "JieJiSS' Blog\n         A blog of JieJiSS - tech & code"
-      url: "https://blog.jiejiss.com/"
-    - name: "青空之蓝\n         站在时光一端，回忆过往记忆。"
-      url: "https://ixk.me/"
-    - name: "Zankyo！\n         这条鱼，又香又甜。"
-      url: "https://zankyo.cc"
-    - name: "Evsio0n\n         山山"
-      url: "https://evsio0n.com/"
-    - name: "蕾咪io\n         一个十分愚钝搞体育的软件开发实习生"
-      url: "https://linux.dog/"
-    - name: "雪花飘落处....\n         停下脚步，看看脚印，怅惘最初"
-      url: "http://blog.xpoi.top/"
-    - name: "FGHRSH 的博客"
-      url: "https://www.fghrsh.net"
-    - name: "海上的宫殿\n         是你想来Soha的在海上宫殿参观吗？"
-      url: "https://soha.moe"
-    - name: "三言三语\n         我真的只是一个前端 | 希望和你做朋友！"
-      url: "https://best33.com/"
-    - name: "回音的博客\n         没有字的回音个人博客"
-      url: "https://echo.moe/"
-    - name: "Kirin's Backspace\n         没有bio"
-      url: "https://baka.link/"
-    - name: "czp's blog"
-      url: "https://www.hiczp.com/"
-    - name: "Kiritake Kumi's Blog\n         我 永 远 喜 欢 水 瀬 い の り！"
-      url: "https://blog.yazawaniko.com/"
-    - name: "WBGlIl"
-      url: "https://wbglil.github.io/"
-    - name: "Orochi4268's BLOG\n         一只游戏瘾极大的国服最菜仓鼠"
-      url: "https://orochi4268.github.io/"
-    - name: "吐槽大王部落格\n         正在学习接受不完美的世界！"
-      url: "https://www.tcdw.net/"
-    - name: "qwe7002的个人博客\n         一日は貴い一生である。これを空費してはならない。"
-      url: "https://qwe7002.com/"
-    - name: "LiliumNekoの備忘錄\n         一只傻猫的记事本"
-      url: "https://www.liliumneko.com/"
-    - name: "维基萌\n         萌即是正义！一名热爱acg的前端设计师的小站！"
-      url: "https://www.wikimoe.com/"
-    - name: "保罗的小宇宙\n         Still single, still lonely."
-      url: "https://paugram.com/"
-    - name: "一只辣鸡鹅の窝\n         一只鹅の鹅扯淡"
-      url: "https://blog.conoha.vip"
-    - name: "|落雪蜜罐|\n         装不满的是收获，藏不住的是喜悦"
-      url: "http://me.ooo.cat/"
-    - name: "Chocolate's 废纸篓"
-      url: "https://hex.moe/"
-    - name: "Shucheng Li"
-      url: "https://snli.org/"
-    - name: "折影轻梦\n         崇尚自由、热爱技术。"
-      url: "https://nexmoe.com/"
-    - name: "小霖的梦花园\n         风起时, 正翱翔"
-      url: "https://www.xiaolin.in/"
-    - name: "Hans362 's Blog\n         不以物喜，不以己悲"
-      url: "https://blog.hans362.cn/"
-    - name: "冰凌胧月的小窝\n         欢迎来到我的秘密花园"
-      url: "https://imiku.me/"
-    - name: "亦欢の小站"
-      url: "https://www.qwq.cc/"
-    - name: "后宫学长\n         一个中二病宅的博客……"
-      url: "https://haremu.com/"
-    - name: "Sonic853\n         Looking at the Stars."
-      url: "https://blog.853lab.com"
-    - name: "SHADOW FOREST\n         It's time to move."
-      url: "https://sforest.in/"
-    - name: "MiaoTony's 小窝\n         仰望星空，脚踏实地，未来可期"
-      url: "https://miaotony.xyz/"
-    - name: "簞純\n         我惭携宝剑，只为看山来"
-      url: "https://blog.qwqdanchun.com"
-    - name: "Sp4ce\n         不傲不畏，不卑不亢，不骄不躁，不气不馁。"
-      url: "https://0x20h.com/"
-    - name: "FSpark\n         「0」が過去で 「1」が未来"
-      url: "https://fspark.me/"
-    - name: "Orion\n         sudo chmod -R 777 /world"
-      url: "https://orion-zhen.github.io/"
-    - name: "RBQ.AI\n         人类的本质是复读机，而我的本质是AI。 不过，我有灵魂（和 BUG）。"
-      url: "https://rbq.ai/"
-    - name: "澜璒\n         不要温和地走进那个良夜。"
-      url: "https://langdon.one/"
-    - name: "Re: MX 的自留地\n         Cobalt memories."
-      url: "https://mary.kevinmx.top/"
-    - name: "翰林的小站\n         博览乐学，敢于探索。"
-      url: "https://blog.hanlin.press/"
-    - name: "Clover Yan 的小屋\n         生命是灰色的，理论之树常青。"
-      url: "https://www.khyan.top/"
-    - name: "Luoingly's Space\n         交错于虚拟与现实之间"
-      url: "https://luoy.ing/"
-    - name: "Berd's Playground"
-      url: "https://blog.berd.moe/"
-    - name: "Alanyhq"
-      url: "https://alanyhq.com/"
-    - name: "HKの小站"
-      url: "https://huanxianghk.xin/"
-    - name: "宝硕博客"
-      url: "https://blog.baoshuo.ren/"
-    - name: "忧郁的点心"
-      url: "https://www.misakas.com/"
-    - name: "Ela's Notes"
-      url: "https://ela.moe/"
-    - name: "某酱の博客"
-      url: "https://blog.fxit.top/"
-    - name: "失眠海峡"
-      url: "https://blog.imalan.cn/"
-    - name: "Fawdlstty 的博客"
-      url: "https://www.fawdlstty.com/"
-    - name: "XSY的FUN天地"
-      url: "https://www.xsy.fun/"
-    - name: "Mayx的博客"
-      url: "https://mabbs.github.io/"
-    - name: "7gugu's blog"
-      url: "https://www.7gugu.com/"
-    - name: "477's blog~♪"
-      url: "https://blog.cn47mp.moe/"
-    - name: "MoeClue"
-      url: "https://www.moeclue.com/"
-    - name: "愤鸟杂记"
-      url: "https://www.54df.cc/"
-    - name: "蓝小柠的博客"
-      url: "https://www.bleshi.com/"
-    - name: "True's ME"
-      url: "https://chujian.xyz/"
-    - name: "深海小涛"
-      url: "https://xtaolink.cn/"
-    - name: "O's Blog"
-      url: "https://ohmyga.cn/"
-    - name: "Shadow Forest"
-      url: "http://sforest.in/"
-    - name: "iyzyiのblog"
-      url: "http://blog.iyzyi.com/"
-    - name: "神龟的被窝"
-      url: "https://kame.dev/"
-    - name: "蝉时雨"
-      url: "https://github.com/chanshiyucx"
-    - name: "16"
-      url: "https://github.com/Archeb/Blog-Comments/issues/20"
-    - name: "支持 Markdown 语法"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "9bie"
-      url: "https://github.com/9bie"
-    - name: "Archeb"
-      url: "https://github.com/Archeb"
-    - name: "hans362"
-      url: "https://github.com/hans362"
-    - name: "sseaan"
-      url: "https://github.com/sseaan"
-    - name: "https://github.com/Archeb/Candy2"
-      url: "https://github.com/Archeb/Candy2"
-    - name: "xieliangcheng"
-      url: "https://github.com/xieliangcheng"
-    - name: "zywvvd"
-      url: "https://github.com/zywvvd"
-    - name: "https://www.zywvvd.com"
-      url: "https://www.zywvvd.com"
-    - name: "https://www.zywvvd.com/image/avatar.png"
-      url: "https://www.zywvvd.com/image/avatar.png"
-    - name: "hellojintao"
-      url: "https://github.com/hellojintao"
-    - name: "https://www.kimtoli.com"
-      url: "https://www.kimtoli.com"
-    - name: "https://cdn.kimtoli.com/img/hexoimg/blog_tx.png"
-      url: "https://cdn.kimtoli.com/img/hexoimg/blog_tx.png"
+'site':
+  'name': '蚊帐'
+  'url': 'https://mozz.ie/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': "Angelic47's Home
+
+        \         我是群底层のlowb 混子～啥都不会 (x"
+      'url': 'https://www.angelic47.com/'
+    - 'name': "苍灵冥梦\n         一条咸鱼的碎语"
+      'url': 'https://moe.me/'
+    - 'name': "boboLiu's devpage
+
+        \         专业蓝屏瞎调权限删备份格盘跑路人士"
+      'url': 'https://boboliu.dev/'
+    - 'name': "Mali's Blog
+
+        \         醉后不知天在水，满船清梦压星河。"
+      'url': 'https://imoe.ac.cn/'
+    - 'name': "⑨BIE\n         伪技术宅的迷之地"
+      'url': 'https://9bie.org/'
+    - 'name': "地瓜
+
+        \         我们所度过的每一天的日常，也许就是连续发生的奇迹。"
+      'url': 'https://digua.me'
+    - 'name': "JieJiSS' Blog
+
+        \         A blog of JieJiSS - tech & code"
+      'url': 'https://blog.jiejiss.com/'
+    - 'name': "青空之蓝\n         站在时光一端，回忆过往记忆。"
+      'url': 'https://ixk.me/'
+    - 'name': "Zankyo！\n         这条鱼，又香又甜。"
+      'url': 'https://zankyo.cc'
+    - 'name': "Evsio0n\n         山山"
+      'url': 'https://evsio0n.com/'
+    - 'name': "蕾咪io\n         一个十分愚钝搞体育的软件开发实习生"
+      'url': 'https://linux.dog/'
+    - 'name': "雪花飘落处....\n         停下脚步，看看脚印，怅惘最初"
+      'url': 'http://blog.xpoi.top/'
+    - 'name': 'FGHRSH 的博客'
+      'url': 'https://www.fghrsh.net'
+    - 'name': "海上的宫殿\n         是你想来Soha的在海上宫殿参观吗？"
+      'url': 'https://soha.moe'
+    - 'name': "三言三语\n         我真的只是一个前端 | 希望和你做朋友！"
+      'url': 'https://best33.com/'
+    - 'name': "回音的博客\n         没有字的回音个人博客"
+      'url': 'https://echo.moe/'
+    - 'name': "Kirin's Backspace\n         没有bio"
+      'url': 'https://baka.link/'
+    - 'name': 'czp''s blog'
+      'url': 'https://www.hiczp.com/'
+    - 'name': "Kiritake Kumi's Blog
+
+        \         我 永 远 喜 欢 水 瀬 い の り！"
+      'url': 'https://blog.yazawaniko.com/'
+    - 'name': "吐槽大王部落格\n         正在学习接受不完美的世界！"
+      'url': 'https://www.tcdw.net/'
+    - 'name': "qwe7002的个人博客
+
+        \         一日は貴い一生である。これを空費してはならない。"
+      'url': 'https://qwe7002.com/'
+    - 'name': "LiliumNekoの備忘錄\n         一只傻猫的记事本"
+      'url': 'https://www.liliumneko.com/'
+    - 'name': "维基萌\n         萌即是正义！一名热爱acg的前端设计师的小站！"
+      'url': 'https://www.wikimoe.com/'
+    - 'name': "保罗的小宇宙
+
+        \         Still single, still lonely."
+      'url': 'https://paugram.com/'
+    - 'name': "一只辣鸡鹅の窝\n         一只鹅の鹅扯淡"
+      'url': 'https://blog.conoha.vip'
+    - 'name': "|落雪蜜罐|\n         装不满的是收获，藏不住的是喜悦"
+      'url': 'http://me.ooo.cat/'
+    - 'name': 'Chocolate''s 废纸篓'
+      'url': 'https://hex.moe/'
+    - 'name': 'Shucheng Li'
+      'url': 'https://snli.org/'
+    - 'name': "折影轻梦\n         崇尚自由、热爱技术。"
+      'url': 'https://nexmoe.com/'
+    - 'name': "小霖的梦花园\n         风起时, 正翱翔"
+      'url': 'https://www.xiaolin.in/'
+    - 'name': "Hans362 's Blog\n         不以物喜，不以己悲"
+      'url': 'https://blog.hans362.cn/'
+    - 'name': "冰凌胧月的小窝\n         欢迎来到我的秘密花园"
+      'url': 'https://imiku.me/'
+    - 'name': '亦欢の小站'
+      'url': 'https://www.qwq.cc/'
+    - 'name': "后宫学长\n         一个中二病宅的博客……"
+      'url': 'https://haremu.com/'
+    - 'name': "Sonic853
+
+        \         Looking at the Stars."
+      'url': 'https://blog.853lab.com'
+    - 'name': "SHADOW FOREST
+
+        \         It's time to move."
+      'url': 'https://sforest.in/'
+    - 'name': "MiaoTony's 小窝
+
+        \         仰望星空，脚踏实地，未来可期"
+      'url': 'https://miaotony.xyz/'
+    - 'name': "簞純\n         我惭携宝剑，只为看山来"
+      'url': 'https://blog.qwqdanchun.com'
+    - 'name': "Sp4ce\n         不傲不畏，不卑不亢，不骄不躁，不气不馁。"
+      'url': 'https://0x20h.com/'
+    - 'name': "FSpark\n         「0」が過去で 「1」が未来"
+      'url': 'https://fspark.me/'
+    - 'name': "RBQ.AI
+
+        \         人类的本质是复读机，而我的本质是AI。 不过，我有灵魂（和 BUG）。"
+      'url': 'https://rbq.ai/'
+    - 'name': "澜璒\n         不要温和地走进那个良夜。"
+      'url': 'https://langdon.one/'
+    - 'name': "Re: MX 的自留地
+
+        \         Cobalt memories."
+      'url': 'https://mary.kevinmx.top/'
+    - 'name': "翰林的小站\n         博览乐学，敢于探索。"
+      'url': 'https://blog.hanlin.press/'
+    - 'name': "Clover Yan 的小屋
+
+        \         生命是灰色的，理论之树常青。"
+      'url': 'https://www.khyan.top/'
+    - 'name': "Luoingly's Space\n         交错于虚拟与现实之间"
+      'url': 'https://luoy.ing/'
+    - 'name': 'Berd''s Playground'
+      'url': 'https://blog.berd.moe/'
+    - 'name': 'Alanyhq'
+      'url': 'https://alanyhq.com/'
+    - 'name': 'HKの小站'
+      'url': 'https://huanxianghk.xin/'
+    - 'name': '宝硕博客'
+      'url': 'https://blog.baoshuo.ren/'
+    - 'name': '忧郁的点心'
+      'url': 'https://www.misakas.com/'
+    - 'name': 'Ela''s Notes'
+      'url': 'https://ela.moe/'
+    - 'name': '某酱の博客'
+      'url': 'https://blog.fxit.top/'
+    - 'name': '失眠海峡'
+      'url': 'https://blog.imalan.cn/'
+    - 'name': 'Fawdlstty 的博客'
+      'url': 'https://www.fawdlstty.com/'
+    - 'name': 'XSY的FUN天地'
+      'url': 'https://www.xsy.fun/'
+    - 'name': '7gugu''s blog'
+      'url': 'https://www.7gugu.com/'
+    - 'name': '477''s blog~♪'
+      'url': 'https://blog.cn47mp.moe/'
+    - 'name': 'MoeClue'
+      'url': 'https://www.moeclue.com/'
+    - 'name': '愤鸟杂记'
+      'url': 'https://www.54df.cc/'
+    - 'name': '蓝小柠的博客'
+      'url': 'https://www.bleshi.com/'
+    - 'name': 'True''s ME'
+      'url': 'https://chujian.xyz/'
+    - 'name': '深海小涛'
+      'url': 'https://xtaolink.cn/'
+    - 'name': 'O''s Blog'
+      'url': 'https://ohmyga.cn/'
+    - 'name': 'Shadow Forest'
+      'url': 'http://sforest.in/'
+    - 'name': 'iyzyiのblog'
+      'url': 'http://blog.iyzyi.com/'
+    - 'name': '神龟的被窝'
+      'url': 'https://kame.dev/'

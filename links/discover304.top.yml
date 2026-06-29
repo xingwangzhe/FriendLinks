@@ -1,50 +1,32 @@
-site:
-  name: "discover304.top"
-  description: "友情链接"
-  url: "https://discover304.top/"
-  links: "/link"
-  friends:
-    - name: "GroupSite"
-      url: "https://aierlab.tech"
-    - name: "WandB"
-      url: "https://wandb.ai/"
-    - name: "SphinxSphinxSphinx 是一个可以轻松创建漂亮文档的工具，广泛用于 Python 项目文档编写。"
-      url: "https://www.sphinx-doc.org/en/master/index.html"
-    - name: "TaichiTaichi世界级开源图形基础设施平台，专注图形计算和可视化。"
-      url: "https://taichi.graphics/"
-    - name: "Dasher v6Dasher v6高效的信息输入界面，支持头部追踪、凝视、开关输入等替代交互方式。"
-      url: "https://dasher.acecentre.net/"
-    - name: "yuc.wikiyuc.wiki長門番堂, Yuc's Anime List"
-      url: "https://yuc.wiki/"
-    - name: "RDocumentationRDocumentation查找 R 包和函数的集中站点，是 R 用户的核心工具之一。"
-      url: "https://www.rdocumentation.org/"
-    - name: "HexoHexo快速强大的静态网站架构"
-      url: "https://hexo.io/zh-tw/"
-    - name: "Vocaloid分享贴Vocaloid分享贴贴吧的一个分享贴，里面有网站"
-      url: "https://tieba.baidu.com/p/5673071614"
-    - name: "DizzyLabDizzyLab同人音乐交易平台"
-      url: "https://www.dizzylab.net/albums/"
-    - name: "博天免费API博天免费API高速稳定免费APi接口调用平台。"
-      url: "https://api.btstu.cn/"
-    - name: "下载之家下载之家找软件的地方"
-      url: "http://www.downza.cn/"
-    - name: "draw.iodraw.ioUML class diagrams in draw.io"
-      url: "https://drawio-app.com/uml-class-diagrams-in-draw-io/"
-    - name: "Keras bertKeras berttensorflow super api"
-      url: "https://keras.io/"
-    - name: "Bilibili Me"
-      url: "https://space.bilibili.com/98639326"
-    - name: "Github"
-      url: "https://github.com/yhbcode000"
-    - name: "YouTube"
-      url: "https://www.youtube.com/channel/UCuQQr55i3VCQuCPMTQnpzDA"
-    - name: "CSDN"
-      url: "https://blog.csdn.net/Discover304"
-    - name: "知乎"
-      url: "https://www.zhihu.com/people/discover-56-86-75"
-    - name: "QQ"
-      url: "https://jq.qq.com/?_wv=1027&k=EaGddTQg"
-    - name: "冀ICP备2021025381号-1"
-      url: "https://beian.miit.gov.cn/"
-    - name: "冀公网安备 13060602001430号"
-      url: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13060602001430"
+'site':
+  'name': 'discover304.top'
+  'description': '友情链接'
+  'url': 'https://discover304.top/'
+  'links': '/link'
+  'friends':
+    - 'name': 'GroupSite'
+      'url': 'https://aierlab.tech'
+    - 'name': 'WandB'
+      'url': 'https://wandb.ai/'
+    - 'name': 'TaichiTaichi世界级开源图形基础设施平台，专注图形计算和可视化。'
+      'url': 'https://taichi.graphics/'
+    - 'name': 'Dasher v6Dasher v6高效的信息输入界面，支持头部追踪、凝视、开关输入等替代交互方式。'
+      'url': 'https://dasher.acecentre.net/'
+    - 'name': 'yuc.wikiyuc.wiki長門番堂, Yuc''s Anime List'
+      'url': 'https://yuc.wiki/'
+    - 'name': 'HexoHexo快速强大的静态网站架构'
+      'url': 'https://hexo.io/zh-tw/'
+    - 'name': 'Vocaloid分享贴Vocaloid分享贴贴吧的一个分享贴，里面有网站'
+      'url': 'https://tieba.baidu.com/p/5673071614'
+    - 'name': 'DizzyLabDizzyLab同人音乐交易平台'
+      'url': 'https://www.dizzylab.net/albums/'
+    - 'name': '下载之家下载之家找软件的地方'
+      'url': 'http://www.downza.cn/'
+    - 'name': 'draw.iodraw.ioUML class diagrams in draw.io'
+      'url': 'https://drawio-app.com/uml-class-diagrams-in-draw-io/'
+    - 'name': 'Keras bertKeras berttensorflow super api'
+      'url': 'https://keras.io/'
+    - 'name': 'YouTube'
+      'url': 'https://www.youtube.com/channel/UCuQQr55i3VCQuCPMTQnpzDA'
+    - 'name': 'CSDN'
+      'url': 'https://blog.csdn.net/Discover304'

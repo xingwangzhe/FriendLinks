@@ -1,24 +1,20 @@
-site:
-  name: "d5v"
-  url: "https://d5v.cc/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "二叉树树的博客 Bilibili UP主 二叉树树的博客    UP主前端"
-      url: "https://2x.nz/"
-    - name: "廖雪峰 我的Python自学老师    资深软件开发"
-      url: "https://liaoxuefeng.com/blogs/all/"
-    - name: "Doyoudo 一个设计师资源和学习网站    设计剪辑"
-      url: "https://doyoudo.com/"
-    - name: "宇宙湾 主要是大数据和人工智能的原创文章    大数据人工智能"
-      url: "https://yuzhouwan.com/"
-    - name: "张洪Heo 分享设计与科技生活    设计师生活"
-      url: "https://blog.zhheo.com/"
-    - name: "雨雪冰屋 一隅雨雪一炉窝，可能会融化持久堆？    个人博客生活"
-      url: "https://iamyukino.cn/"
-    - name: "Riptide 聚焦前端工程、AI Agent 与开源实践的技术博客    前端工程AI开源"
-      url: "https://www.myriptide.com/"
-    - name: "X/Twitter"
-      url: "http://x.com/deadmau5v5"
-    - name: "GitHub"
-      url: "https://github.com/deadmau5v"
+'site':
+  'name': 'd5v'
+  'url': 'https://d5v.cc/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '二叉树树的博客 Bilibili UP主 二叉树树的博客    UP主前端'
+      'url': 'https://2x.nz/'
+    - 'name': '廖雪峰 我的Python自学老师    资深软件开发'
+      'url': 'https://liaoxuefeng.com/blogs/all/'
+    - 'name': 'Doyoudo 一个设计师资源和学习网站    设计剪辑'
+      'url': 'https://doyoudo.com/'
+    - 'name': '宇宙湾 主要是大数据和人工智能的原创文章    大数据人工智能'
+      'url': 'https://yuzhouwan.com/'
+    - 'name': '张洪Heo 分享设计与科技生活    设计师生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '雨雪冰屋 一隅雨雪一炉窝，可能会融化持久堆？    个人博客生活'
+      'url': 'https://iamyukino.cn/'
+    - 'name': 'Riptide 聚焦前端工程、AI Agent 与开源实践的技术博客    前端工程AI开源'
+      'url': 'https://www.myriptide.com/'

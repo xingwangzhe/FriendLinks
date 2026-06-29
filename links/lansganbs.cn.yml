@@ -1,42 +1,26 @@
-site:
-  name: "lansganbs.cn"
-  description: "友情链接"
-  url: "https://lansganbs.cn/"
-  links: "/friends"
-  friends:
-    - name: "GitHub"
-      url: "https://github.com/LANSGANBS"
-    - name: "Steam"
-      url: "https://steamcommunity.com/id/LANSGANBS/"
-    - name: "Bilibili"
-      url: "https://www.bilibili.com/"
-    - name: "www.nihao.show"
-      url: "https://www.nihao.show/"
-    - name: "blog.lhl.one"
-      url: "https://blog.lhl.one"
-    - name: "www.lapis.cafe"
-      url: "https://www.lapis.cafe/"
-    - name: "castorice.xin"
-      url: "https://castorice.xin/"
-    - name: "blog.cuteleaf.cn"
-      url: "https://blog.cuteleaf.cn"
-    - name: "www.lansganbs.cn"
-      url: "https://www.lansganbs.cn/"
-    - name: "docs.mizuki.mysqil.com"
-      url: "https://docs.mizuki.mysqil.com"
-    - name: "symya.github.io"
-      url: "https://symya.github.io/"
-    - name: "blog.introl.top"
-      url: "https://blog.introl.top/"
-    - name: "blog.pljzy.top"
-      url: "https://blog.pljzy.top/"
-    - name: "xenwayne.top"
-      url: "https://xenwayne.top/"
-    - name: "https://www.lansganbs.cn/images/friends/lansganbs.png"
-      url: "https://www.lansganbs.cn/images/friends/lansganbs.png"
-    - name: "站点运行状态"
-      url: "https://www.uptime.com/statuspage/lansganbs"
-    - name: "Astro"
-      url: "https://astro.build"
-    - name: "Mizuki"
-      url: "https://github.com/LyraVoid/Mizuki"
+'site':
+  'name': 'lansganbs.cn'
+  'description': '友情链接'
+  'url': 'https://lansganbs.cn/'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Steam'
+      'url': 'https://steamcommunity.com/id/LANSGANBS/'
+    - 'name': 'www.nihao.show'
+      'url': 'https://www.nihao.show/'
+    - 'name': 'blog.lhl.one'
+      'url': 'https://blog.lhl.one'
+    - 'name': 'www.lapis.cafe'
+      'url': 'https://www.lapis.cafe/'
+    - 'name': 'castorice.xin'
+      'url': 'https://castorice.xin/'
+    - 'name': 'blog.cuteleaf.cn'
+      'url': 'https://blog.cuteleaf.cn'
+    - 'name': 'docs.mizuki.mysqil.com'
+      'url': 'https://docs.mizuki.mysqil.com'
+    - 'name': 'blog.introl.top'
+      'url': 'https://blog.introl.top/'
+    - 'name': 'blog.pljzy.top'
+      'url': 'https://blog.pljzy.top/'
+    - 'name': 'xenwayne.top'
+      'url': 'https://xenwayne.top/'

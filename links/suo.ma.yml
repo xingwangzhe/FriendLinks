@@ -1,50 +1,50 @@
-site:
-  name: "索玛"
-  url: "https://suo.ma/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "一楼没太阳\n                  只有坏掉的东西才会停下来"
-      url: "https://blog.ylmty.cc/"
-    - name: "悦己\n                  阅己，越己，悦己"
-      url: "http://www.yveji.com"
-    - name: "小雾山雨\n                  索玛Suo.Ma真牛逼！"
-      url: "https://blog.52he.cc/"
-    - name: "一世繁华\n                  分享一二"
-      url: "https://blog.hantaotao.top/"
-    - name: "晨曦日记\n                  少时不得之物 终将困其一生"
-      url: "http://zard.hk"
-    - name: "小野博客\n                  关于小野的一些陈芝麻烂谷子事。"
-      url: "https://lb5.net"
-    - name: "粥粥博客志\n                  记录粥粥美好生活"
-      url: "https://www.zhxubk.cn"
-    - name: "xnijika\n                  做分享的事，总有意义的"
-      url: "https://xnijika.com"
-    - name: "南枝已谢\n                  人生如逆旅，我亦是行人。"
-      url: "https://xgrsir.com"
-    - name: "皮皮社\n                  记录生活中的点点滴滴"
-      url: "https://www.pipishe.com/"
-    - name: "老卢\n                  记录分享生活"
-      url: "https://blog.el9.cn"
-    - name: "趣由心生\n                  心生妙趣，乐享无限创意生活！"
-      url: "https://okoki.cn/"
-    - name: "天涯海角\n                  曾梦想仗剑走天涯。"
-      url: "https://www.tyhj.net"
-    - name: "核桃小屋\n                  生活，处处有惊喜"
-      url: "https://www.htaoo.com/"
-    - name: "WQG\n                  A SIMPLE BLOG."
-      url: "https://wqg.life/"
-    - name: "礼印外盒"
-      url: "https://liyinwaihe.com"
-    - name: "菜鸟萌"
-      url: "https://cnm.pw"
-    - name: "博客录（boke.lu）\n                  boke.lu · 博客收录展示平台~"
-      url: "https://boke.lu"
-    - name: "大佬论坛\n                  站长综合交流论坛"
-      url: "https://www.dalao.net/"
-    - name: "BlogsClub\n                  博客俱乐部，欢迎您的加入！"
-      url: "https://www.blogsclub.org/apply.html?inviteCode=29960e5d"
-    - name: "博客驿站\n                  发现新博客认识新朋友！"
-      url: "https://www.bloginn.vip/"
-    - name: "个站商店\n                  社交+博客收录网站"
-      url: "https://storeweb.cn/"
+'site':
+  'name': '索玛'
+  'url': 'https://suo.ma/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': "一楼没太阳\n                  只有坏掉的东西才会停下来"
+      'url': 'https://blog.ylmty.cc/'
+    - 'name': "悦己\n                  阅己，越己，悦己"
+      'url': 'http://www.yveji.com'
+    - 'name': "小雾山雨\n                  索玛Suo.Ma真牛逼！"
+      'url': 'https://blog.52he.cc/'
+    - 'name': "一世繁华\n                  分享一二"
+      'url': 'https://blog.hantaotao.top/'
+    - 'name': "晨曦日记\n                  少时不得之物 终将困其一生"
+      'url': 'http://zard.hk'
+    - 'name': "小野博客
+
+        \                  关于小野的一些陈芝麻烂谷子事。"
+      'url': 'https://lb5.net'
+    - 'name': "粥粥博客志\n                  记录粥粥美好生活"
+      'url': 'https://www.zhxubk.cn'
+    - 'name': "xnijika
+
+        \                  做分享的事，总有意义的"
+      'url': 'https://xnijika.com'
+    - 'name': "南枝已谢\n                  人生如逆旅，我亦是行人。"
+      'url': 'https://xgrsir.com'
+    - 'name': "皮皮社\n                  记录生活中的点点滴滴"
+      'url': 'https://www.pipishe.com/'
+    - 'name': "老卢\n                  记录分享生活"
+      'url': 'https://blog.el9.cn'
+    - 'name': "趣由心生
+
+        \                  心生妙趣，乐享无限创意生活！"
+      'url': 'https://okoki.cn/'
+    - 'name': "天涯海角\n                  曾梦想仗剑走天涯。"
+      'url': 'https://www.tyhj.net'
+    - 'name': "核桃小屋\n                  生活，处处有惊喜"
+      'url': 'https://www.htaoo.com/'
+    - 'name': "WQG\n                  A SIMPLE BLOG."
+      'url': 'https://wqg.life/'
+    - 'name': '礼印外盒'
+      'url': 'https://liyinwaihe.com'
+    - 'name': '菜鸟萌'
+      'url': 'https://cnm.pw'
+    - 'name': "大佬论坛\n                  站长综合交流论坛"
+      'url': 'https://www.dalao.net/'
+    - 'name': "博客驿站\n                  发现新博客认识新朋友！"
+      'url': 'https://www.bloginn.vip/'

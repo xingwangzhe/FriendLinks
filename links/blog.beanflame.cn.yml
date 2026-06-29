@@ -1,46 +1,40 @@
-site:
-  name: "beanflame"
-  url: "https://blog.beanflame.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "豆焰博客园"
-      url: "https://www.cnblogs.com/beanflame"
-    - name: "豆焰"
-      url: "https://blog.beanflame.cn"
-    - name: "白夜"
-      url: "http://blog.karunari.moe/"
-    - name: "Akilar"
-      url: "https://akilar.top/"
-    - name: "空无一物"
-      url: "https://blog.konara.moe"
-    - name: "冰凌"
-      url: "https://www.booling.cn"
-    - name: "棒棒糖工作室"
-      url: "https://www.lollipopstudio.cn"
-    - name: "秋雨落"
-      url: "https://blog.rain.cx"
-    - name: "空梦"
-      url: "https://kmar.top/"
-    - name: "田所浩托Trotsky"
-      url: "https://cnblogs.com/Dinnerbone"
-    - name: "小熊猫Dev-C++"
-      url: "https://royqh.net/devcpp"
-    - name: "空间龙眼官网"
-      url: "https://space-longan.beanflame.cn"
-    - name: "vvvbbbcz"
-      url: "https://blog.vvvbbbcz.com"
-    - name: "KafuuNeko"
-      url: "https://i.kafuu.cc"
-    - name: "九仞之行"
-      url: "https://styunlen.cn"
-    - name: "社会易姐QwQ"
-      url: "https://shakaianee.top"
-    - name: "Lizhirui"
-      url: "https://www.lzrnote.cn/"
-    - name: "kifuan"
-      url: "https://kifuan.top/"
-    - name: "Hexo"
-      url: "https://hexo.io/"
-    - name: "Kaze"
-      url: "https://github.com/theme-kaze"
+'site':
+  'name': 'beanflame'
+  'url': 'https://blog.beanflame.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '豆焰博客园'
+      'url': 'https://www.cnblogs.com/beanflame'
+    - 'name': '白夜'
+      'url': 'http://blog.karunari.moe/'
+    - 'name': 'Akilar'
+      'url': 'https://akilar.top/'
+    - 'name': '空无一物'
+      'url': 'https://blog.konara.moe'
+    - 'name': '冰凌'
+      'url': 'https://www.booling.cn'
+    - 'name': '棒棒糖工作室'
+      'url': 'https://www.lollipopstudio.cn'
+    - 'name': '秋雨落'
+      'url': 'https://blog.rain.cx'
+    - 'name': '空梦'
+      'url': 'https://kmar.top/'
+    - 'name': '田所浩托Trotsky'
+      'url': 'https://cnblogs.com/Dinnerbone'
+    - 'name': '小熊猫Dev-C++'
+      'url': 'https://royqh.net/devcpp'
+    - 'name': '空间龙眼官网'
+      'url': 'https://space-longan.beanflame.cn'
+    - 'name': 'vvvbbbcz'
+      'url': 'https://blog.vvvbbbcz.com'
+    - 'name': 'KafuuNeko'
+      'url': 'https://i.kafuu.cc'
+    - 'name': '九仞之行'
+      'url': 'https://styunlen.cn'
+    - 'name': '社会易姐QwQ'
+      'url': 'https://shakaianee.top'
+    - 'name': 'Lizhirui'
+      'url': 'https://www.lzrnote.cn/'
+    - 'name': 'kifuan'
+      'url': 'https://kifuan.top/'

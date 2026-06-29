@@ -1,140 +1,110 @@
-site:
-  name: "Honesty Blog"
-  url: "https://blog.hehouhui.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "关于我"
-      url: "https://www.hehouhui.cn/about.html"
-    - name: "瞬间"
-      url: "https://moments.hehouhui.cn/"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "青萍叙事一个懂技术的产品汪🐶技术类创作类"
-      url: "https://blog.lusyoe.com"
-    - name: "Mycpen这是一个有趣的博客创作类"
-      url: "https://blog.cpen.top/"
-    - name: "Yeppioo梦想成为庄稼地里的读书人.....创作类"
-      url: "https://blog.yik.at/"
-    - name: "xaoxuuFor all time, always.技术类"
-      url: "https://xaoxuu.com"
-    - name: "安知鱼生活明朗，万物可爱创作类技术类"
-      url: "https://blog.anheyu.com/"
-    - name: "百里飞洋の博客星河滚烫，无问西东技术类生活类"
-      url: "https://blog.meta-code.top"
-    - name: "北海北北海虽赊，扶摇可接生活类"
-      url: "https://beihaibei.com"
-    - name: "北熙宝宝如果恋爱有颜色，那一定是纯白色！学习类创作类"
-      url: "https://blog.beixibaobao.com/"
-    - name: "博客录boke.lu · 博客收录展示平台~聚合站"
-      url: "https://boke.lu"
-    - name: "博客星球每一个博客都是一个独立星球！聚合站"
-      url: "https://www.blogplanet.cn/"
-    - name: "博友圈博客人的朋友圈，将一个个散落在各处的孤岛连接成一片广袤无垠的新大陆！聚合站"
-      url: "https://www.boyouquan.com/home"
-    - name: "从萌新到大神：我的技术成长笔记零基础入门到进阶实战，记录每一步成长的思考。技术类"
-      url: "https://blog.longdahuasheng.top"
-    - name: "灯火不休时所爱隔山海，山海不可平；所念皆星河，星河不可及技术类"
-      url: "https://blog.dhbxs.top"
-    - name: "二叉树树Protect What You Love.技术类"
-      url: "https://blog.acofork.com/"
-    - name: "法律小茶馆法学法律工作者生活类创作类"
-      url: "https://lawtee.com"
-    - name: "孤芳不自赏的Blog日益努力，而后风生水起生活类"
-      url: "https://www.gfbzsblog.site/"
-    - name: "顾梦不想满心遗憾，那就全力以赴.技术类"
-      url: "https://blog.gumengyo.top"
-    - name: "胡涂说「胡涂说」是一个充满好奇心的人记录学习与思考，探索技术与人文思想交汇的地方。创作类"
-      url: "https://hutusi.com/"
-    - name: "空鸣深语深鸣的博客，主要记录技术与生活相关的内容生活类"
-      url: "https://blog.deepchirp.com"
-    - name: "李锋镝的博客星光不问赶路人，时光不负有心人。技术类"
-      url: "https://www.lifengdi.com"
-    - name: "落羽日记灯光永不暗淡，梦想永不凋零\n是期望与和解，也是相遇与告别生活类"
-      url: "https://www.junluoyu.cn/"
-    - name: "猫普的精神世界一个独立开发者的精神自留地技术类"
-      url: "https://maplezz.com/"
-    - name: "懋和道人李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。技术类创作类"
-      url: "https://www.dao.js.cn/"
-    - name: "默小班一个初中生的小站点。生活类"
-      url: "https://www.memxb.top/"
-    - name: "乔人尹生命在于折腾。Coding the world!技术类"
-      url: "https://underestimated.cn"
-    - name: "清羽飞扬柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜创作类"
-      url: "https://blog.liushen.fun/"
-    - name: "秋实-Allenyou稻花香里说丰年，听取 WA 声一片技术类学习类"
-      url: "https://www.allenyou.wang/"
-    - name: "若翎的温暖小窝一个任性又矫情的双子座生活类"
-      url: "https://ruolinglife.top"
-    - name: "森月台森林深处少有人经过的月台生活类"
-      url: "https://moriform.com/"
-    - name: "闪闪の小窝来玩！玩累了…就睡觉！没问题的！创作类技术类"
-      url: "https://moechun.fun"
-    - name: "十玖八柒探索代码的世界，追寻生活的诗篇技术类"
-      url: "https://blog.ahzoo.cn"
-    - name: "陶其的个人博客当下，即是未来技术类"
-      url: "https://www.tqazy.com"
-    - name: "特立独行的异类引入变量，跳出死循环，从不确定性中获益创作类"
-      url: "https://www.demochen.com/"
-    - name: "翁荔暂无介绍学习类"
-      url: "https://lilianweng.github.io/"
-    - name: "小改学习志孩儿立志出乡关，学不成名誓不还生活类"
-      url: "https://www.haoyu233.com"
-    - name: "益友网站美好的日常生活值得我们去记录，希望我们的生活每天都能充满着乐趣跟开心事生活类"
-      url: "https://www.yiyou.bj.cn/"
-    - name: "友链展示站发现优质博客与网站聚合站"
-      url: "https://peng.you/"
-    - name: "雨雪冰屋一隅雨雪一炉窝，可能会融化持久堆？生活类创作类"
-      url: "https://iamyukino.cn/"
-    - name: "张洪Heo分享设计与科技生活技术类创作类"
-      url: "https://blog.zhheo.com/"
-    - name: "纸鹿摸鱼处纸鹿至麓不知路，支炉制露不止漉技术类生活类"
-      url: "https://blog.zhilu.site/"
-    - name: "An's Blog别把看重的东西附上无边的价值技术类"
-      url: "https://ninesue.online"
-    - name: "CIK人生如逆旅，我亦是行人，但求步履从容，不负光阴~生活类创作类"
-      url: "https://blog.cikcc.comm"
-    - name: "Dignite’s Blog!When Nothing Goes Right, Go Left.学习类生活类"
-      url: "https://www.amzcd.top/"
-    - name: "Echo 的小窝漂泊于互联网中的小窝学习类生活类"
-      url: "https://www.liveout.cn"
-    - name: "ElysiumStack不会摄影的设计师不是优秀的旅行家技术类生活类"
-      url: "https://www.elysium-stack.cn/"
-    - name: "iMaeGoo’s Blog虹墨空间站创作类"
-      url: "https://www.imaegoo.com"
-    - name: "NihaoShow一个人的网站生活类"
-      url: "https://www.nihao.show/"
-    - name: "ObsiBlogby Obsidian · 后端 / 逆向 / 自托管技术日志技术类"
-      url: "https://blog.hiyun.top/"
-    - name: "Oyiso's BlogThe shortest answer is doing创作类"
-      url: "https://oyiso.cn"
-    - name: "RhoPaperの小站纸至执技术类"
-      url: "https://rhopaper.top/"
-    - name: "Tangly BlogNotion Next开源博客作者创作类"
-      url: "https://tangly1024.com"
-    - name: "Yuki Nix(禰夕・有希)追问概念的精确解.生活类"
-      url: "https://www.nixyuki.com"
-    - name: "YYsuni简单的 blog技术类"
-      url: "https://www.yysuni.com/"
-    - name: "zBlog夢はいつでも, 僕らの前にある生活类"
-      url: "https://zzzhxxxx.top"
-    - name: "github"
-      url: "https://github.com/listener-He"
-    - name: "twitter"
-      url: "https://twitter.com/Honesty861024"
-    - name: "linkIn"
-      url: "https://www.linkedin.com/in/honesty861024"
-    - name: "Honesty"
-      url: "https://blog.hehouhui.cn"
-    - name: "湘ICP备20014902号"
-      url: "https://beian.miit.gov.cn/"
-    - name: "NotionNext 4.9.3"
-      url: "https://github.com/tangly1024/NotionNext"
-    - name: "BLOGS·CN"
-      url: "https://blogscn.fun/random.html"
-    - name: "空间穿梭-随机访问BlogsClub成员博客"
-      url: "https://blogs.quest"
-    - name: "晓梦羊®18872号"
-      url: "https://bloginc.cn/18872.html"
-    - name: "无聊湾 🥱 The Boring Bay"
-      url: "https://boringbay.com"
+'site':
+  'name': 'Honesty Blog'
+  'url': 'https://blog.hehouhui.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '瞬间'
+      'url': 'https://moments.hehouhui.cn/'
+    - 'name': '青萍叙事一个懂技术的产品汪🐶技术类创作类'
+      'url': 'https://blog.lusyoe.com'
+    - 'name': 'Mycpen这是一个有趣的博客创作类'
+      'url': 'https://blog.cpen.top/'
+    - 'name': 'Yeppioo梦想成为庄稼地里的读书人.....创作类'
+      'url': 'https://blog.yik.at/'
+    - 'name': 'xaoxuuFor all time, always.技术类'
+      'url': 'https://xaoxuu.com'
+    - 'name': '安知鱼生活明朗，万物可爱创作类技术类'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '百里飞洋の博客星河滚烫，无问西东技术类生活类'
+      'url': 'https://blog.meta-code.top'
+    - 'name': '北海北北海虽赊，扶摇可接生活类'
+      'url': 'https://beihaibei.com'
+    - 'name': '北熙宝宝如果恋爱有颜色，那一定是纯白色！学习类创作类'
+      'url': 'https://blog.beixibaobao.com/'
+    - 'name': '从萌新到大神：我的技术成长笔记零基础入门到进阶实战，记录每一步成长的思考。技术类'
+      'url': 'https://blog.longdahuasheng.top'
+    - 'name': '灯火不休时所爱隔山海，山海不可平；所念皆星河，星河不可及技术类'
+      'url': 'https://blog.dhbxs.top'
+    - 'name': '二叉树树Protect What You Love.技术类'
+      'url': 'https://blog.acofork.com/'
+    - 'name': '法律小茶馆法学法律工作者生活类创作类'
+      'url': 'https://lawtee.com'
+    - 'name': '孤芳不自赏的Blog日益努力，而后风生水起生活类'
+      'url': 'https://www.gfbzsblog.site/'
+    - 'name': '顾梦不想满心遗憾，那就全力以赴.技术类'
+      'url': 'https://blog.gumengyo.top'
+    - 'name': '胡涂说「胡涂说」是一个充满好奇心的人记录学习与思考，探索技术与人文思想交汇的地方。创作类'
+      'url': 'https://hutusi.com/'
+    - 'name': '空鸣深语深鸣的博客，主要记录技术与生活相关的内容生活类'
+      'url': 'https://blog.deepchirp.com'
+    - 'name': '李锋镝的博客星光不问赶路人，时光不负有心人。技术类'
+      'url': 'https://www.lifengdi.com'
+    - 'name': '落羽日记灯光永不暗淡，梦想永不凋零
+
+        是期望与和解，也是相遇与告别生活类'
+      'url': 'https://www.junluoyu.cn/'
+    - 'name': '猫普的精神世界一个独立开发者的精神自留地技术类'
+      'url': 'https://maplezz.com/'
+    - 'name': '懋和道人李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。技术类创作类'
+      'url': 'https://www.dao.js.cn/'
+    - 'name': '默小班一个初中生的小站点。生活类'
+      'url': 'https://www.memxb.top/'
+    - 'name': '乔人尹生命在于折腾。Coding the world!技术类'
+      'url': 'https://underestimated.cn'
+    - 'name': '清羽飞扬柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜创作类'
+      'url': 'https://blog.liushen.fun/'
+    - 'name': '秋实-Allenyou稻花香里说丰年，听取 WA 声一片技术类学习类'
+      'url': 'https://www.allenyou.wang/'
+    - 'name': '若翎的温暖小窝一个任性又矫情的双子座生活类'
+      'url': 'https://ruolinglife.top'
+    - 'name': '森月台森林深处少有人经过的月台生活类'
+      'url': 'https://moriform.com/'
+    - 'name': '闪闪の小窝来玩！玩累了…就睡觉！没问题的！创作类技术类'
+      'url': 'https://moechun.fun'
+    - 'name': '十玖八柒探索代码的世界，追寻生活的诗篇技术类'
+      'url': 'https://blog.ahzoo.cn'
+    - 'name': '陶其的个人博客当下，即是未来技术类'
+      'url': 'https://www.tqazy.com'
+    - 'name': '特立独行的异类引入变量，跳出死循环，从不确定性中获益创作类'
+      'url': 'https://www.demochen.com/'
+    - 'name': '小改学习志孩儿立志出乡关，学不成名誓不还生活类'
+      'url': 'https://www.haoyu233.com'
+    - 'name': '益友网站美好的日常生活值得我们去记录，希望我们的生活每天都能充满着乐趣跟开心事生活类'
+      'url': 'https://www.yiyou.bj.cn/'
+    - 'name': '友链展示站发现优质博客与网站聚合站'
+      'url': 'https://peng.you/'
+    - 'name': '雨雪冰屋一隅雨雪一炉窝，可能会融化持久堆？生活类创作类'
+      'url': 'https://iamyukino.cn/'
+    - 'name': '张洪Heo分享设计与科技生活技术类创作类'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '纸鹿摸鱼处纸鹿至麓不知路，支炉制露不止漉技术类生活类'
+      'url': 'https://blog.zhilu.site/'
+    - 'name': 'An''s Blog别把看重的东西附上无边的价值技术类'
+      'url': 'https://ninesue.online'
+    - 'name': 'CIK人生如逆旅，我亦是行人，但求步履从容，不负光阴~生活类创作类'
+      'url': 'https://blog.cikcc.comm'
+    - 'name': 'Dignite’s Blog!When Nothing Goes Right, Go Left.学习类生活类'
+      'url': 'https://www.amzcd.top/'
+    - 'name': 'Echo 的小窝漂泊于互联网中的小窝学习类生活类'
+      'url': 'https://www.liveout.cn'
+    - 'name': 'ElysiumStack不会摄影的设计师不是优秀的旅行家技术类生活类'
+      'url': 'https://www.elysium-stack.cn/'
+    - 'name': 'iMaeGoo’s Blog虹墨空间站创作类'
+      'url': 'https://www.imaegoo.com'
+    - 'name': 'NihaoShow一个人的网站生活类'
+      'url': 'https://www.nihao.show/'
+    - 'name': 'ObsiBlogby Obsidian · 后端 / 逆向 / 自托管技术日志技术类'
+      'url': 'https://blog.hiyun.top/'
+    - 'name': 'Oyiso''s BlogThe shortest answer is doing创作类'
+      'url': 'https://oyiso.cn'
+    - 'name': 'RhoPaperの小站纸至执技术类'
+      'url': 'https://rhopaper.top/'
+    - 'name': 'Tangly BlogNotion Next开源博客作者创作类'
+      'url': 'https://tangly1024.com'
+    - 'name': 'Yuki Nix(禰夕・有希)追问概念的精确解.生活类'
+      'url': 'https://www.nixyuki.com'
+    - 'name': 'YYsuni简单的 blog技术类'
+      'url': 'https://www.yysuni.com/'
+    - 'name': 'zBlog夢はいつでも, 僕らの前にある生活类'
+      'url': 'https://zzzhxxxx.top'

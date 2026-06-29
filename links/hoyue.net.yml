@@ -1,14 +1,8 @@
-site:
-  name: "hoyue.net"
-  description: "友情链接"
-  url: "https://hoyue.net/"
-  links: "/friends"
-  friends:
-    - name: "Phoebe (Night) - void_0"
-      url: "https://www.pixiv.net/artworks/128293940"
-    - name: "Astro"
-      url: "https://astro.build"
-    - name: "Fuwari"
-      url: "https://github.com/saicaca/fuwari"
-    - name: "萌ICP备20210332号"
-      url: "https://icp.gov.moe/?keyword=20210332"
+'site':
+  'name': 'hoyue.net'
+  'description': '友情链接'
+  'url': 'https://hoyue.net/'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Phoebe (Night) - void_0'
+      'url': 'https://www.pixiv.net/artworks/128293940'

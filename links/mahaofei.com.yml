@@ -1,44 +1,38 @@
-site:
-  name: "mahaofei.com"
-  description: "友情链接"
-  url: "https://mahaofei.com/"
-  links: "/link"
-  friends:
-    - name: "学术主页"
-      url: "https://academic.mahaofei.com/"
-    - name: "导航网站"
-      url: "https://nav.mahaofei.com/"
-    - name: "张洪HEO \n      分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Akilarの糖果屋 \n      欢迎来到Akilarの糖果屋"
-      url: "https://akilar.top/"
-    - name: "小N同学 \n      青石落晚巷，故人未还乡"
-      url: "https://www.nesxc.com/"
-    - name: "贰猹の小窝 \n      奋力奔跑，去追心中的那一道光"
-      url: "https://noionion.top/"
-    - name: "Ariasakaの小窝 \n      人有悲欢离合 月有阴晴圆缺"
-      url: "https://blog.yaria.top/"
-    - name: "ImCaO's Blog \n      花有重开日，人无再少年。"
-      url: "https://www.imcao.cn"
-    - name: "Joyer的博客 \n      一只会唱Lahee~的龙"
-      url: "https://blog.joyer.top"
-    - name: "周天记 \n      留存美好，铭刻感动"
-      url: "https://blog.lovelu.top/"
-    - name: "GanSer \n      紫箫吟断，素笺恨切"
-      url: "https://www.gan1ser.top/"
-    - name: "webfem \n      做有价值的博客"
-      url: "https://webfem.com/"
-    - name: "bbb-lsy07 \n      科技激荡人文，洞见智慧本真"
-      url: "https://blog.6uu.us/"
-    - name: "八对星星 \n      极目星视穹苍无界•足履行者大地有疆"
-      url: "https://www.8dui.com/"
-    - name: "德胜独立开发 \n      分享技术、记录成长"
-      url: "https://deshengdulikaifa.com"
-    - name: "成烁BLOG \n      致一锦程 探索不停"
-      url: "https://blog.chengshuo.top"
-    - name: "陶小桃Blog \n      鸷鸟不群，前世固然"
-      url: "https://www.52txr.cn/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Github"
-      url: "https://github.com/HaofeiMa"
+'site':
+  'name': 'mahaofei.com'
+  'description': '友情链接'
+  'url': 'https://mahaofei.com/'
+  'links': '/link'
+  'friends':
+    - 'name': '学术主页'
+      'url': 'https://academic.mahaofei.com/'
+    - 'name': "张洪HEO\ \n      分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "Akilarの糖果屋\ \n      欢迎来到Akilarの糖果屋"
+      'url': 'https://akilar.top/'
+    - 'name': "小N同学\ \n      青石落晚巷，故人未还乡"
+      'url': 'https://www.nesxc.com/'
+    - 'name': "贰猹の小窝\ \n      奋力奔跑，去追心中的那一道光"
+      'url': 'https://noionion.top/'
+    - 'name': "Ariasakaの小窝\ \n      人有悲欢离合 月有阴晴圆缺"
+      'url': 'https://blog.yaria.top/'
+    - 'name': "ImCaO's Blog\ \n      花有重开日，人无再少年。"
+      'url': 'https://www.imcao.cn'
+    - 'name': "Joyer的博客\ \n      一只会唱Lahee~的龙"
+      'url': 'https://blog.joyer.top'
+    - 'name': "周天记\ \n      留存美好，铭刻感动"
+      'url': 'https://blog.lovelu.top/'
+    - 'name': "GanSer\ \n      紫箫吟断，素笺恨切"
+      'url': 'https://www.gan1ser.top/'
+    - 'name': "webfem\ \n      做有价值的博客"
+      'url': 'https://webfem.com/'
+    - 'name': "bbb-lsy07\ \n      科技激荡人文，洞见智慧本真"
+      'url': 'https://blog.6uu.us/'
+    - 'name': "八对星星\ \n      极目星视穹苍无界•足履行者大地有疆"
+      'url': 'https://www.8dui.com/'
+    - 'name': "德胜独立开发\ \n      分享技术、记录成长"
+      'url': 'https://deshengdulikaifa.com'
+    - 'name': "成烁BLOG\ \n      致一锦程 探索不停"
+      'url': 'https://blog.chengshuo.top'
+    - 'name': "陶小桃Blog\ \n      鸷鸟不群，前世固然"
+      'url': 'https://www.52txr.cn/'

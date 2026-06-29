@@ -1,18 +1,8 @@
-site:
-  name: "Ryan"
-  url: "https://teleblog.ryanyuan.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "GitHub"
-      url: "https://github.com/Tseshongfeeshur"
-    - name: "Telegram"
-      url: "https://t.me/RexsDoorstep"
-    - name: "Ryan's 家门口 📢"
-      url: "https://teleblog.ryanyuan.top/"
-    - name: "Ryan's Blog"
-      url: "https://blog.ryanyuan.top/"
-    - name: "BroadcastChannel"
-      url: "https://github.com/miantiao-me/BroadcastChannel"
-    - name: "Sepia"
-      url: "https://github.com/Planetable/SiteTemplateSepia"
+'site':
+  'name': 'Ryan'
+  'url': 'https://teleblog.ryanyuan.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Ryan''s Blog'
+      'url': 'https://blog.ryanyuan.top/'

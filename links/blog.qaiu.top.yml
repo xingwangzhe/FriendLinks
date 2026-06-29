@@ -1,178 +1,96 @@
-site:
-  name: "Qaiu"
-  url: "https://blog.qaiu.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Qaiu blog"
-      url: "https://blog.qaiu.top"
-    - name: "github↗"
-      url: "https://github.com/qaiu"
-    - name: "直链解析↗"
-      url: "https://lz.qaiu.top"
-    - name: "万年历↗"
-      url: "http://sx.qaiu.top"
-    - name: "赞助支持↗"
-      url: "https://blog.qaiu.top/archives/da-shang-zhuan-yong"
-    - name: "服务监控↗"
-      url: "https://stats.uptimerobot.com/gNA4ZIPq30"
-    - name: "🚊↗"
-      url: "https://www.travellings.cn/go.html"
-    - name: "1\n            关于123云盘在线解析配合nfdproxy绕过IP限制的方法"
-      url: "https://blog.qaiu.top/archives/123parser"
-    - name: "2\n            dnode-py客户端"
-      url: "https://blog.qaiu.top/archives/dnode-ke-hu-duan"
-    - name: "3\n            netdisk-fast-download后台配置版使用指南"
-      url: "https://blog.qaiu.top/archives/netdisk-fast-download后台配置版使用指南"
-    - name: "4\n            nfd-proxy代理节点技术深度剖析"
-      url: "https://blog.qaiu.top/archives/2026-03-18-02-12-02"
-    - name: "5\n            nfd-vip配置指南"
-      url: "https://blog.qaiu.top/archives/nfd-vip配置指南"
-    - name: "Gitee"
-      url: "https://gitee.com/qaiu"
-    - name: "知乎"
-      url: "https://www.zhihu.com/people/QAIU"
-    - name: "B站"
-      url: "https://b23.tv/zhzYLvt"
-    - name: "netdisk-fast-download"
-      url: "https://blog.qaiu.top/tags/netdisk-fast-download"
-    - name: "直链解析工具"
-      url: "https://blog.qaiu.top/tags/直链解析工具"
-    - name: "123网盘"
-      url: "https://blog.qaiu.top/tags/123网盘"
-    - name: "蓝奏云"
-      url: "https://blog.qaiu.top/tags/蓝奏云"
-    - name: "网盘直链解析"
-      url: "https://blog.qaiu.top/tags/网盘直链解析"
-    - name: "网盘快速下载"
-      url: "https://blog.qaiu.top/tags/网盘快速下载"
-    - name: "nfd"
-      url: "https://blog.qaiu.top/tags/nfd"
-    - name: "pydroid"
-      url: "https://blog.qaiu.top/tags/pydroid"
-    - name: "评测"
-      url: "https://blog.qaiu.top/tags/评测"
-    - name: "arduino"
-      url: "https://blog.qaiu.top/tags/arduino"
-    - name: "笔记"
-      url: "https://blog.qaiu.top/tags/笔记"
-    - name: "WPS"
-      url: "https://blog.qaiu.top/tags/wps"
-    - name: "Excel"
-      url: "https://blog.qaiu.top/tags/excel"
-    - name: "手机编程"
-      url: "https://blog.qaiu.top/tags/手机编程"
-    - name: "python"
-      url: "https://blog.qaiu.top/tags/python"
-    - name: "安装教程"
-      url: "https://blog.qaiu.top/tags/安装教程"
-    - name: "quartz"
-      url: "https://blog.qaiu.top/tags/quartz"
-    - name: "memedit"
-      url: "https://blog.qaiu.top/tags/memedit"
-    - name: "termux"
-      url: "https://blog.qaiu.top/tags/termux"
-    - name: "css"
-      url: "https://blog.qaiu.top/tags/css"
-    - name: "html"
-      url: "https://blog.qaiu.top/tags/html"
-    - name: "deepin"
-      url: "https://blog.qaiu.top/tags/deepin"
-    - name: "java基础"
-      url: "https://blog.qaiu.top/tags/java基础"
-    - name: "快捷键"
-      url: "https://blog.qaiu.top/tags/快捷键"
-    - name: "win10"
-      url: "https://blog.qaiu.top/tags/win10"
-    - name: "C/C++"
-      url: "https://blog.qaiu.top/tags/cc"
-    - name: "eclipse"
-      url: "https://blog.qaiu.top/tags/eclipse"
-    - name: "idea"
-      url: "https://blog.qaiu.top/tags/idea"
-    - name: "java"
-      url: "https://blog.qaiu.top/tags/java"
-    - name: "linux"
-      url: "https://blog.qaiu.top/tags/linux"
-    - name: "gcc"
-      url: "https://blog.qaiu.top/tags/gcc"
-    - name: "安卓"
-      url: "https://blog.qaiu.top/tags/安卓"
-    - name: "c4droid"
-      url: "https://blog.qaiu.top/tags/c4droid"
-    - name: "linux命令"
-      url: "https://blog.qaiu.top/tags/linux命令"
-    - name: "git"
-      url: "https://blog.qaiu.top/tags/git"
-    - name: "Markdown"
-      url: "https://blog.qaiu.top/tags/markdown"
-    - name: "雨缄信笺\n            \n              倚楼听风雨，淡看江湖路"
-      url: "https://rain-sealedletter.top/"
-    - name: "Blog of Thymol Blue\n            \n              随便写写，与你分享"
-      url: "https://nano.chemtian.top/"
-    - name: "QAIU主页\n            \n              这位博主啥也没说"
-      url: "https://qaiu.top"
-    - name: "狱杰手书\n            \n              我还有好多故事没跟你们讲"
-      url: "https://uegee.com"
-    - name: "鲨鱼辣椒的Blog\n            \n              这是一个非常牛逼的博客"
-      url: "https://songjian.cc"
-    - name: "IUN-编程禁地\n            \n              欢迎大家来IUN-编程禁地鸭"
-      url: "http://sweetxinian.3vkj.club"
-    - name: "Pinpe的博客\n            \n              一位初中生，喜欢编程、写作、游戏"
-      url: "https://blog.pinpe.top"
-    - name: "PangBai's Blog\n            \n              摸鱼的旁白的博客"
-      url: "https://pangbai.work/"
-    - name: "一抹阳光博客\n            \n              分享自己在学习中所遇到到问题和经验。"
-      url: "http://www.lhdlhd.com"
-    - name: "M酷的Blog\n            \n              一个专注分享前端技术和趋势的博客"
-      url: "https://bbchin.com"
-    - name: "Ryan Wang\n            \n              Halo开源团队Leader"
-      url: "https://ryanc.cc"
-    - name: "luzhenfang 's Blog\n            \n              全栈混子的菜鸡日常"
-      url: "http://lzfblog.cn"
-    - name: "guqing’s blog\n            \n              毕生所求无它，爱与自由而已"
-      url: "https://guqing.io"
-    - name: "福福不服\n            \n              不服就是不服"
-      url: "https://ffbf.top"
-    - name: "https://blog.qaiu.top/logo"
-      url: "https://blog.qaiu.top/logo"
-    - name: "NFD网盘直链解析已添加对目录解析支持"
-      url: "https://blog.qaiu.top/archives/nfd-wang-pan-zhi-lian-jie-xi-yi-tian-jia-dui-mu-lu-jie-xi-zhi-chi"
-    - name: "Pydroid3 8.0汉化版下载 已支持运行ollama大模型"
-      url: "https://blog.qaiu.top/archives/pydroid3v801cn"
-    - name: "nfd解析外链嵌入音视频演示"
-      url: "https://blog.qaiu.top/archives/cccc"
-    - name: "netdisk-fast-download宝塔安装教程"
-      url: "https://blog.qaiu.top/archives/netdisk-fast-download-bao-ta-an-zhuang-jiao-cheng"
-    - name: "nfd网盘解析工具使用指南"
-      url: "https://blog.qaiu.top/archives/nfd001"
-    - name: "能不能加上APK生成"
-      url: "https://blog.qaiu.top/archives/pydroid3v801cn?cid=969"
-    - name: "生成APK能不能加上"
-      url: "https://blog.qaiu.top/archives/pydroid3v72?cid=968"
-    - name: "进pydroid群下载安装"
-      url: "https://blog.qaiu.top/archives/pydroid3v801cn?cid=952"
-    - name: "怎么才能装上ddddocr呀?"
-      url: "https://blog.qaiu.top/archives/pydroid3v801cn?cid=951"
-    - name: "求升级ollama版本到0.7以上"
-      url: "https://blog.qaiu.top/archives/pydroid3v801cn?cid=950"
-    - name: "我我想安想安ursina但是说要插件，插件怎么安装啊"
-      url: "https://blog.qaiu.top/archives/pydroid3v72?cid=948"
-    - name: "卸载重新安装旧版本"
-      url: "https://blog.qaiu.top/archives/pydroid3v801cn?cid=944"
-    - name: "直链解析域名有问题，已经改好了，再试一次"
-      url: "https://blog.qaiu.top/archives/pydroid3v801cn?cid=943"
-    - name: "ollama插件安装，提示出错：获取下载URL失败 。是怎么回事，怎么解决？"
-      url: "https://blog.qaiu.top/archives/pydroid3v801cn?cid=942"
-    - name: "更多"
-      url: "https://blog.qaiu.top/tags"
-    - name: "滇ICP备17008551号-6"
-      url: "https://beian.miit.gov.cn"
-    - name: "Halo"
-      url: "https://halo.run/"
-    - name: "M酷"
-      url: "https://github.com/qinhua/halo-theme-joe2.0"
-    - name: "站点地图"
-      url: "https://blog.qaiu.top/sitemap.xml"
-    - name: "萌ICP备20236400号"
-      url: "https://icp.gov.moe/?keyword=20236400"
+'site':
+  'name': 'Qaiu'
+  'url': 'https://blog.qaiu.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '直链解析↗'
+      'url': 'https://lz.qaiu.top'
+    - 'name': '万年历↗'
+      'url': 'http://sx.qaiu.top'
+    - 'name': "雨缄信笺
+
+        \           \ 
+
+        \              倚楼听风雨，淡看江湖路"
+      'url': 'https://rain-sealedletter.top/'
+    - 'name': "Blog of Thymol Blue
+
+        \           \ 
+
+        \              随便写写，与你分享"
+      'url': 'https://nano.chemtian.top/'
+    - 'name': "QAIU主页
+
+        \           \ 
+
+        \              这位博主啥也没说"
+      'url': 'https://qaiu.top'
+    - 'name': "狱杰手书
+
+        \           \ 
+
+        \              我还有好多故事没跟你们讲"
+      'url': 'https://uegee.com'
+    - 'name': "鲨鱼辣椒的Blog
+
+        \           \ 
+
+        \              这是一个非常牛逼的博客"
+      'url': 'https://songjian.cc'
+    - 'name': "IUN-编程禁地
+
+        \           \ 
+
+        \              欢迎大家来IUN-编程禁地鸭"
+      'url': 'http://sweetxinian.3vkj.club'
+    - 'name': "Pinpe的博客
+
+        \           \ 
+
+        \              一位初中生，喜欢编程、写作、游戏"
+      'url': 'https://blog.pinpe.top'
+    - 'name': "PangBai's Blog
+
+        \           \ 
+
+        \              摸鱼的旁白的博客"
+      'url': 'https://pangbai.work/'
+    - 'name': "一抹阳光博客
+
+        \           \ 
+
+        \              分享自己在学习中所遇到到问题和经验。"
+      'url': 'http://www.lhdlhd.com'
+    - 'name': "M酷的Blog
+
+        \           \ 
+
+        \              一个专注分享前端技术和趋势的博客"
+      'url': 'https://bbchin.com'
+    - 'name': "Ryan Wang
+
+        \           \ 
+
+        \              Halo开源团队Leader"
+      'url': 'https://ryanc.cc'
+    - 'name': "luzhenfang 's Blog
+
+        \           \ 
+
+        \              全栈混子的菜鸡日常"
+      'url': 'http://lzfblog.cn'
+    - 'name': "guqing’s blog
+
+        \           \ 
+
+        \              毕生所求无它，爱与自由而已"
+      'url': 'https://guqing.io'
+    - 'name': "福福不服
+
+        \           \ 
+
+        \              不服就是不服"
+      'url': 'https://ffbf.top'
+    - 'name': 'Halo'
+      'url': 'https://halo.run/'

@@ -1,14 +1,8 @@
-site:
-  name: "雨落川"
-  url: "https://blog.yangzy.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "开往"
-      url: "https://www.travellings.cn/"
-    - name: "主题: Clarity 3.4.0"
-      url: "https://github.com/L33Z22L11/blog-v3"
-    - name: "主题和组件文档"
-      url: "https://blog.zhilu.site/theme"
-    - name: "晋ICP备2025064396号-2"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': '雨落川'
+  'url': 'https://blog.yangzy.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '主题和组件文档'
+      'url': 'https://blog.zhilu.site/theme'

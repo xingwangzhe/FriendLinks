@@ -1,68 +1,62 @@
-site:
-  name: wangxinyang
-  description: 个人博客 / 学习交流 / 生活日常
-  url: https://www.wangxinyang.top
-  links: /links
-  friends:
-    - name: 静かな森
-      url: https://innei.in
-    - name: 内密心書
-      url: https://oortaka.top
-    - name: yangyu blog
-      url: https://jdni.cn
-    - name: 梦涵LOVEの小窝
-      url: https://heyuhan.huohuo.ink
-    - name: 王一君Mew
-      url: https://wyjmew.cn
-    - name: 花开暖年
-      url: https://huakainuannian.cn
-    - name: Beibingの小窝
-      url: https://www.zzrbk.xyz/
-    - name: Fry酥条の博客
-      url: https://blog.fryfries13.cn/
-    - name: bbb-lsy07
-      url: https://blog.tsoo.net
-    - name: 小郑 Blog
-      url: https://halo.bt.hyin.top
-    - name: 星河の外
-      url: https://blog.elsworld.cn:8443
-    - name: ElysiumStack
-      url: https://blog.elysium-stack.cn
-    - name: 蛋蛋之家
-      url: https://wuqishi.com
-    - name: 小聂的窝
-      url: https://xiaonie.me
-    - name: 流欺の博客
-      url: https://blog.lqay.cn/
-    - name: 周阿源
-      url: https://zhouayuan.com/
-    - name: MyBlog
-      url: https://blog.moeqy.com/
-    - name: 云墨观窗
-      url: https://mojue88.com
-    - name: 张洪Heo
-      url: https://blog.zhheo.com
-    - name: Z.L Vansiit's blog
-      url: https://vansiit.cc/
-    - name: AJie's Blog
-      url: https://www.promptnet.cn/
-    - name: 零壹碎片
-      url: https://blog.zyx-2012.cn
-    - name: 壮壮博客
-      url: https://zhuangzhuang.io
-    - name: amfe的小站
-      url: https://amfe.space
-    - name: Airing 的小屋
-      url: https://ursb.me
-    - name: Echo
-      url: https://www.liveout.cn/
-    - name: Ariasakaの小窝
-      url: https://blog.yaria.top
-    - name: 博客星球
-      url: https://www.blogplanet.cn/
-    - name: 博客集市
-      url: https://cnb.cool/Blog_Bazaar/
-    - name: 好站网
-      url: https://haozhan.wang
-    - name: 集博栈
-      url: https://www.zhblogs.net/
+'site':
+  'name': 'wangxinyang'
+  'description': '个人博客 / 学习交流 / 生活日常'
+  'url': 'https://www.wangxinyang.top'
+  'links': '/links'
+  'friends':
+    - 'name': '静かな森'
+      'url': 'https://innei.in'
+    - 'name': '内密心書'
+      'url': 'https://oortaka.top'
+    - 'name': 'yangyu blog'
+      'url': 'https://jdni.cn'
+    - 'name': '梦涵LOVEの小窝'
+      'url': 'https://heyuhan.huohuo.ink'
+    - 'name': '王一君Mew'
+      'url': 'https://wyjmew.cn'
+    - 'name': '花开暖年'
+      'url': 'https://huakainuannian.cn'
+    - 'name': 'Beibingの小窝'
+      'url': 'https://www.zzrbk.xyz/'
+    - 'name': 'Fry酥条の博客'
+      'url': 'https://blog.fryfries13.cn/'
+    - 'name': 'bbb-lsy07'
+      'url': 'https://blog.tsoo.net'
+    - 'name': '小郑 Blog'
+      'url': 'https://halo.bt.hyin.top'
+    - 'name': '星河の外'
+      'url': 'https://blog.elsworld.cn:8443'
+    - 'name': 'ElysiumStack'
+      'url': 'https://blog.elysium-stack.cn'
+    - 'name': '蛋蛋之家'
+      'url': 'https://wuqishi.com'
+    - 'name': '小聂的窝'
+      'url': 'https://xiaonie.me'
+    - 'name': '流欺の博客'
+      'url': 'https://blog.lqay.cn/'
+    - 'name': '周阿源'
+      'url': 'https://zhouayuan.com/'
+    - 'name': 'MyBlog'
+      'url': 'https://blog.moeqy.com/'
+    - 'name': '云墨观窗'
+      'url': 'https://mojue88.com'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com'
+    - 'name': 'Z.L Vansiit''s blog'
+      'url': 'https://vansiit.cc/'
+    - 'name': 'AJie''s Blog'
+      'url': 'https://www.promptnet.cn/'
+    - 'name': '零壹碎片'
+      'url': 'https://blog.zyx-2012.cn'
+    - 'name': '壮壮博客'
+      'url': 'https://zhuangzhuang.io'
+    - 'name': 'amfe的小站'
+      'url': 'https://amfe.space'
+    - 'name': 'Airing 的小屋'
+      'url': 'https://ursb.me'
+    - 'name': 'Echo'
+      'url': 'https://www.liveout.cn/'
+    - 'name': 'Ariasakaの小窝'
+      'url': 'https://blog.yaria.top'
+    - 'name': '博客集市'
+      'url': 'https://cnb.cool/Blog_Bazaar/'

@@ -1,44 +1,12 @@
-site:
-  name: "寒星皓月"
-  url: "https://wanghanyue.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "网站首页"
-      url: "https://www.wanghanyue.com/"
-    - name: "2024年6月3日 - 可能我只是你生命里的一个过客，但你不会遇见第二个我。"
-      url: "https://www.wanghanyue.com/t/"
-    - name: "关于博客"
-      url: "https://www.wanghanyue.com/about.html"
-    - name: "文章归档"
-      url: "https://www.wanghanyue.com/archivers.html"
-    - name: "留言吐槽"
-      url: "https://www.wanghanyue.com/guestbook.html"
-    - name: "随便看看"
-      url: "https://www.wanghanyue.com/post-35.html"
-    - name: "默认"
-      url: "https://www.wanghanyue.com/sort/default"
-    - name: "生活分享"
-      url: "https://www.wanghanyue.com/sort/mylife"
-    - name: "技术交流"
-      url: "https://www.wanghanyue.com/sort/skill"
-    - name: "插件源码"
-      url: "https://www.wanghanyue.com/sort/code"
-    - name: "微博"
-      url: "https://weibo.com/u/6434823588"
-    - name: "QQ"
-      url: "http://wpa.qq.com/msgrd?v=3&uin=1938292252&site=qq&menu=yes"
-    - name: "随便看看"
-      url: "https://www.wanghanyue.com/post-115.html"
-    - name: "6.0.1"
-      url: "https://www.emlog.net"
-    - name: "Colorful V6.0"
-      url: "https://myhkw.com/"
-    - name: "网站统计"
-      url: "https://tongji.baidu.com/"
-    - name: "Sitemap"
-      url: "https://www.wanghanyue.com/sitemap.xml"
-    - name: "网站地图"
-      url: "https://www.wanghanyue.com/baidusitemap.php"
-    - name: "豫ICP备2022024268号-1"
-      url: "https://beian.miit.gov.cn"
+'site':
+  'name': '寒星皓月'
+  'url': 'https://wanghanyue.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '6.0.1'
+      'url': 'https://www.emlog.net'
+    - 'name': 'Colorful V6.0'
+      'url': 'https://myhkw.com/'
+    - 'name': '网站统计'
+      'url': 'https://tongji.baidu.com/'

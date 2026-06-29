@@ -1,20 +1,18 @@
-site:
-  name: "ethyoung.me"
-  description: "友情链接"
-  url: "https://ethyoung.me/"
-  links: "/friends"
-  friends:
-    - name: "GitHub 联系"
-      url: "https://github.com/yy921010"
-    - name: "01    精选友链 Pw0n’s blog pw0n.com 技术分享、生活记录、教程指南   BlogTech"
-      url: "https://pw0n.com"
-    - name: "02 / 我要去巴萨  coyoteoutdoor.space"
-      url: "https://www.coyoteoutdoor.space:8095/"
-    - name: "03 / 敖武的博客  z.wiki"
-      url: "https://z.wiki"
-    - name: "04 / 张洪Heo  blog.zhheo.com"
-      url: "https://blog.zhheo.com/"
-    - name: "05 / 凌飞阁  llingfei.com"
-      url: "https://llingfei.com"
-    - name: "06 / xiaoming728  xiaoming728.com"
-      url: "https://xiaoming728.com"
+'site':
+  'name': 'ethyoung.me'
+  'description': '友情链接'
+  'url': 'https://ethyoung.me/'
+  'links': '/friends'
+  'friends':
+    - 'name': '01    精选友链 Pw0n’s blog pw0n.com 技术分享、生活记录、教程指南   BlogTech'
+      'url': 'https://pw0n.com'
+    - 'name': '02 / 我要去巴萨  coyoteoutdoor.space'
+      'url': 'https://www.coyoteoutdoor.space:8095/'
+    - 'name': '03 / 敖武的博客  z.wiki'
+      'url': 'https://z.wiki'
+    - 'name': '04 / 张洪Heo  blog.zhheo.com'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '05 / 凌飞阁  llingfei.com'
+      'url': 'https://llingfei.com'
+    - 'name': '06 / xiaoming728  xiaoming728.com'
+      'url': 'https://xiaoming728.com'

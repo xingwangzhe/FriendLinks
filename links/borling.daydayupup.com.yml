@@ -1,56 +1,30 @@
-site:
-  name: "borling.daydayupup.com"
-  description: "友情链接"
-  url: "https://borling.daydayupup.com/"
-  links: "/link"
-  friends:
-    - name: "新闻"
-      url: "https://news.borling.daydayupup.com"
-    - name: "封面"
-      url: "https://cover.borling.daydayupup.com"
-    - name: "开往"
-      url: "https://www.travellings.cn/go-robots.html"
-    - name: "最后的梦制作组"
-      url: "https://www.lastdream.net/"
-    - name: "呆呆酱"
-      url: "https://www.daydayupup.com/"
-    - name: "unsignedzhang"
-      url: "https://unsignedzhang.cn/"
-    - name: "戴兜的小屋"
-      url: "https://daidr.me/"
-    - name: "忆古陌烟在迷失中寻找自我"
-      url: "http://www.yigumoyan.moe/"
-    - name: "疯子小风的客栈"
-      url: "https://5ixf.com/#/"
-    - name: "褪色的梦没有人愿意选择离开，纵使道路始终是泪水"
-      url: "https://admin.lastdream.net/"
-    - name: "张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "https://borling.daydayupup.com/"
-      url: "https://borling.daydayupup.com/"
-    - name: "https://oss.borling.daydayupup.com/avatar/avatar.png"
-      url: "https://oss.borling.daydayupup.com/avatar/avatar.png"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "微博"
-      url: "https://weibo.com/u/7366182675"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/293237300"
-    - name: "小红书"
-      url: "https://www.xiaohongshu.com/user/profile/5e2d21250000000001005b18"
-    - name: "履约证书"
-      url: "https://www.blogsclub.org/certificate.html?id=10000150"
-    - name: "BlogsClub"
-      url: "https://www.blogsclub.org/apply.html?inviteCode=e7be505a"
-    - name: "正在博友圈履约中"
-      url: "https://www.boyouquan.com/certificates/borling.daydayupup.com"
-    - name: "呆呆阿卜成员"
-      url: "http://daydayupup.com"
-    - name: "本站项目由Github托管"
-      url: "https://github.com/"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "主题"
-      url: "https://github.com/anzhiyu-c/hexo-theme-anzhiyu"
-    - name: "萌ICP备20258801号"
-      url: "https://icp.gov.moe/?keyword=20258801/"
+'site':
+  'name': 'borling.daydayupup.com'
+  'description': '友情链接'
+  'url': 'https://borling.daydayupup.com/'
+  'links': '/link'
+  'friends':
+    - 'name': '新闻'
+      'url': 'https://news.borling.daydayupup.com'
+    - 'name': '封面'
+      'url': 'https://cover.borling.daydayupup.com'
+    - 'name': '最后的梦制作组'
+      'url': 'https://www.lastdream.net/'
+    - 'name': '呆呆酱'
+      'url': 'https://www.daydayupup.com/'
+    - 'name': 'unsignedzhang'
+      'url': 'https://unsignedzhang.cn/'
+    - 'name': '戴兜的小屋'
+      'url': 'https://daidr.me/'
+    - 'name': '忆古陌烟在迷失中寻找自我'
+      'url': 'http://www.yigumoyan.moe/'
+    - 'name': '疯子小风的客栈'
+      'url': 'https://5ixf.com/#/'
+    - 'name': '褪色的梦没有人愿意选择离开，纵使道路始终是泪水'
+      'url': 'https://admin.lastdream.net/'
+    - 'name': '张洪Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '小红书'
+      'url': 'https://www.xiaohongshu.com/user/profile/5e2d21250000000001005b18'
+    - 'name': '呆呆阿卜成员'
+      'url': 'http://daydayupup.com'

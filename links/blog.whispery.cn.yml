@@ -1,30 +1,22 @@
-site:
-  name: "Whisper"
-  url: "https://blog.whispery.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "扫雷"
-      url: "http://minesweeper.whispery.cn/"
-    - name: "L1nSn0w’s Blog无限进步.🎈"
-      url: "https://blog.linsnow.cn"
-    - name: "张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "杜老师说师者，传道，授业，解惑！"
-      url: "https://dusays.com"
-    - name: "Catch Wang未来路长 · 勿忘初心"
-      url: "https://www.catchwang.com"
-    - name: "btwoa我仍相信人间滚烫"
-      url: "https://blog.btwoa.com"
-    - name: "LyShark - 孤风洗剑道，可道，非常道；名，可名，非常名。—— 老子《道德经》"
-      url: "https://www.lyshark.com"
-    - name: "满心Hrn追求让人充实，分享让人快乐"
-      url: "https://blog.lovelu.top/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Fluid"
-      url: "https://github.com/fluid-dev/hexo-theme-fluid"
-    - name: "Whisper"
-      url: "https://blog.whispery.cn/music/"
+'site':
+  'name': 'Whisper'
+  'url': 'https://blog.whispery.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '扫雷'
+      'url': 'http://minesweeper.whispery.cn/'
+    - 'name': 'L1nSn0w’s Blog无限进步.🎈'
+      'url': 'https://blog.linsnow.cn'
+    - 'name': '张洪Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '杜老师说师者，传道，授业，解惑！'
+      'url': 'https://dusays.com'
+    - 'name': 'Catch Wang未来路长 · 勿忘初心'
+      'url': 'https://www.catchwang.com'
+    - 'name': 'btwoa我仍相信人间滚烫'
+      'url': 'https://blog.btwoa.com'
+    - 'name': 'LyShark - 孤风洗剑道，可道，非常道；名，可名，非常名。—— 老子《道德经》'
+      'url': 'https://www.lyshark.com'
+    - 'name': '满心Hrn追求让人充实，分享让人快乐'
+      'url': 'https://blog.lovelu.top/'

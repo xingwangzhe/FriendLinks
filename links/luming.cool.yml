@@ -1,90 +1,66 @@
-site:
-  name: "路明笔记"
-  url: "https://luming.cool/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "公告"
-      url: "https://www.luming.cool/category/announcement/"
-    - name: "生活"
-      url: "https://www.luming.cool/category/life/"
-    - name: "科技"
-      url: "https://www.luming.cool/category/tech/"
-    - name: "议论"
-      url: "https://www.luming.cool/category/%E8%AE%AE%E8%AE%BA/"
-    - name: "友人"
-      url: "https://www.luming.cool/links"
-    - name: "Github"
-      url: "https://github.com/virelyx258"
-    - name: "Subway"
-      url: "https://www.travellings.cn/go.html"
-    - name: "白熊阿丸的小屋"
-      url: "https://blog.bxaw.name"
-    - name: "Vei Blog"
-      url: "https://blog.veitzn.top/"
-    - name: "小改学习志"
-      url: "https://www.haoyu233.com/"
-    - name: "悦绮录"
-      url: "https://i.duckxu.com/"
-    - name: "希记"
-      url: "https://note.moxiify.cn/"
-    - name: "往日信笺"
-      url: "https://www.xingmail.cn/"
-    - name: "柳橙睿"
-      url: "https://www.liuchengrui.cn/"
-    - name: "阿锋的小宇宙"
-      url: "https://feng.pub/"
-    - name: "CC 米饭的小世界"
-      url: "https://world.ccrice.com/"
-    - name: "老陈爱刷机"
-      url: "https://blog.chenyuxia.com/"
-    - name: "小岚的杂物间"
-      url: "https://www.guirlan.de/"
-    - name: "伏枥之间"
-      url: "https://www.leehenry.top"
-    - name: "Pinpe 的云端"
-      url: "https://pinpe.top/"
-    - name: "makotowu"
-      url: "https://makotowu.cnstlapy.cn/"
-    - name: "Horean's Blog"
-      url: "https://blog.hxrch.top"
-    - name: "Fmkli"
-      url: "https://lli.moe"
-    - name: "蘇 SU"
-      url: "https://suus.me"
-    - name: "松種小窝"
-      url: "https://pineseed.cn/"
-    - name: "杜老师说"
-      url: "https://dusays.com/"
-    - name: "XXY の博客"
-      url: "https://blog.xuxiny.top"
-    - name: "圆周率"
-      url: "https://www.yuanzj.top"
-    - name: "MC_Kero blog"
-      url: "https://blog.mckero.com/"
-    - name: "Limitz_"
-      url: "https://limitz.top"
-    - name: "Levi"
-      url: "https://leviqin.top/"
-    - name: "KFACBT"
-      url: "https://blog.gytxtx.top/"
-    - name: "重生云"
-      url: "https://xiaochopin.github.io/"
-    - name: "Echo"
-      url: "https://www.liveout.cn/"
-    - name: "Bensz"
-      url: "https://blognas.hwb0307.com/"
-    - name: "新锐博客"
-      url: "https://blog.xrbk.cn/"
-    - name: "LR.C"
-      url: "https://bbslrc.vxni.ink/"
-    - name: "BlogsClub"
-      url: "https://www.blogsclub.org"
-    - name: "笔墨迹"
-      url: "https://blogscn.fun/"
-    - name: "路明笔记"
-      url: "https://www.luming.cool/"
-    - name: "Typecho"
-      url: "http://typecho.org"
-    - name: "Mirages"
-      url: "https://get233.com/archives/mirages-intro.html"
+'site':
+  'name': '路明笔记'
+  'url': 'https://luming.cool/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '白熊阿丸的小屋'
+      'url': 'https://blog.bxaw.name'
+    - 'name': 'Vei Blog'
+      'url': 'https://blog.veitzn.top/'
+    - 'name': '小改学习志'
+      'url': 'https://www.haoyu233.com/'
+    - 'name': '悦绮录'
+      'url': 'https://i.duckxu.com/'
+    - 'name': '希记'
+      'url': 'https://note.moxiify.cn/'
+    - 'name': '往日信笺'
+      'url': 'https://www.xingmail.cn/'
+    - 'name': '柳橙睿'
+      'url': 'https://www.liuchengrui.cn/'
+    - 'name': '阿锋的小宇宙'
+      'url': 'https://feng.pub/'
+    - 'name': 'CC 米饭的小世界'
+      'url': 'https://world.ccrice.com/'
+    - 'name': '老陈爱刷机'
+      'url': 'https://blog.chenyuxia.com/'
+    - 'name': '小岚的杂物间'
+      'url': 'https://www.guirlan.de/'
+    - 'name': '伏枥之间'
+      'url': 'https://www.leehenry.top'
+    - 'name': 'Pinpe 的云端'
+      'url': 'https://pinpe.top/'
+    - 'name': 'makotowu'
+      'url': 'https://makotowu.cnstlapy.cn/'
+    - 'name': 'Horean''s Blog'
+      'url': 'https://blog.hxrch.top'
+    - 'name': 'Fmkli'
+      'url': 'https://lli.moe'
+    - 'name': '蘇 SU'
+      'url': 'https://suus.me'
+    - 'name': '松種小窝'
+      'url': 'https://pineseed.cn/'
+    - 'name': '杜老师说'
+      'url': 'https://dusays.com/'
+    - 'name': 'XXY の博客'
+      'url': 'https://blog.xuxiny.top'
+    - 'name': '圆周率'
+      'url': 'https://www.yuanzj.top'
+    - 'name': 'MC_Kero blog'
+      'url': 'https://blog.mckero.com/'
+    - 'name': 'Limitz_'
+      'url': 'https://limitz.top'
+    - 'name': 'Levi'
+      'url': 'https://leviqin.top/'
+    - 'name': 'KFACBT'
+      'url': 'https://blog.gytxtx.top/'
+    - 'name': 'Echo'
+      'url': 'https://www.liveout.cn/'
+    - 'name': 'Bensz'
+      'url': 'https://blognas.hwb0307.com/'
+    - 'name': '新锐博客'
+      'url': 'https://blog.xrbk.cn/'
+    - 'name': 'LR.C'
+      'url': 'https://bbslrc.vxni.ink/'
+    - 'name': 'Mirages'
+      'url': 'https://get233.com/archives/mirages-intro.html'

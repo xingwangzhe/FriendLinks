@@ -1,16 +1,10 @@
-site:
-  name: "homulilly.com"
-  description: "友情链接"
-  url: "https://homulilly.com/"
-  links: "/friends"
-  friends:
-    - name: "Folio"
-      url: "https://folio.nep.me/"
-    - name: "Flatpaper"
-      url: "https://flatpaper.nep.me"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "友链页面 · 申请交换"
-      url: "https://homulilly.com/links/"
-    - name: "FlatPaper"
-      url: "https://github.com/Homulilly/hexo-theme-flatpaper"
+'site':
+  'name': 'homulilly.com'
+  'description': '友情链接'
+  'url': 'https://homulilly.com/'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Folio'
+      'url': 'https://folio.nep.me/'
+    - 'name': 'Flatpaper'
+      'url': 'https://flatpaper.nep.me'

@@ -1,142 +1,112 @@
-site:
-  name: "lxnchan.cn"
-  description: "友情链接"
-  url: "https://lxnchan.cn/"
-  links: "/friends"
-  friends:
-    - name: "随记"
-      url: "https://notes.lxnchan.cn"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "流年，谁给过的倾城世界那么大，我想去看看"
-      url: "https://yremp.live/?from=lxnchan.cn"
-    - name: "林澈思的茶互联网资讯分享提供网站建设教程Wordpress博客建设教程各类程序语言学习资料记录美好生活。"
-      url: "https://www.gxuzf.com/?from=lxnchan.cn"
-    - name: "不可方思Like tears in rain."
-      url: "https://irr.ink/?from=lxnchan.cn"
-    - name: "铭心のBlog铭心的个人小窝(๑•ᴗ•๑)"
-      url: "https://www.mxin.moe/?from=lxnchan.cn"
-    - name: "Ada - 卑微小前端卑微小前端，弱气假后端"
-      url: "https://adaxh.site/?from=lxnchan.cn"
-    - name: "二十五画生服务器折腾不完全指南定期分享一些好玩的东西不定期记录生活"
-      url: "https://blog.laoda.de/?from=lxnchan.cn"
-    - name: "孤影墨香此去天涯征程无尽头"
-      url: "https://www.iloli.xin/?from=lxnchan.cn"
-    - name: "freejishu的美丽世界CodeThinkingACG"
-      url: "https://www.freejishu.com/?from=lxnchan.cn"
-    - name: "疯狂考研人考研学习交流"
-      url: "https://www.fkky.ren/?from=lxnchan.cn"
-    - name: "一个小站在互联网上淘金"
-      url: "https://www.ygxz.in/?from=lxnchan.cn"
-    - name: "涛叔涛叔"
-      url: "https://taoshu.in/?from=lxnchan.cn"
-    - name: "胡涂说任抛星汉归园圃，留取乾坤盛酒囊"
-      url: "https://hutusi.com/?from=lxnchan.cn"
-    - name: "Chancel's blog技术博客"
-      url: "https://www.chancel.me/?from=lxnchan.cn"
-    - name: "闲云博客一个专注学习的站点分享技术文章和开发资源"
-      url: "https://lolicp.com/?from=lxnchan.cn"
-    - name: "Coding 的痕迹LinuxC++考研网络"
-      url: "https://sunnysab.cn/?from=lxnchan.cn"
-    - name: "云游君的小站希望能成为一个有趣的人。"
-      url: "https://www.yunyoujun.cn/?from=lxnchan.cn"
-    - name: "叫我阿胖追赶大佬脚步的阿胖"
-      url: "https://core.dpangzi.com/?from=lxnchan.cn"
-    - name: "浮云翩迁之间百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。"
-      url: "https://blognas.hwb0307.com/?from=lxnchan.cn"
-    - name: "远方博客因为喜欢，所以折腾！做最好的自己！"
-      url: "https://blog.ltyuanfang.cn/?from=lxnchan.cn"
-    - name: "Wanan生活博客记录阐述"
-      url: "https://wabk.net/?from=lxnchan.cn"
-    - name: "围炉夜话二进制安全编译器文学摄影"
-      url: "https://way.lu/?from=lxnchan.cn"
-    - name: "hiifongFull stack developer like"
-      url: "https://i.hiifong.cc/?from=lxnchan.cn"
-    - name: "Barney’s Blog个人博客分享记录"
-      url: "https://hugo.bnblogs.cc/?from=lxnchan.cn"
-    - name: "Pil0tXia - 浮笙事记不会摄影的白帽子不是好机长！"
-      url: "https://www.pil0txia.com/?from=lxnchan.cn"
-    - name: "FoskyM’s blog是侬勿望"
-      url: "https://blog.fosky.top/?from=lxnchan.cn"
-    - name: "HiPeach妙不可言"
-      url: "https://blog.opeach.cn/?from=lxnchan.cn"
-    - name: "Xiwangly’s Blog希望的博客"
-      url: "https://www.xiwangly.top/?from=lxnchan.cn"
-    - name: "Thun888's Blog夏日当空,心如深渊"
-      url: "https://blog.hzchu.top/?from=lxnchan.cn"
-    - name: "RhoPaperの小站建站前端运维网络"
-      url: "https://rhopaper.top/?from=lxnchan.cn"
-    - name: "懋和道人李懋和，俗名李栋梁书法、国画爱好者互联网安全与前端建设者"
-      url: "https://blog.dao.js.cn/?from=lxnchan.cn"
-    - name: "KEKKJ BLOG小世界的一瞥"
-      url: "https://kekkj123.github.io/?from=lxnchan.cn"
-    - name: "云烟博客如鲸向海 似鸟投林 不可退也无需退"
-      url: "https://www.yunyanck.cn/?from=lxnchan.cn"
-    - name: "Sakitami 的集装箱我已经无敌了！"
-      url: "https://blog.skihome.xyz/?from=lxnchan.cn"
-    - name: "任我乐Linux OS Mirror Repository"
-      url: "https://renwole.com/?from=lxnchan.cn"
-    - name: "小满的墨水瓶天上如是，地下亦然"
-      url: "https://www.yhdzz.cn/?from=lxnchan.cn"
-    - name: "GooseForum自由漫谈的江湖茶馆"
-      url: "https://gooseforum.online/?from=lxnchan.cn"
-    - name: "faryou的博客平平淡淡 从从容容才是真~~"
-      url: "https://blog.faryou.eu.org/?from=lxnchan.cn"
-    - name: "Lifeline经世致用 自强不息"
-      url: "https://lifelinest.github.io/?from=lxnchan.cn"
-    - name: "LanM蓝莓"
-      url: "https://bluelanm.github.io/?from=lxnchan.cn"
-    - name: "xaoxuu本站源主题作者iOS"
-      url: "https://xaoxuu.com/"
-    - name: "www.zh66.club"
-      url: "http://www.zh66.club/"
-    - name: "www.ariels.xyz"
-      url: "http://www.ariels.xyz/"
-    - name: "www.shan-net.com"
-      url: "http://www.shan-net.com/"
-    - name: "www.aomanhao.top"
-      url: "http://www.aomanhao.top/"
-    - name: "www.mis1042.com"
-      url: "http://www.mis1042.com/"
-    - name: "www.59afx.com"
-      url: "http://www.59afx.com/"
-    - name: "www.zlsw.cc"
-      url: "http://www.zlsw.cc/"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "TT清沫uk"
-      url: "https://ttquk.netlify.app"
-    - name: "懋和道人"
-      url: "https://blog.dao.js.cn"
-    - name: "我的域名更换为blog.dao.js.cn"
-      url: "http://xn--blog-uh5fn22au1gtywzwcevmbu8b.dao.js.cn"
-    - name: "泠泫凝"
-      url: "https://lxnchan.cn"
-    - name: "小满1221"
-      url: "https://www.yhdzz.cn"
-    - name: "懋和道人"
-      url: "https://www.dao.js.cn"
-    - name: "https://lifelinest.github.io/"
-      url: "https://lifelinest.github.io/"
-    - name: "https://www.dao.js.cn/new/2025082711894.shtml"
-      url: "https://www.dao.js.cn/new/2025082711894.shtml"
-    - name: "https://www.dao.js.cn/new/2025082711895.shtml"
-      url: "https://www.dao.js.cn/new/2025082711895.shtml"
-    - name: "faryou"
-      url: "https://blog.faryou.eu.org"
-    - name: "https://blog.faryou.eu.org/zb_users/avatar/1.png"
-      url: "https://blog.faryou.eu.org/zb_users/avatar/1.png"
-    - name: "abandon1a2b"
-      url: "https://gooseforum.online"
-    - name: "https://gooseforum.online/links"
-      url: "https://gooseforum.online/links"
-    - name: "https://gooseforum.online/static/pic/icon.png"
-      url: "https://gooseforum.online/static/pic/icon.png"
-    - name: "abstract"
-      url: "https://pupua.top"
-    - name: "Waline"
-      url: "https://github.com/walinejs/waline"
-    - name: "@LxnChan"
-      url: "https://afdian.com/a/LxnChan"
-    - name: "O to die advancing on!"
-      url: "https://whitmanarchive.org/item/ppp.00707_00802"
+'site':
+  'name': 'lxnchan.cn'
+  'description': '友情链接'
+  'url': 'https://lxnchan.cn/'
+  'links': '/friends'
+  'friends':
+    - 'name': '随记'
+      'url': 'https://notes.lxnchan.cn'
+    - 'name': '流年，谁给过的倾城世界那么大，我想去看看'
+      'url': 'https://yremp.live/?from=lxnchan.cn'
+    - 'name': '林澈思的茶互联网资讯分享提供网站建设教程Wordpress博客建设教程各类程序语言学习资料记录美好生活。'
+      'url': 'https://www.gxuzf.com/?from=lxnchan.cn'
+    - 'name': '不可方思Like tears in rain.'
+      'url': 'https://irr.ink/?from=lxnchan.cn'
+    - 'name': '铭心のBlog铭心的个人小窝(๑•ᴗ•๑)'
+      'url': 'https://www.mxin.moe/?from=lxnchan.cn'
+    - 'name': 'Ada - 卑微小前端卑微小前端，弱气假后端'
+      'url': 'https://adaxh.site/?from=lxnchan.cn'
+    - 'name': '二十五画生服务器折腾不完全指南定期分享一些好玩的东西不定期记录生活'
+      'url': 'https://blog.laoda.de/?from=lxnchan.cn'
+    - 'name': '孤影墨香此去天涯征程无尽头'
+      'url': 'https://www.iloli.xin/?from=lxnchan.cn'
+    - 'name': 'freejishu的美丽世界CodeThinkingACG'
+      'url': 'https://www.freejishu.com/?from=lxnchan.cn'
+    - 'name': '疯狂考研人考研学习交流'
+      'url': 'https://www.fkky.ren/?from=lxnchan.cn'
+    - 'name': '一个小站在互联网上淘金'
+      'url': 'https://www.ygxz.in/?from=lxnchan.cn'
+    - 'name': '涛叔涛叔'
+      'url': 'https://taoshu.in/?from=lxnchan.cn'
+    - 'name': '胡涂说任抛星汉归园圃，留取乾坤盛酒囊'
+      'url': 'https://hutusi.com/?from=lxnchan.cn'
+    - 'name': 'Chancel''s blog技术博客'
+      'url': 'https://www.chancel.me/?from=lxnchan.cn'
+    - 'name': '闲云博客一个专注学习的站点分享技术文章和开发资源'
+      'url': 'https://lolicp.com/?from=lxnchan.cn'
+    - 'name': 'Coding 的痕迹LinuxC++考研网络'
+      'url': 'https://sunnysab.cn/?from=lxnchan.cn'
+    - 'name': '云游君的小站希望能成为一个有趣的人。'
+      'url': 'https://www.yunyoujun.cn/?from=lxnchan.cn'
+    - 'name': '叫我阿胖追赶大佬脚步的阿胖'
+      'url': 'https://core.dpangzi.com/?from=lxnchan.cn'
+    - 'name': '浮云翩迁之间百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。'
+      'url': 'https://blognas.hwb0307.com/?from=lxnchan.cn'
+    - 'name': '远方博客因为喜欢，所以折腾！做最好的自己！'
+      'url': 'https://blog.ltyuanfang.cn/?from=lxnchan.cn'
+    - 'name': 'Wanan生活博客记录阐述'
+      'url': 'https://wabk.net/?from=lxnchan.cn'
+    - 'name': '围炉夜话二进制安全编译器文学摄影'
+      'url': 'https://way.lu/?from=lxnchan.cn'
+    - 'name': 'hiifongFull stack developer like'
+      'url': 'https://i.hiifong.cc/?from=lxnchan.cn'
+    - 'name': 'Barney’s Blog个人博客分享记录'
+      'url': 'https://hugo.bnblogs.cc/?from=lxnchan.cn'
+    - 'name': 'Pil0tXia - 浮笙事记不会摄影的白帽子不是好机长！'
+      'url': 'https://www.pil0txia.com/?from=lxnchan.cn'
+    - 'name': 'FoskyM’s blog是侬勿望'
+      'url': 'https://blog.fosky.top/?from=lxnchan.cn'
+    - 'name': 'HiPeach妙不可言'
+      'url': 'https://blog.opeach.cn/?from=lxnchan.cn'
+    - 'name': 'Xiwangly’s Blog希望的博客'
+      'url': 'https://www.xiwangly.top/?from=lxnchan.cn'
+    - 'name': 'Thun888''s Blog夏日当空,心如深渊'
+      'url': 'https://blog.hzchu.top/?from=lxnchan.cn'
+    - 'name': 'RhoPaperの小站建站前端运维网络'
+      'url': 'https://rhopaper.top/?from=lxnchan.cn'
+    - 'name': '懋和道人李懋和，俗名李栋梁书法、国画爱好者互联网安全与前端建设者'
+      'url': 'https://blog.dao.js.cn/?from=lxnchan.cn'
+    - 'name': '云烟博客如鲸向海 似鸟投林 不可退也无需退'
+      'url': 'https://www.yunyanck.cn/?from=lxnchan.cn'
+    - 'name': 'Sakitami 的集装箱我已经无敌了！'
+      'url': 'https://blog.skihome.xyz/?from=lxnchan.cn'
+    - 'name': '任我乐Linux OS Mirror Repository'
+      'url': 'https://renwole.com/?from=lxnchan.cn'
+    - 'name': '小满的墨水瓶天上如是，地下亦然'
+      'url': 'https://www.yhdzz.cn/?from=lxnchan.cn'
+    - 'name': 'GooseForum自由漫谈的江湖茶馆'
+      'url': 'https://gooseforum.online/?from=lxnchan.cn'
+    - 'name': 'faryou的博客平平淡淡 从从容容才是真~~'
+      'url': 'https://blog.faryou.eu.org/?from=lxnchan.cn'
+    - 'name': 'www.zh66.club'
+      'url': 'http://www.zh66.club/'
+    - 'name': 'www.ariels.xyz'
+      'url': 'http://www.ariels.xyz/'
+    - 'name': 'www.shan-net.com'
+      'url': 'http://www.shan-net.com/'
+    - 'name': 'www.aomanhao.top'
+      'url': 'http://www.aomanhao.top/'
+    - 'name': 'www.mis1042.com'
+      'url': 'http://www.mis1042.com/'
+    - 'name': 'www.59afx.com'
+      'url': 'http://www.59afx.com/'
+    - 'name': 'www.zlsw.cc'
+      'url': 'http://www.zlsw.cc/'
+    - 'name': '懋和道人'
+      'url': 'https://blog.dao.js.cn'
+    - 'name': '我的域名更换为blog.dao.js.cn'
+      'url': 'http://xn--blog-uh5fn22au1gtywzwcevmbu8b.dao.js.cn'
+    - 'name': '小满1221'
+      'url': 'https://www.yhdzz.cn'
+    - 'name': '懋和道人'
+      'url': 'https://www.dao.js.cn'
+    - 'name': 'faryou'
+      'url': 'https://blog.faryou.eu.org'
+    - 'name': 'abandon1a2b'
+      'url': 'https://gooseforum.online'
+    - 'name': 'abstract'
+      'url': 'https://pupua.top'
+    - 'name': '@LxnChan'
+      'url': 'https://afdian.com/a/LxnChan'
+    - 'name': 'O to die advancing on!'
+      'url': 'https://whitmanarchive.org/item/ppp.00707_00802'

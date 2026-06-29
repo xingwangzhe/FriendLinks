@@ -1,82 +1,50 @@
-site:
-  name: "blog.noah0932.top"
-  description: "友情链接"
-  url: "https://blog.noah0932.top/"
-  links: "/friends"
-  friends:
-    - name: "博客"
-      url: "https://blog.noah0932.top/"
-    - name: "Next.js AI站"
-      url: "https://ai.noah0932.top/"
-    - name: "运维开发百宝箱"
-      url: "https://it-tools.noah0932.top/"
-    - name: "在线音乐播放器"
-      url: "https://music.noah0932.top/"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "Waline"
-      url: "https://github.com/walinejs/waline"
-    - name: "Github"
-      url: "https://github.com/anzhiyu-c"
-    - name: "BiliBili"
-      url: "https://space.bilibili.com/372204786"
-    - name: "曹丕"
-      url: "http://baike.baidu.com/subview/5199/5369025.htm"
-    - name: "郑和"
-      url: "http://baike.baidu.com/view/1988.htm"
-    - name: "亨利·克莱"
-      url: "http://baike.baidu.com/view/1409374.htm"
-    - name: "托马斯·亨利·赫胥黎"
-      url: "http://baike.baidu.com/view/279814.htm"
-    - name: "诺贝尔奖"
-      url: "http://baike.baidu.com/view/6170.htm"
-    - name: "第二次巴尔干战争"
-      url: "http://baike.baidu.com/view/161360.htm"
-    - name: "奥里亚娜·法拉奇"
-      url: "http://baike.baidu.com/view/3075080.htm"
-    - name: "保罗·克利"
-      url: "http://baike.baidu.com/view/1191179.htm"
-    - name: "种族隔离"
-      url: "http://baike.baidu.com/view/122490.htm"
-    - name: "东风二号"
-      url: "http://baike.baidu.com/view/2994035.htm"
-    - name: "柬埔寨"
-      url: "http://baike.baidu.com/view/7501.htm"
-    - name: "塞舌尔共和国"
-      url: "http://baike.baidu.com/view/22020.htm"
-    - name: "《中国妇女》"
-      url: "http://baike.baidu.com/view/1122785.htm"
-    - name: "三丰百货店"
-      url: "http://baike.baidu.com/view/1448657.htm"
-    - name: "青藏铁路"
-      url: "http://baike.baidu.com/view/2580.htm"
-    - name: "Github"
-      url: "https://github.com/Noah0932"
-    - name: "umami统计"
-      url: "https://umami.is/"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/"
-    - name: "开往"
-      url: "https://github.com/travellings-link/travellings"
-    - name: "Cloud Blog"
-      url: "https://blog.opennw.cn"
-    - name: "张恒华"
-      url: "https://zhh2001.github.io"
-    - name: "清羽飞扬"
-      url: "https://blog.liushen.fun/"
-    - name: "博客框架为Hexo_v5.4.0"
-      url: "https://hexo.io/"
-    - name: "本站使用AnZhiYu主题"
-      url: "https://blog.anheyu.com/"
-    - name: "本站使用阿里云为静态资源提供CDN加速"
-      url: "https://www.aliyun.com/"
-    - name: "本站项目由Github提供托管服务"
-      url: "https://github.com/"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "本站使用图览图床提供图片存储服务"
-      url: "https://tulan.cyou/"
-    - name: "主题"
-      url: "https://github.com/anzhiyu-c/hexo-theme-anzhiyu"
-    - name: "皖ICP备-2025092209号"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'blog.noah0932.top'
+  'description': '友情链接'
+  'url': 'https://blog.noah0932.top/'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Next.js AI站'
+      'url': 'https://ai.noah0932.top/'
+    - 'name': '运维开发百宝箱'
+      'url': 'https://it-tools.noah0932.top/'
+    - 'name': '在线音乐播放器'
+      'url': 'https://music.noah0932.top/'
+    - 'name': '曹丕'
+      'url': 'http://baike.baidu.com/subview/5199/5369025.htm'
+    - 'name': '郑和'
+      'url': 'http://baike.baidu.com/view/1988.htm'
+    - 'name': '亨利·克莱'
+      'url': 'http://baike.baidu.com/view/1409374.htm'
+    - 'name': '托马斯·亨利·赫胥黎'
+      'url': 'http://baike.baidu.com/view/279814.htm'
+    - 'name': '诺贝尔奖'
+      'url': 'http://baike.baidu.com/view/6170.htm'
+    - 'name': '第二次巴尔干战争'
+      'url': 'http://baike.baidu.com/view/161360.htm'
+    - 'name': '奥里亚娜·法拉奇'
+      'url': 'http://baike.baidu.com/view/3075080.htm'
+    - 'name': '保罗·克利'
+      'url': 'http://baike.baidu.com/view/1191179.htm'
+    - 'name': '种族隔离'
+      'url': 'http://baike.baidu.com/view/122490.htm'
+    - 'name': '东风二号'
+      'url': 'http://baike.baidu.com/view/2994035.htm'
+    - 'name': '柬埔寨'
+      'url': 'http://baike.baidu.com/view/7501.htm'
+    - 'name': '塞舌尔共和国'
+      'url': 'http://baike.baidu.com/view/22020.htm'
+    - 'name': '《中国妇女》'
+      'url': 'http://baike.baidu.com/view/1122785.htm'
+    - 'name': '三丰百货店'
+      'url': 'http://baike.baidu.com/view/1448657.htm'
+    - 'name': '青藏铁路'
+      'url': 'http://baike.baidu.com/view/2580.htm'
+    - 'name': 'umami统计'
+      'url': 'https://umami.is/'
+    - 'name': 'Cloud Blog'
+      'url': 'https://blog.opennw.cn'
+    - 'name': '清羽飞扬'
+      'url': 'https://blog.liushen.fun/'
+    - 'name': '博客框架为Hexo_v5.4.0'
+      'url': 'https://hexo.io/'

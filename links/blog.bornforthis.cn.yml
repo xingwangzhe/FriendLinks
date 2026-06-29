@@ -1,58 +1,32 @@
-site:
-  name: "别碰我的镜头盖"
-  url: "https://blog.bornforthis.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "文档"
-      url: "https://bornforthis.cn"
-    - name: "FPManager"
-      url: "https://github.com/AndersonHJB/Falsk-Password-Manager"
-    - name: "CodeMark"
-      url: "https://github.com/AndersonHJB/CodeMark"
-    - name: "IPMapper"
-      url: "https://github.com/AndersonHJB/IPMapper"
-    - name: "TurtleBrowser"
-      url: "https://github.com/AndersonHJB/turtle_browser"
-    - name: "思否"
-      url: "https://segmentfault.com/u/bornforthis"
-    - name: "CSDN"
-      url: "https://aiyuechuang.blog.csdn.net/"
-    - name: "知乎"
-      url: "https://www.zhihu.com/people/aiyuechuang"
-    - name: "掘金"
-      url: "https://juejin.cn/user/2305051222344061"
-    - name: "Home页"
-      url: "https://home.bornforthis.cn"
-    - name: "Python 可视化"
-      url: "https://pythontutor.bornforthis.cn/visualize.html#mode=edit"
-    - name: "Github"
-      url: "https://github.com/AndersonHJB"
-    - name: "BiliBili"
-      url: "https://space.bilibili.com/405961705"
-    - name: "微博"
-      url: "https://weibo.com/u/5673898686"
-    - name: "facebook"
-      url: "https://www.facebook.com/profile.php?id=100037834929431&sk=about"
-    - name: "抖音"
-      url: "https://v.douyin.com/irY3JSsK/"
-    - name: "编程私教1v1"
-      url: "https://bornforthis.cn/"
-    - name: "私教主页"
-      url: "https://www.class1v1.com/"
-    - name: "Medium"
-      url: "https://aiyc.top"
-    - name: "小奥のblog"
-      url: "https://www.aokaoka.top/"
-    - name: "梦爱吃鱼"
-      url: "https://blog.bsgun.cn/"
-    - name: "博客框架为 Hexo_v7.3.0"
-      url: "https://hexo.io/"
-    - name: "本站使用 AnZhiYu 主题"
-      url: "https://github.com/AndersonHJB/AndersonHJB.github.io"
-    - name: "本站项目由 Github 托管"
-      url: "https://github.com/"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "闽ICP备19021486号-6"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': '别碰我的镜头盖'
+  'url': 'https://blog.bornforthis.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '文档'
+      'url': 'https://bornforthis.cn'
+    - 'name': '思否'
+      'url': 'https://segmentfault.com/u/bornforthis'
+    - 'name': 'CSDN'
+      'url': 'https://aiyuechuang.blog.csdn.net/'
+    - 'name': '掘金'
+      'url': 'https://juejin.cn/user/2305051222344061'
+    - 'name': 'Home页'
+      'url': 'https://home.bornforthis.cn'
+    - 'name': 'Python 可视化'
+      'url': 'https://pythontutor.bornforthis.cn/visualize.html#mode=edit'
+    - 'name': '抖音'
+      'url': 'https://v.douyin.com/irY3JSsK/'
+    - 'name': '编程私教1v1'
+      'url': 'https://bornforthis.cn/'
+    - 'name': '私教主页'
+      'url': 'https://www.class1v1.com/'
+    - 'name': 'Medium'
+      'url': 'https://aiyc.top'
+    - 'name': '小奥のblog'
+      'url': 'https://www.aokaoka.top/'
+    - 'name': '梦爱吃鱼'
+      'url': 'https://blog.bsgun.cn/'
+    - 'name': '博客框架为 Hexo_v7.3.0'
+      'url': 'https://hexo.io/'

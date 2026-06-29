@@ -1,18 +1,22 @@
-site:
-  name: "AcmeZone"
-  url: "https://acmezone.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "B1ue1nWh1te\n                        深海的个人主页"
-      url: "https://www.seaeye.cn/"
-    - name: "贰猹的小窝\n                        用这生命中的每一秒，给自己一个不后悔的未来"
-      url: "https://noionion.top/"
-    - name: "御网尚书的小宇宙\n                        愿以赤子之心，共建网络空间安全"
-      url: "https://www.siteweb.cn/"
-    - name: "Bzmshang\n                        一个热爱教程分享者"
-      url: "https://blog.bzmshang.top/"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Keep v4.1.0"
-      url: "https://github.com/XPoet/hexo-theme-keep"
+'site':
+  'name': 'AcmeZone'
+  'url': 'https://acmezone.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': "B1ue1nWh1te
+
+        \                        深海的个人主页"
+      'url': 'https://www.seaeye.cn/'
+    - 'name': "贰猹的小窝
+
+        \                        用这生命中的每一秒，给自己一个不后悔的未来"
+      'url': 'https://noionion.top/'
+    - 'name': "御网尚书的小宇宙
+
+        \                        愿以赤子之心，共建网络空间安全"
+      'url': 'https://www.siteweb.cn/'
+    - 'name': "Bzmshang
+
+        \                        一个热爱教程分享者"
+      'url': 'https://blog.bzmshang.top/'

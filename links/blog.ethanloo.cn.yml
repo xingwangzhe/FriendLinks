@@ -1,32 +1,26 @@
-site:
-  name: "blog.ethanloo.cn"
-  description: "友情链接"
-  url: "https://blog.ethanloo.cn/"
-  links: "/friends"
-  friends:
-    - name: "Go to Ethanloo's GitHub repo"
-      url: "https://github.com/EthanLuu"
-    - name: "Go to my lab"
-      url: "https://lab.ethanloo.cn"
-    - name: "EthanLoo 好好学习，好好吃饭，好好睡觉"
-      url: "https://blog.ethanloo.cn"
-    - name: "小嘉的部落格 好记性不如烂笔头"
-      url: "https://blog.imzjw.cn/"
-    - name: "Licardo 喜欢编程的医学生"
-      url: "https://blog.licardo.cn/"
-    - name: "Heo 爱折腾的设计师"
-      url: "https://blog.zhheo.com/"
-    - name: "Akilarの糖果屋 期待您的光临！"
-      url: "https://akilar.top/"
-    - name: "2BROEAR 兴趣指引方向，会玩才会学"
-      url: "https://blog.2broear.com"
-    - name: "Yang Yang 前端分享, 經驗生活"
-      url: "https://blog.yyisyou.tw/"
-    - name: "XuRui-Blog 有梦想就去实现"
-      url: "https://xurui314.github.io/"
-    - name: "Fomalhaut🥝 Future is now 🍭🍭🍭"
-      url: "https://www.fomal.cc/"
-    - name: "Ray’s Blog Nobody"
-      url: "https://blog.rayzhang.top/"
-    - name: "竹山一叶 来了就不想走的小家"
-      url: "https://zsyyblog.com"
+'site':
+  'name': 'blog.ethanloo.cn'
+  'description': '友情链接'
+  'url': 'https://blog.ethanloo.cn/'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Go to my lab'
+      'url': 'https://lab.ethanloo.cn'
+    - 'name': '小嘉的部落格 好记性不如烂笔头'
+      'url': 'https://blog.imzjw.cn/'
+    - 'name': 'Licardo 喜欢编程的医学生'
+      'url': 'https://blog.licardo.cn/'
+    - 'name': 'Heo 爱折腾的设计师'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Akilarの糖果屋 期待您的光临！'
+      'url': 'https://akilar.top/'
+    - 'name': '2BROEAR 兴趣指引方向，会玩才会学'
+      'url': 'https://blog.2broear.com'
+    - 'name': 'Yang Yang 前端分享, 經驗生活'
+      'url': 'https://blog.yyisyou.tw/'
+    - 'name': 'Fomalhaut🥝 Future is now 🍭🍭🍭'
+      'url': 'https://www.fomal.cc/'
+    - 'name': 'Ray’s Blog Nobody'
+      'url': 'https://blog.rayzhang.top/'
+    - 'name': '竹山一叶 来了就不想走的小家'
+      'url': 'https://zsyyblog.com'

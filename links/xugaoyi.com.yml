@@ -1,94 +1,70 @@
-site:
-  name: "xugaoyi.com"
-  description: "友情链接"
-  url: "https://xugaoyi.com/"
-  links: "/friends"
-  friends:
-    - name: "GitHub\n      (opens new window)"
-      url: "https://github.com/xugaoyi/vuepress-theme-vdoing"
-    - name: "麋鹿鲁哟 大道至简，知易行难"
-      url: "https://www.cnblogs.com/miluluyo/"
-    - name: "XAOXUU #IOS #Volantis主题作者"
-      url: "https://xaoxuu.com"
-    - name: "平凡的你我 理想成为大牛的小陈同学"
-      url: "https://reinness.com"
-    - name: "znote 荷尽已无擎雨盖，菊残犹有傲霜枝。"
-      url: "https://zpj80231.gitee.io/znote/"
-    - name: "全栈软件开发直通车 全栈软件开发技术博客，从小白到大神!"
-      url: "https://sofineday.com"
-    - name: "易良同学的博客 正在努力！"
-      url: "https://yiliang.site"
-    - name: "永远的救赎者 知者减半，省者全无。"
-      url: "http://www.yuanchengcheng.vip/"
-    - name: "辰旭博客 凤鸣初阳，百鸟朝凰"
-      url: "https://kareny.cn"
-    - name: "JokerM's Palace Take your heart"
-      url: "https://jokerm.com/"
-    - name: "Saul.J.Wu 立身之本，不在高低。"
-      url: "https://sauljwu.github.io/"
-    - name: "Lake's blog 不积跬步，无以至千里；不积小流，无以成江海。"
-      url: "https://taixingyiji.com/"
-    - name: "Cubik的小站 RECOMMENDED BY DR.CREATIVE"
-      url: "https://www.cubik65536.top/"
-    - name: "x·π 为开发者量身制作的技术博客和知识库管理平台。"
-      url: "https://ezuy-lee.github.io/xpai/"
-    - name: "眼里有光 道阻且长，行则将至"
-      url: "https://icooloop.gitee.io/"
-    - name: "Heo 爱折腾的设计师"
-      url: "https://blog.zhheo.com/"
-    - name: "Chuyuxuan 临渊羡鱼，不如退而结网"
-      url: "https://blog.chuyuxuan.top/"
-    - name: "全栈杂货站 千里万里杂货站里，天青色等烟雨，而我在等你。"
-      url: "http://tech.tea-culture.top/"
-    - name: "小鱼博客 总是半途而废的废柴"
-      url: "https://xiaoyu-666.github.io/"
-    - name: "大胡子 记录你我，分享精彩。"
-      url: "https://www.jakehu.cn"
-    - name: "嘟先生学WebGL 流水不争先，争的是滔滔不绝。"
-      url: "https://joy1412.cn"
-    - name: "@小右_ 学而不厌 不耻下问"
-      url: "https://lordblog.cn/"
-    - name: "途中的树 走出自己的傲慢，承认自己的局限。"
-      url: "https://zkpeace.com/"
-    - name: "Haobo's Blog 半只脚跨入炼丹师的大门的新人"
-      url: "https://discover304.top/"
-    - name: "小胖墩er 迟到总比不到的好，所以好好加油吧。"
-      url: "https://chubbyduner.top"
-    - name: "Joseph Z. Joseph Z.的小站"
-      url: "https://josephz.top/"
-    - name: "二丫讲梵 💻学习📝记录🔗分享"
-      url: "https://wiki.eryajf.net/"
-    - name: "YoungKbt World 故事由我书写，旅程由你见证，传奇由她聆听"
-      url: "https://notes.youngkbt.cn/"
-    - name: "xustudyxu 一起学习编程!"
-      url: "https://frxcat.fun/"
-    - name: "Yiyang Sun Frontend enthusiast."
-      url: "https://blog.syy11.cn"
-    - name: "ColorPanda 中国語を日本語と英語で勉強。日中家庭の言語教育の悩みを解消したい。"
-      url: "https://colorpanda.aifan.jp/"
-    - name: "不器小窝 「但知行好事,莫要问前程」"
-      url: "https://xingcxb.com/"
-    - name: "从01开始 那就从零开始"
-      url: "https://www.peterjxl.com/"
-    - name: "Gahing's blog 生活之珍爱，余缀于技术之间。"
-      url: "https://www.gahing.top/"
-    - name: "Howietron Java全站技术博客，积跬步以至千里，致敬每个爱学习的你。"
-      url: "https://wiki.howie.top/"
-    - name: "菜园前端 前端学习笔记分享、小白都能看懂的笔记"
-      url: "https://note.noxussj.top/?s=y3"
-    - name: "元否 一个爱折腾的产品经理"
-      url: "https://happyfou.com/"
-    - name: "Temp Mail Free Temporary Email Service"
-      url: "https://tempmail100.com"
-    - name: "编辑"
-      url: "https://github.com/xugaoyi/vuepress-theme-vdoing/edit/master/docs/04.更多/99.友情链接.md"
-    - name: "GitHub"
-      url: "https://github.com/xugaoyi"
-    - name: "听音乐"
-      url: "https://music.163.com/#/playlist?id=755597173"
-    - name: "MIT License"
-      url: "https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE"
-    - name: "桂ICP备2024034950号"
-      url: "http://beian.miit.gov.cn/"
-    - name: "桂公网安备45142202000030"
-      url: "https://beian.mps.gov.cn/#/query/webSearch?code=45142202000030"
+'site':
+  'name': 'xugaoyi.com'
+  'description': '友情链接'
+  'url': 'https://xugaoyi.com/'
+  'links': '/friends'
+  'friends':
+    - 'name': '麋鹿鲁哟 大道至简，知易行难'
+      'url': 'https://www.cnblogs.com/miluluyo/'
+    - 'name': 'XAOXUU #IOS #Volantis主题作者'
+      'url': 'https://xaoxuu.com'
+    - 'name': '平凡的你我 理想成为大牛的小陈同学'
+      'url': 'https://reinness.com'
+    - 'name': 'znote 荷尽已无擎雨盖，菊残犹有傲霜枝。'
+      'url': 'https://zpj80231.gitee.io/znote/'
+    - 'name': '全栈软件开发直通车 全栈软件开发技术博客，从小白到大神!'
+      'url': 'https://sofineday.com'
+    - 'name': '易良同学的博客 正在努力！'
+      'url': 'https://yiliang.site'
+    - 'name': '永远的救赎者 知者减半，省者全无。'
+      'url': 'http://www.yuanchengcheng.vip/'
+    - 'name': '辰旭博客 凤鸣初阳，百鸟朝凰'
+      'url': 'https://kareny.cn'
+    - 'name': 'JokerM''s Palace Take your heart'
+      'url': 'https://jokerm.com/'
+    - 'name': 'Lake''s blog 不积跬步，无以至千里；不积小流，无以成江海。'
+      'url': 'https://taixingyiji.com/'
+    - 'name': 'Cubik的小站 RECOMMENDED BY DR.CREATIVE'
+      'url': 'https://www.cubik65536.top/'
+    - 'name': '眼里有光 道阻且长，行则将至'
+      'url': 'https://icooloop.gitee.io/'
+    - 'name': 'Heo 爱折腾的设计师'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Chuyuxuan 临渊羡鱼，不如退而结网'
+      'url': 'https://blog.chuyuxuan.top/'
+    - 'name': '全栈杂货站 千里万里杂货站里，天青色等烟雨，而我在等你。'
+      'url': 'http://tech.tea-culture.top/'
+    - 'name': '大胡子 记录你我，分享精彩。'
+      'url': 'https://www.jakehu.cn'
+    - 'name': '嘟先生学WebGL 流水不争先，争的是滔滔不绝。'
+      'url': 'https://joy1412.cn'
+    - 'name': '@小右_ 学而不厌 不耻下问'
+      'url': 'https://lordblog.cn/'
+    - 'name': '途中的树 走出自己的傲慢，承认自己的局限。'
+      'url': 'https://zkpeace.com/'
+    - 'name': 'Haobo''s Blog 半只脚跨入炼丹师的大门的新人'
+      'url': 'https://discover304.top/'
+    - 'name': '小胖墩er 迟到总比不到的好，所以好好加油吧。'
+      'url': 'https://chubbyduner.top'
+    - 'name': 'Joseph Z. Joseph Z.的小站'
+      'url': 'https://josephz.top/'
+    - 'name': 'YoungKbt World 故事由我书写，旅程由你见证，传奇由她聆听'
+      'url': 'https://notes.youngkbt.cn/'
+    - 'name': 'xustudyxu 一起学习编程!'
+      'url': 'https://frxcat.fun/'
+    - 'name': 'Yiyang Sun Frontend enthusiast.'
+      'url': 'https://blog.syy11.cn'
+    - 'name': 'ColorPanda 中国語を日本語と英語で勉強。日中家庭の言語教育の悩みを解消したい。'
+      'url': 'https://colorpanda.aifan.jp/'
+    - 'name': '不器小窝 「但知行好事,莫要问前程」'
+      'url': 'https://xingcxb.com/'
+    - 'name': '从01开始 那就从零开始'
+      'url': 'https://www.peterjxl.com/'
+    - 'name': 'Gahing''s blog 生活之珍爱，余缀于技术之间。'
+      'url': 'https://www.gahing.top/'
+    - 'name': '菜园前端 前端学习笔记分享、小白都能看懂的笔记'
+      'url': 'https://note.noxussj.top/?s=y3'
+    - 'name': '元否 一个爱折腾的产品经理'
+      'url': 'https://happyfou.com/'
+    - 'name': 'Temp Mail Free Temporary Email Service'
+      'url': 'https://tempmail100.com'

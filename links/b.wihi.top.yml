@@ -1,20 +1,14 @@
-site:
-  name: "笔搁纸鸯"
-  url: "https://b.wihi.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "开往-友链接力"
-      url: "https://www.travellings.cn/go.html"
-    - name: "知识库"
-      url: "https://doc.wihi.top/"
-    - name: "Hexo-Fluid本站使用的一款 Material Design 风格的 Hexo 博客主题"
-      url: "https://github.com/fluid-dev/hexo-theme-fluid"
-    - name: "Zackaria's Corner惟日孜孜，无敢逸豫"
-      url: "https://wang-jiahao.github.io"
-    - name: "葱苓语畔Don't worry, be happy."
-      url: "https://blog.ciraos.top"
-    - name: "花生莲子粥与世无争，不染于泥"
-      url: "https://blog.hslzz.cn"
-    - name: "初七云-初星盾"
-      url: "https://chuqiyun.com"
+'site':
+  'name': '笔搁纸鸯'
+  'url': 'https://b.wihi.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '知识库'
+      'url': 'https://doc.wihi.top/'
+    - 'name': '葱苓语畔Don''t worry, be happy.'
+      'url': 'https://blog.ciraos.top'
+    - 'name': '花生莲子粥与世无争，不染于泥'
+      'url': 'https://blog.hslzz.cn'
+    - 'name': '初七云-初星盾'
+      'url': 'https://chuqiyun.com'

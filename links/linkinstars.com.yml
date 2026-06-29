@@ -1,30 +1,26 @@
-site:
-  name: "linkinstars.com"
-  description: "友情链接"
-  url: "https://linkinstars.com/"
-  links: "/link"
-  friends:
-    - name: "每日打卡"
-      url: "https://card.linkinstars.com/card/page"
-    - name: "面向信仰编程(左神)\n      面向信仰编程"
-      url: "https://draveness.me/"
-    - name: "飞雪无情的博客\n      专注于Android、Java、Go语言(golang)、移动互联网、项目管理、软件架构"
-      url: "https://www.flysnow.org/"
-    - name: "吴叶磊\n      吴叶磊的博客"
-      url: "https://aleiwu.com/"
-    - name: "张洪Heo\n      个人非常喜欢的博客，博客本身设计的非常好看，样子很舒服"
-      url: "https://blog.zhheo.com/"
-    - name: "wleelw"
-      url: "https://blog.sondy.top"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Github"
-      url: "https://github.com/LinkinStars"
-    - name: "简书"
-      url: "https://www.jianshu.com/u/dcc4b2396fc4"
-    - name: "博客园"
-      url: "https://www.cnblogs.com/linkstar"
-    - name: "浙ICP备17020891号-1"
-      url: "https://beian.miit.gov.cn/"
-    - name: "浙公网安备 33011002016554号"
-      url: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011002016554"
+'site':
+  'name': 'linkinstars.com'
+  'description': '友情链接'
+  'url': 'https://linkinstars.com/'
+  'links': '/link'
+  'friends':
+    - 'name': '每日打卡'
+      'url': 'https://card.linkinstars.com/card/page'
+    - 'name': "面向信仰编程(左神)\n      面向信仰编程"
+      'url': 'https://draveness.me/'
+    - 'name': "飞雪无情的博客
+
+        \      专注于Android、Java、Go语言(golang)、移动互联网、项目管理、软件架构"
+      'url': 'https://www.flysnow.org/'
+    - 'name': "吴叶磊\n      吴叶磊的博客"
+      'url': 'https://aleiwu.com/'
+    - 'name': "张洪Heo
+
+        \      个人非常喜欢的博客，博客本身设计的非常好看，样子很舒服"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'wleelw'
+      'url': 'https://blog.sondy.top'
+    - 'name': '简书'
+      'url': 'https://www.jianshu.com/u/dcc4b2396fc4'
+    - 'name': '博客园'
+      'url': 'https://www.cnblogs.com/linkstar'

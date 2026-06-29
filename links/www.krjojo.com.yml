@@ -1,64 +1,48 @@
-site:
-  name: 手里有只毛毛虫
-  description: 号角声起 - 等你启航
-  url: https://www.krjojo.com/
-  links: /links
-  friends:
-    - name: 不凡博客
-      url: https://www.bufanz.com/
-    - name: 材料与逻辑
-      url: https://zhyong.site
-    - name: 草东日记
-      url: https://www.gaicas.com
-    - name: 风记星辰
-      url: https://www.thyuu.com
-    - name: 幻影博客
-      url: https://blog.52hyjs.com/
-    - name: 老T博客
-      url: https://lawtee.com
-    - name: 猫普的精神世界
-      url: https://maplezz.com/
-    - name: 懋和道人
-      url: https://blog.dao.js.cn/
-    - name: 秋葵笔记
-      url: https://qiukui-note.happy365.day
-    - name: 小十博客
-      url: https://www.xiaoten.com
-    - name: 小周博客
-      url: https://www.css3er.com
-    - name: 星河避难所
-      url: https://hejunjie.life
-    - name: 益友网站
-      url: https://blog.yiyou.bj.cn
-    - name: 张洪Heo
-      url: https://blog.zhheo.com/
-    - name: 纸鹿本鹿
-      url: https://blog.zhilu.site/
-    - name: liangbm3's blog
-      url: https://liangbm3.site/
-    - name: Obaby
-      url: https://zhongxiaojie.com/
-    - name: YYsuni
-      url: https://www.yysuni.com/
-    - name: BlogsClub 博客俱乐部
-      url: https://www.blogsclub.org/
-    - name: Foreverblog 十年之约
-      url: https://www.foreverblog.cn/
-    - name: 博友圈
-      url: https://www.boyouquan.com/
-    - name: BlogFinder
-      url: https://bf.zzxworld.com/
-    - name: 笔墨迹
-      url: https://blogscn.fun/
-    - name: 大佬论坛
-      url: https://www.dalao.net/
-    - name: 个站商店
-      url: https://storeweb.cn/
-    - name: 博客之家
-      url: https://www.perass.com/
-    - name: 博客集
-      url: https://bloginc.cn/
-    - name: 集博栈
-      url: https://www.zhblogs.net/
-    - name: 夏柔
-      url: https://api.aa1.cn/
+'site':
+  'name': '手里有只毛毛虫'
+  'description': '号角声起 - 等你启航'
+  'url': 'https://www.krjojo.com/'
+  'links': '/links'
+  'friends':
+    - 'name': '不凡博客'
+      'url': 'https://www.bufanz.com/'
+    - 'name': '材料与逻辑'
+      'url': 'https://zhyong.site'
+    - 'name': '草东日记'
+      'url': 'https://www.gaicas.com'
+    - 'name': '风记星辰'
+      'url': 'https://www.thyuu.com'
+    - 'name': '幻影博客'
+      'url': 'https://blog.52hyjs.com/'
+    - 'name': '老T博客'
+      'url': 'https://lawtee.com'
+    - 'name': '猫普的精神世界'
+      'url': 'https://maplezz.com/'
+    - 'name': '懋和道人'
+      'url': 'https://blog.dao.js.cn/'
+    - 'name': '秋葵笔记'
+      'url': 'https://qiukui-note.happy365.day'
+    - 'name': '小十博客'
+      'url': 'https://www.xiaoten.com'
+    - 'name': '小周博客'
+      'url': 'https://www.css3er.com'
+    - 'name': '星河避难所'
+      'url': 'https://hejunjie.life'
+    - 'name': '益友网站'
+      'url': 'https://blog.yiyou.bj.cn'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '纸鹿本鹿'
+      'url': 'https://blog.zhilu.site/'
+    - 'name': 'liangbm3''s blog'
+      'url': 'https://liangbm3.site/'
+    - 'name': 'Obaby'
+      'url': 'https://zhongxiaojie.com/'
+    - 'name': 'YYsuni'
+      'url': 'https://www.yysuni.com/'
+    - 'name': 'BlogFinder'
+      'url': 'https://bf.zzxworld.com/'
+    - 'name': '大佬论坛'
+      'url': 'https://www.dalao.net/'
+    - 'name': '博客之家'
+      'url': 'https://www.perass.com/'

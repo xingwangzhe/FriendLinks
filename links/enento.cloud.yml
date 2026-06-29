@@ -1,40 +1,32 @@
-site:
-  name: "Enento"
-  url: "https://enento.cloud/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "友链"
-      url: "https://www.enento.cloud/links"
-    - name: "Glaube-TY\n                                        精神的游牧民族"
-      url: "https://blog.glaube-ty.top"
-    - name: "Mimosa的小屋\n                                        含羞草居住的地方"
-      url: "https://loneapex.cn/"
-    - name: "洛卡日记\n                                        日常生活留存地"
-      url: "https://luoca.cn"
-    - name: "寒士杰克\n                                        喜欢捣鼓，不断进步！"
-      url: "https://www.hansjack.com"
-    - name: "鈴奈咲桜のBlog\n                                        「情けは巡る」"
-      url: "https://blog.sakura.ink"
-    - name: "風雪城\n                                        浩繁星空下的一场稚嫩的梦"
-      url: "https://blog.chyk.ink/"
-    - name: "https://enento.cloud/"
-      url: "https://enento.cloud/"
-    - name: "https://www.enento.cloud/upload/Enentoico.jpg"
-      url: "https://www.enento.cloud/upload/Enentoico.jpg"
-    - name: "https://www.enento.cloud/rss.xml"
-      url: "https://www.enento.cloud/rss.xml"
-    - name: "2774767239"
-      url: "https://wpa.qq.com/msgrd?v=3&uin=2774767239&site=qq&menu=yes"
-    - name: "QQ"
-      url: "https://user.qzone.qq.com/2774767239/infocenter?loginfrom=31"
-    - name: "GitHub"
-      url: "https://github.com/YanBy233"
-    - name: "BiliBili"
-      url: "https://space.bilibili.com/403867419?spm_id_from=333.337.0.0"
-    - name: "Halo"
-      url: "https://halo.run/"
-    - name: "Dream2 Plus"
-      url: "https://github.com/hcjike/halo-theme-dream2.0-plus"
-    - name: "辽ICP备2026005391号"
-      url: "https://beian.miit.gov.cn/#/Integrated/index"
+'site':
+  'name': 'Enento'
+  'url': 'https://enento.cloud/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': "Glaube-TY
+
+        \                                        精神的游牧民族"
+      'url': 'https://blog.glaube-ty.top'
+    - 'name': "Mimosa的小屋
+
+        \                                        含羞草居住的地方"
+      'url': 'https://loneapex.cn/'
+    - 'name': "洛卡日记
+
+        \                                        日常生活留存地"
+      'url': 'https://luoca.cn'
+    - 'name': "寒士杰克
+
+        \                                        喜欢捣鼓，不断进步！"
+      'url': 'https://www.hansjack.com'
+    - 'name': "鈴奈咲桜のBlog
+
+        \                                        「情けは巡る」"
+      'url': 'https://blog.sakura.ink'
+    - 'name': "風雪城
+
+        \                                        浩繁星空下的一场稚嫩的梦"
+      'url': 'https://blog.chyk.ink/'
+    - 'name': 'Halo'
+      'url': 'https://halo.run/'

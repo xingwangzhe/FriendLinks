@@ -1,12 +1,6 @@
-site:
-  name: "CC"
-  url: "https://blog.ccknbc.cc/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "状态"
-      url: "https://cc.instatus.com"
-    - name: "鄂 ICP 备 2020019764 号"
-      url: "https://beian.miit.gov.cn"
-    - name: "鄂公网安备 42088102000092 号"
-      url: "https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=42088102000092"
+'site':
+  'name': 'CC'
+  'url': 'https://blog.ccknbc.cc/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends': []

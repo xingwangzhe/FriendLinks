@@ -1,34 +1,30 @@
-site:
-  name: "adaiblog.github.io"
-  description: "友情链接"
-  url: "https://adaiblog.github.io/"
-  links: "/link"
-  friends:
-    - name: "小旦"
-      url: "https://satera.cn"
-    - name: "Mo的记事簿"
-      url: "https://blog.xiowo.net/"
-    - name: "夏沫花火zzz🌙 (Muska_Ami)のLife"
-      url: "https://1l1.icu/"
-    - name: "纸鹿本鹿"
-      url: "https://blog.zhilu.cyou/"
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com/"
-    - name: "青桔气球"
-      url: "https://blog.qjqq.cn/"
-    - name: "葱苓语畔Do not worry, be happy."
-      url: "https://blog.ciraos.top"
-    - name: "龙窝人生近看是悲剧，远看是喜剧"
-      url: "https://blog.245179.xyz"
-    - name: "Leonus进一寸有进一寸的欢喜。"
-      url: "https://blog.leonus.cn/"
-    - name: "梦爱吃鱼但愿日子清静抬头遇见的满是柔情"
-      url: "https://blog.bsgun.cn/"
-    - name: "辣条悠远的天空，在苍穹的尽头"
-      url: "https://blog.owwo.fun"
-    - name: "FlyDayTech Exploration, Life Reflections, Social Insights"
-      url: "https://www.flyday.top/"
-    - name: "https://adaiblog.github.io"
-      url: "https://adaiblog.github.io/"
-    - name: "https://adaiblog.github.io/img/adai.png"
-      url: "https://adaiblog.github.io/img/adai.png"
+'site':
+  'name': 'adaiblog.github.io'
+  'description': '友情链接'
+  'url': 'https://adaiblog.github.io/'
+  'links': '/link'
+  'friends':
+    - 'name': '小旦'
+      'url': 'https://satera.cn'
+    - 'name': 'Mo的记事簿'
+      'url': 'https://blog.xiowo.net/'
+    - 'name': '夏沫花火zzz🌙 (Muska_Ami)のLife'
+      'url': 'https://1l1.icu/'
+    - 'name': '纸鹿本鹿'
+      'url': 'https://blog.zhilu.cyou/'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '青桔气球'
+      'url': 'https://blog.qjqq.cn/'
+    - 'name': '葱苓语畔Do not worry, be happy.'
+      'url': 'https://blog.ciraos.top'
+    - 'name': '龙窝人生近看是悲剧，远看是喜剧'
+      'url': 'https://blog.245179.xyz'
+    - 'name': 'Leonus进一寸有进一寸的欢喜。'
+      'url': 'https://blog.leonus.cn/'
+    - 'name': '梦爱吃鱼但愿日子清静抬头遇见的满是柔情'
+      'url': 'https://blog.bsgun.cn/'
+    - 'name': '辣条悠远的天空，在苍穹的尽头'
+      'url': 'https://blog.owwo.fun'
+    - 'name': 'FlyDayTech Exploration, Life Reflections, Social Insights'
+      'url': 'https://www.flyday.top/'

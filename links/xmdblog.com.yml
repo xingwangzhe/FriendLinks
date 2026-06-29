@@ -1,64 +1,38 @@
-site:
-  name: "xmdblog.com"
-  description: "友情链接"
-  url: "https://xmdblog.com/"
-  links: "/link"
-  friends:
-    - name: "博客"
-      url: "https://www.xmdblog.com/"
-    - name: "网盘"
-      url: "https://pan.xmdblog.com/"
-    - name: "随机前往一个开往项目网站"
-      url: "https://www.travellings.cn/go.html"
-    - name: "Hexo"
-      url: "https://hexo.io/zh-tw/"
-    - name: "AnZhiYu主题"
-      url: "https://docs.anheyu.com/"
-    - name: "Akilarの糖果屋"
-      url: "https://akilar.top/"
-    - name: "iMaeGoo"
-      url: "https://www.imaegoo.com"
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "LineXic书屋"
-      url: "https://www.linexic.top/"
-    - name: "lusyoe"
-      url: "https://blog.lusyoe.com/"
-    - name: "Roxy_Magicの咖啡馆"
-      url: "https://blog.roxymagic.top/"
-    - name: "bbb-lsy07"
-      url: "https://blog.tsoo.net/"
-    - name: "富贵"
-      url: "https://blog.w1f.top/"
-    - name: "Dark零点博客"
-      url: "https://www.tenca.cn/"
-    - name: "FriendCircleLite"
-      url: "https://github.com/willow-god/Friend-Circle-Lite"
-    - name: "LiuShen"
-      url: "https://www.liushen.fun/"
-    - name: "https://imgbed.xmdblog.com/file/OfXwydFU.jpg"
-      url: "https://imgbed.xmdblog.com/file/OfXwydFU.jpg"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Github"
-      url: "https://github.com/xiaoming-crypto"
-    - name: "BiliBili"
-      url: "https://space.bilibili.com/646806156"
-    - name: "抖音"
-      url: "https://v.douyin.com/iMXrK5HF/"
-    - name: "阿里云"
-      url: "https://aliyun.com/"
-    - name: "Clarity 统计"
-      url: "https://clarity.microsoft.com/"
-    - name: "开往"
-      url: "https://github.com/travellings-link/travellings"
-    - name: "博客框架为Hexo"
-      url: "https://hexo.io/"
-    - name: "本站服务器等使用阿里云一站式解决！"
-      url: "https://cn.aliyun.com/"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "沪 ICP 备 2024050492 号 - 1"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'xmdblog.com'
+  'description': '友情链接'
+  'url': 'https://xmdblog.com/'
+  'links': '/link'
+  'friends':
+    - 'name': 'AnZhiYu主题'
+      'url': 'https://docs.anheyu.com/'
+    - 'name': 'Akilarの糖果屋'
+      'url': 'https://akilar.top/'
+    - 'name': 'iMaeGoo'
+      'url': 'https://www.imaegoo.com'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'LineXic书屋'
+      'url': 'https://www.linexic.top/'
+    - 'name': 'lusyoe'
+      'url': 'https://blog.lusyoe.com/'
+    - 'name': 'Roxy_Magicの咖啡馆'
+      'url': 'https://blog.roxymagic.top/'
+    - 'name': 'bbb-lsy07'
+      'url': 'https://blog.tsoo.net/'
+    - 'name': '富贵'
+      'url': 'https://blog.w1f.top/'
+    - 'name': 'Dark零点博客'
+      'url': 'https://www.tenca.cn/'
+    - 'name': 'LiuShen'
+      'url': 'https://www.liushen.fun/'
+    - 'name': '抖音'
+      'url': 'https://v.douyin.com/iMXrK5HF/'
+    - 'name': '阿里云'
+      'url': 'https://aliyun.com/'
+    - 'name': 'Clarity 统计'
+      'url': 'https://clarity.microsoft.com/'
+    - 'name': '博客框架为Hexo'
+      'url': 'https://hexo.io/'

@@ -1,46 +1,36 @@
-site:
-  name: "blog.dhbxs.top"
-  description: "友情链接"
-  url: "https://blog.dhbxs.top/"
-  links: "/link"
-  friends:
-    - name: "纸鹿本鹿纸鹿摸鱼处"
-      url: "https://blog.zhilu.site/"
-    - name: "Moliam"
-      url: "https://www.moliam.space/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "会飞的猫"
-      url: "https://blog.flycat.tech"
-    - name: "Honesty"
-      url: "https://blog.hehouhui.cn"
-    - name: "GISHAI"
-      url: "https://gishai.top/blog/"
-    - name: "YYsuni"
-      url: "https://www.yysuni.com/"
-    - name: "HaoUp’s Blog"
-      url: "https://blog.528688.cn"
-    - name: "iren • Moment Collector"
-      url: "https://blog.mletter.cn/"
-    - name: "AimTao"
-      url: "https://www.aimtao.net/"
-    - name: "唯知笔记"
-      url: "https://note.weizwz.com"
-    - name: "素心 | SUXIN"
-      url: "https://haiy.space"
-    - name: "Oyiso's Blog"
-      url: "https://oyiso.cn"
-    - name: "加入开往"
-      url: "https://www.travellings.cn/docs/join.html"
-    - name: "Artalk"
-      url: "https://artalk.js.org"
-    - name: "博友圈"
-      url: "https://www.boyouquan.com/blogs/blog.dhbxs.top"
-    - name: "BlogsClub"
-      url: "https://blogs.quest/dhbxs"
-    - name: "主题: Clarity 3.7.0-rc.0"
-      url: "https://github.com/L33Z22L11/blog-v3"
-    - name: "站点状态"
-      url: "https://status.dhbxs.top"
-    - name: "晋ICP备2021007495号-1"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'blog.dhbxs.top'
+  'description': '友情链接'
+  'url': 'https://blog.dhbxs.top/'
+  'links': '/link'
+  'friends':
+    - 'name': '纸鹿本鹿纸鹿摸鱼处'
+      'url': 'https://blog.zhilu.site/'
+    - 'name': 'Moliam'
+      'url': 'https://www.moliam.space/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '会飞的猫'
+      'url': 'https://blog.flycat.tech'
+    - 'name': 'Honesty'
+      'url': 'https://blog.hehouhui.cn'
+    - 'name': 'GISHAI'
+      'url': 'https://gishai.top/blog/'
+    - 'name': 'YYsuni'
+      'url': 'https://www.yysuni.com/'
+    - 'name': 'HaoUp’s Blog'
+      'url': 'https://blog.528688.cn'
+    - 'name': 'iren • Moment Collector'
+      'url': 'https://blog.mletter.cn/'
+    - 'name': 'AimTao'
+      'url': 'https://www.aimtao.net/'
+    - 'name': '唯知笔记'
+      'url': 'https://note.weizwz.com'
+    - 'name': '素心 | SUXIN'
+      'url': 'https://haiy.space'
+    - 'name': 'Oyiso''s Blog'
+      'url': 'https://oyiso.cn'
+    - 'name': 'Artalk'
+      'url': 'https://artalk.js.org'
+    - 'name': 'BlogsClub'
+      'url': 'https://blogs.quest/dhbxs'

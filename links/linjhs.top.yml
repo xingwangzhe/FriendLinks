@@ -1,54 +1,36 @@
-site:
-  name: "linjhs.top"
-  description: "友情链接"
-  url: "https://linjhs.top/"
-  links: "/friends"
-  friends:
-    - name: "随机前往一个开往项目网站"
-      url: "https://www.travellings.cn/go.html"
-    - name: "Dark零点博客\n                18:00"
-      url: "https://www.tenca.cn"
-    - name: "php 状态模式切换"
-      url: "https://www.tenca.cn/post/php-tutorial/7802.html"
-    - name: "php 模板方法模式"
-      url: "https://www.tenca.cn/post/php-tutorial/7801.html"
-    - name: "php 组合模式树形"
-      url: "https://www.tenca.cn/post/php-tutorial/7800.html"
-    - name: "php 代理模式控制"
-      url: "https://www.tenca.cn/post/php-tutorial/7799.html"
-    - name: "php 依赖注入DI"
-      url: "https://www.tenca.cn/post/php-tutorial/7798.html"
-    - name: "张洪Heo\n                13:43"
-      url: "https://blog.zhheo.com/"
-    - name: "洪绘动图发布：将视频转换为帧图或者GIF并且限制只有5MB，APNG、WEBP动图生成工具"
-      url: "https://blog.zhheo.com/p/9yuhxjpl.html"
-    - name: "茗辰原\n                19:26"
-      url: "https://mingcy.cn"
-    - name: "利用AI从Hexo迁移到Astro"
-      url: "https://mingcy.cn/2026/06/20/astro/"
-    - name: "Cloud Photography"
-      url: "https://mingcy.cn/galleries/cloud-photography/"
-    - name: "小林酱博客\n                01:40"
-      url: "https://blog.zxiaolin.com"
-    - name: "Moments 极简朋友圈 + iPhone 16 Pro 网页模拟完整实现"
-      url: "https://blog.zxiaolin.com/archives/momen-pro"
-    - name: "博客周浏览量又突破了!"
-      url: "https://mingcy.cn/2026/06/18/page-view/"
-    - name: "AI支付宝上手：内容全靠编，出问题甩锅给商家，付款快退款难"
-      url: "https://blog.zhheo.com/p/sir4kfs9.html"
-    - name: "重要照片一定要备份，手机养成照片备份的好习惯"
-      url: "https://blog.zhheo.com/p/cyw9sqnh.html"
-    - name: "GitHub"
-      url: "https://github.com/LinJHS"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/503044469"
-    - name: "站点状态"
-      url: "https://status.linjhs.top"
-    - name: "主题"
-      url: "https://github.com/linjhs/halo-theme-hao"
-    - name: "闽ICP备2026001196号-1"
-      url: "https://beian.miit.gov.cn/#/Integrated/index"
-    - name: "闽公网安备35050302001238号"
-      url: "http://www.beian.gov.cn/portal/registerSystemInfo"
-    - name: "cc协议"
-      url: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+'site':
+  'name': 'linjhs.top'
+  'description': '友情链接'
+  'url': 'https://linjhs.top/'
+  'links': '/friends'
+  'friends':
+    - 'name': "Dark零点博客\n                18:00"
+      'url': 'https://www.tenca.cn'
+    - 'name': 'php 模板方法模式'
+      'url': 'https://www.tenca.cn/post/php-tutorial/7801.html'
+    - 'name': 'php 组合模式树形'
+      'url': 'https://www.tenca.cn/post/php-tutorial/7800.html'
+    - 'name': 'php 代理模式控制'
+      'url': 'https://www.tenca.cn/post/php-tutorial/7799.html'
+    - 'name': 'php 依赖注入DI'
+      'url': 'https://www.tenca.cn/post/php-tutorial/7798.html'
+    - 'name': "张洪Heo\n                13:43"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "茗辰原\n                19:26"
+      'url': 'https://mingcy.cn'
+    - 'name': '利用AI从Hexo迁移到Astro'
+      'url': 'https://mingcy.cn/2026/06/20/astro/'
+    - 'name': 'Cloud Photography'
+      'url': 'https://mingcy.cn/galleries/cloud-photography/'
+    - 'name': "小林酱博客\n                01:40"
+      'url': 'https://blog.zxiaolin.com'
+    - 'name': 'Moments 极简朋友圈 + iPhone 16 Pro 网页模拟完整实现'
+      'url': 'https://blog.zxiaolin.com/archives/momen-pro'
+    - 'name': '博客周浏览量又突破了!'
+      'url': 'https://mingcy.cn/2026/06/18/page-view/'
+    - 'name': 'AI支付宝上手：内容全靠编，出问题甩锅给商家，付款快退款难'
+      'url': 'https://blog.zhheo.com/p/sir4kfs9.html'
+    - 'name': '重要照片一定要备份，手机养成照片备份的好习惯'
+      'url': 'https://blog.zhheo.com/p/cyw9sqnh.html'
+    - 'name': 'cc协议'
+      'url': 'https://creativecommons.org/licenses/by-nc-nd/4.0/'

@@ -1,40 +1,32 @@
-site:
-  name: "dingzh.cc"
-  description: "友情链接"
-  url: "https://dingzh.cc/"
-  links: "/link"
-  friends:
-    - name: "字幕"
-      url: "https://github.com/rplalala/MySubTittle"
-    - name: "镜像"
-      url: "https://vercel.dingzh.cc"
-    - name: "主站"
-      url: "https://dingzh.cc"
-    - name: "dingzh's Bilibili"
-      url: "https://space.bilibili.com/6964209?spm_id_from=333.1007.0.0"
-    - name: "Akilar"
-      url: "https://akilar.top"
-    - name: "山岳库博"
-      url: "https://kmar.top/"
-    - name: "忽然笔记"
-      url: "https://blog.huran.xyz"
-    - name: "锦瑟的糖果屋"
-      url: "https://www.ijinse.cn"
-    - name: "Wayne's blog"
-      url: "https://wrans.top"
-    - name: "二兔"
-      url: "https://blog.juanertu.com"
-    - name: "Slcp の童话镇"
-      url: "https://Slcp.top"
-    - name: "阿圣的个人博客"
-      url: "https://lsstop.com"
-    - name: "Fomalhaut🥝"
-      url: "https://www.fomal.cc/"
-    - name: "七鳄の学习格"
-      url: "https://blog.gmcj0816.top/"
-    - name: "葱苓的小窝"
-      url: "https://www.itciraos.cn"
-    - name: "Kindle deep の Blog"
-      url: "https://blog.knlde.top"
-    - name: "https://npm.elemecdn.com/ding-blogdemo/img/Favicon.png"
-      url: "https://npm.elemecdn.com/ding-blogdemo/img/Favicon.png"
+'site':
+  'name': 'dingzh.cc'
+  'description': '友情链接'
+  'url': 'https://dingzh.cc/'
+  'links': '/link'
+  'friends':
+    - 'name': '镜像'
+      'url': 'https://vercel.dingzh.cc'
+    - 'name': 'Akilar'
+      'url': 'https://akilar.top'
+    - 'name': '山岳库博'
+      'url': 'https://kmar.top/'
+    - 'name': '忽然笔记'
+      'url': 'https://blog.huran.xyz'
+    - 'name': '锦瑟的糖果屋'
+      'url': 'https://www.ijinse.cn'
+    - 'name': 'Wayne''s blog'
+      'url': 'https://wrans.top'
+    - 'name': '二兔'
+      'url': 'https://blog.juanertu.com'
+    - 'name': 'Slcp の童话镇'
+      'url': 'https://Slcp.top'
+    - 'name': '阿圣的个人博客'
+      'url': 'https://lsstop.com'
+    - 'name': 'Fomalhaut🥝'
+      'url': 'https://www.fomal.cc/'
+    - 'name': '七鳄の学习格'
+      'url': 'https://blog.gmcj0816.top/'
+    - 'name': '葱苓的小窝'
+      'url': 'https://www.itciraos.cn'
+    - 'name': 'Kindle deep の Blog'
+      'url': 'https://blog.knlde.top'

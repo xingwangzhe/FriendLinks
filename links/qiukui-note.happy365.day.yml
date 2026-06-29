@@ -1,36 +1,28 @@
-site:
-  name: "qiukui-note.happy365.day"
-  description: "友情链接"
-  url: "https://qiukui-note.happy365.day/"
-  links: "/friends"
-  friends:
-    - name: "开往 🚇"
-      url: "https://www.travellings.cn/go.html"
-    - name: "Kegongteng"
-      url: "https://kegongteng.cn"
-    - name: "❖星港◎Star☆"
-      url: "https://blog.starsharbor.com"
-    - name: "呓语梦轩"
-      url: "https://blog.awaae001.top"
-    - name: "手里有只 毛毛虫"
-      url: "https://www.krjojo.com"
-    - name: "Pinpe 的云端"
-      url: "https://pinpe.top"
-    - name: "Leyili 花园"
-      url: "https://blog.930309.xyz"
-    - name: "他说"
-      url: "https://090909.top"
-    - name: "安落滢 Blog"
-      url: "https://blog.anluoying.com/"
-    - name: "雨临Lewis的博客"
-      url: "https://lewky.cn"
-    - name: "AIEII"
-      url: "https://aieii.com"
-    - name: "Salmonの博客"
-      url: "https://blog.salmonedu.ltd"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "萌ICP备20249900号"
-      url: "https://icp.gov.moe/?keyword=20249900"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn"
+'site':
+  'name': 'qiukui-note.happy365.day'
+  'description': '友情链接'
+  'url': 'https://qiukui-note.happy365.day/'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Kegongteng'
+      'url': 'https://kegongteng.cn'
+    - 'name': '❖星港◎Star☆'
+      'url': 'https://blog.starsharbor.com'
+    - 'name': '呓语梦轩'
+      'url': 'https://blog.awaae001.top'
+    - 'name': '手里有只 毛毛虫'
+      'url': 'https://www.krjojo.com'
+    - 'name': 'Pinpe 的云端'
+      'url': 'https://pinpe.top'
+    - 'name': 'Leyili 花园'
+      'url': 'https://blog.930309.xyz'
+    - 'name': '他说'
+      'url': 'https://090909.top'
+    - 'name': '安落滢 Blog'
+      'url': 'https://blog.anluoying.com/'
+    - 'name': '雨临Lewis的博客'
+      'url': 'https://lewky.cn'
+    - 'name': 'AIEII'
+      'url': 'https://aieii.com'
+    - 'name': 'Salmonの博客'
+      'url': 'https://blog.salmonedu.ltd'

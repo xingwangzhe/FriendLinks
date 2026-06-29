@@ -1,54 +1,38 @@
-site:
-  name: "T-ATOM"
-  url: "https://blog.kevinly.com.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "GitHub"
-      url: "https://github.com/HY-Kevin"
-    - name: "bilibili"
-      url: "https://space.bilibili.com/1235929811?spm_id_from=333.1007.0.0"
-    - name: "回归:Windows-Ubuntu22.04文件复制问题|Linux Vivado安装问题"
-      url: "https://blog.kevinly.com.cn/%E5%9B%9E%E5%BD%92-Windows-Ubuntu22-04%E6%96%87%E4%BB%B6%E5%A4%8D%E5%88%B6%E9%97%AE%E9%A2%98-Linux-Vivado%E5%AE%89%E8%A3%85%E9%97%AE%E9%A2%98/index.html?_sw-precache=bf678883db8c1f69056017ceed380a9e"
-    - name: "T-ATOM"
-      url: "https://www.kevinly.com.cn"
-    - name: "Hui-Shao's Blog"
-      url: "https://hui-shao.com"
-    - name: "AnFrank"
-      url: "https://enfangzhong.github.io/"
-    - name: "博采众长"
-      url: "https://lruihao.cn/"
-    - name: "东瓜瓜的小博客"
-      url: "http://dongguagua.gitee.io/blog"
-    - name: "Ljcbaby 的 网络小屋"
-      url: "https://blog.ljcbaby.top/"
-    - name: "Leaface"
-      url: "https://www.liaofuzhan.com"
-    - name: "Mashiro"
-      url: "https://2heng.xin"
-    - name: "花猪"
-      url: "https://cnhuazhu.top/"
-    - name: "Akilarの糖果屋"
-      url: "https://akilar.top/"
-    - name: "一蓑烟雨的博客"
-      url: "https://easyf12.top/"
-    - name: "鹿啵包の小窝"
-      url: "https://pochacco.top/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "Black Flies"
-      url: "https://www.yyyzyyyz.cn/"
-    - name: "安知鱼`Blog"
-      url: "https://anzhiy.cn/"
-    - name: "凡梦星尘空间站"
-      url: "https://lisenhui.cn"
-    - name: "米米的博客"
-      url: "https://zhangshuqiao.org"
-    - name: "FancyPig导航站"
-      url: "https://nav.iculture.cc"
-    - name: "浪海导航"
-      url: "https://www.langhai.net"
-    - name: "萌ICP备20227290号"
-      url: "https://icp.gov.moe/?keyword=20227290"
-    - name: "穿梭 | 十年之约"
-      url: "https://foreverblog.cn/go.html"
+'site':
+  'name': 'T-ATOM'
+  'url': 'https://blog.kevinly.com.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'T-ATOM'
+      'url': 'https://www.kevinly.com.cn'
+    - 'name': 'Hui-Shao''s Blog'
+      'url': 'https://hui-shao.com'
+    - 'name': '博采众长'
+      'url': 'https://lruihao.cn/'
+    - 'name': '东瓜瓜的小博客'
+      'url': 'http://dongguagua.gitee.io/blog'
+    - 'name': 'Ljcbaby 的 网络小屋'
+      'url': 'https://blog.ljcbaby.top/'
+    - 'name': 'Leaface'
+      'url': 'https://www.liaofuzhan.com'
+    - 'name': 'Mashiro'
+      'url': 'https://2heng.xin'
+    - 'name': '花猪'
+      'url': 'https://cnhuazhu.top/'
+    - 'name': 'Akilarの糖果屋'
+      'url': 'https://akilar.top/'
+    - 'name': '一蓑烟雨的博客'
+      'url': 'https://easyf12.top/'
+    - 'name': '鹿啵包の小窝'
+      'url': 'https://pochacco.top/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Black Flies'
+      'url': 'https://www.yyyzyyyz.cn/'
+    - 'name': '安知鱼`Blog'
+      'url': 'https://anzhiy.cn/'
+    - 'name': '凡梦星尘空间站'
+      'url': 'https://lisenhui.cn'
+    - 'name': '米米的博客'
+      'url': 'https://zhangshuqiao.org'

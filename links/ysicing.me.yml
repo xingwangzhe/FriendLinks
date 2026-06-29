@@ -1,48 +1,36 @@
-site:
-  name: "Solitudes"
-  url: "https://ysicing.me/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "友链监控"
-      url: "https://gatus.dx.rdns.12306.work/"
-    - name: "https://ysicing.me/static/cactus/images/logo.png"
-      url: "https://ysicing.me/static/cactus/images/logo.png"
-    - name: "https://ysicing.me"
-      url: "https://ysicing.me"
-    - name: "Faritor"
-      url: "https://www.unmz.net/?utm_source=ysicing.me"
-    - name: "奶爸博客"
-      url: "https://lifelonglearn.ing/?utm_source=ysicing.me"
-    - name: "老孙"
-      url: "https://www.imsun.org/?utm_source=ysicing.me"
-    - name: "杜老师说"
-      url: "https://dusays.com/?utm_source=ysicing.me"
-    - name: "Shiina's Bulog"
-      url: "https://blog.shiina.fun/?utm_source=ysicing.me"
-    - name: "龙场茶室"
-      url: "https://blog.peterchen97.cn/?utm_source=ysicing.me"
-    - name: "个站商店"
-      url: "https://storeweb.cn/?utm_source=ysicing.me"
-    - name: "随心随风"
-      url: "https://www.iarthit.com/?utm_source=ysicing.me"
-    - name: "编程笔记"
-      url: "https://programnotes.cn/?utm_source=ysicing.me"
-    - name: "二丫讲梵"
-      url: "https://wiki.eryajf.net/?utm_source=ysicing.me"
-    - name: "一纸枫叶🍃"
-      url: "https://qidu.lovestoblog.com?utm_source=ysicing.me"
-    - name: "GaGa"
-      url: "https://blog.mvpbang.com?utm_source=ysicing.me"
-    - name: "东东's Blog"
-      url: "https://blog.yasking.org?utm_source=ysicing.me"
-    - name: "GaGa"
-      url: "https://blog.mvpbang.com"
-    - name: "qllqll"
-      url: "https://qidu.lovestoblog.com"
-    - name: "编程笔记"
-      url: "https://programnotes.cn"
-    - name: "晨阳"
-      url: "https://blog.peterchen97.cn"
-    - name: "Solitudes"
-      url: "https://github.com/naiba/solitudes"
+'site':
+  'name': 'Solitudes'
+  'url': 'https://ysicing.me/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Faritor'
+      'url': 'https://www.unmz.net/?utm_source=ysicing.me'
+    - 'name': '奶爸博客'
+      'url': 'https://lifelonglearn.ing/?utm_source=ysicing.me'
+    - 'name': '老孙'
+      'url': 'https://www.imsun.org/?utm_source=ysicing.me'
+    - 'name': '杜老师说'
+      'url': 'https://dusays.com/?utm_source=ysicing.me'
+    - 'name': 'Shiina''s Bulog'
+      'url': 'https://blog.shiina.fun/?utm_source=ysicing.me'
+    - 'name': '龙场茶室'
+      'url': 'https://blog.peterchen97.cn/?utm_source=ysicing.me'
+    - 'name': '随心随风'
+      'url': 'https://www.iarthit.com/?utm_source=ysicing.me'
+    - 'name': '编程笔记'
+      'url': 'https://programnotes.cn/?utm_source=ysicing.me'
+    - 'name': '一纸枫叶🍃'
+      'url': 'https://qidu.lovestoblog.com?utm_source=ysicing.me'
+    - 'name': 'GaGa'
+      'url': 'https://blog.mvpbang.com?utm_source=ysicing.me'
+    - 'name': '东东''s Blog'
+      'url': 'https://blog.yasking.org?utm_source=ysicing.me'
+    - 'name': 'GaGa'
+      'url': 'https://blog.mvpbang.com'
+    - 'name': 'qllqll'
+      'url': 'https://qidu.lovestoblog.com'
+    - 'name': '编程笔记'
+      'url': 'https://programnotes.cn'
+    - 'name': '晨阳'
+      'url': 'https://blog.peterchen97.cn'

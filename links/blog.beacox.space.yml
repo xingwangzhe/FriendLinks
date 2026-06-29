@@ -1,12 +1,8 @@
-site:
-  name: "blog.beacox.space"
-  description: "友情链接"
-  url: "https://blog.beacox.space/"
-  links: "/friends"
-  friends:
-    - name: "About"
-      url: "https://www.beacox.space/"
-    - name: "Hugo"
-      url: "https://gohugo.io/"
-    - name: "Blowfish"
-      url: "https://blowfish.page/"
+'site':
+  'name': 'blog.beacox.space'
+  'description': '友情链接'
+  'url': 'https://blog.beacox.space/'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Blowfish'
+      'url': 'https://blowfish.page/'

@@ -1,104 +1,60 @@
-site:
-  name: "blog.kpretty.tech"
-  description: "友情链接"
-  url: "https://blog.kpretty.tech/"
-  links: "/link"
-  friends:
-    - name: "监控"
-      url: "https://status.kpretty.tech/status/dashboard"
-    - name: "图床"
-      url: "https://oss-web.kpretty.tech"
-    - name: "Dify"
-      url: "https://dify.kpretty.tech"
-    - name: "邮件订阅平台"
-      url: "https://listmonk.kpretty.tech"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "DuckDB"
-      url: "https://shell.duckdb.org/"
-    - name: "流量"
-      url: "https://us.umami.is/share/xg4JtqHYl1rY1uJf/blog.kpretty.tech"
-    - name: "Hexo"
-      url: "https://hexo.io/zh-cn/"
-    - name: "anzhiyu"
-      url: "https://blog.anheyu.com/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "tenyon风记得你走过的每个角落"
-      url: "https://tenyon.cn/"
-    - name: "FunnyWii’s Zone算法攻城狮/皮具爱好者/摩托骑不倒/吉他能出声"
-      url: "https://funnywii.com"
-    - name: "楠笙空谈误国，实干兴邦"
-      url: "https://blog.nanshengwx.cn/"
-    - name: "Jerry Zhou的博客永远相信美好的事情即将发生"
-      url: "https://blog.jerryz.com.cn"
-    - name: "博客星球简洁高效的博客导航和搜索入口，安全快捷"
-      url: "https://www.blogplanet.cn/"
-    - name: "AdilBW/HANA顾问,BI工程师,数据分析师,数据科学家。"
-      url: "https://blog.adil.com.cn/"
-    - name: "yiiko梦想成为庄稼地里的读书人....."
-      url: "https://blog.yik.at/"
-    - name: "Levi’s space一个有意思的Blog，工作记录，日常分享，欢迎访问"
-      url: "https://leviqin.top"
-    - name: "bbb-lsy07科技激荡人文，洞见智慧本真。"
-      url: "https://blog.tsoo.net/"
-    - name: "Pinpe 的云端一个属于自己的云朵。"
-      url: "https://pinpe.top"
-    - name: "轻风blog茫茫人海，多么幸运才能遇见你！"
-      url: "https://www.qingfengnb.cn"
-    - name: "半方池水半方田只能懂一点点"
-      url: "https://blog.uuanqin.top/"
-    - name: "小飞博客生活明朗,万物可爱,人间值得,未来可期。"
-      url: "https://blog.xffjs.com"
-    - name: "逍遥哥哥Future is now🍭🍭🍭"
-      url: "https://XiaoyaoGG1024.github.io/"
-    - name: "IvanCodes我用代码写诗，把远方藏进数据里"
-      url: "https://blog.csdn.net/2401_83830408"
-    - name: "细粒丁の小窝认真的样子，才吸引人"
-      url: "https://tenyding.cn/"
-    - name: "JSON在线解析格式化验证"
-      url: "https://www.json.cn/"
-    - name: "哲风壁纸"
-      url: "https://haowallpaper.com/"
-    - name: "https://blog.kpretty.tech/"
-      url: "https://blog.kpretty.tech/"
-    - name: "https://oss.kpretty.tech/attachment/avatar.webp"
-      url: "https://oss.kpretty.tech/attachment/avatar.webp"
-    - name: "https://oss.kpretty.tech/attachment/blog.kpretty.tech.webp"
-      url: "https://oss.kpretty.tech/attachment/blog.kpretty.tech.webp"
-    - name: "https://blog.kpretty.tech/rss.xml"
-      url: "https://blog.kpretty.tech/rss.xml"
-    - name: "https://blog.kpretty.tech/sitemap.xml"
-      url: "https://blog.kpretty.tech/sitemap.xml"
-    - name: "bbb-lsy07"
-      url: "https://blog.6uu.us/"
-    - name: "王一川"
-      url: "http://wjunjobs@outlook.com"
-    - name: "https://tenyding.cn/image/avatar.jpg"
-      url: "https://tenyding.cn/image/avatar.jpg"
-    - name: "mp4网"
-      url: "http://mp4wang.cc"
-    - name: "https://images.6uu.us/20250511114301488.JPG"
-      url: "https://images.6uu.us/20250511114301488.JPG"
-    - name: "王一川"
-      url: "https://blog.kpretty.tech"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Github"
-      url: "https://github.com/kpretty"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/204738657"
-    - name: "51la"
-      url: "https://v6.51.la/s/pfu4M5kkrmNgkTY"
-    - name: "开放接口"
-      url: "https://apifox.kpretty.tech/"
-    - name: "博客框架为Hexo_v5.4.0"
-      url: "https://hexo.io/"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "主题"
-      url: "https://github.com/anzhiyu-c/hexo-theme-anzhiyu"
-    - name: "皖ICP备2021011556号"
-      url: "https://beian.miit.gov.cn/"
-    - name: "茶ICP备2025070007号"
-      url: "https://icp.redcha.cn/beian/ICP-2025070007.html"
+'site':
+  'name': 'blog.kpretty.tech'
+  'description': '友情链接'
+  'url': 'https://blog.kpretty.tech/'
+  'links': '/link'
+  'friends':
+    - 'name': 'Dify'
+      'url': 'https://dify.kpretty.tech'
+    - 'name': '邮件订阅平台'
+      'url': 'https://listmonk.kpretty.tech'
+    - 'name': 'DuckDB'
+      'url': 'https://shell.duckdb.org/'
+    - 'name': '流量'
+      'url': 'https://us.umami.is/share/xg4JtqHYl1rY1uJf/blog.kpretty.tech'
+    - 'name': 'anzhiyu'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'tenyon风记得你走过的每个角落'
+      'url': 'https://tenyon.cn/'
+    - 'name': 'FunnyWii’s Zone算法攻城狮/皮具爱好者/摩托骑不倒/吉他能出声'
+      'url': 'https://funnywii.com'
+    - 'name': '楠笙空谈误国，实干兴邦'
+      'url': 'https://blog.nanshengwx.cn/'
+    - 'name': 'Jerry Zhou的博客永远相信美好的事情即将发生'
+      'url': 'https://blog.jerryz.com.cn'
+    - 'name': 'AdilBW/HANA顾问,BI工程师,数据分析师,数据科学家。'
+      'url': 'https://blog.adil.com.cn/'
+    - 'name': 'yiiko梦想成为庄稼地里的读书人.....'
+      'url': 'https://blog.yik.at/'
+    - 'name': 'Levi’s space一个有意思的Blog，工作记录，日常分享，欢迎访问'
+      'url': 'https://leviqin.top'
+    - 'name': 'bbb-lsy07科技激荡人文，洞见智慧本真。'
+      'url': 'https://blog.tsoo.net/'
+    - 'name': 'Pinpe 的云端一个属于自己的云朵。'
+      'url': 'https://pinpe.top'
+    - 'name': '轻风blog茫茫人海，多么幸运才能遇见你！'
+      'url': 'https://www.qingfengnb.cn'
+    - 'name': '半方池水半方田只能懂一点点'
+      'url': 'https://blog.uuanqin.top/'
+    - 'name': '小飞博客生活明朗,万物可爱,人间值得,未来可期。'
+      'url': 'https://blog.xffjs.com'
+    - 'name': 'IvanCodes我用代码写诗，把远方藏进数据里'
+      'url': 'https://blog.csdn.net/2401_83830408'
+    - 'name': '细粒丁の小窝认真的样子，才吸引人'
+      'url': 'https://tenyding.cn/'
+    - 'name': 'JSON在线解析格式化验证'
+      'url': 'https://www.json.cn/'
+    - 'name': '哲风壁纸'
+      'url': 'https://haowallpaper.com/'
+    - 'name': 'bbb-lsy07'
+      'url': 'https://blog.6uu.us/'
+    - 'name': '王一川'
+      'url': 'http://wjunjobs@outlook.com'
+    - 'name': 'mp4网'
+      'url': 'http://mp4wang.cc'
+    - 'name': '51la'
+      'url': 'https://v6.51.la/s/pfu4M5kkrmNgkTY'
+    - 'name': '博客框架为Hexo_v5.4.0'
+      'url': 'https://hexo.io/'

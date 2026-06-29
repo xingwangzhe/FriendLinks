@@ -1,20 +1,12 @@
-site:
-  name: "jamesflare.com"
-  description: "友情链接"
-  url: "https://jamesflare.com/"
-  links: "/friends"
-  friends:
-    - name: "@KnowsCount"
-      url: "https://github.com/KnowsCount"
-    - name: "@oenLN"
-      url: "https://halo.oneln.org/"
-    - name: "@sheerkvc"
-      url: "https://sheerkvc.top/"
-    - name: "Hugo"
-      url: "https://gohugo.io/"
-    - name: "FixIt"
-      url: "https://github.com/hugo-fixit/FixIt"
-    - name: "James"
-      url: "https://jamesflare.com"
-    - name: "CC BY-NC 4.0"
-      url: "https://creativecommons.org/licenses/by-nc/4.0/"
+'site':
+  'name': 'jamesflare.com'
+  'description': '友情链接'
+  'url': 'https://jamesflare.com/'
+  'links': '/friends'
+  'friends':
+    - 'name': '@oenLN'
+      'url': 'https://halo.oneln.org/'
+    - 'name': '@sheerkvc'
+      'url': 'https://sheerkvc.top/'
+    - 'name': 'CC BY-NC 4.0'
+      'url': 'https://creativecommons.org/licenses/by-nc/4.0/'

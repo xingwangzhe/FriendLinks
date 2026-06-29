@@ -1,44 +1,20 @@
-site:
-  name: "Zostanzo"
-  url: "https://zhangzhao219.github.io/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "吱吱的小站"
-      url: "http://www.gislxz.com/"
-    - name: "Dimsmary"
-      url: "https://dimsmary.tech/"
-    - name: "DeathSprout"
-      url: "https://sydddl.github.io/"
-    - name: "Windy"
-      url: "https://windy810.github.io/"
-    - name: "Zhiyu's Blog"
-      url: "https://qgrain.github.io/"
-    - name: "北屿"
-      url: "https://blog.bj-yan.top/"
-    - name: "无锤乙醇"
-      url: "https://syvshc.github.io/"
-    - name: "JMbaozi"
-      url: "https://baozi.run/"
-    - name: "PYQ Blog"
-      url: "https://peng-yq.github.io/"
-    - name: "Seclusion"
-      url: "https://miroier.github.io/"
-    - name: "zepoch's site"
-      url: "https://www.zepoch.cc/"
-    - name: "Loonの雪屋"
-      url: "https://loonmy.github.io/"
-    - name: "月梦の技术博客"
-      url: "https://ymiir.asia"
-    - name: "FSDN"
-      url: "https://fsdn.sunny.icu/"
-    - name: "VnYzm的博客"
-      url: "https://zimingyuan.github.io/index.html"
-    - name: "Chasing1020"
-      url: "https://chasing1020.github.io/"
-    - name: "R0gerThat"
-      url: "https://wr-web.github.io/"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Fluid"
-      url: "https://github.com/fluid-dev/hexo-theme-fluid"
+'site':
+  'name': 'Zostanzo'
+  'url': 'https://zhangzhao219.github.io/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '吱吱的小站'
+      'url': 'http://www.gislxz.com/'
+    - 'name': 'Dimsmary'
+      'url': 'https://dimsmary.tech/'
+    - 'name': '北屿'
+      'url': 'https://blog.bj-yan.top/'
+    - 'name': 'JMbaozi'
+      'url': 'https://baozi.run/'
+    - 'name': 'zepoch''s site'
+      'url': 'https://www.zepoch.cc/'
+    - 'name': '月梦の技术博客'
+      'url': 'https://ymiir.asia'
+    - 'name': 'FSDN'
+      'url': 'https://fsdn.sunny.icu/'

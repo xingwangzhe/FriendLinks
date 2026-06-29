@@ -1,164 +1,100 @@
-site:
-  name: "ichika.cc"
-  description: "友情链接"
-  url: "https://ichika.cc/"
-  links: "/link"
-  friends:
-    - name: "QQ"
-      url: "https://qm.qq.com/cgi-bin/qm/qr?k=xb453AHuxlK_XjrxV0A5rkz2x23N3_Vk&noverify=0"
-    - name: "Weibo"
-      url: "https://weibo.com/u/5470086332"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/18247019?spm_id_from=333.1007.0.0"
-    - name: "Twitter"
-      url: "https://twitter.com/Receiver99xkk?t=UoMBRIY0a-csS_gUb9aIRg&s=09"
-    - name: "Github"
-      url: "https://github.com/ichika99"
-    - name: "导航"
-      url: "https://nav.ichika.cc"
-    - name: "分享"
-      url: "http://pan.ichika.cc"
-    - name: "GitHub线路"
-      url: "https://github.ichika.cc"
-    - name: "腾讯云线路"
-      url: "https://ichika.cc"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "Akilarの糖果屋欢迎光临糖果屋"
-      url: "https://akilar.top/"
-    - name: "张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "轻笑Chunckle漫天倾尘,风中轻笑"
-      url: "https://www.qcqx.cn"
-    - name: "安知鱼`Blog生活明朗，万物可爱"
-      url: "https://blog.anheyu.com/"
-    - name: "Ariasakaの小窝人有悲欢离合 月有阴晴圆缺"
-      url: "https://blog.yaria.top"
-    - name: "Eurkon不只是代码的搬运工"
-      url: "https://blog.eurkon.com/"
-    - name: "小冰博客做个有梦想的人！"
-      url: "https://zfe.space/"
-    - name: "小康博客一个收藏回忆与分享技术的地方！"
-      url: "https://www.antmoe.com/"
-    - name: "Leonus进一寸有进一寸的欢喜。"
-      url: "https://blog.leonus.cn/"
-    - name: "九九九感冒绫这是我的梦想,我会慢慢的完成它"
-      url: "https://www.miku-39.cn/"
-    - name: "生活倒影这是一个 Vue2 Vue3 与 SpringBoot 结合的产物～"
-      url: "https://poetize.cn"
-    - name: "呆鱼Hello World！"
-      url: "https://daiyu.fun/"
-    - name: "LiynwEvery little helps."
-      url: "https://blog.liynw.top"
-    - name: "Kloudy ShapeStay Hungry, Stay Foolish"
-      url: "https://shape.kloudy.cn/"
-    - name: "MqyGalaxy|Blog爱好 ACG 的温馨小窝"
-      url: "https://blog.moeqy.com/"
-    - name: "LyShark - 孤风洗剑道，可道，非常道；名，可名，非常名。—— 老子《道德经》"
-      url: "https://www.lyshark.com"
-    - name: "閑人後院閑人後院門不閉，雞犬相聞酒盞迎。"
-      url: "https://shinonome-shizuka.github.io/"
-    - name: "小吉崽汁の窝A programmer of vegetable chicken"
-      url: "https://wuxingzzz.top"
-    - name: "道宣的窝欢迎来到道宣的温暖小窝"
-      url: "https://daoxuan.cc/"
-    - name: "BoBOvO加油加油！！！"
-      url: "https://demo.bobovo.cc/"
-    - name: "梦境学习站一个乐于免费分享的网站"
-      url: "https://blog.godgy.xyz"
-    - name: "爱吃肉的猫有肉有猫有生活."
-      url: "https://meuicat.com/"
-    - name: "半方池水半方田技术分享及生活分享"
-      url: "https://uuanqin.top/"
-    - name: "虎了吧唧研墨成浆，提笔思量"
-      url: "https://hulebaji.me"
-    - name: "铭心石刻愿岁并谢，与友长兮"
-      url: "https://blog.kouseki.cn/"
-    - name: "Qeem阿巴阿巴…"
-      url: "http://itstarqeem.space"
-    - name: "baofeng年年有风，风吹年年，慢慢即漫漫"
-      url: "https://blog.bao-feng.top"
-    - name: "Blog | Monkey-PaPa采用前端vue2和后端Python技术实习的个人博客前后台系统"
-      url: "http://www.blog.zjh2002.icu"
-    - name: "胡桃木实验室胡桃木的笔记分享小站"
-      url: "https://www.htmacg.cn/"
-    - name: "浅小兮の梦从相遇的刹那开始就注定了别离！"
-      url: "https://zxwlove.xyz"
-    - name: "hiRipple超高校级的游戏玩家"
-      url: "https://hiripple.com"
-    - name: "Hexo博客框架"
-      url: "https://hexo.io/zh-cn/"
-    - name: "Butterfly主题提供"
-      url: "https://butterfly.js.org/"
-    - name: "Github项目托管"
-      url: "https://github.com/ichika99/ichika99.github.io/"
-    - name: "腾讯云云开发、云存储、服务器"
-      url: "https://cloud.tencent.com/"
-    - name: "Twikoo评论系统支持"
-      url: "https://twikoo.js.org/"
-    - name: "51LA网站数据统计"
-      url: "https://www.51.la/"
-    - name: "https://ichika.cc"
-      url: "https://ichika.cc/"
-    - name: "https://cdn.ichika.cc/page/HeadIcon.jpg"
-      url: "https://cdn.ichika.cc/page/HeadIcon.jpg"
-    - name: "https://www.oao.cc"
-      url: "https://www.oao.cc"
-    - name: "https://www.oao.cc/rss.xml"
-      url: "https://www.oao.cc/rss.xml"
-    - name: "四夕"
-      url: "https://www.sixi-blog.cn/"
-    - name: "https://sixi-blog.cn/img/favicon.png"
-      url: "https://sixi-blog.cn/img/favicon.png"
-    - name: "https://sixi-blog.cn/api/rss"
-      url: "https://sixi-blog.cn/api/rss"
-    - name: "zwlong6"
-      url: "https://blog.zzzero.site"
-    - name: "益友"
-      url: "https://www.yiyou.bj.cn"
-    - name: "https://www.yiyou.bj.cn/logo/youlogo.png"
-      url: "https://www.yiyou.bj.cn/logo/youlogo.png"
-    - name: "https://blog.yiyou.bj.cn/rss.xml"
-      url: "https://blog.yiyou.bj.cn/rss.xml"
-    - name: "lin"
-      url: "http://linmohan.fun"
-    - name: "https://linmohan.fun/"
-      url: "https://linmohan.fun/"
-    - name: "https://linmohan.fun/img/favicon.png"
-      url: "https://linmohan.fun/img/favicon.png"
-    - name: "绾秋"
-      url: "https://www.gx.gx.cn/"
-    - name: "https://www.gx.gx.cn/other/img/links.png"
-      url: "https://www.gx.gx.cn/other/img/links.png"
-    - name: "于长生"
-      url: "http://39.107.143.109:8188/home/index"
-    - name: "浅小兮"
-      url: "http://zxwlove.xyz"
-    - name: "https://sunrixet.github.io/img/avatar.jpg"
-      url: "https://sunrixet.github.io/img/avatar.jpg"
-    - name: "June"
-      url: "https://blog.june-pj.cn/"
-    - name: "https://img.june-pj.cn/img/avatar.webp"
-      url: "https://img.june-pj.cn/img/avatar.webp"
-    - name: "Cream薄荷糖"
-      url: "https://www.creammint.cn/"
-    - name: "Beerlee"
-      url: "http://blog.beerlee.cn"
-    - name: "https://blog.beerlee.cn/"
-      url: "https://blog.beerlee.cn/"
-    - name: "https://blog.beerlee.cn/img/avatar.png"
-      url: "https://blog.beerlee.cn/img/avatar.png"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "苏公网安备 32050802011619号"
-      url: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32050802011619"
-    - name: "苏ICP备2022040728号"
-      url: "https://beian.miit.gov.cn/"
-    - name: "萌ICP备20223993号"
-      url: "https://icp.gov.moe/?keyword=20223993"
-    - name: "腾讯云"
-      url: "https://cloud.tencent.com"
-    - name: "51LA"
-      url: "https://www.51.la"
-    - name: "CC BY-NC-SA 4.0"
-      url: "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"
+'site':
+  'name': 'ichika.cc'
+  'description': '友情链接'
+  'url': 'https://ichika.cc/'
+  'links': '/link'
+  'friends':
+    - 'name': '分享'
+      'url': 'http://pan.ichika.cc'
+    - 'name': 'GitHub线路'
+      'url': 'https://github.ichika.cc'
+    - 'name': 'Akilarの糖果屋欢迎光临糖果屋'
+      'url': 'https://akilar.top/'
+    - 'name': '张洪Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '轻笑Chunckle漫天倾尘,风中轻笑'
+      'url': 'https://www.qcqx.cn'
+    - 'name': '安知鱼`Blog生活明朗，万物可爱'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': 'Ariasakaの小窝人有悲欢离合 月有阴晴圆缺'
+      'url': 'https://blog.yaria.top'
+    - 'name': 'Eurkon不只是代码的搬运工'
+      'url': 'https://blog.eurkon.com/'
+    - 'name': '小冰博客做个有梦想的人！'
+      'url': 'https://zfe.space/'
+    - 'name': '小康博客一个收藏回忆与分享技术的地方！'
+      'url': 'https://www.antmoe.com/'
+    - 'name': 'Leonus进一寸有进一寸的欢喜。'
+      'url': 'https://blog.leonus.cn/'
+    - 'name': '九九九感冒绫这是我的梦想,我会慢慢的完成它'
+      'url': 'https://www.miku-39.cn/'
+    - 'name': '生活倒影这是一个 Vue2 Vue3 与 SpringBoot 结合的产物～'
+      'url': 'https://poetize.cn'
+    - 'name': '呆鱼Hello World！'
+      'url': 'https://daiyu.fun/'
+    - 'name': 'LiynwEvery little helps.'
+      'url': 'https://blog.liynw.top'
+    - 'name': 'Kloudy ShapeStay Hungry, Stay Foolish'
+      'url': 'https://shape.kloudy.cn/'
+    - 'name': 'MqyGalaxy|Blog爱好 ACG 的温馨小窝'
+      'url': 'https://blog.moeqy.com/'
+    - 'name': 'LyShark - 孤风洗剑道，可道，非常道；名，可名，非常名。—— 老子《道德经》'
+      'url': 'https://www.lyshark.com'
+    - 'name': '小吉崽汁の窝A programmer of vegetable chicken'
+      'url': 'https://wuxingzzz.top'
+    - 'name': '道宣的窝欢迎来到道宣的温暖小窝'
+      'url': 'https://daoxuan.cc/'
+    - 'name': 'BoBOvO加油加油！！！'
+      'url': 'https://demo.bobovo.cc/'
+    - 'name': '梦境学习站一个乐于免费分享的网站'
+      'url': 'https://blog.godgy.xyz'
+    - 'name': '爱吃肉的猫有肉有猫有生活.'
+      'url': 'https://meuicat.com/'
+    - 'name': '半方池水半方田技术分享及生活分享'
+      'url': 'https://uuanqin.top/'
+    - 'name': '虎了吧唧研墨成浆，提笔思量'
+      'url': 'https://hulebaji.me'
+    - 'name': '铭心石刻愿岁并谢，与友长兮'
+      'url': 'https://blog.kouseki.cn/'
+    - 'name': 'Qeem阿巴阿巴…'
+      'url': 'http://itstarqeem.space'
+    - 'name': 'baofeng年年有风，风吹年年，慢慢即漫漫'
+      'url': 'https://blog.bao-feng.top'
+    - 'name': 'Blog | Monkey-PaPa采用前端vue2和后端Python技术实习的个人博客前后台系统'
+      'url': 'http://www.blog.zjh2002.icu'
+    - 'name': '胡桃木实验室胡桃木的笔记分享小站'
+      'url': 'https://www.htmacg.cn/'
+    - 'name': '浅小兮の梦从相遇的刹那开始就注定了别离！'
+      'url': 'https://zxwlove.xyz'
+    - 'name': 'hiRipple超高校级的游戏玩家'
+      'url': 'https://hiripple.com'
+    - 'name': 'Hexo博客框架'
+      'url': 'https://hexo.io/zh-cn/'
+    - 'name': 'Butterfly主题提供'
+      'url': 'https://butterfly.js.org/'
+    - 'name': 'Twikoo评论系统支持'
+      'url': 'https://twikoo.js.org/'
+    - 'name': '51LA网站数据统计'
+      'url': 'https://www.51.la/'
+    - 'name': '四夕'
+      'url': 'https://www.sixi-blog.cn/'
+    - 'name': 'zwlong6'
+      'url': 'https://blog.zzzero.site'
+    - 'name': '益友'
+      'url': 'https://www.yiyou.bj.cn'
+    - 'name': 'lin'
+      'url': 'http://linmohan.fun'
+    - 'name': '绾秋'
+      'url': 'https://www.gx.gx.cn/'
+    - 'name': '浅小兮'
+      'url': 'http://zxwlove.xyz'
+    - 'name': 'June'
+      'url': 'https://blog.june-pj.cn/'
+    - 'name': 'Cream薄荷糖'
+      'url': 'https://www.creammint.cn/'
+    - 'name': 'Beerlee'
+      'url': 'http://blog.beerlee.cn'
+    - 'name': '51LA'
+      'url': 'https://www.51.la'
+    - 'name': 'CC BY-NC-SA 4.0'
+      'url': 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh'

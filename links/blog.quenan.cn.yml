@@ -1,50 +1,40 @@
-site:
-  name: "blog.quenan.cn"
-  description: "友情链接"
-  url: "https://blog.quenan.cn/"
-  links: "/link"
-  friends:
-    - name: "Fomalhaut🥝"
-      url: "https://fomal.cc/"
-    - name: "纸鹿本鹿"
-      url: "https://blog.zhilu.site/"
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com/"
-    - name: "Akilarの糖果屋"
-      url: "https://akilar.top/"
-    - name: "Ariasaka小窝"
-      url: "https://blog.yaria.top/"
-    - name: "MeuiCat"
-      url: "https://meuicat.com/"
-    - name: "清羽飞扬"
-      url: "https://blog.liushen.fun/"
-    - name: "微霞"
-      url: "https://yuuu.org"
-    - name: "June's Blog"
-      url: "https://blog.june-pj.cn/"
-    - name: "山岳库博"
-      url: "https://kmar.top/"
-    - name: "FloatSheep"
-      url: "https://blog.hesiy.cn"
-    - name: "HiPeach"
-      url: "https://blog.opeach.cn"
-    - name: "呓语梦轩"
-      url: "https://blog.awaae001.top"
-    - name: "EastWind"
-      url: "https://blog.1wind.cn/"
-    - name: "葱苓语畔"
-      url: "https://blog.ciraos.top"
-    - name: "Mikuの鬆"
-      url: "https://blog.sotkg.com/"
-    - name: "AirTouch"
-      url: "https://www.xsl.im/"
-    - name: "鹊楠の小窝"
-      url: "https://blog.quenan.cn/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "爱咕咕的楠"
-      url: "https://space.bilibili.com/495882959"
-    - name: "网易云"
-      url: "https://music.163.com/#/user/home?id=1785635020"
-    - name: "主题: Clarity 3.4.9"
-      url: "https://github.com/L33Z22L11/blog-v3"
+'site':
+  'name': 'blog.quenan.cn'
+  'description': '友情链接'
+  'url': 'https://blog.quenan.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': 'Fomalhaut🥝'
+      'url': 'https://fomal.cc/'
+    - 'name': '纸鹿本鹿'
+      'url': 'https://blog.zhilu.site/'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': 'Akilarの糖果屋'
+      'url': 'https://akilar.top/'
+    - 'name': 'Ariasaka小窝'
+      'url': 'https://blog.yaria.top/'
+    - 'name': 'MeuiCat'
+      'url': 'https://meuicat.com/'
+    - 'name': '清羽飞扬'
+      'url': 'https://blog.liushen.fun/'
+    - 'name': '微霞'
+      'url': 'https://yuuu.org'
+    - 'name': 'June''s Blog'
+      'url': 'https://blog.june-pj.cn/'
+    - 'name': '山岳库博'
+      'url': 'https://kmar.top/'
+    - 'name': 'FloatSheep'
+      'url': 'https://blog.hesiy.cn'
+    - 'name': 'HiPeach'
+      'url': 'https://blog.opeach.cn'
+    - 'name': '呓语梦轩'
+      'url': 'https://blog.awaae001.top'
+    - 'name': 'EastWind'
+      'url': 'https://blog.1wind.cn/'
+    - 'name': '葱苓语畔'
+      'url': 'https://blog.ciraos.top'
+    - 'name': 'Mikuの鬆'
+      'url': 'https://blog.sotkg.com/'
+    - 'name': 'AirTouch'
+      'url': 'https://www.xsl.im/'

@@ -1,14 +1,10 @@
-site:
-  name: "zepoch.cc"
-  description: "友情链接"
-  url: "https://zepoch.cc/"
-  links: "/link"
-  friends:
-    - name: "Valine"
-      url: "https://valine.js.org"
-    - name: "Follow Me"
-      url: "https://github.com/zepoch"
-    - name: "Hexo 7.3.0"
-      url: "https://hexo.io"
-    - name: "Butterfly 5.3.3"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
+'site':
+  'name': 'zepoch.cc'
+  'description': '友情链接'
+  'url': 'https://zepoch.cc/'
+  'links': '/link'
+  'friends':
+    - 'name': 'Valine'
+      'url': 'https://valine.js.org'
+    - 'name': 'Hexo 7.3.0'
+      'url': 'https://hexo.io'

@@ -1,28 +1,26 @@
-site:
-  name: "agxcoy.shimakaze.org"
-  description: "友情链接"
-  url: "https://agxcoy.shimakaze.org/"
-  links: "/friends"
-  friends:
-    - name: "点此添加友链喵～"
-      url: "https://github.com/AgxCOy/AgxCOy/issues/new?template=%E7%94%B3%E8%AF%B7%E6%B7%BB%E5%8A%A0%E5%8D%9A%E5%AE%A2%E5%8F%8B%E9%93%BE-friends-request.yml"
-    - name: "S1LVA1REqwq"
-      url: "https://qwq.blue/"
-    - name: "Androidowo? uwu!"
-      url: "https://android99.com"
-    - name: "Emnasopο(=•ω＜=)ρ⌒☆"
-      url: "https://emnasop.cn/"
-    - name: "RefactX ProjectAnother, another… another excuse."
-      url: "https://www.refact.cc/"
-    - name: "舰队的偶像-岛风酱！“愿世界没有加班。” “加班是没有了，因为现在工作都没有。”"
-      url: "https://blog.shimakaze.dev"
-    - name: "MelodyEcho 律回可爱的 Python Dev 和音乐人律姐姐～"
-      url: "https://glowmem.com/"
-    - name: "Asankilp半吊子写代码的，瞎折腾的。"
-      url: "https://blog.erroro.moe/"
-    - name: "Twisuki 苏阳一只喜欢到处贴贴的猫。"
-      url: "https://twis.uk"
-    - name: "SnowyKami 神羽「神光兮天轻，羽游兮似雪。」"
-      url: "https://sfkm.me"
-    - name: "SD7935一个CTFer、红警牢玩家、死宅、蟒蛇使用者、hentai"
-      url: "https://www.sd7935.link/"
+'site':
+  'name': 'agxcoy.shimakaze.org'
+  'description': '友情链接'
+  'url': 'https://agxcoy.shimakaze.org/'
+  'links': '/friends'
+  'friends':
+    - 'name': 'S1LVA1REqwq'
+      'url': 'https://qwq.blue/'
+    - 'name': 'Androidowo? uwu!'
+      'url': 'https://android99.com'
+    - 'name': 'Emnasopο(=•ω＜=)ρ⌒☆'
+      'url': 'https://emnasop.cn/'
+    - 'name': 'RefactX ProjectAnother, another… another excuse.'
+      'url': 'https://www.refact.cc/'
+    - 'name': '舰队的偶像-岛风酱！“愿世界没有加班。” “加班是没有了，因为现在工作都没有。”'
+      'url': 'https://blog.shimakaze.dev'
+    - 'name': 'MelodyEcho 律回可爱的 Python Dev 和音乐人律姐姐～'
+      'url': 'https://glowmem.com/'
+    - 'name': 'Asankilp半吊子写代码的，瞎折腾的。'
+      'url': 'https://blog.erroro.moe/'
+    - 'name': 'Twisuki 苏阳一只喜欢到处贴贴的猫。'
+      'url': 'https://twis.uk'
+    - 'name': 'SnowyKami 神羽「神光兮天轻，羽游兮似雪。」'
+      'url': 'https://sfkm.me'
+    - 'name': 'SD7935一个CTFer、红警牢玩家、死宅、蟒蛇使用者、hentai'
+      'url': 'https://www.sd7935.link/'

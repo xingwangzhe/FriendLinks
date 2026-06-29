@@ -1,14 +1,8 @@
-site:
-  name: "寒澈笔记"
-  url: "https://hancher.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "张洪Heo\n            分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Fluid"
-      url: "https://github.com/fluid-dev/hexo-theme-fluid"
+'site':
+  'name': '寒澈笔记'
+  'url': 'https://hancher.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': "张洪Heo\n            分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'

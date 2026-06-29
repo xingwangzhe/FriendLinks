@@ -1,16 +1,10 @@
-site:
-  name: "LeonXie"
-  url: "https://leonxie.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "圈小猫～"
-      url: "https://cat.mahiro.space"
-    - name: "🚇开往"
-      url: "https://www.travellings.cn/plain.html"
-    - name: "Halo"
-      url: "https://www.halo.run"
-    - name: "Fluid"
-      url: "https://github.com/chengzhongxue/halo-theme-fluid"
-    - name: "萌ICP备20263000号"
-      url: "https://icp.gov.moe/?keyword=20263000"
+'site':
+  'name': 'LeonXie'
+  'url': 'https://leonxie.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '圈小猫～'
+      'url': 'https://cat.mahiro.space'
+    - 'name': 'Halo'
+      'url': 'https://www.halo.run'

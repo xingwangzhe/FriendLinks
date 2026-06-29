@@ -1,30 +1,14 @@
-site:
-  name: "1900"
-  url: "https://1900.live/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "好奇心花园"
-      url: "https://garden.1900.live/"
-    - name: "Github"
-      url: "https://github.com/rebron1900"
-    - name: "Astro"
-      url: "https://www.astro.build/"
-    - name: "ghost"
-      url: "https://www.ghost.org/"
-    - name: "Astro-book"
-      url: "https://github.com/rebron1900/astro-book"
-    - name: "CC BY-NC-ND 4.0"
-      url: "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans"
-    - name: "蜀ICP备16022135号-2"
-      url: "https://beian.miit.gov.cn/"
-    - name: "本站由又拍云提供云储存服务"
-      url: "https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
-    - name: "关于友情链接和 SSG 在博客中展示 Flux 订阅"
-      url: "https://1900.live/ssgzai-bo-ke-zhong-zhan-shi-fluxding-yue/?ref=cms.1900.live"
-    - name: "@1900'Blog"
-      url: "https://1900.live"
-    - name: "286、夏至"
-      url: "https://1900.live/286-xia-zhi/"
-    - name: "Artalk"
-      url: "https://artalk.js.org"
+'site':
+  'name': '1900'
+  'url': 'https://1900.live/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '好奇心花园'
+      'url': 'https://garden.1900.live/'
+    - 'name': 'ghost'
+      'url': 'https://www.ghost.org/'
+    - 'name': 'CC BY-NC-ND 4.0'
+      'url': 'https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans'
+    - 'name': 'Artalk'
+      'url': 'https://artalk.js.org'

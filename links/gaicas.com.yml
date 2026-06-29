@@ -1,298 +1,208 @@
-site:
-  name: "gaicas.com"
-  description: "友情链接"
-  url: "https://gaicas.com/"
-  links: "/friends"
-  friends:
-    - name: "知识"
-      url: "https://www.gaicas.com/category/document"
-    - name: "解决方案"
-      url: "https://www.gaicas.com/category/project"
-    - name: "设备解锁"
-      url: "https://www.gaicas.com/category/root"
-    - name: "草东智库"
-      url: "https://www.gaicas.com/category/tank"
-    - name: "设计"
-      url: "https://www.gaicas.com/category/devise"
-    - name: "前端设计"
-      url: "https://www.gaicas.com/category/demo"
-    - name: "插件开发"
-      url: "https://www.gaicas.com/category/plug-in"
-    - name: "主题开发"
-      url: "https://www.gaicas.com/category/nv-theme"
-    - name: "生活"
-      url: "https://www.gaicas.com/category/life"
-    - name: "笔尖杂记"
-      url: "https://www.gaicas.com/category/note"
-    - name: "豆瓣分享"
-      url: "https://www.gaicas.com/douban"
-    - name: "相册"
-      url: "https://www.gaicas.com/category/photo-album"
-    - name: "健身记录"
-      url: "https://www.gaicas.com/category/fitness"
-    - name: "生活碎片"
-      url: "https://www.gaicas.com/category/life-fragments"
-    - name: "往来小狗"
-      url: "https://www.gaicas.com/category/doggy"
-    - name: "朋友圈"
-      url: "https://www.gaicas.com/friends"
-    - name: "密钥计算"
-      url: "https://www.gaicas.com/miwifi-dev"
-    - name: "宝藏导航"
-      url: "https://www.gaicas.com/go"
-    - name: "曝光台"
-      url: "https://www.gaicas.com/category/exposed"
-    - name: "精选锐评"
-      url: "https://www.gaicas.com/sharp-comment"
-    - name: "关于草东"
-      url: "https://www.gaicas.com/author"
-    - name: "我的足迹"
-      url: "https://www.gaicas.com/track"
-    - name: "网站声明"
-      url: "https://www.gaicas.com/statement"
-    - name: "版权协议"
-      url: "https://www.gaicas.com/copyright"
-    - name: "隐私政策"
-      url: "https://www.gaicas.com/privacy"
-    - name: "Cookies 政策"
-      url: "https://www.gaicas.com/cookies"
-    - name: "旧版网站"
-      url: "https://2025.gaicas.com"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/blog/7136.html"
-    - name: "草东"
-      url: "https://www.gaicas.com"
-    - name: "洪绘动图发布：将视频转换为帧图或者GIF并且限制只有5MB，APNG、WEBP动图生成工具"
-      url: "https://blog.zhheo.com/p/9yuhxjpl.html"
-    - name: "张洪HEO"
-      url: "https://blog.zhheo.com/"
-    - name: "Moments 极简朋友圈 + iPhone 16 Pro 网页模拟完整实现"
-      url: "https://blog.zxiaolin.com/archives/momen-pro"
-    - name: "小林酱博客"
-      url: "https://blog.zxiaolin.com"
-    - name: "AI支付宝上手：内容全靠编，出问题甩锅给商家，付款快退款难"
-      url: "https://blog.zhheo.com/p/sir4kfs9.html"
-    - name: "重要照片一定要备份，手机养成照片备份的好习惯"
-      url: "https://blog.zhheo.com/p/cyw9sqnh.html"
-    - name: "Apple 宣布转译工具 Rosetta 2 即将退场"
-      url: "https://blog.iooioio.com/archives/apple-xuan-bu-zhuan-yi-gong-ju-rosetta-2-ji-jiang-tui-chang"
-    - name: "ZLX STUDIO"
-      url: "https://blog.iooioio.com/"
-    - name: "谈谈 Apple 27 系统：新鲜，也有点折腾"
-      url: "https://blog.528688.cn/?p=d1fcda4.html"
-    - name: "HaoUp’s Blog"
-      url: "https://blog.528688.cn"
-    - name: "HeoSticker3D发布：3D形态的Heo表情，个人免费使用"
-      url: "https://blog.zhheo.com/p/mjpbdtsh.html"
-    - name: "这才是我心目中AI博客的样子"
-      url: "https://blog.zhheo.com/p/vp4ate1j.html"
-    - name: "洪绘历史记录大更新：支持根据历史记录的AI对话"
-      url: "https://blog.zhheo.com/p/i8c7l4eo.html"
-    - name: "让音频开发GUI动画制作进入“一键时代”"
-      url: "https://blog.iooioio.com/archives/StripKit"
-    - name: "Teenage Engineering 发布专业级唱片刻录机 APC-2"
-      url: "https://blog.iooioio.com/archives/Teenage_Engineering_APC-2"
-    - name: "AI 做 PPT，真正好用的流程不是“生成”，而是“可编辑”"
-      url: "https://blog.zxiaolin.com/archives/AI-PPT"
-    - name: "如何让OpenClaw调用你的百度网盘？百度网盘官方Skill帮你上传、下载与分享"
-      url: "https://blog.zhheo.com/p/rozgxwdq.html"
-    - name: "ChatGPT 生图：一键输出专业分层 PSD 源文件"
-      url: "https://blog.528688.cn/?p=8f3b2bb.html"
-    - name: "关掉路由器 DHCP，用 Surge 开出“一机一网”的网络"
-      url: "https://blog.528688.cn/?p=a6953fca.html"
-    - name: "如何判断一个文章是不是AI写的？文字、视频、图片AI检测方法"
-      url: "https://blog.zhheo.com/p/56yusy1w.html"
-    - name: "分享一下我现在都在使用哪些AI工具，以及我的的AI生产力状况"
-      url: "https://blog.zhheo.com/p/ug37qbz9.html"
-    - name: "Codex对话经常连续多次Reconnecting？"
-      url: "https://blog.528688.cn/?p=5d5a88.html"
-    - name: "为OpenClaw搭建一个免费的搜索引擎，如何让OpenClaw搜索网页内容"
-      url: "https://blog.zhheo.com/p/9p755adr.html"
-    - name: "这一次，我们听点有意思的"
-      url: "https://blog.zhheo.com/p/7a59rx04.html"
-    - name: "为啥别人用Image2做的图那么好看？我的却特别丑？如何模仿别人的风格作图？"
-      url: "https://blog.zhheo.com/p/viqyx0td.html"
-    - name: "与 Codex 共舞数月：从入门到离不开全部功能体验感受"
-      url: "https://blog.528688.cn/?p=f7ed017d.html"
-    - name: "如何给自己创作的歌曲生成歌词文件？手打逐字歌词lrc文件教程"
-      url: "https://blog.zhheo.com/p/rdlrcfqe.html"
-    - name: "免费可商用字体推荐：寒蝉端黑宋下载"
-      url: "https://blog.zhheo.com/p/jsrckoff.html"
-    - name: "拥抱静态 迁移至astro"
-      url: "https://www.krjojo.com/%E6%8B%A5%E6%8A%B1%E9%9D%99%E6%80%81-%E8%BF%81%E7%A7%BB%E8%87%B3astro/"
-    - name: "手里有只毛毛虫"
-      url: "https://www.krjojo.com/"
-    - name: "Pluginize！Mac音乐制作人的插件管理终极解决方案"
-      url: "https://blog.iooioio.com/archives/Pluginize"
-    - name: "做了一份30分钟从零落地：微信小程序设计规范Skill"
-      url: "https://blog.zxiaolin.com/archives/wechat-Skill"
-    - name: "洪绘响度发布：测量视频LUFS工具，并支持转换视频到指定LUFS"
-      url: "https://blog.zhheo.com/p/bvj6caeg.html"
-    - name: "风记得的音乐：《行将近》—— Soon to Leave"
-      url: "https://www.thyuu.com/82442/"
-    - name: "风记星辰"
-      url: "https://www.thyuu.com"
-    - name: "微信对话生成器 - 抖音微信聊天记录视频制作工具"
-      url: "https://blog.zxiaolin.com/archives/weixin-chat-generator"
-    - name: "分享一个-微信对话生成器"
-      url: "https://blog.zxiaolin.com/archives/weixin-chat"
-    - name: "OpenClaw vs QwenPaw： AI 个人助理对比"
-      url: "https://blog.zxiaolin.com/archives/ai-assistant-comparison"
-    - name: "OpenClaw vs QwenPaw： AI 个人助理对比"
-      url: "https://blog.zxiaolin.com/archives/AI%20-vs"
-    - name: "AI后时代的感情收割：影视飓风39分钟短片《再见亲人》"
-      url: "https://www.thyuu.com/82376/"
-    - name: "21.1k stars！Fastfetch：比 Neofetch 快 10 倍的系统信息神器，终端颜值党必装！"
-      url: "https://blog.zxiaolin.com/archives/Fastfetch"
-    - name: "一款功能强大且灵活的文件资源管理器"
-      url: "https://blog.zxiaolin.com/archives/%20OneCommander"
-    - name: "THYUU/星度主题 26.7.0 正式版更新内容"
-      url: "https://www.thyuu.com/82351/"
-    - name: "DeepSeek-V4 正式发布：教你如何 CC Switch 极速配置与无缝切换"
-      url: "https://blog.528688.cn/?p=019de79b.html"
-    - name: "洪绘视频整理发布！快速整理视频文件名、移动文件夹工具"
-      url: "https://blog.zhheo.com/p/lz61lvjd.html"
-    - name: "个人开发的一款私人密码库 - 项目文档"
-      url: "https://blog.zxiaolin.com/archives/password-admin"
-    - name: "中国传统色上线！快速寻找和使用具有文化气息和韵味的中国传统色"
-      url: "https://blog.zhheo.com/p/hv4xgjxl.html"
-    - name: "如何将小米CodingPlan的Mimo模型接入到OpenClaw"
-      url: "https://blog.zhheo.com/p/920gpt1r.html"
-    - name: "Hermes效果差90%的原因找到了，不是模型不行，是你提示词太烂"
-      url: "https://blog.zxiaolin.com/archives/hermesxiao"
-    - name: "告别插件混乱！Plugoff 插件管理器让你的 DAW 快到飞起"
-      url: "https://blog.iooioio.com/archives/Plugoff"
-    - name: "洪绘切图发布！如何将一个图片平均切图？按照固定距离或者网格切图？"
-      url: "https://blog.zhheo.com/p/zg5upnsy.html"
-    - name: "让UPS接入OpenWrt软路由，创建UPS NUT服务器教程"
-      url: "https://blog.zhheo.com/p/7rlq7eyt.html"
-    - name: "常用emoji符号汇总 可用于自媒体文档直接复制使用"
-      url: "https://blog.zxiaolin.com/archives/emoji"
-    - name: "分享一个“科学上网”需要的工具-教程详情"
-      url: "https://blog.zxiaolin.com/archives/kexueshangwang"
-    - name: "Halo发布测试（zhangxiaolin创建）"
-      url: "https://blog.zxiaolin.com/archives/halo-test-zhangxiaolin"
-    - name: "UJAM 推出 Product Hub 一站式授权交付平台"
-      url: "https://blog.iooioio.com/archives/Product_Hub"
-    - name: "免费开源的 AI 音频插件开发工具"
-      url: "https://blog.iooioio.com/archives/Audio_Plugin_Coder"
-    - name: "PHP 利用ImageMagick实现多页PDF转一张图片"
-      url: "https://www.krjojo.com/php-%E5%88%A9%E7%94%A8imagemagick%E5%AE%9E%E7%8E%B0%E5%A4%9A%E9%A1%B5pdf%E8%BD%AC%E4%B8%80%E5%BC%A0%E5%9B%BE%E7%89%87/"
-    - name: "PHP 利用ImageMagick实现多页PDF转一张图片"
-      url: "https://www.krjojo.com/12860.html"
-    - name: "ChatGPT Image-2 上手：杀死比赛！设计师这下子真的可以解放双手了"
-      url: "https://blog.zhheo.com/p/qysi5xhu.html"
-    - name: "龙虾与微信聊天记录结合：群内容总结、整理和提取关键内容实在是太方便"
-      url: "https://blog.zhheo.com/p/2muck4bk.html"
-    - name: "THYUU/星度主题 26.4.0 正式版更新内容：全新首页及瞬间动态登场"
-      url: "https://www.thyuu.com/82028/"
-    - name: "Codex 居然可以控制我的电脑了！"
-      url: "https://blog.528688.cn/?p=019d0bd5.html"
-    - name: "Hermes Agent 网页版部署 + 后台运行完整教程（WSL/Ubuntu 24.04 适用）"
-      url: "https://blog.zxiaolin.com/archives/hermes-Web"
-    - name: "AI 助手驱动的 多引擎 AI 管理面板"
-      url: "https://blog.zxiaolin.com/archives/clawpanel"
-    - name: "洪绘压图发布！批量转图片格式，批量压缩图片工具（Mac/Windows）"
-      url: "https://blog.zhheo.com/p/bp85fpdb.html"
-    - name: "一人公司（OPC）的八个经典案例"
-      url: "https://blog.zxiaolin.com/archives/opc"
-    - name: "Hermes Agent用1周后，OpenClaw我直接卸载了｜Hermes科普，部署看这一篇就够了"
-      url: "https://blog.zxiaolin.com/archives/hermespu"
-    - name: "新国标充电宝，又贵又歪"
-      url: "https://blog.528688.cn/?p=019d44e1.html"
-    - name: "此帐户不符合 Google AI 计划的资格怎么办？"
-      url: "https://blog.528688.cn/?p=019df4g.html"
-    - name: "OpenClaw 4.9 升级踩坑指南，老用户必看"
-      url: "https://blog.zxiaolin.com/archives/openclaw-4.9"
-    - name: "视频压缩软件 CompressO 3.0 MacOS 免费汉化版下载"
-      url: "https://blog.zhheo.com/p/9ekjlgs4.html"
-    - name: "这工具吹爆：CompressO免费、离线、无广告，视频一拖就瘦身！"
-      url: "https://blog.528688.cn/?p=019d7121.html"
-    - name: "终端党狂喜！这款 AI 编程工具不花一分钱，还能把代码留给自己"
-      url: "https://blog.528688.cn/?p=019d7057.html"
-    - name: "我将我最初接触 Vibe Coding 的飞机大战重写了，飞机大战2.0登场"
-      url: "https://blog.zhheo.com/p/ulmdpqpw.html"
-    - name: "如何让OpenClaw控制智能家居，OpenClaw连接HomeAssistant教程"
-      url: "https://blog.zhheo.com/p/v5h8ojrd.html"
-    - name: "抖音iframe代码生成器：将抖音链接转为可嵌入网页的iframe代码"
-      url: "https://blog.zhheo.com/p/53f66bm1.html"
-    - name: "THYUU/星度主题 26.4.0 更新内容"
-      url: "https://blog.scott-studio.cn/1774836087198"
-    - name: "三禾木木"
-      url: "https://scott-studio.cn/"
-    - name: "AI Agent 时代，普通人也能变成编程高手"
-      url: "https://blog.scott-studio.cn/1773969993203"
-    - name: "语言的艺术：一本正经胡说八道"
-      url: "https://www.krjojo.com/%E8%AF%AD%E8%A8%80%E7%9A%84%E8%89%BA%E6%9C%AF%EF%BC%9A%E4%B8%80%E6%9C%AC%E6%AD%A3%E7%BB%8F%E8%83%A1%E8%AF%B4%E5%85%AB%E9%81%93/"
-    - name: "语言的艺术：一本正经胡说八道"
-      url: "https://www.krjojo.com/12808.html"
-    - name: "风记得的第2084天星辰：被资本玩坏的车厘子、集卡活动一个没参加、遇到一只小猫咪"
-      url: "https://www.thyuu.com/81910/"
-    - name: "风记得的音乐：R&B风格改编《我记得》"
-      url: "https://www.thyuu.com/81905/"
-    - name: "THYUU/星度春节限定主题：骅骝开道·一马当先"
-      url: "https://blog.scott-studio.cn/1770710658997"
-    - name: "THYUU/星度春节限定主题：骅骝开道·一马当先"
-      url: "https://www.thyuu.com/81895/"
-    - name: "THYUU/星度主题 26.1.0 更新内容"
-      url: "https://www.thyuu.com/81598/"
-    - name: "不只是输入框！uni-app textarea API 深度运用与场景化解决方案"
-      url: "https://blog.scott-studio.cn/1768808932292"
-    - name: "现代 CSS 颜色使用指南"
-      url: "https://blog.scott-studio.cn/1768965567752"
-    - name: "免费的Mac音频插件管理器软件"
-      url: "https://blog.iooioio.com/archives/PlugPane"
-    - name: "白嫖阿里云免费PG数据库"
-      url: "https://www.krjojo.com/%E7%99%BD%E5%AB%96%E9%98%BF%E9%87%8C%E4%BA%91%E5%85%8D%E8%B4%B9pg%E6%95%B0%E6%8D%AE%E5%BA%93/"
-    - name: "白嫖阿里云免费PG数据库"
-      url: "https://www.krjojo.com/12765.html"
-    - name: "专为 Pro Tools 和 Logic Pro 推出自动化导入/导出分轨软件"
-      url: "https://blog.iooioio.com/archives/Forte"
-    - name: "上手：五块钱的目村眼镜"
-      url: "https://www.krjojo.com/%E4%B8%8A%E6%89%8B%EF%BC%9A%E7%9B%AE%E6%9D%91%E7%9A%84%E4%BA%94%E5%9D%97%E9%92%B1%E7%9C%BC%E9%95%9C/"
-    - name: "上手：五块钱的目村眼镜"
-      url: "https://www.krjojo.com/12734.html"
-    - name: "转载：MEOW MEOW?"
-      url: "https://www.krjojo.com/12712.html"
-    - name: "Android 或平板遥控 UA Apollo 的软件控制台"
-      url: "https://blog.iooioio.com/archives/Console_Remote_Control"
-    - name: "2025 年度AI工具推荐 包含链接地址"
-      url: "https://www.krjojo.com/12670.html"
-    - name: "搭建属于自己的音乐发行平台！"
-      url: "https://blog.iooioio.com/archives/yin-le-fa-xing-xi-tong"
-    - name: "借助Gemini 3.0生成3D可手控的圣诞树！"
-      url: "https://blog.iooioio.com/archives/3D_Christmas_tree_for_Gemini"
-    - name: "OpenAI Translator——不仅仅是翻译"
-      url: "http://localhost:8090/archives/openai-translator"
-    - name: "ADYUN"
-      url: "https://blog.adyun.design/"
-    - name: "Photoshop批量处理——等图自动完成"
-      url: "http://localhost:8090/archives/photoshop-pi-liang-chu-li"
-    - name: "蜗牛星际NAS黑群晖系统安装"
-      url: "http://localhost:8090/archives/hei-qunhui"
-    - name: "Windows下快速看图工具—Quicklook"
-      url: "http://localhost:8090/archives/quicklook"
-    - name: "一个更漂亮的Halo搜索插件"
-      url: "http://localhost:8090/archives/halo-search-widget-for-hao"
-    - name: "Elmagnifico's Blog"
-      url: "https://elmagnifico.tech/"
-    - name: "钱晨的赛博小窝"
-      url: "https://www.quokecola.com"
-    - name: "思宁HERE"
-      url: "https://www.snhere.com"
-    - name: "青灯暮雨"
-      url: "https://www.blatr.cn"
-    - name: "Panda Studio"
-      url: "https://blog.panda-studio.cn/"
-    - name: "霂明坊"
-      url: "https://mumingfang.com/"
-    - name: "qlAD"
-      url: "https://www.qladgk.com/"
-    - name: "NvPress"
-      url: "https://docs.panda-studio.cn:8282/docs/post-19/page-100"
-    - name: "THYUU/星度"
-      url: "https://theme.thyuu.com/"
-    - name: "蜀ICP备2023039389号-1"
-      url: "https://beian.miit.gov.cn/"
-    - name: "川公网安备51010802033122号"
-      url: "https://beian.mps.gov.cn/#/query/webSearch?code="
+'site':
+  'name': 'gaicas.com'
+  'description': '友情链接'
+  'url': 'https://gaicas.com/'
+  'links': '/friends'
+  'friends':
+    - 'name': '旧版网站'
+      'url': 'https://2025.gaicas.com'
+    - 'name': '张洪HEO'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Moments 极简朋友圈 + iPhone 16 Pro 网页模拟完整实现'
+      'url': 'https://blog.zxiaolin.com/archives/momen-pro'
+    - 'name': '小林酱博客'
+      'url': 'https://blog.zxiaolin.com'
+    - 'name': 'AI支付宝上手：内容全靠编，出问题甩锅给商家，付款快退款难'
+      'url': 'https://blog.zhheo.com/p/sir4kfs9.html'
+    - 'name': '重要照片一定要备份，手机养成照片备份的好习惯'
+      'url': 'https://blog.zhheo.com/p/cyw9sqnh.html'
+    - 'name': 'ZLX STUDIO'
+      'url': 'https://blog.iooioio.com/'
+    - 'name': '谈谈 Apple 27 系统：新鲜，也有点折腾'
+      'url': 'https://blog.528688.cn/?p=d1fcda4.html'
+    - 'name': 'HaoUp’s Blog'
+      'url': 'https://blog.528688.cn'
+    - 'name': 'HeoSticker3D发布：3D形态的Heo表情，个人免费使用'
+      'url': 'https://blog.zhheo.com/p/mjpbdtsh.html'
+    - 'name': '这才是我心目中AI博客的样子'
+      'url': 'https://blog.zhheo.com/p/vp4ate1j.html'
+    - 'name': '洪绘历史记录大更新：支持根据历史记录的AI对话'
+      'url': 'https://blog.zhheo.com/p/i8c7l4eo.html'
+    - 'name': '让音频开发GUI动画制作进入“一键时代”'
+      'url': 'https://blog.iooioio.com/archives/StripKit'
+    - 'name': 'Teenage Engineering 发布专业级唱片刻录机 APC-2'
+      'url': 'https://blog.iooioio.com/archives/Teenage_Engineering_APC-2'
+    - 'name': 'AI 做 PPT，真正好用的流程不是“生成”，而是“可编辑”'
+      'url': 'https://blog.zxiaolin.com/archives/AI-PPT'
+    - 'name': 'ChatGPT 生图：一键输出专业分层 PSD 源文件'
+      'url': 'https://blog.528688.cn/?p=8f3b2bb.html'
+    - 'name': '关掉路由器 DHCP，用 Surge 开出“一机一网”的网络'
+      'url': 'https://blog.528688.cn/?p=a6953fca.html'
+    - 'name': '如何判断一个文章是不是AI写的？文字、视频、图片AI检测方法'
+      'url': 'https://blog.zhheo.com/p/56yusy1w.html'
+    - 'name': 'Codex对话经常连续多次Reconnecting？'
+      'url': 'https://blog.528688.cn/?p=5d5a88.html'
+    - 'name': '为OpenClaw搭建一个免费的搜索引擎，如何让OpenClaw搜索网页内容'
+      'url': 'https://blog.zhheo.com/p/9p755adr.html'
+    - 'name': '这一次，我们听点有意思的'
+      'url': 'https://blog.zhheo.com/p/7a59rx04.html'
+    - 'name': '为啥别人用Image2做的图那么好看？我的却特别丑？如何模仿别人的风格作图？'
+      'url': 'https://blog.zhheo.com/p/viqyx0td.html'
+    - 'name': '与 Codex 共舞数月：从入门到离不开全部功能体验感受'
+      'url': 'https://blog.528688.cn/?p=f7ed017d.html'
+    - 'name': '如何给自己创作的歌曲生成歌词文件？手打逐字歌词lrc文件教程'
+      'url': 'https://blog.zhheo.com/p/rdlrcfqe.html'
+    - 'name': '免费可商用字体推荐：寒蝉端黑宋下载'
+      'url': 'https://blog.zhheo.com/p/jsrckoff.html'
+    - 'name': '拥抱静态 迁移至astro'
+      'url': 'https://www.krjojo.com/%E6%8B%A5%E6%8A%B1%E9%9D%99%E6%80%81-%E8%BF%81%E7%A7%BB%E8%87%B3astro/'
+    - 'name': '手里有只毛毛虫'
+      'url': 'https://www.krjojo.com/'
+    - 'name': 'Pluginize！Mac音乐制作人的插件管理终极解决方案'
+      'url': 'https://blog.iooioio.com/archives/Pluginize'
+    - 'name': '做了一份30分钟从零落地：微信小程序设计规范Skill'
+      'url': 'https://blog.zxiaolin.com/archives/wechat-Skill'
+    - 'name': '风记得的音乐：《行将近》—— Soon to Leave'
+      'url': 'https://www.thyuu.com/82442/'
+    - 'name': '风记星辰'
+      'url': 'https://www.thyuu.com'
+    - 'name': '分享一个-微信对话生成器'
+      'url': 'https://blog.zxiaolin.com/archives/weixin-chat'
+    - 'name': 'OpenClaw vs QwenPaw： AI 个人助理对比'
+      'url': 'https://blog.zxiaolin.com/archives/ai-assistant-comparison'
+    - 'name': 'OpenClaw vs QwenPaw： AI 个人助理对比'
+      'url': 'https://blog.zxiaolin.com/archives/AI%20-vs'
+    - 'name': 'AI后时代的感情收割：影视飓风39分钟短片《再见亲人》'
+      'url': 'https://www.thyuu.com/82376/'
+    - 'name': '21.1k stars！Fastfetch：比 Neofetch 快 10 倍的系统信息神器，终端颜值党必装！'
+      'url': 'https://blog.zxiaolin.com/archives/Fastfetch'
+    - 'name': '一款功能强大且灵活的文件资源管理器'
+      'url': 'https://blog.zxiaolin.com/archives/%20OneCommander'
+    - 'name': 'THYUU/星度主题 26.7.0 正式版更新内容'
+      'url': 'https://www.thyuu.com/82351/'
+    - 'name': 'DeepSeek-V4 正式发布：教你如何 CC Switch 极速配置与无缝切换'
+      'url': 'https://blog.528688.cn/?p=019de79b.html'
+    - 'name': '个人开发的一款私人密码库 - 项目文档'
+      'url': 'https://blog.zxiaolin.com/archives/password-admin'
+    - 'name': '中国传统色上线！快速寻找和使用具有文化气息和韵味的中国传统色'
+      'url': 'https://blog.zhheo.com/p/hv4xgjxl.html'
+    - 'name': '如何将小米CodingPlan的Mimo模型接入到OpenClaw'
+      'url': 'https://blog.zhheo.com/p/920gpt1r.html'
+    - 'name': 'Hermes效果差90%的原因找到了，不是模型不行，是你提示词太烂'
+      'url': 'https://blog.zxiaolin.com/archives/hermesxiao'
+    - 'name': '告别插件混乱！Plugoff 插件管理器让你的 DAW 快到飞起'
+      'url': 'https://blog.iooioio.com/archives/Plugoff'
+    - 'name': '洪绘切图发布！如何将一个图片平均切图？按照固定距离或者网格切图？'
+      'url': 'https://blog.zhheo.com/p/zg5upnsy.html'
+    - 'name': '让UPS接入OpenWrt软路由，创建UPS NUT服务器教程'
+      'url': 'https://blog.zhheo.com/p/7rlq7eyt.html'
+    - 'name': '常用emoji符号汇总 可用于自媒体文档直接复制使用'
+      'url': 'https://blog.zxiaolin.com/archives/emoji'
+    - 'name': 'Halo发布测试（zhangxiaolin创建）'
+      'url': 'https://blog.zxiaolin.com/archives/halo-test-zhangxiaolin'
+    - 'name': 'UJAM 推出 Product Hub 一站式授权交付平台'
+      'url': 'https://blog.iooioio.com/archives/Product_Hub'
+    - 'name': 'PHP 利用ImageMagick实现多页PDF转一张图片'
+      'url': 'https://www.krjojo.com/php-%E5%88%A9%E7%94%A8imagemagick%E5%AE%9E%E7%8E%B0%E5%A4%9A%E9%A1%B5pdf%E8%BD%AC%E4%B8%80%E5%BC%A0%E5%9B%BE%E7%89%87/'
+    - 'name': 'PHP 利用ImageMagick实现多页PDF转一张图片'
+      'url': 'https://www.krjojo.com/12860.html'
+    - 'name': 'ChatGPT Image-2 上手：杀死比赛！设计师这下子真的可以解放双手了'
+      'url': 'https://blog.zhheo.com/p/qysi5xhu.html'
+    - 'name': '龙虾与微信聊天记录结合：群内容总结、整理和提取关键内容实在是太方便'
+      'url': 'https://blog.zhheo.com/p/2muck4bk.html'
+    - 'name': 'THYUU/星度主题 26.4.0 正式版更新内容：全新首页及瞬间动态登场'
+      'url': 'https://www.thyuu.com/82028/'
+    - 'name': 'Codex 居然可以控制我的电脑了！'
+      'url': 'https://blog.528688.cn/?p=019d0bd5.html'
+    - 'name': 'Hermes Agent 网页版部署 + 后台运行完整教程（WSL/Ubuntu 24.04 适用）'
+      'url': 'https://blog.zxiaolin.com/archives/hermes-Web'
+    - 'name': '一人公司（OPC）的八个经典案例'
+      'url': 'https://blog.zxiaolin.com/archives/opc'
+    - 'name': 'Hermes Agent用1周后，OpenClaw我直接卸载了｜Hermes科普，部署看这一篇就够了'
+      'url': 'https://blog.zxiaolin.com/archives/hermespu'
+    - 'name': '新国标充电宝，又贵又歪'
+      'url': 'https://blog.528688.cn/?p=019d44e1.html'
+    - 'name': '此帐户不符合 Google AI 计划的资格怎么办？'
+      'url': 'https://blog.528688.cn/?p=019df4g.html'
+    - 'name': 'OpenClaw 4.9 升级踩坑指南，老用户必看'
+      'url': 'https://blog.zxiaolin.com/archives/openclaw-4.9'
+    - 'name': '视频压缩软件 CompressO 3.0 MacOS 免费汉化版下载'
+      'url': 'https://blog.zhheo.com/p/9ekjlgs4.html'
+    - 'name': '我将我最初接触 Vibe Coding 的飞机大战重写了，飞机大战2.0登场'
+      'url': 'https://blog.zhheo.com/p/ulmdpqpw.html'
+    - 'name': '如何让OpenClaw控制智能家居，OpenClaw连接HomeAssistant教程'
+      'url': 'https://blog.zhheo.com/p/v5h8ojrd.html'
+    - 'name': '抖音iframe代码生成器：将抖音链接转为可嵌入网页的iframe代码'
+      'url': 'https://blog.zhheo.com/p/53f66bm1.html'
+    - 'name': 'THYUU/星度主题 26.4.0 更新内容'
+      'url': 'https://blog.scott-studio.cn/1774836087198'
+    - 'name': '三禾木木'
+      'url': 'https://scott-studio.cn/'
+    - 'name': 'AI Agent 时代，普通人也能变成编程高手'
+      'url': 'https://blog.scott-studio.cn/1773969993203'
+    - 'name': '语言的艺术：一本正经胡说八道'
+      'url': 'https://www.krjojo.com/%E8%AF%AD%E8%A8%80%E7%9A%84%E8%89%BA%E6%9C%AF%EF%BC%9A%E4%B8%80%E6%9C%AC%E6%AD%A3%E7%BB%8F%E8%83%A1%E8%AF%B4%E5%85%AB%E9%81%93/'
+    - 'name': '语言的艺术：一本正经胡说八道'
+      'url': 'https://www.krjojo.com/12808.html'
+    - 'name': '风记得的第2084天星辰：被资本玩坏的车厘子、集卡活动一个没参加、遇到一只小猫咪'
+      'url': 'https://www.thyuu.com/81910/'
+    - 'name': '风记得的音乐：R&B风格改编《我记得》'
+      'url': 'https://www.thyuu.com/81905/'
+    - 'name': 'THYUU/星度春节限定主题：骅骝开道·一马当先'
+      'url': 'https://blog.scott-studio.cn/1770710658997'
+    - 'name': 'THYUU/星度春节限定主题：骅骝开道·一马当先'
+      'url': 'https://www.thyuu.com/81895/'
+    - 'name': 'THYUU/星度主题 26.1.0 更新内容'
+      'url': 'https://www.thyuu.com/81598/'
+    - 'name': '不只是输入框！uni-app textarea API 深度运用与场景化解决方案'
+      'url': 'https://blog.scott-studio.cn/1768808932292'
+    - 'name': '现代 CSS 颜色使用指南'
+      'url': 'https://blog.scott-studio.cn/1768965567752'
+    - 'name': '免费的Mac音频插件管理器软件'
+      'url': 'https://blog.iooioio.com/archives/PlugPane'
+    - 'name': '白嫖阿里云免费PG数据库'
+      'url': 'https://www.krjojo.com/%E7%99%BD%E5%AB%96%E9%98%BF%E9%87%8C%E4%BA%91%E5%85%8D%E8%B4%B9pg%E6%95%B0%E6%8D%AE%E5%BA%93/'
+    - 'name': '白嫖阿里云免费PG数据库'
+      'url': 'https://www.krjojo.com/12765.html'
+    - 'name': '专为 Pro Tools 和 Logic Pro 推出自动化导入/导出分轨软件'
+      'url': 'https://blog.iooioio.com/archives/Forte'
+    - 'name': '上手：五块钱的目村眼镜'
+      'url': 'https://www.krjojo.com/%E4%B8%8A%E6%89%8B%EF%BC%9A%E7%9B%AE%E6%9D%91%E7%9A%84%E4%BA%94%E5%9D%97%E9%92%B1%E7%9C%BC%E9%95%9C/'
+    - 'name': '上手：五块钱的目村眼镜'
+      'url': 'https://www.krjojo.com/12734.html'
+    - 'name': '转载：MEOW MEOW?'
+      'url': 'https://www.krjojo.com/12712.html'
+    - 'name': 'Android 或平板遥控 UA Apollo 的软件控制台'
+      'url': 'https://blog.iooioio.com/archives/Console_Remote_Control'
+    - 'name': '搭建属于自己的音乐发行平台！'
+      'url': 'https://blog.iooioio.com/archives/yin-le-fa-xing-xi-tong'
+    - 'name': '借助Gemini 3.0生成3D可手控的圣诞树！'
+      'url': 'https://blog.iooioio.com/archives/3D_Christmas_tree_for_Gemini'
+    - 'name': 'OpenAI Translator——不仅仅是翻译'
+      'url': 'http://localhost:8090/archives/openai-translator'
+    - 'name': 'ADYUN'
+      'url': 'https://blog.adyun.design/'
+    - 'name': 'Photoshop批量处理——等图自动完成'
+      'url': 'http://localhost:8090/archives/photoshop-pi-liang-chu-li'
+    - 'name': '蜗牛星际NAS黑群晖系统安装'
+      'url': 'http://localhost:8090/archives/hei-qunhui'
+    - 'name': '一个更漂亮的Halo搜索插件'
+      'url': 'http://localhost:8090/archives/halo-search-widget-for-hao'
+    - 'name': 'Elmagnifico''s Blog'
+      'url': 'https://elmagnifico.tech/'
+    - 'name': '钱晨的赛博小窝'
+      'url': 'https://www.quokecola.com'
+    - 'name': '思宁HERE'
+      'url': 'https://www.snhere.com'
+    - 'name': '青灯暮雨'
+      'url': 'https://www.blatr.cn'
+    - 'name': 'Panda Studio'
+      'url': 'https://blog.panda-studio.cn/'
+    - 'name': '霂明坊'
+      'url': 'https://mumingfang.com/'
+    - 'name': 'qlAD'
+      'url': 'https://www.qladgk.com/'
+    - 'name': 'NvPress'
+      'url': 'https://docs.panda-studio.cn:8282/docs/post-19/page-100'
+    - 'name': 'THYUU/星度'
+      'url': 'https://theme.thyuu.com/'

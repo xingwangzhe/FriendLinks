@@ -1,92 +1,84 @@
-site:
-  name: "Steven"
-  url: "https://blog.stevenw.cc/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "小Q博客"
-      url: "https://blog.uurr.cn"
-    - name: "阿泳的小破站"
-      url: "https://ares-tech-stack.cn/blog_service/#/about"
-    - name: "折腾日记"
-      url: "https://blog.zyx-2012.cn"
-    - name: "TASA-Ed官网 - TASA-Ed工作室"
-      url: "https://www.tasaed.top"
-    - name: "Mugzx"
-      url: "https://blog.mugzx.top"
-    - name: "梦涵LOVE"
-      url: "https://heyuhan.huohuo.ink"
-    - name: "qgmzmy's blog"
-      url: "https://blog.qgmzmy.me"
-    - name: "Mr.An"
-      url: "https://blog.anqin.cc"
-    - name: "Zyx的小窝"
-      url: "https://www.dorazhang.cn"
-    - name: "Hao の小破站"
-      url: "https://haonp.top"
-    - name: "贰猹的小窝"
-      url: "https://noionion.top"
-    - name: "轻笑Chuckle"
-      url: "https://www.qcqx.cn"
-    - name: "Maverick的摄影日记"
-      url: "https://redmou.com/"
-    - name: "Zeruns's Blog"
-      url: "https://blog.zeruns.tech"
-    - name: "Xlenco"
-      url: "https://blog.xlenco.top"
-    - name: "闪闪の小窝"
-      url: "https://moechun.fun"
-    - name: "小丁的屋舍"
-      url: "https://xding.top"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com"
-    - name: "我本无罪的博客"
-      url: "https://blog.rnaan.com"
-    - name: "吃猫的鱼"
-      url: "https://www.fish9.cn"
-    - name: "Minecraft_山水的博客"
-      url: "https://blog.shanshui.site"
-    - name: "LuiYang的博客"
-      url: "https://luiyang08.github.io"
-    - name: "XLX笔记"
-      url: "https://www.xlxbk.cn"
-    - name: "itsNeko"
-      url: "https://dyfa.top"
-    - name: "依水何安的博客"
-      url: "https://yishuihean.cn"
-    - name: "小骆同学"
-      url: "https://www.luogoupeng.top/"
-    - name: "再度"
-      url: "https://www.zaidu.in/"
-    - name: "三三见九"
-      url: "http://blog.lurenx.cn/"
-    - name: "DP次元美化"
-      url: "https://www.dp712.com"
-    - name: "Jer的博客"
-      url: "https://blog.jersite.gq/"
-    - name: "基岩的博客"
-      url: "https://blog.wujiyan.cc/"
-    - name: "呆鱼"
-      url: "https://daiyu-233.top/"
-    - name: "小张同学"
-      url: "https://www.xiaozhangstu.online/"
-    - name: "语记堡"
-      url: "https://www.btav.cn"
-    - name: "二歪同学"
-      url: "https://blog.waistu.com"
-    - name: "PSMC Minecraft纯净生存服务器"
-      url: "https://www.psmc.fun/"
-    - name: "希速云"
-      url: "https://www.idcxsy.com"
-    - name: "指点云"
-      url: "https://www.zhidianyun.cn/?if44b57"
-    - name: "雨云"
-      url: "https://www.rainyun.cc/steven_"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "架构于 Halo 2.25.3"
-      url: "https://halo.run"
-    - name: "驱动 Clarity 1.6.2"
-      url: "https://github.com/acanyo/theme-clarity"
-    - name: "萌ICP备20230461号"
-      url: "https://icp.gov.moe/?keyword=20230461"
+'site':
+  'name': 'Steven'
+  'url': 'https://blog.stevenw.cc/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '小Q博客'
+      'url': 'https://blog.uurr.cn'
+    - 'name': '阿泳的小破站'
+      'url': 'https://ares-tech-stack.cn/blog_service/#/about'
+    - 'name': '折腾日记'
+      'url': 'https://blog.zyx-2012.cn'
+    - 'name': 'TASA-Ed官网 - TASA-Ed工作室'
+      'url': 'https://www.tasaed.top'
+    - 'name': 'Mugzx'
+      'url': 'https://blog.mugzx.top'
+    - 'name': '梦涵LOVE'
+      'url': 'https://heyuhan.huohuo.ink'
+    - 'name': 'qgmzmy''s blog'
+      'url': 'https://blog.qgmzmy.me'
+    - 'name': 'Mr.An'
+      'url': 'https://blog.anqin.cc'
+    - 'name': 'Zyx的小窝'
+      'url': 'https://www.dorazhang.cn'
+    - 'name': 'Hao の小破站'
+      'url': 'https://haonp.top'
+    - 'name': '贰猹的小窝'
+      'url': 'https://noionion.top'
+    - 'name': '轻笑Chuckle'
+      'url': 'https://www.qcqx.cn'
+    - 'name': 'Maverick的摄影日记'
+      'url': 'https://redmou.com/'
+    - 'name': 'Zeruns''s Blog'
+      'url': 'https://blog.zeruns.tech'
+    - 'name': 'Xlenco'
+      'url': 'https://blog.xlenco.top'
+    - 'name': '闪闪の小窝'
+      'url': 'https://moechun.fun'
+    - 'name': '小丁的屋舍'
+      'url': 'https://xding.top'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com'
+    - 'name': '我本无罪的博客'
+      'url': 'https://blog.rnaan.com'
+    - 'name': '吃猫的鱼'
+      'url': 'https://www.fish9.cn'
+    - 'name': 'Minecraft_山水的博客'
+      'url': 'https://blog.shanshui.site'
+    - 'name': 'XLX笔记'
+      'url': 'https://www.xlxbk.cn'
+    - 'name': 'itsNeko'
+      'url': 'https://dyfa.top'
+    - 'name': '依水何安的博客'
+      'url': 'https://yishuihean.cn'
+    - 'name': '小骆同学'
+      'url': 'https://www.luogoupeng.top/'
+    - 'name': '再度'
+      'url': 'https://www.zaidu.in/'
+    - 'name': '三三见九'
+      'url': 'http://blog.lurenx.cn/'
+    - 'name': 'DP次元美化'
+      'url': 'https://www.dp712.com'
+    - 'name': 'Jer的博客'
+      'url': 'https://blog.jersite.gq/'
+    - 'name': '基岩的博客'
+      'url': 'https://blog.wujiyan.cc/'
+    - 'name': '呆鱼'
+      'url': 'https://daiyu-233.top/'
+    - 'name': '小张同学'
+      'url': 'https://www.xiaozhangstu.online/'
+    - 'name': '语记堡'
+      'url': 'https://www.btav.cn'
+    - 'name': '二歪同学'
+      'url': 'https://blog.waistu.com'
+    - 'name': 'PSMC Minecraft纯净生存服务器'
+      'url': 'https://www.psmc.fun/'
+    - 'name': '希速云'
+      'url': 'https://www.idcxsy.com'
+    - 'name': '指点云'
+      'url': 'https://www.zhidianyun.cn/?if44b57'
+    - 'name': '雨云'
+      'url': 'https://www.rainyun.cc/steven_'
+    - 'name': '架构于 Halo 2.25.3'
+      'url': 'https://halo.run'

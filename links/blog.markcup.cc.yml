@@ -1,38 +1,18 @@
-site:
-  name: "MarkCup"
-  url: "https://blog.markcup.cc/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "个人主页"
-      url: "https://MarK-MkSaMa.github.io/Homepage/"
-    - name: "博客"
-      url: "https://MarK-MkSaMa.github.io/blog/"
-    - name: "Hexo"
-      url: "https://hexo.io/zh-cn/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "Solitude"
-      url: "https://solitude.js.org/"
-    - name: "無名の主页"
-      url: "https://www.imsyy.top/"
-    - name: "周易"
-      url: "https://blog.blockcorner.top/"
-    - name: "Eric-Terminal"
-      url: "https://blog.ericterminal.com"
-    - name: "旅行家说"
-      url: "https://blogs.papership.top"
-    - name: "马克MkSaMa"
-      url: "http://blog.markcup.cc"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Github"
-      url: "https://github.com/markskz233"
-    - name: "BiliBili"
-      url: "https://space.bilibili.com/388153176"
-    - name: "QQ"
-      url: "https://qm.qq.com/q/5KhiUaMRnG"
-    - name: "网易云"
-      url: "https://y.music.163.com/m/user?id=1802538635"
-    - name: "萌ICP备20264000号"
-      url: "https://icp.gov.moe/?keyword=20264000"
+'site':
+  'name': 'MarkCup'
+  'url': 'https://blog.markcup.cc/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Solitude'
+      'url': 'https://solitude.js.org/'
+    - 'name': '無名の主页'
+      'url': 'https://www.imsyy.top/'
+    - 'name': '周易'
+      'url': 'https://blog.blockcorner.top/'
+    - 'name': 'Eric-Terminal'
+      'url': 'https://blog.ericterminal.com'
+    - 'name': '旅行家说'
+      'url': 'https://blogs.papership.top'

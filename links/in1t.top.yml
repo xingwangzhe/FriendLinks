@@ -1,94 +1,62 @@
-site:
-  name: "in1t.top"
-  description: "友情链接"
-  url: "https://in1t.top/"
-  links: "/link"
-  friends:
-    - name: "等风略懂密码的开发大手子"
-      url: "https://love-deng-feng.top/"
-    - name: "crazyman空白你让我陷入疯狂"
-      url: "https://crazymanarmy.github.io/"
-    - name: "Dem0一个什么都想学的web🐕"
-      url: "https://dem0dem0.top/"
-    - name: "Akilarの糖果屋期待您的光临！"
-      url: "https://akilar.top/"
-    - name: "Evolution957ACM炼铜术士"
-      url: "https://evolution957.github.io/"
-    - name: "Clang裁缝店PWN,IOT爷 轩轩学长"
-      url: "https://xuanxuanblingbling.github.io/"
-    - name: "咲夜南梦PWN爷"
-      url: "http://blog.ragdoll.work/"
-    - name: "0xDktbCrypto,区块链爷"
-      url: "https://0xdktb.top/"
-    - name: "Coinc1densCrypto,区块链爷 cp放一起"
-      url: "https://coinc1dens.github.io/"
-    - name: "purecallRE爷"
-      url: "https://purecall.github.io/"
-    - name: "小帽Misc爷"
-      url: "https://yikongge.github.io/"
-    - name: "ret2nullptrRE爷"
-      url: "https://xz.aliyun.com/u/15779"
-    - name: "glzjinWeb爷 赵总"
-      url: "https://www.zhaoj.in/"
-    - name: "Cyc1eWeb爷 虚拟机逃逸高手"
-      url: "https://cyc1e183.github.io/"
-    - name: "HookRE,PWN爷"
-      url: "https://h01k.github.io/"
-    - name: "SakuraPWN,Android爷"
-      url: "https://eternalsakura13.com/"
-    - name: "Soreat_uCrypto,区块链爷"
-      url: "https://blog.soreatu.com/"
-    - name: "berTrAMWeb爷"
-      url: "https://www.bertramc.cn/"
-    - name: "奈沙夜影RE爷"
-      url: "https://blog.csdn.net/whklhhhh"
-    - name: "p3rh4psWeb爷"
-      url: "https://p3rh4ps.top/"
-    - name: "L0x1cRE爷"
-      url: "https://l0x1c.github.io/"
-    - name: "AiDaiPWN爷 表情包写文章一绝"
-      url: "https://aidaip.github.io/"
-    - name: "Bruce FanPWN爷"
-      url: "http://pwn4.fun/"
-    - name: "pikachu区块链の神"
-      url: "https://hitcxy.com/"
-    - name: "安全客360-有思想的安全新媒体"
-      url: "https://www.anquanke.com/"
-    - name: "先知社区阿里云-技术及情报平台"
-      url: "https://xz.aliyun.com"
-    - name: "FreeBuf斗象-网络安全行业门户"
-      url: "https://www.freebuf.com/"
-    - name: "安恒TI安恒-威胁情报中心"
-      url: "https://ti.dbappsecurity.com.cn/"
-    - name: "奇安信TI奇安信-威胁情报中心"
-      url: "https://ti.qianxin.com/"
-    - name: "VenusEyeTI启明星辰-威胁情报中心"
-      url: "https://www.venuseye.com.cn/"
-    - name: "Github (G)全球最大的同性交友网站"
-      url: "https://github.com/"
-    - name: "Shodan互联网主机搜索引擎"
-      url: "https://www.shodan.io/explore"
-    - name: "LibcDB (G)根据符号及偏移查询、下载libc"
-      url: "https://libc.blukat.me/"
-    - name: "TinyPNG压缩20MB内png及jpg"
-      url: "https://tinypng.com/"
-    - name: "DLL-FILESWindows缺失dll下载"
-      url: "https://www.dll-files.com/"
-    - name: "I Love PDF多种文件与pdf互转"
-      url: "https://www.ilovepdf.com/"
-    - name: "BootlinLinux各版本源码查询"
-      url: "https://elixir.bootlin.com"
-    - name: "QRazyBox手点二维码"
-      url: "https://merricx.github.io/qrazybox/"
-    - name: "菜鸟工具多编程语言在线运行，多种前端工具"
-      url: "https://c.runoob.com/"
-    - name: "SM.MS图床速度很快的免费图床网站"
-      url: "https://sm.ms/"
-    - name: "易企秀H5页面微场景制作"
-      url: "https://store.eqxiu.com/"
-    - name: "AGE动漫 (G)想看的番都有"
-      url: "https://www.agefans.cc/"
-    - name: "Github"
-      url: "https://github.com/in1nit1t"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/2095551"
+'site':
+  'name': 'in1t.top'
+  'description': '友情链接'
+  'url': 'https://in1t.top/'
+  'links': '/link'
+  'friends':
+    - 'name': '等风略懂密码的开发大手子'
+      'url': 'https://love-deng-feng.top/'
+    - 'name': 'Dem0一个什么都想学的web🐕'
+      'url': 'https://dem0dem0.top/'
+    - 'name': 'Akilarの糖果屋期待您的光临！'
+      'url': 'https://akilar.top/'
+    - 'name': '咲夜南梦PWN爷'
+      'url': 'http://blog.ragdoll.work/'
+    - 'name': '0xDktbCrypto,区块链爷'
+      'url': 'https://0xdktb.top/'
+    - 'name': 'ret2nullptrRE爷'
+      'url': 'https://xz.aliyun.com/u/15779'
+    - 'name': 'glzjinWeb爷 赵总'
+      'url': 'https://www.zhaoj.in/'
+    - 'name': 'SakuraPWN,Android爷'
+      'url': 'https://eternalsakura13.com/'
+    - 'name': 'Soreat_uCrypto,区块链爷'
+      'url': 'https://blog.soreatu.com/'
+    - 'name': 'berTrAMWeb爷'
+      'url': 'https://www.bertramc.cn/'
+    - 'name': '奈沙夜影RE爷'
+      'url': 'https://blog.csdn.net/whklhhhh'
+    - 'name': 'p3rh4psWeb爷'
+      'url': 'https://p3rh4ps.top/'
+    - 'name': 'Bruce FanPWN爷'
+      'url': 'http://pwn4.fun/'
+    - 'name': 'pikachu区块链の神'
+      'url': 'https://hitcxy.com/'
+    - 'name': '安全客360-有思想的安全新媒体'
+      'url': 'https://www.anquanke.com/'
+    - 'name': '先知社区阿里云-技术及情报平台'
+      'url': 'https://xz.aliyun.com'
+    - 'name': 'FreeBuf斗象-网络安全行业门户'
+      'url': 'https://www.freebuf.com/'
+    - 'name': '安恒TI安恒-威胁情报中心'
+      'url': 'https://ti.dbappsecurity.com.cn/'
+    - 'name': '奇安信TI奇安信-威胁情报中心'
+      'url': 'https://ti.qianxin.com/'
+    - 'name': 'VenusEyeTI启明星辰-威胁情报中心'
+      'url': 'https://www.venuseye.com.cn/'
+    - 'name': 'Shodan互联网主机搜索引擎'
+      'url': 'https://www.shodan.io/explore'
+    - 'name': 'LibcDB (G)根据符号及偏移查询、下载libc'
+      'url': 'https://libc.blukat.me/'
+    - 'name': 'TinyPNG压缩20MB内png及jpg'
+      'url': 'https://tinypng.com/'
+    - 'name': 'DLL-FILESWindows缺失dll下载'
+      'url': 'https://www.dll-files.com/'
+    - 'name': 'I Love PDF多种文件与pdf互转'
+      'url': 'https://www.ilovepdf.com/'
+    - 'name': 'BootlinLinux各版本源码查询'
+      'url': 'https://elixir.bootlin.com'
+    - 'name': '易企秀H5页面微场景制作'
+      'url': 'https://store.eqxiu.com/'
+    - 'name': 'AGE动漫 (G)想看的番都有'
+      'url': 'https://www.agefans.cc/'

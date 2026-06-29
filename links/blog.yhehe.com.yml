@@ -1,16 +1,10 @@
-site:
-  name: "blog.yhehe.com"
-  description: "友情链接"
-  url: "https://blog.yhehe.com/"
-  links: "/friends"
-  friends:
-    - name: "相册"
-      url: "https://photo.yhehe.com/"
-    - name: "Artalk"
-      url: "https://artalk.js.org"
-    - name: "和和日志"
-      url: "https://blog.yhehe.com/"
-    - name: "陕ICP备2023001794号-3"
-      url: "https://beian.miit.gov.cn/"
-    - name: "theme:volantis"
-      url: "https://github.com/volantis-x/hexo-theme-volantis/#6.0.0-alpha.1"
+'site':
+  'name': 'blog.yhehe.com'
+  'description': '友情链接'
+  'url': 'https://blog.yhehe.com/'
+  'links': '/friends'
+  'friends':
+    - 'name': '相册'
+      'url': 'https://photo.yhehe.com/'
+    - 'name': 'Artalk'
+      'url': 'https://artalk.js.org'

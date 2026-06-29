@@ -1,260 +1,224 @@
-site:
-  name: "blog.kouseki.cn"
-  description: "友情链接"
-  url: "https://blog.kouseki.cn/"
-  links: "/link"
-  friends:
-    - name: "引导页"
-      url: "https://kouseki.cn/"
-    - name: "个人主页"
-      url: "https://home.kouseki.cn/"
-    - name: "博客(本站)"
-      url: "https://blog.kouseki.cn/"
-    - name: "起始页"
-      url: "https://nav.kouseki.cn/"
-    - name: "网站集"
-      url: "https://web.kouseki.cn/"
-    - name: "随机图API"
-      url: "https://imgapi.kouseki.cn/"
-    - name: "石刻网盘"
-      url: "https://reve.kouseki.cn/"
-    - name: "石刻宝库"
-      url: "https://ad.kouseki.cn/"
-    - name: "石刻图床"
-      url: "https://imgbed.kouseki.cn/"
-    - name: "铭心小铺"
-      url: "https://shop.kouseki.cn/"
-    - name: "站点截图"
-      url: "https://scr.kouseki.cn/"
-    - name: "站点监测"
-      url: "https://status.kouseki.cn/"
-    - name: "IP工具箱"
-      url: "https://ip.kouseki.cn/"
-    - name: "小志IT知识库"
-      url: "https://www.czfq99.cn"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "ichika"
-      url: "https://ichika.cc"
-    - name: "轻笑Chuckle"
-      url: "https://www.qcqx.cn"
-    - name: "山岳库博"
-      url: "https://kmar.top/"
-    - name: "杜老师说"
-      url: "https://dusays.com"
-    - name: "屑殇"
-      url: "https://jinghuashang.cn/"
-    - name: "青桔气球"
-      url: "https://blog.qjqq.cn/"
-    - name: "Ganzhe"
-      url: "https://ganzhe2028.github.io"
-    - name: "Marcus"
-      url: "https://blog.marcus233.top/"
-    - name: "随风站"
-      url: "https://adunm.top"
-    - name: "Shine"
-      url: "https://blog.shineyu.cn/"
-    - name: "王貔貅"
-      url: "https://blog.wpixiu.cn/"
-    - name: "Leginn’s Blog"
-      url: "https://blog.Leginn.top"
-    - name: "Harris's Blog"
-      url: "https://blog.harriswong.top"
-    - name: "Jackson疾速k"
-      url: "https://jisuk.top/"
-    - name: "虹色轨迹🌠"
-      url: "https://ovoz.cn"
-    - name: "GanSer"
-      url: "https://www.gan1ser.top/"
-    - name: "小张同学"
-      url: "https://www.blog.xiaozhangstu.com/"
-    - name: "海阔蓝"
-      url: "https://blog.hklan.top/"
-    - name: "小林的小破站"
-      url: "https://blog.lucksss.com/"
-    - name: "仰止"
-      url: "https://yangzhiblog.com/"
-    - name: "煮雪话河山`Blog"
-      url: "https://blog.cent1pedee.top/"
-    - name: "闪闪の小窝"
-      url: "https://moechun.fun/"
-    - name: "夜雨柠檬"
-      url: "https://blog.yeyulemon.top/"
-    - name: "琅環书生"
-      url: "https://www.zhuangzhi.love"
-    - name: "清空"
-      url: "https://qk.it-02.cf/home/"
-    - name: "米粒个人博客"
-      url: "https://luomengguo.top/"
-    - name: "米尔嘉"
-      url: "https://minterjia.com"
-    - name: "爱吃肉的猫"
-      url: "https://meuicat.com/"
-    - name: "半方池水半方田"
-      url: "https://uuanqin.top/"
-    - name: "Ki'sBlog"
-      url: "https://blog.kikiw.cn/"
-    - name: "南巷清风"
-      url: "https://www.liaocp.cn/"
-    - name: "张时贰"
-      url: "https://zhsher.cn"
-    - name: "Peace`Home"
-      url: "https://ssnur.com/"
-    - name: "王同学&Blog"
-      url: "https://demo.wxz666.icu/"
-    - name: "墨尘"
-      url: "https://mnchen.cn/"
-    - name: "静若安然"
-      url: "https://www.imets.cn"
-    - name: "神经蛙"
-      url: "https://hexo.sjava.cn/"
-    - name: "辰风"
-      url: "https://chenfengblog.eu.org/"
-    - name: "MareSera"
-      url: "https://www.maresera.top/"
-    - name: "胡桃木实验室"
-      url: "https://www.htmacg.cn/"
-    - name: "SuYi-宿仪"
-      url: "https://www.thotz.top/"
-    - name: "Roozen 的小破站"
-      url: "https://roozen.top"
-    - name: "晓星浩博客"
-      url: "https://blog.hyosungho.cn/"
-    - name: "理随。"
-      url: "https://www.lisui.top/"
-    - name: "偷闲小站"
-      url: "https://blog.andypang.cc/"
-    - name: "江东笔记"
-      url: "https://blog.233cn.cn"
-    - name: "呓语梦轩"
-      url: "https://blog.awaae001.top"
-    - name: "Naokuo"
-      url: "https://www.naokuo.top"
-    - name: "Ariasakaの小窝"
-      url: "https://yisous.xyz"
-    - name: "JayHrn"
-      url: "https://blog.lvhrn.cn"
-    - name: "Leonus"
-      url: "https://blog.leonus.cn/"
-    - name: "Fomalhaut🥝"
-      url: "https://www.fomal.cc/"
-    - name: "Tianli's Blog"
-      url: "https://tianli-blog.club/"
-    - name: "Rootlex"
-      url: "https://blog.nalex.top"
-    - name: "Auth"
-      url: "https://yanyuplus.cn/"
-    - name: "葱苓"
-      url: "https://blog.itciraos.cn"
-    - name: "小植の小破站"
-      url: "https://blog.xiaoztx.top"
-    - name: "离子的杂货铺~"
-      url: "https://blog.loveak.top/"
-    - name: "阿豪AHao"
-      url: "https://ahao.ah.cn"
-    - name: "Mycpen"
-      url: "https://blog.cpen.top/"
-    - name: "摸鱼星球"
-      url: "https://blog.moyustar.cn"
-    - name: "萌傀儡"
-      url: "https://blhorizon.github.io/"
-    - name: "慕斯"
-      url: "https://blog.dd.ac.cn/"
-    - name: "别亦难"
-      url: "https://lazyingman.cn"
-    - name: "包子哟"
-      url: "https://blog.bugjava.cn"
-    - name: "小智の空间站"
-      url: "https://blog.cuixinyu.com"
-    - name: "Pupper"
-      url: "https://pupper.cn"
-    - name: "yukliu"
-      url: "https://yukliu.cn"
-    - name: "莫凌Blog"
-      url: "https://blog.mo0.top/"
-    - name: "未知之旅"
-      url: "https://blog.xenosp.cn/"
-    - name: "小旦"
-      url: "https://satera.cn"
-    - name: "anniver的小破站"
-      url: "http://anniver.cn"
-    - name: "Calyee"
-      url: "https://blog.calyee.top/"
-    - name: "虹色轨迹🌠"
-      url: "https://dil.illlli.com"
-    - name: "虹色轨迹🌠"
-      url: "https://illlli.com"
-    - name: "中弦星空魔法屋"
-      url: "https://blog.sinzmise.top/"
-    - name: "陌颜Hao愿永不忘初心！"
-      url: "https://blog.imoyan.top/"
-    - name: "枫叶分享知识，认识世界"
-      url: "https://blog.aqcoder.cn"
-    - name: "iMaeGoo’s Blog虹墨空间站"
-      url: "https://www.imaegoo.com"
-    - name: "Eurkon及时当勉励，岁月不待人。"
-      url: "https://blog.eurkon.com"
-    - name: "小码同学喜欢的东西就努力去追求，万一成功了呢!"
-      url: "https://blog.hikki.site"
-    - name: "阿锋的小屋分享记录一切生活美好瞬间"
-      url: "https://blogg.snailuu.cn/"
-    - name: "上冬十二到最后，竟庆幸于夕阳仍留在身上"
-      url: "https://oragekk.me/"
-    - name: "Iceの小站海内存知己，天涯若比邻"
-      url: "https://blog.081113.xyz/"
-    - name: "Ading阿定の小站我们终会相遇相知，在那悠远的苍穹"
-      url: "https://blog.saop.cc"
-    - name: "桜紺狸の部落阁一个闲聊萌新动漫技术交流站"
-      url: "https://www.skira.top"
-    - name: "KAMIASUKA' s BlogPatience is key in life"
-      url: "https://kamiasuka.top/"
-    - name: "纸鹿摸鱼处纸鹿至麓不知路，支炉制露不止漉"
-      url: "https://blog.zhilu.cyou"
-    - name: "DUSK文案社区超多文案社区.落日.枯木.美妆.模糊.氛围"
-      url: "https://blog.zawuguan.ink/"
-    - name: "探人间努力吃上更贵的雪糕！"
-      url: "https://www.hydsb0.com"
-    - name: "南方嘉木不畏将来，不念过往。"
-      url: "https://gavin-chen.top/"
-    - name: "青笺画卿颜鸢语慕君年"
-      url: "https://blog.qjhqy.com/"
-    - name: "Lian很潇洒却不能对你停止想念"
-      url: "https://blog.kisskiss.store/"
-    - name: "困困鱼喜欢捣鼓的博主"
-      url: "https://moony.la/"
-    - name: "Carol 的小站只想专心玩NAS"
-      url: "https://blog.cnkj.site"
-    - name: "吮指原味姬无论什么时候，都不要后悔"
-      url: "https://www.yejinblok.cn/"
-    - name: "dodo小站热爱网络，热爱生活！"
-      url: "https://www.52sms.top/"
-    - name: "ClimbingMouse纵有疾风起，人生不言弃"
-      url: "https://blog.climbingmouse.top/"
-    - name: "小野小野的自在天地"
-      url: "https://blog.triis.top"
-    - name: "唐志远古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志"
-      url: "https://fe32.top/"
-    - name: "Pzai从入门到放弃"
-      url: "https://blog.pzai.cloud/"
-    - name: "一府学习·分享·成就"
-      url: "https://blog.duolaa.asia/"
-    - name: "https://blog.kouseki.cn/imgs/siteshot.webp"
-      url: "https://blog.kouseki.cn/imgs/siteshot.webp"
-    - name: "https://blog.kouseki.cn/imgs/avatar.webp"
-      url: "https://blog.kouseki.cn/imgs/avatar.webp"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Github"
-      url: "https://github.com/Katou-Kouseki"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/3732643"
-    - name: "51la统计"
-      url: "https://v6.51.la/"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/"
-    - name: "开往"
-      url: "https://github.com/travellings-link/travellings"
-    - name: "粤ICP备2023039612号"
-      url: "https://beian.miit.gov.cn/"
-    - name: "萌ICP备20241126号"
-      url: "https://icp.gov.moe/?keyword=20241126"
+'site':
+  'name': 'blog.kouseki.cn'
+  'description': '友情链接'
+  'url': 'https://blog.kouseki.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '引导页'
+      'url': 'https://kouseki.cn/'
+    - 'name': '个人主页'
+      'url': 'https://home.kouseki.cn/'
+    - 'name': '网站集'
+      'url': 'https://web.kouseki.cn/'
+    - 'name': '石刻宝库'
+      'url': 'https://ad.kouseki.cn/'
+    - 'name': '铭心小铺'
+      'url': 'https://shop.kouseki.cn/'
+    - 'name': '站点截图'
+      'url': 'https://scr.kouseki.cn/'
+    - 'name': '小志IT知识库'
+      'url': 'https://www.czfq99.cn'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'ichika'
+      'url': 'https://ichika.cc'
+    - 'name': '轻笑Chuckle'
+      'url': 'https://www.qcqx.cn'
+    - 'name': '山岳库博'
+      'url': 'https://kmar.top/'
+    - 'name': '杜老师说'
+      'url': 'https://dusays.com'
+    - 'name': '屑殇'
+      'url': 'https://jinghuashang.cn/'
+    - 'name': '青桔气球'
+      'url': 'https://blog.qjqq.cn/'
+    - 'name': 'Marcus'
+      'url': 'https://blog.marcus233.top/'
+    - 'name': '随风站'
+      'url': 'https://adunm.top'
+    - 'name': 'Shine'
+      'url': 'https://blog.shineyu.cn/'
+    - 'name': '王貔貅'
+      'url': 'https://blog.wpixiu.cn/'
+    - 'name': 'Leginn’s Blog'
+      'url': 'https://blog.Leginn.top'
+    - 'name': 'Harris''s Blog'
+      'url': 'https://blog.harriswong.top'
+    - 'name': 'Jackson疾速k'
+      'url': 'https://jisuk.top/'
+    - 'name': '虹色轨迹🌠'
+      'url': 'https://ovoz.cn'
+    - 'name': 'GanSer'
+      'url': 'https://www.gan1ser.top/'
+    - 'name': '小张同学'
+      'url': 'https://www.blog.xiaozhangstu.com/'
+    - 'name': '海阔蓝'
+      'url': 'https://blog.hklan.top/'
+    - 'name': '小林的小破站'
+      'url': 'https://blog.lucksss.com/'
+    - 'name': '仰止'
+      'url': 'https://yangzhiblog.com/'
+    - 'name': '煮雪话河山`Blog'
+      'url': 'https://blog.cent1pedee.top/'
+    - 'name': '闪闪の小窝'
+      'url': 'https://moechun.fun/'
+    - 'name': '夜雨柠檬'
+      'url': 'https://blog.yeyulemon.top/'
+    - 'name': '琅環书生'
+      'url': 'https://www.zhuangzhi.love'
+    - 'name': '清空'
+      'url': 'https://qk.it-02.cf/home/'
+    - 'name': '米粒个人博客'
+      'url': 'https://luomengguo.top/'
+    - 'name': '米尔嘉'
+      'url': 'https://minterjia.com'
+    - 'name': '爱吃肉的猫'
+      'url': 'https://meuicat.com/'
+    - 'name': '半方池水半方田'
+      'url': 'https://uuanqin.top/'
+    - 'name': 'Ki''sBlog'
+      'url': 'https://blog.kikiw.cn/'
+    - 'name': '南巷清风'
+      'url': 'https://www.liaocp.cn/'
+    - 'name': '张时贰'
+      'url': 'https://zhsher.cn'
+    - 'name': 'Peace`Home'
+      'url': 'https://ssnur.com/'
+    - 'name': '王同学&Blog'
+      'url': 'https://demo.wxz666.icu/'
+    - 'name': '墨尘'
+      'url': 'https://mnchen.cn/'
+    - 'name': '静若安然'
+      'url': 'https://www.imets.cn'
+    - 'name': '神经蛙'
+      'url': 'https://hexo.sjava.cn/'
+    - 'name': '辰风'
+      'url': 'https://chenfengblog.eu.org/'
+    - 'name': 'MareSera'
+      'url': 'https://www.maresera.top/'
+    - 'name': '胡桃木实验室'
+      'url': 'https://www.htmacg.cn/'
+    - 'name': 'SuYi-宿仪'
+      'url': 'https://www.thotz.top/'
+    - 'name': 'Roozen 的小破站'
+      'url': 'https://roozen.top'
+    - 'name': '晓星浩博客'
+      'url': 'https://blog.hyosungho.cn/'
+    - 'name': '理随。'
+      'url': 'https://www.lisui.top/'
+    - 'name': '偷闲小站'
+      'url': 'https://blog.andypang.cc/'
+    - 'name': '江东笔记'
+      'url': 'https://blog.233cn.cn'
+    - 'name': '呓语梦轩'
+      'url': 'https://blog.awaae001.top'
+    - 'name': 'Naokuo'
+      'url': 'https://www.naokuo.top'
+    - 'name': 'Ariasakaの小窝'
+      'url': 'https://yisous.xyz'
+    - 'name': 'JayHrn'
+      'url': 'https://blog.lvhrn.cn'
+    - 'name': 'Leonus'
+      'url': 'https://blog.leonus.cn/'
+    - 'name': 'Fomalhaut🥝'
+      'url': 'https://www.fomal.cc/'
+    - 'name': 'Tianli''s Blog'
+      'url': 'https://tianli-blog.club/'
+    - 'name': 'Rootlex'
+      'url': 'https://blog.nalex.top'
+    - 'name': 'Auth'
+      'url': 'https://yanyuplus.cn/'
+    - 'name': '葱苓'
+      'url': 'https://blog.itciraos.cn'
+    - 'name': '小植の小破站'
+      'url': 'https://blog.xiaoztx.top'
+    - 'name': '离子的杂货铺~'
+      'url': 'https://blog.loveak.top/'
+    - 'name': '阿豪AHao'
+      'url': 'https://ahao.ah.cn'
+    - 'name': 'Mycpen'
+      'url': 'https://blog.cpen.top/'
+    - 'name': '摸鱼星球'
+      'url': 'https://blog.moyustar.cn'
+    - 'name': '慕斯'
+      'url': 'https://blog.dd.ac.cn/'
+    - 'name': '别亦难'
+      'url': 'https://lazyingman.cn'
+    - 'name': '包子哟'
+      'url': 'https://blog.bugjava.cn'
+    - 'name': '小智の空间站'
+      'url': 'https://blog.cuixinyu.com'
+    - 'name': 'Pupper'
+      'url': 'https://pupper.cn'
+    - 'name': 'yukliu'
+      'url': 'https://yukliu.cn'
+    - 'name': '莫凌Blog'
+      'url': 'https://blog.mo0.top/'
+    - 'name': '未知之旅'
+      'url': 'https://blog.xenosp.cn/'
+    - 'name': '小旦'
+      'url': 'https://satera.cn'
+    - 'name': 'anniver的小破站'
+      'url': 'http://anniver.cn'
+    - 'name': 'Calyee'
+      'url': 'https://blog.calyee.top/'
+    - 'name': '虹色轨迹🌠'
+      'url': 'https://dil.illlli.com'
+    - 'name': '虹色轨迹🌠'
+      'url': 'https://illlli.com'
+    - 'name': '中弦星空魔法屋'
+      'url': 'https://blog.sinzmise.top/'
+    - 'name': '陌颜Hao愿永不忘初心！'
+      'url': 'https://blog.imoyan.top/'
+    - 'name': '枫叶分享知识，认识世界'
+      'url': 'https://blog.aqcoder.cn'
+    - 'name': 'iMaeGoo’s Blog虹墨空间站'
+      'url': 'https://www.imaegoo.com'
+    - 'name': 'Eurkon及时当勉励，岁月不待人。'
+      'url': 'https://blog.eurkon.com'
+    - 'name': '小码同学喜欢的东西就努力去追求，万一成功了呢!'
+      'url': 'https://blog.hikki.site'
+    - 'name': '阿锋的小屋分享记录一切生活美好瞬间'
+      'url': 'https://blogg.snailuu.cn/'
+    - 'name': '上冬十二到最后，竟庆幸于夕阳仍留在身上'
+      'url': 'https://oragekk.me/'
+    - 'name': 'Iceの小站海内存知己，天涯若比邻'
+      'url': 'https://blog.081113.xyz/'
+    - 'name': 'Ading阿定の小站我们终会相遇相知，在那悠远的苍穹'
+      'url': 'https://blog.saop.cc'
+    - 'name': '桜紺狸の部落阁一个闲聊萌新动漫技术交流站'
+      'url': 'https://www.skira.top'
+    - 'name': 'KAMIASUKA'' s BlogPatience is key in life'
+      'url': 'https://kamiasuka.top/'
+    - 'name': '纸鹿摸鱼处纸鹿至麓不知路，支炉制露不止漉'
+      'url': 'https://blog.zhilu.cyou'
+    - 'name': 'DUSK文案社区超多文案社区.落日.枯木.美妆.模糊.氛围'
+      'url': 'https://blog.zawuguan.ink/'
+    - 'name': '探人间努力吃上更贵的雪糕！'
+      'url': 'https://www.hydsb0.com'
+    - 'name': '南方嘉木不畏将来，不念过往。'
+      'url': 'https://gavin-chen.top/'
+    - 'name': '青笺画卿颜鸢语慕君年'
+      'url': 'https://blog.qjhqy.com/'
+    - 'name': 'Lian很潇洒却不能对你停止想念'
+      'url': 'https://blog.kisskiss.store/'
+    - 'name': '困困鱼喜欢捣鼓的博主'
+      'url': 'https://moony.la/'
+    - 'name': 'Carol 的小站只想专心玩NAS'
+      'url': 'https://blog.cnkj.site'
+    - 'name': '吮指原味姬无论什么时候，都不要后悔'
+      'url': 'https://www.yejinblok.cn/'
+    - 'name': 'dodo小站热爱网络，热爱生活！'
+      'url': 'https://www.52sms.top/'
+    - 'name': 'ClimbingMouse纵有疾风起，人生不言弃'
+      'url': 'https://blog.climbingmouse.top/'
+    - 'name': '小野小野的自在天地'
+      'url': 'https://blog.triis.top'
+    - 'name': '唐志远古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志'
+      'url': 'https://fe32.top/'
+    - 'name': 'Pzai从入门到放弃'
+      'url': 'https://blog.pzai.cloud/'
+    - 'name': '一府学习·分享·成就'
+      'url': 'https://blog.duolaa.asia/'
+    - 'name': '51la统计'
+      'url': 'https://v6.51.la/'

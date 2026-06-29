@@ -1,22 +1,16 @@
-site:
-  name: "blog.tactfulbean.top"
-  description: "友情链接"
-  url: "https://blog.tactfulbean.top/"
-  links: "/link"
-  friends:
-    - name: "Hexo"
-      url: "https://hexo.io/zh-tw/"
-    - name: "Jerry"
-      url: "https://butterfly.js.org/"
-    - name: "Bean's Homepage"
-      url: "https://home.tactfulbean.top/"
-    - name: "Bean's Alist"
-      url: "http://alist.tactfulbean.top/"
-    - name: "安知鱼`Blog"
-      url: "https://blog.anheyu.com/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Follow Me"
-      url: "https://github.com/TactfulBean"
+'site':
+  'name': 'blog.tactfulbean.top'
+  'description': '友情链接'
+  'url': 'https://blog.tactfulbean.top/'
+  'links': '/link'
+  'friends':
+    - 'name': 'Jerry'
+      'url': 'https://butterfly.js.org/'
+    - 'name': 'Bean''s Homepage'
+      'url': 'https://home.tactfulbean.top/'
+    - 'name': 'Bean''s Alist'
+      'url': 'http://alist.tactfulbean.top/'
+    - 'name': '安知鱼`Blog'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'

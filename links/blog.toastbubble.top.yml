@@ -1,28 +1,16 @@
-site:
-  name: "blog.toastbubble.top"
-  description: "友情链接"
-  url: "https://blog.toastbubble.top/"
-  links: "/friends"
-  friends:
-    - name: "了解更多"
-      url: "https://www.cookiesandyou.com"
-    - name: "开往-友链接力"
-      url: "https://www.travellings.cn/go.html"
-    - name: "@Lruihao"
-      url: "https://lruihao.cn"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "Hugo"
-      url: "https://gohugo.io/"
-    - name: "Cloudflare Pages"
-      url: "https://www.cloudflare-cn.com/developer-platform/products/pages/"
-    - name: "GitHub"
-      url: "https://github.com"
-    - name: "Obsidian"
-      url: "https://obsidian.md/"
-    - name: ".fixit-ban{opacity:.9}Fixit"
-      url: "https://github.com/hugo-fixit/FixIt"
-    - name: "cc协议"
-      url: "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans"
-    - name: "萌ICP备20259129号"
-      url: "https://icp.gov.moe/?keyword=20259129"
+'site':
+  'name': 'blog.toastbubble.top'
+  'description': '友情链接'
+  'url': 'https://blog.toastbubble.top/'
+  'links': '/friends'
+  'friends':
+    - 'name': '了解更多'
+      'url': 'https://www.cookiesandyou.com'
+    - 'name': '@Lruihao'
+      'url': 'https://lruihao.cn'
+    - 'name': 'Cloudflare Pages'
+      'url': 'https://www.cloudflare-cn.com/developer-platform/products/pages/'
+    - 'name': 'Obsidian'
+      'url': 'https://obsidian.md/'
+    - 'name': 'cc协议'
+      'url': 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans'

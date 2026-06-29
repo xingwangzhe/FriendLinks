@@ -1,24 +1,10 @@
-site:
-  name: "SinGO"
-  url: "https://blog.xsnet.eu.org/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "开往"
-      url: "https://travellings.cn"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "Waline"
-      url: "https://github.com/walinejs/waline"
-    - name: "萌ICP备20210071号"
-      url: "https://icp.gov.moe/?keyword=20210071"
-    - name: "由 Hexo 强力驱动"
-      url: "https://hexo.io"
-    - name: "托管在 \n       Vercel"
-      url: "https://vercel.com/"
-    - name: "主题 SinGO"
-      url: "https://github.com/StarWEB890/hexo-theme-singo"
-    - name: "中文博客列表"
-      url: "https://zhblogs.ohyee.cc/"
-    - name: "RSSBlog"
-      url: "https://rssblog.cn/"
+'site':
+  'name': 'SinGO'
+  'url': 'https://blog.xsnet.eu.org/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '由 Hexo 强力驱动'
+      'url': 'https://hexo.io'
+    - 'name': '中文博客列表'
+      'url': 'https://zhblogs.ohyee.cc/'

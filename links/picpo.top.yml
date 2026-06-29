@@ -1,72 +1,108 @@
-site:
-  name: "picpo.top"
-  description: "友情链接"
-  url: "https://picpo.top/"
-  links: "/link"
-  friends:
-    - name: "wh1sper\n              CTFer in X1cT34m/Web"
-      url: "https://blog.wh1sper.com"
-    - name: "Lakphy\n              FrontEnd Developer"
-      url: "https://lakphy.me"
-    - name: "huangx607087's Blog\n              CTFer in X1cT34m/Crypto"
-      url: "https://huangx607087.online"
-    - name: "白音的小屋\n              Computer Scientist!"
-      url: "https://shirone.moe"
-    - name: "Lakr\n              iOS Developer"
-      url: "https://www.qaq.wiki"
-    - name: "Node_Sans\n              CTFer/Rev"
-      url: "https://www.cnblogs.com/Node-Sans-Blog"
-    - name: "Empty SEKAI\n              白葱的啤酒烧烤摊"
-      url: "https://prpr.rip"
-    - name: "Endsieg77\n              Mathematician!/Computer Scientist!"
-      url: "https://offensive77.plus"
-    - name: "Mizore\n              Computer Scientist!"
-      url: "http://mizore.beepwatch.top"
-    - name: "Brethland\n              美少女數學家"
-      url: "https://typ.moe/"
-    - name: "xjzsq\n              ACMer/珂学家的代码日常"
-      url: "https://xjzsq.ren/"
-    - name: "影二つ\n              CTFer in X1cT34m/Pwn"
-      url: "https://kagehutatsu.com"
-    - name: "Cynosure's Blog\n              CTFer in X1cT34m/Rev"
-      url: "https://www.cynosure.top"
-    - name: "S1ain\n              CTFer/Web"
-      url: "https://gensokyo.cn"
-    - name: "贰猹的小窝\n              用这生命中的每一秒，给自己一个不后悔的未来"
-      url: "https://noionion.top"
-    - name: "To1in\n              CTFer in X1cT34m/Crypto"
-      url: "http://blog.tolinchan.xyz/"
-    - name: "De3B4to\n              CTFer in L-Team and W&M/Crypto"
-      url: "http://d33b4t0.com"
-    - name: "風楪fy的个人博客\n              BackEnd Developer/嘉心糖"
-      url: "https://fengye404.top"
-    - name: "ZLH's Blog\n              FrontEnd Developer"
-      url: "https://zlhad.top"
-    - name: "白石喵酱的小屋\n              一名萌新DJ和年轻摄影/电子爱好者，喜欢科技和ACG！"
-      url: "https://www.bsmj.eu.org/"
-    - name: "Moroshima\n              FrontEnd Developer"
-      url: "https://yunagi.dev/"
-    - name: "Maxtune's Blog\n              FrontEnd Developer"
-      url: "http://mxte.cc"
-    - name: "国光ByteDancer\n              逆水行舟，不进则退。"
-      url: "https://www.sqlsec.com"
-    - name: "X1r0z\n              CTFer in X1cT34m/Web"
-      url: "https://exp10it.io/"
-    - name: "dpkg123的小站\n              路漫漫其修远兮，吾将上下而求索？"
-      url: "https://dpkg123.top"
-    - name: "寒寒\n              技术强强，梦想大大"
-      url: "https://blog.alikia2x.com/"
-    - name: "糖菓·部落\n              Never drown the flame of hope"
-      url: "https://candinya.com"
-    - name: "Yumechi | ゆめち\n              いい夢を🌙"
-      url: "https://yumechi.jp/"
-    - name: "尘尘落落格\n              在平平无奇的互联网中不起眼的一粒星尘"
-      url: "https://blog.shika-mori.top"
-    - name: "Follow Me"
-      url: "https://github.com/picpo"
-    - name: "喵窝"
-      url: "https://nya.one/@PiCpo"
-    - name: "Telegram"
-      url: "https://t.me/picpo233"
-    - name: "萌ICP备20222047号"
-      url: "https://icp.gov.moe/?keyword=20222047"
+'site':
+  'name': 'picpo.top'
+  'description': '友情链接'
+  'url': 'https://picpo.top/'
+  'links': '/link'
+  'friends':
+    - 'name': "wh1sper
+
+        \              CTFer in X1cT34m/Web"
+      'url': 'https://blog.wh1sper.com'
+    - 'name': "Lakphy
+
+        \              FrontEnd Developer"
+      'url': 'https://lakphy.me'
+    - 'name': "huangx607087's Blog
+
+        \              CTFer in X1cT34m/Crypto"
+      'url': 'https://huangx607087.online'
+    - 'name': "白音的小屋
+
+        \              Computer Scientist!"
+      'url': 'https://shirone.moe'
+    - 'name': "Lakr\n              iOS Developer"
+      'url': 'https://www.qaq.wiki'
+    - 'name': "Node_Sans\n              CTFer/Rev"
+      'url': 'https://www.cnblogs.com/Node-Sans-Blog'
+    - 'name': "Empty SEKAI\n              白葱的啤酒烧烤摊"
+      'url': 'https://prpr.rip'
+    - 'name': "Endsieg77
+
+        \              Mathematician!/Computer Scientist!"
+      'url': 'https://offensive77.plus'
+    - 'name': "Mizore
+
+        \              Computer Scientist!"
+      'url': 'http://mizore.beepwatch.top'
+    - 'name': "Brethland\n              美少女數學家"
+      'url': 'https://typ.moe/'
+    - 'name': "xjzsq\n              ACMer/珂学家的代码日常"
+      'url': 'https://xjzsq.ren/'
+    - 'name': "影二つ
+
+        \              CTFer in X1cT34m/Pwn"
+      'url': 'https://kagehutatsu.com'
+    - 'name': "Cynosure's Blog
+
+        \              CTFer in X1cT34m/Rev"
+      'url': 'https://www.cynosure.top'
+    - 'name': "S1ain\n              CTFer/Web"
+      'url': 'https://gensokyo.cn'
+    - 'name': "贰猹的小窝
+
+        \              用这生命中的每一秒，给自己一个不后悔的未来"
+      'url': 'https://noionion.top'
+    - 'name': "To1in
+
+        \              CTFer in X1cT34m/Crypto"
+      'url': 'http://blog.tolinchan.xyz/'
+    - 'name': "De3B4to
+
+        \              CTFer in L-Team and W&M/Crypto"
+      'url': 'http://d33b4t0.com'
+    - 'name': "風楪fy的个人博客
+
+        \              BackEnd Developer/嘉心糖"
+      'url': 'https://fengye404.top'
+    - 'name': "ZLH's Blog
+
+        \              FrontEnd Developer"
+      'url': 'https://zlhad.top'
+    - 'name': "白石喵酱的小屋
+
+        \              一名萌新DJ和年轻摄影/电子爱好者，喜欢科技和ACG！"
+      'url': 'https://www.bsmj.eu.org/'
+    - 'name': "Moroshima
+
+        \              FrontEnd Developer"
+      'url': 'https://yunagi.dev/'
+    - 'name': "Maxtune's Blog
+
+        \              FrontEnd Developer"
+      'url': 'http://mxte.cc'
+    - 'name': "国光ByteDancer
+
+        \              逆水行舟，不进则退。"
+      'url': 'https://www.sqlsec.com'
+    - 'name': "X1r0z
+
+        \              CTFer in X1cT34m/Web"
+      'url': 'https://exp10it.io/'
+    - 'name': "dpkg123的小站
+
+        \              路漫漫其修远兮，吾将上下而求索？"
+      'url': 'https://dpkg123.top'
+    - 'name': "寒寒\n              技术强强，梦想大大"
+      'url': 'https://blog.alikia2x.com/'
+    - 'name': "糖菓·部落
+
+        \              Never drown the flame of hope"
+      'url': 'https://candinya.com'
+    - 'name': "Yumechi | ゆめち\n              いい夢を🌙"
+      'url': 'https://yumechi.jp/'
+    - 'name': "尘尘落落格
+
+        \              在平平无奇的互联网中不起眼的一粒星尘"
+      'url': 'https://blog.shika-mori.top'
+    - 'name': '喵窝'
+      'url': 'https://nya.one/@PiCpo'

@@ -1,236 +1,196 @@
-site:
-  name: "BARAN"
-  url: "https://cxvh.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "min.io"
-      url: "https://docs.min.io/"
-    - name: "sm.ms"
-      url: "https://sm.ms/"
-    - name: "PicGo"
-      url: "https://github.com/Molunerfinn/PicGo"
-    - name: "loading.io"
-      url: "https://loading.io/"
-    - name: "jsDelivr"
-      url: "https://www.jsdelivr.com/"
-    - name: "cdnjs"
-      url: "https://cdnjs.com/"
-    - name: "unpkg"
-      url: "https://www.unpkg.com/"
-    - name: "processon"
-      url: "https://www.processon.com/"
-    - name: "XMind"
-      url: "https://www.xmind.cn/"
-    - name: "Axure"
-      url: "https://www.axure.com.cn/"
-    - name: "墨刀"
-      url: "https://modao.cc/"
-    - name: "vscode"
-      url: "https://code.visualstudio.com/"
-    - name: "HBuilder"
-      url: "https://www.dcloud.io/"
-    - name: "TS编译器"
-      url: "https://www.typescriptlang.org/play"
-    - name: "caddy"
-      url: "https://caddyserver.com/"
-    - name: "维基中文"
-      url: "https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5"
-    - name: "curl"
-      url: "https://curl.se/"
-    - name: "typecho"
-      url: "http://typecho.org/"
-    - name: "ghost"
-      url: "https://ghost.org/"
-    - name: "hexo"
-      url: "https://hexo.io/"
-    - name: "wordpress"
-      url: "https://cn.wordpress.org/"
-    - name: "github"
-      url: "https://github.com/"
-    - name: "gitee"
-      url: "https://gitee.com/"
-    - name: "gitlab"
-      url: "https://gitlab.com/"
-    - name: "gitea"
-      url: "https://try.gitea.io/"
-    - name: "腾讯git"
-      url: "https://git.code.tencent.com/"
-    - name: "阿里git"
-      url: "https://code.aliyun.com/"
-    - name: "慕课git"
-      url: "https://git.imooc.com/"
-    - name: "阿里云"
-      url: "https://aliyun.com/"
-    - name: "腾讯云"
-      url: "https://cloud.tencent.com/"
-    - name: "百度云"
-      url: "https://cloud.baidu.com/"
-    - name: "七牛云"
-      url: "https://www.qiniu.com/"
-    - name: "新浪云"
-      url: "https://www.sinacloud.com/"
-    - name: "硅云"
-      url: "https://www.vpsor.cn/login"
-    - name: "dot"
-      url: "http://www.dot.tk/"
-    - name: "vercel"
-      url: "https://vercel.com/"
-    - name: "leancloud"
-      url: "https://leancloud.app/"
-    - name: "dns"
-      url: "https://www.dns.com/"
-    - name: "114dns"
-      url: "http://www.114dns.com/"
-    - name: "ngrok"
-      url: "https://ngrok.com/"
-    - name: "dnspod"
-      url: "https://www.dnspod.cn/"
-    - name: "dudns"
-      url: "https://dudns.baidu.com/"
-    - name: "聚名"
-      url: "http://www.juming.com/"
-    - name: "百度云智学院"
-      url: "https://abcxueyuan.baidu.com/#/line_course?nodeId=&index=&pageNo=1&sortTag=1"
-    - name: "CSDN"
-      url: "https://edu.csdn.net/course"
-    - name: "看雪"
-      url: "https://www.kanxue.com/course.htm"
-    - name: "慕课"
-      url: "https://www.imooc.com/"
-    - name: "skype"
-      url: "https://web.skype.com/"
-    - name: "微信"
-      url: "https://wx.qq.com/"
-    - name: "tidio"
-      url: "https://www.tidio.com/"
-    - name: "chatra"
-      url: "https://chatra.com/cn/"
-    - name: "印记中文"
-      url: "https://docschina.org/"
-    - name: "w3schools"
-      url: "https://www.w3schools.com/"
-    - name: "MDN Web Docs"
-      url: "https://developer.mozilla.org/zh-TW/docs/Web"
-    - name: "caniuse"
-      url: "https://caniuse.com/"
-    - name: "架构师书籍"
-      url: "https://www.imooc.com/wiki/weban/week1a.html"
-    - name: "便笺"
-      url: "https://www.onenote.com/stickynotes#"
-    - name: "有道云"
-      url: "https://note.youdao.com/web/"
-    - name: "语雀"
-      url: "https://www.yuque.com/dashboard"
-    - name: "teambition"
-      url: "https://account.teambition.com/"
-    - name: "钉钉"
-      url: "https://www.dingtalk.com/"
-    - name: "企业微信"
-      url: "https://work.weixin.qq.com/"
-    - name: "msdn"
-      url: "https://msdn.itellyou.cn/"
-    - name: "西西软件园"
-      url: "https://www.cr173.com/"
-    - name: "驱动精灵"
-      url: "http://www.drivergenius.com/"
-    - name: "淘宝"
-      url: "https://taobao.com/"
-    - name: "1688"
-      url: "https://re.1688.com/"
-    - name: "天猫"
-      url: "https://www.tmall.com/"
-    - name: "京东"
-      url: "https://jd.com/"
-    - name: "拼多多"
-      url: "https://www.pinduoduo.com/"
-    - name: "亚马逊"
-      url: "https://www.amazon.cn/"
-    - name: "当当"
-      url: "http://www.dangdang.com/"
-    - name: "力扣 (LeetCode)"
-      url: "https://leetcode-cn.com/problemset/all/"
-    - name: "数据结构和算法动态可视化"
-      url: "https://visualgo.net/zh"
-    - name: "JQ插件100+"
-      url: "http://www.ijquery.cn/?cat=2"
-    - name: "css/reset"
-      url: "https://meyerweb.com/eric/tools/css/reset/index.html"
-    - name: "rsshub"
-      url: "https://docs.rsshub.app/"
-    - name: "github趋势"
-      url: "https://github-trending.com/"
-    - name: "codesandbox"
-      url: "https://codesandbox.io/"
-    - name: "codepen"
-      url: "https://codepen.io/"
-    - name: "plnkr"
-      url: "http://plnkr.co/"
-    - name: "repl.it"
-      url: "https://repl.it/"
-    - name: "expo"
-      url: "https://snack.expo.io/"
-    - name: "jsfiddle"
-      url: "https://jsfiddle.net/"
-    - name: "cloudstudio.net"
-      url: "https://cloudstudio.net/"
-    - name: "stackblitz"
-      url: "https://stackblitz.com/"
-    - name: "flems"
-      url: "https://flems.io/"
-    - name: "jupyter"
-      url: "https://jupyter.org/"
-    - name: "gitpod"
-      url: "https://gitpod.io/"
-    - name: "腾讯"
-      url: "https://open.tencent.com/"
-    - name: "v2ray"
-      url: "https://www.v2ray.com/"
-    - name: "ngrok.cc"
-      url: "https://www.ngrok.cc/"
-    - name: "natapp"
-      url: "https://natapp.cn/"
-    - name: "suidao"
-      url: "https://suidao.io/"
-    - name: "nioee"
-      url: "https://nat.nioee.com/"
-    - name: "termux"
-      url: "https://termux.com/"
-    - name: "follow me"
-      url: "https://github.com/cxvh"
-    - name: "鸟巢"
-      url: "http://baike.baidu.com/view/71694.htm"
-    - name: "鲁本斯"
-      url: "http://baike.baidu.com/view/21798.htm"
-    - name: "让·雅各·卢梭"
-      url: "http://baike.baidu.com/view/1128069.htm"
-    - name: "詹姆斯·麦迪逊"
-      url: "https://baike.baidu.com/item/%E8%A9%B9%E5%A7%86%E6%96%AF%C2%B7%E9%BA%A6%E8%BF%AA%E9%80%8A/7873690"
-    - name: "维多利亚女王"
-      url: "http://baike.baidu.com/subview/5397/6673951.htm"
-    - name: "皮兰德娄"
-      url: "http://baike.baidu.com/view/1914545.htm"
-    - name: "巴拿马运河"
-      url: "http://baike.baidu.com/view/15686.htm"
-    - name: "弗朗茨·斐迪南大公"
-      url: "http://baike.baidu.com/view/823478.htm"
-    - name: "君主制"
-      url: "http://baike.baidu.com/view/20352.htm"
-    - name: "北大西洋公约组织"
-      url: "http://baike.baidu.com/view/26927.htm"
-    - name: "巴特兹"
-      url: "http://baike.baidu.com/view/810939.htm"
-    - name: "石声汉"
-      url: "http://baike.baidu.com/view/313949.htm"
-    - name: "刘国勋"
-      url: "http://baike.baidu.com/view/3039800.htm"
-    - name: "钱三强"
-      url: "http://baike.baidu.com/view/3908.htm"
-    - name: "宫泽喜一"
-      url: "http://baike.baidu.com/view/250942.htm"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
-    - name: "陕ICP备2021003280号-1"
-      url: "http://beian.miit.gov.cn"
+'site':
+  'name': 'BARAN'
+  'url': 'https://cxvh.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'min.io'
+      'url': 'https://docs.min.io/'
+    - 'name': 'sm.ms'
+      'url': 'https://sm.ms/'
+    - 'name': 'loading.io'
+      'url': 'https://loading.io/'
+    - 'name': 'jsDelivr'
+      'url': 'https://www.jsdelivr.com/'
+    - 'name': 'cdnjs'
+      'url': 'https://cdnjs.com/'
+    - 'name': 'unpkg'
+      'url': 'https://www.unpkg.com/'
+    - 'name': 'processon'
+      'url': 'https://www.processon.com/'
+    - 'name': 'XMind'
+      'url': 'https://www.xmind.cn/'
+    - 'name': 'Axure'
+      'url': 'https://www.axure.com.cn/'
+    - 'name': '墨刀'
+      'url': 'https://modao.cc/'
+    - 'name': 'vscode'
+      'url': 'https://code.visualstudio.com/'
+    - 'name': 'HBuilder'
+      'url': 'https://www.dcloud.io/'
+    - 'name': 'TS编译器'
+      'url': 'https://www.typescriptlang.org/play'
+    - 'name': 'caddy'
+      'url': 'https://caddyserver.com/'
+    - 'name': '维基中文'
+      'url': 'https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5'
+    - 'name': 'curl'
+      'url': 'https://curl.se/'
+    - 'name': 'ghost'
+      'url': 'https://ghost.org/'
+    - 'name': 'gitea'
+      'url': 'https://try.gitea.io/'
+    - 'name': '阿里git'
+      'url': 'https://code.aliyun.com/'
+    - 'name': '阿里云'
+      'url': 'https://aliyun.com/'
+    - 'name': '七牛云'
+      'url': 'https://www.qiniu.com/'
+    - 'name': '新浪云'
+      'url': 'https://www.sinacloud.com/'
+    - 'name': '硅云'
+      'url': 'https://www.vpsor.cn/login'
+    - 'name': 'dot'
+      'url': 'http://www.dot.tk/'
+    - 'name': 'leancloud'
+      'url': 'https://leancloud.app/'
+    - 'name': 'dns'
+      'url': 'https://www.dns.com/'
+    - 'name': '114dns'
+      'url': 'http://www.114dns.com/'
+    - 'name': 'ngrok'
+      'url': 'https://ngrok.com/'
+    - 'name': 'dnspod'
+      'url': 'https://www.dnspod.cn/'
+    - 'name': 'dudns'
+      'url': 'https://dudns.baidu.com/'
+    - 'name': '聚名'
+      'url': 'http://www.juming.com/'
+    - 'name': '百度云智学院'
+      'url': 'https://abcxueyuan.baidu.com/#/line_course?nodeId=&index=&pageNo=1&sortTag=1'
+    - 'name': 'CSDN'
+      'url': 'https://edu.csdn.net/course'
+    - 'name': '看雪'
+      'url': 'https://www.kanxue.com/course.htm'
+    - 'name': '慕课'
+      'url': 'https://www.imooc.com/'
+    - 'name': 'skype'
+      'url': 'https://web.skype.com/'
+    - 'name': 'tidio'
+      'url': 'https://www.tidio.com/'
+    - 'name': 'chatra'
+      'url': 'https://chatra.com/cn/'
+    - 'name': '印记中文'
+      'url': 'https://docschina.org/'
+    - 'name': 'w3schools'
+      'url': 'https://www.w3schools.com/'
+    - 'name': 'MDN Web Docs'
+      'url': 'https://developer.mozilla.org/zh-TW/docs/Web'
+    - 'name': 'caniuse'
+      'url': 'https://caniuse.com/'
+    - 'name': '架构师书籍'
+      'url': 'https://www.imooc.com/wiki/weban/week1a.html'
+    - 'name': '便笺'
+      'url': 'https://www.onenote.com/stickynotes#'
+    - 'name': '有道云'
+      'url': 'https://note.youdao.com/web/'
+    - 'name': '语雀'
+      'url': 'https://www.yuque.com/dashboard'
+    - 'name': 'teambition'
+      'url': 'https://account.teambition.com/'
+    - 'name': '钉钉'
+      'url': 'https://www.dingtalk.com/'
+    - 'name': 'msdn'
+      'url': 'https://msdn.itellyou.cn/'
+    - 'name': '西西软件园'
+      'url': 'https://www.cr173.com/'
+    - 'name': '驱动精灵'
+      'url': 'http://www.drivergenius.com/'
+    - 'name': '淘宝'
+      'url': 'https://taobao.com/'
+    - 'name': '天猫'
+      'url': 'https://www.tmall.com/'
+    - 'name': '京东'
+      'url': 'https://jd.com/'
+    - 'name': '拼多多'
+      'url': 'https://www.pinduoduo.com/'
+    - 'name': '亚马逊'
+      'url': 'https://www.amazon.cn/'
+    - 'name': '当当'
+      'url': 'http://www.dangdang.com/'
+    - 'name': '力扣 (LeetCode)'
+      'url': 'https://leetcode-cn.com/problemset/all/'
+    - 'name': '数据结构和算法动态可视化'
+      'url': 'https://visualgo.net/zh'
+    - 'name': 'JQ插件100+'
+      'url': 'http://www.ijquery.cn/?cat=2'
+    - 'name': 'css/reset'
+      'url': 'https://meyerweb.com/eric/tools/css/reset/index.html'
+    - 'name': 'github趋势'
+      'url': 'https://github-trending.com/'
+    - 'name': 'codesandbox'
+      'url': 'https://codesandbox.io/'
+    - 'name': 'codepen'
+      'url': 'https://codepen.io/'
+    - 'name': 'plnkr'
+      'url': 'http://plnkr.co/'
+    - 'name': 'repl.it'
+      'url': 'https://repl.it/'
+    - 'name': 'expo'
+      'url': 'https://snack.expo.io/'
+    - 'name': 'jsfiddle'
+      'url': 'https://jsfiddle.net/'
+    - 'name': 'cloudstudio.net'
+      'url': 'https://cloudstudio.net/'
+    - 'name': 'stackblitz'
+      'url': 'https://stackblitz.com/'
+    - 'name': 'flems'
+      'url': 'https://flems.io/'
+    - 'name': 'jupyter'
+      'url': 'https://jupyter.org/'
+    - 'name': 'gitpod'
+      'url': 'https://gitpod.io/'
+    - 'name': '腾讯'
+      'url': 'https://open.tencent.com/'
+    - 'name': 'v2ray'
+      'url': 'https://www.v2ray.com/'
+    - 'name': 'ngrok.cc'
+      'url': 'https://www.ngrok.cc/'
+    - 'name': 'natapp'
+      'url': 'https://natapp.cn/'
+    - 'name': 'suidao'
+      'url': 'https://suidao.io/'
+    - 'name': 'nioee'
+      'url': 'https://nat.nioee.com/'
+    - 'name': 'termux'
+      'url': 'https://termux.com/'
+    - 'name': '鸟巢'
+      'url': 'http://baike.baidu.com/view/71694.htm'
+    - 'name': '鲁本斯'
+      'url': 'http://baike.baidu.com/view/21798.htm'
+    - 'name': '让·雅各·卢梭'
+      'url': 'http://baike.baidu.com/view/1128069.htm'
+    - 'name': '詹姆斯·麦迪逊'
+      'url': 'https://baike.baidu.com/item/%E8%A9%B9%E5%A7%86%E6%96%AF%C2%B7%E9%BA%A6%E8%BF%AA%E9%80%8A/7873690'
+    - 'name': '维多利亚女王'
+      'url': 'http://baike.baidu.com/subview/5397/6673951.htm'
+    - 'name': '皮兰德娄'
+      'url': 'http://baike.baidu.com/view/1914545.htm'
+    - 'name': '巴拿马运河'
+      'url': 'http://baike.baidu.com/view/15686.htm'
+    - 'name': '弗朗茨·斐迪南大公'
+      'url': 'http://baike.baidu.com/view/823478.htm'
+    - 'name': '君主制'
+      'url': 'http://baike.baidu.com/view/20352.htm'
+    - 'name': '北大西洋公约组织'
+      'url': 'http://baike.baidu.com/view/26927.htm'
+    - 'name': '巴特兹'
+      'url': 'http://baike.baidu.com/view/810939.htm'
+    - 'name': '石声汉'
+      'url': 'http://baike.baidu.com/view/313949.htm'
+    - 'name': '刘国勋'
+      'url': 'http://baike.baidu.com/view/3039800.htm'
+    - 'name': '钱三强'
+      'url': 'http://baike.baidu.com/view/3908.htm'
+    - 'name': '宫泽喜一'
+      'url': 'http://baike.baidu.com/view/250942.htm'

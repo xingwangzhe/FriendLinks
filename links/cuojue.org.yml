@@ -1,56 +1,48 @@
-site:
-  name: "春风吹"
-  url: "https://cuojue.org/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Server Status"
-      url: "https://status.cuojue.org"
-    - name: "Cuojue's Drive"
-      url: "https://disk.cuojue.org"
-    - name: "BFDZ山重水复疑无路，柳暗花明又一村"
-      url: "https://www.bfdz.ink"
-    - name: "Ailoli永远年轻，永远热泪盈眶"
-      url: "https://www.ailoli.org"
-    - name: "梓喵出没Life Can Be Simple !"
-      url: "https://azimiao.com"
-    - name: "纸盒博客资源教程分享"
-      url: "https://zhebk.cn"
-    - name: "韩艺博的博客韩艺博的博客"
-      url: "https://www.hanyibo.com"
-    - name: "Twikor's一个神秘的人"
-      url: "https://twic.me"
-    - name: "冷筱宇的小窝一个学子的生活点滴"
-      url: "https://www.789dl.cn"
-    - name: "Hoe's Notes精诚所至,金石为开"
-      url: "https://www.hoehub.com"
-    - name: "晓新哈特记录生活点滴"
-      url: "https://www.xxhat.xyz"
-    - name: "LOGI会点代码的强迫症"
-      url: "https://logi.im"
-    - name: "枫叶洲跨越那扇门后的世界"
-      url: "https://cuojue.org/go/#aHR0cHM6Ly93d3cudmllcm5lcy5jbg=="
-    - name: "Arslinth面向自由和真理的无名献身。"
-      url: "https://chenyi.ink"
-    - name: "韩小韩博客要变得更加完美"
-      url: "https://www.vvhan.com"
-    - name: "杜老师说云计算运维讲师杜老师"
-      url: "https://dusays.com"
-    - name: "iMaeGoo’s Blog大佬，本博评论系统作者"
-      url: "https://www.imaegoo.com"
-    - name: "Eacls看一看世界的繁华"
-      url: "https://www.eacls.top"
-    - name: "Black FliesWhen nothing goes right,just go left."
-      url: "https://www.yyyzyyyz.cn"
-    - name: "凡梦星尘空间站再平凡的人也有属于他的梦想！"
-      url: "https://lisenhui.cn"
-    - name: "Aiar's Site愿余生所有的珍惜，都不用失去来懂得。"
-      url: "https://aiar.site"
-    - name: "Limour’s Blog互联网の自留地"
-      url: "https://hexo.limour.top"
-    - name: "Fgaoxing一个少年的博客"
-      url: "https://www.yt-blog.top"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Fluid"
-      url: "https://cuojue.org/go/#aHR0cHM6Ly9naXRodWIuY29tL2ZsdWlkLWRldi9oZXhvLXRoZW1lLWZsdWlk"
+'site':
+  'name': '春风吹'
+  'url': 'https://cuojue.org/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Cuojue''s Drive'
+      'url': 'https://disk.cuojue.org'
+    - 'name': 'BFDZ山重水复疑无路，柳暗花明又一村'
+      'url': 'https://www.bfdz.ink'
+    - 'name': 'Ailoli永远年轻，永远热泪盈眶'
+      'url': 'https://www.ailoli.org'
+    - 'name': '梓喵出没Life Can Be Simple !'
+      'url': 'https://azimiao.com'
+    - 'name': '纸盒博客资源教程分享'
+      'url': 'https://zhebk.cn'
+    - 'name': '韩艺博的博客韩艺博的博客'
+      'url': 'https://www.hanyibo.com'
+    - 'name': 'Twikor''s一个神秘的人'
+      'url': 'https://twic.me'
+    - 'name': '冷筱宇的小窝一个学子的生活点滴'
+      'url': 'https://www.789dl.cn'
+    - 'name': 'Hoe''s Notes精诚所至,金石为开'
+      'url': 'https://www.hoehub.com'
+    - 'name': '晓新哈特记录生活点滴'
+      'url': 'https://www.xxhat.xyz'
+    - 'name': 'LOGI会点代码的强迫症'
+      'url': 'https://logi.im'
+    - 'name': 'Arslinth面向自由和真理的无名献身。'
+      'url': 'https://chenyi.ink'
+    - 'name': '韩小韩博客要变得更加完美'
+      'url': 'https://www.vvhan.com'
+    - 'name': '杜老师说云计算运维讲师杜老师'
+      'url': 'https://dusays.com'
+    - 'name': 'iMaeGoo’s Blog大佬，本博评论系统作者'
+      'url': 'https://www.imaegoo.com'
+    - 'name': 'Eacls看一看世界的繁华'
+      'url': 'https://www.eacls.top'
+    - 'name': 'Black FliesWhen nothing goes right,just go left.'
+      'url': 'https://www.yyyzyyyz.cn'
+    - 'name': '凡梦星尘空间站再平凡的人也有属于他的梦想！'
+      'url': 'https://lisenhui.cn'
+    - 'name': 'Aiar''s Site愿余生所有的珍惜，都不用失去来懂得。'
+      'url': 'https://aiar.site'
+    - 'name': 'Limour’s Blog互联网の自留地'
+      'url': 'https://hexo.limour.top'
+    - 'name': 'Fgaoxing一个少年的博客'
+      'url': 'https://www.yt-blog.top'

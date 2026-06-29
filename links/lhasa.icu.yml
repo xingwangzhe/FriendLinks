@@ -1,68 +1,62 @@
-site:
-  name: "lhasa.icu"
-  description: "友情链接"
-  url: "https://lhasa.icu/"
-  links: "/friends"
-  friends:
-    - name: "社会学为什么在中国难以发展？｜ 隐说 NO. 27"
-      url: "https://wangyurui.com/posts/she-hui-xue-wei-shi-yao-zai-zhong-guo-nan-yi-fa-112bb4cd"
-    - name: "静态博客如何添加rss文章聚合？"
-      url: "https://www.suiyan.cc/blog/20260628204100"
-    - name: "老梁：历史上的张献忠"
-      url: "https://www.youtube.com/watch?v=Yg7_W3hPBNw"
-    - name: "为什么中共高官，都在偷偷拜神？"
-      url: "https://www.youtube.com/shorts/8wpCAc4dNSU"
-    - name: "为什么我只跟练帕梅拉？"
-      url: "https://www.geedea.pro/article/pamela-reif/"
-    - name: "在线预订GTA6"
-      url: "https://www.youtube.com/watch?v=PkU5y1LlX0Y"
-    - name: "岐阜下吕温泉"
-      url: "https://shuiba.co/gero-onsen"
-    - name: "初夏荷花开-2026"
-      url: "https://xyzbz.cn/archives/1553/"
-    - name: "小黄的富士随拍：🌲和 🐈"
-      url: "https://usj.cc/20260626121417.html"
-    - name: "从猎户座之王到群星"
-      url: "https://blog.codingnow.com/2026/06/from_moo_to_stellaris.html"
-    - name: "20周年祝い"
-      url: "https://yusukeishida.jugem.jp/?eid=3983"
-    - name: "近期网站折腾记录：父亲的站点、后台整合与 ESA 缓存"
-      url: "https://www.xiaoten.com/posts/2026/06/ai-website-updates-esa-cache-notes/"
-    - name: "松松垮垮"
-      url: "https://zhongxiaojie.cn/2026/06/1539/"
-    - name: "又是一场送别"
-      url: "https://ilogs.cn/2026/06/24/386.html"
-    - name: "本地开发服务, 端口与网络访问基础"
-      url: "https://blog.gankudadiz.com/posts/local-development-service-port-and-network-access-basics"
-    - name: "我做了一个免费的在线图片压缩工具——VeryPixel"
-      url: "https://veryjack.com/technique/verypixel/"
-    - name: "286、夏至"
-      url: "https://1900.live/286-xia-zhi/"
-    - name: "天安门广场中弹台湾记者：我看到了最后一刻 | 柴静访谈"
-      url: "https://www.youtube.com/watch?v=nNcJxOd8T9o"
-    - name: "卫城脚下消失的城市：Makrygiannis plot 的四千年"
-      url: "https://sizheng.org/travel/four-thousand-years-under-makrygiannis-plot/"
-    - name: "戒烟失败第一天"
-      url: "https://ihaihe.cn/3658.htm"
-    - name: "使用nc命令发送网络请求的一个问题"
-      url: "https://blog.twofei.com/2308/"
-    - name: "Coffee"
-      url: "https://www.laomuzhu.cn/285.html"
-    - name: "Switching from VS Code to Vim"
-      url: "https://howsoonisnow.org/writings/blog/archive/switching-from-vs-code-to-vim/"
-    - name: "把 hydration 从 React UI 里解耦：一次 SPA 启动期边界纠正"
-      url: "https://innei.in/posts/tech/decouple-hydration-from-react-ui"
-    - name: "基于 Emacs-Lisp 的 HTML模版库"
-      url: "https://geekinney.com/blog/u956ep94/"
-    - name: "[果果作文]我的“自画像”"
-      url: "https://www.mrhe.net/3662.html"
-    - name: "浮生偷得半日闲"
-      url: "https://yufan.me/posts/stolen-half-day-leisure"
-    - name: "数码评测(69)：家用电脑理性优化升级天梯图之2026"
-      url: "http://www.auiou.com/relevant/00002162.jsp"
-    - name: "SpaceX上市，背后在玩什么资本游戏?"
-      url: "https://www.youtube.com/watch?v=wpb-DrbhEiY"
-    - name: "游钓四方 on Github"
-      url: "https://github.com/achuanya/astro-lhasa"
-    - name: "游钓四方 on X"
-      url: "https://x.com/haibao1027"
+'site':
+  'name': 'lhasa.icu'
+  'description': '友情链接'
+  'url': 'https://lhasa.icu/'
+  'links': '/friends'
+  'friends':
+    - 'name': '社会学为什么在中国难以发展？｜ 隐说 NO. 27'
+      'url': 'https://wangyurui.com/posts/she-hui-xue-wei-shi-yao-zai-zhong-guo-nan-yi-fa-112bb4cd'
+    - 'name': '静态博客如何添加rss文章聚合？'
+      'url': 'https://www.suiyan.cc/blog/20260628204100'
+    - 'name': '老梁：历史上的张献忠'
+      'url': 'https://www.youtube.com/watch?v=Yg7_W3hPBNw'
+    - 'name': '为什么中共高官，都在偷偷拜神？'
+      'url': 'https://www.youtube.com/shorts/8wpCAc4dNSU'
+    - 'name': '为什么我只跟练帕梅拉？'
+      'url': 'https://www.geedea.pro/article/pamela-reif/'
+    - 'name': '在线预订GTA6'
+      'url': 'https://www.youtube.com/watch?v=PkU5y1LlX0Y'
+    - 'name': '岐阜下吕温泉'
+      'url': 'https://shuiba.co/gero-onsen'
+    - 'name': '初夏荷花开-2026'
+      'url': 'https://xyzbz.cn/archives/1553/'
+    - 'name': '小黄的富士随拍：🌲和 🐈'
+      'url': 'https://usj.cc/20260626121417.html'
+    - 'name': '从猎户座之王到群星'
+      'url': 'https://blog.codingnow.com/2026/06/from_moo_to_stellaris.html'
+    - 'name': '20周年祝い'
+      'url': 'https://yusukeishida.jugem.jp/?eid=3983'
+    - 'name': '近期网站折腾记录：父亲的站点、后台整合与 ESA 缓存'
+      'url': 'https://www.xiaoten.com/posts/2026/06/ai-website-updates-esa-cache-notes/'
+    - 'name': '松松垮垮'
+      'url': 'https://zhongxiaojie.cn/2026/06/1539/'
+    - 'name': '又是一场送别'
+      'url': 'https://ilogs.cn/2026/06/24/386.html'
+    - 'name': '本地开发服务, 端口与网络访问基础'
+      'url': 'https://blog.gankudadiz.com/posts/local-development-service-port-and-network-access-basics'
+    - 'name': '286、夏至'
+      'url': 'https://1900.live/286-xia-zhi/'
+    - 'name': '天安门广场中弹台湾记者：我看到了最后一刻 | 柴静访谈'
+      'url': 'https://www.youtube.com/watch?v=nNcJxOd8T9o'
+    - 'name': '卫城脚下消失的城市：Makrygiannis plot 的四千年'
+      'url': 'https://sizheng.org/travel/four-thousand-years-under-makrygiannis-plot/'
+    - 'name': '戒烟失败第一天'
+      'url': 'https://ihaihe.cn/3658.htm'
+    - 'name': '使用nc命令发送网络请求的一个问题'
+      'url': 'https://blog.twofei.com/2308/'
+    - 'name': 'Coffee'
+      'url': 'https://www.laomuzhu.cn/285.html'
+    - 'name': 'Switching from VS Code to Vim'
+      'url': 'https://howsoonisnow.org/writings/blog/archive/switching-from-vs-code-to-vim/'
+    - 'name': '把 hydration 从 React UI 里解耦：一次 SPA 启动期边界纠正'
+      'url': 'https://innei.in/posts/tech/decouple-hydration-from-react-ui'
+    - 'name': '基于 Emacs-Lisp 的 HTML模版库'
+      'url': 'https://geekinney.com/blog/u956ep94/'
+    - 'name': '[果果作文]我的“自画像”'
+      'url': 'https://www.mrhe.net/3662.html'
+    - 'name': '浮生偷得半日闲'
+      'url': 'https://yufan.me/posts/stolen-half-day-leisure'
+    - 'name': '数码评测(69)：家用电脑理性优化升级天梯图之2026'
+      'url': 'http://www.auiou.com/relevant/00002162.jsp'
+    - 'name': 'SpaceX上市，背后在玩什么资本游戏?'
+      'url': 'https://www.youtube.com/watch?v=wpb-DrbhEiY'

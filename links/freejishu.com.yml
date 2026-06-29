@@ -1,144 +1,98 @@
-site:
-  name: "freejishu.com"
-  description: "友情链接"
-  url: "https://freejishu.com/"
-  links: "/friends"
-  friends:
-    - name: "杂文集"
-      url: "https://www.freejishu.com/category/%e6%9d%82%e6%96%87%e9%9b%86/"
-    - name: "API"
-      url: "https://www.freejishu.com/category/api/"
-    - name: "ACG"
-      url: "https://www.freejishu.com/category/acg/"
-    - name: "Hitokoto"
-      url: "https://www.freejishu.com/category/hitokoto/"
-    - name: "Laraval"
-      url: "https://www.freejishu.com/category/laraval/"
-    - name: "PHP"
-      url: "https://www.freejishu.com/category/php/"
-    - name: "直播"
-      url: "https://www.freejishu.com/category/%e7%9b%b4%e6%92%ad/"
-    - name: "未分类"
-      url: "https://www.freejishu.com/category/uncategorized/"
-    - name: "PicHost"
-      url: "https://pic.freejishu.com/"
-    - name: "freejishu FM"
-      url: "http://fm.freejishu.com/"
-    - name: "Status Live"
-      url: "http://status.freejishu.com/"
-    - name: "FM Live"
-      url: "https://live.bilibili.com/11849"
-    - name: "留言板"
-      url: "https://www.freejishu.com/guesttalks/"
-    - name: "QQ Group"
-      url: "http://shang.qq.com/wpa/qunwpa?idkey=3fe5eecad4e497df4c28019e4bd684219a5c0119cbc28c68679eae3341360851"
-    - name: "TG 频道"
-      url: "https://t.me/freejishulink"
-    - name: "小伙伴们(友链)"
-      url: "https://www.freejishu.com/friends/"
-    - name: "喜欢的歌曲"
-      url: "https://www.freejishu.com/music/"
-    - name: "【点我试试】开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "freejishu的美丽世界"
-      url: "https://www.freejishu.com"
-    - name: "ephen"
-      url: "http://ephen.me"
-    - name: "雪糕博客"
-      url: "https://blog.xuegaogg.com"
-    - name: "Gaein nidb 的小站"
-      url: "https://blog.gaein.cn/"
-    - name: "泠泫凝的异次元空间"
-      url: "https://lxnchan.cn"
-    - name: "戴兜"
-      url: "https://daidr.me/"
-    - name: "辣椒の酱"
-      url: "https://removeif.github.io"
-    - name: "Souta"
-      url: "https://souta.cc/"
-    - name: "惶心"
-      url: "https://huangxin.dev"
-    - name: "QWQAQ"
-      url: "https://qwqaq.com/"
-    - name: "Misaka10042的小站"
-      url: "https://www.mis1042.com"
-    - name: "DIYgod"
-      url: "http://diygod.me"
-    - name: "释雨寺"
-      url: "https://www.shakuameji.com/"
-    - name: "Jam"
-      url: "https://www.gzczy.top/"
-    - name: "Surager"
-      url: "https://surager.github.io/"
-    - name: "松江腊雪"
-      url: "http://imzyf.cn/"
-    - name: "a632079"
-      url: "http://i.a632079.me"
-    - name: "liwanglin12"
-      url: "http://blog.lwl12.com"
-    - name: "孤影墨香"
-      url: "https://www.gymxbl.com/"
-    - name: "杨英明"
-      url: "http://yangyingming.com/"
-    - name: "TonyHe"
-      url: "https://www.ouorz.com"
-    - name: "Eltrac"
-      url: "https://guhub.cn/"
-    - name: "渡鸦的小窝"
-      url: "https://polarws.moe/"
-    - name: "北小北"
-      url: "https://52xiaobei.cn"
-    - name: "小白-白"
-      url: "http://www.fczbl.vip"
-    - name: "百品博客"
-      url: "https://baipin.pw/"
-    - name: "狐狸菌の秘密基地"
-      url: "https://www.smartfox.cc/"
-    - name: "梨花镇的阿肾"
-      url: "https://imashen.cn/"
-    - name: "Dragon犬’s blog"
-      url: "https://blog.furrysp.top"
-    - name: "蓝莓"
-      url: "https://lanm.love"
-    - name: "诺诺的魔法日记"
-      url: "https://www.rmolives.cn/"
-    - name: "Freesun Blog"
-      url: "https://www.freesun.top/"
-    - name: "AweRailgun"
-      url: "https://miku.ie"
-    - name: "Scvoet"
-      url: "https://scvoet.me/"
-    - name: "Troy"
-      url: "https://itroy.cc/"
-    - name: "超能小紫"
-      url: "https://mok.moe/"
-    - name: "itsNekoDeng"
-      url: "https://dyfa.top/"
-    - name: "肥猪qwq"
-      url: "https://blog.feizhuqwq.com/"
-    - name: "Ada"
-      url: "https://www.adaxh.site"
-    - name: "时舟"
-      url: "https://www.sizau.com/"
-    - name: "Fly3949"
-      url: "http://www.fly3949.com"
-    - name: "恶魔菌"
-      url: "https://meow3.family.blog/"
-    - name: "DIY world"
-      url: "http://www.ysblog.xyz"
-    - name: "@typeof"
-      url: "https://typeof.pw/"
-    - name: "epalQQ"
-      url: "http://www.ubuntuhot.com"
-    - name: "Velas电波站"
-      url: "https://www.velasx.com/"
-    - name: "gtl0m"
-      url: "https://gtl0m.github.io/"
-    - name: "freejishu的美丽世界"
-      url: "https://www.freejishu.com/"
-    - name: "鲁ICP备15011388号"
-      url: "https://beian.miit.gov.cn/"
-    - name: "鲁公网安备 37050202370827号"
-      url: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37050202370827"
-    - name: "AxtonYao"
-      url: "https://flyhigher.top"
+'site':
+  'name': 'freejishu.com'
+  'description': '友情链接'
+  'url': 'https://freejishu.com/'
+  'links': '/friends'
+  'friends':
+    - 'name': 'PicHost'
+      'url': 'https://pic.freejishu.com/'
+    - 'name': 'freejishu FM'
+      'url': 'http://fm.freejishu.com/'
+    - 'name': 'ephen'
+      'url': 'http://ephen.me'
+    - 'name': '雪糕博客'
+      'url': 'https://blog.xuegaogg.com'
+    - 'name': 'Gaein nidb 的小站'
+      'url': 'https://blog.gaein.cn/'
+    - 'name': '泠泫凝的异次元空间'
+      'url': 'https://lxnchan.cn'
+    - 'name': '戴兜'
+      'url': 'https://daidr.me/'
+    - 'name': 'Souta'
+      'url': 'https://souta.cc/'
+    - 'name': '惶心'
+      'url': 'https://huangxin.dev'
+    - 'name': 'QWQAQ'
+      'url': 'https://qwqaq.com/'
+    - 'name': 'Misaka10042的小站'
+      'url': 'https://www.mis1042.com'
+    - 'name': 'DIYgod'
+      'url': 'http://diygod.me'
+    - 'name': '释雨寺'
+      'url': 'https://www.shakuameji.com/'
+    - 'name': 'Jam'
+      'url': 'https://www.gzczy.top/'
+    - 'name': '松江腊雪'
+      'url': 'http://imzyf.cn/'
+    - 'name': 'a632079'
+      'url': 'http://i.a632079.me'
+    - 'name': 'liwanglin12'
+      'url': 'http://blog.lwl12.com'
+    - 'name': '孤影墨香'
+      'url': 'https://www.gymxbl.com/'
+    - 'name': '杨英明'
+      'url': 'http://yangyingming.com/'
+    - 'name': 'TonyHe'
+      'url': 'https://www.ouorz.com'
+    - 'name': 'Eltrac'
+      'url': 'https://guhub.cn/'
+    - 'name': '渡鸦的小窝'
+      'url': 'https://polarws.moe/'
+    - 'name': '北小北'
+      'url': 'https://52xiaobei.cn'
+    - 'name': '小白-白'
+      'url': 'http://www.fczbl.vip'
+    - 'name': '百品博客'
+      'url': 'https://baipin.pw/'
+    - 'name': '狐狸菌の秘密基地'
+      'url': 'https://www.smartfox.cc/'
+    - 'name': '梨花镇的阿肾'
+      'url': 'https://imashen.cn/'
+    - 'name': 'Dragon犬’s blog'
+      'url': 'https://blog.furrysp.top'
+    - 'name': '蓝莓'
+      'url': 'https://lanm.love'
+    - 'name': '诺诺的魔法日记'
+      'url': 'https://www.rmolives.cn/'
+    - 'name': 'Freesun Blog'
+      'url': 'https://www.freesun.top/'
+    - 'name': 'AweRailgun'
+      'url': 'https://miku.ie'
+    - 'name': 'Scvoet'
+      'url': 'https://scvoet.me/'
+    - 'name': 'Troy'
+      'url': 'https://itroy.cc/'
+    - 'name': '超能小紫'
+      'url': 'https://mok.moe/'
+    - 'name': 'itsNekoDeng'
+      'url': 'https://dyfa.top/'
+    - 'name': '肥猪qwq'
+      'url': 'https://blog.feizhuqwq.com/'
+    - 'name': 'Ada'
+      'url': 'https://www.adaxh.site'
+    - 'name': '时舟'
+      'url': 'https://www.sizau.com/'
+    - 'name': 'Fly3949'
+      'url': 'http://www.fly3949.com'
+    - 'name': '恶魔菌'
+      'url': 'https://meow3.family.blog/'
+    - 'name': 'DIY world'
+      'url': 'http://www.ysblog.xyz'
+    - 'name': '@typeof'
+      'url': 'https://typeof.pw/'
+    - 'name': 'epalQQ'
+      'url': 'http://www.ubuntuhot.com'
+    - 'name': 'Velas电波站'
+      'url': 'https://www.velasx.com/'
+    - 'name': 'AxtonYao'
+      'url': 'https://flyhigher.top'

@@ -1,16 +1,14 @@
-site:
-  name: "liaooo.cn"
-  description: "友情链接"
-  url: "https://liaooo.cn/"
-  links: "/friends"
-  friends:
-    - name: "夜将夜Ajiang的个人博客，记录美好生活！"
-      url: "https://yejiangye.com"
-    - name: "BBing’s Blog自由 分享 合作"
-      url: "https://bbing.com.cn"
-    - name: "忆梦小站微笑着挥手再见，但内心却深知，以后不会再相见。"
-      url: "https://www.onyi.net"
-    - name: "孤影墨香温暖的灵魂终将相遇"
-      url: "https://www.gymxbl.com"
-    - name: "闽ICP备2022001488号"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'liaooo.cn'
+  'description': '友情链接'
+  'url': 'https://liaooo.cn/'
+  'links': '/friends'
+  'friends':
+    - 'name': '夜将夜Ajiang的个人博客，记录美好生活！'
+      'url': 'https://yejiangye.com'
+    - 'name': 'BBing’s Blog自由 分享 合作'
+      'url': 'https://bbing.com.cn'
+    - 'name': '忆梦小站微笑着挥手再见，但内心却深知，以后不会再相见。'
+      'url': 'https://www.onyi.net'
+    - 'name': '孤影墨香温暖的灵魂终将相遇'
+      'url': 'https://www.gymxbl.com'

@@ -1,66 +1,18 @@
-site:
-  name: "haoyu233.com"
-  description: "友情链接"
-  url: "https://haoyu233.com/"
-  links: "/link"
-  friends:
-    - name: "小改学习志"
-      url: "https://www.haoyu233.com"
-    - name: "📕文章"
-      url: "https://www.haoyu233.com/writings.html"
-    - name: "📢通知"
-      url: "https://www.haoyu233.com/official"
-    - name: "😋生活"
-      url: "https://www.haoyu233.com/life"
-    - name: "📚笔记"
-      url: "https://www.haoyu233.com/notes"
-    - name: "🔗分享"
-      url: "https://www.haoyu233.com/tech-sharing"
-    - name: "📖归档"
-      url: "https://www.haoyu233.com/archive.html"
-    - name: "🔗分类"
-      url: "https://www.haoyu233.com/class.html"
-    - name: "⌚片刻"
-      url: "https://www.haoyu233.com/moments.html"
-    - name: "🔗友链"
-      url: "https://www.haoyu233.com/friends.html"
-    - name: "🚇开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "🖊笔墨迹"
-      url: "https://blogscn.fun/random.html"
-    - name: "🚉十年之约"
-      url: "https://foreverblog.cn/go.html"
-    - name: "💡关于与订阅"
-      url: "https://www.haoyu233.com/about.html"
-    - name: "🛜RSS"
-      url: "https://www.haoyu233.com/feed"
-    - name: "My GitHub"
-      url: "https://github.com/kadzh520"
-    - name: "日常生活【26年2周记】琐事杂谈、近况描述，以及关于我2026年1月10日"
-      url: "https://www.haoyu233.com/2277.html"
-    - name: "本站公告【新人看这】本站de使用指南2025年5月31日"
-      url: "https://www.haoyu233.com/1260.html"
-    - name: "学习笔记\n         日常生活【25年20周记】期中考试结束、备战会考和一些收获2025年5月18日"
-      url: "https://www.haoyu233.com/1229.html"
-    - name: "学习笔记\n         技术分享【C++学习笔记】递归算法的初步理解与应用2025年4月4日"
-      url: "https://www.haoyu233.com/1081.html"
-    - name: "Horean2026年06月13日 23:31这个题干真的看着就晕，真不太像初中题😵‍💫"
-      url: "https://www.haoyu233.com/2472.html#comment_reply=387"
-    - name: "是阿改哦2026年06月06日 23:05@RiseForever：感谢感谢( ˃̶͈◡˂̶͈ ) !"
-      url: "https://www.haoyu233.com/2462.html#comment_reply=386"
-    - name: "RiseForever2026年06月06日 18:13祝中考顺利，旗开得胜！"
-      url: "https://www.haoyu233.com/2462.html#comment_reply=385"
-    - name: "Pinpe的云端一个属于自己的云朵来自 技术类型"
-      url: "https://pinpe.top"
-    - name: "HoraFeng在尝试各种各样的事情来自 日常生活"
-      url: "https://horafeng.top/"
-    - name: "Carkree Blog在无意义的世界中，热爱世界来自 日常生活"
-      url: "https://blog.carkree.com"
-    - name: "天空的小窝某位在校二次元电教委de个人小窝来自 技术类型"
-      url: "https://blog.baka233.top/"
-    - name: "XIAOWU漂泊于互联网的小猫来自 技术类型"
-      url: "https://youye-luna.top"
-    - name: "CC-BY-NC-ND 4.0"
-      url: "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans"
-    - name: "萌ICP备20254514号"
-      url: "https://icp.gov.moe/?keyword=20254514"
+'site':
+  'name': 'haoyu233.com'
+  'description': '友情链接'
+  'url': 'https://haoyu233.com/'
+  'links': '/link'
+  'friends':
+    - 'name': 'Pinpe的云端一个属于自己的云朵来自 技术类型'
+      'url': 'https://pinpe.top'
+    - 'name': 'HoraFeng在尝试各种各样的事情来自 日常生活'
+      'url': 'https://horafeng.top/'
+    - 'name': 'Carkree Blog在无意义的世界中，热爱世界来自 日常生活'
+      'url': 'https://blog.carkree.com'
+    - 'name': '天空的小窝某位在校二次元电教委de个人小窝来自 技术类型'
+      'url': 'https://blog.baka233.top/'
+    - 'name': 'XIAOWU漂泊于互联网的小猫来自 技术类型'
+      'url': 'https://youye-luna.top'
+    - 'name': 'CC-BY-NC-ND 4.0'
+      'url': 'https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans'

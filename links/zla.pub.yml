@@ -1,134 +1,114 @@
-site:
-  name: "zla.pub"
-  description: "友情链接"
-  url: "https://zla.pub/"
-  links: "/friends"
-  friends:
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "白鲸字幕组"
-      url: "https://www.belugasubs.com/"
-    - name: "SuzuBlog"
-      url: "https://suzu.zla.app/"
-    - name: "个人学术网站"
-      url: "https://elaraliu.com/"
-    - name: "React 工具库"
-      url: "https://react.zla.app/"
-    - name: "FGHRSH"
-      url: "https://www.fghrsh.net/"
-    - name: "DIYGod"
-      url: "https://diygod.me/"
-    - name: "Keishiの博客"
-      url: "https://keishi.cn"
-    - name: "折影轻梦"
-      url: "https://nexmoe.com/"
-    - name: "「云华」CloudSino"
-      url: "https://cloud.sd.cn/"
-    - name: "北雁云依"
-      url: "https://stblog.penclub.club/"
-    - name: "CrazyWong"
-      url: "https://blog.crazywong.com/"
-    - name: "Siren's Playground"
-      url: "https://siren-wang.github.io/"
-    - name: "Elykia"
-      url: "https://blog.elykia.cn/"
-    - name: "Ethan"
-      url: "https://hanlife02.com"
-    - name: "Arthals' ink"
-      url: "https://arthals.ink/"
-    - name: "清羽飞扬"
-      url: "https://blog.liushen.fun/"
-    - name: "Canmi"
-      url: "https://arc.canmi.icu/"
-    - name: "苏卡卡的有底洞"
-      url: "https://skk.moe"
-    - name: "紗夕里"
-      url: "https://blog.ovofish.com"
-    - name: "白のblog"
-      url: "https://blog.mashiro.pro"
-    - name: "城子的小屋"
-      url: "https://xcz.me/"
-    - name: "梦爱吃鱼"
-      url: "https://blog.bsgun.cn/"
-    - name: "云萧的咕咕屋"
-      url: "https://blog.crrashh.com"
-    - name: "Meorion"
-      url: "https://blog.meorion.moe"
-    - name: "晓雨杂记"
-      url: "https://www.lihaoyu.cn"
-    - name: "旺东自留地"
-      url: "https://wang618.cn"
-    - name: "echeverra"
-      url: "https://echeverra.cn"
-    - name: "Bensz"
-      url: "https://blognas.hwb0307.com"
-    - name: "HKK’s Diary"
-      url: "https://ihkk.net"
-    - name: "Hinai"
-      url: "https://blog.woo.moe"
-    - name: "良的世界"
-      url: "https://www.lemonary.cn"
-    - name: "W1ndys小屋"
-      url: "https://blog.w1ndys.top/"
-    - name: "微光档案"
-      url: "https://bikari.top"
-    - name: "纸鹿摸鱼处"
-      url: "https://blog.zhilu.cyou/"
-    - name: "Hitokoto - 一言"
-      url: "https://hitokoto.cn/"
-    - name: "Pigwan"
-      url: "https://pigwan.me/"
-    - name: "极客郎"
-      url: "https://blog.jkl.asia"
-    - name: "ZMTU"
-      url: "https://zmtu.com"
-    - name: "世男Sky的个人博客"
-      url: "https://www.shinansky.me"
-    - name: "Codfish Blog"
-      url: "https://codfish.top"
-    - name: "Houliabc’s ink"
-      url: "https://houliabc.dpdns.org/"
-    - name: "星辰の笔记"
-      url: "https://blog.strarry.top/"
-    - name: "THW’s Blog"
-      url: "https://blog.tianhw.top"
-    - name: "Sakun Notebook"
-      url: "https://www.sakun.space/"
-    - name: "mccsjs"
-      url: "https://mccsjs.eu.org/"
-    - name: "Abel"
-      url: "https://chen-huaneng.github.io/"
-    - name: "SatouのBlog"
-      url: "https://www.matsusatou.top/"
-    - name: "时隐重工"
-      url: "https://shiyin.cafe/"
-    - name: "Hmily"
-      url: "https://www.hmily.ren/"
-    - name: "Astral Reverie"
-      url: "https://montrong.cn"
-    - name: "狱杰"
-      url: "https://uegee.com/"
-    - name: "大熊"
-      url: "https://halo.aizaibao.cn"
-    - name: "A/B’s Blog"
-      url: "https://zmoe.com/"
-    - name: "Aciano"
-      url: "https://aciano.top/"
-    - name: "摸鱼の客栈"
-      url: "https://blog.fwneko.com"
-    - name: "TangShiMei 的小空间"
-      url: "https://blog.224418.xyz/"
-    - name: "XUIOO"
-      url: "https://blog.xuioo.com/"
-    - name: "jsDelivr 转换工具"
-      url: "https://www.jsdelivr.com/github"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Suzu"
-      url: "https://suzu.zla.app"
-    - name: "ZL Asica"
-      url: "https://zla.pub"
-    - name: "鲁ICP备19057855号-4"
-      url: "http://beian.miit.gov.cn/"
-    - name: "萌ICP备20247775号"
-      url: "https://icp.gov.moe/?keyword=20247775"
+'site':
+  'name': 'zla.pub'
+  'description': '友情链接'
+  'url': 'https://zla.pub/'
+  'links': '/friends'
+  'friends':
+    - 'name': '白鲸字幕组'
+      'url': 'https://www.belugasubs.com/'
+    - 'name': 'SuzuBlog'
+      'url': 'https://suzu.zla.app/'
+    - 'name': '个人学术网站'
+      'url': 'https://elaraliu.com/'
+    - 'name': 'FGHRSH'
+      'url': 'https://www.fghrsh.net/'
+    - 'name': 'DIYGod'
+      'url': 'https://diygod.me/'
+    - 'name': 'Keishiの博客'
+      'url': 'https://keishi.cn'
+    - 'name': '折影轻梦'
+      'url': 'https://nexmoe.com/'
+    - 'name': '北雁云依'
+      'url': 'https://stblog.penclub.club/'
+    - 'name': 'CrazyWong'
+      'url': 'https://blog.crazywong.com/'
+    - 'name': 'Elykia'
+      'url': 'https://blog.elykia.cn/'
+    - 'name': 'Ethan'
+      'url': 'https://hanlife02.com'
+    - 'name': 'Arthals'' ink'
+      'url': 'https://arthals.ink/'
+    - 'name': '清羽飞扬'
+      'url': 'https://blog.liushen.fun/'
+    - 'name': 'Canmi'
+      'url': 'https://arc.canmi.icu/'
+    - 'name': '苏卡卡的有底洞'
+      'url': 'https://skk.moe'
+    - 'name': '紗夕里'
+      'url': 'https://blog.ovofish.com'
+    - 'name': '白のblog'
+      'url': 'https://blog.mashiro.pro'
+    - 'name': '城子的小屋'
+      'url': 'https://xcz.me/'
+    - 'name': '梦爱吃鱼'
+      'url': 'https://blog.bsgun.cn/'
+    - 'name': '云萧的咕咕屋'
+      'url': 'https://blog.crrashh.com'
+    - 'name': 'Meorion'
+      'url': 'https://blog.meorion.moe'
+    - 'name': '晓雨杂记'
+      'url': 'https://www.lihaoyu.cn'
+    - 'name': '旺东自留地'
+      'url': 'https://wang618.cn'
+    - 'name': 'echeverra'
+      'url': 'https://echeverra.cn'
+    - 'name': 'Bensz'
+      'url': 'https://blognas.hwb0307.com'
+    - 'name': 'HKK’s Diary'
+      'url': 'https://ihkk.net'
+    - 'name': 'Hinai'
+      'url': 'https://blog.woo.moe'
+    - 'name': '良的世界'
+      'url': 'https://www.lemonary.cn'
+    - 'name': 'W1ndys小屋'
+      'url': 'https://blog.w1ndys.top/'
+    - 'name': '微光档案'
+      'url': 'https://bikari.top'
+    - 'name': '纸鹿摸鱼处'
+      'url': 'https://blog.zhilu.cyou/'
+    - 'name': 'Hitokoto - 一言'
+      'url': 'https://hitokoto.cn/'
+    - 'name': 'Pigwan'
+      'url': 'https://pigwan.me/'
+    - 'name': '极客郎'
+      'url': 'https://blog.jkl.asia'
+    - 'name': 'ZMTU'
+      'url': 'https://zmtu.com'
+    - 'name': '世男Sky的个人博客'
+      'url': 'https://www.shinansky.me'
+    - 'name': 'Codfish Blog'
+      'url': 'https://codfish.top'
+    - 'name': 'Houliabc’s ink'
+      'url': 'https://houliabc.dpdns.org/'
+    - 'name': '星辰の笔记'
+      'url': 'https://blog.strarry.top/'
+    - 'name': 'THW’s Blog'
+      'url': 'https://blog.tianhw.top'
+    - 'name': 'Sakun Notebook'
+      'url': 'https://www.sakun.space/'
+    - 'name': 'mccsjs'
+      'url': 'https://mccsjs.eu.org/'
+    - 'name': 'SatouのBlog'
+      'url': 'https://www.matsusatou.top/'
+    - 'name': '时隐重工'
+      'url': 'https://shiyin.cafe/'
+    - 'name': 'Hmily'
+      'url': 'https://www.hmily.ren/'
+    - 'name': 'Astral Reverie'
+      'url': 'https://montrong.cn'
+    - 'name': '狱杰'
+      'url': 'https://uegee.com/'
+    - 'name': '大熊'
+      'url': 'https://halo.aizaibao.cn'
+    - 'name': 'A/B’s Blog'
+      'url': 'https://zmoe.com/'
+    - 'name': 'Aciano'
+      'url': 'https://aciano.top/'
+    - 'name': '摸鱼の客栈'
+      'url': 'https://blog.fwneko.com'
+    - 'name': 'TangShiMei 的小空间'
+      'url': 'https://blog.224418.xyz/'
+    - 'name': 'XUIOO'
+      'url': 'https://blog.xuioo.com/'
+    - 'name': 'Suzu'
+      'url': 'https://suzu.zla.app'

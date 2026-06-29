@@ -1,44 +1,26 @@
-site:
-  name: "baihw.cn"
-  description: "友情链接"
-  url: "https://baihw.cn/"
-  links: "/link"
-  friends:
-    - name: "博客"
-      url: "https://baihw.cn"
-    - name: "个人主页"
-      url: "https://home.baihw.cn"
-    - name: "以前的博客"
-      url: "https://lingerbhw.github.io"
-    - name: "Github"
-      url: "https://github.com/lingerbhw"
-    - name: "过年啦"
-      url: "https://newyear.baihw.cn"
-    - name: "Linux系统移植篇(二)——Linux内核移植"
-      url: "https://www.fomal.cc/posts/7aaa16c1.html"
-    - name: "安知鱼生活明朗，万物可爱"
-      url: "https://blog.anheyu.com/"
-    - name: "Akilarの糖果屋欢迎光临糖果屋"
-      url: "https://akilar.top/"
-    - name: "张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Fomalhaut🥝Future is now 🍭🍭🍭"
-      url: "https://www.fomal.cc/"
-    - name: "Vincy云昔太阳出来了 雾就会散的"
-      url: "https://blog.vincy1230.net/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "51la统计"
-      url: "https://v6.51.la/"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/"
-    - name: "开往"
-      url: "https://github.com/travellings-link/travellings"
-    - name: "博客框架为Hexo_v6.2.0"
-      url: "https://hexo.io/"
-    - name: "本站项目由Github托管"
-      url: "https://github.com/"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "萌ICP备20251010号"
-      url: "https://icp.gov.moe/?keyword=20251010"
+'site':
+  'name': 'baihw.cn'
+  'description': '友情链接'
+  'url': 'https://baihw.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '个人主页'
+      'url': 'https://home.baihw.cn'
+    - 'name': '过年啦'
+      'url': 'https://newyear.baihw.cn'
+    - 'name': 'Linux系统移植篇(二)——Linux内核移植'
+      'url': 'https://www.fomal.cc/posts/7aaa16c1.html'
+    - 'name': '安知鱼生活明朗，万物可爱'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': 'Akilarの糖果屋欢迎光临糖果屋'
+      'url': 'https://akilar.top/'
+    - 'name': '张洪Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Fomalhaut🥝Future is now 🍭🍭🍭'
+      'url': 'https://www.fomal.cc/'
+    - 'name': 'Vincy云昔太阳出来了 雾就会散的'
+      'url': 'https://blog.vincy1230.net/'
+    - 'name': '51la统计'
+      'url': 'https://v6.51.la/'
+    - 'name': '博客框架为Hexo_v6.2.0'
+      'url': 'https://hexo.io/'

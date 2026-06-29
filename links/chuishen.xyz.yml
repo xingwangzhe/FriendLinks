@@ -1,88 +1,68 @@
-site:
-  name: "chuishen.xyz"
-  description: "友情链接"
-  url: "https://chuishen.xyz/"
-  links: "/friends"
-  friends:
-    - name: "https://chuishen.xyz/"
-      url: "https://chuishen.xyz/"
-    - name: "祈星海"
-      url: "https://www.zzzzhi.com"
-    - name: "ZhangJet"
-      url: "https://zhangjet.com/"
-    - name: "Fgaoxing"
-      url: "https://www.yt-blog.top/"
-    - name: "珂泽小站"
-      url: "https://www.kezez.com/"
-    - name: "低调小熊猫"
-      url: "https://ilovey.live"
-    - name: "Lemon's Blog"
-      url: "https://ning0818.top"
-    - name: "写bug的代码人"
-      url: "https://bugcoder.asia/"
-    - name: "那个码农"
-      url: "https://blog.thatcoder.cn/"
-    - name: "技术云"
-      url: "https://blog.svipwing.xyz/"
-    - name: "Casear的技术栈"
-      url: "https://casear.net/"
-    - name: "XiaoWangのBlog"
-      url: "https://wanghaiyang.cc"
-    - name: "KEVIN'S BLOG"
-      url: "https://blog.kevinchu.top"
-    - name: "Camill"
-      url: "https://camill.love"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "天鸡文学社"
-      url: "https://www.tjwxs.top"
-    - name: "MysticStars"
-      url: "https://www.mysticstars.cn/"
-    - name: "LIMEUWU"
-      url: "https://lihouse.xyz/"
-    - name: "月落星沉"
-      url: "https://www.asxe.vip/"
-    - name: "Redish101 Blog"
-      url: "https://blog.redish101.top"
-    - name: "呓语梦轩"
-      url: "https://blog.awaae001.top"
-    - name: "纸鹿摸鱼处"
-      url: "https://blog.zhilu.cyou"
-    - name: "轻风记"
-      url: "https://www.windy.ink"
-    - name: "雅余"
-      url: "https://yayu.net/"
-    - name: "OfferNow"
-      url: "https://www.offernow.cn"
-    - name: "枫林·浅羽·云梦"
-      url: "https://AGEN233.top/"
-    - name: "https://chuishen.xyz/suggestion/index.html"
-      url: "https://chuishen.xyz/suggestion/index.html"
-    - name: "Creative Commons"
-      url: "https://creativecommons.org/"
-    - name: "Attribution"
-      url: "https://creativecommons.org/licenses/by/4.0/"
-    - name: "Noncommercial"
-      url: "https://creativecommons.org/licenses/by-nc/4.0/"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "Waline"
-      url: "https://github.com/walinejs/waline"
-    - name: "土土www.tutime.cn"
-      url: "https://www.tutime.cn"
-    - name: "初二少年www.yt-blog.top"
-      url: "https://www.yt-blog.top"
-    - name: "玄云海www.oblivionocean.top"
-      url: "https://www.oblivionocean.top"
-    - name: "Hexo"
-      url: "https://hexo.io/"
-    - name: "Icarus"
-      url: "https://github.com/imaegoo/hexo-theme-icarus"
-    - name: "萌ICP备20244154号"
-      url: "https://icp.gov.moe/?keyword=20244154"
-    - name: "茶ICP备2025080136号"
-      url: "https://icp.redcha.cn/beian/ICP-2025080136.html"
-    - name: "无聊湾 🥱 The Boring Bay"
-      url: "https://boringbay.com"
-    - name: "GitHub"
-      url: "https://github.com/Lafcadia/"
+'site':
+  'name': 'chuishen.xyz'
+  'description': '友情链接'
+  'url': 'https://chuishen.xyz/'
+  'links': '/friends'
+  'friends':
+    - 'name': '祈星海'
+      'url': 'https://www.zzzzhi.com'
+    - 'name': 'ZhangJet'
+      'url': 'https://zhangjet.com/'
+    - 'name': 'Fgaoxing'
+      'url': 'https://www.yt-blog.top/'
+    - 'name': '珂泽小站'
+      'url': 'https://www.kezez.com/'
+    - 'name': '低调小熊猫'
+      'url': 'https://ilovey.live'
+    - 'name': 'Lemon''s Blog'
+      'url': 'https://ning0818.top'
+    - 'name': '写bug的代码人'
+      'url': 'https://bugcoder.asia/'
+    - 'name': '那个码农'
+      'url': 'https://blog.thatcoder.cn/'
+    - 'name': '技术云'
+      'url': 'https://blog.svipwing.xyz/'
+    - 'name': 'Casear的技术栈'
+      'url': 'https://casear.net/'
+    - 'name': 'XiaoWangのBlog'
+      'url': 'https://wanghaiyang.cc'
+    - 'name': 'KEVIN''S BLOG'
+      'url': 'https://blog.kevinchu.top'
+    - 'name': 'Camill'
+      'url': 'https://camill.love'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '天鸡文学社'
+      'url': 'https://www.tjwxs.top'
+    - 'name': 'MysticStars'
+      'url': 'https://www.mysticstars.cn/'
+    - 'name': 'LIMEUWU'
+      'url': 'https://lihouse.xyz/'
+    - 'name': '月落星沉'
+      'url': 'https://www.asxe.vip/'
+    - 'name': 'Redish101 Blog'
+      'url': 'https://blog.redish101.top'
+    - 'name': '呓语梦轩'
+      'url': 'https://blog.awaae001.top'
+    - 'name': '纸鹿摸鱼处'
+      'url': 'https://blog.zhilu.cyou'
+    - 'name': '轻风记'
+      'url': 'https://www.windy.ink'
+    - 'name': '雅余'
+      'url': 'https://yayu.net/'
+    - 'name': 'OfferNow'
+      'url': 'https://www.offernow.cn'
+    - 'name': '枫林·浅羽·云梦'
+      'url': 'https://AGEN233.top/'
+    - 'name': 'Creative Commons'
+      'url': 'https://creativecommons.org/'
+    - 'name': 'Attribution'
+      'url': 'https://creativecommons.org/licenses/by/4.0/'
+    - 'name': 'Noncommercial'
+      'url': 'https://creativecommons.org/licenses/by-nc/4.0/'
+    - 'name': '土土www.tutime.cn'
+      'url': 'https://www.tutime.cn'
+    - 'name': '初二少年www.yt-blog.top'
+      'url': 'https://www.yt-blog.top'
+    - 'name': '玄云海www.oblivionocean.top'
+      'url': 'https://www.oblivionocean.top'

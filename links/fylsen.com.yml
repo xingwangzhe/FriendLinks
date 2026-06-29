@@ -1,22 +1,14 @@
-site:
-  name: "fylsen.com"
-  description: "友情链接"
-  url: "https://fylsen.com/"
-  links: "/friends"
-  friends:
-    - name: "Aurielの小破站生活的最佳状态，是冷冷清清的风风火火生活的最佳状态，是冷冷清清的风风火火"
-      url: "https://www.auriel.top/"
-    - name: "张洪Heo分享设计与科技生活分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "第三夏尔认真生活，积极摸鱼认真生活，积极摸鱼"
-      url: "https://thirdshire.com"
-    - name: "cosWA的一声就哭了WA的一声就哭了"
-      url: "https://ysx.cosine.ren/"
-    - name: "Krau子供の时の梦は言えますか子供の时の梦は言えますか"
-      url: "https://krau.top"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "Gyoza"
-      url: "https://github.com/lxchapu/astro-gyoza"
-    - name: "Cedaric"
-      url: "https://github.com/Cedaric/astro-gyoza/tree/feature/tailwind-v4-migration"
+'site':
+  'name': 'fylsen.com'
+  'description': '友情链接'
+  'url': 'https://fylsen.com/'
+  'links': '/friends'
+  'friends':
+    - 'name': '张洪Heo分享设计与科技生活分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '第三夏尔认真生活，积极摸鱼认真生活，积极摸鱼'
+      'url': 'https://thirdshire.com'
+    - 'name': 'cosWA的一声就哭了WA的一声就哭了'
+      'url': 'https://ysx.cosine.ren/'
+    - 'name': 'Krau子供の时の梦は言えますか子供の时の梦は言えますか'
+      'url': 'https://krau.top'

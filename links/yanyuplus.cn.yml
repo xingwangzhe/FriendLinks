@@ -1,96 +1,62 @@
-site:
-  name: "yanyuplus.cn"
-  description: "友情链接"
-  url: "https://yanyuplus.cn/"
-  links: "/friends"
-  friends:
-    - name: "Blog\n个人博客"
-      url: "https://www.yanyuplus.cn/"
-    - name: "众言"
-      url: "https://www.yanyuplus.cn/board"
-    - name: "涟漪"
-      url: "https://www.yanyuplus.cn/friends"
-    - name: "足迹"
-      url: "https://www.yanyuplus.cn/footprint"
-    - name: "走心评论"
-      url: "https://www.yanyuplus.cn/mindful"
-    - name: "欢迎来到风起笔记，为您导读全站动态\n\t\t\t登录控制台"
-      url: "https://www.yanyuplus.cn/wp-login.php"
-    - name: "是的，但是利润摆在那儿，还是有些车企会偷偷操作，监管还需要加强"
-      url: "https://www.yanyuplus.cn/98.html#comment-4"
-    - name: "锁动力，锁功率，明确告知用户，可以，偷偷ota那就是犯法。"
-      url: "https://www.yanyuplus.cn/98.html#comment-3"
-    - name: "没关系，你不必喜欢自己的全部过去，也不必释怀。你只需要知道，过去的作用是把你带到现在，这就够了。"
-      url: "https://www.yanyuplus.cn/board#comment-2"
-    - name: "27"
-      url: "https://www.yanyuplus.cn/date/2026/06/27"
-    - name: "« 5 月"
-      url: "https://www.yanyuplus.cn/date/2026/05"
-    - name: "理想车机有多颠？"
-      url: "https://www.yanyuplus.cn/149.html"
-    - name: "夏日荷塘，一池清欢"
-      url: "https://www.yanyuplus.cn/122.html"
-    - name: "吉安武功山"
-      url: "https://www.yanyuplus.cn/109.html"
-    - name: "OTA锁电：技术原理 × 商业逻辑，谁在偷走你的续航？"
-      url: "https://www.yanyuplus.cn/98.html"
-    - name: "爱不是等待，而是练习"
-      url: "https://www.yanyuplus.cn/94.html"
-    - name: "在海拔3000米之上，遇见高山云地"
-      url: "https://www.yanyuplus.cn/72.html"
-    - name: "当国产车机开始”放飞自我”"
-      url: "https://www.yanyuplus.cn/60.html"
-    - name: "不再把自己活成别人的答案！"
-      url: "https://www.yanyuplus.cn/2.html"
-    - name: "组图"
-      url: "https://www.yanyuplus.cn/tag/photo"
-    - name: "摄影"
-      url: "https://www.yanyuplus.cn/tag/photography"
-    - name: "汽车"
-      url: "https://www.yanyuplus.cn/tag/car"
-    - name: "科技"
-      url: "https://www.yanyuplus.cn/tag/technology"
-    - name: "哲学"
-      url: "https://www.yanyuplus.cn/tag/philosophy"
-    - name: "独处"
-      url: "https://www.yanyuplus.cn/tag/solitude"
-    - name: "写作"
-      url: "https://www.yanyuplus.cn/tag/writing"
-    - name: "短札"
-      url: "https://www.yanyuplus.cn/tag/short-note"
-    - name: "雨天"
-      url: "https://www.yanyuplus.cn/tag/rainy-day"
-    - name: "正在阅读：涟漪"
-      url: "https://www.yanyuplus.cn/?random"
-    - name: "2026-06-18 10:27:38\n\t\t\t\t\t\t\t\tAI支付宝上手：内容全靠编，出问题甩锅给商家，付款快退款难"
-      url: "https://blog.zhheo.com/p/sir4kfs9.html"
-    - name: "2026-06-17 11:11:57\n\t\t\t\t\t\t\t\t重要照片一定要备份，手机养成照片备份的好习惯"
-      url: "https://blog.zhheo.com/p/cyw9sqnh.html"
-    - name: "2026-06-22 02:07:18\n\t\t\t\t\t\t\t\t论压力的双重属性：内生驱动力与外部阻滞力"
-      url: "https://www.seaepoch.com/articles/227ecbd2/"
-    - name: "2026-05-19 02:06:46\n\t\t\t\t\t\t\t\t最便宜的外卖点餐优惠教程"
-      url: "https://www.seaepoch.com/articles/69f8838d/"
-    - name: "2026-05-09 18:26:24\n\t\t\t\t\t\t\t\t风记得的音乐：《行将近》—— Soon to Leave"
-      url: "https://www.thyuu.com/82442/"
-    - name: "2026-05-06 12:00:05\n\t\t\t\t\t\t\t\tAI后时代的感情收割：影视飓风39分钟短片《再见亲人》"
-      url: "https://www.thyuu.com/82376/"
-    - name: "2026-06-01 12:23:00\n\t\t\t\t\t\t\t\t五月下旬杂记"
-      url: "https://vjo.cc/1981"
-    - name: "2026-05-11 08:30:00\n\t\t\t\t\t\t\t\t自驾云南"
-      url: "https://vjo.cc/1980"
-    - name: "2026-04-30 23:52:07\n\t\t\t\t\t\t\t\t轻言：为 Halo 注入一句话的灵动与温度"
-      url: "https://www.puresky.top/archives/CAymMFF6"
-    - name: "2026-04-02 20:22:37\n\t\t\t\t\t\t\t\t没开始的故事，闯进梦里"
-      url: "https://www.puresky.top/archives/ga973Dr3"
-    - name: "2026-03-27 11:08:14\n\t\t\t\t\t\t\t\t总务室差旅费报销业务流程"
-      url: "https://www.puresky.top/archives/gX6jbzYM"
-    - name: "24小时\n\t\t\t\t\t\t\t\tThriveX 4.0 还是那个起点，还是那份炽热"
-      url: "https://liuyuyang.net/article/2290"
-    - name: "2026-06-21 21:58:56\n\t\t\t\t\t\t\t\t⛰️ 好想环游世界 🥺"
-      url: "https://liuyuyang.net/record"
-    - name: "外婆"
-      url: "https://vjo.cc/1952"
-    - name: "THYUU/星度"
-      url: "https://theme.thyuu.com/"
-    - name: "蜀ICP备2022007957号-3"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'yanyuplus.cn'
+  'description': '友情链接'
+  'url': 'https://yanyuplus.cn/'
+  'links': '/friends'
+  'friends':
+    - 'name': "2026-06-18 10:27:38
+
+        \t\t\t\t\t\t\t\tAI支付宝上手：内容全靠编，出问题甩锅给商家，付款快退款难"
+      'url': 'https://blog.zhheo.com/p/sir4kfs9.html'
+    - 'name': "2026-06-17 11:11:57
+
+        \t\t\t\t\t\t\t\t重要照片一定要备份，手机养成照片备份的好习惯"
+      'url': 'https://blog.zhheo.com/p/cyw9sqnh.html'
+    - 'name': "2026-06-22 02:07:18
+
+        \t\t\t\t\t\t\t\t论压力的双重属性：内生驱动力与外部阻滞力"
+      'url': 'https://www.seaepoch.com/articles/227ecbd2/'
+    - 'name': "2026-05-19 02:06:46
+
+        \t\t\t\t\t\t\t\t最便宜的外卖点餐优惠教程"
+      'url': 'https://www.seaepoch.com/articles/69f8838d/'
+    - 'name': "2026-05-09 18:26:24
+
+        \t\t\t\t\t\t\t\t风记得的音乐：《行将近》—— Soon to Leave"
+      'url': 'https://www.thyuu.com/82442/'
+    - 'name': "2026-05-06 12:00:05
+
+        \t\t\t\t\t\t\t\tAI后时代的感情收割：影视飓风39分钟短片《再见亲人》"
+      'url': 'https://www.thyuu.com/82376/'
+    - 'name': "2026-06-01 12:23:00
+
+        \t\t\t\t\t\t\t\t五月下旬杂记"
+      'url': 'https://vjo.cc/1981'
+    - 'name': "2026-05-11 08:30:00
+
+        \t\t\t\t\t\t\t\t自驾云南"
+      'url': 'https://vjo.cc/1980'
+    - 'name': "2026-04-30 23:52:07
+
+        \t\t\t\t\t\t\t\t轻言：为 Halo 注入一句话的灵动与温度"
+      'url': 'https://www.puresky.top/archives/CAymMFF6'
+    - 'name': "2026-04-02 20:22:37
+
+        \t\t\t\t\t\t\t\t没开始的故事，闯进梦里"
+      'url': 'https://www.puresky.top/archives/ga973Dr3'
+    - 'name': "2026-03-27 11:08:14
+
+        \t\t\t\t\t\t\t\t总务室差旅费报销业务流程"
+      'url': 'https://www.puresky.top/archives/gX6jbzYM'
+    - 'name': "24小时
+
+        \t\t\t\t\t\t\t\tThriveX 4.0 还是那个起点，还是那份炽热"
+      'url': 'https://liuyuyang.net/article/2290'
+    - 'name': "2026-06-21 21:58:56
+
+        \t\t\t\t\t\t\t\t⛰️ 好想环游世界 🥺"
+      'url': 'https://liuyuyang.net/record'
+    - 'name': '外婆'
+      'url': 'https://vjo.cc/1952'
+    - 'name': 'THYUU/星度'
+      'url': 'https://theme.thyuu.com/'

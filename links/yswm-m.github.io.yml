@@ -1,58 +1,46 @@
-site:
-  name: "yswm-m.github.io"
-  description: "友情链接"
-  url: "https://yswm-m.github.io/"
-  links: "/link"
-  friends:
-    - name: "一生雾梦の博客"
-      url: "https://yswm-m.github.io"
-    - name: "Xianqiの博客"
-      url: "http://ze520.cn"
-    - name: "LYTの博客"
-      url: "https://blog.lyt11.cn/"
-    - name: "Reverseの博客"
-      url: "https://blog.c12th.cn/"
-    - name: "Jerryの博客"
-      url: "https://butterfly.js.org/"
-    - name: "Aker samaの博客"
-      url: "https://akersama.gitee.io/"
-    - name: "安知鱼の博客"
-      url: "http://anzhiy.cn/"
-    - name: "默烦の博客"
-      url: "https://mofan212.github.io/"
-    - name: "GamerNoTitleの博客"
-      url: "https://bili33.top/"
-    - name: "空梦の博客"
-      url: "https://kmar.top/"
-    - name: "Akilarの博客"
-      url: "https://akilar.top/"
-    - name: "花未眠の博客"
-      url: "https://www.linhaojun.top/"
-    - name: "八尺妖剑の博客"
-      url: "https://www.waer.ltd"
-    - name: "Mr-吴の客栈"
-      url: "https://www.wuweijan.cn"
-    - name: "Xlenco"
-      url: "https://xlenco.eu.org"
-    - name: "Lete乐特"
-      url: "https://www.imlete.cn/"
-    - name: "霜月琉璃"
-      url: "https://shoka.lostyu.me/"
-    - name: "CtrlCherry"
-      url: "https://ctrlx.life"
-    - name: "ZYKJ's Blog"
-      url: "https://zykj.js.org/"
-    - name: "海拥"
-      url: "https://haiyong.site"
-    - name: "tyrantlucifer"
-      url: "https://tyrantlucifer.com"
-    - name: "爱编程的大丙"
-      url: "https://subingwen.cn/"
-    - name: "个人主页"
-      url: "https://yswm-m.github.io/about/"
-    - name: "Github"
-      url: "https://github.com/yswm-m/yswm-m.github.io.git"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
+'site':
+  'name': 'yswm-m.github.io'
+  'description': '友情链接'
+  'url': 'https://yswm-m.github.io/'
+  'links': '/link'
+  'friends':
+    - 'name': 'Xianqiの博客'
+      'url': 'http://ze520.cn'
+    - 'name': 'LYTの博客'
+      'url': 'https://blog.lyt11.cn/'
+    - 'name': 'Reverseの博客'
+      'url': 'https://blog.c12th.cn/'
+    - 'name': 'Jerryの博客'
+      'url': 'https://butterfly.js.org/'
+    - 'name': 'Aker samaの博客'
+      'url': 'https://akersama.gitee.io/'
+    - 'name': '安知鱼の博客'
+      'url': 'http://anzhiy.cn/'
+    - 'name': 'GamerNoTitleの博客'
+      'url': 'https://bili33.top/'
+    - 'name': '空梦の博客'
+      'url': 'https://kmar.top/'
+    - 'name': 'Akilarの博客'
+      'url': 'https://akilar.top/'
+    - 'name': '花未眠の博客'
+      'url': 'https://www.linhaojun.top/'
+    - 'name': '八尺妖剑の博客'
+      'url': 'https://www.waer.ltd'
+    - 'name': 'Mr-吴の客栈'
+      'url': 'https://www.wuweijan.cn'
+    - 'name': 'Xlenco'
+      'url': 'https://xlenco.eu.org'
+    - 'name': 'Lete乐特'
+      'url': 'https://www.imlete.cn/'
+    - 'name': '霜月琉璃'
+      'url': 'https://shoka.lostyu.me/'
+    - 'name': 'CtrlCherry'
+      'url': 'https://ctrlx.life'
+    - 'name': 'ZYKJ''s Blog'
+      'url': 'https://zykj.js.org/'
+    - 'name': '海拥'
+      'url': 'https://haiyong.site'
+    - 'name': 'tyrantlucifer'
+      'url': 'https://tyrantlucifer.com'
+    - 'name': '爱编程的大丙'
+      'url': 'https://subingwen.cn/'

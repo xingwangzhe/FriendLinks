@@ -1,38 +1,22 @@
-site:
-  name: "阿岳"
-  url: "https://littlefean.github.io/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "我的小宇宙"
-      url: "https://www.littlefean.com"
-    - name: "皓子的小站"
-      url: "https://howiehz.top/"
-    - name: "Rutublog"
-      url: "https://rutubet.top/"
-    - name: "ZTY’s Blog"
-      url: "https://zty012.de/"
-    - name: "Tasso的个人网站"
-      url: "https://mrmrmrtasso.github.io/"
-    - name: "littlefean.com"
-      url: "https://www.littlefean.com/"
-    - name: "www.bitmountain.top"
-      url: "https://www.bitmountain.top/"
-    - name: "music-practice"
-      url: "https://music-practice.zeabur.app/"
-    - name: "littleText"
-      url: "https://littlefean.github.io/LittleText/"
-    - name: "CodingPersonality"
-      url: "https://littlefean.github.io/CodingPersonality/"
-    - name: "CannonWar"
-      url: "https://littlefean.github.io/CannonWar/"
-    - name: "围棋大变种"
-      url: "https://littlefean.github.io/GoVariation/"
-    - name: "mountainspring"
-      url: "https://mountainspring.com.cn/"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Chic"
-      url: "https://github.com/Siricee/hexo-theme-Chic"
+'site':
+  'name': '阿岳'
+  'url': 'https://littlefean.github.io/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '我的小宇宙'
+      'url': 'https://www.littlefean.com'
+    - 'name': '皓子的小站'
+      'url': 'https://howiehz.top/'
+    - 'name': 'Rutublog'
+      'url': 'https://rutubet.top/'
+    - 'name': 'ZTY’s Blog'
+      'url': 'https://zty012.de/'
+    - 'name': 'littlefean.com'
+      'url': 'https://www.littlefean.com/'
+    - 'name': 'www.bitmountain.top'
+      'url': 'https://www.bitmountain.top/'
+    - 'name': 'music-practice'
+      'url': 'https://music-practice.zeabur.app/'
+    - 'name': 'mountainspring'
+      'url': 'https://mountainspring.com.cn/'

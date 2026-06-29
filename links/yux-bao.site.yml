@@ -1,38 +1,26 @@
-site:
-  name: "yux-bao.site"
-  description: "友情链接"
-  url: "https://yux-bao.site/"
-  links: "/friends"
-  friends:
-    - name: "开往"
-      url: "https://www.travellings.cn/train.html"
-    - name: "在 GitHub 上找到我"
-      url: "https://github.com/YuxBao"
-    - name: "网站分析"
-      url: "https://cloud.umami.is/share/ejlVUOtIdGY5Sf96"
-    - name: "信也のブログ一写代码的"
-      url: "https://shinya.click"
-    - name: "张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Axi's Blog一只可爱小猫"
-      url: "https://axi404.top"
-    - name: "澄健码上洞见，知行合一"
-      url: "https://penjc.cn"
-    - name: "HoeyTeacher, I'm on fire to improve!"
-      url: "https://zhenghaoyang.cn/"
-    - name: "阿涛の小破站Docker技术分享"
-      url: "https://emohe.cn"
-    - name: "默烦彩笔的打怪升级之路..."
-      url: "https://mofan212.github.io/"
-    - name: "KELIN’S RECORDS梦见什么写什么"
-      url: "https://www.kelin.ink"
-    - name: "牛牛技术客栈学习改变命运，分享创造价值"
-      url: "https://www.nnjskz.cn"
-    - name: "GnixAijLife Tracking & Tech Sharing"
-      url: "https://vluv.space"
-    - name: "Neomelt’s BlogKeep looking, don’t settle"
-      url: "https://neomelt.cloud"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "沪ICP备2025147371号"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'yux-bao.site'
+  'description': '友情链接'
+  'url': 'https://yux-bao.site/'
+  'links': '/friends'
+  'friends':
+    - 'name': '信也のブログ一写代码的'
+      'url': 'https://shinya.click'
+    - 'name': '张洪Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Axi''s Blog一只可爱小猫'
+      'url': 'https://axi404.top'
+    - 'name': '澄健码上洞见，知行合一'
+      'url': 'https://penjc.cn'
+    - 'name': 'HoeyTeacher, I''m on fire to improve!'
+      'url': 'https://zhenghaoyang.cn/'
+    - 'name': '阿涛の小破站Docker技术分享'
+      'url': 'https://emohe.cn'
+    - 'name': 'KELIN’S RECORDS梦见什么写什么'
+      'url': 'https://www.kelin.ink'
+    - 'name': '牛牛技术客栈学习改变命运，分享创造价值'
+      'url': 'https://www.nnjskz.cn'
+    - 'name': 'GnixAijLife Tracking & Tech Sharing'
+      'url': 'https://vluv.space'
+    - 'name': 'Neomelt’s BlogKeep looking, don’t settle'
+      'url': 'https://neomelt.cloud'

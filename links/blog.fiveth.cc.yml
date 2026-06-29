@@ -1,12 +1,8 @@
-site:
-  name: "blog.fiveth.cc"
-  description: "友情链接"
-  url: "https://blog.fiveth.cc/"
-  links: "/link"
-  friends:
-    - name: "MamboJiang"
-      url: "https://mambojiang.site"
-    - name: "Timewaster"
-      url: "https://timewaster43.github.io"
-    - name: "Hugo Bear Neo"
-      url: "https://github.com/rokcso/hugo-bearneo/"
+'site':
+  'name': 'blog.fiveth.cc'
+  'description': '友情链接'
+  'url': 'https://blog.fiveth.cc/'
+  'links': '/link'
+  'friends':
+    - 'name': 'MamboJiang'
+      'url': 'https://mambojiang.site'

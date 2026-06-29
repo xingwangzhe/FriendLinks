@@ -1,38 +1,32 @@
-site:
-  name: 拾音集
-  description: 拾音集
-  url: https://blog.tibtob.cn
-  links: /links
-  friends:
-    - name: 张洪Heo
-      url: https://blog.zhheo.com/
-    - name: 博友圈
-      url: https://www.boyouquan.com/home
-    - name: 卖烤肉
-      url: https://b.ncii.cn/
-    - name: 云云星羽
-      url: https://starssr.com
-    - name: 白鱼小栈
-      url: https://www.baiyuyu.com
-    - name: 目的地-Destination
-      url: https://chrison.cn/
-    - name: 旺东自留地
-      url: https://wang618.cn/
-    - name: BlogFinder
-      url: https://bf.zzxworld.com/
-    - name: 阿锦在线
-      url: https://www.ajinol.com
-    - name: 安知鱼
-      url: https://blog.anheyu.com/
-    - name: ZY知识库
-      url: https://blog.pljzy.top/
-    - name: 秋記Autumn
-      url: https://www.zhyok.cn
-    - name: 博客集
-      url: https://bloginc.cn
-    - name: Xuan's blog
-      url: https://blog.ybyq.wang/
-    - name: 彬红茶日记
-      url: https://note.redcha.cn
-    - name: 笔墨迹
-      url: https://blogscn.fun/
+'site':
+  'name': '拾音集'
+  'description': '拾音集'
+  'url': 'https://blog.tibtob.cn'
+  'links': '/links'
+  'friends':
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '卖烤肉'
+      'url': 'https://b.ncii.cn/'
+    - 'name': '云云星羽'
+      'url': 'https://starssr.com'
+    - 'name': '白鱼小栈'
+      'url': 'https://www.baiyuyu.com'
+    - 'name': '目的地-Destination'
+      'url': 'https://chrison.cn/'
+    - 'name': '旺东自留地'
+      'url': 'https://wang618.cn/'
+    - 'name': 'BlogFinder'
+      'url': 'https://bf.zzxworld.com/'
+    - 'name': '阿锦在线'
+      'url': 'https://www.ajinol.com'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': 'ZY知识库'
+      'url': 'https://blog.pljzy.top/'
+    - 'name': '秋記Autumn'
+      'url': 'https://www.zhyok.cn'
+    - 'name': 'Xuan''s blog'
+      'url': 'https://blog.ybyq.wang/'
+    - 'name': '彬红茶日记'
+      'url': 'https://note.redcha.cn'

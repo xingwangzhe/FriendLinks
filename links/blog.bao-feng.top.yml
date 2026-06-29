@@ -1,64 +1,104 @@
-site:
-  name: "blog.bao-feng.top"
-  description: "友情链接"
-  url: "https://blog.bao-feng.top/"
-  links: "/link"
-  friends:
-    - name: "起始页"
-      url: "https://bao-feng.top"
-    - name: "JerryC\n      \n      JerryC \n      今日事，今日毕"
-      url: "https://butterfly.js.org/"
-    - name: "Dylan\n      \n      Dylan \n      Dylan's Blog"
-      url: "https://dylan233.me"
-    - name: "张洪Heo\n      \n      张洪Heo \n      分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Ariasakaの小窝\n      \n      Ariasakaの小窝 \n      人有悲欢离合 月有阴晴圆缺"
-      url: "https://yisous.xyz"
-    - name: "安知鱼\n      \n      安知鱼 \n      生活明朗，万物可爱"
-      url: "https://blog.anheyu.com/"
-    - name: "花猪\n      \n      花猪 \n      佛系青年"
-      url: "https://cnhuazhu.top/"
-    - name: "Leonus\n      \n      Leonus \n      进一寸有进一寸的欢喜。"
-      url: "https://blog.leonus.cn/"
-    - name: "ichika\n      \n      ichika \n      Hello,gamer!"
-      url: "https://ichika.cc"
-    - name: "二兔\n      \n      二兔 \n      你真是一个美好的人类"
-      url: "https://blog.juanertu.com"
-    - name: "My Github"
-      url: "https://github.com/baofengqwq"
-    - name: "曹丕"
-      url: "http://baike.baidu.com/subview/5199/5369025.htm"
-    - name: "郑和"
-      url: "http://baike.baidu.com/view/1988.htm"
-    - name: "亨利·克莱"
-      url: "http://baike.baidu.com/view/1409374.htm"
-    - name: "托马斯·亨利·赫胥黎"
-      url: "http://baike.baidu.com/view/279814.htm"
-    - name: "诺贝尔奖"
-      url: "http://baike.baidu.com/view/6170.htm"
-    - name: "第二次巴尔干战争"
-      url: "http://baike.baidu.com/view/161360.htm"
-    - name: "奥里亚娜·法拉奇"
-      url: "http://baike.baidu.com/view/3075080.htm"
-    - name: "保罗·克利"
-      url: "http://baike.baidu.com/view/1191179.htm"
-    - name: "种族隔离"
-      url: "http://baike.baidu.com/view/122490.htm"
-    - name: "东风二号"
-      url: "http://baike.baidu.com/view/2994035.htm"
-    - name: "柬埔寨"
-      url: "http://baike.baidu.com/view/7501.htm"
-    - name: "塞舌尔共和国"
-      url: "http://baike.baidu.com/view/22020.htm"
-    - name: "《中国妇女》"
-      url: "http://baike.baidu.com/view/1122785.htm"
-    - name: "三丰百货店"
-      url: "http://baike.baidu.com/view/1448657.htm"
-    - name: "青藏铁路"
-      url: "http://baike.baidu.com/view/2580.htm"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
-    - name: "萌ICP备20236555号"
-      url: "https://icp.gov.moe/?keyword=20236555"
+'site':
+  'name': 'blog.bao-feng.top'
+  'description': '友情链接'
+  'url': 'https://blog.bao-feng.top/'
+  'links': '/link'
+  'friends':
+    - 'name': '起始页'
+      'url': 'https://bao-feng.top'
+    - 'name': "JerryC
+
+        \     \ 
+
+        \      JerryC\ 
+
+        \      今日事，今日毕"
+      'url': 'https://butterfly.js.org/'
+    - 'name': "Dylan
+
+        \     \ 
+
+        \      Dylan\ 
+
+        \      Dylan's Blog"
+      'url': 'https://dylan233.me'
+    - 'name': "张洪Heo
+
+        \     \ 
+
+        \      张洪Heo\ 
+
+        \      分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "Ariasakaの小窝
+
+        \     \ 
+
+        \      Ariasakaの小窝\ 
+
+        \      人有悲欢离合 月有阴晴圆缺"
+      'url': 'https://yisous.xyz'
+    - 'name': "安知鱼
+
+        \     \ 
+
+        \      安知鱼\ 
+
+        \      生活明朗，万物可爱"
+      'url': 'https://blog.anheyu.com/'
+    - 'name': "花猪\n     \ \n      花猪\ \n      佛系青年"
+      'url': 'https://cnhuazhu.top/'
+    - 'name': "Leonus
+
+        \     \ 
+
+        \      Leonus\ 
+
+        \      进一寸有进一寸的欢喜。"
+      'url': 'https://blog.leonus.cn/'
+    - 'name': "ichika
+
+        \     \ 
+
+        \      ichika\ 
+
+        \      Hello,gamer!"
+      'url': 'https://ichika.cc'
+    - 'name': "二兔
+
+        \     \ 
+
+        \      二兔\ 
+
+        \      你真是一个美好的人类"
+      'url': 'https://blog.juanertu.com'
+    - 'name': '曹丕'
+      'url': 'http://baike.baidu.com/subview/5199/5369025.htm'
+    - 'name': '郑和'
+      'url': 'http://baike.baidu.com/view/1988.htm'
+    - 'name': '亨利·克莱'
+      'url': 'http://baike.baidu.com/view/1409374.htm'
+    - 'name': '托马斯·亨利·赫胥黎'
+      'url': 'http://baike.baidu.com/view/279814.htm'
+    - 'name': '诺贝尔奖'
+      'url': 'http://baike.baidu.com/view/6170.htm'
+    - 'name': '第二次巴尔干战争'
+      'url': 'http://baike.baidu.com/view/161360.htm'
+    - 'name': '奥里亚娜·法拉奇'
+      'url': 'http://baike.baidu.com/view/3075080.htm'
+    - 'name': '保罗·克利'
+      'url': 'http://baike.baidu.com/view/1191179.htm'
+    - 'name': '种族隔离'
+      'url': 'http://baike.baidu.com/view/122490.htm'
+    - 'name': '东风二号'
+      'url': 'http://baike.baidu.com/view/2994035.htm'
+    - 'name': '柬埔寨'
+      'url': 'http://baike.baidu.com/view/7501.htm'
+    - 'name': '塞舌尔共和国'
+      'url': 'http://baike.baidu.com/view/22020.htm'
+    - 'name': '《中国妇女》'
+      'url': 'http://baike.baidu.com/view/1122785.htm'
+    - 'name': '三丰百货店'
+      'url': 'http://baike.baidu.com/view/1448657.htm'
+    - 'name': '青藏铁路'
+      'url': 'http://baike.baidu.com/view/2580.htm'

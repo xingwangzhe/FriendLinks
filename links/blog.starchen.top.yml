@@ -1,54 +1,42 @@
-site:
-  name: "星辰博客"
-  url: "https://blog.starchen.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "星辰博客"
-      url: "https://blog.starchen.top"
-    - name: "📖 文章列表"
-      url: "https://blog.starchen.top/postlist/"
-    - name: "🏷️ 文章标签"
-      url: "https://blog.starchen.top/tags/"
-    - name: "📂 文章分类"
-      url: "https://blog.starchen.top/categories/"
-    - name: "📗 文章归纳"
-      url: "https://blog.starchen.top/archives/"
-    - name: "✨ 片刻瞬间"
-      url: "https://blog.starchen.top/moments/"
-    - name: "🎨 臻藏画展"
-      url: "https://blog.starchen.top/galleries/"
-    - name: "🖥 站点监控"
-      url: "http://monitor.starchen.top/status/monitor"
-    - name: "🚆 开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "🤪 友情链接"
-      url: "https://blog.starchen.top/links/"
-    - name: "☁︎ 光秒云"
-      url: "https://idc.zicyun.cn/"
-    - name: "张洪Heo\n                                            分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "图灵技术域\n                                            OmegaXYZ"
-      url: "http://www.omegaxyz.com/"
-    - name: "Castamere\n                                            代码美学"
-      url: "https://www.castamerego.com/"
-    - name: "青稚の空间\n                                            越努力，越幸运."
-      url: "https://blog.linux-qitong.top/"
-    - name: "AkiDAY\n                                            永恒秋日之星"
-      url: "https://blog.akiday.com"
-    - name: "轻雅阁\n                                            新时代教师的日常"
-      url: "https://www.puresky.top"
-    - name: "Aezir\n                                            白云不羡仙乡"
-      url: "https://aezir.vercel.app/"
-    - name: "星宇云API\n                                            简单，快速上手~"
-      url: "https://api.fohok.xin/"
-    - name: "光秒云\n                                            精品云服务器"
-      url: "https://id0.cn"
-    - name: "洋洋"
-      url: "https://zoc.asia"
-    - name: "MinChess"
-      url: "https://blog.jiumoz.com/"
-    - name: "懋和道人"
-      url: "https://www.dao.js.cn/"
-    - name: "点击前往：无聊湾 🥱 The Boring Bay"
-      url: "https://boringbay.com"
+'site':
+  'name': '星辰博客'
+  'url': 'https://blog.starchen.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '☁︎ 光秒云'
+      'url': 'https://idc.zicyun.cn/'
+    - 'name': "张洪Heo
+
+        \                                            分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "图灵技术域
+
+        \                                            OmegaXYZ"
+      'url': 'http://www.omegaxyz.com/'
+    - 'name': "Castamere
+
+        \                                            代码美学"
+      'url': 'https://www.castamerego.com/'
+    - 'name': "青稚の空间
+
+        \                                            越努力，越幸运."
+      'url': 'https://blog.linux-qitong.top/'
+    - 'name': "AkiDAY
+
+        \                                            永恒秋日之星"
+      'url': 'https://blog.akiday.com'
+    - 'name': "轻雅阁
+
+        \                                            新时代教师的日常"
+      'url': 'https://www.puresky.top'
+    - 'name': "光秒云
+
+        \                                            精品云服务器"
+      'url': 'https://id0.cn'
+    - 'name': '洋洋'
+      'url': 'https://zoc.asia'
+    - 'name': 'MinChess'
+      'url': 'https://blog.jiumoz.com/'
+    - 'name': '懋和道人'
+      'url': 'https://www.dao.js.cn/'

@@ -1,190 +1,160 @@
-site:
-  name: "荒野菲克"
-  url: "https://ficor.net/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "荒野菲克"
-      url: "https://i.ficor.net"
-    - name: "柒色墨笺"
-      url: "https://vii.ink"
-    - name: "Lawpan"
-      url: "https://lawpan.cc"
-    - name: "ACEVS你坚持过什么事情？"
-      url: "https://acevs.com"
-    - name: "我是军爸记录单片机编程教学、生活与成长点滴"
-      url: "https://me.xu19.com"
-    - name: "瓦匠不舟大家都是倔强的人"
-      url: "https://airy.ink"
-    - name: "Yang's Blog一亩三分地，记录生活，分享见闻"
-      url: "https://knay.net"
-    - name: "旺东自留地爱生活、爱摸鱼"
-      url: "https://wang618.cn"
-    - name: "朱小呆记录生活分享美好"
-      url: "https://zhujay.com"
-    - name: "皇家园林欢迎来到皇家元林"
-      url: "https://hjyl.org"
-    - name: "子夜松声互联网爱好者"
-      url: "https://xyzbz.cn"
-    - name: "三十海河扩大自己的自由边界"
-      url: "https://ihaihe.cn"
-    - name: "obaby@mars黑客程序媛"
-      url: "https://oba.by"
-    - name: "皮皮社皮一下~很开心"
-      url: "https://www.pipishe.com"
-    - name: "韩情脉脉任何记录都是为了让以后有迹可循"
-      url: "https://www.hxy.cc"
-    - name: "全局变量记录生活中的平凡事"
-      url: "https://ilogs.cn"
-    - name: "我心向阳看清生活的真相后依然热爱生活"
-      url: "https://www.hollowman.cn"
-    - name: "碎言"
-      url: "https://www.suiyan.cc/"
-    - name: "风舞心弦真心走过每个瞬间"
-      url: "https://fengwu.art/"
-    - name: "织梦岁月老朱的日常"
-      url: "https://zhujianlin.com/"
-    - name: "飞絮落叶雪分享老何的故事"
-      url: "https://www.mrhe.net/"
-    - name: "fengc's Blog让我们一起在镜头下发现生活之美"
-      url: "https://fengcblog.880200.xyz/"
-    - name: "平哥偶记"
-      url: "https://www.pgoj.top/"
-    - name: "孤鬥做自己，不隨波逐流，不妥協"
-      url: "https://d-d.design"
-    - name: "小王子"
-      url: "https://www.wanghao.me/"
-    - name: "老刘博客热爱传统文化，验光师"
-      url: "https://iliu.org"
-    - name: "似水流年如花美眷，怎敌得过似水流年"
-      url: "https://my1981.cn"
-    - name: "优世界"
-      url: "https://usj.cc/"
-    - name: "满心博客记录生活里的小美好"
-      url: "https://zhoutian.com/"
-    - name: "老T博客聚焦法律、科技和生活"
-      url: "https://lawtee.com"
-    - name: "蒙需律师"
-      url: "https://jiangcl.com"
-    - name: "破袜子一个脱离不了低级趣味的人"
-      url: "https://pewae.com"
-    - name: "拾风草堂人脑太复杂,时间过得久,记下来才是最真实的"
-      url: "https://www.leolin86.com"
-    - name: "Jack's SpaceEverything happens for the best"
-      url: "https://veryjack.com"
-    - name: "允赫先森记录和分享我的日常生活"
-      url: "https://www.3v.hk/"
-    - name: "威言威语"
-      url: "https://www.weisay.com/blog/"
-    - name: "崔话记向着理想的方向，爬一会儿，躺一会儿"
-      url: "https://cuixiping.com"
-    - name: "宗宗酱用文字和图片记录工作和学习生活"
-      url: "https://ygz.ink/"
-    - name: "落花雨记浮生拾韵，且听风吟"
-      url: "https://www.luohuayu.cn/"
-    - name: "LiMhy记录平凡有燕的生活"
-      url: "https://i.lilog.cn/"
-    - name: "爱情在线"
-      url: "https://aqzx.com/index.asp"
-    - name: "水拍石"
-      url: "https://www.leitao.cn/"
-    - name: "拾月"
-      url: "https://www.skyue.com/"
-    - name: "西风源于热爱而去创造"
-      url: "https://xifeng.net"
-    - name: "荒野菲克在路上的思绪与脚印"
-      url: "https://ficor.net/"
-    - name: "柒色墨笺柒色入墨，落笔成诗"
-      url: "https://vii.ink/"
-    - name: "旅行漫记"
-      url: "https://synyan.cn"
-    - name: "响石潭"
-      url: "https://www.chenrui.com"
-    - name: "梦幻辰风"
-      url: "https://www.mhcf.net"
-    - name: "黄杰敏"
-      url: "https://www.jiemin.com/"
-    - name: "不曾长大"
-      url: "https://qfsyj.com/"
-    - name: "Betty"
-      url: "https://forbetty.com/"
-    - name: "立方记忆体"
-      url: "https://jiyiti.xyz/"
-    - name: "土木坛子"
-      url: "https://tumutanzi.com/"
-    - name: "LMS"
-      url: "https://lms.im/"
-    - name: "大发"
-      url: "https://fatesinger.com"
-    - name: "雅岚文藝博客"
-      url: "https://yalanart.com/"
-    - name: "忆往事"
-      url: "https://zhou.ge"
-    - name: "花非花雾非雾"
-      url: "https://www.941741.xyz/"
-    - name: "且听书吟"
-      url: "https://yufan.me"
-    - name: "Jeray大叔"
-      url: "https://hi.jeray.wang/"
-    - name: "忘记了回忆"
-      url: "https://ltmltm.cn/bk/"
-    - name: "咕咚"
-      url: "https://gudong.site/"
-    - name: "李文君"
-      url: "https://www.oszz.cn/"
-    - name: "So!azy"
-      url: "https://blog.solazy.me/"
-    - name: "暖心向阳335"
-      url: "https://nxxy335.top/"
-    - name: "紫慕碎碎念"
-      url: "https://90zm.net/"
-    - name: "杜郎俊赏"
-      url: "https://dujun.io/"
-    - name: "Another Dayu"
-      url: "https://anotherdayu.com/"
-    - name: "印记"
-      url: "https://yinji.org/"
-    - name: "2750 words"
-      url: "https://pathos.page"
-    - name: "老孙博客"
-      url: "https://www.imsun.org/"
-    - name: "eallion's Blog"
-      url: "https://www.eallion.com/"
-    - name: "林羽凡"
-      url: "https://www.linyufan.com/"
-    - name: "BlogFinder"
-      url: "https://bf.zzxworld.com/"
-    - name: "兰亭序"
-      url: "https://lanti.ng/"
-    - name: "朋友们"
-      url: "https://peng.you/"
-    - name: "若梦博客"
-      url: "https://www.rmbk.cc/"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/"
-    - name: "博友圈"
-      url: "https://www.boyouquan.com/home"
-    - name: "BlogsClub"
-      url: "https://www.blogsclub.org/"
-    - name: "笔墨迹"
-      url: "https://blogscn.fun"
-    - name: "开往"
-      url: "https://www.travellings.cn/"
-    - name: "Powered by Utterlog!"
-      url: "https://utterlog.io"
-    - name: "鲁ICP备2026003689号"
-      url: "https://beian.miit.gov.cn/"
-    - name: "本站已加入BLOGS·CN"
-      url: "https://blogscn.fun/random.html"
-    - name: "空间穿梭"
-      url: "https://blogs.quest"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/go.html"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "个站商店"
-      url: "https://storeweb.cn/s/2456"
-    - name: "博友圈"
-      url: "https://www.boyouquan.com/planet-shuttle"
-    - name: "博客集"
-      url: "https://bloginc.cn/"
+'site':
+  'name': '荒野菲克'
+  'url': 'https://ficor.net/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '荒野菲克'
+      'url': 'https://i.ficor.net'
+    - 'name': '柒色墨笺'
+      'url': 'https://vii.ink'
+    - 'name': 'Lawpan'
+      'url': 'https://lawpan.cc'
+    - 'name': 'ACEVS你坚持过什么事情？'
+      'url': 'https://acevs.com'
+    - 'name': '我是军爸记录单片机编程教学、生活与成长点滴'
+      'url': 'https://me.xu19.com'
+    - 'name': '瓦匠不舟大家都是倔强的人'
+      'url': 'https://airy.ink'
+    - 'name': 'Yang''s Blog一亩三分地，记录生活，分享见闻'
+      'url': 'https://knay.net'
+    - 'name': '旺东自留地爱生活、爱摸鱼'
+      'url': 'https://wang618.cn'
+    - 'name': '朱小呆记录生活分享美好'
+      'url': 'https://zhujay.com'
+    - 'name': '皇家园林欢迎来到皇家元林'
+      'url': 'https://hjyl.org'
+    - 'name': '子夜松声互联网爱好者'
+      'url': 'https://xyzbz.cn'
+    - 'name': '三十海河扩大自己的自由边界'
+      'url': 'https://ihaihe.cn'
+    - 'name': 'obaby@mars黑客程序媛'
+      'url': 'https://oba.by'
+    - 'name': '皮皮社皮一下~很开心'
+      'url': 'https://www.pipishe.com'
+    - 'name': '韩情脉脉任何记录都是为了让以后有迹可循'
+      'url': 'https://www.hxy.cc'
+    - 'name': '全局变量记录生活中的平凡事'
+      'url': 'https://ilogs.cn'
+    - 'name': '我心向阳看清生活的真相后依然热爱生活'
+      'url': 'https://www.hollowman.cn'
+    - 'name': '碎言'
+      'url': 'https://www.suiyan.cc/'
+    - 'name': '风舞心弦真心走过每个瞬间'
+      'url': 'https://fengwu.art/'
+    - 'name': '织梦岁月老朱的日常'
+      'url': 'https://zhujianlin.com/'
+    - 'name': '飞絮落叶雪分享老何的故事'
+      'url': 'https://www.mrhe.net/'
+    - 'name': 'fengc''s Blog让我们一起在镜头下发现生活之美'
+      'url': 'https://fengcblog.880200.xyz/'
+    - 'name': '平哥偶记'
+      'url': 'https://www.pgoj.top/'
+    - 'name': '孤鬥做自己，不隨波逐流，不妥協'
+      'url': 'https://d-d.design'
+    - 'name': '小王子'
+      'url': 'https://www.wanghao.me/'
+    - 'name': '老刘博客热爱传统文化，验光师'
+      'url': 'https://iliu.org'
+    - 'name': '似水流年如花美眷，怎敌得过似水流年'
+      'url': 'https://my1981.cn'
+    - 'name': '优世界'
+      'url': 'https://usj.cc/'
+    - 'name': '满心博客记录生活里的小美好'
+      'url': 'https://zhoutian.com/'
+    - 'name': '老T博客聚焦法律、科技和生活'
+      'url': 'https://lawtee.com'
+    - 'name': '蒙需律师'
+      'url': 'https://jiangcl.com'
+    - 'name': '破袜子一个脱离不了低级趣味的人'
+      'url': 'https://pewae.com'
+    - 'name': '拾风草堂人脑太复杂,时间过得久,记下来才是最真实的'
+      'url': 'https://www.leolin86.com'
+    - 'name': 'Jack''s SpaceEverything happens for the best'
+      'url': 'https://veryjack.com'
+    - 'name': '允赫先森记录和分享我的日常生活'
+      'url': 'https://www.3v.hk/'
+    - 'name': '威言威语'
+      'url': 'https://www.weisay.com/blog/'
+    - 'name': '崔话记向着理想的方向，爬一会儿，躺一会儿'
+      'url': 'https://cuixiping.com'
+    - 'name': '宗宗酱用文字和图片记录工作和学习生活'
+      'url': 'https://ygz.ink/'
+    - 'name': '落花雨记浮生拾韵，且听风吟'
+      'url': 'https://www.luohuayu.cn/'
+    - 'name': 'LiMhy记录平凡有燕的生活'
+      'url': 'https://i.lilog.cn/'
+    - 'name': '爱情在线'
+      'url': 'https://aqzx.com/index.asp'
+    - 'name': '水拍石'
+      'url': 'https://www.leitao.cn/'
+    - 'name': '拾月'
+      'url': 'https://www.skyue.com/'
+    - 'name': '西风源于热爱而去创造'
+      'url': 'https://xifeng.net'
+    - 'name': '柒色墨笺柒色入墨，落笔成诗'
+      'url': 'https://vii.ink/'
+    - 'name': '旅行漫记'
+      'url': 'https://synyan.cn'
+    - 'name': '响石潭'
+      'url': 'https://www.chenrui.com'
+    - 'name': '梦幻辰风'
+      'url': 'https://www.mhcf.net'
+    - 'name': '黄杰敏'
+      'url': 'https://www.jiemin.com/'
+    - 'name': '不曾长大'
+      'url': 'https://qfsyj.com/'
+    - 'name': 'Betty'
+      'url': 'https://forbetty.com/'
+    - 'name': '立方记忆体'
+      'url': 'https://jiyiti.xyz/'
+    - 'name': '土木坛子'
+      'url': 'https://tumutanzi.com/'
+    - 'name': 'LMS'
+      'url': 'https://lms.im/'
+    - 'name': '大发'
+      'url': 'https://fatesinger.com'
+    - 'name': '雅岚文藝博客'
+      'url': 'https://yalanart.com/'
+    - 'name': '忆往事'
+      'url': 'https://zhou.ge'
+    - 'name': '花非花雾非雾'
+      'url': 'https://www.941741.xyz/'
+    - 'name': '且听书吟'
+      'url': 'https://yufan.me'
+    - 'name': 'Jeray大叔'
+      'url': 'https://hi.jeray.wang/'
+    - 'name': '忘记了回忆'
+      'url': 'https://ltmltm.cn/bk/'
+    - 'name': '咕咚'
+      'url': 'https://gudong.site/'
+    - 'name': '李文君'
+      'url': 'https://www.oszz.cn/'
+    - 'name': 'So!azy'
+      'url': 'https://blog.solazy.me/'
+    - 'name': '暖心向阳335'
+      'url': 'https://nxxy335.top/'
+    - 'name': '紫慕碎碎念'
+      'url': 'https://90zm.net/'
+    - 'name': '杜郎俊赏'
+      'url': 'https://dujun.io/'
+    - 'name': 'Another Dayu'
+      'url': 'https://anotherdayu.com/'
+    - 'name': '印记'
+      'url': 'https://yinji.org/'
+    - 'name': '2750 words'
+      'url': 'https://pathos.page'
+    - 'name': '老孙博客'
+      'url': 'https://www.imsun.org/'
+    - 'name': 'eallion''s Blog'
+      'url': 'https://www.eallion.com/'
+    - 'name': '林羽凡'
+      'url': 'https://www.linyufan.com/'
+    - 'name': 'BlogFinder'
+      'url': 'https://bf.zzxworld.com/'
+    - 'name': '兰亭序'
+      'url': 'https://lanti.ng/'
+    - 'name': '朋友们'
+      'url': 'https://peng.you/'
+    - 'name': '空间穿梭'
+      'url': 'https://blogs.quest'

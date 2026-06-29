@@ -1,270 +1,428 @@
-site:
-  name: "lanyundev.com"
-  description: "友情链接"
-  url: "https://lanyundev.com/"
-  links: "/link"
-  friends:
-    - name: "Web3 存储"
-      url: "https://web3.lanyundev.com/"
-    - name: "订阅转换"
-      url: "https://sub.lanyundev.com/"
-    - name: "LanYun の BlogShare Technology."
-      url: "https://lanyundev.com/"
-    - name: "梦落の小屋因为不可能，所以才值得相信"
-      url: "https://blog.dreamfall.cn"
-    - name: "千灵夙赋大佬"
-      url: "https://qianling.pw/"
-    - name: "Black FliesWhen nothing goes right,just go left."
-      url: "https://www.yyyzyyyz.cn/"
-    - name: "lzskyline网络安全爱好者"
-      url: "https://www.lzskyline.com/"
-    - name: "🌠MSFT 软粉乐园🌠MSFT 软粉乐园是由一群微软产品爱好者携手共建的温暖社区，欢迎和我们一起建设更好的社区！"
-      url: "https://jq.qq.com/?_wv=1027&k=RrzS3AZH"
-    - name: "公益 v2ray 节点订阅免费公益 v2ray 节点订阅"
-      url: "https://www.v2rayfree.eu.org/"
-    - name: "Wittoy's Blog（篱落闲栈）摸鱼天下第一"
-      url: "https://blog.wittoy.com"
-    - name: "CWorld Site求知若愚，虚怀若谷"
-      url: "https://cworld0.com"
-    - name: "Islauso の树洞一只咸鱼肥宅，兼职学生党"
-      url: "https://www.azusemisa.top"
-    - name: "hetumessi’s blog万丈高楼平地起"
-      url: "https://hetumessi.github.io/"
-    - name: "夜法之书的 Blog嵌入式，Linux Kernel&Driver, PT, Docker, Nas 等等"
-      url: "https://blog.17lai.site/"
-    - name: "Eurkon不只是代码的搬运工"
-      url: "https://blog.eurkon.com/"
-    - name: "张洪 Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "DSRBLOGInternet for people, not profit"
-      url: "https://blog.dsrkafuu.net/"
-    - name: "Xiaomage's BlogTech otaku change the world."
-      url: "https://blog.xmgspace.me/"
-    - name: "星日语星语日点灯"
-      url: "https://weekdaycare.cn/"
-    - name: "Autumnal Equinox一个比赛坐牢的摸鱼二进制选手～"
-      url: "https://equinox-shame.github.io/"
-    - name: "杏铃の小本一份分享教程，游戏的礼物✧(≖ ◡ ≖✿)"
-      url: "https://xn--8qvt52h.top"
-    - name: "萌傀儡珍惜现在，趁早摸鱼✨"
-      url: "https://blhorizon.github.io/"
-    - name: "未知之旅在未知中成长，超越自我"
-      url: "https://blog.xenosp.cn/"
-    - name: "唯知笔记探索知识的无限可能"
-      url: "https://note.weizwz.com"
-    - name: "莫莫逗狗Momo5418's Blog"
-      url: "https://blog.mocn.top"
-    - name: "MacKed专注于 mac 软件分享与下载"
-      url: "https://macked.app"
-    - name: "刺猬兽的小屋～今天你玩数码宝贝 rearise 了吗？"
-      url: "https://vhostmg1.996888.best/"
-    - name: "Follow Me"
-      url: "https://github.com/lanyundev"
-    - name: "Github"
-      url: "https://github.com/LanYunDev"
-    - name: "チャーミングヘルタ\n                                ぢゅん"
-      url: "https://www.pixiv.net/artworks/126385072"
-    - name: "50 年後の老人ホーム その２\n                                金沢真之介"
-      url: "https://www.pixiv.net/artworks/126433796"
-    - name: "❀\n                                Sheya"
-      url: "https://www.pixiv.net/artworks/126389659"
-    - name: "りんごあめ\n                                ポ～ン（出水ぽすか）"
-      url: "https://www.pixiv.net/artworks/126423535"
-    - name: "シトラリ生誕祭 2025\n                                雨壱絵穹"
-      url: "https://www.pixiv.net/artworks/126390474"
-    - name: "百合のキス\n                                Qiandai 以宇"
-      url: "https://www.pixiv.net/artworks/126384211"
-    - name: "屋上で昼食は青春\n                                ふに・無 9"
-      url: "https://www.pixiv.net/artworks/126407159"
-    - name: "着ながら年齢を詐称してる Vtuber\n                                なまず"
-      url: "https://www.pixiv.net/artworks/126409230"
-    - name: "奥さんへの愛ダダ漏れの旦那さん\n                                ぎばちゃん"
-      url: "https://www.pixiv.net/artworks/126384702"
-    - name: "猫を亡くした私の元に新しい猫が来た話\n                                SeNMU"
-      url: "https://www.pixiv.net/artworks/126397265"
-    - name: "芝居の終焉\n                                AU"
-      url: "https://www.pixiv.net/artworks/126431631"
-    - name: "🗝Enchantment🗝\n                                Csyday"
-      url: "https://www.pixiv.net/artworks/126424846"
-    - name: "スタレ漫画⑦\n                                めがネノ"
-      url: "https://www.pixiv.net/artworks/126406247"
-    - name: "彼君とのツーショット間違い探し\n                                ぱげらった"
-      url: "https://www.pixiv.net/artworks/126406849"
-    - name: "返事をしてねゲーム\n                                あらもん"
-      url: "https://www.pixiv.net/artworks/126395119"
-    - name: "｢あ、あーん……｣\n                                千種みのり @お仕事募集中"
-      url: "https://www.pixiv.net/artworks/126402225"
-    - name: "にげる。\n                                カコミスル"
-      url: "https://www.pixiv.net/artworks/126405118"
-    - name: "アンジュ\n                                音ノ羽萌"
-      url: "https://www.pixiv.net/artworks/126395050"
-    - name: "ほどほどに年齢を詐称してる Vtuber\n                                なまず"
-      url: "https://www.pixiv.net/artworks/126439502"
-    - name: "音声合成まとめ 2\n                                ちゃちゃちゃ🍵"
-      url: "https://www.pixiv.net/artworks/126386604"
-    - name: "【小春と湊】無敵の女\n                                ひあるろん & 達磨"
-      url: "https://www.pixiv.net/artworks/126407337"
-    - name: "☆\n                                Lpip"
-      url: "https://www.pixiv.net/artworks/126402059"
-    - name: "ヘルタの下着\n                                Qiandai 以宇"
-      url: "https://www.pixiv.net/artworks/126415484"
-    - name: "무제\n                                Watersnake (水蛇)"
-      url: "https://www.pixiv.net/artworks/126384311"
-    - name: "🐱💕🍩\n                                たんたんめん"
-      url: "https://www.pixiv.net/artworks/126384699"
-    - name: "ちらっ\n                                遊ハち"
-      url: "https://www.pixiv.net/artworks/126427507"
-    - name: "通販一部中止のお知らせ\n                                清順 (トンボ）"
-      url: "https://www.pixiv.net/artworks/126407662"
-    - name: "rose cage\n                                キャリン"
-      url: "https://www.pixiv.net/artworks/126384359"
-    - name: "セイアスナ\n                                ポテトルス"
-      url: "https://www.pixiv.net/artworks/126410138"
-    - name: "制服 rkgk 少女\n                                CORE"
-      url: "https://www.pixiv.net/artworks/126434148"
-    - name: "ぽぷこん\n                                遊ハち"
-      url: "https://www.pixiv.net/artworks/126397162"
-    - name: "リオ実装おめでとう\n                                Demahmw (代碼)"
-      url: "https://www.pixiv.net/artworks/126397396"
-    - name: "OC\n                                Sue スーエ"
-      url: "https://www.pixiv.net/artworks/126415568"
-    - name: "哈哈哈哈捏\n                                千夜 QYS3"
-      url: "https://www.pixiv.net/artworks/126398548"
-    - name: "リナさん\n                                猫間 光🐾多忙気味"
-      url: "https://www.pixiv.net/artworks/126409245"
-    - name: "万引きにご注意！\n                                せかねこ"
-      url: "https://www.pixiv.net/artworks/126431958"
-    - name: "ゆかこに髪を燃やされた女の子とジョースケ\n                                コタ"
-      url: "https://www.pixiv.net/artworks/126402556"
-    - name: "龙娘 for Tastti\n                                YogurtWZI"
-      url: "https://www.pixiv.net/artworks/126440227"
-    - name: "宮廷の庭\n                                双木 樹"
-      url: "https://www.pixiv.net/artworks/126439223"
-    - name: "ネコミミメイド\n                                天三月"
-      url: "https://www.pixiv.net/artworks/126406472"
-    - name: "クラッシュ\n                                覺醒"
-      url: "https://www.pixiv.net/artworks/126395166"
-    - name: "壁尻\n                                ぱげらった"
-      url: "https://www.pixiv.net/artworks/126436969"
-    - name: "ザンニー\n                                儒宅"
-      url: "https://www.pixiv.net/artworks/126403450"
-    - name: "⬛️cm⬛️\n                                YHM"
-      url: "https://www.pixiv.net/artworks/126408128"
-    - name: "セコーナヒアちゃん\n                                Some1else45"
-      url: "https://www.pixiv.net/artworks/126393569"
-    - name: "ef\n                                kieed"
-      url: "https://www.pixiv.net/artworks/126417481"
-    - name: "夜明けと月\n                                覺醒"
-      url: "https://www.pixiv.net/artworks/126395147"
-    - name: "謹賀新年 2025\n                                あらもん"
-      url: "https://www.pixiv.net/artworks/126436806"
-    - name: "りんご、死亡\n                                MaidCode1023"
-      url: "https://www.pixiv.net/artworks/126397297"
-    - name: "和風赤ずきん\n                                ぱる野"
-      url: "https://www.pixiv.net/artworks/126408483"
-    - name: "無題\n                                CIRILLA"
-      url: "https://www.pixiv.net/artworks/126385745"
-    - name: "SCP-447「緑のスライム」\n                                アヅミイノリ"
-      url: "https://www.pixiv.net/artworks/126434732"
-    - name: "サプライズな奥さん\n                                ぎばちゃん"
-      url: "https://www.pixiv.net/artworks/126415493"
-    - name: "今年のシマエナガ\n                                仮名ゆたか"
-      url: "https://www.pixiv.net/artworks/126408675"
-    - name: "【小春と湊】弱点まみれの女\n                                ひあるろん & 達磨"
-      url: "https://www.pixiv.net/artworks/126439475"
-    - name: "ソウブレイズ\n                                SukeP（すけぴー）"
-      url: "https://www.pixiv.net/artworks/126436394"
-    - name: "ルアン・メェイ\n                                佐々"
-      url: "https://www.pixiv.net/artworks/126388312"
-    - name: "WEDDING\n                                Leviathan"
-      url: "https://www.pixiv.net/artworks/126415526"
-    - name: "対ホロウ 6 課\n                                INK"
-      url: "https://www.pixiv.net/artworks/126384411"
-    - name: "Artoria\n                                JINGB_DX"
-      url: "https://www.pixiv.net/artworks/126385314"
-    - name: "マダム・ヘルタ\n                                Xin と obi 月曜日東ス 85a"
-      url: "https://www.pixiv.net/artworks/126436118"
-    - name: "OC_SOM\n                                Subong"
-      url: "https://www.pixiv.net/artworks/126396883"
-    - name: "碧蓝航线埃吉尔\n                                银兰雪"
-      url: "https://www.pixiv.net/artworks/126401357"
-    - name: "無題\n                                FuD"
-      url: "https://www.pixiv.net/artworks/126417648"
-    - name: "以蔵さんと謎の霊基異常\n                                辛口ムース"
-      url: "https://www.pixiv.net/artworks/126384442"
-    - name: "調月リオ🖤\n                                Amai pai"
-      url: "https://www.pixiv.net/artworks/126387342"
-    - name: "無題\n                                なお"
-      url: "https://www.pixiv.net/artworks/126406818"
-    - name: "委員長と M 子の百合正月イラスト\n                                安堂うに"
-      url: "https://www.pixiv.net/artworks/126406048"
-    - name: "ナズーリン\n                                かめぱすた"
-      url: "https://www.pixiv.net/artworks/126387033"
-    - name: "リオ\n                                Yampa"
-      url: "https://www.pixiv.net/artworks/126389070"
-    - name: "どうしよう\n                                櫻日和鮎実"
-      url: "https://www.pixiv.net/artworks/126396884"
-    - name: "らきすけ\n                                酒盛弓兎"
-      url: "https://www.pixiv.net/artworks/126411934"
-    - name: "考え中のホール担当女子\n                                jonsun"
-      url: "https://www.pixiv.net/artworks/126399918"
-    - name: "🩷❤️\n                                \bHiRO"
-      url: "https://www.pixiv.net/artworks/126388148"
-    - name: "シトラリ生誕祭🎂\n                                麦田"
-      url: "https://www.pixiv.net/artworks/126386461"
-    - name: "星见雅\n                                升天"
-      url: "https://www.pixiv.net/artworks/126415595"
-    - name: "ファイディス / ファイモス\n                                森ﾓﾘｨ"
-      url: "https://www.pixiv.net/artworks/126401793"
-    - name: "玛薇卡\n                                愚子 citemer"
-      url: "https://www.pixiv.net/artworks/126400142"
-    - name: "ナイスリアクション\n                                まぶし"
-      url: "https://www.pixiv.net/artworks/126417766"
-    - name: "P5S 感想絵\n                                大津"
-      url: "https://www.pixiv.net/artworks/126410203"
-    - name: "ウィスラッシュ\n                                ナエナエ🐰"
-      url: "https://www.pixiv.net/artworks/126384304"
-    - name: "いちごの季節でチュン\n                                初丸うげべそ"
-      url: "https://www.pixiv.net/artworks/126409389"
-    - name: "夢見月瑞希\n                                Indol"
-      url: "https://www.pixiv.net/artworks/126384694"
-    - name: "除霊\n                                もろたで工藤"
-      url: "https://www.pixiv.net/artworks/126384285"
-    - name: "着替えと美術部ガール その 26\n                                恋川 はやと"
-      url: "https://www.pixiv.net/artworks/126401178"
-    - name: "シトラリ\n                                ウラ"
-      url: "https://www.pixiv.net/artworks/126415127"
-    - name: "アズサ\n                                AppleCaramel"
-      url: "https://www.pixiv.net/artworks/126436136"
-    - name: "貴音誕生日おめ！\n                                鶴井"
-      url: "https://www.pixiv.net/artworks/126444857"
-    - name: "鲁本斯"
-      url: "http://baike.baidu.com/view/21798.htm"
-    - name: "让・雅各・卢梭"
-      url: "http://baike.baidu.com/view/1128069.htm"
-    - name: "詹姆斯・麦迪逊"
-      url: "https://baike.baidu.com/item/%E8%A9%B9%E5%A7%86%E6%96%AF%C2%B7%E9%BA%A6%E8%BF%AA%E9%80%8A/7873690"
-    - name: "维多利亚女王"
-      url: "http://baike.baidu.com/subview/5397/6673951.htm"
-    - name: "皮兰德娄"
-      url: "http://baike.baidu.com/view/1914545.htm"
-    - name: "巴拿马运河"
-      url: "http://baike.baidu.com/view/15686.htm"
-    - name: "弗朗茨・斐迪南大公"
-      url: "http://baike.baidu.com/view/823478.htm"
-    - name: "君主制"
-      url: "http://baike.baidu.com/view/20352.htm"
-    - name: "北大西洋公约组织"
-      url: "http://baike.baidu.com/view/26927.htm"
-    - name: "巴特兹"
-      url: "http://baike.baidu.com/view/810939.htm"
-    - name: "石声汉"
-      url: "http://baike.baidu.com/view/313949.htm"
-    - name: "刘国勋"
-      url: "http://baike.baidu.com/view/3039800.htm"
-    - name: "钱三强"
-      url: "http://baike.baidu.com/view/3908.htm"
-    - name: "宫泽喜一"
-      url: "http://baike.baidu.com/view/250942.htm"
-    - name: "鸟巢"
-      url: "http://baike.baidu.com/view/71694.htm"
+'site':
+  'name': 'lanyundev.com'
+  'description': '友情链接'
+  'url': 'https://lanyundev.com/'
+  'links': '/link'
+  'friends':
+    - 'name': '梦落の小屋因为不可能，所以才值得相信'
+      'url': 'https://blog.dreamfall.cn'
+    - 'name': '千灵夙赋大佬'
+      'url': 'https://qianling.pw/'
+    - 'name': 'Black FliesWhen nothing goes right,just go left.'
+      'url': 'https://www.yyyzyyyz.cn/'
+    - 'name': 'lzskyline网络安全爱好者'
+      'url': 'https://www.lzskyline.com/'
+    - 'name': '公益 v2ray 节点订阅免费公益 v2ray 节点订阅'
+      'url': 'https://www.v2rayfree.eu.org/'
+    - 'name': 'Wittoy''s Blog（篱落闲栈）摸鱼天下第一'
+      'url': 'https://blog.wittoy.com'
+    - 'name': 'CWorld Site求知若愚，虚怀若谷'
+      'url': 'https://cworld0.com'
+    - 'name': 'Islauso の树洞一只咸鱼肥宅，兼职学生党'
+      'url': 'https://www.azusemisa.top'
+    - 'name': '夜法之书的 Blog嵌入式，Linux Kernel&Driver, PT, Docker, Nas 等等'
+      'url': 'https://blog.17lai.site/'
+    - 'name': 'Eurkon不只是代码的搬运工'
+      'url': 'https://blog.eurkon.com/'
+    - 'name': '张洪 Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'DSRBLOGInternet for people, not profit'
+      'url': 'https://blog.dsrkafuu.net/'
+    - 'name': 'Xiaomage''s BlogTech otaku change the world.'
+      'url': 'https://blog.xmgspace.me/'
+    - 'name': '星日语星语日点灯'
+      'url': 'https://weekdaycare.cn/'
+    - 'name': '杏铃の小本一份分享教程，游戏的礼物✧(≖ ◡ ≖✿)'
+      'url': 'https://xn--8qvt52h.top'
+    - 'name': '未知之旅在未知中成长，超越自我'
+      'url': 'https://blog.xenosp.cn/'
+    - 'name': '唯知笔记探索知识的无限可能'
+      'url': 'https://note.weizwz.com'
+    - 'name': '莫莫逗狗Momo5418''s Blog'
+      'url': 'https://blog.mocn.top'
+    - 'name': 'MacKed专注于 mac 软件分享与下载'
+      'url': 'https://macked.app'
+    - 'name': '刺猬兽的小屋～今天你玩数码宝贝 rearise 了吗？'
+      'url': 'https://vhostmg1.996888.best/'
+    - 'name': "チャーミングヘルタ
+
+        \                                ぢゅん"
+      'url': 'https://www.pixiv.net/artworks/126385072'
+    - 'name': "50 年後の老人ホーム その２
+
+        \                                金沢真之介"
+      'url': 'https://www.pixiv.net/artworks/126433796'
+    - 'name': "❀
+
+        \                                Sheya"
+      'url': 'https://www.pixiv.net/artworks/126389659'
+    - 'name': "りんごあめ
+
+        \                                ポ～ン（出水ぽすか）"
+      'url': 'https://www.pixiv.net/artworks/126423535'
+    - 'name': "シトラリ生誕祭 2025
+
+        \                                雨壱絵穹"
+      'url': 'https://www.pixiv.net/artworks/126390474'
+    - 'name': "百合のキス
+
+        \                                Qiandai 以宇"
+      'url': 'https://www.pixiv.net/artworks/126384211'
+    - 'name': "屋上で昼食は青春
+
+        \                                ふに・無 9"
+      'url': 'https://www.pixiv.net/artworks/126407159'
+    - 'name': "着ながら年齢を詐称してる Vtuber
+
+        \                                なまず"
+      'url': 'https://www.pixiv.net/artworks/126409230'
+    - 'name': "奥さんへの愛ダダ漏れの旦那さん
+
+        \                                ぎばちゃん"
+      'url': 'https://www.pixiv.net/artworks/126384702'
+    - 'name': "猫を亡くした私の元に新しい猫が来た話
+
+        \                                SeNMU"
+      'url': 'https://www.pixiv.net/artworks/126397265'
+    - 'name': "芝居の終焉
+
+        \                                AU"
+      'url': 'https://www.pixiv.net/artworks/126431631'
+    - 'name': "🗝Enchantment🗝
+
+        \                                Csyday"
+      'url': 'https://www.pixiv.net/artworks/126424846'
+    - 'name': "スタレ漫画⑦
+
+        \                                めがネノ"
+      'url': 'https://www.pixiv.net/artworks/126406247'
+    - 'name': "彼君とのツーショット間違い探し
+
+        \                                ぱげらった"
+      'url': 'https://www.pixiv.net/artworks/126406849'
+    - 'name': "返事をしてねゲーム
+
+        \                                あらもん"
+      'url': 'https://www.pixiv.net/artworks/126395119'
+    - 'name': "｢あ、あーん……｣
+
+        \                                千種みのり @お仕事募集中"
+      'url': 'https://www.pixiv.net/artworks/126402225'
+    - 'name': "にげる。
+
+        \                                カコミスル"
+      'url': 'https://www.pixiv.net/artworks/126405118'
+    - 'name': "アンジュ
+
+        \                                音ノ羽萌"
+      'url': 'https://www.pixiv.net/artworks/126395050'
+    - 'name': "ほどほどに年齢を詐称してる Vtuber
+
+        \                                なまず"
+      'url': 'https://www.pixiv.net/artworks/126439502'
+    - 'name': "音声合成まとめ 2
+
+        \                                ちゃちゃちゃ🍵"
+      'url': 'https://www.pixiv.net/artworks/126386604'
+    - 'name': "【小春と湊】無敵の女
+
+        \                                ひあるろん & 達磨"
+      'url': 'https://www.pixiv.net/artworks/126407337'
+    - 'name': "☆
+
+        \                                Lpip"
+      'url': 'https://www.pixiv.net/artworks/126402059'
+    - 'name': "ヘルタの下着
+
+        \                                Qiandai 以宇"
+      'url': 'https://www.pixiv.net/artworks/126415484'
+    - 'name': "무제
+
+        \                                Watersnake (水蛇)"
+      'url': 'https://www.pixiv.net/artworks/126384311'
+    - 'name': "🐱💕🍩
+
+        \                                たんたんめん"
+      'url': 'https://www.pixiv.net/artworks/126384699'
+    - 'name': "ちらっ
+
+        \                                遊ハち"
+      'url': 'https://www.pixiv.net/artworks/126427507'
+    - 'name': "通販一部中止のお知らせ
+
+        \                                清順 (トンボ）"
+      'url': 'https://www.pixiv.net/artworks/126407662'
+    - 'name': "rose cage
+
+        \                                キャリン"
+      'url': 'https://www.pixiv.net/artworks/126384359'
+    - 'name': "セイアスナ
+
+        \                                ポテトルス"
+      'url': 'https://www.pixiv.net/artworks/126410138'
+    - 'name': "制服 rkgk 少女
+
+        \                                CORE"
+      'url': 'https://www.pixiv.net/artworks/126434148'
+    - 'name': "ぽぷこん
+
+        \                                遊ハち"
+      'url': 'https://www.pixiv.net/artworks/126397162'
+    - 'name': "リオ実装おめでとう
+
+        \                                Demahmw (代碼)"
+      'url': 'https://www.pixiv.net/artworks/126397396'
+    - 'name': "OC
+
+        \                                Sue スーエ"
+      'url': 'https://www.pixiv.net/artworks/126415568'
+    - 'name': "哈哈哈哈捏
+
+        \                                千夜 QYS3"
+      'url': 'https://www.pixiv.net/artworks/126398548'
+    - 'name': "リナさん
+
+        \                                猫間 光🐾多忙気味"
+      'url': 'https://www.pixiv.net/artworks/126409245'
+    - 'name': "万引きにご注意！
+
+        \                                せかねこ"
+      'url': 'https://www.pixiv.net/artworks/126431958'
+    - 'name': "ゆかこに髪を燃やされた女の子とジョースケ
+
+        \                                コタ"
+      'url': 'https://www.pixiv.net/artworks/126402556'
+    - 'name': "龙娘 for Tastti
+
+        \                                YogurtWZI"
+      'url': 'https://www.pixiv.net/artworks/126440227'
+    - 'name': "宮廷の庭
+
+        \                                双木 樹"
+      'url': 'https://www.pixiv.net/artworks/126439223'
+    - 'name': "ネコミミメイド
+
+        \                                天三月"
+      'url': 'https://www.pixiv.net/artworks/126406472'
+    - 'name': "クラッシュ
+
+        \                                覺醒"
+      'url': 'https://www.pixiv.net/artworks/126395166'
+    - 'name': "壁尻
+
+        \                                ぱげらった"
+      'url': 'https://www.pixiv.net/artworks/126436969'
+    - 'name': "ザンニー
+
+        \                                儒宅"
+      'url': 'https://www.pixiv.net/artworks/126403450'
+    - 'name': "⬛️cm⬛️
+
+        \                                YHM"
+      'url': 'https://www.pixiv.net/artworks/126408128'
+    - 'name': "セコーナヒアちゃん
+
+        \                                Some1else45"
+      'url': 'https://www.pixiv.net/artworks/126393569'
+    - 'name': "ef
+
+        \                                kieed"
+      'url': 'https://www.pixiv.net/artworks/126417481'
+    - 'name': "夜明けと月
+
+        \                                覺醒"
+      'url': 'https://www.pixiv.net/artworks/126395147'
+    - 'name': "謹賀新年 2025
+
+        \                                あらもん"
+      'url': 'https://www.pixiv.net/artworks/126436806'
+    - 'name': "りんご、死亡
+
+        \                                MaidCode1023"
+      'url': 'https://www.pixiv.net/artworks/126397297'
+    - 'name': "和風赤ずきん
+
+        \                                ぱる野"
+      'url': 'https://www.pixiv.net/artworks/126408483'
+    - 'name': "無題
+
+        \                                CIRILLA"
+      'url': 'https://www.pixiv.net/artworks/126385745'
+    - 'name': "SCP-447「緑のスライム」
+
+        \                                アヅミイノリ"
+      'url': 'https://www.pixiv.net/artworks/126434732'
+    - 'name': "サプライズな奥さん
+
+        \                                ぎばちゃん"
+      'url': 'https://www.pixiv.net/artworks/126415493'
+    - 'name': "今年のシマエナガ
+
+        \                                仮名ゆたか"
+      'url': 'https://www.pixiv.net/artworks/126408675'
+    - 'name': "【小春と湊】弱点まみれの女
+
+        \                                ひあるろん & 達磨"
+      'url': 'https://www.pixiv.net/artworks/126439475'
+    - 'name': "ソウブレイズ
+
+        \                                SukeP（すけぴー）"
+      'url': 'https://www.pixiv.net/artworks/126436394'
+    - 'name': "ルアン・メェイ
+
+        \                                佐々"
+      'url': 'https://www.pixiv.net/artworks/126388312'
+    - 'name': "WEDDING
+
+        \                                Leviathan"
+      'url': 'https://www.pixiv.net/artworks/126415526'
+    - 'name': "対ホロウ 6 課
+
+        \                                INK"
+      'url': 'https://www.pixiv.net/artworks/126384411'
+    - 'name': "Artoria
+
+        \                                JINGB_DX"
+      'url': 'https://www.pixiv.net/artworks/126385314'
+    - 'name': "マダム・ヘルタ
+
+        \                                Xin と obi 月曜日東ス 85a"
+      'url': 'https://www.pixiv.net/artworks/126436118'
+    - 'name': "OC_SOM
+
+        \                                Subong"
+      'url': 'https://www.pixiv.net/artworks/126396883'
+    - 'name': "碧蓝航线埃吉尔
+
+        \                                银兰雪"
+      'url': 'https://www.pixiv.net/artworks/126401357'
+    - 'name': "無題
+
+        \                                FuD"
+      'url': 'https://www.pixiv.net/artworks/126417648'
+    - 'name': "以蔵さんと謎の霊基異常
+
+        \                                辛口ムース"
+      'url': 'https://www.pixiv.net/artworks/126384442'
+    - 'name': "調月リオ🖤
+
+        \                                Amai pai"
+      'url': 'https://www.pixiv.net/artworks/126387342'
+    - 'name': "無題
+
+        \                                なお"
+      'url': 'https://www.pixiv.net/artworks/126406818'
+    - 'name': "委員長と M 子の百合正月イラスト
+
+        \                                安堂うに"
+      'url': 'https://www.pixiv.net/artworks/126406048'
+    - 'name': "ナズーリン
+
+        \                                かめぱすた"
+      'url': 'https://www.pixiv.net/artworks/126387033'
+    - 'name': "リオ
+
+        \                                Yampa"
+      'url': 'https://www.pixiv.net/artworks/126389070'
+    - 'name': "どうしよう
+
+        \                                櫻日和鮎実"
+      'url': 'https://www.pixiv.net/artworks/126396884'
+    - 'name': "らきすけ
+
+        \                                酒盛弓兎"
+      'url': 'https://www.pixiv.net/artworks/126411934'
+    - 'name': "考え中のホール担当女子
+
+        \                                jonsun"
+      'url': 'https://www.pixiv.net/artworks/126399918'
+    - 'name': "🩷❤️
+
+        \                                \bHiRO"
+      'url': 'https://www.pixiv.net/artworks/126388148'
+    - 'name': "シトラリ生誕祭🎂
+
+        \                                麦田"
+      'url': 'https://www.pixiv.net/artworks/126386461'
+    - 'name': "星见雅
+
+        \                                升天"
+      'url': 'https://www.pixiv.net/artworks/126415595'
+    - 'name': "ファイディス / ファイモス
+
+        \                                森ﾓﾘｨ"
+      'url': 'https://www.pixiv.net/artworks/126401793'
+    - 'name': "玛薇卡
+
+        \                                愚子 citemer"
+      'url': 'https://www.pixiv.net/artworks/126400142'
+    - 'name': "ナイスリアクション
+
+        \                                まぶし"
+      'url': 'https://www.pixiv.net/artworks/126417766'
+    - 'name': "P5S 感想絵
+
+        \                                大津"
+      'url': 'https://www.pixiv.net/artworks/126410203'
+    - 'name': "ウィスラッシュ
+
+        \                                ナエナエ🐰"
+      'url': 'https://www.pixiv.net/artworks/126384304'
+    - 'name': "いちごの季節でチュン
+
+        \                                初丸うげべそ"
+      'url': 'https://www.pixiv.net/artworks/126409389'
+    - 'name': "夢見月瑞希
+
+        \                                Indol"
+      'url': 'https://www.pixiv.net/artworks/126384694'
+    - 'name': "除霊
+
+        \                                もろたで工藤"
+      'url': 'https://www.pixiv.net/artworks/126384285'
+    - 'name': "着替えと美術部ガール その 26
+
+        \                                恋川 はやと"
+      'url': 'https://www.pixiv.net/artworks/126401178'
+    - 'name': "シトラリ
+
+        \                                ウラ"
+      'url': 'https://www.pixiv.net/artworks/126415127'
+    - 'name': "アズサ
+
+        \                                AppleCaramel"
+      'url': 'https://www.pixiv.net/artworks/126436136'
+    - 'name': "貴音誕生日おめ！
+
+        \                                鶴井"
+      'url': 'https://www.pixiv.net/artworks/126444857'
+    - 'name': '鲁本斯'
+      'url': 'http://baike.baidu.com/view/21798.htm'
+    - 'name': '让・雅各・卢梭'
+      'url': 'http://baike.baidu.com/view/1128069.htm'
+    - 'name': '詹姆斯・麦迪逊'
+      'url': 'https://baike.baidu.com/item/%E8%A9%B9%E5%A7%86%E6%96%AF%C2%B7%E9%BA%A6%E8%BF%AA%E9%80%8A/7873690'
+    - 'name': '维多利亚女王'
+      'url': 'http://baike.baidu.com/subview/5397/6673951.htm'
+    - 'name': '皮兰德娄'
+      'url': 'http://baike.baidu.com/view/1914545.htm'
+    - 'name': '巴拿马运河'
+      'url': 'http://baike.baidu.com/view/15686.htm'
+    - 'name': '弗朗茨・斐迪南大公'
+      'url': 'http://baike.baidu.com/view/823478.htm'
+    - 'name': '君主制'
+      'url': 'http://baike.baidu.com/view/20352.htm'
+    - 'name': '北大西洋公约组织'
+      'url': 'http://baike.baidu.com/view/26927.htm'
+    - 'name': '巴特兹'
+      'url': 'http://baike.baidu.com/view/810939.htm'
+    - 'name': '石声汉'
+      'url': 'http://baike.baidu.com/view/313949.htm'
+    - 'name': '刘国勋'
+      'url': 'http://baike.baidu.com/view/3039800.htm'
+    - 'name': '钱三强'
+      'url': 'http://baike.baidu.com/view/3908.htm'
+    - 'name': '宫泽喜一'
+      'url': 'http://baike.baidu.com/view/250942.htm'
+    - 'name': '鸟巢'
+      'url': 'http://baike.baidu.com/view/71694.htm'

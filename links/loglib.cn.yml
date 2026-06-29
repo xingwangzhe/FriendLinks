@@ -1,30 +1,30 @@
-site:
-  name: "李文君"
-  url: "https://loglib.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "动态"
-      url: "https://loglib.cn/moments"
-    - name: "友链"
-      url: "https://loglib.cn/links"
-    - name: "相册"
-      url: "https://loglib.cn/album"
-    - name: "音乐"
-      url: "https://loglib.cn/music"
-    - name: "鲁公网安备37028502260732号"
-      url: "https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37028502260732"
-    - name: "鲁ICP备2024096850号"
-      url: "https://beian.miit.gov.cn/"
-    - name: "前往博客小镇"
-      url: "https://loglib.cn/town"
-    - name: "日志与反馈"
-      url: "https://loglib.cn/logs"
-    - name: "赞赏"
-      url: "https://loglib.cn/sponsor"
-    - name: "用户协议"
-      url: "https://loglib.cn/legal/user"
-    - name: "隐私政策"
-      url: "https://loglib.cn/legal/privacy"
-    - name: "原创声明"
-      url: "https://loglib.cn/legal/copyright"
+'site':
+  'name': '李文君'
+  'url': 'https://loglib.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '允赫先森'
+      'url': 'https://www.3v.hk'
+    - 'name': '朱小呆'
+      'url': 'https://zhujay.com'
+    - 'name': '风舞心弦'
+      'url': 'https://fengwu.art'
+    - 'name': '轻风blog'
+      'url': 'https://www.qingfengnb.cn'
+    - 'name': '老罗博客'
+      'url': 'https://www.luolog.com'
+    - 'name': 'Atao''s Space'
+      'url': 'https://veryatao.com'
+    - 'name': '荒野菲克'
+      'url': 'https://ficor.net/'
+    - 'name': 'LiMhy''Blog'
+      'url': 'https://i.lilog.cn'
+    - 'name': 'AJie''s Blog'
+      'url': 'https://www.promptnet.cn/'
+    - 'name': 'undz'
+      'url': 'https://undz.cn'
+    - 'name': '我的日志'
+      'url': 'https://ilogs.cn/'
+    - 'name': '一个博客'
+      'url': 'https://yigeboke.com'

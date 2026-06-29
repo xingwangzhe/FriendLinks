@@ -1,10 +1,8 @@
-site:
-  name: "Yves"
-  url: "https://blog.maoyiwei.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "CC BY-NC-ND 4.0"
-      url: "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans"
-    - name: "浙ICP备2024095276号"
-      url: "https://beian.miit.gov.cn/#/Integrated/index"
+'site':
+  'name': 'Yves'
+  'url': 'https://blog.maoyiwei.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'CC BY-NC-ND 4.0'
+      'url': 'https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans'

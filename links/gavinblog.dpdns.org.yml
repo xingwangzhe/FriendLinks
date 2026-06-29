@@ -1,30 +1,18 @@
-site:
-  name: "gavinblog.dpdns.org"
-  description: "友情链接"
-  url: "https://gavinblog.dpdns.org/"
-  links: "/link"
-  friends:
-    - name: "开往-友链接力"
-      url: "https://www.travellings.cn/go.html"
-    - name: "Github"
-      url: "https://github.com/Gavin-gwj"
-    - name: "网易云"
-      url: "https://music.163.com/#/user/home?id=7912334828"
-    - name: "bilibili"
-      url: "https://space.bilibili.com/321225049"
-    - name: "51la统计"
-      url: "https://51.la/"
-    - name: "百度统计"
-      url: "https://tongji.baidu.com/"
-    - name: "TianliCDN"
-      url: "https://ql.tianli0.top/"
-    - name: "主题官网"
-      url: "https://acrylic.zhheo.com/"
-    - name: "Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "Akilar"
-      url: "https://akilar.top"
-    - name: "Theme By Acrylic-Next"
-      url: "https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next"
-    - name: "cc协议"
-      url: "https://creativecommons.org/licenses/by/4.0/"
+'site':
+  'name': 'gavinblog.dpdns.org'
+  'description': '友情链接'
+  'url': 'https://gavinblog.dpdns.org/'
+  'links': '/link'
+  'friends':
+    - 'name': '51la统计'
+      'url': 'https://51.la/'
+    - 'name': '百度统计'
+      'url': 'https://tongji.baidu.com/'
+    - 'name': '主题官网'
+      'url': 'https://acrylic.zhheo.com/'
+    - 'name': 'Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Akilar'
+      'url': 'https://akilar.top'
+    - 'name': 'cc协议'
+      'url': 'https://creativecommons.org/licenses/by/4.0/'

@@ -1,16 +1,12 @@
-site:
-  name: "ye"
-  url: "https://bayeeaa.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "张洪Heo\n            分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Mai Icy\n            Mai的博客"
-      url: "https://www.maiicy.top/"
-    - name: "Fluid Blog\n            主题博客"
-      url: "https://hexo.fluid-dev.com/"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Fluid"
-      url: "https://github.com/fluid-dev/hexo-theme-fluid"
+'site':
+  'name': 'ye'
+  'url': 'https://bayeeaa.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': "张洪Heo\n            分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "Mai Icy\n            Mai的博客"
+      'url': 'https://www.maiicy.top/'
+    - 'name': "Fluid Blog\n            主题博客"
+      'url': 'https://hexo.fluid-dev.com/'

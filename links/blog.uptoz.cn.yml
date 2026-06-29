@@ -1,38 +1,36 @@
-site:
-  name: "blog.uptoz.cn"
-  description: "友情链接"
-  url: "https://blog.uptoz.cn/"
-  links: "/friends"
-  friends:
-    - name: "张洪Heo\n                13:43"
-      url: "https://blog.zhheo.com/"
-    - name: "洪绘动图发布：将视频转换为帧图或者GIF并且限制只有5MB，APNG、WEBP动图生成工具"
-      url: "https://blog.zhheo.com/p/9yuhxjpl.html"
-    - name: "小慧博客\n                12:24"
-      url: "https://www.itxiaohui.top/"
-    - name: "为什么你的 Nginx 配置了 HTTPS，网站依然显示“不安全”？"
-      url: "https://www.itxiaohui.top/archives/B9XIQfpE"
-    - name: "NGINX HTTP/2 Bomb 漏洞（CVE-2026-49975）分析与修复指南"
-      url: "https://www.itxiaohui.top/archives/WMCxAR3S"
-    - name: "小林酱博客\n                01:40"
-      url: "https://blog.zxiaolin.com"
-    - name: "Moments 极简朋友圈 + iPhone 16 Pro 网页模拟完整实现"
-      url: "https://blog.zxiaolin.com/archives/momen-pro"
-    - name: "AI支付宝上手：内容全靠编，出问题甩锅给商家，付款快退款难"
-      url: "https://blog.zhheo.com/p/sir4kfs9.html"
-    - name: "重要照片一定要备份，手机养成照片备份的好习惯"
-      url: "https://blog.zhheo.com/p/cyw9sqnh.html"
-    - name: "阿里云 ESA 基础版 DDoS 实战复盘：1.4TB 真实攻击下的防护表现"
-      url: "https://www.itxiaohui.top/archives/c2vqQFbl"
-    - name: "HeoSticker3D发布：3D形态的Heo表情，个人免费使用"
-      url: "https://blog.zhheo.com/p/mjpbdtsh.html"
-    - name: "这才是我心目中AI博客的样子"
-      url: "https://blog.zhheo.com/p/vp4ate1j.html"
-    - name: "AI 做 PPT，真正好用的流程不是“生成”，而是“可编辑”"
-      url: "https://blog.zxiaolin.com/archives/AI-PPT"
-    - name: "小麻马同学\n                19:15"
-      url: "https://www.xm233.cn/"
-    - name: "debian 更改主机名"
-      url: "https://www.xm233.cn/archives/1780744472429"
-    - name: "中国大陆安装 Claude Code 并接入 DeepSeek API 教程"
-      url: "https://www.itxiaohui.top/archives/9j6bEKIV"
+'site':
+  'name': 'blog.uptoz.cn'
+  'description': '友情链接'
+  'url': 'https://blog.uptoz.cn/'
+  'links': '/friends'
+  'friends':
+    - 'name': "张洪Heo\n                13:43"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "小慧博客\n                12:24"
+      'url': 'https://www.itxiaohui.top/'
+    - 'name': '为什么你的 Nginx 配置了 HTTPS，网站依然显示“不安全”？'
+      'url': 'https://www.itxiaohui.top/archives/B9XIQfpE'
+    - 'name': 'NGINX HTTP/2 Bomb 漏洞（CVE-2026-49975）分析与修复指南'
+      'url': 'https://www.itxiaohui.top/archives/WMCxAR3S'
+    - 'name': "小林酱博客\n                01:40"
+      'url': 'https://blog.zxiaolin.com'
+    - 'name': 'Moments 极简朋友圈 + iPhone 16 Pro 网页模拟完整实现'
+      'url': 'https://blog.zxiaolin.com/archives/momen-pro'
+    - 'name': 'AI支付宝上手：内容全靠编，出问题甩锅给商家，付款快退款难'
+      'url': 'https://blog.zhheo.com/p/sir4kfs9.html'
+    - 'name': '重要照片一定要备份，手机养成照片备份的好习惯'
+      'url': 'https://blog.zhheo.com/p/cyw9sqnh.html'
+    - 'name': '阿里云 ESA 基础版 DDoS 实战复盘：1.4TB 真实攻击下的防护表现'
+      'url': 'https://www.itxiaohui.top/archives/c2vqQFbl'
+    - 'name': 'HeoSticker3D发布：3D形态的Heo表情，个人免费使用'
+      'url': 'https://blog.zhheo.com/p/mjpbdtsh.html'
+    - 'name': '这才是我心目中AI博客的样子'
+      'url': 'https://blog.zhheo.com/p/vp4ate1j.html'
+    - 'name': 'AI 做 PPT，真正好用的流程不是“生成”，而是“可编辑”'
+      'url': 'https://blog.zxiaolin.com/archives/AI-PPT'
+    - 'name': "小麻马同学\n                19:15"
+      'url': 'https://www.xm233.cn/'
+    - 'name': 'debian 更改主机名'
+      'url': 'https://www.xm233.cn/archives/1780744472429'
+    - 'name': '中国大陆安装 Claude Code 并接入 DeepSeek API 教程'
+      'url': 'https://www.itxiaohui.top/archives/9j6bEKIV'

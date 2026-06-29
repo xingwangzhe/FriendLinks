@@ -1,30 +1,18 @@
-site:
-  name: "晨曦"
-  url: "https://chenxi.nfasystem.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "我的Github主页"
-      url: "https://github.com/nfachenxi"
-    - name: "Hexo"
-      url: "https://hexo.io/zh-cn/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "Solitude"
-      url: "https://solitude.js.org/"
-    - name: "❖星港◎Star☆"
-      url: "https://blog.starsharbor.com"
-    - name: "Mo的记事簿"
-      url: "https://blog.xiowo.net/"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/316806831"
-    - name: "抖音"
-      url: "https://v.douyin.com/dvJIjrxxf6c/"
-    - name: "鲁公网安备37028502240668号"
-      url: "https://beian.mps.gov.cn/#/query/webSearch"
-    - name: "鲁ICP备2023032296号-1"
-      url: "https://beian.miit.gov.cn/"
-    - name: "框架：Hexo"
-      url: "https://hexo.io/"
-    - name: "主题：Solitude"
-      url: "https://github.com/everfu/hexo-theme-solitude"
+'site':
+  'name': '晨曦'
+  'url': 'https://chenxi.nfasystem.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Solitude'
+      'url': 'https://solitude.js.org/'
+    - 'name': '❖星港◎Star☆'
+      'url': 'https://blog.starsharbor.com'
+    - 'name': 'Mo的记事簿'
+      'url': 'https://blog.xiowo.net/'
+    - 'name': '抖音'
+      'url': 'https://v.douyin.com/dvJIjrxxf6c/'
+    - 'name': '框架：Hexo'
+      'url': 'https://hexo.io/'

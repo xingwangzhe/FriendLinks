@@ -1,28 +1,12 @@
-site:
-  name: "blog.imoyan.top"
-  description: "友情链接"
-  url: "https://blog.imoyan.top/"
-  links: "/link"
-  friends:
-    - name: "个人主页"
-      url: "https://index.anheyu.com/"
-    - name: "博客"
-      url: "https://blog.imoyan.top/"
-    - name: "安和鱼框架"
-      url: "https://dev.anheyu.com/"
-    - name: "email"
-      url: "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=VDU6Ljw9LSF5NxQlJXo3Ozk"
-    - name: "Github"
-      url: "https://github.com/lanmoyan"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/382175696"
-    - name: "十年之约"
-      url: "https://foreverblog.cn/go.html"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "文档"
-      url: "https://dev.anheyu.com"
-    - name: "源码"
-      url: "https://github.com/anzhiyu-c/anheyu-app"
-    - name: "赣ICP备2023017053号"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'blog.imoyan.top'
+  'description': '友情链接'
+  'url': 'https://blog.imoyan.top/'
+  'links': '/link'
+  'friends':
+    - 'name': '个人主页'
+      'url': 'https://index.anheyu.com/'
+    - 'name': '安和鱼框架'
+      'url': 'https://dev.anheyu.com/'
+    - 'name': '文档'
+      'url': 'https://dev.anheyu.com'

@@ -1,74 +1,68 @@
-site:
-  name: "kegongteng.cn"
-  description: "友情链接"
-  url: "https://kegongteng.cn/"
-  links: "/friends"
-  friends:
-    - name: "鸢栀为本站图片等资源提供技术支持yuazhi.cn"
-      url: "https://yuazhi.cn"
-    - name: "Crazy Bucket 陈楒潼原头像原作者weibo.com/u/6191301274"
-      url: "https://weibo.com/u/6191301274"
-    - name: "纸鹿 Zhilu对本站技术优化提供相关支持zhilu.site"
-      url: "https://zhilu.site"
-    - name: "Wherelse原Hey页面主题提供者vlieo.com"
-      url: "https://vlieo.com"
-    - name: "Frederick为新主题提供建议ohdragonboi.cn"
-      url: "https://www.ohdragonboi.cn"
-    - name: "Heo分享设计与科技生活blog.zhheo.com"
-      url: "https://blog.zhheo.com"
-    - name: "冰火之砺水穷暖春云起处blog.marice.top"
-      url: "https://blog.marice.top"
-    - name: "Minsp·隅在纷扰中寻得宁静 于思索里洞察真意minsp.org"
-      url: "https://www.minsp.org"
-    - name: "晨叶梦春的小屋不求最好，只求更好yumeharu.top"
-      url: "https://www.yumeharu.top"
-    - name: "HiPeach妙不可言blog.opeach.cn"
-      url: "https://blog.opeach.cn"
-    - name: "Tianli自知之明是最可贵的知识！blog.tianli0.top"
-      url: "https://blog.tianli0.top"
-    - name: "Pinpe 的云端一个属于自己的云朵。pinpe.top"
-      url: "https://pinpe.top"
-    - name: "JUKAI.SITE我喜欢听花开的声音，更想自由地深情地呼吸jukai.site"
-      url: "https://jukai.site"
-    - name: "iMaeGoo's Blog虹墨空间站imaegoo.com"
-      url: "https://www.imaegoo.com"
-    - name: "❖星港◎Star☆以博客记录生活与热爱！blog.starsharbor.com"
-      url: "https://blog.starsharbor.com"
-    - name: "风记星辰热爱你来过的每度温暖thyuu.com"
-      url: "https://www.thyuu.com"
-    - name: "btwoa世界为你简单blog.btwoa.com"
-      url: "https://blog.btwoa.com"
-    - name: "Wcowin's Web循此苦旅，以达星辰wcowin.work"
-      url: "https://wcowin.work"
-    - name: "秋葵笔记一切皆是因为好玩～qiukui-note.happy365.day"
-      url: "https://qiukui-note.happy365.day"
-    - name: "ztr 的小窝记录 ztr 的学习与生活ztrztr.top"
-      url: "https://ztrztr.top"
-    - name: "祈星海身在井隅,心向璀璨zzzzhi.com"
-      url: "https://www.zzzzhi.com"
-    - name: "Sci_qud突破了瓶颈，发现还有瓶盖qwqblog.wsq127.top"
-      url: "https://blog.wsq127.top"
-    - name: "MBRjun-Blog我们生活在大地上，但梦想超越天空mbrjun.cn"
-      url: "https://www.mbrjun.cn"
-    - name: "哈喽！林墨白沉墨满纸，一笑若白blog.lmb520.cn"
-      url: "https://blog.lmb520.cn"
-    - name: "可执行程序の天境小屋🥝The boy who livedblog.hanta2011.top"
-      url: "https://blog.hanta2011.top"
-    - name: "寒夏摸鱼站稀奇古怪技术集散地blog.rainiar.top"
-      url: "https://blog.rainiar.top"
-    - name: "云藉记录滴滴点点，穿梭片片汪洋kumosya.top"
-      url: "https://kumosya.top"
-    - name: "Mikuの极光星心有多宽，世界就有多远blog.sotkg.com"
-      url: "https://blog.sotkg.com"
-    - name: "益友记生活点滴，留岁月温柔yiyou.bj.cn"
-      url: "https://www.yiyou.bj.cn"
-    - name: "PYM博客欢迎！Welcome!pym.plus"
-      url: "https://pym.plus"
-    - name: "Almango天真永不消逝，浪漫至死不渝blog.almango.cn/"
-      url: "https://blog.almango.cn/"
-    - name: "Benign XOverflow Stack Developerbenign.host/"
-      url: "https://benign.host/"
-    - name: "王一君Mew你奔向我的每一步，都是我心动的理由wyjmew.cn/"
-      url: "https://wyjmew.cn/"
-    - name: "Artalk"
-      url: "https://artalk.js.org"
+'site':
+  'name': 'kegongteng.cn'
+  'description': '友情链接'
+  'url': 'https://kegongteng.cn/'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Wherelse原Hey页面主题提供者vlieo.com'
+      'url': 'https://vlieo.com'
+    - 'name': 'Frederick为新主题提供建议ohdragonboi.cn'
+      'url': 'https://www.ohdragonboi.cn'
+    - 'name': 'Heo分享设计与科技生活blog.zhheo.com'
+      'url': 'https://blog.zhheo.com'
+    - 'name': '冰火之砺水穷暖春云起处blog.marice.top'
+      'url': 'https://blog.marice.top'
+    - 'name': 'Minsp·隅在纷扰中寻得宁静 于思索里洞察真意minsp.org'
+      'url': 'https://www.minsp.org'
+    - 'name': '晨叶梦春的小屋不求最好，只求更好yumeharu.top'
+      'url': 'https://www.yumeharu.top'
+    - 'name': 'HiPeach妙不可言blog.opeach.cn'
+      'url': 'https://blog.opeach.cn'
+    - 'name': 'Tianli自知之明是最可贵的知识！blog.tianli0.top'
+      'url': 'https://blog.tianli0.top'
+    - 'name': 'Pinpe 的云端一个属于自己的云朵。pinpe.top'
+      'url': 'https://pinpe.top'
+    - 'name': 'JUKAI.SITE我喜欢听花开的声音，更想自由地深情地呼吸jukai.site'
+      'url': 'https://jukai.site'
+    - 'name': 'iMaeGoo''s Blog虹墨空间站imaegoo.com'
+      'url': 'https://www.imaegoo.com'
+    - 'name': '❖星港◎Star☆以博客记录生活与热爱！blog.starsharbor.com'
+      'url': 'https://blog.starsharbor.com'
+    - 'name': '风记星辰热爱你来过的每度温暖thyuu.com'
+      'url': 'https://www.thyuu.com'
+    - 'name': 'btwoa世界为你简单blog.btwoa.com'
+      'url': 'https://blog.btwoa.com'
+    - 'name': 'Wcowin''s Web循此苦旅，以达星辰wcowin.work'
+      'url': 'https://wcowin.work'
+    - 'name': '秋葵笔记一切皆是因为好玩～qiukui-note.happy365.day'
+      'url': 'https://qiukui-note.happy365.day'
+    - 'name': 'ztr 的小窝记录 ztr 的学习与生活ztrztr.top'
+      'url': 'https://ztrztr.top'
+    - 'name': '祈星海身在井隅,心向璀璨zzzzhi.com'
+      'url': 'https://www.zzzzhi.com'
+    - 'name': 'Sci_qud突破了瓶颈，发现还有瓶盖qwqblog.wsq127.top'
+      'url': 'https://blog.wsq127.top'
+    - 'name': 'MBRjun-Blog我们生活在大地上，但梦想超越天空mbrjun.cn'
+      'url': 'https://www.mbrjun.cn'
+    - 'name': '哈喽！林墨白沉墨满纸，一笑若白blog.lmb520.cn'
+      'url': 'https://blog.lmb520.cn'
+    - 'name': '可执行程序の天境小屋🥝The boy who livedblog.hanta2011.top'
+      'url': 'https://blog.hanta2011.top'
+    - 'name': '寒夏摸鱼站稀奇古怪技术集散地blog.rainiar.top'
+      'url': 'https://blog.rainiar.top'
+    - 'name': '云藉记录滴滴点点，穿梭片片汪洋kumosya.top'
+      'url': 'https://kumosya.top'
+    - 'name': 'Mikuの极光星心有多宽，世界就有多远blog.sotkg.com'
+      'url': 'https://blog.sotkg.com'
+    - 'name': '益友记生活点滴，留岁月温柔yiyou.bj.cn'
+      'url': 'https://www.yiyou.bj.cn'
+    - 'name': 'PYM博客欢迎！Welcome!pym.plus'
+      'url': 'https://pym.plus'
+    - 'name': 'Almango天真永不消逝，浪漫至死不渝blog.almango.cn/'
+      'url': 'https://blog.almango.cn/'
+    - 'name': 'Benign XOverflow Stack Developerbenign.host/'
+      'url': 'https://benign.host/'
+    - 'name': '王一君Mew你奔向我的每一步，都是我心动的理由wyjmew.cn/'
+      'url': 'https://wyjmew.cn/'
+    - 'name': 'Artalk'
+      'url': 'https://artalk.js.org'

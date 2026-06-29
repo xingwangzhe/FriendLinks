@@ -1,122 +1,78 @@
-site:
-  name: "流年"
-  url: "https://yremp.live/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "技术"
-      url: "https://yremp.live/technology/"
-    - name: "资源"
-      url: "https://yremp.live/resource/"
-    - name: "随笔"
-      url: "https://yremp.live/notes/"
-    - name: "网络"
-      url: "https://yremp.live/internet/"
-    - name: "时光轴"
-      url: "https://yremp.live/timeline/"
-    - name: "友链"
-      url: "https://yremp.live/links/"
-    - name: "留言板"
-      url: "https://yremp.live/comment/"
-    - name: "番茄酱Hi, nice to meet you！"
-      url: "https://i.kurumi.ink/"
-    - name: "Bess's Blog群里的小伙伴"
-      url: "https://blog.besscroft.com/"
-    - name: "泠泫凝的异次元空间先空着2333"
-      url: "https://arlxn.top"
-    - name: "Dreamy.WJY一条有着远大理想的咸鱼"
-      url: "https://wjy.me"
-    - name: "hojun一个好奇的博客"
-      url: "https://www.hojun.cn"
-    - name: "Chevereto-Free我的图床工具"
-      url: "https://www.yremp.live"
-    - name: "Mashiro樱花庄的白猫"
-      url: "https://2heng.xin"
-    - name: "Cloud-Desktop我的云桌面"
-      url: "https://desktop.yremp.live/"
-    - name: "Music-Box我的音乐盒"
-      url: "https://music.yremp.live/"
-    - name: "喵喵喵~一只在学习前端中的喵~喵~"
-      url: "https://jwmm.xyz"
-    - name: "Uncle_drew Hand down,man down"
-      url: "https://cndrew.cn"
-    - name: "莉莉娅单纯的喜欢学习，仅此而已"
-      url: "http://myfanqie.github.io"
-    - name: "小舞这可能是一个低调的大佬"
-      url: "https://www.secondaries.cn"
-    - name: "Google-BoxGoogle盒子"
-      url: "https://yremp2.github.io"
-    - name: "灰の猫开辟丛林法则，创作无限碧绿"
-      url: "http://www.ymfgm.com"
-    - name: "Ckay’s blog花径不曾缘客扫，蓬门今始为君开"
-      url: "https://hexo.dnzs114.cn"
-    - name: "Laxse「木叶飞舞之处 火亦生生不息」"
-      url: "https://www.laxse.cn"
-    - name: "Toretto春原庄的雪"
-      url: "https://zouwang.vip/"
-    - name: "野生巫师页明天再加把劲吧"
-      url: "https://wildwizard.cn/"
-    - name: "bootstrap中文bootstrap 3.0中文网站"
-      url: "https://v3.bootcss.com/"
-    - name: "力扣海量技术面试题库,算法、数据结构、系统设计等 题目"
-      url: "https://leetcode-cn.com/"
-    - name: "MyBatis-Plus为简化开发而生"
-      url: "https://mybatis.plus/"
-    - name: "Springspring 官方网站"
-      url: "https://spring.io/"
-    - name: "哔哩哔哩b站不只是看鬼畜的地方哦"
-      url: "https://www.bilibili.com/"
-    - name: "Vue.jsVue.js官方网站"
-      url: "https://cn.vuejs.org"
-    - name: "Squooshgoogle图片在线压缩工具"
-      url: "https://squoosh.app/"
-    - name: "mvnrepositoryMaven库"
-      url: "https://mvnrepository.com/repos/central"
-    - name: "Tian-Xing没有前途的OIer"
-      url: "https://tian-xing.github.io/"
-    - name: "妖业蛋人生苦短，及时行乐。"
-      url: "https://yaoyedan.net/"
-    - name: "相逢大学生 C++ 计算机 追求美好未来！"
-      url: "https://xjh199923.github.io/"
-    - name: "过客~励む你现在的努力，是为了以后有更多的选择。"
-      url: "https://yafine-blog.cn"
-    - name: "我们的故事记录生活,镌刻心路;泼洒文墨,分享技术!"
-      url: "https://www.chenii.com/"
-    - name: "AnFrank既可以早九晚五又可以浪迹天涯。"
-      url: "https://enfangzhong.github.io/"
-    - name: "蝉时雨蝉鸣如雨，花宵道中"
-      url: "https://chanshiyu.com"
-    - name: "ctz一只兼职蒟蒻OIer的死宅"
-      url: "https://ctz45562.github.io"
-    - name: "木子雷web后端码仔，记录生活，分享技术！"
-      url: "https://leishen6.github.io/"
-    - name: "cungudafa一个学习记录者"
-      url: "https://cungudafa.gitee.io"
-    - name: "小枫叶弱小可怜又无助"
-      url: "https://starlovei.com"
-    - name: "wallleap Luwang’s Blog"
-      url: "https://wallleap.cn"
-    - name: "内河的站台一个乐天派的逗比~"
-      url: "https://www.ltyzqhh.top"
-    - name: "文歌的小站文歌的小站，主要关注与人工智能和web开发技术。"
-      url: "https://www.weupgo.cn/"
-    - name: "YINUXY’S BLOGhttps://blog.yinuxy.com/"
-      url: "https://blog.yinuxy.com/"
-    - name: "WhiteFan 的博客一个爱摄影的搞机爱好者"
-      url: "https://www.baifan97.cn/"
-    - name: "RawChen大道至简 大简至极"
-      url: "https://rawchen.com"
-    - name: "一觉睡到小时候Don’t be one of the leeches.Practice makes perfect."
-      url: "https://likeyou.cool/"
-    - name: "登录以回复"
-      url: "https://yremp.live/login-2/?redirect_to=https%3A%2F%2Fyremp.live%2Flinks%2F"
-    - name: "« Older"
-      url: "https://yremp.live/links/comment-page-9/#comments"
-    - name: "Theme Sakurairo"
-      url: "https://github.com/mirai-mamori/Sakurairo"
-    - name: "by Fuukei"
-      url: "https://docs.fuukei.org/"
-    - name: "QQ"
-      url: "https://yremp.live/wp-admin/admin-ajax.php?channel_id=social_qq&action=xh_social_channel&tab=login_redirect_to_authorization_uri&xh_social_channel=e4ae08695f&notice_str=0667811821&hash=ee289db3d553b82c56f373fb702840a6&redirect_to=https%3A%2F%2Fyremp.live%2Flinks%2F"
-    - name: "忘记密码？"
-      url: "https://yremp.live/findpassword/"
+'site':
+  'name': '流年'
+  'url': 'https://yremp.live/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '番茄酱Hi, nice to meet you！'
+      'url': 'https://i.kurumi.ink/'
+    - 'name': 'Bess''s Blog群里的小伙伴'
+      'url': 'https://blog.besscroft.com/'
+    - 'name': '泠泫凝的异次元空间先空着2333'
+      'url': 'https://arlxn.top'
+    - 'name': 'Dreamy.WJY一条有着远大理想的咸鱼'
+      'url': 'https://wjy.me'
+    - 'name': 'hojun一个好奇的博客'
+      'url': 'https://www.hojun.cn'
+    - 'name': 'Mashiro樱花庄的白猫'
+      'url': 'https://2heng.xin'
+    - 'name': 'Cloud-Desktop我的云桌面'
+      'url': 'https://desktop.yremp.live/'
+    - 'name': 'Music-Box我的音乐盒'
+      'url': 'https://music.yremp.live/'
+    - 'name': '喵喵喵~一只在学习前端中的喵~喵~'
+      'url': 'https://jwmm.xyz'
+    - 'name': 'Uncle_drew Hand down,man down'
+      'url': 'https://cndrew.cn'
+    - 'name': '小舞这可能是一个低调的大佬'
+      'url': 'https://www.secondaries.cn'
+    - 'name': '灰の猫开辟丛林法则，创作无限碧绿'
+      'url': 'http://www.ymfgm.com'
+    - 'name': 'Ckay’s blog花径不曾缘客扫，蓬门今始为君开'
+      'url': 'https://hexo.dnzs114.cn'
+    - 'name': 'Laxse「木叶飞舞之处 火亦生生不息」'
+      'url': 'https://www.laxse.cn'
+    - 'name': 'Toretto春原庄的雪'
+      'url': 'https://zouwang.vip/'
+    - 'name': '野生巫师页明天再加把劲吧'
+      'url': 'https://wildwizard.cn/'
+    - 'name': 'bootstrap中文bootstrap 3.0中文网站'
+      'url': 'https://v3.bootcss.com/'
+    - 'name': '力扣海量技术面试题库,算法、数据结构、系统设计等 题目'
+      'url': 'https://leetcode-cn.com/'
+    - 'name': 'MyBatis-Plus为简化开发而生'
+      'url': 'https://mybatis.plus/'
+    - 'name': 'Springspring 官方网站'
+      'url': 'https://spring.io/'
+    - 'name': 'Vue.jsVue.js官方网站'
+      'url': 'https://cn.vuejs.org'
+    - 'name': 'mvnrepositoryMaven库'
+      'url': 'https://mvnrepository.com/repos/central'
+    - 'name': '妖业蛋人生苦短，及时行乐。'
+      'url': 'https://yaoyedan.net/'
+    - 'name': '过客~励む你现在的努力，是为了以后有更多的选择。'
+      'url': 'https://yafine-blog.cn'
+    - 'name': '我们的故事记录生活,镌刻心路;泼洒文墨,分享技术!'
+      'url': 'https://www.chenii.com/'
+    - 'name': '蝉时雨蝉鸣如雨，花宵道中'
+      'url': 'https://chanshiyu.com'
+    - 'name': 'cungudafa一个学习记录者'
+      'url': 'https://cungudafa.gitee.io'
+    - 'name': '小枫叶弱小可怜又无助'
+      'url': 'https://starlovei.com'
+    - 'name': 'wallleap Luwang’s Blog'
+      'url': 'https://wallleap.cn'
+    - 'name': '内河的站台一个乐天派的逗比~'
+      'url': 'https://www.ltyzqhh.top'
+    - 'name': '文歌的小站文歌的小站，主要关注与人工智能和web开发技术。'
+      'url': 'https://www.weupgo.cn/'
+    - 'name': 'YINUXY’S BLOGhttps://blog.yinuxy.com/'
+      'url': 'https://blog.yinuxy.com/'
+    - 'name': 'WhiteFan 的博客一个爱摄影的搞机爱好者'
+      'url': 'https://www.baifan97.cn/'
+    - 'name': 'RawChen大道至简 大简至极'
+      'url': 'https://rawchen.com'
+    - 'name': '一觉睡到小时候Don’t be one of the leeches.Practice makes perfect.'
+      'url': 'https://likeyou.cool/'
+    - 'name': 'by Fuukei'
+      'url': 'https://docs.fuukei.org/'

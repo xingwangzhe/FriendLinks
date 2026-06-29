@@ -1,42 +1,8 @@
-site:
-  name: "cuixinxin.cn"
-  description: "友情链接"
-  url: "https://cuixinxin.cn/"
-  links: "/link"
-  friends:
-    - name: "闲言碎语"
-      url: "https://cuixinxin.cn/memos"
-    - name: "技术"
-      url: "https://cuixinxin.cn/coding"
-    - name: "生活"
-      url: "https://cuixinxin.cn/life"
-    - name: "记录"
-      url: "https://cuixinxin.cn/record"
-    - name: "朋友"
-      url: "https://cuixinxin.cn/friends"
-    - name: "热点新闻"
-      url: "https://cuixinxin.cn/hotnews"
-    - name: "常用代码"
-      url: "https://cuixinxin.cn/reviewcode"
-    - name: "工具箱"
-      url: "https://cuixinxin.cn/tools"
-    - name: "故事胶片"
-      url: "https://lieme.cn"
-    - name: "坚果大叔"
-      url: "https://mp.weixin.qq.com/s/jxx5OeiEFqSZRD1NQ3ZooA"
-    - name: "开往-友链接力"
-      url: "https://www.travellings.cn/go.html"
-    - name: "萌ICP备20230818号"
-      url: "https://icp.gov.moe/?keyword=20230818"
-    - name: "苏ICP备18048410号-3"
-      url: "http://beian.miit.gov.cn/"
-    - name: "# CSS #"
-      url: "https://cuixinxin.cn/archives/tag/css"
-    - name: "# JavaScript #"
-      url: "https://cuixinxin.cn/archives/tag/javascript"
-    - name: "# vue #"
-      url: "https://cuixinxin.cn/archives/tag/vue"
-    - name: "# 微信 #"
-      url: "https://cuixinxin.cn/archives/tag/%e5%be%ae%e4%bf%a1"
-    - name: "# 生活 #"
-      url: "https://cuixinxin.cn/archives/tag/%e7%94%9f%e6%b4%bb"
+'site':
+  'name': 'cuixinxin.cn'
+  'description': '友情链接'
+  'url': 'https://cuixinxin.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '故事胶片'
+      'url': 'https://lieme.cn'

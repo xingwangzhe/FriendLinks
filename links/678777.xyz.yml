@@ -1,56 +1,44 @@
-site:
-  name: "678777.xyz"
-  description: "友情链接"
-  url: "https://678777.xyz/"
-  links: "/link"
-  friends:
-    - name: "博客"
-      url: "http://blog.nomeet.cn/index.php/page/3/"
-    - name: "HDLBits"
-      url: "https://hdlbits.01xz.net/wiki/Main_Page"
-    - name: "Hexo"
-      url: "https://hexo.io/zh-tw/"
-    - name: "anzhiyu主题"
-      url: "https://blog.anheyu.com/"
-    - name: "Jerry"
-      url: "https://butterfly.js.org/"
-    - name: "GTC"
-      url: "https://gtcblog.js.cool"
-    - name: "七鳄の学习格"
-      url: "https://blog.gmcj0816.top/"
-    - name: "SLOVER"
-      url: "https://678777.xyz"
-    - name: "Fomalhaut🥝"
-      url: "https://www.fomal.cc/"
-    - name: "贰猹的小窝"
-      url: "https://noionion.top/"
-    - name: "Ariasakaの小窝"
-      url: "https://yisous.xyz"
-    - name: "哈喽！林墨白"
-      url: "https://blog.lmb520.cn"
-    - name: "Akilarの糖果屋欢迎光临糖果屋"
-      url: "https://akilar.top/"
-    - name: "怕冷爱上雪千里之行，始于足下。"
-      url: "https://blog.4t.pw/"
-    - name: "Shine热爱生活点滴，分享时刻精彩。"
-      url: "https://blog.shineyu.cn/"
-    - name: "LyShark - 孤风洗剑道，可道，非常道；名，可名，非常名。—— 老子《道德经》"
-      url: "https://www.lyshark.com"
-    - name: "CC康纳百川CC康纳百川的小窝"
-      url: "https://blog.ccknbc.cc"
-    - name: "Eurkon不只是代码的搬运工"
-      url: "https://blog.eurkon.com"
-    - name: "Leonus进一寸有进一寸的欢喜。"
-      url: "https://blog.leonus.cn/"
-    - name: "张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "博客框架为Hexo_v5.4.0"
-      url: "https://hexo.io/"
-    - name: "本站项目由Github托管"
-      url: "https://github.com/"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "萌ICP备20230555号"
-      url: "https://icp.gov.moe/?keyword=20240555"
+'site':
+  'name': '678777.xyz'
+  'description': '友情链接'
+  'url': 'https://678777.xyz/'
+  'links': '/link'
+  'friends':
+    - 'name': '博客'
+      'url': 'http://blog.nomeet.cn/index.php/page/3/'
+    - 'name': 'HDLBits'
+      'url': 'https://hdlbits.01xz.net/wiki/Main_Page'
+    - 'name': 'anzhiyu主题'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': 'Jerry'
+      'url': 'https://butterfly.js.org/'
+    - 'name': 'GTC'
+      'url': 'https://gtcblog.js.cool'
+    - 'name': '七鳄の学习格'
+      'url': 'https://blog.gmcj0816.top/'
+    - 'name': 'Fomalhaut🥝'
+      'url': 'https://www.fomal.cc/'
+    - 'name': '贰猹的小窝'
+      'url': 'https://noionion.top/'
+    - 'name': 'Ariasakaの小窝'
+      'url': 'https://yisous.xyz'
+    - 'name': '哈喽！林墨白'
+      'url': 'https://blog.lmb520.cn'
+    - 'name': 'Akilarの糖果屋欢迎光临糖果屋'
+      'url': 'https://akilar.top/'
+    - 'name': '怕冷爱上雪千里之行，始于足下。'
+      'url': 'https://blog.4t.pw/'
+    - 'name': 'Shine热爱生活点滴，分享时刻精彩。'
+      'url': 'https://blog.shineyu.cn/'
+    - 'name': 'LyShark - 孤风洗剑道，可道，非常道；名，可名，非常名。—— 老子《道德经》'
+      'url': 'https://www.lyshark.com'
+    - 'name': 'CC康纳百川CC康纳百川的小窝'
+      'url': 'https://blog.ccknbc.cc'
+    - 'name': 'Eurkon不只是代码的搬运工'
+      'url': 'https://blog.eurkon.com'
+    - 'name': 'Leonus进一寸有进一寸的欢喜。'
+      'url': 'https://blog.leonus.cn/'
+    - 'name': '张洪Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '博客框架为Hexo_v5.4.0'
+      'url': 'https://hexo.io/'

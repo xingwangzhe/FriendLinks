@@ -1,28 +1,20 @@
-site:
-  name: "huochairener-blog.cn"
-  description: "友情链接"
-  url: "https://huochairener-blog.cn/"
-  links: "/link"
-  friends:
-    - name: "安知鱼`Blog"
-      url: "https://blog.anheyu.com/"
-    - name: "小嘉的部落格"
-      url: "https://blog.imzjw.cn/"
-    - name: "上冬十二"
-      url: "https://oragekk.me/"
-    - name: "张洪Heo"
-      url: "https://zhheo.com/"
-    - name: "雨云"
-      url: "https://www.rainyun.com/MzgwODIy_"
-    - name: "又拍云"
-      url: "https://console.upyun.com/register/?invite=cakGsjCR7"
-    - name: "云点IDC"
-      url: "https://www.yundianidc.cn/aff/FMWVVNJX"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
-    - name: "京ICP备2024072607号-1"
-      url: "https://beian.miit.gov.cn/"
-    - name: "京公网安备11011502038083号"
-      url: "https://beian.mps.gov.cn/#/query/webSearch?code=11011502038083"
+'site':
+  'name': 'huochairener-blog.cn'
+  'description': '友情链接'
+  'url': 'https://huochairener-blog.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '安知鱼`Blog'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '小嘉的部落格'
+      'url': 'https://blog.imzjw.cn/'
+    - 'name': '上冬十二'
+      'url': 'https://oragekk.me/'
+    - 'name': '张洪Heo'
+      'url': 'https://zhheo.com/'
+    - 'name': '雨云'
+      'url': 'https://www.rainyun.com/MzgwODIy_'
+    - 'name': '又拍云'
+      'url': 'https://console.upyun.com/register/?invite=cakGsjCR7'
+    - 'name': '云点IDC'
+      'url': 'https://www.yundianidc.cn/aff/FMWVVNJX'

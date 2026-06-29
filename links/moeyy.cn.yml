@@ -1,26 +1,12 @@
-site:
-  name: "Moeyy"
-  url: "https://moeyy.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "普普通通"
-      url: "https://wapj,cn"
-    - name: "果汁汁"
-      url: "https://哈基米.cm"
-    - name: "mp4网"
-      url: "http://mp4wang.cc"
-    - name: "https://syhsq.cn/"
-      url: "https://syhsq.cn/"
-    - name: "Moeyy"
-      url: "https://moeyy.cn"
-    - name: "https://syhsq.cn/sj.phg"
-      url: "https://syhsq.cn/sj.phg"
-    - name: "https://syhsq.cn/sj.png"
-      url: "https://syhsq.cn/sj.png"
-    - name: "粤ICP备2021073158号"
-      url: "https://beian.miit.gov.cn/"
-    - name: "粤公网安备44532102445426号"
-      url: "https://beian.mps.gov.cn/#/query/webSearch?code=44532102445426"
+'site':
+  'name': 'Moeyy'
+  'url': 'https://moeyy.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '普普通通'
+      'url': 'https://wapj,cn'
+    - 'name': '果汁汁'
+      'url': 'https://哈基米.cm'
+    - 'name': 'mp4网'
+      'url': 'http://mp4wang.cc'

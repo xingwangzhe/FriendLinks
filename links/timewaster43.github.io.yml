@@ -1,40 +1,26 @@
-site:
-  name: "timewaster43.github.io"
-  description: "友情链接"
-  url: "https://timewaster43.github.io/"
-  links: "/link"
-  friends:
-    - name: "学术主页"
-      url: "https://huihengli.me"
-    - name: "CIE伪代码解释器"
-      url: "https://github.com/huihengli/CIE-AL-CS-pseudocode-interpreter-kernel"
-    - name: "提问箱"
-      url: "https://qntwx.cn/UJZ3XB"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "Hexo"
-      url: "https://hexo.io/zh-cn/"
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com/"
-    - name: "阿谦"
-      url: "https://blog.fiveth.cc/"
-    - name: "ZhouZhou"
-      url: "https://blog.zzzero.site/"
-    - name: "Eth Young"
-      url: "https://www.ethyoung.me/blog-life/blog"
-    - name: "Jerry"
-      url: "https://butterfly.js.org/"
-    - name: "MamboJiang转身离开之前，别忘了说最后一次再见"
-      url: "https://blog.mambojiang.site/"
-    - name: "张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Github"
-      url: "https://github.com/huihengli"
-    - name: "BiliBili"
-      url: "https://space.bilibili.com/433838433"
-    - name: "抖音"
-      url: "https://www.douyin.com/user/MS4wLjABAAAAkGnZVrSe61hf7zZtZJyptF0E5dw1wPq708q2-Jf-ctzxhGBf8WRJywo3lNaY6zHQ"
-    - name: "主题"
-      url: "https://github.com/anzhiyu-c/hexo-theme-anzhiyu"
+'site':
+  'name': 'timewaster43.github.io'
+  'description': '友情链接'
+  'url': 'https://timewaster43.github.io/'
+  'links': '/link'
+  'friends':
+    - 'name': '学术主页'
+      'url': 'https://huihengli.me'
+    - 'name': '提问箱'
+      'url': 'https://qntwx.cn/UJZ3XB'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '阿谦'
+      'url': 'https://blog.fiveth.cc/'
+    - 'name': 'ZhouZhou'
+      'url': 'https://blog.zzzero.site/'
+    - 'name': 'Eth Young'
+      'url': 'https://www.ethyoung.me/blog-life/blog'
+    - 'name': 'Jerry'
+      'url': 'https://butterfly.js.org/'
+    - 'name': 'MamboJiang转身离开之前，别忘了说最后一次再见'
+      'url': 'https://blog.mambojiang.site/'
+    - 'name': '张洪Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '抖音'
+      'url': 'https://www.douyin.com/user/MS4wLjABAAAAkGnZVrSe61hf7zZtZJyptF0E5dw1wPq708q2-Jf-ctzxhGBf8WRJywo3lNaY6zHQ'

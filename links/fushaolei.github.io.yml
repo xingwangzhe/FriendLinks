@@ -1,66 +1,56 @@
-site:
-  name: "fushaolei.github.io"
-  description: "友情链接"
-  url: "https://fushaolei.github.io/"
-  links: "/link"
-  friends:
-    - name: "琼西往事"
-      url: "https://fushaolei.github.io/"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "虫洞"
-      url: "https://foreverblog.cn/go.html"
-    - name: "城南破事"
-      url: "https://www.ronce.cc/"
-    - name: "竹青虫の窝"
-      url: "https://1940879828.github.io/"
-    - name: "CtrlCV博客"
-      url: "https://www.hack-er.cn/"
-    - name: "两小无猜"
-      url: "https://echopl.fun/#/echo"
-    - name: "策策的小黑屋"
-      url: "https://www.cnblogs.com/occlive/"
-    - name: "Guan FuQing"
-      url: "https://yiki.tech"
-    - name: "阿瑞"
-      url: "https://wenzia.com"
-    - name: "依尘"
-      url: "https://yichen.online"
-    - name: "TMaize Blog"
-      url: "https://blog.tmaize.net/"
-    - name: "猫鱼的小站"
-      url: "http://2cat.net/"
-    - name: "M E S"
-      url: "https://rain.moimo.me"
-    - name: "明心"
-      url: "https://subrige.xyz/"
-    - name: "饿龙不是龙哩"
-      url: "https://liuyifei.club"
-    - name: "rawchen"
-      url: "https://rawchen.com/"
-    - name: "優萌初華"
-      url: "https://shoka.lostyu.me"
-    - name: "DmxZ"
-      url: "https://dmx.pub/"
-    - name: "宸铄"
-      url: "https://liurenfeng007.github.io/"
-    - name: "initcool"
-      url: "https://blog.nmslwsnd.com/"
-    - name: "itsNekoDeng"
-      url: "https://nekodeng.gitee.io/"
-    - name: "般若格子"
-      url: "http://www.borebooks.top/"
-    - name: "鼠鼠在碎觉"
-      url: "https://sszsj.com"
-    - name: "随想录"
-      url: "https://concaxu.top/"
-    - name: "姓王者"
-      url: "https://xingwangzhe.fun/"
-    - name: "河泽冰"
-      url: "https://hezebin.com/"
-    - name: "轻雅阁"
-      url: "https://www.puresky.top/"
-    - name: "老陳网志"
-      url: "https://chenvlog.com/"
-    - name: "Viki 写东西的地方"
-      url: "https://blog.viki.moe/"
+'site':
+  'name': 'fushaolei.github.io'
+  'description': '友情链接'
+  'url': 'https://fushaolei.github.io/'
+  'links': '/link'
+  'friends':
+    - 'name': '城南破事'
+      'url': 'https://www.ronce.cc/'
+    - 'name': 'CtrlCV博客'
+      'url': 'https://www.hack-er.cn/'
+    - 'name': '两小无猜'
+      'url': 'https://echopl.fun/#/echo'
+    - 'name': '策策的小黑屋'
+      'url': 'https://www.cnblogs.com/occlive/'
+    - 'name': 'Guan FuQing'
+      'url': 'https://yiki.tech'
+    - 'name': '阿瑞'
+      'url': 'https://wenzia.com'
+    - 'name': '依尘'
+      'url': 'https://yichen.online'
+    - 'name': 'TMaize Blog'
+      'url': 'https://blog.tmaize.net/'
+    - 'name': '猫鱼的小站'
+      'url': 'http://2cat.net/'
+    - 'name': 'M E S'
+      'url': 'https://rain.moimo.me'
+    - 'name': '明心'
+      'url': 'https://subrige.xyz/'
+    - 'name': '饿龙不是龙哩'
+      'url': 'https://liuyifei.club'
+    - 'name': 'rawchen'
+      'url': 'https://rawchen.com/'
+    - 'name': '優萌初華'
+      'url': 'https://shoka.lostyu.me'
+    - 'name': 'DmxZ'
+      'url': 'https://dmx.pub/'
+    - 'name': 'initcool'
+      'url': 'https://blog.nmslwsnd.com/'
+    - 'name': 'itsNekoDeng'
+      'url': 'https://nekodeng.gitee.io/'
+    - 'name': '般若格子'
+      'url': 'http://www.borebooks.top/'
+    - 'name': '鼠鼠在碎觉'
+      'url': 'https://sszsj.com'
+    - 'name': '随想录'
+      'url': 'https://concaxu.top/'
+    - 'name': '姓王者'
+      'url': 'https://xingwangzhe.fun/'
+    - 'name': '河泽冰'
+      'url': 'https://hezebin.com/'
+    - 'name': '轻雅阁'
+      'url': 'https://www.puresky.top/'
+    - 'name': '老陳网志'
+      'url': 'https://chenvlog.com/'
+    - 'name': 'Viki 写东西的地方'
+      'url': 'https://blog.viki.moe/'

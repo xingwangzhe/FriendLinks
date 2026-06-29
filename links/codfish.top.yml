@@ -1,44 +1,30 @@
-site:
-  name: "Codfish"
-  url: "https://codfish.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "GitHub"
-      url: "https://github.com/Codfish789"
-    - name: "fishcpy的小破站非淡泊无以明志，非宁静无以致远"
-      url: "https://blog.fis.ink"
-    - name: "AcoForkProtect What You Love!"
-      url: "https://2x.nz/"
-    - name: "ZLA 小站月亮不抱你，星星会落在你怀里✨🌙"
-      url: "https://zla.pub/"
-    - name: "星辰の笔记Code | Think | Share | Repeat"
-      url: "https://blog.strarry.top/"
-    - name: "张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "天海博客建站经验记录，实用工具推荐，免费资源分享。"
-      url: "https://www.woolyun.com"
-    - name: "𝟞𝟙𝟡'𝕤 𝔹𝕃𝕆𝔾𝓙𝓾𝓼𝓽 𝓪 𝓬𝓵𝓸𝓾𝓭."
-      url: "https://66619.eu.org"
-    - name: "黄浩景博客以自信为笔，勾勒梦的轮廓；将生活晕染成心的原色"
-      url: "https://hhj520.top"
-    - name: "AkiNard Blog艾拉酱世界第一可爱！"
-      url: "https://blog.578113.xyz"
-    - name: "可爱のElaina或许是不知梦的缘故，流离之人追逐幻影"
-      url: "https://blog.yhx1415926.top"
-    - name: "NodeSeekNodeSeek是一个为主机爱好者打造的高品质社区，分享服务器行业新闻、技术心得、开源项目等。"
-      url: "https://www.nodeseek.com/"
-    - name: "LINUX DOWhere possible begins."
-      url: "https://linux.do/"
-    - name: "ACG导航站这个站点反代了ACG常用的BT种子分享站点"
-      url: "https://acg.codfish.top/"
-    - name: "6Github 加速站使用Cloudflare Worker 反代 Github 并优选IP"
-      url: "https://6github.com/"
-    - name: "中国原神大学原神启动！"
-      url: "https://www.xn--fiqq6k45cmxcf2df98d.com/"
-    - name: "Astro"
-      url: "https://astro.build"
-    - name: "Fuwari"
-      url: "https://github.com/saicaca/fuwari"
-    - name: "萌ICP备20250542号"
-      url: "https://icp.gov.moe/?keyword=20250542"
+'site':
+  'name': 'Codfish'
+  'url': 'https://codfish.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'fishcpy的小破站非淡泊无以明志，非宁静无以致远'
+      'url': 'https://blog.fis.ink'
+    - 'name': 'AcoForkProtect What You Love!'
+      'url': 'https://2x.nz/'
+    - 'name': 'ZLA 小站月亮不抱你，星星会落在你怀里✨🌙'
+      'url': 'https://zla.pub/'
+    - 'name': '星辰の笔记Code | Think | Share | Repeat'
+      'url': 'https://blog.strarry.top/'
+    - 'name': '张洪Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '𝟞𝟙𝟡''𝕤 𝔹𝕃𝕆𝔾𝓙𝓾𝓼𝓽 𝓪 𝓬𝓵𝓸𝓾𝓭.'
+      'url': 'https://66619.eu.org'
+    - 'name': '黄浩景博客以自信为笔，勾勒梦的轮廓；将生活晕染成心的原色'
+      'url': 'https://hhj520.top'
+    - 'name': 'AkiNard Blog艾拉酱世界第一可爱！'
+      'url': 'https://blog.578113.xyz'
+    - 'name': '可爱のElaina或许是不知梦的缘故，流离之人追逐幻影'
+      'url': 'https://blog.yhx1415926.top'
+    - 'name': 'NodeSeekNodeSeek是一个为主机爱好者打造的高品质社区，分享服务器行业新闻、技术心得、开源项目等。'
+      'url': 'https://www.nodeseek.com/'
+    - 'name': 'LINUX DOWhere possible begins.'
+      'url': 'https://linux.do/'
+    - 'name': '中国原神大学原神启动！'
+      'url': 'https://www.xn--fiqq6k45cmxcf2df98d.com/'

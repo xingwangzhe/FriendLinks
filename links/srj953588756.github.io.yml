@@ -1,14 +1,8 @@
-site:
-  name: "srj953588756.github.io"
-  description: "友情链接"
-  url: "https://srj953588756.github.io/"
-  links: "/link"
-  friends:
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "Waline"
-      url: "https://github.com/walinejs/waline"
-    - name: "Stellar"
-      url: "https://github.com/xaoxuu/hexo-theme-stellar"
-    - name: "CC BY-NC-SA 4.0"
-      url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+'site':
+  'name': 'srj953588756.github.io'
+  'description': '友情链接'
+  'url': 'https://srj953588756.github.io/'
+  'links': '/link'
+  'friends':
+    - 'name': 'CC BY-NC-SA 4.0'
+      'url': 'https://creativecommons.org/licenses/by-nc-sa/4.0/'

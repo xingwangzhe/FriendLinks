@@ -1,116 +1,66 @@
-site:
-  name: "廿壴博客"
-  url: "https://blog.ganxb2.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "1github"
-      url: "https://blog.ganxb2.com/tags/github/"
-    - name: "2hexo"
-      url: "https://blog.ganxb2.com/tags/hexo/"
-    - name: "3waline"
-      url: "https://blog.ganxb2.com/tags/waline/"
-    - name: "4编程开发应用软件"
-      url: "https://blog.ganxb2.com/tags/编程开发应用软件/"
-    - name: "5nodejs"
-      url: "https://blog.ganxb2.com/tags/nodejs/"
-    - name: "1谷歌站长平台无法登录，注册谷歌帐号时报错“此电话号码无法用于进行验证”"
-      url: "https://blog.ganxb2.com/23216.html"
-    - name: "2利用jsdelivr给github图床和npm组件库免费cdn加速"
-      url: "https://blog.ganxb2.com/50860.html"
-    - name: "3hexo个人博客优化实现vuePress插件external-link-icon(超链接末尾小图标)"
-      url: "https://blog.ganxb2.com/11388.html"
-    - name: "4linkinpark《变形金刚3》主题曲现场版"
-      url: "https://blog.ganxb2.com/54435.html"
-    - name: "5小波音乐分享：五月天追梦3DNA演唱会"
-      url: "https://blog.ganxb2.com/40904.html"
-    - name: "1浏览器控制台报错cannot read properties of undefined xl-content js"
-      url: "https://blog.ganxb2.com/5897.html"
-    - name: "2好乐队的主唱为啥都这么挺不住啊？for「Low Roar」"
-      url: "https://blog.ganxb2.com/55330.html"
-    - name: "3behance封禁中国区帐号无法登录后怎么转移原帐号收藏的情绪板和关注"
-      url: "https://blog.ganxb2.com/19772.html"
-    - name: "4小波壁纸分享：《来自深渊第二季烈日的黄金乡》4k壁纸"
-      url: "https://blog.ganxb2.com/21349.html"
-    - name: "5小波设计赏析：「守望先锋2」归来网页设计"
-      url: "https://blog.ganxb2.com/6180.html"
-    - name: "🚇"
-      url: "https://www.travellings.cn/go.html"
-    - name: "2broear2b博客 | 兴趣指引方向，会玩才会学"
-      url: "https://blog.2broear.com/"
-    - name: "leay养恐龙 | hqweay"
-      url: "https://leay.net/"
-    - name: "sarakaleSaraKale’s blog | 星轮流转，唯心不变…"
-      url: "https://sarakale.top/blog"
-    - name: "thyuu风记星辰 | 分享生活 · 留下感动 : )"
-      url: "https://www.thyuu.com/"
-    - name: "故人随笔故人随笔 | 寒江孤影,江湖故人"
-      url: "https://ifwww.com/"
-    - name: "jishusongshu技术松鼠 | 学习，让视野更宽阔！"
-      url: "https://www.jishusongshu.com/"
-    - name: "snowtafir杉星雪 | 银光渐深星无灭，古杉月空探花雪。浮尘荡风埃不落，杨柳春辰与露飞。"
-      url: "https://snowtafir.top/"
-    - name: "zywvvd苍岚 | 蓝天依旧，明眸如初"
-      url: "https://www.zywvvd.com/"
-    - name: "leonusLeonus | 进一寸有进一寸的欢喜。"
-      url: "https://blog.leonus.cn/"
-    - name: "美好的明天分享改变，记录生活"
-      url: "https://www.wmviv.com/"
-    - name: "UyoAhz集中精神，以气御剪"
-      url: "https://uyoahz.cn/"
-    - name: "张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "小鹿生活志热爱分享、永远清新！一个写故事的博客！"
-      url: "https://www.t223.top/"
-    - name: "上冬十二到最后，竟庆幸于夕阳仍留在身上"
-      url: "https://oragekk.me/"
-    - name: "dreamChaser的小屋追风赶月莫停留，平芜尽处是春山"
-      url: "https://blog.wenjing.xin"
-    - name: "顾梦不想满心遗憾，那就全力以赴"
-      url: "https://blog.gumengyo.top"
-    - name: "别碰我的镜头盖I love the people I photograph！"
-      url: "https://blog.jclin.top/"
-    - name: "leiyud小玲姐(神一般偶像) | 智能交互设计专家"
-      url: "http://www.leiyud.com/"
-    - name: "jipeigen培根 | 死党"
-      url: "https://weibo.com/jipeigen"
-    - name: "foreverblog十年之约 | 一个人的寂寞，一群人的狂欢。"
-      url: "https://www.foreverblog.cn/"
-    - name: "BlogFinderBlogFinder | 发现优秀的个人博客"
-      url: "https://bf.zzxworld.com/"
-    - name: "songsong卢松松博客 | SEO"
-      url: "https://lusongsong.com/"
-    - name: "storeweb个站商店 | 一个精致的，带社交元素的个人网站发布平台，博客收录网站"
-      url: "https://storeweb.cn/"
-    - name: "zcool站酷"
-      url: "https://www.zcool.com.cn/"
-    - name: "68design网页设计师联盟"
-      url: "https://www.68design.net/"
-    - name: "blueidea蓝色理想"
-      url: "http://www.blueidea.com/"
-    - name: "uisdc优设"
-      url: "https://www.uisdc.com/"
-    - name: "zhangxinxu张鑫旭"
-      url: "https://www.zhangxinxu.com/"
-    - name: "cnblogs博客园"
-      url: "https://www.cnblogs.com/"
-    - name: "juejin掘金"
-      url: "https://e.juejin.cn/#/"
-    - name: "csdnCSDN博客 | 专业IT技术发表平台"
-      url: "https://blog.csdn.net/"
-    - name: "open baidu百度开放平台"
-      url: "https://open.baidu.com/#/"
-    - name: "leancloud在线数据库"
-      url: "https://leancloud.cn"
-    - name: "蜀ICP备19026443号"
-      url: "https://beian.miit.gov.cn/#/Integrated/index"
-    - name: "|  粤公网安备 44030902003502号"
-      url: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030902003502"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "廿壴(GANXB2)"
-      url: "https://blog.ganxb2.com"
-    - name: "Fluid"
-      url: "https://github.com/fluid-dev/hexo-theme-fluid"
-    - name: "穿梭虫洞-随机访问十年之约友链博客"
-      url: "https://www.foreverblog.cn/go.html"
+'site':
+  'name': '廿壴博客'
+  'url': 'https://blog.ganxb2.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '2broear2b博客 | 兴趣指引方向，会玩才会学'
+      'url': 'https://blog.2broear.com/'
+    - 'name': 'leay养恐龙 | hqweay'
+      'url': 'https://leay.net/'
+    - 'name': 'sarakaleSaraKale’s blog | 星轮流转，唯心不变…'
+      'url': 'https://sarakale.top/blog'
+    - 'name': 'thyuu风记星辰 | 分享生活 · 留下感动 : )'
+      'url': 'https://www.thyuu.com/'
+    - 'name': '故人随笔故人随笔 | 寒江孤影,江湖故人'
+      'url': 'https://ifwww.com/'
+    - 'name': 'jishusongshu技术松鼠 | 学习，让视野更宽阔！'
+      'url': 'https://www.jishusongshu.com/'
+    - 'name': 'snowtafir杉星雪 | 银光渐深星无灭，古杉月空探花雪。浮尘荡风埃不落，杨柳春辰与露飞。'
+      'url': 'https://snowtafir.top/'
+    - 'name': 'zywvvd苍岚 | 蓝天依旧，明眸如初'
+      'url': 'https://www.zywvvd.com/'
+    - 'name': 'leonusLeonus | 进一寸有进一寸的欢喜。'
+      'url': 'https://blog.leonus.cn/'
+    - 'name': '美好的明天分享改变，记录生活'
+      'url': 'https://www.wmviv.com/'
+    - 'name': 'UyoAhz集中精神，以气御剪'
+      'url': 'https://uyoahz.cn/'
+    - 'name': '张洪Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '小鹿生活志热爱分享、永远清新！一个写故事的博客！'
+      'url': 'https://www.t223.top/'
+    - 'name': '上冬十二到最后，竟庆幸于夕阳仍留在身上'
+      'url': 'https://oragekk.me/'
+    - 'name': 'dreamChaser的小屋追风赶月莫停留，平芜尽处是春山'
+      'url': 'https://blog.wenjing.xin'
+    - 'name': '顾梦不想满心遗憾，那就全力以赴'
+      'url': 'https://blog.gumengyo.top'
+    - 'name': '别碰我的镜头盖I love the people I photograph！'
+      'url': 'https://blog.jclin.top/'
+    - 'name': 'leiyud小玲姐(神一般偶像) | 智能交互设计专家'
+      'url': 'http://www.leiyud.com/'
+    - 'name': 'BlogFinderBlogFinder | 发现优秀的个人博客'
+      'url': 'https://bf.zzxworld.com/'
+    - 'name': 'songsong卢松松博客 | SEO'
+      'url': 'https://lusongsong.com/'
+    - 'name': 'zcool站酷'
+      'url': 'https://www.zcool.com.cn/'
+    - 'name': '68design网页设计师联盟'
+      'url': 'https://www.68design.net/'
+    - 'name': 'blueidea蓝色理想'
+      'url': 'http://www.blueidea.com/'
+    - 'name': 'uisdc优设'
+      'url': 'https://www.uisdc.com/'
+    - 'name': 'zhangxinxu张鑫旭'
+      'url': 'https://www.zhangxinxu.com/'
+    - 'name': 'cnblogs博客园'
+      'url': 'https://www.cnblogs.com/'
+    - 'name': 'juejin掘金'
+      'url': 'https://e.juejin.cn/#/'
+    - 'name': 'csdnCSDN博客 | 专业IT技术发表平台'
+      'url': 'https://blog.csdn.net/'
+    - 'name': 'open baidu百度开放平台'
+      'url': 'https://open.baidu.com/#/'
+    - 'name': 'leancloud在线数据库'
+      'url': 'https://leancloud.cn'

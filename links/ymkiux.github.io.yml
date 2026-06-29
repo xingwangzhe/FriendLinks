@@ -1,34 +1,26 @@
-site:
-  name: "ymkiux.github.io"
-  description: "友情链接"
-  url: "https://ymkiux.github.io/"
-  links: "/friends"
-  friends:
-    - name: "姜姜酱"
-      url: "https://qsang.xin/"
-    - name: "parade岁月"
-      url: "https://blog.csdn.net/parade0393/"
-    - name: "Kaede Akatsuki"
-      url: "https://kaedea.com/"
-    - name: "不想吃泡面"
-      url: "https://blog.csdn.net/weixin_43219615/"
-    - name: "扔物线"
-      url: "https://kaixue.io/"
-    - name: "Flywith24"
-      url: "https://flywith24.gitee.io/"
-    - name: "Manjusaka"
-      url: "https://manjusaka.itscoder.com/"
-    - name: "Pdone"
-      url: "https://pdoner.cn/"
-    - name: "Houbb"
-      url: "https://houbb.github.io/"
-    - name: "若葉"
-      url: "https://ry.mk/"
-    - name: "葱苓"
-      url: "https://blog.ciraos.top/"
-    - name: "柠檬味儿的咖啡"
-      url: "https://github.com/ChengYuRen/"
-    - name: "FeanCheng"
-      url: "https://github.com/FeanCheng/"
-    - name: "sceext2"
-      url: "https://github.com/sceext2/"
+'site':
+  'name': 'ymkiux.github.io'
+  'description': '友情链接'
+  'url': 'https://ymkiux.github.io/'
+  'links': '/friends'
+  'friends':
+    - 'name': '姜姜酱'
+      'url': 'https://qsang.xin/'
+    - 'name': 'parade岁月'
+      'url': 'https://blog.csdn.net/parade0393/'
+    - 'name': 'Kaede Akatsuki'
+      'url': 'https://kaedea.com/'
+    - 'name': '不想吃泡面'
+      'url': 'https://blog.csdn.net/weixin_43219615/'
+    - 'name': '扔物线'
+      'url': 'https://kaixue.io/'
+    - 'name': 'Flywith24'
+      'url': 'https://flywith24.gitee.io/'
+    - 'name': 'Manjusaka'
+      'url': 'https://manjusaka.itscoder.com/'
+    - 'name': 'Pdone'
+      'url': 'https://pdoner.cn/'
+    - 'name': '若葉'
+      'url': 'https://ry.mk/'
+    - 'name': '葱苓'
+      'url': 'https://blog.ciraos.top/'

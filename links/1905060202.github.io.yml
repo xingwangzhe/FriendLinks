@@ -1,22 +1,12 @@
-site:
-  name: "1905060202.github.io"
-  description: "友情链接"
-  url: "https://1905060202.github.io/"
-  links: "/link"
-  friends:
-    - name: "码小余の博客把阳光装进罐子！"
-      url: "https://extheor.club/"
-    - name: "小康博客一个收藏回忆与分享技术的地方！"
-      url: "https://www.antmoe.com/"
-    - name: "お前はどこまで見えている你的双眼能够看到多远呢"
-      url: "https://hotarugali.github.io/"
-    - name: "Heo爱折腾的设计师"
-      url: "https://blog.zhheo.com/"
-    - name: "Follow Me"
-      url: "https://github.com/xxxxxx"
-    - name: "Github"
-      url: "https://github.com/1905060202"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
+'site':
+  'name': '1905060202.github.io'
+  'description': '友情链接'
+  'url': 'https://1905060202.github.io/'
+  'links': '/link'
+  'friends':
+    - 'name': '码小余の博客把阳光装进罐子！'
+      'url': 'https://extheor.club/'
+    - 'name': '小康博客一个收藏回忆与分享技术的地方！'
+      'url': 'https://www.antmoe.com/'
+    - 'name': 'Heo爱折腾的设计师'
+      'url': 'https://blog.zhheo.com/'

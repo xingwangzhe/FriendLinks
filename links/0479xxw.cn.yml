@@ -1,72 +1,64 @@
-site:
-  name: "0479信息网"
-  url: "https://0479xxw.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Typecho Themes"
-      url: "https://typechx.com/plugins/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "Xiuno开源论坛"
-      url: "https://xiunobbs.cn"
-    - name: "小鸟云"
-      url: "https://www.niaoyun.com/"
-    - name: "锡林浩特市指尖悦动网络服务工作室"
-      url: "https://120879208.b2b.11467.com/"
-    - name: "个人简历网"
-      url: "https://www.gerenjianli.com/"
-    - name: "各类在线小工具"
-      url: "http://www.yzcopen.com/"
-    - name: "免费字体网"
-      url: "https://www.mianfeiziti.com/"
-    - name: "视频剪辑网"
-      url: "https://www.lwzzlf.cn"
-    - name: "163手游网"
-      url: "http://www.163mu.com"
-    - name: "0479信息网"
-      url: "http://www.0479xxw.cn"
-    - name: "上海印刷公司"
-      url: "http://s.bookbs.cn"
-    - name: "装修算量"
-      url: "https://92zniu.com"
-    - name: "四季社区"
-      url: "https://www.144g.net"
-    - name: "免费商用字体"
-      url: "https://www.123ziti.cn"
-    - name: "Adobe全家桶"
-      url: "https://www.yuque.com/yihulaojiu-gsfg9/zz2qv5/boe117axkcecw77"
-    - name: "职场资讯"
-      url: "https://www.teelcn.com/ZhiChangJiNeng/"
-    - name: "MidoriOnline"
-      url: "https://mi8899.com/"
-    - name: "真爱旅舍"
-      url: "https://www.show-640.com/"
-    - name: "Xiuno BBS交流论坛"
-      url: "https://www.sa.cx"
-    - name: "异型过滤网"
-      url: "http://www.bohan168.com/"
-    - name: "在线借款"
-      url: "http://www.haokouzhi.cn"
-    - name: "修罗插件"
-      url: "https://pjjvt5lk1p.feishu.cn/wiki/M2vJwOvSnieLOskUmbnc88einbg"
-    - name: "姓名测试"
-      url: "https://www.84263.com/ceming/"
-    - name: "spacexcode"
-      url: "https://spacexcode.com/"
-    - name: "修罗插件22"
-      url: "https://xiunobbs.pages.dev/"
-    - name: "站长论坛"
-      url: "https://www.4414.cn"
-    - name: "PP游戏试玩"
-      url: "https://ibb22.com/ppslot-game-demo/"
-    - name: "清除甲醛"
-      url: "http://www.mzswpco.com"
-    - name: "FC游戏试玩"
-      url: "https://pgg33.com/fc/index.html"
-    - name: "Xiuno4.0.4"
-      url: "http://bbs.xiuno.com/"
-    - name: "51la网站统计"
-      url: "https://v6.51.la/land/KkKO7vEnhDxIXxoH"
-    - name: "蒙ICP备2024012621号-1"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': '0479信息网'
+  'url': 'https://0479xxw.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Typecho Themes'
+      'url': 'https://typechx.com/plugins/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Xiuno开源论坛'
+      'url': 'https://xiunobbs.cn'
+    - 'name': '小鸟云'
+      'url': 'https://www.niaoyun.com/'
+    - 'name': '锡林浩特市指尖悦动网络服务工作室'
+      'url': 'https://120879208.b2b.11467.com/'
+    - 'name': '个人简历网'
+      'url': 'https://www.gerenjianli.com/'
+    - 'name': '免费字体网'
+      'url': 'https://www.mianfeiziti.com/'
+    - 'name': '视频剪辑网'
+      'url': 'https://www.lwzzlf.cn'
+    - 'name': '163手游网'
+      'url': 'http://www.163mu.com'
+    - 'name': '上海印刷公司'
+      'url': 'http://s.bookbs.cn'
+    - 'name': '装修算量'
+      'url': 'https://92zniu.com'
+    - 'name': '四季社区'
+      'url': 'https://www.144g.net'
+    - 'name': '免费商用字体'
+      'url': 'https://www.123ziti.cn'
+    - 'name': 'Adobe全家桶'
+      'url': 'https://www.yuque.com/yihulaojiu-gsfg9/zz2qv5/boe117axkcecw77'
+    - 'name': '职场资讯'
+      'url': 'https://www.teelcn.com/ZhiChangJiNeng/'
+    - 'name': 'MidoriOnline'
+      'url': 'https://mi8899.com/'
+    - 'name': '真爱旅舍'
+      'url': 'https://www.show-640.com/'
+    - 'name': 'Xiuno BBS交流论坛'
+      'url': 'https://www.sa.cx'
+    - 'name': '异型过滤网'
+      'url': 'http://www.bohan168.com/'
+    - 'name': '在线借款'
+      'url': 'http://www.haokouzhi.cn'
+    - 'name': '修罗插件'
+      'url': 'https://pjjvt5lk1p.feishu.cn/wiki/M2vJwOvSnieLOskUmbnc88einbg'
+    - 'name': '姓名测试'
+      'url': 'https://www.84263.com/ceming/'
+    - 'name': 'spacexcode'
+      'url': 'https://spacexcode.com/'
+    - 'name': '站长论坛'
+      'url': 'https://www.4414.cn'
+    - 'name': 'PP游戏试玩'
+      'url': 'https://ibb22.com/ppslot-game-demo/'
+    - 'name': '清除甲醛'
+      'url': 'http://www.mzswpco.com'
+    - 'name': 'FC游戏试玩'
+      'url': 'https://pgg33.com/fc/index.html'
+    - 'name': 'Xiuno4.0.4'
+      'url': 'http://bbs.xiuno.com/'
+    - 'name': '51la网站统计'
+      'url': 'https://v6.51.la/land/KkKO7vEnhDxIXxoH'

@@ -1,64 +1,52 @@
-site:
-  name: "qwq.sigrika.cc"
-  description: "友情链接"
-  url: "https://qwq.sigrika.cc/"
-  links: "/friends"
-  friends:
-    - name: "抖音"
-      url: "https://www.douyin.com/user/MS4wLjABAAAAXeEuTMchdR4JFWHouhu92ll4-jqVwZSFb4fGH79f7n0?previous_page=app_code_link"
-    - name: "夏夜流萤          飞萤之火自无梦的长夜亮起，绽放在终竟的明天。     博客"
-      url: "https://blog.cuteleaf.cn"
-    - name: "Nachecko          Nacheckoの小窝     博客"
-      url: "https://tbmiao.dpdns.org/"
-    - name: "L!!!!ght          阳光正好，慢慢前行。     博客"
-      url: "https://sunlight.kejk.cn"
-    - name: "番茄主理人          坐而言不如起而行.     博客"
-      url: "https://fqzlr.com/"
-    - name: "清羽飞扬          柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜     博客"
-      url: "https://blog.liushen.fun/"
-    - name: "雨雪冰屋          一隅雨雪一炉窝，可能会融化持久堆？     博客"
-      url: "https://iamyukino.cn/"
-    - name: "年华          分享生活和技术。     博客"
-      url: "https://blog.520781.xyz"
-    - name: "Hyde Blog          人心中的成见是一座大山     博客"
-      url: "https://seasir.top/"
-    - name: "Eric-Terminal的博客          刃は鞘に、心は花に     博客"
-      url: "https://blog.ericterminal.com"
-    - name: "mccsjs          点一盏灯，等待一个迷路的夜🍁     博客"
-      url: "https://blog.seln.cn"
-    - name: "woodfish的博客          是一名 学生 / ACMer / 前端开发 / 电子音乐制作人     博客"
-      url: "https://www.woodfish.site/"
-    - name: "MmzMing的博客          菲比啾比     博客"
-      url: "https://tblog.mmzhiku.xyz/"
-    - name: "安知鱼          生活明朗，万物可爱     博客"
-      url: "https://blog.anheyu.com/"
-    - name: "Narcssu Notes          这个博客仍在缓慢施工中     博客"
-      url: "https://blog.narcssu.top/"
-    - name: "拾光の博客          拾取散落的时光碎片     博客"
-      url: "https://blog.mistfly.xyz"
-    - name: "团子和蛋糕          如果你喜欢那么欢迎来到我的世界！     博客"
-      url: "https://blog.tsh520.cn/"
-    - name: "桃之夭夭          桃之夭夭的小屋     博客"
-      url: "https://taozhiyy.top"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "戳我查看详情ฅ^•ﻌ•^ฅ"
-      url: "https://bw.bilibili.com/"
-    - name: "戳我查看详情ฅ^•ﻌ•^ฅ"
-      url: "https://www.xiaohongshu.com/discovery/item/6a34e7ff000000002103d88b?source=webshare&xhsshare=pc_web&xsec_token=ABuCz8HuDGjpPAFZ9TFzlsXV-8Ku6QClnKo6hFdWb_0nA=&xsec_source=pc_share"
-    - name: "戳我查看详情ฅ^•ﻌ•^ฅ"
-      url: "https://www.xiaohongshu.com/explore/6a34afdb000000001502478d?xsec_token=ABCrX6Q1EwGuexqnclW6Vn80j3Emd-627f-kVY0t-vKe4=&xsec_source=pc_user"
-    - name: "戳我查看详情ฅ^•ﻌ•^ฅ"
-      url: "https://www.cicaf.com"
-    - name: "戳我查看详情ฅ^•ﻌ•^ฅ"
-      url: "https://www.xiaohongshu.com/discovery/item/69e790ea000000001a021807?source=webshare&xhsshare=pc_web&xsec_token=ABeykF9o51N4rP2Vi9bDMr_bt7dpaU9x4rSNQRjRIcLPM=&xsec_source=pc_share"
-    - name: "戳我查看详情ฅ^•ﻌ•^ฅ"
-      url: "https://www.xiaohongshu.com/discovery/item/69831fe40000000022031487?source=webshare&xhsshare=pc_web&xsec_token=ABYotRluvOOPY9v-0beRvkk5iqUzWhvxxviqKDhSpTL9g=&xsec_source=pc_share"
-    - name: "萌ICP备20261087号"
-      url: "https://icp.gov.moe/?keyword=20261087"
-    - name: "本站由提供图片加速服务"
-      url: "https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
-    - name: "Astro"
-      url: "https://astro.build"
-    - name: "Firefly"
-      url: "https://github.com/CuteLeaf/Firefly"
+'site':
+  'name': 'qwq.sigrika.cc'
+  'description': '友情链接'
+  'url': 'https://qwq.sigrika.cc/'
+  'links': '/friends'
+  'friends':
+    - 'name': '抖音'
+      'url': 'https://www.douyin.com/user/MS4wLjABAAAAXeEuTMchdR4JFWHouhu92ll4-jqVwZSFb4fGH79f7n0?previous_page=app_code_link'
+    - 'name': '夏夜流萤          飞萤之火自无梦的长夜亮起，绽放在终竟的明天。     博客'
+      'url': 'https://blog.cuteleaf.cn'
+    - 'name': 'Nachecko          Nacheckoの小窝     博客'
+      'url': 'https://tbmiao.dpdns.org/'
+    - 'name': 'L!!!!ght          阳光正好，慢慢前行。     博客'
+      'url': 'https://sunlight.kejk.cn'
+    - 'name': '番茄主理人          坐而言不如起而行.     博客'
+      'url': 'https://fqzlr.com/'
+    - 'name': '清羽飞扬          柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜     博客'
+      'url': 'https://blog.liushen.fun/'
+    - 'name': '雨雪冰屋          一隅雨雪一炉窝，可能会融化持久堆？     博客'
+      'url': 'https://iamyukino.cn/'
+    - 'name': '年华          分享生活和技术。     博客'
+      'url': 'https://blog.520781.xyz'
+    - 'name': 'Hyde Blog          人心中的成见是一座大山     博客'
+      'url': 'https://seasir.top/'
+    - 'name': 'Eric-Terminal的博客          刃は鞘に、心は花に     博客'
+      'url': 'https://blog.ericterminal.com'
+    - 'name': 'mccsjs          点一盏灯，等待一个迷路的夜🍁     博客'
+      'url': 'https://blog.seln.cn'
+    - 'name': 'woodfish的博客          是一名 学生 / ACMer / 前端开发 / 电子音乐制作人     博客'
+      'url': 'https://www.woodfish.site/'
+    - 'name': 'MmzMing的博客          菲比啾比     博客'
+      'url': 'https://tblog.mmzhiku.xyz/'
+    - 'name': '安知鱼          生活明朗，万物可爱     博客'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': 'Narcssu Notes          这个博客仍在缓慢施工中     博客'
+      'url': 'https://blog.narcssu.top/'
+    - 'name': '拾光の博客          拾取散落的时光碎片     博客'
+      'url': 'https://blog.mistfly.xyz'
+    - 'name': '团子和蛋糕          如果你喜欢那么欢迎来到我的世界！     博客'
+      'url': 'https://blog.tsh520.cn/'
+    - 'name': '桃之夭夭          桃之夭夭的小屋     博客'
+      'url': 'https://taozhiyy.top'
+    - 'name': '戳我查看详情ฅ^•ﻌ•^ฅ'
+      'url': 'https://www.xiaohongshu.com/discovery/item/6a34e7ff000000002103d88b?source=webshare&xhsshare=pc_web&xsec_token=ABuCz8HuDGjpPAFZ9TFzlsXV-8Ku6QClnKo6hFdWb_0nA=&xsec_source=pc_share'
+    - 'name': '戳我查看详情ฅ^•ﻌ•^ฅ'
+      'url': 'https://www.xiaohongshu.com/explore/6a34afdb000000001502478d?xsec_token=ABCrX6Q1EwGuexqnclW6Vn80j3Emd-627f-kVY0t-vKe4=&xsec_source=pc_user'
+    - 'name': '戳我查看详情ฅ^•ﻌ•^ฅ'
+      'url': 'https://www.cicaf.com'
+    - 'name': '戳我查看详情ฅ^•ﻌ•^ฅ'
+      'url': 'https://www.xiaohongshu.com/discovery/item/69e790ea000000001a021807?source=webshare&xhsshare=pc_web&xsec_token=ABeykF9o51N4rP2Vi9bDMr_bt7dpaU9x4rSNQRjRIcLPM=&xsec_source=pc_share'
+    - 'name': '戳我查看详情ฅ^•ﻌ•^ฅ'
+      'url': 'https://www.xiaohongshu.com/discovery/item/69831fe40000000022031487?source=webshare&xhsshare=pc_web&xsec_token=ABYotRluvOOPY9v-0beRvkk5iqUzWhvxxviqKDhSpTL9g=&xsec_source=pc_share'

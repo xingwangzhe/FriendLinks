@@ -1,146 +1,54 @@
-site:
-  name: "糖果博客"
-  url: "https://wpocn.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "资讯"
-      url: "https://wpocn.com/wordpress-news"
-    - name: "主题"
-      url: "https://wpocn.com/wordpress-theme"
-    - name: "插件"
-      url: "https://wpocn.com/wordpress-plugin"
-    - name: "教程"
-      url: "https://wpocn.com/wordpress-tutorials"
-    - name: "更新 NEW"
-      url: "https://wpocn.com/changelog"
-    - name: "会员 HOT"
-      url: "https://wpocn.com/user/vip"
-    - name: "常见问题解答"
-      url: "https://wpocn.com/faqs"
-    - name: "条款与条件"
-      url: "https://wpocn.com/terms-conditions"
-    - name: "友情赞助"
-      url: "https://wpocn.com/zanzhu"
-    - name: "文章存档"
-      url: "https://wpocn.com/archives"
-    - name: "在线工具箱"
-      url: "https://tools.wpocn.com"
-    - name: "HTML颜色代码"
-      url: "https://wpocn.com/colour"
-    - name: "汽水音乐解析"
-      url: "https://wpocn.com/qishuiyiny"
-    - name: "图片格式转换"
-      url: "https://wpocn.com/webp2jpg"
-    - name: "写文章"
-      url: "https://wpocn.com/newposts"
-    - name: "找回密码"
-      url: "https://wpocn.com/user-sign?tab=resetpassword&redirect_to=https://wpocn.com/links"
-    - name: "WP All Import Pro英文版插件 – 将任何XML或CSV文件导入导出插件"
-      url: "https://wpocn.com/790.html"
-    - name: "宝塔面板如何修改PHP最大输入变量"
-      url: "https://wpocn.com/894.html"
-    - name: "WP Rocket英文版插件 – 缓存插件"
-      url: "https://wpocn.com/490.html"
-    - name: "WooCommerce Lucky Wheel英文版插件 – 幸运大转盘抽奖插件"
-      url: "https://wpocn.com/977.html"
-    - name: "WoodMart英文版主题 – 响应式多功能商城WordPress主题"
-      url: "https://wpocn.com/1401.html"
-    - name: "WP Review Slider Pro英文版插件 – 社交评论插件"
-      url: "https://wpocn.com/451.html"
-    - name: "张洪Heo\n                             分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "大海资源库\n                             专注分享全网优质资源"
-      url: "https://vip.lzzcc.cn/"
-    - name: "国内延迟测试\n                             测试全国各地访问网站的延迟"
-      url: "https://www.boce.com/"
-    - name: "网速测试\n                             5G用户装杯必备"
-      url: "https://www.speedtest.cn/"
-    - name: "刷新率测试\n                             国际著名的UFO测试网站"
-      url: "https://testufo.com/"
-    - name: "站长之家\n                             SEO综合查询"
-      url: "http://seo.chinaz.com/"
-    - name: "百度站长\n                             百度搜索资源平台"
-      url: "https://ziyuan.baidu.com/"
-    - name: "IP 查询\n                             iP 地址归属地查询"
-      url: "https://www.ip138.com"
-    - name: "Notepad++\n                             一款开源、小巧、免费的代码编辑器"
-      url: "https://notepad-plus-plus.org"
-    - name: "FileZilla\n                             一个免费开源的FTP软件"
-      url: "https://filezilla-project.org/"
-    - name: "图压\n                             简单易用的图片压缩软件。"
-      url: "https://tuya.xinxiao.tech/"
-    - name: "在线制作ico图标\n                             在线制作头像或图像的圆角图片"
-      url: "https://www.bitbug.net/"
-    - name: "在线PS图片处理\n                             P图软件，图片制作软件，P图工具"
-      url: "https://ps.wpocn.com/"
-    - name: "会员权益"
-      url: "https://wpocn.com/vips"
-    - name: "友情申请"
-      url: "https://wpocn.com/links"
-    - name: "网站地图"
-      url: "https://wpocn.com/wp-sitemap.xml"
-    - name: "WooCommerce"
-      url: "https://wpocn.com/?s=WooCommerce"
-    - name: "Elementor"
-      url: "https://wpocn.com/?s=Elementor"
-    - name: "plugins"
-      url: "https://wpocn.com/?s=plugins"
-    - name: "themes"
-      url: "https://wpocn.com/?s=themes"
-    - name: "woocommerce"
-      url: "https://wpocn.com/?s=woocommerce&type=post"
-    - name: "WordPress"
-      url: "https://wpocn.com/?s=WordPress&type=post"
-    - name: "wordpress"
-      url: "https://wpocn.com/?s=wordpress&type=post"
-    - name: "YITH"
-      url: "https://wpocn.com/?s=YITH&type=post"
-    - name: "插件"
-      url: "https://wpocn.com/?s=插件&type=post"
-    - name: "WordPress/page"
-      url: "https://wpocn.com/?s=WordPress/page&type=post"
-    - name: "html"
-      url: "https://wpocn.com/?s=html&type=post"
-    - name: "主题"
-      url: "https://wpocn.com/?s=主题&type=post"
-    - name: "elementor"
-      url: "https://wpocn.com/?s=elementor&type=post"
-    - name: "WCFM"
-      url: "https://wpocn.com/?s=WCFM&type=post"
-    - name: "作品"
-      url: "https://wpocn.com/?s=作品&type=post"
-    - name: "plugins/page"
-      url: "https://wpocn.com/?s=plugins/page&type=post"
-    - name: "Elementor/page"
-      url: "https://wpocn.com/?s=Elementor/page&type=post"
-    - name: "YITH/page"
-      url: "https://wpocn.com/?s=YITH/page&type=post"
-    - name: "WooCommerce/page"
-      url: "https://wpocn.com/?s=WooCommerce/page&type=post"
-    - name: "wcfm"
-      url: "https://wpocn.com/?s=wcfm&type=post"
-    - name: "WCFM/page"
-      url: "https://wpocn.com/?s=WCFM/page&type=post"
-    - name: "WPForms"
-      url: "https://wpocn.com/?s=WPForms&type=post"
-    - name: "captcha"
-      url: "https://wpocn.com/?s=captcha&type=post"
-    - name: "素材"
-      url: "https://wpocn.com/?s=素材&type=post"
-    - name: "AI Engine Pro"
-      url: "https://wpocn.com/?s=AI Engine Pro&type=post"
-    - name: "Travel Tour"
-      url: "https://wpocn.com/?s=Travel Tour&type=post"
-    - name: "11199999.xyz"
-      url: "https://wpocn.com/?s=11199999.xyz&type=post"
-    - name: "Pearl"
-      url: "https://wpocn.com/?s=Pearl&type=post"
-    - name: "图片优化"
-      url: "https://wpocn.com/?s=图片优化&type=post"
-    - name: "Liviza"
-      url: "https://wpocn.com/?s=Liviza&type=post"
-    - name: "找回密码"
-      url: "https://wpocn.com/user-sign?tab=resetpassword&redirect_to=https%3A%2F%2Fwpocn.com%2Flinks"
-    - name: "隐私声明"
-      url: "https://wpocn.com/privacy"
+'site':
+  'name': '糖果博客'
+  'url': 'https://wpocn.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': "张洪Heo
+
+        \                             分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "大海资源库
+
+        \                             专注分享全网优质资源"
+      'url': 'https://vip.lzzcc.cn/'
+    - 'name': "国内延迟测试
+
+        \                             测试全国各地访问网站的延迟"
+      'url': 'https://www.boce.com/'
+    - 'name': "网速测试
+
+        \                             5G用户装杯必备"
+      'url': 'https://www.speedtest.cn/'
+    - 'name': "刷新率测试
+
+        \                             国际著名的UFO测试网站"
+      'url': 'https://testufo.com/'
+    - 'name': "站长之家
+
+        \                             SEO综合查询"
+      'url': 'http://seo.chinaz.com/'
+    - 'name': "百度站长
+
+        \                             百度搜索资源平台"
+      'url': 'https://ziyuan.baidu.com/'
+    - 'name': "IP 查询
+
+        \                             iP 地址归属地查询"
+      'url': 'https://www.ip138.com'
+    - 'name': "Notepad++
+
+        \                             一款开源、小巧、免费的代码编辑器"
+      'url': 'https://notepad-plus-plus.org'
+    - 'name': "FileZilla
+
+        \                             一个免费开源的FTP软件"
+      'url': 'https://filezilla-project.org/'
+    - 'name': "图压
+
+        \                             简单易用的图片压缩软件。"
+      'url': 'https://tuya.xinxiao.tech/'
+    - 'name': "在线制作ico图标
+
+        \                             在线制作头像或图像的圆角图片"
+      'url': 'https://www.bitbug.net/'

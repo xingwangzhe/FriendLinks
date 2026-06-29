@@ -1,46 +1,38 @@
-site:
-  name: "素心"
-  url: "https://haiy.space/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "灯火不休时在代码里种诗arrow_outward"
-      url: "https://blog.dhbxs.top/"
-    - name: "RhoPaperの小站纸至执arrow_outward"
-      url: "https://rhopaper.top/"
-    - name: "Oyiso's BlogThe shortest answer is doingarrow_outward"
-      url: "https://oyiso.cn"
-    - name: "米露小窝放弃个性,就和死了没什么区别arrow_outward"
-      url: "https://milu.ink"
-    - name: "梦落の小屋因为不可能，所以才值得相信arrow_outward"
-      url: "https://blog.dreamfall.cn"
-    - name: "mccsjs点一盏灯，等一个迷路的夜🍁🍁🍁arrow_outward"
-      url: "https://seln.cn/"
-    - name: "你好可爱山水一程，三生有幸✨arrow_outward"
-      url: "https://wjldarling.top/"
-    - name: "并非正文兴趣使然・一腔热血arrow_outward"
-      url: "https://bfzw.top/"
-    - name: "solaireh3愛しの君とこの世のはたてarrow_outward"
-      url: "https://Ashlord.com"
-    - name: "DragonKing - 龙王undefined之家，赛博基建狂魔.arrow_outward"
-      url: "https://www.dragonking.cn"
-    - name: "CWorld Site求知若愚，虚怀若谷arrow_outward"
-      url: "https://cworld0.com/"
-    - name: "梦爱吃鱼不负心灵，不负今生。arrow_outward"
-      url: "https://blog.bsgun.cn/"
-    - name: "喵二の小博客缘，妙不可言arrow_outward"
-      url: "https://www.miaoer.net"
-    - name: "Tianli自知之明是最可贵的知识！arrow_outward"
-      url: "https://blog.tianli0.top/"
-    - name: "张洪Heo分享设计与科技生活arrow_outward"
-      url: "https://blog.zhheo.com/"
-    - name: "metameta.descriptionarrow_outward"
-      url: "https://gongz.moe"
-    - name: "open_in_new"
-      url: "https://haiy.space"
-    - name: "open_in_new"
-      url: "https://haiy.space/rss.xml"
-    - name: "open_in_new"
-      url: "https://haiy.space/uploads/images/2026/05/04ea5fddc86ae2ca.jpg"
-    - name: "鲁ICP备2025189239号"
-      url: "https://Beian.miit.gov.cn"
+'site':
+  'name': '素心'
+  'url': 'https://haiy.space/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '灯火不休时在代码里种诗arrow_outward'
+      'url': 'https://blog.dhbxs.top/'
+    - 'name': 'RhoPaperの小站纸至执arrow_outward'
+      'url': 'https://rhopaper.top/'
+    - 'name': 'Oyiso''s BlogThe shortest answer is doingarrow_outward'
+      'url': 'https://oyiso.cn'
+    - 'name': '米露小窝放弃个性,就和死了没什么区别arrow_outward'
+      'url': 'https://milu.ink'
+    - 'name': '梦落の小屋因为不可能，所以才值得相信arrow_outward'
+      'url': 'https://blog.dreamfall.cn'
+    - 'name': 'mccsjs点一盏灯，等一个迷路的夜🍁🍁🍁arrow_outward'
+      'url': 'https://seln.cn/'
+    - 'name': '你好可爱山水一程，三生有幸✨arrow_outward'
+      'url': 'https://wjldarling.top/'
+    - 'name': '并非正文兴趣使然・一腔热血arrow_outward'
+      'url': 'https://bfzw.top/'
+    - 'name': 'solaireh3愛しの君とこの世のはたてarrow_outward'
+      'url': 'https://Ashlord.com'
+    - 'name': 'DragonKing - 龙王undefined之家，赛博基建狂魔.arrow_outward'
+      'url': 'https://www.dragonking.cn'
+    - 'name': 'CWorld Site求知若愚，虚怀若谷arrow_outward'
+      'url': 'https://cworld0.com/'
+    - 'name': '梦爱吃鱼不负心灵，不负今生。arrow_outward'
+      'url': 'https://blog.bsgun.cn/'
+    - 'name': '喵二の小博客缘，妙不可言arrow_outward'
+      'url': 'https://www.miaoer.net'
+    - 'name': 'Tianli自知之明是最可贵的知识！arrow_outward'
+      'url': 'https://blog.tianli0.top/'
+    - 'name': '张洪Heo分享设计与科技生活arrow_outward'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'metameta.descriptionarrow_outward'
+      'url': 'https://gongz.moe'

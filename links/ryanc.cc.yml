@@ -1,146 +1,238 @@
-site:
-  name: "Ryan Wang"
-  url: "https://ryanc.cc/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "GitHub"
-      url: "https://github.com/ruibaby"
-    - name: "Steam"
-      url: "https://ryanc.cc/steam"
-    - name: "凌霞软件\n                      凌霞软件官网，Halo 和 1Panel 专业版购买地址。"
-      url: "https://www.lxware.cn?code=mcYhwMkn"
-    - name: "guqing's blog\n                      毕生所求无它，爱与自由而已"
-      url: "https://guqing.io"
-    - name: "首页 - 小伟同学\n                      愿你殊途同归，我能和你讲讲来时的路"
-      url: "https://www.xhany.cn/"
-    - name: "酥米的小站\n                      终有一日，寻梦中人"
-      url: "https://www.sumi233.top"
-    - name: "bbb-lsy07\n                      科技激荡人文，洞见智慧本真。"
-      url: "https://blog.tsoo.net/"
-    - name: "老卢\n                      利她，有价值，不打扰"
-      url: "https://blog.el9.cn"
-    - name: "天渺studio\n                      天渺studio的小站&日常日志记录"
-      url: "https://tianmiao.site"
-    - name: "彬红茶日记\n                      个人生活笔记📒"
-      url: "https://note.redcha.cn/"
-    - name: "Erzbir\n                      #define __DESC ((void *)0)"
-      url: "https://erzbir.com"
-    - name: "虫不知喔 - 若有韶月熹微，愿作流萤徂岁。\n                      若有韶月熹微，愿作流萤徂岁。"
-      url: "https://blog.ssyc.me"
-    - name: "张文保的博客\n                      SEO顾问、高级SEO工程师"
-      url: "https://zhangwenbao.com"
-    - name: "菰城鸥鹭的大学之道\n                      物有本末 事有终始 知所先后 则近道矣"
-      url: "https://www.gcoulu.cn"
-    - name: "Allen的小破站\n                       还有很多故事，想在这里讲给你听。"
-      url: "https://www.xiaode.tech/"
-    - name: "xiaoming728\n                      xiaoming728的个人技术博客！"
-      url: "https://xiaoming728.com/"
-    - name: "宇阳\n                      记录所学知识，缩短和大神的差距！"
-      url: "https://liuyuyang.net/"
-    - name: "lhDream's Blog\n                      醉后不知天在水，满船清梦压星河。"
-      url: "https://blog.luhua.site"
-    - name: "清梦云熙\n                      相逢何必曾相识"
-      url: "https://skylan.cc/"
-    - name: "Dongcp"
-      url: "https://blog.dongcp.top/"
-    - name: "ZLX STUDIO\n                      为音乐创作发电!"
-      url: "https://blog.iooioio.com"
-    - name: "Yves's Blog\n                      Welcome!"
-      url: "https://blog.maoyiwei.com"
-    - name: "沉寂的博客\n                      知足且上進，溫柔而堅定。"
-      url: "https://www.fhzdcj.cn"
-    - name: "云云星羽\n                      陌让流年盼繁华，颜容依旧似繁花"
-      url: "https://starssr.com"
-    - name: "PeterJXL\n                      从 01 开始"
-      url: "https://www.peterjxl.com"
-    - name: "光溯星河\n                      博学笃志，切问近思"
-      url: "https://blog.tsio.top"
-    - name: "Yovvis's Blog\n                      工夫为艺，笃志成技"
-      url: "https://tenyon.cn"
-    - name: "MRZHU的小站\n                      向着计算物理出发吧！"
-      url: "https://www.sifangbazhu.tech"
-    - name: "梦荟楼的后花园\n                      干啥啥不行干饭第一名"
-      url: "https://oniya.cn"
-    - name: "lehhair\n                      人似秋鸿来有信，事如春梦了无痕"
-      url: "https://blog.lehhair.net"
-    - name: "智识家\n                      智识家涵盖技术知识和NAS笔记等内容"
-      url: "https://www.sw0.top"
-    - name: "灰气球\n                      分享创作、生活、理财的经验和感悟，交个朋友，一起成长。"
-      url: "https://www.renzhen.online/"
-    - name: "王旭阳个人博客"
-      url: "https://www.wxy97.com/"
-    - name: "世界第一可爱\n                      biu~"
-      url: "https://www.nahida.cn/"
-    - name: "AirboZH\n                      生活原本沉闷，但跑起来就有风"
-      url: "https://www.airbozh.cn/"
-    - name: "低调小熊猫\n                      我们不改变世界，我们跟着世界改变"
-      url: "http://ilovey.live"
-    - name: "若志奕鑫\n                      愿世界安康，愿你我皆好！"
-      url: "http://rz.sb"
-    - name: "无垠\n                      飞翔的天空无限大"
-      url: "https://flyhigher.top"
-    - name: "宋浩志\n                      记录常用重复代码与错误信息及解决方法"
-      url: "https://songhaozhi.com/"
-    - name: "淮城一只猫\n                      永远年轻，永远热泪盈眶！"
-      url: "https://iiong.com"
-    - name: "Ruanun博客\n                      万事皆缘"
-      url: "https://blog.ruanun.com"
-    - name: "QAIU's blog\n                      手机编程&c4droid下载"
-      url: "https://blog.qaiu.top"
-    - name: "今今今生\n                      医不自医，人不渡己"
-      url: "https://noheart.cn"
-    - name: "月光海岸\n                      用心创造快乐！"
-      url: "https://www.manction.com"
-    - name: "烟霞志\n                      空有烟霞之志，叹无水云之身。"
-      url: "https://simplestark.com"
-    - name: "MrWang\n                      那些过去，从未过去。"
-      url: "https://www.aerowang.cn/"
-    - name: "太傅\n                      面朝大海，春暖花开"
-      url: "https://taifua.com"
-    - name: "小米笔记\n                      坏记性不如烂笔头"
-      url: "https://notemi.cn"
-    - name: "在线分享网\n                      技术分享与学习交流"
-      url: "https://www.52share.online"
-    - name: "Avrinbai ' Blog\n                      随心而记，记录真实。"
-      url: "https://avrinbai.cn"
-    - name: "SerMs - SerMsCoding\n                      细节成就极致，逻辑成就完美。"
-      url: "https://blog.serms.top"
-    - name: "Qiye's Blog\n                      记录日常，分享干货"
-      url: "https://qiyec.site"
-    - name: "XINNIAN 的博客\n                      醉里挑灯看剑，梦回吹角连营！"
-      url: "https://xinnian.lqbby.com/"
-    - name: "人类手册\n                      人类生存手册，人类知识库！"
-      url: "http://www.gaoweb.cn"
-    - name: "堆新 - DUINEW\n                      堆新堆新,引力向新！——堆新（DUINEW）"
-      url: "https://duinew.com/"
-    - name: "如一\n                      心之所向，素履以往"
-      url: "https://colorfulblogs.top"
-    - name: "小窝哟 Blog\n                      新任站长的首选博客"
-      url: "https://blog.528688.cn/"
-    - name: "叩钉壹刻\n                      做自己，做最好的自己"
-      url: "https://www.lxfycloud.cn"
-    - name: "小莫唐尼\n                      一个爱凑热闹，喜欢捣鼓前端的博主。"
-      url: "https://blog.xiaoxiaomo.cn"
-    - name: "Yaokai's Blog"
-      url: "https://yaokai.vip"
-    - name: "goshare\n                      分享关于代码的思考与总结"
-      url: "https://www.bestlang.cn"
-    - name: "字符猫\n                      生活亦是灵感 - 记录生活点滴"
-      url: "https://www.zifumao.com"
-    - name: "群狼动力\n                      头狼走的快 一 群狼走得远"
-      url: "https://volf.club"
-    - name: "张亚东博客\n                      心之所向，无所不能"
-      url: "https://www.zhyd.me"
-    - name: "清风\n                      万般皆苦"
-      url: "https://luckqf.cn"
-    - name: "晓果冻\n                      是你呀，晓果冻！"
-      url: "https://www.chenmx.net/"
-    - name: "iAnna\n                      天高地迥，觉宇宙之无穷"
-      url: "http://blog.ykqmain.com"
-    - name: "掘墓人的小铲子\n                      记录生活，分享技术~"
-      url: "https://juemuren4449.com"
-    - name: "Walker"
-      url: "https://www.halo.run/store/apps/app-GHgAR"
-    - name: "蜀ICP备2022010816号"
-      url: "https://beian.miit.gov.cn"
+'site':
+  'name': 'Ryan Wang'
+  'url': 'https://ryanc.cc/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': "凌霞软件
+
+        \                      凌霞软件官网，Halo 和 1Panel 专业版购买地址。"
+      'url': 'https://www.lxware.cn?code=mcYhwMkn'
+    - 'name': "guqing's blog
+
+        \                      毕生所求无它，爱与自由而已"
+      'url': 'https://guqing.io'
+    - 'name': "首页 - 小伟同学
+
+        \                      愿你殊途同归，我能和你讲讲来时的路"
+      'url': 'https://www.xhany.cn/'
+    - 'name': "酥米的小站
+
+        \                      终有一日，寻梦中人"
+      'url': 'https://www.sumi233.top'
+    - 'name': "bbb-lsy07
+
+        \                      科技激荡人文，洞见智慧本真。"
+      'url': 'https://blog.tsoo.net/'
+    - 'name': "老卢\n                      利她，有价值，不打扰"
+      'url': 'https://blog.el9.cn'
+    - 'name': "天渺studio
+
+        \                      天渺studio的小站&日常日志记录"
+      'url': 'https://tianmiao.site'
+    - 'name': "彬红茶日记\n                      个人生活笔记📒"
+      'url': 'https://note.redcha.cn/'
+    - 'name': "Erzbir
+
+        \                      #define __DESC ((void *)0)"
+      'url': 'https://erzbir.com'
+    - 'name': "虫不知喔 - 若有韶月熹微，愿作流萤徂岁。
+
+        \                      若有韶月熹微，愿作流萤徂岁。"
+      'url': 'https://blog.ssyc.me'
+    - 'name': "张文保的博客
+
+        \                      SEO顾问、高级SEO工程师"
+      'url': 'https://zhangwenbao.com'
+    - 'name': "菰城鸥鹭的大学之道
+
+        \                      物有本末 事有终始 知所先后 则近道矣"
+      'url': 'https://www.gcoulu.cn'
+    - 'name': "Allen的小破站
+
+        \                       还有很多故事，想在这里讲给你听。"
+      'url': 'https://www.xiaode.tech/'
+    - 'name': "xiaoming728
+
+        \                      xiaoming728的个人技术博客！"
+      'url': 'https://xiaoming728.com/'
+    - 'name': "宇阳
+
+        \                      记录所学知识，缩短和大神的差距！"
+      'url': 'https://liuyuyang.net/'
+    - 'name': "lhDream's Blog
+
+        \                      醉后不知天在水，满船清梦压星河。"
+      'url': 'https://blog.luhua.site'
+    - 'name': "清梦云熙\n                      相逢何必曾相识"
+      'url': 'https://skylan.cc/'
+    - 'name': 'Dongcp'
+      'url': 'https://blog.dongcp.top/'
+    - 'name': "ZLX STUDIO
+
+        \                      为音乐创作发电!"
+      'url': 'https://blog.iooioio.com'
+    - 'name': "Yves's Blog
+
+        \                      Welcome!"
+      'url': 'https://blog.maoyiwei.com'
+    - 'name': "沉寂的博客
+
+        \                      知足且上進，溫柔而堅定。"
+      'url': 'https://www.fhzdcj.cn'
+    - 'name': "云云星羽
+
+        \                      陌让流年盼繁华，颜容依旧似繁花"
+      'url': 'https://starssr.com'
+    - 'name': "PeterJXL
+
+        \                      从 01 开始"
+      'url': 'https://www.peterjxl.com'
+    - 'name': "光溯星河\n                      博学笃志，切问近思"
+      'url': 'https://blog.tsio.top'
+    - 'name': "Yovvis's Blog
+
+        \                      工夫为艺，笃志成技"
+      'url': 'https://tenyon.cn'
+    - 'name': "MRZHU的小站
+
+        \                      向着计算物理出发吧！"
+      'url': 'https://www.sifangbazhu.tech'
+    - 'name': "梦荟楼的后花园
+
+        \                      干啥啥不行干饭第一名"
+      'url': 'https://oniya.cn'
+    - 'name': "lehhair
+
+        \                      人似秋鸿来有信，事如春梦了无痕"
+      'url': 'https://blog.lehhair.net'
+    - 'name': "智识家
+
+        \                      智识家涵盖技术知识和NAS笔记等内容"
+      'url': 'https://www.sw0.top'
+    - 'name': "灰气球
+
+        \                      分享创作、生活、理财的经验和感悟，交个朋友，一起成长。"
+      'url': 'https://www.renzhen.online/'
+    - 'name': '王旭阳个人博客'
+      'url': 'https://www.wxy97.com/'
+    - 'name': "世界第一可爱\n                      biu~"
+      'url': 'https://www.nahida.cn/'
+    - 'name': "AirboZH
+
+        \                      生活原本沉闷，但跑起来就有风"
+      'url': 'https://www.airbozh.cn/'
+    - 'name': "低调小熊猫
+
+        \                      我们不改变世界，我们跟着世界改变"
+      'url': 'http://ilovey.live'
+    - 'name': "若志奕鑫
+
+        \                      愿世界安康，愿你我皆好！"
+      'url': 'http://rz.sb'
+    - 'name': "无垠\n                      飞翔的天空无限大"
+      'url': 'https://flyhigher.top'
+    - 'name': "宋浩志
+
+        \                      记录常用重复代码与错误信息及解决方法"
+      'url': 'https://songhaozhi.com/'
+    - 'name': "淮城一只猫
+
+        \                      永远年轻，永远热泪盈眶！"
+      'url': 'https://iiong.com'
+    - 'name': "Ruanun博客\n                      万事皆缘"
+      'url': 'https://blog.ruanun.com'
+    - 'name': "QAIU's blog
+
+        \                      手机编程&c4droid下载"
+      'url': 'https://blog.qaiu.top'
+    - 'name': "今今今生\n                      医不自医，人不渡己"
+      'url': 'https://noheart.cn'
+    - 'name': "月光海岸\n                      用心创造快乐！"
+      'url': 'https://www.manction.com'
+    - 'name': "烟霞志
+
+        \                      空有烟霞之志，叹无水云之身。"
+      'url': 'https://simplestark.com'
+    - 'name': "MrWang
+
+        \                      那些过去，从未过去。"
+      'url': 'https://www.aerowang.cn/'
+    - 'name': "太傅\n                      面朝大海，春暖花开"
+      'url': 'https://taifua.com'
+    - 'name': "小米笔记\n                      坏记性不如烂笔头"
+      'url': 'https://notemi.cn'
+    - 'name': "在线分享网
+
+        \                      技术分享与学习交流"
+      'url': 'https://www.52share.online'
+    - 'name': "Avrinbai ' Blog
+
+        \                      随心而记，记录真实。"
+      'url': 'https://avrinbai.cn'
+    - 'name': "SerMs - SerMsCoding
+
+        \                      细节成就极致，逻辑成就完美。"
+      'url': 'https://blog.serms.top'
+    - 'name': "Qiye's Blog
+
+        \                      记录日常，分享干货"
+      'url': 'https://qiyec.site'
+    - 'name': "XINNIAN 的博客
+
+        \                      醉里挑灯看剑，梦回吹角连营！"
+      'url': 'https://xinnian.lqbby.com/'
+    - 'name': "人类手册
+
+        \                      人类生存手册，人类知识库！"
+      'url': 'http://www.gaoweb.cn'
+    - 'name': "堆新 - DUINEW
+
+        \                      堆新堆新,引力向新！——堆新（DUINEW）"
+      'url': 'https://duinew.com/'
+    - 'name': "如一\n                      心之所向，素履以往"
+      'url': 'https://colorfulblogs.top'
+    - 'name': "小窝哟 Blog
+
+        \                      新任站长的首选博客"
+      'url': 'https://blog.528688.cn/'
+    - 'name': "叩钉壹刻
+
+        \                      做自己，做最好的自己"
+      'url': 'https://www.lxfycloud.cn'
+    - 'name': "小莫唐尼
+
+        \                      一个爱凑热闹，喜欢捣鼓前端的博主。"
+      'url': 'https://blog.xiaoxiaomo.cn'
+    - 'name': 'Yaokai''s Blog'
+      'url': 'https://yaokai.vip'
+    - 'name': "goshare
+
+        \                      分享关于代码的思考与总结"
+      'url': 'https://www.bestlang.cn'
+    - 'name': "字符猫
+
+        \                      生活亦是灵感 - 记录生活点滴"
+      'url': 'https://www.zifumao.com'
+    - 'name': "群狼动力
+
+        \                      头狼走的快 一 群狼走得远"
+      'url': 'https://volf.club'
+    - 'name': "张亚东博客
+
+        \                      心之所向，无所不能"
+      'url': 'https://www.zhyd.me'
+    - 'name': "清风\n                      万般皆苦"
+      'url': 'https://luckqf.cn'
+    - 'name': "晓果冻\n                      是你呀，晓果冻！"
+      'url': 'https://www.chenmx.net/'
+    - 'name': "iAnna
+
+        \                      天高地迥，觉宇宙之无穷"
+      'url': 'http://blog.ykqmain.com'
+    - 'name': "掘墓人的小铲子
+
+        \                      记录生活，分享技术~"
+      'url': 'https://juemuren4449.com'
+    - 'name': 'Walker'
+      'url': 'https://www.halo.run/store/apps/app-GHgAR'

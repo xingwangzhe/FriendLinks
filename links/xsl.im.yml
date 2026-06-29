@@ -1,174 +1,104 @@
-site:
-  name: "xsl.im"
-  description: "友情链接"
-  url: "https://xsl.im/"
-  links: "/friends"
-  friends:
-    - name: "杜老师说"
-      url: "https://dusays.com"
-    - name: "xaoxuu"
-      url: "https://xaoxuu.com"
-    - name: "Frederick's Blog"
-      url: "https://www.ooowl.net/"
-    - name: "纸鹿摸鱼处"
-      url: "https://blog.zhilu.site"
-    - name: "清羽飞扬"
-      url: "https://blog.liushen.fun/"
-    - name: "Thun888"
-      url: "https://blog.hzchu.top/"
-    - name: "Almango"
-      url: "https://blog.almango.cn/"
-    - name: "梨尽兴"
-      url: "https://blog.ljx.icu/"
-    - name: "倦意博客"
-      url: "https://jyblog.cn"
-    - name: "HeLong"
-      url: "https://blog.helong.online"
-    - name: "安小歪"
-      url: "https://blog.anxy.top/"
-    - name: "彬红茶日记"
-      url: "https://note.redcha.cn/"
-    - name: "薩魔5mg"
-      url: "https://cn.5mg.fun"
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com/"
-    - name: "李开开博客"
-      url: "https://blog.caonmd.com/"
-    - name: "6Youngの屋"
-      url: "https://www.6young.site/"
-    - name: "贰猹的小窝"
-      url: "https://noionion.top/"
-    - name: "周润发"
-      url: "https://blog.zrf.me/"
-    - name: "小白の博客"
-      url: "https://www.showby.top/"
-    - name: "逸风亭"
-      url: "https://blog.fyz666.xyz/"
-    - name: "短巷与雨"
-      url: "https://www.hudi.space"
-    - name: "Hanta"
-      url: "https://blog.hanta2011.top/"
-    - name: "花生莲子粥"
-      url: "https://blog.hslzz.cn/"
-    - name: "PYM博客"
-      url: "https://pym.plus"
-    - name: "bbb-lsy07"
-      url: "https://blog.tsoo.net"
-    - name: "Lifeline"
-      url: "https://lifelinest.github.io/"
-    - name: "半方池水半方田"
-      url: "https://blog.uuanqin.top/"
-    - name: "𝟞𝟙𝟡’𝕤𝔹𝕃𝕆𝔾"
-      url: "https://66619.eu.org/"
-    - name: "鹊楠の小窝"
-      url: "https://blog.quenan.cn/"
-    - name: "EiloのBlog"
-      url: "https://aptu.net/"
-    - name: "Ariasakaの小窝"
-      url: "https://blog.yaria.top"
-    - name: "山岳库博"
-      url: "https://kmar.top/"
-    - name: "fishcpy的小破站"
-      url: "https://blog.fis.ink"
-    - name: "洛屿的小站"
-      url: "https://www.drluo.top/"
-    - name: "TavreBlog"
-      url: "https://blog.tavr.top"
-    - name: "AcoForkBlog"
-      url: "https://2x.nz"
-    - name: "梦爱吃鱼"
-      url: "https://blog.bsgun.cn/"
-    - name: "青序栈"
-      url: "https://www.qixz.cn/"
-    - name: "Mete0r’s Blog | 壹人小站"
-      url: "https://www.xscnet.cn"
-    - name: "夜轻Blog"
-      url: "https://blog.yeqing.net/"
-    - name: "sa-blog"
-      url: "https://www.sa-blog.online/about"
-    - name: "刘郎阁"
-      url: "https://vjo.cc/"
-    - name: "Revelation"
-      url: "https://www.040426.xyz/"
-    - name: "谨言慎行"
-      url: "https://careful.fyi"
-    - name: "中域科技"
-      url: "https://blog.zhongyudata.com"
-    - name: "博友圈"
-      url: "https://www.boyouquan.com/home"
-    - name: "BlogsClub"
-      url: "https://www.blogsclub.org/"
-    - name: "博客中心"
-      url: "https://bokehub.com/home"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/"
-    - name: "笔墨迹"
-      url: "https://blogscn.fun/"
-    - name: "博客我们"
-      url: "https://blogwe.com/"
-    - name: "开往"
-      url: "https://www.travellings.cn/"
-    - name: "https://q2.qlogo.cn/headimg_dl?dst_uin=2622979530&spec=640"
-      url: "https://q2.qlogo.cn/headimg_dl?dst_uin=2622979530&spec=640"
-    - name: "https://blog.anxw.cn/img/siteshot.webp"
-      url: "https://blog.anxw.cn/img/siteshot.webp"
-    - name: "https://lleft.cn/"
-      url: "https://lleft.cn/"
-    - name: "https://tc.lleft.cn/PicGo/logo.png"
-      url: "https://tc.lleft.cn/PicGo/logo.png"
-    - name: "https://tc.lleft.cn/PicGo/blogscreenshot.png"
-      url: "https://tc.lleft.cn/PicGo/blogscreenshot.png"
-    - name: "https://bu.dusays.com/2026/02/05/6984096009670.jpeg"
-      url: "https://bu.dusays.com/2026/02/05/6984096009670.jpeg"
-    - name: "https://www.almango.cn/image/avatar.png"
-      url: "https://www.almango.cn/image/avatar.png"
-    - name: "https://blog.almango.cn/rss.xml"
-      url: "https://blog.almango.cn/rss.xml"
-    - name: "https://static.careful.fyi/images/avatar.png"
-      url: "https://static.careful.fyi/images/avatar.png"
-    - name: "https://s7.fan/"
-      url: "https://s7.fan/"
-    - name: "https://s7.fan/img/tubiao.png"
-      url: "https://s7.fan/img/tubiao.png"
-    - name: "https://www.drluo.top/img/link/www.drluo.top.webp"
-      url: "https://www.drluo.top/img/link/www.drluo.top.webp"
-    - name: "https://www.drluo.top/img/avatar.webp"
-      url: "https://www.drluo.top/img/avatar.webp"
-    - name: "https://www.drluo.top/atom.xml"
-      url: "https://www.drluo.top/atom.xml"
-    - name: "https://zyblog.cn-nb1.rains3.com/zhongyudata.png"
-      url: "https://zyblog.cn-nb1.rains3.com/zhongyudata.png"
-    - name: "https://blog.zhongyudata.com/rss.xml"
-      url: "https://blog.zhongyudata.com/rss.xml"
-    - name: "点击前往申请"
-      url: "https://icp.6uu.us/apply.php"
-    - name: "bbb-lsy07/Yuan-ICP"
-      url: "https://github.com/bbb-lsy07/Yuan-ICP"
-    - name: "https://cdn.040426.xyz/image/brand-logo/logo.svg"
-      url: "https://cdn.040426.xyz/image/brand-logo/logo.svg"
-    - name: "https://eimg.yujiay.wang/images/2026/01/25/image.png"
-      url: "https://eimg.yujiay.wang/images/2026/01/25/image.png"
-    - name: "https://www.040426.xyz/atom.xml"
-      url: "https://www.040426.xyz/atom.xml"
-    - name: "https://www.qixz.cn/favicon.svg"
-      url: "https://www.qixz.cn/favicon.svg"
-    - name: "https://www.qixz.cn/atom.xml"
-      url: "https://www.qixz.cn/atom.xml"
-    - name: "https://www.qixz.cn/link"
-      url: "https://www.qixz.cn/link"
-    - name: "https://q1.qlogo.cn/g?b=qq&nk=2987304764&s=640"
-      url: "https://q1.qlogo.cn/g?b=qq&nk=2987304764&s=640"
-    - name: "https://i.p-i.vip/43/20240913-66e403f2331ec.webp"
-      url: "https://i.p-i.vip/43/20240913-66e403f2331ec.webp"
-    - name: "https://blog.quenan.cn/atom.xml"
-      url: "https://blog.quenan.cn/atom.xml"
-    - name: "Artalk"
-      url: "https://artalk.js.org"
-    - name: "异次元之旅"
-      url: "https://travel.moe/go.html"
-    - name: "主题: Clarity 3.6.0"
-      url: "https://github.com/L33Z22L11/blog-v3"
-    - name: "主题和组件文档"
-      url: "https://blog.zhilu.site/theme"
-    - name: "萌ICP备20250662号"
-      url: "https://icp.gov.moe/?keyword=20250662"
+'site':
+  'name': 'xsl.im'
+  'description': '友情链接'
+  'url': 'https://xsl.im/'
+  'links': '/friends'
+  'friends':
+    - 'name': '杜老师说'
+      'url': 'https://dusays.com'
+    - 'name': 'xaoxuu'
+      'url': 'https://xaoxuu.com'
+    - 'name': 'Frederick''s Blog'
+      'url': 'https://www.ooowl.net/'
+    - 'name': '纸鹿摸鱼处'
+      'url': 'https://blog.zhilu.site'
+    - 'name': '清羽飞扬'
+      'url': 'https://blog.liushen.fun/'
+    - 'name': 'Thun888'
+      'url': 'https://blog.hzchu.top/'
+    - 'name': 'Almango'
+      'url': 'https://blog.almango.cn/'
+    - 'name': '梨尽兴'
+      'url': 'https://blog.ljx.icu/'
+    - 'name': '倦意博客'
+      'url': 'https://jyblog.cn'
+    - 'name': 'HeLong'
+      'url': 'https://blog.helong.online'
+    - 'name': '安小歪'
+      'url': 'https://blog.anxy.top/'
+    - 'name': '彬红茶日记'
+      'url': 'https://note.redcha.cn/'
+    - 'name': '薩魔5mg'
+      'url': 'https://cn.5mg.fun'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '李开开博客'
+      'url': 'https://blog.caonmd.com/'
+    - 'name': '6Youngの屋'
+      'url': 'https://www.6young.site/'
+    - 'name': '贰猹的小窝'
+      'url': 'https://noionion.top/'
+    - 'name': '周润发'
+      'url': 'https://blog.zrf.me/'
+    - 'name': '小白の博客'
+      'url': 'https://www.showby.top/'
+    - 'name': '逸风亭'
+      'url': 'https://blog.fyz666.xyz/'
+    - 'name': '短巷与雨'
+      'url': 'https://www.hudi.space'
+    - 'name': 'Hanta'
+      'url': 'https://blog.hanta2011.top/'
+    - 'name': '花生莲子粥'
+      'url': 'https://blog.hslzz.cn/'
+    - 'name': 'PYM博客'
+      'url': 'https://pym.plus'
+    - 'name': 'bbb-lsy07'
+      'url': 'https://blog.tsoo.net'
+    - 'name': '半方池水半方田'
+      'url': 'https://blog.uuanqin.top/'
+    - 'name': '𝟞𝟙𝟡’𝕤𝔹𝕃𝕆𝔾'
+      'url': 'https://66619.eu.org/'
+    - 'name': '鹊楠の小窝'
+      'url': 'https://blog.quenan.cn/'
+    - 'name': 'EiloのBlog'
+      'url': 'https://aptu.net/'
+    - 'name': 'Ariasakaの小窝'
+      'url': 'https://blog.yaria.top'
+    - 'name': '山岳库博'
+      'url': 'https://kmar.top/'
+    - 'name': 'fishcpy的小破站'
+      'url': 'https://blog.fis.ink'
+    - 'name': '洛屿的小站'
+      'url': 'https://www.drluo.top/'
+    - 'name': 'TavreBlog'
+      'url': 'https://blog.tavr.top'
+    - 'name': 'AcoForkBlog'
+      'url': 'https://2x.nz'
+    - 'name': '梦爱吃鱼'
+      'url': 'https://blog.bsgun.cn/'
+    - 'name': '青序栈'
+      'url': 'https://www.qixz.cn/'
+    - 'name': 'Mete0r’s Blog | 壹人小站'
+      'url': 'https://www.xscnet.cn'
+    - 'name': '夜轻Blog'
+      'url': 'https://blog.yeqing.net/'
+    - 'name': 'sa-blog'
+      'url': 'https://www.sa-blog.online/about'
+    - 'name': '刘郎阁'
+      'url': 'https://vjo.cc/'
+    - 'name': 'Revelation'
+      'url': 'https://www.040426.xyz/'
+    - 'name': '谨言慎行'
+      'url': 'https://careful.fyi'
+    - 'name': '中域科技'
+      'url': 'https://blog.zhongyudata.com'
+    - 'name': '博客中心'
+      'url': 'https://bokehub.com/home'
+    - 'name': '博客我们'
+      'url': 'https://blogwe.com/'
+    - 'name': '点击前往申请'
+      'url': 'https://icp.6uu.us/apply.php'
+    - 'name': 'Artalk'
+      'url': 'https://artalk.js.org'
+    - 'name': '主题和组件文档'
+      'url': 'https://blog.zhilu.site/theme'

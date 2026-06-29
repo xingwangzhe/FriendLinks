@@ -1,148 +1,68 @@
-site:
-  name: "liyinwaihe.com"
-  description: "友情链接"
-  url: "https://liyinwaihe.com/"
-  links: "/friends"
-  friends:
-    - name: "阅读"
-      url: "https://liyinwaihe.com/category/word"
-    - name: "探索"
-      url: "https://liyinwaihe.com/category/word/uncategorized"
-    - name: "教程"
-      url: "https://liyinwaihe.com/category/word/jc"
-    - name: "日记"
-      url: "https://liyinwaihe.com/category/word/diary"
-    - name: "照片"
-      url: "https://liyinwaihe.com/category/photo"
-    - name: "旅行"
-      url: "https://liyinwaihe.com/category/photo/trip"
-    - name: "生活"
-      url: "https://liyinwaihe.com/category/photo/livephoto"
-    - name: "风景"
-      url: "https://liyinwaihe.com/category/photo/scene"
-    - name: "美食"
-      url: "https://liyinwaihe.com/category/photo/food"
-    - name: "文章归档"
-      url: "https://liyinwaihe.com/archive"
-    - name: "足迹"
-      url: "https://liyinwaihe.com/footprint"
-    - name: "留言板"
-      url: "https://liyinwaihe.com/board"
-    - name: "走心评论"
-      url: "https://liyinwaihe.com/mindful"
-    - name: "朋友们"
-      url: "https://liyinwaihe.com/friends"
-    - name: "一个人"
-      url: "https://liyinwaihe.com/author/zcyjl"
-    - name: "一些说明"
-      url: "https://liyinwaihe.com/statement"
-    - name: "版权信息"
-      url: "https://liyinwaihe.com/?page_id=56"
-    - name: "隐私政策"
-      url: "https://liyinwaihe.com/statement/doc"
-    - name: "欢迎来到礼印外盒，为您导读全站动态\n\t\t\t登录控制台"
-      url: "https://liyinwaihe.com/login"
-    - name: "芭芭雅嘎"
-      url: "http://im.dog"
-    - name: "真酷"
-      url: "https://liyinwaihe.com/11.html#comment-194"
-    - name: "这歌我在刻特威里面经常唱"
-      url: "https://liyinwaihe.com/341.html#comment-144"
-    - name: "狄伊"
-      url: "http://liyinwaihe.com"
-    - name: "包的"
-      url: "https://liyinwaihe.com/board#comment-20"
-    - name: "好看"
-      url: "https://liyinwaihe.com/board#comment-19"
-    - name: "wu先生"
-      url: "https://wuziya.com"
-    - name: "抬头看见的是同一片天空 就当我们见面了，莫名的感觉到了力量。"
-      url: "https://liyinwaihe.com/260.html#comment-13"
-    - name: "困困鱼"
-      url: "http://www.kunkunyu.com"
-    - name: "晨阳"
-      url: "http://www.puresky.top"
-    - name: "帅帅"
-      url: "https://liyinwaihe.com/board#comment-6"
-    - name: "木竹"
-      url: "https://www.laomuzhu.cn/"
-    - name: "能请我吃疯狂星期四吗？😎"
-      url: "https://liyinwaihe.com/board#comment-4"
-    - name: "留言板抽一个人请我吃疯狂星期四"
-      url: "https://liyinwaihe.com/board#comment-3"
-    - name: "WordPress"
-      url: "https://cn.wordpress.org/"
-    - name: "你真帅"
-      url: "https://liyinwaihe.com/11.html#comment-2"
-    - name: "« 5 月"
-      url: "https://liyinwaihe.com/date/2026/05"
-    - name: "爱于细碎烟火，悟爱的本真爱"
-      url: "https://liyinwaihe.com/399.html"
-    - name: "出现又离开"
-      url: "https://liyinwaihe.com/341.html"
-    - name: "青春"
-      url: "https://liyinwaihe.com/284.html"
-    - name: "抬头看见的是同一片天空 就当我们见面了"
-      url: "https://liyinwaihe.com/260.html"
-    - name: "当我站在苏州街头时 我才不会在意你的消息"
-      url: "https://liyinwaihe.com/244.html"
-    - name: "嘉兴南湖天地"
-      url: "https://liyinwaihe.com/238.html"
-    - name: "回忆和迷宫有什么区别"
-      url: "https://liyinwaihe.com/189.html"
-    - name: "关于博客名字及简介介绍"
-      url: "https://liyinwaihe.com/179.html"
-    - name: "Hello,欢迎来到我的博客"
-      url: "https://liyinwaihe.com/11.html"
-    - name: "滕子京履新巴陵郡：政通人和促发展 岳阳楼修缮焕新辉"
-      url: "https://liyinwaihe.com/80.html"
-    - name: "Uptime Kuma 拟态CSS主题分享"
-      url: "https://liyinwaihe.com/96.html"
-    - name: "南方见"
-      url: "https://liyinwaihe.com/120.html"
-    - name: "Uptime-Kuma"
-      url: "https://liyinwaihe.com/tag/uptime-kuma"
-    - name: "高考"
-      url: "https://liyinwaihe.com/tag/%e9%ab%98%e8%80%83"
-    - name: "全国一卷"
-      url: "https://liyinwaihe.com/tag/%e5%85%a8%e5%9b%bd%e4%b8%80%e5%8d%b7"
-    - name: "高考作文"
-      url: "https://liyinwaihe.com/tag/%e9%ab%98%e8%80%83%e4%bd%9c%e6%96%87"
-    - name: "深度解析"
-      url: "https://liyinwaihe.com/tag/%e6%b7%b1%e5%ba%a6%e8%a7%a3%e6%9e%90"
-    - name: "正在阅读：朋友们"
-      url: "https://liyinwaihe.com/?random"
-    - name: "2026-06-05 12:46:27\n\t\t\t\t\t\t\t\t建站二周年"
-      url: "https://suo.ma/archives/91"
-    - name: "2026-05-08 15:45:33\n\t\t\t\t\t\t\t\t永久VPS神话破灭: 狐蒂云深夜跑路"
-      url: "https://suo.ma/archives/M1JcCiwz"
-    - name: "2026-04-30 23:52:07\n\t\t\t\t\t\t\t\t轻言：为 Halo 注入一句话的灵动与温度"
-      url: "https://www.puresky.top/archives/CAymMFF6"
-    - name: "2026-04-02 20:22:37\n\t\t\t\t\t\t\t\t没开始的故事，闯进梦里"
-      url: "https://www.puresky.top/archives/ga973Dr3"
-    - name: "2026-03-26 23:00:11\n\t\t\t\t\t\t\t\t我还是当年的那个听众吗？试听周杰伦新专辑【太阳之子】"
-      url: "https://www.imdd.cn/archives/4pxzxB7N"
-    - name: "2026-03-16 22:40:11\n\t\t\t\t\t\t\t\t家长作业：孩子的寒假手工实践"
-      url: "https://www.imdd.cn/archives/8ar9Cf4e"
-    - name: "2026-02-08 15:03:54\n\t\t\t\t\t\t\t\t年前小记：一次加班，一场尴尬，与一些过年随想"
-      url: "https://baiwumm.com/archives/r4ACa87S"
-    - name: "2026-01-01 00:00:00\n\t\t\t\t\t\t\t\t您好，2026：愿我们奔赴在热爱里"
-      url: "https://baiwumm.com/archives/fiRwKWBI"
-    - name: "2023-07-02 20:14:22\n\t\t\t\t\t\t\t\t快速修复Blender中模型ASCII FBX导入错误"
-      url: "https://hulebaji.me/quick-fix-for-model-ascii-fbx-import-error-in-blender/"
-    - name: "2026-03-15 08:33:03\n\t\t\t\t\t\t\t\t如何解决 Matomo 统计的历史数据突然变成 0 访客"
-      url: "https://bokehub.com/go?from=feed&link=https%3A%2F%2Fwuminboke.site%2Funcategorized%2Fhow-to-fix-matomo-historical-visitor-suddenly-became-zero%2F"
-    - name: "2026-03-13 19:26:46\n\t\t\t\t\t\t\t\t温岭嵌糕：一张年糕皮，包下山海人间的烟火"
-      url: "https://bokehub.com/go?from=feed&link=https%3A%2F%2Fwww.iseeklife.com%2Farchives%2F1130"
-    - name: "2026-06-18 10:27:38\n\t\t\t\t\t\t\t\tAI支付宝上手：内容全靠编，出问题甩锅给商家，付款快退款难"
-      url: "https://blog.zhheo.com/p/sir4kfs9.html"
-    - name: "windows 桌面图标空白解决方法"
-      url: "https://hulebaji.me/windows-solution-to-blank-desktop-icons/"
-    - name: "友链提交"
-      url: "https://docs.qq.com/form/page/DZEJjQWd1emR5RXFr"
-    - name: "THYUU/星度"
-      url: "https://theme.thyuu.com/"
-    - name: "新ICP备2025022079号-3"
-      url: "https://beian.miit.gov.cn/"
-    - name: "陕公网安备61019002003440号"
-      url: "http://www.beian.gov.cn/portal/registerSystemInfo"
+'site':
+  'name': 'liyinwaihe.com'
+  'description': '友情链接'
+  'url': 'https://liyinwaihe.com/'
+  'links': '/friends'
+  'friends':
+    - 'name': '芭芭雅嘎'
+      'url': 'http://im.dog'
+    - 'name': 'wu先生'
+      'url': 'https://wuziya.com'
+    - 'name': '困困鱼'
+      'url': 'http://www.kunkunyu.com'
+    - 'name': '晨阳'
+      'url': 'http://www.puresky.top'
+    - 'name': '木竹'
+      'url': 'https://www.laomuzhu.cn/'
+    - 'name': "2026-06-05 12:46:27
+
+        \t\t\t\t\t\t\t\t建站二周年"
+      'url': 'https://suo.ma/archives/91'
+    - 'name': "2026-05-08 15:45:33
+
+        \t\t\t\t\t\t\t\t永久VPS神话破灭: 狐蒂云深夜跑路"
+      'url': 'https://suo.ma/archives/M1JcCiwz'
+    - 'name': "2026-04-30 23:52:07
+
+        \t\t\t\t\t\t\t\t轻言：为 Halo 注入一句话的灵动与温度"
+      'url': 'https://www.puresky.top/archives/CAymMFF6'
+    - 'name': "2026-04-02 20:22:37
+
+        \t\t\t\t\t\t\t\t没开始的故事，闯进梦里"
+      'url': 'https://www.puresky.top/archives/ga973Dr3'
+    - 'name': "2026-03-26 23:00:11
+
+        \t\t\t\t\t\t\t\t我还是当年的那个听众吗？试听周杰伦新专辑【太阳之子】"
+      'url': 'https://www.imdd.cn/archives/4pxzxB7N'
+    - 'name': "2026-03-16 22:40:11
+
+        \t\t\t\t\t\t\t\t家长作业：孩子的寒假手工实践"
+      'url': 'https://www.imdd.cn/archives/8ar9Cf4e'
+    - 'name': "2026-02-08 15:03:54
+
+        \t\t\t\t\t\t\t\t年前小记：一次加班，一场尴尬，与一些过年随想"
+      'url': 'https://baiwumm.com/archives/r4ACa87S'
+    - 'name': "2026-01-01 00:00:00
+
+        \t\t\t\t\t\t\t\t您好，2026：愿我们奔赴在热爱里"
+      'url': 'https://baiwumm.com/archives/fiRwKWBI'
+    - 'name': "2023-07-02 20:14:22
+
+        \t\t\t\t\t\t\t\t快速修复Blender中模型ASCII FBX导入错误"
+      'url': 'https://hulebaji.me/quick-fix-for-model-ascii-fbx-import-error-in-blender/'
+    - 'name': "2026-03-15 08:33:03
+
+        \t\t\t\t\t\t\t\t如何解决 Matomo 统计的历史数据突然变成 0 访客"
+      'url': 'https://bokehub.com/go?from=feed&link=https%3A%2F%2Fwuminboke.site%2Funcategorized%2Fhow-to-fix-matomo-historical-visitor-suddenly-became-zero%2F'
+    - 'name': "2026-03-13 19:26:46
+
+        \t\t\t\t\t\t\t\t温岭嵌糕：一张年糕皮，包下山海人间的烟火"
+      'url': 'https://bokehub.com/go?from=feed&link=https%3A%2F%2Fwww.iseeklife.com%2Farchives%2F1130'
+    - 'name': "2026-06-18 10:27:38
+
+        \t\t\t\t\t\t\t\tAI支付宝上手：内容全靠编，出问题甩锅给商家，付款快退款难"
+      'url': 'https://blog.zhheo.com/p/sir4kfs9.html'
+    - 'name': 'windows 桌面图标空白解决方法'
+      'url': 'https://hulebaji.me/windows-solution-to-blank-desktop-icons/'
+    - 'name': 'THYUU/星度'
+      'url': 'https://theme.thyuu.com/'

@@ -1,24 +1,24 @@
-site:
-  name: "Bryan"
-  url: "https://singee.me/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "我的 Twitter\n              @ImSingee\n              Follow"
-      url: "https://twitter.com/ImSingee"
-    - name: "Now\n              now.singee.me"
-      url: "https://now.singee.me"
-    - name: "我的碎碎念\n              x.singee.me"
-      url: "https://x.singee.me"
-    - name: "我的博客\n              blog.singee.me"
-      url: "https://blog.singee.me"
-    - name: "我的知识库\n                kb.singee.site"
-      url: "https://kb.singee.site"
-    - name: "我的笔记\n              notes.singee.me"
-      url: "https://notes.singee.me"
-    - name: "auv.tools\n                a collection of useful tools"
-      url: "https://auv.tools"
-    - name: "SurfingKit\n              surfingkit.app"
-      url: "https://surfingkit.app"
-    - name: "singee.me"
-      url: "https://singee.me/"
+'site':
+  'name': 'Bryan'
+  'url': 'https://singee.me/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': "Now\n              now.singee.me"
+      'url': 'https://now.singee.me'
+    - 'name': "我的碎碎念\n              x.singee.me"
+      'url': 'https://x.singee.me'
+    - 'name': "我的博客\n              blog.singee.me"
+      'url': 'https://blog.singee.me'
+    - 'name': "我的知识库\n                kb.singee.site"
+      'url': 'https://kb.singee.site'
+    - 'name': "我的笔记\n              notes.singee.me"
+      'url': 'https://notes.singee.me'
+    - 'name': "auv.tools
+
+        \                a collection of useful tools"
+      'url': 'https://auv.tools'
+    - 'name': "SurfingKit
+
+        \              surfingkit.app"
+      'url': 'https://surfingkit.app'

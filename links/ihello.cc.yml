@@ -1,236 +1,136 @@
-site:
-  name: "ihello.cc"
-  description: "友情链接"
-  url: "https://ihello.cc/"
-  links: "/friends"
-  friends:
-    - name: "星辰角落"
-      url: "https://ihello.cc/"
-    - name: "瞬间动态"
-      url: "https://ihello.cc/moment"
-    - name: "箴言"
-      url: "https://ihello.cc/archives/category/say"
-    - name: "阅读"
-      url: "https://ihello.cc/archives/category/yuedu"
-    - name: "生活记"
-      url: "https://ihello.cc/archives/category/yuedu/shenghuoji"
-    - name: "随心记"
-      url: "https://ihello.cc/archives/category/yuedu/suixinji"
-    - name: "旅行记"
-      url: "https://ihello.cc/archives/category/yuedu/lvxingji"
-    - name: "照片"
-      url: "https://ihello.cc/archives/category/zhaopian"
-    - name: "生活气息"
-      url: "https://ihello.cc/archives/category/zhaopian/shenghuoqixi"
-    - name: "美食"
-      url: "https://ihello.cc/archives/category/zhaopian/meishi"
-    - name: "文章归档"
-      url: "https://ihello.cc/archive"
-    - name: "图文类型"
-      url: "https://ihello.cc/type/image/"
-    - name: "相册类型"
-      url: "https://ihello.cc/type/gallery/"
-    - name: "音频类型"
-      url: "https://ihello.cc/type/audio/"
-    - name: "视频类型"
-      url: "https://ihello.cc/type/video/"
-    - name: "众言"
-      url: "https://ihello.cc/board"
-    - name: "众星"
-      url: "https://ihello.cc/friends"
-    - name: "足迹"
-      url: "https://ihello.cc/footprint"
-    - name: "走心评论"
-      url: "https://ihello.cc/mindful"
-    - name: "豆瓣记录"
-      url: "https://ihello.cc/douban"
-    - name: "壹个人"
-      url: "https://ihello.cc/?author=1"
-    - name: "壹些说明"
-      url: "https://ihello.cc/statement"
-    - name: "站点声明"
-      url: "https://ihello.cc/statement/copyright"
-    - name: "隐私政策"
-      url: "https://ihello.cc/statement/privacy-policy"
-    - name: "欢迎来到星辰角落，为您导读全站动态\n\t\t\t登录控制台"
-      url: "https://ihello.cc/wp-login.php"
-    - name: "小稚"
-      url: "https://ihello.cc"
-    - name: "抱歉朋友，这个是我找人定做的LOGO，可以仿的用PS制作一份"
-      url: "https://ihello.cc/archives/345.html/comment-page-1#comment-925"
-    - name: "一点微薄之力，希望能帮助到有需要的人"
-      url: "https://ihello.cc/archives/345.html/comment-page-1#comment-924"
-    - name: "谢谢"
-      url: "https://ihello.cc/archives/215.html/comment-page-1#comment-922"
-    - name: "姓名测试打分"
-      url: "https://www.resobang.cn/"
-    - name: "文章不错非常喜欢，支持"
-      url: "https://ihello.cc/archives/215.html/comment-page-1#comment-920"
-    - name: "蒙需"
-      url: "https://jiangcl.com"
-    - name: "给爱心人士点个赞"
-      url: "https://ihello.cc/archives/345.html/comment-page-1#comment-918"
-    - name: "正能量"
-      url: "https://ihello.cc/archives/345.html/comment-page-1#comment-917"
-    - name: "萧邦"
-      url: "https://xiaochopin.github.io/"
-    - name: "正能量😋👍"
-      url: "https://ihello.cc/archives/345.html/comment-page-1#comment-916"
-    - name: "献爱心啦😊"
-      url: "https://ihello.cc/archives/345.html/comment-page-1#comment-915"
-    - name: "是哒，我觉得能帮助到很多人"
-      url: "https://ihello.cc/archives/345.html/comment-page-1#comment-914"
-    - name: "满心"
-      url: "https://zhoutian.com"
-    - name: "功德+1啊，有条件有机会献血还是个有意义的事儿"
-      url: "https://ihello.cc/archives/345.html/comment-page-1#comment-913"
-    - name: "17"
-      url: "https://www.s17.cn"
-    - name: "很棒！"
-      url: "https://ihello.cc/archives/345.html/comment-page-1#comment-912"
-    - name: "« 5 月"
-      url: "https://ihello.cc/archives/date/2026/05"
-    - name: "献血日记.2026年5月20日 帮助朋友的爷爷"
-      url: "https://ihello.cc/archives/345.html"
-    - name: "电脑第一次出现故障，送出维修"
-      url: "https://ihello.cc/archives/313.html"
-    - name: "体验了几天快递收件员的工作"
-      url: "https://ihello.cc/archives/290.html"
-    - name: "新的一年到了回忆一下2025年吧"
-      url: "https://ihello.cc/archives/261.html"
-    - name: "我的暑假工终于结束了"
-      url: "https://ihello.cc/archives/221.html"
-    - name: "毕业后我都在干什么"
-      url: "https://ihello.cc/archives/215.html"
-    - name: "高考倒计时：6天"
-      url: "https://ihello.cc/archives/212.html"
-    - name: "五一假期出行：文昌市孔庙"
-      url: "https://ihello.cc/archives/202.html"
-    - name: "被蚊子吵醒后失眠了"
-      url: "https://ihello.cc/archives/193.html"
-    - name: "2024新年快乐！"
-      url: "https://ihello.cc/archives/126.html"
-    - name: "2025年 – 新的一年新的开始"
-      url: "https://ihello.cc/archives/172.html"
-    - name: "生活"
-      url: "https://ihello.cc/archives/tag/%e7%94%9f%e6%b4%bb"
-    - name: "高中"
-      url: "https://ihello.cc/archives/tag/%e9%ab%98%e4%b8%ad"
-    - name: "旅行"
-      url: "https://ihello.cc/archives/tag/%e6%97%85%e8%a1%8c"
-    - name: "开学"
-      url: "https://ihello.cc/archives/tag/%e5%bc%80%e5%ad%a6"
-    - name: "新年快乐"
-      url: "https://ihello.cc/archives/tag/%e6%96%b0%e5%b9%b4%e5%bf%ab%e4%b9%90"
-    - name: "兼职"
-      url: "https://ihello.cc/archives/tag/%e5%85%bc%e8%81%8c"
-    - name: "研学"
-      url: "https://ihello.cc/archives/tag/%e7%a0%94%e5%ad%a6"
-    - name: "合格考"
-      url: "https://ihello.cc/archives/tag/%e5%90%88%e6%a0%bc%e8%80%83"
-    - name: "海景"
-      url: "https://ihello.cc/archives/tag/%e6%b5%b7%e6%99%af"
-    - name: "献血"
-      url: "https://ihello.cc/archives/tag/%e7%8c%ae%e8%a1%80"
-    - name: "电脑"
-      url: "https://ihello.cc/archives/tag/%e7%94%b5%e8%84%91"
-    - name: "2026"
-      url: "https://ihello.cc/archives/tag/2026"
-    - name: "外卖"
-      url: "https://ihello.cc/archives/tag/%e5%a4%96%e5%8d%96"
-    - name: "高考"
-      url: "https://ihello.cc/archives/tag/%e9%ab%98%e8%80%83"
-    - name: "假期"
-      url: "https://ihello.cc/archives/tag/%e5%81%87%e6%9c%9f"
-    - name: "五一"
-      url: "https://ihello.cc/archives/tag/%e4%ba%94%e4%b8%80"
-    - name: "失眠"
-      url: "https://ihello.cc/archives/tag/%e5%a4%b1%e7%9c%a0"
-    - name: "风景"
-      url: "https://ihello.cc/archives/tag/%e9%a3%8e%e6%99%af"
-    - name: "摩托车"
-      url: "https://ihello.cc/archives/tag/%e6%91%a9%e6%89%98%e8%bd%a6"
-    - name: "2025"
-      url: "https://ihello.cc/archives/tag/2025"
-    - name: "折腾"
-      url: "https://ihello.cc/archives/tag/%e6%8a%98%e8%85%be"
-    - name: "2024"
-      url: "https://ihello.cc/archives/tag/2024"
-    - name: "2023"
-      url: "https://ihello.cc/archives/tag/2023"
-    - name: "总结"
-      url: "https://ihello.cc/archives/tag/%e6%80%bb%e7%bb%93"
-    - name: "正在阅读：众星"
-      url: "https://ihello.cc/?random"
-    - name: "2026-06-26 08:00:00\n\t\t\t\t\t\t\t\t小黄的富士随拍：🌲和 🐈"
-      url: "https://usj.cc/20260626121417.html"
-    - name: "2026-06-25 08:00:00\n\t\t\t\t\t\t\t\t怎么也飞不出，花花的世界"
-      url: "https://usj.cc/20260625174724.html"
-    - name: "2026-06-22 14:37:00\n\t\t\t\t\t\t\t\tWordPress-Riven主题正式发售了！！！"
-      url: "https://zhoutian.com/385.html"
-    - name: "2026-06-17 10:45:00\n\t\t\t\t\t\t\t\t车子又到了要续保的日子了"
-      url: "https://zhoutian.com/384.html"
-    - name: "2026-06-21 23:08:00\n\t\t\t\t\t\t\t\t第二次相亲碎碎念"
-      url: "https://blog.1edg.cn/720"
-    - name: "2026-05-06 13:03:00\n\t\t\t\t\t\t\t\t熬夜陪床+图床被刷，记糟糕透顶的一天"
-      url: "https://blog.1edg.cn/718"
-    - name: "2026-06-21 20:48:00\n\t\t\t\t\t\t\t\t一款液态玻璃风格Typecho主题"
-      url: "https://robes.xin/1180.html"
-    - name: "2026-05-30 20:59:00\n\t\t\t\t\t\t\t\t来了一趟重庆的洪崖洞"
-      url: "https://robes.xin/1168.html"
-    - name: "2026-06-03 10:23:10\n\t\t\t\t\t\t\t\t安家之后，岁岁清欢"
-      url: "https://xiangming.site/1131.html"
-    - name: "2026-03-17 21:46:00\n\t\t\t\t\t\t\t\t今天我给茶茶上了把锁：AI 向外拓展时，别忘了保密性"
-      url: "https://xiangming.site/1130.html"
-    - name: "2026-05-09 18:26:24\n\t\t\t\t\t\t\t\t风记得的音乐：《行将近》—— Soon to Leave"
-      url: "https://www.thyuu.com/82442/"
-    - name: "2026-05-28 16:59:00\n\t\t\t\t\t\t\t\t★★★★☆《挽救计划》——久违的经济上行感"
-      url: "https://www.david03.top/index.php/archives/451/"
-    - name: "2026-05-24 14:00:00\n\t\t\t\t\t\t\t\t实习小记与日常杂想（上）"
-      url: "https://www.david03.top/index.php/archives/450/"
-    - name: "2026-05-09 22:20:00\n\t\t\t\t\t\t\t\t把豆瓣看过的番剧一键同步到Bangumi吧~"
-      url: "https://world.ccrice.com/2026/05/09/douban2Bangumi"
-    - name: "2026-03-05 23:40:00\n\t\t\t\t\t\t\t\t使用rclone同步百度网盘与Google相册"
-      url: "https://world.ccrice.com/2026/03/05/rclone-Google-baiduyun"
-    - name: "2026-04-30 23:52:07\n\t\t\t\t\t\t\t\t轻言：为 Halo 注入一句话的灵动与温度"
-      url: "https://www.puresky.top/archives/CAymMFF6"
-    - name: "2026-04-02 20:22:37\n\t\t\t\t\t\t\t\t没开始的故事，闯进梦里"
-      url: "https://www.puresky.top/archives/ga973Dr3"
-    - name: "2026-03-30 20:34:23\n\t\t\t\t\t\t\t\t关于部分魅族内核模块的逆向成果"
-      url: "https://blog.dhao.cc/archives/meizu-kernel-modules-re"
-    - name: "2025-08-03 05:00:58\n\t\t\t\t\t\t\t\t一个人的静界：独处赋予我的自由与清醒"
-      url: "https://www.crant.cn/archives/1754167646063"
-    - name: "2025-05-13 21:55:59\n\t\t\t\t\t\t\t\t为什么我爱的都会离我而去"
-      url: "https://www.crant.cn/archives/1747143542093"
-    - name: "2025-05-17 16:35:10\n\t\t\t\t\t\t\t\tWordpress我的设备管理插件"
-      url: "https://www.ryanzm.cn/archives/wo-de-she-bei-cha-jian"
-    - name: "2025-05-15 17:36:33\n\t\t\t\t\t\t\t\tWooCommerce MLY支付插件"
-      url: "https://www.ryanzm.cn/archives/woocommerce-mlyzhi-fu-cha-jian"
-    - name: "2026-02-08 15:03:54\n\t\t\t\t\t\t\t\t年前小记：一次加班，一场尴尬，与一些过年随想"
-      url: "https://baiwumm.com/archives/r4ACa87S"
-    - name: "2026-01-01 00:00:00\n\t\t\t\t\t\t\t\t您好，2026：愿我们奔赴在热爱里"
-      url: "https://baiwumm.com/archives/fiRwKWBI"
-    - name: "2025-10-29 12:14:00\n\t\t\t\t\t\t\t\t锐捷校园网认证工具"
-      url: "https://zyyo.net/170-1.html"
-    - name: "2025-07-09 19:52:00\n\t\t\t\t\t\t\t\t一个综合树维教务系统的选课排课客户端基于nodejs"
-      url: "https://zyyo.net/170.html"
-    - name: "2025-09-06 10:10:31\n\t\t\t\t\t\t\t\t音乐分享 - doi微醺氛围"
-      url: "https://meuicat.com/posts/4ccc2869.html"
-    - name: "2025-09-06 10:01:44\n\t\t\t\t\t\t\t\t那就，再相逢"
-      url: "https://meuicat.com/posts/f8b8816a.html"
-    - name: "2025-08-11 18:17:16\n\t\t\t\t\t\t\t\t后端开发之Go语言学习心得"
-      url: "https://oyiso.cn/1464.html"
-    - name: "2024-12-31 13:18:00\n\t\t\t\t\t\t\t\t【GitHub】lodash-utils"
-      url: "https://blog.manmandong.top/index.php/archives/802/"
-    - name: "2024-12-10 20:21:00\n\t\t\t\t\t\t\t\t树莓派4B超频"
-      url: "https://blog.manmandong.top/index.php/archives/808/"
-    - name: "2024-10-24 17:07:08\n\t\t\t\t\t\t\t\t数据结构-线性表（顺序表）"
-      url: "https://xingji.fun/posts/20241024/"
-    - name: "2024-10-13 16:24:18\n\t\t\t\t\t\t\t\t【JavaSE基础】变量"
-      url: "https://xingji.fun/posts/10000/"
-    - name: "安装和使用Strapi时一些令人抓狂的问题"
-      url: "https://oyiso.cn/930.html"
-    - name: "THYUU/星度"
-      url: "https://theme.thyuu.com/"
-    - name: "萌ICP备20242006号"
-      url: "https://icp.gov.moe/?keyword=20242006"
+'site':
+  'name': 'ihello.cc'
+  'description': '友情链接'
+  'url': 'https://ihello.cc/'
+  'links': '/friends'
+  'friends':
+    - 'name': '姓名测试打分'
+      'url': 'https://www.resobang.cn/'
+    - 'name': '蒙需'
+      'url': 'https://jiangcl.com'
+    - 'name': '满心'
+      'url': 'https://zhoutian.com'
+    - 'name': "2026-06-26 08:00:00
+
+        \t\t\t\t\t\t\t\t小黄的富士随拍：🌲和 🐈"
+      'url': 'https://usj.cc/20260626121417.html'
+    - 'name': "2026-06-25 08:00:00
+
+        \t\t\t\t\t\t\t\t怎么也飞不出，花花的世界"
+      'url': 'https://usj.cc/20260625174724.html'
+    - 'name': "2026-06-22 14:37:00
+
+        \t\t\t\t\t\t\t\tWordPress-Riven主题正式发售了！！！"
+      'url': 'https://zhoutian.com/385.html'
+    - 'name': "2026-06-17 10:45:00
+
+        \t\t\t\t\t\t\t\t车子又到了要续保的日子了"
+      'url': 'https://zhoutian.com/384.html'
+    - 'name': "2026-06-21 23:08:00
+
+        \t\t\t\t\t\t\t\t第二次相亲碎碎念"
+      'url': 'https://blog.1edg.cn/720'
+    - 'name': "2026-06-21 20:48:00
+
+        \t\t\t\t\t\t\t\t一款液态玻璃风格Typecho主题"
+      'url': 'https://robes.xin/1180.html'
+    - 'name': "2026-05-30 20:59:00
+
+        \t\t\t\t\t\t\t\t来了一趟重庆的洪崖洞"
+      'url': 'https://robes.xin/1168.html'
+    - 'name': "2026-06-03 10:23:10
+
+        \t\t\t\t\t\t\t\t安家之后，岁岁清欢"
+      'url': 'https://xiangming.site/1131.html'
+    - 'name': "2026-03-17 21:46:00
+
+        \t\t\t\t\t\t\t\t今天我给茶茶上了把锁：AI 向外拓展时，别忘了保密性"
+      'url': 'https://xiangming.site/1130.html'
+    - 'name': "2026-05-09 18:26:24
+
+        \t\t\t\t\t\t\t\t风记得的音乐：《行将近》—— Soon to Leave"
+      'url': 'https://www.thyuu.com/82442/'
+    - 'name': "2026-05-28 16:59:00
+
+        \t\t\t\t\t\t\t\t★★★★☆《挽救计划》——久违的经济上行感"
+      'url': 'https://www.david03.top/index.php/archives/451/'
+    - 'name': "2026-05-24 14:00:00
+
+        \t\t\t\t\t\t\t\t实习小记与日常杂想（上）"
+      'url': 'https://www.david03.top/index.php/archives/450/'
+    - 'name': "2026-05-09 22:20:00
+
+        \t\t\t\t\t\t\t\t把豆瓣看过的番剧一键同步到Bangumi吧~"
+      'url': 'https://world.ccrice.com/2026/05/09/douban2Bangumi'
+    - 'name': "2026-04-30 23:52:07
+
+        \t\t\t\t\t\t\t\t轻言：为 Halo 注入一句话的灵动与温度"
+      'url': 'https://www.puresky.top/archives/CAymMFF6'
+    - 'name': "2026-04-02 20:22:37
+
+        \t\t\t\t\t\t\t\t没开始的故事，闯进梦里"
+      'url': 'https://www.puresky.top/archives/ga973Dr3'
+    - 'name': "2026-03-30 20:34:23
+
+        \t\t\t\t\t\t\t\t关于部分魅族内核模块的逆向成果"
+      'url': 'https://blog.dhao.cc/archives/meizu-kernel-modules-re'
+    - 'name': "2025-08-03 05:00:58
+
+        \t\t\t\t\t\t\t\t一个人的静界：独处赋予我的自由与清醒"
+      'url': 'https://www.crant.cn/archives/1754167646063'
+    - 'name': "2025-05-13 21:55:59
+
+        \t\t\t\t\t\t\t\t为什么我爱的都会离我而去"
+      'url': 'https://www.crant.cn/archives/1747143542093'
+    - 'name': "2025-05-17 16:35:10
+
+        \t\t\t\t\t\t\t\tWordpress我的设备管理插件"
+      'url': 'https://www.ryanzm.cn/archives/wo-de-she-bei-cha-jian'
+    - 'name': "2025-05-15 17:36:33
+
+        \t\t\t\t\t\t\t\tWooCommerce MLY支付插件"
+      'url': 'https://www.ryanzm.cn/archives/woocommerce-mlyzhi-fu-cha-jian'
+    - 'name': "2026-02-08 15:03:54
+
+        \t\t\t\t\t\t\t\t年前小记：一次加班，一场尴尬，与一些过年随想"
+      'url': 'https://baiwumm.com/archives/r4ACa87S'
+    - 'name': "2026-01-01 00:00:00
+
+        \t\t\t\t\t\t\t\t您好，2026：愿我们奔赴在热爱里"
+      'url': 'https://baiwumm.com/archives/fiRwKWBI'
+    - 'name': "2025-07-09 19:52:00
+
+        \t\t\t\t\t\t\t\t一个综合树维教务系统的选课排课客户端基于nodejs"
+      'url': 'https://zyyo.net/170.html'
+    - 'name': "2025-09-06 10:10:31
+
+        \t\t\t\t\t\t\t\t音乐分享 - doi微醺氛围"
+      'url': 'https://meuicat.com/posts/4ccc2869.html'
+    - 'name': "2025-09-06 10:01:44
+
+        \t\t\t\t\t\t\t\t那就，再相逢"
+      'url': 'https://meuicat.com/posts/f8b8816a.html'
+    - 'name': "2025-08-11 18:17:16
+
+        \t\t\t\t\t\t\t\t后端开发之Go语言学习心得"
+      'url': 'https://oyiso.cn/1464.html'
+    - 'name': "2024-12-31 13:18:00
+
+        \t\t\t\t\t\t\t\t【GitHub】lodash-utils"
+      'url': 'https://blog.manmandong.top/index.php/archives/802/'
+    - 'name': "2024-12-10 20:21:00
+
+        \t\t\t\t\t\t\t\t树莓派4B超频"
+      'url': 'https://blog.manmandong.top/index.php/archives/808/'
+    - 'name': "2024-10-24 17:07:08
+
+        \t\t\t\t\t\t\t\t数据结构-线性表（顺序表）"
+      'url': 'https://xingji.fun/posts/20241024/'
+    - 'name': "2024-10-13 16:24:18
+
+        \t\t\t\t\t\t\t\t【JavaSE基础】变量"
+      'url': 'https://xingji.fun/posts/10000/'
+    - 'name': '安装和使用Strapi时一些令人抓狂的问题'
+      'url': 'https://oyiso.cn/930.html'
+    - 'name': 'THYUU/星度'
+      'url': 'https://theme.thyuu.com/'

@@ -1,10 +1,48 @@
-site:
-  name: "moeci.com"
-  description: "友情链接"
-  url: "https://moeci.com/"
-  links: "/friends"
-  friends:
-    - name: "渝ICP备16001348号-1"
-      url: "https://beian.miit.gov.cn/"
-    - name: "渝公网安备50022202000018号"
-      url: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50022202000018"
+'site':
+  'name': 'yiyun''s Blog'
+  'url': 'https://moeci.com/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'CC康纳百川'
+      'url': 'https://blog.ccknbc.cc'
+    - 'name': '小嘉的部落格'
+      'url': 'https://blog.imzjw.cn'
+    - 'name': 'Lete乐特'
+      'url': 'https://www.imlete.cn'
+    - 'name': 'Maxbit'
+      'url': 'https://cakepanit.com'
+    - 'name': 'Dr3@m'
+      'url': 'https://blog.ctftools.com'
+    - 'name': '陈YF的博客'
+      'url': 'https://blog.cyfan.top'
+    - 'name': 'QYstudio'
+      'url': 'https://qystudio.ltd'
+    - 'name': '小康博客'
+      'url': 'https://www.antmoe.com/'
+    - 'name': 'Haobo''s Blog'
+      'url': 'https://discover304.top/'
+    - 'name': '浮云翩迁之间'
+      'url': 'https://blognas.hwb0307.com'
+    - 'name': 'SKNP的小站'
+      'url': 'https://sknp.top'
+    - 'name': 'AHdark Blog'
+      'url': 'https://www.ahdark.com'
+    - 'name': '葱苓sama'
+      'url': 'https://blog.ciraos.top'
+    - 'name': 'Zkeq'
+      'url': 'https://icodeq.com'
+    - 'name': 'GamerNoTitle'
+      'url': 'https://bili33.top'
+    - 'name': 'Ray''s Blog'
+      'url': 'https://mk1.io'
+    - 'name': '晨旭的博客~'
+      'url': 'https://www.chenxublog.com'
+    - 'name': '米米的博客'
+      'url': 'https://zhangshuqiao.org'
+    - 'name': '芈渡'
+      'url': 'https://www.lllomh.com/'
+    - 'name': 'ESP-AI'
+      'url': 'https://espai.fun'
+    - 'name': 'NexT.Pisces'
+      'url': 'https://theme-next.js.org/pisces/'

@@ -1,108 +1,130 @@
-site:
-  name: "老T博客"
-  url: "https://lawtee.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "GitHub"
-      url: "https://github.com/h2dcc"
-    - name: "Travellings"
-      url: "https://www.travellings.cn/go.html"
-    - name: "WeChat"
-      url: "https://mp.weixin.qq.com/s/ixy4Y84sKwVrtgA7ZhWHDQ"
-    - name: "Zhihu"
-      url: "https://www.zhihu.com/people/rpwi/"
-    - name: "十玖八柒\n一个收藏回忆与分享技术的地方"
-      url: "https://blog.ahzoo.cn/"
-    - name: "酷小呵\n酷小呵的博客"
-      url: "https://www.kuhehe.top"
-    - name: "王旭阳个人博客\n全栈工程师一枚,Java,Golang,Python,Web,运维技术分享。"
-      url: "https://www.wxy97.com"
-    - name: "LineXic书屋\n难离难舍，想抱紧些。"
-      url: "https://linexic.top"
-    - name: "蓝调时刻\n天在将暗未暗时最美 爱在将爱未爱时最迷人"
-      url: "https://www.landiaoshike.com"
-    - name: "有约啦博客\n信息创造价值 在记录中前行"
-      url: "https://blog.youyuela.com"
-    - name: "陶小桃Blog\n热衷于分享日常和技术的机械专业小哥哥~"
-      url: "https://www.52txr.cn"
-    - name: "零一物语\n字节世界，解码网络无限可能！"
-      url: "https://www.docn.net"
-    - name: "Zeruns's Blog\n爱折腾软件和硬件的技术宅"
-      url: "https://blog.zeruns.tech"
-    - name: "刑辩人在路上\n80后刑辩律师的办案手记。反抗者的灵魂从未远去。"
-      url: "https://xingbianren.cn"
-    - name: "Chenli\n记录生活,分享生活。"
-      url: "https://chenliss.cn"
-    - name: "Naive Koala 🐨\n像考拉一样无忧😉"
-      url: "https://www.xalaok.top"
-    - name: "墨七\n专心致志做事，大气温和待人。"
-      url: "https://blog.mo7.cc"
-    - name: "特立独行的异类\n引入变量，跳出死循环，从不确定性中获益"
-      url: "https://www.demochen.com"
-    - name: "秋码记录\n一个游离于山间之上的Java爱好者"
-      url: "https://qiucode.cn"
-    - name: "阿波尔的博客\n一个简单的博客"
-      url: "https://www.zaqizaba.xyz"
-    - name: "Nemo\na Lens Man"
-      url: "https://nemo.cool"
-    - name: "Honesty\n花有重开日,人无再少年"
-      url: "https://blog.hehouhui.cn"
-    - name: "彬红茶日记\n个人生活笔记📒"
-      url: "https://note.redcha.cn"
-    - name: "Pinpe 的云端\n一个属于自己的云朵"
-      url: "https://pinpe.top"
-    - name: "东东\n城市与信仰"
-      url: "https://nihaha.com"
-    - name: "蘇SU\n在数字的海洋中，寻找属于自己的星辰"
-      url: "https://suus.me/"
-    - name: "手里有只毛毛虫\n号角声起 - 等你启航"
-      url: "https://www.krjojo.com/"
-    - name: "Carolyn’s Place\nThere is no place like 127.0.0.1"
-      url: "https://carolyn.sh"
-    - name: "Lane’s Blog\n探索未知，解码未来"
-      url: "https://www.laneljc.cn/"
-    - name: "Debug客栈\n永远相信美好的事情即将发生"
-      url: "https://blog.debuginn.com/"
-    - name: "Evilrabbit Blog\n爱 Coding 爱生活"
-      url: "https://blog.yujiay.wang/"
-    - name: "若梦博客\n聚合优质博客"
-      url: "https://www.rmbk.cc/"
-    - name: "允赫先森’sBlog\n一个八零后大叔的博客分享日常"
-      url: "https://www.3v.hk/"
-    - name: "云墨观窗\n静坐窗前以文字记录日常与所思"
-      url: "https://mojue88.com/"
-    - name: "墨觉"
-      url: "https://mojue88.com/links"
-    - name: "https://mojue88.com"
-      url: "https://mojue88.com"
-    - name: "https://mojue88.com/logo.png"
-      url: "https://mojue88.com/logo.png"
-    - name: "https://cnb.cool/Blog_Bazaar/"
-      url: "https://cnb.cool/Blog_Bazaar/"
-    - name: "https://s41.ax1x.com/2026/05/23/pm9EXnS.png"
-      url: "https://s41.ax1x.com/2026/05/23/pm9EXnS.png"
-    - name: "允赫先森"
-      url: "https://www.3v.hk"
-    - name: "https://www.3v.hk/favicon.png"
-      url: "https://www.3v.hk/favicon.png"
-    - name: "https://www.3v.hk/feed"
-      url: "https://www.3v.hk/feed"
-    - name: "老T"
-      url: "https://lawtee.com"
-    - name: "william smith"
-      url: "https://getmacos.com/gopanel/"
-    - name: "Evilrabbit"
-      url: "http://blog.yujiay.wang"
-    - name: "https://blog.yujiay.wang"
-      url: "https://blog.yujiay.wang"
-    - name: "https://blog.yujiay.wang/images/site/BlogHsvg.png"
-      url: "https://blog.yujiay.wang/images/site/BlogHsvg.png"
-    - name: "https://www.laneljc.cn/assets/favicon.png"
-      url: "https://www.laneljc.cn/assets/favicon.png"
-    - name: "https://carolyn.sh/img/avatar.png"
-      url: "https://carolyn.sh/img/avatar.png"
-    - name: "https://www.krjojo.com/wp-content/uploads/2025/02/毛毛虫2.avif"
-      url: "https://www.krjojo.com/wp-content/uploads/2025/02/%E6%AF%9B%E6%AF%9B%E8%99%AB2.avif"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
+'site':
+  'name': '老T博客'
+  'url': 'https://lawtee.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '十玖八柒
+
+        一个收藏回忆与分享技术的地方'
+      'url': 'https://blog.ahzoo.cn/'
+    - 'name': '酷小呵
+
+        酷小呵的博客'
+      'url': 'https://www.kuhehe.top'
+    - 'name': '王旭阳个人博客
+
+        全栈工程师一枚,Java,Golang,Python,Web,运维技术分享。'
+      'url': 'https://www.wxy97.com'
+    - 'name': 'LineXic书屋
+
+        难离难舍，想抱紧些。'
+      'url': 'https://linexic.top'
+    - 'name': '蓝调时刻
+
+        天在将暗未暗时最美 爱在将爱未爱时最迷人'
+      'url': 'https://www.landiaoshike.com'
+    - 'name': '有约啦博客
+
+        信息创造价值 在记录中前行'
+      'url': 'https://blog.youyuela.com'
+    - 'name': '陶小桃Blog
+
+        热衷于分享日常和技术的机械专业小哥哥~'
+      'url': 'https://www.52txr.cn'
+    - 'name': '零一物语
+
+        字节世界，解码网络无限可能！'
+      'url': 'https://www.docn.net'
+    - 'name': 'Zeruns''s Blog
+
+        爱折腾软件和硬件的技术宅'
+      'url': 'https://blog.zeruns.tech'
+    - 'name': '刑辩人在路上
+
+        80后刑辩律师的办案手记。反抗者的灵魂从未远去。'
+      'url': 'https://xingbianren.cn'
+    - 'name': 'Chenli
+
+        记录生活,分享生活。'
+      'url': 'https://chenliss.cn'
+    - 'name': 'Naive Koala 🐨
+
+        像考拉一样无忧😉'
+      'url': 'https://www.xalaok.top'
+    - 'name': '墨七
+
+        专心致志做事，大气温和待人。'
+      'url': 'https://blog.mo7.cc'
+    - 'name': '特立独行的异类
+
+        引入变量，跳出死循环，从不确定性中获益'
+      'url': 'https://www.demochen.com'
+    - 'name': '秋码记录
+
+        一个游离于山间之上的Java爱好者'
+      'url': 'https://qiucode.cn'
+    - 'name': '阿波尔的博客
+
+        一个简单的博客'
+      'url': 'https://www.zaqizaba.xyz'
+    - 'name': 'Nemo
+
+        a Lens Man'
+      'url': 'https://nemo.cool'
+    - 'name': 'Honesty
+
+        花有重开日,人无再少年'
+      'url': 'https://blog.hehouhui.cn'
+    - 'name': '彬红茶日记
+
+        个人生活笔记📒'
+      'url': 'https://note.redcha.cn'
+    - 'name': 'Pinpe 的云端
+
+        一个属于自己的云朵'
+      'url': 'https://pinpe.top'
+    - 'name': '东东
+
+        城市与信仰'
+      'url': 'https://nihaha.com'
+    - 'name': '蘇SU
+
+        在数字的海洋中，寻找属于自己的星辰'
+      'url': 'https://suus.me/'
+    - 'name': '手里有只毛毛虫
+
+        号角声起 - 等你启航'
+      'url': 'https://www.krjojo.com/'
+    - 'name': 'Carolyn’s Place
+
+        There is no place like 127.0.0.1'
+      'url': 'https://carolyn.sh'
+    - 'name': 'Lane’s Blog
+
+        探索未知，解码未来'
+      'url': 'https://www.laneljc.cn/'
+    - 'name': 'Debug客栈
+
+        永远相信美好的事情即将发生'
+      'url': 'https://blog.debuginn.com/'
+    - 'name': 'Evilrabbit Blog
+
+        爱 Coding 爱生活'
+      'url': 'https://blog.yujiay.wang/'
+    - 'name': '允赫先森’sBlog
+
+        一个八零后大叔的博客分享日常'
+      'url': 'https://www.3v.hk/'
+    - 'name': '云墨观窗
+
+        静坐窗前以文字记录日常与所思'
+      'url': 'https://mojue88.com/'
+    - 'name': '墨觉'
+      'url': 'https://mojue88.com/links'
+    - 'name': '允赫先森'
+      'url': 'https://www.3v.hk'
+    - 'name': 'william smith'
+      'url': 'https://getmacos.com/gopanel/'
+    - 'name': 'Evilrabbit'
+      'url': 'http://blog.yujiay.wang'

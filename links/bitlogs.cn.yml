@@ -1,28 +1,16 @@
-site:
-  name: "bitlogs.cn"
-  description: "友情链接"
-  url: "https://bitlogs.cn/"
-  links: "/link"
-  friends:
-    - name: "个人主页"
-      url: "https://www.hackbit.space"
-    - name: "ADLAMP"
-      url: "https://blog.adlamp.cn"
-    - name: "Pieris"
-      url: "https://archive.pieris05.com"
-    - name: "夜梦星尘の折腾日记眼底星河荡漾，踏着梦走过时光。"
-      url: "https://tech.yemengstar.com"
-    - name: "Cascade工程师猫娘"
-      url: "https://cascade.moe"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Github"
-      url: "https://github.com/HonkerBit"
-    - name: "BiliBili"
-      url: "https://space.bilibili.com/3493116589902790?spm_id_from=333.1007.0.0"
-    - name: "本站项目由Github托管"
-      url: "https://github.com/"
-    - name: "萌ICP备20250387号"
-      url: "https://icp.gov.moe/?keyword=20250387"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+'site':
+  'name': 'bitlogs.cn'
+  'description': '友情链接'
+  'url': 'https://bitlogs.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '个人主页'
+      'url': 'https://www.hackbit.space'
+    - 'name': 'ADLAMP'
+      'url': 'https://blog.adlamp.cn'
+    - 'name': 'Pieris'
+      'url': 'https://archive.pieris05.com'
+    - 'name': '夜梦星尘の折腾日记眼底星河荡漾，踏着梦走过时光。'
+      'url': 'https://tech.yemengstar.com'
+    - 'name': 'Cascade工程师猫娘'
+      'url': 'https://cascade.moe'

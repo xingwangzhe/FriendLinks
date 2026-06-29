@@ -1,24 +1,10 @@
-site:
-  name: "愚人而已"
-  url: "https://afool.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "GitHub"
-      url: "https://github.com/chldu2000"
-    - name: "网易云音乐"
-      url: "https://music.163.com/#/user/home?id=610609902"
-    - name: "哔哩哔哩"
-      url: "https://space.bilibili.com/22660607"
-    - name: "贰猹的小窝用这生命中的每一秒，给自己一个不后悔的未来"
-      url: "https://noionion.top/"
-    - name: "云游君的小站All at sea. Valaxy & Yun 作者"
-      url: "https://www.yunyoujun.cn/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Sponsor YunYouJun"
-      url: "https://sponsors.yunyoujun.cn"
-    - name: "Valaxy"
-      url: "https://github.com/YunYouJun/valaxy"
-    - name: "Yun"
-      url: "https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun"
+'site':
+  'name': '愚人而已'
+  'url': 'https://afool.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '贰猹的小窝用这生命中的每一秒，给自己一个不后悔的未来'
+      'url': 'https://noionion.top/'
+    - 'name': '云游君的小站All at sea. Valaxy & Yun 作者'
+      'url': 'https://www.yunyoujun.cn/'

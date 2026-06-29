@@ -1,14 +1,12 @@
-site:
-  name: "mikann.fun"
-  description: "友情链接"
-  url: "https://mikann.fun/"
-  links: "/friends"
-  friends:
-    - name: "白咲雫のblog www.shiro.team 歇斯底里是崩溃，底里歇斯是美味   ★★★★★   COMMON"
-      url: "https://www.shiro.team/"
-    - name: "橘智的安宁之地 juzhiart.com 共享博客&深度思考   ★★★★★   COMMON"
-      url: "https://juzhiart.com"
-    - name: "时歌的博客 www.lapis.cafe 理解以真实为本，但真实本身并不会自动呈现   ★★★★★   COMMON"
-      url: "https://www.lapis.cafe"
-    - name: "Astro"
-      url: "https://astro.build"
+'site':
+  'name': 'mikann.fun'
+  'description': '友情链接'
+  'url': 'https://mikann.fun/'
+  'links': '/friends'
+  'friends':
+    - 'name': '白咲雫のblog www.shiro.team 歇斯底里是崩溃，底里歇斯是美味   ★★★★★   COMMON'
+      'url': 'https://www.shiro.team/'
+    - 'name': '橘智的安宁之地 juzhiart.com 共享博客&深度思考   ★★★★★   COMMON'
+      'url': 'https://juzhiart.com'
+    - 'name': '时歌的博客 www.lapis.cafe 理解以真实为本，但真实本身并不会自动呈现   ★★★★★   COMMON'
+      'url': 'https://www.lapis.cafe'

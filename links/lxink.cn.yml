@@ -1,12 +1,6 @@
-site:
-  name: Loading https://www.lxink.cn/
-  description: lxink.cn
-  url: https://www.lxink.cn
-  links: /peers
-  friends:
-    - name: Mix Space
-      url: https://github.com/mx-space
-    - name: 余白 / Yohaku
-      url: https://github.com/Innei/Yohaku
-    - name: GitHub ↗
-      url: https://github.com/52Lxcloud
+'site':
+  'name': 'Loading https://www.lxink.cn/'
+  'description': 'lxink.cn'
+  'url': 'https://www.lxink.cn'
+  'links': '/peers'
+  'friends': []

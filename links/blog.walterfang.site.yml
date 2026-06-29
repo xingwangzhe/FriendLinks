@@ -1,30 +1,18 @@
-site:
-  name: "blog.walterfang.site"
-  description: "友情链接"
-  url: "https://blog.walterfang.site/"
-  links: "/friends"
-  friends:
-    - name: "GitHub"
-      url: "https://github.com/walterfang12"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/1210778181"
-    - name: "桜羽 エマ"
-      url: "https://www.pixiv.net/artworks/135046774"
-    - name: "Ariasakaの小窝      ●        人有悲欢离合 月有阴晴圆缺      Blog"
-      url: "https://blog.yaria.top"
-    - name: "chun114514's blog      ●             Blog"
-      url: "https://chun.itcdt.top/"
-    - name: "Kyliancc's Blog      ●        人工智能 神经科学 软件开发     Blog"
-      url: "https://www.kyliancc.com/"
-    - name: "Admibrill的博客      ●        有志者,事竟成.     Blog"
-      url: "https://blog.qyadbr.top"
-    - name: "栖童の小站      ●        越努力,越幸运.     Blog"
-      url: "https://blog.linux-qitong.top"
-    - name: "仓库页面"
-      url: "https://github.com/walterfang12/blog/blob/master/src/config/friendsConfig.ts"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "Astro"
-      url: "https://astro.build"
-    - name: "Firefly"
-      url: "https://github.com/CuteLeaf/Firefly"
+'site':
+  'name': 'blog.walterfang.site'
+  'description': '友情链接'
+  'url': 'https://blog.walterfang.site/'
+  'links': '/friends'
+  'friends':
+    - 'name': '桜羽 エマ'
+      'url': 'https://www.pixiv.net/artworks/135046774'
+    - 'name': 'Ariasakaの小窝      ●        人有悲欢离合 月有阴晴圆缺      Blog'
+      'url': 'https://blog.yaria.top'
+    - 'name': 'chun114514''s blog      ●             Blog'
+      'url': 'https://chun.itcdt.top/'
+    - 'name': 'Kyliancc''s Blog      ●        人工智能 神经科学 软件开发     Blog'
+      'url': 'https://www.kyliancc.com/'
+    - 'name': 'Admibrill的博客      ●        有志者,事竟成.     Blog'
+      'url': 'https://blog.qyadbr.top'
+    - 'name': '栖童の小站      ●        越努力,越幸运.     Blog'
+      'url': 'https://blog.linux-qitong.top'

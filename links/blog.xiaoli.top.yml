@@ -1,40 +1,24 @@
-site:
-  name: "xiaoli"
-  url: "https://blog.xiaoli.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "友链"
-      url: "https://blog.xiaoli.top/links"
-    - name: "© 2025-2026 xiaoli"
-      url: "https://blog.xiaoli.top"
-    - name: "NB 优选服务   大厂cdn优选 https://www.byoip.top/"
-      url: "https://www.byoip.top/"
-    - name: "云洛の小屋   或许可以在这里找到云洛? https://ylyq.site/"
-      url: "https://ylyq.site/"
-    - name: "ideafox的经验分享    https://ideafox.top/"
-      url: "https://ideafox.top/"
-    - name: "MIFENG の HOME   路漫漫其修远兮，吾将上下而求索 http://imbee.top"
-      url: "http://imbee.top"
-    - name: "午夜的个人小站   代码言语绘山河 https://www.zeronight.top"
-      url: "https://www.zeronight.top"
-    - name: "浪白的小站   记录生活与思考 https://langbai.asia/"
-      url: "https://langbai.asia/"
-    - name: "二叉树树   Protect What You Love https://2x.nz/"
-      url: "https://2x.nz/"
-    - name: "Cloudflare    https://cloudflare.com"
-      url: "https://cloudflare.com"
-    - name: "阿里云    https://www.aliyun.com/"
-      url: "https://www.aliyun.com/"
-    - name: "腾讯云    https://cloud.tencent.com"
-      url: "https://cloud.tencent.com"
-    - name: "EdgeOne   网页加速、安全防护 https://edgeone.ai/"
-      url: "https://edgeone.ai/"
-    - name: "京ICP备2025153483号-1"
-      url: "https://beian.miit.gov.cn/"
-    - name: "京公网安备11010502058830号"
-      url: "https://beian.mps.gov.cn/#/query/webSearch?code=11010502058830"
-    - name: "Halo"
-      url: "https://www.halo.run"
-    - name: "Fuwari"
-      url: "https://github.com/jiewenhuang/halo-theme-fuwari"
+'site':
+  'name': 'xiaoli'
+  'url': 'https://blog.xiaoli.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'NB 优选服务   大厂cdn优选 https://www.byoip.top/'
+      'url': 'https://www.byoip.top/'
+    - 'name': '云洛の小屋   或许可以在这里找到云洛? https://ylyq.site/'
+      'url': 'https://ylyq.site/'
+    - 'name': 'ideafox的经验分享    https://ideafox.top/'
+      'url': 'https://ideafox.top/'
+    - 'name': 'MIFENG の HOME   路漫漫其修远兮，吾将上下而求索 http://imbee.top'
+      'url': 'http://imbee.top'
+    - 'name': '午夜的个人小站   代码言语绘山河 https://www.zeronight.top'
+      'url': 'https://www.zeronight.top'
+    - 'name': '浪白的小站   记录生活与思考 https://langbai.asia/'
+      'url': 'https://langbai.asia/'
+    - 'name': '二叉树树   Protect What You Love https://2x.nz/'
+      'url': 'https://2x.nz/'
+    - 'name': '阿里云    https://www.aliyun.com/'
+      'url': 'https://www.aliyun.com/'
+    - 'name': 'Halo'
+      'url': 'https://www.halo.run'

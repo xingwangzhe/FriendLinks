@@ -1,18 +1,6 @@
-site:
-  name: "eallion"
-  url: "https://eallion.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "https://www.eallion.com"
-      url: "https://www.eallion.com"
-    - name: "Status"
-      url: "https://status.eallion.com?rel=www.eallion.com"
-    - name: "eallion.com"
-      url: "https://www.eallion.com/copyright/"
-    - name: "浙ICP备16031768号-2"
-      url: "https://beian.miit.gov.cn/"
-    - name: "Hugo"
-      url: "https://gohugo.io/"
-    - name: "Pehe"
-      url: "https://github.com/eallion/pehe"
+'site':
+  'name': 'eallion'
+  'url': 'https://eallion.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends': []

@@ -1,306 +1,208 @@
-site:
-  name: "jingxin18.cn"
-  description: "友情链接"
-  url: "https://jingxin18.cn/"
-  links: "/link"
-  friends:
-    - name: "生活随笔"
-      url: "https://jingxin18.cn/essay"
-    - name: "技术日志"
-      url: "https://jingxin18.cn/technical-logs"
-    - name: "工作笔记"
-      url: "https://jingxin18.cn/working-notes"
-    - name: "书影拾光"
-      url: "https://jingxin18.cn/extract"
-    - name: "友情链接"
-      url: "https://jingxin18.cn/link"
-    - name: "友链动态"
-      url: "https://jingxin18.cn/friend-circle"
-    - name: "文章归档"
-      url: "https://jingxin18.cn/file"
-    - name: "关于我"
-      url: "https://jingxin18.cn/about-me"
-    - name: "时间"
-      url: "https://jingxin18.cn/?s=时间&type=post"
-    - name: "世界"
-      url: "https://jingxin18.cn/?s=世界&type=post"
-    - name: "搭建"
-      url: "https://jingxin18.cn/?s=搭建&type=post"
-    - name: "文章"
-      url: "https://jingxin18.cn/?s=文章&type=post"
-    - name: "景观"
-      url: "https://jingxin18.cn/?s=景观&type=post"
-    - name: "开源"
-      url: "https://jingxin18.cn/?s=开源&type=post"
-    - name: "回家"
-      url: "https://jingxin18.cn/?s=回家&type=post"
-    - name: "主题"
-      url: "https://jingxin18.cn/?s=主题&type=post"
-    - name: "设计"
-      url: "https://jingxin18.cn/?s=设计&type=post"
-    - name: "index"
-      url: "https://jingxin18.cn/?s=index&type=post"
-    - name: "导航栏"
-      url: "https://jingxin18.cn/?s=导航栏&type=post"
-    - name: "园林"
-      url: "https://jingxin18.cn/?s=园林&type=post"
-    - name: "index.html"
-      url: "https://jingxin18.cn/?s=index.html&type=post"
-    - name: "邮票"
-      url: "https://jingxin18.cn/?s=邮票&type=post"
-    - name: "方式"
-      url: "https://jingxin18.cn/?s=方式&type=post"
-    - name: "庭院设计"
-      url: "https://jingxin18.cn/?s=庭院设计&type=post"
-    - name: "友情链接"
-      url: "https://jingxin18.cn/?s=友情链接&type=post"
-    - name: "摄影"
-      url: "https://jingxin18.cn/?s=摄影&type=post"
-    - name: "小白"
-      url: "https://jingxin18.cn/?s=小白&type=post"
-    - name: "我的"
-      url: "https://jingxin18.cn/?s=我的&type=post"
-    - name: "请大佬高抬贵手请大佬高抬贵手2年前 2.4W+"
-      url: "https://jingxin18.cn/2345.html"
-    - name: "吃一碗面，看一片海吃一碗面，看一片海2年前 1.9W+"
-      url: "https://jingxin18.cn/2331.html"
-    - name: "六月、七月—有阵阵微风吹过六月、七月—有阵阵微风吹过2年前 1.8W+"
-      url: "https://jingxin18.cn/2376.html"
-    - name: "寒冬已过,春日可期——二三月小结寒冬已过,春日可期——二三月小结2年前 1.4W+"
-      url: "https://jingxin18.cn/2268.html"
-    - name: "近期收到的明信片近期收到的明信片3年前 1.3W+"
-      url: "https://jingxin18.cn/1821.html"
-    - name: "2023年运营博客网站的费用2023年运营博客网站的费用3年前 1.2W+"
-      url: "https://jingxin18.cn/1873.html"
-    - name: "找回密码"
-      url: "https://jingxin18.cn/user-sign?tab=resetpassword&redirect_to=https://jingxin18.cn/link"
-    - name: "QQ登录"
-      url: "https://jingxin18.cn/oauth/qq?rurl=https%3A%2F%2Fjingxin18.cn%2Flink"
-    - name: "微信登录"
-      url: "https://jingxin18.cn/oauth/clogin?type=weixin&rurl=https%3A%2F%2Fjingxin18.cn%2Flink"
-    - name: "LeaRM\n                             \t成长中的少年"
-      url: "https://blog.learm.cn"
-    - name: "风记星辰\n                             热爱你来过的每一份温度"
-      url: "https://www.thyuu.com"
-    - name: "崔崔\n                             一壶浊酒喜相逢，古今多少事，都付笑谈中。"
-      url: "https://tsuicx.cn"
-    - name: "花猪\n                             佛系青年"
-      url: "https://cnhuazhu.top/cards/"
-    - name: "思宁HERE\n                             设计与生活"
-      url: "https://www.snhere.com"
-    - name: "爱情在线\n                             一个因网恋而碎碎念了20多年的个站…"
-      url: "https://aqzx.com"
-    - name: "茫跟的小屋\n                             茫跟的一些个人日记、随笔"
-      url: "https://www.mongon.cn/"
-    - name: "小屁君的吐槽\n                             一个胡编乱邹的个人博客"
-      url: "https://blog.ouxiaopi.com/"
-    - name: "霞阴云之都\n                             心茧化翼，破风追星！"
-      url: "https://blog.20097747.xyz/"
-    - name: "李的日志\n                             在阅读中沉淀，于随笔中抒怀"
-      url: "https://lilog.cn"
-    - name: "轻风记\n                             风会记得一朵花的香"
-      url: "https://www.windy.ink"
-    - name: "杜老师说"
-      url: "https://dusays.com"
-    - name: "星图博客\n                             记录美好生活"
-      url: "https://xingtu.org/"
-    - name: "皮皮社\n                             皮皮社～皮一下"
-      url: "https://www.pipishe.com"
-    - name: "品味苏州"
-      url: "https://pwsz.com/"
-    - name: "旅行漫记\n                             博物馆爱好者，旅游点打卡员"
-      url: "https://synyan.cn/"
-    - name: "汀彵の汐\n                             好事多磨，浪漫不死"
-      url: "https://izznan.cn/"
-    - name: "我在人间贩卖黄昏\n                             花会再开,我继续爱你"
-      url: "https://rl1.cc/"
-    - name: "七月的栀子\n                             用文字记录那些时间带走的东西"
-      url: "https://blog.qydzz.cn/"
-    - name: "夜未央\n                             记录生活感悟；及用经济学视角对社会的观察和解读。"
-      url: "https://www.savouer.com"
-    - name: "暖心向阳335\n                             永不言败，砥砺前行"
-      url: "https://nxxy335.top/"
-    - name: "关关和六六\n                             向世界分享我们的故事"
-      url: "https://www.gmcllp.cn"
-    - name: "南香香（南总）\n                             我会一直喜欢你，你会一直喜欢我吗"
-      url: "http://99887766554433221100.cn"
-    - name: "瓦匠"
-      url: "https://airy.ink/"
-    - name: "爱娃子"
-      url: "https://www.aiwazi.com"
-    - name: "八咫乌\n                             思君如满月，夜夜减清辉"
-      url: "https://www.vergilisme.com/"
-    - name: "织梦岁月-老朱的日常\n                             记录老朱的工作与生活点滴"
-      url: "https://zhujianlin.com/"
-    - name: "一间生活·旅拍摄影\n                             随手记录时间的停留"
-      url: "https://ncnccn.cn/"
-    - name: "彬红茶日记\n                             个人生活笔记📒"
-      url: "https://note.redcha.cn"
-    - name: "崔话记\n                             向着理想的方向，爬一会儿，躺一会儿"
-      url: "https://cuixiping.com"
-    - name: "Echo’s blog\n                             韶华不为少年留 恨悠悠 几时休"
-      url: "https://www.liveout.cn/"
-    - name: "梦幻辰风\n                             原创生活文学类博客站点"
-      url: "https://www.mhcf.net/"
-    - name: "网友小宋\n                             一介草民，只为生活！"
-      url: "https://xyzbz.cn/"
-    - name: "理论派\n                             诗酒且图今日乐，休问功名几时成。"
-      url: "https://lilun.bearblog.dev/"
-    - name: "树的漫长岁月\n                             很多事情都需要時間去慢慢生長，比如──樹"
-      url: "https://shuspace.cn/"
-    - name: "往日信笺\n                             一个Xing分享自己的故事的地方"
-      url: "https://www.xingmail.cn/"
-    - name: "长街短梦\n                             此行山高路远，我只剩口袋玫瑰一片"
-      url: "https://wangyunzi.com/"
-    - name: "元气秋刀鱼\n                             温暖又苦涩，绵长且醇厚"
-      url: "https://www.rickychen.top/"
-    - name: "周君blog\n                             一名乡村教师的心路历程"
-      url: "https://www.zhoujunblog.com/"
-    - name: "Vian\n                             想要的都拥有，得不到的都释怀…"
-      url: "https://www.vian.top/"
-    - name: "许许"
-      url: "https://zhuo.re/"
-    - name: "小杨生活志\n                             努力做一个可爱的人，一起记录美好的生活！"
-      url: "https://www.yanghuaxing.com"
-    - name: "Macin\n                             恓恓惶惶的普通人"
-      url: "https://www.macin.org/"
-    - name: "洗子爱睡觉\n                             睡饱饱，吃香香~"
-      url: "https://xizi.live/"
-    - name: "雅余\n                             茶余饭后，闲情雅致"
-      url: "https://yayu.net/"
-    - name: "半点设计"
-      url: "https://abandian.cn"
-    - name: "爱吃肉的猫\n                             有肉有猫有生活."
-      url: "https://meuicat.com/"
-    - name: "张洪Heo\n                             分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "谶的博客\n                             生活就像一杯茶,细品都是好"
-      url: "https://blog.fohok.xin/"
-    - name: "紫慕碎碎念\n                             清澈、明净、优雅，愿以此为人生路上的航标！"
-      url: "https://90zm.net/"
-    - name: "载润札记\n                             专注日常生活摄影记事和地方风俗见闻博客！"
-      url: "https://www.zairun.com"
-    - name: "东东的小黑盒\n                             生活未必似你所见"
-      url: "https://www.ankia.top"
-    - name: "最新"
-      url: "https://jingxin18.cn/link?corderby=comment_date_gmt"
-    - name: "最热"
-      url: "https://jingxin18.cn/link?corderby=comment_like"
-    - name: "只看作者"
-      url: "https://jingxin18.cn/link?only_author=234"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1721#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1724#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1704#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1705#respond"
-    - name: "小P"
-      url: "https://blog.ouxiaopi.com"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1686#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1682#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1685#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1679#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1674#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1680#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1662#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1655#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1656#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1654#respond"
-    - name: "暖心向阳335"
-      url: "https://nxxy335.top"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1646#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1647#respond"
-    - name: "云晓晨"
-      url: "https://blog.kaiqi.wang"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1627#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1694#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1629#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1631#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1632#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1633#respond"
-    - name: "蜗牛不是牛"
-      url: "https://www.wnblog.com"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1623#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1624#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1592#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1593#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1594#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1595#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1596#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1597#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1598#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1599#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1600#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1591#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1602#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1589#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1590#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1494#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1501#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1497#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1499#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1496#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1483#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1484#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1485#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1486#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1478#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1500#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1480#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1481#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1495#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1498#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1482#respond"
-    - name: "回复"
-      url: "https://jingxin18.cn/link?replytocom=1449#respond"
+'site':
+  'name': 'jingxin18.cn'
+  'description': '友情链接'
+  'url': 'https://jingxin18.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': "LeaRM
+
+        \                             \t成长中的少年"
+      'url': 'https://blog.learm.cn'
+    - 'name': "风记星辰
+
+        \                             热爱你来过的每一份温度"
+      'url': 'https://www.thyuu.com'
+    - 'name': "崔崔
+
+        \                             一壶浊酒喜相逢，古今多少事，都付笑谈中。"
+      'url': 'https://tsuicx.cn'
+    - 'name': "花猪\n                             佛系青年"
+      'url': 'https://cnhuazhu.top/cards/'
+    - 'name': "思宁HERE
+
+        \                             设计与生活"
+      'url': 'https://www.snhere.com'
+    - 'name': "爱情在线
+
+        \                             一个因网恋而碎碎念了20多年的个站…"
+      'url': 'https://aqzx.com'
+    - 'name': "茫跟的小屋
+
+        \                             茫跟的一些个人日记、随笔"
+      'url': 'https://www.mongon.cn/'
+    - 'name': "小屁君的吐槽
+
+        \                             一个胡编乱邹的个人博客"
+      'url': 'https://blog.ouxiaopi.com/'
+    - 'name': "霞阴云之都
+
+        \                             心茧化翼，破风追星！"
+      'url': 'https://blog.20097747.xyz/'
+    - 'name': "李的日志
+
+        \                             在阅读中沉淀，于随笔中抒怀"
+      'url': 'https://lilog.cn'
+    - 'name': "轻风记
+
+        \                             风会记得一朵花的香"
+      'url': 'https://www.windy.ink'
+    - 'name': '杜老师说'
+      'url': 'https://dusays.com'
+    - 'name': "星图博客
+
+        \                             记录美好生活"
+      'url': 'https://xingtu.org/'
+    - 'name': "皮皮社
+
+        \                             皮皮社～皮一下"
+      'url': 'https://www.pipishe.com'
+    - 'name': '品味苏州'
+      'url': 'https://pwsz.com/'
+    - 'name': "旅行漫记
+
+        \                             博物馆爱好者，旅游点打卡员"
+      'url': 'https://synyan.cn/'
+    - 'name': "汀彵の汐
+
+        \                             好事多磨，浪漫不死"
+      'url': 'https://izznan.cn/'
+    - 'name': "我在人间贩卖黄昏
+
+        \                             花会再开,我继续爱你"
+      'url': 'https://rl1.cc/'
+    - 'name': "七月的栀子
+
+        \                             用文字记录那些时间带走的东西"
+      'url': 'https://blog.qydzz.cn/'
+    - 'name': "夜未央
+
+        \                             记录生活感悟；及用经济学视角对社会的观察和解读。"
+      'url': 'https://www.savouer.com'
+    - 'name': "暖心向阳335
+
+        \                             永不言败，砥砺前行"
+      'url': 'https://nxxy335.top/'
+    - 'name': "关关和六六
+
+        \                             向世界分享我们的故事"
+      'url': 'https://www.gmcllp.cn'
+    - 'name': "南香香（南总）
+
+        \                             我会一直喜欢你，你会一直喜欢我吗"
+      'url': 'http://99887766554433221100.cn'
+    - 'name': '瓦匠'
+      'url': 'https://airy.ink/'
+    - 'name': '爱娃子'
+      'url': 'https://www.aiwazi.com'
+    - 'name': "八咫乌
+
+        \                             思君如满月，夜夜减清辉"
+      'url': 'https://www.vergilisme.com/'
+    - 'name': "织梦岁月-老朱的日常
+
+        \                             记录老朱的工作与生活点滴"
+      'url': 'https://zhujianlin.com/'
+    - 'name': "一间生活·旅拍摄影
+
+        \                             随手记录时间的停留"
+      'url': 'https://ncnccn.cn/'
+    - 'name': "彬红茶日记
+
+        \                             个人生活笔记📒"
+      'url': 'https://note.redcha.cn'
+    - 'name': "崔话记
+
+        \                             向着理想的方向，爬一会儿，躺一会儿"
+      'url': 'https://cuixiping.com'
+    - 'name': "Echo’s blog
+
+        \                             韶华不为少年留 恨悠悠 几时休"
+      'url': 'https://www.liveout.cn/'
+    - 'name': "梦幻辰风
+
+        \                             原创生活文学类博客站点"
+      'url': 'https://www.mhcf.net/'
+    - 'name': "网友小宋
+
+        \                             一介草民，只为生活！"
+      'url': 'https://xyzbz.cn/'
+    - 'name': "理论派
+
+        \                             诗酒且图今日乐，休问功名几时成。"
+      'url': 'https://lilun.bearblog.dev/'
+    - 'name': "树的漫长岁月
+
+        \                             很多事情都需要時間去慢慢生長，比如──樹"
+      'url': 'https://shuspace.cn/'
+    - 'name': "往日信笺
+
+        \                             一个Xing分享自己的故事的地方"
+      'url': 'https://www.xingmail.cn/'
+    - 'name': "长街短梦
+
+        \                             此行山高路远，我只剩口袋玫瑰一片"
+      'url': 'https://wangyunzi.com/'
+    - 'name': "元气秋刀鱼
+
+        \                             温暖又苦涩，绵长且醇厚"
+      'url': 'https://www.rickychen.top/'
+    - 'name': "周君blog
+
+        \                             一名乡村教师的心路历程"
+      'url': 'https://www.zhoujunblog.com/'
+    - 'name': "Vian
+
+        \                             想要的都拥有，得不到的都释怀…"
+      'url': 'https://www.vian.top/'
+    - 'name': '许许'
+      'url': 'https://zhuo.re/'
+    - 'name': "小杨生活志
+
+        \                             努力做一个可爱的人，一起记录美好的生活！"
+      'url': 'https://www.yanghuaxing.com'
+    - 'name': "Macin
+
+        \                             恓恓惶惶的普通人"
+      'url': 'https://www.macin.org/'
+    - 'name': "洗子爱睡觉
+
+        \                             睡饱饱，吃香香~"
+      'url': 'https://xizi.live/'
+    - 'name': "雅余
+
+        \                             茶余饭后，闲情雅致"
+      'url': 'https://yayu.net/'
+    - 'name': '半点设计'
+      'url': 'https://abandian.cn'
+    - 'name': "爱吃肉的猫
+
+        \                             有肉有猫有生活."
+      'url': 'https://meuicat.com/'
+    - 'name': "张洪Heo
+
+        \                             分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "谶的博客
+
+        \                             生活就像一杯茶,细品都是好"
+      'url': 'https://blog.fohok.xin/'
+    - 'name': "紫慕碎碎念
+
+        \                             清澈、明净、优雅，愿以此为人生路上的航标！"
+      'url': 'https://90zm.net/'
+    - 'name': "载润札记
+
+        \                             专注日常生活摄影记事和地方风俗见闻博客！"
+      'url': 'https://www.zairun.com'
+    - 'name': "东东的小黑盒
+
+        \                             生活未必似你所见"
+      'url': 'https://www.ankia.top'
+    - 'name': '小P'
+      'url': 'https://blog.ouxiaopi.com'
+    - 'name': '暖心向阳335'
+      'url': 'https://nxxy335.top'
+    - 'name': '云晓晨'
+      'url': 'https://blog.kaiqi.wang'
+    - 'name': '蜗牛不是牛'
+      'url': 'https://www.wnblog.com'

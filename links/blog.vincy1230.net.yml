@@ -1,148 +1,120 @@
-site:
-  name: "云昔"
-  url: "https://blog.vincy1230.net/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "朋友们"
-      url: "https://blog.vincy1230.net/links/"
-    - name: "文章列表"
-      url: "https://blog.vincy1230.net/index.php/author/vincy1230/"
-    - name: "Python"
-      url: "https://blog.vincy1230.net/technology/python/"
-    - name: "网站建设"
-      url: "https://blog.vincy1230.net/technology/website/"
-    - name: "C / C++"
-      url: "https://blog.vincy1230.net/technology/c-cpp/"
-    - name: "杂谈"
-      url: "https://blog.vincy1230.net/remarks/"
-    - name: "关于/About"
-      url: "https://blog.vincy1230.net/about/"
-    - name: "github"
-      url: "https://github.com/Vincy1230"
-    - name: "telegram"
-      url: "https://t.me/Vincy1230"
-    - name: "douyin"
-      url: "https://v.douyin.com/8qeJ5M8/"
-    - name: "twitter"
-      url: "https://twitter.com/Vincy1230"
-    - name: "点击这里查看我的友链信息"
-      url: "https://a.vincy1230.net/blogroll/index.html"
-    - name: "☆我的个人主站这里是一切故事的开端."
-      url: "http://vincy1230.net/"
-    - name: "Amiya MioSoftware Engineer"
-      url: "https://win7.win/"
-    - name: "Bluemangoo我很可爱，请来看看"
-      url: "https://www.bluemangoo.net/"
-    - name: "BWMC社区一个供大家交流的社区～"
-      url: "https://cmu.bwmc.live/"
-    - name: "ChisakaKanako千坂神奈子的全记录"
-      url: "https://chisakakanako.notion.site/96f67217a4c0410eb35c4200f835eafa"
-    - name: "Dahi Blog願你有一天能與你重要的人重逢"
-      url: "https://dahi.icu/"
-    - name: "Dustella的自留地特菈咕噜咕噜咕噜咕噜"
-      url: "https://www.dustella.net/"
-    - name: "Hinai曇花一現"
-      url: "https://blog.woo.moe/"
-    - name: "huige233's blogEveryone can be the light in the darkness."
-      url: "https://www.huige233.com/"
-    - name: "Isoheptane工程师猫娘"
-      url: "https://blog.cascade.moe/"
-    - name: "JIPA233の小窝Deed divides beings into lower and higher ones."
-      url: "https://imjipa.top/"
-    - name: "KaguyaHana's Blog业余相声演员，专业荒野求生"
-      url: "https://xn--e4v.xn--q9jyb4c/"
-    - name: "Lazy's BlogShare somethings with you"
-      url: "https://blog.imlazy.ink:233/"
-    - name: "Misaka10042的小站一个女孩子的小博客"
-      url: "https://www.mis1042.com/"
-    - name: "MlgmXyysd's Cat Nest欢迎来猫窝，喵。"
-      url: "https://www.neko.ink/"
-    - name: "Nbetray我欲穿花寻路，直入白云深处，浩气展虹霓。"
-      url: "https://www.nbetray.cn/"
-    - name: "Noa Virellia天生骄傲"
-      url: "https://herbarium.requiem.garden/"
-    - name: "Rootlex蝉黎明之时，便是重生之日"
-      url: "https://blog.nalex.top/"
-    - name: "Shanwer透明な君は 僕を指差してた"
-      url: "https://blog.shanwer.top/"
-    - name: "Steven's Blog坏了 我没有这东西"
-      url: "https://www.steven.moe/"
-    - name: "THW's BlogLive a good life meet slowly"
-      url: "https://thw.lol/"
-    - name: "Toby 的小博客间歇性努力中..."
-      url: "https://tobyprime.top/"
-    - name: "Wapriaily目之所及皆是回忆，心之所想皆是过往，眼之所看皆是遗憾。"
-      url: "https://www.wapriaily.com/"
-    - name: "zhecydn的博客站送君茉莉，愿君莫离"
-      url: "https://blog.zhecydn.asia/"
-    - name: "さくら荘あなたは何色になりたい"
-      url: "https://blog.sakurasou.io/"
-    - name: "一个不会起名的小白一个什么都不会的小白"
-      url: "https://xiaobai1103.cn/"
-    - name: "云游君Next Generation Static Blog Framework."
-      url: "https://www.yunyoujun.cn/"
-    - name: "伊緻幻の主页Take my hands"
-      url: "https://www.chwin.asia/"
-    - name: "前尘梦 の 小站我们走进了夜海，去打捞遗失的繁星"
-      url: "https://qaoxiang.top/"
-    - name: "北京工商大学玉渊潭清，永定河长"
-      url: "https://www.btbu.edu.cn/"
-    - name: "北工商人工智能学院AI是冠军！！！"
-      url: "https://ai.btbu.edu.cn/"
-    - name: "北工商导航为北工商校友们准备的新手秘籍"
-      url: "http://btbu.vincy1230.net/"
-    - name: "北熙宝宝如果恋爱有颜色，那一定是纯白色！"
-      url: "https://blog.beixibaobao.com/"
-    - name: "千羽茶会人间离别易多时 湿红恨墨浅封题"
-      url: "https://qianyuchan.com/"
-    - name: "叶小兽のBlog小さな怪物の秘密基地"
-      url: "https://www.moeshou.com/"
-    - name: "吃土的小智我家还蛮大的.jpg"
-      url: "https://www.chitudexiaozhi.com/"
-    - name: "吮指原味姬无论什么时候，都不要后悔"
-      url: "https://www.yejinblok.cn/"
-    - name: "咬一口激动的鱼风带来了故事的种子，时间使之发芽"
-      url: "https://jiyu134.top/"
-    - name: "妄尘驿生活在妄想中的喵~"
-      url: "https://blog.wcysite.com/"
-    - name: "小N同学青石落晚巷 故人未还乡"
-      url: "https://www.nesxc.com/"
-    - name: "小不的窝分かりません"
-      url: "https://blog.donotknow.top/"
-    - name: "小吉崽汁の窝A programmer of vegetable chicken"
-      url: "https://wuxingzzz.top/"
-    - name: "小城寒风驻足现实，仰望星空，率性而活"
-      url: "https://blog.atago.moe/"
-    - name: "屑殇一只咸鱼"
-      url: "https://jinghuashang.cn/"
-    - name: "明日が来ると信じてること自体が希望なんだ"
-      url: "https://kiseki.blog/"
-    - name: "白のblog是一只只有一点点技术力的小白捏"
-      url: "https://blog.mashiro.pro/"
-    - name: "糖宝の小窝你可能不是最棒的，但你一定是最胖的！"
-      url: "https://blog.tangbao.ltd/"
-    - name: "紗夕里在你心里-直到永远"
-      url: "https://blog.ovofish.com/"
-    - name: "维安雨轩 の Blog寒蝉黎明之时，便是重生之日"
-      url: "https://blog.ukenn.top/"
-    - name: "腐草一刹今天什么也没做，还是谢谢自己了"
-      url: "https://www.fcyc.top/"
-    - name: "葱苓sama“Don’t worry, Be happy.”"
-      url: "https://blog.ciraos.top/"
-    - name: "轻笑Chuckle漫天倾尘，风中轻笑"
-      url: "https://www.qcqx.cn/"
-    - name: "金鳞星溅的个人博客Hello world 交个朋友吧"
-      url: "https://jinlinxingjian.top/"
-    - name: "陌漓的小窝一只可爱的小陌漓"
-      url: "https://cwcu.com.cn/"
-    - name: "零叁的个人博客凡心所向，素履以往。生如逆旅，一苇以航"
-      url: "https://baihw.cn/"
-    - name: "京ICP备2021020134号-5"
-      url: "https://beian.miit.gov.cn/"
-    - name: "京公网安备11010802044443号"
-      url: "https://beian.mps.gov.cn/#/query/webSearch?code=11010802044443"
-    - name: "Theme Sakurairo"
-      url: "https://github.com/mirai-mamori/Sakurairo"
-    - name: "by Fuukei"
-      url: "https://docs.fuukei.org/"
+'site':
+  'name': '云昔'
+  'url': 'https://blog.vincy1230.net/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'douyin'
+      'url': 'https://v.douyin.com/8qeJ5M8/'
+    - 'name': '点击这里查看我的友链信息'
+      'url': 'https://a.vincy1230.net/blogroll/index.html'
+    - 'name': '☆我的个人主站这里是一切故事的开端.'
+      'url': 'http://vincy1230.net/'
+    - 'name': 'Amiya MioSoftware Engineer'
+      'url': 'https://win7.win/'
+    - 'name': 'Bluemangoo我很可爱，请来看看'
+      'url': 'https://www.bluemangoo.net/'
+    - 'name': 'BWMC社区一个供大家交流的社区～'
+      'url': 'https://cmu.bwmc.live/'
+    - 'name': 'ChisakaKanako千坂神奈子的全记录'
+      'url': 'https://chisakakanako.notion.site/96f67217a4c0410eb35c4200f835eafa'
+    - 'name': 'Dahi Blog願你有一天能與你重要的人重逢'
+      'url': 'https://dahi.icu/'
+    - 'name': 'Dustella的自留地特菈咕噜咕噜咕噜咕噜'
+      'url': 'https://www.dustella.net/'
+    - 'name': 'Hinai曇花一現'
+      'url': 'https://blog.woo.moe/'
+    - 'name': 'huige233''s blogEveryone can be the light in the darkness.'
+      'url': 'https://www.huige233.com/'
+    - 'name': 'Isoheptane工程师猫娘'
+      'url': 'https://blog.cascade.moe/'
+    - 'name': 'JIPA233の小窝Deed divides beings into lower and higher ones.'
+      'url': 'https://imjipa.top/'
+    - 'name': 'KaguyaHana''s Blog业余相声演员，专业荒野求生'
+      'url': 'https://xn--e4v.xn--q9jyb4c/'
+    - 'name': 'Lazy''s BlogShare somethings with you'
+      'url': 'https://blog.imlazy.ink:233/'
+    - 'name': 'Misaka10042的小站一个女孩子的小博客'
+      'url': 'https://www.mis1042.com/'
+    - 'name': 'MlgmXyysd''s Cat Nest欢迎来猫窝，喵。'
+      'url': 'https://www.neko.ink/'
+    - 'name': 'Nbetray我欲穿花寻路，直入白云深处，浩气展虹霓。'
+      'url': 'https://www.nbetray.cn/'
+    - 'name': 'Noa Virellia天生骄傲'
+      'url': 'https://herbarium.requiem.garden/'
+    - 'name': 'Rootlex蝉黎明之时，便是重生之日'
+      'url': 'https://blog.nalex.top/'
+    - 'name': 'Shanwer透明な君は 僕を指差してた'
+      'url': 'https://blog.shanwer.top/'
+    - 'name': 'Steven''s Blog坏了 我没有这东西'
+      'url': 'https://www.steven.moe/'
+    - 'name': 'THW''s BlogLive a good life meet slowly'
+      'url': 'https://thw.lol/'
+    - 'name': 'Toby 的小博客间歇性努力中...'
+      'url': 'https://tobyprime.top/'
+    - 'name': 'Wapriaily目之所及皆是回忆，心之所想皆是过往，眼之所看皆是遗憾。'
+      'url': 'https://www.wapriaily.com/'
+    - 'name': 'zhecydn的博客站送君茉莉，愿君莫离'
+      'url': 'https://blog.zhecydn.asia/'
+    - 'name': 'さくら荘あなたは何色になりたい'
+      'url': 'https://blog.sakurasou.io/'
+    - 'name': '一个不会起名的小白一个什么都不会的小白'
+      'url': 'https://xiaobai1103.cn/'
+    - 'name': '云游君Next Generation Static Blog Framework.'
+      'url': 'https://www.yunyoujun.cn/'
+    - 'name': '伊緻幻の主页Take my hands'
+      'url': 'https://www.chwin.asia/'
+    - 'name': '前尘梦 の 小站我们走进了夜海，去打捞遗失的繁星'
+      'url': 'https://qaoxiang.top/'
+    - 'name': '北京工商大学玉渊潭清，永定河长'
+      'url': 'https://www.btbu.edu.cn/'
+    - 'name': '北工商人工智能学院AI是冠军！！！'
+      'url': 'https://ai.btbu.edu.cn/'
+    - 'name': '北熙宝宝如果恋爱有颜色，那一定是纯白色！'
+      'url': 'https://blog.beixibaobao.com/'
+    - 'name': '千羽茶会人间离别易多时 湿红恨墨浅封题'
+      'url': 'https://qianyuchan.com/'
+    - 'name': '叶小兽のBlog小さな怪物の秘密基地'
+      'url': 'https://www.moeshou.com/'
+    - 'name': '吃土的小智我家还蛮大的.jpg'
+      'url': 'https://www.chitudexiaozhi.com/'
+    - 'name': '吮指原味姬无论什么时候，都不要后悔'
+      'url': 'https://www.yejinblok.cn/'
+    - 'name': '咬一口激动的鱼风带来了故事的种子，时间使之发芽'
+      'url': 'https://jiyu134.top/'
+    - 'name': '妄尘驿生活在妄想中的喵~'
+      'url': 'https://blog.wcysite.com/'
+    - 'name': '小N同学青石落晚巷 故人未还乡'
+      'url': 'https://www.nesxc.com/'
+    - 'name': '小不的窝分かりません'
+      'url': 'https://blog.donotknow.top/'
+    - 'name': '小吉崽汁の窝A programmer of vegetable chicken'
+      'url': 'https://wuxingzzz.top/'
+    - 'name': '小城寒风驻足现实，仰望星空，率性而活'
+      'url': 'https://blog.atago.moe/'
+    - 'name': '屑殇一只咸鱼'
+      'url': 'https://jinghuashang.cn/'
+    - 'name': '明日が来ると信じてること自体が希望なんだ'
+      'url': 'https://kiseki.blog/'
+    - 'name': '白のblog是一只只有一点点技术力的小白捏'
+      'url': 'https://blog.mashiro.pro/'
+    - 'name': '糖宝の小窝你可能不是最棒的，但你一定是最胖的！'
+      'url': 'https://blog.tangbao.ltd/'
+    - 'name': '紗夕里在你心里-直到永远'
+      'url': 'https://blog.ovofish.com/'
+    - 'name': '维安雨轩 の Blog寒蝉黎明之时，便是重生之日'
+      'url': 'https://blog.ukenn.top/'
+    - 'name': '腐草一刹今天什么也没做，还是谢谢自己了'
+      'url': 'https://www.fcyc.top/'
+    - 'name': '葱苓sama“Don’t worry, Be happy.”'
+      'url': 'https://blog.ciraos.top/'
+    - 'name': '轻笑Chuckle漫天倾尘，风中轻笑'
+      'url': 'https://www.qcqx.cn/'
+    - 'name': '金鳞星溅的个人博客Hello world 交个朋友吧'
+      'url': 'https://jinlinxingjian.top/'
+    - 'name': '陌漓的小窝一只可爱的小陌漓'
+      'url': 'https://cwcu.com.cn/'
+    - 'name': '零叁的个人博客凡心所向，素履以往。生如逆旅，一苇以航'
+      'url': 'https://baihw.cn/'
+    - 'name': 'by Fuukei'
+      'url': 'https://docs.fuukei.org/'

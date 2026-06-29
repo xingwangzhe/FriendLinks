@@ -1,210 +1,206 @@
-site:
-  name: "回忆航线"
-  description: "众星"
-  url: "https://kunkunyu.com/"
-  links: "/links"
-  friends:
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com"
-      description: "分享设计与科技生活"
-    - name: "瓦匠个人小站"
-      url: "https://airy.ink"
-      description: "大家都是倔强的人！"
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com/"
-      description: "生活明朗，万物可爱"
-    - name: "风记星辰"
-      url: "https://www.thyuu.com"
-      description: "热爱你来过的每度温暖"
-    - name: "新·都在"
-      url: "https://blog.xindu.site"
-      description: "只想专心玩NAS"
-    - name: "满心记"
-      url: "https://blog.lovelu.top/"
-      description: "追求让人充实，分享让人快乐"
-    - name: "Roozen的小破站"
-      url: "https://roozen.top"
-      description: "技术宅男拯救世界！"
-    - name: "杜老师说"
-      url: "https://dusays.com"
-      description: "杜老师说"
-    - name: "AirboZH 的博客"
-      url: "https://www.airbozh.cn/"
-      description: "生活原本沉闷，但跑起来就有风"
-    - name: "轻笑Chuckle"
-      url: "https://www.qcqx.cn"
-      description: "漫天倾尘,风中轻笑"
-    - name: "Leonus"
-      url: "https://blog.leonus.cn/"
-      description: "进一寸有进一寸的欢喜。"
-    - name: "Nebuluxe"
-      url: "https://lmyz.1yo.cc"
-      description: "美与自由的交汇点"
-    - name: "云云星羽"
-      url: "https://starssr.com"
-      description: "陌让流年盼繁华，颜容依旧私似繁花"
-    - name: "Yovvis`s Blog"
-      url: "https://tenyon.cn"
-      description: "工夫为艺，笃志成技"
-    - name: "轻雅阁"
-      url: "https://www.puresky.top"
-      description: "新时代教师的日常！"
-    - name: "云深不知处"
-      url: "https://www.lanzlz.cn"
-      description: "不食人间烟火 且饮半杯风霜"
-    - name: "哈喽！林墨白"
-      url: "https://blog.lmb520.cn/"
-      description: "沉墨满纸，一笑若白。"
-    - name: "麻瓜星"
-      url: "https://www.omgx.cn"
-      description: "魔法太累，麻瓜无罪"
-    - name: "無.Flac‘s Blog"
-      url: "https://w-flac.org.cn"
-      description: "Indulge in Sound Effects"
-    - name: "墨韵云阁"
-      url: "https://luoyuanxiang.top"
-      description: "墨染山河韵自悠，云栖书阁意难收"
-    - name: "MRZHU的小站"
-      url: "https://www.sifangbazhu.tech/"
-      description: "向着计算物理出发吧！"
-    - name: "Allen的小破站"
-      url: "https://www.xiaode.tech"
-      description: "还有很多故事，想在这里讲给你听"
-    - name: "世上云川"
-      url: "https://blog.ssyc.me"
-      description: "若有韶月熹微·愿作流萤徂岁"
-    - name: "Maverick的摄影日记"
-      url: "https://redmou.com/"
-      description: "分享摄影，分享生活"
-    - name: "Anyeの小站"
-      url: "https://www.anye.xyz"
-      description: "Always Nurturing Your Enthusiasm"
-    - name: "浮生闲记"
-      url: "https://xsfly.com"
-      description: "以文字为舟，溯流时光之河"
-    - name: "Minsp·隅"
-      url: "https://www.minsp.org"
-      description: "在纷扰中寻得宁静，于思索里洞察真意。"
-    - name: "光溯星河"
-      url: "https://blog.tsio.top"
-      description: "博学笃志，切问近思。"
-    - name: "阿展的摸鱼空间"
-      url: "https://blog.felicx.eu.org/"
-      description: "You Only Live Once"
-    - name: "云停涧"
-      url: "https://baiwumm.com"
-      description: "云影映照山涧，清澈而幽远"
-    - name: "小林の木屋"
-      url: "https://www.wjlin0.com"
-      description: "一个黑客小子！"
-    - name: "世界第一可爱"
-      url: "https://www.nahida.cn/"
-      description: "无限进步~"
-    - name: "云深处"
-      url: "https://blog.likesrt.com"
-      description: "越追寻，越失落"
-    - name: "Crant"
-      url: "https://www.crant.cn/"
-      description: "Crant 是一个记录生活的个人博客，分享自己的心情、感悟、经历和创作。你可以在这里了解到 TimeMailX - 时光信件，一个可以给未来写封信的公益项目，也可以看到博主在不同城市的生活和对梦想的追求。"
-    - name: "星风之痕"
-      url: "https://erzip.com"
-      description: "记录，分享"
-    - name: "归墟"
-      url: "https://blog.guizimo.com"
-      description: "不吐一声，不唱一言，天却只我高！"
-    - name: "青桔气球"
-      url: "https://blog.qjqq.cn/"
-      description: "分享网络安全与科技生活"
-    - name: "Jiewen"
-      url: "https://www.jiewen.run"
-      description: "行动起来，活在当下"
-    - name: "ADYUN"
-      url: "https://blog.adyun.design/"
-      description: "记录分享设计、技术、生活"
-    - name: "Symon"
-      url: "https://ssymon.com"
-      description: "知行合一，止于至善"
-    - name: "听闻のBlog"
-      url: "https://blog.404n.cn"
-      description: "再见吧亲爱的梦中女孩。"
-    - name: "webjing"
-      url: "https://blog.webjing.cn"
-      description: "追风赶月莫停留，平芜尽处是春山"
-    - name: "小小笔记大大用处"
-      url: "https://blog.uptoz.cn"
-      description: "保持热爱，奔赴山海。"
-    - name: "ZLX STUDIO"
-      url: "https://blog.iooioio.com"
-      description: "为音乐创作发电！"
-    - name: "木因博客"
-      url: "https://blog.muyin.site"
-      description: "心在哪里收获就在哪里"
-    - name: "Handsome"
-      url: "https://www.lik.cc"
-      description: "心若有所向往，何惧道阻且长"
-    - name: "Temp Mail"
-      url: "https://tempmail100.com"
-      description: "Secure and Anonymous Temp Mail Service"
-    - name: "Halo"
-      url: "https://www.halo.run/"
-      description: "强大易用的开源\n建站工具"
-    - name: "个站商店"
-      url: "https://storeweb.cn/site/o/1975"
-      description: "带社交元素的个人网站发布平台"
-    - name: "开往"
-      url: "https://www.travellings.cn/"
-      description: "一群狼走得远"
-    - name: "清风"
-      url: "https://luckqf.cn"
-      description: "万般皆苦 唯有自渡"
-    - name: "Chenli"
-      url: "https://chenliss.cn/"
-      description: "分享牛肉"
-    - name: "旅者Bin"
-      url: "https://blog.101jc.com/"
-      description: "探索 | 实践 | 记录 | 分享"
-    - name: "野生程序猿"
-      url: "https://www.maxbill.cn/"
-      description: "努力不一定成功，但放弃一定失败！"
-    - name: "LQBBY"
-      url: "https://www.lqbby.com/"
-      description: "成功是失败者的通行证，失败是成功者的墓志。"
-    - name: "小志IT知识库"
-      url: "https://www.xzmcz.cn"
-      description: "一个专注于安全领域的全栈博主"
-    - name: "好巧"
-      url: "https://www.xlz122.cn"
-      description: "喜欢捣鼓前端的博主。"
-    - name: "iSlide"
-      url: "https://www.islide.org"
-      description: "高校专属PPT模板收录站"
-    - name: "阿锦在线"
-      url: "https://www.ajinol.com"
-      description: "记录生活点滴！"
-    - name: "又见梅林"
-      url: "https://www.meily.top"
-      description: "与其诅咒黑暗，不如点燃一支蜡烛"
-    - name: "一席布衣"
-      url: "https://www.booboo.run"
-      description: "代码铸世界，逻辑定乾坤。"
-    - name: "君主阁"
-      url: "https://gfjzz.cn"
-      description: "分享技术与生活"
-    - name: "HoshinoAi"
-      url: "https://hoshinoai.xin"
-      description: "分享数学、猫猫与NLP"
-    - name: "小帕鲁流浪记"
-      url: "https://www.master-jsx.top"
-      description: "安安心心搞运维"
-    - name: "极客日记"
-      url: "https://www.explorexd.com"
-      description: "莫愁前路无知己，天下谁人不识君。"
-    - name: "秘柯云仓"
-      url: "https://www.mioc.cn"
-      description: "一个杂乱的网站"
-    - name: "地球Online"
-      url: "https://diqiuonline.cn"
-      description: "读书破万卷 [ juǎn ]，所以，低头赶路，敬事如仪。主线任务：结婚"
-    - name: "书简湖"
-      url: "https://shujianhu.cn"
-      description: "恭请各位道友，入倒悬山"
+'site':
+  'name': '回忆航线'
+  'description': '众星'
+  'url': 'https://kunkunyu.com/'
+  'links': '/links'
+  'friends':
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com'
+      'description': '分享设计与科技生活'
+    - 'name': '瓦匠个人小站'
+      'url': 'https://airy.ink'
+      'description': '大家都是倔强的人！'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+      'description': '生活明朗，万物可爱'
+    - 'name': '风记星辰'
+      'url': 'https://www.thyuu.com'
+      'description': '热爱你来过的每度温暖'
+    - 'name': '新·都在'
+      'url': 'https://blog.xindu.site'
+      'description': '只想专心玩NAS'
+    - 'name': '满心记'
+      'url': 'https://blog.lovelu.top/'
+      'description': '追求让人充实，分享让人快乐'
+    - 'name': 'Roozen的小破站'
+      'url': 'https://roozen.top'
+      'description': '技术宅男拯救世界！'
+    - 'name': '杜老师说'
+      'url': 'https://dusays.com'
+      'description': '杜老师说'
+    - 'name': 'AirboZH 的博客'
+      'url': 'https://www.airbozh.cn/'
+      'description': '生活原本沉闷，但跑起来就有风'
+    - 'name': '轻笑Chuckle'
+      'url': 'https://www.qcqx.cn'
+      'description': '漫天倾尘,风中轻笑'
+    - 'name': 'Leonus'
+      'url': 'https://blog.leonus.cn/'
+      'description': '进一寸有进一寸的欢喜。'
+    - 'name': 'Nebuluxe'
+      'url': 'https://lmyz.1yo.cc'
+      'description': '美与自由的交汇点'
+    - 'name': '云云星羽'
+      'url': 'https://starssr.com'
+      'description': '陌让流年盼繁华，颜容依旧私似繁花'
+    - 'name': 'Yovvis`s Blog'
+      'url': 'https://tenyon.cn'
+      'description': '工夫为艺，笃志成技'
+    - 'name': '轻雅阁'
+      'url': 'https://www.puresky.top'
+      'description': '新时代教师的日常！'
+    - 'name': '云深不知处'
+      'url': 'https://www.lanzlz.cn'
+      'description': '不食人间烟火 且饮半杯风霜'
+    - 'name': '哈喽！林墨白'
+      'url': 'https://blog.lmb520.cn/'
+      'description': '沉墨满纸，一笑若白。'
+    - 'name': '麻瓜星'
+      'url': 'https://www.omgx.cn'
+      'description': '魔法太累，麻瓜无罪'
+    - 'name': '無.Flac‘s Blog'
+      'url': 'https://w-flac.org.cn'
+      'description': 'Indulge in Sound Effects'
+    - 'name': '墨韵云阁'
+      'url': 'https://luoyuanxiang.top'
+      'description': '墨染山河韵自悠，云栖书阁意难收'
+    - 'name': 'MRZHU的小站'
+      'url': 'https://www.sifangbazhu.tech/'
+      'description': '向着计算物理出发吧！'
+    - 'name': 'Allen的小破站'
+      'url': 'https://www.xiaode.tech'
+      'description': '还有很多故事，想在这里讲给你听'
+    - 'name': '世上云川'
+      'url': 'https://blog.ssyc.me'
+      'description': '若有韶月熹微·愿作流萤徂岁'
+    - 'name': 'Maverick的摄影日记'
+      'url': 'https://redmou.com/'
+      'description': '分享摄影，分享生活'
+    - 'name': 'Anyeの小站'
+      'url': 'https://www.anye.xyz'
+      'description': 'Always Nurturing Your Enthusiasm'
+    - 'name': '浮生闲记'
+      'url': 'https://xsfly.com'
+      'description': '以文字为舟，溯流时光之河'
+    - 'name': 'Minsp·隅'
+      'url': 'https://www.minsp.org'
+      'description': '在纷扰中寻得宁静，于思索里洞察真意。'
+    - 'name': '光溯星河'
+      'url': 'https://blog.tsio.top'
+      'description': '博学笃志，切问近思。'
+    - 'name': '阿展的摸鱼空间'
+      'url': 'https://blog.felicx.eu.org/'
+      'description': 'You Only Live Once'
+    - 'name': '云停涧'
+      'url': 'https://baiwumm.com'
+      'description': '云影映照山涧，清澈而幽远'
+    - 'name': '小林の木屋'
+      'url': 'https://www.wjlin0.com'
+      'description': '一个黑客小子！'
+    - 'name': '世界第一可爱'
+      'url': 'https://www.nahida.cn/'
+      'description': '无限进步~'
+    - 'name': '云深处'
+      'url': 'https://blog.likesrt.com'
+      'description': '越追寻，越失落'
+    - 'name': 'Crant'
+      'url': 'https://www.crant.cn/'
+      'description': 'Crant 是一个记录生活的个人博客，分享自己的心情、感悟、经历和创作。你可以在这里了解到 TimeMailX - 时光信件，一个可以给未来写封信的公益项目，也可以看到博主在不同城市的生活和对梦想的追求。'
+    - 'name': '星风之痕'
+      'url': 'https://erzip.com'
+      'description': '记录，分享'
+    - 'name': '归墟'
+      'url': 'https://blog.guizimo.com'
+      'description': '不吐一声，不唱一言，天却只我高！'
+    - 'name': '青桔气球'
+      'url': 'https://blog.qjqq.cn/'
+      'description': '分享网络安全与科技生活'
+    - 'name': 'Jiewen'
+      'url': 'https://www.jiewen.run'
+      'description': '行动起来，活在当下'
+    - 'name': 'ADYUN'
+      'url': 'https://blog.adyun.design/'
+      'description': '记录分享设计、技术、生活'
+    - 'name': 'Symon'
+      'url': 'https://ssymon.com'
+      'description': '知行合一，止于至善'
+    - 'name': '听闻のBlog'
+      'url': 'https://blog.404n.cn'
+      'description': '再见吧亲爱的梦中女孩。'
+    - 'name': 'webjing'
+      'url': 'https://blog.webjing.cn'
+      'description': '追风赶月莫停留，平芜尽处是春山'
+    - 'name': '小小笔记大大用处'
+      'url': 'https://blog.uptoz.cn'
+      'description': '保持热爱，奔赴山海。'
+    - 'name': 'ZLX STUDIO'
+      'url': 'https://blog.iooioio.com'
+      'description': '为音乐创作发电！'
+    - 'name': '木因博客'
+      'url': 'https://blog.muyin.site'
+      'description': '心在哪里收获就在哪里'
+    - 'name': 'Handsome'
+      'url': 'https://www.lik.cc'
+      'description': '心若有所向往，何惧道阻且长'
+    - 'name': 'Temp Mail'
+      'url': 'https://tempmail100.com'
+      'description': 'Secure and Anonymous Temp Mail Service'
+    - 'name': 'Halo'
+      'url': 'https://www.halo.run/'
+      'description': '强大易用的开源
+
+        建站工具'
+    - 'name': '清风'
+      'url': 'https://luckqf.cn'
+      'description': '万般皆苦 唯有自渡'
+    - 'name': 'Chenli'
+      'url': 'https://chenliss.cn/'
+      'description': '分享牛肉'
+    - 'name': '旅者Bin'
+      'url': 'https://blog.101jc.com/'
+      'description': '探索 | 实践 | 记录 | 分享'
+    - 'name': '野生程序猿'
+      'url': 'https://www.maxbill.cn/'
+      'description': '努力不一定成功，但放弃一定失败！'
+    - 'name': 'LQBBY'
+      'url': 'https://www.lqbby.com/'
+      'description': '成功是失败者的通行证，失败是成功者的墓志。'
+    - 'name': '小志IT知识库'
+      'url': 'https://www.xzmcz.cn'
+      'description': '一个专注于安全领域的全栈博主'
+    - 'name': '好巧'
+      'url': 'https://www.xlz122.cn'
+      'description': '喜欢捣鼓前端的博主。'
+    - 'name': 'iSlide'
+      'url': 'https://www.islide.org'
+      'description': '高校专属PPT模板收录站'
+    - 'name': '阿锦在线'
+      'url': 'https://www.ajinol.com'
+      'description': '记录生活点滴！'
+    - 'name': '又见梅林'
+      'url': 'https://www.meily.top'
+      'description': '与其诅咒黑暗，不如点燃一支蜡烛'
+    - 'name': '一席布衣'
+      'url': 'https://www.booboo.run'
+      'description': '代码铸世界，逻辑定乾坤。'
+    - 'name': '君主阁'
+      'url': 'https://gfjzz.cn'
+      'description': '分享技术与生活'
+    - 'name': 'HoshinoAi'
+      'url': 'https://hoshinoai.xin'
+      'description': '分享数学、猫猫与NLP'
+    - 'name': '小帕鲁流浪记'
+      'url': 'https://www.master-jsx.top'
+      'description': '安安心心搞运维'
+    - 'name': '极客日记'
+      'url': 'https://www.explorexd.com'
+      'description': '莫愁前路无知己，天下谁人不识君。'
+    - 'name': '秘柯云仓'
+      'url': 'https://www.mioc.cn'
+      'description': '一个杂乱的网站'
+    - 'name': '地球Online'
+      'url': 'https://diqiuonline.cn'
+      'description': '读书破万卷 [ juǎn ]，所以，低头赶路，敬事如仪。主线任务：结婚'
+    - 'name': '书简湖'
+      'url': 'https://shujianhu.cn'
+      'description': '恭请各位道友，入倒悬山'

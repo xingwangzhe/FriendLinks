@@ -1,26 +1,6 @@
-site:
-  name: "blog.q2019.net"
-  description: "友情链接"
-  url: "https://blog.q2019.net/"
-  links: "/friends"
-  friends:
-    - name: "Q2019NET"
-      url: "https://blog.q2019.net"
-    - name: "搜索文章"
-      url: "https://blog.q2019.net/search/"
-    - name: "友情链接"
-      url: "https://blog.q2019.net/friends/"
-    - name: "网站文章时间轴"
-      url: "https://blog.q2019.net/archivetimeline/"
-    - name: "登录与管理"
-      url: "https://blog.q2019.net/wp-login.php"
-    - name: "未分类 62"
-      url: "https://blog.q2019.net/category/uncategorized/"
-    - name: "https://www.vindo.cn"
-      url: "https://www.vindo.cn"
-    - name: "https://img.vindo.cn/AVATOR.png"
-      url: "https://img.vindo.cn/AVATOR.png"
-    - name: "https://www.vindo.cn/feed.xml"
-      url: "https://www.vindo.cn/feed.xml"
-    - name: "Argon主题"
-      url: "https://github.com/solstice23/argon-theme"
+'site':
+  'name': 'blog.q2019.net'
+  'description': '友情链接'
+  'url': 'https://blog.q2019.net/'
+  'links': '/friends'
+  'friends': []

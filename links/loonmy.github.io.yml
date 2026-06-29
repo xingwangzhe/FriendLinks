@@ -1,24 +1,14 @@
-site:
-  name: "loonmy.github.io"
-  description: "友情链接"
-  url: "https://loonmy.github.io/"
-  links: "/link"
-  friends:
-    - name: "BiliBiliBiliBiliB站——追番与学习必备"
-      url: "https://www.bilibili.com/"
-    - name: "国科大SEP国科大SEPSEP系统——信息门户，电子邮件，校园网"
-      url: "https://sep.ucas.ac.cn/"
-    - name: "百度百度常用的搜索引擎"
-      url: "https://www.baidu.com/"
-    - name: "华农门户华农门户学校的网页"
-      url: "https://portal-paas.hzau.edu.cn/"
-    - name: "学生邮箱学生邮箱华农邮箱"
-      url: "https://webmail.hzau.edu.cn/"
-    - name: "关注我"
-      url: "https://space.bilibili.com/32044376"
-    - name: "Github"
-      url: "https://github.com/Loonmy"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
+'site':
+  'name': 'loonmy.github.io'
+  'description': '友情链接'
+  'url': 'https://loonmy.github.io/'
+  'links': '/link'
+  'friends':
+    - 'name': '国科大SEP国科大SEPSEP系统——信息门户，电子邮件，校园网'
+      'url': 'https://sep.ucas.ac.cn/'
+    - 'name': '百度百度常用的搜索引擎'
+      'url': 'https://www.baidu.com/'
+    - 'name': '华农门户华农门户学校的网页'
+      'url': 'https://portal-paas.hzau.edu.cn/'
+    - 'name': '学生邮箱学生邮箱华农邮箱'
+      'url': 'https://webmail.hzau.edu.cn/'

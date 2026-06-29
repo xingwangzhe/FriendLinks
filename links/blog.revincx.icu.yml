@@ -1,80 +1,62 @@
-site:
-  name: "blog.revincx.icu"
-  description: "友情链接"
-  url: "https://blog.revincx.icu/"
-  links: "/link"
-  friends:
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "Revincx"
-      url: "https://blog.revincx.icu/"
-    - name: "Skyil"
-      url: "https://blog.skyil.cn/"
-    - name: "noionion"
-      url: "https://noionion.top/"
-    - name: "Akilar"
-      url: "https://akilar.top/"
-    - name: "Lilay"
-      url: "http://lilayzzz.cn"
-    - name: "低调小熊猫"
-      url: "https://ilovey.live"
-    - name: "冰橘の小窝"
-      url: "https://blog.moe233.net"
-    - name: "小N同学"
-      url: "https://www.nesxc.com/"
-    - name: "agou's Blog"
-      url: "https://blog.agou.im/"
-    - name: "Fomalhaut🥝"
-      url: "https://www.fomal.cc/"
-    - name: "柯罗krau"
-      url: "https://krau.top"
-    - name: "云烟成雨"
-      url: "https://shiyu.dev/"
-    - name: "mccsjs"
-      url: "https://mccsjs.eu.org/"
-    - name: "小码博客"
-      url: "https://blog.hikki.site"
-    - name: "cosの博客"
-      url: "https://ysx.cosine.ren/"
-    - name: "顾梦"
-      url: "https://blog.gumengyo.top"
-    - name: "dabao1955"
-      url: "https://dpkg123.site"
-    - name: "Unknown blog"
-      url: "https://nyan.best/"
-    - name: "前進筆記"
-      url: "https://0x1.ink"
-    - name: "GanSer"
-      url: "https://www.gan1ser.top/"
-    - name: "纸鹿摸鱼处"
-      url: "https://blog.zhilu.cyou"
-    - name: "Pzai"
-      url: "https://blog.pzai.cloud/"
-    - name: "Almango"
-      url: "https://www.almango.cn/"
-    - name: "imxizhenのBlog"
-      url: "https://www.imxizhen.asia"
-    - name: "阿叶Ayeez的小站"
-      url: "https://blog.Ayeez.cn"
-    - name: "VnYzm的博客"
-      url: "https://vnyzm.top"
-    - name: "靈夢の小窝"
-      url: "https://rain.moe"
-    - name: "天天的糖果屋"
-      url: "https://blog.rqwq.link/"
-    - name: "天码行空的小破站"
-      url: "https://cs.gt.tc"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Github"
-      url: "https://github.com/Revincx"
-    - name: "Telegram"
-      url: "https://t.me/Revincx_Rua"
-    - name: "Twitter"
-      url: "https://twitter.com/revincx"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
-    - name: "20211666"
-      url: "https://icp.gov.moe/?keyword=20211666"
+'site':
+  'name': 'blog.revincx.icu'
+  'description': '友情链接'
+  'url': 'https://blog.revincx.icu/'
+  'links': '/link'
+  'friends':
+    - 'name': 'Skyil'
+      'url': 'https://blog.skyil.cn/'
+    - 'name': 'noionion'
+      'url': 'https://noionion.top/'
+    - 'name': 'Akilar'
+      'url': 'https://akilar.top/'
+    - 'name': 'Lilay'
+      'url': 'http://lilayzzz.cn'
+    - 'name': '低调小熊猫'
+      'url': 'https://ilovey.live'
+    - 'name': '冰橘の小窝'
+      'url': 'https://blog.moe233.net'
+    - 'name': '小N同学'
+      'url': 'https://www.nesxc.com/'
+    - 'name': 'agou''s Blog'
+      'url': 'https://blog.agou.im/'
+    - 'name': 'Fomalhaut🥝'
+      'url': 'https://www.fomal.cc/'
+    - 'name': '柯罗krau'
+      'url': 'https://krau.top'
+    - 'name': '云烟成雨'
+      'url': 'https://shiyu.dev/'
+    - 'name': 'mccsjs'
+      'url': 'https://mccsjs.eu.org/'
+    - 'name': '小码博客'
+      'url': 'https://blog.hikki.site'
+    - 'name': 'cosの博客'
+      'url': 'https://ysx.cosine.ren/'
+    - 'name': '顾梦'
+      'url': 'https://blog.gumengyo.top'
+    - 'name': 'dabao1955'
+      'url': 'https://dpkg123.site'
+    - 'name': 'Unknown blog'
+      'url': 'https://nyan.best/'
+    - 'name': '前進筆記'
+      'url': 'https://0x1.ink'
+    - 'name': 'GanSer'
+      'url': 'https://www.gan1ser.top/'
+    - 'name': '纸鹿摸鱼处'
+      'url': 'https://blog.zhilu.cyou'
+    - 'name': 'Pzai'
+      'url': 'https://blog.pzai.cloud/'
+    - 'name': 'Almango'
+      'url': 'https://www.almango.cn/'
+    - 'name': 'imxizhenのBlog'
+      'url': 'https://www.imxizhen.asia'
+    - 'name': '阿叶Ayeez的小站'
+      'url': 'https://blog.Ayeez.cn'
+    - 'name': 'VnYzm的博客'
+      'url': 'https://vnyzm.top'
+    - 'name': '靈夢の小窝'
+      'url': 'https://rain.moe'
+    - 'name': '天天的糖果屋'
+      'url': 'https://blog.rqwq.link/'
+    - 'name': '天码行空的小破站'
+      'url': 'https://cs.gt.tc'

@@ -1,58 +1,10 @@
-site:
-  name: "陆梧途说"
-  url: "https://luwut.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "陆梧途说 Luwut.com"
-      url: "https://luwut.com"
-    - name: "# 回忆2017年武功山徒步"
-      url: "https://luwut.com/28a9e27.html"
-    - name: "# 品茶抽斗悟人生"
-      url: "https://luwut.com/6c6bc540.html"
-    - name: "# 关于 2"
-      url: "https://luwut.com/about"
-    - name: "by luwut"
-      url: "https://luwut.com/"
-    - name: "陆梧途说 Luwut"
-      url: "http://luwut.com/"
-    - name: "生活剪影"
-      url: "https://luwut.com/category/life-silhouettes/"
-    - name: "旅行"
-      url: "https://luwut.com/category/trave/"
-    - name: "光影印记"
-      url: "https://luwut.com/category/Light-and-shadow-imprint/"
-    - name: ".custom-svg:hover path { fill: #ffffff; }"
-      url: "https://luwut.com/sitemap.xml"
-    - name: "湘ICP备2022016241号-3"
-      url: "http://beian.miit.gov.cn/"
-    - name: "Typecho"
-      url: "http://www.typecho.org/"
-    - name: "Snapic+v5"
-      url: "http://www.lopwon.com/snapic.html"
-    - name: "武功山"
-      url: "https://luwut.com/tag/wugongshan/"
-    - name: "长沙"
-      url: "https://luwut.com/tag/changsha/"
-    - name: "徒步"
-      url: "https://luwut.com/tag/on-foot/"
-    - name: "烟斗"
-      url: "https://luwut.com/tag/pipe/"
-    - name: "视频日志"
-      url: "https://luwut.com/tag/vlog/"
-    - name: "云海"
-      url: "https://luwut.com/tag/sea-of-clouds/"
-    - name: "露营"
-      url: "https://luwut.com/tag/camp/"
-    - name: "贵阳"
-      url: "https://luwut.com/tag/guiyang/"
-    - name: "三亚"
-      url: "https://luwut.com/tag/sanya/"
-    - name: "同学会"
-      url: "https://luwut.com/tag/class-reunion/"
-    - name: "单页 陆梧途说 2024年07月01日"
-      url: "https://luwut.com/topic"
-    - name: "陆梧途说"
-      url: "https://Luwut.com"
-    - name: "陌子夕生活录"
-      url: "https://mozixi.com"
+'site':
+  'name': '陆梧途说'
+  'url': 'https://luwut.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Snapic+v5'
+      'url': 'http://www.lopwon.com/snapic.html'
+    - 'name': '陌子夕生活录'
+      'url': 'https://mozixi.com'

@@ -1,58 +1,56 @@
-site:
-  name: "合荒小站"
-  url: "https://ryqi.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "GitHub"
-      url: "https://github.com/renvictor855"
-    - name: "Travelling"
-      url: "https://www.travellings.cn/go.html"
-    - name: "haohao的个人博客\n              -爱好听音乐, 写文章, 看散文"
-      url: "https://hhj520.top/"
-    - name: "西瓜猜字谜\n              记录西瓜猜字谜的日常"
-      url: "https://www.xiguacaizimi.top"
-    - name: "蓝莓奥利奥\n              一个深度、自主且真实的小世界。来喝杯茶吧！"
-      url: "https://bboreo.com/"
-    - name: "木头堆栈\n              kamto's stack"
-      url: "https://blog.kamt.cn"
-    - name: "暖心向阳335\n              永不言败，砥砺前行"
-      url: "https://nxxy335.top/"
-    - name: "Tilawa Ceilawsoil的小站\n              可怜花无嘴"
-      url: "https://www.tilawacesoil.top"
-    - name: "worable's Blog\n              ≡ω≡ 嗯对，一名普通的职一牲~"
-      url: "https://www.worable.top/"
-    - name: "Liseezn'blog\n              分享个人学习，项目，及一些教程"
-      url: "https://blog.liseezn.top"
-    - name: "张洪Heo\n              分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "友链出租哦~\n              有没有心动呢~"
-      url: "https://example.com/xeu"
-    - name: "Xalaok's Blog\n              像考拉一样无忧😉"
-      url: "https://www.xalaok.top/"
-    - name: "第三夏尔\n              认真生活，积极摸鱼"
-      url: "https://thirdshire.com"
-    - name: "林林杂语\n              林林在无病呻吟"
-      url: "https://www.xiaozonglin.cn/"
-    - name: "绘星里\n              一起来绘制属于自己的星星！"
-      url: "https://blog.storia.ren/"
-    - name: "鄢云峰的个人网站\n              鄢云峰，一个技术不咋地，头却要秃了的程序员：）"
-      url: "https://yanyunfeng.com/"
-    - name: "AIOVTUE-雪\n              雨滴会记录生命中的每一个瞬间"
-      url: "https://daily.yybb.us/"
-    - name: "BlogsClub\n              个人博客俱乐部"
-      url: "https://www.blogsclub.org/"
-    - name: "博友圈\n              博客人的专属朋友圈"
-      url: "https://www.boyouquan.com"
-    - name: "BlogFinder\n              每个博客都是一座宝藏"
-      url: "https://bf.zzxworld.com"
-    - name: "个站商店\n              一个精致的，带社交元素的个人网站发布平台，博客收录网站"
-      url: "https://storeweb.cn"
-    - name: "Blogs·CN\n              致敬还在写博客的我们"
-      url: "https://blogscn.fun/"
-    - name: "博客集\n              晓梦羊工作室"
-      url: "https://bloginc.cn/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "萌ICP备20268008号"
-      url: "https://icp.gov.moe/?keyword=20268008"
+'site':
+  'name': '合荒小站'
+  'url': 'https://ryqi.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': "haohao的个人博客
+
+        \              -爱好听音乐, 写文章, 看散文"
+      'url': 'https://hhj520.top/'
+    - 'name': "西瓜猜字谜\n              记录西瓜猜字谜的日常"
+      'url': 'https://www.xiguacaizimi.top'
+    - 'name': "蓝莓奥利奥
+
+        \              一个深度、自主且真实的小世界。来喝杯茶吧！"
+      'url': 'https://bboreo.com/'
+    - 'name': "木头堆栈\n              kamto's stack"
+      'url': 'https://blog.kamt.cn'
+    - 'name': "暖心向阳335\n              永不言败，砥砺前行"
+      'url': 'https://nxxy335.top/'
+    - 'name': "Tilawa Ceilawsoil的小站
+
+        \              可怜花无嘴"
+      'url': 'https://www.tilawacesoil.top'
+    - 'name': "worable's Blog
+
+        \              ≡ω≡ 嗯对，一名普通的职一牲~"
+      'url': 'https://www.worable.top/'
+    - 'name': "Liseezn'blog
+
+        \              分享个人学习，项目，及一些教程"
+      'url': 'https://blog.liseezn.top'
+    - 'name': "张洪Heo\n              分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "友链出租哦~\n              有没有心动呢~"
+      'url': 'https://example.com/xeu'
+    - 'name': "Xalaok's Blog
+
+        \              像考拉一样无忧😉"
+      'url': 'https://www.xalaok.top/'
+    - 'name': "第三夏尔\n              认真生活，积极摸鱼"
+      'url': 'https://thirdshire.com'
+    - 'name': "林林杂语\n              林林在无病呻吟"
+      'url': 'https://www.xiaozonglin.cn/'
+    - 'name': "绘星里\n              一起来绘制属于自己的星星！"
+      'url': 'https://blog.storia.ren/'
+    - 'name': "鄢云峰的个人网站
+
+        \              鄢云峰，一个技术不咋地，头却要秃了的程序员：）"
+      'url': 'https://yanyunfeng.com/'
+    - 'name': "AIOVTUE-雪
+
+        \              雨滴会记录生命中的每一个瞬间"
+      'url': 'https://daily.yybb.us/'
+    - 'name': "BlogFinder\n              每个博客都是一座宝藏"
+      'url': 'https://bf.zzxworld.com'

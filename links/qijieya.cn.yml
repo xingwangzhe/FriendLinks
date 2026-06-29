@@ -1,216 +1,156 @@
-site:
-  name: "锦木祈杰"
-  url: "https://qijieya.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "碎碎念"
-      url: "https://qijieya.cn/moments"
-    - name: "祈杰の日历日程"
-      url: "https://qijieya.cn/schedule-calendar"
-    - name: "朋友圈"
-      url: "https://qijieya.cn/friends"
-    - name: "视奸祈杰姐姐"
-      url: "https://sleepy.qijieya.cn/"
-    - name: "个人主页"
-      url: "https://www.qijieya.cn"
-    - name: "祈杰の图床"
-      url: "https://img.qijieya.cn"
-    - name: "祈杰の网盘"
-      url: "https://pan.qijieya.cn"
-    - name: "MetingApi"
-      url: "https://api.qijieya.cn/meting"
-    - name: "网易云API"
-      url: "https://163api.qijieya.cn/"
-    - name: "浏览器引导页"
-      url: "https://nav.qijieya.cn"
-    - name: "服务器状态监测"
-      url: "https://server.qijieya.cn"
-    - name: "Puresys纯净系统-软件下载"
-      url: "https://www.puresys.net"
-    - name: "iVampireSP 的物语 – 与所有美好的存在又多了一年的物语。"
-      url: "https://ivampiresp.com"
-    - name: "Lazy's Blog"
-      url: "https://blog.imlazy.ink:233/"
-    - name: "糸の窝"
-      url: "https://www.yuameshi.top/"
-    - name: "白露小站"
-      url: "https://mybailu.cn/"
-    - name: "白のblog – 向往技术力の彼方"
-      url: "https://blog.mashiro.pro"
-    - name: "某咸鱼的笔记"
-      url: "https://www.wunote.cn"
-    - name: "猫不吃鱼"
-      url: "https://starsei.com/"
-    - name: "YuanRetro"
-      url: "https://yuanshen.dev"
-    - name: "mskk 的个人博客"
-      url: "https://dorahonor.me"
-    - name: "lingviewの小站"
-      url: "https://lingview.xyz"
-    - name: "喵的咕7的小窝"
-      url: "https://miaodegu7.top"
-    - name: "BA4SBFのblog"
-      url: "https://ba4sbf.cn/"
-    - name: "云边的小旅店"
-      url: "https://cachetide.top/"
-    - name: "Kizumi_Blog – 往前走吧，别回头。"
-      url: "https://kizumi.site"
-    - name: "StarryMiku"
-      url: "https://starrymiku.com"
-    - name: "MtF.wiki"
-      url: "https://mtf.wiki"
-    - name: "Nekro's SEKAI"
-      url: "https://www.nekro.top/"
-    - name: "洛雨の小站"
-      url: "https://luotianyi.eu/"
-    - name: "Tkong"
-      url: "http://www.tkong.net"
-    - name: "小乔的博客"
-      url: "https://zyq.today/"
-    - name: "Luminous' Home"
-      url: "https://luotianyi.vc"
-    - name: "醉月 の 酿酒屋 - 今日事, 今日毕"
-      url: "https://blog.catrol.cn/"
-    - name: "苏晓晴 博客"
-      url: "https://www.toubiec.cn/"
-    - name: "邓青峰的小窝"
-      url: "https://cndqf.cn/"
-    - name: "Scwizard的博客"
-      url: "http://scwizard.net/"
-    - name: "Yuki Nix(禰夕・有希)"
-      url: "https://www.nixyuki.com/"
-    - name: "SailTrack杂谈站"
-      url: "https://www.sailtrack.cn"
-    - name: "/var/log/waka-kanou"
-      url: "https://owow.cc/"
-    - name: "Starwaveの个人主页"
-      url: "http://starwave.cyzstudio.top"
-    - name: "Bingxin Home"
-      url: "https://blog.byteloid.one"
-    - name: "十玖八柒"
-      url: "https://blog.ahzoo.cn"
-    - name: "怪喵博客"
-      url: "https://blog.guaitech.org"
-    - name: "某科学的贝壳"
-      url: "https://blog.ning.moe"
-    - name: "MapleLeaf"
-      url: "https://mapleleaf.icu"
-    - name: "Bronya Zaychik"
-      url: "https://bronya-zaychik.cn/"
-    - name: "Fika"
-      url: "https://fika.ink/"
-    - name: "糖茶砌站"
-      url: "https://www.sg7z.com"
-    - name: "UtopiaXC Sites"
-      url: "https://www.utopiaxc.cn/"
-    - name: "橘子博客"
-      url: "https://orangejuice.top"
-    - name: "安知鱼 - 生活明朗 万物可爱"
-      url: "https://blog.anheyu.com/"
-    - name: "墨点白|墨点白"
-      url: "https://nanwish.love"
-    - name: "烟霞志"
-      url: "https://simplestark.com"
-    - name: "后青春期的诗"
-      url: "https://alon.wang/"
-    - name: "Antergone"
-      url: "https://www.antergone.com/"
-    - name: "阿紫的博客网站"
-      url: "https://zijiancode.cn"
-    - name: "wsbのblog"
-      url: "https://wsbblog.cn"
-    - name: "欧阳淇淇的小屋"
-      url: "https://ouyangqiqi.cn/"
-    - name: "Zane Liu's Blog"
-      url: "https://blog.zane-liu.com/"
-    - name: "半勺阳光🌤️"
-      url: "http://zifyu.top"
-    - name: "六月是只猫 - 互联网技术分享指南"
-      url: "https://www.lyszm.com/"
-    - name: "MUKAPP - 人生苦短，生渺若尘"
-      url: "https://www.mukapp.top/"
-    - name: "诺依阁的日记簿"
-      url: "https://blog.nuoyis.net"
-    - name: "阿龙的笔记"
-      url: "https://www.alongw.cn/"
-    - name: "阳帆の小窝"
-      url: "https://blog.wolfyang.fan/"
-    - name: "Frkの博客"
-      url: "https://www.frkovo.cn"
-    - name: "雨后初晴社"
-      url: "https://www.rainafter.cn"
-    - name: "Davidの3号基地"
-      url: "https://www.david03.top"
-    - name: "FlyDay"
-      url: "http://www.flyday.top"
-    - name: "哈喽！林墨白"
-      url: "https://blog.lmb.blue/"
-    - name: "枫林灯语"
-      url: "https://blog.mfwt.top/"
-    - name: "Xiaomage's Blog"
-      url: "https://blog.xmgspace.me"
-    - name: "萌豚 Moechu"
-      url: "https://moechu.cn"
-    - name: "应龙笔记"
-      url: "https://www.silverdragon.cn/"
-    - name: "LoveApple14434的主页"
-      url: "https://loveapple.icu/"
-    - name: "摸鱼の客栈"
-      url: "https://blog.fwneko.com"
-    - name: "香草的日记 | 与你的日常，便是奇迹！"
-      url: "https://www.xcnahida.cn"
-    - name: "Aidens的博客"
-      url: "https://aidens-fox.codeberg.page/"
-    - name: "Aidens"
-      url: "https://aidens-fox.codeberg.page"
-    - name: "https://aidens-fox.codeberg.page/images/as.jpg"
-      url: "https://aidens-fox.codeberg.page/images/as.jpg"
-    - name: "祈杰"
-      url: "https://qijieya.cn"
-    - name: "https://www.nekro.top/”"
-      url: "https://www.nekro.top/%E2%80%9D"
-    - name: "https://avatars.githubusercontent.com/u/90670998?v=4”"
-      url: "https://avatars.githubusercontent.com/u/90670998?v=4%E2%80%9D"
-    - name: "摸鱼の客栈"
-      url: "https://fwneko.com"
-    - name: "https://img.fwneko.com/ico/logo.gif"
-      url: "https://img.fwneko.com/ico/logo.gif"
-    - name: "https://img.fwneko.com/ico/Blogshot.jpg"
-      url: "https://img.fwneko.com/ico/Blogshot.jpg"
-    - name: "https://starrymiku.com/upload/starrymiku-logo-350px.webp"
-      url: "https://starrymiku.com/upload/starrymiku-logo-350px.webp"
-    - name: "BA4SBF"
-      url: "http://ba4sbf.cn"
-    - name: "https://ba4sbf.cn/_astro/avatar.D1wl0BsZ_ZLWX9U.webp"
-      url: "https://ba4sbf.cn/_astro/avatar.D1wl0BsZ_ZLWX9U.webp"
-    - name: "https://www.sg7z.com/favicon.png"
-      url: "https://www.sg7z.com/favicon.png"
-    - name: "邓青峰_BG2HAJ"
-      url: "http://cndqf.cn"
-    - name: "https://cndqf.cn/usr/themes/WaterDrop/static/images/dqf.png"
-      url: "https://cndqf.cn/usr/themes/WaterDrop/static/images/dqf.png"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "@qijieya"
-      url: "https://x.com/qijieya"
-    - name: "Telegram"
-      url: "https://t.me/qijieya"
-    - name: "萌ICP备20250244号"
-      url: "https://icp.gov.moe/?keyword=qijieya.cn"
-    - name: "QQ群140952978"
-      url: "https://qm.qq.com/cgi-bin/qm/qr?k=ZqKDyrYKHKJWIWLDvSxAWOEnd5Dy6wqY&jump_from=webapi&authKey=YG0QjzYs4ejKyQQUp8YxkXcxUnoO/6VFarP//ozWY/W+EKTGoNAE04wDKMTsXwz0"
-    - name: "CC BY-NC-SA 4.0"
-      url: "https://qijieya.cn/cc"
-    - name: "提问的智慧"
-      url: "https://qijieya.cn/smart-ask"
-    - name: "架构于 Halo"
-      url: "https://halo.run"
-    - name: "驱动 Clarity 1.6.2"
-      url: "https://github.com/acanyo/theme-clarity"
-    - name: "苏ICP备2025160197号"
-      url: "https://beian.miit.gov.cn/"
-    - name: "苏公网安备32118302000607号"
-      url: "https://beian.mps.gov.cn/#/query/webSearch?code=32118302000607"
+'site':
+  'name': '锦木祈杰'
+  'url': 'https://qijieya.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '视奸祈杰姐姐'
+      'url': 'https://sleepy.qijieya.cn/'
+    - 'name': '网易云API'
+      'url': 'https://163api.qijieya.cn/'
+    - 'name': 'Puresys纯净系统-软件下载'
+      'url': 'https://www.puresys.net'
+    - 'name': 'iVampireSP 的物语 – 与所有美好的存在又多了一年的物语。'
+      'url': 'https://ivampiresp.com'
+    - 'name': 'Lazy''s Blog'
+      'url': 'https://blog.imlazy.ink:233/'
+    - 'name': '糸の窝'
+      'url': 'https://www.yuameshi.top/'
+    - 'name': '白露小站'
+      'url': 'https://mybailu.cn/'
+    - 'name': '白のblog – 向往技术力の彼方'
+      'url': 'https://blog.mashiro.pro'
+    - 'name': '某咸鱼的笔记'
+      'url': 'https://www.wunote.cn'
+    - 'name': '猫不吃鱼'
+      'url': 'https://starsei.com/'
+    - 'name': 'YuanRetro'
+      'url': 'https://yuanshen.dev'
+    - 'name': 'mskk 的个人博客'
+      'url': 'https://dorahonor.me'
+    - 'name': 'lingviewの小站'
+      'url': 'https://lingview.xyz'
+    - 'name': '喵的咕7的小窝'
+      'url': 'https://miaodegu7.top'
+    - 'name': 'BA4SBFのblog'
+      'url': 'https://ba4sbf.cn/'
+    - 'name': '云边的小旅店'
+      'url': 'https://cachetide.top/'
+    - 'name': 'Kizumi_Blog – 往前走吧，别回头。'
+      'url': 'https://kizumi.site'
+    - 'name': 'StarryMiku'
+      'url': 'https://starrymiku.com'
+    - 'name': 'MtF.wiki'
+      'url': 'https://mtf.wiki'
+    - 'name': 'Nekro''s SEKAI'
+      'url': 'https://www.nekro.top/'
+    - 'name': '洛雨の小站'
+      'url': 'https://luotianyi.eu/'
+    - 'name': 'Tkong'
+      'url': 'http://www.tkong.net'
+    - 'name': '小乔的博客'
+      'url': 'https://zyq.today/'
+    - 'name': 'Luminous'' Home'
+      'url': 'https://luotianyi.vc'
+    - 'name': '醉月 の 酿酒屋 - 今日事, 今日毕'
+      'url': 'https://blog.catrol.cn/'
+    - 'name': '苏晓晴 博客'
+      'url': 'https://www.toubiec.cn/'
+    - 'name': '邓青峰的小窝'
+      'url': 'https://cndqf.cn/'
+    - 'name': 'Scwizard的博客'
+      'url': 'http://scwizard.net/'
+    - 'name': 'Yuki Nix(禰夕・有希)'
+      'url': 'https://www.nixyuki.com/'
+    - 'name': 'SailTrack杂谈站'
+      'url': 'https://www.sailtrack.cn'
+    - 'name': '/var/log/waka-kanou'
+      'url': 'https://owow.cc/'
+    - 'name': 'Starwaveの个人主页'
+      'url': 'http://starwave.cyzstudio.top'
+    - 'name': 'Bingxin Home'
+      'url': 'https://blog.byteloid.one'
+    - 'name': '十玖八柒'
+      'url': 'https://blog.ahzoo.cn'
+    - 'name': '怪喵博客'
+      'url': 'https://blog.guaitech.org'
+    - 'name': '某科学的贝壳'
+      'url': 'https://blog.ning.moe'
+    - 'name': 'MapleLeaf'
+      'url': 'https://mapleleaf.icu'
+    - 'name': 'Bronya Zaychik'
+      'url': 'https://bronya-zaychik.cn/'
+    - 'name': 'Fika'
+      'url': 'https://fika.ink/'
+    - 'name': '糖茶砌站'
+      'url': 'https://www.sg7z.com'
+    - 'name': 'UtopiaXC Sites'
+      'url': 'https://www.utopiaxc.cn/'
+    - 'name': '橘子博客'
+      'url': 'https://orangejuice.top'
+    - 'name': '安知鱼 - 生活明朗 万物可爱'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '墨点白|墨点白'
+      'url': 'https://nanwish.love'
+    - 'name': '烟霞志'
+      'url': 'https://simplestark.com'
+    - 'name': '后青春期的诗'
+      'url': 'https://alon.wang/'
+    - 'name': 'Antergone'
+      'url': 'https://www.antergone.com/'
+    - 'name': '阿紫的博客网站'
+      'url': 'https://zijiancode.cn'
+    - 'name': 'wsbのblog'
+      'url': 'https://wsbblog.cn'
+    - 'name': '欧阳淇淇的小屋'
+      'url': 'https://ouyangqiqi.cn/'
+    - 'name': 'Zane Liu''s Blog'
+      'url': 'https://blog.zane-liu.com/'
+    - 'name': '半勺阳光🌤️'
+      'url': 'http://zifyu.top'
+    - 'name': '六月是只猫 - 互联网技术分享指南'
+      'url': 'https://www.lyszm.com/'
+    - 'name': 'MUKAPP - 人生苦短，生渺若尘'
+      'url': 'https://www.mukapp.top/'
+    - 'name': '诺依阁的日记簿'
+      'url': 'https://blog.nuoyis.net'
+    - 'name': '阿龙的笔记'
+      'url': 'https://www.alongw.cn/'
+    - 'name': '阳帆の小窝'
+      'url': 'https://blog.wolfyang.fan/'
+    - 'name': 'Frkの博客'
+      'url': 'https://www.frkovo.cn'
+    - 'name': '雨后初晴社'
+      'url': 'https://www.rainafter.cn'
+    - 'name': 'Davidの3号基地'
+      'url': 'https://www.david03.top'
+    - 'name': 'FlyDay'
+      'url': 'http://www.flyday.top'
+    - 'name': '哈喽！林墨白'
+      'url': 'https://blog.lmb.blue/'
+    - 'name': '枫林灯语'
+      'url': 'https://blog.mfwt.top/'
+    - 'name': 'Xiaomage''s Blog'
+      'url': 'https://blog.xmgspace.me'
+    - 'name': '萌豚 Moechu'
+      'url': 'https://moechu.cn'
+    - 'name': '应龙笔记'
+      'url': 'https://www.silverdragon.cn/'
+    - 'name': 'LoveApple14434的主页'
+      'url': 'https://loveapple.icu/'
+    - 'name': '摸鱼の客栈'
+      'url': 'https://blog.fwneko.com'
+    - 'name': '香草的日记 | 与你的日常，便是奇迹！'
+      'url': 'https://www.xcnahida.cn'
+    - 'name': 'Aidens的博客'
+      'url': 'https://aidens-fox.codeberg.page/'
+    - 'name': 'Aidens'
+      'url': 'https://aidens-fox.codeberg.page'
+    - 'name': '摸鱼の客栈'
+      'url': 'https://fwneko.com'
+    - 'name': 'BA4SBF'
+      'url': 'http://ba4sbf.cn'
+    - 'name': '邓青峰_BG2HAJ'
+      'url': 'http://cndqf.cn'
+    - 'name': '架构于 Halo'
+      'url': 'https://halo.run'

@@ -1,20 +1,16 @@
-site:
-  name: "Frez79"
-  url: "https://re.frez79.io/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "CanNook\n            Can1425 互联网自留地"
-      url: "https://can1425.flowecho.org/"
-    - name: "FlowEcho Wave\n            FlowEcho 团队的公用文档/博客站点"
-      url: "https://flowecho.org/"
-    - name: "猪猪のBlog\n            system:error☭的个人综合性博客"
-      url: "https://blog.yizhixiaozhu.top"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "Waline"
-      url: "https://github.com/walinejs/waline"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Fluid"
-      url: "https://github.com/fluid-dev/hexo-theme-fluid"
+'site':
+  'name': 'Frez79'
+  'url': 'https://re.frez79.io/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': "CanNook\n            Can1425 互联网自留地"
+      'url': 'https://can1425.flowecho.org/'
+    - 'name': "FlowEcho Wave
+
+        \            FlowEcho 团队的公用文档/博客站点"
+      'url': 'https://flowecho.org/'
+    - 'name': "猪猪のBlog
+
+        \            system:error☭的个人综合性博客"
+      'url': 'https://blog.yizhixiaozhu.top'

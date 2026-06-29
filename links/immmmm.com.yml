@@ -1,88 +1,44 @@
-site:
-  name: "林木木"
-  url: "https://immmmm.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "木木木木木"
-      url: "https://immmmm.com"
-    - name: "导航"
-      url: "https://edui123.com/"
-    - name: "二〇二六，你好"
-      url: "https://immmmm.com/hi-2026/"
-    - name: "日常"
-      url: "https://immmmm.com/tags/%E6%97%A5%E5%B8%B8/"
-    - name: "Lucky-canvas 抽奖插件折腾记"
-      url: "https://immmmm.com/lucky-everday/"
-    - name: "折腾"
-      url: "https://immmmm.com/tags/%E6%8A%98%E8%85%BE/"
-    - name: "沉迷 “吉卜力” 中……"
-      url: "https://immmmm.com/ghiblio-enjoy/"
-    - name: "懒到现在才安上肥羊 allinone"
-      url: "https://immmmm.com/iptv-fixed/"
-    - name: "港珠澳大家庭游，难得"
-      url: "https://immmmm.com/hkzm-2025/"
-    - name: "当 ai 开始互相写信"
-      url: "https://dongjunke.cn/posts/2026/06/28/11833.html"
-    - name: "学校定了来租房"
-      url: "https://fxpai.com/article/xuexiaodinglelaizufang"
-    - name: "岐阜下吕温泉"
-      url: "https://shuiba.co/gero-onsen"
-    - name: "AI 写会议纪要的挑战"
-      url: "https://fxpai.com/article/aixiehuiyijiyaodetiaozhan"
-    - name: "孩子小升初的事情尘埃落定"
-      url: "https://fxpai.com/article/haizichuzhongdeshiqingchenailuoding"
-    - name: "Nginx SSL 配置杂谈"
-      url: "https://kn007.net/topics/nginx-ssl-configuration-talk/"
-    - name: "洪绘动图发布：将视频转换为帧图或者 GIF 并且限制只有 5MB，APNG、WEBP 动图生成工具"
-      url: "https://blog.zhheo.com/p/9yuhxjpl.html"
-    - name: "头一次坐支线小飞机"
-      url: "https://fxpai.com/article/touyicizuozhixianxiaofeiji"
-    - name: "Telegram 群抽奖机器人，开源了！"
-      url: "https://laozhang.org/archives/4173.html"
-    - name: "请 柬"
-      url: "https://hin.cool/posts/yourwedding.html"
-    - name: "大美东北，来一次挺费腿"
-      url: "https://fxpai.com/article/dameidongbeilaiyicitingfeitui"
-    - name: "学习笔记 | 储存环在核物理中的应用"
-      url: "https://foolishfox.cn/posts/202606-storagering.html"
-    - name: "光荣入团"
-      url: "https://www.wanghao.me/guangrongrutuan.html"
-    - name: "去哈的高铁上拍到了沈阳大爷游野泳"
-      url: "https://fxpai.com/article/quhadegaotieshangpaidaolechenyangdayeyouyeyong"
-    - name: "学习笔记 | 储存环在核物理中的应用"
-      url: "https://www.foolishfox.cn/posts/202606-storagering.html"
-    - name: "建站十五年"
-      url: "https://bestcherish.com/9648.html"
-    - name: "关于新能源车续保的事情"
-      url: "https://fxpai.com/article/guanyuxinnengyuanchexubaodeshiqing"
-    - name: "百花山爬了 5 小时"
-      url: "https://fxpai.com/article/baihuashanpale5xiaoshi"
-    - name: "33 岁生日之淡路岛 + 布引香草园"
-      url: "https://shuiba.co/happy-33rd-birthday"
-    - name: "286、夏至"
-      url: "https://1900.live/286-xia-zhi/"
-    - name: "全美缉凶：本・拉登"
-      url: "https://movie.douban.com/subject/37219601/"
-    - name: "战・争"
-      url: "https://movie.douban.com/subject/36776989/"
-    - name: "棋士"
-      url: "https://movie.douban.com/subject/36449461/"
-    - name: "黑镜 第七季"
-      url: "https://movie.douban.com/subject/36653963/"
-    - name: "借命而生"
-      url: "https://movie.douban.com/subject/36217758/"
-    - name: "源代码"
-      url: "https://book.douban.com/subject/37212965/"
-    - name: "芯片简史"
-      url: "https://book.douban.com/subject/36357053/"
-    - name: "一往无前"
-      url: "https://book.douban.com/subject/35174681/"
-    - name: "认知驱动"
-      url: "https://book.douban.com/subject/35548280/"
-    - name: "认知觉醒（百万册精装纪念版）"
-      url: "https://book.douban.com/subject/36906244/"
-    - name: "Hugo"
-      url: "https://gohugo.io"
-    - name: "Panr"
-      url: "https://twitter.com/panr"
+'site':
+  'name': '林木木'
+  'url': 'https://immmmm.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '当 ai 开始互相写信'
+      'url': 'https://dongjunke.cn/posts/2026/06/28/11833.html'
+    - 'name': '学校定了来租房'
+      'url': 'https://fxpai.com/article/xuexiaodinglelaizufang'
+    - 'name': '岐阜下吕温泉'
+      'url': 'https://shuiba.co/gero-onsen'
+    - 'name': 'AI 写会议纪要的挑战'
+      'url': 'https://fxpai.com/article/aixiehuiyijiyaodetiaozhan'
+    - 'name': '孩子小升初的事情尘埃落定'
+      'url': 'https://fxpai.com/article/haizichuzhongdeshiqingchenailuoding'
+    - 'name': 'Nginx SSL 配置杂谈'
+      'url': 'https://kn007.net/topics/nginx-ssl-configuration-talk/'
+    - 'name': '头一次坐支线小飞机'
+      'url': 'https://fxpai.com/article/touyicizuozhixianxiaofeiji'
+    - 'name': 'Telegram 群抽奖机器人，开源了！'
+      'url': 'https://laozhang.org/archives/4173.html'
+    - 'name': '请 柬'
+      'url': 'https://hin.cool/posts/yourwedding.html'
+    - 'name': '大美东北，来一次挺费腿'
+      'url': 'https://fxpai.com/article/dameidongbeilaiyicitingfeitui'
+    - 'name': '学习笔记 | 储存环在核物理中的应用'
+      'url': 'https://foolishfox.cn/posts/202606-storagering.html'
+    - 'name': '光荣入团'
+      'url': 'https://www.wanghao.me/guangrongrutuan.html'
+    - 'name': '去哈的高铁上拍到了沈阳大爷游野泳'
+      'url': 'https://fxpai.com/article/quhadegaotieshangpaidaolechenyangdayeyouyeyong'
+    - 'name': '学习笔记 | 储存环在核物理中的应用'
+      'url': 'https://www.foolishfox.cn/posts/202606-storagering.html'
+    - 'name': '建站十五年'
+      'url': 'https://bestcherish.com/9648.html'
+    - 'name': '关于新能源车续保的事情'
+      'url': 'https://fxpai.com/article/guanyuxinnengyuanchexubaodeshiqing'
+    - 'name': '百花山爬了 5 小时'
+      'url': 'https://fxpai.com/article/baihuashanpale5xiaoshi'
+    - 'name': '33 岁生日之淡路岛 + 布引香草园'
+      'url': 'https://shuiba.co/happy-33rd-birthday'
+    - 'name': '286、夏至'
+      'url': 'https://1900.live/286-xia-zhi/'

@@ -1,144 +1,130 @@
-site:
-  name: "blhorizon.github.io"
-  description: "友情链接"
-  url: "https://blhorizon.github.io/"
-  links: "/link"
-  friends:
-    - name: "萌傀儡の日记"
-      url: "https://daily.jitm.link/"
-    - name: "Snavigation"
-      url: "https://snavigation.japan-sb.top/"
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com/"
-    - name: "Fomalhaut"
-      url: "https://www.fomal.cc/"
-    - name: "陌颜Hao"
-      url: "https://blog.imoyan.top/"
-    - name: "铭心石刻"
-      url: "https://blog.kouseki.cn/"
-    - name: "Ading阿定の小站"
-      url: "https://blog.saop.cc/"
-    - name: "小植の小破站"
-      url: "https://blog.xiaoztx.top"
-    - name: "胡桃木实验室"
-      url: "https://www.htmacg.cn/"
-    - name: "JayHrn"
-      url: "https://blog.lvhrn.cn"
-    - name: "爱吃肉的猫"
-      url: "https://meuicat.com/"
-    - name: "Ganzhe"
-      url: "https://ganzhe2028.github.io"
-    - name: "别亦难"
-      url: "https://lazyingman.cn/"
-    - name: "祈杰博客"
-      url: "https://qijieya.cn/"
-    - name: "朝而往"
-      url: "https://muerg.cn/"
-    - name: "大海看看"
-      url: "https://www.dhkk.cn"
-    - name: "echeverra"
-      url: "https://echeverra.cn"
-    - name: "小码同学"
-      url: "https://blog.hikki.site"
-    - name: "绯鞠的博客"
-      url: "https://loli.fj.cn"
-    - name: "怕冷爱上雪"
-      url: "https://blog.4t.pw/"
-    - name: "Leonus"
-      url: "https://blog.leonus.cn/"
-    - name: "Akilar の糖果屋"
-      url: "https://akilar.top/"
-    - name: "张洪 Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "Pupper记录学习、生活中的点点滴滴～"
-      url: "https://pupper.cn"
-    - name: "王貔貅日就月将，学有缉熙于光明"
-      url: "https://blog.wpixiu.cn/"
-    - name: "Mycpen这是一个有趣的博客"
-      url: "https://blog.cpen.top/"
-    - name: "你好可爱山水一程，三生有幸✨"
-      url: "https://wjldarling.top/"
-    - name: "Mxne学如逆水行舟，不进则退。"
-      url: "https://blog.mxne.cn/"
-    - name: "Kevinwu喜欢，就去追。"
-      url: "https://blog.fiveth.cc/"
-    - name: "困困鱼喜欢捣鼓的博主"
-      url: "https://moony.la/"
-    - name: "Haoyu 的博客恭喜，你发现了宝藏"
-      url: "https://g-haoyu.top/"
-    - name: "Nuyoah以梦为马，不负韶华"
-      url: "https://262259.xyz/"
-    - name: "半方池水半方田只能懂一点点"
-      url: "https://uuanqin.top/"
-    - name: "wslll blog学习技术、分享生活"
-      url: "http://blog.wslll.cn/"
-    - name: "特资啦！个人资源分享站专注于分享个人资源和教学教程"
-      url: "https://www.tezilaw.com"
-    - name: "二猫 blog一个简单的 Blog 站点"
-      url: "https://jingxin18.cn"
-    - name: "Echo 的小窝漂泊于互联中的一个小窝"
-      url: "https://www.liveout.cn/"
-    - name: "Ethan.Tzy古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志"
-      url: "https://fe32.top/"
-    - name: "咬一口激动的鱼风带来了故事的种子，时间使之发芽"
-      url: "https://blog.jiyu134.top/"
-    - name: "包子哟一个练习 Bug 时长两年半的程序员建立的小站"
-      url: "https://blog.bugjava.cn"
-    - name: "张时贰环转码，爱敲代码的小张！"
-      url: "https://zhsher.cn"
-    - name: "青桔气球分享网络安全与科技生活"
-      url: "https://blog.qjqq.cn/"
-    - name: "懒觉猫先生睡觉睡觉，睡觉睡觉，喵喵"
-      url: "https://blog.luoaicheng.cn/"
-    - name: "Qeem阿巴阿巴…."
-      url: "https://itstarqeem.space"
-    - name: "夏夜小鹿夏夜小鹿，是夏，也是露"
-      url: "https://xiayexiaolu.top/"
-    - name: "冰梦未来可期，人间值得。"
-      url: "https://hcer.top/"
-    - name: "好摄之徒欢迎一起学习摄影"
-      url: "https://www.mz521.cn"
-    - name: "Aegcbx九月露湿，待君之前"
-      url: "https://uu.sssu.us/"
-    - name: "DaleWir müssen wissen ! Wir werden wissen !"
-      url: "https://www.dalechu.life/"
-    - name: "南方嘉木不畏将来，不念过往。"
-      url: "https://gavin-chen.top/"
-    - name: "Teacher Du师者，传道，授业，解惑！"
-      url: "https://dusays.com/"
-    - name: "LanYun の BlogShare Technology."
-      url: "https://lanyundev.com/"
-    - name: "有余 life村里唯一的希望"
-      url: "https://dongping.link"
-    - name: "核桃的炼金工坊愿你慷慨的付出，也坦然的接受。"
-      url: "https://twistoy.cn/"
-    - name: "寒烟志半山腰总是挤的，你得去山顶看看"
-      url: "https://yanyuplus.cn/"
-    - name: "GanSer紫箫吟断，素笺恨切"
-      url: "https://www.gan1ser.top/"
-    - name: "未知之旅在未知中成长，超越自我"
-      url: "https://blog.xenosp.cn/"
-    - name: "清扬的旅途我坚信，点点萤火，终会带来满天星空"
-      url: "https://blog.tgfmc.top/"
-    - name: "呆鱼Hello World！"
-      url: "https://daiyu.fun/"
-    - name: "虹色轨迹🌠做一颗星星，有棱有角，黑暗中闪闪发光🍭🍭🍭"
-      url: "https://dil.illlli.com"
-    - name: "慕楠椿你是捉摸不透的黑盒，是我穷尽一生也想要探寻的奥秘。"
-      url: "https://munanchun.com/"
-    - name: "whycf星光不问赶路人，时光不负有心人～"
-      url: "https://whycf.top/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "博客框架为Hexo_v5.4.0"
-      url: "https://hexo.io/"
-    - name: "本站采用多线部署，主线路托管于Vercel"
-      url: "https://vercel.com/"
-    - name: "本站数据分析得益于51la技术支持"
-      url: "https://user.51.la/"
-    - name: "本站已加入萌ICP豪华套餐，萌ICP备20230285号"
-      url: "https://icp.gov.moe/?keyword=20230285"
-    - name: "本站项目由Github托管"
-      url: "https://github.com/"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+'site':
+  'name': 'blhorizon.github.io'
+  'description': '友情链接'
+  'url': 'https://blhorizon.github.io/'
+  'links': '/link'
+  'friends':
+    - 'name': '萌傀儡の日记'
+      'url': 'https://daily.jitm.link/'
+    - 'name': 'Snavigation'
+      'url': 'https://snavigation.japan-sb.top/'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': 'Fomalhaut'
+      'url': 'https://www.fomal.cc/'
+    - 'name': '陌颜Hao'
+      'url': 'https://blog.imoyan.top/'
+    - 'name': '铭心石刻'
+      'url': 'https://blog.kouseki.cn/'
+    - 'name': 'Ading阿定の小站'
+      'url': 'https://blog.saop.cc/'
+    - 'name': '小植の小破站'
+      'url': 'https://blog.xiaoztx.top'
+    - 'name': '胡桃木实验室'
+      'url': 'https://www.htmacg.cn/'
+    - 'name': 'JayHrn'
+      'url': 'https://blog.lvhrn.cn'
+    - 'name': '爱吃肉的猫'
+      'url': 'https://meuicat.com/'
+    - 'name': '别亦难'
+      'url': 'https://lazyingman.cn/'
+    - 'name': '祈杰博客'
+      'url': 'https://qijieya.cn/'
+    - 'name': '朝而往'
+      'url': 'https://muerg.cn/'
+    - 'name': '大海看看'
+      'url': 'https://www.dhkk.cn'
+    - 'name': 'echeverra'
+      'url': 'https://echeverra.cn'
+    - 'name': '小码同学'
+      'url': 'https://blog.hikki.site'
+    - 'name': '绯鞠的博客'
+      'url': 'https://loli.fj.cn'
+    - 'name': '怕冷爱上雪'
+      'url': 'https://blog.4t.pw/'
+    - 'name': 'Leonus'
+      'url': 'https://blog.leonus.cn/'
+    - 'name': 'Akilar の糖果屋'
+      'url': 'https://akilar.top/'
+    - 'name': '张洪 Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Pupper记录学习、生活中的点点滴滴～'
+      'url': 'https://pupper.cn'
+    - 'name': '王貔貅日就月将，学有缉熙于光明'
+      'url': 'https://blog.wpixiu.cn/'
+    - 'name': 'Mycpen这是一个有趣的博客'
+      'url': 'https://blog.cpen.top/'
+    - 'name': '你好可爱山水一程，三生有幸✨'
+      'url': 'https://wjldarling.top/'
+    - 'name': 'Mxne学如逆水行舟，不进则退。'
+      'url': 'https://blog.mxne.cn/'
+    - 'name': 'Kevinwu喜欢，就去追。'
+      'url': 'https://blog.fiveth.cc/'
+    - 'name': '困困鱼喜欢捣鼓的博主'
+      'url': 'https://moony.la/'
+    - 'name': 'Haoyu 的博客恭喜，你发现了宝藏'
+      'url': 'https://g-haoyu.top/'
+    - 'name': 'Nuyoah以梦为马，不负韶华'
+      'url': 'https://262259.xyz/'
+    - 'name': '半方池水半方田只能懂一点点'
+      'url': 'https://uuanqin.top/'
+    - 'name': 'wslll blog学习技术、分享生活'
+      'url': 'http://blog.wslll.cn/'
+    - 'name': '特资啦！个人资源分享站专注于分享个人资源和教学教程'
+      'url': 'https://www.tezilaw.com'
+    - 'name': '二猫 blog一个简单的 Blog 站点'
+      'url': 'https://jingxin18.cn'
+    - 'name': 'Echo 的小窝漂泊于互联中的一个小窝'
+      'url': 'https://www.liveout.cn/'
+    - 'name': 'Ethan.Tzy古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志'
+      'url': 'https://fe32.top/'
+    - 'name': '咬一口激动的鱼风带来了故事的种子，时间使之发芽'
+      'url': 'https://blog.jiyu134.top/'
+    - 'name': '包子哟一个练习 Bug 时长两年半的程序员建立的小站'
+      'url': 'https://blog.bugjava.cn'
+    - 'name': '张时贰环转码，爱敲代码的小张！'
+      'url': 'https://zhsher.cn'
+    - 'name': '青桔气球分享网络安全与科技生活'
+      'url': 'https://blog.qjqq.cn/'
+    - 'name': '懒觉猫先生睡觉睡觉，睡觉睡觉，喵喵'
+      'url': 'https://blog.luoaicheng.cn/'
+    - 'name': 'Qeem阿巴阿巴….'
+      'url': 'https://itstarqeem.space'
+    - 'name': '夏夜小鹿夏夜小鹿，是夏，也是露'
+      'url': 'https://xiayexiaolu.top/'
+    - 'name': '冰梦未来可期，人间值得。'
+      'url': 'https://hcer.top/'
+    - 'name': '好摄之徒欢迎一起学习摄影'
+      'url': 'https://www.mz521.cn'
+    - 'name': 'Aegcbx九月露湿，待君之前'
+      'url': 'https://uu.sssu.us/'
+    - 'name': 'DaleWir müssen wissen ! Wir werden wissen !'
+      'url': 'https://www.dalechu.life/'
+    - 'name': '南方嘉木不畏将来，不念过往。'
+      'url': 'https://gavin-chen.top/'
+    - 'name': 'Teacher Du师者，传道，授业，解惑！'
+      'url': 'https://dusays.com/'
+    - 'name': 'LanYun の BlogShare Technology.'
+      'url': 'https://lanyundev.com/'
+    - 'name': '有余 life村里唯一的希望'
+      'url': 'https://dongping.link'
+    - 'name': '核桃的炼金工坊愿你慷慨的付出，也坦然的接受。'
+      'url': 'https://twistoy.cn/'
+    - 'name': '寒烟志半山腰总是挤的，你得去山顶看看'
+      'url': 'https://yanyuplus.cn/'
+    - 'name': 'GanSer紫箫吟断，素笺恨切'
+      'url': 'https://www.gan1ser.top/'
+    - 'name': '未知之旅在未知中成长，超越自我'
+      'url': 'https://blog.xenosp.cn/'
+    - 'name': '清扬的旅途我坚信，点点萤火，终会带来满天星空'
+      'url': 'https://blog.tgfmc.top/'
+    - 'name': '呆鱼Hello World！'
+      'url': 'https://daiyu.fun/'
+    - 'name': '虹色轨迹🌠做一颗星星，有棱有角，黑暗中闪闪发光🍭🍭🍭'
+      'url': 'https://dil.illlli.com'
+    - 'name': '慕楠椿你是捉摸不透的黑盒，是我穷尽一生也想要探寻的奥秘。'
+      'url': 'https://munanchun.com/'
+    - 'name': 'whycf星光不问赶路人，时光不负有心人～'
+      'url': 'https://whycf.top/'
+    - 'name': '博客框架为Hexo_v5.4.0'
+      'url': 'https://hexo.io/'

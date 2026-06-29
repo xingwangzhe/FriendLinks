@@ -1,64 +1,52 @@
-site:
-  name: "cakepanit.com"
-  description: "友情链接"
-  url: "https://cakepanit.com/"
-  links: "/link"
-  friends:
-    - name: "我的云盘"
-      url: "https://pan.cakepanit.com"
-    - name: "帮助文档"
-      url: "https://docs.cakepanit.com"
-    - name: "命令查询"
-      url: "https://cmd.cakepanit.com"
-    - name: "天才赤赤技术探索-分享-成长"
-      url: "https://www.geniustccc.cn/"
-    - name: "Eurkon不只是代码的搬运工"
-      url: "https://blog.eurkon.com"
-    - name: "yiyun全栈开发"
-      url: "https://moeci.com/"
-    - name: "二哈小窝苦酒折柳今相离 无风无月也无你"
-      url: "https://www.moeeh.cn/"
-    - name: "Akilarの糖果屋期待您的光临！"
-      url: "https://akilar.top/"
-    - name: "APP喵阿喵优质应用分享"
-      url: "https://www.appmiu.com/"
-    - name: "海拥一枚乐于分享技术与快乐的博主"
-      url: "https://haiyong.site"
-    - name: "杂烩饭运维、运维开发技术分享"
-      url: "https://zahui.fan"
-    - name: "小高导航资源类技术教程活动导航分类平台"
-      url: "https://www.dhw22.com/"
-    - name: "SimpleHac资源社想你所想，至你所及"
-      url: "https://store.simplehac.cn/"
-    - name: "华为开源镜像站构建万物互联的智能世界"
-      url: "https://mirrors.huaweicloud.com/"
-    - name: "阿里开源镜像站为了无法计算的价值"
-      url: "https://mirrors.aliyun.com/"
-    - name: "网易开源镜像站网聚人的力量"
-      url: "https://mirrors.163.com/"
-    - name: "搜狐开源镜像站上搜狐 知天下"
-      url: "https://mirrors.sohu.com/"
-    - name: "清华开源镜像站自强不息,厚德载物"
-      url: "https://mirrors.tuna.tsinghua.edu.cn/"
-    - name: "浙大开源镜像站兼总条贯,知至知终"
-      url: "https://mirrors.zju.edu.cn/"
-    - name: "中科大开源镜像站红专并进,理实交融"
-      url: "https://mirrors.ustc.edu.cn/"
-    - name: "兰大开源镜像站独树一帜,自强不息"
-      url: "https://mirror.lzu.edu.cn/"
-    - name: "alibabaCloud"
-      url: "https://www.aliyun.com/"
-    - name: "编程语言排名"
-      url: "https://www.tiobe.com/tiobe-index/"
-    - name: "虫洞十年之约"
-      url: "https://foreverblog.cn/go.html"
-    - name: "我的云盘"
-      url: "https://pan.cakepanit.com/"
-    - name: "命令查询"
-      url: "https://cmd.cakepanit.com/"
-    - name: "帮助文档"
-      url: "https://docs.cakepanit.com/"
-    - name: "皖ICP备2021005605号-1"
-      url: "https://beian.miit.gov.cn"
-    - name: "又拍云提供CDN加速"
-      url: "https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
+'site':
+  'name': 'cakepanit.com'
+  'description': '友情链接'
+  'url': 'https://cakepanit.com/'
+  'links': '/link'
+  'friends':
+    - 'name': '帮助文档'
+      'url': 'https://docs.cakepanit.com'
+    - 'name': '命令查询'
+      'url': 'https://cmd.cakepanit.com'
+    - 'name': '天才赤赤技术探索-分享-成长'
+      'url': 'https://www.geniustccc.cn/'
+    - 'name': 'Eurkon不只是代码的搬运工'
+      'url': 'https://blog.eurkon.com'
+    - 'name': 'yiyun全栈开发'
+      'url': 'https://moeci.com/'
+    - 'name': '二哈小窝苦酒折柳今相离 无风无月也无你'
+      'url': 'https://www.moeeh.cn/'
+    - 'name': 'Akilarの糖果屋期待您的光临！'
+      'url': 'https://akilar.top/'
+    - 'name': 'APP喵阿喵优质应用分享'
+      'url': 'https://www.appmiu.com/'
+    - 'name': '海拥一枚乐于分享技术与快乐的博主'
+      'url': 'https://haiyong.site'
+    - 'name': '杂烩饭运维、运维开发技术分享'
+      'url': 'https://zahui.fan'
+    - 'name': 'SimpleHac资源社想你所想，至你所及'
+      'url': 'https://store.simplehac.cn/'
+    - 'name': '华为开源镜像站构建万物互联的智能世界'
+      'url': 'https://mirrors.huaweicloud.com/'
+    - 'name': '阿里开源镜像站为了无法计算的价值'
+      'url': 'https://mirrors.aliyun.com/'
+    - 'name': '网易开源镜像站网聚人的力量'
+      'url': 'https://mirrors.163.com/'
+    - 'name': '搜狐开源镜像站上搜狐 知天下'
+      'url': 'https://mirrors.sohu.com/'
+    - 'name': '清华开源镜像站自强不息,厚德载物'
+      'url': 'https://mirrors.tuna.tsinghua.edu.cn/'
+    - 'name': '浙大开源镜像站兼总条贯,知至知终'
+      'url': 'https://mirrors.zju.edu.cn/'
+    - 'name': '中科大开源镜像站红专并进,理实交融'
+      'url': 'https://mirrors.ustc.edu.cn/'
+    - 'name': '兰大开源镜像站独树一帜,自强不息'
+      'url': 'https://mirror.lzu.edu.cn/'
+    - 'name': 'alibabaCloud'
+      'url': 'https://www.aliyun.com/'
+    - 'name': '编程语言排名'
+      'url': 'https://www.tiobe.com/tiobe-index/'
+    - 'name': '命令查询'
+      'url': 'https://cmd.cakepanit.com/'
+    - 'name': '帮助文档'
+      'url': 'https://docs.cakepanit.com/'

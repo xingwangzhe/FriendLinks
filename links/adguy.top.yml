@@ -1,44 +1,40 @@
-site:
-  name: "adguy.top"
-  description: "友情链接"
-  url: "https://adguy.top/"
-  links: "/link"
-  friends:
-    - name: "唐志远の博客 \n      古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。"
-      url: "https://tzy1997.com/"
-    - name: "paradoxskinの博客 \n      vim狂热爱好者，敲代码不加空格星人。"
-      url: "https://paradoxskin.github.io/"
-    - name: "跳岩企鹅の博客 \n      古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。"
-      url: "https://blog.csdn.net/m0_49708728?type=blog"
-    - name: "Here_SDUT \n      退役 ACMer・ML 炼丹入门学徒・准科研人的学习记录"
-      url: "https://fangkaipeng.com"
-    - name: "张洪Heo \n      分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "杜老师说 \n      杜老师说"
-      url: "https://dusays.com/"
-    - name: "Ariasakaの小窝 \n      人有悲欢离合 月有阴晴圆缺"
-      url: "https://yisous.xyz"
-    - name: "Yang's Harbor \n      Space of Tech, Love and Thought."
-      url: "https://discover304.top/"
-    - name: "小N同学 \n      青石落晚巷 故人未还乡"
-      url: "https://www.imcharon.com/"
-    - name: "爱编程的小明 \n      不要温和地走进那个良夜"
-      url: "https://blog.kobal.cn/"
-    - name: "Sianx's Blog \n      总之岁月漫长, 然而值得等待。"
-      url: "https://sianx.com"
-    - name: "Codeanime \n      🌸さくら荘 の 一只二刺猿"
-      url: "https://codeanime.cc/"
-    - name: "Twitter \n      社交分享平台"
-      url: "https://twitter.com/"
-    - name: "Github"
-      url: "https://github.com/ADguyCN990"
-    - name: "Stack Overflow"
-      url: "https://stackoverflow.com/users/19962319/user19962319"
-    - name: "Steam"
-      url: "https://steamcommunity.com/profiles/76561198413461498/"
-    - name: "Wechat"
-      url: "https://adguycn990-typoraimage.oss-cn-hangzhou.aliyuncs.com/202211231906439.webp"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
+'site':
+  'name': 'adguy.top'
+  'description': '友情链接'
+  'url': 'https://adguy.top/'
+  'links': '/link'
+  'friends':
+    - 'name': "唐志远の博客\ 
+
+        \      古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。"
+      'url': 'https://tzy1997.com/'
+    - 'name': "跳岩企鹅の博客\ 
+
+        \      古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。"
+      'url': 'https://blog.csdn.net/m0_49708728?type=blog'
+    - 'name': "Here_SDUT\ 
+
+        \      退役 ACMer・ML 炼丹入门学徒・准科研人的学习记录"
+      'url': 'https://fangkaipeng.com'
+    - 'name': "张洪Heo\ \n      分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "杜老师说\ \n      杜老师说"
+      'url': 'https://dusays.com/'
+    - 'name': "Ariasakaの小窝\ \n      人有悲欢离合 月有阴晴圆缺"
+      'url': 'https://yisous.xyz'
+    - 'name': "Yang's Harbor\ 
+
+        \      Space of Tech, Love and Thought."
+      'url': 'https://discover304.top/'
+    - 'name': "小N同学\ \n      青石落晚巷 故人未还乡"
+      'url': 'https://www.imcharon.com/'
+    - 'name': "爱编程的小明\ \n      不要温和地走进那个良夜"
+      'url': 'https://blog.kobal.cn/'
+    - 'name': "Sianx's Blog\ \n      总之岁月漫长, 然而值得等待。"
+      'url': 'https://sianx.com'
+    - 'name': "Codeanime\ \n      🌸さくら荘 の 一只二刺猿"
+      'url': 'https://codeanime.cc/'
+    - 'name': 'Stack Overflow'
+      'url': 'https://stackoverflow.com/users/19962319/user19962319'
+    - 'name': 'Steam'
+      'url': 'https://steamcommunity.com/profiles/76561198413461498/'

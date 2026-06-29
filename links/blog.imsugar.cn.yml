@@ -1,52 +1,26 @@
-site:
-  name: "blog.imsugar.cn"
-  description: "友情链接"
-  url: "https://blog.imsugar.cn/"
-  links: "/link"
-  friends:
-    - name: "博客"
-      url: "https://blog.imsugar.cn/"
-    - name: "夏目导航"
-      url: "https://nav.imsugar.cn/"
-    - name: "夏目· 短域名"
-      url: "https://short.imsugar.cn/"
-    - name: "Hexo"
-      url: "https://hexo.io/zh-tw/"
-    - name: "anzhiyu主题"
-      url: "https://blog.anheyu.com/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "小丑路人社区"
-      url: "https://bbs.cnpscy.com"
-    - name: "安知鱼生活明朗，万物可爱"
-      url: "https://blog.anheyu.com"
-    - name: "XiaoXing乾坤未定，你我皆黑马"
-      url: "https://www.hello-y.fun/"
-    - name: "https://imgs.imsugar.cn/img/imsugar.jpg"
-      url: "https://imgs.imsugar.cn/img/imsugar.jpg"
-    - name: "https://imgs.imsugar.cn/blog/20230801154617.jpg"
-      url: "https://imgs.imsugar.cn/blog/20230801154617.jpg"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "51la统计"
-      url: "https://v6.51.la/"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/"
-    - name: "开往"
-      url: "https://github.com/travellings-link/travellings"
-    - name: "文档"
-      url: "https://blog.anheyu.com/docs/"
-    - name: "源码"
-      url: "https://github.com/anzhiyu-c/hexo-theme-anzhiyu"
-    - name: "更新日志"
-      url: "https://blog.anheyu.com/update/"
-    - name: "博客框架为Hexo_v5.4.0"
-      url: "https://hexo.io/"
-    - name: "本站使用多吉云为静态资源提供CDN加速"
-      url: "https://www.dogecloud.com/"
-    - name: "本站项目由Github托管"
-      url: "https://github.com/"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "苏ICP备2021022649号-1"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'blog.imsugar.cn'
+  'description': '友情链接'
+  'url': 'https://blog.imsugar.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '夏目· 短域名'
+      'url': 'https://short.imsugar.cn/'
+    - 'name': 'anzhiyu主题'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '小丑路人社区'
+      'url': 'https://bbs.cnpscy.com'
+    - 'name': '安知鱼生活明朗，万物可爱'
+      'url': 'https://blog.anheyu.com'
+    - 'name': 'XiaoXing乾坤未定，你我皆黑马'
+      'url': 'https://www.hello-y.fun/'
+    - 'name': '51la统计'
+      'url': 'https://v6.51.la/'
+    - 'name': '文档'
+      'url': 'https://blog.anheyu.com/docs/'
+    - 'name': '更新日志'
+      'url': 'https://blog.anheyu.com/update/'
+    - 'name': '博客框架为Hexo_v5.4.0'
+      'url': 'https://hexo.io/'

@@ -1,78 +1,58 @@
-site:
-  name: "茗辰原"
-  url: "https://mingcy.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "茗辰原 の 异世界(老站点) 茗辰原，一个与众不同的异世界，等待你的探索与发现。"
-      url: "https://not.mcy.cloudns.org/"
-    - name: "茗辰原 茶香四溢,编程世界"
-      url: "https://mingcy.cn"
-    - name: "清羽飞扬 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
-      url: "https://blog.liushen.fun/"
-    - name: "张洪 Heo 分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Mr. Nyampasu 分享、学习、生活"
-      url: "https://blog.mpsxx.top/"
-    - name: "周天记 记录生活里的小美好"
-      url: "https://zhoutian.com/"
-    - name: "云萧的咕咕屋 以万象之不息，致不息之万象。"
-      url: "https://blog.crrashh.com"
-    - name: "echeverra let's go, together!"
-      url: "https://echeverra.cn"
-    - name: "叶泯希 意义是自己赐予的"
-      url: "https://blog.418121.xyz"
-    - name: "紗夕里 在你心里-直到永远"
-      url: "https://blog.ovofish.com"
-    - name: "青桔气球 分享网络安全与科技生活"
-      url: "https://blog.qjqq.cn/"
-    - name: "夏柔 APi 提供免费接口调用平台"
-      url: "https://api.aa1.cn/link/"
-    - name: "梦爱吃鱼 但愿日子清静抬头遇见的满是柔情"
-      url: "https://blog.bsgun.cn/"
-    - name: "BOB'S BLOG 数据采集、逆向安全"
-      url: "https://www.itbob.cn/"
-    - name: "Mo的记事簿 万年鸽王，哈哈OvO"
-      url: "https://blog.xiowo.net/"
-    - name: "XingJiのBlog 迄今所有人生都大写着失败，但不妨碍我继续向前✨"
-      url: "https://love.xingji.fun/"
-    - name: "leorain 一个对技术和生活充满热爱的文艺型技术青年"
-      url: "https://www.leorain.cn"
-    - name: "Wcowin's Blog 循此苦旅，以达星辰"
-      url: "https://wcowin.work/"
-    - name: "LinJHS个人小站 分享网络安全技术、资讯、生活"
-      url: "https://linjhs.com"
-    - name: "唯知笔记 探索知识的无限可能"
-      url: "https://note.weizwz.com"
-    - name: "程序员鸡皮 一名北漂程序员编程学习以及日常的博客"
-      url: "https://www.xvzhu.cn"
-    - name: "冷月笙寒的小窝 发现巷子里的那颗星星(技术与生活分享)"
-      url: "https://lygalaxy.cn/"
-    - name: "Jack's Space"
-      url: "https://veryjack.com"
-    - name: "云墨观窗"
-      url: "https://mojue88.com/"
-    - name: "烛·夜 用心分享每一个资源"
-      url: "https://link3.cc/ys520"
-    - name: "果核剥壳 果核剥壳是一家综合科技站点，看新闻，分享精品、绿色软件，Windows 系统。守住互联网最后的一片净土。"
-      url: "https://www.ghxi.com"
-    - name: "小众软件 小众软件是一个分享、体验、评测电脑软件、手机应用、互联网产品的网站"
-      url: "https://www.appinn.com/"
-    - name: "酷安 酷安是全球应用商店，提供各种应用、游戏、主题、漫画、音乐、视频、直播等。"
-      url: "https://coolapk.com/"
-    - name: "笔墨迹 致敬还在写博客的我们！"
-      url: "https://blogscn.fun"
-    - name: "博友圈 博客人的朋友圈，博客收录与文章 RSS 聚合网站。"
-      url: "https://www.boyouquan.com/home"
-    - name: "博客录（boke.lu） boke.lu · 博客收录展示平台~"
-      url: "https://boke.lu"
-    - name: "拾趣博客导航 捡拾文字里的小乐趣！"
-      url: "https://s7.fan/"
-    - name: "好站网 发现好站、展示好站"
-      url: "https://haozhan.wang"
-    - name: "茗辰原 on GitHub"
-      url: "https://github.com/rumian0"
-    - name: "茗辰原 on X"
-      url: "https://x.com/mingcy070329"
-    - name: "茗辰原 on LinkedIn"
-      url: "https://www.linkedin.com/"
+'site':
+  'name': '茗辰原'
+  'url': 'https://mingcy.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '茗辰原 の 异世界(老站点) 茗辰原，一个与众不同的异世界，等待你的探索与发现。'
+      'url': 'https://not.mcy.cloudns.org/'
+    - 'name': '清羽飞扬 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜'
+      'url': 'https://blog.liushen.fun/'
+    - 'name': '张洪 Heo 分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Mr. Nyampasu 分享、学习、生活'
+      'url': 'https://blog.mpsxx.top/'
+    - 'name': '周天记 记录生活里的小美好'
+      'url': 'https://zhoutian.com/'
+    - 'name': '云萧的咕咕屋 以万象之不息，致不息之万象。'
+      'url': 'https://blog.crrashh.com'
+    - 'name': 'echeverra let''s go, together!'
+      'url': 'https://echeverra.cn'
+    - 'name': '叶泯希 意义是自己赐予的'
+      'url': 'https://blog.418121.xyz'
+    - 'name': '紗夕里 在你心里-直到永远'
+      'url': 'https://blog.ovofish.com'
+    - 'name': '青桔气球 分享网络安全与科技生活'
+      'url': 'https://blog.qjqq.cn/'
+    - 'name': '梦爱吃鱼 但愿日子清静抬头遇见的满是柔情'
+      'url': 'https://blog.bsgun.cn/'
+    - 'name': 'BOB''S BLOG 数据采集、逆向安全'
+      'url': 'https://www.itbob.cn/'
+    - 'name': 'Mo的记事簿 万年鸽王，哈哈OvO'
+      'url': 'https://blog.xiowo.net/'
+    - 'name': 'XingJiのBlog 迄今所有人生都大写着失败，但不妨碍我继续向前✨'
+      'url': 'https://love.xingji.fun/'
+    - 'name': 'leorain 一个对技术和生活充满热爱的文艺型技术青年'
+      'url': 'https://www.leorain.cn'
+    - 'name': 'Wcowin''s Blog 循此苦旅，以达星辰'
+      'url': 'https://wcowin.work/'
+    - 'name': 'LinJHS个人小站 分享网络安全技术、资讯、生活'
+      'url': 'https://linjhs.com'
+    - 'name': '唯知笔记 探索知识的无限可能'
+      'url': 'https://note.weizwz.com'
+    - 'name': '程序员鸡皮 一名北漂程序员编程学习以及日常的博客'
+      'url': 'https://www.xvzhu.cn'
+    - 'name': '冷月笙寒的小窝 发现巷子里的那颗星星(技术与生活分享)'
+      'url': 'https://lygalaxy.cn/'
+    - 'name': 'Jack''s Space'
+      'url': 'https://veryjack.com'
+    - 'name': '云墨观窗'
+      'url': 'https://mojue88.com/'
+    - 'name': '烛·夜 用心分享每一个资源'
+      'url': 'https://link3.cc/ys520'
+    - 'name': '果核剥壳 果核剥壳是一家综合科技站点，看新闻，分享精品、绿色软件，Windows 系统。守住互联网最后的一片净土。'
+      'url': 'https://www.ghxi.com'
+    - 'name': '小众软件 小众软件是一个分享、体验、评测电脑软件、手机应用、互联网产品的网站'
+      'url': 'https://www.appinn.com/'
+    - 'name': '酷安 酷安是全球应用商店，提供各种应用、游戏、主题、漫画、音乐、视频、直播等。'
+      'url': 'https://coolapk.com/'

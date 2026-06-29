@@ -1,72 +1,70 @@
-site:
-  name: "luo16-miku.github.io"
-  description: "友情链接"
-  url: "https://luo16-miku.github.io/"
-  links: "/link"
-  friends:
-    - name: "Hexo \n      快速、简单且强大的网誌框架"
-      url: "https://hexo.io/zh-tw/"
-    - name: "安知鱼`Blog \n      生活明朗，万物可爱"
-      url: "https://anzhiy.cn/"
-    - name: "Butterfly \n      A Simple and Card UI Design theme for Hexo"
-      url: "https://butterfly.js.org/"
-    - name: "Akilarの糖果屋 \n      期待您的光临！"
-      url: "https://akilar.top/"
-    - name: "张洪Heo \n      分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "海拥 \n      一个乐于分享技术与快乐的博主"
-      url: "https://haiyong.site"
-    - name: "韩顺平 \n      毕业于清华大学, 喜欢编程，喜欢讲课。"
-      url: "https://space.bilibili.com/651245581"
-    - name: "程序员鱼皮 \n      大厂全栈开发，用编程做点有趣的事~"
-      url: "https://space.bilibili.com/12890453?spm_id_from=333.337.0.0"
-    - name: "奔跑中的奶酪 \n      崇尚科技和高效，网站致力于个人提升和价值分享。"
-      url: "https://www.runningcheese.com"
-    - name: "Jayhrn \n      念念不忘，必有回响"
-      url: "https://blog.jayhrn.com"
-    - name: "Xlenco \n      最好的地方,是没去过的地方。最好的时光，是回不来的时光。"
-      url: "https://xlenco.eu.org"
-    - name: "Mashiro \n      樱花庄的白猫"
-      url: "https://2heng.xin"
-    - name: "随风起 \n      爱意随风起，风止意难平"
-      url: "https://blog.bywind.xyz/"
-    - name: "小冰博客 \n      做个有梦想的人！"
-      url: "https://zfe.one"
-    - name: "葱苓小居 \n      Dare && Do"
-      url: "https://ciraos.top"
-    - name: "轻笑Chuckle \n      宁静致远,倾尘轻笑"
-      url: "https://www.chuckle.top"
-    - name: "小N同学 \n      青石落晚巷 故人未还乡"
-      url: "https://www.imcharon.com/"
-    - name: "VAE+ \n      人与人之间，最舒服的关系；是可以一直不说话，也可以随时说话。"
-      url: "https://www.zhangweicheng.xyz/"
-    - name: "ichika \n      Hello,gamer!"
-      url: "https://ichika.cc"
-    - name: "Eurkon \n      不只是代码的搬运工"
-      url: "https://blog.eurkon.com"
-    - name: "丘卡饮品店 \n      要来点喝的吗？"
-      url: "https://blog.zerolacqua.top"
-    - name: "子辰辰 \n      一个渗透测试在学的小菜鸡"
-      url: "https://www.xiaozhuzi.xyz/"
-    - name: "呆鱼 \n      命运之所以称为命运，正是因为它无可改变。"
-      url: "https://daiyu-233.top/"
-    - name: "匹诺草 \n      老匹嘿嘿嘿"
-      url: "https://blog.pinochio.cf"
-    - name: "金鳞星溅的个人博客 \n      Hello world 交个朋友吧"
-      url: "https://jinlinxingjian.top/"
-    - name: "Aegcbx \n      欢迎光临异次元"
-      url: "https://uu.sssu.us"
-    - name: "Cisyam \n      分享思想，留下痕迹"
-      url: "https://manamn.space/"
-    - name: "吮指原味姬 \n      无论什么时候，都不要后悔"
-      url: "https://www.yjtblok.top/"
-    - name: "九九九感冒绫 \n      这是我的梦想,我会慢慢的完成它"
-      url: "https://miku-39.love/"
-    - name: "我梦想的序曲 \n      努力永远都是有用的 ☬ 最起码可以脱贫奔小康"
-      url: "https://luo16_miku.gitee.io/miku01/index.html"
-    - name: "Github(目前只有博客(小声bb))"
-      url: "https://github.com/Luo16-MIKU/"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
+'site':
+  'name': 'luo16-miku.github.io'
+  'description': '友情链接'
+  'url': 'https://luo16-miku.github.io/'
+  'links': '/link'
+  'friends':
+    - 'name': "Hexo\ \n      快速、简单且强大的网誌框架"
+      'url': 'https://hexo.io/zh-tw/'
+    - 'name': "安知鱼`Blog\ \n      生活明朗，万物可爱"
+      'url': 'https://anzhiy.cn/'
+    - 'name': "Butterfly\ 
+
+        \      A Simple and Card UI Design theme for Hexo"
+      'url': 'https://butterfly.js.org/'
+    - 'name': "Akilarの糖果屋\ \n      期待您的光临！"
+      'url': 'https://akilar.top/'
+    - 'name': "张洪Heo\ \n      分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "海拥\ \n      一个乐于分享技术与快乐的博主"
+      'url': 'https://haiyong.site'
+    - 'name': "奔跑中的奶酪\ 
+
+        \      崇尚科技和高效，网站致力于个人提升和价值分享。"
+      'url': 'https://www.runningcheese.com'
+    - 'name': "Jayhrn\ \n      念念不忘，必有回响"
+      'url': 'https://blog.jayhrn.com'
+    - 'name': "Xlenco\ 
+
+        \      最好的地方,是没去过的地方。最好的时光，是回不来的时光。"
+      'url': 'https://xlenco.eu.org'
+    - 'name': "Mashiro\ \n      樱花庄的白猫"
+      'url': 'https://2heng.xin'
+    - 'name': "随风起\ \n      爱意随风起，风止意难平"
+      'url': 'https://blog.bywind.xyz/'
+    - 'name': "小冰博客\ \n      做个有梦想的人！"
+      'url': 'https://zfe.one'
+    - 'name': "葱苓小居\ \n      Dare && Do"
+      'url': 'https://ciraos.top'
+    - 'name': "轻笑Chuckle\ \n      宁静致远,倾尘轻笑"
+      'url': 'https://www.chuckle.top'
+    - 'name': "小N同学\ \n      青石落晚巷 故人未还乡"
+      'url': 'https://www.imcharon.com/'
+    - 'name': "VAE+\ 
+
+        \      人与人之间，最舒服的关系；是可以一直不说话，也可以随时说话。"
+      'url': 'https://www.zhangweicheng.xyz/'
+    - 'name': "ichika\ \n      Hello,gamer!"
+      'url': 'https://ichika.cc'
+    - 'name': "Eurkon\ \n      不只是代码的搬运工"
+      'url': 'https://blog.eurkon.com'
+    - 'name': "丘卡饮品店\ \n      要来点喝的吗？"
+      'url': 'https://blog.zerolacqua.top'
+    - 'name': "子辰辰\ \n      一个渗透测试在学的小菜鸡"
+      'url': 'https://www.xiaozhuzi.xyz/'
+    - 'name': "呆鱼\ \n      命运之所以称为命运，正是因为它无可改变。"
+      'url': 'https://daiyu-233.top/'
+    - 'name': "匹诺草\ \n      老匹嘿嘿嘿"
+      'url': 'https://blog.pinochio.cf'
+    - 'name': "金鳞星溅的个人博客\ \n      Hello world 交个朋友吧"
+      'url': 'https://jinlinxingjian.top/'
+    - 'name': "Aegcbx\ \n      欢迎光临异次元"
+      'url': 'https://uu.sssu.us'
+    - 'name': "Cisyam\ \n      分享思想，留下痕迹"
+      'url': 'https://manamn.space/'
+    - 'name': "吮指原味姬\ \n      无论什么时候，都不要后悔"
+      'url': 'https://www.yjtblok.top/'
+    - 'name': "九九九感冒绫\ \n      这是我的梦想,我会慢慢的完成它"
+      'url': 'https://miku-39.love/'
+    - 'name': "我梦想的序曲\ \n      努力永远都是有用的 ☬ 最起码可以脱贫奔小康"
+      'url': 'https://luo16_miku.gitee.io/miku01/index.html'

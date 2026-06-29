@@ -1,112 +1,84 @@
-site:
-  name: "bili33.top"
-  description: "友情链接"
-  url: "https://bili33.top/"
-  links: "/link"
-  friends:
-    - name: "Moments"
-      url: "https://moment.bili33.top/"
-    - name: "Legacy (Desperated)"
-      url: "https://legacy.bili33.top/"
-    - name: "https://bili33.top"
-      url: "https://bili33.top"
-    - name: "https://assets.bili33.top/img/AboutMe/logo-mini.png"
-      url: "https://assets.bili33.top/img/AboutMe/logo-mini.png"
-    - name: "天然呆"
-      url: "https://zh.moegirl.org/%E5%A4%A9%E7%84%B6%E5%91%86"
-    - name: "Mili - world.execute(me);"
-      url: "https://music.163.com/#/song?id=435278010"
-    - name: "哔哩CDN ↗  https://cdn.bili33.top/ CDN 小帮手"
-      url: "https://cdn.bili33.top/"
-    - name: "个人脚本库 ↗  https://git.bili33.top 脚本备份"
-      url: "https://git.bili33.top"
-    - name: "CTF 知识库 ↗  https://knowledge.bili33.top 个人知识库"
-      url: "https://knowledge.bili33.top"
-    - name: "CloudFlare ↗  https://www.cloudflare.com/ 免费的域名托管平台"
-      url: "https://www.cloudflare.com/"
-    - name: "Github ↗  https://www.github.com/ 全球最大的代码仓库"
-      url: "https://www.github.com/"
-    - name: "Leancloud ↗  https://leancloud.app/ 评论系统的后端，用的国际版"
-      url: "https://leancloud.app/"
-    - name: "hojun ↗  https://www.hojun.cn 一个好奇的博客"
-      url: "https://www.hojun.cn"
-    - name: "童年如作业的博客 ↗  https://tnrzy.github.io tnrzy’s blog"
-      url: "https://tnrzy.github.io"
-    - name: "HCLonely ↗  https://blog.hclonely.com/ 一个懒人的博客"
-      url: "https://blog.hclonely.com/"
-    - name: "ruogu ↗  https://ruogu-alter.github.io/ 一个蒟蒻"
-      url: "https://ruogu-alter.github.io/"
-    - name: "我本纯真的小破站 ↗  https://wbczblog.postach.io/ emmm,说点啥好呢"
-      url: "https://wbczblog.postach.io/"
-    - name: "HE-SB-技术栈 ↗  https://tech.he-sb.top/ 阻碍进步的不是无知，是傲慢"
-      url: "https://tech.he-sb.top/"
-    - name: "初辰の博客 ↗  https://chuchendjs.github.io 成功是努力的另一个名字！^V^"
-      url: "https://chuchendjs.github.io"
-    - name: "阿楠 ↗  https://nanzx.top 百学须先立志"
-      url: "https://nanzx.top"
-    - name: "I Am I ↗  https://5ime.cn 永远相信美好的事情即将发生"
-      url: "https://5ime.cn"
-    - name: "萌茶屋 ↗  https://cha.moe 用心写出最可爱的东西"
-      url: "https://cha.moe"
-    - name: "Yw ↗  https://yww52.com/ 永远相信美好的事情即将发生"
-      url: "https://yww52.com/"
-    - name: "抵到烂 ↗  https://www.didaolan.cn/ 一个老前端的故事"
-      url: "https://www.didaolan.cn/"
-    - name: "xwcker ↗  https://www.hack-gov.com.cn/ 海客GO - 爱牟 听着海客的瀛谈"
-      url: "https://www.hack-gov.com.cn/"
-    - name: "贰猹的小窝 ↗  https://noionion.top/ 用这生命中的每一秒，给自己一个不后悔的未来"
-      url: "https://noionion.top/"
-    - name: "孤影墨香 ↗  https://www.gymxbl.com/ 温暖的灵魂终将相遇"
-      url: "https://www.gymxbl.com/"
-    - name: "ControlNet ↗  https://controlnet.space 永远13岁~"
-      url: "https://controlnet.space"
-    - name: "YuZhangWang的领域 ↗  https://www.yuzhang.wang 两岸猿声啼不住 轻舟已过万重山"
-      url: "https://www.yuzhang.wang"
-    - name: "ZhaoQuinn's Blog ↗  https://zhaoq.me 热爱科技，热爱生活."
-      url: "https://zhaoq.me"
-    - name: "一生雾梦の博客 ↗  https://yswm-m.github.io 若一心追逐北极星,所经路线便能成为地图"
-      url: "https://yswm-m.github.io"
-    - name: "yiyun's Blog ↗  https://moeci.com The stupid one is me"
-      url: "https://moeci.com"
-    - name: "萌 (//∇//) 贴士 ↗  https://moe.tips 愿你把酒执剑，归来仍是少年"
-      url: "https://moe.tips"
-    - name: "小城寒风 ↗  https://blog.atago.moe 驻足现实，仰望星空，率性而活"
-      url: "https://blog.atago.moe"
-    - name: "宿心·心灵归宿 ↗  https://ayya.top 在【宿心】只愿每个人都能找到自己心灵的归宿"
-      url: "https://ayya.top"
-    - name: "PeterJXL ↗  https://www.peterjxl.com 从 01 开始"
-      url: "https://www.peterjxl.com"
-    - name: "Sualiu's Note ↗  https://www.rmoe.top 永远就是没有尽头，跟天空一样，看不到尽头。"
-      url: "https://www.rmoe.top"
-    - name: "CZY ↗  https://iamczy.com 这个友链还没有填写描述。"
-      url: "https://iamczy.com"
-    - name: "Xingcy ↗  https://xingcy08.github.io 永远相信美好的事情即将发生"
-      url: "https://xingcy08.github.io"
-    - name: "s1rius' blog ↗  https://s1rius.space/ 这里有网络安全和其他技术文章"
-      url: "https://s1rius.space/"
-    - name: "yuleng的天地 ↗  http://www.yuleng.top 欢迎来到yuleng的天地！"
-      url: "http://www.yuleng.top"
-    - name: "Soulxyzの日常 ↗  https://blog.soulxyz.top/ 不要让时代的悲哀 成为你的悲哀"
-      url: "https://blog.soulxyz.top/"
-    - name: "時雨てる的 Blog ↗  https://keqing.moe 心有所向，日复一日，必有精进"
-      url: "https://keqing.moe"
-    - name: "雪碧 ↗  https://blog.rimuruchan.tech 只喝可乐"
-      url: "https://blog.rimuruchan.tech"
-    - name: "Ron#1337 ↗  https://blog.zzpeng.com 某不知名脚本小子"
-      url: "https://blog.zzpeng.com"
-    - name: "Rusty ↗  https://blog.rusty1e.top/ Search Engines Enjoyer"
-      url: "https://blog.rusty1e.top/"
-    - name: "unknown ↗  https://unk.org.cn/ 这个友链还没有填写描述。"
-      url: "https://unk.org.cn/"
-    - name: "Phrinky ↗  https://blog.rkk.moe/ 可燃性物質です。"
-      url: "https://blog.rkk.moe/"
-    - name: "Hill ↗  https://blog.hill-q.com/ Just Forward"
-      url: "https://blog.hill-q.com/"
-    - name: "焦茶咖啡厅 ↗  https://tea.keqing.moe 来和焦茶染香喝杯奶茶吗？"
-      url: "https://tea.keqing.moe"
-    - name: "GamerNoTitle"
-      url: "https://github.com/GamerNoTitle"
-    - name: "CC BY-NC-SA 4.0"
-      url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "萌 ICP 备 20213338 号"
-      url: "https://icp.gov.moe/?keyword=20213338"
+'site':
+  'name': 'bili33.top'
+  'description': '友情链接'
+  'url': 'https://bili33.top/'
+  'links': '/link'
+  'friends':
+    - 'name': 'Moments'
+      'url': 'https://moment.bili33.top/'
+    - 'name': 'Legacy (Desperated)'
+      'url': 'https://legacy.bili33.top/'
+    - 'name': '天然呆'
+      'url': 'https://zh.moegirl.org/%E5%A4%A9%E7%84%B6%E5%91%86'
+    - 'name': 'CTF 知识库 ↗  https://knowledge.bili33.top 个人知识库'
+      'url': 'https://knowledge.bili33.top'
+    - 'name': 'Leancloud ↗  https://leancloud.app/ 评论系统的后端，用的国际版'
+      'url': 'https://leancloud.app/'
+    - 'name': 'hojun ↗  https://www.hojun.cn 一个好奇的博客'
+      'url': 'https://www.hojun.cn'
+    - 'name': 'HCLonely ↗  https://blog.hclonely.com/ 一个懒人的博客'
+      'url': 'https://blog.hclonely.com/'
+    - 'name': '我本纯真的小破站 ↗  https://wbczblog.postach.io/ emmm,说点啥好呢'
+      'url': 'https://wbczblog.postach.io/'
+    - 'name': 'HE-SB-技术栈 ↗  https://tech.he-sb.top/ 阻碍进步的不是无知，是傲慢'
+      'url': 'https://tech.he-sb.top/'
+    - 'name': '阿楠 ↗  https://nanzx.top 百学须先立志'
+      'url': 'https://nanzx.top'
+    - 'name': 'I Am I ↗  https://5ime.cn 永远相信美好的事情即将发生'
+      'url': 'https://5ime.cn'
+    - 'name': '萌茶屋 ↗  https://cha.moe 用心写出最可爱的东西'
+      'url': 'https://cha.moe'
+    - 'name': 'Yw ↗  https://yww52.com/ 永远相信美好的事情即将发生'
+      'url': 'https://yww52.com/'
+    - 'name': '抵到烂 ↗  https://www.didaolan.cn/ 一个老前端的故事'
+      'url': 'https://www.didaolan.cn/'
+    - 'name': 'xwcker ↗  https://www.hack-gov.com.cn/ 海客GO - 爱牟 听着海客的瀛谈'
+      'url': 'https://www.hack-gov.com.cn/'
+    - 'name': '贰猹的小窝 ↗  https://noionion.top/ 用这生命中的每一秒，给自己一个不后悔的未来'
+      'url': 'https://noionion.top/'
+    - 'name': '孤影墨香 ↗  https://www.gymxbl.com/ 温暖的灵魂终将相遇'
+      'url': 'https://www.gymxbl.com/'
+    - 'name': 'ControlNet ↗  https://controlnet.space 永远13岁~'
+      'url': 'https://controlnet.space'
+    - 'name': 'YuZhangWang的领域 ↗  https://www.yuzhang.wang 两岸猿声啼不住 轻舟已过万重山'
+      'url': 'https://www.yuzhang.wang'
+    - 'name': 'ZhaoQuinn''s Blog ↗  https://zhaoq.me 热爱科技，热爱生活.'
+      'url': 'https://zhaoq.me'
+    - 'name': 'yiyun''s Blog ↗  https://moeci.com The stupid one is me'
+      'url': 'https://moeci.com'
+    - 'name': '萌 (//∇//) 贴士 ↗  https://moe.tips 愿你把酒执剑，归来仍是少年'
+      'url': 'https://moe.tips'
+    - 'name': '小城寒风 ↗  https://blog.atago.moe 驻足现实，仰望星空，率性而活'
+      'url': 'https://blog.atago.moe'
+    - 'name': '宿心·心灵归宿 ↗  https://ayya.top 在【宿心】只愿每个人都能找到自己心灵的归宿'
+      'url': 'https://ayya.top'
+    - 'name': 'PeterJXL ↗  https://www.peterjxl.com 从 01 开始'
+      'url': 'https://www.peterjxl.com'
+    - 'name': 'Sualiu''s Note ↗  https://www.rmoe.top 永远就是没有尽头，跟天空一样，看不到尽头。'
+      'url': 'https://www.rmoe.top'
+    - 'name': 'CZY ↗  https://iamczy.com 这个友链还没有填写描述。'
+      'url': 'https://iamczy.com'
+    - 'name': 's1rius'' blog ↗  https://s1rius.space/ 这里有网络安全和其他技术文章'
+      'url': 'https://s1rius.space/'
+    - 'name': 'yuleng的天地 ↗  http://www.yuleng.top 欢迎来到yuleng的天地！'
+      'url': 'http://www.yuleng.top'
+    - 'name': 'Soulxyzの日常 ↗  https://blog.soulxyz.top/ 不要让时代的悲哀 成为你的悲哀'
+      'url': 'https://blog.soulxyz.top/'
+    - 'name': '時雨てる的 Blog ↗  https://keqing.moe 心有所向，日复一日，必有精进'
+      'url': 'https://keqing.moe'
+    - 'name': '雪碧 ↗  https://blog.rimuruchan.tech 只喝可乐'
+      'url': 'https://blog.rimuruchan.tech'
+    - 'name': 'Ron#1337 ↗  https://blog.zzpeng.com 某不知名脚本小子'
+      'url': 'https://blog.zzpeng.com'
+    - 'name': 'Rusty ↗  https://blog.rusty1e.top/ Search Engines Enjoyer'
+      'url': 'https://blog.rusty1e.top/'
+    - 'name': 'unknown ↗  https://unk.org.cn/ 这个友链还没有填写描述。'
+      'url': 'https://unk.org.cn/'
+    - 'name': 'Phrinky ↗  https://blog.rkk.moe/ 可燃性物質です。'
+      'url': 'https://blog.rkk.moe/'
+    - 'name': 'Hill ↗  https://blog.hill-q.com/ Just Forward'
+      'url': 'https://blog.hill-q.com/'
+    - 'name': '焦茶咖啡厅 ↗  https://tea.keqing.moe 来和焦茶染香喝杯奶茶吗？'
+      'url': 'https://tea.keqing.moe'
+    - 'name': 'CC BY-NC-SA 4.0'
+      'url': 'https://creativecommons.org/licenses/by-nc-sa/4.0/'

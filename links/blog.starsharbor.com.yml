@@ -1,106 +1,92 @@
-site:
-  name: ❖星港◎Star☆
-  description: 以博客记录生活与热爱！
-  url: https://blog.starsharbor.com
-  links: /links
-  friends:
-    - name: 主页
-      url: https://www.starsharbor.com/
-    - name: 音乐站
-      url: https://music.starsharbor.com/
-    - name: 赞助列表
-      url: https://sponsor.starsharbor.com/
-    - name: 站点状态监控
-      url: https://status.starsharbor.com/
-    - name: 友链监控
-      url: https://checklinks.starsharbor.com/
-    - name: 开往
-      url: https://www.travellings.cn/
-    - name: 十年之约
-      url: https://foreverblog.cn/
-    - name: BlogFinder
-      url: https://bf.zzxworld.com/
-    - name: Hexo
-      url: https://hexo.io/zh-cn/
-    - name: Solitude
-      url: https://solitude.js.org/
-    - name: 杜老师说
-      url: https://dusays.com/
-    - name: 张洪Heo
-      url: https://blog.zhheo.com/
-    - name: Tianli
-      url: https://blog.tianli0.top/
-    - name: 青桔气球
-      url: https://blog.qjqq.cn/
-    - name: iMaeGoo’s Blog
-      url: https://www.imaegoo.com
-    - name: 清羽飞扬清羽飞扬柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜
-      url: https://blog.liushen.fun/
-    - name: 御枫林下的小窝~御枫林下的小窝~杂七杂八奇奇怪怪qwq
-      url: https://agen233.top
-    - name: 碧水荡漾碧水荡漾澄空碧山 绿水余漾
-      url: https://blog.yvyang.top
-    - name: 梦爱吃鱼梦爱吃鱼但愿日子清静抬头遇见的满是柔情
-      url: https://blog.bsgun.cn/
-    - name: Daily GleamsDaily Gleams每日的闪耀如同破晓初曦
-      url: https://cleardream.site/
-    - name: Yiita‘s BlogYiita‘s Blog脚踏实地，仰望星空
-      url: https://blog.imz.me/
-    - name: 爱大海爱大海记录生活留住美好时刻 ，分享个人学习笔记
-      url: https://www.idh.cc/
-    - name: Fanzhuo's blogFanzhuo's blog记录生活、开发日常、算法与题目讲解
-      url: https://fanzhuo.xyz/
-    - name: Hexvork BlogHexvork Blog分享网络优化、开发实战和工具评测，用人话讲技术
-      url: https://www.hexvork.com
-    - name: MoZhi’s BlogMoZhi’s Blog远方很远，步履不停，未来可期
-      url: https://blog.mozhix.top
-    - name: TangShiMei的小空间TangShiMei的小空间想和你重新认识一次，从你叫什么开始
-      url: https://blog.224418.xyz/
-    - name: 晨曦@小站晨曦@小站成为更好的自己。
-      url: https://chenxi.nfasystem.top/
-    - name: 星屿浮槎星屿浮槎我自是年少，韶华倾负
-      url: https://blog.byer.ink/
-    - name: 烛影Sordの网络日志烛影Sordの网络日志烛影摇秋泪，西窗叠旧痕。
-      url: https://blog.sord.top
-    - name: 老刘博客老刘博客课件制作和网络生活！
-      url: https://www.liublog.cn/
-    - name: MoYan's BlogMoYan's Blog前进，不择手段的前进！
-      url: https://blog.moyanjdc.top/
-    - name: worable’s Blogworable’s Blog≡ω≡ 嗯对，一名普通的职一牲~
-      url: https://worable.top/
-    - name: ZephyrZephyr喵
-      url: https://lorcas.top/
-    - name: 时光驿站时光驿站记录生活，分享知识，定格美好
-      url: https://blog.ksah.cn/
-    - name: 网笙久久的博客网笙久久的博客一件事情是幸福还是不幸，关键是你怎么去看
-      url: https://www.wsjj.top
-    - name: THW’s BlogTHW’s Blog前途似海，来日方长
-      url: https://blog.tianhw.top/
-    - name: ZhouZhou's BlogZhouZhou's Blog记录技术、日常
-      url: https://blog.zzzero.site/
-    - name: 莱姆Lime莱姆Lime聚是火簇，散作繁星
-      url: https://sudachi.top
-    - name: 猫普的精神世界猫普的精神世界一个独立开发者的精神自留地
-      url: https://maplezz.com
-    - name: 弈鸣小筑弈鸣小筑功不唐捐，玉汝于成
-      url: https://blog.ymhut.cn
-    - name: 新锐博客新锐博客记录学习与分享资源
-      url: https://blog.xrbk.cn
-    - name: 青序栈青序栈青序成栈·向简而生
-      url: https://www.qixz.cn/
-    - name: 幻想の日常幻想の日常心随幻想，梦行无疆
-      url: https://blog.someo.top/
-    - name: 青萍叙事青萍叙事一个懂技术的产品汪🐶
-      url: https://blog.lusyoe.com
-    - name: LEOBLOGLEOBLOG玻璃晴朗，橘子辉煌~✨
-      url: https://leoblog.cc/
-    - name: 谜叶象限谜叶象限每一片叶子，都是未完成的坐标系
-      url: https://baiwumm.com
-    - name: 寻梦城-寻找失落之城寻梦城-寻找失落之城欲买桂花同载酒，终不似，少年游
-      url: https://blog.study996.cn/
-    - name: 柠檬星柠檬星天空就是一杯橘子味的柠檬汽水
-      url: https://blog.lemonstar.me
-    - name: 旧絮旧絮心向往之行必能至
-      url: https://blog.zhkax.cn/
-    - name: bbb-lsy07bbb-lsy07科技激荡人文，洞见智慧本真
-      url: https://blog.tsoo.net
+'site':
+  'name': '❖星港◎Star☆'
+  'description': '以博客记录生活与热爱！'
+  'url': 'https://blog.starsharbor.com'
+  'links': '/links'
+  'friends':
+    - 'name': '主页'
+      'url': 'https://www.starsharbor.com/'
+    - 'name': '音乐站'
+      'url': 'https://music.starsharbor.com/'
+    - 'name': 'BlogFinder'
+      'url': 'https://bf.zzxworld.com/'
+    - 'name': 'Solitude'
+      'url': 'https://solitude.js.org/'
+    - 'name': '杜老师说'
+      'url': 'https://dusays.com/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Tianli'
+      'url': 'https://blog.tianli0.top/'
+    - 'name': '青桔气球'
+      'url': 'https://blog.qjqq.cn/'
+    - 'name': 'iMaeGoo’s Blog'
+      'url': 'https://www.imaegoo.com'
+    - 'name': '清羽飞扬清羽飞扬柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜'
+      'url': 'https://blog.liushen.fun/'
+    - 'name': '御枫林下的小窝~御枫林下的小窝~杂七杂八奇奇怪怪qwq'
+      'url': 'https://agen233.top'
+    - 'name': '碧水荡漾碧水荡漾澄空碧山 绿水余漾'
+      'url': 'https://blog.yvyang.top'
+    - 'name': '梦爱吃鱼梦爱吃鱼但愿日子清静抬头遇见的满是柔情'
+      'url': 'https://blog.bsgun.cn/'
+    - 'name': 'Daily GleamsDaily Gleams每日的闪耀如同破晓初曦'
+      'url': 'https://cleardream.site/'
+    - 'name': 'Yiita‘s BlogYiita‘s Blog脚踏实地，仰望星空'
+      'url': 'https://blog.imz.me/'
+    - 'name': '爱大海爱大海记录生活留住美好时刻 ，分享个人学习笔记'
+      'url': 'https://www.idh.cc/'
+    - 'name': 'Fanzhuo''s blogFanzhuo''s blog记录生活、开发日常、算法与题目讲解'
+      'url': 'https://fanzhuo.xyz/'
+    - 'name': 'MoZhi’s BlogMoZhi’s Blog远方很远，步履不停，未来可期'
+      'url': 'https://blog.mozhix.top'
+    - 'name': 'TangShiMei的小空间TangShiMei的小空间想和你重新认识一次，从你叫什么开始'
+      'url': 'https://blog.224418.xyz/'
+    - 'name': '晨曦@小站晨曦@小站成为更好的自己。'
+      'url': 'https://chenxi.nfasystem.top/'
+    - 'name': '星屿浮槎星屿浮槎我自是年少，韶华倾负'
+      'url': 'https://blog.byer.ink/'
+    - 'name': '烛影Sordの网络日志烛影Sordの网络日志烛影摇秋泪，西窗叠旧痕。'
+      'url': 'https://blog.sord.top'
+    - 'name': '老刘博客老刘博客课件制作和网络生活！'
+      'url': 'https://www.liublog.cn/'
+    - 'name': 'MoYan''s BlogMoYan''s Blog前进，不择手段的前进！'
+      'url': 'https://blog.moyanjdc.top/'
+    - 'name': 'worable’s Blogworable’s Blog≡ω≡ 嗯对，一名普通的职一牲~'
+      'url': 'https://worable.top/'
+    - 'name': 'ZephyrZephyr喵'
+      'url': 'https://lorcas.top/'
+    - 'name': '时光驿站时光驿站记录生活，分享知识，定格美好'
+      'url': 'https://blog.ksah.cn/'
+    - 'name': '网笙久久的博客网笙久久的博客一件事情是幸福还是不幸，关键是你怎么去看'
+      'url': 'https://www.wsjj.top'
+    - 'name': 'THW’s BlogTHW’s Blog前途似海，来日方长'
+      'url': 'https://blog.tianhw.top/'
+    - 'name': 'ZhouZhou''s BlogZhouZhou''s Blog记录技术、日常'
+      'url': 'https://blog.zzzero.site/'
+    - 'name': '莱姆Lime莱姆Lime聚是火簇，散作繁星'
+      'url': 'https://sudachi.top'
+    - 'name': '猫普的精神世界猫普的精神世界一个独立开发者的精神自留地'
+      'url': 'https://maplezz.com'
+    - 'name': '弈鸣小筑弈鸣小筑功不唐捐，玉汝于成'
+      'url': 'https://blog.ymhut.cn'
+    - 'name': '新锐博客新锐博客记录学习与分享资源'
+      'url': 'https://blog.xrbk.cn'
+    - 'name': '青序栈青序栈青序成栈·向简而生'
+      'url': 'https://www.qixz.cn/'
+    - 'name': '幻想の日常幻想の日常心随幻想，梦行无疆'
+      'url': 'https://blog.someo.top/'
+    - 'name': '青萍叙事青萍叙事一个懂技术的产品汪🐶'
+      'url': 'https://blog.lusyoe.com'
+    - 'name': 'LEOBLOGLEOBLOG玻璃晴朗，橘子辉煌~✨'
+      'url': 'https://leoblog.cc/'
+    - 'name': '谜叶象限谜叶象限每一片叶子，都是未完成的坐标系'
+      'url': 'https://baiwumm.com'
+    - 'name': '寻梦城-寻找失落之城寻梦城-寻找失落之城欲买桂花同载酒，终不似，少年游'
+      'url': 'https://blog.study996.cn/'
+    - 'name': '柠檬星柠檬星天空就是一杯橘子味的柠檬汽水'
+      'url': 'https://blog.lemonstar.me'
+    - 'name': '旧絮旧絮心向往之行必能至'
+      'url': 'https://blog.zhkax.cn/'
+    - 'name': 'bbb-lsy07bbb-lsy07科技激荡人文，洞见智慧本真'
+      'url': 'https://blog.tsoo.net'

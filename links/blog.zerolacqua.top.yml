@@ -1,114 +1,66 @@
-site:
-  name: "blog.zerolacqua.top"
-  description: "友情链接"
-  url: "https://blog.zerolacqua.top/"
-  links: "/link"
-  friends:
-    - name: "笔记"
-      url: "https://note.zerolacqua.top/"
-    - name: "丘卡饮品店\n      要来点喝的吗？"
-      url: "https://blog.zerolacqua.top"
-    - name: "Jerry\n      A Hexo Theme: Butterfly"
-      url: "https://butterfly.js.org/"
-    - name: "Akilarの糖果屋\n      期待您的光临！"
-      url: "https://akilar.top/"
-    - name: "张洪Heo\n      分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Eurkon\n      不只是代码的搬运工"
-      url: "https://blog.eurkon.com"
-    - name: "DORAKIKA\n      热爱漫无边际，生活自有分寸"
-      url: "https://dorakika.cn"
-    - name: "轻笑Chuckle\n      漫天倾尘,风中轻笑"
-      url: "https://www.qcqx.cn"
-    - name: "Manim Kindergarten\n      国内 manim 爱好者组建的团体。"
-      url: "https://manim.org.cn/"
-    - name: "Hanabi H-group\n      花火玩家群体自己设立的约定，这个是中文社区嗷。"
-      url: "https://jk15162428.github.io/hanabi_cn/"
-    - name: "Dylech30th的BLOG\n      Seeking for knowledge"
-      url: "https://sora.ink"
-    - name: "Harris's Blog\n      时不我待，只争朝夕"
-      url: "https://blog.harriswong.top/"
-    - name: "梦落の小屋\n      因为不可能，所以才值得相信"
-      url: "https://blog.dreamfall.cn"
-    - name: "Fomalhaut🥝\n      Future is now 🍭🍭🍭"
-      url: "https://www.fomal.cc/"
-    - name: "Kloudy Shape\n      Stay Hungry, Stay Foolish"
-      url: "https://shape.kloudy.cn/"
-    - name: "ControlNet Blog\n      永远13岁~"
-      url: "https://controlnet.space/"
-    - name: "Jiming\n      一些统计物理"
-      url: "http://jiming.site"
-    - name: "CWorld Site\n      求知若愚，虚怀若谷"
-      url: "https://cworld0.com/"
-    - name: "insomniac 睡不着\n      因为睡不着所以尝试写点东西咯"
-      url: "https://xuqi.space"
-    - name: "AYIN\n      位我上者，灿烂星空"
-      url: "https://bessgendre.github.io/"
-    - name: "Ela\n      喜欢夺旗的可爱飞马"
-      url: "https://e23.dev/"
-    - name: "Hongbo\n      当你能对坏的情绪一笑而过，它也会将生活交还到你的手里。"
-      url: "https://xxmy7.github.io"
-    - name: "Lenny’s Web\n      天地不仁，以万物为刍狗"
-      url: "https://lennychen.top"
-    - name: "Wcowin’s Web\n      循此苦旅，以达星辰"
-      url: "https://wcowin.work/"
-    - name: "可执行程序の天境小屋🥝\n      The boy who lived"
-      url: "https://blog.hanta2011.top/"
-    - name: "顶茶社\n      乌拉乌拉乌拉"
-      url: "https://blog.redcha.cn"
-    - name: "ihan\n      凡事相信，凡事盼望，凡事忍耐。"
-      url: "https://ihanofficial.github.io"
-    - name: "栖云牧宇\n      捣鼓各种乱七八糟的服务器应用，偶尔记录生活"
-      url: "https://blog.moooyuuu.cloud"
-    - name: "Suxilan's Blog\n      这里是我的旷野"
-      url: "https://suxilan.github.io"
-    - name: "https://cdn.zerolacqua.top/images/avatar.png"
-      url: "https://cdn.zerolacqua.top/images/avatar.png"
-    - name: "https://cdn.zerolacqua.top/images/siteshot.png"
-      url: "https://cdn.zerolacqua.top/images/siteshot.png"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "https://pic1.imgdb.cn/item/6823e70658cb8da5c8f0d67b.jpg"
-      url: "https://pic1.imgdb.cn/item/6823e70658cb8da5c8f0d67b.jpg"
-    - name: "https://blog.redcha.cn/favicon.ico"
-      url: "https://blog.redcha.cn/favicon.ico"
-    - name: "https://blog.redcha.cn/feed"
-      url: "https://blog.redcha.cn/feed"
-    - name: "https://blog.redcha.cn/links"
-      url: "https://blog.redcha.cn/links"
-    - name: "彬红茶"
-      url: "https://www.toptea.xin"
-    - name: "https://www.toptea.xin/favicon.ico"
-      url: "https://www.toptea.xin/favicon.ico"
-    - name: "https://www.toptea.xin/feed"
-      url: "https://www.toptea.xin/feed"
-    - name: "https://www.toptea.xin/links"
-      url: "https://www.toptea.xin/links"
-    - name: "https://hanta.us.kg/"
-      url: "https://hanta.us.kg/"
-    - name: "https://pic.imgdb.cn/item/65fe67989f345e8d03923ea6.jpg"
-      url: "https://pic.imgdb.cn/item/65fe67989f345e8d03923ea6.jpg"
-    - name: "https://pic.imgdb.cn/item/66921dadd9c307b7e9da1e0e.png"
-      url: "https://pic.imgdb.cn/item/66921dadd9c307b7e9da1e0e.png"
-    - name: "https://blog.cworld.top/"
-      url: "https://blog.cworld.top/"
-    - name: "https://s2.loli.net/2024/02/01/gaE47y5fKM6kosV.png"
-      url: "https://s2.loli.net/2024/02/01/gaE47y5fKM6kosV.png"
-    - name: "LennyChen"
-      url: "https://github.com/LennyChenLaw"
-    - name: "https://s2.loli.net/2024/03/31/Ht3QBqhgLYNAuwj.png"
-      url: "https://s2.loli.net/2024/03/31/Ht3QBqhgLYNAuwj.png"
-    - name: "Waline"
-      url: "https://github.com/walinejs/waline"
-    - name: "个人主页"
-      url: "https://zerolacqua.top/"
-    - name: "Github"
-      url: "https://github.com/ZerolAcqua"
-    - name: "bilibili"
-      url: "https://space.bilibili.com/26960382"
-    - name: "qq"
-      url: "https://ti.qq.com/open_qq/index2.html?url=mqqapi%3a%2f%2fuserprofile%2ffriend_profile_card%3fsrc_type%3dweb%26version%3d1.0%26source%3d2%26uin%3d2502727534"
-    - name: "Hexo 6.3.0"
-      url: "https://hexo.io"
-    - name: "Butterfly 5.5.3"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
+'site':
+  'name': 'blog.zerolacqua.top'
+  'description': '友情链接'
+  'url': 'https://blog.zerolacqua.top/'
+  'links': '/link'
+  'friends':
+    - 'name': '笔记'
+      'url': 'https://note.zerolacqua.top/'
+    - 'name': "Jerry\n      A Hexo Theme: Butterfly"
+      'url': 'https://butterfly.js.org/'
+    - 'name': "Akilarの糖果屋\n      期待您的光临！"
+      'url': 'https://akilar.top/'
+    - 'name': "张洪Heo\n      分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "Eurkon\n      不只是代码的搬运工"
+      'url': 'https://blog.eurkon.com'
+    - 'name': "DORAKIKA\n      热爱漫无边际，生活自有分寸"
+      'url': 'https://dorakika.cn'
+    - 'name': "轻笑Chuckle\n      漫天倾尘,风中轻笑"
+      'url': 'https://www.qcqx.cn'
+    - 'name': "Manim Kindergarten
+
+        \      国内 manim 爱好者组建的团体。"
+      'url': 'https://manim.org.cn/'
+    - 'name': "Dylech30th的BLOG
+
+        \      Seeking for knowledge"
+      'url': 'https://sora.ink'
+    - 'name': "Harris's Blog\n      时不我待，只争朝夕"
+      'url': 'https://blog.harriswong.top/'
+    - 'name': "梦落の小屋\n      因为不可能，所以才值得相信"
+      'url': 'https://blog.dreamfall.cn'
+    - 'name': "Fomalhaut🥝
+
+        \      Future is now 🍭🍭🍭"
+      'url': 'https://www.fomal.cc/'
+    - 'name': "Kloudy Shape
+
+        \      Stay Hungry, Stay Foolish"
+      'url': 'https://shape.kloudy.cn/'
+    - 'name': "ControlNet Blog\n      永远13岁~"
+      'url': 'https://controlnet.space/'
+    - 'name': "Jiming\n      一些统计物理"
+      'url': 'http://jiming.site'
+    - 'name': "CWorld Site\n      求知若愚，虚怀若谷"
+      'url': 'https://cworld0.com/'
+    - 'name': "insomniac 睡不着\n      因为睡不着所以尝试写点东西咯"
+      'url': 'https://xuqi.space'
+    - 'name': "Ela\n      喜欢夺旗的可爱飞马"
+      'url': 'https://e23.dev/'
+    - 'name': "Lenny’s Web\n      天地不仁，以万物为刍狗"
+      'url': 'https://lennychen.top'
+    - 'name': "Wcowin’s Web\n      循此苦旅，以达星辰"
+      'url': 'https://wcowin.work/'
+    - 'name': "可执行程序の天境小屋🥝\n      The boy who lived"
+      'url': 'https://blog.hanta2011.top/'
+    - 'name': "顶茶社\n      乌拉乌拉乌拉"
+      'url': 'https://blog.redcha.cn'
+    - 'name': "栖云牧宇\n      捣鼓各种乱七八糟的服务器应用，偶尔记录生活"
+      'url': 'https://blog.moooyuuu.cloud'
+    - 'name': '彬红茶'
+      'url': 'https://www.toptea.xin'
+    - 'name': '个人主页'
+      'url': 'https://zerolacqua.top/'
+    - 'name': 'Hexo 6.3.0'
+      'url': 'https://hexo.io'

@@ -1,40 +1,16 @@
-site:
-  name: "beiqiu.top"
-  description: "友情链接"
-  url: "https://beiqiu.top/"
-  links: "/link"
-  friends:
-    - name: "北秋的秘密基地慢慢来，会很快"
-      url: "https://beiqiu.top"
-    - name: "唐志远の博客古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志"
-      url: "https://fe32.top"
-    - name: "张洪Heo 分享设计与科技生活"
-      url: "https://blog.zhheo.com"
-    - name: "安知鱼生活明朗，万物可爱"
-      url: "https://blog.anheyu.com"
-    - name: "Akilarの糖果屋欢迎光临糖果屋"
-      url: "https://akilar.top"
-    - name: "QQ"
-      url: "https://beiqiu.top/404.html"
-    - name: "微信"
-      url: "https://cdn.jsdelivr.net/gh/beiqiu666/bq-blog@latest/overall-situation/img/wx.jpg"
-    - name: "哔哩哔哩"
-      url: "https://space.bilibili.com/3546588555250207"
-    - name: "Github"
-      url: "https://github.com"
-    - name: "下载（国家反诈中心） APP"
-      url: "https://www.hack-gov.com.cn/posts/21480.html"
-    - name: "来点壁纸"
-      url: "https://beiqiu.top/photos/"
-    - name: "北秋音乐"
-      url: "https://beiqiu.top/music/"
-    - name: "来杯咖啡"
-      url: "https://beiqiu.top/sponsorWall/"
-    - name: "留点什么"
-      url: "https://beiqiu.top/comment/"
-    - name: "关于博主"
-      url: "https://beiqiu.top/about/"
-    - name: "文章归档"
-      url: "https://beiqiu.top/archives/"
-    - name: "赣ICP备2024037569号"
-      url: "https://beian.miit.gov.cn"
+'site':
+  'name': 'beiqiu.top'
+  'description': '友情链接'
+  'url': 'https://beiqiu.top/'
+  'links': '/link'
+  'friends':
+    - 'name': '唐志远の博客古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志'
+      'url': 'https://fe32.top'
+    - 'name': '张洪Heo 分享设计与科技生活'
+      'url': 'https://blog.zhheo.com'
+    - 'name': '安知鱼生活明朗，万物可爱'
+      'url': 'https://blog.anheyu.com'
+    - 'name': 'Akilarの糖果屋欢迎光临糖果屋'
+      'url': 'https://akilar.top'
+    - 'name': '下载（国家反诈中心） APP'
+      'url': 'https://www.hack-gov.com.cn/posts/21480.html'

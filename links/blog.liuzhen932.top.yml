@@ -1,10 +1,6 @@
-site:
-  name: "blog.liuzhen932.top"
-  description: "友情链接"
-  url: "https://blog.liuzhen932.top/"
-  links: "/friends"
-  friends:
-    - name: "Cloudflare"
-      url: "https://www.cloudflare.com?utm_source=challenge&utm_campaign=m"
-    - name: "Privacy"
-      url: "https://www.cloudflare.com/privacypolicy/"
+'site':
+  'name': 'blog.liuzhen932.top'
+  'description': '友情链接'
+  'url': 'https://blog.liuzhen932.top/'
+  'links': '/friends'
+  'friends': []

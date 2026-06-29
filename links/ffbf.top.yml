@@ -1,20 +1,10 @@
-site:
-  name: "福福不服"
-  url: "https://ffbf.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "福福不服"
-      url: "http://ffbf.top/"
-    - name: "CSDN"
-      url: "https://monster.blog.csdn.net/"
-    - name: "哔哩哔哩"
-      url: "https://space.bilibili.com/4218582"
-    - name: "500px"
-      url: "https://500px.com.cn/dengchuanfu"
-    - name: "https://ffbf.top"
-      url: "https://ffbf.top"
-    - name: "粤ICP备2023078444号-1"
-      url: "https://beian.miit.gov.cn/"
-    - name: "粤公网安备44030702005575号"
-      url: "https://beian.mps.gov.cn/#/query/webSearch"
+'site':
+  'name': '福福不服'
+  'url': 'https://ffbf.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'CSDN'
+      'url': 'https://monster.blog.csdn.net/'
+    - 'name': '500px'
+      'url': 'https://500px.com.cn/dengchuanfu'

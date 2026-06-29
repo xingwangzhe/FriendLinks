@@ -1,194 +1,116 @@
-site:
-  name: "blog.chn.us.kg"
-  description: "友情链接"
-  url: "https://blog.chn.us.kg/"
-  links: "/link"
-  friends:
-    - name: "监测"
-      url: "https://site.chn.us.kg"
-    - name: "知识库"
-      url: "https://wiki.chn.us.kg/"
-    - name: "图床"
-      url: "https://images.chn.us.kg/"
-    - name: "图标"
-      url: "https://blog.chn.us.kg/go.html?url=https://www.iconfont.cn/manage/index?spm=a313x.icontype_collections.i3.23.4fcf3a81nMg1q2&manage_type=myprojects&projectId=4295193"
-    - name: "云盘"
-      url: "https://blog.chn.us.kg/go.html?url=https://www.aliyundrive.com/er/u/374c232d712343ecaf6675de6184696f"
-    - name: "仓库"
-      url: "https://blog.chn.us.kg/go.html?url=https://gitlab.com/zhuangzhi213"
-    - name: "网站统计"
-      url: "https://umami.chn.us.kg/"
-    - name: "ChatGPT"
-      url: "https://ai.chn.us.kg/"
-    - name: "网站统计"
-      url: "https://umami.chn.us.kg/share/Jq0c50Dxv31PQXai/blog.chn.us.kg"
-    - name: "站点监测"
-      url: "https://site.chn.us.kg/"
-    - name: "友链监测"
-      url: "https://link.chn.us.kg/"
-    - name: "主站线路"
-      url: "https://blog.chn.us.kg"
-    - name: "备站线路"
-      url: "https://blog.zlog.online"
-    - name: "Hexo"
-      url: "https://hexo.io/zh-tw/"
-    - name: "Next"
-      url: "https://theme-next.js.org/"
-    - name: "琅環书生"
-      url: "https://zlog.chn.us.kg"
-    - name: "安知鱼文档"
-      url: "https://docs.anheyu.com/"
-    - name: "张洪Heo文档"
-      url: "https://butterfly.zhheo.com/"
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com/"
-    - name: "煮雪话河山"
-      url: "https://blog.cent1pedee.top/"
-    - name: "星河城野"
-      url: "https://blog.z-l.top/"
-    - name: "小植同学"
-      url: "https://blog.xiaoztx.top"
-    - name: "小旦"
-      url: "https://satera.cn"
-    - name: "iMaeGoo"
-      url: "https://www.imaegoo.com"
-    - name: "轻笑Chuckle"
-      url: "https://www.qcqx.cn"
-    - name: "Yeppioo."
-      url: "https://blog.yeppioo.vip"
-    - name: "qxdn"
-      url: "https://qianxu.run"
-    - name: "XingJi"
-      url: "https://love.xingji.fun/"
-    - name: "别碰我的镜头盖"
-      url: "https://blog.bornforthis.cn"
-    - name: "绾秋小站"
-      url: "https://www.gx.gx.cn/"
-    - name: "梦爱吃鱼"
-      url: "https://blog.bsgun.cn/"
-    - name: "杜老师说"
-      url: "https://dusays.com"
-    - name: "Wcowin"
-      url: "https://wcowin.work/"
-    - name: "风记星辰"
-      url: "https://www.thyuu.com"
-    - name: "CHYT"
-      url: "https://blog.chyt.top/"
-    - name: "好软猫"
-      url: "https://www.haoruanmao.com/"
-    - name: "不是知音"
-      url: "https://www.zhiyin.run/"
-    - name: "Shine"
-      url: "https://blog.shineyu.cn/"
-    - name: "夜雨柠檬"
-      url: "https://blog.yeyulemon.top/"
-    - name: "巧影 v8.1.11.36528.GP KineMaster，视频、音频、图片编辑器，高级版"
-      url: "https://www.haoruanmao.com/4856.html"
-    - name: "Fluid"
-      url: "https://hexo.fluid-dev.com/"
-    - name: "Butterfly"
-      url: "https://butterfly.js.org/"
-    - name: "Jerry文档"
-      url: "https://butterfly.js.org/categories/Docs%E6%96%87%E6%AA%94/"
-    - name: "张洪 Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "葱苓 samaDare && Do"
-      url: "https://blog.ciraos.top"
-    - name: "爱吃肉的猫有肉有猫有生活"
-      url: "https://meuicat.com/"
-    - name: "铭心石刻愿岁并谢，与友长兮"
-      url: "https://blog.kouseki.cn/"
-    - name: "Black FliesWhen nothing goes right,just go left."
-      url: "https://www.yyyzyyyz.cn/"
-    - name: "张时贰环转码，爱敲代码的小张！"
-      url: "https://zhsher.cn"
-    - name: "青桔气球分享网络安全与科技生活"
-      url: "https://blog.qjqq.cn/"
-    - name: "LeetOut of my mind."
-      url: "https://leetme.netlify.app"
-    - name: "Elyki致以无暇之人"
-      url: "https://blog.elykia.cn/"
-    - name: "清羽飞扬柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
-      url: "https://blog.liushen.fun/"
-    - name: "Eurkon及时当勉励，岁月不待人。"
-      url: "https://blog.eurkon.com"
-    - name: "SeaEpoch她站在那里，就像一个小小的永恒！"
-      url: "https://www.seaepoch.com"
-    - name: "一粒微尘撷光以望，纳星于瞳"
-      url: "https://blog.667408.xyz"
-    - name: "湘铭湘铭的秘密基地啊！"
-      url: "https://xiangming.site"
-    - name: "风起笔记愿我们都能被世界温暖相拥"
-      url: "https://www.fqsq.wang"
-    - name: "xyx404在努力和摆烂中选择了努力摆烂 AWA"
-      url: "https://xyx404.github.io"
-    - name: "智码 Moss危险是真实存在的，但恐惧是一种选择"
-      url: "https://www.qxssec.com"
-    - name: "小米里的大麦芝兰生于深谷，不以无人而不芳"
-      url: "https://cn.minbit.top"
-    - name: "小鹿跳吧，在无比宏大的星系！"
-      url: "https://siena.zone/"
-    - name: "小林笔记轻生活，秒上签"
-      url: "https://m.senlinm.cn"
-    - name: "Avery文字咖啡馆"
-      url: "https://www.averyc.top/"
-    - name: "Qing你侬我侬，忒煞情多"
-      url: "https://blog.wuyuxi.cn/"
-    - name: "Naokuo请给我来亿碗三鲜面"
-      url: "https://www.naokuo.top"
-    - name: "跨境 Ritch永远相信美好的事情即将发生。"
-      url: "https://www.cctv14.us.kg"
-    - name: "https://blog.chn.us.kg"
-      url: "https://blog.chn.us.kg/"
-    - name: "https://images.chn.us.kg/hexo/website.webp"
-      url: "https://images.chn.us.kg/hexo/website.webp"
-    - name: "https://blog.chn.us.kg/atom.xml"
-      url: "https://blog.chn.us.kg/atom.xml"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "微博"
-      url: "https://blog.chn.us.kg/go.html?url=https://weibo.com/u/3779568341"
-    - name: "微信公众号"
-      url: "https://blog.chn.us.kg/go.html?url=https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAwMTU5MjAxOA==&scene=124"
-    - name: "网易云音乐"
-      url: "https://blog.chn.us.kg/go.html?url=https://music.163.com/#/user/home?id=341820959"
-    - name: "twitter"
-      url: "https://blog.chn.us.kg/go.html?url=https://twitter.com/zhuangzhi213"
-    - name: "Github"
-      url: "https://blog.chn.us.kg/go.html?url=https://github.com/zhuangzhi213"
-    - name: "Gitee"
-      url: "https://blog.chn.us.kg/go.html?url=https://gitee.com/zhuangzhi213"
-    - name: "Bilibili"
-      url: "https://blog.chn.us.kg/go.html?url=https://space.bilibili.com/24646387"
-    - name: "抖音"
-      url: "https://blog.chn.us.kg/go.html?url=https://v.douyin.com/idxeBmsT/"
-    - name: "框架"
-      url: "https://blog.chn.us.kg/go.html?url=https://hexo.io/zh-cn/"
-    - name: "源码"
-      url: "https://blog.chn.us.kg/go.html?url=https://gitlab.com/zhuangzhi213/"
-    - name: "博客框架为Hexo"
-      url: "https://blog.chn.us.kg/go.html?url=https://hexo.io/"
-    - name: "主题采用Butterfly，魔改基于Anzhiyu"
-      url: "https://blog.chn.us.kg/go.html?url=https://butterfly.js.org/"
-    - name: "本站项目由Gitee提供部署服务"
-      url: "https://blog.chn.us.kg/go.html?url=https://gitee.com/zhuangzhi213/"
-    - name: "本站项目由Vercel托管"
-      url: "https://blog.chn.us.kg/go.html?url=https://vercel.com/"
-    - name: "本站项目由Netlify托管"
-      url: "https://blog.chn.us.kg/go.html?url=https://www.netlify.com/"
-    - name: "本站监测服务由Uptime Robot提供"
-      url: "https://blog.chn.us.kg/go.html?url=https://uptimerobot.com/"
-    - name: "本站已在沪合法备案"
-      url: "https://blog.chn.us.kg/go.html?url=https://beian.miit.gov.cn"
-    - name: "本站已在萌国合法备案"
-      url: "https://blog.chn.us.kg/go.html?url=https://icp.gov.moe/join.php"
-    - name: "本站由又拍云提供CDN加速/云存储服务"
-      url: "https://blog.chn.us.kg/go.html?url=https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
-    - name: "本站由MongoDB提供数据库服务"
-      url: "https://blog.chn.us.kg/go.html?url=https://account.mongodb.com/"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "https://blog.chn.us.kg/go.html?url=https://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "图床"
-      url: "https://images.chn.us.kg"
-    - name: "沪 ICP 备 2023024395 号 - 1"
-      url: "https://blog.chn.us.kg/go.html?url=https://beian.miit.gov.cn/"
+'site':
+  'name': 'blog.chn.us.kg'
+  'description': '友情链接'
+  'url': 'https://blog.chn.us.kg/'
+  'links': '/link'
+  'friends':
+    - 'name': '监测'
+      'url': 'https://site.chn.us.kg'
+    - 'name': '网站统计'
+      'url': 'https://umami.chn.us.kg/'
+    - 'name': 'ChatGPT'
+      'url': 'https://ai.chn.us.kg/'
+    - 'name': '网站统计'
+      'url': 'https://umami.chn.us.kg/share/Jq0c50Dxv31PQXai/blog.chn.us.kg'
+    - 'name': '站点监测'
+      'url': 'https://site.chn.us.kg/'
+    - 'name': '友链监测'
+      'url': 'https://link.chn.us.kg/'
+    - 'name': '备站线路'
+      'url': 'https://blog.zlog.online'
+    - 'name': 'Next'
+      'url': 'https://theme-next.js.org/'
+    - 'name': '琅環书生'
+      'url': 'https://zlog.chn.us.kg'
+    - 'name': '安知鱼文档'
+      'url': 'https://docs.anheyu.com/'
+    - 'name': '张洪Heo文档'
+      'url': 'https://butterfly.zhheo.com/'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '煮雪话河山'
+      'url': 'https://blog.cent1pedee.top/'
+    - 'name': '星河城野'
+      'url': 'https://blog.z-l.top/'
+    - 'name': '小植同学'
+      'url': 'https://blog.xiaoztx.top'
+    - 'name': '小旦'
+      'url': 'https://satera.cn'
+    - 'name': 'iMaeGoo'
+      'url': 'https://www.imaegoo.com'
+    - 'name': '轻笑Chuckle'
+      'url': 'https://www.qcqx.cn'
+    - 'name': 'Yeppioo.'
+      'url': 'https://blog.yeppioo.vip'
+    - 'name': 'qxdn'
+      'url': 'https://qianxu.run'
+    - 'name': 'XingJi'
+      'url': 'https://love.xingji.fun/'
+    - 'name': '别碰我的镜头盖'
+      'url': 'https://blog.bornforthis.cn'
+    - 'name': '绾秋小站'
+      'url': 'https://www.gx.gx.cn/'
+    - 'name': '梦爱吃鱼'
+      'url': 'https://blog.bsgun.cn/'
+    - 'name': '杜老师说'
+      'url': 'https://dusays.com'
+    - 'name': 'Wcowin'
+      'url': 'https://wcowin.work/'
+    - 'name': '风记星辰'
+      'url': 'https://www.thyuu.com'
+    - 'name': 'CHYT'
+      'url': 'https://blog.chyt.top/'
+    - 'name': '好软猫'
+      'url': 'https://www.haoruanmao.com/'
+    - 'name': '不是知音'
+      'url': 'https://www.zhiyin.run/'
+    - 'name': 'Shine'
+      'url': 'https://blog.shineyu.cn/'
+    - 'name': '夜雨柠檬'
+      'url': 'https://blog.yeyulemon.top/'
+    - 'name': '巧影 v8.1.11.36528.GP KineMaster，视频、音频、图片编辑器，高级版'
+      'url': 'https://www.haoruanmao.com/4856.html'
+    - 'name': 'Jerry文档'
+      'url': 'https://butterfly.js.org/categories/Docs%E6%96%87%E6%AA%94/'
+    - 'name': '张洪 Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '葱苓 samaDare && Do'
+      'url': 'https://blog.ciraos.top'
+    - 'name': '爱吃肉的猫有肉有猫有生活'
+      'url': 'https://meuicat.com/'
+    - 'name': '铭心石刻愿岁并谢，与友长兮'
+      'url': 'https://blog.kouseki.cn/'
+    - 'name': 'Black FliesWhen nothing goes right,just go left.'
+      'url': 'https://www.yyyzyyyz.cn/'
+    - 'name': '张时贰环转码，爱敲代码的小张！'
+      'url': 'https://zhsher.cn'
+    - 'name': '青桔气球分享网络安全与科技生活'
+      'url': 'https://blog.qjqq.cn/'
+    - 'name': 'Elyki致以无暇之人'
+      'url': 'https://blog.elykia.cn/'
+    - 'name': '清羽飞扬柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜'
+      'url': 'https://blog.liushen.fun/'
+    - 'name': 'Eurkon及时当勉励，岁月不待人。'
+      'url': 'https://blog.eurkon.com'
+    - 'name': 'SeaEpoch她站在那里，就像一个小小的永恒！'
+      'url': 'https://www.seaepoch.com'
+    - 'name': '一粒微尘撷光以望，纳星于瞳'
+      'url': 'https://blog.667408.xyz'
+    - 'name': '湘铭湘铭的秘密基地啊！'
+      'url': 'https://xiangming.site'
+    - 'name': '风起笔记愿我们都能被世界温暖相拥'
+      'url': 'https://www.fqsq.wang'
+    - 'name': '智码 Moss危险是真实存在的，但恐惧是一种选择'
+      'url': 'https://www.qxssec.com'
+    - 'name': '小米里的大麦芝兰生于深谷，不以无人而不芳'
+      'url': 'https://cn.minbit.top'
+    - 'name': '小鹿跳吧，在无比宏大的星系！'
+      'url': 'https://siena.zone/'
+    - 'name': 'Avery文字咖啡馆'
+      'url': 'https://www.averyc.top/'
+    - 'name': 'Qing你侬我侬，忒煞情多'
+      'url': 'https://blog.wuyuxi.cn/'
+    - 'name': 'Naokuo请给我来亿碗三鲜面'
+      'url': 'https://www.naokuo.top'
+    - 'name': '跨境 Ritch永远相信美好的事情即将发生。'
+      'url': 'https://www.cctv14.us.kg'

@@ -1,92 +1,54 @@
-site:
-  name: "siax.cn"
-  description: "友情链接"
-  url: "https://siax.cn/"
-  links: "/link"
-  friends:
-    - name: "博客"
-      url: "https://siax.cn/"
-    - name: "文章管理"
-      url: "https://qexo.siax.cn/"
-    - name: "Vercel线路"
-      url: "https://blog.siax.cn/"
-    - name: "Netlify线路"
-      url: "https://netlify.siax.cn/"
-    - name: "Github线路"
-      url: "https://l-20021213.github.io/"
-    - name: "ChatGPT"
-      url: "https://chat1.zhile.io/"
-    - name: "智谱清言"
-      url: "https://chatglm.cn/main/detail"
-    - name: "通义千问"
-      url: "https://tongyi.aliyun.com/qianwen"
-    - name: "腾讯混元"
-      url: "https://hunyuan.tencent.com/bot/chat"
-    - name: "Kimi"
-      url: "https://kimi.moonshot.cn/"
-    - name: "字节豆包"
-      url: "https://www.doubao.com/chat/"
-    - name: "小空调"
-      url: "https://wind.siax.cn/"
-    - name: "Hexo"
-      url: "https://hexo.io/zh-tw/"
-    - name: "anzhiyu主题"
-      url: "https://blog.anheyu.com/"
-    - name: "小冰博客"
-      url: "https://zfe.space/"
-    - name: "Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "微风忆夏"
-      url: "https://sumiler.com/"
-    - name: "御网尚书的小宇宙"
-      url: "https://www.siteweb.cn/"
-    - name: "covercoververcel"
-      url: "https://vercel.com/"
-    - name: "Ethan.Tzy"
-      url: "https://fe32.top/"
-    - name: "Leonus"
-      url: "https://blog.leonus.cn/"
-    - name: "小染笔记小染笔记不必借光而行，你我皆是星辰."
-      url: "https://onoe.cn"
-    - name: "运维小弟"
-      url: "http://srebro.cn"
-    - name: "www.srebro.cn"
-      url: "http://www.srebro.cn"
-    - name: "https://www.ginc.site/"
-      url: "https://www.ginc.site/"
-    - name: "https://cdn.jsdelivr.net/gh/lyboy-wp/jscdn/img/favicon.ico"
-      url: "https://cdn.jsdelivr.net/gh/lyboy-wp/jscdn/img/favicon.ico"
-    - name: "归途"
-      url: "https://halo.qq-channel.cn/"
-    - name: "https://halo.qq-channel.cn"
-      url: "https://halo.qq-channel.cn"
-    - name: "https://halo.qq-channel.cn/friend_links"
-      url: "https://halo.qq-channel.cn/friend_links"
-    - name: "丨浅笑安然丨"
-      url: "https://www.siax.cn/"
-    - name: "茗辰原"
-      url: "https://mcy.cloudns.org/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "微博"
-      url: "https://weibo.com/u/6378063631"
-    - name: "facebook"
-      url: "https://www.facebook.com/profile.php?id=100092208016287&sk=about"
-    - name: "Github"
-      url: "https://github.com/L-20021213"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/91773304"
-    - name: "网易云"
-      url: "https://music.163.com/#/user/home?id=596363983"
-    - name: "状态监控"
-      url: "https://status.siax.cn/"
-    - name: "51la统计"
-      url: "https://v6.51.la/"
-    - name: "空间虫洞"
-      url: "https://foreverblog.cn/go.html"
-    - name: "Travelling"
-      url: "https://www.travellings.cn/go.html"
-    - name: "主题"
-      url: "https://docs.anheyu.com/"
-    - name: "苏ICP备2020069297号-2"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'siax.cn'
+  'description': '友情链接'
+  'url': 'https://siax.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '文章管理'
+      'url': 'https://qexo.siax.cn/'
+    - 'name': 'Vercel线路'
+      'url': 'https://blog.siax.cn/'
+    - 'name': 'Netlify线路'
+      'url': 'https://netlify.siax.cn/'
+    - 'name': 'ChatGPT'
+      'url': 'https://chat1.zhile.io/'
+    - 'name': '智谱清言'
+      'url': 'https://chatglm.cn/main/detail'
+    - 'name': '通义千问'
+      'url': 'https://tongyi.aliyun.com/qianwen'
+    - 'name': '腾讯混元'
+      'url': 'https://hunyuan.tencent.com/bot/chat'
+    - 'name': 'Kimi'
+      'url': 'https://kimi.moonshot.cn/'
+    - 'name': '字节豆包'
+      'url': 'https://www.doubao.com/chat/'
+    - 'name': '小空调'
+      'url': 'https://wind.siax.cn/'
+    - 'name': 'anzhiyu主题'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '小冰博客'
+      'url': 'https://zfe.space/'
+    - 'name': 'Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '微风忆夏'
+      'url': 'https://sumiler.com/'
+    - 'name': '御网尚书的小宇宙'
+      'url': 'https://www.siteweb.cn/'
+    - 'name': 'Ethan.Tzy'
+      'url': 'https://fe32.top/'
+    - 'name': 'Leonus'
+      'url': 'https://blog.leonus.cn/'
+    - 'name': '小染笔记小染笔记不必借光而行，你我皆是星辰.'
+      'url': 'https://onoe.cn'
+    - 'name': '运维小弟'
+      'url': 'http://srebro.cn'
+    - 'name': 'www.srebro.cn'
+      'url': 'http://www.srebro.cn'
+    - 'name': '归途'
+      'url': 'https://halo.qq-channel.cn/'
+    - 'name': '茗辰原'
+      'url': 'https://mcy.cloudns.org/'
+    - 'name': '51la统计'
+      'url': 'https://v6.51.la/'
+    - 'name': '主题'
+      'url': 'https://docs.anheyu.com/'

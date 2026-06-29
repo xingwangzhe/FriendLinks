@@ -1,24 +1,16 @@
-site:
-  name: "blog.y11han.icu"
-  description: "友情链接"
-  url: "https://blog.y11han.icu/"
-  links: "/friends"
-  friends:
-    - name: "GitHub"
-      url: "https://github.com/Tamako0401"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/350153421"
-    - name: "legacy"
-      url: "https://old.y11han.icu/"
-    - name: "魔法少女ノ魔女裁判 公式 CGギャラリー"
-      url: "https://manosaba.com/#cg"
-    - name: "blog.s3loy.tech"
-      url: "https://blog.s3loy.tech"
-    - name: "www.sakimidare.top"
-      url: "https://www.sakimidare.top/"
-    - name: "nocp.space"
-      url: "https://nocp.space"
-    - name: "Astro"
-      url: "https://astro.build"
-    - name: "Mizuki"
-      url: "https://github.com/matsuzaka-yuki/mizuki"
+'site':
+  'name': 'blog.y11han.icu'
+  'description': '友情链接'
+  'url': 'https://blog.y11han.icu/'
+  'links': '/friends'
+  'friends':
+    - 'name': 'legacy'
+      'url': 'https://old.y11han.icu/'
+    - 'name': '魔法少女ノ魔女裁判 公式 CGギャラリー'
+      'url': 'https://manosaba.com/#cg'
+    - 'name': 'blog.s3loy.tech'
+      'url': 'https://blog.s3loy.tech'
+    - 'name': 'www.sakimidare.top'
+      'url': 'https://www.sakimidare.top/'
+    - 'name': 'nocp.space'
+      'url': 'https://nocp.space'

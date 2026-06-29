@@ -1,100 +1,84 @@
-site:
-  name: "blog.cuteleaf.cn"
-  description: "友情链接"
-  url: "https://blog.cuteleaf.cn/"
-  links: "/friends"
-  friends:
-    - name: "GitHub"
-      url: "https://github.com/CuteLeaf/Firefly"
-    - name: "Gitee"
-      url: "https://gitee.com/CuteLeaf/Firefly"
-    - name: "QQ交流群"
-      url: "https://qm.qq.com/q/ZGsFa8qX2G"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "暖暖图册为无限暖暖玩家量身定制的照片和分享码管理助手，搭配码、家园码、相机参数、精美照片等等，告别整理烦恼！工具"
-      url: "https://nikki.cuteleaf.cn"
-    - name: "霞の葉間光と言葉の狭間博客"
-      url: "https://kasuha.com"
-    - name: "Thee - 知识，与你分享🎉🎉🎉愿此行，终抵群星！博客"
-      url: "https://www.theelyj.com"
-    - name: "ZY知识库一个技术探索与分享的平台博客"
-      url: "https://blog.pljzy.top"
-    - name: "Elykia致以无暇之人博客"
-      url: "https://blog.elykia.cn"
-    - name: "THW’s Blog前途似海，来日方长博客"
-      url: "https://tianhw.top"
-    - name: "NoctiroA long road ahead, a star-bound end.博客"
-      url: "https://blog.noctiro.moe"
-    - name: "摸鱼の客栈没事摸摸鱼，反正焦虑也解决不了问题博客"
-      url: "https://blog.fwneko.com"
-    - name: "阿豪博客小站愿此行，终抵达群星。博客"
-      url: "https://chivehao.ikaros.run"
-    - name: "1zyq1 BlogProtect What You Love./爱你所爱！博客"
-      url: "https://www.1zyq1.com"
-    - name: "Serenity热爱可抵岁月漫长博客"
-      url: "https://www.aobp.cn"
-    - name: "Horean’s BlogSpread the knowledge wisely & widely.博客"
-      url: "https://blog.hxrch.top"
-    - name: "iMaeGoo’s Blog虹墨空间站博客"
-      url: "https://www.imaegoo.com"
-    - name: "二叉树树Protect What You Love.博客"
-      url: "https://2x.nz"
-    - name: "云海花瑶白头并非雪可替,相遇已是上上签博客"
-      url: "https://www.moeyao.cn"
-    - name: "时歌的博客理解以真实为本，但真实本身并不会自动呈现博客"
-      url: "https://www.lapis.cafe"
-    - name: "Misaka Network御坂网络 - 科学实验日志与技术观测站博客"
-      url: "https://blog.misaka-net.top"
-    - name: "NihaoShow一个人的网站博客"
-      url: "https://www.nihao.show"
-    - name: "White~Festa一处纯白色的灵感庆典。博客"
-      url: "https://white-festa.net"
-    - name: "SISUBENY's BlogHello, World!博客"
-      url: "https://sisubeny.space"
-    - name: "Zero - 浮生浮生一刹，万般皆舍博客"
-      url: "https://vtdd.vip"
-    - name: "LANSGANBS’s Blog红叶最多情，一舞寄相思。博客"
-      url: "https://www.lansganbs.cn"
-    - name: "JasonShane七月初七，淮水竹亭博客"
-      url: "https://blog.xshan.top/"
-    - name: "JustPureH2O 的博客穷方圆平直之情，尽规矩准绳之用博客"
-      url: "https://justpureh2o.cn"
-    - name: "傲雪の无聊的一天搭配神经的我～博客"
-      url: "https://www.oxue.de"
-    - name: "茶酒のBlog华风夏韵，洛水天依博客"
-      url: "https://blog.teadrink.me"
-    - name: "黎明博客读书、笔记、复盘和思考博客"
-      url: "https://blog.diudiudevil.cn"
-    - name: "未觉寻星愿此行，终抵群星博客"
-      url: "https://blog.xyamzw.top"
-    - name: "小慧博客小慧的技术博客博客"
-      url: "https://www.itxiaohui.top"
-    - name: "小曹同学の博客春祺夏安 秋绥冬禧博客"
-      url: "https://blog.caotx.cn"
-    - name: "甘蔗糖Blog看不出名堂博客"
-      url: "https://11458848.xyz"
-    - name: "可爱のElaina或许是不知梦的缘故，流离之人追逐幻影博客"
-      url: "https://blog.yhx1415926.top"
-    - name: "皮梦 の 茶馆这里是杂鱼皮梦的博客！博客"
-      url: "https://blog.07210700.xyz"
-    - name: "Century's Blog记录学习和生活的个人博客。博客"
-      url: "https://century647.dpdns.org"
-    - name: "LingLog于废墟之中升起灯塔博客"
-      url: "https://www.linglog.cc/"
-    - name: "小王的博客一个上了年纪的猿人.博客"
-      url: "https://www.huhaha.vip"
-    - name: "年华分享生活和技术。博客"
-      url: "https://blog.520781.xyz"
-    - name: "硬件日记记录嵌入式学习过程。博客"
-      url: "https://blog.tyh123.top/"
-    - name: "Sigrika-善良耙耙柑🍊记录我的二次元之旅博客"
-      url: "https://qwq.sigrika.cc/"
-    - name: "mccsjs点一盏灯，等待一个迷路的夜🍁博客"
-      url: "https://blog.seln.cn"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "桂ICP备20005240号-7"
-      url: "https://beian.miit.gov.cn/"
-    - name: "Astro"
-      url: "https://astro.build"
+'site':
+  'name': 'blog.cuteleaf.cn'
+  'description': '友情链接'
+  'url': 'https://blog.cuteleaf.cn/'
+  'links': '/friends'
+  'friends':
+    - 'name': '霞の葉間光と言葉の狭間博客'
+      'url': 'https://kasuha.com'
+    - 'name': 'Thee - 知识，与你分享🎉🎉🎉愿此行，终抵群星！博客'
+      'url': 'https://www.theelyj.com'
+    - 'name': 'ZY知识库一个技术探索与分享的平台博客'
+      'url': 'https://blog.pljzy.top'
+    - 'name': 'Elykia致以无暇之人博客'
+      'url': 'https://blog.elykia.cn'
+    - 'name': 'THW’s Blog前途似海，来日方长博客'
+      'url': 'https://tianhw.top'
+    - 'name': 'NoctiroA long road ahead, a star-bound end.博客'
+      'url': 'https://blog.noctiro.moe'
+    - 'name': '摸鱼の客栈没事摸摸鱼，反正焦虑也解决不了问题博客'
+      'url': 'https://blog.fwneko.com'
+    - 'name': '阿豪博客小站愿此行，终抵达群星。博客'
+      'url': 'https://chivehao.ikaros.run'
+    - 'name': '1zyq1 BlogProtect What You Love./爱你所爱！博客'
+      'url': 'https://www.1zyq1.com'
+    - 'name': 'Serenity热爱可抵岁月漫长博客'
+      'url': 'https://www.aobp.cn'
+    - 'name': 'Horean’s BlogSpread the knowledge wisely & widely.博客'
+      'url': 'https://blog.hxrch.top'
+    - 'name': 'iMaeGoo’s Blog虹墨空间站博客'
+      'url': 'https://www.imaegoo.com'
+    - 'name': '二叉树树Protect What You Love.博客'
+      'url': 'https://2x.nz'
+    - 'name': '云海花瑶白头并非雪可替,相遇已是上上签博客'
+      'url': 'https://www.moeyao.cn'
+    - 'name': '时歌的博客理解以真实为本，但真实本身并不会自动呈现博客'
+      'url': 'https://www.lapis.cafe'
+    - 'name': 'Misaka Network御坂网络 - 科学实验日志与技术观测站博客'
+      'url': 'https://blog.misaka-net.top'
+    - 'name': 'NihaoShow一个人的网站博客'
+      'url': 'https://www.nihao.show'
+    - 'name': 'White~Festa一处纯白色的灵感庆典。博客'
+      'url': 'https://white-festa.net'
+    - 'name': 'SISUBENY''s BlogHello, World!博客'
+      'url': 'https://sisubeny.space'
+    - 'name': 'Zero - 浮生浮生一刹，万般皆舍博客'
+      'url': 'https://vtdd.vip'
+    - 'name': 'LANSGANBS’s Blog红叶最多情，一舞寄相思。博客'
+      'url': 'https://www.lansganbs.cn'
+    - 'name': 'JasonShane七月初七，淮水竹亭博客'
+      'url': 'https://blog.xshan.top/'
+    - 'name': 'JustPureH2O 的博客穷方圆平直之情，尽规矩准绳之用博客'
+      'url': 'https://justpureh2o.cn'
+    - 'name': '傲雪の无聊的一天搭配神经的我～博客'
+      'url': 'https://www.oxue.de'
+    - 'name': '茶酒のBlog华风夏韵，洛水天依博客'
+      'url': 'https://blog.teadrink.me'
+    - 'name': '黎明博客读书、笔记、复盘和思考博客'
+      'url': 'https://blog.diudiudevil.cn'
+    - 'name': '未觉寻星愿此行，终抵群星博客'
+      'url': 'https://blog.xyamzw.top'
+    - 'name': '小慧博客小慧的技术博客博客'
+      'url': 'https://www.itxiaohui.top'
+    - 'name': '小曹同学の博客春祺夏安 秋绥冬禧博客'
+      'url': 'https://blog.caotx.cn'
+    - 'name': '甘蔗糖Blog看不出名堂博客'
+      'url': 'https://11458848.xyz'
+    - 'name': '可爱のElaina或许是不知梦的缘故，流离之人追逐幻影博客'
+      'url': 'https://blog.yhx1415926.top'
+    - 'name': '皮梦 の 茶馆这里是杂鱼皮梦的博客！博客'
+      'url': 'https://blog.07210700.xyz'
+    - 'name': 'Century''s Blog记录学习和生活的个人博客。博客'
+      'url': 'https://century647.dpdns.org'
+    - 'name': 'LingLog于废墟之中升起灯塔博客'
+      'url': 'https://www.linglog.cc/'
+    - 'name': '小王的博客一个上了年纪的猿人.博客'
+      'url': 'https://www.huhaha.vip'
+    - 'name': '年华分享生活和技术。博客'
+      'url': 'https://blog.520781.xyz'
+    - 'name': '硬件日记记录嵌入式学习过程。博客'
+      'url': 'https://blog.tyh123.top/'
+    - 'name': 'Sigrika-善良耙耙柑🍊记录我的二次元之旅博客'
+      'url': 'https://qwq.sigrika.cc/'
+    - 'name': 'mccsjs点一盏灯，等待一个迷路的夜🍁博客'
+      'url': 'https://blog.seln.cn'

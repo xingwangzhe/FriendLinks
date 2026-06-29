@@ -1,98 +1,200 @@
-site:
-  name: "qianxu.run"
-  description: "友情链接"
-  url: "https://qianxu.run/"
-  links: "/link"
-  friends:
-    - name: "Github"
-      url: "https://qianxu.run"
-    - name: "国内"
-      url: "http://blog.qxdn.fun"
-    - name: "导航"
-      url: "https://qxdn.fun"
-    - name: "监控"
-      url: "https://status.qxdn.fun/status/monitor"
-    - name: "网盘"
-      url: "https://pan.qxdn.fun"
-    - name: "画图"
-      url: "https://draw.qxdn.fun"
-    - name: "9nine TTS"
-      url: "https://huggingface.co/spaces/qxdn/tts-9nine"
-    - name: "Ciallo"
-      url: "https://ciallo.qianxu.run"
-    - name: "Zako"
-      url: "https://zako.qxdn.fun"
-    - name: "Nixie"
-      url: "https://nixie.qianxu.run"
-    - name: "YGO卡组"
-      url: "https://ygo.qianxu.run"
-    - name: "Zeromes\n      \n      Zeromes \n      咸鱼大学生"
-      url: "https://www.zeromes.cn/"
-    - name: "youmingsama\n      \n      youmingsama \n      摸鱼大师"
-      url: "https://youmingsama.cn/"
-    - name: "Akilarの糖果屋\n      \n      Akilarの糖果屋 \n      欢迎光临糖果屋"
-      url: "https://akilar.top/"
-    - name: "小孙同学\n      \n      小孙同学 \n      路虽远行则将至，事随难做则必成！"
-      url: "https://blog.sunguoqi.com"
-    - name: "Eurkon\n      \n      Eurkon \n      及时当勉励，岁月不待人。"
-      url: "https://blog.eurkon.com"
-    - name: "张洪Heo\n      \n      张洪Heo \n      分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "微笑博客\n      \n      微笑博客 \n      知天易，易天难。"
-      url: "https://www.wxjxw.cn/"
-    - name: "iMaeGoo’s Blog\n      \n      iMaeGoo’s Blog \n      虹墨空间站"
-      url: "https://www.imaegoo.com"
-    - name: "pellucid\n      \n      pellucid"
-      url: "https://pellucid.art/"
-    - name: "云烟成雨\n      \n      云烟成雨 \n      迷失的人迷失了，相逢的人会再相逢。"
-      url: "https://shiyu.dev"
-    - name: "Finisky Garden\n      \n      Finisky Garden \n      互联网技术那些事儿"
-      url: "https://finisky.github.io/"
-    - name: "Leet\n      \n      Leet \n      Out of my mind."
-      url: "https://leetme.netlify.app"
-    - name: "Tianli\n      \n      Tianli \n      自知之明是最可贵的知识！"
-      url: "https://tianli-blog.club/"
-    - name: "阳小楊\n      \n      阳小楊 \n      无人了解你的灵魂．"
-      url: "https://blog.yxyang.top"
-    - name: "Luminous’ Home\n      \n      Luminous’ Home \n      记录生活中的点滴"
-      url: "https://luotianyi.vc/"
-    - name: "白\n      \n      白 \n      萌新初来乍到，还请各位多多关照！"
-      url: "https://justmyblog.net/"
-    - name: "琅環书生\n      \n      琅環书生 \n      无远弗届，皆有可能"
-      url: "https://blog.chn.us.kg"
-    - name: "小橙子\n      \n      小橙子 \n      日落归山海，山海藏深意。"
-      url: "https://anorange.icu"
-    - name: "福福不服\n      \n      福福不服 \n      不服就是不服"
-      url: "https://ffbf.top"
-    - name: "小旦\n      \n      小旦 \n      SNTube Studio"
-      url: "https://satera.cn"
-    - name: "浪海导航\n      \n      浪海导航 \n      浪海导航 ~ 收录各种类型的博客以及论坛网站"
-      url: "https://www.langhai.net"
-    - name: "zjuatri\n      \n      zjuatri \n      アトリは、高性能ですから！"
-      url: "https://zjuatri.cn"
-    - name: "vvbbnn00\n      \n      vvbbnn00 \n      vvbbnn00的博客"
-      url: "https://blog.vvbbnn00.cn"
-    - name: "LovesAsunaの小窝\n      \n      LovesAsunaの小窝 \n      努力做高质量网站"
-      url: "https://blog.hyosakura.com"
-    - name: "Bleaz’s Blog\n      \n      Bleaz’s Blog \n      不畏过往，不惧将来"
-      url: "https://blog.bleaz.net"
-    - name: "MatchUs\n      \n      MatchUs \n      MatchUs项目组"
-      url: "https://github.com/MatchUs-ZJU"
-    - name: "AiClub-ZJU\n      \n      AiClub-ZJU \n      浙江大学AiClub"
-      url: "https://github.com/AiClub-ZJU"
-    - name: "BlogFinder\n      \n      BlogFinder \n      BlogFinder"
-      url: "https://bf.zzxworld.com/"
-    - name: "十年之约\n      \n      十年之约 \n      十年之约"
-      url: "https://foreverblog.cn/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Follow Me"
-      url: "https://github.com/qxdn"
-    - name: "blog.qxdn.fun"
-      url: "https://blog.qxdn.fun"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
-    - name: "浙ICP备2024067399号"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'qianxu.run'
+  'description': '友情链接'
+  'url': 'https://qianxu.run/'
+  'links': '/link'
+  'friends':
+    - 'name': '国内'
+      'url': 'http://blog.qxdn.fun'
+    - 'name': '画图'
+      'url': 'https://draw.qxdn.fun'
+    - 'name': '9nine TTS'
+      'url': 'https://huggingface.co/spaces/qxdn/tts-9nine'
+    - 'name': 'Ciallo'
+      'url': 'https://ciallo.qianxu.run'
+    - 'name': 'Zako'
+      'url': 'https://zako.qxdn.fun'
+    - 'name': 'Nixie'
+      'url': 'https://nixie.qianxu.run'
+    - 'name': 'YGO卡组'
+      'url': 'https://ygo.qianxu.run'
+    - 'name': "Zeromes
+
+        \     \ 
+
+        \      Zeromes\ 
+
+        \      咸鱼大学生"
+      'url': 'https://www.zeromes.cn/'
+    - 'name': "youmingsama
+
+        \     \ 
+
+        \      youmingsama\ 
+
+        \      摸鱼大师"
+      'url': 'https://youmingsama.cn/'
+    - 'name': "Akilarの糖果屋
+
+        \     \ 
+
+        \      Akilarの糖果屋\ 
+
+        \      欢迎光临糖果屋"
+      'url': 'https://akilar.top/'
+    - 'name': "小孙同学
+
+        \     \ 
+
+        \      小孙同学\ 
+
+        \      路虽远行则将至，事随难做则必成！"
+      'url': 'https://blog.sunguoqi.com'
+    - 'name': "Eurkon
+
+        \     \ 
+
+        \      Eurkon\ 
+
+        \      及时当勉励，岁月不待人。"
+      'url': 'https://blog.eurkon.com'
+    - 'name': "张洪Heo
+
+        \     \ 
+
+        \      张洪Heo\ 
+
+        \      分享设计与科技生活"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': "微笑博客
+
+        \     \ 
+
+        \      微笑博客\ 
+
+        \      知天易，易天难。"
+      'url': 'https://www.wxjxw.cn/'
+    - 'name': "iMaeGoo’s Blog
+
+        \     \ 
+
+        \      iMaeGoo’s Blog\ 
+
+        \      虹墨空间站"
+      'url': 'https://www.imaegoo.com'
+    - 'name': "pellucid\n     \ \n      pellucid"
+      'url': 'https://pellucid.art/'
+    - 'name': "云烟成雨
+
+        \     \ 
+
+        \      云烟成雨\ 
+
+        \      迷失的人迷失了，相逢的人会再相逢。"
+      'url': 'https://shiyu.dev'
+    - 'name': "Tianli
+
+        \     \ 
+
+        \      Tianli\ 
+
+        \      自知之明是最可贵的知识！"
+      'url': 'https://tianli-blog.club/'
+    - 'name': "阳小楊
+
+        \     \ 
+
+        \      阳小楊\ 
+
+        \      无人了解你的灵魂．"
+      'url': 'https://blog.yxyang.top'
+    - 'name': "Luminous’ Home
+
+        \     \ 
+
+        \      Luminous’ Home\ 
+
+        \      记录生活中的点滴"
+      'url': 'https://luotianyi.vc/'
+    - 'name': "白
+
+        \     \ 
+
+        \      白\ 
+
+        \      萌新初来乍到，还请各位多多关照！"
+      'url': 'https://justmyblog.net/'
+    - 'name': "琅環书生
+
+        \     \ 
+
+        \      琅環书生\ 
+
+        \      无远弗届，皆有可能"
+      'url': 'https://blog.chn.us.kg'
+    - 'name': "小橙子
+
+        \     \ 
+
+        \      小橙子\ 
+
+        \      日落归山海，山海藏深意。"
+      'url': 'https://anorange.icu'
+    - 'name': "福福不服
+
+        \     \ 
+
+        \      福福不服\ 
+
+        \      不服就是不服"
+      'url': 'https://ffbf.top'
+    - 'name': "小旦
+
+        \     \ 
+
+        \      小旦\ 
+
+        \      SNTube Studio"
+      'url': 'https://satera.cn'
+    - 'name': "zjuatri
+
+        \     \ 
+
+        \      zjuatri\ 
+
+        \      アトリは、高性能ですから！"
+      'url': 'https://zjuatri.cn'
+    - 'name': "vvbbnn00
+
+        \     \ 
+
+        \      vvbbnn00\ 
+
+        \      vvbbnn00的博客"
+      'url': 'https://blog.vvbbnn00.cn'
+    - 'name': "LovesAsunaの小窝
+
+        \     \ 
+
+        \      LovesAsunaの小窝\ 
+
+        \      努力做高质量网站"
+      'url': 'https://blog.hyosakura.com'
+    - 'name': "Bleaz’s Blog
+
+        \     \ 
+
+        \      Bleaz’s Blog\ 
+
+        \      不畏过往，不惧将来"
+      'url': 'https://blog.bleaz.net'
+    - 'name': "BlogFinder
+
+        \     \ 
+
+        \      BlogFinder\ 
+
+        \      BlogFinder"
+      'url': 'https://bf.zzxworld.com/'
+    - 'name': 'blog.qxdn.fun'
+      'url': 'https://blog.qxdn.fun'

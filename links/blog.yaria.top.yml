@@ -1,20 +1,8 @@
-site:
-  name: "Ariasaka"
-  url: "https://blog.yaria.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "个人主页"
-      url: "https://yaria.top"
-    - name: "日志"
-      url: "https://github.com/LYXOfficial/AriaBlogNext-frontend/commits/main/"
-    - name: "https://vercel.app"
-      url: "https://vercel.app"
-    - name: "https://www.chuqiyun.com"
-      url: "https://www.chuqiyun.com"
-    - name: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-      url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "https://foreverblog.cn"
-      url: "https://foreverblog.cn"
-    - name: "https://www.travellings.cn/"
-      url: "https://www.travellings.cn/"
+'site':
+  'name': 'Ariasaka'
+  'url': 'https://blog.yaria.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '个人主页'
+      'url': 'https://yaria.top'

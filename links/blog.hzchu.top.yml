@@ -1,34 +1,18 @@
-site:
-  name: "Thun888"
-  url: "https://blog.hzchu.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Artalk"
-      url: "https://artalk.js.org"
-    - name: "MRUI"
-      url: "https://mrui.hzchu.top/"
-    - name: "更多"
-      url: "https://github.com/thun888?tab=repositories"
-    - name: "日常"
-      url: "https://memos.hzchu.top/"
-    - name: "相册"
-      url: "https://gallery.hzchu.top/"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "穿梭虫洞"
-      url: "https://www.foreverblog.cn/go.html"
-    - name: "异次元之旅"
-      url: "https://travel.moe/go.html"
-    - name: "Stellar"
-      url: "https://github.com/xaoxuu/hexo-theme-stellar/tree/1.33.1"
-    - name: "CC BY-NC-SA 4.0"
-      url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "粤ICP备2025382466号"
-      url: "https://beian.miit.gov.cn/"
-    - name: "粤公网安备44080202000202号"
-      url: "https://beian.mps.gov.cn/#/query/webSearch"
-    - name: "萌ICP备20210043号"
-      url: "https://icp.gov.moe/?keyword=hzchu.top"
-    - name: "又拍云"
-      url: "https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
+'site':
+  'name': 'Thun888'
+  'url': 'https://blog.hzchu.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Artalk'
+      'url': 'https://artalk.js.org'
+    - 'name': 'MRUI'
+      'url': 'https://mrui.hzchu.top/'
+    - 'name': '日常'
+      'url': 'https://memos.hzchu.top/'
+    - 'name': '相册'
+      'url': 'https://gallery.hzchu.top/'
+    - 'name': 'CC BY-NC-SA 4.0'
+      'url': 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
+    - 'name': '又拍云'
+      'url': 'https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral'

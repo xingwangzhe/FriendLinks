@@ -1,54 +1,36 @@
-site:
-  name: "ydjsir.com.cn"
-  description: "友情链接"
-  url: "https://ydjsir.com.cn/"
-  links: "/link"
-  friends:
-    - name: "互联网计算实验手册"
-      url: "https://ydjsir.com.cn/network_experiment/"
-    - name: "NJUSE资料库"
-      url: "https://github.com/NJU-SE-15-share-review/professional-class"
-    - name: "YDJSIR\n      本站链接与简介"
-      url: "https://ydjsir.com.cn/"
-    - name: "KickKick\n      Hoshino酱~"
-      url: "https://hoshino.club"
-    - name: "Knight\n      nana酱~"
-      url: "https://knight.abn-team.top/"
-    - name: "奇趣保罗\n      正在学习前后端技术的一只萌新~"
-      url: "https://paugram.com/"
-    - name: "LadderOperator\n      教学立方插件作者"
-      url: "https://ladderoperator.top/"
-    - name: "idealclover\n      是翠翠的个人网站！"
-      url: "https://idealclover.top/"
-    - name: "方橙式(OrangeX4)\n      技术宅拯救世界."
-      url: "https://blog.orangex4.workers.dev/"
-    - name: "0xCLOVER\n      6×9=42"
-      url: "https://0xclover.com/"
-    - name: "EagleBear2002\n      分布式爬行者"
-      url: "https://eaglebear2002.github.io/"
-    - name: "Lyc8503\n      Welcome! (为什么副标题这么草率？主要是因为我没梗了：P)"
-      url: "https://blog.lyc8503.site/"
-    - name: "Holger\n      Never late to learn."
-      url: "https://blog.holger.host/"
-    - name: "小萝卜の博客\n      致瞬息万变之物，及亘古不变之物"
-      url: "https://www.milobo.moe"
-    - name: "我鬼知道の博客\n      倘若还能再多一丝勇气，想必就有着被改变的未来。"
-      url: "https://www.wgzdy.top"
-    - name: "IT-XIA\n      南大IT侠互助协会"
-      url: "https://itxia.club/"
-    - name: "Toyomu\n      东雍梦（网站已失效）"
-      url: "https://ydjsir.com.cn/link/"
-    - name: "https://www.ydjsir.com.cn/"
-      url: "https://www.ydjsir.com.cn/"
-    - name: "https://ydj.abn-team.top/"
-      url: "https://ydj.abn-team.top/"
-    - name: "Follow Me"
-      url: "https://github.com/YDJSIR-NJU"
-    - name: "Hexo 8.1.1"
-      url: "https://hexo.io"
-    - name: "Butterfly 5.5.4"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
-    - name: "粤ICP备20028390号-1"
-      url: "https://beian.miit.gov.cn/"
-    - name: "苏公网安备 32011302320916号"
-      url: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32011302320916"
+'site':
+  'name': 'ydjsir.com.cn'
+  'description': '友情链接'
+  'url': 'https://ydjsir.com.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': "KickKick\n      Hoshino酱~"
+      'url': 'https://hoshino.club'
+    - 'name': "Knight\n      nana酱~"
+      'url': 'https://knight.abn-team.top/'
+    - 'name': "奇趣保罗\n      正在学习前后端技术的一只萌新~"
+      'url': 'https://paugram.com/'
+    - 'name': "LadderOperator\n      教学立方插件作者"
+      'url': 'https://ladderoperator.top/'
+    - 'name': "idealclover\n      是翠翠的个人网站！"
+      'url': 'https://idealclover.top/'
+    - 'name': "方橙式(OrangeX4)\n      技术宅拯救世界."
+      'url': 'https://blog.orangex4.workers.dev/'
+    - 'name': "0xCLOVER\n      6×9=42"
+      'url': 'https://0xclover.com/'
+    - 'name': "Lyc8503
+
+        \      Welcome! (为什么副标题这么草率？主要是因为我没梗了：P)"
+      'url': 'https://blog.lyc8503.site/'
+    - 'name': "Holger\n      Never late to learn."
+      'url': 'https://blog.holger.host/'
+    - 'name': "小萝卜の博客\n      致瞬息万变之物，及亘古不变之物"
+      'url': 'https://www.milobo.moe'
+    - 'name': "我鬼知道の博客
+
+        \      倘若还能再多一丝勇气，想必就有着被改变的未来。"
+      'url': 'https://www.wgzdy.top'
+    - 'name': "IT-XIA\n      南大IT侠互助协会"
+      'url': 'https://itxia.club/'
+    - 'name': 'Hexo 8.1.1'
+      'url': 'https://hexo.io'

@@ -1,94 +1,54 @@
-site:
-  name: "Naive Koala"
-  url: "https://xalaok.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "aGitHub"
-      url: "https://github.com/Xalaok"
-    - name: "bmemos"
-      url: "https://memos.xalaok.top"
-    - name: "eTravelling"
-      url: "https://www.travellings.cn/go.html"
-    - name: "JdealLife is like a Design."
-      url: "https://www.jdeal.cn/"
-    - name: "L1nSn0w无限进步.🎈"
-      url: "https://blog.vaaat.com/"
-    - name: "無名小栈分享技术与科技生活"
-      url: "https://blog.imsyy.top/"
-    - name: "张洪 Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "老 T 博客法学法律工作者"
-      url: "https://lawtee.com/"
-    - name: "可乐君の小站"
-      url: "https://www.kelejun.cn/"
-    - name: "Lau Joe / Soar Freely纵浪大化中，不喜亦不惧"
-      url: "https://www.laujoe.top/"
-    - name: "绘星里一起来绘制属于自己的星星！"
-      url: "https://blog.storia.ren/"
-    - name: "木木木木木分享设计与科技生活"
-      url: "https://immmmm.com/"
-    - name: "Koobai 空白生活工作生活记录、折腾备忘"
-      url: "https://koobai.com/"
-    - name: "第三夏尔认真生活，积极摸鱼"
-      url: "https://thirdshire.com"
-    - name: "Yelle🦋希望我在有限的生命里始终奔跑"
-      url: "https://yelle.win/"
-    - name: "蘇 SU🌊在数字的海洋中，寻找属于自己的星辰."
-      url: "https://suus.me/"
-    - name: "Galaxy"
-      url: "https://lygalaxy.cn"
-    - name: "https://lygalaxy.cn/license/rss.php"
-      url: "https://lygalaxy.cn/license/rss.php"
-    - name: "liseezn"
-      url: "http://blog.liseezn.top"
-    - name: "https://blog.liseezn.top"
-      url: "https://blog.liseezn.top"
-    - name: "https://blog.liseezn.top/logo.webp"
-      url: "https://blog.liseezn.top/logo.webp"
-    - name: "https://blog.liseezn.top/feed"
-      url: "https://blog.liseezn.top/feed"
-    - name: "https://blog.liseezn.top/friend-links-apply/"
-      url: "https://blog.liseezn.top/friend-links-apply/"
-    - name: "https://blog.liseezn.top/friends/"
-      url: "https://blog.liseezn.top/friends/"
-    - name: "Xalaok"
-      url: "https://www.xalaok.top"
-    - name: "王九弦SZ·Ninty"
-      url: "https://blog.storical.fun/"
-    - name: "https://blog.storical.fun/images/icon.png"
-      url: "https://blog.storical.fun/images/icon.png"
-    - name: "L1nSn0w"
-      url: "https://log.vaaat.com"
-    - name: "https://www.laujoe.top/img/avatar_hu_2ba7c4c394b7cec8.png"
-      url: "https://www.laujoe.top/img/avatar_hu_2ba7c4c394b7cec8.png"
-    - name: "王九弦SZ·Ninty"
-      url: "https://blog.storical.space"
-    - name: "https://blog.storical.space/"
-      url: "https://blog.storical.space/"
-    - name: "https://blog.storical.space/images/icon.png"
-      url: "https://blog.storical.space/images/icon.png"
-    - name: "https://blog.sinzmise.top/"
-      url: "https://blog.sinzmise.top/"
-    - name: "https://blog.sinzmise.top/images/icon.png"
-      url: "https://blog.sinzmise.top/images/icon.png"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "『访问统计』"
-      url: "https://umami.xalaok.top/share/2ndVFyWbLflp6As3/"
-    - name: "Hugo"
-      url: "https://gohugo.io/"
-    - name: "Stack"
-      url: "https://stack.jimmycai.com/"
-    - name: "Jimmy"
-      url: "https://jimmycai.com/"
-    - name: "Xalaok"
-      url: "https://www.xalaok.top/"
-    - name: "采用 CC BY-NC-SA 4.0 协议"
-      url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "部署于 Vercel"
-      url: "https://vercel.com/"
-    - name: "网站源码托管于 Github"
-      url: "https://github.com/"
-    - name: "由 Umami 提供数据分析"
-      url: "https://umami.is/"
+'site':
+  'name': 'Naive Koala'
+  'url': 'https://xalaok.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'bmemos'
+      'url': 'https://memos.xalaok.top'
+    - 'name': 'JdealLife is like a Design.'
+      'url': 'https://www.jdeal.cn/'
+    - 'name': 'L1nSn0w无限进步.🎈'
+      'url': 'https://blog.vaaat.com/'
+    - 'name': '無名小栈分享技术与科技生活'
+      'url': 'https://blog.imsyy.top/'
+    - 'name': '张洪 Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '老 T 博客法学法律工作者'
+      'url': 'https://lawtee.com/'
+    - 'name': '可乐君の小站'
+      'url': 'https://www.kelejun.cn/'
+    - 'name': 'Lau Joe / Soar Freely纵浪大化中，不喜亦不惧'
+      'url': 'https://www.laujoe.top/'
+    - 'name': '绘星里一起来绘制属于自己的星星！'
+      'url': 'https://blog.storia.ren/'
+    - 'name': '木木木木木分享设计与科技生活'
+      'url': 'https://immmmm.com/'
+    - 'name': 'Koobai 空白生活工作生活记录、折腾备忘'
+      'url': 'https://koobai.com/'
+    - 'name': '第三夏尔认真生活，积极摸鱼'
+      'url': 'https://thirdshire.com'
+    - 'name': 'Yelle🦋希望我在有限的生命里始终奔跑'
+      'url': 'https://yelle.win/'
+    - 'name': '蘇 SU🌊在数字的海洋中，寻找属于自己的星辰.'
+      'url': 'https://suus.me/'
+    - 'name': 'Galaxy'
+      'url': 'https://lygalaxy.cn'
+    - 'name': 'liseezn'
+      'url': 'http://blog.liseezn.top'
+    - 'name': '王九弦SZ·Ninty'
+      'url': 'https://blog.storical.fun/'
+    - 'name': 'L1nSn0w'
+      'url': 'https://log.vaaat.com'
+    - 'name': '王九弦SZ·Ninty'
+      'url': 'https://blog.storical.space'
+    - 'name': '『访问统计』'
+      'url': 'https://umami.xalaok.top/share/2ndVFyWbLflp6As3/'
+    - 'name': 'Stack'
+      'url': 'https://stack.jimmycai.com/'
+    - 'name': 'Jimmy'
+      'url': 'https://jimmycai.com/'
+    - 'name': '采用 CC BY-NC-SA 4.0 协议'
+      'url': 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
+    - 'name': '由 Umami 提供数据分析'
+      'url': 'https://umami.is/'

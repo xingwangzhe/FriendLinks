@@ -1,16 +1,10 @@
-site:
-  name: "innomad"
-  url: "https://innomad.io/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "hweining"
-      url: "https://www.hweining.top/"
-    - name: "量化思想汇"
-      url: "https://qthinker.net/"
-    - name: "XX"
-      url: "https://x.com/innomad_io"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "viblog"
-      url: "https://github.com/innomad-io/viblog"
+'site':
+  'name': 'innomad'
+  'url': 'https://innomad.io/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'hweining'
+      'url': 'https://www.hweining.top/'
+    - 'name': '量化思想汇'
+      'url': 'https://qthinker.net/'

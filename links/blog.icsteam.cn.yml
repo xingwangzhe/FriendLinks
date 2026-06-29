@@ -1,44 +1,26 @@
-site:
-  name: "icsteam"
-  url: "https://blog.icsteam.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "icstem.cn工业自动化砖家"
-      url: "https://blog.icsteam.cn"
-    - name: "张洪 Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "博客集致力于收集优秀的中文独立博客。"
-      url: "https://bloginc.cn"
-    - name: "落花雨季落花无言，人淡如水"
-      url: "https://www.luohuayu.cn/"
-    - name: "周天记（满心博客）记录生活里的小美好"
-      url: "https://zhoutian.com"
-    - name: "孤芳不自赏日益努力，而后风生水起"
-      url: "https://www.gfbzsblog.site/"
-    - name: "EvanNotFound's Blog用香港记者的速度更新文章"
-      url: "https://ohevan.com"
-    - name: "CWorld Site求知若愚，虚怀若谷"
-      url: "https://cworld0.com/"
-    - name: "TravisTravis’s Blog"
-      url: "https://chrivs.com/"
-    - name: "她微笑的脸往往并不是有兴趣才能做好，而是做好了才有兴趣。"
-      url: "https://www.linhuiy.com/"
-    - name: "星河避难所写代码，也写自己"
-      url: "https://hejunjie.life"
-    - name: "BlogFinder聚合个人博客"
-      url: "https://bf.zzxworld.com/s"
-    - name: "https://blog.icsteam.cn"
-      url: "https://blog.icsteam.cn/"
-    - name: "https://blog.icsteam.cn/myimg/avatar.jpg"
-      url: "https://blog.icsteam.cn/myimg/avatar.jpg"
-    - name: "https://blog.icsteam.cn/myimg/bg_light.jpg"
-      url: "https://blog.icsteam.cn/myimg/bg_light.jpg"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Redefine v2.9.0"
-      url: "https://github.com/EvanNotFound/hexo-theme-redefine"
-    - name: "粤 ICP 备 2023055979 号"
-      url: "https://beian.miit.gov.cn"
+'site':
+  'name': 'icsteam'
+  'url': 'https://blog.icsteam.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '张洪 Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '落花雨季落花无言，人淡如水'
+      'url': 'https://www.luohuayu.cn/'
+    - 'name': '周天记（满心博客）记录生活里的小美好'
+      'url': 'https://zhoutian.com'
+    - 'name': '孤芳不自赏日益努力，而后风生水起'
+      'url': 'https://www.gfbzsblog.site/'
+    - 'name': 'EvanNotFound''s Blog用香港记者的速度更新文章'
+      'url': 'https://ohevan.com'
+    - 'name': 'CWorld Site求知若愚，虚怀若谷'
+      'url': 'https://cworld0.com/'
+    - 'name': 'TravisTravis’s Blog'
+      'url': 'https://chrivs.com/'
+    - 'name': '她微笑的脸往往并不是有兴趣才能做好，而是做好了才有兴趣。'
+      'url': 'https://www.linhuiy.com/'
+    - 'name': '星河避难所写代码，也写自己'
+      'url': 'https://hejunjie.life'
+    - 'name': 'BlogFinder聚合个人博客'
+      'url': 'https://bf.zzxworld.com/s'

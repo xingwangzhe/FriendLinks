@@ -1,34 +1,18 @@
-site:
-  name: "codertoro.top"
-  description: "友情链接"
-  url: "https://codertoro.top/"
-  links: "/link"
-  friends:
-    - name: "网站收藏"
-      url: "https://web.codertoro.com/"
-    - name: "小康博客小康博客一个收藏回忆与分享技术的地方！"
-      url: "https://www.antmoe.com/"
-    - name: "小城故事小城故事欢迎光临小城故事!"
-      url: "https://www.webxc.eu.org/"
-    - name: "itsNekoitsNeko有源源就有我！"
-      url: "https://dyfa.top"
-    - name: "淡云墨雨~blog淡云墨雨~blog想让每个平凡的日子里溢出欢喜"
-      url: "https://djgeeker.com"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "个人主页"
-      url: "https://www.codertoro.com/"
-    - name: "Github"
-      url: "https://github.com/codertoro"
-    - name: "qq"
-      url: "https://cdn.staticaly.com/gh/coder-ox/image_hosting@master/20221203/qrcode_1670064925207.135x7l3tculc.webp"
-    - name: "wechat"
-      url: "https://cdn.staticaly.com/gh/coder-ox/image_hosting@master/20221203/image.1flu2ilwgjhc.webp"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
-    - name: "辽ICP备2023001049号-1"
-      url: "https://beian.miit.gov.cn/#/Integrated/index"
-    - name: "晋公网安备 14093202000012号"
-      url: "https://www.beian.gov.cn/portal/registerSystemInfo"
+'site':
+  'name': 'codertoro.top'
+  'description': '友情链接'
+  'url': 'https://codertoro.top/'
+  'links': '/link'
+  'friends':
+    - 'name': '网站收藏'
+      'url': 'https://web.codertoro.com/'
+    - 'name': '小康博客小康博客一个收藏回忆与分享技术的地方！'
+      'url': 'https://www.antmoe.com/'
+    - 'name': '小城故事小城故事欢迎光临小城故事!'
+      'url': 'https://www.webxc.eu.org/'
+    - 'name': 'itsNekoitsNeko有源源就有我！'
+      'url': 'https://dyfa.top'
+    - 'name': '淡云墨雨~blog淡云墨雨~blog想让每个平凡的日子里溢出欢喜'
+      'url': 'https://djgeeker.com'
+    - 'name': '个人主页'
+      'url': 'https://www.codertoro.com/'

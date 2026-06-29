@@ -1,86 +1,56 @@
-site:
-  name: "未雨绸缪"
-  url: "https://7boe.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Github文件加速"
-      url: "https://github.7boe.top"
-    - name: "网易云API接口"
-      url: "https://api.7boe.top"
-    - name: "PVE"
-      url: "https://pve.7boe.top"
-    - name: "Grafana"
-      url: "https://stat.7boe.top"
-    - name: "Harbor"
-      url: "https://harbor.7boe.top"
-    - name: "主站"
-      url: "https://www.7boe.top"
-    - name: "流量监控"
-      url: "https://umami.7boe.top/share/VUj0f0Sz7BcbV8yO/7boe.top"
-    - name: "服务监控"
-      url: "https://vps.7boe.top/"
-    - name: "网盘"
-      url: "https://cloud.7boe.top/"
-    - name: "图床"
-      url: "https://img.7boe.top/"
-    - name: "随机前往一个开往项目网站"
-      url: "https://www.travellings.cn/go.html"
-    - name: "芸熙の小屋"
-      url: "https://stvue.com/"
-    - name: "杜老师说"
-      url: "https://dusays.com"
-    - name: "小妖のLinrol"
-      url: "https://blog.linrol.cn"
-    - name: "木偶"
-      url: "https://7muo.top"
-    - name: "清风"
-      url: "https://xbd666.cn/"
-    - name: "七云's Blog"
-      url: "https://www.zets.cn/"
-    - name: "POETIZE"
-      url: "https://poetize.cn"
-    - name: "Anyeの小站"
-      url: "https://www.anye.xyz"
-    - name: "百里飞洋の博客"
-      url: "https://blog.meta-code.top"
-    - name: "二丫讲梵"
-      url: "https://wiki.eryajf.net/"
-    - name: "会飞的猫"
-      url: "https://blog.flycat.tech"
-    - name: "阿泳的小破站"
-      url: "https://ares-tech-stack.cn/blog_service/#/about"
-    - name: "Fomalhaut"
-      url: "https://www.fomal.cc/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "爱玩实验室"
-      url: "https://iwanlab.com/"
-    - name: "安稳博客"
-      url: "https://blog.zytllt.cn/"
-    - name: "星空小站"
-      url: "https://www.m78.co"
-    - name: "樱次元"
-      url: "https://solaacg.com"
-    - name: "Celia"
-      url: "https://steamcommunity.com/profiles/76561198202260005"
-    - name: "KKISO574"
-      url: "https://github.com/KKISO574"
-    - name: "Celia"
-      url: "https://blog.csdn.net/qq_38711677"
-    - name: "油管"
-      url: "https://www.youtube.com/channel/UCi0uxa1uYt7F0mw5Xf4jmdg"
-    - name: "B站"
-      url: "https://space.bilibili.com/293161085"
-    - name: "BaySakura"
-      url: "https://web.telegram.org/k/#@BaySakura"
-    - name: "博客"
-      url: "https://7boe.top"
-    - name: "开往"
-      url: "https://www.travellings.cn/"
-    - name: "博客商城"
-      url: "https://bf.zzxworld.com/"
-    - name: "主题"
-      url: "https://github.com/liuzhihang/halo-theme-hao"
-    - name: "皖ICP备2023002009-2号"
-      url: "https://beian.miit.gov.cn/#/Integrated/index"
+'site':
+  'name': '未雨绸缪'
+  'url': 'https://7boe.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'PVE'
+      'url': 'https://pve.7boe.top'
+    - 'name': 'Grafana'
+      'url': 'https://stat.7boe.top'
+    - 'name': 'Harbor'
+      'url': 'https://harbor.7boe.top'
+    - 'name': '芸熙の小屋'
+      'url': 'https://stvue.com/'
+    - 'name': '杜老师说'
+      'url': 'https://dusays.com'
+    - 'name': '小妖のLinrol'
+      'url': 'https://blog.linrol.cn'
+    - 'name': '木偶'
+      'url': 'https://7muo.top'
+    - 'name': '清风'
+      'url': 'https://xbd666.cn/'
+    - 'name': '七云''s Blog'
+      'url': 'https://www.zets.cn/'
+    - 'name': 'POETIZE'
+      'url': 'https://poetize.cn'
+    - 'name': 'Anyeの小站'
+      'url': 'https://www.anye.xyz'
+    - 'name': '百里飞洋の博客'
+      'url': 'https://blog.meta-code.top'
+    - 'name': '会飞的猫'
+      'url': 'https://blog.flycat.tech'
+    - 'name': '阿泳的小破站'
+      'url': 'https://ares-tech-stack.cn/blog_service/#/about'
+    - 'name': 'Fomalhaut'
+      'url': 'https://www.fomal.cc/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '爱玩实验室'
+      'url': 'https://iwanlab.com/'
+    - 'name': '安稳博客'
+      'url': 'https://blog.zytllt.cn/'
+    - 'name': '星空小站'
+      'url': 'https://www.m78.co'
+    - 'name': '樱次元'
+      'url': 'https://solaacg.com'
+    - 'name': 'Celia'
+      'url': 'https://steamcommunity.com/profiles/76561198202260005'
+    - 'name': 'Celia'
+      'url': 'https://blog.csdn.net/qq_38711677'
+    - 'name': '油管'
+      'url': 'https://www.youtube.com/channel/UCi0uxa1uYt7F0mw5Xf4jmdg'
+    - 'name': 'BaySakura'
+      'url': 'https://web.telegram.org/k/#@BaySakura'
+    - 'name': '博客商城'
+      'url': 'https://bf.zzxworld.com/'

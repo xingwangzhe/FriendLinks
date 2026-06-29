@@ -1,42 +1,40 @@
-site:
-  name: "blog.nanshengwx.cn"
-  description: "友情链接"
-  url: "https://blog.nanshengwx.cn/"
-  links: "/friends"
-  friends:
-    - name: "「奇幻中文网」- 我的第一部处女作"
-      url: "https://www.aobp.cn/archives/019f0cf4-88e1-7372-9889-a3122df9ae4b"
-    - name: "绘星科技工坊\n          8 小时前"
-      url: "https://www.aobp.cn/"
-    - name: "洪绘动图发布：将视频转换为帧图或者GIF并且限制只有5MB，APNG、WEBP动图生成工具"
-      url: "https://blog.zhheo.com/p/9yuhxjpl.html"
-    - name: "张洪Heo\n          3 天前"
-      url: "https://blog.zhheo.com/"
-    - name: "接入 Claude Code指北"
-      url: "https://blog.yuncan.xyz/posts/1782371969718/"
-    - name: "云灿の随笔小站\n          4 天前"
-      url: "https://blog.yuncan.xyz/"
-    - name: "【重读经典】YOLO的进化之路（中）"
-      url: "http://funnywii.com/archives/1782200880854"
-    - name: "FunnyWii's Zone\n          5 天前"
-      url: "https://funnywii.com/"
-    - name: "知识花园：构建你的第二大脑"
-      url: "https://blog.zopiya.com/knowledge-garden-book-68f62572/"
-    - name: "向阳而生\n          6 天前"
-      url: "https://blog.7wate.com/"
-    - name: "完工。端午，吃碗面"
-      url: "https://blog.yuncan.xyz/posts/done-dragon-boat/"
-    - name: "Moments 极简朋友圈 + iPhone 16 Pro 网页模拟完整实现"
-      url: "https://blog.zxiaolin.com/archives/momen-pro"
-    - name: "小林酱博客\n          10 天前"
-      url: "https://blog.zxiaolin.com"
-    - name: "AI支付宝上手：内容全靠编，出问题甩锅给商家，付款快退款难"
-      url: "https://blog.zhheo.com/p/sir4kfs9.html"
-    - name: "重要照片一定要备份，手机养成照片备份的好习惯"
-      url: "https://blog.zhheo.com/p/cyw9sqnh.html"
-    - name: "HeoSticker3D发布：3D形态的Heo表情，个人免费使用"
-      url: "https://blog.zhheo.com/p/mjpbdtsh.html"
-    - name: "【重读经典】一文看完YOLO系列的变迁"
-      url: "http://funnywii.com/archives/1781091579555"
-    - name: "从化下了半个月的雨"
-      url: "https://blog.yuncan.xyz/posts/conghua-rain/"
+'site':
+  'name': 'blog.nanshengwx.cn'
+  'description': '友情链接'
+  'url': 'https://blog.nanshengwx.cn/'
+  'links': '/friends'
+  'friends':
+    - 'name': '「奇幻中文网」- 我的第一部处女作'
+      'url': 'https://www.aobp.cn/archives/019f0cf4-88e1-7372-9889-a3122df9ae4b'
+    - 'name': "绘星科技工坊\n          8 小时前"
+      'url': 'https://www.aobp.cn/'
+    - 'name': "张洪Heo\n          3 天前"
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '接入 Claude Code指北'
+      'url': 'https://blog.yuncan.xyz/posts/1782371969718/'
+    - 'name': "云灿の随笔小站\n          4 天前"
+      'url': 'https://blog.yuncan.xyz/'
+    - 'name': '【重读经典】YOLO的进化之路（中）'
+      'url': 'http://funnywii.com/archives/1782200880854'
+    - 'name': "FunnyWii's Zone\n          5 天前"
+      'url': 'https://funnywii.com/'
+    - 'name': '知识花园：构建你的第二大脑'
+      'url': 'https://blog.zopiya.com/knowledge-garden-book-68f62572/'
+    - 'name': "向阳而生\n          6 天前"
+      'url': 'https://blog.7wate.com/'
+    - 'name': '完工。端午，吃碗面'
+      'url': 'https://blog.yuncan.xyz/posts/done-dragon-boat/'
+    - 'name': 'Moments 极简朋友圈 + iPhone 16 Pro 网页模拟完整实现'
+      'url': 'https://blog.zxiaolin.com/archives/momen-pro'
+    - 'name': "小林酱博客\n          10 天前"
+      'url': 'https://blog.zxiaolin.com'
+    - 'name': 'AI支付宝上手：内容全靠编，出问题甩锅给商家，付款快退款难'
+      'url': 'https://blog.zhheo.com/p/sir4kfs9.html'
+    - 'name': '重要照片一定要备份，手机养成照片备份的好习惯'
+      'url': 'https://blog.zhheo.com/p/cyw9sqnh.html'
+    - 'name': 'HeoSticker3D发布：3D形态的Heo表情，个人免费使用'
+      'url': 'https://blog.zhheo.com/p/mjpbdtsh.html'
+    - 'name': '【重读经典】一文看完YOLO系列的变迁'
+      'url': 'http://funnywii.com/archives/1781091579555'
+    - 'name': '从化下了半个月的雨'
+      'url': 'https://blog.yuncan.xyz/posts/conghua-rain/'

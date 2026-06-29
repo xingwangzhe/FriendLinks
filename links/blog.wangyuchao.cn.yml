@@ -1,22 +1,14 @@
-site:
-  name: "blog.wangyuchao.cn"
-  description: "友情链接"
-  url: "https://blog.wangyuchao.cn/"
-  links: "/link"
-  friends:
-    - name: "博客"
-      url: "https://blog.wangyuchao.cn/"
-    - name: "新闻"
-      url: "https://news.wangyuchao.cn/"
-    - name: "covercoverHexo"
-      url: "https://hexo.io/zh-tw/"
-    - name: "安知鱼安知鱼生活明朗，万物可爱"
-      url: "https://blog.anheyu.com/"
-    - name: "张洪Heo张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Github"
-      url: "https://github.com/wangyuchaogeek"
-    - name: "京ICP备2023024810号"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'blog.wangyuchao.cn'
+  'description': '友情链接'
+  'url': 'https://blog.wangyuchao.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '新闻'
+      'url': 'https://news.wangyuchao.cn/'
+    - 'name': 'covercoverHexo'
+      'url': 'https://hexo.io/zh-tw/'
+    - 'name': '安知鱼安知鱼生活明朗，万物可爱'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '张洪Heo张洪Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'

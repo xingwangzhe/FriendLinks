@@ -1,18 +1,10 @@
-site:
-  name: "shouw"
-  url: "https://shouw.blog/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Arkito's Blog兴趣驱使"
-      url: "https://blog.arkitosekai.net/"
-    - name: "lynptl's Blog由于Bug过于可爱，我决定给它们建个博客，顺便混个UNSW文凭。"
-      url: "https://lynptl.github.io/"
-    - name: "网笙久久's blog一件事情是幸福还是不幸，关键是你怎么去看。"
-      url: "https://www.wsjj.top"
-    - name: "Sponsor YunYouJun"
-      url: "https://www.yunyoujun.cn/sponsors/"
-    - name: "Valaxy"
-      url: "https://github.com/YunYouJun/valaxy.git"
-    - name: "Yun"
-      url: "https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun.git"
+'site':
+  'name': 'shouw'
+  'url': 'https://shouw.blog/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Arkito''s Blog兴趣驱使'
+      'url': 'https://blog.arkitosekai.net/'
+    - 'name': '网笙久久''s blog一件事情是幸福还是不幸，关键是你怎么去看。'
+      'url': 'https://www.wsjj.top'

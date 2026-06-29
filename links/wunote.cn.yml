@@ -1,16 +1,6 @@
-site:
-  name: "某咸鱼"
-  url: "https://wunote.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "欸嘿~"
-      url: "https://www.wunote.cn/article/9/"
-    - name: "浙ICP备2023001984号-1"
-      url: "https://beian.miit.gov.cn/"
-    - name: "浙公网安备 33108102001069号"
-      url: "https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33108102001069"
-    - name: "Hexo"
-      url: "https://hexo.io/"
-    - name: "AirCloud"
-      url: "https://github.com/aircloud/hexo-theme-aircloud"
+'site':
+  'name': '某咸鱼'
+  'url': 'https://wunote.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends': []

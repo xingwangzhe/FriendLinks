@@ -1,80 +1,34 @@
-site:
-  name: "MilkSU"
-  url: "https://starneko.com/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "RzWeb Binary RE"
-      url: "https://re.milksu.org/"
-    - name: "CyberChef Misc"
-      url: "https://misc.milksu.org/"
-    - name: "水碧枫crystmaple.net提拉米苏、南瓜派与红茶"
-      url: "https://www.crystmaple.net"
-    - name: "GitHub"
-      url: "https://github.com/CrystMaple"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/1139519970"
-    - name: "Xiaotian 7196koten.top无论如何，请不要后悔与我相遇"
-      url: "https://koten.top"
-    - name: "GitHub"
-      url: "https://github.com/xiaotian7196"
-    - name: "hsnzh314.xyz手里两把锟斤拷，口中直呼烫烫烫"
-      url: "https://www.zh314.xyz"
-    - name: "GitHub"
-      url: "https://github.com/hsn8086"
-    - name: "Twitter"
-      url: "https://twitter.com/hsn8086"
-    - name: "Telegram"
-      url: "https://t.me/+QN71SuTbvAZlMmI1"
-    - name: "SorrowRain的小窝0xsr.dev关于生活、思考、随笔以及碎碎念"
-      url: "https://0xsr.dev/"
-    - name: "GitHub"
-      url: "https://github.com/sorrowrain"
-    - name: "Twitter"
-      url: "https://x.com/0xSorrowRain"
-    - name: "Telegram"
-      url: "https://t.me/SorrowRain"
-    - name: "GitHub"
-      url: "https://github.com/mintdesu"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/307514475"
-    - name: "啊不都oplog.cnQexo 开发者 / Hexo 博主"
-      url: "https://www.oplog.cn"
-    - name: "GitHub"
-      url: "https://github.com/am-abudu"
-    - name: "ZianTTziantt.topKEEP LOVING, KEEP LIVING"
-      url: "https://ziantt.top/"
-    - name: "GitHub"
-      url: "https://github.com/ZianTT"
-    - name: "Twitter"
-      url: "https://twitter.com/ZianTT_Official"
-    - name: "柒鸟one-among.usR.I.P."
-      url: "https://www.one-among.us/profile/SevenBird"
-    - name: "CAOMEIblog.awacat.cc小草莓！"
-      url: "http://blog.awacat.cc"
-    - name: "GitHub"
-      url: "https://github.com/MinecraftYYDS"
-    - name: "Twitter"
-      url: "https://x.com/wxb_NB"
-    - name: "Telegram"
-      url: "https://t.me/awa_cat"
-    - name: "小小柳之絮gymxbl.com古之立大事者，不惟有超世之材，亦必有坚忍不拨之志"
-      url: "https://www.gymxbl.com"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/139186903"
-    - name: "知乎"
-      url: "https://www.zhihu.com/people/xiao-xiao-liu-zhi-xu"
-    - name: "编汐译梦CacheTidecachetide.top无人相伴的路，惝恍迷离的舞"
-      url: "https://www.cachetide.top"
-    - name: "GitHub"
-      url: "https://github.com/CacheTide"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/159435471"
-    - name: "Telegram"
-      url: "https://t.me/Luo_yiyu"
-    - name: "秋奈Akinaakinachan.com"
-      url: "https://akinachan.com"
-    - name: "清凤小栈xn--l9qq99d.fun清凤和Kilock的温馨小屋"
-      url: "https://清凤.fun"
-    - name: "GitHub"
-      url: "https://github.com/HikaruQwQ"
+'site':
+  'name': 'MilkSU'
+  'url': 'https://starneko.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'RzWeb Binary RE'
+      'url': 'https://re.milksu.org/'
+    - 'name': 'CyberChef Misc'
+      'url': 'https://misc.milksu.org/'
+    - 'name': '水碧枫crystmaple.net提拉米苏、南瓜派与红茶'
+      'url': 'https://www.crystmaple.net'
+    - 'name': 'Xiaotian 7196koten.top无论如何，请不要后悔与我相遇'
+      'url': 'https://koten.top'
+    - 'name': 'hsnzh314.xyz手里两把锟斤拷，口中直呼烫烫烫'
+      'url': 'https://www.zh314.xyz'
+    - 'name': 'SorrowRain的小窝0xsr.dev关于生活、思考、随笔以及碎碎念'
+      'url': 'https://0xsr.dev/'
+    - 'name': '啊不都oplog.cnQexo 开发者 / Hexo 博主'
+      'url': 'https://www.oplog.cn'
+    - 'name': 'ZianTTziantt.topKEEP LOVING, KEEP LIVING'
+      'url': 'https://ziantt.top/'
+    - 'name': '柒鸟one-among.usR.I.P.'
+      'url': 'https://www.one-among.us/profile/SevenBird'
+    - 'name': 'CAOMEIblog.awacat.cc小草莓！'
+      'url': 'http://blog.awacat.cc'
+    - 'name': '小小柳之絮gymxbl.com古之立大事者，不惟有超世之材，亦必有坚忍不拨之志'
+      'url': 'https://www.gymxbl.com'
+    - 'name': '编汐译梦CacheTidecachetide.top无人相伴的路，惝恍迷离的舞'
+      'url': 'https://www.cachetide.top'
+    - 'name': '秋奈Akinaakinachan.com'
+      'url': 'https://akinachan.com'
+    - 'name': '清凤小栈xn--l9qq99d.fun清凤和Kilock的温馨小屋'
+      'url': 'https://清凤.fun'

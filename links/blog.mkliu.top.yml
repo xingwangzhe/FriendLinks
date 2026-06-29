@@ -1,48 +1,26 @@
-site:
-  name: "michaelliunsky"
-  url: "https://blog.mkliu.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "友情链接"
-      url: "https://blog.mkliu.top/links"
-    - name: "说说"
-      url: "https://blog.mkliu.top/whisper"
-    - name: "留言板"
-      url: "https://blog.mkliu.top/comments"
-    - name: "Web"
-      url: "https://blog.mkliu.top/category/web"
-    - name: "Life"
-      url: "https://blog.mkliu.top/category/life"
-    - name: "Others"
-      url: "https://blog.mkliu.top/category/others"
-    - name: "旺东自留地"
-      url: "https://wang618.cn"
-    - name: "Byrd’s Blog"
-      url: "https://note.t4x.org"
-    - name: "老官童鞋gogo的博客"
-      url: "https://www.laoguantx.top"
-    - name: "瀚海星辰"
-      url: "https://www.imuu.cn"
-    - name: "GoodBoyboy’s Blog"
-      url: "https://blog.goodboyboy.top/"
-    - name: "EvanNotFound’s Blog"
-      url: "https://ohevan.com"
-    - name: "国光"
-      url: "https://www.sqlsec.com/"
-    - name: "张戈博客"
-      url: "https://zhang.ge/"
-    - name: "Bensz"
-      url: "https://blognas.hwb0307.com/"
-    - name: "确定"
-      url: "https://blog.mkliu.top/login?action=logout&redirect_to=https%3A%2F%2Fblog.mkliu.top%2Flinks&_wpnonce=04f2efea04"
-    - name: "旺东"
-      url: "https://wang618.cn/"
-    - name: "« 上一页"
-      url: "https://blog.mkliu.top/links/comment-page-2#comments"
-    - name: "GitHub"
-      url: "https://github.com/michaelliunsky"
-    - name: "Telegram"
-      url: "https://t.me/michaelliunsky"
-    - name: "michaelliunsky"
-      url: "https://blog.mkliu.top/"
+'site':
+  'name': 'michaelliunsky'
+  'url': 'https://blog.mkliu.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '旺东自留地'
+      'url': 'https://wang618.cn'
+    - 'name': 'Byrd’s Blog'
+      'url': 'https://note.t4x.org'
+    - 'name': '老官童鞋gogo的博客'
+      'url': 'https://www.laoguantx.top'
+    - 'name': '瀚海星辰'
+      'url': 'https://www.imuu.cn'
+    - 'name': 'GoodBoyboy’s Blog'
+      'url': 'https://blog.goodboyboy.top/'
+    - 'name': 'EvanNotFound’s Blog'
+      'url': 'https://ohevan.com'
+    - 'name': '国光'
+      'url': 'https://www.sqlsec.com/'
+    - 'name': '张戈博客'
+      'url': 'https://zhang.ge/'
+    - 'name': 'Bensz'
+      'url': 'https://blognas.hwb0307.com/'
+    - 'name': '旺东'
+      'url': 'https://wang618.cn/'

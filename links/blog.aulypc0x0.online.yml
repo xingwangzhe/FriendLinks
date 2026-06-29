@@ -1,24 +1,10 @@
-site:
-  name: "blog.aulypc0x0.online"
-  description: "友情链接"
-  url: "https://blog.aulypc0x0.online/"
-  links: "/friends"
-  friends:
-    - name: "开往·Travelling"
-      url: "https://www.travellings.cn/go.html"
-    - name: "giscus"
-      url: "https://giscus.app/zh-CN"
-    - name: "Kay’s Blog"
-      url: "https://blog.kayxue.xyz/"
-    - name: "咸鱼小窝"
-      url: "https://qqquq.com"
-    - name: "Astro"
-      url: "https://astro.build"
-    - name: "Fuwari"
-      url: "https://github.com/saicaca/fuwari"
-    - name: "又拍云CDN"
-      url: "https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
-    - name: "豫ICP备2024082600号"
-      url: "https://beian.miit.gov.cn"
-    - name: "萌ICP备20245060号"
-      url: "https://icp.gov.moe/?keyword=20245060"
+'site':
+  'name': 'blog.aulypc0x0.online'
+  'description': '友情链接'
+  'url': 'https://blog.aulypc0x0.online/'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Kay’s Blog'
+      'url': 'https://blog.kayxue.xyz/'
+    - 'name': '咸鱼小窝'
+      'url': 'https://qqquq.com'

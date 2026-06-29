@@ -1,16 +1,12 @@
-site:
-  name: "howcode.online"
-  description: "友情链接"
-  url: "https://howcode.online/"
-  links: "/link"
-  friends:
-    - name: "vuePress-theme-reco"
-      url: "https://vuepress-theme-reco.recoluan.com"
-    - name: "Gitee\n    (opens new window)"
-      url: "https://gitee.com/howcode"
-    - name: "CSDN\n    (opens new window)"
-      url: "https://blog.csdn.net/weixin_42000816?spm=1000.2115.3001.5343"
-    - name: "掘金\n    (opens new window)"
-      url: "https://juejin.cn/user/3870758380505431"
-    - name: "粤ICP备2021160789号"
-      url: "https://beian.miit.gov.cn/#/Integrated/index"
+'site':
+  'name': 'howcode.online'
+  'description': '友情链接'
+  'url': 'https://howcode.online/'
+  'links': '/link'
+  'friends':
+    - 'name': 'vuePress-theme-reco'
+      'url': 'https://vuepress-theme-reco.recoluan.com'
+    - 'name': "CSDN\n    (opens new window)"
+      'url': 'https://blog.csdn.net/weixin_42000816?spm=1000.2115.3001.5343'
+    - 'name': "掘金\n    (opens new window)"
+      'url': 'https://juejin.cn/user/3870758380505431'

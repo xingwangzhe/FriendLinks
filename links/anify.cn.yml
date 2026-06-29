@@ -1,28 +1,16 @@
-site:
-  name: "anify.cn"
-  description: "友情链接"
-  url: "https://anify.cn/"
-  links: "/link"
-  friends:
-    - name: "WuWang"
-      url: "http://blog.anify.cn"
-    - name: "搬砖的码农"
-      url: "https://refblogs.com"
-    - name: "葱苓sama"
-      url: "https://blog.ciraos.top"
-    - name: "Youtube"
-      url: "https://www.youtube.com/"
-    - name: "Weibo"
-      url: "https://www.weibo.com/"
-    - name: "Twitter"
-      url: "https://twitter.com/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "百度统计"
-      url: "https://tongji.baidu.com/main/overview/10000601682/overview/index?siteId=20022476"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
-    - name: "豫ICP备2023004284号-3"
-      url: "https://beian.miit.gov.cn"
+'site':
+  'name': 'anify.cn'
+  'description': '友情链接'
+  'url': 'https://anify.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': 'WuWang'
+      'url': 'http://blog.anify.cn'
+    - 'name': '搬砖的码农'
+      'url': 'https://refblogs.com'
+    - 'name': '葱苓sama'
+      'url': 'https://blog.ciraos.top'
+    - 'name': 'Youtube'
+      'url': 'https://www.youtube.com/'
+    - 'name': '百度统计'
+      'url': 'https://tongji.baidu.com/main/overview/10000601682/overview/index?siteId=20022476'

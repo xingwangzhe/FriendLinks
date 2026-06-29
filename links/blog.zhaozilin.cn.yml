@@ -1,40 +1,24 @@
-site:
-  name: "橙の小站"
-  url: "https://blog.zhaozilin.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "QQ"
-      url: "https://qm.qq.com/q/2xQ040ssFK"
-    - name: "QQ 群"
-      url: "https://qm.qq.com/cgi-bin/qm/qr?k=JZCUQmZXUfkkOZI26nmGd5euc45NUIxQ&jump_from=webapi&authKey=OscGZ0B3mzzLeiow0PCxk2ItKVKRwLMrWiWSGGhEcy7w0JjBrUrNu4D+wvcq5IhA"
-    - name: "GitHub"
-      url: "https://github.com/Chengzi600"
-    - name: "哔哩哔哩"
-      url: "https://space.bilibili.com/361273232"
-    - name: "Mete0r's Blog | 壹人小站Trust the process."
-      url: "https://www.xscnet.cn/"
-    - name: "热衷于de博客一个有趣的灵魂"
-      url: "https://zooyoo.top/"
-    - name: "JustPureH2O 的博客穷方圆平直之情，尽规矩准绳之用。"
-      url: "https://justpureh2o.cn"
-    - name: "Aesrium の树洞一只咸鱼肥宅，兼职学生党"
-      url: "https://www.azusemisa.top"
-    - name: "Norcleeh's Site由一条咸鱼搭建的网站"
-      url: "https://nocp.space"
-    - name: "zuanshijia’s blog人要成仙，必先疯癫"
-      url: "https://zuanshijia.top/"
-    - name: "雾小蒜的小窝雾小蒜的一个小网页"
-      url: "https://wuxiao.us.kg/"
-    - name: "MuXiaoChen🍊柴米油盐酱醋茶，般般都在别人家"
-      url: "https://miraii.cn/"
-    - name: "Damon_ZhangのBlog于万千星光沉溺"
-      url: "https://blog.damonz.cn/"
-    - name: "赣ICP备2022003307号"
-      url: "https://beian.miit.gov.cn/"
-    - name: "(^_^)"
-      url: "https://blog.zhaozilin.cn/links"
-    - name: "Valaxy"
-      url: "https://github.com/YunYouJun/valaxy"
-    - name: "Yun"
-      url: "https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun"
+'site':
+  'name': '橙の小站'
+  'url': 'https://blog.zhaozilin.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Mete0r''s Blog | 壹人小站Trust the process.'
+      'url': 'https://www.xscnet.cn/'
+    - 'name': '热衷于de博客一个有趣的灵魂'
+      'url': 'https://zooyoo.top/'
+    - 'name': 'JustPureH2O 的博客穷方圆平直之情，尽规矩准绳之用。'
+      'url': 'https://justpureh2o.cn'
+    - 'name': 'Aesrium の树洞一只咸鱼肥宅，兼职学生党'
+      'url': 'https://www.azusemisa.top'
+    - 'name': 'Norcleeh''s Site由一条咸鱼搭建的网站'
+      'url': 'https://nocp.space'
+    - 'name': 'zuanshijia’s blog人要成仙，必先疯癫'
+      'url': 'https://zuanshijia.top/'
+    - 'name': '雾小蒜的小窝雾小蒜的一个小网页'
+      'url': 'https://wuxiao.us.kg/'
+    - 'name': 'MuXiaoChen🍊柴米油盐酱醋茶，般般都在别人家'
+      'url': 'https://miraii.cn/'
+    - 'name': 'Damon_ZhangのBlog于万千星光沉溺'
+      'url': 'https://blog.damonz.cn/'

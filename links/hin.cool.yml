@@ -1,38 +1,50 @@
-site:
-  name: "hin.cool"
-  description: "友情链接"
-  url: "https://hin.cool/"
-  links: "/friends"
-  friends:
-    - name: "Butterfly主题\n      \n      Butterfly主题 \n      A Hexo Theme"
-      url: "https://butterfly.js.org/"
-    - name: "Xaoxuu\n      \n      Xaoxuu \n      Volantis主题开发者"
-      url: "https://xaoxuu.com"
-    - name: "MHuiG\n      \n      MHuiG \n      Volantis主题开发者"
-      url: "https://blog.mhuig.top/"
-    - name: "枋柚梓\n      \n      枋柚梓 \n      繁星永存，记忆亘古不变。"
-      url: "https://inkss.cn"
-    - name: "Jerry\n      \n      Jerry \n      Butterfly主题开发者"
-      url: "https://crazywong.com/"
-    - name: "Github"
-      url: "https://github.com/W4J1e"
-    - name: "云盘"
-      url: "https://pan.hin.cool"
-    - name: "腾讯云2H2G 年付99元"
-      url: "https://curl.qcloud.com/Tzag7A6h"
-    - name: "Pikpak 离线云盘"
-      url: "https://mypikpak.com/?invitation-code=hNRWNbyg"
-    - name: "QQ"
-      url: "https://wpa.qq.com/msgrd?v=3&uin=892599923&site=qq&menu=yes"
-    - name: "EdgeOne&多吉云"
-      url: "https://www.dogecloud.com/?iuid=2384"
-    - name: "Butterfly"
-      url: "https://butterfly.js.org"
-    - name: "渝ICP备2021002160号"
-      url: "https://beian.miit.gov.cn"
-    - name: "渝公网安备 50023002020266号"
-      url: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50023002020266"
-    - name: "开源导航"
-      url: "https://a.hin.cool"
-    - name: "站点地图"
-      url: "https://hin.cool/sitemap.xml"
+'site':
+  'name': 'hin.cool'
+  'description': '友情链接'
+  'url': 'https://hin.cool/'
+  'links': '/friends'
+  'friends':
+    - 'name': "Butterfly主题
+
+        \     \ 
+
+        \      Butterfly主题\ 
+
+        \      A Hexo Theme"
+      'url': 'https://butterfly.js.org/'
+    - 'name': "Xaoxuu
+
+        \     \ 
+
+        \      Xaoxuu\ 
+
+        \      Volantis主题开发者"
+      'url': 'https://xaoxuu.com'
+    - 'name': "MHuiG
+
+        \     \ 
+
+        \      MHuiG\ 
+
+        \      Volantis主题开发者"
+      'url': 'https://blog.mhuig.top/'
+    - 'name': "枋柚梓
+
+        \     \ 
+
+        \      枋柚梓\ 
+
+        \      繁星永存，记忆亘古不变。"
+      'url': 'https://inkss.cn'
+    - 'name': "Jerry
+
+        \     \ 
+
+        \      Jerry\ 
+
+        \      Butterfly主题开发者"
+      'url': 'https://crazywong.com/'
+    - 'name': '腾讯云2H2G 年付99元'
+      'url': 'https://curl.qcloud.com/Tzag7A6h'
+    - 'name': 'EdgeOne&多吉云'
+      'url': 'https://www.dogecloud.com/?iuid=2384'

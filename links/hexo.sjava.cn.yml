@@ -1,246 +1,168 @@
-site:
-  name: "hexo.sjava.cn"
-  description: "友情链接"
-  url: "https://hexo.sjava.cn/"
-  links: "/link"
-  friends:
-    - name: "我的主页"
-      url: "https://home.sjava.cn"
-    - name: "芈亓"
-      url: "https://lx95.top/"
-    - name: "线路一"
-      url: "https://hexo.sjava.cn/"
-    - name: "线路二"
-      url: "https://sjava.cn/"
-    - name: "Typecho"
-      url: "https://blog.sjava.cn/"
-    - name: "我的相册"
-      url: "https://photo.sjava.cn/"
-    - name: "ChatGPT"
-      url: "https://chatgpt.sjava.cn/"
-    - name: "知识速查"
-      url: "https://quick.sjava.cn/"
-    - name: "AI助手"
-      url: "https://chatgpt.sjava.cn"
-    - name: "铭心石刻"
-      url: "https://blog.kouseki.cn/"
-    - name: "Fomalhaut🥝"
-      url: "https://www.fomal.cc/"
-    - name: "我的小站"
-      url: "https://sjava.cn"
-    - name: "沙漠渔溏"
-      url: "https://www.sammery.com/"
-    - name: "天津土著"
-      url: "https://www.pedon.cn"
-    - name: "玖涯博客"
-      url: "https://blog.nineya.com"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "风记星辰"
-      url: "https://www.thyuu.com"
-    - name: "木木木木木"
-      url: "https://immmmm.com/"
-    - name: "葱苓"
-      url: "https://blog.itciraos.cn"
-    - name: "别亦难"
-      url: "https://lazyingman.cn"
-    - name: "毕少侠-Hexo-Anzhiyu"
-      url: "https://hexo.geekswg.top/"
-    - name: "沐泽的树洞"
-      url: "https://zelihole.github.io/blog2023"
-    - name: "阿锋的小屋"
-      url: "https://blogg.snailuu.cn/"
-    - name: "轻笑Chuckle"
-      url: "https://www.qcqx.cn"
-    - name: "风记星辰"
-      url: "https://www.thyuu.com/"
-    - name: "小冰博客"
-      url: "https://zfe.one"
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com/"
-    - name: "武小袁这是一个非常牛逼的博客"
-      url: "https://dudewu.top/"
-    - name: "柳意梧情博客心在哪里收获就在哪里"
-      url: "https://lywq.muyin.site"
-    - name: "Sunry大佬的博客"
-      url: "https://www.sunry.top/"
-    - name: "小志IT知识库一个专注于安全领域的全栈博客"
-      url: "https://www.czfq99.cn"
-    - name: "Leonus进一寸有进一寸的欢喜。"
-      url: "https://blog.leonus.cn/"
-    - name: "王先森运维与安全从业者！"
-      url: "https://www.boysec.cn"
-    - name: "杜老师说杜老师的博客"
-      url: "https://dusays.com"
-    - name: "海底涝里没有鱼平安喜乐，万事胜意"
-      url: "https://smileszh.cn"
-    - name: "冰梦未来可期，人间值得"
-      url: "https://bingmeng158.github.io"
-    - name: "阿豪の博客hexo人间值得，未来可期"
-      url: "https://ahao.ah.cn"
-    - name: "洛屿的小站嗨，靓仔，今天也要有个好心情哦"
-      url: "https://www.drluo.top/"
-    - name: "青衣墨客世界既不黑也不白，而是一道精致的灰"
-      url: "https://www.qingyi1220.cn/"
-    - name: "Dash博客⌈搏海之明辉，何来彼岸？⌋"
-      url: "https://dashbing.github.io/"
-    - name: "满心Heo追求让人充实，分享让人快乐"
-      url: "https://blog.lovelu.top/"
-    - name: "安仔の午睡床啊对对对，开摆就完了呗"
-      url: "https://anzai.sleepingbed.top/"
-    - name: "iMaeGoo’s Blog虹墨空间站"
-      url: "https://www.imaegoo.com"
-    - name: "Eurkon及时当勉励，岁月不待人。"
-      url: "https://blog.eurkon.com"
-    - name: "AdilBW/HANA顾问,BI工程师,数据分析师,数据科学家。"
-      url: "https://blog.adil.com.cn"
-    - name: "异次元の机智君这是一位大佬"
-      url: "https://www.anzifan.com/"
-    - name: "慕斯风在迷茫中吹来夏天，少年借微光成长"
-      url: "https://blog.dd.ac.cn/"
-    - name: "刘洪亮Leo的博客不忘初心，方得始终"
-      url: "https://lhliang.com"
-    - name: "rencai今天你学了么"
-      url: "https://btrencai.top"
-    - name: "流年轻迹开放，包容，共享，团结"
-      url: "https://www.olive-r.cn"
-    - name: "玖久的小窝有钱终成眷属，没钱亲眼目睹"
-      url: "https://blog.zhuxu.xyz/"
-    - name: "永恒末匕留下瞬间，记录永恒"
-      url: "https://www.avbk.cn"
-    - name: "DragonJayMy web3 blog"
-      url: "https://blog.dragonjay.top/"
-    - name: "XKの博客一个干净整洁的个人博客"
-      url: "https://www.xukaiyyds.cn"
-    - name: "Ronny's BlogTry to do better"
-      url: "https://www.wrqj.xyz"
-    - name: "胖田儿一个很有意思的小胖墩的个人博客"
-      url: "https://www.pangtianer.com"
-    - name: "爱吃肉的猫有肉有猫有生活."
-      url: "https://meuicat.com/"
-    - name: "繁華如夢苍茫大地一剑尽挽破，何处繁华笙歌落。"
-      url: "https://holyghostf.github.io/"
-    - name: "阿醒的学习探索分享AI科技，人生体验和认知成长。"
-      url: "https://blog.wakehuang.com"
-    - name: "探人间努力吃上更贵的雪糕！"
-      url: "https://www.hydsb0.com"
-    - name: "Cisyam分享思想，留下痕迹"
-      url: "https://manamn.space/"
-    - name: "Ganzhe顺其自然，持之以恒"
-      url: "https://ganzhe2028.github.io/"
-    - name: "屑殇一只咸鱼"
-      url: "https://jinghuashang.cn/"
-    - name: "风起星辰行远自迩，登高自卑"
-      url: "https://blog.qiaoxiao.top"
-    - name: "小植同学生生不息，好运不止"
-      url: "https://blog.xiaoztx.top"
-    - name: "糖丸及时当勉，岁月不待"
-      url: "https://tany.top"
-    - name: "小赵の破宅生数理化生一塌糊涂的理科生，对兴趣情有独钟的追寻！"
-      url: "https://blog.zhaoziyi.site"
-    - name: "寒烟志半山腰总是挤的，你得去山顶看看"
-      url: "https://yanyuplus.cn/"
-    - name: "灼灼某人逃之夭夭，灼灼其华"
-      url: "https://blog.zzmr.club/"
-    - name: "呆鱼Hello World！"
-      url: "https://daiyu.fun/"
-    - name: "lhDream醉后不知天在水，满船清梦压星河。"
-      url: "https://blog.luhua.site"
-    - name: "阳小楊无人了解你的灵魂．"
-      url: "https://blog.yxyang.top"
-    - name: "墨尘虽多尘色染，犹见墨痕浓"
-      url: "https://mnchen.cn/"
-    - name: "HiPeach妙不可言"
-      url: "https://blog.opeach.cn"
-    - name: "TumyTime我环顾四周，并没有看到什么上帝"
-      url: "https://tumytime.github.io/"
-    - name: "Calyee追求充实，分享快乐"
-      url: "https://blog.calyee.top/"
-    - name: "爱家-文章分享源码分享平台,优质文章,最新APP推荐,开源代码库.IT技术博客"
-      url: "https://www.zhen.cab/"
-    - name: "LogDict一个专注于记录, 分享, 学习的网站"
-      url: "https://www.logdict.com"
-    - name: "李开开博客李开开的技术学习与日常分享"
-      url: "https://blog.caonmd.com/"
-    - name: "Yeppioo梦想成为庄稼地里的读书人....."
-      url: "https://blog.yeppioo.vip/"
-    - name: "塔塔心平能愈三千疾•心静可通万事理"
-      url: "https://www.tata.me"
-    - name: "极客日记莫愁前路无知己，天下谁人不识君。"
-      url: "https://www.explorexd.com"
-    - name: "https://lx95.top/upload/2023/06/image-1688049017259.png"
-      url: "https://lx95.top/upload/2023/06/image-1688049017259.png"
-    - name: "https://hexo.sjava.cn/img/pic.png"
-      url: "https://hexo.sjava.cn/img/pic.png"
-    - name: "神经蛙"
-      url: "http://sjava"
-    - name: "https://blog.caonmd.com/rss.xml"
-      url: "https://blog.caonmd.com/rss.xml"
-    - name: "https://blog.caonmd.com/links"
-      url: "https://blog.caonmd.com/links"
-    - name: "https://blog.yep.vin/static/info.json"
-      url: "https://blog.yep.vin/static/info.json"
-    - name: "DUINEW"
-      url: "http://duinew.com"
-    - name: "https://duinew.com/"
-      url: "https://duinew.com/"
-    - name: "https://d.duinew.com/logo.webp"
-      url: "https://d.duinew.com/logo.webp"
-    - name: "https://d.duinew.com/logo-w.webp"
-      url: "https://d.duinew.com/logo-w.webp"
-    - name: "https://duinew.com/rss.xml"
-      url: "https://duinew.com/rss.xml"
-    - name: "八对"
-      url: "https://8dui.com"
-    - name: "https://cf.8dui.com/logo.webp"
-      url: "https://cf.8dui.com/logo.webp"
-    - name: "https://cf.8dui.com/logo-w.webp"
-      url: "https://cf.8dui.com/logo-w.webp"
-    - name: "https://8dui.com/rss.xml"
-      url: "https://8dui.com/rss.xml"
-    - name: "https://img.i20.cn/logo.webp"
-      url: "https://img.i20.cn/logo.webp"
-    - name: "https://img.i20.cn/logo-w.webp"
-      url: "https://img.i20.cn/logo-w.webp"
-    - name: "https://www.tata.me/rss.xml"
-      url: "https://www.tata.me/rss.xml"
-    - name: "https://www.tata.me/links"
-      url: "https://www.tata.me/links"
-    - name: "https://halo.cos.explorexd.com/halo/jack.jpeg"
-      url: "https://halo.cos.explorexd.com/halo/jack.jpeg"
-    - name: "https://www.explorexd.com/rss.xml"
-      url: "https://www.explorexd.com/rss.xml"
-    - name: "BA7NYW"
-      url: "https://www.ba7nyw.com/"
-    - name: "https://www.ba7nyw.com/photos/NTNimage.jpg"
-      url: "https://www.ba7nyw.com/photos/NTNimage.jpg"
-    - name: "不语"
-      url: "https://zhuxu.asia/"
-    - name: "https://q.qlogo.cn/g?b=qq&nk=2776686748&s=640"
-      url: "https://q.qlogo.cn/g?b=qq&nk=2776686748&s=640"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "微博"
-      url: "https://weibo.com/"
-    - name: "facebook"
-      url: "https://www.facebook.com/"
-    - name: "Github"
-      url: "https://github.com/sunstar1995"
-    - name: "Bilibili"
-      url: "https://space.bilibili.com/97714912"
-    - name: "抖音"
-      url: "https://v.douyin.com/"
-    - name: "51la统计"
-      url: "https://v6.51.la/"
-    - name: "十年之约"
-      url: "https://www.foreverblog.cn/"
-    - name: "博客框架为Hexo_v5.4.0"
-      url: "https://hexo.io/"
-    - name: "本站使用AnZhiYu主题"
-      url: "https://anheyu.com/"
-    - name: "本站已在晋备案"
-      url: "https://beian.miit.gov.cn/#/Integrated/index"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-    - name: "晋ICP备-20001144号"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'hexo.sjava.cn'
+  'description': '友情链接'
+  'url': 'https://hexo.sjava.cn/'
+  'links': '/link'
+  'friends':
+    - 'name': '我的主页'
+      'url': 'https://home.sjava.cn'
+    - 'name': '芈亓'
+      'url': 'https://lx95.top/'
+    - 'name': '线路二'
+      'url': 'https://sjava.cn/'
+    - 'name': '我的相册'
+      'url': 'https://photo.sjava.cn/'
+    - 'name': 'ChatGPT'
+      'url': 'https://chatgpt.sjava.cn/'
+    - 'name': '知识速查'
+      'url': 'https://quick.sjava.cn/'
+    - 'name': '铭心石刻'
+      'url': 'https://blog.kouseki.cn/'
+    - 'name': 'Fomalhaut🥝'
+      'url': 'https://www.fomal.cc/'
+    - 'name': '我的小站'
+      'url': 'https://sjava.cn'
+    - 'name': '沙漠渔溏'
+      'url': 'https://www.sammery.com/'
+    - 'name': '天津土著'
+      'url': 'https://www.pedon.cn'
+    - 'name': '玖涯博客'
+      'url': 'https://blog.nineya.com'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '风记星辰'
+      'url': 'https://www.thyuu.com'
+    - 'name': '木木木木木'
+      'url': 'https://immmmm.com/'
+    - 'name': '葱苓'
+      'url': 'https://blog.itciraos.cn'
+    - 'name': '别亦难'
+      'url': 'https://lazyingman.cn'
+    - 'name': '毕少侠-Hexo-Anzhiyu'
+      'url': 'https://hexo.geekswg.top/'
+    - 'name': '阿锋的小屋'
+      'url': 'https://blogg.snailuu.cn/'
+    - 'name': '轻笑Chuckle'
+      'url': 'https://www.qcqx.cn'
+    - 'name': '风记星辰'
+      'url': 'https://www.thyuu.com/'
+    - 'name': '小冰博客'
+      'url': 'https://zfe.one'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': '武小袁这是一个非常牛逼的博客'
+      'url': 'https://dudewu.top/'
+    - 'name': '柳意梧情博客心在哪里收获就在哪里'
+      'url': 'https://lywq.muyin.site'
+    - 'name': 'Sunry大佬的博客'
+      'url': 'https://www.sunry.top/'
+    - 'name': '小志IT知识库一个专注于安全领域的全栈博客'
+      'url': 'https://www.czfq99.cn'
+    - 'name': 'Leonus进一寸有进一寸的欢喜。'
+      'url': 'https://blog.leonus.cn/'
+    - 'name': '王先森运维与安全从业者！'
+      'url': 'https://www.boysec.cn'
+    - 'name': '杜老师说杜老师的博客'
+      'url': 'https://dusays.com'
+    - 'name': '海底涝里没有鱼平安喜乐，万事胜意'
+      'url': 'https://smileszh.cn'
+    - 'name': '阿豪の博客hexo人间值得，未来可期'
+      'url': 'https://ahao.ah.cn'
+    - 'name': '洛屿的小站嗨，靓仔，今天也要有个好心情哦'
+      'url': 'https://www.drluo.top/'
+    - 'name': '青衣墨客世界既不黑也不白，而是一道精致的灰'
+      'url': 'https://www.qingyi1220.cn/'
+    - 'name': '满心Heo追求让人充实，分享让人快乐'
+      'url': 'https://blog.lovelu.top/'
+    - 'name': '安仔の午睡床啊对对对，开摆就完了呗'
+      'url': 'https://anzai.sleepingbed.top/'
+    - 'name': 'iMaeGoo’s Blog虹墨空间站'
+      'url': 'https://www.imaegoo.com'
+    - 'name': 'Eurkon及时当勉励，岁月不待人。'
+      'url': 'https://blog.eurkon.com'
+    - 'name': 'AdilBW/HANA顾问,BI工程师,数据分析师,数据科学家。'
+      'url': 'https://blog.adil.com.cn'
+    - 'name': '异次元の机智君这是一位大佬'
+      'url': 'https://www.anzifan.com/'
+    - 'name': '慕斯风在迷茫中吹来夏天，少年借微光成长'
+      'url': 'https://blog.dd.ac.cn/'
+    - 'name': '刘洪亮Leo的博客不忘初心，方得始终'
+      'url': 'https://lhliang.com'
+    - 'name': 'rencai今天你学了么'
+      'url': 'https://btrencai.top'
+    - 'name': '流年轻迹开放，包容，共享，团结'
+      'url': 'https://www.olive-r.cn'
+    - 'name': '玖久的小窝有钱终成眷属，没钱亲眼目睹'
+      'url': 'https://blog.zhuxu.xyz/'
+    - 'name': '永恒末匕留下瞬间，记录永恒'
+      'url': 'https://www.avbk.cn'
+    - 'name': 'DragonJayMy web3 blog'
+      'url': 'https://blog.dragonjay.top/'
+    - 'name': 'XKの博客一个干净整洁的个人博客'
+      'url': 'https://www.xukaiyyds.cn'
+    - 'name': 'Ronny''s BlogTry to do better'
+      'url': 'https://www.wrqj.xyz'
+    - 'name': '胖田儿一个很有意思的小胖墩的个人博客'
+      'url': 'https://www.pangtianer.com'
+    - 'name': '爱吃肉的猫有肉有猫有生活.'
+      'url': 'https://meuicat.com/'
+    - 'name': '阿醒的学习探索分享AI科技，人生体验和认知成长。'
+      'url': 'https://blog.wakehuang.com'
+    - 'name': '探人间努力吃上更贵的雪糕！'
+      'url': 'https://www.hydsb0.com'
+    - 'name': 'Cisyam分享思想，留下痕迹'
+      'url': 'https://manamn.space/'
+    - 'name': '屑殇一只咸鱼'
+      'url': 'https://jinghuashang.cn/'
+    - 'name': '风起星辰行远自迩，登高自卑'
+      'url': 'https://blog.qiaoxiao.top'
+    - 'name': '小植同学生生不息，好运不止'
+      'url': 'https://blog.xiaoztx.top'
+    - 'name': '糖丸及时当勉，岁月不待'
+      'url': 'https://tany.top'
+    - 'name': '小赵の破宅生数理化生一塌糊涂的理科生，对兴趣情有独钟的追寻！'
+      'url': 'https://blog.zhaoziyi.site'
+    - 'name': '寒烟志半山腰总是挤的，你得去山顶看看'
+      'url': 'https://yanyuplus.cn/'
+    - 'name': '灼灼某人逃之夭夭，灼灼其华'
+      'url': 'https://blog.zzmr.club/'
+    - 'name': '呆鱼Hello World！'
+      'url': 'https://daiyu.fun/'
+    - 'name': 'lhDream醉后不知天在水，满船清梦压星河。'
+      'url': 'https://blog.luhua.site'
+    - 'name': '阳小楊无人了解你的灵魂．'
+      'url': 'https://blog.yxyang.top'
+    - 'name': '墨尘虽多尘色染，犹见墨痕浓'
+      'url': 'https://mnchen.cn/'
+    - 'name': 'HiPeach妙不可言'
+      'url': 'https://blog.opeach.cn'
+    - 'name': 'Calyee追求充实，分享快乐'
+      'url': 'https://blog.calyee.top/'
+    - 'name': '爱家-文章分享源码分享平台,优质文章,最新APP推荐,开源代码库.IT技术博客'
+      'url': 'https://www.zhen.cab/'
+    - 'name': 'LogDict一个专注于记录, 分享, 学习的网站'
+      'url': 'https://www.logdict.com'
+    - 'name': '李开开博客李开开的技术学习与日常分享'
+      'url': 'https://blog.caonmd.com/'
+    - 'name': 'Yeppioo梦想成为庄稼地里的读书人.....'
+      'url': 'https://blog.yeppioo.vip/'
+    - 'name': '塔塔心平能愈三千疾•心静可通万事理'
+      'url': 'https://www.tata.me'
+    - 'name': '极客日记莫愁前路无知己，天下谁人不识君。'
+      'url': 'https://www.explorexd.com'
+    - 'name': '神经蛙'
+      'url': 'http://sjava'
+    - 'name': 'DUINEW'
+      'url': 'http://duinew.com'
+    - 'name': '八对'
+      'url': 'https://8dui.com'
+    - 'name': 'BA7NYW'
+      'url': 'https://www.ba7nyw.com/'
+    - 'name': '不语'
+      'url': 'https://zhuxu.asia/'
+    - 'name': '抖音'
+      'url': 'https://v.douyin.com/'
+    - 'name': '51la统计'
+      'url': 'https://v6.51.la/'
+    - 'name': '博客框架为Hexo_v5.4.0'
+      'url': 'https://hexo.io/'

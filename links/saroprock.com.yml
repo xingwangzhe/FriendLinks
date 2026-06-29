@@ -1,32 +1,18 @@
-site:
-  name: "saroprock.com"
-  description: "友情链接"
-  url: "https://saroprock.com/"
-  links: "/friends"
-  friends:
-    - name: "Twitter"
-      url: "https://twitter.com/EveSunMaple"
-    - name: "GitHub"
-      url: "https://github.com/EveSunMaple"
-    - name: "Telegram"
-      url: "https://t.me/saroprock"
-    - name: "天翔TNXGの自留地"
-      url: "https://www.tnxg.top"
-    - name: "Yirween"
-      url: "https://yirween.netlify.app/"
-    - name: "Fanzhuo"
-      url: "https://blog.fanzhuo.xyz/"
-    - name: "nuym's Blog"
-      url: "https://www.nuym.cn/"
-    - name: "サン猫の時間漂流"
-      url: "https://saro.pub/me"
-    - name: "前往做客"
-      url: "https://blog.weichky.com"
-    - name: "前往做客"
-      url: "https://meowdream.cn/"
-    - name: "喜欢本站  86"
-      url: "https://github.com/EveSunMaple/SaroProck"
-    - name: "仓库"
-      url: "https://github.com/EveSunMaple?tab=repositories"
-    - name: "Twitter / X"
-      url: "https://x.com/EveSunMaple"
+'site':
+  'name': 'saroprock.com'
+  'description': '友情链接'
+  'url': 'https://saroprock.com/'
+  'links': '/friends'
+  'friends':
+    - 'name': '天翔TNXGの自留地'
+      'url': 'https://www.tnxg.top'
+    - 'name': 'Fanzhuo'
+      'url': 'https://blog.fanzhuo.xyz/'
+    - 'name': 'nuym''s Blog'
+      'url': 'https://www.nuym.cn/'
+    - 'name': 'サン猫の時間漂流'
+      'url': 'https://saro.pub/me'
+    - 'name': '前往做客'
+      'url': 'https://blog.weichky.com'
+    - 'name': '前往做客'
+      'url': 'https://meowdream.cn/'

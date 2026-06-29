@@ -1,34 +1,14 @@
-site:
-  name: "cyp"
-  url: "https://cyp0633.icu/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "GitHub"
-      url: "https://github.com/cyp0633"
-    - name: "Git"
-      url: "https://git.cyp0633.com"
-    - name: "友链"
-      url: "https://cyp0633.com/links/"
-    - name: "English"
-      url: "https://cyp0633.com/en/links/"
-    - name: "https://cyp0633.com"
-      url: "https://cyp0633.com"
-    - name: "样式 1"
-      url: "https://cyp0633-public-resource.oss-cn-qingdao.aliyuncs.com/blog/cyp0633-blog-logo-pornhub.png"
-    - name: "样式 2"
-      url: "https://cyp0633-public-resource.oss-cn-qingdao.aliyuncs.com/blog/cyp0633-icon.jpg"
-    - name: "https://cyp0633.com/index.xml"
-      url: "https://cyp0633.com/index.xml"
-    - name: "CC BY-SA 4.0"
-      url: "https://creativecommons.org/licenses/by-sa/4.0/"
-    - name: "Artalk"
-      url: "https://artalk.js.org"
-    - name: "Hugo"
-      url: "https://gohugo.io/"
-    - name: "Stack"
-      url: "https://github.com/CaiJimmy/hugo-theme-stack"
-    - name: "Jimmy"
-      url: "https://jimmycai.com"
-    - name: "stack-mod"
-      url: "https://github.com/cyp0633/stack-mod"
+'site':
+  'name': 'cyp'
+  'url': 'https://cyp0633.icu/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'English'
+      'url': 'https://cyp0633.com/en/links/'
+    - 'name': 'CC BY-SA 4.0'
+      'url': 'https://creativecommons.org/licenses/by-sa/4.0/'
+    - 'name': 'Artalk'
+      'url': 'https://artalk.js.org'
+    - 'name': 'Jimmy'
+      'url': 'https://jimmycai.com'

@@ -1,28 +1,26 @@
-site:
-  name: x7aNote
-  description: Yuri is life.
-  url: https://xeonzilla.top/
-  links: /about
-  friends:
-    - name: DailyMinz
-      url: https://zh.dailyminz.org/
-    - name: Shadow3's Blog
-      url: https://shadow3aaa.github.io/
-    - name: 橙树志 | citydatum
-      url: https://citydatum.cn/
-    - name: 时歌的博客
-      url: https://www.lapis.cafe/
-    - name: VnYzm的博客
-      url: https://vnyzm.top/
-    - name: Re:Linked
-      url: https://blog.outv.im/
-    - name: Garden of Outlier
-      url: https://chlo.is/
-    - name: 記緒漂流
-      url: https://ttio.cc/
-    - name: 極客死亡計劃
-      url: https://www.geedea.pro/
-    - name: Taxodium
-      url: https://taxodium.ink/
-    - name: 伊布的夢
-      url: https://s4r.in/
+'site':
+  'name': 'x7aNote'
+  'description': 'Yuri is life.'
+  'url': 'https://xeonzilla.top/'
+  'links': '/about'
+  'friends':
+    - 'name': 'DailyMinz'
+      'url': 'https://zh.dailyminz.org/'
+    - 'name': '橙树志 | citydatum'
+      'url': 'https://citydatum.cn/'
+    - 'name': '时歌的博客'
+      'url': 'https://www.lapis.cafe/'
+    - 'name': 'VnYzm的博客'
+      'url': 'https://vnyzm.top/'
+    - 'name': 'Re:Linked'
+      'url': 'https://blog.outv.im/'
+    - 'name': 'Garden of Outlier'
+      'url': 'https://chlo.is/'
+    - 'name': '記緒漂流'
+      'url': 'https://ttio.cc/'
+    - 'name': '極客死亡計劃'
+      'url': 'https://www.geedea.pro/'
+    - 'name': 'Taxodium'
+      'url': 'https://taxodium.ink/'
+    - 'name': '伊布的夢'
+      'url': 'https://s4r.in/'

@@ -1,246 +1,122 @@
-site:
-  name: "lybblog.cn"
-  description: "友情链接"
-  url: "https://lybblog.cn/"
-  links: "/friends"
-  friends:
-    - name: "开始浏览"
-      url: "https://www.lybblog.cn"
-    - name: "瞬间"
-      url: "https://www.lybblog.cn/moment/"
-    - name: "心动墙"
-      url: "https://www.lybblog.cn/category/xindong/"
-    - name: "阅读"
-      url: "https://www.lybblog.cn/category/read/"
-    - name: "刘的日记"
-      url: "https://www.lybblog.cn/category/read/ybexistence/"
-    - name: "李的日记"
-      url: "https://www.lybblog.cn/category/read/xiaogui/"
-    - name: "随心杂记"
-      url: "https://www.lybblog.cn/category/read/will/"
-    - name: "探索与社会"
-      url: "https://www.lybblog.cn/category/read/explore/"
-    - name: "相册"
-      url: "https://www.lybblog.cn/category/zhaopian/"
-    - name: "恋爱碎片"
-      url: "https://www.lybblog.cn/category/zhaopian/zhaopian1/"
-    - name: "双人合照"
-      url: "https://www.lybblog.cn/category/zhaopian/zhaopian2/"
-    - name: "个人留影"
-      url: "https://www.lybblog.cn/category/zhaopian/zhaopian5/"
-    - name: "美食日常"
-      url: "https://www.lybblog.cn/category/zhaopian/zhaopian3/"
-    - name: "杂七杂八"
-      url: "https://www.lybblog.cn/category/zhaopian/zhaopian4/"
-    - name: "文章归档"
-      url: "https://www.lybblog.cn/list/"
-    - name: "一言类型"
-      url: "https://www.lybblog.cn/type/quote/"
-    - name: "双栏类型"
-      url: "https://www.lybblog.cn/type/aside/"
-    - name: "图片类型"
-      url: "https://www.lybblog.cn/type/image/"
-    - name: "相册类型"
-      url: "https://www.lybblog.cn/type/gallery/"
-    - name: "音频类型"
-      url: "https://www.lybblog.cn/type/audio/"
-    - name: "视频类型"
-      url: "https://www.lybblog.cn/type/video/"
-    - name: "留言板"
-      url: "https://www.lybblog.cn/message-board/"
-    - name: "朋友"
-      url: "https://www.lybblog.cn/friends/"
-    - name: "足迹"
-      url: "https://www.lybblog.cn/maps/"
-    - name: "刘的训练计划"
-      url: "https://www.lybblog.cn/l-fitness/"
-    - name: "音乐"
-      url: "https://www.lybblog.cn/tag/music/"
-    - name: "走心评论"
-      url: "https://www.lybblog.cn/mindful/"
-    - name: "人生感悟"
-      url: "https://www.lybblog.cn/tag/life-insights/"
-    - name: "人生思考"
-      url: "https://www.lybblog.cn/tag/life-thinking/"
-    - name: "关于轻淡时光"
-      url: "https://www.lybblog.cn/about/"
-    - name: "YBExistence"
-      url: "https://www.lybblog.cn/author/88250087/"
-    - name: "小鬼"
-      url: "https://www.lybblog.cn/author/3231657756/"
-    - name: "壹些说明"
-      url: "https://www.lybblog.cn/%e5%a3%b9%e4%ba%9b%e8%af%b4%e6%98%8e/"
-    - name: "站点说明"
-      url: "https://www.lybblog.cn/%e5%a3%b9%e4%ba%9b%e8%af%b4%e6%98%8e/214-2/"
-    - name: "隐私政策"
-      url: "https://www.lybblog.cn/%e5%a3%b9%e4%ba%9b%e8%af%b4%e6%98%8e/privacy-policy/"
-    - name: "旧版 轻淡时光"
-      url: "http://blog.lybblog.cn"
-    - name: "欢迎来到轻淡时光，为您导读全站动态\n\t\t\t登录控制台"
-      url: "https://www.lybblog.cn/wp-login.php"
-    - name: "自律！"
-      url: "https://www.lybblog.cn/2026/06/26/1524/comment-page-1/#comment-836"
-    - name: "对 训练量不够的话补充太多蛋白质容易伤肾"
-      url: "https://www.lybblog.cn/2026/06/27/1537/comment-page-1/#comment-835"
-    - name: "对 最主要的还是食物"
-      url: "https://www.lybblog.cn/2026/06/27/1537/comment-page-1/#comment-834"
-    - name: "来张嘴～"
-      url: "https://www.lybblog.cn/2026/06/27/1537/comment-page-1/#comment-833"
-    - name: "Hary"
-      url: "https://hxy.cc/"
-    - name: "看着就有点累了，自律起来"
-      url: "https://www.lybblog.cn/2026/06/26/1524/comment-page-1/#comment-830"
-    - name: "小彦"
-      url: "https://note-star.cn/"
-    - name: "肌肉可以长起来了，结合食物也很重要，例如鸡肉，牛肉😀"
-      url: "https://www.lybblog.cn/2026/06/27/1537/comment-page-1/#comment-803"
-    - name: "给我尝尝"
-      url: "https://www.lybblog.cn/2026/06/27/1537/comment-page-1/#comment-802"
-    - name: "也不是哈 主要还是兴趣呢"
-      url: "https://www.lybblog.cn/2026/06/26/1524/comment-page-1/#comment-801"
-    - name: "哈哈运动天赋满满的"
-      url: "https://www.lybblog.cn/2026/06/26/1524/comment-page-1/#comment-800"
-    - name: "😅陈立彦，是你说的这种要命吗？这说的非常不错https://wanshou.net/1.html"
-      url: "https://www.lybblog.cn/2026/06/26/1524/comment-page-1/#comment-799"
-    - name: "多要命呢"
-      url: "https://www.lybblog.cn/2026/06/26/1524/comment-page-1/#comment-772"
-    - name: "13"
-      url: "https://www.lybblog.cn/2026/06/13/"
-    - name: "14"
-      url: "https://www.lybblog.cn/2026/06/14/"
-    - name: "21"
-      url: "https://www.lybblog.cn/2026/06/21/"
-    - name: "26"
-      url: "https://www.lybblog.cn/2026/06/26/"
-    - name: "27"
-      url: "https://www.lybblog.cn/2026/06/27/"
-    - name: "« 5 月"
-      url: "https://www.lybblog.cn/2026/05/"
-    - name: "等了许久的蛋白粉终于到啦！"
-      url: "https://www.lybblog.cn/2026/06/27/1537/"
-    - name: "YBExistence的训练计划"
-      url: "https://www.lybblog.cn/2026/06/26/1524/"
-    - name: "～～小花猫～～"
-      url: "https://www.lybblog.cn/2026/06/21/1506/"
-    - name: "日常零零碎碎的一些小事（一）"
-      url: "https://www.lybblog.cn/2026/06/14/1446/"
-    - name: "轻淡时光·人生思考：守日月本体，浚江汉之源"
-      url: "https://www.lybblog.cn/2026/06/13/1417/"
-    - name: "感知幸福也是一种能力"
-      url: "https://www.lybblog.cn/2026/06/05/1354/"
-    - name: "记录自己第一个手搓的插件"
-      url: "https://www.lybblog.cn/2026/06/04/1338/"
-    - name: "转眼走过三年，捡拾岁月里的点滴过往"
-      url: "https://www.lybblog.cn/2026/05/31/1295/"
-    - name: "相爱304天｜首个520"
-      url: "https://www.lybblog.cn/2026/05/21/1105/"
-    - name: "虚拟的重逢，真实的伤痛：影视飓风39分钟短片《再见亲人》"
-      url: "https://www.lybblog.cn/2026/05/15/1054/"
-    - name: "回归的站"
-      url: "https://www.lybblog.cn/2026/03/18/227/"
-    - name: "日记"
-      url: "https://www.lybblog.cn/tag/diary/"
-    - name: "生活"
-      url: "https://www.lybblog.cn/tag/life/"
-    - name: "见面"
-      url: "https://www.lybblog.cn/tag/meet/"
-    - name: "视频"
-      url: "https://www.lybblog.cn/tag/video/"
-    - name: "旅游"
-      url: "https://www.lybblog.cn/tag/travel/"
-    - name: "情感"
-      url: "https://www.lybblog.cn/tag/emotion/"
-    - name: "健身"
-      url: "https://www.lybblog.cn/tag/fitness/"
-    - name: "合照"
-      url: "https://www.lybblog.cn/tag/group-photo/"
-    - name: "美食"
-      url: "https://www.lybblog.cn/tag/food/"
-    - name: "图片"
-      url: "https://www.lybblog.cn/tag/image/"
-    - name: "一言"
-      url: "https://www.lybblog.cn/tag/yiyan/"
-    - name: "游戏"
-      url: "https://www.lybblog.cn/tag/games/"
-    - name: "年度"
-      url: "https://www.lybblog.cn/tag/annual/"
-    - name: "故事"
-      url: "https://www.lybblog.cn/tag/story/"
-    - name: "相册"
-      url: "https://www.lybblog.cn/tag/gallery/"
-    - name: "心理"
-      url: "https://www.lybblog.cn/tag/mind/"
-    - name: "开发"
-      url: "https://www.lybblog.cn/tag/develop/"
-    - name: "正在阅读：朋友"
-      url: "https://www.lybblog.cn/?random"
-    - name: "24小时\n\t\t\t\t\t\t\t\t新搓网管设备一键配置脚本"
-      url: "https://www.imuu.cn/9225.html"
-    - name: "2026-06-21 17:08:53\n\t\t\t\t\t\t\t\t开发GPS高精定位系统"
-      url: "https://www.imuu.cn/9180.html"
-    - name: "24小时\n\t\t\t\t\t\t\t\t六月小记①②③④"
-      url: "https://hxy.cc/2606.html"
-    - name: "2026-06-21 22:00:00\n\t\t\t\t\t\t\t\t五月做的梦，六月醒了"
-      url: "https://hxy.cc/yigemeng.html"
-    - name: "2026-06-26 23:07:00\n\t\t\t\t\t\t\t\t初夏荷花开-2026"
-      url: "https://xyzbz.cn/archives/1553/"
-    - name: "2026-06-15 14:49:00\n\t\t\t\t\t\t\t\t松声｜廿六年·六月中·荷花开"
-      url: "https://xyzbz.cn/archives/1550/"
-    - name: "2026-06-24 14:27:00\n\t\t\t\t\t\t\t\t松松垮垮"
-      url: "https://zhongxiaojie.cn/2026/06/1539/"
-    - name: "2026-06-22 13:00:12\n\t\t\t\t\t\t\t\t饥荒"
-      url: "https://zhongxiaojie.cn/2026/06/1518/"
-    - name: "2026-06-22 14:37:00\n\t\t\t\t\t\t\t\tWordPress-Riven主题正式发售了！！！"
-      url: "https://zhoutian.com/385.html"
-    - name: "2026-06-17 10:45:00\n\t\t\t\t\t\t\t\t车子又到了要续保的日子了"
-      url: "https://zhoutian.com/384.html"
-    - name: "2026-06-20 21:03:47\n\t\t\t\t\t\t\t\t满满一箱的战利品"
-      url: "https://me.xu19.com/full-box-of-diy-handmade-porcelain-from-jingdezhen/"
-    - name: "2026-06-13 23:17:07\n\t\t\t\t\t\t\t\t永久版本是个坑"
-      url: "https://me.xu19.com/he-permanent-version-of-the-software-is-a-pitfall/"
-    - name: "2026-06-16 13:54:11\n\t\t\t\t\t\t\t\t兰州牛肉面VS兰州凉面"
-      url: "https://chrison.cn/live/474.html"
-    - name: "2026-05-23 14:04:00\n\t\t\t\t\t\t\t\t今日菜肴：羊排手抓饭"
-      url: "https://chrison.cn/live/472.html"
-    - name: "2026-06-11 23:24:00\n\t\t\t\t\t\t\t\t真是蠢爆了"
-      url: "https://www.vian.top/710.html"
-    - name: "2026-02-14 21:01:00\n\t\t\t\t\t\t\t\t哟！"
-      url: "https://www.vian.top/709.html"
-    - name: "2026-06-02 21:08:20\n\t\t\t\t\t\t\t\t二〇二六年五月总结：颓态总会过去吧"
-      url: "https://feng.pub/0620269616.html"
-    - name: "2026-05-22 15:05:13\n\t\t\t\t\t\t\t\t时隔两年再次献血，左胳膊400毫升"
-      url: "https://feng.pub/0520269606.html"
-    - name: "2026-06-01 20:15:58\n\t\t\t\t\t\t\t\t711全职店务员离职心得"
-      url: "https://t-t.live/archives/7MagsYkt"
-    - name: "2026-04-21 23:47:05\n\t\t\t\t\t\t\t\t近况（7）"
-      url: "https://t-t.live/archives/NkLXavXm"
-    - name: "2026-05-09 18:26:24\n\t\t\t\t\t\t\t\t风记得的音乐：《行将近》—— Soon to Leave"
-      url: "https://www.thyuu.com/82442/"
-    - name: "2026-05-08 23:34:14\n\t\t\t\t\t\t\t\t欢迎来到精神世界"
-      url: "https://ly.lybblog.cn/2026/05/08/50/"
-    - name: "2025-08-21 22:30:02\n\t\t\t\t\t\t\t\t二零二五·捌月&amp;顺其自然"
-      url: "https://blog.liuzhuai.com/archives/40.html"
-    - name: "24小时\n\t\t\t\t\t\t\t\tThriveX 4.0 还是那个起点，还是那份炽热"
-      url: "https://liuyuyang.net/article/2290"
-    - name: "2026-06-21 21:58:56\n\t\t\t\t\t\t\t\t⛰️ 好想环游世界 🥺"
-      url: "https://liuyuyang.net/record"
-    - name: "2026-06-18 09:23:00\n\t\t\t\t\t\t\t\t读博随笔 | 本学期的助教课结束，认识了一些可爱的大一新生"
-      url: "https://www.52txr.cn/2026/2026TA.html"
-    - name: "2026-02-26 00:00:00\n\t\t\t\t\t\t\t\t推荐酷鸭数据主机"
-      url: "https://dusays.com/archives/855/"
-    - name: "2026-01-02 00:00:00\n\t\t\t\t\t\t\t\tMinecraft 生存服务器来啦「1.21.8 版」"
-      url: "https://dusays.com/archives/845/"
-    - name: "24小时\n\t\t\t\t\t\t\t\tI'm Luochancy：CSA架构——我和洛寒兮编出来的那个玩意儿"
-      url: "https://www.boyouquan.com/go?from=feed&link=https%3A%2F%2Fwww.luochancy.com%2Farchives%2F678.html"
-    - name: "24小时\n\t\t\t\t\t\t\t\t宗宗酱：用尼康D3200拍的第一组照片"
-      url: "https://www.boyouquan.com/go?from=feed&link=https%3A%2F%2Fygz.ink%2Farchives%2F5387.html"
-    - name: "运营商为联通的PCDN恶意刷量事件"
-      url: "https://blog.liuzhuai.com/archives/39.html"
-    - name: "夏天"
-      url: "https://www.lybblog.cn/2026/05/11/1019/"
-    - name: "THYUU/星度"
-      url: "https://theme.thyuu.com/"
-    - name: "闽ICP备2024035836号-1"
-      url: "https://beian.miit.gov.cn/"
-    - name: "闽公网安备35058102000326号"
-      url: "http://www.beian.gov.cn/portal/registerSystemInfo"
+'site':
+  'name': 'lybblog.cn'
+  'description': '友情链接'
+  'url': 'https://lybblog.cn/'
+  'links': '/friends'
+  'friends':
+    - 'name': '旧版 轻淡时光'
+      'url': 'http://blog.lybblog.cn'
+    - 'name': 'Hary'
+      'url': 'https://hxy.cc/'
+    - 'name': '小彦'
+      'url': 'https://note-star.cn/'
+    - 'name': "24小时\n\t\t\t\t\t\t\t\t新搓网管设备一键配置脚本"
+      'url': 'https://www.imuu.cn/9225.html'
+    - 'name': "2026-06-21 17:08:53
+
+        \t\t\t\t\t\t\t\t开发GPS高精定位系统"
+      'url': 'https://www.imuu.cn/9180.html'
+    - 'name': "24小时\n\t\t\t\t\t\t\t\t六月小记①②③④"
+      'url': 'https://hxy.cc/2606.html'
+    - 'name': "2026-06-21 22:00:00
+
+        \t\t\t\t\t\t\t\t五月做的梦，六月醒了"
+      'url': 'https://hxy.cc/yigemeng.html'
+    - 'name': "2026-06-26 23:07:00
+
+        \t\t\t\t\t\t\t\t初夏荷花开-2026"
+      'url': 'https://xyzbz.cn/archives/1553/'
+    - 'name': "2026-06-15 14:49:00
+
+        \t\t\t\t\t\t\t\t松声｜廿六年·六月中·荷花开"
+      'url': 'https://xyzbz.cn/archives/1550/'
+    - 'name': "2026-06-24 14:27:00
+
+        \t\t\t\t\t\t\t\t松松垮垮"
+      'url': 'https://zhongxiaojie.cn/2026/06/1539/'
+    - 'name': "2026-06-22 13:00:12
+
+        \t\t\t\t\t\t\t\t饥荒"
+      'url': 'https://zhongxiaojie.cn/2026/06/1518/'
+    - 'name': "2026-06-22 14:37:00
+
+        \t\t\t\t\t\t\t\tWordPress-Riven主题正式发售了！！！"
+      'url': 'https://zhoutian.com/385.html'
+    - 'name': "2026-06-17 10:45:00
+
+        \t\t\t\t\t\t\t\t车子又到了要续保的日子了"
+      'url': 'https://zhoutian.com/384.html'
+    - 'name': "2026-06-20 21:03:47
+
+        \t\t\t\t\t\t\t\t满满一箱的战利品"
+      'url': 'https://me.xu19.com/full-box-of-diy-handmade-porcelain-from-jingdezhen/'
+    - 'name': "2026-06-13 23:17:07
+
+        \t\t\t\t\t\t\t\t永久版本是个坑"
+      'url': 'https://me.xu19.com/he-permanent-version-of-the-software-is-a-pitfall/'
+    - 'name': "2026-06-16 13:54:11
+
+        \t\t\t\t\t\t\t\t兰州牛肉面VS兰州凉面"
+      'url': 'https://chrison.cn/live/474.html'
+    - 'name': "2026-05-23 14:04:00
+
+        \t\t\t\t\t\t\t\t今日菜肴：羊排手抓饭"
+      'url': 'https://chrison.cn/live/472.html'
+    - 'name': "2026-06-11 23:24:00
+
+        \t\t\t\t\t\t\t\t真是蠢爆了"
+      'url': 'https://www.vian.top/710.html'
+    - 'name': "2026-02-14 21:01:00
+
+        \t\t\t\t\t\t\t\t哟！"
+      'url': 'https://www.vian.top/709.html'
+    - 'name': "2026-06-02 21:08:20
+
+        \t\t\t\t\t\t\t\t二〇二六年五月总结：颓态总会过去吧"
+      'url': 'https://feng.pub/0620269616.html'
+    - 'name': "2026-05-22 15:05:13
+
+        \t\t\t\t\t\t\t\t时隔两年再次献血，左胳膊400毫升"
+      'url': 'https://feng.pub/0520269606.html'
+    - 'name': "2026-06-01 20:15:58
+
+        \t\t\t\t\t\t\t\t711全职店务员离职心得"
+      'url': 'https://t-t.live/archives/7MagsYkt'
+    - 'name': "2026-04-21 23:47:05
+
+        \t\t\t\t\t\t\t\t近况（7）"
+      'url': 'https://t-t.live/archives/NkLXavXm'
+    - 'name': "2026-05-09 18:26:24
+
+        \t\t\t\t\t\t\t\t风记得的音乐：《行将近》—— Soon to Leave"
+      'url': 'https://www.thyuu.com/82442/'
+    - 'name': "2026-05-08 23:34:14
+
+        \t\t\t\t\t\t\t\t欢迎来到精神世界"
+      'url': 'https://ly.lybblog.cn/2026/05/08/50/'
+    - 'name': "2025-08-21 22:30:02
+
+        \t\t\t\t\t\t\t\t二零二五·捌月&amp;顺其自然"
+      'url': 'https://blog.liuzhuai.com/archives/40.html'
+    - 'name': "24小时
+
+        \t\t\t\t\t\t\t\tThriveX 4.0 还是那个起点，还是那份炽热"
+      'url': 'https://liuyuyang.net/article/2290'
+    - 'name': "2026-06-21 21:58:56
+
+        \t\t\t\t\t\t\t\t⛰️ 好想环游世界 🥺"
+      'url': 'https://liuyuyang.net/record'
+    - 'name': "2026-06-18 09:23:00
+
+        \t\t\t\t\t\t\t\t读博随笔 | 本学期的助教课结束，认识了一些可爱的大一新生"
+      'url': 'https://www.52txr.cn/2026/2026TA.html'
+    - 'name': "2026-02-26 00:00:00
+
+        \t\t\t\t\t\t\t\t推荐酷鸭数据主机"
+      'url': 'https://dusays.com/archives/855/'
+    - 'name': "2026-01-02 00:00:00
+
+        \t\t\t\t\t\t\t\tMinecraft 生存服务器来啦「1.21.8 版」"
+      'url': 'https://dusays.com/archives/845/'
+    - 'name': 'THYUU/星度'
+      'url': 'https://theme.thyuu.com/'

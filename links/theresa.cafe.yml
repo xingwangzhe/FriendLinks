@@ -1,24 +1,20 @@
-site:
-  name: "风间苏苏"
-  url: "https://theresa.cafe/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "IIROSE \n      iirose.com"
-      url: "https://iirose.com"
-    - name: "Razuritta’s Notebook \n      拉兹先生的在线笔记"
-      url: "https://blog.razuritta.me/"
-    - name: "Shucheng Li \n      Shucheng Li"
-      url: "https://snli.org/"
-    - name: "Lily Ellenvia \n      Lily Ellenvia"
-      url: "https://blog.lilynet.work/"
-    - name: "MoeQing Network \n      MoeQing Network"
-      url: "https://blog.moeqing.com/"
-    - name: "Catch Me"
-      url: "https://github.com/TheresaQWQ"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Butterfly"
-      url: "https://github.com/jerryc127/hexo-theme-butterfly"
-    - name: "萌ICP备20223234号"
-      url: "https://icp.gov.moe/?keyword=20223234"
+'site':
+  'name': '风间苏苏'
+  'url': 'https://theresa.cafe/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': "IIROSE\ \n      iirose.com"
+      'url': 'https://iirose.com'
+    - 'name': "Razuritta’s Notebook\ 
+
+        \      拉兹先生的在线笔记"
+      'url': 'https://blog.razuritta.me/'
+    - 'name': "Shucheng Li\ \n      Shucheng Li"
+      'url': 'https://snli.org/'
+    - 'name': "Lily Ellenvia\ \n      Lily Ellenvia"
+      'url': 'https://blog.lilynet.work/'
+    - 'name': "MoeQing Network\ 
+
+        \      MoeQing Network"
+      'url': 'https://blog.moeqing.com/'

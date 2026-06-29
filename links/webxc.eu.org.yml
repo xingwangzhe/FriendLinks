@@ -1,154 +1,122 @@
-site:
-  name: "webxc.eu.org"
-  description: "友情链接"
-  url: "https://webxc.eu.org/"
-  links: "/link"
-  friends:
-    - name: "程序员指南"
-      url: "http://www.inode.club/"
-    - name: "前端技术学园"
-      url: "http://ife.baidu.com/"
-    - name: "前端技术圈"
-      url: "https://www.yuque.com/tademanong/ag7q4n"
-    - name: "编程导航"
-      url: "https://www.code-nav.cn/"
-    - name: "每日一题"
-      url: "https://q.shanyue.tech/"
-    - name: "前端必会单词"
-      url: "https://fanyouf.gitee.io/u1word/#/h5"
-    - name: "网址导航"
-      url: "https://site.51git.cn/render/gonav/4.html"
-    - name: "音乐解锁"
-      url: "https://webxc.eu.org/musics/"
-    - name: "学习笔记"
-      url: "https://e.webxc.eu.org/"
-    - name: "VuePress文档"
-      url: "https://v.webxc.eu.org/"
-    - name: "旧站Hexo"
-      url: "https://b.webxc.eu.org/"
-    - name: "Gridea笔记"
-      url: "https://gridea.webxc.eu.org/"
-    - name: "魔改Hexo"
-      url: "https://c.webxc.eu.org/"
-    - name: "Vercel镜像"
-      url: "https://blog.webxc.eu.org/"
-    - name: "Netlify镜像"
-      url: "https://ne.webxc.eu.org/"
-    - name: "Gitee镜像"
-      url: "https://web-xc.gitee.io/"
-    - name: "Cloudflare镜像"
-      url: "https://cf.webxc.eu.org/"
-    - name: "Render镜像"
-      url: "https://render.webxc.eu.org/"
-    - name: "予小记 | 人生乐事愿山野浓雾都有路灯风..."
-      url: "https://yvu.cc"
-    - name: "风丶宇的个人博客往事不随风"
-      url: "https://www.talkxj.com/"
-    - name: "Colsrch愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。"
-      url: "https://colsrch.cn/"
-    - name: "小嘉的部落格一个爱折腾的Java开发工程师"
-      url: "https://blog.imzjw.cn/"
-    - name: "小康博客一个收藏回忆与分享技术的地方！"
-      url: "https://www.antmoe.com/"
-    - name: "Leonus进一寸有进一寸的欢喜。"
-      url: "https://blog.leonus.cn/"
-    - name: "张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Akilarの糖果屋欢迎光临糖果屋"
-      url: "https://akilar.top/"
-    - name: "旧时繁华繁华似锦觅安宁,淡云流水度此生"
-      url: "https://blog.rain888.cn"
-    - name: "幕光倾城-Linfeng Mei钝学累功 - 勤能补拙"
-      url: "https://www.meilinfeng.top"
-    - name: "贰猹的小窝用这生命中的每一秒，给自己一个不后悔的未来"
-      url: "https://noionion.top/"
-    - name: "Xc's Blog星辰大海"
-      url: "https://www.6ing.xyz/"
-    - name: "Sianx's Blog总之岁月漫长, 然而值得等待。"
-      url: "https://sianx.com/"
-    - name: "小冰博客做个有梦想的人！"
-      url: "https://zfe.one/"
-    - name: "Sady'Blog永远年轻，永远热泪盈眶."
-      url: "https://sady0.com"
-    - name: "Fomalhaut🥝Future is now 🍭🍭🍭"
-      url: "https://www.fomal.cc/"
-    - name: "七鳄の学习格如果世界多了精彩，每一位都是创造者，大家都是你的观众"
-      url: "https://blog.gmcj0816.top/"
-    - name: "Steven Lynn’s BlogSteven Lynn的个人博客"
-      url: "https://blog.stv.lol/"
-    - name: "Eurkon不只是代码的搬运工"
-      url: "https://blog.eurkon.com/"
-    - name: "Pei’s Blog随记随看"
-      url: "https://blog.goku.top/"
-    - name: "是非题记录生活，热爱跑步，学习 FPGA 中"
-      url: "https://www.shifeiti.com"
-    - name: "CC's Zone从未来再见"
-      url: "https://ccs.zone"
-    - name: "Jayhrn念念不忘，必有回响"
-      url: "https://blog.jayhrn.com"
-    - name: "安知鱼`Blog生活明朗，万物可爱"
-      url: "https://anzhiy.cn/"
-    - name: "Guo Le's Blog生命是独立是自由是爱与和平"
-      url: "https://guole.fun/"
-    - name: "六月长河生命是独立是自由是爱与和平"
-      url: "https://charlie-king.github.io"
-    - name: "Hc's Blog不一定是完美的"
-      url: "https://blog.ivil.top"
-    - name: "Rootlex寒蝉黎明之时，便是重生之日"
-      url: "https://blog.nalex.top"
-    - name: "怕冷爱上雪千里之行，始于足下"
-      url: "https://blog.4t.pw/"
-    - name: "呆鱼Hello World！"
-      url: "https://daiyu.fun/"
-    - name: "New_fei – 小破站啊吧啊吧!"
-      url: "https://blog.newfei.top/"
-    - name: "ZkeqのCoding日志自强，弘毅，求实"
-      url: "https://icodeq.com/"
-    - name: "Xlenco最好的地方,是没去过的地方。最好的时光，是回不来的时光"
-      url: "https://blog.xlenco.top/"
-    - name: "Mycpen这是一个有趣的博客"
-      url: "https://blog.cpen.top/"
-    - name: "轻笑Chuckle宁静致远,倾尘轻笑"
-      url: "https://www.chuckle.top"
-    - name: "VE小屋一个具有网络IT的小屋子！"
-      url: "http://xw.veyun.ml/"
-    - name: "CoderToro Blog一个懒人的博客。"
-      url: "https://codertoro.top/"
-    - name: "booop一个隐匿的私人小站"
-      url: "https://booop.net/"
-    - name: "满心Hrn追求让人充实，分享让人快乐"
-      url: "https://blog.lovelu.top/"
-    - name: "Another我们生活的每个日常，都是连续发生的奇迹"
-      url: "https://another.icu"
-    - name: "GanSer紫箫吟断，素笺恨切"
-      url: "https://www.gan1ser.top/"
-    - name: "湘铭`Blog听闻余生，相濡以沫💕"
-      url: "https://blog.xiangming.site/"
-    - name: "夜雨炊烟三餐烟火暖，四季皆安然"
-      url: "https://yychuiyan.com/"
-    - name: "Wcowin's Web循此苦旅，以达星辰"
-      url: "https://wcowin.work/"
-    - name: "yesandnoandperhaps杂乱无章，随随便便"
-      url: "https://yesandnoandperhaps.github.io/"
-    - name: "https://webxc.eu.org"
-      url: "https://webxc.eu.org/"
-    - name: "https://npm.elemecdn.com/webxc/logo/logo.jpg"
-      url: "https://npm.elemecdn.com/webxc/logo/logo.jpg"
-    - name: "https://cdn.webxc.eu.org/siteshot.jpg"
-      url: "https://cdn.webxc.eu.org/siteshot.jpg"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "QQ"
-      url: "https://tenapi.cn/qqzlk/?qq=2848141597"
-    - name: "微信"
-      url: "https://npm.elemecdn.com/webxc@1.0.0/lxfs/wechat.jpg"
-    - name: "Github"
-      url: "https://github.com/web-xc"
-    - name: "BiliBili"
-      url: "https://space.bilibili.com/2134826455"
-    - name: "网易云音乐"
-      url: "https://music.163.com/#/user/home?id=323682437"
-    - name: "萌ICP备20235221号"
-      url: "https://icp.gov.moe/?keyword=20235221"
-    - name: "萌ICP查询"
-      url: "https://icp.gov.moe/"
+'site':
+  'name': 'webxc.eu.org'
+  'description': '友情链接'
+  'url': 'https://webxc.eu.org/'
+  'links': '/link'
+  'friends':
+    - 'name': '程序员指南'
+      'url': 'http://www.inode.club/'
+    - 'name': '前端技术学园'
+      'url': 'http://ife.baidu.com/'
+    - 'name': '前端技术圈'
+      'url': 'https://www.yuque.com/tademanong/ag7q4n'
+    - 'name': '每日一题'
+      'url': 'https://q.shanyue.tech/'
+    - 'name': '前端必会单词'
+      'url': 'https://fanyouf.gitee.io/u1word/#/h5'
+    - 'name': '学习笔记'
+      'url': 'https://e.webxc.eu.org/'
+    - 'name': 'VuePress文档'
+      'url': 'https://v.webxc.eu.org/'
+    - 'name': '旧站Hexo'
+      'url': 'https://b.webxc.eu.org/'
+    - 'name': 'Gridea笔记'
+      'url': 'https://gridea.webxc.eu.org/'
+    - 'name': '魔改Hexo'
+      'url': 'https://c.webxc.eu.org/'
+    - 'name': 'Vercel镜像'
+      'url': 'https://blog.webxc.eu.org/'
+    - 'name': 'Netlify镜像'
+      'url': 'https://ne.webxc.eu.org/'
+    - 'name': 'Gitee镜像'
+      'url': 'https://web-xc.gitee.io/'
+    - 'name': 'Cloudflare镜像'
+      'url': 'https://cf.webxc.eu.org/'
+    - 'name': 'Render镜像'
+      'url': 'https://render.webxc.eu.org/'
+    - 'name': '予小记 | 人生乐事愿山野浓雾都有路灯风...'
+      'url': 'https://yvu.cc'
+    - 'name': '风丶宇的个人博客往事不随风'
+      'url': 'https://www.talkxj.com/'
+    - 'name': 'Colsrch愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。'
+      'url': 'https://colsrch.cn/'
+    - 'name': '小嘉的部落格一个爱折腾的Java开发工程师'
+      'url': 'https://blog.imzjw.cn/'
+    - 'name': '小康博客一个收藏回忆与分享技术的地方！'
+      'url': 'https://www.antmoe.com/'
+    - 'name': 'Leonus进一寸有进一寸的欢喜。'
+      'url': 'https://blog.leonus.cn/'
+    - 'name': '张洪Heo分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': 'Akilarの糖果屋欢迎光临糖果屋'
+      'url': 'https://akilar.top/'
+    - 'name': '旧时繁华繁华似锦觅安宁,淡云流水度此生'
+      'url': 'https://blog.rain888.cn'
+    - 'name': '幕光倾城-Linfeng Mei钝学累功 - 勤能补拙'
+      'url': 'https://www.meilinfeng.top'
+    - 'name': '贰猹的小窝用这生命中的每一秒，给自己一个不后悔的未来'
+      'url': 'https://noionion.top/'
+    - 'name': 'Xc''s Blog星辰大海'
+      'url': 'https://www.6ing.xyz/'
+    - 'name': 'Sianx''s Blog总之岁月漫长, 然而值得等待。'
+      'url': 'https://sianx.com/'
+    - 'name': '小冰博客做个有梦想的人！'
+      'url': 'https://zfe.one/'
+    - 'name': 'Sady''Blog永远年轻，永远热泪盈眶.'
+      'url': 'https://sady0.com'
+    - 'name': 'Fomalhaut🥝Future is now 🍭🍭🍭'
+      'url': 'https://www.fomal.cc/'
+    - 'name': '七鳄の学习格如果世界多了精彩，每一位都是创造者，大家都是你的观众'
+      'url': 'https://blog.gmcj0816.top/'
+    - 'name': 'Steven Lynn’s BlogSteven Lynn的个人博客'
+      'url': 'https://blog.stv.lol/'
+    - 'name': 'Eurkon不只是代码的搬运工'
+      'url': 'https://blog.eurkon.com/'
+    - 'name': 'Pei’s Blog随记随看'
+      'url': 'https://blog.goku.top/'
+    - 'name': '是非题记录生活，热爱跑步，学习 FPGA 中'
+      'url': 'https://www.shifeiti.com'
+    - 'name': 'CC''s Zone从未来再见'
+      'url': 'https://ccs.zone'
+    - 'name': 'Jayhrn念念不忘，必有回响'
+      'url': 'https://blog.jayhrn.com'
+    - 'name': '安知鱼`Blog生活明朗，万物可爱'
+      'url': 'https://anzhiy.cn/'
+    - 'name': 'Guo Le''s Blog生命是独立是自由是爱与和平'
+      'url': 'https://guole.fun/'
+    - 'name': 'Hc''s Blog不一定是完美的'
+      'url': 'https://blog.ivil.top'
+    - 'name': 'Rootlex寒蝉黎明之时，便是重生之日'
+      'url': 'https://blog.nalex.top'
+    - 'name': '怕冷爱上雪千里之行，始于足下'
+      'url': 'https://blog.4t.pw/'
+    - 'name': '呆鱼Hello World！'
+      'url': 'https://daiyu.fun/'
+    - 'name': 'New_fei – 小破站啊吧啊吧!'
+      'url': 'https://blog.newfei.top/'
+    - 'name': 'ZkeqのCoding日志自强，弘毅，求实'
+      'url': 'https://icodeq.com/'
+    - 'name': 'Xlenco最好的地方,是没去过的地方。最好的时光，是回不来的时光'
+      'url': 'https://blog.xlenco.top/'
+    - 'name': 'Mycpen这是一个有趣的博客'
+      'url': 'https://blog.cpen.top/'
+    - 'name': '轻笑Chuckle宁静致远,倾尘轻笑'
+      'url': 'https://www.chuckle.top'
+    - 'name': 'VE小屋一个具有网络IT的小屋子！'
+      'url': 'http://xw.veyun.ml/'
+    - 'name': 'CoderToro Blog一个懒人的博客。'
+      'url': 'https://codertoro.top/'
+    - 'name': 'booop一个隐匿的私人小站'
+      'url': 'https://booop.net/'
+    - 'name': '满心Hrn追求让人充实，分享让人快乐'
+      'url': 'https://blog.lovelu.top/'
+    - 'name': 'Another我们生活的每个日常，都是连续发生的奇迹'
+      'url': 'https://another.icu'
+    - 'name': 'GanSer紫箫吟断，素笺恨切'
+      'url': 'https://www.gan1ser.top/'
+    - 'name': '湘铭`Blog听闻余生，相濡以沫💕'
+      'url': 'https://blog.xiangming.site/'
+    - 'name': '夜雨炊烟三餐烟火暖，四季皆安然'
+      'url': 'https://yychuiyan.com/'
+    - 'name': 'Wcowin''s Web循此苦旅，以达星辰'
+      'url': 'https://wcowin.work/'

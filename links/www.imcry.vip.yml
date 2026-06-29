@@ -1,42 +1,30 @@
-site:
-  name: 初然忆
-  description: 初心如初见，然忆似流年。
-  url: https://www.imcry.vip
-  links: /page/friendlinks/
-  friends:
-    - name: 闲云博客
-      url: https://lolicp.com/
-    - name: 蛋蛋之家
-      url: https://wuqishi.com
-    - name: 必练题 - I am
-      url: https://imxcy.cn/
-    - name: HATCH_BLOD
-      url: https://002.hk/
-    - name: 周阿源
-      url: https://zhouayuan.com/
-    - name: 懋和道人
-      url: https://blog.dao.js.cn
-    - name: UpXuu's blog
-      url: https://upxuu.com
-    - name: 皓子的小站
-      url: https://howiehz.top
-    - name: Mayx的博客
-      url: https://mabbs.github.io
-    - name: 姓王者的博客
-      url: https://xingwangzhe.fun/
-    - name: LiMhy'Blog
-      url: https://i.lilog.cn
-    - name: 李的日志
-      url: https://lilog.cn
-    - name: 博友圈
-      url: https://www.boyouquan.com/home
-    - name: BlogsClub
-      url: https://www.blogsclub.org/
-    - name: 博客录
-      url: https://boke.lu
-    - name: 若梦博客
-      url: https://www.rmbk.cc
-    - name: 好站网
-      url: https://haozhan.wang
-    - name: 博客集市
-      url: https://cnb.cool/Blog_Bazaar/
+'site':
+  'name': '初然忆'
+  'description': '初心如初见，然忆似流年。'
+  'url': 'https://www.imcry.vip'
+  'links': '/page/friendlinks/'
+  'friends':
+    - 'name': '闲云博客'
+      'url': 'https://lolicp.com/'
+    - 'name': '蛋蛋之家'
+      'url': 'https://wuqishi.com'
+    - 'name': '必练题 - I am'
+      'url': 'https://imxcy.cn/'
+    - 'name': 'HATCH_BLOD'
+      'url': 'https://002.hk/'
+    - 'name': '周阿源'
+      'url': 'https://zhouayuan.com/'
+    - 'name': '懋和道人'
+      'url': 'https://blog.dao.js.cn'
+    - 'name': 'UpXuu''s blog'
+      'url': 'https://upxuu.com'
+    - 'name': '皓子的小站'
+      'url': 'https://howiehz.top'
+    - 'name': '姓王者的博客'
+      'url': 'https://xingwangzhe.fun/'
+    - 'name': 'LiMhy''Blog'
+      'url': 'https://i.lilog.cn'
+    - 'name': '李的日志'
+      'url': 'https://lilog.cn'
+    - 'name': '博客集市'
+      'url': 'https://cnb.cool/Blog_Bazaar/'

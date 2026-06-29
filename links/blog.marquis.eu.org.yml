@@ -1,54 +1,28 @@
-site:
-  name: "blog.marquis.eu.org"
-  description: "友情链接"
-  url: "https://blog.marquis.eu.org/"
-  links: "/link"
-  friends:
-    - name: "个人主页"
-      url: "https://marquis.eu.org/"
-    - name: "个人博客"
-      url: "https://blog.marquis.eu.org/"
-    - name: "Akilar"
-      url: "https://akilar.top/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "青桔气球"
-      url: "https://blog.qjqq.cn/"
-    - name: "Calyee"
-      url: "https://blog.calyee.top/"
-    - name: "安知鱼"
-      url: "https://blog.anheyu.com/"
-    - name: "Eurkon"
-      url: "https://blog.eurkon.com"
-    - name: "Yesord"
-      url: "https://blog.yesord.top/"
-    - name: "https://marquis.eu.org/img/avatar/2.png"
-      url: "https://marquis.eu.org/img/avatar/2.png"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "CSDN"
-      url: "https://marquis.blog.csdn.net/"
-    - name: "Kaggle"
-      url: "https://www.kaggle.com/marquis03"
-    - name: "BiliBili"
-      url: "https://space.bilibili.com/97020105"
-    - name: "Github"
-      url: "https://github.com/Marquis03"
-    - name: "QQ"
-      url: "https://qm.qq.com/q/kvSr7oUR6U"
-    - name: "51la统计"
-      url: "https://v6.51.la/"
-    - name: "开往"
-      url: "https://github.com/travellings-link/travellings"
-    - name: "本站框架为Hexo"
-      url: "https://hexo.io/"
-    - name: "本站主题采用AnZhiYu"
-      url: "https://docs.anheyu.com/"
-    - name: "本站部署于Netlify"
-      url: "https://www.netlify.com/"
-    - name: "本站已加入萌ICP豪华套餐，萌ICP备20222350号"
-      url: "https://icp.gov.moe/?keyword=20222350"
-    - name: "本站源码托管于Github"
-      url: "https://github.com/"
-    - name: "本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
-      url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+'site':
+  'name': 'blog.marquis.eu.org'
+  'description': '友情链接'
+  'url': 'https://blog.marquis.eu.org/'
+  'links': '/link'
+  'friends':
+    - 'name': '个人主页'
+      'url': 'https://marquis.eu.org/'
+    - 'name': 'Akilar'
+      'url': 'https://akilar.top/'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '青桔气球'
+      'url': 'https://blog.qjqq.cn/'
+    - 'name': 'Calyee'
+      'url': 'https://blog.calyee.top/'
+    - 'name': '安知鱼'
+      'url': 'https://blog.anheyu.com/'
+    - 'name': 'Eurkon'
+      'url': 'https://blog.eurkon.com'
+    - 'name': 'Yesord'
+      'url': 'https://blog.yesord.top/'
+    - 'name': 'CSDN'
+      'url': 'https://marquis.blog.csdn.net/'
+    - 'name': 'Kaggle'
+      'url': 'https://www.kaggle.com/marquis03'
+    - 'name': '51la统计'
+      'url': 'https://v6.51.la/'

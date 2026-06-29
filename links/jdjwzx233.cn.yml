@@ -1,50 +1,16 @@
-site:
-  name: "jdjwzx"
-  url: "https://jdjwzx233.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "AI"
-      url: "https://ai.jdjwzx233.cn/"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "xLog"
-      url: "https://x.jdjwzx233.cn/"
-    - name: "https://jdjwzx233.cn/links/index.html"
-      url: "https://jdjwzx233.cn/links/index.html"
-    - name: "(CC)BY-NC-SA"
-      url: "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"
-    - name: "https://github.com/jdjwzx233"
-      url: "https://github.com/jdjwzx233"
-    - name: "https://space.bilibili.com/440968060"
-      url: "https://space.bilibili.com/440968060"
-    - name: "http://t.me/jdjwzx233"
-      url: "http://t.me/jdjwzx233"
-    - name: "https://twitter.com/zuozhijie233"
-      url: "https://twitter.com/zuozhijie233"
-    - name: "https://www.zhihu.com/people/jdjwzxapi"
-      url: "https://www.zhihu.com/people/jdjwzxapi"
-    - name: "https://music.163.com/#/user/home?id=1788042937"
-      url: "https://music.163.com/#/user/home?id=1788042937"
-    - name: "https://weibo.com/u/6755874646"
-      url: "https://weibo.com/u/6755874646"
-    - name: "https://about.me/jdjwzx233/"
-      url: "https://about.me/jdjwzx233/"
-    - name: "https://www.youtube.com/@jdjwzx233/"
-      url: "https://www.youtube.com/@jdjwzx233/"
-    - name: "浙ICP备2023000448号-1 |"
-      url: "https://beian.miit.gov.cn/"
-    - name: "萌ICP备20245233号 |"
-      url: "https://icp.gov.moe/?keyword=20245233"
-    - name: "茶ICP备2025080066号"
-      url: "https://icp.redcha.cn/beian/ICP-2025080066.html"
-    - name: "查看网站状态"
-      url: "http://status.jdjwzx233.cn/"
-    - name: "评论违规举报"
-      url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAVxiHmJUNFRaUFMyQVUwUlpPSExFNUZDMFBNOThYOC4u"
-    - name: "Hexo"
-      url: "https://hexo.io"
-    - name: "Shoka"
-      url: "https://github.com/amehime/hexo-theme-shoka"
-    - name: "又拍云"
-      url: "https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"
+'site':
+  'name': 'jdjwzx'
+  'url': 'https://jdjwzx233.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'AI'
+      'url': 'https://ai.jdjwzx233.cn/'
+    - 'name': 'xLog'
+      'url': 'https://x.jdjwzx233.cn/'
+    - 'name': '(CC)BY-NC-SA'
+      'url': 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh'
+    - 'name': '评论违规举报'
+      'url': 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAVxiHmJUNFRaUFMyQVUwUlpPSExFNUZDMFBNOThYOC4u'
+    - 'name': '又拍云'
+      'url': 'https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral'

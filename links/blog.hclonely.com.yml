@@ -1,246 +1,78 @@
-site:
-  name: "blog.hclonely.com"
-  description: "友情链接"
-  url: "https://blog.hclonely.com/"
-  links: "/link"
-  friends:
-    - name: "HCLonely Blog"
-      url: "https://blog.hclonely.com/"
-    - name: "Github"
-      url: "https://github.com/HCLonely"
-    - name: "Twitter"
-      url: "https://twitter.com/HCL_Lonely"
-    - name: "微博"
-      url: "https://weibo.com/u/5665925139"
-    - name: "Steam"
-      url: "https://steamcommunity.com/id/HCLonely/"
-    - name: "HCLonely BlogHexo + Butterfly 主题"
-      url: "https://butterfly.hclonely.com"
-    - name: "HCLonely BlogHexo + NexT 主题"
-      url: "https://next.hclonely.com"
-    - name: "HCLonely BlogHexo + Yilia Plus 主题"
-      url: "https://yilia.hclonely.com"
-    - name: "HCLonely BlogHexo + Matery 主题"
-      url: "https://matery.hclonely.com"
-    - name: "HCLonely BlogHexo + icarus 主题"
-      url: "https://icarus.hclonely.com"
-    - name: "HCLonely BlogHexo + volantis 主题"
-      url: "https://volantis.hclonely.com"
-    - name: "HCLonely BlogHexo + nexmoe 主题"
-      url: "https://nexmoe.hclonely.com"
-    - name: "HCLonely BlogHexo + shana 主题"
-      url: "https://shana.hclonely.com"
-    - name: "HCLonely BlogJekyll + TeXt 主题"
-      url: "https://jekyll.hclonely.com"
-    - name: "HCLonely Bloghugo + even 主题"
-      url: "https://hugo.hclonely.com"
-    - name: "HCLonely Bloggridea + NexT 主题"
-      url: "https://gridea.hclonely.com"
-    - name: "火喵酱一喵一世界"
-      url: "https://dorcandy.cn/"
-    - name: "发际线发现，记录，分享"
-      url: "http://www.prchen.com/"
-    - name: "过客~励む你现在的努力，是为了以后有更多的选择。"
-      url: "https://yafine-blog.cn"
-    - name: "小康博客一个收藏回忆与分享技术的地方！"
-      url: "https://www.antmoe.com/"
-    - name: "MaxBill努力做最好的自己"
-      url: "https://www.maxbill.cn/"
-    - name: "刘向洋记录工作,记录生活"
-      url: "https://liuxiangyang.space/"
-    - name: "GamerNoTitle一个在懵懂无知中成长的高中生程序员^V^"
-      url: "https://bili33.top/"
-    - name: "橙光笔记励志改变人生，编程改变命运"
-      url: "https://www.kai666666.com/"
-    - name: "简简安全小白的漫漫成长路"
-      url: "https://jwt1399.top/"
-    - name: "FGHRSHFGHRSH 的博客"
-      url: "https://www.fghrsh.net"
-    - name: "超逸の技术博客不是只会写业务代码の前端攻城狮"
-      url: "https://yangchaoyi.vip/"
-    - name: "kali’s blog遇见更好的自己"
-      url: "https://kali65536.github.io/"
-    - name: "今今今生医不自医，人不渡己"
-      url: "https://noheart.cn/"
-    - name: "mengDotWelcome to mengDot’s blog"
-      url: "https://www.meng.me/"
-    - name: "Vino问渠那得清如许，为有源头活水来。"
-      url: "https://vino.run/"
-    - name: "EmoryHuang’s BlogLearning everything"
-      url: "https://emoryhuang.cn/"
-    - name: "Mycpen这是一个有趣的博客"
-      url: "https://blog.cpen.top/"
-    - name: "BOB’S BLOG数据采集、逆向安全"
-      url: "https://www.itbob.cn/"
-    - name: "Wayne's blog以梦为马，不负韶华。"
-      url: "https://wrans.top"
-    - name: "青行三业余前端的生物狗"
-      url: "https://note.jiehua.org/"
-    - name: "Colorfulshadow(深海)有你的荣耀 永不散场"
-      url: "https://oyi.me/"
-    - name: "阿明の博客真正的大师永远保持着一颗学徒的心"
-      url: "https://hexo.zhangaming.com/"
-    - name: "郭宝的博客一 个 专 注 于 编 程 技 术 分 享 的 网 站"
-      url: "https://www.guobao0730.com/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Aria2"
-      url: "https://blog.hclonely.com/tags/Aria2/"
-    - name: "WebUI"
-      url: "https://blog.hclonely.com/tags/WebUI/"
-    - name: "图形界面"
-      url: "https://blog.hclonely.com/tags/%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2/"
-    - name: "Javascript"
-      url: "https://blog.hclonely.com/tags/Javascript/"
-    - name: "Artitalk"
-      url: "https://blog.hclonely.com/tags/Artitalk/"
-    - name: "说说"
-      url: "https://blog.hclonely.com/tags/%E8%AF%B4%E8%AF%B4/"
-    - name: "Chrome"
-      url: "https://blog.hclonely.com/tags/Chrome/"
-    - name: "插件"
-      url: "https://blog.hclonely.com/tags/%E6%8F%92%E4%BB%B6/"
-    - name: "浏览器"
-      url: "https://blog.hclonely.com/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"
-    - name: "Git"
-      url: "https://blog.hclonely.com/tags/Git/"
-    - name: "Github"
-      url: "https://blog.hclonely.com/tags/Github/"
-    - name: "Coding"
-      url: "https://blog.hclonely.com/tags/Coding/"
-    - name: "码云"
-      url: "https://blog.hclonely.com/tags/%E7%A0%81%E4%BA%91/"
-    - name: "Hexo"
-      url: "https://blog.hclonely.com/tags/Hexo/"
-    - name: "steam"
-      url: "https://blog.hclonely.com/tags/steam/"
-    - name: "game"
-      url: "https://blog.hclonely.com/tags/game/"
-    - name: "游戏"
-      url: "https://blog.hclonely.com/tags/%E6%B8%B8%E6%88%8F/"
-    - name: "bilibili"
-      url: "https://blog.hclonely.com/tags/bilibili/"
-    - name: "bangumi"
-      url: "https://blog.hclonely.com/tags/bangumi/"
-    - name: "哔哩哔哩"
-      url: "https://blog.hclonely.com/tags/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9/"
-    - name: "美化"
-      url: "https://blog.hclonely.com/tags/%E7%BE%8E%E5%8C%96/"
-    - name: "小部件"
-      url: "https://blog.hclonely.com/tags/%E5%B0%8F%E9%83%A8%E4%BB%B6/"
-    - name: "日历"
-      url: "https://blog.hclonely.com/tags/%E6%97%A5%E5%8E%86/"
-    - name: "访客地图"
-      url: "https://blog.hclonely.com/tags/%E8%AE%BF%E5%AE%A2%E5%9C%B0%E5%9B%BE/"
-    - name: "pixiv"
-      url: "https://blog.hclonely.com/tags/pixiv/"
-    - name: "投票"
-      url: "https://blog.hclonely.com/tags/%E6%8A%95%E7%A5%A8/"
-    - name: "自建服务"
-      url: "https://blog.hclonely.com/tags/%E8%87%AA%E5%BB%BA%E6%9C%8D%E5%8A%A1/"
-    - name: "IP签名档"
-      url: "https://blog.hclonely.com/tags/IP%E7%AD%BE%E5%90%8D%E6%A1%A3/"
-    - name: "ip"
-      url: "https://blog.hclonely.com/tags/ip/"
-    - name: "图片签名档"
-      url: "https://blog.hclonely.com/tags/%E5%9B%BE%E7%89%87%E7%AD%BE%E5%90%8D%E6%A1%A3/"
-    - name: "签名档"
-      url: "https://blog.hclonely.com/tags/%E7%AD%BE%E5%90%8D%E6%A1%A3/"
-    - name: "脚本"
-      url: "https://blog.hclonely.com/tags/%E8%84%9A%E6%9C%AC/"
-    - name: "key"
-      url: "https://blog.hclonely.com/tags/key/"
-    - name: "自动任务"
-      url: "https://blog.hclonely.com/tags/%E8%87%AA%E5%8A%A8%E4%BB%BB%E5%8A%A1/"
-    - name: "steam 激活码"
-      url: "https://blog.hclonely.com/tags/steam-%E6%BF%80%E6%B4%BB%E7%A0%81/"
-    - name: "Linux"
-      url: "https://blog.hclonely.com/tags/Linux/"
-    - name: "ownCloud"
-      url: "https://blog.hclonely.com/tags/ownCloud/"
-    - name: "硬盘"
-      url: "https://blog.hclonely.com/tags/%E7%A1%AC%E7%9B%98/"
-    - name: "live2d"
-      url: "https://blog.hclonely.com/tags/live2d/"
-    - name: "看板娘"
-      url: "https://blog.hclonely.com/tags/%E7%9C%8B%E6%9D%BF%E5%A8%98/"
-    - name: "NodeJs"
-      url: "https://blog.hclonely.com/tags/NodeJs/"
-    - name: "module"
-      url: "https://blog.hclonely.com/tags/module/"
-    - name: "JavaScript"
-      url: "https://blog.hclonely.com/tags/JavaScript/"
-    - name: "Cloud Studio"
-      url: "https://blog.hclonely.com/tags/Cloud-Studio/"
-    - name: "Valine"
-      url: "https://blog.hclonely.com/tags/Valine/"
-    - name: "下载软件"
-      url: "https://blog.hclonely.com/tags/%E4%B8%8B%E8%BD%BD%E8%BD%AF%E4%BB%B6/"
-    - name: "tag"
-      url: "https://blog.hclonely.com/tags/tag/"
-    - name: "helper"
-      url: "https://blog.hclonely.com/tags/helper/"
-    - name: "online"
-      url: "https://blog.hclonely.com/tags/online/"
-    - name: "server"
-      url: "https://blog.hclonely.com/tags/server/"
-    - name: "主题"
-      url: "https://blog.hclonely.com/tags/%E4%B8%BB%E9%A2%98/"
-    - name: "一言"
-      url: "https://blog.hclonely.com/tags/%E4%B8%80%E8%A8%80/"
-    - name: "手机游戏"
-      url: "https://blog.hclonely.com/tags/%E6%89%8B%E6%9C%BA%E6%B8%B8%E6%88%8F/"
-    - name: "公主连结 Re:Dive"
-      url: "https://blog.hclonely.com/tags/%E5%85%AC%E4%B8%BB%E8%BF%9E%E7%BB%93-Re-Dive/"
-    - name: "pcr"
-      url: "https://blog.hclonely.com/tags/pcr/"
-    - name: "浏览记录"
-      url: "https://blog.hclonely.com/tags/%E6%B5%8F%E8%A7%88%E8%AE%B0%E5%BD%95/"
-    - name: "天气"
-      url: "https://blog.hclonely.com/tags/%E5%A4%A9%E6%B0%94/"
-    - name: "网页"
-      url: "https://blog.hclonely.com/tags/%E7%BD%91%E9%A1%B5/"
-    - name: "网页特效"
-      url: "https://blog.hclonely.com/tags/%E7%BD%91%E9%A1%B5%E7%89%B9%E6%95%88/"
-    - name: "bat"
-      url: "https://blog.hclonely.com/tags/bat/"
-    - name: "exe"
-      url: "https://blog.hclonely.com/tags/exe/"
-    - name: "可执行文件"
-      url: "https://blog.hclonely.com/tags/%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6/"
-    - name: "树莓派"
-      url: "https://blog.hclonely.com/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"
-    - name: "Docker"
-      url: "https://blog.hclonely.com/tags/Docker/"
-    - name: "pjax"
-      url: "https://blog.hclonely.com/tags/pjax/"
-    - name: "百度分析"
-      url: "https://blog.hclonely.com/tags/%E7%99%BE%E5%BA%A6%E5%88%86%E6%9E%90/"
-    - name: "谷歌分析"
-      url: "https://blog.hclonely.com/tags/%E8%B0%B7%E6%AD%8C%E5%88%86%E6%9E%90/"
-    - name: "addThis"
-      url: "https://blog.hclonely.com/tags/addThis/"
-    - name: "分享"
-      url: "https://blog.hclonely.com/tags/%E5%88%86%E4%BA%AB/"
-    - name: "社交"
-      url: "https://blog.hclonely.com/tags/%E7%A4%BE%E4%BA%A4/"
-    - name: "鼠标特效"
-      url: "https://blog.hclonely.com/tags/%E9%BC%A0%E6%A0%87%E7%89%B9%E6%95%88/"
-    - name: "前端性能优化"
-      url: "https://blog.hclonely.com/tags/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"
-    - name: "青年大学习"
-      url: "https://blog.hclonely.com/tags/%E9%9D%92%E5%B9%B4%E5%A4%A7%E5%AD%A6%E4%B9%A0/"
-    - name: "安卓"
-      url: "https://blog.hclonely.com/tags/%E5%AE%89%E5%8D%93/"
-    - name: "APlayer"
-      url: "https://blog.hclonely.com/tags/APlayer/"
-    - name: "音乐播放器"
-      url: "https://blog.hclonely.com/tags/%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"
-    - name: "PoweredHexo"
-      url: "https://hexo.io/"
-    - name: "ThemeHandsome"
-      url: "https://www.ihewro.com/archives/489/"
-    - name: "CDNjsDelivr"
-      url: "https://www.jsdelivr.com/"
-    - name: "部署Vercel"
-      url: "https://vercel.com/"
+'site':
+  'name': 'blog.hclonely.com'
+  'description': '友情链接'
+  'url': 'https://blog.hclonely.com/'
+  'links': '/link'
+  'friends':
+    - 'name': 'Steam'
+      'url': 'https://steamcommunity.com/id/HCLonely/'
+    - 'name': 'HCLonely BlogHexo + Butterfly 主题'
+      'url': 'https://butterfly.hclonely.com'
+    - 'name': 'HCLonely BlogHexo + NexT 主题'
+      'url': 'https://next.hclonely.com'
+    - 'name': 'HCLonely BlogHexo + Yilia Plus 主题'
+      'url': 'https://yilia.hclonely.com'
+    - 'name': 'HCLonely BlogHexo + Matery 主题'
+      'url': 'https://matery.hclonely.com'
+    - 'name': 'HCLonely BlogHexo + icarus 主题'
+      'url': 'https://icarus.hclonely.com'
+    - 'name': 'HCLonely BlogHexo + volantis 主题'
+      'url': 'https://volantis.hclonely.com'
+    - 'name': 'HCLonely BlogHexo + nexmoe 主题'
+      'url': 'https://nexmoe.hclonely.com'
+    - 'name': 'HCLonely BlogHexo + shana 主题'
+      'url': 'https://shana.hclonely.com'
+    - 'name': 'HCLonely BlogJekyll + TeXt 主题'
+      'url': 'https://jekyll.hclonely.com'
+    - 'name': 'HCLonely Bloghugo + even 主题'
+      'url': 'https://hugo.hclonely.com'
+    - 'name': 'HCLonely Bloggridea + NexT 主题'
+      'url': 'https://gridea.hclonely.com'
+    - 'name': '火喵酱一喵一世界'
+      'url': 'https://dorcandy.cn/'
+    - 'name': '发际线发现，记录，分享'
+      'url': 'http://www.prchen.com/'
+    - 'name': '过客~励む你现在的努力，是为了以后有更多的选择。'
+      'url': 'https://yafine-blog.cn'
+    - 'name': '小康博客一个收藏回忆与分享技术的地方！'
+      'url': 'https://www.antmoe.com/'
+    - 'name': 'MaxBill努力做最好的自己'
+      'url': 'https://www.maxbill.cn/'
+    - 'name': '刘向洋记录工作,记录生活'
+      'url': 'https://liuxiangyang.space/'
+    - 'name': 'GamerNoTitle一个在懵懂无知中成长的高中生程序员^V^'
+      'url': 'https://bili33.top/'
+    - 'name': '橙光笔记励志改变人生，编程改变命运'
+      'url': 'https://www.kai666666.com/'
+    - 'name': '简简安全小白的漫漫成长路'
+      'url': 'https://jwt1399.top/'
+    - 'name': 'FGHRSHFGHRSH 的博客'
+      'url': 'https://www.fghrsh.net'
+    - 'name': '超逸の技术博客不是只会写业务代码の前端攻城狮'
+      'url': 'https://yangchaoyi.vip/'
+    - 'name': '今今今生医不自医，人不渡己'
+      'url': 'https://noheart.cn/'
+    - 'name': 'mengDotWelcome to mengDot’s blog'
+      'url': 'https://www.meng.me/'
+    - 'name': 'Vino问渠那得清如许，为有源头活水来。'
+      'url': 'https://vino.run/'
+    - 'name': 'EmoryHuang’s BlogLearning everything'
+      'url': 'https://emoryhuang.cn/'
+    - 'name': 'Mycpen这是一个有趣的博客'
+      'url': 'https://blog.cpen.top/'
+    - 'name': 'BOB’S BLOG数据采集、逆向安全'
+      'url': 'https://www.itbob.cn/'
+    - 'name': 'Wayne''s blog以梦为马，不负韶华。'
+      'url': 'https://wrans.top'
+    - 'name': '青行三业余前端的生物狗'
+      'url': 'https://note.jiehua.org/'
+    - 'name': 'Colorfulshadow(深海)有你的荣耀 永不散场'
+      'url': 'https://oyi.me/'
+    - 'name': '阿明の博客真正的大师永远保持着一颗学徒的心'
+      'url': 'https://hexo.zhangaming.com/'
+    - 'name': '郭宝的博客一 个 专 注 于 编 程 技 术 分 享 的 网 站'
+      'url': 'https://www.guobao0730.com/'
+    - 'name': 'PoweredHexo'
+      'url': 'https://hexo.io/'
+    - 'name': 'ThemeHandsome'
+      'url': 'https://www.ihewro.com/archives/489/'

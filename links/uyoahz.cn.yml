@@ -1,16 +1,8 @@
-site:
-  name: "UyoAhz"
-  url: "https://uyoahz.cn/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "sina"
-      url: "https://m.weibo.cn/u/1223178222"
-    - name: "wangyiyun"
-      url: "https://music.163.com/#/user/home?id=325959179"
-    - name: "Markdown Guide"
-      url: "https://guides.github.com/features/mastering-markdown/"
-    - name: "Waline"
-      url: "https://github.com/walinejs/waline"
-    - name: "知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议"
-      url: "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"
+'site':
+  'name': 'UyoAhz'
+  'url': 'https://uyoahz.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议'
+      'url': 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh'

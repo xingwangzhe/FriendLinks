@@ -1,66 +1,34 @@
-site:
-  name: "blog.dukefox.com"
-  description: "友情链接"
-  url: "https://blog.dukefox.com/"
-  links: "/link"
-  friends:
-    - name: "My Blog"
-      url: "https://blog.dukefox.com/"
-    - name: "Narukami.Work"
-      url: "https://narukami.work/"
-    - name: "Pandora Box"
-      url: "https://box.narukami.work/"
-    - name: "Vaultwarden"
-      url: "https://safe.narukami.work/"
-    - name: "Pastry Susie"
-      url: "https://blog.lovedpup.cc/"
-    - name: "许大阳的日记本"
-      url: "https://imxcy.cn/"
-    - name: "夏海芭的博客"
-      url: "https://xiahaiba.com"
-    - name: "余生"
-      url: "https://yszwbk.com/"
-    - name: "粥粥博客志"
-      url: "https://www.zhxubk.cn"
-    - name: "夏海芭的博客可以叫我夏海，或许只有皮友才知芭的含义..."
-      url: "https://xiahaiba.com/"
-    - name: "余生好好生活，保持快乐。"
-      url: "https://www.yszwbk.com/"
-    - name: "Pinpe 的云端一个属于自己的云朵。"
-      url: "https://blog.pinpe.top"
-    - name: "自建图床基于 Lsky Pro 的图床"
-      url: "https://image.narukami.work/"
-    - name: "Hexo"
-      url: "https://hexo.io/zh-tw/"
-    - name: "Vercel"
-      url: "https://vercel.com/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org/"
-    - name: "MongoDB"
-      url: "https://www.mongodb.com/zh-cn"
-    - name: "Duke"
-      url: "https://blog.dukefox.com"
-    - name: "https://www.adkko.com"
-      url: "https://www.adkko.com"
-    - name: "https://blog.pinpe.top/wp-content/uploads/2023/10/head.jpg"
-      url: "https://blog.pinpe.top/wp-content/uploads/2023/10/head.jpg"
-    - name: "Pinpe"
-      url: "http://pinpe.top"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "状态"
-      url: "https://uptime.narukami.work/"
-    - name: "监控"
-      url: "https://monitor.narukami.work/"
-    - name: "开往"
-      url: "https://www.travellings.cn/go.html"
-    - name: "HEXO"
-      url: "https://hexo.io/zh-cn/index.html"
-    - name: "Tencent"
-      url: "https://cloud.tencent.com/product/teo"
-    - name: "博客框架为 Hexo"
-      url: "https://hexo.io/"
-    - name: "本站项目源码由 Github 托管"
-      url: "https://github.com/"
-    - name: "皖ICP备2022016919号-1"
-      url: "https://beian.miit.gov.cn/"
+'site':
+  'name': 'blog.dukefox.com'
+  'description': '友情链接'
+  'url': 'https://blog.dukefox.com/'
+  'links': '/link'
+  'friends':
+    - 'name': 'Narukami.Work'
+      'url': 'https://narukami.work/'
+    - 'name': 'Pandora Box'
+      'url': 'https://box.narukami.work/'
+    - 'name': 'Vaultwarden'
+      'url': 'https://safe.narukami.work/'
+    - 'name': 'Pastry Susie'
+      'url': 'https://blog.lovedpup.cc/'
+    - 'name': '许大阳的日记本'
+      'url': 'https://imxcy.cn/'
+    - 'name': '夏海芭的博客'
+      'url': 'https://xiahaiba.com'
+    - 'name': '余生'
+      'url': 'https://yszwbk.com/'
+    - 'name': '粥粥博客志'
+      'url': 'https://www.zhxubk.cn'
+    - 'name': '夏海芭的博客可以叫我夏海，或许只有皮友才知芭的含义...'
+      'url': 'https://xiahaiba.com/'
+    - 'name': '余生好好生活，保持快乐。'
+      'url': 'https://www.yszwbk.com/'
+    - 'name': 'Pinpe 的云端一个属于自己的云朵。'
+      'url': 'https://blog.pinpe.top'
+    - 'name': 'MongoDB'
+      'url': 'https://www.mongodb.com/zh-cn'
+    - 'name': 'Pinpe'
+      'url': 'http://pinpe.top'
+    - 'name': '博客框架为 Hexo'
+      'url': 'https://hexo.io/'

@@ -1,64 +1,50 @@
-site:
-  name: "Razuritta"
-  url: "https://blog.razuritta.me/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Shucheng Li"
-      url: "https://www.snli.org"
-    - name: "Sun’s Blog"
-      url: "https://www.6700.cc/"
-    - name: "KusakabeShi’s Space"
-      url: "https://www.kskb.eu.org/"
-    - name: "悠米博客"
-      url: "https://www.yuume.org/"
-    - name: "派兹的小站"
-      url: "https://blog.blw.moe/"
-    - name: "haojunmei"
-      url: "https://haojunmei.top/"
-    - name: "Akihi’s Blog"
-      url: "https://akihi.ink/"
-    - name: "小俊博客"
-      url: "https://www.smalljun.com/"
-    - name: "果果小站"
-      url: "https://xn--bsr.cn"
-    - name: "晓白的小站"
-      url: "https://blog.chs.pub/"
-    - name: "Luminous’ Home"
-      url: "https://luotianyi.vc"
-    - name: "风间苏苏"
-      url: "https://theresa.cafe"
-    - name: "冰音Project"
-      url: "https://www.9bingyin.com/"
-    - name: "Rain’s Blog"
-      url: "https://blog.im.ci/"
-    - name: "小城寒风"
-      url: "https://blog.atago.moe"
-    - name: "虎窝"
-      url: "https://blog.ahu.moe"
-    - name: "iEdon"
-      url: "https://iedon.com/"
-    - name: "Puresys 纯净系统-软件下载"
-      url: "https://www.puresys.net"
-    - name: "ArchWiki"
-      url: "https://wiki.archlinux.org"
-    - name: "DistroChooser"
-      url: "https://distrochooser.de/"
-    - name: "Linux Advanced Routing and Traffic Control"
-      url: "https://lartc.org"
-    - name: "Vincent Bernat"
-      url: "https://vincent.bernat.ch/"
-    - name: "https://blog.razuritta.me/avatar.jpg"
-      url: "https://blog.razuritta.me/avatar.jpg"
-    - name: "https://blog.razuritta.me/"
-      url: "https://blog.razuritta.me/"
-    - name: "https://creativecommons.org/licenses/by-sa/4.0/"
-      url: "https://creativecommons.org/licenses/by-sa/4.0/"
-    - name: "Twikoo"
-      url: "https://twikoo.js.org"
-    - name: "Hugo"
-      url: "https://gohugo.io/"
-    - name: "Stack"
-      url: "https://github.com/CaiJimmy/hugo-theme-stack"
-    - name: "Jimmy"
-      url: "https://jimmycai.com"
+'site':
+  'name': 'Razuritta'
+  'url': 'https://blog.razuritta.me/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Shucheng Li'
+      'url': 'https://www.snli.org'
+    - 'name': 'Sun’s Blog'
+      'url': 'https://www.6700.cc/'
+    - 'name': 'KusakabeShi’s Space'
+      'url': 'https://www.kskb.eu.org/'
+    - 'name': '悠米博客'
+      'url': 'https://www.yuume.org/'
+    - 'name': '派兹的小站'
+      'url': 'https://blog.blw.moe/'
+    - 'name': 'haojunmei'
+      'url': 'https://haojunmei.top/'
+    - 'name': 'Akihi’s Blog'
+      'url': 'https://akihi.ink/'
+    - 'name': '小俊博客'
+      'url': 'https://www.smalljun.com/'
+    - 'name': '果果小站'
+      'url': 'https://xn--bsr.cn'
+    - 'name': '晓白的小站'
+      'url': 'https://blog.chs.pub/'
+    - 'name': 'Luminous’ Home'
+      'url': 'https://luotianyi.vc'
+    - 'name': '风间苏苏'
+      'url': 'https://theresa.cafe'
+    - 'name': '冰音Project'
+      'url': 'https://www.9bingyin.com/'
+    - 'name': 'Rain’s Blog'
+      'url': 'https://blog.im.ci/'
+    - 'name': '小城寒风'
+      'url': 'https://blog.atago.moe'
+    - 'name': '虎窝'
+      'url': 'https://blog.ahu.moe'
+    - 'name': 'iEdon'
+      'url': 'https://iedon.com/'
+    - 'name': 'Puresys 纯净系统-软件下载'
+      'url': 'https://www.puresys.net'
+    - 'name': 'DistroChooser'
+      'url': 'https://distrochooser.de/'
+    - 'name': 'Linux Advanced Routing and Traffic Control'
+      'url': 'https://lartc.org'
+    - 'name': 'Vincent Bernat'
+      'url': 'https://vincent.bernat.ch/'
+    - 'name': 'Jimmy'
+      'url': 'https://jimmycai.com'

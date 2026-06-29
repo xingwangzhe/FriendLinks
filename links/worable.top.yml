@@ -1,14 +1,10 @@
-site:
-  name: "worable"
-  url: "https://worable.top/"
-  description: "友情链接"
-  links: "/links"
-  friends:
-    - name: "Drive"
-      url: "https://pan.mcbebbs.cn/s/D1uM"
-    - name: "SimpleTheme"
-      url: "https://github.com/worable233/SimpleTheme"
-    - name: "[作业]Web课作业查看"
-      url: "https://pan.worable.top/1/index.html"
-    - name: "https://www.worable.top/"
-      url: "https://www.worable.top/"
+'site':
+  'name': 'worable'
+  'url': 'https://worable.top/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Drive'
+      'url': 'https://pan.mcbebbs.cn/s/D1uM'
+    - 'name': '[作业]Web课作业查看'
+      'url': 'https://pan.worable.top/1/index.html'

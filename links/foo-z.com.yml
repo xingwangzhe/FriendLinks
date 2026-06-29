@@ -1,22 +1,16 @@
-site:
-  name: "foo-z.com"
-  description: "友情链接"
-  url: "https://foo-z.com/"
-  links: "/friends"
-  friends:
-    - name: "Github"
-      url: "https://github.com/Chacat68"
-    - name: "Charliefoo on X"
-      url: "https://x.com/Chacat68"
-    - name: "Charliefoo on Bluesky"
-      url: "https://bsky.app/profile/chacat68.bsky.social"
-    - name: "Charliefoo on NeoDB"
-      url: "https://neodb.social/users/Charliefoo/"
-    - name: "张洪Heo 分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "王权的产品摄影 产品摄影是一种凝视。王权的作品与思考。"
-      url: "https://www.colinwangq.com/"
-    - name: "Tangly的学习笔记 NotionNext的作者 NotNext"
-      url: "https://tangly1024.com/"
-    - name: "Astro AntfuStyle Theme"
-      url: "https://github.com/lin-stephanie/astro-antfustyle-theme"
+'site':
+  'name': 'foo-z.com'
+  'description': '友情链接'
+  'url': 'https://foo-z.com/'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Charliefoo on Bluesky'
+      'url': 'https://bsky.app/profile/chacat68.bsky.social'
+    - 'name': 'Charliefoo on NeoDB'
+      'url': 'https://neodb.social/users/Charliefoo/'
+    - 'name': '张洪Heo 分享设计与科技生活'
+      'url': 'https://blog.zhheo.com/'
+    - 'name': '王权的产品摄影 产品摄影是一种凝视。王权的作品与思考。'
+      'url': 'https://www.colinwangq.com/'
+    - 'name': 'Tangly的学习笔记 NotionNext的作者 NotNext'
+      'url': 'https://tangly1024.com/'
