@@ -1,0 +1,10 @@
+'site':
+  'name': 'frostming.com'
+  'url': 'https://frostming.com/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': '1A21 DF26 CF48 7A9B 9E9B C482 7B28 4C8F CC08 5EFF'
+      'url': 'https://keys.openpgp.org/vks/v1/by-fingerprint/1A21DF26CF487A9B9E9BC4827B284C8FCC085EFF'
+    - 'name': '我的演讲'
+      'url': 'https://slides.fming.dev/'
