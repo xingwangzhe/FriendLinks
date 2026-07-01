@@ -354,4 +354,7 @@ export const NON_BLOG_DOMAINS: string[] = [
 			  // 智能/科技商业站点
 			  "znds.com", "zhidx.com", "zhiguoxin.cn", "zhengzhaopai.com",
 			  "dmtt.run", "sczhgx.com", "gameba.cc", "aint.top",
+			  // 组件库/框架官网(CSS被当链接名)
+			  "shoelace.style", "hilla.dev", "core.clarity.design",
+			  "openjsf.org", "lion.js.org", "auro.alaskaair.com",
 			];
