@@ -161,42 +161,96 @@ export function init3d(graphData: GraphData) {
     panel = document.createElement("div");
     panel.id = "graph-control-panel";
 
-    const label = document.createElement("label");
-    label.textContent = "连线透明度";
-    label.style.cssText = "font-size:12px;color:#aaa;display:block;margin-bottom:4px;";
+    // ── 辅助函数：创建一行滑块控件 ──
+    function addSliderRow(
+      panel: HTMLElement,
+      title: string,
+      min: string,
+      max: string,
+      step: string,
+      defaultValue: string,
+      onChange: (v: number) => void,
+      unit?: string,
+    ) {
+      const label = document.createElement("label");
+      label.textContent = title;
+      label.style.cssText =
+        "font-size:12px;color:#aaa;display:block;margin-bottom:4px;margin-top:10px;";
 
-    const slider = document.createElement("input");
-    slider.type = "range";
-    slider.min = "0";
-    slider.max = "1";
-    slider.step = "0.05";
-    slider.value = String(linkOpacity.value);
-    slider.style.cssText = "width:100%;accent-color:#4a9eff;";
+      const slider = document.createElement("input");
+      slider.type = "range";
+      slider.min = min;
+      slider.max = max;
+      slider.step = step;
+      slider.value = defaultValue;
+      slider.style.cssText = "width:100%;accent-color:#4a9eff;";
 
-    const valueDisplay = document.createElement("span");
-    valueDisplay.textContent = slider.value;
-    valueDisplay.style.cssText = "font-size:11px;color:#aaa;margin-left:6px;";
+      const valueDisplay = document.createElement("span");
+      valueDisplay.textContent = defaultValue + (unit || "");
+      valueDisplay.style.cssText = "font-size:11px;color:#aaa;margin-left:6px;";
 
-    slider.addEventListener("input", () => {
-      const v = parseFloat(slider.value);
+      slider.addEventListener("input", () => {
+        const v = parseFloat(slider.value);
+        valueDisplay.textContent = slider.value + (unit || "");
+        onChange(v);
+      });
+
+      const wrapper = document.createElement("div");
+      wrapper.style.cssText = "display:flex;align-items:center;";
+      wrapper.appendChild(slider);
+      wrapper.appendChild(valueDisplay);
+
+      panel.appendChild(label);
+      panel.appendChild(wrapper);
+      return { slider, valueDisplay };
+    }
+
+    // ── 连线透明度 ──
+    addSliderRow(panel, "连线透明度", "0", "1", "0.05", String(linkOpacity.value), (v) => {
       linkOpacity.value = v;
-      valueDisplay.textContent = slider.value;
       saveOpacity(v);
-      // 触发连线颜色刷新
       refreshLinkColors();
     });
 
-    const wrapper = document.createElement("div");
-    wrapper.style.cssText = "display:flex;align-items:center;";
-    wrapper.appendChild(slider);
-    wrapper.appendChild(valueDisplay);
+    // ── 飞船速度 ──
+    addSliderRow(panel, "飞船速度", "5", "100", "5", String(MOVE_SPEED), (v) => {
+      MOVE_SPEED = v;
+    });
+
+    // ── 节点标签开关 ──
+    {
+      const label = document.createElement("label");
+      label.textContent = "节点标签";
+      label.style.cssText =
+        "font-size:12px;color:#aaa;display:block;margin-bottom:4px;margin-top:10px;";
+
+      const checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.checked = labelShow.value;
+      checkbox.style.cssText = "accent-color:#4a9eff;margin-right:6px;";
+
+      const checkboxLabel = document.createElement("span");
+      checkboxLabel.textContent = checkbox.checked ? "显示" : "隐藏";
+      checkboxLabel.style.cssText = "font-size:12px;color:#ccc;";
+
+      checkbox.addEventListener("change", () => {
+        labelShow.value = checkbox.checked;
+        checkboxLabel.textContent = checkbox.checked ? "显示" : "隐藏";
+      });
+
+      const wrapper = document.createElement("div");
+      wrapper.style.cssText = "display:flex;align-items:center;";
+      wrapper.appendChild(checkbox);
+      wrapper.appendChild(checkboxLabel);
+
+      panel.appendChild(label);
+      panel.appendChild(wrapper);
+    }
 
     const hint = document.createElement("div");
-    hint.textContent = "⚙️ 持久化保存，下次自动恢复";
-    hint.style.cssText = "font-size:10px;color:#666;margin-top:6px;text-align:center;";
+    hint.textContent = "⚙️ 滚动滚轮可缩放，右键拖拽可旋转";
+    hint.style.cssText = "font-size:10px;color:#666;margin-top:10px;text-align:center;";
 
-    panel.appendChild(label);
-    panel.appendChild(wrapper);
     panel.appendChild(hint);
 
     panel.style.cssText = `
@@ -206,7 +260,7 @@ export function init3d(graphData: GraphData) {
       border:1px solid rgba(255,255,255,0.1);
       border-radius:8px;
       padding:10px 14px;
-      min-width:150px;
+      min-width:160px;
       display:none;
       font-family:sans-serif;
     `;
@@ -214,6 +268,8 @@ export function init3d(graphData: GraphData) {
     document.body.appendChild(panel);
     return panel;
   }
+
+  const labelShow = { value: true };
 
   const controlPanel = createControlPanel();
 
@@ -978,13 +1034,18 @@ export function init3d(graphData: GraphData) {
       }
     }
 
-    // 标签距离 LOD：远距离淡出
+    // 标签距离 LOD：远距离淡出，同时受全局开关控制
     if (labelGroup.children.length > 0) {
       const cp = Graph.cameraPosition();
+      const show = labelShow.value;
       for (const child of labelGroup.children) {
         const sprite = child as THREE.Sprite;
         const np = (sprite as any)._nodePos;
         if (!np) continue;
+        if (!show) {
+          sprite.visible = false;
+          continue;
+        }
         const dx = np.x - cp.x;
         const dy = np.y - cp.y;
         const dz = np.z - cp.z;
@@ -1159,7 +1220,7 @@ export function init3d(graphData: GraphData) {
   });
 
   // ── 12. 飞船飞行模式（FPS 惯性准星） ──────────────────────────
-  const MOVE_SPEED = 30;
+  let MOVE_SPEED = 30;
   const SHIFT_MULTIPLIER = 3;
   const MOUSE_SENSITIVITY = 0.003;
   const RETICLE_SPRING = 30;
