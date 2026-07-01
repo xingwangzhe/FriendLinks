@@ -379,6 +379,7 @@ export const NON_BLOG_DOMAINS: string[] = [
 			  "nn.labml.ai",          // AI研究文档
 			  "iabc.work",            // 项目展示页
 			  "0w0.best",             // 试验/演示站
+			  "0vvo.com",             // 动漫站(非博客)
 			  "ghostring.neocities.org", // webring导航
 			  "firechicken.club",     // webring导航
 			  "by91.qzz.io",          // 色情
