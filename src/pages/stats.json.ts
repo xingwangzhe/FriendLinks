@@ -115,51 +115,63 @@ export async function GET() {
   const statsWithRoutes = { ...stats, linkRoutes: linkRoutesSorted };
   printProgress("❷", "路由统计完成", 100);
 
-  // ── 六度分隔统计 (采样估算, 完整数据: bun scripts/analyze_six_degrees.ts) ──
-  printProgress("❸", "六度分隔采样…", 85);
-  const degreeDist: Record<number, number> = {};
-  let maxDegreeSep = 0, totalPairs = 0;
+  // ── 六度分隔统计 ──────────────────────────────────────────
+  printProgress("❸", "六度分隔分析…", 85);
 
-  const coreUrls = [...linkMap.keys()];
-  const coreIndex = new Map<string, number>();
-  coreUrls.forEach((u, i) => coreIndex.set(u, i));
-  const coreAdj: number[][] = Array.from({ length: coreUrls.length }, () => []);
-  for (const [src, targets] of linkMap) {
-    const si = coreIndex.get(src)!;
-    for (const t of targets) {
-      const ti = coreIndex.get(t);
-      if (ti != null) coreAdj[si].push(ti);
+  let sixDegreeStats: any = null;
+
+  // 尝试读取预计算缓存
+  try {
+    const cachedPath = "../../dist/six-degrees.json";
+    sixDegreeStats = JSON.parse(await Bun.file(new URL(cachedPath, import.meta.url)).text());
+  } catch {}
+
+  // 缓存不存在时采样估算
+  if (!sixDegreeStats) {
+    const degreeDist: Record<number, number> = {};
+    let maxDegreeSep = 0, totalPairs = 0;
+
+    const coreUrls = [...linkMap.keys()];
+    const coreIndex = new Map<string, number>();
+    coreUrls.forEach((u, i) => coreIndex.set(u, i));
+    const coreAdj: number[][] = Array.from({ length: coreUrls.length }, () => []);
+    for (const [src, targets] of linkMap) {
+      const si = coreIndex.get(src)!;
+      for (const t of targets) {
+        const ti = coreIndex.get(t);
+        if (ti != null) coreAdj[si].push(ti);
+      }
     }
-  }
 
-  const sampCount = Math.min(100, coreUrls.length);
-  const degSorted = coreUrls
-    .map((u, i) => ({ idx: i, deg: linkMap.get(u)!.size }))
-    .sort((a, b) => b.deg - a.deg)
-    .slice(0, sampCount);
+    const sampCount = Math.min(100, coreUrls.length);
+    const degSorted = coreUrls
+      .map((u, i) => ({ idx: i, deg: linkMap.get(u)!.size }))
+      .sort((a, b) => b.deg - a.deg)
+      .slice(0, sampCount);
 
-  for (const { idx: start } of degSorted) {
-    const dist = new Int32Array(coreUrls.length).fill(-1);
-    dist[start] = 0;
-    const q: number[] = [start]; let head = 0;
-    while (head < q.length) { const u = q[head++]; for (const v of coreAdj[u]) { if (dist[v] === -1) { dist[v] = dist[u] + 1; q.push(v); } } }
-    for (let i = 0; i < dist.length; i++) {
-      if (i === start || dist[i] === -1) continue;
-      totalPairs++;
-      const d = dist[i]; if (d > maxDegreeSep) maxDegreeSep = d;
-      degreeDist[d] = (degreeDist[d] || 0) + 1;
+    for (const { idx: start } of degSorted) {
+      const dist = new Int32Array(coreUrls.length).fill(-1);
+      dist[start] = 0;
+      const q: number[] = [start]; let head = 0;
+      while (head < q.length) { const u = q[head++]; for (const v of coreAdj[u]) { if (dist[v] === -1) { dist[v] = dist[u] + 1; q.push(v); } } }
+      for (let i = 0; i < dist.length; i++) {
+        if (i === start || dist[i] === -1) continue;
+        totalPairs++;
+        const d = dist[i]; if (d > maxDegreeSep) maxDegreeSep = d;
+        degreeDist[d] = (degreeDist[d] || 0) + 1;
+      }
     }
-  }
-  const intermediateVertices: Record<number, number> = {};
-  for (const [d, cnt] of Object.entries(degreeDist)) intermediateVertices[Number(d) - 1] = cnt;
+    const intermediateVertices: Record<number, number> = {};
+    for (const [d, cnt] of Object.entries(degreeDist)) intermediateVertices[Number(d) - 1] = cnt;
 
-  const sixDegreeStats = {
-    maxEdgeDistance: maxDegreeSep,
-    maxIntermediateVertices: maxDegreeSep - 1,
-    distribution: degreeDist,
-    intermediateVertexDistribution: intermediateVertices,
-    _note: "采样估算(sample=100), 完整全节点数据请运行 bun scripts/analyze_six_degrees.ts",
-  };
+    sixDegreeStats = {
+      maxEdgeDistance: maxDegreeSep,
+      maxIntermediateVertices: maxDegreeSep - 1,
+      distribution: degreeDist,
+      intermediateVertexDistribution: intermediateVertices,
+      _note: "采样估算, 完整数据: bun scripts/analyze_six_degrees.ts",
+    };
+  }
 
   const finalStats = { ...statsWithRoutes, sixDegrees: sixDegreeStats };
 

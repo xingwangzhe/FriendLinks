@@ -19,6 +19,7 @@
     "check-access": "bun scripts/check-access.ts",
     "dev": "astro dev",
     "build": "astro build",
+    "analyze": "bun scripts/analyze_six_degrees.ts",
     "minibuild": "MINIBUILD=1 astro build",
     "preview": "astro preview",
     "lint": "oxlint src/",
