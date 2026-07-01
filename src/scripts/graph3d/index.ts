@@ -952,7 +952,6 @@ export function init3d(graphData: GraphData) {
 
     requestAnimationFrame(animateRipples);
   }
-  }
 
   // 监听交互事件，重置空闲计时器
   const interactionEvents = ["mousemove", "mousedown", "wheel", "touchstart", "touchmove"];
