@@ -1,0 +1,18 @@
+'site':
+  'name': 'volosoft.com'
+  'url': 'https://volosoft.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Articles'
+      'url': 'https://medium.com/volosoft'
+    - 'name': 'Corporate Sponsor'
+      'url': 'https://dotnetfoundation.org/'
+    - 'name': 'Corporate Sponsor'
+      'url': 'https://github.com/openiddict/openiddict-core'
+    - 'name': 'Main Sponsor'
+      'url': 'https://blazorise.com/'
+    - 'name': 'Discover'
+      'url': 'https://abp.io/?ref=vlsft'
+    - 'name': 'Nuget packages'
+      'url': 'https://www.nuget.org/profiles/volosoft'

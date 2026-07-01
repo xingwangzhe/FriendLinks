@@ -1,0 +1,16 @@
+'site':
+  'name': 'azimiao.com'
+  'url': 'http://azimiao.com/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': '喵·导航'
+      'url': 'https://nav.acgame.fun'
+    - 'name': '冀ICP备15008710号'
+      'url': 'http://beian.miit.gov.cn/'
+    - 'name': '冀公网安备13062302000051号'
+      'url': 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=13062302000051'
+    - 'name': 'WordPress'
+      'url': 'https://wordpress.org'
+    - 'name': 'Alx'
+      'url': 'https://github.com/Azimiao/TypeflowThemeForAzimiao'

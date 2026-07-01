@@ -53,11 +53,7 @@ function createTooltip(): TooltipApi {
   };
 }
 
-// ─── Color state ─────────────────────────────────────────────────────────
-
-type ThemeRef = { value: boolean }; // true = dark
-
-// ─── 3D 初始化 ──────────────────────────────────────────────────────────
+// ─── 初始化 ──────────────────────────────────────────────────────────
 
 export function init3d(graphData: GraphData) {
   const container = document.getElementById("main");
@@ -79,22 +75,16 @@ export function init3d(graphData: GraphData) {
   const degValues = Object.values(degreeMap);
   const maxDegree = degValues.length ? Math.max(...degValues) : 1;
 
-  // ── 2. 主题检测 ────────────────────────────────────────────────
-  const prefersDark = (): boolean => {
-    if (document.documentElement.dataset.theme === "dark") return true;
-    if (document.documentElement.dataset.theme === "light") return false;
-    return window.matchMedia?.("(prefers-color-scheme: dark)").matches ?? false;
-  };
-  const isDarkRef: ThemeRef = { value: prefersDark() };
+  // ── 主题：强制暗色宇宙模式 ────────────────────────────────
+  const isDark = true;
 
   // ── 3. 预处理节点 & 预计算颜色 ────────────────────────────────
   const rawNodes = graphData.nodes || [];
-  const isDark = isDarkRef.value;
   const nodes = rawNodes.map((n: any) => {
     const base = n.color || PALETTE[hashToIndex(n.id)];
     return Object.assign({}, n, {
       palColor: base,
-      _cDefault: isDark ? adjustHex(base, 20) : base,
+      _cDefault: adjustHex(base, 20), // 暗色模式下调亮 20%
       _cHover: adjustHex(base, 40),
       _cFocus: adjustHex(base, 60),
       _cHighlight: adjustHex(base, 20),
@@ -496,7 +486,7 @@ export function init3d(graphData: GraphData) {
   baseLinkGeom.setAttribute("position", new THREE.BufferAttribute(linkPosArr, 3));
 
   const baseLinkMat = new THREE.LineBasicMaterial({
-    color: isDarkRef.value ? 0x555555 : 0xbbbbbb,
+    color: isDark ? 0x555555 : 0xbbbbbb,
     transparent: true,
     opacity: linkOpacity.value,
     depthWrite: false,
@@ -798,7 +788,7 @@ export function init3d(graphData: GraphData) {
       return new THREE.Object3D();
     })
     .linkPositionUpdate(() => false)
-    .backgroundColor(isDarkRef.value ? "#0f1115" : "#ffffff")
+    .backgroundColor(isDark ? "#0f1115" : "#ffffff")
     .enableNodeDrag(false)
     .enableNavigationControls(true)
     .nodeOpacity(1.0)
@@ -950,6 +940,23 @@ export function init3d(graphData: GraphData) {
       }
     }
 
+    // 飞船模式：更新相机位置
+    if (isFlyMode) {
+      const cam = Graph.camera() as THREE.PerspectiveCamera;
+      if (cam) {
+        const dt = 1; // 每帧移动量
+        const speed = (flyKeys.shift ? 3 : 1) * MOVE_SPEED * dt;
+        if (flyKeys.w) cam.translateZ(-speed);
+        if (flyKeys.s) cam.translateZ(speed);
+        if (flyKeys.a) cam.translateX(-speed);
+        if (flyKeys.d) cam.translateX(speed);
+        if (flyKeys.r) cam.translateY(speed);
+        if (flyKeys.f) cam.translateY(-speed);
+        if (flyKeys.q) cam.rotateZ(speed * 0.03);
+        if (flyKeys.e) cam.rotateZ(-speed * 0.03);
+      }
+    }
+
     requestAnimationFrame(animateRipples);
   }
 
@@ -1034,7 +1041,7 @@ export function init3d(graphData: GraphData) {
     if (focusedId || pathNodeIds) {
       // 聚焦/路径模式下悬停不改变叠加线
     } else if (n) {
-      buildOverlay(n.id, isDarkRef.value ? 0xeeeeee : 0x888888);
+      buildOverlay(n.id, isDark ? 0xeeeeee : 0x888888);
     } else {
       buildOverlay(null, 0xffffff);
     }
@@ -1061,7 +1068,7 @@ export function init3d(graphData: GraphData) {
         a.target = "_blank";
         a.rel = "noopener noreferrer";
         a.textContent = n.url;
-        a.style.color = isDarkRef.value ? "#87ceeb" : "#0066cc";
+        a.style.color = isDark ? "#87ceeb" : "#0066cc";
         a.style.textDecoration = "underline";
         urlEl.appendChild(a);
         content.appendChild(urlEl);
@@ -1072,60 +1079,149 @@ export function init3d(graphData: GraphData) {
     }
   });
 
-  // ── 10. 主题切换 ─────────────────────────────────────────────────
-  const mq = window.matchMedia?.("(prefers-color-scheme: dark)");
-  const mqHandler = (e: MediaQueryListEvent | MediaQueryList) => {
-    const dark = "matches" in e ? e.matches : false;
-    if (!document.documentElement.dataset.theme) {
-      isDarkRef.value = dark;
-      applyTheme();
-    }
-  };
-  if (mq) {
-    mq.addEventListener("change", mqHandler as any);
+  // ── 12. 飞船飞行模式 ────────────────────────────────────────────
+  const MOVE_SPEED = 12;
+  const MOUSE_SENSITIVITY = 0.003;
+
+  const flyKeys: Record<string, boolean> = {};
+  let isFlyMode = false;
+  let isPointerLocked = false;
+  let spaceshipObj: THREE.Group | null = null;
+
+  function createSpaceship(): THREE.Group {
+    const group = new THREE.Group();
+
+    const bodyMat = new THREE.MeshPhongMaterial({
+      color: 0x88bbff,
+      emissive: 0x224488,
+      emissiveIntensity: 0.15,
+      shininess: 80,
+    });
+    const darkMat = new THREE.MeshPhongMaterial({ color: 0x445566, shininess: 40 });
+    const glassMat = new THREE.MeshPhongMaterial({
+      color: 0x88ddff,
+      emissive: 0x4488cc,
+      emissiveIntensity: 0.2,
+      transparent: true,
+      opacity: 0.5,
+    });
+    const glowMat = new THREE.MeshBasicMaterial({ color: 0xff8800 });
+
+    // 机身
+    const body = new THREE.Mesh(new THREE.CylinderGeometry(0.25, 0.4, 1.8, 8), bodyMat);
+    body.rotation.x = Math.PI / 2;
+    body.position.z = -0.2;
+    group.add(body);
+
+    // 机头
+    const nose = new THREE.Mesh(new THREE.ConeGeometry(0.25, 0.8, 8), bodyMat);
+    nose.rotation.x = -Math.PI / 2;
+    nose.position.z = -1.1;
+    group.add(nose);
+
+    // 机翼
+    const wing = new THREE.Mesh(new THREE.BoxGeometry(1.5, 0.04, 0.5), darkMat);
+    wing.position.set(0, -0.18, 0.3);
+    group.add(wing);
+    const wing2 = new THREE.Mesh(new THREE.BoxGeometry(1.5, 0.04, 0.5), darkMat);
+    wing2.position.set(0, 0.18, 0.3);
+    group.add(wing2);
+
+    // 驾驶舱
+    const cockpit = new THREE.Mesh(new THREE.SphereGeometry(0.15, 8, 6), glassMat);
+    cockpit.position.set(0, 0.28, -0.6);
+    cockpit.scale.set(1, 0.6, 1.3);
+    group.add(cockpit);
+
+    // 尾翼
+    const tail = new THREE.Mesh(new THREE.BoxGeometry(0.04, 0.4, 0.3), darkMat);
+    tail.position.set(0, 0.1, 1.0);
+    group.add(tail);
+
+    // 引擎光
+    const glow = new THREE.Mesh(new THREE.CylinderGeometry(0.08, 0.03, 0.2, 6), glowMat);
+    glow.position.set(0, 0, 1.0);
+    group.add(glow);
+
+    group.scale.set(1, 1, 1);
+    return group;
   }
 
-  const themeBtn = document.getElementById("theme-toggle");
-  const themeHandler = () => {
-    isDarkRef.value = !isDarkRef.value;
-    document.documentElement.dataset.theme = isDarkRef.value ? "dark" : "light";
-    applyTheme();
-  };
-  if (themeBtn) themeBtn.addEventListener("click", themeHandler);
+  function handleKey(e: KeyboardEvent, down: boolean) {
+    const k = e.key.toLowerCase();
+    if (["w", "a", "s", "d", "r", "f", "q", "e", "shift"].includes(k)) {
+      e.preventDefault();
+      flyKeys[k] = down;
+    }
+  }
 
-  function applyTheme() {
-    const dark = isDarkRef.value;
-    Graph.backgroundColor(dark ? "#0f1115" : "#ffffff");
-    // 更新基础线网颜色适配主题
-    baseLinkMat.color.set(dark ? 0x555555 : 0xbbbbbb);
-    baseLinkMat.needsUpdate = true;
-    // 更新所有节点的默认颜色
-    const gd = Graph.graphData() as any;
-    if (gd.nodes) {
-      for (const nd of gd.nodes) {
-        nd._cDefault = dark ? adjustHex(nd.palColor, 20) : nd.palColor;
-      }
-    }
-    // 刷新节点颜色（兼容 LOD）
-    refreshAllNodeColors();
-    // 刷新基础线网透明度
-    refreshLinkColors();
-    // 如果叠加线网可见，重建以匹配主题
-    if (overlayGroup.visible) {
-      if (focusedId) {
-        buildOverlay(focusedId, dark ? 0xffdd44 : 0xff9900);
-      } else if (hoveredId) {
-        buildOverlay(hoveredId, dark ? 0xeeeeee : 0x888888);
-      }
-    }
-    // 更新 tooltip 样式
-    tooltip.el.style.background = dark ? "rgba(0,0,0,0.75)" : "rgba(255,255,255,0.95)";
-    tooltip.el.style.color = dark ? "#fff" : "#111";
+  let flyKeyDownHandler: ((e: KeyboardEvent) => void) | null = null;
+  let flyKeyUpHandler: ((e: KeyboardEvent) => void) | null = null;
+  let flyPointerMoveHandler: ((e: MouseEvent) => void) | null = null;
+  let flyPointerLockChangeHandler: (() => void) | null = null;
+  let flyClickHandler: (() => void) | null = null;
 
-    if (hoveredId && gd.nodes) {
-      const hovered = gd.nodes.find((nd: any) => nd.id === hoveredId);
-      if (hovered) setNodeColor(hovered, hovered._cHover);
+  function enterFlyMode() {
+    Graph.enableNavigationControls(false);
+    isFlyMode = true;
+
+    // 创建飞船挂到相机下
+    const cam = Graph.camera() as THREE.PerspectiveCamera;
+    spaceshipObj = createSpaceship();
+    spaceshipObj.position.set(0, -0.6, -1.2);
+    cam.add(spaceshipObj);
+
+    // 键盘
+    flyKeyDownHandler = (e) => handleKey(e, true);
+    flyKeyUpHandler = (e) => handleKey(e, false);
+    document.addEventListener("keydown", flyKeyDownHandler);
+    document.addEventListener("keyup", flyKeyUpHandler);
+
+    // Pointer Lock 鼠标环顾
+    flyClickHandler = () => {
+      if (!isPointerLocked) container.requestPointerLock();
+    };
+    flyPointerLockChangeHandler = () => {
+      isPointerLocked = !!document.pointerLockElement;
+    };
+    flyPointerMoveHandler = (e: MouseEvent) => {
+      if (!isPointerLocked || !isFlyMode) return;
+      const cam2 = Graph.camera() as THREE.PerspectiveCamera;
+      if (cam2) {
+        cam2.rotateY(-e.movementX * MOUSE_SENSITIVITY);
+        cam2.rotateX(-e.movementY * MOUSE_SENSITIVITY);
+      }
+    };
+    container.addEventListener("click", flyClickHandler);
+    document.addEventListener("pointerlockchange", flyPointerLockChangeHandler);
+    document.addEventListener("mousemove", flyPointerMoveHandler);
+  }
+
+  function exitFlyMode() {
+    isFlyMode = false;
+    Graph.enableNavigationControls(true);
+
+    if (spaceshipObj) {
+      const cam = Graph.camera() as THREE.PerspectiveCamera;
+      cam.remove(spaceshipObj);
+      spaceshipObj = null;
     }
+
+    if (flyKeyDownHandler) document.removeEventListener("keydown", flyKeyDownHandler);
+    if (flyKeyUpHandler) document.removeEventListener("keyup", flyKeyUpHandler);
+    if (flyClickHandler) container.removeEventListener("click", flyClickHandler);
+    if (flyPointerLockChangeHandler) document.removeEventListener("pointerlockchange", flyPointerLockChangeHandler);
+    if (flyPointerMoveHandler) document.removeEventListener("mousemove", flyPointerMoveHandler);
+    flyKeyDownHandler = flyKeyUpHandler = flyPointerMoveHandler = flyPointerLockChangeHandler = flyClickHandler = null;
+
+    if (document.pointerLockElement) document.exitPointerLock();
+    isPointerLocked = false;
+  }
+
+  function toggleFlightMode(): boolean {
+    if (isFlyMode) exitFlyMode();
+    else enterFlyMode();
+    return isFlyMode;
   }
 
   // ── 11. API ──────────────────────────────────────────────────────
@@ -1146,7 +1242,7 @@ export function init3d(graphData: GraphData) {
     // 刷新节点颜色
     refreshAllNodeColors();
     // 聚焦叠加线网（金色）
-    buildOverlay(id, isDarkRef.value ? 0xffdd44 : 0xff9900);
+    buildOverlay(id, isDark ? 0xffdd44 : 0xff9900);
     // 更新右侧邻居面板
     updateNeighborPanel(id);
 
@@ -1187,7 +1283,7 @@ export function init3d(graphData: GraphData) {
     updateNeighborPanel(null);
     // 如果有悬停，恢复悬停叠加线网
     if (hoveredId) {
-      buildOverlay(hoveredId, isDarkRef.value ? 0xeeeeee : 0x888888);
+      buildOverlay(hoveredId, isDark ? 0xeeeeee : 0x888888);
     } else {
       buildOverlay(null, 0xffffff);
     }
@@ -1312,7 +1408,7 @@ export function init3d(graphData: GraphData) {
     clearOldPathState();
     refreshAllNodeColors();
     if (hoveredId) {
-      buildOverlay(hoveredId, isDarkRef.value ? 0xeeeeee : 0x888888);
+      buildOverlay(hoveredId, isDark ? 0xeeeeee : 0x888888);
     } else {
       buildOverlay(null, 0xffffff);
     }
@@ -1337,6 +1433,7 @@ export function init3d(graphData: GraphData) {
     clearHighlights,
     clearLocalEffects,
     updateNeighborPanel,
+    toggleFlightMode,
     getGraphData,
     showShortestPath,
     stepPathNext,

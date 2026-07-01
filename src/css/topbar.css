@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  pointer-events: none; /* 画布之上但不阻挡底层交互，控制内部元素单独启用 */
+  pointer-events: none;
 }
 .topbar .title {
   font-weight: 700;
@@ -24,27 +24,11 @@
   font-size: 16px;
 }
 
-/* 标题与图标颜色由 data-theme 或 prefers-color-scheme 驱动 */
 :root {
-  --title-color: #000;
-  --icon-color: #000;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --title-color: #fff;
-    --icon-color: #fff;
-  }
-}
-html[data-theme="dark"] {
   --title-color: #fff;
   --icon-color: #fff;
 }
-html[data-theme="light"] {
-  --title-color: #000;
-  --icon-color: #000;
-}
 
-/* GitHub icon should follow primary text color for good contrast */
 .topbar a.github-link {
   display: inline-flex;
   align-items: center;
@@ -78,7 +62,7 @@ html[data-theme="light"] {
   padding: 6px 10px;
   border-radius: 8px;
   border: 1px solid color-mix(in srgb, var(--border) 80%, black 20%);
-  background: color-mix(in srgb, var(--card-bg) 96%, black 4%);
+  background: rgba(16, 16, 16, 0.8);
   outline: none;
   font-size: 14px;
   color: var(--text-color);
@@ -97,12 +81,11 @@ html[data-theme="light"] {
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: 6px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  box-shadow: none;
   display: none;
   z-index: 30;
 }
 
-/* search clear button inside the input area */
 .topbar .search .search-clear {
   position: absolute;
   right: 8px;
@@ -121,20 +104,12 @@ html[data-theme="light"] {
   border-radius: 6px;
 }
 .topbar .search .search-clear:hover {
-  background: color-mix(in srgb, var(--card-bg) 92%, black 8%);
+  background: rgba(255, 255, 255, 0.03);
 }
 .topbar .search .search-clear:focus {
   outline: 2px solid color-mix(in srgb, var(--text-color) 20%, transparent);
 }
 
-@media (prefers-color-scheme: dark) {
-  .topbar .search .search-clear:hover {
-    background: rgba(255, 255, 255, 0.03);
-  }
-  .topbar .search .search-clear {
-    color: var(--muted);
-  }
-}
 .topbar .results .item {
   padding: 8px 10px;
   cursor: pointer;
@@ -145,19 +120,7 @@ html[data-theme="light"] {
   background: color-mix(in srgb, var(--card-bg) 92%, black 8%);
 }
 
-@media (prefers-color-scheme: dark) {
-  .topbar input[type="text"] {
-    background: rgba(16, 16, 16, 0.8);
-    color: var(--text-color);
-    border-color: var(--border);
-  }
-  .topbar .results {
-    color: var(--text-color);
-    box-shadow: none;
-  }
-}
-
-/* Mobile layout tweaks */
+/* Mobile layout */
 @media (max-width: 640px) {
   .topbar {
     left: 8px;
@@ -203,17 +166,4 @@ html[data-theme="light"] {
     top: 44px;
     max-height: 200px;
   }
-
-  /* Make theme toggle smaller and keep it reachable */
-  #theme-toggle {
-    position: fixed;
-    top: 8px;
-    right: 8px;
-    z-index: 40;
-    padding: 6px 8px;
-    font-size: 13px;
-    border-radius: 6px;
-  }
-
-  /* #main is fixed full-screen; topbar floats above it */
 }

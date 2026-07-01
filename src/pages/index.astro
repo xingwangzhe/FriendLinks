@@ -72,8 +72,8 @@ import "../css/modal.css";
     </div>
 
     <div class="top-buttons">
-      <button id="theme-toggle" class="top-button" aria-label="切换主题"
-        >切换主题</button
+      <button id="fly-toggle" class="top-button" aria-label="切换飞船模式"
+        >🚀 飞船模式</button
       >
       <button id="about-toggle" class="top-button" aria-label="关于项目"
         >关于</button
@@ -221,7 +221,6 @@ import "../css/modal.css";
       }
 
       /* 覆盖可能存在的 id 选择器定位（来自 topbar.css），确保按钮在容器内正常布局 */
-      #theme-toggle,
       #stats-toggle {
         position: relative !important;
         top: auto !important;
@@ -336,10 +335,7 @@ import "../css/modal.css";
         color: var(--accent);
       }
 
-      /* 暗色主题下的数字颜色（--accent 自动切换） */
-      html[data-theme="dark"] #stats-modal .stat-value {
-        color: var(--accent);
-      }
+      /* 暗色主题下 stat-value 颜色跟随 accent */
       #stats-modal .loading {
         text-align: center;
         color: var(--muted);
@@ -597,35 +593,8 @@ import "../css/modal.css";
     </script>
     <script lang="js">
       (function () {
-        const btn = document.getElementById("theme-toggle");
-        const titleText = document.querySelector(".topbar .title span");
-        const ghLink = document.querySelector(".topbar a.github-link");
-
-        // 初始化并维护 document.dataset.theme，让 CSS 使用变量切换颜色
-        const mq =
-          window.matchMedia &&
-          window.matchMedia("(prefers-color-scheme: dark)");
-        let isDark = mq
-          ? mq.matches
-          : document.documentElement.dataset.theme === "dark";
-        // 初始化 dataset，以便 CSS 变量（html[data-theme]) 生效
-        document.documentElement.dataset.theme = isDark ? "dark" : "light";
-
-        // 点击切换按钮时同时更新 document.dataset.theme
-        if (btn) {
-          btn.addEventListener("click", () => {
-            isDark = !isDark;
-            document.documentElement.dataset.theme = isDark ? "dark" : "light";
-          });
-        }
-
-        // 监听系统主题改变并同步
-        if (mq && mq.addEventListener) {
-          mq.addEventListener("change", (e) => {
-            isDark = e.matches;
-            document.documentElement.dataset.theme = isDark ? "dark" : "light";
-          });
-        }
+        // 强制暗色宇宙模式
+        document.documentElement.dataset.theme = "dark";
 
         // 统计弹窗功能
         const statsBtn = document.getElementById("stats-toggle");
@@ -809,9 +778,21 @@ import "../css/modal.css";
               toggle();
             }
           });
-        }
+	        }
 
-        // ── 路径查找底部栏 ──────────────────────────────────────────
+	        // 飞船模式切换
+	        const flyBtn = document.getElementById("fly-toggle");
+	        if (flyBtn) {
+	          flyBtn.addEventListener("click", () => {
+	            const api = window.__graphApi as any;
+	            if (api && api.toggleFlightMode) {
+	              const isFly = api.toggleFlightMode();
+	              flyBtn.textContent = isFly ? "🌐 球幕模式" : "🚀 飞船模式";
+	            }
+	          });
+	        }
+
+	        // ── 路径查找底部栏 ──────────────────────────────────────────
         const pathBar = document.getElementById("path-bar");
         const pathToggleBtn = document.getElementById("path-toggle");
         const pathFromInput = document.getElementById("path-search-from");
