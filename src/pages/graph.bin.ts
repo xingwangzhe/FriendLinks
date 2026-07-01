@@ -164,16 +164,16 @@ export async function GET() {
     )
     .force("charge", forceManyBody().strength(-800))
     .force("center", forceCenter(0, 0, 0).strength(0.005))
-    .alphaDecay(0.03)
-    .velocityDecay(0.45);
+    .alphaDecay(0.08)
+    .velocityDecay(0.6);
 
   printProgress("❷", "图构建完成", 100);
   printDone("图构建完成");
 
   const FAST = import.meta.env.DEV || !!process.env.MINIBUILD;
-  const TICKS = FAST ? 60 : 200;
-  const TICK_LOG = FAST ? 10 : 20;
-  sim.alphaMin(FAST ? 0.08 : 0.05);
+  const TICKS = FAST ? 30 : 60;
+  const TICK_LOG = 10;
+  sim.alphaMin(FAST ? 0.12 : 0.1);
   const alphaMin = sim.alphaMin();
   let actualTicks = 0;
   for (let i = 0; i < TICKS; i++) {
