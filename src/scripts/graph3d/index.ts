@@ -942,12 +942,18 @@ export function init3d(graphData: GraphData) {
       }
     }
 
-    // 飞船模式：更新相机位置
+    // 飞船模式：惯性视角 + WASD 飞行
     if (isFlyMode) {
       const cam = Graph.camera() as THREE.PerspectiveCamera;
       if (cam) {
-        const dt = 1; // 每帧移动量
-        const speed = (flyKeys.shift ? 3 : 1) * MOVE_SPEED * dt;
+        // 惯性衰减
+        flyAngVel.x *= INERTIA_DAMPING;
+        flyAngVel.y *= INERTIA_DAMPING;
+        // 应用角速度到相机
+        if (Math.abs(flyAngVel.x) > 0.0001) cam.rotateX(flyAngVel.x);
+        if (Math.abs(flyAngVel.y) > 0.0001) cam.rotateY(-flyAngVel.y);
+
+        const speed = (flyKeys.shift ? 3 : 1) * MOVE_SPEED;
         if (flyKeys.w) cam.translateZ(-speed);
         if (flyKeys.s) cam.translateZ(speed);
         if (flyKeys.a) cam.translateX(-speed);
@@ -1081,9 +1087,10 @@ export function init3d(graphData: GraphData) {
     }
   });
 
-  // ── 12. 飞船飞行模式（GTA 式自由鼠标环顾） ───────────────────
+  // ── 12. 飞船飞行模式（FPS 惯性准星） ──────────────────────────
   const MOVE_SPEED = 12;
-  const MOUSE_LOOK_SENSITIVITY = 0.002;
+  const MOUSE_SENSITIVITY = 0.003;
+  const INERTIA_DAMPING = 0.88;
 
   const flyKeys: Record<string, boolean> = {};
   let isFlyMode = false;
@@ -1092,6 +1099,8 @@ export function init3d(graphData: GraphData) {
   let flyOnKeyDown: ((e: KeyboardEvent) => void) | null = null;
   let flyOnKeyUp: ((e: KeyboardEvent) => void) | null = null;
   let autoHoverId: string | null = null;
+  const flyAngVel = { x: 0, y: 0 };
+  let flyCrosshair: HTMLElement | null = null;
   const _forward = new THREE.Vector3();
   const _camPos = new THREE.Vector3();
   const _toNode = new THREE.Vector3();
@@ -1171,7 +1180,7 @@ export function init3d(graphData: GraphData) {
         <div><kbd>Q</kbd><kbd>E</kbd> 横滚</div>
         <div><kbd>Shift</kbd> 加速 3×</div>
         <div style="color:#888;margin-top:4px;border-top:1px solid rgba(255,255,255,0.06);padding-top:4px;">
-          <kbd>Space</kbd> 打开 · 鼠标环顾 · 悬停看信息
+	         准星瞄准 · 左键打开 · 惯性视角
         </div>
       </div>
       <style>
@@ -1202,26 +1211,70 @@ export function init3d(graphData: GraphData) {
       e.preventDefault();
       flyKeys[k] = down;
     }
-    // Space / Enter：打开自动悬停的星球
-    if (k === " " || k === "enter") {
-      if (down && autoHoverId) {
-        const gd = Graph.graphData() as any;
-        const node = gd.nodes?.find((n: any) => n.id === autoHoverId);
-        if (node?.url) window.open(node.url, "_blank");
-      }
-    }
   }
 
-  /** GTA 式自由鼠标环顾：鼠标移动即转视角，无需按键 */
+  /** 惯性视角：鼠标偏移累积为角速度，每帧衰减 */
   function onFlyMouseMove(e: MouseEvent) {
     if (!isFlyMode) return;
-    // 死区 2px，避免微小抖动干扰点击和悬停
-    if (Math.abs(e.movementX) < 2 && Math.abs(e.movementY) < 2) return;
-    const cam = Graph.camera() as THREE.PerspectiveCamera;
-    if (cam) {
-      cam.rotateY(-e.movementX * MOUSE_LOOK_SENSITIVITY);
-      cam.rotateX(-e.movementY * MOUSE_LOOK_SENSITIVITY);
-    }
+    flyAngVel.y += e.movementX * MOUSE_SENSITIVITY;
+    flyAngVel.x += e.movementY * MOUSE_SENSITIVITY;
+    // 限制最大角速度，防止使劲一甩转疯
+    flyAngVel.x = Math.max(-1, Math.min(1, flyAngVel.x));
+    flyAngVel.y = Math.max(-1, Math.min(1, flyAngVel.y));
+  }
+
+  /** 左键点击打开准星锁定的星球 */
+  function onFlyClick() {
+    if (!isFlyMode || !autoHoverId) return;
+    const gd = Graph.graphData() as any;
+    const node = gd.nodes?.find((n: any) => n.id === autoHoverId);
+    if (node?.url) window.open(node.url, "_blank");
+  }
+
+  /** 创建十字准星 */
+  function createCrosshair(): HTMLElement {
+    let el = document.getElementById("fly-crosshair") as HTMLElement | null;
+    if (el) return el;
+    el = document.createElement("div");
+    el.id = "fly-crosshair";
+    el.innerHTML = '<div class="dot"></div>';
+    el.style.cssText = `
+      position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
+      z-index:9999;pointer-events:none;display:none;
+    `;
+    const style = document.createElement("style");
+    style.id = "fly-crosshair-style";
+    style.textContent = `
+      #fly-crosshair::before, #fly-crosshair::after {
+        content:'';position:absolute;
+        background:rgba(255,255,255,0.5);border-radius:1px;
+      }
+      #fly-crosshair::before {
+        width:20px;height:1.5px;top:50%;left:50%;
+        transform:translate(-50%,-50%);
+        transition:background 0.15s,width 0.15s;
+      }
+      #fly-crosshair::after {
+        width:1.5px;height:20px;top:50%;left:50%;
+        transform:translate(-50%,-50%);
+        transition:background 0.15s,height 0.15s;
+      }
+      #fly-crosshair .dot {
+        position:absolute;top:50%;left:50%;
+        transform:translate(-50%,-50%);
+        width:3px;height:3px;border-radius:50%;
+        background:#4af;transition:all 0.15s;
+      }
+      #fly-crosshair.locked::before, #fly-crosshair.locked::after {
+        background:rgba(68,255,136,0.8);width:24px;height:2px;
+      }
+      #fly-crosshair.locked .dot {
+        width:5px;height:5px;background:#4f8;
+      }
+    `;
+    document.head.appendChild(style);
+    document.body.appendChild(el);
+    return el;
   }
 
   /** 在飞船模式下自动悬停视野中心的星球 */
@@ -1252,6 +1305,11 @@ export function init3d(graphData: GraphData) {
     const newId = bestNode ? bestNode.id : null;
     if (newId === autoHoverId) return;
     autoHoverId = newId;
+
+    // 更新准星锁定状态
+    if (flyCrosshair) {
+      flyCrosshair.classList.toggle("locked", !!newId);
+    }
 
     // 隐藏上次的工具提示
     tooltip.hide();
@@ -1290,6 +1348,8 @@ export function init3d(graphData: GraphData) {
   function enterFlyMode() {
     Graph.enableNavigationControls(false);
     isFlyMode = true;
+    flyAngVel.x = 0;
+    flyAngVel.y = 0;
 
     const cam = Graph.camera() as THREE.PerspectiveCamera;
     spaceshipObj = createSpaceship();
@@ -1301,6 +1361,11 @@ export function init3d(graphData: GraphData) {
     document.addEventListener("keydown", flyOnKeyDown);
     document.addEventListener("keyup", flyOnKeyUp);
     container.addEventListener("mousemove", onFlyMouseMove);
+    container.addEventListener("click", onFlyClick);
+
+    flyCrosshair = createCrosshair();
+    flyCrosshair.style.display = "block";
+    flyCrosshair.classList.remove("locked");
 
     flyControlPanel = createFlyControlPanel();
     flyControlPanel.style.display = "block";
@@ -1319,8 +1384,10 @@ export function init3d(graphData: GraphData) {
     if (flyOnKeyDown) document.removeEventListener("keydown", flyOnKeyDown);
     if (flyOnKeyUp) document.removeEventListener("keyup", flyOnKeyUp);
     container.removeEventListener("mousemove", onFlyMouseMove);
+    container.removeEventListener("click", onFlyClick);
     flyOnKeyDown = flyOnKeyUp = null;
 
+    if (flyCrosshair) flyCrosshair.style.display = "none";
     if (flyControlPanel) flyControlPanel.style.display = "none";
   }
 
