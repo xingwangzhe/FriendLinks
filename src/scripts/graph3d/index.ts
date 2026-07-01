@@ -833,9 +833,9 @@ export function init3d(graphData: GraphData) {
       if (node.x == null) continue;
       _toNode_v.set(node.x - _camPos_v.x, (node.y || 0) - _camPos_v.y, (node.z || 0) - _camPos_v.z);
       const dist = _toNode_v.length();
-      if (dist > 1200) continue;
+      if (dist > 2500) continue;
       const dot = _forward_v.dot(_toNode_v) / dist;
-      if (dot < 0.5) continue; // 60° 锥体
+      if (dot < 0.85) continue; // 31° 窄锥体
       const score = dot / (1 + dist * 0.005);
       if (score > bestScore) { bestScore = score; bestNode = node; }
     }
