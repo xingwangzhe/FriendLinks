@@ -1020,7 +1020,7 @@ export function init3d(graphData: GraphData) {
         reticleOffset.y += reticleVelocity.y * 0.016;
 
         // 2. 准星偏移 → 相机旋转（独立 yaw/pitch，无限 360°）
-        const rotScale = 0.05;
+        const rotScale = 0.15;
         flyYaw -= reticleOffset.x * rotScale;
         flyPitch += reticleOffset.y * rotScale;
         flyPitch = Math.max(-1.48, Math.min(1.48, flyPitch)); // ±85°
