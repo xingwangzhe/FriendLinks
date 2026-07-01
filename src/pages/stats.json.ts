@@ -128,27 +128,28 @@ export async function GET() {
     let head = 0, tail = 1;
     while (head < tail) {
       const u = qBuf[head++];
-      const neighbors = adj[u];
       const nd = dBuf[u] + 1;
+      const neighbors = adj[u];
       for (let k = 0; k < neighbors.length; k++) {
         const v = neighbors[k];
         if (dBuf[v] === -1) {
           dBuf[v] = nd;
           qBuf[tail++] = v;
+          // 直接累加距离分布
+          if (nd > maxDist) maxDist = nd;
+          degreeDist[nd] = (degreeDist[nd] || 0) + 1;
         }
       }
-    }
-    for (const b of mainNodes) {
-      if (b <= a) continue;
-      const d = dBuf[b];
-      if (d === -1) continue;
-      if (d > maxDist) maxDist = d;
-      degreeDist[d] = (degreeDist[d] || 0) + 1;
     }
     processed++;
     if (processed % 500 === 0) {
       printProgress("❸", `BFS ${processed}/${M} (${((performance.now()-startTime)/1000).toFixed(0)}s)`, 85 + Math.round((processed/M)*10));
     }
+  }
+
+  // 除以2：因为每对(a,b)被双方各计数1次
+  for (const d of Object.keys(degreeDist)) {
+    degreeDist[Number(d)] = Math.round(degreeDist[Number(d)] / 2);
   }
 
   const intermediateDist: Record<number, number> = {};
