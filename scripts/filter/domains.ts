@@ -69,6 +69,8 @@ export const NON_BLOG_DOMAINS: string[] = [
   "boringbay.com",
   "cnblogs.com",
   "www.cnblogs.com",
+  "cifnews.com",
+  "qn63.com",
   "csdn.net",
   "blog.csdn.net",
   "jianshu.com",
