@@ -1171,7 +1171,7 @@ export function init3d(graphData: GraphData) {
         <div><kbd>Q</kbd><kbd>E</kbd> 横滚</div>
         <div><kbd>Shift</kbd> 加速 3×</div>
         <div style="color:#888;margin-top:4px;border-top:1px solid rgba(255,255,255,0.06);padding-top:4px;">
-          鼠标移动环顾 · 悬停看信息 · 左键点击
+          <kbd>Space</kbd> 打开 · 鼠标环顾 · 悬停看信息
         </div>
       </div>
       <style>
@@ -1196,18 +1196,29 @@ export function init3d(graphData: GraphData) {
   }
 
   function handleKey(e: KeyboardEvent, down: boolean) {
+    if (!isFlyMode) return;
     const k = e.key.toLowerCase();
     if (["w", "a", "s", "d", "r", "f", "q", "e", "shift"].includes(k)) {
       e.preventDefault();
       flyKeys[k] = down;
+    }
+    // Space / Enter：打开自动悬停的星球
+    if (k === " " || k === "enter") {
+      if (down && autoHoverId) {
+        const gd = Graph.graphData() as any;
+        const node = gd.nodes?.find((n: any) => n.id === autoHoverId);
+        if (node?.url) window.open(node.url, "_blank");
+      }
     }
   }
 
   /** GTA 式自由鼠标环顾：鼠标移动即转视角，无需按键 */
   function onFlyMouseMove(e: MouseEvent) {
     if (!isFlyMode) return;
+    // 死区 2px，避免微小抖动干扰点击和悬停
+    if (Math.abs(e.movementX) < 2 && Math.abs(e.movementY) < 2) return;
     const cam = Graph.camera() as THREE.PerspectiveCamera;
-    if (cam && (e.movementX || e.movementY)) {
+    if (cam) {
       cam.rotateY(-e.movementX * MOUSE_LOOK_SENSITIVITY);
       cam.rotateX(-e.movementY * MOUSE_LOOK_SENSITIVITY);
     }
