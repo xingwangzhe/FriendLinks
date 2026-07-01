@@ -869,18 +869,27 @@ export function init3d(graphData: GraphData) {
 
   const LABEL_MIN_DEGREE = 2;
   const LABEL_MAX_DIST = 700;
+  let labelsCreated = false;
 
-  for (const node of nodes) {
-    const deg = degreeMap[node.id] || 0;
-    if (deg < LABEL_MIN_DEGREE) continue;
-    if (node.x == null) continue;
-    const name = node.name || node.id;
-    if (name.length > 40) continue;
+  function createLabels() {
+    if (labelsCreated) return;
+    const gd = Graph.graphData() as any;
+    if (!gd.nodes || gd.nodes.length === 0) return;
+    // 首个节点没有位置说明力仿真尚未完成，等下一帧
+    if (gd.nodes[0].x == null) return;
 
-    const sprite = createTextSprite(name);
-    sprite.position.set(node.x, node.y + 1.2, node.z);
-    (sprite as any)._nodePos = { x: node.x, y: node.y, z: node.z };
-    labelGroup.add(sprite);
+    labelsCreated = true;
+    for (const node of gd.nodes) {
+      const deg = degreeMap[node.id] || 0;
+      if (deg < LABEL_MIN_DEGREE) continue;
+      const name = node.name || node.id;
+      if (name.length > 40) continue;
+
+      const sprite = createTextSprite(name);
+      sprite.position.set(node.x, node.y + 1.2, node.z);
+      (sprite as any)._nodePos = { x: node.x, y: node.y, z: node.z };
+      labelGroup.add(sprite);
+    }
   }
 
   // ── 9. LOD 替换：将默认球体替换为多层级细节模型 ──────────
@@ -980,6 +989,9 @@ export function init3d(graphData: GraphData) {
     }
 
     const currentData = Graph.graphData() as any;
+
+    // 首帧创建标签（此时力仿真已定位节点）
+    createLabels();
 
     // 叠加线自适应
     if (overlayGroup.visible && overlayGroup.children.length > 0) {
