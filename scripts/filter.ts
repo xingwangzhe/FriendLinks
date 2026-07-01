@@ -19,54 +19,78 @@ const WHITELIST_SET = new Set(WHITELIST_DOMAINS);
 
 // ─── 过滤函数 ──────────────────────────────────────────────────
 
+export type JunkResult = { junk: boolean; reason?: string };
+
 export function isJunkEntry(f: { name: string; url: string }, siteUrl?: string): boolean {
+  return isJunkEntryWithReason(f, siteUrl).junk;
+}
+
+export function isJunkEntryWithReason(f: { name: string; url: string }, siteUrl?: string): JunkResult {
   const name = (f.name || "").trim();
   const url = (f.url || "").trim();
 
   // ── URL 格式检查 ──────────────────────────────────────────
-  if (url.includes("https:// https://") || url.includes("http:// http://")) return true;
-  if (/^https?:\/\//i.test(name) && /^https?:\/\//i.test(url)) return true;
-  for (const p of JUNK_URL_PATTERNS) { if (p.test(url)) return true; }
+  if (url.includes("https:// https://") || url.includes("http:// http://")) return { junk: true, reason: "URL格式异常(双重协议)" };
+  if (/^https?:\/\//i.test(name) && /^https?:\/\//i.test(url)) return { junk: true, reason: "URL格式异常(name=URL)" };
+  for (const p of JUNK_URL_PATTERNS) {
+    if (p.test(url)) return { junk: true, reason: `URL匹配: ${p.source}` };
+  }
 
   // 无效 URL 格式
-  if (/^https?:\/\/\s/.test(url)) return true;   // "https: //..." 冒号后空格
-  if (/^https?:\/\/$/.test(url)) return true;     // "http://" 无主机
-  if (/^https?:\/\/#/.test(url)) return true;     // "http://#"
+  if (/^https?:\/\/\s/.test(url)) return { junk: true, reason: "URL格式: 冒号后空格" };
+  if (/^https?:\/\/$/.test(url)) return { junk: true, reason: "URL格式: 无主机" };
+  if (/^https?:\/\/#/.test(url)) return { junk: true, reason: "URL格式: 纯锚点" };
 
   // ── 域名检查 ────────────────────────────────────────────
+  let hostname = "";
+  let pathname = "";
   try {
     const parsed = new URL(url.startsWith("http") ? url : `https://${url}`);
-    const hostname = parsed.hostname.toLowerCase();
-    const pathname = parsed.pathname;
-    // 绝对白名单 — 无论如何不被过滤
-    if (WHITELIST_SET.has(hostname) || WHITELIST_SET.has(hostname.replace(/^www\./, ""))) return false;
-    // 友链必须指向首页（无子路由、无查询参数）
-    if (pathname !== "/" && pathname !== "") return true;
-    if (parsed.search) return true;
-    if (/^api[.-]/i.test(hostname)) return true;
-    if (SERVICE_SUBDOMAINS.test(hostname)) return true;
-    // 非博客域名（明文，支持子域名匹配）— O(1) Set 查找
-    const hostParts = hostname.split(".");
-    const hostIsJunk = NON_BLOG_SET.has(hostname) || hostParts.some((_, i) => NON_BLOG_SET.has(hostParts.slice(i).join(".")));
-    if (hostIsJunk) return true;
-    // 敏感域名（SHA-256 哈希）
-    if (SENSITIVE_SET.has(createHash("sha256").update(hostname).digest("hex"))) return true;
-    // 仅排除个人绝对无法注册的机构域名
-    if (/\.(edu|gov|mil|go)(\.[a-z]{2})?$/.test(hostname)) return true;
-  } catch { return true; } // URL 解析失败 → 视为垃圾
+    hostname = parsed.hostname.toLowerCase();
+    pathname = parsed.pathname;
+  } catch { return { junk: true, reason: "URL解析失败" }; }
+
+  // 绝对白名单 — 无论如何不被过滤
+  if (WHITELIST_SET.has(hostname) || WHITELIST_SET.has(hostname.replace(/^www\./, ""))) return { junk: false };
+
+  // 友链必须指向首页（无子路由、无查询参数）
+  if (pathname !== "/" && pathname !== "") {
+    const seg = pathname.split("/").filter(Boolean)[0] || "";
+    return { junk: true, reason: `子路由: /${seg}...` };
+  }
+  if (hostname && new URL(url.startsWith("http") ? url : `https://${url}`).search) return { junk: true, reason: "带查询参数(?xxx)" };
+
+  if (/^api[.-]/i.test(hostname)) return { junk: true, reason: "API子域名" };
+  if (SERVICE_SUBDOMAINS.test(hostname)) return { junk: true, reason: "服务子域名" };
+
+  // 非博客域名（明文，支持子域名匹配）— O(1) Set 查找
+  const hostParts = hostname.split(".");
+  for (let i = 0; i < hostParts.length; i++) {
+    const suffix = hostParts.slice(i).join(".");
+    if (NON_BLOG_SET.has(suffix)) return { junk: true, reason: `非博客域名: ${suffix}` };
+  }
+
+  // 敏感域名（SHA-256 哈希）
+  if (SENSITIVE_SET.has(createHash("sha256").update(hostname).digest("hex"))) return { junk: true, reason: "敏感域名" };
+
+  // 仅排除个人绝对无法注册的机构域名
+  const instMatch = hostname.match(/\.(edu|gov|mil|go)(\.[a-z]{2})?$/);
+  if (instMatch) return { junk: true, reason: `机构域名(.${instMatch[1]}${instMatch[2] || ""})` };
 
   // IP 地址
-  if (/^https?:\/\/(\d{1,3}\.){3}\d{1,3}/.test(url)) return true;
+  if (/^https?:\/\/(\d{1,3}\.){3}\d{1,3}/.test(url)) return { junk: true, reason: "IP地址" };
 
   // 自引用
-  if (siteUrl && isSelfReference(url, siteUrl)) return true;
+  if (siteUrl && isSelfReference(url, siteUrl)) return { junk: true, reason: "自引用" };
 
   // ── 名称检查 ────────────────────────────────────────────
-  for (const p of JUNK_NAME_PATTERNS) { if (p.test(name)) return true; }
-  if (/^\d+$/.test(name)) return true;
-  if ([...name].length === 1) return true;
+  for (const p of JUNK_NAME_PATTERNS) {
+    if (p.test(name)) return { junk: true, reason: `名称匹配: ${p.source}` };
+  }
+  if (/^\d+$/.test(name)) return { junk: true, reason: "纯数字名称" };
+  if ([...name].length === 1) return { junk: true, reason: "单字符名称" };
 
-  return false;
+  return { junk: false };
 }
 
 export function isSelfReference(url: string, siteUrl: string): boolean {
