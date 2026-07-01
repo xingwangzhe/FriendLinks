@@ -119,6 +119,12 @@ if (dist > 5000) {
 | npm 包字体异步加载失败 | `@seregpie/three.text-sprite` 的 `document.fonts.load()` 是异步的，CJK 字体未就绪时标签不渲染 | 回退到自研 Canvas Sprite，无需字体加载 |
 | troika CDN 字体加载 504 | `unicode-font-resolver` 从 jsdelivr CDN 下载字体 `.woff` | 彻底移除 troika，换 Canvas Sprite |
 
+## 性能优化
+
+- **相机静止跳过**：标签 LOD 纳入 `camMoved` 检查（阈值 1 单位），相机不动时完全跳过 31k Sprite 遍历
+- **平方距离比较**：多数节点（>5000² 或 <2000²）用 `sqDist` 判断，避免 `Math.sqrt()`。仅中间淡入段才计算实际距离
+- **冗余跳过**：先检查 `sprite.visible` 再赋值，避免无效的属性写入
+
 ## 文件索引
 
 | 文件 | 职责 |
