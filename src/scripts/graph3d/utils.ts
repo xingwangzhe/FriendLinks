@@ -145,6 +145,58 @@ export function createNodeLOD(baseColor: string): THREE.LOD {
   return lod;
 }
 
+// ─── Canvas Sprite 文字标签 ─────────────────────────────────────────────────
+
+/** CJK 优先的字体栈，使用系统字体无需外部下载 */
+const LABEL_FONT_STACK =
+  "'PingFang SC','Microsoft YaHei','Noto Sans CJK SC','WenQuanYi Micro Hei',sans-serif";
+
+/**
+ * 用 Canvas 2D 离屏渲染文字，生成 THREE.Sprite 标签
+ * 无任何外部依赖，使用系统字体，自动朝向相机（billboarding）
+ */
+export function createTextSprite(text: string): THREE.Sprite {
+  const canvas = document.createElement("canvas");
+  const ctx = canvas.getContext("2d")!;
+  const fontSize = 48;
+
+  // 先测量文字尺寸
+  ctx.font = `${fontSize}px ${LABEL_FONT_STACK}`;
+  const metrics = ctx.measureText(text);
+  const textWidth = metrics.width;
+  const textHeight = fontSize * 1.3;
+
+  const paddingX = 12;
+  const paddingY = 6;
+  canvas.width = Math.ceil(textWidth + paddingX * 2);
+  canvas.height = Math.ceil(textHeight + paddingY * 2);
+
+  // 调整尺寸后重新设置（canvas resize 会清除状态）
+  ctx.font = `${fontSize}px ${LABEL_FONT_STACK}`;
+  ctx.fillStyle = "#ffffff";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+  ctx.fillText(text, canvas.width / 2, canvas.height / 2);
+
+  const texture = new THREE.CanvasTexture(canvas);
+  texture.minFilter = THREE.LinearFilter;
+  texture.magFilter = THREE.LinearFilter;
+
+  const material = new THREE.SpriteMaterial({
+    map: texture,
+    transparent: true,
+    depthTest: false,
+    depthWrite: false,
+  });
+
+  const sprite = new THREE.Sprite(material);
+  const aspect = canvas.width / canvas.height;
+  const baseHeight = 1.2;
+  sprite.scale.set(baseHeight * aspect, baseHeight, 1);
+
+  return sprite;
+}
+
 /**
  * 更新 LOD 对象内所有层级的材质颜色
  */

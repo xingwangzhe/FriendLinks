@@ -7,7 +7,7 @@ import ForceGraph3D from "3d-force-graph";
 import Fuse from "fuse.js";
 import * as THREE from "three";
 import { decode } from "msgpackr";
-import { PALETTE, hashToIndex, degreeToSize, adjustHex, createNodeLOD, updateLODColor } from "./utils";
+import { PALETTE, hashToIndex, degreeToSize, adjustHex, createNodeLOD, updateLODColor, createTextSprite } from "./utils";
 import { findShortestPath } from "./pathfinder";
 import type { GraphData } from "../../../types/graph";
 
@@ -804,7 +804,29 @@ export function init3d(graphData: GraphData) {
   // 初始颜色（必须在 graphData 之后调用，否则框架会重置）
   refreshLinkColors();
 
-  // ── 8. LOD 替换：将默认球体替换为多层级细节模型 ──────────
+  // ── 8. 标签系统（Canvas Sprite，系统字体，零外部依赖）─────────
+  const labelGroup = new THREE.Group();
+  labelGroup.name = "labels";
+  const labelScene = Graph.scene();
+  if (labelScene) labelScene.add(labelGroup);
+
+  const LABEL_MIN_DEGREE = 2;
+  const LABEL_MAX_DIST = 700;
+
+  for (const node of nodes) {
+    const deg = degreeMap[node.id] || 0;
+    if (deg < LABEL_MIN_DEGREE) continue;
+    if (node.x == null) continue;
+    const name = node.name || node.id;
+    if (name.length > 40) continue;
+
+    const sprite = createTextSprite(name);
+    sprite.position.set(node.x, node.y + 1.2, node.z);
+    (sprite as any)._nodePos = { x: node.x, y: node.y, z: node.z };
+    labelGroup.add(sprite);
+  }
+
+  // ── 9. LOD 替换：将默认球体替换为多层级细节模型 ──────────
   let lodsCreated = false;
 
   /** 刷新所有节点颜色（替代 Graph.nodeColor()，兼容 LOD） */
@@ -953,6 +975,25 @@ export function init3d(graphData: GraphData) {
         }
         // 飞船模式：自动悬停视野中央最近的星球
         if (isFlyMode) updateAutoHover(currentData.nodes, sceneCam);
+      }
+    }
+
+    // 标签距离 LOD：远距离淡出
+    if (labelGroup.children.length > 0) {
+      const cp = Graph.cameraPosition();
+      for (const child of labelGroup.children) {
+        const sprite = child as THREE.Sprite;
+        const np = (sprite as any)._nodePos;
+        if (!np) continue;
+        const dx = np.x - cp.x;
+        const dy = np.y - cp.y;
+        const dz = np.z - cp.z;
+        const dist = Math.sqrt(dx * dx + dy * dy + dz * dz);
+        const visible = dist < LABEL_MAX_DIST;
+        if (sprite.visible !== visible) sprite.visible = visible;
+        if (visible) {
+          sprite.material.opacity = Math.max(0.2, Math.min(1, 1 - (dist - 525) / LABEL_MAX_DIST));
+        }
       }
     }
 
