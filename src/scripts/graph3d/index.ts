@@ -472,6 +472,9 @@ export function init3d(graphData: GraphData) {
     updateNeighborPanel(null);
     pathNodeIds = path; pathStepIndex = 0;
     refreshPathNodeColors();
+    buildOverlay(null, 0xffffff); // 清除聚焦叠加线
+    // 路径模式下隐藏普通连线，只显示金色路径管道
+    (ctx.linkLines.material as THREE.LineBasicMaterial).opacity = 0;
     buildPathOverlay(path);
     const first = nodes.find((n) => n.id === path[0]);
     if (first && first.x != null) {
@@ -510,6 +513,7 @@ export function init3d(graphData: GraphData) {
   function clearPath() {
     clearOldPathState();
     refreshAllNodeColors();
+    (ctx.linkLines.material as THREE.LineBasicMaterial).opacity = linkOpacity.value;
   }
 
   function getPathInfo() {
