@@ -337,4 +337,9 @@ export const NON_BLOG_DOMAINS: string[] = [
 			  "jueshunjx.com",        // 中继间
 			  "hpcbristol.net",       // 中国历史照片
 			  "tech.china.com",       // 中华网科技
+			  "szkingroad.com",       // 中港物流
+			  "diancang.xyz",         // 中华典藏
+			  "zhonghaizhi.com",      // 中嗨智
+			  "xiaozhao233.com",      // 中国的小赵
+			  "huahengtaoci.com",     // 九游会菠菜
 			];
