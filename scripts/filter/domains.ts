@@ -287,4 +287,5 @@ export const NON_BLOG_DOMAINS: string[] = [
 			  "www.dili360.com",
 			  "boduoad.com",          // 广告/垃圾站
 			  "cssworld.cn",          // CSS世界(书籍官网)
+			  "artemkutsan.pp.ua",    // 个人子域名站，友链标题为新闻文章名
 			];
