@@ -290,4 +290,51 @@ export const NON_BLOG_DOMAINS: string[] = [
 			  "artemkutsan.pp.ua",    // 个人子域名站，友链标题为新闻文章名
 			  "770b.cn",              // 邀请码推广(learn.770b.cn)
 			  "obey.fun",             // 在线分享网
+			  // 政府/官媒/机构网站
+			  "chinaflagnet.com",     // 中旗网
+			  "crt.com.cn",           // 中红网
+			  "1921.org.cn",          // 中华魂
+			  "idcpc.org.cn",         // 中联部
+			  "cyol.com",             // 中青在线
+			  "workercn.cn",          // 中工网
+			  "mj.org.cn",            // 中国民主促进会
+			  "youth.cn",             // 中青网
+			  "chinanews.com",        // 中新网
+			  "ce.cn",                // 中经网
+			  "cs.com.cn",            // 中证报
+			  "china.com.cn",         // 中国网
+			  "chinadaily.com.cn",    // 中国日报网
+			  "chinamil.com.cn",      // 中国军网
+			  "cssn.cn",              // 中国社会科学网
+			  "confucianism.com.cn",  // 中国国学网
+			  "honggewang.com",       // 中国红旅红歌网
+			  "jjzy.cn",              // 中国将军政要网
+			  "kcna.kp",              // 朝鲜中央通讯
+			  "scimedia.cn",          // 中国传媒科技
+			  "stdaily.com",          // 中国科技网
+			  "chinaelections.org",   // 中国选举与治理
+			  "china-world1981.com",  // 中外关系史学会
+			  "wildaidchina.org.cn",  // 中国野生动物救援
+			  // 商业/工具/教育平台
+			  "cnnic.cn",             // CNNIC
+			  "webwhois.cnnic.cn",    // 国家域名whois
+			  "zgsydw.com",           // 中公事业编
+			  "zlketang.com",         // 中级会计考试
+			  "zhonghuadiancang.com", // 中华典藏
+			  "zhongguose.com",       // 中国色
+			  "zglxw.com",            // 中国国旅
+			  "tungpohy.com",         // 中港物流
+			  "zhonghuanus.com",      // 中环转运
+			  "zoroip.cn",            // 中荣智汇知识产权
+			  "myrushbox.com",        // 中欧班列
+			  "zdtk.cn",              // 中国邮票目录
+			  "tumukeji.com",         // 中国土木科技
+			  "gmail777.com",         // 中州西鹿(可疑域名)
+			  "dx7c.com",             // 中医体质辨识仪
+			  "historyline.online",   // 中国历朝代视频讲解
+			  "uni.utities.online",   // 中国重点高校地理位置可视化
+			  "zhongyudata.com",      // 中域科技
+			  "jueshunjx.com",        // 中继间
+			  "hpcbristol.net",       // 中国历史照片
+			  "tech.china.com",       // 中华网科技
 			];
