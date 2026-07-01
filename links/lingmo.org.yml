@@ -1,0 +1,12 @@
+'site':
+  'name': 'lingmo.org'
+  'url': 'https://www.lingmo.org/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'balenaEtcher'
+      'url': 'https://etcher.balena.io/'
+    - 'name': 'Debian GNU/Linux'
+      'url': 'https://debian.org/'
+    - 'name': 'Linux Kernel'
+      'url': 'https://kernel.org'

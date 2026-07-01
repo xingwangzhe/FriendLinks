@@ -1,0 +1,12 @@
+'site':
+  'name': 'jekyllcn.com'
+  'url': 'http://jekyllcn.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Markdown'
+      'url': 'http://daringfireball.net/projects/markdown/'
+    - 'name': 'Textile'
+      'url': 'http://redcloth.org/textile/'
+    - 'name': '迁移你的博客 →'
+      'url': 'http://import.jekyllrb.com'

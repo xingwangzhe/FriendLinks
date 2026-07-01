@@ -1,0 +1,12 @@
+'site':
+  'name': 'juliangamble.com'
+  'url': 'https://juliangamble.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Mastodon'
+      'url': 'https://techhub.social/@juliansgamble'
+    - 'name': 'Clojure Recipes'
+      'url': 'http://clojurerecipes.com/'
+    - 'name': 'see it on Amazon here.'
+      'url': 'http://www.amazon.com/Clojure-Recipes-Developers-Library-Julian/dp/0321927737/'

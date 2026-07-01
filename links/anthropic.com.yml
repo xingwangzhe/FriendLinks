@@ -1,0 +1,14 @@
+'site':
+  'name': 'anthropic.com'
+  'url': 'https://www.anthropic.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Pricing'
+      'url': 'https://claude.com/pricing'
+    - 'name': 'Claude Console'
+      'url': 'https://platform.claude.com/'
+    - 'name': 'Try Claude'
+      'url': 'https://claude.ai'
+    - 'name': 'Skills'
+      'url': 'https://www.claude.com/skills'

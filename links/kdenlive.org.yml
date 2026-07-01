@@ -1,0 +1,18 @@
+'site':
+  'name': 'kdenlive.org'
+  'url': 'https://kdenlive.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Made by KDE'
+      'url': 'https://kde.org'
+    - 'name': 'Chat Room (Matrix)'
+      'url': 'https://matrix.to/#/#kdenlive:kde.org'
+    - 'name': 'Forum'
+      'url': 'https://discuss.kde.org/tag/kdenlive'
+    - 'name': 'Bug reports'
+      'url': 'https://bugs.kde.org/enter_bug.cgi?product=kdenlive'
+    - 'name': 'Wiki'
+      'url': 'https://community.kde.org/Kdenlive'
+    - 'name': 'KDE e.V.'
+      'url': 'https://ev.kde.org/'

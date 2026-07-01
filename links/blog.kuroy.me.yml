@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.kuroy.me'
+  'url': 'https://blog.kuroy.me/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'The Fizzy Theme v1.3.5'
+      'url': 'https://fizzy.cc/fizzy-theme/'
+    - 'name': 'Ghost'
+      'url': 'https://ghost.org/'

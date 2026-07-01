@@ -1,0 +1,12 @@
+'site':
+  'name': 'hadibrais.wordpress.com'
+  'url': 'https://hadibrais.wordpress.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'perf stat'
+      'url': 'https://linux.die.net/man/1/perf-stat'
+    - 'name': 'intermediate representations (IRs)'
+      'url': 'https://en.wikipedia.org/wiki/Intermediate_representation'
+    - 'name': 'Cookie Policy'
+      'url': 'https://automattic.com/cookies/'

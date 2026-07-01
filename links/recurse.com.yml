@@ -1,0 +1,12 @@
+'site':
+  'name': 'recurse.com'
+  'url': 'https://www.recurse.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '– Serena Peruzzo, Senior Data Scientist'
+      'url': 'https://words.serenaperuzzo.com/posts/return-statement/'
+    - 'name': 'Instagram'
+      'url': 'https://www.instagram.com/recursecenter/'
+    - 'name': 'TikTok'
+      'url': 'https://www.tiktok.com/@RecurseCenter'

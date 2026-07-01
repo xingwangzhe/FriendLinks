@@ -1,0 +1,18 @@
+'site':
+  'name': 'caddyserver.com'
+  'url': 'https://caddyserver.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'A Project'
+      'url': 'https://zerossl.com'
+    - 'name': 'Forum'
+      'url': 'https://caddy.community'
+    - 'name': 'Smallstep libraries'
+      'url': 'https://smallstep.com/certificates/'
+    - 'name': 'FrankenPHP'
+      'url': 'https://frankenphp.dev'
+    - 'name': '4x faster'
+      'url': 'https://blog.laravel.com/octane-frankenphp'
+    - 'name': 'Privacy-respecting analytics'
+      'url': 'https://usefathom.com/ref/AUKNWU'

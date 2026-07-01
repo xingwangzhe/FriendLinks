@@ -1,0 +1,16 @@
+'site':
+  'name': 'brownsofa.org'
+  'url': 'http://brownsofa.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Clojure meetup'
+      'url': 'http://www.meetup.com/denofclojure/'
+    - 'name': 'TF-IDF'
+      'url': 'http://en.wikipedia.org/wiki/Tf%25E2%2580%2593idf'
+    - 'name': 'Docker'
+      'url': 'http://www.docker.io'
+    - 'name': 'Twelve Factor Apps'
+      'url': 'http://12factor.net/'
+    - 'name': 'Octopress'
+      'url': 'http://octopress.org'

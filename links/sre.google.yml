@@ -1,0 +1,10 @@
+'site':
+  'name': 'sre.google'
+  'url': 'https://sre.google/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Twenty years of SRE lessons learned'
+      'url': 'https://goo.gle/sre-20-ll'
+    - 'name': 'About Google'
+      'url': 'https://about.google/'

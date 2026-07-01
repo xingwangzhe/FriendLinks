@@ -1,0 +1,12 @@
+'site':
+  'name': 'dequeuniversity.com'
+  'url': 'https://dequeuniversity.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Main Deque Website'
+      'url': 'https://www.deque.com/'
+    - 'name': 'Visit the IAAP website to learn more about the exams including exam dates and re'
+      'url': 'https://www.accessibilityassociation.org/certification-overview'
+    - 'name': 'VPAT'
+      'url': 'https://accessibility.deque.com/hubfs/VPATs/DequeUniversity_VPAT_WCAG2.1AA.pdf'

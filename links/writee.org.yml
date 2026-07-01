@@ -1,0 +1,18 @@
+'site':
+  'name': 'writee.org'
+  'url': 'https://writee.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'WriteFreely'
+      'url': 'https://writefreely.org'
+    - 'name': 'O3O非盈利项目'
+      'url': 'https://home.o3o.ca'
+    - 'name': 'PixelFed'
+      'url': 'https://pixelfed.org'
+    - 'name': 'Mastodon'
+      'url': 'https://joinmastodon.org'
+    - 'name': '这个视频'
+      'url': 'https://video.writeas.org/videos/watch/cc55e615-d204-417c-9575-7b57674cc6f3'
+    - 'name': '开发者'
+      'url': 'https://developers.write.as/'

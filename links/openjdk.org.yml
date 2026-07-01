@@ -1,0 +1,14 @@
+'site':
+  'name': 'openjdk.org'
+  'url': 'https://openjdk.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'JDK GA/EA Builds'
+      'url': 'https://jdk.java.net'
+    - 'name': 'here'
+      'url': 'https://www.oracle.com/java/technologies/downloads/'
+    - 'name': 'dev.java'
+      'url': 'https://dev.java'
+    - 'name': 'Mastodon'
+      'url': 'https://mastodon.social/@openjdk'

@@ -1,0 +1,18 @@
+'site':
+  'name': 'favila.github.io'
+  'url': 'https://favila.github.io/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'Clojure'
+      'url': 'https://clojure.org/'
+    - 'name': 'ClojureScript'
+      'url': 'https://clojurescript.org/'
+    - 'name': 'Datomic'
+      'url': 'https://datomic.com'
+    - 'name': 'Clojure book'
+      'url': 'https://www.manning.com/books/clojure-in-action-second-edition'
+    - 'name': 'Clojurians Slack'
+      'url': 'https://clojurians.slack.com/'
+    - 'name': 'Nichomachean Ethics'
+      'url': 'https://en.wikipedia.org/wiki/Nicomachean_Ethics'

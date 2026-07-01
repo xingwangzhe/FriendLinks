@@ -1,0 +1,16 @@
+'site':
+  'name': 'clos.org'
+  'url': 'https://clos.org/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Memorial Hill, Parkes NSW'
+      'url': 'https://www.visitnsw.com/destinations/country-nsw/parkes-area/parkes/attractions/memorial-hill'
+    - 'name': '@gty.bsky.social'
+      'url': 'https://bsky.app/profile/gty.bsky.social'
+    - 'name': 'Emacs'
+      'url': 'https://www.gnu.org/software/emacs/'
+    - 'name': 'Org'
+      'url': 'https://orgmode.org'
+    - 'name': 'NixOS'
+      'url': 'https://nixos.org/'

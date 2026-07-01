@@ -1,0 +1,12 @@
+'site':
+  'name': 'blog.pragmaticengineer.com'
+  'url': 'https://blog.pragmaticengineer.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'The Software Engineer''s Guidebook'
+      'url': 'https://www.engguidebook.com/'
+    - 'name': 'bluesky'
+      'url': 'https://bsky.app/profile/gergely.pragmaticengineer.com/'
+    - 'name': 'Podcast'
+      'url': 'https://pragmaticpodcast.com'

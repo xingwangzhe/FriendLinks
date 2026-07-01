@@ -1,0 +1,14 @@
+'site':
+  'name': 'osv-io.github.io'
+  'url': 'http://osv-io.github.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Getting Started'
+      'url': 'http://osv.io/getting-started'
+    - 'name': 'versatile'
+      'url': 'https://www.mikelangelo-project.eu/technology/universal-unikernel-osv/'
+    - 'name': 'serverless apps'
+      'url': 'http://blog.osv.io/blog/2017/06/12/serverless-computing-with-OSv/'
+    - 'name': 'Learn more…'
+      'url': 'https://cordis.europa.eu/project/id/645402'

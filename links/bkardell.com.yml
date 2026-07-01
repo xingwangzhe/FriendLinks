@@ -1,0 +1,12 @@
+'site':
+  'name': 'bkardell.com'
+  'url': 'https://bkardell.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Igalia Chats Podcast'
+      'url': 'https://igalia.com/chats'
+    - 'name': 'Mastodon'
+      'url': 'https://toot.cafe/@bkardell'
+    - 'name': 'Instagram (Art)'
+      'url': 'https://instagram.com/kardellbrian'

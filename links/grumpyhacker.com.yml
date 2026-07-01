@@ -1,0 +1,12 @@
+'site':
+  'name': 'grumpyhacker.com'
+  'url': 'https://grumpyhacker.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 're:Clojure 2019'
+      'url': 'https://reclojure.org/'
+    - 'name': 'testing in production'
+      'url': 'https://medium.com/@copyconstruct/testing-in-production-the-safe-way-18ca102d0ef1'
+    - 'name': 'Testing Event Driven Systems'
+      'url': 'https://www.confluent.io/blog/testing-event-driven-systems'

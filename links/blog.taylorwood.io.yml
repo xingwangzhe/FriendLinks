@@ -1,0 +1,12 @@
+'site':
+  'name': 'blog.taylorwood.io'
+  'url': 'https://blog.taylorwood.io/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'QBasic'
+      'url': 'https://en.wikipedia.org/wiki/QBasic'
+    - 'name': 'writing about programming and publishing code'
+      'url': 'https://www.codeproject.com/Articles/2286/Window-Hiding-with-C'
+    - 'name': 'play music'
+      'url': 'http://www.daytrotter.com/seafarer/daytrotter-studio-january-18-2011.html'

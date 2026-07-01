@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.zeddyu.info'
+  'url': 'https://blog.zeddyu.info/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Jekyll'
+      'url': 'https://jekyllrb.com'
+    - 'name': 'Minimal Mistakes'
+      'url': 'https://mademistakes.com/work/jekyll-themes/minimal-mistakes/'

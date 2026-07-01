@@ -1,0 +1,14 @@
+'site':
+  'name': 'notion.so'
+  'url': 'https://www.notion.so/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Developers'
+      'url': 'https://developers.notion.com'
+    - 'name': 'Academy'
+      'url': 'https://academy.notion.com'
+    - 'name': 'Developers'
+      'url': 'https://notion.dev'
+    - 'name': 'Your privacy rights'
+      'url': 'https://www.notion.com/trust/privacy-policy#california'

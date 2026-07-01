@@ -1,0 +1,16 @@
+'site':
+  'name': 'oftc.net'
+  'url': 'http://www.oftc.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'IRC Client'
+      'url': 'https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients'
+    - 'name': 'Let’s Encrypt'
+      'url': 'https://letsencrypt.org/'
+    - 'name': 'blog post'
+      'url': 'https://matrix.org/blog/2025/02/crossroads/'
+    - 'name': 'On the Fediverse'
+      'url': 'https://floss.social/@OFTC'
+    - 'name': 'Software in the Public Interest'
+      'url': 'http://www.spi-inc.org/'

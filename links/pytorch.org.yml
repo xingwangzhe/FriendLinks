@@ -1,0 +1,18 @@
+'site':
+  'name': 'pytorch.org'
+  'url': 'https://pytorch.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Join us at PyTorch Conference North America · Oct 20-21 · San Jose, CA'
+      'url': 'https://events.linuxfoundation.org/pytorch-conference-north-america/'
+    - 'name': 'Logos and Artwork'
+      'url': 'https://pytorch-fdn.github.io/artwork/'
+    - 'name': 'lightning.ai'
+      'url': 'https://lightning.ai'
+    - 'name': 'Privacy Policy'
+      'url': 'https://www.linuxfoundation.org/privacy/'
+    - 'name': 'slack'
+      'url': 'https://join.slack.com/t/pytorch/shared_invite/zt-2j2la612p-miUinTTaxXczKOJw48poHA'
+    - 'name': 'discord'
+      'url': 'https://discord.com/invite/eNSRmh92XT'

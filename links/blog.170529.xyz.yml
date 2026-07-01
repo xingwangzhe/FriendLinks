@@ -1,0 +1,14 @@
+'site':
+  'name': 'blog.170529.xyz'
+  'url': 'https://blog.170529.xyz/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'developer.mozilla.org'
+      'url': 'https://developer.mozilla.org'
+    - 'name': 'www.typescriptlang.org'
+      'url': 'https://www.typescriptlang.org'
+    - 'name': 'reactjs.org'
+      'url': 'https://reactjs.org'
+    - 'name': 'tailwindcss.com'
+      'url': 'https://tailwindcss.com'

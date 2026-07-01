@@ -1,0 +1,10 @@
+'site':
+  'name': 'gocit.cn'
+  'url': 'http://www.gocit.cn/'
+  'description': '友情链接'
+  'links': '/link'
+  'friends':
+    - 'name': 'Road To Coding 编程自学资源网站'
+      'url': 'https://www.r2coding.com/#/'
+    - 'name': '海拥 一个乐于分享技术与快乐的博主'
+      'url': 'https://haiyong.site'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'mrsunn.cn'
+  'url': 'https://www.mrsunn.cn/'
+  'description': '友情链接'
+  'links': '/pages/links.html'
+  'friends':
+    - 'name': 'Apache Lucene'
+      'url': 'https://lucene.apache.org/'
+    - 'name': 'wallstreetcn'
+      'url': 'https://wallstreetcn.com'

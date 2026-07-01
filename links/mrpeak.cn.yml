@@ -1,0 +1,10 @@
+'site':
+  'name': 'mrpeak.cn'
+  'url': 'http://mrpeak.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Z-BlogPHP'
+      'url': 'https://www.zblogcn.com/'
+    - 'name': 'TOYEAN'
+      'url': 'https://www.toyean.com/'

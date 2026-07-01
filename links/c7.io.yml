@@ -1,0 +1,8 @@
+'site':
+  'name': 'c7.io'
+  'url': 'https://c7.io/'
+  'description': '友情链接'
+  'links': '/links/'
+  'friends':
+    - 'name': '关于 Mastodon'
+      'url': 'https://joinmastodon.org'

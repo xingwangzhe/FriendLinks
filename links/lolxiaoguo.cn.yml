@@ -1,0 +1,12 @@
+'site':
+  'name': 'lolxiaoguo.cn'
+  'url': 'https://www.lolxiaoguo.cn/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '📖 Caddy documentation'
+      'url': 'https://caddyserver.com/docs/'
+    - 'name': 'Let''s Encrypt''s staging environment'
+      'url': 'https://letsencrypt.org/docs/staging-environment/'
+    - 'name': 'great community'
+      'url': 'https://caddy.community/'

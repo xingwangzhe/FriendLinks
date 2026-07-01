@@ -1,0 +1,10 @@
+'site':
+  'name': 'tracydurnell.com'
+  'url': 'https://tracydurnell.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Mastodon'
+      'url': 'https://micro.blog/tracydurnell?remote_follow=1'
+    - 'name': 'Find out more about Webmentions.'
+      'url': 'https://indieweb.org/webmention'

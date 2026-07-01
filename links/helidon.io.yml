@@ -1,0 +1,12 @@
+'site':
+  'name': 'helidon.io'
+  'url': 'https://helidon.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Blog'
+      'url': 'https://medium.com/helidon'
+    - 'name': 'Developing AI-Powered Applications ...'
+      'url': 'https://dmitrykornilov.net/2025/03/13/developing-ai-powered-applications-with-helidon-and-langchain4j'
+    - 'name': 'Helidon Technical Whitepaper'
+      'url': 'https://www.oracle.com/a/ocom/docs/technical-brief--helidon-report.pdf'

@@ -1,0 +1,12 @@
+'site':
+  'name': 'www3.nhk.or.jp'
+  'url': 'https://www3.nhk.or.jp/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'NHK ONE 子育て'
+      'url': 'https://www.web.nhk/kosodate'
+    - 'name': 'サービスを利用しない'
+      'url': 'https://www.nhk.or.jp/?ctu=out'
+    - 'name': 'NHK for School'
+      'url': 'https://edu.web.nhk/school/'

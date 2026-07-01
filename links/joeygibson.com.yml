@@ -1,0 +1,16 @@
+'site':
+  'name': 'joeygibson.com'
+  'url': 'https://joeygibson.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Mastodon'
+      'url': 'https://hachyderm.io/@joeygibson'
+    - 'name': 'Bluesky'
+      'url': 'https://bsky.app/profile/joeygibson.bsky.social'
+    - 'name': 'Threads'
+      'url': 'https://www.threads.net/@joeygibson'
+    - 'name': 'Instagram'
+      'url': 'https://www.instagram.com/joeygibson/'
+    - 'name': 'Jekyll'
+      'url': 'https://jekyllrb.com'

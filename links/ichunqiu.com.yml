@@ -1,0 +1,10 @@
+'site':
+  'name': 'ichunqiu.com'
+  'url': 'https://www.ichunqiu.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Firefox'
+      'url': 'http://www.firefox.com.cn/'
+    - 'name': 'Chrome'
+      'url': 'https://www.google.cn/chrome/'

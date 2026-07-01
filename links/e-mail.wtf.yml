@@ -1,0 +1,12 @@
+'site':
+  'name': 'e-mail.wtf'
+  'url': 'https://e-mail.wtf/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'email-addresses'
+      'url': 'https://www.npmjs.com/package/email-addresses'
+    - 'name': 'samwho'
+      'url': 'https://samwho.dev'
+    - 'name': 'jsdate.wtf'
+      'url': 'https://jsdate.wtf'

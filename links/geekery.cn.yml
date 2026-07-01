@@ -1,0 +1,10 @@
+'site':
+  'name': 'geekery.cn'
+  'url': 'https://www.geekery.cn/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'WebTeleporter'
+      'url': 'https://webteleporter.top'
+    - 'name': 'VuePress Theme Hope'
+      'url': 'https://theme-hope.vuejs.press/zh/'

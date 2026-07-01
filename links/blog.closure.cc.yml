@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.closure.cc'
+  'url': 'https://blog.closure.cc/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Techaro'
+      'url': 'https://techaro.lol'
+    - 'name': 'CELPHASE'
+      'url': 'https://bsky.app/profile/celphase.bsky.social'

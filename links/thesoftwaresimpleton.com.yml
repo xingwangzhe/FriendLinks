@@ -1,0 +1,10 @@
+'site':
+  'name': 'thesoftwaresimpleton.com'
+  'url': 'http://thesoftwaresimpleton.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Frontend DX expert'
+      'url': 'https://frontendx/'
+    - 'name': 'Contact me'
+      'url': 'https://www.frontenddx.com/contact'

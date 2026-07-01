@@ -1,0 +1,10 @@
+'site':
+  'name': 'answer.apache.org'
+  'url': 'https://answer.apache.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Q&A Community'
+      'url': 'https://meta.answer.dev'
+    - 'name': 'Freepik'
+      'url': 'https://www.flaticon.com'

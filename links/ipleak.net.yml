@@ -1,0 +1,10 @@
+'site':
+  'name': 'ipleak.net'
+  'url': 'https://ipleak.net/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'the forum'
+      'url': 'https://airvpn.org/landing/ipleak-forum/'
+    - 'name': 'MaxMind'
+      'url': 'https://www.maxmind.com'

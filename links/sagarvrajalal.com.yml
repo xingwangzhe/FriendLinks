@@ -1,0 +1,10 @@
+'site':
+  'name': 'sagarvrajalal.com'
+  'url': 'https://sagarvrajalal.com/'
+  'description': '友情链接'
+  'links': '/link'
+  'friends':
+    - 'name': '[Clojure]'
+      'url': 'https://clojure.org/'
+    - 'name': '[Reagent]'
+      'url': 'https://reagent-project.github.io/'

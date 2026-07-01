@@ -1,0 +1,12 @@
+'site':
+  'name': 'tiny.photos'
+  'url': 'https://tiny.photos/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Edge'
+      'url': 'https://www.microsoft.com/en-us/edge/download'
+    - 'name': 'Support Us'
+      'url': 'https://tinyphotos.gumroad.com/l/membership'
+    - 'name': 'acekreations'
+      'url': 'https://acekreations.com'

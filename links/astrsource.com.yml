@@ -1,0 +1,10 @@
+'site':
+  'name': 'astrsource.com'
+  'url': 'https://astrsource.com/'
+  'description': '友情链接'
+  'links': '/links.html'
+  'friends':
+    - 'name': 'MoeShin'
+      'url': 'https://moeshin.com'
+    - 'name': 'DeepSeek酱'
+      'url': 'https://deepseek.com'

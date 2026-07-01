@@ -1,0 +1,14 @@
+'site':
+  'name': 'sweetfish.site'
+  'url': 'https://sweetfish.site/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'sweetfish'
+      'url': 'https://sweetfish.itch.io/'
+    - 'name': 'neocities'
+      'url': 'https://neocities.org/'
+    - 'name': 'fish@trilobite.space'
+      'url': 'https://trilobite.space/@fish'
+    - 'name': 'bean'
+      'url': 'https://leobean.neocities.org/'

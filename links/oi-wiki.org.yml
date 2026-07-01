@@ -1,0 +1,10 @@
+'site':
+  'name': 'oi-wiki.org'
+  'url': 'https://oi-wiki.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'CTF Wiki'
+      'url': 'https://ctf-wiki.org/'
+    - 'name': 'Material for MkDocs'
+      'url': 'https://squidfunk.github.io/mkdocs-material/'

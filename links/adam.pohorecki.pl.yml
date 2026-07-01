@@ -1,0 +1,14 @@
+'site':
+  'name': 'adam.pohorecki.pl'
+  'url': 'http://adam.pohorecki.pl/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'KRUG'
+      'url': 'http://www.meetup.com/Krakow-Ruby-Users-Group/'
+    - 'name': 'Pomodoro Technique'
+      'url': 'http://www.pomodorotechnique.com/'
+    - 'name': 'Ping-Pong'
+      'url': 'http://c2.com/cgi/wiki?PairProgrammingPingPongPattern'
+    - 'name': 'Octopress'
+      'url': 'http://octopress.org'

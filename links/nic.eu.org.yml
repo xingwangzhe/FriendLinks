@@ -1,0 +1,12 @@
+'site':
+  'name': 'nic.eu.org'
+  'url': 'https://nic.eu.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'savedotorg.org'
+      'url': 'https://savedotorg.org/'
+    - 'name': 'FreeBSD'
+      'url': 'http://www.freebsd.org/'
+    - 'name': 'Apache'
+      'url': 'http://www.apache.org/'

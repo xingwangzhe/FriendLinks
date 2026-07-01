@@ -1,0 +1,14 @@
+'site':
+  'name': 'blog.korny.info'
+  'url': 'https://blog.korny.info/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Mastodon'
+      'url': 'https://hachyderm.io/@korny'
+    - 'name': 'Bluesky'
+      'url': 'https://bsky.app/profile/korny.sietsma.com'
+    - 'name': 'Jekyll'
+      'url': 'https://jekyllrb.com'
+    - 'name': 'Minimal Mistakes'
+      'url': 'https://mademistakes.com/work/minimal-mistakes-jekyll-theme/'

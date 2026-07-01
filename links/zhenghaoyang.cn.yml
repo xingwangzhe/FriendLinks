@@ -1,0 +1,10 @@
+'site':
+  'name': 'zhenghaoyang.cn'
+  'url': 'https://zhenghaoyang.cn/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Obsidian'
+      'url': 'https://obsidian.md/zh/'
+    - 'name': 'vuepress-theme-plume'
+      'url': 'https://theme-plume.vuejs.press/'

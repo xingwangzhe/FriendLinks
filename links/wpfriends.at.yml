@@ -1,0 +1,10 @@
+'site':
+  'name': 'wpfriends.at'
+  'url': 'https://wpfriends.at/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Vision'
+      'url': 'https://alex.kirk.at/2021/01/21/reducing-our-dependency-on-third-party-platforms-for-our-online-activity/'
+    - 'name': 'Vision'
+      'url': 'https://alexander.kirk.at/2021/01/21/reducing-our-dependency-on-third-party-platforms-for-our-online-activity/'

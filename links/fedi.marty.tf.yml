@@ -1,0 +1,14 @@
+'site':
+  'name': 'fedi.marty.tf'
+  'url': 'https://fedi.marty.tf/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '@artshare'
+      'url': 'https://lemmy.world/c/artshare'
+    - 'name': '@_elena'
+      'url': 'https://mastodon.social/@_elena'
+    - 'name': 'her latest article'
+      'url': 'https://blog.elenarossini.com/the-untold-story-about-w-social-unconventional-beginnings-strategic-pitches-conflicting-signals/'
+    - 'name': '@badposting'
+      'url': 'https://hexbear.net/c/badposting'

@@ -1,0 +1,10 @@
+'site':
+  'name': 't0mcater.site'
+  'url': 'https://www.t0mcater.site/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Forums'
+      'url': 'https://www.centos.org/forums/'
+    - 'name': 'Bugs'
+      'url': 'http://bugs.centos.org/'

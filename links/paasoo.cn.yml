@@ -1,0 +1,16 @@
+'site':
+  'name': 'paasoo.cn'
+  'url': 'https://www.paasoo.cn/'
+  'description': '友情链接'
+  'links': '/ask/friends'
+  'friends':
+    - 'name': 'Singapore'
+      'url': 'https://www.paasoo.com'
+    - 'name': '台灣地區'
+      'url': 'https://www.paasoo.com.tw'
+    - 'name': 'Ireland'
+      'url': 'https://www.paasoo.eu'
+    - 'name': '香港特別行政區'
+      'url': 'https://www.paasoo.hk'
+    - 'name': 'India'
+      'url': 'https://www.paasoo.in'

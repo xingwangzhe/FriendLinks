@@ -1,0 +1,16 @@
+'site':
+  'name': 'clojuredocs.wordpress.com'
+  'url': 'https://clojuredocs.wordpress.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'the conj'
+      'url': 'http://clojure-conj.org/'
+    - 'name': 'Examples style guide'
+      'url': 'http://clojuredocs.org/examples_style_guide'
+    - 'name': 'UserVoice forum'
+      'url': 'http://clojuredocs.uservoice.com'
+    - 'name': 'EPL 1.0'
+      'url': 'http://www.eclipse.org/legal/epl-v10.html'
+    - 'name': 'Cookie Policy'
+      'url': 'https://automattic.com/cookies/'

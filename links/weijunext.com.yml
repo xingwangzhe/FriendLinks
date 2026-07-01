@@ -1,0 +1,16 @@
+'site':
+  'name': 'weijunext.com'
+  'url': 'https://weijunext.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Next.js中文文档'
+      'url': 'https://nextjscn.org/'
+    - 'name': '全栈开发文档'
+      'url': 'https://nexty.dev/docs'
+    - 'name': 'OG Image Generator'
+      'url': 'https://myogimage.com/?utm_source=weijunext'
+    - 'name': 'nTab'
+      'url': 'https://ntab.dev/?utm_source=weijunext'
+    - 'name': 'First Look Tools'
+      'url': 'https://firstlook.tools/?utm_source=weijunext'

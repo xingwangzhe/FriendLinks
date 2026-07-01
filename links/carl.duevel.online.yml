@@ -1,0 +1,12 @@
+'site':
+  'name': 'carl.duevel.online'
+  'url': 'https://carl.duevel.online/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'poetry'
+      'url': 'https://python-poetry.org/'
+    - 'name': 'Hugo v0.152.2'
+      'url': 'https://gohugo.io'
+    - 'name': 'Beautiful Jekyll'
+      'url': 'https://deanattali.com/beautiful-jekyll/'

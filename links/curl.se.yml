@@ -1,0 +1,14 @@
+'site':
+  'name': 'curl.se'
+  'url': 'https://curl.se/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'curl-library'
+      'url': 'https://lists.haxx.se/listinfo/curl-library'
+    - 'name': 'Everything curl'
+      'url': 'https://everything.curl.dev/'
+    - 'name': 'mastering the curl command line tool'
+      'url': 'https://youtu.be/V5vZWHP-RqU'
+    - 'name': 'follows well established open source best practices'
+      'url': 'https://bestpractices.coreinfrastructure.org/projects/63'

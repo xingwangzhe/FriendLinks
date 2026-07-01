@@ -1,0 +1,12 @@
+'site':
+  'name': 'loopback.top'
+  'url': 'https://loopback.top/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'BlogFinder Discover great personal blogs and quality blog posts'
+      'url': 'https://bf.zzxworld.com/s'
+    - 'name': 'Alex Zhao'
+      'url': 'https://santisify.top'
+    - 'name': 'Tailwind'
+      'url': 'https://tailwindcss.com/'

@@ -1,0 +1,12 @@
+'site':
+  'name': 'tool.lu'
+  'url': 'https://tool.lu/'
+  'description': '友情链接'
+  'links': '/link'
+  'friends':
+    - 'name': '牛客网'
+      'url': 'https://www.nowcoder.com/'
+    - 'name': 'A5创业网'
+      'url': 'https://www.admin5.com/'
+    - 'name': 'iteam'
+      'url': 'http://type.so/'

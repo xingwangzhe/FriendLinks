@@ -1,0 +1,12 @@
+'site':
+  'name': 'hugoduncan.org'
+  'url': 'http://hugoduncan.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Golang Modules'
+      'url': 'https://golang.org/doc/modules/version-numbers'
+    - 'name': 'REPL adventures'
+      'url': 'https://blog.michielborkent.nl/'
+    - 'name': 'tools.build'
+      'url': 'https://clojure.org/guides/tools_build'

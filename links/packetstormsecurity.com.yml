@@ -1,0 +1,14 @@
+'site':
+  'name': 'packetstormsecurity.com'
+  'url': 'https://packetstormsecurity.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Store'
+      'url': 'https://packet-storm-security.printify.me/'
+    - 'name': 'packetstorm.news'
+      'url': 'https://packetstorm.news'
+    - 'name': 'BlueSky'
+      'url': 'https://bsky.app/profile/packetstorm.bsky.social'
+    - 'name': 'Mastodon'
+      'url': 'https://infosec.exchange/@packet_storm/'

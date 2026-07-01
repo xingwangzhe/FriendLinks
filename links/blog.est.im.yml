@@ -1,0 +1,14 @@
+'site':
+  'name': 'blog.est.im'
+  'url': 'https://blog.est.im/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '2020年Chromium决定杀死 Chrome Apps'
+      'url': 'https://blog.chromium.org/2020/01/moving-forward-from-chrome-apps.html'
+    - 'name': 'Martin Fowler'
+      'url': 'https://martinfowler.com/articles/vibesec-reckoning.html'
+    - 'name': 'uv为啥快'
+      'url': 'https://pydevtools.com/blog/how-uv-solves-dependencies-so-fast/'
+    - 'name': 'agents need control flow, not more prompts'
+      'url': 'https://bsuh.bearblog.dev/agents-need-control-flow/'

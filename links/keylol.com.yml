@@ -1,0 +1,12 @@
+'site':
+  'name': 'keylol.com'
+  'url': 'https://keylol.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Discuz!'
+      'url': 'https://www.discuz.vip/'
+    - 'name': 'Chrome'
+      'url': 'https://www.google.cn/chrome/'
+    - 'name': 'Microsoft Edge'
+      'url': 'https://www.microsoft.com/edge'

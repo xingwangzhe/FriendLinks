@@ -1,0 +1,14 @@
+'site':
+  'name': 'defensivecss.dev'
+  'url': 'https://defensivecss.dev/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'debugging CSS'
+      'url': 'https://debuggingcss.com/'
+    - 'name': 'writes extensively on CSS'
+      'url': 'https://ishadeed.com/'
+    - 'name': 'Accessibility'
+      'url': 'https://www.a11ymatters.com/'
+    - 'name': 'RTL (right to left) text styling'
+      'url': 'https://www.rtlstyling.com/'

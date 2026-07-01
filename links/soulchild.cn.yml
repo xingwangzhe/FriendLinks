@@ -1,0 +1,10 @@
+'site':
+  'name': 'soulchild.cn'
+  'url': 'https://soulchild.cn/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': '@Lruihao'
+      'url': 'https://lruihao.cn'
+    - 'name': '@猫公会'
+      'url': 'https://www.catguild.cn/'

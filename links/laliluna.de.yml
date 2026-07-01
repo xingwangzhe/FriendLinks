@@ -1,0 +1,18 @@
+'site':
+  'name': 'laliluna.de'
+  'url': 'http://www.laliluna.de/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Location:VueJS & Frontend Love 2019'
+      'url': 'https://www.vuejs.amsterdam'
+    - 'name': 'Location:Open Datascience Conference 2017'
+      'url': 'https://odsc.com/boston'
+    - 'name': 'Location:Euro Clojure 2016'
+      'url': 'http://2016.euroclojure.org'
+    - 'name': 'Location:Devoxx 2009 – 2015'
+      'url': 'http://www.devoxx.com/'
+    - 'name': 'Location:Euro Clojure 2014'
+      'url': 'http://euroclojure.com/2014/'
+    - 'name': 'Location:JavaOne 2008, 2009'
+      'url': 'https://www.oracle.com/javaone/'

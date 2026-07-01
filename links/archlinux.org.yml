@@ -1,0 +1,16 @@
+'site':
+  'name': 'archlinux.org'
+  'url': 'https://archlinux.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'renamed itself to Vinyl Cache'
+      'url': 'https://vinyl-cache.org/organization/on_vinyl_cache_and_varnish_cache.html#org-vinyl-varnish'
+    - 'name': 'T-shirts via Freewear'
+      'url': 'https://www.freewear.org/?page=list_items&org=Archlinux'
+    - 'name': 'T-shirts via HELLOTUX'
+      'url': 'https://www.hellotux.com/arch'
+    - 'name': 'Dev Blog'
+      'url': 'https://devblog.archlinux.page'
+    - 'name': 'Request for Comments'
+      'url': 'https://rfc.archlinux.page'

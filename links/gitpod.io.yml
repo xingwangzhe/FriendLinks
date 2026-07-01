@@ -1,0 +1,10 @@
+'site':
+  'name': 'gitpod.io'
+  'url': 'https://gitpod.io/'
+  'description': '友情链接'
+  'links': '/other/friends.html'
+  'friends':
+    - 'name': 'product support'
+      'url': 'https://app.ona.com'
+    - 'name': 'Security'
+      'url': 'https://trust.ona.com'

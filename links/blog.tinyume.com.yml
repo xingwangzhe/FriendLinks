@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.tinyume.com'
+  'url': 'https://blog.tinyume.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'jsDelivr'
+      'url': 'https://www.jsdelivr.com/'
+    - 'name': 'Jimmy'
+      'url': 'https://jimmycai.com'

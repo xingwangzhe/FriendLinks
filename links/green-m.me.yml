@@ -1,0 +1,10 @@
+'site':
+  'name': 'green-m.me'
+  'url': 'https://green-m.me/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Jekyll'
+      'url': 'http://jekyllrb.com'
+    - 'name': 'Less'
+      'url': 'http://lesscss.cn/'

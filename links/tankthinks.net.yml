@@ -1,0 +1,14 @@
+'site':
+  'name': 'tankthinks.net'
+  'url': 'https://tankthinks.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '11ty'
+      'url': 'https://www.11ty.dev/'
+    - 'name': 'tailwindcss'
+      'url': 'https://tailwindcss.com/'
+    - 'name': 'stackoverflow.'
+      'url': 'https://stackoverflow.com/users/5475850/tankthinks'
+    - 'name': 'lichess.'
+      'url': 'https://lichess.org/@/tankthinks'

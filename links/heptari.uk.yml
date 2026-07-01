@@ -1,0 +1,14 @@
+'site':
+  'name': 'heptari.uk'
+  'url': 'https://heptari.uk/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'CLion'
+      'url': 'https://www.jetbrains.com/clion/'
+    - 'name': 'VS Code'
+      'url': 'https://code.visualstudio.com/'
+    - 'name': 'Fish'
+      'url': 'https://fishshell.com/'
+    - 'name': 'Obsidian'
+      'url': 'https://obsidian.md/'

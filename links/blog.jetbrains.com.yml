@@ -1,0 +1,12 @@
+'site':
+  'name': 'blog.jetbrains.com'
+  'url': 'https://blog.jetbrains.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Instagram Instagram'
+      'url': 'https://www.instagram.com/jetbrains/'
+    - 'name': 'Tiktok Tiktok'
+      'url': 'https://www.tiktok.com/@jetbrains?lang=en'
+    - 'name': 'Merchandise store iconMerchandise store'
+      'url': 'https://jb.gg/jetbrainsgearblog'

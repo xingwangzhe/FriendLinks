@@ -1,0 +1,10 @@
+'site':
+  'name': 'theng.cool'
+  'url': 'http://theng.cool/'
+  'description': '友情链接'
+  'links': '/links.html'
+  'friends':
+    - 'name': 'UserUnknown'
+      'url': 'https://pathunknown.ml'
+    - 'name': 'Cuteen'
+      'url': 'https://blog.zwying.com'

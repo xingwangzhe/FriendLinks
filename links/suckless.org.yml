@@ -1,0 +1,18 @@
+'site':
+  'name': 'suckless.org'
+  'url': 'https://suckless.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Let''s Encrypt'
+      'url': 'https://letsencrypt.org/'
+    - 'name': 'FLOSS Weekly show'
+      'url': 'https://twit.tv/shows/floss-weekly/episodes/355?autostart=false'
+    - 'name': '31C3'
+      'url': 'https://events.ccc.de/congress/2014'
+    - 'name': 'LinuxTag 2011'
+      'url': 'http://www.linuxtag.org'
+    - 'name': 'died on 2010-03-12'
+      'url': 'https://web.archive.org/web/20140208043925/http://www.lmt.uni-saarland.de/de/aktuelles/grelich.html'
+    - 'name': 'CLT2010'
+      'url': 'http://chemnitzer.linux-tage.de/2010/'

@@ -1,0 +1,14 @@
+'site':
+  'name': 'picwish.com'
+  'url': 'https://picwish.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'AI Mind Map'
+      'url': 'https://gitmind.com/?apptype=chn-picwish'
+    - 'name': 'AI Docs Chat'
+      'url': 'https://lightpdf.com/chatdoc?apptype=chn-picwish'
+    - 'name': 'AI Subtitle'
+      'url': 'https://reccloud.com/ai-subtitle?apptype=chn-picwish'
+    - 'name': 'AI Directory'
+      'url': 'https://letsview.com/ai-tools?apptype=chn-picwish'

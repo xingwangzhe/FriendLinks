@@ -1,0 +1,14 @@
+'site':
+  'name': 'simonb.com'
+  'url': 'http://simonb.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'demo project'
+      'url': 'https://bnomis.github.io/om-next-datascript-localisation-demo/'
+    - 'name': 'Latex'
+      'url': 'https://en.wikibooks.org/wiki/LaTeX'
+    - 'name': 'Sphinx'
+      'url': 'http://sphinx-doc.org/'
+    - 'name': 'ShadowPainter'
+      'url': 'http://codepen.io/yoksel/full/DtsGn'

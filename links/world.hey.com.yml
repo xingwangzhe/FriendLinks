@@ -1,0 +1,14 @@
+'site':
+  'name': 'world.hey.com'
+  'url': 'https://world.hey.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '37signals™'
+      'url': 'https://37signals.com'
+    - 'name': 'System status'
+      'url': 'https://www.37status.com'
+    - 'name': 'Basecamp™'
+      'url': 'https://basecamp.com'
+    - 'name': 'Fizzy™'
+      'url': 'https://www.fizzy.do'

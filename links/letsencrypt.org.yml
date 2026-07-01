@@ -1,0 +1,12 @@
+'site':
+  'name': 'letsencrypt.org'
+  'url': 'https://letsencrypt.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Internet Security Research Group (ISRG)'
+      'url': 'https://www.abetterinternet.org/'
+    - 'name': 'Focused on memory safety in critical Internet infrastructure through the use of'
+      'url': 'https://memorysafety.org'
+    - 'name': 'A privacy-respecting system for collecting and aggregating metrics, built on Mul'
+      'url': 'https://divviup.org'

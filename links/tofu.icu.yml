@@ -1,0 +1,14 @@
+'site':
+  'name': 'tofu.icu'
+  'url': 'https://tofu.icu/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'LaTeX Workshop'
+      'url': 'https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop'
+    - 'name': 'Click here'
+      'url': 'https://open.kattis.com/problems/cuboidslicinggame'
+    - 'name': 'Sprague–Grundy function'
+      'url': 'https://en.wikipedia.org/wiki/Sprague%E2%80%93Grundy_theorem'
+    - 'name': 'Racket'
+      'url': 'https://racket-lang.org/'

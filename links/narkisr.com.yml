@@ -1,0 +1,10 @@
+'site':
+  'name': 'narkisr.com'
+  'url': 'http://narkisr.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'visual programming'
+      'url': 'https://en.wikipedia.org/wiki/Visual_programming_language'
+    - 'name': 'misconception'
+      'url': 'https://martinfowler.com/bliki/RulesEngine.html'

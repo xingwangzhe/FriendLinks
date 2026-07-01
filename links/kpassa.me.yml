@@ -1,0 +1,10 @@
+'site':
+  'name': 'kpassa.me'
+  'url': 'https://kpassa.me/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'instagram'
+      'url': 'https://instagram.com/kpassapk'
+    - 'name': 'mastodon'
+      'url': 'https://techhub.social/@kpassapk'

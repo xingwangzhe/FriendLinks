@@ -1,0 +1,18 @@
+'site':
+  'name': 'tc39.es'
+  'url': 'https://tc39.es/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'ECMA-404, JSON'
+      'url': 'https://www.ecma-international.org/publications-and-standards/standards/ecma-404/'
+    - 'name': 'Reading the Spec'
+      'url': 'https://timothygu.me/es-howto/'
+    - 'name': 'Join the Discourse'
+      'url': 'https://es.discourse.group/'
+    - 'name': 'join Ecma'
+      'url': 'https://ecma-international.org/memento/join.htm'
+    - 'name': 'Mastodon'
+      'url': 'https://fosstodon.org/@TC39'
+    - 'name': 'Matrix'
+      'url': 'https://matrix.to/#/#tc39-space:matrix.org'

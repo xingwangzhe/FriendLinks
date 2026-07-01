@@ -1,0 +1,14 @@
+'site':
+  'name': 'quii.dev'
+  'url': 'https://quii.dev/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'the $327m Mars Climate Orbiter'
+      'url': 'https://en.wikipedia.org/wiki/Mars_Climate_Orbiter'
+    - 'name': 'put it well recently'
+      'url': 'https://ordep.dev/posts/writing-code-was-never-the-bottleneck'
+    - 'name': 'extreme programming'
+      'url': 'https://www.amazon.co.uk/Extreme-Programming-Explained-Embrace-Change/dp/0321278658'
+    - 'name': 'Mastodon'
+      'url': 'https://mastodon.cloud/@quii'

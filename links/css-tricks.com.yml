@@ -1,0 +1,14 @@
+'site':
+  'name': 'css-tricks.com'
+  'url': 'https://css-tricks.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'CodePen'
+      'url': 'http://codepen.io'
+    - 'name': 'developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector'
+      'url': 'https://developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector#Impact_on_web_developers'
+    - 'name': 'Cloudways'
+      'url': 'https://www.cloudways.com/en/wordpress-hosting.php?id=1223312'
+    - 'name': 'Mastodon'
+      'url': 'https://mastodon.social/@csstricks'

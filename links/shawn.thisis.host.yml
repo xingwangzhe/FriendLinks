@@ -1,0 +1,12 @@
+'site':
+  'name': 'shawn.thisis.host'
+  'url': 'https://shawn.thisis.host/'
+  'description': '友情链接'
+  'links': '/friend'
+  'friends':
+    - 'name': '纸鹿本鹿'
+      'url': 'https://blog.zhilu.cyou/'
+    - 'name': 'Ph0m'
+      'url': 'https://blog.phom.space/'
+    - 'name': 'Tiny-Sky'
+      'url': 'https://tiny-sky.github.io/'

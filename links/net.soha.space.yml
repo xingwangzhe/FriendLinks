@@ -1,0 +1,14 @@
+'site':
+  'name': 'net.soha.space'
+  'url': 'https://net.soha.space/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'About Soha'
+      'url': 'https://sohaj.in/'
+    - 'name': '@PeeringDB'
+      'url': 'https://www.peeringdb.com/asn/209306'
+    - 'name': '@BGP.Tools'
+      'url': 'https://bgp.tools/as/209306'
+    - 'name': '@HE'
+      'url': 'https://bgp.he.net/AS209306'

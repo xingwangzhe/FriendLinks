@@ -1,0 +1,14 @@
+'site':
+  'name': 'xivilization.net'
+  'url': 'http://xivilization.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'talks'
+      'url': 'https://speakerdeck.com/leonidas'
+    - 'name': 'tracks'
+      'url': 'https://app.strava.com/athletes/2103480'
+    - 'name': 'picture'
+      'url': 'https://www.flickr.com/photos/103724284@N02/'
+    - 'name': '@leonidas@mastodon.social'
+      'url': 'https://mastodon.social/@leonidas'

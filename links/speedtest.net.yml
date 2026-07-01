@@ -1,0 +1,14 @@
+'site':
+  'name': 'speedtest.net'
+  'url': 'https://www.speedtest.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Ookla'
+      'url': 'https://www.ookla.com'
+    - 'name': 'Downdetector®'
+      'url': 'https://downdetector.com/'
+    - 'name': 'Ekahau®'
+      'url': 'https://www.ekahau.com/'
+    - 'name': 'RootMetrics®'
+      'url': 'https://rootmetrics.com/'

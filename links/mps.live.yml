@@ -1,0 +1,16 @@
+'site':
+  'name': 'mps.live'
+  'url': 'https://mps.live/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'StreamLive API'
+      'url': 'https://www.tencentcloud.com/document/product/1048/36217'
+    - 'name': 'Tencent RTC'
+      'url': 'https://trtc.io/'
+    - 'name': 'Tencent EdgeOne'
+      'url': 'https://edgeone.ai/'
+    - 'name': 'Tencent VooV Meeting'
+      'url': 'https://voovmeeting.com/'
+    - 'name': 'Tencent DNSPOD'
+      'url': 'https://www.dnspod.com/'

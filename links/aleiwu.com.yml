@@ -1,0 +1,10 @@
+'site':
+  'name': 'aleiwu.com'
+  'url': 'https://aleiwu.com/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'PingCAP'
+      'url': 'https://www.pingcap.com/'
+    - 'name': '酷家乐'
+      'url': 'https://tech.kujiale.com/'

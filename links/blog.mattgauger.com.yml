@@ -1,0 +1,16 @@
+'site':
+  'name': 'blog.mattgauger.com'
+  'url': 'https://blog.mattgauger.com/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'Heroku'
+      'url': 'https://www.heroku.com'
+    - 'name': 'my Bookwyrm account'
+      'url': 'https://bookrastinating.com/user/mathiasx'
+    - 'name': 'my Goodreads account'
+      'url': 'https://www.goodreads.com/mathiasx'
+    - 'name': '@mathias@rhizospherelabs.com'
+      'url': 'https://rhizospherelabs.com/@mathias'
+    - 'name': 'source/LICENSE.md'
+      'url': 'https://raw.githubusercontent.com/mathias/mathias.github.com/source/source/LICENSE.md'

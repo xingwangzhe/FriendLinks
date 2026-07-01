@@ -1,0 +1,12 @@
+'site':
+  'name': 'drawio.com'
+  'url': 'https://www.drawio.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Open draw.io'
+      'url': 'https://app.diagrams.net'
+    - 'name': 'Desktop App'
+      'url': 'https://get.diagrams.net'
+    - 'name': 'Stack Overflow'
+      'url': 'https://stackoverflow.com/questions/tagged/draw.io'

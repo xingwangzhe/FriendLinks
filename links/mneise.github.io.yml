@@ -1,0 +1,10 @@
+'site':
+  'name': 'mneise.github.io'
+  'url': 'http://mneise.github.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'problem'
+      'url': 'http://dev.clojure.org/jira/browse/CLJS-1314'
+    - 'name': 'Cryogen'
+      'url': 'http://cryogenweb.org'

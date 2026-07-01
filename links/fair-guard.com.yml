@@ -1,0 +1,10 @@
+'site':
+  'name': 'fair-guard.com'
+  'url': 'https://www.fair-guard.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '免费试用'
+      'url': 'https://user.fair-guad.com'
+    - 'name': 'github博客'
+      'url': 'https://fairguard.github.io/'

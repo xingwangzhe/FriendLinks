@@ -1,0 +1,18 @@
+'site':
+  'name': 'note.youdao.com'
+  'url': 'https://note.youdao.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '网易邮箱'
+      'url': 'https://mail.163.com/?from=yunbiji'
+    - 'name': '网易企业邮箱'
+      'url': 'https://qiye.163.com/?from=yunbiji'
+    - 'name': '网易外贸通'
+      'url': 'https://waimao.163.com/?from=yunbiji'
+    - 'name': '网易跨境浏览器'
+      'url': 'https://kuajing.163.com/?from=bjgw'
+    - 'name': '网易跨境支付'
+      'url': 'https://globalpay.163.com/home?utm_source=%E6%9C%89%E9%81%93%E4%BA%91%E7%AC%94%E8%AE%B0%E5%AE%98%E7%BD%91&utm_campaign=%E4%B8%BB%E7%AB%99%E9%A6%96%E9%A1%B5&utm_content=ydybj&utm_term=%E5%AE%98%E7%BD%91'
+    - 'name': '联系我们'
+      'url': 'https://youdaonote.qiyukf.com/client?k=2dac580226b83fb71d8e31c5b40041cf&wp=1&robotShuntSwitch=1&robotId=32701&shuntId&t=%E5%AE%98%E7%BD%91%E8%81%94%E7%B3%BB%E5%AE%A2%E6%9C%8D'

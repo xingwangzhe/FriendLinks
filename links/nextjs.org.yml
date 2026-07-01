@@ -1,0 +1,12 @@
+'site':
+  'name': 'nextjs.org'
+  'url': 'https://nextjs.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'ReactThe library for web and native user interfaces. Next.js is built on the lat'
+      'url': 'https://react.dev'
+    - 'name': 'Speedy Web CompilerAn extensible Rust based platform for the next generation of'
+      'url': 'https://swc.rs'
+    - 'name': 'Bluesky'
+      'url': 'https://bsky.app/profile/vercel.com'

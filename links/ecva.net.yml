@@ -1,0 +1,12 @@
+'site':
+  'name': 'ecva.net'
+  'url': 'https://www.ecva.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Daniel Cremers'
+      'url': 'https://cvg.cit.tum.de/members/cremers'
+    - 'name': 'Tinne Tuytelaars'
+      'url': 'https://homes.esat.kuleuven.be/~tuytelaa/'
+    - 'name': 'Tomas Pajdla'
+      'url': 'https://people.ciirc.cvut.cz/~pajdla/'

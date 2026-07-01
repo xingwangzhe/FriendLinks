@@ -1,0 +1,10 @@
+'site':
+  'name': 'puzzles-game.com'
+  'url': 'https://puzzles-game.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '原始谜题集合'
+      'url': 'https://www.chiark.greenend.org.uk/~sgtatham/puzzles/'
+    - 'name': '开源推箱子'
+      'url': 'https://gallery.selfboot.cn/zh/games/sokoban'

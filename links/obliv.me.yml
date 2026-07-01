@@ -1,0 +1,10 @@
+'site':
+  'name': 'obliv.me'
+  'url': 'https://obliv.me/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '$HOME'
+      'url': 'https://julyphant.com/'
+    - 'name': 'Fantasy'
+      'url': 'https://www.krsay.com/typecho/fantasy.html'

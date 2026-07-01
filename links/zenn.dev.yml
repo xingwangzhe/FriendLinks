@@ -1,0 +1,10 @@
+'site':
+  'name': 'zenn.dev'
+  'url': 'https://zenn.dev/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '運営会社'
+      'url': 'https://classmethod.jp'
+    - 'name': 'connpass'
+      'url': 'https://zenn.connpass.com/'

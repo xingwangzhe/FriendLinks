@@ -1,0 +1,12 @@
+'site':
+  'name': 'metaipro.com'
+  'url': 'https://metaipro.com/'
+  'description': '友情链接'
+  'links': '/links.html'
+  'friends':
+    - 'name': 'Pineapple'
+      'url': 'http://avue.cn'
+    - 'name': 'WeekUP'
+      'url': 'https://yinji.org'
+    - 'name': 'Twenty Twelve'
+      'url': 'https://wordpress.com/zh-cn/theme/twentytwelve'

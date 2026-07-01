@@ -1,0 +1,16 @@
+'site':
+  'name': 'go.microsoft.com'
+  'url': 'https://go.microsoft.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Office'
+      'url': 'https://products.office.com/en-us/home'
+    - 'name': 'OneDrive'
+      'url': 'https://onedrive.live.com/about/en-us/'
+    - 'name': 'Outlook'
+      'url': 'https://outlook.live.com/owa/'
+    - 'name': 'Skype'
+      'url': 'https://www.skype.com/en/'
+    - 'name': 'OneNote'
+      'url': 'https://www.onenote.com/'

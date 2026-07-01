@@ -1,0 +1,10 @@
+'site':
+  'name': 'crash.work'
+  'url': 'https://www.crash.work/'
+  'description': '友情链接'
+  'links': '/links.html'
+  'friends':
+    - 'name': 'IP库查询'
+      'url': 'https://www.ipip.net/'
+    - 'name': 'PING测速'
+      'url': 'https://www.tcptest.cn/'

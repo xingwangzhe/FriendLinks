@@ -1,0 +1,12 @@
+'site':
+  'name': 'caniuse.com'
+  'url': 'https://caniuse.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '@Fyrd'
+      'url': 'https://front-end.social/@fyrd'
+    - 'name': '@Lensco'
+      'url': 'https://mastodon.world/@lensco'
+    - 'name': 'StatCounter GlobalStats'
+      'url': 'http://gs.statcounter.com/'

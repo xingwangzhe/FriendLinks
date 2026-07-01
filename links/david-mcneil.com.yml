@@ -1,0 +1,14 @@
+'site':
+  'name': 'david-mcneil.com'
+  'url': 'https://david-mcneil.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'datomic zip'
+      'url': 'http://www.datomic.com/product/downloads'
+    - 'name': 'Lambda Lounge'
+      'url': 'http://lambdalounge.org/2012/01/31/hadoop-clojure-robots/'
+    - 'name': 'defrecord improvements'
+      'url': 'http://clojure02.managed.contegix.com/display/design/defrecord+improvements'
+    - 'name': 'past life'
+      'url': 'http://web.archive.org/web/20071018031224/http://mobcode.com/'

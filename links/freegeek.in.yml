@@ -1,0 +1,12 @@
+'site':
+  'name': 'freegeek.in'
+  'url': 'http://freegeek.in/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'TeamOhana'
+      'url': 'https://www.teamohana.com'
+    - 'name': 'Helpshift'
+      'url': 'https://www.helpshift.com'
+    - 'name': 'free software'
+      'url': 'https://en.wikipedia.org/wiki/Free_software'

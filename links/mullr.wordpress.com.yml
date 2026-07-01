@@ -1,0 +1,18 @@
+'site':
+  'name': 'mullr.wordpress.com'
+  'url': 'https://mullr.wordpress.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'gerrit'
+      'url': 'http://gerrit.googlecode.com/'
+    - 'name': 'del.icio.us'
+      'url': 'http://delicious.com/mullr/git'
+    - 'name': 'Steve'
+      'url': 'http://www.1060.org/blogxter/publish/5'
+    - 'name': 'GTD'
+      'url': 'http://en.wikipedia.org/wiki/Getting_Things_Done'
+    - 'name': 'org-mode'
+      'url': 'http://orgmode.org/'
+    - 'name': 'Cookie Policy'
+      'url': 'https://automattic.com/cookies/'

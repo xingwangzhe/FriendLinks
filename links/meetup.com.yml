@@ -1,0 +1,10 @@
+'site':
+  'name': 'meetup.com'
+  'url': 'https://www.meetup.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Careers'
+      'url': 'https://bndspn.com/join-meetup'
+    - 'name': 'Bending Spoons'
+      'url': 'https://www.bendingspoons.com'

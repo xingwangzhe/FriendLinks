@@ -1,0 +1,8 @@
+'site':
+  'name': 'shortpixel.com'
+  'url': 'https://shortpixel.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Download plugin'
+      'url': 'https://downloads.wordpress.org/plugin/shortpixel-image-optimiser.latest-stable.zip'

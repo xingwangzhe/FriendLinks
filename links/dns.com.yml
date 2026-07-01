@@ -1,0 +1,10 @@
+'site':
+  'name': 'dns.com'
+  'url': 'https://www.dns.com/'
+  'description': '友情链接'
+  'links': '/?page_id=476'
+  'friends':
+    - 'name': 'nginx.org'
+      'url': 'http://nginx.org/'
+    - 'name': 'nginx.com'
+      'url': 'http://nginx.com/'

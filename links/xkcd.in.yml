@@ -1,0 +1,10 @@
+'site':
+  'name': 'xkcd.in'
+  'url': 'https://xkcd.in/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'xkcd'
+      'url': 'https://xkcd.com/'
+    - 'name': '兰德尔·门罗'
+      'url': 'https://zh.wikipedia.org/wiki/%E5%85%B0%E5%BE%B7%E5%B0%94%C2%B7%E9%97%A8%E7%BD%97'

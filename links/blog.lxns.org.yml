@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.lxns.org'
+  'url': 'https://blog.lxns.org/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '更新历史'
+      'url': 'https://lxns.ml/update'
+    - 'name': '云援交'
+      'url': 'https://www.rbqyun.net/'

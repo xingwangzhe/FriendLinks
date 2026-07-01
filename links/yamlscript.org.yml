@@ -1,0 +1,14 @@
+'site':
+  'name': 'yamlscript.org'
+  'url': 'https://yamlscript.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Claude Code'
+      'url': 'https://claude.ai/code'
+    - 'name': 'YAML'
+      'url': 'https://yaml.org'
+    - 'name': 'YS Exercism Track'
+      'url': 'https://exercism.org/tracks/yamlscript'
+    - 'name': 'YS on Rosetta Code'
+      'url': 'https://rosettacode.org/wiki/Category:YAMLScript'

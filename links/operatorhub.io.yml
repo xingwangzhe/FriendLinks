@@ -1,0 +1,12 @@
+'site':
+  'name': 'operatorhub.io'
+  'url': 'https://operatorhub.io/'
+  'description': '友情链接'
+  'links': '/links.html'
+  'friends':
+    - 'name': 'Documentation'
+      'url': 'https://operatorframework.io'
+    - 'name': 'Privacy Policy'
+      'url': 'https://www.redhat.com/en/about/privacy-policy'
+    - 'name': 'Join us on Slack'
+      'url': 'https://kubernetes.slack.com/messages/kubernetes-operators'

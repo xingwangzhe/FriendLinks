@@ -1,0 +1,12 @@
+'site':
+  'name': 'scuttlebutt.nz'
+  'url': 'https://scuttlebutt.nz/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'news'
+      'url': 'https://opencollective.com/secure-scuttlebutt-consortium#section-updates'
+    - 'name': 'The Localized but Distributed Social Network - 2019'
+      'url': 'https://letstalkbitcoin.com/blog/post/epicenter-dominic-tarr-secure-scuttlebutt-the-localized-but-distributed-social-network'
+    - 'name': 'Scuttlebutt and a Decentralized Future - 2018'
+      'url': 'https://youtu.be/JSWWkzsHhjk'

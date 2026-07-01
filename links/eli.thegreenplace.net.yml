@@ -1,0 +1,10 @@
+'site':
+  'name': 'eli.thegreenplace.net'
+  'url': 'https://eli.thegreenplace.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Pluggy'
+      'url': 'https://pluggy.readthedocs.io/en/latest/'
+    - 'name': 'entry points'
+      'url': 'https://setuptools.pypa.io/en/latest/userguide/entry_point.html'

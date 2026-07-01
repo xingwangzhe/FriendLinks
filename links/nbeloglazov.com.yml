@@ -1,0 +1,10 @@
+'site':
+  'name': 'nbeloglazov.com'
+  'url': 'http://nbeloglazov.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'random-2d'
+      'url': 'http://quil.info/api/math/random#random-2d'
+    - 'name': 'comments powered by Disqus'
+      'url': 'http://disqus.com'

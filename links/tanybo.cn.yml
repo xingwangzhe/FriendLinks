@@ -1,0 +1,10 @@
+'site':
+  'name': 'tanybo.cn'
+  'url': 'https://www.tanybo.cn/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'nginx.org'
+      'url': 'http://nginx.org/'
+    - 'name': 'nginx.com'
+      'url': 'http://nginx.com/'

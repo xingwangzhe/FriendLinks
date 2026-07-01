@@ -1,0 +1,10 @@
+'site':
+  'name': 'trevdev.ca'
+  'url': 'https://trevdev.ca/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Mastodon'
+      'url': 'https://fosstodon.org/@trevdev'
+    - 'name': ' crafters'
+      'url': 'https://craftering.systemcrafters.net'

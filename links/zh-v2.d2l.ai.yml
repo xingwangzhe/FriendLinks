@@ -1,0 +1,14 @@
+'site':
+  'name': 'zh-v2.d2l.ai'
+  'url': 'https://zh-v2.d2l.ai/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '阿斯顿·张'
+      'url': 'https://astonzhang.github.io/'
+    - 'name': '扎卡里 C. 立顿'
+      'url': 'http://zacklipton.com/'
+    - 'name': '亚历山大 J. 斯莫拉'
+      'url': 'https://alex.smola.org/'
+    - 'name': '亚马逊 SageMakerStudio Lab'
+      'url': 'https://studiolab.sagemaker.aws/import/github/d2l-ai/d2l-pytorch-sagemaker-studio-lab/blob/main/GettingStarted-D2L.ipynb'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.johntime.top'
+  'url': 'https://blog.johntime.top/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Pixiv - 晚晚喵'
+      'url': 'https://www.pixiv.net/users/108801776'
+    - 'name': 'Misaka Network 科学实验日志与技术观测站 Blog Tech'
+      'url': 'https://blog.misaka-net.top'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.fueis.com'
+  'url': 'https://blog.fueis.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Shuibaco'
+      'url': 'https://blog.shuiba.co'
+    - 'name': 'FarBox'
+      'url': 'https://farbox.org'

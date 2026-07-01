@@ -1,0 +1,14 @@
+'site':
+  'name': 'blog.cloudti.de'
+  'url': 'https://blog.cloudti.de/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': '艾萌 imoe.moe 艾萌的小世界'
+      'url': 'https://imoe.moe'
+    - 'name': '極限風味 ex-tasty.com 活得越久的人就越邪惡，越極限'
+      'url': 'https://ex-tasty.com'
+    - 'name': 'KUN''s Blog soft.moe KUN IS THE CUTEST!'
+      'url': 'https://soft.moe'
+    - 'name': 'Astro v6.2.2'
+      'url': 'https://astro.build/'

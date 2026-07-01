@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.kilosecond.com'
+  'url': 'http://blog.kilosecond.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'contact support'
+      'url': 'https://panel.dreamhost.com/index.cgi?tree=support.dashboard'
+    - 'name': 'DreamHost'
+      'url': 'https://www.dreamhost.com/'

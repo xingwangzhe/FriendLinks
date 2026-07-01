@@ -1,0 +1,14 @@
+'site':
+  'name': 'micrometer.io'
+  'url': 'https://micrometer.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Helidon'
+      'url': 'https://helidon.io/docs/v2/se/metrics/02_micrometer'
+    - 'name': 'Micronaut'
+      'url': 'https://micronaut-projects.github.io/micronaut-micrometer/latest/guide/'
+    - 'name': 'Quarkus'
+      'url': 'https://quarkus.io/guides/telemetry-micrometer'
+    - 'name': 'Terms of Use'
+      'url': 'https://www.broadcom.com/company/legal/terms-of-use'

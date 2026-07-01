@@ -1,0 +1,10 @@
+'site':
+  'name': 'gatsbyjs.org'
+  'url': 'https://www.gatsbyjs.org/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Learn More'
+      'url': 'https://www.gatsbyjs.com/blog/gatsby-adapters-realize-the-full-potential-of-gatsby-on-your-platform/'
+    - 'name': 'Live Streams'
+      'url': 'https://www.twitch.tv/gatsbyjs'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'wobaka.com'
+  'url': 'https://wobaka.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Book demo'
+      'url': 'https://formulaer.com/f/024e4755-1811-461a-9a56-225e36c1ff84'
+    - 'name': 'Find overlap in time zones'
+      'url': 'https://timezoneoverlap.com/?ref=wobaka'

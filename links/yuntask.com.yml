@@ -1,0 +1,10 @@
+'site':
+  'name': 'yuntask.com'
+  'url': 'http://www.yuntask.com/'
+  'description': '友情链接'
+  'links': '/friends/'
+  'friends':
+    - 'name': '立即使用'
+      'url': 'https://www.microsoft.com/zh-cn/edge'
+    - 'name': '立即使用'
+      'url': 'https://www.google.cn/chrome/'

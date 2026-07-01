@@ -1,0 +1,12 @@
+'site':
+  'name': 'keras.io'
+  'url': 'https://keras.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'KAGGLE DETAILS'
+      'url': 'https://www.kaggle.com/models/google/gemma-2'
+    - 'name': 'DISCORD'
+      'url': 'https://discord.com/invite/google-dev-community'
+    - 'name': 'GOOGLE AI FORUM'
+      'url': 'https://discuss.ai.google.dev/c/keras/22'

@@ -1,0 +1,16 @@
+'site':
+  'name': 'ncd.moe'
+  'url': 'https://ncd.moe/'
+  'description': '友情链接'
+  'links': '/link/'
+  'friends':
+    - 'name': 'CandyMade'
+      'url': 'https://candymade.net'
+    - 'name': '验收测试'
+      'url': 'https://candinya.com/posts/understand-fluke-network-cable-report/'
+    - 'name': 'Misskey 实例'
+      'url': 'https://nya.one'
+    - 'name': '即时通讯'
+      'url': 'https://matrix.to/#/@candinya:nya.one'
+    - 'name': 'VRoid Studio'
+      'url': 'https://vroid.com/studio'

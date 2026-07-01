@@ -1,0 +1,12 @@
+'site':
+  'name': 'castro.fm'
+  'url': 'https://castro.fm/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Merchandise'
+      'url': 'https://castropodcasts.myspreadshop.com/'
+    - 'name': 'Mastodon'
+      'url': 'https://mastodon.social/@castropodcasts'
+    - 'name': 'Instagram'
+      'url': 'https://www.instagram.com/castropodcasts/'

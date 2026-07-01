@@ -1,0 +1,16 @@
+'site':
+  'name': 'ubuntu.com'
+  'url': 'https://www.ubuntu.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'edge cluster'
+      'url': 'https://canonical.com/microk8s'
+    - 'name': 'Universal model-driven operators for classic'
+      'url': 'https://juju.is/'
+    - 'name': 'Docs'
+      'url': 'https://canonical-robotics.readthedocs-hosted.com/en/latest/'
+    - 'name': 'Log in to Landscape'
+      'url': 'https://landscape.canonical.com/'
+    - 'name': 'Careers'
+      'url': 'https://www.canonical.com/careers'

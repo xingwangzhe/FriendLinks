@@ -1,0 +1,14 @@
+'site':
+  'name': 'blog.fontawesome.com'
+  'url': 'https://blog.fontawesome.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Web Awesome'
+      'url': 'https://webawesome.com/'
+    - 'name': 'Build Awesome'
+      'url': 'https://build.awesome.me/'
+    - 'name': 'Podcast Awesome'
+      'url': 'https://www.podcastawesome.com/'
+    - 'name': 'Build Awesome'
+      'url': 'https://www.11ty.dev/'

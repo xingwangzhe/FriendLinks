@@ -1,0 +1,12 @@
+'site':
+  'name': 'vale.rocks'
+  'url': 'https://vale.rocks/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Bluesky'
+      'url': 'https://bsky.app/profile/did:plc:7qg6mz2xtzozxkgbcvf4pdnu'
+    - 'name': 'Tangled'
+      'url': 'https://tangled.org/did:plc:7qg6mz2xtzozxkgbcvf4pdnu rel='
+    - 'name': 'CodePen'
+      'url': 'https://codepen.io/OuterVale'

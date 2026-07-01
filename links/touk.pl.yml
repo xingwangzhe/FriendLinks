@@ -1,0 +1,10 @@
+'site':
+  'name': 'touk.pl'
+  'url': 'https://touk.pl/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Careers@Nu'
+      'url': 'https://nussknacker.io/careers'
+    - 'name': 'learn more'
+      'url': 'https://www.snowflake.com/blog/snowflake-expands-engineering-team-in-poland/'

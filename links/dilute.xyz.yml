@@ -1,0 +1,10 @@
+'site':
+  'name': 'dilute.xyz'
+  'url': 'https://dilute.xyz/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Codeforces'
+      'url': 'https://codeforces.com/profile/Dilute'
+    - 'name': 'Luogu'
+      'url': 'https://www.luogu.com.cn/user/36362'

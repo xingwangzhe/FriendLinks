@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.gobyte.cn'
+  'url': 'https://blog.gobyte.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'MrBird-知名Java开源作者'
+      'url': 'https://mrbird.cc'
+    - 'name': '淼淼之森的博客'
+      'url': 'https://www.mmzsblog.cn/'

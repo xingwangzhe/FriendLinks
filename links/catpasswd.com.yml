@@ -1,0 +1,14 @@
+'site':
+  'name': 'catpasswd.com'
+  'url': 'https://www.catpasswd.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'hashcat'
+      'url': 'https://hashcat.net/hashcat/'
+    - 'name': 'John the Ripper'
+      'url': 'https://www.openwall.com/john/'
+    - 'name': 'cRARk'
+      'url': 'http://www.crark.net/'
+    - 'name': '7-Zip'
+      'url': 'https://www.7-zip.org/'

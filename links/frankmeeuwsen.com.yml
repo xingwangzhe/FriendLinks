@@ -1,0 +1,10 @@
+'site':
+  'name': 'frankmeeuwsen.com'
+  'url': 'https://frankmeeuwsen.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Mastodon'
+      'url': 'https://indieweb.social/@frank'
+    - 'name': 'Coachify'
+      'url': 'https://wpcoachify.com'

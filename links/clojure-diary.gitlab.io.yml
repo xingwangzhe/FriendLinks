@@ -1,0 +1,10 @@
+'site':
+  'name': 'clojure-diary.gitlab.io'
+  'url': 'https://clojure-diary.gitlab.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Jekyll'
+      'url': 'https://jekyllrb.com'
+    - 'name': 'Minimal Mistakes'
+      'url': 'https://mademistakes.com/work/minimal-mistakes-jekyll-theme/'

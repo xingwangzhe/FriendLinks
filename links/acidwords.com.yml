@@ -1,0 +1,14 @@
+'site':
+  'name': 'acidwords.com'
+  'url': 'https://acidwords.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'this workaround'
+      'url': 'https://www.gnu.org/software/emacs/manual/html_node/efaq/Meta-key-does-not-work-in-xterm.html'
+    - 'name': 'podman'
+      'url': 'https://podman.io/'
+    - 'name': 'Scheme'
+      'url': 'https://en.wikipedia.org/wiki/Scheme_(programming_language)'
+    - 'name': 'Cryogen'
+      'url': 'http://cryogenweb.org/'

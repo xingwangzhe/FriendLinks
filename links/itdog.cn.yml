@@ -1,0 +1,10 @@
+'site':
+  'name': 'itdog.cn'
+  'url': 'https://www.itdog.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '全球主机论坛'
+      'url': 'https://hostloc.com'
+    - 'name': 'NodeSeek'
+      'url': 'https://www.nodeseek.com/'

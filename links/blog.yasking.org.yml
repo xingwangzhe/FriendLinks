@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.yasking.org'
+  'url': 'https://blog.yasking.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Pelican'
+      'url': 'http://getpelican.com/'
+    - 'name': 'Python'
+      'url': 'http://python.org'

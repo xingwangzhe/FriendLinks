@@ -1,0 +1,10 @@
+'site':
+  'name': 'danluu.com'
+  'url': 'https://danluu.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Patreon'
+      'url': 'https://www.patreon.com/danluu'
+    - 'name': 'Mastodon'
+      'url': 'https://mastodon.social/@danluu'

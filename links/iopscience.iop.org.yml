@@ -1,0 +1,12 @@
+'site':
+  'name': 'iopscience.iop.org'
+  'url': 'https://iopscience.iop.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Contact Us'
+      'url': 'https://ioppublishing.org/about-us/contact-us/'
+    - 'name': 'IOP Publishing Bluesky page'
+      'url': 'https://bsky.app/profile/ioppublishing.bsky.social'
+    - 'name': 'IOP Publishing Threads page'
+      'url': 'https://www.threads.com/@iop.publishing'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.cool2645.com'
+  'url': 'https://blog.cool2645.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Gatsby'
+      'url': 'https://www.gatsbyjs.org'
+    - 'name': 'Strapi'
+      'url': 'https://strapi.io/'

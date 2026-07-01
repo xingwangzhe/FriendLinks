@@ -1,0 +1,16 @@
+'site':
+  'name': 'matuzo.at'
+  'url': 'https://www.matuzo.at/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'social media'
+      'url': 'https://matuzo.social'
+    - 'name': 'About the book'
+      'url': 'https://accessibility-cookbook.com/'
+    - 'name': '02.07.26 Accessibility Meetup Munich #09'
+      'url': 'https://www.meetup.com/accessibility-meetup-munich/events/315115263/?eventOrigin=home_next_event_you_are_attending'
+    - 'name': '12.10.26 Accessible Frontend Patterns'
+      'url': 'https://smashingconf.com/online-workshops/workshops/accessible-frontend-patterns-manuel-matuzovic/'
+    - 'name': 'mastodon'
+      'url': 'https://front-end.social/@matuzo'

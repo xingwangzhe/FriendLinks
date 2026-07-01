@@ -1,0 +1,12 @@
+'site':
+  'name': 'blog.jackworks.dev'
+  'url': 'https://blog.jackworks.dev/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'matrix-js-sdk'
+      'url': 'https://www.npmjs.com/package/matrix-js-sdk'
+    - 'name': 'Typescript 3.7'
+      'url': 'https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#--declaration-and---allowjs'
+    - 'name': 'efml'
+      'url': 'https://ef.js.org/'

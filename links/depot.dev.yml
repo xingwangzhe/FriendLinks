@@ -1,0 +1,16 @@
+'site':
+  'name': 'depot.dev'
+  'url': 'https://depot.dev/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Talk to a human'
+      'url': 'https://cal.com/team/depot/engineer-talk'
+    - 'name': 'API reference'
+      'url': 'https://buf.build/depot/api'
+    - 'name': 'Backed byY Combinator'
+      'url': 'https://www.ycombinator.com/companies/depot'
+    - 'name': 'depot.ai'
+      'url': 'https://depot.ai'
+    - 'name': 'Discord 137 online'
+      'url': 'https://discord.gg/MMPqYSgDCg'

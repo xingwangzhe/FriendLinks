@@ -1,0 +1,14 @@
+'site':
+  'name': 'saki.net7.blog'
+  'url': 'https://saki.net7.blog/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Friends plugin'
+      'url': 'https://wordpress.org/plugins/friends/'
+    - 'name': 'Learn more'
+      'url': 'https://wpfriends.at/follow-me'
+    - 'name': 'Find out more about Webmentions.'
+      'url': 'https://indieweb.org/webmention'
+    - 'name': '花島咲'
+      'url': 'https://mstdn.party/@hanajima_saki'

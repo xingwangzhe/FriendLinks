@@ -1,0 +1,14 @@
+'site':
+  'name': 'blog.langchain.dev'
+  'url': 'https://blog.langchain.dev/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'LangChain Academy'
+      'url': 'https://academy.langchain.com/'
+    - 'name': 'Meetups'
+      'url': 'https://luma.com/langchain?k=c'
+    - 'name': 'Try LangSmith'
+      'url': 'https://smith.langchain.com/'
+    - 'name': 'Trust Center'
+      'url': 'https://trust.langchain.com/'

@@ -1,0 +1,12 @@
+'site':
+  'name': 'longming.com'
+  'url': 'https://www.longming.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '企业出海'
+      'url': 'https://www.longming.hk'
+    - 'name': 'ICANN认证域名注册商'
+      'url': 'https://www.icann.org/en/accredited-registrars?sort-direction=asc&sort-param=name&page=1&iana-number=2805&view-all=true'
+    - 'name': 'VERISIGN认证注册商'
+      'url': 'https://www.verisign.com/zh_CN/domain-names/domain-registrar/index.xhtml?loc=zh_CN'

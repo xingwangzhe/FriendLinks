@@ -1,0 +1,12 @@
+'site':
+  'name': 'blog.micblo.com'
+  'url': 'https://blog.micblo.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'axml2xml'
+      'url': 'https://www.npmjs.com/package/axml2xml'
+    - 'name': '这个文档'
+      'url': 'https://source.android.google.cn/devices/tech/debug/native-crash?hl=zh-cn#xom'
+    - 'name': 'ZGQ''s blog'
+      'url': 'https://blog.izgq.net/'

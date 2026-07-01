@@ -1,0 +1,12 @@
+'site':
+  'name': 'microformats.io'
+  'url': 'https://microformats.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Microformats community wiki'
+      'url': 'https://microformats.org/wiki'
+    - 'name': 'join the chat'
+      'url': 'https://chat.indieweb.org'
+    - 'name': '#indieweb community wiki'
+      'url': 'https://indieweb.org'

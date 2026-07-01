@@ -1,0 +1,10 @@
+'site':
+  'name': 'bokebo.com'
+  'url': 'https://bokebo.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '博客：PIAN.KE'
+      'url': 'https://pian.ke'
+    - 'name': 'BOKEBO'
+      'url': 'https://melaton.in/'

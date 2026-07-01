@@ -1,0 +1,12 @@
+'site':
+  'name': 'cassie.codes'
+  'url': 'https://cassie.codes/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'playing'
+      'url': 'https://codepen.io/cassie-codes'
+    - 'name': 'CSS tricks'
+      'url': 'https://css-tricks.com/'
+    - 'name': 'Codrops'
+      'url': 'https://tympanus.net/codrops'

@@ -1,0 +1,16 @@
+'site':
+  'name': 'zenhabits.net'
+  'url': 'http://zenhabits.net/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Leo Babauta'
+      'url': 'http://leobabauta.com'
+    - 'name': 'Tynan'
+      'url': 'http://tynan.com/'
+    - 'name': 'Instagram'
+      'url': 'https://instagram.com/officialzenhabits'
+    - 'name': 'Threads'
+      'url': 'https://www.threads.net/@zenhabitsleo'
+    - 'name': 'BlueSky'
+      'url': 'https://bsky.app/profile/zenhabits.bsky.social'

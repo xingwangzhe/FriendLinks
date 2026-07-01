@@ -1,0 +1,10 @@
+'site':
+  'name': 'spring.academy'
+  'url': 'https://spring.academy/'
+  'description': '友情链接'
+  'links': '/friend/link'
+  'friends':
+    - 'name': 'Community|'
+      'url': 'https://spring.io/community'
+    - 'name': 'Terms|'
+      'url': 'https://www.broadcom.com/company/legal/terms-of-use'

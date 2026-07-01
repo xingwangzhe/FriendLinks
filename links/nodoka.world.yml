@@ -1,0 +1,10 @@
+'site':
+  'name': 'nodoka.world'
+  'url': 'https://nodoka.world/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Sky'
+      'url': 'https://skyhigh.moe'
+    - 'name': '小赵的博客'
+      'url': 'https://blog.xiaozhao233.com/'

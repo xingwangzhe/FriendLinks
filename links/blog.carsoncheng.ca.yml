@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.carsoncheng.ca'
+  'url': 'http://blog.carsoncheng.ca/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'rebound effect'
+      'url': 'https://en.wikipedia.org/wiki/Rebound_effect_(conservation)'
+    - 'name': 'How to use Homebrew on a Multi-user MacOS Sierra Setup'
+      'url': 'https://stackoverflow.com/questions/41840479/how-to-use-homebrew-on-a-multi-user-macos-sierra-setup'

@@ -1,0 +1,12 @@
+'site':
+  'name': 'xiezuocat.com'
+  'url': 'https://xiezuocat.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Chrome'
+      'url': 'https://www.google.cn/chrome/'
+    - 'name': 'Firefox'
+      'url': 'https://www.mozilla.org/firefox/new'
+    - 'name': 'Edge'
+      'url': 'https://www.microsoft.com/edge'

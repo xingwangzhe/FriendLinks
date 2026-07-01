@@ -1,0 +1,12 @@
+'site':
+  'name': 'clojurecljub.wordpress.com'
+  'url': 'https://clojurecljub.wordpress.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Why Functional Programming Matters'
+      'url': 'http://www.math.chalmers.se/~rjmh/Papers/whyfp.html'
+    - 'name': 'Clojure'
+      'url': 'http://clojure.org'
+    - 'name': 'Cookie Policy'
+      'url': 'https://automattic.com/cookies/'

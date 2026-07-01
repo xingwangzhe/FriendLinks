@@ -1,0 +1,12 @@
+'site':
+  'name': 'spool-five.com'
+  'url': 'https://spool-five.com/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'Gemini Project'
+      'url': 'https://gemini.circumlunar.space/'
+    - 'name': 'eoin.site'
+      'url': 'https://eoin.site'
+    - 'name': '512KB Club Green Team'
+      'url': 'https://512kb.club'

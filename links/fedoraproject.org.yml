@@ -1,0 +1,18 @@
+'site':
+  'name': 'fedoraproject.org'
+  'url': 'https://fedoraproject.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'BugzillaFedora Linux bugs are reported to Red Hat''s bugzilla.'
+      'url': 'https://bugzilla.redhat.com/'
+    - 'name': 'CoprThis is an easy-to-use build system for the Fedora community.'
+      'url': 'https://copr.fedorainfracloud.org/'
+    - 'name': 'PagureThis is an open-source git forge that the Fedora Project uses.'
+      'url': 'https://pagure.io/browse/projects/'
+    - 'name': 'Fedora MagazineFedora new release and beta release announcements show up here fi'
+      'url': 'https://fedoramagazine.org/'
+    - 'name': 'Fedora MastodonFollow us on Mastodon! This is a great place to stay up to date o'
+      'url': 'https://fosstodon.org/@fedora'
+    - 'name': 'A Registered Digital Public Good'
+      'url': 'https://digitalpublicgoods.net/'

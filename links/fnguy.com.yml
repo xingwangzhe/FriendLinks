@@ -1,0 +1,14 @@
+'site':
+  'name': 'fnguy.com'
+  'url': 'https://fnguy.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'seqfind.com'
+      'url': 'https://seqfind.com'
+    - 'name': 'phronmophobic'
+      'url': 'https://blog.phronemophobic.com/'
+    - 'name': 'The 100 Most Used Clojure Expressions'
+      'url': 'https://ericnormand.me/article/100-most-used-clojure-expressions'
+    - 'name': 'index-io'
+      'url': 'https://pathom3.wsscode.com/docs/indexes/#index-io'

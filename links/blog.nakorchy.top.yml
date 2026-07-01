@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.nakorchy.top'
+  'url': 'https://blog.nakorchy.top/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'blog.mysqil.com'
+      'url': 'https://blog.mysqil.com/'
+    - 'name': 'blog.sakura.ink'
+      'url': 'https://blog.sakura.ink'

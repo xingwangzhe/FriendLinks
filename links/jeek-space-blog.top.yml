@@ -1,0 +1,10 @@
+'site':
+  'name': 'jeek-space-blog.top'
+  'url': 'https://jeek-space-blog.top/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'nginx.org'
+      'url': 'http://nginx.org/'
+    - 'name': 'nginx.com'
+      'url': 'http://nginx.com/'

@@ -1,0 +1,14 @@
+'site':
+  'name': 'andersnoren.se'
+  'url': 'http://www.andersnoren.se/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Automattic'
+      'url': 'https://automattic.com'
+    - 'name': 'Härjedalen'
+      'url': 'https://en.wikipedia.org/wiki/Härjedalen'
+    - 'name': 'Instagram'
+      'url': 'https://instagram.com/andersnoren1'
+    - 'name': 'Bluesky'
+      'url': 'https://bsky.app/profile/andersnoren.bsky.social'

@@ -1,0 +1,12 @@
+'site':
+  'name': '52blog.cn'
+  'url': 'https://52blog.cn/'
+  'description': '友情链接'
+  'links': '/link'
+  'friends':
+    - 'name': '大佬论坛dalao.net'
+      'url': 'https://www.dalao.net/'
+    - 'name': '摸鱼论坛mylt.net'
+      'url': 'https://mylt.net/'
+    - 'name': 'Rhex 1.0.10'
+      'url': 'https://rhex.im/'

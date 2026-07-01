@@ -1,0 +1,10 @@
+'site':
+  'name': 'firefox.com'
+  'url': 'https://www.firefox.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Instagram'
+      'url': 'https://www.instagram.com/firefox/'
+    - 'name': 'TikTok'
+      'url': 'https://www.tiktok.com/@firefox'

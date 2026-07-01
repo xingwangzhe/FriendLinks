@@ -1,0 +1,14 @@
+'site':
+  'name': 'clojurefun.wordpress.com'
+  'url': 'https://clojurefun.wordpress.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Mike Anderson'
+      'url': 'http://www.slideshare.net/mikeranderson'
+    - 'name': 'UPSingapore'
+      'url': 'http://www.upsingapore.com/'
+    - 'name': '“7 Day Roguelike Challenge”'
+      'url': 'http://7drl.org/'
+    - 'name': 'Cookie Policy'
+      'url': 'https://automattic.com/cookies/'

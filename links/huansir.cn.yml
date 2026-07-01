@@ -1,0 +1,10 @@
+'site':
+  'name': 'huansir.cn'
+  'url': 'https://huansir.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'memset0'
+      'url': 'https://mem.ac/ '
+    - 'name': 'Material for MkDocs'
+      'url': 'https://squidfunk.github.io/mkdocs-material/'

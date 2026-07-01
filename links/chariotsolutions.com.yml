@@ -1,0 +1,18 @@
+'site':
+  'name': 'chariotsolutions.com'
+  'url': 'https://chariotsolutions.com/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'JSON spec'
+      'url': 'https://www.json.org/json-en.html'
+    - 'name': 'Apache Parquet'
+      'url': 'https://parquet.apache.org/'
+    - 'name': 'parquet'
+      'url': 'https://pypi.org/project/parquet/'
+    - 'name': 'Apache ORC'
+      'url': 'https://orc.apache.org/'
+    - 'name': 'Apache Avro'
+      'url': 'https://avro.apache.org/'
+    - 'name': '135 Greenwood Avenue, Suite 202 Wyncote, PA 19095'
+      'url': 'https://maps.app.goo.gl/ZhQMXHJfsJx7a58x9'

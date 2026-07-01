@@ -1,0 +1,12 @@
+'site':
+  'name': 'devblogs.microsoft.com'
+  'url': 'https://devblogs.microsoft.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Microsoft Edge Dev'
+      'url': 'https://blogs.windows.com/msedgedev/'
+    - 'name': 'Your Privacy Choices Opt-Out Icon Your Privacy Choi'
+      'url': 'https://aka.ms/yourcaliforniaprivacychoices'
+    - 'name': 'Developer Community'
+      'url': 'https://developercommunity.visualstudio.com/spaces/8/index.html'

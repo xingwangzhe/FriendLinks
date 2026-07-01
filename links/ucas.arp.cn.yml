@@ -1,0 +1,10 @@
+'site':
+  'name': 'ucas.arp.cn'
+  'url': 'https://ucas.arp.cn/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '提交意见建议'
+      'url': 'https://passport.escience.cn/oauth2/authorize?response_type=code&redirect_uri=http://www.cnic.cn/api/escienceAuth/escienceAuthLogin&client_id=19842&theme=simple'
+    - 'name': 'www.cnic.cn'
+      'url': 'http://www.cnic.cn'

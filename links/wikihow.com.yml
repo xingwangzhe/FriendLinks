@@ -1,0 +1,14 @@
+'site':
+  'name': 'wikihow.com'
+  'url': 'https://www.wikihow.com/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Italian'
+      'url': 'https://www.wikihow.it/Farsi-degli-Amici'
+    - 'name': 'Czech'
+      'url': 'https://www.wikihow.cz/Jak-si-naj%C3%ADt-p%C5%99%C3%A1tele'
+    - 'name': 'Vietnamese'
+      'url': 'https://www.wikihow.vn/K%E1%BA%BFt-B%E1%BA%A1n'
+    - 'name': 'Japanese'
+      'url': 'https://www.wikihow.jp/%E5%8F%8B%E9%81%94%E3%82%92%E4%BD%9C%E3%82%8B'

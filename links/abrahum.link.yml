@@ -1,0 +1,10 @@
+'site':
+  'name': 'abrahum.link'
+  'url': 'https://abrahum.link/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'How to write fast Rust code'
+      'url': 'https://renato.athaydes.com/posts/how-to-write-fast-rust-code.html'
+    - 'name': 'Zola'
+      'url': 'https://getzola.org/'

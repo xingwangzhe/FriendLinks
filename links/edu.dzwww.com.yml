@@ -1,0 +1,16 @@
+'site':
+  'name': 'edu.dzwww.com'
+  'url': 'http://edu.dzwww.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '人民网教育'
+      'url': 'http://edu.people.com.cn/'
+    - 'name': '新华网教育'
+      'url': 'http://education.news.cn/'
+    - 'name': '光明网教育'
+      'url': 'https://edu.gmw.cn/'
+    - 'name': '中国教育新闻网'
+      'url': 'http://www.jyb.cn/'
+    - 'name': '中国青年网教育'
+      'url': 'http://edu.youth.cn/?medium=01&city=164'

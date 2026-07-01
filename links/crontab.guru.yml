@@ -1,0 +1,10 @@
+'site':
+  'name': 'crontab.guru'
+  'url': 'https://crontab.guru/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Cronitor'
+      'url': 'https://cronitor.io?utm_source=crontabguru&utm_campaign=cronitor_top'
+    - 'name': 'systemd guru'
+      'url': 'https://systemd.guru?utm_source=crontabguru'

@@ -1,0 +1,12 @@
+'site':
+  'name': 'kelejun.cn'
+  'url': 'https://www.kelejun.cn/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'notion'
+      'url': 'https://developers.notion.com'
+    - 'name': 'nextdotjs'
+      'url': 'https://nextjs.org'
+    - 'name': 'windicss'
+      'url': 'https://windicss.org'

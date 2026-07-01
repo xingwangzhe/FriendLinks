@@ -1,0 +1,16 @@
+'site':
+  'name': 'scp-wiki-cn.wikidot.com'
+  'url': 'https://scp-wiki-cn.wikidot.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Фонд SCP (-RU)'
+      'url': 'http://scpfoundation.net/'
+    - 'name': 'SCP 재단 (-KO)'
+      'url': 'http://ko.scp-wiki.net/'
+    - 'name': 'La Fundación SCP (-ES)'
+      'url': 'http://scp-es.com/'
+    - 'name': 'ScpperDB'
+      'url': 'https://scpper.com/'
+    - 'name': 'SCPPER-CN'
+      'url': 'https://scpper.mer.run/'

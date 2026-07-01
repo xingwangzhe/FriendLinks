@@ -1,0 +1,12 @@
+'site':
+  'name': 'v8.dev'
+  'url': 'https://v8.dev/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'ECMAScript'
+      'url': 'https://tc39.es/ecma262/'
+    - 'name': 'WebAssembly'
+      'url': 'https://webassembly.github.io/spec/core/'
+    - 'name': 'V8’s BSD-style license'
+      'url': 'https://chromium.googlesource.com/v8/v8.git/+/main/LICENSE'

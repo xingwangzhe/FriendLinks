@@ -1,0 +1,10 @@
+'site':
+  'name': 'arstechnica.com'
+  'url': 'https://arstechnica.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'User Agreement'
+      'url': 'https://www.condenast.com/user-agreement/'
+    - 'name': 'Ad Choices'
+      'url': 'https://www.aboutads.info/'

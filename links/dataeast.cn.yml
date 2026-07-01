@@ -1,0 +1,14 @@
+'site':
+  'name': 'dataeast.cn'
+  'url': 'https://www.dataeast.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '免费网络安全靶场'
+      'url': 'https://www.exp-9.com'
+    - 'name': 'SQLi Labs'
+      'url': 'https://sqli.exp-9.com/'
+    - 'name': 'bWAPP - An Extremely Buggy Web App !'
+      'url': 'https://bwapp.exp-9.com/'
+    - 'name': 'Damn Vulnerable Web Application (DVWA)'
+      'url': 'https://dvwa.exp-9.com/'

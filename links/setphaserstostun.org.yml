@@ -1,0 +1,16 @@
+'site':
+  'name': 'setphaserstostun.org'
+  'url': 'https://setphaserstostun.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'GRUB'
+      'url': 'https://www.gnu.org/software/grub/'
+    - 'name': 'PEM'
+      'url': 'https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail'
+    - 'name': 'Gentoo'
+      'url': 'https://www.gentoo.org'
+    - 'name': 'EDAC kernel documentation'
+      'url': 'https://www.kernel.org/doc/html/latest/driver-api/edac.html'
+    - 'name': 'Nikola'
+      'url': 'https://getnikola.com'

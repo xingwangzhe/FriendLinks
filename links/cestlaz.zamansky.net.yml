@@ -1,0 +1,10 @@
+'site':
+  'name': 'cestlaz.zamansky.net'
+  'url': 'https://cestlaz.zamansky.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Old Blog'
+      'url': 'https://cestlaz.github.io/cestlaz-old-hugo.github.io'
+    - 'name': 'Really Old Blog'
+      'url': 'https://cestlaz-nikola.github.io/'

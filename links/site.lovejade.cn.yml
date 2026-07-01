@@ -1,0 +1,10 @@
+'site':
+  'name': 'site.lovejade.cn'
+  'url': 'https://site.lovejade.cn/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'nginx.org'
+      'url': 'http://nginx.org/'
+    - 'name': 'nginx.com'
+      'url': 'http://nginx.com/'

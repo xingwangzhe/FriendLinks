@@ -1,0 +1,10 @@
+'site':
+  'name': 'flathub.org'
+  'url': 'https://flathub.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Chat'
+      'url': 'https://matrix.to/#/#flathub:matrix.org'
+    - 'name': 'Mastodon'
+      'url': 'https://floss.social/@flathub'

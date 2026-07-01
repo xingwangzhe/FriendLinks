@@ -1,0 +1,12 @@
+'site':
+  'name': 'hashnode.com'
+  'url': 'https://hashnode.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Bug0 - The AI-native e2e QA regression testing'
+      'url': 'https://bug0.com?utm_source=hashnode&utm_medium=sidebar&utm_campaign=cross_product'
+    - 'name': 'Bug0 Browsers - Cloud Chromium on demand, per-minute, live preview'
+      'url': 'https://browsers.bug0.com?utm_source=hashnode&utm_medium=sidebar&utm_campaign=cross_product'
+    - 'name': 'Passmark - The open-source AI framework for regression testing'
+      'url': 'https://go.bug0.com/passmark'

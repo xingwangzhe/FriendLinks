@@ -1,0 +1,16 @@
+'site':
+  'name': 'blog.maio.cz'
+  'url': 'http://blog.maio.cz/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Light Table'
+      'url': 'http://www.lighttable.com'
+    - 'name': 'String Calculator'
+      'url': 'http://osherove.com/tdd-kata-1/'
+    - 'name': 'Coderetreat'
+      'url': 'http://coderetreat.org'
+    - 'name': 'Czech Republic'
+      'url': 'http://coderetreat.cz'
+    - 'name': 'Netsafe'
+      'url': 'http://www.netsafe.cz'

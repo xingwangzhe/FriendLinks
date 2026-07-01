@@ -1,0 +1,12 @@
+'site':
+  'name': 'zapier.com'
+  'url': 'https://zapier.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Open Claude'
+      'url': 'https://claude.ai/new'
+    - 'name': 'Turn on Developer Mode'
+      'url': 'https://chatgpt.com/#settings/Connectors/Advanced'
+    - 'name': 'Install plugin'
+      'url': 'https://cursor.com/marketplace/zapier'

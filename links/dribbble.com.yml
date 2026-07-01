@@ -1,0 +1,10 @@
+'site':
+  'name': 'dribbble.com'
+  'url': 'https://dribbble.com/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Instagram'
+      'url': 'https://instagram.com/dribbble'
+    - 'name': 'Threads'
+      'url': 'https://threads.com/dribbble'

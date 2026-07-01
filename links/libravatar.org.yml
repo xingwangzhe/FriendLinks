@@ -1,0 +1,14 @@
+'site':
+  'name': 'libravatar.org'
+  'url': 'https://www.libravatar.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Free and Open Source software'
+      'url': 'https://www.gnu.org/licenses/agpl.html'
+    - 'name': 'Mastodon'
+      'url': 'https://photog.social/@libravatar'
+    - 'name': 'Identica'
+      'url': 'https://identi.ca/libravatar'
+    - 'name': 'Sur.ly'
+      'url': 'https://sur.ly'

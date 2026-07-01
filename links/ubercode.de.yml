@@ -1,0 +1,16 @@
+'site':
+  'name': 'ubercode.de'
+  'url': 'http://ubercode.de/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Dahlke Tech'
+      'url': 'https://dahlke.tech'
+    - 'name': 'polypoly'
+      'url': 'https://polypoly.coop'
+    - 'name': 'eyeo'
+      'url': 'https://eyeo.com'
+    - 'name': 'Adblock Plus'
+      'url': 'https://adblockplus.org'
+    - 'name': 'follow me on Mastodon'
+      'url': 'https://mstdn.social/@fhd'

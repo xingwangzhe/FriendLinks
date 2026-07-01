@@ -1,0 +1,14 @@
+'site':
+  'name': 'blog.kimiblock.top'
+  'url': 'https://blog.kimiblock.top/'
+  'description': '友情链接'
+  'links': '/link'
+  'friends':
+    - 'name': '玖只的尾巴 有毛绒绒的奇妙领域'
+      'url': 'https://blog.yurzi.net'
+    - 'name': '/var/log/gblab 此处会不定时产生包含大量废话的日志文件'
+      'url': 'https://lab.gb0.dev'
+    - 'name': 'ShadowRZ Where something happens.'
+      'url': 'https://shadowrz.github.io/blog/'
+    - 'name': 'Matrix'
+      'url': 'https://matrix.to/#/@kimiblock:kimiblock.top'

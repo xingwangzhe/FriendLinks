@@ -1,0 +1,14 @@
+'site':
+  'name': 'gnet.host'
+  'url': 'https://gnet.host/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'epoll'
+      'url': 'https://man7.org/linux/man-pages/man7/epoll.7.html'
+    - 'name': 'kqueue'
+      'url': 'https://man.freebsd.org/cgi/man.cgi?kqueue'
+    - 'name': 'TechEmpower Benchmark Round 22'
+      'url': 'https://www.techempower.com/benchmarks/#hw=ph&test=plaintext&section=data-r22'
+    - 'name': 'Chat'
+      'url': 'https://discord.gg/UyKD7NZcfH'

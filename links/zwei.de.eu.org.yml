@@ -1,0 +1,10 @@
+'site':
+  'name': 'zwei.de.eu.org'
+  'url': 'https://zwei.de.eu.org/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': '友链卡片生成器'
+      'url': 'https://friendcard.is-an.org/'
+    - 'name': 'Jekyll'
+      'url': 'https://jekyllrb.com'

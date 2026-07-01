@@ -4,11 +4,9 @@
   'description': '友情链接'
   'links': '/'
   'friends':
-    - 'name': '为何只能本地访问?'
-      'url': 'http://phpnow.org/go.php?id=1005'
+    - 'name': 'PHPnow.org'
+      'url': 'http://phpnow.org'
     - 'name': 'Valid XHTML 1.0 Strict'
       'url': 'http://validator.w3.org/check?uri=referer'
     - 'name': 'Copyleft'
       'url': 'http://zh.wikipedia.org/wiki/Copyleft'
-    - 'name': 'PHPnow.org'
-      'url': 'http://phpnow.org'

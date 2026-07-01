@@ -1,0 +1,10 @@
+'site':
+  'name': 'android.myapp.com'
+  'url': 'https://android.myapp.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '关于腾讯'
+      'url': 'https://www.tencent.com/zh-cn/index.html'
+    - 'name': '腾讯招聘'
+      'url': 'https://careers.tencent.com/'

@@ -1,0 +1,12 @@
+'site':
+  'name': 'stackblitz.com'
+  'url': 'https://stackblitz.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Bolt.new'
+      'url': 'https://bolt.new'
+    - 'name': 'WebContainers'
+      'url': 'https://webcontainers.io'
+    - 'name': 'Community'
+      'url': 'https://discord.gg/stackblitz'

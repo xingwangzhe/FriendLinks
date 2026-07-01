@@ -1,0 +1,12 @@
+'site':
+  'name': 'inside.pixiv.blog'
+  'url': 'https://inside.pixiv.blog/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '運営会社'
+      'url': 'https://www.pixiv.co.jp/'
+    - 'name': 'お問い合わせ'
+      'url': 'https://www.pixiv.net/support.php?mode=inquiry&type=6&service=company'
+    - 'name': 'プライバシーポリシー'
+      'url': 'https://policies.pixiv.net/ja/privacy_policy.html'

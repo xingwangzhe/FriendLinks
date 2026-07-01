@@ -1,0 +1,10 @@
+'site':
+  'name': 'bulltown.joejenett.com'
+  'url': 'https://bulltown.joejenett.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '@neocities'
+      'url': 'https://neocities.org/site/bulltown'
+    - 'name': 'Jekyll'
+      'url': 'https://jekyllrb.com/'

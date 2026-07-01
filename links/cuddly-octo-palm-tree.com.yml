@@ -1,0 +1,16 @@
+'site':
+  'name': 'cuddly-octo-palm-tree.com'
+  'url': 'https://cuddly-octo-palm-tree.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Nix'
+      'url': 'https://nixos.org'
+    - 'name': 'direnv'
+      'url': 'https://direnv.net'
+    - 'name': 'search.nixos.org'
+      'url': 'https://search.nixos.org/packages'
+    - 'name': 'Carmen''s Blog'
+      'url': 'https://carmen.la/blog/archives'
+    - 'name': 'Cryogen'
+      'url': 'http://cryogenweb.org'

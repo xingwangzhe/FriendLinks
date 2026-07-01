@@ -1,0 +1,10 @@
+'site':
+  'name': 'babashka.org'
+  'url': 'https://babashka.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'babashka channel on Clojurians Slack'
+      'url': 'https://app.slack.com/client/T03RZGPFR/CLX41ASCS'
+    - 'name': 'OpenCollective'
+      'url': 'https://opencollective.com/babashka'

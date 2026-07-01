@@ -1,0 +1,16 @@
+'site':
+  'name': 'dawranliou.com'
+  'url': 'https://dawranliou.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Clojure'
+      'url': 'https://clojure.org/'
+    - 'name': 'Emacs'
+      'url': 'https://www.gnu.org/software/emacs/'
+    - 'name': 'Common Lisp'
+      'url': 'https://lisp-lang.org/'
+    - 'name': 'Babashka'
+      'url': 'https://babashka.org/'
+    - 'name': 'itch.io'
+      'url': 'https://dawranliou.itch.io/'

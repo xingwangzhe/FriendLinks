@@ -1,0 +1,10 @@
+'site':
+  'name': 'johnresig.com'
+  'url': 'https://johnresig.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Secrets of the JS Ninja'
+      'url': 'https://amzn.to/2oiS4em'
+    - 'name': 'Mastodon'
+      'url': 'https://mastodon.social/@jeresig'

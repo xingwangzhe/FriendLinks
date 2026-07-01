@@ -1,0 +1,14 @@
+'site':
+  'name': 'dnspod.com'
+  'url': 'https://www.dnspod.com/'
+  'description': '友情链接'
+  'links': '/link/'
+  'friends':
+    - 'name': '查看介绍'
+      'url': 'https://www.tencentcloud.com/products/ssl'
+    - 'name': 'Tencent RTC'
+      'url': 'https://trtc.io/'
+    - 'name': 'Tencent EdgeOne'
+      'url': 'https://edgeone.ai/'
+    - 'name': 'Tencent MPS'
+      'url': 'https://mps.live/'

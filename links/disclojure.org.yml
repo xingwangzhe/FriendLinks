@@ -1,0 +1,16 @@
+'site':
+  'name': 'disclojure.org'
+  'url': 'http://disclojure.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'West African #Clojure learner turns to #Arduino – touching blog post'
+      'url': 'http://emekamicro.blogspot.in/2012/05/west-africa-rising.html'
+    - 'name': 'Arduino'
+      'url': 'http://www.arduino.cc/'
+    - 'name': 'I''m watching @otfrom ''s talk "Practical Magic - Clojure for Data Scientists"'
+      'url': 'http://datasciencelondon.org/practical-magic-clojure-for-data-scientists-bruce-durling-cto-mastodon-c/'
+    - 'name': 'longer talk'
+      'url': 'http://skillsmatter.com/podcast/home/practical-magic-incanter-for-non-statisticians'
+    - 'name': 'New #clojure reducers library'
+      'url': 'http://clojure.com/blog/2012/05/08/reducers-a-library-and-model-for-collection-processing.html'

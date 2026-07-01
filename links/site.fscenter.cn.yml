@@ -1,0 +1,10 @@
+'site':
+  'name': 'site.fscenter.cn'
+  'url': 'https://site.fscenter.cn/'
+  'description': '友情链接'
+  'links': '/links.html'
+  'friends':
+    - 'name': '天空之上'
+      'url': 'https://imbahuo.cn'
+    - 'name': 'Pigeon'
+      'url': 'https://novcu.com/post/typecho-notes/'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.eson.org'
+  'url': 'https://blog.eson.org/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': '科学空间'
+      'url': 'https://kexue.fm/'
+    - 'name': 'NexT.Gemini'
+      'url': 'https://theme-next.org'

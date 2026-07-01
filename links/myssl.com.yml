@@ -1,0 +1,12 @@
+'site':
+  'name': 'myssl.com'
+  'url': 'https://myssl.com/'
+  'description': '友情链接'
+  'links': '/links.html'
+  'friends':
+    - 'name': 'SSL 配置生成器 hot 一键'
+      'url': 'https://mozilla.github.io/server-side-tls/ssl-config-generator/'
+    - 'name': 'GMSSL.cn 技术网站 new'
+      'url': 'https://gmssl.cn?from=myssl'
+    - 'name': 'TrustAsia'
+      'url': 'https://www.trustasia.com/'

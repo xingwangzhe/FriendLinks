@@ -1,0 +1,12 @@
+'site':
+  'name': 'tianzeds.com'
+  'url': 'https://tianzeds.com/'
+  'description': '友情链接'
+  'links': '/link'
+  'friends':
+    - 'name': 'Queen Mary'
+      'url': 'https://www.qmul.ac.uk/'
+    - 'name': 'Old Website'
+      'url': 'https://legacy.tianzeds.pages.dev/'
+    - 'name': 'ORCID'
+      'url': 'https://orcid.org/0009-0009-7532-5620'

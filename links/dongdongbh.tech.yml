@@ -1,0 +1,12 @@
+'site':
+  'name': 'dongdongbh.tech'
+  'url': 'https://dongdongbh.tech/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Notes'
+      'url': 'https://dongdongbh.github.io/note/'
+    - 'name': 'Jekyll'
+      'url': 'https://jekyllrb.com'
+    - 'name': 'Minimal Mistakes'
+      'url': 'https://mademistakes.com/work/minimal-mistakes-jekyll-theme/'

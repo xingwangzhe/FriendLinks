@@ -1,0 +1,12 @@
+'site':
+  'name': 'blog.zsy.life'
+  'url': 'https://blog.zsy.life/'
+  'description': '友情链接'
+  'links': '/links.html'
+  'friends':
+    - 'name': '纸盒博客我们，渺小到不可一世。'
+      'url': 'http://zhebk.cn/'
+    - 'name': '纯情专注于前端开发与程序拓展的资源分享'
+      'url': 'https://blog.xiaohack.org/'
+    - 'name': '清北博客一个高中生的个人博客'
+      'url': 'https://blog.tsinbei.com/'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'moraxyc.com'
+  'url': 'https://moraxyc.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Mastodon'
+      'url': 'https://mastodon.qaq.li/@moraxyc'
+    - 'name': 'Matrix'
+      'url': 'https://matrix.to/#/@moraxyc:qaq.li'

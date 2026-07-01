@@ -1,0 +1,16 @@
+'site':
+  'name': 'ossinsight.io'
+  'url': 'https://ossinsight.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'TiDB Cloud ↗'
+      'url': 'https://www.pingcap.com/tidb-cloud/'
+    - 'name': 'GH Archive ↗'
+      'url': 'https://www.gharchive.org/'
+    - 'name': 'Apache ECharts ↗'
+      'url': 'https://echarts.apache.org/'
+    - 'name': 'TypeScript ↗'
+      'url': 'https://www.typescriptlang.org/'
+    - 'name': 'Privacy'
+      'url': 'https://pingcap.com/privacy-policy/'

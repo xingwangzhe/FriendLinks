@@ -1,0 +1,10 @@
+'site':
+  'name': 'ssllabs.com'
+  'url': 'https://www.ssllabs.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Qualys, Inc'
+      'url': 'https://www.qualys.com'
+    - 'name': 'Bulletproof SSL and TLS'
+      'url': 'https://www.feistyduck.com/books/bulletproof-ssl-and-tls/'

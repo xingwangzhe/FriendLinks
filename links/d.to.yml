@@ -1,0 +1,10 @@
+'site':
+  'name': 'd.to'
+  'url': 'https://d.to/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Log in'
+      'url': 'https://app.dub.co/login'
+    - 'name': 'Affiliates'
+      'url': 'https://partners.dub.co/dub'

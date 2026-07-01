@@ -1,0 +1,10 @@
+'site':
+  'name': 'torsten.io'
+  'url': 'https://torsten.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Jekyll'
+      'url': 'http://jekyllrb.com/'
+    - 'name': 'Font Awesome'
+      'url': 'http://fontawesome.io/'

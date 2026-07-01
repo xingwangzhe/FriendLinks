@@ -1,0 +1,14 @@
+'site':
+  'name': 'kubernetes.io'
+  'url': 'https://kubernetes.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '15 years of experience of running production workloads at Google'
+      'url': 'https://queue.acm.org/detail.cfm?id=2898444'
+    - 'name': 'Japan (Yokohama, Jul 28–30)'
+      'url': 'https://events.linuxfoundation.org/kubecon-cloudnativecon-japan/'
+    - 'name': 'CNCF'
+      'url': 'https://cncf.io/'
+    - 'name': 'Trademark Usage page'
+      'url': 'https://www.linuxfoundation.org/trademark-usage'

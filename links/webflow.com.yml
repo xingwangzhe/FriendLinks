@@ -1,0 +1,12 @@
+'site':
+  'name': 'webflow.com'
+  'url': 'https://webflow.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'GSAP'
+      'url': 'https://gsap.com/pricing/'
+    - 'name': 'Instagram'
+      'url': 'https://www.instagram.com/webflow/'
+    - 'name': 'TikTok'
+      'url': 'https://www.tiktok.com/@webflow'

@@ -1,0 +1,12 @@
+'site':
+  'name': 'dev.to'
+  'url': 'https://dev.to/'
+  'description': '友情链接'
+  'links': '/link'
+  'friends':
+    - 'name': 'Personal website https://linkdaniel.org'
+      'url': 'https://linkdaniel.org'
+    - 'name': 'MLH'
+      'url': 'https://mlh.io/'
+    - 'name': 'Forem'
+      'url': 'https://www.forem.com'

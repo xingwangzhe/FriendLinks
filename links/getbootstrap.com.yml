@@ -1,0 +1,16 @@
+'site':
+  'name': 'getbootstrap.com'
+  'url': 'https://getbootstrap.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Open Collective Open Collective'
+      'url': 'https://opencollective.com/bootstrap'
+    - 'name': 'Get Security Updates for Bootstrap 3 & 4'
+      'url': 'https://www.herodevs.com/support/nes-bootstrap?utm_source=Bootstrap_site&utm_medium=Banner&utm_campaign=v3and4_eol'
+    - 'name': 'jsDelivr'
+      'url': 'https://www.jsdelivr.com/package/npm/bootstrap'
+    - 'name': 'Swag Store'
+      'url': 'https://cottonbureau.com/people/bootstrap'
+    - 'name': 'Stack Overflow'
+      'url': 'https://stackoverflow.com/questions/tagged/bootstrap-5'

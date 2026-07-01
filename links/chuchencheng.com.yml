@@ -1,0 +1,16 @@
+'site':
+  'name': 'chuchencheng.com'
+  'url': 'https://chuchencheng.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '官方文档'
+      'url': 'https://www.typescriptlang.org/docs/handbook/modules.html'
+    - 'name': '快速上手'
+      'url': 'https://www.iviewui.com/docs/guide/start'
+    - 'name': '官方文档'
+      'url': 'https://www.electron.build/'
+    - 'name': 'Electron 文档'
+      'url': 'https://electronjs.org/docs'
+    - 'name': 'NexT.Gemini'
+      'url': 'https://theme-next.js.org/'

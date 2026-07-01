@@ -1,0 +1,16 @@
+'site':
+  'name': 'petekeen.net'
+  'url': 'https://www.petekeen.net/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'hachyderm.io/@zrail'
+      'url': 'https://hachyderm.io/@zrail'
+    - 'name': 'Iconmonstr'
+      'url': 'http://iconmonstr.com/bug-3-icon/'
+    - 'name': 'Font Awesome'
+      'url': 'http://fortawesome.github.io/Font-Awesome/'
+    - 'name': 'Lume'
+      'url': 'https://lume.land'
+    - 'name': 'Fly.io'
+      'url': 'https://fly.io'

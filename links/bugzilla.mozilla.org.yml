@@ -1,0 +1,12 @@
+'site':
+  'name': 'bugzilla.mozilla.org'
+  'url': 'https://bugzilla.mozilla.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Documentation'
+      'url': 'https://bmo.readthedocs.io/en/latest/'
+    - 'name': 'Report an issue with a website that I use'
+      'url': 'https://webcompat.com/issues/new'
+    - 'name': 'Download Firefox Beta'
+      'url': 'https://www.firefox.com/channel/desktop/#beta'

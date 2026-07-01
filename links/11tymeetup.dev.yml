@@ -1,0 +1,14 @@
+'site':
+  'name': '11tymeetup.dev'
+  'url': 'https://11tymeetup.dev/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '11ty discord'
+      'url': 'https://www.11ty.dev/blog/discord/'
+    - 'name': 'Website'
+      'url': 'https://sia.codes/'
+    - 'name': 'Mastodon'
+      'url': 'https://front-end.social/@sia'
+    - 'name': 'Bluesky'
+      'url': 'https://bsky.app/profile/sia.codes'

@@ -1,0 +1,12 @@
+'site':
+  'name': 'docusaurus.io'
+  'url': 'https://docusaurus.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Try a Demo'
+      'url': 'https://docusaurus.new'
+    - 'name': 'Stack Overflow'
+      'url': 'https://stackoverflow.com/questions/tagged/docusaurus'
+    - 'name': 'Discord'
+      'url': 'https://discordapp.com/invite/docusaurus'

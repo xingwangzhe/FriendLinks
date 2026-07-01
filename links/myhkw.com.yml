@@ -1,0 +1,14 @@
+'site':
+  'name': 'myhkw.com'
+  'url': 'https://myhkw.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '独立主页'
+      'url': 'https://myhkw.cn/test'
+    - 'name': 'WAFPRO / 为网络安全护航'
+      'url': 'https://waf.pro/'
+    - 'name': 'Layui官网'
+      'url': 'https://layui.dev/'
+    - 'name': 'ThinkPHP官网'
+      'url': 'http://www.thinkphp.cn/'

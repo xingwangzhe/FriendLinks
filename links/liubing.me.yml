@@ -1,0 +1,12 @@
+'site':
+  'name': 'liubing.me'
+  'url': 'https://liubing.me/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'YXVM'
+      'url': 'https://yxvm.com/'
+    - 'name': '1Panel'
+      'url': 'https://1panel.cn/'
+    - 'name': 'VuePress Theme Hope'
+      'url': 'https://theme-hope.vuejs.press/zh/'

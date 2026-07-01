@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.alexma.top'
+  'url': 'https://blog.alexma.top/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'AdGuard'
+      'url': 'https://adguard.com/kb/'
+    - 'name': 'Brave Shields'
+      'url': 'https://community.brave.app/t/shields-whitelist-specific-sites/399579'

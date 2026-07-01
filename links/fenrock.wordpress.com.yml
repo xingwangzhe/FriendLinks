@@ -1,0 +1,12 @@
+'site':
+  'name': 'fenrock.wordpress.com'
+  'url': 'https://fenrock.wordpress.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'electron'
+      'url': 'http://electron.atom.io/'
+    - 'name': 'Rockbox'
+      'url': 'http://www.rockbox.org/'
+    - 'name': 'Cookie Policy'
+      'url': 'https://automattic.com/cookies/'

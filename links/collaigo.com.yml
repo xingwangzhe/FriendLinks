@@ -1,0 +1,12 @@
+'site':
+  'name': 'collaigo.com'
+  'url': 'https://collaigo.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'AI Image Editor'
+      'url': 'https://pixelmax.art'
+    - 'name': 'Instagram'
+      'url': 'https://www.instagram.com/collaigo/'
+    - 'name': 'Discord'
+      'url': 'https://discord.gg/WbVXpRkWZv'

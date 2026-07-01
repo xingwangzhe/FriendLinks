@@ -1,0 +1,14 @@
+'site':
+  'name': 'libvio.app'
+  'url': 'https://www.libvio.app/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Chrome'
+      'url': 'https://www.google.cn/chrome/'
+    - 'name': 'Firefox'
+      'url': 'https://www.mozilla.org/zh-CN/firefox/new/'
+    - 'name': 'X浏览器'
+      'url': 'https://www.xbrowser.com/'
+    - 'name': 'Via'
+      'url': 'http://www.viayoo.com/zh-cn/'

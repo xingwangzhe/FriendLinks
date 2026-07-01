@@ -1,0 +1,10 @@
+'site':
+  'name': 'cupofjava.de'
+  'url': 'http://cupofjava.de/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'MongoDB Berlin'
+      'url': 'http://www.10gen.com/events/mongodb-berlin-2013'
+    - 'name': 'Octopress'
+      'url': 'http://octopress.org'

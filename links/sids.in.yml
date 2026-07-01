@@ -1,0 +1,12 @@
+'site':
+  'name': 'sids.in'
+  'url': 'https://sids.in/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'iiit-b'
+      'url': 'https://www.iiitb.ac.in/'
+    - 'name': 'Threads'
+      'url': 'https://www.threads.net/@sidsr'
+    - 'name': 'Mastodon'
+      'url': 'https://mstdn.social/@sids'

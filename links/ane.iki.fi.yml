@@ -1,0 +1,16 @@
+'site':
+  'name': 'ane.iki.fi'
+  'url': 'http://ane.iki.fi/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Qvantel'
+      'url': 'http://www.qvantel.com'
+    - 'name': 'public inbox'
+      'url': 'https://lists.sr.ht/~ane/public-inbox'
+    - 'name': 'SourceHut'
+      'url': 'http://sr.ht/~ane'
+    - 'name': 'Meson'
+      'url': 'http://mesonbuild.com'
+    - 'name': 'GNU Guile'
+      'url': 'http://www.gnu.org/software/guile'

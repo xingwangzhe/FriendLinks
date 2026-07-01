@@ -1,0 +1,12 @@
+'site':
+  'name': 'unicodeconvert.com'
+  'url': 'https://unicodeconvert.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Start the online editor'
+      'url': 'https://texteditor.com/'
+    - 'name': 'Unicode (Wikipedia)'
+      'url': 'https://en.wikipedia.org/wiki/Unicode'
+    - 'name': 'JavaScript Unicode handling (MDN)'
+      'url': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint'

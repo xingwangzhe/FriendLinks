@@ -1,0 +1,18 @@
+'site':
+  'name': 'clojuredatascience.com'
+  'url': 'http://clojuredatascience.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'kixi.stats v0.5.0'
+      'url': 'https://cljdoc.org/d/kixi/stats/0.5.0/doc/readme'
+    - 'name': 'transduce'
+      'url': 'https://clojure.org/reference/transducers'
+    - 'name': 'Welch''s unequal variances'
+      'url': 'https://en.wikipedia.org/wiki/Welch%27s_t-test'
+    - 'name': 'MXNet'
+      'url': 'https://mxnet.apache.org/api/clojure/index.html'
+    - 'name': 'Buy the book'
+      'url': 'https://www.packtpub.com/big-data-and-business-intelligence/clojure-data-science'
+    - 'name': 'Cryogen'
+      'url': 'http://cryogenweb.org'

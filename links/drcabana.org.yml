@@ -1,0 +1,10 @@
+'site':
+  'name': 'drcabana.org'
+  'url': 'https://drcabana.org/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'Zola'
+      'url': 'https://www.getzola.org/'
+    - 'name': '$\KaTeX$'
+      'url': 'https://katex.org/'

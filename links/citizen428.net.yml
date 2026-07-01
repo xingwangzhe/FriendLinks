@@ -1,0 +1,10 @@
+'site':
+  'name': 'citizen428.net'
+  'url': 'https://citizen428.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'mastodon'
+      'url': 'https://chaos.social/@citizen428'
+    - 'name': 'stack overflow'
+      'url': 'https://stackoverflow.com/users/220147/michael-kohl'

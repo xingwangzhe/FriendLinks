@@ -1,0 +1,14 @@
+'site':
+  'name': 'owasp.org'
+  'url': 'https://www.owasp.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Register Today!'
+      'url': 'https://owasp.glueup.com/event/owasp-global-appsec-eu-2026-vienna-austria-162243/'
+    - 'name': 'Register today!'
+      'url': 'https://www.eventbrite.com/e/owasp-basc-2026-tickets-1982234637160'
+    - 'name': 'video'
+      'url': 'https://youtu.be/hEHGLUFtWN0'
+    - 'name': 'Start a project'
+      'url': 'https://owasporg.atlassian.net/servicedesk/customer/portal/7/create/70'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'getzola.org'
+  'url': 'https://www.getzola.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Forum'
+      'url': 'https://zola.discourse.group/'
+    - 'name': 'Vincent Prouillet'
+      'url': 'https://www.vincentprouillet.com'

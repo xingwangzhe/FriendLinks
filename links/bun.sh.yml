@@ -1,0 +1,10 @@
+'site':
+  'name': 'bun.sh'
+  'url': 'https://bun.sh/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Deploy on Railway'
+      'url': 'https://railway.com/new/function?utm_source=bun.com'
+    - 'name': 'Discord'
+      'url': 'https://bun.com/discord'

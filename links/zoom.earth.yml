@@ -1,0 +1,18 @@
+'site':
+  'name': 'zoom.earth'
+  'url': 'https://zoom.earth/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'ICON'
+      'url': 'https://www.dwd.de/EN/research/weatherforecasting/num_modelling/01_num_weather_prediction_modells/icon_description.html'
+    - 'name': 'GFS'
+      'url': 'https://en.wikipedia.org/wiki/Global_Forecast_System'
+    - 'name': 'EUMETSAT Meteosat'
+      'url': 'https://www.eumetsat.int/our-satellites/meteosat-series'
+    - 'name': 'JTWC'
+      'url': 'https://www.metoc.navy.mil/jtwc/jtwc.html'
+    - 'name': 'NRL'
+      'url': 'https://www.nrlmry.navy.mil/TC.html'
+    - 'name': 'OpenStreetMap'
+      'url': 'https://www.openstreetmap.org/copyright'

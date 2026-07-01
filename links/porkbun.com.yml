@@ -1,0 +1,10 @@
+'site':
+  'name': 'porkbun.com'
+  'url': 'https://www.porkbun.com/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'Branding Guidelines'
+      'url': 'https://porkbun.design/'
+    - 'name': 'Top Level Design'
+      'url': 'https://toplevel.design'

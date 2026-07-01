@@ -1,0 +1,14 @@
+'site':
+  'name': 'mackext.com'
+  'url': 'https://mackext.com/'
+  'description': '友情链接'
+  'links': '/links.html'
+  'friends':
+    - 'name': '张戈博客'
+      'url': 'https://zhang.ge/'
+    - 'name': '知更鸟'
+      'url': 'http://zmingcx.com'
+    - 'name': '运维派'
+      'url': 'http://www.yunweipai.com/'
+    - 'name': '树莓派俱乐部'
+      'url': 'https://raspberrypi.club'

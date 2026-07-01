@@ -1,0 +1,12 @@
+'site':
+  'name': 'gcore.com'
+  'url': 'https://gcore.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Terraform'
+      'url': 'https://registry.terraform.io/providers/G-Core/gcore/latest/docs '
+    - 'name': 'Looking Glass'
+      'url': 'https://lg.gcore.lu'
+    - 'name': 'Discord'
+      'url': 'https://discord.gg/gcore'

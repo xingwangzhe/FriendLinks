@@ -1,0 +1,10 @@
+'site':
+  'name': 'evolution-host.com'
+  'url': 'https://evolution-host.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'PayPal'
+      'url': 'https://www.paypal.com'
+    - 'name': 'Stripe'
+      'url': 'https://stripe.com'

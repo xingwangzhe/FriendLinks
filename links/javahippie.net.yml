@@ -1,0 +1,10 @@
+'site':
+  'name': 'javahippie.net'
+  'url': 'https://javahippie.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Mastodon'
+      'url': 'https://mainz.social/@javahippie'
+    - 'name': 'Twitch'
+      'url': 'https://www.twitch.tv/javahippie'

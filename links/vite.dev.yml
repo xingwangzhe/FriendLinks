@@ -1,0 +1,12 @@
+'site':
+  'name': 'vite.dev'
+  'url': 'https://vite.dev/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Mastodon'
+      'url': 'https://elk.zone/m.webtoo.ls/@vite'
+    - 'name': 'ViteConf'
+      'url': 'https://viteconf.org'
+    - 'name': 'DEV Community'
+      'url': 'https://dev.to/t/vite'

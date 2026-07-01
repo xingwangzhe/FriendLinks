@@ -1,0 +1,14 @@
+'site':
+  'name': 'cungua.com'
+  'url': 'https://cungua.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '比比网'
+      'url': 'https://beebee.work/'
+    - 'name': '访问网站 →'
+      'url': 'https://www.mancs.cn'
+    - 'name': '奶狗网'
+      'url': 'http://www.naigou.cn/'
+    - 'name': 'DeepSeek'
+      'url': 'https://chat.deepseek.com'

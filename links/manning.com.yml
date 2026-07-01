@@ -1,0 +1,12 @@
+'site':
+  'name': 'manning.com'
+  'url': 'http://www.manning.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Manning on Instagram'
+      'url': 'https://www.instagram.com/manning_publications/'
+    - 'name': 'Manning on Twitch'
+      'url': 'https://www.twitch.tv/manningpublications'
+    - 'name': 'Manning on Mastodon'
+      'url': 'https://techhub.social/@ManningPublications'

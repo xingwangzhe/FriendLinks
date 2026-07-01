@@ -1,0 +1,16 @@
+'site':
+  'name': 'beebee.work'
+  'url': 'https://beebee.work/'
+  'description': '友情链接'
+  'links': '/link'
+  'friends':
+    - 'name': '开发框架'
+      'url': 'https://astro.build'
+    - 'name': '小红书'
+      'url': 'https://www.xiaohongshu.com/user/profile/60ccd302000000000100289b'
+    - 'name': 'tailwindcss.com'
+      'url': 'https://tailwindcss.com'
+    - 'name': 'mingcute.com/'
+      'url': 'https://mingcute.com/'
+    - 'name': 'preline.co'
+      'url': 'https://preline.co'

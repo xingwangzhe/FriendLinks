@@ -1,0 +1,16 @@
+'site':
+  'name': 'dict.cn'
+  'url': 'https://dict.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '牛津高阶第八版'
+      'url': 'https://www.oxfordlearnersdictionaries.com/definition/english/links'
+    - 'name': '美国韦氏词典'
+      'url': 'https://www.merriam-webster.com/dictionary/links'
+    - 'name': 'Dictionary.com'
+      'url': 'http://dictionary.reference.com/browse/links'
+    - 'name': 'Free Dictionary'
+      'url': 'http://www.thefreedictionary.com/links'
+    - 'name': '权威词典'
+      'url': 'https://cidian.haidii.com/center.html'

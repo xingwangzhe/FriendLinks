@@ -1,0 +1,10 @@
+'site':
+  'name': 'yevpt.com'
+  'url': 'https://www.yevpt.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Next'
+      'url': 'https://nextjs.org'
+    - 'name': 'Gin'
+      'url': 'https://gin-gonic.com'

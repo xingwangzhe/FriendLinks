@@ -1,0 +1,8 @@
+'site':
+  'name': 'dotnetapp.com'
+  'url': 'http://www.dotnetapp.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'About us'
+      'url': 'https://www.HugeDomains.com/about.cfm'

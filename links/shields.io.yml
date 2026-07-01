@@ -1,0 +1,12 @@
+'site':
+  'name': 'shields.io'
+  'url': 'https://shields.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'NPM library'
+      'url': 'https://www.npmjs.com/package/badge-maker'
+    - 'name': 'Open Collective'
+      'url': 'https://opencollective.com/shields'
+    - 'name': 'Discord'
+      'url': 'https://discord.gg/HjJCwm5'

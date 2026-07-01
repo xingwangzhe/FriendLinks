@@ -1,0 +1,10 @@
+'site':
+  'name': 'kouga.us'
+  'url': 'http://kouga.us/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'htmx.min.js'
+      'url': 'https://unpkg.com/htmx.org/dist/htmx.min.js'
+    - 'name': 'Traefik'
+      'url': 'https://traefik.io/'

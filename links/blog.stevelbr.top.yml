@@ -1,0 +1,12 @@
+'site':
+  'name': 'blog.stevelbr.top'
+  'url': 'https://blog.stevelbr.top/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Travellings'
+      'url': 'https://travellings.link'
+    - 'name': 'TypeScript'
+      'url': 'https://www.typescriptlang.org'
+    - 'name': 'Jimmy'
+      'url': 'https://jimmycai.com'

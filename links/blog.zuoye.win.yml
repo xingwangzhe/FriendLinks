@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.zuoye.win'
+  'url': 'https://blog.zuoye.win/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': '/var/log/gblab此处会不定时产生包含大量废话的日志文件'
+      'url': 'https://lab.gb0.dev/'
+    - 'name': 'mocong''s blog一切客观实在'
+      'url': 'https://mocong.dev/'

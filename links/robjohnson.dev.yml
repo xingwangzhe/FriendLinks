@@ -1,0 +1,12 @@
+'site':
+  'name': 'robjohnson.dev'
+  'url': 'https://robjohnson.dev/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Mastodon'
+      'url': 'https://fosstodon.org/@robjohnson'
+    - 'name': 'spec'
+      'url': 'https://clojure.org/guides/spec'
+    - 'name': 'thanks to Dominic Monroe'
+      'url': 'https://clojure.atlassian.net/jira/software/c/projects/TCHECK/issues/TCHECK-159'

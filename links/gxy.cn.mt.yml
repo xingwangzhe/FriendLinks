@@ -1,0 +1,10 @@
+'site':
+  'name': 'gxy.cn.mt'
+  'url': 'https://gxy.cn.mt/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Busuanzi 不蒜子 – 极简网站计数器'
+      'url': 'https://www.busuanzi.cc/'
+    - 'name': 'github-contrib-graph 一个轻量级、可自定义的 GitHub 贡献图小部件'
+      'url': 'https://www.npmjs.com/package/github-contrib-graph?activeTab=readme'

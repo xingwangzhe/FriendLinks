@@ -1,0 +1,10 @@
+'site':
+  'name': 'leilukin.com'
+  'url': 'https://leilukin.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'plain text email'
+      'url': 'https://useplaintext.email/'
+    - 'name': 'Support me on Ko-Fi'
+      'url': 'https://ko-fi.com/leilukin'

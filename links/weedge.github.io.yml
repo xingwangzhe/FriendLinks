@@ -1,0 +1,14 @@
+'site':
+  'name': 'weedge.github.io'
+  'url': 'https://weedge.github.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Podcast AI'
+      'url': 'https://podcast-997.pages.dev/'
+    - 'name': '2023.12 WaveNeXt: ConvNeXt-Based Fast Neural Vocoder Without ISTFT layer'
+      'url': 'https://ieeexplore.ieee.org/document/10389765'
+    - 'name': 'demo samples'
+      'url': 'https://ast-astrec.nict.go.jp/demo_samples/asru_2023_okamoto/index.html'
+    - 'name': 'cosine scheduler'
+      'url': 'https://d2l.ai/chapter_optimization/lr-scheduler.html#cosine-scheduler'

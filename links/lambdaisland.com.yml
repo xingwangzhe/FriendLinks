@@ -1,0 +1,16 @@
+'site':
+  'name': 'lambdaisland.com'
+  'url': 'https://lambdaisland.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Gaiwan'
+      'url': 'https://gaiwan.co'
+    - 'name': 'ClojureVerse'
+      'url': 'https://clojureverse.org/'
+    - 'name': 'clojurians-log'
+      'url': 'https://clojurians-log.clojureverse.org/'
+    - 'name': 'Heart of Clojure'
+      'url': 'https://heartofclojure.eu/'
+    - 'name': 'Instagram'
+      'url': 'https://instagram.com/lambdaisland'

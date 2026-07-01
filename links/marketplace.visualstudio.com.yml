@@ -1,0 +1,14 @@
+'site':
+  'name': 'marketplace.visualstudio.com'
+  'url': 'https://marketplace.visualstudio.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Jobs'
+      'url': 'https://careers.microsoft.com/'
+    - 'name': 'Privacy'
+      'url': 'https://go.microsoft.com/fwlink/?LinkID=521839'
+    - 'name': 'Terms of use'
+      'url': 'https://aka.ms/vsmarketplace-ToU'
+    - 'name': 'Trademarks'
+      'url': 'https://www.microsoft.com/trademarks'

@@ -1,0 +1,14 @@
+'site':
+  'name': 'zh.javascript.info'
+  'url': 'https://zh.javascript.info/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'RUРусский'
+      'url': 'https://learn.javascript.ru/'
+    - 'name': 'plnkr'
+      'url': 'https://plnkr.co/edit/?p=preview'
+    - 'name': 'JSBin'
+      'url': 'https://jsbin.com'
+    - 'name': 'codepen'
+      'url': 'http://codepen.io'

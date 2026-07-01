@@ -1,0 +1,18 @@
+'site':
+  'name': 'blog.huankong.top'
+  'url': 'https://blog.huankong.top/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': '迷之区'
+      'url': 'https://blog.mzqmountain.xyz'
+    - 'name': 'huige233'
+      'url': 'https://huige233.github.io/vuepress-theme/'
+    - 'name': '秋雨落'
+      'url': 'https://www.qy.al/'
+    - 'name': 'MliKiowa'
+      'url': 'https://nanaeo.cn/'
+    - 'name': '二叉树树'
+      'url': 'https://afo.im'
+    - 'name': 'vuepress-theme-plume'
+      'url': 'https://theme-plume.vuejs.press'

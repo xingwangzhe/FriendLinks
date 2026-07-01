@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.sina.com.cn'
+  'url': 'http://blog.sina.com.cn/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '新浪首页'
+      'url': 'http://www.sina.com.cn/'
+    - 'name': 'SINA English'
+      'url': 'http://english.sina.com'

@@ -1,0 +1,14 @@
+'site':
+  'name': 'x.threatbook.com'
+  'url': 'https://x.threatbook.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'NGTIP'
+      'url': 'https://threatbook.cn/ngtip'
+    - 'name': 'HFish蜜罐'
+      'url': 'https://hfish.net/#/'
+    - 'name': 'OneDNS'
+      'url': 'https://onedns.net/'
+    - 'name': 'NVDB备-20230005号'
+      'url': 'https://www.nvdb.org.cn/index/'

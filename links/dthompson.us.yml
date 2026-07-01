@@ -1,0 +1,14 @@
+'site':
+  'name': 'dthompson.us'
+  'url': 'https://dthompson.us/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Elm'
+      'url': 'https://elm-lang.org/'
+    - 'name': 'Spring Lisp Game Jam 2024'
+      'url': 'https://itch.io/jam/spring-lisp-game-jam-2024'
+    - 'name': 'Guile'
+      'url': 'https://gnu.org/software/guile'
+    - 'name': 'Mastodon'
+      'url': 'https://toot.cat/@dthompson'

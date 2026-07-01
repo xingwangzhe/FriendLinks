@@ -1,0 +1,10 @@
+'site':
+  'name': 'journal.purticra.icu'
+  'url': 'https://journal.purticra.icu/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Bluesky'
+      'url': 'https://bsky.app/profile/purticra.bsky.social'
+    - 'name': 'Jimmy'
+      'url': 'https://jimmycai.com'

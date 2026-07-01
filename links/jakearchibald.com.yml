@@ -1,0 +1,14 @@
+'site':
+  'name': 'jakearchibald.com'
+  'url': 'https://jakearchibald.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Firefox'
+      'url': 'https://www.firefox.com/'
+    - 'name': 'Podcast'
+      'url': 'https://offthemainthread.tech/'
+    - 'name': 'Mastodon'
+      'url': 'https://mastodon.social/@jaffathecake'
+    - 'name': 'Threads'
+      'url': 'https://www.threads.net/@jaffathecake'

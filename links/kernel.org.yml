@@ -1,0 +1,14 @@
+'site':
+  'name': 'kernel.org'
+  'url': 'https://www.kernel.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'HTTP'
+      'url': 'https://www.ietf.org/rfc/rfc2616.txt'
+    - 'name': 'RSYNC'
+      'url': 'https://rsync.samba.org/'
+    - 'name': 'Linux.com'
+      'url': 'https://www.linux.com/'
+    - 'name': 'Linux Foundation'
+      'url': 'https://www.linuxfoundation.org/'

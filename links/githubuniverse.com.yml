@@ -1,0 +1,12 @@
+'site':
+  'name': 'githubuniverse.com'
+  'url': 'https://githubuniverse.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'GitHub on Instagram'
+      'url': 'https://www.instagram.com/github/'
+    - 'name': 'GitHub on TikTok'
+      'url': 'https://www.tiktok.com/@github'
+    - 'name': 'GitHub on Twitch'
+      'url': 'https://www.twitch.tv/github'

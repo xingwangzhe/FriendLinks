@@ -1,0 +1,16 @@
+'site':
+  'name': 'blog.jayfields.com'
+  'url': 'http://blog.jayfields.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'bliki'
+      'url': 'http://martinfowler.com/bliki/'
+    - 'name': 'Refactoring'
+      'url': 'https://www.goodreads.com/book/show/44936.Refactoring'
+    - 'name': 'Unit Testing Points of View'
+      'url': 'http://utpov.com'
+    - 'name': 'Working Effectively with Unit Tests'
+      'url': 'http://leanpub.com/wewut'
+    - 'name': 'reference book'
+      'url': 'http://www.amazon.com/xUnit-Test-Patterns-Refactoring-Code/dp/0131495054'

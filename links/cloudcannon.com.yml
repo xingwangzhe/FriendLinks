@@ -1,0 +1,10 @@
+'site':
+  'name': 'cloudcannon.com'
+  'url': 'https://cloudcannon.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'bluesky'
+      'url': 'https://bsky.app/profile/cloudcannon.bsky.social'
+    - 'name': 'mastodon'
+      'url': 'https://techhub.social/@cloudcannon'

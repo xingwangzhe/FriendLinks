@@ -1,0 +1,18 @@
+'site':
+  'name': 'zachleat.com'
+  'url': 'https://www.zachleat.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Font Awesome'
+      'url': 'https://fontawesome.com/'
+    - 'name': 'Eleventy (11ty)'
+      'url': 'https://www.11ty.dev'
+    - 'name': 'CloudCannon'
+      'url': 'https://cloudcannon.com/'
+    - 'name': 'Filament Group'
+      'url': 'https://www.filamentgroup.com/'
+    - 'name': 'NEJS CONF'
+      'url': 'http://nejsconf.com/'
+    - 'name': 'NebraskaJS'
+      'url': 'http://nebraskajs.com'

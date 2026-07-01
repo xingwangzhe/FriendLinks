@@ -1,0 +1,18 @@
+'site':
+  'name': 'amd.com'
+  'url': 'https://www.amd.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'SOM 概述'
+      'url': 'https://china.xilinx.com/products/som.htm'
+    - 'name': '客户培训'
+      'url': 'https://xilinxprod-catalog.netexam.com/'
+    - 'name': 'AMD 游戏社区'
+      'url': 'https://www.amdgaming.com/'
+    - 'name': '封装管脚分配文件'
+      'url': 'https://www.xilinx.com/support/package-pinout-files.html'
+    - 'name': '产品培训'
+      'url': 'https://learningcatalog-amd.netexam.com/'
+    - 'name': 'Visit the Store'
+      'url': 'https://amdfanstore.com'

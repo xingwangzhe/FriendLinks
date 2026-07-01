@@ -1,0 +1,10 @@
+'site':
+  'name': 'httparchive.org'
+  'url': 'https://httparchive.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Docs'
+      'url': 'https://har.fyi'
+    - 'name': 'Read more blog posts'
+      'url': 'https://dev.to/httparchive'

@@ -1,0 +1,12 @@
+'site':
+  'name': 'hu.is'
+  'url': 'https://hu.is/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '大佬论坛'
+      'url': 'https://www.dalao.net'
+    - 'name': '米情局'
+      'url': 'https://miqingju.com'
+    - 'name': 'OneFour'
+      'url': 'https://yisi.yun'

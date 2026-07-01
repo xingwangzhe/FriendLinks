@@ -1,0 +1,10 @@
+'site':
+  'name': 'alf.nu'
+  'url': 'https://alf.nu/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '@steike'
+      'url': 'https://infosec.exchange/@steike'
+    - 'name': 'SPOJ'
+      'url': 'http://www.spoj.com/SHORTEN/problems/regex/'

@@ -1,0 +1,16 @@
+'site':
+  'name': 'martinfowler.com'
+  'url': 'https://martinfowler.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Refactoring'
+      'url': 'https://refactoring.com'
+    - 'name': 'Thoughtworks'
+      'url': 'https://www.thoughtworks.com/engineering'
+    - 'name': 'Insights'
+      'url': 'https://thoughtworks.com/insights'
+    - 'name': 'Mastodon'
+      'url': 'https://toot.thoughtworks.com/@mfowler'
+    - 'name': 'BGG'
+      'url': 'https://boardgamegeek.com/blog/13064/martins-7th-decade'
