@@ -1170,8 +1170,8 @@ export function init3d(graphData: GraphData) {
   const MOVE_SPEED = 30;
   const SHIFT_MULTIPLIER = 3;
   const MOUSE_SENSITIVITY = 0.003;
-  const RETICLE_SPRING = 3;
-  const RETICLE_DAMPING = 4;
+  const RETICLE_SPRING = 30;
+  const RETICLE_DAMPING = 12;
 
   const flyKeys: Record<string, boolean> = {};
   let isFlyMode = false;
