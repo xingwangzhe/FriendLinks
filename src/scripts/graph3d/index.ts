@@ -1058,16 +1058,16 @@ export function init3d(graphData: GraphData) {
           const dx = np.x - camPos.x;
           const dy = np.y - camPos.y;
           const dz = np.z - camPos.z;
-          const dist = Math.sqrt(dx * dx + dy * dy + dz * dz);
-          // >5000 隐藏，5000→2000 逐渐淡入，<2000 完全显示
-          if (dist > 5000) {
+          const sqDist = dx * dx + dy * dy + dz * dz;
+          // >5000² 隐藏，<2000² 完全显示，中间段淡入
+          if (sqDist > 25_000_000) {
             if (sprite.visible) sprite.visible = false;
-          } else if (dist < 2000) {
+          } else if (sqDist < 4_000_000) {
             sprite.visible = true;
             sprite.material.opacity = 1;
           } else {
             sprite.visible = true;
-            sprite.material.opacity = (5000 - dist) / 3000;
+            sprite.material.opacity = (5000 - Math.sqrt(sqDist)) / 3000;
           }
         }
       }
