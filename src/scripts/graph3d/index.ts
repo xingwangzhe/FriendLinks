@@ -626,12 +626,38 @@ export function init3d(graphData: GraphData) {
   let flyAutoPilot = false;
   const SHIFT_MULTIPLIER = 3;
   const MOUSE_SENSITIVITY = 0.003;
+  const RETICLE_SPRING = 30;
+  const RETICLE_DAMPING = 12;
   const reticleOffset = { x: 0, y: 0 };
   const reticleVelocity = { x: 0, y: 0 };
+  let flyCrosshair: HTMLElement | null = null;
+  let flyOnKeyDown: ((e: KeyboardEvent) => void) | null = null;
+  let flyOnKeyUp: ((e: KeyboardEvent) => void) | null = null;
+  let flyOnMouseMove: ((e: MouseEvent) => void) | null = null;
   let autoHoverId: string | null = null;
 
-  function updateAutoHover(_nodes: any[], _sceneCam: THREE.Camera) {
-    // Simplified: find closest node to camera center
+  function createCrosshair(): HTMLElement {
+    let el = document.getElementById("fly-crosshair");
+    if (el) return el;
+    el = document.createElement("div");
+    el.id = "fly-crosshair";
+    el.style.cssText = "position:fixed;top:50%;left:50%;pointer-events:none;z-index:10000;transform:translate(-50%,-50%);display:none;";
+    el.innerHTML = `<svg viewBox="0 0 20 20" width="20" height="20"><circle cx="10" cy="10" r="8" fill="none" stroke="#0f0" stroke-width="1.5" opacity="0.7"/><circle cx="10" cy="10" r="2" fill="#0f0" opacity="0.9"/></svg>`;
+    document.body.appendChild(el);
+    return el;
+  }
+
+  function handleFlyKey(e: KeyboardEvent, down: boolean) {
+    flyKeys[e.key.toLowerCase()] = down;
+    if (down && e.key === " ") { e.preventDefault(); flyAutoPilot = !flyAutoPilot; }
+  }
+
+  function onPointerLockChange() {
+    if (!isFlyMode) return;
+    if (!document.pointerLockElement) exitFlyMode();
+  }
+
+  function updateAutoHover(_nodes: any[], _cam: THREE.Camera) {
     let closestId: string | null = null;
     let closestDist = Infinity;
     for (const n of nodes) {
@@ -642,24 +668,83 @@ export function init3d(graphData: GraphData) {
       const d = dx * dx + dy * dy + dz * dz;
       if (d < closestDist) { closestDist = d; closestId = n.id; }
     }
-    if (closestId && closestId !== autoHoverId) {
-      autoHoverId = closestId;
+    if (closestId && closestId !== autoHoverId) autoHoverId = closestId;
+  }
+
+  function flyLoop() {
+    if (!isFlyMode) return;
+    const cam = ctx.camera;
+
+    // 弹簧力：偏移越大回中力越强
+    const ax = -RETICLE_SPRING * reticleOffset.x - RETICLE_DAMPING * reticleVelocity.x;
+    const ay = -RETICLE_SPRING * reticleOffset.y - RETICLE_DAMPING * reticleVelocity.y;
+    reticleVelocity.x += ax * 0.016;
+    reticleVelocity.y += ay * 0.016;
+    reticleOffset.x += reticleVelocity.x * 0.016;
+    reticleOffset.y += reticleVelocity.y * 0.016;
+
+    // 准星偏移 → 相机本地轴旋转
+    const rotScale = 0.15;
+    cam.rotateY(-reticleOffset.x * rotScale);
+    cam.rotateX(reticleOffset.y * rotScale);
+    if (cam.rotation.x > 1.48) cam.rotation.x = 1.48;
+    if (cam.rotation.x < -1.48) cam.rotation.x = -1.48;
+
+    // 更新准星 DOM
+    if (flyCrosshair) {
+      const x = Math.round(reticleOffset.x), y = Math.round(reticleOffset.y);
+      flyCrosshair.style.transform = `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`;
     }
+
+    // WASD 飞行 + Q/E 横滚
+    const speed = (flyKeys.shift ? SHIFT_MULTIPLIER : 1) * MOVE_SPEED;
+    if (flyAutoPilot || flyKeys.w) cam.translateZ(-speed);
+    if (!flyAutoPilot && flyKeys.s) cam.translateZ(speed);
+    if (flyKeys.a) cam.translateX(-speed);
+    if (flyKeys.d) cam.translateX(speed);
+    if (flyKeys.r) cam.translateY(speed);
+    if (flyKeys.f) cam.translateY(-speed);
+    if (flyKeys.q) cam.rotateZ(speed * 0.003);
+    if (flyKeys.e) cam.rotateZ(-speed * 0.003);
+
+    if (flyAutoPilot) updateAutoHover(nodes, ctx.camera);
   }
 
   function enterFlyMode() {
     isFlyMode = true;
     ctx.controls.enabled = false;
-    ctx.renderer.domElement.requestPointerLock?.();
-    document.body.style.cursor = "none";
     reticleOffset.x = 0; reticleOffset.y = 0;
     reticleVelocity.x = 0; reticleVelocity.y = 0;
+    ctx.renderer.domElement.requestPointerLock?.();
+    document.addEventListener("pointerlockchange", onPointerLockChange);
+    ctx.camera.rotation.order = "YXZ";
+    flyCrosshair = createCrosshair();
+    flyCrosshair.style.display = "block";
+    document.body.style.cursor = "none";
+    flyOnKeyDown = (e) => handleFlyKey(e, true);
+    flyOnKeyUp = (e) => handleFlyKey(e, false);
+    document.addEventListener("keydown", flyOnKeyDown);
+    document.addEventListener("keyup", flyOnKeyUp);
+    flyOnMouseMove = (e: MouseEvent) => {
+      reticleVelocity.x += e.movementX * MOUSE_SENSITIVITY;
+      reticleVelocity.y -= e.movementY * MOUSE_SENSITIVITY;
+      const maxV = 200;
+      reticleVelocity.x = Math.max(-maxV, Math.min(maxV, reticleVelocity.x));
+      reticleVelocity.y = Math.max(-maxV, Math.min(maxV, reticleVelocity.y));
+    };
+    ctx.renderer.domElement.addEventListener("mousemove", flyOnMouseMove);
   }
 
   function exitFlyMode() {
     isFlyMode = false;
     ctx.controls.enabled = true;
-    document.exitPointerLock?.();
+    if (flyOnKeyDown) document.removeEventListener("keydown", flyOnKeyDown);
+    if (flyOnKeyUp) document.removeEventListener("keyup", flyOnKeyUp);
+    if (flyOnMouseMove) ctx.renderer.domElement.removeEventListener("mousemove", flyOnMouseMove);
+    flyOnKeyDown = flyOnKeyUp = flyOnMouseMove = null;
+    document.removeEventListener("pointerlockchange", onPointerLockChange);
+    try { document.exitPointerLock?.(); } catch {}
+    if (flyCrosshair) { flyCrosshair.style.display = "none"; flyCrosshair = null; }
     document.body.style.cursor = "";
   }
 
@@ -667,43 +752,6 @@ export function init3d(graphData: GraphData) {
     if (isFlyMode) exitFlyMode(); else enterFlyMode();
     return isFlyMode;
   }
-
-  function flyLoop() {
-    if (!isFlyMode) return;
-    // WASD movement
-    const speed = (flyKeys.shift ? SHIFT_MULTIPLIER : 1) * MOVE_SPEED;
-    if (flyAutoPilot || flyKeys.w) ctx.camera.translateZ(-speed);
-    if (!flyAutoPilot && flyKeys.s) ctx.camera.translateZ(speed);
-    if (flyKeys.a) ctx.camera.translateX(-speed);
-    if (flyKeys.d) ctx.camera.translateX(speed);
-    if (flyKeys.r) ctx.camera.translateY(speed);
-    if (flyKeys.f) ctx.camera.translateY(-speed);
-    if (flyKeys.q) ctx.camera.rotateZ(speed * 0.003);
-    if (flyKeys.e) ctx.camera.rotateZ(-speed * 0.003);
-
-    // Pitch clamp
-    if (ctx.camera.rotation.x > 1.48) ctx.camera.rotation.x = 1.48;
-    if (ctx.camera.rotation.x < -1.48) ctx.camera.rotation.x = -1.48;
-
-    // Auto hover
-    if (flyAutoPilot) updateAutoHover(nodes, ctx.camera);
-  }
-
-  // Keyboard for fly mode
-  document.addEventListener("keydown", (e) => {
-    if (!isFlyMode) return;
-    flyKeys[e.key.toLowerCase()] = true;
-    if (e.key === " ") { e.preventDefault(); flyAutoPilot = !flyAutoPilot; }
-  });
-  document.addEventListener("keyup", (e) => { flyKeys[e.key.toLowerCase()] = false; });
-  document.addEventListener("mousemove", (e) => {
-    if (!isFlyMode) return;
-    reticleVelocity.x += e.movementX * MOUSE_SENSITIVITY;
-    reticleVelocity.y -= e.movementY * MOUSE_SENSITIVITY;
-    const maxV = 200;
-    reticleVelocity.x = Math.max(-maxV, Math.min(maxV, reticleVelocity.x));
-    reticleVelocity.y = Math.max(-maxV, Math.min(maxV, reticleVelocity.y));
-  });
 
   // ── 17. 启动 ──
   zoomToFit(ctx, nodes, 400, 80);
