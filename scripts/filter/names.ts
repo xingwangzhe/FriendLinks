@@ -65,6 +65,7 @@ export const JUNK_NAME_PATTERNS: RegExp[] = [
   /^直接访问$/,                                         // 按钮文本非站名
   /(点击直达官网|必填邀请码|邀请码\d+)/,                // 邀请码推广
   /【读书记\d+】/,                                     // 读书笔记编号(非站名)
+  /^\s*</,                                             // HTML标签(<img <picture <– Prev等)被当链接名
   /\uFFFD/,                                          // 编码乱码(GBK被误当UTF-8解码) — 必放第一行就近维护
   /porn|xxx|adult\s*(video|film|movie|content|网站|视频|影片|电影)|nude\s*(pic|pics|photo|video|cam)|onlyfans|camgirl|ai\s*(sex|girlfriend|gf)|sex\s*(chat|video|doll|bot|game)/i,  // 色情/成人(英文)
   /(色情|情色|淫秽|淫荡|淫乱|黄片|毛片|A片|裸聊|裸照|裸体|艳照|约炮|一夜情|嫖娼|卖淫|援交|福利姬|自慰)/i,  // 色情(中文)
