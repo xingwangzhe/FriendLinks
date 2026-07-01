@@ -700,6 +700,31 @@ import "../css/modal.css";
                 </div>
               </div>
 
+              ${data.sixDegrees ? `
+              <div class="stat-section">
+                <h3>🌐 六度分隔</h3>
+                <div class="stat-item">
+                  <span class="stat-label">主分量节点数</span>
+                  <span class="stat-value">${data.sixDegrees.mainComponentSize}</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-label">最大边数距离</span>
+                  <span class="stat-value">${data.sixDegrees.maxEdgeDistance}</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-label">最大中间顶点数</span>
+                  <span class="stat-value">${data.sixDegrees.maxIntermediateVertices}</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-label">连通分量数</span>
+                  <span class="stat-value">${data.sixDegrees.componentCount}</span>
+                </div>
+                <div style="margin-top:8px;font-size:11px;color:#888;">
+                  ${Object.entries(data.sixDegrees.edgeDistanceDistribution).sort(([a],[b])=>Number(a)-Number(b)).map(([d,c]) => `${d}度: ${c}对`).join(' · ')}
+                </div>
+              </div>
+              ` : ''}
+
               <div class="stat-section">
                 <h3>友链页面路由排行</h3>
                 ${(data.linkRoutes || []).map(r => `
