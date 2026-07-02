@@ -11,7 +11,6 @@ import {
   setNodeColor,
   updateAllNodePositions,
   updateLinkPositions,
-  zoomToFit,
   animateCamera,
   type RenderContext,
   type NodeState,
@@ -1097,7 +1096,19 @@ export function init3d(graphData: GraphData) {
   }
 
   // ── 17. 启动 ──
-  zoomToFit(ctx, nodes, 400, 80, degreeMap);
+  // 初始视角：星系密度中心附近，四周可见星点
+  {
+    let cx = 0, cy = 0, cz = 0, tw = 0;
+    for (const n of nodes) {
+      const w = degreeMap[n.id] ? Math.max(1, degreeMap[n.id]) : 1;
+      cx += (n.x ?? 0) * w; cy += (n.y ?? 0) * w; cz += (n.z ?? 0) * w;
+      tw += w;
+    }
+    const center = new THREE.Vector3(cx / tw, cy / tw, cz / tw);
+    ctx.camera.position.set(center.x + 300, center.y + 200, center.z + 300);
+    ctx.controls.target.copy(center);
+    ctx.controls.update();
+  }
   animateLoop();
 
   // ── 18. Resize ──
