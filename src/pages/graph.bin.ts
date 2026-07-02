@@ -154,7 +154,7 @@ export async function GET() {
     target: typeof l.target === "string" ? l.target : (l as any).target,
   }));
 
-  // ── 稀疏巨型星系（53k 节点优化）──
+  // ── Vercel 适配：30k 节点每 tick ~60s，超时 20min → 最多 15 tick ──
   const REPULSION = 3000;
   const LINK_DISTANCE = 500;
   const CENTER_STRENGTH = 0.005;
@@ -165,18 +165,18 @@ export async function GET() {
         .id((d: any) => d.id)
         .distance(LINK_DISTANCE),
     )
-    .force("charge", forceManyBody().strength(-REPULSION).theta(0.3))
+    .force("charge", forceManyBody().strength(-REPULSION).theta(0.8))
     .force("center", forceCenter(0, 0, 0).strength(CENTER_STRENGTH))
-    .alphaDecay(0.01)
+    .alphaDecay(0.12)
     .velocityDecay(0.35);
 
-  printProgress("❷", `力导仿真就绪 · ${nodes.length} 节点 · θ=0.3 高精Barnes-Hut · 斥力${REPULSION}`, 100);
+  printProgress("❷", `力导仿真就绪 · ${nodes.length} 节点 · θ=0.8 · 15 tick · 斥力${REPULSION}`, 100);
   printDone(`图构建完成 · ${nodes.length} 节点 · ${linksArr.length} 边`);
 
   const FAST = import.meta.env.DEV || !!process.env.MINIBUILD;
-  const TICKS = FAST ? 150 : 200;
-  const TICK_LOG = FAST ? 5 : 10;
-  sim.alphaMin(FAST ? 0.03 : 0.05);
+  const TICKS = FAST ? 100 : 15;
+  const TICK_LOG = FAST ? 5 : 3;
+  sim.alphaMin(FAST ? 0.03 : 0.005);
   const alphaMin = sim.alphaMin();
   let actualTicks = 0;
   for (let i = 0; i < TICKS; i++) {
@@ -185,15 +185,13 @@ export async function GET() {
     if (i % TICK_LOG === 0) {
       printTick(i + 1, TICKS, sim.alpha(), nodes.length);
     }
-    // alpha 降至阈值以下 → 系统已收敛，提前结束
     if (sim.alpha() < alphaMin) break;
   }
-  // 最后一条（如果收敛时不是 TICK_LOG 的倍数，补打一条）
   if (actualTicks % TICK_LOG !== 1) {
     printTick(actualTicks, TICKS, sim.alpha(), nodes.length);
   }
   sim.stop();
-  printDone(`力导仿真完成 · ${actualTicks} tick · α=${sim.alpha().toFixed(5)}`);
+  printDone(`力导仿真完成 · ${actualTicks} tick · α=${sim.alpha().toFixed(4)}`);
 
   // ── 列式紧凑输出（含预计算 3D 位置） ─────────────────────────
   const nid: string[] = [];
