@@ -1,0 +1,14 @@
+'site':
+  'name': 'wp.tutsplus.com'
+  'url': 'http://wp.tutsplus.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Envato'
+      'url': 'https://elements.envato.com'
+    - 'name': 'Author Sign In'
+      'url': 'https://elements-contributors.envato.com'
+    - 'name': 'Placeit by Envato'
+      'url': 'https://placeit.net'
+    - 'name': 'Mixkit'
+      'url': 'https://mixkit.co/'

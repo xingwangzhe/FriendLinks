@@ -1,0 +1,14 @@
+'site':
+  'name': 'justtesting.org'
+  'url': 'https://justtesting.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Haskell for Mac'
+      'url': 'http://haskellformac.com'
+    - 'name': 'Haskell'
+      'url': 'http://haskell.org'
+    - 'name': 'IOHK'
+      'url': 'https://iohk.io'
+    - 'name': 'YOW! Lambda Jam'
+      'url': 'https://lambdajam.yowconference.com.au'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'donsbot.com'
+  'url': 'https://donsbot.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Glean'
+      'url': 'https://glean.software/'
+    - 'name': 'Manage subscriptions'
+      'url': 'https://subscribe.wordpress.com/'

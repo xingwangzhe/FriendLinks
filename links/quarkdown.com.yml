@@ -1,0 +1,10 @@
+'site':
+  'name': 'quarkdown.com'
+  'url': 'https://quarkdown.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Homebrew'
+      'url': 'https://brew.sh'
+    - 'name': 'Scoop'
+      'url': 'https://scoop.sh'

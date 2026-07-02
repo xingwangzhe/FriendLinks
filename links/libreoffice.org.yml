@@ -1,0 +1,12 @@
+'site':
+  'name': 'libreoffice.org'
+  'url': 'https://www.libreoffice.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Blog'
+      'url': 'https://blog.documentfoundation.org/'
+    - 'name': 'The Document Foundation'
+      'url': 'https://www.documentfoundation.org/'
+    - 'name': 'Spreadshop'
+      'url': 'https://documentfoundation.myspreadshop.de/'

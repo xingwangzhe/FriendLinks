@@ -1,0 +1,10 @@
+'site':
+  'name': 'buduroiu.com'
+  'url': 'https://buduroiu.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Long Now Foundation'
+      'url': 'https://longnow.org/'
+    - 'name': 'Mechanize'
+      'url': 'https://www.mechanize.work/'

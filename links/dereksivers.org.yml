@@ -1,0 +1,12 @@
+'site':
+  'name': 'dereksivers.org'
+  'url': 'https://www.dereksivers.org/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Author'
+      'url': 'https://sivers.com/'
+    - 'name': 'Now Now Now'
+      'url': 'https://nownownow.com/'
+    - 'name': 'MusicThoughts'
+      'url': 'https://musicthoughts.com/'

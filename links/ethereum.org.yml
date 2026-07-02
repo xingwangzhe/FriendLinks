@@ -1,0 +1,10 @@
+'site':
+  'name': 'ethereum.org'
+  'url': 'https://ethereum.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Devcon'
+      'url': 'https://devcon.org/'
+    - 'name': 'Ecosystem Support Program (opens in a new tab)'
+      'url': 'https://esp.ethereum.foundation'

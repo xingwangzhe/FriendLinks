@@ -1,0 +1,10 @@
+'site':
+  'name': 'programmingbydoing.com'
+  'url': 'http://www.programmingbydoing.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Learn Java the Hard Way'
+      'url': 'https://learnjavathehardway.org/'
+    - 'name': 'Graham Mitchell'
+      'url': 'http://grahammitchell.com/'

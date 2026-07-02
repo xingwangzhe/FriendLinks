@@ -1,0 +1,12 @@
+'site':
+  'name': 'charlesproxy.com'
+  'url': 'https://www.charlesproxy.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Karl’s blog'
+      'url': 'http://blog.xk72.com/'
+    - 'name': 'XK72'
+      'url': 'http://www.xk72.com'
+    - 'name': 'Matthew Buchanan'
+      'url': 'http://matthewbuchanan.name'

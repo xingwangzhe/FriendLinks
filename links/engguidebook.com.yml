@@ -1,0 +1,14 @@
+'site':
+  'name': 'engguidebook.com'
+  'url': 'https://www.engguidebook.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Building Mobile Apps at Scale'
+      'url': 'https://www.mobileatscale.com'
+    - 'name': 'The Engineering Manager'
+      'url': 'https://www.theengineeringmanager.com/'
+    - 'name': 'Understanding Distributed Systems'
+      'url': 'https://understandingdistributed.systems/'
+    - 'name': 'other books'
+      'url': 'https://lethain.com/'

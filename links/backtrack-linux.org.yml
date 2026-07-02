@@ -1,0 +1,10 @@
+'site':
+  'name': 'backtrack-linux.org'
+  'url': 'http://www.backtrack-linux.org/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'BackTrack Linux is now Kali Linux (Since 2013)'
+      'url': 'https://www.kali.org/'
+    - 'name': 'OffSec Services Limited'
+      'url': 'https://www.offsec.com/'

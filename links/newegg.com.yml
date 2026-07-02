@@ -1,0 +1,10 @@
+'site':
+  'name': 'newegg.com'
+  'url': 'http://newegg.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'ABS'
+      'url': 'https://www.abs.com/'
+    - 'name': 'Rosewill'
+      'url': 'https://www.rosewill.com/'

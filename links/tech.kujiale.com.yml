@@ -1,0 +1,10 @@
+'site':
+  'name': 'tech.kujiale.com'
+  'url': 'https://tech.kujiale.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '移动端'
+      'url': 'https://kujiale-mobile.github.io'
+    - 'name': 'Ghost'
+      'url': 'https://ghost.org'

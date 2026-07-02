@@ -1,0 +1,10 @@
+'site':
+  'name': 'tobi.oetiker.ch'
+  'url': 'http://tobi.oetiker.ch/'
+  'description': '友情链接'
+  'links': '/links.html'
+  'friends':
+    - 'name': 'IT-Support Group'
+      'url': 'http://isg.ee.ethz.ch'
+    - 'name': 'EMD -- Electronic Mail Directory'
+      'url': 'http://emd.ethz.ch'

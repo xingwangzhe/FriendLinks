@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.darcs.net'
+  'url': 'http://blog.darcs.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'ETSII'
+      'url': 'https://www.informatica.us.es/'
+    - 'name': 'Pijul'
+      'url': 'http://pijul.org/'

@@ -1,0 +1,16 @@
+'site':
+  'name': 'sublimecommunity.slack.com'
+  'url': 'https://sublimecommunity.slack.com/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'Product Tour'
+      'url': 'https://slackdemo.com/'
+    - 'name': 'Slack Certified'
+      'url': 'https://slackcertified.com'
+    - 'name': 'Brand Center'
+      'url': 'https://brand.slackhq.com/'
+    - 'name': 'Engineering Blog'
+      'url': 'https://slack.engineering/'
+    - 'name': 'Design Blog'
+      'url': 'https://slack.design/'

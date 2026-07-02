@@ -1,0 +1,10 @@
+'site':
+  'name': 'byteman.jboss.org'
+  'url': 'https://byteman.jboss.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Blog'
+      'url': 'http://bytemanblog.blogspot.co.uk/'
+    - 'name': 'More »'
+      'url': 'http://bytemanblog.blogspot.com'

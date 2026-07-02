@@ -1,0 +1,10 @@
+'site':
+  'name': 'myhkw.cn'
+  'url': 'https://myhkw.cn/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Layui官网'
+      'url': 'https://layui.dev/'
+    - 'name': 'ThinkPHP官网'
+      'url': 'http://www.thinkphp.cn/'

@@ -1,0 +1,14 @@
+'site':
+  'name': 'raku.org'
+  'url': 'https://raku.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'modules'
+      'url': 'https://raku.land'
+    - 'name': 'htmx'
+      'url': 'https://htmx.org'
+    - 'name': 'Åir'
+      'url': 'https://harcstack.org'
+    - 'name': 'picocss'
+      'url': 'https://picocss.com'

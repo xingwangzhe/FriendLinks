@@ -1,0 +1,14 @@
+'site':
+  'name': 'uncenter.dev'
+  'url': 'https://uncenter.dev/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'resources'
+      'url': 'https://learneleventy.dev'
+    - 'name': 'Nix'
+      'url': 'https://nixos.org/'
+    - 'name': 'Catppuccin'
+      'url': 'https://catppuccin.com/'
+    - 'name': 'Catppuccin Webring'
+      'url': 'https://ctp-webr.ing/'

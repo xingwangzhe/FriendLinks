@@ -1,0 +1,14 @@
+'site':
+  'name': '37signals.com'
+  'url': 'https://37signals.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Basecamp'
+      'url': 'https://basecamp.com'
+    - 'name': 'HEY'
+      'url': 'https://www.hey.com'
+    - 'name': 'Fizzy'
+      'url': 'https://www.fizzy.do'
+    - 'name': 'ONCE'
+      'url': 'https://once.com'

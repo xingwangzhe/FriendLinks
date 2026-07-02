@@ -1,0 +1,10 @@
+'site':
+  'name': 'simple-statistics.github.io'
+  'url': 'https://simple-statistics.github.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'browserify'
+      'url': 'http://browserify.org'
+    - 'name': 'webpack'
+      'url': 'https://webpack.github.io/'

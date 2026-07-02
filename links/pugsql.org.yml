@@ -1,0 +1,12 @@
+'site':
+  'name': 'pugsql.org'
+  'url': 'https://pugsql.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'The .club Club'
+      'url': 'http://dotclub.club'
+    - 'name': 'HugSQL'
+      'url': 'https://hugsql.org'
+    - 'name': 'Clojure'
+      'url': 'https://clojure.org'

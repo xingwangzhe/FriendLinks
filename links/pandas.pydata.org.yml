@@ -1,0 +1,10 @@
+'site':
+  'name': 'pandas.pydata.org'
+  'url': 'https://pandas.pydata.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'NumFOCUS, Inc.'
+      'url': 'https://numfocus.org'
+    - 'name': 'OVHcloud'
+      'url': 'https://www.ovhcloud.com'

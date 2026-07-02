@@ -1,0 +1,12 @@
+'site':
+  'name': 'baabaa.blog'
+  'url': 'https://baabaa.blog/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Fediring'
+      'url': 'https://fediring.net/'
+    - 'name': 'GrapheneOS'
+      'url': 'https://grapheneos.org/'
+    - 'name': 'Home Assistant'
+      'url': 'https://www.home-assistant.io/'

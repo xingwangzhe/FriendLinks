@@ -1,0 +1,14 @@
+'site':
+  'name': 'element.io'
+  'url': 'https://element.io/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'Matrix open standard'
+      'url': 'https://matrix.org/'
+    - 'name': 'Veilant'
+      'url': 'https://www.veilant.com'
+    - 'name': 'Matrix Conference'
+      'url': 'https://2024.matrix.org/'
+    - 'name': 'The Matrix Conference 2025'
+      'url': 'https://conference.matrix.org/'

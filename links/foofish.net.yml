@@ -1,0 +1,12 @@
+'site':
+  'name': 'foofish.net'
+  'url': 'http://foofish.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Vimiix'
+      'url': 'https://www.vimiix.com/'
+    - 'name': 'IT码农'
+      'url': 'https://tanqingbo.cn'
+    - 'name': '无涯教程网'
+      'url': 'https://www.learnfk.com'

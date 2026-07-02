@@ -1,0 +1,10 @@
+'site':
+  'name': 'graalpy.org'
+  'url': 'https://graalpy.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'GraalVM'
+      'url': 'https://graalvm.org/'
+    - 'name': 'Graal Stack'
+      'url': 'https://graal.cloud/'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'czsun.site'
+  'url': 'https://www.czsun.site/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'project'
+      'url': 'https://ekar-leaderboard.github.io/'
+    - 'name': 'AntNLP'
+      'url': 'https://antnlp.org/'

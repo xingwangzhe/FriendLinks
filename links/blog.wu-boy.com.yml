@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.wu-boy.com'
+  'url': 'https://blog.wu-boy.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'MCP (Model Context Protocol)'
+      'url': 'https://modelcontextprotocol.io'
+    - 'name': 'k3s'
+      'url': 'https://k3s.io'

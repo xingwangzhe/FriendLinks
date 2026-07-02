@@ -1,0 +1,12 @@
+'site':
+  'name': 'lucaionescu.com'
+  'url': 'https://lucaionescu.com/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'Custom tooling for creating generative art in the browser with JavaScript, rende'
+      'url': 'https://ioan1x-svg.netlify.app'
+    - 'name': 'Experimental WebGL live coding environment'
+      'url': 'https://webgl-live.netlify.app'
+    - 'name': 'Experimental framework for browser-based text art, inspired by GLSL fragment sha'
+      'url': 'https://cljs-ascii.netlify.app'

@@ -1,0 +1,12 @@
+'site':
+  'name': 'sws-extension.org'
+  'url': 'https://www.sws-extension.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'REAPER'
+      'url': 'http://www.reaper.fm'
+    - 'name': 'Cockos, Inc.'
+      'url': 'http://www.cockos.com'
+    - 'name': 'Jeffos'
+      'url': 'http://reaper.mj-s.com'

@@ -1,0 +1,14 @@
+'site':
+  'name': 'snarfed.org'
+  'url': 'https://snarfed.org/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'SnipSnap'
+      'url': 'http://snipsnap.org/'
+    - 'name': 'Maulik Shah'
+      'url': 'http://maulik.net/'
+    - 'name': 'Bill Magrath'
+      'url': 'http://magrath.com/'
+    - 'name': 'Nathan Stoll'
+      'url': 'http://nathanstoll.com/'

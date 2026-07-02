@@ -1,0 +1,10 @@
+'site':
+  'name': 'jupyterbook.org'
+  'url': 'https://jupyterbook.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'MyST Document Engine'
+      'url': 'https://mystmd.org'
+    - 'name': 'Discord'
+      'url': 'https://discord.mystmd.org'

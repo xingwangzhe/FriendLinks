@@ -1,0 +1,10 @@
+'site':
+  'name': 'mercurial-scm.org'
+  'url': 'https://www.mercurial-scm.org/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'Heptapod'
+      'url': 'https://heptapod.net/'
+    - 'name': 'Pijul'
+      'url': 'https://pijul.org/'

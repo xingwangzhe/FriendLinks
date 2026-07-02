@@ -1,0 +1,18 @@
+'site':
+  'name': 'smlnj.org'
+  'url': 'http://www.smlnj.org/'
+  'description': '友情链接'
+  'links': '/links.html'
+  'friends':
+    - 'name': 'The MLton whole-program optimizing SML compiler. (SML ''97)'
+      'url': 'http://www.mlton.org/'
+    - 'name': 'The Standard ML project'
+      'url': 'http://www.smlfamily.org'
+    - 'name': 'Poly/ML'
+      'url': 'http://www.polyml.org'
+    - 'name': 'The Objective Caml dialect of ML'
+      'url': 'http://ocaml.org'
+    - 'name': 'The F# dialect of ML'
+      'url': 'http://fsharp.org'
+    - 'name': 'Lucent Technologies; Bell Laboratories'
+      'url': 'http://www.lucent.com/'

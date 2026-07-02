@@ -1,0 +1,12 @@
+'site':
+  'name': 'astexplorer.net'
+  'url': 'https://astexplorer.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Babel'
+      'url': 'https://babeljs.io/'
+    - 'name': 'Font Awesome'
+      'url': 'https://fontawesome.com/'
+    - 'name': 'Express'
+      'url': 'https://expressjs.com/'

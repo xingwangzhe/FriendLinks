@@ -1,0 +1,10 @@
+'site':
+  'name': 'phcode.io'
+  'url': 'https://phcode.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Account'
+      'url': 'https://account.phcode.dev/'
+    - 'name': 'open on web'
+      'url': 'https://phcode.dev/'

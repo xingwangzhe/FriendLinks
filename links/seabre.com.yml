@@ -1,0 +1,16 @@
+'site':
+  'name': 'seabre.com'
+  'url': 'https://www.seabre.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Yubico'
+      'url': 'https://www.yubico.com/'
+    - 'name': 'OpenCV'
+      'url': 'http://opencv.org'
+    - 'name': 'Overtone'
+      'url': 'http://overtone.github.io/'
+    - 'name': 'Light Table'
+      'url': 'http://www.lighttable.com/'
+    - 'name': 'Leiningen'
+      'url': 'http://leiningen.org/'

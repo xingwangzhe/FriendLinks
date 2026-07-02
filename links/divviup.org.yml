@@ -1,0 +1,12 @@
+'site':
+  'name': 'divviup.org'
+  'url': 'https://divviup.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Internet Security Research Group'
+      'url': 'https://abetterinternet.org'
+    - 'name': 'Let''s Encrypt'
+      'url': 'https://letsencrypt.org'
+    - 'name': 'Prossimo'
+      'url': 'https://memorysafety.org'

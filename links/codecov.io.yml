@@ -1,0 +1,12 @@
+'site':
+  'name': 'codecov.io'
+  'url': 'https://codecov.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Pro Support'
+      'url': 'https://codecovpro.zendesk.com/'
+    - 'name': 'Enterprise Support'
+      'url': 'https://codecoventerprise.zendesk.com/'
+    - 'name': 'Community'
+      'url': 'https://community.codecov.com/'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'xmonad.org'
+  'url': 'http://xmonad.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Haskell'
+      'url': 'https://www.haskell.org/'
+    - 'name': 'IRC channel'
+      'url': 'https://web.libera.chat/#xmonad'

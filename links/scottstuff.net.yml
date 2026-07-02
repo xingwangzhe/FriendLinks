@@ -1,0 +1,14 @@
+'site':
+  'name': 'scottstuff.net'
+  'url': 'https://scottstuff.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'VyOS'
+      'url': 'https://vyos.io/'
+    - 'name': 'Tulip Valley Farms'
+      'url': 'https://tulipvalley.com/'
+    - 'name': 'Cedar Creek Grist Mill'
+      'url': 'https://www.cedarcreekgristmill.org/'
+    - 'name': 'Whistler, BC'
+      'url': 'https://www.whistler.com/'

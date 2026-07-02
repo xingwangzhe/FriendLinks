@@ -1,0 +1,12 @@
+'site':
+  'name': 'haripm.com'
+  'url': 'https://haripm.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Helix'
+      'url': 'https://helix-editor.com/'
+    - 'name': 'Fish'
+      'url': 'https://fishshell.com/'
+    - 'name': 'Advent of Code'
+      'url': 'https://adventofcode.com'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.mengguyi.com'
+  'url': 'https://blog.mengguyi.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Waline'
+      'url': 'https://waline.js.org'
+    - 'name': 'Debian 12'
+      'url': 'https://www.debian.org'

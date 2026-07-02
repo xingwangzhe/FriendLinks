@@ -1,0 +1,12 @@
+'site':
+  'name': 'djangoproject.com'
+  'url': 'https://www.djangoproject.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Official merchandise store'
+      'url': 'https://django.threadless.com/'
+    - 'name': 'Threespot'
+      'url': 'https://www.threespot.com'
+    - 'name': 'andrevv'
+      'url': 'http://andrevv.com/'

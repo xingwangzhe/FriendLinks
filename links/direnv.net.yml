@@ -1,0 +1,14 @@
+'site':
+  'name': 'direnv.net'
+  'url': 'https://direnv.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '12factor apps'
+      'url': 'https://12factor.net/'
+    - 'name': 'Matrix'
+      'url': 'https://matrix.to/#/#direnv:numtide.com'
+    - 'name': 'homebrew'
+      'url': 'https://brew.sh/'
+    - 'name': 'starship'
+      'url': 'https://starship.rs/'

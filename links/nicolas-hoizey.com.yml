@@ -1,0 +1,14 @@
+'site':
+  'name': 'nicolas-hoizey.com'
+  'url': 'https://nicolas-hoizey.com/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'my photography portfolio'
+      'url': 'https://nicolas-hoizey.photo'
+    - 'name': 'EISTI'
+      'url': 'https://www.eisti.fr/'
+    - 'name': 'Clever Age'
+      'url': 'http://www.clever-age.com/'
+    - 'name': 'Paris Web'
+      'url': 'https://www.paris-web.fr/'

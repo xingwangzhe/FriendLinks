@@ -1,0 +1,10 @@
+'site':
+  'name': 'maarten.im'
+  'url': 'https://www.maarten.im/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'Lightspeed'
+      'url': 'https://www.lightspeedhq.com/'
+    - 'name': 'Gatsby'
+      'url': 'https://www.gatsbyjs.org/'

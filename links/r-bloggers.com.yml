@@ -1,0 +1,14 @@
+'site':
+  'name': 'r-bloggers.com'
+  'url': 'http://www.r-bloggers.com/'
+  'description': '友情链接'
+  'links': '/links.html'
+  'friends':
+    - 'name': 'R jobs'
+      'url': 'https://www.r-users.com/'
+    - 'name': 'here'
+      'url': 'http://r-posts.com/'
+    - 'name': 'python-bloggers.com (python/data-science news)'
+      'url': 'https://python-bloggers.com/'
+    - 'name': 'MH Corporate basic by MH Themes'
+      'url': 'https://www.mhthemes.com/'

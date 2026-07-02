@@ -1,0 +1,10 @@
+'site':
+  'name': 'fengyelab.cc'
+  'url': 'https://www.fengyelab.cc/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'webjing'
+      'url': 'https://blog.webjing.cn'
+    - 'name': '张洪Heo'
+      'url': 'https://blog.zhheo.com/'

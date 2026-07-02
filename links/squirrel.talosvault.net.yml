@@ -1,0 +1,14 @@
+'site':
+  'name': 'squirrel.talosvault.net'
+  'url': 'https://squirrel.talosvault.net/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'raf'
+      'url': 'https://notashelf.dev/'
+    - 'name': 'twig'
+      'url': 'https://imnottwig.github.io'
+    - 'name': 'jaglekon'
+      'url': 'https://jaglekon.de'
+    - 'name': 'nixwebr.ing'
+      'url': 'https://nixwebr.ing'

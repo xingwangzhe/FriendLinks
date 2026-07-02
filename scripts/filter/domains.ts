@@ -180,6 +180,102 @@ export const NON_BLOG_DOMAINS: string[] = [
   // 旅游/汽车/培训平台
   "yichangly.com", "dycjy.com", "i7car.com", "citscsc.com", "tuozhanm.com",
   "0559hs.com", "0792u.com", "ourdour.com", "quanjingke.com", "pianfang.cn",
+  // 科技媒体/门户
+  "qudong.com", "tche.cn", "ciotimes.com", "ithome.com", "ikanchai.com",
+  "mydrivers.com", "fromgeek.com", "chooseauto.com.cn", "gfan.com",
+  // 软件下载镜像站
+  "qudoutu.cn", "dyjqd.cn", "as-ssd-benchmark.cn", "caesium.cn", "cn-directx.cn",
+  "gimp-org.cn", "smartink.cn", "joyfoot.cn", "deskpin.cn", "q-bittorrent.cn",
+  "crystaldisk.cn", "dittodown.cn", "potplay.com.cn", "mark-text.cn",
+  "win11debloat.cn", "winhance.cn", "frpgo.com", "getsharex.cn", "potplay.cn",
+  "sumatrapdf.cn", "glazewm.cn", "prime95.cn", "losslesscut.cn",
+  // 菠菜站群
+  "qugujia.com", "qzsnet.com", "zozux.com", "ford-financing.com", "1688xt.com", "cnzhengding.com",
+  "zzinfor.com", "can95.com", "tyjsks.com", "avuye.com", "hairuntravel.com", "huyangs.com", "firlz.com",
+  // 工具/AI平台
+  "zuoshipin.com", "spdiy.net", "3dfty.com", "wpbom.com", "ai8.net", "deepseek.com",
+  // 企业/VPS/侦探服务
+  "phpiis.com", "kvm.la", "tenstars.net", "766.im",
+  // 工具/学术平台
+  "zotero.org", "zbib.org", "digitalscholar.org",
+  // 组织/个人主页平台
+  "opensource.org", "carrd.co",
+  // 字体下载/工具/教程站
+  "maoken.com", "html.am", "hu60.cn", "5idev.com",
+  // 教育考试平台
+  "zjzikao.org", "fjjszg.cn", "zzwgd.com", "jszg.gd.cn", "gdgzgz.cn", "zjckw.org", "acgedu.cn",
+  // 文学/书推平台
+  "zw4j.com", "feiyewang.cn", "wfbrood.com",
+  // 字体/设计/工具站
+  "ziyouziti.com", "teshuzifu.cn", "peiseka.com", "logo800.cn", "baizaoyin.cn",
+  "shandianedu.cn", "tianshenqi.com", "zfont.cn", "ssjjss.com", "logo123.com",
+  "mfont.com", "ziticq.com", "mbtipro.cn",
+  // 设计素材/工具平台
+  "pexels.com", "unsplash.com", "gratisography.com", "lifeofpix.com", "freepik.com",
+  "dribbble.com", "behance.net", "flaticon.com", "iconfont.cn", "remove.bg",
+  "ilovepdf.com", "tinypng.com", "1001fonts.com", "dafont.com",
+  // 工具/查询/娱乐站
+  "xche.net", "yxmin.com", "xiaomac.com", "sztv.net", "insxy.com",
+  "appxy.net", "apkk.com", "jurl.me", "sourl.net", "seoii.net", "bxfan.com", "yousou.net", "tutucar.com",
+  // 知名门户/大站(非个人博客)
+  "sogou.com", "cri.cn", "cnr.cn", "qstheory.cn", "mgtv.com", "163.com",
+  "sohu.com", "sina.com.cn", "sina.cn", "sinaimg.cn", "hupu.com",
+  "xcar.com.cn", "pcauto.com.cn", "eastmoney.com", "ixigua.com",
+  "tvmao.com", "icbc.com.cn", "ccb.com", "abchina.com", "boc.cn", "95599.cn",
+  "10jqka.com.cn", "stockstar.com", "southmoney.com", "cngold.org",
+  "cankaoxiaoxi.com", "guancha.cn", "bjnews.com.cn", "cnfol.com",
+  "qcc.com", "notion.so", "js.design", "ted.com", "duolingo.com",
+  "ximalaya.com", "lrts.me", "fanqienovel.com", "hongxiu.com",
+  "qdmm.com", "qimao.com", "jjwxc.net", "xxsy.net",
+  "airchina.com.cn", "ch.com", "ceair.com", "xiachufang.com", "douguo.com",
+  "shixiseng.com", "chinahr.com", "jobui.com", "huibo.com",
+  "dongchedi.com", "yiche.com", "dongqiudi.com", "leisu.com", "zhibo8.com",
+  "ke.com", "tianqi.com", "ganji.com", "dxy.cn", "zhenai.com", "jiayuan.com",
+  "lofter.com", "youdao.com", "booking.com", "shutu.cn", "52ppt.com",
+  "chatglm.cn", "bigmodel.cn", "xfyun.cn", "xuetangx.com", "zxxk.com",
+  "nowcoder.com", "fenbi.com", "eol.cn", "10086.cn",
+  // 工具/软件/下载站
+  "buzl.cn", "skyyyds.com", "追剧.cc", "daoso.cn", "yinghezhinan.com",
+  "yingshiso.top", "qdys1.cc", "hellociqryx6e.com", "gazes.site", "xhkan.top",
+  "duanju55.com", "88kq.me", "juok5.top", "huobk.com", "znys.us", "kxyy.me",
+  "quickvod.cc", "touhaos.top", "taiee.xyz", "nkdb.cc", "4kzaixian.top",
+  "xl720.com", "uump4.cc", "ldysg.com", "ainunu.cc", "seedhub.pro",
+  "judodo.cn", "souldebug.com", "fangkong.cc", "agekk.com", "mikanani.me",
+  "fitacg.com", "fanchawu.cc", "dmwo.one", "tvtfun.net", "pekolove.net",
+  "age.tv", "anime1.me", "godamh.com", "molijun.com", "dute8.cn", "mefcl.com",
+  "foxirj.com", "xkwo.com", "ghxi.com", "haowallpaper.com", "rikua.com",
+  "gequke.com", "gequbao.com", "23ape.net", "fangpi.net", "gequhai.com",
+  "minorsong.com", "yinwe.com", "radio5.cn", "sao.fm", "wuguanggao.top",
+  "jinyongwx.com", "linovelib.com", "guihualianpian.cn", "onehu.xyz",
+  "xiaoshuo84.cc", "owlook.com.cn", "jiumodiary.com", "shidianguji.com",
+  "tingyou.fm", "atimebook.com", "duzhege.cn", "laohuabao.com",
+  "reader.jojokanbao.cn", "yxcku.com", "switchxiazai.com", "gameshare.cc",
+  "xdgame.io", "laojiku.com", "gamer520.com", "xyg688.com",
+  "yikm.net", "ra2web.cn", "flappybird.io", "mcjs.cc",
+  "fuym.cn", "localsend.org", "zaixianps.net", "100font.com",
+  "1ppt.com", "macbl.com", "uugai.com", "xdiarys.com", "stickerbaker.com",
+  "u.tools", "huorong.cn", "xunlei.com", "reckfeng.com", "firpe.cn",
+  "sysri.cn", "testufo.com", "exprank.com", "trae.cn", "cmzi.com",
+  "sourcetreeapp.com", "tortoisegit.org", "apifox.com", "steampp.net",
+  "retiehe.com", "imgbb.com", "sublimetext.com",
+  // 工具镜像站
+  "softonic.com", "kzisp.com", "zongsang.com",
+  // 杂志/发表/批发/法律/新闻站
+  "cnmy.org.cn", "yunzazhi.com", "sozazhi.com", "yfabiao.com", "fly63.com",
+  "2466.cn", "fumuyu.com", "866120.com", "dyc123.com", "imlaw.cn",
+  "haoyun5.net", "yeekang.com", "law158.com",
+  // 游戏门户/非博客
+  "qxunye.com", "ali213.net",
+  // 技术社区/平台(非个人博客)
+  "xitu.io",
+  // ACGN资源/导航/代购平台
+  "zhaicangku.com", "acg17.com", "acgjc.com", "animetox.com", "sendico.com",
+  // 官方/教育机构
+  "chsi.com.cn", "gatzs.com.cn",
+  // .top 色情/垃圾站
+  "zzx0826.top", "situku.top", "todoff.top",
+  // 博客主题/框架
+  "theme-next.js.org",
   "tailwindcss.com", "getbootstrap.com", "jquery.com",
   "webpack.js.org", "vitejs.dev", "nextjs.org", "nuxt.com", "svelte.dev",
   "electronjs.org", "flutter.dev", "dart.dev",

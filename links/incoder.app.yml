@@ -1,0 +1,14 @@
+'site':
+  'name': 'incoder.app'
+  'url': 'https://incoder.app/'
+  'description': '友情链接'
+  'links': '/link'
+  'friends':
+    - 'name': 'BladeCode个人博客'
+      'url': 'https://incoder.org'
+    - 'name': 'Backend服务端技能栈'
+      'url': 'https://backend.incoder.org'
+    - 'name': 'MuseFlow业余爱好'
+      'url': 'https://museflow.io'
+    - 'name': 'RootCluster学习，练习'
+      'url': 'https://rootcluster.github.io'

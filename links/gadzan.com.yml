@@ -1,0 +1,10 @@
+'site':
+  'name': 'gadzan.com'
+  'url': 'https://gadzan.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Ghost'
+      'url': 'https://ghost.org'
+    - 'name': 'Nuxt.js'
+      'url': 'https://nuxtjs.org'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.huanxinbot.com'
+  'url': 'https://blog.huanxinbot.com/'
+  'description': '友情链接'
+  'links': '/links.html'
+  'friends':
+    - 'name': 'xiaoxian xiaoxian.org'
+      'url': 'https://xiaoxian.org'
+    - 'name': '量子猫步 me.shanshui.site'
+      'url': 'https://shanshui.site'

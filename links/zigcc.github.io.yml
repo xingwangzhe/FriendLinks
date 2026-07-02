@@ -1,0 +1,12 @@
+'site':
+  'name': 'zigcc.github.io'
+  'url': 'https://zigcc.github.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Zine'
+      'url': 'https://zine-ssg.io/'
+    - 'name': 'Zig 圣经'
+      'url': 'http://course.ziglang.cc'
+    - 'name': 'Zig Cookbook'
+      'url': 'http://cookbook.ziglang.cc'

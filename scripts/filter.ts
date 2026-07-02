@@ -74,7 +74,7 @@ export function isJunkEntryWithReason(f: { name: string; url: string }, siteUrl?
   if (SENSITIVE_SET.has(createHash("sha256").update(hostname).digest("hex"))) return { junk: true, reason: "敏感域名" };
 
   // 仅排除个人绝对无法注册的机构域名
-  const instMatch = hostname.match(/\.(edu|gov|mil|go)(\.[a-z]{2})?$/);
+  const instMatch = hostname.match(/\.(edu|gov|mil|go|ac\.(?:uk|jp|za|in|kr|nz|au|th|id|sg|my|ph|pk|bd|lk|np|tw|hk|mo))(\.[a-z]{2})?$/);
   if (instMatch) return { junk: true, reason: `机构域名(.${instMatch[1]}${instMatch[2] || ""})` };
 
   // IP 地址

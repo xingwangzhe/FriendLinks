@@ -1,0 +1,12 @@
+'site':
+  'name': 'abetterinternet.org'
+  'url': 'https://www.abetterinternet.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Let''s Encrypt'
+      'url': 'https://letsencrypt.org/'
+    - 'name': 'Prossimo'
+      'url': 'https://www.memorysafety.org/'
+    - 'name': 'Divvi Up'
+      'url': 'https://divviup.org/'

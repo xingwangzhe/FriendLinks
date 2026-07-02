@@ -1,0 +1,10 @@
+'site':
+  'name': 'kanman.com'
+  'url': 'http://www.kanman.com/'
+  'description': '友情链接'
+  'links': '/link'
+  'friends':
+    - 'name': '漫客栈'
+      'url': 'https://www.mkzhan.com/'
+    - 'name': '知音漫客'
+      'url': 'https://www.zymk.cn/'

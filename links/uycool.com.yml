@@ -1,0 +1,10 @@
+'site':
+  'name': 'uycool.com'
+  'url': 'http://uycool.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'WHOIS查询'
+      'url': 'https://whois.dnspod.cn/'
+    - 'name': 'DNSPod'
+      'url': 'https://www.dnspod.cn/'

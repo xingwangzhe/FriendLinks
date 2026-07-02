@@ -1,0 +1,10 @@
+'site':
+  'name': 'clojure-lsp.io'
+  'url': 'https://clojure-lsp.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Clojurists Together'
+      'url': 'https://www.clojuriststogether.org/'
+    - 'name': 'Eccentric-J'
+      'url': 'https://eccentric-j.com/'

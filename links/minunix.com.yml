@@ -1,0 +1,10 @@
+'site':
+  'name': 'minunix.com'
+  'url': 'http://www.minunix.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '访问 Sedo'
+      'url': 'https://www.sedo.com'
+    - 'name': '访问 Afternic'
+      'url': 'https://www.afternic.com'

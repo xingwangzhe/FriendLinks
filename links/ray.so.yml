@@ -1,0 +1,16 @@
+'site':
+  'name': 'ray.so'
+  'url': 'https://www.ray.so/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Our extension API is designed to allow anyone with web development skills to unl'
+      'url': 'https://developers.raycast.com/'
+    - 'name': 'Trust Center'
+      'url': 'https://trust.raycast.com'
+    - 'name': 'Glaze'
+      'url': 'https://glaze.app'
+    - 'name': 'Try Raycast AI'
+      'url': 'https://www.raycast.ai'
+    - 'name': 'Merch'
+      'url': 'https://merch.raycast.com'

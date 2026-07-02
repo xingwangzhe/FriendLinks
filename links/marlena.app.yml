@@ -1,0 +1,10 @@
+'site':
+  'name': 'marlena.app'
+  'url': 'https://marlena.app/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Home'
+      'url': 'https://marlena.ruhr/'
+    - 'name': 'Kontakt'
+      'url': 'https://m7n.de/'

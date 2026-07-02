@@ -1,0 +1,8 @@
+'site':
+  'name': 'rsync.samba.org'
+  'url': 'https://rsync.samba.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Cygwin'
+      'url': 'https://www.cygwin.com/'

@@ -1,0 +1,16 @@
+'site':
+  'name': 'ookla.com'
+  'url': 'https://www.ookla.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'speedtest.net'
+      'url': 'https://www.speedtest.net/'
+    - 'name': 'downdetector.com'
+      'url': 'https://downdetector.com/'
+    - 'name': 'ekahau.com'
+      'url': 'https://www.ekahau.com/'
+    - 'name': 'rootmetrics.com'
+      'url': 'https://rootmetrics.com/'
+    - 'name': 'RootMetrics®'
+      'url': 'https://www.rootmetrics.com/'

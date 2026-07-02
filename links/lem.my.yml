@@ -1,0 +1,10 @@
+'site':
+  'name': 'lem.my'
+  'url': 'https://lem.my/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'catppuccin webring'
+      'url': 'https://ctp-webr.ing'
+    - 'name': 'nix webring'
+      'url': 'https://nixwebr.ing'

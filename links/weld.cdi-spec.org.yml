@@ -1,0 +1,16 @@
+'site':
+  'name': 'weld.cdi-spec.org'
+  'url': 'https://weld.cdi-spec.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Commonhaus'
+      'url': 'https://commonhaus.org'
+    - 'name': 'WildFly'
+      'url': 'https://www.wildfly.org/'
+    - 'name': 'Eclipse GlassFish'
+      'url': 'https://glassfish.org/'
+    - 'name': 'Open Liberty'
+      'url': 'https://openliberty.io/'
+    - 'name': 'Eclipse Jetty'
+      'url': 'https://jetty.org/'

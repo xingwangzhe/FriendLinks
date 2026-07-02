@@ -1,0 +1,18 @@
+'site':
+  'name': 'yaml.org'
+  'url': 'https://yaml.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'yaml.com'
+      'url': 'https://yaml.com/'
+    - 'name': 'play.yaml.com'
+      'url': 'https://play.yaml.com/'
+    - 'name': 'yaml.info'
+      'url': 'https://yaml.info/'
+    - 'name': 'matrix.yaml.info'
+      'url': 'https://matrix.yaml.info/'
+    - 'name': 'yamlscript.org'
+      'url': 'https://yamlscript.org/'
+    - 'name': '#chat:yaml.io'
+      'url': 'https://matrix.to/#/#chat:yaml.io'

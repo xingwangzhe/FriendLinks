@@ -1,0 +1,12 @@
+'site':
+  'name': 'blog.leienci.site'
+  'url': 'https://blog.leienci.site/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Sansmall''s Blog'
+      'url': 'https://sansmall.cn/'
+    - 'name': 'RyanZhang''s Blog'
+      'url': 'https://blog.bytesycn.cn/'
+    - 'name': 'Loongchan''s Blog'
+      'url': 'http://loongchan.cn/'

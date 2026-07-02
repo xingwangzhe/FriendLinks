@@ -1,0 +1,12 @@
+'site':
+  'name': 'magiclike.net'
+  'url': 'https://magiclike.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '@MagicLike'
+      'url': 'https://magiclike.itch.io'
+    - 'name': 'Folding@home'
+      'url': 'https://foldingathome.org/'
+    - 'name': 'Fediring'
+      'url': 'https://fediring.net'

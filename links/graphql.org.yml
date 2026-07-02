@@ -1,0 +1,16 @@
+'site':
+  'name': 'graphql.org'
+  'url': 'https://graphql.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'html[class~="dark"] .AirBnB_svg__st0{fill:#fff}'
+      'url': 'https://airbnb.com'
+    - 'name': 'html[class~="dark"] .Intuit_svg__st0{fill:#fff}'
+      'url': 'https://intuit.com'
+    - 'name': 'html[class~="dark"] .IBM_svg__st0{fill:#fff}'
+      'url': 'https://ibm.com'
+    - 'name': 'html[class~="dark"] .NewYorkTimes_svg__st0{fill:#fff}'
+      'url': 'https://nytimes.com'
+    - 'name': 'html[class~="dark"] .Shopify_svg__st0{fill:#fff}'
+      'url': 'https://shopify.com'

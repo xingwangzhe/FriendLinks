@@ -1,0 +1,14 @@
+'site':
+  'name': 'fedoramagazine.org'
+  'url': 'https://fedoramagazine.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Chat'
+      'url': 'https://chat.fedoraproject.org/'
+    - 'name': 'Discourse'
+      'url': 'https://discussion.fedoraproject.org/'
+    - 'name': 'the Fedora Linux operating system'
+      'url': 'https://getfedora.org/'
+    - 'name': 'Fedora Linux 44 is available now'
+      'url': 'https://fedoraproject.org/'

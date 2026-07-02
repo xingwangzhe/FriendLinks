@@ -1,0 +1,18 @@
+'site':
+  'name': 'jwt.io'
+  'url': 'https://jwt.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Passkeys Playground'
+      'url': 'https://learnpasskeys.io/'
+    - 'name': 'WebAuthn Playground'
+      'url': 'https://webauthn.me/'
+    - 'name': 'OIDC Playground'
+      'url': 'https://openidconnect.net/'
+    - 'name': 'SAML Tool'
+      'url': 'https://samltool.io/'
+    - 'name': 'Security'
+      'url': 'https://trust.okta.com/'
+    - 'name': 'Right-click or long-press for logo options'
+      'url': 'https://auth0.com/'

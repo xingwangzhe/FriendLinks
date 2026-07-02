@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.homulilly.com'
+  'url': 'http://blog.homulilly.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Folio'
+      'url': 'https://folio.nep.me'
+    - 'name': 'Flatpaper'
+      'url': 'https://flatpaper.nep.me'

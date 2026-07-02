@@ -1,0 +1,10 @@
+'site':
+  'name': 'freegis.org'
+  'url': 'http://freegis.org/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'OpenStreetMap'
+      'url': 'https://www.openstreetmap.org/'
+    - 'name': 'Intevation GmbH'
+      'url': 'https://intevation.de/'

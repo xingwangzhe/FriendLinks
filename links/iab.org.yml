@@ -1,0 +1,16 @@
+'site':
+  'name': 'iab.org'
+  'url': 'https://www.iab.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'IETF'
+      'url': 'https://www.ietf.org'
+    - 'name': 'IETF Trust'
+      'url': 'https://trustee.ietf.org/'
+    - 'name': 'IRTF'
+      'url': 'https://www.irtf.org'
+    - 'name': 'RFC Editor'
+      'url': 'https://www.rfc-editor.org'
+    - 'name': 'IANA'
+      'url': 'https://www.iana.org'

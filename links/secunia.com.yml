@@ -1,0 +1,14 @@
+'site':
+  'name': 'secunia.com'
+  'url': 'http://secunia.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Community'
+      'url': 'https://community.flexera.com/'
+    - 'name': 'Snow Atlas login'
+      'url': 'https://www.snowsoftware.io/'
+    - 'name': 'Partner Portal'
+      'url': 'https://partnerhub.flexera.com/'
+    - 'name': 'Revenera.com'
+      'url': 'https://www.revenera.com'

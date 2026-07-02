@@ -1,0 +1,10 @@
+'site':
+  'name': 'storydragon.nl'
+  'url': 'https://storydragon.nl/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'FediRing'
+      'url': 'https://fediring.net/'
+    - 'name': 'search'
+      'url': 'https://search.fediring.net'

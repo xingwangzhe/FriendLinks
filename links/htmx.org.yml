@@ -1,0 +1,10 @@
+'site':
+  'name': 'htmx.org'
+  'url': 'https://htmx.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'intercooler.js'
+      'url': 'http://intercoolerjs.org'
+    - 'name': 'Hypermedia Systems'
+      'url': 'https://hypermedia.systems'

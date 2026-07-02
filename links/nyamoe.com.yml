@@ -1,0 +1,10 @@
+'site':
+  'name': 'nyamoe.com'
+  'url': 'https://www.nyamoe.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Privacy'
+      'url': 'https://gdpr-info.eu/'
+    - 'name': 'Magius EU Tsubasa'
+      'url': 'https://magius.eu'

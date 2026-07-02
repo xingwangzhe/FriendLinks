@@ -1,0 +1,12 @@
+'site':
+  'name': 'mattstein.com'
+  'url': 'https://mattstein.com/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'Umami'
+      'url': 'https://umami.is'
+    - 'name': 'devMode.fm Podcast'
+      'url': 'https://devmode.fm'
+    - 'name': '1MB Club'
+      'url': 'https://1mb.club'

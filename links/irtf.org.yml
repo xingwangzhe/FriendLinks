@@ -1,0 +1,18 @@
+'site':
+  'name': 'irtf.org'
+  'url': 'https://www.irtf.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'IETF'
+      'url': 'https://ietf.org/'
+    - 'name': 'IETF'
+      'url': 'https://www.ietf.org/'
+    - 'name': 'IAB'
+      'url': 'https://www.iab.org/'
+    - 'name': 'IANA'
+      'url': 'https://www.iana.org/'
+    - 'name': 'RFC Editor'
+      'url': 'https://www.rfc-editor.org/'
+    - 'name': 'IETF Trust'
+      'url': 'https://trustee.ietf.org/'

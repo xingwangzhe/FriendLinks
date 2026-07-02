@@ -1,0 +1,10 @@
+'site':
+  'name': 'm1hax.uk'
+  'url': 'https://m1hax.uk/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'APRS.fi'
+      'url': 'https://aprs.fi/#!mt=osm&z=16&call=a%2FM1HAX-9&timerange=604800&tail=604800'
+    - 'name': 'Webring Home'
+      'url': 'https://ring.fediverse.radio'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'yahoo.co.jp'
+  'url': 'http://yahoo.co.jp/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Yahoo!モバゲー'
+      'url': 'https://yahoo-mbga.jp/'
+    - 'name': 'TRILL'
+      'url': 'https://trilltrill.jp/'

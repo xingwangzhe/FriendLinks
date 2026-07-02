@@ -1,0 +1,16 @@
+'site':
+  'name': 'squid-cache.org'
+  'url': 'https://www.squid-cache.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Blog'
+      'url': 'http://squidproxy.wordpress.com/'
+    - 'name': 'Free CSS Templates'
+      'url': 'http://www.freecsstemplates.org/'
+    - 'name': 'Alex Dawson'
+      'url': 'http://theducks.org'
+    - 'name': 'Adrian Chadd'
+      'url': 'http://www.creative.net.au/'
+    - 'name': 'famfamfam.com'
+      'url': 'http://famfamfam.com/'

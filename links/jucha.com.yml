@@ -1,0 +1,16 @@
+'site':
+  'name': 'jucha.com'
+  'url': 'http://www.jucha.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '聚域网'
+      'url': 'https://www.juyu.com/'
+    - 'name': '玉米网'
+      'url': 'https://www.yumi.com/'
+    - 'name': '头牌知产'
+      'url': 'https://www.bg.cn/'
+    - 'name': '异业合作'
+      'url': 'https://www.bd.cn/'
+    - 'name': '龙门标局'
+      'url': 'https://www.lmbj.cn/'

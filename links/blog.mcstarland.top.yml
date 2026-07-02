@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.mcstarland.top'
+  'url': 'https://blog.mcstarland.top/'
+  'description': '友情链接'
+  'links': '/friends/'
+  'friends':
+    - 'name': 'blog.makotowu.cn'
+      'url': 'https://blog.makotowu.cn'
+    - 'name': 'blog.ryanhupcb.space'
+      'url': 'https://blog.ryanhupcb.space/'

@@ -1,0 +1,12 @@
+'site':
+  'name': 'zeptojs.com'
+  'url': 'https://zeptojs.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'PhoneGap'
+      'url': 'http://phonegap.com/'
+    - 'name': 'JSONP'
+      'url': 'http://json-p.org'
+    - 'name': 'Freckle Online Time Tracking'
+      'url': 'http://letsfreckle.com'

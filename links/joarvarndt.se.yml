@@ -1,0 +1,10 @@
+'site':
+  'name': 'joarvarndt.se'
+  'url': 'https://joarvarndt.se/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Eric Voegelin Society'
+      'url': 'https://ericvoegelin.org'
+    - 'name': 'Tom Chalky’s'
+      'url': 'https://tomchalky.com'

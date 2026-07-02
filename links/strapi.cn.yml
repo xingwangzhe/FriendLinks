@@ -1,0 +1,12 @@
+'site':
+  'name': 'strapi.cn'
+  'url': 'https://www.strapi.cn/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Contributor Docs'
+      'url': 'https://contributor.strapi.io'
+    - 'name': 'Discord'
+      'url': 'https://discord.strapi.io/'
+    - 'name': 'Strapi.io'
+      'url': 'https://strapi.io'

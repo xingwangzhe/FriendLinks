@@ -1,0 +1,10 @@
+'site':
+  'name': 'modcluster.io'
+  'url': 'https://www.modcluster.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Undertow'
+      'url': 'https://undertow.io/'
+    - 'name': 'WildFly'
+      'url': 'https://wildfly.org'

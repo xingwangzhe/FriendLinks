@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.pyzy.net'
+  'url': 'https://blog.pyzy.net/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'ThinkJS'
+      'url': 'https://thinkjs.org'
+    - 'name': 'FireKylin 0.15.18'
+      'url': 'https://firekylin.org'

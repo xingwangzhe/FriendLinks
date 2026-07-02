@@ -1,0 +1,14 @@
+'site':
+  'name': 'basecamp.com'
+  'url': 'https://basecamp.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '99.99% uptime record'
+      'url': 'https://www.37status.com/'
+    - 'name': '37signals™'
+      'url': 'https://37signals.com'
+    - 'name': 'HEY™'
+      'url': 'https://www.hey.com'
+    - 'name': 'Fizzy™'
+      'url': 'https://www.fizzy.do'

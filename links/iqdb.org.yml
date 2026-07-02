@@ -1,0 +1,12 @@
+'site':
+  'name': 'iqdb.org'
+  'url': 'http://www.iqdb.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Sankaku Channel'
+      'url': 'https://chan.sankakucomplex.com/'
+    - 'name': 'e-shuushuu'
+      'url': 'http://e-shuushuu.net/'
+    - 'name': 'Zerochan'
+      'url': 'http://zerochan.net/'

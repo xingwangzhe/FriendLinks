@@ -1,0 +1,18 @@
+'site':
+  'name': 'viteplus.dev'
+  'url': 'https://viteplus.dev/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Vite'
+      'url': 'https://vite.dev/'
+    - 'name': 'Rolldown'
+      'url': 'https://rolldown.rs/'
+    - 'name': 'Oxc / Oxlint'
+      'url': 'https://oxc.rs/'
+    - 'name': 'Vitest'
+      'url': 'https://vitest.dev/'
+    - 'name': 'tsdown'
+      'url': 'https://tsdown.dev/'
+    - 'name': 'VoidZero'
+      'url': 'https://voidzero.dev'

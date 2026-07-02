@@ -1,0 +1,16 @@
+'site':
+  'name': 'spritely.institute'
+  'url': 'https://spritely.institute/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '[bluesky]'
+      'url': 'https://spritelyinst.bsky.social'
+    - 'name': '#spritely'
+      'url': 'https://web.libera.chat/#spritely'
+    - 'name': 'libera.chat'
+      'url': 'https://libera.chat'
+    - 'name': 'OCapN: the Object Capability Network'
+      'url': 'https://ocapn.org'
+    - 'name': 'Tor'
+      'url': 'https://torproject.org/'

@@ -1,0 +1,18 @@
+'site':
+  'name': 'wpjobmanager.com'
+  'url': 'https://wpjobmanager.com/'
+  'description': '友情链接'
+  'links': '/link'
+  'friends':
+    - 'name': 'jobs.blog'
+      'url': 'https://jobs.blog/'
+    - 'name': 'Indeed'
+      'url': 'https://www.indeed.com/'
+    - 'name': 'Jetpack'
+      'url': 'https://jetpack.com/'
+    - 'name': 'Mailpoet'
+      'url': 'https://mailpoet.com/'
+    - 'name': 'Sensei LMS'
+      'url': 'https://senseilms.com/'
+    - 'name': 'WooCommerce'
+      'url': 'https://woocommerce.com/'

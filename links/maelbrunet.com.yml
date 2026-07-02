@@ -1,0 +1,12 @@
+'site':
+  'name': 'maelbrunet.com'
+  'url': 'https://www.maelbrunet.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Specter Ops companion app'
+      'url': 'https://specter-ops.netlify.app/'
+    - 'name': 'My Online Cookbook'
+      'url': 'https://myonlinecookbook.xyz/'
+    - 'name': 'Unmatcher'
+      'url': 'https://unmatcher.netlify.app/'

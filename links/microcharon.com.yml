@@ -1,0 +1,14 @@
+'site':
+  'name': 'microcharon.com'
+  'url': 'https://www.microcharon.com/'
+  'description': '友情链接'
+  'links': '/links.html'
+  'friends':
+    - 'name': 'GitLab'
+      'url': 'https://code.microcharon.dev'
+    - 'name': '晨鹤部落格'
+      'url': 'https://chenhe.me/'
+    - 'name': 'NodeSeek'
+      'url': 'https://www.nodeseek.com'
+    - 'name': 'CD包子铺'
+      'url': 'https://cdbao.org'

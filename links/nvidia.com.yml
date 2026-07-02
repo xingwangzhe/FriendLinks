@@ -1,0 +1,12 @@
+'site':
+  'name': 'nvidia.com'
+  'url': 'https://www.nvidia.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'NVIDIA 引领人工智能计算'
+      'url': 'https://www.nvidia.cn/'
+    - 'name': 'Venture Capital (NVentures)'
+      'url': 'https://www.nventures.ai/'
+    - 'name': '开发者'
+      'url': 'https://developer.nvidia.cn/'

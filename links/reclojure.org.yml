@@ -1,0 +1,14 @@
+'site':
+  'name': 'reclojure.org'
+  'url': 'https://reclojure.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Code of conduct'
+      'url': 'https://en-us.confcodeofconduct.com/'
+    - 'name': 'Clojure'
+      'url': 'https://clojure.org'
+    - 'name': 'Nathan Marz'
+      'url': 'http://nathanmarz.com/'
+    - 'name': 'Red Planet Labs'
+      'url': 'https://redplanetlabs.com/'

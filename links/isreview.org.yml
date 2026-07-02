@@ -1,0 +1,12 @@
+'site':
+  'name': 'isreview.org'
+  'url': 'http://www.isreview.org/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'CERSC.org'
+      'url': 'http://www.cersc.org/'
+    - 'name': 'HaymarketBooks.org'
+      'url': 'http://www.haymarketbooks.org/'
+    - 'name': 'WeAreMany.org'
+      'url': 'http://www.wearemany.org/'

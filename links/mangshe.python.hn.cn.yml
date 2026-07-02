@@ -1,0 +1,14 @@
+'site':
+  'name': 'mangshe.python.hn.cn'
+  'url': 'https://mangshe.python.hn.cn/'
+  'description': '友情链接'
+  'links': '/links.html'
+  'friends':
+    - 'name': '海南仙岛博客'
+      'url': 'https://www.myzhenai.com.cn'
+    - 'name': 'JiaYu Blog'
+      'url': 'https://jiayu.mybabya.com'
+    - 'name': '中医宝库'
+      'url': 'https://zhongyibaoku.net/'
+    - 'name': '蟒蛇科普'
+      'url': 'https://www.python.hn.cn/'

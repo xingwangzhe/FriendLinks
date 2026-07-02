@@ -1,0 +1,14 @@
+'site':
+  'name': 'fontm.com'
+  'url': 'http://fontm.com/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Website'
+      'url': 'http://xerographer.blogspot.com/'
+    - 'name': 'Font Finder'
+      'url': 'http://www.whatfontis.com'
+    - 'name': 'Free Fonts'
+      'url': 'http://www.ffonts.net'
+    - 'name': 'Free fonts for commercial'
+      'url': 'https://www.weeklyfonts.com'

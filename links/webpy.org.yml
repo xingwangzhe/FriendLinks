@@ -1,0 +1,10 @@
+'site':
+  'name': 'webpy.org'
+  'url': 'http://webpy.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'colr.org'
+      'url': 'http://colr.org'
+    - 'name': 'Aaron Swartz'
+      'url': 'http://www.aaronsw.com/'

@@ -1,0 +1,12 @@
+'site':
+  'name': 'omarish.com'
+  'url': 'https://omarish.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Ahmed Mater'
+      'url': 'https://www.ahmedmater.com/'
+    - 'name': 'OEIS'
+      'url': 'https://oeis.org/'
+    - 'name': 'Ray Dalio - How The Economic Machine Works'
+      'url': 'http://www.economicprinciples.org/'

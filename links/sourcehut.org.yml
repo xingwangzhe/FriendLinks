@@ -1,0 +1,12 @@
+'site':
+  'name': 'sourcehut.org'
+  'url': 'https://sourcehut.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Go to sr.ht'
+      'url': 'https://sr.ht'
+    - 'name': 'Mercurial support'
+      'url': 'https://hg.sr.ht'
+    - 'name': 'sourcehut manual'
+      'url': 'https://man.sr.ht'

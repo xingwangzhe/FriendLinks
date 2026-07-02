@@ -1,0 +1,12 @@
+'site':
+  'name': 'emojinator.fun'
+  'url': 'https://emojinator.fun/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Emojipedia'
+      'url': 'https://emojipedia.org'
+    - 'name': 'Noun Project'
+      'url': 'https://thenounproject.com/'
+    - 'name': 'Sophie'
+      'url': 'https://localghost.dev'

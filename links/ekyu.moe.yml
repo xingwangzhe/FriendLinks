@@ -1,0 +1,12 @@
+'site':
+  'name': 'ekyu.moe'
+  'url': 'https://ekyu.moe/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Blog'
+      'url': 'https://github.blog'
+    - 'name': 'GitHub status page'
+      'url': 'https://www.githubstatus.com/'
+    - 'name': 'Community'
+      'url': 'https://github.community/'

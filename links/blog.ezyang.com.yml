@@ -1,0 +1,8 @@
+'site':
+  'name': 'blog.ezyang.com'
+  'url': 'http://blog.ezyang.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Sapling'
+      'url': 'https://sapling-scm.com/'

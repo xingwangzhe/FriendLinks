@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.jestom.com'
+  'url': 'https://blog.jestom.com/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'winsky小站'
+      'url': 'https://blog.winsky.wang/'
+    - 'name': 'O''s Blog'
+      'url': 'https://blog.ohmyga.cn/'

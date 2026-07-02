@@ -1,0 +1,10 @@
+'site':
+  'name': 'stfn.pl'
+  'url': 'https://stfn.pl/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'GoatCounter'
+      'url': 'https://www.goatcounter.com/'
+    - 'name': 'Umami'
+      'url': 'https://umami.is/'

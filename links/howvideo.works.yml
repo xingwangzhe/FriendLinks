@@ -1,0 +1,14 @@
+'site':
+  'name': 'howvideo.works'
+  'url': 'https://howvideo.works/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Brought to you by'
+      'url': 'https://mux.com/'
+    - 'name': 'Audacity'
+      'url': 'https://www.audacityteam.org/'
+    - 'name': 'FFmpeg'
+      'url': 'https://ffmpeg.org/'
+    - 'name': 'opus'
+      'url': 'https://opus-codec.org/'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'podman.io'
+  'url': 'https://podman.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Matrix'
+      'url': 'https://matrix.to/#/#podman:fedoraproject.org'
+    - 'name': 'Podman Desktop Website'
+      'url': 'https://podman-desktop.io/'

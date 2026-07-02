@@ -1,0 +1,10 @@
+'site':
+  'name': 'aissk.cn'
+  'url': 'http://www.aissk.cn/'
+  'description': '友情链接'
+  'links': '/links.html'
+  'friends':
+    - 'name': 'blog.cccyun.cn'
+      'url': 'http://blog.cccyun.cn'
+    - 'name': 'tophub.today'
+      'url': 'https://tophub.today'

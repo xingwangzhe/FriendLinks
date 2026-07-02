@@ -1,0 +1,12 @@
+'site':
+  'name': 'caramiki.com'
+  'url': 'https://caramiki.com/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'day job'
+      'url': 'https://www.unabridgedsoftware.com/'
+    - 'name': 'a side company'
+      'url': 'http://waterbeargames.com/'
+    - 'name': 'side projects'
+      'url': 'http://sideprojectsclub.com/'

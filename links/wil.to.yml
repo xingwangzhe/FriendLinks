@@ -1,0 +1,16 @@
+'site':
+  'name': 'wil.to'
+  'url': 'https://wil.to/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Smashing Magazine'
+      'url': 'https://www.smashingmagazine.com'
+    - 'name': 'CSS-Tricks'
+      'url': 'https://css-tricks.com'
+    - 'name': 'Beyond Tellerand'
+      'url': 'https://beyondtellerrand.com/'
+    - 'name': 'web.dev'
+      'url': 'https://web.dev'
+    - 'name': 'What Comes Next is the Future (2016)'
+      'url': 'http://www.futureisnext.com/'

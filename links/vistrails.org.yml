@@ -1,0 +1,10 @@
+'site':
+  'name': 'vistrails.org'
+  'url': 'http://vistrails.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Julia'
+      'url': 'https://julialang.org/'
+    - 'name': 'CrowdLabs'
+      'url': 'http://www.crowdlabs.org'

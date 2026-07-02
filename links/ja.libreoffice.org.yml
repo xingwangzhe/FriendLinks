@@ -1,0 +1,12 @@
+'site':
+  'name': 'ja.libreoffice.org'
+  'url': 'https://ja.libreoffice.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'LibreOfficeにどんな協力ができますか?'
+      'url': 'https://whatcanidoforlibreoffice.org/'
+    - 'name': 'TDFブログ'
+      'url': 'https://blog.documentfoundation.org/'
+    - 'name': 'LibreOffice日本語チームBlog'
+      'url': 'https://ja.blog.documentfoundation.org/'

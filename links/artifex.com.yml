@@ -1,0 +1,10 @@
+'site':
+  'name': 'artifex.com'
+  'url': 'https://www.artifex.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Learn More'
+      'url': 'https://docraptor.com/'
+    - 'name': 'PyMuPDF'
+      'url': 'https://pymupdf.io/'

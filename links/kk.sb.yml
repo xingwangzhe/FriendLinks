@@ -1,0 +1,14 @@
+'site':
+  'name': 'kk.sb'
+  'url': 'https://kk.sb/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Emby'
+      'url': 'https://emby.media/'
+    - 'name': 'Jellyfin'
+      'url': 'https://jellyfin.org/'
+    - 'name': '点击这里查看 OGG 的浏览器兼容情况'
+      'url': 'http://caniuse.com/#feat=ogg-vorbis'
+    - 'name': '不愿意透露姓名的 Sendya'
+      'url': 'https://www.loacg.com/'

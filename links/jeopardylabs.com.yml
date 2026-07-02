@@ -1,0 +1,16 @@
+'site':
+  'name': 'jeopardylabs.com'
+  'url': 'https://jeopardylabs.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Test Maker'
+      'url': 'https://testmoz.com'
+    - 'name': 'Crossword Puzzle Maker'
+      'url': 'https://crosswordlabs.com'
+    - 'name': 'Bingo Card Generator'
+      'url': 'https://bingobaker.com'
+    - 'name': 'Word Search Maker'
+      'url': 'https://wordsearchlabs.com'
+    - 'name': 'Buzzer App'
+      'url': 'https://buzzonk.com'

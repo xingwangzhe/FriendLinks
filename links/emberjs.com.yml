@@ -1,0 +1,16 @@
+'site':
+  'name': 'emberjs.com'
+  'url': 'http://emberjs.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Ember Observer'
+      'url': 'https://emberobserver.com'
+    - 'name': 'Whiskey Web and Whatnot'
+      'url': 'https://www.whiskeywebandwhatnot.fm'
+    - 'name': 'Ember Weekly'
+      'url': 'https://www.emberweekly.com/'
+    - 'name': 'Ember Map'
+      'url': 'https://embermap.com/'
+    - 'name': 'Tilde Inc.'
+      'url': 'https://www.tilde.io/'

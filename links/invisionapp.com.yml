@@ -1,0 +1,14 @@
+'site':
+  'name': 'invisionapp.com'
+  'url': 'https://www.invisionapp.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Developer Platform'
+      'url': 'https://developers.miro.com/'
+    - 'name': 'Academy'
+      'url': 'https://academy.miro.com/'
+    - 'name': 'User Forum'
+      'url': 'https://community.miro.com/'
+    - 'name': 'Miro Security'
+      'url': 'https://trust.miro.com/'

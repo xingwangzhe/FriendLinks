@@ -1,0 +1,14 @@
+'site':
+  'name': 'volksoper.at'
+  'url': 'http://www.volksoper.at/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Bundestheater-Holding'
+      'url': 'https://www.bundestheater.at/'
+    - 'name': 'Burgtheater'
+      'url': 'https://www.burgtheater.at/'
+    - 'name': 'Wiener Staatsoper'
+      'url': 'http://www.wiener-staatsoper.at/'
+    - 'name': 'ART for ART Theaterservice'
+      'url': 'http://www.artforart.at/'

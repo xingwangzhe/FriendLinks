@@ -1,0 +1,12 @@
+'site':
+  'name': 'moonshot.ai'
+  'url': 'https://www.moonshot.ai/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Kimi'
+      'url': 'https://www.kimi.com'
+    - 'name': 'API'
+      'url': 'https://platform.kimi.ai'
+    - 'name': 'Careers'
+      'url': 'https://careers.kimi.com/'

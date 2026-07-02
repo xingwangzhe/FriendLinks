@@ -1,0 +1,10 @@
+'site':
+  'name': 'linux.com'
+  'url': 'https://www.linux.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Training'
+      'url': 'https://training.linuxfoundation.org/'
+    - 'name': 'Events'
+      'url': 'https://events.linuxfoundation.org/'

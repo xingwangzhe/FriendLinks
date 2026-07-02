@@ -1,0 +1,14 @@
+'site':
+  'name': 'bueltge.de'
+  'url': 'https://bueltge.de/'
+  'description': '友情链接'
+  'links': '/link'
+  'friends':
+    - 'name': 'Syde GmbH'
+      'url': 'https://syde.com'
+    - 'name': 'Meine Open Source Projekte auf Github'
+      'url': 'http://bueltge.github.io/'
+    - 'name': 'WP Basis Theme'
+      'url': 'http://wpbasis.de/'
+    - 'name': 'WP Engineer'
+      'url': 'http://wpengineer.com/'

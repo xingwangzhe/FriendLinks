@@ -1,0 +1,18 @@
+'site':
+  'name': 'iosref.com'
+  'url': 'https://iosref.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'WTF, Auto Layout?'
+      'url': 'https://www.wtfautolayout.com/'
+    - 'name': 'NSDateFormatter'
+      'url': 'http://nsdateformatter.com/'
+    - 'name': 'API errors lookup'
+      'url': 'https://osstatus.com'
+    - 'name': 'Xcode Releases'
+      'url': 'https://xcodereleases.com/'
+    - 'name': 'Xcode Build Settings'
+      'url': 'https://xcodebuildsettings.com/'
+    - 'name': 'Swiftly'
+      'url': 'https://swiftly.dev'

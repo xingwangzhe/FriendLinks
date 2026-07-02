@@ -1,0 +1,12 @@
+'site':
+  'name': 'in.relation.to'
+  'url': 'https://in.relation.to/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Forums'
+      'url': 'https://discourse.hibernate.org/'
+    - 'name': 'Submit a bug'
+      'url': 'https://hibernate.atlassian.net/'
+    - 'name': 'Hibernate.'
+      'url': 'https://hibernate.org'

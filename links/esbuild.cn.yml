@@ -1,0 +1,14 @@
+'site':
+  'name': 'esbuild.cn'
+  'url': 'https://www.esbuild.cn/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'esbuild'
+      'url': 'https://esbuild.github.io/'
+    - 'name': 'parcel 2'
+      'url': 'https://parceljs.org/'
+    - 'name': 'rollup'
+      'url': 'https://rollupjs.org/'
+    - 'name': 'terser'
+      'url': 'https://terser.org/'

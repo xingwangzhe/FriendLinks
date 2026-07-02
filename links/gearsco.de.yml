@@ -1,0 +1,10 @@
+'site':
+  'name': 'gearsco.de'
+  'url': 'https://gearsco.de/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Gleam programming language'
+      'url': 'https://gleam.run'
+    - 'name': 'Lustre'
+      'url': 'https://lustre.build'

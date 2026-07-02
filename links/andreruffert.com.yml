@@ -1,0 +1,10 @@
+'site':
+  'name': 'andreruffert.com'
+  'url': 'https://andreruffert.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Syntax ClubA place to share, save, and discover code snippets on the AT Protocol'
+      'url': 'https://syntax.club'
+    - 'name': 'JavaScript QuestionsMultiple choice JavaScript questions as PWA.'
+      'url': 'https://javascript-questions.netlify.app'

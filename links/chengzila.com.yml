@@ -1,0 +1,10 @@
+'site':
+  'name': 'chengzila.com'
+  'url': 'https://www.chengzila.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'SumyBlog'
+      'url': 'https://sumygg.com/'
+    - 'name': 'Rspress'
+      'url': 'https://rspress.dev/'

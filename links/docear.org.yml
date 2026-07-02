@@ -1,0 +1,14 @@
+'site':
+  'name': 'docear.org'
+  'url': 'http://www.docear.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Information Science Group'
+      'url': 'http://www.isg.uni-konstanz.de/'
+    - 'name': 'OvGU'
+      'url': 'http://www.ovgu.de'
+    - 'name': 'Freeplane'
+      'url': 'http://freeplane.org'
+    - 'name': 'JabRef'
+      'url': 'http://jabref.org'

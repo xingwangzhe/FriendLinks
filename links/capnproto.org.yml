@@ -1,0 +1,12 @@
+'site':
+  'name': 'capnproto.org'
+  'url': 'https://capnproto.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'zlib'
+      'url': 'http://www.zlib.net/'
+    - 'name': 'Sandstorm.io'
+      'url': 'https://sandstorm.io'
+    - 'name': 'Cloudflare Workers'
+      'url': 'https://workers.dev'

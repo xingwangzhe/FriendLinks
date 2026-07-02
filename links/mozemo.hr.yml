@@ -1,0 +1,12 @@
+'site':
+  'name': 'mozemo.hr'
+  'url': 'http://www.mozemo.hr/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Pazin'
+      'url': 'https://mozemopazin.hr/'
+    - 'name': 'Rijeka'
+      'url': 'https://www.mozemorijeka.hr/'
+    - 'name': 'Dubrovnik'
+      'url': 'https://www.srdjegrad.hr'

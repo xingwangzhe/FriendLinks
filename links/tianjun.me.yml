@@ -1,0 +1,18 @@
+'site':
+  'name': 'tianjun.me'
+  'url': 'http://tianjun.me/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '零一万物'
+      'url': 'https://01.ai/'
+    - 'name': '趣学Julia'
+      'url': 'https://learnjuliathefunway.com/'
+    - 'name': 'Clojure'
+      'url': 'https://clojure.org/'
+    - 'name': 'Julia'
+      'url': 'https://julialang.org/'
+    - 'name': 'Franklin.jl'
+      'url': 'https://franklinjl.org/'
+    - 'name': 'juntian.me'
+      'url': 'https://juntian.me'

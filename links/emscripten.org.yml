@@ -1,0 +1,14 @@
+'site':
+  'name': 'emscripten.org'
+  'url': 'https://emscripten.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'LLVM'
+      'url': 'https://llvm.org/'
+    - 'name': 'WebAssembly'
+      'url': 'https://webassembly.org/'
+    - 'name': 'Sphinx'
+      'url': 'https://www.sphinx-doc.org/'
+    - 'name': 'Shibuya theme'
+      'url': 'https://shibuya.lepture.com'

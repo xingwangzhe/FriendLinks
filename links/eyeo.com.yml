@@ -1,0 +1,10 @@
+'site':
+  'name': 'eyeo.com'
+  'url': 'https://eyeo.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'AdBlock'
+      'url': 'http://getadblock.com/'
+    - 'name': 'Adblock Plus'
+      'url': 'http://adblockplus.org/'

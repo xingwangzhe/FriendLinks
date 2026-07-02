@@ -1,0 +1,12 @@
+'site':
+  'name': 'boot-clj.github.io'
+  'url': 'https://boot-clj.github.io/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Slack'
+      'url': 'http://clojurians.net'
+    - 'name': 'Clojure'
+      'url': 'http://clojure.org/'
+    - 'name': 'Adzerk'
+      'url': 'http://adzerk.com'

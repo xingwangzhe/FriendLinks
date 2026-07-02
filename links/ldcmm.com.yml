@@ -1,0 +1,12 @@
+'site':
+  'name': 'ldcmm.com'
+  'url': 'http://www.ldcmm.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'National Geomatics Center of China'
+      'url': 'https://www.ngcc.cn/'
+    - 'name': 'Chinese Society for Geodesy, Photogrammetry and Cartography (CSGPC)'
+      'url': 'https://www.csgpc.org/'
+    - 'name': 'International Federation of Surveyors (FIG)'
+      'url': 'https://www.fig.net/'

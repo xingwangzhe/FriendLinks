@@ -1,0 +1,10 @@
+'site':
+  'name': 'octochess.org'
+  'url': 'http://octochess.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'FileZilla Project'
+      'url': 'https://filezilla-project.org/'
+    - 'name': 'TalkChess.com'
+      'url': 'http://talkchess.com/'

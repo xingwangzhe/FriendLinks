@@ -1,0 +1,10 @@
+'site':
+  'name': 'leiningen.org'
+  'url': 'https://leiningen.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Clojure'
+      'url': 'https://clojure.org'
+    - 'name': 'Libera.Chat'
+      'url': 'https://libera.chat'

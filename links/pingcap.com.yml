@@ -1,0 +1,16 @@
+'site':
+  'name': 'pingcap.com'
+  'url': 'https://www.pingcap.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Quick Start: Agentic Memory Spin up persistent agent memory in second'
+      'url': 'https://zero.tidbcloud.com/'
+    - 'name': 'mem9'
+      'url': 'https://mem9.ai/'
+    - 'name': 'drive9'
+      'url': 'https://drive9.ai/'
+    - 'name': 'OSS Insight'
+      'url': 'https://ossinsight.io/'
+    - 'name': 'Hands-on Labs'
+      'url': 'https://labs.tidb.io'

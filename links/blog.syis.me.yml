@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.syis.me'
+  'url': 'https://blog.syis.me/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'Zeping''s Code Life'
+      'url': 'https://bzp2010.me/'
+    - 'name': 'CheverJohn''s Website'
+      'url': 'https://blog.cheverjohn.me/'

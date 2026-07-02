@@ -1,0 +1,10 @@
+'site':
+  'name': 'thenounproject.com'
+  'url': 'https://thenounproject.com/'
+  'description': '友情链接'
+  'links': '/link/'
+  'friends':
+    - 'name': 'Lingo Brand Manager'
+      'url': 'https://www.lingoapp.com/'
+    - 'name': 'Customer Support'
+      'url': 'https://thenounproject.zendesk.com/'

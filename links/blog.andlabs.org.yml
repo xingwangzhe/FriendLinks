@@ -1,0 +1,12 @@
+'site':
+  'name': 'blog.andlabs.org'
+  'url': 'http://blog.andlabs.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'ha.ckers.org'
+      'url': 'http://ha.ckers.org/'
+    - 'name': 'his book'
+      'url': 'http://www.detectmalice.com/'
+    - 'name': 'XStream'
+      'url': 'http://xstream.codehaus.org/'

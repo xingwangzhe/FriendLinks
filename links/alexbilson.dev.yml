@@ -1,0 +1,12 @@
+'site':
+  'name': 'alexbilson.dev'
+  'url': 'https://alexbilson.dev/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Barns Worth Burning.'
+      'url': 'https://barnsworthburning.net'
+    - 'name': 'Let''s Encrypt'
+      'url': 'https://letsencrypt.org'
+    - 'name': 'updown.io'
+      'url': 'https://updown.io'

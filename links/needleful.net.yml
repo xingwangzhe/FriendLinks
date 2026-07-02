@@ -1,0 +1,10 @@
+'site':
+  'name': 'needleful.net'
+  'url': 'https://needleful.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'my new company website!'
+      'url': 'https://www.dreamlattice.com'
+    - 'name': 'i make video games that you can download (and even play) from Itch.io!'
+      'url': 'https://needleful.itch.io/'

@@ -1,0 +1,12 @@
+'site':
+  'name': 'benmyers.dev'
+  'url': 'https://benmyers.dev/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Confluent'
+      'url': 'https://www.confluent.io'
+    - 'name': 'Some Antics'
+      'url': 'https://someantics.dev/'
+    - 'name': 'a11y-webring.club'
+      'url': 'https://a11y-webring.club/'

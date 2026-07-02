@@ -1,0 +1,16 @@
+'site':
+  'name': 'zachsaucier.com'
+  'url': 'https://zachsaucier.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Mailchimp'
+      'url': 'https://mailchimp.com/'
+    - 'name': 'Stripe'
+      'url': 'https://stripe.com/'
+    - 'name': 'Rally Interactive'
+      'url': 'https://rallyinteractive.com/'
+    - 'name': 'GreenSock'
+      'url': 'https://gsap.com/'
+    - 'name': 'product'
+      'url': 'https://justread.link/'

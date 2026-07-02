@@ -1,0 +1,10 @@
+'site':
+  'name': 'indieweb-search.jamesg.blog'
+  'url': 'https://indieweb-search.jamesg.blog/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'blogroll.org'
+      'url': 'https://blogroll.org'
+    - 'name': 'IndieWeb community'
+      'url': 'https://indieweb.org'

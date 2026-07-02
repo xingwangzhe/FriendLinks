@@ -1,0 +1,12 @@
+'site':
+  'name': 'taprootproject.com'
+  'url': 'http://taprootproject.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': '📜 Chat log'
+      'url': 'https://chat.indieweb.org/'
+    - 'name': '📅 Events'
+      'url': 'https://events.indieweb.org/'
+    - 'name': 'waterpigs.co.uk'
+      'url': 'http://waterpigs.co.uk'

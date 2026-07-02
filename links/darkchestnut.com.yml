@@ -1,0 +1,10 @@
+'site':
+  'name': 'darkchestnut.com'
+  'url': 'https://www.darkchestnut.com/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'Git Lisa'
+      'url': 'https://www.gitlisa.com'
+    - 'name': 'Forgejo'
+      'url': 'https://forgejo.org'

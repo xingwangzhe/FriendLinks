@@ -1,0 +1,14 @@
+'site':
+  'name': 'pocsuite.org'
+  'url': 'https://pocsuite.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Paper'
+      'url': 'https://paper.seebug.org'
+    - 'name': 'ZoomEye'
+      'url': 'https://www.zoomeye.org'
+    - 'name': 'Seebug'
+      'url': 'https://www.seebug.org'
+    - 'name': 'CEye'
+      'url': 'http://ceye.io'

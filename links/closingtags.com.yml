@@ -1,0 +1,12 @@
+'site':
+  'name': 'closingtags.com'
+  'url': 'https://www.closingtags.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Buy Merch ↗'
+      'url': 'https://closingtags.myspreadshop.com'
+    - 'name': 'The SvelteKit Book ↗'
+      'url': 'https://sveltekitbook.dev'
+    - 'name': 'Webmaster Webring'
+      'url': 'https://webmasterwebring.netlify.app'

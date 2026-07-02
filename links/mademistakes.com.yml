@@ -1,0 +1,16 @@
+'site':
+  'name': 'mademistakes.com'
+  'url': 'https://mademistakes.com/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'chicken wings'
+      'url': 'https://www.duffswings.com/'
+    - 'name': 'Movable Type'
+      'url': 'https://movabletype.org/'
+    - 'name': 'Textpattern'
+      'url': 'https://textpattern.com/'
+    - 'name': 'Indexhibit'
+      'url': 'https://www.indexhibit.org/'
+    - 'name': 'Jamstack'
+      'url': 'https://jamstack.org/'

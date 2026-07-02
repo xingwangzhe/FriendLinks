@@ -1,0 +1,14 @@
+'site':
+  'name': 'blog.miloslavhomer.cz'
+  'url': 'https://blog.miloslavhomer.cz/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Wagtail'
+      'url': 'https://wagtail.org/'
+    - 'name': 'highlight.js'
+      'url': 'https://highlightjs.org/'
+    - 'name': 'Mailjet'
+      'url': 'https://www.mailjet.com/'
+    - 'name': 'Umami'
+      'url': 'https://umami.is'

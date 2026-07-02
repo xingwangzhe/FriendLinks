@@ -1,0 +1,14 @@
+'site':
+  'name': 'eth0fox.net'
+  'url': 'https://eth0fox.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'eth0fox'
+      'url': 'https://resonite.com/'
+    - 'name': '@fox:boxfox.es'
+      'url': 'https://matrix.to/#/@fox:boxfox.es'
+    - 'name': 'Fediring'
+      'url': 'https://fediring.net'
+    - 'name': 'The Hacker Webring'
+      'url': 'https://ring.acab.dev'

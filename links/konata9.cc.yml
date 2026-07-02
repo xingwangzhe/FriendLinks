@@ -1,0 +1,12 @@
+'site':
+  'name': 'konata9.cc'
+  'url': 'https://konata9.cc/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'qwq的个人博客'
+      'url': 'https://blog.qwqzy.top/'
+    - 'name': 'LsAng'
+      'url': 'https://llds.cloud/'
+    - 'name': 'vuepress-theme-plume'
+      'url': 'https://theme-plume.vuejs.press'

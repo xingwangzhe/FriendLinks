@@ -1,0 +1,10 @@
+'site':
+  'name': 'shoptalkshow.com'
+  'url': 'https://shoptalkshow.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Dave Rupert'
+      'url': 'https://daverupert.com'
+    - 'name': 'Chris Coyier'
+      'url': 'https://chriscoyier.net'

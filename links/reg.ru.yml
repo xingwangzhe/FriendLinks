@@ -1,0 +1,12 @@
+'site':
+  'name': 'reg.ru'
+  'url': 'https://reg.ru/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Облако и ИТ-инфраструктура'
+      'url': 'https://reg.cloud'
+    - 'name': 'РБК: новости России и мира сегодня'
+      'url': 'https://www.rbc.ru/'
+    - 'name': 'Новости компаний РФ'
+      'url': 'https://companies.rbc.ru/'

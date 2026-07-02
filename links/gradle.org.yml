@@ -1,0 +1,12 @@
+'site':
+  'name': 'gradle.org'
+  'url': 'https://gradle.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'DPE University'
+      'url': 'https://dpeuniversity.gradle.com/'
+    - 'name': 'Build Scan®'
+      'url': 'https://scans.gradle.com/'
+    - 'name': 'DPE.org'
+      'url': 'https://dpe.org/'

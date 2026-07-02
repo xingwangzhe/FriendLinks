@@ -1,0 +1,10 @@
+'site':
+  'name': 'refactoring.com'
+  'url': 'https://refactoring.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'martinfowler.com'
+      'url': 'https://martinfowler.com'
+    - 'name': 'Home'
+      'url': 'https://thoughtworks.com'

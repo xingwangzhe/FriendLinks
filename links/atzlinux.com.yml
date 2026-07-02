@@ -1,0 +1,12 @@
+'site':
+  'name': 'atzlinux.com'
+  'url': 'https://www.atzlinux.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Debian'
+      'url': 'https://www.debian.org'
+    - 'name': '向后移植 https://backports.debian.org/'
+      'url': 'https://backports.debian.org/'
+    - 'name': 'Made with Bluefish HTML editor.'
+      'url': 'http://bluefish.openoffice.nl'

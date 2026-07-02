@@ -1,0 +1,16 @@
+'site':
+  'name': 'orgmode.org'
+  'url': 'https://orgmode.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Libera.Chat'
+      'url': 'https://libera.chat/'
+    - 'name': 'Spacemacs'
+      'url': 'https://www.spacemacs.org/'
+    - 'name': 'Orgzly Revived'
+      'url': 'https://www.orgzlyrevived.com/'
+    - 'name': 'Orgro'
+      'url': 'https://orgro.org/'
+    - 'name': 'Organice (progressive web app)'
+      'url': 'https://organice.200ok.ch/'

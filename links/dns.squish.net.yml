@@ -1,0 +1,12 @@
+'site':
+  'name': 'dns.squish.net'
+  'url': 'http://dns.squish.net/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'mserv'
+      'url': 'http://www.mserv.org/'
+    - 'name': 'Ideas'
+      'url': 'http://squish.ideascale.com'
+    - 'name': 'ISC'
+      'url': 'http://www.isc.org'

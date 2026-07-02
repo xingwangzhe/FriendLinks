@@ -1,0 +1,10 @@
+'site':
+  'name': 'website-custom.com'
+  'url': 'https://website-custom.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '国内官网'
+      'url': 'https://onlytwo.cn/'
+    - 'name': 'Topworker跨境客'
+      'url': 'https://www.topworker.cn/'

@@ -1,0 +1,12 @@
+'site':
+  'name': 'hex.pm'
+  'url': 'https://hex.pm/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'HexDocs'
+      'url': 'https://hexdocs.pm'
+    - 'name': 'Erlang VM'
+      'url': 'https://www.erlang.org/'
+    - 'name': 'Elixir Programming Language'
+      'url': 'https://elixir-lang.org/'

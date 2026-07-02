@@ -1,0 +1,12 @@
+'site':
+  'name': 'threejs.org'
+  'url': 'https://threejs.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Three.js Journey'
+      'url': 'https://threejs-journey.xyz/'
+    - 'name': 'Three.js Game Development'
+      'url': 'https://simondev.io/'
+    - 'name': 'Three.js Resources'
+      'url': 'https://threejsresources.com/'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'boffosocko.com'
+  'url': 'https://boffosocko.com/'
+  'description': '友情链接'
+  'links': '/friend'
+  'friends':
+    - 'name': 'Apsugen'
+      'url': 'http://www.apsugen.com'
+    - 'name': 'principles from'
+      'url': 'http://indieweb.org'

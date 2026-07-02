@@ -1,0 +1,18 @@
+'site':
+  'name': 'qemu.org'
+  'url': 'http://qemu.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Advent calendar'
+      'url': 'http://qemu-advent-calendar.org'
+    - 'name': 'Blog planet'
+      'url': 'https://planet.virt-tools.org/'
+    - 'name': 'KVM'
+      'url': 'https://www.linux-kvm.org/'
+    - 'name': 'Libguestfs'
+      'url': 'http://libguestfs.org/'
+    - 'name': 'Libvirt'
+      'url': 'https://libvirt.org/'
+    - 'name': 'Xen'
+      'url': 'https://xenproject.org'

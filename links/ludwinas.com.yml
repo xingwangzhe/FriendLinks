@@ -1,0 +1,10 @@
+'site':
+  'name': 'ludwinas.com'
+  'url': 'https://ludwinas.com/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'Privacy Company'
+      'url': 'https://www.privacycompany.com'
+    - 'name': 'Clojure'
+      'url': 'https://clojure.org/'

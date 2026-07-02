@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.xm.mk'
+  'url': 'https://blog.xm.mk/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': '@初之音'
+      'url': 'https://www.himiku.com/'
+    - 'name': '@Raphael Yang'
+      'url': 'https://zhizhiyang.cn/'

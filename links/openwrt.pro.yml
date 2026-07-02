@@ -1,0 +1,10 @@
+'site':
+  'name': 'openwrt.pro'
+  'url': 'http://www.openwrt.pro/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '佐须之男的博客'
+      'url': 'http://forgotfun.org'
+    - 'name': 'Tomato Phoenix 不死鸟'
+      'url': 'http://tomato.org.cn'

@@ -1,0 +1,10 @@
+'site':
+  'name': 's-expressions.com'
+  'url': 'http://s-expressions.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Developer Resources'
+      'url': 'https://developer.wordpress.com/'
+    - 'name': 'Automattic'
+      'url': 'https://automattic.com'

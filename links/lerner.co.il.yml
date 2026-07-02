@@ -1,0 +1,12 @@
+'site':
+  'name': 'lerner.co.il'
+  'url': 'http://lerner.co.il/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Learn with Reuven'
+      'url': 'http://LernerPython.com/'
+    - 'name': 'Python Workout'
+      'url': 'https://PythonWorkout.com/'
+    - 'name': 'Pandas Workout'
+      'url': 'https://PandasWorkout.com'

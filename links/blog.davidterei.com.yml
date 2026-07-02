@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.davidterei.com'
+  'url': 'http://blog.davidterei.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'presentations'
+      'url': 'http://www.slideshare.net/'
+    - 'name': 'Bryan O''Sullivan'
+      'url': 'http://www.serpentine.com/'

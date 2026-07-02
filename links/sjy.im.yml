@@ -1,0 +1,12 @@
+'site':
+  'name': 'sjy.im'
+  'url': 'https://www.sjy.im/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'Developers'
+      'url': 'https://developers.notion.com'
+    - 'name': 'Academy'
+      'url': 'https://academy.notion.com'
+    - 'name': 'Developers'
+      'url': 'https://notion.dev'

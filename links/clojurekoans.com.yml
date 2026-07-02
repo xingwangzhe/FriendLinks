@@ -1,0 +1,14 @@
+'site':
+  'name': 'clojurekoans.com'
+  'url': 'http://clojurekoans.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Clojure language'
+      'url': 'http://www.clojure.org'
+    - 'name': 'Leiningen'
+      'url': 'http://leiningen.org'
+    - 'name': 'Ruby Koans'
+      'url': 'http://rubykoans.com/'
+    - 'name': '8th Light'
+      'url': 'http://www.8thlight.com'

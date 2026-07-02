@@ -1,0 +1,10 @@
+'site':
+  'name': 'logopond.com'
+  'url': 'https://logopond.com/'
+  'description': '友情链接'
+  'links': '/link'
+  'friends':
+    - 'name': 'Rich Scott'
+      'url': 'http://designabot.net'
+    - 'name': 'Advertise'
+      'url': 'http://logopond.bsa-whitelabel.com'

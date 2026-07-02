@@ -1,0 +1,10 @@
+'site':
+  'name': 'borretti.me'
+  'url': 'https://borretti.me/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'Sass'
+      'url': 'https://sass-lang.com/'
+    - 'name': 'matcha monday webring'
+      'url': 'https://www.matchamonday.net/'

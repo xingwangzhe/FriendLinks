@@ -1,0 +1,10 @@
+'site':
+  'name': 'luminusweb.net'
+  'url': 'http://www.luminusweb.net/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Kit'
+      'url': 'https://kit-clj.github.io/'
+    - 'name': 'Leiningen'
+      'url': 'http://leiningen.org/'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'jsonlines.org'
+  'url': 'https://jsonlines.org/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'json.org'
+      'url': 'https://json.org'
+    - 'name': 'Ian Ward'
+      'url': 'https://excess.org'

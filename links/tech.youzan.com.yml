@@ -1,0 +1,10 @@
+'site':
+  'name': 'tech.youzan.com'
+  'url': 'https://tech.youzan.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'zutrinken'
+      'url': 'http://zutrinken.com'
+    - 'name': 'Ghost'
+      'url': 'http://ghost.org'

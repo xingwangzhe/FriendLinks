@@ -1,0 +1,10 @@
+'site':
+  'name': 'jisuimg.com'
+  'url': 'https://jisuimg.com/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '极速PDF'
+      'url': 'https://jisupdf.com/'
+    - 'name': '极速Office'
+      'url': 'https://jisuoffice.com/'

@@ -1,0 +1,10 @@
+'site':
+  'name': 'url.lol'
+  'url': 'https://url.lol/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'omg.lol'
+      'url': 'https://home.omg.lol'
+    - 'name': 'omg.lol'
+      'url': 'https://omg.lol/'

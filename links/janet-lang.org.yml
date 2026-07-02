@@ -1,0 +1,14 @@
+'site':
+  'name': 'janet-lang.org'
+  'url': 'https://janet-lang.org/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'Forum'
+      'url': 'https://janet.zulipchat.com/'
+    - 'name': 'Joy Web Framework'
+      'url': 'https://joy.swlkr.com'
+    - 'name': 'Janet Guide'
+      'url': 'https://janet.guide/'
+    - 'name': 'Janet Docs'
+      'url': 'https://janetdocs.org'

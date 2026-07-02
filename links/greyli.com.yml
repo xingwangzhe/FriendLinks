@@ -1,0 +1,10 @@
+'site':
+  'name': 'greyli.com'
+  'url': 'https://greyli.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'HelloFlask'
+      'url': 'https://helloflask.com'
+    - 'name': '代码厨房'
+      'url': 'https://codekitchen.community'

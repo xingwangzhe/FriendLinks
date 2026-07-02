@@ -1,0 +1,14 @@
+'site':
+  'name': 'lean-lang.org'
+  'url': 'https://lean-lang.org/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': 'Mathlib'
+      'url': 'https://mathlib-initiative.org/'
+    - 'name': 'CSLib'
+      'url': 'https://www.cslib.io/'
+    - 'name': 'Zulip'
+      'url': 'https://leanprover.zulipchat.com/'
+    - 'name': 'Type Theory Forall'
+      'url': 'https://www.typetheoryforall.com/'

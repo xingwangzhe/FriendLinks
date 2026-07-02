@@ -1,0 +1,12 @@
+'site':
+  'name': 'ben.yaf.ai'
+  'url': 'https://ben.yaf.ai/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'ben.some.pics'
+      'url': 'https://ben.some.pics'
+    - 'name': 'ben.status.lol'
+      'url': 'https://ben.status.lol'
+    - 'name': '@ben:yaf.ai'
+      'url': 'https://matrix.to/#/@ben:yaf.ai'

@@ -1,0 +1,18 @@
+'site':
+  'name': 'speechcode.com'
+  'url': 'https://speechcode.com/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'ICFP 2022'
+      'url': 'https://icfp22.sigplan.org/'
+    - 'name': 'Scheme Workshop'
+      'url': 'http://schemeworkshop.org/'
+    - 'name': 'ICFP 2019'
+      'url': 'https://icfp19.sigplan.org/'
+    - 'name': 'Bay Area Lisp and Scheme Users Group'
+      'url': 'https://balisp.org/'
+    - 'name': 'Tandy Assembly'
+      'url': 'http://www.tandyassembly.com/'
+    - 'name': 'Scheme Requests for Implementation'
+      'url': 'https://srfi.schemers.org/'

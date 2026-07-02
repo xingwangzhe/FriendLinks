@@ -1,0 +1,12 @@
+'site':
+  'name': 'smallweb.cc'
+  'url': 'https://smallweb.cc/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'neocities'
+      'url': 'https://neocities.org/'
+    - 'name': 'indieweb.org'
+      'url': 'https://indieweb.org/'
+    - 'name': 'open graph'
+      'url': 'https://ogp.me/'

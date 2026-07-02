@@ -1,0 +1,10 @@
+'site':
+  'name': 'svana.name'
+  'url': 'https://svana.name/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'SentenceTransformers'
+      'url': 'https://www.sbert.net/'
+    - 'name': 'Arduino'
+      'url': 'https://www.arduino.cc/'

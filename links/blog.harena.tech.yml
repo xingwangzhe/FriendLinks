@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.harena.tech'
+  'url': 'https://blog.harena.tech/'
+  'description': '友情链接'
+  'links': '/friends'
+  'friends':
+    - 'name': 'blog.gonelove.de'
+      'url': 'https://blog.gonelove.de/'
+    - 'name': 'blog.beyondsky.site'
+      'url': 'https://blog.beyondsky.site/'

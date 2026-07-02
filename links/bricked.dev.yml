@@ -1,0 +1,18 @@
+'site':
+  'name': 'bricked.dev'
+  'url': 'https://bricked.dev/'
+  'description': '友情链接'
+  'links': '/'
+  'friends':
+    - 'name': 'NixOS'
+      'url': 'https://nixos.org'
+    - 'name': 'Dittocade'
+      'url': 'https://cade.party'
+    - 'name': 'Fancade'
+      'url': 'https://fancade.com'
+    - 'name': 'maxy.top'
+      'url': 'https://maxy.top'
+    - 'name': 'Catppuccin Webring'
+      'url': 'https://ctp-webr.ing/'
+    - 'name': 'Nix Webring'
+      'url': 'https://nixwebr.ing/'

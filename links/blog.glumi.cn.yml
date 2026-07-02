@@ -1,0 +1,10 @@
+'site':
+  'name': 'blog.glumi.cn'
+  'url': 'https://blog.glumi.cn/'
+  'description': '友情链接'
+  'links': '/links'
+  'friends':
+    - 'name': '虫洞访问'
+      'url': 'https://foreverblog.cn/go.html'
+    - 'name': '开往接力'
+      'url': 'https://www.travellings.cn/go.html'

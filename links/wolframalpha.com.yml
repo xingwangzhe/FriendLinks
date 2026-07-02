@@ -1,0 +1,12 @@
+'site':
+  'name': 'wolframalpha.com'
+  'url': 'https://www.wolframalpha.com/'
+  'description': '友情链接'
+  'links': '/about'
+  'friends':
+    - 'name': 'wolfram.com'
+      'url': 'https://www.wolfram.com'
+    - 'name': 'Wolfram Demonstrations'
+      'url': 'https://demonstrations.wolfram.com'
+    - 'name': 'MathWorld'
+      'url': 'https://mathworld.wolfram.com'

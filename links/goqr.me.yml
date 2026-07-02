@@ -1,0 +1,12 @@
+'site':
+  'name': 'goqr.me'
+  'url': 'http://goqr.me/'
+  'description': '友情链接'
+  'links': '/friend'
+  'friends':
+    - 'name': 'www.i-nigma.mobi'
+      'url': 'https://www.i-nigma.mobi/'
+    - 'name': 'Andreas Haerter'
+      'url': 'https://andreashaerter.com/'
+    - 'name': 'Andreas Wolf'
+      'url': 'https://a-w.io/'
