@@ -1,5 +1,6 @@
 import { loadSites } from "../utils/load-sites";
 import { printProgress, printDone } from "../utils/progress";
+import { bfsAll } from "@xingwangzhe/bfs-rs";
 
 function getHost(u: string): string {
   try {
@@ -75,10 +76,9 @@ export async function GET() {
     .map(([r, c]) => ({ route: r, count: c }));
   printProgress("❷", "路由统计完成", 70);
 
-  // ── 全节点六度分隔统计 (C(n,2) APSP on largest component) ──
+  // ── 全节点六度分隔统计 (via @xingwangzhe/bfs-rs) ──
   printProgress("❸", "构建全节点图…", 80);
 
-  // 所有节点 (核心 + 外部友链)
   const urlSet = new Set<string>();
   const urlToName = new Map<string, string>();
   for (const s of validSites) {
@@ -94,7 +94,7 @@ export async function GET() {
   const urlToIdx = new Map<string, number>();
   allUrls.forEach((u, i) => urlToIdx.set(u, i));
 
-  // 无向邻接表
+  // 构建 CSR 邻接表
   const adj: number[][] = Array.from({ length: n }, () => []);
   for (const s of validSites) {
     const si = urlToIdx.get(s.url)!;
@@ -105,7 +105,19 @@ export async function GET() {
     }
   }
 
-  // 找连通分量
+  // 转为压缩邻接表 (CSR) 给 bfs-rs
+  const adjFlat = new Uint32Array(adj.reduce((sum, a) => sum + a.length, 0));
+  const offsets = new Uint32Array(n + 1);
+  let cursor = 0;
+  for (let i = 0; i < n; i++) {
+    offsets[i] = cursor;
+    for (const v of adj[i]) {
+      adjFlat[cursor++] = v;
+    }
+  }
+  offsets[n] = cursor;
+
+  // 找连通分量（TS 一次遍历，O(n+m)，够快无需 Rust）
   const comp = new Int32Array(n).fill(-1);
   const compSizes: number[] = [];
   let compId = 0;
@@ -113,92 +125,76 @@ export async function GET() {
     if (comp[i] !== -1) continue;
     const q = [i];
     comp[i] = compId;
-    let head = 0,
-      size = 0;
+    let head = 0, size = 0;
     while (head < q.length) {
       const u = q[head++];
       size++;
       for (const v of adj[u]) {
-        if (comp[v] === -1) {
-          comp[v] = compId;
-          q.push(v);
-        }
+        if (comp[v] === -1) { comp[v] = compId; q.push(v); }
       }
     }
     compSizes.push(size);
     compId++;
   }
 
-  // 对最大分量做全节点 BFS（随机采样以控制构建时间）
+  // 取最大分量
   const mainCompId = compSizes.indexOf(Math.max(...compSizes));
-  const mainNodes = [];
+  const mainNodes: number[] = [];
   for (let i = 0; i < n; i++) if (comp[i] === mainCompId) mainNodes.push(i);
   const M = mainNodes.length;
 
-  // 采样上限：节点数过多时随机采样，六度分布统计在样本量 > 2000 时已足够收敛
-  const MAX_BFS_SAMPLES = 3000;
-  let sampledNodes: number[];
-  if (M > MAX_BFS_SAMPLES) {
-    // Fisher-Yates 部分洗牌取前 MAX_BFS_SAMPLES 个
-    const arr = [...mainNodes];
-    for (let i = 0; i < MAX_BFS_SAMPLES; i++) {
-      const j = i + Math.floor(Math.random() * (M - i));
-      [arr[i], arr[j]] = [arr[j], arr[i]];
+  // 构建主分量子图的 CSR（仅含主分量节点）
+  const mainIdxToGlobal = new Uint32Array(mainNodes);
+  const mainGlobalToIdx = new Int32Array(n).fill(-1);
+  for (let i = 0; i < M; i++) mainGlobalToIdx[mainNodes[i]] = i;
+
+  let mainEdges = 0;
+  for (const u of mainNodes)
+    for (const v of adj[u])
+      if (mainGlobalToIdx[v] !== -1) mainEdges++;
+  const mainAdj = new Uint32Array(mainEdges);
+  const mainOffsets = new Uint32Array(M + 1);
+  let cur = 0;
+  for (let i = 0; i < M; i++) {
+    mainOffsets[i] = cur;
+    const u = mainNodes[i];
+    for (const v of adj[u]) {
+      const vi = mainGlobalToIdx[v];
+      if (vi !== -1) mainAdj[cur++] = vi;
     }
-    sampledNodes = arr.slice(0, MAX_BFS_SAMPLES);
-  } else {
-    sampledNodes = mainNodes;
   }
-  const sampleSize = sampledNodes.length;
+  mainOffsets[M] = cur;
 
-  printProgress("❸", `主分量 ${M}/${n} 节点, 采样 ${sampleSize} 节点 BFS…`, 85);
+  printProgress("❸", `主分量 ${M}/${n} 节点, Rust bfsAll…`, 85);
 
+  const startBfs = performance.now();
+
+  // Rust bfsAll: 对主分量所有节点做全量 BFS
+  const { results: mainBfsResults } = bfsAll(
+    Array.from(mainAdj),
+    Array.from(mainOffsets),
+    M,
+  );
+
+  // 聚合距离分布
   const degreeDist: Record<number, number> = {};
-  let maxDist = 0,
-    processed = 0;
-  const startTime = performance.now();
-
-  // 预分配可复用的数组，避免每次 BFS 分配
-  const qBuf = new Int32Array(n);
-  const dBuf = new Int32Array(n);
-
-  for (const a of sampledNodes) {
-    dBuf.fill(-1, 0, n);
-    dBuf[a] = 0;
-    qBuf[0] = a;
-    let head = 0,
-      tail = 1;
-    while (head < tail) {
-      const u = qBuf[head++];
-      const nd = dBuf[u] + 1;
-      const neighbors = adj[u];
-      for (let k = 0; k < neighbors.length; k++) {
-        const v = neighbors[k];
-        if (dBuf[v] === -1) {
-          dBuf[v] = nd;
-          qBuf[tail++] = v;
-          // 直接累加距离分布
-          if (nd > maxDist) maxDist = nd;
-          degreeDist[nd] = (degreeDist[nd] || 0) + 1;
-        }
+  let maxDist = 0;
+  for (const r of mainBfsResults) {
+    for (let d = 1; d < r.distances.length; d++) {
+      if (r.distances[d] > 0) {
+        const dist = r.distances[d];
+        degreeDist[dist] = (degreeDist[dist] || 0) + 1;
+        if (dist > maxDist) maxDist = dist;
       }
     }
-    processed++;
-    if (processed % 500 === 0) {
-      printProgress(
-        "❸",
-        `BFS ${processed}/${sampleSize} (${((performance.now() - startTime) / 1000).toFixed(0)}s)`,
-        85 + Math.round((processed / sampleSize) * 10),
-      );
-    }
+  }
+  // 除以 2：每对 (a,b) 被双方各计数一次
+  for (const d of Object.keys(degreeDist)) {
+    degreeDist[Number(d)] = Math.round(degreeDist[Number(d)] / 2);
   }
 
-  // 除以2 + 缩放到全量估计：每对(a,b)被双方各计数1次
-  // 采样时已计数 sampleSize × M 对，需缩放到 M × (M-1) / 2 对
-  const scaleFactor = M > 1 ? (M * (M - 1)) / 2 / ((sampleSize * (M - 1)) / 2) : 1;
-  for (const d of Object.keys(degreeDist)) {
-    degreeDist[Number(d)] = Math.round((degreeDist[Number(d)] / 2) * scaleFactor);
-  }
+  const bfsElapsed = ((performance.now() - startBfs) / 1000).toFixed(1);
+  printProgress("❸", `Rust BFS 完成 in ${bfsElapsed}s`, 95);
 
   const intermediateDist: Record<number, number> = {};
   for (const [d, cnt] of Object.entries(degreeDist)) intermediateDist[Number(d) - 1] = cnt;
