@@ -1,6 +1,6 @@
 import { loadSites } from "../utils/load-sites";
 import { printProgress, printDone } from "../utils/progress";
-import { bfsAll } from "@xingwangzhe/bfs-rs";
+import { bfsBatch } from "@xingwangzhe/bfs-rs";
 
 function getHost(u: string): string {
   try {
@@ -117,29 +117,43 @@ export async function GET() {
   }
   offsets[n] = cursor;
 
-  printProgress("❸", `全量 ${n} 节点, Rust bfsAll…`, 85);
+  printProgress("❸", `全量 ${n} 节点, Rust bfsBatch…`, 85);
 
   const startBfs = performance.now();
-
-  // Rust bfsAll: 对所有节点做全量 BFS
-  const { results: bfsResults } = bfsAll(
-    Array.from(adjFlat),
-    Array.from(offsets),
-    n,
-  );
+  const BATCH_SIZE = 500;
 
   // 聚合距离分布
   const degreeDist: Record<number, number> = {};
   let maxDist = 0;
-  for (const r of bfsResults) {
-    for (let d = 1; d < r.distances.length; d++) {
-      if (r.distances[d] > 0) {
-        const dist = r.distances[d];
-        degreeDist[dist] = (degreeDist[dist] || 0) + 1;
-        if (dist > maxDist) maxDist = dist;
+  let processedNodes = 0;
+
+  // 分批处理，每批 500 个源节点，避免 O(n²) 内存
+  for (let i = 0; i < n; i += BATCH_SIZE) {
+    const batch = [];
+    for (let j = i; j < Math.min(i + BATCH_SIZE, n); j++) batch.push(j);
+
+    const { results } = bfsBatch(
+      Array.from(adjFlat),
+      Array.from(offsets),
+      n,
+      batch,
+    );
+
+    for (const r of results) {
+      for (let d = 1; d < r.distances.length; d++) {
+        if (r.distances[d] > 0) {
+          degreeDist[d] = (degreeDist[d] || 0) + 1;
+          if (d > maxDist) maxDist = d;
+        }
       }
     }
+
+    processedNodes += batch.length;
+    const pct = 85 + Math.round((processedNodes / n) * 10);
+    const elapsed = ((performance.now() - startBfs) / 1000).toFixed(0);
+    printProgress("❸", `BFS ${processedNodes}/${n} (${elapsed}s)`, pct);
   }
+
   // 除以 2：每对 (a,b) 被双方各计数一次
   for (const d of Object.keys(degreeDist)) {
     degreeDist[Number(d)] = Math.round(degreeDist[Number(d)] / 2);
