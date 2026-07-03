@@ -29,6 +29,15 @@ export function isJunkEntryWithReason(f: { name: string; url: string }, siteUrl?
   const name = (f.name || "").trim();
   const url = (f.url || "").trim();
 
+  // ── 聚合站来源免检 ─────────────────────────────────────
+  // blog聚合/webring的友链已经过各自社区审核，不再二次过滤
+  if (siteUrl) {
+    try {
+      const siteHost = new URL(siteUrl.startsWith("http") ? siteUrl : `https://${siteUrl}`).hostname.replace(/^www\./, "");
+      if (WHITELIST_SET.has(siteHost)) return { junk: false };
+    } catch {}
+  }
+
   // ── URL 格式检查 ──────────────────────────────────────────
   if (url.includes("https:// https://") || url.includes("http:// http://")) return { junk: true, reason: "URL格式异常(双重协议)" };
   if (/^https?:\/\//i.test(name) && /^https?:\/\//i.test(url)) return { junk: true, reason: "URL格式异常(name=URL)" };
