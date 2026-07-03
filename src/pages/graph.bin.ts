@@ -190,7 +190,10 @@ export async function GET() {
       printTick(i + 1, -1, sim.alpha(), nodes.length);
     }
     if (sim.alpha() < alphaMin) break;
-    if (elapsed > TIME_LIMIT_MS) { stoppedByTime = true; break; }
+    if (elapsed > TIME_LIMIT_MS) {
+      stoppedByTime = true;
+      break;
+    }
   }
   sim.stop();
   const totalSec = ((performance.now() - t0) / 1000).toFixed(1);

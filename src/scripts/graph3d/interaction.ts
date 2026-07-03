@@ -18,10 +18,7 @@ export interface InteractionContext {
   hoveredIndex: number | null;
 }
 
-export function createInteraction(
-  ctx: RenderContext,
-  nodes: GraphNode[],
-): InteractionContext {
+export function createInteraction(ctx: RenderContext, nodes: GraphNode[]): InteractionContext {
   const ix: InteractionContext = {
     raycaster: new THREE.Raycaster(),
     mouse: new THREE.Vector2(),
@@ -67,7 +64,9 @@ export function createInteraction(
   }
 
   // 供外部切换飞船模式时同步状态
-  (ix as any).setFlyMode = (v: boolean) => { _isFlyMode = v; };
+  (ix as any).setFlyMode = (v: boolean) => {
+    _isFlyMode = v;
+  };
 
   // ── Mouse move → hover (throttled) ──
   ctx.renderer.domElement.addEventListener("mousemove", (event: MouseEvent) => {

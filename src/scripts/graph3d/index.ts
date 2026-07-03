@@ -111,8 +111,8 @@ export function init3d(graphData: GraphData) {
 
   // ── 6. 邻居映射 ──
   const links = rawLinks.map((l: any) => ({
-    source: typeof l.source === "object" && l.source !== null ? l.source.id ?? l.source : l.source,
-    target: typeof l.target === "object" && l.target !== null ? l.target.id ?? l.target : l.target,
+    source: typeof l.source === "object" && l.source !== null ? (l.source.id ?? l.source) : l.source,
+    target: typeof l.target === "object" && l.target !== null ? (l.target.id ?? l.target) : l.target,
   }));
   const neighborMap = new Map<string, Set<string>>();
   for (const l of links) {
@@ -136,7 +136,9 @@ export function init3d(graphData: GraphData) {
   })();
   const linkOpacity = { value: saved };
   function saveOpacity(v: number) {
-    try { localStorage.setItem(STORAGE_KEY, String(v)); } catch {}
+    try {
+      localStorage.setItem(STORAGE_KEY, String(v));
+    } catch {}
   }
 
   // ── 6c. 节点索引映射 ──
@@ -187,7 +189,9 @@ export function init3d(graphData: GraphData) {
       if (labelsCreated.has(i)) continue;
       const n = nodes[i];
       if (n.x == null) continue;
-      const dx = n.x - camPos.x, dy = (n.y || 0) - camPos.y, dz = (n.z || 0) - camPos.z;
+      const dx = n.x - camPos.x,
+        dy = (n.y || 0) - camPos.y,
+        dz = (n.z || 0) - camPos.z;
       const sqDist = dx * dx + dy * dy + dz * dz;
       if (sqDist > 200 * 200) continue;
 
@@ -247,7 +251,9 @@ export function init3d(graphData: GraphData) {
     function addSliderRow(
       parent: HTMLElement,
       title: string,
-      min: string, max: string, step: string,
+      min: string,
+      max: string,
+      step: string,
       defaultValue: string,
       onChange: (v: number) => void,
       unit?: string,
@@ -257,7 +263,9 @@ export function init3d(graphData: GraphData) {
       label.style.cssText = "font-size:12px;color:#aaa;display:block;margin-bottom:4px;margin-top:10px;";
       const slider = document.createElement("input");
       slider.type = "range";
-      slider.min = min; slider.max = max; slider.step = step;
+      slider.min = min;
+      slider.max = max;
+      slider.step = step;
       slider.value = defaultValue;
       slider.style.cssText = "width:100%;accent-color:#4a9eff;";
       const val = document.createElement("span");
@@ -270,21 +278,28 @@ export function init3d(graphData: GraphData) {
       });
       const row = document.createElement("div");
       row.style.cssText = "display:flex;align-items:center;";
-      row.appendChild(slider); row.appendChild(val);
-      parent.appendChild(label); parent.appendChild(row);
+      row.appendChild(slider);
+      row.appendChild(val);
+      parent.appendChild(label);
+      parent.appendChild(row);
     }
 
     addSliderRow(panel, "连线透明度", "0", "1", "0.05", String(linkOpacity.value), (v) => {
-      linkOpacity.value = v; saveOpacity(v); refreshLinkColors();
+      linkOpacity.value = v;
+      saveOpacity(v);
+      refreshLinkColors();
     });
-    addSliderRow(panel, "飞船速度", "5", "100", "5", String(MOVE_SPEED), (v) => { MOVE_SPEED = v; });
+    addSliderRow(panel, "飞船速度", "5", "100", "5", String(MOVE_SPEED), (v) => {
+      MOVE_SPEED = v;
+    });
 
     {
       const lbl = document.createElement("label");
       lbl.textContent = "节点标签";
       lbl.style.cssText = "font-size:12px;color:#aaa;display:block;margin-bottom:4px;margin-top:10px;";
       const cb = document.createElement("input");
-      cb.type = "checkbox"; cb.checked = labelShow.value;
+      cb.type = "checkbox";
+      cb.checked = labelShow.value;
       cb.style.cssText = "accent-color:#4a9eff;margin-right:6px;";
       const cbLabel = document.createElement("span");
       cbLabel.textContent = cb.checked ? "显示" : "隐藏";
@@ -296,8 +311,10 @@ export function init3d(graphData: GraphData) {
       });
       const row = document.createElement("div");
       row.style.cssText = "display:flex;align-items:center;";
-      row.appendChild(cb); row.appendChild(cbLabel);
-      panel.appendChild(lbl); panel.appendChild(row);
+      row.appendChild(cb);
+      row.appendChild(cbLabel);
+      panel.appendChild(lbl);
+      panel.appendChild(row);
     }
 
     const hint = document.createElement("div");
@@ -357,14 +374,27 @@ export function init3d(graphData: GraphData) {
     panel = document.createElement("div");
     panel.id = "neighbor-panel";
     panel.classList.add("hidden");
-    const header = document.createElement("div"); header.className = "np-header";
-    const title = document.createElement("div"); title.className = "np-title"; title.textContent = "邻居节点";
-    const collapseBtn = document.createElement("button"); collapseBtn.className = "np-collapse-btn"; collapseBtn.textContent = "◀";
-    const closeBtn = document.createElement("button"); closeBtn.className = "np-close-btn"; closeBtn.textContent = "×";
-    header.appendChild(title); header.appendChild(collapseBtn); header.appendChild(closeBtn);
-    const nodeName = document.createElement("div"); nodeName.className = "np-node-name";
-    const body = document.createElement("div"); body.className = "np-body";
-    panel.appendChild(header); panel.appendChild(nodeName); panel.appendChild(body);
+    const header = document.createElement("div");
+    header.className = "np-header";
+    const title = document.createElement("div");
+    title.className = "np-title";
+    title.textContent = "邻居节点";
+    const collapseBtn = document.createElement("button");
+    collapseBtn.className = "np-collapse-btn";
+    collapseBtn.textContent = "◀";
+    const closeBtn = document.createElement("button");
+    closeBtn.className = "np-close-btn";
+    closeBtn.textContent = "×";
+    header.appendChild(title);
+    header.appendChild(collapseBtn);
+    header.appendChild(closeBtn);
+    const nodeName = document.createElement("div");
+    nodeName.className = "np-node-name";
+    const body = document.createElement("div");
+    body.className = "np-body";
+    panel.appendChild(header);
+    panel.appendChild(nodeName);
+    panel.appendChild(body);
     collapseBtn.addEventListener("click", () => panel!.classList.toggle("collapsed"));
     closeBtn.addEventListener("click", () => panel!.classList.add("hidden"));
     document.body.appendChild(panel);
@@ -374,7 +404,10 @@ export function init3d(graphData: GraphData) {
 
   function updateNeighborPanel(nodeId: string | null) {
     if (!neighborPanel) return;
-    if (!nodeId) { neighborPanel.classList.add("hidden"); return; }
+    if (!nodeId) {
+      neighborPanel.classList.add("hidden");
+      return;
+    }
     if (!neighborPanel.classList.contains("collapsed")) neighborPanel.classList.remove("hidden");
     const focusedNode = nodes.find((n) => n.id === nodeId);
     const nameEl = neighborPanel.querySelector(".np-node-name");
@@ -384,8 +417,11 @@ export function init3d(graphData: GraphData) {
     body.innerHTML = "";
     const neighborIds = neighborMap.get(nodeId);
     if (!neighborIds || neighborIds.size === 0) {
-      const empty = document.createElement("div"); empty.className = "np-empty"; empty.textContent = "无邻居节点";
-      body.appendChild(empty); return;
+      const empty = document.createElement("div");
+      empty.className = "np-empty";
+      empty.textContent = "无邻居节点";
+      body.appendChild(empty);
+      return;
     }
     const entries: Array<{ id: string; name: string; url: string }> = [];
     for (const nid of neighborIds) {
@@ -394,10 +430,17 @@ export function init3d(graphData: GraphData) {
     }
     entries.sort((a, b) => a.url.localeCompare(b.url));
     for (const entry of entries) {
-      const item = document.createElement("div"); item.className = "np-item"; item.dataset.id = entry.id;
-      const nm = document.createElement("div"); nm.className = "np-item-name"; nm.textContent = entry.name;
-      const ur = document.createElement("div"); ur.className = "np-item-url"; ur.textContent = entry.url;
-      item.appendChild(nm); item.appendChild(ur);
+      const item = document.createElement("div");
+      item.className = "np-item";
+      item.dataset.id = entry.id;
+      const nm = document.createElement("div");
+      nm.className = "np-item-name";
+      nm.textContent = entry.name;
+      const ur = document.createElement("div");
+      ur.className = "np-item-url";
+      ur.textContent = entry.url;
+      item.appendChild(nm);
+      item.appendChild(ur);
       item.addEventListener("click", () => focusNodeById(entry.id));
       body.appendChild(item);
     }
@@ -434,7 +477,8 @@ export function init3d(graphData: GraphData) {
 
   // ── 11. 路径查找 ──
   function clearOldPathState() {
-    pathNodeIds = null; pathStepIndex = -1;
+    pathNodeIds = null;
+    pathStepIndex = -1;
     clearNeighborLabels();
     if (pathOverlayGroup) {
       while (pathOverlayGroup.children.length > 0) {
@@ -452,8 +496,22 @@ export function init3d(graphData: GraphData) {
     pathOverlayGroup = new THREE.Group();
     const sharedCoreGeom = new THREE.CylinderGeometry(0.3, 0.3, 1, 6);
     const sharedHaloGeom = new THREE.CylinderGeometry(0.8, 0.8, 1, 6);
-    const coreMat = new THREE.MeshStandardMaterial({ color: 0xffd700, emissive: new THREE.Color(0xffd700), emissiveIntensity: 0.7, transparent: true, opacity: 1, depthWrite: false });
-    const haloMat = new THREE.MeshStandardMaterial({ color: 0xffd700, emissive: new THREE.Color(0xffd700), emissiveIntensity: 0.4, transparent: true, opacity: 0.25, depthWrite: false });
+    const coreMat = new THREE.MeshStandardMaterial({
+      color: 0xffd700,
+      emissive: new THREE.Color(0xffd700),
+      emissiveIntensity: 0.7,
+      transparent: true,
+      opacity: 1,
+      depthWrite: false,
+    });
+    const haloMat = new THREE.MeshStandardMaterial({
+      color: 0xffd700,
+      emissive: new THREE.Color(0xffd700),
+      emissiveIntensity: 0.4,
+      transparent: true,
+      opacity: 0.25,
+      depthWrite: false,
+    });
     const up = new THREE.Vector3(0, 1, 0);
     const quat = new THREE.Quaternion();
     for (let i = 0; i < path.length - 1; i++) {
@@ -469,10 +527,15 @@ export function init3d(graphData: GraphData) {
       dir.normalize();
       quat.setFromUnitVectors(up, dir);
       const halo = new THREE.Mesh(sharedHaloGeom, haloMat);
-      halo.position.copy(mid); halo.quaternion.copy(quat); halo.scale.set(1, len, 1);
+      halo.position.copy(mid);
+      halo.quaternion.copy(quat);
+      halo.scale.set(1, len, 1);
       const core = new THREE.Mesh(sharedCoreGeom, coreMat);
-      core.position.copy(mid); core.quaternion.copy(quat); core.scale.set(1, len, 1);
-      pathOverlayGroup.add(halo); pathOverlayGroup.add(core);
+      core.position.copy(mid);
+      core.quaternion.copy(quat);
+      core.scale.set(1, len, 1);
+      pathOverlayGroup.add(halo);
+      pathOverlayGroup.add(core);
     }
     ctx.scene.add(pathOverlayGroup);
   }
@@ -498,9 +561,11 @@ export function init3d(graphData: GraphData) {
     const path = findShortestPath(neighborMap, fromId, toId);
     if (!path) return null;
     clearOldPathState();
-    focusedId = null; highlightedSet.clear();
+    focusedId = null;
+    highlightedSet.clear();
     updateNeighborPanel(null);
-    pathNodeIds = path; pathStepIndex = 0;
+    pathNodeIds = path;
+    pathStepIndex = 0;
     refreshPathNodeColors();
     buildOverlay(null, 0xffffff); // 清除聚焦叠加线
     // 路径模式下隐藏普通连线，只显示金色路径管道
@@ -509,7 +574,12 @@ export function init3d(graphData: GraphData) {
     const first = nodes.find((n) => n.id === path[0]);
     if (first && first.x != null) {
       const pad = 200;
-      animateCamera(ctx, { x: first.x + pad, y: first.y! + pad * 0.5, z: first.z! + pad }, { x: first.x!, y: first.y!, z: first.z! }, 800);
+      animateCamera(
+        ctx,
+        { x: first.x + pad, y: first.y! + pad * 0.5, z: first.z! + pad },
+        { x: first.x!, y: first.y!, z: first.z! },
+        800,
+      );
     }
     return path;
   }
@@ -548,7 +618,12 @@ export function init3d(graphData: GraphData) {
 
   function getPathInfo() {
     if (!pathNodeIds) return null;
-    return { path: pathNodeIds, totalSteps: pathNodeIds.length, currentStep: pathStepIndex, currentId: pathStepIndex >= 0 ? pathNodeIds[pathStepIndex] : null };
+    return {
+      path: pathNodeIds,
+      totalSteps: pathNodeIds.length,
+      currentStep: pathStepIndex,
+      currentId: pathStepIndex >= 0 ? pathNodeIds[pathStepIndex] : null,
+    };
   }
 
   // ── 12. 颜色管理 ──
@@ -590,7 +665,8 @@ export function init3d(graphData: GraphData) {
       _fpsLastTime = now;
       if (!_fpsDisplay) {
         _fpsDisplay = document.createElement("div");
-        _fpsDisplay.style.cssText = "position:fixed;top:8px;left:50%;transform:translateX(-50%);z-index:10000;background:rgba(0,0,0,0.7);color:#0f0;padding:4px 8px;border-radius:4px;font:12px monospace;";
+        _fpsDisplay.style.cssText =
+          "position:fixed;top:8px;left:50%;transform:translateX(-50%);z-index:10000;background:rgba(0,0,0,0.7);color:#0f0;padding:4px 8px;border-radius:4px;font:12px monospace;";
         document.body.appendChild(_fpsDisplay);
       }
       const nodeCount = ctx.nodes.count;
@@ -615,7 +691,9 @@ export function init3d(graphData: GraphData) {
       Math.abs(camPos.z - _lastCamPos.z) > 1;
 
     if (camMoved || _queryCamMove) {
-      _lastCamPos.x = camPos.x; _lastCamPos.y = camPos.y; _lastCamPos.z = camPos.z;
+      _lastCamPos.x = camPos.x;
+      _lastCamPos.y = camPos.y;
+      _lastCamPos.z = camPos.z;
       _queryCamMove = false;
 
       // 标签淡出（每 3 帧才跑一次，减少 CPU 消耗）
@@ -628,16 +706,23 @@ export function init3d(graphData: GraphData) {
           const sprite = child as THREE.Sprite;
           const np = (sprite as any)._nodePos;
           if (!np) continue;
-          if (!show) { sprite.visible = false; continue; }
-          const dx = np.x - camPos.x, dy = np.y - camPos.y, dz = np.z - camPos.z;
+          if (!show) {
+            sprite.visible = false;
+            continue;
+          }
+          const dx = np.x - camPos.x,
+            dy = np.y - camPos.y,
+            dz = np.z - camPos.z;
           const sqDist = dx * dx + dy * dy + dz * dz;
           if (sqDist > LABEL_MAX_FADE_START * LABEL_MAX_FADE_START) {
             sprite.visible = false;
           } else if (sqDist < LABEL_FADE_FULL * LABEL_FADE_FULL) {
-            sprite.visible = true; sprite.material.opacity = 1;
+            sprite.visible = true;
+            sprite.material.opacity = 1;
           } else {
             sprite.visible = true;
-            sprite.material.opacity = (LABEL_MAX_FADE_START - Math.sqrt(sqDist)) / (LABEL_MAX_FADE_START - LABEL_FADE_FULL);
+            sprite.material.opacity =
+              (LABEL_MAX_FADE_START - Math.sqrt(sqDist)) / (LABEL_MAX_FADE_START - LABEL_FADE_FULL);
           }
         }
       }
@@ -645,7 +730,7 @@ export function init3d(graphData: GraphData) {
 
     // 邻居大字标签：屏幕空间恒定大小（每帧更新）
     if (neighborLabelGroup.children.length > 0) {
-      const fovRad = ctx.camera.fov * Math.PI / 180;
+      const fovRad = (ctx.camera.fov * Math.PI) / 180;
       const targetFraction = 0.04; // 占屏幕高度 4%
       for (const child of neighborLabelGroup.children) {
         const sprite = child as THREE.Sprite;
@@ -727,14 +812,27 @@ export function init3d(graphData: GraphData) {
       if (child.material) (child.material as THREE.Material).dispose();
       overlayGroup.remove(child);
     }
-    if (!nodeId) { overlayGroup.visible = false; return; }
+    if (!nodeId) {
+      overlayGroup.visible = false;
+      return;
+    }
 
     const baseColor = new THREE.Color(color);
     const coreMat = new THREE.MeshStandardMaterial({
-      color: baseColor, emissive: baseColor, emissiveIntensity: 0.7, transparent: true, opacity: 1, depthWrite: false,
+      color: baseColor,
+      emissive: baseColor,
+      emissiveIntensity: 0.7,
+      transparent: true,
+      opacity: 1,
+      depthWrite: false,
     });
     const haloMat = new THREE.MeshStandardMaterial({
-      color: baseColor.clone(), emissive: baseColor.clone(), emissiveIntensity: 0.4, transparent: true, opacity: 0.25, depthWrite: false,
+      color: baseColor.clone(),
+      emissive: baseColor.clone(),
+      emissiveIntensity: 0.4,
+      transparent: true,
+      opacity: 0.25,
+      depthWrite: false,
     });
 
     const linkPos = ctx.linkLines.geometry.attributes.position.array as Float32Array;
@@ -755,10 +853,15 @@ export function init3d(graphData: GraphData) {
       const cGeom = isFocus ? sharedFocusCoreGeom : sharedCoreGeom;
 
       const halo = new THREE.Mesh(hGeom, haloMat);
-      halo.position.copy(mid_v); halo.quaternion.copy(quat_v); halo.scale.set(1, len, 1);
+      halo.position.copy(mid_v);
+      halo.quaternion.copy(quat_v);
+      halo.scale.set(1, len, 1);
       const core = new THREE.Mesh(cGeom, coreMat);
-      core.position.copy(mid_v); core.quaternion.copy(quat_v); core.scale.set(1, len, 1);
-      overlayGroup.add(halo); overlayGroup.add(core);
+      core.position.copy(mid_v);
+      core.quaternion.copy(quat_v);
+      core.scale.set(1, len, 1);
+      overlayGroup.add(halo);
+      overlayGroup.add(core);
     }
     overlayGroup.visible = true;
   }
@@ -767,7 +870,8 @@ export function init3d(graphData: GraphData) {
     const newHoveredId = n ? n.id : null;
     if (lastHoveredId === newHoveredId) return;
     const prevId = hoveredId;
-    hoveredId = newHoveredId; lastHoveredId = newHoveredId;
+    hoveredId = newHoveredId;
+    lastHoveredId = newHoveredId;
     if (prevId) {
       const pi = nodeIdToIndex.get(prevId);
       if (pi != null) setNodeColor(ctx, pi, nodes[pi]._cDefault);
@@ -782,10 +886,23 @@ export function init3d(graphData: GraphData) {
     if (n) {
       const content = document.createElement("div");
       content.className = "graph-tooltip-content";
-      const titleEl = document.createElement("strong"); titleEl.textContent = n.name || n.id;
+      const titleEl = document.createElement("strong");
+      titleEl.textContent = n.name || n.id;
       content.appendChild(titleEl);
-      if (n.desc) { const d = document.createElement("div"); d.textContent = n.desc; content.appendChild(d); }
-      if (n.url) { const a = document.createElement("a"); a.href = n.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = n.url; a.style.color = "#87ceeb"; content.appendChild(a); }
+      if (n.desc) {
+        const d = document.createElement("div");
+        d.textContent = n.desc;
+        content.appendChild(d);
+      }
+      if (n.url) {
+        const a = document.createElement("a");
+        a.href = n.url;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.textContent = n.url;
+        a.style.color = "#87ceeb";
+        content.appendChild(a);
+      }
       tooltip.show(content, (window as any).__lastMouseX || 0, (window as any).__lastMouseY || 0);
     } else {
       tooltip.hide();
@@ -813,7 +930,8 @@ export function init3d(graphData: GraphData) {
   let _lastFocusedId: string | null = null;
 
   function focusNodeById(id: string) {
-    _lastFocusedId = focusedId; focusedId = id;
+    _lastFocusedId = focusedId;
+    focusedId = id;
     refreshAllNodeColors();
     buildOverlay(id, 0xffdd44);
     updateNeighborPanel(id);
@@ -821,7 +939,12 @@ export function init3d(graphData: GraphData) {
     const node = nodes.find((n) => n.id === id);
     if (node && node.x != null) {
       const pad = Math.max(100, (degreeMap[id] || 0) * 5);
-      animateCamera(ctx, { x: node.x + pad, y: node.y! + pad * 0.5, z: node.z! + pad }, { x: node.x!, y: node.y!, z: node.z! }, 800);
+      animateCamera(
+        ctx,
+        { x: node.x + pad, y: node.y! + pad * 0.5, z: node.z! + pad },
+        { x: node.x!, y: node.y!, z: node.z! },
+        800,
+      );
     }
   }
 
@@ -836,13 +959,22 @@ export function init3d(graphData: GraphData) {
 
   function clearHighlights() {
     highlightedSet.clear();
-    if (focusedId) { focusedId = null; updateNeighborPanel(null); buildOverlay(null, 0xffffff); clearNeighborLabels(); }
+    if (focusedId) {
+      focusedId = null;
+      updateNeighborPanel(null);
+      buildOverlay(null, 0xffffff);
+      clearNeighborLabels();
+    }
     refreshAllNodeColors();
   }
 
   function focusByDomain(domain: string) {
     const node = nodes.find((n) => {
-      try { return new URL(n.url).hostname === domain; } catch { return false; }
+      try {
+        return new URL(n.url).hostname === domain;
+      } catch {
+        return false;
+      }
     });
     if (node) focusNodeById(node.id);
   }
@@ -869,7 +1001,8 @@ export function init3d(graphData: GraphData) {
     if (el) return el;
     el = document.createElement("div");
     el.id = "fly-crosshair";
-    el.style.cssText = "position:fixed;top:50%;left:50%;pointer-events:none;z-index:10000;transform:translate(-50%,-50%);display:none;";
+    el.style.cssText =
+      "position:fixed;top:50%;left:50%;pointer-events:none;z-index:10000;transform:translate(-50%,-50%);display:none;";
     el.innerHTML = `<svg viewBox="0 0 20 20" width="20" height="20"><circle cx="10" cy="10" r="8" fill="none" stroke="#0f0" stroke-width="1.5" opacity="0.7"/><circle cx="10" cy="10" r="2" fill="#0f0" opacity="0.9"/></svg>`;
     document.body.appendChild(el);
     return el;
@@ -919,7 +1052,10 @@ export function init3d(graphData: GraphData) {
       const dot = _forward_v.dot(_toNode_v) / dist;
       if (dot < 0.85) continue; // 31° 窄锥体
       const score = dot / (1 + dist * 0.005);
-      if (score > bestScore) { bestScore = score; bestNode = node; }
+      if (score > bestScore) {
+        bestScore = score;
+        bestNode = node;
+      }
     }
 
     const newId = bestNode ? bestNode.id : null;
@@ -945,9 +1081,14 @@ export function init3d(graphData: GraphData) {
       if (bestNode.url) {
         const urlEl = document.createElement("div");
         const a = document.createElement("a");
-        a.href = bestNode.url; a.target = "_blank"; a.rel = "noopener noreferrer";
-        a.textContent = bestNode.url; a.style.color = "#87ceeb"; a.style.textDecoration = "underline";
-        urlEl.appendChild(a); content.appendChild(urlEl);
+        a.href = bestNode.url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = bestNode.url;
+        a.style.color = "#87ceeb";
+        a.style.textDecoration = "underline";
+        urlEl.appendChild(a);
+        content.appendChild(urlEl);
       }
       tooltip.show(content, window.innerWidth / 2 - 160, window.innerHeight / 2 + 20);
     }
@@ -974,7 +1115,8 @@ export function init3d(graphData: GraphData) {
 
     // 更新准星 DOM
     if (flyCrosshair) {
-      const x = Math.round(reticleOffset.x), y = Math.round(reticleOffset.y);
+      const x = Math.round(reticleOffset.x),
+        y = Math.round(reticleOffset.y);
       flyCrosshair.style.transform = `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`;
     }
 
@@ -1037,8 +1179,10 @@ export function init3d(graphData: GraphData) {
   function enterFlyMode() {
     isFlyMode = true;
     ctx.controls.enabled = false;
-    reticleOffset.x = 0; reticleOffset.y = 0;
-    reticleVelocity.x = 0; reticleVelocity.y = 0;
+    reticleOffset.x = 0;
+    reticleOffset.y = 0;
+    reticleVelocity.x = 0;
+    reticleVelocity.y = 0;
     ctx.renderer.domElement.requestPointerLock?.();
     document.addEventListener("pointerlockchange", onPointerLockChange);
     ctx.camera.rotation.order = "YXZ";
@@ -1080,9 +1224,17 @@ export function init3d(graphData: GraphData) {
     if (flyOnMouseMove) ctx.renderer.domElement.removeEventListener("mousemove", flyOnMouseMove);
     flyOnKeyDown = flyOnKeyUp = flyOnMouseMove = null;
     document.removeEventListener("pointerlockchange", onPointerLockChange);
-    try { document.exitPointerLock?.(); } catch {}
-    if (flyCrosshair) { flyCrosshair.style.display = "none"; flyCrosshair = null; }
-    if (flyControlPanel) { flyControlPanel.style.display = "none"; flyControlPanel = null; }
+    try {
+      document.exitPointerLock?.();
+    } catch {}
+    if (flyCrosshair) {
+      flyCrosshair.style.display = "none";
+      flyCrosshair = null;
+    }
+    if (flyControlPanel) {
+      flyControlPanel.style.display = "none";
+      flyControlPanel = null;
+    }
     (interaction as any).setFlyMode?.(false);
     // 同步按钮文字
     const flyBtn = document.getElementById("fly-toggle");
@@ -1091,17 +1243,23 @@ export function init3d(graphData: GraphData) {
   }
 
   function toggleFlightMode(): boolean {
-    if (isFlyMode) exitFlyMode(); else enterFlyMode();
+    if (isFlyMode) exitFlyMode();
+    else enterFlyMode();
     return isFlyMode;
   }
 
   // ── 17. 启动 ──
   // 初始视角：星系密度中心附近，四周可见星点
   {
-    let cx = 0, cy = 0, cz = 0, tw = 0;
+    let cx = 0,
+      cy = 0,
+      cz = 0,
+      tw = 0;
     for (const n of nodes) {
       const w = degreeMap[n.id] ? Math.max(1, degreeMap[n.id]) : 1;
-      cx += (n.x ?? 0) * w; cy += (n.y ?? 0) * w; cz += (n.z ?? 0) * w;
+      cx += (n.x ?? 0) * w;
+      cy += (n.y ?? 0) * w;
+      cz += (n.z ?? 0) * w;
       tw += w;
     }
     const center = new THREE.Vector3(cx / tw, cy / tw, cz / tw);
@@ -1126,7 +1284,9 @@ export function init3d(graphData: GraphData) {
   function find(query: string) {
     if (!query?.trim()) return [];
     return fuse.search(query.trim()).map((r) => ({
-      id: r.item.id, name: (r.item as any).name || r.item.id, url: (r.item as any).url,
+      id: r.item.id,
+      name: (r.item as any).name || r.item.id,
+      url: (r.item as any).url,
     }));
   }
 
@@ -1135,12 +1295,26 @@ export function init3d(graphData: GraphData) {
   }
 
   const api = {
-    find, focusNodeById, highlightNodesAndNeighbors, clearHighlights, focusByDomain,
-    toggleFlightMode, showShortestPath, stepPathNext, stepPathPrev, clearPath, getPathInfo, getGraphData,
+    find,
+    focusNodeById,
+    highlightNodesAndNeighbors,
+    clearHighlights,
+    focusByDomain,
+    toggleFlightMode,
+    showShortestPath,
+    stepPathNext,
+    stepPathPrev,
+    clearPath,
+    getPathInfo,
+    getGraphData,
     ctx,
-    updateLinkOpacity(v: number) { linkOpacity.value = v; refreshLinkColors(); },
+    updateLinkOpacity(v: number) {
+      linkOpacity.value = v;
+      refreshLinkColors();
+    },
   };
-  (window as any).__graphApi = (window as any).__graphApi || {}; Object.assign((window as any).__graphApi, api); // merge，不用 Object.assign 合并
+  (window as any).__graphApi = (window as any).__graphApi || {};
+  Object.assign((window as any).__graphApi, api); // merge，不用 Object.assign 合并
   return api;
 }
 
@@ -1149,11 +1323,16 @@ export function init3d(graphData: GraphData) {
 function expandCompact(c: any): GraphData {
   const { nid, nnm, nur, nfa, nde, nx, ny, nz } = c;
   const nodes = nid.map((_id: string, i: number) => ({
-    id: nid[i], name: nnm[i], url: nur[i], favicon: nfa[i], desc: nde[i],
+    id: nid[i],
+    name: nnm[i],
+    url: nur[i],
+    favicon: nfa[i],
+    desc: nde[i],
     ...(nx ? { x: nx[i], y: ny[i], z: nz[i] } : {}),
   }));
   const links = (c.ls || []).map((s: number, i: number) => ({
-    source: nid[s], target: nid[c.lt[i]],
+    source: nid[s],
+    target: nid[c.lt[i]],
   }));
   return { nodes, links, categories: c.c || [], adjacency: {} };
 }

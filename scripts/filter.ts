@@ -44,8 +44,9 @@ export function isJunkEntryWithReason(f: { name: string; url: string }, siteUrl?
   // ── 域名检查 ────────────────────────────────────────────
   let hostname = "";
   let pathname = "";
+  let parsed: URL;
   try {
-    const parsed = new URL(url.startsWith("http") ? url : `https://${url}`);
+    parsed = new URL(url.startsWith("http") ? url : `https://${url}`);
     hostname = parsed.hostname.toLowerCase();
     pathname = parsed.pathname;
   } catch { return { junk: true, reason: "URL解析失败" }; }
@@ -58,7 +59,7 @@ export function isJunkEntryWithReason(f: { name: string; url: string }, siteUrl?
     const seg = pathname.split("/").filter(Boolean)[0] || "";
     return { junk: true, reason: `子路由: /${seg}...` };
   }
-  if (hostname && new URL(url.startsWith("http") ? url : `https://${url}`).search) return { junk: true, reason: "带查询参数(?xxx)" };
+  if (hostname && parsed.search) return { junk: true, reason: "带查询参数(?xxx)" };
 
   if (/^api[.-]/i.test(hostname)) return { junk: true, reason: "API子域名" };
   if (SERVICE_SUBDOMAINS.test(hostname)) return { junk: true, reason: "服务子域名" };

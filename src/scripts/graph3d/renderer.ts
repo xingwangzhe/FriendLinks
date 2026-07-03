@@ -94,20 +94,12 @@ export function createRenderer(container: HTMLElement, nodeCount: number, linkCo
 
 // ─── 节点位置 + 颜色 ──────────────────────────────────────────────
 
-export function updateAllNodePositions(
-  ctx: RenderContext,
-  nodes: GraphNode[],
-  nodeStates: NodeState[],
-) {
+export function updateAllNodePositions(ctx: RenderContext, nodes: GraphNode[], nodeStates: NodeState[]) {
   const m = new THREE.Matrix4();
 
   for (let i = 0; i < nodes.length; i++) {
     const n = nodes[i];
-    m.compose(
-      new THREE.Vector3(n.x ?? 0, n.y ?? 0, n.z ?? 0),
-      new THREE.Quaternion(),
-      new THREE.Vector3(3, 3, 3),
-    );
+    m.compose(new THREE.Vector3(n.x ?? 0, n.y ?? 0, n.z ?? 0), new THREE.Quaternion(), new THREE.Vector3(3, 3, 3));
     ctx.nodes.setMatrixAt(i, m);
 
     if (nodeStates[i]) {
@@ -138,8 +130,8 @@ export function updateLinkPositions(
 
   for (let i = 0; i < count; i++) {
     const l = links[i];
-    const si = nodeIdToIndex.get(typeof l.source === "string" ? l.source : (l.source as any).id ?? l.source);
-    const ti = nodeIdToIndex.get(typeof l.target === "string" ? l.target : (l.target as any).id ?? l.target);
+    const si = nodeIdToIndex.get(typeof l.source === "string" ? l.source : ((l.source as any).id ?? l.source));
+    const ti = nodeIdToIndex.get(typeof l.target === "string" ? l.target : ((l.target as any).id ?? l.target));
     if (si == null || ti == null) continue;
 
     const sn = graphNodes[si];
@@ -160,14 +152,25 @@ export function updateLinkPositions(
 
 // ─── 相机 ──────────────────────────────────────────────────────────
 
-export function zoomToFit(ctx: RenderContext, graphNodes: GraphNode[], ms: number, padding: number, degreeMap?: Record<string, number>) {
+export function zoomToFit(
+  ctx: RenderContext,
+  graphNodes: GraphNode[],
+  ms: number,
+  padding: number,
+  degreeMap?: Record<string, number>,
+) {
   if (!graphNodes.length) return;
 
   // 度数加权中心：密集区权重高
-  let cx = 0, cy = 0, cz = 0, tw = 0;
+  let cx = 0,
+    cy = 0,
+    cz = 0,
+    tw = 0;
   for (const n of graphNodes) {
-    const w = degreeMap ? Math.max(1, (degreeMap[n.id] || 0)) : 1;
-    cx += (n.x ?? 0) * w; cy += (n.y ?? 0) * w; cz += (n.z ?? 0) * w;
+    const w = degreeMap ? Math.max(1, degreeMap[n.id] || 0) : 1;
+    cx += (n.x ?? 0) * w;
+    cy += (n.y ?? 0) * w;
+    cz += (n.z ?? 0) * w;
     tw += w;
   }
   const wCenter = new THREE.Vector3(cx / tw, cy / tw, cz / tw);

@@ -5,7 +5,6 @@ declare module "msgpackr" {
   export function decode(buffer: Uint8Array): any;
 }
 
-
 declare module "d3-force-3d" {
   export function forceSimulation(nodes?: any[], dimensions?: number): any;
   export function forceLink(links?: any[]): any;

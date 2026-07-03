@@ -155,7 +155,10 @@ type SearchResult = { id: string; name: string; url?: string };
         }
       } catch {}
       if (!v) {
-        if (searchTimer) { clearTimeout(searchTimer); searchTimer = null; }
+        if (searchTimer) {
+          clearTimeout(searchTimer);
+          searchTimer = null;
+        }
         render([]);
         return;
       }

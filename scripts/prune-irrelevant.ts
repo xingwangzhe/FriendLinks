@@ -33,7 +33,10 @@ async function main() {
       const filePath = resolve(dir, file);
       const text = await Bun.file(filePath).text();
       let obj: any;
-      try { obj = YAML.parse(text); } catch { continue; }
+      try { obj = YAML.parse(text); } catch (e) {
+        process.stderr.write(`⚠️ ${file} YAML解析失败: ${(e as Error).message || e}\n`);
+        continue;
+      }
       if (!obj?.site) continue;
 
       const site = obj.site;
