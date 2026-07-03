@@ -121,6 +121,8 @@ export async function GET() {
 
   const startBfs = performance.now();
   const BATCH_SIZE = 500;
+  const adjArr = Array.from(adjFlat);
+  const offArr = Array.from(offsets);
 
   // 聚合距离分布
   const degreeDist: Record<number, number> = {};
@@ -132,18 +134,14 @@ export async function GET() {
     const batch = [];
     for (let j = i; j < Math.min(i + BATCH_SIZE, n); j++) batch.push(j);
 
-    const { results } = bfsBatch(
-      Array.from(adjFlat),
-      Array.from(offsets),
-      n,
-      batch,
-    );
+    const { results } = bfsBatch(adjArr, offArr, n, batch);
 
     for (const r of results) {
       for (let d = 1; d < r.distances.length; d++) {
-        if (r.distances[d] > 0) {
-          degreeDist[d] = (degreeDist[d] || 0) + 1;
-          if (d > maxDist) maxDist = d;
+        const dist = r.distances[d];
+        if (dist > 0) {
+          degreeDist[dist] = (degreeDist[dist] || 0) + 1;
+          if (dist > maxDist) maxDist = dist;
         }
       }
     }
