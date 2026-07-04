@@ -6,8 +6,6 @@
   'friends':
     - 'name': 'Gnome'
       'url': 'https://gnome.org'
-    - 'name': 'GTK'
-      'url': 'https://gtk.org'
     - 'name': 'Firefox'
       'url': 'https://www.firefox.com'
     - 'name': 'LuaTeX'
@@ -16,8 +14,6 @@
       'url': 'https://fontforge.org'
     - 'name': 'Scribus'
       'url': 'https://www.scribus.net'
-    - 'name': 'LibreOffice'
-      'url': 'https://libreoffice.org'
     - 'name': 'Alif Type'
       'url': 'https://aliftype.com'
     - 'name': 'Translate House'
@@ -32,5 +28,3 @@
       'url': 'https://motoon.org'
     - 'name': 'The Document Foundation'
       'url': 'https://www.documentfoundation.org'
-    - 'name': 'LibreOffice'
-      'url': 'https://www.libreoffice.org'

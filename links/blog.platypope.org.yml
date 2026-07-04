@@ -4,8 +4,6 @@
   'description': '友情链接'
   'links': '/'
   'friends':
-    - 'name': 'Leiningen'
-      'url': 'http://leiningen.org/'
     - 'name': 'Clojure/conj'
       'url': 'http://clojure-conj.org/'
     - 'name': 'Disqus'

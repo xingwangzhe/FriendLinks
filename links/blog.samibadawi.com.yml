@@ -4,10 +4,6 @@
   'description': '友情链接'
   'links': '/'
   'friends':
-    - 'name': 'Haskell'
-      'url': 'https://www.haskell.org'
-    - 'name': 'Lean 4'
-      'url': 'https://lean-lang.org/'
     - 'name': 'Unison-lang'
       'url': 'https://www.unison-lang.org'
     - 'name': 'Unison Cloud'
@@ -20,5 +16,3 @@
       'url': 'https://spacevim.org/'
     - 'name': 'OCaml'
       'url': 'https://ocaml.org/'
-    - 'name': 'Scala'
-      'url': 'https://www.scala-lang.org/'

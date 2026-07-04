@@ -4,13 +4,9 @@
   'description': '友情链接'
   'links': '/'
   'friends':
-    - 'name': 'Clojure'
-      'url': 'http://clojure.org/'
     - 'name': 'Supercollider'
       'url': 'http://supercollider.github.io'
     - 'name': 'Overtone'
       'url': 'http://overtone.github.io/'
-    - 'name': 'Sonic Pi'
-      'url': 'http://www.sonic-pi.net'
     - 'name': 'bandcamp'
       'url': 'https://repl-electric.bandcamp.com/'

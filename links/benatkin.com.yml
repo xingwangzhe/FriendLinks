@@ -4,8 +4,6 @@
   'description': '友情链接'
   'links': '/'
   'friends':
-    - 'name': 'MessagePack'
-      'url': 'https://msgpack.org/'
     - 'name': 'Cap’n Proto'
       'url': 'https://capnproto.org/'
     - 'name': 'Protocol Buffers'

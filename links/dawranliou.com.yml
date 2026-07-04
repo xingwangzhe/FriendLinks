@@ -4,10 +4,6 @@
   'description': '友情链接'
   'links': '/'
   'friends':
-    - 'name': 'Clojure'
-      'url': 'https://clojure.org/'
-    - 'name': 'Common Lisp'
-      'url': 'https://lisp-lang.org/'
     - 'name': 'Babashka'
       'url': 'https://babashka.org/'
     - 'name': 'itch.io'
