@@ -107,63 +107,13 @@ src/
 │   ├── graph3d/           # 3D 渲染模块
 │   │   ├── index.ts       # 初始化、交互、API
 │   │   └── utils.ts       # 调色板、颜色工具
-│   ├── index-client.ts    # 客户端入口
-│   ├── filter.ts          # 过滤入口（导入以下子模块）
-│   ├── filter/
-│   │   ├── names.ts       # 名称关键词模式
-│   │   ├── urls.ts        # URL 正则模式
-│   │   ├── domains.ts     # 非博客域名列表
-│   │   ├── sensitive.ts   # 敏感域名（SHA-256 哈希）
-│   │   ├── subdomains.ts  # 服务子域名前缀
-│   │   └── platforms.ts   # 托管平台列表
-│   └── prune-irrelevant.ts  # 友链无关条目剔除
+│   └── index-client.ts    # 客户端入口
 ├── utils/
 │   └── load-sites.ts      # YAML 读取/校验
 ├── css/                   # 样式文件
 links/                     # 友链 YAML 源文件（核心数据）
-scripts/
-  ├── prune-irrelevant.ts  # 清理脚本
-  ├── check-access.ts      # 可达性检查
 types/                     # TypeScript 类型定义
 ```
-
-### 剔除无关条目
-
-爬虫可能抓入非友链数据（备案号、主题框架、社交链接、站内页面等）。运行清理脚本：
-
-```bash
-bun run prune
-```
-
-过滤规则按类别拆分在 `scripts/filter/` 目录下：
-
-| 文件 | 用途 |
-|------|------|
-| `names.ts` | 名称关键词匹配（如「备案」「教程」「商城」） |
-| `urls.ts` | URL 模式匹配（如 `beian.`、图片文件后缀） |
-| `domains.ts` | 非博客域名列表（如 `github.com`、社交平台） |
-| `sensitive.ts` | 敏感域名（SHA-256 哈希，避免明文出现在 git） |
-| `subdomains.ts` | 服务子域名前缀（如 `cdn.`、`api.`、`img.`） |
-| `platforms.ts` | 托管平台列表（不向上匹配父域名） |
-
-脚本会自动剔除无关条目，友链全空时自动删除文件。
-
-### 六度分隔理论验证
-
-基于构建好的 `dist/all.json` 数据，对所有 C(n,2) 节点对计算最短路径，检验友链网络是否符合「六度分隔理论」(任意两个节点之间最多经过 6 条边即可连通)。
-
-```bash
-# Python 版本
-python3 scripts/six_degrees_test.py
-
-# JavaScript 版本 (Bun)
-bun scripts/six_degrees_test.js
-
-# TypeScript 版本 (Bun)
-bun scripts/six_degrees_test.ts
-```
-
-输出包括距离分布直方图、最大距离点对路径、以及是否突破 6 度。
 
 ---
 

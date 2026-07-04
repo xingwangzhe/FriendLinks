@@ -16,19 +16,13 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "check-access": "bun scripts/check-access.ts",
     "dev": "astro dev",
     "build": "astro build",
     "minibuild": "MINIBUILD=1 astro build",
     "preview": "astro preview",
     "lint": "oxlint src/ && tsc --noEmit",
     "fmt": "oxfmt src/ --write",
-    "fmt-check": "oxfmt src/ --check",
-    "names": "bun scripts/collect-names.ts",
-    "prune": "bun scripts/prune-irrelevant.ts",
-    "probe": "bun scripts/probe_subs.ts",
-    "retry-slow": "bun scripts/retry-slow.ts",
-    "fetch": "bun scripts/fetch-friends.ts"
+    "fmt-check": "oxfmt src/ --check"
   },
   "dependencies": {
     "@xingwangzhe/bfs-rs": "^0.1.6",

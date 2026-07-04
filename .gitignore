@@ -35,16 +35,4 @@ unknown.txt
 .restore_links.txt
 probe_by_route/
 
-# 批量抓取脚本（单次使用，不提交）
-scripts/fetch-friend-routes.ts
-scripts/fetch-links-html.ts
-scripts/fetch-link-slash.ts
-scripts/fetch-friends.ts
-scripts/probe_subs.ts
-scripts/probe.ts
-scripts/check_links_playwright.mjs
-scripts/generate_yml/
-
-# 域名哈希映射（开发参考，不提交）
-scripts/filter/domains-map.ts
 .playwright-cli/
