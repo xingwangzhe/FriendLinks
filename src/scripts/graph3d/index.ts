@@ -945,7 +945,7 @@ export function init3d(graphData: GraphData) {
     buildNeighborLabels(id);
     const node = nodes.find((n) => n.id === id);
     if (node && node.x != null) {
-      const pad = Math.max(100, (degreeMap[id] || 0) * 5);
+      const pad = Math.max(300, (degreeMap[id] || 0) * 15);
       animateCamera(
         ctx,
         { x: node.x + pad, y: node.y! + pad * 0.5, z: node.z! + pad },
