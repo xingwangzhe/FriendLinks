@@ -1,0 +1,42 @@
+site:
+  name: Niftosoft's NetLoop
+  description: A webring for personal websites
+  url: https://44nifty.com/
+  links: /
+  friends:
+  - name: next
+    url: https://bruh.ltd/0000-ring/
+  - name: previous
+    url: https://cuteboys.bruh.ltd/
+  - name: ←
+    url: https://hotlinewebring.club/fortyfour/previous
+  - name: Hotline Webring
+    url: https://hotlinewebring.club/
+  - name: →
+    url: https://hotlinewebring.club/fortyfour/next
+  - name: ←
+    url: https://netloop.netlify.app/44nifty/previous
+  - name: Netloop
+    url: https://netloop.netlify.app/
+  - name: →
+    url: https://netloop.netlify.app/44nifty/next
+  - name: ←
+    url: https://webring.dinhe.net/prev/https://www.44nifty.com
+  - name: Retronaut
+    url: https://webring.dinhe.net/
+  - name: →
+    url: https://webring.dinhe.net/next/https://www.44nifty.com
+  - name: ←
+    url: https://cornring.netlify.app/44nifty/previous
+  - name: CornRing
+    url: https://cornring.netlify.app/
+  - name: →
+    url: https://cornring.netlify.app/44nifty/next
+  - name: Raise Up Your Bat
+    url: https://www.last.fm/music/RichaadEB/_/Raise+Up+Your+Bat
+  - name: Prashant Shrestha
+    url: https://prashant.me/development/2018/03/04/creating-a-web-widget-to-get-currently-playing-song-tracks-using-lastfm.html
+  - name: Bluesky / 44nifty.com
+    url: https://bsky.app/profile/44nifty.com
+  - name: Last.fm / OneRedChicklet
+    url: https://www.last.fm/user/OneRedChicklet

@@ -1,902 +1,982 @@
-'site':
-  'name': 'fediring.net'
-  'url': 'https://fediring.net/'
-  'description': '友情链接'
-  'links': '/links'
-  'friends':
-    - 'name': 'Gemini'
-      'url': 'https://geminiquickst.art/'
-    - 'name': 'random.chars.jp'
-      'url': 'https://random.chars.jp'
-    - 'name': 'www.paritybit.ca'
-      'url': 'https://www.paritybit.ca'
-    - 'name': 'cnx.gdn'
-      'url': 'https://cnx.gdn'
-    - 'name': 'volpeon.ink'
-      'url': 'https://volpeon.ink'
-    - 'name': 'absturztau.be'
-      'url': 'https://absturztau.be'
-    - 'name': 'blog.gijsgobje.nl'
-      'url': 'https://blog.gijsgobje.nl'
-    - 'name': 'cosmin.hume.ro'
-      'url': 'https://cosmin.hume.ro'
-    - 'name': 'bobbyhiltz.com'
-      'url': 'https://bobbyhiltz.com'
-    - 'name': 'xrvs.net'
-      'url': 'https://xrvs.net'
-    - 'name': 'flavigula.net'
-      'url': 'https://flavigula.net'
-    - 'name': 'joelchrono.xyz'
-      'url': 'https://joelchrono.xyz'
-    - 'name': 'libreserver.org'
-      'url': 'https://libreserver.org'
-    - 'name': 'www.janwagemakers.be'
-      'url': 'https://www.janwagemakers.be'
-    - 'name': 'dusk.fai.st'
-      'url': 'https://dusk.fai.st'
-    - 'name': 'babelcarp.org'
-      'url': 'https://babelcarp.org'
-    - 'name': 'www.esgeroth.org'
-      'url': 'https://www.esgeroth.org'
-    - 'name': 'blog.zedas.fr'
-      'url': 'https://blog.zedas.fr'
-    - 'name': 'gnuworldorder.info'
-      'url': 'https://gnuworldorder.info'
-    - 'name': 'n0id.space'
-      'url': 'https://n0id.space'
-    - 'name': 'andrewkdinh.com'
-      'url': 'https://andrewkdinh.com'
-    - 'name': 'vulonkaaz.flyingcube.tech'
-      'url': 'https://vulonkaaz.flyingcube.tech'
-    - 'name': 'croc-monsieur.nl'
-      'url': 'https://croc-monsieur.nl'
-    - 'name': 'zacharyzollman.com'
-      'url': 'https://zacharyzollman.com'
-    - 'name': 'maya.land'
-      'url': 'https://maya.land'
-    - 'name': 'webair.xyz'
-      'url': 'https://webair.xyz'
-    - 'name': 'yarmo.eu'
-      'url': 'https://yarmo.eu'
-    - 'name': 'faehnri.ch'
-      'url': 'https://faehnri.ch'
-    - 'name': 'janw.name'
-      'url': 'https://janw.name'
-    - 'name': 'kurabloodlust.eu'
-      'url': 'https://kurabloodlust.eu'
-    - 'name': 'pixouls.xyz'
-      'url': 'https://pixouls.xyz'
-    - 'name': 'wandering-girl.neocities.org'
-      'url': 'https://wandering-girl.neocities.org'
-    - 'name': 'blog.tfiu.de'
-      'url': 'https://blog.tfiu.de'
-    - 'name': 'crashserver.fr'
-      'url': 'https://crashserver.fr'
-    - 'name': 'xeras.codeberg.page'
-      'url': 'https://xeras.codeberg.page'
-    - 'name': 'simply.jenett.org'
-      'url': 'https://simply.jenett.org'
-    - 'name': 'sigsegv.cc'
-      'url': 'https://sigsegv.cc'
-    - 'name': 'vegard.net'
-      'url': 'https://vegard.net'
-    - 'name': 'getimiskon.xyz'
-      'url': 'https://getimiskon.xyz'
-    - 'name': 'markesler.com'
-      'url': 'https://markesler.com'
-    - 'name': 'roytang.net'
-      'url': 'https://roytang.net'
-    - 'name': 'fkfd.me'
-      'url': 'https://fkfd.me'
-    - 'name': 'abf.li'
-      'url': 'https://abf.li'
-    - 'name': 'rusingh.com'
-      'url': 'https://rusingh.com'
-    - 'name': 'polarhive.net'
-      'url': 'https://polarhive.net'
-    - 'name': 'obspogon.neocities.org'
-      'url': 'https://obspogon.neocities.org'
-    - 'name': 'drwho.virtadpt.net'
-      'url': 'https://drwho.virtadpt.net'
-    - 'name': 'graystea.neocities.org'
-      'url': 'https://graystea.neocities.org'
-    - 'name': 'dusanmitrovic.xyz'
-      'url': 'https://dusanmitrovic.xyz'
-    - 'name': 'revi.xyz'
-      'url': 'https://revi.xyz'
-    - 'name': 'hamefang.neocities.org'
-      'url': 'https://hamefang.neocities.org'
-    - 'name': 'www.folliehiyuki.com'
-      'url': 'https://www.folliehiyuki.com'
-    - 'name': 'www.alm.website'
-      'url': 'https://www.alm.website'
-    - 'name': 'keithhacks.cyou'
-      'url': 'https://keithhacks.cyou'
-    - 'name': 'notiz.blog'
-      'url': 'https://notiz.blog'
-    - 'name': 'pro.togen.xyz'
-      'url': 'https://pro.togen.xyz'
-    - 'name': 'sheepdev.xyz'
-      'url': 'https://sheepdev.xyz'
-    - 'name': 'richardbowey.co.uk'
-      'url': 'https://richardbowey.co.uk'
-    - 'name': 'kescher.at'
-      'url': 'https://kescher.at'
-    - 'name': 'sitoctt.octt.eu.org'
-      'url': 'https://sitoctt.octt.eu.org'
-    - 'name': 'mew151.net'
-      'url': 'https://mew151.net'
-    - 'name': 'murtezayesil.me'
-      'url': 'https://murtezayesil.me'
-    - 'name': 'rightmouse.click'
-      'url': 'https://rightmouse.click'
-    - 'name': 'mcgillij.dev'
-      'url': 'https://mcgillij.dev'
-    - 'name': 'milofultz.com'
-      'url': 'https://milofultz.com'
-    - 'name': 'hatkidchan.is-a.dev'
-      'url': 'https://hatkidchan.is-a.dev'
-    - 'name': 'patrickwu.space'
-      'url': 'https://patrickwu.space'
-    - 'name': 'nhal.xyz'
-      'url': 'https://nhal.xyz'
-    - 'name': 'tengu.space'
-      'url': 'https://tengu.space'
-    - 'name': 'sebastian.graphics'
-      'url': 'https://sebastian.graphics'
-    - 'name': 'www.mirkodi.eu'
-      'url': 'https://www.mirkodi.eu'
-    - 'name': 'devurandom.xyz'
-      'url': 'https://devurandom.xyz'
-    - 'name': 'ilyamikcoder.com'
-      'url': 'https://ilyamikcoder.com'
-    - 'name': 'toranova.xyz'
-      'url': 'https://toranova.xyz'
-    - 'name': 'nwex.de'
-      'url': 'https://nwex.de'
-    - 'name': 'mystsaphyr.art'
-      'url': 'https://mystsaphyr.art'
-    - 'name': 'quga.m0e.space'
-      'url': 'https://quga.m0e.space'
-    - 'name': 'silberkind.de'
-      'url': 'https://silberkind.de'
-    - 'name': 'inlv.org'
-      'url': 'https://inlv.org'
-    - 'name': 'niles.xyz'
-      'url': 'https://niles.xyz'
-    - 'name': 'thayn.me'
-      'url': 'https://thayn.me'
-    - 'name': 'fuzzy.click'
-      'url': 'https://fuzzy.click'
-    - 'name': 'herbimarquez.com'
-      'url': 'https://herbimarquez.com'
-    - 'name': 'vfcardoso.dev'
-      'url': 'https://vfcardoso.dev'
-    - 'name': 'foreverliketh.is'
-      'url': 'https://foreverliketh.is'
-    - 'name': 'piuvas.net'
-      'url': 'https://piuvas.net'
-    - 'name': 'storydragon.nl'
-      'url': 'https://storydragon.nl'
-    - 'name': 'njms.ca'
-      'url': 'https://njms.ca'
-    - 'name': 'arcology.garden'
-      'url': 'https://arcology.garden'
-    - 'name': 'freeplay.codeberg.page'
-      'url': 'https://freeplay.codeberg.page'
-    - 'name': 'magiclike.net'
-      'url': 'https://magiclike.net'
-    - 'name': 'lx862.com'
-      'url': 'https://lx862.com'
-    - 'name': 'neeko.page'
-      'url': 'https://neeko.page'
-    - 'name': 'eorus.com'
-      'url': 'https://eorus.com'
-    - 'name': 'jackiejude.me'
-      'url': 'https://jackiejude.me'
-    - 'name': 'eleboog.com'
-      'url': 'https://eleboog.com'
-    - 'name': 'claytonerrington.com'
-      'url': 'https://claytonerrington.com'
-    - 'name': 'codingneko.com'
-      'url': 'https://codingneko.com'
-    - 'name': 'denmchenry.com'
-      'url': 'https://denmchenry.com'
-    - 'name': 'mjdxp.neocities.org'
-      'url': 'https://mjdxp.neocities.org'
-    - 'name': 'blog.darylsun.page'
-      'url': 'https://blog.darylsun.page'
-    - 'name': 'colincogle.name'
-      'url': 'https://colincogle.name'
-    - 'name': 'silbernagel.dev'
-      'url': 'https://silbernagel.dev'
-    - 'name': 'lavenderfield.xyz'
-      'url': 'https://lavenderfield.xyz'
-    - 'name': 'pf.ie'
-      'url': 'https://pf.ie'
-    - 'name': 'darekkay.com'
-      'url': 'https://darekkay.com'
-    - 'name': 'k00.eu'
-      'url': 'https://k00.eu'
-    - 'name': 'starbreaker.org'
-      'url': 'https://starbreaker.org'
-    - 'name': 'kosta.lol'
-      'url': 'https://kosta.lol'
-    - 'name': 'sugui.fai.st'
-      'url': 'https://sugui.fai.st'
-    - 'name': 'kio.moe'
-      'url': 'https://kio.moe'
-    - 'name': 'icosahedr.online'
-      'url': 'https://icosahedr.online'
-    - 'name': 'godteeth.com'
-      'url': 'https://godteeth.com'
-    - 'name': 'dj-chase.com'
-      'url': 'https://dj-chase.com'
-    - 'name': 'elizafox.space'
-      'url': 'https://elizafox.space'
-    - 'name': 'qtea.me'
-      'url': 'https://qtea.me'
-    - 'name': 'hertog.hermitcollective.net'
-      'url': 'https://hertog.hermitcollective.net'
-    - 'name': 'chimmie.k.vu'
-      'url': 'https://chimmie.k.vu'
-    - 'name': 'khalid.se'
-      'url': 'https://khalid.se'
-    - 'name': 'jasm1nii.xyz'
-      'url': 'https://jasm1nii.xyz'
-    - 'name': 'kovah.de'
-      'url': 'https://kovah.de'
-    - 'name': 'archaeoramblings.com'
-      'url': 'https://archaeoramblings.com'
-    - 'name': 'aleteoryx.me'
-      'url': 'https://aleteoryx.me'
-    - 'name': 'ashishpanigrahi.com'
-      'url': 'https://ashishpanigrahi.com'
-    - 'name': 's.knao.net'
-      'url': 'https://s.knao.net'
-    - 'name': 'therwi.net'
-      'url': 'https://therwi.net'
-    - 'name': 'kersed.net'
-      'url': 'https://kersed.net'
-    - 'name': 'me.lil-bird.xyz'
-      'url': 'https://me.lil-bird.xyz'
-    - 'name': 'cyborus.xyz'
-      'url': 'https://cyborus.xyz'
-    - 'name': 'foxar.top'
-      'url': 'https://foxar.top'
-    - 'name': 'pesky.moe'
-      'url': 'https://pesky.moe'
-    - 'name': 'loveshock.xyz'
-      'url': 'https://loveshock.xyz'
-    - 'name': 'drekles.neocities.org'
-      'url': 'https://drekles.neocities.org'
-    - 'name': 'lavender.chrysocyon.xyz'
-      'url': 'https://lavender.chrysocyon.xyz'
-    - 'name': 'synth.download'
-      'url': 'https://synth.download'
-    - 'name': 'amycatgirl.nekoweb.org'
-      'url': 'https://amycatgirl.nekoweb.org'
-    - 'name': 'piet.me'
-      'url': 'https://piet.me'
-    - 'name': 'nabikunyoi.com'
-      'url': 'https://nabikunyoi.com'
-    - 'name': 'systemiccyclops.neocities.org'
-      'url': 'https://systemiccyclops.neocities.org'
-    - 'name': 'drippingquill.com'
-      'url': 'https://drippingquill.com'
-    - 'name': 'randomivysaur.bearblog.dev'
-      'url': 'https://randomivysaur.bearblog.dev'
-    - 'name': 'charon.monster'
-      'url': 'https://charon.monster'
-    - 'name': 'dyremyhr.no'
-      'url': 'https://dyremyhr.no'
-    - 'name': 'authenyo.xyz'
-      'url': 'https://authenyo.xyz'
-    - 'name': 'josephbellahcen.com'
-      'url': 'https://josephbellahcen.com'
-    - 'name': 'casuallyblue.dev'
-      'url': 'https://casuallyblue.dev'
-    - 'name': '10kph.neocities.org'
-      'url': 'https://10kph.neocities.org'
-    - 'name': 'gra.phite.ro'
-      'url': 'https://gra.phite.ro'
-    - 'name': 'corvidae.digital'
-      'url': 'https://corvidae.digital'
-    - 'name': 'kolesnikov.se'
-      'url': 'https://kolesnikov.se'
-    - 'name': 'www.jonaharagon.com'
-      'url': 'https://www.jonaharagon.com'
-    - 'name': 'ezri.pet'
-      'url': 'https://ezri.pet'
-    - 'name': 'nathanupchurch.com'
-      'url': 'https://nathanupchurch.com'
-    - 'name': 'chillr.de'
-      'url': 'https://chillr.de'
-    - 'name': 'varve.neocities.org'
-      'url': 'https://varve.neocities.org'
-    - 'name': 'chloe.vern.cc'
-      'url': 'https://chloe.vern.cc'
-    - 'name': 'www.nbls.online'
-      'url': 'https://www.nbls.online'
-    - 'name': 'gayest.dev'
-      'url': 'https://gayest.dev'
-    - 'name': 'lattemacchiato.dev'
-      'url': 'https://lattemacchiato.dev'
-    - 'name': 'faolu.in'
-      'url': 'https://faolu.in'
-    - 'name': 'rosia.me'
-      'url': 'https://rosia.me'
-    - 'name': 'randm.website'
-      'url': 'https://randm.website'
-    - 'name': 'kyropy.neocities.org'
-      'url': 'https://kyropy.neocities.org'
-    - 'name': 'limepot.xyz'
-      'url': 'https://limepot.xyz'
-    - 'name': 'baccyflap.com'
-      'url': 'https://baccyflap.com'
-    - 'name': 'thefoggiest.dev'
-      'url': 'https://thefoggiest.dev'
-    - 'name': 'garnix.dev'
-      'url': 'https://garnix.dev'
-    - 'name': 'b0vik.dev'
-      'url': 'https://b0vik.dev'
-    - 'name': 'nootsponge.com'
-      'url': 'https://nootsponge.com'
-    - 'name': 'mrkod.eu.org'
-      'url': 'https://mrkod.eu.org'
-    - 'name': 'leap123.neocities.org'
-      'url': 'https://leap123.neocities.org'
-    - 'name': 'bacardi55.io'
-      'url': 'https://bacardi55.io'
-    - 'name': 'vanten-s.com'
-      'url': 'https://vanten-s.com'
-    - 'name': 'monocyte.bearblog.dev'
-      'url': 'https://monocyte.bearblog.dev'
-    - 'name': 'jan.systems'
-      'url': 'https://jan.systems'
-    - 'name': 'toydragon.xyz'
-      'url': 'https://toydragon.xyz'
-    - 'name': 'dakotamarshall.net'
-      'url': 'https://dakotamarshall.net'
-    - 'name': 'oerrorpage.neocities.org'
-      'url': 'https://oerrorpage.neocities.org'
-    - 'name': 'villepreux.net'
-      'url': 'https://villepreux.net'
-    - 'name': 'home.hedy.dev'
-      'url': 'https://home.hedy.dev'
-    - 'name': 'stardust.elysium.gay'
-      'url': 'https://stardust.elysium.gay'
-    - 'name': 'pixelde.su'
-      'url': 'https://pixelde.su'
-    - 'name': 'derg.cz'
-      'url': 'https://derg.cz'
-    - 'name': 'tommi.space'
-      'url': 'https://tommi.space'
-    - 'name': 'raven-files.neocities.org'
-      'url': 'https://raven-files.neocities.org'
-    - 'name': 'cascading.space'
-      'url': 'https://cascading.space'
-    - 'name': 'phoebe.digital'
-      'url': 'https://phoebe.digital'
-    - 'name': 'maven.pages.gay'
-      'url': 'https://maven.pages.gay'
-    - 'name': 'askdna.coffee'
-      'url': 'https://askdna.coffee'
-    - 'name': 'quiteade.pt'
-      'url': 'https://quiteade.pt'
-    - 'name': 'trixter.neocities.org'
-      'url': 'https://trixter.neocities.org'
-    - 'name': 'janerationx.com'
-      'url': 'https://janerationx.com'
-    - 'name': 'caasn.de'
-      'url': 'https://caasn.de'
-    - 'name': 'larsfrommars.neocities.org'
-      'url': 'https://larsfrommars.neocities.org'
-    - 'name': 'jaredigital.com'
-      'url': 'https://jaredigital.com'
-    - 'name': 'xaselgio.net'
-      'url': 'https://xaselgio.net'
-    - 'name': 'satzinger.services'
-      'url': 'https://satzinger.services'
-    - 'name': 'theresnotime.co.uk'
-      'url': 'https://theresnotime.co.uk'
-    - 'name': 'syd.yt'
-      'url': 'https://syd.yt'
-    - 'name': 'transatlanticism.neocities.org'
-      'url': 'https://transatlanticism.neocities.org'
-    - 'name': 'tuxilio.codeberg.page'
-      'url': 'https://tuxilio.codeberg.page'
-    - 'name': 'cryne.me'
-      'url': 'https://cryne.me'
-    - 'name': 'rainbowgirl.neocities.org'
-      'url': 'https://rainbowgirl.neocities.org'
-    - 'name': 'yordi.me'
-      'url': 'https://yordi.me'
-    - 'name': 'violette.town'
-      'url': 'https://violette.town'
-    - 'name': 'vimproved.dev'
-      'url': 'https://vimproved.dev'
-    - 'name': 'jak2k.eu'
-      'url': 'https://jak2k.eu'
-    - 'name': 'rowedahelicon.com'
-      'url': 'https://rowedahelicon.com'
-    - 'name': 'lunahd.neocities.org'
-      'url': 'https://lunahd.neocities.org'
-    - 'name': '3r1c.net'
-      'url': 'https://3r1c.net'
-    - 'name': 'utsob.me'
-      'url': 'https://utsob.me'
-    - 'name': 'gicorada.is-a.dev'
-      'url': 'https://gicorada.is-a.dev'
-    - 'name': 'zenthefox.online'
-      'url': 'https://zenthefox.online'
-    - 'name': 'lyrenhex.com'
-      'url': 'https://lyrenhex.com'
-    - 'name': 'helenchong.dev'
-      'url': 'https://helenchong.dev'
-    - 'name': 'derpy.place'
-      'url': 'https://derpy.place'
-    - 'name': 'argentumcation.com'
-      'url': 'https://argentumcation.com'
-    - 'name': 'html-chunder.neocities.org'
-      'url': 'https://html-chunder.neocities.org'
-    - 'name': 'qalle.neocities.org'
-      'url': 'https://qalle.neocities.org'
-    - 'name': 'cybr.gay'
-      'url': 'https://cybr.gay'
-    - 'name': 'catwormdog.net'
-      'url': 'https://catwormdog.net'
-    - 'name': 'sus.fr'
-      'url': 'https://sus.fr'
-    - 'name': 'hako-aiko.haliya.net'
-      'url': 'https://hako-aiko.haliya.net'
-    - 'name': 'pquirrel.neocities.org'
-      'url': 'https://pquirrel.neocities.org'
-    - 'name': 'leilukin.com'
-      'url': 'https://leilukin.com'
-    - 'name': 'pdp8.info'
-      'url': 'https://pdp8.info'
-    - 'name': 'yonei.dev'
-      'url': 'https://yonei.dev'
-    - 'name': 'pikachu.systems'
-      'url': 'https://pikachu.systems'
-    - 'name': 'wren.dog'
-      'url': 'https://wren.dog'
-    - 'name': 'daudix.one'
-      'url': 'https://daudix.one'
-    - 'name': 'beeps.website'
-      'url': 'https://beeps.website'
-    - 'name': 'guites.dev'
-      'url': 'https://guites.dev'
-    - 'name': 'nova.mkultra.monster'
-      'url': 'https://nova.mkultra.monster'
-    - 'name': 'journal.robbi.my'
-      'url': 'https://journal.robbi.my'
-    - 'name': 'badeline.codeberg.page'
-      'url': 'https://badeline.codeberg.page'
-    - 'name': 'jasbro.io'
-      'url': 'https://jasbro.io'
-    - 'name': 'codingotaku.com'
-      'url': 'https://codingotaku.com'
-    - 'name': 'netcat.systems'
-      'url': 'https://netcat.systems'
-    - 'name': 'midnavixi.neocities.org'
-      'url': 'https://midnavixi.neocities.org'
-    - 'name': '760ceb3b9c0ba4872cadf3ce35a7a494.neocities.org'
-      'url': 'https://760ceb3b9c0ba4872cadf3ce35a7a494.neocities.org'
-    - 'name': 'rossabaker.com'
-      'url': 'https://rossabaker.com'
-    - 'name': 'ivytime.gay'
-      'url': 'https://ivytime.gay'
-    - 'name': 'catwitch.gay'
-      'url': 'https://catwitch.gay'
-    - 'name': 'dragon-vi.be'
-      'url': 'https://dragon-vi.be'
-    - 'name': 'tombofnull.art'
-      'url': 'https://tombofnull.art'
-    - 'name': 'logzinga.com'
-      'url': 'https://logzinga.com'
-    - 'name': 'jessie.nabein.me'
-      'url': 'https://jessie.nabein.me'
-    - 'name': 'catnurse.neocities.org'
-      'url': 'https://catnurse.neocities.org'
-    - 'name': 'wolfyja.de'
-      'url': 'https://wolfyja.de'
-    - 'name': 'theholytachanka.com'
-      'url': 'https://theholytachanka.com'
-    - 'name': 'meluhdy.dev'
-      'url': 'https://meluhdy.dev'
-    - 'name': 'notsludgebomb.neocities.org'
-      'url': 'https://notsludgebomb.neocities.org'
-    - 'name': 'moule.world'
-      'url': 'https://moule.world'
-    - 'name': 'sillydomain.name'
-      'url': 'https://sillydomain.name'
-    - 'name': 'ivyfanchiang.ca'
-      'url': 'https://ivyfanchiang.ca'
-    - 'name': 'nham.co.uk'
-      'url': 'https://nham.co.uk'
-    - 'name': 'secretde.al'
-      'url': 'https://secretde.al'
-    - 'name': 'moonydev.xyz'
-      'url': 'https://moonydev.xyz'
-    - 'name': 'hypersoop.codeberg.page'
-      'url': 'https://hypersoop.codeberg.page'
-    - 'name': 'detta.dev'
-      'url': 'https://detta.dev'
-    - 'name': 'bpt11.neocities.org'
-      'url': 'https://bpt11.neocities.org'
-    - 'name': 'sugar.pages.gay'
-      'url': 'https://sugar.pages.gay'
-    - 'name': 'thoofan.neocities.org'
-      'url': 'https://thoofan.neocities.org'
-    - 'name': 'zoug.fr'
-      'url': 'https://zoug.fr'
-    - 'name': 'antares.neocities.org/'
-      'url': 'https://antares.neocities.org/'
-    - 'name': 'clygro.cc'
-      'url': 'https://clygro.cc'
-    - 'name': 'abmurrow.com'
-      'url': 'https://abmurrow.com'
-    - 'name': 'pseudocube.neocities.org'
-      'url': 'https://pseudocube.neocities.org'
-    - 'name': 'isopod.cool'
-      'url': 'https://isopod.cool'
-    - 'name': 'pebble.pet'
-      'url': 'https://pebble.pet'
-    - 'name': 'axionyx.sh'
-      'url': 'https://axionyx.sh'
-    - 'name': 'mauromotion.com'
-      'url': 'https://mauromotion.com'
-    - 'name': 'puka-muriska.neocities.org'
-      'url': 'https://puka-muriska.neocities.org'
-    - 'name': 'juniperfox.org'
-      'url': 'https://juniperfox.org'
-    - 'name': 'www.opencodespace.org'
-      'url': 'https://www.opencodespace.org'
-    - 'name': 'vv0ltz.neocities.org'
-      'url': 'https://vv0ltz.neocities.org'
-    - 'name': 'glyph555.neocities.org'
-      'url': 'https://glyph555.neocities.org'
-    - 'name': 'fluoritebyte.neocities.org'
-      'url': 'https://fluoritebyte.neocities.org'
-    - 'name': 'nyght.neocities.org'
-      'url': 'https://nyght.neocities.org'
-    - 'name': 'trinkey.com'
-      'url': 'https://trinkey.com'
-    - 'name': 'pancakes.gay'
-      'url': 'https://pancakes.gay'
-    - 'name': 'dracol.ing'
-      'url': 'https://dracol.ing'
-    - 'name': 'rausgerufen.de'
-      'url': 'https://rausgerufen.de'
-    - 'name': 'shreyansdoshi.com'
-      'url': 'https://shreyansdoshi.com'
-    - 'name': 'steadygaze.me'
-      'url': 'https://steadygaze.me'
-    - 'name': 'breebee.zooey.cc'
-      'url': 'https://breebee.zooey.cc'
-    - 'name': 'skullgamer205.neocities.org'
-      'url': 'https://skullgamer205.neocities.org'
-    - 'name': 'moddedbear.com'
-      'url': 'https://moddedbear.com'
-    - 'name': 'duanin2.top'
-      'url': 'https://duanin2.top'
-    - 'name': '0x4d6165.wanderingwires.net'
-      'url': 'https://0x4d6165.wanderingwires.net'
-    - 'name': 'xan.lol'
-      'url': 'https://xan.lol'
-    - 'name': 'balintmagyar.com'
-      'url': 'https://balintmagyar.com'
-    - 'name': 'musing.ispretty.fyi'
-      'url': 'https://musing.ispretty.fyi'
-    - 'name': 'mechagic.pages.gay'
-      'url': 'https://mechagic.pages.gay'
-    - 'name': 'anthr.net'
-      'url': 'https://anthr.net'
-    - 'name': 'cassiecandles.net'
-      'url': 'https://cassiecandles.net'
-    - 'name': 'blog.tinikov.com'
-      'url': 'https://blog.tinikov.com'
-    - 'name': 'bugwhisperer.dev'
-      'url': 'https://bugwhisperer.dev'
-    - 'name': 'mevil.de'
-      'url': 'https://mevil.de'
-    - 'name': 'fuxle.net'
-      'url': 'https://fuxle.net'
-    - 'name': 'verdemusgo.neocities.org/'
-      'url': 'https://verdemusgo.neocities.org/'
-    - 'name': 'horibyte.is-a.dev'
-      'url': 'https://horibyte.is-a.dev'
-    - 'name': 'w3teal.is-a.dev'
-      'url': 'https://w3teal.is-a.dev'
-    - 'name': 'koehr.ing'
-      'url': 'https://koehr.ing'
-    - 'name': 'marsuribe.net'
-      'url': 'https://marsuribe.net'
-    - 'name': 'dex1.codeberg.page'
-      'url': 'https://dex1.codeberg.page'
-    - 'name': 'psi36.neocities.org'
-      'url': 'https://psi36.neocities.org'
-    - 'name': 'pastel-skies.nekoweb.org'
-      'url': 'https://pastel-skies.nekoweb.org'
-    - 'name': 'caffeineandlasers.com/'
-      'url': 'https://caffeineandlasers.com/'
-    - 'name': 'avery.is-a.dev'
-      'url': 'https://avery.is-a.dev'
-    - 'name': 'april.nekoweb.org/'
-      'url': 'https://april.nekoweb.org/'
-    - 'name': 'pogmom.me'
-      'url': 'https://pogmom.me'
-    - 'name': '77nn.it'
-      'url': 'https://77nn.it'
-    - 'name': 'sparkles.getconfigured.net'
-      'url': 'https://sparkles.getconfigured.net'
-    - 'name': 'moftasa.net'
-      'url': 'https://moftasa.net'
-    - 'name': 'whyarentyou.gay'
-      'url': 'https://whyarentyou.gay'
-    - 'name': 'miguelmaiquez.com'
-      'url': 'https://miguelmaiquez.com'
-    - 'name': 'smallcypress.neocities.org'
-      'url': 'https://smallcypress.neocities.org'
-    - 'name': 'ayo.ayco.io'
-      'url': 'https://ayo.ayco.io'
-    - 'name': 'elw.sdf.org'
-      'url': 'https://elw.sdf.org'
-    - 'name': 'hummdudel.de'
-      'url': 'https://hummdudel.de'
-    - 'name': 'houl.floof.company'
-      'url': 'https://houl.floof.company'
-    - 'name': 'liv.town'
-      'url': 'https://liv.town'
-    - 'name': 'nanobot567.codeberg.page'
-      'url': 'https://nanobot567.codeberg.page'
-    - 'name': 'riflesniper.art'
-      'url': 'https://riflesniper.art'
-    - 'name': 'eatinghawaiianp1zza.neocities.org'
-      'url': 'https://eatinghawaiianp1zza.neocities.org'
-    - 'name': 'dc09.ru'
-      'url': 'https://dc09.ru'
-    - 'name': 'camelia.dev'
-      'url': 'https://camelia.dev'
-    - 'name': 'n1cck.us'
-      'url': 'https://n1cck.us'
-    - 'name': 'nadia.moe'
-      'url': 'https://nadia.moe'
-    - 'name': 'martijn.sh'
-      'url': 'https://martijn.sh'
-    - 'name': 'zurdala.es'
-      'url': 'https://zurdala.es'
-    - 'name': 'blogissimo.de'
-      'url': 'https://blogissimo.de'
-    - 'name': 'alexzeecomedy.com'
-      'url': 'https://alexzeecomedy.com'
-    - 'name': 'jelloeater.me'
-      'url': 'https://jelloeater.me'
-    - 'name': 'privatenoob.top'
-      'url': 'https://privatenoob.top'
-    - 'name': 'kvuzet.net'
-      'url': 'https://kvuzet.net'
-    - 'name': 'foxo.dev'
-      'url': 'https://foxo.dev'
-    - 'name': 'blog.andrewshell.org'
-      'url': 'https://blog.andrewshell.org'
-    - 'name': 'half-shot.uk'
-      'url': 'https://half-shot.uk'
-    - 'name': 'mambuco.dev'
-      'url': 'https://mambuco.dev'
-    - 'name': 'lunya.pet'
-      'url': 'https://lunya.pet'
-    - 'name': 'austinhuang.me'
-      'url': 'https://austinhuang.me'
-    - 'name': 'dill64.com'
-      'url': 'https://dill64.com'
-    - 'name': 'ilyess.cc'
-      'url': 'https://ilyess.cc'
-    - 'name': 'cobb.land'
-      'url': 'https://cobb.land'
-    - 'name': 'system.grdnsys.no'
-      'url': 'https://system.grdnsys.no'
-    - 'name': 'ravenwinters.org'
-      'url': 'https://ravenwinters.org'
-    - 'name': 'index.551724.dev'
-      'url': 'https://index.551724.dev'
-    - 'name': 'eunoia.sayitditto.net'
-      'url': 'https://eunoia.sayitditto.net'
-    - 'name': 'yoyle.city'
-      'url': 'https://yoyle.city'
-    - 'name': 'lotte.chir.rs'
-      'url': 'https://lotte.chir.rs'
-    - 'name': 'schafe-sind-bessere-rasenmaeher.de'
-      'url': 'https://schafe-sind-bessere-rasenmaeher.de'
-    - 'name': 'riverfox.neocities.org'
-      'url': 'https://riverfox.neocities.org'
-    - 'name': 'mairamartins.com'
-      'url': 'https://mairamartins.com'
-    - 'name': 'mahmoudashraf.dev'
-      'url': 'https://mahmoudashraf.dev'
-    - 'name': 'hollie.eilloh.net'
-      'url': 'https://hollie.eilloh.net'
-    - 'name': 'binturo.ng'
-      'url': 'https://binturo.ng'
-    - 'name': 'rawr.fun'
-      'url': 'https://rawr.fun'
-    - 'name': 'b1-66er.ru'
-      'url': 'https://b1-66er.ru'
-    - 'name': 'hisvirusness.com'
-      'url': 'https://hisvirusness.com'
-    - 'name': 'foxes.systems'
-      'url': 'https://foxes.systems'
-    - 'name': 'pfriedma.org'
-      'url': 'https://pfriedma.org'
-    - 'name': 'pulkomandy.tk'
-      'url': 'https://pulkomandy.tk'
-    - 'name': 'lilymeow.ing'
-      'url': 'https://lilymeow.ing'
-    - 'name': 'lainalien.space'
-      'url': 'https://lainalien.space'
-    - 'name': 'tapeykatt.neocities.org'
-      'url': 'https://tapeykatt.neocities.org'
-    - 'name': 'mystie.dev'
-      'url': 'https://mystie.dev'
-    - 'name': 'hutchie.scot'
-      'url': 'https://hutchie.scot'
-    - 'name': 'this.squirrel.rocks'
-      'url': 'https://this.squirrel.rocks'
-    - 'name': 'www.kylereddoch.me'
-      'url': 'https://www.kylereddoch.me'
-    - 'name': 'jorgesanz.net'
-      'url': 'https://jorgesanz.net'
-    - 'name': 'jbc.lol'
-      'url': 'https://jbc.lol'
-    - 'name': 'sampsa.fun'
-      'url': 'https://sampsa.fun'
-    - 'name': 'stfn.pl'
-      'url': 'https://stfn.pl'
-    - 'name': 'zlendy.com'
-      'url': 'https://zlendy.com'
-    - 'name': 'rhyswynne.co.uk'
-      'url': 'https://rhyswynne.co.uk'
-    - 'name': 'tuvik-dog.xyz'
-      'url': 'https://tuvik-dog.xyz'
-    - 'name': 'onlinegoddess.net'
-      'url': 'https://onlinegoddess.net'
-    - 'name': 'sludge.town'
-      'url': 'https://sludge.town'
-    - 'name': 'qbrack.me'
-      'url': 'https://qbrack.me'
-    - 'name': 'foxscribe.ru'
-      'url': 'https://foxscribe.ru'
-    - 'name': 'gianmarco.gg'
-      'url': 'https://gianmarco.gg'
-    - 'name': 'blog.k3can.us'
-      'url': 'https://blog.k3can.us'
-    - 'name': 'michaelgale.dev'
-      'url': 'https://michaelgale.dev'
-    - 'name': 'ametic.ovh'
-      'url': 'https://ametic.ovh'
-    - 'name': 'blog.narf.ssji.net'
-      'url': 'https://blog.narf.ssji.net'
-    - 'name': 'trix.is-a.dev'
-      'url': 'https://trix.is-a.dev'
-    - 'name': 'kamingawan.nekoweb.org'
-      'url': 'https://kamingawan.nekoweb.org'
-    - 'name': 'jarema.me'
-      'url': 'https://jarema.me'
-    - 'name': 'njbraun.de'
-      'url': 'https://njbraun.de'
-    - 'name': 'mtk.bearblog.dev'
-      'url': 'https://mtk.bearblog.dev'
-    - 'name': 'brennan.day'
-      'url': 'https://brennan.day'
-    - 'name': 'cobra.monster'
-      'url': 'https://cobra.monster'
-    - 'name': 'blog.southfox.me'
-      'url': 'https://blog.southfox.me'
-    - 'name': 'frasermclean.com'
-      'url': 'https://frasermclean.com'
-    - 'name': 'prry.uk'
-      'url': 'https://prry.uk'
-    - 'name': 'ghostk.id'
-      'url': 'https://ghostk.id'
-    - 'name': 'baabaa.blog'
-      'url': 'https://baabaa.blog'
-    - 'name': 'beeping.pet'
-      'url': 'https://beeping.pet'
-    - 'name': 'estela.moe'
-      'url': 'https://estela.moe'
-    - 'name': 'www.proliecan.com'
-      'url': 'https://www.proliecan.com'
-    - 'name': 'applevlux.com'
-      'url': 'https://applevlux.com'
-    - 'name': 'adriankuntner.com'
-      'url': 'https://adriankuntner.com'
-    - 'name': 'rohitfarmer.com'
-      'url': 'https://rohitfarmer.com'
-    - 'name': 'shinysquirrel.neocities.org'
-      'url': 'https://shinysquirrel.neocities.org'
-    - 'name': 'xavierhm.com'
-      'url': 'https://xavierhm.com'
-    - 'name': 'ceressees.dev'
-      'url': 'https://ceressees.dev'
-    - 'name': 'hypersubject.net'
-      'url': 'https://hypersubject.net'
-    - 'name': 'dtptr.nekoweb.org'
-      'url': 'https://dtptr.nekoweb.org'
-    - 'name': 'eth0fox.net'
-      'url': 'https://eth0fox.net'
-    - 'name': 'not-a-catgirl.online'
-      'url': 'https://not-a-catgirl.online'
-    - 'name': 'graveyardpaws.web.fc2.com'
-      'url': 'https://graveyardpaws.web.fc2.com'
-    - 'name': 'swirly.moe'
-      'url': 'https://swirly.moe'
-    - 'name': 'puteri.ng'
-      'url': 'https://puteri.ng'
-    - 'name': 'funkylevi.nekoweb.org'
-      'url': 'https://funkylevi.nekoweb.org'
-    - 'name': 'www.bongotwisty.blog'
-      'url': 'https://www.bongotwisty.blog'
-    - 'name': 'ayanami.nekoweb.org'
-      'url': 'https://ayanami.nekoweb.org'
-    - 'name': 'schmookey.xyz'
-      'url': 'https://schmookey.xyz'
-    - 'name': 'computer.glamour.ovh'
-      'url': 'https://computer.glamour.ovh'
-    - 'name': 'clouderst.xyz'
-      'url': 'https://clouderst.xyz'
-    - 'name': 'russecke.net'
-      'url': 'https://russecke.net'
-    - 'name': 'zerv.al'
-      'url': 'https://zerv.al'
-    - 'name': 'wieerwill.dev'
-      'url': 'https://wieerwill.dev'
-    - 'name': 'firesphere.dev'
-      'url': 'https://firesphere.dev'
-    - 'name': 'bearthatcodes.uk'
-      'url': 'https://bearthatcodes.uk'
-    - 'name': 'naln1.ca'
-      'url': 'https://naln1.ca'
-    - 'name': 'edleeman.co.uk'
-      'url': 'https://edleeman.co.uk'
-    - 'name': 'maryseph.com'
-      'url': 'https://maryseph.com'
-    - 'name': 'pixelroiber.de'
-      'url': 'https://pixelroiber.de'
-    - 'name': 'fullmetalbrackets.com'
-      'url': 'https://fullmetalbrackets.com'
-    - 'name': 'kentnavalesi.neocities.org'
-      'url': 'https://kentnavalesi.neocities.org'
-    - 'name': 'aesistril.com'
-      'url': 'https://aesistril.com'
-    - 'name': 'mtnliom.neocities.org'
-      'url': 'https://mtnliom.neocities.org'
-    - 'name': 'cinnamon.is-a-cute.cat'
-      'url': 'https://cinnamon.is-a-cute.cat'
-    - 'name': 'topazrabbit.com'
-      'url': 'https://topazrabbit.com'
-    - 'name': 'jotten.neocities.org'
-      'url': 'https://jotten.neocities.org'
-    - 'name': 'mrmave.work'
-      'url': 'https://mrmave.work'
-    - 'name': 'ikimatiq.net'
-      'url': 'https://ikimatiq.net'
-    - 'name': 'lemcgregor.scot'
-      'url': 'https://lemcgregor.scot'
-    - 'name': 'www.thijmer.nl'
-      'url': 'https://www.thijmer.nl'
-    - 'name': 'hillenius.net'
-      'url': 'https://hillenius.net'
-    - 'name': 'isellsoap.net'
-      'url': 'https://isellsoap.net'
-    - 'name': 'self.radi0.cc'
-      'url': 'https://self.radi0.cc'
-    - 'name': 'crabby.vellas.ca'
-      'url': 'https://crabby.vellas.ca'
-    - 'name': 'rndxelement.de'
-      'url': 'https://rndxelement.de'
-    - 'name': 'emanuelegori.uno'
-      'url': 'https://emanuelegori.uno'
-    - 'name': 'artfors.se'
-      'url': 'https://artfors.se'
+site:
+  name: Fediring
+  description: A webring for personal sites and blogs in the fediverse
+  url: https://fediring.net/
+  links: /
+  friends:
+  - name: contributed
+    url: https://todo.sr.ht/~jbauer/fediring/322#event-250964
+  - name: random.chars.jp
+    url: https://random.chars.jp/
+  - name: www.paritybit.ca
+    url: https://www.paritybit.ca/
+  - name: cnx.gdn
+    url: https://cnx.gdn/
+  - name: volpeon.ink
+    url: https://volpeon.ink/
+  - name: absturztau.be
+    url: https://absturztau.be/
+  - name: blog.gijsgobje.nl
+    url: https://blog.gijsgobje.nl/
+  - name: cosmin.hume.ro
+    url: https://cosmin.hume.ro/
+  - name: bobbyhiltz.com
+    url: https://bobbyhiltz.com/
+  - name: xrvs.net
+    url: https://xrvs.net/
+  - name: flavigula.net
+    url: https://flavigula.net/
+  - name: joelchrono.xyz
+    url: https://joelchrono.xyz/
+  - name: libreserver.org
+    url: https://libreserver.org/
+  - name: www.janwagemakers.be
+    url: https://www.janwagemakers.be/
+  - name: lottalinuxlinks.com
+    url: https://lottalinuxlinks.com/
+  - name: dusk.fai.st
+    url: https://dusk.fai.st/
+  - name: babelcarp.org
+    url: https://babelcarp.org/
+  - name: www.esgeroth.org
+    url: https://www.esgeroth.org/
+  - name: blog.zedas.fr
+    url: https://blog.zedas.fr/
+  - name: gnuworldorder.info
+    url: https://gnuworldorder.info/
+  - name: n0id.space
+    url: https://n0id.space/
+  - name: andrewkdinh.com
+    url: https://andrewkdinh.com/
+  - name: vulonkaaz.flyingcube.tech
+    url: https://vulonkaaz.flyingcube.tech/
+  - name: croc-monsieur.nl
+    url: https://croc-monsieur.nl/
+  - name: zacharyzollman.com
+    url: https://zacharyzollman.com/
+  - name: maya.land
+    url: https://maya.land/
+  - name: webair.xyz
+    url: https://webair.xyz/
+  - name: tilde.team/~lemon
+    url: https://tilde.team/~lemon
+  - name: yarmo.eu
+    url: https://yarmo.eu/
+  - name: faehnri.ch
+    url: https://faehnri.ch/
+  - name: janw.name
+    url: https://janw.name/
+  - name: kurabloodlust.eu
+    url: https://kurabloodlust.eu/
+  - name: pixouls.xyz
+    url: https://pixouls.xyz/
+  - name: wandering-girl.neocities.org
+    url: https://wandering-girl.neocities.org/
+  - name: blog.tfiu.de
+    url: https://blog.tfiu.de/
+  - name: crashserver.fr
+    url: https://crashserver.fr/
+  - name: xeras.codeberg.page
+    url: https://xeras.codeberg.page/
+  - name: simply.jenett.org
+    url: https://simply.jenett.org/
+  - name: sigsegv.cc
+    url: https://sigsegv.cc/
+  - name: vegard.net
+    url: https://vegard.net/
+  - name: getimiskon.xyz
+    url: https://getimiskon.xyz/
+  - name: markesler.com
+    url: https://markesler.com/
+  - name: roytang.net
+    url: https://roytang.net/
+  - name: fkfd.me
+    url: https://fkfd.me/
+  - name: abf.li
+    url: https://abf.li/
+  - name: rusingh.com
+    url: https://rusingh.com/
+  - name: polarhive.net
+    url: https://polarhive.net/
+  - name: obspogon.neocities.org
+    url: https://obspogon.neocities.org/
+  - name: drwho.virtadpt.net
+    url: https://drwho.virtadpt.net/
+  - name: graystea.neocities.org
+    url: https://graystea.neocities.org/
+  - name: dusanmitrovic.xyz
+    url: https://dusanmitrovic.xyz/
+  - name: revi.xyz
+    url: https://revi.xyz/
+  - name: hamefang.neocities.org
+    url: https://hamefang.neocities.org/
+  - name: www.folliehiyuki.com
+    url: https://www.folliehiyuki.com/
+  - name: kepic.win
+    url: https://kepic.win/
+  - name: tilde.club/~melyanna
+    url: https://tilde.club/~melyanna
+  - name: www.alm.website
+    url: https://www.alm.website/
+  - name: keithhacks.cyou
+    url: https://keithhacks.cyou/
+  - name: notiz.blog
+    url: https://notiz.blog/
+  - name: pro.togen.xyz
+    url: https://pro.togen.xyz/
+  - name: sheepdev.xyz
+    url: https://sheepdev.xyz/
+  - name: richardbowey.co.uk
+    url: https://richardbowey.co.uk/
+  - name: kescher.at
+    url: https://kescher.at/
+  - name: sitoctt.octt.eu.org
+    url: https://sitoctt.octt.eu.org/
+  - name: cryptoschizo.club
+    url: https://cryptoschizo.club/
+  - name: mew151.net
+    url: https://mew151.net/
+  - name: murtezayesil.me
+    url: https://murtezayesil.me/
+  - name: rightmouse.click
+    url: https://rightmouse.click/
+  - name: mcgillij.dev
+    url: https://mcgillij.dev/
+  - name: milofultz.com
+    url: https://milofultz.com/
+  - name: hatkidchan.is-a.dev
+    url: https://hatkidchan.is-a.dev/
+  - name: patrickwu.space
+    url: https://patrickwu.space/
+  - name: nhal.xyz
+    url: https://nhal.xyz/
+  - name: tengu.space
+    url: https://tengu.space/
+  - name: sebastian.graphics
+    url: https://sebastian.graphics/
+  - name: www.mirkodi.eu
+    url: https://www.mirkodi.eu/
+  - name: devurandom.xyz
+    url: https://devurandom.xyz/
+  - name: ilyamikcoder.com
+    url: https://ilyamikcoder.com/
+  - name: toranova.xyz
+    url: https://toranova.xyz/
+  - name: nwex.de
+    url: https://nwex.de/
+  - name: mystsaphyr.art
+    url: https://mystsaphyr.art/
+  - name: quga.m0e.space
+    url: https://quga.m0e.space/
+  - name: silberkind.de
+    url: https://silberkind.de/
+  - name: inlv.org
+    url: https://inlv.org/
+  - name: niles.xyz
+    url: https://niles.xyz/
+  - name: thayn.me
+    url: https://thayn.me/
+  - name: fuzzy.click
+    url: https://fuzzy.click/
+  - name: herbimarquez.com
+    url: https://herbimarquez.com/
+  - name: vfcardoso.dev
+    url: https://vfcardoso.dev/
+  - name: foreverliketh.is
+    url: https://foreverliketh.is/
+  - name: piuvas.net
+    url: https://piuvas.net/
+  - name: storydragon.nl
+    url: https://storydragon.nl/
+  - name: njms.ca
+    url: https://njms.ca/
+  - name: arcology.garden
+    url: https://arcology.garden/
+  - name: yurifan.club/~jacky/
+    url: https://yurifan.club/~jacky/
+  - name: freeplay.codeberg.page
+    url: https://freeplay.codeberg.page/
+  - name: magiclike.net
+    url: https://magiclike.net/
+  - name: lx862.com
+    url: https://lx862.com/
+  - name: neeko.page
+    url: https://neeko.page/
+  - name: eorus.com
+    url: https://eorus.com/
+  - name: jackiejude.me
+    url: https://jackiejude.me/
+  - name: eleboog.com
+    url: https://eleboog.com/
+  - name: claytonerrington.com
+    url: https://claytonerrington.com/
+  - name: codingneko.com
+    url: https://codingneko.com/
+  - name: denmchenry.com
+    url: https://denmchenry.com/
+  - name: mjdxp.neocities.org
+    url: https://mjdxp.neocities.org/
+  - name: blog.darylsun.page
+    url: https://blog.darylsun.page/
+  - name: colincogle.name
+    url: https://colincogle.name/
+  - name: silbernagel.dev
+    url: https://silbernagel.dev/
+  - name: lavenderfield.xyz
+    url: https://lavenderfield.xyz/
+  - name: pf.ie
+    url: https://pf.ie/
+  - name: darekkay.com
+    url: https://darekkay.com/
+  - name: k00.eu
+    url: https://k00.eu/
+  - name: starbreaker.org
+    url: https://starbreaker.org/
+  - name: kosta.lol
+    url: https://kosta.lol/
+  - name: sugui.fai.st
+    url: https://sugui.fai.st/
+  - name: kio.moe
+    url: https://kio.moe/
+  - name: icosahedr.online
+    url: https://icosahedr.online/
+  - name: godteeth.com
+    url: https://godteeth.com/
+  - name: tilde.club/~crmsnbleyd
+    url: https://tilde.club/~crmsnbleyd
+  - name: dj-chase.com
+    url: https://dj-chase.com/
+  - name: elizafox.space
+    url: https://elizafox.space/
+  - name: qtea.me
+    url: https://qtea.me/
+  - name: hertog.hermitcollective.net
+    url: https://hertog.hermitcollective.net/
+  - name: eniuu.debil.club
+    url: https://eniuu.debil.club/
+  - name: chimmie.k.vu
+    url: https://chimmie.k.vu/
+  - name: khalid.se
+    url: https://khalid.se/
+  - name: jasm1nii.xyz
+    url: https://jasm1nii.xyz/
+  - name: kovah.de
+    url: https://kovah.de/
+  - name: archaeoramblings.com
+    url: https://archaeoramblings.com/
+  - name: aleteoryx.me
+    url: https://aleteoryx.me/
+  - name: alexgravitos.neocities.org
+    url: https://alexgravitos.neocities.org/
+  - name: ashishpanigrahi.com
+    url: https://ashishpanigrahi.com/
+  - name: s.knao.net
+    url: https://s.knao.net/
+  - name: therwi.net
+    url: https://therwi.net/
+  - name: kersed.net
+    url: https://kersed.net/
+  - name: me.lil-bird.xyz
+    url: https://me.lil-bird.xyz/
+  - name: cyborus.xyz
+    url: https://cyborus.xyz/
+  - name: foxar.top
+    url: https://foxar.top/
+  - name: pesky.moe
+    url: https://pesky.moe/
+  - name: loveshock.xyz
+    url: https://loveshock.xyz/
+  - name: geidontei.chaotic.ninja/usr/mima
+    url: https://geidontei.chaotic.ninja/usr/mima
+  - name: drekles.neocities.org
+    url: https://drekles.neocities.org/
+  - name: lavender.chrysocyon.xyz
+    url: https://lavender.chrysocyon.xyz/
+  - name: tilde.town/~dozens
+    url: https://tilde.town/~dozens
+  - name: synth.download
+    url: https://synth.download/
+  - name: amycatgirl.nekoweb.org
+    url: https://amycatgirl.nekoweb.org/
+  - name: piet.me
+    url: https://piet.me/
+  - name: nabikunyoi.com
+    url: https://nabikunyoi.com/
+  - name: systemiccyclops.neocities.org
+    url: https://systemiccyclops.neocities.org/
+  - name: drippingquill.com
+    url: https://drippingquill.com/
+  - name: randomivysaur.bearblog.dev
+    url: https://randomivysaur.bearblog.dev/
+  - name: charon.monster
+    url: https://charon.monster/
+  - name: dyremyhr.no
+    url: https://dyremyhr.no/
+  - name: authenyo.xyz
+    url: https://authenyo.xyz/
+  - name: josephbellahcen.com
+    url: https://josephbellahcen.com/
+  - name: kerosyn.link
+    url: https://kerosyn.link/
+  - name: casuallyblue.dev
+    url: https://casuallyblue.dev/
+  - name: 10kph.neocities.org
+    url: https://10kph.neocities.org/
+  - name: gra.phite.ro
+    url: https://gra.phite.ro/
+  - name: corvidae.digital
+    url: https://corvidae.digital/
+  - name: kolesnikov.se
+    url: https://kolesnikov.se/
+  - name: www.jonaharagon.com
+    url: https://www.jonaharagon.com/
+  - name: ezri.pet
+    url: https://ezri.pet/
+  - name: nathanupchurch.com
+    url: https://nathanupchurch.com/
+  - name: chillr.de
+    url: https://chillr.de/
+  - name: varve.neocities.org
+    url: https://varve.neocities.org/
+  - name: autistici.org/interzona/
+    url: https://autistici.org/interzona/
+  - name: chloe.vern.cc
+    url: https://chloe.vern.cc/
+  - name: www.nbls.online
+    url: https://www.nbls.online/
+  - name: gayest.dev
+    url: https://gayest.dev/
+  - name: luka.princic.studio
+    url: https://luka.princic.studio/
+  - name: lattemacchiato.dev
+    url: https://lattemacchiato.dev/
+  - name: faolu.in
+    url: https://faolu.in/
+  - name: rosia.me
+    url: https://rosia.me/
+  - name: randm.website
+    url: https://randm.website/
+  - name: kyropy.neocities.org
+    url: https://kyropy.neocities.org/
+  - name: limepot.xyz
+    url: https://limepot.xyz/
+  - name: baccyflap.com
+    url: https://baccyflap.com/
+  - name: thefoggiest.dev
+    url: https://thefoggiest.dev/
+  - name: garnix.dev
+    url: https://garnix.dev/
+  - name: b0vik.dev
+    url: https://b0vik.dev/
+  - name: nootsponge.com
+    url: https://nootsponge.com/
+  - name: mrkod.eu.org
+    url: https://mrkod.eu.org/
+  - name: leap123.neocities.org
+    url: https://leap123.neocities.org/
+  - name: bacardi55.io
+    url: https://bacardi55.io/
+  - name: vanten-s.com
+    url: https://vanten-s.com/
+  - name: monocyte.bearblog.dev
+    url: https://monocyte.bearblog.dev/
+  - name: jan.systems
+    url: https://jan.systems/
+  - name: toydragon.xyz
+    url: https://toydragon.xyz/
+  - name: dakotamarshall.net
+    url: https://dakotamarshall.net/
+  - name: oerrorpage.neocities.org
+    url: https://oerrorpage.neocities.org/
+  - name: pop.fsck.pl
+    url: https://pop.fsck.pl/
+  - name: villepreux.net
+    url: https://villepreux.net/
+  - name: home.hedy.dev
+    url: https://home.hedy.dev/
+  - name: stardust.elysium.gay
+    url: https://stardust.elysium.gay/
+  - name: pixelde.su
+    url: https://pixelde.su/
+  - name: derg.cz
+    url: https://derg.cz/
+  - name: tommi.space
+    url: https://tommi.space/
+  - name: raven-files.neocities.org
+    url: https://raven-files.neocities.org/
+  - name: cascading.space
+    url: https://cascading.space/
+  - name: phoebe.digital
+    url: https://phoebe.digital/
+  - name: tilde.club/~tasiaiso
+    url: https://tilde.club/~tasiaiso
+  - name: maven.pages.gay
+    url: https://maven.pages.gay/
+  - name: askdna.coffee
+    url: https://askdna.coffee/
+  - name: quiteade.pt
+    url: https://quiteade.pt/
+  - name: tilde.green/~kestral
+    url: https://tilde.green/~kestral
+  - name: trixter.neocities.org
+    url: https://trixter.neocities.org/
+  - name: janerationx.com
+    url: https://janerationx.com/
+  - name: caasn.de
+    url: https://caasn.de/
+  - name: larsfrommars.neocities.org
+    url: https://larsfrommars.neocities.org/
+  - name: jaredigital.com
+    url: https://jaredigital.com/
+  - name: xaselgio.net
+    url: https://xaselgio.net/
+  - name: satzinger.services
+    url: https://satzinger.services/
+  - name: theresnotime.co.uk
+    url: https://theresnotime.co.uk/
+  - name: syd.yt
+    url: https://syd.yt/
+  - name: transatlanticism.neocities.org
+    url: https://transatlanticism.neocities.org/
+  - name: tuxilio.codeberg.page
+    url: https://tuxilio.codeberg.page/
+  - name: cryne.me
+    url: https://cryne.me/
+  - name: rainbowgirl.neocities.org
+    url: https://rainbowgirl.neocities.org/
+  - name: yordi.me
+    url: https://yordi.me/
+  - name: violette.town
+    url: https://violette.town/
+  - name: vimproved.dev
+    url: https://vimproved.dev/
+  - name: jak2k.eu
+    url: https://jak2k.eu/
+  - name: rowedahelicon.com
+    url: https://rowedahelicon.com/
+  - name: lunahd.neocities.org
+    url: https://lunahd.neocities.org/
+  - name: 3r1c.net
+    url: https://3r1c.net/
+  - name: utsob.me
+    url: https://utsob.me/
+  - name: gicorada.is-a.dev
+    url: https://gicorada.is-a.dev/
+  - name: zenthefox.online
+    url: https://zenthefox.online/
+  - name: lyrenhex.com
+    url: https://lyrenhex.com/
+  - name: helenchong.dev
+    url: https://helenchong.dev/
+  - name: derpy.place
+    url: https://derpy.place/
+  - name: argentumcation.com
+    url: https://argentumcation.com/
+  - name: html-chunder.neocities.org
+    url: https://html-chunder.neocities.org/
+  - name: qalle.neocities.org
+    url: https://qalle.neocities.org/
+  - name: cybr.gay
+    url: https://cybr.gay/
+  - name: catwormdog.net
+    url: https://catwormdog.net/
+  - name: sus.fr
+    url: https://sus.fr/
+  - name: hako-aiko.haliya.net
+    url: https://hako-aiko.haliya.net/
+  - name: pquirrel.neocities.org
+    url: https://pquirrel.neocities.org/
+  - name: writeblankspace.netlify.app
+    url: https://writeblankspace.netlify.app/
+  - name: leilukin.com
+    url: https://leilukin.com/
+  - name: pdp8.info
+    url: https://pdp8.info/
+  - name: yonei.dev
+    url: https://yonei.dev/
+  - name: pikachu.systems
+    url: https://pikachu.systems/
+  - name: wren.dog
+    url: https://wren.dog/
+  - name: daudix.one
+    url: https://daudix.one/
+  - name: beeps.website
+    url: https://beeps.website/
+  - name: guites.dev
+    url: https://guites.dev/
+  - name: nova.mkultra.monster
+    url: https://nova.mkultra.monster/
+  - name: journal.robbi.my
+    url: https://journal.robbi.my/
+  - name: shetani.carrd.co
+    url: https://shetani.carrd.co/
+  - name: eugene-andrienko.com/en/
+    url: https://eugene-andrienko.com/en/
+  - name: badeline.codeberg.page
+    url: https://badeline.codeberg.page/
+  - name: jasbro.io
+    url: https://jasbro.io/
+  - name: codingotaku.com
+    url: https://codingotaku.com/
+  - name: netcat.systems
+    url: https://netcat.systems/
+  - name: midnavixi.neocities.org
+    url: https://midnavixi.neocities.org/
+  - name: 760ceb3b9c0ba4872cadf3ce35a7a494.neocities.org
+    url: https://760ceb3b9c0ba4872cadf3ce35a7a494.neocities.org/
+  - name: girlthi.ng/~thermia
+    url: https://girlthi.ng/~thermia
+  - name: rossabaker.com
+    url: https://rossabaker.com/
+  - name: ivytime.gay
+    url: https://ivytime.gay/
+  - name: catwitch.gay
+    url: https://catwitch.gay/
+  - name: dragon-vi.be
+    url: https://dragon-vi.be/
+  - name: tombofnull.art
+    url: https://tombofnull.art/
+  - name: logzinga.com
+    url: https://logzinga.com/
+  - name: jessie.nabein.me
+    url: https://jessie.nabein.me/
+  - name: catnurse.neocities.org
+    url: https://catnurse.neocities.org/
+  - name: wolfyja.de
+    url: https://wolfyja.de/
+  - name: theholytachanka.com
+    url: https://theholytachanka.com/
+  - name: meluhdy.dev
+    url: https://meluhdy.dev/
+  - name: notsludgebomb.neocities.org
+    url: https://notsludgebomb.neocities.org/
+  - name: moule.world
+    url: https://moule.world/
+  - name: sillydomain.name
+    url: https://sillydomain.name/
+  - name: ivyfanchiang.ca
+    url: https://ivyfanchiang.ca/
+  - name: nham.co.uk
+    url: https://nham.co.uk/
+  - name: secretde.al
+    url: https://secretde.al/
+  - name: moonydev.xyz
+    url: https://moonydev.xyz/
+  - name: hexaitos.com
+    url: https://hexaitos.com/
+  - name: hypersoop.codeberg.page
+    url: https://hypersoop.codeberg.page/
+  - name: detta.dev
+    url: https://detta.dev/
+  - name: bpt11.neocities.org
+    url: https://bpt11.neocities.org/
+  - name: sugar.pages.gay
+    url: https://sugar.pages.gay/
+  - name: thoofan.neocities.org
+    url: https://thoofan.neocities.org/
+  - name: zoug.fr
+    url: https://zoug.fr/
+  - name: antares.neocities.org/
+    url: https://antares.neocities.org/
+  - name: clygro.cc
+    url: https://clygro.cc/
+  - name: abmurrow.com
+    url: https://abmurrow.com/
+  - name: pseudocube.neocities.org
+    url: https://pseudocube.neocities.org/
+  - name: isopod.cool
+    url: https://isopod.cool/
+  - name: pebble.pet
+    url: https://pebble.pet/
+  - name: axionyx.sh
+    url: https://axionyx.sh/
+  - name: mauromotion.com
+    url: https://mauromotion.com/
+  - name: puka-muriska.neocities.org
+    url: https://puka-muriska.neocities.org/
+  - name: juniperfox.org
+    url: https://juniperfox.org/
+  - name: www.opencodespace.org
+    url: https://www.opencodespace.org/
+  - name: 0xportal.dev
+    url: https://0xportal.dev/
+  - name: vv0ltz.neocities.org
+    url: https://vv0ltz.neocities.org/
+  - name: glyph555.neocities.org
+    url: https://glyph555.neocities.org/
+  - name: fluoritebyte.neocities.org
+    url: https://fluoritebyte.neocities.org/
+  - name: nyght.neocities.org
+    url: https://nyght.neocities.org/
+  - name: trinkey.com
+    url: https://trinkey.com/
+  - name: pancakes.gay
+    url: https://pancakes.gay/
+  - name: dracol.ing
+    url: https://dracol.ing/
+  - name: rausgerufen.de
+    url: https://rausgerufen.de/
+  - name: shreyansdoshi.com
+    url: https://shreyansdoshi.com/
+  - name: steadygaze.me
+    url: https://steadygaze.me/
+  - name: breebee.zooey.cc
+    url: https://breebee.zooey.cc/
+  - name: skullgamer205.neocities.org
+    url: https://skullgamer205.neocities.org/
+  - name: moddedbear.com
+    url: https://moddedbear.com/
+  - name: duanin2.top
+    url: https://duanin2.top/
+  - name: 0x4d6165.wanderingwires.net
+    url: https://0x4d6165.wanderingwires.net/
+  - name: sylvia.studio
+    url: https://sylvia.studio/
+  - name: xan.lol
+    url: https://xan.lol/
+  - name: balintmagyar.com
+    url: https://balintmagyar.com/
+  - name: musing.ispretty.fyi
+    url: https://musing.ispretty.fyi/
+  - name: mechagic.pages.gay
+    url: https://mechagic.pages.gay/
+  - name: anthr.net
+    url: https://anthr.net/
+  - name: cassiecandles.net
+    url: https://cassiecandles.net/
+  - name: blog.tinikov.com
+    url: https://blog.tinikov.com/
+  - name: bugwhisperer.dev
+    url: https://bugwhisperer.dev/
+  - name: mevil.de
+    url: https://mevil.de/
+  - name: fuxle.net
+    url: https://fuxle.net/
+  - name: verdemusgo.neocities.org/
+    url: https://verdemusgo.neocities.org/
+  - name: horibyte.is-a.dev
+    url: https://horibyte.is-a.dev/
+  - name: w3teal.is-a.dev
+    url: https://w3teal.is-a.dev/
+  - name: koehr.ing
+    url: https://koehr.ing/
+  - name: fusil.uk/?ring
+    url: https://fusil.uk/?ring
+  - name: marsuribe.net
+    url: https://marsuribe.net/
+  - name: dex1.codeberg.page
+    url: https://dex1.codeberg.page/
+  - name: psi36.neocities.org
+    url: https://psi36.neocities.org/
+  - name: pastel-skies.nekoweb.org
+    url: https://pastel-skies.nekoweb.org/
+  - name: caffeineandlasers.com/
+    url: https://caffeineandlasers.com/
+  - name: avery.is-a.dev
+    url: https://avery.is-a.dev/
+  - name: april.nekoweb.org/
+    url: https://april.nekoweb.org/
+  - name: pogmom.me
+    url: https://pogmom.me/
+  - name: 77nn.it
+    url: https://77nn.it/
+  - name: sparkles.getconfigured.net
+    url: https://sparkles.getconfigured.net/
+  - name: moftasa.net
+    url: https://moftasa.net/
+  - name: whyarentyou.gay
+    url: https://whyarentyou.gay/
+  - name: miguelmaiquez.com
+    url: https://miguelmaiquez.com/
+  - name: linkyblog.neocities.org
+    url: https://linkyblog.neocities.org/
+  - name: smallcypress.neocities.org
+    url: https://smallcypress.neocities.org/
+  - name: ayo.ayco.io
+    url: https://ayo.ayco.io/
+  - name: elw.sdf.org
+    url: https://elw.sdf.org/
+  - name: hummdudel.de
+    url: https://hummdudel.de/
+  - name: houl.floof.company
+    url: https://houl.floof.company/
+  - name: liv.town
+    url: https://liv.town/
+  - name: marmar22.tilde.team
+    url: https://marmar22.tilde.team/
+  - name: nanobot567.codeberg.page
+    url: https://nanobot567.codeberg.page/
+  - name: riflesniper.art
+    url: https://riflesniper.art/
+  - name: eatinghawaiianp1zza.neocities.org
+    url: https://eatinghawaiianp1zza.neocities.org/
+  - name: dc09.ru
+    url: https://dc09.ru/
+  - name: byte21516.xyz/about/about.html
+    url: https://byte21516.xyz/about/about.html
+  - name: camelia.dev
+    url: https://camelia.dev/
+  - name: n1cck.us
+    url: https://n1cck.us/
+  - name: nadia.moe
+    url: https://nadia.moe/
+  - name: martijn.sh
+    url: https://martijn.sh/
+  - name: zurdala.es
+    url: https://zurdala.es/
+  - name: atomicmaya.me
+    url: https://atomicmaya.me/
+  - name: blogissimo.de
+    url: https://blogissimo.de/
+  - name: alexzeecomedy.com
+    url: https://alexzeecomedy.com/
+  - name: jelloeater.me
+    url: https://jelloeater.me/
+  - name: privatenoob.top
+    url: https://privatenoob.top/
+  - name: kvuzet.net
+    url: https://kvuzet.net/
+  - name: foxo.dev
+    url: https://foxo.dev/
+  - name: blog.andrewshell.org
+    url: https://blog.andrewshell.org/
+  - name: axxuy.com/blog
+    url: https://axxuy.com/blog
+  - name: half-shot.uk
+    url: https://half-shot.uk/
+  - name: mambuco.dev
+    url: https://mambuco.dev/
+  - name: lunya.pet
+    url: https://lunya.pet/
+  - name: austinhuang.me
+    url: https://austinhuang.me/
+  - name: dill64.com
+    url: https://dill64.com/
+  - name: ilyess.cc
+    url: https://ilyess.cc/
+  - name: cobb.land
+    url: https://cobb.land/
+  - name: system.grdnsys.no
+    url: https://system.grdnsys.no/
+  - name: jansens-pott.de
+    url: https://jansens-pott.de/
+  - name: ravenwinters.org
+    url: https://ravenwinters.org/
+  - name: index.551724.dev
+    url: https://index.551724.dev/
+  - name: www.5snb.club
+    url: https://www.5snb.club/
+  - name: eunoia.sayitditto.net
+    url: https://eunoia.sayitditto.net/
+  - name: yoyle.city
+    url: https://yoyle.city/
+  - name: lotte.chir.rs
+    url: https://lotte.chir.rs/
+  - name: schafe-sind-bessere-rasenmaeher.de
+    url: https://schafe-sind-bessere-rasenmaeher.de/
+  - name: riverfox.neocities.org
+    url: https://riverfox.neocities.org/
+  - name: mairamartins.com
+    url: https://mairamartins.com/
+  - name: mahmoudashraf.dev
+    url: https://mahmoudashraf.dev/
+  - name: hollie.eilloh.net
+    url: https://hollie.eilloh.net/
+  - name: binturo.ng
+    url: https://binturo.ng/
+  - name: rawr.fun
+    url: https://rawr.fun/
+  - name: b1-66er.ru
+    url: https://b1-66er.ru/
+  - name: hisvirusness.com
+    url: https://hisvirusness.com/
+  - name: foxes.systems
+    url: https://foxes.systems/
+  - name: pfriedma.org
+    url: https://pfriedma.org/
+  - name: pulkomandy.tk
+    url: https://pulkomandy.tk/
+  - name: lilymeow.ing
+    url: https://lilymeow.ing/
+  - name: lainalien.space
+    url: https://lainalien.space/
+  - name: tapeykatt.neocities.org
+    url: https://tapeykatt.neocities.org/
+  - name: mystie.dev
+    url: https://mystie.dev/
+  - name: hutchie.scot
+    url: https://hutchie.scot/
+  - name: this.squirrel.rocks
+    url: https://this.squirrel.rocks/
+  - name: www.kylereddoch.me
+    url: https://www.kylereddoch.me/
+  - name: jorgesanz.net
+    url: https://jorgesanz.net/
+  - name: jbc.lol
+    url: https://jbc.lol/
+  - name: sampsa.fun
+    url: https://sampsa.fun/
+  - name: stfn.pl
+    url: https://stfn.pl/
+  - name: zlendy.com
+    url: https://zlendy.com/
+  - name: rhyswynne.co.uk
+    url: https://rhyswynne.co.uk/
+  - name: tuvik-dog.xyz
+    url: https://tuvik-dog.xyz/
+  - name: onlinegoddess.net
+    url: https://onlinegoddess.net/
+  - name: sludge.town
+    url: https://sludge.town/
+  - name: qbrack.me
+    url: https://qbrack.me/
+  - name: foxscribe.ru
+    url: https://foxscribe.ru/
+  - name: gianmarco.gg
+    url: https://gianmarco.gg/
+  - name: blog.k3can.us
+    url: https://blog.k3can.us/
+  - name: burgeonlab.com
+    url: https://burgeonlab.com/
+  - name: michaelgale.dev
+    url: https://michaelgale.dev/
+  - name: ametic.ovh
+    url: https://ametic.ovh/
+  - name: blog.narf.ssji.net
+    url: https://blog.narf.ssji.net/
+  - name: trix.is-a.dev
+    url: https://trix.is-a.dev/
+  - name: kamingawan.nekoweb.org
+    url: https://kamingawan.nekoweb.org/
+  - name: jarema.me
+    url: https://jarema.me/
+  - name: njbraun.de
+    url: https://njbraun.de/
+  - name: mtk.bearblog.dev
+    url: https://mtk.bearblog.dev/
+  - name: brennan.day
+    url: https://brennan.day/
+  - name: cobra.monster
+    url: https://cobra.monster/
+  - name: blog.southfox.me
+    url: https://blog.southfox.me/
+  - name: frasermclean.com
+    url: https://frasermclean.com/
+  - name: prry.uk
+    url: https://prry.uk/
+  - name: ghostk.id
+    url: https://ghostk.id/
+  - name: baabaa.blog
+    url: https://baabaa.blog/
+  - name: jade.ellis.link
+    url: https://jade.ellis.link/
+  - name: beeping.pet
+    url: https://beeping.pet/
+  - name: estela.moe
+    url: https://estela.moe/
+  - name: www.proliecan.com
+    url: https://www.proliecan.com/
+  - name: innocentzero.is-a.dev/ring.html
+    url: https://innocentzero.is-a.dev/ring.html
+  - name: applevlux.com
+    url: https://applevlux.com/
+  - name: dospuntostr.es
+    url: https://dospuntostr.es/
+  - name: adriankuntner.com
+    url: https://adriankuntner.com/
+  - name: rohitfarmer.com
+    url: https://rohitfarmer.com/
+  - name: shinysquirrel.neocities.org
+    url: https://shinysquirrel.neocities.org/
+  - name: xavierhm.com
+    url: https://xavierhm.com/
+  - name: ceressees.dev
+    url: https://ceressees.dev/
+  - name: hypersubject.net
+    url: https://hypersubject.net/
+  - name: dtptr.nekoweb.org
+    url: https://dtptr.nekoweb.org/
+  - name: eth0fox.net
+    url: https://eth0fox.net/
+  - name: not-a-catgirl.online
+    url: https://not-a-catgirl.online/
+  - name: graveyardpaws.web.fc2.com
+    url: https://graveyardpaws.web.fc2.com/
+  - name: swirly.moe
+    url: https://swirly.moe/
+  - name: puteri.ng
+    url: https://puteri.ng/
+  - name: funkylevi.nekoweb.org
+    url: https://funkylevi.nekoweb.org/
+  - name: epic-worlds.com
+    url: https://epic-worlds.com/
+  - name: www.bongotwisty.blog
+    url: https://www.bongotwisty.blog/
+  - name: www.luvan.org/betenoire
+    url: https://www.luvan.org/betenoire
+  - name: ayanami.nekoweb.org
+    url: https://ayanami.nekoweb.org/
+  - name: schmookey.xyz
+    url: https://schmookey.xyz/
+  - name: computer.glamour.ovh
+    url: https://computer.glamour.ovh/
+  - name: clouderst.xyz
+    url: https://clouderst.xyz/
+  - name: russecke.net
+    url: https://russecke.net/
+  - name: zerv.al
+    url: https://zerv.al/
+  - name: wieerwill.dev
+    url: https://wieerwill.dev/
+  - name: firesphere.dev
+    url: https://firesphere.dev/
+  - name: bearthatcodes.uk
+    url: https://bearthatcodes.uk/
+  - name: naln1.ca
+    url: https://naln1.ca/
+  - name: edleeman.co.uk
+    url: https://edleeman.co.uk/
+  - name: maryseph.com
+    url: https://maryseph.com/
+  - name: pixelroiber.de
+    url: https://pixelroiber.de/
+  - name: fullmetalbrackets.com
+    url: https://fullmetalbrackets.com/
+  - name: kentnavalesi.neocities.org
+    url: https://kentnavalesi.neocities.org/
+  - name: aesistril.com
+    url: https://aesistril.com/
+  - name: mtnliom.neocities.org
+    url: https://mtnliom.neocities.org/
+  - name: cinnamon.is-a-cute.cat
+    url: https://cinnamon.is-a-cute.cat/
+  - name: topazrabbit.com
+    url: https://topazrabbit.com/
+  - name: jotten.neocities.org
+    url: https://jotten.neocities.org/
+  - name: mrmave.work
+    url: https://mrmave.work/
+  - name: ikimatiq.net
+    url: https://ikimatiq.net/
+  - name: lemcgregor.scot
+    url: https://lemcgregor.scot/
+  - name: www.thijmer.nl
+    url: https://www.thijmer.nl/
+  - name: hillenius.net
+    url: https://hillenius.net/
+  - name: isellsoap.net
+    url: https://isellsoap.net/
+  - name: self.radi0.cc
+    url: https://self.radi0.cc/
+  - name: crabby.vellas.ca
+    url: https://crabby.vellas.ca/
+  - name: rndxelement.de
+    url: https://rndxelement.de/
+  - name: emanuelegori.uno
+    url: https://emanuelegori.uno/
+  - name: artfors.se
+    url: https://artfors.se/
+  - name: ~jbauer/fediring.net
+    url: https://git.sr.ht/~jbauer/fediring.net
+  - name: ~jbauer/go-webring
+    url: https://git.sr.ht/~jbauer/go-webring

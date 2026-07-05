@@ -1,18 +1,18 @@
-'site':
-  'name': 'aiar.site'
-  'url': 'https://aiar.site/'
-  'description': '友情链接'
-  'links': '/link'
-  'friends':
-    - 'name': '凡梦星尘空间站再平凡的人也有属于他的梦想 ✨'
-      'url': 'https://lisenhui.cn/'
-    - 'name': '心流保持谨慎，保持乐观'
-      'url': 'https://blog.panghai.top'
-    - 'name': 'Barney’s Blogthe truth is simple'
-      'url': 'https://hugo.bnblogs.cc/'
-    - 'name': 'Sulv’s Blog一个记录技术、阅读、生活的博客'
-      'url': 'https://www.sulvblog.cn'
-    - 'name': '浅秋枫影的博客记录生活，记录代码，给自己的网络生涯留下一笔精神财富！'
-      'url': 'https://cuojue.org'
-    - 'name': 'Jimmy'
-      'url': 'https://jimmycai.com'
+site:
+  name: Aiar's Site
+  description: Aiar's personal site
+  url: https://aiar.site/
+  links: /link/
+  friends:
+    - name: 凡梦星尘空间站
+      url: https://lisenhui.cn/
+    - name: 心流
+      url: https://blog.panghai.top/
+    - name: Barney's Blog
+      url: https://hugo.bnblogs.cc/
+    - name: Sulv's Blog
+      url: https://www.sulvblog.cn/
+    - name: 浅秋枫影的博客
+      url: https://cuojue.org/
+    - name: Yunyi's Blog
+      url: https://www.yunyitang.me/zh/

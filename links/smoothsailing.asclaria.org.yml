@@ -1,10 +1,10 @@
-'site':
-  'name': 'smoothsailing.asclaria.org'
-  'url': 'https://smoothsailing.asclaria.org/'
-  'description': '友情链接'
-  'links': '/'
-  'friends':
-    - 'name': 'Eternal Love Of Dream'
-      'url': 'https://eternalloveofdream.proboards.com'
-    - 'name': 'SDavidPrince Site'
-      'url': 'https://sdavidprince.com/'
+site:
+  name: Smooth Sailing Listings
+  description: A listing of personal websites
+  url: https://smoothsailing.asclaria.org/
+  links: /
+  friends:
+  - name: 'Fuck Big Tech: A Privacy Guide'
+    url: https://fuckbigtech.neocities.org/
+  - name: Asclaria
+    url: http://asclaria.org/

@@ -1,14 +1,14 @@
-'site':
-  'name': 'maguagua.cn'
-  'url': 'https://maguagua.cn/'
-  'description': '友情链接'
-  'links': '/friends'
-  'friends':
-    - 'name': 'danteking'
-      'url': 'http://blog.imdanteking.com/'
-    - 'name': 'Echo 的小窝'
-      'url': 'https://www.liveout.cn/'
-    - 'name': 'Lei'
-      'url': 'https://blog.leihub.cn'
-    - 'name': 'PuddingKC''s Blog'
-      'url': 'https://www.puddingkc.com/'
+site:
+  name: Maguagua's 瓜棚
+  description: 循此苦旅、以达天际
+  url: https://maguagua.cn/
+  links: /friends/
+  friends:
+    - name: danteking
+      url: http://blog.imdanteking.com/
+    - name: Echo 的小窝
+      url: https://www.liveout.cn/
+    - name: Lei
+      url: https://blog.leihub.cn/
+    - name: PuddingKC's Blog
+      url: https://www.puddingkc.com/

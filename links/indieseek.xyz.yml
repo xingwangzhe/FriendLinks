@@ -1,14 +1,74 @@
-'site':
-  'name': 'indieseek.xyz'
-  'url': 'https://indieseek.xyz/'
-  'description': '友情链接'
-  'links': '/links'
-  'friends':
-    - 'name': 'Movies Silently Celebrate Silent Film'
-      'url': 'https://moviessilently.com'
-    - 'name': 'MRFRISBY'
-      'url': 'https://mrfrisby.com'
-    - 'name': 'Curiouxify | Interactive Websites & Creative Web Experiences'
-      'url': 'https://curiouxify.com'
-    - 'name': 'Burgerfun'
-      'url': 'https://burgerfun.ca/'
+site:
+  name: Indieseek.xyz
+  description: Indie Web Directory - personal websites directory
+  url: https://indieseek.xyz/
+  links: /
+  friends:
+  - name: Find out more about Webmentions.
+    url: https://indieweb.org/webmention
+  - name: MRFRISBY
+    url: https://mrfrisby.com/
+  - name: Curiouxify | Interactive Websites & Creative Web E
+    url: https://curiouxify.com/
+  - name: Burgerfun
+    url: https://burgerfun.ca/
+  - name: Gopher Protocol
+    url: https://www.coolbeat.link/Gopher/index.htm
+  - name: Physical Culture
+    url: https://www.coolbeat.link/Physical/index.htm
+  - name: i.webthings directory
+    url: https://directory.jenett.org/
+  - name: href.cool
+    url: https://href.cool/
+  - name: Sadgrl Surf the Web
+    url: https://sadgrl.online/cyberspace/surf-the-web.html
+  - name: Dave Winer
+    url: http://scripting.com/
+  - name: Rick
+    url: http://dtmagazine.com/
+  - name: brade
+    url: https://status.cafe/users/brade
+  - name: microblogMicro.blog
+    url: https://micro.blog/bradenslen
+  - name: mastodonMastodon
+    url: https://mastodon.social/@bradenslen
+  - name: ramblinggit.com
+    url: https://ramblinggit.com/
+  - name: cyberzettel.com
+    url: https://cyberzettel.com/
+  - name: linkpunk.micro.blog
+    url: https://linkpunk.micro.blog/
+  - name: <-
+    url: https://hotlinewebring.club/indieseek/previous
+  - name: Hotline Webring
+    url: https://hotlinewebring.club/
+  - name: ->
+    url: https://hotlinewebring.club/indieseek/next
+  - name: Prev
+    url: https://webri.ng/webring/retroweb/previous?index=1
+  - name: Random
+    url: https://webri.ng/webring/retroweb/random
+  - name: Next
+    url: https://webri.ng/webring/retroweb/next?index=1
+  - name: Indieweb.org Wiki
+    url: https://indieweb.org/directory
+  - name: Blogarama
+    url: https://www.blogarama.com/
+  - name: Ye Olde Blogroll Directory
+    url: https://blogroll.org/
+  - name: Smooth Sailing Listings
+    url: https://smoothsailing.asclaria.org/
+  - name: LinkLane.Net
+    url: https://linklane.net/
+  - name: List-Me.Com
+    url: https://list-me.com/
+  - name: Moonshot Listings
+    url: http://moonshot.forbiddenl0ve.net/
+  - name: Indieweb
+    url: https://indieweb.org/
+  - name: Donate
+    url: https://opencollective.com/indieweb/donate?referral=23165
+  - name: /e/ Foundation
+    url: https://e.foundation/
+  - name: Electronic Frontier Foundation
+    url: https://www.eff.org/

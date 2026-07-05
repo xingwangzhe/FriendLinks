@@ -1,24 +1,24 @@
-'site':
-  'name': 'blog.tiezdne.icu'
-  'url': 'https://blog.tiezdne.icu/'
-  'description': '友情链接'
-  'links': '/links'
-  'friends':
-    - 'name': '上阳尚书的blog Let′s think step by step'
-      'url': 'https://zerich.icu'
-    - 'name': 'LYNX''S BLOG LynxOnCactus'
-      'url': 'https://blog.sukasuka.cn/'
-    - 'name': 'Ab的小破站 有些一去不复返~'
-      'url': 'https://ablazy.cn/'
-    - 'name': '易姐的博客 给岁月以文明,而不是给文明以岁月'
-      'url': 'https://shakaianee.top/'
-    - 'name': '阿汐 Axi''s Notes'
-      'url': 'https://axi404.top/'
-    - 'name': 'Cynosura Trying to light up the dark.'
-      'url': 'https://cynosura.one/'
-    - 'name': '小树 你应当选择你热爱的，只有热爱的东西才能倾注一切'
-      'url': 'https://blog.juniortree.com'
-    - 'name': 'Bertsin''s Blog 神秘小天地'
-      'url': 'https://bertsin.pages.dev/'
-    - 'name': 'Estar0x 这个作者很勤快，什么都写了'
-      'url': 'https://Estar0x.github.io'
+site:
+  name: FrenchPicnic's Nothing Life
+  description: FrenchPicnic's blog
+  url: https://blog.tiezdne.icu/
+  links: /links/
+  friends:
+    - name: 上阳尚书的blog
+      url: https://zerich.icu/
+    - name: LYNX'S BLOG
+      url: https://blog.sukasuka.cn/
+    - name: Ab的小破站
+      url: https://ablazy.cn/
+    - name: 易姐的博客
+      url: https://shakaianee.top/
+    - name: 阿汐
+      url: https://axi404.top/
+    - name: Cynosura
+      url: https://cynosura.one/
+    - name: 小树
+      url: https://blog.juniortree.com/
+    - name: Bertsin's Blog
+      url: https://bertsin.pages.dev/
+    - name: Estar0x
+      url: https://estar0x.github.io/
