@@ -182,7 +182,7 @@ export function init3d(graphData: GraphData) {
 
   updateAllNodePositions(ctx, nodes, nodeStates, degreeMap, maxDegree);
   // 从持久化恢复 bloom / glow 强度
-  ctx.bloomPass.strength = bloomStrength.value;
+  ctx.bloomPass.intensity = bloomStrength.value;
   ctx.glowMaterial && (ctx.glowMaterial.uniforms.glowIntensity.value = nodeGlowIntensity.value);
   updateLinkPositions(ctx, linkArr, nodeIdToIndex, nodes, linkOpacity.value);
   // 初始线条辉光
@@ -325,7 +325,7 @@ export function init3d(graphData: GraphData) {
     });
     addSliderRow(panel, "泛光强度", "0", "2", "0.05", String(bloomStrength.value), (v) => {
       bloomStrength.value = v;
-      ctx.bloomPass.strength = v;
+      ctx.bloomPass.intensity = v;
       saveVal("bloom_strength", v);
     });
     addSliderRow(panel, "节点辉光", "0", "3", "0.1", String(nodeGlowIntensity.value), (v) => {

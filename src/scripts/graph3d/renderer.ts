@@ -6,10 +6,7 @@
  */
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
-import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer.js";
-import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass.js";
-import { UnrealBloomPass } from "three/examples/jsm/postprocessing/UnrealBloomPass.js";
-import { OutputPass } from "three/examples/jsm/postprocessing/OutputPass.js";
+import { BloomEffect, EffectComposer, EffectPass, RenderPass } from "postprocessing";
 import type { GraphNode } from "../../../types/graph";
 
 // ─── 类型 ──────────────────────────────────────────────────────────
@@ -23,7 +20,7 @@ export interface RenderContext {
   linkLines: THREE.LineSegments;
   dummy: THREE.Object3D;
   composer: EffectComposer;
-  bloomPass: UnrealBloomPass;
+  bloomPass: BloomEffect;
   /** 流动粒子系统 */
   particles: {
     mesh: THREE.Points;
@@ -187,16 +184,12 @@ export function createRenderer(container: HTMLElement, nodeCount: number, linkCo
   const composer = new EffectComposer(renderer);
   composer.addPass(new RenderPass(scene, camera));
 
-  const bloomPass = new UnrealBloomPass(
-    new THREE.Vector2(width, height),
-    0.08,   // strength — 泛光强度（默认调低）
-    0.5,    // radius   — 泛光扩散半径
-    0.3,    // threshold — 亮度阈值
-  );
-  composer.addPass(bloomPass);
-
-  const outputPass = new OutputPass();
-  composer.addPass(outputPass);
+  const bloomPass = new BloomEffect({
+    intensity: 0.08,
+    radius: 0.5,
+    luminanceThreshold: 0.25,
+  });
+  composer.addPass(new EffectPass(camera, bloomPass));
 
   return {
     scene, camera, renderer, controls, nodes, linkLines, dummy,
