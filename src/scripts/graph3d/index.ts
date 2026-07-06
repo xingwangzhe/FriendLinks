@@ -14,6 +14,7 @@ import {
   animateCamera,
   createParticles,
   updateParticles,
+  EDGE_SEGMENTS,
   type RenderContext,
   type NodeState,
 } from "./renderer";
@@ -1021,11 +1022,15 @@ export function init3d(graphData: GraphData) {
     });
 
     const linkPos = ctx.linkLines.geometry.attributes.position.array as Float32Array;
+    const FLOATS_PER_EDGE = EDGE_SEGMENTS * 2 * 3;
     for (let i = 0; i < links.length; i++) {
       if (links[i].source !== nodeId && links[i].target !== nodeId) continue;
-      const j = i * 6;
-      start_v.set(linkPos[j], linkPos[j + 1], linkPos[j + 2]);
-      end_v.set(linkPos[j + 3], linkPos[j + 4], linkPos[j + 5]);
+      const base = i * FLOATS_PER_EDGE;
+      // 曲线起点 = 第 1 段第 1 个顶点
+      start_v.set(linkPos[base], linkPos[base + 1], linkPos[base + 2]);
+      // 曲线终点 = 最后 1 段第 2 个顶点
+      const lastSegOffset = FLOATS_PER_EDGE - 3;
+      end_v.set(linkPos[base + lastSegOffset], linkPos[base + lastSegOffset + 1], linkPos[base + lastSegOffset + 2]);
       dir_v.subVectors(end_v, start_v);
       const len = dir_v.length();
       if (len < 0.01) continue;

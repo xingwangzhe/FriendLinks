@@ -56,7 +56,7 @@ interface EdgeData {
 const NODE_SEGMENTS = 6;
 const BG_COLOR = 0x0f1115;
 /** 每条边细分为多少段线 */
-const EDGE_SEGMENTS = 6;
+export const EDGE_SEGMENTS = 6;
 /** 流动粒子数量 */
 const PARTICLE_COUNT = 500;
 
