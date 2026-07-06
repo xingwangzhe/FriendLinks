@@ -21,15 +21,7 @@ export interface RenderContext {
   dummy: THREE.Object3D;
   composer: EffectComposer;
   bloomPass: BloomEffect;
-  /** 流动粒子系统 */
-  particles: {
-    mesh: THREE.Points;
-    edgeIndices: Int32Array;
-    progress: Float32Array;
-    speeds: Float32Array;
-    positions: Float32Array;
-  } | null;
-  /** 边数组引用（供粒子使用） */
+  /** 边数组引用 */
   edgeRefs: EdgeData[];
   /** 节点光晕 (Points) */
   nodeGlow: THREE.Points | null;
@@ -65,8 +57,6 @@ const NODE_HEIGHT_SEGMENTS = 8;
 const BG_COLOR = 0x0f1115;
 /** 每条边细分为多少段线 */
 export const EDGE_SEGMENTS = 6;
-/** 流动粒子数量 */
-const PARTICLE_COUNT = 500;
 
 // ─── 贝塞尔工具 ──────────────────────────────────────────────────────
 
@@ -202,7 +192,6 @@ export function createRenderer(container: HTMLElement, nodeCount: number, linkCo
     dummy,
     composer,
     bloomPass,
-    particles: null,
     edgeRefs: [],
     nodeGlow: null,
     glowMaterial: null,
@@ -283,68 +272,6 @@ export function updateLinkPositions(
   ctx.linkLines.geometry.attributes.color.needsUpdate = true;
   ctx.linkLines.geometry.setDrawRange(0, maxEdges * EDGE_SEGMENTS * 2);
   (ctx.linkLines.material as THREE.LineBasicMaterial).opacity = opacity;
-}
-
-// ─── 流动粒子系统 ──────────────────────────────────────────────────
-
-export function createParticles(ctx: RenderContext) {
-  if (ctx.particles) return;
-
-  const edgeIndices = new Int32Array(PARTICLE_COUNT);
-  const progress = new Float32Array(PARTICLE_COUNT);
-  const speeds = new Float32Array(PARTICLE_COUNT);
-  const positions = new Float32Array(PARTICLE_COUNT * 3);
-
-  for (let i = 0; i < PARTICLE_COUNT; i++) {
-    edgeIndices[i] = Math.floor(Math.random() * ctx.edgeRefs.length);
-    progress[i] = Math.random();
-    speeds[i] = 0.003 + Math.random() * 0.007;
-  }
-
-  const geom = new THREE.BufferGeometry();
-  geom.setAttribute("position", new THREE.BufferAttribute(positions, 3));
-  const mat = new THREE.PointsMaterial({
-    color: 0x88ccff,
-    size: 2.5,
-    transparent: true,
-    opacity: 0.7,
-    blending: THREE.AdditiveBlending,
-    depthWrite: false,
-    sizeAttenuation: true,
-  });
-  const mesh = new THREE.Points(geom, mat);
-  mesh.frustumCulled = false;
-  ctx.scene.add(mesh);
-
-  ctx.particles = { mesh, edgeIndices, progress, speeds, positions };
-}
-
-/** 每帧更新粒子位置 */
-export function updateParticles(ctx: RenderContext, delta: number) {
-  const p = ctx.particles;
-  if (!p) return;
-  const edges = ctx.edgeRefs;
-  if (edges.length === 0) return;
-
-  const pos = p.positions;
-  const dt = delta * 60;
-
-  for (let i = 0; i < PARTICLE_COUNT; i++) {
-    p.progress[i] += p.speeds[i] * dt;
-    if (p.progress[i] > 1) {
-      p.progress[i] = 0;
-      p.edgeIndices[i] = Math.floor(Math.random() * edges.length);
-    }
-    const ei = p.edgeIndices[i];
-    if (ei >= edges.length) continue;
-    const e = edges[ei];
-    const t = p.progress[i];
-    pos[i * 3] = bezier(e.sx, e.cx, e.ex, t);
-    pos[i * 3 + 1] = bezier(e.sy, e.cy, e.ey, t);
-    pos[i * 3 + 2] = bezier(e.sz, e.cz, e.ez, t);
-  }
-
-  p.mesh.geometry.attributes.position.needsUpdate = true;
 }
 
 // ─── 节点光晕（MeetBlog 风格的 Points 加法混合光晕） ─────────────────
@@ -585,10 +512,6 @@ export function animateCamera(
 }
 
 export function dispose(ctx: RenderContext) {
-  if (ctx.particles) {
-    ctx.particles.mesh.geometry.dispose();
-    (ctx.particles.mesh.material as THREE.Material).dispose();
-  }
   if (ctx.nodeGlow) {
     ctx.nodeGlow.geometry.dispose();
     const mat = ctx.nodeGlow.material as THREE.ShaderMaterial;

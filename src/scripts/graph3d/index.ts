@@ -9,7 +9,6 @@ import { adjustHex, createTextSprite, hashToIndex, PALETTE } from "./utils";
 import {
   animateCamera,
   createNodeGlow,
-  createParticles,
   createRenderer,
   EDGE_SEGMENTS,
   nodeSize,
@@ -17,7 +16,6 @@ import {
   updateAllNodePositions,
   updateLineGlow,
   updateLinkPositions,
-  updateParticles,
   type NodeState,
   type RenderContext,
 } from "./renderer";
@@ -205,7 +203,6 @@ export function init3d(graphData: GraphData) {
   updateLinkPositions(ctx, linkArr, nodeIdToIndex, nodes, linkOpacity.value);
   // 初始线条辉光
   updateLineGlow(ctx, lineGlowIntensity.value);
-  createParticles(ctx);
   createNodeGlow(ctx, nodes.length, degreeMap, nodes, maxDegree);
 
   function refreshLinkColors() {
@@ -913,7 +910,6 @@ export function init3d(graphData: GraphData) {
   function animateLoop() {
     requestAnimationFrame(animateLoop);
     const now = performance.now();
-    const delta = Math.min((now - _lastTime) / 1000, 0.1);
     _lastTime = now;
 
     // 按需创建标签
@@ -995,10 +991,6 @@ export function init3d(graphData: GraphData) {
         flyExitRoll = 0;
       }
     }
-
-    // 粒子 CPU 更新（轻量，每帧都跑）
-    updateParticles(ctx, delta);
-    // 粒子在动 → 需要渲染（但粒子始终在动，不加无条件标记，交给后续节流）
 
     // ── 空闲计数（每帧 +1，用户交互重置）──
     _idleFrames++;
