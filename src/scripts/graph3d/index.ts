@@ -100,11 +100,11 @@ export function init3d(graphData: GraphData) {
     const base = n.color || PALETTE[hashToIndex(n.id)];
     return Object.assign({}, n, {
       palColor: base,
-      _cDefault: adjustHex(base, 20),
-      _cHover: adjustHex(base, 40),
-      _cFocus: adjustHex(base, 60),
-      _cHighlight: adjustHex(base, 35),
-      _cDimmed: adjustHex(base, -15),
+      _cDefault: base,                          // 本色，最高饱和度
+      _cHover: adjustHex(base, 15),             // 略亮
+      _cFocus: adjustHex(base, 30),             // 更亮
+      _cHighlight: adjustHex(base, 20),         // 中等亮
+      _cDimmed: adjustHex(base, -20),           // 变暗
     });
   });
 
