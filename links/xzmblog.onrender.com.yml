@@ -1,14 +1,14 @@
 site:
-  name: 'xzmblog.onrender.com'
-  url: 'https://xzmblog.onrender.com/'
-  description: '友情链接'
-  links: '/'
+  name: "xzmblog.onrender.com"
+  url: "https://xzmblog.onrender.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Demo'
-      url: 'https://digitalpet-wine.vercel.app'
-    - name: 'Demo'
-      url: 'https://vue-flow-editor.vercel.app'
-    - name: 'Demo'
-      url: 'https://mood-canvas-delta.vercel.app'
-    - name: 'Demo'
-      url: 'https://ai-talking-avatar-alpha.vercel.app'
+    - name: "Demo"
+      url: "https://digitalpet-wine.vercel.app"
+    - name: "Demo"
+      url: "https://vue-flow-editor.vercel.app"
+    - name: "Demo"
+      url: "https://mood-canvas-delta.vercel.app"
+    - name: "Demo"
+      url: "https://ai-talking-avatar-alpha.vercel.app"

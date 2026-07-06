@@ -1,68 +1,68 @@
 site:
-  name: 'blog.xieqingxin.com'
-  url: 'https://blog.xieqingxin.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.xieqingxin.com"
+  url: "https://blog.xieqingxin.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '看烟花'
-      url: 'https://fireworks.xieqingxin.cn/'
-    - name: '麦田 麦田网关，nieva-gateway'
-      url: 'https://nieva.cn/'
-    - name: '玖久的小窝 有钱终成眷属，没钱亲眼目睹'
-      url: 'https://blog.zhuxu.xyz/'
-    - name: '小码博客 喜欢的东西就努力去追求，万一成功了呢!'
-      url: 'https://blog.hikki.site'
-    - name: 'shiyue的代码库 计算机技术学习记录与分享'
-      url: 'https://shiyuec.com'
-    - name: '小wu的天空 小wu是个好人！'
-      url: 'https://linwuaiwo.cn'
-    - name: 'randycout 生命不息,折腾不止'
-      url: 'https://randycout.com'
-    - name: 'coderZ编码世界 到最高点，乘着叶片往前飞'
-      url: 'https://coderzblog.cn'
-    - name: '高大北博客 录一些工作和学习上的技术问题和分享'
-      url: 'https://www.sky12580.cn'
-    - name: '大飞的部落阁 专注于分享Python测试开发，云原生等领域的知识和经验。'
-      url: 'https://www.u1s1.vip'
-    - name: 'Smile 心有多大，世界就有多大'
-      url: 'https://taoyida.top'
-    - name: '妙霄的博客 文章合为时而著，歌诗合为事而作。'
-      url: 'http://www.mxblog.top'
-    - name: 'wuminggao''s blog 鼠鼠的成长之路'
-      url: 'https://www.wuminggao.cn'
-    - name: 'Skymo博客 人生短暂，经不起等待。'
-      url: 'https://skymo.top/'
-    - name: 'LOGI 会点代码的强迫症'
-      url: 'https://logi.im'
-    - name: '凡蜕博客 足踏不是山，仰首又一巅'
-      url: 'https://blog.ysboke.cn/'
-    - name: '杨不易呀 杨不易，杨不易呀博客，杨不易呀,杨不易呀博客,杨不易,yangbuyi,yangbuyi.yop'
-      url: 'https://www.yangbuyi.top'
-    - name: 'zdy的小站 最美的旅程，是不断的经历'
-      url: 'https://www.zdynb.cn/'
-    - name: '人家故里 不积跬步无以至千里，不积小流无以成江海'
-      url: 'https://fx7.top'
-    - name: 'Notes Hut 记录美好生活'
-      url: 'https://blog.attainment.cn'
-    - name: '小飞博客 生活明朗,万物可爱,人间值得,未来可期。'
-      url: 'https://www.xffjs.com'
-    - name: '明恒博客 一个技术型博客'
-      url: 'https://www.zym88.cn'
-    - name: '二十五画生 苏才郭福，姬子彭年。'
-      url: 'https://blog.laoda.de'
-    - name: 'Marigold 一个博客开放平台'
-      url: 'https://www.marigold.website'
-    - name: 'Nio的博客 天行健,君子以自强不息。'
-      url: 'https://www.gitloc.com/'
-    - name: '邓邓的流水账 邓邓的个人小站｜记录喜欢折腾的日常'
-      url: 'https://xhhdd.cc/'
-    - name: '疾风亦有龟途 过去无可挽回，未来可以改变！'
-      url: 'https://www.lolxiaoguo.cn'
-    - name: '心月云 永远年轻，永远热泪盈眶'
-      url: 'https://wch666.com'
-    - name: '素衣小客 [ 白驹过隙，一往无前！ ]'
-      url: 'https://xieyaxin.top/'
-    - name: 'pei你看雪 陪伴是最长情的告白'
-      url: 'https://pnkx.top'
-    - name: 'ONESTARの客栈 这位博主啥也没说'
-      url: 'https://onestar.newstar.net.cn/'
+    - name: "看烟花"
+      url: "https://fireworks.xieqingxin.cn/"
+    - name: "麦田 麦田网关，nieva-gateway"
+      url: "https://nieva.cn/"
+    - name: "玖久的小窝 有钱终成眷属，没钱亲眼目睹"
+      url: "https://blog.zhuxu.xyz/"
+    - name: "小码博客 喜欢的东西就努力去追求，万一成功了呢!"
+      url: "https://blog.hikki.site"
+    - name: "shiyue的代码库 计算机技术学习记录与分享"
+      url: "https://shiyuec.com"
+    - name: "小wu的天空 小wu是个好人！"
+      url: "https://linwuaiwo.cn"
+    - name: "randycout 生命不息,折腾不止"
+      url: "https://randycout.com"
+    - name: "coderZ编码世界 到最高点，乘着叶片往前飞"
+      url: "https://coderzblog.cn"
+    - name: "高大北博客 录一些工作和学习上的技术问题和分享"
+      url: "https://www.sky12580.cn"
+    - name: "大飞的部落阁 专注于分享Python测试开发，云原生等领域的知识和经验。"
+      url: "https://www.u1s1.vip"
+    - name: "Smile 心有多大，世界就有多大"
+      url: "https://taoyida.top"
+    - name: "妙霄的博客 文章合为时而著，歌诗合为事而作。"
+      url: "http://www.mxblog.top"
+    - name: "wuminggao's blog 鼠鼠的成长之路"
+      url: "https://www.wuminggao.cn"
+    - name: "Skymo博客 人生短暂，经不起等待。"
+      url: "https://skymo.top/"
+    - name: "LOGI 会点代码的强迫症"
+      url: "https://logi.im"
+    - name: "凡蜕博客 足踏不是山，仰首又一巅"
+      url: "https://blog.ysboke.cn/"
+    - name: "杨不易呀 杨不易，杨不易呀博客，杨不易呀,杨不易呀博客,杨不易,yangbuyi,yangbuyi.yop"
+      url: "https://www.yangbuyi.top"
+    - name: "zdy的小站 最美的旅程，是不断的经历"
+      url: "https://www.zdynb.cn/"
+    - name: "人家故里 不积跬步无以至千里，不积小流无以成江海"
+      url: "https://fx7.top"
+    - name: "Notes Hut 记录美好生活"
+      url: "https://blog.attainment.cn"
+    - name: "小飞博客 生活明朗,万物可爱,人间值得,未来可期。"
+      url: "https://www.xffjs.com"
+    - name: "明恒博客 一个技术型博客"
+      url: "https://www.zym88.cn"
+    - name: "二十五画生 苏才郭福，姬子彭年。"
+      url: "https://blog.laoda.de"
+    - name: "Marigold 一个博客开放平台"
+      url: "https://www.marigold.website"
+    - name: "Nio的博客 天行健,君子以自强不息。"
+      url: "https://www.gitloc.com/"
+    - name: "邓邓的流水账 邓邓的个人小站｜记录喜欢折腾的日常"
+      url: "https://xhhdd.cc/"
+    - name: "疾风亦有龟途 过去无可挽回，未来可以改变！"
+      url: "https://www.lolxiaoguo.cn"
+    - name: "心月云 永远年轻，永远热泪盈眶"
+      url: "https://wch666.com"
+    - name: "素衣小客 [ 白驹过隙，一往无前！ ]"
+      url: "https://xieyaxin.top/"
+    - name: "pei你看雪 陪伴是最长情的告白"
+      url: "https://pnkx.top"
+    - name: "ONESTARの客栈 这位博主啥也没说"
+      url: "https://onestar.newstar.net.cn/"

@@ -1,16 +1,16 @@
 site:
-  name: 'zylstra.org'
-  url: 'https://www.zylstra.org/'
-  description: '友情链接'
-  links: '/'
+  name: "zylstra.org"
+  url: "https://www.zylstra.org/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Open State Foundation'
-      url: 'https://openstate.eu'
-    - name: 'Doei! dag'
-      url: 'https://doeidag.nl/'
-    - name: 'Internet Archive'
-      url: 'https://archive.org'
-    - name: 'Meso WP'
-      url: 'https://meso.tzyl.nl'
-    - name: 'Open Street Map'
-      url: 'https://join.osmfoundation.org/'
+    - name: "Open State Foundation"
+      url: "https://openstate.eu"
+    - name: "Doei! dag"
+      url: "https://doeidag.nl/"
+    - name: "Internet Archive"
+      url: "https://archive.org"
+    - name: "Meso WP"
+      url: "https://meso.tzyl.nl"
+    - name: "Open Street Map"
+      url: "https://join.osmfoundation.org/"

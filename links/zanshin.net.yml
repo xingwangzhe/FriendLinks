@@ -1,56 +1,56 @@
 site:
-  name: 'zanshin.net'
-  url: 'https://zanshin.net/'
-  description: '友情链接'
-  links: '/links'
+  name: "zanshin.net"
+  url: "https://zanshin.net/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Studio'
-      url: 'https://sibyllekuder.com'
-    - name: 'Ageless Linux'
-      url: 'https://agelesslinux.org/'
-    - name: 'Writing an OS in Rust'
-      url: 'https://os.phil-opp.com'
-    - name: 'Linux From Scratch'
-      url: 'https://linuxfromscratch.org'
-    - name: 'Who Needs dig?'
-      url: 'https://dnsrecords.io/'
-    - name: 'Calm Technology'
-      url: 'https://calmtech.com'
-    - name: 'Gridzzly'
-      url: 'http://gridzzly.com'
-    - name: 'A Usable Credit Card Form'
-      url: 'http://creditcardjs.com'
-    - name: 'Zero Motorcycles'
-      url: 'http://www.zeromotorcycles.com'
-    - name: 'HTML9 Responsive Boilerstrap JS'
-      url: 'http://html9responsiveboilerstrapjs.com/'
-    - name: 'Inception Explained'
-      url: 'http://www.inception-explained.com/'
-    - name: 'Shapecatcher'
-      url: 'http://shapecatcher.com/'
-    - name: 'Same Hill Different Day'
-      url: 'http://samehilldifferentday.com/'
-    - name: 'SOPAOpera'
-      url: 'http://www.sopaopera.org/'
-    - name: 'Calm'
-      url: 'http://calm.com/'
-    - name: 'Code Cards'
-      url: 'http://code-cards.com/'
-    - name: 'Nest Learning Thermostat'
-      url: 'http://www.nest.com/'
-    - name: 'CardSharp'
-      url: 'http://www.iainsinclair.com/'
-    - name: 'Play Spent'
-      url: 'http://playspent.org/'
-    - name: 'Monsters of Grok'
-      url: 'http://monstersofgrok.com/'
-    - name: 'Dual-Screen Laptop'
-      url: 'http://www.gscreenlaptop.com/'
-    - name: 'Download and Build a House'
-      url: 'http://www.wikihouse.cc/'
-    - name: 'Converse'
-      url: 'http://getconverse.com/'
-    - name: 'Which Fish?'
-      url: 'http://whichfish.org'
-    - name: 'Aelios'
-      url: 'http://aeliosapp.com/'
+    - name: "Studio"
+      url: "https://sibyllekuder.com"
+    - name: "Ageless Linux"
+      url: "https://agelesslinux.org/"
+    - name: "Writing an OS in Rust"
+      url: "https://os.phil-opp.com"
+    - name: "Linux From Scratch"
+      url: "https://linuxfromscratch.org"
+    - name: "Who Needs dig?"
+      url: "https://dnsrecords.io/"
+    - name: "Calm Technology"
+      url: "https://calmtech.com"
+    - name: "Gridzzly"
+      url: "http://gridzzly.com"
+    - name: "A Usable Credit Card Form"
+      url: "http://creditcardjs.com"
+    - name: "Zero Motorcycles"
+      url: "http://www.zeromotorcycles.com"
+    - name: "HTML9 Responsive Boilerstrap JS"
+      url: "http://html9responsiveboilerstrapjs.com/"
+    - name: "Inception Explained"
+      url: "http://www.inception-explained.com/"
+    - name: "Shapecatcher"
+      url: "http://shapecatcher.com/"
+    - name: "Same Hill Different Day"
+      url: "http://samehilldifferentday.com/"
+    - name: "SOPAOpera"
+      url: "http://www.sopaopera.org/"
+    - name: "Calm"
+      url: "http://calm.com/"
+    - name: "Code Cards"
+      url: "http://code-cards.com/"
+    - name: "Nest Learning Thermostat"
+      url: "http://www.nest.com/"
+    - name: "CardSharp"
+      url: "http://www.iainsinclair.com/"
+    - name: "Play Spent"
+      url: "http://playspent.org/"
+    - name: "Monsters of Grok"
+      url: "http://monstersofgrok.com/"
+    - name: "Dual-Screen Laptop"
+      url: "http://www.gscreenlaptop.com/"
+    - name: "Download and Build a House"
+      url: "http://www.wikihouse.cc/"
+    - name: "Converse"
+      url: "http://getconverse.com/"
+    - name: "Which Fish?"
+      url: "http://whichfish.org"
+    - name: "Aelios"
+      url: "http://aeliosapp.com/"

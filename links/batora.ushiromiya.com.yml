@@ -1,76 +1,76 @@
 site:
-  name: 'batora.ushiromiya.com'
-  url: 'https://batora.ushiromiya.com/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "batora.ushiromiya.com"
+  url: "https://batora.ushiromiya.com/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: 'GAMESH'
-      url: 'http://pylblog.com'
-    - name: '堕络''s Blog'
-      url: 'http://www.duoluosb.com'
-    - name: '幻想驿站'
-      url: 'http://blog.kuroy.me'
-    - name: '编谈博客'
-      url: 'http://biandan.me'
-    - name: 'Sueri’s Blog'
-      url: 'https://www.rayks.com'
-    - name: '猫箱内に黄金郷'
-      url: 'https://umineko.moe'
-    - name: '打键の魔女桃'
-      url: 'https://httsard.online'
-    - name: 'Netrvin''s Blog'
-      url: 'https://blog.yuzu.im'
-    - name: '陨落天心'
-      url: 'http://tennsinn.com'
-    - name: '妄想7号店'
-      url: 'https://www.qiao7.xyz'
-    - name: '紫慕碎碎念'
-      url: 'https://90zm.net'
-    - name: '凯の秘密基地'
-      url: 'https://wwww.lvmoo.com'
-    - name: '惡魔菌の记事簿'
-      url: 'https://meow3.family.blog'
-    - name: 'Rakume | Kunr'
-      url: 'https://rakume.com'
-    - name: '白熊阿丸的小屋'
-      url: 'https://www.bxaw.name'
-    - name: 'Lan酱的新小窝'
-      url: 'https://www.xx8.uk'
-    - name: 'FSpark'
-      url: 'https://fspark.me'
-    - name: '时间回廊'
-      url: 'https://xbtzone.com'
-    - name: '橘纸柚'
-      url: 'https://lovemen.cc'
-    - name: '雨声残响'
-      url: 'https://blog.abyss.moe'
-    - name: '心作乱象'
-      url: 'https://www.souletter.com'
-    - name: 'iEdonの幻想郷'
-      url: 'https://iedon.com'
-    - name: 'Deamwork'
-      url: 'https://dwx.io'
-    - name: '夏梦喧嚣'
-      url: 'https://lyuan.co'
-    - name: 'Nearg1e'
-      url: 'http://blog.neargle.com'
-    - name: 'Rolenx'
-      url: 'https://home.yesord.top'
-    - name: 'BlogFinder'
-      url: 'https://bf.zzxworld.com'
-    - name: 'BlogWe'
-      url: 'https://blogwe.com'
-    - name: '萌一库'
-      url: 'https://594moe.com'
-    - name: 'Kirito''s Blog'
-      url: 'https://www.ixh.me'
-    - name: '叶Box'
-      url: 'https://blog.chriser.pw'
-    - name: 'Otichi'
-      url: 'https://otichi.com'
-    - name: 'NEKOHAND'
-      url: 'https://blog.nekohand.moe'
-    - name: '奶油话梅糖'
-      url: 'https://www.naiyouhuameitang.club'
-    - name: 'CDogの碎碎念'
-      url: 'https://blog.cdog.me'
+    - name: "GAMESH"
+      url: "http://pylblog.com"
+    - name: "堕络's Blog"
+      url: "http://www.duoluosb.com"
+    - name: "幻想驿站"
+      url: "http://blog.kuroy.me"
+    - name: "编谈博客"
+      url: "http://biandan.me"
+    - name: "Sueri’s Blog"
+      url: "https://www.rayks.com"
+    - name: "猫箱内に黄金郷"
+      url: "https://umineko.moe"
+    - name: "打键の魔女桃"
+      url: "https://httsard.online"
+    - name: "Netrvin's Blog"
+      url: "https://blog.yuzu.im"
+    - name: "陨落天心"
+      url: "http://tennsinn.com"
+    - name: "妄想7号店"
+      url: "https://www.qiao7.xyz"
+    - name: "紫慕碎碎念"
+      url: "https://90zm.net"
+    - name: "凯の秘密基地"
+      url: "https://wwww.lvmoo.com"
+    - name: "惡魔菌の记事簿"
+      url: "https://meow3.family.blog"
+    - name: "Rakume | Kunr"
+      url: "https://rakume.com"
+    - name: "白熊阿丸的小屋"
+      url: "https://www.bxaw.name"
+    - name: "Lan酱的新小窝"
+      url: "https://www.xx8.uk"
+    - name: "FSpark"
+      url: "https://fspark.me"
+    - name: "时间回廊"
+      url: "https://xbtzone.com"
+    - name: "橘纸柚"
+      url: "https://lovemen.cc"
+    - name: "雨声残响"
+      url: "https://blog.abyss.moe"
+    - name: "心作乱象"
+      url: "https://www.souletter.com"
+    - name: "iEdonの幻想郷"
+      url: "https://iedon.com"
+    - name: "Deamwork"
+      url: "https://dwx.io"
+    - name: "夏梦喧嚣"
+      url: "https://lyuan.co"
+    - name: "Nearg1e"
+      url: "http://blog.neargle.com"
+    - name: "Rolenx"
+      url: "https://home.yesord.top"
+    - name: "BlogFinder"
+      url: "https://bf.zzxworld.com"
+    - name: "BlogWe"
+      url: "https://blogwe.com"
+    - name: "萌一库"
+      url: "https://594moe.com"
+    - name: "Kirito's Blog"
+      url: "https://www.ixh.me"
+    - name: "叶Box"
+      url: "https://blog.chriser.pw"
+    - name: "Otichi"
+      url: "https://otichi.com"
+    - name: "NEKOHAND"
+      url: "https://blog.nekohand.moe"
+    - name: "奶油话梅糖"
+      url: "https://www.naiyouhuameitang.club"
+    - name: "CDogの碎碎念"
+      url: "https://blog.cdog.me"

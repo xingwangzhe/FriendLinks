@@ -1,100 +1,100 @@
 site:
-  name: 'CWorld'
-  url: 'https://cworld0.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "CWorld"
+  url: "https://cworld0.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '又见苍岚蓝天依旧，明眸如初'
-      url: 'https://www.zywvvd.com/'
-    - name: '陆陆侠的生活安安~这里是陆陆侠的生活'
-      url: 'https://llx.life/'
-    - name: 'KINDYEAR技施于手，道养于心'
-      url: 'https://www.kindyear.cn/'
-    - name: 'Timochan の BlogLet''s start learning'
-      url: 'https://www.timochan.cn/'
-    - name: '小慧博客小慧的技术博客'
-      url: 'https://www.itxiaohui.top/'
-    - name: 'XingJiのBlog迄今所有人生都大写着失败，但不妨碍我继续向前✨'
-      url: 'https://love.xingji.fun/'
-    - name: 'Amiracle向往之处，便是归途'
-      url: 'https://amiracle.site/'
-    - name: '清羽飞扬柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜'
-      url: 'https://blog.liushen.fun/'
-    - name: 'SUSU在数字的海洋中，寻找属于自己的星辰。'
-      url: 'https://suus.me/'
-    - name: 'LanYun の BlogShare Technology.'
-      url: 'https://lanyundev.com/'
-    - name: '喵二の小博客缘，妙不可言'
-      url: 'https://www.miaoer.net/'
-    - name: 'Oyiso''s BlogThe shortest answer is doing'
-      url: 'https://oyiso.cn/'
-    - name: '白丁轶事Everything should be hurry.'
-      url: 'https://moranfong.com/'
-    - name: '七云''s Blog我们终归落俗，但浪漫不死'
-      url: 'https://www.zets.cn/'
-    - name: 'Zhen 的小站二次元是第一技术力！'
-      url: 'https://gongz.moe/'
-    - name: '丘卡饮品店要来点喝的吗？'
-      url: 'https://blog.zerolacqua.top/'
-    - name: '小码同学喜欢的东西就努力去追求，万一成功了呢!'
-      url: 'https://blog.hikki.site/'
-    - name: '张洪 Heo分享设计与科技生活'
-      url: 'https://blog.zhheo.com/'
-    - name: 'Tianli自知之明是最可贵的知识！'
-      url: 'https://blog.tianli0.top/'
-    - name: 'AkiDAY永恒秋日之星'
-      url: 'https://blog.akiday.com/'
-    - name: '一叶竹期待下雨天的夜晚'
-      url: 'https://iyyz.org/'
-    - name: 'Young143''s Blog我不舍得为将来的难测放弃当下这一刻'
-      url: 'https://www.young143.top/'
-    - name: 'Lane’s Blog探索未知，解码未来'
-      url: 'https://www.laneljc.cn/'
-    - name: '拾星絮语银汉凝睫上，璇玑坠瞳渊'
-      url: 'https://owo.cab/'
-    - name: '字节君热爱漫无边际，生活自有分寸'
-      url: 'https://blog.lvbyte.top/'
-    - name: 'Cubik 的小站RECOMMENDED BY DR.CREATIVE'
-      url: 'https://cubik65536.top/'
-    - name: '王小明的杂物堆乱七八糟就像我一样'
-      url: 'https://imwzj.uk/'
-    - name: '大大的小蜗牛机会总是垂青于有准备的人'
-      url: 'https://www.eallion.com/'
-    - name: '梦爱吃鱼但愿日子清静抬头遇见的满是柔情'
-      url: 'https://blog.bsgun.cn/'
-    - name: 'EthanDon’t stay awake for too long.'
-      url: 'https://hanlife02.com/'
-    - name: 'Xingluo’s Blog内心丰盈者独行也如众'
-      url: 'https://blog.en.icu/'
-    - name: 'Yutong''s SiteMy compass is curiosity.'
-      url: 'https://www.lyt0112.com/'
-    - name: 'The Sejolyn Memo让其如是所示，而非如我所愿。'
-      url: 'https://sejolyn.fyi/'
-    - name: '星河避难所写代码，也写自己'
-      url: 'https://hejunjie.life/'
-    - name: 'Arthals'' ink所见高山远木，阔云流风；所幸岁月盈余，了无拘束'
-      url: 'https://arthals.ink/'
-    - name: '梨尽兴A place for peace'
-      url: 'https://blog.ljx.icu/'
-    - name: 'Avery’s BlogEveryday is a new beginning'
-      url: 'https://shuoer.top/'
-    - name: 'Shuoer’s blog透过窗户看星星'
-      url: 'https://www.averyc.top/'
-    - name: 'OrdisBlog船到桥头自然直，柳暗花明又一村'
-      url: 'https://blog.imbhj.com/'
-    - name: 'CyanFalse''s WeblogI''m CyanFalse,New to Here.'
-      url: 'https://blog.eurekac.cn/'
-    - name: '無名小栈分享技术与科技生活'
-      url: 'https://blog.imsyy.top/'
-    - name: '愧怍道阻且长，行则将至'
-      url: 'https://kuizuo.cn/'
-    - name: 'Bore''s Notes博观而约取，厚积而薄发'
-      url: 'https://bore.vip/'
-    - name: 'WallleapLuwang''s Blog'
-      url: 'https://myblog.wallleap.cn/'
-    - name: '猫羽のブログす空中有颗星为你而亮'
-      url: 'https://www.maoyv.com/'
-    - name: 'Kris Yan無限進步 @Schale夏萊'
-      url: 'https://blog.krisyan.dev/'
-    - name: '彬红茶博客乌拉乌拉乌拉'
-      url: 'https://blog.redcha.cn/'
+    - name: "又见苍岚蓝天依旧，明眸如初"
+      url: "https://www.zywvvd.com/"
+    - name: "陆陆侠的生活安安~这里是陆陆侠的生活"
+      url: "https://llx.life/"
+    - name: "KINDYEAR技施于手，道养于心"
+      url: "https://www.kindyear.cn/"
+    - name: "Timochan の BlogLet's start learning"
+      url: "https://www.timochan.cn/"
+    - name: "小慧博客小慧的技术博客"
+      url: "https://www.itxiaohui.top/"
+    - name: "XingJiのBlog迄今所有人生都大写着失败，但不妨碍我继续向前✨"
+      url: "https://love.xingji.fun/"
+    - name: "Amiracle向往之处，便是归途"
+      url: "https://amiracle.site/"
+    - name: "清羽飞扬柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
+      url: "https://blog.liushen.fun/"
+    - name: "SUSU在数字的海洋中，寻找属于自己的星辰。"
+      url: "https://suus.me/"
+    - name: "LanYun の BlogShare Technology."
+      url: "https://lanyundev.com/"
+    - name: "喵二の小博客缘，妙不可言"
+      url: "https://www.miaoer.net/"
+    - name: "Oyiso's BlogThe shortest answer is doing"
+      url: "https://oyiso.cn/"
+    - name: "白丁轶事Everything should be hurry."
+      url: "https://moranfong.com/"
+    - name: "七云's Blog我们终归落俗，但浪漫不死"
+      url: "https://www.zets.cn/"
+    - name: "Zhen 的小站二次元是第一技术力！"
+      url: "https://gongz.moe/"
+    - name: "丘卡饮品店要来点喝的吗？"
+      url: "https://blog.zerolacqua.top/"
+    - name: "小码同学喜欢的东西就努力去追求，万一成功了呢!"
+      url: "https://blog.hikki.site/"
+    - name: "张洪 Heo分享设计与科技生活"
+      url: "https://blog.zhheo.com/"
+    - name: "Tianli自知之明是最可贵的知识！"
+      url: "https://blog.tianli0.top/"
+    - name: "AkiDAY永恒秋日之星"
+      url: "https://blog.akiday.com/"
+    - name: "一叶竹期待下雨天的夜晚"
+      url: "https://iyyz.org/"
+    - name: "Young143's Blog我不舍得为将来的难测放弃当下这一刻"
+      url: "https://www.young143.top/"
+    - name: "Lane’s Blog探索未知，解码未来"
+      url: "https://www.laneljc.cn/"
+    - name: "拾星絮语银汉凝睫上，璇玑坠瞳渊"
+      url: "https://owo.cab/"
+    - name: "字节君热爱漫无边际，生活自有分寸"
+      url: "https://blog.lvbyte.top/"
+    - name: "Cubik 的小站RECOMMENDED BY DR.CREATIVE"
+      url: "https://cubik65536.top/"
+    - name: "王小明的杂物堆乱七八糟就像我一样"
+      url: "https://imwzj.uk/"
+    - name: "大大的小蜗牛机会总是垂青于有准备的人"
+      url: "https://www.eallion.com/"
+    - name: "梦爱吃鱼但愿日子清静抬头遇见的满是柔情"
+      url: "https://blog.bsgun.cn/"
+    - name: "EthanDon’t stay awake for too long."
+      url: "https://hanlife02.com/"
+    - name: "Xingluo’s Blog内心丰盈者独行也如众"
+      url: "https://blog.en.icu/"
+    - name: "Yutong's SiteMy compass is curiosity."
+      url: "https://www.lyt0112.com/"
+    - name: "The Sejolyn Memo让其如是所示，而非如我所愿。"
+      url: "https://sejolyn.fyi/"
+    - name: "星河避难所写代码，也写自己"
+      url: "https://hejunjie.life/"
+    - name: "Arthals' ink所见高山远木，阔云流风；所幸岁月盈余，了无拘束"
+      url: "https://arthals.ink/"
+    - name: "梨尽兴A place for peace"
+      url: "https://blog.ljx.icu/"
+    - name: "Avery’s BlogEveryday is a new beginning"
+      url: "https://shuoer.top/"
+    - name: "Shuoer’s blog透过窗户看星星"
+      url: "https://www.averyc.top/"
+    - name: "OrdisBlog船到桥头自然直，柳暗花明又一村"
+      url: "https://blog.imbhj.com/"
+    - name: "CyanFalse's WeblogI'm CyanFalse,New to Here."
+      url: "https://blog.eurekac.cn/"
+    - name: "無名小栈分享技术与科技生活"
+      url: "https://blog.imsyy.top/"
+    - name: "愧怍道阻且长，行则将至"
+      url: "https://kuizuo.cn/"
+    - name: "Bore's Notes博观而约取，厚积而薄发"
+      url: "https://bore.vip/"
+    - name: "WallleapLuwang's Blog"
+      url: "https://myblog.wallleap.cn/"
+    - name: "猫羽のブログす空中有颗星为你而亮"
+      url: "https://www.maoyv.com/"
+    - name: "Kris Yan無限進步 @Schale夏萊"
+      url: "https://blog.krisyan.dev/"
+    - name: "彬红茶博客乌拉乌拉乌拉"
+      url: "https://blog.redcha.cn/"

@@ -1,34 +1,34 @@
 site:
-  name: 'kvibber.com'
-  url: 'https://kvibber.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "kvibber.com"
+  url: "https://kvibber.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Feral Tomatoes'
-      url: 'https://feraltomatoes.com/'
-    - name: 'Brooke Vibber: Software Consultant'
-      url: 'https://brooke.vibber.net/'
-    - name: 'Atlas Obscura'
-      url: 'https://www.atlasobscura.com/'
-    - name: 'Indie Web Directory'
-      url: 'https://indieseek.xyz/'
-    - name: 'Bubbles'
-      url: 'https://bubbles.town/'
-    - name: 'iNaturalist'
-      url: 'https://inaturalist.org/'
-    - name: 'OpenStreetMap'
-      url: 'https://openstreetmap.org/'
-    - name: 'Alternative To'
-      url: 'https://alternativeto.net/'
-    - name: 'Switching.software'
-      url: 'https://switching.software/'
-    - name: 'Grow Your Own Services'
-      url: 'https://growyourown.services/'
-    - name: 'Project Gemini'
-      url: 'https://geminiprotocol.net/'
-    - name: 'Known'
-      url: 'https://withknown.com/'
-    - name: 'Write.as'
-      url: 'https://write.as/'
-    - name: 'Standard Ebooks'
-      url: 'https://standardebooks.org'
+    - name: "Feral Tomatoes"
+      url: "https://feraltomatoes.com/"
+    - name: "Brooke Vibber: Software Consultant"
+      url: "https://brooke.vibber.net/"
+    - name: "Atlas Obscura"
+      url: "https://www.atlasobscura.com/"
+    - name: "Indie Web Directory"
+      url: "https://indieseek.xyz/"
+    - name: "Bubbles"
+      url: "https://bubbles.town/"
+    - name: "iNaturalist"
+      url: "https://inaturalist.org/"
+    - name: "OpenStreetMap"
+      url: "https://openstreetmap.org/"
+    - name: "Alternative To"
+      url: "https://alternativeto.net/"
+    - name: "Switching.software"
+      url: "https://switching.software/"
+    - name: "Grow Your Own Services"
+      url: "https://growyourown.services/"
+    - name: "Project Gemini"
+      url: "https://geminiprotocol.net/"
+    - name: "Known"
+      url: "https://withknown.com/"
+    - name: "Write.as"
+      url: "https://write.as/"
+    - name: "Standard Ebooks"
+      url: "https://standardebooks.org"

@@ -1,70 +1,70 @@
 site:
-  name: '小城寒风'
-  url: 'https://blog.atago.moe/'
-  description: '友链'
-  links: '/friend'
+  name: "小城寒风"
+  url: "https://blog.atago.moe/"
+  description: "友链"
+  links: "/friend"
   friends:
-    - name: 'GamerNoTitle'
-      url: 'https://bili33.top/'
-    - name: 'gywlg'
-      url: 'https://gywlg.cn/'
-    - name: 'Pinpe 的云端'
-      url: 'https://pinpe.top/'
-    - name: 'Rain''s Blog'
-      url: 'https://blog.im.ci/'
-    - name: 'Razuritta''s Notebook'
-      url: 'https://blog.razuritta.me/'
-    - name: 'sakiko'
-      url: 'https://xlog.sakiko.top/'
-    - name: 'Shetty Yttehs'
-      url: 'https://blog.shettydev.com/'
-    - name: 'Udon''s Blog'
-      url: 'https://blog.udon.eu.org/'
-    - name: 'Vincy云昔'
-      url: 'https://blog.vincy1230.net/'
-    - name: 'XiaoPang的个人博客'
-      url: 'https://blog.xpdbk.com/'
-    - name: 'YUAN 的个人主页'
-      url: 'https://www.upyi.cn/'
-    - name: '云萧的咕咕屋'
-      url: 'https://blog.crrashh.com/'
-    - name: '光溯星河'
-      url: 'https://blog.tsio.top/'
-    - name: '南陽劉子驥'
-      url: 'https://kaiserwilheim.github.io/'
-    - name: '喵二の小博客'
-      url: 'https://www.miaoer.net/'
-    - name: '夜灭の小窝'
-      url: 'https://yujie.pro/'
-    - name: '奶昔博客'
-      url: 'https://blog.naixi.net/'
-    - name: '孤影墨香'
-      url: 'https://www.iloli.xin/'
-    - name: '幻幻博客'
-      url: 'https://www.xhxx.cc/'
-    - name: '我的笔记'
-      url: 'https://www.1mxy.cn/'
-    - name: '日下部 詩'
-      url: 'https://www.kskb.eu.org/'
-    - name: '月梦の技术博客'
-      url: 'https://ymiir.asia/'
-    - name: '欠陥電気の摸鱼小池'
-      url: 'https://blog.atri.tk/'
-    - name: '欧阳淇淇的小屋'
-      url: 'https://ouyangqiqi.cn/'
-    - name: '竹春廿柒'
-      url: 'https://mojinxi.cn/'
-    - name: '花的研究笔记'
-      url: 'https://huaum.com/'
-    - name: '虎窝'
-      url: 'https://blog.ahu.moe/'
-    - name: '虹色轨迹🌠'
-      url: 'https://illlli.com/'
-    - name: '轩灵博客'
-      url: 'https://blog.wenfxl.com/'
-    - name: '鈴木花華のBlog'
-      url: 'https://blog.suzukif.xyz/'
-    - name: '随意之光博客'
-      url: 'https://blog.suiyil.cn/'
-    - name: '雪萌天文台'
-      url: 'https://blog.snowy.moe/'
+    - name: "GamerNoTitle"
+      url: "https://bili33.top/"
+    - name: "gywlg"
+      url: "https://gywlg.cn/"
+    - name: "Pinpe 的云端"
+      url: "https://pinpe.top/"
+    - name: "Rain's Blog"
+      url: "https://blog.im.ci/"
+    - name: "Razuritta's Notebook"
+      url: "https://blog.razuritta.me/"
+    - name: "sakiko"
+      url: "https://xlog.sakiko.top/"
+    - name: "Shetty Yttehs"
+      url: "https://blog.shettydev.com/"
+    - name: "Udon's Blog"
+      url: "https://blog.udon.eu.org/"
+    - name: "Vincy云昔"
+      url: "https://blog.vincy1230.net/"
+    - name: "XiaoPang的个人博客"
+      url: "https://blog.xpdbk.com/"
+    - name: "YUAN 的个人主页"
+      url: "https://www.upyi.cn/"
+    - name: "云萧的咕咕屋"
+      url: "https://blog.crrashh.com/"
+    - name: "光溯星河"
+      url: "https://blog.tsio.top/"
+    - name: "南陽劉子驥"
+      url: "https://kaiserwilheim.github.io/"
+    - name: "喵二の小博客"
+      url: "https://www.miaoer.net/"
+    - name: "夜灭の小窝"
+      url: "https://yujie.pro/"
+    - name: "奶昔博客"
+      url: "https://blog.naixi.net/"
+    - name: "孤影墨香"
+      url: "https://www.iloli.xin/"
+    - name: "幻幻博客"
+      url: "https://www.xhxx.cc/"
+    - name: "我的笔记"
+      url: "https://www.1mxy.cn/"
+    - name: "日下部 詩"
+      url: "https://www.kskb.eu.org/"
+    - name: "月梦の技术博客"
+      url: "https://ymiir.asia/"
+    - name: "欠陥電気の摸鱼小池"
+      url: "https://blog.atri.tk/"
+    - name: "欧阳淇淇的小屋"
+      url: "https://ouyangqiqi.cn/"
+    - name: "竹春廿柒"
+      url: "https://mojinxi.cn/"
+    - name: "花的研究笔记"
+      url: "https://huaum.com/"
+    - name: "虎窝"
+      url: "https://blog.ahu.moe/"
+    - name: "虹色轨迹🌠"
+      url: "https://illlli.com/"
+    - name: "轩灵博客"
+      url: "https://blog.wenfxl.com/"
+    - name: "鈴木花華のBlog"
+      url: "https://blog.suzukif.xyz/"
+    - name: "随意之光博客"
+      url: "https://blog.suiyil.cn/"
+    - name: "雪萌天文台"
+      url: "https://blog.snowy.moe/"

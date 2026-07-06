@@ -1,12 +1,12 @@
 site:
-  name: 'lado.me'
-  url: 'https://lado.me/'
-  description: '友情链接'
-  links: '/friends'
+  name: "lado.me"
+  url: "https://lado.me/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Project RC'
-      url: 'https://stdrc.cc/'
-    - name: 'This Cute World'
-      url: 'https://thiscute.world/'
-    - name: 'Hux'
-      url: 'http://huangxuan.me'
+    - name: "Project RC"
+      url: "https://stdrc.cc/"
+    - name: "This Cute World"
+      url: "https://thiscute.world/"
+    - name: "Hux"
+      url: "http://huangxuan.me"

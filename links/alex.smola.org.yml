@@ -1,34 +1,34 @@
 site:
-  name: 'alex.smola.org'
-  url: 'https://alex.smola.org/'
-  description: '友情链接'
-  links: '/'
+  name: "alex.smola.org"
+  url: "https://alex.smola.org/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Boson AI'
-      url: 'https://boson.ai'
-    - name: 'Dive into Deep Learning'
-      url: 'http://d2l.ai/'
-    - name: 'physics'
-      url: 'http://www.physik.tu-muenchen.de/'
-    - name: 'Munich'
-      url: 'https://www.muenchen.de/'
-    - name: 'University of Technology'
-      url: 'http://www.tu-muenchen.de/'
-    - name: 'University of Pavia'
-      url: 'http://www.unipv.it/'
-    - name: 'AT&T Research'
-      url: 'https://www.research.att.com/'
-    - name: 'Maximilianeum München'
-      url: 'http://www.maximilianeum.de/'
-    - name: 'computer science'
-      url: 'http://www.cs.tu-berlin.de/'
-    - name: 'University of Technology Berlin'
-      url: 'http://www.tu-berlin.de/'
-    - name: 'Fraunhofer Gesellschaft'
-      url: 'https://www.fraunhofer.de/'
-    - name: 'Data61 CSIRO'
-      url: 'https://data61.csiro.au/'
-    - name: 'Yahoo! Research'
-      url: 'http://research.yahoo.com/'
-    - name: 'Google Research'
-      url: 'https://research.google/'
+    - name: "Boson AI"
+      url: "https://boson.ai"
+    - name: "Dive into Deep Learning"
+      url: "http://d2l.ai/"
+    - name: "physics"
+      url: "http://www.physik.tu-muenchen.de/"
+    - name: "Munich"
+      url: "https://www.muenchen.de/"
+    - name: "University of Technology"
+      url: "http://www.tu-muenchen.de/"
+    - name: "University of Pavia"
+      url: "http://www.unipv.it/"
+    - name: "AT&T Research"
+      url: "https://www.research.att.com/"
+    - name: "Maximilianeum München"
+      url: "http://www.maximilianeum.de/"
+    - name: "computer science"
+      url: "http://www.cs.tu-berlin.de/"
+    - name: "University of Technology Berlin"
+      url: "http://www.tu-berlin.de/"
+    - name: "Fraunhofer Gesellschaft"
+      url: "https://www.fraunhofer.de/"
+    - name: "Data61 CSIRO"
+      url: "https://data61.csiro.au/"
+    - name: "Yahoo! Research"
+      url: "http://research.yahoo.com/"
+    - name: "Google Research"
+      url: "https://research.google/"

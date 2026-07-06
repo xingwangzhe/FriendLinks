@@ -1,20 +1,20 @@
 site:
-  name: 'yequari.com'
-  url: 'https://yequari.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "yequari.com"
+  url: "https://yequari.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'ava’s blog'
-      url: 'http://blog.avas.space'
-    - name: 'null program'
-      url: 'https://nullprogram.com'
-    - name: 'Julia Evans'
-      url: 'https://jvns.ca/'
-    - name: 'Flamed Fury'
-      url: 'https://flamedfury.com'
-    - name: 'Drew DeVault''s blog'
-      url: 'https://drewdevault.com/'
-    - name: 'Andreas Kling'
-      url: 'https://awesomekling.github.io/'
-    - name: 'Nightfall City'
-      url: 'https://nightfall.city/'
+    - name: "ava’s blog"
+      url: "http://blog.avas.space"
+    - name: "null program"
+      url: "https://nullprogram.com"
+    - name: "Julia Evans"
+      url: "https://jvns.ca/"
+    - name: "Flamed Fury"
+      url: "https://flamedfury.com"
+    - name: "Drew DeVault's blog"
+      url: "https://drewdevault.com/"
+    - name: "Andreas Kling"
+      url: "https://awesomekling.github.io/"
+    - name: "Nightfall City"
+      url: "https://nightfall.city/"

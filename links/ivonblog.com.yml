@@ -1,36 +1,36 @@
 site:
-  name: 'Ivon的部落格'
-  url: 'https://ivonblog.com/'
-  description: '歡迎來到Ivon的部落格，這裡是分享GNU/Linux情報、自由開源軟體、電腦手機資訊、人文思辨的所在。在這裡你會看到許多自由軟體的實際操作心得，以及將其運用在'
-  links: '/links'
+  name: "Ivon的部落格"
+  url: "https://ivonblog.com/"
+  description: "歡迎來到Ivon的部落格，這裡是分享GNU/Linux情報、自由開源軟體、電腦手機資訊、人文思辨的所在。在這裡你會看到許多自由軟體的實際操作心得，以及將其運用在"
+  links: "/links"
   friends:
-    - name: 'Luke Smith'
-      url: 'https://lukesmith.xyz/'
-    - name: 'luoboQAQ'
-      url: 'https://lbqaq.top/'
-    - name: 'ManateeLazyCat'
-      url: 'https://manateelazycat.github.io/'
-    - name: 'Owen的博客'
-      url: 'https://www.owenyoung.com/'
-    - name: 'Pin 起來！'
-      url: 'https://pinchlime.com/'
-    - name: 'Plum's Blog'
-      url: 'https://plumz.me/'
-    - name: 'Wiwi 的貼文和筆記'
-      url: 'https://wiwi.blog/'
-    - name: '无名博客'
-      url: 'https://wuminboke.site/'
-    - name: '阿波尔的博客'
-      url: 'https://www.zaqizaba.xyz/'
-    - name: '初之音'
-      url: 'https://www.himiku.com/'
-    - name: '编程随想的博客'
-      url: 'https://program-think.blogspot.com/'
-    - name: '極客死亡計劃'
-      url: 'https://www.geedea.pro/'
-    - name: '阮一峰的个人网站'
-      url: 'https://www.ruanyifeng.com/'
-    - name: '電腦玩物'
-      url: 'https://www.playpcesor.com/'
-    - name: '鳥哥私房菜'
-      url: 'https://linux.vbird.org/'
+    - name: "Luke Smith"
+      url: "https://lukesmith.xyz/"
+    - name: "luoboQAQ"
+      url: "https://lbqaq.top/"
+    - name: "ManateeLazyCat"
+      url: "https://manateelazycat.github.io/"
+    - name: "Owen的博客"
+      url: "https://www.owenyoung.com/"
+    - name: "Pin 起來！"
+      url: "https://pinchlime.com/"
+    - name: "Plum's Blog"
+      url: "https://plumz.me/"
+    - name: "Wiwi 的貼文和筆記"
+      url: "https://wiwi.blog/"
+    - name: "无名博客"
+      url: "https://wuminboke.site/"
+    - name: "阿波尔的博客"
+      url: "https://www.zaqizaba.xyz/"
+    - name: "初之音"
+      url: "https://www.himiku.com/"
+    - name: "编程随想的博客"
+      url: "https://program-think.blogspot.com/"
+    - name: "極客死亡計劃"
+      url: "https://www.geedea.pro/"
+    - name: "阮一峰的个人网站"
+      url: "https://www.ruanyifeng.com/"
+    - name: "電腦玩物"
+      url: "https://www.playpcesor.com/"
+    - name: "鳥哥私房菜"
+      url: "https://linux.vbird.org/"

@@ -1,12 +1,12 @@
 site:
-  name: 'pcb.im'
-  url: 'https://pcb.im/'
-  description: '友情链接'
-  links: '/friends'
+  name: "pcb.im"
+  url: "https://pcb.im/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '二叉树树的博客 爱你所爱~ ❤'
-      url: 'https://2x.nz/'
-    - name: 'qwwshs 这是qwwshs的个人博客'
-      url: 'https://qwwshs.top/'
-    - name: 'Morlvoid 事已至此先睡觉吧'
-      url: 'https://www.morlvoid.pro/'
+    - name: "二叉树树的博客 爱你所爱~ ❤"
+      url: "https://2x.nz/"
+    - name: "qwwshs 这是qwwshs的个人博客"
+      url: "https://qwwshs.top/"
+    - name: "Morlvoid 事已至此先睡觉吧"
+      url: "https://www.morlvoid.pro/"

@@ -1,12 +1,12 @@
 site:
-  name: 'landhutu.cc'
-  url: 'https://landhutu.cc/'
-  description: '友情链接'
-  links: '/friends'
+  name: "landhutu.cc"
+  url: "https://landhutu.cc/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '方寻 人生便是寻他处'
-      url: 'https://finding.is-cool.dev'
-    - name: '张洪Heo 分享设计与科技生活'
-      url: 'https://blog.zhheo.com/'
-    - name: '超光速 我们的征途是星辰大海！'
-      url: 'https://www.ftls.xyz/'
+    - name: "方寻 人生便是寻他处"
+      url: "https://finding.is-cool.dev"
+    - name: "张洪Heo 分享设计与科技生活"
+      url: "https://blog.zhheo.com/"
+    - name: "超光速 我们的征途是星辰大海！"
+      url: "https://www.ftls.xyz/"

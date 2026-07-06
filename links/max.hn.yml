@@ -1,22 +1,22 @@
 site:
-  name: 'max.hn'
-  url: 'https://max.hn/'
-  description: '友情链接'
-  links: '/'
+  name: "max.hn"
+  url: "https://max.hn/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'konsens'
-      url: 'https://konsens.it/'
-    - name: 'Mein Grundeinkommen'
-      url: 'https://www.mein-grundeinkommen.de/'
-    - name: 'diesdas.digital'
-      url: 'https://www.diesdas.digital/'
-    - name: 'Improbable'
-      url: 'https://improbable.io/'
-    - name: 'Edenspiekermann'
-      url: 'https://www.edenspiekermann.com/'
-    - name: 'agencies'
-      url: 'https://www.die-wegmeister.com'
-    - name: 'companies'
-      url: 'https://www.tower5.de'
-    - name: 'spread important findings from cognitive science'
-      url: 'https://www.progressive-perspektive.org'
+    - name: "konsens"
+      url: "https://konsens.it/"
+    - name: "Mein Grundeinkommen"
+      url: "https://www.mein-grundeinkommen.de/"
+    - name: "diesdas.digital"
+      url: "https://www.diesdas.digital/"
+    - name: "Improbable"
+      url: "https://improbable.io/"
+    - name: "Edenspiekermann"
+      url: "https://www.edenspiekermann.com/"
+    - name: "agencies"
+      url: "https://www.die-wegmeister.com"
+    - name: "companies"
+      url: "https://www.tower5.de"
+    - name: "spread important findings from cognitive science"
+      url: "https://www.progressive-perspektive.org"

@@ -1,16 +1,16 @@
 site:
-  name: 'blog.oldwang.site'
-  url: 'https://blog.oldwang.site/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.oldwang.site"
+  url: "https://blog.oldwang.site/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '崔亮的博客'
-      url: 'https://www.cuiliangblog.cn'
-    - name: '运维小弟'
-      url: 'https://blog.srebro.cn'
-    - name: '杨杨得亿'
-      url: 'https://yydy.link:2023'
-    - name: 'SRE 运维博客'
-      url: 'https://www.cnsre.cn'
-    - name: 'Jackie''s Blog'
-      url: 'https://jackie.openenet.cn'
+    - name: "崔亮的博客"
+      url: "https://www.cuiliangblog.cn"
+    - name: "运维小弟"
+      url: "https://blog.srebro.cn"
+    - name: "杨杨得亿"
+      url: "https://yydy.link:2023"
+    - name: "SRE 运维博客"
+      url: "https://www.cnsre.cn"
+    - name: "Jackie's Blog"
+      url: "https://jackie.openenet.cn"

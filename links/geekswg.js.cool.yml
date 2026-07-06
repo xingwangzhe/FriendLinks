@@ -1,20 +1,20 @@
 site:
-  name: 'geekswg.js.cool'
-  description: '友情链接'
-  url: 'https://geekswg.js.cool/'
-  links: '/friends'
+  name: "geekswg.js.cool"
+  description: "友情链接"
+  url: "https://geekswg.js.cool/"
+  links: "/friends"
   friends:
-    - name: '影视'
-      url: 'https://libretv.geekswg.dpdns.org/'
-    - name: 'Blog-342901.xyz'
-      url: 'https://blog.342901.xyz'
-    - name: 'Blog-Astro-Mizuki'
-      url: 'https://astro.342901.xyz/'
-    - name: 'Blog-Hexo-Anzhiyu'
-      url: 'https://hexo.geekswg.dpdns.org'
-    - name: '@Lruihao'
-      url: 'https://lruihao.cn'
-    - name: '@张洪 Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: '@雨临 Lewis'
-      url: 'https://lewky.cn'
+    - name: "影视"
+      url: "https://libretv.geekswg.dpdns.org/"
+    - name: "Blog-342901.xyz"
+      url: "https://blog.342901.xyz"
+    - name: "Blog-Astro-Mizuki"
+      url: "https://astro.342901.xyz/"
+    - name: "Blog-Hexo-Anzhiyu"
+      url: "https://hexo.geekswg.dpdns.org"
+    - name: "@Lruihao"
+      url: "https://lruihao.cn"
+    - name: "@张洪 Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "@雨临 Lewis"
+      url: "https://lewky.cn"

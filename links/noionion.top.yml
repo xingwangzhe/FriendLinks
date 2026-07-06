@@ -1,180 +1,180 @@
 site:
-  name: '贰猹'
-  description: '一只热爱前端的咸鱼'
-  url: 'https://noionion.top/'
-  links: '/link'
+  name: "贰猹"
+  description: "一只热爱前端的咸鱼"
+  url: "https://noionion.top/"
+  links: "/link"
   friends:
-    - name: '【冰】小冰博客'
-      url: 'https://zfe.space/'
-    - name: '【糖】Akilarの糖果屋'
-      url: 'https://akilar.top/'
-    - name: '【红】Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: '【闰土】陈YF'
-      url: 'https://blog.cyfan.top/'
-    - name: 'GamerNoTitle'
-      url: 'https://bili33.top/'
-    - name: 'uncleacc'
-      url: 'https://www.fezhu.top/'
-    - name: '火喵酱'
-      url: 'https://cat.dorcandy.cn/'
-    - name: 'Android'
-      url: 'https://android99.me/'
-    - name: '小嘉的部落格'
-      url: 'https://blog.imzjw.cn/'
-    - name: 'CC的部落格'
-      url: 'https://blog.ccknbc.cc/'
-    - name: 'Lete乐特'
-      url: 'https://www.lete114.top/'
-    - name: 'dummerfu'
-      url: 'https://dummerfu.top/'
-    - name: '小康博客'
-      url: 'https://www.antmoe.com/'
-    - name: '随性のBlog'
-      url: 'https://hanxea.gitee.io/'
-    - name: '小N博客'
-      url: 'https://www.nesxc.com/'
-    - name: '流恋のBlog'
-      url: 'https://yuanyuanzi.gitee.io/'
-    - name: 'CtrlCV博客'
-      url: 'https://www.hack-er.cn/'
-    - name: 'Mx'
-      url: 'https://www.wwru.cn/'
-    - name: '未央の童话镇'
-      url: 'https://forever97.top/'
-    - name: 'JeckXu'
-      url: 'https://jeckxu.cn/'
-    - name: 'YFun''s Note'
-      url: 'https://blog.yfun.top/'
-    - name: '绒布球'
-      url: 'https://rongbuqiu.com/'
-    - name: 'Skyil'
-      url: 'https://blog.skyil.cn/'
-    - name: '萌茶屋'
-      url: 'https://cha.moe/'
-    - name: '时过境迁Wayne博客'
-      url: 'https://wr0926.ml/'
-    - name: '天昕'
-      url: 'https://sutianxin.top/'
-    - name: 'Revincx'
-      url: 'https://blog.revincx.icu/'
-    - name: '猫のレインボー島'
-      url: 'https://annko.cn/'
-    - name: 'WangFly''s Blog'
-      url: 'http://www.hui-blog.cool/'
-    - name: '陈鑫磊的博客'
-      url: 'https://www.cxl2020mc.top/'
-    - name: '羿潇贤鱼の窝'
-      url: 'https://blog.raxianch.moe/'
-    - name: 'Sun Boy''s Blog'
-      url: 'https://sunboy.ltd/'
-    - name: 'Van_Nya'
-      url: 'https://ruavan.one/'
-    - name: 'XJHui''s Blog'
-      url: 'https://plushine.cn/'
-    - name: 'HopeBlog'
-      url: 'https://ranas.cn/'
-    - name: '青葱雅亭'
-      url: 'https://www.itciraos.cn/'
-    - name: 'Xujiayao''s Blog'
-      url: 'https://blog.xujiayao.top/'
-    - name: '和泉聆风'
-      url: 'https://www.limewtea.com/'
-    - name: 'Jason の小窝'
-      url: 'https://fictory.cn/'
-    - name: 'Lytian'
-      url: 'https://www.lytian.xyz/'
-    - name: '安冉岛'
-      url: 'https://ardao.cn/'
-    - name: 'XIAOMING''S BLOG'
-      url: 'https://le360.cc/'
-    - name: 'Haobo''s Blog'
-      url: 'https://discover304.top/'
-    - name: 'CC''s Zone'
-      url: 'https://ccs.zone/'
-    - name: '猿来是你'
-      url: 'https://xingchuangyang.gitee.io/'
-    - name: 'Xin''s Blog'
-      url: 'https://blog.xinmouren.cn/'
-    - name: 'slowsail''space'
-      url: 'https://slowsail.top/'
-    - name: 'Patrick''s Blog'
-      url: 'https://zhang_shaolong.gitee.io/'
-    - name: 'kaiboshi'
-      url: 'https://kaiboshi.gitee.io/'
-    - name: 'Black Flies'
-      url: 'https://www.yyyzyyyz.cn/'
-    - name: 'Gahotx'
-      url: 'https://gahotx.cn/'
-    - name: 'LISIR'
-      url: 'https://lisir.me/'
-    - name: 'HuRan Blog'
-      url: 'https://blog.huran.xyz/'
-    - name: '星空下的YZY'
-      url: 'https://226yzy.com/'
-    - name: 'Sam''s blog'
-      url: 'https://samissa.top/'
-    - name: '如此肤浅'
-      url: 'https://zengyq.cn/'
-    - name: '木木木木木'
-      url: 'https://immmmm.com/'
-    - name: 'MQ''s Blog'
-      url: 'https://blog.mqawa.cn/'
-    - name: '小破团网'
-      url: 'https://www.odirect.cn/'
-    - name: 'DoraKika'
-      url: 'https://dorakika.cn/'
-    - name: 'Lucifer 三思而后行'
-      url: 'http://luciferlpc.top/'
-    - name: 'wallleap'
-      url: 'https://myblog.wallleap.cn/'
-    - name: '山岳库博'
-      url: 'https://kmar.top/'
-    - name: 'Gallifrey''Blog'
-      url: 'https://gallifrey.asia/'
-    - name: 'HalfA博客'
-      url: 'https://www.mahaofei.com/'
-    - name: 'Tianli'
-      url: 'https://tianli-blog.club/'
-    - name: '白雾茫茫丶'
-      url: 'https://blog.xmwpro.com/'
-    - name: 'Eacls'
-      url: 'https://www.eacls.top/'
-    - name: 'Yuexin''s Blog'
-      url: 'https://wyxogo.top/'
-    - name: 'Felix_Chen的基地'
-      url: 'https://www.felixchen0707.cn/'
-    - name: 'lijyya'
-      url: 'http://lijyya.site/'
-    - name: 'czj'
-      url: 'https://www.innoinf.com/'
-    - name: '棃星落月'
-      url: 'https://btmuli.top/'
-    - name: '少年游'
-      url: 'https://siuze.top/'
-    - name: 'Ekennis'
-      url: 'http://noobzyk.top/'
-    - name: '愚人而已'
-      url: 'https://afool.top/'
-    - name: 'B1ue1nWh1te'
-      url: 'https://www.seaeye.cn/'
-    - name: 'Xayah'
-      url: 'https://acmezone.top/'
-    - name: 'SkyWT'
-      url: 'https://skywt.cn/'
-    - name: '滚圆的小橘子的博客'
-      url: 'https://roundedorange.top/'
-    - name: 'Mufanc'
-      url: 'https://blog.mufanc.xyz/'
-    - name: 'cyp0633''s blog'
-      url: 'https://cyp0633.icu/'
-    - name: 'iLoner'
-      url: 'https://iloner121.com/'
-    - name: '文万声'
-      url: 'https://wenwansheng.cn/'
-    - name: '泰戈尔のBlog'
-      url: 'https://www.iftiger.com/'
-    - name: 'Yremp'
-      url: 'https://yremp.live/'
-    - name: '杜老师说'
-      url: 'https://dusays.com/'
+    - name: "【冰】小冰博客"
+      url: "https://zfe.space/"
+    - name: "【糖】Akilarの糖果屋"
+      url: "https://akilar.top/"
+    - name: "【红】Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "【闰土】陈YF"
+      url: "https://blog.cyfan.top/"
+    - name: "GamerNoTitle"
+      url: "https://bili33.top/"
+    - name: "uncleacc"
+      url: "https://www.fezhu.top/"
+    - name: "火喵酱"
+      url: "https://cat.dorcandy.cn/"
+    - name: "Android"
+      url: "https://android99.me/"
+    - name: "小嘉的部落格"
+      url: "https://blog.imzjw.cn/"
+    - name: "CC的部落格"
+      url: "https://blog.ccknbc.cc/"
+    - name: "Lete乐特"
+      url: "https://www.lete114.top/"
+    - name: "dummerfu"
+      url: "https://dummerfu.top/"
+    - name: "小康博客"
+      url: "https://www.antmoe.com/"
+    - name: "随性のBlog"
+      url: "https://hanxea.gitee.io/"
+    - name: "小N博客"
+      url: "https://www.nesxc.com/"
+    - name: "流恋のBlog"
+      url: "https://yuanyuanzi.gitee.io/"
+    - name: "CtrlCV博客"
+      url: "https://www.hack-er.cn/"
+    - name: "Mx"
+      url: "https://www.wwru.cn/"
+    - name: "未央の童话镇"
+      url: "https://forever97.top/"
+    - name: "JeckXu"
+      url: "https://jeckxu.cn/"
+    - name: "YFun's Note"
+      url: "https://blog.yfun.top/"
+    - name: "绒布球"
+      url: "https://rongbuqiu.com/"
+    - name: "Skyil"
+      url: "https://blog.skyil.cn/"
+    - name: "萌茶屋"
+      url: "https://cha.moe/"
+    - name: "时过境迁Wayne博客"
+      url: "https://wr0926.ml/"
+    - name: "天昕"
+      url: "https://sutianxin.top/"
+    - name: "Revincx"
+      url: "https://blog.revincx.icu/"
+    - name: "猫のレインボー島"
+      url: "https://annko.cn/"
+    - name: "WangFly's Blog"
+      url: "http://www.hui-blog.cool/"
+    - name: "陈鑫磊的博客"
+      url: "https://www.cxl2020mc.top/"
+    - name: "羿潇贤鱼の窝"
+      url: "https://blog.raxianch.moe/"
+    - name: "Sun Boy's Blog"
+      url: "https://sunboy.ltd/"
+    - name: "Van_Nya"
+      url: "https://ruavan.one/"
+    - name: "XJHui's Blog"
+      url: "https://plushine.cn/"
+    - name: "HopeBlog"
+      url: "https://ranas.cn/"
+    - name: "青葱雅亭"
+      url: "https://www.itciraos.cn/"
+    - name: "Xujiayao's Blog"
+      url: "https://blog.xujiayao.top/"
+    - name: "和泉聆风"
+      url: "https://www.limewtea.com/"
+    - name: "Jason の小窝"
+      url: "https://fictory.cn/"
+    - name: "Lytian"
+      url: "https://www.lytian.xyz/"
+    - name: "安冉岛"
+      url: "https://ardao.cn/"
+    - name: "XIAOMING'S BLOG"
+      url: "https://le360.cc/"
+    - name: "Haobo's Blog"
+      url: "https://discover304.top/"
+    - name: "CC's Zone"
+      url: "https://ccs.zone/"
+    - name: "猿来是你"
+      url: "https://xingchuangyang.gitee.io/"
+    - name: "Xin's Blog"
+      url: "https://blog.xinmouren.cn/"
+    - name: "slowsail'space"
+      url: "https://slowsail.top/"
+    - name: "Patrick's Blog"
+      url: "https://zhang_shaolong.gitee.io/"
+    - name: "kaiboshi"
+      url: "https://kaiboshi.gitee.io/"
+    - name: "Black Flies"
+      url: "https://www.yyyzyyyz.cn/"
+    - name: "Gahotx"
+      url: "https://gahotx.cn/"
+    - name: "LISIR"
+      url: "https://lisir.me/"
+    - name: "HuRan Blog"
+      url: "https://blog.huran.xyz/"
+    - name: "星空下的YZY"
+      url: "https://226yzy.com/"
+    - name: "Sam's blog"
+      url: "https://samissa.top/"
+    - name: "如此肤浅"
+      url: "https://zengyq.cn/"
+    - name: "木木木木木"
+      url: "https://immmmm.com/"
+    - name: "MQ's Blog"
+      url: "https://blog.mqawa.cn/"
+    - name: "小破团网"
+      url: "https://www.odirect.cn/"
+    - name: "DoraKika"
+      url: "https://dorakika.cn/"
+    - name: "Lucifer 三思而后行"
+      url: "http://luciferlpc.top/"
+    - name: "wallleap"
+      url: "https://myblog.wallleap.cn/"
+    - name: "山岳库博"
+      url: "https://kmar.top/"
+    - name: "Gallifrey'Blog"
+      url: "https://gallifrey.asia/"
+    - name: "HalfA博客"
+      url: "https://www.mahaofei.com/"
+    - name: "Tianli"
+      url: "https://tianli-blog.club/"
+    - name: "白雾茫茫丶"
+      url: "https://blog.xmwpro.com/"
+    - name: "Eacls"
+      url: "https://www.eacls.top/"
+    - name: "Yuexin's Blog"
+      url: "https://wyxogo.top/"
+    - name: "Felix_Chen的基地"
+      url: "https://www.felixchen0707.cn/"
+    - name: "lijyya"
+      url: "http://lijyya.site/"
+    - name: "czj"
+      url: "https://www.innoinf.com/"
+    - name: "棃星落月"
+      url: "https://btmuli.top/"
+    - name: "少年游"
+      url: "https://siuze.top/"
+    - name: "Ekennis"
+      url: "http://noobzyk.top/"
+    - name: "愚人而已"
+      url: "https://afool.top/"
+    - name: "B1ue1nWh1te"
+      url: "https://www.seaeye.cn/"
+    - name: "Xayah"
+      url: "https://acmezone.top/"
+    - name: "SkyWT"
+      url: "https://skywt.cn/"
+    - name: "滚圆的小橘子的博客"
+      url: "https://roundedorange.top/"
+    - name: "Mufanc"
+      url: "https://blog.mufanc.xyz/"
+    - name: "cyp0633's blog"
+      url: "https://cyp0633.icu/"
+    - name: "iLoner"
+      url: "https://iloner121.com/"
+    - name: "文万声"
+      url: "https://wenwansheng.cn/"
+    - name: "泰戈尔のBlog"
+      url: "https://www.iftiger.com/"
+    - name: "Yremp"
+      url: "https://yremp.live/"
+    - name: "杜老师说"
+      url: "https://dusays.com/"

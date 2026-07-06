@@ -1,134 +1,134 @@
 site:
-  name: 'frytea.com'
-  url: 'https://frytea.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "frytea.com"
+  url: "https://frytea.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Noisky一个神秘的人'
-      url: 'https://www.noisky.cn/'
-    - name: '辣椒の酱一个神秘的人'
-      url: 'https://removeif.github.io'
-    - name: 'Rat''s Blog一个神秘的人'
-      url: 'https://www.moerats.com/'
-    - name: 'LOGI一个神秘的人'
-      url: 'https://logi.im'
-    - name: 'P3TERX ZONE一个神秘的人'
-      url: 'https://p3terx.com'
-    - name: 'Hong''s Blog一个神秘的人'
-      url: 'https://blog.mehoon.com'
-    - name: 'iMaeGoo''s Blog一个神秘的人'
-      url: 'https://www.imaegoo.com'
-    - name: 'YOYLING一个神秘的人'
-      url: 'https://yoyling.com'
-    - name: 'Kitcham 的归墟一个神秘的人'
-      url: 'https://blog.uiharu.top/'
-    - name: '乙未博客一个神秘的人'
-      url: 'https://yvii.cn'
-    - name: '摩尔の镇 | モル·町一个神秘的人'
-      url: 'https://www.mole9630.top'
-    - name: 'BORBER一个神秘的人'
-      url: 'https://borber.vercel.app'
-    - name: '静かな森A NodeJS Full Stack Developer. An independent developer coding with love.'
-      url: 'https://innei.in/'
-    - name: 'Colsrch一个神秘的人'
-      url: 'https://colsrch.cn'
-    - name: '两双筷子一个神秘的人'
-      url: 'https://www.dbkuaizi.com'
-    - name: '晨鹤小站一个神秘的人'
-      url: 'https://chenhe.me'
-    - name: '马春杰杰博客一个神秘的人'
-      url: 'https://www.machunjie.com'
-    - name: '细语呢喃一个神秘的人'
-      url: 'https://www.hrwhisper.me/'
-    - name: 'Verne一个神秘的人'
-      url: 'https://blog.einverne.info'
-    - name: '友webfem做有价值的博客'
-      url: 'https://webfem.com'
-    - name: '友左手平凡程序猿、垃圾佬的个人博客。'
-      url: 'https://blog.perass.com/'
-    - name: '栖息地他强任他强，清风拂山岗。'
-      url: 'https://qixidi.top/'
-    - name: 'Dejavu''s Blog请用绝对的理智和清醒的头脑克制心中的爱与难过'
-      url: 'https://blog.dejavu.moe/'
-    - name: '友叶子的花园靡不有初，鲜克有终'
-      url: 'https://mskclover.com'
-    - name: '友我不是咕咕鸽一个神秘的人'
-      url: 'https://blog.laoda.de'
-    - name: '老猫博客一个神秘的人'
-      url: 'https://blog.lyh130.com/'
-    - name: 'Sulv''s Blog一个神秘的人'
-      url: 'https://www.sulvblog.cn'
-    - name: 'wshunli''s Blog一个神秘的人'
-      url: 'https://www.wshunli.com'
-    - name: '胡萝虎的博客一个神秘的人'
-      url: 'https://www.huluohu.com'
-    - name: 'Xhofe''s Blog一个神秘的人'
-      url: 'https://www.nn.ci'
-    - name: '之石先生的小屋一个神秘的人'
-      url: 'http://www.brewin073.top'
-    - name: '猕猴の那年记忆一个神秘的人'
-      url: 'https://www.kiwiape.cn'
-    - name: '康雨豪一个神秘的人'
-      url: 'http://www.kkyyhh96.site'
-    - name: '相位一个神秘的人'
-      url: 'https://shenyiming.life'
-    - name: '友k7tmizk7tmiz 的个人网站/博客/作品集。一名文科生，很早就接触 Linux'
-      url: 'https://k7tmiz.com/'
-    - name: '友全能计算器一个神秘的人'
-      url: 'https://calc9.com/'
-    - name: '友PlayUnb 畅玩无限一个神秘的人'
-      url: 'https://playunb.com/'
-    - name: '友Jiekun''s Blog一个神秘的人'
-      url: 'https://jiekun.dev'
-    - name: '友前端小武的博客一个神秘的人'
-      url: 'https://xuexb.com'
-    - name: '友merrier 说一个神秘的人'
-      url: 'https://merrier.wang/'
-    - name: '友三言三语一个神秘的人'
-      url: 'https://best33.com/'
-    - name: 'Harttle Land一个神秘的人'
-      url: 'https://harttle.land/'
-    - name: '友Today AI Weather一个神秘的人'
-      url: 'https://todayaiweather.com/'
-    - name: '友Kyrylo SilinSoftware engineer, web developer, and budding entrepreneur. From Kh'
-      url: 'https://kyrylo.org/'
-    - name: '友Pleiades我们谈论生活，讨论技术，借由文字，抵达心灵。'
-      url: 'https://xyzttt.xyz/'
-    - name: '友Mocha''s Blog一个神秘的人'
-      url: 'https://blog.shabby.in'
-    - name: '友印记一个神秘的人'
-      url: 'https://yinji.org/'
-    - name: '友Cp Zhao一个神秘的人'
-      url: 'https://chengpengzhao.com/'
-    - name: '友木木木木木一个神秘的人'
-      url: 'https://immmmm.com/'
-    - name: '友lololoWe一个神秘的人'
-      url: 'https://www.lololowe.com/'
-    - name: '友指月小筑(探索云原生)一个神秘的人'
-      url: 'https://www.lixueduan.com/'
-    - name: '友公益 GPT一个神秘的人'
-      url: 'https://cgs.skybyte.me'
-    - name: '友myfreaxmyfreax 是一个 linux 爱好者和全栈开发者博客，发布 linux、kotlin、golang、javascript、typescri'
-      url: 'https://www.myfreax.com/'
-    - name: '友Lework一个神秘的人'
-      url: 'https://lework.github.io/'
-    - name: '友Dolingou一个神秘的人'
-      url: 'https://www.dolingou.com/'
-    - name: '友阿小信的博客人言成信 言兑才说'
-      url: 'https://blog.axiaoxin.com/'
-    - name: '友Reimu''s blog一个神秘的人'
-      url: 'https://blog.k8s.li/'
-    - name: '友迟博勋来自迟博勋博客一个神秘的人'
-      url: 'https://www.chiboxun.com/'
-    - name: '友Escape一个神秘的人'
-      url: 'https://www.escapelife.site/'
-    - name: '友Alan''s Blog一个神秘的人'
-      url: 'https://toalan.com/'
-    - name: '友从 01 开始一个神秘的人'
-      url: 'https://www.peterjxl.com/'
-    - name: '友网友小宋一介草民，只为生活！'
-      url: 'https://xyzbz.cn'
-    - name: '友SilverRainZ一个神秘的人'
-      url: 'https://silverrainz.me/'
-    - name: '友程序员刘虎刘虎，一般人称老虎，半路出家的挨踢行业从业人员。又是一个 97 年开始的博客。'
-      url: 'https://www.liuhu.net/'
+    - name: "Noisky一个神秘的人"
+      url: "https://www.noisky.cn/"
+    - name: "辣椒の酱一个神秘的人"
+      url: "https://removeif.github.io"
+    - name: "Rat's Blog一个神秘的人"
+      url: "https://www.moerats.com/"
+    - name: "LOGI一个神秘的人"
+      url: "https://logi.im"
+    - name: "P3TERX ZONE一个神秘的人"
+      url: "https://p3terx.com"
+    - name: "Hong's Blog一个神秘的人"
+      url: "https://blog.mehoon.com"
+    - name: "iMaeGoo's Blog一个神秘的人"
+      url: "https://www.imaegoo.com"
+    - name: "YOYLING一个神秘的人"
+      url: "https://yoyling.com"
+    - name: "Kitcham 的归墟一个神秘的人"
+      url: "https://blog.uiharu.top/"
+    - name: "乙未博客一个神秘的人"
+      url: "https://yvii.cn"
+    - name: "摩尔の镇 | モル·町一个神秘的人"
+      url: "https://www.mole9630.top"
+    - name: "BORBER一个神秘的人"
+      url: "https://borber.vercel.app"
+    - name: "静かな森A NodeJS Full Stack Developer. An independent developer coding with love."
+      url: "https://innei.in/"
+    - name: "Colsrch一个神秘的人"
+      url: "https://colsrch.cn"
+    - name: "两双筷子一个神秘的人"
+      url: "https://www.dbkuaizi.com"
+    - name: "晨鹤小站一个神秘的人"
+      url: "https://chenhe.me"
+    - name: "马春杰杰博客一个神秘的人"
+      url: "https://www.machunjie.com"
+    - name: "细语呢喃一个神秘的人"
+      url: "https://www.hrwhisper.me/"
+    - name: "Verne一个神秘的人"
+      url: "https://blog.einverne.info"
+    - name: "友webfem做有价值的博客"
+      url: "https://webfem.com"
+    - name: "友左手平凡程序猿、垃圾佬的个人博客。"
+      url: "https://blog.perass.com/"
+    - name: "栖息地他强任他强，清风拂山岗。"
+      url: "https://qixidi.top/"
+    - name: "Dejavu's Blog请用绝对的理智和清醒的头脑克制心中的爱与难过"
+      url: "https://blog.dejavu.moe/"
+    - name: "友叶子的花园靡不有初，鲜克有终"
+      url: "https://mskclover.com"
+    - name: "友我不是咕咕鸽一个神秘的人"
+      url: "https://blog.laoda.de"
+    - name: "老猫博客一个神秘的人"
+      url: "https://blog.lyh130.com/"
+    - name: "Sulv's Blog一个神秘的人"
+      url: "https://www.sulvblog.cn"
+    - name: "wshunli's Blog一个神秘的人"
+      url: "https://www.wshunli.com"
+    - name: "胡萝虎的博客一个神秘的人"
+      url: "https://www.huluohu.com"
+    - name: "Xhofe's Blog一个神秘的人"
+      url: "https://www.nn.ci"
+    - name: "之石先生的小屋一个神秘的人"
+      url: "http://www.brewin073.top"
+    - name: "猕猴の那年记忆一个神秘的人"
+      url: "https://www.kiwiape.cn"
+    - name: "康雨豪一个神秘的人"
+      url: "http://www.kkyyhh96.site"
+    - name: "相位一个神秘的人"
+      url: "https://shenyiming.life"
+    - name: "友k7tmizk7tmiz 的个人网站/博客/作品集。一名文科生，很早就接触 Linux"
+      url: "https://k7tmiz.com/"
+    - name: "友全能计算器一个神秘的人"
+      url: "https://calc9.com/"
+    - name: "友PlayUnb 畅玩无限一个神秘的人"
+      url: "https://playunb.com/"
+    - name: "友Jiekun's Blog一个神秘的人"
+      url: "https://jiekun.dev"
+    - name: "友前端小武的博客一个神秘的人"
+      url: "https://xuexb.com"
+    - name: "友merrier 说一个神秘的人"
+      url: "https://merrier.wang/"
+    - name: "友三言三语一个神秘的人"
+      url: "https://best33.com/"
+    - name: "Harttle Land一个神秘的人"
+      url: "https://harttle.land/"
+    - name: "友Today AI Weather一个神秘的人"
+      url: "https://todayaiweather.com/"
+    - name: "友Kyrylo SilinSoftware engineer, web developer, and budding entrepreneur. From Kh"
+      url: "https://kyrylo.org/"
+    - name: "友Pleiades我们谈论生活，讨论技术，借由文字，抵达心灵。"
+      url: "https://xyzttt.xyz/"
+    - name: "友Mocha's Blog一个神秘的人"
+      url: "https://blog.shabby.in"
+    - name: "友印记一个神秘的人"
+      url: "https://yinji.org/"
+    - name: "友Cp Zhao一个神秘的人"
+      url: "https://chengpengzhao.com/"
+    - name: "友木木木木木一个神秘的人"
+      url: "https://immmmm.com/"
+    - name: "友lololoWe一个神秘的人"
+      url: "https://www.lololowe.com/"
+    - name: "友指月小筑(探索云原生)一个神秘的人"
+      url: "https://www.lixueduan.com/"
+    - name: "友公益 GPT一个神秘的人"
+      url: "https://cgs.skybyte.me"
+    - name: "友myfreaxmyfreax 是一个 linux 爱好者和全栈开发者博客，发布 linux、kotlin、golang、javascript、typescri"
+      url: "https://www.myfreax.com/"
+    - name: "友Lework一个神秘的人"
+      url: "https://lework.github.io/"
+    - name: "友Dolingou一个神秘的人"
+      url: "https://www.dolingou.com/"
+    - name: "友阿小信的博客人言成信 言兑才说"
+      url: "https://blog.axiaoxin.com/"
+    - name: "友Reimu's blog一个神秘的人"
+      url: "https://blog.k8s.li/"
+    - name: "友迟博勋来自迟博勋博客一个神秘的人"
+      url: "https://www.chiboxun.com/"
+    - name: "友Escape一个神秘的人"
+      url: "https://www.escapelife.site/"
+    - name: "友Alan's Blog一个神秘的人"
+      url: "https://toalan.com/"
+    - name: "友从 01 开始一个神秘的人"
+      url: "https://www.peterjxl.com/"
+    - name: "友网友小宋一介草民，只为生活！"
+      url: "https://xyzbz.cn"
+    - name: "友SilverRainZ一个神秘的人"
+      url: "https://silverrainz.me/"
+    - name: "友程序员刘虎刘虎，一般人称老虎，半路出家的挨踢行业从业人员。又是一个 97 年开始的博客。"
+      url: "https://www.liuhu.net/"

@@ -101,11 +101,11 @@ export function init3d(graphData: GraphData) {
     const base = n.color || PALETTE[hashToIndex(n.id)];
     return Object.assign({}, n, {
       palColor: base,
-      _cDefault: base,                          // 本色，最高饱和度
-      _cHover: adjustHex(base, 15),             // 略亮
-      _cFocus: adjustHex(base, 30),             // 更亮
-      _cHighlight: adjustHex(base, 20),         // 中等亮
-      _cDimmed: adjustHex(base, -20),           // 变暗
+      _cDefault: base, // 本色，最高饱和度
+      _cHover: adjustHex(base, 15), // 略亮
+      _cFocus: adjustHex(base, 30), // 更亮
+      _cHighlight: adjustHex(base, 20), // 中等亮
+      _cDimmed: adjustHex(base, -20), // 变暗
     });
   });
 
@@ -151,7 +151,9 @@ export function init3d(graphData: GraphData) {
     return fallback;
   }
   function saveVal(key: string, val: unknown) {
-    try { localStorage.setItem(STORAGE_PREFIX + key, JSON.stringify(val)); } catch {}
+    try {
+      localStorage.setItem(STORAGE_PREFIX + key, JSON.stringify(val));
+    } catch {}
   }
 
   const linkOpacity = { value: loadVal("link_opacity", 0) };
@@ -268,7 +270,7 @@ export function init3d(graphData: GraphData) {
       sprite.material.dispose();
       labelGroup.remove(sprite);
     }
-	  }
+  }
 
   // ── 9. 控制面板 ──
   let MOVE_SPEED = 15;
@@ -504,13 +506,9 @@ export function init3d(graphData: GraphData) {
   ) {
     body.innerHTML = "";
     const filtered = query
-      ? entries.filter(
-          (e) => e.name.toLowerCase().includes(query) || e.url.toLowerCase().includes(query),
-        )
+      ? entries.filter((e) => e.name.toLowerCase().includes(query) || e.url.toLowerCase().includes(query))
       : entries;
-    countEl.textContent = query
-      ? `${filtered.length} / ${entries.length}`
-      : `${entries.length} 个邻居`;
+    countEl.textContent = query ? `${filtered.length} / ${entries.length}` : `${entries.length} 个邻居`;
     if (filtered.length === 0) {
       const empty = document.createElement("div");
       empty.className = "np-empty";
@@ -689,10 +687,14 @@ export function init3d(graphData: GraphData) {
       let cx: number, cy: number, cz: number;
       if (ei != null && ei < ctx.edgeRefs.length) {
         const ref = ctx.edgeRefs[ei];
-        cx = ref.cx; cy = ref.cy; cz = ref.cz;
+        cx = ref.cx;
+        cy = ref.cy;
+        cz = ref.cz;
       } else {
         // 回退：用中点作为控制点（直线）
-        cx = (a.x + b.x) / 2; cy = (a.y! + b.y!) / 2; cz = (a.z! + b.z!) / 2;
+        cx = (a.x + b.x) / 2;
+        cy = (a.y! + b.y!) / 2;
+        cz = (a.z! + b.z!) / 2;
       }
       // 沿贝塞尔曲线创建分段圆柱
       for (let j = 0; j < EDGE_SEGMENTS; j++) {
@@ -868,7 +870,7 @@ export function init3d(graphData: GraphData) {
     }
   }
 
-	  let _lastTime = performance.now();
+  let _lastTime = performance.now();
   let _needsRender = true;
   let _idleFrames = 0;
 
@@ -949,7 +951,7 @@ export function init3d(graphData: GraphData) {
         const aspect = curScale.y > 0 ? curScale.x / curScale.y : 1;
         sprite.scale.set(worldH * aspect, worldH, 1);
       }
-	    }
+    }
 
     // 飞船模式 / OrbitControls
     if (isFlyMode) {
@@ -962,7 +964,7 @@ export function init3d(graphData: GraphData) {
       } else {
         flyExitRoll = 0;
       }
-	    }
+    }
 
     // 粒子 CPU 更新（轻量，每帧都跑）
     updateParticles(ctx, delta);
@@ -970,8 +972,7 @@ export function init3d(graphData: GraphData) {
     _needsRender = true;
 
     // ── 空闲计数（每帧 +1，用户交互重置）──
-	    _idleFrames++;
-
+    _idleFrames++;
 
     // ── 渲染节流 ──
     // 空闲时逐步降低渲染帧率，减少 GPU 负担（尤其是 Bloom 后处理）
@@ -980,12 +981,8 @@ export function init3d(graphData: GraphData) {
       ctx.composer.render();
     } else {
       // 空闲逐渐降帧：<1s 60fps, 1-3s 30fps, 3-10s 15fps, >10s 8fps
-      const throttleStep =
-        _idleFrames < 60 ? 0 :
-        _idleFrames < 180 ? 1 :
-        _idleFrames < 600 ? 3 :
-        6;
-      if (throttleStep === 0 || (_idleFrames % (throttleStep + 1)) === 0) {
+      const throttleStep = _idleFrames < 60 ? 0 : _idleFrames < 180 ? 1 : _idleFrames < 600 ? 3 : 6;
+      if (throttleStep === 0 || _idleFrames % (throttleStep + 1) === 0) {
         ctx.composer.render();
       }
     }
@@ -1391,9 +1388,9 @@ export function init3d(graphData: GraphData) {
     if (flyKeys.r) cam.translateY(speed);
     if (flyKeys.f) cam.translateY(-speed);
     // Q/E 横滚：带加速和阻尼的平滑过渡
-    const ROLL_ACCEL = 0.008;   // 每帧角加速度
-    const ROLL_DAMPING = 0.88;  // 松手后衰减系数
-    const MAX_ROLL = 0.06;      // 最大横滚角速度 (rad/frame)
+    const ROLL_ACCEL = 0.008; // 每帧角加速度
+    const ROLL_DAMPING = 0.88; // 松手后衰减系数
+    const MAX_ROLL = 0.06; // 最大横滚角速度 (rad/frame)
     if (flyKeys.q) rollVelocity += ROLL_ACCEL;
     if (flyKeys.e) rollVelocity -= ROLL_ACCEL;
     if (!flyKeys.q && !flyKeys.e) rollVelocity *= ROLL_DAMPING;

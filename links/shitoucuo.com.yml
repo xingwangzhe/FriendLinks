@@ -1,182 +1,182 @@
 site:
-  name: 'shitoucuo.com'
-  url: 'https://www.shitoucuo.com/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "shitoucuo.com"
+  url: "https://www.shitoucuo.com/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: '威言威语+111'
-      url: 'https://www.weisay.com'
-    - name: '网友小宋+319'
-      url: 'https://xyzbz.cn'
-    - name: '小陈故事+34'
-      url: 'https://www.chener.net'
-    - name: '蓝河+66'
-      url: 'https://bluehe.cn/'
-    - name: 'wordpace+269'
-      url: 'https://www.wordpace.com'
-    - name: 'Jeffer.Z+145'
-      url: 'https://www.jeffer.xyz/'
-    - name: '夜未央+218'
-      url: 'https://www.savouer.com/'
-    - name: '皇家元林+323'
-      url: 'https://hjyl.org'
-    - name: 'obaby+432'
-      url: 'https://nai.dog'
-    - name: '老张博客+135'
-      url: 'https://laozhang.org'
-    - name: '老麦+73'
-      url: 'https://laomai.org'
-    - name: '刘郎+2'
-      url: 'https://vjo.cc/'
-    - name: '老狼+51'
-      url: 'https://itlu.net'
-    - name: 'conge+40'
-      url: 'https://conge.livingwithfcs.org'
-    - name: 'Quark+2'
-      url: 'https://bk.quark.fun/'
-    - name: 'bosir+18'
-      url: 'https://bosir.cn/'
-    - name: 'Dabenshi+117'
-      url: 'https://dabenshi.cn/'
-    - name: 'w4j1e+16'
-      url: 'https://hin.cool'
-    - name: '段先森+12'
-      url: 'https://duanxiansen.com/'
-    - name: '大峰+32'
-      url: 'https://illl.xyz/'
-    - name: '木木困玉光+3'
-      url: 'https://linguoguang.com'
-    - name: '天一生水+18'
-      url: 'https://www.jiangyu.org/'
-    - name: 'wys+20'
-      url: 'https://wangyushuang.com'
-    - name: '荒野孤灯+1'
-      url: 'https://www.80srz.com'
-    - name: '夕格树洞VIP'
-      url: 'https://www.xigeshudong.com'
-    - name: '龙笑天+1'
-      url: 'https://www.ilxtx.com'
-    - name: 'ONO+1'
-      url: 'https://onojyun.com/'
-    - name: '八咫烏+1'
-      url: 'https://www.vergilisme.com'
-    - name: '黄大大+1'
-      url: 'https://huangdada.com/'
-    - name: 'Elizen+1'
-      url: 'https://elizen.me'
-    - name: '灰常记忆+1'
-      url: 'https://bestcherish.com'
-    - name: '林海草原+1'
-      url: 'https://lhcy.org'
-    - name: '2broear+1'
-      url: 'https://blog.2broear.com/'
-    - name: '姜辰Jcs.Moe+1'
-      url: 'https://www.mhcf.net'
-    - name: '槐西杂记+1'
-      url: 'https://huaixi.cc/'
-    - name: '周松松博客+1'
-      url: 'https://zhousongsong.com'
-    - name: '陈大猫+1'
-      url: 'https://chidd.net'
-    - name: '晨岩+1'
-      url: 'https://chenyan98.cn'
-    - name: '老杨微生活+1'
-      url: 'http://www.511799.com/'
-    - name: '山野愚人居+1'
-      url: 'https://www.iyuren.com'
-    - name: 'Jeff+44'
-      url: 'https://yayu.net/'
-    - name: '林羽凡+38'
-      url: 'https://www.linyufan.com'
-    - name: '两对半+34'
-      url: 'https://www.liangduiban.com/'
-    - name: 'Mr.Chou+29'
-      url: 'https://zhou.ge'
-    - name: '拾风+27'
-      url: 'https://www.coolblood.cn/'
-    - name: '阿锋+22'
-      url: 'https://feng.pub'
-    - name: 'TeacherDu+18'
-      url: 'https://dusays.com'
-    - name: '大致+18'
-      url: 'https://pewae.com'
-    - name: '扶苏+17'
-      url: 'https://pwsz.com/'
-    - name: 'wu先生+16'
-      url: 'https://wuziya.com'
-    - name: 'koobai+15'
-      url: 'https://koobai.com'
-    - name: 'athurg+13'
-      url: 'https://www.gooth.org'
-    - name: 'Dr.Drunker+4'
-      url: 'https://blog.shaoxiao.net'
-    - name: 'benjamin+4'
-      url: 'https://snbing.com'
-    - name: '老宋+8'
-      url: 'http://www.hnsong.net'
-    - name: 'dujun+5'
-      url: 'https://dujun.io'
-    - name: '梁咩阿+1'
-      url: 'https://lorre.top'
-    - name: 'Macin+2'
-      url: 'https://macin.org'
-    - name: '稀奇+2'
-      url: 'https://xiqi.org'
-    - name: '锦+2'
-      url: 'https://kam.space/'
-    - name: '小赵同学+1'
-      url: 'https://usj.cc'
-    - name: 'jiohenzhou+3'
-      url: 'https://joojen.com'
-    - name: 'Andy烧麦+12'
-      url: 'https://4311346.com'
-    - name: 'sys+2'
-      url: 'https://www.syshut.com/'
-    - name: '湘铭呀+2'
-      url: 'https://blog.xiangming.site/'
-    - name: 'Pnnk+2'
-      url: 'https://www.pnnk.net'
-    - name: '大武汉+8'
-      url: 'https://maxwuhan.com'
-    - name: '在时间之外变个戏法+4'
-      url: 'http://www.xifa.net'
-    - name: 'ishuo+6'
-      url: 'https://9sb.net'
-    - name: '飞牛+8'
-      url: 'https://www.feinews.com'
-    - name: '拾月+11'
-      url: 'https://www.skyue.com'
-    - name: '叶开+1'
-      url: 'https://qq.md/'
-    - name: '小饿+8'
-      url: 'https://dongjunke.cn'
-    - name: 'zc+2'
-      url: 'https://lanxing.net/'
-    - name: '宇阳+1'
-      url: 'http://liuyuyang.net/'
-    - name: 'fantao+1'
-      url: 'https://fantao.me/'
-    - name: 'asong+3'
-      url: 'https://xiaoshame.github.io'
-    - name: '南北去如归+3'
-      url: 'https://paperheap.com/'
-    - name: 'Azad+3'
-      url: 'https://blog.azad.asia/'
-    - name: '电脑星人+4'
-      url: 'https://imkero.net/'
-    - name: '美樂地+4'
-      url: 'https://meledee.com/'
-    - name: '小小鱼+5'
-      url: 'https://www.ziyouyu.cn'
-    - name: 'leixus+2'
-      url: 'http://leixus.cn'
-    - name: '若志奕鑫+5'
-      url: 'https://www.rz.sb'
-    - name: '耳朵的主人+3'
-      url: 'https://www.edzbe.cn'
-    - name: '夏日博客+3'
-      url: 'https://www.xiariboke.net'
-    - name: 'ccbbp+2'
-      url: 'https://www.ccbbp.com'
-    - name: '踏雪寻熊+6'
-      url: 'https://bear1983.com'
+    - name: "威言威语+111"
+      url: "https://www.weisay.com"
+    - name: "网友小宋+319"
+      url: "https://xyzbz.cn"
+    - name: "小陈故事+34"
+      url: "https://www.chener.net"
+    - name: "蓝河+66"
+      url: "https://bluehe.cn/"
+    - name: "wordpace+269"
+      url: "https://www.wordpace.com"
+    - name: "Jeffer.Z+145"
+      url: "https://www.jeffer.xyz/"
+    - name: "夜未央+218"
+      url: "https://www.savouer.com/"
+    - name: "皇家元林+323"
+      url: "https://hjyl.org"
+    - name: "obaby+432"
+      url: "https://nai.dog"
+    - name: "老张博客+135"
+      url: "https://laozhang.org"
+    - name: "老麦+73"
+      url: "https://laomai.org"
+    - name: "刘郎+2"
+      url: "https://vjo.cc/"
+    - name: "老狼+51"
+      url: "https://itlu.net"
+    - name: "conge+40"
+      url: "https://conge.livingwithfcs.org"
+    - name: "Quark+2"
+      url: "https://bk.quark.fun/"
+    - name: "bosir+18"
+      url: "https://bosir.cn/"
+    - name: "Dabenshi+117"
+      url: "https://dabenshi.cn/"
+    - name: "w4j1e+16"
+      url: "https://hin.cool"
+    - name: "段先森+12"
+      url: "https://duanxiansen.com/"
+    - name: "大峰+32"
+      url: "https://illl.xyz/"
+    - name: "木木困玉光+3"
+      url: "https://linguoguang.com"
+    - name: "天一生水+18"
+      url: "https://www.jiangyu.org/"
+    - name: "wys+20"
+      url: "https://wangyushuang.com"
+    - name: "荒野孤灯+1"
+      url: "https://www.80srz.com"
+    - name: "夕格树洞VIP"
+      url: "https://www.xigeshudong.com"
+    - name: "龙笑天+1"
+      url: "https://www.ilxtx.com"
+    - name: "ONO+1"
+      url: "https://onojyun.com/"
+    - name: "八咫烏+1"
+      url: "https://www.vergilisme.com"
+    - name: "黄大大+1"
+      url: "https://huangdada.com/"
+    - name: "Elizen+1"
+      url: "https://elizen.me"
+    - name: "灰常记忆+1"
+      url: "https://bestcherish.com"
+    - name: "林海草原+1"
+      url: "https://lhcy.org"
+    - name: "2broear+1"
+      url: "https://blog.2broear.com/"
+    - name: "姜辰Jcs.Moe+1"
+      url: "https://www.mhcf.net"
+    - name: "槐西杂记+1"
+      url: "https://huaixi.cc/"
+    - name: "周松松博客+1"
+      url: "https://zhousongsong.com"
+    - name: "陈大猫+1"
+      url: "https://chidd.net"
+    - name: "晨岩+1"
+      url: "https://chenyan98.cn"
+    - name: "老杨微生活+1"
+      url: "http://www.511799.com/"
+    - name: "山野愚人居+1"
+      url: "https://www.iyuren.com"
+    - name: "Jeff+44"
+      url: "https://yayu.net/"
+    - name: "林羽凡+38"
+      url: "https://www.linyufan.com"
+    - name: "两对半+34"
+      url: "https://www.liangduiban.com/"
+    - name: "Mr.Chou+29"
+      url: "https://zhou.ge"
+    - name: "拾风+27"
+      url: "https://www.coolblood.cn/"
+    - name: "阿锋+22"
+      url: "https://feng.pub"
+    - name: "TeacherDu+18"
+      url: "https://dusays.com"
+    - name: "大致+18"
+      url: "https://pewae.com"
+    - name: "扶苏+17"
+      url: "https://pwsz.com/"
+    - name: "wu先生+16"
+      url: "https://wuziya.com"
+    - name: "koobai+15"
+      url: "https://koobai.com"
+    - name: "athurg+13"
+      url: "https://www.gooth.org"
+    - name: "Dr.Drunker+4"
+      url: "https://blog.shaoxiao.net"
+    - name: "benjamin+4"
+      url: "https://snbing.com"
+    - name: "老宋+8"
+      url: "http://www.hnsong.net"
+    - name: "dujun+5"
+      url: "https://dujun.io"
+    - name: "梁咩阿+1"
+      url: "https://lorre.top"
+    - name: "Macin+2"
+      url: "https://macin.org"
+    - name: "稀奇+2"
+      url: "https://xiqi.org"
+    - name: "锦+2"
+      url: "https://kam.space/"
+    - name: "小赵同学+1"
+      url: "https://usj.cc"
+    - name: "jiohenzhou+3"
+      url: "https://joojen.com"
+    - name: "Andy烧麦+12"
+      url: "https://4311346.com"
+    - name: "sys+2"
+      url: "https://www.syshut.com/"
+    - name: "湘铭呀+2"
+      url: "https://blog.xiangming.site/"
+    - name: "Pnnk+2"
+      url: "https://www.pnnk.net"
+    - name: "大武汉+8"
+      url: "https://maxwuhan.com"
+    - name: "在时间之外变个戏法+4"
+      url: "http://www.xifa.net"
+    - name: "ishuo+6"
+      url: "https://9sb.net"
+    - name: "飞牛+8"
+      url: "https://www.feinews.com"
+    - name: "拾月+11"
+      url: "https://www.skyue.com"
+    - name: "叶开+1"
+      url: "https://qq.md/"
+    - name: "小饿+8"
+      url: "https://dongjunke.cn"
+    - name: "zc+2"
+      url: "https://lanxing.net/"
+    - name: "宇阳+1"
+      url: "http://liuyuyang.net/"
+    - name: "fantao+1"
+      url: "https://fantao.me/"
+    - name: "asong+3"
+      url: "https://xiaoshame.github.io"
+    - name: "南北去如归+3"
+      url: "https://paperheap.com/"
+    - name: "Azad+3"
+      url: "https://blog.azad.asia/"
+    - name: "电脑星人+4"
+      url: "https://imkero.net/"
+    - name: "美樂地+4"
+      url: "https://meledee.com/"
+    - name: "小小鱼+5"
+      url: "https://www.ziyouyu.cn"
+    - name: "leixus+2"
+      url: "http://leixus.cn"
+    - name: "若志奕鑫+5"
+      url: "https://www.rz.sb"
+    - name: "耳朵的主人+3"
+      url: "https://www.edzbe.cn"
+    - name: "夏日博客+3"
+      url: "https://www.xiariboke.net"
+    - name: "ccbbp+2"
+      url: "https://www.ccbbp.com"
+    - name: "踏雪寻熊+6"
+      url: "https://bear1983.com"

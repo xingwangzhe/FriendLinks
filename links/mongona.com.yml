@@ -1,22 +1,22 @@
 site:
-  name: 'mongona.com'
-  url: 'https://www.mongona.com/'
-  description: '友情链接'
-  links: '/'
+  name: "mongona.com"
+  url: "https://www.mongona.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: '-- -- 正在获取天气'
-      url: 'https://www.tianqiapi.com'
-    - name: 'Amaze UI'
-      url: 'http://amazeui.org/'
-    - name: 'highlight.js'
-      url: 'https://highlightjs.org/'
-    - name: '今日诗词 API'
-      url: 'https://www.jinrishici.com'
-    - name: '文科中的技术宅'
-      url: 'https://townwang.com/'
-    - name: '胡博靖的技术博客'
-      url: 'https://hubojing.github.io'
-    - name: 'Mathor''s blog'
-      url: 'https://www.wmathor.com'
-    - name: '字节外星人'
-      url: 'https://www.bytealien.com/'
+    - name: "-- -- 正在获取天气"
+      url: "https://www.tianqiapi.com"
+    - name: "Amaze UI"
+      url: "http://amazeui.org/"
+    - name: "highlight.js"
+      url: "https://highlightjs.org/"
+    - name: "今日诗词 API"
+      url: "https://www.jinrishici.com"
+    - name: "文科中的技术宅"
+      url: "https://townwang.com/"
+    - name: "胡博靖的技术博客"
+      url: "https://hubojing.github.io"
+    - name: "Mathor's blog"
+      url: "https://www.wmathor.com"
+    - name: "字节外星人"
+      url: "https://www.bytealien.com/"

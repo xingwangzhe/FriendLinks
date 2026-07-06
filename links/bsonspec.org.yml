@@ -1,10 +1,10 @@
 site:
-  name: 'bsonspec.org'
-  url: 'http://bsonspec.org/'
-  description: '友情链接'
-  links: '/'
+  name: "bsonspec.org"
+  url: "http://bsonspec.org/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'JSON'
-      url: 'http://json.org'
-    - name: 'Mon­goDB'
-      url: 'http://www.mongodb.org'
+    - name: "JSON"
+      url: "http://json.org"
+    - name: "Mon­goDB"
+      url: "http://www.mongodb.org"

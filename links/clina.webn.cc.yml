@@ -1,10 +1,10 @@
 site:
-  name: 'clina.webn.cc'
-  url: 'https://clina.webn.cc/'
-  description: '友情链接'
-  links: '/friends'
+  name: "clina.webn.cc"
+  url: "https://clina.webn.cc/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Stable'
-      url: 'https://clina.top'
-    - name: 'Develop'
-      url: 'https://blog.150191.xyz'
+    - name: "Stable"
+      url: "https://clina.top"
+    - name: "Develop"
+      url: "https://blog.150191.xyz"

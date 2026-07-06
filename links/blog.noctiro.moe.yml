@@ -1,14 +1,14 @@
 site:
-  name: 'blog.noctiro.moe'
-  url: 'https://blog.noctiro.moe/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.noctiro.moe"
+  url: "https://blog.noctiro.moe/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Yuuk''s Blog 这里是YuuK的博客!!! Blog'
-      url: 'https://www.yuuk.top'
-    - name: '夏夜流萤 飞萤之火自无梦的长夜亮起，绽放在终竟的明天。 Blog'
-      url: 'https://blog.cuteleaf.cn'
-    - name: 'Elykia 致以无暇之人 Blog'
-      url: 'https://blog.elykia.cn'
-    - name: '智云海博 分享智慧 博击科海 Blog'
-      url: 'https://www.zyh8.com'
+    - name: "Yuuk's Blog 这里是YuuK的博客!!! Blog"
+      url: "https://www.yuuk.top"
+    - name: "夏夜流萤 飞萤之火自无梦的长夜亮起，绽放在终竟的明天。 Blog"
+      url: "https://blog.cuteleaf.cn"
+    - name: "Elykia 致以无暇之人 Blog"
+      url: "https://blog.elykia.cn"
+    - name: "智云海博 分享智慧 博击科海 Blog"
+      url: "https://www.zyh8.com"

@@ -1,14 +1,14 @@
 site:
-  name: 'blog.mvpbang.com'
-  url: 'https://blog.mvpbang.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.mvpbang.com"
+  url: "https://blog.mvpbang.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '缘生笔记 新时代云缘生农民工'
-      url: 'https://ysicing.me'
-    - name: 'Clay 的技术空间 用进废退 | 艺不压身'
-      url: 'https://www.techgrow.cn'
-    - name: '倦意博客 生命不息，折腾不止。'
-      url: 'https://jyblog.cn'
-    - name: '东东''s Blog 东东''s Blog'
-      url: 'https://blog.yasking.org'
+    - name: "缘生笔记 新时代云缘生农民工"
+      url: "https://ysicing.me"
+    - name: "Clay 的技术空间 用进废退 | 艺不压身"
+      url: "https://www.techgrow.cn"
+    - name: "倦意博客 生命不息，折腾不止。"
+      url: "https://jyblog.cn"
+    - name: "东东's Blog 东东's Blog"
+      url: "https://blog.yasking.org"

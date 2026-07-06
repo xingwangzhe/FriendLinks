@@ -1,76 +1,76 @@
 site:
-  name: 'soha.moe'
-  url: 'https://soha.moe/'
-  description: '友情链接'
-  links: '/friends.html'
+  name: "soha.moe"
+  url: "https://soha.moe/"
+  description: "友情链接"
+  links: "/friends.html"
   friends:
-    - name: 'zcy'
-      url: 'https://shiroha.info/'
-    - name: 'Centaurus99 的杂物堆'
-      url: 'https://blog.centaurus99.com/'
-    - name: 'Obliviated::Victor'
-      url: 'https://obliv.me/'
-    - name: 'ShadowMov''s Blog'
-      url: 'https://shadowmov.com/'
-    - name: 'Vigorous Pro'
-      url: 'https://www.wevg.org/'
-    - name: 'Alanyhqの窝'
-      url: 'https://www.alanyhq.com/'
-    - name: 'Evsio0n'
-      url: 'http://evsio0n.com/'
-    - name: 'FGHRSH 的博客'
-      url: 'https://www.fghrsh.net/'
-    - name: '蚊BloG'
-      url: 'https://mozz.ie/'
-    - name: 'Baoshuo'
-      url: 'https://baoshuo.ren/'
-    - name: 'KusakabeShi''s Space'
-      url: 'https://www.kskb.eu.org/'
-    - name: '惶心博客'
-      url: 'https://huangxin.dev/'
-    - name: 'Easton Man''s Blog'
-      url: 'https://blog.eastonman.com/'
-    - name: 'boNote'
-      url: 'https://note.bobo.moe/'
-    - name: '吐槽大王部落格'
-      url: 'https://www.tcdw.net/'
-    - name: 'qwe7002的个人博客'
-      url: 'https://qwe7002.com/'
-    - name: 'CopperKoi'
-      url: 'https://copperkoi.cn/'
-    - name: 'Z.L Vansiit''s blog'
-      url: 'https://vansiit.cc/'
-    - name: '梦忻屋'
-      url: 'http://mxwu.cn/'
-    - name: 'yyy'
-      url: 'http://iyyy.sinaapp.com'
-    - name: '张佑杰'
-      url: 'https://www.johnzhang.xyz/'
-    - name: '张同学'
-      url: 'http://blog.zhangone.top'
-    - name: 'murez'
-      url: 'http://blog.murez.site'
-    - name: '徐天乐'
-      url: 'https://blog.xtlsoft.top'
-    - name: 'Axton'
-      url: 'https://flthigher.top'
-    - name: 'Steve Li'
-      url: 'https://blog.stevelbr.top'
-    - name: 'jasonxu'
-      url: 'https://www.086181.xyz/'
-    - name: 'vayki'
-      url: 'https://chenhaotian.top'
-    - name: 'tomcb'
-      url: 'https://madlax.pw/'
-    - name: '属于CYY自己的世界'
-      url: 'http://cyyself.name/'
-    - name: 'Deamwork'
-      url: 'https://dwx.io/'
-    - name: 'Wandai Blog'
-      url: 'https://twd2.me/'
-    - name: '杰克部落'
-      url: 'http://renjikai.com/'
-    - name: '静かな森'
-      url: 'https://innei.ren/'
-    - name: 'SohaNET'
-      url: 'https://net.soha.space'
+    - name: "zcy"
+      url: "https://shiroha.info/"
+    - name: "Centaurus99 的杂物堆"
+      url: "https://blog.centaurus99.com/"
+    - name: "Obliviated::Victor"
+      url: "https://obliv.me/"
+    - name: "ShadowMov's Blog"
+      url: "https://shadowmov.com/"
+    - name: "Vigorous Pro"
+      url: "https://www.wevg.org/"
+    - name: "Alanyhqの窝"
+      url: "https://www.alanyhq.com/"
+    - name: "Evsio0n"
+      url: "http://evsio0n.com/"
+    - name: "FGHRSH 的博客"
+      url: "https://www.fghrsh.net/"
+    - name: "蚊BloG"
+      url: "https://mozz.ie/"
+    - name: "Baoshuo"
+      url: "https://baoshuo.ren/"
+    - name: "KusakabeShi's Space"
+      url: "https://www.kskb.eu.org/"
+    - name: "惶心博客"
+      url: "https://huangxin.dev/"
+    - name: "Easton Man's Blog"
+      url: "https://blog.eastonman.com/"
+    - name: "boNote"
+      url: "https://note.bobo.moe/"
+    - name: "吐槽大王部落格"
+      url: "https://www.tcdw.net/"
+    - name: "qwe7002的个人博客"
+      url: "https://qwe7002.com/"
+    - name: "CopperKoi"
+      url: "https://copperkoi.cn/"
+    - name: "Z.L Vansiit's blog"
+      url: "https://vansiit.cc/"
+    - name: "梦忻屋"
+      url: "http://mxwu.cn/"
+    - name: "yyy"
+      url: "http://iyyy.sinaapp.com"
+    - name: "张佑杰"
+      url: "https://www.johnzhang.xyz/"
+    - name: "张同学"
+      url: "http://blog.zhangone.top"
+    - name: "murez"
+      url: "http://blog.murez.site"
+    - name: "徐天乐"
+      url: "https://blog.xtlsoft.top"
+    - name: "Axton"
+      url: "https://flthigher.top"
+    - name: "Steve Li"
+      url: "https://blog.stevelbr.top"
+    - name: "jasonxu"
+      url: "https://www.086181.xyz/"
+    - name: "vayki"
+      url: "https://chenhaotian.top"
+    - name: "tomcb"
+      url: "https://madlax.pw/"
+    - name: "属于CYY自己的世界"
+      url: "http://cyyself.name/"
+    - name: "Deamwork"
+      url: "https://dwx.io/"
+    - name: "Wandai Blog"
+      url: "https://twd2.me/"
+    - name: "杰克部落"
+      url: "http://renjikai.com/"
+    - name: "静かな森"
+      url: "https://innei.ren/"
+    - name: "SohaNET"
+      url: "https://net.soha.space"

@@ -1,12 +1,12 @@
 site:
-  name: 'blog.imyan.ren'
-  url: 'https://blog.imyan.ren/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.imyan.ren"
+  url: "https://blog.imyan.ren/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '/dev/random'
-      url: 'https://www.travellings.cn/go.html'
-    - name: 'Flix'
-      url: 'https://flix.center/'
-    - name: 'Kirby Assistant'
-      url: 'https://kirby.cool/'
+    - name: "/dev/random"
+      url: "https://www.travellings.cn/go.html"
+    - name: "Flix"
+      url: "https://flix.center/"
+    - name: "Kirby Assistant"
+      url: "https://kirby.cool/"

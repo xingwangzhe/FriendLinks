@@ -1,50 +1,50 @@
 site:
-  name: 'blog.miku.yun'
-  url: 'https://blog.miku.yun/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.miku.yun"
+  url: "https://blog.miku.yun/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Serenity''s Blog 行走在数字荒原的观测者，试图用文字与代码在万物互联的宇宙里锚定一片宁静星域。专注于前端美学、极简'
-      url: 'https://www.aobp.cn'
-    - name: 'Rinty 雨屋 适合孤独的人独居 博客'
-      url: 'https://rinty.xyz'
-    - name: 'XZY‘s Blog 个人博客，记录胡思乱想，胡乱日常，胡乱折腾 博客'
-      url: 'https://blog.xzyuse.space'
-    - name: '苔痕-taihen 博客'
-      url: 'http://blog1.taihen.top'
-    - name: '星河の外 /* ShiDai''s Personal Blog */ 博'
-      url: 'https://blog.elsworld.cn:8443'
-    - name: 'OOIU! 我们的故事刚刚开始 博客'
-      url: 'https://www.oiu.cn'
-    - name: '企鹅的博客 努力学习新的知识 博客'
-      url: 'https://www.lydqe.com.cn'
-    - name: '壮壮博客 博客'
-      url: 'https://zhuangzhuang.io'
-    - name: '益友网站 记生活点滴，留岁月温柔。 博客'
-      url: 'https://blog.yiyou.bj.cn'
-    - name: '羽天的驾驶舱 物理発覚中。 博客'
-      url: 'https://www.yutian233.top'
-    - name: '零壹碎片 致力于将复杂问题复杂化 博客'
-      url: 'https://blog.zyx-2012.cn'
-    - name: '咖啡豆子coffee的小站 以真理的精神追求真理 Pursue truth in the spirit of truth'
-      url: 'https://blog.kfdzcoffee.cn'
-    - name: '内密心書 漂浮在互联网海面上的一盏小灯 博客'
-      url: 'https://oortaka.top'
-    - name: 'bbb-lsy07 科技激荡人文，洞见智慧本真。 博客'
-      url: 'https://blog.tsoo.net'
-    - name: 'amfe的小站 Hi，站主是一个自动驾驶行业从业者，这里留下一些自己的学习笔记'
-      url: 'https://amfe.space'
-    - name: '云鸢客栈 长河无声奔去，唯爱与信念永存'
-      url: 'https://www.cloudyuan.cn'
-    - name: 'liveling的小破站 生活美好，万物可爱。'
-      url: 'https://www.liveling.top'
-    - name: '梦涵LOVEの小窝 一个一个小涵子的小BLOG，一起来分享生活的小确幸吧~'
-      url: 'https://heyuhan.huohuo.ink'
-    - name: 'yangyu blog 这是一个非盈利机构的博客'
-      url: 'https://jdni.cn'
-    - name: '时锦闲记 这是我的小站，分享生活，留下快乐'
-      url: 'https://me.sujianyu.cn'
-    - name: '小郑 Blog 一个热爱技术、喜欢折腾的小佬。 专注于后端开发。 记录生活，分享技术，探索未知。'
-      url: 'https://halo.bt.hyin.top'
-    - name: '木因博客 心在哪里收获就在哪里'
-      url: 'https://blog.muyin.site'
+    - name: "Serenity's Blog 行走在数字荒原的观测者，试图用文字与代码在万物互联的宇宙里锚定一片宁静星域。专注于前端美学、极简"
+      url: "https://www.aobp.cn"
+    - name: "Rinty 雨屋 适合孤独的人独居 博客"
+      url: "https://rinty.xyz"
+    - name: "XZY‘s Blog 个人博客，记录胡思乱想，胡乱日常，胡乱折腾 博客"
+      url: "https://blog.xzyuse.space"
+    - name: "苔痕-taihen 博客"
+      url: "http://blog1.taihen.top"
+    - name: "星河の外 /* ShiDai's Personal Blog */ 博"
+      url: "https://blog.elsworld.cn:8443"
+    - name: "OOIU! 我们的故事刚刚开始 博客"
+      url: "https://www.oiu.cn"
+    - name: "企鹅的博客 努力学习新的知识 博客"
+      url: "https://www.lydqe.com.cn"
+    - name: "壮壮博客 博客"
+      url: "https://zhuangzhuang.io"
+    - name: "益友网站 记生活点滴，留岁月温柔。 博客"
+      url: "https://blog.yiyou.bj.cn"
+    - name: "羽天的驾驶舱 物理発覚中。 博客"
+      url: "https://www.yutian233.top"
+    - name: "零壹碎片 致力于将复杂问题复杂化 博客"
+      url: "https://blog.zyx-2012.cn"
+    - name: "咖啡豆子coffee的小站 以真理的精神追求真理 Pursue truth in the spirit of truth"
+      url: "https://blog.kfdzcoffee.cn"
+    - name: "内密心書 漂浮在互联网海面上的一盏小灯 博客"
+      url: "https://oortaka.top"
+    - name: "bbb-lsy07 科技激荡人文，洞见智慧本真。 博客"
+      url: "https://blog.tsoo.net"
+    - name: "amfe的小站 Hi，站主是一个自动驾驶行业从业者，这里留下一些自己的学习笔记"
+      url: "https://amfe.space"
+    - name: "云鸢客栈 长河无声奔去，唯爱与信念永存"
+      url: "https://www.cloudyuan.cn"
+    - name: "liveling的小破站 生活美好，万物可爱。"
+      url: "https://www.liveling.top"
+    - name: "梦涵LOVEの小窝 一个一个小涵子的小BLOG，一起来分享生活的小确幸吧~"
+      url: "https://heyuhan.huohuo.ink"
+    - name: "yangyu blog 这是一个非盈利机构的博客"
+      url: "https://jdni.cn"
+    - name: "时锦闲记 这是我的小站，分享生活，留下快乐"
+      url: "https://me.sujianyu.cn"
+    - name: "小郑 Blog 一个热爱技术、喜欢折腾的小佬。 专注于后端开发。 记录生活，分享技术，探索未知。"
+      url: "https://halo.bt.hyin.top"
+    - name: "木因博客 心在哪里收获就在哪里"
+      url: "https://blog.muyin.site"

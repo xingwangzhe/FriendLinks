@@ -1,14 +1,14 @@
 site:
-  name: 'stavros.io'
-  url: 'https://www.stavros.io/'
-  description: '友情链接'
-  links: '/'
+  name: "stavros.io"
+  url: "https://www.stavros.io/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Audiobookshelf'
-      url: 'https://www.audiobookshelf.org'
-    - name: 'ESPhome'
-      url: 'https://esphome.io'
-    - name: 'TRMNL'
-      url: 'https://usetrmnl.com'
-    - name: 'Stochastic Technologies'
-      url: 'http://www.stochastic.io'
+    - name: "Audiobookshelf"
+      url: "https://www.audiobookshelf.org"
+    - name: "ESPhome"
+      url: "https://esphome.io"
+    - name: "TRMNL"
+      url: "https://usetrmnl.com"
+    - name: "Stochastic Technologies"
+      url: "http://www.stochastic.io"

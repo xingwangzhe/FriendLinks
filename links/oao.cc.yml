@@ -1,10 +1,10 @@
 site:
-  name: 'oao.cc'
-  url: 'https://www.oao.cc/'
-  description: '友情链接'
-  links: '/friends'
+  name: "oao.cc"
+  url: "https://www.oao.cc/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Snav'
-      url: 'https://snav.menter6.eu.org'
-    - name: 'ChatGPT'
-      url: 'https://ai.com'
+    - name: "Snav"
+      url: "https://snav.menter6.eu.org"
+    - name: "ChatGPT"
+      url: "https://ai.com"

@@ -1,12 +1,12 @@
 site:
-  name: 'toomuchcode.org'
-  url: 'http://www.toomuchcode.org/'
-  description: '友情链接'
-  links: '/links'
+  name: "toomuchcode.org"
+  url: "http://www.toomuchcode.org/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Clara Rules'
-      url: 'https://www.clara-rules.org'
-    - name: 'KenSci'
-      url: 'https://www.kensci.com/'
-    - name: 'Cerner'
-      url: 'https://www.cerner.com/'
+    - name: "Clara Rules"
+      url: "https://www.clara-rules.org"
+    - name: "KenSci"
+      url: "https://www.kensci.com/"
+    - name: "Cerner"
+      url: "https://www.cerner.com/"

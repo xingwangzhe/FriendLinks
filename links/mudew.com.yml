@@ -1,12 +1,12 @@
 site:
-  name: 'mudew.com'
-  url: 'https://mudew.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "mudew.com"
+  url: "https://mudew.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Miku''s Blog 分享整个世界'
-      url: 'https://mikublog.com'
-    - name: 'Kagamiz''s Blog Kagamiz'
-      url: 'https://kagamiz.com'
-    - name: 'Dawnnnnn''s Blog Dawnnnnnn'
-      url: 'https://dawnnnnnn.com'
+    - name: "Miku's Blog 分享整个世界"
+      url: "https://mikublog.com"
+    - name: "Kagamiz's Blog Kagamiz"
+      url: "https://kagamiz.com"
+    - name: "Dawnnnnn's Blog Dawnnnnnn"
+      url: "https://dawnnnnnn.com"

@@ -1,14 +1,14 @@
 site:
-  name: 'blog.oioweb.cn'
-  url: 'http://blog.oioweb.cn/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "blog.oioweb.cn"
+  url: "http://blog.oioweb.cn/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: 'Lovestu'
-      url: 'https://www.lovestu.com'
-    - name: '欧小茶博客 相逢即是缘分 相知即相识'
-      url: 'https://ouxiaocha.cn'
-    - name: '韩小韩博客 要变得更加完美'
-      url: 'https://www.vvhan.com/'
-    - name: '晴栀博客 走在后端的路上,渐行渐远'
-      url: 'https://www.xinyouqu.com'
+    - name: "Lovestu"
+      url: "https://www.lovestu.com"
+    - name: "欧小茶博客 相逢即是缘分 相知即相识"
+      url: "https://ouxiaocha.cn"
+    - name: "韩小韩博客 要变得更加完美"
+      url: "https://www.vvhan.com/"
+    - name: "晴栀博客 走在后端的路上,渐行渐远"
+      url: "https://www.xinyouqu.com"

@@ -1,20 +1,20 @@
 site:
-  name: 'secluded.site'
-  url: 'https://secluded.site/'
-  description: '友情链接'
-  links: '/'
+  name: "secluded.site"
+  url: "https://secluded.site/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Linux Lads'
-      url: 'https://linuxlads.com'
-    - name: 'Linux Dev Time'
-      url: 'https://linuxdevtime.com'
-    - name: 'NixNet.'
-      url: 'https://nixnet.services'
-    - name: 'MBOA,'
-      url: 'https://mboa.dev'
-    - name: 'JMP.chat'
-      url: 'https://jmp.chat'
-    - name: 'Libera'
-      url: 'https://libera.chat/'
-    - name: 'Umami'
-      url: 'https://umami.is/'
+    - name: "Linux Lads"
+      url: "https://linuxlads.com"
+    - name: "Linux Dev Time"
+      url: "https://linuxdevtime.com"
+    - name: "NixNet."
+      url: "https://nixnet.services"
+    - name: "MBOA,"
+      url: "https://mboa.dev"
+    - name: "JMP.chat"
+      url: "https://jmp.chat"
+    - name: "Libera"
+      url: "https://libera.chat/"
+    - name: "Umami"
+      url: "https://umami.is/"

@@ -1,18 +1,18 @@
 site:
-  name: 'gensokyo.cn'
-  url: 'https://gensokyo.cn/'
-  description: '友情链接'
-  links: '/links'
+  name: "gensokyo.cn"
+  url: "https://gensokyo.cn/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'yvling 臭挖洞的'
-      url: 'https://yvling.cn/'
-    - name: 'Node Sans 的小破站 主要记录二进制CTF学习的点滴'
-      url: 'https://blog.node189.top/'
-    - name: 's1nk re king'
-      url: 'https://blog.gaoyucan.site'
-    - name: 'huangx607087 Master Student in SEU, CTF Cryptoer'
-      url: 'https://huangx607087.online'
-    - name: 'slavin pwner'
-      url: 'http://slavin.cn/'
-    - name: 'Candy 阿巴阿巴, web渗透嘿嘿嘿'
-      url: 'https://candyb0x.github.io/'
+    - name: "yvling 臭挖洞的"
+      url: "https://yvling.cn/"
+    - name: "Node Sans 的小破站 主要记录二进制CTF学习的点滴"
+      url: "https://blog.node189.top/"
+    - name: "s1nk re king"
+      url: "https://blog.gaoyucan.site"
+    - name: "huangx607087 Master Student in SEU, CTF Cryptoer"
+      url: "https://huangx607087.online"
+    - name: "slavin pwner"
+      url: "http://slavin.cn/"
+    - name: "Candy 阿巴阿巴, web渗透嘿嘿嘿"
+      url: "https://candyb0x.github.io/"

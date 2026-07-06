@@ -1,16 +1,16 @@
 site:
-  name: 'swizec.com'
-  url: 'https://swizec.com/'
-  description: '友情链接'
-  links: '/'
+  name: "swizec.com"
+  url: "https://swizec.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'scalingfastbook.com'
-      url: 'https://scalingfastbook.com'
-    - name: 'Sign up to get notified when React for Dataviz happens next 👉'
-      url: 'https://reactfordataviz.com'
-    - name: 'see the materials online for free'
-      url: 'https://reactworkshop.co/'
-    - name: 'Serverless Handbook - 2021'
-      url: 'https://serverlesshandbook.dev'
-    - name: 'Why programmers work at night - 2012'
-      url: 'http://nightowlsbook.com'
+    - name: "scalingfastbook.com"
+      url: "https://scalingfastbook.com"
+    - name: "Sign up to get notified when React for Dataviz happens next 👉"
+      url: "https://reactfordataviz.com"
+    - name: "see the materials online for free"
+      url: "https://reactworkshop.co/"
+    - name: "Serverless Handbook - 2021"
+      url: "https://serverlesshandbook.dev"
+    - name: "Why programmers work at night - 2012"
+      url: "http://nightowlsbook.com"

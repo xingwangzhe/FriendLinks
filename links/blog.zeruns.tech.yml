@@ -1,114 +1,114 @@
 site:
-  name: 'blog.zeruns.tech'
-  url: 'https://blog.zeruns.tech/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "blog.zeruns.tech"
+  url: "https://blog.zeruns.tech/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: 'Zeruns''s Blog'
-      url: 'https://blog.zeruns.com/'
-    - name: 'Sanakeyの小站'
-      url: 'https://keymoe.com/'
-    - name: '冰微未来'
-      url: 'https://www.kezez.com/'
-    - name: '大西瓜博客'
-      url: 'https://www.bwmelon.com/'
-    - name: 'kali博客'
-      url: 'https://blog.bbskali.cn/'
-    - name: '极一''s Blog'
-      url: 'https://www.jiyiblog.com/'
-    - name: '青山小站'
-      url: 'https://blog.yanqingshan.com/'
-    - name: 'TigerRoot'
-      url: 'https://blog.tigerroot.cn/'
-    - name: '张宁网'
-      url: 'https://www.zning.net.cn/'
-    - name: 'Chuanrui の 初见之旅'
-      url: 'https://blog.1314.cool/'
-    - name: 'Dragon Add'
-      url: 'https://blog.dragonadd.xyz/'
-    - name: '不欠'
-      url: 'https://blog.8owe.com/'
-    - name: '诺仙の客栈'
-      url: 'https://nxvav.cn/'
-    - name: 'Zeruns''s Blog-英文站'
-      url: 'https://blog.zeruns.top/'
-    - name: '阿小州博客'
-      url: 'https://axznb.cn/'
-    - name: 'Xuan''s blog'
-      url: 'https://blog.ybyq.wang/'
-    - name: 'Rat''s Blog Rat''s Blog - 相逢的人会再相逢'
-      url: 'https://www.moerats.com/'
-    - name: 'cOsMx''s Blog 一个神秘的人'
-      url: 'https://www.c0smx.com/'
-    - name: '享巴巴 一个神秘的人'
-      url: 'https://www.ahoom.cn/'
-    - name: 'FengMo 记录生活点滴'
-      url: 'https://mo66.cn/'
-    - name: 'KRUNK ZHOU 分享生活,技术,硬件组装等相关文章与知识分享'
-      url: 'https://krunk.cn/'
-    - name: '小石同学 一个神秘的人'
-      url: 'https://blog.shiyunhong.com/'
-    - name: 'XIAOMING''S BLOG 记录生活点滴，谱写精彩生活！'
-      url: 'https://vimin.cc/'
-    - name: '霂森西 是微甜的呀'
-      url: 'https://musenxi.com/'
-    - name: 'LOGI 会点代码的强迫症'
-      url: 'https://logi.im/'
-    - name: '一灯不是和尚 一个神秘的人'
-      url: 'https://iyideng.vip/'
-    - name: 'pai233の小窝 Write Down My Life.'
-      url: 'https://blog.pai233.top/'
-    - name: 'FKUN 一个神秘的人'
-      url: 'https://blog.fkun.tech/'
-    - name: 'Zane Liu''s Blog 以梦为马，不负韶华'
-      url: 'https://lza59.com/'
-    - name: 'AngelBlue''Blog 爱分享，爱技术，爱生活'
-      url: 'https://blog.angelblue.cn/'
-    - name: 'Mox的笔记库 探索未曾设想的道路'
-      url: 'https://www.mocusez.site/'
-    - name: 'Skykguj ''s Blog 让编程改变世界，让梦想创造奇迹！'
-      url: 'https://blog.sky390.cn/'
-    - name: '芸熙の小屋 我们都各自发光，不必吹灭别人的灯。'
-      url: 'https://stvue.com/'
-    - name: '小小黑的个人小站 技术宅拯救世界'
-      url: 'https://lonelyenderman.top/'
-    - name: '西行妖 人生五十年，如梦亦如幻'
-      url: 'https://my.toho.red/'
-    - name: 'Freesun Blog Hello World!'
-      url: 'https://www.freesun.top/'
-    - name: '序炁的博客 A dragon that born in the Order and Chaos.'
-      url: 'https://www.ordchaos.com/'
-    - name: '网笙久久 一件事情是幸福还是不幸，关键是你怎么去看。'
-      url: 'https://www.wsjj.top/'
-    - name: 'meiのblog 一个倒霉蛋的博客'
-      url: 'https://mmeiblog.cn/'
-    - name: '朽丘博 一定会和喜欢的人在夏日夜晚牵手慢步'
-      url: 'https://koxiuqiu.cn/'
-    - name: 'q2019的小站 乐天派一枚~'
-      url: 'https://q2019.com/'
-    - name: '风屿岛 不知名海域的知名岛屿'
-      url: 'https://www.biliwind.com/'
-    - name: '卡卡的云笔记 人生缓缓,自有答案。'
-      url: 'https://kakablog.top/'
-    - name: '杉秋小站 命里有时终须有，命里无时莫强求。'
-      url: 'https://ioioi.lol/'
-    - name: 'Lincol29’s Blog 一名 Java 转 C# 开发的码农，分享一些项目中使用的技术和知识。以及 wordpres 建站技巧'
-      url: 'https://www.lincol29.cn/'
-    - name: 'Demius''s Blog 天行健，君子以自强不息。'
-      url: 'https://blog.demius.tech/'
-    - name: '逐暗者的麦田 一位Java攻城狮的个人博客，主要分享编程、建站、动漫、趣闻和生活内容'
-      url: 'https://www.iasuna.com/'
-    - name: '海若博客 法学法律工作者'
-      url: 'https://hyruo.com/'
-    - name: '顶茶社 乌拉乌拉乌拉'
-      url: 'https://blog.redcha.cn/'
-    - name: 'KittySite 波澜壮阔，一事无成'
-      url: 'https://blog.konpaku.cn/'
-    - name: '皮皮社 皮一下，很开心！'
-      url: 'https://www.pipishe.com/'
-    - name: '程序员小乐 热爱生活'
-      url: 'https://leblog.github.io/'
-    - name: '智汇 生活是一首未完成的诗，每个人都是自己的作者'
-      url: 'https://www.blog.gszyzl.cn/'
-    - name: '梨尽兴 A place for peace'
-      url: 'https://blog.ljx.icu/'
+    - name: "Zeruns's Blog"
+      url: "https://blog.zeruns.com/"
+    - name: "Sanakeyの小站"
+      url: "https://keymoe.com/"
+    - name: "冰微未来"
+      url: "https://www.kezez.com/"
+    - name: "大西瓜博客"
+      url: "https://www.bwmelon.com/"
+    - name: "kali博客"
+      url: "https://blog.bbskali.cn/"
+    - name: "极一's Blog"
+      url: "https://www.jiyiblog.com/"
+    - name: "青山小站"
+      url: "https://blog.yanqingshan.com/"
+    - name: "TigerRoot"
+      url: "https://blog.tigerroot.cn/"
+    - name: "张宁网"
+      url: "https://www.zning.net.cn/"
+    - name: "Chuanrui の 初见之旅"
+      url: "https://blog.1314.cool/"
+    - name: "Dragon Add"
+      url: "https://blog.dragonadd.xyz/"
+    - name: "不欠"
+      url: "https://blog.8owe.com/"
+    - name: "诺仙の客栈"
+      url: "https://nxvav.cn/"
+    - name: "Zeruns's Blog-英文站"
+      url: "https://blog.zeruns.top/"
+    - name: "阿小州博客"
+      url: "https://axznb.cn/"
+    - name: "Xuan's blog"
+      url: "https://blog.ybyq.wang/"
+    - name: "Rat's Blog Rat's Blog - 相逢的人会再相逢"
+      url: "https://www.moerats.com/"
+    - name: "cOsMx's Blog 一个神秘的人"
+      url: "https://www.c0smx.com/"
+    - name: "享巴巴 一个神秘的人"
+      url: "https://www.ahoom.cn/"
+    - name: "FengMo 记录生活点滴"
+      url: "https://mo66.cn/"
+    - name: "KRUNK ZHOU 分享生活,技术,硬件组装等相关文章与知识分享"
+      url: "https://krunk.cn/"
+    - name: "小石同学 一个神秘的人"
+      url: "https://blog.shiyunhong.com/"
+    - name: "XIAOMING'S BLOG 记录生活点滴，谱写精彩生活！"
+      url: "https://vimin.cc/"
+    - name: "霂森西 是微甜的呀"
+      url: "https://musenxi.com/"
+    - name: "LOGI 会点代码的强迫症"
+      url: "https://logi.im/"
+    - name: "一灯不是和尚 一个神秘的人"
+      url: "https://iyideng.vip/"
+    - name: "pai233の小窝 Write Down My Life."
+      url: "https://blog.pai233.top/"
+    - name: "FKUN 一个神秘的人"
+      url: "https://blog.fkun.tech/"
+    - name: "Zane Liu's Blog 以梦为马，不负韶华"
+      url: "https://lza59.com/"
+    - name: "AngelBlue'Blog 爱分享，爱技术，爱生活"
+      url: "https://blog.angelblue.cn/"
+    - name: "Mox的笔记库 探索未曾设想的道路"
+      url: "https://www.mocusez.site/"
+    - name: "Skykguj 's Blog 让编程改变世界，让梦想创造奇迹！"
+      url: "https://blog.sky390.cn/"
+    - name: "芸熙の小屋 我们都各自发光，不必吹灭别人的灯。"
+      url: "https://stvue.com/"
+    - name: "小小黑的个人小站 技术宅拯救世界"
+      url: "https://lonelyenderman.top/"
+    - name: "西行妖 人生五十年，如梦亦如幻"
+      url: "https://my.toho.red/"
+    - name: "Freesun Blog Hello World!"
+      url: "https://www.freesun.top/"
+    - name: "序炁的博客 A dragon that born in the Order and Chaos."
+      url: "https://www.ordchaos.com/"
+    - name: "网笙久久 一件事情是幸福还是不幸，关键是你怎么去看。"
+      url: "https://www.wsjj.top/"
+    - name: "meiのblog 一个倒霉蛋的博客"
+      url: "https://mmeiblog.cn/"
+    - name: "朽丘博 一定会和喜欢的人在夏日夜晚牵手慢步"
+      url: "https://koxiuqiu.cn/"
+    - name: "q2019的小站 乐天派一枚~"
+      url: "https://q2019.com/"
+    - name: "风屿岛 不知名海域的知名岛屿"
+      url: "https://www.biliwind.com/"
+    - name: "卡卡的云笔记 人生缓缓,自有答案。"
+      url: "https://kakablog.top/"
+    - name: "杉秋小站 命里有时终须有，命里无时莫强求。"
+      url: "https://ioioi.lol/"
+    - name: "Lincol29’s Blog 一名 Java 转 C# 开发的码农，分享一些项目中使用的技术和知识。以及 wordpres 建站技巧"
+      url: "https://www.lincol29.cn/"
+    - name: "Demius's Blog 天行健，君子以自强不息。"
+      url: "https://blog.demius.tech/"
+    - name: "逐暗者的麦田 一位Java攻城狮的个人博客，主要分享编程、建站、动漫、趣闻和生活内容"
+      url: "https://www.iasuna.com/"
+    - name: "海若博客 法学法律工作者"
+      url: "https://hyruo.com/"
+    - name: "顶茶社 乌拉乌拉乌拉"
+      url: "https://blog.redcha.cn/"
+    - name: "KittySite 波澜壮阔，一事无成"
+      url: "https://blog.konpaku.cn/"
+    - name: "皮皮社 皮一下，很开心！"
+      url: "https://www.pipishe.com/"
+    - name: "程序员小乐 热爱生活"
+      url: "https://leblog.github.io/"
+    - name: "智汇 生活是一首未完成的诗，每个人都是自己的作者"
+      url: "https://www.blog.gszyzl.cn/"
+    - name: "梨尽兴 A place for peace"
+      url: "https://blog.ljx.icu/"

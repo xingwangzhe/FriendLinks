@@ -1,14 +1,14 @@
 site:
-  name: 'cymoe.cn'
-  url: 'http://www.cymoe.cn/'
-  description: '友情链接'
-  links: '/links'
+  name: "cymoe.cn"
+  url: "http://www.cymoe.cn/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '茉莉小栈'
-      url: 'https://www.5iml.com'
-    - name: '小凡自媒体'
-      url: 'https://toolpc.cn'
-    - name: '知年博客'
-      url: 'https://1995.yun'
-    - name: 'Hyde Blog'
-      url: 'https://seasir.top/'
+    - name: "茉莉小栈"
+      url: "https://www.5iml.com"
+    - name: "小凡自媒体"
+      url: "https://toolpc.cn"
+    - name: "知年博客"
+      url: "https://1995.yun"
+    - name: "Hyde Blog"
+      url: "https://seasir.top/"

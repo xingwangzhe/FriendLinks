@@ -1,14 +1,14 @@
 site:
-  name: 'blog.walterfang.site'
-  description: '友情链接'
-  url: 'https://blog.walterfang.site/'
-  links: '/friends'
+  name: "blog.walterfang.site"
+  description: "友情链接"
+  url: "https://blog.walterfang.site/"
+  links: "/friends"
   friends:
-    - name: 'Ariasakaの小窝 ● 人有悲欢离合 月有阴晴圆缺 Blog'
-      url: 'https://blog.yaria.top'
-    - name: 'chun114514''s blog ● Blog'
-      url: 'https://chun.itcdt.top/'
-    - name: 'Admibrill的博客 ● 有志者,事竟成. Blog'
-      url: 'https://blog.qyadbr.top'
-    - name: '栖童の小站 ● 越努力,越幸运. Blog'
-      url: 'https://blog.linux-qitong.top'
+    - name: "Ariasakaの小窝 ● 人有悲欢离合 月有阴晴圆缺 Blog"
+      url: "https://blog.yaria.top"
+    - name: "chun114514's blog ● Blog"
+      url: "https://chun.itcdt.top/"
+    - name: "Admibrill的博客 ● 有志者,事竟成. Blog"
+      url: "https://blog.qyadbr.top"
+    - name: "栖童の小站 ● 越努力,越幸运. Blog"
+      url: "https://blog.linux-qitong.top"

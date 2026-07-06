@@ -1,14 +1,14 @@
 site:
-  name: 'xsl.sh'
-  url: 'https://xsl.sh/'
-  description: '友情链接'
-  links: '/links'
+  name: "xsl.sh"
+  url: "https://xsl.sh/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Shanli Xing'
-      url: 'https://xsl.ing/'
-    - name: 'Prof. Tianqi Chen'
-      url: 'https://tqchen.com/'
-    - name: 'Dr. Zihao Ye'
-      url: 'https://expye.com'
-    - name: 'leaderboard'
-      url: 'https://bench.flashinfer.ai/'
+    - name: "Shanli Xing"
+      url: "https://xsl.ing/"
+    - name: "Prof. Tianqi Chen"
+      url: "https://tqchen.com/"
+    - name: "Dr. Zihao Ye"
+      url: "https://expye.com"
+    - name: "leaderboard"
+      url: "https://bench.flashinfer.ai/"

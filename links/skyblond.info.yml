@@ -1,88 +1,88 @@
 site:
-  name: 'skyblond.info'
-  url: 'https://skyblond.info/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "skyblond.info"
+  url: "https://skyblond.info/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: '熊猫小A'
-      url: 'https://blog.imalan.cn'
-    - name: '考拉咖啡馆'
-      url: 'https://guhub.cn/'
-    - name: 'The [object Object]'
-      url: 'https://n0w0n.com/'
-    - name: '白洛嘉'
-      url: 'https://brocalife.com/'
-    - name: 'MIKUSA小站'
-      url: 'https://www.himiku.com/'
-    - name: '惡魔菌の记事簿'
-      url: 'https://meow3.family.blog/'
-    - name: '三十三言'
-      url: 'https://o0o0o0.cn/'
-    - name: 'ic翼'
-      url: 'https://bingyishow.top'
-    - name: '平顶山'
-      url: 'https://pingdingshan.me'
-    - name: 'Llym'
-      url: 'https://siegelion.cn/'
-    - name: 'NiceBowl的博客'
-      url: 'http://nicebowl.fun'
-    - name: '白熊阿丸的小屋'
-      url: 'https://www.bxaw.name'
-    - name: '聆听·彼岸'
-      url: 'https://jnuse.github.io/'
-    - name: 'Kira 博客'
-      url: 'https://kira.cool'
-    - name: '夜半观星'
-      url: 'https://www.ratodo.com'
-    - name: '霂森西'
-      url: 'https://musenxi.com/'
-    - name: '今今今生'
-      url: 'https://noheart.cn'
-    - name: '无梦梦游记'
-      url: 'https://bkryofu.cn'
-    - name: 'Lenger的后花园'
-      url: 'https://varraro.github.io/'
-    - name: '硫酸钡'
-      url: 'https://www.slagworld.com/'
-    - name: '青空小站'
-      url: 'https://air.moe/'
-    - name: '_Davi’s Blog'
-      url: 'https://blog.davicewei.com'
-    - name: 'SDLMoe'
-      url: 'https://sdl.moe/'
-    - name: 'sher17的博客'
-      url: 'https://sher17.com'
-    - name: 'wsb'
-      url: 'https://wsbblog.github.io/'
-    - name: 'LyShark - 孤风洗剑'
-      url: 'https://www.lyshark.com'
-    - name: 'TanYuan''s website'
-      url: 'https://tanyuan.space/'
-    - name: '木屐落在水洼了'
-      url: 'https://www.mjt.asia/'
-    - name: 'Amonie'
-      url: 'https://dong2000.xyz'
-    - name: '陈布衣的博客'
-      url: 'https://buyi.dev'
-    - name: '寒夜雨'
-      url: 'https://www.coderlock.site/'
-    - name: '墨染辉夜'
-      url: 'https://mzyyun.com/'
-    - name: '茶 碟 Saucer'
-      url: 'https://tengxiao.wang'
-    - name: '探索子'
-      url: 'https://beyondstars.xyz/'
-    - name: 'LBTSTO'
-      url: 'https://www.libertystore.one/'
-    - name: '芝士部落格'
-      url: 'https://chee5e.space'
-    - name: 'つつの Blog'
-      url: 'https://blog.tsutsu.one'
-    - name: 'itsNekoDeng'
-      url: 'https://dyfa.top/'
-    - name: 'peago 的苦茶子'
-      url: 'https://peago.xyz'
-    - name: 'MoXiify'
-      url: 'https://note.moxiify.cn/'
-    - name: 'Davice'
-      url: 'https://www.davicewei.com'
+    - name: "熊猫小A"
+      url: "https://blog.imalan.cn"
+    - name: "考拉咖啡馆"
+      url: "https://guhub.cn/"
+    - name: "The [object Object]"
+      url: "https://n0w0n.com/"
+    - name: "白洛嘉"
+      url: "https://brocalife.com/"
+    - name: "MIKUSA小站"
+      url: "https://www.himiku.com/"
+    - name: "惡魔菌の记事簿"
+      url: "https://meow3.family.blog/"
+    - name: "三十三言"
+      url: "https://o0o0o0.cn/"
+    - name: "ic翼"
+      url: "https://bingyishow.top"
+    - name: "平顶山"
+      url: "https://pingdingshan.me"
+    - name: "Llym"
+      url: "https://siegelion.cn/"
+    - name: "NiceBowl的博客"
+      url: "http://nicebowl.fun"
+    - name: "白熊阿丸的小屋"
+      url: "https://www.bxaw.name"
+    - name: "聆听·彼岸"
+      url: "https://jnuse.github.io/"
+    - name: "Kira 博客"
+      url: "https://kira.cool"
+    - name: "夜半观星"
+      url: "https://www.ratodo.com"
+    - name: "霂森西"
+      url: "https://musenxi.com/"
+    - name: "今今今生"
+      url: "https://noheart.cn"
+    - name: "无梦梦游记"
+      url: "https://bkryofu.cn"
+    - name: "Lenger的后花园"
+      url: "https://varraro.github.io/"
+    - name: "硫酸钡"
+      url: "https://www.slagworld.com/"
+    - name: "青空小站"
+      url: "https://air.moe/"
+    - name: "_Davi’s Blog"
+      url: "https://blog.davicewei.com"
+    - name: "SDLMoe"
+      url: "https://sdl.moe/"
+    - name: "sher17的博客"
+      url: "https://sher17.com"
+    - name: "wsb"
+      url: "https://wsbblog.github.io/"
+    - name: "LyShark - 孤风洗剑"
+      url: "https://www.lyshark.com"
+    - name: "TanYuan's website"
+      url: "https://tanyuan.space/"
+    - name: "木屐落在水洼了"
+      url: "https://www.mjt.asia/"
+    - name: "Amonie"
+      url: "https://dong2000.xyz"
+    - name: "陈布衣的博客"
+      url: "https://buyi.dev"
+    - name: "寒夜雨"
+      url: "https://www.coderlock.site/"
+    - name: "墨染辉夜"
+      url: "https://mzyyun.com/"
+    - name: "茶 碟 Saucer"
+      url: "https://tengxiao.wang"
+    - name: "探索子"
+      url: "https://beyondstars.xyz/"
+    - name: "LBTSTO"
+      url: "https://www.libertystore.one/"
+    - name: "芝士部落格"
+      url: "https://chee5e.space"
+    - name: "つつの Blog"
+      url: "https://blog.tsutsu.one"
+    - name: "itsNekoDeng"
+      url: "https://dyfa.top/"
+    - name: "peago 的苦茶子"
+      url: "https://peago.xyz"
+    - name: "MoXiify"
+      url: "https://note.moxiify.cn/"
+    - name: "Davice"
+      url: "https://www.davicewei.com"

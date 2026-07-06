@@ -1,12 +1,12 @@
 site:
-  name: 'acha.xx.kg'
-  url: 'https://acha.xx.kg/'
-  description: '友情链接'
-  links: '/friends'
+  name: "acha.xx.kg"
+  url: "https://acha.xx.kg/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Zephyr''s Blog'
-      url: 'https://lorcas.top/'
-    - name: '柠檬星'
-      url: 'https://blog.lemonstar.me/'
-    - name: '[TouHikari@localhost ~]$'
-      url: 'https://touhikari.top'
+    - name: "Zephyr's Blog"
+      url: "https://lorcas.top/"
+    - name: "柠檬星"
+      url: "https://blog.lemonstar.me/"
+    - name: "[TouHikari@localhost ~]$"
+      url: "https://touhikari.top"

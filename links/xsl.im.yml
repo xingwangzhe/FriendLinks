@@ -1,92 +1,92 @@
 site:
-  name: 'xsl.im'
-  description: '友情链接'
-  url: 'https://xsl.im/'
-  links: '/friends'
+  name: "xsl.im"
+  description: "友情链接"
+  url: "https://xsl.im/"
+  links: "/friends"
   friends:
-    - name: '杜老师说'
-      url: 'https://dusays.com'
-    - name: 'xaoxuu'
-      url: 'https://xaoxuu.com'
-    - name: 'Frederick''s Blog'
-      url: 'https://www.ooowl.net/'
-    - name: '纸鹿摸鱼处'
-      url: 'https://blog.zhilu.site'
-    - name: '清羽飞扬'
-      url: 'https://blog.liushen.fun/'
-    - name: 'Thun888'
-      url: 'https://blog.hzchu.top/'
-    - name: 'Almango'
-      url: 'https://blog.almango.cn/'
-    - name: '梨尽兴'
-      url: 'https://blog.ljx.icu/'
-    - name: '倦意博客'
-      url: 'https://jyblog.cn'
-    - name: 'HeLong'
-      url: 'https://blog.helong.online'
-    - name: '安小歪'
-      url: 'https://blog.anxy.top/'
-    - name: '彬红茶日记'
-      url: 'https://note.redcha.cn/'
-    - name: '薩魔5mg'
-      url: 'https://cn.5mg.fun'
-    - name: '安知鱼'
-      url: 'https://blog.anheyu.com/'
-    - name: '李开开博客'
-      url: 'https://blog.caonmd.com/'
-    - name: '6Youngの屋'
-      url: 'https://www.6young.site/'
-    - name: '贰猹的小窝'
-      url: 'https://noionion.top/'
-    - name: '周润发'
-      url: 'https://blog.zrf.me/'
-    - name: '小白の博客'
-      url: 'https://www.showby.top/'
-    - name: '逸风亭'
-      url: 'https://blog.fyz666.xyz/'
-    - name: '短巷与雨'
-      url: 'https://www.hudi.space'
-    - name: 'Hanta'
-      url: 'https://blog.hanta2011.top/'
-    - name: '花生莲子粥'
-      url: 'https://blog.hslzz.cn/'
-    - name: 'PYM博客'
-      url: 'https://pym.plus'
-    - name: 'bbb-lsy07'
-      url: 'https://blog.tsoo.net'
-    - name: '半方池水半方田'
-      url: 'https://blog.uuanqin.top/'
-    - name: '𝟞𝟙𝟡’𝕤𝔹𝕃𝕆𝔾'
-      url: 'https://66619.eu.org/'
-    - name: '鹊楠の小窝'
-      url: 'https://blog.quenan.cn/'
-    - name: 'EiloのBlog'
-      url: 'https://aptu.net/'
-    - name: 'Ariasakaの小窝'
-      url: 'https://blog.yaria.top'
-    - name: '山岳库博'
-      url: 'https://kmar.top/'
-    - name: 'fishcpy的小破站'
-      url: 'https://blog.fis.ink'
-    - name: '洛屿的小站'
-      url: 'https://www.drluo.top/'
-    - name: 'TavreBlog'
-      url: 'https://blog.tavr.top'
-    - name: 'AcoForkBlog'
-      url: 'https://2x.nz'
-    - name: '梦爱吃鱼'
-      url: 'https://blog.bsgun.cn/'
-    - name: '青序栈'
-      url: 'https://www.qixz.cn/'
-    - name: 'Mete0r’s Blog | 壹人小站'
-      url: 'https://www.xscnet.cn'
-    - name: '夜轻Blog'
-      url: 'https://blog.yeqing.net/'
-    - name: '刘郎阁'
-      url: 'https://vjo.cc/'
-    - name: 'Revelation'
-      url: 'https://www.040426.xyz/'
-    - name: '谨言慎行'
-      url: 'https://careful.fyi'
-    - name: '博客我们'
-      url: 'https://blogwe.com/'
+    - name: "杜老师说"
+      url: "https://dusays.com"
+    - name: "xaoxuu"
+      url: "https://xaoxuu.com"
+    - name: "Frederick's Blog"
+      url: "https://www.ooowl.net/"
+    - name: "纸鹿摸鱼处"
+      url: "https://blog.zhilu.site"
+    - name: "清羽飞扬"
+      url: "https://blog.liushen.fun/"
+    - name: "Thun888"
+      url: "https://blog.hzchu.top/"
+    - name: "Almango"
+      url: "https://blog.almango.cn/"
+    - name: "梨尽兴"
+      url: "https://blog.ljx.icu/"
+    - name: "倦意博客"
+      url: "https://jyblog.cn"
+    - name: "HeLong"
+      url: "https://blog.helong.online"
+    - name: "安小歪"
+      url: "https://blog.anxy.top/"
+    - name: "彬红茶日记"
+      url: "https://note.redcha.cn/"
+    - name: "薩魔5mg"
+      url: "https://cn.5mg.fun"
+    - name: "安知鱼"
+      url: "https://blog.anheyu.com/"
+    - name: "李开开博客"
+      url: "https://blog.caonmd.com/"
+    - name: "6Youngの屋"
+      url: "https://www.6young.site/"
+    - name: "贰猹的小窝"
+      url: "https://noionion.top/"
+    - name: "周润发"
+      url: "https://blog.zrf.me/"
+    - name: "小白の博客"
+      url: "https://www.showby.top/"
+    - name: "逸风亭"
+      url: "https://blog.fyz666.xyz/"
+    - name: "短巷与雨"
+      url: "https://www.hudi.space"
+    - name: "Hanta"
+      url: "https://blog.hanta2011.top/"
+    - name: "花生莲子粥"
+      url: "https://blog.hslzz.cn/"
+    - name: "PYM博客"
+      url: "https://pym.plus"
+    - name: "bbb-lsy07"
+      url: "https://blog.tsoo.net"
+    - name: "半方池水半方田"
+      url: "https://blog.uuanqin.top/"
+    - name: "𝟞𝟙𝟡’𝕤𝔹𝕃𝕆𝔾"
+      url: "https://66619.eu.org/"
+    - name: "鹊楠の小窝"
+      url: "https://blog.quenan.cn/"
+    - name: "EiloのBlog"
+      url: "https://aptu.net/"
+    - name: "Ariasakaの小窝"
+      url: "https://blog.yaria.top"
+    - name: "山岳库博"
+      url: "https://kmar.top/"
+    - name: "fishcpy的小破站"
+      url: "https://blog.fis.ink"
+    - name: "洛屿的小站"
+      url: "https://www.drluo.top/"
+    - name: "TavreBlog"
+      url: "https://blog.tavr.top"
+    - name: "AcoForkBlog"
+      url: "https://2x.nz"
+    - name: "梦爱吃鱼"
+      url: "https://blog.bsgun.cn/"
+    - name: "青序栈"
+      url: "https://www.qixz.cn/"
+    - name: "Mete0r’s Blog | 壹人小站"
+      url: "https://www.xscnet.cn"
+    - name: "夜轻Blog"
+      url: "https://blog.yeqing.net/"
+    - name: "刘郎阁"
+      url: "https://vjo.cc/"
+    - name: "Revelation"
+      url: "https://www.040426.xyz/"
+    - name: "谨言慎行"
+      url: "https://careful.fyi"
+    - name: "博客我们"
+      url: "https://blogwe.com/"

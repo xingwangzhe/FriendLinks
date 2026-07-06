@@ -1,24 +1,24 @@
 site:
-  name: 'macwright.com'
-  url: 'https://macwright.com/'
-  description: '友情链接'
-  links: '/about'
+  name: "macwright.com"
+  url: "https://macwright.com/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: 'Val Town'
-      url: 'https://www.val.town/'
-    - name: 'Placemark'
-      url: 'https://www.placemark.io/'
-    - name: 'Config'
-      url: 'https://config.com/'
-    - name: 'Observable'
-      url: 'https://observablehq.com/'
-    - name: 'Mapbox'
-      url: 'https://www.mapbox.com/'
-    - name: 'in a band'
-      url: 'http://teenmomdc.com/'
-    - name: 'statistics'
-      url: 'https://simple-statistics.github.io/'
-    - name: 'OpenStreetMap'
-      url: 'https://www.openstreetmap.org/'
-    - name: 'geojson.io'
-      url: 'https://geojson.io/'
+    - name: "Val Town"
+      url: "https://www.val.town/"
+    - name: "Placemark"
+      url: "https://www.placemark.io/"
+    - name: "Config"
+      url: "https://config.com/"
+    - name: "Observable"
+      url: "https://observablehq.com/"
+    - name: "Mapbox"
+      url: "https://www.mapbox.com/"
+    - name: "in a band"
+      url: "http://teenmomdc.com/"
+    - name: "statistics"
+      url: "https://simple-statistics.github.io/"
+    - name: "OpenStreetMap"
+      url: "https://www.openstreetmap.org/"
+    - name: "geojson.io"
+      url: "https://geojson.io/"

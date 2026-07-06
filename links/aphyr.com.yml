@@ -1,12 +1,12 @@
 site:
-  name: 'aphyr.com'
-  url: 'https://aphyr.com/'
-  description: '友情链接'
-  links: '/'
+  name: "aphyr.com"
+  url: "https://aphyr.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'PodPitch'
-      url: 'https://podpitch.com/'
-    - name: 'Dave Rossi'
-      url: 'https://daverossiglobal.com/'
-    - name: 'Alex Dripchak'
-      url: 'https://www.alexdripchak.com/'
+    - name: "PodPitch"
+      url: "https://podpitch.com/"
+    - name: "Dave Rossi"
+      url: "https://daverossiglobal.com/"
+    - name: "Alex Dripchak"
+      url: "https://www.alexdripchak.com/"

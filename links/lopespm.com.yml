@@ -1,12 +1,12 @@
 site:
-  name: 'lopespm.com'
-  url: 'https://lopespm.com/'
-  description: '友情链接'
-  links: '/'
+  name: "lopespm.com"
+  url: "https://lopespm.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'vivotime.net'
-      url: 'https://www.vivotime.net/'
-    - name: 'Survival Ball'
-      url: 'https://survivalball.com/'
-    - name: 'Octopress'
-      url: 'http://octopress.org'
+    - name: "vivotime.net"
+      url: "https://www.vivotime.net/"
+    - name: "Survival Ball"
+      url: "https://survivalball.com/"
+    - name: "Octopress"
+      url: "http://octopress.org"

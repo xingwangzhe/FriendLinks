@@ -1,16 +1,16 @@
 site:
-  name: 'andersmurphy.com'
-  url: 'https://andersmurphy.com/'
-  description: '友情链接'
-  links: '/'
+  name: "andersmurphy.com"
+  url: "https://andersmurphy.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'turbo'
-      url: 'https://turbo.hotwired.dev/'
-    - name: 'Circle CI'
-      url: 'https://circleci.com/'
-    - name: 'Fennel'
-      url: 'https://fennel-lang.org'
-    - name: 'SendGrid'
-      url: 'https://sendgrid.com'
-    - name: 'Advent of Code'
-      url: 'https://adventofcode.com/'
+    - name: "turbo"
+      url: "https://turbo.hotwired.dev/"
+    - name: "Circle CI"
+      url: "https://circleci.com/"
+    - name: "Fennel"
+      url: "https://fennel-lang.org"
+    - name: "SendGrid"
+      url: "https://sendgrid.com"
+    - name: "Advent of Code"
+      url: "https://adventofcode.com/"

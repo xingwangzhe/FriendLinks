@@ -1,14 +1,14 @@
 site:
-  name: 'blog.searchinfogo.com'
-  url: 'https://blog.searchinfogo.com/'
-  description: '友情链接'
-  links: '/'
+  name: "blog.searchinfogo.com"
+  url: "https://blog.searchinfogo.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: '一之笔'
-      url: 'https://yizibi.github.io/'
-    - name: '你好我是森林'
-      url: 'https://chensenlin.cn/'
-    - name: 'Ouyang''s Blog'
-      url: 'https://ouyang.wang/'
-    - name: 'mghio''s blog'
-      url: 'https://www.mghio.cn/'
+    - name: "一之笔"
+      url: "https://yizibi.github.io/"
+    - name: "你好我是森林"
+      url: "https://chensenlin.cn/"
+    - name: "Ouyang's Blog"
+      url: "https://ouyang.wang/"
+    - name: "mghio's blog"
+      url: "https://www.mghio.cn/"

@@ -69,20 +69,23 @@ export function rgbToHex(r: number, g: number, b: number) {
 export function adjustHex(hex: string, percent: number) {
   const [r, g, b] = hexToRgb(hex);
   // 转为 HSL
-  const rn = r / 255, gn = g / 255, bn = b / 255;
-  const mx = Math.max(rn, gn, bn), mn = Math.min(rn, gn, bn);
+  const rn = r / 255,
+    gn = g / 255,
+    bn = b / 255;
+  const mx = Math.max(rn, gn, bn),
+    mn = Math.min(rn, gn, bn);
   const l = (mx + mn) / 2;
   const s = mx === mn ? 0 : l > 0.5 ? (mx - mn) / (2 - mx - mn) : (mx - mn) / (mx + mn);
   // 只调亮度(l)，不调饱和度(s)
-  let newL = l + (percent / 100);
+  let newL = l + percent / 100;
   newL = Math.max(0, Math.min(1, newL));
   // HSL → RGB
   const hue2rgb = (p: number, q: number, t: number) => {
     if (t < 0) t += 1;
     if (t > 1) t -= 1;
-    if (t < 1/6) return p + (q - p) * 6 * t;
-    if (t < 1/2) return q;
-    if (t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+    if (t < 1 / 6) return p + (q - p) * 6 * t;
+    if (t < 1 / 2) return q;
+    if (t < 2 / 3) return p + (q - p) * (2 / 3 - t) * 6;
     return p;
   };
   if (mx === mn) {
@@ -91,9 +94,13 @@ export function adjustHex(hex: string, percent: number) {
   }
   const q = newL < 0.5 ? newL * (1 + s) : newL + s - newL * s;
   const p = 2 * newL - q;
-  const rc = hue2rgb(p, q, rn > gn ? (rn > bn ? (gn - bn) / (mx - mn) : -1/3) : (gn > bn ? (bn - rn) / (mx - mn) + 2/3 : 0));
-  const gc = hue2rgb(p, q, 1/3);
-  const bc = hue2rgb(p, q, 2/3);
+  const rc = hue2rgb(
+    p,
+    q,
+    rn > gn ? (rn > bn ? (gn - bn) / (mx - mn) : -1 / 3) : gn > bn ? (bn - rn) / (mx - mn) + 2 / 3 : 0,
+  );
+  const gc = hue2rgb(p, q, 1 / 3);
+  const bc = hue2rgb(p, q, 2 / 3);
   return rgbToHex(Math.round(rc * 255), Math.round(gc * 255), Math.round(bc * 255));
 }
 

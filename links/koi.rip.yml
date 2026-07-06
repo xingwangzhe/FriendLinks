@@ -1,14 +1,14 @@
 site:
-  name: 'koi.rip'
-  url: 'https://koi.rip/'
-  description: '友情链接'
-  links: '/'
+  name: "koi.rip"
+  url: "https://koi.rip/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'ebil pds'
-      url: 'https://pds.ebil.club'
-    - name: 'june.みんな'
-      url: 'https://june.みんな'
-    - name: 'nix'
-      url: 'https://nixwebr.ing'
-    - name: 'catppuccin'
-      url: 'https://ctp-webr.ing'
+    - name: "ebil pds"
+      url: "https://pds.ebil.club"
+    - name: "june.みんな"
+      url: "https://june.みんな"
+    - name: "nix"
+      url: "https://nixwebr.ing"
+    - name: "catppuccin"
+      url: "https://ctp-webr.ing"

@@ -1,12 +1,12 @@
 site:
-  name: 'keykernel.org'
-  url: 'http://keykernel.org/'
-  description: '友情链接'
-  links: '/links'
+  name: "keykernel.org"
+  url: "http://keykernel.org/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'ZhangDaren'
-      url: 'http://zhangdaren.github.io'
-    - name: '小王子'
-      url: 'http://smvirus.com'
-    - name: 'Wandai'
-      url: 'http://twd2.me'
+    - name: "ZhangDaren"
+      url: "http://zhangdaren.github.io"
+    - name: "小王子"
+      url: "http://smvirus.com"
+    - name: "Wandai"
+      url: "http://twd2.me"

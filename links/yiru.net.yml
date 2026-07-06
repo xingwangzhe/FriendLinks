@@ -1,12 +1,12 @@
 site:
-  name: 'yiru.net'
-  url: 'https://yiru.net/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "yiru.net"
+  url: "https://yiru.net/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: '绯色之喵 mmbkz.cn'
-      url: 'https://www.mmbkz.cn'
-    - name: 'ShowNian''Blog 11.do'
-      url: 'https://11.do/'
-    - name: '一如既往 lua.hk'
-      url: 'https://lua.hk'
+    - name: "绯色之喵 mmbkz.cn"
+      url: "https://www.mmbkz.cn"
+    - name: "ShowNian'Blog 11.do"
+      url: "https://11.do/"
+    - name: "一如既往 lua.hk"
+      url: "https://lua.hk"

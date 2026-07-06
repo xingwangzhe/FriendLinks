@@ -1,86 +1,86 @@
 site:
-  name: 'gilest.org'
-  url: 'https://gilest.org/'
-  description: '友情链接'
-  links: '/links'
+  name: "gilest.org"
+  url: "https://gilest.org/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Kristall'
-      url: 'https://kristall.random-projects.net'
-    - name: 'OpenQR'
-      url: 'https://openqr.me'
-    - name: 'Orbitouch keyless keyboard'
-      url: 'https://orbitouch.com'
-    - name: 'Michael Honey'
-      url: 'http://michaelhoney.com'
-    - name: 'Lydie’s website'
-      url: 'https://www.lydie.cc'
-    - name: 'Jes Olsen'
-      url: 'https://j3s.sh'
-    - name: 'Simon Evans'
-      url: 'https://sidewalken.com'
-    - name: 'Duarte Carmo'
-      url: 'https://duarteocarmo.com'
-    - name: 'Loadmore'
-      url: 'https://loadmo.re'
-    - name: 'Ken Zinser'
-      url: 'https://ken.fyi'
-    - name: 'Caolan McMahon'
-      url: 'https://caolan.uk'
-    - name: 'In love with PDA'
-      url: 'https://inlovewithpda.com'
-    - name: 'Protesilaos Stavrou'
-      url: 'https://protesilaos.com/'
-    - name: 'Pagecord'
-      url: 'https://pagecord.com'
-    - name: 'Alto'
-      url: 'https://alto.so'
-    - name: 'Notepin'
-      url: 'https://notepin.co'
-    - name: 'Thomas Hunter II'
-      url: 'https://thomashunter.name'
-    - name: 'Origami by Michał Kosmulski'
-      url: 'https://origami.kosmulski.org'
-    - name: 'Zen garden websites'
-      url: 'https://www.zengardenwebsites.com/#examples'
-    - name: 'Infinidesk is a novel idea for macOS'
-      url: 'https://infinidesk.app/'
-    - name: 'KC bought a 10 acre farm'
-      url: 'https://farm96.com'
-    - name: 'Eric Portis'
-      url: 'https://ericportis.com'
-    - name: 'Manuel Matuzović'
-      url: 'https://www.matuzo.at'
-    - name: 'Khaled Abou Alfa'
-      url: 'https://www.kaa.bz'
-    - name: 'Pondiverse'
-      url: 'https://www.pondiverse.com'
-    - name: 'Anna Worden'
-      url: 'https://annaworden.com'
-    - name: 'Dru Marland'
-      url: 'https://dru-withoutamap.blogspot.com'
-    - name: 'public.me'
-      url: 'https://public.me'
-    - name: 'Robin Whittleton'
-      url: 'https://www.robinwhittleton.com'
-    - name: 'Vilson Vieira'
-      url: 'https://void.cc'
-    - name: 'A little bit of rest'
-      url: 'https://alittlebitofrest.com'
-    - name: 'Neil Macy'
-      url: 'https://www.neilmacy.co.uk'
-    - name: 'Scoby'
-      url: 'https://scoby.page'
-    - name: 'amble.blog'
-      url: 'https://amble.blog'
-    - name: 'Better images of AI'
-      url: 'https://betterimagesofai.org'
-    - name: 'Hundred Year Host'
-      url: 'https://hundredyearhost.com'
-    - name: 'Go European'
-      url: 'https://www.goeuropean.org'
-    - name: '640 by 480'
-      url: 'https://640by480.com'
-    - name: 'Simple Web Server'
-      url: 'https://simplewebserver.org'
-    - name: 'Jens Lekman'
-      url: 'https://www.jenslekman.com/'
+    - name: "Kristall"
+      url: "https://kristall.random-projects.net"
+    - name: "OpenQR"
+      url: "https://openqr.me"
+    - name: "Orbitouch keyless keyboard"
+      url: "https://orbitouch.com"
+    - name: "Michael Honey"
+      url: "http://michaelhoney.com"
+    - name: "Lydie’s website"
+      url: "https://www.lydie.cc"
+    - name: "Jes Olsen"
+      url: "https://j3s.sh"
+    - name: "Simon Evans"
+      url: "https://sidewalken.com"
+    - name: "Duarte Carmo"
+      url: "https://duarteocarmo.com"
+    - name: "Loadmore"
+      url: "https://loadmo.re"
+    - name: "Ken Zinser"
+      url: "https://ken.fyi"
+    - name: "Caolan McMahon"
+      url: "https://caolan.uk"
+    - name: "In love with PDA"
+      url: "https://inlovewithpda.com"
+    - name: "Protesilaos Stavrou"
+      url: "https://protesilaos.com/"
+    - name: "Pagecord"
+      url: "https://pagecord.com"
+    - name: "Alto"
+      url: "https://alto.so"
+    - name: "Notepin"
+      url: "https://notepin.co"
+    - name: "Thomas Hunter II"
+      url: "https://thomashunter.name"
+    - name: "Origami by Michał Kosmulski"
+      url: "https://origami.kosmulski.org"
+    - name: "Zen garden websites"
+      url: "https://www.zengardenwebsites.com/#examples"
+    - name: "Infinidesk is a novel idea for macOS"
+      url: "https://infinidesk.app/"
+    - name: "KC bought a 10 acre farm"
+      url: "https://farm96.com"
+    - name: "Eric Portis"
+      url: "https://ericportis.com"
+    - name: "Manuel Matuzović"
+      url: "https://www.matuzo.at"
+    - name: "Khaled Abou Alfa"
+      url: "https://www.kaa.bz"
+    - name: "Pondiverse"
+      url: "https://www.pondiverse.com"
+    - name: "Anna Worden"
+      url: "https://annaworden.com"
+    - name: "Dru Marland"
+      url: "https://dru-withoutamap.blogspot.com"
+    - name: "public.me"
+      url: "https://public.me"
+    - name: "Robin Whittleton"
+      url: "https://www.robinwhittleton.com"
+    - name: "Vilson Vieira"
+      url: "https://void.cc"
+    - name: "A little bit of rest"
+      url: "https://alittlebitofrest.com"
+    - name: "Neil Macy"
+      url: "https://www.neilmacy.co.uk"
+    - name: "Scoby"
+      url: "https://scoby.page"
+    - name: "amble.blog"
+      url: "https://amble.blog"
+    - name: "Better images of AI"
+      url: "https://betterimagesofai.org"
+    - name: "Hundred Year Host"
+      url: "https://hundredyearhost.com"
+    - name: "Go European"
+      url: "https://www.goeuropean.org"
+    - name: "640 by 480"
+      url: "https://640by480.com"
+    - name: "Simple Web Server"
+      url: "https://simplewebserver.org"
+    - name: "Jens Lekman"
+      url: "https://www.jenslekman.com/"

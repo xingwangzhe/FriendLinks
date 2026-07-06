@@ -1,14 +1,14 @@
 site:
-  name: 'jackscott.id.au'
-  url: 'https://jackscott.id.au/'
-  description: '友情链接'
-  links: '/links'
+  name: "jackscott.id.au"
+  url: "https://jackscott.id.au/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Loop Foundry'
-      url: 'https://loopfoundry.com.au'
-    - name: 'Launtel'
-      url: 'https://www.launtel.net.au/'
-    - name: 'Aussie Broadband'
-      url: 'https://www.aussiebroadband.com.au/'
-    - name: 'Telstra'
-      url: 'https://www.telstra.com.au/'
+    - name: "Loop Foundry"
+      url: "https://loopfoundry.com.au"
+    - name: "Launtel"
+      url: "https://www.launtel.net.au/"
+    - name: "Aussie Broadband"
+      url: "https://www.aussiebroadband.com.au/"
+    - name: "Telstra"
+      url: "https://www.telstra.com.au/"

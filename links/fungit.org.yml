@@ -1,16 +1,16 @@
 site:
-  name: 'fungit.org'
-  url: 'https://fungit.org/'
-  description: '友情链接'
-  links: '/friend'
+  name: "fungit.org"
+  url: "https://fungit.org/"
+  description: "友情链接"
+  links: "/friend"
   friends:
-    - name: '秋水逸冰'
-      url: 'https://teddysun.com'
-    - name: '虹墨空间站'
-      url: 'https://www.imaegoo.com'
-    - name: 'Throwable'
-      url: 'https://www.throwx.cn'
-    - name: 'Pzai'
-      url: 'https://blog.pzai.cloud'
-    - name: '虎威笔记'
-      url: 'https://huawei.com.tw'
+    - name: "秋水逸冰"
+      url: "https://teddysun.com"
+    - name: "虹墨空间站"
+      url: "https://www.imaegoo.com"
+    - name: "Throwable"
+      url: "https://www.throwx.cn"
+    - name: "Pzai"
+      url: "https://blog.pzai.cloud"
+    - name: "虎威笔记"
+      url: "https://huawei.com.tw"

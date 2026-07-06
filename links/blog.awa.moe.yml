@@ -1,70 +1,70 @@
 site:
-  name: 'blog.awa.moe'
-  url: 'https://blog.awa.moe/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.awa.moe"
+  url: "https://blog.awa.moe/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '點擊訪問'
-      url: 'https://nebulas-star.github.io'
-    - name: '點擊訪問'
-      url: 'https://bleatingsheep.org'
-    - name: '點擊訪問'
-      url: 'https://blog.jason0743.space'
-    - name: '點擊訪問'
-      url: 'https://blog.akula.moe'
-    - name: '點擊訪問'
-      url: 'https://blog.nachtgeistw.zone'
-    - name: '點擊訪問'
-      url: 'https://9bie.org'
-    - name: '點擊訪問'
-      url: 'https://blog.amu.moe'
-    - name: '點擊訪問'
-      url: 'https://fiveyellowmice.com'
-    - name: '點擊訪問'
-      url: 'https://rainchan.win'
-    - name: '點擊訪問'
-      url: 'https://blog.0w0.ing'
-    - name: '點擊訪問'
-      url: 'https://www.mrs4s.moe'
-    - name: '點擊訪問'
-      url: 'https://blog.mbrjun.cn'
-    - name: '點擊訪問'
-      url: 'https://blog.nyamoe.com'
-    - name: '點擊訪問'
-      url: 'https://blog.arisa.moe'
-    - name: '點擊訪問'
-      url: 'https://yoroion.github.io'
-    - name: '點擊訪問'
-      url: 'https://chahuyun.cn'
-    - name: '點擊訪問'
-      url: 'https://sinoahpx.github.io'
-    - name: '點擊訪問'
-      url: 'https://liuxocakn.org.cn'
-    - name: '點擊訪問'
-      url: 'https://blog.qmqaq.top'
-    - name: '點擊訪問'
-      url: 'https://blog.hoshi.tech'
-    - name: '點擊訪問'
-      url: 'https://sorabs.cc'
-    - name: '點擊訪問'
-      url: 'https://blog.awbugl.top'
-    - name: '點擊訪問'
-      url: 'https://mouri.moe'
-    - name: '點擊訪問'
-      url: 'https://blog.sumika.icu'
-    - name: '點擊訪問'
-      url: 'https://shkong.cc'
-    - name: '點擊訪問'
-      url: 'https://www.vincents.top'
-    - name: '點擊訪問'
-      url: 'https://tqlwsl.moe'
-    - name: 'wdvxdr''s blog'
-      url: 'https://www.wdvxdr.com'
-    - name: 'Benpigchu'
-      url: 'https://benpigchu.com'
-    - name: 'LMonobook'
-      url: 'https://imlxy.net'
-    - name: 'jywhy6''s blog'
-      url: 'https://jywhy6.zone'
-    - name: 'Equim'
-      url: 'https://ekyu.moe'
+    - name: "點擊訪問"
+      url: "https://nebulas-star.github.io"
+    - name: "點擊訪問"
+      url: "https://bleatingsheep.org"
+    - name: "點擊訪問"
+      url: "https://blog.jason0743.space"
+    - name: "點擊訪問"
+      url: "https://blog.akula.moe"
+    - name: "點擊訪問"
+      url: "https://blog.nachtgeistw.zone"
+    - name: "點擊訪問"
+      url: "https://9bie.org"
+    - name: "點擊訪問"
+      url: "https://blog.amu.moe"
+    - name: "點擊訪問"
+      url: "https://fiveyellowmice.com"
+    - name: "點擊訪問"
+      url: "https://rainchan.win"
+    - name: "點擊訪問"
+      url: "https://blog.0w0.ing"
+    - name: "點擊訪問"
+      url: "https://www.mrs4s.moe"
+    - name: "點擊訪問"
+      url: "https://blog.mbrjun.cn"
+    - name: "點擊訪問"
+      url: "https://blog.nyamoe.com"
+    - name: "點擊訪問"
+      url: "https://blog.arisa.moe"
+    - name: "點擊訪問"
+      url: "https://yoroion.github.io"
+    - name: "點擊訪問"
+      url: "https://chahuyun.cn"
+    - name: "點擊訪問"
+      url: "https://sinoahpx.github.io"
+    - name: "點擊訪問"
+      url: "https://liuxocakn.org.cn"
+    - name: "點擊訪問"
+      url: "https://blog.qmqaq.top"
+    - name: "點擊訪問"
+      url: "https://blog.hoshi.tech"
+    - name: "點擊訪問"
+      url: "https://sorabs.cc"
+    - name: "點擊訪問"
+      url: "https://blog.awbugl.top"
+    - name: "點擊訪問"
+      url: "https://mouri.moe"
+    - name: "點擊訪問"
+      url: "https://blog.sumika.icu"
+    - name: "點擊訪問"
+      url: "https://shkong.cc"
+    - name: "點擊訪問"
+      url: "https://www.vincents.top"
+    - name: "點擊訪問"
+      url: "https://tqlwsl.moe"
+    - name: "wdvxdr's blog"
+      url: "https://www.wdvxdr.com"
+    - name: "Benpigchu"
+      url: "https://benpigchu.com"
+    - name: "LMonobook"
+      url: "https://imlxy.net"
+    - name: "jywhy6's blog"
+      url: "https://jywhy6.zone"
+    - name: "Equim"
+      url: "https://ekyu.moe"

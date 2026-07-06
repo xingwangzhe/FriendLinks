@@ -1,12 +1,12 @@
 site:
-  name: 'blog.xiaoz.org'
-  url: 'https://blog.xiaoz.org/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.xiaoz.org"
+  url: "https://blog.xiaoz.org/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'VirCloud''s Blog'
-      url: 'https://blog.vircloud.net/'
-    - name: '周良博客'
-      url: 'http://www.aips.me'
-    - name: 'Zdir文件分享'
-      url: 'https://www.zdir.pro/'
+    - name: "VirCloud's Blog"
+      url: "https://blog.vircloud.net/"
+    - name: "周良博客"
+      url: "http://www.aips.me"
+    - name: "Zdir文件分享"
+      url: "https://www.zdir.pro/"

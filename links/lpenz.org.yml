@@ -1,10 +1,10 @@
 site:
-  name: 'lpenz.org'
-  url: 'http://www.lpenz.org/'
-  description: '友情链接'
-  links: '/'
+  name: "lpenz.org"
+  url: "http://www.lpenz.org/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'travis-ci'
-      url: 'https://travis-ci.com'
-    - name: 'After the Deadline'
-      url: 'http://www.afterthedeadline.com/'
+    - name: "travis-ci"
+      url: "https://travis-ci.com"
+    - name: "After the Deadline"
+      url: "http://www.afterthedeadline.com/"

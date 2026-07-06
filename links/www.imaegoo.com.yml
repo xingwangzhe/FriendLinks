@@ -1,168 +1,168 @@
 site:
-  name: '虹墨空间站'
-  url: 'https://www.imaegoo.com/'
-  description: 'iMaeGoo&#39;s Blog'
-  links: '/links'
+  name: "虹墨空间站"
+  url: "https://www.imaegoo.com/"
+  description: "iMaeGoo&#39;s Blog"
+  links: "/links"
   friends:
-    - name: 'maemo的风船'
-      url: 'https://www.maemo.cc/'
-    - name: '米米的博客'
-      url: 'https://zhangshuqiao.org/'
-    - name: '辣椒の酱'
-      url: 'https://removeif.github.io/'
-    - name: 'Sakitami的集装箱'
-      url: 'https://blog.skihome.xyz/'
-    - name: '宇宙湾'
-      url: 'https://yuzhouwan.com/'
-    - name: 'Ray's Blog'
-      url: 'https://blog.mk1.io/'
-    - name: '张洪Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: 'Hi, I Am I'
-      url: 'https://5ime.cn/'
-    - name: '边缘矩阵'
-      url: 'https://android99.com/'
-    - name: '小嘉的部落格'
-      url: 'https://blog.imzjw.cn/'
-    - name: 'Guo Le's Blog'
-      url: 'https://blog.guole.fun/'
-    - name: 'cywhat's blog'
-      url: 'https://cywhat.cn/'
-    - name: '咕咕云梦泽'
-      url: 'https://blog.pai233.top/'
-    - name: 'Tianli's Blog'
-      url: 'https://blog.tianli0.top/'
-    - name: 'wallleap'
-      url: 'https://myblog.wallleap.cn/'
-    - name: '无妄当自持'
-      url: 'https://www.insidentally.com/'
-    - name: '海拥——一枚爱好计算机科学，乐于分享技术与快乐的博主'
-      url: 'https://haiyong.site/'
-    - name: 'BeaCox's Blog'
-      url: 'https://blog.beacox.space/'
-    - name: 'Lumine'
-      url: 'https://blog.snowflake.zone/'
-    - name: 'www.kaitaku.xyz'
-      url: 'https://www.kaitaku.xyz/'
-    - name: 'Leonus'
-      url: 'https://blog.leonus.cn/'
-    - name: 'golb'
-      url: 'https://blog.5252025.xyz/'
-    - name: 'Mycpen'
-      url: 'https://blog.cpen.top/'
-    - name: '春风吹'
-      url: 'https://cuojue.org/'
-    - name: '竹山一叶'
-      url: 'https://zsyyblog.com/'
-    - name: '满心博客_记录生活里的小美好'
-      url: 'https://zhoutian.com/'
-    - name: 'LEl_FENG的博客'
-      url: 'https://blog.xpdbk.com/'
-    - name: '晓林的博客主题ICP备案号'
-      url: 'https://www.peterjxl.com/'
-    - name: 'Mikuの极光星'
-      url: 'https://blog.sotkg.com/'
-    - name: '玖涯博客'
-      url: 'https://blog.nineya.com/'
-    - name: '铭心石刻'
-      url: 'https://blog.kouseki.cn/'
-    - name: '安仔の午睡床'
-      url: 'https://anzai.sleepingbed.top/'
-    - name: '神经蛙'
-      url: 'https://hexo.sjava.cn/'
-    - name: '定の栈'
-      url: 'https://blog.saop.cc/'
-    - name: '定の栈'
-      url: 'https://saop.cc/'
-    - name: '绘星里'
-      url: 'https://blog.storia.ren/'
-    - name: '杀死一只知更鸟'
-      url: 'https://www.shangjidong.com/'
-    - name: '狼林鱼池'
-      url: 'https://blog.jiyu134.top/'
-    - name: '杜老师说'
-      url: 'https://dusays.com/'
-    - name: '琅環书生'
-      url: 'https://blog.chn.us.kg/'
-    - name: 'qxdn的乐园'
-      url: 'https://qianxu.run/'
-    - name: 'lhDream'
-      url: 'https://blog.luhua.site/'
-    - name: 'Calyee`Blog'
-      url: 'https://blog.calyee.top/'
-    - name: 'Pzai'
-      url: 'https://blog.pzai.cloud/'
-    - name: '❖星港◎Star☆'
-      url: 'https://blog.starsharbor.com/'
-    - name: '云灿の随笔小站'
-      url: 'https://blog.yuncan.xyz/'
-    - name: 'ZY知识库'
-      url: 'https://blog.pljzy.top/'
-    - name: 'LiuShen's Blog'
-      url: 'https://blog.liushen.fun/'
-    - name: '伞菌の博客'
-      url: 'https://umb.ink/'
-    - name: '首页'
-      url: 'https://blog.elykia.cn/'
-    - name: '浅草物语'
-      url: 'https://www.chillg.de/'
-    - name: '埃氮幂の命名空间'
-      url: 'https://blog.qyadbr.top/'
-    - name: '鸢栀的仓库'
-      url: 'https://yuazhi.cn/'
-    - name: 'GnixAij-Blog'
-      url: 'https://vluv.space/'
-    - name: '墨韵先知'
-      url: 'https://www.htmacg.cn/'
-    - name: 'RhoPaperの小站'
-      url: 'https://blog.rhopaper.top/'
-    - name: '绾秋小站'
-      url: 'https://www.gx.gx.cn/'
-    - name: 'Liu Zijian's Blog'
-      url: 'https://blog.liuzijian.com/'
-    - name: 'TASA-Ed 官网'
-      url: 'https://www.tasaed.top/'
-    - name: 'KASUIEの次元'
-      url: 'https://kasuie.cc/'
-    - name: 'SeaEpoch'
-      url: 'https://www.seaepoch.com/'
-    - name: 'RE Blog'
-      url: 'https://blog.randench.cn/'
-    - name: '保哥笔记'
-      url: 'https://zhangwenbao.com/'
-    - name: 'xyx404'
-      url: 'https://xyx404.github.io/'
-    - name: '清梦云熙'
-      url: 'https://skylan.cc/'
-    - name: '小明的部落格'
-      url: 'https://www.xmdblog.com/'
-    - name: 'Peter267'
-      url: 'https://peter267.github.io/'
-    - name: 'JustPureH2O 的博客'
-      url: 'https://justpureh2o.cn/'
-    - name: 'Akvicor's Blog'
-      url: 'https://blog.akvicor.com/'
-    - name: 'Bleaz's Blog'
-      url: 'https://blog.bleaz.net/'
-    - name: '柠檬星'
-      url: 'https://blog.lemonstar.me/'
-    - name: 'Roxy_Magicの咖啡馆'
-      url: 'https://blog.roxymagic.top/'
-    - name: 'Honesty Blog'
-      url: 'https://blog.hehouhui.cn/'
-    - name: 'O's World'
-      url: 'https://ooo.run/'
-    - name: '清遥GitHubRSSCSDNGitee'
-      url: 'https://blog.askrabbit.net/'
-    - name: '夏夜流萤'
-      url: 'https://blog.cuteleaf.cn/'
-    - name: 'worable's Blog'
-      url: 'https://www.worable.top/'
-    - name: 'Misaka Network'
-      url: 'https://blog.misaka-net.top/'
-    - name: 'Dark零点博客'
-      url: 'https://www.tenca.cn/'
-    - name: 'G.B.S.A.T.'s Official Blog'
-      url: 'https://blog.gbsat.org/'
-    - name: '57uv6Z6g55qE5Y2a5a6i'
-      url: 'https://loli.fj.cn/'
+    - name: "maemo的风船"
+      url: "https://www.maemo.cc/"
+    - name: "米米的博客"
+      url: "https://zhangshuqiao.org/"
+    - name: "辣椒の酱"
+      url: "https://removeif.github.io/"
+    - name: "Sakitami的集装箱"
+      url: "https://blog.skihome.xyz/"
+    - name: "宇宙湾"
+      url: "https://yuzhouwan.com/"
+    - name: "Ray's Blog"
+      url: "https://blog.mk1.io/"
+    - name: "张洪Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "Hi, I Am I"
+      url: "https://5ime.cn/"
+    - name: "边缘矩阵"
+      url: "https://android99.com/"
+    - name: "小嘉的部落格"
+      url: "https://blog.imzjw.cn/"
+    - name: "Guo Le's Blog"
+      url: "https://blog.guole.fun/"
+    - name: "cywhat's blog"
+      url: "https://cywhat.cn/"
+    - name: "咕咕云梦泽"
+      url: "https://blog.pai233.top/"
+    - name: "Tianli's Blog"
+      url: "https://blog.tianli0.top/"
+    - name: "wallleap"
+      url: "https://myblog.wallleap.cn/"
+    - name: "无妄当自持"
+      url: "https://www.insidentally.com/"
+    - name: "海拥——一枚爱好计算机科学，乐于分享技术与快乐的博主"
+      url: "https://haiyong.site/"
+    - name: "BeaCox's Blog"
+      url: "https://blog.beacox.space/"
+    - name: "Lumine"
+      url: "https://blog.snowflake.zone/"
+    - name: "www.kaitaku.xyz"
+      url: "https://www.kaitaku.xyz/"
+    - name: "Leonus"
+      url: "https://blog.leonus.cn/"
+    - name: "golb"
+      url: "https://blog.5252025.xyz/"
+    - name: "Mycpen"
+      url: "https://blog.cpen.top/"
+    - name: "春风吹"
+      url: "https://cuojue.org/"
+    - name: "竹山一叶"
+      url: "https://zsyyblog.com/"
+    - name: "满心博客_记录生活里的小美好"
+      url: "https://zhoutian.com/"
+    - name: "LEl_FENG的博客"
+      url: "https://blog.xpdbk.com/"
+    - name: "晓林的博客主题ICP备案号"
+      url: "https://www.peterjxl.com/"
+    - name: "Mikuの极光星"
+      url: "https://blog.sotkg.com/"
+    - name: "玖涯博客"
+      url: "https://blog.nineya.com/"
+    - name: "铭心石刻"
+      url: "https://blog.kouseki.cn/"
+    - name: "安仔の午睡床"
+      url: "https://anzai.sleepingbed.top/"
+    - name: "神经蛙"
+      url: "https://hexo.sjava.cn/"
+    - name: "定の栈"
+      url: "https://blog.saop.cc/"
+    - name: "定の栈"
+      url: "https://saop.cc/"
+    - name: "绘星里"
+      url: "https://blog.storia.ren/"
+    - name: "杀死一只知更鸟"
+      url: "https://www.shangjidong.com/"
+    - name: "狼林鱼池"
+      url: "https://blog.jiyu134.top/"
+    - name: "杜老师说"
+      url: "https://dusays.com/"
+    - name: "琅環书生"
+      url: "https://blog.chn.us.kg/"
+    - name: "qxdn的乐园"
+      url: "https://qianxu.run/"
+    - name: "lhDream"
+      url: "https://blog.luhua.site/"
+    - name: "Calyee`Blog"
+      url: "https://blog.calyee.top/"
+    - name: "Pzai"
+      url: "https://blog.pzai.cloud/"
+    - name: "❖星港◎Star☆"
+      url: "https://blog.starsharbor.com/"
+    - name: "云灿の随笔小站"
+      url: "https://blog.yuncan.xyz/"
+    - name: "ZY知识库"
+      url: "https://blog.pljzy.top/"
+    - name: "LiuShen's Blog"
+      url: "https://blog.liushen.fun/"
+    - name: "伞菌の博客"
+      url: "https://umb.ink/"
+    - name: "首页"
+      url: "https://blog.elykia.cn/"
+    - name: "浅草物语"
+      url: "https://www.chillg.de/"
+    - name: "埃氮幂の命名空间"
+      url: "https://blog.qyadbr.top/"
+    - name: "鸢栀的仓库"
+      url: "https://yuazhi.cn/"
+    - name: "GnixAij-Blog"
+      url: "https://vluv.space/"
+    - name: "墨韵先知"
+      url: "https://www.htmacg.cn/"
+    - name: "RhoPaperの小站"
+      url: "https://blog.rhopaper.top/"
+    - name: "绾秋小站"
+      url: "https://www.gx.gx.cn/"
+    - name: "Liu Zijian's Blog"
+      url: "https://blog.liuzijian.com/"
+    - name: "TASA-Ed 官网"
+      url: "https://www.tasaed.top/"
+    - name: "KASUIEの次元"
+      url: "https://kasuie.cc/"
+    - name: "SeaEpoch"
+      url: "https://www.seaepoch.com/"
+    - name: "RE Blog"
+      url: "https://blog.randench.cn/"
+    - name: "保哥笔记"
+      url: "https://zhangwenbao.com/"
+    - name: "xyx404"
+      url: "https://xyx404.github.io/"
+    - name: "清梦云熙"
+      url: "https://skylan.cc/"
+    - name: "小明的部落格"
+      url: "https://www.xmdblog.com/"
+    - name: "Peter267"
+      url: "https://peter267.github.io/"
+    - name: "JustPureH2O 的博客"
+      url: "https://justpureh2o.cn/"
+    - name: "Akvicor's Blog"
+      url: "https://blog.akvicor.com/"
+    - name: "Bleaz's Blog"
+      url: "https://blog.bleaz.net/"
+    - name: "柠檬星"
+      url: "https://blog.lemonstar.me/"
+    - name: "Roxy_Magicの咖啡馆"
+      url: "https://blog.roxymagic.top/"
+    - name: "Honesty Blog"
+      url: "https://blog.hehouhui.cn/"
+    - name: "O's World"
+      url: "https://ooo.run/"
+    - name: "清遥GitHubRSSCSDNGitee"
+      url: "https://blog.askrabbit.net/"
+    - name: "夏夜流萤"
+      url: "https://blog.cuteleaf.cn/"
+    - name: "worable's Blog"
+      url: "https://www.worable.top/"
+    - name: "Misaka Network"
+      url: "https://blog.misaka-net.top/"
+    - name: "Dark零点博客"
+      url: "https://www.tenca.cn/"
+    - name: "G.B.S.A.T.'s Official Blog"
+      url: "https://blog.gbsat.org/"
+    - name: "57uv6Z6g55qE5Y2a5a6i"
+      url: "https://loli.fj.cn/"

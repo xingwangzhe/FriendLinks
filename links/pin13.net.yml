@@ -1,18 +1,18 @@
 site:
-  name: 'pin13.net'
-  url: 'http://pin13.net/'
-  description: '友情链接'
-  links: '/'
+  name: "pin13.net"
+  url: "http://pin13.net/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'webmention.net'
-      url: 'https://webmention.net'
-    - name: 'micropub.net'
-      url: 'https://micropub.net'
-    - name: 'oauth.net'
-      url: 'https://oauth.net'
-    - name: 'webmention.rocks'
-      url: 'https://webmention.rocks'
-    - name: 'micropub.rocks'
-      url: 'https://micropub.rocks'
-    - name: 'websub.rocks'
-      url: 'https://websub.rocks'
+    - name: "webmention.net"
+      url: "https://webmention.net"
+    - name: "micropub.net"
+      url: "https://micropub.net"
+    - name: "oauth.net"
+      url: "https://oauth.net"
+    - name: "webmention.rocks"
+      url: "https://webmention.rocks"
+    - name: "micropub.rocks"
+      url: "https://micropub.rocks"
+    - name: "websub.rocks"
+      url: "https://websub.rocks"

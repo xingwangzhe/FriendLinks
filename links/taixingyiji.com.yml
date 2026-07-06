@@ -1,12 +1,12 @@
 site:
-  name: 'taixingyiji.com'
-  url: 'https://taixingyiji.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "taixingyiji.com"
+  url: "https://taixingyiji.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Evan''s blog 积跬步以至千里，喜欢学习喜欢你。'
-      url: 'https://xugaoyi.com/'
-    - name: '左羽 Follow your heart.'
-      url: 'https://www.zuoyu.top'
-    - name: '小夏的博客 Devops运维技术博客'
-      url: 'https://www.xswsym.online/'
+    - name: "Evan's blog 积跬步以至千里，喜欢学习喜欢你。"
+      url: "https://xugaoyi.com/"
+    - name: "左羽 Follow your heart."
+      url: "https://www.zuoyu.top"
+    - name: "小夏的博客 Devops运维技术博客"
+      url: "https://www.xswsym.online/"

@@ -1,20 +1,20 @@
 site:
-  name: 'raganwald.com'
-  url: 'http://raganwald.com/'
-  description: '友情链接'
-  links: '/'
+  name: "raganwald.com"
+  url: "http://raganwald.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'PagerDuty'
-      url: 'https://www.pagerduty.com'
-    - name: 'Mdlogix'
-      url: 'https://mdlogix.com/'
-    - name: 'Future Electronics'
-      url: 'https://www.futureelectronics.com'
-    - name: 'Quest Software'
-      url: 'https://www.quest.com'
-    - name: 'Scheme'
-      url: 'https://www.scheme.org/'
-    - name: 'Tableau from Salesforce'
-      url: 'https://www.tableau.com'
-    - name: 'AIgility Solutions'
-      url: 'https://www.aigility.solutions'
+    - name: "PagerDuty"
+      url: "https://www.pagerduty.com"
+    - name: "Mdlogix"
+      url: "https://mdlogix.com/"
+    - name: "Future Electronics"
+      url: "https://www.futureelectronics.com"
+    - name: "Quest Software"
+      url: "https://www.quest.com"
+    - name: "Scheme"
+      url: "https://www.scheme.org/"
+    - name: "Tableau from Salesforce"
+      url: "https://www.tableau.com"
+    - name: "AIgility Solutions"
+      url: "https://www.aigility.solutions"

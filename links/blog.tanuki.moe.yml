@@ -1,34 +1,34 @@
 site:
-  name: 'blog.tanuki.moe'
-  url: 'https://blog.tanuki.moe/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.tanuki.moe"
+  url: "https://blog.tanuki.moe/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '映雪青帖'
-      url: 'https://www.aoisnow.net/'
-    - name: '咸鱼的小鱼塘'
-      url: 'https://blog.zjyl1994.com/'
-    - name: 'home <- Benpigchu'
-      url: 'https://benpigchu.com/'
-    - name: '暗之城！科学之城！'
-      url: 'https://jack-works.github.io/'
-    - name: '哞菇 / Nekotora'
-      url: 'https://flag.moe/'
-    - name: 'Cyberia'
-      url: 'https://nptr.cc/'
-    - name: '吐槽大王部落格'
-      url: 'https://www.tcdw.net/'
-    - name: 'qwe7002 的个人博客'
-      url: 'https://qwe7002.com/'
-    - name: 'StarryVoid · 星光璀璨之空'
-      url: 'https://blog.starryvoid.com/'
-    - name: 'xMuu'
-      url: 'https://xmuu.dev'
-    - name: '国家级退堂鼓艺术家'
-      url: 'https://www.kikocore.cn/'
-    - name: 'CyanNyan 赛小盐'
-      url: 'https://cyannyan.com'
-    - name: '新式创筑 InnovaCreation'
-      url: 'https://innovacreation.art/'
-    - name: '四舍一居'
-      url: 'http://localhost:8090/'
+    - name: "映雪青帖"
+      url: "https://www.aoisnow.net/"
+    - name: "咸鱼的小鱼塘"
+      url: "https://blog.zjyl1994.com/"
+    - name: "home <- Benpigchu"
+      url: "https://benpigchu.com/"
+    - name: "暗之城！科学之城！"
+      url: "https://jack-works.github.io/"
+    - name: "哞菇 / Nekotora"
+      url: "https://flag.moe/"
+    - name: "Cyberia"
+      url: "https://nptr.cc/"
+    - name: "吐槽大王部落格"
+      url: "https://www.tcdw.net/"
+    - name: "qwe7002 的个人博客"
+      url: "https://qwe7002.com/"
+    - name: "StarryVoid · 星光璀璨之空"
+      url: "https://blog.starryvoid.com/"
+    - name: "xMuu"
+      url: "https://xmuu.dev"
+    - name: "国家级退堂鼓艺术家"
+      url: "https://www.kikocore.cn/"
+    - name: "CyanNyan 赛小盐"
+      url: "https://cyannyan.com"
+    - name: "新式创筑 InnovaCreation"
+      url: "https://innovacreation.art/"
+    - name: "四舍一居"
+      url: "http://localhost:8090/"

@@ -1,18 +1,18 @@
 site:
-  name: 'oxblog.cn'
-  url: 'http://oxblog.cn/'
-  description: '友情链接'
-  links: '/friend'
+  name: "oxblog.cn"
+  url: "http://oxblog.cn/"
+  description: "友情链接"
+  links: "/friend"
   friends:
-    - name: 'jinsom-LightSNS'
-      url: 'https://q.jinsom.cn/'
-    - name: '烈酒博文'
-      url: 'http://liejiu.cc/'
-    - name: '来语直搜'
-      url: 'http://www.zhisou.cc/'
-    - name: '软考网'
-      url: 'https://www.ruankao.org.cn/'
-    - name: '创业帮'
-      url: 'http://www.cyzone.cn/'
-    - name: '吖远zzyの博客'
-      url: 'http://www.hzv5.cn'
+    - name: "jinsom-LightSNS"
+      url: "https://q.jinsom.cn/"
+    - name: "烈酒博文"
+      url: "http://liejiu.cc/"
+    - name: "来语直搜"
+      url: "http://www.zhisou.cc/"
+    - name: "软考网"
+      url: "https://www.ruankao.org.cn/"
+    - name: "创业帮"
+      url: "http://www.cyzone.cn/"
+    - name: "吖远zzyの博客"
+      url: "http://www.hzv5.cn"

@@ -1,16 +1,16 @@
 site:
-  name: 'himself65.com'
-  url: 'https://www.himself65.com/'
-  description: '友情链接'
-  links: '/'
+  name: "himself65.com"
+  url: "https://www.himself65.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Better Auth'
-      url: 'https://www.better-auth.com/'
-    - name: 'LlamaIndex'
-      url: 'https://llamaindex.ai/'
-    - name: 'toeverything'
-      url: 'https://affine.pro/'
-    - name: 'Textea'
-      url: 'https://www.textea.co/'
-    - name: 'Maskbook'
-      url: 'http://mask.io/'
+    - name: "Better Auth"
+      url: "https://www.better-auth.com/"
+    - name: "LlamaIndex"
+      url: "https://llamaindex.ai/"
+    - name: "toeverything"
+      url: "https://affine.pro/"
+    - name: "Textea"
+      url: "https://www.textea.co/"
+    - name: "Maskbook"
+      url: "http://mask.io/"

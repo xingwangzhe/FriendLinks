@@ -1,8 +1,8 @@
 site:
-  name: 'clojurecivitas.org'
-  url: 'https://clojurecivitas.org/'
-  description: '友情链接'
-  links: '/about'
+  name: "clojurecivitas.org"
+  url: "https://clojurecivitas.org/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: 'Clojure Civitas Analytics Dashboard'
-      url: 'https://clojurecivitas.goatcounter.com/'
+    - name: "Clojure Civitas Analytics Dashboard"
+      url: "https://clojurecivitas.goatcounter.com/"

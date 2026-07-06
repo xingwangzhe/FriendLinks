@@ -1,16 +1,16 @@
 site:
-  name: 'heuluck.top'
-  url: 'https://heuluck.top/'
-  description: '友情链接'
-  links: '/'
+  name: "heuluck.top"
+  url: "https://heuluck.top/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'My Hugo Blog'
-      url: 'https://hugo.heuluck.dev/'
-    - name: 'Blog of Wr'
-      url: 'https://wrye.dev/'
-    - name: '头头咖啡屋'
-      url: 'https://tito.cafe/'
-    - name: '雏绒的博客'
-      url: 'https://asadz.cc/'
-    - name: 'heuluck.dev'
-      url: 'https://heuluck.dev/'
+    - name: "My Hugo Blog"
+      url: "https://hugo.heuluck.dev/"
+    - name: "Blog of Wr"
+      url: "https://wrye.dev/"
+    - name: "头头咖啡屋"
+      url: "https://tito.cafe/"
+    - name: "雏绒的博客"
+      url: "https://asadz.cc/"
+    - name: "heuluck.dev"
+      url: "https://heuluck.dev/"

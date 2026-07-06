@@ -1,12 +1,12 @@
 site:
-  name: 'roe.dev'
-  url: 'https://roe.dev/'
-  description: '友情链接'
-  links: '/'
+  name: "roe.dev"
+  url: "https://roe.dev/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: '🇨🇭 ZurichJS ConfSeptember 11'
-      url: 'https://conf.zurichjs.com/'
-    - name: '🇨🇿 PragVue 2026September 29'
-      url: 'https://pragvue.com/'
-    - name: '🇲🇽 JSConf MexicoOctober 29 - October 30'
-      url: 'https://jsconf.mx/'
+    - name: "🇨🇭 ZurichJS ConfSeptember 11"
+      url: "https://conf.zurichjs.com/"
+    - name: "🇨🇿 PragVue 2026September 29"
+      url: "https://pragvue.com/"
+    - name: "🇲🇽 JSConf MexicoOctober 29 - October 30"
+      url: "https://jsconf.mx/"

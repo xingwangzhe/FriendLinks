@@ -1,90 +1,90 @@
 site:
-  name: 'blog.tianhw.top'
-  description: '友情链接'
-  url: 'https://blog.tianhw.top/'
-  links: '/friends'
+  name: "blog.tianhw.top"
+  description: "友情链接"
+  url: "https://blog.tianhw.top/"
+  links: "/friends"
   friends:
-    - name: 'Li''s Blog 写下最美的文章！！'
-      url: 'https://blog.kokowo.cn/'
-    - name: '尘の个人博客 一个高中生 UP 搭的博客 QwQ'
-      url: 'https://blog.mcxiaochen.top/'
-    - name: 'AcoFork Blog 爱你所爱~ ❤'
-      url: 'https://www.2x.nz/'
-    - name: 'Mo的记事簿 万年鸽王，哈哈OvO'
-      url: 'https://blog.xiowo.net/'
-    - name: 'yunsen2025 的小窝 纯粹的计算机爱好者'
-      url: 'https://www.yunsen2025.top'
-    - name: 'Eilo''s Blog 等等我记一下'
-      url: 'https://aptu.net/'
-    - name: 'ZLA 小站 月亮不抱你，星星会落在你怀里✨🌙'
-      url: 'https://zla.pub/'
-    - name: '小不的窝 分かりません'
-      url: 'https://blog.donotknow.top/'
-    - name: 'bbb-lsy07 科技激荡人文，洞见智慧本真。'
-      url: 'https://blog.tsoo.net'
-    - name: 'fishcpy的小破站 非淡泊无以明志，非宁静无以致远'
-      url: 'https://blog.fis.ink'
-    - name: 'KASUIEの次元 喜欢温柔的人'
-      url: 'https://kasuie.cc'
-    - name: '清羽飞扬 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜'
-      url: 'https://blog.liushen.fun'
-    - name: '❖星港◎Star☆ 以博客记录生活与热爱！'
-      url: 'https://blog.starsharbor.com'
-    - name: 'Sakun Notebook 一个声豚的自我救赎'
-      url: 'https://www.sakun.space/'
-    - name: 'qingshen''s blog 心之所向，素履以往'
-      url: 'https://qsblog.top'
-    - name: '青序栈 青序成栈·向简而生'
-      url: 'https://www.qixz.cn/'
-    - name: 'mccsjs 点一盏灯，等一个迷路的夜🍁🍁🍁'
-      url: 'https://seln.cn/'
-    - name: 'XgrBlog 学无止境'
-      url: 'https://xgrblog.cn'
-    - name: '晓正杨博客 无限进步'
-      url: 'https://blog.yang233.eu.org'
-    - name: '时光驿站 记录生活，分享知识，定格美好'
-      url: 'https://blog.ksah.cn/'
-    - name: '你好可爱 山水一程，三生有幸✨'
-      url: 'https://wjldarling.top/'
-    - name: 'Clina''s Blog ¡El pueblo unido jamás será vencido!'
-      url: 'https://blog.clina.top'
-    - name: '夏夜流萤 飞萤之火自无梦的长夜亮起，绽放在终竟的明天。'
-      url: 'https://blog.cuteleaf.cn'
-    - name: 'Amiracle 向往之处，便是归途'
-      url: 'https://amiracle.site'
-    - name: 'JasonShane 七月初七，淮水竹亭'
-      url: 'https://blog.xshan.top/'
-    - name: 'Wtada233''s Blog ''OR 1=1; DROP DATABASE db0; --'
-      url: 'https://wtada233.top'
-    - name: 'CPer''s Blog 技术分享与实践'
-      url: 'https://blog.510904.xyz/'
-    - name: '1zyq1’s Blog Protect What You Love./爱你所爱！'
-      url: 'https://www.1zyq1.com/'
-    - name: 'Wan’s Blog Love is my oath.'
-      url: 'https://blog.wanfory.top'
-    - name: '无大人生的博客 远赴人间惊鸿宴，一睹人间盛世颜。'
-      url: 'https://blog.wudarensheng.top'
-    - name: '运阳的小窝 人生苦短，我用python'
-      url: 'https://blog.lyuy.top/'
-    - name: 'Luquiesceneの小屋 To be or not to be: that is the question.'
-      url: 'https://luq-blog.xyz/'
-    - name: 'Hakadao Now I am become a loser, the destroyer of myself.'
-      url: 'https://hakadao.cc/'
-    - name: '枝动力の小站 渺渺星海,唯我独芒!'
-      url: 'https://zhidongli.top/'
-    - name: '凛星RinStel 物来顺应, 未来不迎, 当下不杂, 既过不恋'
-      url: 'https://rinx.nz'
-    - name: '爱吃猫的鱼 前景可待 未来可期'
-      url: 'https://blog.talen.top'
-    - name: 'halei0v0''s Blog The world is big, you have to go and see~'
-      url: 'https://v-blog.halei0v0.top'
-    - name: 'onlyfork-blog 欢迎光临喵喵'
-      url: 'https://blog.0y.hk'
-    - name: 'Enento焰白小站 百次思考，千次落笔，刻下万次记忆'
-      url: 'https://enento.cloud/'
-    - name: '可爱のElaina 或许是不知梦的缘故，流离之人追逐幻影'
-      url: 'https://blog.yhx1415926.top'
-    - name: 'Hyde Blog 人心中的成见是一座大山'
-      url: 'https://seasir.top/'
-    - name: '年华 分享生活和技术。'
-      url: 'https://blog.520781.xyz'
+    - name: "Li's Blog 写下最美的文章！！"
+      url: "https://blog.kokowo.cn/"
+    - name: "尘の个人博客 一个高中生 UP 搭的博客 QwQ"
+      url: "https://blog.mcxiaochen.top/"
+    - name: "AcoFork Blog 爱你所爱~ ❤"
+      url: "https://www.2x.nz/"
+    - name: "Mo的记事簿 万年鸽王，哈哈OvO"
+      url: "https://blog.xiowo.net/"
+    - name: "yunsen2025 的小窝 纯粹的计算机爱好者"
+      url: "https://www.yunsen2025.top"
+    - name: "Eilo's Blog 等等我记一下"
+      url: "https://aptu.net/"
+    - name: "ZLA 小站 月亮不抱你，星星会落在你怀里✨🌙"
+      url: "https://zla.pub/"
+    - name: "小不的窝 分かりません"
+      url: "https://blog.donotknow.top/"
+    - name: "bbb-lsy07 科技激荡人文，洞见智慧本真。"
+      url: "https://blog.tsoo.net"
+    - name: "fishcpy的小破站 非淡泊无以明志，非宁静无以致远"
+      url: "https://blog.fis.ink"
+    - name: "KASUIEの次元 喜欢温柔的人"
+      url: "https://kasuie.cc"
+    - name: "清羽飞扬 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
+      url: "https://blog.liushen.fun"
+    - name: "❖星港◎Star☆ 以博客记录生活与热爱！"
+      url: "https://blog.starsharbor.com"
+    - name: "Sakun Notebook 一个声豚的自我救赎"
+      url: "https://www.sakun.space/"
+    - name: "qingshen's blog 心之所向，素履以往"
+      url: "https://qsblog.top"
+    - name: "青序栈 青序成栈·向简而生"
+      url: "https://www.qixz.cn/"
+    - name: "mccsjs 点一盏灯，等一个迷路的夜🍁🍁🍁"
+      url: "https://seln.cn/"
+    - name: "XgrBlog 学无止境"
+      url: "https://xgrblog.cn"
+    - name: "晓正杨博客 无限进步"
+      url: "https://blog.yang233.eu.org"
+    - name: "时光驿站 记录生活，分享知识，定格美好"
+      url: "https://blog.ksah.cn/"
+    - name: "你好可爱 山水一程，三生有幸✨"
+      url: "https://wjldarling.top/"
+    - name: "Clina's Blog ¡El pueblo unido jamás será vencido!"
+      url: "https://blog.clina.top"
+    - name: "夏夜流萤 飞萤之火自无梦的长夜亮起，绽放在终竟的明天。"
+      url: "https://blog.cuteleaf.cn"
+    - name: "Amiracle 向往之处，便是归途"
+      url: "https://amiracle.site"
+    - name: "JasonShane 七月初七，淮水竹亭"
+      url: "https://blog.xshan.top/"
+    - name: "Wtada233's Blog 'OR 1=1; DROP DATABASE db0; --"
+      url: "https://wtada233.top"
+    - name: "CPer's Blog 技术分享与实践"
+      url: "https://blog.510904.xyz/"
+    - name: "1zyq1’s Blog Protect What You Love./爱你所爱！"
+      url: "https://www.1zyq1.com/"
+    - name: "Wan’s Blog Love is my oath."
+      url: "https://blog.wanfory.top"
+    - name: "无大人生的博客 远赴人间惊鸿宴，一睹人间盛世颜。"
+      url: "https://blog.wudarensheng.top"
+    - name: "运阳的小窝 人生苦短，我用python"
+      url: "https://blog.lyuy.top/"
+    - name: "Luquiesceneの小屋 To be or not to be: that is the question."
+      url: "https://luq-blog.xyz/"
+    - name: "Hakadao Now I am become a loser, the destroyer of myself."
+      url: "https://hakadao.cc/"
+    - name: "枝动力の小站 渺渺星海,唯我独芒!"
+      url: "https://zhidongli.top/"
+    - name: "凛星RinStel 物来顺应, 未来不迎, 当下不杂, 既过不恋"
+      url: "https://rinx.nz"
+    - name: "爱吃猫的鱼 前景可待 未来可期"
+      url: "https://blog.talen.top"
+    - name: "halei0v0's Blog The world is big, you have to go and see~"
+      url: "https://v-blog.halei0v0.top"
+    - name: "onlyfork-blog 欢迎光临喵喵"
+      url: "https://blog.0y.hk"
+    - name: "Enento焰白小站 百次思考，千次落笔，刻下万次记忆"
+      url: "https://enento.cloud/"
+    - name: "可爱のElaina 或许是不知梦的缘故，流离之人追逐幻影"
+      url: "https://blog.yhx1415926.top"
+    - name: "Hyde Blog 人心中的成见是一座大山"
+      url: "https://seasir.top/"
+    - name: "年华 分享生活和技术。"
+      url: "https://blog.520781.xyz"

@@ -1,10 +1,10 @@
 site:
-  name: 'moe.tips'
-  url: 'https://moe.tips/'
-  description: '友情链接'
-  links: '/'
+  name: "moe.tips"
+  url: "https://moe.tips/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: '提供云储存服务'
-      url: 'https://azure.com'
-    - name: 'Mashiro'
-      url: 'https://2heng.xin/'
+    - name: "提供云储存服务"
+      url: "https://azure.com"
+    - name: "Mashiro"
+      url: "https://2heng.xin/"

@@ -1,10 +1,10 @@
 site:
-  name: 'zenhabits.net'
-  url: 'http://zenhabits.net/'
-  description: '友情链接'
-  links: '/friends'
+  name: "zenhabits.net"
+  url: "http://zenhabits.net/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Leo Babauta'
-      url: 'http://leobabauta.com'
-    - name: 'Tynan'
-      url: 'http://tynan.com/'
+    - name: "Leo Babauta"
+      url: "http://leobabauta.com"
+    - name: "Tynan"
+      url: "http://tynan.com/"

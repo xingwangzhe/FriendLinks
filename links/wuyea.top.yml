@@ -1,12 +1,12 @@
 site:
-  name: 'wuyea.top'
-  url: 'https://wuyea.top/'
-  description: '友情链接'
-  links: '/friends'
+  name: "wuyea.top"
+  url: "https://wuyea.top/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '前去围观'
-      url: 'https://blinkfox.github.io/'
-    - name: '前去探索'
-      url: 'https://zhangxiaocai.cn'
-    - name: '前端进阶之路'
-      url: 'https://fe32.top/'
+    - name: "前去围观"
+      url: "https://blinkfox.github.io/"
+    - name: "前去探索"
+      url: "https://zhangxiaocai.cn"
+    - name: "前端进阶之路"
+      url: "https://fe32.top/"

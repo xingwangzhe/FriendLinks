@@ -1,10 +1,10 @@
 site:
-  name: 'candinya.com'
-  url: 'https://candinya.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "candinya.com"
+  url: "https://candinya.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Candinya'
-      url: 'https://ncd.moe'
-    - name: 'CloudFlare Pages'
-      url: 'https://pages.dev'
+    - name: "Candinya"
+      url: "https://ncd.moe"
+    - name: "CloudFlare Pages"
+      url: "https://pages.dev"

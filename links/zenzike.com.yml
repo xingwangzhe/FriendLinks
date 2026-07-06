@@ -1,30 +1,30 @@
 site:
-  name: 'zenzike.com'
-  url: 'http://zenzike.com/'
-  description: '友情链接'
-  links: '/'
+  name: "zenzike.com"
+  url: "http://zenzike.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Well-Typed'
-      url: 'http://www.well-typed.com/'
-    - name: 'FLOPS 2022'
-      url: 'https://trendsfp.github.io/'
-    - name: 'POPL 2022'
-      url: 'https://popl22.sigplan.org/'
-    - name: 'ICFP 2019 (ERC)'
-      url: 'https://icfp19.sigplan.org/'
-    - name: 'TFP 2019'
-      url: 'https://www.tfp2019.org/'
-    - name: 'ICFP 2017'
-      url: 'https://icfp17.sigplan.org/'
-    - name: 'MSFP 2016'
-      url: 'https://msfp2016.bentnib.org/'
-    - name: 'IFL 2014'
-      url: 'https://ifl2014.github.io/'
-    - name: 'Zhixuan Yang'
-      url: 'https://yangzhixuan.github.io'
-    - name: 'Donnacha Oisín Kidney'
-      url: 'https://doisinkidney.com/'
-    - name: 'Matthew Pickering'
-      url: 'https://mpickering.github.io/'
-    - name: 'Csongor Kiss'
-      url: 'https://kcsongor.github.io/'
+    - name: "Well-Typed"
+      url: "http://www.well-typed.com/"
+    - name: "FLOPS 2022"
+      url: "https://trendsfp.github.io/"
+    - name: "POPL 2022"
+      url: "https://popl22.sigplan.org/"
+    - name: "ICFP 2019 (ERC)"
+      url: "https://icfp19.sigplan.org/"
+    - name: "TFP 2019"
+      url: "https://www.tfp2019.org/"
+    - name: "ICFP 2017"
+      url: "https://icfp17.sigplan.org/"
+    - name: "MSFP 2016"
+      url: "https://msfp2016.bentnib.org/"
+    - name: "IFL 2014"
+      url: "https://ifl2014.github.io/"
+    - name: "Zhixuan Yang"
+      url: "https://yangzhixuan.github.io"
+    - name: "Donnacha Oisín Kidney"
+      url: "https://doisinkidney.com/"
+    - name: "Matthew Pickering"
+      url: "https://mpickering.github.io/"
+    - name: "Csongor Kiss"
+      url: "https://kcsongor.github.io/"

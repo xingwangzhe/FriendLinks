@@ -1,10 +1,10 @@
 site:
-  name: 'fanzhuo.xyz'
-  url: 'https://fanzhuo.xyz/'
-  description: '友情链接'
-  links: '/friend'
+  name: "fanzhuo.xyz"
+  url: "https://fanzhuo.xyz/"
+  description: "友情链接"
+  links: "/friend"
   friends:
-    - name: 'imgcc'
-      url: 'https://www.imgcc.cloud/'
-    - name: '渐变背景生成器'
-      url: 'https://bg.diyun.site/'
+    - name: "imgcc"
+      url: "https://www.imgcc.cloud/"
+    - name: "渐变背景生成器"
+      url: "https://bg.diyun.site/"

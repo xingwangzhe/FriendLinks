@@ -1,12 +1,12 @@
 site:
-  name: 'moritzglantz.de'
-  url: 'https://moritzglantz.de/'
-  description: '友情链接'
-  links: '/'
+  name: "moritzglantz.de"
+  url: "https://moritzglantz.de/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Shop'
-      url: 'https://nerdiverse.myspreadshop.de/'
-    - name: 'WCAG Color Contrast Tester'
-      url: 'https://contrast-ratio.org/'
-    - name: 'Tracking-free QR-Code Generator'
-      url: 'https://2qr.info'
+    - name: "Shop"
+      url: "https://nerdiverse.myspreadshop.de/"
+    - name: "WCAG Color Contrast Tester"
+      url: "https://contrast-ratio.org/"
+    - name: "Tracking-free QR-Code Generator"
+      url: "https://2qr.info"

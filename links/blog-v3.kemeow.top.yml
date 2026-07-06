@@ -1,12 +1,12 @@
 site:
-  name: 'blog-v3.kemeow.top'
-  url: 'https://blog-v3.kemeow.top/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog-v3.kemeow.top"
+  url: "https://blog-v3.kemeow.top/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'wallleap'
-      url: 'https://myblog.wallleap.cn/'
-    - name: '『纸鹿摸鱼处』'
-      url: 'https://blog.zhilu.site/'
-    - name: '梦爱吃鱼'
-      url: 'https://blog.bsgun.cn/'
+    - name: "wallleap"
+      url: "https://myblog.wallleap.cn/"
+    - name: "『纸鹿摸鱼处』"
+      url: "https://blog.zhilu.site/"
+    - name: "梦爱吃鱼"
+      url: "https://blog.bsgun.cn/"

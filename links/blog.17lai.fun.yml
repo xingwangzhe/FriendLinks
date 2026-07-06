@@ -1,12 +1,12 @@
 site:
-  name: 'blog.17lai.fun'
-  url: 'https://blog.17lai.fun/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.17lai.fun"
+  url: "https://blog.17lai.fun/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Linux命令'
-      url: 'https://linux-command.17lai.site/'
-    - name: '17lai.pages.dev'
-      url: 'https://17lai.pages.dev/'
-    - name: 'bot.webpushr.com'
-      url: 'https://bot.webpushr.com'
+    - name: "Linux命令"
+      url: "https://linux-command.17lai.site/"
+    - name: "17lai.pages.dev"
+      url: "https://17lai.pages.dev/"
+    - name: "bot.webpushr.com"
+      url: "https://bot.webpushr.com"

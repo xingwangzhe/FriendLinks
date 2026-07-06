@@ -1,12 +1,12 @@
 site:
-  name: 'roytang.net'
-  url: 'https://roytang.net/'
-  description: '友情链接'
-  links: '/'
+  name: "roytang.net"
+  url: "https://roytang.net/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'IN THE WEIGHTS'
-      url: 'https://intheweights.com/'
-    - name: 'Fediring'
-      url: 'https://fediring.net/'
-    - name: 'Django'
-      url: 'https://www.djangoproject.com/'
+    - name: "IN THE WEIGHTS"
+      url: "https://intheweights.com/"
+    - name: "Fediring"
+      url: "https://fediring.net/"
+    - name: "Django"
+      url: "https://www.djangoproject.com/"

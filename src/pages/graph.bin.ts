@@ -152,7 +152,7 @@ export async function GET() {
   // d3-force golden-ratio spiral initialization
   const initialRadius = 10;
   const rollAngle = Math.PI * (3 - Math.sqrt(5));
-  const yawAngle = Math.PI * 20 / (9 + Math.sqrt(221));
+  const yawAngle = (Math.PI * 20) / (9 + Math.sqrt(221));
   for (let i = 0; i < n; i++) {
     const b = i * 6;
     const radius = initialRadius * Math.cbrt(0.5 + i);
@@ -171,14 +171,24 @@ export async function GET() {
   for (const l of linksArr) {
     const si = idMap.get(typeof l.source === "string" ? l.source : (l as any).source);
     const ti = idMap.get(typeof l.target === "string" ? l.target : (l as any).target);
-    if (si != null && ti != null) { linkSrcTgt[li++] = si; linkSrcTgt[li++] = ti; }
+    if (si != null && ti != null) {
+      linkSrcTgt[li++] = si;
+      linkSrcTgt[li++] = ti;
+    }
   }
   const linksFlat = Array.from(linkSrcTgt.slice(0, li));
 
   const REPULSION = 30000;
   const LINK_DISTANCE = 500;
   const CENTER_STRENGTH = 0.015;
-  const forceOpts = { repulsion: REPULSION, linkDistance: LINK_DISTANCE, centerStrength: CENTER_STRENGTH, theta: 0.8, velocityDecay: 0.10, alphaDecay: 0.02 };
+  const forceOpts = {
+    repulsion: REPULSION,
+    linkDistance: LINK_DISTANCE,
+    centerStrength: CENTER_STRENGTH,
+    theta: 0.8,
+    velocityDecay: 0.1,
+    alphaDecay: 0.02,
+  };
 
   const FAST = isFastMode();
   const TICKS_MAX = FAST ? 100 : 500;
@@ -203,7 +213,10 @@ export async function GET() {
       printProgress("❷", `tick ${i + 1}/${TICKS_MAX}  α=${s[s.length - 1].toFixed(4)}  ${n} 节点`, tickPct);
     }
     if (s[s.length - 1] < alphaMin) break;
-    if (elapsed > TIME_LIMIT_MS) { stoppedByTime = true; break; }
+    if (elapsed > TIME_LIMIT_MS) {
+      stoppedByTime = true;
+      break;
+    }
   }
   const totalSec = ((performance.now() - t0) / 1000).toFixed(1);
   printDone(`力导仿真完成 · ${actualTicks} tick · ${totalSec}s${stoppedByTime ? " (时间上限)" : ""}`);

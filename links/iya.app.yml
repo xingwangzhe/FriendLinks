@@ -1,14 +1,14 @@
 site:
-  name: 'iya.app'
-  url: 'https://www.iya.app/'
-  description: '友情链接'
-  links: '/'
+  name: "iya.app"
+  url: "https://www.iya.app/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: '签名档'
-      url: 'http://ip.ntrqq.net/'
-    - name: 'Beet''s Blog'
-      url: 'https://beetman.net/'
-    - name: 'JayXon''s Blog'
-      url: 'https://www.jayxon.com/'
-    - name: 'C# Love'
-      url: 'https://csharp.love/'
+    - name: "签名档"
+      url: "http://ip.ntrqq.net/"
+    - name: "Beet's Blog"
+      url: "https://beetman.net/"
+    - name: "JayXon's Blog"
+      url: "https://www.jayxon.com/"
+    - name: "C# Love"
+      url: "https://csharp.love/"

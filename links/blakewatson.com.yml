@@ -1,36 +1,36 @@
 site:
-  name: 'blakewatson.com'
-  url: 'https://blakewatson.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "blakewatson.com"
+  url: "https://blakewatson.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Warm Burnout: a color scheme with warm colors and good contrast'
-      url: 'https://warmburnout.com/'
-    - name: 'Alfred'
-      url: 'https://www.alfredapp.com/'
-    - name: 'A Fine Start'
-      url: 'https://afinestart.me'
-    - name: 'The Punch—A curated directory of the web''s finest Indie Type Foundries'
-      url: 'https://www.thepunch.studio'
-    - name: 'Fonts.com'
-      url: 'http://Fonts.com'
-    - name: 'bunny.net'
-      url: 'https://bunny.net'
-    - name: 'MBType'
-      url: 'https://mbtype.com/'
-    - name: 'Grid Paper'
-      url: 'https://grid-paper.daverupert.com'
-    - name: 'Dave Rupert'
-      url: 'https://daverupert.com'
-    - name: 'Handy is a simple and free speech-to-text app'
-      url: 'https://handy.computer/'
-    - name: 'Superwhisper'
-      url: 'https://superwhisper.com/'
-    - name: 'DevUtils, a Mac app for text conversion and processing'
-      url: 'https://devutils.com/'
-    - name: 'Trilium Notes'
-      url: 'https://triliumnotes.org/'
-    - name: 'Obsidian'
-      url: 'https://obsidian.md/'
-    - name: 'donjon'
-      url: 'https://donjon.bin.sh'
+    - name: "Warm Burnout: a color scheme with warm colors and good contrast"
+      url: "https://warmburnout.com/"
+    - name: "Alfred"
+      url: "https://www.alfredapp.com/"
+    - name: "A Fine Start"
+      url: "https://afinestart.me"
+    - name: "The Punch—A curated directory of the web's finest Indie Type Foundries"
+      url: "https://www.thepunch.studio"
+    - name: "Fonts.com"
+      url: "http://Fonts.com"
+    - name: "bunny.net"
+      url: "https://bunny.net"
+    - name: "MBType"
+      url: "https://mbtype.com/"
+    - name: "Grid Paper"
+      url: "https://grid-paper.daverupert.com"
+    - name: "Dave Rupert"
+      url: "https://daverupert.com"
+    - name: "Handy is a simple and free speech-to-text app"
+      url: "https://handy.computer/"
+    - name: "Superwhisper"
+      url: "https://superwhisper.com/"
+    - name: "DevUtils, a Mac app for text conversion and processing"
+      url: "https://devutils.com/"
+    - name: "Trilium Notes"
+      url: "https://triliumnotes.org/"
+    - name: "Obsidian"
+      url: "https://obsidian.md/"
+    - name: "donjon"
+      url: "https://donjon.bin.sh"

@@ -1,10 +1,10 @@
 site:
-  name: 'blog.flygoat.com'
-  url: 'https://blog.flygoat.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.flygoat.com"
+  url: "https://blog.flygoat.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'NekoDaemon'
-      url: 'https://nekodaemon.com/'
-    - name: 'Jimmy'
-      url: 'https://jimmycai.com'
+    - name: "NekoDaemon"
+      url: "https://nekodaemon.com/"
+    - name: "Jimmy"
+      url: "https://jimmycai.com"

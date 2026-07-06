@@ -1,12 +1,12 @@
 site:
-  name: 'blog.yuyuko.com'
-  url: 'https://blog.yuyuko.com/'
-  description: '友情链接'
-  links: '/link'
+  name: "blog.yuyuko.com"
+  url: "https://blog.yuyuko.com/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: '悠笙の开发日记愿世间万物都能被温柔以待'
-      url: 'https://blog.iyoroy.cn'
-    - name: '启动台の博客用代码改变世界'
-      url: 'https://launchpadx.top'
-    - name: 'VanBlog v0.54.0'
-      url: 'https://vanblog.mereith.com'
+    - name: "悠笙の开发日记愿世间万物都能被温柔以待"
+      url: "https://blog.iyoroy.cn"
+    - name: "启动台の博客用代码改变世界"
+      url: "https://launchpadx.top"
+    - name: "VanBlog v0.54.0"
+      url: "https://vanblog.mereith.com"

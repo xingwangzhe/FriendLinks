@@ -1,12 +1,12 @@
 site:
-  name: 'wiwi.blog'
-  url: 'https://wiwi.blog/'
-  description: '友情链接'
-  links: '/links'
+  name: "wiwi.blog"
+  url: "https://wiwi.blog/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '俱樂部'
-      url: 'https://blogblog.club'
-    - name: 'NiceChord 好和弦'
-      url: 'https://nicechord.com/'
-    - name: 'Wiwi.Video 好和弦聯播網'
-      url: 'https://wiwi.video/'
+    - name: "俱樂部"
+      url: "https://blogblog.club"
+    - name: "NiceChord 好和弦"
+      url: "https://nicechord.com/"
+    - name: "Wiwi.Video 好和弦聯播網"
+      url: "https://wiwi.video/"

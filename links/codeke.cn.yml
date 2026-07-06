@@ -1,12 +1,12 @@
 site:
-  name: 'codeke.cn'
-  url: 'https://www.codeke.cn/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "codeke.cn"
+  url: "https://www.codeke.cn/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: '张戈博客'
-      url: 'https://zhangge.net'
-    - name: '老鬼博客'
-      url: 'https://www.oldking.net'
-    - name: '繁华云'
-      url: 'http://blog.craftyun.cn'
+    - name: "张戈博客"
+      url: "https://zhangge.net"
+    - name: "老鬼博客"
+      url: "https://www.oldking.net"
+    - name: "繁华云"
+      url: "http://blog.craftyun.cn"

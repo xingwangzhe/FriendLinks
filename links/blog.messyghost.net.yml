@@ -1,10 +1,10 @@
 site:
-  name: 'blog.messyghost.net'
-  url: 'https://blog.messyghost.net/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.messyghost.net"
+  url: "https://blog.messyghost.net/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Tony Ding''s Blog'
-      url: 'https://blog.tonyding.net/'
-    - name: 'CICADA000'
-      url: 'https://www.cicada000.work/'
+    - name: "Tony Ding's Blog"
+      url: "https://blog.tonyding.net/"
+    - name: "CICADA000"
+      url: "https://www.cicada000.work/"

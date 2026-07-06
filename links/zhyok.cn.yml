@@ -1,76 +1,76 @@
 site:
-  name: 'zhyok.cn'
-  url: 'https://www.zhyok.cn/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "zhyok.cn"
+  url: "https://www.zhyok.cn/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: '王叨叨'
-      url: 'https://wangdaodao.com/'
-    - name: 'LukaChen Blog'
-      url: 'https://lukachen.com/'
-    - name: '云志博客'
-      url: 'https://blog.yzlog.top/'
-    - name: '品味苏州'
-      url: 'https://pwsz.com/'
-    - name: '随心记'
-      url: 'https://www.cloudnotepad.top/'
-    - name: '羽翼博客'
-      url: 'https://www.886a.top/'
-    - name: 'Xio''s'
-      url: 'https://n2g.cn'
-    - name: 'DAIDAIFU''S Blog'
-      url: 'https://www.ddf.im/'
-    - name: '雨落泪尽'
-      url: 'https://couqiao.net/'
-    - name: '有个站'
-      url: 'https://www.ygz.ink/'
-    - name: '允赫先森'
-      url: 'https://www.3v.hk/'
-    - name: '拾音集'
-      url: 'https://blog.tibtob.cn/'
-    - name: '我是军爸'
-      url: 'https://me.xu19.com/'
-    - name: '瀚海星辰'
-      url: 'https://www.imuu.cn'
-    - name: '平哥偶记'
-      url: 'https://www.pgoj.top/'
-    - name: '聚合文摘'
-      url: 'http://maorongwanju.cn'
-    - name: '风雨行者'
-      url: 'http://stuit.cn'
-    - name: '暖心向阳335'
-      url: 'https://nxxy335.top/'
-    - name: '子夜歌'
-      url: 'https://blog.ziyege.com/'
-    - name: '旺东自留地'
-      url: 'https://wang618.cn/'
-    - name: '风舞心弦'
-      url: 'https://fengwu.art'
-    - name: 'Leyili花园'
-      url: 'https://930309.xyz/'
-    - name: '崔话记'
-      url: 'https://cuixiping.com/'
-    - name: '游子微博'
-      url: 'https://www.lindongfang.top'
-    - name: '一个博客'
-      url: 'https://yigeboke.com'
-    - name: 'Mr.He'
-      url: 'https://www.mrhe.net/'
-    - name: '爱娃子'
-      url: 'https://www.aiwazi.com/'
-    - name: 'fengc''s Blog'
-      url: 'https://fengcblog.880200.xyz'
-    - name: '云墨观窗'
-      url: 'https://mojue88.com'
-    - name: '80后情感技..'
-      url: 'https://www.80tz.cn'
-    - name: '可-k'
-      url: 'https://vioulo.com'
-    - name: 'Vind🌙'
-      url: 'https://vind.ink'
-    - name: '子夜歌'
-      url: 'https://ziyege.com'
-    - name: '大头猪'
-      url: 'https://www.97618.cn/'
-    - name: '重装系统'
-      url: 'https://www.wepe.com.cn/'
+    - name: "王叨叨"
+      url: "https://wangdaodao.com/"
+    - name: "LukaChen Blog"
+      url: "https://lukachen.com/"
+    - name: "云志博客"
+      url: "https://blog.yzlog.top/"
+    - name: "品味苏州"
+      url: "https://pwsz.com/"
+    - name: "随心记"
+      url: "https://www.cloudnotepad.top/"
+    - name: "羽翼博客"
+      url: "https://www.886a.top/"
+    - name: "Xio's"
+      url: "https://n2g.cn"
+    - name: "DAIDAIFU'S Blog"
+      url: "https://www.ddf.im/"
+    - name: "雨落泪尽"
+      url: "https://couqiao.net/"
+    - name: "有个站"
+      url: "https://www.ygz.ink/"
+    - name: "允赫先森"
+      url: "https://www.3v.hk/"
+    - name: "拾音集"
+      url: "https://blog.tibtob.cn/"
+    - name: "我是军爸"
+      url: "https://me.xu19.com/"
+    - name: "瀚海星辰"
+      url: "https://www.imuu.cn"
+    - name: "平哥偶记"
+      url: "https://www.pgoj.top/"
+    - name: "聚合文摘"
+      url: "http://maorongwanju.cn"
+    - name: "风雨行者"
+      url: "http://stuit.cn"
+    - name: "暖心向阳335"
+      url: "https://nxxy335.top/"
+    - name: "子夜歌"
+      url: "https://blog.ziyege.com/"
+    - name: "旺东自留地"
+      url: "https://wang618.cn/"
+    - name: "风舞心弦"
+      url: "https://fengwu.art"
+    - name: "Leyili花园"
+      url: "https://930309.xyz/"
+    - name: "崔话记"
+      url: "https://cuixiping.com/"
+    - name: "游子微博"
+      url: "https://www.lindongfang.top"
+    - name: "一个博客"
+      url: "https://yigeboke.com"
+    - name: "Mr.He"
+      url: "https://www.mrhe.net/"
+    - name: "爱娃子"
+      url: "https://www.aiwazi.com/"
+    - name: "fengc's Blog"
+      url: "https://fengcblog.880200.xyz"
+    - name: "云墨观窗"
+      url: "https://mojue88.com"
+    - name: "80后情感技.."
+      url: "https://www.80tz.cn"
+    - name: "可-k"
+      url: "https://vioulo.com"
+    - name: "Vind🌙"
+      url: "https://vind.ink"
+    - name: "子夜歌"
+      url: "https://ziyege.com"
+    - name: "大头猪"
+      url: "https://www.97618.cn/"
+    - name: "重装系统"
+      url: "https://www.wepe.com.cn/"

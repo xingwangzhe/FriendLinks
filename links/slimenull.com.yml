@@ -1,10 +1,10 @@
 site:
-  name: 'slimenull.com'
-  url: 'https://slimenull.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "slimenull.com"
+  url: "https://slimenull.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'ilyfairy'
-      url: 'https://blog.233.pink/'
-    - name: 'TwilightLemon'
-      url: 'https://blog.twlmgatito.cn/'
+    - name: "ilyfairy"
+      url: "https://blog.233.pink/"
+    - name: "TwilightLemon"
+      url: "https://blog.twlmgatito.cn/"

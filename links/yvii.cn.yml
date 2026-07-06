@@ -1,84 +1,84 @@
 site:
-  name: 'yvii.cn'
-  url: 'https://yvii.cn/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "yvii.cn"
+  url: "https://yvii.cn/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: '杜老师说'
-      url: 'https://dusays.com/'
-    - name: '张洪Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: 'Jdeal'
-      url: 'https://www.jdeal.cn/'
-    - name: 'RawChen'
-      url: 'https://rawchen.com/'
-    - name: '旺东自留地'
-      url: 'https://wang618.cn/'
-    - name: '韩小韩博客'
-      url: 'https://www.vvhan.com/'
-    - name: '威言威语'
-      url: 'https://www.weisay.com/'
-    - name: '香水主页'
-      url: 'https://xsui.com/'
-    - name: '风记星辰'
-      url: 'https://www.thyuu.com/'
-    - name: 'FROYOs Blog'
-      url: 'https://www.izhuyue.com/'
-    - name: '2BROEAR'
-      url: 'https://blog.2broear.com/'
-    - name: '心耘博客'
-      url: 'https://www.zlprime.cn/'
-    - name: '知向前端'
-      url: 'https://www.yuanqiao.pw/'
-    - name: '柳橙睿'
-      url: 'https://www.liuchengrui.cn/'
-    - name: '煎茶'
-      url: 'https://frytea.com/'
-    - name: 'Ying'
-      url: 'https://blog.luvying.com/'
-    - name: '寂静花园'
-      url: 'https://www.addesp.com/'
-    - name: '南呱的牢骚'
-      url: 'https://awva.cn/'
-    - name: '拾风草堂'
-      url: 'https://www.leolin86.com/'
-    - name: '妖业蛋'
-      url: 'https://yaoyedan.net/'
-    - name: '猪肉分一半'
-      url: 'https://www.zhuroufenyiban.cn/'
-    - name: '夜街尘'
-      url: 'https://aprilforest.cn/'
-    - name: 'GORPELN'
-      url: 'https://gorpeln.top/'
-    - name: '戈钓草野'
-      url: 'https://www.aliuying.com/'
-    - name: '凌中的锋雨'
-      url: 'https://www.x-lf.com/'
-    - name: '清羽飞扬'
-      url: 'https://blog.liushen.fun/'
-    - name: '益友网站'
-      url: 'https://www.yiyou.bj.cn/'
-    - name: 'KOBIN 技术随笔'
-      url: 'https://blog.kobin.cn/'
-    - name: '记录生活，精彩一刻'
-      url: 'https://9sb.net/'
-    - name: '周天记'
-      url: 'https://zhoutian.com/'
-    - name: '十玖八柒'
-      url: 'https://blog.ahzoo.cn/'
-    - name: '钧言极客'
-      url: 'https://www.jinjun.top/'
-    - name: '荒野孤灯'
-      url: 'https://www.80srz.com/'
-    - name: '漫川'
-      url: 'https://www.mancs.cn/'
-    - name: '方糖'
-      url: 'https://fangtang.net/'
-    - name: '小小的小'
-      url: 'https://www.one21.cn/'
-    - name: 'BIIBII'
-      url: 'https://www.biibii.cn/'
-    - name: '一世繁华'
-      url: 'https://blog.hantaotao.top/'
-    - name: '乙未极客'
-      url: 'https://www.yviii.com/'
+    - name: "杜老师说"
+      url: "https://dusays.com/"
+    - name: "张洪Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "Jdeal"
+      url: "https://www.jdeal.cn/"
+    - name: "RawChen"
+      url: "https://rawchen.com/"
+    - name: "旺东自留地"
+      url: "https://wang618.cn/"
+    - name: "韩小韩博客"
+      url: "https://www.vvhan.com/"
+    - name: "威言威语"
+      url: "https://www.weisay.com/"
+    - name: "香水主页"
+      url: "https://xsui.com/"
+    - name: "风记星辰"
+      url: "https://www.thyuu.com/"
+    - name: "FROYOs Blog"
+      url: "https://www.izhuyue.com/"
+    - name: "2BROEAR"
+      url: "https://blog.2broear.com/"
+    - name: "心耘博客"
+      url: "https://www.zlprime.cn/"
+    - name: "知向前端"
+      url: "https://www.yuanqiao.pw/"
+    - name: "柳橙睿"
+      url: "https://www.liuchengrui.cn/"
+    - name: "煎茶"
+      url: "https://frytea.com/"
+    - name: "Ying"
+      url: "https://blog.luvying.com/"
+    - name: "寂静花园"
+      url: "https://www.addesp.com/"
+    - name: "南呱的牢骚"
+      url: "https://awva.cn/"
+    - name: "拾风草堂"
+      url: "https://www.leolin86.com/"
+    - name: "妖业蛋"
+      url: "https://yaoyedan.net/"
+    - name: "猪肉分一半"
+      url: "https://www.zhuroufenyiban.cn/"
+    - name: "夜街尘"
+      url: "https://aprilforest.cn/"
+    - name: "GORPELN"
+      url: "https://gorpeln.top/"
+    - name: "戈钓草野"
+      url: "https://www.aliuying.com/"
+    - name: "凌中的锋雨"
+      url: "https://www.x-lf.com/"
+    - name: "清羽飞扬"
+      url: "https://blog.liushen.fun/"
+    - name: "益友网站"
+      url: "https://www.yiyou.bj.cn/"
+    - name: "KOBIN 技术随笔"
+      url: "https://blog.kobin.cn/"
+    - name: "记录生活，精彩一刻"
+      url: "https://9sb.net/"
+    - name: "周天记"
+      url: "https://zhoutian.com/"
+    - name: "十玖八柒"
+      url: "https://blog.ahzoo.cn/"
+    - name: "钧言极客"
+      url: "https://www.jinjun.top/"
+    - name: "荒野孤灯"
+      url: "https://www.80srz.com/"
+    - name: "漫川"
+      url: "https://www.mancs.cn/"
+    - name: "方糖"
+      url: "https://fangtang.net/"
+    - name: "小小的小"
+      url: "https://www.one21.cn/"
+    - name: "BIIBII"
+      url: "https://www.biibii.cn/"
+    - name: "一世繁华"
+      url: "https://blog.hantaotao.top/"
+    - name: "乙未极客"
+      url: "https://www.yviii.com/"

@@ -1,18 +1,18 @@
 site:
-  name: '首页'
-  url: 'https://zhangpingguo.com/'
-  description: '欢迎来到张苹果的个人博客！这里是一个分享技术思考、生活感悟与成长故事的原创空间。作为开发者/写作者，定期更新编程教程、行业观察、读书笔记和生活随笔，用文字记录探'
-  links: '/links'
+  name: "首页"
+  url: "https://zhangpingguo.com/"
+  description: "欢迎来到张苹果的个人博客！这里是一个分享技术思考、生活感悟与成长故事的原创空间。作为开发者/写作者，定期更新编程教程、行业观察、读书笔记和生活随笔，用文字记录探"
+  links: "/links"
   friends:
-    - name: '白鱼小栈'
-      url: 'https://www.baiyuyu.com/'
-    - name: 'WishMeLz'
-      url: 'https://blog.itsse.cn/'
-    - name: '云烟成雨'
-      url: 'https://shiyu.dev/'
-    - name: 'HiPeach'
-      url: 'https://blog.opeach.cn/'
-    - name: 'Cleves'
-      url: 'https://cleves.me/'
-    - name: 'CrudBoy小站'
-      url: 'https://dengqn.com/'
+    - name: "白鱼小栈"
+      url: "https://www.baiyuyu.com/"
+    - name: "WishMeLz"
+      url: "https://blog.itsse.cn/"
+    - name: "云烟成雨"
+      url: "https://shiyu.dev/"
+    - name: "HiPeach"
+      url: "https://blog.opeach.cn/"
+    - name: "Cleves"
+      url: "https://cleves.me/"
+    - name: "CrudBoy小站"
+      url: "https://dengqn.com/"

@@ -1,10 +1,10 @@
 site:
-  name: 'mozzy.dev'
-  url: 'https://mozzy.dev/'
-  description: '友情链接'
-  links: '/'
+  name: "mozzy.dev"
+  url: "https://mozzy.dev/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Hylia'
-      url: 'https://hylia.website'
-    - name: 'Eleventy'
-      url: 'https://11ty.io/'
+    - name: "Hylia"
+      url: "https://hylia.website"
+    - name: "Eleventy"
+      url: "https://11ty.io/"

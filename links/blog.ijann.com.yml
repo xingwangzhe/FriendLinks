@@ -1,16 +1,16 @@
 site:
-  name: 'blog.ijann.com'
-  url: 'https://blog.ijann.com/'
-  description: '友情链接'
-  links: '/link'
+  name: "blog.ijann.com"
+  url: "https://blog.ijann.com/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: 'CXPLAY WorldShare With You.'
-      url: 'https://blog.cxplay.org'
-    - name: 'Dejavu’s BlogNot for success, just for growing.'
-      url: 'https://blog.dejavu.moe'
-    - name: 'GivnSir`BlogPHP程序员，从零开始做梦新~'
-      url: 'https://blog.givensir.cn/'
-    - name: 'Rui''s Blog有好玩的带上我xD'
-      url: 'https://blog.rui.plus'
-    - name: 'FKUN有点技术，有点宅~'
-      url: 'https://fkun.tech/'
+    - name: "CXPLAY WorldShare With You."
+      url: "https://blog.cxplay.org"
+    - name: "Dejavu’s BlogNot for success, just for growing."
+      url: "https://blog.dejavu.moe"
+    - name: "GivnSir`BlogPHP程序员，从零开始做梦新~"
+      url: "https://blog.givensir.cn/"
+    - name: "Rui's Blog有好玩的带上我xD"
+      url: "https://blog.rui.plus"
+    - name: "FKUN有点技术，有点宅~"
+      url: "https://fkun.tech/"

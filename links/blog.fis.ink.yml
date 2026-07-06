@@ -1,134 +1,134 @@
 site:
-  name: 'blog.fis.ink'
-  description: '友情链接'
-  url: 'https://blog.fis.ink/'
-  links: '/link'
+  name: "blog.fis.ink"
+  description: "友情链接"
+  url: "https://blog.fis.ink/"
+  links: "/link"
   friends:
-    - name: '凨狐小窝'
-      url: 'https://fur.tax'
-    - name: '张洪Heo博客'
-      url: 'https://blog.zhheo.com'
-    - name: '梦爱吃鱼博客'
-      url: 'https://blog.bsgun.cn'
-    - name: 'Mo记事簿'
-      url: 'https://blog.xiowo.net'
-    - name: '宏尘极客HCJike'
-      url: 'https://www.hcjike.com'
-    - name: 'bbb-lsy07博客'
-      url: 'https://blog.6uu.us'
-    - name: '秋实-Allenyou小窝'
-      url: 'https://www.allenyou.wang'
-    - name: '朽丘秋雨博客'
-      url: 'https://blog.koxiuqiu.cn'
-    - name: '龙星划空博客'
-      url: 'https://blog.245179.xyz'
-    - name: '清羽飞扬博客'
-      url: 'https://blog.liushen.fun'
-    - name: 'liuzhen932小窝'
-      url: 'https://blog.liuzhen932.top'
-    - name: '夜轻Blog博客'
-      url: 'https://blog.yeqing.net'
-    - name: '橙寻星球云'
-      url: 'https://cloudwl.com'
-    - name: '光 · 昭博客'
-      url: 'https://www.pyrzo.com'
-    - name: '熊猫小窝'
-      url: 'https://www.pysio.online'
-    - name: '泯轲博客'
-      url: 'https://blog.m-n.top'
-    - name: 'yiiko博客'
-      url: 'https://blog.yik.at/'
-    - name: 'AcoFork博客'
-      url: 'https://www.afo.im'
-    - name: '青序栈栈'
-      url: 'https://www.qixz.cn/'
-    - name: 'Noahblog'
-      url: 'https://blog.noah0932.top'
-    - name: 'Stanley技术博客'
-      url: 'https://lixvyao.com'
-    - name: '小枫Blog'
-      url: 'https://blog.zicheng.icu'
-    - name: 'Pinpe云端'
-      url: 'https://pinpe.top'
-    - name: '幽默的小刘吖小栈'
-      url: 'https://lzch.top'
-    - name: 'AirTouchBlog'
-      url: 'https://xsl.im'
-    - name: '或许是一只龙博客'
-      url: 'https://www.497995.xyz'
-    - name: 'CodfishBlog'
-      url: 'https://codfish.top'
-    - name: '百里博客'
-      url: 'https://blog.my0811.cn'
-    - name: 'WerBlog'
-      url: 'https://blog.isyyo.com'
-    - name: 'TavreBlog'
-      url: 'https://blog.tavr.top'
-    - name: '彬红茶日记'
-      url: 'https://note.redcha.cn'
-    - name: 'yCENzhblog'
-      url: 'https://fuwari.oh1.top'
-    - name: '星辰笔记'
-      url: 'https://blog.strarry.top'
-    - name: 'RukaaXBlogs'
-      url: 'https://blogs.rukaax.top'
-    - name: '鈴奈咲桜Blog'
-      url: 'https://blog.sakura.ink'
-    - name: 'TNT小破站'
-      url: 'https://www.275.pub/'
-    - name: '青稚空间'
-      url: 'https://blog.linux-qitong.top'
-    - name: '纸鹿本鹿'
-      url: 'https://blog.zhilu.site'
-    - name: 'THWBlog'
-      url: 'https://blog.tianhw.top'
-    - name: '拥抱日出的小屋'
-      url: 'https://ybrc.byside.top'
-    - name: '周润发博客'
-      url: 'https://blog.zrf.me/'
-    - name: '桉南小屋'
-      url: 'https://blog.yll14.cn'
-    - name: 'wyf9Blog'
-      url: 'https://wyf9.top'
-    - name: '慕托博客博客'
-      url: 'https://blog.torte.cn'
-    - name: 'Maple Blog博客'
-      url: 'https://blog.oowo.cc'
-    - name: 'GoodBoyboyBlog'
-      url: 'https://blog.goodboyboy.top/'
-    - name: 'MIFENG博客'
-      url: 'https://blog.imbee.top'
-    - name: 'NGC7293博客'
-      url: 'https://xmk.life'
-    - name: 'xhc861博客'
-      url: 'https://xhc861.top'
-    - name: 'ZYH博客'
-      url: 'https://blog.zyh111.top'
-    - name: 'Hanta博客'
-      url: 'https://blog.hanta2011.top/'
-    - name: 'worable博客'
-      url: 'https://www.worable.top/'
-    - name: 'CappuccinoZ博客'
-      url: 'https://kitakita.top'
-    - name: 'Yunsen小窝'
-      url: 'https://blog.imysen.com/'
-    - name: 'YUAN主页'
-      url: 'https://www.upyi.cn'
-    - name: 'mxdBlog'
-      url: 'https://blog.mxdyeah.com'
-    - name: '焰白博客'
-      url: 'https://enento.cloud/'
-    - name: '寒江博客'
-      url: 'https://hanchan.vip/'
-    - name: '流欺博客'
-      url: 'https://blog.lqay.cn'
-    - name: '大熊博客'
-      url: 'https://halo.aizaibao.cn'
-    - name: 'EsykaBlog'
-      url: 'https://www.esyka.top'
-    - name: '可耐的小伙纸小伙纸'
-      url: 'https://kndxhz.cn'
-    - name: '拥抱日出的主页'
-      url: 'https://www.ybrc.top'
-    - name: '小曹同学的主页'
-      url: 'https://caotx.cn/'
+    - name: "凨狐小窝"
+      url: "https://fur.tax"
+    - name: "张洪Heo博客"
+      url: "https://blog.zhheo.com"
+    - name: "梦爱吃鱼博客"
+      url: "https://blog.bsgun.cn"
+    - name: "Mo记事簿"
+      url: "https://blog.xiowo.net"
+    - name: "宏尘极客HCJike"
+      url: "https://www.hcjike.com"
+    - name: "bbb-lsy07博客"
+      url: "https://blog.6uu.us"
+    - name: "秋实-Allenyou小窝"
+      url: "https://www.allenyou.wang"
+    - name: "朽丘秋雨博客"
+      url: "https://blog.koxiuqiu.cn"
+    - name: "龙星划空博客"
+      url: "https://blog.245179.xyz"
+    - name: "清羽飞扬博客"
+      url: "https://blog.liushen.fun"
+    - name: "liuzhen932小窝"
+      url: "https://blog.liuzhen932.top"
+    - name: "夜轻Blog博客"
+      url: "https://blog.yeqing.net"
+    - name: "橙寻星球云"
+      url: "https://cloudwl.com"
+    - name: "光 · 昭博客"
+      url: "https://www.pyrzo.com"
+    - name: "熊猫小窝"
+      url: "https://www.pysio.online"
+    - name: "泯轲博客"
+      url: "https://blog.m-n.top"
+    - name: "yiiko博客"
+      url: "https://blog.yik.at/"
+    - name: "AcoFork博客"
+      url: "https://www.afo.im"
+    - name: "青序栈栈"
+      url: "https://www.qixz.cn/"
+    - name: "Noahblog"
+      url: "https://blog.noah0932.top"
+    - name: "Stanley技术博客"
+      url: "https://lixvyao.com"
+    - name: "小枫Blog"
+      url: "https://blog.zicheng.icu"
+    - name: "Pinpe云端"
+      url: "https://pinpe.top"
+    - name: "幽默的小刘吖小栈"
+      url: "https://lzch.top"
+    - name: "AirTouchBlog"
+      url: "https://xsl.im"
+    - name: "或许是一只龙博客"
+      url: "https://www.497995.xyz"
+    - name: "CodfishBlog"
+      url: "https://codfish.top"
+    - name: "百里博客"
+      url: "https://blog.my0811.cn"
+    - name: "WerBlog"
+      url: "https://blog.isyyo.com"
+    - name: "TavreBlog"
+      url: "https://blog.tavr.top"
+    - name: "彬红茶日记"
+      url: "https://note.redcha.cn"
+    - name: "yCENzhblog"
+      url: "https://fuwari.oh1.top"
+    - name: "星辰笔记"
+      url: "https://blog.strarry.top"
+    - name: "RukaaXBlogs"
+      url: "https://blogs.rukaax.top"
+    - name: "鈴奈咲桜Blog"
+      url: "https://blog.sakura.ink"
+    - name: "TNT小破站"
+      url: "https://www.275.pub/"
+    - name: "青稚空间"
+      url: "https://blog.linux-qitong.top"
+    - name: "纸鹿本鹿"
+      url: "https://blog.zhilu.site"
+    - name: "THWBlog"
+      url: "https://blog.tianhw.top"
+    - name: "拥抱日出的小屋"
+      url: "https://ybrc.byside.top"
+    - name: "周润发博客"
+      url: "https://blog.zrf.me/"
+    - name: "桉南小屋"
+      url: "https://blog.yll14.cn"
+    - name: "wyf9Blog"
+      url: "https://wyf9.top"
+    - name: "慕托博客博客"
+      url: "https://blog.torte.cn"
+    - name: "Maple Blog博客"
+      url: "https://blog.oowo.cc"
+    - name: "GoodBoyboyBlog"
+      url: "https://blog.goodboyboy.top/"
+    - name: "MIFENG博客"
+      url: "https://blog.imbee.top"
+    - name: "NGC7293博客"
+      url: "https://xmk.life"
+    - name: "xhc861博客"
+      url: "https://xhc861.top"
+    - name: "ZYH博客"
+      url: "https://blog.zyh111.top"
+    - name: "Hanta博客"
+      url: "https://blog.hanta2011.top/"
+    - name: "worable博客"
+      url: "https://www.worable.top/"
+    - name: "CappuccinoZ博客"
+      url: "https://kitakita.top"
+    - name: "Yunsen小窝"
+      url: "https://blog.imysen.com/"
+    - name: "YUAN主页"
+      url: "https://www.upyi.cn"
+    - name: "mxdBlog"
+      url: "https://blog.mxdyeah.com"
+    - name: "焰白博客"
+      url: "https://enento.cloud/"
+    - name: "寒江博客"
+      url: "https://hanchan.vip/"
+    - name: "流欺博客"
+      url: "https://blog.lqay.cn"
+    - name: "大熊博客"
+      url: "https://halo.aizaibao.cn"
+    - name: "EsykaBlog"
+      url: "https://www.esyka.top"
+    - name: "可耐的小伙纸小伙纸"
+      url: "https://kndxhz.cn"
+    - name: "拥抱日出的主页"
+      url: "https://www.ybrc.top"
+    - name: "小曹同学的主页"
+      url: "https://caotx.cn/"

@@ -1,18 +1,18 @@
 site:
-  name: 'build.awesome.me'
-  url: 'https://build.awesome.me/'
-  description: '友情链接'
-  links: '/links'
+  name: "build.awesome.me"
+  url: "https://build.awesome.me/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Web Awesome'
-      url: 'https://webawesome.com/'
-    - name: 'Podcast Awesome'
-      url: 'https://www.podcastawesome.com/'
-    - name: 'developer.chrome.com'
-      url: 'https://developer.chrome.com/'
-    - name: 'Addy Osmani'
-      url: 'https://addyosmani.com/'
-    - name: 'Andy Bell'
-      url: 'https://andy-bell.co.uk/'
-    - name: 'Mat Marquis'
-      url: 'https://hire.wil.to/'
+    - name: "Web Awesome"
+      url: "https://webawesome.com/"
+    - name: "Podcast Awesome"
+      url: "https://www.podcastawesome.com/"
+    - name: "developer.chrome.com"
+      url: "https://developer.chrome.com/"
+    - name: "Addy Osmani"
+      url: "https://addyosmani.com/"
+    - name: "Andy Bell"
+      url: "https://andy-bell.co.uk/"
+    - name: "Mat Marquis"
+      url: "https://hire.wil.to/"

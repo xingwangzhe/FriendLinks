@@ -1,10 +1,10 @@
 site:
-  name: 'blog.ibukifuko.org'
-  url: 'https://blog.ibukifuko.org/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.ibukifuko.org"
+  url: "https://blog.ibukifuko.org/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'listder''s blog'
-      url: 'https://blog.listder.xyz/'
-    - name: 'This SaltedFishes''s Site...'
-      url: 'https://saltedfishes.com/'
+    - name: "listder's blog"
+      url: "https://blog.listder.xyz/"
+    - name: "This SaltedFishes's Site..."
+      url: "https://saltedfishes.com/"

@@ -1,134 +1,134 @@
 site:
-  name: 'blog.cancin.cn'
-  url: 'https://blog.cancin.cn/'
-  description: '友情链接'
-  links: '/link/'
+  name: "blog.cancin.cn"
+  url: "https://blog.cancin.cn/"
+  description: "友情链接"
+  links: "/link/"
   friends:
-    - name: '藏兵谷'
-      url: 'https://blogdrive.gavin-chen.top/'
-    - name: 'Jerry Jerry 热衷学习，热衷生活'
-      url: 'https://crazywong.com/'
-    - name: 'Fomalhaut Fomalhaut Future is now 🍭🍭🍭'
-      url: 'https://www.fomal.cc/'
-    - name: '张洪Heo 张洪Heo 分享设计与科技生活'
-      url: 'https://blog.zhheo.com/'
-    - name: 'Eurkon Eurkon 及时当勉励，岁月不待人。'
-      url: 'https://blog.eurkon.com/'
-    - name: '安知鱼 安知鱼 生活明朗, 万物可爱。'
-      url: 'https://blog.anheyu.com/'
-    - name: '怕冷爱上雪 怕冷爱上雪 千里之行，始于足下。'
-      url: 'https://blog.4t.pw/'
-    - name: 'Akilarの糖果屋 Akilarの糖果屋 欢迎光临糖果屋'
-      url: 'https://akilar.top/'
-    - name: 'Ethan.Tzy(唐志远) Ethan.Tzy(唐志远) 古今之成大事者，不惟有超世之才，亦必有'
-      url: 'https://fe32.top/'
-    - name: 'Leonus Leonus 进一寸有进一寸的欢喜。'
-      url: 'https://blog.leonus.cn/'
-    - name: '海拥 海拥 一个乐于分享技术与快乐的博主'
-      url: 'https://haiyong.site/'
-    - name: 'Xlenco Xlenco 最好的地方,是没去过的地方。最好的时光，是回不来的时光。'
-      url: 'https://xlog.xlenco.top/'
-    - name: 'Ariasakaの小窝 Ariasakaの小窝 人有悲欢离合 月有阴晴圆缺'
-      url: 'https://blog.yaria.top/'
-    - name: '小冰博客 小冰博客 做个有梦想的人！'
-      url: 'https://zfe.space/'
-    - name: 'CC康纳百川 CC康纳百川 CC康纳百川的小窝'
-      url: 'https://blog.ccknbc.cc/'
-    - name: 'LD''s BLOG LD''s BLOG 分享学习中的点点滴滴'
-      url: 'https://longda.wang/'
-    - name: '轻笑Chuckle 轻笑Chuckle 漫天倾尘,风中轻笑'
-      url: 'https://www.qcqx.cn/'
-    - name: '山岳库博 山岳库博 开发学习启发性二刺螈'
-      url: 'https://kmar.top/'
-    - name: 'Black Flies Black Flies When nothing goes right,j'
-      url: 'https://www.yyyzyyyz.cn/'
-    - name: '樱花小镇 樱花小镇 小园新种红樱树，闲绕花枝便当游。'
-      url: 'https://blog.sakura.vin/'
-    - name: '风起 风起 愿我们都能被世界温暖相拥'
-      url: 'https://www.fqsq.wang/'
-    - name: 'Mr.Li Blog Mr.Li Blog 一个在校学生,在知识的海洋中不断探索的学习者,面对困难'
-      url: 'http://www.lysblog.cn:8080/'
-    - name: '珞瑜生花 珞瑜生花 落红不是无情物，化作春泥更护花'
-      url: 'https://system2c.github.io/'
-    - name: 'GanSer GanSer 紫箫吟断，素笺恨切'
-      url: 'https://www.gan1ser.top/'
-    - name: '张时贰 张时贰 环转码，爱敲代码的小张！'
-      url: 'https://zhsher.cn/'
-    - name: '铭心石刻 铭心石刻 愿岁并谢，与友长兮'
-      url: 'https://blog.kouseki.cn/'
-    - name: 'Fgaoxing Fgaoxing 一个少年的博客'
-      url: 'https://www.yt-blog.top/'
-    - name: '墨韵云阁 墨韵云阁 乾坤未定，你我皆是牛马。'
-      url: 'https://luoyuanxiang.top/'
-    - name: '萌傀儡 萌傀儡 珍惜现在，趁早摸鱼'
-      url: 'https://blhorizon.github.io/'
-    - name: 'Marcus Marcus 人间值得，未来可期'
-      url: 'https://blog.marcus233.top/'
-    - name: 'Pzai Pzai 从入门到放弃'
-      url: 'https://blog.pzai.cloud/'
-    - name: '漫川笔记 漫川笔记 记录技术经验与生活'
-      url: 'https://www.mancs.cn/'
-    - name: 'AI悦创 AI悦创 AI悦创·创造不同～'
-      url: 'https://blog.bornforthis.cn/'
-    - name: '時光 時光 心寄朗朗乾坤，胸怀真修之道。'
-      url: 'https://blog.shiguangdev.cn/'
-    - name: 'Joker2Yue Joker2Yue Joker Never Plays Jokes.'
-      url: 'https://blog.joker2yue.com/'
-    - name: '清羽飞扬 清羽飞扬 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜。'
-      url: 'https://blog.liushen.fun/'
-    - name: 'bbb-lsy07 bbb-lsy07 科技激荡人文，洞见智慧本真。'
-      url: 'https://blog.tsoo.net/'
-    - name: '橙寻星球 橙寻星球 人外有人，天外有天'
-      url: 'https://cloudwl.com/'
-    - name: '清欲的小窝 清欲的小窝 沙雕网友清欲的碎碎念'
-      url: 'https://blog.leoo.fun/'
-    - name: '青稚の空间 青稚の空间 越努力，越幸运。'
-      url: 'https://blog.linux-qitong.top/'
-    - name: 'liangbm3’s blog liangbm3’s blog 总有人间一两风，填我十万八千梦。'
-      url: 'https://liangbm3.top/'
-    - name: '益友网站 益友网站 美好的日常生活值得我们去记录，希望我们的生活每天都能充满着乐趣跟开心事。'
-      url: 'https://www.yiyou.bj.cn/'
-    - name: 'KaiQi.Wang KaiQi.Wang 未来路远 • 勿忘初心'
-      url: 'https://kaiqi.wang/'
-    - name: '云栖梦泽 云栖梦泽 遇事不决，可问春风。春风不语，即随本心。'
-      url: 'https://www.iliuqi.com/'
-    - name: '老刘博客 老刘博客 分享课件制作与网络生活'
-      url: 'https://www.liublog.cn/'
-    - name: 'Zhou’s Notes Zhou’s Notes 不谈高深理论，只唠真心喜欢：足球、玩具、生活小'
-      url: 'https://www.zhounote.com/'
-    - name: '大熊 大熊 日常随笔与灵感收集的小角落'
-      url: 'https://halo.aizaibao.cn/'
-    - name: '林木木 林木木 不问明天，悠然浪费～'
-      url: 'https://immmmm.com/'
-    - name: '风记星辰 风记星辰 热爱你来过的每度温暖'
-      url: 'https://www.thyuu.com/'
-    - name: '纸鹿摸鱼处 纸鹿摸鱼处 纸鹿至麓不知路，支炉制露不止漉'
-      url: 'https://blog.zhilu.cyou/'
-    - name: '武师叔 武师叔 做一个有趣而不甘平庸的人！'
-      url: 'https://wushishu.xyz/'
-    - name: 'Ronny''s Blog Ronny''s Blog Try to do better'
-      url: 'https://www.wrqj.xyz/'
-    - name: 'xiaoger xiaoger 个人学习和分享壁纸的博客'
-      url: 'https://xiaoger.top/'
-    - name: '枢衡の巢 枢衡の巢 我期待着，有流星划过'
-      url: 'https://blog.krahsu.top/'
-    - name: '呆鱼 呆鱼 Hello World！'
-      url: 'https://daiyu.fun/'
-    - name: 'Gtwxxh-小小窝 Gtwxxh-小小窝 扣首问路，码梦为生'
-      url: 'https://blog.gtwxxh.cn/'
-    - name: '叶椰子 叶椰子 用行动去思考，去改变、去创造。'
-      url: 'https://onestarg.com/'
-    - name: 'ReCclay ReCclay Young people always want to think'
-      url: 'https://www.recclay.cc/'
-    - name: '七鳄の学习格 七鳄の学习格 如果世界多了精彩，每一位都是创造者，大家都是你的观众'
-      url: 'https://blog.gmcj0816.top/'
-    - name: 'Shine Shine 热爱生活点滴，分享时刻精彩。'
-      url: 'https://blog.shineyu.cn/'
-    - name: '李程ic 李程ic 中华人民共和国万岁！'
-      url: 'https://www.licic.net/'
-    - name: '伍十七 伍十七 我是一名正在上大一的前端爱好者,专注于构建优秀的应用程序。'
-      url: 'https://blog.everfu.cn/'
-    - name: 'bbb-lsy07'
-      url: 'https://blog.6uu.us/'
-    - name: 'mp4网'
-      url: 'http://mp4wang.cc/'
+    - name: "藏兵谷"
+      url: "https://blogdrive.gavin-chen.top/"
+    - name: "Jerry Jerry 热衷学习，热衷生活"
+      url: "https://crazywong.com/"
+    - name: "Fomalhaut Fomalhaut Future is now 🍭🍭🍭"
+      url: "https://www.fomal.cc/"
+    - name: "张洪Heo 张洪Heo 分享设计与科技生活"
+      url: "https://blog.zhheo.com/"
+    - name: "Eurkon Eurkon 及时当勉励，岁月不待人。"
+      url: "https://blog.eurkon.com/"
+    - name: "安知鱼 安知鱼 生活明朗, 万物可爱。"
+      url: "https://blog.anheyu.com/"
+    - name: "怕冷爱上雪 怕冷爱上雪 千里之行，始于足下。"
+      url: "https://blog.4t.pw/"
+    - name: "Akilarの糖果屋 Akilarの糖果屋 欢迎光临糖果屋"
+      url: "https://akilar.top/"
+    - name: "Ethan.Tzy(唐志远) Ethan.Tzy(唐志远) 古今之成大事者，不惟有超世之才，亦必有"
+      url: "https://fe32.top/"
+    - name: "Leonus Leonus 进一寸有进一寸的欢喜。"
+      url: "https://blog.leonus.cn/"
+    - name: "海拥 海拥 一个乐于分享技术与快乐的博主"
+      url: "https://haiyong.site/"
+    - name: "Xlenco Xlenco 最好的地方,是没去过的地方。最好的时光，是回不来的时光。"
+      url: "https://xlog.xlenco.top/"
+    - name: "Ariasakaの小窝 Ariasakaの小窝 人有悲欢离合 月有阴晴圆缺"
+      url: "https://blog.yaria.top/"
+    - name: "小冰博客 小冰博客 做个有梦想的人！"
+      url: "https://zfe.space/"
+    - name: "CC康纳百川 CC康纳百川 CC康纳百川的小窝"
+      url: "https://blog.ccknbc.cc/"
+    - name: "LD's BLOG LD's BLOG 分享学习中的点点滴滴"
+      url: "https://longda.wang/"
+    - name: "轻笑Chuckle 轻笑Chuckle 漫天倾尘,风中轻笑"
+      url: "https://www.qcqx.cn/"
+    - name: "山岳库博 山岳库博 开发学习启发性二刺螈"
+      url: "https://kmar.top/"
+    - name: "Black Flies Black Flies When nothing goes right,j"
+      url: "https://www.yyyzyyyz.cn/"
+    - name: "樱花小镇 樱花小镇 小园新种红樱树，闲绕花枝便当游。"
+      url: "https://blog.sakura.vin/"
+    - name: "风起 风起 愿我们都能被世界温暖相拥"
+      url: "https://www.fqsq.wang/"
+    - name: "Mr.Li Blog Mr.Li Blog 一个在校学生,在知识的海洋中不断探索的学习者,面对困难"
+      url: "http://www.lysblog.cn:8080/"
+    - name: "珞瑜生花 珞瑜生花 落红不是无情物，化作春泥更护花"
+      url: "https://system2c.github.io/"
+    - name: "GanSer GanSer 紫箫吟断，素笺恨切"
+      url: "https://www.gan1ser.top/"
+    - name: "张时贰 张时贰 环转码，爱敲代码的小张！"
+      url: "https://zhsher.cn/"
+    - name: "铭心石刻 铭心石刻 愿岁并谢，与友长兮"
+      url: "https://blog.kouseki.cn/"
+    - name: "Fgaoxing Fgaoxing 一个少年的博客"
+      url: "https://www.yt-blog.top/"
+    - name: "墨韵云阁 墨韵云阁 乾坤未定，你我皆是牛马。"
+      url: "https://luoyuanxiang.top/"
+    - name: "萌傀儡 萌傀儡 珍惜现在，趁早摸鱼"
+      url: "https://blhorizon.github.io/"
+    - name: "Marcus Marcus 人间值得，未来可期"
+      url: "https://blog.marcus233.top/"
+    - name: "Pzai Pzai 从入门到放弃"
+      url: "https://blog.pzai.cloud/"
+    - name: "漫川笔记 漫川笔记 记录技术经验与生活"
+      url: "https://www.mancs.cn/"
+    - name: "AI悦创 AI悦创 AI悦创·创造不同～"
+      url: "https://blog.bornforthis.cn/"
+    - name: "時光 時光 心寄朗朗乾坤，胸怀真修之道。"
+      url: "https://blog.shiguangdev.cn/"
+    - name: "Joker2Yue Joker2Yue Joker Never Plays Jokes."
+      url: "https://blog.joker2yue.com/"
+    - name: "清羽飞扬 清羽飞扬 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜。"
+      url: "https://blog.liushen.fun/"
+    - name: "bbb-lsy07 bbb-lsy07 科技激荡人文，洞见智慧本真。"
+      url: "https://blog.tsoo.net/"
+    - name: "橙寻星球 橙寻星球 人外有人，天外有天"
+      url: "https://cloudwl.com/"
+    - name: "清欲的小窝 清欲的小窝 沙雕网友清欲的碎碎念"
+      url: "https://blog.leoo.fun/"
+    - name: "青稚の空间 青稚の空间 越努力，越幸运。"
+      url: "https://blog.linux-qitong.top/"
+    - name: "liangbm3’s blog liangbm3’s blog 总有人间一两风，填我十万八千梦。"
+      url: "https://liangbm3.top/"
+    - name: "益友网站 益友网站 美好的日常生活值得我们去记录，希望我们的生活每天都能充满着乐趣跟开心事。"
+      url: "https://www.yiyou.bj.cn/"
+    - name: "KaiQi.Wang KaiQi.Wang 未来路远 • 勿忘初心"
+      url: "https://kaiqi.wang/"
+    - name: "云栖梦泽 云栖梦泽 遇事不决，可问春风。春风不语，即随本心。"
+      url: "https://www.iliuqi.com/"
+    - name: "老刘博客 老刘博客 分享课件制作与网络生活"
+      url: "https://www.liublog.cn/"
+    - name: "Zhou’s Notes Zhou’s Notes 不谈高深理论，只唠真心喜欢：足球、玩具、生活小"
+      url: "https://www.zhounote.com/"
+    - name: "大熊 大熊 日常随笔与灵感收集的小角落"
+      url: "https://halo.aizaibao.cn/"
+    - name: "林木木 林木木 不问明天，悠然浪费～"
+      url: "https://immmmm.com/"
+    - name: "风记星辰 风记星辰 热爱你来过的每度温暖"
+      url: "https://www.thyuu.com/"
+    - name: "纸鹿摸鱼处 纸鹿摸鱼处 纸鹿至麓不知路，支炉制露不止漉"
+      url: "https://blog.zhilu.cyou/"
+    - name: "武师叔 武师叔 做一个有趣而不甘平庸的人！"
+      url: "https://wushishu.xyz/"
+    - name: "Ronny's Blog Ronny's Blog Try to do better"
+      url: "https://www.wrqj.xyz/"
+    - name: "xiaoger xiaoger 个人学习和分享壁纸的博客"
+      url: "https://xiaoger.top/"
+    - name: "枢衡の巢 枢衡の巢 我期待着，有流星划过"
+      url: "https://blog.krahsu.top/"
+    - name: "呆鱼 呆鱼 Hello World！"
+      url: "https://daiyu.fun/"
+    - name: "Gtwxxh-小小窝 Gtwxxh-小小窝 扣首问路，码梦为生"
+      url: "https://blog.gtwxxh.cn/"
+    - name: "叶椰子 叶椰子 用行动去思考，去改变、去创造。"
+      url: "https://onestarg.com/"
+    - name: "ReCclay ReCclay Young people always want to think"
+      url: "https://www.recclay.cc/"
+    - name: "七鳄の学习格 七鳄の学习格 如果世界多了精彩，每一位都是创造者，大家都是你的观众"
+      url: "https://blog.gmcj0816.top/"
+    - name: "Shine Shine 热爱生活点滴，分享时刻精彩。"
+      url: "https://blog.shineyu.cn/"
+    - name: "李程ic 李程ic 中华人民共和国万岁！"
+      url: "https://www.licic.net/"
+    - name: "伍十七 伍十七 我是一名正在上大一的前端爱好者,专注于构建优秀的应用程序。"
+      url: "https://blog.everfu.cn/"
+    - name: "bbb-lsy07"
+      url: "https://blog.6uu.us/"
+    - name: "mp4网"
+      url: "http://mp4wang.cc/"

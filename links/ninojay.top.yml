@@ -1,26 +1,26 @@
 site:
-  name: 'ninojay.top'
-  url: 'https://ninojay.top/'
-  description: '友情链接'
-  links: '/friends'
+  name: "ninojay.top"
+  url: "https://ninojay.top/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'LeetCode-CN'
-      url: 'https://leetcode.cn/'
-    - name: '少数派'
-      url: 'https://sspai.com/'
-    - name: 'javadoop'
-      url: 'https://javadoop.com/'
-    - name: '极客时间'
-      url: 'https://time.geekbang.org/'
-    - name: 'GreyLi'
-      url: 'https://greyli.com/'
-    - name: 'ziyang'
-      url: 'https://ziyang.moe/'
-    - name: 'zihua'
-      url: 'https://zihua.li/'
-    - name: 'ninozeng.eu.org'
-      url: 'https://ninozeng.eu.org/'
-    - name: 'ninojay.eu.org'
-      url: 'https://ninojay.eu.org/'
-    - name: 'ninojay.4everland.app'
-      url: 'https://ninojay.4everland.app/'
+    - name: "LeetCode-CN"
+      url: "https://leetcode.cn/"
+    - name: "少数派"
+      url: "https://sspai.com/"
+    - name: "javadoop"
+      url: "https://javadoop.com/"
+    - name: "极客时间"
+      url: "https://time.geekbang.org/"
+    - name: "GreyLi"
+      url: "https://greyli.com/"
+    - name: "ziyang"
+      url: "https://ziyang.moe/"
+    - name: "zihua"
+      url: "https://zihua.li/"
+    - name: "ninozeng.eu.org"
+      url: "https://ninozeng.eu.org/"
+    - name: "ninojay.eu.org"
+      url: "https://ninojay.eu.org/"
+    - name: "ninojay.4everland.app"
+      url: "https://ninojay.4everland.app/"

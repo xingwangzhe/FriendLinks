@@ -1,22 +1,22 @@
 site:
-  name: 'blog.fmyron.com'
-  url: 'https://blog.fmyron.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.fmyron.com"
+  url: "https://blog.fmyron.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'shenmo的世界 追求源于热爱'
-      url: 'https://blog.shenmo.tech'
-    - name: 'F_Qilin的小窝 一个小小的个人博客'
-      url: 'https://blog.fqilin.top'
-    - name: '云锦书笺 漂浮的粉色岩石，包围我的蓝色夜。'
-      url: 'https://sothx.com'
-    - name: '锐冰的小窝 世界很大，只是我的才华很有限，但我会继续学习的。'
-      url: 'https://blog.sharpice.top'
-    - name: 'Dian_Jiao的小窝 A kitten carved from the wood of a white tree'
-      url: 'https://dian-jiao.github.io'
-    - name: '渣渣120'
-      url: 'https://zhazha120.cn'
-    - name: '明域 明宇的博客'
-      url: 'https://blog.xming.cloud'
-    - name: 'HADE''s HomePage 玄霜HADES'
-      url: 'https://hadesxuan.top'
+    - name: "shenmo的世界 追求源于热爱"
+      url: "https://blog.shenmo.tech"
+    - name: "F_Qilin的小窝 一个小小的个人博客"
+      url: "https://blog.fqilin.top"
+    - name: "云锦书笺 漂浮的粉色岩石，包围我的蓝色夜。"
+      url: "https://sothx.com"
+    - name: "锐冰的小窝 世界很大，只是我的才华很有限，但我会继续学习的。"
+      url: "https://blog.sharpice.top"
+    - name: "Dian_Jiao的小窝 A kitten carved from the wood of a white tree"
+      url: "https://dian-jiao.github.io"
+    - name: "渣渣120"
+      url: "https://zhazha120.cn"
+    - name: "明域 明宇的博客"
+      url: "https://blog.xming.cloud"
+    - name: "HADE's HomePage 玄霜HADES"
+      url: "https://hadesxuan.top"

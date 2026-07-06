@@ -1,222 +1,222 @@
 site:
-  name: 'fuzzysecurity.com'
-  url: 'http://www.fuzzysecurity.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "fuzzysecurity.com"
+  url: "http://www.fuzzysecurity.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Corelan'
-      url: 'https://www.corelan.be/'
-    - name: 'G0tmi1k'
-      url: 'http://g0tmi1k.blogspot.co.uk/'
-    - name: 'Offensive Security'
-      url: 'http://www.offensive-security.com/'
-    - name: 'mr_me'
-      url: 'http://www.net-ninja.net/'
-    - name: 'GreyHatHacker'
-      url: 'http://www.greyhathacker.net/'
-    - name: 'SecurityTube'
-      url: 'http://www.securitytube.net/'
-    - name: 'Exploit-Monday'
-      url: 'http://www.exploit-monday.com/'
-    - name: 'SkyLined & Cipher'
-      url: 'http://skypher.com/'
-    - name: 'Carnal0wnage'
-      url: 'https://carnal0wnage.blogspot.com/'
-    - name: 'Darknet'
-      url: 'http://www.darknet.org.uk/'
-    - name: 'spylogic.net'
-      url: 'http://www.spylogic.net/'
-    - name: 'TaoSecurity'
-      url: 'https://taosecurity.blogspot.com/'
-    - name: 'Room362.com'
-      url: 'https://www.room362.com/'
-    - name: 'SIPVicious'
-      url: 'http://blog.sipvicious.org/'
-    - name: 'PortSwigger.net'
-      url: 'http://blog.portswigger.net/'
-    - name: 'Jeremiah Grossman'
-      url: 'https://jeremiahgrossman.blogspot.com/'
-    - name: 'omg.wtf.bbq.'
-      url: 'http://i8jesus.com/'
-    - name: 'Catch22'
-      url: 'http://blog.c22.cc/'
-    - name: 'Metasploit'
-      url: 'http://blog.metasploit.com/'
-    - name: 'Security and Networking'
-      url: 'http://www.darkoperator.com/'
-    - name: 'Skeptikal.org'
-      url: 'http://blog.skeptikal.org/'
-    - name: 'Digital Soapbox'
-      url: 'https://preachsecurity.blogspot.com/'
-    - name: 'tssci security'
-      url: 'http://www.tssci-security.com/'
-    - name: 'Reinersâ€™ Weblog'
-      url: 'http://websec.wordpress.com/'
-    - name: 'Bernardo Damele A. G.'
-      url: 'https://bernardodamele.blogspot.com/'
-    - name: 'Laramies Corner'
-      url: 'https://laramies.blogspot.com/'
-    - name: 'Common Exploits'
-      url: 'http://www.commonexploits.com/'
-    - name: 'Weapons of Mass Analysis'
-      url: 'https://wepma.blogspot.com/'
-    - name: 'Exploit KB'
-      url: 'http://exploit.co.il/'
-    - name: 'Security Reliks'
-      url: 'http://securityreliks.wordpress.com/'
-    - name: 'sirdarckcat'
-      url: 'https://sirdarckcat.blogspot.com/'
-    - name: 'Reusable Security'
-      url: 'https://reusablesec.blogspot.com/'
-    - name: 'Myne-us'
-      url: 'https://myne-us.blogspot.com/'
-    - name: 'DigiNinja'
-      url: 'http://www.digininja.org/'
-    - name: 'Home Of PaulDotCom Security Podcast'
-      url: 'http://www.pauldotcom.com/'
-    - name: 'Attack Vector'
-      url: 'http://www.attackvector.org/'
-    - name: 'deviating.net'
-      url: 'http://deviating.net/'
-    - name: 'SmashingPasswords.com'
-      url: 'http://www.smashingpasswords.com/'
-    - name: 'wirewatcher'
-      url: 'http://wirewatcher.wordpress.com/'
-    - name: 'gynvael.coldwind//vx.log'
-      url: 'http://gynvael.coldwind.pl/'
-    - name: 'Nullthreat Security'
-      url: 'http://www.nullthreat.net/'
-    - name: 'Archangel Amael''s BT Tutorials'
-      url: 'https://archangelamael.blogspot.com/'
-    - name: 'memset''s blog'
-      url: 'http://memset.wordpress.com/'
-    - name: 'punter-infosec'
-      url: 'http://punter-infosec.com/'
-    - name: 'Security Ninja'
-      url: 'http://www.securityninja.co.uk/'
-    - name: 'Security and risk'
-      url: 'https://securityandrisk.blogspot.com/'
-    - name: 'GRM n00bs'
-      url: 'http://www.grmn00bs.com/'
-    - name: '::eSploit::'
-      url: 'https://esploit.blogspot.com/'
-    - name: 'PenTestIT'
-      url: 'https://www.pentestit.com/'
-    - name: 'bright-shadows.net'
-      url: 'http://bright-shadows.net/'
-    - name: 'ethicalhacker.net'
-      url: 'http://www.ethicalhacker.net/'
-    - name: 'The Hacker News Network'
-      url: 'http://www.hackernews.com/'
-    - name: 'spokeo.com - People Search'
-      url: 'https://www.spokeo.com/'
-    - name: '123people.com'
-      url: 'http://www.123people.com/'
-    - name: 'Spoke.com - Business Directory'
-      url: 'http://www.spoke.com/'
-    - name: 'Business Network - Social Network for Business Professionals'
-      url: 'http://www.xing.com/'
-    - name: 'ZoomInfo'
-      url: 'http://zoominfo.com/'
-    - name: 'Pipl - People Search'
-      url: 'http://pipl.com/'
-    - name: 'Free People Search by ZabaSearch!'
-      url: 'http://www.zabasearch.com/'
-    - name: 'Free People Search'
-      url: 'http://skipease.com/'
-    - name: 'Addictomatic: Inhale the Web'
-      url: 'http://addictomatic.com/'
-    - name: 'Real Time Search - Social Mention'
-      url: 'http://socialmention.com/'
-    - name: 'yasni.com'
-      url: 'http://www.yasni.com/'
-    - name: 'Tweepz.com'
-      url: 'http://tweepz.com/'
-    - name: 'TweepSearch'
-      url: 'http://tweepsearch.com/'
-    - name: 'Jigsaw Business Contact Directory'
-      url: 'http://www.jigsaw.com/'
-    - name: 'TinEye Reverse Image Search'
-      url: 'http://www.tineye.com/'
-    - name: 'PeekYou'
-      url: 'http://www.peekyou.com/'
-    - name: 'PicFog - Quick Image Search'
-      url: 'http://picfog.com/'
-    - name: 'The Ultimates'
-      url: 'http://theultimates.com/'
-    - name: 'Domain Tools'
-      url: 'http://www.domaintools.com/'
-    - name: 'WHOIS and Reverse IP Service'
-      url: 'http://whois.webhosting.info/'
-    - name: 'MyIPNeighbors'
-      url: 'http://www.my-ip-neighbors.com/'
-    - name: 'net toolkit::index'
-      url: 'http://clez.net/'
-    - name: 'OSVDB'
-      url: 'http://osvdb.org/'
-    - name: 'SecDocs'
-      url: 'http://secdocs.lonerunners.net/'
-    - name: 'CVE'
-      url: 'http://cvedetails.com/'
-    - name: 'Command Line Kung Fu'
-      url: 'http://blog.commandlinekungfu.com/'
-    - name: '[PenTester Scripting]'
-      url: 'http://www.pentesterscripting.com/'
-    - name: 'Linux Survival'
-      url: 'http://www.linuxsurvival.com/'
-    - name: 'Rubular'
-      url: 'http://rubular.com/'
-    - name: 'Matriux'
-      url: 'http://www.matriux.com/'
-    - name: 'nUbuntu'
-      url: 'http://www.nubuntu.org/'
-    - name: 'Pentoo'
-      url: 'https://pentoo.ch/'
-    - name: 'Welcome to Linux From Scratch!'
-      url: 'http://www.linuxfromscratch.org/'
-    - name: 'SUMO Linux'
-      url: 'http://sumolinux.suntzudata.com/'
-    - name: 'BackBox Linux | Flexible Pentesting'
-      url: 'http://www.backbox.org/'
-    - name: 'Badstore.net'
-      url: 'http://www.badstore.net/'
-    - name: 'Damn Vulnerable Web App - DVWA'
-      url: 'http://www.dvwa.co.uk/'
-    - name: 'OldApps.com'
-      url: 'http://www.oldapps.com/'
-    - name: 'OldVersion.com'
-      url: 'http://www.oldversion.com/'
-    - name: 'Test Site'
-      url: 'http://www.webscantest.com/'
-    - name: 'acublog news'
-      url: 'http://testaspnet.vulnweb.com/'
-    - name: 'acuforum forums'
-      url: 'http://testasp.vulnweb.com/'
-    - name: 'Home of Acunetix Art'
-      url: 'http://testphp.vulnweb.com/'
-    - name: 'NT OBJECTives'
-      url: 'http://hackme.ntobjectives.com/'
-    - name: 'Binary Auditing'
-      url: 'http://www.binary-auditing.com/'
-    - name: 'Offensive Computing'
-      url: 'http://www.offensivecomputing.net/'
-    - name: 'MD5'
-      url: 'https://hashcrack.blogspot.com/'
-    - name: 'Online Hash Cracking'
-      url: 'http://www.onlinehashcrack.com/'
-    - name: 'SQID - SQL Injection digger'
-      url: 'http://sqid.rubyforge.org/#next'
-    - name: 'w3af in burp'
-      url: 'http://blog.ombrepixel.com/'
-    - name: 'hashcat'
-      url: 'https://hashcat.net/'
-    - name: 'OpenSSH-Script'
-      url: 'http://meterpreter.illegalguy.hostzi.com/'
-    - name: 'Armitage'
-      url: 'http://www.fastandeasyhacking.com/'
-    - name: 'Nsploit'
-      url: 'http://trac.happypacket.net/'
-    - name: 'OpenVAS'
-      url: 'http://www.openvas.org/'
-    - name: 'Penetration Testing'
-      url: 'http://pentest.cryptocity.net/'
+    - name: "Corelan"
+      url: "https://www.corelan.be/"
+    - name: "G0tmi1k"
+      url: "http://g0tmi1k.blogspot.co.uk/"
+    - name: "Offensive Security"
+      url: "http://www.offensive-security.com/"
+    - name: "mr_me"
+      url: "http://www.net-ninja.net/"
+    - name: "GreyHatHacker"
+      url: "http://www.greyhathacker.net/"
+    - name: "SecurityTube"
+      url: "http://www.securitytube.net/"
+    - name: "Exploit-Monday"
+      url: "http://www.exploit-monday.com/"
+    - name: "SkyLined & Cipher"
+      url: "http://skypher.com/"
+    - name: "Carnal0wnage"
+      url: "https://carnal0wnage.blogspot.com/"
+    - name: "Darknet"
+      url: "http://www.darknet.org.uk/"
+    - name: "spylogic.net"
+      url: "http://www.spylogic.net/"
+    - name: "TaoSecurity"
+      url: "https://taosecurity.blogspot.com/"
+    - name: "Room362.com"
+      url: "https://www.room362.com/"
+    - name: "SIPVicious"
+      url: "http://blog.sipvicious.org/"
+    - name: "PortSwigger.net"
+      url: "http://blog.portswigger.net/"
+    - name: "Jeremiah Grossman"
+      url: "https://jeremiahgrossman.blogspot.com/"
+    - name: "omg.wtf.bbq."
+      url: "http://i8jesus.com/"
+    - name: "Catch22"
+      url: "http://blog.c22.cc/"
+    - name: "Metasploit"
+      url: "http://blog.metasploit.com/"
+    - name: "Security and Networking"
+      url: "http://www.darkoperator.com/"
+    - name: "Skeptikal.org"
+      url: "http://blog.skeptikal.org/"
+    - name: "Digital Soapbox"
+      url: "https://preachsecurity.blogspot.com/"
+    - name: "tssci security"
+      url: "http://www.tssci-security.com/"
+    - name: "Reinersâ€™ Weblog"
+      url: "http://websec.wordpress.com/"
+    - name: "Bernardo Damele A. G."
+      url: "https://bernardodamele.blogspot.com/"
+    - name: "Laramies Corner"
+      url: "https://laramies.blogspot.com/"
+    - name: "Common Exploits"
+      url: "http://www.commonexploits.com/"
+    - name: "Weapons of Mass Analysis"
+      url: "https://wepma.blogspot.com/"
+    - name: "Exploit KB"
+      url: "http://exploit.co.il/"
+    - name: "Security Reliks"
+      url: "http://securityreliks.wordpress.com/"
+    - name: "sirdarckcat"
+      url: "https://sirdarckcat.blogspot.com/"
+    - name: "Reusable Security"
+      url: "https://reusablesec.blogspot.com/"
+    - name: "Myne-us"
+      url: "https://myne-us.blogspot.com/"
+    - name: "DigiNinja"
+      url: "http://www.digininja.org/"
+    - name: "Home Of PaulDotCom Security Podcast"
+      url: "http://www.pauldotcom.com/"
+    - name: "Attack Vector"
+      url: "http://www.attackvector.org/"
+    - name: "deviating.net"
+      url: "http://deviating.net/"
+    - name: "SmashingPasswords.com"
+      url: "http://www.smashingpasswords.com/"
+    - name: "wirewatcher"
+      url: "http://wirewatcher.wordpress.com/"
+    - name: "gynvael.coldwind//vx.log"
+      url: "http://gynvael.coldwind.pl/"
+    - name: "Nullthreat Security"
+      url: "http://www.nullthreat.net/"
+    - name: "Archangel Amael's BT Tutorials"
+      url: "https://archangelamael.blogspot.com/"
+    - name: "memset's blog"
+      url: "http://memset.wordpress.com/"
+    - name: "punter-infosec"
+      url: "http://punter-infosec.com/"
+    - name: "Security Ninja"
+      url: "http://www.securityninja.co.uk/"
+    - name: "Security and risk"
+      url: "https://securityandrisk.blogspot.com/"
+    - name: "GRM n00bs"
+      url: "http://www.grmn00bs.com/"
+    - name: "::eSploit::"
+      url: "https://esploit.blogspot.com/"
+    - name: "PenTestIT"
+      url: "https://www.pentestit.com/"
+    - name: "bright-shadows.net"
+      url: "http://bright-shadows.net/"
+    - name: "ethicalhacker.net"
+      url: "http://www.ethicalhacker.net/"
+    - name: "The Hacker News Network"
+      url: "http://www.hackernews.com/"
+    - name: "spokeo.com - People Search"
+      url: "https://www.spokeo.com/"
+    - name: "123people.com"
+      url: "http://www.123people.com/"
+    - name: "Spoke.com - Business Directory"
+      url: "http://www.spoke.com/"
+    - name: "Business Network - Social Network for Business Professionals"
+      url: "http://www.xing.com/"
+    - name: "ZoomInfo"
+      url: "http://zoominfo.com/"
+    - name: "Pipl - People Search"
+      url: "http://pipl.com/"
+    - name: "Free People Search by ZabaSearch!"
+      url: "http://www.zabasearch.com/"
+    - name: "Free People Search"
+      url: "http://skipease.com/"
+    - name: "Addictomatic: Inhale the Web"
+      url: "http://addictomatic.com/"
+    - name: "Real Time Search - Social Mention"
+      url: "http://socialmention.com/"
+    - name: "yasni.com"
+      url: "http://www.yasni.com/"
+    - name: "Tweepz.com"
+      url: "http://tweepz.com/"
+    - name: "TweepSearch"
+      url: "http://tweepsearch.com/"
+    - name: "Jigsaw Business Contact Directory"
+      url: "http://www.jigsaw.com/"
+    - name: "TinEye Reverse Image Search"
+      url: "http://www.tineye.com/"
+    - name: "PeekYou"
+      url: "http://www.peekyou.com/"
+    - name: "PicFog - Quick Image Search"
+      url: "http://picfog.com/"
+    - name: "The Ultimates"
+      url: "http://theultimates.com/"
+    - name: "Domain Tools"
+      url: "http://www.domaintools.com/"
+    - name: "WHOIS and Reverse IP Service"
+      url: "http://whois.webhosting.info/"
+    - name: "MyIPNeighbors"
+      url: "http://www.my-ip-neighbors.com/"
+    - name: "net toolkit::index"
+      url: "http://clez.net/"
+    - name: "OSVDB"
+      url: "http://osvdb.org/"
+    - name: "SecDocs"
+      url: "http://secdocs.lonerunners.net/"
+    - name: "CVE"
+      url: "http://cvedetails.com/"
+    - name: "Command Line Kung Fu"
+      url: "http://blog.commandlinekungfu.com/"
+    - name: "[PenTester Scripting]"
+      url: "http://www.pentesterscripting.com/"
+    - name: "Linux Survival"
+      url: "http://www.linuxsurvival.com/"
+    - name: "Rubular"
+      url: "http://rubular.com/"
+    - name: "Matriux"
+      url: "http://www.matriux.com/"
+    - name: "nUbuntu"
+      url: "http://www.nubuntu.org/"
+    - name: "Pentoo"
+      url: "https://pentoo.ch/"
+    - name: "Welcome to Linux From Scratch!"
+      url: "http://www.linuxfromscratch.org/"
+    - name: "SUMO Linux"
+      url: "http://sumolinux.suntzudata.com/"
+    - name: "BackBox Linux | Flexible Pentesting"
+      url: "http://www.backbox.org/"
+    - name: "Badstore.net"
+      url: "http://www.badstore.net/"
+    - name: "Damn Vulnerable Web App - DVWA"
+      url: "http://www.dvwa.co.uk/"
+    - name: "OldApps.com"
+      url: "http://www.oldapps.com/"
+    - name: "OldVersion.com"
+      url: "http://www.oldversion.com/"
+    - name: "Test Site"
+      url: "http://www.webscantest.com/"
+    - name: "acublog news"
+      url: "http://testaspnet.vulnweb.com/"
+    - name: "acuforum forums"
+      url: "http://testasp.vulnweb.com/"
+    - name: "Home of Acunetix Art"
+      url: "http://testphp.vulnweb.com/"
+    - name: "NT OBJECTives"
+      url: "http://hackme.ntobjectives.com/"
+    - name: "Binary Auditing"
+      url: "http://www.binary-auditing.com/"
+    - name: "Offensive Computing"
+      url: "http://www.offensivecomputing.net/"
+    - name: "MD5"
+      url: "https://hashcrack.blogspot.com/"
+    - name: "Online Hash Cracking"
+      url: "http://www.onlinehashcrack.com/"
+    - name: "SQID - SQL Injection digger"
+      url: "http://sqid.rubyforge.org/#next"
+    - name: "w3af in burp"
+      url: "http://blog.ombrepixel.com/"
+    - name: "hashcat"
+      url: "https://hashcat.net/"
+    - name: "OpenSSH-Script"
+      url: "http://meterpreter.illegalguy.hostzi.com/"
+    - name: "Armitage"
+      url: "http://www.fastandeasyhacking.com/"
+    - name: "Nsploit"
+      url: "http://trac.happypacket.net/"
+    - name: "OpenVAS"
+      url: "http://www.openvas.org/"
+    - name: "Penetration Testing"
+      url: "http://pentest.cryptocity.net/"

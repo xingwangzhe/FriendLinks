@@ -1,70 +1,70 @@
 site:
-  name: 'Rat's Blog'
-  url: 'https://www.moerats.com/'
-  description: '一个简简单单的博客，平时记录下自己所看到的，所想到的，仅此而已。'
-  links: '/links'
+  name: "Rat's Blog"
+  url: "https://www.moerats.com/"
+  description: "一个简简单单的博客，平时记录下自己所看到的，所想到的，仅此而已。"
+  links: "/links"
   friends:
-    - name: '蕾姆拉姆网'
-      url: 'https://www.leimulamu.com/'
-    - name: '神代綺凛の随波逐流'
-      url: 'https://moe.best/'
-    - name: '南琴浪博客'
-      url: 'https://sometimesnaive.org/'
-    - name: '友人C'
-      url: 'https://www.ihewro.com/'
-    - name: '萌虎 | moehu.org'
-      url: 'https://moehu.org/'
-    - name: '刺客博客'
-      url: 'https://cikeblog.com/'
-    - name: '同乐儿'
-      url: 'https://www.tongleer.com/'
-    - name: 'Zero の 日常'
-      url: 'https://mikuac.com/'
-    - name: '华梦博客'
-      url: 'https://52huameng.com/'
-    - name: '挖站否-挖掘建站的乐趣'
-      url: 'https://wzfou.com/'
-    - name: '菜缤的世界'
-      url: 'https://cairbin.top/'
-    - name: '浮居'
-      url: 'https://fuju.life/'
-    - name: '雨き声残響'
-      url: 'https://blog.abyss.moe/'
-    - name: 'idealclover'
-      url: 'https://www.idealclover.top/'
-    - name: 'Mark's Blog'
-      url: 'https://www.quchao.net/'
-    - name: '动感记事小屋-动感男孩-又一个空壳网站'
-      url: 'https://www.dongganboy.com/'
-    - name: 'Dreamer2q’s Blog'
-      url: 'https://dreamer2q.wang/'
-    - name: '何智政个人博客'
-      url: 'https://hzz.cool/'
-    - name: '飞羽小随笔-个人技术文章'
-      url: 'https://blog.8086k.cn/'
-    - name: 'Newlearnerの小站'
-      url: 'https://www.newlearner.site/'
-    - name: 'Eric's Blog'
-      url: 'https://eblog.ink/'
-    - name: 'Ewige前夕'
-      url: 'https://www.evec.cc/'
-    - name: 'cnfox's blog 当时只道是寻常'
-      url: 'https://www.icnfox.cn/'
-    - name: '萌博客'
-      url: 'https://moe.blog/'
-    - name: 'Changbin's Blog 我的编程学习笔记和一些计算机的实用教程'
-      url: 'https://www.misterma.com/'
-    - name: 'Frytea's Blog'
-      url: 'https://blog.frytea.com/'
-    - name: '首页'
-      url: 'https://loli.by/'
-    - name: '初馨分享-技术综合类博客'
-      url: 'https://share.cxyqx.cn/'
-    - name: 'Pro-Host'
-      url: 'https://xeonphi.xyz/'
-    - name: '韩宗洋的博客'
-      url: 'https://deathfugue.com/'
-    - name: 'Xiaobin's Notes'
-      url: 'https://lxb.wiki/'
-    - name: '我不是咕咕鸽'
-      url: 'https://blog.laoda.de/'
+    - name: "蕾姆拉姆网"
+      url: "https://www.leimulamu.com/"
+    - name: "神代綺凛の随波逐流"
+      url: "https://moe.best/"
+    - name: "南琴浪博客"
+      url: "https://sometimesnaive.org/"
+    - name: "友人C"
+      url: "https://www.ihewro.com/"
+    - name: "萌虎 | moehu.org"
+      url: "https://moehu.org/"
+    - name: "刺客博客"
+      url: "https://cikeblog.com/"
+    - name: "同乐儿"
+      url: "https://www.tongleer.com/"
+    - name: "Zero の 日常"
+      url: "https://mikuac.com/"
+    - name: "华梦博客"
+      url: "https://52huameng.com/"
+    - name: "挖站否-挖掘建站的乐趣"
+      url: "https://wzfou.com/"
+    - name: "菜缤的世界"
+      url: "https://cairbin.top/"
+    - name: "浮居"
+      url: "https://fuju.life/"
+    - name: "雨き声残響"
+      url: "https://blog.abyss.moe/"
+    - name: "idealclover"
+      url: "https://www.idealclover.top/"
+    - name: "Mark's Blog"
+      url: "https://www.quchao.net/"
+    - name: "动感记事小屋-动感男孩-又一个空壳网站"
+      url: "https://www.dongganboy.com/"
+    - name: "Dreamer2q’s Blog"
+      url: "https://dreamer2q.wang/"
+    - name: "何智政个人博客"
+      url: "https://hzz.cool/"
+    - name: "飞羽小随笔-个人技术文章"
+      url: "https://blog.8086k.cn/"
+    - name: "Newlearnerの小站"
+      url: "https://www.newlearner.site/"
+    - name: "Eric's Blog"
+      url: "https://eblog.ink/"
+    - name: "Ewige前夕"
+      url: "https://www.evec.cc/"
+    - name: "cnfox's blog 当时只道是寻常"
+      url: "https://www.icnfox.cn/"
+    - name: "萌博客"
+      url: "https://moe.blog/"
+    - name: "Changbin's Blog 我的编程学习笔记和一些计算机的实用教程"
+      url: "https://www.misterma.com/"
+    - name: "Frytea's Blog"
+      url: "https://blog.frytea.com/"
+    - name: "首页"
+      url: "https://loli.by/"
+    - name: "初馨分享-技术综合类博客"
+      url: "https://share.cxyqx.cn/"
+    - name: "Pro-Host"
+      url: "https://xeonphi.xyz/"
+    - name: "韩宗洋的博客"
+      url: "https://deathfugue.com/"
+    - name: "Xiaobin's Notes"
+      url: "https://lxb.wiki/"
+    - name: "我不是咕咕鸽"
+      url: "https://blog.laoda.de/"

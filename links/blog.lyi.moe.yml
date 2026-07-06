@@ -1,14 +1,14 @@
 site:
-  name: 'blog.lyi.moe'
-  url: 'https://blog.lyi.moe/'
-  description: '友情链接'
-  links: '/link'
+  name: "blog.lyi.moe"
+  url: "https://blog.lyi.moe/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: 'Shiro'
-      url: 'https://shiro.love/'
-    - name: 'PanDaTech''s Blog'
-      url: 'https://www.pandadatech.cn/'
-    - name: '纸鹿本鹿摸鱼处'
-      url: 'https://blog.zhilu.site'
-    - name: 'ChuYao'
-      url: 'https://blog.yaooa.cn'
+    - name: "Shiro"
+      url: "https://shiro.love/"
+    - name: "PanDaTech's Blog"
+      url: "https://www.pandadatech.cn/"
+    - name: "纸鹿本鹿摸鱼处"
+      url: "https://blog.zhilu.site"
+    - name: "ChuYao"
+      url: "https://blog.yaooa.cn"

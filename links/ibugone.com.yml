@@ -1,10 +1,10 @@
 site:
-  name: 'ibugone.com'
-  url: 'https://ibugone.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "ibugone.com"
+  url: "https://ibugone.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'iBug'
-      url: 'https://ibug.io/'
-    - name: 'Notes'
-      url: 'https://notes.ibug.io/'
+    - name: "iBug"
+      url: "https://ibug.io/"
+    - name: "Notes"
+      url: "https://notes.ibug.io/"

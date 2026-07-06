@@ -1,16 +1,16 @@
 site:
-  name: 'hanselman.com'
-  url: 'http://hanselman.com/'
-  description: '友情链接'
-  links: '/'
+  name: "hanselman.com"
+  url: "http://hanselman.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'This Developer''s Life'
-      url: 'http://thisdeveloperslife.com'
-    - name: 'Presentations Tips'
-      url: 'http://www.speakinghacks.com'
-    - name: 'Relationship Hacks'
-      url: 'http://relationshiphacks.com'
-    - name: '@jzy'
-      url: 'http://www.8164.org/'
-    - name: 'Gritchelle Photography'
-      url: 'https://gritchelle.photos/'
+    - name: "This Developer's Life"
+      url: "http://thisdeveloperslife.com"
+    - name: "Presentations Tips"
+      url: "http://www.speakinghacks.com"
+    - name: "Relationship Hacks"
+      url: "http://relationshiphacks.com"
+    - name: "@jzy"
+      url: "http://www.8164.org/"
+    - name: "Gritchelle Photography"
+      url: "https://gritchelle.photos/"

@@ -1,72 +1,72 @@
 site:
-  name: 'w-flac.org.cn'
-  url: 'https://w-flac.org.cn/'
-  description: '友情链接'
-  links: '/links'
+  name: "w-flac.org.cn"
+  url: "https://w-flac.org.cn/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'blog.liuzijian.com'
-      url: 'https://blog.liuzijian.com'
-    - name: 'blog.kangyaocoding.top'
-      url: 'https://blog.kangyaocoding.top'
-    - name: 'ryanc.cc'
-      url: 'https://ryanc.cc'
-    - name: 'www.zhangtianci.cn'
-      url: 'https://www.zhangtianci.cn'
-    - name: 'www.anye.xyz'
-      url: 'https://www.anye.xyz'
-    - name: 'www.nahida.cn'
-      url: 'https://www.nahida.cn'
-    - name: 'www.sczhaoqi.ink'
-      url: 'https://www.sczhaoqi.ink'
-    - name: 'www.sw0.top'
-      url: 'https://www.sw0.top'
-    - name: 'www.sifangbazhu.tech'
-      url: 'https://www.sifangbazhu.tech'
-    - name: 'www.lxfycloud.cn'
-      url: 'https://www.lxfycloud.cn'
-    - name: 'luckqf.cn'
-      url: 'https://luckqf.cn'
-    - name: 'tenyon.cn'
-      url: 'https://tenyon.cn'
-    - name: 'www.logdict.com/'
-      url: 'https://www.logdict.com/'
-    - name: 'www.fhzdcj.cn/'
-      url: 'https://www.fhzdcj.cn/'
-    - name: 'xiaolinz.top'
-      url: 'https://xiaolinz.top'
-    - name: 'redmou.com'
-      url: 'https://redmou.com'
-    - name: 'www.ln8.top'
-      url: 'https://www.ln8.top'
-    - name: 'www.xinz.fun'
-      url: 'https://www.xinz.fun'
-    - name: 'kunkunyu.com'
-      url: 'https://kunkunyu.com'
-    - name: 'blog.iooioio.com'
-      url: 'https://blog.iooioio.com'
-    - name: 'blog.lehhair.net'
-      url: 'https://blog.lehhair.net'
-    - name: 'oniya.cn'
-      url: 'https://oniya.cn'
-    - name: 'www.wxy97.com/'
-      url: 'https://www.wxy97.com/'
-    - name: 'blog.flycat.tech'
-      url: 'https://blog.flycat.tech'
-    - name: 'blog.uptoz.cn'
-      url: 'https://blog.uptoz.cn'
-    - name: 'www.ljh99.cn'
-      url: 'https://www.ljh99.cn'
-    - name: 'oyzm.cn'
-      url: 'https://oyzm.cn'
-    - name: 'www.cloudstaymoon.com'
-      url: 'https://www.cloudstaymoon.com'
-    - name: 'minterjia.com'
-      url: 'https://minterjia.com'
-    - name: '3gg.cn/'
-      url: 'https://3gg.cn/'
-    - name: 'blog.528688.cn/'
-      url: 'https://blog.528688.cn/'
-    - name: 'www.ppkok.com/'
-      url: 'https://www.ppkok.com/'
-    - name: 'blog.jurision.cn'
-      url: 'https://blog.jurision.cn'
+    - name: "blog.liuzijian.com"
+      url: "https://blog.liuzijian.com"
+    - name: "blog.kangyaocoding.top"
+      url: "https://blog.kangyaocoding.top"
+    - name: "ryanc.cc"
+      url: "https://ryanc.cc"
+    - name: "www.zhangtianci.cn"
+      url: "https://www.zhangtianci.cn"
+    - name: "www.anye.xyz"
+      url: "https://www.anye.xyz"
+    - name: "www.nahida.cn"
+      url: "https://www.nahida.cn"
+    - name: "www.sczhaoqi.ink"
+      url: "https://www.sczhaoqi.ink"
+    - name: "www.sw0.top"
+      url: "https://www.sw0.top"
+    - name: "www.sifangbazhu.tech"
+      url: "https://www.sifangbazhu.tech"
+    - name: "www.lxfycloud.cn"
+      url: "https://www.lxfycloud.cn"
+    - name: "luckqf.cn"
+      url: "https://luckqf.cn"
+    - name: "tenyon.cn"
+      url: "https://tenyon.cn"
+    - name: "www.logdict.com/"
+      url: "https://www.logdict.com/"
+    - name: "www.fhzdcj.cn/"
+      url: "https://www.fhzdcj.cn/"
+    - name: "xiaolinz.top"
+      url: "https://xiaolinz.top"
+    - name: "redmou.com"
+      url: "https://redmou.com"
+    - name: "www.ln8.top"
+      url: "https://www.ln8.top"
+    - name: "www.xinz.fun"
+      url: "https://www.xinz.fun"
+    - name: "kunkunyu.com"
+      url: "https://kunkunyu.com"
+    - name: "blog.iooioio.com"
+      url: "https://blog.iooioio.com"
+    - name: "blog.lehhair.net"
+      url: "https://blog.lehhair.net"
+    - name: "oniya.cn"
+      url: "https://oniya.cn"
+    - name: "www.wxy97.com/"
+      url: "https://www.wxy97.com/"
+    - name: "blog.flycat.tech"
+      url: "https://blog.flycat.tech"
+    - name: "blog.uptoz.cn"
+      url: "https://blog.uptoz.cn"
+    - name: "www.ljh99.cn"
+      url: "https://www.ljh99.cn"
+    - name: "oyzm.cn"
+      url: "https://oyzm.cn"
+    - name: "www.cloudstaymoon.com"
+      url: "https://www.cloudstaymoon.com"
+    - name: "minterjia.com"
+      url: "https://minterjia.com"
+    - name: "3gg.cn/"
+      url: "https://3gg.cn/"
+    - name: "blog.528688.cn/"
+      url: "https://blog.528688.cn/"
+    - name: "www.ppkok.com/"
+      url: "https://www.ppkok.com/"
+    - name: "blog.jurision.cn"
+      url: "https://blog.jurision.cn"

@@ -1,12 +1,12 @@
 site:
-  name: 'edleeman.co.uk'
-  url: 'https://edleeman.co.uk/'
-  description: '友情链接'
-  links: '/links'
+  name: "edleeman.co.uk"
+  url: "https://edleeman.co.uk/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Matrix'
-      url: 'https://matrix.to/#/@ed:selfhostingblog.com'
-    - name: 'IndieWeb Webring'
-      url: 'https://🕸💍.ws'
-    - name: 'Fediring'
-      url: 'https://fediring.net/'
+    - name: "Matrix"
+      url: "https://matrix.to/#/@ed:selfhostingblog.com"
+    - name: "IndieWeb Webring"
+      url: "https://🕸💍.ws"
+    - name: "Fediring"
+      url: "https://fediring.net/"

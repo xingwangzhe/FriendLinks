@@ -1,14 +1,14 @@
 site:
-  name: 'jkgq.com'
-  url: 'https://www.jkgq.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "jkgq.com"
+  url: "https://www.jkgq.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'TTSMaker'
-      url: 'https://ttsmaker.cn/'
-    - name: '易点微信编辑器'
-      url: 'https://www.wxeditor.com/'
-    - name: '秀米编辑器'
-      url: 'https://xiumi.us/'
-    - name: '草料二维码'
-      url: 'https://cli.im/'
+    - name: "TTSMaker"
+      url: "https://ttsmaker.cn/"
+    - name: "易点微信编辑器"
+      url: "https://www.wxeditor.com/"
+    - name: "秀米编辑器"
+      url: "https://xiumi.us/"
+    - name: "草料二维码"
+      url: "https://cli.im/"

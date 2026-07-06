@@ -1,12 +1,12 @@
 site:
-  name: 'bducds.com'
-  url: 'https://bducds.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "bducds.com"
+  url: "https://bducds.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '孟坤博客'
-      url: 'https://mkblog.cn/'
-    - name: 'Dabai'
-      url: 'https://ucds.me/'
-    - name: 'HostLoc'
-      url: 'https://hostloc.com/'
+    - name: "孟坤博客"
+      url: "https://mkblog.cn/"
+    - name: "Dabai"
+      url: "https://ucds.me/"
+    - name: "HostLoc"
+      url: "https://hostloc.com/"

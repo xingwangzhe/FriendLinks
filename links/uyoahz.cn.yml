@@ -1,10 +1,10 @@
 site:
-  name: 'UyoAhz'
-  url: 'https://uyoahz.cn/'
-  description: '个人博客，使用Hexo框架，碰巧会一点前端，就顺便改吧改吧了下，代码托管在github上，使用Git Actions集成部署。'
-  links: '/links'
+  name: "UyoAhz"
+  url: "https://uyoahz.cn/"
+  description: "个人博客，使用Hexo框架，碰巧会一点前端，就顺便改吧改吧了下，代码托管在github上，使用Git Actions集成部署。"
+  links: "/links"
   friends:
-    - name: '字节君'
-      url: 'https://blog.lvbyte.top/'
-    - name: '友链朋友圈'
-      url: 'https://fcircle-doc.yyyzyyyz.cn/'
+    - name: "字节君"
+      url: "https://blog.lvbyte.top/"
+    - name: "友链朋友圈"
+      url: "https://fcircle-doc.yyyzyyyz.cn/"

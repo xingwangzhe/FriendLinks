@@ -1,24 +1,24 @@
 site:
-  name: 'ozorn.in'
-  url: 'https://ozorn.in/'
-  description: '友情链接'
-  links: '/links'
+  name: "ozorn.in"
+  url: "https://ozorn.in/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Does iOS have sideloading yet?'
-      url: 'https://doesioshavesideloadingyet.com/#can-hobbyists-take-advantage-of-the-eus-dma-today'
-    - name: 'Contra Chrome – a webcomic'
-      url: 'https://contrachrome.com'
-    - name: 'Charity Majors'
-      url: 'https://charity.wtf'
-    - name: 'Pluralistic by Cory Doctorow'
-      url: 'https://pluralistic.net'
-    - name: 'Astral Codex Ten by Scott Alexander'
-      url: 'https://www.astralcodexten.com'
-    - name: 'Kagi'
-      url: 'https://kagi.com'
-    - name: 'Where''s Your Ed At by Ed Zitron'
-      url: 'https://www.wheresyoured.at'
-    - name: 'EFF'
-      url: 'https://www.eff.org'
-    - name: 'GiveWell'
-      url: 'https://www.givewell.org'
+    - name: "Does iOS have sideloading yet?"
+      url: "https://doesioshavesideloadingyet.com/#can-hobbyists-take-advantage-of-the-eus-dma-today"
+    - name: "Contra Chrome – a webcomic"
+      url: "https://contrachrome.com"
+    - name: "Charity Majors"
+      url: "https://charity.wtf"
+    - name: "Pluralistic by Cory Doctorow"
+      url: "https://pluralistic.net"
+    - name: "Astral Codex Ten by Scott Alexander"
+      url: "https://www.astralcodexten.com"
+    - name: "Kagi"
+      url: "https://kagi.com"
+    - name: "Where's Your Ed At by Ed Zitron"
+      url: "https://www.wheresyoured.at"
+    - name: "EFF"
+      url: "https://www.eff.org"
+    - name: "GiveWell"
+      url: "https://www.givewell.org"

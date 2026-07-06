@@ -1,94 +1,94 @@
 site:
-  name: '一介大叔'
-  url: 'https://blog.tingyuyaji.com/'
-  description: '一介大叔'
-  links: '/links'
+  name: "一介大叔"
+  url: "https://blog.tingyuyaji.com/"
+  description: "一介大叔"
+  links: "/links"
   friends:
-    - name: 'FROYO's Blog'
-      url: 'https://www.izhuyue.com/'
-    - name: '佐仔志'
-      url: 'https://www.jinbo123.com/'
-    - name: '不曾长大-秦大叔的流水账'
-      url: 'https://qfsyj.com/'
-    - name: '土木坛子'
-      url: 'https://tumutanzi.com/'
-    - name: 'www.louishan.com-官网首页'
-      url: 'https://louishan.com/'
-    - name: '松松网'
-      url: 'https://lusongsong.com/'
-    - name: '2B博客 | 2BROEAR'
-      url: 'https://blog.2broear.com/'
-    - name: '喂马劈柴'
-      url: 'https://blog.shaoxiao.net/'
-    - name: '飞刀博客'
-      url: 'https://www.feidaoboke.com/'
-    - name: 'JiaYin's Life'
-      url: 'https://imjiayin.com/'
-    - name: 'linyufanblogpc'
-      url: 'https://www.linyufan.com/'
-    - name: '黄杰敏的博客'
-      url: 'https://www.jiemin.com/'
-    - name: '狡猫三窝'
-      url: 'https://slykiten.com/'
-    - name: '小猪的窝'
-      url: 'https://ezo.biz/'
-    - name: '随望淡思'
-      url: 'https://www.lushaojun.com/'
-    - name: '燕渡寒潭'
-      url: 'https://hisherry.com/'
-    - name: '破袜子'
-      url: 'https://pewae.com/'
-    - name: '响石潭'
-      url: 'https://www.xiangshitan.com/'
-    - name: '灰常记忆'
-      url: 'https://bestcherish.com/'
-    - name: '山炮不二'
-      url: 'https://xsinger.me/'
-    - name: '梦幻辰风'
-      url: 'https://www.mhcf.net/'
-    - name: '攻城狮笔记'
-      url: 'https://qumac.com/'
-    - name: '生活的左上角'
-      url: 'https://bwskyer.com/'
-    - name: '林海草原'
-      url: 'https://lhcy.org/'
-    - name: '1900的灯泡店'
-      url: 'https://1900.live/'
-    - name: '像素工坊'
-      url: 'https://www.shephe.com/'
-    - name: '老刘博客'
-      url: 'https://iliu.org/'
-    - name: '曾经左手烟'
-      url: 'https://www.cjzsy.com/'
-    - name: '小财神的奋斗'
-      url: 'https://caisixiang.com/'
-    - name: '老麦'
-      url: 'https://laomai.org/'
-    - name: '小陈故事'
-      url: 'https://www.chener.net/'
-    - name: '致郁系'
-      url: 'https://www.juroku.net/'
-    - name: 'yiws.net'
-      url: 'https://yiws.net/'
-    - name: '山野愚人居'
-      url: 'https://www.iyuren.com/'
-    - name: '子痕的生活志'
-      url: 'https://blog.mzihen.com/'
-    - name: '笛声'
-      url: 'https://hqidi.com/'
-    - name: '老张博客'
-      url: 'https://laozhang.org/'
-    - name: '王光卫博客'
-      url: 'https://www.guangweiblog.com/'
-    - name: '忆往事'
-      url: 'https://zhou.ge/'
-    - name: 'Andy烧麦'
-      url: 'https://4311346.com/'
-    - name: '孤斗'
-      url: 'https://d-d.design/'
-    - name: 'EEE.ME'
-      url: 'https://eee.me/'
-    - name: '三无青年'
-      url: 'https://www.duanxiansen.com/'
-    - name: 'DrPika's Blog'
-      url: 'https://blog.drpika.com/'
+    - name: "FROYO's Blog"
+      url: "https://www.izhuyue.com/"
+    - name: "佐仔志"
+      url: "https://www.jinbo123.com/"
+    - name: "不曾长大-秦大叔的流水账"
+      url: "https://qfsyj.com/"
+    - name: "土木坛子"
+      url: "https://tumutanzi.com/"
+    - name: "www.louishan.com-官网首页"
+      url: "https://louishan.com/"
+    - name: "松松网"
+      url: "https://lusongsong.com/"
+    - name: "2B博客 | 2BROEAR"
+      url: "https://blog.2broear.com/"
+    - name: "喂马劈柴"
+      url: "https://blog.shaoxiao.net/"
+    - name: "飞刀博客"
+      url: "https://www.feidaoboke.com/"
+    - name: "JiaYin's Life"
+      url: "https://imjiayin.com/"
+    - name: "linyufanblogpc"
+      url: "https://www.linyufan.com/"
+    - name: "黄杰敏的博客"
+      url: "https://www.jiemin.com/"
+    - name: "狡猫三窝"
+      url: "https://slykiten.com/"
+    - name: "小猪的窝"
+      url: "https://ezo.biz/"
+    - name: "随望淡思"
+      url: "https://www.lushaojun.com/"
+    - name: "燕渡寒潭"
+      url: "https://hisherry.com/"
+    - name: "破袜子"
+      url: "https://pewae.com/"
+    - name: "响石潭"
+      url: "https://www.xiangshitan.com/"
+    - name: "灰常记忆"
+      url: "https://bestcherish.com/"
+    - name: "山炮不二"
+      url: "https://xsinger.me/"
+    - name: "梦幻辰风"
+      url: "https://www.mhcf.net/"
+    - name: "攻城狮笔记"
+      url: "https://qumac.com/"
+    - name: "生活的左上角"
+      url: "https://bwskyer.com/"
+    - name: "林海草原"
+      url: "https://lhcy.org/"
+    - name: "1900的灯泡店"
+      url: "https://1900.live/"
+    - name: "像素工坊"
+      url: "https://www.shephe.com/"
+    - name: "老刘博客"
+      url: "https://iliu.org/"
+    - name: "曾经左手烟"
+      url: "https://www.cjzsy.com/"
+    - name: "小财神的奋斗"
+      url: "https://caisixiang.com/"
+    - name: "老麦"
+      url: "https://laomai.org/"
+    - name: "小陈故事"
+      url: "https://www.chener.net/"
+    - name: "致郁系"
+      url: "https://www.juroku.net/"
+    - name: "yiws.net"
+      url: "https://yiws.net/"
+    - name: "山野愚人居"
+      url: "https://www.iyuren.com/"
+    - name: "子痕的生活志"
+      url: "https://blog.mzihen.com/"
+    - name: "笛声"
+      url: "https://hqidi.com/"
+    - name: "老张博客"
+      url: "https://laozhang.org/"
+    - name: "王光卫博客"
+      url: "https://www.guangweiblog.com/"
+    - name: "忆往事"
+      url: "https://zhou.ge/"
+    - name: "Andy烧麦"
+      url: "https://4311346.com/"
+    - name: "孤斗"
+      url: "https://d-d.design/"
+    - name: "EEE.ME"
+      url: "https://eee.me/"
+    - name: "三无青年"
+      url: "https://www.duanxiansen.com/"
+    - name: "DrPika's Blog"
+      url: "https://blog.drpika.com/"

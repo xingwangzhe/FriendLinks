@@ -1,16 +1,16 @@
 site:
-  name: 'camdez.com'
-  url: 'https://camdez.com/'
-  description: '友情链接'
-  links: '/'
+  name: "camdez.com"
+  url: "https://camdez.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Clojure Diary'
-      url: 'https://clojure-diary.gitlab.io/'
-    - name: 'Clojure/conj'
-      url: 'https://2023.clojure-conj.org/'
-    - name: 'Datomic'
-      url: 'https://www.datomic.com/'
-    - name: 'Taiwan Beats Showcase'
-      url: 'http://taiwanbeatsshowcase.com'
-    - name: 'Austin chapter of Taiwanese American Professionals'
-      url: 'https://tap-atx.org'
+    - name: "Clojure Diary"
+      url: "https://clojure-diary.gitlab.io/"
+    - name: "Clojure/conj"
+      url: "https://2023.clojure-conj.org/"
+    - name: "Datomic"
+      url: "https://www.datomic.com/"
+    - name: "Taiwan Beats Showcase"
+      url: "http://taiwanbeatsshowcase.com"
+    - name: "Austin chapter of Taiwanese American Professionals"
+      url: "https://tap-atx.org"

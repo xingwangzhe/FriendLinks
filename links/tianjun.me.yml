@@ -1,14 +1,14 @@
 site:
-  name: 'tianjun.me'
-  url: 'http://tianjun.me/'
-  description: '友情链接'
-  links: '/'
+  name: "tianjun.me"
+  url: "http://tianjun.me/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: '零一万物'
-      url: 'https://01.ai/'
-    - name: '趣学Julia'
-      url: 'https://learnjuliathefunway.com/'
-    - name: 'Franklin.jl'
-      url: 'https://franklinjl.org/'
-    - name: 'juntian.me'
-      url: 'https://juntian.me'
+    - name: "零一万物"
+      url: "https://01.ai/"
+    - name: "趣学Julia"
+      url: "https://learnjuliathefunway.com/"
+    - name: "Franklin.jl"
+      url: "https://franklinjl.org/"
+    - name: "juntian.me"
+      url: "https://juntian.me"

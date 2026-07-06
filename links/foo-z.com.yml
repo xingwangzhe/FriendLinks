@@ -1,10 +1,10 @@
 site:
-  name: 'foo-z.com'
-  description: '友情链接'
-  url: 'https://foo-z.com/'
-  links: '/friends'
+  name: "foo-z.com"
+  description: "友情链接"
+  url: "https://foo-z.com/"
+  links: "/friends"
   friends:
-    - name: '张洪Heo 分享设计与科技生活'
-      url: 'https://blog.zhheo.com/'
-    - name: 'Tangly的学习笔记 NotionNext的作者 NotNext'
-      url: 'https://tangly1024.com/'
+    - name: "张洪Heo 分享设计与科技生活"
+      url: "https://blog.zhheo.com/"
+    - name: "Tangly的学习笔记 NotionNext的作者 NotNext"
+      url: "https://tangly1024.com/"

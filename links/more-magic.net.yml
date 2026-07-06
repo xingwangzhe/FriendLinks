@@ -1,38 +1,38 @@
 site:
-  name: 'more-magic.net'
-  url: 'https://www.more-magic.net/'
-  description: '友情链接'
-  links: '/'
+  name: "more-magic.net"
+  url: "https://www.more-magic.net/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Signal'
-      url: 'https://www.signal.org'
-    - name: 'Matrix'
-      url: 'https://www.matrix.org'
-    - name: 'Bluesky'
-      url: 'https://bsky.social'
-    - name: 'Mastodon'
-      url: 'https://www.joinmastodon.org'
-    - name: 'Mozilla'
-      url: 'https://www.mozilla.org'
-    - name: 'Proton'
-      url: 'https://www.proton.me'
-    - name: 'Internet Archive'
-      url: 'https://www.archive.org'
-    - name: 'Clojurists together'
-      url: 'https://www.clojuriststogether.org/'
-    - name: 'thanks.dev'
-      url: 'https://www.thanks.dev'
-    - name: 'NLnet'
-      url: 'https://nlnet.nl'
-    - name: 'Felix Winkelmann'
-      url: 'http://call-with-current-continuation.org/'
-    - name: 'Scheme'
-      url: 'https://www.scheme-reports.org'
-    - name: 'CHICKEN'
-      url: 'https://www.call-cc.org/'
-    - name: 'Scheme48'
-      url: 'https://www.s48.org'
-    - name: 'Tcl/Tk'
-      url: 'https://tcl.tk/'
-    - name: 'Libera.chat'
-      url: 'https://libera.chat'
+    - name: "Signal"
+      url: "https://www.signal.org"
+    - name: "Matrix"
+      url: "https://www.matrix.org"
+    - name: "Bluesky"
+      url: "https://bsky.social"
+    - name: "Mastodon"
+      url: "https://www.joinmastodon.org"
+    - name: "Mozilla"
+      url: "https://www.mozilla.org"
+    - name: "Proton"
+      url: "https://www.proton.me"
+    - name: "Internet Archive"
+      url: "https://www.archive.org"
+    - name: "Clojurists together"
+      url: "https://www.clojuriststogether.org/"
+    - name: "thanks.dev"
+      url: "https://www.thanks.dev"
+    - name: "NLnet"
+      url: "https://nlnet.nl"
+    - name: "Felix Winkelmann"
+      url: "http://call-with-current-continuation.org/"
+    - name: "Scheme"
+      url: "https://www.scheme-reports.org"
+    - name: "CHICKEN"
+      url: "https://www.call-cc.org/"
+    - name: "Scheme48"
+      url: "https://www.s48.org"
+    - name: "Tcl/Tk"
+      url: "https://tcl.tk/"
+    - name: "Libera.chat"
+      url: "https://libera.chat"

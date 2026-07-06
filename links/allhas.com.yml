@@ -1,10 +1,10 @@
 site:
-  name: 'allhas.com'
-  url: 'https://www.allhas.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "allhas.com"
+  url: "https://www.allhas.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '拾壹博客'
-      url: 'http://www.shiyit.com'
-    - name: '冬邦云互联'
-      url: 'https://www.idca.cn/'
+    - name: "拾壹博客"
+      url: "http://www.shiyit.com"
+    - name: "冬邦云互联"
+      url: "https://www.idca.cn/"

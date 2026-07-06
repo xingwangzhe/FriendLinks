@@ -1,66 +1,66 @@
 site:
-  name: 'blog.sagiri-web.com'
-  url: 'https://blog.sagiri-web.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.sagiri-web.com"
+  url: "https://blog.sagiri-web.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'MIKUTAP'
-      url: 'http://mikutap.sagiri-photo.com'
-    - name: '可定博客能点进来的，都是各个方面的大佬~'
-      url: 'https://wnag.com.cn'
-    - name: 'Relnarelna.top!!'
-      url: 'http://relna.top'
-    - name: '水风车未来，属于一心实现自己预言的人。'
-      url: 'https://blog.shuifengche.top'
-    - name: '小游二次元技术宅'
-      url: 'https://xiaoyou66.com'
-    - name: 'ADD-SPHello world, I''m coming!'
-      url: 'https://www.addesp.com/'
-    - name: 'EDGN这个人太懒啦，没有简介'
-      url: 'https://blog.open-edgn.tech/'
-    - name: '小猪佩奇一只爱打代码的社会佩奇'
-      url: 'http://www.peppal.cn'
-    - name: '少年空梦混吃混喝无所事事'
-      url: 'https://www.baoozi.top'
-    - name: '浪矢清售卖糖与盐的杂货铺'
-      url: 'http://www.wavelet.xyz'
-    - name: 'misaka7690啦啦啦啦'
-      url: 'https://blog.cilicili.xyz'
-    - name: 'JimmyHo他说求我别描述他'
-      url: 'http://www.jimmyholoveslife.cn'
-    - name: '苏泽不爱学写代码的菜鸡'
-      url: 'https://suze666.top'
-    - name: 'INSPI钟健世界第一帅'
-      url: 'http://inspire2030.cn'
-    - name: '来风的小屋花不尽，月无穷。'
-      url: 'https://www.lowall.xyz'
-    - name: 'Sunny平平无奇的中学生'
-      url: 'https://sunny233.com'
-    - name: '理理酱~理酱~'
-      url: 'https://blog.kanri.top/'
-    - name: '箴水-不负青春不负青春'
-      url: 'https://www.protaos.com'
-    - name: 'Jason iShare技术小白一枚'
-      url: 'https://haodonghu.github.io'
-    - name: 'Gatsby‘s BlogYou see, I''m Gatsby.'
-      url: 'https://gatsby.fun'
-    - name: '吉光片羽既可以朝九晚五，又可以浪迹天涯'
-      url: 'https://rorora.cn'
-    - name: 'KAAAsSLove in programming.'
-      url: 'https://kaaass.net/'
-    - name: 'RainChan的小檗科是gc！gc贴贴！'
-      url: 'https://rainchan.win'
-    - name: 'Makise Von蒟蒻XCPCer'
-      url: 'http://makisevon.net'
-    - name: 'どうして私だけが奶油话梅糖！（不准吃我！）'
-      url: 'https://naiyouhuameitang.club'
-    - name: '昔日博客一个喜欢捣鼓的技术宅男'
-      url: 'http://bk.hyk416.cn'
-    - name: '雪之樱喜欢看番摸鱼的前端程序员'
-      url: 'https://sakura-snow.com'
-    - name: '二次元小窝做自己想做的事，想自己所想的的人，咕咕咕！！'
-      url: 'https://www.acgxo.cn'
-    - name: 'Subsegment'
-      url: 'http://subsegment.site'
-    - name: 'moedog'
-      url: 'https://www.fczbl.vip'
+    - name: "MIKUTAP"
+      url: "http://mikutap.sagiri-photo.com"
+    - name: "可定博客能点进来的，都是各个方面的大佬~"
+      url: "https://wnag.com.cn"
+    - name: "Relnarelna.top!!"
+      url: "http://relna.top"
+    - name: "水风车未来，属于一心实现自己预言的人。"
+      url: "https://blog.shuifengche.top"
+    - name: "小游二次元技术宅"
+      url: "https://xiaoyou66.com"
+    - name: "ADD-SPHello world, I'm coming!"
+      url: "https://www.addesp.com/"
+    - name: "EDGN这个人太懒啦，没有简介"
+      url: "https://blog.open-edgn.tech/"
+    - name: "小猪佩奇一只爱打代码的社会佩奇"
+      url: "http://www.peppal.cn"
+    - name: "少年空梦混吃混喝无所事事"
+      url: "https://www.baoozi.top"
+    - name: "浪矢清售卖糖与盐的杂货铺"
+      url: "http://www.wavelet.xyz"
+    - name: "misaka7690啦啦啦啦"
+      url: "https://blog.cilicili.xyz"
+    - name: "JimmyHo他说求我别描述他"
+      url: "http://www.jimmyholoveslife.cn"
+    - name: "苏泽不爱学写代码的菜鸡"
+      url: "https://suze666.top"
+    - name: "INSPI钟健世界第一帅"
+      url: "http://inspire2030.cn"
+    - name: "来风的小屋花不尽，月无穷。"
+      url: "https://www.lowall.xyz"
+    - name: "Sunny平平无奇的中学生"
+      url: "https://sunny233.com"
+    - name: "理理酱~理酱~"
+      url: "https://blog.kanri.top/"
+    - name: "箴水-不负青春不负青春"
+      url: "https://www.protaos.com"
+    - name: "Jason iShare技术小白一枚"
+      url: "https://haodonghu.github.io"
+    - name: "Gatsby‘s BlogYou see, I'm Gatsby."
+      url: "https://gatsby.fun"
+    - name: "吉光片羽既可以朝九晚五，又可以浪迹天涯"
+      url: "https://rorora.cn"
+    - name: "KAAAsSLove in programming."
+      url: "https://kaaass.net/"
+    - name: "RainChan的小檗科是gc！gc贴贴！"
+      url: "https://rainchan.win"
+    - name: "Makise Von蒟蒻XCPCer"
+      url: "http://makisevon.net"
+    - name: "どうして私だけが奶油话梅糖！（不准吃我！）"
+      url: "https://naiyouhuameitang.club"
+    - name: "昔日博客一个喜欢捣鼓的技术宅男"
+      url: "http://bk.hyk416.cn"
+    - name: "雪之樱喜欢看番摸鱼的前端程序员"
+      url: "https://sakura-snow.com"
+    - name: "二次元小窝做自己想做的事，想自己所想的的人，咕咕咕！！"
+      url: "https://www.acgxo.cn"
+    - name: "Subsegment"
+      url: "http://subsegment.site"
+    - name: "moedog"
+      url: "https://www.fczbl.vip"

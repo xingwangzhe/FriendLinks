@@ -109,10 +109,7 @@ export function clearSiteCache() {
 
 const PARALLEL_BATCH = 128; // 并发上限，避免 fd 耗尽
 
-export async function loadSites(
-  dir?: string,
-  onProgress?: (current: number, total: number) => void,
-): Promise<Site[]> {
+export async function loadSites(dir?: string, onProgress?: (current: number, total: number) => void): Promise<Site[]> {
   const inputDir = dir ?? path.resolve("links");
 
   // 缓存命中：同目录直接返回

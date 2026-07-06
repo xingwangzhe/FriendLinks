@@ -1,12 +1,12 @@
 site:
-  name: 'oneleaf.me'
-  url: 'https://www.oneleaf.me/'
-  description: '友情链接'
-  links: '/friends.html'
+  name: "oneleaf.me"
+  url: "https://www.oneleaf.me/"
+  description: "友情链接"
+  links: "/friends.html"
   friends:
-    - name: 'Memos'
-      url: 'https://memos.caimeo.world/'
-    - name: '小树的博客'
-      url: 'https://www.juniortree.com'
-    - name: 'The rabbit Hole'
-      url: 'https://caimeo.world'
+    - name: "Memos"
+      url: "https://memos.caimeo.world/"
+    - name: "小树的博客"
+      url: "https://www.juniortree.com"
+    - name: "The rabbit Hole"
+      url: "https://caimeo.world"

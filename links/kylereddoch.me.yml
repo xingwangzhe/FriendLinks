@@ -1,16 +1,16 @@
 site:
-  name: 'kylereddoch.me'
-  url: 'https://www.kylereddoch.me/'
-  description: '友情链接'
-  links: '/links'
+  name: "kylereddoch.me"
+  url: "https://www.kylereddoch.me/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'MITRE ATT&CK'
-      url: 'https://attack.mitre.org/'
-    - name: 'web.dev'
-      url: 'https://web.dev/'
-    - name: 'Fediring'
-      url: 'https://fediring.net/'
-    - name: 'IndieWeb Webring'
-      url: 'https://🕸💍.ws/'
-    - name: 'Tinylytics Webring'
-      url: 'https://tinylytics.app'
+    - name: "MITRE ATT&CK"
+      url: "https://attack.mitre.org/"
+    - name: "web.dev"
+      url: "https://web.dev/"
+    - name: "Fediring"
+      url: "https://fediring.net/"
+    - name: "IndieWeb Webring"
+      url: "https://🕸💍.ws/"
+    - name: "Tinylytics Webring"
+      url: "https://tinylytics.app"

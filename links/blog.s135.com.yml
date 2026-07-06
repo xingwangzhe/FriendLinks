@@ -1,128 +1,128 @@
 site:
-  name: 'blog.s135.com'
-  url: 'http://blog.s135.com/'
-  description: '友情链接'
-  links: '/?page_id=476'
+  name: "blog.s135.com"
+  url: "http://blog.s135.com/"
+  description: "友情链接"
+  links: "/?page_id=476"
   friends:
-    - name: 'APMServ'
-      url: 'http://www.apmserv.com/'
-    - name: 'APMServ：一键搭建PHP平台'
-      url: 'http://apmserv.zyan.cc'
-    - name: '4399.com 闪购创业孵化器'
-      url: 'http://www.4399.com/'
-    - name: '北京世纪一家网'
-      url: 'http://www.yijia.com/'
-    - name: 'WEB编程站'
-      url: 'http://www.eb163.com/'
-    - name: '孩孩乐'
-      url: 'http://www.haihaile.com/'
-    - name: '[金山] 李安科'
-      url: 'http://anchor.xoyo.com'
-    - name: '[新浪] Wirlfly'
-      url: 'http://wf.xplore.cn/'
-    - name: '[新浪] JiangYuan'
-      url: 'http://blog.vetcafe.net/'
-    - name: '[新浪] 超群'
-      url: 'http://chaoqun.17348.com/'
-    - name: '[天涯] 醉清风的叶子'
-      url: 'http://lts98.tianyablog.com'
-    - name: '[百度] 石展,DBA的视界'
-      url: 'http://dbaview.cn'
-    - name: '[中国雅虎] cc0cc'
-      url: 'http://www.54chen.com/'
-    - name: '[一地带] 扶凯'
-      url: 'http://www.php-oa.com/'
-    - name: '戴昌二'
-      url: 'http://www.daichanger.com'
-    - name: 'Linuxs''s Blog'
-      url: 'http://Vip.Sg-Zc.CN'
-    - name: 'LinYH''s Blog'
-      url: 'http://linyh.yo2.cn'
-    - name: 'Licess''s Blog'
-      url: 'http://blog.licess.cn'
-    - name: '怒放的生命'
-      url: 'http://www.jackoo.cn'
-    - name: 'Showjay''s Blog'
-      url: 'http://blog.showjay.com'
-    - name: '怪鸟博客'
-      url: 'http://www.6ird.cn'
-    - name: '怡水若寒'
-      url: 'http://www.ysrh.com/'
-    - name: 'funy''s Blog'
-      url: 'http://www.webfuny.cn/'
-    - name: '王先进'
-      url: 'http://www.wangxianjin.cn'
-    - name: '空城''s blog'
-      url: 'http://kc.4181.cn'
-    - name: 'gmle'
-      url: 'http://www.gmle.cn'
-    - name: '海天旭日的blog'
-      url: 'http://www.xpb.cn'
-    - name: '叶茂盛'
-      url: 'http://yemaosheng.com'
-    - name: 'Selboo'' Blog'
-      url: 'http://selboo.com.cn'
-    - name: 'OOPHP'
-      url: 'http://www.oophp.cn'
-    - name: 'PTUbuntu Blog'
-      url: 'http://ptubuntu.com'
-    - name: '搜我收藏'
-      url: 'http://www.sou5.cn/'
-    - name: 'f0rest'
-      url: 'http://www.f0rest.cn'
-    - name: '我的技术生活-王炜'
-      url: 'http://www.aaronw.cn'
-    - name: 'Jason Yu'
-      url: 'http://jasonyu.cn'
-    - name: '梦昙花开'
-      url: 'http://www.leavan2324.cn/'
-    - name: 'jean'
-      url: 'http://www.zhangyiqun.cn'
-    - name: 'sunlick''s'
-      url: 'http://www.wunengwu.cn'
-    - name: 'badb0y''s Blog'
-      url: 'http://badb0y.cublog.cn'
-    - name: 'Yustar''s Blog'
-      url: 'http://yustar.joomlar.cn'
-    - name: 'Martin'
-      url: 'http://www.blags.org/'
-    - name: '王健宇''s BLOG'
-      url: 'http://www.9170.org/'
-    - name: 'PHPer.yang'
-      url: 'http://www.imop.us/'
-    - name: '风海浮萍'
-      url: 'http://www.tt-blog.com/'
-    - name: '李炘争'
-      url: 'http://www.whlxz.cn'
-    - name: '影姿飘过'
-      url: 'http://froglan.blogcn.com/'
-    - name: '阳关地带'
-      url: 'http://www.preweb.cn'
-    - name: '纪念未来'
-      url: 'http://www.tengzhaorong.cn'
-    - name: 'anymoore'
-      url: 'http://www.anymoore.com/'
-    - name: 'Jeffrey''s Blog'
-      url: 'http://blog.zhangjianfeng.com'
-    - name: 'ColdX''s Blog'
-      url: 'http://www.coldx.cn'
-    - name: 'junluck''s blog'
-      url: 'http://www.junluck.cn'
-    - name: '大杀器'
-      url: 'http://www.dashaqi.com/'
-    - name: '多杀毒软件在线查毒'
-      url: 'http://virusscan.jotti.org/'
-    - name: 'Web FTP 客户端'
-      url: 'http://www.net2ftp.com/'
-    - name: '微软skydrive网络硬盘'
-      url: 'http://skydrive.live.com/'
-    - name: 'NetStor磁盘阵列'
-      url: 'http://www.toyou.com.cn/'
-    - name: '小众软件'
-      url: 'http://soft.lzzxt.com/'
-    - name: 'UNIX手册中心'
-      url: 'http://man.chinaunix.net/'
-    - name: '开发者在线'
-      url: 'http://www.builder.com.cn/'
-    - name: 'Erlang语言'
-      url: 'http://www.erlang.org/'
+    - name: "APMServ"
+      url: "http://www.apmserv.com/"
+    - name: "APMServ：一键搭建PHP平台"
+      url: "http://apmserv.zyan.cc"
+    - name: "4399.com 闪购创业孵化器"
+      url: "http://www.4399.com/"
+    - name: "北京世纪一家网"
+      url: "http://www.yijia.com/"
+    - name: "WEB编程站"
+      url: "http://www.eb163.com/"
+    - name: "孩孩乐"
+      url: "http://www.haihaile.com/"
+    - name: "[金山] 李安科"
+      url: "http://anchor.xoyo.com"
+    - name: "[新浪] Wirlfly"
+      url: "http://wf.xplore.cn/"
+    - name: "[新浪] JiangYuan"
+      url: "http://blog.vetcafe.net/"
+    - name: "[新浪] 超群"
+      url: "http://chaoqun.17348.com/"
+    - name: "[天涯] 醉清风的叶子"
+      url: "http://lts98.tianyablog.com"
+    - name: "[百度] 石展,DBA的视界"
+      url: "http://dbaview.cn"
+    - name: "[中国雅虎] cc0cc"
+      url: "http://www.54chen.com/"
+    - name: "[一地带] 扶凯"
+      url: "http://www.php-oa.com/"
+    - name: "戴昌二"
+      url: "http://www.daichanger.com"
+    - name: "Linuxs's Blog"
+      url: "http://Vip.Sg-Zc.CN"
+    - name: "LinYH's Blog"
+      url: "http://linyh.yo2.cn"
+    - name: "Licess's Blog"
+      url: "http://blog.licess.cn"
+    - name: "怒放的生命"
+      url: "http://www.jackoo.cn"
+    - name: "Showjay's Blog"
+      url: "http://blog.showjay.com"
+    - name: "怪鸟博客"
+      url: "http://www.6ird.cn"
+    - name: "怡水若寒"
+      url: "http://www.ysrh.com/"
+    - name: "funy's Blog"
+      url: "http://www.webfuny.cn/"
+    - name: "王先进"
+      url: "http://www.wangxianjin.cn"
+    - name: "空城's blog"
+      url: "http://kc.4181.cn"
+    - name: "gmle"
+      url: "http://www.gmle.cn"
+    - name: "海天旭日的blog"
+      url: "http://www.xpb.cn"
+    - name: "叶茂盛"
+      url: "http://yemaosheng.com"
+    - name: "Selboo' Blog"
+      url: "http://selboo.com.cn"
+    - name: "OOPHP"
+      url: "http://www.oophp.cn"
+    - name: "PTUbuntu Blog"
+      url: "http://ptubuntu.com"
+    - name: "搜我收藏"
+      url: "http://www.sou5.cn/"
+    - name: "f0rest"
+      url: "http://www.f0rest.cn"
+    - name: "我的技术生活-王炜"
+      url: "http://www.aaronw.cn"
+    - name: "Jason Yu"
+      url: "http://jasonyu.cn"
+    - name: "梦昙花开"
+      url: "http://www.leavan2324.cn/"
+    - name: "jean"
+      url: "http://www.zhangyiqun.cn"
+    - name: "sunlick's"
+      url: "http://www.wunengwu.cn"
+    - name: "badb0y's Blog"
+      url: "http://badb0y.cublog.cn"
+    - name: "Yustar's Blog"
+      url: "http://yustar.joomlar.cn"
+    - name: "Martin"
+      url: "http://www.blags.org/"
+    - name: "王健宇's BLOG"
+      url: "http://www.9170.org/"
+    - name: "PHPer.yang"
+      url: "http://www.imop.us/"
+    - name: "风海浮萍"
+      url: "http://www.tt-blog.com/"
+    - name: "李炘争"
+      url: "http://www.whlxz.cn"
+    - name: "影姿飘过"
+      url: "http://froglan.blogcn.com/"
+    - name: "阳关地带"
+      url: "http://www.preweb.cn"
+    - name: "纪念未来"
+      url: "http://www.tengzhaorong.cn"
+    - name: "anymoore"
+      url: "http://www.anymoore.com/"
+    - name: "Jeffrey's Blog"
+      url: "http://blog.zhangjianfeng.com"
+    - name: "ColdX's Blog"
+      url: "http://www.coldx.cn"
+    - name: "junluck's blog"
+      url: "http://www.junluck.cn"
+    - name: "大杀器"
+      url: "http://www.dashaqi.com/"
+    - name: "多杀毒软件在线查毒"
+      url: "http://virusscan.jotti.org/"
+    - name: "Web FTP 客户端"
+      url: "http://www.net2ftp.com/"
+    - name: "微软skydrive网络硬盘"
+      url: "http://skydrive.live.com/"
+    - name: "NetStor磁盘阵列"
+      url: "http://www.toyou.com.cn/"
+    - name: "小众软件"
+      url: "http://soft.lzzxt.com/"
+    - name: "UNIX手册中心"
+      url: "http://man.chinaunix.net/"
+    - name: "开发者在线"
+      url: "http://www.builder.com.cn/"
+    - name: "Erlang语言"
+      url: "http://www.erlang.org/"

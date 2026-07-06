@@ -1,70 +1,70 @@
 site:
-  name: 'a-wing.top'
-  url: 'https://a-wing.top/'
-  description: '友情链接'
-  links: '/links'
+  name: "a-wing.top"
+  url: "https://a-wing.top/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'caoxm 大学好基友'
-      url: 'https://www.miaomiaotec.top/'
-    - name: 'Rex Zeng 大佬，我除了膜之外什么都做不到'
-      url: 'https://www.rexskz.info/'
-    - name: 'Mame 教主'
-      url: 'https://www.yangmame.org/'
-    - name: '撸不死的兔兔 布鲁斯兔兔'
-      url: 'https://brucezhang1993.github.io/'
-    - name: '漩涡，圆角，漩涡，圆角'
-      url: 'https://xuanwo.io/'
-    - name: '是艾老师，烧死艾老师和皮老师'
-      url: 'https://axionl.me/'
-    - name: '是 萌狼 horo'
-      url: 'https://blog.yoitsu.moe/'
-    - name: '萌萌的 五 黄 鼠'
-      url: 'https://fiveyellowmice.com/'
-    - name: 'archlinux TU fc 老师'
-      url: 'http://farseerfc.me/'
-    - name: '敲可爱的 kiri'
-      url: 'https://kirikira.moe/'
-    - name: 'Caffreyfans'
-      url: 'https://www.caffreyfans.top/'
-    - name: '乔老师 乔姐姐'
-      url: 'https://blog.nanpuyue.com/'
-    - name: '破爱酱'
-      url: 'https://blog.poi.cat/'
-    - name: '谭枫 _{:3 」∠}_'
-      url: 'https://keyin.now.sh/'
-    - name: 'IO 酱'
-      url: 'https://iovxw.net/'
-    - name: '是稀释'
-      url: 'https://blog.stdin.in/'
-    - name: '兔子鮮笙'
-      url: 'https://tuzi.moe/'
-    - name: '卡夫酱'
-      url: 'https://frantic1048.com/'
-    - name: '鱼师傅'
-      url: 'https://www.zjyl1994.com/'
-    - name: '日哭你 日老师'
-      url: 'https://rikumi.dev/'
-    - name: '木子 （我怀疑他是看书机器人'
-      url: 'https://k8s.li/'
-    - name: '五斤琉璃 (((o (ﾟ▽ﾟ) o)))'
-      url: 'https://rxliuli.com/'
-    - name: '百合仙子：依云'
-      url: 'https://blog.lilydjwg.me/'
-    - name: 'Wincer’s Blog'
-      url: 'https://blog.itswincer.com/'
-    - name: '於清樂｜This Cute World'
-      url: 'https://thiscute.world/'
-    - name: '可爱的寒寒'
-      url: 'https://ray-eldath.me/'
-    - name: '吼姆拉 Homua'
-      url: 'https://homura.live/'
-    - name: '好，是 Saka｜Manjusaka'
-      url: 'https://www.manjusaka.blog/'
-    - name: '是 Chaos Mesh 维护者 STRRL'
-      url: 'https://strrl.dev/'
-    - name: '伪代码 Pseudoyu'
-      url: 'https://www.pseudoyu.com/'
-    - name: '傻妞 冰码妞'
-      url: 'https://blog.icecode.xyz/'
-    - name: '熊熊！熊熊！'
-      url: 'https://cynosura.one/'
+    - name: "caoxm 大学好基友"
+      url: "https://www.miaomiaotec.top/"
+    - name: "Rex Zeng 大佬，我除了膜之外什么都做不到"
+      url: "https://www.rexskz.info/"
+    - name: "Mame 教主"
+      url: "https://www.yangmame.org/"
+    - name: "撸不死的兔兔 布鲁斯兔兔"
+      url: "https://brucezhang1993.github.io/"
+    - name: "漩涡，圆角，漩涡，圆角"
+      url: "https://xuanwo.io/"
+    - name: "是艾老师，烧死艾老师和皮老师"
+      url: "https://axionl.me/"
+    - name: "是 萌狼 horo"
+      url: "https://blog.yoitsu.moe/"
+    - name: "萌萌的 五 黄 鼠"
+      url: "https://fiveyellowmice.com/"
+    - name: "archlinux TU fc 老师"
+      url: "http://farseerfc.me/"
+    - name: "敲可爱的 kiri"
+      url: "https://kirikira.moe/"
+    - name: "Caffreyfans"
+      url: "https://www.caffreyfans.top/"
+    - name: "乔老师 乔姐姐"
+      url: "https://blog.nanpuyue.com/"
+    - name: "破爱酱"
+      url: "https://blog.poi.cat/"
+    - name: "谭枫 _{:3 」∠}_"
+      url: "https://keyin.now.sh/"
+    - name: "IO 酱"
+      url: "https://iovxw.net/"
+    - name: "是稀释"
+      url: "https://blog.stdin.in/"
+    - name: "兔子鮮笙"
+      url: "https://tuzi.moe/"
+    - name: "卡夫酱"
+      url: "https://frantic1048.com/"
+    - name: "鱼师傅"
+      url: "https://www.zjyl1994.com/"
+    - name: "日哭你 日老师"
+      url: "https://rikumi.dev/"
+    - name: "木子 （我怀疑他是看书机器人"
+      url: "https://k8s.li/"
+    - name: "五斤琉璃 (((o (ﾟ▽ﾟ) o)))"
+      url: "https://rxliuli.com/"
+    - name: "百合仙子：依云"
+      url: "https://blog.lilydjwg.me/"
+    - name: "Wincer’s Blog"
+      url: "https://blog.itswincer.com/"
+    - name: "於清樂｜This Cute World"
+      url: "https://thiscute.world/"
+    - name: "可爱的寒寒"
+      url: "https://ray-eldath.me/"
+    - name: "吼姆拉 Homua"
+      url: "https://homura.live/"
+    - name: "好，是 Saka｜Manjusaka"
+      url: "https://www.manjusaka.blog/"
+    - name: "是 Chaos Mesh 维护者 STRRL"
+      url: "https://strrl.dev/"
+    - name: "伪代码 Pseudoyu"
+      url: "https://www.pseudoyu.com/"
+    - name: "傻妞 冰码妞"
+      url: "https://blog.icecode.xyz/"
+    - name: "熊熊！熊熊！"
+      url: "https://cynosura.one/"

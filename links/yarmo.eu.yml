@@ -1,12 +1,12 @@
 site:
-  name: 'yarmo.eu'
-  url: 'https://yarmo.eu/'
-  description: '友情链接'
-  links: '/'
+  name: "yarmo.eu"
+  url: "https://yarmo.eu/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Keyoxide'
-      url: 'https://keyoxide.org'
-    - name: 'Public money? Public code!'
-      url: 'https://publiccode.eu/'
-    - name: 'Fediring'
-      url: 'https://fediring.net/'
+    - name: "Keyoxide"
+      url: "https://keyoxide.org"
+    - name: "Public money? Public code!"
+      url: "https://publiccode.eu/"
+    - name: "Fediring"
+      url: "https://fediring.net/"

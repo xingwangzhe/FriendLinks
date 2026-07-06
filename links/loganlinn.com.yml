@@ -1,12 +1,12 @@
 site:
-  name: 'loganlinn.com'
-  url: 'http://loganlinn.com/'
-  description: '友情链接'
-  links: '/'
+  name: "loganlinn.com"
+  url: "http://loganlinn.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Patch'
-      url: 'https://patch.tech'
-    - name: 'Optmizely'
-      url: 'https://optimizely.com'
-    - name: 'Skill Capped'
-      url: 'http://skill-capped.com'
+    - name: "Patch"
+      url: "https://patch.tech"
+    - name: "Optmizely"
+      url: "https://optimizely.com"
+    - name: "Skill Capped"
+      url: "http://skill-capped.com"

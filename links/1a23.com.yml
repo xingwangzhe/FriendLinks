@@ -1,28 +1,28 @@
 site:
-  name: '1a23.com'
-  url: 'https://1a23.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "1a23.com"
+  url: "https://1a23.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Lyricova'
-      url: 'https://lyricova.1a23.studio'
-    - name: 'i18n fails'
-      url: 'https://i18nfails.1a23.studio'
-    - name: 'Lyricova Jukebox'
-      url: 'https://jukebox.1a23.studio'
-    - name: 'Sticker sheet'
-      url: 'https://stickers.1a23.studio/'
-    - name: 'Benpigchu'
-      url: 'https://benpigchu.com'
-    - name: 'Hànlín de Xiǎozhàn'
-      url: 'https://blog.hanlin.press/'
-    - name: 'Johnpoint’s Blog'
-      url: 'https://blog.lvcshu.com'
-    - name: 'kn007’s Blog'
-      url: 'https://kn007.net'
-    - name: 'not b@tk1z'
-      url: 'https://blog.batkiz.com/'
-    - name: 'Sharzy’s Random Blog'
-      url: 'https://sharzy.in'
-    - name: 'TsFreddie’s Itch.io'
-      url: 'http://tsfreddie.itch.io/'
+    - name: "Lyricova"
+      url: "https://lyricova.1a23.studio"
+    - name: "i18n fails"
+      url: "https://i18nfails.1a23.studio"
+    - name: "Lyricova Jukebox"
+      url: "https://jukebox.1a23.studio"
+    - name: "Sticker sheet"
+      url: "https://stickers.1a23.studio/"
+    - name: "Benpigchu"
+      url: "https://benpigchu.com"
+    - name: "Hànlín de Xiǎozhàn"
+      url: "https://blog.hanlin.press/"
+    - name: "Johnpoint’s Blog"
+      url: "https://blog.lvcshu.com"
+    - name: "kn007’s Blog"
+      url: "https://kn007.net"
+    - name: "not b@tk1z"
+      url: "https://blog.batkiz.com/"
+    - name: "Sharzy’s Random Blog"
+      url: "https://sharzy.in"
+    - name: "TsFreddie’s Itch.io"
+      url: "http://tsfreddie.itch.io/"

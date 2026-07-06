@@ -1,20 +1,20 @@
 site:
-  name: 'aqa.cc'
-  url: 'https://aqa.cc/'
-  description: '友情链接'
-  links: '/friends'
+  name: "aqa.cc"
+  url: "https://aqa.cc/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '聶.NET'
-      url: 'https://www.niekaixiang.com'
-    - name: 'solaireh3'
-      url: 'https://Ashlord.com'
-    - name: '江鸟博客'
-      url: 'https://azucat.blog'
-    - name: 'Lucklog'
-      url: 'https://lucklog.cc'
-    - name: '夕凪の小站'
-      url: 'https://blog.yurucamp.vip'
-    - name: 'Braver'
-      url: 'https://bravers.me'
-    - name: 'Oblique'
-      url: 'https://www.aspchang.com'
+    - name: "聶.NET"
+      url: "https://www.niekaixiang.com"
+    - name: "solaireh3"
+      url: "https://Ashlord.com"
+    - name: "江鸟博客"
+      url: "https://azucat.blog"
+    - name: "Lucklog"
+      url: "https://lucklog.cc"
+    - name: "夕凪の小站"
+      url: "https://blog.yurucamp.vip"
+    - name: "Braver"
+      url: "https://bravers.me"
+    - name: "Oblique"
+      url: "https://www.aspchang.com"

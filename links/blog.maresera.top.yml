@@ -1,10 +1,10 @@
 site:
-  name: 'blog.maresera.top'
-  url: 'https://blog.maresera.top/'
-  description: '友情链接'
-  links: '/friend'
+  name: "blog.maresera.top"
+  url: "https://blog.maresera.top/"
+  description: "友情链接"
+  links: "/friend"
   friends:
-    - name: 'Neomelt''s Blog'
-      url: 'https://neomelt.cloud'
-    - name: 'Eric-Terminal的博客'
-      url: 'https://blog.ericterminal.com'
+    - name: "Neomelt's Blog"
+      url: "https://neomelt.cloud"
+    - name: "Eric-Terminal的博客"
+      url: "https://blog.ericterminal.com"

@@ -1,238 +1,238 @@
 site:
-  name: 'imaegoo.com'
-  description: '友情链接'
-  url: 'https://imaegoo.com/'
-  links: '/friends'
+  name: "imaegoo.com"
+  description: "友情链接"
+  url: "https://imaegoo.com/"
+  links: "/friends"
   friends:
-    - name: 'www.maemo.cc'
-      url: 'https://www.maemo.cc'
-    - name: 'zhangshuqiao.org'
-      url: 'https://zhangshuqiao.org'
-    - name: 'blog.skihome.xyz'
-      url: 'https://blog.skihome.xyz'
-    - name: 'yuzhouwan.com'
-      url: 'https://yuzhouwan.com'
-    - name: 'blog.mk1.io'
-      url: 'https://blog.mk1.io'
-    - name: 'blog.yunshu.site'
-      url: 'https://blog.yunshu.site'
-    - name: 'oskyla.com'
-      url: 'https://oskyla.com'
-    - name: 'www.addesp.com'
-      url: 'https://www.addesp.com'
-    - name: 'blog.zhheo.com'
-      url: 'https://blog.zhheo.com'
-    - name: 'fungit.org'
-      url: 'https://fungit.org'
-    - name: '5ime.cn'
-      url: 'https://5ime.cn'
-    - name: 'blog.imzjw.cn'
-      url: 'https://blog.imzjw.cn'
-    - name: 'guole.fun'
-      url: 'https://guole.fun'
-    - name: 'lzxjack.top'
-      url: 'https://lzxjack.top'
-    - name: 'cywhat.cn'
-      url: 'https://cywhat.cn'
-    - name: 'blog.pai233.top'
-      url: 'https://blog.pai233.top'
-    - name: 'www.imcao.cn'
-      url: 'https://www.imcao.cn'
-    - name: 'blog.tianli0.top'
-      url: 'https://blog.tianli0.top'
-    - name: 'myblog.wallleap.cn'
-      url: 'https://myblog.wallleap.cn'
-    - name: 'www.insidentally.com'
-      url: 'https://www.insidentally.com'
-    - name: 'haiyong.site'
-      url: 'https://haiyong.site'
-    - name: 'blog.xukaiyyds.cn'
-      url: 'https://blog.xukaiyyds.cn'
-    - name: 'blog.beacox.space'
-      url: 'https://blog.beacox.space'
-    - name: 'blog.snowflake.zone'
-      url: 'https://blog.snowflake.zone'
-    - name: 'www.kaitaku.xyz'
-      url: 'https://www.kaitaku.xyz'
-    - name: 'blog.leonus.cn'
-      url: 'https://blog.leonus.cn'
-    - name: 'blog.5252025.xyz'
-      url: 'https://blog.5252025.xyz'
-    - name: 'blog.btwoa.com'
-      url: 'https://blog.btwoa.com'
-    - name: 'blog.cpen.top'
-      url: 'https://blog.cpen.top'
-    - name: 'blog.mofuc.cn'
-      url: 'https://blog.mofuc.cn'
-    - name: 'cuojue.org'
-      url: 'https://cuojue.org'
-    - name: 'www.oplog.cn'
-      url: 'https://www.oplog.cn'
-    - name: 'zsyyblog.com'
-      url: 'https://zsyyblog.com'
-    - name: 'blog.tsinbei.com'
-      url: 'https://blog.tsinbei.com'
-    - name: 'zhoutian.com'
-      url: 'https://zhoutian.com'
-    - name: 'blog.xpdbk.com'
-      url: 'https://blog.xpdbk.com'
-    - name: 'www.peterjxl.com'
-      url: 'https://www.peterjxl.com'
-    - name: 'blog.sotkg.com'
-      url: 'https://blog.sotkg.com'
-    - name: 'homulilly.com'
-      url: 'https://homulilly.com'
-    - name: 'blog.nineya.com'
-      url: 'https://blog.nineya.com'
-    - name: 'dh.qinye.cool'
-      url: 'https://dh.qinye.cool'
-    - name: 'blog.kouseki.cn'
-      url: 'https://blog.kouseki.cn'
-    - name: 'anzai.sleepingbed.top'
-      url: 'https://anzai.sleepingbed.top'
-    - name: 'hexo.sjava.cn'
-      url: 'https://hexo.sjava.cn'
-    - name: 'saop.cc'
-      url: 'https://saop.cc'
-    - name: 'blog.storia.ren'
-      url: 'https://blog.storia.ren'
-    - name: 'www.shangjidong.com'
-      url: 'https://www.shangjidong.com'
-    - name: 'blog.jiyu134.top'
-      url: 'https://blog.jiyu134.top'
-    - name: 'myql.eu.org'
-      url: 'https://myql.eu.org'
-    - name: 'dusays.com'
-      url: 'https://dusays.com'
-    - name: 'smilin.net'
-      url: 'https://smilin.net'
-    - name: 'xycs1.xyz'
-      url: 'https://xycs1.xyz'
-    - name: 'blog.chn.us.kg'
-      url: 'https://blog.chn.us.kg'
-    - name: 'qianxu.run'
-      url: 'https://qianxu.run'
-    - name: 'blog.luhua.site'
-      url: 'https://blog.luhua.site'
-    - name: 'mi7.net'
-      url: 'https://mi7.net'
-    - name: 'wxjxw.cn'
-      url: 'https://wxjxw.cn'
-    - name: 'www.ankia.top'
-      url: 'https://www.ankia.top'
-    - name: 'blog.calyee.top'
-      url: 'https://blog.calyee.top'
-    - name: 'blog.pzai.cloud'
-      url: 'https://blog.pzai.cloud'
-    - name: 'godky.cn'
-      url: 'https://godky.cn'
-    - name: 'blog.starsharbor.com'
-      url: 'https://blog.starsharbor.com'
-    - name: 'blog.yuncan.xyz'
-      url: 'https://blog.yuncan.xyz'
-    - name: 'blog.pljzy.top'
-      url: 'https://blog.pljzy.top'
-    - name: 'blog.liushen.fun'
-      url: 'https://blog.liushen.fun'
-    - name: 'umb.ink'
-      url: 'https://umb.ink'
-    - name: 'www.dx3n.cn'
-      url: 'https://www.dx3n.cn'
-    - name: 'blog.zhilu.cyou'
-      url: 'https://blog.zhilu.cyou'
-    - name: 'blog.elykia.cn'
-      url: 'https://blog.elykia.cn'
-    - name: 'www.uuu.me.uk'
-      url: 'https://www.uuu.me.uk'
-    - name: 'www.darlingrin.com'
-      url: 'https://www.darlingrin.com'
-    - name: 'www.chillg.de'
-      url: 'https://www.chillg.de'
-    - name: 'blog.qyadbr.top'
-      url: 'https://blog.qyadbr.top'
-    - name: 'yuazhi.cn'
-      url: 'https://yuazhi.cn'
-    - name: 'www.htmacg.cn'
-      url: 'https://www.htmacg.cn'
-    - name: 'blog.rhopaper.top'
-      url: 'https://blog.rhopaper.top'
-    - name: 'www.gx.gx.cn'
-      url: 'https://www.gx.gx.cn'
-    - name: 'blog.liuzijian.com'
-      url: 'https://blog.liuzijian.com'
-    - name: 'www.tasaed.top'
-      url: 'https://www.tasaed.top'
-    - name: 'kasuie.cc'
-      url: 'https://kasuie.cc'
-    - name: 'www.seaepoch.com'
-      url: 'https://www.seaepoch.com'
-    - name: 'blog.randench.cn'
-      url: 'https://blog.randench.cn'
-    - name: 'blog.redcha.cn'
-      url: 'https://blog.redcha.cn'
-    - name: 'zhangwenbao.com'
-      url: 'https://zhangwenbao.com'
-    - name: 'skylan.cc'
-      url: 'https://skylan.cc'
-    - name: 'www.xmdblog.com'
-      url: 'https://www.xmdblog.com'
-    - name: 'rimrose.top'
-      url: 'https://rimrose.top'
-    - name: 's1rius.space'
-      url: 'https://s1rius.space'
-    - name: 'justpureh2o.cn'
-      url: 'https://justpureh2o.cn'
-    - name: 'blog.akvicor.com'
-      url: 'https://blog.akvicor.com'
-    - name: 'iflux.art'
-      url: 'https://iflux.art'
-    - name: 'blog.bleaz.net'
-      url: 'https://blog.bleaz.net'
-    - name: 'blog.lemonstar.me'
-      url: 'https://blog.lemonstar.me'
-    - name: 'blog.lusyoe.com'
-      url: 'https://blog.lusyoe.com'
-    - name: 'blog.leoo.fun'
-      url: 'https://blog.leoo.fun'
-    - name: 'blog.roxymagic.top'
-      url: 'https://blog.roxymagic.top'
-    - name: 'blog.hehouhui.cn'
-      url: 'https://blog.hehouhui.cn'
-    - name: 'ooo.run'
-      url: 'https://ooo.run'
-    - name: 'nihao.show'
-      url: 'https://nihao.show'
-    - name: 'blog.askrabbit.net'
-      url: 'https://blog.askrabbit.net'
-    - name: 'blog.cuteleaf.cn'
-      url: 'https://blog.cuteleaf.cn'
-    - name: 'www.worable.top'
-      url: 'https://www.worable.top'
-    - name: 'blog.suble.cn'
-      url: 'https://blog.suble.cn'
-    - name: 'blog.misaka-net.top'
-      url: 'https://blog.misaka-net.top'
-    - name: 'www.tenca.cn'
-      url: 'https://www.tenca.cn'
-    - name: 'flyblog.qzz.io'
-      url: 'https://flyblog.qzz.io'
-    - name: 'blog.gbsat.org'
-      url: 'https://blog.gbsat.org'
-    - name: 'loli.fj.cn'
-      url: 'https://loli.fj.cn'
-    - name: 'blog.224418.xyz'
-      url: 'https://blog.224418.xyz'
-    - name: 'blog.gogei.top'
-      url: 'https://blog.gogei.top'
-    - name: 'maxlhy0424.is-a.dev'
-      url: 'https://maxlhy0424.is-a.dev'
-    - name: 'goway0128.top'
-      url: 'https://goway0128.top'
-    - name: 'ravelloh.com'
-      url: 'https://ravelloh.com'
-    - name: 'weikecc.top'
-      url: 'https://weikecc.top'
-    - name: 'ddbx.org'
-      url: 'https://ddbx.org'
-    - name: 'Xiaopang'
-      url: 'http://blog.moegeek.com'
+    - name: "www.maemo.cc"
+      url: "https://www.maemo.cc"
+    - name: "zhangshuqiao.org"
+      url: "https://zhangshuqiao.org"
+    - name: "blog.skihome.xyz"
+      url: "https://blog.skihome.xyz"
+    - name: "yuzhouwan.com"
+      url: "https://yuzhouwan.com"
+    - name: "blog.mk1.io"
+      url: "https://blog.mk1.io"
+    - name: "blog.yunshu.site"
+      url: "https://blog.yunshu.site"
+    - name: "oskyla.com"
+      url: "https://oskyla.com"
+    - name: "www.addesp.com"
+      url: "https://www.addesp.com"
+    - name: "blog.zhheo.com"
+      url: "https://blog.zhheo.com"
+    - name: "fungit.org"
+      url: "https://fungit.org"
+    - name: "5ime.cn"
+      url: "https://5ime.cn"
+    - name: "blog.imzjw.cn"
+      url: "https://blog.imzjw.cn"
+    - name: "guole.fun"
+      url: "https://guole.fun"
+    - name: "lzxjack.top"
+      url: "https://lzxjack.top"
+    - name: "cywhat.cn"
+      url: "https://cywhat.cn"
+    - name: "blog.pai233.top"
+      url: "https://blog.pai233.top"
+    - name: "www.imcao.cn"
+      url: "https://www.imcao.cn"
+    - name: "blog.tianli0.top"
+      url: "https://blog.tianli0.top"
+    - name: "myblog.wallleap.cn"
+      url: "https://myblog.wallleap.cn"
+    - name: "www.insidentally.com"
+      url: "https://www.insidentally.com"
+    - name: "haiyong.site"
+      url: "https://haiyong.site"
+    - name: "blog.xukaiyyds.cn"
+      url: "https://blog.xukaiyyds.cn"
+    - name: "blog.beacox.space"
+      url: "https://blog.beacox.space"
+    - name: "blog.snowflake.zone"
+      url: "https://blog.snowflake.zone"
+    - name: "www.kaitaku.xyz"
+      url: "https://www.kaitaku.xyz"
+    - name: "blog.leonus.cn"
+      url: "https://blog.leonus.cn"
+    - name: "blog.5252025.xyz"
+      url: "https://blog.5252025.xyz"
+    - name: "blog.btwoa.com"
+      url: "https://blog.btwoa.com"
+    - name: "blog.cpen.top"
+      url: "https://blog.cpen.top"
+    - name: "blog.mofuc.cn"
+      url: "https://blog.mofuc.cn"
+    - name: "cuojue.org"
+      url: "https://cuojue.org"
+    - name: "www.oplog.cn"
+      url: "https://www.oplog.cn"
+    - name: "zsyyblog.com"
+      url: "https://zsyyblog.com"
+    - name: "blog.tsinbei.com"
+      url: "https://blog.tsinbei.com"
+    - name: "zhoutian.com"
+      url: "https://zhoutian.com"
+    - name: "blog.xpdbk.com"
+      url: "https://blog.xpdbk.com"
+    - name: "www.peterjxl.com"
+      url: "https://www.peterjxl.com"
+    - name: "blog.sotkg.com"
+      url: "https://blog.sotkg.com"
+    - name: "homulilly.com"
+      url: "https://homulilly.com"
+    - name: "blog.nineya.com"
+      url: "https://blog.nineya.com"
+    - name: "dh.qinye.cool"
+      url: "https://dh.qinye.cool"
+    - name: "blog.kouseki.cn"
+      url: "https://blog.kouseki.cn"
+    - name: "anzai.sleepingbed.top"
+      url: "https://anzai.sleepingbed.top"
+    - name: "hexo.sjava.cn"
+      url: "https://hexo.sjava.cn"
+    - name: "saop.cc"
+      url: "https://saop.cc"
+    - name: "blog.storia.ren"
+      url: "https://blog.storia.ren"
+    - name: "www.shangjidong.com"
+      url: "https://www.shangjidong.com"
+    - name: "blog.jiyu134.top"
+      url: "https://blog.jiyu134.top"
+    - name: "myql.eu.org"
+      url: "https://myql.eu.org"
+    - name: "dusays.com"
+      url: "https://dusays.com"
+    - name: "smilin.net"
+      url: "https://smilin.net"
+    - name: "xycs1.xyz"
+      url: "https://xycs1.xyz"
+    - name: "blog.chn.us.kg"
+      url: "https://blog.chn.us.kg"
+    - name: "qianxu.run"
+      url: "https://qianxu.run"
+    - name: "blog.luhua.site"
+      url: "https://blog.luhua.site"
+    - name: "mi7.net"
+      url: "https://mi7.net"
+    - name: "wxjxw.cn"
+      url: "https://wxjxw.cn"
+    - name: "www.ankia.top"
+      url: "https://www.ankia.top"
+    - name: "blog.calyee.top"
+      url: "https://blog.calyee.top"
+    - name: "blog.pzai.cloud"
+      url: "https://blog.pzai.cloud"
+    - name: "godky.cn"
+      url: "https://godky.cn"
+    - name: "blog.starsharbor.com"
+      url: "https://blog.starsharbor.com"
+    - name: "blog.yuncan.xyz"
+      url: "https://blog.yuncan.xyz"
+    - name: "blog.pljzy.top"
+      url: "https://blog.pljzy.top"
+    - name: "blog.liushen.fun"
+      url: "https://blog.liushen.fun"
+    - name: "umb.ink"
+      url: "https://umb.ink"
+    - name: "www.dx3n.cn"
+      url: "https://www.dx3n.cn"
+    - name: "blog.zhilu.cyou"
+      url: "https://blog.zhilu.cyou"
+    - name: "blog.elykia.cn"
+      url: "https://blog.elykia.cn"
+    - name: "www.uuu.me.uk"
+      url: "https://www.uuu.me.uk"
+    - name: "www.darlingrin.com"
+      url: "https://www.darlingrin.com"
+    - name: "www.chillg.de"
+      url: "https://www.chillg.de"
+    - name: "blog.qyadbr.top"
+      url: "https://blog.qyadbr.top"
+    - name: "yuazhi.cn"
+      url: "https://yuazhi.cn"
+    - name: "www.htmacg.cn"
+      url: "https://www.htmacg.cn"
+    - name: "blog.rhopaper.top"
+      url: "https://blog.rhopaper.top"
+    - name: "www.gx.gx.cn"
+      url: "https://www.gx.gx.cn"
+    - name: "blog.liuzijian.com"
+      url: "https://blog.liuzijian.com"
+    - name: "www.tasaed.top"
+      url: "https://www.tasaed.top"
+    - name: "kasuie.cc"
+      url: "https://kasuie.cc"
+    - name: "www.seaepoch.com"
+      url: "https://www.seaepoch.com"
+    - name: "blog.randench.cn"
+      url: "https://blog.randench.cn"
+    - name: "blog.redcha.cn"
+      url: "https://blog.redcha.cn"
+    - name: "zhangwenbao.com"
+      url: "https://zhangwenbao.com"
+    - name: "skylan.cc"
+      url: "https://skylan.cc"
+    - name: "www.xmdblog.com"
+      url: "https://www.xmdblog.com"
+    - name: "rimrose.top"
+      url: "https://rimrose.top"
+    - name: "s1rius.space"
+      url: "https://s1rius.space"
+    - name: "justpureh2o.cn"
+      url: "https://justpureh2o.cn"
+    - name: "blog.akvicor.com"
+      url: "https://blog.akvicor.com"
+    - name: "iflux.art"
+      url: "https://iflux.art"
+    - name: "blog.bleaz.net"
+      url: "https://blog.bleaz.net"
+    - name: "blog.lemonstar.me"
+      url: "https://blog.lemonstar.me"
+    - name: "blog.lusyoe.com"
+      url: "https://blog.lusyoe.com"
+    - name: "blog.leoo.fun"
+      url: "https://blog.leoo.fun"
+    - name: "blog.roxymagic.top"
+      url: "https://blog.roxymagic.top"
+    - name: "blog.hehouhui.cn"
+      url: "https://blog.hehouhui.cn"
+    - name: "ooo.run"
+      url: "https://ooo.run"
+    - name: "nihao.show"
+      url: "https://nihao.show"
+    - name: "blog.askrabbit.net"
+      url: "https://blog.askrabbit.net"
+    - name: "blog.cuteleaf.cn"
+      url: "https://blog.cuteleaf.cn"
+    - name: "www.worable.top"
+      url: "https://www.worable.top"
+    - name: "blog.suble.cn"
+      url: "https://blog.suble.cn"
+    - name: "blog.misaka-net.top"
+      url: "https://blog.misaka-net.top"
+    - name: "www.tenca.cn"
+      url: "https://www.tenca.cn"
+    - name: "flyblog.qzz.io"
+      url: "https://flyblog.qzz.io"
+    - name: "blog.gbsat.org"
+      url: "https://blog.gbsat.org"
+    - name: "loli.fj.cn"
+      url: "https://loli.fj.cn"
+    - name: "blog.224418.xyz"
+      url: "https://blog.224418.xyz"
+    - name: "blog.gogei.top"
+      url: "https://blog.gogei.top"
+    - name: "maxlhy0424.is-a.dev"
+      url: "https://maxlhy0424.is-a.dev"
+    - name: "goway0128.top"
+      url: "https://goway0128.top"
+    - name: "ravelloh.com"
+      url: "https://ravelloh.com"
+    - name: "weikecc.top"
+      url: "https://weikecc.top"
+    - name: "ddbx.org"
+      url: "https://ddbx.org"
+    - name: "Xiaopang"
+      url: "http://blog.moegeek.com"

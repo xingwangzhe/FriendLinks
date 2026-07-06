@@ -1,82 +1,82 @@
 site:
-  name: 'blog.calyee.top'
-  description: '友情链接'
-  url: 'https://blog.calyee.top/'
-  links: '/link'
+  name: "blog.calyee.top"
+  description: "友情链接"
+  url: "https://blog.calyee.top/"
+  links: "/link"
   friends:
-    - name: 'ChatGPT'
-      url: 'https://chat.calyee-blog.top/'
-    - name: '草料二维码'
-      url: 'https://cli.im/'
-    - name: '安知鱼`Blog'
-      url: 'https://blog.anheyu.com/'
-    - name: 'Chestnutduck'
-      url: 'https://www.chestnutduck.top/'
-    - name: 'Mcalongyeah'
-      url: 'https://alongyeah.love/'
-    - name: '葱苓sama'
-      url: 'https://blog.ciraos.top'
-    - name: '樱花小镇'
-      url: 'https://blog.sakura.vin'
-    - name: '任平生'
-      url: 'https://buuu.cn/'
-    - name: '阳小楊'
-      url: 'https://blog.yxyang.top'
-    - name: 'Miykahの后备箱'
-      url: 'https://blog.miykah.top/'
-    - name: 'SerMs'
-      url: 'https://blog.serms.top/'
-    - name: '小植同学'
-      url: 'https://blog.xiaoztx.top'
-    - name: 'Qing'
-      url: 'https://blog.wuyuxi.cn/'
-    - name: '屑殇'
-      url: 'https://jinghuashang.cn/'
-    - name: '神经蛙'
-      url: 'https://hexo.sjava.cn/'
-    - name: 'iMaeGoo’s Blog'
-      url: 'https://www.imaegoo.com'
-    - name: '别亦难'
-      url: 'https://lazyingman.cn'
-    - name: '张时贰'
-      url: 'https://zhsher.cn'
-    - name: 'Akilarの糖果屋'
-      url: 'https://akilar.top/'
-    - name: '张洪Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: '铭心石刻愿岁并谢，与友长兮'
-      url: 'https://blog.kouseki.cn/'
-    - name: '王貔貅日就月将,学有缉熙于光明'
-      url: 'https://blog.wpixiu.cn/'
-    - name: '余墨白喜欢捣鼓的博主．'
-      url: 'https://blog.yumobai.cn/'
-    - name: '汐塔魔法屋种下一颗有故事的种子，让它带着魔法和奇迹生根发芽'
-      url: 'https://blog.storical.space/'
-    - name: 'HiPeach妙不可言'
-      url: 'https://blog.opeach.cn'
-    - name: 'Kenshin2438のBlog大概算是（半）个技术博客。'
-      url: 'https://kenshin2438.top/'
-    - name: 'Pupper记录学习、生活中的点点滴滴~'
-      url: 'https://pupper.cn'
-    - name: '闪闪の小窝来玩！玩累了…就睡觉！没问题的！'
-      url: 'https://moechun.fun/'
-    - name: 'Rootlex寒蝉黎明之时，便是重生之日'
-      url: 'https://blog.nalex.top'
-    - name: '偷闲小站跨越山海，终见曙光'
-      url: 'https://blog.andypang.cc/'
-    - name: 'Eurkon及时当勉励，岁月不待人。'
-      url: 'https://blog.eurkon.com'
-    - name: 'SuYi-宿仪随心写作，随缘阅读'
-      url: 'https://www.thotz.top/'
-    - name: 'Pzai从入门到放弃'
-      url: 'https://blog.pzai.cloud/'
-    - name: '何星梦朝着梦想前进'
-      url: 'https://hexo.dreamerhe.cn/'
-    - name: '绾秋小站用文字记录生活。'
-      url: 'https://www.gx.gx.cn/'
-    - name: '王鑫的小站活着就是为了折腾!'
-      url: 'https://wxweb.xyz'
-    - name: 'Joker2Yue的个人博客Joker Never Plays Jokes.'
-      url: 'https://blog.joker2yue.com'
-    - name: 'CIK人生如逆旅，我亦是行人，但求步履从容，不负光阴~'
-      url: 'https://blog.cikcc.com'
+    - name: "ChatGPT"
+      url: "https://chat.calyee-blog.top/"
+    - name: "草料二维码"
+      url: "https://cli.im/"
+    - name: "安知鱼`Blog"
+      url: "https://blog.anheyu.com/"
+    - name: "Chestnutduck"
+      url: "https://www.chestnutduck.top/"
+    - name: "Mcalongyeah"
+      url: "https://alongyeah.love/"
+    - name: "葱苓sama"
+      url: "https://blog.ciraos.top"
+    - name: "樱花小镇"
+      url: "https://blog.sakura.vin"
+    - name: "任平生"
+      url: "https://buuu.cn/"
+    - name: "阳小楊"
+      url: "https://blog.yxyang.top"
+    - name: "Miykahの后备箱"
+      url: "https://blog.miykah.top/"
+    - name: "SerMs"
+      url: "https://blog.serms.top/"
+    - name: "小植同学"
+      url: "https://blog.xiaoztx.top"
+    - name: "Qing"
+      url: "https://blog.wuyuxi.cn/"
+    - name: "屑殇"
+      url: "https://jinghuashang.cn/"
+    - name: "神经蛙"
+      url: "https://hexo.sjava.cn/"
+    - name: "iMaeGoo’s Blog"
+      url: "https://www.imaegoo.com"
+    - name: "别亦难"
+      url: "https://lazyingman.cn"
+    - name: "张时贰"
+      url: "https://zhsher.cn"
+    - name: "Akilarの糖果屋"
+      url: "https://akilar.top/"
+    - name: "张洪Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "铭心石刻愿岁并谢，与友长兮"
+      url: "https://blog.kouseki.cn/"
+    - name: "王貔貅日就月将,学有缉熙于光明"
+      url: "https://blog.wpixiu.cn/"
+    - name: "余墨白喜欢捣鼓的博主．"
+      url: "https://blog.yumobai.cn/"
+    - name: "汐塔魔法屋种下一颗有故事的种子，让它带着魔法和奇迹生根发芽"
+      url: "https://blog.storical.space/"
+    - name: "HiPeach妙不可言"
+      url: "https://blog.opeach.cn"
+    - name: "Kenshin2438のBlog大概算是（半）个技术博客。"
+      url: "https://kenshin2438.top/"
+    - name: "Pupper记录学习、生活中的点点滴滴~"
+      url: "https://pupper.cn"
+    - name: "闪闪の小窝来玩！玩累了…就睡觉！没问题的！"
+      url: "https://moechun.fun/"
+    - name: "Rootlex寒蝉黎明之时，便是重生之日"
+      url: "https://blog.nalex.top"
+    - name: "偷闲小站跨越山海，终见曙光"
+      url: "https://blog.andypang.cc/"
+    - name: "Eurkon及时当勉励，岁月不待人。"
+      url: "https://blog.eurkon.com"
+    - name: "SuYi-宿仪随心写作，随缘阅读"
+      url: "https://www.thotz.top/"
+    - name: "Pzai从入门到放弃"
+      url: "https://blog.pzai.cloud/"
+    - name: "何星梦朝着梦想前进"
+      url: "https://hexo.dreamerhe.cn/"
+    - name: "绾秋小站用文字记录生活。"
+      url: "https://www.gx.gx.cn/"
+    - name: "王鑫的小站活着就是为了折腾!"
+      url: "https://wxweb.xyz"
+    - name: "Joker2Yue的个人博客Joker Never Plays Jokes."
+      url: "https://blog.joker2yue.com"
+    - name: "CIK人生如逆旅，我亦是行人，但求步履从容，不负光阴~"
+      url: "https://blog.cikcc.com"

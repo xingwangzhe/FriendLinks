@@ -1,12 +1,12 @@
 site:
-  name: 'lykep.com'
-  url: 'http://www.lykep.com/'
-  description: '友情链接'
-  links: '/'
+  name: "lykep.com"
+  url: "http://www.lykep.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: '爱好者博客'
-      url: 'https://www.87csn.com'
-    - name: '海量API'
-      url: 'https://www.hlapi.cn'
-    - name: '星辰博客'
-      url: 'https://www.xcboke.cn'
+    - name: "爱好者博客"
+      url: "https://www.87csn.com"
+    - name: "海量API"
+      url: "https://www.hlapi.cn"
+    - name: "星辰博客"
+      url: "https://www.xcboke.cn"

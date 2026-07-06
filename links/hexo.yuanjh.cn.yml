@@ -1,12 +1,12 @@
 site:
-  name: 'hexo.yuanjh.cn'
-  url: 'https://hexo.yuanjh.cn/'
-  description: '友情链接'
-  links: '/links'
+  name: "hexo.yuanjh.cn"
+  url: "https://hexo.yuanjh.cn/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Google fsoufsou.com'
-      url: 'https://fsoufsou.com/'
-    - name: 'Jupyter python.jupyter.vip'
-      url: 'https://python.jupyter.vip/'
-    - name: 'Update my browser now'
-      url: 'http://outdatedbrowser.com/'
+    - name: "Google fsoufsou.com"
+      url: "https://fsoufsou.com/"
+    - name: "Jupyter python.jupyter.vip"
+      url: "https://python.jupyter.vip/"
+    - name: "Update my browser now"
+      url: "http://outdatedbrowser.com/"

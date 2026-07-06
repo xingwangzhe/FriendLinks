@@ -1,10 +1,10 @@
 site:
-  name: 'smallrapids.net'
-  url: 'https://smallrapids.net/'
-  description: '友情链接'
-  links: '/links'
+  name: "smallrapids.net"
+  url: "https://smallrapids.net/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Miikka Koskinen'
-      url: 'https://miikka.me/'
-    - name: 'my other blog'
-      url: 'https://quanttype.net/'
+    - name: "Miikka Koskinen"
+      url: "https://miikka.me/"
+    - name: "my other blog"
+      url: "https://quanttype.net/"

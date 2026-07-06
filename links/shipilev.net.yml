@@ -1,10 +1,10 @@
 site:
-  name: 'shipilev.net'
-  url: 'https://shipilev.net/'
-  description: '友情链接'
-  links: '/'
+  name: "shipilev.net"
+  url: "https://shipilev.net/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Parleys'
-      url: 'http://parleys.com/#st=5&id=3021'
-    - name: 'OpenJDK'
-      url: 'http://openjdk.java.net/'
+    - name: "Parleys"
+      url: "http://parleys.com/#st=5&id=3021"
+    - name: "OpenJDK"
+      url: "http://openjdk.java.net/"

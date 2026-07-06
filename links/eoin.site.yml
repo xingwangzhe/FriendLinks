@@ -1,12 +1,12 @@
 site:
-  name: 'eoin.site'
-  url: 'https://eoin.site/'
-  description: '友情链接'
-  links: '/'
+  name: "eoin.site"
+  url: "https://eoin.site/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'spool-five.com'
-      url: 'https://spool-five.com'
-    - name: 'the gemini protocol'
-      url: 'https://geminiprotocol.net/'
-    - name: 'Clerk Garden'
-      url: 'https://github.clerk.garden/'
+    - name: "spool-five.com"
+      url: "https://spool-five.com"
+    - name: "the gemini protocol"
+      url: "https://geminiprotocol.net/"
+    - name: "Clerk Garden"
+      url: "https://github.clerk.garden/"

@@ -1,36 +1,36 @@
 site:
-  name: 'techzero.cn'
-  url: 'https://www.techzero.cn/'
-  description: '友情链接'
-  links: '/links'
+  name: "techzero.cn"
+  url: "https://www.techzero.cn/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '@debian'
-      url: 'https://www.debian.cn/'
-    - name: 'Jason'
-      url: 'http://www.centos.bz'
-    - name: '科学看世界'
-      url: 'http://91ksj.com'
-    - name: 'noco'
-      url: 'https://seonoco.com/'
-    - name: 'Tetsai'
-      url: 'https://www.tetsai.com'
-    - name: '许滋博客'
-      url: 'http://www.xuzizi.cn'
-    - name: '萨墨温德'
-      url: 'http://sumwind.com'
-    - name: '科学看世界'
-      url: 'http://91stw.net'
-    - name: '365cent'
-      url: 'http://next.365cent.com'
-    - name: '歪克士'
-      url: 'http://www.wicos.cn'
-    - name: '众推不靠谱'
-      url: 'http://www.zootui.com'
-    - name: 'zootui'
-      url: 'http://zootui.com'
-    - name: '我的新博客'
-      url: 'https://vant.in/'
-    - name: 'iTeknical'
-      url: 'https://www.iteknical.com/'
-    - name: 'HCE分布式'
-      url: 'https://hce.iteknical.com/'
+    - name: "@debian"
+      url: "https://www.debian.cn/"
+    - name: "Jason"
+      url: "http://www.centos.bz"
+    - name: "科学看世界"
+      url: "http://91ksj.com"
+    - name: "noco"
+      url: "https://seonoco.com/"
+    - name: "Tetsai"
+      url: "https://www.tetsai.com"
+    - name: "许滋博客"
+      url: "http://www.xuzizi.cn"
+    - name: "萨墨温德"
+      url: "http://sumwind.com"
+    - name: "科学看世界"
+      url: "http://91stw.net"
+    - name: "365cent"
+      url: "http://next.365cent.com"
+    - name: "歪克士"
+      url: "http://www.wicos.cn"
+    - name: "众推不靠谱"
+      url: "http://www.zootui.com"
+    - name: "zootui"
+      url: "http://zootui.com"
+    - name: "我的新博客"
+      url: "https://vant.in/"
+    - name: "iTeknical"
+      url: "https://www.iteknical.com/"
+    - name: "HCE分布式"
+      url: "https://hce.iteknical.com/"

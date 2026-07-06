@@ -1,10 +1,10 @@
 site:
-  name: 'blog.moej.cn'
-  url: 'https://blog.moej.cn/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "blog.moej.cn"
+  url: "https://blog.moej.cn/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: '🐠引导页'
-      url: 'https://cak.moe'
-    - name: 'Cuteen'
-      url: 'https://blog.zwying.com'
+    - name: "🐠引导页"
+      url: "https://cak.moe"
+    - name: "Cuteen"
+      url: "https://blog.zwying.com"

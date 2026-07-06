@@ -1,72 +1,72 @@
 site:
-  name: 'blog.1l1.icu'
-  url: 'https://blog.1l1.icu/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.1l1.icu"
+  url: "https://blog.1l1.icu/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'MUSKA NETWORK'
-      url: 'https://muska.zip'
-    - name: '乐青映射 - LoCyanFrp 全公益的内网穿透服务'
-      url: 'https://www.locyanfrp.cn'
-    - name: 'PangBai''S Blog 摸鱼的旁白'
-      url: 'https://pangbai.work'
-    - name: '无知的错 welcome to my blog'
-      url: 'https://www.wzdc.cc'
-    - name: 'ROYWANG 知天命，懂因果'
-      url: 'https://roy.wang'
-    - name: 'SerinaNya Serina 的日常 / daily of SerinaNya'
-      url: 'https://serinanya.cn'
-    - name: 'XM的小窝 鹿友，经常会开坑忘填（划掉）のblog'
-      url: 'https://kanokano.cn'
-    - name: 'Charles'' Blog 一个小白的Blog'
-      url: 'https://blog.shanrenyi.top'
-    - name: '阿付の小破站 你也是一个正在追逐梦想的灵魂吗？'
-      url: 'https://afqaq.com'
-    - name: 'Kev1n8w 的小窝 Music + Code = Best'
-      url: 'https://hugo.utermux.dev/'
-    - name: 'DreamOneX 实践是检验真理的唯一标准'
-      url: 'https://blog.dreamonex.eu.org/'
-    - name: '烟墨的屑站点 剃刀边缘怎能起造伽蓝。'
-      url: 'https://ymbit.cn/'
-    - name: '薄荷の小屋 越是拼命往前伸手，渴望之物越是渐行渐远'
-      url: 'https://www.hoshiroko.com/'
-    - name: '阿龙的笔记 阿巴阿巴…'
-      url: 'https://www.alongw.cn/'
-    - name: 'Lazy''s Blog Share somethings with you'
-      url: 'https://blog.imlazy.ink:233/'
-    - name: '御坂秋生の小站 不努力就只能听到别人的好消息'
-      url: 'https://www.akio.top/'
-    - name: 'Aehxy的个人小站 若知是梦何须醒，不比真如一相会。'
-      url: 'https://www.aehxy.com/'
-    - name: 'Bingxin Home 好久不见'
-      url: 'https://byteloid.one/'
-    - name: '天宇网络博客 小小世界-容纳百川'
-      url: 'https://hk47.cc/'
-    - name: 'MoYuanCN''s Blog 如星星般闪耀'
-      url: 'https://moyuancn.vip/'
-    - name: 'pbr''s pole Just another penguin''s blog'
-      url: 'https://blog.kasetry.cn/'
-    - name: '沙雕的Blog 哈喽~欢迎光临'
-      url: 'https://blog.sdbit.net.cn/'
-    - name: 'DoctoR’s blog before my body is dry'
-      url: 'https://rxw2023-github-io.pages.dev/'
-    - name: 'Canmi 彩笔猫猫'
-      url: 'https://arc.canmi.icu/'
-    - name: '落雪の自留地 衣带渐宽终不悔，为伊消得人憔悴。'
-      url: 'https://www.lxhtt.cn/'
-    - name: '懒事屋 就算不是理工科也要耍博客！'
-      url: 'https://ataidawa.github.io/'
-    - name: '零狼 の 小窝 为了前行而努力，即使前方不一定有光。'
-      url: 'https://zerowolf.cn/'
-    - name: 'Daiyangcheng‘s Blog dyc 的碎碎念'
-      url: 'https://www.daiyangcheng.cn/'
-    - name: '阿呆 分享生活中的事物'
-      url: 'https://adaiblog.github.io/'
-    - name: '盐木的小破窝 卷土重来未可知。——杜牧《题乌江亭》'
-      url: 'https://ski.ink/'
-    - name: 'worable''s Blog ≡ω≡嗯对，一名普通的职一牲~'
-      url: 'https://www.worable.top/'
-    - name: '秋晓桃の神秘小窝 嗨，别来无恙啊！'
-      url: 'https://qiuxiaotao.com/'
-    - name: '风雨阁 Storm Pavilion Keep loving.'
-      url: 'https://spcraft.cn/'
+    - name: "MUSKA NETWORK"
+      url: "https://muska.zip"
+    - name: "乐青映射 - LoCyanFrp 全公益的内网穿透服务"
+      url: "https://www.locyanfrp.cn"
+    - name: "PangBai'S Blog 摸鱼的旁白"
+      url: "https://pangbai.work"
+    - name: "无知的错 welcome to my blog"
+      url: "https://www.wzdc.cc"
+    - name: "ROYWANG 知天命，懂因果"
+      url: "https://roy.wang"
+    - name: "SerinaNya Serina 的日常 / daily of SerinaNya"
+      url: "https://serinanya.cn"
+    - name: "XM的小窝 鹿友，经常会开坑忘填（划掉）のblog"
+      url: "https://kanokano.cn"
+    - name: "Charles' Blog 一个小白的Blog"
+      url: "https://blog.shanrenyi.top"
+    - name: "阿付の小破站 你也是一个正在追逐梦想的灵魂吗？"
+      url: "https://afqaq.com"
+    - name: "Kev1n8w 的小窝 Music + Code = Best"
+      url: "https://hugo.utermux.dev/"
+    - name: "DreamOneX 实践是检验真理的唯一标准"
+      url: "https://blog.dreamonex.eu.org/"
+    - name: "烟墨的屑站点 剃刀边缘怎能起造伽蓝。"
+      url: "https://ymbit.cn/"
+    - name: "薄荷の小屋 越是拼命往前伸手，渴望之物越是渐行渐远"
+      url: "https://www.hoshiroko.com/"
+    - name: "阿龙的笔记 阿巴阿巴…"
+      url: "https://www.alongw.cn/"
+    - name: "Lazy's Blog Share somethings with you"
+      url: "https://blog.imlazy.ink:233/"
+    - name: "御坂秋生の小站 不努力就只能听到别人的好消息"
+      url: "https://www.akio.top/"
+    - name: "Aehxy的个人小站 若知是梦何须醒，不比真如一相会。"
+      url: "https://www.aehxy.com/"
+    - name: "Bingxin Home 好久不见"
+      url: "https://byteloid.one/"
+    - name: "天宇网络博客 小小世界-容纳百川"
+      url: "https://hk47.cc/"
+    - name: "MoYuanCN's Blog 如星星般闪耀"
+      url: "https://moyuancn.vip/"
+    - name: "pbr's pole Just another penguin's blog"
+      url: "https://blog.kasetry.cn/"
+    - name: "沙雕的Blog 哈喽~欢迎光临"
+      url: "https://blog.sdbit.net.cn/"
+    - name: "DoctoR’s blog before my body is dry"
+      url: "https://rxw2023-github-io.pages.dev/"
+    - name: "Canmi 彩笔猫猫"
+      url: "https://arc.canmi.icu/"
+    - name: "落雪の自留地 衣带渐宽终不悔，为伊消得人憔悴。"
+      url: "https://www.lxhtt.cn/"
+    - name: "懒事屋 就算不是理工科也要耍博客！"
+      url: "https://ataidawa.github.io/"
+    - name: "零狼 の 小窝 为了前行而努力，即使前方不一定有光。"
+      url: "https://zerowolf.cn/"
+    - name: "Daiyangcheng‘s Blog dyc 的碎碎念"
+      url: "https://www.daiyangcheng.cn/"
+    - name: "阿呆 分享生活中的事物"
+      url: "https://adaiblog.github.io/"
+    - name: "盐木的小破窝 卷土重来未可知。——杜牧《题乌江亭》"
+      url: "https://ski.ink/"
+    - name: "worable's Blog ≡ω≡嗯对，一名普通的职一牲~"
+      url: "https://www.worable.top/"
+    - name: "秋晓桃の神秘小窝 嗨，别来无恙啊！"
+      url: "https://qiuxiaotao.com/"
+    - name: "风雨阁 Storm Pavilion Keep loving."
+      url: "https://spcraft.cn/"

@@ -1,10 +1,10 @@
 site:
-  name: 'asciinema.org'
-  url: 'https://asciinema.org/'
-  description: '友情链接'
-  links: '/'
+  name: "asciinema.org"
+  url: "https://asciinema.org/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Matrix'
-      url: 'https://matrix.to/#/#asciinema:matrix.org'
-    - name: 'IRC'
-      url: 'https://web.libera.chat/#asciinema'
+    - name: "Matrix"
+      url: "https://matrix.to/#/#asciinema:matrix.org"
+    - name: "IRC"
+      url: "https://web.libera.chat/#asciinema"

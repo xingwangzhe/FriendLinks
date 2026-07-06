@@ -1,10 +1,10 @@
 site:
-  name: 'blog.xgblack.cn'
-  url: 'https://blog.xgblack.cn/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.xgblack.cn"
+  url: "https://blog.xgblack.cn/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'JAGUWEN'
-      url: 'https://www.jaguwen.com/'
-    - name: '南香香'
-      url: 'http://99887766554433221100.cn/'
+    - name: "JAGUWEN"
+      url: "https://www.jaguwen.com/"
+    - name: "南香香"
+      url: "http://99887766554433221100.cn/"

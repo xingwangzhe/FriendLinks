@@ -1,12 +1,12 @@
 site:
-  name: 'blog.jiping.site'
-  url: 'https://blog.jiping.site/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.jiping.site"
+  url: "https://blog.jiping.site/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '谭院士'
-      url: 'https://twd2.me/'
-    - name: '查询自己的 IPv4 地址'
-      url: 'https://ipv4.twd2.net/'
-    - name: 'IPv6 地址'
-      url: 'https://ipv6.twd2.net/'
+    - name: "谭院士"
+      url: "https://twd2.me/"
+    - name: "查询自己的 IPv4 地址"
+      url: "https://ipv4.twd2.net/"
+    - name: "IPv6 地址"
+      url: "https://ipv6.twd2.net/"

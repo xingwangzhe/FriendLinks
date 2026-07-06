@@ -1,12 +1,12 @@
 site:
-  name: 'blog.jle.im'
-  url: 'https://blog.jle.im/'
-  description: '友情链接'
-  links: '/'
+  name: "blog.jle.im"
+  url: "https://blog.jle.im/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'SimSpace'
-      url: 'https://simspace.com/'
-    - name: 'Anduril'
-      url: 'https://anduril.com/'
-    - name: 'Advent of Code'
-      url: 'http://adventofcode.com/'
+    - name: "SimSpace"
+      url: "https://simspace.com/"
+    - name: "Anduril"
+      url: "https://anduril.com/"
+    - name: "Advent of Code"
+      url: "http://adventofcode.com/"

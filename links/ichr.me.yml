@@ -1,48 +1,48 @@
 site:
-  name: 'ichr.me'
-  url: 'https://ichr.me/'
-  description: '友情链接'
-  links: '/links'
+  name: "ichr.me"
+  url: "https://ichr.me/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Sukka''s Blog童话只美在真实却从不续写'
-      url: 'https://blog.skk.moe'
-    - name: '木子的博客Linux | 云原生 | 容器'
-      url: 'https://blog.k8s.li'
-    - name: '云游君希望能成为有趣的人'
-      url: 'https://www.yunyoujun.cn'
-    - name: '/rkm/ RikumiCan you hear me?'
-      url: 'https://rikumi.dev/'
-    - name: 'Cynosura好欸！是熊熊！'
-      url: 'https://cynosura.one/'
-    - name: 'Steven''s Blog大学萌新的普通 Blog'
-      url: 'https://blog.hly0928.com/'
-    - name: 'Konnyaku’s BlogDigital Evergarden'
-      url: 'https://hee.ink/'
-    - name: 'idealclover是翠翠的个人网站！'
-      url: 'https://idealclover.top'
-    - name: 'Bottle''s BlogSomebottle 的博客'
-      url: 'https://bottle.moe/'
-    - name: '小霖的梦花园不可爱的蓝孩纸'
-      url: 'https://www.xiaolin.in/'
-    - name: '蝉时雨蝉鸣如雨，花宵道中'
-      url: 'https://chanshiyu.com'
-    - name: 'PRIM Blog全栈开发者日常'
-      url: 'https://printempw.github.io/'
-    - name: '方寸间拖延症患者的瞎折腾'
-      url: 'https://10101.io/'
-    - name: 'P3TERX ZONE一个萌新的博客'
-      url: 'https://p3terx.com/'
-    - name: '七夏浅笑七月之约，夏末浅笑'
-      url: 'https://www.julydate.com/'
-    - name: '皮皮凛の小窝永远相信美好的事情即将发生~'
-      url: 'https://owomoe.net/'
-    - name: 'xaoxuuiOS | 开发者'
-      url: 'https://xaoxuu.com'
-    - name: 'Desvl''s BlogA blog mainly on graduate mathematics.'
-      url: 'https://desvl.xyz/'
-    - name: 'Arthals'' ink所见高山远木，阔云流风；所幸岁月盈余，了无拘束'
-      url: 'https://arthals.ink/'
-    - name: 'Restent''s Notebook静寂に問う 答えを求めて'
-      url: 'https://blog.gxres.net'
-    - name: 'LJY''s Blogfriend'
-      url: 'https://blog.ljyngup.com/'
+    - name: "Sukka's Blog童话只美在真实却从不续写"
+      url: "https://blog.skk.moe"
+    - name: "木子的博客Linux | 云原生 | 容器"
+      url: "https://blog.k8s.li"
+    - name: "云游君希望能成为有趣的人"
+      url: "https://www.yunyoujun.cn"
+    - name: "/rkm/ RikumiCan you hear me?"
+      url: "https://rikumi.dev/"
+    - name: "Cynosura好欸！是熊熊！"
+      url: "https://cynosura.one/"
+    - name: "Steven's Blog大学萌新的普通 Blog"
+      url: "https://blog.hly0928.com/"
+    - name: "Konnyaku’s BlogDigital Evergarden"
+      url: "https://hee.ink/"
+    - name: "idealclover是翠翠的个人网站！"
+      url: "https://idealclover.top"
+    - name: "Bottle's BlogSomebottle 的博客"
+      url: "https://bottle.moe/"
+    - name: "小霖的梦花园不可爱的蓝孩纸"
+      url: "https://www.xiaolin.in/"
+    - name: "蝉时雨蝉鸣如雨，花宵道中"
+      url: "https://chanshiyu.com"
+    - name: "PRIM Blog全栈开发者日常"
+      url: "https://printempw.github.io/"
+    - name: "方寸间拖延症患者的瞎折腾"
+      url: "https://10101.io/"
+    - name: "P3TERX ZONE一个萌新的博客"
+      url: "https://p3terx.com/"
+    - name: "七夏浅笑七月之约，夏末浅笑"
+      url: "https://www.julydate.com/"
+    - name: "皮皮凛の小窝永远相信美好的事情即将发生~"
+      url: "https://owomoe.net/"
+    - name: "xaoxuuiOS | 开发者"
+      url: "https://xaoxuu.com"
+    - name: "Desvl's BlogA blog mainly on graduate mathematics."
+      url: "https://desvl.xyz/"
+    - name: "Arthals' ink所见高山远木，阔云流风；所幸岁月盈余，了无拘束"
+      url: "https://arthals.ink/"
+    - name: "Restent's Notebook静寂に問う 答えを求めて"
+      url: "https://blog.gxres.net"
+    - name: "LJY's Blogfriend"
+      url: "https://blog.ljyngup.com/"

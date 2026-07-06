@@ -1,78 +1,78 @@
 site:
-  name: 'Nebula Blog'
-  url: 'https://www.996icu.eu.org/'
-  description: 'Industrial Techwear Style Blog'
-  links: '/links'
+  name: "Nebula Blog"
+  url: "https://www.996icu.eu.org/"
+  description: "Industrial Techwear Style Blog"
+  links: "/links"
   friends:
-    - name: '禾守の小站'
-      url: 'https://blog.dmoe.top/'
-    - name: '龙星划空'
-      url: 'https://blog.245179.xyz/'
-    - name: '布丁の小窝'
-      url: 'https://www.furryowo.top/'
-    - name: 'Sakitami的集装箱'
-      url: 'https://blog.skihome.xyz/'
-    - name: 'XME Notes Library'
-      url: 'https://blog.xzadudu179.top/'
-    - name: 'Hello！I’m 中二病晚期'
-      url: 'https://imfurry.com/'
-    - name: '雪萌天文台'
-      url: 'https://blog.snowy.moe/'
-    - name: 'Almango'
-      url: 'https://blog.almango.cn/'
-    - name: 'ATao'
-      url: 'https://blog.atao.cyou/'
-    - name: '柠檬星'
-      url: 'https://blog.lemonstar.me/'
-    - name: 'AoneのBlog'
-      url: 'https://blog.adproqwq.top/'
-    - name: 'Chenmy'
-      url: 'https://www.chenmyawa.top/'
-    - name: '欢迎来到阿叶Ayeez的博客'
-      url: 'https://blog.ayeez.cn/'
-    - name: '望夜菌的小窝'
-      url: 'https://www.plsshenyun.top/'
-    - name: 'XgrBlog'
-      url: 'https://xgrblog.cn/'
-    - name: '鼠鼠在碎觉'
-      url: 'https://sszsj.com/'
-    - name: 'TimochanのBlog · Let's start learning'
-      url: 'https://www.timochan.cn/'
-    - name: 'mccsjs'
-      url: 'https://seln.cn/'
-    - name: 'Sky's Blog'
-      url: 'https://www.wanglingyue.com/'
-    - name: '裕裕裕的小破宅'
-      url: 'https://yu-blog.top/'
-    - name: 'ANXYの小窝'
-      url: 'https://blog.anxy.top/'
-    - name: '咖啡豆子coffee的小站'
-      url: 'https://blog.kfdzcoffee.cn/'
-    - name: 'JustPureH2O 的博客'
-      url: 'https://justpureh2o.cn/'
-    - name: '我鬼知道の博客'
-      url: 'https://www.wgzdy.top/'
-    - name: '荧光'
-      url: 'https://i.duckxu.com/'
-    - name: 'Hinai'
-      url: 'https://blog.woo.moe/'
-    - name: '小元的博客'
-      url: 'https://reblog.cn/'
-    - name: 'Home'
-      url: 'https://arthals.ink/'
-    - name: 'Jett 杰特林的网'
-      url: 'https://jettlin.cn/'
-    - name: '云海花瑶'
-      url: 'https://www.moeyao.cn/'
-    - name: 'Elainafan'
-      url: 'https://www.elainafan.one/'
-    - name: '逐暗者的麦田'
-      url: 'https://www.iasuna.com/'
-    - name: '酩酊街'
-      url: 'https://cafe.omoi.fun/'
-    - name: '主页'
-      url: 'https://www.refact.cc/'
-    - name: '天渺工作室'
-      url: 'https://tianmiao.site/'
-    - name: 'PROJECT NEBULA // APPLY'
-      url: 'https://icp.996icu.eu.org/'
+    - name: "禾守の小站"
+      url: "https://blog.dmoe.top/"
+    - name: "龙星划空"
+      url: "https://blog.245179.xyz/"
+    - name: "布丁の小窝"
+      url: "https://www.furryowo.top/"
+    - name: "Sakitami的集装箱"
+      url: "https://blog.skihome.xyz/"
+    - name: "XME Notes Library"
+      url: "https://blog.xzadudu179.top/"
+    - name: "Hello！I’m 中二病晚期"
+      url: "https://imfurry.com/"
+    - name: "雪萌天文台"
+      url: "https://blog.snowy.moe/"
+    - name: "Almango"
+      url: "https://blog.almango.cn/"
+    - name: "ATao"
+      url: "https://blog.atao.cyou/"
+    - name: "柠檬星"
+      url: "https://blog.lemonstar.me/"
+    - name: "AoneのBlog"
+      url: "https://blog.adproqwq.top/"
+    - name: "Chenmy"
+      url: "https://www.chenmyawa.top/"
+    - name: "欢迎来到阿叶Ayeez的博客"
+      url: "https://blog.ayeez.cn/"
+    - name: "望夜菌的小窝"
+      url: "https://www.plsshenyun.top/"
+    - name: "XgrBlog"
+      url: "https://xgrblog.cn/"
+    - name: "鼠鼠在碎觉"
+      url: "https://sszsj.com/"
+    - name: "TimochanのBlog · Let's start learning"
+      url: "https://www.timochan.cn/"
+    - name: "mccsjs"
+      url: "https://seln.cn/"
+    - name: "Sky's Blog"
+      url: "https://www.wanglingyue.com/"
+    - name: "裕裕裕的小破宅"
+      url: "https://yu-blog.top/"
+    - name: "ANXYの小窝"
+      url: "https://blog.anxy.top/"
+    - name: "咖啡豆子coffee的小站"
+      url: "https://blog.kfdzcoffee.cn/"
+    - name: "JustPureH2O 的博客"
+      url: "https://justpureh2o.cn/"
+    - name: "我鬼知道の博客"
+      url: "https://www.wgzdy.top/"
+    - name: "荧光"
+      url: "https://i.duckxu.com/"
+    - name: "Hinai"
+      url: "https://blog.woo.moe/"
+    - name: "小元的博客"
+      url: "https://reblog.cn/"
+    - name: "Home"
+      url: "https://arthals.ink/"
+    - name: "Jett 杰特林的网"
+      url: "https://jettlin.cn/"
+    - name: "云海花瑶"
+      url: "https://www.moeyao.cn/"
+    - name: "Elainafan"
+      url: "https://www.elainafan.one/"
+    - name: "逐暗者的麦田"
+      url: "https://www.iasuna.com/"
+    - name: "酩酊街"
+      url: "https://cafe.omoi.fun/"
+    - name: "主页"
+      url: "https://www.refact.cc/"
+    - name: "天渺工作室"
+      url: "https://tianmiao.site/"
+    - name: "PROJECT NEBULA // APPLY"
+      url: "https://icp.996icu.eu.org/"

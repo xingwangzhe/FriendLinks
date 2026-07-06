@@ -1,12 +1,12 @@
 site:
-  name: 'jeam.org'
-  url: 'https://jeam.org/'
-  description: '友情链接'
-  links: '/friends'
+  name: "jeam.org"
+  url: "https://jeam.org/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '便当的梅开四度'
-      url: 'https://wzk0.github.io/'
-    - name: 'Box'
-      url: 'https://box.jeam.cc/'
-    - name: '啊不都'
-      url: 'https://www.oplog.cn/'
+    - name: "便当的梅开四度"
+      url: "https://wzk0.github.io/"
+    - name: "Box"
+      url: "https://box.jeam.cc/"
+    - name: "啊不都"
+      url: "https://www.oplog.cn/"

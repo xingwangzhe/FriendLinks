@@ -1,30 +1,30 @@
 site:
-  name: '极客兔兔'
-  url: 'https://geektutu.com/'
-  description: '极客兔兔的博客，致力于分享一些技术教程和有趣的技术实践，包括但不限于 Go 语言/golang, Python, tensorflow, 分布式, 机器学习相关'
-  links: '/links'
+  name: "极客兔兔"
+  url: "https://geektutu.com/"
+  description: "极客兔兔的博客，致力于分享一些技术教程和有趣的技术实践，包括但不限于 Go 语言/golang, Python, tensorflow, 分布式, 机器学习相关"
+  links: "/links"
   friends:
-    - name: '首页'
-      url: 'https://mabbs.github.io/'
-    - name: 'kok的笔记本'
-      url: 'https://wocai.de/'
-    - name: '辛未羊的网络日志'
-      url: 'https://panqiincs.me/'
-    - name: '胡涂说'
-      url: 'https://hutusi.com/'
-    - name: 'Open doors don't stay open forerver.'
-      url: 'https://iamazing.cn/'
-    - name: '木鸟杂记'
-      url: 'https://www.qtmuniao.com/'
-    - name: 'wujunze`s Blog'
-      url: 'https://wujunze.com/'
-    - name: '格物'
-      url: 'https://shockerli.net/'
-    - name: '袁栩栩 (Yuan Xuxu) — 解决方案专家 · GEO/AEO 研究者'
-      url: 'https://yuanxuxu.com/'
-    - name: 'Schwarzeni's blog'
-      url: 'https://blog.schwarzeni.com/'
-    - name: '李文周的博客'
-      url: 'https://www.liwenzhou.com/'
-    - name: 'Mashiro's Baumkuchen'
-      url: 'https://mashiro.best/'
+    - name: "首页"
+      url: "https://mabbs.github.io/"
+    - name: "kok的笔记本"
+      url: "https://wocai.de/"
+    - name: "辛未羊的网络日志"
+      url: "https://panqiincs.me/"
+    - name: "胡涂说"
+      url: "https://hutusi.com/"
+    - name: "Open doors don't stay open forerver."
+      url: "https://iamazing.cn/"
+    - name: "木鸟杂记"
+      url: "https://www.qtmuniao.com/"
+    - name: "wujunze`s Blog"
+      url: "https://wujunze.com/"
+    - name: "格物"
+      url: "https://shockerli.net/"
+    - name: "袁栩栩 (Yuan Xuxu) — 解决方案专家 · GEO/AEO 研究者"
+      url: "https://yuanxuxu.com/"
+    - name: "Schwarzeni's blog"
+      url: "https://blog.schwarzeni.com/"
+    - name: "李文周的博客"
+      url: "https://www.liwenzhou.com/"
+    - name: "Mashiro's Baumkuchen"
+      url: "https://mashiro.best/"

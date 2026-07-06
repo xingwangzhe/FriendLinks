@@ -1,56 +1,56 @@
 site:
-  name: 'erzip.com'
-  url: 'https://erzip.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "erzip.com"
+  url: "https://erzip.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '困困鱼'
-      url: 'https://kunkunyu.com'
-    - name: 'Ryan Wang Halo开源团队首席打杂工'
-      url: 'https://ryanc.cc'
-    - name: '林间拾语 技术与生活的温暖拾遗'
-      url: 'https://www.lik.cc'
-    - name: 'Minikano的小窝 鹿友，经常会开坑忘填（划掉）のblog'
-      url: 'https://kanokano.cn'
-    - name: 'Takagi Takagi是啥呀？？当然是最喜欢的Takagi了吖ヾ(≧'
-      url: 'https://lixingyong.com'
-    - name: '风记星辰 热爱你来过的每度温暖'
-      url: 'https://www.thyuu.com'
-    - name: '银河星港 STARSDOCK.COM 你我皆是生活银河中的闪耀星辰'
-      url: 'https://starsdock.com'
-    - name: '花开暖年 重生之我在现代当牛马'
-      url: 'https://huakainuannian.cn'
-    - name: '轻雅阁 新时代教师的日常'
-      url: 'https://www.puresky.top'
-    - name: '刺猬NEXT 交互范式在硅基与碳基的临界域展开新的可能性卷轴。'
-      url: 'https://thornn.com'
-    - name: '小帕鲁流浪记'
-      url: 'https://www.master-jsx.top'
-    - name: '又见梅林 与其诅咒黑暗，不如点燃蜡烛。'
-      url: 'https://www.ryanzm.cn'
-    - name: '虫不知喔 若有韶月熹微，愿作流萤徂岁。'
-      url: 'https://blog.ssyc.moe'
-    - name: '山海云栈 知识创造价值'
-      url: 'https://shaiops.com'
-    - name: '礼印外盒 繁星'
-      url: 'https://liyinwaihe.com'
-    - name: '麻瓜星 魔法太累，麻瓜无罪'
-      url: 'https://www.omgx.cn'
-    - name: '云栖梦泽 山里写代码，山外看风月。'
-      url: 'https://www.iliuqi.com'
-    - name: '秘柯云仓 一个杂乱的网站'
-      url: 'https://www.mioc.top'
-    - name: '浮生闲记 以文字为舟，溯流时光之河'
-      url: 'https://xsfly.com'
-    - name: '又见梅林 与其诅咒黑暗，不如点燃一支蜡烛'
-      url: 'https://www.meily.top'
-    - name: '秘柯絮语 My Inner Opinion Collection'
-      url: 'https://www.mioc.cn'
-    - name: '世上云川 若有韶月熹微·愿作流萤徂岁'
-      url: 'https://blog.ssyc.me'
-    - name: '地球Online 读书破万卷 [ juǎn ]，所以，低头赶路，敬事如仪。主线任'
-      url: 'https://diqiuonline.cn'
-    - name: '山海运维 知识创造价值'
-      url: 'https://www.shaiops.com'
-    - name: 'THYUU/星度'
-      url: 'https://theme.thyuu.com'
+    - name: "困困鱼"
+      url: "https://kunkunyu.com"
+    - name: "Ryan Wang Halo开源团队首席打杂工"
+      url: "https://ryanc.cc"
+    - name: "林间拾语 技术与生活的温暖拾遗"
+      url: "https://www.lik.cc"
+    - name: "Minikano的小窝 鹿友，经常会开坑忘填（划掉）のblog"
+      url: "https://kanokano.cn"
+    - name: "Takagi Takagi是啥呀？？当然是最喜欢的Takagi了吖ヾ(≧"
+      url: "https://lixingyong.com"
+    - name: "风记星辰 热爱你来过的每度温暖"
+      url: "https://www.thyuu.com"
+    - name: "银河星港 STARSDOCK.COM 你我皆是生活银河中的闪耀星辰"
+      url: "https://starsdock.com"
+    - name: "花开暖年 重生之我在现代当牛马"
+      url: "https://huakainuannian.cn"
+    - name: "轻雅阁 新时代教师的日常"
+      url: "https://www.puresky.top"
+    - name: "刺猬NEXT 交互范式在硅基与碳基的临界域展开新的可能性卷轴。"
+      url: "https://thornn.com"
+    - name: "小帕鲁流浪记"
+      url: "https://www.master-jsx.top"
+    - name: "又见梅林 与其诅咒黑暗，不如点燃蜡烛。"
+      url: "https://www.ryanzm.cn"
+    - name: "虫不知喔 若有韶月熹微，愿作流萤徂岁。"
+      url: "https://blog.ssyc.moe"
+    - name: "山海云栈 知识创造价值"
+      url: "https://shaiops.com"
+    - name: "礼印外盒 繁星"
+      url: "https://liyinwaihe.com"
+    - name: "麻瓜星 魔法太累，麻瓜无罪"
+      url: "https://www.omgx.cn"
+    - name: "云栖梦泽 山里写代码，山外看风月。"
+      url: "https://www.iliuqi.com"
+    - name: "秘柯云仓 一个杂乱的网站"
+      url: "https://www.mioc.top"
+    - name: "浮生闲记 以文字为舟，溯流时光之河"
+      url: "https://xsfly.com"
+    - name: "又见梅林 与其诅咒黑暗，不如点燃一支蜡烛"
+      url: "https://www.meily.top"
+    - name: "秘柯絮语 My Inner Opinion Collection"
+      url: "https://www.mioc.cn"
+    - name: "世上云川 若有韶月熹微·愿作流萤徂岁"
+      url: "https://blog.ssyc.me"
+    - name: "地球Online 读书破万卷 [ juǎn ]，所以，低头赶路，敬事如仪。主线任"
+      url: "https://diqiuonline.cn"
+    - name: "山海运维 知识创造价值"
+      url: "https://www.shaiops.com"
+    - name: "THYUU/星度"
+      url: "https://theme.thyuu.com"

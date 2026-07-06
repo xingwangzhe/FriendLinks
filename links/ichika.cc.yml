@@ -1,76 +1,76 @@
 site:
-  name: 'ichika.cc'
-  description: '友情链接'
-  url: 'https://ichika.cc/'
-  links: '/link'
+  name: "ichika.cc"
+  description: "友情链接"
+  url: "https://ichika.cc/"
+  links: "/link"
   friends:
-    - name: 'Akilarの糖果屋欢迎光临糖果屋'
-      url: 'https://akilar.top/'
-    - name: '张洪Heo分享设计与科技生活'
-      url: 'https://blog.zhheo.com/'
-    - name: '轻笑Chunckle漫天倾尘,风中轻笑'
-      url: 'https://www.qcqx.cn'
-    - name: '安知鱼`Blog生活明朗，万物可爱'
-      url: 'https://blog.anheyu.com/'
-    - name: 'Ariasakaの小窝人有悲欢离合 月有阴晴圆缺'
-      url: 'https://blog.yaria.top'
-    - name: 'Eurkon不只是代码的搬运工'
-      url: 'https://blog.eurkon.com/'
-    - name: '小冰博客做个有梦想的人！'
-      url: 'https://zfe.space/'
-    - name: '小康博客一个收藏回忆与分享技术的地方！'
-      url: 'https://www.antmoe.com/'
-    - name: 'Leonus进一寸有进一寸的欢喜。'
-      url: 'https://blog.leonus.cn/'
-    - name: '九九九感冒绫这是我的梦想,我会慢慢的完成它'
-      url: 'https://www.miku-39.cn/'
-    - name: '生活倒影这是一个 Vue2 Vue3 与 SpringBoot 结合的产物～'
-      url: 'https://poetize.cn'
-    - name: '呆鱼Hello World！'
-      url: 'https://daiyu.fun/'
-    - name: 'LiynwEvery little helps.'
-      url: 'https://blog.liynw.top'
-    - name: 'Kloudy ShapeStay Hungry, Stay Foolish'
-      url: 'https://shape.kloudy.cn/'
-    - name: 'MqyGalaxy|Blog爱好 ACG 的温馨小窝'
-      url: 'https://blog.moeqy.com/'
-    - name: 'LyShark - 孤风洗剑道，可道，非常道；名，可名，非常名。—— 老子《道德经》'
-      url: 'https://www.lyshark.com'
-    - name: '小吉崽汁の窝A programmer of vegetable chicken'
-      url: 'https://wuxingzzz.top'
-    - name: '道宣的窝欢迎来到道宣的温暖小窝'
-      url: 'https://daoxuan.cc/'
-    - name: '爱吃肉的猫有肉有猫有生活.'
-      url: 'https://meuicat.com/'
-    - name: '半方池水半方田技术分享及生活分享'
-      url: 'https://uuanqin.top/'
-    - name: '虎了吧唧研墨成浆，提笔思量'
-      url: 'https://hulebaji.me'
-    - name: '铭心石刻愿岁并谢，与友长兮'
-      url: 'https://blog.kouseki.cn/'
-    - name: 'Qeem阿巴阿巴…'
-      url: 'http://itstarqeem.space'
-    - name: 'baofeng年年有风，风吹年年，慢慢即漫漫'
-      url: 'https://blog.bao-feng.top'
-    - name: 'Blog | Monkey-PaPa采用前端vue2和后端Python技术实习的个人博客前后台系统'
-      url: 'http://www.blog.zjh2002.icu'
-    - name: '胡桃木实验室胡桃木的笔记分享小站'
-      url: 'https://www.htmacg.cn/'
-    - name: '浅小兮の梦从相遇的刹那开始就注定了别离！'
-      url: 'https://zxwlove.xyz'
-    - name: '四夕'
-      url: 'https://www.sixi-blog.cn/'
-    - name: 'zwlong6'
-      url: 'https://blog.zzzero.site'
-    - name: '益友'
-      url: 'https://www.yiyou.bj.cn'
-    - name: 'lin'
-      url: 'http://linmohan.fun'
-    - name: '绾秋'
-      url: 'https://www.gx.gx.cn/'
-    - name: 'June'
-      url: 'https://blog.june-pj.cn/'
-    - name: 'Cream薄荷糖'
-      url: 'https://www.creammint.cn/'
-    - name: 'Beerlee'
-      url: 'http://blog.beerlee.cn'
+    - name: "Akilarの糖果屋欢迎光临糖果屋"
+      url: "https://akilar.top/"
+    - name: "张洪Heo分享设计与科技生活"
+      url: "https://blog.zhheo.com/"
+    - name: "轻笑Chunckle漫天倾尘,风中轻笑"
+      url: "https://www.qcqx.cn"
+    - name: "安知鱼`Blog生活明朗，万物可爱"
+      url: "https://blog.anheyu.com/"
+    - name: "Ariasakaの小窝人有悲欢离合 月有阴晴圆缺"
+      url: "https://blog.yaria.top"
+    - name: "Eurkon不只是代码的搬运工"
+      url: "https://blog.eurkon.com/"
+    - name: "小冰博客做个有梦想的人！"
+      url: "https://zfe.space/"
+    - name: "小康博客一个收藏回忆与分享技术的地方！"
+      url: "https://www.antmoe.com/"
+    - name: "Leonus进一寸有进一寸的欢喜。"
+      url: "https://blog.leonus.cn/"
+    - name: "九九九感冒绫这是我的梦想,我会慢慢的完成它"
+      url: "https://www.miku-39.cn/"
+    - name: "生活倒影这是一个 Vue2 Vue3 与 SpringBoot 结合的产物～"
+      url: "https://poetize.cn"
+    - name: "呆鱼Hello World！"
+      url: "https://daiyu.fun/"
+    - name: "LiynwEvery little helps."
+      url: "https://blog.liynw.top"
+    - name: "Kloudy ShapeStay Hungry, Stay Foolish"
+      url: "https://shape.kloudy.cn/"
+    - name: "MqyGalaxy|Blog爱好 ACG 的温馨小窝"
+      url: "https://blog.moeqy.com/"
+    - name: "LyShark - 孤风洗剑道，可道，非常道；名，可名，非常名。—— 老子《道德经》"
+      url: "https://www.lyshark.com"
+    - name: "小吉崽汁の窝A programmer of vegetable chicken"
+      url: "https://wuxingzzz.top"
+    - name: "道宣的窝欢迎来到道宣的温暖小窝"
+      url: "https://daoxuan.cc/"
+    - name: "爱吃肉的猫有肉有猫有生活."
+      url: "https://meuicat.com/"
+    - name: "半方池水半方田技术分享及生活分享"
+      url: "https://uuanqin.top/"
+    - name: "虎了吧唧研墨成浆，提笔思量"
+      url: "https://hulebaji.me"
+    - name: "铭心石刻愿岁并谢，与友长兮"
+      url: "https://blog.kouseki.cn/"
+    - name: "Qeem阿巴阿巴…"
+      url: "http://itstarqeem.space"
+    - name: "baofeng年年有风，风吹年年，慢慢即漫漫"
+      url: "https://blog.bao-feng.top"
+    - name: "Blog | Monkey-PaPa采用前端vue2和后端Python技术实习的个人博客前后台系统"
+      url: "http://www.blog.zjh2002.icu"
+    - name: "胡桃木实验室胡桃木的笔记分享小站"
+      url: "https://www.htmacg.cn/"
+    - name: "浅小兮の梦从相遇的刹那开始就注定了别离！"
+      url: "https://zxwlove.xyz"
+    - name: "四夕"
+      url: "https://www.sixi-blog.cn/"
+    - name: "zwlong6"
+      url: "https://blog.zzzero.site"
+    - name: "益友"
+      url: "https://www.yiyou.bj.cn"
+    - name: "lin"
+      url: "http://linmohan.fun"
+    - name: "绾秋"
+      url: "https://www.gx.gx.cn/"
+    - name: "June"
+      url: "https://blog.june-pj.cn/"
+    - name: "Cream薄荷糖"
+      url: "https://www.creammint.cn/"
+    - name: "Beerlee"
+      url: "http://blog.beerlee.cn"

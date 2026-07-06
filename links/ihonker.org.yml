@@ -1,16 +1,16 @@
 site:
-  name: 'ihonker.org'
-  url: 'https://www.ihonker.org/'
-  description: '友情链接'
-  links: '/'
+  name: "ihonker.org"
+  url: "https://www.ihonker.org/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: '态势感知中心'
-      url: 'https://attck.ihonker.com/'
-    - name: '应急响应中心'
-      url: 'https://src.ihonker.com'
-    - name: 'Hedysx'
-      url: 'https://www.hedysx.com/'
-    - name: '漏洞银行'
-      url: 'https://bugbank.cn/'
-    - name: '破晓团队'
-      url: 'http://www.secbug.org/'
+    - name: "态势感知中心"
+      url: "https://attck.ihonker.com/"
+    - name: "应急响应中心"
+      url: "https://src.ihonker.com"
+    - name: "Hedysx"
+      url: "https://www.hedysx.com/"
+    - name: "漏洞银行"
+      url: "https://bugbank.cn/"
+    - name: "破晓团队"
+      url: "http://www.secbug.org/"

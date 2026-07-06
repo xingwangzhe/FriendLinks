@@ -1,12 +1,12 @@
 site:
-  name: 'blog.llma.dev'
-  url: 'https://blog.llma.dev/'
-  description: '友情链接'
-  links: '/friend-links'
+  name: "blog.llma.dev"
+  url: "https://blog.llma.dev/"
+  description: "友情链接"
+  links: "/friend-links"
   friends:
-    - name: 'Keritial 一个平淡的个体.'
-      url: 'https://krtl.top'
-    - name: 'lhz07''s Blog Explicit is better than implicit, but readability also counts.'
-      url: 'https://lhz07.com'
-    - name: 'Shikochin 自愚可悖的庸人。'
-      url: 'https://shikoch.in/'
+    - name: "Keritial 一个平淡的个体."
+      url: "https://krtl.top"
+    - name: "lhz07's Blog Explicit is better than implicit, but readability also counts."
+      url: "https://lhz07.com"
+    - name: "Shikochin 自愚可悖的庸人。"
+      url: "https://shikoch.in/"

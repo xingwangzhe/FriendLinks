@@ -1,12 +1,12 @@
 site:
-  name: 'hop.ie'
-  url: 'http://hop.ie/'
-  description: '友情链接'
-  links: '/about'
+  name: "hop.ie"
+  url: "http://hop.ie/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: 'CSS Animation'
-      url: 'https://cssanimation.rocks'
-    - name: 'Get Started With Dev'
-      url: 'https://getstartedwith.dev'
-    - name: 'shopping site for Ireland'
-      url: 'https://www.shopireland.ie'
+    - name: "CSS Animation"
+      url: "https://cssanimation.rocks"
+    - name: "Get Started With Dev"
+      url: "https://getstartedwith.dev"
+    - name: "shopping site for Ireland"
+      url: "https://www.shopireland.ie"

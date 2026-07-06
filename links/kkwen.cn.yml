@@ -1,12 +1,12 @@
 site:
-  name: 'kkwen.cn'
-  url: 'https://www.kkwen.cn/'
-  description: '友情链接'
-  links: '/links'
+  name: "kkwen.cn"
+  url: "https://www.kkwen.cn/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '吴昊博客 IT技术分享、wlnmp安装包开发作者'
-      url: 'https://blog.whsir.com'
-    - name: '朱双印博客 Ansible教程出神入化'
-      url: 'https://www.zsythink.net/'
-    - name: '圣杰博客 运维牛人'
-      url: 'http://www.shengjietalk.com'
+    - name: "吴昊博客 IT技术分享、wlnmp安装包开发作者"
+      url: "https://blog.whsir.com"
+    - name: "朱双印博客 Ansible教程出神入化"
+      url: "https://www.zsythink.net/"
+    - name: "圣杰博客 运维牛人"
+      url: "http://www.shengjietalk.com"

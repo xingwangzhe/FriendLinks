@@ -1,144 +1,144 @@
 site:
-  name: '懋和道人'
-  description: '李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。'
-  url: 'https://blog.dao.js.cn/'
-  links: '/link'
+  name: "懋和道人"
+  description: "李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。"
+  url: "https://blog.dao.js.cn/"
+  links: "/link"
   friends:
-    - name: '米集网站分类'
-      url: 'https://www.m-ji.com/'
-    - name: '初然忆'
-      url: 'https://www.imcry.vip/'
-    - name: '晓蓝'
-      url: 'https://002.hk/'
-    - name: 'Chongxiの咖啡屋'
-      url: 'https://xice.cx/'
-    - name: 'Xuan''s blog'
-      url: 'https://blog.ybyq.wang/'
-    - name: '小野博客'
-      url: 'https://lb5.net/'
-    - name: '阿涛の小破站'
-      url: 'https://emohe.cn/'
-    - name: '朱小呆'
-      url: 'https://zhujay.com/'
-    - name: '木头堆栈'
-      url: 'https://blog.kamt.cn/'
-    - name: '新锐博客'
-      url: 'https://blog.xrbk.cn/'
-    - name: '恐怖屋'
-      url: 'https://www.kongbuwu.com/'
-    - name: '允赫先森''sBlog'
-      url: 'https://www.3v.hk/'
-    - name: '子夜歌'
-      url: 'https://blog.ziyege.com/'
-    - name: '烧饼博客'
-      url: 'https://u.sb/'
-    - name: '落花雨记'
-      url: 'https://www.luohuayu.cn/'
-    - name: '寒夏摸鱼站'
-      url: 'https://blog.rainiar.top/'
-    - name: '記緒漂流'
-      url: 'https://ttio.cc/'
-    - name: '呓语梦轩'
-      url: 'https://blog.awaae001.top/'
-    - name: '云端的解构者'
-      url: 'https://www.zheep.top/'
-    - name: '清酒踏月'
-      url: 'https://bk.kx.ms/'
-    - name: '李锋镝的博客'
-      url: 'https://www.lifengdi.com/'
-    - name: '手里有只毛毛虫'
-      url: 'https://www.krjojo.com/'
-    - name: '绘星里'
-      url: 'https://blog.storia.ren/'
-    - name: '枋柚梓'
-      url: 'https://inkss.cn/'
-    - name: '哈喽！林墨白'
-      url: 'https://blog.lmb.blue/'
-    - name: 'Limitz''s SPACE'
-      url: 'https://limitz.top/'
-    - name: 'ElysiumStack'
-      url: 'https://blog.elysium-stack.cn/'
-    - name: '姓王者的博客'
-      url: 'https://xingwangzhe.fun/'
-    - name: '李梓菡'
-      url: 'https://www.zihan.show/'
-    - name: '皮皮社'
-      url: 'https://www.pipishe.com/'
-    - name: '小聂的窝'
-      url: 'http://xiaonie.me/'
-    - name: '华夏文明中枢府'
-      url: 'https://www.hxwmzsf.com/'
-    - name: '张洪Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: '似水流年'
-      url: 'https://www.wangjunwei.com/'
-    - name: '香菇社长'
-      url: 'https://siitake.cn/'
-    - name: 'Mikuの次行星'
-      url: 'https://blog.sotkg.com/'
-    - name: '极简黑白'
-      url: 'https://www.zhaoxuze.com/'
-    - name: '星辰日记'
-      url: 'https://blog.xsot.cn/'
-    - name: '孤影墨香'
-      url: 'https://www.gymxbl.com/'
-    - name: 'Oyiso''s Blog'
-      url: 'https://oyiso.cn/'
-    - name: '远梦博客'
-      url: 'https://blog.0er.cn'
-    - name: '星空小站'
-      url: 'https://www.m78.co/'
-    - name: '钧言极客'
-      url: 'https://www.jinjun.top'
-    - name: '倾城于你'
-      url: 'https://qninq.cn/'
-    - name: '星辰博客'
-      url: 'https://blog.starchen.top/'
-    - name: '天书'
-      url: 'https://www.skybook.vip/'
-    - name: '鸿威的森林'
-      url: 'https://www.xiehongwei.cn/'
-    - name: '残浔的小窝'
-      url: 'https://www.uquq.cn/'
-    - name: '瀚海星辰'
-      url: 'https://www.imuu.cn/'
-    - name: '泠泫凝的异次元空间'
-      url: 'https://lxnchan.cn/'
-    - name: '陶小桃Blog'
-      url: 'https://www.52txr.cn/'
-    - name: '悫绮錄'
-      url: 'https://i.duckxu.com/'
-    - name: '拾柒'
-      url: 'https://www.s17.cn/'
-    - name: '葱苓语畔'
-      url: 'https://blog.ciraos.top/'
-    - name: '阿飞博客'
-      url: 'https://www.liaao.cn/'
-    - name: '寒士杰克'
-      url: 'https://www.hansjack.com/'
-    - name: 'q2019的小站'
-      url: 'https://www.q2019.com/'
-    - name: '吹比'
-      url: 'https://chuibi.com/'
-    - name: 'ZYYO笔记'
-      url: 'https://zyyo.net/'
-    - name: '纸鹿摸鱼处'
-      url: 'https://blog.zhilu.site/'
-    - name: 'Ariasakaの小窝'
-      url: 'https://blog.yaria.top/'
-    - name: '核桃小屋'
-      url: 'https://www.htaoo.com/'
-    - name: 'I''m WhiteBear'
-      url: 'https://whitebear.im/'
-    - name: 'MuXiaoChen'
-      url: 'https://miraii.cn/'
-    - name: '茨见手扎'
-      url: 'https://www.oatse.com/'
-    - name: '清羽飞扬'
-      url: 'https://blog.liushen.fun/'
-    - name: 'LineXic书屋'
-      url: 'http://www.linexic.top/'
-    - name: 'Honesty'
-      url: 'http://blog.hehouhui.cn/'
-    - name: '华立博客'
-      url: 'https://www.renhuali.cn/'
+    - name: "米集网站分类"
+      url: "https://www.m-ji.com/"
+    - name: "初然忆"
+      url: "https://www.imcry.vip/"
+    - name: "晓蓝"
+      url: "https://002.hk/"
+    - name: "Chongxiの咖啡屋"
+      url: "https://xice.cx/"
+    - name: "Xuan's blog"
+      url: "https://blog.ybyq.wang/"
+    - name: "小野博客"
+      url: "https://lb5.net/"
+    - name: "阿涛の小破站"
+      url: "https://emohe.cn/"
+    - name: "朱小呆"
+      url: "https://zhujay.com/"
+    - name: "木头堆栈"
+      url: "https://blog.kamt.cn/"
+    - name: "新锐博客"
+      url: "https://blog.xrbk.cn/"
+    - name: "恐怖屋"
+      url: "https://www.kongbuwu.com/"
+    - name: "允赫先森'sBlog"
+      url: "https://www.3v.hk/"
+    - name: "子夜歌"
+      url: "https://blog.ziyege.com/"
+    - name: "烧饼博客"
+      url: "https://u.sb/"
+    - name: "落花雨记"
+      url: "https://www.luohuayu.cn/"
+    - name: "寒夏摸鱼站"
+      url: "https://blog.rainiar.top/"
+    - name: "記緒漂流"
+      url: "https://ttio.cc/"
+    - name: "呓语梦轩"
+      url: "https://blog.awaae001.top/"
+    - name: "云端的解构者"
+      url: "https://www.zheep.top/"
+    - name: "清酒踏月"
+      url: "https://bk.kx.ms/"
+    - name: "李锋镝的博客"
+      url: "https://www.lifengdi.com/"
+    - name: "手里有只毛毛虫"
+      url: "https://www.krjojo.com/"
+    - name: "绘星里"
+      url: "https://blog.storia.ren/"
+    - name: "枋柚梓"
+      url: "https://inkss.cn/"
+    - name: "哈喽！林墨白"
+      url: "https://blog.lmb.blue/"
+    - name: "Limitz's SPACE"
+      url: "https://limitz.top/"
+    - name: "ElysiumStack"
+      url: "https://blog.elysium-stack.cn/"
+    - name: "姓王者的博客"
+      url: "https://xingwangzhe.fun/"
+    - name: "李梓菡"
+      url: "https://www.zihan.show/"
+    - name: "皮皮社"
+      url: "https://www.pipishe.com/"
+    - name: "小聂的窝"
+      url: "http://xiaonie.me/"
+    - name: "华夏文明中枢府"
+      url: "https://www.hxwmzsf.com/"
+    - name: "张洪Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "似水流年"
+      url: "https://www.wangjunwei.com/"
+    - name: "香菇社长"
+      url: "https://siitake.cn/"
+    - name: "Mikuの次行星"
+      url: "https://blog.sotkg.com/"
+    - name: "极简黑白"
+      url: "https://www.zhaoxuze.com/"
+    - name: "星辰日记"
+      url: "https://blog.xsot.cn/"
+    - name: "孤影墨香"
+      url: "https://www.gymxbl.com/"
+    - name: "Oyiso's Blog"
+      url: "https://oyiso.cn/"
+    - name: "远梦博客"
+      url: "https://blog.0er.cn"
+    - name: "星空小站"
+      url: "https://www.m78.co/"
+    - name: "钧言极客"
+      url: "https://www.jinjun.top"
+    - name: "倾城于你"
+      url: "https://qninq.cn/"
+    - name: "星辰博客"
+      url: "https://blog.starchen.top/"
+    - name: "天书"
+      url: "https://www.skybook.vip/"
+    - name: "鸿威的森林"
+      url: "https://www.xiehongwei.cn/"
+    - name: "残浔的小窝"
+      url: "https://www.uquq.cn/"
+    - name: "瀚海星辰"
+      url: "https://www.imuu.cn/"
+    - name: "泠泫凝的异次元空间"
+      url: "https://lxnchan.cn/"
+    - name: "陶小桃Blog"
+      url: "https://www.52txr.cn/"
+    - name: "悫绮錄"
+      url: "https://i.duckxu.com/"
+    - name: "拾柒"
+      url: "https://www.s17.cn/"
+    - name: "葱苓语畔"
+      url: "https://blog.ciraos.top/"
+    - name: "阿飞博客"
+      url: "https://www.liaao.cn/"
+    - name: "寒士杰克"
+      url: "https://www.hansjack.com/"
+    - name: "q2019的小站"
+      url: "https://www.q2019.com/"
+    - name: "吹比"
+      url: "https://chuibi.com/"
+    - name: "ZYYO笔记"
+      url: "https://zyyo.net/"
+    - name: "纸鹿摸鱼处"
+      url: "https://blog.zhilu.site/"
+    - name: "Ariasakaの小窝"
+      url: "https://blog.yaria.top/"
+    - name: "核桃小屋"
+      url: "https://www.htaoo.com/"
+    - name: "I'm WhiteBear"
+      url: "https://whitebear.im/"
+    - name: "MuXiaoChen"
+      url: "https://miraii.cn/"
+    - name: "茨见手扎"
+      url: "https://www.oatse.com/"
+    - name: "清羽飞扬"
+      url: "https://blog.liushen.fun/"
+    - name: "LineXic书屋"
+      url: "http://www.linexic.top/"
+    - name: "Honesty"
+      url: "http://blog.hehouhui.cn/"
+    - name: "华立博客"
+      url: "https://www.renhuali.cn/"

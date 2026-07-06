@@ -1,10 +1,10 @@
 site:
-  name: 'ayou.info'
-  url: 'http://ayou.info/'
-  description: '友情链接'
-  links: '/link'
+  name: "ayou.info"
+  url: "http://ayou.info/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: '大葱博客'
-      url: 'https://blog.zzzdc.com'
-    - name: '解析几何'
-      url: 'http://www.elivers.com/'
+    - name: "大葱博客"
+      url: "https://blog.zzzdc.com"
+    - name: "解析几何"
+      url: "http://www.elivers.com/"

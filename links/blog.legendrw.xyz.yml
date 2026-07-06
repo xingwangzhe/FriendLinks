@@ -1,12 +1,12 @@
 site:
-  name: 'blog.legendrw.xyz'
-  url: 'https://blog.legendrw.xyz/'
-  description: '友情链接'
-  links: '/friend'
+  name: "blog.legendrw.xyz"
+  url: "https://blog.legendrw.xyz/"
+  description: "友情链接"
+  links: "/friend"
   friends:
-    - name: 'bbb-lsy07''s Blog'
-      url: 'https://blog.tsoo.net'
-    - name: 'solstice23''s Blog'
-      url: 'https://archive-blog.s23.moe/'
-    - name: 'superuser''s Blog'
-      url: 'https://blog.superuser.tech/'
+    - name: "bbb-lsy07's Blog"
+      url: "https://blog.tsoo.net"
+    - name: "solstice23's Blog"
+      url: "https://archive-blog.s23.moe/"
+    - name: "superuser's Blog"
+      url: "https://blog.superuser.tech/"

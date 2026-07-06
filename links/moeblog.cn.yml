@@ -1,10 +1,10 @@
 site:
-  name: 'moeblog.cn'
-  url: 'https://moeblog.cn/'
-  description: '友情链接'
-  links: '/'
+  name: "moeblog.cn"
+  url: "https://moeblog.cn/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Moedog'
-      url: 'https://moedog.org'
-    - name: 'Vtrois'
-      url: 'https://www.vtrois.com'
+    - name: "Moedog"
+      url: "https://moedog.org"
+    - name: "Vtrois"
+      url: "https://www.vtrois.com"

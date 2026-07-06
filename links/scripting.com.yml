@@ -1,14 +1,14 @@
 site:
-  name: 'scripting.com'
-  url: 'http://scripting.com/'
-  description: '友情链接'
-  links: '/'
+  name: "scripting.com"
+  url: "http://scripting.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'micro.blog'
-      url: 'https://micro.blog/'
-    - name: 'textcasting'
-      url: 'https://textcasting.org/'
-    - name: 'WordLand'
-      url: 'https://wordland.social/'
-    - name: 'Perplexity'
-      url: 'https://www.perplexity.ai/'
+    - name: "micro.blog"
+      url: "https://micro.blog/"
+    - name: "textcasting"
+      url: "https://textcasting.org/"
+    - name: "WordLand"
+      url: "https://wordland.social/"
+    - name: "Perplexity"
+      url: "https://www.perplexity.ai/"

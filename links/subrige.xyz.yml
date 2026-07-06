@@ -1,12 +1,12 @@
 site:
-  name: 'subrige.xyz'
-  url: 'https://subrige.xyz/'
-  description: '友情链接'
-  links: '/friends'
+  name: "subrige.xyz"
+  url: "https://subrige.xyz/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'mes ames'
-      url: 'https://moi-mo.github.io'
-    - name: 'Velas电波站'
-      url: 'https://velasx.com'
-    - name: 'Zero Calorie Drink Shop'
-      url: 'https://lhcfl.github.io'
+    - name: "mes ames"
+      url: "https://moi-mo.github.io"
+    - name: "Velas电波站"
+      url: "https://velasx.com"
+    - name: "Zero Calorie Drink Shop"
+      url: "https://lhcfl.github.io"

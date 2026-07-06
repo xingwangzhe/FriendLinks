@@ -1,8 +1,8 @@
 site:
-  name: 'drcabana.org'
-  url: 'https://drcabana.org/'
-  description: '友情链接'
-  links: '/about'
+  name: "drcabana.org"
+  url: "https://drcabana.org/"
+  description: "友情链接"
+  links: "/about"
   friends:
     - name: '$\KaTeX$'
-      url: 'https://katex.org/'
+      url: "https://katex.org/"

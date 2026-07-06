@@ -1,14 +1,14 @@
 site:
-  name: 'rmasoni.com'
-  url: 'https://rmasoni.com/'
-  description: '友情链接'
-  links: '/about'
+  name: "rmasoni.com"
+  url: "https://rmasoni.com/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: 'Pathfinder: Kingmaker'
-      url: 'https://kingmaker.owlcatgames.com/'
-    - name: 'Pillars of Eternity'
-      url: 'https://eternity.obsidian.net/'
-    - name: 'Path of Exile 2'
-      url: 'https://pathofexile2.com'
-    - name: 'Final Fantasy XIV'
-      url: 'http://web.finalfantasyxiv.com'
+    - name: "Pathfinder: Kingmaker"
+      url: "https://kingmaker.owlcatgames.com/"
+    - name: "Pillars of Eternity"
+      url: "https://eternity.obsidian.net/"
+    - name: "Path of Exile 2"
+      url: "https://pathofexile2.com"
+    - name: "Final Fantasy XIV"
+      url: "http://web.finalfantasyxiv.com"

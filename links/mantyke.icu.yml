@@ -1,82 +1,82 @@
 site:
-  name: 'mantyke.icu'
-  url: 'https://mantyke.icu/'
-  description: '友情链接'
-  links: '/about'
+  name: "mantyke.icu"
+  url: "https://mantyke.icu/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: '一片积雪地'
-      url: 'https://hugo-three-snowy.vercel.app/'
-    - name: '眠于水月间'
-      url: 'https://www.sleepymoon.cyou/'
-    - name: '旧都日记'
-      url: 'https://rei.eterfinal.ink/'
-    - name: '一片痴心俱成灰'
-      url: 'https://akaito.xyz/'
-    - name: '花好月园'
-      url: 'https://hhyy.homes/'
-    - name: '春天与阿修罗'
-      url: 'https://harushuura.vip/'
-    - name: '狐狸反走矣'
-      url: 'https://blog.southfox.me/'
-    - name: '谢谢所有的鱼'
-      url: 'https://gregueria.icu/'
-    - name: '松茸乐园'
-      url: 'https://alecareuticec.top/'
-    - name: '咖啡冰河'
-      url: 'https://blog.mysto.cyou/'
-    - name: '晷影空间站'
-      url: 'https://kageji.blog/'
-    - name: '漫游者某某号'
-      url: 'https://notion-next-six-henna.vercel.app/'
-    - name: '纸糖织猫'
-      url: 'https://brsu.me/'
-    - name: '椒盐豆豉'
-      url: 'https://blog.douchi.space/'
-    - name: '次世嘉平'
-      url: 'https://jiapingplus.icu/'
-    - name: '第三夏尔'
-      url: 'https://thirdshire.com/'
-    - name: '毛毛的朋友'
-      url: 'https://hugo-git-main-natherie.vercel.app/'
-    - name: '深海鱼拒绝触礁'
-      url: 'https://trails-of-isara.vercel.app/'
-    - name: '休洗红'
-      url: 'https://ineternallineswe.live/'
-    - name: 'Mengru的空间'
-      url: 'https://mengru.space/'
-    - name: '咕噜咕庐'
-      url: 'https://blog.gulugulurave.com/'
-    - name: '知识源于■累'
-      url: 'https://www.tapiokataro.icu/'
-    - name: '一支咏叹调'
-      url: 'https://turquoise.one/'
-    - name: '锁麟囊'
-      url: 'https://www.kylinbag.top'
-    - name: '捡石头'
-      url: 'https://mineral.wraith615.xyz/'
-    - name: '皮裂魂奔'
-      url: 'https://hauntedblog.pages.dev/'
-    - name: 'Asphyxia.'
-      url: 'https://tantalum.life/'
-    - name: 'Seviche.cc'
-      url: 'https://sevic.me'
-    - name: 'Ashsilent Planet'
-      url: 'https://www.ashsilent.com/'
-    - name: 'suica'
-      url: 'https://suicablog.cobaltkiss.blue/'
-    - name: 'A Purrception'
-      url: 'https://tortie.me/'
-    - name: 'Pieris’ Archive'
-      url: 'https://archive.pieris05.com/'
-    - name: 'Morikka’s Blog'
-      url: 'https://morikka.me/#blog'
-    - name: 'Plaskier'
-      url: 'https://plaskier.vercel.app/'
-    - name: 'Muko'
-      url: 'https://hugo-mukokka.vercel.app/'
-    - name: 'Nise'
-      url: 'https://blog.wraith615.xyz/'
-    - name: 'Sbeam.dev'
-      url: 'https://sbeam.dev/'
-    - name: 'Middle of Nowhere'
-      url: 'https://notes.midofnowhere.link/'
+    - name: "一片积雪地"
+      url: "https://hugo-three-snowy.vercel.app/"
+    - name: "眠于水月间"
+      url: "https://www.sleepymoon.cyou/"
+    - name: "旧都日记"
+      url: "https://rei.eterfinal.ink/"
+    - name: "一片痴心俱成灰"
+      url: "https://akaito.xyz/"
+    - name: "花好月园"
+      url: "https://hhyy.homes/"
+    - name: "春天与阿修罗"
+      url: "https://harushuura.vip/"
+    - name: "狐狸反走矣"
+      url: "https://blog.southfox.me/"
+    - name: "谢谢所有的鱼"
+      url: "https://gregueria.icu/"
+    - name: "松茸乐园"
+      url: "https://alecareuticec.top/"
+    - name: "咖啡冰河"
+      url: "https://blog.mysto.cyou/"
+    - name: "晷影空间站"
+      url: "https://kageji.blog/"
+    - name: "漫游者某某号"
+      url: "https://notion-next-six-henna.vercel.app/"
+    - name: "纸糖织猫"
+      url: "https://brsu.me/"
+    - name: "椒盐豆豉"
+      url: "https://blog.douchi.space/"
+    - name: "次世嘉平"
+      url: "https://jiapingplus.icu/"
+    - name: "第三夏尔"
+      url: "https://thirdshire.com/"
+    - name: "毛毛的朋友"
+      url: "https://hugo-git-main-natherie.vercel.app/"
+    - name: "深海鱼拒绝触礁"
+      url: "https://trails-of-isara.vercel.app/"
+    - name: "休洗红"
+      url: "https://ineternallineswe.live/"
+    - name: "Mengru的空间"
+      url: "https://mengru.space/"
+    - name: "咕噜咕庐"
+      url: "https://blog.gulugulurave.com/"
+    - name: "知识源于■累"
+      url: "https://www.tapiokataro.icu/"
+    - name: "一支咏叹调"
+      url: "https://turquoise.one/"
+    - name: "锁麟囊"
+      url: "https://www.kylinbag.top"
+    - name: "捡石头"
+      url: "https://mineral.wraith615.xyz/"
+    - name: "皮裂魂奔"
+      url: "https://hauntedblog.pages.dev/"
+    - name: "Asphyxia."
+      url: "https://tantalum.life/"
+    - name: "Seviche.cc"
+      url: "https://sevic.me"
+    - name: "Ashsilent Planet"
+      url: "https://www.ashsilent.com/"
+    - name: "suica"
+      url: "https://suicablog.cobaltkiss.blue/"
+    - name: "A Purrception"
+      url: "https://tortie.me/"
+    - name: "Pieris’ Archive"
+      url: "https://archive.pieris05.com/"
+    - name: "Morikka’s Blog"
+      url: "https://morikka.me/#blog"
+    - name: "Plaskier"
+      url: "https://plaskier.vercel.app/"
+    - name: "Muko"
+      url: "https://hugo-mukokka.vercel.app/"
+    - name: "Nise"
+      url: "https://blog.wraith615.xyz/"
+    - name: "Sbeam.dev"
+      url: "https://sbeam.dev/"
+    - name: "Middle of Nowhere"
+      url: "https://notes.midofnowhere.link/"

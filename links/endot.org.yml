@@ -1,8 +1,8 @@
 site:
-  name: 'endot.org'
-  url: 'http://endot.org/'
-  description: '友情链接'
-  links: '/'
+  name: "endot.org"
+  url: "http://endot.org/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Octopress'
-      url: 'http://octopress.org/'
+    - name: "Octopress"
+      url: "http://octopress.org/"

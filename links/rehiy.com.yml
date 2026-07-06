@@ -1,58 +1,58 @@
 site:
-  name: 'rehiy.com'
-  url: 'https://www.rehiy.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "rehiy.com"
+  url: "https://www.rehiy.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '雄安host 寄语：一个来自北部的求知少年'
-      url: 'https://www.xiongan.host'
-    - name: 'Anyeの小站 寄语：Always Nurturing Your Enthusiasm'
-      url: 'https://www.anye.xyz'
-    - name: '好玩的先生 寄语：玩就是正义，发现好玩的事情'
-      url: 'https://hwd.cc'
-    - name: '农学网 寄语：书山有路勤为径'
-      url: 'https://nongxue.top/'
-    - name: '轩灵博客 寄语：一个专注互联网技术分享的个人独立博客。'
-      url: 'https://blog.wenfxl.com'
-    - name: '熊 寄语：长江边的程序员 标签：TDP 群'
-      url: 'https://www.yangtzecoder.com'
-    - name: '跑路博客 寄语：道可道，非常道。'
-      url: 'https://paolu.host/'
-    - name: '山河の世界 寄语：一个神秘的人'
-      url: 'https://blog.shanriver.top'
-    - name: '青阳の blog 寄语：一个计算机爱好者的个人博客 标签：TDP 群'
-      url: 'https://www.hipyt.cn'
-    - name: '与你 寄语：AYW 与你所愿 标签：TDP 群'
-      url: 'https://www.yn68.cn'
-    - name: '小飞说 寄语：在静脉与代码的河流之间'
-      url: 'https://xfsay.com/'
-    - name: 'Kerring 寄语：资深前后端程序媛 标签：PHP、JS'
-      url: 'https://kerring.me'
-    - name: '唯爱日记 寄语：一个互联网日记 标签：DNSPod 群'
-      url: 'https://www.vi520.cn/'
-    - name: '墨客博客 寄语：这个家伙很懒 标签：TDP 群'
-      url: 'https://blog.accmu.cn/'
-    - name: '鼠子Blog 寄语：鼠子ShuShuicu的互联网笔记，记录一些有用的知识。'
-      url: 'https://blog.miomoe.cn/'
-    - name: '墨轩博客 寄语：云游四方'
-      url: 'https://hercat.cn/'
-    - name: '归去如风 寄语：一个自由自在的互联网民工 标签：DNSPod 群'
-      url: 'https://r2wind.cn/'
-    - name: '佳明 寄语：前世多少次回眸，今世才变成对眼 标签：DNSPod 群'
-      url: 'https://博客.佳明.cn'
-    - name: 'Smilinghan 寄语：一个啥也不懂的学生，正在敲着键盘！'
-      url: 'https://nihaotang.com'
-    - name: 'Wxory 寄语：自由追逐，勇敢而赤诚 标签：TDP 群'
-      url: 'https://wxory.com/'
-    - name: '昏黎站 寄语：年轻多做点cool的事！'
-      url: 'https://hunli.100w.top/'
-    - name: '树梢的阳光 寄语：一介咸鱼 标签：TDP 群'
-      url: 'https://www.9kr.cc/'
-    - name: '天渺studio 寄语：天渺studio的小站&日常记录。'
-      url: 'https://tianmiao.site'
-    - name: '慕阳博客 寄语：一个神秘高手的纯技术干货分享'
-      url: 'https://blog.muyoung.com'
-    - name: '吃猫的鱼 寄语：一个在提升自我的博客！'
-      url: 'https://www.fish9.cn'
-    - name: '小慧博客 寄语：一个技术博客'
-      url: 'https://www.itxiaohui.top'
+    - name: "雄安host 寄语：一个来自北部的求知少年"
+      url: "https://www.xiongan.host"
+    - name: "Anyeの小站 寄语：Always Nurturing Your Enthusiasm"
+      url: "https://www.anye.xyz"
+    - name: "好玩的先生 寄语：玩就是正义，发现好玩的事情"
+      url: "https://hwd.cc"
+    - name: "农学网 寄语：书山有路勤为径"
+      url: "https://nongxue.top/"
+    - name: "轩灵博客 寄语：一个专注互联网技术分享的个人独立博客。"
+      url: "https://blog.wenfxl.com"
+    - name: "熊 寄语：长江边的程序员 标签：TDP 群"
+      url: "https://www.yangtzecoder.com"
+    - name: "跑路博客 寄语：道可道，非常道。"
+      url: "https://paolu.host/"
+    - name: "山河の世界 寄语：一个神秘的人"
+      url: "https://blog.shanriver.top"
+    - name: "青阳の blog 寄语：一个计算机爱好者的个人博客 标签：TDP 群"
+      url: "https://www.hipyt.cn"
+    - name: "与你 寄语：AYW 与你所愿 标签：TDP 群"
+      url: "https://www.yn68.cn"
+    - name: "小飞说 寄语：在静脉与代码的河流之间"
+      url: "https://xfsay.com/"
+    - name: "Kerring 寄语：资深前后端程序媛 标签：PHP、JS"
+      url: "https://kerring.me"
+    - name: "唯爱日记 寄语：一个互联网日记 标签：DNSPod 群"
+      url: "https://www.vi520.cn/"
+    - name: "墨客博客 寄语：这个家伙很懒 标签：TDP 群"
+      url: "https://blog.accmu.cn/"
+    - name: "鼠子Blog 寄语：鼠子ShuShuicu的互联网笔记，记录一些有用的知识。"
+      url: "https://blog.miomoe.cn/"
+    - name: "墨轩博客 寄语：云游四方"
+      url: "https://hercat.cn/"
+    - name: "归去如风 寄语：一个自由自在的互联网民工 标签：DNSPod 群"
+      url: "https://r2wind.cn/"
+    - name: "佳明 寄语：前世多少次回眸，今世才变成对眼 标签：DNSPod 群"
+      url: "https://博客.佳明.cn"
+    - name: "Smilinghan 寄语：一个啥也不懂的学生，正在敲着键盘！"
+      url: "https://nihaotang.com"
+    - name: "Wxory 寄语：自由追逐，勇敢而赤诚 标签：TDP 群"
+      url: "https://wxory.com/"
+    - name: "昏黎站 寄语：年轻多做点cool的事！"
+      url: "https://hunli.100w.top/"
+    - name: "树梢的阳光 寄语：一介咸鱼 标签：TDP 群"
+      url: "https://www.9kr.cc/"
+    - name: "天渺studio 寄语：天渺studio的小站&日常记录。"
+      url: "https://tianmiao.site"
+    - name: "慕阳博客 寄语：一个神秘高手的纯技术干货分享"
+      url: "https://blog.muyoung.com"
+    - name: "吃猫的鱼 寄语：一个在提升自我的博客！"
+      url: "https://www.fish9.cn"
+    - name: "小慧博客 寄语：一个技术博客"
+      url: "https://www.itxiaohui.top"

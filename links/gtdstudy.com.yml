@@ -1,14 +1,14 @@
 site:
-  name: 'gtdstudy.com'
-  url: 'https://gtdstudy.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "gtdstudy.com"
+  url: "https://gtdstudy.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '见字如面'
-      url: 'https://hiwannz.com/'
-    - name: '黄杰敏的博客'
-      url: 'https://www.jiemin.com/'
-    - name: 'EXEC'
-      url: 'https://evex.one/'
-    - name: 'Dayu'
-      url: 'https://anotherdayu.com/'
+    - name: "见字如面"
+      url: "https://hiwannz.com/"
+    - name: "黄杰敏的博客"
+      url: "https://www.jiemin.com/"
+    - name: "EXEC"
+      url: "https://evex.one/"
+    - name: "Dayu"
+      url: "https://anotherdayu.com/"

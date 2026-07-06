@@ -1,20 +1,20 @@
 site:
-  name: 'quantum5.ca'
-  url: 'https://quantum5.ca/'
-  description: '友情链接'
-  links: '/'
+  name: "quantum5.ca"
+  url: "https://quantum5.ca/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Ontario Internet Exchange'
-      url: 'https://onix.cx/'
-    - name: 'TorIX'
-      url: 'https://torix.ca/'
-    - name: 'Hurricane Electric'
-      url: 'https://he.net/'
-    - name: 'Ollama'
-      url: 'https://ollama.com/'
-    - name: 'Flightradar24'
-      url: 'https://www.flightradar24.com/'
-    - name: 'FlightAware'
-      url: 'https://www.flightaware.com/'
-    - name: 'DMOJ'
-      url: 'https://dmoj.ca'
+    - name: "Ontario Internet Exchange"
+      url: "https://onix.cx/"
+    - name: "TorIX"
+      url: "https://torix.ca/"
+    - name: "Hurricane Electric"
+      url: "https://he.net/"
+    - name: "Ollama"
+      url: "https://ollama.com/"
+    - name: "Flightradar24"
+      url: "https://www.flightradar24.com/"
+    - name: "FlightAware"
+      url: "https://www.flightaware.com/"
+    - name: "DMOJ"
+      url: "https://dmoj.ca"

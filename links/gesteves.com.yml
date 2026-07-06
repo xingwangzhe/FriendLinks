@@ -1,12 +1,12 @@
 site:
-  name: 'gesteves.com'
-  url: 'https://www.gesteves.com/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "gesteves.com"
+  url: "https://www.gesteves.com/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: 'Given to Tri'
-      url: 'https://www.giventotri.com/'
-    - name: 'Render'
-      url: 'https://render.com/'
-    - name: 'Pinky G’s'
-      url: 'https://pinkygs.com/'
+    - name: "Given to Tri"
+      url: "https://www.giventotri.com/"
+    - name: "Render"
+      url: "https://render.com/"
+    - name: "Pinky G’s"
+      url: "https://pinkygs.com/"

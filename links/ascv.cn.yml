@@ -1,12 +1,12 @@
 site:
-  name: 'ascv.cn'
-  url: 'https://www.ascv.cn/'
-  description: '友情链接'
-  links: '/'
+  name: "ascv.cn"
+  url: "https://www.ascv.cn/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: '傲绝博客'
-      url: 'https://www.qqij.cn/'
-    - name: '聚合登录'
-      url: 'https://auth.qqij.cn'
-    - name: 'ChatGPT'
-      url: 'https://jsd2305.live'
+    - name: "傲绝博客"
+      url: "https://www.qqij.cn/"
+    - name: "聚合登录"
+      url: "https://auth.qqij.cn"
+    - name: "ChatGPT"
+      url: "https://jsd2305.live"

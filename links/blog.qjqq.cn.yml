@@ -1,92 +1,92 @@
 site:
-  name: '青桔气球'
-  url: 'https://blog.qjqq.cn/'
-  description: '欢迎来到青桔气球，这是一个专注于网络安全和科技生活分享的网站。在青桔气球上，您可以找到关于WordPress、Hexo、Typecho等平台的详细教程。'
-  links: '/links'
+  name: "青桔气球"
+  url: "https://blog.qjqq.cn/"
+  description: "欢迎来到青桔气球，这是一个专注于网络安全和科技生活分享的网站。在青桔气球上，您可以找到关于WordPress、Hexo、Typecho等平台的详细教程。"
+  links: "/links"
   friends:
-    - name: '首页'
-      url: 'https://blog.anheyu.com/'
-    - name: '张洪Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: 'Leonus'
-      url: 'https://blog.leonus.cn/'
-    - name: '铭心石刻'
-      url: 'https://blog.kouseki.cn/'
-    - name: '杜老师说'
-      url: 'https://dusays.com/'
-    - name: '前尘小筑'
-      url: 'https://mnchen.cn/'
-    - name: '嗨👋～ 这里是Ganzhe'
-      url: 'https://ganzhe2028.github.io/'
-    - name: '葱苓小筑'
-      url: 'https://blog.ciraos.top/'
-    - name: '喜欢捣鼓的博主'
-      url: 'https://kunkunyu.com/'
-    - name: '小植同学'
-      url: 'https://blog.xiaoztx.top/'
-    - name: 'Mxne'
-      url: 'https://blog.mxne.cn/'
-    - name: '爱吃肉的猫'
-      url: 'https://meuicat.com/'
-    - name: '萌傀儡'
-      url: 'https://blhorizon.github.io/'
-    - name: 'Fgaoxing'
-      url: 'https://www.yt-blog.top/'
-    - name: 'Roozen的小破站'
-      url: 'https://roozen.top/'
-    - name: 'Dale 的花园 ^_^'
-      url: 'https://www.dalechu.cn/'
-    - name: '闪闪の小窝'
-      url: 'https://moechun.fun/'
-    - name: '冰火之砺'
-      url: 'https://blog.marice.top/'
-    - name: '参星阁'
-      url: 'https://blog.cancin.cn/'
-    - name: 'HiPeach'
-      url: 'https://blog.opeach.cn/'
-    - name: 'SNTube Studio'
-      url: 'https://satera.cn/'
-    - name: '❖星港◎Star☆'
-      url: 'https://blog.starsharbor.com/'
-    - name: '微霞'
-      url: 'https://yuuu.org/'
-    - name: '文轩夜话'
-      url: 'https://blog.awaae001.top/'
-    - name: 'LiuShen's Blog'
-      url: 'https://blog.liushen.fun/'
-    - name: 'June's Blog'
-      url: 'https://blog.june-pj.cn/'
-    - name: 'Calyee`Blog'
-      url: 'https://blog.calyee.top/'
-    - name: '御枫林下的小窝~'
-      url: 'https://agen233.top/'
-    - name: '梦爱吃鱼'
-      url: 'https://blog.bsgun.cn/'
-    - name: 'jipa.moe'
-      url: 'https://jipa.moe/'
-    - name: '首页'
-      url: 'https://blog.elykia.cn/'
-    - name: 'XingJiのBlog'
-      url: 'https://love.xingji.fun/'
-    - name: 'Imz'
-      url: 'https://blog.imz.me/'
-    - name: '栖童の小站'
-      url: 'https://blog.linux-qitong.top/'
-    - name: '奥梁'
-      url: 'https://www.aokaoka.top/'
-    - name: '钧言极客'
-      url: 'https://www.jinjun.top/'
-    - name: 'RE Blog'
-      url: 'https://blog.randench.cn/'
-    - name: 'Home'
-      url: 'https://cworld0.com/'
-    - name: '陵长镜的小博客'
-      url: 'https://r1n.top/'
-    - name: '汐塔魔法屋 迁移通知'
-      url: 'https://blog.sinzmise.top/'
-    - name: '王嘉祥'
-      url: 'https://blog.jiaxiang.wang/'
-    - name: '新锐博客'
-      url: 'https://www.xrbk.cn/'
-    - name: '首页'
-      url: 'https://boringbay.com/'
+    - name: "首页"
+      url: "https://blog.anheyu.com/"
+    - name: "张洪Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "Leonus"
+      url: "https://blog.leonus.cn/"
+    - name: "铭心石刻"
+      url: "https://blog.kouseki.cn/"
+    - name: "杜老师说"
+      url: "https://dusays.com/"
+    - name: "前尘小筑"
+      url: "https://mnchen.cn/"
+    - name: "嗨👋～ 这里是Ganzhe"
+      url: "https://ganzhe2028.github.io/"
+    - name: "葱苓小筑"
+      url: "https://blog.ciraos.top/"
+    - name: "喜欢捣鼓的博主"
+      url: "https://kunkunyu.com/"
+    - name: "小植同学"
+      url: "https://blog.xiaoztx.top/"
+    - name: "Mxne"
+      url: "https://blog.mxne.cn/"
+    - name: "爱吃肉的猫"
+      url: "https://meuicat.com/"
+    - name: "萌傀儡"
+      url: "https://blhorizon.github.io/"
+    - name: "Fgaoxing"
+      url: "https://www.yt-blog.top/"
+    - name: "Roozen的小破站"
+      url: "https://roozen.top/"
+    - name: "Dale 的花园 ^_^"
+      url: "https://www.dalechu.cn/"
+    - name: "闪闪の小窝"
+      url: "https://moechun.fun/"
+    - name: "冰火之砺"
+      url: "https://blog.marice.top/"
+    - name: "参星阁"
+      url: "https://blog.cancin.cn/"
+    - name: "HiPeach"
+      url: "https://blog.opeach.cn/"
+    - name: "SNTube Studio"
+      url: "https://satera.cn/"
+    - name: "❖星港◎Star☆"
+      url: "https://blog.starsharbor.com/"
+    - name: "微霞"
+      url: "https://yuuu.org/"
+    - name: "文轩夜话"
+      url: "https://blog.awaae001.top/"
+    - name: "LiuShen's Blog"
+      url: "https://blog.liushen.fun/"
+    - name: "June's Blog"
+      url: "https://blog.june-pj.cn/"
+    - name: "Calyee`Blog"
+      url: "https://blog.calyee.top/"
+    - name: "御枫林下的小窝~"
+      url: "https://agen233.top/"
+    - name: "梦爱吃鱼"
+      url: "https://blog.bsgun.cn/"
+    - name: "jipa.moe"
+      url: "https://jipa.moe/"
+    - name: "首页"
+      url: "https://blog.elykia.cn/"
+    - name: "XingJiのBlog"
+      url: "https://love.xingji.fun/"
+    - name: "Imz"
+      url: "https://blog.imz.me/"
+    - name: "栖童の小站"
+      url: "https://blog.linux-qitong.top/"
+    - name: "奥梁"
+      url: "https://www.aokaoka.top/"
+    - name: "钧言极客"
+      url: "https://www.jinjun.top/"
+    - name: "RE Blog"
+      url: "https://blog.randench.cn/"
+    - name: "Home"
+      url: "https://cworld0.com/"
+    - name: "陵长镜的小博客"
+      url: "https://r1n.top/"
+    - name: "汐塔魔法屋 迁移通知"
+      url: "https://blog.sinzmise.top/"
+    - name: "王嘉祥"
+      url: "https://blog.jiaxiang.wang/"
+    - name: "新锐博客"
+      url: "https://www.xrbk.cn/"
+    - name: "首页"
+      url: "https://boringbay.com/"

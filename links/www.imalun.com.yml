@@ -1,20 +1,20 @@
 site:
-  name: '首页'
-  url: 'https://www.imalun.com/'
-  description: '这里是白云苍狗的小站，记录着一些日常、作品、笔记、小工具。'
-  links: '/links'
+  name: "首页"
+  url: "https://www.imalun.com/"
+  description: "这里是白云苍狗的小站，记录着一些日常、作品、笔记、小工具。"
+  links: "/links"
   friends:
-    - name: 'Bensz'
-      url: 'https://blognas.hwb0307.com/'
-    - name: '爱吃肉的猫'
-      url: 'https://meuicat.com/'
-    - name: '❖星港◎Star☆'
-      url: 'https://blog.starsharbor.com/'
-    - name: 'Hexo'
-      url: 'https://blog.offends.cn/'
-    - name: '有余'
-      url: 'https://dongping.link/'
-    - name: 'XIN's Blog | 前端开发 | Vue.js & JavaScript 技术分享'
-      url: 'https://www.konoxin.top/'
-    - name: '笔墨迹'
-      url: 'https://blogscn.fun/'
+    - name: "Bensz"
+      url: "https://blognas.hwb0307.com/"
+    - name: "爱吃肉的猫"
+      url: "https://meuicat.com/"
+    - name: "❖星港◎Star☆"
+      url: "https://blog.starsharbor.com/"
+    - name: "Hexo"
+      url: "https://blog.offends.cn/"
+    - name: "有余"
+      url: "https://dongping.link/"
+    - name: "XIN's Blog | 前端开发 | Vue.js & JavaScript 技术分享"
+      url: "https://www.konoxin.top/"
+    - name: "笔墨迹"
+      url: "https://blogscn.fun/"

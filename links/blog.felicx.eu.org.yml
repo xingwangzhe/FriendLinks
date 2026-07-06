@@ -1,10 +1,10 @@
 site:
-  name: 'blog.felicx.eu.org'
-  url: 'https://blog.felicx.eu.org/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.felicx.eu.org"
+  url: "https://blog.felicx.eu.org/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Travelling'
-      url: 'https://www.travellings.cn/go.html'
-    - name: 'HomePage'
-      url: 'https://felicx.eu.org/'
+    - name: "Travelling"
+      url: "https://www.travellings.cn/go.html"
+    - name: "HomePage"
+      url: "https://felicx.eu.org/"

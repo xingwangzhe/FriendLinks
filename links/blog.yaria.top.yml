@@ -1,136 +1,136 @@
 site:
-  name: 'Ariasakaの小窝'
-  url: 'https://blog.yaria.top/'
-  description: 'Ariasakaの小窝'
-  links: '/links'
+  name: "Ariasakaの小窝"
+  url: "https://blog.yaria.top/"
+  description: "Ariasakaの小窝"
+  links: "/links"
   friends:
-    - name: '张洪Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: '小冰博客'
-      url: 'https://zfe.space/'
-    - name: '贰猹の小窝'
-      url: 'https://noionion.top/'
-    - name: '青桔气球'
-      url: 'https://blog.qjqq.cn/'
-    - name: '首页'
-      url: 'https://blog.anheyu.com/'
-    - name: '抱歉，此网站维护中'
-      url: 'https://blog.redish101.top/'
-    - name: '山岳库博'
-      url: 'https://kmar.top/'
-    - name: '杜老师说'
-      url: 'https://dusays.com/'
-    - name: 'CyanFalse's HomeRegion'
-      url: 'https://blog.eurekac.cn/'
-    - name: 'Leonus'
-      url: 'https://blog.leonus.cn/'
-    - name: 'Tianli's Blog'
-      url: 'https://blog.tianli0.top/'
-    - name: '懋和道人-李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。'
-      url: 'https://www.dao.js.cn/'
-    - name: '首页'
-      url: 'https://blog.sfkm.me/'
-    - name: '梦溯·镜影'
-      url: 'https://yumetsuki.moe/'
-    - name: 'Fgaoxing'
-      url: 'https://www.yt-blog.top/'
-    - name: '煮雪话河山'
-      url: 'https://blog.cent1pedee.top/'
-    - name: 'June's Blog'
-      url: 'https://blog.june-pj.cn/'
-    - name: 'LiuShen's Blog'
-      url: 'https://blog.liushen.fun/'
-    - name: '葱苓小筑'
-      url: 'https://blog.ciraos.top/'
-    - name: 'Pinpe的云端'
-      url: 'https://pinpe.top/'
-    - name: '微霞'
-      url: 'https://yuuu.org/'
-    - name: '花生莲子粥の小窝'
-      url: 'https://blog.hslzz.cn/'
-    - name: 'ANXYの小窝'
-      url: 'https://blog.anxy.top/'
-    - name: '前尘小筑'
-      url: 'https://mnchen.cn/'
-    - name: '埃氮幂の命名空间'
-      url: 'https://blog.qyadbr.top/'
-    - name: '边缘矩阵'
-      url: 'https://android99.com/'
-    - name: '栖童の小站'
-      url: 'https://blog.linux-qitong.top/'
-    - name: '咕咕云梦泽'
-      url: 'https://blog.pai233.top/'
-    - name: 'DreamyTZK'
-      url: 'https://www.antmoe.com/'
-    - name: 'HiPeach'
-      url: 'https://blog.opeach.cn/'
-    - name: '咖啡豆子coffee的小站'
-      url: 'https://blog.kfdzcoffee.cn/'
-    - name: 'Dale 的花园 ^_^'
-      url: 'https://www.dalechu.cn/'
-    - name: 'MyBlog = MqyGalaxy'
-      url: 'https://blog.moeqy.com/'
-    - name: '追梦幻境·霞阴云之都'
-      url: 'https://hexo.dreamerhe.cn/'
-    - name: 'Mycpen'
-      url: 'https://blog.cpen.top/'
-    - name: '繁華如夢'
-      url: 'https://holyghostf.github.io/'
-    - name: 'tinsir888s hjemmeside'
-      url: 'https://tinsir888.github.io/'
-    - name: '参星阁'
-      url: 'https://gavin-chen.top/'
-    - name: 'ichikaの小窝'
-      url: 'https://ichika.cc/'
-    - name: 'Mxne'
-      url: 'https://blog.mxne.cn/'
-    - name: '铭心石刻'
-      url: 'https://blog.kouseki.cn/'
-    - name: 'LyShark®'
-      url: 'https://www.lyshark.com/'
-    - name: '竹山一叶'
-      url: 'https://zsyyblog.com/'
-    - name: 'Bensz'
-      url: 'https://blognas.hwb0307.com/'
-    - name: '定の栈'
-      url: 'https://saop.cc/'
-    - name: '洛屿的小站'
-      url: 'https://www.drluo.top/'
-    - name: '满心记关于页内容完善说明'
-      url: 'https://blog.lovelu.top/'
-    - name: 'Fomalhaut🥝'
-      url: 'https://www.fomal.cc/'
-    - name: '网络提示'
-      url: 'https://www.hydsb0.com/'
-    - name: '包子哟'
-      url: 'https://blog.bugjava.cn/'
-    - name: '张时贰'
-      url: 'https://zhsher.cn/'
-    - name: '未知之旅'
-      url: 'https://blog.xenosp.cn/'
-    - name: '狼林鱼池'
-      url: 'https://blog.jiyu134.top/'
-    - name: 'CC的部落格'
-      url: 'https://blog.ccknbc.cc/'
-    - name: '墨韵先知'
-      url: 'https://www.htmacg.cn/'
-    - name: 'The Blog of Monoceros406'
-      url: 'https://monoceros406.github.io/'
-    - name: '星辰博客'
-      url: 'https://blog.starchen.top/'
-    - name: 'Evilrabbit Blog'
-      url: 'https://blog.yujiay.wang/'
-    - name: '我的小世界呀'
-      url: 'https://hanlife02.com/'
-    - name: 'ZERO开发'
-      url: 'https://www.zerofc.cn/'
-    - name: 'VnYzm的博客'
-      url: 'https://vnyzm.top/'
-    - name: 'AirTouchの小站'
-      url: 'https://www.xsl.im/'
-    - name: 'Ldyer'
-      url: 'https://ldyer.top/'
-    - name: '一隅雨雪一炉窝'
-      url: 'https://iamyukino.cn/'
-    - name: '常想一二，不思八九'
-      url: 'https://even629.com/'
+    - name: "张洪Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "小冰博客"
+      url: "https://zfe.space/"
+    - name: "贰猹の小窝"
+      url: "https://noionion.top/"
+    - name: "青桔气球"
+      url: "https://blog.qjqq.cn/"
+    - name: "首页"
+      url: "https://blog.anheyu.com/"
+    - name: "抱歉，此网站维护中"
+      url: "https://blog.redish101.top/"
+    - name: "山岳库博"
+      url: "https://kmar.top/"
+    - name: "杜老师说"
+      url: "https://dusays.com/"
+    - name: "CyanFalse's HomeRegion"
+      url: "https://blog.eurekac.cn/"
+    - name: "Leonus"
+      url: "https://blog.leonus.cn/"
+    - name: "Tianli's Blog"
+      url: "https://blog.tianli0.top/"
+    - name: "懋和道人-李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。"
+      url: "https://www.dao.js.cn/"
+    - name: "首页"
+      url: "https://blog.sfkm.me/"
+    - name: "梦溯·镜影"
+      url: "https://yumetsuki.moe/"
+    - name: "Fgaoxing"
+      url: "https://www.yt-blog.top/"
+    - name: "煮雪话河山"
+      url: "https://blog.cent1pedee.top/"
+    - name: "June's Blog"
+      url: "https://blog.june-pj.cn/"
+    - name: "LiuShen's Blog"
+      url: "https://blog.liushen.fun/"
+    - name: "葱苓小筑"
+      url: "https://blog.ciraos.top/"
+    - name: "Pinpe的云端"
+      url: "https://pinpe.top/"
+    - name: "微霞"
+      url: "https://yuuu.org/"
+    - name: "花生莲子粥の小窝"
+      url: "https://blog.hslzz.cn/"
+    - name: "ANXYの小窝"
+      url: "https://blog.anxy.top/"
+    - name: "前尘小筑"
+      url: "https://mnchen.cn/"
+    - name: "埃氮幂の命名空间"
+      url: "https://blog.qyadbr.top/"
+    - name: "边缘矩阵"
+      url: "https://android99.com/"
+    - name: "栖童の小站"
+      url: "https://blog.linux-qitong.top/"
+    - name: "咕咕云梦泽"
+      url: "https://blog.pai233.top/"
+    - name: "DreamyTZK"
+      url: "https://www.antmoe.com/"
+    - name: "HiPeach"
+      url: "https://blog.opeach.cn/"
+    - name: "咖啡豆子coffee的小站"
+      url: "https://blog.kfdzcoffee.cn/"
+    - name: "Dale 的花园 ^_^"
+      url: "https://www.dalechu.cn/"
+    - name: "MyBlog = MqyGalaxy"
+      url: "https://blog.moeqy.com/"
+    - name: "追梦幻境·霞阴云之都"
+      url: "https://hexo.dreamerhe.cn/"
+    - name: "Mycpen"
+      url: "https://blog.cpen.top/"
+    - name: "繁華如夢"
+      url: "https://holyghostf.github.io/"
+    - name: "tinsir888s hjemmeside"
+      url: "https://tinsir888.github.io/"
+    - name: "参星阁"
+      url: "https://gavin-chen.top/"
+    - name: "ichikaの小窝"
+      url: "https://ichika.cc/"
+    - name: "Mxne"
+      url: "https://blog.mxne.cn/"
+    - name: "铭心石刻"
+      url: "https://blog.kouseki.cn/"
+    - name: "LyShark®"
+      url: "https://www.lyshark.com/"
+    - name: "竹山一叶"
+      url: "https://zsyyblog.com/"
+    - name: "Bensz"
+      url: "https://blognas.hwb0307.com/"
+    - name: "定の栈"
+      url: "https://saop.cc/"
+    - name: "洛屿的小站"
+      url: "https://www.drluo.top/"
+    - name: "满心记关于页内容完善说明"
+      url: "https://blog.lovelu.top/"
+    - name: "Fomalhaut🥝"
+      url: "https://www.fomal.cc/"
+    - name: "网络提示"
+      url: "https://www.hydsb0.com/"
+    - name: "包子哟"
+      url: "https://blog.bugjava.cn/"
+    - name: "张时贰"
+      url: "https://zhsher.cn/"
+    - name: "未知之旅"
+      url: "https://blog.xenosp.cn/"
+    - name: "狼林鱼池"
+      url: "https://blog.jiyu134.top/"
+    - name: "CC的部落格"
+      url: "https://blog.ccknbc.cc/"
+    - name: "墨韵先知"
+      url: "https://www.htmacg.cn/"
+    - name: "The Blog of Monoceros406"
+      url: "https://monoceros406.github.io/"
+    - name: "星辰博客"
+      url: "https://blog.starchen.top/"
+    - name: "Evilrabbit Blog"
+      url: "https://blog.yujiay.wang/"
+    - name: "我的小世界呀"
+      url: "https://hanlife02.com/"
+    - name: "ZERO开发"
+      url: "https://www.zerofc.cn/"
+    - name: "VnYzm的博客"
+      url: "https://vnyzm.top/"
+    - name: "AirTouchの小站"
+      url: "https://www.xsl.im/"
+    - name: "Ldyer"
+      url: "https://ldyer.top/"
+    - name: "一隅雨雪一炉窝"
+      url: "https://iamyukino.cn/"
+    - name: "常想一二，不思八九"
+      url: "https://even629.com/"

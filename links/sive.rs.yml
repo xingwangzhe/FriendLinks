@@ -1,12 +1,12 @@
 site:
-  name: 'sive.rs'
-  url: 'https://sive.rs/'
-  description: '友情链接'
-  links: '/'
+  name: "sive.rs"
+  url: "https://sive.rs/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Author'
-      url: 'https://sivers.com/'
-    - name: 'MusicThoughts'
-      url: 'https://musicthoughts.com/'
-    - name: 'Substack dereksivers.org'
-      url: 'https://www.dereksivers.org/'
+    - name: "Author"
+      url: "https://sivers.com/"
+    - name: "MusicThoughts"
+      url: "https://musicthoughts.com/"
+    - name: "Substack dereksivers.org"
+      url: "https://www.dereksivers.org/"

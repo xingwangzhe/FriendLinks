@@ -1,26 +1,26 @@
 site:
-  name: 'tendcode.com'
-  url: 'https://tendcode.com/'
-  description: '友情链接'
-  links: '/friend'
+  name: "tendcode.com"
+  url: "https://tendcode.com/"
+  description: "友情链接"
+  links: "/friend"
   friends:
-    - name: '基于Flask开发的博客，Python开源项目...'
-      url: 'https://frostming.com'
-    - name: 'Jerry的个人博客，使用Django开发，分...'
-      url: 'https://www.jerrycoding.com'
-    - name: '人生五十年，如梦亦如幻'
-      url: 'https://my.toho.red'
-    - name: 'Java+Vue自建博客，前后端分离，工作问题...'
-      url: 'https://wanglingyue.com'
-    - name: '专注于为读者提供有趣和实用的技术文章。'
-      url: 'https://www.ifb.me'
-    - name: 'flask 搭建的博客，python 技术文章'
-      url: 'https://www.h3blog.com'
-    - name: '但知行好事，莫要问前程'
-      url: 'https://www.anjhon.top'
-    - name: '散落一些碎花，凝结一些轻痕'
-      url: 'https://blog.viper3.top'
-    - name: '循此苦旅，以达星辰'
-      url: 'https://wcowin.work'
-    - name: '写下思考，等待时间回答'
-      url: 'https://www.dearom.com'
+    - name: "基于Flask开发的博客，Python开源项目..."
+      url: "https://frostming.com"
+    - name: "Jerry的个人博客，使用Django开发，分..."
+      url: "https://www.jerrycoding.com"
+    - name: "人生五十年，如梦亦如幻"
+      url: "https://my.toho.red"
+    - name: "Java+Vue自建博客，前后端分离，工作问题..."
+      url: "https://wanglingyue.com"
+    - name: "专注于为读者提供有趣和实用的技术文章。"
+      url: "https://www.ifb.me"
+    - name: "flask 搭建的博客，python 技术文章"
+      url: "https://www.h3blog.com"
+    - name: "但知行好事，莫要问前程"
+      url: "https://www.anjhon.top"
+    - name: "散落一些碎花，凝结一些轻痕"
+      url: "https://blog.viper3.top"
+    - name: "循此苦旅，以达星辰"
+      url: "https://wcowin.work"
+    - name: "写下思考，等待时间回答"
+      url: "https://www.dearom.com"

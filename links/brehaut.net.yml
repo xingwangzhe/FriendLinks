@@ -1,12 +1,12 @@
 site:
-  name: 'brehaut.net'
-  url: 'https://brehaut.net/'
-  description: '友情链接'
-  links: '/'
+  name: "brehaut.net"
+  url: "https://brehaut.net/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Picat'
-      url: 'https://picat-lang.org'
-    - name: 'SWI Prolog'
-      url: 'https://www.swi-prolog.org'
-    - name: 'Scryer Prolog'
-      url: 'https://www.scryer.pl'
+    - name: "Picat"
+      url: "https://picat-lang.org"
+    - name: "SWI Prolog"
+      url: "https://www.swi-prolog.org"
+    - name: "Scryer Prolog"
+      url: "https://www.scryer.pl"

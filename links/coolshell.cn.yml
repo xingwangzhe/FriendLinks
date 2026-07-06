@@ -1,16 +1,16 @@
 site:
-  name: 'coolshell.cn'
-  url: 'https://coolshell.cn/'
-  description: '友情链接'
-  links: '/'
+  name: "coolshell.cn"
+  url: "https://coolshell.cn/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Secure Scuttlebutt'
-      url: 'https://scuttlebutt.nz/'
-    - name: '四火的唠叨'
-      url: 'http://www.raychase.net/'
-    - name: 'C++爱好者博客'
-      url: 'http://www.cppfans.org/'
-    - name: 'ACMer'
-      url: 'https://HelloACM.com/'
-    - name: 'Falguni Desai'
-      url: 'http://www.falgunidesai.com/'
+    - name: "Secure Scuttlebutt"
+      url: "https://scuttlebutt.nz/"
+    - name: "四火的唠叨"
+      url: "http://www.raychase.net/"
+    - name: "C++爱好者博客"
+      url: "http://www.cppfans.org/"
+    - name: "ACMer"
+      url: "https://HelloACM.com/"
+    - name: "Falguni Desai"
+      url: "http://www.falgunidesai.com/"

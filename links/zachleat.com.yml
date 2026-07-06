@@ -1,10 +1,10 @@
 site:
-  name: 'zachleat.com'
-  url: 'https://www.zachleat.com/'
-  description: '友情链接'
-  links: '/'
+  name: "zachleat.com"
+  url: "https://www.zachleat.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'NEJS CONF'
-      url: 'http://nejsconf.com/'
-    - name: 'NebraskaJS'
-      url: 'http://nebraskajs.com'
+    - name: "NEJS CONF"
+      url: "http://nejsconf.com/"
+    - name: "NebraskaJS"
+      url: "http://nebraskajs.com"

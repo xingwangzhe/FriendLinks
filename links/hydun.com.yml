@@ -1,14 +1,14 @@
 site:
-  name: 'hydun.com'
-  url: 'https://hydun.com/'
-  description: '友情链接'
-  links: '/friend/link'
+  name: "hydun.com"
+  url: "https://hydun.com/"
+  description: "友情链接"
+  links: "/friend/link"
   friends:
-    - name: '蓝屏工作室'
-      url: 'https://cnstlapy.cn'
-    - name: '7iNet'
-      url: 'https://www.7inet.moe'
-    - name: 'iMin博客'
-      url: 'https://www.iminbk.com/'
-    - name: '用户反馈群-微信'
-      url: 'https://sidebar.scrm.cnstlapy.cn/#/groupCode?id=1901973469919318016'
+    - name: "蓝屏工作室"
+      url: "https://cnstlapy.cn"
+    - name: "7iNet"
+      url: "https://www.7inet.moe"
+    - name: "iMin博客"
+      url: "https://www.iminbk.com/"
+    - name: "用户反馈群-微信"
+      url: "https://sidebar.scrm.cnstlapy.cn/#/groupCode?id=1901973469919318016"

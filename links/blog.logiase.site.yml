@@ -1,12 +1,12 @@
 site:
-  name: 'blog.logiase.site'
-  url: 'https://blog.logiase.site/'
-  description: '友情链接'
-  links: '/'
+  name: "blog.logiase.site"
+  url: "https://blog.logiase.site/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Learn Grav'
-      url: 'http://learn.getgrav.org'
-    - name: 'Grav'
-      url: 'https://getgrav.org'
-    - name: 'Trilby Media'
-      url: 'https://trilby.media'
+    - name: "Learn Grav"
+      url: "http://learn.getgrav.org"
+    - name: "Grav"
+      url: "https://getgrav.org"
+    - name: "Trilby Media"
+      url: "https://trilby.media"

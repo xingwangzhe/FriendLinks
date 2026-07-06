@@ -1,14 +1,14 @@
 site:
-  name: 'ip5.me'
-  url: 'https://www.ip5.me/'
-  description: '友情链接'
-  links: '/'
+  name: "ip5.me"
+  url: "https://www.ip5.me/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: '街景地图'
-      url: 'https://www.earthol.org/'
-    - name: '推特搜索'
-      url: 'https://tui.xun.me/'
-    - name: 'Tiktok搜索'
-      url: 'https://tiktok.xun.me/'
-    - name: '经纬度查询'
-      url: 'https://xy.xun.me/'
+    - name: "街景地图"
+      url: "https://www.earthol.org/"
+    - name: "推特搜索"
+      url: "https://tui.xun.me/"
+    - name: "Tiktok搜索"
+      url: "https://tiktok.xun.me/"
+    - name: "经纬度查询"
+      url: "https://xy.xun.me/"

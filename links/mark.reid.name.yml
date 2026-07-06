@@ -1,10 +1,10 @@
 site:
-  name: 'mark.reid.name'
-  url: 'http://mark.reid.name/'
-  description: '友情链接'
-  links: '/'
+  name: "mark.reid.name"
+  url: "http://mark.reid.name/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Bandcamp'
-      url: 'https://markreid.bandcamp.com'
-    - name: 'NICTA'
-      url: 'http://nicta.com.au'
+    - name: "Bandcamp"
+      url: "https://markreid.bandcamp.com"
+    - name: "NICTA"
+      url: "http://nicta.com.au"

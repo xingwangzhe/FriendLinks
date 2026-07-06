@@ -1,14 +1,14 @@
 site:
-  name: 'clojureforscience.novonon.com'
-  url: 'https://clojureforscience.novonon.com/'
-  description: '友情链接'
-  links: '/'
+  name: "clojureforscience.novonon.com"
+  url: "https://clojureforscience.novonon.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'World Resources Institute'
-      url: 'http://wri.org'
-    - name: 'Global Forest Watch'
-      url: 'http://www.globalforestwatch.org/'
-    - name: 'Stata'
-      url: 'http://www.stata.com/'
-    - name: 'software carpentry'
-      url: 'https://software-carpentry.org/'
+    - name: "World Resources Institute"
+      url: "http://wri.org"
+    - name: "Global Forest Watch"
+      url: "http://www.globalforestwatch.org/"
+    - name: "Stata"
+      url: "http://www.stata.com/"
+    - name: "software carpentry"
+      url: "https://software-carpentry.org/"

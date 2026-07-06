@@ -1,80 +1,80 @@
 site:
-  name: 'studyingfather.com'
-  url: 'https://studyingfather.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "studyingfather.com"
+  url: "https://studyingfather.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'NovaOJ'
-      url: 'https://noj.ac'
-    - name: 'c0per'
-      url: 'http://blog.c0per.org'
-    - name: '梦安咖啡馆'
-      url: 'http://qwq.cafe'
-    - name: 'Polarnova'
-      url: 'http://polarnova.site'
-    - name: 'woshiluo'
-      url: 'http://blog.woshiluo.com'
-    - name: 'xqmmcqs'
-      url: 'http://xqmmcqs.com'
-    - name: 'zsq001'
-      url: 'https://zsq001.cn/'
-    - name: 'Siyuan'
-      url: 'https://blog.siyuanw.cn/'
-    - name: 'wjyyy'
-      url: 'http://www.wjyyy.top/'
-    - name: 'xht37'
-      url: 'http://www.xht37.com'
-    - name: '翰林的小站 | abc1763613206'
-      url: 'https://blog.hanlin.press/'
-    - name: 'Helium'
-      url: 'https://keepthethink.github.io/'
-    - name: 'MiNa!'
-      url: 'https://www.mina.moe/'
-    - name: 'Dilute'
-      url: 'https://dilute.xyz/'
-    - name: 'Coelacanthus'
-      url: 'https://blog.coelacanthus.moe'
-    - name: 'fa_555'
-      url: 'https://fa555.github.io/'
-    - name: 'Yuuko10032'
-      url: 'https://yuuko.moe'
-    - name: 'KSkun'
-      url: 'https://ksmeow.moe/'
-    - name: 'ouuan'
-      url: 'https://ouuan.moe/'
-    - name: 'mcfx'
-      url: 'https://mcfx.us'
-    - name: 'ranwen'
-      url: 'https://ranwen.de'
-    - name: 'slanterns'
-      url: 'https://slanterns.net'
-    - name: 'foreverlasting'
-      url: 'https://foreverlasting1202.github.io/'
-    - name: 'Kokic'
-      url: 'https://kokic.github.io/'
-    - name: 'YangTY'
-      url: 'https://blog.imyangty.com/'
-    - name: 'Morgen-Kornblume'
-      url: 'https://morgen-kornblume.github.io/'
-    - name: 'abc1763613206'
-      url: 'https://ihcr.top'
-    - name: 'ChenZ01'
-      url: 'https://chenz01.github.io/'
-    - name: 'xiaohuang'
-      url: 'https://xiaohuang888.github.io/'
-    - name: 'yizr_cnyali'
-      url: 'http://yizr-cnyali.ac'
-    - name: 'QWQ'
-      url: 'https://zsq001.site'
-    - name: 'lhw'
-      url: 'https://blog.lhwcrt.top/'
-    - name: 'BoringHacker'
-      url: 'https://www.orchid-any.cf'
-    - name: 'tarjin'
-      url: 'https://ldq101.github.io/'
-    - name: 'CrispyCommand'
-      url: 'https://crispycommand.moe/'
-    - name: 'luosw'
-      url: 'http://luosw.fun'
-    - name: 'yuzijiangorz'
-      url: 'https://www.yuzijiangorz.xyz'
+    - name: "NovaOJ"
+      url: "https://noj.ac"
+    - name: "c0per"
+      url: "http://blog.c0per.org"
+    - name: "梦安咖啡馆"
+      url: "http://qwq.cafe"
+    - name: "Polarnova"
+      url: "http://polarnova.site"
+    - name: "woshiluo"
+      url: "http://blog.woshiluo.com"
+    - name: "xqmmcqs"
+      url: "http://xqmmcqs.com"
+    - name: "zsq001"
+      url: "https://zsq001.cn/"
+    - name: "Siyuan"
+      url: "https://blog.siyuanw.cn/"
+    - name: "wjyyy"
+      url: "http://www.wjyyy.top/"
+    - name: "xht37"
+      url: "http://www.xht37.com"
+    - name: "翰林的小站 | abc1763613206"
+      url: "https://blog.hanlin.press/"
+    - name: "Helium"
+      url: "https://keepthethink.github.io/"
+    - name: "MiNa!"
+      url: "https://www.mina.moe/"
+    - name: "Dilute"
+      url: "https://dilute.xyz/"
+    - name: "Coelacanthus"
+      url: "https://blog.coelacanthus.moe"
+    - name: "fa_555"
+      url: "https://fa555.github.io/"
+    - name: "Yuuko10032"
+      url: "https://yuuko.moe"
+    - name: "KSkun"
+      url: "https://ksmeow.moe/"
+    - name: "ouuan"
+      url: "https://ouuan.moe/"
+    - name: "mcfx"
+      url: "https://mcfx.us"
+    - name: "ranwen"
+      url: "https://ranwen.de"
+    - name: "slanterns"
+      url: "https://slanterns.net"
+    - name: "foreverlasting"
+      url: "https://foreverlasting1202.github.io/"
+    - name: "Kokic"
+      url: "https://kokic.github.io/"
+    - name: "YangTY"
+      url: "https://blog.imyangty.com/"
+    - name: "Morgen-Kornblume"
+      url: "https://morgen-kornblume.github.io/"
+    - name: "abc1763613206"
+      url: "https://ihcr.top"
+    - name: "ChenZ01"
+      url: "https://chenz01.github.io/"
+    - name: "xiaohuang"
+      url: "https://xiaohuang888.github.io/"
+    - name: "yizr_cnyali"
+      url: "http://yizr-cnyali.ac"
+    - name: "QWQ"
+      url: "https://zsq001.site"
+    - name: "lhw"
+      url: "https://blog.lhwcrt.top/"
+    - name: "BoringHacker"
+      url: "https://www.orchid-any.cf"
+    - name: "tarjin"
+      url: "https://ldq101.github.io/"
+    - name: "CrispyCommand"
+      url: "https://crispycommand.moe/"
+    - name: "luosw"
+      url: "http://luosw.fun"
+    - name: "yuzijiangorz"
+      url: "https://www.yuzijiangorz.xyz"

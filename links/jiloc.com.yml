@@ -1,10 +1,10 @@
 site:
-  name: 'jiloc.com'
-  url: 'https://www.jiloc.com/'
-  description: '友情链接'
-  links: '/'
+  name: "jiloc.com"
+  url: "https://www.jiloc.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: '初行博客'
-      url: 'https://www.zrj96.com/'
-    - name: '鸟哥的Linux私房菜'
-      url: 'https://linux.vbird.org/'
+    - name: "初行博客"
+      url: "https://www.zrj96.com/"
+    - name: "鸟哥的Linux私房菜"
+      url: "https://linux.vbird.org/"

@@ -1,18 +1,18 @@
 site:
-  name: 'joelonsoftware.com'
-  url: 'https://www.joelonsoftware.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "joelonsoftware.com"
+  url: "https://www.joelonsoftware.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Stack Exchange network'
-      url: 'http://stackexchange.com'
-    - name: 'Fog Creek Software'
-      url: 'http://fogcreek.com/'
-    - name: 'Trello'
-      url: 'http://trello.com'
-    - name: 'Gomix'
-      url: 'https://gomix.com/'
-    - name: 'NewsBlur'
-      url: 'https://newsblur.com/'
-    - name: 'HASH'
-      url: 'https://hash.ai/'
+    - name: "Stack Exchange network"
+      url: "http://stackexchange.com"
+    - name: "Fog Creek Software"
+      url: "http://fogcreek.com/"
+    - name: "Trello"
+      url: "http://trello.com"
+    - name: "Gomix"
+      url: "https://gomix.com/"
+    - name: "NewsBlur"
+      url: "https://newsblur.com/"
+    - name: "HASH"
+      url: "https://hash.ai/"

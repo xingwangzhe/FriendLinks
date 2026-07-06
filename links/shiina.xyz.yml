@@ -1,10 +1,10 @@
 site:
-  name: 'shiina.xyz'
-  url: 'https://shiina.xyz/'
-  description: '友情链接'
-  links: '/friends'
+  name: "shiina.xyz"
+  url: "https://shiina.xyz/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Blog'
-      url: 'https://blog.rqwq.link'
-    - name: 'Blog'
-      url: 'https://example.com'
+    - name: "Blog"
+      url: "https://blog.rqwq.link"
+    - name: "Blog"
+      url: "https://example.com"

@@ -1,14 +1,14 @@
 site:
-  name: 'dlyang.me'
-  url: 'https://dlyang.me/'
-  description: '友情链接'
-  links: '/about'
+  name: "dlyang.me"
+  url: "https://dlyang.me/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: 'Inoreader'
-      url: 'https://www.inoreader.com/'
-    - name: 'BeiYuu'
-      url: 'http://BeiYuu.com'
-    - name: 'Lattespirit'
-      url: 'https://lattespirit.github.io/'
-    - name: 'Commento'
-      url: 'https://commento.io'
+    - name: "Inoreader"
+      url: "https://www.inoreader.com/"
+    - name: "BeiYuu"
+      url: "http://BeiYuu.com"
+    - name: "Lattespirit"
+      url: "https://lattespirit.github.io/"
+    - name: "Commento"
+      url: "https://commento.io"

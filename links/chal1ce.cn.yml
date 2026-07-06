@@ -1,12 +1,12 @@
 site:
-  name: 'chal1ce.cn'
-  description: '友情链接'
-  url: 'https://chal1ce.cn/'
-  links: '/friends'
+  name: "chal1ce.cn"
+  description: "友情链接"
+  url: "https://chal1ce.cn/"
+  links: "/friends"
   friends:
-    - name: 'RisingIce专注于分享生活记录与技术文章'
-      url: 'https://imrising.cn'
-    - name: '张洪Heo分享设计与科技生活'
-      url: 'https://blog.zhheo.com/'
-    - name: 'RandomEnch施恩勿念，受恩莫忘。'
-      url: 'https://blog.randench.cn/'
+    - name: "RisingIce专注于分享生活记录与技术文章"
+      url: "https://imrising.cn"
+    - name: "张洪Heo分享设计与科技生活"
+      url: "https://blog.zhheo.com/"
+    - name: "RandomEnch施恩勿念，受恩莫忘。"
+      url: "https://blog.randench.cn/"

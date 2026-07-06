@@ -1,12 +1,12 @@
 site:
-  name: 'liangmouyin.com'
-  url: 'https://liangmouyin.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "liangmouyin.com"
+  url: "https://liangmouyin.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Cytrogen 的个人博客'
-      url: 'https://blog.cytrogen.icu/'
-    - name: '#UNTAG'
-      url: 'https://utgd.net/'
-    - name: 'Ratfactor'
-      url: 'https://ratfactor.com/'
+    - name: "Cytrogen 的个人博客"
+      url: "https://blog.cytrogen.icu/"
+    - name: "#UNTAG"
+      url: "https://utgd.net/"
+    - name: "Ratfactor"
+      url: "https://ratfactor.com/"

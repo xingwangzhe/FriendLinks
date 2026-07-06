@@ -1,14 +1,14 @@
 site:
-  name: 'blog.canmoe.com'
-  url: 'https://blog.canmoe.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.canmoe.com"
+  url: "https://blog.canmoe.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '灵心小窝 ● 所有的建造，都始于一个微不足道的念头。 “如果我能盖一座城堡”，或是“如果我能写下这个故事 Blog'
-      url: 'https://blog.mcpq.cc'
-    - name: 'Seamain’s blog ● 登峰造极，永无止境 Blog'
-      url: 'https://seamain.org'
-    - name: '白熊の小站 ● 播种与期待之歌，亦是收获与欢愉之歌。 Blog'
-      url: 'https://www.hk256.top'
-    - name: 'MaxQi的说说 ● 一个深度、自主且真实的小世界。来喝杯茶吧！ Blog'
-      url: 'https://maxqi.top'
+    - name: "灵心小窝 ● 所有的建造，都始于一个微不足道的念头。 “如果我能盖一座城堡”，或是“如果我能写下这个故事 Blog"
+      url: "https://blog.mcpq.cc"
+    - name: "Seamain’s blog ● 登峰造极，永无止境 Blog"
+      url: "https://seamain.org"
+    - name: "白熊の小站 ● 播种与期待之歌，亦是收获与欢愉之歌。 Blog"
+      url: "https://www.hk256.top"
+    - name: "MaxQi的说说 ● 一个深度、自主且真实的小世界。来喝杯茶吧！ Blog"
+      url: "https://maxqi.top"

@@ -1,32 +1,32 @@
 site:
-  name: 'Sky's Blog'
-  url: 'https://www.wanglingyue.com/'
-  description: '技术交流、java|Nuxt|vue|python|linux|chatgpt|ai|SpringBoot|springCloud、前后端知识分享'
-  links: '/links'
+  name: "Sky's Blog"
+  url: "https://www.wanglingyue.com/"
+  description: "技术交流、java|Nuxt|vue|python|linux|chatgpt|ai|SpringBoot|springCloud、前后端知识分享"
+  links: "/links"
   friends:
-    - name: '首页|OhYee 博客'
-      url: 'https://www.ohyee.cc/'
-    - name: '野宁新之助'
-      url: 'https://www.sanghangning.cn/'
-    - name: 'Tend to Code_一个使用Django搭建的个人网站，分享编程学习心得，记录工作实战经验_编程笔记_TendCo'
-      url: 'https://tendcode.com/'
-    - name: 'f2h2h1's blog'
-      url: 'https://f2h2h1.github.io/'
-    - name: '人家故里'
-      url: 'https://fx7.top/'
-    - name: 'yevpt的记录'
-      url: 'https://www.yevpt.com/'
-    - name: '牛牛技术客栈'
-      url: 'https://www.oxoxtech.com/'
-    - name: 'Java学习之道'
-      url: 'https://www.mmzsblog.cn/'
-    - name: 'Z次元'
-      url: 'https://blog.ahzoo.cn/'
-    - name: '逐暗者的麦田'
-      url: 'https://www.iasuna.com/'
-    - name: '一个精美的个人博客,记录平时的学习笔记'
-      url: 'https://www.xu69.com/'
-    - name: 'Sakun Notebook'
-      url: 'https://www.sakun.space/'
-    - name: 'Nebula Blog'
-      url: 'https://www.996icu.eu.org/'
+    - name: "首页|OhYee 博客"
+      url: "https://www.ohyee.cc/"
+    - name: "野宁新之助"
+      url: "https://www.sanghangning.cn/"
+    - name: "Tend to Code_一个使用Django搭建的个人网站，分享编程学习心得，记录工作实战经验_编程笔记_TendCo"
+      url: "https://tendcode.com/"
+    - name: "f2h2h1's blog"
+      url: "https://f2h2h1.github.io/"
+    - name: "人家故里"
+      url: "https://fx7.top/"
+    - name: "yevpt的记录"
+      url: "https://www.yevpt.com/"
+    - name: "牛牛技术客栈"
+      url: "https://www.oxoxtech.com/"
+    - name: "Java学习之道"
+      url: "https://www.mmzsblog.cn/"
+    - name: "Z次元"
+      url: "https://blog.ahzoo.cn/"
+    - name: "逐暗者的麦田"
+      url: "https://www.iasuna.com/"
+    - name: "一个精美的个人博客,记录平时的学习笔记"
+      url: "https://www.xu69.com/"
+    - name: "Sakun Notebook"
+      url: "https://www.sakun.space/"
+    - name: "Nebula Blog"
+      url: "https://www.996icu.eu.org/"

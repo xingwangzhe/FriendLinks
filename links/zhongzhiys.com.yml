@@ -1,10 +1,10 @@
 site:
-  name: 'zhongzhiys.com'
-  url: 'http://www.zhongzhiys.com/'
-  description: '友情链接'
-  links: '/'
+  name: "zhongzhiys.com"
+  url: "http://www.zhongzhiys.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'openresty.org'
-      url: 'https://openresty.org/'
-    - name: 'openresty.com'
-      url: 'https://openresty.com/'
+    - name: "openresty.org"
+      url: "https://openresty.org/"
+    - name: "openresty.com"
+      url: "https://openresty.com/"

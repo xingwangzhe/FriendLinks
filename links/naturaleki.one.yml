@@ -1,74 +1,74 @@
 site:
-  name: 'naturaleki.one'
-  url: 'https://naturaleki.one/'
-  description: '友情链接'
-  links: '/link'
+  name: "naturaleki.one"
+  url: "https://naturaleki.one/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: '晴空 像鸟儿编辑它们的飞行一般书写'
-      url: 'https://summerwasover.vercel.app/'
-    - name: 'A Blog A的存文地'
-      url: 'https://arictia.github.io/'
-    - name: '此地有野狗出没 注意：野兽凶猛！'
-      url: 'https://luoshui.icu/'
-    - name: '山茶花舍 吕楪在记录自己的生活'
-      url: 'https://irithys.com/'
-    - name: '眠于水月间 - 月光冷寂，恍若一场死眠。-'
-      url: 'https://sleepymoon.cyou'
-    - name: '纸糖织猫 融为糖浆，凝固纸张，折成黑猫'
-      url: 'https://brsu.me/'
-    - name: '海峡邮差 曾有十二只白鹭飞过秋天的湖泊'
-      url: 'https://camellia34.one/'
-    - name: 'Mengru的空间 无聊人生的拾遗'
-      url: 'https://mengru.space/'
-    - name: 'Silver Devastation 请尊敬令人着迷的一切'
-      url: 'https://blog.fluorite.icu'
-    - name: '松茸乐园 Mais où sont les neiges d''antan?'
-      url: 'https://alecareuticec.top/'
-    - name: 'A Purrception 谨慎观察(=‘ｘ‘=)'
-      url: 'https://tortie.me/'
-    - name: '一支咏叹调 一位普通美女的小窝。'
-      url: 'https://turquoise.one/'
-    - name: '匣 Please be more specific.'
-      url: 'https://kiokumo.vip/'
-    - name: '蝴蝶曾在此处 Strength can be built.'
-      url: 'https://changingmoments.one/'
-    - name: '呆呆不是槑 梦想是实现旺仔牛奶自由'
-      url: 'http://graugris.icu/'
-    - name: '知识源于■累 我永远无法找到代替你的人了。'
-      url: 'https://www.tapiokataro.icu/'
-    - name: '圆面包如何逃离狐口 面包屑炸面包蟹。'
-      url: 'https://sunnkynews.icu/'
-    - name: '深海鱼拒绝触礁 把最棒的吊桥效应献给你'
-      url: 'https://trails-of-isara.vercel.app/'
-    - name: '烤肉肉 烤肉肉的秘密基地'
-      url: 'https://lowbee.icu/'
-    - name: '晷影空间站 Action before motivation.'
-      url: 'https://kageji.blog/'
-    - name: '昼梦日和 梦是现实的延续，现实是梦的终结'
-      url: 'https://nanako.icu/'
-    - name: '漫游者迷路中 记生活迷思，做吟游诗人。'
-      url: 'https://blog-sooty-beta.vercel.app/'
-    - name: 'ENCOM一号机 1,000 lonely stars | Hiding in the cold'
-      url: 'https://alanone.top/'
-    - name: '春天与阿修罗 食宇宙尘埃，或吐纳着空气和盐水'
-      url: 'https://harushuura.vip/'
-    - name: '第三夏尔 认真生活，积极摸鱼'
-      url: 'https://thirdshire.com/'
-    - name: '皮裂魂奔 花园是病魔的大敌'
-      url: 'https://hauntedblog.pages.dev/'
-    - name: '杞青 在世一日'
-      url: 'https://solanalifeblog.vercel.app/'
-    - name: '我们身处命运之轮。'
-      url: 'https://halobread.click/'
-    - name: '白龙忆罪宫'
-      url: 'https://dragmon.com/'
-    - name: '烂香蕉网'
-      url: 'https://badbanana.fun/'
-    - name: '小桃花树'
-      url: 'https://strawberryxuan.icu/'
-    - name: '夏令時記錄'
-      url: 'https://nanako.today/'
-    - name: '车前我'
-      url: 'https://jiapingplus.icu/'
-    - name: '一团毛线'
-      url: 'https://notion-next-inky-phi-87.vercel.app/'
+    - name: "晴空 像鸟儿编辑它们的飞行一般书写"
+      url: "https://summerwasover.vercel.app/"
+    - name: "A Blog A的存文地"
+      url: "https://arictia.github.io/"
+    - name: "此地有野狗出没 注意：野兽凶猛！"
+      url: "https://luoshui.icu/"
+    - name: "山茶花舍 吕楪在记录自己的生活"
+      url: "https://irithys.com/"
+    - name: "眠于水月间 - 月光冷寂，恍若一场死眠。-"
+      url: "https://sleepymoon.cyou"
+    - name: "纸糖织猫 融为糖浆，凝固纸张，折成黑猫"
+      url: "https://brsu.me/"
+    - name: "海峡邮差 曾有十二只白鹭飞过秋天的湖泊"
+      url: "https://camellia34.one/"
+    - name: "Mengru的空间 无聊人生的拾遗"
+      url: "https://mengru.space/"
+    - name: "Silver Devastation 请尊敬令人着迷的一切"
+      url: "https://blog.fluorite.icu"
+    - name: "松茸乐园 Mais où sont les neiges d'antan?"
+      url: "https://alecareuticec.top/"
+    - name: "A Purrception 谨慎观察(=‘ｘ‘=)"
+      url: "https://tortie.me/"
+    - name: "一支咏叹调 一位普通美女的小窝。"
+      url: "https://turquoise.one/"
+    - name: "匣 Please be more specific."
+      url: "https://kiokumo.vip/"
+    - name: "蝴蝶曾在此处 Strength can be built."
+      url: "https://changingmoments.one/"
+    - name: "呆呆不是槑 梦想是实现旺仔牛奶自由"
+      url: "http://graugris.icu/"
+    - name: "知识源于■累 我永远无法找到代替你的人了。"
+      url: "https://www.tapiokataro.icu/"
+    - name: "圆面包如何逃离狐口 面包屑炸面包蟹。"
+      url: "https://sunnkynews.icu/"
+    - name: "深海鱼拒绝触礁 把最棒的吊桥效应献给你"
+      url: "https://trails-of-isara.vercel.app/"
+    - name: "烤肉肉 烤肉肉的秘密基地"
+      url: "https://lowbee.icu/"
+    - name: "晷影空间站 Action before motivation."
+      url: "https://kageji.blog/"
+    - name: "昼梦日和 梦是现实的延续，现实是梦的终结"
+      url: "https://nanako.icu/"
+    - name: "漫游者迷路中 记生活迷思，做吟游诗人。"
+      url: "https://blog-sooty-beta.vercel.app/"
+    - name: "ENCOM一号机 1,000 lonely stars | Hiding in the cold"
+      url: "https://alanone.top/"
+    - name: "春天与阿修罗 食宇宙尘埃，或吐纳着空气和盐水"
+      url: "https://harushuura.vip/"
+    - name: "第三夏尔 认真生活，积极摸鱼"
+      url: "https://thirdshire.com/"
+    - name: "皮裂魂奔 花园是病魔的大敌"
+      url: "https://hauntedblog.pages.dev/"
+    - name: "杞青 在世一日"
+      url: "https://solanalifeblog.vercel.app/"
+    - name: "我们身处命运之轮。"
+      url: "https://halobread.click/"
+    - name: "白龙忆罪宫"
+      url: "https://dragmon.com/"
+    - name: "烂香蕉网"
+      url: "https://badbanana.fun/"
+    - name: "小桃花树"
+      url: "https://strawberryxuan.icu/"
+    - name: "夏令時記錄"
+      url: "https://nanako.today/"
+    - name: "车前我"
+      url: "https://jiapingplus.icu/"
+    - name: "一团毛线"
+      url: "https://notion-next-inky-phi-87.vercel.app/"

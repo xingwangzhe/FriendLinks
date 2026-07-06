@@ -1,12 +1,12 @@
 site:
-  name: 'blog.gsav.cn'
-  url: 'https://blog.gsav.cn/'
-  description: '友情链接'
-  links: '/friend'
+  name: "blog.gsav.cn"
+  url: "https://blog.gsav.cn/"
+  description: "友情链接"
+  links: "/friend"
   friends:
-    - name: 'ZERO开发 一个持续探索副业的独立开发者博客'
-      url: 'https://www.zerofc.cn/'
-    - name: 'Qeem ...'
-      url: 'http://itstarqeem.space'
-    - name: '葱苓小筑 a small blog station'
-      url: 'https://blog.ciraos.top/'
+    - name: "ZERO开发 一个持续探索副业的独立开发者博客"
+      url: "https://www.zerofc.cn/"
+    - name: "Qeem ..."
+      url: "http://itstarqeem.space"
+    - name: "葱苓小筑 a small blog station"
+      url: "https://blog.ciraos.top/"

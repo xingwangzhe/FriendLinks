@@ -1,70 +1,70 @@
 site:
-  name: 'Takagi'
-  url: 'https://lixingyong.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "Takagi"
+  url: "https://lixingyong.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'guqing''s blog 毕生所求无它，爱与自由而已'
-      url: 'https://guqing.io/'
-    - name: 'Ryan Wang''s Blog 我认为最帅之人。'
-      url: 'https://ryanc.cc/'
-    - name: 'hmblog 青春须早为、岂能长少年'
-      url: 'https://www.hm1006.cn'
-    - name: 'Bore''s Notes 博观而约取，厚积而薄发'
-      url: 'https://bore.vip/'
-    - name: '疾风亦有龟途 过去无可挽回，未来可以改变！'
-      url: 'https://www.lolxiaoguo.cn'
-    - name: 'Roy’s Blog 鸡起犬眠，豕餐牛作。苏才郭福，姬子彭年。'
-      url: 'https://blog.laoda.de'
-    - name: '为了吃方便面 从今天开始 相识当作别离 时间就似活多一世纪'
-      url: 'https://www.dongzeviva.cn'
-    - name: 'itsNekoDeng 一只努力学习的十万伏特皮卡丘，梦想是世界和平，想要发光发热'
-      url: 'https://dyfa.top/'
-    - name: '玻璃之空 这里记录着我生活的一部分。'
-      url: 'https://www.suk1da.com/'
-    - name: 'Troy & Chloe 那些看似不起波澜的日复一日 在某天会让你看到坚持的意义'
-      url: 'https://blog.yotroy.cool/'
-    - name: 'Ying ⎛⎝喵~⎠⎞'
-      url: 'https://blog.luvying.com'
-    - name: 'Luncode 往者不可谏，来者犹可追'
-      url: 'https://www.luncode.com'
-    - name: 'Morcat Blog 白日梦想家'
-      url: 'https://www.morcat.cn'
-    - name: 'lukeewin 最萌java程序员'
-      url: 'https://blog.lukeewin.top'
-    - name: '柒月是ni的谎言 人生如逆旅,我亦是行人,但愿初相遇,不负有心人'
-      url: 'https://huangdf.xyz/'
-    - name: '烟霞志 空有烟霞之志，叹无水云之身。'
-      url: 'https://simplestark.com'
-    - name: 'Acmic 唯有热爱，可抵岁月漫长。'
-      url: 'https://acmic.top/'
-    - name: '小武自习室'
-      url: 'https://www.utobon.com.cn'
-    - name: 'LKの小站 楽園'
-      url: 'https://blog.lkarrie.com/'
-    - name: '千与千寻 所以，看不到光，算是不幸吗？需要光才是真正的不幸吧。'
-      url: 'https://www.chihiro.org.cn/'
-    - name: 'kiritoghy 士不可以不弘毅，任重而道远'
-      url: 'https://www.kiritoghy.cn/'
-    - name: '寒山志 绿衣捧砚催题卷，红袖添香伴读书'
-      url: 'https://baozi.fun'
-    - name: '越行勤''s Blog 努力学习的小菜鸟'
-      url: 'https://blog.yxqin.top'
-    - name: 'changhao 巴拉巴拉'
-      url: 'https://www.changhao.vip'
-    - name: 'lavender 浩瀚众星，皆降为尘'
-      url: 'https://www.lavenderdh.cn/'
-    - name: '知雨时节 朝暮早晚'
-      url: 'https://zhiyushijie.work'
-    - name: 'hongCYu''s Blog 向往可以快乐地写代码~'
-      url: 'https://hongcyu.cn'
-    - name: 'Vivi''s Blog 学海无涯'
-      url: 'https://www.iwangwei.top'
-    - name: '云梦 ╮不浅的博客 梦，开始的地方'
-      url: 'https://blog.adworld.top/'
-    - name: '泡面加技术 安身之地，可小，安心之地，需大。'
-      url: 'https://www.paomian.plus/'
-    - name: 'PONGSKY 今日營業中'
-      url: 'https://www.pongsky.com'
-    - name: '威风的博客 九万里风鹏正举，风休住，蓬舟吹取三山去。'
-      url: 'https://weistuday.com/'
+    - name: "guqing's blog 毕生所求无它，爱与自由而已"
+      url: "https://guqing.io/"
+    - name: "Ryan Wang's Blog 我认为最帅之人。"
+      url: "https://ryanc.cc/"
+    - name: "hmblog 青春须早为、岂能长少年"
+      url: "https://www.hm1006.cn"
+    - name: "Bore's Notes 博观而约取，厚积而薄发"
+      url: "https://bore.vip/"
+    - name: "疾风亦有龟途 过去无可挽回，未来可以改变！"
+      url: "https://www.lolxiaoguo.cn"
+    - name: "Roy’s Blog 鸡起犬眠，豕餐牛作。苏才郭福，姬子彭年。"
+      url: "https://blog.laoda.de"
+    - name: "为了吃方便面 从今天开始 相识当作别离 时间就似活多一世纪"
+      url: "https://www.dongzeviva.cn"
+    - name: "itsNekoDeng 一只努力学习的十万伏特皮卡丘，梦想是世界和平，想要发光发热"
+      url: "https://dyfa.top/"
+    - name: "玻璃之空 这里记录着我生活的一部分。"
+      url: "https://www.suk1da.com/"
+    - name: "Troy & Chloe 那些看似不起波澜的日复一日 在某天会让你看到坚持的意义"
+      url: "https://blog.yotroy.cool/"
+    - name: "Ying ⎛⎝喵~⎠⎞"
+      url: "https://blog.luvying.com"
+    - name: "Luncode 往者不可谏，来者犹可追"
+      url: "https://www.luncode.com"
+    - name: "Morcat Blog 白日梦想家"
+      url: "https://www.morcat.cn"
+    - name: "lukeewin 最萌java程序员"
+      url: "https://blog.lukeewin.top"
+    - name: "柒月是ni的谎言 人生如逆旅,我亦是行人,但愿初相遇,不负有心人"
+      url: "https://huangdf.xyz/"
+    - name: "烟霞志 空有烟霞之志，叹无水云之身。"
+      url: "https://simplestark.com"
+    - name: "Acmic 唯有热爱，可抵岁月漫长。"
+      url: "https://acmic.top/"
+    - name: "小武自习室"
+      url: "https://www.utobon.com.cn"
+    - name: "LKの小站 楽園"
+      url: "https://blog.lkarrie.com/"
+    - name: "千与千寻 所以，看不到光，算是不幸吗？需要光才是真正的不幸吧。"
+      url: "https://www.chihiro.org.cn/"
+    - name: "kiritoghy 士不可以不弘毅，任重而道远"
+      url: "https://www.kiritoghy.cn/"
+    - name: "寒山志 绿衣捧砚催题卷，红袖添香伴读书"
+      url: "https://baozi.fun"
+    - name: "越行勤's Blog 努力学习的小菜鸟"
+      url: "https://blog.yxqin.top"
+    - name: "changhao 巴拉巴拉"
+      url: "https://www.changhao.vip"
+    - name: "lavender 浩瀚众星，皆降为尘"
+      url: "https://www.lavenderdh.cn/"
+    - name: "知雨时节 朝暮早晚"
+      url: "https://zhiyushijie.work"
+    - name: "hongCYu's Blog 向往可以快乐地写代码~"
+      url: "https://hongcyu.cn"
+    - name: "Vivi's Blog 学海无涯"
+      url: "https://www.iwangwei.top"
+    - name: "云梦 ╮不浅的博客 梦，开始的地方"
+      url: "https://blog.adworld.top/"
+    - name: "泡面加技术 安身之地，可小，安心之地，需大。"
+      url: "https://www.paomian.plus/"
+    - name: "PONGSKY 今日營業中"
+      url: "https://www.pongsky.com"
+    - name: "威风的博客 九万里风鹏正举，风休住，蓬舟吹取三山去。"
+      url: "https://weistuday.com/"

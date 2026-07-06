@@ -1,42 +1,42 @@
 site:
-  name: 'snow.js.org'
-  description: '友情链接'
-  url: 'https://snow.js.org/'
-  links: '/friends'
+  name: "snow.js.org"
+  description: "友情链接"
+  url: "https://snow.js.org/"
+  links: "/friends"
   friends:
-    - name: 'Lete乐特 人生只有一次，大胆的生活！！'
-      url: 'https://blog.imlete.cn'
-    - name: 'Heo 爱折腾的设计师'
-      url: 'https://blog.zhheo.com/'
-    - name: 'Jared h 🤪🤪🤪'
-      url: 'https://jaredh.cn/'
-    - name: '小N同学 青石落晚巷 故人未还乡'
-      url: 'https://www.nesxc.com'
-    - name: '大白萝卜 一只爱吃兔子的萝卜🥕'
-      url: 'https://www.imbhj.com'
-    - name: 'Colsrch 愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。'
-      url: 'https://colsrch.cn'
-    - name: 'ConstOwn 能与你一起成长，我荣幸之至。'
-      url: 'https://blog.juanertu.com'
-    - name: '煎鱼的海 人之帅，莫过于煎鱼'
-      url: 'https://euukey.com'
-    - name: 'Sakura` Blogs 或苦或甜都不要辜负'
-      url: 'https://jinan6.vip'
-    - name: '忧郁的派大星 越学习，越发现自己的无知'
-      url: 'https://www.impdx.vip'
-    - name: 'hfzvictory 深自缄默，如云漂泊'
-      url: 'http://blog.jing999.cn/'
-    - name: '羿潇贤鱼 为之则易，不为则难。'
-      url: 'https://blog.raxianch.moe'
-    - name: 'Khighness 炒菜 K 殿下'
-      url: 'https://www.parak.top'
-    - name: 'SeaYJ’s Blog 放弃向他人证明自己，放弃向自己证明自己！'
-      url: 'https://seayj.cn'
-    - name: 'btwoa 我仍相信人间滚烫'
-      url: 'https://blog.btwoa.com'
-    - name: '欢乐小王 聚散无常，别来无恙。'
-      url: 'https://blog.happyking.top/'
-    - name: 'Shine “Let’s go! Target: The Vast Stars!”'
-      url: 'https://blog.shineyu.cn/'
-    - name: '猫羽のブログす 欢迎来到猫羽のブログす~分享技术，享受生活，体会成长，感受乐趣！'
-      url: 'https://www.maoyv.cn/'
+    - name: "Lete乐特 人生只有一次，大胆的生活！！"
+      url: "https://blog.imlete.cn"
+    - name: "Heo 爱折腾的设计师"
+      url: "https://blog.zhheo.com/"
+    - name: "Jared h 🤪🤪🤪"
+      url: "https://jaredh.cn/"
+    - name: "小N同学 青石落晚巷 故人未还乡"
+      url: "https://www.nesxc.com"
+    - name: "大白萝卜 一只爱吃兔子的萝卜🥕"
+      url: "https://www.imbhj.com"
+    - name: "Colsrch 愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。"
+      url: "https://colsrch.cn"
+    - name: "ConstOwn 能与你一起成长，我荣幸之至。"
+      url: "https://blog.juanertu.com"
+    - name: "煎鱼的海 人之帅，莫过于煎鱼"
+      url: "https://euukey.com"
+    - name: "Sakura` Blogs 或苦或甜都不要辜负"
+      url: "https://jinan6.vip"
+    - name: "忧郁的派大星 越学习，越发现自己的无知"
+      url: "https://www.impdx.vip"
+    - name: "hfzvictory 深自缄默，如云漂泊"
+      url: "http://blog.jing999.cn/"
+    - name: "羿潇贤鱼 为之则易，不为则难。"
+      url: "https://blog.raxianch.moe"
+    - name: "Khighness 炒菜 K 殿下"
+      url: "https://www.parak.top"
+    - name: "SeaYJ’s Blog 放弃向他人证明自己，放弃向自己证明自己！"
+      url: "https://seayj.cn"
+    - name: "btwoa 我仍相信人间滚烫"
+      url: "https://blog.btwoa.com"
+    - name: "欢乐小王 聚散无常，别来无恙。"
+      url: "https://blog.happyking.top/"
+    - name: "Shine “Let’s go! Target: The Vast Stars!”"
+      url: "https://blog.shineyu.cn/"
+    - name: "猫羽のブログす 欢迎来到猫羽のブログす~分享技术，享受生活，体会成长，感受乐趣！"
+      url: "https://www.maoyv.cn/"

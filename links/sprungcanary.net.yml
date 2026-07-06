@@ -1,12 +1,12 @@
 site:
-  name: 'sprungcanary.net'
-  url: 'http://sprungcanary.net/'
-  description: '友情链接'
-  links: '/'
+  name: "sprungcanary.net"
+  url: "http://sprungcanary.net/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Cryogen'
-      url: 'http://cryogenweb.org'
-    - name: 'Advent of Code'
-      url: 'http://adventofcode.com'
-    - name: 'Download Website Templates'
-      url: 'http://www.downloadwebsitetemplates.co.uk'
+    - name: "Cryogen"
+      url: "http://cryogenweb.org"
+    - name: "Advent of Code"
+      url: "http://adventofcode.com"
+    - name: "Download Website Templates"
+      url: "http://www.downloadwebsitetemplates.co.uk"

@@ -1,18 +1,18 @@
 site:
-  name: 'yuyang.li'
-  url: 'https://yuyang.li/'
-  description: '友情链接'
-  links: '/'
+  name: "yuyang.li"
+  url: "https://yuyang.li/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Prof. Yixin Zhu'
-      url: 'https://yzhu.io/'
-    - name: 'Beijing Institute for General AI'
-      url: 'https://bigai.ai'
-    - name: 'Dr. Tengyu Liu'
-      url: 'https://tengyu.ai'
-    - name: 'Dr. Siyuan Huang'
-      url: 'https://siyuanhuang.com/'
-    - name: 'TacMan series'
-      url: 'https://tacman-aom.github.io/'
-    - name: 'Our Taccel simulator'
-      url: 'https://taccel-simulator.github.io'
+    - name: "Prof. Yixin Zhu"
+      url: "https://yzhu.io/"
+    - name: "Beijing Institute for General AI"
+      url: "https://bigai.ai"
+    - name: "Dr. Tengyu Liu"
+      url: "https://tengyu.ai"
+    - name: "Dr. Siyuan Huang"
+      url: "https://siyuanhuang.com/"
+    - name: "TacMan series"
+      url: "https://tacman-aom.github.io/"
+    - name: "Our Taccel simulator"
+      url: "https://taccel-simulator.github.io"

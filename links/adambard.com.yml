@@ -1,18 +1,18 @@
 site:
-  name: 'adambard.com'
-  url: 'https://adambard.com/'
-  description: '友情链接'
-  links: '/'
+  name: "adambard.com"
+  url: "https://adambard.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Adam J. Bard, M.D.'
-      url: 'http://bardmd.com/'
-    - name: 'Adam Bard, Musician/Writer'
-      url: 'http://www.adambardmusic.com/'
-    - name: 'Learn X in Y Minutes'
-      url: 'http://learnxinyminutes.com/'
-    - name: 'Later for Reddit'
-      url: 'https://www.laterforreddit.com/'
-    - name: 'Middleman'
-      url: 'http://middlemanapp.com/'
-    - name: 'MongoDB.'
-      url: 'http://www.mongodb.org/'
+    - name: "Adam J. Bard, M.D."
+      url: "http://bardmd.com/"
+    - name: "Adam Bard, Musician/Writer"
+      url: "http://www.adambardmusic.com/"
+    - name: "Learn X in Y Minutes"
+      url: "http://learnxinyminutes.com/"
+    - name: "Later for Reddit"
+      url: "https://www.laterforreddit.com/"
+    - name: "Middleman"
+      url: "http://middlemanapp.com/"
+    - name: "MongoDB."
+      url: "http://www.mongodb.org/"

@@ -1,16 +1,16 @@
 site:
-  name: 'blog.azurezeng.com'
-  url: 'https://blog.azurezeng.com/'
-  description: '友情链接'
-  links: '/friend'
+  name: "blog.azurezeng.com"
+  url: "https://blog.azurezeng.com/"
+  description: "友情链接"
+  links: "/friend"
   friends:
-    - name: 'azmanyan'
-      url: 'http://az.yanaotian.xyz'
-    - name: 'Yurik'
-      url: 'https://yurik.cafe'
-    - name: 'chentaiyang'
-      url: 'https://xinpro.cn'
-    - name: 'lukeclever'
-      url: 'https://gnest.luyaoguagua.top/'
-    - name: '由川奈子'
-      url: 'https://blog.youchuande.cn'
+    - name: "azmanyan"
+      url: "http://az.yanaotian.xyz"
+    - name: "Yurik"
+      url: "https://yurik.cafe"
+    - name: "chentaiyang"
+      url: "https://xinpro.cn"
+    - name: "lukeclever"
+      url: "https://gnest.luyaoguagua.top/"
+    - name: "由川奈子"
+      url: "https://blog.youchuande.cn"

@@ -1,40 +1,40 @@
 site:
-  name: 'Site Fan'
-  url: 'https://fanst.cc/'
-  description: 'Hello'
-  links: '/links'
+  name: "Site Fan"
+  url: "https://fanst.cc/"
+  description: "Hello"
+  links: "/links"
   friends:
-    - name: 'Shengding Liu'
-      url: 'https://sendinga.github.io/'
-    - name: 'Kangrui Chen'
-      url: 'https://artanisax.github.io/'
-    - name: 'IceLocke's Blog'
-      url: 'https://blog.icel.site/'
-    - name: 'Redirecting to: /en/'
-      url: 'https://it-bill.github.io/'
-    - name: 'Hexo'
-      url: 'https://fz-zsl.github.io/'
-    - name: 'Home'
-      url: 'https://cypher-bruce.github.io/'
-    - name: 'Haibin's blog－O ever youthful,O ever weeping'
-      url: 'https://www.haibinlaiblog.top/'
-    - name: 'Ruixiang Jiang'
-      url: 'https://ruixiangj.top/'
-    - name: 'Monad's Blog'
-      url: 'https://blog.monadx.com/'
-    - name: 'Zed's blog'
-      url: 'https://we-are-zed.github.io/'
-    - name: 'Ben Chen'
-      url: 'https://i.benx.dev/'
-    - name: 'Tianrun Qiu'
-      url: 'https://r-q.name/'
-    - name: 'xciphand's Blog'
-      url: 'https://b.x-d.fun/'
-    - name: 'Jay's Blog'
-      url: 'https://liubinfighter.github.io/'
-    - name: 'Yi Chen'
-      url: 'https://chenyi.world/'
-    - name: 'Yuxuan's Homepage'
-      url: 'https://essoz.github.io/'
-    - name: '郑皓文的博客'
-      url: 'https://ncc79601.github.io/'
+    - name: "Shengding Liu"
+      url: "https://sendinga.github.io/"
+    - name: "Kangrui Chen"
+      url: "https://artanisax.github.io/"
+    - name: "IceLocke's Blog"
+      url: "https://blog.icel.site/"
+    - name: "Redirecting to: /en/"
+      url: "https://it-bill.github.io/"
+    - name: "Hexo"
+      url: "https://fz-zsl.github.io/"
+    - name: "Home"
+      url: "https://cypher-bruce.github.io/"
+    - name: "Haibin's blog－O ever youthful,O ever weeping"
+      url: "https://www.haibinlaiblog.top/"
+    - name: "Ruixiang Jiang"
+      url: "https://ruixiangj.top/"
+    - name: "Monad's Blog"
+      url: "https://blog.monadx.com/"
+    - name: "Zed's blog"
+      url: "https://we-are-zed.github.io/"
+    - name: "Ben Chen"
+      url: "https://i.benx.dev/"
+    - name: "Tianrun Qiu"
+      url: "https://r-q.name/"
+    - name: "xciphand's Blog"
+      url: "https://b.x-d.fun/"
+    - name: "Jay's Blog"
+      url: "https://liubinfighter.github.io/"
+    - name: "Yi Chen"
+      url: "https://chenyi.world/"
+    - name: "Yuxuan's Homepage"
+      url: "https://essoz.github.io/"
+    - name: "郑皓文的博客"
+      url: "https://ncc79601.github.io/"

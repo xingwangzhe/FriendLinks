@@ -1,88 +1,88 @@
 site:
-  name: '左邻右舍 | 周润发博客'
-  url: 'https://blog.zrf.me/'
-  description: '友情链接'
-  links: '/links'
+  name: "左邻右舍 | 周润发博客"
+  url: "https://blog.zrf.me/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'CM'
-      url: 'https://blog.cmliussss.com/'
-    - name: '安知鱼'
-      url: 'https://blog.anheyu.com/'
-    - name: '伍十七'
-      url: 'https://blog.efu.me'
-    - name: '無名小栈'
-      url: 'https://blog.imsyy.top/'
-    - name: '张洪Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: '梦爱吃鱼'
-      url: 'https://blog.bsgun.cn/'
-    - name: '清羽飞扬'
-      url: 'https://blog.liushen.fun/'
-    - name: '❖星港◎Star☆'
-      url: 'https://blog.starsharbor.com'
-    - name: '东方月初'
-      url: 'https://blog.biuxin.com/'
-    - name: '科技小岛'
-      url: 'https://www.kejiland.com/'
-    - name: '耕读博客'
-      url: 'https://www.igengdu.com/'
-    - name: '青云志'
-      url: 'https://blog.811520.xyz'
-    - name: 'XingJiのBlog'
-      url: 'https://love.xingji.fun/'
-    - name: 'MysticStars'
-      url: 'https://www.mysticstars.cn/'
-    - name: '乐活星球'
-      url: 'https://blog.lohas.fun/'
-    - name: 'Su77'
-      url: 'https://www.suqi.me/'
-    - name: '胜天半子'
-      url: 'https://blog.291055.xyz/'
-    - name: '秋名山'
-      url: 'https://blog.qmsdh.com/'
-    - name: 'AI悦创'
-      url: 'https://blog.bornforthis.cn/'
-    - name: 'Elykia'
-      url: 'https://blog.elykia.cn/'
-    - name: 'Pupper'
-      url: 'https://pupper.cn/'
-    - name: '屑殇'
-      url: 'https://jinghuashang.cn/'
-    - name: '大爱无痕'
-      url: 'https://blog.youngboy.top/'
-    - name: 's1rius'
-      url: 'https://s1rius.space/'
-    - name: '叶泯希·杂七杂八的🐕窝'
-      url: 'https://blog.418121.xyz/'
-    - name: 'bbb-lsy07'
-      url: 'https://blog.tsoo.net/'
-    - name: 'Rolenx'
-      url: 'https://home.yesord.top/'
-    - name: '智码Moss'
-      url: 'https://www.qxssec.com/'
-    - name: 'Fscarmen'
-      url: 'https://www.fscarmen.com/'
-    - name: '陆小启'
-      url: 'https://blog.zonox.top/'
-    - name: 'Eilo’s Blog'
-      url: 'https://www.eilo.uk/'
-    - name: '李开开博客'
-      url: 'https://blog.caonmd.com/'
-    - name: 'fishcpy的小破站'
-      url: 'https://blog.fis.ink'
-    - name: '青序栈'
-      url: 'https://www.qixz.cn/'
-    - name: 'Sumo'
-      url: 'https://letianpai.osfs.top/'
-    - name: 'AirTouch'
-      url: 'https://www.xsl.im/'
-    - name: '涛叔'
-      url: 'https://tao.zz.ac/'
-    - name: 'KK Cheung'
-      url: 'https://blog.ximei.me/'
-    - name: 'Hantaの天境小屋🥝'
-      url: 'https://blog.hanta2011.top/'
-    - name: 'Wcowin’s Web'
-      url: 'https://wcowin.work/'
-    - name: 'HuTao’s Blog'
-      url: 'https://blog.樱花.top/'
+    - name: "CM"
+      url: "https://blog.cmliussss.com/"
+    - name: "安知鱼"
+      url: "https://blog.anheyu.com/"
+    - name: "伍十七"
+      url: "https://blog.efu.me"
+    - name: "無名小栈"
+      url: "https://blog.imsyy.top/"
+    - name: "张洪Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "梦爱吃鱼"
+      url: "https://blog.bsgun.cn/"
+    - name: "清羽飞扬"
+      url: "https://blog.liushen.fun/"
+    - name: "❖星港◎Star☆"
+      url: "https://blog.starsharbor.com"
+    - name: "东方月初"
+      url: "https://blog.biuxin.com/"
+    - name: "科技小岛"
+      url: "https://www.kejiland.com/"
+    - name: "耕读博客"
+      url: "https://www.igengdu.com/"
+    - name: "青云志"
+      url: "https://blog.811520.xyz"
+    - name: "XingJiのBlog"
+      url: "https://love.xingji.fun/"
+    - name: "MysticStars"
+      url: "https://www.mysticstars.cn/"
+    - name: "乐活星球"
+      url: "https://blog.lohas.fun/"
+    - name: "Su77"
+      url: "https://www.suqi.me/"
+    - name: "胜天半子"
+      url: "https://blog.291055.xyz/"
+    - name: "秋名山"
+      url: "https://blog.qmsdh.com/"
+    - name: "AI悦创"
+      url: "https://blog.bornforthis.cn/"
+    - name: "Elykia"
+      url: "https://blog.elykia.cn/"
+    - name: "Pupper"
+      url: "https://pupper.cn/"
+    - name: "屑殇"
+      url: "https://jinghuashang.cn/"
+    - name: "大爱无痕"
+      url: "https://blog.youngboy.top/"
+    - name: "s1rius"
+      url: "https://s1rius.space/"
+    - name: "叶泯希·杂七杂八的🐕窝"
+      url: "https://blog.418121.xyz/"
+    - name: "bbb-lsy07"
+      url: "https://blog.tsoo.net/"
+    - name: "Rolenx"
+      url: "https://home.yesord.top/"
+    - name: "智码Moss"
+      url: "https://www.qxssec.com/"
+    - name: "Fscarmen"
+      url: "https://www.fscarmen.com/"
+    - name: "陆小启"
+      url: "https://blog.zonox.top/"
+    - name: "Eilo’s Blog"
+      url: "https://www.eilo.uk/"
+    - name: "李开开博客"
+      url: "https://blog.caonmd.com/"
+    - name: "fishcpy的小破站"
+      url: "https://blog.fis.ink"
+    - name: "青序栈"
+      url: "https://www.qixz.cn/"
+    - name: "Sumo"
+      url: "https://letianpai.osfs.top/"
+    - name: "AirTouch"
+      url: "https://www.xsl.im/"
+    - name: "涛叔"
+      url: "https://tao.zz.ac/"
+    - name: "KK Cheung"
+      url: "https://blog.ximei.me/"
+    - name: "Hantaの天境小屋🥝"
+      url: "https://blog.hanta2011.top/"
+    - name: "Wcowin’s Web"
+      url: "https://wcowin.work/"
+    - name: "HuTao’s Blog"
+      url: "https://blog.樱花.top/"

@@ -1,12 +1,12 @@
 site:
-  name: 'wsdjeg.net'
-  url: 'https://wsdjeg.net/'
-  description: '友情链接'
-  links: '/'
+  name: "wsdjeg.net"
+  url: "https://wsdjeg.net/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'chat.nvim'
-      url: 'https://nvim.chat'
-    - name: 'F-Droid'
-      url: 'https://f-droid.org/'
-    - name: 'Termux 官网'
-      url: 'https://termux.org'
+    - name: "chat.nvim"
+      url: "https://nvim.chat"
+    - name: "F-Droid"
+      url: "https://f-droid.org/"
+    - name: "Termux 官网"
+      url: "https://termux.org"

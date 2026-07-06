@@ -1,64 +1,64 @@
 site:
-  name: '泠泫凝的异次元空间'
-  url: 'https://lxnchan.cn/'
-  description: '科技、Linux、运维、云与虚拟化；研究有趣的新技术，分享运维操作，记录我的运维实战经验、问题和解决方案；敢于探索，勤于记录。'
-  links: '/links'
+  name: "泠泫凝的异次元空间"
+  url: "https://lxnchan.cn/"
+  description: "科技、Linux、运维、云与虚拟化；研究有趣的新技术，分享运维操作，记录我的运维实战经验、问题和解决方案；敢于探索，勤于记录。"
+  links: "/links"
   friends:
-    - name: 'Memos'
-      url: 'https://notes.lxnchan.cn/'
-    - name: '铭心の博客'
-      url: 'https://www.mxin.moe/'
-    - name: '我不是咕咕鸽'
-      url: 'https://blog.laoda.de/'
-    - name: 'freejishu的美丽世界'
-      url: 'https://www.freejishu.com/'
-    - name: '一个小站 -'
-      url: 'https://www.ygxz.in/'
-    - name: '胡涂说'
-      url: 'https://hutusi.com/'
-    - name: 'Homepage'
-      url: 'https://www.chancel.me/'
-    - name: '闲云博客'
-      url: 'https://lolicp.com/'
-    - name: '@sunnysab'
-      url: 'https://sunnysab.cn/'
-    - name: '云游君的小站'
-      url: 'https://www.yunyoujun.cn/'
-    - name: '301 Redirecting...'
-      url: 'https://wzx.is-a.dev/'
-    - name: '首页'
-      url: 'https://core.dpangzi.com/'
-    - name: 'Bensz'
-      url: 'https://blognas.hwb0307.com/'
-    - name: '远方博客'
-      url: 'https://blog.ltyuanfang.cn/'
-    - name: '博客系统'
-      url: 'https://wabk.net/'
-    - name: 'Pil0tXia'
-      url: 'https://www.pil0txia.com/'
-    - name: 'HiPeach'
-      url: 'https://blog.opeach.cn/'
-    - name: 'Thun888'
-      url: 'https://blog.hzchu.top/'
-    - name: '懋和道人-李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。'
-      url: 'https://www.dao.js.cn/'
-    - name: 'KEKKJ BLOG'
-      url: 'https://kekkj123.github.io/'
-    - name: '云烟博客'
-      url: 'https://www.yunyanck.cn/'
-    - name: 'Sakitami的集装箱'
-      url: 'https://blog.skihome.xyz/'
-    - name: 'faryou的博客-平平淡淡 从从容容才是真~~'
-      url: 'https://blog.faryou.eu.org/'
-    - name: 'Lifeline'
-      url: 'https://lifelinest.github.io/'
-    - name: 'LanM'
-      url: 'https://bluelanm.github.io/'
-    - name: 'XAOXUU'
-      url: 'https://xaoxuu.com/'
-    - name: 'zh66.club'
-      url: 'https://www.zh66.club/'
-    - name: '二甲基'
-      url: 'https://www.ariels.xyz/'
-    - name: 'AomanHao的博客空间'
-      url: 'https://www.aomanhao.top/'
+    - name: "Memos"
+      url: "https://notes.lxnchan.cn/"
+    - name: "铭心の博客"
+      url: "https://www.mxin.moe/"
+    - name: "我不是咕咕鸽"
+      url: "https://blog.laoda.de/"
+    - name: "freejishu的美丽世界"
+      url: "https://www.freejishu.com/"
+    - name: "一个小站 -"
+      url: "https://www.ygxz.in/"
+    - name: "胡涂说"
+      url: "https://hutusi.com/"
+    - name: "Homepage"
+      url: "https://www.chancel.me/"
+    - name: "闲云博客"
+      url: "https://lolicp.com/"
+    - name: "@sunnysab"
+      url: "https://sunnysab.cn/"
+    - name: "云游君的小站"
+      url: "https://www.yunyoujun.cn/"
+    - name: "301 Redirecting..."
+      url: "https://wzx.is-a.dev/"
+    - name: "首页"
+      url: "https://core.dpangzi.com/"
+    - name: "Bensz"
+      url: "https://blognas.hwb0307.com/"
+    - name: "远方博客"
+      url: "https://blog.ltyuanfang.cn/"
+    - name: "博客系统"
+      url: "https://wabk.net/"
+    - name: "Pil0tXia"
+      url: "https://www.pil0txia.com/"
+    - name: "HiPeach"
+      url: "https://blog.opeach.cn/"
+    - name: "Thun888"
+      url: "https://blog.hzchu.top/"
+    - name: "懋和道人-李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。"
+      url: "https://www.dao.js.cn/"
+    - name: "KEKKJ BLOG"
+      url: "https://kekkj123.github.io/"
+    - name: "云烟博客"
+      url: "https://www.yunyanck.cn/"
+    - name: "Sakitami的集装箱"
+      url: "https://blog.skihome.xyz/"
+    - name: "faryou的博客-平平淡淡 从从容容才是真~~"
+      url: "https://blog.faryou.eu.org/"
+    - name: "Lifeline"
+      url: "https://lifelinest.github.io/"
+    - name: "LanM"
+      url: "https://bluelanm.github.io/"
+    - name: "XAOXUU"
+      url: "https://xaoxuu.com/"
+    - name: "zh66.club"
+      url: "https://www.zh66.club/"
+    - name: "二甲基"
+      url: "https://www.ariels.xyz/"
+    - name: "AomanHao的博客空间"
+      url: "https://www.aomanhao.top/"

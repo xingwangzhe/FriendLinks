@@ -1,22 +1,22 @@
 site:
-  name: 'benign.host'
-  url: 'https://benign.host/'
-  description: '友情链接'
-  links: '/friends'
+  name: "benign.host"
+  url: "https://benign.host/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '星潮星屿 一个喜欢瞎捣鼓的开发者，记录系统与底层、密码学、Rust、Linux 以及各种造轮子实践。 系统底层 Rust 密码学'
-      url: 'https://chrjeb.cn/'
-    - name: '可执行程序の天境小屋🥝 死亡不是最可怕的，遗忘才是 博客'
-      url: 'https://blog.hanta2011.top'
-    - name: '芊 let me dawn 博客'
-      url: 'https://hxqblog.cn'
-    - name: 'Kegongtang Blogger / Technophile / Student 博客 技术'
-      url: 'https://kegongteng.cn'
-    - name: '灵的梦境 愿美梦成真。Ling 的折腾记录与技术笔记，写 Rust、刷机、前端这些。 技术笔记 折腾 前端'
-      url: 'https://lemonadorable.github.io/'
-    - name: 'LVY NEKO 休闲码农 & 开源爱好者，CS 本科在读，喜欢 VS Code TvT，乐于为有趣的项目贡献代码。 开源 CS LVGL ope'
-      url: 'https://lvyovo-wiki.tech'
-    - name: 'MickeyMiao Leeds 图形学硕士，热爱 Minecraft 和图形渲染，擅长 C++/OpenGL 体素引擎与光线追踪。 图形学 渲染'
-      url: 'https://blog.mickeymiao.cn'
-    - name: '他说 自学派少年开发者，Linux distro hopper，写 Hexo & Butterfly 折腾笔记，也写 Minecraft 与个人纪事。'
-      url: 'http://090909.top/'
+    - name: "星潮星屿 一个喜欢瞎捣鼓的开发者，记录系统与底层、密码学、Rust、Linux 以及各种造轮子实践。 系统底层 Rust 密码学"
+      url: "https://chrjeb.cn/"
+    - name: "可执行程序の天境小屋🥝 死亡不是最可怕的，遗忘才是 博客"
+      url: "https://blog.hanta2011.top"
+    - name: "芊 let me dawn 博客"
+      url: "https://hxqblog.cn"
+    - name: "Kegongtang Blogger / Technophile / Student 博客 技术"
+      url: "https://kegongteng.cn"
+    - name: "灵的梦境 愿美梦成真。Ling 的折腾记录与技术笔记，写 Rust、刷机、前端这些。 技术笔记 折腾 前端"
+      url: "https://lemonadorable.github.io/"
+    - name: "LVY NEKO 休闲码农 & 开源爱好者，CS 本科在读，喜欢 VS Code TvT，乐于为有趣的项目贡献代码。 开源 CS LVGL ope"
+      url: "https://lvyovo-wiki.tech"
+    - name: "MickeyMiao Leeds 图形学硕士，热爱 Minecraft 和图形渲染，擅长 C++/OpenGL 体素引擎与光线追踪。 图形学 渲染"
+      url: "https://blog.mickeymiao.cn"
+    - name: "他说 自学派少年开发者，Linux distro hopper，写 Hexo & Butterfly 折腾笔记，也写 Minecraft 与个人纪事。"
+      url: "http://090909.top/"

@@ -1,26 +1,26 @@
 site:
-  name: 'blog.yxzl.dev'
-  url: 'https://blog.yxzl.dev/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.yxzl.dev"
+  url: "https://blog.yxzl.dev/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Modenc'
-      url: 'https://modenc.top/'
-    - name: '云朵角落'
-      url: 'https://blog.honahec.cc'
-    - name: 'Iron_Grey_'
-      url: 'https://IronGrey.top/'
-    - name: 'Hoey'
-      url: 'https://zhenghaoyang.cn/'
-    - name: '耳朵同'
-      url: 'https://blog.erduotong.com/'
-    - name: 'MSDNicrosoft'
-      url: 'https://msdnicrosoft.work/'
-    - name: '纸鹿摸鱼处'
-      url: 'https://blog.zhilu.site/'
-    - name: 'QA瓜田'
-      url: 'https://qaguatian.com/'
-    - name: 'Hitokoto - 一言'
-      url: 'https://hitokoto.cn/'
-    - name: 'vuepress-reco'
-      url: 'https://theme-reco.vuejs.press/'
+    - name: "Modenc"
+      url: "https://modenc.top/"
+    - name: "云朵角落"
+      url: "https://blog.honahec.cc"
+    - name: "Iron_Grey_"
+      url: "https://IronGrey.top/"
+    - name: "Hoey"
+      url: "https://zhenghaoyang.cn/"
+    - name: "耳朵同"
+      url: "https://blog.erduotong.com/"
+    - name: "MSDNicrosoft"
+      url: "https://msdnicrosoft.work/"
+    - name: "纸鹿摸鱼处"
+      url: "https://blog.zhilu.site/"
+    - name: "QA瓜田"
+      url: "https://qaguatian.com/"
+    - name: "Hitokoto - 一言"
+      url: "https://hitokoto.cn/"
+    - name: "vuepress-reco"
+      url: "https://theme-reco.vuejs.press/"

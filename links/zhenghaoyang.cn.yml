@@ -1,8 +1,8 @@
 site:
-  name: 'zhenghaoyang.cn'
-  url: 'https://zhenghaoyang.cn/'
-  description: '友情链接'
-  links: '/'
+  name: "zhenghaoyang.cn"
+  url: "https://zhenghaoyang.cn/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'vuepress-theme-plume'
-      url: 'https://theme-plume.vuejs.press/'
+    - name: "vuepress-theme-plume"
+      url: "https://theme-plume.vuejs.press/"

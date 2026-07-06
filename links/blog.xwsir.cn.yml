@@ -1,14 +1,14 @@
 site:
-  name: 'blog.xwsir.cn'
-  url: 'https://blog.xwsir.cn/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "blog.xwsir.cn"
+  url: "https://blog.xwsir.cn/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: '胡子延'
-      url: 'http://cbu.cc'
-    - name: '罗大哥'
-      url: 'https://www.luodage.com'
-    - name: 'Jonty'
-      url: 'http://nobb.cc'
-    - name: '知识铺子'
-      url: 'http://zsp.yihui.xyz/'
+    - name: "胡子延"
+      url: "http://cbu.cc"
+    - name: "罗大哥"
+      url: "https://www.luodage.com"
+    - name: "Jonty"
+      url: "http://nobb.cc"
+    - name: "知识铺子"
+      url: "http://zsp.yihui.xyz/"

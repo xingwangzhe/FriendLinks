@@ -1,12 +1,12 @@
 site:
-  name: 'owenlacey.dev'
-  url: 'https://owenlacey.dev/'
-  description: '友情链接'
-  links: '/'
+  name: "owenlacey.dev"
+  url: "https://owenlacey.dev/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'FPL Wrapped A year in review for your Fantasy P'
-      url: 'https://fpl-wrapped.co.uk/'
-    - name: 'ATProto Heatmap A living heatmap of personalise'
-      url: 'https://atproto-heatmap.netlify.app/'
-    - name: 'Isodoodle An isometric SVG generator.'
-      url: 'https://isodoodle.netlify.app/'
+    - name: "FPL Wrapped A year in review for your Fantasy P"
+      url: "https://fpl-wrapped.co.uk/"
+    - name: "ATProto Heatmap A living heatmap of personalise"
+      url: "https://atproto-heatmap.netlify.app/"
+    - name: "Isodoodle An isometric SVG generator."
+      url: "https://isodoodle.netlify.app/"

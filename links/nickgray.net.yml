@@ -1,14 +1,14 @@
 site:
-  name: 'nickgray.net'
-  url: 'https://nickgray.net/'
-  description: '友情链接'
-  links: '/link'
+  name: "nickgray.net"
+  url: "https://nickgray.net/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: 'Chris Gittings'
-      url: 'https://chrisgittings.com/'
-    - name: 'Cogent Connections'
-      url: 'https://www.cogentconnections.io/'
-    - name: 'NYC Donor Database'
-      url: 'https://patronview.com/'
-    - name: 'Texas Family Office'
-      url: 'https://tripeak.com/'
+    - name: "Chris Gittings"
+      url: "https://chrisgittings.com/"
+    - name: "Cogent Connections"
+      url: "https://www.cogentconnections.io/"
+    - name: "NYC Donor Database"
+      url: "https://patronview.com/"
+    - name: "Texas Family Office"
+      url: "https://tripeak.com/"

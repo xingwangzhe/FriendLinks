@@ -1,74 +1,74 @@
 site:
-  name: 'flag.moe'
-  url: 'https://flag.moe/'
-  description: '友情链接'
-  links: '/'
+  name: "flag.moe"
+  url: "https://flag.moe/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: '喵通贩'
-      url: 'https://nyanket.com/'
-    - name: 'Micooz 可爱的男孩子XD'
-      url: 'https://apporz.com/'
-    - name: '毫无存在感的凌 可靠的魔法少年'
-      url: 'http://shiromi.org/'
-    - name: '卜卜口 无处不在的美味卜卜'
-      url: 'https://i.magiconch.com/'
-    - name: '三千院の暗 人生赢家小暗'
-      url: 'http://moe.lu/'
-    - name: '妹空 草莓味的妹空酱'
-      url: 'http://sora.sound.moe/'
-    - name: 'Rakume 消失在人群中的团长'
-      url: 'http://rakume.com/'
-    - name: 'Almsev 消失的霖菓村村长'
-      url: 'http://www.almsev.com/'
-    - name: 'Oott123 三三菊苣'
-      url: 'https://best33.com/'
-    - name: '地瓜 烤的热乎乎的地瓜'
-      url: 'https://digua.me/'
-    - name: '孙天骁 孙天骁的个人网站'
-      url: 'http://www.ybusad.com/'
-    - name: '亓一超 cenegd'
-      url: 'https://www.qiyichao.cn/'
-    - name: 'Dante cfan菊苣'
-      url: 'https://dante.io/'
-    - name: 'Starryvoid 繁星天'
-      url: 'https://www.starryvoid.com/'
-    - name: '泷涯 坠吼的膜法师'
-      url: 'https://blog.sylingd.com/'
-    - name: '鸡排 好次的鸡排'
-      url: 'https://www.jipai.moe/'
-    - name: 'RemiIO Remi IO！'
-      url: 'https://linux.dog/'
-    - name: '吐槽大王 好耶，是tcdw!'
-      url: 'https://www.tcdw.net/'
-    - name: '光棱 JackWorks 暂时离开了'
-      url: 'http://jack-works.github.io/'
-    - name: '洛城东华 世界另一端的无证网管'
-      url: 'https://www.aoisnow.net/'
-    - name: '派兹的小站 银不了，尽梨了'
-      url: 'https://blog.blingwang.cn/'
-    - name: '神楽坂の猫 是卡諾，蹭蹭'
-      url: 'https://kagurazaka.cat/'
-    - name: '云游君 滴，开空调'
-      url: 'https://www.yunyoujun.cn/'
-    - name: '神楽坂南音 *好* 是南音'
-      url: 'https://seaslug.moe/'
-    - name: 'BenPigChu 电子幽灵在人间！'
-      url: 'https://benpigchu.com/'
-    - name: 'Cyris 页面，动起来叻！'
-      url: 'https://cyris.moe/'
-    - name: '云霞 雪夜中的迷途客'
-      url: 'https://snowproselyte.com/'
-    - name: '莲子粥 粥，好喝的'
-      url: 'https://home.lzz.moe/'
-    - name: 'CXM I''m noob'
-      url: 'https://littlecxm.me/'
-    - name: 'Natsumesaki 赛博世界的探险者'
-      url: 'https://nazuki.ac.cn/'
-    - name: 'Nyaasu Nyaasu 研究所'
-      url: 'https://blog.nyaasu.top/'
-    - name: '艾了个拉 Kind and Kawaii, Forever!~'
-      url: 'https://aira.cafe/'
-    - name: 'QPomelo 好吃的柚子'
-      url: 'https://qpomelo.dev'
-    - name: 'Cynosura Trying to light up the dark.'
-      url: 'https://cynosura.one'
+    - name: "喵通贩"
+      url: "https://nyanket.com/"
+    - name: "Micooz 可爱的男孩子XD"
+      url: "https://apporz.com/"
+    - name: "毫无存在感的凌 可靠的魔法少年"
+      url: "http://shiromi.org/"
+    - name: "卜卜口 无处不在的美味卜卜"
+      url: "https://i.magiconch.com/"
+    - name: "三千院の暗 人生赢家小暗"
+      url: "http://moe.lu/"
+    - name: "妹空 草莓味的妹空酱"
+      url: "http://sora.sound.moe/"
+    - name: "Rakume 消失在人群中的团长"
+      url: "http://rakume.com/"
+    - name: "Almsev 消失的霖菓村村长"
+      url: "http://www.almsev.com/"
+    - name: "Oott123 三三菊苣"
+      url: "https://best33.com/"
+    - name: "地瓜 烤的热乎乎的地瓜"
+      url: "https://digua.me/"
+    - name: "孙天骁 孙天骁的个人网站"
+      url: "http://www.ybusad.com/"
+    - name: "亓一超 cenegd"
+      url: "https://www.qiyichao.cn/"
+    - name: "Dante cfan菊苣"
+      url: "https://dante.io/"
+    - name: "Starryvoid 繁星天"
+      url: "https://www.starryvoid.com/"
+    - name: "泷涯 坠吼的膜法师"
+      url: "https://blog.sylingd.com/"
+    - name: "鸡排 好次的鸡排"
+      url: "https://www.jipai.moe/"
+    - name: "RemiIO Remi IO！"
+      url: "https://linux.dog/"
+    - name: "吐槽大王 好耶，是tcdw!"
+      url: "https://www.tcdw.net/"
+    - name: "光棱 JackWorks 暂时离开了"
+      url: "http://jack-works.github.io/"
+    - name: "洛城东华 世界另一端的无证网管"
+      url: "https://www.aoisnow.net/"
+    - name: "派兹的小站 银不了，尽梨了"
+      url: "https://blog.blingwang.cn/"
+    - name: "神楽坂の猫 是卡諾，蹭蹭"
+      url: "https://kagurazaka.cat/"
+    - name: "云游君 滴，开空调"
+      url: "https://www.yunyoujun.cn/"
+    - name: "神楽坂南音 *好* 是南音"
+      url: "https://seaslug.moe/"
+    - name: "BenPigChu 电子幽灵在人间！"
+      url: "https://benpigchu.com/"
+    - name: "Cyris 页面，动起来叻！"
+      url: "https://cyris.moe/"
+    - name: "云霞 雪夜中的迷途客"
+      url: "https://snowproselyte.com/"
+    - name: "莲子粥 粥，好喝的"
+      url: "https://home.lzz.moe/"
+    - name: "CXM I'm noob"
+      url: "https://littlecxm.me/"
+    - name: "Natsumesaki 赛博世界的探险者"
+      url: "https://nazuki.ac.cn/"
+    - name: "Nyaasu Nyaasu 研究所"
+      url: "https://blog.nyaasu.top/"
+    - name: "艾了个拉 Kind and Kawaii, Forever!~"
+      url: "https://aira.cafe/"
+    - name: "QPomelo 好吃的柚子"
+      url: "https://qpomelo.dev"
+    - name: "Cynosura Trying to light up the dark."
+      url: "https://cynosura.one"

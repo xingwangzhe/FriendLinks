@@ -1,12 +1,12 @@
 site:
-  name: 'blog.algebnaly.com'
-  url: 'https://blog.algebnaly.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.algebnaly.com"
+  url: "https://blog.algebnaly.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '柳下川 kawayww.com'
-      url: 'https://kawayww.com'
-    - name: 'zzWei zzwei.cn'
-      url: 'https://zzwei.cn'
-    - name: '403F 403f.cafe'
-      url: 'https://403f.cafe'
+    - name: "柳下川 kawayww.com"
+      url: "https://kawayww.com"
+    - name: "zzWei zzwei.cn"
+      url: "https://zzwei.cn"
+    - name: "403F 403f.cafe"
+      url: "https://403f.cafe"

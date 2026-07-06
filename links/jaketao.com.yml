@@ -1,10 +1,10 @@
 site:
-  name: 'jaketao.com'
-  url: 'http://jaketao.com/'
-  description: '友情链接'
-  links: '/about'
+  name: "jaketao.com"
+  url: "http://jaketao.com/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: '他乡2.0'
-      url: 'https://taxiang.app'
-    - name: 'HelloGWU'
-      url: 'https://hellogwu.com'
+    - name: "他乡2.0"
+      url: "https://taxiang.app"
+    - name: "HelloGWU"
+      url: "https://hellogwu.com"

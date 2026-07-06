@@ -1,18 +1,18 @@
 site:
-  name: 'ianlewis.org'
-  url: 'https://www.ianlewis.org/'
-  description: '友情链接'
-  links: '/'
+  name: "ianlewis.org"
+  url: "https://www.ianlewis.org/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Japanese-Language Proficiency Test'
-      url: 'https://www.jlpt.jp/'
-    - name: 'Kubernetes Meetup Tokyo'
-      url: 'https://k8sjp.connpass.com/'
-    - name: 'SLSA'
-      url: 'https://slsa.dev/'
-    - name: 'gVisor'
-      url: 'https://gvisor.dev/'
-    - name: 'Connpass'
-      url: 'https://connpass.com'
-    - name: 'PyCon JP'
-      url: 'https://www.pycon.jp/'
+    - name: "Japanese-Language Proficiency Test"
+      url: "https://www.jlpt.jp/"
+    - name: "Kubernetes Meetup Tokyo"
+      url: "https://k8sjp.connpass.com/"
+    - name: "SLSA"
+      url: "https://slsa.dev/"
+    - name: "gVisor"
+      url: "https://gvisor.dev/"
+    - name: "Connpass"
+      url: "https://connpass.com"
+    - name: "PyCon JP"
+      url: "https://www.pycon.jp/"

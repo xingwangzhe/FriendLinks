@@ -1,20 +1,20 @@
 site:
-  name: 'charity.wtf'
-  url: 'https://charity.wtf/'
-  description: '友情链接'
-  links: '/'
+  name: "charity.wtf"
+  url: "https://charity.wtf/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Honeycomb'
-      url: 'http://honeycomb.io/'
-    - name: 'Phoenix Architectures'
-      url: 'https://aicoding.leaflet.pub/'
-    - name: 'little Netlify app'
-      url: 'https://phenomenal-pika-90fd96.netlify.app/'
-    - name: 'Fred Hebert'
-      url: 'http://ferd.ca/'
-    - name: 'outcome orientation'
-      url: 'http://o16g.com/'
-    - name: 'Hanson Ho'
-      url: 'http://hanson.wtf/'
-    - name: 'LeaveSubstack'
-      url: 'http://leavesubstack.com/'
+    - name: "Honeycomb"
+      url: "http://honeycomb.io/"
+    - name: "Phoenix Architectures"
+      url: "https://aicoding.leaflet.pub/"
+    - name: "little Netlify app"
+      url: "https://phenomenal-pika-90fd96.netlify.app/"
+    - name: "Fred Hebert"
+      url: "http://ferd.ca/"
+    - name: "outcome orientation"
+      url: "http://o16g.com/"
+    - name: "Hanson Ho"
+      url: "http://hanson.wtf/"
+    - name: "LeaveSubstack"
+      url: "http://leavesubstack.com/"

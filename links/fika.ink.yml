@@ -1,60 +1,60 @@
 site:
-  name: 'fika.ink'
-  url: 'https://fika.ink/'
-  description: '友情链接'
-  links: '/link'
+  name: "fika.ink"
+  url: "https://fika.ink/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: '是 UMR 呐 个人博客作者'
-      url: 'https://www.umr.wiki/'
-    - name: 'STRRL 个人博客作者'
-      url: 'https://www.strrl.dev/'
-    - name: '高科技的指挥中心 个人博客作者'
-      url: 'https://blog.hightechbrain.net/'
-    - name: '湛蓝的调色板 个人博客作者'
-      url: 'https://nekoq.eu.org/'
-    - name: '老陈の咸鱼日常 个人博客作者'
-      url: 'https://www.fantanstic.top/'
-    - name: 'Moeri 落落格 个人博客作者'
-      url: 'https://blog.bakalu.site/'
-    - name: '狐の小屋 个人博客作者'
-      url: 'https://www.mythe.life/'
-    - name: '柠檬苏打夹心 个人博客作者'
-      url: 'https://moe.himoyo.cn/'
-    - name: 'Tony Ding 个人博客作者'
-      url: 'https://blog.tonyding.net/'
-    - name: 'Cynosura 是熊熊'
-      url: 'https://cynosura.one/'
-    - name: '橘纸柚 个人博客作者'
-      url: 'https://lovemen.cc/'
-    - name: '废柴乙乙的 Blog 个人博客作者'
-      url: 'https://echiru.top/'
-    - name: '林槐的杂货铺 要来点什么吗 QWQ'
-      url: 'https://blog.stapxs.cn/'
-    - name: 'Steven Lynn''s Blog Steven Lynn 的个人博客'
-      url: 'https://blog.stv.lol/'
-    - name: 'Izumi Chino''s Blog 一个奇怪的数竞生'
-      url: 'https://www.izumichino.tk/'
-    - name: '小莫の Base 小小少年，没有烦恼'
-      url: 'https://mou.best/'
-    - name: '梦墨 ''s Blog 这个人很懒，但 ta 似乎留下了什么？'
-      url: 'https://blog.dreamo.ink/'
-    - name: 'Zapic''s Blog 一般路过啥也不会 Zapic 的博客'
-      url: 'https://blog.zapic.moe/'
-    - name: 'Sxyazi’s blog 是雅的窝'
-      url: 'https://sxyz.blog/'
-    - name: '幽若工房 一个写代码有些菜的小水母'
-      url: 'http://blog.aquaia.xyz/'
-    - name: '浅雨阁 人间离别易多时，湿红恨墨浅封题'
-      url: 'https://qianyuchan.com/'
-    - name: '冰柠配绿茶的秘密后花园 让美好的时光常驻'
-      url: 'https://frozenlemontee.top/'
-    - name: 'dpkg123 书山有路勤为径，学海无涯苦作舟'
-      url: 'https://dpkg123.top'
-    - name: '红色森林 RedForest 的旧梦呓语'
-      url: 'https://redforest.org.cn/'
-    - name: '御坂秋生 不努力就只能听到别人的好消息'
-      url: 'https://www.akio.top'
-    - name: 'SkyHigh SkyHigh''Site'
-      url: 'https://skyhigh.moe'
-    - name: '王鑫 活着就是为了折腾！'
-      url: 'https://wxweb.xyz/'
+    - name: "是 UMR 呐 个人博客作者"
+      url: "https://www.umr.wiki/"
+    - name: "STRRL 个人博客作者"
+      url: "https://www.strrl.dev/"
+    - name: "高科技的指挥中心 个人博客作者"
+      url: "https://blog.hightechbrain.net/"
+    - name: "湛蓝的调色板 个人博客作者"
+      url: "https://nekoq.eu.org/"
+    - name: "老陈の咸鱼日常 个人博客作者"
+      url: "https://www.fantanstic.top/"
+    - name: "Moeri 落落格 个人博客作者"
+      url: "https://blog.bakalu.site/"
+    - name: "狐の小屋 个人博客作者"
+      url: "https://www.mythe.life/"
+    - name: "柠檬苏打夹心 个人博客作者"
+      url: "https://moe.himoyo.cn/"
+    - name: "Tony Ding 个人博客作者"
+      url: "https://blog.tonyding.net/"
+    - name: "Cynosura 是熊熊"
+      url: "https://cynosura.one/"
+    - name: "橘纸柚 个人博客作者"
+      url: "https://lovemen.cc/"
+    - name: "废柴乙乙的 Blog 个人博客作者"
+      url: "https://echiru.top/"
+    - name: "林槐的杂货铺 要来点什么吗 QWQ"
+      url: "https://blog.stapxs.cn/"
+    - name: "Steven Lynn's Blog Steven Lynn 的个人博客"
+      url: "https://blog.stv.lol/"
+    - name: "Izumi Chino's Blog 一个奇怪的数竞生"
+      url: "https://www.izumichino.tk/"
+    - name: "小莫の Base 小小少年，没有烦恼"
+      url: "https://mou.best/"
+    - name: "梦墨 's Blog 这个人很懒，但 ta 似乎留下了什么？"
+      url: "https://blog.dreamo.ink/"
+    - name: "Zapic's Blog 一般路过啥也不会 Zapic 的博客"
+      url: "https://blog.zapic.moe/"
+    - name: "Sxyazi’s blog 是雅的窝"
+      url: "https://sxyz.blog/"
+    - name: "幽若工房 一个写代码有些菜的小水母"
+      url: "http://blog.aquaia.xyz/"
+    - name: "浅雨阁 人间离别易多时，湿红恨墨浅封题"
+      url: "https://qianyuchan.com/"
+    - name: "冰柠配绿茶的秘密后花园 让美好的时光常驻"
+      url: "https://frozenlemontee.top/"
+    - name: "dpkg123 书山有路勤为径，学海无涯苦作舟"
+      url: "https://dpkg123.top"
+    - name: "红色森林 RedForest 的旧梦呓语"
+      url: "https://redforest.org.cn/"
+    - name: "御坂秋生 不努力就只能听到别人的好消息"
+      url: "https://www.akio.top"
+    - name: "SkyHigh SkyHigh'Site"
+      url: "https://skyhigh.moe"
+    - name: "王鑫 活着就是为了折腾！"
+      url: "https://wxweb.xyz/"

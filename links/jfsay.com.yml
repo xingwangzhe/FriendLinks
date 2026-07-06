@@ -1,12 +1,12 @@
 site:
-  name: 'jfsay.com'
-  url: 'https://www.jfsay.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "jfsay.com"
+  url: "https://www.jfsay.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '喷嚏网'
-      url: 'https://www.dapenti.com'
-    - name: '博海拾贝'
-      url: 'https://www.bohaishibei.com/'
-    - name: '月光博客'
-      url: 'https://www.williamlong.info/'
+    - name: "喷嚏网"
+      url: "https://www.dapenti.com"
+    - name: "博海拾贝"
+      url: "https://www.bohaishibei.com/"
+    - name: "月光博客"
+      url: "https://www.williamlong.info/"

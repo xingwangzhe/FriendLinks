@@ -1,12 +1,12 @@
 site:
-  name: 'falkoriemenschneider.de'
-  url: 'https://falkoriemenschneider.de/'
-  description: '友情链接'
-  links: '/'
+  name: "falkoriemenschneider.de"
+  url: "https://falkoriemenschneider.de/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Thunderbird'
-      url: 'https://www.thunderbird.net'
-    - name: 'i3wm'
-      url: 'https://i3wm.org/'
+    - name: "Thunderbird"
+      url: "https://www.thunderbird.net"
+    - name: "i3wm"
+      url: "https://i3wm.org/"
     - name: '"Getting Things Done" (GTD)'
-      url: 'https://gettingthingsdone.com/'
+      url: "https://gettingthingsdone.com/"

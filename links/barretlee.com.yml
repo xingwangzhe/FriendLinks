@@ -1,12 +1,12 @@
 site:
-  name: 'barretlee.com'
-  url: 'https://www.barretlee.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "barretlee.com"
+  url: "https://www.barretlee.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '张鑫旭'
-      url: 'http://www.zhangxinxu.com'
-    - name: '次碳酸钴'
-      url: 'http://web-tinker.com'
-    - name: '阮一峰'
-      url: 'http://www.ruanyifeng.com'
+    - name: "张鑫旭"
+      url: "http://www.zhangxinxu.com"
+    - name: "次碳酸钴"
+      url: "http://web-tinker.com"
+    - name: "阮一峰"
+      url: "http://www.ruanyifeng.com"

@@ -1,94 +1,94 @@
 site:
-  name: 'ygsea.com'
-  url: 'https://www.ygsea.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "ygsea.com"
+  url: "https://www.ygsea.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '林海草原'
-      url: 'https://lhcy.org/'
-    - name: '老D博客'
-      url: 'https://laod.cn/'
-    - name: '缙哥哥的博客'
-      url: 'https://www.dujin.org'
-    - name: '温风夏亿'
-      url: 'https://sumiler.com/'
-    - name: '明月登楼'
-      url: 'https://www.imydl.com/'
-    - name: '张戈博客'
-      url: 'https://zhangge.net/'
-    - name: '月光博客'
-      url: 'https://www.williamlong.info/'
-    - name: '郭泽宇'
-      url: 'https://guozeyu.com/'
-    - name: '烧饼博客'
-      url: 'https://sb.sb/'
-    - name: 'Topbook'
-      url: 'https://topbook.cc/'
-    - name: '杜老师'
-      url: 'http://dusays.com'
-    - name: '猪哥杂记'
-      url: 'http://blog.dazhu1988.com'
-    - name: '阳光少年'
-      url: 'http://mayanbin.com'
-    - name: 'malygos'
-      url: 'http://malygos1016.cn'
-    - name: '小文博客'
-      url: 'https://www.qcgzxw.cn/'
-    - name: '羽忆江南'
-      url: 'https://cily.cc/'
-    - name: '孤斗 [gū dóu]'
-      url: 'http://d-d.design'
-    - name: '森木志'
-      url: 'https://oxxx.cn/'
-    - name: '胡萝卜周'
-      url: 'http://www.carrotchou.blog/'
-    - name: '彩虹Smiling'
-      url: 'https://www.smilingblog.cn/'
-    - name: '清酒踏月'
-      url: 'https://kx.ms'
-    - name: '魔帆博客'
-      url: 'https://www.morfans.cn/'
-    - name: '沃森博客'
-      url: 'https://wosn.net/'
-    - name: '学子备战墙'
-      url: 'https://www.xzbzq.com/'
-    - name: 'METO 的部落格'
-      url: 'https://i-meto.com/'
-    - name: '奶爸de笔记'
-      url: 'https://blog.naibabiji.com/'
-    - name: 'SLiMan'
-      url: 'https://ilimeng.cn/'
-    - name: '范明明'
-      url: 'https://www.fanmingming.com/'
-    - name: '大鸟博客'
-      url: 'https://www.daniao.org/'
-    - name: '秘密花园'
-      url: 'http://www.yini.org/'
-    - name: '陈仓颉'
-      url: 'https://imzm.im/'
-    - name: '九十九封信'
-      url: 'https://blog.99xin.me/'
-    - name: '梦幻辰风'
-      url: 'https://www.mhcf.net'
-    - name: '沈yan'
-      url: 'https://qq52o.me/'
-    - name: '厘米天空'
-      url: 'https://www.cmsky.com/'
-    - name: 'edgElEss'
-      url: 'https://www.edgeless.top/'
-    - name: 'RATS'
-      url: 'https://www.moerats.com/'
-    - name: '莲梦青语'
-      url: 'http://lmqyu.cn'
-    - name: '业余无线电考试模拟'
-      url: 'https://www.cqid.cn/'
-    - name: '业余无线电'
-      url: 'http://www.439110.cn'
-    - name: '非礼勿言 Yelin''s Blog'
-      url: 'https://feiliwuyan.com/'
-    - name: '林逸Team'
-      url: 'https://linyi.team'
-    - name: '段煊洋'
-      url: 'http://huajitom.cn'
-    - name: '杨柳清风博客'
-      url: 'https://www.wzstack.com/'
+    - name: "林海草原"
+      url: "https://lhcy.org/"
+    - name: "老D博客"
+      url: "https://laod.cn/"
+    - name: "缙哥哥的博客"
+      url: "https://www.dujin.org"
+    - name: "温风夏亿"
+      url: "https://sumiler.com/"
+    - name: "明月登楼"
+      url: "https://www.imydl.com/"
+    - name: "张戈博客"
+      url: "https://zhangge.net/"
+    - name: "月光博客"
+      url: "https://www.williamlong.info/"
+    - name: "郭泽宇"
+      url: "https://guozeyu.com/"
+    - name: "烧饼博客"
+      url: "https://sb.sb/"
+    - name: "Topbook"
+      url: "https://topbook.cc/"
+    - name: "杜老师"
+      url: "http://dusays.com"
+    - name: "猪哥杂记"
+      url: "http://blog.dazhu1988.com"
+    - name: "阳光少年"
+      url: "http://mayanbin.com"
+    - name: "malygos"
+      url: "http://malygos1016.cn"
+    - name: "小文博客"
+      url: "https://www.qcgzxw.cn/"
+    - name: "羽忆江南"
+      url: "https://cily.cc/"
+    - name: "孤斗 [gū dóu]"
+      url: "http://d-d.design"
+    - name: "森木志"
+      url: "https://oxxx.cn/"
+    - name: "胡萝卜周"
+      url: "http://www.carrotchou.blog/"
+    - name: "彩虹Smiling"
+      url: "https://www.smilingblog.cn/"
+    - name: "清酒踏月"
+      url: "https://kx.ms"
+    - name: "魔帆博客"
+      url: "https://www.morfans.cn/"
+    - name: "沃森博客"
+      url: "https://wosn.net/"
+    - name: "学子备战墙"
+      url: "https://www.xzbzq.com/"
+    - name: "METO 的部落格"
+      url: "https://i-meto.com/"
+    - name: "奶爸de笔记"
+      url: "https://blog.naibabiji.com/"
+    - name: "SLiMan"
+      url: "https://ilimeng.cn/"
+    - name: "范明明"
+      url: "https://www.fanmingming.com/"
+    - name: "大鸟博客"
+      url: "https://www.daniao.org/"
+    - name: "秘密花园"
+      url: "http://www.yini.org/"
+    - name: "陈仓颉"
+      url: "https://imzm.im/"
+    - name: "九十九封信"
+      url: "https://blog.99xin.me/"
+    - name: "梦幻辰风"
+      url: "https://www.mhcf.net"
+    - name: "沈yan"
+      url: "https://qq52o.me/"
+    - name: "厘米天空"
+      url: "https://www.cmsky.com/"
+    - name: "edgElEss"
+      url: "https://www.edgeless.top/"
+    - name: "RATS"
+      url: "https://www.moerats.com/"
+    - name: "莲梦青语"
+      url: "http://lmqyu.cn"
+    - name: "业余无线电考试模拟"
+      url: "https://www.cqid.cn/"
+    - name: "业余无线电"
+      url: "http://www.439110.cn"
+    - name: "非礼勿言 Yelin's Blog"
+      url: "https://feiliwuyan.com/"
+    - name: "林逸Team"
+      url: "https://linyi.team"
+    - name: "段煊洋"
+      url: "http://huajitom.cn"
+    - name: "杨柳清风博客"
+      url: "https://www.wzstack.com/"

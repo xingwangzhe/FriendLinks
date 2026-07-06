@@ -1,14 +1,14 @@
 site:
-  name: 'linjhs.com'
-  url: 'https://linjhs.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "linjhs.com"
+  url: "https://linjhs.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Dark零点博客 18:00'
-      url: 'https://www.tenca.cn'
-    - name: '张洪Heo 13:43'
-      url: 'https://blog.zhheo.com/'
-    - name: '茗辰原 19:26'
-      url: 'https://mingcy.cn '
-    - name: '小林酱博客 01:40'
-      url: 'https://blog.zxiaolin.com'
+    - name: "Dark零点博客 18:00"
+      url: "https://www.tenca.cn"
+    - name: "张洪Heo 13:43"
+      url: "https://blog.zhheo.com/"
+    - name: "茗辰原 19:26"
+      url: "https://mingcy.cn "
+    - name: "小林酱博客 01:40"
+      url: "https://blog.zxiaolin.com"

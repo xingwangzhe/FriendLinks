@@ -1,78 +1,78 @@
 site:
-  name: 'matrixcore.love'
-  url: 'https://matrixcore.love/'
-  description: '友情链接'
-  links: '/links'
+  name: "matrixcore.love"
+  url: "https://matrixcore.love/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Tangly'
-      url: 'https://blog.tangly1024.com/'
-    - name: 'imaegoo'
-      url: 'https://www.imaegoo.com/'
-    - name: 'Yeshu'
-      url: 'https://yeshu.cloud/'
-    - name: 'Stephen Leng'
-      url: 'https://stephenleng.com/'
-    - name: 'Liu Yuyang'
-      url: 'http://liuyuyang.net/'
-    - name: '小码同学'
-      url: 'https://blog.hikki.site/'
-    - name: 'Dsuper'
-      url: 'https://dsuper.xyz/'
-    - name: 'Yumo'
-      url: 'https://www.yumoyumo.top/'
-    - name: 'Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: '1874.cool'
-      url: 'https://blog.1874.cool/'
-    - name: 'Yayu'
-      url: 'https://yayu.net/'
-    - name: 'Wang Yushuang'
-      url: 'https://wys.bbwx.com'
-    - name: 'Hsuyeung'
-      url: 'https://www.hsuyeung.com/'
-    - name: 'Chenge'
-      url: 'https://chenge.ink/'
-    - name: 'VeryJack'
-      url: 'https://veryjack.com/'
-    - name: 'Wang Yurui'
-      url: 'https://wangyurui.com/'
-    - name: 'Yinji'
-      url: 'https://yinji.org/'
-    - name: 'Autumnus'
-      url: 'https://www.autumnus.cn/'
-    - name: 'Liveout'
-      url: 'https://www.liveout.cn/'
-    - name: 'Baichuanweb'
-      url: 'https://www.baichuanweb.cn/'
-    - name: 'Gaspard'
-      url: 'https://www.gaspard.top/'
-    - name: 'Xiaohuadou'
-      url: 'https://xiaohuadou.top/'
-    - name: 'CCKnbc'
-      url: 'https://blog.ccknbc.cc/'
-    - name: 'Lvems'
-      url: 'https://blog.lvems.top/'
-    - name: 'Dhbxs'
-      url: 'https://blog.dhbxs.top/'
-    - name: 'Thyuu'
-      url: 'https://www.thyuu.com/'
-    - name: 'Kuangyichen'
-      url: 'https://kuangyichen.com/'
-    - name: 'Tanglu'
-      url: 'https://blog.tanglu.me/'
-    - name: 'Dusays'
-      url: 'https://dusays.com/'
-    - name: 'Mr Wu'
-      url: 'https://www.mr-wu.cn/'
-    - name: 'Andawell'
-      url: 'http://www.andawell.com/'
-    - name: 'GMCLLP'
-      url: 'https://www.gmcllp.cn/'
-    - name: 'Dalechu'
-      url: 'https://www.dalechu.cn/'
-    - name: '阮一峰'
-      url: 'http://ruanyifeng.com/'
-    - name: 'Shiyu'
-      url: 'https://shiyu.dev/'
-    - name: 'Skywt'
-      url: 'https://skywt.cn/'
+    - name: "Tangly"
+      url: "https://blog.tangly1024.com/"
+    - name: "imaegoo"
+      url: "https://www.imaegoo.com/"
+    - name: "Yeshu"
+      url: "https://yeshu.cloud/"
+    - name: "Stephen Leng"
+      url: "https://stephenleng.com/"
+    - name: "Liu Yuyang"
+      url: "http://liuyuyang.net/"
+    - name: "小码同学"
+      url: "https://blog.hikki.site/"
+    - name: "Dsuper"
+      url: "https://dsuper.xyz/"
+    - name: "Yumo"
+      url: "https://www.yumoyumo.top/"
+    - name: "Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "1874.cool"
+      url: "https://blog.1874.cool/"
+    - name: "Yayu"
+      url: "https://yayu.net/"
+    - name: "Wang Yushuang"
+      url: "https://wys.bbwx.com"
+    - name: "Hsuyeung"
+      url: "https://www.hsuyeung.com/"
+    - name: "Chenge"
+      url: "https://chenge.ink/"
+    - name: "VeryJack"
+      url: "https://veryjack.com/"
+    - name: "Wang Yurui"
+      url: "https://wangyurui.com/"
+    - name: "Yinji"
+      url: "https://yinji.org/"
+    - name: "Autumnus"
+      url: "https://www.autumnus.cn/"
+    - name: "Liveout"
+      url: "https://www.liveout.cn/"
+    - name: "Baichuanweb"
+      url: "https://www.baichuanweb.cn/"
+    - name: "Gaspard"
+      url: "https://www.gaspard.top/"
+    - name: "Xiaohuadou"
+      url: "https://xiaohuadou.top/"
+    - name: "CCKnbc"
+      url: "https://blog.ccknbc.cc/"
+    - name: "Lvems"
+      url: "https://blog.lvems.top/"
+    - name: "Dhbxs"
+      url: "https://blog.dhbxs.top/"
+    - name: "Thyuu"
+      url: "https://www.thyuu.com/"
+    - name: "Kuangyichen"
+      url: "https://kuangyichen.com/"
+    - name: "Tanglu"
+      url: "https://blog.tanglu.me/"
+    - name: "Dusays"
+      url: "https://dusays.com/"
+    - name: "Mr Wu"
+      url: "https://www.mr-wu.cn/"
+    - name: "Andawell"
+      url: "http://www.andawell.com/"
+    - name: "GMCLLP"
+      url: "https://www.gmcllp.cn/"
+    - name: "Dalechu"
+      url: "https://www.dalechu.cn/"
+    - name: "阮一峰"
+      url: "http://ruanyifeng.com/"
+    - name: "Shiyu"
+      url: "https://shiyu.dev/"
+    - name: "Skywt"
+      url: "https://skywt.cn/"

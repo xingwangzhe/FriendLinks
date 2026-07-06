@@ -1,58 +1,58 @@
 site:
-  name: 'blog.walterlv.com'
-  url: 'https://blog.walterlv.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.walterlv.com"
+  url: "https://blog.walterlv.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '林德熙 https://blog.lindexi.com/'
-      url: 'https://blog.lindexi.com/'
-    - name: '李少珺'
-      url: 'https://blog.sdlsj.net/'
-    - name: '林晓lx'
-      url: 'https://blog.matoapp.net/'
-    - name: '码友网'
-      url: 'https://codedefault.com/'
-    - name: '吴波 - 叹为观止'
-      url: 'http://blog.vichamp.com/'
-    - name: 'Edi Wang'
-      url: 'http://edi.wang/'
-    - name: '云乡 - 云之幻'
-      url: 'https://blog.richasy.cn/'
-    - name: '蓝火火'
-      url: 'https://blog.ultrabluefire.cn/'
-    - name: 'LiesAuer’s Blog'
-      url: 'http://www.liesauer.net/'
-    - name: '未来代码研究所'
-      url: 'http://blog.atelier39.org/'
-    - name: '沨沄的博客 - FoxGeeker Blog'
-      url: 'http://ifoxfactory.com/'
-    - name: '迪莫的小站'
-      url: 'https://www.dimojang.com/'
-    - name: '木杉的博客 - 要么精通，要么死'
-      url: 'http://imushan.com/'
-    - name: 'gandalfliang的个人博客'
-      url: 'https://gandalfliang.github.io/'
-    - name: '黄腾霄 - huangtengxiao'
-      url: 'https://huangtengxiao.gitee.io/'
-    - name: 'Neal’s Blog'
-      url: 'https://getandplay.github.io/'
-    - name: '离开 wolfleave.github.io'
-      url: 'https://wolfleave.github.io/'
-    - name: '老赵点滴 - 追求编程之美'
-      url: 'http://blog.zhaojie.me/'
-    - name: 'YOYOFx - .NET Core & Microservices'
-      url: 'http://blog.microservice4.net/'
-    - name: 'VALID VOID'
-      url: 'https://validvoid.net/'
-    - name: 'Sabia科学研究所'
-      url: 'https://www.sabia.cc/'
-    - name: 'Nick Waggoner – Thoughs and Inishgts on Software, Leadership, Business, & Effect'
-      url: 'http://www.nickwaggoner.com/'
-    - name: 'Nate McMaster'
-      url: 'https://www.natemcmaster.com/'
-    - name: 'Stephen Cleary (the blog)'
-      url: 'https://blog.stephencleary.com/'
-    - name: 'Hacker Newsletter 每周精选'
-      url: 'https://www.hackernewsletter.com/'
-    - name: 'Nicky Case: The Internet Experience™'
-      url: 'http://ncase.me/'
+    - name: "林德熙 https://blog.lindexi.com/"
+      url: "https://blog.lindexi.com/"
+    - name: "李少珺"
+      url: "https://blog.sdlsj.net/"
+    - name: "林晓lx"
+      url: "https://blog.matoapp.net/"
+    - name: "码友网"
+      url: "https://codedefault.com/"
+    - name: "吴波 - 叹为观止"
+      url: "http://blog.vichamp.com/"
+    - name: "Edi Wang"
+      url: "http://edi.wang/"
+    - name: "云乡 - 云之幻"
+      url: "https://blog.richasy.cn/"
+    - name: "蓝火火"
+      url: "https://blog.ultrabluefire.cn/"
+    - name: "LiesAuer’s Blog"
+      url: "http://www.liesauer.net/"
+    - name: "未来代码研究所"
+      url: "http://blog.atelier39.org/"
+    - name: "沨沄的博客 - FoxGeeker Blog"
+      url: "http://ifoxfactory.com/"
+    - name: "迪莫的小站"
+      url: "https://www.dimojang.com/"
+    - name: "木杉的博客 - 要么精通，要么死"
+      url: "http://imushan.com/"
+    - name: "gandalfliang的个人博客"
+      url: "https://gandalfliang.github.io/"
+    - name: "黄腾霄 - huangtengxiao"
+      url: "https://huangtengxiao.gitee.io/"
+    - name: "Neal’s Blog"
+      url: "https://getandplay.github.io/"
+    - name: "离开 wolfleave.github.io"
+      url: "https://wolfleave.github.io/"
+    - name: "老赵点滴 - 追求编程之美"
+      url: "http://blog.zhaojie.me/"
+    - name: "YOYOFx - .NET Core & Microservices"
+      url: "http://blog.microservice4.net/"
+    - name: "VALID VOID"
+      url: "https://validvoid.net/"
+    - name: "Sabia科学研究所"
+      url: "https://www.sabia.cc/"
+    - name: "Nick Waggoner – Thoughs and Inishgts on Software, Leadership, Business, & Effect"
+      url: "http://www.nickwaggoner.com/"
+    - name: "Nate McMaster"
+      url: "https://www.natemcmaster.com/"
+    - name: "Stephen Cleary (the blog)"
+      url: "https://blog.stephencleary.com/"
+    - name: "Hacker Newsletter 每周精选"
+      url: "https://www.hackernewsletter.com/"
+    - name: "Nicky Case: The Internet Experience™"
+      url: "http://ncase.me/"

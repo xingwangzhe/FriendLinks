@@ -1,12 +1,12 @@
 site:
-  name: 'wingrew.com'
-  url: 'https://wingrew.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "wingrew.com"
+  url: "https://wingrew.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Abnerhexu Abnerhexu blog'
-      url: 'https://hexu.shahe.org/'
-    - name: 'Latency426 Latency426 blog'
-      url: 'https://blog.hifuu.ink'
-    - name: 'Yuxin Zhao Yuxin Zhao blog'
-      url: 'https://zyx040301.github.io/'
+    - name: "Abnerhexu Abnerhexu blog"
+      url: "https://hexu.shahe.org/"
+    - name: "Latency426 Latency426 blog"
+      url: "https://blog.hifuu.ink"
+    - name: "Yuxin Zhao Yuxin Zhao blog"
+      url: "https://zyx040301.github.io/"

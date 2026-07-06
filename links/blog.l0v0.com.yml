@@ -1,66 +1,66 @@
 site:
-  name: 'blog.l0v0.com'
-  url: 'https://blog.l0v0.com/'
-  description: '友情链接'
-  links: '/link'
+  name: "blog.l0v0.com"
+  url: "https://blog.l0v0.com/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: '师弟的博客'
-      url: 'http://opda.tech'
-    - name: '同学博客'
-      url: 'https://vannyyuan.github.io/'
-    - name: '超强的 CG Notion 博客'
-      url: 'https://mycgdoc.com/'
-    - name: '一半君的总结纸how to 系列 - 受益匪浅'
-      url: 'https://ilmvfx.wordpress.com/'
-    - name: '机器猫个人网站江湖人称：猫大 - CG圈的老前辈了'
-      url: 'http://www.sucialism.com/'
-    - name: 'Adu Blog'
-      url: 'http://www.aducg.com/'
-    - name: 'elmagnifico'
-      url: 'http://elmagnifico.tech/'
-    - name: 'Chad Vernon'
-      url: 'https://www.chadvernon.com/'
-    - name: 'trikingo'
-      url: 'https://trikingo.com/'
-    - name: 'DAVID CUELLAR'
-      url: 'http://www.davidcuellar.es/'
-    - name: 'Perry Leijtene'
-      url: 'http://www.perryleijten.com/#'
-    - name: 'Trevor van Hoof'
-      url: 'http://www.trevorius.com/'
-    - name: 'Michael CometComet 的 mel 脚本 超古老 超经典'
-      url: 'http://comet-cartoons.com/'
-    - name: 'stargrav'
-      url: 'https://www.stargrav.com/'
-    - name: 'Noah Alzayer'
-      url: 'https://noahalzayer.net/'
-    - name: 'Stepan Jirka'
-      url: 'http://www.stepanjirka.com/'
-    - name: 'CESAR SAEZ'
-      url: 'https://www.cesarsaez.me/'
-    - name: 'Fredrik Averpil'
-      url: 'https://fredrikaverpil.github.io/'
-    - name: 'Dan Ostrov'
-      url: 'http://danostrov.com/'
-    - name: 'odederell3d 引擎&DCC两开花'
-      url: 'https://odederell3d.blog/'
-    - name: '查利鹏 腾讯大佬'
-      url: 'https://imzlp.me/'
-    - name: '玄冬Wong'
-      url: 'https://dawnarc.com/'
-    - name: 'Gamedev Guide'
-      url: 'https://bebylon.dev/'
-    - name: '技术奇异点'
-      url: 'https://techsingular.net/'
-    - name: 'demofox 巨佬'
-      url: 'http://demofox.org/'
-    - name: 'RND 巨佬'
-      url: 'http://ma-yidong.com/'
-    - name: '钟凌霄'
-      url: 'https://kazen-renderer.github.io/'
-    - name: '纯洁的微笑'
-      url: 'http://www.mooooc.com/'
-    - name: '猎人杂货铺'
-      url: 'https://hunterx.xyz/'
-    - name: '好动分子'
-      url: 'https://www.animator.idv.tw/'
+    - name: "师弟的博客"
+      url: "http://opda.tech"
+    - name: "同学博客"
+      url: "https://vannyyuan.github.io/"
+    - name: "超强的 CG Notion 博客"
+      url: "https://mycgdoc.com/"
+    - name: "一半君的总结纸how to 系列 - 受益匪浅"
+      url: "https://ilmvfx.wordpress.com/"
+    - name: "机器猫个人网站江湖人称：猫大 - CG圈的老前辈了"
+      url: "http://www.sucialism.com/"
+    - name: "Adu Blog"
+      url: "http://www.aducg.com/"
+    - name: "elmagnifico"
+      url: "http://elmagnifico.tech/"
+    - name: "Chad Vernon"
+      url: "https://www.chadvernon.com/"
+    - name: "trikingo"
+      url: "https://trikingo.com/"
+    - name: "DAVID CUELLAR"
+      url: "http://www.davidcuellar.es/"
+    - name: "Perry Leijtene"
+      url: "http://www.perryleijten.com/#"
+    - name: "Trevor van Hoof"
+      url: "http://www.trevorius.com/"
+    - name: "Michael CometComet 的 mel 脚本 超古老 超经典"
+      url: "http://comet-cartoons.com/"
+    - name: "stargrav"
+      url: "https://www.stargrav.com/"
+    - name: "Noah Alzayer"
+      url: "https://noahalzayer.net/"
+    - name: "Stepan Jirka"
+      url: "http://www.stepanjirka.com/"
+    - name: "CESAR SAEZ"
+      url: "https://www.cesarsaez.me/"
+    - name: "Fredrik Averpil"
+      url: "https://fredrikaverpil.github.io/"
+    - name: "Dan Ostrov"
+      url: "http://danostrov.com/"
+    - name: "odederell3d 引擎&DCC两开花"
+      url: "https://odederell3d.blog/"
+    - name: "查利鹏 腾讯大佬"
+      url: "https://imzlp.me/"
+    - name: "玄冬Wong"
+      url: "https://dawnarc.com/"
+    - name: "Gamedev Guide"
+      url: "https://bebylon.dev/"
+    - name: "技术奇异点"
+      url: "https://techsingular.net/"
+    - name: "demofox 巨佬"
+      url: "http://demofox.org/"
+    - name: "RND 巨佬"
+      url: "http://ma-yidong.com/"
+    - name: "钟凌霄"
+      url: "https://kazen-renderer.github.io/"
+    - name: "纯洁的微笑"
+      url: "http://www.mooooc.com/"
+    - name: "猎人杂货铺"
+      url: "https://hunterx.xyz/"
+    - name: "好动分子"
+      url: "https://www.animator.idv.tw/"

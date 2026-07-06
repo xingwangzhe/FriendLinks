@@ -1,12 +1,12 @@
 site:
-  name: 'blog.zmonster.top'
-  url: 'https://blog.zmonster.top/'
-  description: '友情链接'
-  links: '/'
+  name: "blog.zmonster.top"
+  url: "https://blog.zmonster.top/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Maven仓库'
-      url: 'https://mvnrepository.com'
-    - name: '珂泽小站'
-      url: 'https://www.kezez.com/'
-    - name: 'guqing''s blog'
-      url: 'https://guqing.io'
+    - name: "Maven仓库"
+      url: "https://mvnrepository.com"
+    - name: "珂泽小站"
+      url: "https://www.kezez.com/"
+    - name: "guqing's blog"
+      url: "https://guqing.io"

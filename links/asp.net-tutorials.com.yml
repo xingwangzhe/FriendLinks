@@ -1,12 +1,12 @@
 site:
-  name: 'asp.net-tutorials.com'
-  url: 'http://asp.net-tutorials.com/'
-  description: '友情链接'
-  links: '/'
+  name: "asp.net-tutorials.com"
+  url: "http://asp.net-tutorials.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'ASP.NET MVC'
-      url: 'http://asp.mvc-tutorial.com/'
-    - name: 'cheat sheet for the Razor syntax'
-      url: 'http://razorcheatsheet.com/'
-    - name: 'uni-systems.ru'
-      url: 'https://uni-systems.ru'
+    - name: "ASP.NET MVC"
+      url: "http://asp.mvc-tutorial.com/"
+    - name: "cheat sheet for the Razor syntax"
+      url: "http://razorcheatsheet.com/"
+    - name: "uni-systems.ru"
+      url: "https://uni-systems.ru"

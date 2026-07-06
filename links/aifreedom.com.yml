@@ -1,12 +1,12 @@
 site:
-  name: 'aifreedom.com'
-  url: 'http://aifreedom.com/'
-  description: '友情链接'
-  links: '/'
+  name: "aifreedom.com"
+  url: "http://aifreedom.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'GameShell'
-      url: 'https://www.clockworkpi.com/'
-    - name: 'RetroArch'
-      url: 'https://www.retroarch.com/'
-    - name: 'DOSBox'
-      url: 'https://www.dosbox.com/'
+    - name: "GameShell"
+      url: "https://www.clockworkpi.com/"
+    - name: "RetroArch"
+      url: "https://www.retroarch.com/"
+    - name: "DOSBox"
+      url: "https://www.dosbox.com/"

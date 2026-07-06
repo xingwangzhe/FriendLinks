@@ -1,10 +1,10 @@
 site:
-  name: 'blog.aizrf.com'
-  url: 'https://blog.aizrf.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.aizrf.com"
+  url: "https://blog.aizrf.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'ZRF.ME'
-      url: 'https://zrf.me/'
-    - name: 'TG-Blog'
-      url: 'https://tg.zrf.me/'
+    - name: "ZRF.ME"
+      url: "https://zrf.me/"
+    - name: "TG-Blog"
+      url: "https://tg.zrf.me/"

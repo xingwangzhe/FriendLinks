@@ -1,80 +1,80 @@
 site:
-  name: '啊不都'
-  url: 'https://oplog.cn/'
-  description: '友情链接'
-  links: '/links'
+  name: "啊不都"
+  url: "https://oplog.cn/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'iMaeGoo’s Blog'
-      url: 'https://www.imaegoo.com/'
-    - name: 'Ye-Tutu'
-      url: 'https://www.tutime.cn/'
-    - name: '你才到碗里去'
-      url: 'https://ncdwlq.space/'
-    - name: '青柠博客'
-      url: 'https://www.lihouse.xyz/'
-    - name: 'TomyJan'
-      url: 'https://blog.tomys.top/'
-    - name: '莫佚琐记'
-      url: 'https://moii.top/'
-    - name: 'Kaiboshi'
-      url: 'https://kaiboshi.gitee.io/'
-    - name: '动荡の初一少年'
-      url: 'https://www.yt-blog.top/'
-    - name: 'CyanFalse'
-      url: 'https://blog.eurekac.cn/'
-    - name: '孤影墨香'
-      url: 'https://www.gymxbl.com/'
-    - name: '公爵书房'
-      url: 'https://blog.gjcloak.top'
-    - name: '吹神小站'
-      url: 'https://chuishen.cf/'
-    - name: '陈鑫磊的博客'
-      url: 'https://www.cxl2020mc.top'
-    - name: 'Uyoahz'
-      url: 'https://uyoahz.cn'
-    - name: '今夕何夕兮'
-      url: 'https://www.ginc.site/'
-    - name: '莫莫逗狗'
-      url: 'https://blog.mocn.top'
-    - name: 'Xlenco'
-      url: 'https://xlenco.eu.org'
-    - name: 'Jeam'
-      url: 'https://jeam.org/'
-    - name: '字节君'
-      url: 'https://blog.lvbyte.top'
-    - name: 'HZK''s Blog'
-      url: 'https://blog.zekun.fun'
-    - name: 'Yuzifu''s Blog'
-      url: 'https://blog.yzf.moe/'
-    - name: 'Moraxyc''s Rhapsody'
-      url: 'https://blog.moraxyc.com/'
-    - name: '你瞅啥'
-      url: 'https://www.ncs.fun/'
-    - name: 'Apursuer'
-      url: 'https://iam.apursuer.com'
-    - name: '网笙久久'
-      url: 'https://www.wsjj.top'
-    - name: 'Wxory'
-      url: 'https://wxory.com'
-    - name: '兔兔博客'
-      url: 'https://blog.tutuxka.eu.org/'
-    - name: 'Cookie_987'
-      url: 'https://cookie987.top'
-    - name: 'Jerry Zhou'
-      url: 'https://blog.jerryz.com.cn/'
-    - name: '祈星海'
-      url: 'https://www.zzzzhi.com'
-    - name: 'KiteMoon Blog'
-      url: 'https://blog.13x.cc/'
-    - name: '萬事屋日记'
-      url: 'https://rjjr.cn/'
-    - name: '木子李'
-      url: 'https://www.muziliblog.com/'
-    - name: 'XingJiのBlog'
-      url: 'https://love.xingji.fun/'
-    - name: 'VayFou'
-      url: 'https://vayfou.cn'
-    - name: '葱苓小筑'
-      url: 'https://blog.ciraos.top'
-    - name: 'Update my browser now'
-      url: 'http://outdatedbrowser.com/'
+    - name: "iMaeGoo’s Blog"
+      url: "https://www.imaegoo.com/"
+    - name: "Ye-Tutu"
+      url: "https://www.tutime.cn/"
+    - name: "你才到碗里去"
+      url: "https://ncdwlq.space/"
+    - name: "青柠博客"
+      url: "https://www.lihouse.xyz/"
+    - name: "TomyJan"
+      url: "https://blog.tomys.top/"
+    - name: "莫佚琐记"
+      url: "https://moii.top/"
+    - name: "Kaiboshi"
+      url: "https://kaiboshi.gitee.io/"
+    - name: "动荡の初一少年"
+      url: "https://www.yt-blog.top/"
+    - name: "CyanFalse"
+      url: "https://blog.eurekac.cn/"
+    - name: "孤影墨香"
+      url: "https://www.gymxbl.com/"
+    - name: "公爵书房"
+      url: "https://blog.gjcloak.top"
+    - name: "吹神小站"
+      url: "https://chuishen.cf/"
+    - name: "陈鑫磊的博客"
+      url: "https://www.cxl2020mc.top"
+    - name: "Uyoahz"
+      url: "https://uyoahz.cn"
+    - name: "今夕何夕兮"
+      url: "https://www.ginc.site/"
+    - name: "莫莫逗狗"
+      url: "https://blog.mocn.top"
+    - name: "Xlenco"
+      url: "https://xlenco.eu.org"
+    - name: "Jeam"
+      url: "https://jeam.org/"
+    - name: "字节君"
+      url: "https://blog.lvbyte.top"
+    - name: "HZK's Blog"
+      url: "https://blog.zekun.fun"
+    - name: "Yuzifu's Blog"
+      url: "https://blog.yzf.moe/"
+    - name: "Moraxyc's Rhapsody"
+      url: "https://blog.moraxyc.com/"
+    - name: "你瞅啥"
+      url: "https://www.ncs.fun/"
+    - name: "Apursuer"
+      url: "https://iam.apursuer.com"
+    - name: "网笙久久"
+      url: "https://www.wsjj.top"
+    - name: "Wxory"
+      url: "https://wxory.com"
+    - name: "兔兔博客"
+      url: "https://blog.tutuxka.eu.org/"
+    - name: "Cookie_987"
+      url: "https://cookie987.top"
+    - name: "Jerry Zhou"
+      url: "https://blog.jerryz.com.cn/"
+    - name: "祈星海"
+      url: "https://www.zzzzhi.com"
+    - name: "KiteMoon Blog"
+      url: "https://blog.13x.cc/"
+    - name: "萬事屋日记"
+      url: "https://rjjr.cn/"
+    - name: "木子李"
+      url: "https://www.muziliblog.com/"
+    - name: "XingJiのBlog"
+      url: "https://love.xingji.fun/"
+    - name: "VayFou"
+      url: "https://vayfou.cn"
+    - name: "葱苓小筑"
+      url: "https://blog.ciraos.top"
+    - name: "Update my browser now"
+      url: "http://outdatedbrowser.com/"

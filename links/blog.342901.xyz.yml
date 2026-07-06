@@ -1,16 +1,16 @@
 site:
-  name: 'blog.342901.xyz'
-  url: 'https://blog.342901.xyz/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.342901.xyz"
+  url: "https://blog.342901.xyz/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Blog-CloudFlare'
-      url: 'https://geekswg.pages.dev/'
-    - name: 'Blog-Hexo-Anzhiyu'
-      url: 'https://hexo.geekswg.dpdns.org'
-    - name: '@Lruihao'
-      url: 'https://lruihao.cn'
-    - name: '@张洪Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: '@雨临Lewis'
-      url: 'https://lewky.cn'
+    - name: "Blog-CloudFlare"
+      url: "https://geekswg.pages.dev/"
+    - name: "Blog-Hexo-Anzhiyu"
+      url: "https://hexo.geekswg.dpdns.org"
+    - name: "@Lruihao"
+      url: "https://lruihao.cn"
+    - name: "@张洪Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "@雨临Lewis"
+      url: "https://lewky.cn"

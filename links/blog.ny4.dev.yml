@@ -1,20 +1,20 @@
 site:
-  name: 'blog.ny4.dev'
-  url: 'https://blog.ny4.dev/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.ny4.dev"
+  url: "https://blog.ny4.dev/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'prince213 sic vita est'
-      url: 'https://prince213.top/'
-    - name: 'This Cute World 忽而盛夏'
-      url: 'https://thiscute.world/'
-    - name: '悠笙の开发日记 愿世间万物都能被温柔以待'
-      url: 'https://www.iyoroy.cn/'
-    - name: '静静''s Blog 偶尔有电波信号出没。'
-      url: 'https://leak.moe/'
-    - name: 'pluie.me 普鲁伊'
-      url: 'https://pluie.me/'
-    - name: '後戸の国 边缘之地上的边缘节点'
-      url: 'https://www.dustymind.cc'
-    - name: 'lonerOrz lonerOrz''s website'
-      url: 'https://astro-blog-rosy.vercel.app/'
+    - name: "prince213 sic vita est"
+      url: "https://prince213.top/"
+    - name: "This Cute World 忽而盛夏"
+      url: "https://thiscute.world/"
+    - name: "悠笙の开发日记 愿世间万物都能被温柔以待"
+      url: "https://www.iyoroy.cn/"
+    - name: "静静's Blog 偶尔有电波信号出没。"
+      url: "https://leak.moe/"
+    - name: "pluie.me 普鲁伊"
+      url: "https://pluie.me/"
+    - name: "後戸の国 边缘之地上的边缘节点"
+      url: "https://www.dustymind.cc"
+    - name: "lonerOrz lonerOrz's website"
+      url: "https://astro-blog-rosy.vercel.app/"

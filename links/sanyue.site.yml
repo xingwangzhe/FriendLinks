@@ -1,14 +1,14 @@
 site:
-  name: 'sanyue.site'
-  url: 'https://sanyue.site/'
-  description: '友情链接'
-  links: '/friends'
+  name: "sanyue.site"
+  url: "https://sanyue.site/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '访问主页'
-      url: 'https://marseventh.github.io/'
-    - name: '访问主页'
-      url: 'https://uyjz.github.io/'
-    - name: '访问主页'
-      url: 'https://yangyzzzz.github.io/'
-    - name: '访问主页'
-      url: 'https://blog.imysen.com/'
+    - name: "访问主页"
+      url: "https://marseventh.github.io/"
+    - name: "访问主页"
+      url: "https://uyjz.github.io/"
+    - name: "访问主页"
+      url: "https://yangyzzzz.github.io/"
+    - name: "访问主页"
+      url: "https://blog.imysen.com/"

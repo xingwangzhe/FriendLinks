@@ -1,22 +1,22 @@
 site:
-  name: 'blog.xknow.net'
-  url: 'https://blog.xknow.net/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.xknow.net"
+  url: "https://blog.xknow.net/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '神田Kanda'
-      url: 'https://kanda.me'
-    - name: '码农日记'
-      url: 'https://www.androiddev.net/'
-    - name: '若是凉夜已成梦'
-      url: 'https://www.dreamwings.cn/'
-    - name: 'Hades x Blog'
-      url: 'https://blog.mayuko.cn/'
-    - name: '奋斗的承诺'
-      url: 'https://fddcn.cn/'
-    - name: 'ccav'
-      url: 'https://ccav.me/'
-    - name: '北美创业者的日常'
-      url: 'http://ie9.org/'
-    - name: '构建我的被动收入'
-      url: 'https://www.bmpi.dev/'
+    - name: "神田Kanda"
+      url: "https://kanda.me"
+    - name: "码农日记"
+      url: "https://www.androiddev.net/"
+    - name: "若是凉夜已成梦"
+      url: "https://www.dreamwings.cn/"
+    - name: "Hades x Blog"
+      url: "https://blog.mayuko.cn/"
+    - name: "奋斗的承诺"
+      url: "https://fddcn.cn/"
+    - name: "ccav"
+      url: "https://ccav.me/"
+    - name: "北美创业者的日常"
+      url: "http://ie9.org/"
+    - name: "构建我的被动收入"
+      url: "https://www.bmpi.dev/"

@@ -1,10 +1,10 @@
 site:
-  name: 'zhanzhang.me'
-  url: 'https://zhanzhang.me/'
-  description: '友情链接'
-  links: '/friends'
+  name: "zhanzhang.me"
+  url: "https://zhanzhang.me/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '王先生'
-      url: 'https://www.wangxiansheng.com'
-    - name: 'LiMhy'
-      url: 'https://i.lilog.cn/'
+    - name: "王先生"
+      url: "https://www.wangxiansheng.com"
+    - name: "LiMhy"
+      url: "https://i.lilog.cn/"

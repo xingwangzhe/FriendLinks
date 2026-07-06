@@ -1,10 +1,10 @@
 site:
-  name: 'trysmudford.com'
-  url: 'https://www.trysmudford.com/'
-  description: '友情链接'
-  links: '/'
+  name: "trysmudford.com"
+  url: "https://www.trysmudford.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Journalbook'
-      url: 'https://journalbook.co.uk'
-    - name: 'JS Pedalboard'
-      url: 'https://pedalboard.netlify.app/'
+    - name: "Journalbook"
+      url: "https://journalbook.co.uk"
+    - name: "JS Pedalboard"
+      url: "https://pedalboard.netlify.app/"

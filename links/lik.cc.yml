@@ -1,106 +1,106 @@
 site:
-  name: 'lik.cc'
-  url: 'https://www.lik.cc/'
-  description: '友情链接'
-  links: '/links'
+  name: "lik.cc"
+  url: "https://www.lik.cc/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Jiewen’blog'
-      url: 'https://www.jiewen.run/'
-    - name: '無名小栈'
-      url: 'https://blog.imsyy.top/'
-    - name: '寻梦城'
-      url: 'https://blog.study996.cn/'
-    - name: '风记星辰'
-      url: 'https://www.thyuu.com'
-    - name: 'Anyeの小站'
-      url: 'https://www.anye.xyz/'
-    - name: '清羽飞扬'
-      url: 'https://blog.liushen.fun/'
-    - name: '木因博客'
-      url: 'https://blog.muyin.site'
-    - name: 'KITA'
-      url: 'https://blog.houxiongxiong.icu/'
-    - name: 'webjing'
-      url: 'https://www.webjing.cn'
-    - name: 'DeQ Code Blog'
-      url: 'https://www.deq.plus/'
-    - name: '小马哥的故事'
-      url: 'https://maruifu.cn/'
-    - name: '回忆航线'
-      url: 'https://kunkunyu.com'
-    - name: 'Zwei''s Haven'
-      url: 'https://zwei.de.eu.org/'
-    - name: '停云博客'
-      url: 'https://tingyun.top'
-    - name: 'WishMeLz'
-      url: 'https://blog.itsse.cn'
-    - name: 'Jerry Zhou的个人博客'
-      url: 'https://blog.jerryz.com.cn'
-    - name: 'Simon’s Blog'
-      url: 'https://blog.glemon.cn'
-    - name: '叶泯希'
-      url: 'https://blog.418121.xyz/'
-    - name: '梦中小城小站'
-      url: 'https://www.llh1347.com'
-    - name: '我剑也未尝不利'
-      url: 'https://tch.cool'
-    - name: '谜叶象限'
-      url: 'https://baiwumm.com'
-    - name: '朝瓜夕拾'
-      url: 'https://yuubari.cn'
-    - name: '世上云川'
-      url: 'https://blog.ssyc.me'
-    - name: '星风之痕'
-      url: 'https://erzip.com'
-    - name: '知栖小筑'
-      url: 'https://www.halosb.com'
-    - name: 'liangbm3''s blog'
-      url: 'https://liangbm3.site/'
-    - name: '凡心远行'
-      url: 'https://blog.hallucodex.com/'
-    - name: '浮生闲记'
-      url: 'https://xsfly.com'
-    - name: '周天记'
-      url: 'https://zhoutian.com'
-    - name: 'Tim''s Blog'
-      url: 'https://blog.timxs.com'
-    - name: '拥抱日出的小屋'
-      url: 'https://ybrc.byside.top'
-    - name: 'Dark零点博客'
-      url: 'https://www.tenca.cn'
-    - name: '卖烤肉 | Carpe Diem'
-      url: 'https://b.ncii.cn'
-    - name: 'StarryMiku'
-      url: 'https://starrymiku.com'
-    - name: '蛋蛋之家'
-      url: 'https://wuqishi.com'
-    - name: 'wizzie blog'
-      url: 'https://wizzie.top'
-    - name: '小和恋爱记'
-      url: 'https://52he.cc/'
-    - name: '远方博客'
-      url: 'https://blog.ltyuanfang.cn/'
-    - name: '耳朵的主人'
-      url: 'https://www.edzbe.com'
-    - name: '轻雅阁'
-      url: 'https://www.puresky.top'
-    - name: 'LogDict'
-      url: 'https://www.logdict.com/'
-    - name: '小莫唐尼'
-      url: 'https://blog.xiaoxiaomo.cn/'
-    - name: '微光纪事'
-      url: 'https://blog.xwze.com/'
-    - name: 'PeakGao'
-      url: 'https://peakgao.cn'
-    - name: '极客日记'
-      url: 'https://www.explorexd.com'
-    - name: '八对星星'
-      url: 'https://www.8dui.com'
-    - name: '云云星羽'
-      url: 'https://starssr.com'
-    - name: '秘柯絮语'
-      url: 'https://www.mioc.cn'
-    - name: '山海寻川'
-      url: 'https://blog.mtnsea.cn'
-    - name: '左手平凡'
-      url: 'https://blog.perass.com/'
+    - name: "Jiewen’blog"
+      url: "https://www.jiewen.run/"
+    - name: "無名小栈"
+      url: "https://blog.imsyy.top/"
+    - name: "寻梦城"
+      url: "https://blog.study996.cn/"
+    - name: "风记星辰"
+      url: "https://www.thyuu.com"
+    - name: "Anyeの小站"
+      url: "https://www.anye.xyz/"
+    - name: "清羽飞扬"
+      url: "https://blog.liushen.fun/"
+    - name: "木因博客"
+      url: "https://blog.muyin.site"
+    - name: "KITA"
+      url: "https://blog.houxiongxiong.icu/"
+    - name: "webjing"
+      url: "https://www.webjing.cn"
+    - name: "DeQ Code Blog"
+      url: "https://www.deq.plus/"
+    - name: "小马哥的故事"
+      url: "https://maruifu.cn/"
+    - name: "回忆航线"
+      url: "https://kunkunyu.com"
+    - name: "Zwei's Haven"
+      url: "https://zwei.de.eu.org/"
+    - name: "停云博客"
+      url: "https://tingyun.top"
+    - name: "WishMeLz"
+      url: "https://blog.itsse.cn"
+    - name: "Jerry Zhou的个人博客"
+      url: "https://blog.jerryz.com.cn"
+    - name: "Simon’s Blog"
+      url: "https://blog.glemon.cn"
+    - name: "叶泯希"
+      url: "https://blog.418121.xyz/"
+    - name: "梦中小城小站"
+      url: "https://www.llh1347.com"
+    - name: "我剑也未尝不利"
+      url: "https://tch.cool"
+    - name: "谜叶象限"
+      url: "https://baiwumm.com"
+    - name: "朝瓜夕拾"
+      url: "https://yuubari.cn"
+    - name: "世上云川"
+      url: "https://blog.ssyc.me"
+    - name: "星风之痕"
+      url: "https://erzip.com"
+    - name: "知栖小筑"
+      url: "https://www.halosb.com"
+    - name: "liangbm3's blog"
+      url: "https://liangbm3.site/"
+    - name: "凡心远行"
+      url: "https://blog.hallucodex.com/"
+    - name: "浮生闲记"
+      url: "https://xsfly.com"
+    - name: "周天记"
+      url: "https://zhoutian.com"
+    - name: "Tim's Blog"
+      url: "https://blog.timxs.com"
+    - name: "拥抱日出的小屋"
+      url: "https://ybrc.byside.top"
+    - name: "Dark零点博客"
+      url: "https://www.tenca.cn"
+    - name: "卖烤肉 | Carpe Diem"
+      url: "https://b.ncii.cn"
+    - name: "StarryMiku"
+      url: "https://starrymiku.com"
+    - name: "蛋蛋之家"
+      url: "https://wuqishi.com"
+    - name: "wizzie blog"
+      url: "https://wizzie.top"
+    - name: "小和恋爱记"
+      url: "https://52he.cc/"
+    - name: "远方博客"
+      url: "https://blog.ltyuanfang.cn/"
+    - name: "耳朵的主人"
+      url: "https://www.edzbe.com"
+    - name: "轻雅阁"
+      url: "https://www.puresky.top"
+    - name: "LogDict"
+      url: "https://www.logdict.com/"
+    - name: "小莫唐尼"
+      url: "https://blog.xiaoxiaomo.cn/"
+    - name: "微光纪事"
+      url: "https://blog.xwze.com/"
+    - name: "PeakGao"
+      url: "https://peakgao.cn"
+    - name: "极客日记"
+      url: "https://www.explorexd.com"
+    - name: "八对星星"
+      url: "https://www.8dui.com"
+    - name: "云云星羽"
+      url: "https://starssr.com"
+    - name: "秘柯絮语"
+      url: "https://www.mioc.cn"
+    - name: "山海寻川"
+      url: "https://blog.mtnsea.cn"
+    - name: "左手平凡"
+      url: "https://blog.perass.com/"

@@ -1,76 +1,76 @@
 site:
-  name: 'auok.run'
-  url: 'https://auok.run/'
-  description: '友情链接'
-  links: '/links'
+  name: "auok.run"
+  url: "https://auok.run/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '业余无线电台操作技术能力验证报名考试系统'
-      url: 'http://www.sdradio.top/'
-    - name: '业余无线电分会CRAC'
-      url: 'http://www.crac.org.cn/'
-    - name: '中文寻星'
-      url: 'http://dtmb.saoing.com/'
-    - name: 'Ham SET'
-      url: 'https://ham-dev.c5r.app/'
-    - name: '中国空间站实时位置'
-      url: 'https://sathunt.com/'
-    - name: '互联网信息服务投诉平台'
-      url: 'https://ts.isc.org.cn/'
-    - name: '山东省教育招生考试院'
-      url: 'https://www.sdzk.cn/'
-    - name: 'orangeの博客'
-      url: 'https://julintongxue.github.io/'
-    - name: '东东'
-      url: 'https://nihaha.com/'
-    - name: '林三随笔'
-      url: 'https://linsan.net'
-    - name: '会coding的HAM'
-      url: 'https://blog.bg7zag.com'
-    - name: 'BG9EGA'
-      url: 'https://bg9ega.cn/'
-    - name: '山野愚人居'
-      url: 'https://www.iyuren.com/'
-    - name: '心灵博客'
-      url: 'http://blog.dngz.net/'
-    - name: '不良林'
-      url: 'https://bulianglin.com/'
-    - name: '七尺宇博客'
-      url: 'https://www.qichiyu.com/'
-    - name: '系统迷'
-      url: 'https://www.xitmi.com/'
-    - name: 'KoolCenter固件'
-      url: 'https://fw.koolcenter.com/'
-    - name: '码农书籍网'
-      url: 'https://www.manongbook.com/'
-    - name: 'VXAT'
-      url: 'https://www.vxat.com/'
-    - name: '异星软件空间'
-      url: 'https://www.yxssp.com'
-    - name: 'ZAPRO·杂铺'
-      url: 'https://tmioe.com/'
-    - name: 'Applnn.cc'
-      url: 'https://www.applnn.cc/'
-    - name: '晨云网络'
-      url: 'https://www.dawnpe.com/'
-    - name: '嘟嘟车联网'
-      url: 'https://dudu-lucky.com/'
-    - name: 'Photopea'
-      url: 'https://www.photopea.com/'
-    - name: '魔术橡皮擦'
-      url: 'https://www.magiceraser.io/'
-    - name: '多出口IP查询'
-      url: 'https://ip.skk.moe/'
-    - name: 'Crx搜搜'
-      url: 'https://www.crxsoso.com/'
-    - name: '全球航班飞行轨迹实时跟踪雷达'
-      url: 'https://flightadsb.variflight.com/'
-    - name: 'OFD 转 PDF'
-      url: 'http://www.ofdpage.com/'
-    - name: 'Simple Icons'
-      url: 'https://simpleicons.org/'
-    - name: 'Shields Io'
-      url: 'https://shields.io/'
-    - name: 'IP质量检测'
-      url: 'https://ipjiance.com/'
-    - name: 'UpToDown'
-      url: 'https://cn.uptodown.com/'
+    - name: "业余无线电台操作技术能力验证报名考试系统"
+      url: "http://www.sdradio.top/"
+    - name: "业余无线电分会CRAC"
+      url: "http://www.crac.org.cn/"
+    - name: "中文寻星"
+      url: "http://dtmb.saoing.com/"
+    - name: "Ham SET"
+      url: "https://ham-dev.c5r.app/"
+    - name: "中国空间站实时位置"
+      url: "https://sathunt.com/"
+    - name: "互联网信息服务投诉平台"
+      url: "https://ts.isc.org.cn/"
+    - name: "山东省教育招生考试院"
+      url: "https://www.sdzk.cn/"
+    - name: "orangeの博客"
+      url: "https://julintongxue.github.io/"
+    - name: "东东"
+      url: "https://nihaha.com/"
+    - name: "林三随笔"
+      url: "https://linsan.net"
+    - name: "会coding的HAM"
+      url: "https://blog.bg7zag.com"
+    - name: "BG9EGA"
+      url: "https://bg9ega.cn/"
+    - name: "山野愚人居"
+      url: "https://www.iyuren.com/"
+    - name: "心灵博客"
+      url: "http://blog.dngz.net/"
+    - name: "不良林"
+      url: "https://bulianglin.com/"
+    - name: "七尺宇博客"
+      url: "https://www.qichiyu.com/"
+    - name: "系统迷"
+      url: "https://www.xitmi.com/"
+    - name: "KoolCenter固件"
+      url: "https://fw.koolcenter.com/"
+    - name: "码农书籍网"
+      url: "https://www.manongbook.com/"
+    - name: "VXAT"
+      url: "https://www.vxat.com/"
+    - name: "异星软件空间"
+      url: "https://www.yxssp.com"
+    - name: "ZAPRO·杂铺"
+      url: "https://tmioe.com/"
+    - name: "Applnn.cc"
+      url: "https://www.applnn.cc/"
+    - name: "晨云网络"
+      url: "https://www.dawnpe.com/"
+    - name: "嘟嘟车联网"
+      url: "https://dudu-lucky.com/"
+    - name: "Photopea"
+      url: "https://www.photopea.com/"
+    - name: "魔术橡皮擦"
+      url: "https://www.magiceraser.io/"
+    - name: "多出口IP查询"
+      url: "https://ip.skk.moe/"
+    - name: "Crx搜搜"
+      url: "https://www.crxsoso.com/"
+    - name: "全球航班飞行轨迹实时跟踪雷达"
+      url: "https://flightadsb.variflight.com/"
+    - name: "OFD 转 PDF"
+      url: "http://www.ofdpage.com/"
+    - name: "Simple Icons"
+      url: "https://simpleicons.org/"
+    - name: "Shields Io"
+      url: "https://shields.io/"
+    - name: "IP质量检测"
+      url: "https://ipjiance.com/"
+    - name: "UpToDown"
+      url: "https://cn.uptodown.com/"

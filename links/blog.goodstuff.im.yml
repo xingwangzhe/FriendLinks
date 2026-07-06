@@ -1,16 +1,16 @@
 site:
-  name: 'blog.goodstuff.im'
-  url: 'https://blog.goodstuff.im/'
-  description: '友情链接'
-  links: '/'
+  name: "blog.goodstuff.im"
+  url: "https://blog.goodstuff.im/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Funcatron'
-      url: 'https://funcatron.org'
-    - name: 'Mesos'
-      url: 'https://mesosphere.com/'
-    - name: 'OpenResty'
-      url: 'http://openresty.org/'
-    - name: 'Swagger'
-      url: 'http://swagger.io'
-    - name: 'Telegram'
-      url: 'https://telegr.am'
+    - name: "Funcatron"
+      url: "https://funcatron.org"
+    - name: "Mesos"
+      url: "https://mesosphere.com/"
+    - name: "OpenResty"
+      url: "http://openresty.org/"
+    - name: "Swagger"
+      url: "http://swagger.io"
+    - name: "Telegram"
+      url: "https://telegr.am"

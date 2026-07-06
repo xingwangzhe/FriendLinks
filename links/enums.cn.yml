@@ -1,22 +1,22 @@
 site:
-  name: 'enums.cn'
-  url: 'https://enums.cn/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "enums.cn"
+  url: "https://enums.cn/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: '追梦人博客'
-      url: 'https://dream.ren'
-    - name: 'Ryan Zhang'
-      url: 'https://blog.bytesycn.cn/'
-    - name: 'Stars'
-      url: 'https://blog.augenstern.cn/'
-    - name: 'Xuan''s blog'
-      url: 'https://blog.ybyq.wang/'
-    - name: '橘纸柚 一个逗逼的博客'
-      url: 'https://lovemen.cc'
-    - name: '纸盒博客 我们，渺小到不可一世。'
-      url: 'https://zhebk.cn/'
-    - name: '寒夏摸鱼站 稀奇古怪技术集散地'
-      url: 'https://rainiar.top'
-    - name: '尊嘟假嘟翻译器 可以把翻译出的尊嘟语发给你不好好说话的朋友'
-      url: 'https://zdjd-1255998530.cos-website.ap-nanjing.myqcloud.com/'
+    - name: "追梦人博客"
+      url: "https://dream.ren"
+    - name: "Ryan Zhang"
+      url: "https://blog.bytesycn.cn/"
+    - name: "Stars"
+      url: "https://blog.augenstern.cn/"
+    - name: "Xuan's blog"
+      url: "https://blog.ybyq.wang/"
+    - name: "橘纸柚 一个逗逼的博客"
+      url: "https://lovemen.cc"
+    - name: "纸盒博客 我们，渺小到不可一世。"
+      url: "https://zhebk.cn/"
+    - name: "寒夏摸鱼站 稀奇古怪技术集散地"
+      url: "https://rainiar.top"
+    - name: "尊嘟假嘟翻译器 可以把翻译出的尊嘟语发给你不好好说话的朋友"
+      url: "https://zdjd-1255998530.cos-website.ap-nanjing.myqcloud.com/"

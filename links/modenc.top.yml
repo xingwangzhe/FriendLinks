@@ -1,18 +1,18 @@
 site:
-  name: 'modenc.top'
-  url: 'https://modenc.top/'
-  description: '友情链接'
-  links: '/friends'
+  name: "modenc.top"
+  url: "https://modenc.top/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '异想之旅'
-      url: 'https://blog.yxzl.dev/'
-    - name: '云朵角落'
-      url: 'https://blog.honahec.cc'
-    - name: 'RedBoy'
-      url: 'http://www.redboooy.top'
-    - name: 'Iron_Grey_'
-      url: 'https://irongrey.top/'
-    - name: 'Ray''s Blog'
-      url: 'https://mk1.io'
-    - name: 'vuepress-theme-plume'
-      url: 'https://theme-plume.vuejs.press'
+    - name: "异想之旅"
+      url: "https://blog.yxzl.dev/"
+    - name: "云朵角落"
+      url: "https://blog.honahec.cc"
+    - name: "RedBoy"
+      url: "http://www.redboooy.top"
+    - name: "Iron_Grey_"
+      url: "https://irongrey.top/"
+    - name: "Ray's Blog"
+      url: "https://mk1.io"
+    - name: "vuepress-theme-plume"
+      url: "https://theme-plume.vuejs.press"

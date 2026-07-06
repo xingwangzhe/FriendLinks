@@ -1,54 +1,54 @@
 site:
-  name: 'qianxu.run'
-  description: '友情链接'
-  url: 'https://qianxu.run/'
-  links: '/link'
+  name: "qianxu.run"
+  description: "友情链接"
+  url: "https://qianxu.run/"
+  links: "/link"
   friends:
-    - name: '国内'
-      url: 'http://blog.qxdn.fun'
-    - name: 'Zako'
-      url: 'https://zako.qxdn.fun'
-    - name: 'Zeromes Zeromes 咸鱼大学生'
-      url: 'https://www.zeromes.cn/'
-    - name: 'youmingsama youmingsama 摸鱼大师'
-      url: 'https://youmingsama.cn/'
-    - name: 'Akilarの糖果屋 Akilarの糖果屋 欢迎光临糖果屋'
-      url: 'https://akilar.top/'
-    - name: 'Eurkon Eurkon 及时当勉励，岁月不待人。'
-      url: 'https://blog.eurkon.com'
-    - name: '张洪Heo 张洪Heo 分享设计与科技生活'
-      url: 'https://blog.zhheo.com/'
-    - name: '微笑博客 微笑博客 知天易，易天难。'
-      url: 'https://www.wxjxw.cn/'
-    - name: 'iMaeGoo’s Blog iMaeGoo’s Blog 虹墨空间站'
-      url: 'https://www.imaegoo.com'
-    - name: 'pellucid pellucid'
-      url: 'https://pellucid.art/'
-    - name: '云烟成雨 云烟成雨 迷失的人迷失了，相逢的人会再相逢。'
-      url: 'https://shiyu.dev'
-    - name: 'Tianli Tianli 自知之明是最可贵的知识！'
-      url: 'https://tianli-blog.club/'
-    - name: '阳小楊 阳小楊 无人了解你的灵魂．'
-      url: 'https://blog.yxyang.top'
-    - name: 'Luminous’ Home Luminous’ Home 记录生活中的点滴'
-      url: 'https://luotianyi.vc/'
-    - name: '白 白 萌新初来乍到，还请各位多多关照！'
-      url: 'https://justmyblog.net/'
-    - name: '琅環书生 琅環书生 无远弗届，皆有可能'
-      url: 'https://blog.chn.us.kg'
-    - name: '小橙子 小橙子 日落归山海，山海藏深意。'
-      url: 'https://anorange.icu'
-    - name: '福福不服 福福不服 不服就是不服'
-      url: 'https://ffbf.top'
-    - name: '小旦 小旦 SNTube Studio'
-      url: 'https://satera.cn'
-    - name: 'zjuatri zjuatri アトリは、高性能ですから！'
-      url: 'https://zjuatri.cn'
-    - name: 'vvbbnn00 vvbbnn00 vvbbnn00的博客'
-      url: 'https://blog.vvbbnn00.cn'
-    - name: 'LovesAsunaの小窝 LovesAsunaの小窝 努力做高质量网站'
-      url: 'https://blog.hyosakura.com'
-    - name: 'Bleaz’s Blog Bleaz’s Blog 不畏过往，不惧将来'
-      url: 'https://blog.bleaz.net'
-    - name: 'BlogFinder BlogFinder BlogFinder'
-      url: 'https://bf.zzxworld.com/'
+    - name: "国内"
+      url: "http://blog.qxdn.fun"
+    - name: "Zako"
+      url: "https://zako.qxdn.fun"
+    - name: "Zeromes Zeromes 咸鱼大学生"
+      url: "https://www.zeromes.cn/"
+    - name: "youmingsama youmingsama 摸鱼大师"
+      url: "https://youmingsama.cn/"
+    - name: "Akilarの糖果屋 Akilarの糖果屋 欢迎光临糖果屋"
+      url: "https://akilar.top/"
+    - name: "Eurkon Eurkon 及时当勉励，岁月不待人。"
+      url: "https://blog.eurkon.com"
+    - name: "张洪Heo 张洪Heo 分享设计与科技生活"
+      url: "https://blog.zhheo.com/"
+    - name: "微笑博客 微笑博客 知天易，易天难。"
+      url: "https://www.wxjxw.cn/"
+    - name: "iMaeGoo’s Blog iMaeGoo’s Blog 虹墨空间站"
+      url: "https://www.imaegoo.com"
+    - name: "pellucid pellucid"
+      url: "https://pellucid.art/"
+    - name: "云烟成雨 云烟成雨 迷失的人迷失了，相逢的人会再相逢。"
+      url: "https://shiyu.dev"
+    - name: "Tianli Tianli 自知之明是最可贵的知识！"
+      url: "https://tianli-blog.club/"
+    - name: "阳小楊 阳小楊 无人了解你的灵魂．"
+      url: "https://blog.yxyang.top"
+    - name: "Luminous’ Home Luminous’ Home 记录生活中的点滴"
+      url: "https://luotianyi.vc/"
+    - name: "白 白 萌新初来乍到，还请各位多多关照！"
+      url: "https://justmyblog.net/"
+    - name: "琅環书生 琅環书生 无远弗届，皆有可能"
+      url: "https://blog.chn.us.kg"
+    - name: "小橙子 小橙子 日落归山海，山海藏深意。"
+      url: "https://anorange.icu"
+    - name: "福福不服 福福不服 不服就是不服"
+      url: "https://ffbf.top"
+    - name: "小旦 小旦 SNTube Studio"
+      url: "https://satera.cn"
+    - name: "zjuatri zjuatri アトリは、高性能ですから！"
+      url: "https://zjuatri.cn"
+    - name: "vvbbnn00 vvbbnn00 vvbbnn00的博客"
+      url: "https://blog.vvbbnn00.cn"
+    - name: "LovesAsunaの小窝 LovesAsunaの小窝 努力做高质量网站"
+      url: "https://blog.hyosakura.com"
+    - name: "Bleaz’s Blog Bleaz’s Blog 不畏过往，不惧将来"
+      url: "https://blog.bleaz.net"
+    - name: "BlogFinder BlogFinder BlogFinder"
+      url: "https://bf.zzxworld.com/"

@@ -1,166 +1,166 @@
 site:
-  name: 'harries.blog'
-  url: 'https://www.harries.blog/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "harries.blog"
+  url: "https://www.harries.blog/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: '一号门博客'
-      url: 'http://www.yihaomen.com'
-    - name: '月小升博客'
-      url: 'http://java-er.com/'
-    - name: 'FROYO''s Blog'
-      url: 'http://www.izhuyue.com'
-    - name: '连仕彤博客'
-      url: 'http://www.lianst.com/'
-    - name: 'ethan rosenthal'
-      url: 'https://www.ethanrosenthal.com/'
-    - name: 'java面试宝典'
-      url: 'https://java.liuhaihua.cn'
-    - name: '闲敲棋子'
-      url: 'http://blog.dylanvivi.com/'
-    - name: '养牛人博客'
-      url: 'http://www.yangniuren.cn/'
-    - name: '张亚东博客'
-      url: 'https://www.zhyd.me/'
-    - name: 'klinecharts'
-      url: 'https://klinecharts.com/'
-    - name: 'yizhan'
-      url: 'https://yizhan.club/'
-    - name: 'Vimer的程序世界'
-      url: 'http://www.vimer.cn/'
-    - name: '挨踢路'
-      url: 'https://itlu.net/'
-    - name: 'linuxea'
-      url: 'https://www.linuxea.com/'
-    - name: '西门飞冰的博客'
-      url: 'http://www.fblinux.com/'
-    - name: 'jenkov'
-      url: 'https://jenkov.com/'
-    - name: '发明者量化'
-      url: 'https://www.fmz.com/'
-    - name: 'joinquant'
-      url: 'https://www.joinquant.com/'
-    - name: 'businessnewsdaily'
-      url: 'https://www.businessnewsdaily.com/'
-    - name: 'pixso'
-      url: 'https://pixso.cn/'
-    - name: 'realpython'
-      url: 'https://realpython.com/'
-    - name: 'indiehackers'
-      url: 'https://www.indiehackers.com/'
-    - name: 'littledew'
-      url: 'https://littledew.com/'
-    - name: 'hawstein'
-      url: 'https://hawstein.com/'
-    - name: 'fiverr'
-      url: 'https://www.fiverr.com/'
-    - name: 'firstbase'
-      url: 'https://www.firstbase.io/'
-    - name: 'xushanxiang'
-      url: 'https://xushanxiang.com/'
-    - name: 'stephango'
-      url: 'https://stephango.com/'
-    - name: 'racknerd'
-      url: 'https://www.racknerd.com/'
-    - name: 'sa.net'
-      url: 'https://sa.net/'
-    - name: 'ingstart'
-      url: 'https://www.ingstart.com/'
-    - name: 'javadevjournal'
-      url: 'https://www.javadevjournal.com/'
-    - name: 'baeldung'
-      url: 'https://www.baeldung.com/'
-    - name: 'statichunt'
-      url: 'https://statichunt.com/'
-    - name: 'remote'
-      url: 'https://remote.work/'
-    - name: 'bootstrapmb'
-      url: 'https://www.bootstrapmb.com/'
-    - name: 'javaguides'
-      url: 'https://www.javaguides.net/'
-    - name: 'colorlib'
-      url: 'https://colorlib.com/'
-    - name: 'surmon'
-      url: 'https://surmon.me/'
-    - name: 'bitrefill'
-      url: 'https://www.bitrefill.com/'
-    - name: 'namesilo'
-      url: 'http://namesilo.com'
-    - name: 'acquire'
-      url: 'https://acquire.com/'
-    - name: 'digitalnomadlc'
-      url: 'https://www.digitalnomadlc.com/'
-    - name: 'anytimemailbox'
-      url: 'https://www.anytimemailbox.com/'
-    - name: 'wildcard'
-      url: 'https://wildcard.com.cn/'
-    - name: 'webmonkey'
-      url: 'https://www.webmonkey.com/'
-    - name: 'wyomingagents.com'
-      url: 'https://www.wyomingagents.com/'
-    - name: 'mercury'
-      url: 'http://www.mercury.com'
-    - name: 'relayfi'
-      url: 'https://relayfi.com/'
-    - name: 'brex'
-      url: 'https://www.brex.com/'
-    - name: 'registeredagentsinc'
-      url: 'https://www.registeredagentsinc.com/'
-    - name: 'semrush'
-      url: 'https://www.semrush.com/'
-    - name: 'northwestregisteredagent'
-      url: 'https://www.northwestregisteredagent.com/'
-    - name: 'remoteok'
-      url: 'https://remoteok.com/'
-    - name: 'etterstream'
-      url: 'https://www.letterstream.com/'
-    - name: 'us.hsbc'
-      url: 'https://ico-ao.us.hsbc.com/'
-    - name: '野草云'
-      url: 'https://www.yecaoyun.com/'
-    - name: 'hetzner'
-      url: 'https://www.hetzner.com/'
-    - name: 'pirateship'
-      url: 'https://www.pirateship.com/'
-    - name: 'alliantcreditunion'
-      url: 'https://www.alliantcreditunion.org/'
-    - name: 'fidelity'
-      url: 'https://www.fidelity.com/'
-    - name: 'quora'
-      url: 'https://www.quora.com/'
-    - name: 'groq'
-      url: 'https://groq.com/'
-    - name: '云卖家'
-      url: 'https://www.wecloudsellers.com/'
-    - name: '云居民'
-      url: 'https://www.yunjumin.com/'
-    - name: 'monetag'
-      url: 'https://monetag.com/'
-    - name: '灰常记忆'
-      url: 'https://bestcherish.com/'
-    - name: 'Quick Win'
-      url: 'https://qw.do/'
-    - name: 'US Cards'
-      url: 'https://thecards.us/'
-    - name: '小z博客'
-      url: 'https://blog.xiaoz.org/'
-    - name: '欧阳博客'
-      url: 'https://www.oyzm.cn/'
-    - name: 'indiehackertools'
-      url: 'https://indiehackertools.net/'
-    - name: '出海去'
-      url: 'https://newsletter.chuhaiqu.club/'
-    - name: '阳光星河'
-      url: 'https://www.276227.com'
-    - name: 'lilun'
-      url: 'https://lilun.me/'
-    - name: 'skills'
-      url: 'https://skills.lc/'
-    - name: 'linguadiary'
-      url: 'https://linguadiary.com/'
-    - name: 'startfast'
-      url: 'https://www.startfast.dev/'
-    - name: 'tryapi'
-      url: 'https://tryapi.dev/'
-    - name: 'stonkrider'
-      url: 'https://www.stonkrider.fun/'
+    - name: "一号门博客"
+      url: "http://www.yihaomen.com"
+    - name: "月小升博客"
+      url: "http://java-er.com/"
+    - name: "FROYO's Blog"
+      url: "http://www.izhuyue.com"
+    - name: "连仕彤博客"
+      url: "http://www.lianst.com/"
+    - name: "ethan rosenthal"
+      url: "https://www.ethanrosenthal.com/"
+    - name: "java面试宝典"
+      url: "https://java.liuhaihua.cn"
+    - name: "闲敲棋子"
+      url: "http://blog.dylanvivi.com/"
+    - name: "养牛人博客"
+      url: "http://www.yangniuren.cn/"
+    - name: "张亚东博客"
+      url: "https://www.zhyd.me/"
+    - name: "klinecharts"
+      url: "https://klinecharts.com/"
+    - name: "yizhan"
+      url: "https://yizhan.club/"
+    - name: "Vimer的程序世界"
+      url: "http://www.vimer.cn/"
+    - name: "挨踢路"
+      url: "https://itlu.net/"
+    - name: "linuxea"
+      url: "https://www.linuxea.com/"
+    - name: "西门飞冰的博客"
+      url: "http://www.fblinux.com/"
+    - name: "jenkov"
+      url: "https://jenkov.com/"
+    - name: "发明者量化"
+      url: "https://www.fmz.com/"
+    - name: "joinquant"
+      url: "https://www.joinquant.com/"
+    - name: "businessnewsdaily"
+      url: "https://www.businessnewsdaily.com/"
+    - name: "pixso"
+      url: "https://pixso.cn/"
+    - name: "realpython"
+      url: "https://realpython.com/"
+    - name: "indiehackers"
+      url: "https://www.indiehackers.com/"
+    - name: "littledew"
+      url: "https://littledew.com/"
+    - name: "hawstein"
+      url: "https://hawstein.com/"
+    - name: "fiverr"
+      url: "https://www.fiverr.com/"
+    - name: "firstbase"
+      url: "https://www.firstbase.io/"
+    - name: "xushanxiang"
+      url: "https://xushanxiang.com/"
+    - name: "stephango"
+      url: "https://stephango.com/"
+    - name: "racknerd"
+      url: "https://www.racknerd.com/"
+    - name: "sa.net"
+      url: "https://sa.net/"
+    - name: "ingstart"
+      url: "https://www.ingstart.com/"
+    - name: "javadevjournal"
+      url: "https://www.javadevjournal.com/"
+    - name: "baeldung"
+      url: "https://www.baeldung.com/"
+    - name: "statichunt"
+      url: "https://statichunt.com/"
+    - name: "remote"
+      url: "https://remote.work/"
+    - name: "bootstrapmb"
+      url: "https://www.bootstrapmb.com/"
+    - name: "javaguides"
+      url: "https://www.javaguides.net/"
+    - name: "colorlib"
+      url: "https://colorlib.com/"
+    - name: "surmon"
+      url: "https://surmon.me/"
+    - name: "bitrefill"
+      url: "https://www.bitrefill.com/"
+    - name: "namesilo"
+      url: "http://namesilo.com"
+    - name: "acquire"
+      url: "https://acquire.com/"
+    - name: "digitalnomadlc"
+      url: "https://www.digitalnomadlc.com/"
+    - name: "anytimemailbox"
+      url: "https://www.anytimemailbox.com/"
+    - name: "wildcard"
+      url: "https://wildcard.com.cn/"
+    - name: "webmonkey"
+      url: "https://www.webmonkey.com/"
+    - name: "wyomingagents.com"
+      url: "https://www.wyomingagents.com/"
+    - name: "mercury"
+      url: "http://www.mercury.com"
+    - name: "relayfi"
+      url: "https://relayfi.com/"
+    - name: "brex"
+      url: "https://www.brex.com/"
+    - name: "registeredagentsinc"
+      url: "https://www.registeredagentsinc.com/"
+    - name: "semrush"
+      url: "https://www.semrush.com/"
+    - name: "northwestregisteredagent"
+      url: "https://www.northwestregisteredagent.com/"
+    - name: "remoteok"
+      url: "https://remoteok.com/"
+    - name: "etterstream"
+      url: "https://www.letterstream.com/"
+    - name: "us.hsbc"
+      url: "https://ico-ao.us.hsbc.com/"
+    - name: "野草云"
+      url: "https://www.yecaoyun.com/"
+    - name: "hetzner"
+      url: "https://www.hetzner.com/"
+    - name: "pirateship"
+      url: "https://www.pirateship.com/"
+    - name: "alliantcreditunion"
+      url: "https://www.alliantcreditunion.org/"
+    - name: "fidelity"
+      url: "https://www.fidelity.com/"
+    - name: "quora"
+      url: "https://www.quora.com/"
+    - name: "groq"
+      url: "https://groq.com/"
+    - name: "云卖家"
+      url: "https://www.wecloudsellers.com/"
+    - name: "云居民"
+      url: "https://www.yunjumin.com/"
+    - name: "monetag"
+      url: "https://monetag.com/"
+    - name: "灰常记忆"
+      url: "https://bestcherish.com/"
+    - name: "Quick Win"
+      url: "https://qw.do/"
+    - name: "US Cards"
+      url: "https://thecards.us/"
+    - name: "小z博客"
+      url: "https://blog.xiaoz.org/"
+    - name: "欧阳博客"
+      url: "https://www.oyzm.cn/"
+    - name: "indiehackertools"
+      url: "https://indiehackertools.net/"
+    - name: "出海去"
+      url: "https://newsletter.chuhaiqu.club/"
+    - name: "阳光星河"
+      url: "https://www.276227.com"
+    - name: "lilun"
+      url: "https://lilun.me/"
+    - name: "skills"
+      url: "https://skills.lc/"
+    - name: "linguadiary"
+      url: "https://linguadiary.com/"
+    - name: "startfast"
+      url: "https://www.startfast.dev/"
+    - name: "tryapi"
+      url: "https://tryapi.dev/"
+    - name: "stonkrider"
+      url: "https://www.stonkrider.fun/"

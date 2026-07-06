@@ -1,16 +1,16 @@
 site:
-  name: 'blog.bluempty.com'
-  url: 'https://blog.bluempty.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.bluempty.com"
+  url: "https://blog.bluempty.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Integral’s Blog'
-      url: 'https://blog.i7arch.com'
-    - name: 'poly000客栈'
-      url: 'https://mokurin000.github.io'
-    - name: '依云’s Blog'
-      url: 'https://blog.lilydjwg.me/'
-    - name: 'Karuboniru’s Blog'
-      url: 'https://yanqiyu.info/'
-    - name: '喵’s StackHarbor'
-      url: 'https://sh.alynx.one/'
+    - name: "Integral’s Blog"
+      url: "https://blog.i7arch.com"
+    - name: "poly000客栈"
+      url: "https://mokurin000.github.io"
+    - name: "依云’s Blog"
+      url: "https://blog.lilydjwg.me/"
+    - name: "Karuboniru’s Blog"
+      url: "https://yanqiyu.info/"
+    - name: "喵’s StackHarbor"
+      url: "https://sh.alynx.one/"

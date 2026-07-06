@@ -1,8 +1,8 @@
 site:
-  name: 'howcode.online'
-  description: '友情链接'
-  url: 'https://howcode.online/'
-  links: '/link'
+  name: "howcode.online"
+  description: "友情链接"
+  url: "https://howcode.online/"
+  links: "/link"
   friends:
-    - name: 'vuePress-theme-reco'
-      url: 'https://vuepress-theme-reco.recoluan.com'
+    - name: "vuePress-theme-reco"
+      url: "https://vuepress-theme-reco.recoluan.com"

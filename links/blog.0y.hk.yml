@@ -1,14 +1,14 @@
 site:
-  name: 'blog.0y.hk'
-  url: 'https://blog.0y.hk/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.0y.hk"
+  url: "https://blog.0y.hk/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'yCENzh 爱你所爱！'
-      url: 'https://fuwari.oh1.top/'
-    - name: '二叉树树 爱你所爱！'
-      url: 'https://2x.nz'
-    - name: 'THW 前途似海，来日方长'
-      url: 'https://blog.tianhw.top'
-    - name: '晓正杨博客 让代码更有价值，让学生生活不再枯燥'
-      url: 'https://blog.7003410.xyz/'
+    - name: "yCENzh 爱你所爱！"
+      url: "https://fuwari.oh1.top/"
+    - name: "二叉树树 爱你所爱！"
+      url: "https://2x.nz"
+    - name: "THW 前途似海，来日方长"
+      url: "https://blog.tianhw.top"
+    - name: "晓正杨博客 让代码更有价值，让学生生活不再枯燥"
+      url: "https://blog.7003410.xyz/"

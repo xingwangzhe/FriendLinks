@@ -1,10 +1,10 @@
 site:
-  name: 'blog.dogxi.me'
-  url: 'https://blog.dogxi.me/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.dogxi.me"
+  url: "https://blog.dogxi.me/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Viki 写东西的地方'
-      url: 'https://blog.viki.moe'
+    - name: "Viki 写东西的地方"
+      url: "https://blog.viki.moe"
     - name: "luckixf的blog"
-      url: 'https://blog.luckixf.top'
+      url: "https://blog.luckixf.top"

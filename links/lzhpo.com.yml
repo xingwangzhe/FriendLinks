@@ -1,40 +1,40 @@
 site:
-  name: 'lzhpo.com'
-  url: 'https://www.lzhpo.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "lzhpo.com"
+  url: "https://www.lzhpo.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '蘑菇博客'
-      url: 'https://www.moguit.cn'
-    - name: 'Java菜市场'
-      url: 'https://www.javaweb.shop/'
-    - name: 'KEKC博客'
-      url: 'https://www.kekc.cn'
-    - name: 'mrbird'
-      url: 'https://mrbird.cc'
-    - name: 'gorpeln的个人博客'
-      url: 'https://gorpeln.top/'
-    - name: 'Sonder'
-      url: 'http://blog.musclewiki.cn'
-    - name: '执白的博客'
-      url: 'https://bbcfive.github.io'
-    - name: 'Baeldung'
-      url: 'https://www.baeldung.com/'
-    - name: '李文周的博客'
-      url: 'https://www.liwenzhou.com'
-    - name: 'HCYACG!'
-      url: 'https://www.hcyacg.com'
-    - name: 'Jadmin的博客'
-      url: 'http://www.xxc520.cn'
-    - name: 'LFhacks.com'
-      url: 'https://www.lfhacks.com'
-    - name: '邓尘锋'
-      url: 'http://surest.cn/'
-    - name: 'rxliuli blog'
-      url: 'https://blog.rxliuli.com'
-    - name: '不才''s blog'
-      url: 'https://www.notbucai.com'
-    - name: 'dengzi'
-      url: 'http://dengzii.com'
-    - name: '纤月的博客'
-      url: 'http://blog.tuwq.cn'
+    - name: "蘑菇博客"
+      url: "https://www.moguit.cn"
+    - name: "Java菜市场"
+      url: "https://www.javaweb.shop/"
+    - name: "KEKC博客"
+      url: "https://www.kekc.cn"
+    - name: "mrbird"
+      url: "https://mrbird.cc"
+    - name: "gorpeln的个人博客"
+      url: "https://gorpeln.top/"
+    - name: "Sonder"
+      url: "http://blog.musclewiki.cn"
+    - name: "执白的博客"
+      url: "https://bbcfive.github.io"
+    - name: "Baeldung"
+      url: "https://www.baeldung.com/"
+    - name: "李文周的博客"
+      url: "https://www.liwenzhou.com"
+    - name: "HCYACG!"
+      url: "https://www.hcyacg.com"
+    - name: "Jadmin的博客"
+      url: "http://www.xxc520.cn"
+    - name: "LFhacks.com"
+      url: "https://www.lfhacks.com"
+    - name: "邓尘锋"
+      url: "http://surest.cn/"
+    - name: "rxliuli blog"
+      url: "https://blog.rxliuli.com"
+    - name: "不才's blog"
+      url: "https://www.notbucai.com"
+    - name: "dengzi"
+      url: "http://dengzii.com"
+    - name: "纤月的博客"
+      url: "http://blog.tuwq.cn"

@@ -1,16 +1,16 @@
 site:
-  name: 'colobu.com'
-  url: 'https://colobu.com/'
-  description: '友情链接'
-  links: '/'
+  name: "colobu.com"
+  url: "https://colobu.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'RDMA in Go'
-      url: 'https://gordma.rpcx.io'
-    - name: 'Scapy in Go'
-      url: 'https://goscapy.rpcx.io'
-    - name: 'Karpathy''s Blog'
-      url: 'https://karpathy.ai'
-    - name: 'LangChain Blog'
-      url: 'https://blog.langchain.dev'
-    - name: 'Netflix技术博客'
-      url: 'https://netflixtechblog.com'
+    - name: "RDMA in Go"
+      url: "https://gordma.rpcx.io"
+    - name: "Scapy in Go"
+      url: "https://goscapy.rpcx.io"
+    - name: "Karpathy's Blog"
+      url: "https://karpathy.ai"
+    - name: "LangChain Blog"
+      url: "https://blog.langchain.dev"
+    - name: "Netflix技术博客"
+      url: "https://netflixtechblog.com"

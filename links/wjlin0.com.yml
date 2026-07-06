@@ -1,10 +1,10 @@
 site:
-  name: 'wjlin0.com'
-  url: 'https://wjlin0.com/'
-  description: '友情链接'
-  links: '/friends/'
+  name: "wjlin0.com"
+  url: "https://wjlin0.com/"
+  description: "友情链接"
+  links: "/friends/"
   friends:
-    - name: '张洪Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: '瓦匠不舟'
-      url: 'https://airy.ink/'
+    - name: "张洪Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "瓦匠不舟"
+      url: "https://airy.ink/"

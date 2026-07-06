@@ -1,10 +1,10 @@
 site:
-  name: 'bit.ly'
-  url: 'https://bit.ly/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "bit.ly"
+  url: "https://bit.ly/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: 'Spaces'
-      url: 'https://spaces.w3schools.com'
-    - name: 'My W3Schools'
-      url: 'https://pathfinder.w3schools.com'
+    - name: "Spaces"
+      url: "https://spaces.w3schools.com"
+    - name: "My W3Schools"
+      url: "https://pathfinder.w3schools.com"

@@ -1,24 +1,24 @@
 site:
-  name: 'amontalenti.com'
-  url: 'https://amontalenti.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "amontalenti.com"
+  url: "https://amontalenti.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '» https://px.app'
-      url: 'https://px.app'
-    - name: 'Salon.com'
-      url: 'http://www.salon.com'
-    - name: 'Alternet.org'
-      url: 'http://www.alternet.org'
-    - name: 'OSNews.com'
-      url: 'http://www.osnews.com'
-    - name: 'Slashdot.org'
-      url: 'http://www.slashdot.rog'
-    - name: 'TheRegister.co.uk'
-      url: 'http://www.theregister.co.uk'
-    - name: 'Havoc Pennington (GNOME developer)'
-      url: 'http://log.ometer.com'
-    - name: 'Danny Sullivan (on outsourcing)'
-      url: 'http://www.outsourcing-weblog.com/'
-    - name: 'Glade-3 UI Designer'
-      url: 'http://glade.gnome.org'
+    - name: "» https://px.app"
+      url: "https://px.app"
+    - name: "Salon.com"
+      url: "http://www.salon.com"
+    - name: "Alternet.org"
+      url: "http://www.alternet.org"
+    - name: "OSNews.com"
+      url: "http://www.osnews.com"
+    - name: "Slashdot.org"
+      url: "http://www.slashdot.rog"
+    - name: "TheRegister.co.uk"
+      url: "http://www.theregister.co.uk"
+    - name: "Havoc Pennington (GNOME developer)"
+      url: "http://log.ometer.com"
+    - name: "Danny Sullivan (on outsourcing)"
+      url: "http://www.outsourcing-weblog.com/"
+    - name: "Glade-3 UI Designer"
+      url: "http://glade.gnome.org"

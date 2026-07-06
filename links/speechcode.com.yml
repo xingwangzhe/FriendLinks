@@ -1,12 +1,12 @@
 site:
-  name: 'speechcode.com'
-  url: 'https://speechcode.com/'
-  description: '友情链接'
-  links: '/'
+  name: "speechcode.com"
+  url: "https://speechcode.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'ICFP 2022'
-      url: 'https://icfp22.sigplan.org/'
-    - name: 'ICFP 2019'
-      url: 'https://icfp19.sigplan.org/'
-    - name: 'Tandy Assembly'
-      url: 'http://www.tandyassembly.com/'
+    - name: "ICFP 2022"
+      url: "https://icfp22.sigplan.org/"
+    - name: "ICFP 2019"
+      url: "https://icfp19.sigplan.org/"
+    - name: "Tandy Assembly"
+      url: "http://www.tandyassembly.com/"

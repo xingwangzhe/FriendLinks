@@ -1,12 +1,12 @@
 site:
-  name: 'dgtea.site'
-  url: 'https://dgtea.site/'
-  description: '友情链接'
-  links: '/about'
+  name: "dgtea.site"
+  url: "https://dgtea.site/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: 'ScaredCube'
-      url: 'https://sccube.link/'
-    - name: 'Xiaomage’s blog'
-      url: 'https://blog.xmgspace.me/'
-    - name: 'Unknown netizen'
-      url: 'https://n0w0n.com/'
+    - name: "ScaredCube"
+      url: "https://sccube.link/"
+    - name: "Xiaomage’s blog"
+      url: "https://blog.xmgspace.me/"
+    - name: "Unknown netizen"
+      url: "https://n0w0n.com/"

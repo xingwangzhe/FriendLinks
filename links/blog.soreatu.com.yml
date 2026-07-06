@@ -1,84 +1,84 @@
 site:
-  name: 'blog.soreatu.com'
-  url: 'https://blog.soreatu.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.soreatu.com"
+  url: "https://blog.soreatu.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Nu1L Nu1L'
-      url: 'https://www.nu1l.com/#/'
-    - name: '梅子酒 Web'
-      url: 'https://meizjm3i.github.io/'
-    - name: '郁离歌丶 Web'
-      url: 'http://yulige.top/'
-    - name: '国光 Web'
-      url: 'https://www.sqlsec.com/'
-    - name: '姬扬灵 Web'
-      url: 'http://blog.jylsec.com/'
-    - name: 'L3mory Web'
-      url: 'http://l3mory.com/'
-    - name: 'Leon Web'
-      url: 'https://blog.h4ck.fun/'
-    - name: 'wh1sper Web'
-      url: 'https://blog.wh1sper.com'
-    - name: 'tyskill Web'
-      url: 'https://tyskill.github.io/'
-    - name: '4eriri Pwn'
-      url: 'http://4eriri.top/'
-    - name: 'zihu4n Pwn'
-      url: 'http://zihu4n.cn'
-    - name: '风沐云烟 Pwn'
-      url: 'http://fmyy.pro/'
-    - name: 'MozhuCY Reverse'
-      url: 'http://mozhucy.cn/'
-    - name: '皮三宝 Reverse'
-      url: 'http://www.psbazx.com/'
-    - name: 'Am473ur Crypto'
-      url: 'http://am473ur.com/'
-    - name: 'To1in Crypto'
-      url: 'http://blog.tolinchan.xyz'
-    - name: 'Zedd Web'
-      url: 'https://blog.zeddyu.info/'
-    - name: 'st4ck Web'
-      url: 'https://bkfish.gitee.io/'
-    - name: 'miaoTony Web'
-      url: 'https://miaotony.xyz/'
-    - name: 'P3rh4ps Web'
-      url: 'http://p3rh4ps.top/'
-    - name: '晴天 Web'
-      url: 'https://sunny250.github.io'
-    - name: '天下大木头 Web'
-      url: 'http://wjlshare.com'
-    - name: 'w4rd3n Pwn'
-      url: 'https://hitworld.github.io/'
-    - name: 'c0ug4r Pwn'
-      url: 'https://cougar.kim/'
-    - name: 'L0x1c Kernel/Game'
-      url: 'http://blog.l0x1c.cn/'
-    - name: '0xDktb Crypto'
-      url: 'https://0xdktb.top/'
-    - name: 'Arpe1s Crypto'
-      url: 'https://blog.arpe1s.xyz/'
-    - name: 'badmonkey Crypto'
-      url: 'https://badmonkey.site/'
-    - name: 'Coinc1dens Crypto'
-      url: 'https://coinc1dens.github.io'
-    - name: 'Lord Riot Crypto'
-      url: 'https://lord-riot.github.io/'
-    - name: 'shallow Crypto'
-      url: 'https://shal10w.github.io/'
-    - name: 'Van1sh Crypto'
-      url: 'https://jayxv.github.io/'
-    - name: 'Vergissmeinnicht Crypto'
-      url: 'https://vergissmeinnichtz.github.io/'
-    - name: 'iczc Blockchain'
-      url: 'https://www.iczc.me/'
-    - name: 'pikachu Blockchain'
-      url: 'https://hitcxy.com/'
-    - name: 'CCGK Kernel'
-      url: 'http://c49k.com'
-    - name: 'wdxxg Misc'
-      url: 'http://wdxxg.cn/'
-    - name: 'Blackorblank Others'
-      url: 'https://zhugeprajna.github.io/'
-    - name: 'su1yu4n Crypto/Math'
-      url: 'https://su1yu4n.github.io/'
+    - name: "Nu1L Nu1L"
+      url: "https://www.nu1l.com/#/"
+    - name: "梅子酒 Web"
+      url: "https://meizjm3i.github.io/"
+    - name: "郁离歌丶 Web"
+      url: "http://yulige.top/"
+    - name: "国光 Web"
+      url: "https://www.sqlsec.com/"
+    - name: "姬扬灵 Web"
+      url: "http://blog.jylsec.com/"
+    - name: "L3mory Web"
+      url: "http://l3mory.com/"
+    - name: "Leon Web"
+      url: "https://blog.h4ck.fun/"
+    - name: "wh1sper Web"
+      url: "https://blog.wh1sper.com"
+    - name: "tyskill Web"
+      url: "https://tyskill.github.io/"
+    - name: "4eriri Pwn"
+      url: "http://4eriri.top/"
+    - name: "zihu4n Pwn"
+      url: "http://zihu4n.cn"
+    - name: "风沐云烟 Pwn"
+      url: "http://fmyy.pro/"
+    - name: "MozhuCY Reverse"
+      url: "http://mozhucy.cn/"
+    - name: "皮三宝 Reverse"
+      url: "http://www.psbazx.com/"
+    - name: "Am473ur Crypto"
+      url: "http://am473ur.com/"
+    - name: "To1in Crypto"
+      url: "http://blog.tolinchan.xyz"
+    - name: "Zedd Web"
+      url: "https://blog.zeddyu.info/"
+    - name: "st4ck Web"
+      url: "https://bkfish.gitee.io/"
+    - name: "miaoTony Web"
+      url: "https://miaotony.xyz/"
+    - name: "P3rh4ps Web"
+      url: "http://p3rh4ps.top/"
+    - name: "晴天 Web"
+      url: "https://sunny250.github.io"
+    - name: "天下大木头 Web"
+      url: "http://wjlshare.com"
+    - name: "w4rd3n Pwn"
+      url: "https://hitworld.github.io/"
+    - name: "c0ug4r Pwn"
+      url: "https://cougar.kim/"
+    - name: "L0x1c Kernel/Game"
+      url: "http://blog.l0x1c.cn/"
+    - name: "0xDktb Crypto"
+      url: "https://0xdktb.top/"
+    - name: "Arpe1s Crypto"
+      url: "https://blog.arpe1s.xyz/"
+    - name: "badmonkey Crypto"
+      url: "https://badmonkey.site/"
+    - name: "Coinc1dens Crypto"
+      url: "https://coinc1dens.github.io"
+    - name: "Lord Riot Crypto"
+      url: "https://lord-riot.github.io/"
+    - name: "shallow Crypto"
+      url: "https://shal10w.github.io/"
+    - name: "Van1sh Crypto"
+      url: "https://jayxv.github.io/"
+    - name: "Vergissmeinnicht Crypto"
+      url: "https://vergissmeinnichtz.github.io/"
+    - name: "iczc Blockchain"
+      url: "https://www.iczc.me/"
+    - name: "pikachu Blockchain"
+      url: "https://hitcxy.com/"
+    - name: "CCGK Kernel"
+      url: "http://c49k.com"
+    - name: "wdxxg Misc"
+      url: "http://wdxxg.cn/"
+    - name: "Blackorblank Others"
+      url: "https://zhugeprajna.github.io/"
+    - name: "su1yu4n Crypto/Math"
+      url: "https://su1yu4n.github.io/"

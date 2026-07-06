@@ -1,94 +1,94 @@
 site:
-  name: 'fullmetalbrackets.com'
-  url: 'https://fullmetalbrackets.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "fullmetalbrackets.com"
+  url: "https://fullmetalbrackets.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'SVGEdit'
-      url: 'https://svgedit.netlify.app/'
-    - name: 'Simple Web Server'
-      url: 'https://simplewebserver.org/'
-    - name: 'Carbon'
-      url: 'https://carbon.now.sh/'
-    - name: 'Bear Blog'
-      url: 'https://bearblog.dev/'
-    - name: 'Temp.sh'
-      url: 'https://temp.sh/'
-    - name: 'BentoPDF'
-      url: 'https://www.bentopdf.com/'
-    - name: 'TRaSH Guides'
-      url: 'https://trash-guides.info/'
-    - name: 'Base64 Guru'
-      url: 'https://base64.guru/'
-    - name: 'BrandColors'
-      url: 'https://brandcolors.net'
-    - name: '88x31'
-      url: 'https://88x31.nl'
-    - name: 'CSS Icon'
-      url: 'https://cssicon.space/#/'
-    - name: 'Perfect Media Server'
-      url: 'https://perfectmediaserver.com/'
-    - name: 'Pangolin'
-      url: 'https://pangolin.net/'
-    - name: 'Racknerd Tracker'
-      url: 'https://racknerdtracker.com'
-    - name: 'Tailscale'
-      url: 'https://tailscale.com'
-    - name: 'Devpicker'
-      url: 'https://devpicker.com'
-    - name: 'Garage'
-      url: 'https://garagehq.deuxfleurs.fr/'
-    - name: 'I Can Haz IP?'
-      url: 'https://icanhazip.com'
-    - name: 'Dozzle'
-      url: 'https://dozzle.dev'
-    - name: 'Jellyfin'
-      url: 'https://jellyfin.org'
-    - name: 'Plex'
-      url: 'https://plex.tv'
-    - name: 'Tautulli'
-      url: 'https://tautulli.com'
-    - name: 'IT-Tools'
-      url: 'https://it-tools.tech'
-    - name: 'Dockge'
-      url: 'https://dockge.kuma.pet'
-    - name: 'Forgejo'
-      url: 'https://forgejo.org'
-    - name: 'Home Assistant'
-      url: 'https://homeassistant.io'
-    - name: 'Cockpit'
-      url: 'https://cockpit-project.org/'
-    - name: 'Kavita'
-      url: 'https://www.kavitareader.com'
-    - name: 'Nginx Proxy Manager'
-      url: 'https://nginxproxymanager.com'
-    - name: 'Pi-Hole'
-      url: 'https://pi-hole.net'
-    - name: 'Iconify'
-      url: 'https://icon-sets.iconify.design'
-    - name: 'PWA Builder'
-      url: 'https://pwabuilder.com'
-    - name: 'nekoCalc'
-      url: 'https://nekocalc.com'
-    - name: 'JSON to YAML'
-      url: 'https://json2yaml.com'
-    - name: 'LayoutIt'
-      url: 'https://layoutit.com'
-    - name: 'UI Goodies'
-      url: 'https://uigoodies.com'
-    - name: 'Realtime Colors'
-      url: 'https://realtimecolors.com'
-    - name: 'Meta Tags Toolkit'
-      url: 'https://metatags.io'
-    - name: 'Crontab Guru'
-      url: 'https://crontab.guru'
-    - name: 'What is my viewport?'
-      url: 'https://whatismyviewport.com'
-    - name: 'Chmod Calculator'
-      url: 'https://chmod-calculator.com'
-    - name: 'IndieWeb'
-      url: 'https://🕸💍.ws'
-    - name: 'Fediring'
-      url: 'https://fediring.net'
-    - name: 'MIT'
-      url: 'https://mit-license.org'
+    - name: "SVGEdit"
+      url: "https://svgedit.netlify.app/"
+    - name: "Simple Web Server"
+      url: "https://simplewebserver.org/"
+    - name: "Carbon"
+      url: "https://carbon.now.sh/"
+    - name: "Bear Blog"
+      url: "https://bearblog.dev/"
+    - name: "Temp.sh"
+      url: "https://temp.sh/"
+    - name: "BentoPDF"
+      url: "https://www.bentopdf.com/"
+    - name: "TRaSH Guides"
+      url: "https://trash-guides.info/"
+    - name: "Base64 Guru"
+      url: "https://base64.guru/"
+    - name: "BrandColors"
+      url: "https://brandcolors.net"
+    - name: "88x31"
+      url: "https://88x31.nl"
+    - name: "CSS Icon"
+      url: "https://cssicon.space/#/"
+    - name: "Perfect Media Server"
+      url: "https://perfectmediaserver.com/"
+    - name: "Pangolin"
+      url: "https://pangolin.net/"
+    - name: "Racknerd Tracker"
+      url: "https://racknerdtracker.com"
+    - name: "Tailscale"
+      url: "https://tailscale.com"
+    - name: "Devpicker"
+      url: "https://devpicker.com"
+    - name: "Garage"
+      url: "https://garagehq.deuxfleurs.fr/"
+    - name: "I Can Haz IP?"
+      url: "https://icanhazip.com"
+    - name: "Dozzle"
+      url: "https://dozzle.dev"
+    - name: "Jellyfin"
+      url: "https://jellyfin.org"
+    - name: "Plex"
+      url: "https://plex.tv"
+    - name: "Tautulli"
+      url: "https://tautulli.com"
+    - name: "IT-Tools"
+      url: "https://it-tools.tech"
+    - name: "Dockge"
+      url: "https://dockge.kuma.pet"
+    - name: "Forgejo"
+      url: "https://forgejo.org"
+    - name: "Home Assistant"
+      url: "https://homeassistant.io"
+    - name: "Cockpit"
+      url: "https://cockpit-project.org/"
+    - name: "Kavita"
+      url: "https://www.kavitareader.com"
+    - name: "Nginx Proxy Manager"
+      url: "https://nginxproxymanager.com"
+    - name: "Pi-Hole"
+      url: "https://pi-hole.net"
+    - name: "Iconify"
+      url: "https://icon-sets.iconify.design"
+    - name: "PWA Builder"
+      url: "https://pwabuilder.com"
+    - name: "nekoCalc"
+      url: "https://nekocalc.com"
+    - name: "JSON to YAML"
+      url: "https://json2yaml.com"
+    - name: "LayoutIt"
+      url: "https://layoutit.com"
+    - name: "UI Goodies"
+      url: "https://uigoodies.com"
+    - name: "Realtime Colors"
+      url: "https://realtimecolors.com"
+    - name: "Meta Tags Toolkit"
+      url: "https://metatags.io"
+    - name: "Crontab Guru"
+      url: "https://crontab.guru"
+    - name: "What is my viewport?"
+      url: "https://whatismyviewport.com"
+    - name: "Chmod Calculator"
+      url: "https://chmod-calculator.com"
+    - name: "IndieWeb"
+      url: "https://🕸💍.ws"
+    - name: "Fediring"
+      url: "https://fediring.net"
+    - name: "MIT"
+      url: "https://mit-license.org"

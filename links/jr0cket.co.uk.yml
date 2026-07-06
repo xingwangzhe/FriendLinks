@@ -1,16 +1,16 @@
 site:
-  name: 'jr0cket.co.uk'
-  url: 'http://jr0cket.co.uk/'
-  description: '友情链接'
-  links: '/'
+  name: "jr0cket.co.uk"
+  url: "http://jr0cket.co.uk/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'ohmyzsh'
-      url: 'http://ohmyz.sh/'
-    - name: 'Emacs Gifs'
-      url: 'https://emacsgifs.github.io/'
-    - name: 'SkillsMatter'
-      url: 'https://skillsmatter.com/'
-    - name: 'Gitbook.io plugins'
-      url: 'https://plugins.gitbook.io'
-    - name: 'Gitbook.io'
-      url: 'https://gitbook.io'
+    - name: "ohmyzsh"
+      url: "http://ohmyz.sh/"
+    - name: "Emacs Gifs"
+      url: "https://emacsgifs.github.io/"
+    - name: "SkillsMatter"
+      url: "https://skillsmatter.com/"
+    - name: "Gitbook.io plugins"
+      url: "https://plugins.gitbook.io"
+    - name: "Gitbook.io"
+      url: "https://gitbook.io"

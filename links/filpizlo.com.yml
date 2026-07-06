@@ -1,12 +1,12 @@
 site:
-  name: 'filpizlo.com'
-  url: 'https://www.filpizlo.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "filpizlo.com"
+  url: "https://www.filpizlo.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Fil-C'
-      url: 'https://fil-c.org/'
-    - name: 'Zef'
-      url: 'https://zef-lang.dev/'
-    - name: 'Yosh'
-      url: 'https://yoshell.ai/'
+    - name: "Fil-C"
+      url: "https://fil-c.org/"
+    - name: "Zef"
+      url: "https://zef-lang.dev/"
+    - name: "Yosh"
+      url: "https://yoshell.ai/"

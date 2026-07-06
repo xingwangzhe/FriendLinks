@@ -1,26 +1,26 @@
 site:
-  name: 'jarema.me'
-  url: 'https://jarema.me/'
-  description: '友情链接'
-  links: '/'
+  name: "jarema.me"
+  url: "https://jarema.me/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: '💾 1.44MB webring'
-      url: 'https://1.44mb.club/'
-    - name: 'Bucket webring'
-      url: 'https://webring.bucketfish.me'
-    - name: 'Fediring'
-      url: 'https://fediring.net/'
-    - name: 'Geekring'
-      url: 'http://geekring.net/'
-    - name: 'Hotline Webring'
-      url: 'https://hotlinewebring.club/'
-    - name: 'IndieWeb Webring 🕸💍'
-      url: 'https://🕸💍.ws'
-    - name: 'Meta Ring'
-      url: 'https://meta-ring.hedy.dev/'
-    - name: 'The retronaut webring'
-      url: 'https://webring.dinhe.net/'
-    - name: '☆ Webmaster Webring ☆'
-      url: 'https://webmasterwebring.netlify.app/'
-    - name: 'Site status'
-      url: 'https://jar.statuspage.io'
+    - name: "💾 1.44MB webring"
+      url: "https://1.44mb.club/"
+    - name: "Bucket webring"
+      url: "https://webring.bucketfish.me"
+    - name: "Fediring"
+      url: "https://fediring.net/"
+    - name: "Geekring"
+      url: "http://geekring.net/"
+    - name: "Hotline Webring"
+      url: "https://hotlinewebring.club/"
+    - name: "IndieWeb Webring 🕸💍"
+      url: "https://🕸💍.ws"
+    - name: "Meta Ring"
+      url: "https://meta-ring.hedy.dev/"
+    - name: "The retronaut webring"
+      url: "https://webring.dinhe.net/"
+    - name: "☆ Webmaster Webring ☆"
+      url: "https://webmasterwebring.netlify.app/"
+    - name: "Site status"
+      url: "https://jar.statuspage.io"

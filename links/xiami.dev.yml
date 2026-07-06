@@ -1,12 +1,12 @@
 site:
-  name: 'xiami.dev'
-  url: 'https://xiami.dev/'
-  description: '友情链接'
-  links: '/friends'
+  name: "xiami.dev"
+  url: "https://xiami.dev/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Teror的客栈欢迎光临～'
-      url: 'https://blog.trfox.top/'
-    - name: 'grtsinry43的前端札记总之岁月漫长，然而值得等待'
-      url: 'https://blog.grtsinry43.com/'
-    - name: '静かな森致虚极，守静笃。'
-      url: 'https://innei.in/'
+    - name: "Teror的客栈欢迎光临～"
+      url: "https://blog.trfox.top/"
+    - name: "grtsinry43的前端札记总之岁月漫长，然而值得等待"
+      url: "https://blog.grtsinry43.com/"
+    - name: "静かな森致虚极，守静笃。"
+      url: "https://innei.in/"

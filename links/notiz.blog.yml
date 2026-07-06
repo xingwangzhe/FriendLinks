@@ -1,12 +1,12 @@
 site:
-  name: 'notiz.blog'
-  url: 'https://notiz.blog/'
-  description: '友情链接'
-  links: '/friend'
+  name: "notiz.blog"
+  url: "https://notiz.blog/"
+  description: "友情链接"
+  links: "/friend"
   friends:
-    - name: 'Stefan'
-      url: 'http://www.stefan-graf.com'
-    - name: 'Matthias Pfefferle'
-      url: 'https://pfefferle.org'
-    - name: 'Siegfried'
-      url: 'http://www.rorkvell.de'
+    - name: "Stefan"
+      url: "http://www.stefan-graf.com"
+    - name: "Matthias Pfefferle"
+      url: "https://pfefferle.org"
+    - name: "Siegfried"
+      url: "http://www.rorkvell.de"

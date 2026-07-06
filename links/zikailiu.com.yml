@@ -1,10 +1,10 @@
 site:
-  name: 'zikailiu.com'
-  url: 'https://zikailiu.com/'
-  description: '友情链接'
-  links: '/about'
+  name: "zikailiu.com"
+  url: "https://zikailiu.com/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: 'Department of Computer Science'
-      url: 'https://inf.ethz.ch/'
-    - name: 'ETH Zürich'
-      url: 'https://ethz.ch/'
+    - name: "Department of Computer Science"
+      url: "https://inf.ethz.ch/"
+    - name: "ETH Zürich"
+      url: "https://ethz.ch/"

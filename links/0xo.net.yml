@@ -1,86 +1,86 @@
 site:
-  name: '0xo.net'
-  url: 'https://0xo.net/'
-  description: '友情链接'
-  links: '/links'
+  name: "0xo.net"
+  url: "https://0xo.net/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '从零开始'
-      url: 'https://ostarted.com/'
-    - name: '优釉珂'
-      url: 'https://uuk.app'
-    - name: '風冷無霜'
-      url: 'https://bdkp.net/'
-    - name: '細水長流'
-      url: 'https://uxtt.com/'
-    - name: '啪乐啪'
-      url: 'https://p6p.net/'
-    - name: 'kn007 博客'
-      url: 'http://kn007.net'
-    - name: 'Sep blog'
-      url: 'https://sep.cc'
-    - name: '佐仔志'
-      url: 'https://jinbo123.com'
-    - name: '方室网志'
-      url: 'https://fangshi.org'
-    - name: 'ZAPRO·杂铺'
-      url: 'https://tmioe.com/'
-    - name: '灵尘居'
-      url: 'https://www.lingchenzi.com/'
-    - name: '王志勇'
-      url: 'http://www.auiou.com/'
-    - name: '缙哥哥'
-      url: 'https://www.dujin.org/'
-    - name: '近视眼逛博客'
-      url: 'https://blog.dtz9.com/'
-    - name: 'Camarts™'
-      url: 'http://www.camarts.cn'
-    - name: 'Fooleap''s Blog'
-      url: 'http://blog.fooleap.org/'
-    - name: 'Hannah 随笔'
-      url: 'http://www.hannahwu.com/'
-    - name: 'JiaYin’s Life'
-      url: 'https://imjiayin.com'
-    - name: 'Meekdai'
-      url: 'http://meekdai.com'
-    - name: 'RidiQulous'
-      url: 'https://ridiqulous.com/'
-    - name: 'Zen Habits'
-      url: 'http://zenhabits.net/'
-    - name: '从良未遂'
-      url: 'http://www.ithmz.com/'
-    - name: '侯爷的博客'
-      url: 'http://houye.xyz/'
-    - name: '土木坛子'
-      url: 'https://tumutanzi.com'
-    - name: '夜枫忆栈'
-      url: 'http://yefengs.com'
-    - name: '小猪的窝'
-      url: 'https://ezo.biz/'
-    - name: '小蝴蝶'
-      url: 'http://xiaohudie.net'
-    - name: '尚磊的博客'
-      url: 'http://shanglei.net/'
-    - name: '张戈博客'
-      url: 'http://zhangge.net/'
-    - name: '手写体'
-      url: 'http://shouxieti.com'
-    - name: '扫地老僧的Blog'
-      url: 'http://www.doyj.com/'
-    - name: '扯远了'
-      url: 'http://heshizi.com'
-    - name: '扶墙老师'
-      url: 'http://afoo.me/'
-    - name: '木瓜园'
-      url: 'http://muguayuan.com/'
-    - name: '灰常记忆'
-      url: 'http://bestcherish.com'
-    - name: '王叨叨'
-      url: 'http://wangdaodao.com'
-    - name: '生活志'
-      url: 'http://louishan.com'
-    - name: '立云图志'
-      url: 'http://www.lopwon.com/'
-    - name: '阳光盒子'
-      url: 'http://sunbox.cc/'
-    - name: 'Linux 运维笔记'
-      url: 'https://linuxeye.com'
+    - name: "从零开始"
+      url: "https://ostarted.com/"
+    - name: "优釉珂"
+      url: "https://uuk.app"
+    - name: "風冷無霜"
+      url: "https://bdkp.net/"
+    - name: "細水長流"
+      url: "https://uxtt.com/"
+    - name: "啪乐啪"
+      url: "https://p6p.net/"
+    - name: "kn007 博客"
+      url: "http://kn007.net"
+    - name: "Sep blog"
+      url: "https://sep.cc"
+    - name: "佐仔志"
+      url: "https://jinbo123.com"
+    - name: "方室网志"
+      url: "https://fangshi.org"
+    - name: "ZAPRO·杂铺"
+      url: "https://tmioe.com/"
+    - name: "灵尘居"
+      url: "https://www.lingchenzi.com/"
+    - name: "王志勇"
+      url: "http://www.auiou.com/"
+    - name: "缙哥哥"
+      url: "https://www.dujin.org/"
+    - name: "近视眼逛博客"
+      url: "https://blog.dtz9.com/"
+    - name: "Camarts™"
+      url: "http://www.camarts.cn"
+    - name: "Fooleap's Blog"
+      url: "http://blog.fooleap.org/"
+    - name: "Hannah 随笔"
+      url: "http://www.hannahwu.com/"
+    - name: "JiaYin’s Life"
+      url: "https://imjiayin.com"
+    - name: "Meekdai"
+      url: "http://meekdai.com"
+    - name: "RidiQulous"
+      url: "https://ridiqulous.com/"
+    - name: "Zen Habits"
+      url: "http://zenhabits.net/"
+    - name: "从良未遂"
+      url: "http://www.ithmz.com/"
+    - name: "侯爷的博客"
+      url: "http://houye.xyz/"
+    - name: "土木坛子"
+      url: "https://tumutanzi.com"
+    - name: "夜枫忆栈"
+      url: "http://yefengs.com"
+    - name: "小猪的窝"
+      url: "https://ezo.biz/"
+    - name: "小蝴蝶"
+      url: "http://xiaohudie.net"
+    - name: "尚磊的博客"
+      url: "http://shanglei.net/"
+    - name: "张戈博客"
+      url: "http://zhangge.net/"
+    - name: "手写体"
+      url: "http://shouxieti.com"
+    - name: "扫地老僧的Blog"
+      url: "http://www.doyj.com/"
+    - name: "扯远了"
+      url: "http://heshizi.com"
+    - name: "扶墙老师"
+      url: "http://afoo.me/"
+    - name: "木瓜园"
+      url: "http://muguayuan.com/"
+    - name: "灰常记忆"
+      url: "http://bestcherish.com"
+    - name: "王叨叨"
+      url: "http://wangdaodao.com"
+    - name: "生活志"
+      url: "http://louishan.com"
+    - name: "立云图志"
+      url: "http://www.lopwon.com/"
+    - name: "阳光盒子"
+      url: "http://sunbox.cc/"
+    - name: "Linux 运维笔记"
+      url: "https://linuxeye.com"

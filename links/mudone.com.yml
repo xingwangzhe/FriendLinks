@@ -1,10 +1,10 @@
 site:
-  name: 'mudone.com'
-  url: 'http://www.mudone.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "mudone.com"
+  url: "http://www.mudone.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'CFC4N'
-      url: 'http://www.cnxct.com/'
-    - name: '板子的博客'
-      url: 'http://blog.thephper.com/'
+    - name: "CFC4N"
+      url: "http://www.cnxct.com/"
+    - name: "板子的博客"
+      url: "http://blog.thephper.com/"

@@ -1,10 +1,10 @@
 site:
-  name: 'microcharon.com'
-  url: 'https://www.microcharon.com/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "microcharon.com"
+  url: "https://www.microcharon.com/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: '晨鹤部落格'
-      url: 'https://chenhe.me/'
-    - name: 'CD包子铺'
-      url: 'https://cdbao.org'
+    - name: "晨鹤部落格"
+      url: "https://chenhe.me/"
+    - name: "CD包子铺"
+      url: "https://cdbao.org"

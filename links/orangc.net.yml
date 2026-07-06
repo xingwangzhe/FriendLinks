@@ -1,14 +1,14 @@
 site:
-  name: 'orangc.net'
-  url: 'https://orangc.net/'
-  description: '友情链接'
-  links: '/'
+  name: "orangc.net"
+  url: "https://orangc.net/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'source'
-      url: 'https://www.fsf.org/'
-    - name: 'Nix(OS)'
-      url: 'https://nixos.org'
-    - name: 'Create'
-      url: 'https://createmod.net/'
-    - name: 'nixwebring'
-      url: 'https://nixwebr.ing'
+    - name: "source"
+      url: "https://www.fsf.org/"
+    - name: "Nix(OS)"
+      url: "https://nixos.org"
+    - name: "Create"
+      url: "https://createmod.net/"
+    - name: "nixwebring"
+      url: "https://nixwebr.ing"

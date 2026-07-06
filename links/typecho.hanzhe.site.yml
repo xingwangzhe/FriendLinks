@@ -1,14 +1,14 @@
 site:
-  name: 'typecho.hanzhe.site'
-  url: 'https://typecho.hanzhe.site/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "typecho.hanzhe.site"
+  url: "https://typecho.hanzhe.site/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: 'Jonty''Blog 分享群晖NAS，docker，typecho，Wor'
-      url: 'https://nobb.cc'
-    - name: 'mp4网'
-      url: 'http://mp4wang.cc'
-    - name: '菜鸟博客'
-      url: 'https://blog.ozzo.top/'
-    - name: 'Cravatar'
-      url: 'https://cravatar.com/'
+    - name: "Jonty'Blog 分享群晖NAS，docker，typecho，Wor"
+      url: "https://nobb.cc"
+    - name: "mp4网"
+      url: "http://mp4wang.cc"
+    - name: "菜鸟博客"
+      url: "https://blog.ozzo.top/"
+    - name: "Cravatar"
+      url: "https://cravatar.com/"

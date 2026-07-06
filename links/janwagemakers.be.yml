@@ -1,16 +1,16 @@
 site:
-  name: 'janwagemakers.be'
-  url: 'https://www.janwagemakers.be/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "janwagemakers.be"
+  url: "https://www.janwagemakers.be/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: 'Staf''s HomePage'
-      url: 'http://www.wagemakers.be/'
-    - name: 'Microchip PIC18f452 web server'
-      url: 'http://janw.mooo.com:18452/'
-    - name: 'Debian GNU/Linux'
-      url: 'http://www.nl.debian.org/'
-    - name: 'Microchip'
-      url: 'http://www.microchip.com'
-    - name: 'GPL Electronic Design Automation'
-      url: 'http://www.geda.seul.org/'
+    - name: "Staf's HomePage"
+      url: "http://www.wagemakers.be/"
+    - name: "Microchip PIC18f452 web server"
+      url: "http://janw.mooo.com:18452/"
+    - name: "Debian GNU/Linux"
+      url: "http://www.nl.debian.org/"
+    - name: "Microchip"
+      url: "http://www.microchip.com"
+    - name: "GPL Electronic Design Automation"
+      url: "http://www.geda.seul.org/"

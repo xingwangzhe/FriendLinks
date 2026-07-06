@@ -1,12 +1,12 @@
 site:
-  name: 'randyfield.cn'
-  url: 'http://randyfield.cn/'
-  description: '友情链接'
-  links: '/'
+  name: "randyfield.cn"
+  url: "http://randyfield.cn/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Simple Blog'
-      url: 'http://blog.jutku.com/'
-    - name: '沙漠尽头的狼'
-      url: 'https://dotnet9.com/'
-    - name: 'Theme'
-      url: 'https://www.flysnow.org/'
+    - name: "Simple Blog"
+      url: "http://blog.jutku.com/"
+    - name: "沙漠尽头的狼"
+      url: "https://dotnet9.com/"
+    - name: "Theme"
+      url: "https://www.flysnow.org/"

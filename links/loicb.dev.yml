@@ -1,12 +1,12 @@
 site:
-  name: 'loicb.dev'
-  url: 'https://www.loicb.dev/'
-  description: '友情链接'
-  links: '/links'
+  name: "loicb.dev"
+  url: "https://www.loicb.dev/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Flybot'
-      url: 'https://www.flybot.sg'
-    - name: 'chezmoi'
-      url: 'https://www.chezmoi.io/'
-    - name: 'pattern.flybot.sg'
-      url: 'https://pattern.flybot.sg'
+    - name: "Flybot"
+      url: "https://www.flybot.sg"
+    - name: "chezmoi"
+      url: "https://www.chezmoi.io/"
+    - name: "pattern.flybot.sg"
+      url: "https://pattern.flybot.sg"

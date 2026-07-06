@@ -1,12 +1,12 @@
 site:
-  name: 'pst.iorinn.moe'
-  url: 'https://pst.iorinn.moe/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "pst.iorinn.moe"
+  url: "https://pst.iorinn.moe/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: 'Redbag的小屋 Think twice, code once.'
-      url: 'https://ylxredbag.github.io'
-    - name: 'ZigZagK Never give up fighting!'
-      url: 'https://zigzagk.top/'
-    - name: '杰帕斯の小窝 是新朋友？还是老相识呢？'
-      url: 'https://blog.japerz.com'
+    - name: "Redbag的小屋 Think twice, code once."
+      url: "https://ylxredbag.github.io"
+    - name: "ZigZagK Never give up fighting!"
+      url: "https://zigzagk.top/"
+    - name: "杰帕斯の小窝 是新朋友？还是老相识呢？"
+      url: "https://blog.japerz.com"

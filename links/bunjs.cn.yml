@@ -1,24 +1,24 @@
 site:
-  name: 'bunjs.cn'
-  url: 'https://www.bunjs.cn/'
-  description: '友情链接'
-  links: '/'
+  name: "bunjs.cn"
+  url: "https://www.bunjs.cn/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Node.js'
-      url: 'https://www.nodeapp.cn/'
-    - name: 'Biome'
-      url: 'https://www.biomejs.cn/'
-    - name: 'MDX'
-      url: 'https://www.mdxjs.cn/'
-    - name: 'WebAssembly'
-      url: 'https://www.wasm.com.cn/'
-    - name: 'Express'
-      url: 'https://www.expressjs.com.cn/'
-    - name: 'Alpine.js'
-      url: 'https://www.alpinejs.cn/'
-    - name: 'Preact'
-      url: 'https://www.preactjs.cn/'
-    - name: 'Cheerio'
-      url: 'https://www.cheeriojs.cn/'
-    - name: 'Astro'
-      url: 'https://www.astrojs.cn/'
+    - name: "Node.js"
+      url: "https://www.nodeapp.cn/"
+    - name: "Biome"
+      url: "https://www.biomejs.cn/"
+    - name: "MDX"
+      url: "https://www.mdxjs.cn/"
+    - name: "WebAssembly"
+      url: "https://www.wasm.com.cn/"
+    - name: "Express"
+      url: "https://www.expressjs.com.cn/"
+    - name: "Alpine.js"
+      url: "https://www.alpinejs.cn/"
+    - name: "Preact"
+      url: "https://www.preactjs.cn/"
+    - name: "Cheerio"
+      url: "https://www.cheeriojs.cn/"
+    - name: "Astro"
+      url: "https://www.astrojs.cn/"

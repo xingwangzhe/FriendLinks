@@ -1,84 +1,84 @@
 site:
-  name: 'spaceack.com'
-  url: 'https://spaceack.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "spaceack.com"
+  url: "https://spaceack.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Lucien’s Blog'
-      url: 'https://blog.lucien.ink'
-    - name: 'Edwiv’s Blog'
-      url: 'https://edwiv.com/'
-    - name: '极客兔兔'
-      url: 'https://geektutu.com'
-    - name: 'MagicLen'
-      url: 'https://magiclen.org'
-    - name: 'manateelazycat'
-      url: 'https://manateelazycat.github.io/'
-    - name: '戈楷旎'
-      url: 'https://geekinney.com/'
-    - name: '小简博客'
-      url: 'https://blog.ideaopen.cn'
-    - name: 'TRHX’S BLOG'
-      url: 'https://www.itrhx.com/'
-    - name: '迷思语'
-      url: 'https://www.misiyu.cn/'
-    - name: 'アストルフォの幻想郷'
-      url: 'https://asutorufa.github.io/'
-    - name: 'Raoul’s Pub'
-      url: 'https://raoul1996.github.io/'
-    - name: '谓之小一'
-      url: 'https://weizhixiaoyi.com/'
-    - name: 'vmaig'
-      url: 'http://vmaig.com/'
-    - name: 'imcaviare'
-      url: 'https://www.imcaviare.com/'
-    - name: '浅时光'
-      url: 'https://www.dqzboy.com/'
-    - name: '三点水'
-      url: 'https://lotabout.me/'
-    - name: 'Shuzang’s Blog'
-      url: 'https://shuzang.github.io/'
-    - name: 'Jeremy’s blog'
-      url: 'https://www.isyin.cn/'
-    - name: 'Shall We Code?'
-      url: 'https://www.waynerv.com/'
-    - name: '建造者说'
-      url: 'http://guoze.me/'
-    - name: 'dabeaz'
-      url: 'http://www.dabeaz.com/'
-    - name: '嘻嘻琦琦 Vickey’s Blog'
-      url: 'https://vickey.fun/'
-    - name: 'Jason’s Blog'
-      url: 'https://890214.net'
-    - name: '小谷的编程随笔空间'
-      url: 'https://gu.ink/'
-    - name: '凡梦星尘空间站'
-      url: 'https://lisenhui.cn'
-    - name: 'ChinaUnix'
-      url: 'http://www.chinaunix.net/'
-    - name: 'cnBeta'
-      url: 'https://www.cnbeta.com/'
-    - name: 'transifex'
-      url: 'http://transifex.com'
-    - name: '计蒜客'
-      url: 'https://www.jisuanke.com/'
-    - name: 'datawhale'
-      url: 'https://datawhale.club/'
-    - name: 'codewars'
-      url: 'https://www.codewars.com/'
-    - name: 'KAGGLE'
-      url: 'https://www.kaggle.com/'
-    - name: 'CodinGame'
-      url: 'http://www.codingame.com/'
-    - name: 'Project Euler'
-      url: 'https://pe-cn.github.io/'
-    - name: 'Advent of Code'
-      url: 'https://adventofcode.com/'
-    - name: 'pasteme'
-      url: 'https://pasteme.cn/'
-    - name: 'ubuntu paste'
-      url: 'https://paste.ubuntu.org.cn/'
-    - name: 'carbon'
-      url: 'https://carbon.now.sh/'
-    - name: 'Flash 保存计划'
-      url: 'https://flash.zczc.cz/'
+    - name: "Lucien’s Blog"
+      url: "https://blog.lucien.ink"
+    - name: "Edwiv’s Blog"
+      url: "https://edwiv.com/"
+    - name: "极客兔兔"
+      url: "https://geektutu.com"
+    - name: "MagicLen"
+      url: "https://magiclen.org"
+    - name: "manateelazycat"
+      url: "https://manateelazycat.github.io/"
+    - name: "戈楷旎"
+      url: "https://geekinney.com/"
+    - name: "小简博客"
+      url: "https://blog.ideaopen.cn"
+    - name: "TRHX’S BLOG"
+      url: "https://www.itrhx.com/"
+    - name: "迷思语"
+      url: "https://www.misiyu.cn/"
+    - name: "アストルフォの幻想郷"
+      url: "https://asutorufa.github.io/"
+    - name: "Raoul’s Pub"
+      url: "https://raoul1996.github.io/"
+    - name: "谓之小一"
+      url: "https://weizhixiaoyi.com/"
+    - name: "vmaig"
+      url: "http://vmaig.com/"
+    - name: "imcaviare"
+      url: "https://www.imcaviare.com/"
+    - name: "浅时光"
+      url: "https://www.dqzboy.com/"
+    - name: "三点水"
+      url: "https://lotabout.me/"
+    - name: "Shuzang’s Blog"
+      url: "https://shuzang.github.io/"
+    - name: "Jeremy’s blog"
+      url: "https://www.isyin.cn/"
+    - name: "Shall We Code?"
+      url: "https://www.waynerv.com/"
+    - name: "建造者说"
+      url: "http://guoze.me/"
+    - name: "dabeaz"
+      url: "http://www.dabeaz.com/"
+    - name: "嘻嘻琦琦 Vickey’s Blog"
+      url: "https://vickey.fun/"
+    - name: "Jason’s Blog"
+      url: "https://890214.net"
+    - name: "小谷的编程随笔空间"
+      url: "https://gu.ink/"
+    - name: "凡梦星尘空间站"
+      url: "https://lisenhui.cn"
+    - name: "ChinaUnix"
+      url: "http://www.chinaunix.net/"
+    - name: "cnBeta"
+      url: "https://www.cnbeta.com/"
+    - name: "transifex"
+      url: "http://transifex.com"
+    - name: "计蒜客"
+      url: "https://www.jisuanke.com/"
+    - name: "datawhale"
+      url: "https://datawhale.club/"
+    - name: "codewars"
+      url: "https://www.codewars.com/"
+    - name: "KAGGLE"
+      url: "https://www.kaggle.com/"
+    - name: "CodinGame"
+      url: "http://www.codingame.com/"
+    - name: "Project Euler"
+      url: "https://pe-cn.github.io/"
+    - name: "Advent of Code"
+      url: "https://adventofcode.com/"
+    - name: "pasteme"
+      url: "https://pasteme.cn/"
+    - name: "ubuntu paste"
+      url: "https://paste.ubuntu.org.cn/"
+    - name: "carbon"
+      url: "https://carbon.now.sh/"
+    - name: "Flash 保存计划"
+      url: "https://flash.zczc.cz/"

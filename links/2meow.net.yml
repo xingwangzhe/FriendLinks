@@ -1,10 +1,10 @@
 site:
-  name: '2meow.net'
-  url: 'https://2meow.net/'
-  description: '友情链接'
-  links: '/links'
+  name: "2meow.net"
+  url: "https://2meow.net/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Wu先生'
-      url: 'https://wuziya.com'
-    - name: '耳朵的主人'
-      url: 'https://www.edzbe.cn'
+    - name: "Wu先生"
+      url: "https://wuziya.com"
+    - name: "耳朵的主人"
+      url: "https://www.edzbe.cn"

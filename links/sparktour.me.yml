@@ -1,16 +1,16 @@
 site:
-  name: 'sparktour.me'
-  url: 'https://sparktour.me/'
-  description: '友情链接'
-  links: '/friends/'
+  name: "sparktour.me"
+  url: "https://sparktour.me/"
+  description: "友情链接"
+  links: "/friends/"
   friends:
-    - name: 'soaked.in'
-      url: 'https://soaked.in/'
-    - name: 'whexy'
-      url: 'https://www.whexy.com/'
-    - name: 'yuantong'
-      url: 'https://yuantong.me/'
-    - name: 'infiWang'
-      url: 'https://blog.infi.wang/'
-    - name: 'Xuyang John Zhao'
-      url: 'https://ysfhtxn.github.io/'
+    - name: "soaked.in"
+      url: "https://soaked.in/"
+    - name: "whexy"
+      url: "https://www.whexy.com/"
+    - name: "yuantong"
+      url: "https://yuantong.me/"
+    - name: "infiWang"
+      url: "https://blog.infi.wang/"
+    - name: "Xuyang John Zhao"
+      url: "https://ysfhtxn.github.io/"

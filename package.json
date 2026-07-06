@@ -21,8 +21,8 @@
     "minibuild": "MINIBUILD=1 astro build",
     "preview": "astro preview",
     "lint": "oxlint src/ && tsc --noEmit",
-    "fmt": "oxfmt src/ --write",
-    "fmt-check": "oxfmt src/ --check",
+    "fmt": "oxfmt src/ links/ --write",
+    "fmt-check": "oxfmt src/ links/ --check",
     "six": "bun run scripts/six-degrees.ts"
   },
   "dependencies": {

@@ -1,14 +1,14 @@
 site:
-  name: 'Hello World'
-  url: 'https://www.manshuo.ink/'
-  description: 'Your description here.'
-  links: '/links'
+  name: "Hello World"
+  url: "https://www.manshuo.ink/"
+  description: "Your description here."
+  links: "/links"
   friends:
-    - name: '長門番堂'
-      url: 'https://yuc.wiki/'
-    - name: '翰林的小站'
-      url: 'https://blog.hanlin.press/'
-    - name: '松坂日记'
-      url: 'https://blog.mysqil.com/'
-    - name: '纸盒博客'
-      url: 'https://zhebk.cn/'
+    - name: "長門番堂"
+      url: "https://yuc.wiki/"
+    - name: "翰林的小站"
+      url: "https://blog.hanlin.press/"
+    - name: "松坂日记"
+      url: "https://blog.mysqil.com/"
+    - name: "纸盒博客"
+      url: "https://zhebk.cn/"

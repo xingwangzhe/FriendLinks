@@ -1,96 +1,96 @@
 site:
-  name: '⑨BIE'
-  url: 'https://9bie.org/'
-  description: '伪技术宅的迷之地 ~~ Strange Place Of The Pseudo Geeks'
-  links: '/links'
+  name: "⑨BIE"
+  url: "https://9bie.org/"
+  description: "伪技术宅的迷之地 ~~ Strange Place Of The Pseudo Geeks"
+  links: "/links"
   friends:
-    - name: '昱子のBlog'
-      url: 'https://blog.yuzisec.xyz/'
-    - name: 'North Area'
-      url: 'https://www.northarea.tech/'
-    - name: '一块小板子'
-      url: 'https://www.oboard.eu.org/'
-    - name: 'AabyssZG's Blog'
-      url: 'https://blog.zgsec.cn/'
-    - name: 'tari Blog'
-      url: 'https://tari.moe/'
-    - name: 'johnpoint's blog'
-      url: 'https://blog.lvcshu.com/'
-    - name: 'InfoSec researcher, student'
-      url: 'https://eson.ninja/'
-    - name: 'Atmosphere'
-      url: 'https://blog.awa.moe/'
-    - name: 'Joyer的博客'
-      url: 'https://blog.joyer.top/'
-    - name: '首页'
-      url: 'https://blog.suki.house/'
-    - name: 'WeepingDogel'
-      url: 'https://weepingdogel.github.io/'
-    - name: 'DexterCai's 伯克尔'
-      url: 'https://blog.dextercai.com/'
-    - name: 'WBGlIl'
-      url: 'https://wbglil.github.io/'
-    - name: '蝉時雨-官网首页'
-      url: 'https://chanshiyu.com/'
-    - name: 'MiaoTony's小窝'
-      url: 'https://miaotony.xyz/'
-    - name: '妄尘驿'
-      url: 'https://www.wcysite.com/'
-    - name: 'Yunen's Blog'
-      url: 'https://www.0x002.com/'
-    - name: '果果说'
-      url: 'https://guo.moe/'
-    - name: 'Coink DO BOOM!'
-      url: 'https://coink.wang/'
-    - name: '听寒's Blog'
-      url: 'https://blog.moew.xyz/'
-    - name: 'Tsez's Blog'
-      url: 'https://blog.tse.moe/'
-    - name: '131's Blog'
-      url: 'https://blog.yuzu.im/'
-    - name: 'Document'
-      url: 'https://char-ten.github.io/'
-    - name: '神楽坂ニャン'
-      url: 'https://lensual.space/'
-    - name: 'KAAAsS'
-      url: 'https://kaaass.net/'
-    - name: '晨旭的博客~'
-      url: 'https://www.chenxublog.com/'
-    - name: 'Otstar Lin'
-      url: 'https://ixk.me/'
-    - name: '东方幻梦'
-      url: 'https://blog.badapple.pro/'
-    - name: 'Home'
-      url: 'https://ssshooter.com/'
-    - name: 'FGHRSH 的博客'
-      url: 'https://www.fghrsh.net/'
-    - name: 'Vigorous Pro'
-      url: 'https://www.wevg.org/'
-    - name: 'xxs的博客'
-      url: 'https://xxs2.cn/'
-    - name: 'ricehome3'
-      url: 'https://www.ccrice.com/'
-    - name: 'Canarypwn’s Blog'
-      url: 'https://aaaab3n.moe/'
-    - name: '1INN'
-      url: 'https://www.1inn.top/'
-    - name: 'Souta's Space'
-      url: 'https://souta.cc/'
-    - name: '煎鱼的海'
-      url: 'https://euukey.com/'
-    - name: 'Ray Eldath's Blog'
-      url: 'https://ray-eldath.me/'
-    - name: '新城旧梦'
-      url: 'https://www.itxcjm.top/'
-    - name: 'czp's blog · HonKit'
-      url: 'https://www.hiczp.com/'
-    - name: 'JOKER(M)ementos'
-      url: 'https://jokerm.com/'
-    - name: '忧郁的点心'
-      url: 'https://www.misakas.com/'
-    - name: 'Y5neKO's Blog'
-      url: 'https://y5neko.github.io/'
-    - name: 'cmWeblog'
-      url: 'https://muidar.com/'
-    - name: '失眠海峡'
-      url: 'https://blog.imalan.cn/'
+    - name: "昱子のBlog"
+      url: "https://blog.yuzisec.xyz/"
+    - name: "North Area"
+      url: "https://www.northarea.tech/"
+    - name: "一块小板子"
+      url: "https://www.oboard.eu.org/"
+    - name: "AabyssZG's Blog"
+      url: "https://blog.zgsec.cn/"
+    - name: "tari Blog"
+      url: "https://tari.moe/"
+    - name: "johnpoint's blog"
+      url: "https://blog.lvcshu.com/"
+    - name: "InfoSec researcher, student"
+      url: "https://eson.ninja/"
+    - name: "Atmosphere"
+      url: "https://blog.awa.moe/"
+    - name: "Joyer的博客"
+      url: "https://blog.joyer.top/"
+    - name: "首页"
+      url: "https://blog.suki.house/"
+    - name: "WeepingDogel"
+      url: "https://weepingdogel.github.io/"
+    - name: "DexterCai's 伯克尔"
+      url: "https://blog.dextercai.com/"
+    - name: "WBGlIl"
+      url: "https://wbglil.github.io/"
+    - name: "蝉時雨-官网首页"
+      url: "https://chanshiyu.com/"
+    - name: "MiaoTony's小窝"
+      url: "https://miaotony.xyz/"
+    - name: "妄尘驿"
+      url: "https://www.wcysite.com/"
+    - name: "Yunen's Blog"
+      url: "https://www.0x002.com/"
+    - name: "果果说"
+      url: "https://guo.moe/"
+    - name: "Coink DO BOOM!"
+      url: "https://coink.wang/"
+    - name: "听寒's Blog"
+      url: "https://blog.moew.xyz/"
+    - name: "Tsez's Blog"
+      url: "https://blog.tse.moe/"
+    - name: "131's Blog"
+      url: "https://blog.yuzu.im/"
+    - name: "Document"
+      url: "https://char-ten.github.io/"
+    - name: "神楽坂ニャン"
+      url: "https://lensual.space/"
+    - name: "KAAAsS"
+      url: "https://kaaass.net/"
+    - name: "晨旭的博客~"
+      url: "https://www.chenxublog.com/"
+    - name: "Otstar Lin"
+      url: "https://ixk.me/"
+    - name: "东方幻梦"
+      url: "https://blog.badapple.pro/"
+    - name: "Home"
+      url: "https://ssshooter.com/"
+    - name: "FGHRSH 的博客"
+      url: "https://www.fghrsh.net/"
+    - name: "Vigorous Pro"
+      url: "https://www.wevg.org/"
+    - name: "xxs的博客"
+      url: "https://xxs2.cn/"
+    - name: "ricehome3"
+      url: "https://www.ccrice.com/"
+    - name: "Canarypwn’s Blog"
+      url: "https://aaaab3n.moe/"
+    - name: "1INN"
+      url: "https://www.1inn.top/"
+    - name: "Souta's Space"
+      url: "https://souta.cc/"
+    - name: "煎鱼的海"
+      url: "https://euukey.com/"
+    - name: "Ray Eldath's Blog"
+      url: "https://ray-eldath.me/"
+    - name: "新城旧梦"
+      url: "https://www.itxcjm.top/"
+    - name: "czp's blog · HonKit"
+      url: "https://www.hiczp.com/"
+    - name: "JOKER(M)ementos"
+      url: "https://jokerm.com/"
+    - name: "忧郁的点心"
+      url: "https://www.misakas.com/"
+    - name: "Y5neKO's Blog"
+      url: "https://y5neko.github.io/"
+    - name: "cmWeblog"
+      url: "https://muidar.com/"
+    - name: "失眠海峡"
+      url: "https://blog.imalan.cn/"

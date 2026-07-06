@@ -1,78 +1,78 @@
 site:
-  name: 'justmyblog.net'
-  url: 'https://justmyblog.net/'
-  description: '友情链接'
-  links: '/friends'
+  name: "justmyblog.net"
+  url: "https://justmyblog.net/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '依如初梦一只废材小前端~'
-      url: 'https://blog.lyi.moe'
-    - name: 'FGHRSHFGHRSH 的博客'
-      url: 'https://www.fghrsh.net/'
-    - name: 'Kano酱の博客只要你喜欢kano，我们就是好朋友！'
-      url: 'https://kanochan.net/'
-    - name: '北忆Blog打破一切.'
-      url: 'https://sirbei.com/'
-    - name: '赤茶Trying to light up the dark.'
-      url: 'https://cynosura.one/'
-    - name: 'Hoyue の 自留地这里的一切都有始有终，却能容纳所有的不期而遇和久别重逢。'
-      url: 'https://hoyue.net'
-    - name: 'Loac我不是罗大锤'
-      url: 'https://loac.cc'
-    - name: '茶栗栗是可爱的栗栗！'
-      url: 'https://chariri.moe/'
-    - name: '洛雨の小站历史终将证明一切'
-      url: 'https://luotianyi.eu'
-    - name: 'Heartalborada''s Blog我的征途是星辰大海'
-      url: 'https://loliurl.club'
-    - name: '立言 Li Yan求真務實，重義輕利。'
-      url: 'https://liyan.moe'
-    - name: 'LiKai BlogDE BG6HFD,73!'
-      url: 'https://tylk.cc'
-    - name: '風凪的小窝DE BH2VSQ喵~'
-      url: 'https://blog.bh2vsq.cn'
-    - name: 'Mikuの極光星心有多宽，世界就有多远'
-      url: 'https://blog.sotkg.com'
-    - name: 'SailTrack杂谈站让我们忠于理想，让我们面对现实'
-      url: 'https://www.sailtrack.cn'
-    - name: 'YuanRetro这是一个成分复杂的小站哦～'
-      url: 'https://www.yuanshen.dev'
-    - name: '萌新杰少遵从中二的召唤，来吧少年！'
-      url: 'https://imcys.com/'
-    - name: '派兹的小站驶向未来之船'
-      url: 'https://blog.blw.moe/'
-    - name: '耗子博客路漫漫其修远兮，吾将上下而求索。'
-      url: 'https://hzbk.net/'
-    - name: 'qxdn蓬生麻中，不扶自直'
-      url: 'https://qianxu.run/'
-    - name: 'Mblog但愿岁月如客，来去皆从容。'
-      url: 'https://imufeng.cn/'
-    - name: 'Kiritake Kumi私はあの日、誓ったの。いつか絶対、あのステージに立つんだって！'
-      url: 'https://niconiconi.us/'
-    - name: '晓白的小站生命不息，折腾不止。'
-      url: 'https://blog.chs.pub/'
-    - name: 'Shellblock永远相信美好的事情即将发生'
-      url: 'https://blog.saky.site/'
-    - name: 'Recopec 的博客一只喵喵'
-      url: 'https://blog.irec.moe/'
-    - name: 'Luminous'' Home记录生活中的点滴'
-      url: 'https://luotianyi.vc/'
-    - name: 'Razuritta`s NotebookApril showers bring May flowers'
-      url: 'https://blog.razuritta.me/'
-    - name: 'Sunny PaiIn the dawn, towards the sunrise.'
-      url: 'https://www.sunnypai.top'
-    - name: 'CobaltSalt放下个人素质 享受缺德人生'
-      url: 'https://www.yizhipikaqiu.top/'
-    - name: 'Thelia的随想一个记录自己随想的地方'
-      url: 'https://thelia.site'
-    - name: '果果小站人生如梦，一尊还酹江月。'
-      url: 'https://%e5%91%90.cn/'
-    - name: '老鱼干专注于IT互联网'
-      url: 'https://www.tinyfish.top/'
-    - name: '无何有之乡网站无法访问'
-      url: 'https://opau.cn/'
-    - name: '纯情网站无法访问'
-      url: 'https://blog.xiaohack.org/'
-    - name: '茈羽酱的小屋网站无法访问'
-      url: 'https://moedk.com'
-    - name: 'Jimmy'
-      url: 'https://jimmycai.com'
+    - name: "依如初梦一只废材小前端~"
+      url: "https://blog.lyi.moe"
+    - name: "FGHRSHFGHRSH 的博客"
+      url: "https://www.fghrsh.net/"
+    - name: "Kano酱の博客只要你喜欢kano，我们就是好朋友！"
+      url: "https://kanochan.net/"
+    - name: "北忆Blog打破一切."
+      url: "https://sirbei.com/"
+    - name: "赤茶Trying to light up the dark."
+      url: "https://cynosura.one/"
+    - name: "Hoyue の 自留地这里的一切都有始有终，却能容纳所有的不期而遇和久别重逢。"
+      url: "https://hoyue.net"
+    - name: "Loac我不是罗大锤"
+      url: "https://loac.cc"
+    - name: "茶栗栗是可爱的栗栗！"
+      url: "https://chariri.moe/"
+    - name: "洛雨の小站历史终将证明一切"
+      url: "https://luotianyi.eu"
+    - name: "Heartalborada's Blog我的征途是星辰大海"
+      url: "https://loliurl.club"
+    - name: "立言 Li Yan求真務實，重義輕利。"
+      url: "https://liyan.moe"
+    - name: "LiKai BlogDE BG6HFD,73!"
+      url: "https://tylk.cc"
+    - name: "風凪的小窝DE BH2VSQ喵~"
+      url: "https://blog.bh2vsq.cn"
+    - name: "Mikuの極光星心有多宽，世界就有多远"
+      url: "https://blog.sotkg.com"
+    - name: "SailTrack杂谈站让我们忠于理想，让我们面对现实"
+      url: "https://www.sailtrack.cn"
+    - name: "YuanRetro这是一个成分复杂的小站哦～"
+      url: "https://www.yuanshen.dev"
+    - name: "萌新杰少遵从中二的召唤，来吧少年！"
+      url: "https://imcys.com/"
+    - name: "派兹的小站驶向未来之船"
+      url: "https://blog.blw.moe/"
+    - name: "耗子博客路漫漫其修远兮，吾将上下而求索。"
+      url: "https://hzbk.net/"
+    - name: "qxdn蓬生麻中，不扶自直"
+      url: "https://qianxu.run/"
+    - name: "Mblog但愿岁月如客，来去皆从容。"
+      url: "https://imufeng.cn/"
+    - name: "Kiritake Kumi私はあの日、誓ったの。いつか絶対、あのステージに立つんだって！"
+      url: "https://niconiconi.us/"
+    - name: "晓白的小站生命不息，折腾不止。"
+      url: "https://blog.chs.pub/"
+    - name: "Shellblock永远相信美好的事情即将发生"
+      url: "https://blog.saky.site/"
+    - name: "Recopec 的博客一只喵喵"
+      url: "https://blog.irec.moe/"
+    - name: "Luminous' Home记录生活中的点滴"
+      url: "https://luotianyi.vc/"
+    - name: "Razuritta`s NotebookApril showers bring May flowers"
+      url: "https://blog.razuritta.me/"
+    - name: "Sunny PaiIn the dawn, towards the sunrise."
+      url: "https://www.sunnypai.top"
+    - name: "CobaltSalt放下个人素质 享受缺德人生"
+      url: "https://www.yizhipikaqiu.top/"
+    - name: "Thelia的随想一个记录自己随想的地方"
+      url: "https://thelia.site"
+    - name: "果果小站人生如梦，一尊还酹江月。"
+      url: "https://%e5%91%90.cn/"
+    - name: "老鱼干专注于IT互联网"
+      url: "https://www.tinyfish.top/"
+    - name: "无何有之乡网站无法访问"
+      url: "https://opau.cn/"
+    - name: "纯情网站无法访问"
+      url: "https://blog.xiaohack.org/"
+    - name: "茈羽酱的小屋网站无法访问"
+      url: "https://moedk.com"
+    - name: "Jimmy"
+      url: "https://jimmycai.com"

@@ -1,12 +1,12 @@
 site:
-  name: 'cclin.org'
-  url: 'https://cclin.org/'
-  description: '友情链接'
-  links: '/about'
+  name: "cclin.org"
+  url: "https://cclin.org/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: 'katex - Mathematical Formulas'
-      url: 'https://katex.org'
-    - name: 'unifiedjs - Markdown Rendering'
-      url: 'https://unifiedjs.com'
-    - name: 'expressive-code - Code Blocks'
-      url: 'https://expressive-code.com'
+    - name: "katex - Mathematical Formulas"
+      url: "https://katex.org"
+    - name: "unifiedjs - Markdown Rendering"
+      url: "https://unifiedjs.com"
+    - name: "expressive-code - Code Blocks"
+      url: "https://expressive-code.com"

@@ -1,10 +1,10 @@
 site:
-  name: '李文周的博客'
-  url: 'https://www.liwenzhou.com/'
-  description: '李文周博客提供在线Go语言学习笔记,免费Go语言中文教程,提供Go入门图文教程和视频教程。'
-  links: '/links'
+  name: "李文周的博客"
+  url: "https://www.liwenzhou.com/"
+  description: "李文周博客提供在线Go语言学习笔记,免费Go语言中文教程,提供Go入门图文教程和视频教程。"
+  links: "/links"
   friends:
-    - name: '极客兔兔'
-      url: 'https://geektutu.com/'
-    - name: '飞雪无情的博客'
-      url: 'https://www.flysnow.org/'
+    - name: "极客兔兔"
+      url: "https://geektutu.com/"
+    - name: "飞雪无情的博客"
+      url: "https://www.flysnow.org/"

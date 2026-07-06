@@ -1,82 +1,82 @@
 site:
-  name: 'Bleaz'
-  url: 'https://blog.bleaz.net/'
-  description: '友情链接'
-  links: '/links'
+  name: "Bleaz"
+  url: "https://blog.bleaz.net/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Android'
-      url: 'https://android99.com'
-    - name: 'Ariasaka の小窝'
-      url: 'https://blog.yaria.top'
-    - name: 'bbb-lsy07'
-      url: 'https://blog.6uu.us'
-    - name: 'ControlNet Blog'
-      url: 'https://controlnet.space/'
-    - name: 'Elykia'
-      url: 'https://blog.elykia.cn/'
-    - name: 'G.B.S.A.T.''s Official Blog'
-      url: 'https://blog.gbsat.org/'
-    - name: 'Hinai'
-      url: 'https://blog.woo.moe'
-    - name: 'Hsu Yeung 的博客'
-      url: 'https://www.hsuyeung.com'
-    - name: 'I Am I'
-      url: 'https://5ime.cn'
-    - name: 'iMaeGoo’s Blog'
-      url: 'https://www.imaegoo.com'
-    - name: 'Kloudy Shape'
-      url: 'https://shape.kloudy.cn/'
-    - name: 'Lucas 的小博客'
-      url: 'https://blog.lris625.top/'
-    - name: 'Mo 的记事簿'
-      url: 'https://blog.xiowo.net/'
-    - name: 'Oyiso''s Blog'
-      url: 'https://oyiso.cn'
-    - name: 'Pinpe 的云端'
-      url: 'https://pinpe.top'
-    - name: 'qxdn'
-      url: 'https://qianxu.run'
-    - name: 'Ryofork Blog'
-      url: 'https://blog.ryofork.top/'
-    - name: 'Twilight Blog'
-      url: 'https://blog.moonlightmc.asia'
-    - name: 'UpXuu''s blog'
-      url: 'https://upxuu.com'
-    - name: 'WuWu'
-      url: 'https://koumakan.space/'
-    - name: 'Yiban'
-      url: 'https://yiban.ccwu.cc/'
-    - name: '一只小羊羔的窝'
-      url: 'https://blog.danzaii.cn'
-    - name: '云灿の随笔小站'
-      url: 'https://blog.yuncan.xyz/'
-    - name: '兰芷冬阳'
-      url: 'https://www.kafuucoori.top'
-    - name: '前尘小筑'
-      url: 'https://mnchen.cn/'
-    - name: '咖啡豆子 coffee 的小站'
-      url: 'https://blog.kfdzcoffee.cn'
-    - name: '墨泽'
-      url: 'https://blog.imzy.ink/'
-    - name: '安小歪'
-      url: 'https://blog.anxw.cn'
-    - name: '定の栈'
-      url: 'https://saop.cc'
-    - name: '小夏的个人空间'
-      url: 'https://taoi.me'
-    - name: '岚天小窝'
-      url: 'https://www.guirlan.de/'
-    - name: '张洪 Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: '挽着红月缓缓走的个人博客'
-      url: 'https://blog.rinai.top/'
-    - name: '朽丘秋雨'
-      url: 'https://koxiuqiu.cn/'
-    - name: '流欺の博客'
-      url: 'https://blog.lqay.cn/'
-    - name: '自由の博客'
-      url: 'https://freeblog.freenw.com/'
-    - name: '陵长镜'
-      url: 'https://r1n.top'
-    - name: '静静的小窝'
-      url: 'https://wznmickey.com'
+    - name: "Android"
+      url: "https://android99.com"
+    - name: "Ariasaka の小窝"
+      url: "https://blog.yaria.top"
+    - name: "bbb-lsy07"
+      url: "https://blog.6uu.us"
+    - name: "ControlNet Blog"
+      url: "https://controlnet.space/"
+    - name: "Elykia"
+      url: "https://blog.elykia.cn/"
+    - name: "G.B.S.A.T.'s Official Blog"
+      url: "https://blog.gbsat.org/"
+    - name: "Hinai"
+      url: "https://blog.woo.moe"
+    - name: "Hsu Yeung 的博客"
+      url: "https://www.hsuyeung.com"
+    - name: "I Am I"
+      url: "https://5ime.cn"
+    - name: "iMaeGoo’s Blog"
+      url: "https://www.imaegoo.com"
+    - name: "Kloudy Shape"
+      url: "https://shape.kloudy.cn/"
+    - name: "Lucas 的小博客"
+      url: "https://blog.lris625.top/"
+    - name: "Mo 的记事簿"
+      url: "https://blog.xiowo.net/"
+    - name: "Oyiso's Blog"
+      url: "https://oyiso.cn"
+    - name: "Pinpe 的云端"
+      url: "https://pinpe.top"
+    - name: "qxdn"
+      url: "https://qianxu.run"
+    - name: "Ryofork Blog"
+      url: "https://blog.ryofork.top/"
+    - name: "Twilight Blog"
+      url: "https://blog.moonlightmc.asia"
+    - name: "UpXuu's blog"
+      url: "https://upxuu.com"
+    - name: "WuWu"
+      url: "https://koumakan.space/"
+    - name: "Yiban"
+      url: "https://yiban.ccwu.cc/"
+    - name: "一只小羊羔的窝"
+      url: "https://blog.danzaii.cn"
+    - name: "云灿の随笔小站"
+      url: "https://blog.yuncan.xyz/"
+    - name: "兰芷冬阳"
+      url: "https://www.kafuucoori.top"
+    - name: "前尘小筑"
+      url: "https://mnchen.cn/"
+    - name: "咖啡豆子 coffee 的小站"
+      url: "https://blog.kfdzcoffee.cn"
+    - name: "墨泽"
+      url: "https://blog.imzy.ink/"
+    - name: "安小歪"
+      url: "https://blog.anxw.cn"
+    - name: "定の栈"
+      url: "https://saop.cc"
+    - name: "小夏的个人空间"
+      url: "https://taoi.me"
+    - name: "岚天小窝"
+      url: "https://www.guirlan.de/"
+    - name: "张洪 Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "挽着红月缓缓走的个人博客"
+      url: "https://blog.rinai.top/"
+    - name: "朽丘秋雨"
+      url: "https://koxiuqiu.cn/"
+    - name: "流欺の博客"
+      url: "https://blog.lqay.cn/"
+    - name: "自由の博客"
+      url: "https://freeblog.freenw.com/"
+    - name: "陵长镜"
+      url: "https://r1n.top"
+    - name: "静静的小窝"
+      url: "https://wznmickey.com"

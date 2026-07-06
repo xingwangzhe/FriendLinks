@@ -1,14 +1,14 @@
 site:
-  name: 'xidcn.com'
-  url: 'https://xidcn.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "xidcn.com"
+  url: "https://xidcn.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '@创客研究'
-      url: 'https://www.devhjz.com'
-    - name: '@Xiaomage''s Blog'
-      url: 'https://blog.xmgspace.me'
-    - name: '@我不是咕咕鸽'
-      url: 'https://blog.laoda.de'
-    - name: '@MJJ建站'
-      url: 'https://mjjjz.com'
+    - name: "@创客研究"
+      url: "https://www.devhjz.com"
+    - name: "@Xiaomage's Blog"
+      url: "https://blog.xmgspace.me"
+    - name: "@我不是咕咕鸽"
+      url: "https://blog.laoda.de"
+    - name: "@MJJ建站"
+      url: "https://mjjjz.com"

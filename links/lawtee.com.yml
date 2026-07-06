@@ -1,60 +1,60 @@
 site:
-  name: '老T博客'
-  url: 'https://lawtee.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "老T博客"
+  url: "https://lawtee.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '十玖八柒 一个收藏回忆与分享技术的地方'
-      url: 'https://blog.ahzoo.cn/'
-    - name: '酷小呵 酷小呵的博客'
-      url: 'https://www.kuhehe.top'
-    - name: 'LineXic书屋 难离难舍，想抱紧些。'
-      url: 'https://linexic.top'
-    - name: '蓝调时刻 天在将暗未暗时最美 爱在将爱未爱时最迷人'
-      url: 'https://www.landiaoshike.com'
-    - name: '有约啦博客 信息创造价值 在记录中前行'
-      url: 'https://blog.youyuela.com'
-    - name: '陶小桃Blog 热衷于分享日常和技术的机械专业小哥哥~'
-      url: 'https://www.52txr.cn'
-    - name: '零一物语 字节世界，解码网络无限可能！'
-      url: 'https://www.docn.net'
-    - name: 'Zeruns''s Blog 爱折腾软件和硬件的技术宅'
-      url: 'https://blog.zeruns.tech'
-    - name: 'Chenli 记录生活,分享生活。'
-      url: 'https://chenliss.cn'
-    - name: 'Naive Koala 🐨 像考拉一样无忧😉'
-      url: 'https://www.xalaok.top'
-    - name: '墨七 专心致志做事，大气温和待人。'
-      url: 'https://blog.mo7.cc'
-    - name: '特立独行的异类 引入变量，跳出死循环，从不确定性中获益'
-      url: 'https://www.demochen.com'
-    - name: '秋码记录 一个游离于山间之上的Java爱好者'
-      url: 'https://qiucode.cn'
-    - name: '阿波尔的博客 一个简单的博客'
-      url: 'https://www.zaqizaba.xyz'
-    - name: 'Nemo a Lens Man'
-      url: 'https://nemo.cool'
-    - name: 'Honesty 花有重开日,人无再少年'
-      url: 'https://blog.hehouhui.cn'
-    - name: '彬红茶日记 个人生活笔记📒'
-      url: 'https://note.redcha.cn'
-    - name: 'Pinpe 的云端 一个属于自己的云朵'
-      url: 'https://pinpe.top'
-    - name: '东东 城市与信仰'
-      url: 'https://nihaha.com'
-    - name: '蘇SU 在数字的海洋中，寻找属于自己的星辰'
-      url: 'https://suus.me/'
-    - name: '手里有只毛毛虫 号角声起 - 等你启航'
-      url: 'https://www.krjojo.com/'
-    - name: 'Carolyn’s Place There is no place like 127.0.0.1'
-      url: 'https://carolyn.sh'
-    - name: 'Lane’s Blog 探索未知，解码未来'
-      url: 'https://www.laneljc.cn/'
-    - name: 'Debug客栈 永远相信美好的事情即将发生'
-      url: 'https://blog.debuginn.com/'
-    - name: 'Evilrabbit Blog 爱 Coding 爱生活'
-      url: 'https://blog.yujiay.wang/'
-    - name: '允赫先森’sBlog 一个八零后大叔的博客分享日常'
-      url: 'https://www.3v.hk/'
-    - name: '云墨观窗 静坐窗前以文字记录日常与所思'
-      url: 'https://mojue88.com/'
+    - name: "十玖八柒 一个收藏回忆与分享技术的地方"
+      url: "https://blog.ahzoo.cn/"
+    - name: "酷小呵 酷小呵的博客"
+      url: "https://www.kuhehe.top"
+    - name: "LineXic书屋 难离难舍，想抱紧些。"
+      url: "https://linexic.top"
+    - name: "蓝调时刻 天在将暗未暗时最美 爱在将爱未爱时最迷人"
+      url: "https://www.landiaoshike.com"
+    - name: "有约啦博客 信息创造价值 在记录中前行"
+      url: "https://blog.youyuela.com"
+    - name: "陶小桃Blog 热衷于分享日常和技术的机械专业小哥哥~"
+      url: "https://www.52txr.cn"
+    - name: "零一物语 字节世界，解码网络无限可能！"
+      url: "https://www.docn.net"
+    - name: "Zeruns's Blog 爱折腾软件和硬件的技术宅"
+      url: "https://blog.zeruns.tech"
+    - name: "Chenli 记录生活,分享生活。"
+      url: "https://chenliss.cn"
+    - name: "Naive Koala 🐨 像考拉一样无忧😉"
+      url: "https://www.xalaok.top"
+    - name: "墨七 专心致志做事，大气温和待人。"
+      url: "https://blog.mo7.cc"
+    - name: "特立独行的异类 引入变量，跳出死循环，从不确定性中获益"
+      url: "https://www.demochen.com"
+    - name: "秋码记录 一个游离于山间之上的Java爱好者"
+      url: "https://qiucode.cn"
+    - name: "阿波尔的博客 一个简单的博客"
+      url: "https://www.zaqizaba.xyz"
+    - name: "Nemo a Lens Man"
+      url: "https://nemo.cool"
+    - name: "Honesty 花有重开日,人无再少年"
+      url: "https://blog.hehouhui.cn"
+    - name: "彬红茶日记 个人生活笔记📒"
+      url: "https://note.redcha.cn"
+    - name: "Pinpe 的云端 一个属于自己的云朵"
+      url: "https://pinpe.top"
+    - name: "东东 城市与信仰"
+      url: "https://nihaha.com"
+    - name: "蘇SU 在数字的海洋中，寻找属于自己的星辰"
+      url: "https://suus.me/"
+    - name: "手里有只毛毛虫 号角声起 - 等你启航"
+      url: "https://www.krjojo.com/"
+    - name: "Carolyn’s Place There is no place like 127.0.0.1"
+      url: "https://carolyn.sh"
+    - name: "Lane’s Blog 探索未知，解码未来"
+      url: "https://www.laneljc.cn/"
+    - name: "Debug客栈 永远相信美好的事情即将发生"
+      url: "https://blog.debuginn.com/"
+    - name: "Evilrabbit Blog 爱 Coding 爱生活"
+      url: "https://blog.yujiay.wang/"
+    - name: "允赫先森’sBlog 一个八零后大叔的博客分享日常"
+      url: "https://www.3v.hk/"
+    - name: "云墨观窗 静坐窗前以文字记录日常与所思"
+      url: "https://mojue88.com/"

@@ -1,12 +1,12 @@
 site:
-  name: 'snoyman.com'
-  url: 'https://www.snoyman.com/'
-  description: '友情链接'
-  links: '/'
+  name: "snoyman.com"
+  url: "https://www.snoyman.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Yesod'
-      url: 'https://www.yesodweb.com/'
-    - name: 'Rust Book'
-      url: 'https://www.beginrust.com/'
-    - name: 'FP Complete'
-      url: 'https://tech.fpcomplete.com/'
+    - name: "Yesod"
+      url: "https://www.yesodweb.com/"
+    - name: "Rust Book"
+      url: "https://www.beginrust.com/"
+    - name: "FP Complete"
+      url: "https://tech.fpcomplete.com/"

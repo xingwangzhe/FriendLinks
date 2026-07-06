@@ -1,10 +1,10 @@
 site:
-  name: 'rinx.nz'
-  url: 'https://rinx.nz/'
-  description: '友情链接'
-  links: '/friends'
+  name: "rinx.nz"
+  url: "https://rinx.nz/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'T THW’s Blog 前途似海，来日方长'
-      url: 'https://blog.tianhw.top'
-    - name: '二 二叉树树 爱你所爱'
-      url: 'https://2x.nz/'
+    - name: "T THW’s Blog 前途似海，来日方长"
+      url: "https://blog.tianhw.top"
+    - name: "二 二叉树树 爱你所爱"
+      url: "https://2x.nz/"

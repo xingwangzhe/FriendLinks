@@ -1,44 +1,44 @@
 site:
-  name: 'kacper.fun'
-  url: 'https://kacper.fun/'
-  description: '友情链接'
-  links: '/friends'
+  name: "kacper.fun"
+  url: "https://kacper.fun/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Chat8 Chat8'
-      url: 'https://chat.chat826.com/'
-    - name: '满血版 DeepSeek 我是满血版 DeepSeek，实时在线，支持深度思考和联网搜索。免费不限次数，帮你写作、创作、分析和规划，各种任务随时交给我！'
-      url: 'https://www.wenxiaobai.com/'
-    - name: 'BlogFinder 发掘「优秀个人独立博客」的分享平台'
-      url: 'https://bf.zzxworld.com/'
-    - name: 'LiuCabbage 一叶浮萍归大海，人生何处不相逢'
-      url: 'https://www.baocaige.top'
-    - name: 'ScarSu 96女性程序员，以终身成长为人生意义，热爱前端技术，喜欢读各种书，关注效率提升、自我管理、心智成长、认知提升、极简生活。'
-      url: 'https://www.scarsu.com'
-    - name: '八尺妖剑 惟有热爱，可抵岁月漫长!'
-      url: 'https://www.ilikexff.cn'
-    - name: '龙鲲博客 这短短的一生，我们最终都会失去。'
-      url: 'https://lkblog.net'
-    - name: '看美景 谁拿着这个枕头，里面有两只狮子，谁会笑，谁会住在柱子前？当你说话时，你需要像兰花一样，这不会被视为笑声。'
-      url: 'http://www.kanmeijing.com'
-    - name: 'leorain 一个对技术和生活充满热爱的文艺型技术青年'
-      url: 'https://www.leorain.cn/'
-    - name: '筱晨''s Blog 在这里，一起成长；在这里，互相进步！'
-      url: 'https://13s.fun'
-    - name: '鼠鼠在碎觉 我是不慎落入世界的一滴水墨'
-      url: 'https://sszsj.com'
-    - name: '南栀 Space 无限进步'
-      url: 'https://litkg.com/'
-    - name: 'Jeffrey 左脑编程，右脑写诗'
-      url: 'https://www.yejiefeng.com/'
-    - name: 'Lositaの私人空间 Life&Thought.'
-      url: 'https://blog.lecspace.com'
-    - name: 'shimmer 欲买桂花同载酒，终不似，少年游。'
-      url: 'https://wp-boke.work'
-    - name: '自闭中 慢一点，总会好起来的~'
-      url: 'https://moonyuan.top/'
-    - name: '谢厉害博客 人生苦短，及时行乐'
-      url: 'https://www.14s.cn/'
-    - name: 'JACK小桔子的小屋 一个分享科技/日常的网站'
-      url: 'https://www.jackxjz.com/'
-    - name: 'coderZ编码世界 到最高点，乘着叶片往前飞'
-      url: 'https://coderzblog.cn/'
+    - name: "Chat8 Chat8"
+      url: "https://chat.chat826.com/"
+    - name: "满血版 DeepSeek 我是满血版 DeepSeek，实时在线，支持深度思考和联网搜索。免费不限次数，帮你写作、创作、分析和规划，各种任务随时交给我！"
+      url: "https://www.wenxiaobai.com/"
+    - name: "BlogFinder 发掘「优秀个人独立博客」的分享平台"
+      url: "https://bf.zzxworld.com/"
+    - name: "LiuCabbage 一叶浮萍归大海，人生何处不相逢"
+      url: "https://www.baocaige.top"
+    - name: "ScarSu 96女性程序员，以终身成长为人生意义，热爱前端技术，喜欢读各种书，关注效率提升、自我管理、心智成长、认知提升、极简生活。"
+      url: "https://www.scarsu.com"
+    - name: "八尺妖剑 惟有热爱，可抵岁月漫长!"
+      url: "https://www.ilikexff.cn"
+    - name: "龙鲲博客 这短短的一生，我们最终都会失去。"
+      url: "https://lkblog.net"
+    - name: "看美景 谁拿着这个枕头，里面有两只狮子，谁会笑，谁会住在柱子前？当你说话时，你需要像兰花一样，这不会被视为笑声。"
+      url: "http://www.kanmeijing.com"
+    - name: "leorain 一个对技术和生活充满热爱的文艺型技术青年"
+      url: "https://www.leorain.cn/"
+    - name: "筱晨's Blog 在这里，一起成长；在这里，互相进步！"
+      url: "https://13s.fun"
+    - name: "鼠鼠在碎觉 我是不慎落入世界的一滴水墨"
+      url: "https://sszsj.com"
+    - name: "南栀 Space 无限进步"
+      url: "https://litkg.com/"
+    - name: "Jeffrey 左脑编程，右脑写诗"
+      url: "https://www.yejiefeng.com/"
+    - name: "Lositaの私人空间 Life&Thought."
+      url: "https://blog.lecspace.com"
+    - name: "shimmer 欲买桂花同载酒，终不似，少年游。"
+      url: "https://wp-boke.work"
+    - name: "自闭中 慢一点，总会好起来的~"
+      url: "https://moonyuan.top/"
+    - name: "谢厉害博客 人生苦短，及时行乐"
+      url: "https://www.14s.cn/"
+    - name: "JACK小桔子的小屋 一个分享科技/日常的网站"
+      url: "https://www.jackxjz.com/"
+    - name: "coderZ编码世界 到最高点，乘着叶片往前飞"
+      url: "https://coderzblog.cn/"

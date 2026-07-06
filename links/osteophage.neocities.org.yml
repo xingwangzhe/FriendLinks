@@ -1,448 +1,448 @@
 site:
-  name: 'osteophage.neocities.org'
-  url: 'https://osteophage.neocities.org/'
-  description: '友情链接'
-  links: '/links'
+  name: "osteophage.neocities.org"
+  url: "https://osteophage.neocities.org/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Down For Everyone Or Just Me'
-      url: 'https://downforeveryoneorjustme.com/'
-    - name: 'Print Friendly'
-      url: 'https://www.printfriendly.com/'
-    - name: 'Remove Paywalls'
-      url: 'https://removepaywalls.com/'
-    - name: 'Where Goes'
-      url: 'https://wheregoes.com/'
-    - name: 'Watch2Gether'
-      url: 'https://w2g.tv/'
-    - name: 'Hyperbeam'
-      url: 'https://watch.hyperbeam.com/'
-    - name: 'SingleFile'
-      url: 'https://www.getsinglefile.com/'
-    - name: 'Waterfox'
-      url: 'https://www.waterfox.com/'
-    - name: 'Lynx'
-      url: 'https://lynx.invisible-island.net/'
-    - name: 'Video Download Helper'
-      url: 'https://v10.downloadhelper.net/'
-    - name: 'Wayback Machine'
-      url: 'https://web.archive.org/'
-    - name: 'TinEye Reverse Image Search'
-      url: 'https://tineye.com/'
-    - name: 'Terms of Service, Didn''t Read'
-      url: 'https://tosdr.org/'
-    - name: 'IndieBlog.page'
-      url: 'https://indieblog.page/'
-    - name: 'RawWeb'
-      url: 'https://rawweb.org/'
-    - name: 'IndieWeb Discover'
-      url: 'https://indieweb-search.jamesg.blog/'
-    - name: 'Search My Site'
-      url: 'https://searchmysite.net/'
-    - name: 'Web Design Museum'
-      url: 'https://www.webdesignmuseum.org/'
-    - name: 'Kill the Newsletter'
-      url: 'https://kill-the-newsletter.com/'
-    - name: 'Phantom'
-      url: 'https://phantom.kuuro.net/'
-    - name: 'Freetube'
-      url: 'https://freetubeapp.io/'
-    - name: 'DiscordMate'
-      url: 'https://discordmate.com/'
-    - name: 'Skyview'
-      url: 'https://skyview.social/'
-    - name: 'Burnsky'
-      url: 'https://burnsky.nesg.es/'
-    - name: 'Delete Facebook'
-      url: 'https://deletefacebook.com/'
-    - name: 'Canine Tools'
-      url: 'https://redlib.canine.tools'
-    - name: 'Merriam-Webster Dictionary'
-      url: 'https://www.merriam-webster.com/'
-    - name: 'Online Etymology Dictionary'
-      url: 'https://www.etymonline.com/'
-    - name: 'Word Hippo'
-      url: 'https://www.wordhippo.com/'
-    - name: 'Grammar Monster'
-      url: 'https://www.grammar-monster.com/'
-    - name: 'International Dialects of English Archive'
-      url: 'https://www.dialectsarchive.com/'
-    - name: 'Native Languages of the Americas'
-      url: 'https://www.native-languages.org/'
-    - name: 'World Atlas of Language Structures'
-      url: 'https://wals.info/'
-    - name: 'IPA Chart'
-      url: 'https://www.ipachart.com/'
-    - name: 'The World''s Writing Systems'
-      url: 'https://www.worldswritingsystems.org/'
-    - name: 'Living Dictionaries'
-      url: 'https://livingdictionaries.app/'
-    - name: 'Learn 101'
-      url: 'https://learn101.org'
-    - name: 'Vulgarlang'
-      url: 'https://www.vulgarlang.com/'
-    - name: 'Fiat Lingua'
-      url: 'https://fiatlingua.org/'
-    - name: 'Library Extension'
-      url: 'https://www.libraryextension.com/'
-    - name: 'Libby'
-      url: 'https://libbyapp.com'
-    - name: 'Hoopla'
-      url: 'https://www.hoopladigital.com/'
-    - name: 'ReciproCard (US)'
-      url: 'https://reciprocard.com/'
-    - name: 'Project Gutenberg'
-      url: 'https://www.gutenberg.org/'
-    - name: 'Standard Ebooks'
-      url: 'https://standardebooks.org/'
-    - name: 'OpenStax'
-      url: 'https://openstax.org/'
-    - name: 'Queer Liberation Library (US)'
-      url: 'https://www.queerliberationlibrary.org '
-    - name: 'JSTOR'
-      url: 'https://www.jstor.org/'
-    - name: 'Pressbooks'
-      url: 'https://pressbooks.directory/'
-    - name: 'Libro.fm'
-      url: 'https://libro.fm/'
-    - name: 'Thriftbooks'
-      url: 'https://www.thriftbooks.com/'
-    - name: 'Book Series in Order'
-      url: 'https://www.bookseriesinorder.com/'
-    - name: 'LibraryThing'
-      url: 'https://www.librarything.com/'
-    - name: 'Grand Comics Database'
-      url: 'https://www.comics.org/'
-    - name: 'DiffText'
-      url: 'https://difftext.com/'
-    - name: 'Online OCR'
-      url: 'https://www.onlineocr.net/'
-    - name: 'Text Fixer'
-      url: 'https://www.textfixer.com/'
-    - name: 'Tropy'
-      url: 'https://tropy.org/'
-    - name: 'Kinopio'
-      url: 'https://kinopio.club/'
-    - name: 'Ellipsus'
-      url: 'https://ellipsus.com/'
-    - name: 'Nice Zines'
-      url: 'https://nicezines.skynash.co.uk/'
-    - name: 'Twenty Two Zines'
-      url: 'https://twentytwozines.com/'
-    - name: 'Audacity'
-      url: 'https://www.audacityteam.org/'
-    - name: 'Wavacity'
-      url: 'https://wavacity.com/'
-    - name: 'Cobalt'
-      url: 'https://cobalt.tools/'
-    - name: 'LMMS'
-      url: 'https://lmms.io/'
-    - name: 'BeepBox'
-      url: 'https://www.beepbox.co/'
-    - name: 'Tenacity'
-      url: 'https://tenacityaudio.org/'
-    - name: 'Strudel'
-      url: 'https://strudel.cc/'
-    - name: 'AudioMass'
-      url: 'https://audiomass.co/'
-    - name: 'Free Sound'
-      url: 'https://freesound.org/'
-    - name: 'BBC Sound Effects Archive'
-      url: 'https://sound-effects.bbcrewind.co.uk/'
-    - name: 'Xeno-Canto'
-      url: 'https://xeno-canto.org/'
-    - name: 'The Sounds Resource'
-      url: 'https://www.sounds-resource.com/'
-    - name: 'Free SFX'
-      url: 'https://freesfx.co.uk/'
-    - name: 'Audio.com'
-      url: 'https://audio.com/'
-    - name: 'Bfxr'
-      url: 'https://www.bfxr.net/'
-    - name: 'Bandcamp'
-      url: 'https://bandcamp.com/'
-    - name: 'Is it Bandcamp Friday'
-      url: 'https://isitbandcampfriday.com/'
-    - name: 'Freegal Music'
-      url: 'https://www.freegalmusic.com'
-    - name: 'Open Music Archive'
-      url: 'https://openmusicarchive.org/'
-    - name: 'Tunefind'
-      url: 'https://www.tunefind.com/'
-    - name: 'GenderSwap.FM'
-      url: 'https://genderswap.fm/'
-    - name: 'Moby Gratis'
-      url: 'https://mobygratis.com/'
-    - name: 'White Bat Audio'
-      url: 'https://whitebataudio.com/'
-    - name: 'WhoSampled'
-      url: 'https://www.whosampled.com/'
-    - name: 'Unstream'
-      url: 'https://unstream.stream/'
-    - name: 'NoCopyrightSounds'
-      url: 'https://ncs.io/'
-    - name: 'Soma FM'
-      url: 'https://somafm.com/'
-    - name: 'Radio Garden'
-      url: 'https://radio.garden'
-    - name: 'Tabletop Audio'
-      url: 'https://tabletopaudio.com/'
-    - name: 'Rainy Mood'
-      url: 'https://rainymood.com/'
-    - name: 'Idial'
-      url: 'https://www.ldial.org/'
-    - name: 'Internet Radio'
-      url: 'https://www.internet-radio.com/'
-    - name: 'Online Radio Box'
-      url: 'https://onlineradiobox.com/'
-    - name: 'Photopea'
-      url: 'https://www.photopea.com/'
-    - name: 'Inkscape'
-      url: 'https://inkscape.org/'
-    - name: 'Vectorization.org'
-      url: 'https://www.vectorization.org/'
-    - name: 'Vectorizer.io'
-      url: 'https://www.vectorizer.io/'
-    - name: 'Color Designer'
-      url: 'https://colordesigner.io/'
-    - name: 'Photocopy Effect'
-      url: 'https://photocopyeffect.com/'
-    - name: 'PixiEditor'
-      url: 'https://pixieditor.net/'
-    - name: 'SVG Viewer'
-      url: 'https://www.svgviewer.dev/'
-    - name: 'Online Image Editor'
-      url: 'https://www.online-image-editor.com/'
-    - name: 'Squoosh'
-      url: 'https://squoosh.app/'
-    - name: 'DigiKam'
-      url: 'https://www.digikam.org/'
-    - name: 'What Font Is'
-      url: 'https://www.whatfontis.com/'
-    - name: 'Birdfont'
-      url: 'https://birdfont.org/'
-    - name: 'Public Domain Image Archive'
-      url: 'https://pdimagearchive.org/'
-    - name: 'Old Book Illusstrations'
-      url: 'https://www.oldbookillustrations.com/'
-    - name: 'Artvee'
-      url: 'https://artvee.com/'
-    - name: 'Poly Haven'
-      url: 'https://polyhaven.com/'
-    - name: 'Texture Ninja'
-      url: 'https://texture.ninja/'
-    - name: 'Phosphor Icons'
-      url: 'https://phosphoricons.com/'
-    - name: 'Pinhead Map Icons'
-      url: 'https://pinhead.ink/'
-    - name: 'System UIcons'
-      url: 'https://www.systemuicons.com/'
-    - name: 'SVG Repo'
-      url: 'https://www.svgrepo.com/'
-    - name: 'Lucide'
-      url: 'https://lucide.dev/'
-    - name: 'Susty Icons'
-      url: 'https://sustyicons.com/'
-    - name: 'Mutant Standard'
-      url: 'https://mutant.tech/'
-    - name: 'Emojinator'
-      url: 'https://emojinator.fun/'
-    - name: 'Piskel'
-      url: 'https://www.piskelapp.com/'
-    - name: 'LibreSprite'
-      url: 'https://libresprite.en.lo4d.com'
-    - name: 'Make 8-bit Art'
-      url: 'https://make8bitart.com/'
-    - name: 'Height Comparison'
-      url: 'https://www.heightcomparison.com/'
-    - name: 'Allusion'
-      url: 'https://allusion-app.github.io/'
-    - name: 'Figurosity'
-      url: 'https://figurosity.com/'
-    - name: 'Character Design References'
-      url: 'https://characterdesignreferences.com/'
-    - name: 'Animal Photo Art References'
-      url: 'https://x6ud.github.io/'
-    - name: 'Flashpoint Archive'
-      url: 'https://flashpointarchive.org/'
-    - name: 'Itch.io'
-      url: 'https://itch.io/'
-    - name: 'Cool Math Games'
-      url: 'https://www.coolmathgames.com/'
-    - name: 'Orb Farm'
-      url: 'https://orb.farm/'
-    - name: 'Old-Games.Ru'
-      url: 'https://www.old-games.ru/'
-    - name: 'Boardgame Arena'
-      url: 'https://en.boardgamearena.com/'
-    - name: 'Enclose Horse'
-      url: 'https://enclose.horse'
-    - name: 'The VG Resource'
-      url: 'https://www.vg-resource.com/'
-    - name: 'Kenny'
-      url: 'https://www.kenney.nl/'
-    - name: 'Blockbench'
-      url: 'https://www.blockbench.net/'
-    - name: 'Dungeon Scrawl'
-      url: 'https://www.dungeonscrawl.com/'
-    - name: 'RPG Tools'
-      url: 'https://donjon.bin.sh/'
-    - name: 'Quaternius'
-      url: 'https://quaternius.com/'
-    - name: 'BoardGameGeek'
-      url: 'https://boardgamegeek.com'
-    - name: 'Pagat: Card Game Rules'
-      url: 'https://www.pagat.com/'
-    - name: 'The Mane Quest'
-      url: 'https://www.themanequest.com/'
-    - name: 'Black Games Archive'
-      url: 'https://blackgamesarchive.org/'
-    - name: 'Video Game History Foundation Library'
-      url: 'https://library.gamehistory.org/'
-    - name: 'Video Game History Foundation Digital Archive'
-      url: 'https://archive.gamehistory.org/'
-    - name: 'Historical Games Network'
-      url: 'https://www.historicalgames.net/'
-    - name: 'Tabletop Bookshelf'
-      url: 'https://tabletopbookshelf.com/'
-    - name: 'Games Database'
-      url: 'https://www.gamesdatabase.org/'
-    - name: 'Smitten Kitchen'
-      url: 'https://smittenkitchen.com/'
-    - name: 'Spend with Pennies'
-      url: 'https://www.spendwithpennies.com/'
-    - name: 'Budget Bytes'
-      url: 'https://www.budgetbytes.com/'
-    - name: 'My Fridge Food'
-      url: 'https://myfridgefood.com/'
-    - name: 'SuperCook'
-      url: 'https://www.supercook.com/'
-    - name: 'StillTasty'
-      url: 'https://stilltasty.com/'
-    - name: 'FindHelp (US)'
-      url: 'http://findhelp.org/'
-    - name: 'Cook Well'
-      url: 'https://www.cookwell.com/'
-    - name: 'iNaturalist'
-      url: 'https://www.inaturalist.org/'
-    - name: 'Biodiversity Heritage Library'
-      url: 'https://about.biodiversitylibrary.org/'
-    - name: 'Native American Ethnobotany Database'
-      url: 'http://naeb.brit.org/'
-    - name: 'Music of Nature'
-      url: 'https://musicofnature.com/ '
-    - name: 'BugGuide'
-      url: 'https://bugguide.net/'
-    - name: 'Insect Identification'
-      url: 'https://www.insectidentification.org/'
-    - name: 'Beartracker''s Animal Tracks Den'
-      url: 'https://www.bear-tracker.com/'
-    - name: 'Merlin Bird ID'
-      url: 'https://merlin.allaboutbirds.org/'
-    - name: 'Native Plant Finder (USA)'
-      url: 'https://nativeplantfinder.nwf.org/'
-    - name: 'Wildflower Search (USA & Patagonia)'
-      url: 'https://wildflowersearch.org/'
-    - name: 'Growstuff'
-      url: 'https://www.growstuff.org/'
-    - name: 'Healthy Yards'
-      url: 'https://www.healthyyards.org/'
-    - name: 'Native Seeds'
-      url: 'https://www.nativeseeds.org/'
-    - name: 'Falling Fruit'
-      url: 'https://fallingfruit.org/'
-    - name: 'Logical Increments'
-      url: 'https://www.logicalincrements.com/'
-    - name: 'PCPartPicker'
-      url: 'https://pcpartpicker.com/'
-    - name: 'AlternativeTo'
-      url: 'https://alternativeto.net/'
-    - name: 'Switching Software'
-      url: 'https://switching.software/'
-    - name: 'Vert'
-      url: 'https://vert.sh/'
-    - name: 'Win Dir Stat (Windows)'
-      url: 'https://windirstat.net/'
-    - name: 'Disk Inventory X'
-      url: 'https://derlien.com/'
-    - name: 'Flux (Windows/Mac)'
-      url: 'https://justgetflux.com/'
-    - name: 'OBS'
-      url: 'https://obsproject.com/'
-    - name: 'DistroChooser'
-      url: 'https://distrochooser.de/'
-    - name: 'Endof10'
-      url: 'https://endof10.org/'
-    - name: 'Wine'
-      url: 'https://www.winehq.org/'
-    - name: 'ProtonDB'
-      url: 'https://www.protondb.com/'
-    - name: 'Gaming on Linux'
-      url: 'https://www.gamingonlinux.com'
-    - name: 'W3Schools'
-      url: 'https://www.w3schools.com/'
-    - name: 'FreeCodeCamp'
-      url: 'https://www.freecodecamp.org/'
-    - name: 'CSS Diner'
-      url: 'https://flukeout.github.io/'
-    - name: 'LayoutIt Grid'
-      url: 'https://grid.layoutit.com/'
-    - name: 'Notepad++ (Windows)'
-      url: 'https://notepad-plus-plus.org/'
-    - name: 'Geany'
-      url: 'https://geany.org/'
-    - name: 'Online HTML Editor'
-      url: 'https://onlinehtmleditor.dev/'
-    - name: 'PuppyPaste'
-      url: 'https://puppypaste.com/'
-    - name: 'Markdown to HTML Converter'
-      url: 'https://markdowntohtml.com/'
-    - name: 'HTML Color Codes'
-      url: 'https://html-color.codes/'
-    - name: 'RBG Color Picker'
-      url: 'https://rgbcolorpicker.com/'
-    - name: 'Colour Contrast Checker'
-      url: 'https://colourcontrast.cc/'
-    - name: 'Contrast Report'
-      url: 'https://contrast.report/'
-    - name: 'Color Kit'
-      url: 'https://colorkit.io/'
-    - name: 'Realtime Colors'
-      url: 'https://www.realtimecolors.com/'
-    - name: 'fffuel'
-      url: 'https://www.fffuel.co/'
-    - name: 'Contrast Grid'
-      url: 'https://contrast-grid.eightshapes.com'
-    - name: 'WAVE Web Accessibility Evaluation Tool'
-      url: 'https://wave.webaim.org/'
-    - name: 'Responsive Website Design Tester'
-      url: 'https://responsivedesignchecker.com/'
-    - name: 'Accessiblity Checker'
-      url: 'https://www.accessibilitychecker.org/'
-    - name: 'PageSpeed Insights'
-      url: 'https://pagespeed.web.dev/'
-    - name: 'Open Graph Tags'
-      url: 'https://ogp.me/'
-    - name: 'Open Graph Preview'
-      url: 'https://www.opengraphpreview.com/'
-    - name: 'Lens'
-      url: 'https://lens.rknight.me/'
-    - name: 'Font Stacks for CSS'
-      url: 'https://modernfontstacks.com/#font-stacks'
-    - name: 'Beautiful Web Type'
-      url: 'https://beautifulwebtype.com/'
-    - name: 'Hyperglot'
-      url: 'https://hyperglot.rosettatype.com/'
-    - name: 'Webmention.io'
-      url: 'https://webmention.io/'
-    - name: 'Webmention Rocks'
-      url: 'https://webmention.rocks/'
-    - name: 'SVGOMG'
-      url: 'https://svgomg.net/'
-    - name: 'Image Map Generator'
-      url: 'https://www.image-map.net/'
-    - name: 'ImageMapper'
-      url: 'https://imagemapper.noc.io/#/'
-    - name: 'Haikei'
-      url: 'https://haikei.app/'
-    - name: 'W3C HTML Validator'
-      url: 'https://validator.w3.org/ '
+    - name: "Down For Everyone Or Just Me"
+      url: "https://downforeveryoneorjustme.com/"
+    - name: "Print Friendly"
+      url: "https://www.printfriendly.com/"
+    - name: "Remove Paywalls"
+      url: "https://removepaywalls.com/"
+    - name: "Where Goes"
+      url: "https://wheregoes.com/"
+    - name: "Watch2Gether"
+      url: "https://w2g.tv/"
+    - name: "Hyperbeam"
+      url: "https://watch.hyperbeam.com/"
+    - name: "SingleFile"
+      url: "https://www.getsinglefile.com/"
+    - name: "Waterfox"
+      url: "https://www.waterfox.com/"
+    - name: "Lynx"
+      url: "https://lynx.invisible-island.net/"
+    - name: "Video Download Helper"
+      url: "https://v10.downloadhelper.net/"
+    - name: "Wayback Machine"
+      url: "https://web.archive.org/"
+    - name: "TinEye Reverse Image Search"
+      url: "https://tineye.com/"
+    - name: "Terms of Service, Didn't Read"
+      url: "https://tosdr.org/"
+    - name: "IndieBlog.page"
+      url: "https://indieblog.page/"
+    - name: "RawWeb"
+      url: "https://rawweb.org/"
+    - name: "IndieWeb Discover"
+      url: "https://indieweb-search.jamesg.blog/"
+    - name: "Search My Site"
+      url: "https://searchmysite.net/"
+    - name: "Web Design Museum"
+      url: "https://www.webdesignmuseum.org/"
+    - name: "Kill the Newsletter"
+      url: "https://kill-the-newsletter.com/"
+    - name: "Phantom"
+      url: "https://phantom.kuuro.net/"
+    - name: "Freetube"
+      url: "https://freetubeapp.io/"
+    - name: "DiscordMate"
+      url: "https://discordmate.com/"
+    - name: "Skyview"
+      url: "https://skyview.social/"
+    - name: "Burnsky"
+      url: "https://burnsky.nesg.es/"
+    - name: "Delete Facebook"
+      url: "https://deletefacebook.com/"
+    - name: "Canine Tools"
+      url: "https://redlib.canine.tools"
+    - name: "Merriam-Webster Dictionary"
+      url: "https://www.merriam-webster.com/"
+    - name: "Online Etymology Dictionary"
+      url: "https://www.etymonline.com/"
+    - name: "Word Hippo"
+      url: "https://www.wordhippo.com/"
+    - name: "Grammar Monster"
+      url: "https://www.grammar-monster.com/"
+    - name: "International Dialects of English Archive"
+      url: "https://www.dialectsarchive.com/"
+    - name: "Native Languages of the Americas"
+      url: "https://www.native-languages.org/"
+    - name: "World Atlas of Language Structures"
+      url: "https://wals.info/"
+    - name: "IPA Chart"
+      url: "https://www.ipachart.com/"
+    - name: "The World's Writing Systems"
+      url: "https://www.worldswritingsystems.org/"
+    - name: "Living Dictionaries"
+      url: "https://livingdictionaries.app/"
+    - name: "Learn 101"
+      url: "https://learn101.org"
+    - name: "Vulgarlang"
+      url: "https://www.vulgarlang.com/"
+    - name: "Fiat Lingua"
+      url: "https://fiatlingua.org/"
+    - name: "Library Extension"
+      url: "https://www.libraryextension.com/"
+    - name: "Libby"
+      url: "https://libbyapp.com"
+    - name: "Hoopla"
+      url: "https://www.hoopladigital.com/"
+    - name: "ReciproCard (US)"
+      url: "https://reciprocard.com/"
+    - name: "Project Gutenberg"
+      url: "https://www.gutenberg.org/"
+    - name: "Standard Ebooks"
+      url: "https://standardebooks.org/"
+    - name: "OpenStax"
+      url: "https://openstax.org/"
+    - name: "Queer Liberation Library (US)"
+      url: "https://www.queerliberationlibrary.org "
+    - name: "JSTOR"
+      url: "https://www.jstor.org/"
+    - name: "Pressbooks"
+      url: "https://pressbooks.directory/"
+    - name: "Libro.fm"
+      url: "https://libro.fm/"
+    - name: "Thriftbooks"
+      url: "https://www.thriftbooks.com/"
+    - name: "Book Series in Order"
+      url: "https://www.bookseriesinorder.com/"
+    - name: "LibraryThing"
+      url: "https://www.librarything.com/"
+    - name: "Grand Comics Database"
+      url: "https://www.comics.org/"
+    - name: "DiffText"
+      url: "https://difftext.com/"
+    - name: "Online OCR"
+      url: "https://www.onlineocr.net/"
+    - name: "Text Fixer"
+      url: "https://www.textfixer.com/"
+    - name: "Tropy"
+      url: "https://tropy.org/"
+    - name: "Kinopio"
+      url: "https://kinopio.club/"
+    - name: "Ellipsus"
+      url: "https://ellipsus.com/"
+    - name: "Nice Zines"
+      url: "https://nicezines.skynash.co.uk/"
+    - name: "Twenty Two Zines"
+      url: "https://twentytwozines.com/"
+    - name: "Audacity"
+      url: "https://www.audacityteam.org/"
+    - name: "Wavacity"
+      url: "https://wavacity.com/"
+    - name: "Cobalt"
+      url: "https://cobalt.tools/"
+    - name: "LMMS"
+      url: "https://lmms.io/"
+    - name: "BeepBox"
+      url: "https://www.beepbox.co/"
+    - name: "Tenacity"
+      url: "https://tenacityaudio.org/"
+    - name: "Strudel"
+      url: "https://strudel.cc/"
+    - name: "AudioMass"
+      url: "https://audiomass.co/"
+    - name: "Free Sound"
+      url: "https://freesound.org/"
+    - name: "BBC Sound Effects Archive"
+      url: "https://sound-effects.bbcrewind.co.uk/"
+    - name: "Xeno-Canto"
+      url: "https://xeno-canto.org/"
+    - name: "The Sounds Resource"
+      url: "https://www.sounds-resource.com/"
+    - name: "Free SFX"
+      url: "https://freesfx.co.uk/"
+    - name: "Audio.com"
+      url: "https://audio.com/"
+    - name: "Bfxr"
+      url: "https://www.bfxr.net/"
+    - name: "Bandcamp"
+      url: "https://bandcamp.com/"
+    - name: "Is it Bandcamp Friday"
+      url: "https://isitbandcampfriday.com/"
+    - name: "Freegal Music"
+      url: "https://www.freegalmusic.com"
+    - name: "Open Music Archive"
+      url: "https://openmusicarchive.org/"
+    - name: "Tunefind"
+      url: "https://www.tunefind.com/"
+    - name: "GenderSwap.FM"
+      url: "https://genderswap.fm/"
+    - name: "Moby Gratis"
+      url: "https://mobygratis.com/"
+    - name: "White Bat Audio"
+      url: "https://whitebataudio.com/"
+    - name: "WhoSampled"
+      url: "https://www.whosampled.com/"
+    - name: "Unstream"
+      url: "https://unstream.stream/"
+    - name: "NoCopyrightSounds"
+      url: "https://ncs.io/"
+    - name: "Soma FM"
+      url: "https://somafm.com/"
+    - name: "Radio Garden"
+      url: "https://radio.garden"
+    - name: "Tabletop Audio"
+      url: "https://tabletopaudio.com/"
+    - name: "Rainy Mood"
+      url: "https://rainymood.com/"
+    - name: "Idial"
+      url: "https://www.ldial.org/"
+    - name: "Internet Radio"
+      url: "https://www.internet-radio.com/"
+    - name: "Online Radio Box"
+      url: "https://onlineradiobox.com/"
+    - name: "Photopea"
+      url: "https://www.photopea.com/"
+    - name: "Inkscape"
+      url: "https://inkscape.org/"
+    - name: "Vectorization.org"
+      url: "https://www.vectorization.org/"
+    - name: "Vectorizer.io"
+      url: "https://www.vectorizer.io/"
+    - name: "Color Designer"
+      url: "https://colordesigner.io/"
+    - name: "Photocopy Effect"
+      url: "https://photocopyeffect.com/"
+    - name: "PixiEditor"
+      url: "https://pixieditor.net/"
+    - name: "SVG Viewer"
+      url: "https://www.svgviewer.dev/"
+    - name: "Online Image Editor"
+      url: "https://www.online-image-editor.com/"
+    - name: "Squoosh"
+      url: "https://squoosh.app/"
+    - name: "DigiKam"
+      url: "https://www.digikam.org/"
+    - name: "What Font Is"
+      url: "https://www.whatfontis.com/"
+    - name: "Birdfont"
+      url: "https://birdfont.org/"
+    - name: "Public Domain Image Archive"
+      url: "https://pdimagearchive.org/"
+    - name: "Old Book Illusstrations"
+      url: "https://www.oldbookillustrations.com/"
+    - name: "Artvee"
+      url: "https://artvee.com/"
+    - name: "Poly Haven"
+      url: "https://polyhaven.com/"
+    - name: "Texture Ninja"
+      url: "https://texture.ninja/"
+    - name: "Phosphor Icons"
+      url: "https://phosphoricons.com/"
+    - name: "Pinhead Map Icons"
+      url: "https://pinhead.ink/"
+    - name: "System UIcons"
+      url: "https://www.systemuicons.com/"
+    - name: "SVG Repo"
+      url: "https://www.svgrepo.com/"
+    - name: "Lucide"
+      url: "https://lucide.dev/"
+    - name: "Susty Icons"
+      url: "https://sustyicons.com/"
+    - name: "Mutant Standard"
+      url: "https://mutant.tech/"
+    - name: "Emojinator"
+      url: "https://emojinator.fun/"
+    - name: "Piskel"
+      url: "https://www.piskelapp.com/"
+    - name: "LibreSprite"
+      url: "https://libresprite.en.lo4d.com"
+    - name: "Make 8-bit Art"
+      url: "https://make8bitart.com/"
+    - name: "Height Comparison"
+      url: "https://www.heightcomparison.com/"
+    - name: "Allusion"
+      url: "https://allusion-app.github.io/"
+    - name: "Figurosity"
+      url: "https://figurosity.com/"
+    - name: "Character Design References"
+      url: "https://characterdesignreferences.com/"
+    - name: "Animal Photo Art References"
+      url: "https://x6ud.github.io/"
+    - name: "Flashpoint Archive"
+      url: "https://flashpointarchive.org/"
+    - name: "Itch.io"
+      url: "https://itch.io/"
+    - name: "Cool Math Games"
+      url: "https://www.coolmathgames.com/"
+    - name: "Orb Farm"
+      url: "https://orb.farm/"
+    - name: "Old-Games.Ru"
+      url: "https://www.old-games.ru/"
+    - name: "Boardgame Arena"
+      url: "https://en.boardgamearena.com/"
+    - name: "Enclose Horse"
+      url: "https://enclose.horse"
+    - name: "The VG Resource"
+      url: "https://www.vg-resource.com/"
+    - name: "Kenny"
+      url: "https://www.kenney.nl/"
+    - name: "Blockbench"
+      url: "https://www.blockbench.net/"
+    - name: "Dungeon Scrawl"
+      url: "https://www.dungeonscrawl.com/"
+    - name: "RPG Tools"
+      url: "https://donjon.bin.sh/"
+    - name: "Quaternius"
+      url: "https://quaternius.com/"
+    - name: "BoardGameGeek"
+      url: "https://boardgamegeek.com"
+    - name: "Pagat: Card Game Rules"
+      url: "https://www.pagat.com/"
+    - name: "The Mane Quest"
+      url: "https://www.themanequest.com/"
+    - name: "Black Games Archive"
+      url: "https://blackgamesarchive.org/"
+    - name: "Video Game History Foundation Library"
+      url: "https://library.gamehistory.org/"
+    - name: "Video Game History Foundation Digital Archive"
+      url: "https://archive.gamehistory.org/"
+    - name: "Historical Games Network"
+      url: "https://www.historicalgames.net/"
+    - name: "Tabletop Bookshelf"
+      url: "https://tabletopbookshelf.com/"
+    - name: "Games Database"
+      url: "https://www.gamesdatabase.org/"
+    - name: "Smitten Kitchen"
+      url: "https://smittenkitchen.com/"
+    - name: "Spend with Pennies"
+      url: "https://www.spendwithpennies.com/"
+    - name: "Budget Bytes"
+      url: "https://www.budgetbytes.com/"
+    - name: "My Fridge Food"
+      url: "https://myfridgefood.com/"
+    - name: "SuperCook"
+      url: "https://www.supercook.com/"
+    - name: "StillTasty"
+      url: "https://stilltasty.com/"
+    - name: "FindHelp (US)"
+      url: "http://findhelp.org/"
+    - name: "Cook Well"
+      url: "https://www.cookwell.com/"
+    - name: "iNaturalist"
+      url: "https://www.inaturalist.org/"
+    - name: "Biodiversity Heritage Library"
+      url: "https://about.biodiversitylibrary.org/"
+    - name: "Native American Ethnobotany Database"
+      url: "http://naeb.brit.org/"
+    - name: "Music of Nature"
+      url: "https://musicofnature.com/ "
+    - name: "BugGuide"
+      url: "https://bugguide.net/"
+    - name: "Insect Identification"
+      url: "https://www.insectidentification.org/"
+    - name: "Beartracker's Animal Tracks Den"
+      url: "https://www.bear-tracker.com/"
+    - name: "Merlin Bird ID"
+      url: "https://merlin.allaboutbirds.org/"
+    - name: "Native Plant Finder (USA)"
+      url: "https://nativeplantfinder.nwf.org/"
+    - name: "Wildflower Search (USA & Patagonia)"
+      url: "https://wildflowersearch.org/"
+    - name: "Growstuff"
+      url: "https://www.growstuff.org/"
+    - name: "Healthy Yards"
+      url: "https://www.healthyyards.org/"
+    - name: "Native Seeds"
+      url: "https://www.nativeseeds.org/"
+    - name: "Falling Fruit"
+      url: "https://fallingfruit.org/"
+    - name: "Logical Increments"
+      url: "https://www.logicalincrements.com/"
+    - name: "PCPartPicker"
+      url: "https://pcpartpicker.com/"
+    - name: "AlternativeTo"
+      url: "https://alternativeto.net/"
+    - name: "Switching Software"
+      url: "https://switching.software/"
+    - name: "Vert"
+      url: "https://vert.sh/"
+    - name: "Win Dir Stat (Windows)"
+      url: "https://windirstat.net/"
+    - name: "Disk Inventory X"
+      url: "https://derlien.com/"
+    - name: "Flux (Windows/Mac)"
+      url: "https://justgetflux.com/"
+    - name: "OBS"
+      url: "https://obsproject.com/"
+    - name: "DistroChooser"
+      url: "https://distrochooser.de/"
+    - name: "Endof10"
+      url: "https://endof10.org/"
+    - name: "Wine"
+      url: "https://www.winehq.org/"
+    - name: "ProtonDB"
+      url: "https://www.protondb.com/"
+    - name: "Gaming on Linux"
+      url: "https://www.gamingonlinux.com"
+    - name: "W3Schools"
+      url: "https://www.w3schools.com/"
+    - name: "FreeCodeCamp"
+      url: "https://www.freecodecamp.org/"
+    - name: "CSS Diner"
+      url: "https://flukeout.github.io/"
+    - name: "LayoutIt Grid"
+      url: "https://grid.layoutit.com/"
+    - name: "Notepad++ (Windows)"
+      url: "https://notepad-plus-plus.org/"
+    - name: "Geany"
+      url: "https://geany.org/"
+    - name: "Online HTML Editor"
+      url: "https://onlinehtmleditor.dev/"
+    - name: "PuppyPaste"
+      url: "https://puppypaste.com/"
+    - name: "Markdown to HTML Converter"
+      url: "https://markdowntohtml.com/"
+    - name: "HTML Color Codes"
+      url: "https://html-color.codes/"
+    - name: "RBG Color Picker"
+      url: "https://rgbcolorpicker.com/"
+    - name: "Colour Contrast Checker"
+      url: "https://colourcontrast.cc/"
+    - name: "Contrast Report"
+      url: "https://contrast.report/"
+    - name: "Color Kit"
+      url: "https://colorkit.io/"
+    - name: "Realtime Colors"
+      url: "https://www.realtimecolors.com/"
+    - name: "fffuel"
+      url: "https://www.fffuel.co/"
+    - name: "Contrast Grid"
+      url: "https://contrast-grid.eightshapes.com"
+    - name: "WAVE Web Accessibility Evaluation Tool"
+      url: "https://wave.webaim.org/"
+    - name: "Responsive Website Design Tester"
+      url: "https://responsivedesignchecker.com/"
+    - name: "Accessiblity Checker"
+      url: "https://www.accessibilitychecker.org/"
+    - name: "PageSpeed Insights"
+      url: "https://pagespeed.web.dev/"
+    - name: "Open Graph Tags"
+      url: "https://ogp.me/"
+    - name: "Open Graph Preview"
+      url: "https://www.opengraphpreview.com/"
+    - name: "Lens"
+      url: "https://lens.rknight.me/"
+    - name: "Font Stacks for CSS"
+      url: "https://modernfontstacks.com/#font-stacks"
+    - name: "Beautiful Web Type"
+      url: "https://beautifulwebtype.com/"
+    - name: "Hyperglot"
+      url: "https://hyperglot.rosettatype.com/"
+    - name: "Webmention.io"
+      url: "https://webmention.io/"
+    - name: "Webmention Rocks"
+      url: "https://webmention.rocks/"
+    - name: "SVGOMG"
+      url: "https://svgomg.net/"
+    - name: "Image Map Generator"
+      url: "https://www.image-map.net/"
+    - name: "ImageMapper"
+      url: "https://imagemapper.noc.io/#/"
+    - name: "Haikei"
+      url: "https://haikei.app/"
+    - name: "W3C HTML Validator"
+      url: "https://validator.w3.org/ "

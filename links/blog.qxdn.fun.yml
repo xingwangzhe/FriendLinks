@@ -1,68 +1,68 @@
 site:
-  name: 'blog.qxdn.fun'
-  url: 'http://blog.qxdn.fun/'
-  description: '友情链接'
-  links: '/link'
+  name: "blog.qxdn.fun"
+  url: "http://blog.qxdn.fun/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: 'Ciallo'
-      url: 'https://ciallo.qianxu.run'
-    - name: 'Nixie'
-      url: 'https://nixie.qianxu.run'
-    - name: 'YGO卡组'
-      url: 'https://ygo.qianxu.run'
-    - name: 'Infinite’s Blog 立志成为Double E的程序猿'
-      url: 'https://infinite-zh.com/'
-    - name: 'Zeromes 咸鱼大学生'
-      url: 'https://www.zeromes.cn/'
-    - name: 'youmingsama 摸鱼大师'
-      url: 'https://youmingsama.cn/'
-    - name: 'Akilarの糖果屋 欢迎光临糖果屋'
-      url: 'https://akilar.top/'
-    - name: 'Eurkon 及时当勉励，岁月不待人。'
-      url: 'https://blog.eurkon.com'
-    - name: '张洪Heo 分享设计与科技生活'
-      url: 'https://blog.zhheo.com/'
-    - name: '微笑博客 知天易，易天难。'
-      url: 'https://www.wxjxw.cn/'
-    - name: 'iMaeGoo’s Blog 虹墨空间站'
-      url: 'https://www.imaegoo.com'
-    - name: 'pellucid'
-      url: 'https://pellucid.art/'
-    - name: '云烟成雨 迷失的人迷失了，相逢的人会再相逢。'
-      url: 'https://shiyu.dev'
-    - name: 'Finisky Garden 互联网技术那些事儿'
-      url: 'https://finisky.github.io/'
-    - name: 'Tianli 自知之明是最可贵的知识！'
-      url: 'https://tianli-blog.club/'
-    - name: '阳小楊 无人了解你的灵魂．'
-      url: 'https://blog.yxyang.top'
-    - name: 'Luminous’ Home 记录生活中的点滴'
-      url: 'https://luotianyi.vc/'
-    - name: 'KusakabeShi''s Space 圖靈不完全的小小部落格'
-      url: 'https://www.kskb.eu.org/'
-    - name: '白 萌新初来乍到，还请各位多多关照！'
-      url: 'https://justmyblog.net/'
-    - name: '琅環书生 无远弗届，皆有可能'
-      url: 'https://blog.chn.us.kg'
-    - name: '小橙子 日落归山海，山海藏深意。'
-      url: 'https://anorange.icu'
-    - name: '福福不服 不服就是不服'
-      url: 'https://ffbf.top'
-    - name: '小旦 SNTube Studio'
-      url: 'https://satera.cn'
-    - name: 'Hoyue の 自留地 这里的一切都有始有终，却能容纳所有的不期而遇和久别重逢。'
-      url: 'https://hoyue.fun'
-    - name: 'Yang''s Harbor Space of Tech, Love and Thought.'
-      url: 'https://discover304.top/'
-    - name: 'zjuatri アトリは、高性能ですから！'
-      url: 'https://zjuatri.cn'
-    - name: 'JIPA233の小窝 Deed divides beings into lower and higher ones.'
-      url: 'https://imjipa.top'
-    - name: 'vvbbnn00 vvbbnn00的博客'
-      url: 'https://blog.vvbbnn00.cn'
-    - name: 'LovesAsunaの小窝 努力做高质量网站'
-      url: 'https://blog.hyosakura.com'
-    - name: 'Bleaz’s Blog 不畏过往，不惧将来'
-      url: 'https://blog.bleaz.net'
-    - name: 'BlogFinder BlogFinder'
-      url: 'https://bf.zzxworld.com/'
+    - name: "Ciallo"
+      url: "https://ciallo.qianxu.run"
+    - name: "Nixie"
+      url: "https://nixie.qianxu.run"
+    - name: "YGO卡组"
+      url: "https://ygo.qianxu.run"
+    - name: "Infinite’s Blog 立志成为Double E的程序猿"
+      url: "https://infinite-zh.com/"
+    - name: "Zeromes 咸鱼大学生"
+      url: "https://www.zeromes.cn/"
+    - name: "youmingsama 摸鱼大师"
+      url: "https://youmingsama.cn/"
+    - name: "Akilarの糖果屋 欢迎光临糖果屋"
+      url: "https://akilar.top/"
+    - name: "Eurkon 及时当勉励，岁月不待人。"
+      url: "https://blog.eurkon.com"
+    - name: "张洪Heo 分享设计与科技生活"
+      url: "https://blog.zhheo.com/"
+    - name: "微笑博客 知天易，易天难。"
+      url: "https://www.wxjxw.cn/"
+    - name: "iMaeGoo’s Blog 虹墨空间站"
+      url: "https://www.imaegoo.com"
+    - name: "pellucid"
+      url: "https://pellucid.art/"
+    - name: "云烟成雨 迷失的人迷失了，相逢的人会再相逢。"
+      url: "https://shiyu.dev"
+    - name: "Finisky Garden 互联网技术那些事儿"
+      url: "https://finisky.github.io/"
+    - name: "Tianli 自知之明是最可贵的知识！"
+      url: "https://tianli-blog.club/"
+    - name: "阳小楊 无人了解你的灵魂．"
+      url: "https://blog.yxyang.top"
+    - name: "Luminous’ Home 记录生活中的点滴"
+      url: "https://luotianyi.vc/"
+    - name: "KusakabeShi's Space 圖靈不完全的小小部落格"
+      url: "https://www.kskb.eu.org/"
+    - name: "白 萌新初来乍到，还请各位多多关照！"
+      url: "https://justmyblog.net/"
+    - name: "琅環书生 无远弗届，皆有可能"
+      url: "https://blog.chn.us.kg"
+    - name: "小橙子 日落归山海，山海藏深意。"
+      url: "https://anorange.icu"
+    - name: "福福不服 不服就是不服"
+      url: "https://ffbf.top"
+    - name: "小旦 SNTube Studio"
+      url: "https://satera.cn"
+    - name: "Hoyue の 自留地 这里的一切都有始有终，却能容纳所有的不期而遇和久别重逢。"
+      url: "https://hoyue.fun"
+    - name: "Yang's Harbor Space of Tech, Love and Thought."
+      url: "https://discover304.top/"
+    - name: "zjuatri アトリは、高性能ですから！"
+      url: "https://zjuatri.cn"
+    - name: "JIPA233の小窝 Deed divides beings into lower and higher ones."
+      url: "https://imjipa.top"
+    - name: "vvbbnn00 vvbbnn00的博客"
+      url: "https://blog.vvbbnn00.cn"
+    - name: "LovesAsunaの小窝 努力做高质量网站"
+      url: "https://blog.hyosakura.com"
+    - name: "Bleaz’s Blog 不畏过往，不惧将来"
+      url: "https://blog.bleaz.net"
+    - name: "BlogFinder BlogFinder"
+      url: "https://bf.zzxworld.com/"

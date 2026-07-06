@@ -1,14 +1,14 @@
 site:
-  name: 'object.computer'
-  url: 'https://object.computer/'
-  description: '友情链接'
-  links: '/'
+  name: "object.computer"
+  url: "https://object.computer/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Kittie Knox'
-      url: 'https://www.cyclingwiththeghostofkittieknox.com'
-    - name: 'Micro.blog'
-      url: 'https://micro.blog'
-    - name: 'Tiny Theme'
-      url: 'https://tiny.micro.blog'
-    - name: 'Matt Langford'
-      url: 'https://www.mattlangford.com'
+    - name: "Kittie Knox"
+      url: "https://www.cyclingwiththeghostofkittieknox.com"
+    - name: "Micro.blog"
+      url: "https://micro.blog"
+    - name: "Tiny Theme"
+      url: "https://tiny.micro.blog"
+    - name: "Matt Langford"
+      url: "https://www.mattlangford.com"

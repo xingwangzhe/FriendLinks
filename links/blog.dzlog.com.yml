@@ -1,12 +1,12 @@
 site:
-  name: 'blog.dzlog.com'
-  url: 'https://blog.dzlog.com/'
-  description: '友情链接'
-  links: '/'
+  name: "blog.dzlog.com"
+  url: "https://blog.dzlog.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'faryou的博客 faryou的博客'
-      url: 'https://blog.faryou.eu.org/'
-    - name: '中医养生博客 传统中医养生智慧'
-      url: 'http://www.zhongzhiys.com/'
-    - name: '免费php空间 已经12年的免费php空间'
-      url: 'https://phpkj.com'
+    - name: "faryou的博客 faryou的博客"
+      url: "https://blog.faryou.eu.org/"
+    - name: "中医养生博客 传统中医养生智慧"
+      url: "http://www.zhongzhiys.com/"
+    - name: "免费php空间 已经12年的免费php空间"
+      url: "https://phpkj.com"

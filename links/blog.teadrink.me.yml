@@ -1,14 +1,14 @@
 site:
-  name: 'blog.teadrink.me'
-  url: 'https://blog.teadrink.me/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.teadrink.me"
+  url: "https://blog.teadrink.me/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '夏夜流萤飞萤之火自无梦的长夜亮起，绽放在终竟的明天。Blog'
-      url: 'https://blog.cuteleaf.cn'
-    - name: 'AcoFork BlogProtect What You Love.Blog'
-      url: 'https://2x.nz'
-    - name: 'kiyukie''Blog剑气纵横三万里，一剑光寒十九洲。Blog'
-      url: 'https://blog.030666.xyz'
-    - name: 'NNNullptr南数学生的古早风格个人站Blog'
-      url: 'https://xnmoe.com'
+    - name: "夏夜流萤飞萤之火自无梦的长夜亮起，绽放在终竟的明天。Blog"
+      url: "https://blog.cuteleaf.cn"
+    - name: "AcoFork BlogProtect What You Love.Blog"
+      url: "https://2x.nz"
+    - name: "kiyukie'Blog剑气纵横三万里，一剑光寒十九洲。Blog"
+      url: "https://blog.030666.xyz"
+    - name: "NNNullptr南数学生的古早风格个人站Blog"
+      url: "https://xnmoe.com"

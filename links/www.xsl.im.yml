@@ -1,64 +1,64 @@
 site:
-  name: 'AirTouchの小站'
-  url: 'https://www.xsl.im/'
-  description: '这里是 AirTouch 的博客，分享网络技术、服务器部署、内网穿透、静态网站搭建、CDN优化、容器化部署等技术教程与实践经验的个人技术，专注于云原生、无服务器'
-  links: '/links'
+  name: "AirTouchの小站"
+  url: "https://www.xsl.im/"
+  description: "这里是 AirTouch 的博客，分享网络技术、服务器部署、内网穿透、静态网站搭建、CDN优化、容器化部署等技术教程与实践经验的个人技术，专注于云原生、无服务器"
+  links: "/links"
   friends:
-    - name: 'LiuShen's Blog'
-      url: 'https://blog.liushen.fun/'
-    - name: 'Thun888'
-      url: 'https://blog.hzchu.top/'
-    - name: '杜老师说'
-      url: 'https://dusays.com/'
-    - name: '纸鹿摸鱼处'
-      url: 'https://blog.zhilu.site/'
-    - name: 'XAOXUU'
-      url: 'https://xaoxuu.com/'
-    - name: 'bbb-lsy07'
-      url: 'https://blog.tsoo.net/'
-    - name: 'fishcpy的小破站'
-      url: 'https://blog.fis.ink/'
-    - name: '-Mete0r's Blog'
-      url: 'https://www.xscnet.cn/'
-    - name: '彬红茶日记'
-      url: 'https://note.redcha.cn/'
-    - name: '夜轻 Blog'
-      url: 'https://blog.yeqing.net/'
-    - name: '首页'
-      url: 'https://blog.anheyu.com/'
-    - name: '𝟞𝟙𝟡'𝕤 𝔹𝕃𝕆𝔾'
-      url: 'https://66619.eu.org/'
-    - name: '短巷与雨'
-      url: 'https://www.hudi.space/'
-    - name: 'ANXYの小窝'
-      url: 'https://blog.anxy.top/'
-    - name: '贰猹の小窝'
-      url: 'https://noionion.top/'
-    - name: '山岳库博'
-      url: 'https://kmar.top/'
-    - name: '硅基漫游指南'
-      url: 'https://blog.helong.online/'
-    - name: '周润发博客'
-      url: 'https://blog.zrf.me/'
-    - name: '梦爱吃鱼'
-      url: 'https://blog.bsgun.cn/'
-    - name: '花生莲子粥の小窝'
-      url: 'https://blog.hslzz.cn/'
-    - name: 'Ariasakaの小窝'
-      url: 'https://blog.yaria.top/'
-    - name: '首页'
-      url: 'https://blog.ljx.icu/'
-    - name: '鹊楠の小窝'
-      url: 'https://blog.quenan.cn/'
-    - name: 'Lifeline'
-      url: 'https://lifelinest.github.io/'
-    - name: '倦意博客'
-      url: 'https://jyblog.cn/'
-    - name: 'Hantaの天境小屋🥝'
-      url: 'https://blog.hanta2011.top/'
-    - name: 'PYM博客'
-      url: 'https://pym.plus/'
-    - name: '笔墨迹'
-      url: 'https://blogscn.fun/'
-    - name: '异次元之旅-萌ICP备'
-      url: 'https://travel.moe/'
+    - name: "LiuShen's Blog"
+      url: "https://blog.liushen.fun/"
+    - name: "Thun888"
+      url: "https://blog.hzchu.top/"
+    - name: "杜老师说"
+      url: "https://dusays.com/"
+    - name: "纸鹿摸鱼处"
+      url: "https://blog.zhilu.site/"
+    - name: "XAOXUU"
+      url: "https://xaoxuu.com/"
+    - name: "bbb-lsy07"
+      url: "https://blog.tsoo.net/"
+    - name: "fishcpy的小破站"
+      url: "https://blog.fis.ink/"
+    - name: "-Mete0r's Blog"
+      url: "https://www.xscnet.cn/"
+    - name: "彬红茶日记"
+      url: "https://note.redcha.cn/"
+    - name: "夜轻 Blog"
+      url: "https://blog.yeqing.net/"
+    - name: "首页"
+      url: "https://blog.anheyu.com/"
+    - name: "𝟞𝟙𝟡'𝕤 𝔹𝕃𝕆𝔾"
+      url: "https://66619.eu.org/"
+    - name: "短巷与雨"
+      url: "https://www.hudi.space/"
+    - name: "ANXYの小窝"
+      url: "https://blog.anxy.top/"
+    - name: "贰猹の小窝"
+      url: "https://noionion.top/"
+    - name: "山岳库博"
+      url: "https://kmar.top/"
+    - name: "硅基漫游指南"
+      url: "https://blog.helong.online/"
+    - name: "周润发博客"
+      url: "https://blog.zrf.me/"
+    - name: "梦爱吃鱼"
+      url: "https://blog.bsgun.cn/"
+    - name: "花生莲子粥の小窝"
+      url: "https://blog.hslzz.cn/"
+    - name: "Ariasakaの小窝"
+      url: "https://blog.yaria.top/"
+    - name: "首页"
+      url: "https://blog.ljx.icu/"
+    - name: "鹊楠の小窝"
+      url: "https://blog.quenan.cn/"
+    - name: "Lifeline"
+      url: "https://lifelinest.github.io/"
+    - name: "倦意博客"
+      url: "https://jyblog.cn/"
+    - name: "Hantaの天境小屋🥝"
+      url: "https://blog.hanta2011.top/"
+    - name: "PYM博客"
+      url: "https://pym.plus/"
+    - name: "笔墨迹"
+      url: "https://blogscn.fun/"
+    - name: "异次元之旅-萌ICP备"
+      url: "https://travel.moe/"

@@ -1,10 +1,10 @@
 site:
-  name: 'blog.orangi.cn'
-  url: 'https://blog.orangi.cn/'
-  description: '友情链接'
-  links: '/'
+  name: "blog.orangi.cn"
+  url: "https://blog.orangi.cn/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'White StaticFiles'
-      url: 'https://a1-static.white-team.cn/'
-    - name: 'Qrasa 的小站'
-      url: 'https://blog.qrasa.cn/'
+    - name: "White StaticFiles"
+      url: "https://a1-static.white-team.cn/"
+    - name: "Qrasa 的小站"
+      url: "https://blog.qrasa.cn/"

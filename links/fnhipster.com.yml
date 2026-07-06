@@ -1,12 +1,12 @@
 site:
-  name: 'fnhipster.com'
-  url: 'https://fnhipster.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "fnhipster.com"
+  url: "https://fnhipster.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Distorted Pleasures'
-      url: 'https://displ.nl/'
-    - name: 'how soon is now?'
-      url: 'https://howsoonisnow.org'
-    - name: 'ekul.me'
-      url: 'https://ekul.me'
+    - name: "Distorted Pleasures"
+      url: "https://displ.nl/"
+    - name: "how soon is now?"
+      url: "https://howsoonisnow.org"
+    - name: "ekul.me"
+      url: "https://ekul.me"

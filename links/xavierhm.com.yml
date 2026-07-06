@@ -1,192 +1,192 @@
 site:
-  name: 'xavierhm.com'
-  url: 'https://xavierhm.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "xavierhm.com"
+  url: "https://xavierhm.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'brisray.com'
-      url: 'https://brisray.com/'
-    - name: 'departure.blog'
-      url: 'https://departure.blog/'
-    - name: 'ghostsnwitches.online'
-      url: 'https://ghostsnwitches.online/'
-    - name: 'pinnro.nekoweb.org'
-      url: 'https://piinro.nekoweb.org/'
-    - name: 'vaginapeople.nekoweb.org'
-      url: 'https://vaginapeople.nekoweb.org/'
-    - name: 'nickhayes.bearblog.dev'
-      url: 'https://nickhayes.bearblog.dev/'
-    - name: 'paritybit.ca'
-      url: 'https://www.paritybit.ca/'
-    - name: 'finleyishere.nekoweb.org'
-      url: 'https://finleyishere.nekoweb.org/'
-    - name: 'hermenaut.click'
-      url: 'https://hermenaut.click'
-    - name: 'normal-nice-girl.neocities.org'
-      url: 'https://normal-nice-girl.neocities.org/'
-    - name: 'bennizone.net'
-      url: 'https://bennizone.net/'
-    - name: 'maffies.nekoweb.org'
-      url: 'https://maffies.nekoweb.org/'
-    - name: 'Nekoweb'
-      url: 'https://nekoweb.org/'
-    - name: 'Bearblog'
-      url: 'https://bearblog.dev/'
-    - name: 'Neocities'
-      url: 'https://neocities.org/'
-    - name: 'W3 Schools'
-      url: 'https://www.w3schools.com/'
-    - name: 'Markdown to HTML Converter'
-      url: 'https://markdowntohtml.com/'
-    - name: 'HTML to Markdown Converter'
-      url: 'https://htmlmarkdown.com/'
-    - name: 'Website Carbon Calculator'
-      url: 'https://www.websitecarbon.com/'
-    - name: 'imood'
-      url: 'https://imood.com/'
-    - name: 'Lanyard'
-      url: 'https://lanyard.eggsy.xyz/'
-    - name: 'Ameniwa''s Pixel Converter'
-      url: 'https://pixel-converter.ameniwa.com/'
-    - name: 'CatAsk'
-      url: 'https://catask.org/'
-    - name: 'Quartz'
-      url: 'https://quartz.jzhao.xyz/'
-    - name: 'Krita-Artists'
-      url: 'https://krita-artists.org/'
-    - name: 'Pixel Joint'
-      url: 'https://pixeljoint.com/'
-    - name: 'Cubebrush'
-      url: 'https://cubebrush.co/'
-    - name: 'Model Society'
-      url: 'https://modelsociety.com/'
-    - name: 'Croquis Cafe'
-      url: 'https://croquis.cafe/'
-    - name: '[FILMGRAB]'
-      url: 'https://film-grab.com/'
-    - name: 'MoMA'
-      url: 'https://www.moma.org/'
-    - name: 'Met Museum'
-      url: 'https://www.metmuseum.org/'
-    - name: 'The Art Story'
-      url: 'https://www.theartstory.org/'
-    - name: 'jackson-pollock.org'
-      url: 'https://www.jackson-pollock.org/'
-    - name: 'egon-schiele.com'
-      url: 'https://www.egon-schiele.com/'
-    - name: 'The Keith Haring Foundation'
-      url: 'https://www.haring.com/'
-    - name: 'Linux Mint'
-      url: 'https://linuxmint.com/'
-    - name: 'Linux Mint forums'
-      url: 'https://forums.linuxmint.com/'
-    - name: 'Cinanmon Spices'
-      url: 'https://cinnamon-spices.linuxmint.com/'
-    - name: 'ProtonDB'
-      url: 'https://www.protondb.com/'
-    - name: 'iFixit'
-      url: 'https://www.ifixit.com/'
-    - name: '3DS Hacks Guide'
-      url: 'https://3ds.hacks.guide/'
-    - name: 'hShop'
-      url: 'https://hshop.erista.me/'
-    - name: 'Pretendo Network'
-      url: 'https://pretendo.network/'
-    - name: 'Poké Classic Network'
-      url: 'https://pkmnclassic.net/'
-    - name: 'Flashpoint Archive'
-      url: 'https://flashpointarchive.org/'
-    - name: 'comfy.guide'
-      url: 'https://comfy.guide/'
-    - name: 'S/N Lookup'
-      url: 'https://snlookup.com/'
-    - name: 'chrx'
-      url: 'https://chrx.org/'
-    - name: 'The Internet Archive'
-      url: 'https://archive.org/'
-    - name: 'Anna''s Archive'
-      url: 'https://annas-archive.org/'
-    - name: 'MusicBrainz'
-      url: 'https://musicbrainz.org/'
-    - name: 'Cover Art Archive'
-      url: 'https://coverartarchive.org/'
-    - name: 'Digital Transgender Archive'
-      url: 'https://www.digitaltransgenderarchive.net/'
-    - name: 'textfiles.com'
-      url: 'http://textfiles.com/'
-    - name: 'Dharma Wheel'
-      url: 'https://www.dharmawheel.net/'
-    - name: 'Pure Land Buddhism'
-      url: 'https://www.purelandbuddhism.org/'
-    - name: 'Buddha Net'
-      url: 'https://www.buddhanet.net/'
-    - name: 'FPMT'
-      url: 'https://fpmt.org/'
-    - name: 'Lama Yeshe Wisdom Archive'
-      url: 'https://www.lamayeshe.com/'
-    - name: 'Robina Courtin'
-      url: 'https://robinacourtin.com/'
-    - name: 'Karma Wheel'
-      url: 'https://www.karmawheel.org/'
-    - name: 'Penny Dell Puzzles'
-      url: 'https://www.pennydellpuzzles.com/'
-    - name: 'mountaintown.neocities.org'
-      url: 'https://mountaintown.neocities.org/'
-    - name: 'Web Design Museum'
-      url: 'https://www.webdesignmuseum.org/'
-    - name: 'Old Web Today'
-      url: 'https://oldweb.today/'
-    - name: 'The Old Net'
-      url: 'https://theoldnet.com/'
-    - name: 'MyRetroTVs'
-      url: 'https://www.myretrotvs.com/'
-    - name: 'i-land'
-      url: 'https://i-land.online'
-    - name: 'Spriters'' Resource'
-      url: 'https://www.spriters-resource.com/'
-    - name: 'Pokecharms Trainer Card Maker'
-      url: 'https://www.pokecharms.com/'
-    - name: 'flowergame.net'
-      url: 'https://flowergame.net/'
-    - name: 'lobste.rs'
-      url: 'https://lobste.rs/'
-    - name: 'notnite'
-      url: 'https://notnite.com/'
-    - name: '88by31'
-      url: 'https://88by31.neocities.org/'
-    - name: '88x31.kate.pet'
-      url: 'https://88x31.kate.pet/'
-    - name: 'coco''s pixel safari'
-      url: 'https://pixelsafari.neocities.org/'
-    - name: 'supplies.ju.mp'
-      url: 'https://supplies.ju.mp/'
-    - name: 'Prismatic Realm'
-      url: 'https://prismatic-realm.net'
-    - name: 'gifs.cc'
-      url: 'https://www.gifs.cc/'
-    - name: 'graphic.neocities.org'
-      url: 'https://graphic.neocities.org/'
-    - name: 'DIVINICIDE'
-      url: 'https://divinicide.neocities.org/'
-    - name: 'SITCOM THEORY'
-      url: 'https://sitcomtheory.org/'
-    - name: 'do not log off'
-      url: 'https://locknchase.neocities.org/'
-    - name: 'Leet Angel Girl'
-      url: 'https://l337.neocities.org/'
-    - name: 'online-ceramics'
-      url: 'https://online-ceramics.com/'
-    - name: 'freespeechonline'
-      url: 'https://www.freespeechonline.org/'
-    - name: 'maia.crimew.gay'
-      url: 'https://maia.crimew.gay/'
-    - name: 'The Institute for 21st Century Relationships'
-      url: 'https://lovethatworks.org/'
-    - name: 'sexwork.com'
-      url: 'https://www.sexwork.com/'
-    - name: 'surfacetreasure.neocities.org'
-      url: 'https://surfacetreasure.neocities.org/'
-    - name: 'onlytrichromatic.neocities.org'
-      url: 'https://onlytrichromatic.neocities.org/'
-    - name: 'ihateboys.neocities.org'
-      url: 'https://ihateboys.neocities.org/'
+    - name: "brisray.com"
+      url: "https://brisray.com/"
+    - name: "departure.blog"
+      url: "https://departure.blog/"
+    - name: "ghostsnwitches.online"
+      url: "https://ghostsnwitches.online/"
+    - name: "pinnro.nekoweb.org"
+      url: "https://piinro.nekoweb.org/"
+    - name: "vaginapeople.nekoweb.org"
+      url: "https://vaginapeople.nekoweb.org/"
+    - name: "nickhayes.bearblog.dev"
+      url: "https://nickhayes.bearblog.dev/"
+    - name: "paritybit.ca"
+      url: "https://www.paritybit.ca/"
+    - name: "finleyishere.nekoweb.org"
+      url: "https://finleyishere.nekoweb.org/"
+    - name: "hermenaut.click"
+      url: "https://hermenaut.click"
+    - name: "normal-nice-girl.neocities.org"
+      url: "https://normal-nice-girl.neocities.org/"
+    - name: "bennizone.net"
+      url: "https://bennizone.net/"
+    - name: "maffies.nekoweb.org"
+      url: "https://maffies.nekoweb.org/"
+    - name: "Nekoweb"
+      url: "https://nekoweb.org/"
+    - name: "Bearblog"
+      url: "https://bearblog.dev/"
+    - name: "Neocities"
+      url: "https://neocities.org/"
+    - name: "W3 Schools"
+      url: "https://www.w3schools.com/"
+    - name: "Markdown to HTML Converter"
+      url: "https://markdowntohtml.com/"
+    - name: "HTML to Markdown Converter"
+      url: "https://htmlmarkdown.com/"
+    - name: "Website Carbon Calculator"
+      url: "https://www.websitecarbon.com/"
+    - name: "imood"
+      url: "https://imood.com/"
+    - name: "Lanyard"
+      url: "https://lanyard.eggsy.xyz/"
+    - name: "Ameniwa's Pixel Converter"
+      url: "https://pixel-converter.ameniwa.com/"
+    - name: "CatAsk"
+      url: "https://catask.org/"
+    - name: "Quartz"
+      url: "https://quartz.jzhao.xyz/"
+    - name: "Krita-Artists"
+      url: "https://krita-artists.org/"
+    - name: "Pixel Joint"
+      url: "https://pixeljoint.com/"
+    - name: "Cubebrush"
+      url: "https://cubebrush.co/"
+    - name: "Model Society"
+      url: "https://modelsociety.com/"
+    - name: "Croquis Cafe"
+      url: "https://croquis.cafe/"
+    - name: "[FILMGRAB]"
+      url: "https://film-grab.com/"
+    - name: "MoMA"
+      url: "https://www.moma.org/"
+    - name: "Met Museum"
+      url: "https://www.metmuseum.org/"
+    - name: "The Art Story"
+      url: "https://www.theartstory.org/"
+    - name: "jackson-pollock.org"
+      url: "https://www.jackson-pollock.org/"
+    - name: "egon-schiele.com"
+      url: "https://www.egon-schiele.com/"
+    - name: "The Keith Haring Foundation"
+      url: "https://www.haring.com/"
+    - name: "Linux Mint"
+      url: "https://linuxmint.com/"
+    - name: "Linux Mint forums"
+      url: "https://forums.linuxmint.com/"
+    - name: "Cinanmon Spices"
+      url: "https://cinnamon-spices.linuxmint.com/"
+    - name: "ProtonDB"
+      url: "https://www.protondb.com/"
+    - name: "iFixit"
+      url: "https://www.ifixit.com/"
+    - name: "3DS Hacks Guide"
+      url: "https://3ds.hacks.guide/"
+    - name: "hShop"
+      url: "https://hshop.erista.me/"
+    - name: "Pretendo Network"
+      url: "https://pretendo.network/"
+    - name: "Poké Classic Network"
+      url: "https://pkmnclassic.net/"
+    - name: "Flashpoint Archive"
+      url: "https://flashpointarchive.org/"
+    - name: "comfy.guide"
+      url: "https://comfy.guide/"
+    - name: "S/N Lookup"
+      url: "https://snlookup.com/"
+    - name: "chrx"
+      url: "https://chrx.org/"
+    - name: "The Internet Archive"
+      url: "https://archive.org/"
+    - name: "Anna's Archive"
+      url: "https://annas-archive.org/"
+    - name: "MusicBrainz"
+      url: "https://musicbrainz.org/"
+    - name: "Cover Art Archive"
+      url: "https://coverartarchive.org/"
+    - name: "Digital Transgender Archive"
+      url: "https://www.digitaltransgenderarchive.net/"
+    - name: "textfiles.com"
+      url: "http://textfiles.com/"
+    - name: "Dharma Wheel"
+      url: "https://www.dharmawheel.net/"
+    - name: "Pure Land Buddhism"
+      url: "https://www.purelandbuddhism.org/"
+    - name: "Buddha Net"
+      url: "https://www.buddhanet.net/"
+    - name: "FPMT"
+      url: "https://fpmt.org/"
+    - name: "Lama Yeshe Wisdom Archive"
+      url: "https://www.lamayeshe.com/"
+    - name: "Robina Courtin"
+      url: "https://robinacourtin.com/"
+    - name: "Karma Wheel"
+      url: "https://www.karmawheel.org/"
+    - name: "Penny Dell Puzzles"
+      url: "https://www.pennydellpuzzles.com/"
+    - name: "mountaintown.neocities.org"
+      url: "https://mountaintown.neocities.org/"
+    - name: "Web Design Museum"
+      url: "https://www.webdesignmuseum.org/"
+    - name: "Old Web Today"
+      url: "https://oldweb.today/"
+    - name: "The Old Net"
+      url: "https://theoldnet.com/"
+    - name: "MyRetroTVs"
+      url: "https://www.myretrotvs.com/"
+    - name: "i-land"
+      url: "https://i-land.online"
+    - name: "Spriters' Resource"
+      url: "https://www.spriters-resource.com/"
+    - name: "Pokecharms Trainer Card Maker"
+      url: "https://www.pokecharms.com/"
+    - name: "flowergame.net"
+      url: "https://flowergame.net/"
+    - name: "lobste.rs"
+      url: "https://lobste.rs/"
+    - name: "notnite"
+      url: "https://notnite.com/"
+    - name: "88by31"
+      url: "https://88by31.neocities.org/"
+    - name: "88x31.kate.pet"
+      url: "https://88x31.kate.pet/"
+    - name: "coco's pixel safari"
+      url: "https://pixelsafari.neocities.org/"
+    - name: "supplies.ju.mp"
+      url: "https://supplies.ju.mp/"
+    - name: "Prismatic Realm"
+      url: "https://prismatic-realm.net"
+    - name: "gifs.cc"
+      url: "https://www.gifs.cc/"
+    - name: "graphic.neocities.org"
+      url: "https://graphic.neocities.org/"
+    - name: "DIVINICIDE"
+      url: "https://divinicide.neocities.org/"
+    - name: "SITCOM THEORY"
+      url: "https://sitcomtheory.org/"
+    - name: "do not log off"
+      url: "https://locknchase.neocities.org/"
+    - name: "Leet Angel Girl"
+      url: "https://l337.neocities.org/"
+    - name: "online-ceramics"
+      url: "https://online-ceramics.com/"
+    - name: "freespeechonline"
+      url: "https://www.freespeechonline.org/"
+    - name: "maia.crimew.gay"
+      url: "https://maia.crimew.gay/"
+    - name: "The Institute for 21st Century Relationships"
+      url: "https://lovethatworks.org/"
+    - name: "sexwork.com"
+      url: "https://www.sexwork.com/"
+    - name: "surfacetreasure.neocities.org"
+      url: "https://surfacetreasure.neocities.org/"
+    - name: "onlytrichromatic.neocities.org"
+      url: "https://onlytrichromatic.neocities.org/"
+    - name: "ihateboys.neocities.org"
+      url: "https://ihateboys.neocities.org/"

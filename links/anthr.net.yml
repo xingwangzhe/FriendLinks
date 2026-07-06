@@ -1,10 +1,10 @@
 site:
-  name: 'anthr.net'
-  url: 'https://anthr.net/'
-  description: '友情链接'
-  links: '/link'
+  name: "anthr.net"
+  url: "https://anthr.net/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: 'Fediring'
-      url: 'https://fediring.net/'
-    - name: 'Retronaut'
-      url: 'https://webring.dinhe.net'
+    - name: "Fediring"
+      url: "https://fediring.net/"
+    - name: "Retronaut"
+      url: "https://webring.dinhe.net"

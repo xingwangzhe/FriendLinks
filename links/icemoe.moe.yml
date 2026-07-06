@@ -1,10 +1,10 @@
 site:
-  name: 'icemoe.moe'
-  url: 'https://icemoe.moe/'
-  description: '友情链接'
-  links: '/friends'
+  name: "icemoe.moe"
+  url: "https://icemoe.moe/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Android矩阵'
-      url: 'https://android99.me'
-    - name: 'ForkKILLETIceLava Top'
-      url: 'https://icelava.top/'
+    - name: "Android矩阵"
+      url: "https://android99.me"
+    - name: "ForkKILLETIceLava Top"
+      url: "https://icelava.top/"

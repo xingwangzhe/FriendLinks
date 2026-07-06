@@ -1,12 +1,12 @@
 site:
-  name: 'blog.trotyl.xyz'
-  url: 'https://blog.trotyl.xyz/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.trotyl.xyz"
+  url: "https://blog.trotyl.xyz/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '椰子的小站 理工男的博客'
-      url: 'https://blog.mapleaf.link'
-    - name: '大蛋糕的烘焙坊 也许我们会分别，但我们将永远不会忘记彼此'
-      url: 'https://lihaoyu.cn'
-    - name: 'Haku’s Blog Street Photography and records'
-      url: 'https://hakuuww.github.io/'
+    - name: "椰子的小站 理工男的博客"
+      url: "https://blog.mapleaf.link"
+    - name: "大蛋糕的烘焙坊 也许我们会分别，但我们将永远不会忘记彼此"
+      url: "https://lihaoyu.cn"
+    - name: "Haku’s Blog Street Photography and records"
+      url: "https://hakuuww.github.io/"

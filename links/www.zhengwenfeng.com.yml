@@ -1,12 +1,12 @@
 site:
-  name: '郑文峰的博客'
-  url: 'https://www.zhengwenfeng.com/'
-  description: '技术博客，专注于后端学习与总结，python,go,redis,k8s,mysql,kafka,flask,django,tornado,git,github,'
-  links: '/links'
+  name: "郑文峰的博客"
+  url: "https://www.zhengwenfeng.com/"
+  description: "技术博客，专注于后端学习与总结，python,go,redis,k8s,mysql,kafka,flask,django,tornado,git,github,"
+  links: "/links"
   friends:
-    - name: 'Evan's blog'
-      url: 'https://xugaoyi.com/'
-    - name: '二丫讲梵'
-      url: 'https://wiki.eryajf.net/'
-    - name: '首页,芈渡,lllomh,全栈开发,程序设计,HTML5,CSS3,JavaScript,Node.js,Express'
-      url: 'https://www.lllomh.com/'
+    - name: "Evan's blog"
+      url: "https://xugaoyi.com/"
+    - name: "二丫讲梵"
+      url: "https://wiki.eryajf.net/"
+    - name: "首页,芈渡,lllomh,全栈开发,程序设计,HTML5,CSS3,JavaScript,Node.js,Express"
+      url: "https://www.lllomh.com/"

@@ -1,14 +1,14 @@
 site:
-  name: 'qubyte.codes'
-  url: 'https://qubyte.codes/'
-  description: '友情链接'
-  links: '/links'
+  name: "qubyte.codes"
+  url: "https://qubyte.codes/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Cassie Evans''s Blog'
-      url: 'https://www.cassie.codes/'
-    - name: 'How old am I? - qubyte'
-      url: 'https://howoldami.glitch.me/'
-    - name: 'XClacksOverhead.org'
-      url: 'https://xclacksoverhead.org/'
-    - name: 'Resilient Web Design - Jeremy Keith'
-      url: 'https://resilientwebdesign.com/'
+    - name: "Cassie Evans's Blog"
+      url: "https://www.cassie.codes/"
+    - name: "How old am I? - qubyte"
+      url: "https://howoldami.glitch.me/"
+    - name: "XClacksOverhead.org"
+      url: "https://xclacksoverhead.org/"
+    - name: "Resilient Web Design - Jeremy Keith"
+      url: "https://resilientwebdesign.com/"

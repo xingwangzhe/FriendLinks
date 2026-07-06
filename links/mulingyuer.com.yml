@@ -1,82 +1,82 @@
 site:
-  name: 'mulingyuer.com'
-  url: 'https://www.mulingyuer.com/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "mulingyuer.com"
+  url: "https://www.mulingyuer.com/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: '冰封博客'
-      url: 'https://www.ad-s.cn/'
-    - name: '泽泽社'
-      url: 'https://yydie.cn/'
-    - name: 'Mathor'
-      url: 'https://wmathor.com/'
-    - name: '彼萌子、'
-      url: 'https://bimoes.com/'
-    - name: '小刚的天堂'
-      url: 'https://www.pokemon.vip/'
-    - name: 'dabenshi'
-      url: 'https://dabenshi.cn'
-    - name: '贤弟酱'
-      url: 'https://blog.moexian.com/'
-    - name: '懵仙兔兔'
-      url: 'https://2dph.com'
-    - name: '陌上花'
-      url: 'https://www.moshanghua.net'
-    - name: '彩虹Smiling'
-      url: 'http://www.smilingblog.cn/'
-    - name: 'RawChen'
-      url: 'https://rawchen.com'
-    - name: '晓泷の小窝'
-      url: 'http://www.xiaolong-xl.top/'
-    - name: '探机博客'
-      url: 'http://www.cyanprobe.com/'
-    - name: '清酒踏月'
-      url: 'https://blog.lkxin.cn'
-    - name: '虾米皮皮乐'
-      url: 'https://xiamp.net/'
-    - name: '万象新语'
-      url: 'https://blog.wanxiangxinyu.com/'
-    - name: 'micromatrix'
-      url: 'https://micromatrix.org/'
-    - name: '又菜又爱网'
-      url: 'https://www.ycyaw.com/'
-    - name: '小白龙博客'
-      url: 'https://blog.xiaolong0418.com'
-    - name: '诺言博客'
-      url: 'https://www.nuoyo.cn'
-    - name: 'WoodChen'
-      url: 'https://woodchen.ink'
-    - name: '计算机视觉学习笔记'
-      url: 'https://www.flyingfry.cc'
-    - name: '免费clash节点'
-      url: 'https://clashgithub.com'
-    - name: '朋友们-Rain''s Blog'
-      url: 'https://blog.im.ci'
-    - name: '鲁鲁和非人类'
-      url: 'https://www.myhelen.cn/'
-    - name: 'MyEcho'
-      url: 'https://www.myecho.top/'
-    - name: '半日闲'
-      url: 'https://xiaoa.me'
-    - name: '天小天'
-      url: 'https://tianxiaotian.xyz/'
-    - name: '拾点笔记'
-      url: 'https://blog.sdbj.top'
-    - name: 'NinJa911的个人博客'
-      url: 'https://blog.ninja911.com/'
-    - name: '运维小记'
-      url: 'https://opsnote.top/'
-    - name: '唔我见闻录'
-      url: 'https://lkyme.com/'
-    - name: 'MicroMatrix'
-      url: 'https://laituba.com/'
-    - name: 'MicroMatrix'
-      url: 'https://blog.micromatrix.org/'
-    - name: 'Plumage‘s blog'
-      url: 'https://plumage.cc/'
-    - name: 'strretr'
-      url: 'https://cos.laituba.com'
-    - name: 'nullptr'
-      url: 'https://myfreetime.cn'
-    - name: '黑客网'
-      url: 'https://www.黑客.wang/'
+    - name: "冰封博客"
+      url: "https://www.ad-s.cn/"
+    - name: "泽泽社"
+      url: "https://yydie.cn/"
+    - name: "Mathor"
+      url: "https://wmathor.com/"
+    - name: "彼萌子、"
+      url: "https://bimoes.com/"
+    - name: "小刚的天堂"
+      url: "https://www.pokemon.vip/"
+    - name: "dabenshi"
+      url: "https://dabenshi.cn"
+    - name: "贤弟酱"
+      url: "https://blog.moexian.com/"
+    - name: "懵仙兔兔"
+      url: "https://2dph.com"
+    - name: "陌上花"
+      url: "https://www.moshanghua.net"
+    - name: "彩虹Smiling"
+      url: "http://www.smilingblog.cn/"
+    - name: "RawChen"
+      url: "https://rawchen.com"
+    - name: "晓泷の小窝"
+      url: "http://www.xiaolong-xl.top/"
+    - name: "探机博客"
+      url: "http://www.cyanprobe.com/"
+    - name: "清酒踏月"
+      url: "https://blog.lkxin.cn"
+    - name: "虾米皮皮乐"
+      url: "https://xiamp.net/"
+    - name: "万象新语"
+      url: "https://blog.wanxiangxinyu.com/"
+    - name: "micromatrix"
+      url: "https://micromatrix.org/"
+    - name: "又菜又爱网"
+      url: "https://www.ycyaw.com/"
+    - name: "小白龙博客"
+      url: "https://blog.xiaolong0418.com"
+    - name: "诺言博客"
+      url: "https://www.nuoyo.cn"
+    - name: "WoodChen"
+      url: "https://woodchen.ink"
+    - name: "计算机视觉学习笔记"
+      url: "https://www.flyingfry.cc"
+    - name: "免费clash节点"
+      url: "https://clashgithub.com"
+    - name: "朋友们-Rain's Blog"
+      url: "https://blog.im.ci"
+    - name: "鲁鲁和非人类"
+      url: "https://www.myhelen.cn/"
+    - name: "MyEcho"
+      url: "https://www.myecho.top/"
+    - name: "半日闲"
+      url: "https://xiaoa.me"
+    - name: "天小天"
+      url: "https://tianxiaotian.xyz/"
+    - name: "拾点笔记"
+      url: "https://blog.sdbj.top"
+    - name: "NinJa911的个人博客"
+      url: "https://blog.ninja911.com/"
+    - name: "运维小记"
+      url: "https://opsnote.top/"
+    - name: "唔我见闻录"
+      url: "https://lkyme.com/"
+    - name: "MicroMatrix"
+      url: "https://laituba.com/"
+    - name: "MicroMatrix"
+      url: "https://blog.micromatrix.org/"
+    - name: "Plumage‘s blog"
+      url: "https://plumage.cc/"
+    - name: "strretr"
+      url: "https://cos.laituba.com"
+    - name: "nullptr"
+      url: "https://myfreetime.cn"
+    - name: "黑客网"
+      url: "https://www.黑客.wang/"

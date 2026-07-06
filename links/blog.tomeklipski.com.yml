@@ -1,16 +1,16 @@
 site:
-  name: 'blog.tomeklipski.com'
-  url: 'http://blog.tomeklipski.com/'
-  description: '友情链接'
-  links: '/'
+  name: "blog.tomeklipski.com"
+  url: "http://blog.tomeklipski.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Vaadin'
-      url: 'http://vaadin.com/'
-    - name: 'Activiti'
-      url: 'http://activiti.org/'
-    - name: 'MyBatis'
-      url: 'http://www.mybatis.org/'
-    - name: 'Fabthemes'
-      url: 'http://www.fabthemes.com'
-    - name: 'NewBloggerThemes.com'
-      url: 'http://newbloggerthemes.com/'
+    - name: "Vaadin"
+      url: "http://vaadin.com/"
+    - name: "Activiti"
+      url: "http://activiti.org/"
+    - name: "MyBatis"
+      url: "http://www.mybatis.org/"
+    - name: "Fabthemes"
+      url: "http://www.fabthemes.com"
+    - name: "NewBloggerThemes.com"
+      url: "http://newbloggerthemes.com/"

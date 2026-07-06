@@ -1,16 +1,16 @@
 site:
-  name: 'darn.es'
-  url: 'https://darn.es/'
-  description: '友情链接'
-  links: '/'
+  name: "darn.es"
+  url: "https://darn.es/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'zeroheight'
-      url: 'https://zeroheight.com'
-    - name: 'Buffer'
-      url: 'https://buffer.com/'
-    - name: 'Ghost'
-      url: 'https://ghost.org/'
-    - name: 'Stackbit'
-      url: 'https://stackbit.com'
-    - name: 'Seccl Technology'
-      url: 'https://seccl.tech'
+    - name: "zeroheight"
+      url: "https://zeroheight.com"
+    - name: "Buffer"
+      url: "https://buffer.com/"
+    - name: "Ghost"
+      url: "https://ghost.org/"
+    - name: "Stackbit"
+      url: "https://stackbit.com"
+    - name: "Seccl Technology"
+      url: "https://seccl.tech"

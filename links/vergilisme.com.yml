@@ -1,80 +1,80 @@
 site:
-  name: 'vergilisme.com'
-  url: 'https://www.vergilisme.com/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "vergilisme.com"
+  url: "https://www.vergilisme.com/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: '林海草原愿我经历的苦难你不要经历，愿我已有的幸福你触手可及'
-      url: 'https://lhcy.org/'
-    - name: '青木的博客青木和安妮的生活琐碎和感悟，读书笔记，照片记录。'
-      url: 'http://iyoubo.com'
-    - name: '独元殇月光正好，你在仰望，我们一起仰望'
-      url: 'https://www.ccgxk.com/'
-    - name: '一克猫一只微不足道的猫'
-      url: 'https://www.1gcat.com/'
-    - name: '''Cozier''努力跑下去就好啦！哪怕要熬过多少艳阳捱过汗滴禾下！'
-      url: 'https://www.xizi.live/'
-    - name: '凌飞阁烂柯山与浮云齐，突星骑石凌飞鸟。'
-      url: 'https://llingfei.com/'
-    - name: '二十六人生如逆旅，我亦是行人。'
-      url: 'https://www.ershiliu.com/'
-    - name: '星球彦我听到耶路撒冷的钟声响起'
-      url: 'https://note-star.cn/'
-    - name: '一行字一行字写尽爱的酸甜苦辣。'
-      url: 'https://yihangzi.com/'
-    - name: '碎言博客编程、学习、记录'
-      url: 'https://suiyan.cc/'
-    - name: '龙场茶室一只练习时长四年半的前端开发小白和他的一些小作文'
-      url: 'https://blog.peterchen97.cn/'
-    - name: '''TonyHe''-'
-      url: 'https://www.ouorz.com'
-    - name: '''xiaolong''s blog''尝试自救中'
-      url: 'https://xiaolong22333.top/'
-    - name: '清风博客阅读、思考、记录'
-      url: 'https://www.coollee.cn/'
-    - name: '瀚海星辰分享温暖，感悟人生真谛'
-      url: 'https://www.imuu.cn'
-    - name: '''leorain''一个对技术和生活充满热爱的文艺型技术青年'
-      url: 'https://www.leorain.cn'
-    - name: '''Seer''留给自己一片大陆，把无垠的大海留给飞鸟和大鱼'
-      url: 'https://suus.me/'
-    - name: '咕咚同学独立开发者，inBox 笔记作者'
-      url: 'https://gudong.site'
-    - name: '蜗牛工作室一个热爱生活、不断探索的旅人'
-      url: 'https://www.woniu.wang/'
-    - name: '土豆君'
-      url: 'https://maoshu.me/'
-    - name: '二猫 blog一个简单的 Blog 站点'
-      url: 'https://jingxin18.cn/'
-    - name: '小鹿君'
-      url: 'https://www.t223.top'
-    - name: 'ejsoon'
-      url: 'https://ejsoon.win/'
-    - name: '九七 JoooQi'
-      url: 'https://joooqi.cn/'
-    - name: '斗人'
-      url: 'https://blog.ours1984.top/'
-    - name: 'Bingo'
-      url: 'https://www.zh996.com'
-    - name: '夜雨'
-      url: 'https://www.novrss.com'
-    - name: 'seersu'
-      url: 'https://seersu.me'
-    - name: 'SerMs'
-      url: 'https://serms.top'
-    - name: 'flynn'
-      url: 'https://jdonkey.club'
-    - name: 'Siu'
-      url: 'https://qingshu.org/'
-    - name: '叶开'
-      url: 'https://qq.md/'
-    - name: '啊呜喵'
-      url: 'https://blog.awumiao.org'
-    - name: 'ymxu'
-      url: 'https://www.owwee.cn'
-    - name: '小轩'
-      url: 'https://www.wieo.cn/'
-    - name: '小轩与远方'
-      url: 'https://www.xuanvoyage.com/'
-    - name: '米集网站分类'
-      url: 'https://www.m-ji.com'
+    - name: "林海草原愿我经历的苦难你不要经历，愿我已有的幸福你触手可及"
+      url: "https://lhcy.org/"
+    - name: "青木的博客青木和安妮的生活琐碎和感悟，读书笔记，照片记录。"
+      url: "http://iyoubo.com"
+    - name: "独元殇月光正好，你在仰望，我们一起仰望"
+      url: "https://www.ccgxk.com/"
+    - name: "一克猫一只微不足道的猫"
+      url: "https://www.1gcat.com/"
+    - name: "'Cozier'努力跑下去就好啦！哪怕要熬过多少艳阳捱过汗滴禾下！"
+      url: "https://www.xizi.live/"
+    - name: "凌飞阁烂柯山与浮云齐，突星骑石凌飞鸟。"
+      url: "https://llingfei.com/"
+    - name: "二十六人生如逆旅，我亦是行人。"
+      url: "https://www.ershiliu.com/"
+    - name: "星球彦我听到耶路撒冷的钟声响起"
+      url: "https://note-star.cn/"
+    - name: "一行字一行字写尽爱的酸甜苦辣。"
+      url: "https://yihangzi.com/"
+    - name: "碎言博客编程、学习、记录"
+      url: "https://suiyan.cc/"
+    - name: "龙场茶室一只练习时长四年半的前端开发小白和他的一些小作文"
+      url: "https://blog.peterchen97.cn/"
+    - name: "'TonyHe'-"
+      url: "https://www.ouorz.com"
+    - name: "'xiaolong's blog'尝试自救中"
+      url: "https://xiaolong22333.top/"
+    - name: "清风博客阅读、思考、记录"
+      url: "https://www.coollee.cn/"
+    - name: "瀚海星辰分享温暖，感悟人生真谛"
+      url: "https://www.imuu.cn"
+    - name: "'leorain'一个对技术和生活充满热爱的文艺型技术青年"
+      url: "https://www.leorain.cn"
+    - name: "'Seer'留给自己一片大陆，把无垠的大海留给飞鸟和大鱼"
+      url: "https://suus.me/"
+    - name: "咕咚同学独立开发者，inBox 笔记作者"
+      url: "https://gudong.site"
+    - name: "蜗牛工作室一个热爱生活、不断探索的旅人"
+      url: "https://www.woniu.wang/"
+    - name: "土豆君"
+      url: "https://maoshu.me/"
+    - name: "二猫 blog一个简单的 Blog 站点"
+      url: "https://jingxin18.cn/"
+    - name: "小鹿君"
+      url: "https://www.t223.top"
+    - name: "ejsoon"
+      url: "https://ejsoon.win/"
+    - name: "九七 JoooQi"
+      url: "https://joooqi.cn/"
+    - name: "斗人"
+      url: "https://blog.ours1984.top/"
+    - name: "Bingo"
+      url: "https://www.zh996.com"
+    - name: "夜雨"
+      url: "https://www.novrss.com"
+    - name: "seersu"
+      url: "https://seersu.me"
+    - name: "SerMs"
+      url: "https://serms.top"
+    - name: "flynn"
+      url: "https://jdonkey.club"
+    - name: "Siu"
+      url: "https://qingshu.org/"
+    - name: "叶开"
+      url: "https://qq.md/"
+    - name: "啊呜喵"
+      url: "https://blog.awumiao.org"
+    - name: "ymxu"
+      url: "https://www.owwee.cn"
+    - name: "小轩"
+      url: "https://www.wieo.cn/"
+    - name: "小轩与远方"
+      url: "https://www.xuanvoyage.com/"
+    - name: "米集网站分类"
+      url: "https://www.m-ji.com"

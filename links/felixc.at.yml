@@ -1,84 +1,84 @@
 site:
-  name: 'felixc.at'
-  url: 'http://felixc.at/'
-  description: '友情链接'
-  links: '/friends'
+  name: "felixc.at"
+  url: "http://felixc.at/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'CoelacanthusHex'
-      url: 'https://blog.coelacanthus.moe/'
-    - name: 'CSSLayer'
-      url: 'https://www.csslayer.info/'
-    - name: 'DCODE'
-      url: 'https://c.ecl.me'
-    - name: 'Estela'
-      url: 'https://estela.moe/'
-    - name: 'Frantic1048'
-      url: 'https://frantic1048.com/'
-    - name: 'Hexchain Tong'
-      url: 'https://hexchain.org/'
-    - name: 'Hualet'
-      url: 'http://hualet.org'
-    - name: 'Justin Wong'
-      url: 'https://bigeagle.me/'
-    - name: 'Luigi Fan'
-      url: 'https://fdb713.com/'
-    - name: 'Mike Yuan'
-      url: 'https://yhndnzj.com/'
-    - name: 'Moja'
-      url: 'https://zhengyifeng.com/'
-    - name: 'Phoenix Nemo'
-      url: 'https://blog.phoenixlzx.com/'
-    - name: 'Reion Wong'
-      url: 'https://reionwong.life/'
-    - name: 'XYenChi'
-      url: 'https://xyenchi.github.io/'
-    - name: '南浦月'
-      url: 'https://blog.nanpuyue.com/'
-    - name: 'BOYPT'
-      url: 'http://apt-blog.net/'
-    - name: 'liangsuilong'
-      url: 'http://www.liangsuilong.info/'
-    - name: 'Ownlinux'
-      url: 'http://www.ownlinux.org/'
-    - name: '好喝的粒粒橙'
-      url: 'http://blog.acgpl.us/'
-    - name: 'Ai.freedom'
-      url: 'http://aifreedom.com'
-    - name: 'ZWWoOoOo'
-      url: 'http://zww.me/'
-    - name: 'A-shun'
-      url: 'http://www.a-shun.com/'
-    - name: 'nonozone'
-      url: 'http://www.nonozone.net/'
-    - name: 'xream'
-      url: 'http://xream.net/'
-    - name: 'RyanBJF'
-      url: 'http://ryanbjf.blogbus.com/'
-    - name: 'zkaip'
-      url: 'http://zkaip.com/'
-    - name: 'imdalan'
-      url: 'http://imdalan.com/'
-    - name: 'sunnydayli'
-      url: 'http://somethingsilent.realax.me/'
-    - name: 'Lv.Wind'
-      url: 'https://blog.lvwind.com/'
-    - name: '狗狗郑界涵'
-      url: 'http://jiehan.org/'
-    - name: 'Rocky'
-      url: 'http://thinkbot.info/'
-    - name: '大猫猫'
-      url: 'http://rzcat.com/'
-    - name: '场主的 fqsoft'
-      url: 'http://fqsoftblog.appspot.com'
-    - name: 'Mengyao Li'
-      url: 'http://mengyao.li/'
-    - name: 'iceboy'
-      url: 'http://www.iceboy.org/'
-    - name: 'Derek'
-      url: 'http://www.derekblog.com/'
-    - name: 'ELL'
-      url: 'http://ell.im/'
-    - name: 'kirigaya'
-      url: 'http://blog.linuser.org'
-    - name: 'QR Code Business Card'
-      url: 'http://ucardo.com'
+    - name: "CoelacanthusHex"
+      url: "https://blog.coelacanthus.moe/"
+    - name: "CSSLayer"
+      url: "https://www.csslayer.info/"
+    - name: "DCODE"
+      url: "https://c.ecl.me"
+    - name: "Estela"
+      url: "https://estela.moe/"
+    - name: "Frantic1048"
+      url: "https://frantic1048.com/"
+    - name: "Hexchain Tong"
+      url: "https://hexchain.org/"
+    - name: "Hualet"
+      url: "http://hualet.org"
+    - name: "Justin Wong"
+      url: "https://bigeagle.me/"
+    - name: "Luigi Fan"
+      url: "https://fdb713.com/"
+    - name: "Mike Yuan"
+      url: "https://yhndnzj.com/"
+    - name: "Moja"
+      url: "https://zhengyifeng.com/"
+    - name: "Phoenix Nemo"
+      url: "https://blog.phoenixlzx.com/"
+    - name: "Reion Wong"
+      url: "https://reionwong.life/"
+    - name: "XYenChi"
+      url: "https://xyenchi.github.io/"
+    - name: "南浦月"
+      url: "https://blog.nanpuyue.com/"
+    - name: "BOYPT"
+      url: "http://apt-blog.net/"
+    - name: "liangsuilong"
+      url: "http://www.liangsuilong.info/"
+    - name: "Ownlinux"
+      url: "http://www.ownlinux.org/"
+    - name: "好喝的粒粒橙"
+      url: "http://blog.acgpl.us/"
+    - name: "Ai.freedom"
+      url: "http://aifreedom.com"
+    - name: "ZWWoOoOo"
+      url: "http://zww.me/"
+    - name: "A-shun"
+      url: "http://www.a-shun.com/"
+    - name: "nonozone"
+      url: "http://www.nonozone.net/"
+    - name: "xream"
+      url: "http://xream.net/"
+    - name: "RyanBJF"
+      url: "http://ryanbjf.blogbus.com/"
+    - name: "zkaip"
+      url: "http://zkaip.com/"
+    - name: "imdalan"
+      url: "http://imdalan.com/"
+    - name: "sunnydayli"
+      url: "http://somethingsilent.realax.me/"
+    - name: "Lv.Wind"
+      url: "https://blog.lvwind.com/"
+    - name: "狗狗郑界涵"
+      url: "http://jiehan.org/"
+    - name: "Rocky"
+      url: "http://thinkbot.info/"
+    - name: "大猫猫"
+      url: "http://rzcat.com/"
+    - name: "场主的 fqsoft"
+      url: "http://fqsoftblog.appspot.com"
+    - name: "Mengyao Li"
+      url: "http://mengyao.li/"
+    - name: "iceboy"
+      url: "http://www.iceboy.org/"
+    - name: "Derek"
+      url: "http://www.derekblog.com/"
+    - name: "ELL"
+      url: "http://ell.im/"
+    - name: "kirigaya"
+      url: "http://blog.linuser.org"
+    - name: "QR Code Business Card"
+      url: "http://ucardo.com"

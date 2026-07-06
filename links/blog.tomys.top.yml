@@ -1,72 +1,72 @@
 site:
-  name: 'blog.tomys.top'
-  url: 'https://blog.tomys.top/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.tomys.top"
+  url: "https://blog.tomys.top/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '❖星港◎Star☆'
-      url: 'https://blog.starsharbor.com/'
-    - name: 'AONOTE'
-      url: 'https://www.aonote.cn/'
-    - name: 'Freesun Blog'
-      url: 'https://www.freesun.top/'
-    - name: 'limoの博客'
-      url: 'https://blog.alimo.top/'
-    - name: 'Lu’s Blog'
-      url: 'https://llxx.cc/'
-    - name: 'Moodlog'
-      url: 'https://blog.moodlog.cn/'
-    - name: 'NodeLoc'
-      url: 'https://www.nodeloc.com/'
-    - name: 'peachRL 的小站'
-      url: 'https://wanyijizi.com/'
-    - name: 'SerinaNya'
-      url: 'https://serinanya.cn/'
-    - name: 'Timo在此blog'
-      url: 'https://blog.xioxix.com/'
-    - name: 'Zane Liu’s Blog'
-      url: 'https://blog.zane-liu.com/'
-    - name: 'Zeruns''s Blog'
-      url: 'https://blog.zeruns.tech/'
-    - name: '云深不知处'
-      url: 'https://www.lanzlz.cn/'
-    - name: '云灿の随笔小站'
-      url: 'https://blog.yuncan.xyz/'
-    - name: '以太工坊'
-      url: 'https://www.zair.top/'
-    - name: '傲轩的小窝'
-      url: 'https://blog.fearr.xyz'
-    - name: '化学纤维'
-      url: 'https://otkteen.top/'
-    - name: '啊不都'
-      url: 'https://oplog.cn/'
-    - name: '御坂の地下室'
-      url: 'https://misakamoe.com/'
-    - name: '晓空 blog'
-      url: 'https://blog.moeworld.tech/'
-    - name: '果果小站'
-      url: 'https://呐.cn/'
-    - name: '画的个人记录'
-      url: 'https://jixiejidiguan.top/'
-    - name: '祈星海'
-      url: 'https://www.zzzzhi.com/'
-    - name: '肥猪qwq'
-      url: 'https://blog.feizhuqwq.com/'
-    - name: '钟意博客'
-      url: 'https://blog.thatcoder.cn/'
-    - name: '青山小站'
-      url: 'https://blog.yanqingshan.com/'
-    - name: '小码同学'
-      url: 'https://blog.hikki.site'
-    - name: 'Neko'
-      url: 'https://dyfa.top/'
-    - name: '肥猪qwq'
-      url: 'https://www.feizhuqwq.com/'
-    - name: 'lousy'
-      url: 'https://wanghaiyang.cc'
-    - name: 'Zane Liu'
-      url: 'https://lza59.com/'
-    - name: '御宅男'
-      url: 'https://blog.yzncms.com/'
-    - name: '十二同学'
-      url: 'https://www.shiertx.com'
+    - name: "❖星港◎Star☆"
+      url: "https://blog.starsharbor.com/"
+    - name: "AONOTE"
+      url: "https://www.aonote.cn/"
+    - name: "Freesun Blog"
+      url: "https://www.freesun.top/"
+    - name: "limoの博客"
+      url: "https://blog.alimo.top/"
+    - name: "Lu’s Blog"
+      url: "https://llxx.cc/"
+    - name: "Moodlog"
+      url: "https://blog.moodlog.cn/"
+    - name: "NodeLoc"
+      url: "https://www.nodeloc.com/"
+    - name: "peachRL 的小站"
+      url: "https://wanyijizi.com/"
+    - name: "SerinaNya"
+      url: "https://serinanya.cn/"
+    - name: "Timo在此blog"
+      url: "https://blog.xioxix.com/"
+    - name: "Zane Liu’s Blog"
+      url: "https://blog.zane-liu.com/"
+    - name: "Zeruns's Blog"
+      url: "https://blog.zeruns.tech/"
+    - name: "云深不知处"
+      url: "https://www.lanzlz.cn/"
+    - name: "云灿の随笔小站"
+      url: "https://blog.yuncan.xyz/"
+    - name: "以太工坊"
+      url: "https://www.zair.top/"
+    - name: "傲轩的小窝"
+      url: "https://blog.fearr.xyz"
+    - name: "化学纤维"
+      url: "https://otkteen.top/"
+    - name: "啊不都"
+      url: "https://oplog.cn/"
+    - name: "御坂の地下室"
+      url: "https://misakamoe.com/"
+    - name: "晓空 blog"
+      url: "https://blog.moeworld.tech/"
+    - name: "果果小站"
+      url: "https://呐.cn/"
+    - name: "画的个人记录"
+      url: "https://jixiejidiguan.top/"
+    - name: "祈星海"
+      url: "https://www.zzzzhi.com/"
+    - name: "肥猪qwq"
+      url: "https://blog.feizhuqwq.com/"
+    - name: "钟意博客"
+      url: "https://blog.thatcoder.cn/"
+    - name: "青山小站"
+      url: "https://blog.yanqingshan.com/"
+    - name: "小码同学"
+      url: "https://blog.hikki.site"
+    - name: "Neko"
+      url: "https://dyfa.top/"
+    - name: "肥猪qwq"
+      url: "https://www.feizhuqwq.com/"
+    - name: "lousy"
+      url: "https://wanghaiyang.cc"
+    - name: "Zane Liu"
+      url: "https://lza59.com/"
+    - name: "御宅男"
+      url: "https://blog.yzncms.com/"
+    - name: "十二同学"
+      url: "https://www.shiertx.com"

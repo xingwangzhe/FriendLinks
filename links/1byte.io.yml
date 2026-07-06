@@ -1,14 +1,14 @@
 site:
-  name: '1byte.io'
-  url: 'https://1byte.io/'
-  description: '友情链接'
-  links: '/links'
+  name: "1byte.io"
+  url: "https://1byte.io/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Kagi'
-      url: 'https://kagi.com'
-    - name: 'Udemy'
-      url: 'https://www.udemy.com'
-    - name: 'The Great Courses +'
-      url: 'https://www.thegreatcoursesplus.com'
-    - name: 'Master Class'
-      url: 'https://www.masterclass.com'
+    - name: "Kagi"
+      url: "https://kagi.com"
+    - name: "Udemy"
+      url: "https://www.udemy.com"
+    - name: "The Great Courses +"
+      url: "https://www.thegreatcoursesplus.com"
+    - name: "Master Class"
+      url: "https://www.masterclass.com"

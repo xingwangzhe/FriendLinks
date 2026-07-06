@@ -1,48 +1,48 @@
 site:
-  name: '90zm.net'
-  url: 'https://90zm.net/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "90zm.net"
+  url: "https://90zm.net/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: '林羽凡 开发小程序，代码写的很好，能够实现自己的想法。'
-      url: 'https://www.linyufan.com'
-    - name: '拾风 生活的记录者，善于思考问题。'
-      url: 'https://www.leolin86.com/'
-    - name: '水拍石 用博主的话来说，喜欢经济学和哲学，文章很有深度，大多数以浏览为主，评论少了些。'
-      url: 'https://www.leitao.cn/'
-    - name: '哥斯拉 股票、最近在潜水。应该是在好好生活吧！'
-      url: 'http://gojira.net/'
-    - name: '米小璐的博客 一个认识很久很久的朋友'
-      url: 'https://mxlu.cn/'
-    - name: '苏三州 开发了翻一会儿。'
-      url: 'https://sanzhou.live/'
-    - name: '登山亦有道 我的老乡。苑晨岩的个人站点，记录生活的瞬间，分享学习的心得。'
-      url: 'https://chenyan98.cn'
-    - name: '白熊阿丸的小屋 带我玩光遇的大佬。'
-      url: 'https://blog.bxaw.name/'
-    - name: '猫箱内の六軒島 夏空社大佬！技术力大佬！'
-      url: 'https://batora.ushiromiya.com'
-    - name: '安静角落 湖北老乡，博客会发一些有趣的文章，博客也很简洁。'
-      url: 'https://wuziya.com/'
-    - name: '威言威语 程序员大佬，技术力满满。'
-      url: 'https://www.weisay.com/'
-    - name: '阿锋的小宇宙 沧海一粟，微亮渺小一只虫。'
-      url: 'https://feng.pub'
-    - name: '陶其的个人博客 当下，即是未来'
-      url: 'https://www.tqazy.com'
-    - name: '云晓晨'
-      url: 'https://blog.kaiqi.wang'
-    - name: '老麦 博客在于折腾！'
-      url: 'https://laomai.org/'
-    - name: 'Jeffer.Z 灵感乍现的好文~'
-      url: 'https://www.jeffer.xyz/'
-    - name: '犬''s Blog 狗管理，office365大佬。'
-      url: 'https://moedog.org/'
-    - name: 'Rubyのいえ 一个忙于生活的人。'
-      url: 'https://wangzhongqing.fun/'
-    - name: '卖坚果的怪叔叔 前端技术，加了微信，互动较少。'
-      url: 'https://cuixinxin.cn'
-    - name: 'Noire02 也是一个老朋友，哈工大的高材生一枚。'
-      url: 'https://noire02.moe/'
-    - name: 'JunShuaiCN 一个加了挺久的好友，目前应该是新疆大学的大学生。'
-      url: 'https://junshuaicn.cn/'
+    - name: "林羽凡 开发小程序，代码写的很好，能够实现自己的想法。"
+      url: "https://www.linyufan.com"
+    - name: "拾风 生活的记录者，善于思考问题。"
+      url: "https://www.leolin86.com/"
+    - name: "水拍石 用博主的话来说，喜欢经济学和哲学，文章很有深度，大多数以浏览为主，评论少了些。"
+      url: "https://www.leitao.cn/"
+    - name: "哥斯拉 股票、最近在潜水。应该是在好好生活吧！"
+      url: "http://gojira.net/"
+    - name: "米小璐的博客 一个认识很久很久的朋友"
+      url: "https://mxlu.cn/"
+    - name: "苏三州 开发了翻一会儿。"
+      url: "https://sanzhou.live/"
+    - name: "登山亦有道 我的老乡。苑晨岩的个人站点，记录生活的瞬间，分享学习的心得。"
+      url: "https://chenyan98.cn"
+    - name: "白熊阿丸的小屋 带我玩光遇的大佬。"
+      url: "https://blog.bxaw.name/"
+    - name: "猫箱内の六軒島 夏空社大佬！技术力大佬！"
+      url: "https://batora.ushiromiya.com"
+    - name: "安静角落 湖北老乡，博客会发一些有趣的文章，博客也很简洁。"
+      url: "https://wuziya.com/"
+    - name: "威言威语 程序员大佬，技术力满满。"
+      url: "https://www.weisay.com/"
+    - name: "阿锋的小宇宙 沧海一粟，微亮渺小一只虫。"
+      url: "https://feng.pub"
+    - name: "陶其的个人博客 当下，即是未来"
+      url: "https://www.tqazy.com"
+    - name: "云晓晨"
+      url: "https://blog.kaiqi.wang"
+    - name: "老麦 博客在于折腾！"
+      url: "https://laomai.org/"
+    - name: "Jeffer.Z 灵感乍现的好文~"
+      url: "https://www.jeffer.xyz/"
+    - name: "犬's Blog 狗管理，office365大佬。"
+      url: "https://moedog.org/"
+    - name: "Rubyのいえ 一个忙于生活的人。"
+      url: "https://wangzhongqing.fun/"
+    - name: "卖坚果的怪叔叔 前端技术，加了微信，互动较少。"
+      url: "https://cuixinxin.cn"
+    - name: "Noire02 也是一个老朋友，哈工大的高材生一枚。"
+      url: "https://noire02.moe/"
+    - name: "JunShuaiCN 一个加了挺久的好友，目前应该是新疆大学的大学生。"
+      url: "https://junshuaicn.cn/"

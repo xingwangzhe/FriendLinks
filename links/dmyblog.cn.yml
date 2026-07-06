@@ -1,14 +1,14 @@
 site:
-  name: '大绵羊博客'
-  url: 'https://dmyblog.cn/'
-  description: '大绵羊博客，这是一个聚焦于个人技术分享与生活记录的博客。在这里，我会分享关于前端开发、WordPress使用技巧、以及编程心得的点滴。同时，我也记录下生活中的小'
-  links: '/links'
+  name: "大绵羊博客"
+  url: "https://dmyblog.cn/"
+  description: "大绵羊博客，这是一个聚焦于个人技术分享与生活记录的博客。在这里，我会分享关于前端开发、WordPress使用技巧、以及编程心得的点滴。同时，我也记录下生活中的小"
+  links: "/links"
   friends:
-    - name: '倦意博客'
-      url: 'https://jyblog.cn/'
-    - name: '王先生笔记'
-      url: 'https://wxsnote.cn/'
-    - name: '诺言博客'
-      url: 'https://www.nuoyo.cn/'
-    - name: '996.ICU'
-      url: 'https://996.icu/'
+    - name: "倦意博客"
+      url: "https://jyblog.cn/"
+    - name: "王先生笔记"
+      url: "https://wxsnote.cn/"
+    - name: "诺言博客"
+      url: "https://www.nuoyo.cn/"
+    - name: "996.ICU"
+      url: "https://996.icu/"

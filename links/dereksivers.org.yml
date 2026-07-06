@@ -1,10 +1,10 @@
 site:
-  name: 'dereksivers.org'
-  url: 'https://www.dereksivers.org/'
-  description: '友情链接'
-  links: '/links'
+  name: "dereksivers.org"
+  url: "https://www.dereksivers.org/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Author'
-      url: 'https://sivers.com/'
-    - name: 'MusicThoughts'
-      url: 'https://musicthoughts.com/'
+    - name: "Author"
+      url: "https://sivers.com/"
+    - name: "MusicThoughts"
+      url: "https://musicthoughts.com/"

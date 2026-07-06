@@ -1,8 +1,8 @@
 site:
-  name: 'blog.ismisv.com'
-  url: 'https://blog.ismisv.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.ismisv.com"
+  url: "https://blog.ismisv.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '如果你看不到评论框，说明Disqus被墙了。'
-      url: 'http://disqus.com'
+    - name: "如果你看不到评论框，说明Disqus被墙了。"
+      url: "http://disqus.com"

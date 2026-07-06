@@ -1,20 +1,20 @@
 site:
-  name: 'blog.cxits.cn'
-  url: 'https://blog.cxits.cn/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.cxits.cn"
+  url: "https://blog.cxits.cn/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '寒夏摸鱼站 技术博客，Rust 与前端。'
-      url: 'https://blog.rainiar.top'
-    - name: '康师傅 个人博客，记录技术与生活。'
-      url: 'https://blog.ksfu.top'
-    - name: 'Lolicons Blog 个人博客。'
-      url: 'https://blog.lolicons.top'
-    - name: '我只会摸鱼 摸鱼之余，写写博客，欢迎来看看呀。'
-      url: 'https://zhouym.tech/'
-    - name: '木生懒得写博客 写点玩电脑经历吧。'
-      url: 'https://blog.lsy223622.com'
-    - name: 'AweiP Cache My Cache。'
-      url: 'https://aweip.com/'
-    - name: 'Duckquill'
-      url: 'https://duckquill.daudix.one'
+    - name: "寒夏摸鱼站 技术博客，Rust 与前端。"
+      url: "https://blog.rainiar.top"
+    - name: "康师傅 个人博客，记录技术与生活。"
+      url: "https://blog.ksfu.top"
+    - name: "Lolicons Blog 个人博客。"
+      url: "https://blog.lolicons.top"
+    - name: "我只会摸鱼 摸鱼之余，写写博客，欢迎来看看呀。"
+      url: "https://zhouym.tech/"
+    - name: "木生懒得写博客 写点玩电脑经历吧。"
+      url: "https://blog.lsy223622.com"
+    - name: "AweiP Cache My Cache。"
+      url: "https://aweip.com/"
+    - name: "Duckquill"
+      url: "https://duckquill.daudix.one"

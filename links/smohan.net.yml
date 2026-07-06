@@ -1,12 +1,12 @@
 site:
-  name: 'smohan.net'
-  url: 'https://smohan.net/'
-  description: '友情链接'
-  links: '/links'
+  name: "smohan.net"
+  url: "https://smohan.net/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '青春博客 青春因为爱情而美丽——PHP程序员的个人博客'
-      url: 'http://www.loveteemo.com'
-    - name: 'Mashiro 樱花庄的白猫'
-      url: 'https://2heng.xin'
-    - name: 'Bigk Kevin的博客'
-      url: 'https://bigk.cn/'
+    - name: "青春博客 青春因为爱情而美丽——PHP程序员的个人博客"
+      url: "http://www.loveteemo.com"
+    - name: "Mashiro 樱花庄的白猫"
+      url: "https://2heng.xin"
+    - name: "Bigk Kevin的博客"
+      url: "https://bigk.cn/"

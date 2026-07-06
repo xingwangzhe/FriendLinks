@@ -1,16 +1,16 @@
 site:
-  name: 'justjavac.com'
-  url: 'https://justjavac.com/'
-  description: '友情链接'
-  links: '/'
+  name: "justjavac.com"
+  url: "https://justjavac.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Flarum'
-      url: 'https://flarum.org.cn'
-    - name: 'deno'
-      url: 'https://deno.js.cn'
-    - name: '前端乱炖'
-      url: 'http://www.html-js.com'
-    - name: '颜海镜'
-      url: 'https://yanhaijing.com'
-    - name: 'Jekyll Bootstrap'
-      url: 'http://jekyllbootstrap.com'
+    - name: "Flarum"
+      url: "https://flarum.org.cn"
+    - name: "deno"
+      url: "https://deno.js.cn"
+    - name: "前端乱炖"
+      url: "http://www.html-js.com"
+    - name: "颜海镜"
+      url: "https://yanhaijing.com"
+    - name: "Jekyll Bootstrap"
+      url: "http://jekyllbootstrap.com"

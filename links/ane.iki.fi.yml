@@ -1,10 +1,10 @@
 site:
-  name: 'ane.iki.fi'
-  url: 'http://ane.iki.fi/'
-  description: '友情链接'
-  links: '/'
+  name: "ane.iki.fi"
+  url: "http://ane.iki.fi/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Qvantel'
-      url: 'http://www.qvantel.com'
-    - name: 'Meson'
-      url: 'http://mesonbuild.com'
+    - name: "Qvantel"
+      url: "http://www.qvantel.com"
+    - name: "Meson"
+      url: "http://mesonbuild.com"

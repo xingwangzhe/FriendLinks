@@ -1,22 +1,22 @@
 site:
-  name: 'josefsson.org'
-  url: 'https://josefsson.org/'
-  description: '友情链接'
-  links: '/'
+  name: "josefsson.org"
+  url: "https://josefsson.org/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'OpenID'
-      url: 'http://openid.net/'
-    - name: 'Cypak'
-      url: 'http://www.cypak.se/'
-    - name: 'Haxx'
-      url: 'http://www.haxx.se/'
-    - name: 'Lumiad'
-      url: 'http://lumiad.nl/'
-    - name: 'RCOM Software'
-      url: 'http://www.rcom-software.com/'
-    - name: 'The Written Word'
-      url: 'http://www.thewrittenword.com/'
-    - name: 'Transcend IT'
-      url: 'http://www.transcendit.com/'
-    - name: 'Yubico'
-      url: 'http://www.yubico.com/'
+    - name: "OpenID"
+      url: "http://openid.net/"
+    - name: "Cypak"
+      url: "http://www.cypak.se/"
+    - name: "Haxx"
+      url: "http://www.haxx.se/"
+    - name: "Lumiad"
+      url: "http://lumiad.nl/"
+    - name: "RCOM Software"
+      url: "http://www.rcom-software.com/"
+    - name: "The Written Word"
+      url: "http://www.thewrittenword.com/"
+    - name: "Transcend IT"
+      url: "http://www.transcendit.com/"
+    - name: "Yubico"
+      url: "http://www.yubico.com/"

@@ -1,16 +1,16 @@
 site:
-  name: 'blog.cnbang.net'
-  url: 'https://blog.cnbang.net/'
-  description: '友情链接'
-  links: '/'
+  name: "blog.cnbang.net"
+  url: "https://blog.cnbang.net/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'odyssey'
-      url: 'https://experience.odyssey.world/'
-    - name: 'browserbase.com'
-      url: 'http://browserbase.com/'
-    - name: 'steel.dev'
-      url: 'http://steel.dev'
-    - name: 'browserless.io'
-      url: 'http://browserless.io/'
-    - name: 'Metaphysic'
-      url: 'https://metaphysic.ai/'
+    - name: "odyssey"
+      url: "https://experience.odyssey.world/"
+    - name: "browserbase.com"
+      url: "http://browserbase.com/"
+    - name: "steel.dev"
+      url: "http://steel.dev"
+    - name: "browserless.io"
+      url: "http://browserless.io/"
+    - name: "Metaphysic"
+      url: "https://metaphysic.ai/"

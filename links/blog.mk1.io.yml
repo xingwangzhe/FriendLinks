@@ -1,76 +1,76 @@
 site:
-  name: 'blog.mk1.io'
-  url: 'https://blog.mk1.io/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.mk1.io"
+  url: "https://blog.mk1.io/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'ZZapic''s Blog一般路过啥也不会Zapic的博客'
-      url: 'https://blog.zapic.moe'
-    - name: '椎椎名 朔静かに咲き、日常を彩る。'
-      url: 'https://shiina.xyz'
-    - name: 'KKevin Deng'
-      url: 'https://sxzz.dev'
-    - name: '微微光档案故事就是只为你一个人而存在的世界'
-      url: 'https://archive.bikari.top'
-    - name: '木木屐落在水洼了その人の声を 聞くだけで 失神しそうな'
-      url: 'https://mujitogawa.github.io'
-    - name: 'SSkyWalkerlistening snow'
-      url: 'https://sky.axono.org'
-    - name: '洛洛仙璃の幻梦如光似幻，如影随形'
-      url: 'https://mzwing.eu.org'
-    - name: '米米露小窝放弃个性,就和死了没什么区别'
-      url: 'https://www.milu.ink'
-    - name: 'MModenc喜欢钻研各种新奇的东西。'
-      url: 'https://modenc.top'
-    - name: 'CCyanFalse''s WeblogI''m CyanFalse, New to Here.'
-      url: 'https://blog.eurekac.cn'
-    - name: '小小伙纸の网站永远相信美好的事情即将发生'
-      url: 'https://kndxhz.cn'
-    - name: 'TTianli自知之明是最可贵的知识！'
-      url: 'https://blog.tianli0.top/'
-    - name: '欧欧阳淇淇の小屋「大切な人と再会できる日を」'
-      url: 'https://ouyangqiqi.cn'
-    - name: 'Jjcjyxjs永远年轻，永远热泪盈眶。'
-      url: 'https://elstec.cn'
-    - name: '呓呓语梦轩用心享受生活'
-      url: 'https://blog.awaae001.top'
-    - name: '可可愛い松Fight together!!'
-      url: 'https://blog.wibus.ren'
-    - name: '冬冬烟 の 博客DYM_453'
-      url: 'https://blog.520453.xyz'
-    - name: 'IiMaeGoo''s Blog虹墨空间站'
-      url: 'https://www.imaegoo.com'
-    - name: '洛洛屿的小站嗨，靓仔，今天也要有个好心情哦！'
-      url: 'https://www.drluo.top/'
-    - name: 'LLete乐特人生只有一次，大胆的生活！！'
-      url: 'https://blog.imlete.cn'
-    - name: 'chihuo2104の部落格#蒟蒻 #算法'
-      url: 'https://blog.chihuo2104.dev'
-    - name: 'yiyun''s BlogThe stupid one is me'
-      url: 'https://moeci.com'
-    - name: '雪糕博客一个专注于技术并且多元化的原创博客'
-      url: 'https://blog.xuegaogg.com'
-    - name: 'JokerM''s PalaceTake your heart'
-      url: 'https://jokerm.com'
-    - name: 'FloatSheepOn the other side of obstacles'
-      url: 'https://blog.hesiy.cn'
-    - name: 'AcboxSky一个普普通通的高中生的博客罢了'
-      url: 'https://acbox.lol'
-    - name: 'John Xu的博客博观而约取，厚积而薄发！'
-      url: 'https://hasaik.com'
-    - name: 'dna049记录数学和程序的点滴'
-      url: 'https://dna049.com'
-    - name: '张雄向阳生长，触碰流云.'
-      url: 'https://www.zhangxiong.net'
-    - name: 'Sanarous码农人生'
-      url: 'https://bestzuo.cn'
-    - name: 'Hunter''s Blog一名OIER 算法学习心得 题解'
-      url: 'https://hntr.xyz'
-    - name: '没有人BOHC!'
-      url: 'https://hewanyue.com'
-    - name: '柒比叁救赎之道，就在其中'
-      url: 'https://www.7b3.org'
-    - name: 'hiifongHi 👋, I''m hiifong!'
-      url: 'https://hiif.ong'
-    - name: 'Jitwxs 的博客专注 Java 后端开发，内容涵盖 SpringBoot、并发编程、微服务、容器化、Linux 等技术分享。'
-      url: 'https://www.jitwxs.cn'
+    - name: "ZZapic's Blog一般路过啥也不会Zapic的博客"
+      url: "https://blog.zapic.moe"
+    - name: "椎椎名 朔静かに咲き、日常を彩る。"
+      url: "https://shiina.xyz"
+    - name: "KKevin Deng"
+      url: "https://sxzz.dev"
+    - name: "微微光档案故事就是只为你一个人而存在的世界"
+      url: "https://archive.bikari.top"
+    - name: "木木屐落在水洼了その人の声を 聞くだけで 失神しそうな"
+      url: "https://mujitogawa.github.io"
+    - name: "SSkyWalkerlistening snow"
+      url: "https://sky.axono.org"
+    - name: "洛洛仙璃の幻梦如光似幻，如影随形"
+      url: "https://mzwing.eu.org"
+    - name: "米米露小窝放弃个性,就和死了没什么区别"
+      url: "https://www.milu.ink"
+    - name: "MModenc喜欢钻研各种新奇的东西。"
+      url: "https://modenc.top"
+    - name: "CCyanFalse's WeblogI'm CyanFalse, New to Here."
+      url: "https://blog.eurekac.cn"
+    - name: "小小伙纸の网站永远相信美好的事情即将发生"
+      url: "https://kndxhz.cn"
+    - name: "TTianli自知之明是最可贵的知识！"
+      url: "https://blog.tianli0.top/"
+    - name: "欧欧阳淇淇の小屋「大切な人と再会できる日を」"
+      url: "https://ouyangqiqi.cn"
+    - name: "Jjcjyxjs永远年轻，永远热泪盈眶。"
+      url: "https://elstec.cn"
+    - name: "呓呓语梦轩用心享受生活"
+      url: "https://blog.awaae001.top"
+    - name: "可可愛い松Fight together!!"
+      url: "https://blog.wibus.ren"
+    - name: "冬冬烟 の 博客DYM_453"
+      url: "https://blog.520453.xyz"
+    - name: "IiMaeGoo's Blog虹墨空间站"
+      url: "https://www.imaegoo.com"
+    - name: "洛洛屿的小站嗨，靓仔，今天也要有个好心情哦！"
+      url: "https://www.drluo.top/"
+    - name: "LLete乐特人生只有一次，大胆的生活！！"
+      url: "https://blog.imlete.cn"
+    - name: "chihuo2104の部落格#蒟蒻 #算法"
+      url: "https://blog.chihuo2104.dev"
+    - name: "yiyun's BlogThe stupid one is me"
+      url: "https://moeci.com"
+    - name: "雪糕博客一个专注于技术并且多元化的原创博客"
+      url: "https://blog.xuegaogg.com"
+    - name: "JokerM's PalaceTake your heart"
+      url: "https://jokerm.com"
+    - name: "FloatSheepOn the other side of obstacles"
+      url: "https://blog.hesiy.cn"
+    - name: "AcboxSky一个普普通通的高中生的博客罢了"
+      url: "https://acbox.lol"
+    - name: "John Xu的博客博观而约取，厚积而薄发！"
+      url: "https://hasaik.com"
+    - name: "dna049记录数学和程序的点滴"
+      url: "https://dna049.com"
+    - name: "张雄向阳生长，触碰流云."
+      url: "https://www.zhangxiong.net"
+    - name: "Sanarous码农人生"
+      url: "https://bestzuo.cn"
+    - name: "Hunter's Blog一名OIER 算法学习心得 题解"
+      url: "https://hntr.xyz"
+    - name: "没有人BOHC!"
+      url: "https://hewanyue.com"
+    - name: "柒比叁救赎之道，就在其中"
+      url: "https://www.7b3.org"
+    - name: "hiifongHi 👋, I'm hiifong!"
+      url: "https://hiif.ong"
+    - name: "Jitwxs 的博客专注 Java 后端开发，内容涵盖 SpringBoot、并发编程、微服务、容器化、Linux 等技术分享。"
+      url: "https://www.jitwxs.cn"

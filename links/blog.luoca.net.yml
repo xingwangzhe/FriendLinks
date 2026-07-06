@@ -1,14 +1,14 @@
 site:
-  name: 'blog.luoca.net'
-  url: 'https://blog.luoca.net/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.luoca.net"
+  url: "https://blog.luoca.net/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '派立方'
-      url: 'https://www.paiii.cn/'
-    - name: '拾光博客 坏猫猫的拾光'
-      url: 'https://timebaoku.online/'
-    - name: '洛卡日记 小池寒绿欲生漪，雨晴还日西'
-      url: 'https://luoca.cn/'
-    - name: 'IKUN主页'
-      url: 'https://www.ikunwl.com/'
+    - name: "派立方"
+      url: "https://www.paiii.cn/"
+    - name: "拾光博客 坏猫猫的拾光"
+      url: "https://timebaoku.online/"
+    - name: "洛卡日记 小池寒绿欲生漪，雨晴还日西"
+      url: "https://luoca.cn/"
+    - name: "IKUN主页"
+      url: "https://www.ikunwl.com/"

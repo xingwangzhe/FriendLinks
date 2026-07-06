@@ -1,20 +1,20 @@
 site:
-  name: 'blog.ching367436.me'
-  url: 'https://blog.ching367436.me/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.ching367436.me"
+  url: "https://blog.ching367436.me/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Entroy''s Blog 一起拿下 AIS3 2022 最佳專題的 DEVCORE 實習生'
-      url: 'https://entroychang.github.io/'
-    - name: 'nevikw39 ∥ 如詩的韻律 一中電研的學長！是主修資工的清大生 o''_''o'
-      url: 'https://nevikw39.cf/'
-    - name: 'edisonlee55''s Blog 一起拿下 AIS3 2021 最佳專題的交大 VTuber 社社長'
-      url: 'https://blog.edisonlee55.com'
-    - name: '毛哥EM CSS 大老 🛐🛐'
-      url: 'https://emtech.cc/'
-    - name: 'CSC''s Home 一起擔任過一中電研幹部，現在在清大物理'
-      url: 'https://chensc0392.github.io/'
-    - name: 'ハオのブログ 一起擔任過一中電研幹部，現在在清大電機'
-      url: 'https://howard11912.github.io/'
-    - name: 'EvanNotFound’s Blog 提供 hexo-theme-redefine 的好心人士'
-      url: 'https://ohevan.com'
+    - name: "Entroy's Blog 一起拿下 AIS3 2022 最佳專題的 DEVCORE 實習生"
+      url: "https://entroychang.github.io/"
+    - name: "nevikw39 ∥ 如詩的韻律 一中電研的學長！是主修資工的清大生 o'_'o"
+      url: "https://nevikw39.cf/"
+    - name: "edisonlee55's Blog 一起拿下 AIS3 2021 最佳專題的交大 VTuber 社社長"
+      url: "https://blog.edisonlee55.com"
+    - name: "毛哥EM CSS 大老 🛐🛐"
+      url: "https://emtech.cc/"
+    - name: "CSC's Home 一起擔任過一中電研幹部，現在在清大物理"
+      url: "https://chensc0392.github.io/"
+    - name: "ハオのブログ 一起擔任過一中電研幹部，現在在清大電機"
+      url: "https://howard11912.github.io/"
+    - name: "EvanNotFound’s Blog 提供 hexo-theme-redefine 的好心人士"
+      url: "https://ohevan.com"

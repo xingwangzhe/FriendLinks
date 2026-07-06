@@ -1,100 +1,100 @@
 site:
-  name: '我的日志'
-  url: 'https://ilogs.cn/'
-  description: '记录生活中的平凡事'
-  links: '/links'
+  name: "我的日志"
+  url: "https://ilogs.cn/"
+  description: "记录生活中的平凡事"
+  links: "/links"
   friends:
-    - name: '瓦匠不舟'
-      url: 'https://airy.ink/'
-    - name: 'Yang's Blog'
-      url: 'https://knay.net/'
-    - name: '韩情脉脉'
-      url: 'https://www.hxy.cc/'
-    - name: '相忘于江湖'
-      url: 'https://h4ck.org.cn/'
-    - name: 'ACEVS'
-      url: 'https://acevs.com/'
-    - name: '朱小呆--Zhu Xiao Dai'
-      url: 'https://zhujay.com/'
-    - name: '满心博客_记录生活里的小美好'
-      url: 'https://zhoutian.com/'
-    - name: '2B博客 | 2BROEAR'
-      url: 'https://blog.2broear.com/'
-    - name: '小新笔记坊'
-      url: 'https://xxbjf.com/'
-    - name: '彬红茶日记'
-      url: 'https://note.redcha.cn/'
-    - name: '子夜松声'
-      url: 'https://xyzbz.cn/'
-    - name: '我是军爸'
-      url: 'https://me.xu19.com/'
-    - name: '首页'
-      url: 'https://dujun.io/'
-    - name: '风舞心弦'
-      url: 'https://vind.ink/'
-    - name: '依阑记梦blog-记录日常生活点点滴滴'
-      url: 'https://yljm.com/'
-    - name: 'Zimoo's Life'
-      url: 'https://zimoo.me/'
-    - name: 'wys'
-      url: 'https://wys.bbwx.com/'
-    - name: '荒野菲克'
-      url: 'https://ficor.net/'
-    - name: '空域'
-      url: 'https://blog.moeworld.tech/'
-    - name: '暖心向阳335'
-      url: 'https://nxxy335.top/'
-    - name: 'Xuan's blog'
-      url: 'https://blog.ybyq.wang/'
-    - name: '老罗博客'
-      url: 'https://www.luosir.cn/'
-    - name: '1900的灯泡店'
-      url: 'https://1900.live/'
-    - name: '首页'
-      url: 'https://fangtang.net/'
-    - name: '清云小栈'
-      url: 'https://www.qynest.cn/'
-    - name: '云心怀鹤'
-      url: 'https://bluehe.cn/'
-    - name: '李欲裕'
-      url: 'https://blog.kokowo.cn/'
-    - name: 'Xio's'
-      url: 'https://n2g.cn/'
-    - name: '致郁系'
-      url: 'https://www.juroku.net/'
-    - name: 'Vss Blog'
-      url: 'https://vss.plus/'
-    - name: '白熊阿丸的小屋'
-      url: 'https://blog.bxaw.name/'
-    - name: 'Hello World'
-      url: 'https://blog.moodlog.cn/'
-    - name: '我们叁'
-      url: 'https://ihaihe.cn/'
-    - name: '小林先森'
-      url: 'https://blog.1edg.cn/'
-    - name: '爱娃子'
-      url: 'https://www.aiwazi.com/'
-    - name: '不曾长大-秦大叔的流水账'
-      url: 'https://qfsyj.com/'
-    - name: '曾墨'
-      url: 'https://www.zengmo.com/'
-    - name: 'SUUS'
-      url: 'https://suus.me/'
-    - name: '水拍石'
-      url: 'https://www.leitao.cn/'
-    - name: '嘀咕'
-      url: 'https://digu.plus/'
-    - name: 'Jason's Blog'
-      url: 'https://hanis.me/'
-    - name: 'Jonty Blog'
-      url: 'https://nobb.cc/'
-    - name: '优世界'
-      url: 'https://usj.cc/'
-    - name: 'Robes'
-      url: 'https://robes.xin/'
-    - name: '如品之茗'
-      url: 'https://www.rpzm.com/'
-    - name: '笔墨迹'
-      url: 'https://blogscn.fun/'
-    - name: '博客圈'
-      url: 'https://bokequan.cn/'
+    - name: "瓦匠不舟"
+      url: "https://airy.ink/"
+    - name: "Yang's Blog"
+      url: "https://knay.net/"
+    - name: "韩情脉脉"
+      url: "https://www.hxy.cc/"
+    - name: "相忘于江湖"
+      url: "https://h4ck.org.cn/"
+    - name: "ACEVS"
+      url: "https://acevs.com/"
+    - name: "朱小呆--Zhu Xiao Dai"
+      url: "https://zhujay.com/"
+    - name: "满心博客_记录生活里的小美好"
+      url: "https://zhoutian.com/"
+    - name: "2B博客 | 2BROEAR"
+      url: "https://blog.2broear.com/"
+    - name: "小新笔记坊"
+      url: "https://xxbjf.com/"
+    - name: "彬红茶日记"
+      url: "https://note.redcha.cn/"
+    - name: "子夜松声"
+      url: "https://xyzbz.cn/"
+    - name: "我是军爸"
+      url: "https://me.xu19.com/"
+    - name: "首页"
+      url: "https://dujun.io/"
+    - name: "风舞心弦"
+      url: "https://vind.ink/"
+    - name: "依阑记梦blog-记录日常生活点点滴滴"
+      url: "https://yljm.com/"
+    - name: "Zimoo's Life"
+      url: "https://zimoo.me/"
+    - name: "wys"
+      url: "https://wys.bbwx.com/"
+    - name: "荒野菲克"
+      url: "https://ficor.net/"
+    - name: "空域"
+      url: "https://blog.moeworld.tech/"
+    - name: "暖心向阳335"
+      url: "https://nxxy335.top/"
+    - name: "Xuan's blog"
+      url: "https://blog.ybyq.wang/"
+    - name: "老罗博客"
+      url: "https://www.luosir.cn/"
+    - name: "1900的灯泡店"
+      url: "https://1900.live/"
+    - name: "首页"
+      url: "https://fangtang.net/"
+    - name: "清云小栈"
+      url: "https://www.qynest.cn/"
+    - name: "云心怀鹤"
+      url: "https://bluehe.cn/"
+    - name: "李欲裕"
+      url: "https://blog.kokowo.cn/"
+    - name: "Xio's"
+      url: "https://n2g.cn/"
+    - name: "致郁系"
+      url: "https://www.juroku.net/"
+    - name: "Vss Blog"
+      url: "https://vss.plus/"
+    - name: "白熊阿丸的小屋"
+      url: "https://blog.bxaw.name/"
+    - name: "Hello World"
+      url: "https://blog.moodlog.cn/"
+    - name: "我们叁"
+      url: "https://ihaihe.cn/"
+    - name: "小林先森"
+      url: "https://blog.1edg.cn/"
+    - name: "爱娃子"
+      url: "https://www.aiwazi.com/"
+    - name: "不曾长大-秦大叔的流水账"
+      url: "https://qfsyj.com/"
+    - name: "曾墨"
+      url: "https://www.zengmo.com/"
+    - name: "SUUS"
+      url: "https://suus.me/"
+    - name: "水拍石"
+      url: "https://www.leitao.cn/"
+    - name: "嘀咕"
+      url: "https://digu.plus/"
+    - name: "Jason's Blog"
+      url: "https://hanis.me/"
+    - name: "Jonty Blog"
+      url: "https://nobb.cc/"
+    - name: "优世界"
+      url: "https://usj.cc/"
+    - name: "Robes"
+      url: "https://robes.xin/"
+    - name: "如品之茗"
+      url: "https://www.rpzm.com/"
+    - name: "笔墨迹"
+      url: "https://blogscn.fun/"
+    - name: "博客圈"
+      url: "https://bokequan.cn/"

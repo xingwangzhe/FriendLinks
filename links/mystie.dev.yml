@@ -1,22 +1,22 @@
 site:
-  name: 'mystie.dev'
-  url: 'https://mystie.dev/'
-  description: '友情链接'
-  links: '/'
+  name: "mystie.dev"
+  url: "https://mystie.dev/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Website'
-      url: 'https://catask.org'
-    - name: 'mst.64'
-      url: 'https://signal.me/#eu/rds_9o8z0W5pNMFD76DxNm5v08-eAUcSPHUMErcLbrOClHBlD3NNO4C8AHL-cMz8'
-    - name: '@mystie:tchncs.de'
-      url: 'https://matrix.to/#/@mystie:tchncs.de'
-    - name: 'fediring'
-      url: 'https://fediring.net'
-    - name: 'Floofring'
-      url: 'https://floofring.deno.dev/'
-    - name: 'gettie''s webring'
-      url: 'https://webring.getimiskon.xyz/'
-    - name: 'bucket webring'
-      url: 'https://webring.bucketfish.me/'
-    - name: 'catto.garden'
-      url: 'https://catto.garden'
+    - name: "Website"
+      url: "https://catask.org"
+    - name: "mst.64"
+      url: "https://signal.me/#eu/rds_9o8z0W5pNMFD76DxNm5v08-eAUcSPHUMErcLbrOClHBlD3NNO4C8AHL-cMz8"
+    - name: "@mystie:tchncs.de"
+      url: "https://matrix.to/#/@mystie:tchncs.de"
+    - name: "fediring"
+      url: "https://fediring.net"
+    - name: "Floofring"
+      url: "https://floofring.deno.dev/"
+    - name: "gettie's webring"
+      url: "https://webring.getimiskon.xyz/"
+    - name: "bucket webring"
+      url: "https://webring.bucketfish.me/"
+    - name: "catto.garden"
+      url: "https://catto.garden"

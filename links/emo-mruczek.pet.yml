@@ -1,12 +1,12 @@
 site:
-  name: 'emo-mruczek.pet'
-  url: 'https://emo-mruczek.pet/'
-  description: '友情链接'
-  links: '/friends'
+  name: "emo-mruczek.pet"
+  url: "https://emo-mruczek.pet/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'poz (a partner of mine)'
-      url: 'https://poz.pet/'
-    - name: 'MarkAssPandi'
-      url: 'https://markasspandi.nl/'
-    - name: 'JustRafau'
-      url: 'https://old.rafau.pl/'
+    - name: "poz (a partner of mine)"
+      url: "https://poz.pet/"
+    - name: "MarkAssPandi"
+      url: "https://markasspandi.nl/"
+    - name: "JustRafau"
+      url: "https://old.rafau.pl/"

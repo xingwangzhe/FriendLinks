@@ -1,36 +1,36 @@
 site:
-  name: 'emtech.cc'
-  description: '友情链接'
-  url: 'https://emtech.cc/'
-  links: '/friends'
+  name: "emtech.cc"
+  description: "友情链接"
+  url: "https://emtech.cc/"
+  links: "/friends"
   friends:
     - name: "小蔡 他很會連上家裡 Wi-Fi 小蔡.tw"
-      url: 'https://小蔡.tw/'
-    - name: '柴 柴犬 Lily 據說這隻柴犬叼著毛哥的 SSD 從臺北跑到臺中 superlily.dev'
-      url: 'https://superlily.dev/'
-    - name: '颉文 一只会写代码的小棕熊 shellwen.com'
-      url: 'https://shellwen.com/'
-    - name: 'Chao28661 第三屆中電會會長 blog.chaontc.tw'
-      url: 'https://blog.chaontc.tw/'
-    - name: 'OsGa CTF Player | Developer osga.dev'
-      url: 'https://www.osga.dev/'
-    - name: 'Pan in the Nutshell 後端大大 blog.pan93.com'
-      url: 'https://blog.pan93.com/'
-    - name: 'Wolf Yuan Furry Developer wolf-yuan.dev'
-      url: 'https://wolf-yuan.dev/'
-    - name: 'Yuanlin Lin Zeabur 創辦人 yual.in'
-      url: 'https://yual.in/'
-    - name: '堇姬 Naup A 4002-year-old demigod crane naup.mygo.tw'
-      url: 'https://naup.mygo.tw/'
-    - name: 'CBJ''s 程式日記 Chung cbjsprogramdiary.com'
-      url: 'https://cbjsprogramdiary.com'
-    - name: 'Ching367436 竹狐隊長 blog.ching367436.me'
-      url: 'https://blog.ching367436.me/'
-    - name: 'Sean Wei 為國家守護聖文森 sean.taipei'
-      url: 'https://www.sean.taipei/'
-    - name: 'Yorukot 一隻喜歡開源的小貓 yorukot.me'
-      url: 'https://yorukot.me/'
-    - name: '张洪 Heo 产品设计师，独立开发者，设计与科技分享。 blog.zhheo.com'
-      url: 'https://blog.zhheo.com/'
-    - name: '鱈魚 結合各類領域技術、開發酷酷的東西 codlin.me'
-      url: 'https://codlin.me/'
+      url: "https://小蔡.tw/"
+    - name: "柴 柴犬 Lily 據說這隻柴犬叼著毛哥的 SSD 從臺北跑到臺中 superlily.dev"
+      url: "https://superlily.dev/"
+    - name: "颉文 一只会写代码的小棕熊 shellwen.com"
+      url: "https://shellwen.com/"
+    - name: "Chao28661 第三屆中電會會長 blog.chaontc.tw"
+      url: "https://blog.chaontc.tw/"
+    - name: "OsGa CTF Player | Developer osga.dev"
+      url: "https://www.osga.dev/"
+    - name: "Pan in the Nutshell 後端大大 blog.pan93.com"
+      url: "https://blog.pan93.com/"
+    - name: "Wolf Yuan Furry Developer wolf-yuan.dev"
+      url: "https://wolf-yuan.dev/"
+    - name: "Yuanlin Lin Zeabur 創辦人 yual.in"
+      url: "https://yual.in/"
+    - name: "堇姬 Naup A 4002-year-old demigod crane naup.mygo.tw"
+      url: "https://naup.mygo.tw/"
+    - name: "CBJ's 程式日記 Chung cbjsprogramdiary.com"
+      url: "https://cbjsprogramdiary.com"
+    - name: "Ching367436 竹狐隊長 blog.ching367436.me"
+      url: "https://blog.ching367436.me/"
+    - name: "Sean Wei 為國家守護聖文森 sean.taipei"
+      url: "https://www.sean.taipei/"
+    - name: "Yorukot 一隻喜歡開源的小貓 yorukot.me"
+      url: "https://yorukot.me/"
+    - name: "张洪 Heo 产品设计师，独立开发者，设计与科技分享。 blog.zhheo.com"
+      url: "https://blog.zhheo.com/"
+    - name: "鱈魚 結合各類領域技術、開發酷酷的東西 codlin.me"
+      url: "https://codlin.me/"

@@ -1,14 +1,14 @@
 site:
-  name: 'blog.7003410.xyz'
-  url: 'https://blog.7003410.xyz/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.7003410.xyz"
+  url: "https://blog.7003410.xyz/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'THW’s Blog 前途似海，来日方长'
-      url: 'https://tianhw.top'
-    - name: 'AcoFork Blog Protect What You Love.'
-      url: 'https://blog.acofork.com/'
-    - name: 'Onlyfork Blog 欢迎光临喵喵喵~'
-      url: 'https://blog.2fo.cc/'
-    - name: 'Analytics by Umami'
-      url: 'https://umami.is'
+    - name: "THW’s Blog 前途似海，来日方长"
+      url: "https://tianhw.top"
+    - name: "AcoFork Blog Protect What You Love."
+      url: "https://blog.acofork.com/"
+    - name: "Onlyfork Blog 欢迎光临喵喵喵~"
+      url: "https://blog.2fo.cc/"
+    - name: "Analytics by Umami"
+      url: "https://umami.is"

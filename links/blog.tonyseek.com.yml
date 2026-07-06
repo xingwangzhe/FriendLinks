@@ -1,24 +1,24 @@
 site:
-  name: 'blog.tonyseek.com'
-  url: 'https://blog.tonyseek.com/'
-  description: '友情链接'
-  links: '/'
+  name: "blog.tonyseek.com"
+  url: "https://blog.tonyseek.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'simplenote'
-      url: 'https://simplenote.com'
-    - name: 'lttxzmj'
-      url: 'http://blog.lttxzmj.com/'
-    - name: 'tonychow'
-      url: 'http://blog.tonychow.me/'
-    - name: 'shonenada'
-      url: 'https://blog.shonenada.com/'
-    - name: 'ken'
-      url: 'http://www.xuzefeng.com/'
-    - name: 'tonic'
-      url: 'http://wolege.ca/'
-    - name: 'zijian'
-      url: 'http://zijan.blog.com/'
-    - name: 'Pelican'
-      url: 'http://getpelican.com'
-    - name: 'Octopress'
-      url: 'http://octopress.org/'
+    - name: "simplenote"
+      url: "https://simplenote.com"
+    - name: "lttxzmj"
+      url: "http://blog.lttxzmj.com/"
+    - name: "tonychow"
+      url: "http://blog.tonychow.me/"
+    - name: "shonenada"
+      url: "https://blog.shonenada.com/"
+    - name: "ken"
+      url: "http://www.xuzefeng.com/"
+    - name: "tonic"
+      url: "http://wolege.ca/"
+    - name: "zijian"
+      url: "http://zijan.blog.com/"
+    - name: "Pelican"
+      url: "http://getpelican.com"
+    - name: "Octopress"
+      url: "http://octopress.org/"

@@ -1,10 +1,10 @@
 site:
-  name: '主页'
-  url: 'https://harrychen.xyz/'
-  description: 'The personal blog of Shengqi Chen <i at harrychen dot xyz>'
-  links: '/links'
+  name: "主页"
+  url: "https://harrychen.xyz/"
+  description: "The personal blog of Shengqi Chen <i at harrychen dot xyz>"
+  links: "/links"
   friends:
-    - name: 'Xuanwo's Blog'
-      url: 'https://xuanwo.io/'
-    - name: 'Miskcoo’s Space'
-      url: 'https://blog.miskcoo.com/'
+    - name: "Xuanwo's Blog"
+      url: "https://xuanwo.io/"
+    - name: "Miskcoo’s Space"
+      url: "https://blog.miskcoo.com/"

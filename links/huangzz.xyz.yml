@@ -1,10 +1,10 @@
 site:
-  name: 'huangzz.xyz'
-  url: 'https://huangzz.xyz/'
-  description: '友情链接'
-  links: '/links'
+  name: "huangzz.xyz"
+  url: "https://huangzz.xyz/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Remix Icon'
-      url: 'https://remixicon.com/'
-    - name: '字体天下'
-      url: 'https://www.fonts.net.cn/'
+    - name: "Remix Icon"
+      url: "https://remixicon.com/"
+    - name: "字体天下"
+      url: "https://www.fonts.net.cn/"

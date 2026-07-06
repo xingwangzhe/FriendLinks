@@ -1,64 +1,64 @@
 site:
-  name: 'heitaosan.com'
-  url: 'https://heitaosan.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "heitaosan.com"
+  url: "https://heitaosan.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Zhangl'
-      url: 'https://www.blog.gszyzl.cn/'
-    - name: 'xuan'
-      url: 'https://blog.ybyq.wang'
-    - name: 'Vei'
-      url: 'https://blog.veitzn.top'
-    - name: 'HansJack'
-      url: 'https://www.hansjack.com/'
-    - name: '千年小妖仔'
-      url: 'https://blog.dhhyxr.top/'
-    - name: '幻影博客'
-      url: 'https://blog.52hyjs.com/'
-    - name: 'xxzznet'
-      url: 'https://blog.xxzz.net'
-    - name: '平顶山'
-      url: 'https://pingdingshan.me'
-    - name: 'semyin'
-      url: 'https://semyin.com'
-    - name: '品味苏州 一个神秘的人'
-      url: 'https://pwsz.com'
-    - name: '灼热 与月亮也沁入红色'
-      url: 'https://zhuo.re/'
-    - name: '风记星辰 分享生活 · 留下感动 : )'
-      url: 'https://www.thyuu.com'
-    - name: 'Fatesinger Fake Minimalism'
-      url: 'https://fatesinger.com/'
-    - name: '威言威语 我愿像茶一样，把苦涩留在心里，敬发出来的都是清香！'
-      url: 'https://www.weisay.com/'
-    - name: '小众博客 有情怀的互联网搬运工'
-      url: 'https://ingg.cn/'
-    - name: '灰常记忆 记录生活 珍藏回忆'
-      url: 'https://bestcherish.com/'
-    - name: '木本无心 记录学习与生活的点滴'
-      url: 'https://mbwx.ren/'
-    - name: '优世界 记录美好生活与不平凡的你'
-      url: 'https://usj.cc/'
-    - name: '七栀 用文字记录那些时间带走的东西'
-      url: 'https://qydzz.cn/'
-    - name: '团团生活志 记录生活的点点滴滴'
-      url: 'https://t-t.live/'
-    - name: 'Joyer的博客 一个神秘的人'
-      url: 'https://blog.joyer.top/'
-    - name: '栗子的朋友圈 万物可爱，人间值得，未来可期。'
-      url: 'https://www.lizi94.com'
-    - name: '沉沦博客 一名充满激情的未来主义者和多领域专家，致力于探索人类潜力的极限。'
-      url: 'https://kkn.me/'
-    - name: '益友网站 美好的日常生活值得我们去记录，希望我们的生活每天都能充满着乐趣跟开心事。'
-      url: 'https://www.yiyou.bj.cn'
-    - name: 'BlogFinder 发现优秀的个人博客'
-      url: 'https://bf.zzxworld.com/'
-    - name: 'JoyQi Write less, think more.'
-      url: 'https://joyqi.com/'
-    - name: '孤斗 做自己'
-      url: 'https://d-d.design/'
-    - name: '友人C 相逢的人会再相逢'
-      url: 'https://www.ihewro.com/'
-    - name: '赵阿卷 手持两把锟斤拷 口里疾呼烫烫烫'
-      url: 'https://blog.zwying.com/'
+    - name: "Zhangl"
+      url: "https://www.blog.gszyzl.cn/"
+    - name: "xuan"
+      url: "https://blog.ybyq.wang"
+    - name: "Vei"
+      url: "https://blog.veitzn.top"
+    - name: "HansJack"
+      url: "https://www.hansjack.com/"
+    - name: "千年小妖仔"
+      url: "https://blog.dhhyxr.top/"
+    - name: "幻影博客"
+      url: "https://blog.52hyjs.com/"
+    - name: "xxzznet"
+      url: "https://blog.xxzz.net"
+    - name: "平顶山"
+      url: "https://pingdingshan.me"
+    - name: "semyin"
+      url: "https://semyin.com"
+    - name: "品味苏州 一个神秘的人"
+      url: "https://pwsz.com"
+    - name: "灼热 与月亮也沁入红色"
+      url: "https://zhuo.re/"
+    - name: "风记星辰 分享生活 · 留下感动 : )"
+      url: "https://www.thyuu.com"
+    - name: "Fatesinger Fake Minimalism"
+      url: "https://fatesinger.com/"
+    - name: "威言威语 我愿像茶一样，把苦涩留在心里，敬发出来的都是清香！"
+      url: "https://www.weisay.com/"
+    - name: "小众博客 有情怀的互联网搬运工"
+      url: "https://ingg.cn/"
+    - name: "灰常记忆 记录生活 珍藏回忆"
+      url: "https://bestcherish.com/"
+    - name: "木本无心 记录学习与生活的点滴"
+      url: "https://mbwx.ren/"
+    - name: "优世界 记录美好生活与不平凡的你"
+      url: "https://usj.cc/"
+    - name: "七栀 用文字记录那些时间带走的东西"
+      url: "https://qydzz.cn/"
+    - name: "团团生活志 记录生活的点点滴滴"
+      url: "https://t-t.live/"
+    - name: "Joyer的博客 一个神秘的人"
+      url: "https://blog.joyer.top/"
+    - name: "栗子的朋友圈 万物可爱，人间值得，未来可期。"
+      url: "https://www.lizi94.com"
+    - name: "沉沦博客 一名充满激情的未来主义者和多领域专家，致力于探索人类潜力的极限。"
+      url: "https://kkn.me/"
+    - name: "益友网站 美好的日常生活值得我们去记录，希望我们的生活每天都能充满着乐趣跟开心事。"
+      url: "https://www.yiyou.bj.cn"
+    - name: "BlogFinder 发现优秀的个人博客"
+      url: "https://bf.zzxworld.com/"
+    - name: "JoyQi Write less, think more."
+      url: "https://joyqi.com/"
+    - name: "孤斗 做自己"
+      url: "https://d-d.design/"
+    - name: "友人C 相逢的人会再相逢"
+      url: "https://www.ihewro.com/"
+    - name: "赵阿卷 手持两把锟斤拷 口里疾呼烫烫烫"
+      url: "https://blog.zwying.com/"

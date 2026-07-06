@@ -1,28 +1,28 @@
 site:
-  name: 'blog.x-way.org'
-  url: 'https://blog.x-way.org/'
-  description: '友情链接'
-  links: '/'
+  name: "blog.x-way.org"
+  url: "https://blog.x-way.org/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Practical Betterments'
-      url: 'https://practicalbetterments.com/'
-    - name: 'Nathanael'
-      url: 'https://endtimes.dev/'
-    - name: 'Volker'
-      url: 'https://vowe.net/'
-    - name: 'techBrandon'
-      url: 'https://techbrandon.github.io/'
-    - name: 'Passweird - Passwords too Gross to Steal'
-      url: 'https://www.passweird.com/'
-    - name: '#!/bin/blog'
-      url: 'http://binblog.info/'
-    - name: 'Thoughts on programming'
-      url: 'https://henrikwarne.com/'
-    - name: 'Benjojo.co.uk'
-      url: 'https://blog.benjojo.co.uk/'
-    - name: 'charity.wtf'
-      url: 'https://charity.wtf/'
-    - name: 'cassidoo'
-      url: 'https://blog.cassidoo.co/'
-    - name: 'Andreas Jaggi'
-      url: 'http://www.andreas-jaggi.ch/'
+    - name: "Practical Betterments"
+      url: "https://practicalbetterments.com/"
+    - name: "Nathanael"
+      url: "https://endtimes.dev/"
+    - name: "Volker"
+      url: "https://vowe.net/"
+    - name: "techBrandon"
+      url: "https://techbrandon.github.io/"
+    - name: "Passweird - Passwords too Gross to Steal"
+      url: "https://www.passweird.com/"
+    - name: "#!/bin/blog"
+      url: "http://binblog.info/"
+    - name: "Thoughts on programming"
+      url: "https://henrikwarne.com/"
+    - name: "Benjojo.co.uk"
+      url: "https://blog.benjojo.co.uk/"
+    - name: "charity.wtf"
+      url: "https://charity.wtf/"
+    - name: "cassidoo"
+      url: "https://blog.cassidoo.co/"
+    - name: "Andreas Jaggi"
+      url: "http://www.andreas-jaggi.ch/"

@@ -1,12 +1,12 @@
 site:
-  name: 'stopa.io'
-  url: 'https://stopa.io/'
-  description: '友情链接'
-  links: '/'
+  name: "stopa.io"
+  url: "https://stopa.io/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Consistent'
-      url: 'https://consistent.fit'
-    - name: 'Zeneca'
-      url: 'https://zeneca.io'
-    - name: 'Jobsearch.dev'
-      url: 'https://jobsearch.dev'
+    - name: "Consistent"
+      url: "https://consistent.fit"
+    - name: "Zeneca"
+      url: "https://zeneca.io"
+    - name: "Jobsearch.dev"
+      url: "https://jobsearch.dev"

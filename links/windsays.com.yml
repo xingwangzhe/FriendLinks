@@ -1,10 +1,10 @@
 site:
-  name: 'windsays.com'
-  url: 'http://www.windsays.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "windsays.com"
+  url: "http://www.windsays.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '普拉斯'
-      url: 'https://www.pulasi.cn/'
-    - name: '普拉斯'
-      url: 'https://pulasi.cn/'
+    - name: "普拉斯"
+      url: "https://www.pulasi.cn/"
+    - name: "普拉斯"
+      url: "https://pulasi.cn/"

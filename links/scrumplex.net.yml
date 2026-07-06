@@ -1,12 +1,12 @@
 site:
-  name: 'scrumplex.net'
-  url: 'https://scrumplex.net/'
-  description: '友情链接'
-  links: '/'
+  name: "scrumplex.net"
+  url: "https://scrumplex.net/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Nix'
-      url: 'https://nixos.org'
-    - name: 'Website'
-      url: 'https://prismlauncher.org'
-    - name: 'Message me on Matrix'
-      url: 'https://matrix.to/#/@scrumplex:duckhub.io'
+    - name: "Nix"
+      url: "https://nixos.org"
+    - name: "Website"
+      url: "https://prismlauncher.org"
+    - name: "Message me on Matrix"
+      url: "https://matrix.to/#/@scrumplex:duckhub.io"

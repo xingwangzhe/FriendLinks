@@ -1,12 +1,12 @@
 site:
-  name: 'clay-wangzhi.com'
-  url: 'https://clay-wangzhi.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "clay-wangzhi.com"
+  url: "https://clay-wangzhi.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Kaku 李鹤前滴滴大佬，擅长大规模容器集群管理与调度'
-      url: 'https://www.likakuli.com/'
-    - name: '运维开发故事运维开发故事由一群志同道合的小伙伴共同维护，有运维也有开发，这是一个团队，内容十分丰富'
-      url: 'https://www.devopstory.cn/'
-    - name: '云原生生态圈专注云原生、运维、Go、Python技术分享'
-      url: 'https://devopsman.cn/'
+    - name: "Kaku 李鹤前滴滴大佬，擅长大规模容器集群管理与调度"
+      url: "https://www.likakuli.com/"
+    - name: "运维开发故事运维开发故事由一群志同道合的小伙伴共同维护，有运维也有开发，这是一个团队，内容十分丰富"
+      url: "https://www.devopstory.cn/"
+    - name: "云原生生态圈专注云原生、运维、Go、Python技术分享"
+      url: "https://devopsman.cn/"

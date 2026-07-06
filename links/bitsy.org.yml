@@ -1,12 +1,12 @@
 site:
-  name: 'bitsy.org'
-  url: 'https://bitsy.org/'
-  description: '友情链接'
-  links: '/friends'
+  name: "bitsy.org"
+  url: "https://bitsy.org/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'tiny tools directory'
-      url: 'https://tinytools.directory/'
-    - name: 'ravel'
-      url: 'https://ravel.neocities.org/'
-    - name: 'zonelets'
-      url: 'https://zonelets.net/'
+    - name: "tiny tools directory"
+      url: "https://tinytools.directory/"
+    - name: "ravel"
+      url: "https://ravel.neocities.org/"
+    - name: "zonelets"
+      url: "https://zonelets.net/"

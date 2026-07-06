@@ -1,14 +1,14 @@
 site:
-  name: 'thisis.host'
-  url: 'https://thisis.host/'
-  description: '友情链接'
-  links: '/friend'
+  name: "thisis.host"
+  url: "https://thisis.host/"
+  description: "友情链接"
+  links: "/friend"
   friends:
-    - name: '宝鸡中学'
-      url: 'https://baozhong.30edu.com.cn/'
-    - name: '纸鹿小站'
-      url: 'https://www.zhilu.site/'
-    - name: '纸鹿博客'
-      url: 'https://blog.zhilu.site/'
-    - name: '古怪博客'
-      url: 'https://blog.guuguai.site/'
+    - name: "宝鸡中学"
+      url: "https://baozhong.30edu.com.cn/"
+    - name: "纸鹿小站"
+      url: "https://www.zhilu.site/"
+    - name: "纸鹿博客"
+      url: "https://blog.zhilu.site/"
+    - name: "古怪博客"
+      url: "https://blog.guuguai.site/"

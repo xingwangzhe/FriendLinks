@@ -1,16 +1,16 @@
 site:
-  name: 'blog.shettydev.com'
-  url: 'https://blog.shettydev.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.shettydev.com"
+  url: "https://blog.shettydev.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '残页的小博客Android'
-      url: 'https://blog.canyie.top/'
-    - name: '晨未眠晨未眠的博客'
-      url: 'https://cwmwebsec.icu/'
-    - name: 'Eviarch''s blog死は生の裏返しである'
-      url: 'https://blog.eviarch.com/'
-    - name: 'HDQ''s BlogLife & Study'
-      url: 'https://www.hdq66.site/'
-    - name: '旖旎若鸿的博客驻足现实，仰望星空，率性而活'
-      url: 'https://blog.atago.moe/'
+    - name: "残页的小博客Android"
+      url: "https://blog.canyie.top/"
+    - name: "晨未眠晨未眠的博客"
+      url: "https://cwmwebsec.icu/"
+    - name: "Eviarch's blog死は生の裏返しである"
+      url: "https://blog.eviarch.com/"
+    - name: "HDQ's BlogLife & Study"
+      url: "https://www.hdq66.site/"
+    - name: "旖旎若鸿的博客驻足现实，仰望星空，率性而活"
+      url: "https://blog.atago.moe/"

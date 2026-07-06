@@ -1,12 +1,12 @@
 site:
-  name: 'dariotordoni.com'
-  url: 'https://www.dariotordoni.com/'
-  description: '友情链接'
-  links: '/about'
+  name: "dariotordoni.com"
+  url: "https://www.dariotordoni.com/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: 'Abilio'
-      url: 'https://www.abilio.com/'
-    - name: 'Pelican'
-      url: 'https://getpelican.com/'
-    - name: 'Umami'
-      url: 'https://umami.is/'
+    - name: "Abilio"
+      url: "https://www.abilio.com/"
+    - name: "Pelican"
+      url: "https://getpelican.com/"
+    - name: "Umami"
+      url: "https://umami.is/"

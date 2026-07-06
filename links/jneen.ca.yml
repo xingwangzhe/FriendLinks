@@ -1,12 +1,12 @@
 site:
-  name: 'jneen.ca'
-  url: 'https://jneen.ca/'
-  description: '友情链接'
-  links: '/'
+  name: "jneen.ca"
+  url: "https://jneen.ca/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'automaphonica'
-      url: 'https://automaphoni.ca'
-    - name: 'renoise'
-      url: 'https://www.renoise.com/'
-    - name: 'library for web math input'
-      url: 'http://mathquill.com'
+    - name: "automaphonica"
+      url: "https://automaphoni.ca"
+    - name: "renoise"
+      url: "https://www.renoise.com/"
+    - name: "library for web math input"
+      url: "http://mathquill.com"

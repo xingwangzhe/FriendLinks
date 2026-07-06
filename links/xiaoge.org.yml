@@ -1,18 +1,18 @@
 site:
-  name: 'xiaoge.org'
-  url: 'https://www.xiaoge.org/'
-  description: '友情链接'
-  links: '/links'
+  name: "xiaoge.org"
+  url: "https://www.xiaoge.org/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Docker应用吧 容器应用分享！'
-      url: 'https://dockerapps.com/'
-    - name: 'Anyeの小站 Always Nurturing Your Enthusiasm'
-      url: 'https://www.anye.xyz/'
-    - name: '碎晓碎碎念 笙箫陡然·难挽诀别'
-      url: 'https://im.su1xiao.com/'
-    - name: '劲折腾的磕巴白菜 别管 不听 就是玩'
-      url: 'https://hi.keba.host/'
-    - name: 'Cane 技术大佬Cane'
-      url: 'https://hicane.com/'
-    - name: '若海观澜 一个全栈攻城狮的纯技术干货分享'
-      url: 'https://www.rehiy.com'
+    - name: "Docker应用吧 容器应用分享！"
+      url: "https://dockerapps.com/"
+    - name: "Anyeの小站 Always Nurturing Your Enthusiasm"
+      url: "https://www.anye.xyz/"
+    - name: "碎晓碎碎念 笙箫陡然·难挽诀别"
+      url: "https://im.su1xiao.com/"
+    - name: "劲折腾的磕巴白菜 别管 不听 就是玩"
+      url: "https://hi.keba.host/"
+    - name: "Cane 技术大佬Cane"
+      url: "https://hicane.com/"
+    - name: "若海观澜 一个全栈攻城狮的纯技术干货分享"
+      url: "https://www.rehiy.com"

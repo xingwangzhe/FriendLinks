@@ -1,10 +1,10 @@
 site:
-  name: 'johnnyreilly.com'
-  url: 'https://johnnyreilly.com/'
-  description: '友情链接'
-  links: '/'
+  name: "johnnyreilly.com"
+  url: "https://johnnyreilly.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Standard.site'
-      url: 'https://standard.site/'
-    - name: 'Sequoia'
-      url: 'https://sequoia.pub/'
+    - name: "Standard.site"
+      url: "https://standard.site/"
+    - name: "Sequoia"
+      url: "https://sequoia.pub/"

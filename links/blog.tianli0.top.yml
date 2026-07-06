@@ -1,218 +1,218 @@
 site:
-  name: 'Tianli''s Blog'
-  description: '自知之明是最可贵的知识！'
-  url: 'https://blog.tianli0.top'
-  links: '/pages/link'
+  name: "Tianli's Blog"
+  description: "自知之明是最可贵的知识！"
+  url: "https://blog.tianli0.top"
+  links: "/pages/link"
   friends:
-    - name: '山岳库博'
-      url: 'https://kmar.top/'
-    - name: 'Gahotx'
-      url: 'https://gahotx.cn/'
-    - name: '小冰博客'
-      url: 'https://zfe.space'
-    - name: '张洪Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: 'iMaeGoo''s Blog'
-      url: 'https://www.imaegoo.com/'
-    - name: '素心'
-      url: 'https://haiy.space/'
-    - name: 'Leonus'
-      url: 'https://blog.leonus.cn/'
-    - name: '梦落の小屋'
-      url: 'https://blog.dreamfall.cn'
-    - name: '天翔TNXG的空间站'
-      url: 'https://tnxg.top/'
-    - name: '轻笑Chuckle'
-      url: 'https://www.qcqx.cn/'
-    - name: '安知鱼'
-      url: 'https://anzhiy.cn/'
-    - name: 'Ariasakaの小窝'
-      url: 'https://blog.yaria.top'
-    - name: '清羽飞扬'
-      url: 'https://blog.qyliu.top/'
-    - name: 'June''s Blog'
-      url: 'https://blog.june-pj.cn/'
-    - name: '葱苓sama'
-      url: 'https://blog.ciraos.top'
-    - name: '南方嘉木'
-      url: 'https://blog.cancin.cn'
-    - name: '明日が来ると'
-      url: 'https://kiseki.blog/'
-    - name: 'Redish101 Blog'
-      url: 'https://blog.redish101.top'
-    - name: '铭心石刻'
-      url: 'https://blog.kouseki.cn/'
-    - name: '微霞'
-      url: 'https://yuuu.org'
-    - name: 'Akilarの糖果屋'
-      url: 'https://akilar.top/'
-    - name: '纸鹿摸鱼处'
-      url: 'https://blog.zhilu.cyou'
-    - name: '微光档案'
-      url: 'https://bikari.top'
-    - name: 'Ray''s Blog'
-      url: 'https://mk1.io'
-    - name: 'MJ''s Blog'
-      url: 'https://blog.justlovesmile.top'
-    - name: 'Eurkon'
-      url: 'https://blog.eurkon.com'
-    - name: '序炁的博客'
-      url: 'https://www.ordchaos.com'
-    - name: 'Eacls'
-      url: 'https://www.eacls.top/'
-    - name: 'MTBlack'
-      url: 'https://www.lcoo.cc/'
-    - name: '肥猪qwq'
-      url: 'https://www.feizhuqwq.com'
-    - name: '一蓑烟雨'
-      url: 'https://www.easyf12.top/'
-    - name: 'Fomalhaut'
-      url: 'https://www.fomal.cc/'
-    - name: '山茶花舍'
-      url: 'https://irithys.com'
-    - name: 'Marcus的小窝'
-      url: 'https://blog.marcus233.top/'
-    - name: '鹿啵包の小窝'
-      url: 'https://pochacco.top/'
-    - name: 'LyShark'
-      url: 'https://www.lyshark.com'
-    - name: '竹山一叶'
-      url: 'https://zsyyblog.com'
-    - name: '我鬼知道の博客'
-      url: 'https://www.wgzdy.top'
-    - name: '心流'
-      url: 'https://blog.panghai.top'
-    - name: 'GanSer'
-      url: 'https://www.gan1ser.top/'
-    - name: '爱吃肉的猫'
-      url: 'https://meuicat.com/'
-    - name: 'Jessica Gracewell'
-      url: 'https://jessicagracewell.top'
-    - name: 'Pzai'
-      url: 'https://blog.pzai.cloud/'
-    - name: 'Fgaoxing'
-      url: 'https://www.yt-blog.top/'
-    - name: '樱花小镇'
-      url: 'https://blog.sakura.vin'
-    - name: '绘星里'
-      url: 'https://blog.storia.ren/'
-    - name: '半方池水半方田'
-      url: 'https://uuanqin.top/'
-    - name: '青猫的糖果屋'
-      url: 'https://www.shang.ac.cn'
-    - name: '寒烟志'
-      url: 'https://yanyuplus.cn/'
-    - name: '闪闪の小窝'
-      url: 'https://moechun.fun/'
-    - name: 'climbingmouse'
-      url: 'https://blog.climbingmouse.top/'
-    - name: '星の野'
-      url: 'https://byer.top'
-    - name: '呆鱼'
-      url: 'https://daiyu.fun/'
-    - name: 'qxdn'
-      url: 'https://qianxu.run'
-    - name: '虹色轨迹'
-      url: 'https://illlli.com'
-    - name: 'NullPointerException'
-      url: 'https://omn.cc/'
-    - name: '微笑博客'
-      url: 'https://wxjxw.cn'
-    - name: '苏苏の休憩小屋'
-      url: 'https://luckysusu.top/'
-    - name: '时空之歌'
-      url: 'https://space520.eu.org/'
-    - name: 'Naokuo'
-      url: 'https://www.naokuo.top'
-    - name: '小李同学 Coding'
-      url: 'https://blog.xxfer.cn/'
-    - name: '六月是只猫'
-      url: 'https://www.lyszm.com'
-    - name: 'Kegongteng'
-      url: 'https://kegongteng.cn/'
-    - name: 'Kuka'
-      url: 'https://www.xwsclub.top/'
-    - name: '君莫愁'
-      url: 'https://blog.shimail.cn'
-    - name: '王卓Sco'
-      url: 'https://blog.wzsco.cn'
-    - name: '旅者Bin'
-      url: 'https://101jc.com/'
-    - name: '❖星港◎Star☆'
-      url: 'https://blog.starsharbor.com'
-    - name: '哇塞码农'
-      url: 'https://wscoder.com/'
-    - name: '小破站'
-      url: 'https://syml.online'
-    - name: 'PeterJXL'
-      url: 'https://www.peterjxl.com/'
-    - name: '你所不知道的物語'
-      url: 'https://hitagi.icu'
-    - name: 'MRZHU的小站'
-      url: 'https://www.sifangbazhu.tech'
-    - name: 'Yves'
-      url: 'https://blog.maoyiwei.com/'
-    - name: '浅小兮的梦'
-      url: 'https://zxwlove.xyz/'
-    - name: 'dreamChaser的小屋'
-      url: 'https://blog.wenjing.xin/'
-    - name: '梦想之都'
-      url: 'https://hexo.dreamerhe.cn/'
-    - name: '咖啡豆子coffee的小站'
-      url: 'https://kfdzcoffee.cn'
-    - name: '黄昏之时'
-      url: 'https://blog.mitsuha.org/'
-    - name: '高峰君主の个人博客'
-      url: 'https://www.gfjzz.top/'
-    - name: '365云栈'
-      url: 'https://blog.365sites.top'
-    - name: '晚夜的个人博客'
-      url: 'https://www.iczrx.cn'
-    - name: 'Elykia''s Blog'
-      url: 'https://blog.elykia.cn/'
-    - name: '洛卡日记'
-      url: 'https://luoca.cn'
-    - name: 'ZHI-BLOG'
-      url: 'https://blog.zhwei101.com/'
-    - name: 'Imz''s Blog'
-      url: 'https://blog.imz.me'
-    - name: 'webjing'
-      url: 'https://blog.webjing.cn'
-    - name: '萌王之乡'
-      url: 'https://002026.xyz/'
-    - name: '青稚'
-      url: 'https://blog.linux-qitong.top/'
-    - name: 'CWorld Site'
-      url: 'https://cworld0.com/'
-    - name: '辣条'
-      url: 'https://blog.yoshino.us.kg'
-    - name: '陵长镜'
-      url: 'https://r1n.top'
-    - name: 'AkiDAY'
-      url: 'https://blog.akiday.com'
-    - name: '王嘉祥'
-      url: 'https://blog.jiaxiang.wang/'
-    - name: 'webfem'
-      url: 'https://webfem.com'
-    - name: '安小歪'
-      url: 'https://blog.anxy.top'
-    - name: 'Masttf'
-      url: 'https://epiphyllum.masttf.fun'
-    - name: '渔夫Fisherman'
-      url: 'https://www.yuxuemei.top'
-    - name: '云泽记'
-      url: 'https://blog.yunzeji.cn'
-    - name: 'Greyflowers'
-      url: 'https://www.greyflowers.moe'
-    - name: 'liangbm3''s blog'
-      url: 'https://liangbm3.site/'
-    - name: 'Amiracle'
-      url: 'https://amiracle.site'
-    - name: '乔人尹'
-      url: 'https://underestimated.cn/'
-    - name: 'HiPeach'
-      url: 'https://blog.opeach.cn'
-    - name: 'Saneko'
-      url: 'https://saneko.me'
-    - name: 'IT老董博客'
-      url: 'https://www.itlaodong.com/'
+    - name: "山岳库博"
+      url: "https://kmar.top/"
+    - name: "Gahotx"
+      url: "https://gahotx.cn/"
+    - name: "小冰博客"
+      url: "https://zfe.space"
+    - name: "张洪Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "iMaeGoo's Blog"
+      url: "https://www.imaegoo.com/"
+    - name: "素心"
+      url: "https://haiy.space/"
+    - name: "Leonus"
+      url: "https://blog.leonus.cn/"
+    - name: "梦落の小屋"
+      url: "https://blog.dreamfall.cn"
+    - name: "天翔TNXG的空间站"
+      url: "https://tnxg.top/"
+    - name: "轻笑Chuckle"
+      url: "https://www.qcqx.cn/"
+    - name: "安知鱼"
+      url: "https://anzhiy.cn/"
+    - name: "Ariasakaの小窝"
+      url: "https://blog.yaria.top"
+    - name: "清羽飞扬"
+      url: "https://blog.qyliu.top/"
+    - name: "June's Blog"
+      url: "https://blog.june-pj.cn/"
+    - name: "葱苓sama"
+      url: "https://blog.ciraos.top"
+    - name: "南方嘉木"
+      url: "https://blog.cancin.cn"
+    - name: "明日が来ると"
+      url: "https://kiseki.blog/"
+    - name: "Redish101 Blog"
+      url: "https://blog.redish101.top"
+    - name: "铭心石刻"
+      url: "https://blog.kouseki.cn/"
+    - name: "微霞"
+      url: "https://yuuu.org"
+    - name: "Akilarの糖果屋"
+      url: "https://akilar.top/"
+    - name: "纸鹿摸鱼处"
+      url: "https://blog.zhilu.cyou"
+    - name: "微光档案"
+      url: "https://bikari.top"
+    - name: "Ray's Blog"
+      url: "https://mk1.io"
+    - name: "MJ's Blog"
+      url: "https://blog.justlovesmile.top"
+    - name: "Eurkon"
+      url: "https://blog.eurkon.com"
+    - name: "序炁的博客"
+      url: "https://www.ordchaos.com"
+    - name: "Eacls"
+      url: "https://www.eacls.top/"
+    - name: "MTBlack"
+      url: "https://www.lcoo.cc/"
+    - name: "肥猪qwq"
+      url: "https://www.feizhuqwq.com"
+    - name: "一蓑烟雨"
+      url: "https://www.easyf12.top/"
+    - name: "Fomalhaut"
+      url: "https://www.fomal.cc/"
+    - name: "山茶花舍"
+      url: "https://irithys.com"
+    - name: "Marcus的小窝"
+      url: "https://blog.marcus233.top/"
+    - name: "鹿啵包の小窝"
+      url: "https://pochacco.top/"
+    - name: "LyShark"
+      url: "https://www.lyshark.com"
+    - name: "竹山一叶"
+      url: "https://zsyyblog.com"
+    - name: "我鬼知道の博客"
+      url: "https://www.wgzdy.top"
+    - name: "心流"
+      url: "https://blog.panghai.top"
+    - name: "GanSer"
+      url: "https://www.gan1ser.top/"
+    - name: "爱吃肉的猫"
+      url: "https://meuicat.com/"
+    - name: "Jessica Gracewell"
+      url: "https://jessicagracewell.top"
+    - name: "Pzai"
+      url: "https://blog.pzai.cloud/"
+    - name: "Fgaoxing"
+      url: "https://www.yt-blog.top/"
+    - name: "樱花小镇"
+      url: "https://blog.sakura.vin"
+    - name: "绘星里"
+      url: "https://blog.storia.ren/"
+    - name: "半方池水半方田"
+      url: "https://uuanqin.top/"
+    - name: "青猫的糖果屋"
+      url: "https://www.shang.ac.cn"
+    - name: "寒烟志"
+      url: "https://yanyuplus.cn/"
+    - name: "闪闪の小窝"
+      url: "https://moechun.fun/"
+    - name: "climbingmouse"
+      url: "https://blog.climbingmouse.top/"
+    - name: "星の野"
+      url: "https://byer.top"
+    - name: "呆鱼"
+      url: "https://daiyu.fun/"
+    - name: "qxdn"
+      url: "https://qianxu.run"
+    - name: "虹色轨迹"
+      url: "https://illlli.com"
+    - name: "NullPointerException"
+      url: "https://omn.cc/"
+    - name: "微笑博客"
+      url: "https://wxjxw.cn"
+    - name: "苏苏の休憩小屋"
+      url: "https://luckysusu.top/"
+    - name: "时空之歌"
+      url: "https://space520.eu.org/"
+    - name: "Naokuo"
+      url: "https://www.naokuo.top"
+    - name: "小李同学 Coding"
+      url: "https://blog.xxfer.cn/"
+    - name: "六月是只猫"
+      url: "https://www.lyszm.com"
+    - name: "Kegongteng"
+      url: "https://kegongteng.cn/"
+    - name: "Kuka"
+      url: "https://www.xwsclub.top/"
+    - name: "君莫愁"
+      url: "https://blog.shimail.cn"
+    - name: "王卓Sco"
+      url: "https://blog.wzsco.cn"
+    - name: "旅者Bin"
+      url: "https://101jc.com/"
+    - name: "❖星港◎Star☆"
+      url: "https://blog.starsharbor.com"
+    - name: "哇塞码农"
+      url: "https://wscoder.com/"
+    - name: "小破站"
+      url: "https://syml.online"
+    - name: "PeterJXL"
+      url: "https://www.peterjxl.com/"
+    - name: "你所不知道的物語"
+      url: "https://hitagi.icu"
+    - name: "MRZHU的小站"
+      url: "https://www.sifangbazhu.tech"
+    - name: "Yves"
+      url: "https://blog.maoyiwei.com/"
+    - name: "浅小兮的梦"
+      url: "https://zxwlove.xyz/"
+    - name: "dreamChaser的小屋"
+      url: "https://blog.wenjing.xin/"
+    - name: "梦想之都"
+      url: "https://hexo.dreamerhe.cn/"
+    - name: "咖啡豆子coffee的小站"
+      url: "https://kfdzcoffee.cn"
+    - name: "黄昏之时"
+      url: "https://blog.mitsuha.org/"
+    - name: "高峰君主の个人博客"
+      url: "https://www.gfjzz.top/"
+    - name: "365云栈"
+      url: "https://blog.365sites.top"
+    - name: "晚夜的个人博客"
+      url: "https://www.iczrx.cn"
+    - name: "Elykia's Blog"
+      url: "https://blog.elykia.cn/"
+    - name: "洛卡日记"
+      url: "https://luoca.cn"
+    - name: "ZHI-BLOG"
+      url: "https://blog.zhwei101.com/"
+    - name: "Imz's Blog"
+      url: "https://blog.imz.me"
+    - name: "webjing"
+      url: "https://blog.webjing.cn"
+    - name: "萌王之乡"
+      url: "https://002026.xyz/"
+    - name: "青稚"
+      url: "https://blog.linux-qitong.top/"
+    - name: "CWorld Site"
+      url: "https://cworld0.com/"
+    - name: "辣条"
+      url: "https://blog.yoshino.us.kg"
+    - name: "陵长镜"
+      url: "https://r1n.top"
+    - name: "AkiDAY"
+      url: "https://blog.akiday.com"
+    - name: "王嘉祥"
+      url: "https://blog.jiaxiang.wang/"
+    - name: "webfem"
+      url: "https://webfem.com"
+    - name: "安小歪"
+      url: "https://blog.anxy.top"
+    - name: "Masttf"
+      url: "https://epiphyllum.masttf.fun"
+    - name: "渔夫Fisherman"
+      url: "https://www.yuxuemei.top"
+    - name: "云泽记"
+      url: "https://blog.yunzeji.cn"
+    - name: "Greyflowers"
+      url: "https://www.greyflowers.moe"
+    - name: "liangbm3's blog"
+      url: "https://liangbm3.site/"
+    - name: "Amiracle"
+      url: "https://amiracle.site"
+    - name: "乔人尹"
+      url: "https://underestimated.cn/"
+    - name: "HiPeach"
+      url: "https://blog.opeach.cn"
+    - name: "Saneko"
+      url: "https://saneko.me"
+    - name: "IT老董博客"
+      url: "https://www.itlaodong.com/"

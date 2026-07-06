@@ -1,18 +1,18 @@
 site:
-  name: 'qmacro.org'
-  url: 'https://qmacro.org/'
-  description: '友情链接'
-  links: '/about'
+  name: "qmacro.org"
+  url: "https://qmacro.org/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: 'XMPP (Jabber)'
-      url: 'http://xmpp.org'
-    - name: 'Google'
-      url: 'http://gtugs.org'
-    - name: 'Manchester CoderDojo'
-      url: 'http://mcrcoderdojo.org.uk'
-    - name: 'FOSDEM'
-      url: 'http://www.fosdem.org'
-    - name: 'SAP TechEd'
-      url: 'http://www.sapteched.com'
-    - name: 'Manchester Lambda Lounge'
-      url: 'http://lambdalounge.org.uk'
+    - name: "XMPP (Jabber)"
+      url: "http://xmpp.org"
+    - name: "Google"
+      url: "http://gtugs.org"
+    - name: "Manchester CoderDojo"
+      url: "http://mcrcoderdojo.org.uk"
+    - name: "FOSDEM"
+      url: "http://www.fosdem.org"
+    - name: "SAP TechEd"
+      url: "http://www.sapteched.com"
+    - name: "Manchester Lambda Lounge"
+      url: "http://lambdalounge.org.uk"

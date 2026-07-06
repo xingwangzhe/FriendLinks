@@ -1,12 +1,12 @@
 site:
-  name: 'teh.top'
-  url: 'https://www.teh.top/'
-  description: '友情链接'
-  links: '/friends'
+  name: "teh.top"
+  url: "https://www.teh.top/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'XiaoLin''s Blog'
-      url: 'https://xiaolinz.top/'
-    - name: '会飞的猫'
-      url: 'https://blog.flycat.tech'
-    - name: '逐月星屿'
-      url: 'https://cuiyouxin.cn'
+    - name: "XiaoLin's Blog"
+      url: "https://xiaolinz.top/"
+    - name: "会飞的猫"
+      url: "https://blog.flycat.tech"
+    - name: "逐月星屿"
+      url: "https://cuiyouxin.cn"

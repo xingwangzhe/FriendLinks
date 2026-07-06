@@ -1,8 +1,8 @@
 site:
-  name: 'clzczh.top'
-  url: 'https://www.clzczh.top/'
-  description: '友情链接'
-  links: '/friends'
+  name: "clzczh.top"
+  url: "https://www.clzczh.top/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '1+1'
-      url: 'https://clz.vercel.app/'
+    - name: "1+1"
+      url: "https://clz.vercel.app/"

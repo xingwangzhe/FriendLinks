@@ -1,90 +1,90 @@
 site:
-  name: 'yufm.com'
-  url: 'https://yufm.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "yufm.com"
+  url: "https://yufm.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '风雨行者'
-      url: 'http://stuit.cn'
-    - name: '飞刀博客'
-      url: 'https://www.feidaoboke.com'
-    - name: '攻城狮笔记'
-      url: 'https://qumac.com/'
-    - name: 'Lfhacks'
-      url: 'https://www.lfhacks.com'
-    - name: '三无青年'
-      url: 'https://www.duanxiansen.com'
-    - name: '品味苏州'
-      url: 'https://pwsz.com'
-    - name: '登山亦有道'
-      url: 'https://chenyan98.cn'
-    - name: 'wlnxing的小窝'
-      url: 'https://wlnxing.com/'
-    - name: 'JiaYu Blog'
-      url: 'https://www.mybabya.com/'
-    - name: '老张博客'
-      url: 'https://laozhang.org/'
-    - name: '一介大叔'
-      url: 'http://www.winature.com/'
-    - name: '故事的程序猿👨🏻‍💻'
-      url: 'https://blog.lichenghao.cn'
-    - name: '记录美好生活'
-      url: 'https://hux6.com/'
-    - name: '小陈故事'
-      url: 'https://www.chener.net/'
-    - name: '王志勇的BLOG'
-      url: 'http://www.auiou.com/'
-    - name: '郑永博客'
-      url: 'https://xptt.com/'
-    - name: '佐仔志'
-      url: 'https://www.jinbo123.com/'
-    - name: '非学·派'
-      url: 'https://fxpai.com/'
-    - name: '黄杰敏的博客'
-      url: 'https://www.jiemin.com/'
-    - name: '响石潭'
-      url: 'http://www.chenrui.com'
-    - name: '西枫里'
-      url: 'https://www.anji66.net/'
-    - name: '山野愚人居'
-      url: 'https://www.iyuren.com/'
-    - name: '挨踢路'
-      url: 'https://itlu.net/'
-    - name: 'winegrower'
-      url: 'https://www.winegrower.cn/'
-    - name: '三棵树阁'
-      url: 'http://www.sksren.com/'
-    - name: '天一生水'
-      url: 'https://www.jiangyu.org/'
-    - name: '林海草原'
-      url: 'https://lhcy.org/'
-    - name: '灰常记忆'
-      url: 'https://bestcherish.com/'
-    - name: '灵尘居'
-      url: 'https://lingchenzi.com/'
-    - name: '逆时针博客'
-      url: 'http://www.mydes.top/'
-    - name: 'kn007的个人博客'
-      url: 'https://kn007.net/'
-    - name: '漫漫长路'
-      url: 'https://mmcl.net/'
-    - name: '笔记星球'
-      url: 'https://note-star.cn/'
-    - name: '森木志'
-      url: 'https://oxxx.cn/'
-    - name: 'im Glan'
-      url: 'https://imglan.com/'
-    - name: '明月登楼的博客'
-      url: 'https://www.imydl.com'
-    - name: '惟康前行'
-      url: 'https://www.wkqx.com/'
-    - name: '黑桃三'
-      url: 'https://heitaosan.com/'
-    - name: '甜甜圈'
-      url: 'https://www.cfanlost.com/'
-    - name: '中文博客列表'
-      url: 'https://zhblogs.ohyee.cc/'
-    - name: 'BlogFinder'
-      url: 'https://bf.zzxworld.com/'
-    - name: 'BlogWe'
-      url: 'https://blogwe.com/'
+    - name: "风雨行者"
+      url: "http://stuit.cn"
+    - name: "飞刀博客"
+      url: "https://www.feidaoboke.com"
+    - name: "攻城狮笔记"
+      url: "https://qumac.com/"
+    - name: "Lfhacks"
+      url: "https://www.lfhacks.com"
+    - name: "三无青年"
+      url: "https://www.duanxiansen.com"
+    - name: "品味苏州"
+      url: "https://pwsz.com"
+    - name: "登山亦有道"
+      url: "https://chenyan98.cn"
+    - name: "wlnxing的小窝"
+      url: "https://wlnxing.com/"
+    - name: "JiaYu Blog"
+      url: "https://www.mybabya.com/"
+    - name: "老张博客"
+      url: "https://laozhang.org/"
+    - name: "一介大叔"
+      url: "http://www.winature.com/"
+    - name: "故事的程序猿👨🏻‍💻"
+      url: "https://blog.lichenghao.cn"
+    - name: "记录美好生活"
+      url: "https://hux6.com/"
+    - name: "小陈故事"
+      url: "https://www.chener.net/"
+    - name: "王志勇的BLOG"
+      url: "http://www.auiou.com/"
+    - name: "郑永博客"
+      url: "https://xptt.com/"
+    - name: "佐仔志"
+      url: "https://www.jinbo123.com/"
+    - name: "非学·派"
+      url: "https://fxpai.com/"
+    - name: "黄杰敏的博客"
+      url: "https://www.jiemin.com/"
+    - name: "响石潭"
+      url: "http://www.chenrui.com"
+    - name: "西枫里"
+      url: "https://www.anji66.net/"
+    - name: "山野愚人居"
+      url: "https://www.iyuren.com/"
+    - name: "挨踢路"
+      url: "https://itlu.net/"
+    - name: "winegrower"
+      url: "https://www.winegrower.cn/"
+    - name: "三棵树阁"
+      url: "http://www.sksren.com/"
+    - name: "天一生水"
+      url: "https://www.jiangyu.org/"
+    - name: "林海草原"
+      url: "https://lhcy.org/"
+    - name: "灰常记忆"
+      url: "https://bestcherish.com/"
+    - name: "灵尘居"
+      url: "https://lingchenzi.com/"
+    - name: "逆时针博客"
+      url: "http://www.mydes.top/"
+    - name: "kn007的个人博客"
+      url: "https://kn007.net/"
+    - name: "漫漫长路"
+      url: "https://mmcl.net/"
+    - name: "笔记星球"
+      url: "https://note-star.cn/"
+    - name: "森木志"
+      url: "https://oxxx.cn/"
+    - name: "im Glan"
+      url: "https://imglan.com/"
+    - name: "明月登楼的博客"
+      url: "https://www.imydl.com"
+    - name: "惟康前行"
+      url: "https://www.wkqx.com/"
+    - name: "黑桃三"
+      url: "https://heitaosan.com/"
+    - name: "甜甜圈"
+      url: "https://www.cfanlost.com/"
+    - name: "中文博客列表"
+      url: "https://zhblogs.ohyee.cc/"
+    - name: "BlogFinder"
+      url: "https://bf.zzxworld.com/"
+    - name: "BlogWe"
+      url: "https://blogwe.com/"

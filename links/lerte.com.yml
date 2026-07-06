@@ -1,30 +1,30 @@
 site:
-  name: 'lerte.com'
-  url: 'https://www.lerte.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "lerte.com"
+  url: "https://www.lerte.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Josh W. Comeau'
-      url: 'https://www.joshwcomeau.com/'
-    - name: '微6g'
-      url: 'https://www.v6g.cn'
-    - name: 'liam'
-      url: 'https://aiyang.vercel.app/'
-    - name: 'Yellowwei'
-      url: 'https://hw.yellowwei.cn/'
-    - name: 'Innei'
-      url: 'https://innei.in/'
-    - name: 'Choi Yang'
-      url: 'https://chodocs.cn/'
-    - name: 'Anthony Fu'
-      url: 'https://antfu.me/'
-    - name: 'Dimples'
-      url: 'https://www.dimples.top/'
-    - name: 'ChenNan'
-      url: 'https://heycn.cn/'
-    - name: 'nano71'
-      url: 'https://nano71.com/'
-    - name: 'dy-xiaodong2022'
-      url: 'https://fastjs.dev'
-    - name: 'joisun'
-      url: 'https://sunzy.fun/'
+    - name: "Josh W. Comeau"
+      url: "https://www.joshwcomeau.com/"
+    - name: "微6g"
+      url: "https://www.v6g.cn"
+    - name: "liam"
+      url: "https://aiyang.vercel.app/"
+    - name: "Yellowwei"
+      url: "https://hw.yellowwei.cn/"
+    - name: "Innei"
+      url: "https://innei.in/"
+    - name: "Choi Yang"
+      url: "https://chodocs.cn/"
+    - name: "Anthony Fu"
+      url: "https://antfu.me/"
+    - name: "Dimples"
+      url: "https://www.dimples.top/"
+    - name: "ChenNan"
+      url: "https://heycn.cn/"
+    - name: "nano71"
+      url: "https://nano71.com/"
+    - name: "dy-xiaodong2022"
+      url: "https://fastjs.dev"
+    - name: "joisun"
+      url: "https://sunzy.fun/"

@@ -1,10 +1,10 @@
 site:
-  name: 'matthewshields.co.uk'
-  url: 'https://matthewshields.co.uk/'
-  description: '友情链接'
-  links: '/links'
+  name: "matthewshields.co.uk"
+  url: "https://matthewshields.co.uk/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Netlify CMS'
-      url: 'https://www.netlifycms.org/'
-    - name: 'Ladybug Podcast'
-      url: 'https://ladybug.dev/'
+    - name: "Netlify CMS"
+      url: "https://www.netlifycms.org/"
+    - name: "Ladybug Podcast"
+      url: "https://ladybug.dev/"

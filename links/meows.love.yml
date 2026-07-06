@@ -1,8 +1,8 @@
 site:
-  name: 'meows.love'
-  url: 'https://meows.love/'
-  description: '友情链接'
-  links: '/links'
+  name: "meows.love"
+  url: "https://meows.love/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '@kam'
-      url: 'https://kam.space/'
+    - name: "@kam"
+      url: "https://kam.space/"

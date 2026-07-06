@@ -1,82 +1,82 @@
 site:
-  name: 'ximan.org'
-  url: 'https://ximan.org/'
-  description: '友情链接'
-  links: '/links'
+  name: "ximan.org"
+  url: "https://ximan.org/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '海上铁匠'
-      url: 'http://frogcn.com/'
-    - name: '龙崽视觉'
-      url: 'http://www.longzaivision.com/'
-    - name: '喷饭饭'
-      url: 'http://www.penff.com/'
-    - name: '90后的贼'
-      url: 'http://www.90houblog.cn'
-    - name: 'iamlukas'
-      url: 'http://1ukas.com'
-    - name: '麻烦积点德'
-      url: 'http://qiu.im'
-    - name: 'roger'
-      url: 'http://rengang.org/'
-    - name: 'heson'
-      url: 'http://www.yangluodi.com'
-    - name: 'yesureadmin'
-      url: 'http://yesure.net'
-    - name: 'deardongdong'
-      url: 'http://dongdong.im'
-    - name: 'KARONL'
-      url: 'http://karonl.com'
-    - name: 'climber01'
-      url: 'http://climber01.com'
-    - name: '老大网络'
-      url: 'http://www.yulaoda.com'
-    - name: 'IT大杂烩'
-      url: 'http://www.itdzh.com'
-    - name: 'sailor'
-      url: 'http://sailor521.com'
-    - name: 'Simon'
-      url: 'http://www.fashion-bop.com'
-    - name: 'BenBen'
-      url: 'http://ilcl.me/'
-    - name: 'jamiesoung'
-      url: 'http://www.uedstar.com'
-    - name: '夜半生花'
-      url: 'http://blog.upchchp.net'
-    - name: '闪闪的星'
-      url: 'http://shansing.com'
-    - name: 'lianglau'
-      url: 'http://www.pfv.cc'
-    - name: 'taotao'
-      url: 'http://liuyantao.com'
-    - name: 'Dick_Wu'
-      url: 'http://dickwu.com'
-    - name: 'NONO'
-      url: 'http://50an.com'
-    - name: '草根IT网'
-      url: 'http://www.caogenit.com'
-    - name: 'eric'
-      url: 'http://letgoof.me'
-    - name: 'beyiol'
-      url: 'http://www.beyiol.com'
-    - name: '瑶瑶的一家'
-      url: 'http://www.mapeiyao.cn'
-    - name: 'laozhao'
-      url: 'http://www.zhw-island.com'
-    - name: '自由屋博客'
-      url: 'http://www.ziyouwu.com'
-    - name: '观尔腾'
-      url: 'http://zqted.com'
-    - name: 'W3Cshare'
-      url: 'http://w3cshare.com'
-    - name: 'YangBohan99'
-      url: 'http://wo1999.me'
-    - name: '常阳时光'
-      url: 'http://www.cyatimes.com'
-    - name: '词穷先生'
-      url: 'http://www.cqmr.org'
-    - name: 'skywhat'
-      url: 'http://www.skywhat.com'
-    - name: 'ymckc'
-      url: 'http://ymckc.890m.com'
-    - name: '春熙路'
-      url: 'http://www.465400.net'
+    - name: "海上铁匠"
+      url: "http://frogcn.com/"
+    - name: "龙崽视觉"
+      url: "http://www.longzaivision.com/"
+    - name: "喷饭饭"
+      url: "http://www.penff.com/"
+    - name: "90后的贼"
+      url: "http://www.90houblog.cn"
+    - name: "iamlukas"
+      url: "http://1ukas.com"
+    - name: "麻烦积点德"
+      url: "http://qiu.im"
+    - name: "roger"
+      url: "http://rengang.org/"
+    - name: "heson"
+      url: "http://www.yangluodi.com"
+    - name: "yesureadmin"
+      url: "http://yesure.net"
+    - name: "deardongdong"
+      url: "http://dongdong.im"
+    - name: "KARONL"
+      url: "http://karonl.com"
+    - name: "climber01"
+      url: "http://climber01.com"
+    - name: "老大网络"
+      url: "http://www.yulaoda.com"
+    - name: "IT大杂烩"
+      url: "http://www.itdzh.com"
+    - name: "sailor"
+      url: "http://sailor521.com"
+    - name: "Simon"
+      url: "http://www.fashion-bop.com"
+    - name: "BenBen"
+      url: "http://ilcl.me/"
+    - name: "jamiesoung"
+      url: "http://www.uedstar.com"
+    - name: "夜半生花"
+      url: "http://blog.upchchp.net"
+    - name: "闪闪的星"
+      url: "http://shansing.com"
+    - name: "lianglau"
+      url: "http://www.pfv.cc"
+    - name: "taotao"
+      url: "http://liuyantao.com"
+    - name: "Dick_Wu"
+      url: "http://dickwu.com"
+    - name: "NONO"
+      url: "http://50an.com"
+    - name: "草根IT网"
+      url: "http://www.caogenit.com"
+    - name: "eric"
+      url: "http://letgoof.me"
+    - name: "beyiol"
+      url: "http://www.beyiol.com"
+    - name: "瑶瑶的一家"
+      url: "http://www.mapeiyao.cn"
+    - name: "laozhao"
+      url: "http://www.zhw-island.com"
+    - name: "自由屋博客"
+      url: "http://www.ziyouwu.com"
+    - name: "观尔腾"
+      url: "http://zqted.com"
+    - name: "W3Cshare"
+      url: "http://w3cshare.com"
+    - name: "YangBohan99"
+      url: "http://wo1999.me"
+    - name: "常阳时光"
+      url: "http://www.cyatimes.com"
+    - name: "词穷先生"
+      url: "http://www.cqmr.org"
+    - name: "skywhat"
+      url: "http://www.skywhat.com"
+    - name: "ymckc"
+      url: "http://ymckc.890m.com"
+    - name: "春熙路"
+      url: "http://www.465400.net"

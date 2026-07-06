@@ -1,88 +1,88 @@
 site:
-  name: 'blog.xindu.site'
-  url: 'https://blog.xindu.site/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.xindu.site"
+  url: "https://blog.xindu.site/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Runway Runway - Advancing creativity with artificial intellige'
-      url: 'https://runwayml.com/'
-    - name: 'Clipdrop Create stunning visuals in seconds with AI.'
-      url: 'https://clipdrop.co/'
-    - name: 'Soundboard - TUNA - Download Unlimited Free Meme Sounds Build'
-      url: 'https://tuna.voicemod.net/'
-    - name: 'MaxAI.me: Chat with any webpage. Read faster. Write better. Su'
-      url: 'https://www.maxai.me/'
-    - name: 'Domain Site - Carol·Site 站点展示'
-      url: 'https://cnkj.site'
-    - name: 'TIMEGRAPHICS 免费的时间线流程图制作'
-      url: 'https://time.graphics'
-    - name: 'WebP Cloud Services Cache'
-      url: 'https://webp.se'
-    - name: 'Coverview Creating cover images for your blogs is now super ea'
-      url: 'https://coverview.vercel.app/'
-    - name: 'iconify iconify.design'
-      url: 'https://icon-sets.iconify.design/'
-    - name: '小张同学 这里记录了小张同学遇到的问题的解决方法，小张的学习笔记等等，有问题欢迎大家探讨'
-      url: 'https://blog.xiaozhangstu.com/'
-    - name: '回忆航 回忆航线是个人维护站点，用于分享个人日常分享'
-      url: 'https://kunkunyu.com'
-    - name: '铭心石刻 - 愿岁并谢，与友长兮 欢迎来到铭心石刻，这是一个汇集科技生活、文化艺术和折腾劲的博客。座右铭意味着我们珍视岁月的'
-      url: 'https://blog.kouseki.cn/'
-    - name: '皮皮虎技术博客 技术博客,简洁至上。'
-      url: 'https://www.pipihublog.com'
-    - name: '阿狸鹿丫 - Aliluya Blog Aliluya，阿狸鹿丫的博客，这是一个分享建站经验与有趣的事物和生活的博客，同时结'
-      url: 'https://blog.aliluya.com'
-    - name: '楠笙 空谈误国，实干兴邦'
-      url: 'https://blog.nanshengwx.cn/'
-    - name: 'Anyeの小站 探索 Anyeの小站 (Anye.xyz) - 开放，技术性的个人博客，欢迎各位访客的到来！这是一个发现创意'
-      url: 'https://www.anye.xyz'
-    - name: '云深不知处 - 不食人间烟火 且饮半杯风霜 不食人间烟火 且饮半杯风霜'
-      url: 'https://www.lanzlz.cn'
-    - name: 'YOLOのBLOG You Only Live Once'
-      url: 'https://blog.felicx.eu.org'
-    - name: 'Jiewen’blog 行动起来，活在当下'
-      url: 'https://www.jiewen.run'
-    - name: 'Chenli 记录生活,分享生活'
-      url: 'https://www.chenliss.cn/'
-    - name: '知行博客 技术分享与生活'
-      url: 'https://zxalive.com/'
-    - name: '星河拾光-小王 探索技术世界，记录生活点滴。'
-      url: 'https://www.bytecode.ink'
-    - name: '暴躁程序猿的小破站 一个暴躁程序猿的叽叽歪歪。'
-      url: 'https://www.lycoris.cloud'
-    - name: '慕怀夕 蓦然回首，常怀此夕'
-      url: 'https://blog.520335.xyz'
-    - name: '阿锦在线 记录生活点滴'
-      url: 'https://www.ajinol.com'
-    - name: 'sky博客 一个热衷于分享知识的博客'
-      url: 'https://www.5ee.net'
-    - name: 'Allen的小破站 还有很多故事，想在这里讲给你听。'
-      url: 'https://www.xiaode.tech/'
-    - name: '执着于心|念念不忘 执着于心|念念不忘'
-      url: 'https://zhinian.vip/'
-    - name: 'kissthisrain小站 记录&分享'
-      url: 'https://www.kissthisrain.cn/'
-    - name: 'Crant 用心记录，美好生活。'
-      url: 'https://www.crant.cn'
-    - name: '故河TTL 故河TTL - 分享技术与生活'
-      url: 'https://blog.beyondsky.site'
-    - name: '無.Flac''s Blog Indulge in Sound Effects'
-      url: 'https://w-flac.org.cn/'
-    - name: 'Roozen的小破站 - 一只小菜计 Roozen的小破站'
-      url: 'https://roozen.top'
-    - name: '小橙子 🌞日落归山海，山海藏深意🙆‍♂️'
-      url: 'https://anorange.icu'
-    - name: '旅者Bin - 探索 | 实践 | 记录 | 分享 一个土木佬的博客'
-      url: 'https://blog.101jc.com/'
-    - name: '南山南の小站 记录生活和技术分享'
-      url: 'https://blog.ciyuanshe.top'
-    - name: '倾雨 小窝 - 莫听穿林打叶声，何妨吟啸且徐行。 一个后端程序员的博客'
-      url: 'http://blog.yuxiaocn.site'
-    - name: '蒲公英阁 - 愿你的人生像蒲公英一样绽放~ 愿你的人生像蒲公英一样绽放~'
-      url: 'https://ihxx.cc/'
-    - name: 'MZKKK 记录生活点滴！'
-      url: 'https://mzkkk.com'
-    - name: '我&们 构建一个属于程序员的浪漫世界'
-      url: 'https://shanpf.com/'
-    - name: 'Zyx | 专注于笔记、分享的博客 专注于笔记、分享的博客'
-      url: 'https://blog.zyx-2012.cn/'
+    - name: "Runway Runway - Advancing creativity with artificial intellige"
+      url: "https://runwayml.com/"
+    - name: "Clipdrop Create stunning visuals in seconds with AI."
+      url: "https://clipdrop.co/"
+    - name: "Soundboard - TUNA - Download Unlimited Free Meme Sounds Build"
+      url: "https://tuna.voicemod.net/"
+    - name: "MaxAI.me: Chat with any webpage. Read faster. Write better. Su"
+      url: "https://www.maxai.me/"
+    - name: "Domain Site - Carol·Site 站点展示"
+      url: "https://cnkj.site"
+    - name: "TIMEGRAPHICS 免费的时间线流程图制作"
+      url: "https://time.graphics"
+    - name: "WebP Cloud Services Cache"
+      url: "https://webp.se"
+    - name: "Coverview Creating cover images for your blogs is now super ea"
+      url: "https://coverview.vercel.app/"
+    - name: "iconify iconify.design"
+      url: "https://icon-sets.iconify.design/"
+    - name: "小张同学 这里记录了小张同学遇到的问题的解决方法，小张的学习笔记等等，有问题欢迎大家探讨"
+      url: "https://blog.xiaozhangstu.com/"
+    - name: "回忆航 回忆航线是个人维护站点，用于分享个人日常分享"
+      url: "https://kunkunyu.com"
+    - name: "铭心石刻 - 愿岁并谢，与友长兮 欢迎来到铭心石刻，这是一个汇集科技生活、文化艺术和折腾劲的博客。座右铭意味着我们珍视岁月的"
+      url: "https://blog.kouseki.cn/"
+    - name: "皮皮虎技术博客 技术博客,简洁至上。"
+      url: "https://www.pipihublog.com"
+    - name: "阿狸鹿丫 - Aliluya Blog Aliluya，阿狸鹿丫的博客，这是一个分享建站经验与有趣的事物和生活的博客，同时结"
+      url: "https://blog.aliluya.com"
+    - name: "楠笙 空谈误国，实干兴邦"
+      url: "https://blog.nanshengwx.cn/"
+    - name: "Anyeの小站 探索 Anyeの小站 (Anye.xyz) - 开放，技术性的个人博客，欢迎各位访客的到来！这是一个发现创意"
+      url: "https://www.anye.xyz"
+    - name: "云深不知处 - 不食人间烟火 且饮半杯风霜 不食人间烟火 且饮半杯风霜"
+      url: "https://www.lanzlz.cn"
+    - name: "YOLOのBLOG You Only Live Once"
+      url: "https://blog.felicx.eu.org"
+    - name: "Jiewen’blog 行动起来，活在当下"
+      url: "https://www.jiewen.run"
+    - name: "Chenli 记录生活,分享生活"
+      url: "https://www.chenliss.cn/"
+    - name: "知行博客 技术分享与生活"
+      url: "https://zxalive.com/"
+    - name: "星河拾光-小王 探索技术世界，记录生活点滴。"
+      url: "https://www.bytecode.ink"
+    - name: "暴躁程序猿的小破站 一个暴躁程序猿的叽叽歪歪。"
+      url: "https://www.lycoris.cloud"
+    - name: "慕怀夕 蓦然回首，常怀此夕"
+      url: "https://blog.520335.xyz"
+    - name: "阿锦在线 记录生活点滴"
+      url: "https://www.ajinol.com"
+    - name: "sky博客 一个热衷于分享知识的博客"
+      url: "https://www.5ee.net"
+    - name: "Allen的小破站 还有很多故事，想在这里讲给你听。"
+      url: "https://www.xiaode.tech/"
+    - name: "执着于心|念念不忘 执着于心|念念不忘"
+      url: "https://zhinian.vip/"
+    - name: "kissthisrain小站 记录&分享"
+      url: "https://www.kissthisrain.cn/"
+    - name: "Crant 用心记录，美好生活。"
+      url: "https://www.crant.cn"
+    - name: "故河TTL 故河TTL - 分享技术与生活"
+      url: "https://blog.beyondsky.site"
+    - name: "無.Flac's Blog Indulge in Sound Effects"
+      url: "https://w-flac.org.cn/"
+    - name: "Roozen的小破站 - 一只小菜计 Roozen的小破站"
+      url: "https://roozen.top"
+    - name: "小橙子 🌞日落归山海，山海藏深意🙆‍♂️"
+      url: "https://anorange.icu"
+    - name: "旅者Bin - 探索 | 实践 | 记录 | 分享 一个土木佬的博客"
+      url: "https://blog.101jc.com/"
+    - name: "南山南の小站 记录生活和技术分享"
+      url: "https://blog.ciyuanshe.top"
+    - name: "倾雨 小窝 - 莫听穿林打叶声，何妨吟啸且徐行。 一个后端程序员的博客"
+      url: "http://blog.yuxiaocn.site"
+    - name: "蒲公英阁 - 愿你的人生像蒲公英一样绽放~ 愿你的人生像蒲公英一样绽放~"
+      url: "https://ihxx.cc/"
+    - name: "MZKKK 记录生活点滴！"
+      url: "https://mzkkk.com"
+    - name: "我&们 构建一个属于程序员的浪漫世界"
+      url: "https://shanpf.com/"
+    - name: "Zyx | 专注于笔记、分享的博客 专注于笔记、分享的博客"
+      url: "https://blog.zyx-2012.cn/"

@@ -1,20 +1,20 @@
 site:
-  name: 'next-cat.com'
-  url: 'https://next-cat.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "next-cat.com"
+  url: "https://next-cat.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'A Moment''s Rest AMoment 的 Blog'
-      url: 'https://a-moment096.github.io/'
-    - name: '沉渊覆雪 - 繁华不复 愿走向深渊的旅途里可以遇见无限美好'
-      url: 'https://0o0.codeberg.page/'
-    - name: 'lhz07''s Blog Explicit is better than implicit, but readabi'
-      url: 'https://lhz07.com'
-    - name: 'CatBox'
-      url: 'https://mahiro.ink'
-    - name: 'CLoverta的博客'
-      url: 'https://blog.cloverta.top'
-    - name: 'Remik1r3n Blog Remi 的 Blog'
-      url: 'https://blog.remiki.ren'
-    - name: 'StarAir'
-      url: 'https://starair.ltd'
+    - name: "A Moment's Rest AMoment 的 Blog"
+      url: "https://a-moment096.github.io/"
+    - name: "沉渊覆雪 - 繁华不复 愿走向深渊的旅途里可以遇见无限美好"
+      url: "https://0o0.codeberg.page/"
+    - name: "lhz07's Blog Explicit is better than implicit, but readabi"
+      url: "https://lhz07.com"
+    - name: "CatBox"
+      url: "https://mahiro.ink"
+    - name: "CLoverta的博客"
+      url: "https://blog.cloverta.top"
+    - name: "Remik1r3n Blog Remi 的 Blog"
+      url: "https://blog.remiki.ren"
+    - name: "StarAir"
+      url: "https://starair.ltd"

@@ -1,12 +1,12 @@
 site:
-  name: 'benji.dog'
-  url: 'https://www.benji.dog/'
-  description: '友情链接'
-  links: '/links'
+  name: "benji.dog"
+  url: "https://www.benji.dog/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Walkman.land'
-      url: 'https://walkman.land/'
-    - name: 'shellsharks'
-      url: 'https://shellsharks.com'
-    - name: 'Reilly Spitzfaden'
-      url: 'https://reillyspitzfaden.com'
+    - name: "Walkman.land"
+      url: "https://walkman.land/"
+    - name: "shellsharks"
+      url: "https://shellsharks.com"
+    - name: "Reilly Spitzfaden"
+      url: "https://reillyspitzfaden.com"

@@ -1,16 +1,16 @@
 site:
-  name: 'haakon.dev'
-  url: 'https://haakon.dev/'
-  description: '友情链接'
-  links: '/'
+  name: "haakon.dev"
+  url: "https://haakon.dev/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Open'
-      url: 'https://neddi.com'
-    - name: 'Open'
-      url: 'https://buildr-labs-web.vercel.app'
-    - name: 'Open'
-      url: 'https://koding.no'
-    - name: 'Open'
-      url: 'https://rtk-query-loader.ryfylke.dev'
-    - name: 'Open'
-      url: 'https://ryfylke.dev'
+    - name: "Open"
+      url: "https://neddi.com"
+    - name: "Open"
+      url: "https://buildr-labs-web.vercel.app"
+    - name: "Open"
+      url: "https://koding.no"
+    - name: "Open"
+      url: "https://rtk-query-loader.ryfylke.dev"
+    - name: "Open"
+      url: "https://ryfylke.dev"

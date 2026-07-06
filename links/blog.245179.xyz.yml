@@ -1,96 +1,96 @@
 site:
-  name: 'blog.245179.xyz'
-  url: 'https://blog.245179.xyz/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.245179.xyz"
+  url: "https://blog.245179.xyz/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '阿呆分享学习有趣的知识'
-      url: 'https://adaiblog.github.io'
-    - name: 'AOKAOKAのblog不经一事，不长一智。'
-      url: 'https://www.aokaoka.top/'
-    - name: '布丁の小窝一个有梦想的咸鱼'
-      url: 'https://www.furryowo.top/'
-    - name: '辞入森川辞尽俗世纷扰，只身步入森与川。'
-      url: 'https://yuluo.xyz/'
-    - name: 'Creeper005の小站坐牢日常'
-      url: 'https://normal.qrasa.top/'
-    - name: 'Cysime Moflu再不会遇见第二个时光'
-      url: 'https://blog.cysi.me'
-    - name: 'fishcpy的小破站非淡泊无以明志，非宁静无以致远'
-      url: 'https://blog.fis.ink'
-    - name: 'GoodBoyboy''s Blog惬意小屋 - 点滴记忆'
-      url: 'https://blog.goodboyboy.top/'
-    - name: 'Hello I''m 0o酱光阴如梦，昨日随风'
-      url: 'https://blog.im0o.top/'
-    - name: '孤熵小狼趁年轻，多闯荡'
-      url: 'https://blog.furen.link'
-    - name: '幻想の日常心随幻想，梦行无疆'
-      url: 'https://blog.someo.top'
-    - name: '竟何写给你的长信'
-      url: 'https://lylelove.top/'
-    - name: '雷顿其实一个人足够热烈，也能点燃另一个人。'
-      url: 'https://blog.houman.top'
-    - name: '猎空のBlog一只狼龙的仓库'
-      url: 'https://blog.lie-kong.top'
-    - name: '林泽凯的小站阳光开朗大狼狼'
-      url: 'https://www.linzekai.cn/'
-    - name: '陆小启Kairo往者不谏，来者可追'
-      url: 'https://blog.zonox.top/'
-    - name: 'LynxCatTheThird我是山猫三号，一个来自一百零三世纪的强人工智能。'
-      url: 'https://www.lynx3.me/'
-    - name: '梦爱吃鱼但愿日子清静抬头遇见的满是柔情'
-      url: 'https://blog.bsgun.cn/'
-    - name: 'Mete0r''s Blog | 壹人小站Trust the process.'
-      url: 'https://www.xscnet.cn/'
-    - name: 'Mo的记事簿万年鸽王，哈哈OvO'
-      url: 'https://blog.xiowo.net/'
-    - name: 'Moziの魔法小屋如果你遇到太阳而落泪,你也将错过群星'
-      url: 'http://mozi-ai.xyz/'
-    - name: '沫泽的小站一个技术宅的小窝'
-      url: 'https://blog.pmoze.top/'
-    - name: 'CcoMm你要吃C4吗？'
-      url: 'https://blog.ccomm.top/'
-    - name: 'Noah''s blog努力去发光，而不是被照亮'
-      url: 'https://blog.noah0932.top'
-    - name: 'PeterJXL从 01 开始'
-      url: 'https://www.peterjxl.com'
-    - name: '清羽飞扬柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜'
-      url: 'https://blog.liushen.fun/'
-    - name: 'Qrasa的小站记录一些活着的日常'
-      url: 'https://blog.qrasa.cn/'
-    - name: 'Sakitami 的集装箱我已经无敌了！'
-      url: 'https://blog.skihome.xyz'
-    - name: '沈幼楚の小窝天真永不消逝，浪漫至死不渝.'
-      url: 'https://blog.shenyouchu.cn/'
-    - name: '胜天半子事已至此，先吃饭吧😋'
-      url: 'https://blog.291055.xyz/'
-    - name: '糖菓·部落Never drown the flame of hope'
-      url: 'https://candinya.com'
-    - name: 'Watermelonabc的Blog需要记点什么东西'
-      url: 'https://watermelonabc.top/'
-    - name: '雾林博客不敢奢求活在梦中，但依然向往梦中世界'
-      url: 'https://www.baiwulin.com'
-    - name: '无名博客一个无聊的人罢了'
-      url: 'https://wuminboke.site/'
-    - name: '万事屋日记每天写下自己的喜好'
-      url: 'https://yuazhi.cn/'
-    - name: '夏枫的猫窝w一只会敲代码的笨笨猫咪xmx'
-      url: 'https://blog.mcxiafeng.top'
-    - name: '小亮的部落阁欲望以提升热忱，毅力以磨平高山'
-      url: 'https://blog.752132.xyz/'
-    - name: 'XingJiのBlog迄今所有人生都大写着失败，但不妨碍我继续向前✨'
-      url: 'https://love.xingji.fun/'
-    - name: 'XME Notes Libraryxzadudu179的小窝'
-      url: 'https://blog.xzadudu179.top'
-    - name: '晓寒の互联网自留之地醉后不知天在水，满船清梦压星河'
-      url: 'https://blog.xiaohan-kaka.top/'
-    - name: 'Yang''s BlogMake a dent in the universe.'
-      url: 'https://kaeshi.top/'
-    - name: '夜白的博客Live Today,Love Tomorrow,Unite,Forever.'
-      url: 'https://blog.yebaiwn.top'
-    - name: '阳帆の小窝黄鹤一去不复返，白云千载空悠悠'
-      url: 'https://blog.wolfyang.fan'
-    - name: '幽狐阁幽狐息地-希望暗尘'
-      url: 'https://youhuge.site/'
-    - name: '中二病晚期の物語一只狐狸敲出的一个奇迹'
-      url: 'https://imfurry.com'
+    - name: "阿呆分享学习有趣的知识"
+      url: "https://adaiblog.github.io"
+    - name: "AOKAOKAのblog不经一事，不长一智。"
+      url: "https://www.aokaoka.top/"
+    - name: "布丁の小窝一个有梦想的咸鱼"
+      url: "https://www.furryowo.top/"
+    - name: "辞入森川辞尽俗世纷扰，只身步入森与川。"
+      url: "https://yuluo.xyz/"
+    - name: "Creeper005の小站坐牢日常"
+      url: "https://normal.qrasa.top/"
+    - name: "Cysime Moflu再不会遇见第二个时光"
+      url: "https://blog.cysi.me"
+    - name: "fishcpy的小破站非淡泊无以明志，非宁静无以致远"
+      url: "https://blog.fis.ink"
+    - name: "GoodBoyboy's Blog惬意小屋 - 点滴记忆"
+      url: "https://blog.goodboyboy.top/"
+    - name: "Hello I'm 0o酱光阴如梦，昨日随风"
+      url: "https://blog.im0o.top/"
+    - name: "孤熵小狼趁年轻，多闯荡"
+      url: "https://blog.furen.link"
+    - name: "幻想の日常心随幻想，梦行无疆"
+      url: "https://blog.someo.top"
+    - name: "竟何写给你的长信"
+      url: "https://lylelove.top/"
+    - name: "雷顿其实一个人足够热烈，也能点燃另一个人。"
+      url: "https://blog.houman.top"
+    - name: "猎空のBlog一只狼龙的仓库"
+      url: "https://blog.lie-kong.top"
+    - name: "林泽凯的小站阳光开朗大狼狼"
+      url: "https://www.linzekai.cn/"
+    - name: "陆小启Kairo往者不谏，来者可追"
+      url: "https://blog.zonox.top/"
+    - name: "LynxCatTheThird我是山猫三号，一个来自一百零三世纪的强人工智能。"
+      url: "https://www.lynx3.me/"
+    - name: "梦爱吃鱼但愿日子清静抬头遇见的满是柔情"
+      url: "https://blog.bsgun.cn/"
+    - name: "Mete0r's Blog | 壹人小站Trust the process."
+      url: "https://www.xscnet.cn/"
+    - name: "Mo的记事簿万年鸽王，哈哈OvO"
+      url: "https://blog.xiowo.net/"
+    - name: "Moziの魔法小屋如果你遇到太阳而落泪,你也将错过群星"
+      url: "http://mozi-ai.xyz/"
+    - name: "沫泽的小站一个技术宅的小窝"
+      url: "https://blog.pmoze.top/"
+    - name: "CcoMm你要吃C4吗？"
+      url: "https://blog.ccomm.top/"
+    - name: "Noah's blog努力去发光，而不是被照亮"
+      url: "https://blog.noah0932.top"
+    - name: "PeterJXL从 01 开始"
+      url: "https://www.peterjxl.com"
+    - name: "清羽飞扬柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
+      url: "https://blog.liushen.fun/"
+    - name: "Qrasa的小站记录一些活着的日常"
+      url: "https://blog.qrasa.cn/"
+    - name: "Sakitami 的集装箱我已经无敌了！"
+      url: "https://blog.skihome.xyz"
+    - name: "沈幼楚の小窝天真永不消逝，浪漫至死不渝."
+      url: "https://blog.shenyouchu.cn/"
+    - name: "胜天半子事已至此，先吃饭吧😋"
+      url: "https://blog.291055.xyz/"
+    - name: "糖菓·部落Never drown the flame of hope"
+      url: "https://candinya.com"
+    - name: "Watermelonabc的Blog需要记点什么东西"
+      url: "https://watermelonabc.top/"
+    - name: "雾林博客不敢奢求活在梦中，但依然向往梦中世界"
+      url: "https://www.baiwulin.com"
+    - name: "无名博客一个无聊的人罢了"
+      url: "https://wuminboke.site/"
+    - name: "万事屋日记每天写下自己的喜好"
+      url: "https://yuazhi.cn/"
+    - name: "夏枫的猫窝w一只会敲代码的笨笨猫咪xmx"
+      url: "https://blog.mcxiafeng.top"
+    - name: "小亮的部落阁欲望以提升热忱，毅力以磨平高山"
+      url: "https://blog.752132.xyz/"
+    - name: "XingJiのBlog迄今所有人生都大写着失败，但不妨碍我继续向前✨"
+      url: "https://love.xingji.fun/"
+    - name: "XME Notes Libraryxzadudu179的小窝"
+      url: "https://blog.xzadudu179.top"
+    - name: "晓寒の互联网自留之地醉后不知天在水，满船清梦压星河"
+      url: "https://blog.xiaohan-kaka.top/"
+    - name: "Yang's BlogMake a dent in the universe."
+      url: "https://kaeshi.top/"
+    - name: "夜白的博客Live Today,Love Tomorrow,Unite,Forever."
+      url: "https://blog.yebaiwn.top"
+    - name: "阳帆の小窝黄鹤一去不复返，白云千载空悠悠"
+      url: "https://blog.wolfyang.fan"
+    - name: "幽狐阁幽狐息地-希望暗尘"
+      url: "https://youhuge.site/"
+    - name: "中二病晚期の物語一只狐狸敲出的一个奇迹"
+      url: "https://imfurry.com"

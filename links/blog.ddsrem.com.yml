@@ -1,16 +1,16 @@
 site:
-  name: 'blog.ddsrem.com'
-  url: 'https://blog.ddsrem.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.ddsrem.com"
+  url: "https://blog.ddsrem.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '浮云翩迁之间 百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。'
-      url: 'https://blognas.hwb0307.com'
-    - name: '李铭博的博客 笃志齐心致广大，慎思明辨尽精微'
-      url: 'https://limingbo2008.github.io'
-    - name: '夜法之书 嵌入式，Linux Kernel&Driver, PT, Docker, Nas等等'
-      url: 'https://blog.17lai.site'
-    - name: 'LuckyPuppy514的个人博客 分享有趣实用的软件折腾经验'
-      url: 'https://www.lckp.top/'
-    - name: 'KAAAsS''s blog 他还没有自我介绍呢'
-      url: 'https://blog.kaaass.net/'
+    - name: "浮云翩迁之间 百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。"
+      url: "https://blognas.hwb0307.com"
+    - name: "李铭博的博客 笃志齐心致广大，慎思明辨尽精微"
+      url: "https://limingbo2008.github.io"
+    - name: "夜法之书 嵌入式，Linux Kernel&Driver, PT, Docker, Nas等等"
+      url: "https://blog.17lai.site"
+    - name: "LuckyPuppy514的个人博客 分享有趣实用的软件折腾经验"
+      url: "https://www.lckp.top/"
+    - name: "KAAAsS's blog 他还没有自我介绍呢"
+      url: "https://blog.kaaass.net/"

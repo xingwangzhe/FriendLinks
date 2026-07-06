@@ -1,10 +1,10 @@
 site:
-  name: 'anzifan.com'
-  description: '友情链接'
-  url: 'https://anzifan.com/'
-  links: '/friends'
+  name: "anzifan.com"
+  description: "友情链接"
+  url: "https://anzifan.com/"
+  links: "/friends"
   friends:
-    - name: 'notion'
-      url: 'https://developers.notion.com'
-    - name: 'windicss'
-      url: 'https://windicss.org'
+    - name: "notion"
+      url: "https://developers.notion.com"
+    - name: "windicss"
+      url: "https://windicss.org"

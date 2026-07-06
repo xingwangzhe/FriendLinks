@@ -1,56 +1,56 @@
 site:
-  name: 'Rawley'
-  url: 'https://rawley2025.xyz/'
-  description: '友情链接'
-  links: '/links'
+  name: "Rawley"
+  url: "https://rawley2025.xyz/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '安知鱼 生活明朗，万物可爱'
-      url: 'https://blog.anheyu.com/'
-    - name: 'TangShiMei的小空间 想和你重新认识一次，从你叫什么开始'
-      url: 'https://blog.224418.xyz/'
-    - name: 'Sun Boy''s Blog 一个不有趣的网站'
-      url: 'https://www.sunboy.ltd/'
-    - name: 'Xuan''s blog 分享技术教程和学习笔记'
-      url: 'https://blog.ybyq.wang/'
-    - name: '陶小桃Blog 热衷于分享日常和技术的机械专业小哥哥~'
-      url: 'https://www.52txr.cn'
-    - name: 'Young143 Blog 我不舍得为将来的难测放弃当下这一刻.'
-      url: 'https://www.young143.top/'
-    - name: '小聂的窝 一个简单纯粹的个人分享空间'
-      url: 'https://xiaonie.me'
-    - name: '冷汐 雨敲窗棂碎，枕上听秋声'
-      url: 'https://www.shang.ac.cn/'
-    - name: '我的小破站 解锁未知，乐享已知。'
-      url: 'https://www.qiezechuan.cn'
-    - name: '清羽飞扬 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜'
-      url: 'https://blog.liushen.fun/'
-    - name: '短巷与雨 为学日益，为道日损'
-      url: 'https://www.hudi.space'
-    - name: 'UTree 记录所思、所见与所学'
-      url: 'https://utree.fun'
-    - name: 'Ariasakaの小窝 人有悲欢离合 月有阴晴圆缺'
-      url: 'https://blog.yaria.top'
-    - name: 'LimeBit 无限进步'
-      url: 'https://blog.georgewu.top'
-    - name: '六小时之外 编程小白，不怕困难'
-      url: 'https://meytao.top/'
-    - name: '刘郎阁 一个积极向上的生活探索者！'
-      url: 'https://vjo.cc/'
-    - name: 'Damonz_ZhangのBlog 于万千星光沉溺'
-      url: 'https://blog.damonz.cn'
-    - name: '库拉饭 一个喜欢折腾电子产品的影视工作者'
-      url: 'https://www.kulafan.com/'
-    - name: 'haohang 承诺不值钱, 做个言而有信的人太难了'
-      url: 'https://www.shimmerl.top'
-    - name: 'Zeruns''s Blog 爱折腾软件和硬件的技术宅'
-      url: 'https://blog.zeruns.com'
-    - name: '周天记 记录生活里的小美好'
-      url: 'https://zhoutian.com'
-    - name: 'kissthisrain 前方的路途很遥远，加油'
-      url: 'https://www.kissthisrain.cn'
-    - name: 'MuXiaoChen🍊 No pains, no gains.'
-      url: 'https://miraii.cn/'
-    - name: 'sun_xf 里面有什么呢~好难猜 快点进来看看吧（滑稽）'
-      url: 'https://sunxuanfeng.top'
-    - name: '楠枝小笺 安安静静地存在，就已经很好啦。'
-      url: 'https://www.nannax.top'
+    - name: "安知鱼 生活明朗，万物可爱"
+      url: "https://blog.anheyu.com/"
+    - name: "TangShiMei的小空间 想和你重新认识一次，从你叫什么开始"
+      url: "https://blog.224418.xyz/"
+    - name: "Sun Boy's Blog 一个不有趣的网站"
+      url: "https://www.sunboy.ltd/"
+    - name: "Xuan's blog 分享技术教程和学习笔记"
+      url: "https://blog.ybyq.wang/"
+    - name: "陶小桃Blog 热衷于分享日常和技术的机械专业小哥哥~"
+      url: "https://www.52txr.cn"
+    - name: "Young143 Blog 我不舍得为将来的难测放弃当下这一刻."
+      url: "https://www.young143.top/"
+    - name: "小聂的窝 一个简单纯粹的个人分享空间"
+      url: "https://xiaonie.me"
+    - name: "冷汐 雨敲窗棂碎，枕上听秋声"
+      url: "https://www.shang.ac.cn/"
+    - name: "我的小破站 解锁未知，乐享已知。"
+      url: "https://www.qiezechuan.cn"
+    - name: "清羽飞扬 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
+      url: "https://blog.liushen.fun/"
+    - name: "短巷与雨 为学日益，为道日损"
+      url: "https://www.hudi.space"
+    - name: "UTree 记录所思、所见与所学"
+      url: "https://utree.fun"
+    - name: "Ariasakaの小窝 人有悲欢离合 月有阴晴圆缺"
+      url: "https://blog.yaria.top"
+    - name: "LimeBit 无限进步"
+      url: "https://blog.georgewu.top"
+    - name: "六小时之外 编程小白，不怕困难"
+      url: "https://meytao.top/"
+    - name: "刘郎阁 一个积极向上的生活探索者！"
+      url: "https://vjo.cc/"
+    - name: "Damonz_ZhangのBlog 于万千星光沉溺"
+      url: "https://blog.damonz.cn"
+    - name: "库拉饭 一个喜欢折腾电子产品的影视工作者"
+      url: "https://www.kulafan.com/"
+    - name: "haohang 承诺不值钱, 做个言而有信的人太难了"
+      url: "https://www.shimmerl.top"
+    - name: "Zeruns's Blog 爱折腾软件和硬件的技术宅"
+      url: "https://blog.zeruns.com"
+    - name: "周天记 记录生活里的小美好"
+      url: "https://zhoutian.com"
+    - name: "kissthisrain 前方的路途很遥远，加油"
+      url: "https://www.kissthisrain.cn"
+    - name: "MuXiaoChen🍊 No pains, no gains."
+      url: "https://miraii.cn/"
+    - name: "sun_xf 里面有什么呢~好难猜 快点进来看看吧（滑稽）"
+      url: "https://sunxuanfeng.top"
+    - name: "楠枝小笺 安安静静地存在，就已经很好啦。"
+      url: "https://www.nannax.top"

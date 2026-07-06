@@ -1,164 +1,164 @@
 site:
-  name: 'Linwood'
-  url: 'https://linwood.neocities.org/'
-  description: 'my personal site for art, ecology, and whatever else interests me. explore the f'
-  links: '/links'
+  name: "Linwood"
+  url: "https://linwood.neocities.org/"
+  description: "my personal site for art, ecology, and whatever else interests me. explore the f"
+  links: "/links"
   friends:
-    - name: 'Ashton'
-      url: 'https://aiston.scungled.gay/'
-    - name: 'We can run away together!'
-      url: 'https://alphacentauri.neocities.org/'
-    - name: 'ANDOU'
-      url: 'https://andou.gay/'
-    - name: 'Bechno Kid's Hideout'
-      url: 'https://bechnokid.neocities.org/'
-    - name: 'Welcome to CAMINUS'
-      url: 'https://caminus.quest/'
-    - name: 'Cₕₐₒₜᵢc Gₒₒdₙₑₛₛ'
-      url: 'https://chaoticgoodness.neocities.org/'
-    - name: 'CHEAPCORE'
-      url: 'https://cheapycore.com/'
-    - name: 'The Chillzone'
-      url: 'https://thechillzone.neocities.org/'
-    - name: 'Cinnamuff's Galaxy!'
-      url: 'https://cinnamuff.neocities.org/'
-    - name: 'c l o u d c o v e r'
-      url: 'https://cloudcover.neocities.org/'
-    - name: 'corow.net'
-      url: 'https://corow.net/'
-    - name: 'The Hartwood'
-      url: 'https://crypticcryptid.neocities.org/'
-    - name: 'Dryad Glen'
-      url: 'https://cyberneticdryad.neocities.org/'
-    - name: 'derrek.org'
-      url: 'https://derrek.org/'
-    - name: 'the doll archive (wip)'
-      url: 'https://dollarchive.neocities.org/'
-    - name: 'des' digital journal'
-      url: 'https://doqmeat.com/'
-    - name: 'CSS, Fandom, and Nonsense'
-      url: 'https://eggramen.neocities.org/'
-    - name: 'draco's super swag website thingy'
-      url: 'https://theenderdraco.neocities.org/'
-    - name: 'DAYDREAM STATION'
-      url: 'https://epicfranb.neocities.org/'
-    - name: 'equisett'
-      url: 'https://equisett.nekoweb.org/'
-    - name: '▷ ESPY.WORLD ◁'
-      url: 'https://espy.world/'
-    - name: 'hello?'
-      url: 'https://faintlymacabre.neocities.org/'
-    - name: 'fearoffun'
-      url: 'https://fearoffun.neocities.org/'
-    - name: 'The Great Shrimp Migration'
-      url: 'https://fizzsea.neocities.org/'
-    - name: 'The Frugal Gamer . Net'
-      url: 'https://www.thefrugalgamer.net/'
-    - name: 'garbage town ɞ ₊˚⊹♡'
-      url: 'https://garbagedeity.neocities.org/'
-    - name: 'the garden of madeline'
-      url: 'https://thegardenofmadeline.neocities.org/'
-    - name: 'a bait shop? ...in space?'
-      url: 'https://garfriend.me/'
-    - name: 'welcome to hill house'
-      url: 'https://hillhouse.neocities.org/'
-    - name: '❀ F A I R Y L A N D ❀'
-      url: 'https://inkcaps.neocities.org/'
-    - name: 'memoria'
-      url: 'https://finalfantasyix.neocities.org/'
-    - name: 'kero.gay'
-      url: 'https://kero.gay/'
-    - name: 'lazybones'
-      url: 'https://lazybones.neocities.org/'
-    - name: 'the swamp'
-      url: 'https://lindentea.neocities.org/'
-    - name: 'Lost Letters'
-      url: 'https://lostletters.neocities.org/'
-    - name: 'work in progress...'
-      url: 'https://louceph.neocities.org/'
-    - name: 'MANULZONE'
-      url: 'https://manulzone.neocities.org/'
-    - name: 'Mika Orange's Funny Page'
-      url: 'https://mikaorangeart.neocities.org/'
-    - name: 'Mioasis: Mio's Garden'
-      url: 'https://mioasis.neocities.org/'
-    - name: 'Moodle McDoodle'
-      url: 'https://moodlemcdoodle.neocities.org/'
-    - name: 'Mycorrhiza's Space'
-      url: 'https://mycorrhiza.space/'
-    - name: ':/newlambda'
-      url: 'https://newlambda.neocities.org/'
-    - name: 'Neon rust n' alien dust!'
-      url: 'https://ninacti0n.neocities.org/'
-    - name: 'Welcome to the Nippoverse'
-      url: 'https://nippoverse.xyz/'
-    - name: 'NomnomNami'
-      url: 'https://nomnomnami.com/'
-    - name: 'purgamentum exit'
-      url: 'https://notprincehamlet.neocities.org/'
-    - name: 'out of atuan'
-      url: 'https://outofatuan.neocities.org/'
-    - name: '⋆˚࿔ petrichorest's place ⋆˚࿔'
-      url: 'https://petrichorest.nekoweb.org/'
-    - name: 'PROPHETESQUE'
-      url: 'https://prophetesque.gay/'
-    - name: 'Qixzy Art'
-      url: 'https://qixzy.neocities.org/'
-    - name: 'ꕤSunflower𓂅'
-      url: 'https://randoseru.neocities.org/'
-    - name: 'ribo.zone'
-      url: 'https://ribo.zone/'
-    - name: 'Death is a new beginning'
-      url: 'https://sadgrl.online/'
-    - name: 'Sakura Dreams'
-      url: 'https://sakuradreams.neocities.org/'
-    - name: 'Shroom.Ink'
-      url: 'https://shroom.ink/'
-    - name: 'Skykristal'
-      url: 'https://skykristal.art/'
-    - name: 'snals'
-      url: 'https://snals.neocities.org/'
-    - name: 'Solar Cyber Punk'
-      url: 'https://solar-cyber-punk.neocities.org/'
-    - name: 'Solinus • Since 2021'
-      url: 'https://solinus.neocities.org/'
-    - name: 'spiritcellar'
-      url: 'https://spiritcellar.neocities.org/'
-    - name: 'starter page'
-      url: 'https://strawberry-transneu.neocities.org/'
-    - name: 'haystack blog and oddities'
-      url: 'https://thatoddhaystack.neocities.org/'
-    - name: 'Themby'
-      url: 'https://themby.neocities.org/'
-    - name: 'VALYCE NEGATIVE'
-      url: 'https://www.valycenegative.it/'
-    - name: 'Virtually Isolated'
-      url: 'https://virtually-isolated.neocities.org/'
-    - name: 'webforest'
-      url: 'https://webforests.neocities.org/'
-    - name: 'Aid's Small Corner'
-      url: 'https://zhongvie.neocities.org/'
-    - name: '🆂🅿🅰🅲🅴👽🅱🅰🆁'
-      url: 'https://space-bar.neocities.org/'
-    - name: 'Celes.net { behind the mask }'
-      url: 'https://www.celes.net/'
-    - name: 'S I L E N T }{ f a n l i s t i n g s'
-      url: 'https://silent.am/'
-    - name: 'Blue Rain // Version 14 // Blue Skies'
-      url: 'https://in-blue-rain.org/'
-    - name: 'Shadowlord Network'
-      url: 'https://shadow-lord.com/'
-    - name: 'imaginary.nu :: Version 11.5 :: Pretty in Pink'
-      url: 'https://imaginary.nu/'
-    - name: 'F A N A C U L A R'
-      url: 'https://fanacular.net/'
-    - name: 'Dancing Cedar'
-      url: 'https://fan.surlybutterfly.net/'
-    - name: 'fanfreak.net'
-      url: 'https://universe.fanfreak.net/'
-    - name: 'Home'
-      url: 'https://starry-knight.neocities.org/'
-    - name: 'Springhole.net'
-      url: 'https://springhole.net/'
-    - name: 'DAREBEE'
-      url: 'https://darebee.com/'
+    - name: "Ashton"
+      url: "https://aiston.scungled.gay/"
+    - name: "We can run away together!"
+      url: "https://alphacentauri.neocities.org/"
+    - name: "ANDOU"
+      url: "https://andou.gay/"
+    - name: "Bechno Kid's Hideout"
+      url: "https://bechnokid.neocities.org/"
+    - name: "Welcome to CAMINUS"
+      url: "https://caminus.quest/"
+    - name: "Cₕₐₒₜᵢc Gₒₒdₙₑₛₛ"
+      url: "https://chaoticgoodness.neocities.org/"
+    - name: "CHEAPCORE"
+      url: "https://cheapycore.com/"
+    - name: "The Chillzone"
+      url: "https://thechillzone.neocities.org/"
+    - name: "Cinnamuff's Galaxy!"
+      url: "https://cinnamuff.neocities.org/"
+    - name: "c l o u d c o v e r"
+      url: "https://cloudcover.neocities.org/"
+    - name: "corow.net"
+      url: "https://corow.net/"
+    - name: "The Hartwood"
+      url: "https://crypticcryptid.neocities.org/"
+    - name: "Dryad Glen"
+      url: "https://cyberneticdryad.neocities.org/"
+    - name: "derrek.org"
+      url: "https://derrek.org/"
+    - name: "the doll archive (wip)"
+      url: "https://dollarchive.neocities.org/"
+    - name: "des' digital journal"
+      url: "https://doqmeat.com/"
+    - name: "CSS, Fandom, and Nonsense"
+      url: "https://eggramen.neocities.org/"
+    - name: "draco's super swag website thingy"
+      url: "https://theenderdraco.neocities.org/"
+    - name: "DAYDREAM STATION"
+      url: "https://epicfranb.neocities.org/"
+    - name: "equisett"
+      url: "https://equisett.nekoweb.org/"
+    - name: "▷ ESPY.WORLD ◁"
+      url: "https://espy.world/"
+    - name: "hello?"
+      url: "https://faintlymacabre.neocities.org/"
+    - name: "fearoffun"
+      url: "https://fearoffun.neocities.org/"
+    - name: "The Great Shrimp Migration"
+      url: "https://fizzsea.neocities.org/"
+    - name: "The Frugal Gamer . Net"
+      url: "https://www.thefrugalgamer.net/"
+    - name: "garbage town ɞ ₊˚⊹♡"
+      url: "https://garbagedeity.neocities.org/"
+    - name: "the garden of madeline"
+      url: "https://thegardenofmadeline.neocities.org/"
+    - name: "a bait shop? ...in space?"
+      url: "https://garfriend.me/"
+    - name: "welcome to hill house"
+      url: "https://hillhouse.neocities.org/"
+    - name: "❀ F A I R Y L A N D ❀"
+      url: "https://inkcaps.neocities.org/"
+    - name: "memoria"
+      url: "https://finalfantasyix.neocities.org/"
+    - name: "kero.gay"
+      url: "https://kero.gay/"
+    - name: "lazybones"
+      url: "https://lazybones.neocities.org/"
+    - name: "the swamp"
+      url: "https://lindentea.neocities.org/"
+    - name: "Lost Letters"
+      url: "https://lostletters.neocities.org/"
+    - name: "work in progress..."
+      url: "https://louceph.neocities.org/"
+    - name: "MANULZONE"
+      url: "https://manulzone.neocities.org/"
+    - name: "Mika Orange's Funny Page"
+      url: "https://mikaorangeart.neocities.org/"
+    - name: "Mioasis: Mio's Garden"
+      url: "https://mioasis.neocities.org/"
+    - name: "Moodle McDoodle"
+      url: "https://moodlemcdoodle.neocities.org/"
+    - name: "Mycorrhiza's Space"
+      url: "https://mycorrhiza.space/"
+    - name: ":/newlambda"
+      url: "https://newlambda.neocities.org/"
+    - name: "Neon rust n' alien dust!"
+      url: "https://ninacti0n.neocities.org/"
+    - name: "Welcome to the Nippoverse"
+      url: "https://nippoverse.xyz/"
+    - name: "NomnomNami"
+      url: "https://nomnomnami.com/"
+    - name: "purgamentum exit"
+      url: "https://notprincehamlet.neocities.org/"
+    - name: "out of atuan"
+      url: "https://outofatuan.neocities.org/"
+    - name: "⋆˚࿔ petrichorest's place ⋆˚࿔"
+      url: "https://petrichorest.nekoweb.org/"
+    - name: "PROPHETESQUE"
+      url: "https://prophetesque.gay/"
+    - name: "Qixzy Art"
+      url: "https://qixzy.neocities.org/"
+    - name: "ꕤSunflower𓂅"
+      url: "https://randoseru.neocities.org/"
+    - name: "ribo.zone"
+      url: "https://ribo.zone/"
+    - name: "Death is a new beginning"
+      url: "https://sadgrl.online/"
+    - name: "Sakura Dreams"
+      url: "https://sakuradreams.neocities.org/"
+    - name: "Shroom.Ink"
+      url: "https://shroom.ink/"
+    - name: "Skykristal"
+      url: "https://skykristal.art/"
+    - name: "snals"
+      url: "https://snals.neocities.org/"
+    - name: "Solar Cyber Punk"
+      url: "https://solar-cyber-punk.neocities.org/"
+    - name: "Solinus • Since 2021"
+      url: "https://solinus.neocities.org/"
+    - name: "spiritcellar"
+      url: "https://spiritcellar.neocities.org/"
+    - name: "starter page"
+      url: "https://strawberry-transneu.neocities.org/"
+    - name: "haystack blog and oddities"
+      url: "https://thatoddhaystack.neocities.org/"
+    - name: "Themby"
+      url: "https://themby.neocities.org/"
+    - name: "VALYCE NEGATIVE"
+      url: "https://www.valycenegative.it/"
+    - name: "Virtually Isolated"
+      url: "https://virtually-isolated.neocities.org/"
+    - name: "webforest"
+      url: "https://webforests.neocities.org/"
+    - name: "Aid's Small Corner"
+      url: "https://zhongvie.neocities.org/"
+    - name: "🆂🅿🅰🅲🅴👽🅱🅰🆁"
+      url: "https://space-bar.neocities.org/"
+    - name: "Celes.net { behind the mask }"
+      url: "https://www.celes.net/"
+    - name: "S I L E N T }{ f a n l i s t i n g s"
+      url: "https://silent.am/"
+    - name: "Blue Rain // Version 14 // Blue Skies"
+      url: "https://in-blue-rain.org/"
+    - name: "Shadowlord Network"
+      url: "https://shadow-lord.com/"
+    - name: "imaginary.nu :: Version 11.5 :: Pretty in Pink"
+      url: "https://imaginary.nu/"
+    - name: "F A N A C U L A R"
+      url: "https://fanacular.net/"
+    - name: "Dancing Cedar"
+      url: "https://fan.surlybutterfly.net/"
+    - name: "fanfreak.net"
+      url: "https://universe.fanfreak.net/"
+    - name: "Home"
+      url: "https://starry-knight.neocities.org/"
+    - name: "Springhole.net"
+      url: "https://springhole.net/"
+    - name: "DAREBEE"
+      url: "https://darebee.com/"

@@ -1,60 +1,60 @@
 site:
-  name: 'justpureh2o.cn'
-  description: '友情链接'
-  url: 'https://justpureh2o.cn/'
-  links: '/friends'
+  name: "justpureh2o.cn"
+  description: "友情链接"
+  url: "https://justpureh2o.cn/"
+  links: "/friends"
   friends:
-    - name: '夏夜流萤飞萤之火自无梦的长夜亮起，绽放在终竟的明天。巨佬'
-      url: 'https://blog.cuteleaf.cn'
-    - name: 'GGapa自能生羽翼，何必仰云梯朋友同学'
-      url: 'http://ggapa.net/'
-    - name: 'Lucas2011无穷的远方，无数的人们，都与我有关。朋友同学'
-      url: 'https://lucas2011.top/'
-    - name: 'iMaeGoo’s Blog虹墨空间站朋友'
-      url: 'https://www.imaegoo.com/'
-    - name: 'Mete0r’s Blog | 壹人小站Trust the process.朋友'
-      url: 'https://www.xscnas.top/'
-    - name: '咖啡豆子coffee的小站所有奇迹的始发点朋友'
-      url: 'https://blog.kfdzcoffee.cn'
-    - name: 'Almango天真永不消逝，浪漫至死不渝。朋友'
-      url: 'https://www.almango.cn/'
-    - name: '轻笑Chuckle漫天倾尘,风中轻笑朋友'
-      url: 'https://www.qcqx.cn/'
-    - name: '橙の小站靠自己，实际一些！朋友'
-      url: 'https://blog.zhaozilin.cn'
-    - name: 'zuanshijia''s blog人要成仙,必先疯癫-分享日常,技术,业余无线电朋友'
-      url: 'https://zuanshijia.top'
-    - name: 'Jett的博客暮然回首，那人却在，灯火阑珊处朋友'
-      url: 'https://jettlin.cn'
-    - name: '小元博客技术分享·趣味杂谈-前端技术 日常闲谈朋友'
-      url: 'https://reblog.cn'
-    - name: '青序栈青序成栈·向简而生朋友'
-      url: 'https://www.qixz.cn/'
-    - name: 'AcoForkProtect What You Love.朋友'
-      url: 'https://2x.nz/'
-    - name: 'worable''s Blog≡ω≡ 嗯对，一名普通的职一牲~朋友'
-      url: 'https://worable.top/'
-    - name: '折腾日记专注于笔记、分享的博客朋友'
-      url: 'https://blog.zyx-2012.cn/'
-    - name: 'LYEy_isine个人博客花海无一日,少年踏自来朋友'
-      url: 'https://caiyifeng.top/'
-    - name: '喵二の小博客缘，妙不可言朋友'
-      url: 'https://www.miaoer.net/'
-    - name: 'Boranstars分享科技与生活朋友'
-      url: 'https://blog.boranstars.top/'
-    - name: 'mccsjs点一盏灯，等一个迷路的夜🍁🍁🍁朋友'
-      url: 'https://seln.cn/'
-    - name: 'XeniumeOne Last Dance.朋友'
-      url: 'https://xeniu.me'
-    - name: 'Nebula BlogNebula.SYS朋友'
-      url: 'https://www.996icu.eu.org/'
-    - name: 'TryBlog微风晚畔，灯影初燃朋友'
-      url: 'https://halo.mctry.cn/'
-    - name: '热衷于de博客一个有趣的灵魂朋友'
-      url: 'https://zooyoo.top/'
-    - name: 'Elykia致以无瑕之人朋友'
-      url: 'https://blog.elykia.cn/'
-    - name: 'versus0技术+算法blog朋友'
-      url: 'https://blog.542000.xyz'
-    - name: 'MaxLHy’s BlogWhere All Miracle Begins.朋友'
-      url: 'https://maxlhy0424.is-a.dev'
+    - name: "夏夜流萤飞萤之火自无梦的长夜亮起，绽放在终竟的明天。巨佬"
+      url: "https://blog.cuteleaf.cn"
+    - name: "GGapa自能生羽翼，何必仰云梯朋友同学"
+      url: "http://ggapa.net/"
+    - name: "Lucas2011无穷的远方，无数的人们，都与我有关。朋友同学"
+      url: "https://lucas2011.top/"
+    - name: "iMaeGoo’s Blog虹墨空间站朋友"
+      url: "https://www.imaegoo.com/"
+    - name: "Mete0r’s Blog | 壹人小站Trust the process.朋友"
+      url: "https://www.xscnas.top/"
+    - name: "咖啡豆子coffee的小站所有奇迹的始发点朋友"
+      url: "https://blog.kfdzcoffee.cn"
+    - name: "Almango天真永不消逝，浪漫至死不渝。朋友"
+      url: "https://www.almango.cn/"
+    - name: "轻笑Chuckle漫天倾尘,风中轻笑朋友"
+      url: "https://www.qcqx.cn/"
+    - name: "橙の小站靠自己，实际一些！朋友"
+      url: "https://blog.zhaozilin.cn"
+    - name: "zuanshijia's blog人要成仙,必先疯癫-分享日常,技术,业余无线电朋友"
+      url: "https://zuanshijia.top"
+    - name: "Jett的博客暮然回首，那人却在，灯火阑珊处朋友"
+      url: "https://jettlin.cn"
+    - name: "小元博客技术分享·趣味杂谈-前端技术 日常闲谈朋友"
+      url: "https://reblog.cn"
+    - name: "青序栈青序成栈·向简而生朋友"
+      url: "https://www.qixz.cn/"
+    - name: "AcoForkProtect What You Love.朋友"
+      url: "https://2x.nz/"
+    - name: "worable's Blog≡ω≡ 嗯对，一名普通的职一牲~朋友"
+      url: "https://worable.top/"
+    - name: "折腾日记专注于笔记、分享的博客朋友"
+      url: "https://blog.zyx-2012.cn/"
+    - name: "LYEy_isine个人博客花海无一日,少年踏自来朋友"
+      url: "https://caiyifeng.top/"
+    - name: "喵二の小博客缘，妙不可言朋友"
+      url: "https://www.miaoer.net/"
+    - name: "Boranstars分享科技与生活朋友"
+      url: "https://blog.boranstars.top/"
+    - name: "mccsjs点一盏灯，等一个迷路的夜🍁🍁🍁朋友"
+      url: "https://seln.cn/"
+    - name: "XeniumeOne Last Dance.朋友"
+      url: "https://xeniu.me"
+    - name: "Nebula BlogNebula.SYS朋友"
+      url: "https://www.996icu.eu.org/"
+    - name: "TryBlog微风晚畔，灯影初燃朋友"
+      url: "https://halo.mctry.cn/"
+    - name: "热衷于de博客一个有趣的灵魂朋友"
+      url: "https://zooyoo.top/"
+    - name: "Elykia致以无瑕之人朋友"
+      url: "https://blog.elykia.cn/"
+    - name: "versus0技术+算法blog朋友"
+      url: "https://blog.542000.xyz"
+    - name: "MaxLHy’s BlogWhere All Miracle Begins.朋友"
+      url: "https://maxlhy0424.is-a.dev"

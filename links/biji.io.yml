@@ -1,60 +1,60 @@
 site:
-  name: 'biji.io'
-  url: 'https://biji.io/'
-  description: '友情链接'
-  links: '/links'
+  name: "biji.io"
+  url: "https://biji.io/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '大发 博客届的爱马仕'
-      url: 'https://fatesinger.com'
-    - name: '大雄 手握JAVA于广州务工'
-      url: 'https://199508.com'
-    - name: '挨踢路 挨踢博客不IT'
-      url: 'https://itlu.net'
-    - name: '不亦乐乎 83年的老大叔'
-      url: 'https://lms.im'
-    - name: '叶子笔记 向人生的道路一直前进！'
-      url: 'https://yzrss.com'
-    - name: '醉风云 情感与创业的生活博客'
-      url: 'https://www.zuifengyun.com'
-    - name: 'EEE.ME 面向抠图设计'
-      url: 'https://eee.me'
-    - name: '秋空博客 博客程序永远在Coding'
-      url: 'https://qiukong.com'
-    - name: 'Type boom 一个用土豆搭建的博客'
-      url: 'https://www.typeboom.com'
-    - name: '王宜楷工作室 当代作家流浪成都'
-      url: 'http://www.wangyikai.com'
-    - name: '叶开 3天小折腾，5天大折腾'
-      url: 'https://qq.md'
-    - name: '记忆角落 贱雄的婚外基友'
-      url: 'https://199604.com'
-    - name: '山野愚人居 活化石一般的老博客'
-      url: 'https://www.iyuren.com'
-    - name: 'Tony He Living an absolutely not meaningless life with totally n'
-      url: 'https://www.ouorz.com'
-    - name: 'CC笔记 CG技术分享'
-      url: 'http://ccbiji.cc'
-    - name: '若志随笔 一个若志的网络自留地'
-      url: 'https://www.rz.sb'
-    - name: '印 | 纪'
-      url: 'https://leixus.cn'
-    - name: '沉沦博客 深陷其中欲罢不能'
-      url: 'https://kkn.me'
-    - name: '王鑫的小屋 西安卖地的王总'
-      url: 'https://wonse.info'
-    - name: 'Asheblog 咱们的阿射学长又回来了'
-      url: 'https://asheblog.org'
-    - name: '方糖 半糖生活，微甜日常'
-      url: 'https://fangtang.net'
-    - name: '时间停止'
-      url: 'https://d2fan.com'
-    - name: '斌果博客'
-      url: 'http://www.bgbk.org/'
-    - name: '江子渔'
-      url: 'https://ichov.com'
-    - name: '明人居'
-      url: 'https://mrju.cn'
-    - name: 'MG镁元素'
-      url: 'http://www.mgdw.org/'
-    - name: 'Chakhsu Lau'
-      url: 'http://www.linpx.com/'
+    - name: "大发 博客届的爱马仕"
+      url: "https://fatesinger.com"
+    - name: "大雄 手握JAVA于广州务工"
+      url: "https://199508.com"
+    - name: "挨踢路 挨踢博客不IT"
+      url: "https://itlu.net"
+    - name: "不亦乐乎 83年的老大叔"
+      url: "https://lms.im"
+    - name: "叶子笔记 向人生的道路一直前进！"
+      url: "https://yzrss.com"
+    - name: "醉风云 情感与创业的生活博客"
+      url: "https://www.zuifengyun.com"
+    - name: "EEE.ME 面向抠图设计"
+      url: "https://eee.me"
+    - name: "秋空博客 博客程序永远在Coding"
+      url: "https://qiukong.com"
+    - name: "Type boom 一个用土豆搭建的博客"
+      url: "https://www.typeboom.com"
+    - name: "王宜楷工作室 当代作家流浪成都"
+      url: "http://www.wangyikai.com"
+    - name: "叶开 3天小折腾，5天大折腾"
+      url: "https://qq.md"
+    - name: "记忆角落 贱雄的婚外基友"
+      url: "https://199604.com"
+    - name: "山野愚人居 活化石一般的老博客"
+      url: "https://www.iyuren.com"
+    - name: "Tony He Living an absolutely not meaningless life with totally n"
+      url: "https://www.ouorz.com"
+    - name: "CC笔记 CG技术分享"
+      url: "http://ccbiji.cc"
+    - name: "若志随笔 一个若志的网络自留地"
+      url: "https://www.rz.sb"
+    - name: "印 | 纪"
+      url: "https://leixus.cn"
+    - name: "沉沦博客 深陷其中欲罢不能"
+      url: "https://kkn.me"
+    - name: "王鑫的小屋 西安卖地的王总"
+      url: "https://wonse.info"
+    - name: "Asheblog 咱们的阿射学长又回来了"
+      url: "https://asheblog.org"
+    - name: "方糖 半糖生活，微甜日常"
+      url: "https://fangtang.net"
+    - name: "时间停止"
+      url: "https://d2fan.com"
+    - name: "斌果博客"
+      url: "http://www.bgbk.org/"
+    - name: "江子渔"
+      url: "https://ichov.com"
+    - name: "明人居"
+      url: "https://mrju.cn"
+    - name: "MG镁元素"
+      url: "http://www.mgdw.org/"
+    - name: "Chakhsu Lau"
+      url: "http://www.linpx.com/"

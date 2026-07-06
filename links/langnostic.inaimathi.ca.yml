@@ -1,50 +1,50 @@
 site:
-  name: 'langnostic.inaimathi.ca'
-  url: 'http://langnostic.inaimathi.ca/'
-  description: '友情链接'
-  links: '/links'
+  name: "langnostic.inaimathi.ca"
+  url: "http://langnostic.inaimathi.ca/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Conkeror - Firefox for Emacs users'
-      url: 'http://conkeror.org/'
-    - name: 'Hyperpolyglot'
-      url: 'http://hyperpolyglot.org/'
-    - name: 'Handlebars.js'
-      url: 'http://handlebarsjs.com/'
-    - name: 'RED: an in-development variant of REBOL with a JIT compiler'
-      url: 'http://www.red-lang.org/'
-    - name: 'Armstrong on Software'
-      url: 'http://armstrongonsoftware.blogspot.com/'
-    - name: 'YAWS'
-      url: 'http://yaws.hyber.org/'
-    - name: 'Nitrogen'
-      url: 'http://nitrogenproject.com/'
-    - name: 'Learn You Erlang'
-      url: 'http://learnyousomeerlang.com/'
-    - name: 'Python'
-      url: 'http://erlport.org/'
-    - name: 'MLton'
-      url: 'http://mlton.org/'
-    - name: 'Learn You Haskell'
-      url: 'http://learnyouahaskell.com/'
-    - name: 'Pharo By Example'
-      url: 'http://pharobyexample.org/'
-    - name: 'Seaside Web Framework'
-      url: 'http://www.seaside.st/'
-    - name: 'Drupal'
-      url: 'http://drupal.org/'
-    - name: 'Learn Lisp The Hard Way'
-      url: 'http://learnlispthehardway.org/'
-    - name: 'Scheme Cookbook'
-      url: 'http://schemecookbook.org/'
-    - name: 'Chicken Scheme'
-      url: 'http://www.call-cc.org/'
-    - name: 'Clojure Docs'
-      url: 'http://clojuredocs.org/'
-    - name: 'Noir'
-      url: 'http://webnoir.org/'
-    - name: 'maven'
-      url: 'http://search.maven.org/'
-    - name: 'Heroku'
-      url: 'http://www.heroku.com/'
-    - name: 'deviantArt'
-      url: 'http://inaimathi.deviantart.com/'
+    - name: "Conkeror - Firefox for Emacs users"
+      url: "http://conkeror.org/"
+    - name: "Hyperpolyglot"
+      url: "http://hyperpolyglot.org/"
+    - name: "Handlebars.js"
+      url: "http://handlebarsjs.com/"
+    - name: "RED: an in-development variant of REBOL with a JIT compiler"
+      url: "http://www.red-lang.org/"
+    - name: "Armstrong on Software"
+      url: "http://armstrongonsoftware.blogspot.com/"
+    - name: "YAWS"
+      url: "http://yaws.hyber.org/"
+    - name: "Nitrogen"
+      url: "http://nitrogenproject.com/"
+    - name: "Learn You Erlang"
+      url: "http://learnyousomeerlang.com/"
+    - name: "Python"
+      url: "http://erlport.org/"
+    - name: "MLton"
+      url: "http://mlton.org/"
+    - name: "Learn You Haskell"
+      url: "http://learnyouahaskell.com/"
+    - name: "Pharo By Example"
+      url: "http://pharobyexample.org/"
+    - name: "Seaside Web Framework"
+      url: "http://www.seaside.st/"
+    - name: "Drupal"
+      url: "http://drupal.org/"
+    - name: "Learn Lisp The Hard Way"
+      url: "http://learnlispthehardway.org/"
+    - name: "Scheme Cookbook"
+      url: "http://schemecookbook.org/"
+    - name: "Chicken Scheme"
+      url: "http://www.call-cc.org/"
+    - name: "Clojure Docs"
+      url: "http://clojuredocs.org/"
+    - name: "Noir"
+      url: "http://webnoir.org/"
+    - name: "maven"
+      url: "http://search.maven.org/"
+    - name: "Heroku"
+      url: "http://www.heroku.com/"
+    - name: "deviantArt"
+      url: "http://inaimathi.deviantart.com/"

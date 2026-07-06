@@ -1,98 +1,98 @@
 site:
-  name: 'zhansousou.com'
-  url: 'https://www.zhansousou.com/'
-  description: '友情链接'
-  links: '/'
+  name: "zhansousou.com"
+  url: "https://www.zhansousou.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'youdict优词'
-      url: 'https://www.youdict.com/'
-    - name: '超人搜索'
-      url: 'https://www.crsoso.com/'
-    - name: 'Amazon'
-      url: 'https://www.amazon.cn/'
-    - name: 'Coin'
-      url: 'https://www.coin.com'
-    - name: 'Shouz'
-      url: 'https://shuoz.top'
-    - name: '优酷 这世界很酷'
-      url: 'http://www.youku.com'
-    - name: 'AcFun 认真你就输啦 (・ω・)ノ- ( ゜- ゜)つロ'
-      url: 'http://www.acfun.cn'
-    - name: 'H站 和邪社 – 二次元观察 ACG生活'
-      url: 'https://www.hexieshe.cn/'
-    - name: '摸鱼网 摸鱼网-Σ(っ°Д°;)っ让世界更萌~mooyuu.com'
-      url: 'https://www.mooyuu.com/'
-    - name: '番组计划 Bangumi 番组计划'
-      url: 'https://bangumi.tv/'
-    - name: '萝莉岛 专门分享宅男福利_带你走进宅男的世界'
-      url: 'https://www.luolidao.com/'
-    - name: '次元小镇 次元小镇–二次元爱好者分享平台ヽ(✿ﾟ▽ﾟ)ノ'
-      url: 'https://dimtown.com/'
-    - name: 'TopACG TopACG-关注每日ACG大事件'
-      url: 'http://www.topacg.com/'
-    - name: 'Cosplay联盟 Cosplay联盟|用心传递快乐'
-      url: 'https://www.cosplaymore.com/'
-    - name: '有趣之家 收藏全球最有趣的网站'
-      url: 'https://youquhome.com/'
-    - name: '吾志 记录生活点滴'
-      url: 'https://wuzhi.me'
-    - name: '毒鸡汤 我们精心熬制了有屎以来最毒1000多条经典毒鸡汤,句句“治愈”人心! 只为了帮你更好的看清人生认识自己，直面现实,直面惨淡的人生,不给你励志,'
-      url: 'http://www.nows.fun/'
-    - name: '捞月狗 捞月狗'
-      url: 'http://www.laoyuegou.com'
-    - name: '创造者日报 让灵感完美爆炸'
-      url: 'https://creatorsdaily.com/'
-    - name: '文艺 文艺™-敬一颗不死的文艺心'
-      url: 'https://wenyi.me/'
-    - name: '猫奴日记 猫奴日记-CatsDiary'
-      url: 'https://mao.nu/'
-    - name: '学习强国 学习强国'
-      url: 'https://www.xuexi.cn/'
-    - name: '沪江网校 学外语，上沪江网校，英日法韩12国外语在线学'
-      url: 'https://www.hujiang.com/'
-    - name: '果壳网 科技有意思'
-      url: 'https://www.guokr.com/'
-    - name: '什么值得读 推荐高质量的书单'
-      url: 'https://www.shenmezhidedu.com/'
-    - name: 'HackerRank HackerRank'
-      url: 'https://www.hackerrank.com'
-    - name: 'Web开发练习题 学习编码和帮助公益组织| freeCodeCamp'
-      url: 'https://www.freecodecamp.org/'
-    - name: 'LintCode LintCode'
-      url: 'https://www.lintcode.com/'
-    - name: 'W3school w3school 在线教程'
-      url: 'http://www.w3school.com.cn'
-    - name: '微云 腾讯微云'
-      url: 'https://www.weiyun.com'
-    - name: '茶杯狐 茶杯狐 Cupfox'
-      url: 'https://www.cupfox.com/'
-    - name: 'TheiSpot'
-      url: 'https://www.theispot.com/'
-    - name: '叶落山城秋'
-      url: 'https://www.iphpt.com/'
-    - name: '如梦影视'
-      url: 'https://www.rumengys.com'
-    - name: 'MotionControAI'
-      url: 'https://motioncontrol-ai.com'
-    - name: 'thumbnailMaker'
-      url: 'https://thumbnail-maker.com'
-    - name: 'NAIL'
-      url: 'https://naildesignsmaker.com'
-    - name: 'GPA'
-      url: 'https://gpacalculator.top'
-    - name: 'Frame'
-      url: 'https://frameextractor.net'
-    - name: 'PCBAssembly'
-      url: 'https://PCBAssemblymfg.com'
-    - name: '阮一峰'
-      url: 'http://www.ruanyifeng.com'
-    - name: 'Magi'
-      url: 'https://magi.com/'
-    - name: 'Color'
-      url: 'https://color.dumogu.top/'
-    - name: 'codess 代码片段管理器'
-      url: 'https://codess.dumogu.top/'
-    - name: '小度鱼'
-      url: 'https://www.xiaoduyu.com'
-    - name: '小小影视'
-      url: 'https://007ys1.com/'
+    - name: "youdict优词"
+      url: "https://www.youdict.com/"
+    - name: "超人搜索"
+      url: "https://www.crsoso.com/"
+    - name: "Amazon"
+      url: "https://www.amazon.cn/"
+    - name: "Coin"
+      url: "https://www.coin.com"
+    - name: "Shouz"
+      url: "https://shuoz.top"
+    - name: "优酷 这世界很酷"
+      url: "http://www.youku.com"
+    - name: "AcFun 认真你就输啦 (・ω・)ノ- ( ゜- ゜)つロ"
+      url: "http://www.acfun.cn"
+    - name: "H站 和邪社 – 二次元观察 ACG生活"
+      url: "https://www.hexieshe.cn/"
+    - name: "摸鱼网 摸鱼网-Σ(っ°Д°;)っ让世界更萌~mooyuu.com"
+      url: "https://www.mooyuu.com/"
+    - name: "番组计划 Bangumi 番组计划"
+      url: "https://bangumi.tv/"
+    - name: "萝莉岛 专门分享宅男福利_带你走进宅男的世界"
+      url: "https://www.luolidao.com/"
+    - name: "次元小镇 次元小镇–二次元爱好者分享平台ヽ(✿ﾟ▽ﾟ)ノ"
+      url: "https://dimtown.com/"
+    - name: "TopACG TopACG-关注每日ACG大事件"
+      url: "http://www.topacg.com/"
+    - name: "Cosplay联盟 Cosplay联盟|用心传递快乐"
+      url: "https://www.cosplaymore.com/"
+    - name: "有趣之家 收藏全球最有趣的网站"
+      url: "https://youquhome.com/"
+    - name: "吾志 记录生活点滴"
+      url: "https://wuzhi.me"
+    - name: "毒鸡汤 我们精心熬制了有屎以来最毒1000多条经典毒鸡汤,句句“治愈”人心! 只为了帮你更好的看清人生认识自己，直面现实,直面惨淡的人生,不给你励志,"
+      url: "http://www.nows.fun/"
+    - name: "捞月狗 捞月狗"
+      url: "http://www.laoyuegou.com"
+    - name: "创造者日报 让灵感完美爆炸"
+      url: "https://creatorsdaily.com/"
+    - name: "文艺 文艺™-敬一颗不死的文艺心"
+      url: "https://wenyi.me/"
+    - name: "猫奴日记 猫奴日记-CatsDiary"
+      url: "https://mao.nu/"
+    - name: "学习强国 学习强国"
+      url: "https://www.xuexi.cn/"
+    - name: "沪江网校 学外语，上沪江网校，英日法韩12国外语在线学"
+      url: "https://www.hujiang.com/"
+    - name: "果壳网 科技有意思"
+      url: "https://www.guokr.com/"
+    - name: "什么值得读 推荐高质量的书单"
+      url: "https://www.shenmezhidedu.com/"
+    - name: "HackerRank HackerRank"
+      url: "https://www.hackerrank.com"
+    - name: "Web开发练习题 学习编码和帮助公益组织| freeCodeCamp"
+      url: "https://www.freecodecamp.org/"
+    - name: "LintCode LintCode"
+      url: "https://www.lintcode.com/"
+    - name: "W3school w3school 在线教程"
+      url: "http://www.w3school.com.cn"
+    - name: "微云 腾讯微云"
+      url: "https://www.weiyun.com"
+    - name: "茶杯狐 茶杯狐 Cupfox"
+      url: "https://www.cupfox.com/"
+    - name: "TheiSpot"
+      url: "https://www.theispot.com/"
+    - name: "叶落山城秋"
+      url: "https://www.iphpt.com/"
+    - name: "如梦影视"
+      url: "https://www.rumengys.com"
+    - name: "MotionControAI"
+      url: "https://motioncontrol-ai.com"
+    - name: "thumbnailMaker"
+      url: "https://thumbnail-maker.com"
+    - name: "NAIL"
+      url: "https://naildesignsmaker.com"
+    - name: "GPA"
+      url: "https://gpacalculator.top"
+    - name: "Frame"
+      url: "https://frameextractor.net"
+    - name: "PCBAssembly"
+      url: "https://PCBAssemblymfg.com"
+    - name: "阮一峰"
+      url: "http://www.ruanyifeng.com"
+    - name: "Magi"
+      url: "https://magi.com/"
+    - name: "Color"
+      url: "https://color.dumogu.top/"
+    - name: "codess 代码片段管理器"
+      url: "https://codess.dumogu.top/"
+    - name: "小度鱼"
+      url: "https://www.xiaoduyu.com"
+    - name: "小小影视"
+      url: "https://007ys1.com/"

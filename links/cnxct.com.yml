@@ -1,14 +1,14 @@
 site:
-  name: 'cnxct.com'
-  url: 'https://www.cnxct.com/'
-  description: '友情链接'
-  links: '/'
+  name: "cnxct.com"
+  url: "https://www.cnxct.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'eCapture旁观者–HTTPS/TLS抓包'
-      url: 'https://ecapture.cc'
-    - name: '黑客Depy的博客'
-      url: 'https://rce.ink'
-    - name: 'codedump'
-      url: 'https://www.codedump.info'
-    - name: '王一的Blog'
-      url: 'http://www.mudone.com/'
+    - name: "eCapture旁观者–HTTPS/TLS抓包"
+      url: "https://ecapture.cc"
+    - name: "黑客Depy的博客"
+      url: "https://rce.ink"
+    - name: "codedump"
+      url: "https://www.codedump.info"
+    - name: "王一的Blog"
+      url: "http://www.mudone.com/"

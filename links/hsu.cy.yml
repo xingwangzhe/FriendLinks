@@ -1,82 +1,82 @@
 site:
-  name: 'hsu.cy'
-  url: 'https://hsu.cy/'
-  description: '友情链接'
-  links: '/links'
+  name: "hsu.cy"
+  url: "https://hsu.cy/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Sixth Tone'
-      url: 'https://www.sixthtone.com'
-    - name: 'EveryCRSReport'
-      url: 'https://www.everycrsreport.com/'
-    - name: 'Weibo Watch'
-      url: 'https://www.whatsonweibo.com/'
-    - name: 'qwerty.dev'
-      url: 'https://qwerty.dev/'
-    - name: 'Redline'
-      url: 'https://redline.commonform.org/'
-    - name: 'Typo'
-      url: 'https://typo.robino.dev/'
-    - name: 'Shots.so'
-      url: 'https://shots.so/'
-    - name: 'Table Convert Online'
-      url: 'https://tableconvert.com/'
-    - name: 'AppleDB'
-      url: 'https://appledb.dev/'
-    - name: 'EveryMac'
-      url: 'https://everymac.com/'
-    - name: 'CleanIcons'
-      url: 'https://cleanicons.xyz/'
-    - name: 'DevDocs'
-      url: 'https://devdocs.io/'
-    - name: 'IP tools on skk.moe'
-      url: 'https://ip.skk.moe/'
-    - name: 'jq play'
-      url: 'https://jqplay.org/'
-    - name: 'LMSYS Chatbot Arena'
-      url: 'https://chat.lmsys.org/'
-    - name: 'OpenRouter'
-      url: 'https://openrouter.ai/'
-    - name: 'RegExr'
-      url: 'https://regexr.com/'
-    - name: 'Regex Vis'
-      url: 'https://regex-vis.com/'
-    - name: 'Nodexr'
-      url: 'https://www.nodexr.net/'
-    - name: 'vscode.dev'
-      url: 'https://vscode.dev/'
-    - name: 'WebBrowserTools'
-      url: 'https://webbrowsertools.com/'
-    - name: 'Book Marks'
-      url: 'https://bookmarks.reviews/'
-    - name: 'DownSub'
-      url: 'https://downsub.com/'
-    - name: 'FFmpeg Explorer'
-      url: 'https://ffmpeg.lav.io/'
-    - name: 'Heart Playlist Helper'
-      url: 'https://heart.uselesses.com/'
-    - name: 'Listen Notes'
-      url: 'https://www.listennotes.com/'
-    - name: 'Metacritic'
-      url: 'https://www.metacritic.com/'
-    - name: 'Podcast Search by David Smith'
-      url: 'https://podsearch.david-smith.org/'
-    - name: 'PreDB.me'
-      url: 'https://predb.me/'
-    - name: 'Stirling PDF'
-      url: 'https://pdf.adminforge.de/'
-    - name: 'SVG Viewer'
-      url: 'https://www.svgviewer.dev/'
-    - name: 'Good To Run'
-      url: 'https://www.goodtorun.net/'
-    - name: 'World Time Buddy'
-      url: 'https://www.worldtimebuddy.com/'
-    - name: 'CourtListener'
-      url: 'https://www.courtlistener.com/'
-    - name: 'FCCID.io'
-      url: 'https://fccid.io/'
-    - name: 'Arts & Letters Daily'
-      url: 'https://aldaily.com'
-    - name: 'Farside'
-      url: 'https://farside.link/'
-    - name: 'Webster’s 1913'
-      url: 'https://www.websters1913.com/'
+    - name: "Sixth Tone"
+      url: "https://www.sixthtone.com"
+    - name: "EveryCRSReport"
+      url: "https://www.everycrsreport.com/"
+    - name: "Weibo Watch"
+      url: "https://www.whatsonweibo.com/"
+    - name: "qwerty.dev"
+      url: "https://qwerty.dev/"
+    - name: "Redline"
+      url: "https://redline.commonform.org/"
+    - name: "Typo"
+      url: "https://typo.robino.dev/"
+    - name: "Shots.so"
+      url: "https://shots.so/"
+    - name: "Table Convert Online"
+      url: "https://tableconvert.com/"
+    - name: "AppleDB"
+      url: "https://appledb.dev/"
+    - name: "EveryMac"
+      url: "https://everymac.com/"
+    - name: "CleanIcons"
+      url: "https://cleanicons.xyz/"
+    - name: "DevDocs"
+      url: "https://devdocs.io/"
+    - name: "IP tools on skk.moe"
+      url: "https://ip.skk.moe/"
+    - name: "jq play"
+      url: "https://jqplay.org/"
+    - name: "LMSYS Chatbot Arena"
+      url: "https://chat.lmsys.org/"
+    - name: "OpenRouter"
+      url: "https://openrouter.ai/"
+    - name: "RegExr"
+      url: "https://regexr.com/"
+    - name: "Regex Vis"
+      url: "https://regex-vis.com/"
+    - name: "Nodexr"
+      url: "https://www.nodexr.net/"
+    - name: "vscode.dev"
+      url: "https://vscode.dev/"
+    - name: "WebBrowserTools"
+      url: "https://webbrowsertools.com/"
+    - name: "Book Marks"
+      url: "https://bookmarks.reviews/"
+    - name: "DownSub"
+      url: "https://downsub.com/"
+    - name: "FFmpeg Explorer"
+      url: "https://ffmpeg.lav.io/"
+    - name: "Heart Playlist Helper"
+      url: "https://heart.uselesses.com/"
+    - name: "Listen Notes"
+      url: "https://www.listennotes.com/"
+    - name: "Metacritic"
+      url: "https://www.metacritic.com/"
+    - name: "Podcast Search by David Smith"
+      url: "https://podsearch.david-smith.org/"
+    - name: "PreDB.me"
+      url: "https://predb.me/"
+    - name: "Stirling PDF"
+      url: "https://pdf.adminforge.de/"
+    - name: "SVG Viewer"
+      url: "https://www.svgviewer.dev/"
+    - name: "Good To Run"
+      url: "https://www.goodtorun.net/"
+    - name: "World Time Buddy"
+      url: "https://www.worldtimebuddy.com/"
+    - name: "CourtListener"
+      url: "https://www.courtlistener.com/"
+    - name: "FCCID.io"
+      url: "https://fccid.io/"
+    - name: "Arts & Letters Daily"
+      url: "https://aldaily.com"
+    - name: "Farside"
+      url: "https://farside.link/"
+    - name: "Webster’s 1913"
+      url: "https://www.websters1913.com/"

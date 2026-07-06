@@ -1,16 +1,16 @@
 site:
-  name: 'cleves.me'
-  url: 'https://cleves.me/'
-  description: '友情链接'
-  links: '/friends'
+  name: "cleves.me"
+  url: "https://cleves.me/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'CC的博客 我们永不消逝！'
-      url: 'https://main.791197.xyz/'
-    - name: 'IKUN 唱跳rap打篮球'
-      url: 'https://blog.204090.xyz/'
-    - name: '焕昭君 知行合一，日拱一卒'
-      url: 'https://blog.huan666.de/'
-    - name: '薇尔薇 Go to work only for getting off work'
-      url: 'https://www.vio.vin'
-    - name: '张苹果 这个人很简单，没什么好说的。'
-      url: 'https://zhangpingguo.com'
+    - name: "CC的博客 我们永不消逝！"
+      url: "https://main.791197.xyz/"
+    - name: "IKUN 唱跳rap打篮球"
+      url: "https://blog.204090.xyz/"
+    - name: "焕昭君 知行合一，日拱一卒"
+      url: "https://blog.huan666.de/"
+    - name: "薇尔薇 Go to work only for getting off work"
+      url: "https://www.vio.vin"
+    - name: "张苹果 这个人很简单，没什么好说的。"
+      url: "https://zhangpingguo.com"

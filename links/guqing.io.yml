@@ -1,70 +1,70 @@
 site:
-  name: 'guqing'
-  url: 'https://guqing.io/'
-  description: '友情链接'
-  links: '/links'
+  name: "guqing"
+  url: "https://guqing.io/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Ryan Wang''s Blog 细应和雨断，轻只爱风裁'
-      url: 'https://ryanc.cc/'
-    - name: '低调小熊猫 读万卷书，行万里路，赚很多钱'
-      url: 'https://ilovey.live'
-    - name: 'AirboZH 生活原本沉闷，但跑起来就有风'
-      url: 'https://www.airbozh.cn'
-    - name: '进击的码农 一个写bug的小码农，分享个人生活及捣鼓一些感兴趣的编程技术。'
-      url: 'https://www.samge.top'
-    - name: 'PasserBlog 独属于一个自我满足的逗比的大剧场'
-      url: 'https://takuron.com'
-    - name: 'QAIU 手机编程&C4droid'
-      url: 'https://blog.qaiu.top'
-    - name: 'Moyok的博客 念念不忘，必有回响。'
-      url: 'https://blog.integer.top'
-    - name: 'Erzbir 人间忽晚, 山河已秋'
-      url: 'https://erzbir.com'
-    - name: '绯鞠的博客 一只爱折腾的绯鞠'
-      url: 'https://loli.fj.cn'
-    - name: '半方池水半方田 只能懂一点点'
-      url: 'https://uuanqin.top'
-    - name: '烟霞志 空有烟霞之志，叹无水云之身。'
-      url: 'https://simplestark.com'
-    - name: '杰事纪 杰事纪'
-      url: 'https://www.wggznb.top'
-    - name: 'Zkmhy''s Blog 我们已经走得太远，以至于忘了为何出发。'
-      url: 'https://ai1223.com'
-    - name: '阿狸鹿丫 业余瞎折腾的阿狸鹿丫'
-      url: 'https://aliluya.com'
-    - name: 'Aengus | Blog Stay Hungry, Stay Foolish.'
-      url: 'https://www.aengus.top'
-    - name: 'lieey''s 小窝 代码是冒险，bug是宝藏'
-      url: 'https://kunkunout.cn'
-    - name: '沉寂的博客 知足且上進，溫柔而堅定。'
-      url: 'https://www.fhzdcj.cn'
-    - name: '小怪兽 酷的像风，野的像狗'
-      url: 'https://blog.zmonster.top'
-    - name: 'Chenli 记录生活，分享生活'
-      url: 'https://chenliss.cn'
-    - name: 'Yovvis''s Blog 工夫为艺，笃志成技'
-      url: 'https://tenyon.cn'
-    - name: 'AaronConlon Dev Web - 独自开发者'
-      url: 'https://i5lin.top'
-    - name: '我剑也未尝不利 对所有的烦恼说拜拜，对所有的快乐说嗨嗨~'
-      url: 'https://tch.cool'
-    - name: '流情的博客 希望能与你在比特之海的繁星之下相见'
-      url: 'https://liuqingwushui.top'
-    - name: '沐森西 是微甜的呀'
-      url: 'https://musenxi.com/'
-    - name: '月光海岸 用心创造快乐！'
-      url: 'https://www.manction.com'
-    - name: 'Louis 的小时光'
-      url: 'https://www.louisyuan.cn'
-    - name: 'AzuSemisa’s Blog 一个 OI 蒟蒻的小窝'
-      url: 'https://azusemisa.top'
-    - name: 'Zachariah''s Blog 学习不是目的，学习本身就是一种生活方式。'
-      url: 'https://zachariah.run'
-    - name: '轻雅阁 一隅清宁小筑，半卷烟火寻常'
-      url: 'https://www.puresky.top'
-    - name: '小亦日常 再小的努力，乘以365都非常明显'
-      url: 'https://blog.fengsweb.top'
-    - name: '少年行 若无人陪你颠沛流离，便以梦为马随处而栖'
-      url: 'https://miraclezhb.gitee.io'
-    - name: 'Ado''s Zone 太阳当空照，阿斗来报道~'
-      url: 'https://ado.zone'
+    - name: "Ryan Wang's Blog 细应和雨断，轻只爱风裁"
+      url: "https://ryanc.cc/"
+    - name: "低调小熊猫 读万卷书，行万里路，赚很多钱"
+      url: "https://ilovey.live"
+    - name: "AirboZH 生活原本沉闷，但跑起来就有风"
+      url: "https://www.airbozh.cn"
+    - name: "进击的码农 一个写bug的小码农，分享个人生活及捣鼓一些感兴趣的编程技术。"
+      url: "https://www.samge.top"
+    - name: "PasserBlog 独属于一个自我满足的逗比的大剧场"
+      url: "https://takuron.com"
+    - name: "QAIU 手机编程&C4droid"
+      url: "https://blog.qaiu.top"
+    - name: "Moyok的博客 念念不忘，必有回响。"
+      url: "https://blog.integer.top"
+    - name: "Erzbir 人间忽晚, 山河已秋"
+      url: "https://erzbir.com"
+    - name: "绯鞠的博客 一只爱折腾的绯鞠"
+      url: "https://loli.fj.cn"
+    - name: "半方池水半方田 只能懂一点点"
+      url: "https://uuanqin.top"
+    - name: "烟霞志 空有烟霞之志，叹无水云之身。"
+      url: "https://simplestark.com"
+    - name: "杰事纪 杰事纪"
+      url: "https://www.wggznb.top"
+    - name: "Zkmhy's Blog 我们已经走得太远，以至于忘了为何出发。"
+      url: "https://ai1223.com"
+    - name: "阿狸鹿丫 业余瞎折腾的阿狸鹿丫"
+      url: "https://aliluya.com"
+    - name: "Aengus | Blog Stay Hungry, Stay Foolish."
+      url: "https://www.aengus.top"
+    - name: "lieey's 小窝 代码是冒险，bug是宝藏"
+      url: "https://kunkunout.cn"
+    - name: "沉寂的博客 知足且上進，溫柔而堅定。"
+      url: "https://www.fhzdcj.cn"
+    - name: "小怪兽 酷的像风，野的像狗"
+      url: "https://blog.zmonster.top"
+    - name: "Chenli 记录生活，分享生活"
+      url: "https://chenliss.cn"
+    - name: "Yovvis's Blog 工夫为艺，笃志成技"
+      url: "https://tenyon.cn"
+    - name: "AaronConlon Dev Web - 独自开发者"
+      url: "https://i5lin.top"
+    - name: "我剑也未尝不利 对所有的烦恼说拜拜，对所有的快乐说嗨嗨~"
+      url: "https://tch.cool"
+    - name: "流情的博客 希望能与你在比特之海的繁星之下相见"
+      url: "https://liuqingwushui.top"
+    - name: "沐森西 是微甜的呀"
+      url: "https://musenxi.com/"
+    - name: "月光海岸 用心创造快乐！"
+      url: "https://www.manction.com"
+    - name: "Louis 的小时光"
+      url: "https://www.louisyuan.cn"
+    - name: "AzuSemisa’s Blog 一个 OI 蒟蒻的小窝"
+      url: "https://azusemisa.top"
+    - name: "Zachariah's Blog 学习不是目的，学习本身就是一种生活方式。"
+      url: "https://zachariah.run"
+    - name: "轻雅阁 一隅清宁小筑，半卷烟火寻常"
+      url: "https://www.puresky.top"
+    - name: "小亦日常 再小的努力，乘以365都非常明显"
+      url: "https://blog.fengsweb.top"
+    - name: "少年行 若无人陪你颠沛流离，便以梦为马随处而栖"
+      url: "https://miraclezhb.gitee.io"
+    - name: "Ado's Zone 太阳当空照，阿斗来报道~"
+      url: "https://ado.zone"

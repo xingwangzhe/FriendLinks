@@ -1,98 +1,98 @@
 site:
-  name: 'lznauy的技术小屋'
-  url: 'https://lznauy.cn/'
-  description: '友情链接'
-  links: '/friends'
+  name: "lznauy的技术小屋"
+  url: "https://lznauy.cn/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '清羽飞扬'
-      url: 'https://blog.liushen.fun/'
-    - name: '逸风亭'
-      url: 'https://blog.fyz666.xyz/'
-    - name: 'lololowe的博客'
-      url: 'https://blog.lololowe.com'
-    - name: '短巷与雨'
-      url: 'https://www.hudi.space'
-    - name: 'luoboQAQ的博客'
-      url: 'https://lbqaq.top/'
-    - name: '小十的个人博客'
-      url: 'https://www.xiaoten.com/'
-    - name: 'cosの博客'
-      url: 'https://blog.cosine.ren/'
-    - name: '阿猫的博客'
-      url: 'https://ameow.xyz/'
-    - name: 'Tw93'
-      url: 'https://tw93.fun/'
-    - name: 'AgedCoffee'
-      url: 'https://aged-coffee.me/'
-    - name: '我没有三颗心脏'
-      url: 'https://wmyskxz.cn'
-    - name: 'Airing 的小屋'
-      url: 'https://ursb.me'
-    - name: '崔话记'
-      url: 'https://cuixiping.com/'
-    - name: '流情的博客'
-      url: 'https://liuqingwushui.top'
-    - name: '云心怀鹤'
-      url: 'https://bluehe.cn/'
-    - name: '周天记'
-      url: 'https://zhoutian.com'
-    - name: '网友小宋'
-      url: 'https://xyzbz.cn/'
-    - name: '威言威语'
-      url: 'https://www.weisay.com/'
-    - name: '魏文超''s Blog'
-      url: 'https://www.weiwenchao.com/'
-    - name: '雅余'
-      url: 'https://yayu.net/'
-    - name: '瓦匠不舟'
-      url: 'https://airy.ink/'
-    - name: 'Jack''s Space'
-      url: 'https://veryjack.com'
-    - name: 'xiaogai'
-      url: 'https://xiaogai.fun/'
-    - name: '唐巧的博客'
-      url: 'https://blog.devtang.com/'
-    - name: 'JIMMY SONG'
-      url: 'https://jimmysong.io/'
-    - name: 'bang'
-      url: 'https://blog.cnbang.net/'
-    - name: '故事的程序猿'
-      url: 'https://blog.lichenghao.cn'
-    - name: '刘郎阁'
-      url: 'https://vjo.cc/'
-    - name: 'YeungYeah的乱写地'
-      url: 'https://scottyeung.top/'
-    - name: '晚夜的个人博客'
-      url: 'https://www.iczrx.cn'
-    - name: 'xaoxuu'
-      url: 'https://xaoxuu.com'
-    - name: '宇阳'
-      url: 'https://liuyuyang.net'
-    - name: '意琦行的个人博客'
-      url: 'https://www.lixueduan.com/'
-    - name: '菲兹克斯喵'
-      url: 'https://physnya.top'
-    - name: '乔克视界'
-      url: 'https://jokerbai.com/'
-    - name: '小改学习志'
-      url: 'https://www.haoyu233.com'
-    - name: '吐槽大王部落格'
-      url: 'https://www.tcdw.net'
-    - name: '雪松'
-      url: 'https://fylsen.com/'
-    - name: '时歌的博客'
-      url: 'https://www.lapis.cafe'
-    - name: 'Wincer.Blog'
-      url: 'https://blog.itswincer.com/'
-    - name: 'Magren''s Blog'
-      url: 'https://magren.cc'
-    - name: 'liruifengv'
-      url: 'https://liruifengv.com'
-    - name: '静かな森'
-      url: 'https://innei.in/'
-    - name: '达生笔记'
-      url: 'https://ysicing.me'
-    - name: '思渡鸢的云栈'
-      url: 'https://blog.sdy666.icu'
-    - name: 'LHL''s Blog'
-      url: 'https://blog.lhl.one'
+    - name: "清羽飞扬"
+      url: "https://blog.liushen.fun/"
+    - name: "逸风亭"
+      url: "https://blog.fyz666.xyz/"
+    - name: "lololowe的博客"
+      url: "https://blog.lololowe.com"
+    - name: "短巷与雨"
+      url: "https://www.hudi.space"
+    - name: "luoboQAQ的博客"
+      url: "https://lbqaq.top/"
+    - name: "小十的个人博客"
+      url: "https://www.xiaoten.com/"
+    - name: "cosの博客"
+      url: "https://blog.cosine.ren/"
+    - name: "阿猫的博客"
+      url: "https://ameow.xyz/"
+    - name: "Tw93"
+      url: "https://tw93.fun/"
+    - name: "AgedCoffee"
+      url: "https://aged-coffee.me/"
+    - name: "我没有三颗心脏"
+      url: "https://wmyskxz.cn"
+    - name: "Airing 的小屋"
+      url: "https://ursb.me"
+    - name: "崔话记"
+      url: "https://cuixiping.com/"
+    - name: "流情的博客"
+      url: "https://liuqingwushui.top"
+    - name: "云心怀鹤"
+      url: "https://bluehe.cn/"
+    - name: "周天记"
+      url: "https://zhoutian.com"
+    - name: "网友小宋"
+      url: "https://xyzbz.cn/"
+    - name: "威言威语"
+      url: "https://www.weisay.com/"
+    - name: "魏文超's Blog"
+      url: "https://www.weiwenchao.com/"
+    - name: "雅余"
+      url: "https://yayu.net/"
+    - name: "瓦匠不舟"
+      url: "https://airy.ink/"
+    - name: "Jack's Space"
+      url: "https://veryjack.com"
+    - name: "xiaogai"
+      url: "https://xiaogai.fun/"
+    - name: "唐巧的博客"
+      url: "https://blog.devtang.com/"
+    - name: "JIMMY SONG"
+      url: "https://jimmysong.io/"
+    - name: "bang"
+      url: "https://blog.cnbang.net/"
+    - name: "故事的程序猿"
+      url: "https://blog.lichenghao.cn"
+    - name: "刘郎阁"
+      url: "https://vjo.cc/"
+    - name: "YeungYeah的乱写地"
+      url: "https://scottyeung.top/"
+    - name: "晚夜的个人博客"
+      url: "https://www.iczrx.cn"
+    - name: "xaoxuu"
+      url: "https://xaoxuu.com"
+    - name: "宇阳"
+      url: "https://liuyuyang.net"
+    - name: "意琦行的个人博客"
+      url: "https://www.lixueduan.com/"
+    - name: "菲兹克斯喵"
+      url: "https://physnya.top"
+    - name: "乔克视界"
+      url: "https://jokerbai.com/"
+    - name: "小改学习志"
+      url: "https://www.haoyu233.com"
+    - name: "吐槽大王部落格"
+      url: "https://www.tcdw.net"
+    - name: "雪松"
+      url: "https://fylsen.com/"
+    - name: "时歌的博客"
+      url: "https://www.lapis.cafe"
+    - name: "Wincer.Blog"
+      url: "https://blog.itswincer.com/"
+    - name: "Magren's Blog"
+      url: "https://magren.cc"
+    - name: "liruifengv"
+      url: "https://liruifengv.com"
+    - name: "静かな森"
+      url: "https://innei.in/"
+    - name: "达生笔记"
+      url: "https://ysicing.me"
+    - name: "思渡鸢的云栈"
+      url: "https://blog.sdy666.icu"
+    - name: "LHL's Blog"
+      url: "https://blog.lhl.one"

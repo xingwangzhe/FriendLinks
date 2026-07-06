@@ -1,10 +1,10 @@
 site:
-  name: 'blog.9az.ren'
-  url: 'https://blog.9az.ren/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "blog.9az.ren"
+  url: "https://blog.9az.ren/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: 'Hinai'
-      url: 'https://blog.woo.moe'
-    - name: 'IPv6'
-      url: 'https://www.china-ipv6.cn/'
+    - name: "Hinai"
+      url: "https://blog.woo.moe"
+    - name: "IPv6"
+      url: "https://www.china-ipv6.cn/"

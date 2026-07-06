@@ -1,80 +1,80 @@
 site:
-  name: 'dabric'
-  url: 'https://dabric.xyz/'
-  description: 'Dabric's personal website, featuring contact info, projects, blog posts, scripts'
-  links: '/links'
+  name: "dabric"
+  url: "https://dabric.xyz/"
+  description: "Dabric's personal website, featuring contact info, projects, blog posts, scripts"
+  links: "/links"
   friends:
-    - name: 'Tawnsent Home'
-      url: 'https://tawnsent.neocities.org/'
-    - name: 'sunnexo.moe ♪'
-      url: 'https://sunnexo.moe/'
-    - name: 'Beep Bird'
-      url: 'https://www.beepbird.net/'
-    - name: 'Garg's Homepage'
-      url: 'https://ughoh.neocities.org/'
-    - name: 'there's something out there'
-      url: 'https://encounters-ltd.neocities.org/'
-    - name: '[ Aegi's Cafe ]'
-      url: 'https://aegi.neocities.org/'
-    - name: 'Homepage'
-      url: 'https://tabf5.com/'
-    - name: 'CMYK 3D'
-      url: 'https://cmyk3d.neocities.org/'
-    - name: 'Thenri Temere'
-      url: 'https://thenri.neocities.org/'
-    - name: 'eieio.games'
-      url: 'https://eieio.games/'
-    - name: '+x'
-      url: 'https://wyrm.host/'
-    - name: 'Mebi County'
-      url: 'https://afellowu.neocities.org/'
-    - name: 'OpenBooks'
-      url: 'https://openbooks.neocities.org/'
-    - name: 'welcome to jb's site'
-      url: 'https://jbc.lol/'
-    - name: 'Whey!'
-      url: 'https://whey.party/'
-    - name: 'gouttyterm'
-      url: 'https://gouttyterminal.neocities.org/'
-    - name: 'This in the Reservation. And I don't know what that.'
-      url: 'https://sneexy.synth.download/'
-    - name: 'bugbard's web den'
-      url: 'https://bugbard.neocities.org/'
-    - name: 'Josh W. Comeau'
-      url: 'https://www.joshwcomeau.com/'
-    - name: 'rezmason.net'
-      url: 'https://rezmason.net/'
-    - name: 'Wild Bread'
-      url: 'https://wildbread.pictures/'
-    - name: 'Good today and welcome to pprmint.de.'
-      url: 'https://pprmint.de/'
-    - name: 'WiiCHiCKEN i AM AWESOME'
-      url: 'https://wiggle.monster/'
-    - name: 'beeps'
-      url: 'https://beeps.website/'
-    - name: 'enter the void'
-      url: 'https://candyether.space/'
-    - name: 'Olivia O. Phoebe's Wretched Webbed-site'
-      url: 'https://adamphoebe.neocities.org/'
-    - name: 'hi'
-      url: 'https://fabricici.net/'
-    - name: 'xrrawva.com'
-      url: 'https://xrrawva.com/'
-    - name: 'FlyingBep Zone'
-      url: 'https://wirelexexe.github.io/'
-    - name: 'fractalthorns'
-      url: 'https://fractalthorns.com/'
-    - name: 'Trifolium Aries Gamer Pad'
-      url: 'https://trifoliumaries.neocities.org/'
-    - name: 'Jam2go'
-      url: 'https://jam2go.com/'
-    - name: 'The Worm Lizard Cavern'
-      url: 'https://amaxivermis.neocities.org/'
-    - name: 'eblu'
-      url: 'https://eblu.space/'
-    - name: 'Kallistero's Project Cy'
-      url: 'https://kallistero.neocities.org/'
-    - name: 'EX-LYD'
-      url: 'https://links.ex-lyd.xyz/'
-    - name: 'Tetrisk's Lair'
-      url: 'https://tetrisk-lair.neocities.org/'
+    - name: "Tawnsent Home"
+      url: "https://tawnsent.neocities.org/"
+    - name: "sunnexo.moe ♪"
+      url: "https://sunnexo.moe/"
+    - name: "Beep Bird"
+      url: "https://www.beepbird.net/"
+    - name: "Garg's Homepage"
+      url: "https://ughoh.neocities.org/"
+    - name: "there's something out there"
+      url: "https://encounters-ltd.neocities.org/"
+    - name: "[ Aegi's Cafe ]"
+      url: "https://aegi.neocities.org/"
+    - name: "Homepage"
+      url: "https://tabf5.com/"
+    - name: "CMYK 3D"
+      url: "https://cmyk3d.neocities.org/"
+    - name: "Thenri Temere"
+      url: "https://thenri.neocities.org/"
+    - name: "eieio.games"
+      url: "https://eieio.games/"
+    - name: "+x"
+      url: "https://wyrm.host/"
+    - name: "Mebi County"
+      url: "https://afellowu.neocities.org/"
+    - name: "OpenBooks"
+      url: "https://openbooks.neocities.org/"
+    - name: "welcome to jb's site"
+      url: "https://jbc.lol/"
+    - name: "Whey!"
+      url: "https://whey.party/"
+    - name: "gouttyterm"
+      url: "https://gouttyterminal.neocities.org/"
+    - name: "This in the Reservation. And I don't know what that."
+      url: "https://sneexy.synth.download/"
+    - name: "bugbard's web den"
+      url: "https://bugbard.neocities.org/"
+    - name: "Josh W. Comeau"
+      url: "https://www.joshwcomeau.com/"
+    - name: "rezmason.net"
+      url: "https://rezmason.net/"
+    - name: "Wild Bread"
+      url: "https://wildbread.pictures/"
+    - name: "Good today and welcome to pprmint.de."
+      url: "https://pprmint.de/"
+    - name: "WiiCHiCKEN i AM AWESOME"
+      url: "https://wiggle.monster/"
+    - name: "beeps"
+      url: "https://beeps.website/"
+    - name: "enter the void"
+      url: "https://candyether.space/"
+    - name: "Olivia O. Phoebe's Wretched Webbed-site"
+      url: "https://adamphoebe.neocities.org/"
+    - name: "hi"
+      url: "https://fabricici.net/"
+    - name: "xrrawva.com"
+      url: "https://xrrawva.com/"
+    - name: "FlyingBep Zone"
+      url: "https://wirelexexe.github.io/"
+    - name: "fractalthorns"
+      url: "https://fractalthorns.com/"
+    - name: "Trifolium Aries Gamer Pad"
+      url: "https://trifoliumaries.neocities.org/"
+    - name: "Jam2go"
+      url: "https://jam2go.com/"
+    - name: "The Worm Lizard Cavern"
+      url: "https://amaxivermis.neocities.org/"
+    - name: "eblu"
+      url: "https://eblu.space/"
+    - name: "Kallistero's Project Cy"
+      url: "https://kallistero.neocities.org/"
+    - name: "EX-LYD"
+      url: "https://links.ex-lyd.xyz/"
+    - name: "Tetrisk's Lair"
+      url: "https://tetrisk-lair.neocities.org/"

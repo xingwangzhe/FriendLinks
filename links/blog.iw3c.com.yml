@@ -1,8 +1,8 @@
 site:
-  name: '首页'
-  url: 'https://blog.iw3c.com/'
-  description: 'iW3C 是一个专注于 Web 开发的博客，分享最新的前端技术（如 Vue、React）、后端架构（Go、Python）和高效的编程实践。'
-  links: '/links'
+  name: "首页"
+  url: "https://blog.iw3c.com/"
+  description: "iW3C 是一个专注于 Web 开发的博客，分享最新的前端技术（如 Vue、React）、后端架构（Go、Python）和高效的编程实践。"
+  links: "/links"
   friends:
-    - name: 'mephisto.ccopen-menuclosemegithubinstagramyoutubersscalendar'
-      url: 'https://mephisto.cc/'
+    - name: "mephisto.ccopen-menuclosemegithubinstagramyoutubersscalendar"
+      url: "https://mephisto.cc/"

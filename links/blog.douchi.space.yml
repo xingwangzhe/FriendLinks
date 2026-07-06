@@ -1,74 +1,74 @@
 site:
-  name: '椒盐豆豉'
-  url: 'https://blog.douchi.space/'
-  description: '老友来访 # ｜🆕 近况如何 ｜ ✉️ 联系博主 ｜ 📖 阅读博客 ｜✨ 随便看看 ｜ ｜💰 剁手安利 ｜ 🎬 书影游库 ｜ 📰 电报剪报 ｜'
-  links: '/links'
+  name: "椒盐豆豉"
+  url: "https://blog.douchi.space/"
+  description: "老友来访 # ｜🆕 近况如何 ｜ ✉️ 联系博主 ｜ 📖 阅读博客 ｜✨ 随便看看 ｜ ｜💰 剁手安利 ｜ 🎬 书影游库 ｜ 📰 电报剪报 ｜"
+  links: "/links"
   friends:
-    - name: 'Workouts Page'
-      url: 'https://steps.douchi.space/'
-    - name: '· The Wandering Allison'
-      url: 'https://thewanderingallison.vercel.app/'
-    - name: '沉默之沙'
-      url: 'https://yukieyun.net/'
-    - name: '四喜丸子'
-      url: 'https://fourhappylions.com/'
-    - name: '第三夏尔'
-      url: 'https://thirdshire.com/'
-    - name: 'To the Lighthouse'
-      url: 'https://owlswims.com/'
-    - name: '猫和柴的野游'
-      url: 'https://meowshiba.com/'
-    - name: '无竹斋'
-      url: 'https://bamboobone9.com/'
-    - name: 'Ouroboros'
-      url: 'https://utopia.pursuitus.com/'
-    - name: 'Tunastrudel'
-      url: 'https://blog.wraith615.xyz/'
-    - name: '一支咏叹调'
-      url: 'https://turquoise.one/'
-    - name: 'Moon in Nowhere'
-      url: 'https://innowhere.icu/'
-    - name: 'Yelle🦋'
-      url: 'https://yelle.win/'
-    - name: 'shixiaocaia'
-      url: 'https://outofsea.fun/'
-    - name: '豚骨拉面馆🍜'
-      url: 'https://ignativssss.com/'
-    - name: 'Shiori ʕ•ᴥ•ʔ'
-      url: 'https://shioriblog.github.io/'
-    - name: '小球飞鱼'
-      url: 'https://mantyke.icu/'
-    - name: 'A Purrception'
-      url: 'https://tortie.me/'
-    - name: 'AsyncX's Blog'
-      url: 'https://blog.asyncx.top/'
-    - name: 'Albus' Pensieve'
-      url: 'https://pensieve.wangxindi.org/'
-    - name: 'Another Dayu'
-      url: 'https://anotherdayu.com/'
-    - name: '雪糕 / 人對愛和永遠 應該有幻覺'
-      url: 'https://blog.lyc.sh/'
-    - name: '1sle'
-      url: 'https://1sle29.github.io/'
-    - name: '咕噜咕庐'
-      url: 'https://blog.gulugulurave.com/'
-    - name: 'valfread'
-      url: 'https://valfread.github.io/'
-    - name: 'NOWHERE'
-      url: 'https://xnth97.github.io/'
-    - name: '手倦拋書午夢長'
-      url: 'https://www.shingireservation.com/'
-    - name: '长夏无事'
-      url: 'https://changxiawushi.github.io/'
-    - name: 'Conditional Wind'
-      url: 'https://blog.conditionalwind.space/'
-    - name: 'Fire of Creation'
-      url: 'https://blog-rouge-xi.vercel.app/'
-    - name: '影子屋'
-      url: 'https://blog.bgme.me/'
-    - name: '山月'
-      url: 'https://sanguok.com/'
-    - name: '云卷云舒'
-      url: 'https://ephemeris.page/'
-    - name: 'Nakolu'
-      url: 'https://alignof.com/'
+    - name: "Workouts Page"
+      url: "https://steps.douchi.space/"
+    - name: "· The Wandering Allison"
+      url: "https://thewanderingallison.vercel.app/"
+    - name: "沉默之沙"
+      url: "https://yukieyun.net/"
+    - name: "四喜丸子"
+      url: "https://fourhappylions.com/"
+    - name: "第三夏尔"
+      url: "https://thirdshire.com/"
+    - name: "To the Lighthouse"
+      url: "https://owlswims.com/"
+    - name: "猫和柴的野游"
+      url: "https://meowshiba.com/"
+    - name: "无竹斋"
+      url: "https://bamboobone9.com/"
+    - name: "Ouroboros"
+      url: "https://utopia.pursuitus.com/"
+    - name: "Tunastrudel"
+      url: "https://blog.wraith615.xyz/"
+    - name: "一支咏叹调"
+      url: "https://turquoise.one/"
+    - name: "Moon in Nowhere"
+      url: "https://innowhere.icu/"
+    - name: "Yelle🦋"
+      url: "https://yelle.win/"
+    - name: "shixiaocaia"
+      url: "https://outofsea.fun/"
+    - name: "豚骨拉面馆🍜"
+      url: "https://ignativssss.com/"
+    - name: "Shiori ʕ•ᴥ•ʔ"
+      url: "https://shioriblog.github.io/"
+    - name: "小球飞鱼"
+      url: "https://mantyke.icu/"
+    - name: "A Purrception"
+      url: "https://tortie.me/"
+    - name: "AsyncX's Blog"
+      url: "https://blog.asyncx.top/"
+    - name: "Albus' Pensieve"
+      url: "https://pensieve.wangxindi.org/"
+    - name: "Another Dayu"
+      url: "https://anotherdayu.com/"
+    - name: "雪糕 / 人對愛和永遠 應該有幻覺"
+      url: "https://blog.lyc.sh/"
+    - name: "1sle"
+      url: "https://1sle29.github.io/"
+    - name: "咕噜咕庐"
+      url: "https://blog.gulugulurave.com/"
+    - name: "valfread"
+      url: "https://valfread.github.io/"
+    - name: "NOWHERE"
+      url: "https://xnth97.github.io/"
+    - name: "手倦拋書午夢長"
+      url: "https://www.shingireservation.com/"
+    - name: "长夏无事"
+      url: "https://changxiawushi.github.io/"
+    - name: "Conditional Wind"
+      url: "https://blog.conditionalwind.space/"
+    - name: "Fire of Creation"
+      url: "https://blog-rouge-xi.vercel.app/"
+    - name: "影子屋"
+      url: "https://blog.bgme.me/"
+    - name: "山月"
+      url: "https://sanguok.com/"
+    - name: "云卷云舒"
+      url: "https://ephemeris.page/"
+    - name: "Nakolu"
+      url: "https://alignof.com/"

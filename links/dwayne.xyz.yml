@@ -1,10 +1,10 @@
 site:
-  name: 'dwayne.xyz'
-  url: 'https://dwayne.xyz/'
-  description: '友情链接'
-  links: '/links'
+  name: "dwayne.xyz"
+  url: "https://dwayne.xyz/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Freelancers Union'
-      url: 'https://www.freelancersunion.org'
-    - name: 'The ultimate favicon generator - Favic-o-Matic'
-      url: 'https://favicomatic.com/'
+    - name: "Freelancers Union"
+      url: "https://www.freelancersunion.org"
+    - name: "The ultimate favicon generator - Favic-o-Matic"
+      url: "https://favicomatic.com/"

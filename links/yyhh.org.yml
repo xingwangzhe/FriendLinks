@@ -1,12 +1,12 @@
 site:
-  name: 'yyhh.org'
-  url: 'https://yyhh.org/'
-  description: '友情链接'
-  links: '/'
+  name: "yyhh.org"
+  url: "https://yyhh.org/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'my startup'
-      url: 'https://juji.io'
-    - name: 'Netlify CMS'
-      url: 'https://www.netlifycms.org/'
-    - name: 'Discourse'
-      url: 'https://www.discourse.org/'
+    - name: "my startup"
+      url: "https://juji.io"
+    - name: "Netlify CMS"
+      url: "https://www.netlifycms.org/"
+    - name: "Discourse"
+      url: "https://www.discourse.org/"

@@ -1,14 +1,14 @@
 site:
-  name: 'blog.feng1026.top'
-  url: 'https://blog.feng1026.top/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.feng1026.top"
+  url: "https://blog.feng1026.top/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Mugzx''s Blog ● 向上革命，向下实践。 挚友'
-      url: 'https://blog.mugzx.top/'
-    - name: 'MoXiify''s Blog ● 做一条，逆流的鱼。 网友'
-      url: 'https://note.moxiify.cn/'
-    - name: 'LineXic 书屋 ● 难离难舍，想抱紧些 网友'
-      url: 'https://www.linexic.top/'
-    - name: '张恒华 ● SDN 研究者 网友'
-      url: 'https://zhh2001.github.io/'
+    - name: "Mugzx's Blog ● 向上革命，向下实践。 挚友"
+      url: "https://blog.mugzx.top/"
+    - name: "MoXiify's Blog ● 做一条，逆流的鱼。 网友"
+      url: "https://note.moxiify.cn/"
+    - name: "LineXic 书屋 ● 难离难舍，想抱紧些 网友"
+      url: "https://www.linexic.top/"
+    - name: "张恒华 ● SDN 研究者 网友"
+      url: "https://zhh2001.github.io/"

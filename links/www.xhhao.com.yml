@@ -1,84 +1,84 @@
 site:
-  name: '林间拾语'
-  url: 'https://www.xhhao.com/'
-  description: '技术与生活的温暖拾遗'
-  links: '/links'
+  name: "林间拾语"
+  url: "https://www.xhhao.com/"
+  description: "技术与生活的温暖拾遗"
+  links: "/links"
   friends:
-    - name: '微风静语｜在微风中轻语自己，在宁静中书写世界'
-      url: 'https://www.webjing.cn/'
-    - name: 'Jiewen’blog'
-      url: 'https://www.jiewen.run/'
-    - name: '無名小栈'
-      url: 'https://blog.imsyy.top/'
-    - name: '喜欢捣鼓的博主'
-      url: 'https://kunkunyu.com/'
-    - name: '浮生半刻｜永远相信美好的事情即将发生'
-      url: 'https://blog.study996.cn/'
-    - name: '风记星辰'
-      url: 'https://www.thyuu.com/'
-    - name: 'Anyeの小站'
-      url: 'https://www.anye.xyz/'
-    - name: 'LiuShen's Blog'
-      url: 'https://blog.liushen.fun/'
-    - name: '木因博客'
-      url: 'https://blog.muyin.site/'
-    - name: '满心博客_记录生活里的小美好'
-      url: 'https://zhoutian.com/'
-    - name: '耳朵的主人'
-      url: 'https://www.edzbe.com/'
-    - name: '轻雅阁'
-      url: 'https://www.puresky.top/'
-    - name: '云云星羽'
-      url: 'https://starssr.com/'
-    - name: '止戈'
-      url: 'https://picsky.cn/'
-    - name: 'ZLX STUDIO'
-      url: 'https://blog.iooioio.com/'
-    - name: 'nukix的工具箱'
-      url: 'https://blog.uso6.com/'
-    - name: 'DeQ Code Blog'
-      url: 'https://www.deq.plus/'
-    - name: '停云博客'
-      url: 'https://tingyun.top/'
-    - name: 'WishMeLz'
-      url: 'https://blog.itsse.cn/'
-    - name: 'Jerry Zhou的个人博客'
-      url: 'https://blog.jerryz.com.cn/'
-    - name: 'blog.glemon.cn'
-      url: 'https://blog.glemon.cn/'
-    - name: '宇阳'
-      url: 'https://liuyuyang.net/'
-    - name: '叶泯希'
-      url: 'https://blog.418121.xyz/'
-    - name: '我剑也未尝不利'
-      url: 'https://tch.cool/'
-    - name: '谜叶象限'
-      url: 'https://baiwumm.com/'
-    - name: '朝瓜夕拾'
-      url: 'https://yuubari.cn/'
-    - name: '世上云川'
-      url: 'https://blog.ssyc.me/'
-    - name: '星风之痕'
-      url: 'https://erzip.com/'
-    - name: '知栖小筑'
-      url: 'https://www.halosb.com/'
-    - name: 'Home'
-      url: 'https://liangbm3.site/'
-    - name: '向山海出发，向自己靠近'
-      url: 'https://blog.hallucodex.com/'
-    - name: '浮生闲记｜以文字为舟，溯流时光之河'
-      url: 'https://xsfly.com/'
-    - name: 'Tim's Blog'
-      url: 'https://blog.timxs.com/'
-    - name: '拥抱日出的小屋'
-      url: 'https://ybrc.byside.top/'
-    - name: 'Dark零点博客'
-      url: 'https://www.tenca.cn/'
-    - name: 'LogDict'
-      url: 'https://www.logdict.com/'
-    - name: '博客升级维护中'
-      url: 'https://blog.xiaoxiaomo.cn/'
-    - name: '小和的雪糕铺'
-      url: 'https://52he.cc/'
-    - name: '远方博客'
-      url: 'https://blog.ltyuanfang.cn/'
+    - name: "微风静语｜在微风中轻语自己，在宁静中书写世界"
+      url: "https://www.webjing.cn/"
+    - name: "Jiewen’blog"
+      url: "https://www.jiewen.run/"
+    - name: "無名小栈"
+      url: "https://blog.imsyy.top/"
+    - name: "喜欢捣鼓的博主"
+      url: "https://kunkunyu.com/"
+    - name: "浮生半刻｜永远相信美好的事情即将发生"
+      url: "https://blog.study996.cn/"
+    - name: "风记星辰"
+      url: "https://www.thyuu.com/"
+    - name: "Anyeの小站"
+      url: "https://www.anye.xyz/"
+    - name: "LiuShen's Blog"
+      url: "https://blog.liushen.fun/"
+    - name: "木因博客"
+      url: "https://blog.muyin.site/"
+    - name: "满心博客_记录生活里的小美好"
+      url: "https://zhoutian.com/"
+    - name: "耳朵的主人"
+      url: "https://www.edzbe.com/"
+    - name: "轻雅阁"
+      url: "https://www.puresky.top/"
+    - name: "云云星羽"
+      url: "https://starssr.com/"
+    - name: "止戈"
+      url: "https://picsky.cn/"
+    - name: "ZLX STUDIO"
+      url: "https://blog.iooioio.com/"
+    - name: "nukix的工具箱"
+      url: "https://blog.uso6.com/"
+    - name: "DeQ Code Blog"
+      url: "https://www.deq.plus/"
+    - name: "停云博客"
+      url: "https://tingyun.top/"
+    - name: "WishMeLz"
+      url: "https://blog.itsse.cn/"
+    - name: "Jerry Zhou的个人博客"
+      url: "https://blog.jerryz.com.cn/"
+    - name: "blog.glemon.cn"
+      url: "https://blog.glemon.cn/"
+    - name: "宇阳"
+      url: "https://liuyuyang.net/"
+    - name: "叶泯希"
+      url: "https://blog.418121.xyz/"
+    - name: "我剑也未尝不利"
+      url: "https://tch.cool/"
+    - name: "谜叶象限"
+      url: "https://baiwumm.com/"
+    - name: "朝瓜夕拾"
+      url: "https://yuubari.cn/"
+    - name: "世上云川"
+      url: "https://blog.ssyc.me/"
+    - name: "星风之痕"
+      url: "https://erzip.com/"
+    - name: "知栖小筑"
+      url: "https://www.halosb.com/"
+    - name: "Home"
+      url: "https://liangbm3.site/"
+    - name: "向山海出发，向自己靠近"
+      url: "https://blog.hallucodex.com/"
+    - name: "浮生闲记｜以文字为舟，溯流时光之河"
+      url: "https://xsfly.com/"
+    - name: "Tim's Blog"
+      url: "https://blog.timxs.com/"
+    - name: "拥抱日出的小屋"
+      url: "https://ybrc.byside.top/"
+    - name: "Dark零点博客"
+      url: "https://www.tenca.cn/"
+    - name: "LogDict"
+      url: "https://www.logdict.com/"
+    - name: "博客升级维护中"
+      url: "https://blog.xiaoxiaomo.cn/"
+    - name: "小和的雪糕铺"
+      url: "https://52he.cc/"
+    - name: "远方博客"
+      url: "https://blog.ltyuanfang.cn/"

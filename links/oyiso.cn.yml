@@ -1,86 +1,86 @@
 site:
-  name: 'Oyiso's Blog'
-  url: 'https://oyiso.cn/'
-  description: 'Oyiso's Blog'
-  links: '/links'
+  name: "Oyiso's Blog"
+  url: "https://oyiso.cn/"
+  description: "Oyiso's Blog"
+  links: "/links"
   friends:
-    - name: '倦意博客'
-      url: 'https://jyblog.cn/'
-    - name: '张洪Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: '灯火不休时'
-      url: 'https://blog.dhbxs.top/'
-    - name: '微生之最-编程与软件资源分享的技术社区'
-      url: 'https://www.swszz.cn/'
-    - name: '沉梦小站'
-      url: 'https://cmxz.top/'
-    - name: '风尘落微雨'
-      url: 'https://www.weirain.com/'
-    - name: '零一物语'
-      url: 'https://www.docn.net/'
-    - name: 'Dignite’s Blog!'
-      url: 'https://www.amzcd.top/'
-    - name: 'CrudBoy小站'
-      url: 'https://dengqn.com/'
-    - name: 'Kloudy Shape'
-      url: 'https://shape.kloudy.cn/'
-    - name: 'Home'
-      url: 'https://arthals.ink/'
-    - name: 'XingJiのBlog'
-      url: 'https://love.xingji.fun/'
-    - name: '首页'
-      url: 'https://blog.elykia.cn/'
-    - name: '首页'
-      url: 'https://blog.hikki.site/'
-    - name: 'Home'
-      url: 'https://cworld0.com/'
-    - name: '超能郭工'
-      url: 'https://kwokronny.com/'
-    - name: 'Hantaの天境小屋🥝'
-      url: 'https://blog.hanta2011.top/'
-    - name: '青灯暮雨'
-      url: 'https://www.blatr.cn/'
-    - name: '👋Hi from dodola!| 🍀'
-      url: 'https://dodolalorc.cn/'
-    - name: 'Honesty Blog'
-      url: 'https://blog.hehouhui.cn/'
-    - name: '我的技术成长笔记'
-      url: 'https://blog.longdahuasheng.top/'
-    - name: 'Hyde Blog'
-      url: 'https://teek.seasir.top/'
-    - name: '风记星辰'
-      url: 'https://www.thyuu.com/'
-    - name: 'DAIXU BLOG'
-      url: 'https://daixu.cn/'
-    - name: '星辰角落'
-      url: 'https://ihello.cc/'
-    - name: '各大平台微信朋友圈主题汇总'
-      url: 'https://www.evan.xin/'
-    - name: '九歌'
-      url: 'https://blog.joker2yue.com/'
-    - name: '小改学习志'
-      url: 'https://www.haoyu233.com/'
-    - name: '爱吃肉的猫'
-      url: 'https://meuicat.com/'
-    - name: 'I‘m Luochancy'
-      url: 'https://www.luochancy.com/'
-    - name: 'What can i Say'
-      url: 'https://bfzw.top/'
-    - name: 'Sci_qud'
-      url: 'https://blog.wsq127.top/'
-    - name: 'Pinpe的云端'
-      url: 'https://pinpe.top/'
-    - name: '老孙博客'
-      url: 'https://www.imsun.org/'
-    - name: '懋和道人-李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。'
-      url: 'https://www.dao.js.cn/'
-    - name: '慢慢懂の分享站'
-      url: 'https://blog.manmandong.top/'
-    - name: '如约而至'
-      url: 'https://aloner.ink/'
-    - name: 'Bleaz's Blog'
-      url: 'https://blog.bleaz.net/'
-    - name: '酥米的小站'
-      url: 'https://www.sumi233.top/'
-    - name: '故人随笔'
-      url: 'https://ifwww.com/'
+    - name: "倦意博客"
+      url: "https://jyblog.cn/"
+    - name: "张洪Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "灯火不休时"
+      url: "https://blog.dhbxs.top/"
+    - name: "微生之最-编程与软件资源分享的技术社区"
+      url: "https://www.swszz.cn/"
+    - name: "沉梦小站"
+      url: "https://cmxz.top/"
+    - name: "风尘落微雨"
+      url: "https://www.weirain.com/"
+    - name: "零一物语"
+      url: "https://www.docn.net/"
+    - name: "Dignite’s Blog!"
+      url: "https://www.amzcd.top/"
+    - name: "CrudBoy小站"
+      url: "https://dengqn.com/"
+    - name: "Kloudy Shape"
+      url: "https://shape.kloudy.cn/"
+    - name: "Home"
+      url: "https://arthals.ink/"
+    - name: "XingJiのBlog"
+      url: "https://love.xingji.fun/"
+    - name: "首页"
+      url: "https://blog.elykia.cn/"
+    - name: "首页"
+      url: "https://blog.hikki.site/"
+    - name: "Home"
+      url: "https://cworld0.com/"
+    - name: "超能郭工"
+      url: "https://kwokronny.com/"
+    - name: "Hantaの天境小屋🥝"
+      url: "https://blog.hanta2011.top/"
+    - name: "青灯暮雨"
+      url: "https://www.blatr.cn/"
+    - name: "👋Hi from dodola!| 🍀"
+      url: "https://dodolalorc.cn/"
+    - name: "Honesty Blog"
+      url: "https://blog.hehouhui.cn/"
+    - name: "我的技术成长笔记"
+      url: "https://blog.longdahuasheng.top/"
+    - name: "Hyde Blog"
+      url: "https://teek.seasir.top/"
+    - name: "风记星辰"
+      url: "https://www.thyuu.com/"
+    - name: "DAIXU BLOG"
+      url: "https://daixu.cn/"
+    - name: "星辰角落"
+      url: "https://ihello.cc/"
+    - name: "各大平台微信朋友圈主题汇总"
+      url: "https://www.evan.xin/"
+    - name: "九歌"
+      url: "https://blog.joker2yue.com/"
+    - name: "小改学习志"
+      url: "https://www.haoyu233.com/"
+    - name: "爱吃肉的猫"
+      url: "https://meuicat.com/"
+    - name: "I‘m Luochancy"
+      url: "https://www.luochancy.com/"
+    - name: "What can i Say"
+      url: "https://bfzw.top/"
+    - name: "Sci_qud"
+      url: "https://blog.wsq127.top/"
+    - name: "Pinpe的云端"
+      url: "https://pinpe.top/"
+    - name: "老孙博客"
+      url: "https://www.imsun.org/"
+    - name: "懋和道人-李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。"
+      url: "https://www.dao.js.cn/"
+    - name: "慢慢懂の分享站"
+      url: "https://blog.manmandong.top/"
+    - name: "如约而至"
+      url: "https://aloner.ink/"
+    - name: "Bleaz's Blog"
+      url: "https://blog.bleaz.net/"
+    - name: "酥米的小站"
+      url: "https://www.sumi233.top/"
+    - name: "故人随笔"
+      url: "https://ifwww.com/"

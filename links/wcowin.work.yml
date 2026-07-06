@@ -1,226 +1,226 @@
 site:
-  name: 'wcowin.work'
-  url: 'https://wcowin.work/'
-  description: '友情链接'
-  links: '/link/'
+  name: "wcowin.work"
+  url: "https://wcowin.work/"
+  description: "友情链接"
+  links: "/link/"
   friends:
-    - name: 'OneClip'
-      url: 'https://oneclip.cloud/'
-    - name: 'Munger yang''s Blog'
-      url: 'https://mungeryang.github.io/'
-    - name: 'Lenny''s Web'
-      url: 'https://lennychen.top/'
-    - name: 'Finisky Garden'
-      url: 'https://finisky.github.io/'
-    - name: '随遇而安'
-      url: 'https://www.iszy.cc/'
-    - name: 'Qiuyuair的自留地'
-      url: 'https://qiuyuair.com/'
-    - name: 'obaby@mars'
-      url: 'https://zhongxiaojie.cn/'
-    - name: '杜老师说'
-      url: 'https://dusays.com/'
-    - name: '左眼会陪右眼哭の博客'
-      url: 'https://qkongtao.cn/'
-    - name: 'Moraxyc’s Rhapsody'
-      url: 'https://moraxyc.com/'
-    - name: 'XIAOMING''S BLOG'
-      url: 'https://vimin.cc/'
-    - name: 'WKK & Blog'
-      url: 'https://blog.wkk-dev.one/'
-    - name: '张洪Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: 'Kegongteng'
-      url: 'https://kegongteng.cn/'
-    - name: '故事的程序猿'
-      url: 'https://blog.lichenghao.cn/'
-    - name: 'IsshikiHugh'
-      url: 'https://note.isshikih.top/'
-    - name: 'Whisper'
-      url: 'https://blog.whispery.cn/'
-    - name: '百里飞洋の博客'
-      url: 'https://blog.meta-code.top/'
-    - name: 'W1ndysの小屋'
-      url: 'https://blog.w1ndys.top/'
-    - name: '丘卡饮品店'
-      url: 'https://blog.zerolacqua.top/'
-    - name: 'Echo 的小窝'
-      url: 'https://www.liveout.cn/'
-    - name: '安知鱼'
-      url: 'https://blog.anheyu.com/'
-    - name: '小嘉的部落格'
-      url: 'https://blog.imzjw.cn/'
-    - name: '小城故事'
-      url: 'https://webxc.eu.org/'
-    - name: '凌云·LinYun'
-      url: 'https://www.linyunlink.top/'
-    - name: '悦己'
-      url: 'https://www.yveji.com/'
-    - name: 'AsyncX'
-      url: 'https://blog.asyncx.top/'
-    - name: 'Meekdai'
-      url: 'https://meekdai.com/'
-    - name: '無名小栈'
-      url: 'https://blog.imsyy.top/'
-    - name: 'TendCode'
-      url: 'https://tendcode.com/'
-    - name: 'JW.DEV🚀'
-      url: 'https://www.chujiaweicode.top/'
-    - name: 'Magren''s Blog'
-      url: 'https://magren.cc/'
-    - name: '维燕的知识花园'
-      url: 'https://weiyan.cc/'
-    - name: '花开陌上'
-      url: 'https://moshanghua.net/'
-    - name: '萌豚 Moechu'
-      url: 'https://moechu.cn/'
-    - name: 'Nodeloc'
-      url: 'https://www.nodeloc.com/'
-    - name: '苍镜月''s docs'
-      url: 'https://cangjingyue.top/'
-    - name: '雅故小筑'
-      url: 'https://www.yaguwu.com/'
-    - name: 'btwoa'
-      url: 'https://blog.btwoa.com/'
-    - name: '小霜南风'
-      url: 'https://blog.viper3.top/'
-    - name: '严千屹'
-      url: 'https://blog.qianyios.top/'
-    - name: 'Eurekaimer''s Digital Garden'
-      url: 'https://www.eurekaimer.icu/'
-    - name: '子舒的博客'
-      url: 'https://zishu.me/'
-    - name: 'md5解密'
-      url: 'https://md5.cc/'
-    - name: '如品之茗'
-      url: 'https://www.rpzm.com/'
-    - name: '荒野孤灯'
-      url: 'https://www.80srz.com/'
-    - name: '张杨的博客'
-      url: 'https://yangzhang.site/'
-    - name: 'SheepChef Blog'
-      url: 'https://shef.cc/'
-    - name: '茗辰原'
-      url: 'https://mingcy.cn/'
-    - name: 'LineXic书屋'
-      url: 'https://linexic.top/'
-    - name: '阿杰的自学之路'
-      url: 'https://yanggenjie.cn/'
-    - name: '吉吉学弟的小站'
-      url: 'https://r-z-zhang-ai.github.io/'
-    - name: '逐水寻源'
-      url: 'https://www.zair.top/'
-    - name: 'Temp Mail'
-      url: 'https://tempmail100.com/'
-    - name: 'VnYzm的博客'
-      url: 'https://zimingyuan.github.io/'
-    - name: '世界天光的笔记本'
-      url: 'https://lastwish.icu/'
-    - name: 'Arthals'' ink'
-      url: 'https://arthals.ink/'
-    - name: 'Momo5418''s Blog'
-      url: 'https://blog.mocn.top/'
-    - name: 'CodingLife'
-      url: 'https://codinglife.online/'
-    - name: '清羽飞扬'
-      url: 'https://blog.liushen.fun/'
-    - name: 'Feng'
-      url: 'https://feng.pub/'
-    - name: '韩小韩博客'
-      url: 'https://www.vvhan.com/'
-    - name: '谜叶象限口'
-      url: 'https://baiwumm.com/'
-    - name: 'BIIBII'
-      url: 'https://www.biibii.cn/'
-    - name: '间窗札记'
-      url: 'https://www.jcblog.com.cn/'
-    - name: 'PhilFan''s Note'
-      url: 'https://www.philfan.cn/'
-    - name: '慕迟离'
-      url: 'https://muchili-code.github.io/'
-    - name: 'Jayden''s site'
-      url: 'https://xxu.do/'
-    - name: 'bbb-lsy07'
-      url: 'https://blog.tsoo.net/'
-    - name: '耳朵的主人'
-      url: 'https://www.edzbe.com/'
-    - name: '时光印记'
-      url: 'https://www.shiguang.ink/'
-    - name: 'r1a dev'
-      url: 'https://blog.oneall.eu.org/'
-    - name: '求知学习社'
-      url: 'https://blog.zhipro.com/'
-    - name: '雨露霜雪'
-      url: 'https://blog.flyburg.cc/'
-    - name: '材料与逻辑'
-      url: 'https://zhyong.site/'
-    - name: '希仁之拥'
-      url: 'https://blog.keepchen.com/'
-    - name: 'UsubeniFantasy'
-      url: 'https://ssshooter.com/'
-    - name: '周润发'
-      url: 'https://blog.zrf.me/'
-    - name: '筱序二十'
-      url: 'https://www.qixz.cn/'
-    - name: '纸鹿本鹿'
-      url: 'https://blog.zhilu.site/'
-    - name: 'Benign''s Blog'
-      url: 'https://benign.host/'
-    - name: 'ivyneko'
-      url: 'https://lvyovo-wiki.tech/'
-    - name: '星潮星屿'
-      url: 'https://chrjeb.cn/'
-    - name: '梁栋烨'
-      url: 'https://090909.top/'
-    - name: 'xf_blog'
-      url: 'https://xfcnl.github.io/'
-    - name: '美兰十三的想疗院'
-      url: 'https://lunashu.org/'
-    - name: 'RavelloH''s Blog'
-      url: 'https://ravelloh.com/'
-    - name: '天渺studio'
-      url: 'https://tianmiao.site/'
-    - name: '老刘博客'
-      url: 'https://www.liublog.cn/'
-    - name: '巳忆笔记'
-      url: 'https://lleft.cn/'
-    - name: 'Jiwac’s Blog'
-      url: 'https://jmk.gv.uy/'
-    - name: '维C博客'
-      url: 'https://vcblog.eu.cc/'
-    - name: 'UpXuu''s blog'
-      url: 'https://upxuu.com/'
-    - name: '字节星球'
-      url: 'https://www.bytecho.net/'
-    - name: 'tkqtang’s Web(打不开)'
-      url: 'https://tkqtang.github.io/'
-    - name: '郝宇博客(打不开)'
-      url: 'https://liis.cc/'
-    - name: 'JayHrn(打不开)'
-      url: 'https://blog.lvhrn.cn/'
-    - name: 'L1nSn0w(打不开)'
-      url: 'https://blog.linsnow.cn/'
-    - name: '旧梦(打不开)'
-      url: 'https://www.luckyzh.cn/'
-    - name: '天蒼人頡(打不开)'
-      url: 'https://ejsoon.win/'
-    - name: '琅環书生(打不开)'
-      url: 'https://www.zlog.us.kg/'
-    - name: 'Crant(打不开)'
-      url: 'https://www.crant.cn/'
-    - name: 'Eilo''s Blog(内容不符)'
-      url: 'https://www.eilo.uk/'
-    - name: 'Zeruo(打不开)'
-      url: 'https://www.zeruo.net/'
-    - name: 'MaxLHy0424(打不开)'
-      url: 'https://maxlhy0424.github.io/'
-    - name: '温岭慈善义工石塘服务队'
-      url: 'https://www.styg.org.cn/'
-    - name: '青萍叙事(打不开)'
-      url: 'https://blog.lusyoe.com/'
-    - name: 'XINGJI(打不开)'
-      url: 'https://vite.xingji.fun/'
-    - name: '你的网站名称'
-      url: 'https://xxx/'
-    - name: 'Zensical'
-      url: 'https://zensical.org/'
+    - name: "OneClip"
+      url: "https://oneclip.cloud/"
+    - name: "Munger yang's Blog"
+      url: "https://mungeryang.github.io/"
+    - name: "Lenny's Web"
+      url: "https://lennychen.top/"
+    - name: "Finisky Garden"
+      url: "https://finisky.github.io/"
+    - name: "随遇而安"
+      url: "https://www.iszy.cc/"
+    - name: "Qiuyuair的自留地"
+      url: "https://qiuyuair.com/"
+    - name: "obaby@mars"
+      url: "https://zhongxiaojie.cn/"
+    - name: "杜老师说"
+      url: "https://dusays.com/"
+    - name: "左眼会陪右眼哭の博客"
+      url: "https://qkongtao.cn/"
+    - name: "Moraxyc’s Rhapsody"
+      url: "https://moraxyc.com/"
+    - name: "XIAOMING'S BLOG"
+      url: "https://vimin.cc/"
+    - name: "WKK & Blog"
+      url: "https://blog.wkk-dev.one/"
+    - name: "张洪Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "Kegongteng"
+      url: "https://kegongteng.cn/"
+    - name: "故事的程序猿"
+      url: "https://blog.lichenghao.cn/"
+    - name: "IsshikiHugh"
+      url: "https://note.isshikih.top/"
+    - name: "Whisper"
+      url: "https://blog.whispery.cn/"
+    - name: "百里飞洋の博客"
+      url: "https://blog.meta-code.top/"
+    - name: "W1ndysの小屋"
+      url: "https://blog.w1ndys.top/"
+    - name: "丘卡饮品店"
+      url: "https://blog.zerolacqua.top/"
+    - name: "Echo 的小窝"
+      url: "https://www.liveout.cn/"
+    - name: "安知鱼"
+      url: "https://blog.anheyu.com/"
+    - name: "小嘉的部落格"
+      url: "https://blog.imzjw.cn/"
+    - name: "小城故事"
+      url: "https://webxc.eu.org/"
+    - name: "凌云·LinYun"
+      url: "https://www.linyunlink.top/"
+    - name: "悦己"
+      url: "https://www.yveji.com/"
+    - name: "AsyncX"
+      url: "https://blog.asyncx.top/"
+    - name: "Meekdai"
+      url: "https://meekdai.com/"
+    - name: "無名小栈"
+      url: "https://blog.imsyy.top/"
+    - name: "TendCode"
+      url: "https://tendcode.com/"
+    - name: "JW.DEV🚀"
+      url: "https://www.chujiaweicode.top/"
+    - name: "Magren's Blog"
+      url: "https://magren.cc/"
+    - name: "维燕的知识花园"
+      url: "https://weiyan.cc/"
+    - name: "花开陌上"
+      url: "https://moshanghua.net/"
+    - name: "萌豚 Moechu"
+      url: "https://moechu.cn/"
+    - name: "Nodeloc"
+      url: "https://www.nodeloc.com/"
+    - name: "苍镜月's docs"
+      url: "https://cangjingyue.top/"
+    - name: "雅故小筑"
+      url: "https://www.yaguwu.com/"
+    - name: "btwoa"
+      url: "https://blog.btwoa.com/"
+    - name: "小霜南风"
+      url: "https://blog.viper3.top/"
+    - name: "严千屹"
+      url: "https://blog.qianyios.top/"
+    - name: "Eurekaimer's Digital Garden"
+      url: "https://www.eurekaimer.icu/"
+    - name: "子舒的博客"
+      url: "https://zishu.me/"
+    - name: "md5解密"
+      url: "https://md5.cc/"
+    - name: "如品之茗"
+      url: "https://www.rpzm.com/"
+    - name: "荒野孤灯"
+      url: "https://www.80srz.com/"
+    - name: "张杨的博客"
+      url: "https://yangzhang.site/"
+    - name: "SheepChef Blog"
+      url: "https://shef.cc/"
+    - name: "茗辰原"
+      url: "https://mingcy.cn/"
+    - name: "LineXic书屋"
+      url: "https://linexic.top/"
+    - name: "阿杰的自学之路"
+      url: "https://yanggenjie.cn/"
+    - name: "吉吉学弟的小站"
+      url: "https://r-z-zhang-ai.github.io/"
+    - name: "逐水寻源"
+      url: "https://www.zair.top/"
+    - name: "Temp Mail"
+      url: "https://tempmail100.com/"
+    - name: "VnYzm的博客"
+      url: "https://zimingyuan.github.io/"
+    - name: "世界天光的笔记本"
+      url: "https://lastwish.icu/"
+    - name: "Arthals' ink"
+      url: "https://arthals.ink/"
+    - name: "Momo5418's Blog"
+      url: "https://blog.mocn.top/"
+    - name: "CodingLife"
+      url: "https://codinglife.online/"
+    - name: "清羽飞扬"
+      url: "https://blog.liushen.fun/"
+    - name: "Feng"
+      url: "https://feng.pub/"
+    - name: "韩小韩博客"
+      url: "https://www.vvhan.com/"
+    - name: "谜叶象限口"
+      url: "https://baiwumm.com/"
+    - name: "BIIBII"
+      url: "https://www.biibii.cn/"
+    - name: "间窗札记"
+      url: "https://www.jcblog.com.cn/"
+    - name: "PhilFan's Note"
+      url: "https://www.philfan.cn/"
+    - name: "慕迟离"
+      url: "https://muchili-code.github.io/"
+    - name: "Jayden's site"
+      url: "https://xxu.do/"
+    - name: "bbb-lsy07"
+      url: "https://blog.tsoo.net/"
+    - name: "耳朵的主人"
+      url: "https://www.edzbe.com/"
+    - name: "时光印记"
+      url: "https://www.shiguang.ink/"
+    - name: "r1a dev"
+      url: "https://blog.oneall.eu.org/"
+    - name: "求知学习社"
+      url: "https://blog.zhipro.com/"
+    - name: "雨露霜雪"
+      url: "https://blog.flyburg.cc/"
+    - name: "材料与逻辑"
+      url: "https://zhyong.site/"
+    - name: "希仁之拥"
+      url: "https://blog.keepchen.com/"
+    - name: "UsubeniFantasy"
+      url: "https://ssshooter.com/"
+    - name: "周润发"
+      url: "https://blog.zrf.me/"
+    - name: "筱序二十"
+      url: "https://www.qixz.cn/"
+    - name: "纸鹿本鹿"
+      url: "https://blog.zhilu.site/"
+    - name: "Benign's Blog"
+      url: "https://benign.host/"
+    - name: "ivyneko"
+      url: "https://lvyovo-wiki.tech/"
+    - name: "星潮星屿"
+      url: "https://chrjeb.cn/"
+    - name: "梁栋烨"
+      url: "https://090909.top/"
+    - name: "xf_blog"
+      url: "https://xfcnl.github.io/"
+    - name: "美兰十三的想疗院"
+      url: "https://lunashu.org/"
+    - name: "RavelloH's Blog"
+      url: "https://ravelloh.com/"
+    - name: "天渺studio"
+      url: "https://tianmiao.site/"
+    - name: "老刘博客"
+      url: "https://www.liublog.cn/"
+    - name: "巳忆笔记"
+      url: "https://lleft.cn/"
+    - name: "Jiwac’s Blog"
+      url: "https://jmk.gv.uy/"
+    - name: "维C博客"
+      url: "https://vcblog.eu.cc/"
+    - name: "UpXuu's blog"
+      url: "https://upxuu.com/"
+    - name: "字节星球"
+      url: "https://www.bytecho.net/"
+    - name: "tkqtang’s Web(打不开)"
+      url: "https://tkqtang.github.io/"
+    - name: "郝宇博客(打不开)"
+      url: "https://liis.cc/"
+    - name: "JayHrn(打不开)"
+      url: "https://blog.lvhrn.cn/"
+    - name: "L1nSn0w(打不开)"
+      url: "https://blog.linsnow.cn/"
+    - name: "旧梦(打不开)"
+      url: "https://www.luckyzh.cn/"
+    - name: "天蒼人頡(打不开)"
+      url: "https://ejsoon.win/"
+    - name: "琅環书生(打不开)"
+      url: "https://www.zlog.us.kg/"
+    - name: "Crant(打不开)"
+      url: "https://www.crant.cn/"
+    - name: "Eilo's Blog(内容不符)"
+      url: "https://www.eilo.uk/"
+    - name: "Zeruo(打不开)"
+      url: "https://www.zeruo.net/"
+    - name: "MaxLHy0424(打不开)"
+      url: "https://maxlhy0424.github.io/"
+    - name: "温岭慈善义工石塘服务队"
+      url: "https://www.styg.org.cn/"
+    - name: "青萍叙事(打不开)"
+      url: "https://blog.lusyoe.com/"
+    - name: "XINGJI(打不开)"
+      url: "https://vite.xingji.fun/"
+    - name: "你的网站名称"
+      url: "https://xxx/"
+    - name: "Zensical"
+      url: "https://zensical.org/"

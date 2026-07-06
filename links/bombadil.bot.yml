@@ -1,12 +1,12 @@
 site:
-  name: 'bombadil.bot'
-  url: 'http://bombadil.bot/'
-  description: '友情链接'
-  links: '/links'
+  name: "bombadil.bot"
+  url: "http://bombadil.bot/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Blog'
-      url: 'https://github.blog'
-    - name: 'Antithesis'
-      url: 'https://antithesis.com'
-    - name: 'Community'
-      url: 'https://github.community/'
+    - name: "Blog"
+      url: "https://github.blog"
+    - name: "Antithesis"
+      url: "https://antithesis.com"
+    - name: "Community"
+      url: "https://github.community/"

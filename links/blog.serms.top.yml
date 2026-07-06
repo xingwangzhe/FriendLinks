@@ -1,78 +1,78 @@
 site:
-  name: 'SerMs'
-  url: 'https://blog.serms.top/'
-  description: '友情链接'
-  links: '/links'
+  name: "SerMs"
+  url: "https://blog.serms.top/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'freecodecamp'
-      url: 'https://www.freecodecamp.org/'
-    - name: 'Hello 算法'
-      url: 'https://www.hello-algo.com/'
-    - name: '张洪Heo - 分享设计与科技生活'
-      url: 'https://blog.zhheo.com/'
-    - name: '贰猹の小窝 - 奋力奔跑，去追心中的那一道光'
-      url: 'https://noionion.top/'
-    - name: '杜老师说'
-      url: 'https://dusays.com'
-    - name: 'Calyee`Blog - 追求充实，分享快乐'
-      url: 'https://blog.calyee.top/'
-    - name: 'Akilarの糖果屋 - Akilar.top'
-      url: 'https://akilar.top/'
-    - name: '风祈的时光录 - 此间的少年'
-      url: 'https://imlql.cn/'
-    - name: 'Tianli''s blog - 自知之明是最难得的知识'
-      url: 'https://tianli-blog.club/'
-    - name: '雪人的小屋'
-      url: 'https://snowhouse.space/'
-    - name: 'Ryan Wang''s Blog'
-      url: 'https://ryanc.cc/'
-    - name: '安知鱼 - 生活明朗 万物可爱'
-      url: 'https://blog.anheyu.com/'
-    - name: 'Welcome to nginx!'
-      url: 'http://luokangyuan.com/'
-    - name: '咕咕云梦泽 - 气蒸云梦泽，波撼岳阳城。'
-      url: 'https://blog.pai233.top/'
-    - name: 'Welcome'
-      url: 'https://www.dearxuan.com'
-    - name: '小冰博客 - 做个有梦想的人！'
-      url: 'https://zfe.space/'
-    - name: '你真是一个美好的人类 - ConstOwn'
-      url: 'https://blog.juanertu.com/'
-    - name: '瓦解的生活记事'
-      url: 'https://hin.cool'
-    - name: '八尺乌'
-      url: 'https://www.vergilisme.com/'
-    - name: '云晓晨CatchYXC'
-      url: 'https://www.catchyxc.com/'
-    - name: 'Startcrtly - 花开花落，人家无瑕'
-      url: 'https://startcrtly.org'
-    - name: '夜雨柠檬 - 踏实努力，远胜轻狂。'
-      url: 'https://blog.yeyulemon.top/'
-    - name: '葱苓sama - a small blog station'
-      url: 'https://blog.ciraos.top'
-    - name: '呆鱼'
-      url: 'https://daiyu.fun/'
-    - name: 'Ever Fu'
-      url: 'https://www.efu.me'
-    - name: '困困鱼'
-      url: 'https://moony.la/'
-    - name: 'LiuShen''s Blog - 清羽飞扬'
-      url: 'https://blog.qyliu.top/'
-    - name: 'Mystic Stars'
-      url: 'https://www.mysticstars.cn/'
-    - name: '木因博客'
-      url: 'https://blog.muyin.site'
-    - name: '知了小站 - IT人的小站'
-      url: 'https://www.ydyno.com/'
-    - name: 'ImQi1'
-      url: 'https://blog.qi1.zone/'
-    - name: 'jnylife'
-      url: 'https://www.jnylife.com/'
-    - name: 'ChenYFan'
-      url: 'https://blog.cyfan.top/'
-    - name: 'Xc''s Blog'
-      url: 'https://6ing.xyz/'
-    - name: 'hongCYu''s Blog'
-      url: 'https://hongcyu.cn'
-    - name: '摸鱼屋'
-      url: 'https://moyu233.top'
+    - name: "freecodecamp"
+      url: "https://www.freecodecamp.org/"
+    - name: "Hello 算法"
+      url: "https://www.hello-algo.com/"
+    - name: "张洪Heo - 分享设计与科技生活"
+      url: "https://blog.zhheo.com/"
+    - name: "贰猹の小窝 - 奋力奔跑，去追心中的那一道光"
+      url: "https://noionion.top/"
+    - name: "杜老师说"
+      url: "https://dusays.com"
+    - name: "Calyee`Blog - 追求充实，分享快乐"
+      url: "https://blog.calyee.top/"
+    - name: "Akilarの糖果屋 - Akilar.top"
+      url: "https://akilar.top/"
+    - name: "风祈的时光录 - 此间的少年"
+      url: "https://imlql.cn/"
+    - name: "Tianli's blog - 自知之明是最难得的知识"
+      url: "https://tianli-blog.club/"
+    - name: "雪人的小屋"
+      url: "https://snowhouse.space/"
+    - name: "Ryan Wang's Blog"
+      url: "https://ryanc.cc/"
+    - name: "安知鱼 - 生活明朗 万物可爱"
+      url: "https://blog.anheyu.com/"
+    - name: "Welcome to nginx!"
+      url: "http://luokangyuan.com/"
+    - name: "咕咕云梦泽 - 气蒸云梦泽，波撼岳阳城。"
+      url: "https://blog.pai233.top/"
+    - name: "Welcome"
+      url: "https://www.dearxuan.com"
+    - name: "小冰博客 - 做个有梦想的人！"
+      url: "https://zfe.space/"
+    - name: "你真是一个美好的人类 - ConstOwn"
+      url: "https://blog.juanertu.com/"
+    - name: "瓦解的生活记事"
+      url: "https://hin.cool"
+    - name: "八尺乌"
+      url: "https://www.vergilisme.com/"
+    - name: "云晓晨CatchYXC"
+      url: "https://www.catchyxc.com/"
+    - name: "Startcrtly - 花开花落，人家无瑕"
+      url: "https://startcrtly.org"
+    - name: "夜雨柠檬 - 踏实努力，远胜轻狂。"
+      url: "https://blog.yeyulemon.top/"
+    - name: "葱苓sama - a small blog station"
+      url: "https://blog.ciraos.top"
+    - name: "呆鱼"
+      url: "https://daiyu.fun/"
+    - name: "Ever Fu"
+      url: "https://www.efu.me"
+    - name: "困困鱼"
+      url: "https://moony.la/"
+    - name: "LiuShen's Blog - 清羽飞扬"
+      url: "https://blog.qyliu.top/"
+    - name: "Mystic Stars"
+      url: "https://www.mysticstars.cn/"
+    - name: "木因博客"
+      url: "https://blog.muyin.site"
+    - name: "知了小站 - IT人的小站"
+      url: "https://www.ydyno.com/"
+    - name: "ImQi1"
+      url: "https://blog.qi1.zone/"
+    - name: "jnylife"
+      url: "https://www.jnylife.com/"
+    - name: "ChenYFan"
+      url: "https://blog.cyfan.top/"
+    - name: "Xc's Blog"
+      url: "https://6ing.xyz/"
+    - name: "hongCYu's Blog"
+      url: "https://hongcyu.cn"
+    - name: "摸鱼屋"
+      url: "https://moyu233.top"

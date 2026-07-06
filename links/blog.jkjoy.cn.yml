@@ -1,10 +1,10 @@
 site:
-  name: 'blog.jkjoy.cn'
-  url: 'http://blog.jkjoy.cn/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.jkjoy.cn"
+  url: "http://blog.jkjoy.cn/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '太阳可以是蓝色'
-      url: 'https://blog.mletter.cn/'
-    - name: '夜庭記'
-      url: 'https://musenxi.com'
+    - name: "太阳可以是蓝色"
+      url: "https://blog.mletter.cn/"
+    - name: "夜庭記"
+      url: "https://musenxi.com"

@@ -1,44 +1,44 @@
 site:
-  name: 'jerrygao.cn'
-  url: 'https://www.jerrygao.cn/'
-  description: '友情链接'
-  links: '/friends'
+  name: "jerrygao.cn"
+  url: "https://www.jerrygao.cn/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'ren517''s Blogren517.xyz码农矿工02'
-      url: 'https://ren517.xyz'
-    - name: 'FeiTwndfeitwnd.cc初出茅庐 | 科班码农 | 拾枝者 · 欢迎来到我的主页01'
-      url: 'https://feitwnd.cc/'
-    - name: '笑的博客blog.xiaow.qzz.io随性收拢生活散落的笑意，与同路人漫谈成长微澜。02'
-      url: 'https://blog.xiaow.qzz.io'
-    - name: 'I Am I5ime.cn永远相信美好的事情即将发生03'
-      url: 'https://5ime.cn'
-    - name: 'Haoyu的博客g-haoyu.top恭喜，你发现了宝藏05'
-      url: 'https://g-haoyu.top/'
-    - name: '星河避难所hejunjie.life写代码，也写自己06'
-      url: 'https://hejunjie.life'
-    - name: '猫普的精神世界maplezz.com一个独立开发者的精神自留地07'
-      url: 'https://maplezz.com'
-    - name: 'liangbm3''s blogliangbm3.site总有人间一两风，填我十万八千梦。08'
-      url: 'https://liangbm3.site/'
-    - name: 'SuemorのBlogsuemor.com在探索的过程中遇见更好的自己09'
-      url: 'https://suemor.com/'
-    - name: 'JianyueQblog.jianyue.cloud专注后端开发,常用技术:后端-Java;前端: Vue;运维:docker10'
-      url: 'https://blog.jianyue.cloud'
-    - name: 'Hmilywww.hmily.ren生活探索日记11'
-      url: 'https://www.hmily.ren/'
-    - name: 'Damonz_ZhangのBlogblog.damonz.cn于万千星光沉溺12'
-      url: 'https://blog.damonz.cn'
-    - name: '糖羽仙www.tangyuxian.com糖羽仙13'
-      url: 'https://www.tangyuxian.com/'
-    - name: '小夏的个人空间taoi.me小夏的个人空间14'
-      url: 'https://taoi.me'
-    - name: 'Yunyi''s Blogwww.yunyitang.me得闲饮茶～～～15'
-      url: 'https://www.yunyitang.me/'
-    - name: '浅兮的博客xyx5916.qzz.io刚建起来的网站，期待更多作品16'
-      url: 'https://xyx5916.qzz.io/'
-    - name: 'AZERL7blog.azerl7.dpdns.orgi want become what i want17'
-      url: 'https://blog.azerl7.dpdns.org/'
-    - name: 'Bear随笔xobear.cn一个不断学习的家伙18'
-      url: 'http://xobear.cn/'
-    - name: '小曹同学blog.caotx.cn春祺夏安 秋绥冬禧19'
-      url: 'https://blog.caotx.cn/'
+    - name: "ren517's Blogren517.xyz码农矿工02"
+      url: "https://ren517.xyz"
+    - name: "FeiTwndfeitwnd.cc初出茅庐 | 科班码农 | 拾枝者 · 欢迎来到我的主页01"
+      url: "https://feitwnd.cc/"
+    - name: "笑的博客blog.xiaow.qzz.io随性收拢生活散落的笑意，与同路人漫谈成长微澜。02"
+      url: "https://blog.xiaow.qzz.io"
+    - name: "I Am I5ime.cn永远相信美好的事情即将发生03"
+      url: "https://5ime.cn"
+    - name: "Haoyu的博客g-haoyu.top恭喜，你发现了宝藏05"
+      url: "https://g-haoyu.top/"
+    - name: "星河避难所hejunjie.life写代码，也写自己06"
+      url: "https://hejunjie.life"
+    - name: "猫普的精神世界maplezz.com一个独立开发者的精神自留地07"
+      url: "https://maplezz.com"
+    - name: "liangbm3's blogliangbm3.site总有人间一两风，填我十万八千梦。08"
+      url: "https://liangbm3.site/"
+    - name: "SuemorのBlogsuemor.com在探索的过程中遇见更好的自己09"
+      url: "https://suemor.com/"
+    - name: "JianyueQblog.jianyue.cloud专注后端开发,常用技术:后端-Java;前端: Vue;运维:docker10"
+      url: "https://blog.jianyue.cloud"
+    - name: "Hmilywww.hmily.ren生活探索日记11"
+      url: "https://www.hmily.ren/"
+    - name: "Damonz_ZhangのBlogblog.damonz.cn于万千星光沉溺12"
+      url: "https://blog.damonz.cn"
+    - name: "糖羽仙www.tangyuxian.com糖羽仙13"
+      url: "https://www.tangyuxian.com/"
+    - name: "小夏的个人空间taoi.me小夏的个人空间14"
+      url: "https://taoi.me"
+    - name: "Yunyi's Blogwww.yunyitang.me得闲饮茶～～～15"
+      url: "https://www.yunyitang.me/"
+    - name: "浅兮的博客xyx5916.qzz.io刚建起来的网站，期待更多作品16"
+      url: "https://xyx5916.qzz.io/"
+    - name: "AZERL7blog.azerl7.dpdns.orgi want become what i want17"
+      url: "https://blog.azerl7.dpdns.org/"
+    - name: "Bear随笔xobear.cn一个不断学习的家伙18"
+      url: "http://xobear.cn/"
+    - name: "小曹同学blog.caotx.cn春祺夏安 秋绥冬禧19"
+      url: "https://blog.caotx.cn/"

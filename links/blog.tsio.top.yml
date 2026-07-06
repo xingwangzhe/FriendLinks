@@ -1,42 +1,42 @@
 site:
-  name: 'blog.tsio.top'
-  url: 'https://blog.tsio.top/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.tsio.top"
+  url: "https://blog.tsio.top/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '回忆航线 喜欢捣鼓的博主'
-      url: 'https://www.kunkunyu.com'
-    - name: 'Ryan Wang 爱码士。现任 Halo 开源团队首席打杂工。'
-      url: 'https://ryanc.cc/'
-    - name: 'secrun 一切伟大的行动和思想，都有一个微不足道的开始。'
-      url: 'https://sec.run/'
-    - name: 'Crant 用心记录，美好生活。'
-      url: 'https://www.crant.cn'
-    - name: 'Carol 小屋 只想专心玩NAS'
-      url: 'https://blog.xindu.site/'
-    - name: '小小笔记大大用处 保持热爱，奔赴山海'
-      url: 'https://blog.uptoz.cn'
-    - name: '世界第一可爱 biu~'
-      url: 'https://www.nahida.cn/'
-    - name: 'Andy烧麦'
-      url: 'https://4311346.com/'
-    - name: '彼岸SKY 学习与分享'
-      url: 'https://blog.lonelyx.cn/'
-    - name: '旅者Bin 探索 | 实践 | 记录 | 分享'
-      url: 'https://blog.101jc.com/'
-    - name: '索元的博客 CS菜鸟不断挣扎的记录'
-      url: 'https://s5n.xyz/'
-    - name: '雾林博客 首听未闻曲中意，再听已是曲中人'
-      url: 'https://www.baiwulin.com'
-    - name: '楠笙 空谈误国，实干兴邦'
-      url: 'https://blog.nanshengwx.cn/'
-    - name: '山山而川 人生海海 山山而川 不过尔尔'
-      url: 'https://blog.immm.cn/'
-    - name: '陶小桃Blog 热衷于分享日常和技术的机械专业小哥哥~'
-      url: 'https://www.52txr.cn'
-    - name: 'ZERO开发 一个持续探索副业的独立开发者博客'
-      url: 'https://www.zerofc.cn/'
-    - name: 'CYQI团队 给时光以生命，给岁月以文明'
-      url: 'https://www.cyqi.top/'
-    - name: 'kilokite blog 世界只是一直在旋转'
-      url: 'https://blog.kt.sb/'
+    - name: "回忆航线 喜欢捣鼓的博主"
+      url: "https://www.kunkunyu.com"
+    - name: "Ryan Wang 爱码士。现任 Halo 开源团队首席打杂工。"
+      url: "https://ryanc.cc/"
+    - name: "secrun 一切伟大的行动和思想，都有一个微不足道的开始。"
+      url: "https://sec.run/"
+    - name: "Crant 用心记录，美好生活。"
+      url: "https://www.crant.cn"
+    - name: "Carol 小屋 只想专心玩NAS"
+      url: "https://blog.xindu.site/"
+    - name: "小小笔记大大用处 保持热爱，奔赴山海"
+      url: "https://blog.uptoz.cn"
+    - name: "世界第一可爱 biu~"
+      url: "https://www.nahida.cn/"
+    - name: "Andy烧麦"
+      url: "https://4311346.com/"
+    - name: "彼岸SKY 学习与分享"
+      url: "https://blog.lonelyx.cn/"
+    - name: "旅者Bin 探索 | 实践 | 记录 | 分享"
+      url: "https://blog.101jc.com/"
+    - name: "索元的博客 CS菜鸟不断挣扎的记录"
+      url: "https://s5n.xyz/"
+    - name: "雾林博客 首听未闻曲中意，再听已是曲中人"
+      url: "https://www.baiwulin.com"
+    - name: "楠笙 空谈误国，实干兴邦"
+      url: "https://blog.nanshengwx.cn/"
+    - name: "山山而川 人生海海 山山而川 不过尔尔"
+      url: "https://blog.immm.cn/"
+    - name: "陶小桃Blog 热衷于分享日常和技术的机械专业小哥哥~"
+      url: "https://www.52txr.cn"
+    - name: "ZERO开发 一个持续探索副业的独立开发者博客"
+      url: "https://www.zerofc.cn/"
+    - name: "CYQI团队 给时光以生命，给岁月以文明"
+      url: "https://www.cyqi.top/"
+    - name: "kilokite blog 世界只是一直在旋转"
+      url: "https://blog.kt.sb/"

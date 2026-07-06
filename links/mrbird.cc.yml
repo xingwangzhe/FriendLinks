@@ -1,32 +1,32 @@
 site:
-  name: 'mrbird.cc'
-  url: 'https://mrbird.cc/'
-  description: '友情链接'
-  links: '/friends'
+  name: "mrbird.cc"
+  url: "https://mrbird.cc/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '小胖胖的blog'
-      url: 'http://althars.top'
-    - name: 'TyCoding''s blog'
-      url: 'https://www.tycoding.cn'
-    - name: '天堂芝士'
-      url: 'https://www.godcheese.com'
-    - name: 'Yuuki''s blog'
-      url: 'https://yuukiblog.top'
-    - name: 'Bobby''s blog'
-      url: 'https://www.shuibo.cn'
-    - name: '会打篮球的程序猿'
-      url: 'http://www.lzhpo.com'
-    - name: 'cv🐼'
-      url: 'https://liuzhuoming23.github.io'
-    - name: '90码农历险记'
-      url: 'https://blog.gobyte.cn'
-    - name: '一片云'
-      url: 'https://www.sonake.com/'
-    - name: '落日余晖'
-      url: 'https://mgzu.github.io'
-    - name: '成长的博客'
-      url: 'https://blog.remember5.top/'
-    - name: 'garnett''s blog'
-      url: 'https://blog.gaoyp.cn/'
-    - name: '🐸千秋万达'
-      url: 'https://yzblog.cc'
+    - name: "小胖胖的blog"
+      url: "http://althars.top"
+    - name: "TyCoding's blog"
+      url: "https://www.tycoding.cn"
+    - name: "天堂芝士"
+      url: "https://www.godcheese.com"
+    - name: "Yuuki's blog"
+      url: "https://yuukiblog.top"
+    - name: "Bobby's blog"
+      url: "https://www.shuibo.cn"
+    - name: "会打篮球的程序猿"
+      url: "http://www.lzhpo.com"
+    - name: "cv🐼"
+      url: "https://liuzhuoming23.github.io"
+    - name: "90码农历险记"
+      url: "https://blog.gobyte.cn"
+    - name: "一片云"
+      url: "https://www.sonake.com/"
+    - name: "落日余晖"
+      url: "https://mgzu.github.io"
+    - name: "成长的博客"
+      url: "https://blog.remember5.top/"
+    - name: "garnett's blog"
+      url: "https://blog.gaoyp.cn/"
+    - name: "🐸千秋万达"
+      url: "https://yzblog.cc"

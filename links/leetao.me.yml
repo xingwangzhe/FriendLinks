@@ -1,12 +1,12 @@
 site:
-  name: 'leetao.me'
-  url: 'https://www.leetao.me/'
-  description: '友情链接'
-  links: '/about'
+  name: "leetao.me"
+  url: "https://www.leetao.me/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: 'liruifengv Web 开发者，Astro 项目成员，开源爱好者。'
-      url: 'https://liruifengv.com'
-    - name: '非理勿试 偶尔脑残，喜欢作死，希望大家不要学我'
-      url: 'https://www.ntiy.com'
-    - name: 'Joey Yang 专业BUG制造者'
-      url: 'http://code2life.top/'
+    - name: "liruifengv Web 开发者，Astro 项目成员，开源爱好者。"
+      url: "https://liruifengv.com"
+    - name: "非理勿试 偶尔脑残，喜欢作死，希望大家不要学我"
+      url: "https://www.ntiy.com"
+    - name: "Joey Yang 专业BUG制造者"
+      url: "http://code2life.top/"

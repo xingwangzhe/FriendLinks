@@ -1,58 +1,58 @@
 site:
-  name: 'blog.leoo.work'
-  url: 'https://blog.leoo.work/'
-  description: '友情链接'
-  links: '/link'
+  name: "blog.leoo.work"
+  url: "https://blog.leoo.work/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: '青萍叙事'
-      url: 'https://blog.lusyoe.com'
-    - name: '周天记'
-      url: 'https://zhoutian.com'
-    - name: '探人间努力吃上更贵的雪糕！'
-      url: 'https://www.hydsb0.com'
-    - name: 'Lei一个小趴菜'
-      url: 'https://blog.leihub.cn'
-    - name: '王鑫的小站活着就是为了折腾！'
-      url: 'https://wxweb.xyz'
-    - name: '我剑也未尝不利对所有的烦恼说拜拜，对所有的快乐说嗨嗨~'
-      url: 'https://tch.cool'
-    - name: '山茶花舍吕楪在记录自己的生活'
-      url: 'https://irithys.com'
-    - name: '青稚の空间越努力，越幸运.'
-      url: 'https://blog.linux-qitong.top'
-    - name: 'Elykia致以无暇之人'
-      url: 'https://blog.elykia.cn/'
-    - name: '一只小白菜''Blog抱怨身处黑暗，不如提灯前行'
-      url: 'https://blog.1zxbc.cn'
-    - name: '朽丘秋雨定会和喜欢的人在夏日夜晚牵手慢步'
-      url: 'https://blog.koxiuqiu.cc'
-    - name: '目的地-Destination前程似锦、未来可期、寻得良人、共赴白头，祝你也祝我。'
-      url: 'https://chrison.cn/'
-    - name: '南方嘉木不畏将来，不念过往。'
-      url: 'https://blog.cancin.cn/'
-    - name: 'Jame随笔'
-      url: 'https://jame.work'
-    - name: 'iMaeGoo’s Blog‍虹墨空间站'
-      url: 'https://www.imaegoo.com'
-    - name: '塔塔心平能愈三千疾•心静可通万事理'
-      url: 'https://www.tata.me'
-    - name: '小赵の破宅让美好持续发生.'
-      url: 'https://www.ziyis.cn'
-    - name: '逐月星屿鑫的分享小站'
-      url: 'https://cuiyouxin.cn'
-    - name: 'Roxy_Magicの咖啡馆昨日之书已合，今日之页当以“真本事”为墨'
-      url: 'https://blog.roxymagic.top/'
-    - name: 'Almango天真永不消逝，浪漫至死不渝。'
-      url: 'https://www.almango.cn/'
-    - name: 'bbb-lsy07科技激荡人文，洞见智慧本真。'
-      url: 'https://blog.6uu.us/'
-    - name: '𝟞𝟙𝟡’𝕤 𝔹𝕃𝕆𝔾𝓙𝓾𝓼𝓽 𝓪 𝓬𝓵𝓸𝓾𝓭.'
-      url: 'https://66619.eu.org'
-    - name: '小林の木屋一个黑客小子！'
-      url: 'https://www.wjlin0.com'
-    - name: 'kina漫记千鹤飞,樱花映樱井,春梦轻绕'
-      url: 'https://kina.ink/'
-    - name: 'NihaoShopA person’s website'
-      url: 'https://nihao.show/'
-    - name: 'Guhe Blog分享技术与生活趣事！'
-      url: 'https://blog.aevi.top'
+    - name: "青萍叙事"
+      url: "https://blog.lusyoe.com"
+    - name: "周天记"
+      url: "https://zhoutian.com"
+    - name: "探人间努力吃上更贵的雪糕！"
+      url: "https://www.hydsb0.com"
+    - name: "Lei一个小趴菜"
+      url: "https://blog.leihub.cn"
+    - name: "王鑫的小站活着就是为了折腾！"
+      url: "https://wxweb.xyz"
+    - name: "我剑也未尝不利对所有的烦恼说拜拜，对所有的快乐说嗨嗨~"
+      url: "https://tch.cool"
+    - name: "山茶花舍吕楪在记录自己的生活"
+      url: "https://irithys.com"
+    - name: "青稚の空间越努力，越幸运."
+      url: "https://blog.linux-qitong.top"
+    - name: "Elykia致以无暇之人"
+      url: "https://blog.elykia.cn/"
+    - name: "一只小白菜'Blog抱怨身处黑暗，不如提灯前行"
+      url: "https://blog.1zxbc.cn"
+    - name: "朽丘秋雨定会和喜欢的人在夏日夜晚牵手慢步"
+      url: "https://blog.koxiuqiu.cc"
+    - name: "目的地-Destination前程似锦、未来可期、寻得良人、共赴白头，祝你也祝我。"
+      url: "https://chrison.cn/"
+    - name: "南方嘉木不畏将来，不念过往。"
+      url: "https://blog.cancin.cn/"
+    - name: "Jame随笔"
+      url: "https://jame.work"
+    - name: "iMaeGoo’s Blog‍虹墨空间站"
+      url: "https://www.imaegoo.com"
+    - name: "塔塔心平能愈三千疾•心静可通万事理"
+      url: "https://www.tata.me"
+    - name: "小赵の破宅让美好持续发生."
+      url: "https://www.ziyis.cn"
+    - name: "逐月星屿鑫的分享小站"
+      url: "https://cuiyouxin.cn"
+    - name: "Roxy_Magicの咖啡馆昨日之书已合，今日之页当以“真本事”为墨"
+      url: "https://blog.roxymagic.top/"
+    - name: "Almango天真永不消逝，浪漫至死不渝。"
+      url: "https://www.almango.cn/"
+    - name: "bbb-lsy07科技激荡人文，洞见智慧本真。"
+      url: "https://blog.6uu.us/"
+    - name: "𝟞𝟙𝟡’𝕤 𝔹𝕃𝕆𝔾𝓙𝓾𝓼𝓽 𝓪 𝓬𝓵𝓸𝓾𝓭."
+      url: "https://66619.eu.org"
+    - name: "小林の木屋一个黑客小子！"
+      url: "https://www.wjlin0.com"
+    - name: "kina漫记千鹤飞,樱花映樱井,春梦轻绕"
+      url: "https://kina.ink/"
+    - name: "NihaoShopA person’s website"
+      url: "https://nihao.show/"
+    - name: "Guhe Blog分享技术与生活趣事！"
+      url: "https://blog.aevi.top"

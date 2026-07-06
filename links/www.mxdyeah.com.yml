@@ -1,18 +1,18 @@
 site:
-  name: 'Welcome To mxd's Planet'
-  url: 'https://www.mxdyeah.com/'
-  description: '你好！欢迎来到我的个人主页！我是一个热爱技术的学生，在这里你可以找到我其他小站的链接。本站已用Tailwind CSS 重构。Hello! Welcome to'
-  links: '/links'
+  name: "Welcome To mxd's Planet"
+  url: "https://www.mxdyeah.com/"
+  description: "你好！欢迎来到我的个人主页！我是一个热爱技术的学生，在这里你可以找到我其他小站的链接。本站已用Tailwind CSS 重构。Hello! Welcome to"
+  links: "/links"
   friends:
-    - name: 'mxd's Blog'
-      url: 'https://blog.mxdyeah.com/'
-    - name: 'FreeBSD 从入门到跑路'
-      url: 'https://book.bsdcn.org/'
-    - name: 'MingTone滴小站'
-      url: 'https://blog.furry.ist/'
-    - name: 'MIFENG の 主页'
-      url: 'https://imbee.top/'
-    - name: 'Xiaolanの神秘小窝'
-      url: 'https://www.xiaolan.xin/'
-    - name: '小御坂的避难所'
-      url: 'https://www.misakano.cn/'
+    - name: "mxd's Blog"
+      url: "https://blog.mxdyeah.com/"
+    - name: "FreeBSD 从入门到跑路"
+      url: "https://book.bsdcn.org/"
+    - name: "MingTone滴小站"
+      url: "https://blog.furry.ist/"
+    - name: "MIFENG の 主页"
+      url: "https://imbee.top/"
+    - name: "Xiaolanの神秘小窝"
+      url: "https://www.xiaolan.xin/"
+    - name: "小御坂的避难所"
+      url: "https://www.misakano.cn/"

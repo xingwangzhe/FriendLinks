@@ -1,58 +1,58 @@
 site:
-  name: 'jakting.com'
-  url: 'https://jakting.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "jakting.com"
+  url: "https://jakting.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '虤虤豆'
-      url: 'https://tiger.fail'
-    - name: '极光技术小栈（https://www.gvoidy.cn/）'
-      url: 'https://www.gvoidy.cn/'
-    - name: 'gago9的博客（https://gago9.cn/）'
-      url: 'https://gago9.cn/'
-    - name: 'johnpoint''s blog（https://blog.lvcshu.com/）'
-      url: 'https://blog.lvcshu.com/'
-    - name: 'この青空に約束を（https://9yu.eu/）'
-      url: 'https://9yu.eu/'
-    - name: 'pjs的小窝（https://shushugo.com/）'
-      url: 'https://shushugo.com/'
-    - name: 'iKirby''s Blog（https://ikirby.me/）'
-      url: 'https://ikirby.me/'
-    - name: '扁担长 板凳宽（https://biantan.org/）'
-      url: 'https://biantan.org/'
-    - name: 'TTQ''s Blog（https://blog.ponder.fun/）'
-      url: 'https://blog.ponder.fun/'
-    - name: 'NEVER 迷の小窝（https://never.pet/）'
-      url: 'https://never.pet/'
-    - name: '独孤伶俜（https://blog.icyuyan.net/）'
-      url: 'https://blog.icyuyan.net/'
-    - name: 'MyBules（https://mybules.com）'
-      url: 'https://mybules.com'
-    - name: 'Hiccup''s blog（https://xdong.me/）'
-      url: 'https://xdong.me/'
-    - name: 'z3475''s Blog（https://z3475.work/）'
-      url: 'https://z3475.work/'
-    - name: 'Justf Tech Channel（https://tech.justf.space/）'
-      url: 'https://tech.justf.space/'
-    - name: 'kn007的个人博客（https://kn007.net/）'
-      url: 'https://kn007.net/'
-    - name: 'GoodGuy''blog（http://goodguy.cc/）'
-      url: 'http://goodguy.cc/'
-    - name: 'Boaz hut（https://sboaz.cn/）'
-      url: 'https://sboaz.cn/'
-    - name: '小游网（https://www.xiaoyou66.com）'
-      url: 'https://www.xiaoyou66.com'
-    - name: 'Notype 的博客（https://blog.notnotype.com/）'
-      url: 'https://blog.notnotype.com/'
-    - name: '陈某人的基地（https://chenzhuo233.github.io/）'
-      url: 'https://chenzhuo233.github.io/'
-    - name: '朱润根的博客（https://blog.jeongen.com/）'
-      url: 'https://blog.jeongen.com/'
-    - name: '叶凡（http://yi9.me/）'
-      url: 'http://yi9.me/'
-    - name: '果果说（https://guo.moe/）'
-      url: 'https://guo.moe/'
-    - name: 'Kiseopt（https://blog.acg.vc）'
-      url: 'https://blog.acg.vc'
-    - name: '邓邓邓邓邓志祥（http://www.dengzhixiang.top/）'
-      url: 'http://www.dengzhixiang.top/'
+    - name: "虤虤豆"
+      url: "https://tiger.fail"
+    - name: "极光技术小栈（https://www.gvoidy.cn/）"
+      url: "https://www.gvoidy.cn/"
+    - name: "gago9的博客（https://gago9.cn/）"
+      url: "https://gago9.cn/"
+    - name: "johnpoint's blog（https://blog.lvcshu.com/）"
+      url: "https://blog.lvcshu.com/"
+    - name: "この青空に約束を（https://9yu.eu/）"
+      url: "https://9yu.eu/"
+    - name: "pjs的小窝（https://shushugo.com/）"
+      url: "https://shushugo.com/"
+    - name: "iKirby's Blog（https://ikirby.me/）"
+      url: "https://ikirby.me/"
+    - name: "扁担长 板凳宽（https://biantan.org/）"
+      url: "https://biantan.org/"
+    - name: "TTQ's Blog（https://blog.ponder.fun/）"
+      url: "https://blog.ponder.fun/"
+    - name: "NEVER 迷の小窝（https://never.pet/）"
+      url: "https://never.pet/"
+    - name: "独孤伶俜（https://blog.icyuyan.net/）"
+      url: "https://blog.icyuyan.net/"
+    - name: "MyBules（https://mybules.com）"
+      url: "https://mybules.com"
+    - name: "Hiccup's blog（https://xdong.me/）"
+      url: "https://xdong.me/"
+    - name: "z3475's Blog（https://z3475.work/）"
+      url: "https://z3475.work/"
+    - name: "Justf Tech Channel（https://tech.justf.space/）"
+      url: "https://tech.justf.space/"
+    - name: "kn007的个人博客（https://kn007.net/）"
+      url: "https://kn007.net/"
+    - name: "GoodGuy'blog（http://goodguy.cc/）"
+      url: "http://goodguy.cc/"
+    - name: "Boaz hut（https://sboaz.cn/）"
+      url: "https://sboaz.cn/"
+    - name: "小游网（https://www.xiaoyou66.com）"
+      url: "https://www.xiaoyou66.com"
+    - name: "Notype 的博客（https://blog.notnotype.com/）"
+      url: "https://blog.notnotype.com/"
+    - name: "陈某人的基地（https://chenzhuo233.github.io/）"
+      url: "https://chenzhuo233.github.io/"
+    - name: "朱润根的博客（https://blog.jeongen.com/）"
+      url: "https://blog.jeongen.com/"
+    - name: "叶凡（http://yi9.me/）"
+      url: "http://yi9.me/"
+    - name: "果果说（https://guo.moe/）"
+      url: "https://guo.moe/"
+    - name: "Kiseopt（https://blog.acg.vc）"
+      url: "https://blog.acg.vc"
+    - name: "邓邓邓邓邓志祥（http://www.dengzhixiang.top/）"
+      url: "http://www.dengzhixiang.top/"

@@ -1,26 +1,26 @@
 site:
-  name: 'livesino.net'
-  url: 'http://livesino.net/'
-  description: '友情链接'
-  links: '/links'
+  name: "livesino.net"
+  url: "http://livesino.net/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Devices.css'
-      url: 'https://devicescss.xyz/'
-    - name: 'Weibusi.net'
-      url: 'http://weibusi.net/'
-    - name: '搜索引擎周边'
-      url: 'http://www.eryi.org/'
-    - name: '创造狮'
-      url: 'http://chuangzaoshi.com/'
-    - name: 'maqingxi'
-      url: 'https://www.yseeker.com/'
-    - name: '颜修门'
-      url: 'http://www.jimaku.cn'
-    - name: 'Emin'
-      url: 'https://www.emin.ink'
-    - name: 'CommandNotFound-坑否'
-      url: 'https://commandnotfound.cn'
-    - name: 'makemoney'
-      url: 'http://doporos.com'
-    - name: 'django'
-      url: 'http://stdworkflow.com'
+    - name: "Devices.css"
+      url: "https://devicescss.xyz/"
+    - name: "Weibusi.net"
+      url: "http://weibusi.net/"
+    - name: "搜索引擎周边"
+      url: "http://www.eryi.org/"
+    - name: "创造狮"
+      url: "http://chuangzaoshi.com/"
+    - name: "maqingxi"
+      url: "https://www.yseeker.com/"
+    - name: "颜修门"
+      url: "http://www.jimaku.cn"
+    - name: "Emin"
+      url: "https://www.emin.ink"
+    - name: "CommandNotFound-坑否"
+      url: "https://commandnotfound.cn"
+    - name: "makemoney"
+      url: "http://doporos.com"
+    - name: "django"
+      url: "http://stdworkflow.com"

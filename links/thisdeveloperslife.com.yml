@@ -1,14 +1,14 @@
 site:
-  name: 'thisdeveloperslife.com'
-  url: 'http://thisdeveloperslife.com/'
-  description: '友情链接'
-  links: '/'
+  name: "thisdeveloperslife.com"
+  url: "http://thisdeveloperslife.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Scott Hanselman'
-      url: 'https://hanselman.com'
-    - name: 'Rob Conery'
-      url: 'https://robconery.com'
-    - name: 'David Heinemeier Hansson'
-      url: 'http://loudthinking.com/'
-    - name: 'Ruby on Rails,'
-      url: 'http://rubyonrails.org/'
+    - name: "Scott Hanselman"
+      url: "https://hanselman.com"
+    - name: "Rob Conery"
+      url: "https://robconery.com"
+    - name: "David Heinemeier Hansson"
+      url: "http://loudthinking.com/"
+    - name: "Ruby on Rails,"
+      url: "http://rubyonrails.org/"

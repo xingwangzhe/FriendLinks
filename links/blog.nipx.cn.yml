@@ -1,10 +1,10 @@
 site:
-  name: 'NipGeihou's blog'
-  url: 'https://blog.nipx.cn/'
-  description: 'Java后端技术博客,专注Java后端学习与总结。Java,Spring,SpringBoot,MyBatis,MySQL,Redis,golang,html5'
-  links: '/links'
+  name: "NipGeihou's blog"
+  url: "https://blog.nipx.cn/"
+  description: "Java后端技术博客,专注Java后端学习与总结。Java,Spring,SpringBoot,MyBatis,MySQL,Redis,golang,html5"
+  links: "/links"
   friends:
-    - name: 'Blog'
-      url: 'https://xiaojing.nipx.cn/'
-    - name: '归去如风'
-      url: 'https://r2wind.cn/'
+    - name: "Blog"
+      url: "https://xiaojing.nipx.cn/"
+    - name: "归去如风"
+      url: "https://r2wind.cn/"

@@ -1,10 +1,10 @@
 site:
-  name: 'paloinino.com'
-  url: 'http://www.paloinino.com/'
-  description: '友情链接'
-  links: '/link'
+  name: "paloinino.com"
+  url: "http://www.paloinino.com/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: 'wu先生'
-      url: 'https://wuziya.com'
-    - name: 'chunqing'
-      url: 'https://blog.xiaohack.org'
+    - name: "wu先生"
+      url: "https://wuziya.com"
+    - name: "chunqing"
+      url: "https://blog.xiaohack.org"

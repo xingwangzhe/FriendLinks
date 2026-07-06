@@ -1,14 +1,14 @@
 site:
-  name: 'oobaloo.co.uk'
-  url: 'https://oobaloo.co.uk/'
-  description: '友情链接'
-  links: '/'
+  name: "oobaloo.co.uk"
+  url: "https://oobaloo.co.uk/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Metrics'
-      url: 'http://metrics.dropwizard.io/'
-    - name: 'Metrics'
-      url: 'http://metrics.codahale.com/'
-    - name: 'Apache Kafka'
-      url: 'http://kafka.apacheorg'
-    - name: 'Paul'
-      url: 'http://www.quantisan.com'
+    - name: "Metrics"
+      url: "http://metrics.dropwizard.io/"
+    - name: "Metrics"
+      url: "http://metrics.codahale.com/"
+    - name: "Apache Kafka"
+      url: "http://kafka.apacheorg"
+    - name: "Paul"
+      url: "http://www.quantisan.com"

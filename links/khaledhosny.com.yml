@@ -1,30 +1,30 @@
 site:
-  name: 'khaledhosny.com'
-  url: 'https://khaledhosny.com/'
-  description: '友情链接'
-  links: '/'
+  name: "khaledhosny.com"
+  url: "https://khaledhosny.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Gnome'
-      url: 'https://gnome.org'
-    - name: 'Firefox'
-      url: 'https://www.firefox.com'
-    - name: 'LuaTeX'
-      url: 'https://luatex.org'
-    - name: 'FontForge'
-      url: 'https://fontforge.org'
-    - name: 'Scribus'
-      url: 'https://www.scribus.net'
-    - name: 'Alif Type'
-      url: 'https://aliftype.com'
-    - name: 'Translate House'
-      url: 'https://translatehouse.org'
-    - name: 'Pootle'
-      url: 'https://pootle.translatehouse.org'
-    - name: 'Translate Toolkit'
-      url: 'https://toolkit.translatehouse.org'
-    - name: 'Hindawi Publishing Corporation'
-      url: 'https://www.hindawi.com'
-    - name: 'Motoon'
-      url: 'https://motoon.org'
-    - name: 'The Document Foundation'
-      url: 'https://www.documentfoundation.org'
+    - name: "Gnome"
+      url: "https://gnome.org"
+    - name: "Firefox"
+      url: "https://www.firefox.com"
+    - name: "LuaTeX"
+      url: "https://luatex.org"
+    - name: "FontForge"
+      url: "https://fontforge.org"
+    - name: "Scribus"
+      url: "https://www.scribus.net"
+    - name: "Alif Type"
+      url: "https://aliftype.com"
+    - name: "Translate House"
+      url: "https://translatehouse.org"
+    - name: "Pootle"
+      url: "https://pootle.translatehouse.org"
+    - name: "Translate Toolkit"
+      url: "https://toolkit.translatehouse.org"
+    - name: "Hindawi Publishing Corporation"
+      url: "https://www.hindawi.com"
+    - name: "Motoon"
+      url: "https://motoon.org"
+    - name: "The Document Foundation"
+      url: "https://www.documentfoundation.org"

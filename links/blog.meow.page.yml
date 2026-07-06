@@ -1,34 +1,34 @@
 site:
-  name: 'blog.meow.page'
-  url: 'https://blog.meow.page/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.meow.page"
+  url: "https://blog.meow.page/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'xiaohu'
-      url: 'http://ntltc.top/'
-    - name: 'moonou'
-      url: 'https://moonou.dev/'
-    - name: 'KadeDivent'
-      url: 'http://KadeDivent.github.io/'
-    - name: 'bysir'
-      url: 'https://blog.bysir.top/'
-    - name: 'liming'
-      url: 'https://blog.unknowns.info'
-    - name: 'abyss'
-      url: 'https://blog.abyss.moe/'
-    - name: '凤凰聚聚'
-      url: 'https://blog.phoenixlzx.com'
-    - name: 'christophetd'
-      url: 'https://blog.christophetd.fr'
-    - name: 'regex101'
-      url: 'https://regex101.com'
-    - name: 'outage'
-      url: 'https://outage.report'
-    - name: 'downdetector'
-      url: 'https://downdetector.com/'
-    - name: 'techmap'
-      url: 'https://techmap.canmeng.net/#'
-    - name: 'curl to python requests'
-      url: 'https://curl.trillworks.com/'
-    - name: '哪煮米'
-      url: 'https://www.nazhumi.com'
+    - name: "xiaohu"
+      url: "http://ntltc.top/"
+    - name: "moonou"
+      url: "https://moonou.dev/"
+    - name: "KadeDivent"
+      url: "http://KadeDivent.github.io/"
+    - name: "bysir"
+      url: "https://blog.bysir.top/"
+    - name: "liming"
+      url: "https://blog.unknowns.info"
+    - name: "abyss"
+      url: "https://blog.abyss.moe/"
+    - name: "凤凰聚聚"
+      url: "https://blog.phoenixlzx.com"
+    - name: "christophetd"
+      url: "https://blog.christophetd.fr"
+    - name: "regex101"
+      url: "https://regex101.com"
+    - name: "outage"
+      url: "https://outage.report"
+    - name: "downdetector"
+      url: "https://downdetector.com/"
+    - name: "techmap"
+      url: "https://techmap.canmeng.net/#"
+    - name: "curl to python requests"
+      url: "https://curl.trillworks.com/"
+    - name: "哪煮米"
+      url: "https://www.nazhumi.com"

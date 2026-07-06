@@ -1,12 +1,12 @@
 site:
-  name: 'gilmi.me'
-  url: 'https://gilmi.me/'
-  description: '友情链接'
-  links: '/'
+  name: "gilmi.me"
+  url: "https://gilmi.me/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'gitea'
-      url: 'https://vcs.gilmi.net'
-    - name: 'Giml'
-      url: 'https://giml-lang.org'
-    - name: 'Learn Haskell by building a blog generator'
-      url: 'https://learn-haskell.blog'
+    - name: "gitea"
+      url: "https://vcs.gilmi.net"
+    - name: "Giml"
+      url: "https://giml-lang.org"
+    - name: "Learn Haskell by building a blog generator"
+      url: "https://learn-haskell.blog"

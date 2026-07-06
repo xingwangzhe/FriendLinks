@@ -1,116 +1,116 @@
 site:
-  name: 'tonyhead.com'
-  url: 'https://www.tonyhead.com/'
-  description: '友情链接'
-  links: '/link'
+  name: "tonyhead.com"
+  url: "https://www.tonyhead.com/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: '小猪的窝'
-      url: 'https://ezo.biz/'
-    - name: '阮瑪莉'
-      url: 'https://marieyuen.blogspot.com/'
-    - name: '胡某的小站'
-      url: 'http://tqay.com/'
-    - name: 'ahko''s comics'
-      url: 'https://ahko.blogspot.hk/'
-    - name: '土木坛子'
-      url: 'https://tumutanzi.com/'
-    - name: '大漠网迹'
-      url: 'http://www.83blog.com/'
-    - name: '永望镇'
-      url: 'https://shikinblog.wordpress.com/'
-    - name: '伍仪洲的博客'
-      url: 'https://wuyizhou.com/'
-    - name: 'Suigion'
-      url: 'https://www.suigion.com/'
-    - name: '無情天的博客'
-      url: 'https://kofzhanganguo.home.blog/'
-    - name: 'read and go'
-      url: 'https://unee.wang/'
-    - name: '羊栏圈'
-      url: 'https://lh712.com/'
-    - name: 'Meeo''s Blog'
-      url: 'https://blog.meeo.io/'
-    - name: '阿虚同学的储物间'
-      url: 'https://www.axutongxue.com/'
-    - name: '有所思'
-      url: 'https://www.sothink.cn/'
-    - name: '曙光博客'
-      url: 'https://www.ezloo.com/'
-    - name: '肆无忌惮'
-      url: 'https://www.45eggs.com/'
-    - name: '阮一峰的个人网站'
-      url: 'http://www.ruanyifeng.com/'
-    - name: 'Thinkjam.org - 原生脑浆'
-      url: 'https://www.thinkjam.org/'
-    - name: 'Oracle Life'
-      url: 'https://www.eygle.com/'
-    - name: 'VeryWord'
-      url: 'https://www.veryword.com/'
-    - name: '📻 光明顶 881903 Podcast'
-      url: 'https://881903.net/'
-    - name: '🍊 新奇士 SyncKeys.com'
-      url: 'https://www.synckeys.com/'
-    - name: '🎴 卡牌网 PTCG.CN'
-      url: 'https://ptcg.cn/'
-    - name: 'MovableType之旅'
-      url: 'http://www.movabletype.com.cn/'
-    - name: '从来只有我'
-      url: 'http://phoebexleung.wordpress.com/'
-    - name: 'jmBeta'
-      url: 'http://jmbeta.cwsurf.de/'
-    - name: 'William Yang'
-      url: 'http://winterock.com/'
-    - name: 'Bestony的MD笔记'
-      url: 'http://www.bestony.com/'
-    - name: 'Hedgehogs’Parchments'
-      url: 'http://qingxu.me/'
-    - name: '狐言乱欲-怨念爆发'
-      url: 'http://netfox.zuzhi.org/'
-    - name: '齐白居'
-      url: 'http://qibaiju.com/'
-    - name: 'Eternity'
-      url: 'http://eternity-lj.blogbus.com/'
-    - name: 'Billy.Thing'
-      url: 'http://billything.blogbus.com/'
-    - name: '接近无限透明的人'
-      url: 'http://luvcandy.blogbus.com/'
-    - name: '阿修羅城之瞳'
-      url: 'http://manyorange.blogbus.com/'
-    - name: '一個人的快樂'
-      url: 'http://toto-mushroom.blogbus.com/'
-    - name: 'EstherChung'
-      url: 'http://www.estherchung.cc/'
-    - name: 'Nino'
-      url: 'http://www.ninoishere.com/'
-    - name: 'ECD'
-      url: 'http://ecd.fun/'
-    - name: 'Tony''s Blog || 托尼有话说'
-      url: 'https://tony1ee.com/'
-    - name: '藏剑山庄'
-      url: 'http://blog.yanwen.org/'
-    - name: 'Stories of T.L'
-      url: 'https://story.tonylee.name/'
-    - name: '唐远方'
-      url: 'https://tangyuanfang.com'
-    - name: 'IICL'
-      url: 'https://www.iicl.org/'
-    - name: 'A.P. Moller - Maersk'
-      url: 'https://www.maersk.com'
-    - name: 'FlashFXP'
-      url: 'https://www.flashfxp.com/'
-    - name: 'Notepad++'
-      url: 'https://notepad-plus-plus.org/'
-    - name: 'IrfanView'
-      url: 'https://www.irfanview.com/'
-    - name: 'Joplin'
-      url: 'https://joplinapp.org/'
-    - name: 'KeePass'
-      url: 'https://keepass.info/'
-    - name: '计时器'
-      url: 'https://timerdoro.com/'
-    - name: 'MERC+'
-      url: 'https://mercplus.maersk.com/'
-    - name: 'RCM'
-      url: 'https://rcmec.maersk.com/'
-    - name: 'Drupal 10'
-      url: 'https://www.drupal.org'
+    - name: "小猪的窝"
+      url: "https://ezo.biz/"
+    - name: "阮瑪莉"
+      url: "https://marieyuen.blogspot.com/"
+    - name: "胡某的小站"
+      url: "http://tqay.com/"
+    - name: "ahko's comics"
+      url: "https://ahko.blogspot.hk/"
+    - name: "土木坛子"
+      url: "https://tumutanzi.com/"
+    - name: "大漠网迹"
+      url: "http://www.83blog.com/"
+    - name: "永望镇"
+      url: "https://shikinblog.wordpress.com/"
+    - name: "伍仪洲的博客"
+      url: "https://wuyizhou.com/"
+    - name: "Suigion"
+      url: "https://www.suigion.com/"
+    - name: "無情天的博客"
+      url: "https://kofzhanganguo.home.blog/"
+    - name: "read and go"
+      url: "https://unee.wang/"
+    - name: "羊栏圈"
+      url: "https://lh712.com/"
+    - name: "Meeo's Blog"
+      url: "https://blog.meeo.io/"
+    - name: "阿虚同学的储物间"
+      url: "https://www.axutongxue.com/"
+    - name: "有所思"
+      url: "https://www.sothink.cn/"
+    - name: "曙光博客"
+      url: "https://www.ezloo.com/"
+    - name: "肆无忌惮"
+      url: "https://www.45eggs.com/"
+    - name: "阮一峰的个人网站"
+      url: "http://www.ruanyifeng.com/"
+    - name: "Thinkjam.org - 原生脑浆"
+      url: "https://www.thinkjam.org/"
+    - name: "Oracle Life"
+      url: "https://www.eygle.com/"
+    - name: "VeryWord"
+      url: "https://www.veryword.com/"
+    - name: "📻 光明顶 881903 Podcast"
+      url: "https://881903.net/"
+    - name: "🍊 新奇士 SyncKeys.com"
+      url: "https://www.synckeys.com/"
+    - name: "🎴 卡牌网 PTCG.CN"
+      url: "https://ptcg.cn/"
+    - name: "MovableType之旅"
+      url: "http://www.movabletype.com.cn/"
+    - name: "从来只有我"
+      url: "http://phoebexleung.wordpress.com/"
+    - name: "jmBeta"
+      url: "http://jmbeta.cwsurf.de/"
+    - name: "William Yang"
+      url: "http://winterock.com/"
+    - name: "Bestony的MD笔记"
+      url: "http://www.bestony.com/"
+    - name: "Hedgehogs’Parchments"
+      url: "http://qingxu.me/"
+    - name: "狐言乱欲-怨念爆发"
+      url: "http://netfox.zuzhi.org/"
+    - name: "齐白居"
+      url: "http://qibaiju.com/"
+    - name: "Eternity"
+      url: "http://eternity-lj.blogbus.com/"
+    - name: "Billy.Thing"
+      url: "http://billything.blogbus.com/"
+    - name: "接近无限透明的人"
+      url: "http://luvcandy.blogbus.com/"
+    - name: "阿修羅城之瞳"
+      url: "http://manyorange.blogbus.com/"
+    - name: "一個人的快樂"
+      url: "http://toto-mushroom.blogbus.com/"
+    - name: "EstherChung"
+      url: "http://www.estherchung.cc/"
+    - name: "Nino"
+      url: "http://www.ninoishere.com/"
+    - name: "ECD"
+      url: "http://ecd.fun/"
+    - name: "Tony's Blog || 托尼有话说"
+      url: "https://tony1ee.com/"
+    - name: "藏剑山庄"
+      url: "http://blog.yanwen.org/"
+    - name: "Stories of T.L"
+      url: "https://story.tonylee.name/"
+    - name: "唐远方"
+      url: "https://tangyuanfang.com"
+    - name: "IICL"
+      url: "https://www.iicl.org/"
+    - name: "A.P. Moller - Maersk"
+      url: "https://www.maersk.com"
+    - name: "FlashFXP"
+      url: "https://www.flashfxp.com/"
+    - name: "Notepad++"
+      url: "https://notepad-plus-plus.org/"
+    - name: "IrfanView"
+      url: "https://www.irfanview.com/"
+    - name: "Joplin"
+      url: "https://joplinapp.org/"
+    - name: "KeePass"
+      url: "https://keepass.info/"
+    - name: "计时器"
+      url: "https://timerdoro.com/"
+    - name: "MERC+"
+      url: "https://mercplus.maersk.com/"
+    - name: "RCM"
+      url: "https://rcmec.maersk.com/"
+    - name: "Drupal 10"
+      url: "https://www.drupal.org"

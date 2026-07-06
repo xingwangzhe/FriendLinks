@@ -1,16 +1,16 @@
 site:
-  name: 'miikka.me'
-  url: 'https://miikka.me/'
-  description: '友情链接'
-  links: '/'
+  name: "miikka.me"
+  url: "https://miikka.me/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'quanttype'
-      url: 'https://quanttype.net/'
-    - name: 'Small Rapids'
-      url: 'https://smallrapids.net/'
-    - name: 'PyCon UK 2025'
-      url: 'https://2025.pyconuk.org/'
-    - name: 'Heart of Clojure'
-      url: 'https://2024.heartofclojure.eu/'
-    - name: ':clojureD'
-      url: 'https://clojured.de'
+    - name: "quanttype"
+      url: "https://quanttype.net/"
+    - name: "Small Rapids"
+      url: "https://smallrapids.net/"
+    - name: "PyCon UK 2025"
+      url: "https://2025.pyconuk.org/"
+    - name: "Heart of Clojure"
+      url: "https://2024.heartofclojure.eu/"
+    - name: ":clojureD"
+      url: "https://clojured.de"

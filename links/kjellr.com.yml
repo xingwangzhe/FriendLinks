@@ -1,10 +1,10 @@
 site:
-  name: 'kjellr.com'
-  url: 'https://kjellr.com/'
-  description: '友情链接'
-  links: '/'
+  name: "kjellr.com"
+  url: "https://kjellr.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Automattic'
-      url: 'https://automattic.com'
-    - name: 'Isobar'
-      url: 'https://www.isobar.com'
+    - name: "Automattic"
+      url: "https://automattic.com"
+    - name: "Isobar"
+      url: "https://www.isobar.com"

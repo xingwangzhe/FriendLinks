@@ -1,10 +1,10 @@
 site:
-  name: 'blog.fyun.org'
-  url: 'https://blog.fyun.org/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "blog.fyun.org"
+  url: "https://blog.fyun.org/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: '叶小明'
-      url: 'https://le360.cc/'
-    - name: 'TTTT'
-      url: 'http://tttt.me'
+    - name: "叶小明"
+      url: "https://le360.cc/"
+    - name: "TTTT"
+      url: "http://tttt.me"

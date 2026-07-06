@@ -1,16 +1,16 @@
 site:
-  name: 'neruthes.xyz'
-  url: 'https://neruthes.xyz/'
-  description: '友情链接'
-  links: '/'
+  name: "neruthes.xyz"
+  url: "https://neruthes.xyz/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Web Digest'
-      url: 'https://webdigest.pages.dev/'
-    - name: 'AutoWFLib'
-      url: 'https://autowflib.pages.dev/'
-    - name: 'Cloudflare Pages'
-      url: 'https://neruthes.pages.dev/'
-    - name: 'Vercel'
-      url: 'https://neruthes.vercel.app/'
-    - name: 'Vercel'
-      url: 'https://neruthes-gen2.vercel.app/'
+    - name: "Web Digest"
+      url: "https://webdigest.pages.dev/"
+    - name: "AutoWFLib"
+      url: "https://autowflib.pages.dev/"
+    - name: "Cloudflare Pages"
+      url: "https://neruthes.pages.dev/"
+    - name: "Vercel"
+      url: "https://neruthes.vercel.app/"
+    - name: "Vercel"
+      url: "https://neruthes-gen2.vercel.app/"

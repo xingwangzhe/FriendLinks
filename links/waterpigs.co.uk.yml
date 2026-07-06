@@ -1,22 +1,22 @@
 site:
-  name: 'waterpigs.co.uk'
-  url: 'https://waterpigs.co.uk/'
-  description: '友情链接'
-  links: '/'
+  name: "waterpigs.co.uk"
+  url: "https://waterpigs.co.uk/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Skólapúlsinn'
-      url: 'http://skolapulsinn.is'
-    - name: 'Hurdy Gurdy Business'
-      url: 'https://gurdy.is'
-    - name: 'ferris'
-      url: 'https://rustacean.net/'
-    - name: 'embedded rust'
-      url: 'https://rust-embedded.org/'
-    - name: 'created.mm'
-      url: 'http://created.mm'
-    - name: 'Syncthing'
-      url: 'https://syncthing.net/'
-    - name: 'klipper'
-      url: 'https://www.klipper3d.org/'
-    - name: 'Taproot'
-      url: 'http://taprootproject.com'
+    - name: "Skólapúlsinn"
+      url: "http://skolapulsinn.is"
+    - name: "Hurdy Gurdy Business"
+      url: "https://gurdy.is"
+    - name: "ferris"
+      url: "https://rustacean.net/"
+    - name: "embedded rust"
+      url: "https://rust-embedded.org/"
+    - name: "created.mm"
+      url: "http://created.mm"
+    - name: "Syncthing"
+      url: "https://syncthing.net/"
+    - name: "klipper"
+      url: "https://www.klipper3d.org/"
+    - name: "Taproot"
+      url: "http://taprootproject.com"

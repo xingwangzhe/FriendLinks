@@ -1,14 +1,14 @@
 site:
-  name: 'asp.mvc-tutorial.com'
-  url: 'http://asp.mvc-tutorial.com/'
-  description: '友情链接'
-  links: '/'
+  name: "asp.mvc-tutorial.com"
+  url: "http://asp.mvc-tutorial.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'ASP.NET WebForms'
-      url: 'http://asp.net-tutorials.com/'
-    - name: 'C# tutorial'
-      url: 'https://csharp.net-tutorials.com/'
-    - name: 'HTML'
-      url: 'http://www.html5-tutorials.org'
-    - name: 'Tamás Bischof'
-      url: 'http://www.bischoftamas.com/'
+    - name: "ASP.NET WebForms"
+      url: "http://asp.net-tutorials.com/"
+    - name: "C# tutorial"
+      url: "https://csharp.net-tutorials.com/"
+    - name: "HTML"
+      url: "http://www.html5-tutorials.org"
+    - name: "Tamás Bischof"
+      url: "http://www.bischoftamas.com/"

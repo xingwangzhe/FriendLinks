@@ -1,12 +1,12 @@
 site:
-  name: 'cashmere.rs'
-  url: 'https://cashmere.rs/'
-  description: '友情链接'
-  links: '/'
+  name: "cashmere.rs"
+  url: "https://cashmere.rs/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Nix'
-      url: 'https://nixos.org/'
-    - name: 'craftering'
-      url: 'https://craftering.systemcrafters.net/'
-    - name: 'nix webring'
-      url: 'https://nixwebr.ing'
+    - name: "Nix"
+      url: "https://nixos.org/"
+    - name: "craftering"
+      url: "https://craftering.systemcrafters.net/"
+    - name: "nix webring"
+      url: "https://nixwebr.ing"

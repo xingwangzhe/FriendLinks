@@ -7,5 +7,6 @@
   "trailingComma": "all",
   "bracketSpacing": true,
   "endOfLine": "lf",
+  "insertFinalNewline": true,
   "ignorePatterns": ["dist/", "node_modules/", "public/scripts/"]
 }

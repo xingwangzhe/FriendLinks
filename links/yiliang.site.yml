@@ -1,10 +1,10 @@
 site:
-  name: 'yiliang.site'
-  url: 'https://yiliang.site/'
-  description: '友情链接'
-  links: '/links'
+  name: "yiliang.site"
+  url: "https://yiliang.site/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Evan''s blog Web前端技术博客，积跬步以至千里，致敬每个爱学习的你。'
-      url: 'https://xugaoyi.com/'
-    - name: 'wuxin0011`blog 硅步以致千里，至今每个爱学习的你'
-      url: 'https://wuxin0011.github.io'
+    - name: "Evan's blog Web前端技术博客，积跬步以至千里，致敬每个爱学习的你。"
+      url: "https://xugaoyi.com/"
+    - name: "wuxin0011`blog 硅步以致千里，至今每个爱学习的你"
+      url: "https://wuxin0011.github.io"

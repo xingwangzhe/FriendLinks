@@ -1,10 +1,10 @@
 site:
-  name: 'lair.moe'
-  url: 'https://lair.moe/'
-  description: '友情链接'
-  links: '/'
+  name: "lair.moe"
+  url: "https://lair.moe/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Nix webring'
-      url: 'https://nixwebr.ing/'
-    - name: 'Catppuccin webring'
-      url: 'https://ctp-webr.ing/'
+    - name: "Nix webring"
+      url: "https://nixwebr.ing/"
+    - name: "Catppuccin webring"
+      url: "https://ctp-webr.ing/"

@@ -1,12 +1,12 @@
 site:
-  name: 'Just A Note'
-  url: 'https://www.odbook.com/'
-  description: '只是一个笔记本'
-  links: '/links'
+  name: "Just A Note"
+  url: "https://www.odbook.com/"
+  description: "只是一个笔记本"
+  links: "/links"
   friends:
-    - name: '米米的博客'
-      url: 'https://zhangshuqiao.org/'
-    - name: '初始化博客'
-      url: 'https://init.blog/'
-    - name: 'Kvm.la I'm alive, I'm here！ 人生的两大悲剧：想要的没得到和想要的得到了。'
-      url: 'https://www.kvm.la/'
+    - name: "米米的博客"
+      url: "https://zhangshuqiao.org/"
+    - name: "初始化博客"
+      url: "https://init.blog/"
+    - name: "Kvm.la I'm alive, I'm here！ 人生的两大悲剧：想要的没得到和想要的得到了。"
+      url: "https://www.kvm.la/"

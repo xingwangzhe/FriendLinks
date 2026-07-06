@@ -1,40 +1,40 @@
 site:
-  name: 'zgnote.com'
-  url: 'http://www.zgnote.com/'
-  description: '友情链接'
-  links: '/link'
+  name: "zgnote.com"
+  url: "http://www.zgnote.com/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: '老麦笔记'
-      url: 'https://laomai.org/'
-    - name: '大峰笔记'
-      url: 'https://illl.xyz/'
-    - name: 'Jeffer.Z的博客'
-      url: 'https://www.jeffer.xyz/'
-    - name: '如是乎'
-      url: 'http://rushihu.com/'
-    - name: 'And烧麦'
-      url: 'https://4311346.com/'
-    - name: '大树下'
-      url: 'http://dashuxia.net/'
-    - name: '土木坛子'
-      url: 'https://tumutanzi.com/'
-    - name: 'www.cshs.org.cn'
-      url: 'http://www.cshs.org.cn'
-    - name: 'www.chsla.org.cn'
-      url: 'http://www.chsla.org.cn'
-    - name: 'www.zgfjxh.org.cn'
-      url: 'http://www.zgfjxh.org.cn'
-    - name: 'www.cceju.org.cn'
-      url: 'http://www.cceju.org.cn'
-    - name: 'www.chlh.org'
-      url: 'http://www.chlh.org'
-    - name: 'www.ahsgardening.org'
-      url: 'http://www.ahsgardening.org'
-    - name: 'www.jshs.jp'
-      url: 'http://www.jshs.jp'
-    - name: 'www.ahta.org'
-      url: 'https://www.ahta.org'
-    - name: 'www.hkath.org'
-      url: 'http://www.hkath.org'
-    - name: 'thta.org.tw'
-      url: 'http://thta.org.tw/'
+    - name: "老麦笔记"
+      url: "https://laomai.org/"
+    - name: "大峰笔记"
+      url: "https://illl.xyz/"
+    - name: "Jeffer.Z的博客"
+      url: "https://www.jeffer.xyz/"
+    - name: "如是乎"
+      url: "http://rushihu.com/"
+    - name: "And烧麦"
+      url: "https://4311346.com/"
+    - name: "大树下"
+      url: "http://dashuxia.net/"
+    - name: "土木坛子"
+      url: "https://tumutanzi.com/"
+    - name: "www.cshs.org.cn"
+      url: "http://www.cshs.org.cn"
+    - name: "www.chsla.org.cn"
+      url: "http://www.chsla.org.cn"
+    - name: "www.zgfjxh.org.cn"
+      url: "http://www.zgfjxh.org.cn"
+    - name: "www.cceju.org.cn"
+      url: "http://www.cceju.org.cn"
+    - name: "www.chlh.org"
+      url: "http://www.chlh.org"
+    - name: "www.ahsgardening.org"
+      url: "http://www.ahsgardening.org"
+    - name: "www.jshs.jp"
+      url: "http://www.jshs.jp"
+    - name: "www.ahta.org"
+      url: "https://www.ahta.org"
+    - name: "www.hkath.org"
+      url: "http://www.hkath.org"
+    - name: "thta.org.tw"
+      url: "http://thta.org.tw/"

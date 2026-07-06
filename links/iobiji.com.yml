@@ -1,10 +1,10 @@
 site:
-  name: 'iobiji.com'
-  url: 'https://iobiji.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "iobiji.com"
+  url: "https://iobiji.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Ghost'
-      url: 'https://ghost.org'
-    - name: 'Brave'
-      url: 'https://iiong.com'
+    - name: "Ghost"
+      url: "https://ghost.org"
+    - name: "Brave"
+      url: "https://iiong.com"

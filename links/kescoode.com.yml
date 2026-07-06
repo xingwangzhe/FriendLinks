@@ -1,10 +1,10 @@
 site:
-  name: 'kescoode.com'
-  url: 'https://kescoode.com/'
-  description: '友情链接'
-  links: '/about'
+  name: "kescoode.com"
+  url: "https://kescoode.com/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: '@问心斋'
-      url: 'https://blog.ehnap.com'
-    - name: '@刘家财'
-      url: 'https://liujiacai.net'
+    - name: "@问心斋"
+      url: "https://blog.ehnap.com"
+    - name: "@刘家财"
+      url: "https://liujiacai.net"

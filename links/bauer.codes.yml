@@ -1,10 +1,10 @@
 site:
-  name: 'bauer.codes'
-  url: 'https://bauer.codes/'
-  description: '友情链接'
-  links: '/links'
+  name: "bauer.codes"
+  url: "https://bauer.codes/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Datadog'
-      url: 'https://datadoghq.com'
-    - name: 'Mastodon'
-      url: 'https://joinmastodon.org'
+    - name: "Datadog"
+      url: "https://datadoghq.com"
+    - name: "Mastodon"
+      url: "https://joinmastodon.org"

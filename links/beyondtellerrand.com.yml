@@ -1,14 +1,14 @@
 site:
-  name: 'beyondtellerrand.com'
-  url: 'https://beyondtellerrand.com/'
-  description: '友情链接'
-  links: '/'
+  name: "beyondtellerrand.com"
+  url: "https://beyondtellerrand.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Made with Kirby'
-      url: 'https://getkirby.com'
-    - name: 'Hosted by mittwald'
-      url: 'https://www.mittwald.de'
-    - name: 'Ticket system by Tito'
-      url: 'https://ti.to'
-    - name: 'Live-Streams hosted on Vito'
-      url: 'https://vi.to'
+    - name: "Made with Kirby"
+      url: "https://getkirby.com"
+    - name: "Hosted by mittwald"
+      url: "https://www.mittwald.de"
+    - name: "Ticket system by Tito"
+      url: "https://ti.to"
+    - name: "Live-Streams hosted on Vito"
+      url: "https://vi.to"

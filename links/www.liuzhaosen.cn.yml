@@ -1,10 +1,10 @@
 site:
-  name: '首页'
-  url: 'https://www.liuzhaosen.cn/'
-  description: '这里是刘兆森博客的首页，一个用vue3+nuxt3搭建的个人网站，主要用于记录学习笔记，记录生活'
-  links: '/links'
+  name: "首页"
+  url: "https://www.liuzhaosen.cn/"
+  description: "这里是刘兆森博客的首页，一个用vue3+nuxt3搭建的个人网站，主要用于记录学习笔记，记录生活"
+  links: "/links"
   friends:
-    - name: '宇阳'
-      url: 'https://liuyuyang.net/'
-    - name: '孤芳不自赏知识空间'
-      url: 'https://www.gfbzsblog.site/'
+    - name: "宇阳"
+      url: "https://liuyuyang.net/"
+    - name: "孤芳不自赏知识空间"
+      url: "https://www.gfbzsblog.site/"

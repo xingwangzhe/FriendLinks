@@ -1,18 +1,18 @@
 site:
-  name: 'simonwillison.net'
-  url: 'https://simonwillison.net/'
-  description: '友情链接'
-  links: '/'
+  name: "simonwillison.net"
+  url: "https://simonwillison.net/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Hack Your Summer'
-      url: 'https://www.hackyoursummer.org/'
-    - name: 'hackmyclaw.com'
-      url: 'https://hackmyclaw.com/'
-    - name: 'Prompt Injection as Role Confusion'
-      url: 'https://role-confusion.github.io'
-    - name: 'Z.ai'
-      url: 'https://z.ai/'
-    - name: 'Datasette Agent'
-      url: 'https://agent.datasette.io/'
-    - name: 'Tailscale'
-      url: 'https://tailscale.com/'
+    - name: "Hack Your Summer"
+      url: "https://www.hackyoursummer.org/"
+    - name: "hackmyclaw.com"
+      url: "https://hackmyclaw.com/"
+    - name: "Prompt Injection as Role Confusion"
+      url: "https://role-confusion.github.io"
+    - name: "Z.ai"
+      url: "https://z.ai/"
+    - name: "Datasette Agent"
+      url: "https://agent.datasette.io/"
+    - name: "Tailscale"
+      url: "https://tailscale.com/"

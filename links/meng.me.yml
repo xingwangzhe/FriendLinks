@@ -1,10 +1,10 @@
 site:
-  name: 'meng.me'
-  url: 'https://www.meng.me/'
-  description: '友情链接'
-  links: '/friends'
+  name: "meng.me"
+  url: "https://www.meng.me/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'HCLonely 一个懒人的博客'
-      url: 'https://blog.hclonely.com/ '
-    - name: 'wsbのblog 己所不欲，勿施于人'
-      url: 'https://wsbblog.cn '
+    - name: "HCLonely 一个懒人的博客"
+      url: "https://blog.hclonely.com/ "
+    - name: "wsbのblog 己所不欲，勿施于人"
+      url: "https://wsbblog.cn "

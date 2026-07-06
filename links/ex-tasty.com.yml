@@ -1,26 +1,26 @@
 site:
-  name: 'ex-tasty.com'
-  url: 'https://ex-tasty.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "ex-tasty.com"
+  url: "https://ex-tasty.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Parsifal''s Blog辣妹群友'
-      url: 'https://blog.cloudti.de/'
-    - name: 'Kokosa''s NotebookJK 群友 前畫猜玩家'
-      url: 'https://www.kokosa.icu/'
-    - name: 'A Moment’s Rest物理學家群友 萌新畫猜玩家'
-      url: 'https://a-moment096.github.io/'
-    - name: '凝眸绘晴空電腦高材生群友'
-      url: 'https://mahiro.ink/'
-    - name: 'Cloverta 的博客和 Astro 一起浴火重生的群友'
-      url: 'https://blog.cloverta.top'
-    - name: 'lhz07''s BlogRust 群友 博客甚至是 Rust 寫的'
-      url: 'https://lhz07.com'
-    - name: '泠熙のBlog打歌群友 剪視頻群友'
-      url: 'https://blog.lingxi9374.top'
-    - name: 'KUN''s Blog小隻軟萌群友'
-      url: 'https://soft.moe/'
-    - name: '魏连殳的灌水站中性群友'
-      url: 'https://weils.top/'
-    - name: 'lpp_Blog電子電路群友'
-      url: 'https://lpp.moe/'
+    - name: "Parsifal's Blog辣妹群友"
+      url: "https://blog.cloudti.de/"
+    - name: "Kokosa's NotebookJK 群友 前畫猜玩家"
+      url: "https://www.kokosa.icu/"
+    - name: "A Moment’s Rest物理學家群友 萌新畫猜玩家"
+      url: "https://a-moment096.github.io/"
+    - name: "凝眸绘晴空電腦高材生群友"
+      url: "https://mahiro.ink/"
+    - name: "Cloverta 的博客和 Astro 一起浴火重生的群友"
+      url: "https://blog.cloverta.top"
+    - name: "lhz07's BlogRust 群友 博客甚至是 Rust 寫的"
+      url: "https://lhz07.com"
+    - name: "泠熙のBlog打歌群友 剪視頻群友"
+      url: "https://blog.lingxi9374.top"
+    - name: "KUN's Blog小隻軟萌群友"
+      url: "https://soft.moe/"
+    - name: "魏连殳的灌水站中性群友"
+      url: "https://weils.top/"
+    - name: "lpp_Blog電子電路群友"
+      url: "https://lpp.moe/"

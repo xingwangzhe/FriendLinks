@@ -1,8 +1,8 @@
 site:
-  name: 'blog.iyaxi.com'
-  url: 'http://blog.iyaxi.com/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "blog.iyaxi.com"
+  url: "http://blog.iyaxi.com/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: '生成favicon图标'
-      url: 'http://myico.cn'
+    - name: "生成favicon图标"
+      url: "http://myico.cn"

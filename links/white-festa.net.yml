@@ -1,14 +1,14 @@
 site:
-  name: 'white-festa.net'
-  url: 'https://white-festa.net/'
-  description: '友情链接'
-  links: '/friends'
+  name: "white-festa.net"
+  url: "https://white-festa.net/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '夏夜流萤 飞萤之火自无梦的长夜亮起，绽放在终竟的明天。 Blog'
-      url: 'https://blog.cuteleaf.cn'
-    - name: '运维开发绿皮书 飞放置我的笔记、搜集、摘录、实践，保持好奇心。看文需谨慎，后果很严重! Blog'
-      url: 'https://www.geekery.cn/'
-    - name: '运维小弟 专注技术积累，探索运维之道 Blog'
-      url: 'https://blog.srebro.cn'
-    - name: '十三 欲买桂花同载酒，终不似，少年游。 Blog'
-      url: 'https://blog.nw177.cn'
+    - name: "夏夜流萤 飞萤之火自无梦的长夜亮起，绽放在终竟的明天。 Blog"
+      url: "https://blog.cuteleaf.cn"
+    - name: "运维开发绿皮书 飞放置我的笔记、搜集、摘录、实践，保持好奇心。看文需谨慎，后果很严重! Blog"
+      url: "https://www.geekery.cn/"
+    - name: "运维小弟 专注技术积累，探索运维之道 Blog"
+      url: "https://blog.srebro.cn"
+    - name: "十三 欲买桂花同载酒，终不似，少年游。 Blog"
+      url: "https://blog.nw177.cn"

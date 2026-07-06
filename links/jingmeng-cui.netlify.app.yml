@@ -1,14 +1,14 @@
 site:
-  name: 'About me'
-  url: 'https://jingmeng-cui.netlify.app/'
-  description: 'Jingmeng’s personal page.'
-  links: '/links'
+  name: "About me"
+  url: "https://jingmeng-cui.netlify.app/"
+  description: "Jingmeng’s personal page."
+  links: "/links"
   friends:
-    - name: 'Yueyu Hu'
-      url: 'https://huzi96.github.io/'
-    - name: 'my_web_page'
-      url: 'https://zichun.wang/'
-    - name: 'About Me'
-      url: 'https://junren.li/'
-    - name: 'Yixuan Wang'
-      url: 'https://am.yixuan-wang.site/'
+    - name: "Yueyu Hu"
+      url: "https://huzi96.github.io/"
+    - name: "my_web_page"
+      url: "https://zichun.wang/"
+    - name: "About Me"
+      url: "https://junren.li/"
+    - name: "Yixuan Wang"
+      url: "https://am.yixuan-wang.site/"

@@ -1,10 +1,10 @@
 site:
-  name: 'blog.outv.im'
-  url: 'https://blog.outv.im/'
-  description: '友情链接'
-  links: '/'
+  name: "blog.outv.im"
+  url: "https://blog.outv.im/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Onion Service'
-      url: 'http://outvimf2zjmkczje3as6rivncgfvqk5lmreywezwmufwdkoq5vkhmzid.onion/'
-    - name: 'dn42'
-      url: 'http://blog.librehs.dn42/'
+    - name: "Onion Service"
+      url: "http://outvimf2zjmkczje3as6rivncgfvqk5lmreywezwmufwdkoq5vkhmzid.onion/"
+    - name: "dn42"
+      url: "http://blog.librehs.dn42/"

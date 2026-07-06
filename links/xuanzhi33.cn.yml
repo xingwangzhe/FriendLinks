@@ -1,8 +1,8 @@
 site:
-  name: 'xuanzhi33.cn'
-  url: 'https://xuanzhi33.cn/'
-  description: '友情链接'
-  links: '/'
+  name: "xuanzhi33.cn"
+  url: "https://xuanzhi33.cn/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: '{{ $t(''go'') }}'
-      url: 'https://www.travellings.cn/go.html'
+    - name: "{{ $t('go') }}"
+      url: "https://www.travellings.cn/go.html"

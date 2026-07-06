@@ -1,14 +1,14 @@
 site:
-  name: 'ymlf.cn'
-  url: 'https://www.ymlf.cn/'
-  description: '友情链接'
-  links: '/'
+  name: "ymlf.cn"
+  url: "https://www.ymlf.cn/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: '李洋博客'
-      url: 'https://www.liblog.cn/'
-    - name: '运维笔记'
-      url: 'https://www.ahaoyw.com/'
-    - name: '忆梦小站'
-      url: 'https://www.onyi.net/'
-    - name: '风轻云淡'
-      url: 'https://www.fqyd.cn/'
+    - name: "李洋博客"
+      url: "https://www.liblog.cn/"
+    - name: "运维笔记"
+      url: "https://www.ahaoyw.com/"
+    - name: "忆梦小站"
+      url: "https://www.onyi.net/"
+    - name: "风轻云淡"
+      url: "https://www.fqyd.cn/"

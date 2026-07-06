@@ -1,64 +1,64 @@
 site:
-  name: 'blog.xuezero.com'
-  url: 'https://blog.xuezero.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.xuezero.com"
+  url: "https://blog.xuezero.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '定の栈'
-      url: 'https://blog.saop.cc/'
-    - name: 'Yume Shoka = 有夢書架 = 吾乃天，壶中之天'
-      url: 'https://shoka.lostyu.me/'
-    - name: 'Takagi - You got to put the past behind you before you can move on.'
-      url: 'https://lixingyong.com/'
-    - name: 'Ryan Wang''s Blog'
-      url: 'https://ryanc.cc/'
-    - name: 'MiniKano的小窝 - 随便写写~'
-      url: 'https://kanokano.cn/'
-    - name: '纸鹿摸鱼处'
-      url: 'https://blog.zhilu.cyou/'
-    - name: '大米饭🍚'
-      url: 'https://kuraa.cc/'
-    - name: 'Oyiso''s Blog – The shortest answer is doing'
-      url: 'https://oyiso.cn/'
-    - name: '回忆航线 - 喜欢捣鼓的博主'
-      url: 'https://kunkunyu.com/'
-    - name: 'xLog - Write. Own. Earn.'
-      url: 'https://xlog.app/'
-    - name: '后宫学长 - 一个中二病宅的博客……'
-      url: 'https://haremu.com/'
-    - name: '致以无暇之人 - 爱莉希雅永远爱你～'
-      url: 'https://blog.elykia.cn/'
-    - name: '林间拾语 | 技术与生活的温暖拾遗'
-      url: 'https://www.xhhao.com/'
-    - name: 'Tim''s Blog | 代码慢慢写，路慢慢走'
-      url: 'https://blog.timxs.com'
-    - name: '卖烤肉 - Carpe Diem'
-      url: 'https://b.ncii.cn/'
-    - name: '倪哥买提大巴扎'
-      url: 'https://www.gnix807.cn'
-    - name: '梦爱吃鱼'
-      url: 'https://blog.bsgun.cn/'
-    - name: 'ImQi1'
-      url: 'https://imqi1.com/'
-    - name: 'WIZZIE BLOG | automotive, android framework developer.'
-      url: 'https://wizzie.top/'
-    - name: '凌霞软件'
-      url: 'https://www.lxware.cn/'
-    - name: 'Element - The world''s most popular Vue UI framework'
-      url: 'https://element.eleme.cn/#/zh-CN'
-    - name: 'Iconify - home of open source icons'
-      url: 'https://icon-sets.iconify.design/'
-    - name: '颜文字'
-      url: 'https://cn.getkaomoji.com/'
-    - name: 'Sakura Frp | 樱花内网穿透 — 免费内网穿透_免费端口映射_高速_高防节点_不限流量_Minecraft我的世界_微信开发调试_群辉NAS_无需公网'
-      url: 'https://www.natfrp.com/'
-    - name: 'MobaXterm free Xserver and tabbed SSH client for Windows'
-      url: 'https://mobaxterm.mobatek.net/'
-    - name: 'Rosmontis&迷迭香的博客'
-      url: 'https://rosmontis.com/'
-    - name: 'Hello World'
-      url: 'https://www.ttkwsd.top'
-    - name: 'ガヴのサイト'
-      url: 'https://gabrielxd.com'
-    - name: '枫花落烬'
-      url: 'https://luojin.qzz.io/'
+    - name: "定の栈"
+      url: "https://blog.saop.cc/"
+    - name: "Yume Shoka = 有夢書架 = 吾乃天，壶中之天"
+      url: "https://shoka.lostyu.me/"
+    - name: "Takagi - You got to put the past behind you before you can move on."
+      url: "https://lixingyong.com/"
+    - name: "Ryan Wang's Blog"
+      url: "https://ryanc.cc/"
+    - name: "MiniKano的小窝 - 随便写写~"
+      url: "https://kanokano.cn/"
+    - name: "纸鹿摸鱼处"
+      url: "https://blog.zhilu.cyou/"
+    - name: "大米饭🍚"
+      url: "https://kuraa.cc/"
+    - name: "Oyiso's Blog – The shortest answer is doing"
+      url: "https://oyiso.cn/"
+    - name: "回忆航线 - 喜欢捣鼓的博主"
+      url: "https://kunkunyu.com/"
+    - name: "xLog - Write. Own. Earn."
+      url: "https://xlog.app/"
+    - name: "后宫学长 - 一个中二病宅的博客……"
+      url: "https://haremu.com/"
+    - name: "致以无暇之人 - 爱莉希雅永远爱你～"
+      url: "https://blog.elykia.cn/"
+    - name: "林间拾语 | 技术与生活的温暖拾遗"
+      url: "https://www.xhhao.com/"
+    - name: "Tim's Blog | 代码慢慢写，路慢慢走"
+      url: "https://blog.timxs.com"
+    - name: "卖烤肉 - Carpe Diem"
+      url: "https://b.ncii.cn/"
+    - name: "倪哥买提大巴扎"
+      url: "https://www.gnix807.cn"
+    - name: "梦爱吃鱼"
+      url: "https://blog.bsgun.cn/"
+    - name: "ImQi1"
+      url: "https://imqi1.com/"
+    - name: "WIZZIE BLOG | automotive, android framework developer."
+      url: "https://wizzie.top/"
+    - name: "凌霞软件"
+      url: "https://www.lxware.cn/"
+    - name: "Element - The world's most popular Vue UI framework"
+      url: "https://element.eleme.cn/#/zh-CN"
+    - name: "Iconify - home of open source icons"
+      url: "https://icon-sets.iconify.design/"
+    - name: "颜文字"
+      url: "https://cn.getkaomoji.com/"
+    - name: "Sakura Frp | 樱花内网穿透 — 免费内网穿透_免费端口映射_高速_高防节点_不限流量_Minecraft我的世界_微信开发调试_群辉NAS_无需公网"
+      url: "https://www.natfrp.com/"
+    - name: "MobaXterm free Xserver and tabbed SSH client for Windows"
+      url: "https://mobaxterm.mobatek.net/"
+    - name: "Rosmontis&迷迭香的博客"
+      url: "https://rosmontis.com/"
+    - name: "Hello World"
+      url: "https://www.ttkwsd.top"
+    - name: "ガヴのサイト"
+      url: "https://gabrielxd.com"
+    - name: "枫花落烬"
+      url: "https://luojin.qzz.io/"

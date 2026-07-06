@@ -1,14 +1,14 @@
 site:
-  name: 'hackmyclaw.com'
-  url: 'https://hackmyclaw.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "hackmyclaw.com"
+  url: "https://hackmyclaw.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'OpenClaw'
-      url: 'https://openclaw.ai'
-    - name: 'Corgea'
-      url: 'https://corgea.com'
-    - name: 'Abnormal AI'
-      url: 'https://abnormal.ai'
-    - name: 'Fernando Irarrázaval'
-      url: 'https://fernandoi.cl'
+    - name: "OpenClaw"
+      url: "https://openclaw.ai"
+    - name: "Corgea"
+      url: "https://corgea.com"
+    - name: "Abnormal AI"
+      url: "https://abnormal.ai"
+    - name: "Fernando Irarrázaval"
+      url: "https://fernandoi.cl"

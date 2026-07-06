@@ -1,10 +1,10 @@
 site:
-  name: 'robert.katzki.de'
-  url: 'https://robert.katzki.de/'
-  description: '友情链接'
-  links: '/about'
+  name: "robert.katzki.de"
+  url: "https://robert.katzki.de/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: 'Tomorrow'
-      url: 'https://www.tomorrow.one/'
-    - name: 'slashwhy'
-      url: 'http://slashwhy.de/'
+    - name: "Tomorrow"
+      url: "https://www.tomorrow.one/"
+    - name: "slashwhy"
+      url: "http://slashwhy.de/"

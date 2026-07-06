@@ -1,8 +1,8 @@
 site:
-  name: 'fostar.pages.dev'
-  url: 'https://fostar.pages.dev/'
-  description: '友情链接'
-  links: '/about'
+  name: "fostar.pages.dev"
+  url: "https://fostar.pages.dev/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: '@rongxuan2022:mozilla.org'
-      url: 'https://matrix.to/#/@rongxuan2022:mozilla.org'
+    - name: "@rongxuan2022:mozilla.org"
+      url: "https://matrix.to/#/@rongxuan2022:mozilla.org"

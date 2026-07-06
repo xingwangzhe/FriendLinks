@@ -1,50 +1,50 @@
 site:
-  name: 'blog.cascade.moe'
-  url: 'https://blog.cascade.moe/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.cascade.moe"
+  url: "https://blog.cascade.moe/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Malachite - 高中生，计算器爱好者，MtF，不可爱的大可爱。'
-      url: 'https://blog-malachite.vercel.app/'
-    - name: 'XenonWZH - 卷了个寂寞? | Former OIer · Math · Deep Learning · Computer Vision'
-      url: 'https://xenonwzh.github.io/'
-    - name: 'ShinoMoe - 桜は優しい遠方へ吹くと願っている。'
-      url: 'https://shinomoe.xyz/'
-    - name: 'Taranakineko - 青く滲む 青く滲む 綺麗に'
-      url: 'https://nekoq.eu.org'
-    - name: 'Vincy云昔 - 太阳出来了 雾就会散的'
-      url: 'https://blog.vincy1230.net/'
-    - name: '伊緻幻の主页 - Take my hands.'
-      url: 'https://www.chwin.asia'
-    - name: 'SakuraKooi - 梦是幽蓝色彩 灵魂如雪纯白'
-      url: 'https://blog.sakurakooi.dev/'
-    - name: 'Fika - 遇到困难睡大觉'
-      url: 'https://fika.ink/'
-    - name: '柠檬苏打夹心 - Not A Developer | nya!'
-      url: 'https://moe.himoyo.cn'
-    - name: '厄尔科斯'
-      url: 'https://sikan.moe'
-    - name: '幽霜的日常记录 - Stay young, stay simple.'
-      url: 'https://hanamiyuushimo.github.io/'
-    - name: 'Steven - OIer / RMer'
-      url: 'https://blog.steven53.top/'
-    - name: '神奇的主页 - 君子不器，随遇而安'
-      url: 'https://www.ttiee.tech/'
-    - name: 'Hao_Tian - 生命不息，折腾不止ヾ(≧▽≦*)o'
-      url: 'https://haotian22.top'
-    - name: 'Junde Yhi'
-      url: 'https://www.yhi.moe/'
-    - name: 'ECWU - An Tech noob.'
-      url: 'https://ecwuuuuu.com/'
-    - name: '绘星里 - 一起来绘制属于自己的星星！'
-      url: 'https://blog.storia.ren/'
-    - name: 'Souiken - 愿我们度过这个漫漫长夜之后，依旧能看到那旭日东升。'
-      url: 'https://souiken.moe/'
-    - name: 'ZeroQing的个人博客 - 一目洞察网中险，一策化解千般难。'
-      url: 'https://www.zeroqing.com'
-    - name: 'zlicdt - 今日无事可做'
-      url: 'https://blog.zlicdt.top'
-    - name: '中二电工吹短笛的个人博客 - 永远相信美好的事情即将发生'
-      url: 'https://bitlogs.cn'
-    - name: 'Amicors - 那小而美丽的火车穿梭在翻飞与风中的天之芒草里，飞奔过银河之水及三角标的蓝白微光，然后就那么永无止境地，一直奔跑下去。'
-      url: 'https://amicors.cc'
+    - name: "Malachite - 高中生，计算器爱好者，MtF，不可爱的大可爱。"
+      url: "https://blog-malachite.vercel.app/"
+    - name: "XenonWZH - 卷了个寂寞? | Former OIer · Math · Deep Learning · Computer Vision"
+      url: "https://xenonwzh.github.io/"
+    - name: "ShinoMoe - 桜は優しい遠方へ吹くと願っている。"
+      url: "https://shinomoe.xyz/"
+    - name: "Taranakineko - 青く滲む 青く滲む 綺麗に"
+      url: "https://nekoq.eu.org"
+    - name: "Vincy云昔 - 太阳出来了 雾就会散的"
+      url: "https://blog.vincy1230.net/"
+    - name: "伊緻幻の主页 - Take my hands."
+      url: "https://www.chwin.asia"
+    - name: "SakuraKooi - 梦是幽蓝色彩 灵魂如雪纯白"
+      url: "https://blog.sakurakooi.dev/"
+    - name: "Fika - 遇到困难睡大觉"
+      url: "https://fika.ink/"
+    - name: "柠檬苏打夹心 - Not A Developer | nya!"
+      url: "https://moe.himoyo.cn"
+    - name: "厄尔科斯"
+      url: "https://sikan.moe"
+    - name: "幽霜的日常记录 - Stay young, stay simple."
+      url: "https://hanamiyuushimo.github.io/"
+    - name: "Steven - OIer / RMer"
+      url: "https://blog.steven53.top/"
+    - name: "神奇的主页 - 君子不器，随遇而安"
+      url: "https://www.ttiee.tech/"
+    - name: "Hao_Tian - 生命不息，折腾不止ヾ(≧▽≦*)o"
+      url: "https://haotian22.top"
+    - name: "Junde Yhi"
+      url: "https://www.yhi.moe/"
+    - name: "ECWU - An Tech noob."
+      url: "https://ecwuuuuu.com/"
+    - name: "绘星里 - 一起来绘制属于自己的星星！"
+      url: "https://blog.storia.ren/"
+    - name: "Souiken - 愿我们度过这个漫漫长夜之后，依旧能看到那旭日东升。"
+      url: "https://souiken.moe/"
+    - name: "ZeroQing的个人博客 - 一目洞察网中险，一策化解千般难。"
+      url: "https://www.zeroqing.com"
+    - name: "zlicdt - 今日无事可做"
+      url: "https://blog.zlicdt.top"
+    - name: "中二电工吹短笛的个人博客 - 永远相信美好的事情即将发生"
+      url: "https://bitlogs.cn"
+    - name: "Amicors - 那小而美丽的火车穿梭在翻飞与风中的天之芒草里，飞奔过银河之水及三角标的蓝白微光，然后就那么永无止境地，一直奔跑下去。"
+      url: "https://amicors.cc"

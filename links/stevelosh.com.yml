@@ -1,20 +1,20 @@
 site:
-  name: 'stevelosh.com'
-  url: 'https://stevelosh.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "stevelosh.com"
+  url: "https://stevelosh.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Habrador'
-      url: 'http://blog.habrador.com/'
-    - name: 'Martin O''Leary'
-      url: 'http://mewo2.com/'
-    - name: 'Michael Malis'
-      url: 'http://malisper.me/'
-    - name: 'Paul Khuong'
-      url: 'https://pvk.ca/'
-    - name: 'The Digital Antiquarian'
-      url: 'http://www.filfre.net/'
-    - name: 'How Complex Systems Fail'
-      url: 'https://how.complexsystems.fail/'
-    - name: 'Land of Lisp'
-      url: 'http://landoflisp.com/'
+    - name: "Habrador"
+      url: "http://blog.habrador.com/"
+    - name: "Martin O'Leary"
+      url: "http://mewo2.com/"
+    - name: "Michael Malis"
+      url: "http://malisper.me/"
+    - name: "Paul Khuong"
+      url: "https://pvk.ca/"
+    - name: "The Digital Antiquarian"
+      url: "http://www.filfre.net/"
+    - name: "How Complex Systems Fail"
+      url: "https://how.complexsystems.fail/"
+    - name: "Land of Lisp"
+      url: "http://landoflisp.com/"

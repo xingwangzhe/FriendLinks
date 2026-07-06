@@ -1,34 +1,34 @@
 site:
-  name: 'ari.lt'
-  url: 'https://ari.lt/'
-  description: '友情链接'
-  links: '/'
+  name: "ari.lt"
+  url: "https://ari.lt/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'TOR Version'
-      url: 'http://arija664fy4c6zhfbsytbqcbz5gcc3qjuwaz4ue6cium5c5fo2fgakyd.onion/'
-    - name: 'Debian Linux (bye Gentoo :/)'
-      url: 'https://www.debian.org/'
-    - name: 'localfox'
-      url: 'https://www.localfox.dev/'
-    - name: 'WTFPL'
-      url: 'https://www.wtfpl.net/'
-    - name: 'Build Palestine'
-      url: 'https://buildpalestine.com/'
-    - name: 'Stand With Ukraine'
-      url: 'https://stand-with-ukraine.pp.ua/'
-    - name: 'Boycott, Divest, and Sanction'
-      url: 'https://bdsmovement.net/'
-    - name: 'Fight Chat Control'
-      url: 'https://fightchatcontrol.eu/'
-    - name: 'ILGA World'
-      url: 'https://ilga.org/'
-    - name: 'Human Rights Watch'
-      url: 'https://www.hrw.org/'
-    - name: 'Ryan L McIntyre'
-      url: 'https://ryanlmcintyre.com/'
-    - name: 'Alpine Linux'
-      url: 'https://alpinelinux.org/'
-    - name: 'Web Assembly'
-      url: 'https://webassembly.org/'
-    - name: 'The TOR Network'
-      url: 'https://www.torproject.org/'
+    - name: "TOR Version"
+      url: "http://arija664fy4c6zhfbsytbqcbz5gcc3qjuwaz4ue6cium5c5fo2fgakyd.onion/"
+    - name: "Debian Linux (bye Gentoo :/)"
+      url: "https://www.debian.org/"
+    - name: "localfox"
+      url: "https://www.localfox.dev/"
+    - name: "WTFPL"
+      url: "https://www.wtfpl.net/"
+    - name: "Build Palestine"
+      url: "https://buildpalestine.com/"
+    - name: "Stand With Ukraine"
+      url: "https://stand-with-ukraine.pp.ua/"
+    - name: "Boycott, Divest, and Sanction"
+      url: "https://bdsmovement.net/"
+    - name: "Fight Chat Control"
+      url: "https://fightchatcontrol.eu/"
+    - name: "ILGA World"
+      url: "https://ilga.org/"
+    - name: "Human Rights Watch"
+      url: "https://www.hrw.org/"
+    - name: "Ryan L McIntyre"
+      url: "https://ryanlmcintyre.com/"
+    - name: "Alpine Linux"
+      url: "https://alpinelinux.org/"
+    - name: "Web Assembly"
+      url: "https://webassembly.org/"
+    - name: "The TOR Network"
+      url: "https://www.torproject.org/"

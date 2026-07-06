@@ -1,78 +1,78 @@
 site:
-  name: 'huaidan.org'
-  url: 'http://huaidan.org/'
-  description: '友情链接'
-  links: '/links'
+  name: "huaidan.org"
+  url: "http://huaidan.org/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '师父小D'
-      url: 'http://dangerous.cnxhacker.net/'
-    - name: '空虚浪子心'
-      url: 'http://www.inbreak.net/'
-    - name: 'Neeao'
-      url: 'http://www.neeao.com/'
-    - name: '孤狼赏月'
-      url: 'http://www.langke.org/'
-    - name: '7jdg'
-      url: 'http://1v1.name/'
-    - name: 'Milsec.net'
-      url: 'http://www.milsec.net/'
-    - name: 'amxku'
-      url: 'http://amxku.net/'
-    - name: 'Ziqi'
-      url: 'http://www.ziqi.cn/'
-    - name: '疏林阁'
-      url: 'http://shulinge.com/'
-    - name: '米随随'
-      url: 'http://www.misuisui.com/'
-    - name: 'True'
-      url: 'http://www.true-me.com/'
-    - name: '冷漠男孩'
-      url: 'http://www.lengmo.net/'
-    - name: '津津有味'
-      url: 'http://blog.jjuv.com/'
-    - name: '贝贝咖啡同学会'
-      url: 'http://beibei.biz/'
-    - name: '偶爱偶家'
-      url: 'http://blog.2i2j.com/'
-    - name: 'pop'
-      url: 'http://429006.com'
-    - name: '花儿开了'
-      url: 'http://istef.info/'
-    - name: 'H4ck3r'
-      url: 'http://h4ck3r.blogbus.com/'
-    - name: 'woyigui'
-      url: 'http://www.woyigui.cn/'
-    - name: 'Scavin'
-      url: 'http://blog.lzzxt.com/'
-    - name: 'Black-Xstar'
-      url: 'http://blog.black-xstar.com/'
-    - name: '點狀空間設計地帶'
-      url: 'http://oyido.cn/'
-    - name: '纯我网'
-      url: 'http://www.chunw.com/'
-    - name: '黑客榜中榜'
-      url: 'http://www.cn-hack.cn/'
-    - name: '视野博客'
-      url: 'http://www.fovweb.com/'
-    - name: 'hackest'
-      url: 'http://www.hackest.cn'
-    - name: '80sec'
-      url: 'http://www.80sec.com/'
-    - name: '三头猪'
-      url: 'http://hack520.co.kr'
-    - name: 'st0p'
-      url: 'http://www.st0p.org/'
-    - name: '黑海洋'
-      url: 'http://www.upx8.com/'
-    - name: '素包子'
-      url: 'http://baoz.net'
-    - name: 'xi4oyu的Linux Hacking站'
-      url: 'http://www.pentestday.com/'
-    - name: '冰sugar'
-      url: 'http://sebug.cn'
-    - name: '网路游侠'
-      url: 'http://www.youxia.org'
-    - name: 'cnfjhh'
-      url: 'http://www.cnfjhh.com/'
-    - name: '混世魔王'
-      url: 'http://26836659.blogcn.com'
+    - name: "师父小D"
+      url: "http://dangerous.cnxhacker.net/"
+    - name: "空虚浪子心"
+      url: "http://www.inbreak.net/"
+    - name: "Neeao"
+      url: "http://www.neeao.com/"
+    - name: "孤狼赏月"
+      url: "http://www.langke.org/"
+    - name: "7jdg"
+      url: "http://1v1.name/"
+    - name: "Milsec.net"
+      url: "http://www.milsec.net/"
+    - name: "amxku"
+      url: "http://amxku.net/"
+    - name: "Ziqi"
+      url: "http://www.ziqi.cn/"
+    - name: "疏林阁"
+      url: "http://shulinge.com/"
+    - name: "米随随"
+      url: "http://www.misuisui.com/"
+    - name: "True"
+      url: "http://www.true-me.com/"
+    - name: "冷漠男孩"
+      url: "http://www.lengmo.net/"
+    - name: "津津有味"
+      url: "http://blog.jjuv.com/"
+    - name: "贝贝咖啡同学会"
+      url: "http://beibei.biz/"
+    - name: "偶爱偶家"
+      url: "http://blog.2i2j.com/"
+    - name: "pop"
+      url: "http://429006.com"
+    - name: "花儿开了"
+      url: "http://istef.info/"
+    - name: "H4ck3r"
+      url: "http://h4ck3r.blogbus.com/"
+    - name: "woyigui"
+      url: "http://www.woyigui.cn/"
+    - name: "Scavin"
+      url: "http://blog.lzzxt.com/"
+    - name: "Black-Xstar"
+      url: "http://blog.black-xstar.com/"
+    - name: "點狀空間設計地帶"
+      url: "http://oyido.cn/"
+    - name: "纯我网"
+      url: "http://www.chunw.com/"
+    - name: "黑客榜中榜"
+      url: "http://www.cn-hack.cn/"
+    - name: "视野博客"
+      url: "http://www.fovweb.com/"
+    - name: "hackest"
+      url: "http://www.hackest.cn"
+    - name: "80sec"
+      url: "http://www.80sec.com/"
+    - name: "三头猪"
+      url: "http://hack520.co.kr"
+    - name: "st0p"
+      url: "http://www.st0p.org/"
+    - name: "黑海洋"
+      url: "http://www.upx8.com/"
+    - name: "素包子"
+      url: "http://baoz.net"
+    - name: "xi4oyu的Linux Hacking站"
+      url: "http://www.pentestday.com/"
+    - name: "冰sugar"
+      url: "http://sebug.cn"
+    - name: "网路游侠"
+      url: "http://www.youxia.org"
+    - name: "cnfjhh"
+      url: "http://www.cnfjhh.com/"
+    - name: "混世魔王"
+      url: "http://26836659.blogcn.com"

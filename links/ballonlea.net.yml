@@ -1,320 +1,320 @@
 site:
-  name: 'ballonlea.net'
-  url: 'https://ballonlea.net/'
-  description: '友情链接'
-  links: '/links'
+  name: "ballonlea.net"
+  url: "https://ballonlea.net/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'CSS Layout Generator,'
-      url: 'https://layout.bradwoods.io/'
-    - name: 'Interactive CSS Grid Generator'
-      url: 'https://grid.layoutit.com/'
-    - name: 'Doodle Nerd'
-      url: 'https://doodlenerd.com/'
-    - name: 'candy.css (cute),'
-      url: 'https://candy.wavebeem.com/'
-    - name: 'simple.css (minimalist),'
-      url: 'https://simplecss.org/'
-    - name: 'PaperCSS (nonformal),'
-      url: 'https://www.getpapercss.com/'
-    - name: 'hotglue.me'
-      url: 'https://www.hotglue.me/'
-    - name: 'Background Tiles,'
-      url: 'https://background-tiles.com/'
-    - name: 'CSS Pattern Generator,'
-      url: 'http://www.patternify.com/'
-    - name: 'dividers.crd.co,'
-      url: 'https://dividers.crd.co/'
-    - name: 'Asterism,'
-      url: 'https://www.asterism-m.com/'
-    - name: 'Jasminnie'
-      url: 'https://jasminnie.weebly.com/'
-    - name: 'Guestbooks,'
-      url: 'https://guestbooks.meadow.cafe/'
-    - name: 'Atabook,'
-      url: 'https://atabook.org/'
-    - name: 'Smart GB,'
-      url: 'https://www.smartgb.com/'
-    - name: 'Chattable'
-      url: 'https://iframe.chat/'
-    - name: 'Pollcode'
-      url: 'https://pollcode.com/'
-    - name: 'DRAWBOX'
-      url: 'https://drawbox.nekoweb.org/'
-    - name: 'WebTiles'
-      url: 'https://webtiles.kicya.net/'
-    - name: 'System Font Stack'
-      url: 'https://systemfontstack.com/'
-    - name: 'Fount'
-      url: 'https://fount.artequalswork.com/'
-    - name: 'Cursors-4U,'
-      url: 'https://www.cursors-4u.com/'
-    - name: 'Cursor Effects'
-      url: 'https://cursoreffects.com/'
-    - name: 'mayulog.net'
-      url: 'https://cho.mayulog.net/'
-    - name: 'web.badges.world,'
-      url: 'https://web.badges.world/'
-    - name: 'HTML Cheat Sheet'
-      url: 'https://htmlcheatsheet.com/'
-    - name: 'Minify'
-      url: 'https://www.minifier.org/'
-    - name: 'Squoosh'
-      url: 'https://squoosh.app/'
-    - name: 'Web Accessibility Evaluation Tools'
-      url: 'https://wave.webaim.org/'
-    - name: 'PDFescape'
-      url: 'https://www.pdfescape.com/'
-    - name: 'Imgbox,'
-      url: 'https://imgbox.com/'
-    - name: 'Catbox,'
-      url: 'https://catbox.moe/'
-    - name: 'FileGarden'
-      url: 'https://filegarden.com/'
-    - name: '8mb.video'
-      url: 'https://8mb.video/'
-    - name: 'Project Gutenberg,'
-      url: 'https://www.gutenberg.org/'
-    - name: 'DOAB,'
-      url: 'https://directory.doabooks.org/'
-    - name: 'PDF Drive'
-      url: 'https://www.pdfdrive.com/'
-    - name: 'Wiby,'
-      url: 'https://wiby.me/'
-    - name: 'Search My Site'
-      url: 'https://searchmysite.net/'
-    - name: 'waifu2x'
-      url: 'https://www.waifu2x.net/'
-    - name: 'Internet Archive'
-      url: 'https://archive.org/'
-    - name: '12ft'
-      url: 'https://12ft.io/'
-    - name: 'Freedium'
-      url: 'https://freedium-mirror.cfd/'
-    - name: 'cobalt'
-      url: 'https://cobalt.tools/'
-    - name: 'DoubleDouble.top'
-      url: 'https://doubledouble.top/'
-    - name: 'Squidify'
-      url: 'https://www.squidify.org/'
-    - name: 'Spotify Downloader'
-      url: 'https://spotdownloader.com/'
-    - name: 'HTTrack Website Copier'
-      url: 'https://www.httrack.com/'
-    - name: 'Fraidycat'
-      url: 'https://fraidyc.at/'
-    - name: 'Online Harassment Field Manual'
-      url: 'https://onlineharassmentfieldmanual.pen.org/'
-    - name: 'Defensive Computing Checklist'
-      url: 'https://defensivecomputingchecklist.com/'
-    - name: 'Surveillance Self-Defense'
-      url: 'https://ssd.eff.org/'
-    - name: 'Ellipsus'
-      url: 'https://ellipsus.com/'
-    - name: 'Afro Index'
-      url: 'https://afroindex.org/'
-    - name: 'Drawabox'
-      url: 'https://drawabox.com/'
-    - name: 'Reference Angle,'
-      url: 'http://referenceangle.com/'
-    - name: 'Animal Photo Art References Search,'
-      url: 'https://x6ud.github.io/#/'
-    - name: 'JustSketchMe'
-      url: 'https://justsketch.me/'
-    - name: 'Character Design References'
-      url: 'https://characterdesignreferences.com/'
-    - name: 'Figurosity,'
-      url: 'https://figurosity.com/'
-    - name: 'Line of Action'
-      url: 'https://line-of-action.com/'
-    - name: 'Tokyo Fashion'
-      url: 'https://tokyofashion.com/'
-    - name: 'Dither Image Online'
-      url: 'https://ditherimage.online/'
-    - name: 'Photopea'
-      url: 'https://www.photopea.com/'
-    - name: 'Libresprite'
-      url: 'https://libresprite.github.io/#!/#page-top'
-    - name: 'SquidgeWorld Archive'
-      url: 'https://squidgeworld.org/'
-    - name: 'AOYeet'
-      url: 'https://aoyeet.space/'
-    - name: 'FPSlist'
-      url: 'https://fpslist.org/'
-    - name: 'Squidge Images'
-      url: 'https://images.squidge.org/'
-    - name: 'Pokemon Emerald Seaglass'
-      url: 'https://pokemonemeraldseaglass.com/'
-    - name: 'Nuzlocke Tracker'
-      url: 'https://nuzlocke-redux.vercel.app/'
-    - name: 'Collective Pokedex'
-      url: 'https://favoritepokemon.vercel.app/'
-    - name: 'The Spriters Resource'
-      url: 'https://www.spriters-resource.com/'
-    - name: 'Splashtag Creator'
-      url: 'https://splashtagmaker.com/'
-    - name: 'Splatoon3.ink,'
-      url: 'https://splatoon3.ink/'
-    - name: 'Splatoon2.ink'
-      url: 'https://splatoon2.ink/'
-    - name: 'Salmon Run.ink'
-      url: 'https://www.salmonrun.ink/'
-    - name: 'decipher.ink'
-      url: 'https://decipher.ink/'
-    - name: 'Splatoon Lore Ink'
-      url: 'https://splatoonlore.ink/'
-    - name: 'KHWorld'
-      url: 'https://khworld.org/'
-    - name: 'Wiimmfi'
-      url: 'https://wiimmfi.de/'
-    - name: 'hShop'
-      url: 'https://hshop.erista.me/'
-    - name: 'Living the Grid'
-      url: 'https://living-the-grid.com/'
-    - name: 'TomodachiShare,'
-      url: 'https://tomodachishare.com/'
-    - name: 'Tomopattern'
-      url: 'https://tomopattern.com/'
-    - name: 'Play Tetris'
-      url: 'https://play.tetris.com/'
-    - name: 'lain game'
-      url: 'https://laingame.net/'
-    - name: '/r/Roms Megathread'
-      url: 'https://r-roms.github.io/'
-    - name: 'The Visual Novel Database'
-      url: 'https://vndb.org/'
-    - name: 'ProtonDB'
-      url: 'https://www.protondb.com/'
-    - name: 'Find My Moe'
-      url: 'https://findmymoe.nekoweb.org/'
-    - name: 'Humble Bundle'
-      url: 'https://www.humblebundle.com/'
-    - name: 'Ren''Py,'
-      url: 'https://www.renpy.org/'
-    - name: 'BGM DOVA-SYNDROME,'
-      url: 'https://dova-s.jp/'
-    - name: 'Freesound'
-      url: 'https://freesound.org/'
-    - name: 'Game UI Database,'
-      url: 'https://www.gameuidatabase.com/'
-    - name: 'Interface In Game'
-      url: 'https://interfaceingame.com/'
-    - name: 'Amare Games'
-      url: 'https://www.amaregames.com/'
-    - name: 'ArQuives Digital Exhibitions'
-      url: 'https://digitalexhibitions.arquives.ca/'
-    - name: 'Lesbian Herstory Archives'
-      url: 'https://www.lesbianherstoryarchives.org/'
-    - name: 'Digital Transgender Archive'
-      url: 'https://www.digitaltransgenderarchive.net/'
-    - name: 'Trans Continental Pipeline'
-      url: 'https://tcpipeline.org/'
-    - name: 'That''s Gender Dysphoria, FYI'
-      url: 'https://genderdysphoria.fyi/'
-    - name: 'Pronoun Dressing Room'
-      url: 'http://www.pronouns.failedslacker.com/'
-    - name: 'DJT Guide'
-      url: 'https://djtguide.github.io/'
-    - name: 'Anki'
-      url: 'https://apps.ankiweb.net/'
-    - name: 'ttsu e-reader'
-      url: 'https://reader.ttsu.app/'
-    - name: 'Ehon'
-      url: 'https://ehon.alphapolis.co.jp/'
-    - name: 'yomujp'
-      url: 'https://yomujp.com/'
-    - name: 'Watanoc'
-      url: 'https://watanoc.com/'
-    - name: 'Meika-sensi''s Easy Japanese Blog'
-      url: 'https://meikasensei.com/'
-    - name: 'JPDB,'
-      url: 'https://jpdb.io/'
-    - name: 'Mad Zine Research'
-      url: 'https://madzines.org/'
-    - name: 'The Happiest Place On The Internet'
-      url: 'https://www.ollyjolly.com/'
-    - name: 'feeels'
-      url: 'https://feelu.vercel.app/'
-    - name: 'Therapy Shoppe'
-      url: 'https://therapyshoppe.com/'
-    - name: 'Not Bionic Reading'
-      url: 'https://not-br.neocities.org/'
-    - name: 'Vocaloid Radio (Vocaloid)'
-      url: 'https://vocaloidradio.com/'
-    - name: 'The End'
-      url: 'https://www.theend.fyi/'
-    - name: 'Thousand Roads Forums (Pokemon fanfiction),'
-      url: 'https://forums.thousandroads.net/'
-    - name: 'The Bell Tree Forums (Animal Crossing),'
-      url: 'https://www.belltreeforums.com/'
-    - name: 'Music-Map'
-      url: 'https://www.music-map.com/'
-    - name: 'IndieBound'
-      url: 'https://www.indiebound.org/'
-    - name: 'celestian.io'
-      url: 'https://celestian.io/'
-    - name: 'PictoChat Online'
-      url: 'https://pict.chat/'
-    - name: 'Flipnote Archive'
-      url: 'https://archive.sudomemo.net/'
-    - name: 'Geoguess Master'
-      url: 'https://geoguess.neocities.org/'
-    - name: 'OpenUtau'
-      url: 'https://www.openutau.com/'
-    - name: 'Cameron''s World'
-      url: 'https://www.cameronsworld.net/'
-    - name: 'Flashpoint Archive'
-      url: 'https://flashpointarchive.org/'
-    - name: 'Mechvibes'
-      url: 'https://mechvibes.com/'
-    - name: 'Catppuccin'
-      url: 'https://catppuccin.com/'
-    - name: 'Plushify'
-      url: 'https://plushify.net/'
-    - name: 'PkmnCards'
-      url: 'https://pkmncards.com/'
-    - name: 'Pokemon Booster Pack Simulator'
-      url: 'https://pokemonboosterpack.com/'
-    - name: 'Night Mind Index'
-      url: 'https://www.nightmind.info/'
-    - name: 'ihavenotv.com'
-      url: 'https://ihavenotv.com/'
-    - name: 'MangaDex'
-      url: 'https://mangadex.org/'
-    - name: 'fursuitmak.ing'
-      url: 'https://fursuitmak.ing/'
-    - name: 'NomnomNami'
-      url: 'https://nomnomnami.itch.io/'
-    - name: 'Four Thieves Vinegar Collective – Harm Reduction for the Living'
-      url: 'https://fourthievesvinegar.org/'
-    - name: 'Don''t Call the Police'
-      url: 'https://dontcallthepolice.com/'
-    - name: 'Heyzine'
-      url: 'https://heyzine.com/'
-    - name: 'CARI'
-      url: 'https://cari.institute/'
-    - name: 'DRAWING FOR NOTHING'
-      url: 'https://www.drawingfornothing.com/'
-    - name: 'SuperCook'
-      url: 'https://www.supercook.com/'
-    - name: 'The Good Enough Kitchen'
-      url: 'https://goodenoughkitchen.com/'
-    - name: 'Just One Cookbook'
-      url: 'https://www.justonecookbook.com/'
-    - name: 'This to That'
-      url: 'https://www.thistothat.com/'
-    - name: 'Falling Fruit'
-      url: 'https://www.fallingfruit.org/'
-    - name: 'Defective By Design'
-      url: 'https://www.defectivebydesign.org/'
-    - name: 'Yokai.com'
-      url: 'https://yokai.com/'
-    - name: 'Pinecone Pub'
-      url: 'https://pinecone.pub/'
-    - name: 'Dark Books Magic Library,'
-      url: 'https://darkbooks.org/'
-    - name: 'Anti-Authoritarian Toolkit'
-      url: 'https://antiauthoritarian.com/'
-    - name: 'Activist Handbook'
-      url: 'https://activisthandbook.org/'
-    - name: 'Gay Homophobe'
-      url: 'https://gayhomophobe.com/'
+    - name: "CSS Layout Generator,"
+      url: "https://layout.bradwoods.io/"
+    - name: "Interactive CSS Grid Generator"
+      url: "https://grid.layoutit.com/"
+    - name: "Doodle Nerd"
+      url: "https://doodlenerd.com/"
+    - name: "candy.css (cute),"
+      url: "https://candy.wavebeem.com/"
+    - name: "simple.css (minimalist),"
+      url: "https://simplecss.org/"
+    - name: "PaperCSS (nonformal),"
+      url: "https://www.getpapercss.com/"
+    - name: "hotglue.me"
+      url: "https://www.hotglue.me/"
+    - name: "Background Tiles,"
+      url: "https://background-tiles.com/"
+    - name: "CSS Pattern Generator,"
+      url: "http://www.patternify.com/"
+    - name: "dividers.crd.co,"
+      url: "https://dividers.crd.co/"
+    - name: "Asterism,"
+      url: "https://www.asterism-m.com/"
+    - name: "Jasminnie"
+      url: "https://jasminnie.weebly.com/"
+    - name: "Guestbooks,"
+      url: "https://guestbooks.meadow.cafe/"
+    - name: "Atabook,"
+      url: "https://atabook.org/"
+    - name: "Smart GB,"
+      url: "https://www.smartgb.com/"
+    - name: "Chattable"
+      url: "https://iframe.chat/"
+    - name: "Pollcode"
+      url: "https://pollcode.com/"
+    - name: "DRAWBOX"
+      url: "https://drawbox.nekoweb.org/"
+    - name: "WebTiles"
+      url: "https://webtiles.kicya.net/"
+    - name: "System Font Stack"
+      url: "https://systemfontstack.com/"
+    - name: "Fount"
+      url: "https://fount.artequalswork.com/"
+    - name: "Cursors-4U,"
+      url: "https://www.cursors-4u.com/"
+    - name: "Cursor Effects"
+      url: "https://cursoreffects.com/"
+    - name: "mayulog.net"
+      url: "https://cho.mayulog.net/"
+    - name: "web.badges.world,"
+      url: "https://web.badges.world/"
+    - name: "HTML Cheat Sheet"
+      url: "https://htmlcheatsheet.com/"
+    - name: "Minify"
+      url: "https://www.minifier.org/"
+    - name: "Squoosh"
+      url: "https://squoosh.app/"
+    - name: "Web Accessibility Evaluation Tools"
+      url: "https://wave.webaim.org/"
+    - name: "PDFescape"
+      url: "https://www.pdfescape.com/"
+    - name: "Imgbox,"
+      url: "https://imgbox.com/"
+    - name: "Catbox,"
+      url: "https://catbox.moe/"
+    - name: "FileGarden"
+      url: "https://filegarden.com/"
+    - name: "8mb.video"
+      url: "https://8mb.video/"
+    - name: "Project Gutenberg,"
+      url: "https://www.gutenberg.org/"
+    - name: "DOAB,"
+      url: "https://directory.doabooks.org/"
+    - name: "PDF Drive"
+      url: "https://www.pdfdrive.com/"
+    - name: "Wiby,"
+      url: "https://wiby.me/"
+    - name: "Search My Site"
+      url: "https://searchmysite.net/"
+    - name: "waifu2x"
+      url: "https://www.waifu2x.net/"
+    - name: "Internet Archive"
+      url: "https://archive.org/"
+    - name: "12ft"
+      url: "https://12ft.io/"
+    - name: "Freedium"
+      url: "https://freedium-mirror.cfd/"
+    - name: "cobalt"
+      url: "https://cobalt.tools/"
+    - name: "DoubleDouble.top"
+      url: "https://doubledouble.top/"
+    - name: "Squidify"
+      url: "https://www.squidify.org/"
+    - name: "Spotify Downloader"
+      url: "https://spotdownloader.com/"
+    - name: "HTTrack Website Copier"
+      url: "https://www.httrack.com/"
+    - name: "Fraidycat"
+      url: "https://fraidyc.at/"
+    - name: "Online Harassment Field Manual"
+      url: "https://onlineharassmentfieldmanual.pen.org/"
+    - name: "Defensive Computing Checklist"
+      url: "https://defensivecomputingchecklist.com/"
+    - name: "Surveillance Self-Defense"
+      url: "https://ssd.eff.org/"
+    - name: "Ellipsus"
+      url: "https://ellipsus.com/"
+    - name: "Afro Index"
+      url: "https://afroindex.org/"
+    - name: "Drawabox"
+      url: "https://drawabox.com/"
+    - name: "Reference Angle,"
+      url: "http://referenceangle.com/"
+    - name: "Animal Photo Art References Search,"
+      url: "https://x6ud.github.io/#/"
+    - name: "JustSketchMe"
+      url: "https://justsketch.me/"
+    - name: "Character Design References"
+      url: "https://characterdesignreferences.com/"
+    - name: "Figurosity,"
+      url: "https://figurosity.com/"
+    - name: "Line of Action"
+      url: "https://line-of-action.com/"
+    - name: "Tokyo Fashion"
+      url: "https://tokyofashion.com/"
+    - name: "Dither Image Online"
+      url: "https://ditherimage.online/"
+    - name: "Photopea"
+      url: "https://www.photopea.com/"
+    - name: "Libresprite"
+      url: "https://libresprite.github.io/#!/#page-top"
+    - name: "SquidgeWorld Archive"
+      url: "https://squidgeworld.org/"
+    - name: "AOYeet"
+      url: "https://aoyeet.space/"
+    - name: "FPSlist"
+      url: "https://fpslist.org/"
+    - name: "Squidge Images"
+      url: "https://images.squidge.org/"
+    - name: "Pokemon Emerald Seaglass"
+      url: "https://pokemonemeraldseaglass.com/"
+    - name: "Nuzlocke Tracker"
+      url: "https://nuzlocke-redux.vercel.app/"
+    - name: "Collective Pokedex"
+      url: "https://favoritepokemon.vercel.app/"
+    - name: "The Spriters Resource"
+      url: "https://www.spriters-resource.com/"
+    - name: "Splashtag Creator"
+      url: "https://splashtagmaker.com/"
+    - name: "Splatoon3.ink,"
+      url: "https://splatoon3.ink/"
+    - name: "Splatoon2.ink"
+      url: "https://splatoon2.ink/"
+    - name: "Salmon Run.ink"
+      url: "https://www.salmonrun.ink/"
+    - name: "decipher.ink"
+      url: "https://decipher.ink/"
+    - name: "Splatoon Lore Ink"
+      url: "https://splatoonlore.ink/"
+    - name: "KHWorld"
+      url: "https://khworld.org/"
+    - name: "Wiimmfi"
+      url: "https://wiimmfi.de/"
+    - name: "hShop"
+      url: "https://hshop.erista.me/"
+    - name: "Living the Grid"
+      url: "https://living-the-grid.com/"
+    - name: "TomodachiShare,"
+      url: "https://tomodachishare.com/"
+    - name: "Tomopattern"
+      url: "https://tomopattern.com/"
+    - name: "Play Tetris"
+      url: "https://play.tetris.com/"
+    - name: "lain game"
+      url: "https://laingame.net/"
+    - name: "/r/Roms Megathread"
+      url: "https://r-roms.github.io/"
+    - name: "The Visual Novel Database"
+      url: "https://vndb.org/"
+    - name: "ProtonDB"
+      url: "https://www.protondb.com/"
+    - name: "Find My Moe"
+      url: "https://findmymoe.nekoweb.org/"
+    - name: "Humble Bundle"
+      url: "https://www.humblebundle.com/"
+    - name: "Ren'Py,"
+      url: "https://www.renpy.org/"
+    - name: "BGM DOVA-SYNDROME,"
+      url: "https://dova-s.jp/"
+    - name: "Freesound"
+      url: "https://freesound.org/"
+    - name: "Game UI Database,"
+      url: "https://www.gameuidatabase.com/"
+    - name: "Interface In Game"
+      url: "https://interfaceingame.com/"
+    - name: "Amare Games"
+      url: "https://www.amaregames.com/"
+    - name: "ArQuives Digital Exhibitions"
+      url: "https://digitalexhibitions.arquives.ca/"
+    - name: "Lesbian Herstory Archives"
+      url: "https://www.lesbianherstoryarchives.org/"
+    - name: "Digital Transgender Archive"
+      url: "https://www.digitaltransgenderarchive.net/"
+    - name: "Trans Continental Pipeline"
+      url: "https://tcpipeline.org/"
+    - name: "That's Gender Dysphoria, FYI"
+      url: "https://genderdysphoria.fyi/"
+    - name: "Pronoun Dressing Room"
+      url: "http://www.pronouns.failedslacker.com/"
+    - name: "DJT Guide"
+      url: "https://djtguide.github.io/"
+    - name: "Anki"
+      url: "https://apps.ankiweb.net/"
+    - name: "ttsu e-reader"
+      url: "https://reader.ttsu.app/"
+    - name: "Ehon"
+      url: "https://ehon.alphapolis.co.jp/"
+    - name: "yomujp"
+      url: "https://yomujp.com/"
+    - name: "Watanoc"
+      url: "https://watanoc.com/"
+    - name: "Meika-sensi's Easy Japanese Blog"
+      url: "https://meikasensei.com/"
+    - name: "JPDB,"
+      url: "https://jpdb.io/"
+    - name: "Mad Zine Research"
+      url: "https://madzines.org/"
+    - name: "The Happiest Place On The Internet"
+      url: "https://www.ollyjolly.com/"
+    - name: "feeels"
+      url: "https://feelu.vercel.app/"
+    - name: "Therapy Shoppe"
+      url: "https://therapyshoppe.com/"
+    - name: "Not Bionic Reading"
+      url: "https://not-br.neocities.org/"
+    - name: "Vocaloid Radio (Vocaloid)"
+      url: "https://vocaloidradio.com/"
+    - name: "The End"
+      url: "https://www.theend.fyi/"
+    - name: "Thousand Roads Forums (Pokemon fanfiction),"
+      url: "https://forums.thousandroads.net/"
+    - name: "The Bell Tree Forums (Animal Crossing),"
+      url: "https://www.belltreeforums.com/"
+    - name: "Music-Map"
+      url: "https://www.music-map.com/"
+    - name: "IndieBound"
+      url: "https://www.indiebound.org/"
+    - name: "celestian.io"
+      url: "https://celestian.io/"
+    - name: "PictoChat Online"
+      url: "https://pict.chat/"
+    - name: "Flipnote Archive"
+      url: "https://archive.sudomemo.net/"
+    - name: "Geoguess Master"
+      url: "https://geoguess.neocities.org/"
+    - name: "OpenUtau"
+      url: "https://www.openutau.com/"
+    - name: "Cameron's World"
+      url: "https://www.cameronsworld.net/"
+    - name: "Flashpoint Archive"
+      url: "https://flashpointarchive.org/"
+    - name: "Mechvibes"
+      url: "https://mechvibes.com/"
+    - name: "Catppuccin"
+      url: "https://catppuccin.com/"
+    - name: "Plushify"
+      url: "https://plushify.net/"
+    - name: "PkmnCards"
+      url: "https://pkmncards.com/"
+    - name: "Pokemon Booster Pack Simulator"
+      url: "https://pokemonboosterpack.com/"
+    - name: "Night Mind Index"
+      url: "https://www.nightmind.info/"
+    - name: "ihavenotv.com"
+      url: "https://ihavenotv.com/"
+    - name: "MangaDex"
+      url: "https://mangadex.org/"
+    - name: "fursuitmak.ing"
+      url: "https://fursuitmak.ing/"
+    - name: "NomnomNami"
+      url: "https://nomnomnami.itch.io/"
+    - name: "Four Thieves Vinegar Collective – Harm Reduction for the Living"
+      url: "https://fourthievesvinegar.org/"
+    - name: "Don't Call the Police"
+      url: "https://dontcallthepolice.com/"
+    - name: "Heyzine"
+      url: "https://heyzine.com/"
+    - name: "CARI"
+      url: "https://cari.institute/"
+    - name: "DRAWING FOR NOTHING"
+      url: "https://www.drawingfornothing.com/"
+    - name: "SuperCook"
+      url: "https://www.supercook.com/"
+    - name: "The Good Enough Kitchen"
+      url: "https://goodenoughkitchen.com/"
+    - name: "Just One Cookbook"
+      url: "https://www.justonecookbook.com/"
+    - name: "This to That"
+      url: "https://www.thistothat.com/"
+    - name: "Falling Fruit"
+      url: "https://www.fallingfruit.org/"
+    - name: "Defective By Design"
+      url: "https://www.defectivebydesign.org/"
+    - name: "Yokai.com"
+      url: "https://yokai.com/"
+    - name: "Pinecone Pub"
+      url: "https://pinecone.pub/"
+    - name: "Dark Books Magic Library,"
+      url: "https://darkbooks.org/"
+    - name: "Anti-Authoritarian Toolkit"
+      url: "https://antiauthoritarian.com/"
+    - name: "Activist Handbook"
+      url: "https://activisthandbook.org/"
+    - name: "Gay Homophobe"
+      url: "https://gayhomophobe.com/"

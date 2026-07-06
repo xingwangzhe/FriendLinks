@@ -1,10 +1,10 @@
 site:
-  name: 'halyul.com'
-  url: 'https://halyul.com/'
-  description: '友情链接'
-  links: '/'
+  name: "halyul.com"
+  url: "https://halyul.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'me as a developer'
-      url: 'https://halyul.dev'
-    - name: 'http cats'
-      url: 'https://cat.gura.ch'
+    - name: "me as a developer"
+      url: "https://halyul.dev"
+    - name: "http cats"
+      url: "https://cat.gura.ch"

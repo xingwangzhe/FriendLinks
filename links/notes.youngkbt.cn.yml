@@ -1,12 +1,12 @@
 site:
-  name: 'Young Kbt blog'
-  url: 'https://notes.youngkbt.cn/'
-  description: 'Young Kbt个人博客, VuePress搭建, 使用了 Vdoing 主题, 学习Java, Web, 框架, 微服务, 工具, 前端等相关知识, 记录生'
-  links: '/links'
+  name: "Young Kbt blog"
+  url: "https://notes.youngkbt.cn/"
+  description: "Young Kbt个人博客, VuePress搭建, 使用了 Vdoing 主题, 学习Java, Web, 框架, 微服务, 工具, 前端等相关知识, 记录生"
+  links: "/links"
   friends:
-    - name: 'Evan's blog'
-      url: 'https://xugaoyi.com/'
-    - name: '二丫讲梵'
-      url: 'https://wiki.eryajf.net/'
-    - name: '晓林的博客主题ICP备案号'
-      url: 'https://www.peterjxl.com/'
+    - name: "Evan's blog"
+      url: "https://xugaoyi.com/"
+    - name: "二丫讲梵"
+      url: "https://wiki.eryajf.net/"
+    - name: "晓林的博客主题ICP备案号"
+      url: "https://www.peterjxl.com/"

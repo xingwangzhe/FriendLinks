@@ -1,32 +1,32 @@
 site:
-  name: 'automattic.com'
-  url: 'https://automattic.com/'
-  description: '友情链接'
-  links: '/'
+  name: "automattic.com"
+  url: "https://automattic.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Beeper'
-      url: 'https://www.beeper.com/'
-    - name: 'Day One'
-      url: 'https://dayoneapp.com/'
-    - name: 'WooCommerce'
-      url: 'https://woocommerce.com/'
-    - name: 'Jetpack'
-      url: 'https://jetpack.com/'
-    - name: 'WP VIP'
-      url: 'https://wpvip.com/'
-    - name: 'Pocket Casts'
-      url: 'https://pocketcasts.com/'
-    - name: 'Longreads'
-      url: 'https://longreads.com/'
-    - name: 'BuddyPress'
-      url: 'https://buddypress.org/'
-    - name: 'bbPress'
-      url: 'https://bbpress.org/'
-    - name: 'WordCamps'
-      url: 'https://central.wordcamp.org/'
-    - name: 'Matt Mullenweg'
-      url: 'https://ma.tt/'
-    - name: 'Meet'
-      url: 'https://meetomattic.com/'
-    - name: 'Manage subscriptions'
-      url: 'https://subscribe.wordpress.com/'
+    - name: "Beeper"
+      url: "https://www.beeper.com/"
+    - name: "Day One"
+      url: "https://dayoneapp.com/"
+    - name: "WooCommerce"
+      url: "https://woocommerce.com/"
+    - name: "Jetpack"
+      url: "https://jetpack.com/"
+    - name: "WP VIP"
+      url: "https://wpvip.com/"
+    - name: "Pocket Casts"
+      url: "https://pocketcasts.com/"
+    - name: "Longreads"
+      url: "https://longreads.com/"
+    - name: "BuddyPress"
+      url: "https://buddypress.org/"
+    - name: "bbPress"
+      url: "https://bbpress.org/"
+    - name: "WordCamps"
+      url: "https://central.wordcamp.org/"
+    - name: "Matt Mullenweg"
+      url: "https://ma.tt/"
+    - name: "Meet"
+      url: "https://meetomattic.com/"
+    - name: "Manage subscriptions"
+      url: "https://subscribe.wordpress.com/"

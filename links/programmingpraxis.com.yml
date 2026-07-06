@@ -1,12 +1,12 @@
 site:
-  name: 'programmingpraxis.com'
-  url: 'https://programmingpraxis.com/'
-  description: '友情链接'
-  links: '/link'
+  name: "programmingpraxis.com"
+  url: "https://programmingpraxis.com/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: 'Pascal Bourguignon'
-      url: 'http://www.informatimago.com'
-    - name: 'Daniel'
-      url: 'http://www.dannyadam.com'
-    - name: 'Manage subscriptions'
-      url: 'https://subscribe.wordpress.com/'
+    - name: "Pascal Bourguignon"
+      url: "http://www.informatimago.com"
+    - name: "Daniel"
+      url: "http://www.dannyadam.com"
+    - name: "Manage subscriptions"
+      url: "https://subscribe.wordpress.com/"

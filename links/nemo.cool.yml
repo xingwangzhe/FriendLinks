@@ -1,26 +1,26 @@
 site:
-  name: 'nemo.cool'
-  url: 'https://nemo.cool/'
-  description: '友情链接'
-  links: '/friends'
+  name: "nemo.cool"
+  url: "https://nemo.cool/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Debug客栈'
-      url: 'https://www.debuginn.cn/'
-    - name: '院长技术'
-      url: 'https://deanit.cn/'
-    - name: '山葵酱 Wasabi'
-      url: 'https://wasabi.fun/'
-    - name: 'Moon in Nowhere'
-      url: 'https://innowhere.icu/'
-    - name: '法律小茶馆'
-      url: 'https://lawtee.com'
-    - name: 'Pseudoyu'
-      url: 'https://www.pseudoyu.com'
-    - name: '陶小桃Blog'
-      url: 'https://www.52txr.cn'
-    - name: 'YUOO'
-      url: 'https://www.yuoo.cn/'
-    - name: 'Alien外星人'
-      url: 'https://www.aliengu.com/'
-    - name: 'AxtonYao'
-      url: 'https://flyhigher.top'
+    - name: "Debug客栈"
+      url: "https://www.debuginn.cn/"
+    - name: "院长技术"
+      url: "https://deanit.cn/"
+    - name: "山葵酱 Wasabi"
+      url: "https://wasabi.fun/"
+    - name: "Moon in Nowhere"
+      url: "https://innowhere.icu/"
+    - name: "法律小茶馆"
+      url: "https://lawtee.com"
+    - name: "Pseudoyu"
+      url: "https://www.pseudoyu.com"
+    - name: "陶小桃Blog"
+      url: "https://www.52txr.cn"
+    - name: "YUOO"
+      url: "https://www.yuoo.cn/"
+    - name: "Alien外星人"
+      url: "https://www.aliengu.com/"
+    - name: "AxtonYao"
+      url: "https://flyhigher.top"

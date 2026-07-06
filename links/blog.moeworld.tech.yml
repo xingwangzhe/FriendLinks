@@ -1,76 +1,76 @@
 site:
-  name: 'blog.moeworld.tech'
-  url: 'https://blog.moeworld.tech/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.moeworld.tech"
+  url: "https://blog.moeworld.tech/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '中国站'
-      url: 'https://blog.kzmxj.com'
-    - name: '云签到'
-      url: 'https://tiebasign.moeworld.top/'
-    - name: '个人页'
-      url: 'https://about.moeworld.top/'
-    - name: 'P3TERX ZONE一个萌新的博客'
-      url: 'https://p3terx.com'
-    - name: '小竹の笔记本这里是编程宇宙中一颗璀璨的星辰，照亮你探索知识的旅程。'
-      url: 'https://notes.smallbamboo.cn'
-    - name: 'Menghuan1918爱折腾的摆烂咸鱼'
-      url: 'https://blog.menghuan1918.com/'
-    - name: 'MoeBlog不要忘记,当初为何出发。'
-      url: 'https://moeblog.cn/'
-    - name: 'Rose''s Blog咸鱼rose的个人博客~'
-      url: 'https://Rosemoe.github.io/'
-    - name: '梦之翼「君と僕もさ、また明日へ向かっていこう」'
-      url: 'https://www.fly3949.com/'
-    - name: '湿法炼铜CuSO₄＋Fe＝Cu＋FeSO₄'
-      url: 'https://index.jitsu.top/'
-    - name: 'smyhwのblog吾于此生,竭尽所能'
-      url: 'https://blog.smyhw.online'
-    - name: 'Amane''s BlogTogether we will create a world with sugar and kawaii!'
-      url: 'https://blog.amane.icu'
-    - name: 'iVampireSP翻开一本回忆录，一页一物语。'
-      url: 'https://ivampiresp.com/'
-    - name: '肥猪qwq一定是最可爱的猪猪！'
-      url: 'https://www.feizhuqwq.com'
-    - name: '纸鹿摸鱼处纸鹿至麓不知路，支炉制露不止漉'
-      url: 'https://blog.zhilu.cyou'
-    - name: 'FGHRSHFGHRSH 的博客'
-      url: 'https://www.fghrsh.net'
-    - name: 'GoodBoyboy ''s Blog惬意小屋-点滴记忆'
-      url: 'https://blog.goodboyboy.top/'
-    - name: 'Xiwangly''s Blog希望的博客'
-      url: 'https://www.xiwangly.com'
-    - name: 'GalgamerGalgamer - 美少女與您（3 billion players play Galgame）'
-      url: 'https://galgamer.moe'
-    - name: '雪萌天文台发现巷子里的那颗星星'
-      url: 'https://blog.snowy.moe'
-    - name: '纯之的blog纯之的个人博客'
-      url: 'https://moe.tips'
-    - name: 'Mikuの极光星心有多宽，世界就有多远'
-      url: 'https://blog.sotkg.com'
-    - name: 'JOKER(M)Take your heart'
-      url: 'https://jokerm.com'
-    - name: 'Magma Ink为美好的生活献礼'
-      url: 'https://magma.ink/'
-    - name: '北方之狼时光如水，生命如歌'
-      url: 'https://blog.northwoolf.top/'
-    - name: '萌！萝莉一个普通的小博客哦~'
-      url: 'https://loliloli.moe/'
-    - name: '方豆豆的小屋逃离，并觅一地安置一闪灵光'
-      url: 'https://alioth-ti.cc/'
-    - name: '七米蓝不在灯火阑珊处。'
-      url: 'https://www.chirmyram.top/'
-    - name: '紗夕里在你心里-直到永远'
-      url: 'https://blog.ovofish.com'
-    - name: 'Lazy''s BlogShare somethings with you'
-      url: 'https://blog.imlazy.ink:233'
-    - name: '创客研究创客分享'
-      url: 'https://www.devhjz.com/'
-    - name: '残页blog残页的小博客'
-      url: 'https://canyie.github.io/'
-    - name: '可爱のElaina或许是不知梦的缘故，流离之人追逐幻影'
-      url: 'https://blog.yhx1415926.top'
-    - name: '冰月blog冰月博客'
-      url: 'https://blog.bingyue.top'
-    - name: 'Vtrois'
-      url: 'https://www.vtrois.com'
+    - name: "中国站"
+      url: "https://blog.kzmxj.com"
+    - name: "云签到"
+      url: "https://tiebasign.moeworld.top/"
+    - name: "个人页"
+      url: "https://about.moeworld.top/"
+    - name: "P3TERX ZONE一个萌新的博客"
+      url: "https://p3terx.com"
+    - name: "小竹の笔记本这里是编程宇宙中一颗璀璨的星辰，照亮你探索知识的旅程。"
+      url: "https://notes.smallbamboo.cn"
+    - name: "Menghuan1918爱折腾的摆烂咸鱼"
+      url: "https://blog.menghuan1918.com/"
+    - name: "MoeBlog不要忘记,当初为何出发。"
+      url: "https://moeblog.cn/"
+    - name: "Rose's Blog咸鱼rose的个人博客~"
+      url: "https://Rosemoe.github.io/"
+    - name: "梦之翼「君と僕もさ、また明日へ向かっていこう」"
+      url: "https://www.fly3949.com/"
+    - name: "湿法炼铜CuSO₄＋Fe＝Cu＋FeSO₄"
+      url: "https://index.jitsu.top/"
+    - name: "smyhwのblog吾于此生,竭尽所能"
+      url: "https://blog.smyhw.online"
+    - name: "Amane's BlogTogether we will create a world with sugar and kawaii!"
+      url: "https://blog.amane.icu"
+    - name: "iVampireSP翻开一本回忆录，一页一物语。"
+      url: "https://ivampiresp.com/"
+    - name: "肥猪qwq一定是最可爱的猪猪！"
+      url: "https://www.feizhuqwq.com"
+    - name: "纸鹿摸鱼处纸鹿至麓不知路，支炉制露不止漉"
+      url: "https://blog.zhilu.cyou"
+    - name: "FGHRSHFGHRSH 的博客"
+      url: "https://www.fghrsh.net"
+    - name: "GoodBoyboy 's Blog惬意小屋-点滴记忆"
+      url: "https://blog.goodboyboy.top/"
+    - name: "Xiwangly's Blog希望的博客"
+      url: "https://www.xiwangly.com"
+    - name: "GalgamerGalgamer - 美少女與您（3 billion players play Galgame）"
+      url: "https://galgamer.moe"
+    - name: "雪萌天文台发现巷子里的那颗星星"
+      url: "https://blog.snowy.moe"
+    - name: "纯之的blog纯之的个人博客"
+      url: "https://moe.tips"
+    - name: "Mikuの极光星心有多宽，世界就有多远"
+      url: "https://blog.sotkg.com"
+    - name: "JOKER(M)Take your heart"
+      url: "https://jokerm.com"
+    - name: "Magma Ink为美好的生活献礼"
+      url: "https://magma.ink/"
+    - name: "北方之狼时光如水，生命如歌"
+      url: "https://blog.northwoolf.top/"
+    - name: "萌！萝莉一个普通的小博客哦~"
+      url: "https://loliloli.moe/"
+    - name: "方豆豆的小屋逃离，并觅一地安置一闪灵光"
+      url: "https://alioth-ti.cc/"
+    - name: "七米蓝不在灯火阑珊处。"
+      url: "https://www.chirmyram.top/"
+    - name: "紗夕里在你心里-直到永远"
+      url: "https://blog.ovofish.com"
+    - name: "Lazy's BlogShare somethings with you"
+      url: "https://blog.imlazy.ink:233"
+    - name: "创客研究创客分享"
+      url: "https://www.devhjz.com/"
+    - name: "残页blog残页的小博客"
+      url: "https://canyie.github.io/"
+    - name: "可爱のElaina或许是不知梦的缘故，流离之人追逐幻影"
+      url: "https://blog.yhx1415926.top"
+    - name: "冰月blog冰月博客"
+      url: "https://blog.bingyue.top"
+    - name: "Vtrois"
+      url: "https://www.vtrois.com"

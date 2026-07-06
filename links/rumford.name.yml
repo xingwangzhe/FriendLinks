@@ -1,14 +1,14 @@
 site:
-  name: 'rumford.name'
-  url: 'http://www.rumford.name/'
-  description: '友情链接'
-  links: '/'
+  name: "rumford.name"
+  url: "http://www.rumford.name/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Sasa’s'
-      url: 'http://theerlangelist.com/'
-    - name: 'Dave’s'
-      url: 'https://pragdave.me/'
-    - name: 'Erlang'
-      url: 'http://www.erlang.org/'
-    - name: 'Lijia Yu'
-      url: 'http://yulijia.net'
+    - name: "Sasa’s"
+      url: "http://theerlangelist.com/"
+    - name: "Dave’s"
+      url: "https://pragdave.me/"
+    - name: "Erlang"
+      url: "http://www.erlang.org/"
+    - name: "Lijia Yu"
+      url: "http://yulijia.net"

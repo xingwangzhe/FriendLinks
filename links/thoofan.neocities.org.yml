@@ -1,12 +1,12 @@
 site:
-  name: 'thoofan.neocities.org'
-  url: 'https://thoofan.neocities.org/'
-  description: '友情链接'
-  links: '/about'
+  name: "thoofan.neocities.org"
+  url: "https://thoofan.neocities.org/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: '@thoofan:w33b.cloud'
-      url: 'https://matrix.to/#/@thoofan:w33b.cloud'
-    - name: '@thoofan@xmpp.earth'
-      url: 'https://xmpp.link/#thoofan@xmpp.earth'
-    - name: 'Fediring'
-      url: 'https://fediring.net/'
+    - name: "@thoofan:w33b.cloud"
+      url: "https://matrix.to/#/@thoofan:w33b.cloud"
+    - name: "@thoofan@xmpp.earth"
+      url: "https://xmpp.link/#thoofan@xmpp.earth"
+    - name: "Fediring"
+      url: "https://fediring.net/"

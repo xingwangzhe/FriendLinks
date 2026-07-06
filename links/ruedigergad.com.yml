@@ -1,16 +1,16 @@
 site:
-  name: 'ruedigergad.com'
-  url: 'https://ruedigergad.com/'
-  description: '友情链接'
-  links: '/'
+  name: "ruedigergad.com"
+  url: "https://ruedigergad.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'jNetPcap'
-      url: 'http://jnetpcap.com/'
-    - name: 'matplotlib'
-      url: 'https://matplotlib.org/'
-    - name: 'A-Frame'
-      url: 'https://aframe.io/'
-    - name: ':clojureD 2019'
-      url: 'https://clojured.de/'
-    - name: 'Manage subscriptions'
-      url: 'https://subscribe.wordpress.com/'
+    - name: "jNetPcap"
+      url: "http://jnetpcap.com/"
+    - name: "matplotlib"
+      url: "https://matplotlib.org/"
+    - name: "A-Frame"
+      url: "https://aframe.io/"
+    - name: ":clojureD 2019"
+      url: "https://clojured.de/"
+    - name: "Manage subscriptions"
+      url: "https://subscribe.wordpress.com/"

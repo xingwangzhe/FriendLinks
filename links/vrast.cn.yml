@@ -1,88 +1,88 @@
 site:
-  name: 'Keyle's Blog'
-  url: 'https://vrast.cn/'
-  description: '欢迎您关注我的微信公众号：礼拜八不工作'
-  links: '/links'
+  name: "Keyle's Blog"
+  url: "https://vrast.cn/"
+  description: "欢迎您关注我的微信公众号：礼拜八不工作"
+  links: "/links"
   friends:
-    - name: 'Keyle's knowledge repository'
-      url: 'https://wiki.vrast.cn/'
-    - name: 'Memos'
-      url: 'https://os.vrast.cn/'
-    - name: '谨言慎行'
-      url: 'https://careful.fyi/'
-    - name: '猫普的精神世界'
-      url: 'https://maplezz.com/'
-    - name: '日式JK'
-      url: 'https://www.jk.rs/'
-    - name: '彬红茶日记'
-      url: 'https://note.redcha.cn/'
-    - name: '宗宗酱-用文字和图片记录工作和学习生活'
-      url: 'https://ygz.ink/'
-    - name: '李欲裕'
-      url: 'https://blog.kokowo.cn/'
-    - name: '云烟博客'
-      url: 'https://www.yunyanck.cn/'
-    - name: '问心斋'
-      url: 'https://blog.ehnap.com/'
-    - name: 'evans的小屋'
-      url: 'https://www.evanser.top/'
-    - name: '二丫讲梵'
-      url: 'https://wiki.eryajf.net/'
-    - name: 'szhshp 的第三边境研究所'
-      url: 'https://szhshp.org/'
-    - name: '清梦云熙'
-      url: 'https://skylan.cc/'
-    - name: '登峰造极者，殊途亦同归。'
-      url: 'https://www.lfzxb.top/'
-    - name: '一世繁华'
-      url: 'https://blog.hantaotao.top/'
-    - name: '蒙需'
-      url: 'https://jiangcl.com/'
-    - name: '灵魂想亲一口'
-      url: 'https://yangk.net/'
-    - name: '主页'
-      url: 'https://www.geekery.cn/'
-    - name: '林海草原'
-      url: 'https://lhcy.org/'
-    - name: 'DrPika's Blog'
-      url: 'https://blog.drpika.com/'
-    - name: '屠·城'
-      url: 'https://www.haomwei.com/'
-    - name: '2026年3月9号早盘提示（油价突破110关口）'
-      url: 'https://www.love.tg/'
-    - name: 'Lincol29'
-      url: 'https://www.lincol29.cn/'
-    - name: '湘铭`Blog'
-      url: 'https://xiangming.site/'
-    - name: '浪子'
-      url: 'https://blog.loliko.cn/'
-    - name: '异数·艺术'
-      url: 'https://www.yishu.pro/'
-    - name: '我们叁'
-      url: 'https://ihaihe.cn/'
-    - name: 'Finisky Garden'
-      url: 'https://finisky.github.io/'
-    - name: '往东行'
-      url: 'https://wangdongxing.com/'
-    - name: 'ImQi1'
-      url: 'https://imqi1.com/'
-    - name: '首页'
-      url: 'https://dujun.io/'
-    - name: '品味苏州'
-      url: 'https://pwsz.com/'
-    - name: 'obaby 𝐢‍𝐧⃝ void'
-      url: 'https://zhongxiaojie.cn/'
-    - name: '元视角'
-      url: 'https://blog.yuanpei.me/'
-    - name: '程序员关关'
-      url: 'https://951008.com/'
-    - name: '首页-随心随风'
-      url: 'https://www.iarthit.com/'
-    - name: 'zhutaorun's Blog'
-      url: 'https://zhutaorun.win/'
-    - name: 'https://blog.mzh.ren/zh/'
-      url: 'https://blog.mzh.ren/'
-    - name: '刑辩人在路上'
-      url: 'https://xingbianren.cn/'
-    - name: '笔墨迹'
-      url: 'https://blogscn.fun/'
+    - name: "Keyle's knowledge repository"
+      url: "https://wiki.vrast.cn/"
+    - name: "Memos"
+      url: "https://os.vrast.cn/"
+    - name: "谨言慎行"
+      url: "https://careful.fyi/"
+    - name: "猫普的精神世界"
+      url: "https://maplezz.com/"
+    - name: "日式JK"
+      url: "https://www.jk.rs/"
+    - name: "彬红茶日记"
+      url: "https://note.redcha.cn/"
+    - name: "宗宗酱-用文字和图片记录工作和学习生活"
+      url: "https://ygz.ink/"
+    - name: "李欲裕"
+      url: "https://blog.kokowo.cn/"
+    - name: "云烟博客"
+      url: "https://www.yunyanck.cn/"
+    - name: "问心斋"
+      url: "https://blog.ehnap.com/"
+    - name: "evans的小屋"
+      url: "https://www.evanser.top/"
+    - name: "二丫讲梵"
+      url: "https://wiki.eryajf.net/"
+    - name: "szhshp 的第三边境研究所"
+      url: "https://szhshp.org/"
+    - name: "清梦云熙"
+      url: "https://skylan.cc/"
+    - name: "登峰造极者，殊途亦同归。"
+      url: "https://www.lfzxb.top/"
+    - name: "一世繁华"
+      url: "https://blog.hantaotao.top/"
+    - name: "蒙需"
+      url: "https://jiangcl.com/"
+    - name: "灵魂想亲一口"
+      url: "https://yangk.net/"
+    - name: "主页"
+      url: "https://www.geekery.cn/"
+    - name: "林海草原"
+      url: "https://lhcy.org/"
+    - name: "DrPika's Blog"
+      url: "https://blog.drpika.com/"
+    - name: "屠·城"
+      url: "https://www.haomwei.com/"
+    - name: "2026年3月9号早盘提示（油价突破110关口）"
+      url: "https://www.love.tg/"
+    - name: "Lincol29"
+      url: "https://www.lincol29.cn/"
+    - name: "湘铭`Blog"
+      url: "https://xiangming.site/"
+    - name: "浪子"
+      url: "https://blog.loliko.cn/"
+    - name: "异数·艺术"
+      url: "https://www.yishu.pro/"
+    - name: "我们叁"
+      url: "https://ihaihe.cn/"
+    - name: "Finisky Garden"
+      url: "https://finisky.github.io/"
+    - name: "往东行"
+      url: "https://wangdongxing.com/"
+    - name: "ImQi1"
+      url: "https://imqi1.com/"
+    - name: "首页"
+      url: "https://dujun.io/"
+    - name: "品味苏州"
+      url: "https://pwsz.com/"
+    - name: "obaby 𝐢‍𝐧⃝ void"
+      url: "https://zhongxiaojie.cn/"
+    - name: "元视角"
+      url: "https://blog.yuanpei.me/"
+    - name: "程序员关关"
+      url: "https://951008.com/"
+    - name: "首页-随心随风"
+      url: "https://www.iarthit.com/"
+    - name: "zhutaorun's Blog"
+      url: "https://zhutaorun.win/"
+    - name: "https://blog.mzh.ren/zh/"
+      url: "https://blog.mzh.ren/"
+    - name: "刑辩人在路上"
+      url: "https://xingbianren.cn/"
+    - name: "笔墨迹"
+      url: "https://blogscn.fun/"

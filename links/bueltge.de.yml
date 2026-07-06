@@ -1,10 +1,10 @@
 site:
-  name: 'bueltge.de'
-  url: 'https://bueltge.de/'
-  description: '友情链接'
-  links: '/link'
+  name: "bueltge.de"
+  url: "https://bueltge.de/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: 'Syde GmbH'
-      url: 'https://syde.com'
-    - name: 'WP Basis Theme'
-      url: 'http://wpbasis.de/'
+    - name: "Syde GmbH"
+      url: "https://syde.com"
+    - name: "WP Basis Theme"
+      url: "http://wpbasis.de/"

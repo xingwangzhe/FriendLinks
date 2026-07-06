@@ -1,58 +1,58 @@
 site:
-  name: 'blog.chs.pub'
-  url: 'https://blog.chs.pub/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.chs.pub"
+  url: "https://blog.chs.pub/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'cos余弦の博客FE / ACG / 手工 / 深色模式强迫症 / INFP / 兴趣广泛养两只猫的老宅女 / remote'
-      url: 'https://blog.cosine.ren'
-    - name: '筱锋凌中的锋雨不为如何，只为在茫茫人海中有自己的一片天空~'
-      url: 'https://blog.x-lf.com'
-    - name: '易姐易姐的博客给岁月以文明，而不是给文明以岁月。'
-      url: 'https://shakaianee.top'
-    - name: '熊二哈的猫窝不妄自菲薄，不矫枉过正，不随波逐流，不固步自封。'
-      url: 'https://xxb.im/'
-    - name: 'KrisKris''s Blog【没有给描述的我都称之为大佬】'
-      url: 'https://blog.krishu.moe/'
-    - name: 'busyo冇啊'
-      url: 'https://busyo.link'
-    - name: 'Ne0の自由世界继续沉醉，自我迂回'
-      url: 'https://ne0w0r1d.top'
-    - name: '纱夕里我本可忍受黑暗，如果我不曾见过光明！'
-      url: 'https://blog.ovofish.com'
-    - name: '十二博客垃圾十二 啥也不会'
-      url: 'https://blog.licaoz.com/'
-    - name: '九仞之行严于律己，宽以待人，深自警省，讷言敏行'
-      url: 'https://styunlen.cn/'
-    - name: 'ROYWANG知善恶，懂因果'
-      url: 'https://roy.wang/'
-    - name: '天空博客Tkong Blog自由的Blog。'
-      url: 'https://www.tkong.net'
-    - name: '若雨博客若雨的博客'
-      url: 'https://lyrylo.com'
-    - name: 'Shiro夙兴夜，勤不怠。'
-      url: 'https://shiro.love/'
-    - name: 'Razuritta''s NotebookApril showers bring May flowers.'
-      url: 'https://blog.razuritta.me'
-    - name: '果果小站人生如梦，一尊还酹江月。'
-      url: 'https://呐.cn/'
-    - name: '派兹的小站驶向未来之船'
-      url: 'https://blog.blw.moe'
-    - name: '冰音Project【没有给描述的我都称之为大佬】'
-      url: 'https://www.9bingyin.com'
-    - name: '旋律的博客记录旋律的折腾日常(●ˇ∀ˇ●)'
-      url: 'https://blog.ihtw.moe'
-    - name: 'Timo在此blogTimo在此blog'
-      url: 'https://blog.xioxix.com/'
-    - name: '小理の小窝一个普通学生的普通生活'
-      url: 'https://xiaolii.com'
-    - name: '云萧的咕咕屋Creating makes miracles.'
-      url: 'https://blog.crrashh.com'
-    - name: 'SkyReeves把生命浪费在美好的事物上'
-      url: 'https://skyreeves.com'
-    - name: '小明hurura''s blog曾经沧海难为水，除却巫山不是云。'
-      url: 'https://nuu.moe/'
-    - name: '小俊博客博主是一个正宗的蛋蛋后，博客用来分享自己生活情感，平时遇到的各种问题与解决方法，记载了一些自己生活琐事，自己喜欢的文章，段子等，分享我喜欢的美好的事迹，'
-      url: 'https://www.smalljun.com/'
-    - name: '肥喵科技肥喵科技–一个专注于科技的博客'
-      url: 'https://fatcattech.cn/'
+    - name: "cos余弦の博客FE / ACG / 手工 / 深色模式强迫症 / INFP / 兴趣广泛养两只猫的老宅女 / remote"
+      url: "https://blog.cosine.ren"
+    - name: "筱锋凌中的锋雨不为如何，只为在茫茫人海中有自己的一片天空~"
+      url: "https://blog.x-lf.com"
+    - name: "易姐易姐的博客给岁月以文明，而不是给文明以岁月。"
+      url: "https://shakaianee.top"
+    - name: "熊二哈的猫窝不妄自菲薄，不矫枉过正，不随波逐流，不固步自封。"
+      url: "https://xxb.im/"
+    - name: "KrisKris's Blog【没有给描述的我都称之为大佬】"
+      url: "https://blog.krishu.moe/"
+    - name: "busyo冇啊"
+      url: "https://busyo.link"
+    - name: "Ne0の自由世界继续沉醉，自我迂回"
+      url: "https://ne0w0r1d.top"
+    - name: "纱夕里我本可忍受黑暗，如果我不曾见过光明！"
+      url: "https://blog.ovofish.com"
+    - name: "十二博客垃圾十二 啥也不会"
+      url: "https://blog.licaoz.com/"
+    - name: "九仞之行严于律己，宽以待人，深自警省，讷言敏行"
+      url: "https://styunlen.cn/"
+    - name: "ROYWANG知善恶，懂因果"
+      url: "https://roy.wang/"
+    - name: "天空博客Tkong Blog自由的Blog。"
+      url: "https://www.tkong.net"
+    - name: "若雨博客若雨的博客"
+      url: "https://lyrylo.com"
+    - name: "Shiro夙兴夜，勤不怠。"
+      url: "https://shiro.love/"
+    - name: "Razuritta's NotebookApril showers bring May flowers."
+      url: "https://blog.razuritta.me"
+    - name: "果果小站人生如梦，一尊还酹江月。"
+      url: "https://呐.cn/"
+    - name: "派兹的小站驶向未来之船"
+      url: "https://blog.blw.moe"
+    - name: "冰音Project【没有给描述的我都称之为大佬】"
+      url: "https://www.9bingyin.com"
+    - name: "旋律的博客记录旋律的折腾日常(●ˇ∀ˇ●)"
+      url: "https://blog.ihtw.moe"
+    - name: "Timo在此blogTimo在此blog"
+      url: "https://blog.xioxix.com/"
+    - name: "小理の小窝一个普通学生的普通生活"
+      url: "https://xiaolii.com"
+    - name: "云萧的咕咕屋Creating makes miracles."
+      url: "https://blog.crrashh.com"
+    - name: "SkyReeves把生命浪费在美好的事物上"
+      url: "https://skyreeves.com"
+    - name: "小明hurura's blog曾经沧海难为水，除却巫山不是云。"
+      url: "https://nuu.moe/"
+    - name: "小俊博客博主是一个正宗的蛋蛋后，博客用来分享自己生活情感，平时遇到的各种问题与解决方法，记载了一些自己生活琐事，自己喜欢的文章，段子等，分享我喜欢的美好的事迹，"
+      url: "https://www.smalljun.com/"
+    - name: "肥喵科技肥喵科技–一个专注于科技的博客"
+      url: "https://fatcattech.cn/"

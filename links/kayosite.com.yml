@@ -1,20 +1,20 @@
 site:
-  name: 'kayosite.com'
-  url: 'http://kayosite.com/'
-  description: '友情链接'
-  links: '/link'
+  name: "kayosite.com"
+  url: "http://kayosite.com/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: 'Leyar'
-      url: 'https://www.ileyar.com/'
-    - name: 'zww'
-      url: 'https://zww.me'
-    - name: '荒野无灯'
-      url: 'https://ttys3.dev'
-    - name: '于江水'
-      url: 'http://yujiangshui.com/'
-    - name: '亲爱的罗伊'
-      url: 'http://www.dearroy.com'
-    - name: '双陈记'
-      url: 'http://love730.com'
-    - name: 'Ken'
-      url: 'https://www.xuzefeng.com/'
+    - name: "Leyar"
+      url: "https://www.ileyar.com/"
+    - name: "zww"
+      url: "https://zww.me"
+    - name: "荒野无灯"
+      url: "https://ttys3.dev"
+    - name: "于江水"
+      url: "http://yujiangshui.com/"
+    - name: "亲爱的罗伊"
+      url: "http://www.dearroy.com"
+    - name: "双陈记"
+      url: "http://love730.com"
+    - name: "Ken"
+      url: "https://www.xuzefeng.com/"

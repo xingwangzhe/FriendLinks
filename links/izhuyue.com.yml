@@ -1,82 +1,82 @@
 site:
-  name: 'izhuyue.com'
-  url: 'https://www.izhuyue.com/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "izhuyue.com"
+  url: "https://www.izhuyue.com/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: 'DEFCON笔记'
-      url: 'http://defcon.cn'
-    - name: 'Harries Blog'
-      url: 'http://www.liuhaihua.cn'
-    - name: 'iEdon Inside'
-      url: 'http://www.iedon.com'
-    - name: 'Mooction'
-      url: 'http://moooc.cc'
-    - name: '墙头杏花'
-      url: 'http://www.qiangtou.net'
-    - name: '千丝海阁'
-      url: 'http://www.tiandiyoyo.com'
-    - name: '尚磊的博客'
-      url: 'http://shanglei.net'
-    - name: '山里来了攻城狮'
-      url: 'http://www.slll.info/'
-    - name: '廉月程博客'
-      url: 'http://www.uy8.top'
-    - name: '彭涛雅阁'
-      url: 'http://blog.sizhitao.com'
-    - name: '悠悠爸爸'
-      url: 'https://bffol.com/'
-    - name: '月小升'
-      url: 'http://java-er.com'
-    - name: '林东煌博客'
-      url: 'http://www.ymldh.net/'
-    - name: '沉默是金'
-      url: 'http://www.markhoo.com'
-    - name: '沙聚塔'
-      url: 'http://www.shajuta.com'
-    - name: '浮白载笔'
-      url: 'http://www.winature.com'
-    - name: '灰常记忆'
-      url: 'http://bestcherish.com'
-    - name: '甜甜圈’S Blog'
-      url: 'http://cfanlost.com'
-    - name: 'Jonty''Blog'
-      url: 'https://nobb.cc'
-    - name: '米米的博客'
-      url: 'https://zhangshuqiao.org/'
-    - name: '行星带'
-      url: 'https://beltxman.com/'
-    - name: '极简时光'
-      url: 'https://www.idcops.cn'
-    - name: '露水晨曦'
-      url: 'http://www.lscx.org'
-    - name: '鸟叔の窝'
-      url: 'http://thornbird.org'
-    - name: 'iNote'
-      url: 'https://inote.xyz/'
-    - name: '不才的博客'
-      url: 'https://www.notbucai.com'
-    - name: '心中hope'
-      url: 'http://www.xinzhonghope.com'
-    - name: 'Patrik'
-      url: 'http://www.patrik.cn'
-    - name: '乙未博客'
-      url: 'https://yvii.cn'
-    - name: 'David’s Blog'
-      url: 'https://akru.plus/'
-    - name: '阿尔法凡'
-      url: 'http://www.sweeterthandespair.com'
-    - name: '淮海巷'
-      url: 'http://www.huaihaixiang.com'
-    - name: 'AomanHao'
-      url: 'https://www.aomanhao.top/'
-    - name: '后小沟'
-      url: 'https://www.chdyou.net/'
-    - name: 'DrumCoder'
-      url: 'https://blog.hotsun168.com'
-    - name: '苹果也不甜'
-      url: 'http://hao.66360.cn'
-    - name: '御宅男'
-      url: 'https://blog.yzncms.com/'
-    - name: '云帆沧海'
-      url: 'https://yunfanch.com/'
+    - name: "DEFCON笔记"
+      url: "http://defcon.cn"
+    - name: "Harries Blog"
+      url: "http://www.liuhaihua.cn"
+    - name: "iEdon Inside"
+      url: "http://www.iedon.com"
+    - name: "Mooction"
+      url: "http://moooc.cc"
+    - name: "墙头杏花"
+      url: "http://www.qiangtou.net"
+    - name: "千丝海阁"
+      url: "http://www.tiandiyoyo.com"
+    - name: "尚磊的博客"
+      url: "http://shanglei.net"
+    - name: "山里来了攻城狮"
+      url: "http://www.slll.info/"
+    - name: "廉月程博客"
+      url: "http://www.uy8.top"
+    - name: "彭涛雅阁"
+      url: "http://blog.sizhitao.com"
+    - name: "悠悠爸爸"
+      url: "https://bffol.com/"
+    - name: "月小升"
+      url: "http://java-er.com"
+    - name: "林东煌博客"
+      url: "http://www.ymldh.net/"
+    - name: "沉默是金"
+      url: "http://www.markhoo.com"
+    - name: "沙聚塔"
+      url: "http://www.shajuta.com"
+    - name: "浮白载笔"
+      url: "http://www.winature.com"
+    - name: "灰常记忆"
+      url: "http://bestcherish.com"
+    - name: "甜甜圈’S Blog"
+      url: "http://cfanlost.com"
+    - name: "Jonty'Blog"
+      url: "https://nobb.cc"
+    - name: "米米的博客"
+      url: "https://zhangshuqiao.org/"
+    - name: "行星带"
+      url: "https://beltxman.com/"
+    - name: "极简时光"
+      url: "https://www.idcops.cn"
+    - name: "露水晨曦"
+      url: "http://www.lscx.org"
+    - name: "鸟叔の窝"
+      url: "http://thornbird.org"
+    - name: "iNote"
+      url: "https://inote.xyz/"
+    - name: "不才的博客"
+      url: "https://www.notbucai.com"
+    - name: "心中hope"
+      url: "http://www.xinzhonghope.com"
+    - name: "Patrik"
+      url: "http://www.patrik.cn"
+    - name: "乙未博客"
+      url: "https://yvii.cn"
+    - name: "David’s Blog"
+      url: "https://akru.plus/"
+    - name: "阿尔法凡"
+      url: "http://www.sweeterthandespair.com"
+    - name: "淮海巷"
+      url: "http://www.huaihaixiang.com"
+    - name: "AomanHao"
+      url: "https://www.aomanhao.top/"
+    - name: "后小沟"
+      url: "https://www.chdyou.net/"
+    - name: "DrumCoder"
+      url: "https://blog.hotsun168.com"
+    - name: "苹果也不甜"
+      url: "http://hao.66360.cn"
+    - name: "御宅男"
+      url: "https://blog.yzncms.com/"
+    - name: "云帆沧海"
+      url: "https://yunfanch.com/"

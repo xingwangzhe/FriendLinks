@@ -1,74 +1,74 @@
 site:
-  name: '今夕何夕兮'
-  url: 'https://www.ginc.site/'
-  description: '今夕何夕，三千繁华，见此良人，皆虚梦一场'
-  links: '/links'
+  name: "今夕何夕兮"
+  url: "https://www.ginc.site/"
+  description: "今夕何夕，三千繁华，见此良人，皆虚梦一场"
+  links: "/links"
   friends:
-    - name: 'Bensz'
-      url: 'https://blognas.hwb0307.com/'
-    - name: '鸦鸦的巢穴'
-      url: 'https://crowya.com/'
-    - name: '我不是咕咕鸽'
-      url: 'https://blog.laoda.de/'
-    - name: '如诗'
-      url: 'https://likepoems.com/'
-    - name: 'echeverra'
-      url: 'https://echeverra.cn/'
-    - name: '浅时光博客'
-      url: 'https://www.dqzboy.com/'
-    - name: '轻刻年轮-一个分享情感与自媒体的博客'
-      url: 'https://www.ly522.com/'
-    - name: 'Xinwei Xiong (cubxxw)'
-      url: 'https://nsddd.top/'
-    - name: '树洞笔记-用文字记录工作学习和生活'
-      url: 'https://www.x8xx.cn/'
-    - name: 'ZkeqのCoding日志'
-      url: 'https://icodeq.com/'
-    - name: '松子分享'
-      url: 'https://www.szfx.top/'
-    - name: '若雨博客'
-      url: 'https://lyrylo.com/'
-    - name: '星辰日记'
-      url: 'https://blog.xsot.cn/'
-    - name: '祭夜の咖啡馆|我很好奇！'
-      url: 'https://www.jysafe.cn/'
-    - name: '小小Blog'
-      url: 'https://www.xxhzm.cn/'
-    - name: '高先生笔记-满眼皆你.'
-      url: 'https://www.gxsnote.cn/'
-    - name: '张洪Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: '山岳库博'
-      url: 'https://kmar.top/'
-    - name: '丨浅笑安然丨'
-      url: 'https://siax.cn/'
-    - name: 'Leonus'
-      url: 'https://blog.leonus.cn/'
-    - name: '是非题'
-      url: 'https://www.shifeiti.com/'
-    - name: '首页'
-      url: 'https://blog.hikki.site/'
-    - name: 'LyShark®'
-      url: 'https://www.lyshark.com/'
-    - name: '白菜的网络日志'
-      url: 'https://www.n-bc.top/'
-    - name: '子夜松声'
-      url: 'https://xyzbz.cn/'
-    - name: '皇家元林'
-      url: 'https://hjyl.org/'
-    - name: '小小黑的个人小站'
-      url: 'https://lonelyenderman.top/'
-    - name: '海拥——一枚爱好计算机科学，乐于分享技术与快乐的博主'
-      url: 'https://haiyong.site/'
-    - name: 'ztr 的博客'
-      url: 'https://ztrztr.top/'
-    - name: '定の栈'
-      url: 'https://saop.cc/'
-    - name: '逐暗者的麦田'
-      url: 'https://www.iasuna.com/'
-    - name: 'Starlit Astrologos'
-      url: 'https://yaestars.wang/'
-    - name: '小嘉的部落格'
-      url: 'https://blog.imzjw.cn/'
-    - name: '网笙久久的博客'
-      url: 'https://www.wsjj.top/'
+    - name: "Bensz"
+      url: "https://blognas.hwb0307.com/"
+    - name: "鸦鸦的巢穴"
+      url: "https://crowya.com/"
+    - name: "我不是咕咕鸽"
+      url: "https://blog.laoda.de/"
+    - name: "如诗"
+      url: "https://likepoems.com/"
+    - name: "echeverra"
+      url: "https://echeverra.cn/"
+    - name: "浅时光博客"
+      url: "https://www.dqzboy.com/"
+    - name: "轻刻年轮-一个分享情感与自媒体的博客"
+      url: "https://www.ly522.com/"
+    - name: "Xinwei Xiong (cubxxw)"
+      url: "https://nsddd.top/"
+    - name: "树洞笔记-用文字记录工作学习和生活"
+      url: "https://www.x8xx.cn/"
+    - name: "ZkeqのCoding日志"
+      url: "https://icodeq.com/"
+    - name: "松子分享"
+      url: "https://www.szfx.top/"
+    - name: "若雨博客"
+      url: "https://lyrylo.com/"
+    - name: "星辰日记"
+      url: "https://blog.xsot.cn/"
+    - name: "祭夜の咖啡馆|我很好奇！"
+      url: "https://www.jysafe.cn/"
+    - name: "小小Blog"
+      url: "https://www.xxhzm.cn/"
+    - name: "高先生笔记-满眼皆你."
+      url: "https://www.gxsnote.cn/"
+    - name: "张洪Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "山岳库博"
+      url: "https://kmar.top/"
+    - name: "丨浅笑安然丨"
+      url: "https://siax.cn/"
+    - name: "Leonus"
+      url: "https://blog.leonus.cn/"
+    - name: "是非题"
+      url: "https://www.shifeiti.com/"
+    - name: "首页"
+      url: "https://blog.hikki.site/"
+    - name: "LyShark®"
+      url: "https://www.lyshark.com/"
+    - name: "白菜的网络日志"
+      url: "https://www.n-bc.top/"
+    - name: "子夜松声"
+      url: "https://xyzbz.cn/"
+    - name: "皇家元林"
+      url: "https://hjyl.org/"
+    - name: "小小黑的个人小站"
+      url: "https://lonelyenderman.top/"
+    - name: "海拥——一枚爱好计算机科学，乐于分享技术与快乐的博主"
+      url: "https://haiyong.site/"
+    - name: "ztr 的博客"
+      url: "https://ztrztr.top/"
+    - name: "定の栈"
+      url: "https://saop.cc/"
+    - name: "逐暗者的麦田"
+      url: "https://www.iasuna.com/"
+    - name: "Starlit Astrologos"
+      url: "https://yaestars.wang/"
+    - name: "小嘉的部落格"
+      url: "https://blog.imzjw.cn/"
+    - name: "网笙久久的博客"
+      url: "https://www.wsjj.top/"

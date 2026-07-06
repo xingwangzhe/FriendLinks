@@ -1,62 +1,62 @@
 site:
-  name: 'thiscute.world'
-  url: 'https://thiscute.world/'
-  description: '友情链接'
-  links: '/friends'
+  name: "thiscute.world"
+  url: "https://thiscute.world/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '@单单但知行好事，莫要问前程'
-      url: 'https://nopdan.com/'
-    - name: '@三咲雅 · Misaki Masa四時行焉，百物生焉，天何言哉？'
-      url: 'https://sxyz.blog/'
-    - name: '@ADD-SP记录 & 分享 & 感受 <= 网络协议'
-      url: 'https://www.addesp.com'
-    - name: '@离梦一个记性不好的00后博主'
-      url: 'https://ilimeng.cn/'
-    - name: '@虚空裂隙心有猛虎,细嗅蔷薇'
-      url: 'https://tftree.top/'
-    - name: '@李二牛Addicted to marathons <= Developer & Runner'
-      url: 'https://blog.li2niu.com/'
-    - name: '@芝士部落格有思想，也有忧伤和理想，芝士就是力量'
-      url: 'https://blog.youmuwhisper.space/'
-    - name: '@raxcl剑未佩妥，出门已是江湖。'
-      url: 'https://raxcl.cn/'
-    - name: '@Guanran928&''a ::ny4::Blog'
-      url: 'https://blog.ny4.dev/'
-    - name: '@Bensz浮云翩迁之间 <= Linux/Docker/R语言爱好者'
-      url: 'https://blognas.hwb0307.com/'
-    - name: '@辛未羊人生如逆旅，我亦是行人 <= 信号系统'
-      url: 'https://panqiincs.me/'
-    - name: '@凡梦星尘再平凡的人也有属于他的梦想！'
-      url: 'https://lisenhui.cn'
-    - name: '@我的飛鳥集他戴着花冠，踏于风雪，探寻迷途的救赎，绽放生命的曙光'
-      url: 'https://fmcf.cc/'
-    - name: '@倾书清风皓月，光景常新 <= 前端'
-      url: 'https://rea.ink/'
-    - name: '@Stray EpisodeScientific Evocation'
-      url: 'https://farer.org/'
-    - name: '@Vian想要的都拥有，得不到的都释怀...'
-      url: 'https://vian.top/'
-    - name: '@Touko HoshinoMy Exploration, My Whisper'
-      url: 'https://wasteland.touko.moe'
-    - name: '@碎冰冰挥剑破云迎星落，举酒高歌引凤游。'
-      url: 'https://www.xuezhao.space/'
-    - name: '@Richard Chien一只腊鸡的技术成长 <= Nonebot作者/OS大佬'
-      url: 'https://stdrc.cc/'
-    - name: '@荷戟独彷徨爱光学，爱生活，爱创造'
-      url: 'https://guanqr.com/'
-    - name: '@仿生狮子前端攻城狮 | 砸吉他 | 午夜恶魔 | 兴趣泛滥 | 逃离地球'
-      url: 'https://www.lionad.art/'
-    - name: '@一大加贝学习技术，热爱生活'
-      url: 'https://tianheg.co/'
-    - name: '@Naccl游龙当归海，海不迎我自来也。'
-      url: 'https://naccl.top/'
-    - name: '@bleatingsheep偶像咩咩'
-      url: 'https://bleatingsheep.org/'
-    - name: '@新一Hi! 上天不? <= 无人机大佬来卷互联网了'
-      url: 'https://a-wing.top/'
-    - name: '@王云子此行山高路远，我只剩口袋玫瑰一片 <= 法学在读的文艺少女'
-      url: 'https://wangyunzi.com/'
-    - name: '@BBing自由 分享 合作 <= C/C++/Linux 高手'
-      url: 'https://imcbc.cn/'
-    - name: '@prince213Ad astra abyssosque!'
-      url: 'https://prince213.top/'
+    - name: "@单单但知行好事，莫要问前程"
+      url: "https://nopdan.com/"
+    - name: "@三咲雅 · Misaki Masa四時行焉，百物生焉，天何言哉？"
+      url: "https://sxyz.blog/"
+    - name: "@ADD-SP记录 & 分享 & 感受 <= 网络协议"
+      url: "https://www.addesp.com"
+    - name: "@离梦一个记性不好的00后博主"
+      url: "https://ilimeng.cn/"
+    - name: "@虚空裂隙心有猛虎,细嗅蔷薇"
+      url: "https://tftree.top/"
+    - name: "@李二牛Addicted to marathons <= Developer & Runner"
+      url: "https://blog.li2niu.com/"
+    - name: "@芝士部落格有思想，也有忧伤和理想，芝士就是力量"
+      url: "https://blog.youmuwhisper.space/"
+    - name: "@raxcl剑未佩妥，出门已是江湖。"
+      url: "https://raxcl.cn/"
+    - name: "@Guanran928&'a ::ny4::Blog"
+      url: "https://blog.ny4.dev/"
+    - name: "@Bensz浮云翩迁之间 <= Linux/Docker/R语言爱好者"
+      url: "https://blognas.hwb0307.com/"
+    - name: "@辛未羊人生如逆旅，我亦是行人 <= 信号系统"
+      url: "https://panqiincs.me/"
+    - name: "@凡梦星尘再平凡的人也有属于他的梦想！"
+      url: "https://lisenhui.cn"
+    - name: "@我的飛鳥集他戴着花冠，踏于风雪，探寻迷途的救赎，绽放生命的曙光"
+      url: "https://fmcf.cc/"
+    - name: "@倾书清风皓月，光景常新 <= 前端"
+      url: "https://rea.ink/"
+    - name: "@Stray EpisodeScientific Evocation"
+      url: "https://farer.org/"
+    - name: "@Vian想要的都拥有，得不到的都释怀..."
+      url: "https://vian.top/"
+    - name: "@Touko HoshinoMy Exploration, My Whisper"
+      url: "https://wasteland.touko.moe"
+    - name: "@碎冰冰挥剑破云迎星落，举酒高歌引凤游。"
+      url: "https://www.xuezhao.space/"
+    - name: "@Richard Chien一只腊鸡的技术成长 <= Nonebot作者/OS大佬"
+      url: "https://stdrc.cc/"
+    - name: "@荷戟独彷徨爱光学，爱生活，爱创造"
+      url: "https://guanqr.com/"
+    - name: "@仿生狮子前端攻城狮 | 砸吉他 | 午夜恶魔 | 兴趣泛滥 | 逃离地球"
+      url: "https://www.lionad.art/"
+    - name: "@一大加贝学习技术，热爱生活"
+      url: "https://tianheg.co/"
+    - name: "@Naccl游龙当归海，海不迎我自来也。"
+      url: "https://naccl.top/"
+    - name: "@bleatingsheep偶像咩咩"
+      url: "https://bleatingsheep.org/"
+    - name: "@新一Hi! 上天不? <= 无人机大佬来卷互联网了"
+      url: "https://a-wing.top/"
+    - name: "@王云子此行山高路远，我只剩口袋玫瑰一片 <= 法学在读的文艺少女"
+      url: "https://wangyunzi.com/"
+    - name: "@BBing自由 分享 合作 <= C/C++/Linux 高手"
+      url: "https://imcbc.cn/"
+    - name: "@prince213Ad astra abyssosque!"
+      url: "https://prince213.top/"

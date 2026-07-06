@@ -1,10 +1,10 @@
 site:
-  name: 'blakesmith.me'
-  url: 'http://blakesmith.me/'
-  description: '友情链接'
-  links: '/'
+  name: "blakesmith.me"
+  url: "http://blakesmith.me/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Firecracker'
-      url: 'https://firecracker-microvm.github.io/'
-    - name: 'Cloud Hypervisor'
-      url: 'https://www.cloudhypervisor.org/'
+    - name: "Firecracker"
+      url: "https://firecracker-microvm.github.io/"
+    - name: "Cloud Hypervisor"
+      url: "https://www.cloudhypervisor.org/"

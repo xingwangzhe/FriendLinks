@@ -1,58 +1,58 @@
 site:
-  name: 'dn42.eu'
-  url: 'https://dn42.eu/'
-  description: '友情链接'
-  links: '/'
+  name: "dn42.eu"
+  url: "https://dn42.eu/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'dn42 in your browser'
-      url: 'http://sandbox.freertr.org/'
-    - name: 'dn42 in your terminal'
-      url: 'http://portable.freertr.org/'
-    - name: 'SpaceBoyz'
-      url: 'http://spaceboyz.net'
-    - name: 'CCC Aachen'
-      url: 'https://aachen.ccc.de'
-    - name: 'CCC Bremen'
-      url: 'http://ccchb.de'
-    - name: 'CCC Darmstadt'
-      url: 'http://darmstadt.ccc.de'
-    - name: 'CCC Dresden'
-      url: 'http://c3d2.de'
-    - name: 'CCC Düsseldorf'
-      url: 'https://www.chaosdorf.de'
-    - name: 'CCC Munich'
-      url: 'https://www.muc.ccc.de'
-    - name: 'Chaostreff Chemnitz'
-      url: 'https://chaoschemnitz.de'
-    - name: 'freifunk'
-      url: 'http://freifunk.net'
-    - name: 'NoName e.V. Heidelberg'
-      url: 'https://www.noname-ev.de'
-    - name: 'Hackerspace Brussels (HSB)'
-      url: 'http://hackerspace.be'
-    - name: 'hsmr / Hackspace Marburg'
-      url: 'https://hsmr.cc'
-    - name: 'Whitespace (0x20)'
-      url: 'http://www.0x20.be'
-    - name: 'Revelation Space'
-      url: 'http://www.revspace.nl'
-    - name: 'smrsh'
-      url: 'http://www.smrsh.net'
-    - name: 'Fédération FDN'
-      url: 'https://www.ffdn.org'
-    - name: 'Le LOOP'
-      url: 'https://leloop.org/'
-    - name: 'dn42.dev'
-      url: 'https://dn42.dev'
-    - name: 'dn42.pp.ua'
-      url: 'https://dn42.pp.ua'
-    - name: 'dn42.cc'
-      url: 'https://dn42.cc'
-    - name: 'dn42.de'
-      url: 'https://dn42.de'
-    - name: 'dn42.jp'
-      url: 'https://dn42.jp'
-    - name: 'Paste Board'
-      url: 'https://paste.dn42.us'
-    - name: 'dn42.obl.ong'
-      url: 'https://dn42.obl.ong/'
+    - name: "dn42 in your browser"
+      url: "http://sandbox.freertr.org/"
+    - name: "dn42 in your terminal"
+      url: "http://portable.freertr.org/"
+    - name: "SpaceBoyz"
+      url: "http://spaceboyz.net"
+    - name: "CCC Aachen"
+      url: "https://aachen.ccc.de"
+    - name: "CCC Bremen"
+      url: "http://ccchb.de"
+    - name: "CCC Darmstadt"
+      url: "http://darmstadt.ccc.de"
+    - name: "CCC Dresden"
+      url: "http://c3d2.de"
+    - name: "CCC Düsseldorf"
+      url: "https://www.chaosdorf.de"
+    - name: "CCC Munich"
+      url: "https://www.muc.ccc.de"
+    - name: "Chaostreff Chemnitz"
+      url: "https://chaoschemnitz.de"
+    - name: "freifunk"
+      url: "http://freifunk.net"
+    - name: "NoName e.V. Heidelberg"
+      url: "https://www.noname-ev.de"
+    - name: "Hackerspace Brussels (HSB)"
+      url: "http://hackerspace.be"
+    - name: "hsmr / Hackspace Marburg"
+      url: "https://hsmr.cc"
+    - name: "Whitespace (0x20)"
+      url: "http://www.0x20.be"
+    - name: "Revelation Space"
+      url: "http://www.revspace.nl"
+    - name: "smrsh"
+      url: "http://www.smrsh.net"
+    - name: "Fédération FDN"
+      url: "https://www.ffdn.org"
+    - name: "Le LOOP"
+      url: "https://leloop.org/"
+    - name: "dn42.dev"
+      url: "https://dn42.dev"
+    - name: "dn42.pp.ua"
+      url: "https://dn42.pp.ua"
+    - name: "dn42.cc"
+      url: "https://dn42.cc"
+    - name: "dn42.de"
+      url: "https://dn42.de"
+    - name: "dn42.jp"
+      url: "https://dn42.jp"
+    - name: "Paste Board"
+      url: "https://paste.dn42.us"
+    - name: "dn42.obl.ong"
+      url: "https://dn42.obl.ong/"

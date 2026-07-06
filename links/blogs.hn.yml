@@ -1,2644 +1,2644 @@
 site:
-  name: 'blogs.hn'
-  url: 'https://blogs.hn/'
-  description: '友情链接'
-  links: '/links'
+  name: "blogs.hn"
+  url: "https://blogs.hn/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Sudhir.io'
-      url: 'https://Sudhir.io'
-    - name: 'uhmm.jwjacobs.com'
-      url: 'https://uhmm.jwjacobs.com'
-    - name: 'taylor.town'
-      url: 'https://taylor.town'
-    - name: 'vladsiv.com'
-      url: 'https://vladsiv.com'
-    - name: 'a.tulv.in'
-      url: 'https://a.tulv.in'
-    - name: '250kb.club'
-      url: 'https://250kb.club'
-    - name: 'alinpanaitiu.com'
-      url: 'https://alinpanaitiu.com'
-    - name: 'blog.nawaz.org'
-      url: 'https://blog.nawaz.org'
-    - name: 'fi-le.net'
-      url: 'https://fi-le.net'
-    - name: 'darios.blog'
-      url: 'https://darios.blog'
-    - name: 'eamonnsullivan.co.uk'
-      url: 'https://eamonnsullivan.co.uk'
-    - name: 'saeedesmaili.com'
-      url: 'https://saeedesmaili.com'
-    - name: 'buchanan.one'
-      url: 'https://buchanan.one'
-    - name: 'explorabl.es'
-      url: 'https://explorabl.es'
-    - name: 'guax.net'
-      url: 'https://guax.net'
-    - name: 'dheera.net'
-      url: 'https://dheera.net'
-    - name: 'bramadams.dev'
-      url: 'https://bramadams.dev'
-    - name: 'aartaka.me'
-      url: 'https://aartaka.me'
-    - name: 'blog.pluggedpotato.com'
-      url: 'https://blog.pluggedpotato.com'
-    - name: 'clientserver.dev'
-      url: 'https://clientserver.dev'
-    - name: 'catsofkochi.com'
-      url: 'https://catsofkochi.com'
-    - name: 'h3manth.com'
-      url: 'https://h3manth.com'
-    - name: 'abstractnonsense.xyz'
-      url: 'https://abstractnonsense.xyz'
-    - name: 'adamfallon.com'
-      url: 'https://adamfallon.com'
-    - name: 'hboon.com'
-      url: 'https://hboon.com'
-    - name: 'curiositry.com'
-      url: 'https://curiositry.com'
-    - name: 'zserge.com'
-      url: 'https://zserge.com'
-    - name: 'staysaasy.com'
-      url: 'https://staysaasy.com'
-    - name: 'alexdelorenzo.dev'
-      url: 'https://alexdelorenzo.dev'
-    - name: 'podviaznikov.com'
-      url: 'https://podviaznikov.com'
-    - name: 'p.migdal.pl'
-      url: 'https://p.migdal.pl'
-    - name: 'lyte.dev'
-      url: 'https://lyte.dev'
-    - name: 'yusuf.fyi'
-      url: 'https://yusuf.fyi'
-    - name: 'Are the Americans Awake?'
-      url: 'https://are-the-americans-awake.yusuf.fyi/'
-    - name: 'dylanpaulus.com'
-      url: 'https://dylanpaulus.com'
-    - name: 'kerrick.blog'
-      url: 'https://kerrick.blog'
-    - name: 'italianpoetry.it'
-      url: 'https://italianpoetry.it'
-    - name: 'minireference.com'
-      url: 'https://minireference.com'
-    - name: 't-ravis.com'
-      url: 'https://t-ravis.com'
-    - name: 'The entrance to a small personal site'
-      url: 'https://www.t-ravis.com/'
-    - name: 'garden.bradwoods.io'
-      url: 'https://garden.bradwoods.io'
-    - name: 'aakash.io'
-      url: 'https://aakash.io'
-    - name: 'cesardelsolar.com'
-      url: 'https://cesardelsolar.com'
-    - name: 'dustin.lammiman.ca'
-      url: 'https://dustin.lammiman.ca'
-    - name: 'dkrichards.com'
-      url: 'https://dkrichards.com'
-    - name: 'johngerace.com'
-      url: 'https://johngerace.com'
-    - name: 'hakon.gylterud.net'
-      url: 'https://hakon.gylterud.net'
-    - name: 'everttimberg.io'
-      url: 'https://everttimberg.io'
-    - name: 'gkbrk.com'
-      url: 'https://gkbrk.com'
-    - name: 'blog.imraniqbal.org'
-      url: 'https://blog.imraniqbal.org'
-    - name: 'kevindangoor.com'
-      url: 'https://kevindangoor.com'
-    - name: 'lielvilla.com'
-      url: 'https://lielvilla.com'
-    - name: 'alexwlchan.net'
-      url: 'https://alexwlchan.net'
-    - name: 'adamkdean.co.uk'
-      url: 'https://adamkdean.co.uk'
-    - name: 'GPT Unicorn has drawn a unicorn'
-      url: 'https://gpt-unicorn.adamkdean.co.uk/'
-    - name: 'kodare.net'
-      url: 'https://kodare.net'
-    - name: 'korosec.cc'
-      url: 'https://korosec.cc'
-    - name: 'bryanbraun.com'
-      url: 'https://bryanbraun.com'
-    - name: 'chriskiehl.com'
-      url: 'https://chriskiehl.com'
-    - name: 'manuelmoreale.com'
-      url: 'https://manuelmoreale.com'
-    - name: 'techlatest.hashnode.dev'
-      url: 'https://techlatest.hashnode.dev'
-    - name: 'kennethfriedman.org'
-      url: 'https://kennethfriedman.org'
-    - name: 'teddywarner.org'
-      url: 'https://teddywarner.org'
-    - name: 'divan.dev'
-      url: 'https://divan.dev'
-    - name: 'knhash.in'
-      url: 'https://knhash.in'
-    - name: 'neter.fi'
-      url: 'https://neter.fi'
-    - name: 'Kstarr.com'
-      url: 'https://Kstarr.com'
-    - name: 'annoying.technology'
-      url: 'https://annoying.technology'
-    - name: 'gameboyessentials.com'
-      url: 'https://gameboyessentials.com'
-    - name: 'maxrozen.com'
-      url: 'https://maxrozen.com'
-    - name: 'usebox.net'
-      url: 'https://usebox.net'
-    - name: 'maheshrijal.com'
-      url: 'https://maheshrijal.com'
-    - name: 'kudmitry.com'
-      url: 'https://kudmitry.com'
-    - name: 'misc.l3m.in'
-      url: 'https://misc.l3m.in'
-    - name: 'fnands.com'
-      url: 'https://fnands.com'
-    - name: 'michaeldugmore.com'
-      url: 'https://michaeldugmore.com'
-    - name: 'blog.clintcparker.com'
-      url: 'https://blog.clintcparker.com'
-    - name: 'mfasold.net'
-      url: 'https://mfasold.net'
-    - name: 'kagi.com'
-      url: 'https://kagi.com'
-    - name: 'Kagi Sidekick (alpha)'
-      url: 'https://sidekick.kagi.com/'
-    - name: 'mldangelo.com'
-      url: 'https://mldangelo.com'
-    - name: 'thecodist.com'
-      url: 'https://thecodist.com'
-    - name: 'davide.im'
-      url: 'https://davide.im'
-    - name: 'tderflinger.com'
-      url: 'https://tderflinger.com'
-    - name: 'mikejohnson.dev'
-      url: 'https://mikejohnson.dev'
-    - name: 'michaelsalim.co.uk'
-      url: 'https://michaelsalim.co.uk'
-    - name: 'stefanjudis.com'
-      url: 'https://stefanjudis.com'
-    - name: 'ph-uhl.com'
-      url: 'https://ph-uhl.com'
-    - name: 'strchr.com'
-      url: 'https://strchr.com'
-    - name: 'gylterud.net'
-      url: 'https://gylterud.net'
-    - name: 'leonid.shevtsov.me'
-      url: 'https://leonid.shevtsov.me'
-    - name: 'matheusmoreira.com'
-      url: 'https://matheusmoreira.com'
-    - name: 'jamesdoc.com'
-      url: 'https://jamesdoc.com'
-    - name: 'michaelchadwick.info'
-      url: 'https://michaelchadwick.info'
-    - name: 'geo.rocks'
-      url: 'https://geo.rocks'
-    - name: 'jzhao.xyz'
-      url: 'https://jzhao.xyz'
-    - name: 'l3m.in'
-      url: 'https://l3m.in'
-    - name: 'blog.kronis.dev'
-      url: 'https://blog.kronis.dev'
-    - name: 'Hacker News Readers Personal Blogs Worth Checking Out'
-      url: 'https://hn-blogs.kronis.dev/'
-    - name: 'blog.ovalerio.net'
-      url: 'https://blog.ovalerio.net'
-    - name: 'lopespm.com'
-      url: 'https://lopespm.com'
-    - name: 'gagor.pro'
-      url: 'https://gagor.pro'
-    - name: 'pocketarc.com'
-      url: 'https://pocketarc.com'
-    - name: 'notes.ghinda.com'
-      url: 'https://notes.ghinda.com'
-    - name: 'notes.billmill.org'
-      url: 'https://notes.billmill.org'
-    - name: 'preetamnath.com'
-      url: 'https://preetamnath.com'
-    - name: 'zufallsheld.de/'
-      url: 'https://zufallsheld.de/'
-    - name: 'thoughts.theden.sh'
-      url: 'https://thoughts.theden.sh'
-    - name: 'sambroner.com'
-      url: 'https://sambroner.com'
-    - name: 'kbr.sh'
-      url: 'https://kbr.sh'
-    - name: 'blog.hoyd.net'
-      url: 'https://blog.hoyd.net'
-    - name: 'a-chacon.com'
-      url: 'https://a-chacon.com'
-    - name: 'andreschweighofer.com'
-      url: 'https://andreschweighofer.com'
-    - name: 'dotcoma.it'
-      url: 'https://dotcoma.it'
-    - name: 'skeptrune.com'
-      url: 'https://skeptrune.com'
-    - name: 'graypegg.com'
-      url: 'https://graypegg.com'
-    - name: 'gaganpreet.in'
-      url: 'https://gaganpreet.in'
-    - name: 'cweagans.net'
-      url: 'https://cweagans.net'
-    - name: 'andyatkinson.com'
-      url: 'https://andyatkinson.com'
-    - name: 'spraka.sh'
-      url: 'https://spraka.sh'
-    - name: 'hadalin.me'
-      url: 'https://hadalin.me'
-    - name: 'blog.gripdev.xyz'
-      url: 'https://blog.gripdev.xyz'
-    - name: 'blog.danieljanus.pl'
-      url: 'https://blog.danieljanus.pl'
-    - name: 'blog.jonlu.ca'
-      url: 'https://blog.jonlu.ca'
-    - name: 'gods.art'
-      url: 'https://gods.art'
-    - name: 'blog.bityard.net'
-      url: 'https://blog.bityard.net'
-    - name: 'deadcomputersociety.com'
-      url: 'https://deadcomputersociety.com'
-    - name: 'benhouston3d.com'
-      url: 'https://benhouston3d.com'
-    - name: 'sergeykibish.com'
-      url: 'https://sergeykibish.com'
-    - name: 'flurdy.com'
-      url: 'https://flurdy.com'
-    - name: 'Show HN: Flurly – sell any digital file online'
-      url: 'https://flurly.com/'
-    - name: 'russellbeattie.com'
-      url: 'https://russellbeattie.com'
-    - name: 'lekevicius.com'
-      url: 'https://lekevicius.com'
-    - name: 'Show HN: Infinite Loop – simple, free game for mobile and web'
-      url: 'http://loop.lekevicius.com'
-    - name: 'masswerk.at'
-      url: 'https://masswerk.at'
-    - name: 'ninjito.com'
-      url: 'https://ninjito.com'
-    - name: 'Ninite: Easy PC Setup and Multi-App Installer (from BaseShield, YC W08)'
-      url: 'http://ninite.com'
-    - name: 'bryce.io'
-      url: 'https://bryce.io'
-    - name: 'Show HN: An emoji dictionary written in Svelte/Rust'
-      url: 'https://emoji-dict.bryce.io/'
-    - name: 'Dropbox-Hosted Websites'
-      url: 'http://brace.io/'
-    - name: 'Use Google Spreadsheets as a CMS'
-      url: 'http://data.brace.io'
-    - name: 'Instead of a card, make your valentine a website'
-      url: 'http://valentine.brace.io'
-    - name: 'ed-thomas.dev'
-      url: 'https://ed-thomas.dev'
-    - name: 'dwayne.xyz'
-      url: 'https://dwayne.xyz'
-    - name: 'SeanKilleen.com'
-      url: 'https://SeanKilleen.com'
-    - name: 'gingerbeardman.com'
-      url: 'https://gingerbeardman.com'
-    - name: 'rodyne.com'
-      url: 'https://rodyne.com'
-    - name: 'oisinmoran.com'
-      url: 'https://oisinmoran.com'
-    - name: 'tskulbru.dev'
-      url: 'https://tskulbru.dev'
-    - name: 'jordanscales.com'
-      url: 'https://jordanscales.com'
-    - name: 'bits.com'
-      url: 'https://bits.com'
-    - name: 'aditya3w3733.in'
-      url: 'https://aditya3w3733.in'
-    - name: 'bengarney.com'
-      url: 'https://bengarney.com'
-    - name: 'miguelpimentel.do'
-      url: 'https://miguelpimentel.do'
-    - name: 'ryanliptak.com'
-      url: 'https://ryanliptak.com'
-    - name: 'cmart.blog'
-      url: 'https://cmart.blog'
-    - name: 'torh.net'
-      url: 'https://torh.net'
-    - name: 'stop.zona-m.net'
-      url: 'https://stop.zona-m.net'
-    - name: 'peterspath.net/'
-      url: 'https://peterspath.net/'
-    - name: 'kevinlondon.com'
-      url: 'https://kevinlondon.com'
-    - name: 'hackyexperiments.com'
-      url: 'https://hackyexperiments.com'
-    - name: 'cenullum.com'
-      url: 'https://cenullum.com'
-    - name: 'rya.nc'
-      url: 'https://rya.nc'
-    - name: 'tyleo.com'
-      url: 'https://tyleo.com'
-    - name: 'gero.dev'
-      url: 'https://gero.dev'
-    - name: 'jakeseliger.com'
-      url: 'https://jakeseliger.com'
-    - name: 'stribny.name'
-      url: 'https://stribny.name'
-    - name: 'Show HN: I wrote a modern Command Line Handbook'
-      url: 'https://commandline.stribny.name/'
-    - name: 'jarv.is'
-      url: 'https://jarv.is'
-    - name: 'josh.mn'
-      url: 'https://josh.mn'
-    - name: 'sanjayregmi.com'
-      url: 'https://sanjayregmi.com'
-    - name: 'ryanmavilia.com'
-      url: 'https://ryanmavilia.com'
-    - name: 'foxmoss.com'
-      url: 'https://foxmoss.com'
-    - name: 'ktross.com'
-      url: 'https://ktross.com'
-    - name: 'migdal.pl'
-      url: 'https://migdal.pl'
-    - name: 'spencerdailey.com'
-      url: 'https://spencerdailey.com'
-    - name: 'daniel.lawrence.lu'
-      url: 'https://daniel.lawrence.lu'
-    - name: 'ElijahLynn.net'
-      url: 'https://ElijahLynn.net'
-    - name: 'till.red'
-      url: 'https://till.red'
-    - name: 'ghinda.com'
-      url: 'https://ghinda.com'
-    - name: 'kevq.uk'
-      url: 'https://kevq.uk'
-    - name: 'bobadams5.com'
-      url: 'https://bobadams5.com'
-    - name: 'oliveremberton.com'
-      url: 'https://oliveremberton.com'
-    - name: 'shreyasprakash.com'
-      url: 'https://shreyasprakash.com'
-    - name: 'blog.ideotec.es'
-      url: 'https://blog.ideotec.es'
-    - name: 'gomsilo.com'
-      url: 'https://gomsilo.com'
-    - name: 'hardwarehacks.org'
-      url: 'https://hardwarehacks.org'
-    - name: 'omarabid.com'
-      url: 'https://omarabid.com'
-    - name: 'ahalbert.com'
-      url: 'https://ahalbert.com'
-    - name: 'Tylervigen.com'
-      url: 'https://Tylervigen.com'
-    - name: 'Spurious Correlations'
-      url: 'http://www.tylervigen.com/'
-    - name: 'kevincox.ca'
-      url: 'https://kevincox.ca'
-    - name: 'brycewray.com'
-      url: 'https://brycewray.com'
-    - name: 'varun.ch'
-      url: 'https://varun.ch'
-    - name: 'benbyford.com'
-      url: 'https://benbyford.com'
-    - name: 'sjdonado.com'
-      url: 'https://sjdonado.com'
-    - name: 'I Don''t Have Spotify'
-      url: 'https://idonthavespotify.sjdonado.com/'
-    - name: 'ninjasandrobots.com'
-      url: 'https://ninjasandrobots.com'
-    - name: 'miikavonbell.com'
-      url: 'https://miikavonbell.com'
-    - name: 'literallythevoid.com'
-      url: 'https://literallythevoid.com'
-    - name: 'dostoynikov.bearblog.dev'
-      url: 'https://dostoynikov.bearblog.dev'
-    - name: 'troyhunt.com'
-      url: 'https://troyhunt.com'
-    - name: 'blog.ioces.com'
-      url: 'https://blog.ioces.com'
-    - name: 'prashantbarahi.com.np'
-      url: 'https://prashantbarahi.com.np'
-    - name: 'josephscott.org'
-      url: 'https://josephscott.org'
-    - name: 'blakewatson.com'
-      url: 'https://blakewatson.com'
-    - name: 'simedw.com'
-      url: 'https://simedw.com'
-    - name: 'eli.li'
-      url: 'https://eli.li'
-    - name: 'muhammadraza.me'
-      url: 'https://muhammadraza.me'
-    - name: 'dancocos.com'
-      url: 'https://dancocos.com'
-    - name: 'nicolasbouliane.com'
-      url: 'https://nicolasbouliane.com'
-    - name: 'aaronstuyvenberg.com'
-      url: 'https://aaronstuyvenberg.com'
-    - name: 'jerry.wtf'
-      url: 'https://jerry.wtf'
-    - name: 'danieljanus.pl'
-      url: 'https://danieljanus.pl'
-    - name: 'blog.aawadia.dev'
-      url: 'https://blog.aawadia.dev'
-    - name: 'vanhunteradams.com'
-      url: 'https://vanhunteradams.com'
-    - name: 'dorotac.eu'
-      url: 'https://dorotac.eu'
-    - name: 'joshmcarthur.com'
-      url: 'https://joshmcarthur.com'
-    - name: 'Show HN: Made NZ''s member of parliament financial disclosure data searchable'
-      url: 'https://open-register-of-pecuniary-interests.joshmcarthur.com/'
-    - name: 'Matthewc.dev'
-      url: 'https://Matthewc.dev'
-    - name: 'eleijonmarck.dev'
-      url: 'https://eleijonmarck.dev'
-    - name: 'ptimofeev.com'
-      url: 'https://ptimofeev.com'
-    - name: 'jcnoel.dev'
-      url: 'https://jcnoel.dev'
-    - name: 'douglascuthbertson.com'
-      url: 'https://douglascuthbertson.com'
-    - name: 'ciesie.com'
-      url: 'https://ciesie.com'
-    - name: 'jndjs.dev'
-      url: 'https://jndjs.dev'
-    - name: 'lille-oe.de'
-      url: 'https://lille-oe.de'
-    - name: 'henrikwarne.com'
-      url: 'https://henrikwarne.com'
-    - name: 'cprimozic.net'
-      url: 'https://cprimozic.net'
-    - name: 'akashrajpurohit.com'
-      url: 'https://akashrajpurohit.com'
-    - name: 'How to professionally say'
-      url: 'https://howtoprofessionallysay.akashrajpurohit.com/'
-    - name: 'blog.erethon.com'
-      url: 'https://blog.erethon.com'
-    - name: 'autumnsgrove.com'
-      url: 'https://autumnsgrove.com'
-    - name: 'kilianvalkhof.com'
-      url: 'https://kilianvalkhof.com'
-    - name: 'SenCSs - CSS framework that doesn’t provide a layout system (just everything els'
-      url: 'https://sencss.kilianvalkhof.com/'
-    - name: 'blog.marcua.net'
-      url: 'https://blog.marcua.net'
-    - name: 'anfractuosity.com'
-      url: 'https://anfractuosity.com'
-    - name: 'jakelazaroff.com'
-      url: 'https://jakelazaroff.com'
-    - name: 'aswinmohan.me'
-      url: 'https://aswinmohan.me'
-    - name: 'Show HN: Tet – A todo app that deletes your tasks at the end of the day'
-      url: 'http://tet.aswinmohan.me/'
-    - name: 'glthr.com'
-      url: 'https://glthr.com'
-    - name: 'tomaytotomato.com'
-      url: 'https://tomaytotomato.com'
-    - name: 'tymscar.com'
-      url: 'https://tymscar.com'
-    - name: 'lab6.com'
-      url: 'https://lab6.com'
-    - name: '3D Printed Sugar'
-      url: 'http://the-sugar-lab.com'
-    - name: 'beza1e1.tuxen.de'
-      url: 'https://beza1e1.tuxen.de'
-    - name: 'nullonerror.org'
-      url: 'https://nullonerror.org'
-    - name: 'jasdeep-singh.com'
-      url: 'https://jasdeep-singh.com'
-    - name: 'uptointerpretation.com'
-      url: 'https://uptointerpretation.com'
-    - name: 'bendangelo.me'
-      url: 'https://bendangelo.me'
-    - name: 'miguel.build'
-      url: 'https://miguel.build'
-    - name: 'symbolflux.com'
-      url: 'https://symbolflux.com'
-    - name: 'dusted.dk'
-      url: 'https://dusted.dk'
-    - name: 'dvsj.in'
-      url: 'https://dvsj.in'
-    - name: 'luka.korosec.cc'
-      url: 'https://luka.korosec.cc'
-    - name: 'svendewaerhert.com'
-      url: 'https://svendewaerhert.com'
-    - name: 'zackproser.com'
-      url: 'https://zackproser.com'
-    - name: 'bjhess.com'
-      url: 'https://bjhess.com'
-    - name: 'adityamwagh.me'
-      url: 'https://adityamwagh.me'
-    - name: 'fragkakis.org'
-      url: 'https://fragkakis.org'
-    - name: 'hypertexthero.com'
-      url: 'https://hypertexthero.com'
-    - name: 'Show HN: Food News - HN Clone Built With Django and Drum, Uses Persona for Auth'
-      url: 'http://food.hypertexthero.com/'
-    - name: 'prettydiff.com'
-      url: 'https://prettydiff.com'
-    - name: 'p4bl0.net'
-      url: 'https://p4bl0.net'
-    - name: 'amontalenti.com'
-      url: 'https://amontalenti.com'
-    - name: 'onbrn.com'
-      url: 'https://onbrn.com'
-    - name: 'blog.searchmysite.net'
-      url: 'https://blog.searchmysite.net'
-    - name: 'prakashsellathurai.com'
-      url: 'https://prakashsellathurai.com'
-    - name: 'colly.com'
-      url: 'https://colly.com'
-    - name: 'blog.ture.dev'
-      url: 'https://blog.ture.dev'
-    - name: 'ivanderevianko.com'
-      url: 'https://ivanderevianko.com'
-    - name: 'agentultra.com'
-      url: 'https://agentultra.com'
-    - name: 'tomyeoman.dev'
-      url: 'https://tomyeoman.dev'
-    - name: 'theden.sh'
-      url: 'https://theden.sh'
-    - name: 'Show HN: 0xDEAD//TYPE – A fast-paced typing shooter with retro vibes'
-      url: 'https://0xdeadtype.theden.sh/'
-    - name: 'barnabas.me'
-      url: 'https://barnabas.me'
-    - name: 'iamstelios.com'
-      url: 'https://iamstelios.com'
-    - name: 'abortretry.fail'
-      url: 'https://abortretry.fail'
-    - name: 'thebacklog.net'
-      url: 'https://thebacklog.net'
-    - name: 'morgan.zoemp.be'
-      url: 'https://morgan.zoemp.be'
-    - name: 'brooks.page'
-      url: 'https://brooks.page'
-    - name: 'dmitry.gr'
-      url: 'https://dmitry.gr'
-    - name: 'lukeb.co.uk'
-      url: 'https://lukeb.co.uk'
-    - name: 'hiddedevries.nl'
-      url: 'https://hiddedevries.nl'
-    - name: 'luten.dev'
-      url: 'https://luten.dev'
-    - name: 'wordloosed.com'
-      url: 'https://wordloosed.com'
-    - name: 'u11g.com'
-      url: 'https://u11g.com'
-    - name: 'ricardoanderegg.com'
-      url: 'https://ricardoanderegg.com'
-    - name: 'coey.dev'
-      url: 'https://coey.dev'
-    - name: 'rohanmenon.com'
-      url: 'https://rohanmenon.com'
-    - name: 'isaacjordan.me'
-      url: 'https://isaacjordan.me'
-    - name: 'marvinborner.de'
-      url: 'https://marvinborner.de'
-    - name: 'Show HN: Programming with Pure Lambda Calculus'
-      url: 'https://bruijn.marvinborner.de/'
-    - name: 'blog.devontrack.com'
-      url: 'https://blog.devontrack.com'
-    - name: 'martinrue.com'
-      url: 'https://martinrue.com'
-    - name: 'kinduff.com'
-      url: 'https://kinduff.com'
-    - name: 'thedarkside.frantzmiccoli.com'
-      url: 'https://thedarkside.frantzmiccoli.com'
-    - name: 'mattcrampton.com'
-      url: 'https://mattcrampton.com'
-    - name: '0xfe.blogspot.com'
-      url: 'https://0xfe.blogspot.com'
-    - name: 'idiallo.com'
-      url: 'https://idiallo.com'
-    - name: 'sonnet.io'
-      url: 'https://sonnet.io'
-    - name: 'Ensō: write now, edit later'
-      url: 'https://enso.sonnet.io/'
-    - name: 'Show HN: Sit.'
-      url: 'https://sit.sonnet.io'
-    - name: 'Show HN: Ulysses–a writing tool I built to refocus when my mind is too loud'
-      url: 'https://ulysses.sonnet.io'
-    - name: 'sneak.berlin'
-      url: 'https://sneak.berlin'
-    - name: 'wellaged.dev'
-      url: 'https://wellaged.dev'
-    - name: 'ashleyjanssen.com'
-      url: 'https://ashleyjanssen.com'
-    - name: 'figbert.com'
-      url: 'https://figbert.com'
-    - name: 'oberbrunner.com'
-      url: 'https://oberbrunner.com'
-    - name: 'paul.totterman.name'
-      url: 'https://paul.totterman.name'
-    - name: 'joshwithers.blog'
-      url: 'https://joshwithers.blog'
-    - name: 'blog.yakkomajuri.com'
-      url: 'https://blog.yakkomajuri.com'
-    - name: 'ramvasuthevan.ca'
-      url: 'https://ramvasuthevan.ca'
-    - name: 'staydecent.ca'
-      url: 'https://staydecent.ca'
-    - name: 'utk09.com'
-      url: 'https://utk09.com'
-    - name: 'andrewpwheeler.com'
-      url: 'https://andrewpwheeler.com'
-    - name: 'vinayak.io'
-      url: 'https://vinayak.io'
-    - name: 'miriamsuzanne.com'
-      url: 'https://miriamsuzanne.com'
-    - name: 'zacksiri.dev'
-      url: 'https://zacksiri.dev'
-    - name: 'georgesaines.com'
-      url: 'https://georgesaines.com'
+    - name: "Sudhir.io"
+      url: "https://Sudhir.io"
+    - name: "uhmm.jwjacobs.com"
+      url: "https://uhmm.jwjacobs.com"
+    - name: "taylor.town"
+      url: "https://taylor.town"
+    - name: "vladsiv.com"
+      url: "https://vladsiv.com"
+    - name: "a.tulv.in"
+      url: "https://a.tulv.in"
+    - name: "250kb.club"
+      url: "https://250kb.club"
+    - name: "alinpanaitiu.com"
+      url: "https://alinpanaitiu.com"
+    - name: "blog.nawaz.org"
+      url: "https://blog.nawaz.org"
+    - name: "fi-le.net"
+      url: "https://fi-le.net"
+    - name: "darios.blog"
+      url: "https://darios.blog"
+    - name: "eamonnsullivan.co.uk"
+      url: "https://eamonnsullivan.co.uk"
+    - name: "saeedesmaili.com"
+      url: "https://saeedesmaili.com"
+    - name: "buchanan.one"
+      url: "https://buchanan.one"
+    - name: "explorabl.es"
+      url: "https://explorabl.es"
+    - name: "guax.net"
+      url: "https://guax.net"
+    - name: "dheera.net"
+      url: "https://dheera.net"
+    - name: "bramadams.dev"
+      url: "https://bramadams.dev"
+    - name: "aartaka.me"
+      url: "https://aartaka.me"
+    - name: "blog.pluggedpotato.com"
+      url: "https://blog.pluggedpotato.com"
+    - name: "clientserver.dev"
+      url: "https://clientserver.dev"
+    - name: "catsofkochi.com"
+      url: "https://catsofkochi.com"
+    - name: "h3manth.com"
+      url: "https://h3manth.com"
+    - name: "abstractnonsense.xyz"
+      url: "https://abstractnonsense.xyz"
+    - name: "adamfallon.com"
+      url: "https://adamfallon.com"
+    - name: "hboon.com"
+      url: "https://hboon.com"
+    - name: "curiositry.com"
+      url: "https://curiositry.com"
+    - name: "zserge.com"
+      url: "https://zserge.com"
+    - name: "staysaasy.com"
+      url: "https://staysaasy.com"
+    - name: "alexdelorenzo.dev"
+      url: "https://alexdelorenzo.dev"
+    - name: "podviaznikov.com"
+      url: "https://podviaznikov.com"
+    - name: "p.migdal.pl"
+      url: "https://p.migdal.pl"
+    - name: "lyte.dev"
+      url: "https://lyte.dev"
+    - name: "yusuf.fyi"
+      url: "https://yusuf.fyi"
+    - name: "Are the Americans Awake?"
+      url: "https://are-the-americans-awake.yusuf.fyi/"
+    - name: "dylanpaulus.com"
+      url: "https://dylanpaulus.com"
+    - name: "kerrick.blog"
+      url: "https://kerrick.blog"
+    - name: "italianpoetry.it"
+      url: "https://italianpoetry.it"
+    - name: "minireference.com"
+      url: "https://minireference.com"
+    - name: "t-ravis.com"
+      url: "https://t-ravis.com"
+    - name: "The entrance to a small personal site"
+      url: "https://www.t-ravis.com/"
+    - name: "garden.bradwoods.io"
+      url: "https://garden.bradwoods.io"
+    - name: "aakash.io"
+      url: "https://aakash.io"
+    - name: "cesardelsolar.com"
+      url: "https://cesardelsolar.com"
+    - name: "dustin.lammiman.ca"
+      url: "https://dustin.lammiman.ca"
+    - name: "dkrichards.com"
+      url: "https://dkrichards.com"
+    - name: "johngerace.com"
+      url: "https://johngerace.com"
+    - name: "hakon.gylterud.net"
+      url: "https://hakon.gylterud.net"
+    - name: "everttimberg.io"
+      url: "https://everttimberg.io"
+    - name: "gkbrk.com"
+      url: "https://gkbrk.com"
+    - name: "blog.imraniqbal.org"
+      url: "https://blog.imraniqbal.org"
+    - name: "kevindangoor.com"
+      url: "https://kevindangoor.com"
+    - name: "lielvilla.com"
+      url: "https://lielvilla.com"
+    - name: "alexwlchan.net"
+      url: "https://alexwlchan.net"
+    - name: "adamkdean.co.uk"
+      url: "https://adamkdean.co.uk"
+    - name: "GPT Unicorn has drawn a unicorn"
+      url: "https://gpt-unicorn.adamkdean.co.uk/"
+    - name: "kodare.net"
+      url: "https://kodare.net"
+    - name: "korosec.cc"
+      url: "https://korosec.cc"
+    - name: "bryanbraun.com"
+      url: "https://bryanbraun.com"
+    - name: "chriskiehl.com"
+      url: "https://chriskiehl.com"
+    - name: "manuelmoreale.com"
+      url: "https://manuelmoreale.com"
+    - name: "techlatest.hashnode.dev"
+      url: "https://techlatest.hashnode.dev"
+    - name: "kennethfriedman.org"
+      url: "https://kennethfriedman.org"
+    - name: "teddywarner.org"
+      url: "https://teddywarner.org"
+    - name: "divan.dev"
+      url: "https://divan.dev"
+    - name: "knhash.in"
+      url: "https://knhash.in"
+    - name: "neter.fi"
+      url: "https://neter.fi"
+    - name: "Kstarr.com"
+      url: "https://Kstarr.com"
+    - name: "annoying.technology"
+      url: "https://annoying.technology"
+    - name: "gameboyessentials.com"
+      url: "https://gameboyessentials.com"
+    - name: "maxrozen.com"
+      url: "https://maxrozen.com"
+    - name: "usebox.net"
+      url: "https://usebox.net"
+    - name: "maheshrijal.com"
+      url: "https://maheshrijal.com"
+    - name: "kudmitry.com"
+      url: "https://kudmitry.com"
+    - name: "misc.l3m.in"
+      url: "https://misc.l3m.in"
+    - name: "fnands.com"
+      url: "https://fnands.com"
+    - name: "michaeldugmore.com"
+      url: "https://michaeldugmore.com"
+    - name: "blog.clintcparker.com"
+      url: "https://blog.clintcparker.com"
+    - name: "mfasold.net"
+      url: "https://mfasold.net"
+    - name: "kagi.com"
+      url: "https://kagi.com"
+    - name: "Kagi Sidekick (alpha)"
+      url: "https://sidekick.kagi.com/"
+    - name: "mldangelo.com"
+      url: "https://mldangelo.com"
+    - name: "thecodist.com"
+      url: "https://thecodist.com"
+    - name: "davide.im"
+      url: "https://davide.im"
+    - name: "tderflinger.com"
+      url: "https://tderflinger.com"
+    - name: "mikejohnson.dev"
+      url: "https://mikejohnson.dev"
+    - name: "michaelsalim.co.uk"
+      url: "https://michaelsalim.co.uk"
+    - name: "stefanjudis.com"
+      url: "https://stefanjudis.com"
+    - name: "ph-uhl.com"
+      url: "https://ph-uhl.com"
+    - name: "strchr.com"
+      url: "https://strchr.com"
+    - name: "gylterud.net"
+      url: "https://gylterud.net"
+    - name: "leonid.shevtsov.me"
+      url: "https://leonid.shevtsov.me"
+    - name: "matheusmoreira.com"
+      url: "https://matheusmoreira.com"
+    - name: "jamesdoc.com"
+      url: "https://jamesdoc.com"
+    - name: "michaelchadwick.info"
+      url: "https://michaelchadwick.info"
+    - name: "geo.rocks"
+      url: "https://geo.rocks"
+    - name: "jzhao.xyz"
+      url: "https://jzhao.xyz"
+    - name: "l3m.in"
+      url: "https://l3m.in"
+    - name: "blog.kronis.dev"
+      url: "https://blog.kronis.dev"
+    - name: "Hacker News Readers Personal Blogs Worth Checking Out"
+      url: "https://hn-blogs.kronis.dev/"
+    - name: "blog.ovalerio.net"
+      url: "https://blog.ovalerio.net"
+    - name: "lopespm.com"
+      url: "https://lopespm.com"
+    - name: "gagor.pro"
+      url: "https://gagor.pro"
+    - name: "pocketarc.com"
+      url: "https://pocketarc.com"
+    - name: "notes.ghinda.com"
+      url: "https://notes.ghinda.com"
+    - name: "notes.billmill.org"
+      url: "https://notes.billmill.org"
+    - name: "preetamnath.com"
+      url: "https://preetamnath.com"
+    - name: "zufallsheld.de/"
+      url: "https://zufallsheld.de/"
+    - name: "thoughts.theden.sh"
+      url: "https://thoughts.theden.sh"
+    - name: "sambroner.com"
+      url: "https://sambroner.com"
+    - name: "kbr.sh"
+      url: "https://kbr.sh"
+    - name: "blog.hoyd.net"
+      url: "https://blog.hoyd.net"
+    - name: "a-chacon.com"
+      url: "https://a-chacon.com"
+    - name: "andreschweighofer.com"
+      url: "https://andreschweighofer.com"
+    - name: "dotcoma.it"
+      url: "https://dotcoma.it"
+    - name: "skeptrune.com"
+      url: "https://skeptrune.com"
+    - name: "graypegg.com"
+      url: "https://graypegg.com"
+    - name: "gaganpreet.in"
+      url: "https://gaganpreet.in"
+    - name: "cweagans.net"
+      url: "https://cweagans.net"
+    - name: "andyatkinson.com"
+      url: "https://andyatkinson.com"
+    - name: "spraka.sh"
+      url: "https://spraka.sh"
+    - name: "hadalin.me"
+      url: "https://hadalin.me"
+    - name: "blog.gripdev.xyz"
+      url: "https://blog.gripdev.xyz"
+    - name: "blog.danieljanus.pl"
+      url: "https://blog.danieljanus.pl"
+    - name: "blog.jonlu.ca"
+      url: "https://blog.jonlu.ca"
+    - name: "gods.art"
+      url: "https://gods.art"
+    - name: "blog.bityard.net"
+      url: "https://blog.bityard.net"
+    - name: "deadcomputersociety.com"
+      url: "https://deadcomputersociety.com"
+    - name: "benhouston3d.com"
+      url: "https://benhouston3d.com"
+    - name: "sergeykibish.com"
+      url: "https://sergeykibish.com"
+    - name: "flurdy.com"
+      url: "https://flurdy.com"
+    - name: "Show HN: Flurly – sell any digital file online"
+      url: "https://flurly.com/"
+    - name: "russellbeattie.com"
+      url: "https://russellbeattie.com"
+    - name: "lekevicius.com"
+      url: "https://lekevicius.com"
+    - name: "Show HN: Infinite Loop – simple, free game for mobile and web"
+      url: "http://loop.lekevicius.com"
+    - name: "masswerk.at"
+      url: "https://masswerk.at"
+    - name: "ninjito.com"
+      url: "https://ninjito.com"
+    - name: "Ninite: Easy PC Setup and Multi-App Installer (from BaseShield, YC W08)"
+      url: "http://ninite.com"
+    - name: "bryce.io"
+      url: "https://bryce.io"
+    - name: "Show HN: An emoji dictionary written in Svelte/Rust"
+      url: "https://emoji-dict.bryce.io/"
+    - name: "Dropbox-Hosted Websites"
+      url: "http://brace.io/"
+    - name: "Use Google Spreadsheets as a CMS"
+      url: "http://data.brace.io"
+    - name: "Instead of a card, make your valentine a website"
+      url: "http://valentine.brace.io"
+    - name: "ed-thomas.dev"
+      url: "https://ed-thomas.dev"
+    - name: "dwayne.xyz"
+      url: "https://dwayne.xyz"
+    - name: "SeanKilleen.com"
+      url: "https://SeanKilleen.com"
+    - name: "gingerbeardman.com"
+      url: "https://gingerbeardman.com"
+    - name: "rodyne.com"
+      url: "https://rodyne.com"
+    - name: "oisinmoran.com"
+      url: "https://oisinmoran.com"
+    - name: "tskulbru.dev"
+      url: "https://tskulbru.dev"
+    - name: "jordanscales.com"
+      url: "https://jordanscales.com"
+    - name: "bits.com"
+      url: "https://bits.com"
+    - name: "aditya3w3733.in"
+      url: "https://aditya3w3733.in"
+    - name: "bengarney.com"
+      url: "https://bengarney.com"
+    - name: "miguelpimentel.do"
+      url: "https://miguelpimentel.do"
+    - name: "ryanliptak.com"
+      url: "https://ryanliptak.com"
+    - name: "cmart.blog"
+      url: "https://cmart.blog"
+    - name: "torh.net"
+      url: "https://torh.net"
+    - name: "stop.zona-m.net"
+      url: "https://stop.zona-m.net"
+    - name: "peterspath.net/"
+      url: "https://peterspath.net/"
+    - name: "kevinlondon.com"
+      url: "https://kevinlondon.com"
+    - name: "hackyexperiments.com"
+      url: "https://hackyexperiments.com"
+    - name: "cenullum.com"
+      url: "https://cenullum.com"
+    - name: "rya.nc"
+      url: "https://rya.nc"
+    - name: "tyleo.com"
+      url: "https://tyleo.com"
+    - name: "gero.dev"
+      url: "https://gero.dev"
+    - name: "jakeseliger.com"
+      url: "https://jakeseliger.com"
+    - name: "stribny.name"
+      url: "https://stribny.name"
+    - name: "Show HN: I wrote a modern Command Line Handbook"
+      url: "https://commandline.stribny.name/"
+    - name: "jarv.is"
+      url: "https://jarv.is"
+    - name: "josh.mn"
+      url: "https://josh.mn"
+    - name: "sanjayregmi.com"
+      url: "https://sanjayregmi.com"
+    - name: "ryanmavilia.com"
+      url: "https://ryanmavilia.com"
+    - name: "foxmoss.com"
+      url: "https://foxmoss.com"
+    - name: "ktross.com"
+      url: "https://ktross.com"
+    - name: "migdal.pl"
+      url: "https://migdal.pl"
+    - name: "spencerdailey.com"
+      url: "https://spencerdailey.com"
+    - name: "daniel.lawrence.lu"
+      url: "https://daniel.lawrence.lu"
+    - name: "ElijahLynn.net"
+      url: "https://ElijahLynn.net"
+    - name: "till.red"
+      url: "https://till.red"
+    - name: "ghinda.com"
+      url: "https://ghinda.com"
+    - name: "kevq.uk"
+      url: "https://kevq.uk"
+    - name: "bobadams5.com"
+      url: "https://bobadams5.com"
+    - name: "oliveremberton.com"
+      url: "https://oliveremberton.com"
+    - name: "shreyasprakash.com"
+      url: "https://shreyasprakash.com"
+    - name: "blog.ideotec.es"
+      url: "https://blog.ideotec.es"
+    - name: "gomsilo.com"
+      url: "https://gomsilo.com"
+    - name: "hardwarehacks.org"
+      url: "https://hardwarehacks.org"
+    - name: "omarabid.com"
+      url: "https://omarabid.com"
+    - name: "ahalbert.com"
+      url: "https://ahalbert.com"
+    - name: "Tylervigen.com"
+      url: "https://Tylervigen.com"
+    - name: "Spurious Correlations"
+      url: "http://www.tylervigen.com/"
+    - name: "kevincox.ca"
+      url: "https://kevincox.ca"
+    - name: "brycewray.com"
+      url: "https://brycewray.com"
+    - name: "varun.ch"
+      url: "https://varun.ch"
+    - name: "benbyford.com"
+      url: "https://benbyford.com"
+    - name: "sjdonado.com"
+      url: "https://sjdonado.com"
+    - name: "I Don't Have Spotify"
+      url: "https://idonthavespotify.sjdonado.com/"
+    - name: "ninjasandrobots.com"
+      url: "https://ninjasandrobots.com"
+    - name: "miikavonbell.com"
+      url: "https://miikavonbell.com"
+    - name: "literallythevoid.com"
+      url: "https://literallythevoid.com"
+    - name: "dostoynikov.bearblog.dev"
+      url: "https://dostoynikov.bearblog.dev"
+    - name: "troyhunt.com"
+      url: "https://troyhunt.com"
+    - name: "blog.ioces.com"
+      url: "https://blog.ioces.com"
+    - name: "prashantbarahi.com.np"
+      url: "https://prashantbarahi.com.np"
+    - name: "josephscott.org"
+      url: "https://josephscott.org"
+    - name: "blakewatson.com"
+      url: "https://blakewatson.com"
+    - name: "simedw.com"
+      url: "https://simedw.com"
+    - name: "eli.li"
+      url: "https://eli.li"
+    - name: "muhammadraza.me"
+      url: "https://muhammadraza.me"
+    - name: "dancocos.com"
+      url: "https://dancocos.com"
+    - name: "nicolasbouliane.com"
+      url: "https://nicolasbouliane.com"
+    - name: "aaronstuyvenberg.com"
+      url: "https://aaronstuyvenberg.com"
+    - name: "jerry.wtf"
+      url: "https://jerry.wtf"
+    - name: "danieljanus.pl"
+      url: "https://danieljanus.pl"
+    - name: "blog.aawadia.dev"
+      url: "https://blog.aawadia.dev"
+    - name: "vanhunteradams.com"
+      url: "https://vanhunteradams.com"
+    - name: "dorotac.eu"
+      url: "https://dorotac.eu"
+    - name: "joshmcarthur.com"
+      url: "https://joshmcarthur.com"
+    - name: "Show HN: Made NZ's member of parliament financial disclosure data searchable"
+      url: "https://open-register-of-pecuniary-interests.joshmcarthur.com/"
+    - name: "Matthewc.dev"
+      url: "https://Matthewc.dev"
+    - name: "eleijonmarck.dev"
+      url: "https://eleijonmarck.dev"
+    - name: "ptimofeev.com"
+      url: "https://ptimofeev.com"
+    - name: "jcnoel.dev"
+      url: "https://jcnoel.dev"
+    - name: "douglascuthbertson.com"
+      url: "https://douglascuthbertson.com"
+    - name: "ciesie.com"
+      url: "https://ciesie.com"
+    - name: "jndjs.dev"
+      url: "https://jndjs.dev"
+    - name: "lille-oe.de"
+      url: "https://lille-oe.de"
+    - name: "henrikwarne.com"
+      url: "https://henrikwarne.com"
+    - name: "cprimozic.net"
+      url: "https://cprimozic.net"
+    - name: "akashrajpurohit.com"
+      url: "https://akashrajpurohit.com"
+    - name: "How to professionally say"
+      url: "https://howtoprofessionallysay.akashrajpurohit.com/"
+    - name: "blog.erethon.com"
+      url: "https://blog.erethon.com"
+    - name: "autumnsgrove.com"
+      url: "https://autumnsgrove.com"
+    - name: "kilianvalkhof.com"
+      url: "https://kilianvalkhof.com"
+    - name: "SenCSs - CSS framework that doesn’t provide a layout system (just everything els"
+      url: "https://sencss.kilianvalkhof.com/"
+    - name: "blog.marcua.net"
+      url: "https://blog.marcua.net"
+    - name: "anfractuosity.com"
+      url: "https://anfractuosity.com"
+    - name: "jakelazaroff.com"
+      url: "https://jakelazaroff.com"
+    - name: "aswinmohan.me"
+      url: "https://aswinmohan.me"
+    - name: "Show HN: Tet – A todo app that deletes your tasks at the end of the day"
+      url: "http://tet.aswinmohan.me/"
+    - name: "glthr.com"
+      url: "https://glthr.com"
+    - name: "tomaytotomato.com"
+      url: "https://tomaytotomato.com"
+    - name: "tymscar.com"
+      url: "https://tymscar.com"
+    - name: "lab6.com"
+      url: "https://lab6.com"
+    - name: "3D Printed Sugar"
+      url: "http://the-sugar-lab.com"
+    - name: "beza1e1.tuxen.de"
+      url: "https://beza1e1.tuxen.de"
+    - name: "nullonerror.org"
+      url: "https://nullonerror.org"
+    - name: "jasdeep-singh.com"
+      url: "https://jasdeep-singh.com"
+    - name: "uptointerpretation.com"
+      url: "https://uptointerpretation.com"
+    - name: "bendangelo.me"
+      url: "https://bendangelo.me"
+    - name: "miguel.build"
+      url: "https://miguel.build"
+    - name: "symbolflux.com"
+      url: "https://symbolflux.com"
+    - name: "dusted.dk"
+      url: "https://dusted.dk"
+    - name: "dvsj.in"
+      url: "https://dvsj.in"
+    - name: "luka.korosec.cc"
+      url: "https://luka.korosec.cc"
+    - name: "svendewaerhert.com"
+      url: "https://svendewaerhert.com"
+    - name: "zackproser.com"
+      url: "https://zackproser.com"
+    - name: "bjhess.com"
+      url: "https://bjhess.com"
+    - name: "adityamwagh.me"
+      url: "https://adityamwagh.me"
+    - name: "fragkakis.org"
+      url: "https://fragkakis.org"
+    - name: "hypertexthero.com"
+      url: "https://hypertexthero.com"
+    - name: "Show HN: Food News - HN Clone Built With Django and Drum, Uses Persona for Auth"
+      url: "http://food.hypertexthero.com/"
+    - name: "prettydiff.com"
+      url: "https://prettydiff.com"
+    - name: "p4bl0.net"
+      url: "https://p4bl0.net"
+    - name: "amontalenti.com"
+      url: "https://amontalenti.com"
+    - name: "onbrn.com"
+      url: "https://onbrn.com"
+    - name: "blog.searchmysite.net"
+      url: "https://blog.searchmysite.net"
+    - name: "prakashsellathurai.com"
+      url: "https://prakashsellathurai.com"
+    - name: "colly.com"
+      url: "https://colly.com"
+    - name: "blog.ture.dev"
+      url: "https://blog.ture.dev"
+    - name: "ivanderevianko.com"
+      url: "https://ivanderevianko.com"
+    - name: "agentultra.com"
+      url: "https://agentultra.com"
+    - name: "tomyeoman.dev"
+      url: "https://tomyeoman.dev"
+    - name: "theden.sh"
+      url: "https://theden.sh"
+    - name: "Show HN: 0xDEAD//TYPE – A fast-paced typing shooter with retro vibes"
+      url: "https://0xdeadtype.theden.sh/"
+    - name: "barnabas.me"
+      url: "https://barnabas.me"
+    - name: "iamstelios.com"
+      url: "https://iamstelios.com"
+    - name: "abortretry.fail"
+      url: "https://abortretry.fail"
+    - name: "thebacklog.net"
+      url: "https://thebacklog.net"
+    - name: "morgan.zoemp.be"
+      url: "https://morgan.zoemp.be"
+    - name: "brooks.page"
+      url: "https://brooks.page"
+    - name: "dmitry.gr"
+      url: "https://dmitry.gr"
+    - name: "lukeb.co.uk"
+      url: "https://lukeb.co.uk"
+    - name: "hiddedevries.nl"
+      url: "https://hiddedevries.nl"
+    - name: "luten.dev"
+      url: "https://luten.dev"
+    - name: "wordloosed.com"
+      url: "https://wordloosed.com"
+    - name: "u11g.com"
+      url: "https://u11g.com"
+    - name: "ricardoanderegg.com"
+      url: "https://ricardoanderegg.com"
+    - name: "coey.dev"
+      url: "https://coey.dev"
+    - name: "rohanmenon.com"
+      url: "https://rohanmenon.com"
+    - name: "isaacjordan.me"
+      url: "https://isaacjordan.me"
+    - name: "marvinborner.de"
+      url: "https://marvinborner.de"
+    - name: "Show HN: Programming with Pure Lambda Calculus"
+      url: "https://bruijn.marvinborner.de/"
+    - name: "blog.devontrack.com"
+      url: "https://blog.devontrack.com"
+    - name: "martinrue.com"
+      url: "https://martinrue.com"
+    - name: "kinduff.com"
+      url: "https://kinduff.com"
+    - name: "thedarkside.frantzmiccoli.com"
+      url: "https://thedarkside.frantzmiccoli.com"
+    - name: "mattcrampton.com"
+      url: "https://mattcrampton.com"
+    - name: "0xfe.blogspot.com"
+      url: "https://0xfe.blogspot.com"
+    - name: "idiallo.com"
+      url: "https://idiallo.com"
+    - name: "sonnet.io"
+      url: "https://sonnet.io"
+    - name: "Ensō: write now, edit later"
+      url: "https://enso.sonnet.io/"
+    - name: "Show HN: Sit."
+      url: "https://sit.sonnet.io"
+    - name: "Show HN: Ulysses–a writing tool I built to refocus when my mind is too loud"
+      url: "https://ulysses.sonnet.io"
+    - name: "sneak.berlin"
+      url: "https://sneak.berlin"
+    - name: "wellaged.dev"
+      url: "https://wellaged.dev"
+    - name: "ashleyjanssen.com"
+      url: "https://ashleyjanssen.com"
+    - name: "figbert.com"
+      url: "https://figbert.com"
+    - name: "oberbrunner.com"
+      url: "https://oberbrunner.com"
+    - name: "paul.totterman.name"
+      url: "https://paul.totterman.name"
+    - name: "joshwithers.blog"
+      url: "https://joshwithers.blog"
+    - name: "blog.yakkomajuri.com"
+      url: "https://blog.yakkomajuri.com"
+    - name: "ramvasuthevan.ca"
+      url: "https://ramvasuthevan.ca"
+    - name: "staydecent.ca"
+      url: "https://staydecent.ca"
+    - name: "utk09.com"
+      url: "https://utk09.com"
+    - name: "andrewpwheeler.com"
+      url: "https://andrewpwheeler.com"
+    - name: "vinayak.io"
+      url: "https://vinayak.io"
+    - name: "miriamsuzanne.com"
+      url: "https://miriamsuzanne.com"
+    - name: "zacksiri.dev"
+      url: "https://zacksiri.dev"
+    - name: "georgesaines.com"
+      url: "https://georgesaines.com"
     - name: 'Another Way to View the "Decline"of HN'
-      url: 'http://www.georgesaines.com/'
-    - name: 'learnandburn.ai'
-      url: 'https://learnandburn.ai'
-    - name: 'j11g.com'
-      url: 'https://j11g.com'
-    - name: 'mataroa.blog'
-      url: 'https://mataroa.blog'
-    - name: 'blog.adnansiddiqi.me'
-      url: 'https://blog.adnansiddiqi.me'
-    - name: 'runthedata.dev'
-      url: 'https://runthedata.dev'
-    - name: 'rakhim.org'
-      url: 'https://rakhim.org'
-    - name: 'Show HN: Timeless HN – random good HN stories from the past'
-      url: 'http://thn.rakhim.org/'
-    - name: 'skife.org'
-      url: 'https://skife.org'
-    - name: 'invertedpassion.com'
-      url: 'https://invertedpassion.com'
-    - name: 'blog.rongarret.info'
-      url: 'https://blog.rongarret.info'
-    - name: 'blog.fponzi.me'
-      url: 'https://blog.fponzi.me'
-    - name: 'laurent.le-brun.eu'
-      url: 'https://laurent.le-brun.eu'
-    - name: 'thomas-huehn.com'
-      url: 'https://thomas-huehn.com'
-    - name: 'johnnyreilly.com'
-      url: 'https://johnnyreilly.com'
-    - name: 'blog.jessewalling.com'
-      url: 'https://blog.jessewalling.com'
-    - name: 'devintheshell.com'
-      url: 'https://devintheshell.com'
-    - name: 'jlelse.blog'
-      url: 'https://jlelse.blog'
-    - name: 'evertpot.com/'
-      url: 'https://evertpot.com/'
-    - name: 'viralinstruction.com'
-      url: 'https://viralinstruction.com'
-    - name: 'pgjones.dev'
-      url: 'https://pgjones.dev'
-    - name: 'gavinhoward.com'
-      url: 'https://gavinhoward.com'
-    - name: 'danverbraganza.com'
-      url: 'https://danverbraganza.com'
-    - name: 'todepond.com'
-      url: 'https://todepond.com'
-    - name: 'shahinrostami.com'
-      url: 'https://shahinrostami.com'
-    - name: 'imkylelambert.com'
-      url: 'https://imkylelambert.com'
-    - name: 'boyter.org'
-      url: 'https://boyter.org'
-    - name: 'aitorres.com'
-      url: 'https://aitorres.com'
-    - name: 'loige.co'
-      url: 'https://loige.co'
-    - name: 'apogliaghi.com'
-      url: 'https://apogliaghi.com'
-    - name: 'unsungnovelty.org'
-      url: 'https://unsungnovelty.org'
-    - name: 'fredrikmeyer.net'
-      url: 'https://fredrikmeyer.net'
-    - name: 'caolan.uk'
-      url: 'https://caolan.uk'
-    - name: 'dairon.org'
-      url: 'https://dairon.org'
-    - name: 'bernsteinbear.com'
-      url: 'https://bernsteinbear.com'
-    - name: 'joshcanhelp.com'
-      url: 'https://joshcanhelp.com'
-    - name: 'l-o-o-s-e-d.net'
-      url: 'https://l-o-o-s-e-d.net'
-    - name: 'navendu.me'
-      url: 'https://navendu.me'
-    - name: 'sourcetms.com'
-      url: 'https://sourcetms.com'
-    - name: 'ovalerio.net'
-      url: 'https://ovalerio.net'
-    - name: 'matt.might.net'
-      url: 'https://matt.might.net'
-    - name: 'danilafe.com'
-      url: 'https://danilafe.com'
-    - name: 'vincent.bernat.ch'
-      url: 'https://vincent.bernat.ch'
-    - name: 'blog.webb.page'
-      url: 'https://blog.webb.page'
-    - name: 'blog.mariom.pl'
-      url: 'https://blog.mariom.pl'
-    - name: 'blaise.bike'
-      url: 'https://blaise.bike'
-    - name: 'lik.ai'
-      url: 'https://lik.ai'
-    - name: 'pomb.us'
-      url: 'https://pomb.us'
-    - name: 'Codem Ipsum: Lorem Ipsum but for Code'
-      url: 'https://codemipsum.pomb.us/'
-    - name: 'Code Surfer – Rad Code Slides'
-      url: 'https://codesurfer.pomb.us/'
-    - name: 'bookofjoe.com'
-      url: 'https://bookofjoe.com'
-    - name: 'blog.kulman.sk'
-      url: 'https://blog.kulman.sk'
-    - name: 'joeldare.com'
-      url: 'https://joeldare.com'
-    - name: 'Show HN: Neat – Minimalist CSS Framework'
-      url: 'https://neat.joeldare.com'
-    - name: 'Show HN: Consentless – A minimalist, privacy-preserving traffic counter'
-      url: 'https://consentless.joeldare.com'
-    - name: 'dannas.name'
-      url: 'https://dannas.name'
-    - name: 'Winston.Milli.ng'
-      url: 'https://Winston.Milli.ng'
-    - name: 'littlegreenviper.com'
-      url: 'https://littlegreenviper.com'
-    - name: 'adithyanair.com'
-      url: 'https://adithyanair.com'
-    - name: 'blog.tracefunc.com'
-      url: 'https://blog.tracefunc.com'
-    - name: 'tanmaysarkar.hashnode.dev'
-      url: 'https://tanmaysarkar.hashnode.dev'
-    - name: 'dgt.is'
-      url: 'https://dgt.is'
-    - name: 'jama.me'
-      url: 'https://jama.me'
-    - name: 'Java: Real or Not?'
-      url: 'http://java.metagno.me/'
-    - name: 'jr0.org'
-      url: 'https://jr0.org'
-    - name: 'friendlyskies.net'
-      url: 'https://friendlyskies.net'
-    - name: 'shruggingface.com'
-      url: 'https://shruggingface.com'
-    - name: 'harishnarayanan.org'
-      url: 'https://harishnarayanan.org'
-    - name: 'snats.xyz'
-      url: 'https://snats.xyz'
-    - name: 'alanhogan.com'
-      url: 'https://alanhogan.com'
-    - name: 'scottjellen.com'
-      url: 'https://scottjellen.com'
-    - name: 'dystroy.org'
-      url: 'https://dystroy.org'
-    - name: 'expatcircle.com'
-      url: 'https://expatcircle.com'
-    - name: 'wdkwwdk.com'
-      url: 'https://wdkwwdk.com'
-    - name: 'tbolt.space'
-      url: 'https://tbolt.space'
-    - name: 'pablart.com'
-      url: 'https://pablart.com'
-    - name: 'alicegg.tech'
-      url: 'https://alicegg.tech'
-    - name: 'Tsukumogami Software'
-      url: 'https://tsukumogami.software\'
-    - name: 'maxbo.me'
-      url: 'https://maxbo.me'
-    - name: 'maltris.org'
-      url: 'https://maltris.org'
-    - name: 'fd93.me'
-      url: 'https://fd93.me'
-    - name: 'dinosaurseateverybody.com'
-      url: 'https://dinosaurseateverybody.com'
-    - name: 'deadstar.one'
-      url: 'https://deadstar.one'
-    - name: 'jvt.me'
-      url: 'https://jvt.me'
-    - name: 'robinlinacre.com'
-      url: 'https://robinlinacre.com'
-    - name: 'quinnkeast.com'
-      url: 'https://quinnkeast.com'
-    - name: 'ztoz.blog'
-      url: 'https://ztoz.blog'
-    - name: 'natemeyvis.com'
-      url: 'https://natemeyvis.com'
-    - name: 'simon-frey.com'
-      url: 'https://simon-frey.com'
-    - name: 'scottrlarson.com'
-      url: 'https://scottrlarson.com'
-    - name: 'attejuvonen.fi'
-      url: 'https://attejuvonen.fi'
-    - name: 'Show HN: Flashcards to learn AWS skills'
-      url: 'https://cloudbite.attejuvonen.fi/'
-    - name: 'Show HN: ChatGPT-powered dystopia simulator'
-      url: 'https://future.attejuvonen.fi/'
-    - name: 'Show HN: GPT-3 powered Ouija spirit board that moves your mouse'
-      url: 'https://ouija.attejuvonen.fi/'
-    - name: 'mohundro.com'
-      url: 'https://mohundro.com'
-    - name: 'petekeen.net'
-      url: 'https://petekeen.net'
-    - name: 'ounapuu.ee'
-      url: 'https://ounapuu.ee'
-    - name: 'jamieonkeys.dev'
-      url: 'https://jamieonkeys.dev'
-    - name: 'tylergaw.com'
-      url: 'https://tylergaw.com'
-    - name: 'wjgilmore.com'
-      url: 'https://wjgilmore.com'
-    - name: 'adamconrad.dev'
-      url: 'https://adamconrad.dev'
-    - name: 'rb.ax'
-      url: 'https://rb.ax'
-    - name: 'fredwu.me'
-      url: 'https://fredwu.me'
-    - name: 'arunmani.in'
-      url: 'https://arunmani.in'
-    - name: 'chrismorgan.info'
-      url: 'https://chrismorgan.info'
-    - name: 'timharek.no'
-      url: 'https://timharek.no'
-    - name: 'liambeckman.com'
-      url: 'https://liambeckman.com'
-    - name: 'thraxil.org'
-      url: 'https://thraxil.org'
-    - name: 'blog.gnoack.org'
-      url: 'https://blog.gnoack.org'
-    - name: 'soatok.blog'
-      url: 'https://soatok.blog'
-    - name: 'francoisbest.com'
-      url: 'https://francoisbest.com'
-    - name: 'world-playground-deceit.net'
-      url: 'https://world-playground-deceit.net'
-    - name: 'madebyoll.in'
-      url: 'https://madebyoll.in'
-    - name: 'raagnair.com'
-      url: 'https://raagnair.com'
-    - name: 'Ryanair now presents you with a Recaptcha every time you search for a flight'
-      url: 'http://ryanair.com'
-    - name: 'darekkay.com'
-      url: 'https://darekkay.com'
-    - name: 'library.sciencemadness.org'
-      url: 'https://library.sciencemadness.org'
-    - name: 'ertu.dev'
-      url: 'https://ertu.dev'
-    - name: 'thinkhuman.com'
-      url: 'https://thinkhuman.com'
-    - name: 'johnlian.net'
-      url: 'https://johnlian.net'
-    - name: 'andrewshay.me'
-      url: 'https://andrewshay.me'
-    - name: 'illya.sh'
-      url: 'https://illya.sh'
-    - name: 'fieldtheories.blog'
-      url: 'https://fieldtheories.blog'
-    - name: 'grepular.com'
-      url: 'https://grepular.com'
-    - name: 'da-data.blogspot.com'
-      url: 'https://da-data.blogspot.com'
-    - name: 'craftyduck.rocks'
-      url: 'https://craftyduck.rocks'
-    - name: 'emgoto.com'
-      url: 'https://emgoto.com'
-    - name: 'martin-brennan.com'
-      url: 'https://martin-brennan.com'
-    - name: '0xffff.me'
-      url: 'https://0xffff.me'
-    - name: 'jabperf.com'
-      url: 'https://jabperf.com'
-    - name: 'jsPerf: Easily create and share JavaScript performance test cases / benchmarks'
-      url: 'http://jsperf.com/'
-    - name: 'site.fzxu.me'
-      url: 'https://site.fzxu.me'
-    - name: 'amadeuspagel.com'
-      url: 'https://amadeuspagel.com'
-    - name: 'usmanity.com'
-      url: 'https://usmanity.com'
-    - name: 'nabraj.com'
-      url: 'https://nabraj.com'
-    - name: 'wangfenjin.com'
-      url: 'https://wangfenjin.com'
-    - name: 'matthewsinclair.com'
-      url: 'https://matthewsinclair.com'
-    - name: 'mmazzarolo.com'
-      url: 'https://mmazzarolo.com'
-    - name: 'ideasofhakki.com'
-      url: 'https://ideasofhakki.com'
-    - name: 'martinheinz.dev'
-      url: 'https://martinheinz.dev'
-    - name: 'yakkomajuri.com'
-      url: 'https://yakkomajuri.com'
-    - name: 'gigatexal.blog'
-      url: 'https://gigatexal.blog'
-    - name: 'vadimkravcenko.com'
-      url: 'https://vadimkravcenko.com'
-    - name: 'medhir.com'
-      url: 'https://medhir.com'
-    - name: 'gavinr.com'
-      url: 'https://gavinr.com'
-    - name: 'blog.jgc.org'
-      url: 'https://blog.jgc.org'
-    - name: 'nindalf.com'
-      url: 'https://nindalf.com'
-    - name: 'addyosmani.com'
-      url: 'https://addyosmani.com'
-    - name: 'contraption.co'
-      url: 'https://contraption.co'
-    - name: 'murat.bio'
-      url: 'https://murat.bio'
-    - name: 'collantes.us'
-      url: 'https://collantes.us'
-    - name: 'meetryanflowers.com'
-      url: 'https://meetryanflowers.com'
-    - name: 'robotsinplainenglish.com'
-      url: 'https://robotsinplainenglish.com'
-    - name: 'neilgrogan.com'
-      url: 'https://neilgrogan.com'
-    - name: 'rfdavid.com'
-      url: 'https://rfdavid.com'
-    - name: 'tmendez.dev'
-      url: 'https://tmendez.dev'
-    - name: 'barish.me'
-      url: 'https://barish.me'
-    - name: 'sharats.me'
-      url: 'https://sharats.me'
-    - name: 'Show HN: Just a Calendar: Simple Calendar to look at, no login, super light'
-      url: 'https://calendar.sharats.me/'
-    - name: 'blog.skz.dev'
-      url: 'https://blog.skz.dev'
-    - name: 'porkrind.org'
-      url: 'https://porkrind.org'
-    - name: 'tommasoamici.com'
-      url: 'https://tommasoamici.com'
-    - name: 'sethops1.net'
-      url: 'https://sethops1.net'
-    - name: 'bityard.net'
-      url: 'https://bityard.net'
-    - name: 'deanebarker.net'
-      url: 'https://deanebarker.net'
-    - name: 'resumematcher.fyi'
-      url: 'https://resumematcher.fyi'
-    - name: 'kirillso.com'
-      url: 'https://kirillso.com'
-    - name: 'owleyes.blue'
-      url: 'https://owleyes.blue'
-    - name: 'gabrielgambetta.com'
-      url: 'https://gabrielgambetta.com'
-    - name: 'interjectedfuture.com'
-      url: 'https://interjectedfuture.com'
-    - name: 'venam.net'
-      url: 'https://venam.net'
-    - name: 'mgsloan.com'
-      url: 'https://mgsloan.com'
-    - name: 'akalin.com'
-      url: 'https://akalin.com'
-    - name: 'dSebastien.net'
-      url: 'https://dSebastien.net'
-    - name: 'vasanthv.me'
-      url: 'https://vasanthv.me'
-    - name: 'notes.alinpanaitiu.com'
-      url: 'https://notes.alinpanaitiu.com'
-    - name: 'cretezy.com'
-      url: 'https://cretezy.com'
-    - name: 'mliezun.com'
-      url: 'https://mliezun.com'
-    - name: 'craigmod.com'
-      url: 'https://craigmod.com'
-    - name: 'vit.baisa.cz'
-      url: 'https://vit.baisa.cz'
-    - name: 'river.me'
-      url: 'https://river.me'
-    - name: 'Show HN: Pentominoes on Surfaces'
-      url: 'https://pentominoes.river.me'
-    - name: 'maximepeabody.com'
-      url: 'https://maximepeabody.com'
-    - name: 'jcruz.eu'
-      url: 'https://jcruz.eu'
-    - name: 'allenpike.com'
-      url: 'https://allenpike.com'
-    - name: 'smcleod.net'
-      url: 'https://smcleod.net'
-    - name: 'davidtran.me'
-      url: 'https://davidtran.me'
-    - name: 'andreabergia.com'
-      url: 'https://andreabergia.com'
-    - name: 'marsuribe.net'
-      url: 'https://marsuribe.net'
-    - name: 'blainsmith.com'
-      url: 'https://blainsmith.com'
-    - name: 'blog.nindalf.com'
-      url: 'https://blog.nindalf.com'
-    - name: 'willness.dev'
-      url: 'https://willness.dev'
-    - name: 'gilest.org'
-      url: 'https://gilest.org'
-    - name: 'tashian.com'
-      url: 'https://tashian.com'
-    - name: 'truthindustri.es'
-      url: 'https://truthindustri.es'
-    - name: 'markmcb.com'
-      url: 'https://markmcb.com'
-    - name: 'dyz.io'
-      url: 'https://dyz.io'
-    - name: 'werd.io'
-      url: 'https://werd.io'
-    - name: 'unintendedconsequenc.es'
-      url: 'https://unintendedconsequenc.es'
-    - name: 'thenumb.at'
-      url: 'https://thenumb.at'
-    - name: 'ploum.net'
-      url: 'https://ploum.net'
-    - name: 'electroagenda.com'
-      url: 'https://electroagenda.com'
-    - name: 'friggeri.net'
-      url: 'https://friggeri.net'
-    - name: 'tonyalicea.dev'
-      url: 'https://tonyalicea.dev'
-    - name: 'alexanderlolis.com'
-      url: 'https://alexanderlolis.com'
-    - name: 'jackson.dev'
-      url: 'https://jackson.dev'
-    - name: 'jonasdevlieghere.com'
-      url: 'https://jonasdevlieghere.com'
-    - name: 'june.kim'
-      url: 'https://june.kim'
-    - name: 'unkel.io'
-      url: 'https://unkel.io'
-    - name: 'ricos.site'
-      url: 'https://ricos.site'
-    - name: 'davepeck.org'
-      url: 'https://davepeck.org'
+      url: "http://www.georgesaines.com/"
+    - name: "learnandburn.ai"
+      url: "https://learnandburn.ai"
+    - name: "j11g.com"
+      url: "https://j11g.com"
+    - name: "mataroa.blog"
+      url: "https://mataroa.blog"
+    - name: "blog.adnansiddiqi.me"
+      url: "https://blog.adnansiddiqi.me"
+    - name: "runthedata.dev"
+      url: "https://runthedata.dev"
+    - name: "rakhim.org"
+      url: "https://rakhim.org"
+    - name: "Show HN: Timeless HN – random good HN stories from the past"
+      url: "http://thn.rakhim.org/"
+    - name: "skife.org"
+      url: "https://skife.org"
+    - name: "invertedpassion.com"
+      url: "https://invertedpassion.com"
+    - name: "blog.rongarret.info"
+      url: "https://blog.rongarret.info"
+    - name: "blog.fponzi.me"
+      url: "https://blog.fponzi.me"
+    - name: "laurent.le-brun.eu"
+      url: "https://laurent.le-brun.eu"
+    - name: "thomas-huehn.com"
+      url: "https://thomas-huehn.com"
+    - name: "johnnyreilly.com"
+      url: "https://johnnyreilly.com"
+    - name: "blog.jessewalling.com"
+      url: "https://blog.jessewalling.com"
+    - name: "devintheshell.com"
+      url: "https://devintheshell.com"
+    - name: "jlelse.blog"
+      url: "https://jlelse.blog"
+    - name: "evertpot.com/"
+      url: "https://evertpot.com/"
+    - name: "viralinstruction.com"
+      url: "https://viralinstruction.com"
+    - name: "pgjones.dev"
+      url: "https://pgjones.dev"
+    - name: "gavinhoward.com"
+      url: "https://gavinhoward.com"
+    - name: "danverbraganza.com"
+      url: "https://danverbraganza.com"
+    - name: "todepond.com"
+      url: "https://todepond.com"
+    - name: "shahinrostami.com"
+      url: "https://shahinrostami.com"
+    - name: "imkylelambert.com"
+      url: "https://imkylelambert.com"
+    - name: "boyter.org"
+      url: "https://boyter.org"
+    - name: "aitorres.com"
+      url: "https://aitorres.com"
+    - name: "loige.co"
+      url: "https://loige.co"
+    - name: "apogliaghi.com"
+      url: "https://apogliaghi.com"
+    - name: "unsungnovelty.org"
+      url: "https://unsungnovelty.org"
+    - name: "fredrikmeyer.net"
+      url: "https://fredrikmeyer.net"
+    - name: "caolan.uk"
+      url: "https://caolan.uk"
+    - name: "dairon.org"
+      url: "https://dairon.org"
+    - name: "bernsteinbear.com"
+      url: "https://bernsteinbear.com"
+    - name: "joshcanhelp.com"
+      url: "https://joshcanhelp.com"
+    - name: "l-o-o-s-e-d.net"
+      url: "https://l-o-o-s-e-d.net"
+    - name: "navendu.me"
+      url: "https://navendu.me"
+    - name: "sourcetms.com"
+      url: "https://sourcetms.com"
+    - name: "ovalerio.net"
+      url: "https://ovalerio.net"
+    - name: "matt.might.net"
+      url: "https://matt.might.net"
+    - name: "danilafe.com"
+      url: "https://danilafe.com"
+    - name: "vincent.bernat.ch"
+      url: "https://vincent.bernat.ch"
+    - name: "blog.webb.page"
+      url: "https://blog.webb.page"
+    - name: "blog.mariom.pl"
+      url: "https://blog.mariom.pl"
+    - name: "blaise.bike"
+      url: "https://blaise.bike"
+    - name: "lik.ai"
+      url: "https://lik.ai"
+    - name: "pomb.us"
+      url: "https://pomb.us"
+    - name: "Codem Ipsum: Lorem Ipsum but for Code"
+      url: "https://codemipsum.pomb.us/"
+    - name: "Code Surfer – Rad Code Slides"
+      url: "https://codesurfer.pomb.us/"
+    - name: "bookofjoe.com"
+      url: "https://bookofjoe.com"
+    - name: "blog.kulman.sk"
+      url: "https://blog.kulman.sk"
+    - name: "joeldare.com"
+      url: "https://joeldare.com"
+    - name: "Show HN: Neat – Minimalist CSS Framework"
+      url: "https://neat.joeldare.com"
+    - name: "Show HN: Consentless – A minimalist, privacy-preserving traffic counter"
+      url: "https://consentless.joeldare.com"
+    - name: "dannas.name"
+      url: "https://dannas.name"
+    - name: "Winston.Milli.ng"
+      url: "https://Winston.Milli.ng"
+    - name: "littlegreenviper.com"
+      url: "https://littlegreenviper.com"
+    - name: "adithyanair.com"
+      url: "https://adithyanair.com"
+    - name: "blog.tracefunc.com"
+      url: "https://blog.tracefunc.com"
+    - name: "tanmaysarkar.hashnode.dev"
+      url: "https://tanmaysarkar.hashnode.dev"
+    - name: "dgt.is"
+      url: "https://dgt.is"
+    - name: "jama.me"
+      url: "https://jama.me"
+    - name: "Java: Real or Not?"
+      url: "http://java.metagno.me/"
+    - name: "jr0.org"
+      url: "https://jr0.org"
+    - name: "friendlyskies.net"
+      url: "https://friendlyskies.net"
+    - name: "shruggingface.com"
+      url: "https://shruggingface.com"
+    - name: "harishnarayanan.org"
+      url: "https://harishnarayanan.org"
+    - name: "snats.xyz"
+      url: "https://snats.xyz"
+    - name: "alanhogan.com"
+      url: "https://alanhogan.com"
+    - name: "scottjellen.com"
+      url: "https://scottjellen.com"
+    - name: "dystroy.org"
+      url: "https://dystroy.org"
+    - name: "expatcircle.com"
+      url: "https://expatcircle.com"
+    - name: "wdkwwdk.com"
+      url: "https://wdkwwdk.com"
+    - name: "tbolt.space"
+      url: "https://tbolt.space"
+    - name: "pablart.com"
+      url: "https://pablart.com"
+    - name: "alicegg.tech"
+      url: "https://alicegg.tech"
+    - name: "Tsukumogami Software"
+      url: "https://tsukumogami.software"
+    - name: "maxbo.me"
+      url: "https://maxbo.me"
+    - name: "maltris.org"
+      url: "https://maltris.org"
+    - name: "fd93.me"
+      url: "https://fd93.me"
+    - name: "dinosaurseateverybody.com"
+      url: "https://dinosaurseateverybody.com"
+    - name: "deadstar.one"
+      url: "https://deadstar.one"
+    - name: "jvt.me"
+      url: "https://jvt.me"
+    - name: "robinlinacre.com"
+      url: "https://robinlinacre.com"
+    - name: "quinnkeast.com"
+      url: "https://quinnkeast.com"
+    - name: "ztoz.blog"
+      url: "https://ztoz.blog"
+    - name: "natemeyvis.com"
+      url: "https://natemeyvis.com"
+    - name: "simon-frey.com"
+      url: "https://simon-frey.com"
+    - name: "scottrlarson.com"
+      url: "https://scottrlarson.com"
+    - name: "attejuvonen.fi"
+      url: "https://attejuvonen.fi"
+    - name: "Show HN: Flashcards to learn AWS skills"
+      url: "https://cloudbite.attejuvonen.fi/"
+    - name: "Show HN: ChatGPT-powered dystopia simulator"
+      url: "https://future.attejuvonen.fi/"
+    - name: "Show HN: GPT-3 powered Ouija spirit board that moves your mouse"
+      url: "https://ouija.attejuvonen.fi/"
+    - name: "mohundro.com"
+      url: "https://mohundro.com"
+    - name: "petekeen.net"
+      url: "https://petekeen.net"
+    - name: "ounapuu.ee"
+      url: "https://ounapuu.ee"
+    - name: "jamieonkeys.dev"
+      url: "https://jamieonkeys.dev"
+    - name: "tylergaw.com"
+      url: "https://tylergaw.com"
+    - name: "wjgilmore.com"
+      url: "https://wjgilmore.com"
+    - name: "adamconrad.dev"
+      url: "https://adamconrad.dev"
+    - name: "rb.ax"
+      url: "https://rb.ax"
+    - name: "fredwu.me"
+      url: "https://fredwu.me"
+    - name: "arunmani.in"
+      url: "https://arunmani.in"
+    - name: "chrismorgan.info"
+      url: "https://chrismorgan.info"
+    - name: "timharek.no"
+      url: "https://timharek.no"
+    - name: "liambeckman.com"
+      url: "https://liambeckman.com"
+    - name: "thraxil.org"
+      url: "https://thraxil.org"
+    - name: "blog.gnoack.org"
+      url: "https://blog.gnoack.org"
+    - name: "soatok.blog"
+      url: "https://soatok.blog"
+    - name: "francoisbest.com"
+      url: "https://francoisbest.com"
+    - name: "world-playground-deceit.net"
+      url: "https://world-playground-deceit.net"
+    - name: "madebyoll.in"
+      url: "https://madebyoll.in"
+    - name: "raagnair.com"
+      url: "https://raagnair.com"
+    - name: "Ryanair now presents you with a Recaptcha every time you search for a flight"
+      url: "http://ryanair.com"
+    - name: "darekkay.com"
+      url: "https://darekkay.com"
+    - name: "library.sciencemadness.org"
+      url: "https://library.sciencemadness.org"
+    - name: "ertu.dev"
+      url: "https://ertu.dev"
+    - name: "thinkhuman.com"
+      url: "https://thinkhuman.com"
+    - name: "johnlian.net"
+      url: "https://johnlian.net"
+    - name: "andrewshay.me"
+      url: "https://andrewshay.me"
+    - name: "illya.sh"
+      url: "https://illya.sh"
+    - name: "fieldtheories.blog"
+      url: "https://fieldtheories.blog"
+    - name: "grepular.com"
+      url: "https://grepular.com"
+    - name: "da-data.blogspot.com"
+      url: "https://da-data.blogspot.com"
+    - name: "craftyduck.rocks"
+      url: "https://craftyduck.rocks"
+    - name: "emgoto.com"
+      url: "https://emgoto.com"
+    - name: "martin-brennan.com"
+      url: "https://martin-brennan.com"
+    - name: "0xffff.me"
+      url: "https://0xffff.me"
+    - name: "jabperf.com"
+      url: "https://jabperf.com"
+    - name: "jsPerf: Easily create and share JavaScript performance test cases / benchmarks"
+      url: "http://jsperf.com/"
+    - name: "site.fzxu.me"
+      url: "https://site.fzxu.me"
+    - name: "amadeuspagel.com"
+      url: "https://amadeuspagel.com"
+    - name: "usmanity.com"
+      url: "https://usmanity.com"
+    - name: "nabraj.com"
+      url: "https://nabraj.com"
+    - name: "wangfenjin.com"
+      url: "https://wangfenjin.com"
+    - name: "matthewsinclair.com"
+      url: "https://matthewsinclair.com"
+    - name: "mmazzarolo.com"
+      url: "https://mmazzarolo.com"
+    - name: "ideasofhakki.com"
+      url: "https://ideasofhakki.com"
+    - name: "martinheinz.dev"
+      url: "https://martinheinz.dev"
+    - name: "yakkomajuri.com"
+      url: "https://yakkomajuri.com"
+    - name: "gigatexal.blog"
+      url: "https://gigatexal.blog"
+    - name: "vadimkravcenko.com"
+      url: "https://vadimkravcenko.com"
+    - name: "medhir.com"
+      url: "https://medhir.com"
+    - name: "gavinr.com"
+      url: "https://gavinr.com"
+    - name: "blog.jgc.org"
+      url: "https://blog.jgc.org"
+    - name: "nindalf.com"
+      url: "https://nindalf.com"
+    - name: "addyosmani.com"
+      url: "https://addyosmani.com"
+    - name: "contraption.co"
+      url: "https://contraption.co"
+    - name: "murat.bio"
+      url: "https://murat.bio"
+    - name: "collantes.us"
+      url: "https://collantes.us"
+    - name: "meetryanflowers.com"
+      url: "https://meetryanflowers.com"
+    - name: "robotsinplainenglish.com"
+      url: "https://robotsinplainenglish.com"
+    - name: "neilgrogan.com"
+      url: "https://neilgrogan.com"
+    - name: "rfdavid.com"
+      url: "https://rfdavid.com"
+    - name: "tmendez.dev"
+      url: "https://tmendez.dev"
+    - name: "barish.me"
+      url: "https://barish.me"
+    - name: "sharats.me"
+      url: "https://sharats.me"
+    - name: "Show HN: Just a Calendar: Simple Calendar to look at, no login, super light"
+      url: "https://calendar.sharats.me/"
+    - name: "blog.skz.dev"
+      url: "https://blog.skz.dev"
+    - name: "porkrind.org"
+      url: "https://porkrind.org"
+    - name: "tommasoamici.com"
+      url: "https://tommasoamici.com"
+    - name: "sethops1.net"
+      url: "https://sethops1.net"
+    - name: "bityard.net"
+      url: "https://bityard.net"
+    - name: "deanebarker.net"
+      url: "https://deanebarker.net"
+    - name: "resumematcher.fyi"
+      url: "https://resumematcher.fyi"
+    - name: "kirillso.com"
+      url: "https://kirillso.com"
+    - name: "owleyes.blue"
+      url: "https://owleyes.blue"
+    - name: "gabrielgambetta.com"
+      url: "https://gabrielgambetta.com"
+    - name: "interjectedfuture.com"
+      url: "https://interjectedfuture.com"
+    - name: "venam.net"
+      url: "https://venam.net"
+    - name: "mgsloan.com"
+      url: "https://mgsloan.com"
+    - name: "akalin.com"
+      url: "https://akalin.com"
+    - name: "dSebastien.net"
+      url: "https://dSebastien.net"
+    - name: "vasanthv.me"
+      url: "https://vasanthv.me"
+    - name: "notes.alinpanaitiu.com"
+      url: "https://notes.alinpanaitiu.com"
+    - name: "cretezy.com"
+      url: "https://cretezy.com"
+    - name: "mliezun.com"
+      url: "https://mliezun.com"
+    - name: "craigmod.com"
+      url: "https://craigmod.com"
+    - name: "vit.baisa.cz"
+      url: "https://vit.baisa.cz"
+    - name: "river.me"
+      url: "https://river.me"
+    - name: "Show HN: Pentominoes on Surfaces"
+      url: "https://pentominoes.river.me"
+    - name: "maximepeabody.com"
+      url: "https://maximepeabody.com"
+    - name: "jcruz.eu"
+      url: "https://jcruz.eu"
+    - name: "allenpike.com"
+      url: "https://allenpike.com"
+    - name: "smcleod.net"
+      url: "https://smcleod.net"
+    - name: "davidtran.me"
+      url: "https://davidtran.me"
+    - name: "andreabergia.com"
+      url: "https://andreabergia.com"
+    - name: "marsuribe.net"
+      url: "https://marsuribe.net"
+    - name: "blainsmith.com"
+      url: "https://blainsmith.com"
+    - name: "blog.nindalf.com"
+      url: "https://blog.nindalf.com"
+    - name: "willness.dev"
+      url: "https://willness.dev"
+    - name: "gilest.org"
+      url: "https://gilest.org"
+    - name: "tashian.com"
+      url: "https://tashian.com"
+    - name: "truthindustri.es"
+      url: "https://truthindustri.es"
+    - name: "markmcb.com"
+      url: "https://markmcb.com"
+    - name: "dyz.io"
+      url: "https://dyz.io"
+    - name: "werd.io"
+      url: "https://werd.io"
+    - name: "unintendedconsequenc.es"
+      url: "https://unintendedconsequenc.es"
+    - name: "thenumb.at"
+      url: "https://thenumb.at"
+    - name: "ploum.net"
+      url: "https://ploum.net"
+    - name: "electroagenda.com"
+      url: "https://electroagenda.com"
+    - name: "friggeri.net"
+      url: "https://friggeri.net"
+    - name: "tonyalicea.dev"
+      url: "https://tonyalicea.dev"
+    - name: "alexanderlolis.com"
+      url: "https://alexanderlolis.com"
+    - name: "jackson.dev"
+      url: "https://jackson.dev"
+    - name: "jonasdevlieghere.com"
+      url: "https://jonasdevlieghere.com"
+    - name: "june.kim"
+      url: "https://june.kim"
+    - name: "unkel.io"
+      url: "https://unkel.io"
+    - name: "ricos.site"
+      url: "https://ricos.site"
+    - name: "davepeck.org"
+      url: "https://davepeck.org"
     - name: 'HN: Like playing Go? Review my new site. It was a "weekend hack."'
-      url: 'http://go.davepeck.org/'
-    - name: 'tholman.com'
-      url: 'https://tholman.com'
-    - name: 'broderic.blog'
-      url: 'https://broderic.blog'
-    - name: 'denialof.services'
-      url: 'https://denialof.services'
-    - name: 'ameye.dev'
-      url: 'https://ameye.dev'
-    - name: 'nxn.se'
-      url: 'https://nxn.se'
-    - name: 'thetechee.com'
-      url: 'https://thetechee.com'
-    - name: 'untested.sonnet.io'
-      url: 'https://untested.sonnet.io'
-    - name: 'intellectronica.net'
-      url: 'https://intellectronica.net'
-    - name: 'outofthecomfortzone.frantzmiccoli.com'
-      url: 'https://outofthecomfortzone.frantzmiccoli.com'
-    - name: 'seldo.com'
-      url: 'https://seldo.com'
-    - name: 'vincents.dev'
-      url: 'https://vincents.dev'
-    - name: 'shuralyov.com'
-      url: 'https://shuralyov.com'
-    - name: 'brandonowens.me'
-      url: 'https://brandonowens.me'
-    - name: 'mashio.net'
-      url: 'https://mashio.net'
-    - name: 'atha.io'
-      url: 'https://atha.io'
-    - name: 'brunobernardino.com'
-      url: 'https://brunobernardino.com'
-    - name: 'tevonsb.com'
-      url: 'https://tevonsb.com'
-    - name: 'serhack.me'
-      url: 'https://serhack.me'
-    - name: 'alesruzicka.eu'
-      url: 'https://alesruzicka.eu'
-    - name: 'nawaz.org'
-      url: 'https://nawaz.org'
-    - name: 'gilmi.me'
-      url: 'https://gilmi.me'
-    - name: 'yieldthought.com'
-      url: 'https://yieldthought.com'
-    - name: 'blog.usmanity.com'
-      url: 'https://blog.usmanity.com'
-    - name: 'nuxx.net'
-      url: 'https://nuxx.net'
-    - name: 'fhur.me'
-      url: 'https://fhur.me'
-    - name: 'dodgycoder.net'
-      url: 'https://dodgycoder.net'
-    - name: 'wheybags.com'
-      url: 'https://wheybags.com'
-    - name: 'shdon.com'
-      url: 'https://shdon.com'
-    - name: 'outlandnish.com'
-      url: 'https://outlandnish.com'
-    - name: 'taoofmac.com'
-      url: 'https://taoofmac.com'
-    - name: 'mrkaran.dev'
-      url: 'https://mrkaran.dev'
-    - name: 'adambourg.com'
-      url: 'https://adambourg.com'
-    - name: 'andrelgomes.com'
-      url: 'https://andrelgomes.com'
-    - name: 'stefan-gloor.ch'
-      url: 'https://stefan-gloor.ch'
-    - name: 'liza.io'
-      url: 'https://liza.io'
-    - name: 'Show HN: Riza - Safely run untrusted code from your app'
-      url: 'https://riza.io/'
-    - name: 'da.vidbuchanan.co.uk'
-      url: 'https://da.vidbuchanan.co.uk'
-    - name: 'jcarlosroldan.com'
-      url: 'https://jcarlosroldan.com'
-    - name: 'jmtd.net'
-      url: 'https://jmtd.net'
-    - name: 'andersource.dev'
-      url: 'https://andersource.dev'
-    - name: 'zachleat.com'
-      url: 'https://zachleat.com'
-    - name: 'utf9k.net'
-      url: 'https://utf9k.net'
-    - name: 'brianmoore.com'
-      url: 'https://brianmoore.com'
-    - name: 'AI World Clocks'
-      url: 'https://clocks.brianmoore.com/'
-    - name: 'flamedfury.com'
-      url: 'https://flamedfury.com'
-    - name: 'abhis.blog'
-      url: 'https://abhis.blog'
-    - name: 'nicchan.me'
-      url: 'https://nicchan.me'
-    - name: 'OS-themed site: no JavaScript, accessible and mobile-first'
-      url: 'https://www.nicchan.me/'
-    - name: 'pcalv.es'
-      url: 'https://pcalv.es'
-    - name: 'raskell.io'
-      url: 'https://raskell.io'
-    - name: 'paulefou.com'
-      url: 'https://paulefou.com'
-    - name: 'iamvishnu.com'
-      url: 'https://iamvishnu.com'
-    - name: 'eliseomartelli.it'
-      url: 'https://eliseomartelli.it'
-    - name: 'notes.eatonphil.com'
-      url: 'https://notes.eatonphil.com'
-    - name: 'bash-prompt.net'
-      url: 'https://bash-prompt.net'
-    - name: 'shashanktomar.com'
-      url: 'https://shashanktomar.com'
-    - name: 'sanyamkapoor.com'
-      url: 'https://sanyamkapoor.com'
-    - name: 'vercel.app'
-      url: 'https://vercel.app'
-    - name: 'DOOM CAPTCHA'
-      url: 'https://doom-captcha.vercel.app/'
-    - name: 'How far can you go by train in 5h?'
-      url: 'https://chronotrains-eu.vercel.app/'
-    - name: 'Show HN: Autism Simulator'
-      url: 'https://autism-simulator.vercel.app/'
-    - name: 'My Room in 3D'
-      url: 'https://my-room-in-3d.vercel.app/'
-    - name: 'Antidepressants or Tolkien'
-      url: 'https://antidepressantsortolkien.vercel.app/'
-    - name: 'Show HN: I made a tool to clean and convert any webpage to Markdown'
-      url: 'https://markdowndown.vercel.app/'
-    - name: 'Show HN: I “wrote” a kid''s book with ChatGPT and Midjourney'
-      url: 'https://adventure-of-penelope.vercel.app/'
-    - name: 'Figma to React'
-      url: 'https://figma-to-react.vercel.app/'
-    - name: 'Tabloid: The Clickbait Headline Programming Language'
-      url: 'https://tabloid.vercel.app/'
-    - name: 'macOS in Svelte'
-      url: 'https://macos.vercel.app/'
-    - name: 'mangasaryan.net'
-      url: 'https://mangasaryan.net'
-    - name: 'davemullenjnr.co.uk'
-      url: 'https://davemullenjnr.co.uk'
-    - name: 'bayardrandel.com'
-      url: 'https://bayardrandel.com'
-    - name: 'lambdaland.org'
-      url: 'https://lambdaland.org'
-    - name: 'monokai.com'
-      url: 'https://monokai.com'
-    - name: 'reubence.com'
-      url: 'https://reubence.com'
-    - name: 'maxdaten.io'
-      url: 'https://maxdaten.io'
-    - name: 'velvetshark.com'
-      url: 'https://velvetshark.com'
-    - name: 'hallada.net'
-      url: 'https://hallada.net'
-    - name: 'splitbrain.org'
-      url: 'https://splitbrain.org'
-    - name: 'forwardscattering.org'
-      url: 'https://forwardscattering.org'
-    - name: 'aguno.xyz'
-      url: 'https://aguno.xyz'
-    - name: 'trevo.rs'
-      url: 'https://trevo.rs'
-    - name: 'ethicalads.io'
-      url: 'https://ethicalads.io'
-    - name: 'Show HN: EthicalAds – Privacy-first ad network for developers'
-      url: 'https://www.ethicalads.io'
-    - name: 'exotext.com'
-      url: 'https://exotext.com'
-    - name: 'nickjanetakis.com'
-      url: 'https://nickjanetakis.com'
-    - name: 'daveon.design'
-      url: 'https://daveon.design'
-    - name: 'hodovi.cc'
-      url: 'https://hodovi.cc'
-    - name: 'toninotes.cc'
-      url: 'https://toninotes.cc'
-    - name: 'etodd.io'
-      url: 'https://etodd.io'
-    - name: 'dannysalzman.com'
-      url: 'https://dannysalzman.com'
-    - name: 'blog.matthewbrunelle.com'
-      url: 'https://blog.matthewbrunelle.com'
-    - name: 'bergie.iki.fi'
-      url: 'https://bergie.iki.fi'
-    - name: 'theonlyblogever.com'
-      url: 'https://theonlyblogever.com'
-    - name: 'thecapegreek.com'
-      url: 'https://thecapegreek.com'
-    - name: 'lelanthran.com'
-      url: 'https://lelanthran.com'
-    - name: 'outcoldman.com'
-      url: 'https://outcoldman.com'
-    - name: 'skyfall.dev'
-      url: 'https://skyfall.dev'
-    - name: 'blog.janissary.xyz'
-      url: 'https://blog.janissary.xyz'
-    - name: 'alexsci.com'
-      url: 'https://alexsci.com'
-    - name: 'mattfriz.com'
-      url: 'https://mattfriz.com'
-    - name: 'Tech Interview Torture Chamber'
-      url: 'http://www.mattfriz.com/#/outbursts/tech-interview-torture-chamber'
-    - name: 'blog.shashanktomar.com'
-      url: 'https://blog.shashanktomar.com'
-    - name: 'gowtham.dev'
-      url: 'https://gowtham.dev'
-    - name: 'thelinell.com'
-      url: 'https://thelinell.com'
-    - name: 'carlos-menezes.com'
-      url: 'https://carlos-menezes.com'
-    - name: 'danielwirtz.com'
-      url: 'https://danielwirtz.com'
-    - name: 'kg.dev'
-      url: 'https://kg.dev'
-    - name: 'awanderingmind.blog'
-      url: 'https://awanderingmind.blog'
-    - name: 'refactoringenglish.com'
-      url: 'https://refactoringenglish.com'
-    - name: 'anderegg.ca'
-      url: 'https://anderegg.ca'
-    - name: 'kinlan.me'
-      url: 'https://kinlan.me'
-    - name: 'blacklight.sh'
-      url: 'https://blacklight.sh'
-    - name: 'tiernanotoole.ie'
-      url: 'https://tiernanotoole.ie'
-    - name: 'rz01.org'
-      url: 'https://rz01.org'
-    - name: 'sklivvz.com'
-      url: 'https://sklivvz.com'
-    - name: 'databasesandlife.com'
-      url: 'https://databasesandlife.com'
-    - name: 'simonam.dev'
-      url: 'https://simonam.dev'
-    - name: 'jaredwhite.com'
-      url: 'https://jaredwhite.com'
-    - name: 'umangis.me'
-      url: 'https://umangis.me'
-    - name: 'ahmadrosid.com'
-      url: 'https://ahmadrosid.com'
-    - name: 'Show HN: I built a better way to bookmark, read news, blog or any internet texts'
-      url: 'https://readclip.ahmadrosid.com/'
-    - name: 'xnacly.me'
-      url: 'https://xnacly.me'
-    - name: 'benjamincongdon.me'
-      url: 'https://benjamincongdon.me'
-    - name: 'mw.rat.bz'
-      url: 'https://mw.rat.bz'
-    - name: 'davnicwil.com'
-      url: 'https://davnicwil.com'
-    - name: 'huijzer.xyz'
-      url: 'https://huijzer.xyz'
-    - name: 'nickp.svbtle.com'
-      url: 'https://nickp.svbtle.com'
-    - name: 'blog.startuptaxaccounting.com'
-      url: 'https://blog.startuptaxaccounting.com'
-    - name: 'bou.ke'
-      url: 'https://bou.ke'
-    - name: 'jakobs.dev'
-      url: 'https://jakobs.dev'
-    - name: 'productme.org'
-      url: 'https://productme.org'
-    - name: 'ture.dev'
-      url: 'https://ture.dev'
-    - name: 'zarl.dev'
-      url: 'https://zarl.dev'
-    - name: 'mssv.net'
-      url: 'https://mssv.net'
-    - name: 'joshuakeel.com'
-      url: 'https://joshuakeel.com'
-    - name: 'blot.im'
-      url: 'https://blot.im'
-    - name: 'clintmcmahon.com'
-      url: 'https://clintmcmahon.com'
-    - name: 'monster0506.dev'
-      url: 'https://monster0506.dev'
-    - name: 'maxleiter.com'
-      url: 'https://maxleiter.com'
-    - name: 'elliottslaughter.com'
-      url: 'https://elliottslaughter.com'
-    - name: 'middleendian.com'
-      url: 'https://middleendian.com'
-    - name: 'chenhuijing.com'
-      url: 'https://chenhuijing.com'
-    - name: 'scastiel.dev'
-      url: 'https://scastiel.dev'
-    - name: 'cameronwestland.com'
-      url: 'https://cameronwestland.com'
-    - name: 'paperless.blog'
-      url: 'https://paperless.blog'
-    - name: 'holzer.online'
-      url: 'https://holzer.online'
-    - name: 'ewpratten.com'
-      url: 'https://ewpratten.com'
-    - name: 'andrew.gr'
-      url: 'https://andrew.gr'
-    - name: 'nicksypteras.com'
-      url: 'https://nicksypteras.com'
-    - name: 'rasulkireev.com'
-      url: 'https://rasulkireev.com'
-    - name: 'blog.janetacarr.com'
-      url: 'https://blog.janetacarr.com'
-    - name: 'naveen.ing'
-      url: 'https://naveen.ing'
-    - name: 'simonwillison.net/'
-      url: 'https://simonwillison.net/'
-    - name: 'keiran.me'
-      url: 'https://keiran.me'
-    - name: 'jerrynsh.com'
-      url: 'https://jerrynsh.com'
-    - name: 'Show HN: Spaceflight News made using Htmx'
-      url: 'https://spaceflight-news.jerrynsh.com/'
-    - name: 'Rjgonza.com'
-      url: 'https://Rjgonza.com'
-    - name: 'j3s.sh'
-      url: 'https://j3s.sh'
-    - name: 'potato.horse'
-      url: 'https://potato.horse'
-    - name: 'Show HN: The Uncolouring Book'
-      url: 'https://lines.potato.horse'
-    - name: 'lagomor.ph'
-      url: 'https://lagomor.ph'
-    - name: 'dissociatedpress.net'
-      url: 'https://dissociatedpress.net'
-    - name: 'snarfed.org'
-      url: 'https://snarfed.org'
-    - name: 'til.simonwillison.net/'
-      url: 'https://til.simonwillison.net/'
-    - name: 'zdimension.fr'
-      url: 'https://zdimension.fr'
-    - name: 'dcaulfield.com'
-      url: 'https://dcaulfield.com'
-    - name: 'ahamlett.com'
-      url: 'https://ahamlett.com'
-    - name: 'evanfields.net'
-      url: 'https://evanfields.net'
-    - name: 'endlessqueue.com'
-      url: 'https://endlessqueue.com'
-    - name: 'fayziev.com'
-      url: 'https://fayziev.com'
-    - name: 'Show HN: I created an indie Product Hunt alternative'
-      url: 'https://fazier.com/'
-    - name: 'snakeshands.com'
-      url: 'https://snakeshands.com'
-    - name: 'raizensoft.com'
-      url: 'https://raizensoft.com'
-    - name: 'bemben.co.uk'
-      url: 'https://bemben.co.uk'
-    - name: 'luc.devroye.org'
-      url: 'https://luc.devroye.org'
-    - name: 'edoceo.com'
-      url: 'https://edoceo.com'
-    - name: 'ruxu.dev'
-      url: 'https://ruxu.dev'
-    - name: 'evacchi.dev'
-      url: 'https://evacchi.dev'
-    - name: 'iheanyi.com'
-      url: 'https://iheanyi.com'
-    - name: 'eliza-ng.me'
-      url: 'https://eliza-ng.me'
-    - name: 'win-vector.com'
-      url: 'https://win-vector.com'
-    - name: 'kaveh.page'
-      url: 'https://kaveh.page'
-    - name: 'fh.cx'
-      url: 'https://fh.cx'
-    - name: 'daniellittle.dev'
-      url: 'https://daniellittle.dev'
-    - name: 'stonecharioteer.com'
-      url: 'https://stonecharioteer.com'
-    - name: 'paperclipmaximizer.net'
-      url: 'https://paperclipmaximizer.net'
-    - name: 'ivanbercovich.com'
-      url: 'https://ivanbercovich.com'
-    - name: 'susam.net'
-      url: 'https://susam.net'
-    - name: 'jeff.glass'
-      url: 'https://jeff.glass'
-    - name: 'nickmonad.blog'
-      url: 'https://nickmonad.blog'
-    - name: 'manuel.kiessling.net'
-      url: 'https://manuel.kiessling.net'
-    - name: 'zayenz.se'
-      url: 'https://zayenz.se'
-    - name: 'railsnotes.xyz'
-      url: 'https://railsnotes.xyz'
-    - name: 'MachsEinfach.at'
-      url: 'https://MachsEinfach.at'
-    - name: 'leadership.garden'
-      url: 'https://leadership.garden'
-    - name: 'hacdias.com'
-      url: 'https://hacdias.com'
-    - name: 'sudhar.xyz'
-      url: 'https://sudhar.xyz'
-    - name: 'matthodges.com'
-      url: 'https://matthodges.com'
-    - name: 'dav.one'
-      url: 'https://dav.one'
-    - name: 'diogoferreira.pt'
-      url: 'https://diogoferreira.pt'
-    - name: 'blakeburch.com'
-      url: 'https://blakeburch.com'
-    - name: 'jamie.ideasasylum.com'
-      url: 'https://jamie.ideasasylum.com'
-    - name: 'rybicki.io'
-      url: 'https://rybicki.io'
-    - name: 'willhackett.uk'
-      url: 'https://willhackett.uk'
-    - name: 'paulrobertlloyd.com'
-      url: 'https://paulrobertlloyd.com'
-    - name: 'mattkeeter.com'
-      url: 'https://mattkeeter.com'
-    - name: 'nkantar.com'
-      url: 'https://nkantar.com'
-    - name: 'danielchasehooper.com'
-      url: 'https://danielchasehooper.com'
-    - name: 'christiantietze.de'
-      url: 'https://christiantietze.de'
-    - name: 'jeromesalimao.com'
-      url: 'https://jeromesalimao.com'
-    - name: 'emulationonline.com'
-      url: 'https://emulationonline.com'
-    - name: 'thangqt.com'
-      url: 'https://thangqt.com'
-    - name: 'yeis.dev'
-      url: 'https://yeis.dev'
-    - name: 'xavd.id'
-      url: 'https://xavd.id'
-    - name: 'blog.myr.sh'
-      url: 'https://blog.myr.sh'
-    - name: 'rahulgarg.ai'
-      url: 'https://rahulgarg.ai'
-    - name: 'crooked.ink'
-      url: 'https://crooked.ink'
-    - name: 'blog.dijit.sh'
-      url: 'https://blog.dijit.sh'
-    - name: 'yusufaytas.com'
-      url: 'https://yusufaytas.com'
-    - name: 'walljm.com'
-      url: 'https://walljm.com'
-    - name: 'blog.herlein.com'
-      url: 'https://blog.herlein.com'
-    - name: 'romanzipp.com'
-      url: 'https://romanzipp.com'
-    - name: 'patrickcollison.com'
-      url: 'https://patrickcollison.com'
-    - name: 're-cycledair.com'
-      url: 'https://re-cycledair.com'
-    - name: 'swyx.io'
-      url: 'https://swyx.io'
-    - name: 'aaronholbrookmusic.com'
-      url: 'https://aaronholbrookmusic.com'
-    - name: 'misfra.me'
-      url: 'https://misfra.me'
-    - name: 'blog.alexbeals.com'
-      url: 'https://blog.alexbeals.com'
-    - name: 'devslovecoffee.com'
-      url: 'https://devslovecoffee.com'
-    - name: 'hamvocke.com'
-      url: 'https://hamvocke.com'
-    - name: 'ben.bolte.cc'
-      url: 'https://ben.bolte.cc'
-    - name: 'craigkerstiens.com'
-      url: 'https://craigkerstiens.com'
-    - name: 'argpar.se'
-      url: 'https://argpar.se'
-    - name: 'joelx.com'
-      url: 'https://joelx.com'
-    - name: 'zharii.com'
-      url: 'https://zharii.com'
-    - name: 'ooer.com'
-      url: 'https://ooer.com'
-    - name: 'pa.rh.am'
-      url: 'https://pa.rh.am'
-    - name: 'matthewbrunelle.com'
-      url: 'https://matthewbrunelle.com'
-    - name: 'coryzue.com'
-      url: 'https://coryzue.com'
-    - name: 'xeiaso.net'
-      url: 'https://xeiaso.net'
-    - name: 'loufranco.com'
-      url: 'https://loufranco.com'
-    - name: 'dillonshook.com'
-      url: 'https://dillonshook.com'
-    - name: 'nesbitt.io'
-      url: 'https://nesbitt.io'
-    - name: 'jacobedawson.com'
-      url: 'https://jacobedawson.com'
-    - name: 'tylerneylon.com'
-      url: 'https://tylerneylon.com'
-    - name: 'blog.lohr.dev'
-      url: 'https://blog.lohr.dev'
-    - name: 'yousef.sh'
-      url: 'https://yousef.sh'
-    - name: 'kavi.sh'
-      url: 'https://kavi.sh'
-    - name: 'justinblank.com'
-      url: 'https://justinblank.com'
-    - name: 'danielmiessler.com'
-      url: 'https://danielmiessler.com'
-    - name: 'damianwalsh.co.uk'
-      url: 'https://damianwalsh.co.uk'
-    - name: 'den.dev'
-      url: 'https://den.dev'
-    - name: 'lukebechtel.com'
-      url: 'https://lukebechtel.com'
-    - name: 'benguild.com'
-      url: 'https://benguild.com'
-    - name: 'kanishk.io'
-      url: 'https://kanishk.io'
-    - name: 'srirangan.net'
-      url: 'https://srirangan.net'
-    - name: 'hashrust.com'
-      url: 'https://hashrust.com'
-    - name: 'qwertyforce.dev'
-      url: 'https://qwertyforce.dev'
-    - name: 'tomeraberba.ch'
-      url: 'https://tomeraberba.ch'
-    - name: 'johnzanussi.com/'
-      url: 'https://johnzanussi.com/'
-    - name: 'cauenapier.com'
-      url: 'https://cauenapier.com'
-    - name: 'onlineornot.com'
-      url: 'https://onlineornot.com'
-    - name: 'Hacker News was down'
-      url: 'https://hackernews.onlineornot.com'
-    - name: 'qmacro.org'
-      url: 'https://qmacro.org'
-    - name: 'rockyj-blogs.web.app'
-      url: 'https://rockyj-blogs.web.app'
-    - name: 'dmitri.shuralyov.com'
-      url: 'https://dmitri.shuralyov.com'
-    - name: 'simonshine.dk'
-      url: 'https://simonshine.dk'
-    - name: 'blog.momentum-mod.org'
-      url: 'https://blog.momentum-mod.org'
-    - name: 'bt.ht'
-      url: 'https://bt.ht'
-    - name: 'tynan.com'
-      url: 'https://tynan.com'
-    - name: 'pcloadletter.dev'
-      url: 'https://pcloadletter.dev'
-    - name: 'nattaylor.com'
-      url: 'https://nattaylor.com'
-    - name: 'ruky.me'
-      url: 'https://ruky.me'
-    - name: 'yberreby.com'
-      url: 'https://yberreby.com'
-    - name: 'mergy.org'
-      url: 'https://mergy.org'
-    - name: 'zansara.dev'
-      url: 'https://zansara.dev'
-    - name: 'luke.hsiao.dev'
-      url: 'https://luke.hsiao.dev'
-    - name: 'fev.al'
-      url: 'https://fev.al'
-    - name: 'franklin.dyer.me'
-      url: 'https://franklin.dyer.me'
-    - name: 'vitovan.com'
-      url: 'https://vitovan.com'
-    - name: 'Show HN: Wonder Color – Text to Color, Everything is Supported'
-      url: 'http://wc.vitovan.com/'
-    - name: 'ingo-richter.io'
-      url: 'https://ingo-richter.io'
-    - name: 'dganev.com'
-      url: 'https://dganev.com'
-    - name: 'jezenthomas.com'
-      url: 'https://jezenthomas.com'
-    - name: 'blog.randombits.host'
-      url: 'https://blog.randombits.host'
-    - name: 'defn.io'
-      url: 'https://defn.io'
-    - name: 'softwareatscale.dev'
-      url: 'https://softwareatscale.dev'
-    - name: 'ericwbailey.website'
-      url: 'https://ericwbailey.website'
-    - name: 'aaronoellis.com'
-      url: 'https://aaronoellis.com'
-    - name: 'isomorphism.xyz'
-      url: 'https://isomorphism.xyz'
-    - name: 'map.simonsarris.com'
-      url: 'https://map.simonsarris.com'
-    - name: 'brightball.com'
-      url: 'https://brightball.com'
-    - name: 'rebeccaskinner.net'
-      url: 'https://rebeccaskinner.net'
-    - name: 'hojberg.xyz'
-      url: 'https://hojberg.xyz'
-    - name: 'jameshard.ing'
-      url: 'https://jameshard.ing'
-    - name: 'adriano.fyi'
-      url: 'https://adriano.fyi'
-    - name: 'rgoswami.me'
-      url: 'https://rgoswami.me'
-    - name: 'bitgloo.com'
-      url: 'https://bitgloo.com'
-    - name: 'Bitfloor shuts down'
-      url: 'https://bitfloor.com/'
-    - name: 'Ask HN: Review our startup (bitloot)'
-      url: 'http://www.bitloot.com'
-    - name: 'blog.lawrencejones.dev'
-      url: 'https://blog.lawrencejones.dev'
-    - name: 'launchbowl.com'
-      url: 'https://launchbowl.com'
-    - name: 'zacs.site'
-      url: 'https://zacs.site'
-    - name: 'dbohdan.com'
-      url: 'https://dbohdan.com'
-    - name: 'sparker.co'
-      url: 'https://sparker.co'
-    - name: 'Micro-volunteering'
-      url: 'https://www.sparked.com/'
-    - name: 'rybakov.com'
-      url: 'https://rybakov.com'
-    - name: 'pankajtanwar.in'
-      url: 'https://pankajtanwar.in'
-    - name: 'Show HN: I built a fake VS Code to browse live cricket score in office'
-      url: 'https://cric-code.pankajtanwar.in/'
-    - name: 'Show HN: I built a tool convert any image to ASCII Art'
-      url: 'https://asciiart.pankajtanwar.in/'
-    - name: 'georgeho.org'
-      url: 'https://georgeho.org'
-    - name: 'ache.one'
-      url: 'https://ache.one'
-    - name: 'quartz.jzhao.xyz'
-      url: 'https://quartz.jzhao.xyz'
-    - name: 'blog.nobugware.com'
-      url: 'https://blog.nobugware.com'
-    - name: 'matduggan.com'
-      url: 'https://matduggan.com'
-    - name: 'embracethered.com'
-      url: 'https://embracethered.com'
-    - name: 'evalapply.org'
-      url: 'https://evalapply.org'
-    - name: 'adocomplete.com'
-      url: 'https://adocomplete.com'
-    - name: 'justapa.thologi.st'
-      url: 'https://justapa.thologi.st'
-    - name: 'muxup.com'
-      url: 'https://muxup.com'
-    - name: 'blog.klungo.no'
-      url: 'https://blog.klungo.no'
-    - name: 'philipithomas.com'
-      url: 'https://philipithomas.com'
-    - name: 'kaikunze.de'
-      url: 'https://kaikunze.de'
-    - name: 'rickcarlino.com'
-      url: 'https://rickcarlino.com'
-    - name: 'mcginniscommawill.com'
-      url: 'https://mcginniscommawill.com'
-    - name: 'realmorrisliu.com'
-      url: 'https://realmorrisliu.com'
-    - name: 'quantike.xyz'
-      url: 'https://quantike.xyz'
-    - name: 'meiert.com'
-      url: 'https://meiert.com'
-    - name: 'paul.kinlan.me'
-      url: 'https://paul.kinlan.me'
-    - name: 'lukerodgers.ca'
-      url: 'https://lukerodgers.ca'
-    - name: 'blog.tymscar.com'
-      url: 'https://blog.tymscar.com'
-    - name: 'bryanhogan.com'
-      url: 'https://bryanhogan.com'
-    - name: 'tidings.potato.horse'
-      url: 'https://tidings.potato.horse'
-    - name: 'valbaca.com'
-      url: 'https://valbaca.com'
-    - name: 'nathanfriend.com'
-      url: 'https://nathanfriend.com'
-    - name: 'selfboot.cn'
-      url: 'https://selfboot.cn'
-    - name: 'sheep.horse'
-      url: 'https://sheep.horse'
-    - name: 'tty4.dev'
-      url: 'https://tty4.dev'
-    - name: 'sweeting.me'
-      url: 'https://sweeting.me'
-    - name: 'matthewhall.com'
-      url: 'https://matthewhall.com'
-    - name: 'saah.as'
-      url: 'https://saah.as'
-    - name: 'francisco.io'
-      url: 'https://francisco.io'
-    - name: 'fwilliams.info'
-      url: 'https://fwilliams.info'
-    - name: 'antoinevastel.com'
-      url: 'https://antoinevastel.com'
-    - name: 'evjang.com'
-      url: 'https://evjang.com'
-    - name: 'blog.domainmess.org'
-      url: 'https://blog.domainmess.org'
-    - name: 'rnikhil.com'
-      url: 'https://rnikhil.com'
-    - name: 'pikuma.com'
-      url: 'https://pikuma.com'
-    - name: 'diogocasado.com'
-      url: 'https://diogocasado.com'
-    - name: 'ryanbigg.com'
-      url: 'https://ryanbigg.com'
-    - name: 'vivekshuk.la'
-      url: 'https://vivekshuk.la'
-    - name: 'duncanlock.net'
-      url: 'https://duncanlock.net'
-    - name: 'nestenius.se'
-      url: 'https://nestenius.se'
-    - name: 'dddiaz.com'
-      url: 'https://dddiaz.com'
-    - name: 'austinhenley.com'
-      url: 'https://austinhenley.com'
-    - name: 'johnmathews.is'
-      url: 'https://johnmathews.is'
-    - name: 'bookofjoe2.blogspot.com'
-      url: 'https://bookofjoe2.blogspot.com'
-    - name: 'edita.co'
-      url: 'https://edita.co'
-    - name: 'Bold Edit: An editor written by power users'
-      url: 'https://bold-edit.com'
-    - name: 'mkprc.xyz'
-      url: 'https://mkprc.xyz'
-    - name: 'nchagnet.pages.dev'
-      url: 'https://nchagnet.pages.dev'
-    - name: 'simonwjackson.io'
-      url: 'https://simonwjackson.io'
-    - name: 'blog.metaobject.com'
-      url: 'https://blog.metaobject.com'
-    - name: 'asukawang.com'
-      url: 'https://asukawang.com'
-    - name: 'ciuculescu.com'
-      url: 'https://ciuculescu.com'
-    - name: 'dizzy.zone'
-      url: 'https://dizzy.zone'
-    - name: 'tbhb.dev'
-      url: 'https://tbhb.dev'
-    - name: 'nelson.cloud'
-      url: 'https://nelson.cloud'
-    - name: 'andrestc.com'
-      url: 'https://andrestc.com'
-    - name: 'faingezicht.com'
-      url: 'https://faingezicht.com'
-    - name: '0x1.pt'
-      url: 'https://0x1.pt'
-    - name: 'himwant.org'
-      url: 'https://himwant.org'
-    - name: 'drew.silcock.dev'
-      url: 'https://drew.silcock.dev'
-    - name: 'danielfm.me'
-      url: 'https://danielfm.me'
-    - name: 'ajxs.me'
-      url: 'https://ajxs.me'
-    - name: 'hvalls.dev'
-      url: 'https://hvalls.dev'
-    - name: 'pawelurbanek.com'
-      url: 'https://pawelurbanek.com'
-    - name: 'joshbradley.me'
-      url: 'https://joshbradley.me'
-    - name: 'kianbradley.com'
-      url: 'https://kianbradley.com'
-    - name: 'samwho.dev'
-      url: 'https://samwho.dev'
-    - name: 'daniellowengrub.com'
-      url: 'https://daniellowengrub.com'
-    - name: 'yasha.solutions'
-      url: 'https://yasha.solutions'
-    - name: 'eieio.games'
-      url: 'https://eieio.games'
-    - name: 'timseverien.com'
-      url: 'https://timseverien.com'
-    - name: 'Telemetry in Front-End Tools'
-      url: 'https://telemetry.timseverien.com/'
-    - name: 'philipphagenlocher.de'
-      url: 'https://philipphagenlocher.de'
-    - name: 'ssg.dev'
-      url: 'https://ssg.dev'
-    - name: 'docodethatmatters.com'
-      url: 'https://docodethatmatters.com'
-    - name: 'arman.keyoumarsi.com'
-      url: 'https://arman.keyoumarsi.com'
-    - name: 'nate.io'
-      url: 'https://nate.io'
-    - name: 'aaronbos.dev'
-      url: 'https://aaronbos.dev'
-    - name: 'passo.uno'
-      url: 'https://passo.uno'
-    - name: 'devpoga.org'
-      url: 'https://devpoga.org'
-    - name: 'jonready.com'
-      url: 'https://jonready.com'
-    - name: 'ketch.co'
-      url: 'https://ketch.co'
-    - name: 'origami.kosmulski.org'
-      url: 'https://origami.kosmulski.org'
-    - name: 'caiustheory.com'
-      url: 'https://caiustheory.com'
-    - name: 'josem.co'
-      url: 'https://josem.co'
-    - name: 'jvns.ca'
-      url: 'https://jvns.ca'
-    - name: 'thomaspark.co'
-      url: 'https://thomaspark.co'
-    - name: 'vale.rocks'
-      url: 'https://vale.rocks'
-    - name: 'rolisz.ro'
-      url: 'https://rolisz.ro'
-    - name: 'jsn.cam'
-      url: 'https://jsn.cam'
-    - name: 'digitalseams.com'
-      url: 'https://digitalseams.com'
-    - name: 'kai-wolf.me'
-      url: 'https://kai-wolf.me'
-    - name: 'half-fast-devops.com'
-      url: 'https://half-fast-devops.com'
-    - name: 'mooreds.com'
-      url: 'https://mooreds.com'
-    - name: 'staticnotes.org'
-      url: 'https://staticnotes.org'
-    - name: 'saadnaveed.com'
-      url: 'https://saadnaveed.com'
-    - name: 'paolomainardi.com'
-      url: 'https://paolomainardi.com'
-    - name: 'dannyguo.com'
-      url: 'https://dannyguo.com'
-    - name: 'tookitaway.co.uk'
-      url: 'https://tookitaway.co.uk'
-    - name: 'linus.dev'
-      url: 'https://linus.dev'
-    - name: 'krishnamohan.dev'
-      url: 'https://krishnamohan.dev'
-    - name: 'bytesizetheories.com'
-      url: 'https://bytesizetheories.com'
-    - name: 'preslav.me'
-      url: 'https://preslav.me'
-    - name: 'takeonrules.com'
-      url: 'https://takeonrules.com'
-    - name: 'layfellow.net'
-      url: 'https://layfellow.net'
-    - name: 'tsx.su'
-      url: 'https://tsx.su'
-    - name: 'nhatcher.com'
-      url: 'https://nhatcher.com'
-    - name: 'silcock.dev'
-      url: 'https://silcock.dev'
-    - name: 'matthiasott.com'
-      url: 'https://matthiasott.com'
-    - name: 'cgad.ski'
-      url: 'https://cgad.ski'
-    - name: 'kulman.sk'
-      url: 'https://kulman.sk'
-    - name: 'brainbaking.com'
-      url: 'https://brainbaking.com'
-    - name: 'wonger.dev'
-      url: 'https://wonger.dev'
-    - name: 'michaelbensoussan.com'
-      url: 'https://michaelbensoussan.com'
-    - name: 'thenewleafjournal.com'
-      url: 'https://thenewleafjournal.com'
-    - name: 'djharper.dev'
-      url: 'https://djharper.dev'
-    - name: 'lucasfcosta.com'
-      url: 'https://lucasfcosta.com'
-    - name: 'bryanhogan.me'
-      url: 'https://bryanhogan.me'
-    - name: 'simonhartcher.com'
-      url: 'https://simonhartcher.com'
-    - name: 'cendyne.dev'
-      url: 'https://cendyne.dev'
-    - name: 'jasonthorsness.com'
-      url: 'https://jasonthorsness.com'
-    - name: 'blog.tldrversion.com'
-      url: 'https://blog.tldrversion.com'
-    - name: 'jamesoclaire.com'
-      url: 'https://jamesoclaire.com'
-    - name: 'deadf00d.com'
-      url: 'https://deadf00d.com'
-    - name: 'cicd.life'
-      url: 'https://cicd.life'
-    - name: 'aaronstrick.com'
-      url: 'https://aaronstrick.com'
-    - name: 'joehxblog.com'
-      url: 'https://joehxblog.com'
-    - name: 'thomasvilhena.com'
-      url: 'https://thomasvilhena.com'
-    - name: 'honza.pokorny.ca'
-      url: 'https://honza.pokorny.ca'
-    - name: 'herbertlui.net'
-      url: 'https://herbertlui.net'
-    - name: 'drumpatterns.onether.com'
-      url: 'https://drumpatterns.onether.com'
-    - name: 'greaterdanorequalto.com'
-      url: 'https://greaterdanorequalto.com'
-    - name: 'xlii.space'
-      url: 'https://xlii.space'
-    - name: 'pongo-points.beehiiv.com/'
-      url: 'https://pongo-points.beehiiv.com/'
-    - name: 'ifelse.io'
-      url: 'https://ifelse.io'
-    - name: 'jgc.org'
-      url: 'https://jgc.org'
-    - name: 'ayende.com'
-      url: 'https://ayende.com'
-    - name: 'blog.mrcsharp.dev'
-      url: 'https://blog.mrcsharp.dev'
-    - name: 'xorvoid.com'
-      url: 'https://xorvoid.com'
-    - name: 'zarar.dev'
-      url: 'https://zarar.dev'
-    - name: 'oo.svbtle.com'
-      url: 'https://oo.svbtle.com'
-    - name: 'matthewhowell.net'
-      url: 'https://matthewhowell.net'
-    - name: 'chriswales.uk'
-      url: 'https://chriswales.uk'
-    - name: 'hankruiger.com'
-      url: 'https://hankruiger.com'
-    - name: 'wcedmisten.fyi'
-      url: 'https://wcedmisten.fyi'
-    - name: 'dustinbrett.com'
-      url: 'https://dustinbrett.com'
-    - name: 'wilsoniumite.com'
-      url: 'https://wilsoniumite.com'
-    - name: 'steviep.xyz'
-      url: 'https://steviep.xyz'
-    - name: 'Show HN: SmartHome – An Adventure Game'
-      url: 'https://smarthome.steviep.xyz'
-    - name: 'Show HN: Burnt US Dollars'
-      url: 'https://busd.steviep.xyz'
-    - name: 'webmonch.dev'
-      url: 'https://webmonch.dev'
-    - name: 'bobbiechen.com'
-      url: 'https://bobbiechen.com'
-    - name: 'gregnavis.com'
-      url: 'https://gregnavis.com'
-    - name: 'boerman.dev'
-      url: 'https://boerman.dev'
-    - name: 'brisray.com'
-      url: 'https://brisray.com'
-    - name: 'anonyfox.com'
-      url: 'https://anonyfox.com'
-    - name: 'tugdual.fr'
-      url: 'https://tugdual.fr'
-    - name: 'stratha.us'
-      url: 'https://stratha.us'
-    - name: 'jonator.dev'
-      url: 'https://jonator.dev'
-    - name: 'manidoraisamy.com'
-      url: 'https://manidoraisamy.com'
-    - name: 'blog.tjll.net'
-      url: 'https://blog.tjll.net'
-    - name: 'fasterthanli.me'
-      url: 'https://fasterthanli.me'
-    - name: 'denv.it'
-      url: 'https://denv.it'
-    - name: 'Show HN: Coronavirus Spread Simulator (Monte Carlo)'
-      url: 'http://covid19.dev.itskasra.com/'
-    - name: 'blog.varunramesh.net'
-      url: 'https://blog.varunramesh.net'
-    - name: 'anders.co'
-      url: 'https://anders.co'
-    - name: 'ilearnt.com'
-      url: 'https://ilearnt.com'
+      url: "http://go.davepeck.org/"
+    - name: "tholman.com"
+      url: "https://tholman.com"
+    - name: "broderic.blog"
+      url: "https://broderic.blog"
+    - name: "denialof.services"
+      url: "https://denialof.services"
+    - name: "ameye.dev"
+      url: "https://ameye.dev"
+    - name: "nxn.se"
+      url: "https://nxn.se"
+    - name: "thetechee.com"
+      url: "https://thetechee.com"
+    - name: "untested.sonnet.io"
+      url: "https://untested.sonnet.io"
+    - name: "intellectronica.net"
+      url: "https://intellectronica.net"
+    - name: "outofthecomfortzone.frantzmiccoli.com"
+      url: "https://outofthecomfortzone.frantzmiccoli.com"
+    - name: "seldo.com"
+      url: "https://seldo.com"
+    - name: "vincents.dev"
+      url: "https://vincents.dev"
+    - name: "shuralyov.com"
+      url: "https://shuralyov.com"
+    - name: "brandonowens.me"
+      url: "https://brandonowens.me"
+    - name: "mashio.net"
+      url: "https://mashio.net"
+    - name: "atha.io"
+      url: "https://atha.io"
+    - name: "brunobernardino.com"
+      url: "https://brunobernardino.com"
+    - name: "tevonsb.com"
+      url: "https://tevonsb.com"
+    - name: "serhack.me"
+      url: "https://serhack.me"
+    - name: "alesruzicka.eu"
+      url: "https://alesruzicka.eu"
+    - name: "nawaz.org"
+      url: "https://nawaz.org"
+    - name: "gilmi.me"
+      url: "https://gilmi.me"
+    - name: "yieldthought.com"
+      url: "https://yieldthought.com"
+    - name: "blog.usmanity.com"
+      url: "https://blog.usmanity.com"
+    - name: "nuxx.net"
+      url: "https://nuxx.net"
+    - name: "fhur.me"
+      url: "https://fhur.me"
+    - name: "dodgycoder.net"
+      url: "https://dodgycoder.net"
+    - name: "wheybags.com"
+      url: "https://wheybags.com"
+    - name: "shdon.com"
+      url: "https://shdon.com"
+    - name: "outlandnish.com"
+      url: "https://outlandnish.com"
+    - name: "taoofmac.com"
+      url: "https://taoofmac.com"
+    - name: "mrkaran.dev"
+      url: "https://mrkaran.dev"
+    - name: "adambourg.com"
+      url: "https://adambourg.com"
+    - name: "andrelgomes.com"
+      url: "https://andrelgomes.com"
+    - name: "stefan-gloor.ch"
+      url: "https://stefan-gloor.ch"
+    - name: "liza.io"
+      url: "https://liza.io"
+    - name: "Show HN: Riza - Safely run untrusted code from your app"
+      url: "https://riza.io/"
+    - name: "da.vidbuchanan.co.uk"
+      url: "https://da.vidbuchanan.co.uk"
+    - name: "jcarlosroldan.com"
+      url: "https://jcarlosroldan.com"
+    - name: "jmtd.net"
+      url: "https://jmtd.net"
+    - name: "andersource.dev"
+      url: "https://andersource.dev"
+    - name: "zachleat.com"
+      url: "https://zachleat.com"
+    - name: "utf9k.net"
+      url: "https://utf9k.net"
+    - name: "brianmoore.com"
+      url: "https://brianmoore.com"
+    - name: "AI World Clocks"
+      url: "https://clocks.brianmoore.com/"
+    - name: "flamedfury.com"
+      url: "https://flamedfury.com"
+    - name: "abhis.blog"
+      url: "https://abhis.blog"
+    - name: "nicchan.me"
+      url: "https://nicchan.me"
+    - name: "OS-themed site: no JavaScript, accessible and mobile-first"
+      url: "https://www.nicchan.me/"
+    - name: "pcalv.es"
+      url: "https://pcalv.es"
+    - name: "raskell.io"
+      url: "https://raskell.io"
+    - name: "paulefou.com"
+      url: "https://paulefou.com"
+    - name: "iamvishnu.com"
+      url: "https://iamvishnu.com"
+    - name: "eliseomartelli.it"
+      url: "https://eliseomartelli.it"
+    - name: "notes.eatonphil.com"
+      url: "https://notes.eatonphil.com"
+    - name: "bash-prompt.net"
+      url: "https://bash-prompt.net"
+    - name: "shashanktomar.com"
+      url: "https://shashanktomar.com"
+    - name: "sanyamkapoor.com"
+      url: "https://sanyamkapoor.com"
+    - name: "vercel.app"
+      url: "https://vercel.app"
+    - name: "DOOM CAPTCHA"
+      url: "https://doom-captcha.vercel.app/"
+    - name: "How far can you go by train in 5h?"
+      url: "https://chronotrains-eu.vercel.app/"
+    - name: "Show HN: Autism Simulator"
+      url: "https://autism-simulator.vercel.app/"
+    - name: "My Room in 3D"
+      url: "https://my-room-in-3d.vercel.app/"
+    - name: "Antidepressants or Tolkien"
+      url: "https://antidepressantsortolkien.vercel.app/"
+    - name: "Show HN: I made a tool to clean and convert any webpage to Markdown"
+      url: "https://markdowndown.vercel.app/"
+    - name: "Show HN: I “wrote” a kid's book with ChatGPT and Midjourney"
+      url: "https://adventure-of-penelope.vercel.app/"
+    - name: "Figma to React"
+      url: "https://figma-to-react.vercel.app/"
+    - name: "Tabloid: The Clickbait Headline Programming Language"
+      url: "https://tabloid.vercel.app/"
+    - name: "macOS in Svelte"
+      url: "https://macos.vercel.app/"
+    - name: "mangasaryan.net"
+      url: "https://mangasaryan.net"
+    - name: "davemullenjnr.co.uk"
+      url: "https://davemullenjnr.co.uk"
+    - name: "bayardrandel.com"
+      url: "https://bayardrandel.com"
+    - name: "lambdaland.org"
+      url: "https://lambdaland.org"
+    - name: "monokai.com"
+      url: "https://monokai.com"
+    - name: "reubence.com"
+      url: "https://reubence.com"
+    - name: "maxdaten.io"
+      url: "https://maxdaten.io"
+    - name: "velvetshark.com"
+      url: "https://velvetshark.com"
+    - name: "hallada.net"
+      url: "https://hallada.net"
+    - name: "splitbrain.org"
+      url: "https://splitbrain.org"
+    - name: "forwardscattering.org"
+      url: "https://forwardscattering.org"
+    - name: "aguno.xyz"
+      url: "https://aguno.xyz"
+    - name: "trevo.rs"
+      url: "https://trevo.rs"
+    - name: "ethicalads.io"
+      url: "https://ethicalads.io"
+    - name: "Show HN: EthicalAds – Privacy-first ad network for developers"
+      url: "https://www.ethicalads.io"
+    - name: "exotext.com"
+      url: "https://exotext.com"
+    - name: "nickjanetakis.com"
+      url: "https://nickjanetakis.com"
+    - name: "daveon.design"
+      url: "https://daveon.design"
+    - name: "hodovi.cc"
+      url: "https://hodovi.cc"
+    - name: "toninotes.cc"
+      url: "https://toninotes.cc"
+    - name: "etodd.io"
+      url: "https://etodd.io"
+    - name: "dannysalzman.com"
+      url: "https://dannysalzman.com"
+    - name: "blog.matthewbrunelle.com"
+      url: "https://blog.matthewbrunelle.com"
+    - name: "bergie.iki.fi"
+      url: "https://bergie.iki.fi"
+    - name: "theonlyblogever.com"
+      url: "https://theonlyblogever.com"
+    - name: "thecapegreek.com"
+      url: "https://thecapegreek.com"
+    - name: "lelanthran.com"
+      url: "https://lelanthran.com"
+    - name: "outcoldman.com"
+      url: "https://outcoldman.com"
+    - name: "skyfall.dev"
+      url: "https://skyfall.dev"
+    - name: "blog.janissary.xyz"
+      url: "https://blog.janissary.xyz"
+    - name: "alexsci.com"
+      url: "https://alexsci.com"
+    - name: "mattfriz.com"
+      url: "https://mattfriz.com"
+    - name: "Tech Interview Torture Chamber"
+      url: "http://www.mattfriz.com/#/outbursts/tech-interview-torture-chamber"
+    - name: "blog.shashanktomar.com"
+      url: "https://blog.shashanktomar.com"
+    - name: "gowtham.dev"
+      url: "https://gowtham.dev"
+    - name: "thelinell.com"
+      url: "https://thelinell.com"
+    - name: "carlos-menezes.com"
+      url: "https://carlos-menezes.com"
+    - name: "danielwirtz.com"
+      url: "https://danielwirtz.com"
+    - name: "kg.dev"
+      url: "https://kg.dev"
+    - name: "awanderingmind.blog"
+      url: "https://awanderingmind.blog"
+    - name: "refactoringenglish.com"
+      url: "https://refactoringenglish.com"
+    - name: "anderegg.ca"
+      url: "https://anderegg.ca"
+    - name: "kinlan.me"
+      url: "https://kinlan.me"
+    - name: "blacklight.sh"
+      url: "https://blacklight.sh"
+    - name: "tiernanotoole.ie"
+      url: "https://tiernanotoole.ie"
+    - name: "rz01.org"
+      url: "https://rz01.org"
+    - name: "sklivvz.com"
+      url: "https://sklivvz.com"
+    - name: "databasesandlife.com"
+      url: "https://databasesandlife.com"
+    - name: "simonam.dev"
+      url: "https://simonam.dev"
+    - name: "jaredwhite.com"
+      url: "https://jaredwhite.com"
+    - name: "umangis.me"
+      url: "https://umangis.me"
+    - name: "ahmadrosid.com"
+      url: "https://ahmadrosid.com"
+    - name: "Show HN: I built a better way to bookmark, read news, blog or any internet texts"
+      url: "https://readclip.ahmadrosid.com/"
+    - name: "xnacly.me"
+      url: "https://xnacly.me"
+    - name: "benjamincongdon.me"
+      url: "https://benjamincongdon.me"
+    - name: "mw.rat.bz"
+      url: "https://mw.rat.bz"
+    - name: "davnicwil.com"
+      url: "https://davnicwil.com"
+    - name: "huijzer.xyz"
+      url: "https://huijzer.xyz"
+    - name: "nickp.svbtle.com"
+      url: "https://nickp.svbtle.com"
+    - name: "blog.startuptaxaccounting.com"
+      url: "https://blog.startuptaxaccounting.com"
+    - name: "bou.ke"
+      url: "https://bou.ke"
+    - name: "jakobs.dev"
+      url: "https://jakobs.dev"
+    - name: "productme.org"
+      url: "https://productme.org"
+    - name: "ture.dev"
+      url: "https://ture.dev"
+    - name: "zarl.dev"
+      url: "https://zarl.dev"
+    - name: "mssv.net"
+      url: "https://mssv.net"
+    - name: "joshuakeel.com"
+      url: "https://joshuakeel.com"
+    - name: "blot.im"
+      url: "https://blot.im"
+    - name: "clintmcmahon.com"
+      url: "https://clintmcmahon.com"
+    - name: "monster0506.dev"
+      url: "https://monster0506.dev"
+    - name: "maxleiter.com"
+      url: "https://maxleiter.com"
+    - name: "elliottslaughter.com"
+      url: "https://elliottslaughter.com"
+    - name: "middleendian.com"
+      url: "https://middleendian.com"
+    - name: "chenhuijing.com"
+      url: "https://chenhuijing.com"
+    - name: "scastiel.dev"
+      url: "https://scastiel.dev"
+    - name: "cameronwestland.com"
+      url: "https://cameronwestland.com"
+    - name: "paperless.blog"
+      url: "https://paperless.blog"
+    - name: "holzer.online"
+      url: "https://holzer.online"
+    - name: "ewpratten.com"
+      url: "https://ewpratten.com"
+    - name: "andrew.gr"
+      url: "https://andrew.gr"
+    - name: "nicksypteras.com"
+      url: "https://nicksypteras.com"
+    - name: "rasulkireev.com"
+      url: "https://rasulkireev.com"
+    - name: "blog.janetacarr.com"
+      url: "https://blog.janetacarr.com"
+    - name: "naveen.ing"
+      url: "https://naveen.ing"
+    - name: "simonwillison.net/"
+      url: "https://simonwillison.net/"
+    - name: "keiran.me"
+      url: "https://keiran.me"
+    - name: "jerrynsh.com"
+      url: "https://jerrynsh.com"
+    - name: "Show HN: Spaceflight News made using Htmx"
+      url: "https://spaceflight-news.jerrynsh.com/"
+    - name: "Rjgonza.com"
+      url: "https://Rjgonza.com"
+    - name: "j3s.sh"
+      url: "https://j3s.sh"
+    - name: "potato.horse"
+      url: "https://potato.horse"
+    - name: "Show HN: The Uncolouring Book"
+      url: "https://lines.potato.horse"
+    - name: "lagomor.ph"
+      url: "https://lagomor.ph"
+    - name: "dissociatedpress.net"
+      url: "https://dissociatedpress.net"
+    - name: "snarfed.org"
+      url: "https://snarfed.org"
+    - name: "til.simonwillison.net/"
+      url: "https://til.simonwillison.net/"
+    - name: "zdimension.fr"
+      url: "https://zdimension.fr"
+    - name: "dcaulfield.com"
+      url: "https://dcaulfield.com"
+    - name: "ahamlett.com"
+      url: "https://ahamlett.com"
+    - name: "evanfields.net"
+      url: "https://evanfields.net"
+    - name: "endlessqueue.com"
+      url: "https://endlessqueue.com"
+    - name: "fayziev.com"
+      url: "https://fayziev.com"
+    - name: "Show HN: I created an indie Product Hunt alternative"
+      url: "https://fazier.com/"
+    - name: "snakeshands.com"
+      url: "https://snakeshands.com"
+    - name: "raizensoft.com"
+      url: "https://raizensoft.com"
+    - name: "bemben.co.uk"
+      url: "https://bemben.co.uk"
+    - name: "luc.devroye.org"
+      url: "https://luc.devroye.org"
+    - name: "edoceo.com"
+      url: "https://edoceo.com"
+    - name: "ruxu.dev"
+      url: "https://ruxu.dev"
+    - name: "evacchi.dev"
+      url: "https://evacchi.dev"
+    - name: "iheanyi.com"
+      url: "https://iheanyi.com"
+    - name: "eliza-ng.me"
+      url: "https://eliza-ng.me"
+    - name: "win-vector.com"
+      url: "https://win-vector.com"
+    - name: "kaveh.page"
+      url: "https://kaveh.page"
+    - name: "fh.cx"
+      url: "https://fh.cx"
+    - name: "daniellittle.dev"
+      url: "https://daniellittle.dev"
+    - name: "stonecharioteer.com"
+      url: "https://stonecharioteer.com"
+    - name: "paperclipmaximizer.net"
+      url: "https://paperclipmaximizer.net"
+    - name: "ivanbercovich.com"
+      url: "https://ivanbercovich.com"
+    - name: "susam.net"
+      url: "https://susam.net"
+    - name: "jeff.glass"
+      url: "https://jeff.glass"
+    - name: "nickmonad.blog"
+      url: "https://nickmonad.blog"
+    - name: "manuel.kiessling.net"
+      url: "https://manuel.kiessling.net"
+    - name: "zayenz.se"
+      url: "https://zayenz.se"
+    - name: "railsnotes.xyz"
+      url: "https://railsnotes.xyz"
+    - name: "MachsEinfach.at"
+      url: "https://MachsEinfach.at"
+    - name: "leadership.garden"
+      url: "https://leadership.garden"
+    - name: "hacdias.com"
+      url: "https://hacdias.com"
+    - name: "sudhar.xyz"
+      url: "https://sudhar.xyz"
+    - name: "matthodges.com"
+      url: "https://matthodges.com"
+    - name: "dav.one"
+      url: "https://dav.one"
+    - name: "diogoferreira.pt"
+      url: "https://diogoferreira.pt"
+    - name: "blakeburch.com"
+      url: "https://blakeburch.com"
+    - name: "jamie.ideasasylum.com"
+      url: "https://jamie.ideasasylum.com"
+    - name: "rybicki.io"
+      url: "https://rybicki.io"
+    - name: "willhackett.uk"
+      url: "https://willhackett.uk"
+    - name: "paulrobertlloyd.com"
+      url: "https://paulrobertlloyd.com"
+    - name: "mattkeeter.com"
+      url: "https://mattkeeter.com"
+    - name: "nkantar.com"
+      url: "https://nkantar.com"
+    - name: "danielchasehooper.com"
+      url: "https://danielchasehooper.com"
+    - name: "christiantietze.de"
+      url: "https://christiantietze.de"
+    - name: "jeromesalimao.com"
+      url: "https://jeromesalimao.com"
+    - name: "emulationonline.com"
+      url: "https://emulationonline.com"
+    - name: "thangqt.com"
+      url: "https://thangqt.com"
+    - name: "yeis.dev"
+      url: "https://yeis.dev"
+    - name: "xavd.id"
+      url: "https://xavd.id"
+    - name: "blog.myr.sh"
+      url: "https://blog.myr.sh"
+    - name: "rahulgarg.ai"
+      url: "https://rahulgarg.ai"
+    - name: "crooked.ink"
+      url: "https://crooked.ink"
+    - name: "blog.dijit.sh"
+      url: "https://blog.dijit.sh"
+    - name: "yusufaytas.com"
+      url: "https://yusufaytas.com"
+    - name: "walljm.com"
+      url: "https://walljm.com"
+    - name: "blog.herlein.com"
+      url: "https://blog.herlein.com"
+    - name: "romanzipp.com"
+      url: "https://romanzipp.com"
+    - name: "patrickcollison.com"
+      url: "https://patrickcollison.com"
+    - name: "re-cycledair.com"
+      url: "https://re-cycledair.com"
+    - name: "swyx.io"
+      url: "https://swyx.io"
+    - name: "aaronholbrookmusic.com"
+      url: "https://aaronholbrookmusic.com"
+    - name: "misfra.me"
+      url: "https://misfra.me"
+    - name: "blog.alexbeals.com"
+      url: "https://blog.alexbeals.com"
+    - name: "devslovecoffee.com"
+      url: "https://devslovecoffee.com"
+    - name: "hamvocke.com"
+      url: "https://hamvocke.com"
+    - name: "ben.bolte.cc"
+      url: "https://ben.bolte.cc"
+    - name: "craigkerstiens.com"
+      url: "https://craigkerstiens.com"
+    - name: "argpar.se"
+      url: "https://argpar.se"
+    - name: "joelx.com"
+      url: "https://joelx.com"
+    - name: "zharii.com"
+      url: "https://zharii.com"
+    - name: "ooer.com"
+      url: "https://ooer.com"
+    - name: "pa.rh.am"
+      url: "https://pa.rh.am"
+    - name: "matthewbrunelle.com"
+      url: "https://matthewbrunelle.com"
+    - name: "coryzue.com"
+      url: "https://coryzue.com"
+    - name: "xeiaso.net"
+      url: "https://xeiaso.net"
+    - name: "loufranco.com"
+      url: "https://loufranco.com"
+    - name: "dillonshook.com"
+      url: "https://dillonshook.com"
+    - name: "nesbitt.io"
+      url: "https://nesbitt.io"
+    - name: "jacobedawson.com"
+      url: "https://jacobedawson.com"
+    - name: "tylerneylon.com"
+      url: "https://tylerneylon.com"
+    - name: "blog.lohr.dev"
+      url: "https://blog.lohr.dev"
+    - name: "yousef.sh"
+      url: "https://yousef.sh"
+    - name: "kavi.sh"
+      url: "https://kavi.sh"
+    - name: "justinblank.com"
+      url: "https://justinblank.com"
+    - name: "danielmiessler.com"
+      url: "https://danielmiessler.com"
+    - name: "damianwalsh.co.uk"
+      url: "https://damianwalsh.co.uk"
+    - name: "den.dev"
+      url: "https://den.dev"
+    - name: "lukebechtel.com"
+      url: "https://lukebechtel.com"
+    - name: "benguild.com"
+      url: "https://benguild.com"
+    - name: "kanishk.io"
+      url: "https://kanishk.io"
+    - name: "srirangan.net"
+      url: "https://srirangan.net"
+    - name: "hashrust.com"
+      url: "https://hashrust.com"
+    - name: "qwertyforce.dev"
+      url: "https://qwertyforce.dev"
+    - name: "tomeraberba.ch"
+      url: "https://tomeraberba.ch"
+    - name: "johnzanussi.com/"
+      url: "https://johnzanussi.com/"
+    - name: "cauenapier.com"
+      url: "https://cauenapier.com"
+    - name: "onlineornot.com"
+      url: "https://onlineornot.com"
+    - name: "Hacker News was down"
+      url: "https://hackernews.onlineornot.com"
+    - name: "qmacro.org"
+      url: "https://qmacro.org"
+    - name: "rockyj-blogs.web.app"
+      url: "https://rockyj-blogs.web.app"
+    - name: "dmitri.shuralyov.com"
+      url: "https://dmitri.shuralyov.com"
+    - name: "simonshine.dk"
+      url: "https://simonshine.dk"
+    - name: "blog.momentum-mod.org"
+      url: "https://blog.momentum-mod.org"
+    - name: "bt.ht"
+      url: "https://bt.ht"
+    - name: "tynan.com"
+      url: "https://tynan.com"
+    - name: "pcloadletter.dev"
+      url: "https://pcloadletter.dev"
+    - name: "nattaylor.com"
+      url: "https://nattaylor.com"
+    - name: "ruky.me"
+      url: "https://ruky.me"
+    - name: "yberreby.com"
+      url: "https://yberreby.com"
+    - name: "mergy.org"
+      url: "https://mergy.org"
+    - name: "zansara.dev"
+      url: "https://zansara.dev"
+    - name: "luke.hsiao.dev"
+      url: "https://luke.hsiao.dev"
+    - name: "fev.al"
+      url: "https://fev.al"
+    - name: "franklin.dyer.me"
+      url: "https://franklin.dyer.me"
+    - name: "vitovan.com"
+      url: "https://vitovan.com"
+    - name: "Show HN: Wonder Color – Text to Color, Everything is Supported"
+      url: "http://wc.vitovan.com/"
+    - name: "ingo-richter.io"
+      url: "https://ingo-richter.io"
+    - name: "dganev.com"
+      url: "https://dganev.com"
+    - name: "jezenthomas.com"
+      url: "https://jezenthomas.com"
+    - name: "blog.randombits.host"
+      url: "https://blog.randombits.host"
+    - name: "defn.io"
+      url: "https://defn.io"
+    - name: "softwareatscale.dev"
+      url: "https://softwareatscale.dev"
+    - name: "ericwbailey.website"
+      url: "https://ericwbailey.website"
+    - name: "aaronoellis.com"
+      url: "https://aaronoellis.com"
+    - name: "isomorphism.xyz"
+      url: "https://isomorphism.xyz"
+    - name: "map.simonsarris.com"
+      url: "https://map.simonsarris.com"
+    - name: "brightball.com"
+      url: "https://brightball.com"
+    - name: "rebeccaskinner.net"
+      url: "https://rebeccaskinner.net"
+    - name: "hojberg.xyz"
+      url: "https://hojberg.xyz"
+    - name: "jameshard.ing"
+      url: "https://jameshard.ing"
+    - name: "adriano.fyi"
+      url: "https://adriano.fyi"
+    - name: "rgoswami.me"
+      url: "https://rgoswami.me"
+    - name: "bitgloo.com"
+      url: "https://bitgloo.com"
+    - name: "Bitfloor shuts down"
+      url: "https://bitfloor.com/"
+    - name: "Ask HN: Review our startup (bitloot)"
+      url: "http://www.bitloot.com"
+    - name: "blog.lawrencejones.dev"
+      url: "https://blog.lawrencejones.dev"
+    - name: "launchbowl.com"
+      url: "https://launchbowl.com"
+    - name: "zacs.site"
+      url: "https://zacs.site"
+    - name: "dbohdan.com"
+      url: "https://dbohdan.com"
+    - name: "sparker.co"
+      url: "https://sparker.co"
+    - name: "Micro-volunteering"
+      url: "https://www.sparked.com/"
+    - name: "rybakov.com"
+      url: "https://rybakov.com"
+    - name: "pankajtanwar.in"
+      url: "https://pankajtanwar.in"
+    - name: "Show HN: I built a fake VS Code to browse live cricket score in office"
+      url: "https://cric-code.pankajtanwar.in/"
+    - name: "Show HN: I built a tool convert any image to ASCII Art"
+      url: "https://asciiart.pankajtanwar.in/"
+    - name: "georgeho.org"
+      url: "https://georgeho.org"
+    - name: "ache.one"
+      url: "https://ache.one"
+    - name: "quartz.jzhao.xyz"
+      url: "https://quartz.jzhao.xyz"
+    - name: "blog.nobugware.com"
+      url: "https://blog.nobugware.com"
+    - name: "matduggan.com"
+      url: "https://matduggan.com"
+    - name: "embracethered.com"
+      url: "https://embracethered.com"
+    - name: "evalapply.org"
+      url: "https://evalapply.org"
+    - name: "adocomplete.com"
+      url: "https://adocomplete.com"
+    - name: "justapa.thologi.st"
+      url: "https://justapa.thologi.st"
+    - name: "muxup.com"
+      url: "https://muxup.com"
+    - name: "blog.klungo.no"
+      url: "https://blog.klungo.no"
+    - name: "philipithomas.com"
+      url: "https://philipithomas.com"
+    - name: "kaikunze.de"
+      url: "https://kaikunze.de"
+    - name: "rickcarlino.com"
+      url: "https://rickcarlino.com"
+    - name: "mcginniscommawill.com"
+      url: "https://mcginniscommawill.com"
+    - name: "realmorrisliu.com"
+      url: "https://realmorrisliu.com"
+    - name: "quantike.xyz"
+      url: "https://quantike.xyz"
+    - name: "meiert.com"
+      url: "https://meiert.com"
+    - name: "paul.kinlan.me"
+      url: "https://paul.kinlan.me"
+    - name: "lukerodgers.ca"
+      url: "https://lukerodgers.ca"
+    - name: "blog.tymscar.com"
+      url: "https://blog.tymscar.com"
+    - name: "bryanhogan.com"
+      url: "https://bryanhogan.com"
+    - name: "tidings.potato.horse"
+      url: "https://tidings.potato.horse"
+    - name: "valbaca.com"
+      url: "https://valbaca.com"
+    - name: "nathanfriend.com"
+      url: "https://nathanfriend.com"
+    - name: "selfboot.cn"
+      url: "https://selfboot.cn"
+    - name: "sheep.horse"
+      url: "https://sheep.horse"
+    - name: "tty4.dev"
+      url: "https://tty4.dev"
+    - name: "sweeting.me"
+      url: "https://sweeting.me"
+    - name: "matthewhall.com"
+      url: "https://matthewhall.com"
+    - name: "saah.as"
+      url: "https://saah.as"
+    - name: "francisco.io"
+      url: "https://francisco.io"
+    - name: "fwilliams.info"
+      url: "https://fwilliams.info"
+    - name: "antoinevastel.com"
+      url: "https://antoinevastel.com"
+    - name: "evjang.com"
+      url: "https://evjang.com"
+    - name: "blog.domainmess.org"
+      url: "https://blog.domainmess.org"
+    - name: "rnikhil.com"
+      url: "https://rnikhil.com"
+    - name: "pikuma.com"
+      url: "https://pikuma.com"
+    - name: "diogocasado.com"
+      url: "https://diogocasado.com"
+    - name: "ryanbigg.com"
+      url: "https://ryanbigg.com"
+    - name: "vivekshuk.la"
+      url: "https://vivekshuk.la"
+    - name: "duncanlock.net"
+      url: "https://duncanlock.net"
+    - name: "nestenius.se"
+      url: "https://nestenius.se"
+    - name: "dddiaz.com"
+      url: "https://dddiaz.com"
+    - name: "austinhenley.com"
+      url: "https://austinhenley.com"
+    - name: "johnmathews.is"
+      url: "https://johnmathews.is"
+    - name: "bookofjoe2.blogspot.com"
+      url: "https://bookofjoe2.blogspot.com"
+    - name: "edita.co"
+      url: "https://edita.co"
+    - name: "Bold Edit: An editor written by power users"
+      url: "https://bold-edit.com"
+    - name: "mkprc.xyz"
+      url: "https://mkprc.xyz"
+    - name: "nchagnet.pages.dev"
+      url: "https://nchagnet.pages.dev"
+    - name: "simonwjackson.io"
+      url: "https://simonwjackson.io"
+    - name: "blog.metaobject.com"
+      url: "https://blog.metaobject.com"
+    - name: "asukawang.com"
+      url: "https://asukawang.com"
+    - name: "ciuculescu.com"
+      url: "https://ciuculescu.com"
+    - name: "dizzy.zone"
+      url: "https://dizzy.zone"
+    - name: "tbhb.dev"
+      url: "https://tbhb.dev"
+    - name: "nelson.cloud"
+      url: "https://nelson.cloud"
+    - name: "andrestc.com"
+      url: "https://andrestc.com"
+    - name: "faingezicht.com"
+      url: "https://faingezicht.com"
+    - name: "0x1.pt"
+      url: "https://0x1.pt"
+    - name: "himwant.org"
+      url: "https://himwant.org"
+    - name: "drew.silcock.dev"
+      url: "https://drew.silcock.dev"
+    - name: "danielfm.me"
+      url: "https://danielfm.me"
+    - name: "ajxs.me"
+      url: "https://ajxs.me"
+    - name: "hvalls.dev"
+      url: "https://hvalls.dev"
+    - name: "pawelurbanek.com"
+      url: "https://pawelurbanek.com"
+    - name: "joshbradley.me"
+      url: "https://joshbradley.me"
+    - name: "kianbradley.com"
+      url: "https://kianbradley.com"
+    - name: "samwho.dev"
+      url: "https://samwho.dev"
+    - name: "daniellowengrub.com"
+      url: "https://daniellowengrub.com"
+    - name: "yasha.solutions"
+      url: "https://yasha.solutions"
+    - name: "eieio.games"
+      url: "https://eieio.games"
+    - name: "timseverien.com"
+      url: "https://timseverien.com"
+    - name: "Telemetry in Front-End Tools"
+      url: "https://telemetry.timseverien.com/"
+    - name: "philipphagenlocher.de"
+      url: "https://philipphagenlocher.de"
+    - name: "ssg.dev"
+      url: "https://ssg.dev"
+    - name: "docodethatmatters.com"
+      url: "https://docodethatmatters.com"
+    - name: "arman.keyoumarsi.com"
+      url: "https://arman.keyoumarsi.com"
+    - name: "nate.io"
+      url: "https://nate.io"
+    - name: "aaronbos.dev"
+      url: "https://aaronbos.dev"
+    - name: "passo.uno"
+      url: "https://passo.uno"
+    - name: "devpoga.org"
+      url: "https://devpoga.org"
+    - name: "jonready.com"
+      url: "https://jonready.com"
+    - name: "ketch.co"
+      url: "https://ketch.co"
+    - name: "origami.kosmulski.org"
+      url: "https://origami.kosmulski.org"
+    - name: "caiustheory.com"
+      url: "https://caiustheory.com"
+    - name: "josem.co"
+      url: "https://josem.co"
+    - name: "jvns.ca"
+      url: "https://jvns.ca"
+    - name: "thomaspark.co"
+      url: "https://thomaspark.co"
+    - name: "vale.rocks"
+      url: "https://vale.rocks"
+    - name: "rolisz.ro"
+      url: "https://rolisz.ro"
+    - name: "jsn.cam"
+      url: "https://jsn.cam"
+    - name: "digitalseams.com"
+      url: "https://digitalseams.com"
+    - name: "kai-wolf.me"
+      url: "https://kai-wolf.me"
+    - name: "half-fast-devops.com"
+      url: "https://half-fast-devops.com"
+    - name: "mooreds.com"
+      url: "https://mooreds.com"
+    - name: "staticnotes.org"
+      url: "https://staticnotes.org"
+    - name: "saadnaveed.com"
+      url: "https://saadnaveed.com"
+    - name: "paolomainardi.com"
+      url: "https://paolomainardi.com"
+    - name: "dannyguo.com"
+      url: "https://dannyguo.com"
+    - name: "tookitaway.co.uk"
+      url: "https://tookitaway.co.uk"
+    - name: "linus.dev"
+      url: "https://linus.dev"
+    - name: "krishnamohan.dev"
+      url: "https://krishnamohan.dev"
+    - name: "bytesizetheories.com"
+      url: "https://bytesizetheories.com"
+    - name: "preslav.me"
+      url: "https://preslav.me"
+    - name: "takeonrules.com"
+      url: "https://takeonrules.com"
+    - name: "layfellow.net"
+      url: "https://layfellow.net"
+    - name: "tsx.su"
+      url: "https://tsx.su"
+    - name: "nhatcher.com"
+      url: "https://nhatcher.com"
+    - name: "silcock.dev"
+      url: "https://silcock.dev"
+    - name: "matthiasott.com"
+      url: "https://matthiasott.com"
+    - name: "cgad.ski"
+      url: "https://cgad.ski"
+    - name: "kulman.sk"
+      url: "https://kulman.sk"
+    - name: "brainbaking.com"
+      url: "https://brainbaking.com"
+    - name: "wonger.dev"
+      url: "https://wonger.dev"
+    - name: "michaelbensoussan.com"
+      url: "https://michaelbensoussan.com"
+    - name: "thenewleafjournal.com"
+      url: "https://thenewleafjournal.com"
+    - name: "djharper.dev"
+      url: "https://djharper.dev"
+    - name: "lucasfcosta.com"
+      url: "https://lucasfcosta.com"
+    - name: "bryanhogan.me"
+      url: "https://bryanhogan.me"
+    - name: "simonhartcher.com"
+      url: "https://simonhartcher.com"
+    - name: "cendyne.dev"
+      url: "https://cendyne.dev"
+    - name: "jasonthorsness.com"
+      url: "https://jasonthorsness.com"
+    - name: "blog.tldrversion.com"
+      url: "https://blog.tldrversion.com"
+    - name: "jamesoclaire.com"
+      url: "https://jamesoclaire.com"
+    - name: "deadf00d.com"
+      url: "https://deadf00d.com"
+    - name: "cicd.life"
+      url: "https://cicd.life"
+    - name: "aaronstrick.com"
+      url: "https://aaronstrick.com"
+    - name: "joehxblog.com"
+      url: "https://joehxblog.com"
+    - name: "thomasvilhena.com"
+      url: "https://thomasvilhena.com"
+    - name: "honza.pokorny.ca"
+      url: "https://honza.pokorny.ca"
+    - name: "herbertlui.net"
+      url: "https://herbertlui.net"
+    - name: "drumpatterns.onether.com"
+      url: "https://drumpatterns.onether.com"
+    - name: "greaterdanorequalto.com"
+      url: "https://greaterdanorequalto.com"
+    - name: "xlii.space"
+      url: "https://xlii.space"
+    - name: "pongo-points.beehiiv.com/"
+      url: "https://pongo-points.beehiiv.com/"
+    - name: "ifelse.io"
+      url: "https://ifelse.io"
+    - name: "jgc.org"
+      url: "https://jgc.org"
+    - name: "ayende.com"
+      url: "https://ayende.com"
+    - name: "blog.mrcsharp.dev"
+      url: "https://blog.mrcsharp.dev"
+    - name: "xorvoid.com"
+      url: "https://xorvoid.com"
+    - name: "zarar.dev"
+      url: "https://zarar.dev"
+    - name: "oo.svbtle.com"
+      url: "https://oo.svbtle.com"
+    - name: "matthewhowell.net"
+      url: "https://matthewhowell.net"
+    - name: "chriswales.uk"
+      url: "https://chriswales.uk"
+    - name: "hankruiger.com"
+      url: "https://hankruiger.com"
+    - name: "wcedmisten.fyi"
+      url: "https://wcedmisten.fyi"
+    - name: "dustinbrett.com"
+      url: "https://dustinbrett.com"
+    - name: "wilsoniumite.com"
+      url: "https://wilsoniumite.com"
+    - name: "steviep.xyz"
+      url: "https://steviep.xyz"
+    - name: "Show HN: SmartHome – An Adventure Game"
+      url: "https://smarthome.steviep.xyz"
+    - name: "Show HN: Burnt US Dollars"
+      url: "https://busd.steviep.xyz"
+    - name: "webmonch.dev"
+      url: "https://webmonch.dev"
+    - name: "bobbiechen.com"
+      url: "https://bobbiechen.com"
+    - name: "gregnavis.com"
+      url: "https://gregnavis.com"
+    - name: "boerman.dev"
+      url: "https://boerman.dev"
+    - name: "brisray.com"
+      url: "https://brisray.com"
+    - name: "anonyfox.com"
+      url: "https://anonyfox.com"
+    - name: "tugdual.fr"
+      url: "https://tugdual.fr"
+    - name: "stratha.us"
+      url: "https://stratha.us"
+    - name: "jonator.dev"
+      url: "https://jonator.dev"
+    - name: "manidoraisamy.com"
+      url: "https://manidoraisamy.com"
+    - name: "blog.tjll.net"
+      url: "https://blog.tjll.net"
+    - name: "fasterthanli.me"
+      url: "https://fasterthanli.me"
+    - name: "denv.it"
+      url: "https://denv.it"
+    - name: "Show HN: Coronavirus Spread Simulator (Monte Carlo)"
+      url: "http://covid19.dev.itskasra.com/"
+    - name: "blog.varunramesh.net"
+      url: "https://blog.varunramesh.net"
+    - name: "anders.co"
+      url: "https://anders.co"
+    - name: "ilearnt.com"
+      url: "https://ilearnt.com"
     - name: 'ClearChannel Launches "Pandora Killer"iHeartRadio Public Beta'
-      url: 'http://www.iheart.com'
-    - name: 'Show HN: iLert – one platform for uptime monitoring, alerting and being on-call'
-      url: 'https://www.ilert.com'
-    - name: 'artem.krylysov.com'
-      url: 'https://artem.krylysov.com'
-    - name: 'thomashunter.name'
-      url: 'https://thomashunter.name'
-    - name: 'live.julik.nl'
-      url: 'https://live.julik.nl'
-    - name: 'more-magic.net'
-      url: 'https://more-magic.net'
-    - name: 'mattbrandly.com'
-      url: 'https://mattbrandly.com'
-    - name: 'mmathias.com'
-      url: 'https://mmathias.com'
-    - name: 'blog.scottlogic.com'
-      url: 'https://blog.scottlogic.com'
-    - name: 'eamag.me'
-      url: 'https://eamag.me'
-    - name: 'Show HN: What Is Hacker News Working On?'
-      url: 'https://waywo.eamag.me/'
-    - name: 'orawalters.com'
-      url: 'https://orawalters.com'
-    - name: 'beesbuzz.biz'
-      url: 'https://beesbuzz.biz'
-    - name: 'blog.uidrafter.com'
-      url: 'https://blog.uidrafter.com'
-    - name: 'x0axz.com'
-      url: 'https://x0axz.com'
-    - name: 'canolcer.com'
-      url: 'https://canolcer.com'
-    - name: 'morling.dev'
-      url: 'https://morling.dev'
-    - name: 'du.nkel.dev'
-      url: 'https://du.nkel.dev'
-    - name: 'niteshpant.com'
-      url: 'https://niteshpant.com'
-    - name: 'circusscientist.com'
-      url: 'https://circusscientist.com'
-    - name: 'scottohara.me'
-      url: 'https://scottohara.me'
-    - name: 'klinger.io'
-      url: 'https://klinger.io'
-    - name: 'james.brooks.page'
-      url: 'https://james.brooks.page'
-    - name: 'mccormick.cx'
-      url: 'https://mccormick.cx'
-    - name: 'asindu.xyz'
-      url: 'https://asindu.xyz'
-    - name: 'laszlo.nu'
-      url: 'https://laszlo.nu'
-    - name: 'hbish.com'
-      url: 'https://hbish.com'
-    - name: 'ecliptik.com'
-      url: 'https://ecliptik.com'
-    - name: 'leehauser.com'
-      url: 'https://leehauser.com'
-    - name: 'benjcal.space'
-      url: 'https://benjcal.space'
-    - name: 'uglyduck.ca'
-      url: 'https://uglyduck.ca'
-    - name: 'paulbridger.com'
-      url: 'https://paulbridger.com'
-    - name: 'foreverliketh.is/'
-      url: 'https://foreverliketh.is/'
-    - name: 'williamcotton.com'
-      url: 'https://williamcotton.com'
-    - name: 'omarkamali.com'
-      url: 'https://omarkamali.com'
-    - name: 'juliette.page'
-      url: 'https://juliette.page'
-    - name: 'devever.net'
-      url: 'https://devever.net'
-    - name: 'mxb.at'
-      url: 'https://mxb.at'
-    - name: 'dsmurrell.com'
-      url: 'https://dsmurrell.com'
-    - name: 'testy.cool'
-      url: 'https://testy.cool'
-    - name: 'nsirap.com'
-      url: 'https://nsirap.com'
-    - name: 'alexbeals.com'
-      url: 'https://alexbeals.com'
-    - name: 'mattsayar.com'
-      url: 'https://mattsayar.com'
-    - name: 'hydroxide.dev'
-      url: 'https://hydroxide.dev'
-    - name: 'aaron.axvigs.com'
-      url: 'https://aaron.axvigs.com'
-    - name: 'callumr.com'
-      url: 'https://callumr.com'
-    - name: 'rasikjain.com'
-      url: 'https://rasikjain.com'
-    - name: 'andeers.com'
-      url: 'https://andeers.com'
-    - name: 'denner.co'
-      url: 'https://denner.co'
-    - name: 'nik.digital'
-      url: 'https://nik.digital'
-    - name: 'stenbrinke.nl'
-      url: 'https://stenbrinke.nl'
-    - name: 'prashamhtrivedi.in'
-      url: 'https://prashamhtrivedi.in'
-    - name: 'logical.li'
-      url: 'https://logical.li'
-    - name: 'shime.sh'
-      url: 'https://shime.sh'
-    - name: 'elliotec.com'
-      url: 'https://elliotec.com'
-    - name: 'elijahpotter.dev'
-      url: 'https://elijahpotter.dev'
-    - name: 'pixelbox.com'
-      url: 'https://pixelbox.com'
-    - name: 'nikhilism.com'
-      url: 'https://nikhilism.com'
-    - name: 'ntietz.com'
-      url: 'https://ntietz.com'
-    - name: 'ronsor.com'
-      url: 'https://ronsor.com'
-    - name: 'whynot.fail'
-      url: 'https://whynot.fail'
-    - name: 'everything.intellectronica.net'
-      url: 'https://everything.intellectronica.net'
-    - name: 'garyrobinson.net'
-      url: 'https://garyrobinson.net'
-    - name: 'mwunderling.com'
-      url: 'https://mwunderling.com'
-    - name: 'joshmosier.com'
-      url: 'https://joshmosier.com'
-    - name: 'cmason.com'
-      url: 'https://cmason.com'
-    - name: 'jefftk.com'
-      url: 'https://jefftk.com'
-    - name: 'quodsoler.com'
-      url: 'https://quodsoler.com'
-    - name: 'nadh.in'
-      url: 'https://nadh.in'
-    - name: 'kevingrandjean.ch'
-      url: 'https://kevingrandjean.ch'
-    - name: 'mustafaakin.dev'
-      url: 'https://mustafaakin.dev'
-    - name: 'softwaredesign.ing'
-      url: 'https://softwaredesign.ing'
-    - name: 'transistor-man.com'
-      url: 'https://transistor-man.com'
-    - name: 'varyvoda.com'
-      url: 'https://varyvoda.com'
-    - name: 'b3n.org'
-      url: 'https://b3n.org'
-    - name: 'jeremymikkola.com'
-      url: 'https://jeremymikkola.com'
-    - name: 'plantheflow.com'
-      url: 'https://plantheflow.com'
-    - name: 'bryananthonio.com'
-      url: 'https://bryananthonio.com'
-    - name: 'marnetto.net'
-      url: 'https://marnetto.net'
-    - name: 'tiniuc.com'
-      url: 'https://tiniuc.com'
-    - name: 'fmjlang.co.uk'
-      url: 'https://fmjlang.co.uk'
-    - name: 'bernat.ch'
-      url: 'https://bernat.ch'
-    - name: 'dzoba.com'
-      url: 'https://dzoba.com'
-    - name: 'bitlog.com'
-      url: 'https://bitlog.com'
-    - name: 'fulghum.io'
-      url: 'https://fulghum.io'
-    - name: 'lazarakisd.com'
-      url: 'https://lazarakisd.com'
-    - name: 'qword.net'
-      url: 'https://qword.net'
-    - name: 'An Open Version of WordNet'
-      url: 'https://en-word.net/'
-    - name: 'edmundo.is'
-      url: 'https://edmundo.is'
-    - name: 'letterstoanewdeveloper.com'
-      url: 'https://letterstoanewdeveloper.com'
-    - name: 'joshbeckman.org'
-      url: 'https://joshbeckman.org'
-    - name: 'yelinaung.com'
-      url: 'https://yelinaung.com'
-    - name: 'tech.stonecharioteer.com'
-      url: 'https://tech.stonecharioteer.com'
-    - name: 'blog.yossarian.net'
-      url: 'https://blog.yossarian.net'
-    - name: 'prbs23.com'
-      url: 'https://prbs23.com'
-    - name: 'imrannazar.com'
-      url: 'https://imrannazar.com'
-    - name: 'padiracinnovation.org'
-      url: 'https://padiracinnovation.org'
-    - name: 'igor.moomers.org'
-      url: 'https://igor.moomers.org'
-    - name: 'vilkeliskis.com'
-      url: 'https://vilkeliskis.com'
-    - name: 'patrickdap.com'
-      url: 'https://patrickdap.com'
-    - name: 'maximedubourg.com'
-      url: 'https://maximedubourg.com'
-    - name: 'nickolinger.com'
-      url: 'https://nickolinger.com'
-    - name: 'ministories.net'
-      url: 'https://ministories.net'
-    - name: 'jmmv.dev'
-      url: 'https://jmmv.dev'
-    - name: 'arulpugazh.com'
-      url: 'https://arulpugazh.com'
-    - name: 'david.coffee'
-      url: 'https://david.coffee'
-    - name: 'marcodifrancesco.com'
-      url: 'https://marcodifrancesco.com'
-    - name: 'er4hn.info'
-      url: 'https://er4hn.info'
-    - name: '0xc0ffee.ca'
-      url: 'https://0xc0ffee.ca'
-    - name: 'kcoleman.me'
-      url: 'https://kcoleman.me'
-    - name: 'mbork.pl'
-      url: 'https://mbork.pl'
-    - name: 'khanna.law'
-      url: 'https://khanna.law'
-    - name: 'Show HN: Magistrate – Plaintext legal contracts for developers'
-      url: 'https://magistrate.khanna.law/'
-    - name: 'thegeez.net'
-      url: 'https://thegeez.net'
-    - name: 'sahillavingia.com'
-      url: 'https://sahillavingia.com'
-    - name: 'thomasnys.com'
-      url: 'https://thomasnys.com'
-    - name: 'raymii.org'
-      url: 'https://raymii.org'
-    - name: 'devlog.hexops.com'
-      url: 'https://devlog.hexops.com'
-    - name: 'drjoshcsimmons.com'
-      url: 'https://drjoshcsimmons.com'
-    - name: 'slama.dev'
-      url: 'https://slama.dev'
-    - name: 'Show HN: Open-Source DocumentAI with Ollama'
-      url: 'https://rlama.dev/'
-    - name: 'valiukas.dev'
-      url: 'https://valiukas.dev'
-    - name: 'smagin.fyi'
-      url: 'https://smagin.fyi'
-    - name: 'savraj.co'
-      url: 'https://savraj.co'
-    - name: 'hipenguin.in'
-      url: 'https://hipenguin.in'
-    - name: 'anees.xyz'
-      url: 'https://anees.xyz'
-    - name: 'joshghent.com'
-      url: 'https://joshghent.com'
-    - name: 'matsimitsu.com'
-      url: 'https://matsimitsu.com'
-    - name: 'lucasegray.com'
-      url: 'https://lucasegray.com'
-    - name: 'jasonfantl.com'
-      url: 'https://jasonfantl.com'
-    - name: 'kiru.io'
-      url: 'https://kiru.io'
-    - name: 'paulstamatiou.com'
-      url: 'https://paulstamatiou.com'
-    - name: 'jdlm.info'
-      url: 'https://jdlm.info'
-    - name: 'captnemo.in'
-      url: 'https://captnemo.in'
-    - name: 'steverydz.com'
-      url: 'https://steverydz.com'
-    - name: 'avikdas.com'
-      url: 'https://avikdas.com'
-    - name: 'honeypot.net'
-      url: 'https://honeypot.net'
-    - name: 'allenc.com'
-      url: 'https://allenc.com'
-    - name: 'mgaudet.ca'
-      url: 'https://mgaudet.ca'
-    - name: 'joecode.com'
-      url: 'https://joecode.com'
-    - name: 'www.teotimepacreau.fr'
-      url: 'https://www.teotimepacreau.fr'
-    - name: 'gmfoster.com'
-      url: 'https://gmfoster.com'
-    - name: 'borretti.me'
-      url: 'https://borretti.me'
-    - name: 'vibemanager.cc'
-      url: 'https://vibemanager.cc'
-    - name: 'nashkabbara.com'
-      url: 'https://nashkabbara.com'
-    - name: 'justinmiller.io'
-      url: 'https://justinmiller.io'
-    - name: 'herlein.com'
-      url: 'https://herlein.com'
-    - name: 'danstroot.com'
-      url: 'https://danstroot.com'
-    - name: 'brettgfitzgerald.com'
-      url: 'https://brettgfitzgerald.com'
-    - name: 'k8scockpit.tech'
-      url: 'https://k8scockpit.tech'
-    - name: '5f5.org'
-      url: 'https://5f5.org'
-    - name: 'hsiao.dev'
-      url: 'https://hsiao.dev'
-    - name: 'stevenroussey.com'
-      url: 'https://stevenroussey.com'
-    - name: 'orga.cat'
-      url: 'https://orga.cat'
-    - name: 'marincomics.com'
-      url: 'https://marincomics.com'
-    - name: 'tom-dickson.com'
-      url: 'https://tom-dickson.com'
-    - name: 'chkb.net'
-      url: 'https://chkb.net'
-    - name: 'lb.ee'
-      url: 'https://lb.ee'
-    - name: 'mortenvistisen.com'
-      url: 'https://mortenvistisen.com'
-    - name: 'jacobdoescode.com'
-      url: 'https://jacobdoescode.com'
-    - name: 'adam-p.ca'
-      url: 'https://adam-p.ca'
-    - name: 'madsbuch.com'
-      url: 'https://madsbuch.com'
-    - name: 'davidgomes.com'
-      url: 'https://davidgomes.com'
-    - name: 'sophiabits.com'
-      url: 'https://sophiabits.com'
-    - name: 'jrhizor.dev'
-      url: 'https://jrhizor.dev'
-    - name: 'bytesizedchunks.net'
-      url: 'https://bytesizedchunks.net'
-    - name: 'datalars.com'
-      url: 'https://datalars.com'
-    - name: 'Show HN: DataFart - easy command line graphing'
-      url: 'http://datafart.com'
-    - name: 'philbooth.me'
-      url: 'https://philbooth.me'
-    - name: 'spader.zone'
-      url: 'https://spader.zone'
-    - name: 'chrisfrew.in'
-      url: 'https://chrisfrew.in'
-    - name: 'xnux.eu'
-      url: 'https://xnux.eu'
-    - name: 'alexrichey.com'
-      url: 'https://alexrichey.com'
-    - name: 'bsid.io'
-      url: 'https://bsid.io'
-    - name: 'techsquidtv.com'
-      url: 'https://techsquidtv.com'
-    - name: 'lincoln.swaine-moore.is'
-      url: 'https://lincoln.swaine-moore.is'
-    - name: 'solomon.io'
-      url: 'https://solomon.io'
-    - name: 'ttntm.me'
-      url: 'https://ttntm.me'
-    - name: 'blog.zharii.com'
-      url: 'https://blog.zharii.com'
-    - name: 'tjll.net'
-      url: 'https://tjll.net'
-    - name: 'notes.volution.ro'
-      url: 'https://notes.volution.ro'
-    - name: 'boston.conman.org'
-      url: 'https://boston.conman.org'
-    - name: 'domenicoluciani.com'
-      url: 'https://domenicoluciani.com'
-    - name: 'objective.st'
-      url: 'https://objective.st'
-    - name: 'Objective-Smalltalk: now serving its own web site'
-      url: 'http://www.objective.st/'
-    - name: 'chris.sears.io'
-      url: 'https://chris.sears.io'
-    - name: 'chollinger.com'
-      url: 'https://chollinger.com'
-    - name: 'blog.vibemanager.cc'
-      url: 'https://blog.vibemanager.cc'
-    - name: 'antoniosarro.dev'
-      url: 'https://antoniosarro.dev'
-    - name: 'matt-rickard.com'
-      url: 'https://matt-rickard.com'
-    - name: 'phacks.dev'
-      url: 'https://phacks.dev'
-    - name: 'costacoders.es'
-      url: 'https://costacoders.es'
-    - name: 'codeyarns.com'
-      url: 'https://codeyarns.com'
-    - name: 'Show HN: Codewars'
-      url: 'http://Codewars.com'
-    - name: 'Code Wars (JS, Coffeescript & Ruby)'
-      url: 'http://www.codewars.com/'
-    - name: 'Bookmarks for Social Coders - Don''t fill up your browser''s bookmarks'
-      url: 'http://www.codemarks.com/'
-    - name: 'gregraiz.com'
-      url: 'https://gregraiz.com'
-    - name: 'sciencemadness.org'
-      url: 'https://sciencemadness.org'
-    - name: 'makki.moe'
-      url: 'https://makki.moe'
-    - name: 'rajkumaar.co.in'
-      url: 'https://rajkumaar.co.in'
-    - name: 'rymc.io'
-      url: 'https://rymc.io'
-    - name: 'jgthms.com'
-      url: 'https://jgthms.com'
-    - name: 'simonsarris.com'
-      url: 'https://simonsarris.com'
-    - name: 'developermarkepear.com'
-      url: 'https://developermarkepear.com'
-    - name: 'michael-lewis.com/'
-      url: 'https://michael-lewis.com/'
-    - name: 'joshtronic.com'
-      url: 'https://joshtronic.com'
-    - name: 'hgarrett.me'
-      url: 'https://hgarrett.me'
-    - name: 'brajeshwar.com'
-      url: 'https://brajeshwar.com'
-    - name: 'shufflingbytes.com'
-      url: 'https://shufflingbytes.com'
-    - name: 'sealedabstract.com'
-      url: 'https://sealedabstract.com'
-    - name: 'rakhim.exotext.com'
-      url: 'https://rakhim.exotext.com'
-    - name: 'tcmorris.net'
-      url: 'https://tcmorris.net'
-    - name: 'hansvl.nl'
-      url: 'https://hansvl.nl'
-    - name: 'hugotunius.se'
-      url: 'https://hugotunius.se'
-    - name: 'think-twice.me'
-      url: 'https://think-twice.me'
-    - name: 'ankitmaloo.com'
-      url: 'https://ankitmaloo.com'
-    - name: 'pointlessramblings.com'
-      url: 'https://pointlessramblings.com'
-    - name: 'sharedphysics.com'
-      url: 'https://sharedphysics.com'
-    - name: 'ianreppel.org'
-      url: 'https://ianreppel.org'
-    - name: 'brethorsting.com'
-      url: 'https://brethorsting.com'
-    - name: 'shahpreetk.com'
-      url: 'https://shahpreetk.com'
-    - name: 'joshstrange.com'
-      url: 'https://joshstrange.com'
-    - name: 'yyhh.org'
-      url: 'https://yyhh.org'
-    - name: 'yieldcode.blog'
-      url: 'https://yieldcode.blog'
-    - name: 'justinmklam.com'
-      url: 'https://justinmklam.com'
-    - name: 'domwillia.ms'
-      url: 'https://domwillia.ms'
-    - name: 'arai.dev'
-      url: 'https://arai.dev'
-    - name: 'bbbhltz.codeberg.page'
-      url: 'https://bbbhltz.codeberg.page'
-    - name: '2uo.de'
-      url: 'https://2uo.de'
-    - name: 'breadchris.com'
-      url: 'https://breadchris.com'
-    - name: 'travisbumgarner.dev'
-      url: 'https://travisbumgarner.dev'
-    - name: 'suriya.cc'
-      url: 'https://suriya.cc'
-    - name: 'rmpr.xyz'
-      url: 'https://rmpr.xyz'
-    - name: 'newbeelearn.com'
-      url: 'https://newbeelearn.com'
-    - name: 'williamhuster.com'
-      url: 'https://williamhuster.com'
-    - name: 'separateconcerns.com'
-      url: 'https://separateconcerns.com'
-    - name: 'monji.com'
-      url: 'https://monji.com'
-    - name: 'mattrighetti.com'
-      url: 'https://mattrighetti.com'
-    - name: 'theghulam.com'
-      url: 'https://theghulam.com'
-    - name: 'trovster.com'
-      url: 'https://trovster.com'
-    - name: 'mijndertstuij.nl'
-      url: 'https://mijndertstuij.nl'
-    - name: 'mikenikles.com'
-      url: 'https://mikenikles.com'
-    - name: 'jamesg.blog'
-      url: 'https://jamesg.blog'
-    - name: 'Show HN: Artemis, a Calm Web Reader'
-      url: 'https://artemis.jamesg.blog/'
-    - name: 'geshan.com.np'
-      url: 'https://geshan.com.np'
-    - name: 'grgv.xyz'
-      url: 'https://grgv.xyz'
-    - name: 'encapsulate.me'
-      url: 'https://encapsulate.me'
-    - name: 'alexmolas.com'
-      url: 'https://alexmolas.com'
-    - name: 'philipzucker.com'
-      url: 'https://philipzucker.com'
-    - name: 'ronaldsvilcins.com'
-      url: 'https://ronaldsvilcins.com'
-    - name: 'xenodium.com'
-      url: 'https://xenodium.com'
-    - name: 'silvestar.codes'
-      url: 'https://silvestar.codes'
-    - name: 'Show HN: Code Line Daily'
-      url: 'https://cld.silvestar.codes/'
-    - name: 'chasem.co'
-      url: 'https://chasem.co'
-    - name: 'Google Chrome is erroring chase.com for containing malware'
-      url: 'https://www.chase.com'
-    - name: 'robindeneef.com'
-      url: 'https://robindeneef.com'
-    - name: 'harrisonbroadbent.com'
-      url: 'https://harrisonbroadbent.com'
-    - name: 'miscdotgeek.com'
-      url: 'https://miscdotgeek.com'
-    - name: 'spacedimp.com'
-      url: 'https://spacedimp.com'
-    - name: 'Show HN: SpacedTime – Remember the important things in your life'
-      url: 'https://www.spacedtime.com'
-    - name: 'aaeeeoooo.pages.dev'
-      url: 'https://aaeeeoooo.pages.dev'
-    - name: 'seirdy.one'
-      url: 'https://seirdy.one'
-    - name: 'joisig.com'
-      url: 'https://joisig.com'
-    - name: 'abhiraj.co'
-      url: 'https://abhiraj.co'
-    - name: 'jonpauluritis.com'
-      url: 'https://jonpauluritis.com'
-    - name: 'joshuarogers.net'
-      url: 'https://joshuarogers.net'
-    - name: 'jiby.tech'
-      url: 'https://jiby.tech'
-    - name: 'sadman.ca'
-      url: 'https://sadman.ca'
-    - name: 'aldur.blog'
-      url: 'https://aldur.blog'
-    - name: 'jonandnic.com'
-      url: 'https://jonandnic.com'
-    - name: 'andy-bell.co.uk'
-      url: 'https://andy-bell.co.uk'
-    - name: 'notes.npilk.com'
-      url: 'https://notes.npilk.com'
-    - name: 'notesbylex.com'
-      url: 'https://notesbylex.com'
-    - name: 'mattmichie.com'
-      url: 'https://mattmichie.com'
-    - name: 'nonhuman.party'
-      url: 'https://nonhuman.party'
-    - name: 'yagmurtas.com'
-      url: 'https://yagmurtas.com'
-    - name: 'some-natalie.dev'
-      url: 'https://some-natalie.dev'
-    - name: 'shyamjos.com'
-      url: 'https://shyamjos.com'
-    - name: 'nithinbekal.com'
-      url: 'https://nithinbekal.com'
-    - name: 'rockoder.com'
-      url: 'https://rockoder.com'
-    - name: 'vereis.com'
-      url: 'https://vereis.com'
-    - name: 'notoriousbfg.com'
-      url: 'https://notoriousbfg.com'
-    - name: 'stavros.io'
-      url: 'https://stavros.io'
-    - name: 'Show HN: Tired of mobile games with IAP and ads, I made No-Bullshit Games'
-      url: 'https://nobsgames.stavros.io/'
-    - name: 'Show HN: Tired of the non-portability of my playlists, I wrote my own format'
-      url: 'http://universalplaylist.stavros.io/'
-    - name: 'undeleted.ronsor.com'
-      url: 'https://undeleted.ronsor.com'
-    - name: 'tn1ck.com'
-      url: 'https://tn1ck.com'
-    - name: 'adrianmouat.com'
-      url: 'https://adrianmouat.com'
-    - name: 'wyounas.com'
-      url: 'https://wyounas.com'
-    - name: 'adriel.sandcastle.eu.org'
-      url: 'https://adriel.sandcastle.eu.org'
-    - name: 'notes.ghed.in'
-      url: 'https://notes.ghed.in'
-    - name: 'rushter.com'
-      url: 'https://rushter.com'
-    - name: 'lengrand.fr'
-      url: 'https://lengrand.fr'
-    - name: 'muffinman.io'
-      url: 'https://muffinman.io'
-    - name: 'weakphi.sh'
-      url: 'https://weakphi.sh'
-    - name: 'bhankas.org'
-      url: 'https://bhankas.org'
-    - name: 'op111.net'
-      url: 'https://op111.net'
-    - name: 'amitness.com'
-      url: 'https://amitness.com'
-    - name: 'roytang.net'
-      url: 'https://roytang.net'
-    - name: 'alfg.dev'
-      url: 'https://alfg.dev'
-    - name: 'nicollet.net'
-      url: 'https://nicollet.net'
-    - name: 'observationalhazard.com'
-      url: 'https://observationalhazard.com'
-    - name: 'zenadi.com'
-      url: 'https://zenadi.com'
-    - name: 'akshay326.com'
-      url: 'https://akshay326.com'
-    - name: 'explosionduck.com'
-      url: 'https://explosionduck.com'
-    - name: 'saurish.com'
-      url: 'https://saurish.com'
-    - name: 'aarol.dev'
-      url: 'https://aarol.dev'
+      url: "http://www.iheart.com"
+    - name: "Show HN: iLert – one platform for uptime monitoring, alerting and being on-call"
+      url: "https://www.ilert.com"
+    - name: "artem.krylysov.com"
+      url: "https://artem.krylysov.com"
+    - name: "thomashunter.name"
+      url: "https://thomashunter.name"
+    - name: "live.julik.nl"
+      url: "https://live.julik.nl"
+    - name: "more-magic.net"
+      url: "https://more-magic.net"
+    - name: "mattbrandly.com"
+      url: "https://mattbrandly.com"
+    - name: "mmathias.com"
+      url: "https://mmathias.com"
+    - name: "blog.scottlogic.com"
+      url: "https://blog.scottlogic.com"
+    - name: "eamag.me"
+      url: "https://eamag.me"
+    - name: "Show HN: What Is Hacker News Working On?"
+      url: "https://waywo.eamag.me/"
+    - name: "orawalters.com"
+      url: "https://orawalters.com"
+    - name: "beesbuzz.biz"
+      url: "https://beesbuzz.biz"
+    - name: "blog.uidrafter.com"
+      url: "https://blog.uidrafter.com"
+    - name: "x0axz.com"
+      url: "https://x0axz.com"
+    - name: "canolcer.com"
+      url: "https://canolcer.com"
+    - name: "morling.dev"
+      url: "https://morling.dev"
+    - name: "du.nkel.dev"
+      url: "https://du.nkel.dev"
+    - name: "niteshpant.com"
+      url: "https://niteshpant.com"
+    - name: "circusscientist.com"
+      url: "https://circusscientist.com"
+    - name: "scottohara.me"
+      url: "https://scottohara.me"
+    - name: "klinger.io"
+      url: "https://klinger.io"
+    - name: "james.brooks.page"
+      url: "https://james.brooks.page"
+    - name: "mccormick.cx"
+      url: "https://mccormick.cx"
+    - name: "asindu.xyz"
+      url: "https://asindu.xyz"
+    - name: "laszlo.nu"
+      url: "https://laszlo.nu"
+    - name: "hbish.com"
+      url: "https://hbish.com"
+    - name: "ecliptik.com"
+      url: "https://ecliptik.com"
+    - name: "leehauser.com"
+      url: "https://leehauser.com"
+    - name: "benjcal.space"
+      url: "https://benjcal.space"
+    - name: "uglyduck.ca"
+      url: "https://uglyduck.ca"
+    - name: "paulbridger.com"
+      url: "https://paulbridger.com"
+    - name: "foreverliketh.is/"
+      url: "https://foreverliketh.is/"
+    - name: "williamcotton.com"
+      url: "https://williamcotton.com"
+    - name: "omarkamali.com"
+      url: "https://omarkamali.com"
+    - name: "juliette.page"
+      url: "https://juliette.page"
+    - name: "devever.net"
+      url: "https://devever.net"
+    - name: "mxb.at"
+      url: "https://mxb.at"
+    - name: "dsmurrell.com"
+      url: "https://dsmurrell.com"
+    - name: "testy.cool"
+      url: "https://testy.cool"
+    - name: "nsirap.com"
+      url: "https://nsirap.com"
+    - name: "alexbeals.com"
+      url: "https://alexbeals.com"
+    - name: "mattsayar.com"
+      url: "https://mattsayar.com"
+    - name: "hydroxide.dev"
+      url: "https://hydroxide.dev"
+    - name: "aaron.axvigs.com"
+      url: "https://aaron.axvigs.com"
+    - name: "callumr.com"
+      url: "https://callumr.com"
+    - name: "rasikjain.com"
+      url: "https://rasikjain.com"
+    - name: "andeers.com"
+      url: "https://andeers.com"
+    - name: "denner.co"
+      url: "https://denner.co"
+    - name: "nik.digital"
+      url: "https://nik.digital"
+    - name: "stenbrinke.nl"
+      url: "https://stenbrinke.nl"
+    - name: "prashamhtrivedi.in"
+      url: "https://prashamhtrivedi.in"
+    - name: "logical.li"
+      url: "https://logical.li"
+    - name: "shime.sh"
+      url: "https://shime.sh"
+    - name: "elliotec.com"
+      url: "https://elliotec.com"
+    - name: "elijahpotter.dev"
+      url: "https://elijahpotter.dev"
+    - name: "pixelbox.com"
+      url: "https://pixelbox.com"
+    - name: "nikhilism.com"
+      url: "https://nikhilism.com"
+    - name: "ntietz.com"
+      url: "https://ntietz.com"
+    - name: "ronsor.com"
+      url: "https://ronsor.com"
+    - name: "whynot.fail"
+      url: "https://whynot.fail"
+    - name: "everything.intellectronica.net"
+      url: "https://everything.intellectronica.net"
+    - name: "garyrobinson.net"
+      url: "https://garyrobinson.net"
+    - name: "mwunderling.com"
+      url: "https://mwunderling.com"
+    - name: "joshmosier.com"
+      url: "https://joshmosier.com"
+    - name: "cmason.com"
+      url: "https://cmason.com"
+    - name: "jefftk.com"
+      url: "https://jefftk.com"
+    - name: "quodsoler.com"
+      url: "https://quodsoler.com"
+    - name: "nadh.in"
+      url: "https://nadh.in"
+    - name: "kevingrandjean.ch"
+      url: "https://kevingrandjean.ch"
+    - name: "mustafaakin.dev"
+      url: "https://mustafaakin.dev"
+    - name: "softwaredesign.ing"
+      url: "https://softwaredesign.ing"
+    - name: "transistor-man.com"
+      url: "https://transistor-man.com"
+    - name: "varyvoda.com"
+      url: "https://varyvoda.com"
+    - name: "b3n.org"
+      url: "https://b3n.org"
+    - name: "jeremymikkola.com"
+      url: "https://jeremymikkola.com"
+    - name: "plantheflow.com"
+      url: "https://plantheflow.com"
+    - name: "bryananthonio.com"
+      url: "https://bryananthonio.com"
+    - name: "marnetto.net"
+      url: "https://marnetto.net"
+    - name: "tiniuc.com"
+      url: "https://tiniuc.com"
+    - name: "fmjlang.co.uk"
+      url: "https://fmjlang.co.uk"
+    - name: "bernat.ch"
+      url: "https://bernat.ch"
+    - name: "dzoba.com"
+      url: "https://dzoba.com"
+    - name: "bitlog.com"
+      url: "https://bitlog.com"
+    - name: "fulghum.io"
+      url: "https://fulghum.io"
+    - name: "lazarakisd.com"
+      url: "https://lazarakisd.com"
+    - name: "qword.net"
+      url: "https://qword.net"
+    - name: "An Open Version of WordNet"
+      url: "https://en-word.net/"
+    - name: "edmundo.is"
+      url: "https://edmundo.is"
+    - name: "letterstoanewdeveloper.com"
+      url: "https://letterstoanewdeveloper.com"
+    - name: "joshbeckman.org"
+      url: "https://joshbeckman.org"
+    - name: "yelinaung.com"
+      url: "https://yelinaung.com"
+    - name: "tech.stonecharioteer.com"
+      url: "https://tech.stonecharioteer.com"
+    - name: "blog.yossarian.net"
+      url: "https://blog.yossarian.net"
+    - name: "prbs23.com"
+      url: "https://prbs23.com"
+    - name: "imrannazar.com"
+      url: "https://imrannazar.com"
+    - name: "padiracinnovation.org"
+      url: "https://padiracinnovation.org"
+    - name: "igor.moomers.org"
+      url: "https://igor.moomers.org"
+    - name: "vilkeliskis.com"
+      url: "https://vilkeliskis.com"
+    - name: "patrickdap.com"
+      url: "https://patrickdap.com"
+    - name: "maximedubourg.com"
+      url: "https://maximedubourg.com"
+    - name: "nickolinger.com"
+      url: "https://nickolinger.com"
+    - name: "ministories.net"
+      url: "https://ministories.net"
+    - name: "jmmv.dev"
+      url: "https://jmmv.dev"
+    - name: "arulpugazh.com"
+      url: "https://arulpugazh.com"
+    - name: "david.coffee"
+      url: "https://david.coffee"
+    - name: "marcodifrancesco.com"
+      url: "https://marcodifrancesco.com"
+    - name: "er4hn.info"
+      url: "https://er4hn.info"
+    - name: "0xc0ffee.ca"
+      url: "https://0xc0ffee.ca"
+    - name: "kcoleman.me"
+      url: "https://kcoleman.me"
+    - name: "mbork.pl"
+      url: "https://mbork.pl"
+    - name: "khanna.law"
+      url: "https://khanna.law"
+    - name: "Show HN: Magistrate – Plaintext legal contracts for developers"
+      url: "https://magistrate.khanna.law/"
+    - name: "thegeez.net"
+      url: "https://thegeez.net"
+    - name: "sahillavingia.com"
+      url: "https://sahillavingia.com"
+    - name: "thomasnys.com"
+      url: "https://thomasnys.com"
+    - name: "raymii.org"
+      url: "https://raymii.org"
+    - name: "devlog.hexops.com"
+      url: "https://devlog.hexops.com"
+    - name: "drjoshcsimmons.com"
+      url: "https://drjoshcsimmons.com"
+    - name: "slama.dev"
+      url: "https://slama.dev"
+    - name: "Show HN: Open-Source DocumentAI with Ollama"
+      url: "https://rlama.dev/"
+    - name: "valiukas.dev"
+      url: "https://valiukas.dev"
+    - name: "smagin.fyi"
+      url: "https://smagin.fyi"
+    - name: "savraj.co"
+      url: "https://savraj.co"
+    - name: "hipenguin.in"
+      url: "https://hipenguin.in"
+    - name: "anees.xyz"
+      url: "https://anees.xyz"
+    - name: "joshghent.com"
+      url: "https://joshghent.com"
+    - name: "matsimitsu.com"
+      url: "https://matsimitsu.com"
+    - name: "lucasegray.com"
+      url: "https://lucasegray.com"
+    - name: "jasonfantl.com"
+      url: "https://jasonfantl.com"
+    - name: "kiru.io"
+      url: "https://kiru.io"
+    - name: "paulstamatiou.com"
+      url: "https://paulstamatiou.com"
+    - name: "jdlm.info"
+      url: "https://jdlm.info"
+    - name: "captnemo.in"
+      url: "https://captnemo.in"
+    - name: "steverydz.com"
+      url: "https://steverydz.com"
+    - name: "avikdas.com"
+      url: "https://avikdas.com"
+    - name: "honeypot.net"
+      url: "https://honeypot.net"
+    - name: "allenc.com"
+      url: "https://allenc.com"
+    - name: "mgaudet.ca"
+      url: "https://mgaudet.ca"
+    - name: "joecode.com"
+      url: "https://joecode.com"
+    - name: "www.teotimepacreau.fr"
+      url: "https://www.teotimepacreau.fr"
+    - name: "gmfoster.com"
+      url: "https://gmfoster.com"
+    - name: "borretti.me"
+      url: "https://borretti.me"
+    - name: "vibemanager.cc"
+      url: "https://vibemanager.cc"
+    - name: "nashkabbara.com"
+      url: "https://nashkabbara.com"
+    - name: "justinmiller.io"
+      url: "https://justinmiller.io"
+    - name: "herlein.com"
+      url: "https://herlein.com"
+    - name: "danstroot.com"
+      url: "https://danstroot.com"
+    - name: "brettgfitzgerald.com"
+      url: "https://brettgfitzgerald.com"
+    - name: "k8scockpit.tech"
+      url: "https://k8scockpit.tech"
+    - name: "5f5.org"
+      url: "https://5f5.org"
+    - name: "hsiao.dev"
+      url: "https://hsiao.dev"
+    - name: "stevenroussey.com"
+      url: "https://stevenroussey.com"
+    - name: "orga.cat"
+      url: "https://orga.cat"
+    - name: "marincomics.com"
+      url: "https://marincomics.com"
+    - name: "tom-dickson.com"
+      url: "https://tom-dickson.com"
+    - name: "chkb.net"
+      url: "https://chkb.net"
+    - name: "lb.ee"
+      url: "https://lb.ee"
+    - name: "mortenvistisen.com"
+      url: "https://mortenvistisen.com"
+    - name: "jacobdoescode.com"
+      url: "https://jacobdoescode.com"
+    - name: "adam-p.ca"
+      url: "https://adam-p.ca"
+    - name: "madsbuch.com"
+      url: "https://madsbuch.com"
+    - name: "davidgomes.com"
+      url: "https://davidgomes.com"
+    - name: "sophiabits.com"
+      url: "https://sophiabits.com"
+    - name: "jrhizor.dev"
+      url: "https://jrhizor.dev"
+    - name: "bytesizedchunks.net"
+      url: "https://bytesizedchunks.net"
+    - name: "datalars.com"
+      url: "https://datalars.com"
+    - name: "Show HN: DataFart - easy command line graphing"
+      url: "http://datafart.com"
+    - name: "philbooth.me"
+      url: "https://philbooth.me"
+    - name: "spader.zone"
+      url: "https://spader.zone"
+    - name: "chrisfrew.in"
+      url: "https://chrisfrew.in"
+    - name: "xnux.eu"
+      url: "https://xnux.eu"
+    - name: "alexrichey.com"
+      url: "https://alexrichey.com"
+    - name: "bsid.io"
+      url: "https://bsid.io"
+    - name: "techsquidtv.com"
+      url: "https://techsquidtv.com"
+    - name: "lincoln.swaine-moore.is"
+      url: "https://lincoln.swaine-moore.is"
+    - name: "solomon.io"
+      url: "https://solomon.io"
+    - name: "ttntm.me"
+      url: "https://ttntm.me"
+    - name: "blog.zharii.com"
+      url: "https://blog.zharii.com"
+    - name: "tjll.net"
+      url: "https://tjll.net"
+    - name: "notes.volution.ro"
+      url: "https://notes.volution.ro"
+    - name: "boston.conman.org"
+      url: "https://boston.conman.org"
+    - name: "domenicoluciani.com"
+      url: "https://domenicoluciani.com"
+    - name: "objective.st"
+      url: "https://objective.st"
+    - name: "Objective-Smalltalk: now serving its own web site"
+      url: "http://www.objective.st/"
+    - name: "chris.sears.io"
+      url: "https://chris.sears.io"
+    - name: "chollinger.com"
+      url: "https://chollinger.com"
+    - name: "blog.vibemanager.cc"
+      url: "https://blog.vibemanager.cc"
+    - name: "antoniosarro.dev"
+      url: "https://antoniosarro.dev"
+    - name: "matt-rickard.com"
+      url: "https://matt-rickard.com"
+    - name: "phacks.dev"
+      url: "https://phacks.dev"
+    - name: "costacoders.es"
+      url: "https://costacoders.es"
+    - name: "codeyarns.com"
+      url: "https://codeyarns.com"
+    - name: "Show HN: Codewars"
+      url: "http://Codewars.com"
+    - name: "Code Wars (JS, Coffeescript & Ruby)"
+      url: "http://www.codewars.com/"
+    - name: "Bookmarks for Social Coders - Don't fill up your browser's bookmarks"
+      url: "http://www.codemarks.com/"
+    - name: "gregraiz.com"
+      url: "https://gregraiz.com"
+    - name: "sciencemadness.org"
+      url: "https://sciencemadness.org"
+    - name: "makki.moe"
+      url: "https://makki.moe"
+    - name: "rajkumaar.co.in"
+      url: "https://rajkumaar.co.in"
+    - name: "rymc.io"
+      url: "https://rymc.io"
+    - name: "jgthms.com"
+      url: "https://jgthms.com"
+    - name: "simonsarris.com"
+      url: "https://simonsarris.com"
+    - name: "developermarkepear.com"
+      url: "https://developermarkepear.com"
+    - name: "michael-lewis.com/"
+      url: "https://michael-lewis.com/"
+    - name: "joshtronic.com"
+      url: "https://joshtronic.com"
+    - name: "hgarrett.me"
+      url: "https://hgarrett.me"
+    - name: "brajeshwar.com"
+      url: "https://brajeshwar.com"
+    - name: "shufflingbytes.com"
+      url: "https://shufflingbytes.com"
+    - name: "sealedabstract.com"
+      url: "https://sealedabstract.com"
+    - name: "rakhim.exotext.com"
+      url: "https://rakhim.exotext.com"
+    - name: "tcmorris.net"
+      url: "https://tcmorris.net"
+    - name: "hansvl.nl"
+      url: "https://hansvl.nl"
+    - name: "hugotunius.se"
+      url: "https://hugotunius.se"
+    - name: "think-twice.me"
+      url: "https://think-twice.me"
+    - name: "ankitmaloo.com"
+      url: "https://ankitmaloo.com"
+    - name: "pointlessramblings.com"
+      url: "https://pointlessramblings.com"
+    - name: "sharedphysics.com"
+      url: "https://sharedphysics.com"
+    - name: "ianreppel.org"
+      url: "https://ianreppel.org"
+    - name: "brethorsting.com"
+      url: "https://brethorsting.com"
+    - name: "shahpreetk.com"
+      url: "https://shahpreetk.com"
+    - name: "joshstrange.com"
+      url: "https://joshstrange.com"
+    - name: "yyhh.org"
+      url: "https://yyhh.org"
+    - name: "yieldcode.blog"
+      url: "https://yieldcode.blog"
+    - name: "justinmklam.com"
+      url: "https://justinmklam.com"
+    - name: "domwillia.ms"
+      url: "https://domwillia.ms"
+    - name: "arai.dev"
+      url: "https://arai.dev"
+    - name: "bbbhltz.codeberg.page"
+      url: "https://bbbhltz.codeberg.page"
+    - name: "2uo.de"
+      url: "https://2uo.de"
+    - name: "breadchris.com"
+      url: "https://breadchris.com"
+    - name: "travisbumgarner.dev"
+      url: "https://travisbumgarner.dev"
+    - name: "suriya.cc"
+      url: "https://suriya.cc"
+    - name: "rmpr.xyz"
+      url: "https://rmpr.xyz"
+    - name: "newbeelearn.com"
+      url: "https://newbeelearn.com"
+    - name: "williamhuster.com"
+      url: "https://williamhuster.com"
+    - name: "separateconcerns.com"
+      url: "https://separateconcerns.com"
+    - name: "monji.com"
+      url: "https://monji.com"
+    - name: "mattrighetti.com"
+      url: "https://mattrighetti.com"
+    - name: "theghulam.com"
+      url: "https://theghulam.com"
+    - name: "trovster.com"
+      url: "https://trovster.com"
+    - name: "mijndertstuij.nl"
+      url: "https://mijndertstuij.nl"
+    - name: "mikenikles.com"
+      url: "https://mikenikles.com"
+    - name: "jamesg.blog"
+      url: "https://jamesg.blog"
+    - name: "Show HN: Artemis, a Calm Web Reader"
+      url: "https://artemis.jamesg.blog/"
+    - name: "geshan.com.np"
+      url: "https://geshan.com.np"
+    - name: "grgv.xyz"
+      url: "https://grgv.xyz"
+    - name: "encapsulate.me"
+      url: "https://encapsulate.me"
+    - name: "alexmolas.com"
+      url: "https://alexmolas.com"
+    - name: "philipzucker.com"
+      url: "https://philipzucker.com"
+    - name: "ronaldsvilcins.com"
+      url: "https://ronaldsvilcins.com"
+    - name: "xenodium.com"
+      url: "https://xenodium.com"
+    - name: "silvestar.codes"
+      url: "https://silvestar.codes"
+    - name: "Show HN: Code Line Daily"
+      url: "https://cld.silvestar.codes/"
+    - name: "chasem.co"
+      url: "https://chasem.co"
+    - name: "Google Chrome is erroring chase.com for containing malware"
+      url: "https://www.chase.com"
+    - name: "robindeneef.com"
+      url: "https://robindeneef.com"
+    - name: "harrisonbroadbent.com"
+      url: "https://harrisonbroadbent.com"
+    - name: "miscdotgeek.com"
+      url: "https://miscdotgeek.com"
+    - name: "spacedimp.com"
+      url: "https://spacedimp.com"
+    - name: "Show HN: SpacedTime – Remember the important things in your life"
+      url: "https://www.spacedtime.com"
+    - name: "aaeeeoooo.pages.dev"
+      url: "https://aaeeeoooo.pages.dev"
+    - name: "seirdy.one"
+      url: "https://seirdy.one"
+    - name: "joisig.com"
+      url: "https://joisig.com"
+    - name: "abhiraj.co"
+      url: "https://abhiraj.co"
+    - name: "jonpauluritis.com"
+      url: "https://jonpauluritis.com"
+    - name: "joshuarogers.net"
+      url: "https://joshuarogers.net"
+    - name: "jiby.tech"
+      url: "https://jiby.tech"
+    - name: "sadman.ca"
+      url: "https://sadman.ca"
+    - name: "aldur.blog"
+      url: "https://aldur.blog"
+    - name: "jonandnic.com"
+      url: "https://jonandnic.com"
+    - name: "andy-bell.co.uk"
+      url: "https://andy-bell.co.uk"
+    - name: "notes.npilk.com"
+      url: "https://notes.npilk.com"
+    - name: "notesbylex.com"
+      url: "https://notesbylex.com"
+    - name: "mattmichie.com"
+      url: "https://mattmichie.com"
+    - name: "nonhuman.party"
+      url: "https://nonhuman.party"
+    - name: "yagmurtas.com"
+      url: "https://yagmurtas.com"
+    - name: "some-natalie.dev"
+      url: "https://some-natalie.dev"
+    - name: "shyamjos.com"
+      url: "https://shyamjos.com"
+    - name: "nithinbekal.com"
+      url: "https://nithinbekal.com"
+    - name: "rockoder.com"
+      url: "https://rockoder.com"
+    - name: "vereis.com"
+      url: "https://vereis.com"
+    - name: "notoriousbfg.com"
+      url: "https://notoriousbfg.com"
+    - name: "stavros.io"
+      url: "https://stavros.io"
+    - name: "Show HN: Tired of mobile games with IAP and ads, I made No-Bullshit Games"
+      url: "https://nobsgames.stavros.io/"
+    - name: "Show HN: Tired of the non-portability of my playlists, I wrote my own format"
+      url: "http://universalplaylist.stavros.io/"
+    - name: "undeleted.ronsor.com"
+      url: "https://undeleted.ronsor.com"
+    - name: "tn1ck.com"
+      url: "https://tn1ck.com"
+    - name: "adrianmouat.com"
+      url: "https://adrianmouat.com"
+    - name: "wyounas.com"
+      url: "https://wyounas.com"
+    - name: "adriel.sandcastle.eu.org"
+      url: "https://adriel.sandcastle.eu.org"
+    - name: "notes.ghed.in"
+      url: "https://notes.ghed.in"
+    - name: "rushter.com"
+      url: "https://rushter.com"
+    - name: "lengrand.fr"
+      url: "https://lengrand.fr"
+    - name: "muffinman.io"
+      url: "https://muffinman.io"
+    - name: "weakphi.sh"
+      url: "https://weakphi.sh"
+    - name: "bhankas.org"
+      url: "https://bhankas.org"
+    - name: "op111.net"
+      url: "https://op111.net"
+    - name: "amitness.com"
+      url: "https://amitness.com"
+    - name: "roytang.net"
+      url: "https://roytang.net"
+    - name: "alfg.dev"
+      url: "https://alfg.dev"
+    - name: "nicollet.net"
+      url: "https://nicollet.net"
+    - name: "observationalhazard.com"
+      url: "https://observationalhazard.com"
+    - name: "zenadi.com"
+      url: "https://zenadi.com"
+    - name: "akshay326.com"
+      url: "https://akshay326.com"
+    - name: "explosionduck.com"
+      url: "https://explosionduck.com"
+    - name: "saurish.com"
+      url: "https://saurish.com"
+    - name: "aarol.dev"
+      url: "https://aarol.dev"

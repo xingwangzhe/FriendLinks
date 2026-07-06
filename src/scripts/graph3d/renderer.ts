@@ -1,7 +1,7 @@
 /**
  * Three.js 原生渲染层
  * 替代 3d-force-graph：单层 InstancedMesh + LineSegments + OrbitControls
- * 
+ *
  * v2: 贝塞尔曲线连线 + 流动粒子
  */
 import * as THREE from "three";
@@ -47,9 +47,15 @@ export interface NodeState {
 
 /** 缓存的边几何数据（包括贝塞尔控制点） */
 interface EdgeData {
-  sx: number; sy: number; sz: number;  // source
-  ex: number; ey: number; ez: number;  // target
-  cx: number; cy: number; cz: number;  // control point
+  sx: number;
+  sy: number;
+  sz: number; // source
+  ex: number;
+  ey: number;
+  ez: number; // target
+  cx: number;
+  cy: number;
+  cz: number; // control point
 }
 
 // ─── 常量 ──────────────────────────────────────────────────────────
@@ -71,11 +77,11 @@ function bezier(s: number, c: number, e: number, t: number): number {
 }
 
 /** 计算垂直于边方向的偏移方向（在 XZ 平面） */
-function calcControlOffset(
-  dx: number, dy: number, dz: number, len: number,
-): { ox: number; oy: number; oz: number } {
+function calcControlOffset(dx: number, dy: number, dz: number, len: number): { ox: number; oy: number; oz: number } {
   if (len < 0.001) return { ox: 0, oy: 0, oz: 1 };
-  const nx = dx / len, ny = dy / len, nz = dz / len;
+  const nx = dx / len,
+    ny = dy / len,
+    nz = dz / len;
   // 叉积 (nx,ny,nz) × (0,1,0) = (nz, 0, -nx)，若边接近垂直则用 (1,0,0)
   const up = Math.abs(ny) > 0.99 ? { x: 1, y: 0, z: 0 } : { x: 0, y: 1, z: 0 };
   const ox = ny * up.z - nz * up.y;
@@ -187,8 +193,15 @@ export function createRenderer(container: HTMLElement, nodeCount: number, linkCo
   composer.addPass(new EffectPass(camera, bloomPass));
 
   return {
-    scene, camera, renderer, controls, nodes, linkLines, dummy,
-    composer, bloomPass,
+    scene,
+    camera,
+    renderer,
+    controls,
+    nodes,
+    linkLines,
+    dummy,
+    composer,
+    bloomPass,
     particles: null,
     edgeRefs: [],
     nodeGlow: null,
@@ -220,10 +233,18 @@ export function updateLinkPositions(
     }
     const sn = graphNodes[si];
     const tn = graphNodes[ti];
-    const sx = sn.x ?? 0, sy = sn.y ?? 0, sz = sn.z ?? 0;
-    const ex = tn.x ?? 0, ey = tn.y ?? 0, ez = tn.z ?? 0;
-    const mx = (sx + ex) / 2, my = (sy + ey) / 2, mz = (sz + ez) / 2;
-    const dx = ex - sx, dy = ey - sy, dz = ez - sz;
+    const sx = sn.x ?? 0,
+      sy = sn.y ?? 0,
+      sz = sn.z ?? 0;
+    const ex = tn.x ?? 0,
+      ey = tn.y ?? 0,
+      ez = tn.z ?? 0;
+    const mx = (sx + ex) / 2,
+      my = (sy + ey) / 2,
+      mz = (sz + ez) / 2;
+    const dx = ex - sx,
+      dy = ey - sy,
+      dz = ez - sz;
     const len = Math.sqrt(dx * dx + dy * dy + dz * dz) || 1;
     const offset = calcControlOffset(dx, dy, dz, len);
     const bend = Math.min(len * 0.18, 8000);
@@ -241,14 +262,14 @@ export function updateLinkPositions(
       const t0 = j / EDGE_SEGMENTS;
       const t1 = (j + 1) / EDGE_SEGMENTS;
       const base = (i * EDGE_SEGMENTS + j) * 6;
-      pos[base]     = bezier(sx, cx, ex, t0);
+      pos[base] = bezier(sx, cx, ex, t0);
       pos[base + 1] = bezier(sy, cy, ey, t0);
       pos[base + 2] = bezier(sz, cz, ez, t0);
       pos[base + 3] = bezier(sx, cx, ex, t1);
       pos[base + 4] = bezier(sy, cy, ey, t1);
       pos[base + 5] = bezier(sz, cz, ez, t1);
       // 顶点颜色：按 t 在源→目标之间插值
-      col[base]     = srcCol.r + (tgtCol.r - srcCol.r) * t0;
+      col[base] = srcCol.r + (tgtCol.r - srcCol.r) * t0;
       col[base + 1] = srcCol.g + (tgtCol.g - srcCol.g) * t0;
       col[base + 2] = srcCol.b + (tgtCol.b - srcCol.b) * t0;
       col[base + 3] = srcCol.r + (tgtCol.r - srcCol.r) * t1;
@@ -318,7 +339,7 @@ export function updateParticles(ctx: RenderContext, delta: number) {
     if (ei >= edges.length) continue;
     const e = edges[ei];
     const t = p.progress[i];
-    pos[i * 3]     = bezier(e.sx, e.cx, e.ex, t);
+    pos[i * 3] = bezier(e.sx, e.cx, e.ex, t);
     pos[i * 3 + 1] = bezier(e.sy, e.cy, e.ey, t);
     pos[i * 3 + 2] = bezier(e.sz, e.cz, e.ez, t);
   }
@@ -381,7 +402,7 @@ export function createNodeGlow(
 
   const glowTex = createGlowTexture();
   const mat = new THREE.ShaderMaterial({
-    uniforms: { 
+    uniforms: {
       glowTex: { value: glowTex },
       glowIntensity: { value: 1.0 },
     },
@@ -500,7 +521,10 @@ export function zoomToFit(
   if (!graphNodes.length) return;
 
   // 度数加权中心：密集区权重高
-  let cx = 0, cy = 0, cz = 0, tw = 0;
+  let cx = 0,
+    cy = 0,
+    cz = 0,
+    tw = 0;
   for (const n of graphNodes) {
     const w = degreeMap ? Math.max(1, degreeMap[n.id] || 0) : 1;
     cx += (n.x ?? 0) * w;

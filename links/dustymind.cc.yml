@@ -1,10 +1,10 @@
 site:
-  name: 'dustymind.cc'
-  url: 'https://dustymind.cc/'
-  description: '友情链接'
-  links: '/friends'
+  name: "dustymind.cc"
+  url: "https://dustymind.cc/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'chihuo2104の部落格'
-      url: 'https://blog.chihuo2104.dev/'
-    - name: 'Guanran928 的博客'
-      url: 'https://blog.ny4.dev'
+    - name: "chihuo2104の部落格"
+      url: "https://blog.chihuo2104.dev/"
+    - name: "Guanran928 的博客"
+      url: "https://blog.ny4.dev"

@@ -11,18 +11,14 @@ export const button = tv({
   variants: {
     variant: {
       default: "bg-foreground text-background hover:bg-foreground/90 focus-visible:ring-outline/50",
-      primary:
-        "bg-primary text-primary-foreground hover:bg-primary/90 focus-visible:ring-primary/50",
-      secondary:
-        "bg-secondary text-secondary-foreground hover:bg-secondary/90 focus-visible:ring-secondary/50",
+      primary: "bg-primary text-primary-foreground hover:bg-primary/90 focus-visible:ring-primary/50",
+      secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/90 focus-visible:ring-secondary/50",
       outline:
         "dark:border-input focus-visible:ring-outline/50 bg-background dark:bg-input/30 focus-visible:border-outline hover:bg-muted dark:hover:bg-input/50 hover:text-foreground border shadow-xs",
       ghost: "hover:bg-muted hover:text-foreground focus-visible:ring-outline/50",
       info: "bg-info text-info-foreground hover:bg-info/90 focus-visible:ring-info/50",
-      success:
-        "bg-success text-success-foreground hover:bg-success/90 focus-visible:ring-success/50",
-      warning:
-        "bg-warning text-warning-foreground hover:bg-warning/90 focus-visible:ring-warning/50",
+      success: "bg-success text-success-foreground hover:bg-success/90 focus-visible:ring-success/50",
+      warning: "bg-warning text-warning-foreground hover:bg-warning/90 focus-visible:ring-warning/50",
       error: "bg-error text-error-foreground hover:bg-error/90 focus-visible:ring-error/50",
     },
     size: {

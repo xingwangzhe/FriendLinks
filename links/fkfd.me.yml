@@ -1,24 +1,24 @@
 site:
-  name: 'fkfd.me'
-  url: 'https://fkfd.me/'
-  description: '友情链接'
-  links: '/links'
+  name: "fkfd.me"
+  url: "https://fkfd.me/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'mitxela'
-      url: 'https://mitxela.com/'
-    - name: 'Seirdy'
-      url: 'https://seirdy.one/'
-    - name: 'paritybit.ca'
-      url: 'https://www.paritybit.ca/'
-    - name: 'Dvel'
-      url: 'https://dvel.me/'
-    - name: 'maia'
-      url: 'https://maia.crimew.gay/'
-    - name: 'Linsy'
-      url: 'https://blog.yydbxx.cn/'
-    - name: 'Xenia, the Linux mascot'
-      url: 'https://xenia-linux-site.glitch.me/'
-    - name: 'Let''s Surf'
-      url: 'https://surf.jackbuehner.com/'
-    - name: 'Extra Ordinary'
-      url: 'https://www.exocomics.com/'
+    - name: "mitxela"
+      url: "https://mitxela.com/"
+    - name: "Seirdy"
+      url: "https://seirdy.one/"
+    - name: "paritybit.ca"
+      url: "https://www.paritybit.ca/"
+    - name: "Dvel"
+      url: "https://dvel.me/"
+    - name: "maia"
+      url: "https://maia.crimew.gay/"
+    - name: "Linsy"
+      url: "https://blog.yydbxx.cn/"
+    - name: "Xenia, the Linux mascot"
+      url: "https://xenia-linux-site.glitch.me/"
+    - name: "Let's Surf"
+      url: "https://surf.jackbuehner.com/"
+    - name: "Extra Ordinary"
+      url: "https://www.exocomics.com/"

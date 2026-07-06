@@ -1,64 +1,64 @@
 site:
-  name: 'Liu Zijian'
-  url: 'https://blog.liuzijian.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "Liu Zijian"
+  url: "https://blog.liuzijian.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '鸦鸦的巢穴 在乌鸦统治的世界里，洁白的羽毛是有罪的。'
-      url: 'https://crowya.com'
-    - name: '九陌斋博客 每一条思想的道路都通向知识的繁华！'
-      url: 'https://blog.jiumoz.com'
-    - name: '小小黑的个人小站 技术宅拯救世界'
-      url: 'https://lonelyenderman.top/'
-    - name: '陶其的个人博客 当下，即是未来'
-      url: 'https://www.tqazy.com'
-    - name: 'iMaeGoo’s Blog 虹墨空间站'
-      url: 'https://www.imaegoo.com'
-    - name: 'echeverra let''s go, together!'
-      url: 'https://echeverra.cn'
-    - name: '陈冬冬博客 欢迎到访陈冬冬的个人经验整理分享平台'
-      url: 'https://www.chendd.cn'
-    - name: '故人随笔 寒江孤影，江湖故人'
-      url: 'https://ifwww.com'
-    - name: '知行博客 Java开发代码实战，搜你所需，快速CV，早点下班～'
-      url: 'https://zxalive.com/'
-    - name: '星系天文学 用生活的画笔绘制星空，用技术的光芒点亮夜空'
-      url: 'https://www.xxtwx.com/'
-    - name: '张洪Heo 分享设计与科技生活'
-      url: 'https://blog.zhheo.com/'
-    - name: '希乐博客 总有人间人间一两风，吹我十万八千梦'
-      url: 'https://blog.xlenco.top'
-    - name: 'FunnyWii''s Zone 算法攻城狮/皮具爱好者/摩托骑不倒/吉他能出声'
-      url: 'https://funnywii.com'
-    - name: '郭同学的笔记本 行己所爱，爱己所行'
-      url: 'http://lovexl.top'
-    - name: '阿锦在线 记录生活点滴！'
-      url: 'https://www.ajinol.com'
-    - name: '無.Flac Indulge in Sound Effects'
-      url: 'https://w-flac.org.cn/'
-    - name: '哈利の小屋 Java小白的进阶之路'
-      url: 'https://blog.kangyaocoding.top'
-    - name: 'WXY 工欲善其事，必先利其器'
-      url: 'https://www.wxy97.com'
-    - name: 'pidanxia’ s Blog 一个有梦想的程序员～~'
-      url: 'https://pidanxia.ink/'
-    - name: '顾梦 不想满心遗憾，那就全力以赴.'
-      url: 'https://blog.gumengyo.top'
-    - name: '良的世界 忙点充实，闲点自在'
-      url: 'https://www.lemonary.cn/'
-    - name: 'WQG A SIMPLE BLOG.'
-      url: 'https://wqg.life/'
-    - name: 'zhyyao 记录和分享学习经验，永远保持一颗学徒之心。'
-      url: 'https://zhyyao.me'
-    - name: 'KEVIN''S BLOG Kevin的博客'
-      url: 'https://blog.kevinchu.top/'
-    - name: 'Liu Houliang 日常摸鱼，偶尔写go'
-      url: 'https://liuhouliang.com'
-    - name: '橘智的安宁之地 共享博客&深度思考。'
-      url: 'https://juzhiart.com'
-    - name: '天渺studio'
-      url: 'https://tianmiao.site'
-    - name: '小码同学'
-      url: 'https://blog.hikki.site'
-    - name: 'Unicorn'
-      url: 'https://blog.unicornit.cn/'
+    - name: "鸦鸦的巢穴 在乌鸦统治的世界里，洁白的羽毛是有罪的。"
+      url: "https://crowya.com"
+    - name: "九陌斋博客 每一条思想的道路都通向知识的繁华！"
+      url: "https://blog.jiumoz.com"
+    - name: "小小黑的个人小站 技术宅拯救世界"
+      url: "https://lonelyenderman.top/"
+    - name: "陶其的个人博客 当下，即是未来"
+      url: "https://www.tqazy.com"
+    - name: "iMaeGoo’s Blog 虹墨空间站"
+      url: "https://www.imaegoo.com"
+    - name: "echeverra let's go, together!"
+      url: "https://echeverra.cn"
+    - name: "陈冬冬博客 欢迎到访陈冬冬的个人经验整理分享平台"
+      url: "https://www.chendd.cn"
+    - name: "故人随笔 寒江孤影，江湖故人"
+      url: "https://ifwww.com"
+    - name: "知行博客 Java开发代码实战，搜你所需，快速CV，早点下班～"
+      url: "https://zxalive.com/"
+    - name: "星系天文学 用生活的画笔绘制星空，用技术的光芒点亮夜空"
+      url: "https://www.xxtwx.com/"
+    - name: "张洪Heo 分享设计与科技生活"
+      url: "https://blog.zhheo.com/"
+    - name: "希乐博客 总有人间人间一两风，吹我十万八千梦"
+      url: "https://blog.xlenco.top"
+    - name: "FunnyWii's Zone 算法攻城狮/皮具爱好者/摩托骑不倒/吉他能出声"
+      url: "https://funnywii.com"
+    - name: "郭同学的笔记本 行己所爱，爱己所行"
+      url: "http://lovexl.top"
+    - name: "阿锦在线 记录生活点滴！"
+      url: "https://www.ajinol.com"
+    - name: "無.Flac Indulge in Sound Effects"
+      url: "https://w-flac.org.cn/"
+    - name: "哈利の小屋 Java小白的进阶之路"
+      url: "https://blog.kangyaocoding.top"
+    - name: "WXY 工欲善其事，必先利其器"
+      url: "https://www.wxy97.com"
+    - name: "pidanxia’ s Blog 一个有梦想的程序员～~"
+      url: "https://pidanxia.ink/"
+    - name: "顾梦 不想满心遗憾，那就全力以赴."
+      url: "https://blog.gumengyo.top"
+    - name: "良的世界 忙点充实，闲点自在"
+      url: "https://www.lemonary.cn/"
+    - name: "WQG A SIMPLE BLOG."
+      url: "https://wqg.life/"
+    - name: "zhyyao 记录和分享学习经验，永远保持一颗学徒之心。"
+      url: "https://zhyyao.me"
+    - name: "KEVIN'S BLOG Kevin的博客"
+      url: "https://blog.kevinchu.top/"
+    - name: "Liu Houliang 日常摸鱼，偶尔写go"
+      url: "https://liuhouliang.com"
+    - name: "橘智的安宁之地 共享博客&深度思考。"
+      url: "https://juzhiart.com"
+    - name: "天渺studio"
+      url: "https://tianmiao.site"
+    - name: "小码同学"
+      url: "https://blog.hikki.site"
+    - name: "Unicorn"
+      url: "https://blog.unicornit.cn/"

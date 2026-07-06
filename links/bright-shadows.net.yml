@@ -1,38 +1,38 @@
 site:
-  name: 'bright-shadows.net'
-  url: 'http://bright-shadows.net/'
-  description: '友情链接'
-  links: '/link'
+  name: "bright-shadows.net"
+  url: "http://bright-shadows.net/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: 'HackQuest'
-      url: 'http://www.hackquest.com/'
-    - name: 'Blind-Dice'
-      url: 'http://www.blind-dice.com/'
-    - name: 'Net Force'
-      url: 'http://www.net-force.nl/'
-    - name: 'hackits.de'
-      url: 'http://www.hackits.de'
-    - name: 'OSIX'
-      url: 'http://www.osix.net'
-    - name: 'MiB''s Challenges'
-      url: 'http://www.mibs-challenges.de/'
-    - name: 'DareYourMind'
-      url: 'http://dareyourmind.net/'
-    - name: 'Project Euler'
-      url: 'http://projecteuler.net/'
-    - name: 'cgisecurity'
-      url: 'http://cgisecurity.com/'
-    - name: 'guninski.com'
-      url: 'http://www.guninski.com/'
-    - name: 'SecurityFocus'
-      url: 'http://www.securityfocus.com/'
-    - name: 'Google Hacking Database (GHDB)'
-      url: 'http://johnny.ihackstuff.com'
-    - name: 'Hackers-News'
-      url: 'http://www.hackers-news.com'
-    - name: 'HackersCenter'
-      url: 'http://www.hackerscenter.com'
-    - name: 'milw0rm'
-      url: 'http://www.milw0rm.com'
-    - name: 'alt3rn4tiv3'
-      url: 'http://altblog.searix.net/'
+    - name: "HackQuest"
+      url: "http://www.hackquest.com/"
+    - name: "Blind-Dice"
+      url: "http://www.blind-dice.com/"
+    - name: "Net Force"
+      url: "http://www.net-force.nl/"
+    - name: "hackits.de"
+      url: "http://www.hackits.de"
+    - name: "OSIX"
+      url: "http://www.osix.net"
+    - name: "MiB's Challenges"
+      url: "http://www.mibs-challenges.de/"
+    - name: "DareYourMind"
+      url: "http://dareyourmind.net/"
+    - name: "Project Euler"
+      url: "http://projecteuler.net/"
+    - name: "cgisecurity"
+      url: "http://cgisecurity.com/"
+    - name: "guninski.com"
+      url: "http://www.guninski.com/"
+    - name: "SecurityFocus"
+      url: "http://www.securityfocus.com/"
+    - name: "Google Hacking Database (GHDB)"
+      url: "http://johnny.ihackstuff.com"
+    - name: "Hackers-News"
+      url: "http://www.hackers-news.com"
+    - name: "HackersCenter"
+      url: "http://www.hackerscenter.com"
+    - name: "milw0rm"
+      url: "http://www.milw0rm.com"
+    - name: "alt3rn4tiv3"
+      url: "http://altblog.searix.net/"

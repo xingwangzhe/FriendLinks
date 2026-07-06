@@ -1,332 +1,332 @@
 site:
-  name: 'kwon.nyc'
-  url: 'https://kwon.nyc/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "kwon.nyc"
+  url: "https://kwon.nyc/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: 'Data Driven Products Now!'
-      url: 'https://datadriven.club/'
-    - name: 'Asian Food Dictionary'
-      url: 'https://asianfooddictionary.com/'
-    - name: 'nightfall.city'
-      url: 'https://nightfall.city/'
-    - name: 'The Architecture of Silence.'
-      url: 'https://architectureofsilence.com/'
-    - name: 'This used bookstore on the Lower East Side takes book donations in exchange for'
-      url: 'https://www.sweetpicklebooks.com/'
-    - name: 'citymeetings.nyc'
-      url: 'https://citymeetings.nyc/'
-    - name: 'End of the Internet'
-      url: 'https://hmpg.net/'
-    - name: 'Check This Out — Borrow or reserve a book in Libby with just a few taps'
-      url: 'https://checkthisout.today/'
-    - name: 'Footer — The only footer gallery on earth.'
-      url: 'https://www.footer.design/'
-    - name: 'RamenHaus'
-      url: 'https://ramen.haus/'
-    - name: 'Rocumentaries'
-      url: 'https://rocumentaries.com/'
-    - name: 'Phosphor Icons'
-      url: 'https://phosphoricons.com/'
-    - name: 'Very Good Films'
-      url: 'https://verygoodfilms.co/'
-    - name: 'BIPOC Design History'
-      url: 'https://bipocdesignhistory.com/'
-    - name: 'archives.design'
-      url: 'https://archives.design/'
-    - name: 'Flat Journal'
-      url: 'https://flatjournal.com/'
-    - name: 'REAS.com is a database for Casey REAS'
-      url: 'https://reas.com/'
-    - name: 'You don''t need a modal window'
-      url: 'https://youdontneedamodalwindow.dev/'
-    - name: 'Five Books - The Best Books Recommended by Experts'
-      url: 'https://fivebooks.com/'
-    - name: 'Websafe 2k16'
-      url: 'https://websafe2k16.com/'
-    - name: 'Trust'
-      url: 'https://trust.support/'
-    - name: 'Toby Shorin'
-      url: 'https://tobyshorin.com/'
-    - name: 'Slower News'
-      url: 'https://www.slowernews.com/'
-    - name: 'Modern Font Stacks'
-      url: 'https://modernfontstacks.com/'
-    - name: 'kening zhu'
-      url: 'https://keningzhu.com/'
-    - name: 'Bring Back Blogs! January 2023'
-      url: 'https://bringback.blog/'
-    - name: 'Home · Ivy Zhang'
-      url: 'https://ivyzhang.me/'
-    - name: 'Christina (CJ) Jones'
-      url: 'https://www.jonesish.com/'
-    - name: 'Transit Maps'
-      url: 'https://transitmap.net/'
-    - name: 'sondering.blog – Thoughts and sketches from Susan’s desk.'
-      url: 'https://sondering.blog/'
-    - name: 'Notes from Ash Huang'
-      url: 'https://notes.ashsmash.com/'
-    - name: 'Daniël van der Winden'
-      url: 'https://www.daniel.pizza/'
-    - name: 'The Farmer & Farmer Review'
-      url: 'http://farmerandfarmer.org/'
-    - name: 'Johnny Rodgers'
-      url: 'https://johnnyrodgers.is/'
-    - name: 'Teach Yourself Computer Science'
-      url: 'https://teachyourselfcs.com/'
-    - name: 'Tom Critchlow. Move. Think. Create.'
-      url: 'https://tomcritchlow.com/'
-    - name: 'Liyan Zhao'
-      url: 'https://www.liyanzhao.com/'
-    - name: 'bt.ht'
-      url: 'https://bt.ht/'
-    - name: 'Szymon Kaliski'
-      url: 'https://szymonkaliski.com/'
-    - name: 'Timothée Goguely'
-      url: 'https://timothee.goguely.com/'
-    - name: 'localghost'
-      url: 'https://localghost.dev/'
-    - name: 'Cap Watkins - Product & Design Strategy'
-      url: 'https://capwatkins.com/'
-    - name: 'Comprehensive.io - Pay Range Tracker'
-      url: 'https://www.comprehensive.io/'
-    - name: 'Poor Man''s Styleguide | A frontend styleguide for the pragmatic'
-      url: 'https://poormansstyleguide.com/'
-    - name: 'sanlive.com — My home on the internet.'
-      url: 'https://sanlive.com/'
-    - name: 'DYSKE'
-      url: 'https://dyske.com/'
-    - name: 'Webpage archive'
-      url: 'https://archive.ph/'
-    - name: 'Mark Hurrell'
-      url: 'https://mhurrell.co.uk/'
-    - name: 'Greg Hochmuth · Art plus/minus Data'
-      url: 'https://grex.nyc/'
-    - name: 'PanWriter'
-      url: 'https://panwriter.com/'
-    - name: 'Explore Popular Debates, Discussions and Critical Thinking…'
-      url: 'https://www.kialo.com/'
-    - name: 'Free online paywall remover'
-      url: 'https://www.removepaywall.com/'
-    - name: '12ft – Hop any paywall'
-      url: 'https://12ft.io/'
-    - name: 'Manila Folders'
-      url: 'https://manila-folders.com/'
-    - name: 'Real Time Web Analytics & Marketing Attribution Tools - Gauges'
-      url: 'https://get.gaug.es/'
-    - name: 'Parker Henderson'
-      url: 'https://www.parkerhendo.com/'
-    - name: 'The Kool Aid Factory :: All Zines'
-      url: 'https://koolaidfactory.com/'
-    - name: 'Yitong Zhang'
-      url: 'https://www.zhayitong.com/'
-    - name: 'Renlord Yang | Renlord''s Webpage'
-      url: 'https://renlord.com/'
-    - name: 'Cam Pegg'
-      url: 'https://campegg.com/'
-    - name: 'Old Fashioned'
-      url: 'https://oldfashioned.tech/'
-    - name: 'Ben Werdmuller'
-      url: 'https://werd.io/'
-    - name: 'Me, But Online'
-      url: 'https://www.mebut.online/'
-    - name: 'Homepage - Hell Gate'
-      url: 'https://hellgatenyc.com/'
-    - name: 'Inbox When Ready – Protect your focus'
-      url: 'https://inboxwhenready.org/'
-    - name: 'LGBTQ+ Healthcare Directory'
-      url: 'https://lgbtqhealthcaredirectory.org/'
-    - name: 'Small Seasons'
-      url: 'https://smallseasons.guide/'
-    - name: 'Random Notes'
-      url: 'https://scottnesbitt.online/'
-    - name: 'agbero.dev – Korede Aderele'
-      url: 'https://agbero.dev/'
-    - name: 'A blog by Alessia Bellisario | anti/pattern'
-      url: 'https://aless.co/'
-    - name: 'Webdesign as architecture'
-      url: 'http://www--arc.com/'
-    - name: 'Webring'
-      url: 'https://webring.recurse.com/'
-    - name: 'Wesley’s Notebook'
-      url: 'https://notebook.wesleyac.com/'
-    - name: 'Duarte O.Carmo'
-      url: 'https://duarteocarmo.com/'
-    - name: 'Grumpy Website'
-      url: 'https://grumpy.website/'
-    - name: 'Terra'
-      url: 'https://terra.finzdani.net/'
-    - name: 'The Forest'
-      url: 'https://theforest.link/'
-    - name: 'warmly'
-      url: 'http://warmly.glitch.me/'
-    - name: 'macwright.com'
-      url: 'https://macwright.com/'
-    - name: 'The Big List of Personal Websites'
-      url: 'http://biglist.terraaeon.com/'
-    - name: 'icyphox'
-      url: 'https://icyphox.sh/'
-    - name: 'The Programmer''s Paradox'
-      url: 'https://theprogrammersparadox.blogspot.com/'
-    - name: 'Ye Olde Blogroll - Blogroll.org'
-      url: 'https://blogroll.org/'
-    - name: 'Piper Haywood — If lost, please return'
-      url: 'https://piperhaywood.com/'
-    - name: 'thesephist.com'
-      url: 'https://thesephist.com/'
-    - name: 'Whatever | FURIOUSLY REASONABLE'
-      url: 'https://whatever.scalzi.com/'
-    - name: 'Serena Chen'
-      url: 'https://serena.nz/'
-    - name: 'How to professionally say'
-      url: 'https://howtoprofessionallysay.akashrajpurohit.com/'
-    - name: 'indieblog.page'
-      url: 'https://indieblog.page/'
-    - name: 'Webring'
-      url: 'https://webring.xxiivv.com/#xxiivv'
-    - name: 'IndieWebify.Me - a guide to getting you on the IndieWeb'
-      url: 'https://indiewebify.me/'
-    - name: 'Hugo''s Blog'
-      url: 'https://hugo.md/'
-    - name: 'Aza Raskin'
-      url: 'https://aza.wtf/'
-    - name: 'Learn fingerspelling'
-      url: 'https://fingerspell.glitch.me/'
-    - name: 'Later - Save your Mac apps for later'
-      url: 'https://getlater.app/'
-    - name: 'Winnie Lim'
-      url: 'https://winnielim.org/'
-    - name: 'The Young Jerks'
-      url: 'https://youngjerks.com/'
-    - name: 'Arun Prasad'
-      url: 'https://arunkprasad.com/'
-    - name: 'Lobsters'
-      url: 'https://lobste.rs/'
-    - name: 'Farewill'
-      url: 'https://farewill.com/'
-    - name: 'Sarah Drasner''s Site'
-      url: 'https://sarahdrasnerdesign.com/'
-    - name: 'Crying in Public'
-      url: 'https://cryinginpublic.com/'
-    - name: 'Tech Solidarity'
-      url: 'https://techsolidarity.org/'
-    - name: 'Idle Words'
-      url: 'https://idlewords.com/'
-    - name: 'Good Things'
-      url: 'https://goodthings.melanie-richards.com/'
-    - name: 'Winamp Skin Museum'
-      url: 'https://skins.webamp.org/'
-    - name: 'Our World in Data'
-      url: 'https://ourworldindata.org/'
-    - name: 'VJ Type Typefaces'
-      url: 'https://vj-type.com/'
-    - name: 'Buster''s Notes - Notes'
-      url: 'https://notes.busterbenson.com/'
-    - name: 'Learn ASL fingerspelling with your webcam and machine learning'
-      url: 'https://fingerspelling.xyz/'
-    - name: 'muan.co'
-      url: 'https://muan.co/'
-    - name: 'www.joshwcomeau.com'
-      url: 'https://www.joshwcomeau.com/'
-    - name: 'Michelle Lim'
-      url: 'https://www.michellelim.org/'
-    - name: 'Death to Bullshit'
-      url: 'https://deathtobullshit.com/'
-    - name: 'blot.im'
-      url: 'https://blot.im/'
-    - name: 'annualbeta'
-      url: 'https://annualbeta.com/'
-    - name: 'hotline webring'
-      url: 'https://hotlinewebring.club/'
-    - name: 'tobiasschmidt.me'
-      url: 'https://tobiasschmidt.me/'
-    - name: 'Manuel Moreale'
-      url: 'https://manuelmoreale.com/'
-    - name: 'Setups'
-      url: 'https://setups.co/'
-    - name: 'Le Puzz Jigsaw Puzzles'
-      url: 'https://lepuzz.com/'
-    - name: 'Documentaries - watch free online documentaries - ihavenotv.com'
-      url: 'https://ihavenotv.com/'
-    - name: 'Maybe this movie recommendation site will cut down on the time I spend deciding'
-      url: 'https://agoodmovietowatch.com/'
-    - name: 'Nestflix'
-      url: 'https://nestflix.fun/'
-    - name: 'Jade Purple Brown'
-      url: 'https://jadepurplebrown.com/'
-    - name: 'Directed By Women'
-      url: 'https://directed-by-women.vercel.app/'
-    - name: 'Free open-source health icons. Cute!'
-      url: 'https://healthicons.org/'
-    - name: 'ENS'
-      url: 'https://ens.domains/'
-    - name: 'Home | Cups of Tea | Book Review Blog'
-      url: 'https://www.cupsoftea.xyz/'
-    - name: 'www.karenhan.org'
-      url: 'https://www.karenhan.org/#about'
-    - name: 'Airport Codes'
-      url: 'https://airportcod.es/'
-    - name: '&yet'
-      url: 'https://andyet.com/'
-    - name: 'Font Review Journal'
-      url: 'https://fontreviewjournal.com/'
-    - name: 'Rin Kim'
-      url: 'https://rinkim.com/'
-    - name: 'Automate your outgoing webmentions'
-      url: 'https://webmention.app/'
-    - name: 'Homepage - Chris Coyier'
-      url: 'https://chriscoyier.net/'
-    - name: 'tina.io'
-      url: 'https://tina.io/'
-    - name: 'Home | Carolyn Stransky'
-      url: 'https://workwithcarolyn.com/'
-    - name: 'Marguerite Roth | Product Designer & Developer'
-      url: 'https://marguerite.io/'
-    - name: 'Amber Thomas Data Portfolio & Blog | Amber Thomas Data Portfolio & Blog'
-      url: 'https://amber.rbind.io/'
-    - name: 'Pro Bono ASL'
-      url: 'https://www.probonoasl.com/'
-    - name: 'The Markup'
-      url: 'https://themarkup.org/'
-    - name: 'Venmo is public by default'
-      url: 'https://publicbydefault.fyi/'
-    - name: '22.8miles = Hang Do Thi Duc'
-      url: 'https://22-8miles.com/'
-    - name: 'Are monospace fonts trending?'
-      url: 'http://1984.vc/'
-    - name: 'Give Blck'
-      url: 'https://www.giveblck.org/'
-    - name: 'Standards'
-      url: 'https://standards.site/'
-    - name: 'www.opaltometi.org'
-      url: 'https://www.opaltometi.org/'
-    - name: 'Support your local bookstore, if you''re willing and able, during the pandemic (I'
-      url: 'https://bookstorelink.com/'
-    - name: 'Amanda Phingbodhipakkiya—Multidisciplinary Artist'
-      url: 'https://www.alonglastname.com/'
-    - name: 'Pink bags of Chinatown'
-      url: 'http://wendymacnaughton.com/#portfolio#PinkBags-Full'
-    - name: 'Andrew Leguay Folio20'
-      url: 'https://www.andrewleguay.com/'
-    - name: 'tweetmugz.com'
-      url: 'https://tweetmugz.com/'
-    - name: 'The portfolio of Jon Arne Berg'
-      url: 'http://jonarneberg.no/'
-    - name: 'Salary or Equity'
-      url: 'https://salaryorequity.com/'
-    - name: 'CAPTURED: People in Prison Drawing People Who Should Be'
-      url: 'https://thecapturedproject.com/'
-    - name: 'work.co'
-      url: 'https://work.co/'
-    - name: 'Built By Buffalo | Award Winning Web Design & Creative Agency'
-      url: 'https://builtbybuffalo.com/'
-    - name: 'NSDateFormatter.com - Easy Skeezy Date Formatting for Swift and Objective-C'
-      url: 'https://nsdateformatter.com/'
-    - name: 'Thing I didn''t know was missing from my life: NYC Parks has a Street Tree Map of'
-      url: 'https://tree-map.nycgovparks.org/'
-    - name: 'Tutorials for Craft CMS - Straight Up Craft'
-      url: 'https://straightupcraft.com/'
-    - name: 'Queering the Map'
-      url: 'https://www.queeringthemap.com/'
-    - name: 'Pixel Art to CSS'
-      url: 'http://pixelart.jvrpath.com/'
+    - name: "Data Driven Products Now!"
+      url: "https://datadriven.club/"
+    - name: "Asian Food Dictionary"
+      url: "https://asianfooddictionary.com/"
+    - name: "nightfall.city"
+      url: "https://nightfall.city/"
+    - name: "The Architecture of Silence."
+      url: "https://architectureofsilence.com/"
+    - name: "This used bookstore on the Lower East Side takes book donations in exchange for"
+      url: "https://www.sweetpicklebooks.com/"
+    - name: "citymeetings.nyc"
+      url: "https://citymeetings.nyc/"
+    - name: "End of the Internet"
+      url: "https://hmpg.net/"
+    - name: "Check This Out — Borrow or reserve a book in Libby with just a few taps"
+      url: "https://checkthisout.today/"
+    - name: "Footer — The only footer gallery on earth."
+      url: "https://www.footer.design/"
+    - name: "RamenHaus"
+      url: "https://ramen.haus/"
+    - name: "Rocumentaries"
+      url: "https://rocumentaries.com/"
+    - name: "Phosphor Icons"
+      url: "https://phosphoricons.com/"
+    - name: "Very Good Films"
+      url: "https://verygoodfilms.co/"
+    - name: "BIPOC Design History"
+      url: "https://bipocdesignhistory.com/"
+    - name: "archives.design"
+      url: "https://archives.design/"
+    - name: "Flat Journal"
+      url: "https://flatjournal.com/"
+    - name: "REAS.com is a database for Casey REAS"
+      url: "https://reas.com/"
+    - name: "You don't need a modal window"
+      url: "https://youdontneedamodalwindow.dev/"
+    - name: "Five Books - The Best Books Recommended by Experts"
+      url: "https://fivebooks.com/"
+    - name: "Websafe 2k16"
+      url: "https://websafe2k16.com/"
+    - name: "Trust"
+      url: "https://trust.support/"
+    - name: "Toby Shorin"
+      url: "https://tobyshorin.com/"
+    - name: "Slower News"
+      url: "https://www.slowernews.com/"
+    - name: "Modern Font Stacks"
+      url: "https://modernfontstacks.com/"
+    - name: "kening zhu"
+      url: "https://keningzhu.com/"
+    - name: "Bring Back Blogs! January 2023"
+      url: "https://bringback.blog/"
+    - name: "Home · Ivy Zhang"
+      url: "https://ivyzhang.me/"
+    - name: "Christina (CJ) Jones"
+      url: "https://www.jonesish.com/"
+    - name: "Transit Maps"
+      url: "https://transitmap.net/"
+    - name: "sondering.blog – Thoughts and sketches from Susan’s desk."
+      url: "https://sondering.blog/"
+    - name: "Notes from Ash Huang"
+      url: "https://notes.ashsmash.com/"
+    - name: "Daniël van der Winden"
+      url: "https://www.daniel.pizza/"
+    - name: "The Farmer & Farmer Review"
+      url: "http://farmerandfarmer.org/"
+    - name: "Johnny Rodgers"
+      url: "https://johnnyrodgers.is/"
+    - name: "Teach Yourself Computer Science"
+      url: "https://teachyourselfcs.com/"
+    - name: "Tom Critchlow. Move. Think. Create."
+      url: "https://tomcritchlow.com/"
+    - name: "Liyan Zhao"
+      url: "https://www.liyanzhao.com/"
+    - name: "bt.ht"
+      url: "https://bt.ht/"
+    - name: "Szymon Kaliski"
+      url: "https://szymonkaliski.com/"
+    - name: "Timothée Goguely"
+      url: "https://timothee.goguely.com/"
+    - name: "localghost"
+      url: "https://localghost.dev/"
+    - name: "Cap Watkins - Product & Design Strategy"
+      url: "https://capwatkins.com/"
+    - name: "Comprehensive.io - Pay Range Tracker"
+      url: "https://www.comprehensive.io/"
+    - name: "Poor Man's Styleguide | A frontend styleguide for the pragmatic"
+      url: "https://poormansstyleguide.com/"
+    - name: "sanlive.com — My home on the internet."
+      url: "https://sanlive.com/"
+    - name: "DYSKE"
+      url: "https://dyske.com/"
+    - name: "Webpage archive"
+      url: "https://archive.ph/"
+    - name: "Mark Hurrell"
+      url: "https://mhurrell.co.uk/"
+    - name: "Greg Hochmuth · Art plus/minus Data"
+      url: "https://grex.nyc/"
+    - name: "PanWriter"
+      url: "https://panwriter.com/"
+    - name: "Explore Popular Debates, Discussions and Critical Thinking…"
+      url: "https://www.kialo.com/"
+    - name: "Free online paywall remover"
+      url: "https://www.removepaywall.com/"
+    - name: "12ft – Hop any paywall"
+      url: "https://12ft.io/"
+    - name: "Manila Folders"
+      url: "https://manila-folders.com/"
+    - name: "Real Time Web Analytics & Marketing Attribution Tools - Gauges"
+      url: "https://get.gaug.es/"
+    - name: "Parker Henderson"
+      url: "https://www.parkerhendo.com/"
+    - name: "The Kool Aid Factory :: All Zines"
+      url: "https://koolaidfactory.com/"
+    - name: "Yitong Zhang"
+      url: "https://www.zhayitong.com/"
+    - name: "Renlord Yang | Renlord's Webpage"
+      url: "https://renlord.com/"
+    - name: "Cam Pegg"
+      url: "https://campegg.com/"
+    - name: "Old Fashioned"
+      url: "https://oldfashioned.tech/"
+    - name: "Ben Werdmuller"
+      url: "https://werd.io/"
+    - name: "Me, But Online"
+      url: "https://www.mebut.online/"
+    - name: "Homepage - Hell Gate"
+      url: "https://hellgatenyc.com/"
+    - name: "Inbox When Ready – Protect your focus"
+      url: "https://inboxwhenready.org/"
+    - name: "LGBTQ+ Healthcare Directory"
+      url: "https://lgbtqhealthcaredirectory.org/"
+    - name: "Small Seasons"
+      url: "https://smallseasons.guide/"
+    - name: "Random Notes"
+      url: "https://scottnesbitt.online/"
+    - name: "agbero.dev – Korede Aderele"
+      url: "https://agbero.dev/"
+    - name: "A blog by Alessia Bellisario | anti/pattern"
+      url: "https://aless.co/"
+    - name: "Webdesign as architecture"
+      url: "http://www--arc.com/"
+    - name: "Webring"
+      url: "https://webring.recurse.com/"
+    - name: "Wesley’s Notebook"
+      url: "https://notebook.wesleyac.com/"
+    - name: "Duarte O.Carmo"
+      url: "https://duarteocarmo.com/"
+    - name: "Grumpy Website"
+      url: "https://grumpy.website/"
+    - name: "Terra"
+      url: "https://terra.finzdani.net/"
+    - name: "The Forest"
+      url: "https://theforest.link/"
+    - name: "warmly"
+      url: "http://warmly.glitch.me/"
+    - name: "macwright.com"
+      url: "https://macwright.com/"
+    - name: "The Big List of Personal Websites"
+      url: "http://biglist.terraaeon.com/"
+    - name: "icyphox"
+      url: "https://icyphox.sh/"
+    - name: "The Programmer's Paradox"
+      url: "https://theprogrammersparadox.blogspot.com/"
+    - name: "Ye Olde Blogroll - Blogroll.org"
+      url: "https://blogroll.org/"
+    - name: "Piper Haywood — If lost, please return"
+      url: "https://piperhaywood.com/"
+    - name: "thesephist.com"
+      url: "https://thesephist.com/"
+    - name: "Whatever | FURIOUSLY REASONABLE"
+      url: "https://whatever.scalzi.com/"
+    - name: "Serena Chen"
+      url: "https://serena.nz/"
+    - name: "How to professionally say"
+      url: "https://howtoprofessionallysay.akashrajpurohit.com/"
+    - name: "indieblog.page"
+      url: "https://indieblog.page/"
+    - name: "Webring"
+      url: "https://webring.xxiivv.com/#xxiivv"
+    - name: "IndieWebify.Me - a guide to getting you on the IndieWeb"
+      url: "https://indiewebify.me/"
+    - name: "Hugo's Blog"
+      url: "https://hugo.md/"
+    - name: "Aza Raskin"
+      url: "https://aza.wtf/"
+    - name: "Learn fingerspelling"
+      url: "https://fingerspell.glitch.me/"
+    - name: "Later - Save your Mac apps for later"
+      url: "https://getlater.app/"
+    - name: "Winnie Lim"
+      url: "https://winnielim.org/"
+    - name: "The Young Jerks"
+      url: "https://youngjerks.com/"
+    - name: "Arun Prasad"
+      url: "https://arunkprasad.com/"
+    - name: "Lobsters"
+      url: "https://lobste.rs/"
+    - name: "Farewill"
+      url: "https://farewill.com/"
+    - name: "Sarah Drasner's Site"
+      url: "https://sarahdrasnerdesign.com/"
+    - name: "Crying in Public"
+      url: "https://cryinginpublic.com/"
+    - name: "Tech Solidarity"
+      url: "https://techsolidarity.org/"
+    - name: "Idle Words"
+      url: "https://idlewords.com/"
+    - name: "Good Things"
+      url: "https://goodthings.melanie-richards.com/"
+    - name: "Winamp Skin Museum"
+      url: "https://skins.webamp.org/"
+    - name: "Our World in Data"
+      url: "https://ourworldindata.org/"
+    - name: "VJ Type Typefaces"
+      url: "https://vj-type.com/"
+    - name: "Buster's Notes - Notes"
+      url: "https://notes.busterbenson.com/"
+    - name: "Learn ASL fingerspelling with your webcam and machine learning"
+      url: "https://fingerspelling.xyz/"
+    - name: "muan.co"
+      url: "https://muan.co/"
+    - name: "www.joshwcomeau.com"
+      url: "https://www.joshwcomeau.com/"
+    - name: "Michelle Lim"
+      url: "https://www.michellelim.org/"
+    - name: "Death to Bullshit"
+      url: "https://deathtobullshit.com/"
+    - name: "blot.im"
+      url: "https://blot.im/"
+    - name: "annualbeta"
+      url: "https://annualbeta.com/"
+    - name: "hotline webring"
+      url: "https://hotlinewebring.club/"
+    - name: "tobiasschmidt.me"
+      url: "https://tobiasschmidt.me/"
+    - name: "Manuel Moreale"
+      url: "https://manuelmoreale.com/"
+    - name: "Setups"
+      url: "https://setups.co/"
+    - name: "Le Puzz Jigsaw Puzzles"
+      url: "https://lepuzz.com/"
+    - name: "Documentaries - watch free online documentaries - ihavenotv.com"
+      url: "https://ihavenotv.com/"
+    - name: "Maybe this movie recommendation site will cut down on the time I spend deciding"
+      url: "https://agoodmovietowatch.com/"
+    - name: "Nestflix"
+      url: "https://nestflix.fun/"
+    - name: "Jade Purple Brown"
+      url: "https://jadepurplebrown.com/"
+    - name: "Directed By Women"
+      url: "https://directed-by-women.vercel.app/"
+    - name: "Free open-source health icons. Cute!"
+      url: "https://healthicons.org/"
+    - name: "ENS"
+      url: "https://ens.domains/"
+    - name: "Home | Cups of Tea | Book Review Blog"
+      url: "https://www.cupsoftea.xyz/"
+    - name: "www.karenhan.org"
+      url: "https://www.karenhan.org/#about"
+    - name: "Airport Codes"
+      url: "https://airportcod.es/"
+    - name: "&yet"
+      url: "https://andyet.com/"
+    - name: "Font Review Journal"
+      url: "https://fontreviewjournal.com/"
+    - name: "Rin Kim"
+      url: "https://rinkim.com/"
+    - name: "Automate your outgoing webmentions"
+      url: "https://webmention.app/"
+    - name: "Homepage - Chris Coyier"
+      url: "https://chriscoyier.net/"
+    - name: "tina.io"
+      url: "https://tina.io/"
+    - name: "Home | Carolyn Stransky"
+      url: "https://workwithcarolyn.com/"
+    - name: "Marguerite Roth | Product Designer & Developer"
+      url: "https://marguerite.io/"
+    - name: "Amber Thomas Data Portfolio & Blog | Amber Thomas Data Portfolio & Blog"
+      url: "https://amber.rbind.io/"
+    - name: "Pro Bono ASL"
+      url: "https://www.probonoasl.com/"
+    - name: "The Markup"
+      url: "https://themarkup.org/"
+    - name: "Venmo is public by default"
+      url: "https://publicbydefault.fyi/"
+    - name: "22.8miles = Hang Do Thi Duc"
+      url: "https://22-8miles.com/"
+    - name: "Are monospace fonts trending?"
+      url: "http://1984.vc/"
+    - name: "Give Blck"
+      url: "https://www.giveblck.org/"
+    - name: "Standards"
+      url: "https://standards.site/"
+    - name: "www.opaltometi.org"
+      url: "https://www.opaltometi.org/"
+    - name: "Support your local bookstore, if you're willing and able, during the pandemic (I"
+      url: "https://bookstorelink.com/"
+    - name: "Amanda Phingbodhipakkiya—Multidisciplinary Artist"
+      url: "https://www.alonglastname.com/"
+    - name: "Pink bags of Chinatown"
+      url: "http://wendymacnaughton.com/#portfolio#PinkBags-Full"
+    - name: "Andrew Leguay Folio20"
+      url: "https://www.andrewleguay.com/"
+    - name: "tweetmugz.com"
+      url: "https://tweetmugz.com/"
+    - name: "The portfolio of Jon Arne Berg"
+      url: "http://jonarneberg.no/"
+    - name: "Salary or Equity"
+      url: "https://salaryorequity.com/"
+    - name: "CAPTURED: People in Prison Drawing People Who Should Be"
+      url: "https://thecapturedproject.com/"
+    - name: "work.co"
+      url: "https://work.co/"
+    - name: "Built By Buffalo | Award Winning Web Design & Creative Agency"
+      url: "https://builtbybuffalo.com/"
+    - name: "NSDateFormatter.com - Easy Skeezy Date Formatting for Swift and Objective-C"
+      url: "https://nsdateformatter.com/"
+    - name: "Thing I didn't know was missing from my life: NYC Parks has a Street Tree Map of"
+      url: "https://tree-map.nycgovparks.org/"
+    - name: "Tutorials for Craft CMS - Straight Up Craft"
+      url: "https://straightupcraft.com/"
+    - name: "Queering the Map"
+      url: "https://www.queeringthemap.com/"
+    - name: "Pixel Art to CSS"
+      url: "http://pixelart.jvrpath.com/"

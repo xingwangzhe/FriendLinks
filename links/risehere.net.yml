@@ -1,14 +1,14 @@
 site:
-  name: 'risehere.net'
-  url: 'https://risehere.net/'
-  description: '友情链接'
-  links: '/friends'
+  name: "risehere.net"
+  url: "https://risehere.net/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '咸鱼白的窝'
-      url: 'https://blanca.world/'
-    - name: '存在感消失的地方'
-      url: 'https://akarin.dev/'
-    - name: 'CHUNGZH的小窝'
-      url: 'https://chungzh.cn/'
-    - name: 'Makito'
-      url: 'https://mak1t0.cc/'
+    - name: "咸鱼白的窝"
+      url: "https://blanca.world/"
+    - name: "存在感消失的地方"
+      url: "https://akarin.dev/"
+    - name: "CHUNGZH的小窝"
+      url: "https://chungzh.cn/"
+    - name: "Makito"
+      url: "https://mak1t0.cc/"

@@ -1,12 +1,12 @@
 site:
-  name: 'ameow.xyz'
-  url: 'https://ameow.xyz/'
-  description: '友情链接'
-  links: '/links'
+  name: "ameow.xyz"
+  url: "https://ameow.xyz/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Song`s Blog 个人学习笔记分享'
-      url: 'https://songxwn.com'
-    - name: '老胡的储物柜 编程、兴趣、生活 奇文共欣赏，疑义相与析'
-      url: 'https://www.howie6879.com/'
-    - name: 'JiaoYuan''s blog 思绪来得快去得也快，偶尔会在这里停留'
-      url: 'https://yuanj.top'
+    - name: "Song`s Blog 个人学习笔记分享"
+      url: "https://songxwn.com"
+    - name: "老胡的储物柜 编程、兴趣、生活 奇文共欣赏，疑义相与析"
+      url: "https://www.howie6879.com/"
+    - name: "JiaoYuan's blog 思绪来得快去得也快，偶尔会在这里停留"
+      url: "https://yuanj.top"

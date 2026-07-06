@@ -1,12 +1,12 @@
 site:
-  name: 'songshizhao.com'
-  url: 'https://www.songshizhao.com/'
-  description: '友情链接'
-  links: '/'
+  name: "songshizhao.com"
+  url: "https://www.songshizhao.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: '谷歌翻译'
-      url: 'https://translate.google.cn/'
-    - name: 'Nuget'
-      url: 'https://www.nuget.org/'
-    - name: '林德熙博客'
-      url: 'http://lindexi.oschina.io/'
+    - name: "谷歌翻译"
+      url: "https://translate.google.cn/"
+    - name: "Nuget"
+      url: "https://www.nuget.org/"
+    - name: "林德熙博客"
+      url: "http://lindexi.oschina.io/"

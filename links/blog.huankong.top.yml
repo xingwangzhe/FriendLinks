@@ -1,16 +1,16 @@
 site:
-  name: 'blog.huankong.top'
-  url: 'https://blog.huankong.top/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.huankong.top"
+  url: "https://blog.huankong.top/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '迷之区'
-      url: 'https://blog.mzqmountain.xyz'
-    - name: '秋雨落'
-      url: 'https://www.qy.al/'
-    - name: 'MliKiowa'
-      url: 'https://nanaeo.cn/'
-    - name: '二叉树树'
-      url: 'https://afo.im'
-    - name: 'vuepress-theme-plume'
-      url: 'https://theme-plume.vuejs.press'
+    - name: "迷之区"
+      url: "https://blog.mzqmountain.xyz"
+    - name: "秋雨落"
+      url: "https://www.qy.al/"
+    - name: "MliKiowa"
+      url: "https://nanaeo.cn/"
+    - name: "二叉树树"
+      url: "https://afo.im"
+    - name: "vuepress-theme-plume"
+      url: "https://theme-plume.vuejs.press"

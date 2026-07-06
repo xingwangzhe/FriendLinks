@@ -1,12 +1,12 @@
 site:
-  name: 'blog.bytesycn.cn'
-  url: 'https://blog.bytesycn.cn/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.bytesycn.cn"
+  url: "https://blog.bytesycn.cn/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '哆啦Xi梦 掌握 Spring/Java/Go 的鱿鱿，分享编程技巧与开发经验的个人博客 Blog'
-      url: 'https://enums.cn'
-    - name: 'Xuan''s blog 分享技术教程和学习笔记 Blog'
-      url: 'https://blog.ybyq.wang'
-    - name: '陶小桃Blog 热衷于分享日常和技术的机械专业小哥哥~ Blog'
-      url: 'https://www.52txr.cn'
+    - name: "哆啦Xi梦 掌握 Spring/Java/Go 的鱿鱿，分享编程技巧与开发经验的个人博客 Blog"
+      url: "https://enums.cn"
+    - name: "Xuan's blog 分享技术教程和学习笔记 Blog"
+      url: "https://blog.ybyq.wang"
+    - name: "陶小桃Blog 热衷于分享日常和技术的机械专业小哥哥~ Blog"
+      url: "https://www.52txr.cn"

@@ -1,12 +1,12 @@
 site:
-  name: 'imacso.com'
-  url: 'https://www.imacso.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "imacso.com"
+  url: "https://www.imacso.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '国光的博客'
-      url: 'http://www.sqlsec.com/'
-    - name: 'Akai''Library'
-      url: 'https://www.yuankusucai.com/'
-    - name: 'cywhat''s blog'
-      url: 'https://cywhat.cn/'
+    - name: "国光的博客"
+      url: "http://www.sqlsec.com/"
+    - name: "Akai'Library"
+      url: "https://www.yuankusucai.com/"
+    - name: "cywhat's blog"
+      url: "https://cywhat.cn/"

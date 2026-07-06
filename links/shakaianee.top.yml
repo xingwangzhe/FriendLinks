@@ -1,106 +1,106 @@
 site:
-  name: 'shakaianee.top'
-  url: 'https://shakaianee.top/'
-  description: '友情链接'
-  links: '/friends'
+  name: "shakaianee.top"
+  url: "https://shakaianee.top/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Anillc'
-      url: 'https://ani.llc'
-    - name: '暮光小猿wzt'
-      url: 'https://scraft.top'
-    - name: 'Akatsukiro''s Blog / 晓白博客 冀以尘雾之微补益山海，荧烛末光增辉日月。 / 生命不息，折腾不止。'
-      url: 'https://blog.chs.pub'
-    - name: 'CircleCrop Blog A boy from China who likes photography, music'
-      url: 'https://aiccrop.com/'
-    - name: 'hanbings'
-      url: 'https://blog.hanbings.io'
-    - name: 'Olderfox'
-      url: 'https://www.olderfox.com'
-    - name: '凌空的博客小站'
-      url: 'https://www.skyblogs.xyz/'
-    - name: '你们的小f'
-      url: 'https://www.fzf404.art'
-    - name: '云游君的小站 希望能成为一个有趣的人'
-      url: 'https://www.yunyoujun.cn'
-    - name: 'Ohmyga 一只想咸鱼翻身的萌新'
-      url: 'https://blog.ohmyga.cn'
-    - name: 'LoCCaiの小窝 你撑把小纸伞|叹姻缘太婉转'
-      url: 'https://blog.loccai.top'
-    - name: '晨旭的博客~'
-      url: 'https://www.chenxublog.com'
-    - name: 'Xiwangly''s Blog'
-      url: 'https://www.xiwangly.com'
-    - name: 'z0z0r4''s Blog A Long Long Way'
-      url: 'https://blog.z0z0r4.top/'
-    - name: 'Fawdlstty 的博客 一只感觉自己萌萌哒的程序猿~~'
-      url: 'https://www.fawdlstty.com'
-    - name: 'Kris Hu'
-      url: 'https://blog.krishu.moe'
-    - name: '恋玲花 愿所有温柔之人都被世界温柔以待'
-      url: 'https://lilywhite.cc'
-    - name: '忆光博客 忆光博客只分享属于我的世界'
-      url: 'https://blog.eray.cc/'
-    - name: 'Andy''s Blog'
-      url: 'https://blog.zhanganzhi.com/'
-    - name: 'Luckys-Yangの小栈 循环的圆，不循环的缘'
-      url: 'https://love.yang5201314.cn/'
-    - name: '神龙章轩の博客 所幸仍有光'
-      url: 'https://blog.sku.moe'
-    - name: '随缘的博客 发些密码学、数学和技术内容，以及个人感悟。'
-      url: 'https://su1yu4n.github.io'
-    - name: 'Only Mystery''s Blog 探索互联网，发现价值！'
-      url: 'https://blog.bidc.ltd'
-    - name: 'SerinaNya Serina 的日常 / daily of SerinaNya'
-      url: 'https://serinanya.cn/'
-    - name: 'Ling的博客'
-      url: 'https://blog.lty520.faith/'
-    - name: 'Bhao''s Blog 世间无田螺，世间多田螺。'
-      url: 'https://dwd.moe'
-    - name: 'SЕSSのB10GТЕ5Т Session的个人博客, 这里有各种类型的有趣的文章内容, 网站基于纯前端构建.'
-      url: 'https://sess.xhustudio.eu.org/#!/about'
-    - name: 'imba久期 Blog 一个前端'
-      url: 'https://imba97.com'
-    - name: '豆焰の小破站 二次元编程宅'
-      url: 'https://blog.beanflame.cn'
-    - name: 'Py的Blogggg 一秒接过制服,一生志在蓝天'
-      url: 'https://blog.pyliubaolin.top'
-    - name: '云上咕咕 写了备注就不叫咕咕咕了'
-      url: 'https://blog.gugugu.cloud'
-    - name: 'Ldyer 认识世界，改造世界'
-      url: 'https://ldyer.top'
-    - name: 'xingxing''s Home'
-      url: 'http://www.doublexing.cc'
-    - name: '小坎坷s’ Blog'
-      url: 'https://blog.rbq.wiki'
-    - name: '苦苦的码人 - A Life Blog'
-      url: 'https://www.5i21.cn'
-    - name: '冬天的小窝'
-      url: 'https://www.iamdt.cn/'
-    - name: 'Eltrac'
-      url: 'https://www.guhub.cn'
-    - name: '镜态极研'
-      url: 'https://kagamiz.com/'
-    - name: 'rerangeの小破站'
-      url: 'https://bgmfun.space'
-    - name: '灯花小屋～'
-      url: 'http://yisui.zyglq.cn'
-    - name: '南小濡的技术窝'
-      url: 'https://www.cptyun.com'
-    - name: 'Skylar的Blog'
-      url: 'https://blog.sskfy.com'
-    - name: '卜卜口'
-      url: 'https://mouto.org/'
-    - name: 'Restent''s Notebook'
-      url: 'https://blog.restent.win'
-    - name: '矿井小怕的茶馆'
-      url: 'https://minecreeper.top/'
-    - name: 'MJJLB'
-      url: 'http://www.mjjlb.com'
-    - name: 'Restent Ou'
-      url: 'https://www.restent.win'
-    - name: 'Restent Ou'
-      url: 'https://www.gxres.net'
-    - name: 'Lexsion'
-      url: 'https://lexsion.com'
-    - name: '矿井小怕'
-      url: 'https://minecreeper.evanluo.top'
+    - name: "Anillc"
+      url: "https://ani.llc"
+    - name: "暮光小猿wzt"
+      url: "https://scraft.top"
+    - name: "Akatsukiro's Blog / 晓白博客 冀以尘雾之微补益山海，荧烛末光增辉日月。 / 生命不息，折腾不止。"
+      url: "https://blog.chs.pub"
+    - name: "CircleCrop Blog A boy from China who likes photography, music"
+      url: "https://aiccrop.com/"
+    - name: "hanbings"
+      url: "https://blog.hanbings.io"
+    - name: "Olderfox"
+      url: "https://www.olderfox.com"
+    - name: "凌空的博客小站"
+      url: "https://www.skyblogs.xyz/"
+    - name: "你们的小f"
+      url: "https://www.fzf404.art"
+    - name: "云游君的小站 希望能成为一个有趣的人"
+      url: "https://www.yunyoujun.cn"
+    - name: "Ohmyga 一只想咸鱼翻身的萌新"
+      url: "https://blog.ohmyga.cn"
+    - name: "LoCCaiの小窝 你撑把小纸伞|叹姻缘太婉转"
+      url: "https://blog.loccai.top"
+    - name: "晨旭的博客~"
+      url: "https://www.chenxublog.com"
+    - name: "Xiwangly's Blog"
+      url: "https://www.xiwangly.com"
+    - name: "z0z0r4's Blog A Long Long Way"
+      url: "https://blog.z0z0r4.top/"
+    - name: "Fawdlstty 的博客 一只感觉自己萌萌哒的程序猿~~"
+      url: "https://www.fawdlstty.com"
+    - name: "Kris Hu"
+      url: "https://blog.krishu.moe"
+    - name: "恋玲花 愿所有温柔之人都被世界温柔以待"
+      url: "https://lilywhite.cc"
+    - name: "忆光博客 忆光博客只分享属于我的世界"
+      url: "https://blog.eray.cc/"
+    - name: "Andy's Blog"
+      url: "https://blog.zhanganzhi.com/"
+    - name: "Luckys-Yangの小栈 循环的圆，不循环的缘"
+      url: "https://love.yang5201314.cn/"
+    - name: "神龙章轩の博客 所幸仍有光"
+      url: "https://blog.sku.moe"
+    - name: "随缘的博客 发些密码学、数学和技术内容，以及个人感悟。"
+      url: "https://su1yu4n.github.io"
+    - name: "Only Mystery's Blog 探索互联网，发现价值！"
+      url: "https://blog.bidc.ltd"
+    - name: "SerinaNya Serina 的日常 / daily of SerinaNya"
+      url: "https://serinanya.cn/"
+    - name: "Ling的博客"
+      url: "https://blog.lty520.faith/"
+    - name: "Bhao's Blog 世间无田螺，世间多田螺。"
+      url: "https://dwd.moe"
+    - name: "SЕSSのB10GТЕ5Т Session的个人博客, 这里有各种类型的有趣的文章内容, 网站基于纯前端构建."
+      url: "https://sess.xhustudio.eu.org/#!/about"
+    - name: "imba久期 Blog 一个前端"
+      url: "https://imba97.com"
+    - name: "豆焰の小破站 二次元编程宅"
+      url: "https://blog.beanflame.cn"
+    - name: "Py的Blogggg 一秒接过制服,一生志在蓝天"
+      url: "https://blog.pyliubaolin.top"
+    - name: "云上咕咕 写了备注就不叫咕咕咕了"
+      url: "https://blog.gugugu.cloud"
+    - name: "Ldyer 认识世界，改造世界"
+      url: "https://ldyer.top"
+    - name: "xingxing's Home"
+      url: "http://www.doublexing.cc"
+    - name: "小坎坷s’ Blog"
+      url: "https://blog.rbq.wiki"
+    - name: "苦苦的码人 - A Life Blog"
+      url: "https://www.5i21.cn"
+    - name: "冬天的小窝"
+      url: "https://www.iamdt.cn/"
+    - name: "Eltrac"
+      url: "https://www.guhub.cn"
+    - name: "镜态极研"
+      url: "https://kagamiz.com/"
+    - name: "rerangeの小破站"
+      url: "https://bgmfun.space"
+    - name: "灯花小屋～"
+      url: "http://yisui.zyglq.cn"
+    - name: "南小濡的技术窝"
+      url: "https://www.cptyun.com"
+    - name: "Skylar的Blog"
+      url: "https://blog.sskfy.com"
+    - name: "卜卜口"
+      url: "https://mouto.org/"
+    - name: "Restent's Notebook"
+      url: "https://blog.restent.win"
+    - name: "矿井小怕的茶馆"
+      url: "https://minecreeper.top/"
+    - name: "MJJLB"
+      url: "http://www.mjjlb.com"
+    - name: "Restent Ou"
+      url: "https://www.restent.win"
+    - name: "Restent Ou"
+      url: "https://www.gxres.net"
+    - name: "Lexsion"
+      url: "https://lexsion.com"
+    - name: "矿井小怕"
+      url: "https://minecreeper.evanluo.top"

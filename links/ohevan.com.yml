@@ -1,68 +1,68 @@
 site:
-  name: 'ohevan.com'
-  url: 'https://ohevan.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "ohevan.com"
+  url: "https://ohevan.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'AlexWei的部落阁屑人&卷王Alexwei的博客'
-      url: 'http://alexwei.top/'
-    - name: 'Minecreeper的小站Minecreeper的小站，自己的后院，大家的茶馆'
-      url: 'https://minecreeper.top/'
-    - name: 'tlanyan 的博客十里平湖霜满天，寸寸青丝愁华年'
-      url: 'https://itlanyan.com/'
-    - name: '喵喵的灿烂星空我喜欢看星星 记录&成长'
-      url: 'https://starrycat.me'
-    - name: '高&冰我知我新，未知的世界那么惊艳'
-      url: 'https://gaoice.top/'
-    - name: '咖喱即使埋藏在内心也没关系'
-      url: 'https://joysblog.vercel.app'
-    - name: '呆呆不是槑梦想是实现旺仔牛奶自由'
-      url: 'http://graugris.icu/'
-    - name: 'SheepChef Blog蒼穹を越えて'
-      url: 'https://shef.cc/'
-    - name: 'Fre5h1nd blog思考，等待，斋戒'
-      url: 'https://freshwlnd.github.io/'
-    - name: '安仔の午睡床啊对对对，开摆就完了呗'
-      url: 'https://anzai.sleepingbed.top'
-    - name: 'Charles''s CastleCharles的移动城堡'
-      url: 'https://charles2530.github.io/'
-    - name: 'Ching367436''s blog是大佬，膜拜膜拜'
-      url: 'https://blog.ching367436.me/'
-    - name: 'michaelliunsky的blogUnlimited progress!'
-      url: 'https://blog.mkliu.top'
-    - name: 'Krazyu风宇终不似，少年游'
-      url: 'https://krazyu.com/'
-    - name: 'Evan''s Blog代码改变世界'
-      url: 'https://zblog.wyun521.top/'
-    - name: 'Yang''s Blog我喜我生，独丁斯时。'
-      url: 'https://yang233.cn'
-    - name: '卡布奇洛的咖啡店EL PSY CONGROO'
-      url: 'https://www.cappuccilo.top'
-    - name: 'Fgaoxing一个少年的博客'
-      url: 'https://www.yt-blog.top/'
-    - name: 'CX330''s UniverseWelcome to my universe!'
-      url: 'https://cx330.tw'
-    - name: 'Cloudea''s Blog清露茶坊'
-      url: 'https://blog.cloudea.work'
-    - name: 'Zigao Wang''s BlogUntil next time, happy blogging!'
-      url: 'https://zigao.cc'
-    - name: '磅说BuntalkNo pain, no gain.'
-      url: 'https://setbun.com'
-    - name: '绯鞠的博客一只爱折腾的绯鞠'
-      url: 'https://loli.fj.cn/'
-    - name: '9527''s Blog永远相信美好的事情即将发生'
-      url: 'https://9527dhx.top/'
-    - name: 'Elykia致以无暇之人'
-      url: 'https://blog.elykia.cn/'
-    - name: 'lllirunzeWelcome to my sanctuary.'
-      url: 'https://lllirunze.cn'
-    - name: 'lalalll''s blog结月小站'
-      url: 'https://lalalll-lalalll.github.io/'
-    - name: 'CWorld Site求知若愚，虚怀若谷'
-      url: 'https://cworld0.com/'
-    - name: 'Yesord你相信光吗~~'
-      url: 'https://blog.yesord.top'
-    - name: 'baozongwi每天进步一点点'
-      url: 'https://baozongwi.xyz/'
-    - name: 'HeyCSM-你好客户成功经理一个有态度、且有趣更有料的客户成功经理网站。'
-      url: 'https://heycsm.com'
+    - name: "AlexWei的部落阁屑人&卷王Alexwei的博客"
+      url: "http://alexwei.top/"
+    - name: "Minecreeper的小站Minecreeper的小站，自己的后院，大家的茶馆"
+      url: "https://minecreeper.top/"
+    - name: "tlanyan 的博客十里平湖霜满天，寸寸青丝愁华年"
+      url: "https://itlanyan.com/"
+    - name: "喵喵的灿烂星空我喜欢看星星 记录&成长"
+      url: "https://starrycat.me"
+    - name: "高&冰我知我新，未知的世界那么惊艳"
+      url: "https://gaoice.top/"
+    - name: "咖喱即使埋藏在内心也没关系"
+      url: "https://joysblog.vercel.app"
+    - name: "呆呆不是槑梦想是实现旺仔牛奶自由"
+      url: "http://graugris.icu/"
+    - name: "SheepChef Blog蒼穹を越えて"
+      url: "https://shef.cc/"
+    - name: "Fre5h1nd blog思考，等待，斋戒"
+      url: "https://freshwlnd.github.io/"
+    - name: "安仔の午睡床啊对对对，开摆就完了呗"
+      url: "https://anzai.sleepingbed.top"
+    - name: "Charles's CastleCharles的移动城堡"
+      url: "https://charles2530.github.io/"
+    - name: "Ching367436's blog是大佬，膜拜膜拜"
+      url: "https://blog.ching367436.me/"
+    - name: "michaelliunsky的blogUnlimited progress!"
+      url: "https://blog.mkliu.top"
+    - name: "Krazyu风宇终不似，少年游"
+      url: "https://krazyu.com/"
+    - name: "Evan's Blog代码改变世界"
+      url: "https://zblog.wyun521.top/"
+    - name: "Yang's Blog我喜我生，独丁斯时。"
+      url: "https://yang233.cn"
+    - name: "卡布奇洛的咖啡店EL PSY CONGROO"
+      url: "https://www.cappuccilo.top"
+    - name: "Fgaoxing一个少年的博客"
+      url: "https://www.yt-blog.top/"
+    - name: "CX330's UniverseWelcome to my universe!"
+      url: "https://cx330.tw"
+    - name: "Cloudea's Blog清露茶坊"
+      url: "https://blog.cloudea.work"
+    - name: "Zigao Wang's BlogUntil next time, happy blogging!"
+      url: "https://zigao.cc"
+    - name: "磅说BuntalkNo pain, no gain."
+      url: "https://setbun.com"
+    - name: "绯鞠的博客一只爱折腾的绯鞠"
+      url: "https://loli.fj.cn/"
+    - name: "9527's Blog永远相信美好的事情即将发生"
+      url: "https://9527dhx.top/"
+    - name: "Elykia致以无暇之人"
+      url: "https://blog.elykia.cn/"
+    - name: "lllirunzeWelcome to my sanctuary."
+      url: "https://lllirunze.cn"
+    - name: "lalalll's blog结月小站"
+      url: "https://lalalll-lalalll.github.io/"
+    - name: "CWorld Site求知若愚，虚怀若谷"
+      url: "https://cworld0.com/"
+    - name: "Yesord你相信光吗~~"
+      url: "https://blog.yesord.top"
+    - name: "baozongwi每天进步一点点"
+      url: "https://baozongwi.xyz/"
+    - name: "HeyCSM-你好客户成功经理一个有态度、且有趣更有料的客户成功经理网站。"
+      url: "https://heycsm.com"

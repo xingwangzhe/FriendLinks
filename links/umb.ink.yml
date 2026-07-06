@@ -1,70 +1,70 @@
 site:
-  name: 'umb.ink'
-  description: '友情链接'
-  url: 'https://umb.ink/'
-  links: '/link'
+  name: "umb.ink"
+  description: "友情链接"
+  url: "https://umb.ink/"
+  links: "/link"
   friends:
-    - name: 'Kenvix党明先辈'
-      url: 'https://kenvix.com/'
-    - name: 'Gaein nidbGaein nidb'
-      url: 'https://gaein.cn'
-    - name: 'fivezha马扎'
-      url: 'https://blog.fivezha.cn'
-    - name: 'LAZ小心LAZ'
-      url: 'http://laz0825.cn/'
-    - name: 'DraceDrace先辈'
-      url: 'https://blog.dreace.top/'
-    - name: '木子已鸢尾花开'
-      url: 'https://ipaper.today/'
-    - name: 'holkholk'
-      url: 'https://www.holk.tech/'
-    - name: 'Mereith’s Blog技术、分享、折腾'
-      url: 'https://www.mereith.com'
-    - name: 'AimerNeigeAimerNeige'
-      url: 'https://aimerneige.com/'
-    - name: '花开陌上待我熬尽一日苦，喂你一口甜。'
-      url: 'https://moshanghua.net/'
-    - name: '寒夏摸鱼站稀奇古怪技术集散地'
-      url: 'https://blog.rainiar.top'
-    - name: '倾城于你一个热爱分享的Typecho小站'
-      url: 'https://qninq.cn/'
-    - name: '未知狐的小窝黑暗里若没有火炬,我便是唯一的光.'
-      url: 'https://xfox.fun/'
-    - name: '云烟成雨迷失的人迷失了，相逢的人会再相逢。'
-      url: 'https://shiyu.dev'
-    - name: '七云’s Blog因为喜欢，所以折腾！'
-      url: 'https://www.zets.cn/'
-    - name: '暮拾柒の朋友圈比奇堡山上没有花'
-      url: 'https://vy9.cn'
-    - name: 'iMaeGoo’s Blog虹墨空间站'
-      url: 'https://www.imaegoo.com'
-    - name: 'indude - 个人文章分享分享一些想法和文章'
-      url: 'https://indude.cn/'
-    - name: 'Pinpe 的云端一个属于自己的云朵'
-      url: 'https://pinpe.top'
-    - name: '珞林的个人博客总是想太多还不如什么都别想'
-      url: 'https://ltyxh.com/'
-    - name: 'Karuboniru''s Blog博士在读|粒子物理实验方向|可怜的单身肥宅'
-      url: 'https://yanqiyu.info/'
-    - name: '996.icu工作 996，生病 ICU。挂路灯的资本家'
-      url: 'https://996.icu/#/zh_CN'
-    - name: 'LHL’s BlogLHL’s Blog'
-      url: 'https://blog.lhl.one'
-    - name: 'keinx学无止境，无限可能'
-      url: 'https://www.keinx.com/'
-    - name: '暗雨冥的花田今晚吃什么'
-      url: 'https://dkrain.com/'
-    - name: '雨雪冰屋 一隅雨雪一炉窝，可能会融化持久堆？'
-      url: 'https://iamyukino.cn/'
-    - name: 'kilokite blog后来喝中药调好了'
-      url: 'https://kt.sb'
-    - name: 'LHL'
-      url: 'https://lhl.one'
-    - name: '顾梦'
-      url: 'http://blog.gumengyo.top'
-    - name: '星纪'
-      url: 'https://love.xingji.fun/'
-    - name: '三位.cn'
-      url: 'http://三位.cn'
-    - name: 'VanBlog v0.54.0'
-      url: 'https://vanblog.mereith.com'
+    - name: "Kenvix党明先辈"
+      url: "https://kenvix.com/"
+    - name: "Gaein nidbGaein nidb"
+      url: "https://gaein.cn"
+    - name: "fivezha马扎"
+      url: "https://blog.fivezha.cn"
+    - name: "LAZ小心LAZ"
+      url: "http://laz0825.cn/"
+    - name: "DraceDrace先辈"
+      url: "https://blog.dreace.top/"
+    - name: "木子已鸢尾花开"
+      url: "https://ipaper.today/"
+    - name: "holkholk"
+      url: "https://www.holk.tech/"
+    - name: "Mereith’s Blog技术、分享、折腾"
+      url: "https://www.mereith.com"
+    - name: "AimerNeigeAimerNeige"
+      url: "https://aimerneige.com/"
+    - name: "花开陌上待我熬尽一日苦，喂你一口甜。"
+      url: "https://moshanghua.net/"
+    - name: "寒夏摸鱼站稀奇古怪技术集散地"
+      url: "https://blog.rainiar.top"
+    - name: "倾城于你一个热爱分享的Typecho小站"
+      url: "https://qninq.cn/"
+    - name: "未知狐的小窝黑暗里若没有火炬,我便是唯一的光."
+      url: "https://xfox.fun/"
+    - name: "云烟成雨迷失的人迷失了，相逢的人会再相逢。"
+      url: "https://shiyu.dev"
+    - name: "七云’s Blog因为喜欢，所以折腾！"
+      url: "https://www.zets.cn/"
+    - name: "暮拾柒の朋友圈比奇堡山上没有花"
+      url: "https://vy9.cn"
+    - name: "iMaeGoo’s Blog虹墨空间站"
+      url: "https://www.imaegoo.com"
+    - name: "indude - 个人文章分享分享一些想法和文章"
+      url: "https://indude.cn/"
+    - name: "Pinpe 的云端一个属于自己的云朵"
+      url: "https://pinpe.top"
+    - name: "珞林的个人博客总是想太多还不如什么都别想"
+      url: "https://ltyxh.com/"
+    - name: "Karuboniru's Blog博士在读|粒子物理实验方向|可怜的单身肥宅"
+      url: "https://yanqiyu.info/"
+    - name: "996.icu工作 996，生病 ICU。挂路灯的资本家"
+      url: "https://996.icu/#/zh_CN"
+    - name: "LHL’s BlogLHL’s Blog"
+      url: "https://blog.lhl.one"
+    - name: "keinx学无止境，无限可能"
+      url: "https://www.keinx.com/"
+    - name: "暗雨冥的花田今晚吃什么"
+      url: "https://dkrain.com/"
+    - name: "雨雪冰屋 一隅雨雪一炉窝，可能会融化持久堆？"
+      url: "https://iamyukino.cn/"
+    - name: "kilokite blog后来喝中药调好了"
+      url: "https://kt.sb"
+    - name: "LHL"
+      url: "https://lhl.one"
+    - name: "顾梦"
+      url: "http://blog.gumengyo.top"
+    - name: "星纪"
+      url: "https://love.xingji.fun/"
+    - name: "三位.cn"
+      url: "http://三位.cn"
+    - name: "VanBlog v0.54.0"
+      url: "https://vanblog.mereith.com"

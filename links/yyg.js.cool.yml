@@ -1,70 +1,70 @@
 site:
-  name: 'yyg.js.cool'
-  url: 'https://yyg.js.cool/'
-  description: '友情链接'
-  links: '/link'
+  name: "yyg.js.cool"
+  url: "https://yyg.js.cool/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: '张洪Heo分享设计与科技生活'
-      url: 'https://blog.zhheo.com/'
-    - name: '小冰博客做个有梦想的人！'
-      url: 'https://zfe.space/'
-    - name: '安知鱼生活明朗，万物可爱'
-      url: 'https://blog.anheyu.com/'
-    - name: 'Akilarの糖果屋欢迎光临糖果屋'
-      url: 'https://akilar.top/'
-    - name: 'Leonus进一寸有进一寸的欢喜。'
-      url: 'https://blog.leonus.cn/'
-    - name: 'Eurkon及时当勉励，岁月不待人。'
-      url: 'https://blog.eurkon.com'
-    - name: '爱吃肉的猫进一寸有进一寸的欢喜。'
-      url: 'https://meuicat.com/'
-    - name: '清羽飞扬柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜'
-      url: 'https://blog.liushen.fun/'
-    - name: '牧尘的NAS小站NAS折腾不完全指南，定期分享一些好玩的东西，不定期记录生活。'
-      url: 'https://www.dreamlyn.cn/'
-    - name: '运维开发故事专注分享运维领域技术知识'
-      url: 'https://www.devopstory.cn'
-    - name: '废柴阿尤 の 博客无'
-      url: 'https://blog.ayou.ink'
-    - name: '秋意零解云疑，探运维！'
-      url: 'https://www.qiuyl.com'
-    - name: '乔克的SRE视界我叫乔克，一名云原生爱好者'
-      url: 'https://jokerbai.com/'
-    - name: 'gq''s blog这里是 gq (@zgq354) 的网络自留地，存放一些日常的思考和做过的东东...'
-      url: 'https://zgq.me/'
-    - name: 'LimboyLimboy'
-      url: 'https://limboy.me/'
-    - name: 'This Cute World脚下虽有万水千山，但行者必至。'
-      url: 'https://thiscute.world/'
-    - name: '拾月晚来天欲雪，能饮一杯无。'
-      url: 'https://www.skyue.com/'
-    - name: '優萌初華琉璃的医学 & 编程笔记'
-      url: 'https://shoka.lostyu.me'
-    - name: '海若博客法学法律工作者'
-      url: 'https://hyruo.com'
-    - name: '云心怀鹤寻真旅摄，笔墨纪实'
-      url: 'https://bluehe.cn/'
-    - name: 'Moreality''s BlogThe singularity is nearer.'
-      url: 'https://moreality.net/'
-    - name: '板桥工学null'
-      url: 'https://johnbanq.github.io/'
-    - name: '东评西就小饿,专注科技互联网、社交媒体运营'
-      url: 'https://dongjunke.cn'
-    - name: '胡涂说用「胡涂说」来表达我的想法。写我所想，写我想说。'
-      url: 'https://hutusi.com/'
-    - name: 'Bensz百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。'
-      url: 'https://blognas.hwb0307.com'
-    - name: 'Andy烧麦Andy烧麦'
-      url: 'https://4311346.com/'
-    - name: 'Young Kbt Blogundefined'
-      url: 'https://notes.youngkbt.cn/'
-    - name: '严千屹一个简简单单的云计算运维博客'
-      url: 'https://blog.qianyios.top/'
-    - name: '张恒华SDN研究者'
-      url: 'https://zhh2001.github.io'
-    - name: 'Donghai真诚记录，生活值得'
-      url: 'https://mgrowup.com'
-    - name: 'BlogFinder'
-      url: 'https://bf.zzxworld.com/'
-    - name: '博客之家'
-      url: 'https://www.perass.com/'
+    - name: "张洪Heo分享设计与科技生活"
+      url: "https://blog.zhheo.com/"
+    - name: "小冰博客做个有梦想的人！"
+      url: "https://zfe.space/"
+    - name: "安知鱼生活明朗，万物可爱"
+      url: "https://blog.anheyu.com/"
+    - name: "Akilarの糖果屋欢迎光临糖果屋"
+      url: "https://akilar.top/"
+    - name: "Leonus进一寸有进一寸的欢喜。"
+      url: "https://blog.leonus.cn/"
+    - name: "Eurkon及时当勉励，岁月不待人。"
+      url: "https://blog.eurkon.com"
+    - name: "爱吃肉的猫进一寸有进一寸的欢喜。"
+      url: "https://meuicat.com/"
+    - name: "清羽飞扬柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
+      url: "https://blog.liushen.fun/"
+    - name: "牧尘的NAS小站NAS折腾不完全指南，定期分享一些好玩的东西，不定期记录生活。"
+      url: "https://www.dreamlyn.cn/"
+    - name: "运维开发故事专注分享运维领域技术知识"
+      url: "https://www.devopstory.cn"
+    - name: "废柴阿尤 の 博客无"
+      url: "https://blog.ayou.ink"
+    - name: "秋意零解云疑，探运维！"
+      url: "https://www.qiuyl.com"
+    - name: "乔克的SRE视界我叫乔克，一名云原生爱好者"
+      url: "https://jokerbai.com/"
+    - name: "gq's blog这里是 gq (@zgq354) 的网络自留地，存放一些日常的思考和做过的东东..."
+      url: "https://zgq.me/"
+    - name: "LimboyLimboy"
+      url: "https://limboy.me/"
+    - name: "This Cute World脚下虽有万水千山，但行者必至。"
+      url: "https://thiscute.world/"
+    - name: "拾月晚来天欲雪，能饮一杯无。"
+      url: "https://www.skyue.com/"
+    - name: "優萌初華琉璃的医学 & 编程笔记"
+      url: "https://shoka.lostyu.me"
+    - name: "海若博客法学法律工作者"
+      url: "https://hyruo.com"
+    - name: "云心怀鹤寻真旅摄，笔墨纪实"
+      url: "https://bluehe.cn/"
+    - name: "Moreality's BlogThe singularity is nearer."
+      url: "https://moreality.net/"
+    - name: "板桥工学null"
+      url: "https://johnbanq.github.io/"
+    - name: "东评西就小饿,专注科技互联网、社交媒体运营"
+      url: "https://dongjunke.cn"
+    - name: "胡涂说用「胡涂说」来表达我的想法。写我所想，写我想说。"
+      url: "https://hutusi.com/"
+    - name: "Bensz百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。"
+      url: "https://blognas.hwb0307.com"
+    - name: "Andy烧麦Andy烧麦"
+      url: "https://4311346.com/"
+    - name: "Young Kbt Blogundefined"
+      url: "https://notes.youngkbt.cn/"
+    - name: "严千屹一个简简单单的云计算运维博客"
+      url: "https://blog.qianyios.top/"
+    - name: "张恒华SDN研究者"
+      url: "https://zhh2001.github.io"
+    - name: "Donghai真诚记录，生活值得"
+      url: "https://mgrowup.com"
+    - name: "BlogFinder"
+      url: "https://bf.zzxworld.com/"
+    - name: "博客之家"
+      url: "https://www.perass.com/"

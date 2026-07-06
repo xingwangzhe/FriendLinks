@@ -1,12 +1,12 @@
 site:
-  name: 'Astro Blog'
-  url: 'https://www.wuyublog.tech/'
-  description: 'Welcome to my website!'
-  links: '/links'
+  name: "Astro Blog"
+  url: "https://www.wuyublog.tech/"
+  description: "Welcome to my website!"
+  links: "/links"
   friends:
-    - name: 'Yuuko = Yuukoの小屋'
-      url: 'https://yuukowww.github.io/'
-    - name: 'Home'
-      url: 'https://blog.candlest.cc/'
-    - name: '晓晓梦的小站'
-      url: 'https://blog.honkai.top/'
+    - name: "Yuuko = Yuukoの小屋"
+      url: "https://yuukowww.github.io/"
+    - name: "Home"
+      url: "https://blog.candlest.cc/"
+    - name: "晓晓梦的小站"
+      url: "https://blog.honkai.top/"

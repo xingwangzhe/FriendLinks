@@ -1,16 +1,16 @@
 site:
-  name: 'iblog.ren'
-  url: 'https://iblog.ren/'
-  description: '友情链接'
-  links: '/links'
+  name: "iblog.ren"
+  url: "https://iblog.ren/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'xzOS主要用于分享 IT 技术与博主的碎碎念 ฅ’ω’ฅ'
-      url: 'https://xzos.net/'
-    - name: '极客爱好者'
-      url: 'https://kbsml.com/'
-    - name: '旋律的博客专注干一些奇怪事情的地方(●ˇ∀ˇ●)'
-      url: 'https://e11z.net/'
-    - name: 'Rise'
-      url: 'https://risehere.net/'
-    - name: 'Makito'
-      url: 'https://keep.moe/'
+    - name: "xzOS主要用于分享 IT 技术与博主的碎碎念 ฅ’ω’ฅ"
+      url: "https://xzos.net/"
+    - name: "极客爱好者"
+      url: "https://kbsml.com/"
+    - name: "旋律的博客专注干一些奇怪事情的地方(●ˇ∀ˇ●)"
+      url: "https://e11z.net/"
+    - name: "Rise"
+      url: "https://risehere.net/"
+    - name: "Makito"
+      url: "https://keep.moe/"

@@ -1,12 +1,12 @@
 site:
-  name: 'About Me'
-  url: 'https://caihanlin.com/'
-  description: '## About MeHere is **Hanlin Cai** (Lance, 蔡汉霖).I am a first-year PhD student in '
-  links: '/links'
+  name: "About Me"
+  url: "https://caihanlin.com/"
+  description: "## About MeHere is **Hanlin Cai** (Lance, 蔡汉霖).I am a first-year PhD student in "
+  links: "/links"
   friends:
-    - name: 'Posts'
-      url: 'https://www.zackwu.com/'
-    - name: '杨希杰的个人网站'
-      url: 'https://yang-xijie.github.io/'
-    - name: 'Made Mistakes'
-      url: 'https://mademistakes.com/'
+    - name: "Posts"
+      url: "https://www.zackwu.com/"
+    - name: "杨希杰的个人网站"
+      url: "https://yang-xijie.github.io/"
+    - name: "Made Mistakes"
+      url: "https://mademistakes.com/"

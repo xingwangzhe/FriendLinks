@@ -1,12 +1,12 @@
 site:
-  name: 'yuhhhy.cn'
-  url: 'http://yuhhhy.cn/'
-  description: '友情链接'
-  links: '/about'
+  name: "yuhhhy.cn"
+  url: "http://yuhhhy.cn/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: 'idontwannago'
-      url: 'https://www.idontwannago.cn/'
-    - name: 'idealclover'
-      url: 'https://idealclover.top/'
-    - name: 'fiveth'
-      url: 'https://blog.fiveth.cc/'
+    - name: "idontwannago"
+      url: "https://www.idontwannago.cn/"
+    - name: "idealclover"
+      url: "https://idealclover.top/"
+    - name: "fiveth"
+      url: "https://blog.fiveth.cc/"

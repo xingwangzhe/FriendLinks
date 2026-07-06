@@ -1,98 +1,98 @@
 site:
-  name: 'isenchun.cn'
-  url: 'https://isenchun.cn/'
-  description: '友情链接'
-  links: '/links'
+  name: "isenchun.cn"
+  url: "https://isenchun.cn/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '陶小桃Blog'
-      url: 'https://www.52txr.cn'
-    - name: 'Oscaner'
-      url: 'https://www.oscaner.com'
-    - name: '胡家小子'
-      url: 'https://www.boyhu.cn'
-    - name: 'pmdgjjw'
-      url: 'https://www.efgflight.top'
-    - name: '苗锦洲'
-      url: 'https://ordinaryroad.top'
-    - name: 'tam'
-      url: 'https://tamboke.com/'
-    - name: '电子商务法'
-      url: 'http://imjmj.com/'
-    - name: '若志奕鑫'
-      url: 'https://www.rz.sb'
-    - name: '梁俊威'
-      url: 'https://www.ljwei.com.cn'
-    - name: '黄业兴博客'
-      url: 'https://www.468427.com'
-    - name: 'TAOG'
-      url: 'https://iktao.cn'
-    - name: '谭嘉成'
-      url: 'https://www.tjcblog.com'
-    - name: 'John.Cena'
-      url: 'https://jcxiaozhan.gitee.io'
-    - name: '陈陈菌'
-      url: 'https://blog.glumi.cn'
-    - name: '日记铺子'
-      url: 'https://www.rjpz.net'
-    - name: '百万链'
-      url: 'https://www.baiwanlian.net/'
-    - name: '石头记'
-      url: 'http://www.szq.cool'
-    - name: 'Lok'
-      url: 'https://www.seeuh.com/'
-    - name: 'Derek村长'
-      url: 'https://blog.dosth.fun'
-    - name: 'Diego'
-      url: 'http://blog.diego.plus:5800'
-    - name: 'john.cena'
-      url: 'https://www.jcxiaozhan.top'
-    - name: '王嘉宁'
-      url: 'http://www.wjn1996.cn'
-    - name: 'Sprite'
-      url: 'https://shezw.com'
-    - name: '许小逸'
-      url: 'https://www.xuxiaoyi.top'
-    - name: '徐征航'
-      url: 'https://xzh.pub/'
-    - name: '乐心湖'
-      url: 'https://www.xn2001.com'
-    - name: '爱摸鱼的阿恒'
-      url: 'https://focuxin.com'
-    - name: 'Moechu'
-      url: 'https://moechu.cn'
-    - name: 'benen005'
-      url: 'http://benen005.cn'
-    - name: '术与道'
-      url: 'http://www.shuyudao.top'
-    - name: '日记坊'
-      url: 'http://rijifang.com'
-    - name: 'Aw-yang'
-      url: 'http://www.aw-yang.club/'
-    - name: 'FKUN'
-      url: 'https://fkun.tech/'
-    - name: 'sking'
-      url: 'https://www.hiai.top'
-    - name: 'Escher'
-      url: 'https://jkgblog.com/'
-    - name: '小奥纸'
-      url: 'https://www.xiaoaozhi.cn'
-    - name: '森屿博客'
-      url: 'https://www.isenyu.cn'
-    - name: '与梦城'
-      url: 'https://www.gqink.cn'
-    - name: '若志奕鑫的小站'
-      url: 'https://www.zyiev.cn'
-    - name: '刘大喵'
-      url: 'https://ipwa.cn'
-    - name: '徐征航'
-      url: 'https://xuzhenghang.com'
-    - name: '北漂的程序猿'
-      url: 'http://www.bjcxy.club/'
-    - name: '宏远博客'
-      url: 'https://i97.me'
-    - name: '刘晨晨'
-      url: 'https://www.linguang.me'
-    - name: '小小驿站网'
-      url: 'http://xxinn.cn'
-    - name: 'Hoe'
-      url: 'http://www.hoehub.com'
+    - name: "陶小桃Blog"
+      url: "https://www.52txr.cn"
+    - name: "Oscaner"
+      url: "https://www.oscaner.com"
+    - name: "胡家小子"
+      url: "https://www.boyhu.cn"
+    - name: "pmdgjjw"
+      url: "https://www.efgflight.top"
+    - name: "苗锦洲"
+      url: "https://ordinaryroad.top"
+    - name: "tam"
+      url: "https://tamboke.com/"
+    - name: "电子商务法"
+      url: "http://imjmj.com/"
+    - name: "若志奕鑫"
+      url: "https://www.rz.sb"
+    - name: "梁俊威"
+      url: "https://www.ljwei.com.cn"
+    - name: "黄业兴博客"
+      url: "https://www.468427.com"
+    - name: "TAOG"
+      url: "https://iktao.cn"
+    - name: "谭嘉成"
+      url: "https://www.tjcblog.com"
+    - name: "John.Cena"
+      url: "https://jcxiaozhan.gitee.io"
+    - name: "陈陈菌"
+      url: "https://blog.glumi.cn"
+    - name: "日记铺子"
+      url: "https://www.rjpz.net"
+    - name: "百万链"
+      url: "https://www.baiwanlian.net/"
+    - name: "石头记"
+      url: "http://www.szq.cool"
+    - name: "Lok"
+      url: "https://www.seeuh.com/"
+    - name: "Derek村长"
+      url: "https://blog.dosth.fun"
+    - name: "Diego"
+      url: "http://blog.diego.plus:5800"
+    - name: "john.cena"
+      url: "https://www.jcxiaozhan.top"
+    - name: "王嘉宁"
+      url: "http://www.wjn1996.cn"
+    - name: "Sprite"
+      url: "https://shezw.com"
+    - name: "许小逸"
+      url: "https://www.xuxiaoyi.top"
+    - name: "徐征航"
+      url: "https://xzh.pub/"
+    - name: "乐心湖"
+      url: "https://www.xn2001.com"
+    - name: "爱摸鱼的阿恒"
+      url: "https://focuxin.com"
+    - name: "Moechu"
+      url: "https://moechu.cn"
+    - name: "benen005"
+      url: "http://benen005.cn"
+    - name: "术与道"
+      url: "http://www.shuyudao.top"
+    - name: "日记坊"
+      url: "http://rijifang.com"
+    - name: "Aw-yang"
+      url: "http://www.aw-yang.club/"
+    - name: "FKUN"
+      url: "https://fkun.tech/"
+    - name: "sking"
+      url: "https://www.hiai.top"
+    - name: "Escher"
+      url: "https://jkgblog.com/"
+    - name: "小奥纸"
+      url: "https://www.xiaoaozhi.cn"
+    - name: "森屿博客"
+      url: "https://www.isenyu.cn"
+    - name: "与梦城"
+      url: "https://www.gqink.cn"
+    - name: "若志奕鑫的小站"
+      url: "https://www.zyiev.cn"
+    - name: "刘大喵"
+      url: "https://ipwa.cn"
+    - name: "徐征航"
+      url: "https://xuzhenghang.com"
+    - name: "北漂的程序猿"
+      url: "http://www.bjcxy.club/"
+    - name: "宏远博客"
+      url: "https://i97.me"
+    - name: "刘晨晨"
+      url: "https://www.linguang.me"
+    - name: "小小驿站网"
+      url: "http://xxinn.cn"
+    - name: "Hoe"
+      url: "http://www.hoehub.com"

@@ -1,156 +1,156 @@
 site:
-  name: 'carol.gg'
-  url: 'https://carol.gg/'
-  description: '友情链接'
-  links: '/links'
+  name: "carol.gg"
+  url: "https://carol.gg/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Accessibility Insights Extension'
-      url: 'https://accessibilityinsights.io'
-    - name: 'Wakamai Fondue'
-      url: 'https://wakamaifondue.com/'
-    - name: 'Font Joy'
-      url: 'https://fontjoy.com/'
-    - name: 'Beasts of england'
-      url: 'https://beastsofengland.co/'
-    - name: 'VJ Type'
-      url: 'https://www.vj-type.com/'
-    - name: 'Typewolf'
-      url: 'https://www.typewolf.com/'
-    - name: 'Glyphs app'
-      url: 'https://glyphsapp.com/'
-    - name: 'Hot Type'
-      url: 'https://hottype.co/'
-    - name: 'Fontshare'
-      url: 'https://fontshare.com/'
-    - name: 'Fonts In Use'
-      url: 'https://fontsinuse.com/'
-    - name: 'Uncut.wtf'
-      url: 'https://uncut.wtf'
-    - name: 'Grids - Obys Agency'
-      url: 'https://grids.obys.agency/'
-    - name: 'Design Spells'
-      url: 'https://www.designspells.com/'
-    - name: 'Refero'
-      url: 'https://refero.design/'
-    - name: 'Mobbin'
-      url: 'https://mobbin.com/'
-    - name: 'Footer Design'
-      url: 'https://www.footer.design/'
-    - name: 'Rebrand Gallery'
-      url: 'https://www.rebrand.gallery/'
-    - name: 'Deck Gallery'
-      url: 'https://www.deck.gallery/'
-    - name: 'Cover Junkie'
-      url: 'https://coverjunkie.com'
-    - name: 'francobollimontilessini'
-      url: 'https://www.francobollimontilessini.com/'
-    - name: 'Same Energy'
-      url: 'https://same.energy/'
-    - name: 'Made with GSAP'
-      url: 'https://madewithgsap.com/'
-    - name: 'Jitter'
-      url: 'https://jitter.video/'
-    - name: 'Lordicon'
-      url: 'https://lordicon.com/'
-    - name: 'Space Type Generator'
-      url: 'https://spacetypegenerator.com/'
-    - name: 'Public Work'
-      url: 'https://public.work/'
-    - name: 'OneLook'
-      url: 'https://onelook.com/'
-    - name: 'Earth visualisations'
-      url: 'https://earth.nullschool.net'
-    - name: 'Museum of Modern GIFs'
-      url: 'https://momg.neocities.org/'
-    - name: 'Wikenigma'
-      url: 'https://wikenigma.org.uk/'
-    - name: 'Drive and listen'
-      url: 'https://www.driveandlisten.net/'
-    - name: 'Queering the map'
-      url: 'https://queeringthemap.com/'
-    - name: 'Radio Garden'
-      url: 'https://radio.garden/'
-    - name: 'Window Swap'
-      url: 'https://window-swap.com/'
-    - name: 'Radiooooo'
-      url: 'https://radiooooo.com/'
-    - name: 'The School for Poetic Computation'
-      url: 'https://sfpc.study/'
-    - name: 'Every Single Frame'
-      url: 'https://www.everysingleframe.com/'
-    - name: 'Infinite Mac'
-      url: 'https://infinitemac.org/'
-    - name: 'Yarn'
-      url: 'https://yarn.co/'
-    - name: 'Make my drive fun'
-      url: 'https://makemydrivefun.com/'
-    - name: 'NYT Cooking'
-      url: 'https://cooking.nytimes.com/'
-    - name: 'Saveur'
-      url: 'https://www.saveur.com/'
-    - name: 'Serious Eats'
-      url: 'https://www.seriouseats.com/'
-    - name: 'Cookie and Kate'
-      url: 'https://cookieandkate.com/'
-    - name: 'Sally''s Baking Addiction'
-      url: 'https://sallysbakingaddiction.com/'
-    - name: 'Bananagrams'
-      url: 'https://www.playbananagrams.com/'
-    - name: 'Blocktanks'
-      url: 'https://blocktanks.net/'
-    - name: 'Board game arena'
-      url: 'https://en.boardgamearena.com/'
-    - name: 'Cards against humanity'
-      url: 'https://cah.rocks/'
-    - name: 'Drawasaurus'
-      url: 'https://www.drawasaurus.org/'
-    - name: 'Jeopardy'
-      url: 'https://jeopardylabs.com/'
-    - name: 'Jigsaw'
-      url: 'https://jigsawpuzzles.io/'
-    - name: 'Music quiz'
-      url: 'https://songl.io/'
-    - name: 'Scattergories'
-      url: 'https://really.boring.website/'
-    - name: 'Telephone'
-      url: 'https://garticphone.com/'
-    - name: 'Minerva (good for deadstock fabrics)'
-      url: 'https://www.minerva.com/'
-    - name: 'BAM'
-      url: 'https://bambooclothing.co.uk/'
-    - name: 'Cora + Spink'
-      url: 'https://coraandspink.com/'
-    - name: 'Everpress'
-      url: 'https://everpress.com'
-    - name: 'Finisterre'
-      url: 'https://finisterre.com'
-    - name: 'Howies'
-      url: 'https://howies.co.uk/'
-    - name: 'Humphries & Begg'
-      url: 'https://www.humphriesandbegg.co.uk/'
-    - name: 'Lazy Oaf'
-      url: 'https://www.lazyoaf.com'
-    - name: 'Lucy and Yak'
-      url: 'https://lucyandyak.com/'
-    - name: 'Miss Patisserie'
-      url: 'https://www.miss-patisserie.com'
-    - name: 'Nightire'
-      url: 'https://nightire.com/'
-    - name: 'Rapanui'
-      url: 'https://rapanuiclothing.com/'
-    - name: 'Sugarhill'
-      url: 'https://www.sugarhillbrighton.com'
-    - name: 'Thought'
-      url: 'https://www.wearethought.com/'
-    - name: 'Toast'
-      url: 'https://www.toa.st'
-    - name: 'Giant Kitten'
-      url: 'https://www.giant-kitten.com/'
-    - name: 'Clarice Tudor'
-      url: 'https://claricetudor.com/'
-    - name: 'Dupe'
-      url: 'https://dupe.com/'
-    - name: 'Faircado'
-      url: 'https://faircado.com/'
-    - name: 'Miso Paper'
-      url: 'https://misopaper.co.uk/'
+    - name: "Accessibility Insights Extension"
+      url: "https://accessibilityinsights.io"
+    - name: "Wakamai Fondue"
+      url: "https://wakamaifondue.com/"
+    - name: "Font Joy"
+      url: "https://fontjoy.com/"
+    - name: "Beasts of england"
+      url: "https://beastsofengland.co/"
+    - name: "VJ Type"
+      url: "https://www.vj-type.com/"
+    - name: "Typewolf"
+      url: "https://www.typewolf.com/"
+    - name: "Glyphs app"
+      url: "https://glyphsapp.com/"
+    - name: "Hot Type"
+      url: "https://hottype.co/"
+    - name: "Fontshare"
+      url: "https://fontshare.com/"
+    - name: "Fonts In Use"
+      url: "https://fontsinuse.com/"
+    - name: "Uncut.wtf"
+      url: "https://uncut.wtf"
+    - name: "Grids - Obys Agency"
+      url: "https://grids.obys.agency/"
+    - name: "Design Spells"
+      url: "https://www.designspells.com/"
+    - name: "Refero"
+      url: "https://refero.design/"
+    - name: "Mobbin"
+      url: "https://mobbin.com/"
+    - name: "Footer Design"
+      url: "https://www.footer.design/"
+    - name: "Rebrand Gallery"
+      url: "https://www.rebrand.gallery/"
+    - name: "Deck Gallery"
+      url: "https://www.deck.gallery/"
+    - name: "Cover Junkie"
+      url: "https://coverjunkie.com"
+    - name: "francobollimontilessini"
+      url: "https://www.francobollimontilessini.com/"
+    - name: "Same Energy"
+      url: "https://same.energy/"
+    - name: "Made with GSAP"
+      url: "https://madewithgsap.com/"
+    - name: "Jitter"
+      url: "https://jitter.video/"
+    - name: "Lordicon"
+      url: "https://lordicon.com/"
+    - name: "Space Type Generator"
+      url: "https://spacetypegenerator.com/"
+    - name: "Public Work"
+      url: "https://public.work/"
+    - name: "OneLook"
+      url: "https://onelook.com/"
+    - name: "Earth visualisations"
+      url: "https://earth.nullschool.net"
+    - name: "Museum of Modern GIFs"
+      url: "https://momg.neocities.org/"
+    - name: "Wikenigma"
+      url: "https://wikenigma.org.uk/"
+    - name: "Drive and listen"
+      url: "https://www.driveandlisten.net/"
+    - name: "Queering the map"
+      url: "https://queeringthemap.com/"
+    - name: "Radio Garden"
+      url: "https://radio.garden/"
+    - name: "Window Swap"
+      url: "https://window-swap.com/"
+    - name: "Radiooooo"
+      url: "https://radiooooo.com/"
+    - name: "The School for Poetic Computation"
+      url: "https://sfpc.study/"
+    - name: "Every Single Frame"
+      url: "https://www.everysingleframe.com/"
+    - name: "Infinite Mac"
+      url: "https://infinitemac.org/"
+    - name: "Yarn"
+      url: "https://yarn.co/"
+    - name: "Make my drive fun"
+      url: "https://makemydrivefun.com/"
+    - name: "NYT Cooking"
+      url: "https://cooking.nytimes.com/"
+    - name: "Saveur"
+      url: "https://www.saveur.com/"
+    - name: "Serious Eats"
+      url: "https://www.seriouseats.com/"
+    - name: "Cookie and Kate"
+      url: "https://cookieandkate.com/"
+    - name: "Sally's Baking Addiction"
+      url: "https://sallysbakingaddiction.com/"
+    - name: "Bananagrams"
+      url: "https://www.playbananagrams.com/"
+    - name: "Blocktanks"
+      url: "https://blocktanks.net/"
+    - name: "Board game arena"
+      url: "https://en.boardgamearena.com/"
+    - name: "Cards against humanity"
+      url: "https://cah.rocks/"
+    - name: "Drawasaurus"
+      url: "https://www.drawasaurus.org/"
+    - name: "Jeopardy"
+      url: "https://jeopardylabs.com/"
+    - name: "Jigsaw"
+      url: "https://jigsawpuzzles.io/"
+    - name: "Music quiz"
+      url: "https://songl.io/"
+    - name: "Scattergories"
+      url: "https://really.boring.website/"
+    - name: "Telephone"
+      url: "https://garticphone.com/"
+    - name: "Minerva (good for deadstock fabrics)"
+      url: "https://www.minerva.com/"
+    - name: "BAM"
+      url: "https://bambooclothing.co.uk/"
+    - name: "Cora + Spink"
+      url: "https://coraandspink.com/"
+    - name: "Everpress"
+      url: "https://everpress.com"
+    - name: "Finisterre"
+      url: "https://finisterre.com"
+    - name: "Howies"
+      url: "https://howies.co.uk/"
+    - name: "Humphries & Begg"
+      url: "https://www.humphriesandbegg.co.uk/"
+    - name: "Lazy Oaf"
+      url: "https://www.lazyoaf.com"
+    - name: "Lucy and Yak"
+      url: "https://lucyandyak.com/"
+    - name: "Miss Patisserie"
+      url: "https://www.miss-patisserie.com"
+    - name: "Nightire"
+      url: "https://nightire.com/"
+    - name: "Rapanui"
+      url: "https://rapanuiclothing.com/"
+    - name: "Sugarhill"
+      url: "https://www.sugarhillbrighton.com"
+    - name: "Thought"
+      url: "https://www.wearethought.com/"
+    - name: "Toast"
+      url: "https://www.toa.st"
+    - name: "Giant Kitten"
+      url: "https://www.giant-kitten.com/"
+    - name: "Clarice Tudor"
+      url: "https://claricetudor.com/"
+    - name: "Dupe"
+      url: "https://dupe.com/"
+    - name: "Faircado"
+      url: "https://faircado.com/"
+    - name: "Miso Paper"
+      url: "https://misopaper.co.uk/"

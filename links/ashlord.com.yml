@@ -1,92 +1,92 @@
 site:
-  name: 'ashlord.com'
-  url: 'https://www.ashlord.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "ashlord.com"
+  url: "https://www.ashlord.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'fiona''s blog'
-      url: 'https://ciiy.de'
-    - name: '忘川河畔'
-      url: 'https://been.ee'
-    - name: 'Blush'
-      url: 'https://blush.icu'
-    - name: 'Xue'
-      url: 'https://bryantxue.com'
-    - name: 'Elykia'
-      url: 'https://blog.elykia.cn/'
-    - name: 'Vivi不懂'
-      url: 'https://budongkeji.cc'
-    - name: 'Liutsの博客'
-      url: 'https://blog.333375.xyz/'
-    - name: '欢-Huan'
-      url: 'https://www.starvm.top'
-    - name: 'NMSL.CN'
-      url: 'https://nmsl.cn/'
-    - name: 'DABO'
-      url: 'https://moeu.de'
-    - name: '一直会飞的旺旺'
-      url: 'https://www.wangwangit.com'
-    - name: '薇尔薇'
-      url: 'https://www.vio.vin/'
-    - name: 'GenshinMinecraftの小小藏身地'
-      url: 'https://genmin.icu'
-    - name: '夜轻Blog'
-      url: 'https://blog.yeqing.net/'
-    - name: 'BuYao.De'
-      url: 'https://buyao.de/'
-    - name: '小欢博客'
-      url: 'https://www.cups.moe'
-    - name: 'Unicode'
-      url: 'https://www.un1c0de.com/'
-    - name: 'Clouldon'
-      url: 'https://blog.clouldon.com/'
-    - name: '彬红茶博客'
-      url: 'https://blog.redcha.cn/'
-    - name: '纳西妲 · Nahida'
-      url: 'https://nahida.im/'
-    - name: '522小椿的小站'
-      url: 'https://blog.522.plus'
-    - name: 'Hinai'
-      url: 'https://blog.woo.moe'
-    - name: 'Lincol29’s Blog'
-      url: 'https://www.lincol29.cn'
-    - name: 'butlanys的博客'
-      url: 'https://butlanys.de'
-    - name: 'Roozen的小破站'
-      url: 'https://roozen.top'
-    - name: '二叉树树'
-      url: 'https://2x.nz'
-    - name: 'jsishsjsj的生活随笔'
-      url: 'https://xiao.nanniang.de'
-    - name: 'MoXiify''s Blog'
-      url: 'https://note.moxiify.cn'
-    - name: 'Oblique'
-      url: 'https://www.aspchang.com'
-    - name: 'iozz的Blog (＾▽＾)'
-      url: 'https://blog.iozz.cc/'
-    - name: '百晓生'
-      url: 'https://www.baixiaosheng.de'
-    - name: 'SamHou''s Blog'
-      url: 'https://blog.samhou.moe/'
-    - name: '猫猫博客'
-      url: 'https://catcat.blog'
-    - name: '倪哥买提大巴扎'
-      url: 'https://www.gnix807.cn'
-    - name: '聶.NET'
-      url: 'https://www.niekaixiang.com'
-    - name: 'Aqacc'
-      url: 'https://aqa.cc/'
-    - name: '夕凪の小站'
-      url: 'https://blog.yurucamp.vip/'
-    - name: 'Colin''s Blog'
-      url: 'https://trew.top'
-    - name: '5ee博客'
-      url: 'https://www.5ee.net'
-    - name: 'Sakim'
-      url: 'https://blog.kokonoyu.com'
-    - name: 'Oyiso''s Blog'
-      url: 'https://oyiso.cn'
-    - name: '素心'
-      url: 'https://haiy.space/'
-    - name: 'Onirexus'
-      url: 'https://blog.onirexus.com'
+    - name: "fiona's blog"
+      url: "https://ciiy.de"
+    - name: "忘川河畔"
+      url: "https://been.ee"
+    - name: "Blush"
+      url: "https://blush.icu"
+    - name: "Xue"
+      url: "https://bryantxue.com"
+    - name: "Elykia"
+      url: "https://blog.elykia.cn/"
+    - name: "Vivi不懂"
+      url: "https://budongkeji.cc"
+    - name: "Liutsの博客"
+      url: "https://blog.333375.xyz/"
+    - name: "欢-Huan"
+      url: "https://www.starvm.top"
+    - name: "NMSL.CN"
+      url: "https://nmsl.cn/"
+    - name: "DABO"
+      url: "https://moeu.de"
+    - name: "一直会飞的旺旺"
+      url: "https://www.wangwangit.com"
+    - name: "薇尔薇"
+      url: "https://www.vio.vin/"
+    - name: "GenshinMinecraftの小小藏身地"
+      url: "https://genmin.icu"
+    - name: "夜轻Blog"
+      url: "https://blog.yeqing.net/"
+    - name: "BuYao.De"
+      url: "https://buyao.de/"
+    - name: "小欢博客"
+      url: "https://www.cups.moe"
+    - name: "Unicode"
+      url: "https://www.un1c0de.com/"
+    - name: "Clouldon"
+      url: "https://blog.clouldon.com/"
+    - name: "彬红茶博客"
+      url: "https://blog.redcha.cn/"
+    - name: "纳西妲 · Nahida"
+      url: "https://nahida.im/"
+    - name: "522小椿的小站"
+      url: "https://blog.522.plus"
+    - name: "Hinai"
+      url: "https://blog.woo.moe"
+    - name: "Lincol29’s Blog"
+      url: "https://www.lincol29.cn"
+    - name: "butlanys的博客"
+      url: "https://butlanys.de"
+    - name: "Roozen的小破站"
+      url: "https://roozen.top"
+    - name: "二叉树树"
+      url: "https://2x.nz"
+    - name: "jsishsjsj的生活随笔"
+      url: "https://xiao.nanniang.de"
+    - name: "MoXiify's Blog"
+      url: "https://note.moxiify.cn"
+    - name: "Oblique"
+      url: "https://www.aspchang.com"
+    - name: "iozz的Blog (＾▽＾)"
+      url: "https://blog.iozz.cc/"
+    - name: "百晓生"
+      url: "https://www.baixiaosheng.de"
+    - name: "SamHou's Blog"
+      url: "https://blog.samhou.moe/"
+    - name: "猫猫博客"
+      url: "https://catcat.blog"
+    - name: "倪哥买提大巴扎"
+      url: "https://www.gnix807.cn"
+    - name: "聶.NET"
+      url: "https://www.niekaixiang.com"
+    - name: "Aqacc"
+      url: "https://aqa.cc/"
+    - name: "夕凪の小站"
+      url: "https://blog.yurucamp.vip/"
+    - name: "Colin's Blog"
+      url: "https://trew.top"
+    - name: "5ee博客"
+      url: "https://www.5ee.net"
+    - name: "Sakim"
+      url: "https://blog.kokonoyu.com"
+    - name: "Oyiso's Blog"
+      url: "https://oyiso.cn"
+    - name: "素心"
+      url: "https://haiy.space/"
+    - name: "Onirexus"
+      url: "https://blog.onirexus.com"

@@ -1,12 +1,12 @@
 site:
-  name: 'kk.sb'
-  url: 'https://kk.sb/'
-  description: '友情链接'
-  links: '/'
+  name: "kk.sb"
+  url: "https://kk.sb/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Emby'
-      url: 'https://emby.media/'
-    - name: 'Jellyfin'
-      url: 'https://jellyfin.org/'
-    - name: '不愿意透露姓名的 Sendya'
-      url: 'https://www.loacg.com/'
+    - name: "Emby"
+      url: "https://emby.media/"
+    - name: "Jellyfin"
+      url: "https://jellyfin.org/"
+    - name: "不愿意透露姓名的 Sendya"
+      url: "https://www.loacg.com/"

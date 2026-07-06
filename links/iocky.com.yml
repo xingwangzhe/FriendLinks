@@ -1,18 +1,18 @@
 site:
-  name: 'iocky.com'
-  url: 'https://iocky.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "iocky.com"
+  url: "https://iocky.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'MisakaNo の 小破站'
-      url: 'https://www.misaka.rest/'
-    - name: 'Yu''s Site'
-      url: 'https://blog.loveyou.moe/'
-    - name: '初之音'
-      url: 'https://www.himiku.com/'
-    - name: '尚寂新'
-      url: 'https://shangjixin.com/'
-    - name: '爱玩实验室'
-      url: 'https://iwanlab.com/'
-    - name: '随思南游'
-      url: 'https://www.ssnur.com'
+    - name: "MisakaNo の 小破站"
+      url: "https://www.misaka.rest/"
+    - name: "Yu's Site"
+      url: "https://blog.loveyou.moe/"
+    - name: "初之音"
+      url: "https://www.himiku.com/"
+    - name: "尚寂新"
+      url: "https://shangjixin.com/"
+    - name: "爱玩实验室"
+      url: "https://iwanlab.com/"
+    - name: "随思南游"
+      url: "https://www.ssnur.com"

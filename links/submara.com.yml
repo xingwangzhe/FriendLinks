@@ -1,10 +1,10 @@
 site:
-  name: 'submara.com'
-  url: 'https://submara.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "submara.com"
+  url: "https://submara.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Anthony Fu'
-      url: 'https://antfu.me/'
-    - name: 'Riri'
-      url: 'https://daydreamer-riri.me/'
+    - name: "Anthony Fu"
+      url: "https://antfu.me/"
+    - name: "Riri"
+      url: "https://daydreamer-riri.me/"

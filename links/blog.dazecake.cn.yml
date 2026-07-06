@@ -1,10 +1,10 @@
 site:
-  name: 'blog.dazecake.cn'
-  url: 'http://blog.dazecake.cn/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.dazecake.cn"
+  url: "http://blog.dazecake.cn/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Krysztal Huang'
-      url: 'https://blog.krysztal.dev/'
-    - name: 'DOYO的生活笔记'
-      url: 'https://doyo.icu'
+    - name: "Krysztal Huang"
+      url: "https://blog.krysztal.dev/"
+    - name: "DOYO的生活笔记"
+      url: "https://doyo.icu"

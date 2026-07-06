@@ -1,12 +1,12 @@
 site:
-  name: 'ipdb.030101.xyz'
-  url: 'https://ipdb.030101.xyz/'
-  description: '友情链接'
-  links: '/links'
+  name: "ipdb.030101.xyz"
+  url: "https://ipdb.030101.xyz/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'IPDB-API'
-      url: 'https://ipdb.api.030101.xyz/'
-    - name: 'Spurl-API'
-      url: 'https://spurl.api.030101.xyz/'
-    - name: 'Steps-API'
-      url: 'https://steps.api.030101.xyz/'
+    - name: "IPDB-API"
+      url: "https://ipdb.api.030101.xyz/"
+    - name: "Spurl-API"
+      url: "https://spurl.api.030101.xyz/"
+    - name: "Steps-API"
+      url: "https://steps.api.030101.xyz/"

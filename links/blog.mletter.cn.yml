@@ -1,50 +1,50 @@
 site:
-  name: 'blog.mletter.cn'
-  url: 'https://blog.mletter.cn/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.mletter.cn"
+  url: "https://blog.mletter.cn/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '老麦的书房 Go语言(golang)、 云原生、 DevOps、 可视化追踪。'
-      url: 'https://typonotes.com/'
-    - name: '提剑追梦 曾梦想仗剑走天涯'
-      url: 'http://blog.jkjoy.cn'
-    - name: '快乐小凳凳`Blog Sow nothing, reap nothing.'
-      url: 'https://www.dqywy.top/'
-    - name: '十二的编程笔记 十二的编程笔记'
-      url: 'https://blog.twelveeee.top/'
-    - name: 'Jack&#39;s Space 一切都是最好的安排'
-      url: 'https://veryjack.com'
-    - name: '下午倆點半的海德公園 平凡生活里的不平凡。'
-      url: 'https://hyde.live'
-    - name: '刘郎阁 一个积极向上的生活探索者！'
-      url: 'https://vjo.cc/'
-    - name: '半日闲 偷得浮生半日闲'
-      url: 'https://xiaoa.me'
-    - name: '肖寒武的博客 我歌月徘徊，我舞影凌乱。'
-      url: 'https://www.xiaohanwu.com'
-    - name: '浮沉流年 借一点落日的光与来日方长'
-      url: 'https://www.fcln.net'
-    - name: '蜡客生活系 个人博客，心感记述，电脑技术，软件分享。'
-      url: 'https://www.lknc.vip/'
-    - name: 'L1nSn0w&#39;s Blog 无限进步.🎈'
-      url: 'https://linsnow.cn/'
-    - name: '老孙博客 资深网民孙先生'
-      url: 'https://www.imsun.org/'
-    - name: '百川的博客🌊 追风赶月莫停留，平芜尽处是春山。'
-      url: 'https://www.baichuanweb.cn'
-    - name: '大海看看 记录生活留住美好时刻 ，分享个人学习笔记.'
-      url: 'https://www.dhkk.cn'
-    - name: '山山而川 人生海海 山山而川 不过尔尔'
-      url: 'https://blog.immm.cn/'
-    - name: '小骆同学 细水流长，静水流深'
-      url: 'https://lovir.cn/'
-    - name: 'Niuren.VIP 对牛弹琴，弹，弹，弹！'
-      url: 'https://niuren.vip'
-    - name: '纸鹿本鹿 纸鹿至麓不知路，支炉制露不止漉'
-      url: 'https://blog.zhilu.cyou'
-    - name: '灯火不休时 所爱隔山海，山海不可平；所念皆星河，星河不可及'
-      url: 'https://blog.dhbxs.top'
-    - name: 'jdeal 人生本来就是用来折腾的，希望你永远年轻，永远他妈的热泪盈眶 ！'
-      url: 'https://www.jdeal.cn/'
-    - name: 'Jeray大叔 人生，就是要有点趣味性，才好玩啊！'
-      url: 'https://hi.jeray.wang'
+    - name: "老麦的书房 Go语言(golang)、 云原生、 DevOps、 可视化追踪。"
+      url: "https://typonotes.com/"
+    - name: "提剑追梦 曾梦想仗剑走天涯"
+      url: "http://blog.jkjoy.cn"
+    - name: "快乐小凳凳`Blog Sow nothing, reap nothing."
+      url: "https://www.dqywy.top/"
+    - name: "十二的编程笔记 十二的编程笔记"
+      url: "https://blog.twelveeee.top/"
+    - name: "Jack&#39;s Space 一切都是最好的安排"
+      url: "https://veryjack.com"
+    - name: "下午倆點半的海德公園 平凡生活里的不平凡。"
+      url: "https://hyde.live"
+    - name: "刘郎阁 一个积极向上的生活探索者！"
+      url: "https://vjo.cc/"
+    - name: "半日闲 偷得浮生半日闲"
+      url: "https://xiaoa.me"
+    - name: "肖寒武的博客 我歌月徘徊，我舞影凌乱。"
+      url: "https://www.xiaohanwu.com"
+    - name: "浮沉流年 借一点落日的光与来日方长"
+      url: "https://www.fcln.net"
+    - name: "蜡客生活系 个人博客，心感记述，电脑技术，软件分享。"
+      url: "https://www.lknc.vip/"
+    - name: "L1nSn0w&#39;s Blog 无限进步.🎈"
+      url: "https://linsnow.cn/"
+    - name: "老孙博客 资深网民孙先生"
+      url: "https://www.imsun.org/"
+    - name: "百川的博客🌊 追风赶月莫停留，平芜尽处是春山。"
+      url: "https://www.baichuanweb.cn"
+    - name: "大海看看 记录生活留住美好时刻 ，分享个人学习笔记."
+      url: "https://www.dhkk.cn"
+    - name: "山山而川 人生海海 山山而川 不过尔尔"
+      url: "https://blog.immm.cn/"
+    - name: "小骆同学 细水流长，静水流深"
+      url: "https://lovir.cn/"
+    - name: "Niuren.VIP 对牛弹琴，弹，弹，弹！"
+      url: "https://niuren.vip"
+    - name: "纸鹿本鹿 纸鹿至麓不知路，支炉制露不止漉"
+      url: "https://blog.zhilu.cyou"
+    - name: "灯火不休时 所爱隔山海，山海不可平；所念皆星河，星河不可及"
+      url: "https://blog.dhbxs.top"
+    - name: "jdeal 人生本来就是用来折腾的，希望你永远年轻，永远他妈的热泪盈眶 ！"
+      url: "https://www.jdeal.cn/"
+    - name: "Jeray大叔 人生，就是要有点趣味性，才好玩啊！"
+      url: "https://hi.jeray.wang"

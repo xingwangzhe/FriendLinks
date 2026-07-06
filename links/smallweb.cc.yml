@@ -1,10 +1,10 @@
 site:
-  name: 'smallweb.cc'
-  url: 'https://smallweb.cc/'
-  description: '友情链接'
-  links: '/about'
+  name: "smallweb.cc"
+  url: "https://smallweb.cc/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: 'neocities'
-      url: 'https://neocities.org/'
-    - name: 'open graph'
-      url: 'https://ogp.me/'
+    - name: "neocities"
+      url: "https://neocities.org/"
+    - name: "open graph"
+      url: "https://ogp.me/"

@@ -1,22 +1,22 @@
 site:
-  name: 'blog.upslide.cn'
-  url: 'https://blog.upslide.cn/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.upslide.cn"
+  url: "https://blog.upslide.cn/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Jiewen’s Blog'
-      url: 'https://www.jiewen.run'
-    - name: 'Yovvis''s Blog'
-      url: 'https://tenyon.cn'
-    - name: 'Anyeの小站'
-      url: 'https://www.anye.xyz'
-    - name: '困困鱼'
-      url: 'https://kunkunyu.com/'
-    - name: '小张同学'
-      url: 'https://www.blog.xiaozhangstu.com/'
-    - name: '漫川笔记'
-      url: 'https://www.mancs.cn/'
-    - name: '没事发个呆'
-      url: 'https://www.chengpei.top/'
-    - name: 'Linux运维笔记'
-      url: 'https://haiyang.host/'
+    - name: "Jiewen’s Blog"
+      url: "https://www.jiewen.run"
+    - name: "Yovvis's Blog"
+      url: "https://tenyon.cn"
+    - name: "Anyeの小站"
+      url: "https://www.anye.xyz"
+    - name: "困困鱼"
+      url: "https://kunkunyu.com/"
+    - name: "小张同学"
+      url: "https://www.blog.xiaozhangstu.com/"
+    - name: "漫川笔记"
+      url: "https://www.mancs.cn/"
+    - name: "没事发个呆"
+      url: "https://www.chengpei.top/"
+    - name: "Linux运维笔记"
+      url: "https://haiyang.host/"

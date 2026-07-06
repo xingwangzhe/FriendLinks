@@ -1,44 +1,44 @@
 site:
-  name: 'blog.southfox.me'
-  description: '友情链接'
-  url: 'https://blog.southfox.me/'
-  links: '/friends'
+  name: "blog.southfox.me"
+  description: "友情链接"
+  url: "https://blog.southfox.me/"
+  links: "/friends"
   friends:
-    - name: 'suica 的博客'
-      url: 'https://suicablog.cobaltkiss.blue'
-    - name: '小球飞鱼 | 我们会遇见鲸鱼吗？'
-      url: 'https://mantyke.icu'
-    - name: 'Yoozy | 一花一世界，一叶一菩提'
-      url: 'http://woods.sharktale.xyz'
-    - name: '瓠樽 | 以瓠為樽而浮乎江湖'
-      url: 'https://blog.dylanwu.space'
-    - name: '江尚寒 | 一潭星动'
-      url: 'https://jiangshanghan.art.blog'
-    - name: '关门说话 | 一只生活在海底的哺乳动物'
-      url: 'https://shutgnblink.blog/'
-    - name: 'LOK | Live to the point of tears.'
-      url: 'https://lok.computer/'
-    - name: '極客死亡計劃'
-      url: 'https://www.geedea.pro/'
-    - name: '王小嗨 | A Marxist inside.'
-      url: 'https://sogola.com'
-    - name: '浮云翩迁之间 | 百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。'
-      url: 'https://blognas.hwb0307.com'
-    - name: '迷失的小K | Just for fun'
-      url: 'https://blog.kclub.tech'
-    - name: '无叶之境 | 这是一个非常正常的网站，像教科书一样正常(๑•̀ω•́๑)'
-      url: 'https://lonleaf.com'
-    - name: 'Pinpe 的云端 | 一个属于自己的云朵'
-      url: 'https://pinpe.top'
-    - name: '酥米的小站 | 终有一日，寻梦中人'
-      url: 'https://www.sumi233.top/'
-    - name: '躬行笔记 | 古人学问无遗力，少壮工夫老始成。 纸上得来终觉浅，绝知此事要躬行。'
-      url: 'https://www.fuzhoupyy.work'
-    - name: 'Rebel Zhang 的个人网站 | Rebel Zhang 的个人网站'
-      url: 'https://rebel1725.codeberg.page/'
-    - name: '7rees | 自由流动的树'
-      url: 'https://www.7rees.cc/'
-    - name: 'Albert''s Blog | 逆水行舟 不进则退'
-      url: 'https://blog.lingyf.com'
-    - name: 'Fediring'
-      url: 'https://fediring.net'
+    - name: "suica 的博客"
+      url: "https://suicablog.cobaltkiss.blue"
+    - name: "小球飞鱼 | 我们会遇见鲸鱼吗？"
+      url: "https://mantyke.icu"
+    - name: "Yoozy | 一花一世界，一叶一菩提"
+      url: "http://woods.sharktale.xyz"
+    - name: "瓠樽 | 以瓠為樽而浮乎江湖"
+      url: "https://blog.dylanwu.space"
+    - name: "江尚寒 | 一潭星动"
+      url: "https://jiangshanghan.art.blog"
+    - name: "关门说话 | 一只生活在海底的哺乳动物"
+      url: "https://shutgnblink.blog/"
+    - name: "LOK | Live to the point of tears."
+      url: "https://lok.computer/"
+    - name: "極客死亡計劃"
+      url: "https://www.geedea.pro/"
+    - name: "王小嗨 | A Marxist inside."
+      url: "https://sogola.com"
+    - name: "浮云翩迁之间 | 百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。"
+      url: "https://blognas.hwb0307.com"
+    - name: "迷失的小K | Just for fun"
+      url: "https://blog.kclub.tech"
+    - name: "无叶之境 | 这是一个非常正常的网站，像教科书一样正常(๑•̀ω•́๑)"
+      url: "https://lonleaf.com"
+    - name: "Pinpe 的云端 | 一个属于自己的云朵"
+      url: "https://pinpe.top"
+    - name: "酥米的小站 | 终有一日，寻梦中人"
+      url: "https://www.sumi233.top/"
+    - name: "躬行笔记 | 古人学问无遗力，少壮工夫老始成。 纸上得来终觉浅，绝知此事要躬行。"
+      url: "https://www.fuzhoupyy.work"
+    - name: "Rebel Zhang 的个人网站 | Rebel Zhang 的个人网站"
+      url: "https://rebel1725.codeberg.page/"
+    - name: "7rees | 自由流动的树"
+      url: "https://www.7rees.cc/"
+    - name: "Albert's Blog | 逆水行舟 不进则退"
+      url: "https://blog.lingyf.com"
+    - name: "Fediring"
+      url: "https://fediring.net"

@@ -1,10 +1,10 @@
 site:
-  name: 'emojinator.fun'
-  url: 'https://emojinator.fun/'
-  description: '友情链接'
-  links: '/links'
+  name: "emojinator.fun"
+  url: "https://emojinator.fun/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Emojipedia'
-      url: 'https://emojipedia.org'
-    - name: 'Sophie'
-      url: 'https://localghost.dev'
+    - name: "Emojipedia"
+      url: "https://emojipedia.org"
+    - name: "Sophie"
+      url: "https://localghost.dev"

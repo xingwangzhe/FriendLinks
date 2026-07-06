@@ -1,86 +1,86 @@
 site:
-  name: 'slatestarcodex.com'
-  url: 'https://slatestarcodex.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "slatestarcodex.com"
+  url: "https://slatestarcodex.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Artir Kel'
-      url: 'https://nintil.com/'
-    - name: 'David Friedman'
-      url: 'http://daviddfriedman.blogspot.com/'
-    - name: 'Pseudoerasmus'
-      url: 'https://pseudoerasmus.com/'
-    - name: 'Scott Sumner'
-      url: 'http://www.themoneyillusion.com/'
-    - name: 'Tyler Cowen'
-      url: 'http://marginalrevolution.com/'
-    - name: 'GiveWell Blog'
-      url: 'http://blog.givewell.org/'
-    - name: 'Elizabeth Van Nostrand'
-      url: 'http://acesounderglass.com/'
-    - name: 'Gwern Branwen'
-      url: 'https://www.gwern.net/'
-    - name: 'Jacob Falkovich'
-      url: 'http://putanumonit.com/'
-    - name: 'Katja Grace'
-      url: 'http://aiimpacts.org/'
-    - name: 'Less Wrong'
-      url: 'http://lesswrong.com'
-    - name: 'Paul Christiano'
-      url: 'https://sideways-view.com/'
-    - name: 'Robin Hanson'
-      url: 'http://www.overcomingbias.com/'
-    - name: 'Sarah Constantin'
-      url: 'https://srconstantin.github.io/'
-    - name: 'Zvi Mowshowitz'
-      url: 'https://thezvi.wordpress.com/'
-    - name: 'Andrew Gelman'
-      url: 'http://andrewgelman.com/'
-    - name: 'Greg Cochran'
-      url: 'https://westhunt.wordpress.com/'
-    - name: 'Michael Caton'
-      url: 'http://cognitionandevolution.blogspot.com/'
-    - name: 'Razib Khan'
-      url: 'https://www.gnxp.com/'
-    - name: 'Stephan Guyenet'
-      url: 'https://www.stephanguyenet.com/'
-    - name: 'Steve Hsu'
-      url: 'http://infoproc.blogspot.com/'
-    - name: 'DavidFriedman'
-      url: 'http://www.daviddfriedman.com'
-    - name: 'liskantope'
-      url: 'https://liskantope.wordpress.com/'
-    - name: 'bean'
-      url: 'https://navalgazing.obormot.net'
-    - name: 'neciampater'
-      url: 'https://neciampater.wordpress.com/'
-    - name: 'thehousecarpenter'
-      url: 'https://thehousecarpenter.wordpress.com/'
-    - name: 'suntzuanime'
-      url: 'https://suntzuanime.wordpress.com/'
-    - name: 'Tenacious D'
-      url: 'http://danbscott.ghost.io'
-    - name: 'whales'
-      url: 'http://whaaales.com/'
-    - name: 'stucchio'
-      url: 'https://chrisstucchio.com'
-    - name: 'ksvanhorn'
-      url: 'http://bayesium.com'
-    - name: 'Andrew Clough'
-      url: 'http://hopefullyintersting.blogspot.com/'
-    - name: 'shakeddown'
-      url: 'https://shakeddown.wordpress.com/'
-    - name: 'AnarchyDice'
-      url: 'http://anarchydice.com'
-    - name: 'TheAncientGeekAKA1Z'
-      url: 'https://pierrephilosophique.wordpress.com/'
-    - name: 'Jaskologist'
-      url: 'http://jaskology.com/'
-    - name: 'B4X'
-      url: 'https://b4x.com/'
-    - name: 'Seattle Anxiety Specialists'
-      url: 'https://seattleanxiety.com/'
-    - name: 'MealSquares'
-      url: 'http://www.mealsquares.com/'
-    - name: 'her website'
-      url: 'http://LauraBaurMD.com'
+    - name: "Artir Kel"
+      url: "https://nintil.com/"
+    - name: "David Friedman"
+      url: "http://daviddfriedman.blogspot.com/"
+    - name: "Pseudoerasmus"
+      url: "https://pseudoerasmus.com/"
+    - name: "Scott Sumner"
+      url: "http://www.themoneyillusion.com/"
+    - name: "Tyler Cowen"
+      url: "http://marginalrevolution.com/"
+    - name: "GiveWell Blog"
+      url: "http://blog.givewell.org/"
+    - name: "Elizabeth Van Nostrand"
+      url: "http://acesounderglass.com/"
+    - name: "Gwern Branwen"
+      url: "https://www.gwern.net/"
+    - name: "Jacob Falkovich"
+      url: "http://putanumonit.com/"
+    - name: "Katja Grace"
+      url: "http://aiimpacts.org/"
+    - name: "Less Wrong"
+      url: "http://lesswrong.com"
+    - name: "Paul Christiano"
+      url: "https://sideways-view.com/"
+    - name: "Robin Hanson"
+      url: "http://www.overcomingbias.com/"
+    - name: "Sarah Constantin"
+      url: "https://srconstantin.github.io/"
+    - name: "Zvi Mowshowitz"
+      url: "https://thezvi.wordpress.com/"
+    - name: "Andrew Gelman"
+      url: "http://andrewgelman.com/"
+    - name: "Greg Cochran"
+      url: "https://westhunt.wordpress.com/"
+    - name: "Michael Caton"
+      url: "http://cognitionandevolution.blogspot.com/"
+    - name: "Razib Khan"
+      url: "https://www.gnxp.com/"
+    - name: "Stephan Guyenet"
+      url: "https://www.stephanguyenet.com/"
+    - name: "Steve Hsu"
+      url: "http://infoproc.blogspot.com/"
+    - name: "DavidFriedman"
+      url: "http://www.daviddfriedman.com"
+    - name: "liskantope"
+      url: "https://liskantope.wordpress.com/"
+    - name: "bean"
+      url: "https://navalgazing.obormot.net"
+    - name: "neciampater"
+      url: "https://neciampater.wordpress.com/"
+    - name: "thehousecarpenter"
+      url: "https://thehousecarpenter.wordpress.com/"
+    - name: "suntzuanime"
+      url: "https://suntzuanime.wordpress.com/"
+    - name: "Tenacious D"
+      url: "http://danbscott.ghost.io"
+    - name: "whales"
+      url: "http://whaaales.com/"
+    - name: "stucchio"
+      url: "https://chrisstucchio.com"
+    - name: "ksvanhorn"
+      url: "http://bayesium.com"
+    - name: "Andrew Clough"
+      url: "http://hopefullyintersting.blogspot.com/"
+    - name: "shakeddown"
+      url: "https://shakeddown.wordpress.com/"
+    - name: "AnarchyDice"
+      url: "http://anarchydice.com"
+    - name: "TheAncientGeekAKA1Z"
+      url: "https://pierrephilosophique.wordpress.com/"
+    - name: "Jaskologist"
+      url: "http://jaskology.com/"
+    - name: "B4X"
+      url: "https://b4x.com/"
+    - name: "Seattle Anxiety Specialists"
+      url: "https://seattleanxiety.com/"
+    - name: "MealSquares"
+      url: "http://www.mealsquares.com/"
+    - name: "her website"
+      url: "http://LauraBaurMD.com"

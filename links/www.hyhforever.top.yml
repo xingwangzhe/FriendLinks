@@ -1,26 +1,26 @@
 site:
-  name: 'HYH's Blog'
-  url: 'https://www.hyhforever.top/'
-  description: '这是一个专注于网络安全、CTF 挑战和技术分享的个人博客，涵盖 Dockerlabs、HackMyVM、HTB 等平台的实战经验。网站内容丰富，适合安全爱好者和'
-  links: '/links'
+  name: "HYH's Blog"
+  url: "https://www.hyhforever.top/"
+  description: "这是一个专注于网络安全、CTF 挑战和技术分享的个人博客，涵盖 Dockerlabs、HackMyVM、HTB 等平台的实战经验。网站内容丰富，适合安全爱好者和"
+  links: "/links"
   friends:
-    - name: 'bamuwe’s_blog'
-      url: 'https://bamuwe.xyz/'
-    - name: 'LingMj'
-      url: 'https://qingheling.github.io/'
-    - name: 'Yliken'
-      url: 'https://yliken.github.io/'
-    - name: 'Skyarrow's blog'
-      url: 'https://skyarrow416.github.io/'
-    - name: 'Sunset Blog'
-      url: 'https://www.sunsetaction.top/'
-    - name: '主页'
-      url: 'https://c1trus.top/'
-    - name: 'MazeSec'
-      url: 'https://maze-sec.com/'
-    - name: '1900的小宇宙'
-      url: 'https://blog.mlws1900.cn/'
-    - name: '小鹏的仓库'
-      url: 'https://www.thehsp.cn/'
-    - name: 'GTFOArgs: Argument Injection Exploitation Vector List'
-      url: 'https://gtfoargs.github.io/'
+    - name: "bamuwe’s_blog"
+      url: "https://bamuwe.xyz/"
+    - name: "LingMj"
+      url: "https://qingheling.github.io/"
+    - name: "Yliken"
+      url: "https://yliken.github.io/"
+    - name: "Skyarrow's blog"
+      url: "https://skyarrow416.github.io/"
+    - name: "Sunset Blog"
+      url: "https://www.sunsetaction.top/"
+    - name: "主页"
+      url: "https://c1trus.top/"
+    - name: "MazeSec"
+      url: "https://maze-sec.com/"
+    - name: "1900的小宇宙"
+      url: "https://blog.mlws1900.cn/"
+    - name: "小鹏的仓库"
+      url: "https://www.thehsp.cn/"
+    - name: "GTFOArgs: Argument Injection Exploitation Vector List"
+      url: "https://gtfoargs.github.io/"

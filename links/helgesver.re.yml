@@ -1,42 +1,42 @@
 site:
-  name: 'helgesver.re'
-  url: 'https://helgesver.re/'
-  description: '友情链接'
-  links: '/links'
+  name: "helgesver.re"
+  url: "https://helgesver.re/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Amp'
-      url: 'https://ampcode.com/'
-    - name: 'OpenCode'
-      url: 'https://opencode.ai/'
-    - name: 'Conductor'
-      url: 'https://www.conductor.build/'
-    - name: 'Binary Ninja'
-      url: 'https://binary.ninja/'
-    - name: 'Zed'
-      url: 'https://zed.dev/'
-    - name: 'Ghostty'
-      url: 'https://ghostty.org/'
-    - name: 'ForesightJS'
-      url: 'https://foresightjs.com'
-    - name: 'Filament'
-      url: 'https://filamentphp.com/'
-    - name: 'Practical UI'
-      url: 'https://www.practical-ui.com/'
-    - name: 'phpVMS'
-      url: 'https://phpvms.net'
-    - name: 'Sprites'
-      url: 'https://sprites.dev/'
-    - name: 'Domeneshop'
-      url: 'https://domeneshop.no/'
-    - name: 'Jamie Brandon'
-      url: 'https://scattered-thoughts.net'
-    - name: 'Kassal.app'
-      url: 'https://kassal.app'
-    - name: 'ChatFlow.no'
-      url: 'https://chatflow.no'
-    - name: 'Reflow.no'
-      url: 'https://reflow.no'
-    - name: 'Glue'
-      url: 'https://getglue.dev'
-    - name: 'Sema'
-      url: 'https://sema-lang.com'
+    - name: "Amp"
+      url: "https://ampcode.com/"
+    - name: "OpenCode"
+      url: "https://opencode.ai/"
+    - name: "Conductor"
+      url: "https://www.conductor.build/"
+    - name: "Binary Ninja"
+      url: "https://binary.ninja/"
+    - name: "Zed"
+      url: "https://zed.dev/"
+    - name: "Ghostty"
+      url: "https://ghostty.org/"
+    - name: "ForesightJS"
+      url: "https://foresightjs.com"
+    - name: "Filament"
+      url: "https://filamentphp.com/"
+    - name: "Practical UI"
+      url: "https://www.practical-ui.com/"
+    - name: "phpVMS"
+      url: "https://phpvms.net"
+    - name: "Sprites"
+      url: "https://sprites.dev/"
+    - name: "Domeneshop"
+      url: "https://domeneshop.no/"
+    - name: "Jamie Brandon"
+      url: "https://scattered-thoughts.net"
+    - name: "Kassal.app"
+      url: "https://kassal.app"
+    - name: "ChatFlow.no"
+      url: "https://chatflow.no"
+    - name: "Reflow.no"
+      url: "https://reflow.no"
+    - name: "Glue"
+      url: "https://getglue.dev"
+    - name: "Sema"
+      url: "https://sema-lang.com"

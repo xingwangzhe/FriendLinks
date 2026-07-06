@@ -1,10 +1,10 @@
 site:
-  name: 'clojure-goes-fast.com'
-  url: 'https://clojure-goes-fast.com/'
-  description: '友情链接'
-  links: '/'
+  name: "clojure-goes-fast.com"
+  url: "https://clojure-goes-fast.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Cryogen'
-      url: 'https://cryogenweb.org/'
-    - name: 'Iconmonstr'
-      url: 'https://iconmonstr.com/'
+    - name: "Cryogen"
+      url: "https://cryogenweb.org/"
+    - name: "Iconmonstr"
+      url: "https://iconmonstr.com/"

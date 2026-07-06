@@ -1,44 +1,44 @@
 site:
-  name: 'tortie.me'
-  url: 'https://tortie.me/'
-  description: '友情链接'
-  links: '/friends'
+  name: "tortie.me"
+  url: "https://tortie.me/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'valfread'
-      url: 'https://valfread.github.io/'
-    - name: 'Shadows of the Sun'
-      url: 'https://rovingsun.wordpress.com/'
-    - name: '晴空'
-      url: 'https://summerwasover.vercel.app/'
-    - name: '小球飞鱼'
-      url: 'https://mantyke.icu/'
-    - name: '一支咏叹调'
-      url: 'https://turquoise.one/'
-    - name: '第三夏尔'
-      url: 'https://thirdshire.com/'
-    - name: '椒盐豆豉'
-      url: 'https://blog.douchi.space/'
-    - name: '枕石'
-      url: 'https://zhen-shi.github.io/'
-    - name: '天堂错误文件'
-      url: 'https://naturaleki.one/'
-    - name: 'Mid of Nowhere'
-      url: 'https://notes.midofnowhere.link/'
-    - name: '再會，謝謝所有的魚'
-      url: 'https://gregueria.icu/'
-    - name: '昼河万里'
-      url: 'https://tothemoonriver.icu/'
-    - name: '次世嘉平'
-      url: 'https://jiapingplus.icu/'
-    - name: '蝴蝶曾在此处'
-      url: 'https://changingmoments.one/'
-    - name: '方寸之海'
-      url: 'https://kururu.top/'
-    - name: '嘰嘰乞乞'
-      url: 'https://www.gigigatgat.ca/'
-    - name: '木羽时'
-      url: 'https://notion-next-beryl-seven-11.vercel.app/'
-    - name: '昼梦日和'
-      url: 'https://nanako.icu/'
-    - name: 'Jimmy'
-      url: 'https://jimmycai.com'
+    - name: "valfread"
+      url: "https://valfread.github.io/"
+    - name: "Shadows of the Sun"
+      url: "https://rovingsun.wordpress.com/"
+    - name: "晴空"
+      url: "https://summerwasover.vercel.app/"
+    - name: "小球飞鱼"
+      url: "https://mantyke.icu/"
+    - name: "一支咏叹调"
+      url: "https://turquoise.one/"
+    - name: "第三夏尔"
+      url: "https://thirdshire.com/"
+    - name: "椒盐豆豉"
+      url: "https://blog.douchi.space/"
+    - name: "枕石"
+      url: "https://zhen-shi.github.io/"
+    - name: "天堂错误文件"
+      url: "https://naturaleki.one/"
+    - name: "Mid of Nowhere"
+      url: "https://notes.midofnowhere.link/"
+    - name: "再會，謝謝所有的魚"
+      url: "https://gregueria.icu/"
+    - name: "昼河万里"
+      url: "https://tothemoonriver.icu/"
+    - name: "次世嘉平"
+      url: "https://jiapingplus.icu/"
+    - name: "蝴蝶曾在此处"
+      url: "https://changingmoments.one/"
+    - name: "方寸之海"
+      url: "https://kururu.top/"
+    - name: "嘰嘰乞乞"
+      url: "https://www.gigigatgat.ca/"
+    - name: "木羽时"
+      url: "https://notion-next-beryl-seven-11.vercel.app/"
+    - name: "昼梦日和"
+      url: "https://nanako.icu/"
+    - name: "Jimmy"
+      url: "https://jimmycai.com"

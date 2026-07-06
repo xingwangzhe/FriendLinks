@@ -1,12 +1,12 @@
 site:
-  name: 'triyaotu.cn'
-  url: 'https://www.triyaotu.cn/'
-  description: '友情链接'
-  links: '/friend'
+  name: "triyaotu.cn"
+  url: "https://www.triyaotu.cn/"
+  description: "友情链接"
+  links: "/friend"
   friends:
-    - name: 'JeriBLOG - JeriBLOGJeriBLOG - 基于 Go + Vue 的现代化博客系统'
-      url: 'https://blog.jerion.cn'
-    - name: '菱风叙永远相信美好的事情即将发生'
-      url: 'https://huangjingblog.cn'
-    - name: '初七云'
-      url: 'https://chuqiyun.com'
+    - name: "JeriBLOG - JeriBLOGJeriBLOG - 基于 Go + Vue 的现代化博客系统"
+      url: "https://blog.jerion.cn"
+    - name: "菱风叙永远相信美好的事情即将发生"
+      url: "https://huangjingblog.cn"
+    - name: "初七云"
+      url: "https://chuqiyun.com"

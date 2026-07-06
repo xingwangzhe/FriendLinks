@@ -1,14 +1,14 @@
 site:
-  name: 'zhime.net'
-  url: 'http://www.zhime.net/'
-  description: '友情链接'
-  links: '/'
+  name: "zhime.net"
+  url: "http://www.zhime.net/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'eName'
-      url: 'https://www.ename.com/'
-    - name: 'Namesilo'
-      url: 'https://www.namesilo.com/'
-    - name: 'Spaceship'
-      url: 'https://www.spaceship.com/'
-    - name: '嘿凡米表'
-      url: 'https://iiii.host/'
+    - name: "eName"
+      url: "https://www.ename.com/"
+    - name: "Namesilo"
+      url: "https://www.namesilo.com/"
+    - name: "Spaceship"
+      url: "https://www.spaceship.com/"
+    - name: "嘿凡米表"
+      url: "https://iiii.host/"

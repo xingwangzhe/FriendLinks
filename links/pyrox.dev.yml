@@ -1,16 +1,16 @@
 site:
-  name: 'pyrox.dev'
-  url: 'https://pyrox.dev/'
-  description: '友情链接'
-  links: '/about'
+  name: "pyrox.dev"
+  url: "https://pyrox.dev/"
+  description: "友情链接"
+  links: "/about"
   friends:
-    - name: 'Catppuccin Webring'
-      url: 'https://ctp-webr.ing/'
-    - name: 'Catppuccin Mocha'
-      url: 'https://catppuccin.com'
-    - name: 'Simple Icons'
-      url: 'https://simpleicons.org/'
-    - name: 'Pagefind'
-      url: 'https://pagefind.app/'
-    - name: 'Shiki'
-      url: 'https://shiki.style/'
+    - name: "Catppuccin Webring"
+      url: "https://ctp-webr.ing/"
+    - name: "Catppuccin Mocha"
+      url: "https://catppuccin.com"
+    - name: "Simple Icons"
+      url: "https://simpleicons.org/"
+    - name: "Pagefind"
+      url: "https://pagefind.app/"
+    - name: "Shiki"
+      url: "https://shiki.style/"

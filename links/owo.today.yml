@@ -1,32 +1,32 @@
 site:
-  name: 'owo.today'
-  url: 'https://owo.today/'
-  description: '友情链接'
-  links: '/friends.html'
+  name: "owo.today"
+  url: "https://owo.today/"
+  description: "友情链接"
+  links: "/friends.html"
   friends:
-    - name: 'BLxcwg666 の Blog'
-      url: 'https://blog.nekorua.com/'
-    - name: '艾登的个人网站'
-      url: 'https://aidenpers.xyz'
-    - name: '🍋小T'
-      url: 'https://shiro.xiaot.moe'
-    - name: 'Lingxh‘s blog'
-      url: 'https://blog.lingxh.com/'
-    - name: 'Toka''s Blog'
-      url: 'https://nonamev.com/'
-    - name: '千雪的咖啡厅'
-      url: 'https://blog.chyk.ink/'
-    - name: 'krau''s blog'
-      url: 'https://krau.top'
-    - name: '无知的错'
-      url: 'https://www.wzdc.cc/'
-    - name: 'Loli的杂货铺'
-      url: 'https://justaloli.cn'
-    - name: 'Yukina''s Blog'
-      url: 'https://blog.cnmobile.link'
-    - name: 'CircleCrop''s Blog'
-      url: 'https://aiccrop.com/'
-    - name: '绒绒洛'
-      url: 'https://qwq.dog'
-    - name: 'tianz'
-      url: 'http://tianz.us.kg'
+    - name: "BLxcwg666 の Blog"
+      url: "https://blog.nekorua.com/"
+    - name: "艾登的个人网站"
+      url: "https://aidenpers.xyz"
+    - name: "🍋小T"
+      url: "https://shiro.xiaot.moe"
+    - name: "Lingxh‘s blog"
+      url: "https://blog.lingxh.com/"
+    - name: "Toka's Blog"
+      url: "https://nonamev.com/"
+    - name: "千雪的咖啡厅"
+      url: "https://blog.chyk.ink/"
+    - name: "krau's blog"
+      url: "https://krau.top"
+    - name: "无知的错"
+      url: "https://www.wzdc.cc/"
+    - name: "Loli的杂货铺"
+      url: "https://justaloli.cn"
+    - name: "Yukina's Blog"
+      url: "https://blog.cnmobile.link"
+    - name: "CircleCrop's Blog"
+      url: "https://aiccrop.com/"
+    - name: "绒绒洛"
+      url: "https://qwq.dog"
+    - name: "tianz"
+      url: "http://tianz.us.kg"

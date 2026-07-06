@@ -1,162 +1,162 @@
 site:
-  name: 'index.jitsu.top'
-  url: 'https://index.jitsu.top/'
-  description: '友情链接'
-  links: '/'
+  name: "index.jitsu.top"
+  url: "https://index.jitsu.top/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: '猫漫客'
-      url: 'https://maomanke.com/'
-    - name: '梦心云'
-      url: 'http://qystore.cn/'
-    - name: '夏轩阁'
-      url: 'https://xiayuge.top/'
-    - name: '极点ACG'
-      url: 'https://lspgal.us/'
-    - name: '星雨幻境'
-      url: 'https://v.xycy.club'
-    - name: 'B宅网'
-      url: 'https://www.bzhai.com/'
-    - name: 'yande.re 高清漫图'
-      url: 'https://yande.re'
-    - name: 'Pixivic 国人搭建的Pixiv搬运站'
-      url: 'https://pixivic.com/'
-    - name: 'Konachan CHS K站中文站，由网友搭建'
-      url: 'https://gelbooru.wjcodes.com/'
-    - name: 'Pixivel 未知P站'
-      url: 'https://pixivel.moe/'
-    - name: 'Pixivギャラリー emmm...P站搬运站'
-      url: 'https://pixiv.moe/'
-    - name: '二次萌エロ画像ブログ 简而言之，炼铜网站'
-      url: 'http://moeimg.net/'
-    - name: 'Danbooru 数量可观，质量不齐'
-      url: 'https://danbooru.donmai.us/'
-    - name: 'Danbooru2.0 2.0版本！'
-      url: 'https://sonohara.donmai.us/'
-    - name: 'Sankaku Channel R18+警告'
-      url: 'https://chan.sankakucomplex.com/'
-    - name: 'Gelbooru 类似于Danbooru'
-      url: 'https://gelbooru.com/'
-    - name: 'KURO PIXIV插图的标签搜索'
-      url: 'https://pixiv.kurocore.com/'
-    - name: 'BoBoPic 美图分享'
-      url: 'https://bobopic.com/'
-    - name: '一绘 又一个p站搬运站'
-      url: 'https://ehv.cc/'
-    - name: 'Kemono 付费画师公共档案'
-      url: 'https://kemono.party/'
-    - name: '初音的青葱 无简介，自己百度'
-      url: 'https://www.yngal.com/'
-    - name: 'Gal图书馆 别找我要密码！'
-      url: 'https://www.gallibrary.pw/'
-    - name: 'Gal领域 界面友好，还不错'
-      url: 'https://www.galcg.org/'
-    - name: '萌次元 没用过，不清楚'
-      url: 'https://18moe.net/'
-    - name: 'Nyadora 没用过，不知道'
-      url: 'https://nyadora.moe/'
-    - name: '东方幻想乡 众神眷恋的幻想乡'
-      url: 'https://hkacg.top'
-    - name: '樱花物语 神秘又温馨的二次元基地'
-      url: 'https://sakurastory.xyz/'
-    - name: 'Acg&Gal收藏库 本子和Gal'
-      url: 'https://library.iluoli.moe/'
-    - name: '光坂小镇 答题'
-      url: 'https://www.clfans.club/'
-    - name: 'AMSR Online 在线AMSR'
-      url: 'https://asmr.one/'
-    - name: 'JASMR.NET 一个AMSR网站'
-      url: 'https://www.jasmr.net/'
-    - name: 'Japanese ASMR 又是一个AMSR网站'
-      url: 'https://japaneseasmr.com/'
-    - name: 'Biu~ biu biu biu!'
-      url: 'https://biu.moe/'
-    - name: 'Anime1 新番在线看'
-      url: 'https://anime1.cc/'
-    - name: '樱花动漫1 众所周知'
-      url: 'https://www.yhdmp.cc/'
-    - name: '樱花动漫2 真真假假'
-      url: 'http://www.dm88.me/'
-    - name: '樱花动漫3 假假真真'
-      url: 'https://imomoe.one/'
-    - name: 'E-ACG 没用过，不清楚'
-      url: 'https://eacg.net/'
-    - name: 'EDD动漫 感觉一般'
-      url: 'http://www.edddh.com/'
-    - name: '嘀哩嘀哩 emmm'
-      url: 'https://dilidili.online/'
-    - name: '番组放送 大陆版权新番播放地址聚合站'
-      url: 'https://bgmlist.com/'
-    - name: '低端影视 没有描述'
-      url: 'https://ddys.tv/'
-    - name: '风车动漫 动漫啦'
-      url: 'http://www.dmlaa.com/'
-    - name: '樱花动漫(雾 似乎是新版？'
-      url: 'http://dmh8.com/'
-    - name: 'AnFuns 界面美观'
-      url: 'https://www.anfuns.cn/'
-    - name: '呀哩呀哩 追番可用'
-      url: 'https://www.yaliyali.cc/'
-    - name: 'NyaFun 原双辞动漫，还行'
-      url: 'https://www.nyafun.net/'
-    - name: '樱花动漫 emmmm'
-      url: 'https://www.857dm.com/'
-    - name: 'NT动漫 一般般吧'
-      url: 'http://www.ntyou.cc/'
-    - name: '久久动漫 没用过'
-      url: 'http://www.995dm.com/'
-    - name: '动漫星球 感觉还行'
-      url: 'https://www.dmxq.me/'
-    - name: '次元城动画 高质量动漫站点'
-      url: 'https://www.cycdm01.top/'
-    - name: 'Nyaa 知名动漫BT站'
-      url: 'https://nyaa.si/'
-    - name: '动漫花园 不用多说，应该都熟悉'
-      url: 'http://dmhy.org/'
-    - name: '萌番组 番組、萌え'
-      url: 'https://bangumi.moe/'
-    - name: '東京 図書館 也许什么都有'
-      url: 'https://www.tokyotosho.info/'
-    - name: '漫猫动漫 同爱恋动漫，不再赘述'
-      url: 'http://www.comicat.org/'
-    - name: 'Sukebei Nyaa里站，里番搜索'
-      url: 'https://sukebei.nyaa.si/'
-    - name: '顶通漫画 免费韩漫'
-      url: 'https://www.tiaomans.com/'
-    - name: 'ExView 二次元多功能阅览平台'
-      url: 'https://www.exview.ml/'
-    - name: 'Trace 动漫截图溯源'
-      url: 'https://trace.moe/'
-    - name: '搜图bot酱 专门搜本子'
-      url: 'https://soutubot.moe/'
-    - name: 'SSHwifty 一个在线的SSH客户端'
-      url: 'https://sshwifty.herokuapp.com/'
-    - name: '免费v2ray节点 免费v2ray节点'
-      url: 'https://view.freev2ray.org/'
-    - name: '两元店 速度可以，节点较少'
-      url: 'https://两元店.com/#/register?code=FJJX44GX'
-    - name: '低价机场 有俩节点还行，挑最便宜的用'
-      url: 'https://低价机场.com/#/register?code=5RjCTbkw'
-    - name: '大机场 低价机场'
-      url: 'https://大机场.cc/#/register?code=hMWXyiY4'
-    - name: '一元机场 低价机场'
-      url: 'https://一元机场.com/#/register?code=uarNzCHR'
-    - name: '琉璃神社 这玩意儿众所周知'
-      url: 'https://www.hacg.me/'
-    - name: '灵梦御所 清新小乐园'
-      url: 'https://blog.reimu.net/'
-    - name: 'Sankaku Complex R18+警告'
-      url: 'https://www.sankakucomplex.com/'
-    - name: '二次元下午茶 可能有点用吧'
-      url: 'https://acgttt.com/'
-    - name: '猫之秋名山 综合型站点'
-      url: 'https://sakura.myacgcat.top/'
-    - name: '梦次元 梦开始的地方（🐶）'
-      url: 'https://mcyacg.com/'
-    - name: 'SpankBang 在线视频'
-      url: 'https://spankbang.com/'
-    - name: 'YavTube 女優素人 & 映画作品 & 写真画像'
-      url: 'https://yavtube.com/'
-    - name: '在线写真 内容过于刺激'
-      url: 'https://asiantolick.com/'
-    - name: '萌贴士'
-      url: 'https://moe.tips/'
+    - name: "猫漫客"
+      url: "https://maomanke.com/"
+    - name: "梦心云"
+      url: "http://qystore.cn/"
+    - name: "夏轩阁"
+      url: "https://xiayuge.top/"
+    - name: "极点ACG"
+      url: "https://lspgal.us/"
+    - name: "星雨幻境"
+      url: "https://v.xycy.club"
+    - name: "B宅网"
+      url: "https://www.bzhai.com/"
+    - name: "yande.re 高清漫图"
+      url: "https://yande.re"
+    - name: "Pixivic 国人搭建的Pixiv搬运站"
+      url: "https://pixivic.com/"
+    - name: "Konachan CHS K站中文站，由网友搭建"
+      url: "https://gelbooru.wjcodes.com/"
+    - name: "Pixivel 未知P站"
+      url: "https://pixivel.moe/"
+    - name: "Pixivギャラリー emmm...P站搬运站"
+      url: "https://pixiv.moe/"
+    - name: "二次萌エロ画像ブログ 简而言之，炼铜网站"
+      url: "http://moeimg.net/"
+    - name: "Danbooru 数量可观，质量不齐"
+      url: "https://danbooru.donmai.us/"
+    - name: "Danbooru2.0 2.0版本！"
+      url: "https://sonohara.donmai.us/"
+    - name: "Sankaku Channel R18+警告"
+      url: "https://chan.sankakucomplex.com/"
+    - name: "Gelbooru 类似于Danbooru"
+      url: "https://gelbooru.com/"
+    - name: "KURO PIXIV插图的标签搜索"
+      url: "https://pixiv.kurocore.com/"
+    - name: "BoBoPic 美图分享"
+      url: "https://bobopic.com/"
+    - name: "一绘 又一个p站搬运站"
+      url: "https://ehv.cc/"
+    - name: "Kemono 付费画师公共档案"
+      url: "https://kemono.party/"
+    - name: "初音的青葱 无简介，自己百度"
+      url: "https://www.yngal.com/"
+    - name: "Gal图书馆 别找我要密码！"
+      url: "https://www.gallibrary.pw/"
+    - name: "Gal领域 界面友好，还不错"
+      url: "https://www.galcg.org/"
+    - name: "萌次元 没用过，不清楚"
+      url: "https://18moe.net/"
+    - name: "Nyadora 没用过，不知道"
+      url: "https://nyadora.moe/"
+    - name: "东方幻想乡 众神眷恋的幻想乡"
+      url: "https://hkacg.top"
+    - name: "樱花物语 神秘又温馨的二次元基地"
+      url: "https://sakurastory.xyz/"
+    - name: "Acg&Gal收藏库 本子和Gal"
+      url: "https://library.iluoli.moe/"
+    - name: "光坂小镇 答题"
+      url: "https://www.clfans.club/"
+    - name: "AMSR Online 在线AMSR"
+      url: "https://asmr.one/"
+    - name: "JASMR.NET 一个AMSR网站"
+      url: "https://www.jasmr.net/"
+    - name: "Japanese ASMR 又是一个AMSR网站"
+      url: "https://japaneseasmr.com/"
+    - name: "Biu~ biu biu biu!"
+      url: "https://biu.moe/"
+    - name: "Anime1 新番在线看"
+      url: "https://anime1.cc/"
+    - name: "樱花动漫1 众所周知"
+      url: "https://www.yhdmp.cc/"
+    - name: "樱花动漫2 真真假假"
+      url: "http://www.dm88.me/"
+    - name: "樱花动漫3 假假真真"
+      url: "https://imomoe.one/"
+    - name: "E-ACG 没用过，不清楚"
+      url: "https://eacg.net/"
+    - name: "EDD动漫 感觉一般"
+      url: "http://www.edddh.com/"
+    - name: "嘀哩嘀哩 emmm"
+      url: "https://dilidili.online/"
+    - name: "番组放送 大陆版权新番播放地址聚合站"
+      url: "https://bgmlist.com/"
+    - name: "低端影视 没有描述"
+      url: "https://ddys.tv/"
+    - name: "风车动漫 动漫啦"
+      url: "http://www.dmlaa.com/"
+    - name: "樱花动漫(雾 似乎是新版？"
+      url: "http://dmh8.com/"
+    - name: "AnFuns 界面美观"
+      url: "https://www.anfuns.cn/"
+    - name: "呀哩呀哩 追番可用"
+      url: "https://www.yaliyali.cc/"
+    - name: "NyaFun 原双辞动漫，还行"
+      url: "https://www.nyafun.net/"
+    - name: "樱花动漫 emmmm"
+      url: "https://www.857dm.com/"
+    - name: "NT动漫 一般般吧"
+      url: "http://www.ntyou.cc/"
+    - name: "久久动漫 没用过"
+      url: "http://www.995dm.com/"
+    - name: "动漫星球 感觉还行"
+      url: "https://www.dmxq.me/"
+    - name: "次元城动画 高质量动漫站点"
+      url: "https://www.cycdm01.top/"
+    - name: "Nyaa 知名动漫BT站"
+      url: "https://nyaa.si/"
+    - name: "动漫花园 不用多说，应该都熟悉"
+      url: "http://dmhy.org/"
+    - name: "萌番组 番組、萌え"
+      url: "https://bangumi.moe/"
+    - name: "東京 図書館 也许什么都有"
+      url: "https://www.tokyotosho.info/"
+    - name: "漫猫动漫 同爱恋动漫，不再赘述"
+      url: "http://www.comicat.org/"
+    - name: "Sukebei Nyaa里站，里番搜索"
+      url: "https://sukebei.nyaa.si/"
+    - name: "顶通漫画 免费韩漫"
+      url: "https://www.tiaomans.com/"
+    - name: "ExView 二次元多功能阅览平台"
+      url: "https://www.exview.ml/"
+    - name: "Trace 动漫截图溯源"
+      url: "https://trace.moe/"
+    - name: "搜图bot酱 专门搜本子"
+      url: "https://soutubot.moe/"
+    - name: "SSHwifty 一个在线的SSH客户端"
+      url: "https://sshwifty.herokuapp.com/"
+    - name: "免费v2ray节点 免费v2ray节点"
+      url: "https://view.freev2ray.org/"
+    - name: "两元店 速度可以，节点较少"
+      url: "https://两元店.com/#/register?code=FJJX44GX"
+    - name: "低价机场 有俩节点还行，挑最便宜的用"
+      url: "https://低价机场.com/#/register?code=5RjCTbkw"
+    - name: "大机场 低价机场"
+      url: "https://大机场.cc/#/register?code=hMWXyiY4"
+    - name: "一元机场 低价机场"
+      url: "https://一元机场.com/#/register?code=uarNzCHR"
+    - name: "琉璃神社 这玩意儿众所周知"
+      url: "https://www.hacg.me/"
+    - name: "灵梦御所 清新小乐园"
+      url: "https://blog.reimu.net/"
+    - name: "Sankaku Complex R18+警告"
+      url: "https://www.sankakucomplex.com/"
+    - name: "二次元下午茶 可能有点用吧"
+      url: "https://acgttt.com/"
+    - name: "猫之秋名山 综合型站点"
+      url: "https://sakura.myacgcat.top/"
+    - name: "梦次元 梦开始的地方（🐶）"
+      url: "https://mcyacg.com/"
+    - name: "SpankBang 在线视频"
+      url: "https://spankbang.com/"
+    - name: "YavTube 女優素人 & 映画作品 & 写真画像"
+      url: "https://yavtube.com/"
+    - name: "在线写真 内容过于刺激"
+      url: "https://asiantolick.com/"
+    - name: "萌贴士"
+      url: "https://moe.tips/"

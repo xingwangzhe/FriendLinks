@@ -1,20 +1,20 @@
 site:
-  name: 'aronnax.site'
-  url: 'https://aronnax.site/'
-  description: '友情链接'
-  links: '/friends'
+  name: "aronnax.site"
+  url: "https://aronnax.site/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '屿见 屿见的博客，记录生活点滴，分享技术经验'
-      url: 'https://resheep.github.io/'
-    - name: '暮雪Avid的博客'
-      url: 'https://muxueblogs.netlify.app/'
-    - name: 'Catarium 见崎的猫箱'
-      url: 'https://catarium.me/'
-    - name: 'Hel1umHE ''s Blog'
-      url: 'https://hel1umhe.github.io/'
-    - name: 'Lain is writing 有关幻想的一切。记录项目、想法与生活。'
-      url: 'https://lain.today'
-    - name: '樟庭徊路 浮生两起千斤梦 怅思尤作归离恨'
-      url: 'https://vilstia.org'
-    - name: '北河天文台 其实不是天文台'
-      url: 'https://pediastrum.com/'
+    - name: "屿见 屿见的博客，记录生活点滴，分享技术经验"
+      url: "https://resheep.github.io/"
+    - name: "暮雪Avid的博客"
+      url: "https://muxueblogs.netlify.app/"
+    - name: "Catarium 见崎的猫箱"
+      url: "https://catarium.me/"
+    - name: "Hel1umHE 's Blog"
+      url: "https://hel1umhe.github.io/"
+    - name: "Lain is writing 有关幻想的一切。记录项目、想法与生活。"
+      url: "https://lain.today"
+    - name: "樟庭徊路 浮生两起千斤梦 怅思尤作归离恨"
+      url: "https://vilstia.org"
+    - name: "北河天文台 其实不是天文台"
+      url: "https://pediastrum.com/"

@@ -1,82 +1,82 @@
 site:
-  name: 'blog.pangao.vip'
-  url: 'https://blog.pangao.vip/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.pangao.vip"
+  url: "https://blog.pangao.vip/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '陈YFの博客(￣▽￣)一个在互联网角落挣扎的小小博客，很小很小。'
-      url: 'https://blog.cyfan.top'
-    - name: '鱼跃此时海鱼跃此时海，花开彼岸天'
-      url: 'https://www.overme.cn/'
-    - name: 'SvnYang笑而不语是一种豁达，痛而不言是一种修养'
-      url: 'https://sunyang.vip'
-    - name: 'Sakura` Blogs永远相信美好的事情即将发生'
-      url: 'https://jinan6.github.io/'
-    - name: 'Bei’s BlogDebug the world'
-      url: 'https://wangbei.xyz'
-    - name: '煎鱼的海人之帅，莫过于煎鱼'
-      url: 'https://euukey.com'
-    - name: 'Sanarous码农人生'
-      url: 'https://bestzuo.cn'
-    - name: 'Kongerの万事屋咕咕咕~咕咕咕~我是咕咕小行家~'
-      url: 'https://blog.ninglans.top'
-    - name: 'JPFLY妙妙屋世间美好与你环环相扣'
-      url: 'https://amumu547426.github.io/'
-    - name: '十玖八柒一个收藏回忆与分享技术的地方'
-      url: 'https://ahzoo.cn'
-    - name: '姑苏的猫一个有趣的地方'
-      url: 'https://www.islery.com'
-    - name: 'PaddyLin’s blog又菜又爱学'
-      url: 'https://www.paddylin.top'
-    - name: '高浩轩𝓷𝓸 𝓹𝓪𝓲𝓷𝓼，𝓷𝓸 𝓰𝓪𝓲𝓷𝓼'
-      url: 'https://agrx.gitee.io/'
-    - name: '佚名1116无'
-      url: 'https://ym1116.gitee.io'
-    - name: 'itsNekoDeng一个前端学习小白，希望能发光发热，不止于此'
-      url: 'https://nekodeng.gitee.io/'
-    - name: 'xwcker海客GO - 爱牟 听着海客的瀛谈'
-      url: 'https://www.hack-gov.com.cn/'
-    - name: 'saowuA programmer who wants to be happy and muddle along'
-      url: 'https://saowu.top'
-    - name: 'Jason''s Blog先谋生，再谋爱！'
-      url: 'https://jasonssun.github.io'
-    - name: '柒比叁救赎之道，就在其中'
-      url: 'https://www.7b3.org/'
-    - name: '陈鑫磊的博客这个人太懒了啥也没写……'
-      url: 'https://www.cxl2020mc.top'
-    - name: 'CodeCheng虽然未来在藏在迷雾中，叫人看起来胆怯。但当你踏足其中，就会云开雾散'
-      url: 'https://www.codecheng.com/'
-    - name: 'Yuexin’s BlogKEEP WALKING'
-      url: 'https://wyxogo.top/'
-    - name: 'Sapphire | Blog興趣使然的博客'
-      url: 'https://notspr.com/'
-    - name: '风在哪如果你不知道失败是什么，那么你永远不会获得成功'
-      url: 'https://www.wygandwdn.cn/'
-    - name: 'Yのケイ我喜欢下雨，因为它能够带来天空的味道'
-      url: 'https://www.aprilcherryblossom.top/'
-    - name: '史迪奇的博客我叫史迪奇'
-      url: 'https://sdq3.link'
-    - name: '日常代码能给推荐几个好的生发剂吗？'
-      url: 'http://www.hezi.site'
-    - name: 'Mtoq的小窝天暗下来，你就是光。'
-      url: 'https://mtoqman.github.io'
-    - name: 'HuRan Blog长风破浪会有时，直挂云帆济沧海'
-      url: 'https://blog.huran.xyz'
-    - name: 'November-first 月初月初博客,月初,个人博客'
-      url: 'https://blog.xoii.top'
-    - name: 'xinxinEvething is gonna be fine'
-      url: 'https://xinxin-l.github.io'
-    - name: '花贝一个社恐的前端开发从业者'
-      url: 'https://han96.com'
-    - name: '序炁的博客序炁OrderChaos的自留地'
-      url: 'https://www.ordchaos.com'
-    - name: 'Zane Liu’s Blog🌸让优秀成为一种习惯🔥'
-      url: 'https://lza59.com/'
-    - name: '幽香乐容の博客分享必有收获（｡ò ∀ ó｡）'
-      url: 'https://yxlr.tk'
-    - name: '芝士小屋个人学习分享'
-      url: 'https://www.xins666.com'
-    - name: '调皮豆干就在这里发电'
-      url: 'https://blog.catrol.cn/'
-    - name: '小贵博客一名java程序员的博客'
-      url: 'http://blog.xgcode.cn'
+    - name: "陈YFの博客(￣▽￣)一个在互联网角落挣扎的小小博客，很小很小。"
+      url: "https://blog.cyfan.top"
+    - name: "鱼跃此时海鱼跃此时海，花开彼岸天"
+      url: "https://www.overme.cn/"
+    - name: "SvnYang笑而不语是一种豁达，痛而不言是一种修养"
+      url: "https://sunyang.vip"
+    - name: "Sakura` Blogs永远相信美好的事情即将发生"
+      url: "https://jinan6.github.io/"
+    - name: "Bei’s BlogDebug the world"
+      url: "https://wangbei.xyz"
+    - name: "煎鱼的海人之帅，莫过于煎鱼"
+      url: "https://euukey.com"
+    - name: "Sanarous码农人生"
+      url: "https://bestzuo.cn"
+    - name: "Kongerの万事屋咕咕咕~咕咕咕~我是咕咕小行家~"
+      url: "https://blog.ninglans.top"
+    - name: "JPFLY妙妙屋世间美好与你环环相扣"
+      url: "https://amumu547426.github.io/"
+    - name: "十玖八柒一个收藏回忆与分享技术的地方"
+      url: "https://ahzoo.cn"
+    - name: "姑苏的猫一个有趣的地方"
+      url: "https://www.islery.com"
+    - name: "PaddyLin’s blog又菜又爱学"
+      url: "https://www.paddylin.top"
+    - name: "高浩轩𝓷𝓸 𝓹𝓪𝓲𝓷𝓼，𝓷𝓸 𝓰𝓪𝓲𝓷𝓼"
+      url: "https://agrx.gitee.io/"
+    - name: "佚名1116无"
+      url: "https://ym1116.gitee.io"
+    - name: "itsNekoDeng一个前端学习小白，希望能发光发热，不止于此"
+      url: "https://nekodeng.gitee.io/"
+    - name: "xwcker海客GO - 爱牟 听着海客的瀛谈"
+      url: "https://www.hack-gov.com.cn/"
+    - name: "saowuA programmer who wants to be happy and muddle along"
+      url: "https://saowu.top"
+    - name: "Jason's Blog先谋生，再谋爱！"
+      url: "https://jasonssun.github.io"
+    - name: "柒比叁救赎之道，就在其中"
+      url: "https://www.7b3.org/"
+    - name: "陈鑫磊的博客这个人太懒了啥也没写……"
+      url: "https://www.cxl2020mc.top"
+    - name: "CodeCheng虽然未来在藏在迷雾中，叫人看起来胆怯。但当你踏足其中，就会云开雾散"
+      url: "https://www.codecheng.com/"
+    - name: "Yuexin’s BlogKEEP WALKING"
+      url: "https://wyxogo.top/"
+    - name: "Sapphire | Blog興趣使然的博客"
+      url: "https://notspr.com/"
+    - name: "风在哪如果你不知道失败是什么，那么你永远不会获得成功"
+      url: "https://www.wygandwdn.cn/"
+    - name: "Yのケイ我喜欢下雨，因为它能够带来天空的味道"
+      url: "https://www.aprilcherryblossom.top/"
+    - name: "史迪奇的博客我叫史迪奇"
+      url: "https://sdq3.link"
+    - name: "日常代码能给推荐几个好的生发剂吗？"
+      url: "http://www.hezi.site"
+    - name: "Mtoq的小窝天暗下来，你就是光。"
+      url: "https://mtoqman.github.io"
+    - name: "HuRan Blog长风破浪会有时，直挂云帆济沧海"
+      url: "https://blog.huran.xyz"
+    - name: "November-first 月初月初博客,月初,个人博客"
+      url: "https://blog.xoii.top"
+    - name: "xinxinEvething is gonna be fine"
+      url: "https://xinxin-l.github.io"
+    - name: "花贝一个社恐的前端开发从业者"
+      url: "https://han96.com"
+    - name: "序炁的博客序炁OrderChaos的自留地"
+      url: "https://www.ordchaos.com"
+    - name: "Zane Liu’s Blog🌸让优秀成为一种习惯🔥"
+      url: "https://lza59.com/"
+    - name: "幽香乐容の博客分享必有收获（｡ò ∀ ó｡）"
+      url: "https://yxlr.tk"
+    - name: "芝士小屋个人学习分享"
+      url: "https://www.xins666.com"
+    - name: "调皮豆干就在这里发电"
+      url: "https://blog.catrol.cn/"
+    - name: "小贵博客一名java程序员的博客"
+      url: "http://blog.xgcode.cn"

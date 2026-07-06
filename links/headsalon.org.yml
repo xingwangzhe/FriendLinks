@@ -1,14 +1,14 @@
 site:
-  name: 'headsalon.org'
-  url: 'http://headsalon.org/'
-  description: '友情链接'
-  links: '/'
+  name: "headsalon.org"
+  url: "http://headsalon.org/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'tcya'
-      url: 'http://tcya.xyz'
-    - name: 'Idea By Me'
-      url: 'http://www.ideabyme.com/'
-    - name: 'Marginal Revolution'
-      url: 'http://www.marginalrevolution.com/'
-    - name: 'The Big Questions'
-      url: 'http://www.thebigquestions.com/'
+    - name: "tcya"
+      url: "http://tcya.xyz"
+    - name: "Idea By Me"
+      url: "http://www.ideabyme.com/"
+    - name: "Marginal Revolution"
+      url: "http://www.marginalrevolution.com/"
+    - name: "The Big Questions"
+      url: "http://www.thebigquestions.com/"

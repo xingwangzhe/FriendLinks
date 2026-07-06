@@ -1,18 +1,18 @@
 site:
-  name: 'nathanmarz.com'
-  url: 'http://nathanmarz.com/'
-  description: '友情链接'
-  links: '/'
+  name: "nathanmarz.com"
+  url: "http://nathanmarz.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Recurse Center'
-      url: 'https://www.recurse.com/'
-    - name: 'Apache Storm'
-      url: 'http://storm-project.net'
-    - name: 'spider.io'
-      url: 'http://www.spider.io/'
-    - name: 'BackType'
-      url: 'http://www.backtype.com'
-    - name: 'Insight Data Science'
-      url: 'http://insightdatascience.com'
-    - name: 'MayDay PAC'
-      url: 'https://mayone.us'
+    - name: "Recurse Center"
+      url: "https://www.recurse.com/"
+    - name: "Apache Storm"
+      url: "http://storm-project.net"
+    - name: "spider.io"
+      url: "http://www.spider.io/"
+    - name: "BackType"
+      url: "http://www.backtype.com"
+    - name: "Insight Data Science"
+      url: "http://insightdatascience.com"
+    - name: "MayDay PAC"
+      url: "https://mayone.us"

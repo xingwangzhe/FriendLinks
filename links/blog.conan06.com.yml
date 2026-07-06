@@ -1,28 +1,28 @@
 site:
-  name: 'blog.conan06.com'
-  url: 'http://blog.conan06.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.conan06.com"
+  url: "http://blog.conan06.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '十年之约'
-      url: 'https://www.foreverblog.cn/'
-    - name: 'Glyphs'
-      url: 'https://glyphsapp.com/'
-    - name: 'Web.dev'
-      url: 'https://web.dev/'
-    - name: 'Material Design'
-      url: 'https://material.io/'
-    - name: 'Bougie’s Blog'
-      url: 'https://www.bougieblog.cn/'
-    - name: 'CoolGuy’s Blog'
-      url: 'https://coolguy.pw/'
-    - name: 'Drakeet’s blog'
-      url: 'https://drakeet.me/'
-    - name: 'Fooleap’s Blog'
-      url: 'https://blog.fooleap.org/'
-    - name: 'Mercury’s Blog'
-      url: 'https://merxury.com/'
-    - name: 'Terry’s Blog'
-      url: 'https://terrychen.info/'
-    - name: 'Travelers of life'
-      url: 'https://pls7.com/'
+    - name: "十年之约"
+      url: "https://www.foreverblog.cn/"
+    - name: "Glyphs"
+      url: "https://glyphsapp.com/"
+    - name: "Web.dev"
+      url: "https://web.dev/"
+    - name: "Material Design"
+      url: "https://material.io/"
+    - name: "Bougie’s Blog"
+      url: "https://www.bougieblog.cn/"
+    - name: "CoolGuy’s Blog"
+      url: "https://coolguy.pw/"
+    - name: "Drakeet’s blog"
+      url: "https://drakeet.me/"
+    - name: "Fooleap’s Blog"
+      url: "https://blog.fooleap.org/"
+    - name: "Mercury’s Blog"
+      url: "https://merxury.com/"
+    - name: "Terry’s Blog"
+      url: "https://terrychen.info/"
+    - name: "Travelers of life"
+      url: "https://pls7.com/"

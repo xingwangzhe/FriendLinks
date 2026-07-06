@@ -1,34 +1,34 @@
 site:
-  name: 'villepreux.net'
-  url: 'https://villepreux.net/'
-  description: '友情链接'
-  links: '/friends'
+  name: "villepreux.net"
+  url: "https://villepreux.net/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Kermorgant.fr (18+)'
-      url: 'https://kermorgant.fr'
-    - name: 'webmention.io'
-      url: 'https://webmention.io'
-    - name: 'Matthias Ott'
-      url: 'https://matthiasott.com'
-    - name: 'Fediring'
-      url: 'https://fediring.net'
-    - name: 'CSS-Joy'
-      url: 'https://cs.sjoy.lol'
-    - name: 'Indie'
-      url: 'https://🕸💍.ws'
-    - name: 'Bucket'
-      url: 'https://webring.bucketfish.me'
-    - name: 'Meta'
-      url: 'https://meta-ring.hedy.dev'
-    - name: 'GeekRing'
-      url: 'https://geekring.net'
-    - name: 'previous'
-      url: 'https://darktheme.club'
-    - name: 'En-ce-moment'
-      url: 'https://encemoment.site'
-    - name: 'Gemini'
-      url: 'https://geminiprotocol.net/'
-    - name: '🏳️‍🌈 Inclusive Front{}'
-      url: 'https://inclusivefront.neocities.org/'
-    - name: 'antoine.omg.lol'
-      url: 'https://antoine.omg.lol'
+    - name: "Kermorgant.fr (18+)"
+      url: "https://kermorgant.fr"
+    - name: "webmention.io"
+      url: "https://webmention.io"
+    - name: "Matthias Ott"
+      url: "https://matthiasott.com"
+    - name: "Fediring"
+      url: "https://fediring.net"
+    - name: "CSS-Joy"
+      url: "https://cs.sjoy.lol"
+    - name: "Indie"
+      url: "https://🕸💍.ws"
+    - name: "Bucket"
+      url: "https://webring.bucketfish.me"
+    - name: "Meta"
+      url: "https://meta-ring.hedy.dev"
+    - name: "GeekRing"
+      url: "https://geekring.net"
+    - name: "previous"
+      url: "https://darktheme.club"
+    - name: "En-ce-moment"
+      url: "https://encemoment.site"
+    - name: "Gemini"
+      url: "https://geminiprotocol.net/"
+    - name: "🏳️‍🌈 Inclusive Front{}"
+      url: "https://inclusivefront.neocities.org/"
+    - name: "antoine.omg.lol"
+      url: "https://antoine.omg.lol"

@@ -1,14 +1,14 @@
 site:
-  name: 'blog.mariozzj.cn'
-  url: 'https://blog.mariozzj.cn/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.mariozzj.cn"
+  url: "https://blog.mariozzj.cn/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Ge''s blog'
-      url: 'https://rwwg.github.io/'
-    - name: 'Passacaglia'
-      url: 'https://blog.passacaglia.cn/'
-    - name: 'loss4Wang'
-      url: 'https://loss4wang.github.io/'
-    - name: 'Kloudy Shape'
-      url: 'https://shape.kloudy.cn/'
+    - name: "Ge's blog"
+      url: "https://rwwg.github.io/"
+    - name: "Passacaglia"
+      url: "https://blog.passacaglia.cn/"
+    - name: "loss4Wang"
+      url: "https://loss4wang.github.io/"
+    - name: "Kloudy Shape"
+      url: "https://shape.kloudy.cn/"

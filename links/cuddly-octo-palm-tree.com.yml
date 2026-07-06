@@ -1,10 +1,10 @@
 site:
-  name: 'cuddly-octo-palm-tree.com'
-  url: 'https://cuddly-octo-palm-tree.com/'
-  description: '友情链接'
-  links: '/'
+  name: "cuddly-octo-palm-tree.com"
+  url: "https://cuddly-octo-palm-tree.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Nix'
-      url: 'https://nixos.org'
-    - name: 'Cryogen'
-      url: 'http://cryogenweb.org'
+    - name: "Nix"
+      url: "https://nixos.org"
+    - name: "Cryogen"
+      url: "http://cryogenweb.org"

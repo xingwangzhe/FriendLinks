@@ -1,88 +1,88 @@
 site:
-  name: 'blog.ni-co.moe'
-  url: 'https://blog.ni-co.moe/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "blog.ni-co.moe"
+  url: "https://blog.ni-co.moe/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: 'ByXiaoXie'
-      url: 'http://byxiaoxie.com'
-    - name: 'Leonn'
-      url: 'https://liyuans.com'
-    - name: '雨落无声'
-      url: 'https://ylws.me'
-    - name: 'Kirito'
-      url: 'https://www.ixh.me/'
-    - name: 'NickJun''s Blog'
-      url: 'https://www.nickjun.com/'
-    - name: 'Sabia科学研究所'
-      url: 'https://www.sabia.cc/'
-    - name: '极客笔记'
-      url: 'https://guoch.xyz/'
-    - name: 'VirCloud''s Blog'
-      url: 'https://blog.vircloud.net/'
-    - name: 'Senraの小窝'
-      url: 'http://www.senra.me'
-    - name: 'FH云彩博客'
-      url: 'https://www.yuncaioo.com/'
-    - name: 'Netrvin'
-      url: 'https://blog.yuzu.im/'
-    - name: '凯の秘密基地'
-      url: 'https://wwww.lvmoo.com'
-    - name: '血衫非弧'
-      url: 'https://blog.kelu.org/'
-    - name: 'Alone88'
-      url: 'https://alone88.cn/'
-    - name: 'DearTanker''s Blog'
-      url: 'https://blog.deartanker.com/'
-    - name: '2broear'
-      url: 'https://blog.2broear.com/'
-    - name: '搞机男'
-      url: 'https://www.gaojinan.com/'
-    - name: 'Natural.F'
-      url: 'https://www.wanvi.net/'
-    - name: 'Hotdog64`s Blog'
-      url: 'https://hotdog64.com/'
-    - name: '某酱の博客'
-      url: 'https://blog.fxit.top/'
-    - name: 'Shucheng Li'
-      url: 'https://snli.org/'
-    - name: '呓喵酱'
-      url: 'https://www.eee.dog/'
-    - name: 'Evsio0n的个人小站'
-      url: 'https://evsio0n.com/'
-    - name: 'limohan'
-      url: 'http://www.limohan.cn/'
-    - name: 'LYM''S BLOG'
-      url: 'https://loli.by'
-    - name: '小俊博客'
-      url: 'https://www.smalljun.com/'
-    - name: '呓喵酱'
-      url: 'https://iotcat.me'
-    - name: 'LiCEO_CN'
-      url: 'https://liceo.cn/'
-    - name: '慕若曦'
-      url: 'https://www.muruoxi.com/'
-    - name: 'Alanyhq'
-      url: 'http://www.alanyhq.com'
-    - name: 'MoneJ'
-      url: 'https://w.fxit.top'
-    - name: 'Hotdog64'
-      url: 'https://www.hotdog64.com'
-    - name: 'Alanyhq'
-      url: 'https://alanyhq.com/'
-    - name: 'a632079'
-      url: 'https://a632079.me'
-    - name: '徐四两'
-      url: 'https://openssw.com'
-    - name: '装书季'
-      url: 'https://zhuangshuji.top'
-    - name: 'Yiveco'
-      url: 'https://blog.yiveco.xyz'
-    - name: 'sooele'
-      url: 'https://www.ooele.com'
-    - name: '付勇康个人博客'
-      url: 'https://www.fykblog.com/'
-    - name: '沐子白'
-      url: 'http://blog.yiwlc.top'
-    - name: 'Maekawa_Miku'
-      url: 'https://1111Lab.org'
+    - name: "ByXiaoXie"
+      url: "http://byxiaoxie.com"
+    - name: "Leonn"
+      url: "https://liyuans.com"
+    - name: "雨落无声"
+      url: "https://ylws.me"
+    - name: "Kirito"
+      url: "https://www.ixh.me/"
+    - name: "NickJun's Blog"
+      url: "https://www.nickjun.com/"
+    - name: "Sabia科学研究所"
+      url: "https://www.sabia.cc/"
+    - name: "极客笔记"
+      url: "https://guoch.xyz/"
+    - name: "VirCloud's Blog"
+      url: "https://blog.vircloud.net/"
+    - name: "Senraの小窝"
+      url: "http://www.senra.me"
+    - name: "FH云彩博客"
+      url: "https://www.yuncaioo.com/"
+    - name: "Netrvin"
+      url: "https://blog.yuzu.im/"
+    - name: "凯の秘密基地"
+      url: "https://wwww.lvmoo.com"
+    - name: "血衫非弧"
+      url: "https://blog.kelu.org/"
+    - name: "Alone88"
+      url: "https://alone88.cn/"
+    - name: "DearTanker's Blog"
+      url: "https://blog.deartanker.com/"
+    - name: "2broear"
+      url: "https://blog.2broear.com/"
+    - name: "搞机男"
+      url: "https://www.gaojinan.com/"
+    - name: "Natural.F"
+      url: "https://www.wanvi.net/"
+    - name: "Hotdog64`s Blog"
+      url: "https://hotdog64.com/"
+    - name: "某酱の博客"
+      url: "https://blog.fxit.top/"
+    - name: "Shucheng Li"
+      url: "https://snli.org/"
+    - name: "呓喵酱"
+      url: "https://www.eee.dog/"
+    - name: "Evsio0n的个人小站"
+      url: "https://evsio0n.com/"
+    - name: "limohan"
+      url: "http://www.limohan.cn/"
+    - name: "LYM'S BLOG"
+      url: "https://loli.by"
+    - name: "小俊博客"
+      url: "https://www.smalljun.com/"
+    - name: "呓喵酱"
+      url: "https://iotcat.me"
+    - name: "LiCEO_CN"
+      url: "https://liceo.cn/"
+    - name: "慕若曦"
+      url: "https://www.muruoxi.com/"
+    - name: "Alanyhq"
+      url: "http://www.alanyhq.com"
+    - name: "MoneJ"
+      url: "https://w.fxit.top"
+    - name: "Hotdog64"
+      url: "https://www.hotdog64.com"
+    - name: "Alanyhq"
+      url: "https://alanyhq.com/"
+    - name: "a632079"
+      url: "https://a632079.me"
+    - name: "徐四两"
+      url: "https://openssw.com"
+    - name: "装书季"
+      url: "https://zhuangshuji.top"
+    - name: "Yiveco"
+      url: "https://blog.yiveco.xyz"
+    - name: "sooele"
+      url: "https://www.ooele.com"
+    - name: "付勇康个人博客"
+      url: "https://www.fykblog.com/"
+    - name: "沐子白"
+      url: "http://blog.yiwlc.top"
+    - name: "Maekawa_Miku"
+      url: "https://1111Lab.org"

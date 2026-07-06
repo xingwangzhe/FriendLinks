@@ -1,52 +1,52 @@
 site:
-  name: 'blog.tse.moe'
-  url: 'https://blog.tse.moe/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.tse.moe"
+  url: "https://blog.tse.moe/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Jrotty''s Blog'
-      url: 'https://zezeshe.com/'
-    - name: 'FiveYellowMice''s Blog'
-      url: 'https://fiveyellowmice.com/'
-    - name: '毓彦的博客'
-      url: 'https://www.yuyanlab.com'
-    - name: 'Guoguo''s Blog'
-      url: 'https://qwq.trade/'
-    - name: '9BIE'
-      url: 'http://blog.9bie.org:8081/'
-    - name: 'Blog · BIGBALLON'
-      url: 'https://bigballon.github.io/'
-    - name: '静静''s Blog'
-      url: 'https://kernel.moe/'
-    - name: 'Touko''s diary'
-      url: 'https://touko.moe/'
-    - name: 'MoeYi''s Blog'
-      url: 'https://gao4.pw/'
-    - name: 'RinYan''s Blog'
-      url: 'https://shinohara-rin.github.io/'
-    - name: '北方栖地'
-      url: 'https://blog.vanka.site/'
-    - name: '0page'
-      url: 'https://liefeng.github.io/'
-    - name: 'Canarypwn''s Blog'
-      url: 'https://asswecan.me/'
-    - name: 'Morainzh''s Blog'
-      url: 'http://blog.morain.site/'
-    - name: 'KIWI''S HOUSE'
-      url: 'https://nyan.kiwi.cat/'
-    - name: 'rux 観測所'
-      url: 'https://blog.froseiun.in/'
-    - name: 'DreamCity'
-      url: 'https://www.littleqiu.net/'
-    - name: 'laike9m''s Blog'
-      url: 'https://laike9m.com/'
-    - name: 'YumeのDiary'
-      url: 'https://kirainmoe.com/'
-    - name: 'yufan''s blog'
-      url: 'https://yufanboke.top/'
-    - name: '狐狸菌の秘密基地'
-      url: 'http://www.smartfox.cc/'
-    - name: 'Ghost'
-      url: 'https://ghost.org/'
-    - name: 'Kirainmoe'
-      url: 'http://www.imim.pw'
+    - name: "Jrotty's Blog"
+      url: "https://zezeshe.com/"
+    - name: "FiveYellowMice's Blog"
+      url: "https://fiveyellowmice.com/"
+    - name: "毓彦的博客"
+      url: "https://www.yuyanlab.com"
+    - name: "Guoguo's Blog"
+      url: "https://qwq.trade/"
+    - name: "9BIE"
+      url: "http://blog.9bie.org:8081/"
+    - name: "Blog · BIGBALLON"
+      url: "https://bigballon.github.io/"
+    - name: "静静's Blog"
+      url: "https://kernel.moe/"
+    - name: "Touko's diary"
+      url: "https://touko.moe/"
+    - name: "MoeYi's Blog"
+      url: "https://gao4.pw/"
+    - name: "RinYan's Blog"
+      url: "https://shinohara-rin.github.io/"
+    - name: "北方栖地"
+      url: "https://blog.vanka.site/"
+    - name: "0page"
+      url: "https://liefeng.github.io/"
+    - name: "Canarypwn's Blog"
+      url: "https://asswecan.me/"
+    - name: "Morainzh's Blog"
+      url: "http://blog.morain.site/"
+    - name: "KIWI'S HOUSE"
+      url: "https://nyan.kiwi.cat/"
+    - name: "rux 観測所"
+      url: "https://blog.froseiun.in/"
+    - name: "DreamCity"
+      url: "https://www.littleqiu.net/"
+    - name: "laike9m's Blog"
+      url: "https://laike9m.com/"
+    - name: "YumeのDiary"
+      url: "https://kirainmoe.com/"
+    - name: "yufan's blog"
+      url: "https://yufanboke.top/"
+    - name: "狐狸菌の秘密基地"
+      url: "http://www.smartfox.cc/"
+    - name: "Ghost"
+      url: "https://ghost.org/"
+    - name: "Kirainmoe"
+      url: "http://www.imim.pw"

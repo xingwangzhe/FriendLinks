@@ -1,26 +1,26 @@
 site:
-  name: 'blog.hughpowell.net'
-  url: 'https://blog.hughpowell.net/'
-  description: '友情链接'
-  links: '/'
+  name: "blog.hughpowell.net"
+  url: "https://blog.hughpowell.net/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Cursive plugin'
-      url: 'https://cursive-ide.com/'
-    - name: 'OpenTelemetry'
-      url: 'https://opentelemetry.io/'
-    - name: 'Heroku'
-      url: 'https://www.heroku.com/'
-    - name: 'Railway'
-      url: 'https://railway.app/'
-    - name: 'SigNoz'
-      url: 'https://signoz.io/'
-    - name: 'Digma'
-      url: 'https://digma.ai/'
-    - name: 'Honeycomb'
-      url: 'https://honeycomb.io'
-    - name: 'Charity Majors'
-      url: 'https://charity.wtf'
-    - name: 'Clojure for the Brave and True'
-      url: 'http://www.braveclojure.com/'
-    - name: 'boot'
-      url: 'https://boot-clj.github.io/'
+    - name: "Cursive plugin"
+      url: "https://cursive-ide.com/"
+    - name: "OpenTelemetry"
+      url: "https://opentelemetry.io/"
+    - name: "Heroku"
+      url: "https://www.heroku.com/"
+    - name: "Railway"
+      url: "https://railway.app/"
+    - name: "SigNoz"
+      url: "https://signoz.io/"
+    - name: "Digma"
+      url: "https://digma.ai/"
+    - name: "Honeycomb"
+      url: "https://honeycomb.io"
+    - name: "Charity Majors"
+      url: "https://charity.wtf"
+    - name: "Clojure for the Brave and True"
+      url: "http://www.braveclojure.com/"
+    - name: "boot"
+      url: "https://boot-clj.github.io/"

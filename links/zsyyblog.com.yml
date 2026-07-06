@@ -1,102 +1,102 @@
 site:
-  name: 'zsyyblog.com'
-  url: 'https://zsyyblog.com/'
-  description: '友情链接'
-  links: '/link/'
+  name: "zsyyblog.com"
+  url: "https://zsyyblog.com/"
+  description: "友情链接"
+  links: "/link/"
   friends:
-    - name: 'CrazyWong CrazyWong 熱衷學習，熱衷生活'
-      url: 'https://crazywong.com/'
-    - name: 'Fomalhaut🥝 Fomalhaut🥝 Future is now 🍭🍭🍭'
-      url: 'https://www.fomal.cc/'
-    - name: 'Ethan.Tzy Ethan.Tzy 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志'
-      url: 'https://fe32.top/'
-    - name: '花猪 花猪 佛系青年'
-      url: 'https://cnhuazhu.top/'
-    - name: '海拥 海拥 一个乐于分享技术与快乐的博主'
-      url: 'https://haiyong.site/'
-    - name: '安知鱼`Blog 安知鱼`Blog 生活明朗，万物可爱'
-      url: 'https://anzhiy.cn/'
-    - name: 'Leonus Leonus 进一寸有进一寸的欢喜。'
-      url: 'https://blog.leonus.cn/'
-    - name: '张洪Heo 张洪Heo 分享设计与科技生活'
-      url: 'https://blog.zhheo.com/'
-    - name: 'Akilarの糖果屋 Akilarの糖果屋 欢迎光临糖果屋'
-      url: 'https://akilar.top/'
-    - name: '丨浅笑安然丨 丨浅笑安然丨 总之岁月漫长, 然而值得等待。'
-      url: 'https://siax.cn/'
-    - name: 'Eurkon Eurkon 不只是代码的搬运工'
-      url: 'https://blog.eurkon.com/'
-    - name: 'Jayhrn Jayhrn 念念不忘，必有回响'
-      url: 'https://blog.lvhrn.cn/'
-    - name: 'Harris''s Blog Harris''s Blog 时不我待，只争朝夕'
-      url: 'https://blog.harriswong.top/'
-    - name: 'roydon roydon 如琉璃般飘落'
-      url: 'https://www.roydon.top/'
-    - name: '轻笑Chuckle 轻笑Chuckle 宁静致远,倾尘轻笑'
-      url: 'https://www.chuckle.top/'
-    - name: 'EthanLoo EthanLoo 好好学习，好好吃饭，好好睡觉'
-      url: 'https://blog.ethanloo.cn/'
-    - name: 'DearXuan DearXuan 编程,算法'
-      url: 'https://blog.dearxuan.com/'
-    - name: 'wallleap wallleap Luwang''s Blog'
-      url: 'https://myblog.wallleap.cn/'
-    - name: '浮云翩迁之间 浮云翩迁之间 百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。'
-      url: 'https://blognas.hwb0307.com/'
-    - name: 'iMaeGoo’s Blog iMaeGoo’s Blog 虹墨空间站'
-      url: 'https://www.imaegoo.com/'
-    - name: 'Ordis Ordis 船到桥头自然直，柳暗花明又一村'
-      url: 'https://imbhj.com/'
-    - name: '西瓜撞地球 西瓜撞地球 我在人间贩卖彩虹'
-      url: 'https://www.bio-w.cn/'
-    - name: '爱编程的小明 爱编程的小明 不要温和地走进那个良夜'
-      url: 'https://blog.kobal.top/'
-    - name: 'Guo Le''s Blog Guo Le''s Blog 生命是独立是自由是爱与和平'
-      url: 'https://guole.fun/'
-    - name: '山岳库博 山岳库博 开发学习启发性二刺螈'
-      url: 'https://kmar.top/'
-    - name: 'Tianli Tianli 自知之明是最可贵的知识！'
-      url: 'https://blog.tianli0.top/'
-    - name: '小N同学 小N同学 青石落晚巷 故人未还乡'
-      url: 'https://www.imcharon.com/'
-    - name: '水煮养乐多 水煮养乐多 十四亿分之一，很高兴遇见你🥂'
-      url: 'https://boiledyakult.top/'
-    - name: 'Echo’s blog Echo’s blog 韶华不为少年留 恨悠悠 几时休'
-      url: 'https://www.liveout.cn/'
-    - name: 'Hercules''s Blog Hercules''s Blog 数理化生一塌糊涂的理科生，对兴趣情有独钟的追寻！'
-      url: 'https://blog.zhaoziyi.site/'
-    - name: '文文的短发 文文的短发 一般路过传统记者'
-      url: 'https://www.justinchoi.top/'
-    - name: 'Baili Blog Baili Blog 一位只想找富婆而不想努力的人'
-      url: 'https://baili.tax/'
-    - name: 'DORAKIKA DORAKIKA 热爱漫无边际，生活自有分寸'
-      url: 'https://dorakika.cn/'
-    - name: '夜雨炊烟 夜雨炊烟 唯有热爱，可抵岁月漫长。'
-      url: 'https://yychuiyan.com/'
-    - name: 'Eric''s Blog Eric''s Blog 时光荏苒，岁月如梭'
-      url: 'https://wsdjeg.net/'
-    - name: '周天记 周天记 我在人间混日子'
-      url: 'https://zhoutian.com/'
-    - name: 'Pzai Pzai 从入门到放弃'
-      url: 'https://blog.pzai.cloud/'
-    - name: '时光 时光 心寄朗朗乾坤，胸怀真修之道。'
-      url: 'https://blog.shiguang666.eu.org/'
-    - name: '良的世界 良的世界 忙点充实，闲点自在'
-      url: 'https://www.lemonary.cn/'
-    - name: 'bright chen | 子非 bright chen | 子非 吾心光明,亦复何言'
-      url: 'https://www.brightchen.top/'
-    - name: '倦意博客 倦意博客 一个喜欢分享技术的“小白”~'
-      url: 'https://jyblog.cn/'
-    - name: '流萤白沙のBlog 流萤白沙のBlog 学习-记录-分享'
-      url: 'https://lyrashore.com/'
-    - name: '楠笙 楠笙 空谈误国，实干兴邦'
-      url: 'https://blog.nanshengwx.cn/'
-    - name: 'distjr_'
-      url: 'https://blog.distjr.top/'
-    - name: '雨眠碎碎念'
-      url: 'http://blog.yuumii.top/'
-    - name: 'Baili Blog'
-      url: 'https://www.bailir.top/'
-    - name: '晨雾㐅是只屑'
-      url: 'https://chenwumm.github.io/'
-    - name: '九规而已'
-      url: 'https://jiuguichen.github.io/'
+    - name: "CrazyWong CrazyWong 熱衷學習，熱衷生活"
+      url: "https://crazywong.com/"
+    - name: "Fomalhaut🥝 Fomalhaut🥝 Future is now 🍭🍭🍭"
+      url: "https://www.fomal.cc/"
+    - name: "Ethan.Tzy Ethan.Tzy 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志"
+      url: "https://fe32.top/"
+    - name: "花猪 花猪 佛系青年"
+      url: "https://cnhuazhu.top/"
+    - name: "海拥 海拥 一个乐于分享技术与快乐的博主"
+      url: "https://haiyong.site/"
+    - name: "安知鱼`Blog 安知鱼`Blog 生活明朗，万物可爱"
+      url: "https://anzhiy.cn/"
+    - name: "Leonus Leonus 进一寸有进一寸的欢喜。"
+      url: "https://blog.leonus.cn/"
+    - name: "张洪Heo 张洪Heo 分享设计与科技生活"
+      url: "https://blog.zhheo.com/"
+    - name: "Akilarの糖果屋 Akilarの糖果屋 欢迎光临糖果屋"
+      url: "https://akilar.top/"
+    - name: "丨浅笑安然丨 丨浅笑安然丨 总之岁月漫长, 然而值得等待。"
+      url: "https://siax.cn/"
+    - name: "Eurkon Eurkon 不只是代码的搬运工"
+      url: "https://blog.eurkon.com/"
+    - name: "Jayhrn Jayhrn 念念不忘，必有回响"
+      url: "https://blog.lvhrn.cn/"
+    - name: "Harris's Blog Harris's Blog 时不我待，只争朝夕"
+      url: "https://blog.harriswong.top/"
+    - name: "roydon roydon 如琉璃般飘落"
+      url: "https://www.roydon.top/"
+    - name: "轻笑Chuckle 轻笑Chuckle 宁静致远,倾尘轻笑"
+      url: "https://www.chuckle.top/"
+    - name: "EthanLoo EthanLoo 好好学习，好好吃饭，好好睡觉"
+      url: "https://blog.ethanloo.cn/"
+    - name: "DearXuan DearXuan 编程,算法"
+      url: "https://blog.dearxuan.com/"
+    - name: "wallleap wallleap Luwang's Blog"
+      url: "https://myblog.wallleap.cn/"
+    - name: "浮云翩迁之间 浮云翩迁之间 百代繁华一朝都，谁非过客；千秋明月吹角寒，花是主人。"
+      url: "https://blognas.hwb0307.com/"
+    - name: "iMaeGoo’s Blog iMaeGoo’s Blog 虹墨空间站"
+      url: "https://www.imaegoo.com/"
+    - name: "Ordis Ordis 船到桥头自然直，柳暗花明又一村"
+      url: "https://imbhj.com/"
+    - name: "西瓜撞地球 西瓜撞地球 我在人间贩卖彩虹"
+      url: "https://www.bio-w.cn/"
+    - name: "爱编程的小明 爱编程的小明 不要温和地走进那个良夜"
+      url: "https://blog.kobal.top/"
+    - name: "Guo Le's Blog Guo Le's Blog 生命是独立是自由是爱与和平"
+      url: "https://guole.fun/"
+    - name: "山岳库博 山岳库博 开发学习启发性二刺螈"
+      url: "https://kmar.top/"
+    - name: "Tianli Tianli 自知之明是最可贵的知识！"
+      url: "https://blog.tianli0.top/"
+    - name: "小N同学 小N同学 青石落晚巷 故人未还乡"
+      url: "https://www.imcharon.com/"
+    - name: "水煮养乐多 水煮养乐多 十四亿分之一，很高兴遇见你🥂"
+      url: "https://boiledyakult.top/"
+    - name: "Echo’s blog Echo’s blog 韶华不为少年留 恨悠悠 几时休"
+      url: "https://www.liveout.cn/"
+    - name: "Hercules's Blog Hercules's Blog 数理化生一塌糊涂的理科生，对兴趣情有独钟的追寻！"
+      url: "https://blog.zhaoziyi.site/"
+    - name: "文文的短发 文文的短发 一般路过传统记者"
+      url: "https://www.justinchoi.top/"
+    - name: "Baili Blog Baili Blog 一位只想找富婆而不想努力的人"
+      url: "https://baili.tax/"
+    - name: "DORAKIKA DORAKIKA 热爱漫无边际，生活自有分寸"
+      url: "https://dorakika.cn/"
+    - name: "夜雨炊烟 夜雨炊烟 唯有热爱，可抵岁月漫长。"
+      url: "https://yychuiyan.com/"
+    - name: "Eric's Blog Eric's Blog 时光荏苒，岁月如梭"
+      url: "https://wsdjeg.net/"
+    - name: "周天记 周天记 我在人间混日子"
+      url: "https://zhoutian.com/"
+    - name: "Pzai Pzai 从入门到放弃"
+      url: "https://blog.pzai.cloud/"
+    - name: "时光 时光 心寄朗朗乾坤，胸怀真修之道。"
+      url: "https://blog.shiguang666.eu.org/"
+    - name: "良的世界 良的世界 忙点充实，闲点自在"
+      url: "https://www.lemonary.cn/"
+    - name: "bright chen | 子非 bright chen | 子非 吾心光明,亦复何言"
+      url: "https://www.brightchen.top/"
+    - name: "倦意博客 倦意博客 一个喜欢分享技术的“小白”~"
+      url: "https://jyblog.cn/"
+    - name: "流萤白沙のBlog 流萤白沙のBlog 学习-记录-分享"
+      url: "https://lyrashore.com/"
+    - name: "楠笙 楠笙 空谈误国，实干兴邦"
+      url: "https://blog.nanshengwx.cn/"
+    - name: "distjr_"
+      url: "https://blog.distjr.top/"
+    - name: "雨眠碎碎念"
+      url: "http://blog.yuumii.top/"
+    - name: "Baili Blog"
+      url: "https://www.bailir.top/"
+    - name: "晨雾㐅是只屑"
+      url: "https://chenwumm.github.io/"
+    - name: "九规而已"
+      url: "https://jiuguichen.github.io/"

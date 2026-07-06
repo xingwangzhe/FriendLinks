@@ -1,18 +1,18 @@
 site:
-  name: 'blog.laoliu.eu.org'
-  url: 'https://blog.laoliu.eu.org/'
-  description: '友情链接'
-  links: '/links'
+  name: "blog.laoliu.eu.org"
+  url: "https://blog.laoliu.eu.org/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Rain''s Blog Rain的随笔小记'
-      url: 'https://blog.im.ci'
-    - name: '/var/log/sako sako 的博客'
-      url: 'https://sko.pm/'
-    - name: 'LeZi的猫窝 LeZi 的博客'
-      url: 'https://leziblog.com/'
-    - name: 'Nightcord Blog a8ec29b 的博客'
-      url: 'https://blog.nightcord.org/'
-    - name: '小城寒风 驻足现实，仰望星空，率性而活'
-      url: 'https://blog.atago.moe/'
-    - name: '流光版图 探索无尽的知识海洋，留下独特的生活印记'
-      url: 'https://flashtype.eu.org/'
+    - name: "Rain's Blog Rain的随笔小记"
+      url: "https://blog.im.ci"
+    - name: "/var/log/sako sako 的博客"
+      url: "https://sko.pm/"
+    - name: "LeZi的猫窝 LeZi 的博客"
+      url: "https://leziblog.com/"
+    - name: "Nightcord Blog a8ec29b 的博客"
+      url: "https://blog.nightcord.org/"
+    - name: "小城寒风 驻足现实，仰望星空，率性而活"
+      url: "https://blog.atago.moe/"
+    - name: "流光版图 探索无尽的知识海洋，留下独特的生活印记"
+      url: "https://flashtype.eu.org/"

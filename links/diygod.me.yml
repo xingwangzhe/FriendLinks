@@ -1,138 +1,138 @@
 site:
-  name: 'diygod.me'
-  url: 'https://diygod.me/'
-  description: '友情链接'
-  links: '/friends'
+  name: "diygod.me"
+  url: "https://diygod.me/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'A_of_All 待我归来.'
-      url: 'https://blog.aofall.com/'
-    - name: 'Cee 九五小鮮肉，大四出國狗'
-      url: 'http://blog.cee.moe/'
-    - name: 'FGHRSH FGHRSH 的博客'
-      url: 'https://www.fghrsh.net/'
-    - name: 'Fly 喜欢各种瞎折腾'
-      url: 'https://www.fly3949.com/'
-    - name: 'freejishu A New World'
-      url: 'http://www.freejishu.com/'
-    - name: 'kn007 这家伙很懒，什么也没有留下'
-      url: 'https://kn007.net/'
-    - name: 'Zankyo I Stay Alive.'
-      url: 'https://zankyo.cc/'
-    - name: 'METO 萨摩公园'
-      url: 'https://i-meto.com/'
-    - name: '超能小紫 Web全沾 // 专业学渣 // 贰刺猿 // 永远还不完信用卡'
-      url: 'http://www.mokeyjay.com/'
-    - name: 'myhloli 爱生活，爱萝莉'
-      url: 'https://myhloli.com/'
-    - name: 'Xcat Liu A cat who writes code'
-      url: 'http://blog.xcatliu.com/'
-    - name: 'zchen9 离用户最近的艺术家'
-      url: 'http://www.chen9.info/'
-    - name: 'ZGQ 高三党一枚'
-      url: 'http://blog.izgq.net/'
-    - name: 'zkl2333 zkl2333的博客'
-      url: 'http://www.zkl2333.com/'
-    - name: '佳佳 跨次元日常卖萌'
-      url: 'http://luojia.me/'
-    - name: '变态鹅 本鹅最喜欢萌妹纸了！'
-      url: 'https://conoha.vip/'
-    - name: '吟梦 这家伙很懒，什么也没有留下'
-      url: 'https://kirainmoe.com/'
-    - name: '地瓜 总有一天，咱也要和菊苣一起玩耍！'
-      url: 'https://digua.me/'
-    - name: '夜绫千裕 醒后无所见，耳旁昨日声'
-      url: 'https://yecl.net/'
-    - name: '大袋鼠 这家伙很懒，什么也没有留下'
-      url: 'http://muguang.me/'
-    - name: '悠然RE 萌萌噠傲嬌妹紙'
-      url: 'https://blog.mitsuha.space/'
-    - name: '晚风映浮云 死宅|渣渣前端|好奇心和猫一样|有强迫症|钟爱火狐|chrome黑|情伤几乎为0|⑨控|萝莉控|已脱团'
-      url: 'https://mxd.moe/'
-    - name: '羡辙 羡辙，字子免，号灵石笠翁'
-      url: 'http://zhangwenli.com/'
-    - name: '狗子 咦？我是谁？我为什么会在这？'
-      url: 'https://moedog.org/'
-    - name: '保罗 保罗的小宇宙'
-      url: 'https://paugram.com/'
-    - name: 'Giuem BiuBiuBiu~'
-      url: 'https://www.giuem.com/'
-    - name: 'Mashiro 樱花庄的白猫'
-      url: 'https://2heng.xin'
-    - name: 'Kay 我的腿让我停下，可是心却不允许我那么做。'
-      url: 'https://wwww.lvmoo.com/'
-    - name: 'Troy Troy的星球'
-      url: 'https://itroy.cc/'
-    - name: 'Sora 曾经沉迷LL无法自拔，目前依旧是一个LL真爱粉，最喜欢的是小鸟酱！'
-      url: 'https://kotori.net/'
-    - name: '零件 Tech Otakus Save The World'
-      url: 'https://nekosc.com/'
-    - name: '亿林 爱迪生说过：“要把BOSS打倒就要准备足够的等级。”'
-      url: 'https://minemine.cc/'
-    - name: 'Little_Qiu “愿每个人都能被这个世界温柔以待” 可惜这只是个无法实现的愿望。'
-      url: 'https://www.littleqiu.net/'
-    - name: '戴兜 在迷失中寻找自我'
-      url: 'https://daidr.me/'
-    - name: 'Jake 再牛逼的梦想也抵不住傻逼似得坚持'
-      url: 'https://i.jakeyu.top/'
-    - name: 'kookxiang 不会 C# 桌面开发的 Golang 程序员不是好的绒布球（x）PHP 前端开发'
-      url: 'https://ikk.me/'
-    - name: 'Ephen 灰姑娘'
-      url: 'https://ephen.me/'
-    - name: '扩散性百万甜面包 Written by Himself65, who contributing to open source, and working from school.'
-      url: 'https://www.himself65.com/'
-    - name: 'haozi 耗子の窝'
-      url: 'https://haozi.moe/'
-    - name: '翠翠酱 Stay curious, stay naive.'
-      url: 'https://idealclover.top/'
-    - name: 'bokutake 懒散随和的脂肪烃'
-      url: 'https://html.moe'
-    - name: 'SinofineLotus みんな社会不適合。'
-      url: 'http://sinofine.me/'
-    - name: '云游君 希望能成为一个有趣的人。'
-      url: 'https://www.yunyoujun.cn/'
-    - name: '小太 一个热爱ACG的技术宅'
-      url: 'https://baka.fun/'
-    - name: 'Aaron 树洞'
-      url: 'https://aoaoao.me/'
-    - name: 'Balthild 轻歌'
-      url: 'https://qaq.cat/'
-    - name: 'Jimmy66 一个不断成长，学习着的BMEer'
-      url: 'http://jimmy66.com/'
-    - name: 'journey.ad 浊以静之徐清'
-      url: 'https://imjad.cn/'
-    - name: 'liwanglin12 最好的朋友'
-      url: 'https://blog.lwl12.com/'
-    - name: 'MonkeyFigaro 脸盲｜路痴｜智障｜拖延症｜LGBT｜非单身'
-      url: 'http://monkeyfigaro.cn/'
-    - name: 'TyzuaL 一只潜伏在企鹅群中的小喵'
-      url: 'https://tyzual.com/'
-    - name: 'u3u 陪伴是最长情的告白'
-      url: 'https://quq.cat/'
-    - name: '一曲长歌辞烟雨 相逢千里负烟霞。空山人去远，回首落梅花'
-      url: 'https://ls12.me/'
-    - name: '千千 烟花、绽放之后只剩黑暗'
-      url: 'https://www.dreamwings.cn/'
-    - name: '小霖 岁月静好,现世安稳'
-      url: 'https://xiaolin.in/'
-    - name: '笈川可可 a.k.a 神楽坂碧玺，某可爱的蓝孩纸程序猿'
-      url: 'https://blog.0xbbc.com/'
-    - name: '音風 一介布衣的自我修养'
-      url: 'https://www.otokaze.cn/'
-    - name: 'Sonic853 虚拟人物 天王星号侦察船'
-      url: 'http://blog.853lab.com'
-    - name: '兔子鲜笙 要在不同的地方彼此照亮'
-      url: 'https://blog.tuzi.moe/'
-    - name: 'JiuMeng 虚拟形象的萝莉'
-      url: 'https://www.ohyhello.com/'
-    - name: 'Kirito 手中有剑，方能保护心里珍惜之人'
-      url: 'https://www.ixh.me/'
-    - name: 'Jrotty QQ爹の博客'
-      url: 'https://qqdie.com/'
-    - name: '折影轻梦 Entorevolution'
-      url: 'https://i.chainwon.com/'
-    - name: '月宅酱 嗨，这里是月宅酱。简称为月宅，月宅的虚拟人物为伪物语中的小忍。'
-      url: 'http://月宅酱.com/'
-    - name: 'FH云彩 00后，初二狗，技术控，风云社社长，某漏气博客博主，可爱的蓝孩子'
-      url: 'https://www.yuncaioo.com/'
-    - name: '某初雪的无名Blog 咸鱼萌新雪~吃土每一天quq'
-      url: 'https://yuki.yuki233.com/'
+    - name: "A_of_All 待我归来."
+      url: "https://blog.aofall.com/"
+    - name: "Cee 九五小鮮肉，大四出國狗"
+      url: "http://blog.cee.moe/"
+    - name: "FGHRSH FGHRSH 的博客"
+      url: "https://www.fghrsh.net/"
+    - name: "Fly 喜欢各种瞎折腾"
+      url: "https://www.fly3949.com/"
+    - name: "freejishu A New World"
+      url: "http://www.freejishu.com/"
+    - name: "kn007 这家伙很懒，什么也没有留下"
+      url: "https://kn007.net/"
+    - name: "Zankyo I Stay Alive."
+      url: "https://zankyo.cc/"
+    - name: "METO 萨摩公园"
+      url: "https://i-meto.com/"
+    - name: "超能小紫 Web全沾 // 专业学渣 // 贰刺猿 // 永远还不完信用卡"
+      url: "http://www.mokeyjay.com/"
+    - name: "myhloli 爱生活，爱萝莉"
+      url: "https://myhloli.com/"
+    - name: "Xcat Liu A cat who writes code"
+      url: "http://blog.xcatliu.com/"
+    - name: "zchen9 离用户最近的艺术家"
+      url: "http://www.chen9.info/"
+    - name: "ZGQ 高三党一枚"
+      url: "http://blog.izgq.net/"
+    - name: "zkl2333 zkl2333的博客"
+      url: "http://www.zkl2333.com/"
+    - name: "佳佳 跨次元日常卖萌"
+      url: "http://luojia.me/"
+    - name: "变态鹅 本鹅最喜欢萌妹纸了！"
+      url: "https://conoha.vip/"
+    - name: "吟梦 这家伙很懒，什么也没有留下"
+      url: "https://kirainmoe.com/"
+    - name: "地瓜 总有一天，咱也要和菊苣一起玩耍！"
+      url: "https://digua.me/"
+    - name: "夜绫千裕 醒后无所见，耳旁昨日声"
+      url: "https://yecl.net/"
+    - name: "大袋鼠 这家伙很懒，什么也没有留下"
+      url: "http://muguang.me/"
+    - name: "悠然RE 萌萌噠傲嬌妹紙"
+      url: "https://blog.mitsuha.space/"
+    - name: "晚风映浮云 死宅|渣渣前端|好奇心和猫一样|有强迫症|钟爱火狐|chrome黑|情伤几乎为0|⑨控|萝莉控|已脱团"
+      url: "https://mxd.moe/"
+    - name: "羡辙 羡辙，字子免，号灵石笠翁"
+      url: "http://zhangwenli.com/"
+    - name: "狗子 咦？我是谁？我为什么会在这？"
+      url: "https://moedog.org/"
+    - name: "保罗 保罗的小宇宙"
+      url: "https://paugram.com/"
+    - name: "Giuem BiuBiuBiu~"
+      url: "https://www.giuem.com/"
+    - name: "Mashiro 樱花庄的白猫"
+      url: "https://2heng.xin"
+    - name: "Kay 我的腿让我停下，可是心却不允许我那么做。"
+      url: "https://wwww.lvmoo.com/"
+    - name: "Troy Troy的星球"
+      url: "https://itroy.cc/"
+    - name: "Sora 曾经沉迷LL无法自拔，目前依旧是一个LL真爱粉，最喜欢的是小鸟酱！"
+      url: "https://kotori.net/"
+    - name: "零件 Tech Otakus Save The World"
+      url: "https://nekosc.com/"
+    - name: "亿林 爱迪生说过：“要把BOSS打倒就要准备足够的等级。”"
+      url: "https://minemine.cc/"
+    - name: "Little_Qiu “愿每个人都能被这个世界温柔以待” 可惜这只是个无法实现的愿望。"
+      url: "https://www.littleqiu.net/"
+    - name: "戴兜 在迷失中寻找自我"
+      url: "https://daidr.me/"
+    - name: "Jake 再牛逼的梦想也抵不住傻逼似得坚持"
+      url: "https://i.jakeyu.top/"
+    - name: "kookxiang 不会 C# 桌面开发的 Golang 程序员不是好的绒布球（x）PHP 前端开发"
+      url: "https://ikk.me/"
+    - name: "Ephen 灰姑娘"
+      url: "https://ephen.me/"
+    - name: "扩散性百万甜面包 Written by Himself65, who contributing to open source, and working from school."
+      url: "https://www.himself65.com/"
+    - name: "haozi 耗子の窝"
+      url: "https://haozi.moe/"
+    - name: "翠翠酱 Stay curious, stay naive."
+      url: "https://idealclover.top/"
+    - name: "bokutake 懒散随和的脂肪烃"
+      url: "https://html.moe"
+    - name: "SinofineLotus みんな社会不適合。"
+      url: "http://sinofine.me/"
+    - name: "云游君 希望能成为一个有趣的人。"
+      url: "https://www.yunyoujun.cn/"
+    - name: "小太 一个热爱ACG的技术宅"
+      url: "https://baka.fun/"
+    - name: "Aaron 树洞"
+      url: "https://aoaoao.me/"
+    - name: "Balthild 轻歌"
+      url: "https://qaq.cat/"
+    - name: "Jimmy66 一个不断成长，学习着的BMEer"
+      url: "http://jimmy66.com/"
+    - name: "journey.ad 浊以静之徐清"
+      url: "https://imjad.cn/"
+    - name: "liwanglin12 最好的朋友"
+      url: "https://blog.lwl12.com/"
+    - name: "MonkeyFigaro 脸盲｜路痴｜智障｜拖延症｜LGBT｜非单身"
+      url: "http://monkeyfigaro.cn/"
+    - name: "TyzuaL 一只潜伏在企鹅群中的小喵"
+      url: "https://tyzual.com/"
+    - name: "u3u 陪伴是最长情的告白"
+      url: "https://quq.cat/"
+    - name: "一曲长歌辞烟雨 相逢千里负烟霞。空山人去远，回首落梅花"
+      url: "https://ls12.me/"
+    - name: "千千 烟花、绽放之后只剩黑暗"
+      url: "https://www.dreamwings.cn/"
+    - name: "小霖 岁月静好,现世安稳"
+      url: "https://xiaolin.in/"
+    - name: "笈川可可 a.k.a 神楽坂碧玺，某可爱的蓝孩纸程序猿"
+      url: "https://blog.0xbbc.com/"
+    - name: "音風 一介布衣的自我修养"
+      url: "https://www.otokaze.cn/"
+    - name: "Sonic853 虚拟人物 天王星号侦察船"
+      url: "http://blog.853lab.com"
+    - name: "兔子鲜笙 要在不同的地方彼此照亮"
+      url: "https://blog.tuzi.moe/"
+    - name: "JiuMeng 虚拟形象的萝莉"
+      url: "https://www.ohyhello.com/"
+    - name: "Kirito 手中有剑，方能保护心里珍惜之人"
+      url: "https://www.ixh.me/"
+    - name: "Jrotty QQ爹の博客"
+      url: "https://qqdie.com/"
+    - name: "折影轻梦 Entorevolution"
+      url: "https://i.chainwon.com/"
+    - name: "月宅酱 嗨，这里是月宅酱。简称为月宅，月宅的虚拟人物为伪物语中的小忍。"
+      url: "http://月宅酱.com/"
+    - name: "FH云彩 00后，初二狗，技术控，风云社社长，某漏气博客博主，可爱的蓝孩子"
+      url: "https://www.yuncaioo.com/"
+    - name: "某初雪的无名Blog 咸鱼萌新雪~吃土每一天quq"
+      url: "https://yuki.yuki233.com/"

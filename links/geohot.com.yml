@@ -1,10 +1,10 @@
 site:
-  name: 'geohot.com'
-  url: 'http://geohot.com/'
-  description: '友情链接'
-  links: '/'
+  name: "geohot.com"
+  url: "http://geohot.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'my startup'
-      url: 'https://comma.ai/'
-    - name: 'my other startup'
-      url: 'https://tinygrad.org'
+    - name: "my startup"
+      url: "https://comma.ai/"
+    - name: "my other startup"
+      url: "https://tinygrad.org"

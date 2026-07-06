@@ -1,26 +1,26 @@
 site:
-  name: 'gwern.net'
-  url: 'https://www.gwern.net/'
-  description: '友情链接'
-  links: '/links'
+  name: "gwern.net"
+  url: "https://www.gwern.net/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'CFAR'
-      url: 'https://rationality.org/'
-    - name: 'Bellroy'
-      url: 'https://bellroy.com/'
-    - name: 'Dominic Frisby'
-      url: 'https://www.frisbys.news/'
-    - name: 'LessWrong.com'
-      url: 'https://www.lesswrong.com/'
-    - name: 'David Gerard'
-      url: 'https://davidgerard.co.uk/'
-    - name: '“Uses This”'
-      url: 'https://usesthis.com/'
-    - name: 'arbtt'
-      url: 'https://arbtt.nomeata.de/'
-    - name: 'ledger'
-      url: 'https://ledger-cli.org/'
-    - name: 'YourMorals.org'
-      url: 'https://yourmorals.org/'
-    - name: 'Luminosity'
-      url: 'https://luminous.elcenia.com/'
+    - name: "CFAR"
+      url: "https://rationality.org/"
+    - name: "Bellroy"
+      url: "https://bellroy.com/"
+    - name: "Dominic Frisby"
+      url: "https://www.frisbys.news/"
+    - name: "LessWrong.com"
+      url: "https://www.lesswrong.com/"
+    - name: "David Gerard"
+      url: "https://davidgerard.co.uk/"
+    - name: "“Uses This”"
+      url: "https://usesthis.com/"
+    - name: "arbtt"
+      url: "https://arbtt.nomeata.de/"
+    - name: "ledger"
+      url: "https://ledger-cli.org/"
+    - name: "YourMorals.org"
+      url: "https://yourmorals.org/"
+    - name: "Luminosity"
+      url: "https://luminous.elcenia.com/"

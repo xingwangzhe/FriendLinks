@@ -1,14 +1,14 @@
 site:
-  name: 'flyalready.com'
-  url: 'https://www.flyalready.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "flyalready.com"
+  url: "https://www.flyalready.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'new 精致的生活 心可以碎，手不能停。 现代简约的 Astro 博客，一些生活记录与技术分享，是年纪轻轻就有猫的 Tony。'
-      url: 'https://itangqiao.top'
-    - name: '一二 随缘写写 是步履不停的刘老师。他的文字蕴含着独特的自我探索，思绪如风般轻盈地穿梭在字里行间。'
-      url: 'https://onetwo16.github.io/'
-    - name: 'Thun888''s Blog 夏日当空,心如深渊 是遥遥领先的 Thun。向他请教了不少建站相关问题，感谢他。博客书写着很有用的经验分享。'
-      url: 'https://blog.hzchu.top/'
-    - name: '星日语 星语日点灯 是我的建站首席顾问语佬，感谢他。他的博客超级好看，书写着他的经验与生活。'
-      url: 'https://weekdaycare.cn'
+    - name: "new 精致的生活 心可以碎，手不能停。 现代简约的 Astro 博客，一些生活记录与技术分享，是年纪轻轻就有猫的 Tony。"
+      url: "https://itangqiao.top"
+    - name: "一二 随缘写写 是步履不停的刘老师。他的文字蕴含着独特的自我探索，思绪如风般轻盈地穿梭在字里行间。"
+      url: "https://onetwo16.github.io/"
+    - name: "Thun888's Blog 夏日当空,心如深渊 是遥遥领先的 Thun。向他请教了不少建站相关问题，感谢他。博客书写着很有用的经验分享。"
+      url: "https://blog.hzchu.top/"
+    - name: "星日语 星语日点灯 是我的建站首席顾问语佬，感谢他。他的博客超级好看，书写着他的经验与生活。"
+      url: "https://weekdaycare.cn"

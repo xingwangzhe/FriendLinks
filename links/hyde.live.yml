@@ -1,12 +1,12 @@
 site:
-  name: 'hyde.live'
-  url: 'https://hyde.live/'
-  description: '友情链接'
-  links: '/friends'
+  name: "hyde.live"
+  url: "https://hyde.live/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '半日闲 10:32'
-      url: 'https://www.xiaoa.me/'
-    - name: 'Moment Collector 20:00'
-      url: 'http://blog.mletter.cn'
-    - name: '海拉鲁打怪日记 15:04'
-      url: 'https://www.xuezhao.space/'
+    - name: "半日闲 10:32"
+      url: "https://www.xiaoa.me/"
+    - name: "Moment Collector 20:00"
+      url: "http://blog.mletter.cn"
+    - name: "海拉鲁打怪日记 15:04"
+      url: "https://www.xuezhao.space/"

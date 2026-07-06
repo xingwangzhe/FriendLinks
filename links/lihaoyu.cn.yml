@@ -1,106 +1,106 @@
 site:
-  name: '晓雨杂记'
-  url: 'https://lihaoyu.cn/'
-  description: '友情链接'
-  links: '/links'
+  name: "晓雨杂记"
+  url: "https://lihaoyu.cn/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Chenli 分享牛肉'
-      url: 'https://chenliss.cn/'
-    - name: 'Hill233的小窝 只是一个普普通通的 blog 罢了'
-      url: 'https://suki.ink/'
-    - name: '字节君的思想宇宙 一个卑微的初三学生'
-      url: 'https://blog.lvbyte.top/'
-    - name: '流年如鸽 Live a life you will remember.'
-      url: 'https://itspigeon.xin/'
-    - name: '杰帕斯の小窝 寻找着,失去了,又去寻找,再去寻找'
-      url: 'https://japerz.com/'
-    - name: '寒夏摸鱼站 稀奇古怪技术集散地'
-      url: 'https://blog.rainiar.top/'
-    - name: 'MBRjun-Blog 我们生活在大地上，但我们的梦想超越天空'
-      url: 'https://www.libmbr.com/'
-    - name: '随笔空雨 记下空雨之事.'
-      url: 'https://rainsky.xyz/'
-    - name: 'Murasame''s Blog 我已经下了决心，要与深爱的少女一起在这片土地生活下去。我对此无比自豪。'
-      url: 'https://blog.shirayukinoa.top/'
-    - name: '凌莞喵~ 喵喵喵'
-      url: 'https://nyac.at/'
-    - name: 'krau''s blog 年轻，就要折腾'
-      url: 'https://krau.top/'
-    - name: 'Restent''s Notebook 静寂に問う 答えを求めて'
-      url: 'https://blog.gxres.net/'
-    - name: 'Ian Xia''s Blog Codice est quasi poem a.'
-      url: 'https://blog.ianxia.com/'
-    - name: '天天的糖果屋 Walk softly through the world.'
-      url: 'https://blog.rqwq.link/'
-    - name: 'Chongxiの咖啡屋 Lose yourself to find yourself'
-      url: 'https://xice.cx/'
-    - name: 'Trotyl’s Blog 压力马斯呐'
-      url: 'https://blog.trotyl.xyz/'
-    - name: 'SerinaNya 哇这个好可爱呀'
-      url: 'https://serinanya.cn/'
-    - name: 'GoodBoyboy''s Blog 惬意小屋 - 点滴记忆'
-      url: 'https://blog.goodboyboy.top/'
-    - name: 'z0z0r4''s Blog A Long Long Way'
-      url: 'https://blog.z0z0r4.top/'
-    - name: 'Qubik的小站 RECOMMENDED BY DR.CREATIVE'
-      url: 'https://qubik65536.top/'
-    - name: 'W4J1e''s blog 总是偏爱不务正业'
-      url: 'https://hin.cool/'
-    - name: 'Mashirl''s Blog 无名旅人的自留地'
-      url: 'https://mashirl.com/'
-    - name: '小岚的杂物间 这里储存着各种稀奇古怪事物~'
-      url: 'https://www.guirlan.de/'
-    - name: 'Z_Tsin''s Home Z_Tsin 的个人主页'
-      url: 'https://ztsin.cn/'
-    - name: '云之彼端 生而热忱，终也欢洽。'
-      url: 'https://biltune.top/'
-    - name: 'Williamsun 的博客 练习 Python 两年半的个人练习生'
-      url: 'https://www.lowion.cn/'
-    - name: 'Davidの3号基地 苦逼医学生'
-      url: 'https://www.david03.top/'
-    - name: 'LineXic书屋 难离难舍，想抱紧些'
-      url: 'https://www.linexic.top/'
-    - name: 'I''m Luochancy 一个可爱的男孩纸~'
-      url: 'https://www.luochancy.com/'
-    - name: '杜老师说 师者，传道，授业，解惑！'
-      url: 'https://dusays.com/'
-    - name: 'ZLA 小站 不要哭，不要笑，不要恨，要理解。'
-      url: 'https://www.zla.pub/'
-    - name: '盐木的小破窝 卷土重来未可知。——杜牧《题乌江亭》'
-      url: 'https://ski.ink/'
-    - name: '绘星里 一起来绘制属于自己的星星！'
-      url: 'https://blog.storia.ren/'
-    - name: 'Fgaoxing 一个少年的博客'
-      url: 'https://www.yt-blog.top/'
-    - name: 'OhYee 博客 个人向笔记性质技术分享，共产主义开源编程🤪'
-      url: 'https://www.ohyee.cc/'
-    - name: 'Pig Fang 一只猪，但不是头像里的那只'
-      url: 'https://blog.gplane.win/'
-    - name: 'Ykueeの窝'
-      url: 'https://www.ykuee.link/'
-    - name: 'Phrinky''s Blog Ricky 的各种日常捏'
-      url: 'https://blog.rkk.moe/'
-    - name: 'Kengwang 博客 Stay Cool~'
-      url: 'https://blog.kengwang.com.cn/'
-    - name: 'Ciics'' Blog 光があなたと共にあらんことを。'
-      url: 'https://www.c2ics.com/'
-    - name: 'Bingxin Home 好久不见。'
-      url: 'https://byteloid.one/'
-    - name: '狼林鱼池 风带来了故事的种子，时间使之发芽。'
-      url: 'https://blog.jiyu134.top/'
-    - name: '云游君的小站 希望能成为一个有趣的人。'
-      url: 'https://www.yunyoujun.cn/'
-    - name: '233355607的小站 草'
-      url: 'https://www.233355607.xyz'
-    - name: 'libxcnya.so の Blog 静かで奥深い'
-      url: 'https://blog.xcnya.cn'
-    - name: 'XieXiLin 的小站 一个学生的小站。'
-      url: 'https://www.xiexilin.com'
-    - name: 'Cubik 的小站 RECOMMENDED BY DR.CREATIVE'
-      url: 'https://cubik65536.top'
-    - name: '思遥方的小家 翻译 · 创作 · 日常'
-      url: 'https://blog.1kyr.top'
-    - name: '烟墨的屑站点 林花谢了春红，太匆匆。无奈朝来寒雨，晚来风。'
-      url: 'https://ymbit.cn/'
-    - name: 'SliverRiver'
-      url: 'https://www.gxres.net'
+    - name: "Chenli 分享牛肉"
+      url: "https://chenliss.cn/"
+    - name: "Hill233的小窝 只是一个普普通通的 blog 罢了"
+      url: "https://suki.ink/"
+    - name: "字节君的思想宇宙 一个卑微的初三学生"
+      url: "https://blog.lvbyte.top/"
+    - name: "流年如鸽 Live a life you will remember."
+      url: "https://itspigeon.xin/"
+    - name: "杰帕斯の小窝 寻找着,失去了,又去寻找,再去寻找"
+      url: "https://japerz.com/"
+    - name: "寒夏摸鱼站 稀奇古怪技术集散地"
+      url: "https://blog.rainiar.top/"
+    - name: "MBRjun-Blog 我们生活在大地上，但我们的梦想超越天空"
+      url: "https://www.libmbr.com/"
+    - name: "随笔空雨 记下空雨之事."
+      url: "https://rainsky.xyz/"
+    - name: "Murasame's Blog 我已经下了决心，要与深爱的少女一起在这片土地生活下去。我对此无比自豪。"
+      url: "https://blog.shirayukinoa.top/"
+    - name: "凌莞喵~ 喵喵喵"
+      url: "https://nyac.at/"
+    - name: "krau's blog 年轻，就要折腾"
+      url: "https://krau.top/"
+    - name: "Restent's Notebook 静寂に問う 答えを求めて"
+      url: "https://blog.gxres.net/"
+    - name: "Ian Xia's Blog Codice est quasi poem a."
+      url: "https://blog.ianxia.com/"
+    - name: "天天的糖果屋 Walk softly through the world."
+      url: "https://blog.rqwq.link/"
+    - name: "Chongxiの咖啡屋 Lose yourself to find yourself"
+      url: "https://xice.cx/"
+    - name: "Trotyl’s Blog 压力马斯呐"
+      url: "https://blog.trotyl.xyz/"
+    - name: "SerinaNya 哇这个好可爱呀"
+      url: "https://serinanya.cn/"
+    - name: "GoodBoyboy's Blog 惬意小屋 - 点滴记忆"
+      url: "https://blog.goodboyboy.top/"
+    - name: "z0z0r4's Blog A Long Long Way"
+      url: "https://blog.z0z0r4.top/"
+    - name: "Qubik的小站 RECOMMENDED BY DR.CREATIVE"
+      url: "https://qubik65536.top/"
+    - name: "W4J1e's blog 总是偏爱不务正业"
+      url: "https://hin.cool/"
+    - name: "Mashirl's Blog 无名旅人的自留地"
+      url: "https://mashirl.com/"
+    - name: "小岚的杂物间 这里储存着各种稀奇古怪事物~"
+      url: "https://www.guirlan.de/"
+    - name: "Z_Tsin's Home Z_Tsin 的个人主页"
+      url: "https://ztsin.cn/"
+    - name: "云之彼端 生而热忱，终也欢洽。"
+      url: "https://biltune.top/"
+    - name: "Williamsun 的博客 练习 Python 两年半的个人练习生"
+      url: "https://www.lowion.cn/"
+    - name: "Davidの3号基地 苦逼医学生"
+      url: "https://www.david03.top/"
+    - name: "LineXic书屋 难离难舍，想抱紧些"
+      url: "https://www.linexic.top/"
+    - name: "I'm Luochancy 一个可爱的男孩纸~"
+      url: "https://www.luochancy.com/"
+    - name: "杜老师说 师者，传道，授业，解惑！"
+      url: "https://dusays.com/"
+    - name: "ZLA 小站 不要哭，不要笑，不要恨，要理解。"
+      url: "https://www.zla.pub/"
+    - name: "盐木的小破窝 卷土重来未可知。——杜牧《题乌江亭》"
+      url: "https://ski.ink/"
+    - name: "绘星里 一起来绘制属于自己的星星！"
+      url: "https://blog.storia.ren/"
+    - name: "Fgaoxing 一个少年的博客"
+      url: "https://www.yt-blog.top/"
+    - name: "OhYee 博客 个人向笔记性质技术分享，共产主义开源编程🤪"
+      url: "https://www.ohyee.cc/"
+    - name: "Pig Fang 一只猪，但不是头像里的那只"
+      url: "https://blog.gplane.win/"
+    - name: "Ykueeの窝"
+      url: "https://www.ykuee.link/"
+    - name: "Phrinky's Blog Ricky 的各种日常捏"
+      url: "https://blog.rkk.moe/"
+    - name: "Kengwang 博客 Stay Cool~"
+      url: "https://blog.kengwang.com.cn/"
+    - name: "Ciics' Blog 光があなたと共にあらんことを。"
+      url: "https://www.c2ics.com/"
+    - name: "Bingxin Home 好久不见。"
+      url: "https://byteloid.one/"
+    - name: "狼林鱼池 风带来了故事的种子，时间使之发芽。"
+      url: "https://blog.jiyu134.top/"
+    - name: "云游君的小站 希望能成为一个有趣的人。"
+      url: "https://www.yunyoujun.cn/"
+    - name: "233355607的小站 草"
+      url: "https://www.233355607.xyz"
+    - name: "libxcnya.so の Blog 静かで奥深い"
+      url: "https://blog.xcnya.cn"
+    - name: "XieXiLin 的小站 一个学生的小站。"
+      url: "https://www.xiexilin.com"
+    - name: "Cubik 的小站 RECOMMENDED BY DR.CREATIVE"
+      url: "https://cubik65536.top"
+    - name: "思遥方的小家 翻译 · 创作 · 日常"
+      url: "https://blog.1kyr.top"
+    - name: "烟墨的屑站点 林花谢了春红，太匆匆。无奈朝来寒雨，晚来风。"
+      url: "https://ymbit.cn/"
+    - name: "SliverRiver"
+      url: "https://www.gxres.net"

@@ -1,18 +1,18 @@
 site:
-  name: 'baka.host'
-  url: 'https://baka.host/'
-  description: '友情链接'
-  links: '/friends'
+  name: "baka.host"
+  url: "https://baka.host/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Yomuko'
-      url: 'https://zako.uk'
-    - name: 'Sakurakooi'
-      url: 'https://blog.sakurakooi.dev/'
-    - name: 'Nekomirra'
-      url: 'https://mirradev.eu.org'
-    - name: 'TheSwim'
-      url: 'https://blog.swimgit.top/'
-    - name: 'Aurielの博客'
-      url: 'https://blog.auriel.top'
-    - name: '柯罗的博客'
-      url: 'https://krau.top'
+    - name: "Yomuko"
+      url: "https://zako.uk"
+    - name: "Sakurakooi"
+      url: "https://blog.sakurakooi.dev/"
+    - name: "Nekomirra"
+      url: "https://mirradev.eu.org"
+    - name: "TheSwim"
+      url: "https://blog.swimgit.top/"
+    - name: "Aurielの博客"
+      url: "https://blog.auriel.top"
+    - name: "柯罗的博客"
+      url: "https://krau.top"

@@ -1,232 +1,232 @@
 site:
-  name: 'moerats.com'
-  url: 'https://www.moerats.com/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "moerats.com"
+  url: "https://www.moerats.com/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: '神代綺凜'
-      url: 'https://moe.best'
-    - name: 'EFV视频转码'
-      url: 'https://www.efvcms.com/'
-    - name: '赵容部落'
-      url: 'http://www.zrblog.net/'
-    - name: '南琴浪'
-      url: 'https://sometimesnaive.org'
-    - name: '顶点网'
-      url: 'https://www.topide.com/'
-    - name: '小z博客'
-      url: 'https://www.xiaoz.me'
-    - name: '田珊珊博客'
-      url: 'http://www.tianshan277.com'
-    - name: '友人C'
-      url: 'https://www.ihewro.com'
-    - name: '千影博客'
-      url: 'https://www.94ish.me/'
-    - name: '刺客博客'
-      url: 'https://cikeblog.com/'
-    - name: '小石头博客'
-      url: 'http://www.stephen520.cn/'
-    - name: '厘米天空'
-      url: 'https://www.cmsky.com/'
-    - name: '空白网络'
-      url: 'https://www.aihoom.com/'
-    - name: '碧羽墨轩'
-      url: 'http://www.biymx.com'
-    - name: 'echo少年'
-      url: 'https://www.echoteen.com/'
-    - name: '同乐儿'
-      url: 'http://www.tongleer.com/'
-    - name: 'SimpleZero博客'
-      url: 'https://mikuac.com/'
-    - name: 'YekongTAT'
-      url: 'https://www.ykhut.com/'
-    - name: '华梦博客'
-      url: 'https://52huameng.com/'
-    - name: '挖站否'
-      url: 'https://wzfou.com'
-    - name: '至道小博'
-      url: 'https://www.zdaoxb.com'
-    - name: 'dsad'
-      url: 'http://www.yuweitek.com/'
-    - name: 'CairBin'
-      url: 'https://cairbin.top'
-    - name: '木叔脚本'
-      url: 'http://aikeyy.top/'
-    - name: 'abcdocker运维博客'
-      url: 'https://i4t.com'
-    - name: '闻语博客'
-      url: 'https://www.zpblogs.cn'
-    - name: 'fuju'
-      url: 'https://fuju.life'
-    - name: '小代理の记事簿 一个神秘的人'
-      url: 'https://lolioi.moe/'
-    - name: '浅鱼 一个神秘的人'
-      url: 'https://www.runtofuture.cn/'
-    - name: '雨声残响 一个神秘的人'
-      url: 'http://blog.abyss.moe'
-    - name: '同良小栈 一个神秘的人'
-      url: 'https://togln.com'
-    - name: '小凡梦 一个对高端技术和新鲜事物感兴趣初中生'
-      url: 'http://www.xiaofm.cn/'
-    - name: '盛夏 一个神秘的人'
-      url: 'https://sumrday.net'
-    - name: 'Kong''s Blog 一个神秘的人'
-      url: 'https://www.yooomu.com'
-    - name: '翠翠酱的技术博客 一个神秘的人'
-      url: 'https://www.idealclover.top'
-    - name: 'XSY 一个神秘的人'
-      url: 'https://www.xsy.fun'
-    - name: 'Mark''s Blog 一个神秘的人'
-      url: 'https://www.quchao.net/'
-    - name: '時雨の記 一个神秘的人'
-      url: 'https://drizzle.vip/'
-    - name: 'DongganBoy 一个神秘的人'
-      url: 'https://www.dongganboy.com/'
-    - name: 'Dreamer 一个神秘的人'
-      url: 'https://dreamer2q.wang/'
-    - name: 'Lesun 一个神秘的人'
-      url: 'http://xlesun.com'
-    - name: 'Crazysnail博客 一个神秘的人'
-      url: 'https://crazysnail.tk/'
-    - name: 'Kali博客 一个神秘的人'
-      url: 'https://blog.bbskali.cn/'
-    - name: '嘉美伯爵 一个神秘的人'
-      url: 'https://blog.gaozhe.top'
-    - name: '编码书生 一个神秘的人'
-      url: 'https://codess.cc'
-    - name: '低调哥博客 一个神秘的人'
-      url: 'http://www.ddg.ink'
-    - name: 'chromefor 一个神秘的人'
-      url: 'https://www.chromefor.com'
-    - name: 'L&H Site 一个神秘的人'
-      url: 'http://l2h.site'
-    - name: '何智政个人博客 一个神秘的人'
-      url: 'https://hzz.cool/'
-    - name: '千面妖Blog 一个神秘的人'
-      url: 'https://qianmianyao.cn'
-    - name: '飞羽 一个神秘的人'
-      url: 'https://blog.8086k.cn'
-    - name: '福否阿卡 一个神秘的人'
-      url: 'https://blog.suyc.cn'
-    - name: 'Quanyin 说 一个神秘的人'
-      url: 'https://www.quanyin.xyz'
-    - name: 'Tony''s Blog 一个神秘的人'
-      url: 'https://iamsjy.xyz/'
-    - name: '折腾派 一个神秘的人'
-      url: 'https://www.z-turns.com/'
-    - name: 'Newlearnerの小站 一个神秘的人'
-      url: 'https://www.newlearner.site'
-    - name: 'Eric''s Blog 一个神秘的人'
-      url: 'https://eblog.ink'
-    - name: '小柒吃地瓜 一个神秘的人'
-      url: 'https://www.i7dom.cn'
-    - name: '左岸博客 一个神秘的人'
-      url: 'https://zrahh.com'
-    - name: '自媒体之家 一个神秘的人'
-      url: 'http://zimeitihome.com/'
-    - name: '花式作死技术宅 一个神秘的人'
-      url: 'https://www.evec.cc'
-    - name: '格子老师 一个神秘的人'
-      url: 'https://manman.qian.lu'
-    - name: 'SunPa Blog 一个神秘的人'
-      url: 'https://www.sunpma.com'
-    - name: '独清独醒 一个神秘的人'
-      url: 'https://www.foreverlong.cn'
-    - name: '圣洁的白莲 一个神秘的人'
-      url: 'https://www.ysjhlnu.top/'
-    - name: '奇度博客 一个神秘的人'
-      url: 'https://www.rlya.net'
-    - name: '新酱 一个神秘的人'
-      url: 'https://www.xiaorenjc.net/'
-    - name: 'Jockie''s Blog 一个神秘的人'
-      url: 'https://cohesions.cn'
-    - name: 'cnfox 一个神秘的人'
-      url: 'https://www.icnfox.cn/'
-    - name: 'Moe.Blog 一个神秘的人'
-      url: 'https://moe.blog/'
-    - name: 'Aiden''s World 一个神秘的人'
-      url: 'https://aiden.cool'
-    - name: 'Mr. Ma''s Blog 一个神秘的人'
-      url: 'https://www.misterma.com'
-    - name: '牛牛''s Blog 一个神秘的人'
-      url: 'https://www.salivawar.com'
-    - name: 'Frytea’s Blog 一个神秘的人'
-      url: 'https://blog.frytea.com'
-    - name: 'LYM的小站 一个神秘的人'
-      url: 'https://loli.by'
-    - name: '贝塔云抢房 一个神秘的人'
-      url: 'https://www.mlbeta.com/'
-    - name: 'zeruns''blog 一个神秘的人'
-      url: 'https://blog.zeruns.tech/'
-    - name: '机器人公园 一个神秘的人'
-      url: 'https://robotpark.cc/'
-    - name: '凭栏听雨 一个神秘的人'
-      url: 'https://www.plty.cn'
-    - name: 'bsat的小破站 一个神秘的人'
-      url: 'https://bsat1314.cn'
-    - name: '初杺分享 一个神秘的人'
-      url: 'https://share.cxyqx.cn/'
-    - name: '挚友阳光 一个神秘的人'
-      url: 'https://www.linstudy.com'
-    - name: '狗儿 一个神秘的人'
-      url: 'http://iyzyi.com'
-    - name: '简讯 一个神秘的人'
-      url: 'https://lijianxun.top/'
-    - name: 'keyboardman 一个神秘的人'
-      url: 'https://blog.keyboardman.fun'
-    - name: '7°期盼 一个神秘的人'
-      url: 'https://7ipan.com'
-    - name: '冰洛博客 一个神秘的人'
-      url: 'https://www.icelo.cn/'
-    - name: 'lxxs 一个神秘的人'
-      url: 'https://lxxs.xyz'
-    - name: '米奇妙妙屋 一个神秘的人'
-      url: 'https://ifibe.com'
-    - name: 'Pro-Host 一个神秘的人'
-      url: 'https://xeonphi.xyz'
-    - name: '发现精品 一个神秘的人'
-      url: 'https://www.kindkp.com'
-    - name: 'Wr''s Blog 一个神秘的人'
-      url: 'https://wrsblog.cn'
-    - name: '思悟博客 一个神秘的人'
-      url: 'https://chaolucky.com'
-    - name: 'Leao''s Blog 一个神秘的人'
-      url: 'https://leao.blog'
-    - name: 'photomind 一个神秘的人'
-      url: 'https://photosmind.com/'
-    - name: '死亡赋格 一个神秘的人'
-      url: 'https://deathfugue.com/'
-    - name: 'iloim''s Blog 一个神秘的人'
-      url: 'https://iloim.com'
-    - name: '柒玖小屋 一个神秘的人'
-      url: 'https://blog.79ll.cn'
-    - name: 'XIAOMING''S BLOG 一个神秘的人'
-      url: 'https://le360.cc/'
-    - name: 'Javidの部屋 一个神秘的人'
-      url: 'https://javid.cn'
-    - name: '无岸海 一个神秘的人'
-      url: 'https://noshore.cn'
-    - name: 'ZGGSONG 一个神秘的人'
-      url: 'https://www.zggsong.cn'
-    - name: 'Yoshino的小窝 一个神秘的人'
-      url: 'https://yoshino.love'
-    - name: '顾及’s blog 一个神秘的人'
-      url: 'http://idc03.work'
-    - name: 'Xiaobin''s Blog 一个神秘的人'
-      url: 'https://lxb.wiki/'
-    - name: '洋葱魅特 别问我哈，问就是不会~'
-      url: 'https://blog.evobly.com'
-    - name: '小柏林博客 一个神秘的人'
-      url: 'https://zddop.top'
-    - name: '林海 一个神秘的人'
-      url: 'https://blog.witherlove.com/'
-    - name: 'zrzring''s blog 一个神秘的人'
-      url: 'http://zrzring.cn'
-    - name: 'TAOG的小站 一个神秘的人'
-      url: 'https://iktao.cn'
-    - name: '二十五画生 失的人迷失了，相逢的人会再相逢。'
-      url: 'https://blog.laoda.de'
-    - name: '萌虎 一个神秘的人'
-      url: 'https://moehu.org'
-    - name: '老周 一个神秘的人'
-      url: 'https://zxx.im/'
+    - name: "神代綺凜"
+      url: "https://moe.best"
+    - name: "EFV视频转码"
+      url: "https://www.efvcms.com/"
+    - name: "赵容部落"
+      url: "http://www.zrblog.net/"
+    - name: "南琴浪"
+      url: "https://sometimesnaive.org"
+    - name: "顶点网"
+      url: "https://www.topide.com/"
+    - name: "小z博客"
+      url: "https://www.xiaoz.me"
+    - name: "田珊珊博客"
+      url: "http://www.tianshan277.com"
+    - name: "友人C"
+      url: "https://www.ihewro.com"
+    - name: "千影博客"
+      url: "https://www.94ish.me/"
+    - name: "刺客博客"
+      url: "https://cikeblog.com/"
+    - name: "小石头博客"
+      url: "http://www.stephen520.cn/"
+    - name: "厘米天空"
+      url: "https://www.cmsky.com/"
+    - name: "空白网络"
+      url: "https://www.aihoom.com/"
+    - name: "碧羽墨轩"
+      url: "http://www.biymx.com"
+    - name: "echo少年"
+      url: "https://www.echoteen.com/"
+    - name: "同乐儿"
+      url: "http://www.tongleer.com/"
+    - name: "SimpleZero博客"
+      url: "https://mikuac.com/"
+    - name: "YekongTAT"
+      url: "https://www.ykhut.com/"
+    - name: "华梦博客"
+      url: "https://52huameng.com/"
+    - name: "挖站否"
+      url: "https://wzfou.com"
+    - name: "至道小博"
+      url: "https://www.zdaoxb.com"
+    - name: "dsad"
+      url: "http://www.yuweitek.com/"
+    - name: "CairBin"
+      url: "https://cairbin.top"
+    - name: "木叔脚本"
+      url: "http://aikeyy.top/"
+    - name: "abcdocker运维博客"
+      url: "https://i4t.com"
+    - name: "闻语博客"
+      url: "https://www.zpblogs.cn"
+    - name: "fuju"
+      url: "https://fuju.life"
+    - name: "小代理の记事簿 一个神秘的人"
+      url: "https://lolioi.moe/"
+    - name: "浅鱼 一个神秘的人"
+      url: "https://www.runtofuture.cn/"
+    - name: "雨声残响 一个神秘的人"
+      url: "http://blog.abyss.moe"
+    - name: "同良小栈 一个神秘的人"
+      url: "https://togln.com"
+    - name: "小凡梦 一个对高端技术和新鲜事物感兴趣初中生"
+      url: "http://www.xiaofm.cn/"
+    - name: "盛夏 一个神秘的人"
+      url: "https://sumrday.net"
+    - name: "Kong's Blog 一个神秘的人"
+      url: "https://www.yooomu.com"
+    - name: "翠翠酱的技术博客 一个神秘的人"
+      url: "https://www.idealclover.top"
+    - name: "XSY 一个神秘的人"
+      url: "https://www.xsy.fun"
+    - name: "Mark's Blog 一个神秘的人"
+      url: "https://www.quchao.net/"
+    - name: "時雨の記 一个神秘的人"
+      url: "https://drizzle.vip/"
+    - name: "DongganBoy 一个神秘的人"
+      url: "https://www.dongganboy.com/"
+    - name: "Dreamer 一个神秘的人"
+      url: "https://dreamer2q.wang/"
+    - name: "Lesun 一个神秘的人"
+      url: "http://xlesun.com"
+    - name: "Crazysnail博客 一个神秘的人"
+      url: "https://crazysnail.tk/"
+    - name: "Kali博客 一个神秘的人"
+      url: "https://blog.bbskali.cn/"
+    - name: "嘉美伯爵 一个神秘的人"
+      url: "https://blog.gaozhe.top"
+    - name: "编码书生 一个神秘的人"
+      url: "https://codess.cc"
+    - name: "低调哥博客 一个神秘的人"
+      url: "http://www.ddg.ink"
+    - name: "chromefor 一个神秘的人"
+      url: "https://www.chromefor.com"
+    - name: "L&H Site 一个神秘的人"
+      url: "http://l2h.site"
+    - name: "何智政个人博客 一个神秘的人"
+      url: "https://hzz.cool/"
+    - name: "千面妖Blog 一个神秘的人"
+      url: "https://qianmianyao.cn"
+    - name: "飞羽 一个神秘的人"
+      url: "https://blog.8086k.cn"
+    - name: "福否阿卡 一个神秘的人"
+      url: "https://blog.suyc.cn"
+    - name: "Quanyin 说 一个神秘的人"
+      url: "https://www.quanyin.xyz"
+    - name: "Tony's Blog 一个神秘的人"
+      url: "https://iamsjy.xyz/"
+    - name: "折腾派 一个神秘的人"
+      url: "https://www.z-turns.com/"
+    - name: "Newlearnerの小站 一个神秘的人"
+      url: "https://www.newlearner.site"
+    - name: "Eric's Blog 一个神秘的人"
+      url: "https://eblog.ink"
+    - name: "小柒吃地瓜 一个神秘的人"
+      url: "https://www.i7dom.cn"
+    - name: "左岸博客 一个神秘的人"
+      url: "https://zrahh.com"
+    - name: "自媒体之家 一个神秘的人"
+      url: "http://zimeitihome.com/"
+    - name: "花式作死技术宅 一个神秘的人"
+      url: "https://www.evec.cc"
+    - name: "格子老师 一个神秘的人"
+      url: "https://manman.qian.lu"
+    - name: "SunPa Blog 一个神秘的人"
+      url: "https://www.sunpma.com"
+    - name: "独清独醒 一个神秘的人"
+      url: "https://www.foreverlong.cn"
+    - name: "圣洁的白莲 一个神秘的人"
+      url: "https://www.ysjhlnu.top/"
+    - name: "奇度博客 一个神秘的人"
+      url: "https://www.rlya.net"
+    - name: "新酱 一个神秘的人"
+      url: "https://www.xiaorenjc.net/"
+    - name: "Jockie's Blog 一个神秘的人"
+      url: "https://cohesions.cn"
+    - name: "cnfox 一个神秘的人"
+      url: "https://www.icnfox.cn/"
+    - name: "Moe.Blog 一个神秘的人"
+      url: "https://moe.blog/"
+    - name: "Aiden's World 一个神秘的人"
+      url: "https://aiden.cool"
+    - name: "Mr. Ma's Blog 一个神秘的人"
+      url: "https://www.misterma.com"
+    - name: "牛牛's Blog 一个神秘的人"
+      url: "https://www.salivawar.com"
+    - name: "Frytea’s Blog 一个神秘的人"
+      url: "https://blog.frytea.com"
+    - name: "LYM的小站 一个神秘的人"
+      url: "https://loli.by"
+    - name: "贝塔云抢房 一个神秘的人"
+      url: "https://www.mlbeta.com/"
+    - name: "zeruns'blog 一个神秘的人"
+      url: "https://blog.zeruns.tech/"
+    - name: "机器人公园 一个神秘的人"
+      url: "https://robotpark.cc/"
+    - name: "凭栏听雨 一个神秘的人"
+      url: "https://www.plty.cn"
+    - name: "bsat的小破站 一个神秘的人"
+      url: "https://bsat1314.cn"
+    - name: "初杺分享 一个神秘的人"
+      url: "https://share.cxyqx.cn/"
+    - name: "挚友阳光 一个神秘的人"
+      url: "https://www.linstudy.com"
+    - name: "狗儿 一个神秘的人"
+      url: "http://iyzyi.com"
+    - name: "简讯 一个神秘的人"
+      url: "https://lijianxun.top/"
+    - name: "keyboardman 一个神秘的人"
+      url: "https://blog.keyboardman.fun"
+    - name: "7°期盼 一个神秘的人"
+      url: "https://7ipan.com"
+    - name: "冰洛博客 一个神秘的人"
+      url: "https://www.icelo.cn/"
+    - name: "lxxs 一个神秘的人"
+      url: "https://lxxs.xyz"
+    - name: "米奇妙妙屋 一个神秘的人"
+      url: "https://ifibe.com"
+    - name: "Pro-Host 一个神秘的人"
+      url: "https://xeonphi.xyz"
+    - name: "发现精品 一个神秘的人"
+      url: "https://www.kindkp.com"
+    - name: "Wr's Blog 一个神秘的人"
+      url: "https://wrsblog.cn"
+    - name: "思悟博客 一个神秘的人"
+      url: "https://chaolucky.com"
+    - name: "Leao's Blog 一个神秘的人"
+      url: "https://leao.blog"
+    - name: "photomind 一个神秘的人"
+      url: "https://photosmind.com/"
+    - name: "死亡赋格 一个神秘的人"
+      url: "https://deathfugue.com/"
+    - name: "iloim's Blog 一个神秘的人"
+      url: "https://iloim.com"
+    - name: "柒玖小屋 一个神秘的人"
+      url: "https://blog.79ll.cn"
+    - name: "XIAOMING'S BLOG 一个神秘的人"
+      url: "https://le360.cc/"
+    - name: "Javidの部屋 一个神秘的人"
+      url: "https://javid.cn"
+    - name: "无岸海 一个神秘的人"
+      url: "https://noshore.cn"
+    - name: "ZGGSONG 一个神秘的人"
+      url: "https://www.zggsong.cn"
+    - name: "Yoshino的小窝 一个神秘的人"
+      url: "https://yoshino.love"
+    - name: "顾及’s blog 一个神秘的人"
+      url: "http://idc03.work"
+    - name: "Xiaobin's Blog 一个神秘的人"
+      url: "https://lxb.wiki/"
+    - name: "洋葱魅特 别问我哈，问就是不会~"
+      url: "https://blog.evobly.com"
+    - name: "小柏林博客 一个神秘的人"
+      url: "https://zddop.top"
+    - name: "林海 一个神秘的人"
+      url: "https://blog.witherlove.com/"
+    - name: "zrzring's blog 一个神秘的人"
+      url: "http://zrzring.cn"
+    - name: "TAOG的小站 一个神秘的人"
+      url: "https://iktao.cn"
+    - name: "二十五画生 失的人迷失了，相逢的人会再相逢。"
+      url: "https://blog.laoda.de"
+    - name: "萌虎 一个神秘的人"
+      url: "https://moehu.org"
+    - name: "老周 一个神秘的人"
+      url: "https://zxx.im/"

@@ -1,10 +1,10 @@
 site:
-  name: 'ishelo.com'
-  url: 'https://www.ishelo.com/'
-  description: '友情链接'
-  links: '/'
+  name: "ishelo.com"
+  url: "https://www.ishelo.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Hitokoto'
-      url: 'https://hitokoto.cn/'
-    - name: 'JsonBird'
-      url: 'https://bird.ioliu.cn/'
+    - name: "Hitokoto"
+      url: "https://hitokoto.cn/"
+    - name: "JsonBird"
+      url: "https://bird.ioliu.cn/"

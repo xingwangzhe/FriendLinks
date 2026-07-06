@@ -1,82 +1,82 @@
 site:
-  name: 'DuckXu''s Notebook'
-  url: 'https://i.duckxu.com'
-  links: '/links.html'
-  description: '学生，记录生活思考。'
+  name: "DuckXu's Notebook"
+  url: "https://i.duckxu.com"
+  links: "/links.html"
+  description: "学生，记录生活思考。"
   friends:
-    - name: '极客死亡计划'
-      url: 'https://www.geedea.pro/'
-    - name: '莫比乌斯'
-      url: 'https://onojyun.com/'
-    - name: 'Tony'
-      url: 'https://blog.iamsjy.com/'
-    - name: '纸鹿'
-      url: 'https://blog.zhilu.cyou/'
-    - name: '往日信笺'
-      url: 'https://www.xingmail.cn/'
-    - name: 'Garden of Outlier'
-      url: 'https://chlo.is/'
-    - name: '柳橙睿'
-      url: 'https://www.liuchengrui.cn/'
-    - name: 'Echeverra'
-      url: 'https://echeverra.cn/'
-    - name: '猫球博客'
-      url: 'https://limaoqiu.com/'
-    - name: '5had0w'
-      url: 'https://www.5had0w.com/'
-    - name: '皓子的小站'
-      url: 'https://howiehz.top/'
-    - name: '岚天呀'
-      url: 'https://blog.ltya.top/'
-    - name: 'Satell1te_LK''s SPACE'
-      url: 'https://255650.xyz/'
-    - name: '某科学的贝壳'
-      url: 'https://blog.ning.moe/'
-    - name: '南蛮子懋和'
-      url: 'https://www.dao.js.cn/'
-    - name: 'XiaoPang'
-      url: 'https://blog.xpdbk.com/'
-    - name: '陵长镜'
-      url: 'https://r1n.top/'
-    - name: '路明笔记'
-      url: 'https://luming.cool/'
-    - name: '咖啡豆子coffee'
-      url: 'https://blog.kfdzcoffee.cn/'
-    - name: '拾光志'
-      url: 'https://www.shiguang.xyz/'
-    - name: 'Pinpe'
-      url: 'https://pinpe.top/'
-    - name: 'Ykuee'
-      url: 'https://www.ykuee.link/'
-    - name: '张苹果'
-      url: 'https://www.zhangpingguo.com/'
-    - name: 'Elykia'
-      url: 'https://blog.elykia.cn/'
-    - name: 'Avery''s Blog'
-      url: 'https://www.averyc.top/'
-    - name: 'WilliamSun'
-      url: 'https://www.lowion.cn/'
-    - name: '亚斯之声'
-      url: 'https://we.owaii.net/'
-    - name: '隧三'
-      url: 'https://www.thedustye.com/'
-    - name: '小改学习志'
-      url: 'https://www.haoyu233.com/'
-    - name: 'Nebula Blog'
-      url: 'https://www.996icu.eu.org/'
-    - name: 'datao的小站'
-      url: 'http://datao2233.top/'
-    - name: '墨尘'
-      url: 'https://www.inkdust.top/'
-    - name: '阿巴de小站'
-      url: 'https://abin.pw/'
-    - name: 'Collaigo'
-      url: 'https://collaigo.com/'
-    - name: 'Chlorine'
-      url: 'https://chlor.me/'
-    - name: 'Riseforever'
-      url: 'https://i.riseforever.cn/'
-    - name: '是路明呀'
-      url: 'https://luming.chgskj.cn/'
-    - name: 'Eltrac'
-      url: 'https://guhub.cn/'
+    - name: "极客死亡计划"
+      url: "https://www.geedea.pro/"
+    - name: "莫比乌斯"
+      url: "https://onojyun.com/"
+    - name: "Tony"
+      url: "https://blog.iamsjy.com/"
+    - name: "纸鹿"
+      url: "https://blog.zhilu.cyou/"
+    - name: "往日信笺"
+      url: "https://www.xingmail.cn/"
+    - name: "Garden of Outlier"
+      url: "https://chlo.is/"
+    - name: "柳橙睿"
+      url: "https://www.liuchengrui.cn/"
+    - name: "Echeverra"
+      url: "https://echeverra.cn/"
+    - name: "猫球博客"
+      url: "https://limaoqiu.com/"
+    - name: "5had0w"
+      url: "https://www.5had0w.com/"
+    - name: "皓子的小站"
+      url: "https://howiehz.top/"
+    - name: "岚天呀"
+      url: "https://blog.ltya.top/"
+    - name: "Satell1te_LK's SPACE"
+      url: "https://255650.xyz/"
+    - name: "某科学的贝壳"
+      url: "https://blog.ning.moe/"
+    - name: "南蛮子懋和"
+      url: "https://www.dao.js.cn/"
+    - name: "XiaoPang"
+      url: "https://blog.xpdbk.com/"
+    - name: "陵长镜"
+      url: "https://r1n.top/"
+    - name: "路明笔记"
+      url: "https://luming.cool/"
+    - name: "咖啡豆子coffee"
+      url: "https://blog.kfdzcoffee.cn/"
+    - name: "拾光志"
+      url: "https://www.shiguang.xyz/"
+    - name: "Pinpe"
+      url: "https://pinpe.top/"
+    - name: "Ykuee"
+      url: "https://www.ykuee.link/"
+    - name: "张苹果"
+      url: "https://www.zhangpingguo.com/"
+    - name: "Elykia"
+      url: "https://blog.elykia.cn/"
+    - name: "Avery's Blog"
+      url: "https://www.averyc.top/"
+    - name: "WilliamSun"
+      url: "https://www.lowion.cn/"
+    - name: "亚斯之声"
+      url: "https://we.owaii.net/"
+    - name: "隧三"
+      url: "https://www.thedustye.com/"
+    - name: "小改学习志"
+      url: "https://www.haoyu233.com/"
+    - name: "Nebula Blog"
+      url: "https://www.996icu.eu.org/"
+    - name: "datao的小站"
+      url: "http://datao2233.top/"
+    - name: "墨尘"
+      url: "https://www.inkdust.top/"
+    - name: "阿巴de小站"
+      url: "https://abin.pw/"
+    - name: "Collaigo"
+      url: "https://collaigo.com/"
+    - name: "Chlorine"
+      url: "https://chlor.me/"
+    - name: "Riseforever"
+      url: "https://i.riseforever.cn/"
+    - name: "是路明呀"
+      url: "https://luming.chgskj.cn/"
+    - name: "Eltrac"
+      url: "https://guhub.cn/"

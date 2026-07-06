@@ -1,12 +1,12 @@
 site:
-  name: 'inessential.com'
-  url: 'https://inessential.com/'
-  description: '友情链接'
-  links: '/'
+  name: "inessential.com"
+  url: "https://inessential.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Stuart Breckenridge'
-      url: 'https://stuartbreckenridge.net/'
-    - name: 'Dave Winer'
-      url: 'http://scripting.com/'
-    - name: 'Watershed Pub and Kitchen'
-      url: 'https://www.watershedpub.com/'
+    - name: "Stuart Breckenridge"
+      url: "https://stuartbreckenridge.net/"
+    - name: "Dave Winer"
+      url: "http://scripting.com/"
+    - name: "Watershed Pub and Kitchen"
+      url: "https://www.watershedpub.com/"

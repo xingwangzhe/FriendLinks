@@ -1,10 +1,10 @@
 site:
-  name: 'nicksimson.com'
-  url: 'https://www.nicksimson.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "nicksimson.com"
+  url: "https://www.nicksimson.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'omg.lol'
-      url: 'https://nsmsn.co/'
-    - name: 'status.lol'
-      url: 'https://nsmsn.status.lol/'
+    - name: "omg.lol"
+      url: "https://nsmsn.co/"
+    - name: "status.lol"
+      url: "https://nsmsn.status.lol/"

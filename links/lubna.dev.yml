@@ -1,12 +1,12 @@
 site:
-  name: 'lubna.dev'
-  url: 'https://lubna.dev/'
-  description: '友情链接'
-  links: '/links'
+  name: "lubna.dev"
+  url: "https://lubna.dev/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'VS Code'
-      url: 'https://code.visualstudio.com/'
-    - name: 'Notion'
-      url: 'https://www.notion.com/'
-    - name: 'Brave'
-      url: 'https://brave.com/'
+    - name: "VS Code"
+      url: "https://code.visualstudio.com/"
+    - name: "Notion"
+      url: "https://www.notion.com/"
+    - name: "Brave"
+      url: "https://brave.com/"

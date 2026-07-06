@@ -1,48 +1,48 @@
 site:
-  name: 'spylogic.net'
-  url: 'http://www.spylogic.net/'
-  description: '友情链接'
-  links: '/links'
+  name: "spylogic.net"
+  url: "http://www.spylogic.net/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'Wireshark'
-      url: 'http://www.wireshark.org'
-    - name: 'My Podcast – Shared Security'
-      url: 'https://sharedsecurity.net/'
-    - name: 'Blogsecurify'
-      url: 'http://blog.blogsecurify.com/'
-    - name: 'Carnal0wnage'
-      url: 'http://carnal0wnage.attackresearch.com/'
-    - name: 'De-ICE for Hackers'
-      url: 'http://de-ice.net/'
-    - name: 'DigiNinja.org'
-      url: 'http://www.digininja.org/'
-    - name: 'GNUCITIZEN'
-      url: 'http://www.gnucitizen.org'
-    - name: 'HiR Information Report'
-      url: 'http://www.h-i-r.net/'
-    - name: 'Metasploit Blog'
-      url: 'http://blog.metasploit.com'
-    - name: 'Northeast Ohio Information Security Forum'
-      url: 'http://www.neoisf.org/'
-    - name: 'Northeast Ohio ISSA'
-      url: 'http://neoissa.org/'
-    - name: 'Room 362'
-      url: 'http://room362.com/'
-    - name: 'SANS Internet Storm Center'
-      url: 'http://isc.sans.org'
-    - name: 'Security Bloggers Network'
-      url: 'http://www.securitybloggers.net/'
-    - name: 'Security Twits'
-      url: 'http://www.security-twits.com/'
-    - name: 'Social Hacking'
-      url: 'http://theharmonyguy.com/'
-    - name: 'Uncommon Sense Security'
-      url: 'http://blog.uncommonsensesecurity.com/'
-    - name: 'Exotic Liability'
-      url: 'http://www.exoticliability.com/'
-    - name: 'Network Security Podcast'
-      url: 'http://netsecpodcast.com/'
-    - name: 'SecuraBit'
-      url: 'http://securabit.com/'
-    - name: 'Security Justice'
-      url: 'http://securityjustice.com'
+    - name: "Wireshark"
+      url: "http://www.wireshark.org"
+    - name: "My Podcast – Shared Security"
+      url: "https://sharedsecurity.net/"
+    - name: "Blogsecurify"
+      url: "http://blog.blogsecurify.com/"
+    - name: "Carnal0wnage"
+      url: "http://carnal0wnage.attackresearch.com/"
+    - name: "De-ICE for Hackers"
+      url: "http://de-ice.net/"
+    - name: "DigiNinja.org"
+      url: "http://www.digininja.org/"
+    - name: "GNUCITIZEN"
+      url: "http://www.gnucitizen.org"
+    - name: "HiR Information Report"
+      url: "http://www.h-i-r.net/"
+    - name: "Metasploit Blog"
+      url: "http://blog.metasploit.com"
+    - name: "Northeast Ohio Information Security Forum"
+      url: "http://www.neoisf.org/"
+    - name: "Northeast Ohio ISSA"
+      url: "http://neoissa.org/"
+    - name: "Room 362"
+      url: "http://room362.com/"
+    - name: "SANS Internet Storm Center"
+      url: "http://isc.sans.org"
+    - name: "Security Bloggers Network"
+      url: "http://www.securitybloggers.net/"
+    - name: "Security Twits"
+      url: "http://www.security-twits.com/"
+    - name: "Social Hacking"
+      url: "http://theharmonyguy.com/"
+    - name: "Uncommon Sense Security"
+      url: "http://blog.uncommonsensesecurity.com/"
+    - name: "Exotic Liability"
+      url: "http://www.exoticliability.com/"
+    - name: "Network Security Podcast"
+      url: "http://netsecpodcast.com/"
+    - name: "SecuraBit"
+      url: "http://securabit.com/"
+    - name: "Security Justice"
+      url: "http://securityjustice.com"

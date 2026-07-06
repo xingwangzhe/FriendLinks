@@ -1,68 +1,68 @@
 site:
-  name: 'flamedfury.com'
-  url: 'https://flamedfury.com/'
-  description: '友情链接'
-  links: '/links'
+  name: "flamedfury.com"
+  url: "https://flamedfury.com/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'The History Of the Web'
-      url: 'https://thehistoryoftheweb.com/'
-    - name: 'Webworm with David Farrier'
-      url: 'https://www.webworm.co/'
-    - name: 'Rebel FM'
-      url: 'https://rebelfm.libsyn.com/'
-    - name: 'Darknet Diaries'
-      url: 'https://darknetdiaries.com/'
-    - name: 'Hemespheric Views'
-      url: 'https://hemisphericviews.com/'
-    - name: 'Ruminate'
-      url: 'https://ruminatepodcast.com/'
-    - name: 'Ye Olde Blogroll'
-      url: 'https://blogroll.org/'
-    - name: 'indieblog.page'
-      url: 'https://indieblog.page/'
-    - name: 'i.webthings directory'
-      url: 'https://directory.joejenett.com/'
-    - name: 'Kagi'
-      url: 'https://kagi.com/'
-    - name: 'The Forest'
-      url: 'https://theforest.link/'
-    - name: 'A Blog Directory'
-      url: 'https://blogroll.club/'
-    - name: 'The Big List of Personal Websites'
-      url: 'http://biglist.terraaeon.com/'
-    - name: 'smallweb'
-      url: 'https://smallweb.cc/'
-    - name: 'Marginalia Search'
-      url: 'https://search.marginalia.nu/'
-    - name: 'searchmysite'
-      url: 'https://searchmysite.net/'
-    - name: 'Wiby'
-      url: 'https://wiby.me/'
-    - name: 'Gibiru'
-      url: 'https://gibiru.com/'
-    - name: 'Infotiger'
-      url: 'https://infotiger.com/'
-    - name: 'Yep'
-      url: 'https://yep.com/'
-    - name: 'Stract'
-      url: 'https://stract.com/'
-    - name: 'Mwmbl'
-      url: 'https://mwmbl.org/'
-    - name: 'Plumb'
-      url: 'https://plumb.one/'
-    - name: 'Clew'
-      url: 'https://clew.se/'
-    - name: 'Mojeek'
-      url: 'https://www.mojeek.com/'
-    - name: 'Raw Web'
-      url: 'https://rawweb.org/'
-    - name: 'The Movie Database (TMDB)'
-      url: 'https://themoviedb.org/'
-    - name: 'The TV Database (TVDB'
-      url: 'https://www.thetvdb.com/'
-    - name: 'The Internet Music Video Database (IMVDb)'
-      url: 'https://imvdb.com/'
-    - name: 'Internet Game Database (IGDB)'
-      url: 'https://www.igdb.com/'
-    - name: 'Omglol'
-      url: 'https://flamed.omg.lol'
+    - name: "The History Of the Web"
+      url: "https://thehistoryoftheweb.com/"
+    - name: "Webworm with David Farrier"
+      url: "https://www.webworm.co/"
+    - name: "Rebel FM"
+      url: "https://rebelfm.libsyn.com/"
+    - name: "Darknet Diaries"
+      url: "https://darknetdiaries.com/"
+    - name: "Hemespheric Views"
+      url: "https://hemisphericviews.com/"
+    - name: "Ruminate"
+      url: "https://ruminatepodcast.com/"
+    - name: "Ye Olde Blogroll"
+      url: "https://blogroll.org/"
+    - name: "indieblog.page"
+      url: "https://indieblog.page/"
+    - name: "i.webthings directory"
+      url: "https://directory.joejenett.com/"
+    - name: "Kagi"
+      url: "https://kagi.com/"
+    - name: "The Forest"
+      url: "https://theforest.link/"
+    - name: "A Blog Directory"
+      url: "https://blogroll.club/"
+    - name: "The Big List of Personal Websites"
+      url: "http://biglist.terraaeon.com/"
+    - name: "smallweb"
+      url: "https://smallweb.cc/"
+    - name: "Marginalia Search"
+      url: "https://search.marginalia.nu/"
+    - name: "searchmysite"
+      url: "https://searchmysite.net/"
+    - name: "Wiby"
+      url: "https://wiby.me/"
+    - name: "Gibiru"
+      url: "https://gibiru.com/"
+    - name: "Infotiger"
+      url: "https://infotiger.com/"
+    - name: "Yep"
+      url: "https://yep.com/"
+    - name: "Stract"
+      url: "https://stract.com/"
+    - name: "Mwmbl"
+      url: "https://mwmbl.org/"
+    - name: "Plumb"
+      url: "https://plumb.one/"
+    - name: "Clew"
+      url: "https://clew.se/"
+    - name: "Mojeek"
+      url: "https://www.mojeek.com/"
+    - name: "Raw Web"
+      url: "https://rawweb.org/"
+    - name: "The Movie Database (TMDB)"
+      url: "https://themoviedb.org/"
+    - name: "The TV Database (TVDB"
+      url: "https://www.thetvdb.com/"
+    - name: "The Internet Music Video Database (IMVDb)"
+      url: "https://imvdb.com/"
+    - name: "Internet Game Database (IGDB)"
+      url: "https://www.igdb.com/"
+    - name: "Omglol"
+      url: "https://flamed.omg.lol"

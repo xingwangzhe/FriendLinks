@@ -1,100 +1,100 @@
 site:
-  name: 'blog.liuyuyang.net'
-  url: 'https://blog.liuyuyang.net/'
-  description: '友情链接'
-  links: '/friend'
+  name: "blog.liuyuyang.net"
+  url: "https://blog.liuyuyang.net/"
+  description: "友情链接"
+  links: "/friend"
   friends:
-    - name: 'Grtsinry43''s BlogGrtblog 博客系统作者'
-      url: 'https://blog.grtsinry43.com'
-    - name: 'NacclNaccl 博客系统作者'
-      url: 'https://naccl.top'
-    - name: '月光中的污点Hexo Boot 博客系统作者'
-      url: 'https://www.extlight.com'
-    - name: '拾一Mx-space 博客系统作者'
-      url: 'https://innei.in/'
-    - name: '拾壹拾壹 博客系统作者'
-      url: 'https://www.shiyit.com'
-    - name: 'Mereith''s BlogVanBlog 博客系统作者'
-      url: 'https://www.mereith.com'
-    - name: 'Ryan WangHalo 博客系统作者'
-      url: 'https://ryanc.cc/'
-    - name: '生活倒影Poetize 博客系统作者'
-      url: 'https://poetize.cn/'
-    - name: '小新X-Blog🍃遇事不决，可问春风。春风不语，既随本心。'
-      url: 'https://x-blog.kkxiaoxin.top'
-    - name: '轻淡时光爱与生活，皆在此处'
-      url: 'https://www.lybblog.cn'
-    - name: 'LineXic书屋难离难舍，想抱紧些'
-      url: 'https://linexic.top'
-    - name: '简纸一张A4纸。'
-      url: 'https://paper.ixor.me'
-    - name: '团团生活志爱生活 爱分享'
-      url: 'https://t-t.live/'
-    - name: '周天记我在人间混日子'
-      url: 'https://zhoutian.com'
-    - name: '阿锋的小宇宙沧海一粟，微亮渺小一只虫。'
-      url: 'https://feng.pub'
-    - name: '刘郎阁一个积极向上的生活探索者！'
-      url: 'https://vjo.cc/'
-    - name: '频率风卷过的起点'
-      url: 'https://pinlyu.com/'
-    - name: '若志随笔愿世界安康，愿你我皆好！'
-      url: 'https://rz.sb/'
-    - name: '网友小宋一介草民，只为生活！'
-      url: 'https://xyzbz.cn/'
-    - name: 'Echo 的小窝Life is a coding,I will debug it'
-      url: 'https://www.liveout.cn/'
-    - name: '刘承blog一个前端程序员的个人博客，记录前端开发实践、技术问题解决方案、工作思考、生活片段与个人成长，也会分享代码之外的热爱与自由'
-      url: 'https://czhlove.cn'
-    - name: '雨后初晴社雨中，听雨声轻灵。雨后，赏水木清华。聆听这广阔天地，感受那动人瞬间。'
-      url: 'https://www.rainafter.cn'
-    - name: 'Hazenix 的后端札记我会一直走，走到灯火通明'
-      url: 'https://blog.hazenix.top'
-    - name: 'One明心静性，爱自己'
-      url: 'https://onedayxyy.cn/'
-    - name: 'Prorise这是我的博客，分享全栈技术与生活的点点滴滴'
-      url: 'https://prorise666.site/'
-    - name: 'Promise难离难舍，想抱紧些'
-      url: 'https://www.yangworld.top'
-    - name: '六月墨语愿你历尽千帆，归来仍是少年！'
-      url: 'https://blog.june.ink/'
-    - name: 'bugcool写代码哪有没 bug 的？'
-      url: 'https://bugcool.cn/'
-    - name: '孤芳不自赏日益努力，而后风生水起'
-      url: 'https://www.gfbzsblog.site'
-    - name: '浩瀚星河缓慢向上也是一种勇气。'
-      url: 'https://www.golangblog.com'
-    - name: '轩卓博客无人扶我青云志，我自踏雪至山巅。'
-      url: 'http://xuanzhuoblog.cn/'
-    - name: 'Sen 的博客逝者如斯夫，不舍昼夜'
-      url: 'https://www.liuzhaosen.cn'
-    - name: '天渺studio天渺studio的小站'
-      url: 'https://tianmiao.site/'
-    - name: '可梵励志成为优秀的开发者，一个温馨的blog'
-      url: 'https://butvan.cn'
-    - name: '张扬YO一个大二学生'
-      url: 'https://zyyo.net/'
-    - name: '浩瀚星河代码，日常，人生'
-      url: 'https://haohanxinghe.com/'
-    - name: 'Wskice十月江南天气好，可怜冬景似春华'
-      url: 'https://wskice.cn/'
-    - name: '木瓜一块八记录了学习过程的点滴，定格美好生活瞬间'
-      url: 'https://www.pawpaw18.cn'
-    - name: '心月云须知少时凌云志，曾许人间第一流'
-      url: 'https://wch666.com'
-    - name: '青灯暮雨再渺小的星光，也有属于它的光芒'
-      url: 'https://www.blatr.cn'
-    - name: 'lookroot林间小屋'
-      url: 'https://www.lookroot.cn/'
-    - name: 'Dongcp记录点点滴滴'
-      url: 'https://blog.dongcp.top/'
-    - name: 'Leonus进一寸有进一寸的欢喜。'
-      url: 'https://blog.leonus.cn/'
-    - name: '编程部落 为了部落！'
-      url: 'https://xiaolily.cn/'
-    - name: 'lznauy的技术小屋生之微欢，俄而感怀，奋勉有得，相携互舍，所谓幸福'
-      url: 'https://lznauy.cn'
-    - name: 'Hyde Blog人心中的成见是一座大山'
-      url: 'https://teek.seasir.top/'
-    - name: 'Blog Finder聚合优秀的个人博客，发掘优质的个人博客文章和内容'
-      url: 'https://bf.zzxworld.com/'
+    - name: "Grtsinry43's BlogGrtblog 博客系统作者"
+      url: "https://blog.grtsinry43.com"
+    - name: "NacclNaccl 博客系统作者"
+      url: "https://naccl.top"
+    - name: "月光中的污点Hexo Boot 博客系统作者"
+      url: "https://www.extlight.com"
+    - name: "拾一Mx-space 博客系统作者"
+      url: "https://innei.in/"
+    - name: "拾壹拾壹 博客系统作者"
+      url: "https://www.shiyit.com"
+    - name: "Mereith's BlogVanBlog 博客系统作者"
+      url: "https://www.mereith.com"
+    - name: "Ryan WangHalo 博客系统作者"
+      url: "https://ryanc.cc/"
+    - name: "生活倒影Poetize 博客系统作者"
+      url: "https://poetize.cn/"
+    - name: "小新X-Blog🍃遇事不决，可问春风。春风不语，既随本心。"
+      url: "https://x-blog.kkxiaoxin.top"
+    - name: "轻淡时光爱与生活，皆在此处"
+      url: "https://www.lybblog.cn"
+    - name: "LineXic书屋难离难舍，想抱紧些"
+      url: "https://linexic.top"
+    - name: "简纸一张A4纸。"
+      url: "https://paper.ixor.me"
+    - name: "团团生活志爱生活 爱分享"
+      url: "https://t-t.live/"
+    - name: "周天记我在人间混日子"
+      url: "https://zhoutian.com"
+    - name: "阿锋的小宇宙沧海一粟，微亮渺小一只虫。"
+      url: "https://feng.pub"
+    - name: "刘郎阁一个积极向上的生活探索者！"
+      url: "https://vjo.cc/"
+    - name: "频率风卷过的起点"
+      url: "https://pinlyu.com/"
+    - name: "若志随笔愿世界安康，愿你我皆好！"
+      url: "https://rz.sb/"
+    - name: "网友小宋一介草民，只为生活！"
+      url: "https://xyzbz.cn/"
+    - name: "Echo 的小窝Life is a coding,I will debug it"
+      url: "https://www.liveout.cn/"
+    - name: "刘承blog一个前端程序员的个人博客，记录前端开发实践、技术问题解决方案、工作思考、生活片段与个人成长，也会分享代码之外的热爱与自由"
+      url: "https://czhlove.cn"
+    - name: "雨后初晴社雨中，听雨声轻灵。雨后，赏水木清华。聆听这广阔天地，感受那动人瞬间。"
+      url: "https://www.rainafter.cn"
+    - name: "Hazenix 的后端札记我会一直走，走到灯火通明"
+      url: "https://blog.hazenix.top"
+    - name: "One明心静性，爱自己"
+      url: "https://onedayxyy.cn/"
+    - name: "Prorise这是我的博客，分享全栈技术与生活的点点滴滴"
+      url: "https://prorise666.site/"
+    - name: "Promise难离难舍，想抱紧些"
+      url: "https://www.yangworld.top"
+    - name: "六月墨语愿你历尽千帆，归来仍是少年！"
+      url: "https://blog.june.ink/"
+    - name: "bugcool写代码哪有没 bug 的？"
+      url: "https://bugcool.cn/"
+    - name: "孤芳不自赏日益努力，而后风生水起"
+      url: "https://www.gfbzsblog.site"
+    - name: "浩瀚星河缓慢向上也是一种勇气。"
+      url: "https://www.golangblog.com"
+    - name: "轩卓博客无人扶我青云志，我自踏雪至山巅。"
+      url: "http://xuanzhuoblog.cn/"
+    - name: "Sen 的博客逝者如斯夫，不舍昼夜"
+      url: "https://www.liuzhaosen.cn"
+    - name: "天渺studio天渺studio的小站"
+      url: "https://tianmiao.site/"
+    - name: "可梵励志成为优秀的开发者，一个温馨的blog"
+      url: "https://butvan.cn"
+    - name: "张扬YO一个大二学生"
+      url: "https://zyyo.net/"
+    - name: "浩瀚星河代码，日常，人生"
+      url: "https://haohanxinghe.com/"
+    - name: "Wskice十月江南天气好，可怜冬景似春华"
+      url: "https://wskice.cn/"
+    - name: "木瓜一块八记录了学习过程的点滴，定格美好生活瞬间"
+      url: "https://www.pawpaw18.cn"
+    - name: "心月云须知少时凌云志，曾许人间第一流"
+      url: "https://wch666.com"
+    - name: "青灯暮雨再渺小的星光，也有属于它的光芒"
+      url: "https://www.blatr.cn"
+    - name: "lookroot林间小屋"
+      url: "https://www.lookroot.cn/"
+    - name: "Dongcp记录点点滴滴"
+      url: "https://blog.dongcp.top/"
+    - name: "Leonus进一寸有进一寸的欢喜。"
+      url: "https://blog.leonus.cn/"
+    - name: "编程部落 为了部落！"
+      url: "https://xiaolily.cn/"
+    - name: "lznauy的技术小屋生之微欢，俄而感怀，奋勉有得，相携互舍，所谓幸福"
+      url: "https://lznauy.cn"
+    - name: "Hyde Blog人心中的成见是一座大山"
+      url: "https://teek.seasir.top/"
+    - name: "Blog Finder聚合优秀的个人博客，发掘优质的个人博客文章和内容"
+      url: "https://bf.zzxworld.com/"

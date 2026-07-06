@@ -1,14 +1,14 @@
 site:
-  name: 'cznorth.cn'
-  url: 'https://www.cznorth.cn/'
-  description: '友情链接'
-  links: '/'
+  name: "cznorth.cn"
+  url: "https://www.cznorth.cn/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Ipe'
-      url: 'http://ipe.otfried.org/'
-    - name: 'CR2'
-      url: 'https://cr2-icra.github.io'
-    - name: 'planetary-robotics'
-      url: 'https://icra2026-planetary-robotics.github.io/'
-    - name: 'jemdoc'
-      url: 'http://jemdoc.jaboc.net/'
+    - name: "Ipe"
+      url: "http://ipe.otfried.org/"
+    - name: "CR2"
+      url: "https://cr2-icra.github.io"
+    - name: "planetary-robotics"
+      url: "https://icra2026-planetary-robotics.github.io/"
+    - name: "jemdoc"
+      url: "http://jemdoc.jaboc.net/"

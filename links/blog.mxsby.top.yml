@@ -1,8 +1,8 @@
 site:
-  name: 'blog.mxsby.top'
-  url: 'https://blog.mxsby.top/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.mxsby.top"
+  url: "https://blog.mxsby.top/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'developer.mozilla.org'
-      url: 'https://developer.mozilla.org'
+    - name: "developer.mozilla.org"
+      url: "https://developer.mozilla.org"

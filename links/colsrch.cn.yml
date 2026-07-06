@@ -1,142 +1,142 @@
 site:
-  name: 'colsrch.cn'
-  url: 'https://colsrch.cn/'
-  description: '友情链接'
-  links: '/friends'
+  name: "colsrch.cn"
+  url: "https://colsrch.cn/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '亦往沧劫'
-      url: 'https://blog.todest.cn/'
-    - name: 'LHK''s Blog'
-      url: 'https://oi.reqwey.com/'
-    - name: 'xaoxuu'
-      url: 'https://xaoxuu.com/'
-    - name: '杜老师说'
-      url: 'https://dusays.com/'
-    - name: '枋柚梓'
-      url: 'https://inkss.cn/'
-    - name: 'Uncle_drew'
-      url: 'https://cndrew.cn/'
-    - name: '陈YF的博客'
-      url: 'https://blog.cyfan.top'
-    - name: 'DataScience'
-      url: 'https://www.a2data.cn/'
-    - name: 'Yuexin''s Blog'
-      url: 'https://wyxogo.top/'
-    - name: 'MianJu'
-      url: 'https://mian-ju.cn'
-    - name: 'bifapang'
-      url: 'https://bifapang.cn'
-    - name: '纸鹿摸鱼处'
-      url: 'https://blog.zhilu.cyou'
-    - name: 'isYangs Blog'
-      url: 'https://isyangs.cn'
-    - name: '述尔・Amore'
-      url: 'https://www.amore.ink/'
-    - name: '小康博客'
-      url: 'https://www.antmoe.com/'
-    - name: 'Geniucker'
-      url: 'https://blog.geniucker.top'
-    - name: '小陈博客'
-      url: 'https://reinness.com/'
-    - name: 'Jared h'
-      url: 'https://jaredh.cn/'
-    - name: '幼稚园园长'
-      url: 'https://yzyyz.top/'
-    - name: '辣个人の小窝'
-      url: 'https://www.xyp9x.com/'
-    - name: 'Sakura` Blogs'
-      url: 'https://jinan6.vip/'
-    - name: 'qinxs'
-      url: 'https://7bxing.com/'
-    - name: '会飞的小弋'
-      url: 'https://lovelijunyi.gitee.io/'
-    - name: 'kali''s blog'
-      url: 'https://kali65536.github.io/'
-    - name: 'Xu’s Blog'
-      url: 'https://hasaik.com/'
-    - name: 'AzuSemisa'
-      url: 'https://azusemisa.top/'
-    - name: 'MJ’s Blog'
-      url: 'https://blog.justlovesmile.top/'
-    - name: '城南以南花亦开'
-      url: 'https://coonaa.cn/'
-    - name: 'Ray''s Blog'
-      url: 'https://mk1.io/'
-    - name: '鹿苏子'
-      url: 'https://lusuzi.github.io/'
-    - name: 'Pdone''s Blog'
-      url: 'https://awaw.cc'
-    - name: 'Heson'
-      url: 'https://www.heson10.com'
-    - name: '神州部落格'
-      url: 'https://www.szfc13.cn/'
-    - name: '木子の博客'
-      url: 'https://www.mz-zone.cn'
-    - name: '子书承宇'
-      url: 'https://hp-l.github.io/'
-    - name: '勤奋的思远'
-      url: 'http://lsybk.xyz'
-    - name: 'W4J1e’s blog'
-      url: 'https://www.hin.cool'
-    - name: 'kelecn'
-      url: 'https://kelecn.top/'
-    - name: '小冰博客'
-      url: 'https://zfe.one/'
-    - name: 'DragonJay'
-      url: 'https://blog.furrysp.top'
-    - name: 'Heo'
-      url: 'https://blog.zhheo.com/'
-    - name: '无妄当自持'
-      url: 'https://www.insidentally.com'
-    - name: 'BBing’s Blog'
-      url: 'https://bbing.com.cn/'
-    - name: '超凡’s Blog'
-      url: 'https://www.chaofan.xyz/'
-    - name: 'Yann'
-      url: 'https://www.hiyann.top/'
-    - name: 'Frytea’s Blog'
-      url: 'https://blog.frytea.com/'
-    - name: 'bmyjacks blog'
-      url: 'https://www.bmyjacks.cn/'
-    - name: 'Thrower的博客'
-      url: 'https://thrower.cc/'
-    - name: 'qsyyke'
-      url: 'https://www.xcye.xyz'
-    - name: 'ImCaO’s Blog'
-      url: 'https://www.imcao.cn'
-    - name: '人家故里'
-      url: 'https://fx7.top'
-    - name: '小城故事'
-      url: 'https://webxc.eu.org'
-    - name: 'FFPY'
-      url: 'https://www.ffpy.online'
-    - name: '葱苓sama'
-      url: 'https://blog.ciraos.top'
-    - name: '花有重开日，人无再少年'
-      url: 'https://toriches.cn'
-    - name: 'Gahotx'
-      url: 'https://gahotx.cn/'
-    - name: '欢乐小王'
-      url: 'https://happyking.top/'
-    - name: '云晓晨CatchYun'
-      url: 'https://www.catchyun.com/'
-    - name: 'booop'
-      url: 'https://booop.net/'
-    - name: 'summerain0的个人博客'
-      url: 'https://summerain0.club/'
-    - name: '七鳄の学习格'
-      url: 'https://blog.gmcj0816.top/'
-    - name: '星日语'
-      url: 'https://weekdaycare.cn/'
-    - name: 'Lemon''s Blog'
-      url: 'https://ning0818.top'
-    - name: 'Fgaoxing'
-      url: 'https://www.yt-blog.top/'
-    - name: '小码博客'
-      url: 'https://blog.hikki.site'
-    - name: 'lizilong的部落格'
-      url: 'https://lizilong1993.github.io'
-    - name: '满心Hrn'
-      url: 'https://blog.lovelu.top/'
-    - name: 'Joker2Yue的个人博客'
-      url: 'https://blog.joker2yue.com/'
+    - name: "亦往沧劫"
+      url: "https://blog.todest.cn/"
+    - name: "LHK's Blog"
+      url: "https://oi.reqwey.com/"
+    - name: "xaoxuu"
+      url: "https://xaoxuu.com/"
+    - name: "杜老师说"
+      url: "https://dusays.com/"
+    - name: "枋柚梓"
+      url: "https://inkss.cn/"
+    - name: "Uncle_drew"
+      url: "https://cndrew.cn/"
+    - name: "陈YF的博客"
+      url: "https://blog.cyfan.top"
+    - name: "DataScience"
+      url: "https://www.a2data.cn/"
+    - name: "Yuexin's Blog"
+      url: "https://wyxogo.top/"
+    - name: "MianJu"
+      url: "https://mian-ju.cn"
+    - name: "bifapang"
+      url: "https://bifapang.cn"
+    - name: "纸鹿摸鱼处"
+      url: "https://blog.zhilu.cyou"
+    - name: "isYangs Blog"
+      url: "https://isyangs.cn"
+    - name: "述尔・Amore"
+      url: "https://www.amore.ink/"
+    - name: "小康博客"
+      url: "https://www.antmoe.com/"
+    - name: "Geniucker"
+      url: "https://blog.geniucker.top"
+    - name: "小陈博客"
+      url: "https://reinness.com/"
+    - name: "Jared h"
+      url: "https://jaredh.cn/"
+    - name: "幼稚园园长"
+      url: "https://yzyyz.top/"
+    - name: "辣个人の小窝"
+      url: "https://www.xyp9x.com/"
+    - name: "Sakura` Blogs"
+      url: "https://jinan6.vip/"
+    - name: "qinxs"
+      url: "https://7bxing.com/"
+    - name: "会飞的小弋"
+      url: "https://lovelijunyi.gitee.io/"
+    - name: "kali's blog"
+      url: "https://kali65536.github.io/"
+    - name: "Xu’s Blog"
+      url: "https://hasaik.com/"
+    - name: "AzuSemisa"
+      url: "https://azusemisa.top/"
+    - name: "MJ’s Blog"
+      url: "https://blog.justlovesmile.top/"
+    - name: "城南以南花亦开"
+      url: "https://coonaa.cn/"
+    - name: "Ray's Blog"
+      url: "https://mk1.io/"
+    - name: "鹿苏子"
+      url: "https://lusuzi.github.io/"
+    - name: "Pdone's Blog"
+      url: "https://awaw.cc"
+    - name: "Heson"
+      url: "https://www.heson10.com"
+    - name: "神州部落格"
+      url: "https://www.szfc13.cn/"
+    - name: "木子の博客"
+      url: "https://www.mz-zone.cn"
+    - name: "子书承宇"
+      url: "https://hp-l.github.io/"
+    - name: "勤奋的思远"
+      url: "http://lsybk.xyz"
+    - name: "W4J1e’s blog"
+      url: "https://www.hin.cool"
+    - name: "kelecn"
+      url: "https://kelecn.top/"
+    - name: "小冰博客"
+      url: "https://zfe.one/"
+    - name: "DragonJay"
+      url: "https://blog.furrysp.top"
+    - name: "Heo"
+      url: "https://blog.zhheo.com/"
+    - name: "无妄当自持"
+      url: "https://www.insidentally.com"
+    - name: "BBing’s Blog"
+      url: "https://bbing.com.cn/"
+    - name: "超凡’s Blog"
+      url: "https://www.chaofan.xyz/"
+    - name: "Yann"
+      url: "https://www.hiyann.top/"
+    - name: "Frytea’s Blog"
+      url: "https://blog.frytea.com/"
+    - name: "bmyjacks blog"
+      url: "https://www.bmyjacks.cn/"
+    - name: "Thrower的博客"
+      url: "https://thrower.cc/"
+    - name: "qsyyke"
+      url: "https://www.xcye.xyz"
+    - name: "ImCaO’s Blog"
+      url: "https://www.imcao.cn"
+    - name: "人家故里"
+      url: "https://fx7.top"
+    - name: "小城故事"
+      url: "https://webxc.eu.org"
+    - name: "FFPY"
+      url: "https://www.ffpy.online"
+    - name: "葱苓sama"
+      url: "https://blog.ciraos.top"
+    - name: "花有重开日，人无再少年"
+      url: "https://toriches.cn"
+    - name: "Gahotx"
+      url: "https://gahotx.cn/"
+    - name: "欢乐小王"
+      url: "https://happyking.top/"
+    - name: "云晓晨CatchYun"
+      url: "https://www.catchyun.com/"
+    - name: "booop"
+      url: "https://booop.net/"
+    - name: "summerain0的个人博客"
+      url: "https://summerain0.club/"
+    - name: "七鳄の学习格"
+      url: "https://blog.gmcj0816.top/"
+    - name: "星日语"
+      url: "https://weekdaycare.cn/"
+    - name: "Lemon's Blog"
+      url: "https://ning0818.top"
+    - name: "Fgaoxing"
+      url: "https://www.yt-blog.top/"
+    - name: "小码博客"
+      url: "https://blog.hikki.site"
+    - name: "lizilong的部落格"
+      url: "https://lizilong1993.github.io"
+    - name: "满心Hrn"
+      url: "https://blog.lovelu.top/"
+    - name: "Joker2Yue的个人博客"
+      url: "https://blog.joker2yue.com/"

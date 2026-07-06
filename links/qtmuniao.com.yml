@@ -1,12 +1,12 @@
 site:
-  name: 'qtmuniao.com'
-  url: 'https://www.qtmuniao.com/'
-  description: '友情链接'
-  links: '/'
+  name: "qtmuniao.com"
+  url: "https://www.qtmuniao.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Princeton COS 597R “Deep Dive into Large Language Models”'
-      url: 'https://princeton-cos597r.github.io/'
-    - name: 'ray.data'
-      url: 'http://ray.data'
-    - name: 'jemalloc'
-      url: 'https://jemalloc.net/'
+    - name: "Princeton COS 597R “Deep Dive into Large Language Models”"
+      url: "https://princeton-cos597r.github.io/"
+    - name: "ray.data"
+      url: "http://ray.data"
+    - name: "jemalloc"
+      url: "https://jemalloc.net/"

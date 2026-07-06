@@ -1,10 +1,10 @@
 site:
-  name: 'ku1ik.com'
-  url: 'http://ku1ik.com/'
-  description: '友情链接'
-  links: '/'
+  name: "ku1ik.com"
+  url: "http://ku1ik.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'asciinema blog'
-      url: 'https://blog.asciinema.org/'
-    - name: 'asciinema'
-      url: 'https://asciinema.org/'
+    - name: "asciinema blog"
+      url: "https://blog.asciinema.org/"
+    - name: "asciinema"
+      url: "https://asciinema.org/"

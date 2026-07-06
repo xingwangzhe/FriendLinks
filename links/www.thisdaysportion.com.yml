@@ -1,76 +1,76 @@
 site:
-  name: 'This day’s portion'
-  url: 'https://www.thisdaysportion.com/'
-  description: 'This day’s portion'
-  links: '/links'
+  name: "This day’s portion"
+  url: "https://www.thisdaysportion.com/"
+  description: "This day’s portion"
+  links: "/links"
   friends:
-    - name: 'Hello world'
-      url: 'https://thomasrigby.com/'
-    - name: 'Eric Bailey'
-      url: 'https://ericwbailey.website/'
-    - name: 'p.kjz'
-      url: 'https://p.kjz.im/'
-    - name: 'Second Breakfast'
-      url: 'https://2ndbreakfast.audreywatters.com/'
-    - name: 'Pleasant Green'
-      url: 'https://www.pleasantgreen.co.uk/'
-    - name: 'kiko.io'
-      url: 'https://kiko.io/'
-    - name: 'Backdrifting: An intersection of social system design, cyber'
-      url: 'https://backdrifting.net/'
-    - name: 'Vancouverland Newsletter'
-      url: 'https://vancouver.land/'
-    - name: 'Revoluciana'
-      url: 'https://www.revoluciana.net/'
-    - name: 'Coyote's Link Hub'
-      url: 'https://osteophage.neocities.org/'
-    - name: 'A Personal Website'
-      url: 'https://minutestomidnight.co.uk/'
-    - name: 'Absurd Pirate's Internet Blog'
-      url: 'https://blog.absurdpirate.com/'
-    - name: 'Popagandhi'
-      url: 'https://popagandhi.com/'
-    - name: 'Organizing My Thoughts'
-      url: 'https://organizingmythoughts.org/'
-    - name: 'LMNT'
-      url: 'https://lmnt.me/'
-    - name: 'Beardy Guy Musings'
-      url: 'https://beardystarstuff.net/'
-    - name: 'dansinker.com'
-      url: 'https://dansinker.com/'
-    - name: 'Exploding Comma'
-      url: 'https://explodingcomma.com/'
-    - name: 'Home'
-      url: 'https://salvage.zone/'
-    - name: 'Robin Berjon'
-      url: 'https://berjon.com/'
-    - name: 'JetGirlArt'
-      url: 'https://jetgirl.art/'
-    - name: 'WriteFreely'
-      url: 'https://seizethemeans.communitarium.org/'
-    - name: 'Laurel Schwulst'
-      url: 'https://laurelschwulst.com/'
-    - name: 'wreckage/salvage'
-      url: 'https://www.wrecka.ge/'
-    - name: 'Filipa MV'
-      url: 'https://okayfail.com/'
-    - name: 'XSLT.RIP'
-      url: 'https://xslt.rip/'
-    - name: '𝚛𝚊𝚜𝚑𝚘𝚖𝚘𝚗 𝚋𝚕𝚞𝚎𝚜'
-      url: 'https://rashomon.blue/'
-    - name: 'Cybercultural: Internet History and Its Impact on Our Cultur'
-      url: 'https://cybercultural.com/'
-    - name: '~ajroach42.com'
-      url: 'https://ajroach42.com/'
-    - name: 'Eric Schwarz'
-      url: 'https://manuelmoreale.com/'
-    - name: 'The Homebound Symphony'
-      url: 'https://blog.ayjay.org/'
-    - name: 'PSF'
-      url: 'https://www.furious.com/'
-    - name: 'cobb.land'
-      url: 'https://cobb.land/'
-    - name: 'Home'
-      url: 'https://www.garbageday.email/'
-    - name: 'Mirrored W❄️rld'
-      url: 'https://mirroredworld.bearblog.dev/'
+    - name: "Hello world"
+      url: "https://thomasrigby.com/"
+    - name: "Eric Bailey"
+      url: "https://ericwbailey.website/"
+    - name: "p.kjz"
+      url: "https://p.kjz.im/"
+    - name: "Second Breakfast"
+      url: "https://2ndbreakfast.audreywatters.com/"
+    - name: "Pleasant Green"
+      url: "https://www.pleasantgreen.co.uk/"
+    - name: "kiko.io"
+      url: "https://kiko.io/"
+    - name: "Backdrifting: An intersection of social system design, cyber"
+      url: "https://backdrifting.net/"
+    - name: "Vancouverland Newsletter"
+      url: "https://vancouver.land/"
+    - name: "Revoluciana"
+      url: "https://www.revoluciana.net/"
+    - name: "Coyote's Link Hub"
+      url: "https://osteophage.neocities.org/"
+    - name: "A Personal Website"
+      url: "https://minutestomidnight.co.uk/"
+    - name: "Absurd Pirate's Internet Blog"
+      url: "https://blog.absurdpirate.com/"
+    - name: "Popagandhi"
+      url: "https://popagandhi.com/"
+    - name: "Organizing My Thoughts"
+      url: "https://organizingmythoughts.org/"
+    - name: "LMNT"
+      url: "https://lmnt.me/"
+    - name: "Beardy Guy Musings"
+      url: "https://beardystarstuff.net/"
+    - name: "dansinker.com"
+      url: "https://dansinker.com/"
+    - name: "Exploding Comma"
+      url: "https://explodingcomma.com/"
+    - name: "Home"
+      url: "https://salvage.zone/"
+    - name: "Robin Berjon"
+      url: "https://berjon.com/"
+    - name: "JetGirlArt"
+      url: "https://jetgirl.art/"
+    - name: "WriteFreely"
+      url: "https://seizethemeans.communitarium.org/"
+    - name: "Laurel Schwulst"
+      url: "https://laurelschwulst.com/"
+    - name: "wreckage/salvage"
+      url: "https://www.wrecka.ge/"
+    - name: "Filipa MV"
+      url: "https://okayfail.com/"
+    - name: "XSLT.RIP"
+      url: "https://xslt.rip/"
+    - name: "𝚛𝚊𝚜𝚑𝚘𝚖𝚘𝚗 𝚋𝚕𝚞𝚎𝚜"
+      url: "https://rashomon.blue/"
+    - name: "Cybercultural: Internet History and Its Impact on Our Cultur"
+      url: "https://cybercultural.com/"
+    - name: "~ajroach42.com"
+      url: "https://ajroach42.com/"
+    - name: "Eric Schwarz"
+      url: "https://manuelmoreale.com/"
+    - name: "The Homebound Symphony"
+      url: "https://blog.ayjay.org/"
+    - name: "PSF"
+      url: "https://www.furious.com/"
+    - name: "cobb.land"
+      url: "https://cobb.land/"
+    - name: "Home"
+      url: "https://www.garbageday.email/"
+    - name: "Mirrored W❄️rld"
+      url: "https://mirroredworld.bearblog.dev/"

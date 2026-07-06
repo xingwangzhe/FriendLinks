@@ -1,116 +1,116 @@
 site:
-  name: 'ribo.zone'
-  url: 'https://ribo.zone/'
-  description: '友情链接'
-  links: '/links'
+  name: "ribo.zone"
+  url: "https://ribo.zone/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'inaturalist'
-      url: 'https://www.inaturalist.org/'
-    - name: 'conifers.org'
-      url: 'https://www.conifers.org/'
-    - name: 'wildflowersearch.org'
-      url: 'https://wildflowersearch.org/'
-    - name: 'wormatlas.org'
-      url: 'https://wormatlas.org/'
-    - name: 'wayne''s word'
-      url: 'http://www.waynesword.net/'
-    - name: 'rosalind'
-      url: 'https://rosalind.info/'
-    - name: 'sandgrains.com'
-      url: 'http://sandgrains.com/'
-    - name: 'mindat'
-      url: 'https://www.mindat.org/'
-    - name: 'soma FM'
-      url: 'https://somafm.com/'
-    - name: 'radio garden'
-      url: 'http://radio.garden/'
-    - name: 'radiooooo.com'
-      url: 'https://radiooooo.com/'
-    - name: 'Charmaine''s Names'
-      url: 'https://www.charmainesnames.com/'
-    - name: 'Dave Scanlon'
-      url: 'https://www.davescanlon.com/'
-    - name: 'F.I.M.'
-      url: 'https://fimimprovisation.neocities.org/'
-    - name: 'id m theft able'
-      url: 'https://www.kraag.org/'
-    - name: 'NEETS'
-      url: 'https://neetsonline.neocities.org/'
-    - name: 'PCoTandy'
-      url: 'https://www.pcotandy.org/'
-    - name: 'Sidney Gish'
-      url: 'http://sidneygish.com/'
-    - name: 'SLUGBUG'
-      url: 'https://slugbug.sound-club.org/'
-    - name: 'Them Airs'
-      url: 'https://themairs.neocities.org/'
-    - name: 'Wendy Carlos'
-      url: 'https://www.wendycarlos.com/'
-    - name: 'beepbox'
-      url: 'https://www.beepbox.co'
-    - name: 'estuary'
-      url: 'https://estuary.mcmaster.ca/'
-    - name: 'wind chime calculator'
-      url: 'https://www.windchimecalculator.org/'
-    - name: 'Anatola Howard'
-      url: 'https://www.anatolahoward.com/'
-    - name: 'Beatrix Urkowitz'
-      url: 'https://bmfu.net/'
-    - name: 'Jun Kumaori'
-      url: 'https://www.kumaori.info/'
-    - name: 'Leo Fox'
-      url: 'https://www.leofox.uk/'
-    - name: 'Louie Zong'
-      url: 'https://www.louiezong.com/'
-    - name: 'Max Schwartz'
-      url: 'https://max.pictures/'
-    - name: 'meewillis'
-      url: 'https://meewillis.neocities.org/'
-    - name: 'millionfish'
-      url: 'https://www.millionfish.net/'
-    - name: 'Rodney Alan Greenblat'
-      url: 'http://whimsyload.com/'
-    - name: 'Sophia Foster-Dimino'
-      url: 'https://www.hellophia.com/'
-    - name: 'splendidland'
-      url: 'https://www.splendid.land/'
-    - name: 'death generator'
-      url: 'https://deathgenerator.com/'
-    - name: 'noclip.website'
-      url: 'https://noclip.website'
-    - name: 'the cutting room floor'
-      url: 'https://tcrf.net'
-    - name: 'bitsy'
-      url: 'https://bitsy.org/'
-    - name: 'open street map'
-      url: 'https://www.openstreetmap.org/'
-    - name: 'falling fruit'
-      url: 'https://fallingfruit.org/'
-    - name: 'intercity rail map'
-      url: 'https://asm.transitdocs.com/'
-    - name: 'flightradar24'
-      url: 'https://www.flightradar24.com/'
-    - name: 'apple rankings'
-      url: 'https://applerankings.com/'
-    - name: 'anonymous animal'
-      url: 'https://anonymous-animal.neocities.org/'
-    - name: 'fueled by clouds & coffee'
-      url: 'http://tina-koyama.blogspot.com/'
-    - name: 'the public domain review'
-      url: 'https://publicdomainreview.org/'
-    - name: 'urban exploration resource'
-      url: 'https://www.uer.ca/'
-    - name: 'pointer pointer'
-      url: 'https://pointerpointer.com'
-    - name: 'wiby'
-      url: 'https://wiby.me/'
-    - name: 'marginalia'
-      url: 'https://search.marginalia.nu/'
-    - name: 'similar website finder'
-      url: 'https://explore2.marginalia.nu/'
-    - name: 'clew'
-      url: 'https://clew.se/'
-    - name: 'moonjump'
-      url: 'https://moonjump.app/'
-    - name: 'the forest'
-      url: 'https://theforest.link/'
+    - name: "inaturalist"
+      url: "https://www.inaturalist.org/"
+    - name: "conifers.org"
+      url: "https://www.conifers.org/"
+    - name: "wildflowersearch.org"
+      url: "https://wildflowersearch.org/"
+    - name: "wormatlas.org"
+      url: "https://wormatlas.org/"
+    - name: "wayne's word"
+      url: "http://www.waynesword.net/"
+    - name: "rosalind"
+      url: "https://rosalind.info/"
+    - name: "sandgrains.com"
+      url: "http://sandgrains.com/"
+    - name: "mindat"
+      url: "https://www.mindat.org/"
+    - name: "soma FM"
+      url: "https://somafm.com/"
+    - name: "radio garden"
+      url: "http://radio.garden/"
+    - name: "radiooooo.com"
+      url: "https://radiooooo.com/"
+    - name: "Charmaine's Names"
+      url: "https://www.charmainesnames.com/"
+    - name: "Dave Scanlon"
+      url: "https://www.davescanlon.com/"
+    - name: "F.I.M."
+      url: "https://fimimprovisation.neocities.org/"
+    - name: "id m theft able"
+      url: "https://www.kraag.org/"
+    - name: "NEETS"
+      url: "https://neetsonline.neocities.org/"
+    - name: "PCoTandy"
+      url: "https://www.pcotandy.org/"
+    - name: "Sidney Gish"
+      url: "http://sidneygish.com/"
+    - name: "SLUGBUG"
+      url: "https://slugbug.sound-club.org/"
+    - name: "Them Airs"
+      url: "https://themairs.neocities.org/"
+    - name: "Wendy Carlos"
+      url: "https://www.wendycarlos.com/"
+    - name: "beepbox"
+      url: "https://www.beepbox.co"
+    - name: "estuary"
+      url: "https://estuary.mcmaster.ca/"
+    - name: "wind chime calculator"
+      url: "https://www.windchimecalculator.org/"
+    - name: "Anatola Howard"
+      url: "https://www.anatolahoward.com/"
+    - name: "Beatrix Urkowitz"
+      url: "https://bmfu.net/"
+    - name: "Jun Kumaori"
+      url: "https://www.kumaori.info/"
+    - name: "Leo Fox"
+      url: "https://www.leofox.uk/"
+    - name: "Louie Zong"
+      url: "https://www.louiezong.com/"
+    - name: "Max Schwartz"
+      url: "https://max.pictures/"
+    - name: "meewillis"
+      url: "https://meewillis.neocities.org/"
+    - name: "millionfish"
+      url: "https://www.millionfish.net/"
+    - name: "Rodney Alan Greenblat"
+      url: "http://whimsyload.com/"
+    - name: "Sophia Foster-Dimino"
+      url: "https://www.hellophia.com/"
+    - name: "splendidland"
+      url: "https://www.splendid.land/"
+    - name: "death generator"
+      url: "https://deathgenerator.com/"
+    - name: "noclip.website"
+      url: "https://noclip.website"
+    - name: "the cutting room floor"
+      url: "https://tcrf.net"
+    - name: "bitsy"
+      url: "https://bitsy.org/"
+    - name: "open street map"
+      url: "https://www.openstreetmap.org/"
+    - name: "falling fruit"
+      url: "https://fallingfruit.org/"
+    - name: "intercity rail map"
+      url: "https://asm.transitdocs.com/"
+    - name: "flightradar24"
+      url: "https://www.flightradar24.com/"
+    - name: "apple rankings"
+      url: "https://applerankings.com/"
+    - name: "anonymous animal"
+      url: "https://anonymous-animal.neocities.org/"
+    - name: "fueled by clouds & coffee"
+      url: "http://tina-koyama.blogspot.com/"
+    - name: "the public domain review"
+      url: "https://publicdomainreview.org/"
+    - name: "urban exploration resource"
+      url: "https://www.uer.ca/"
+    - name: "pointer pointer"
+      url: "https://pointerpointer.com"
+    - name: "wiby"
+      url: "https://wiby.me/"
+    - name: "marginalia"
+      url: "https://search.marginalia.nu/"
+    - name: "similar website finder"
+      url: "https://explore2.marginalia.nu/"
+    - name: "clew"
+      url: "https://clew.se/"
+    - name: "moonjump"
+      url: "https://moonjump.app/"
+    - name: "the forest"
+      url: "https://theforest.link/"

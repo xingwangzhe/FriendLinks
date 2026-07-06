@@ -1,14 +1,14 @@
 site:
-  name: 'yuanchaofa.com'
-  url: 'https://yuanchaofa.com/'
-  description: '友情链接'
-  links: '/link'
+  name: "yuanchaofa.com"
+  url: "https://yuanchaofa.com/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: '极客兔兔'
-      url: 'https://geektutu.com'
-    - name: '代码笔记'
-      url: 'https://freelifeblog.top'
-    - name: '科学空间'
-      url: 'https://kexue.fm'
-    - name: 'ApeCode.ai'
-      url: 'https://apecode.ai'
+    - name: "极客兔兔"
+      url: "https://geektutu.com"
+    - name: "代码笔记"
+      url: "https://freelifeblog.top"
+    - name: "科学空间"
+      url: "https://kexue.fm"
+    - name: "ApeCode.ai"
+      url: "https://apecode.ai"

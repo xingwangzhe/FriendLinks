@@ -1,88 +1,88 @@
 site:
-  name: 'lzw.me'
-  url: 'http://lzw.me/'
-  description: '友情链接'
-  links: '/links'
+  name: "lzw.me"
+  url: "http://lzw.me/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '李锋镝的个人博客'
-      url: 'http://www.lifengdi.com'
-    - name: '林三在线'
-      url: 'https://linsan.net'
-    - name: '陈俊杰的博客'
-      url: 'http://www.chenjunjie.com/'
-    - name: '夏日博客'
-      url: 'https://www.xiariboke.net'
-    - name: '邹志强个人网站'
-      url: 'http://www.zouzhiqiang.com'
-    - name: '這才叫做畫－WAYCE BLOG'
-      url: 'http://www.wayce.net'
-    - name: '园子的博客'
-      url: 'http://www.yzznl.cn'
-    - name: '天天软件园'
-      url: 'http://www.ddsofts.com'
-    - name: '米扑博客'
-      url: 'https://blog.mimvp.com'
-    - name: '我为技术狂'
-      url: 'http://www.crazycen.com'
-    - name: '老左博客'
-      url: 'http://www.laozuo.org'
-    - name: '撼动视觉'
-      url: 'http://www.hdvisual.cn'
-    - name: '水寒博客'
-      url: 'http://www.shuihan.com/'
-    - name: '且留待行精品收藏'
-      url: 'http://www.design1314.cn/'
-    - name: 'Axiu''s Blog'
-      url: 'https://axiu.me'
-    - name: '鹏鹏工作室'
-      url: 'http://www.ppgzs.com/'
-    - name: '段公子随笔'
-      url: 'http://www.duangz.cn/'
-    - name: 'Polymer.js – 下一代 Web 组件'
-      url: 'http://www.polymer-project.org/'
-    - name: '新浪ued'
-      url: 'http://ued.sina.com/'
-    - name: '阿里ued'
-      url: 'http://www.aliued.com/'
-    - name: 'astexplorer'
-      url: 'https://astexplorer.net'
-    - name: '小王子'
-      url: 'http://www.xiaowangzi.org/'
-    - name: '纽约时报'
-      url: 'http://www.nytimes.com/'
-    - name: '科学美国人'
-      url: 'http://www.sciam.com/'
-    - name: 'Dynamic Drive'
-      url: 'http://www.dynamicdrive.com/'
-    - name: '张宴博客'
-      url: 'http://blog.s135.com/'
-    - name: '月光博客'
-      url: 'http://www.williamlong.info/'
-    - name: '脚本时代'
-      url: 'http://www.javascript.com.cn/'
-    - name: '视觉中国'
-      url: 'http://www.chinavisual.com/'
-    - name: 'Awesome Wallpapers'
-      url: 'https://wallhaven.cc'
-    - name: '在线PS'
-      url: 'https://www.photopea.com'
-    - name: 'd2lang'
-      url: 'https://play.d2lang.com'
-    - name: 'css渐变背景色'
-      url: 'https://codioful.com'
-    - name: '喻名堂'
-      url: 'http://www.asymt.com/'
-    - name: '拽立网'
-      url: 'http://www.zlinet.com/'
-    - name: '海上的天空'
-      url: 'http://xmsay.com'
-    - name: '恋香缘'
-      url: 'http://lxy.me/'
-    - name: '云库网'
-      url: 'http://yunkus.com'
-    - name: '冬梦传说'
-      url: 'http://liushidong.com'
-    - name: '张学强博客'
-      url: 'http://www.zhangxueqiang.com/'
-    - name: '枫叶林'
-      url: 'http://www.maplemark.cn'
+    - name: "李锋镝的个人博客"
+      url: "http://www.lifengdi.com"
+    - name: "林三在线"
+      url: "https://linsan.net"
+    - name: "陈俊杰的博客"
+      url: "http://www.chenjunjie.com/"
+    - name: "夏日博客"
+      url: "https://www.xiariboke.net"
+    - name: "邹志强个人网站"
+      url: "http://www.zouzhiqiang.com"
+    - name: "這才叫做畫－WAYCE BLOG"
+      url: "http://www.wayce.net"
+    - name: "园子的博客"
+      url: "http://www.yzznl.cn"
+    - name: "天天软件园"
+      url: "http://www.ddsofts.com"
+    - name: "米扑博客"
+      url: "https://blog.mimvp.com"
+    - name: "我为技术狂"
+      url: "http://www.crazycen.com"
+    - name: "老左博客"
+      url: "http://www.laozuo.org"
+    - name: "撼动视觉"
+      url: "http://www.hdvisual.cn"
+    - name: "水寒博客"
+      url: "http://www.shuihan.com/"
+    - name: "且留待行精品收藏"
+      url: "http://www.design1314.cn/"
+    - name: "Axiu's Blog"
+      url: "https://axiu.me"
+    - name: "鹏鹏工作室"
+      url: "http://www.ppgzs.com/"
+    - name: "段公子随笔"
+      url: "http://www.duangz.cn/"
+    - name: "Polymer.js – 下一代 Web 组件"
+      url: "http://www.polymer-project.org/"
+    - name: "新浪ued"
+      url: "http://ued.sina.com/"
+    - name: "阿里ued"
+      url: "http://www.aliued.com/"
+    - name: "astexplorer"
+      url: "https://astexplorer.net"
+    - name: "小王子"
+      url: "http://www.xiaowangzi.org/"
+    - name: "纽约时报"
+      url: "http://www.nytimes.com/"
+    - name: "科学美国人"
+      url: "http://www.sciam.com/"
+    - name: "Dynamic Drive"
+      url: "http://www.dynamicdrive.com/"
+    - name: "张宴博客"
+      url: "http://blog.s135.com/"
+    - name: "月光博客"
+      url: "http://www.williamlong.info/"
+    - name: "脚本时代"
+      url: "http://www.javascript.com.cn/"
+    - name: "视觉中国"
+      url: "http://www.chinavisual.com/"
+    - name: "Awesome Wallpapers"
+      url: "https://wallhaven.cc"
+    - name: "在线PS"
+      url: "https://www.photopea.com"
+    - name: "d2lang"
+      url: "https://play.d2lang.com"
+    - name: "css渐变背景色"
+      url: "https://codioful.com"
+    - name: "喻名堂"
+      url: "http://www.asymt.com/"
+    - name: "拽立网"
+      url: "http://www.zlinet.com/"
+    - name: "海上的天空"
+      url: "http://xmsay.com"
+    - name: "恋香缘"
+      url: "http://lxy.me/"
+    - name: "云库网"
+      url: "http://yunkus.com"
+    - name: "冬梦传说"
+      url: "http://liushidong.com"
+    - name: "张学强博客"
+      url: "http://www.zhangxueqiang.com/"
+    - name: "枫叶林"
+      url: "http://www.maplemark.cn"

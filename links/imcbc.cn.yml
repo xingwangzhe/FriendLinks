@@ -1,12 +1,12 @@
 site:
-  name: 'imcbc.cn'
-  url: 'https://imcbc.cn/'
-  description: '友情链接'
-  links: '/friends'
+  name: "imcbc.cn"
+  url: "https://imcbc.cn/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'This Cute World'
-      url: 'https://thiscute.world/'
-    - name: '杜老师说'
-      url: 'https://dusays.com'
-    - name: '雨临Lewis的博客'
-      url: 'https://lewky.cn'
+    - name: "This Cute World"
+      url: "https://thiscute.world/"
+    - name: "杜老师说"
+      url: "https://dusays.com"
+    - name: "雨临Lewis的博客"
+      url: "https://lewky.cn"

@@ -1,12 +1,12 @@
 site:
-  name: 'putanumonit.com'
-  url: 'http://putanumonit.com/'
-  description: '友情链接'
-  links: '/link'
+  name: "putanumonit.com"
+  url: "http://putanumonit.com/"
+  description: "友情链接"
+  links: "/link"
   friends:
-    - name: 'Joshua Brown'
-      url: 'https://makebead.com/'
-    - name: 'Jacob Falkovich'
-      url: 'https://putanumonit.wordpress.com'
-    - name: 'Manage subscriptions'
-      url: 'https://subscribe.wordpress.com/'
+    - name: "Joshua Brown"
+      url: "https://makebead.com/"
+    - name: "Jacob Falkovich"
+      url: "https://putanumonit.wordpress.com"
+    - name: "Manage subscriptions"
+      url: "https://subscribe.wordpress.com/"

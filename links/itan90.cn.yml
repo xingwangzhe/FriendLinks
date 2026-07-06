@@ -1,10 +1,10 @@
 site:
-  name: 'itan90.cn'
-  url: 'https://itan90.cn/'
-  description: '友情链接'
-  links: '/links'
+  name: "itan90.cn"
+  url: "https://itan90.cn/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: 'WHOIS查询'
-      url: 'https://whois.dnspod.cn/'
-    - name: 'DNSPod'
-      url: 'https://www.dnspod.cn/'
+    - name: "WHOIS查询"
+      url: "https://whois.dnspod.cn/"
+    - name: "DNSPod"
+      url: "https://www.dnspod.cn/"

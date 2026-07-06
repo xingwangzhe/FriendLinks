@@ -1,8 +1,8 @@
 site:
-  name: 'disclojure.org'
-  url: 'http://disclojure.org/'
-  description: '友情链接'
-  links: '/'
+  name: "disclojure.org"
+  url: "http://disclojure.org/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'Arduino'
-      url: 'http://www.arduino.cc/'
+    - name: "Arduino"
+      url: "http://www.arduino.cc/"

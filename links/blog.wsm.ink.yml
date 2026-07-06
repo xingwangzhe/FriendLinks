@@ -1,10 +1,10 @@
 site:
-  name: 'blog.wsm.ink'
-  url: 'https://blog.wsm.ink/'
-  description: '友情链接'
-  links: '/friends'
+  name: "blog.wsm.ink"
+  url: "https://blog.wsm.ink/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'archeb'
-      url: 'https://qwq.moe/'
-    - name: 'Winslow Eric'
-      url: 'http://www.winsloweric.cn'
+    - name: "archeb"
+      url: "https://qwq.moe/"
+    - name: "Winslow Eric"
+      url: "http://www.winsloweric.cn"

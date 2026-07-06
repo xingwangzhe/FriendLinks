@@ -1,24 +1,24 @@
 site:
-  name: 'riteme.site'
-  url: 'https://riteme.site/'
-  description: '友情链接'
-  links: '/links.html'
+  name: "riteme.site"
+  url: "https://riteme.site/"
+  description: "友情链接"
+  links: "/links.html"
   friends:
-    - name: 'ruanx.pw'
-      url: 'http://ruanx.pw/'
-    - name: 'haogram.hol.es'
-      url: 'http://haogram.hol.es/'
-    - name: 'hjwjbsr.is-programmer.com'
-      url: 'http://hjwjbsr.is-programmer.com/'
-    - name: 'www.ianime.co'
-      url: 'http://www.ianime.co/'
-    - name: 'blog.linyxus.xyz'
-      url: 'http://blog.linyxus.xyz/'
-    - name: 'www.micdz.cn'
-      url: 'http://www.micdz.cn/'
-    - name: 'blog.xehoth.cc'
-      url: 'https://blog.xehoth.cc/'
-    - name: 'Material Design Lite'
-      url: 'http://getmdl.io/'
-    - name: 'MathJax'
-      url: 'http://www.mathjax.org/'
+    - name: "ruanx.pw"
+      url: "http://ruanx.pw/"
+    - name: "haogram.hol.es"
+      url: "http://haogram.hol.es/"
+    - name: "hjwjbsr.is-programmer.com"
+      url: "http://hjwjbsr.is-programmer.com/"
+    - name: "www.ianime.co"
+      url: "http://www.ianime.co/"
+    - name: "blog.linyxus.xyz"
+      url: "http://blog.linyxus.xyz/"
+    - name: "www.micdz.cn"
+      url: "http://www.micdz.cn/"
+    - name: "blog.xehoth.cc"
+      url: "https://blog.xehoth.cc/"
+    - name: "Material Design Lite"
+      url: "http://getmdl.io/"
+    - name: "MathJax"
+      url: "http://www.mathjax.org/"

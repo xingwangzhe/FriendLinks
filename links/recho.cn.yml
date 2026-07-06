@@ -1,12 +1,12 @@
 site:
-  name: 'recho.cn'
-  url: 'https://www.recho.cn/'
-  description: '友情链接'
-  links: '/links'
+  name: "recho.cn"
+  url: "https://www.recho.cn/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '氢快科技'
-      url: 'https://www.h2fast.cn'
-    - name: 'DeepSea''s Home'
-      url: 'https://58.qa'
-    - name: '耗子博客'
-      url: 'https://hzbk.net'
+    - name: "氢快科技"
+      url: "https://www.h2fast.cn"
+    - name: "DeepSea's Home"
+      url: "https://58.qa"
+    - name: "耗子博客"
+      url: "https://hzbk.net"

@@ -1,10 +1,10 @@
 site:
-  name: '世界'
-  url: 'https://ricepastem.cafe/'
-  description: '欢迎来到 RicePasteM's Cafe 的世界页面，探索精彩内容'
-  links: '/links'
+  name: "世界"
+  url: "https://ricepastem.cafe/"
+  description: "欢迎来到 RicePasteM's Cafe 的世界页面，探索精彩内容"
+  links: "/links"
   friends:
-    - name: '耶瞳空间'
-      url: 'https://space.eyescode.top/'
-    - name: 'Welcome to My Personal Blog!'
-      url: 'https://freed-wu.github.io/'
+    - name: "耶瞳空间"
+      url: "https://space.eyescode.top/"
+    - name: "Welcome to My Personal Blog!"
+      url: "https://freed-wu.github.io/"

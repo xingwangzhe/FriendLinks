@@ -1,76 +1,76 @@
 site:
-  name: 'suzhigao66.top'
-  url: 'http://suzhigao66.top/'
-  description: '友情链接'
-  links: '/friends'
+  name: "suzhigao66.top"
+  url: "http://suzhigao66.top/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: 'Hunter''s blog OI'
-      url: 'https://hntr.xyz/'
-    - name: 'cos0''s blog 技术'
-      url: 'http://cos0.xyz/'
-    - name: 'LOVE109❤️纪实小屋: 技术'
-      url: 'https://www.love109.cn/'
-    - name: 'Shuyan 清华学霸'
-      url: 'http://dongshuyan.com/'
-    - name: '荷塘月色 技术'
-      url: 'https://www.yansheng.xyz'
-    - name: '木子博客 硬核博客'
-      url: 'https://muuzi.cn/'
-    - name: 'Leaface 技术 生活'
-      url: 'https://www.liaofuzhan.com'
-    - name: 'Steven_MengのBlog 假蒟蒻'
-      url: 'https://gaisaiyuno.github.io'
-    - name: '甜欣屋 甜菜欣欣 程序猿'
-      url: 'https://tcxx.info/'
-    - name: '小丁博客 技术 电影'
-      url: 'https://tding.top/'
-    - name: '一只胖橘 编程 硬件'
-      url: 'https://www.akitten.cn'
-    - name: '小伟博客 技术 分享'
-      url: 'https://www.xiaoweigod.com/'
-    - name: '恶魔菌の记事簿 技术 二次'
-      url: 'https://meow3.family.blog/'
-    - name: '张雄 技术'
-      url: 'https://www.zhangxiong.net/'
-    - name: 'Mashiro 技术'
-      url: 'https://2heng.xin'
-    - name: '龙娅婷 技术 文艺'
-      url: 'https://www.longyating.com/'
-    - name: 'Minemine 技术 生'
-      url: 'https://minemine.cc/'
-    - name: 'LJQ''s blog 技术'
-      url: 'http://jiaqianlee.com/'
-    - name: 'Ray’s Blog 夜晚再黑，也压不过雪的白'
-      url: 'https://raycoder.me'
-    - name: '纯洁的微笑 技术 生活'
-      url: 'http://www.ityouknow.com/'
-    - name: '小游666 技术 二次元'
-      url: 'https://xiaoyou66.com'
-    - name: 'xaoxuu IOS'
-      url: 'https://xaoxuu.com'
-    - name: 'bestzuo 技术 ja'
-      url: 'https://bestzuo.cn/'
-    - name: '辣椒の酱 后端 分享'
-      url: 'https://removeif.github.io/'
-    - name: 'Michael Lynch technology'
-      url: 'https://mtlynch.io/'
-    - name: '小胡子哥 技术'
-      url: 'https://www.barretlee.com/'
-    - name: 'Steve Gordon technology'
-      url: 'https://www.stevejgordon.co.uk/'
-    - name: '稚晖的个人站 技术 diy'
-      url: 'http://www.pengzhihui.xyz/'
-    - name: 'Haoyi''s blog 技术'
-      url: 'https://www.lihaoyi.com/'
-    - name: 'Simon Ma 技术 分'
-      url: 'https://tomotoes.com/'
-    - name: 'diygod 技术 生活'
-      url: 'https://diygod.me/'
-    - name: '腾讯alloyteam 技术'
-      url: 'http://www.alloyteam.com/'
-    - name: 'Facebook 技术'
-      url: 'https://engineering.fb.com/'
-    - name: 'Square 技术'
-      url: 'https://square.github.io/'
-    - name: 'Googlr 技术'
-      url: 'https://opensource.googleblog.com/'
+    - name: "Hunter's blog OI"
+      url: "https://hntr.xyz/"
+    - name: "cos0's blog 技术"
+      url: "http://cos0.xyz/"
+    - name: "LOVE109❤️纪实小屋: 技术"
+      url: "https://www.love109.cn/"
+    - name: "Shuyan 清华学霸"
+      url: "http://dongshuyan.com/"
+    - name: "荷塘月色 技术"
+      url: "https://www.yansheng.xyz"
+    - name: "木子博客 硬核博客"
+      url: "https://muuzi.cn/"
+    - name: "Leaface 技术 生活"
+      url: "https://www.liaofuzhan.com"
+    - name: "Steven_MengのBlog 假蒟蒻"
+      url: "https://gaisaiyuno.github.io"
+    - name: "甜欣屋 甜菜欣欣 程序猿"
+      url: "https://tcxx.info/"
+    - name: "小丁博客 技术 电影"
+      url: "https://tding.top/"
+    - name: "一只胖橘 编程 硬件"
+      url: "https://www.akitten.cn"
+    - name: "小伟博客 技术 分享"
+      url: "https://www.xiaoweigod.com/"
+    - name: "恶魔菌の记事簿 技术 二次"
+      url: "https://meow3.family.blog/"
+    - name: "张雄 技术"
+      url: "https://www.zhangxiong.net/"
+    - name: "Mashiro 技术"
+      url: "https://2heng.xin"
+    - name: "龙娅婷 技术 文艺"
+      url: "https://www.longyating.com/"
+    - name: "Minemine 技术 生"
+      url: "https://minemine.cc/"
+    - name: "LJQ's blog 技术"
+      url: "http://jiaqianlee.com/"
+    - name: "Ray’s Blog 夜晚再黑，也压不过雪的白"
+      url: "https://raycoder.me"
+    - name: "纯洁的微笑 技术 生活"
+      url: "http://www.ityouknow.com/"
+    - name: "小游666 技术 二次元"
+      url: "https://xiaoyou66.com"
+    - name: "xaoxuu IOS"
+      url: "https://xaoxuu.com"
+    - name: "bestzuo 技术 ja"
+      url: "https://bestzuo.cn/"
+    - name: "辣椒の酱 后端 分享"
+      url: "https://removeif.github.io/"
+    - name: "Michael Lynch technology"
+      url: "https://mtlynch.io/"
+    - name: "小胡子哥 技术"
+      url: "https://www.barretlee.com/"
+    - name: "Steve Gordon technology"
+      url: "https://www.stevejgordon.co.uk/"
+    - name: "稚晖的个人站 技术 diy"
+      url: "http://www.pengzhihui.xyz/"
+    - name: "Haoyi's blog 技术"
+      url: "https://www.lihaoyi.com/"
+    - name: "Simon Ma 技术 分"
+      url: "https://tomotoes.com/"
+    - name: "diygod 技术 生活"
+      url: "https://diygod.me/"
+    - name: "腾讯alloyteam 技术"
+      url: "http://www.alloyteam.com/"
+    - name: "Facebook 技术"
+      url: "https://engineering.fb.com/"
+    - name: "Square 技术"
+      url: "https://square.github.io/"
+    - name: "Googlr 技术"
+      url: "https://opensource.googleblog.com/"

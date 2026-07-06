@@ -1,10 +1,10 @@
 site:
-  name: 'tiago.zip'
-  url: 'https://tiago.zip/'
-  description: '友情链接'
-  links: '/'
+  name: "tiago.zip"
+  url: "https://tiago.zip/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'bucket webring'
-      url: 'https://webring.bucketfish.me'
-    - name: 'built with zed'
-      url: 'https://zed.dev/'
+    - name: "bucket webring"
+      url: "https://webring.bucketfish.me"
+    - name: "built with zed"
+      url: "https://zed.dev/"

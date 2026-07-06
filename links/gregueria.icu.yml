@@ -1,84 +1,84 @@
 site:
-  name: 'gregueria.icu'
-  url: 'https://gregueria.icu/'
-  description: '友情链接'
-  links: '/links'
+  name: "gregueria.icu"
+  url: "https://gregueria.icu/"
+  description: "友情链接"
+  links: "/links"
   friends:
-    - name: '咖啡冰河'
-      url: 'https://blog.mysto.cyou'
-    - name: '小球飞鱼'
-      url: 'https://mantyke.icu/'
-    - name: '超新星电台'
-      url: 'https://supernovaradio.live/'
-    - name: '伏枥之间'
-      url: 'https://www.leehenry.top/'
-    - name: '山茶花舍'
-      url: 'https://irithys.com/'
-    - name: '深海鱼拒绝触礁'
-      url: 'https://trails-of-isara.vercel.app/'
-    - name: '东俄勒冈群山'
-      url: 'https://houdini.eu.org/'
-    - name: '呆呆不是槑'
-      url: 'http://graugris.icu/'
-    - name: '圆面包如何逃离狐口'
-      url: 'https://sunnkynews.icu/'
-    - name: '冷酷蹦迪'
-      url: 'https://www.hezicola.com/'
-    - name: '天堂错误文件'
-      url: 'https://naturaleki.one/'
-    - name: '珊瑚阁 GoldMaple'
-      url: 'https://goldmaple.info/'
-    - name: '昼河万里'
-      url: 'https://tothemoonriver.icu/'
-    - name: '春天与阿修罗'
-      url: 'https://harushuura.vip'
-    - name: '昼梦日和'
-      url: 'https://nanako.icu/'
-    - name: '一支咏叹调'
-      url: 'https://turquoise.one/'
-    - name: '一片痴心俱成灰'
-      url: 'https://akaito.xyz/'
-    - name: '第三夏尔'
-      url: 'https://thirdshire.com'
-    - name: '眠于水月间'
-      url: 'https://sleepymoon.cyou'
-    - name: '蝴蝶曾在此处'
-      url: 'https://www.changingmoments.one/'
-    - name: 'Missing'
-      url: 'https://www.missingid.online/'
-    - name: 'Mengru'
-      url: 'https://mengru.space/'
-    - name: 'Mid of Nowhere'
-      url: 'https://notes.midofnowhere.link/'
-    - name: 'Plaskier'
-      url: 'https://blog.plaskier.icu/'
-    - name: 'Shixiaocaia'
-      url: 'https://outofsea.fun/'
-    - name: 'A Purrception'
-      url: 'https://tortie.me/'
-    - name: 'Velas电波站'
-      url: 'https://www.velasx.com'
-    - name: '甜鱼/Ayu'
-      url: 'https://ayu.land'
-    - name: 'Muko'
-      url: 'https://iceco.vercel.app/'
-    - name: 'Kawa1Planet'
-      url: 'https://kawa1planet.fun/'
-    - name: 'Χαρυβδις'
-      url: 'https://kharybdism.xyz/'
-    - name: 'Shadows of the Sun'
-      url: 'https://rovingsun.wordpress.com/'
-    - name: '自由流动的树'
-      url: 'https://www.7rees.cc/'
-    - name: '天仙子'
-      url: 'https://tianxianzi.me/'
-    - name: '鸭川飞石'
-      url: 'https://fujiwaranatsuho.github.io/'
-    - name: 'suica'
-      url: 'https://suicablog.cobaltkiss.blue/'
-    - name: 'PXXELS'
-      url: 'https://pxxels.neocities.org/'
-    - name: 'ENCOM一号机'
-      url: 'https://alanone.top/'
-    - name: 'Gau’s Blog'
-      url: 'https://oo.ct.ws/'
+    - name: "咖啡冰河"
+      url: "https://blog.mysto.cyou"
+    - name: "小球飞鱼"
+      url: "https://mantyke.icu/"
+    - name: "超新星电台"
+      url: "https://supernovaradio.live/"
+    - name: "伏枥之间"
+      url: "https://www.leehenry.top/"
+    - name: "山茶花舍"
+      url: "https://irithys.com/"
+    - name: "深海鱼拒绝触礁"
+      url: "https://trails-of-isara.vercel.app/"
+    - name: "东俄勒冈群山"
+      url: "https://houdini.eu.org/"
+    - name: "呆呆不是槑"
+      url: "http://graugris.icu/"
+    - name: "圆面包如何逃离狐口"
+      url: "https://sunnkynews.icu/"
+    - name: "冷酷蹦迪"
+      url: "https://www.hezicola.com/"
+    - name: "天堂错误文件"
+      url: "https://naturaleki.one/"
+    - name: "珊瑚阁 GoldMaple"
+      url: "https://goldmaple.info/"
+    - name: "昼河万里"
+      url: "https://tothemoonriver.icu/"
+    - name: "春天与阿修罗"
+      url: "https://harushuura.vip"
+    - name: "昼梦日和"
+      url: "https://nanako.icu/"
+    - name: "一支咏叹调"
+      url: "https://turquoise.one/"
+    - name: "一片痴心俱成灰"
+      url: "https://akaito.xyz/"
+    - name: "第三夏尔"
+      url: "https://thirdshire.com"
+    - name: "眠于水月间"
+      url: "https://sleepymoon.cyou"
+    - name: "蝴蝶曾在此处"
+      url: "https://www.changingmoments.one/"
+    - name: "Missing"
+      url: "https://www.missingid.online/"
+    - name: "Mengru"
+      url: "https://mengru.space/"
+    - name: "Mid of Nowhere"
+      url: "https://notes.midofnowhere.link/"
+    - name: "Plaskier"
+      url: "https://blog.plaskier.icu/"
+    - name: "Shixiaocaia"
+      url: "https://outofsea.fun/"
+    - name: "A Purrception"
+      url: "https://tortie.me/"
+    - name: "Velas电波站"
+      url: "https://www.velasx.com"
+    - name: "甜鱼/Ayu"
+      url: "https://ayu.land"
+    - name: "Muko"
+      url: "https://iceco.vercel.app/"
+    - name: "Kawa1Planet"
+      url: "https://kawa1planet.fun/"
+    - name: "Χαρυβδις"
+      url: "https://kharybdism.xyz/"
+    - name: "Shadows of the Sun"
+      url: "https://rovingsun.wordpress.com/"
+    - name: "自由流动的树"
+      url: "https://www.7rees.cc/"
+    - name: "天仙子"
+      url: "https://tianxianzi.me/"
+    - name: "鸭川飞石"
+      url: "https://fujiwaranatsuho.github.io/"
+    - name: "suica"
+      url: "https://suicablog.cobaltkiss.blue/"
+    - name: "PXXELS"
+      url: "https://pxxels.neocities.org/"
+    - name: "ENCOM一号机"
+      url: "https://alanone.top/"
+    - name: "Gau’s Blog"
+      url: "https://oo.ct.ws/"

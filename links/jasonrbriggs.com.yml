@@ -1,10 +1,10 @@
 site:
-  name: 'jasonrbriggs.com'
-  url: 'https://jasonrbriggs.com/'
-  description: '友情链接'
-  links: '/'
+  name: "jasonrbriggs.com"
+  url: "https://jasonrbriggs.com/"
+  description: "友情链接"
+  links: "/"
   friends:
-    - name: 'f-droid'
-      url: 'https://f-droid.org/'
-    - name: '© Copyright 2026'
-      url: 'http://getgrav.org/'
+    - name: "f-droid"
+      url: "https://f-droid.org/"
+    - name: "© Copyright 2026"
+      url: "http://getgrav.org/"

@@ -1,82 +1,82 @@
 site:
-  name: '思维之海'
-  url: 'https://stellarkey.github.io/'
-  description: 'Never stop thinking.'
-  links: '/links'
+  name: "思维之海"
+  url: "https://stellarkey.github.io/"
+  description: "Never stop thinking."
+  links: "/links"
   friends:
-    - name: '思维之海'
-      url: 'https://vel.life/'
-    - name: '随遇而安'
-      url: 'https://www.iszy.cc/'
-    - name: 'asdfv1929 's Home'
-      url: 'https://asdfv1929.github.io/'
-    - name: 'PRIN BLOG'
-      url: 'https://printempw.github.io/'
-    - name: 'Li Jiang — Home'
-      url: 'https://louieworth.github.io/'
-    - name: 'Random Thoughts'
-      url: 'https://blog.joway.io/'
-    - name: 'A P R I L Z E R O'
-      url: 'https://aprilzero.com/'
-    - name: '编程随想的博客'
-      url: 'https://program-think.blogspot.com/'
-    - name: '且听书吟'
-      url: 'https://yufan.me/'
-    - name: 'Yoruka's Blog'
-      url: 'https://yecl.net/'
-    - name: '土木坛子'
-      url: 'https://tumutanzi.com/'
-    - name: '卢昌海个人主页'
-      url: 'https://www.changhai.org/'
-    - name: '海德沙龙（HeadSalon）'
-      url: 'https://headsalon.org/'
-    - name: '随望淡思'
-      url: 'https://www.lushaojun.com/'
-    - name: 'physixfan'
-      url: 'https://www.physixfan.com/'
-    - name: 'Surely I am Joking'
-      url: 'https://www.yinwang.org/'
-    - name: 'Fan's Farm'
-      url: 'https://fzheng.me/'
-    - name: '落园'
-      url: 'https://www.loyhome.com/'
-    - name: '阮一峰的个人网站'
-      url: 'https://www.ruanyifeng.com/'
-    - name: 'To Type a Mockingbird'
-      url: 'https://www.soimort.org/'
-    - name: '我爱自然语言处理'
-      url: 'https://www.52nlp.cn/'
-    - name: 'Nanyun (Violet) Peng'
-      url: 'https://violetpeng.github.io/'
-    - name: '创业笔记'
-      url: 'https://www.berlinix.com/'
-    - name: 'Liangchen Luo'
-      url: 'https://www.luolc.com/'
-    - name: 'RexKing6's Note'
-      url: 'https://blog.rexking6.top/'
-    - name: '📚 plmblog'
-      url: 'https://plmsmile.github.io/'
-    - name: 'Stay Hungry,Stay Foolish.'
-      url: 'https://tobiaslee.top/'
-    - name: 'reuixiy'
-      url: 'https://io-oi.me/'
-    - name: '一休兒之哲學誌 — Yixiuer.me'
-      url: 'https://yixiuer.me/'
-    - name: '酷 壳'
-      url: 'https://coolshell.cn/'
-    - name: 'fanyeong.com'
-      url: 'https://www.fanyeong.com/'
-    - name: '加菲猫的创客工坊'
-      url: 'https://www.gaficat.com/'
-    - name: 'n+e's blog'
-      url: 'https://trinkle23897.github.io/'
-    - name: 'xsro'
-      url: 'https://xsro.github.io/'
-    - name: '主页'
-      url: 'https://harrychen.xyz/'
-    - name: 'Dandy Weng'
-      url: 'https://dandyweng.com/'
-    - name: 'STRML: Projects and Work'
-      url: 'https://www.strml.net/'
-    - name: 'Hgen27 Doctrine'
-      url: 'https://hgen27.github.io/'
+    - name: "思维之海"
+      url: "https://vel.life/"
+    - name: "随遇而安"
+      url: "https://www.iszy.cc/"
+    - name: "asdfv1929 's Home"
+      url: "https://asdfv1929.github.io/"
+    - name: "PRIN BLOG"
+      url: "https://printempw.github.io/"
+    - name: "Li Jiang — Home"
+      url: "https://louieworth.github.io/"
+    - name: "Random Thoughts"
+      url: "https://blog.joway.io/"
+    - name: "A P R I L Z E R O"
+      url: "https://aprilzero.com/"
+    - name: "编程随想的博客"
+      url: "https://program-think.blogspot.com/"
+    - name: "且听书吟"
+      url: "https://yufan.me/"
+    - name: "Yoruka's Blog"
+      url: "https://yecl.net/"
+    - name: "土木坛子"
+      url: "https://tumutanzi.com/"
+    - name: "卢昌海个人主页"
+      url: "https://www.changhai.org/"
+    - name: "海德沙龙（HeadSalon）"
+      url: "https://headsalon.org/"
+    - name: "随望淡思"
+      url: "https://www.lushaojun.com/"
+    - name: "physixfan"
+      url: "https://www.physixfan.com/"
+    - name: "Surely I am Joking"
+      url: "https://www.yinwang.org/"
+    - name: "Fan's Farm"
+      url: "https://fzheng.me/"
+    - name: "落园"
+      url: "https://www.loyhome.com/"
+    - name: "阮一峰的个人网站"
+      url: "https://www.ruanyifeng.com/"
+    - name: "To Type a Mockingbird"
+      url: "https://www.soimort.org/"
+    - name: "我爱自然语言处理"
+      url: "https://www.52nlp.cn/"
+    - name: "Nanyun (Violet) Peng"
+      url: "https://violetpeng.github.io/"
+    - name: "创业笔记"
+      url: "https://www.berlinix.com/"
+    - name: "Liangchen Luo"
+      url: "https://www.luolc.com/"
+    - name: "RexKing6's Note"
+      url: "https://blog.rexking6.top/"
+    - name: "📚 plmblog"
+      url: "https://plmsmile.github.io/"
+    - name: "Stay Hungry,Stay Foolish."
+      url: "https://tobiaslee.top/"
+    - name: "reuixiy"
+      url: "https://io-oi.me/"
+    - name: "一休兒之哲學誌 — Yixiuer.me"
+      url: "https://yixiuer.me/"
+    - name: "酷 壳"
+      url: "https://coolshell.cn/"
+    - name: "fanyeong.com"
+      url: "https://www.fanyeong.com/"
+    - name: "加菲猫的创客工坊"
+      url: "https://www.gaficat.com/"
+    - name: "n+e's blog"
+      url: "https://trinkle23897.github.io/"
+    - name: "xsro"
+      url: "https://xsro.github.io/"
+    - name: "主页"
+      url: "https://harrychen.xyz/"
+    - name: "Dandy Weng"
+      url: "https://dandyweng.com/"
+    - name: "STRML: Projects and Work"
+      url: "https://www.strml.net/"
+    - name: "Hgen27 Doctrine"
+      url: "https://hgen27.github.io/"

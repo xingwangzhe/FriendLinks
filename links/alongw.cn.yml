@@ -1,84 +1,84 @@
 site:
-  name: 'alongw.cn'
-  url: 'https://www.alongw.cn/'
-  description: '友情链接'
-  links: '/friend'
+  name: "alongw.cn"
+  url: "https://www.alongw.cn/"
+  description: "友情链接"
+  links: "/friend"
   friends:
-    - name: 'Nya Account'
-      url: 'https://account.lolinya.net/'
-    - name: '杰出兽的小宇宙'
-      url: 'https://www.jiecs.top/'
-    - name: '三三的博客'
-      url: 'https://blog.icusec.cn/'
-    - name: 'Xiwangly’s Blog'
-      url: 'https://www.xiwangly.top'
-    - name: '白菜的漂流瓶'
-      url: 'https://www.n-bc.top/'
-    - name: '橙汁喵'
-      url: 'https://cheng.catnies.top'
-    - name: '夜灭の小窝'
-      url: 'https://yujie.pro'
-    - name: 'Frkの博客'
-      url: 'https://www.frkovo.cn'
-    - name: 'Canmi'
-      url: 'https://arc.canmi.icu/'
-    - name: '砂纸の小屋'
-      url: 'https://blog.dimeta.top/'
-    - name: '小小黑的个人小站'
-      url: 'https://lonelyenderman.top'
-    - name: 'KAMIASUKA’s Blog'
-      url: 'https://kamiasuka.top'
-    - name: '御坂秋生の小窝'
-      url: 'https://www.akio.top/'
-    - name: '烟墨的屑站点'
-      url: 'https://blog.ymbit.cn/'
-    - name: 'New_fei – 小破站'
-      url: 'https://newfei.top'
-    - name: '包子哟'
-      url: 'https://blog.bugjava.cn'
-    - name: 'Steven Lynn''s Blog'
-      url: 'https://blog.stv.lol/'
-    - name: 'High sunlight Lee 的博客'
-      url: 'https://highsunlightlee.net/'
-    - name: 'outovo博客'
-      url: 'https://www.outovo.top/'
-    - name: '恐龙子的空间'
-      url: 'https://www.buerka.cn/'
-    - name: 'solstice23’s Blog'
-      url: 'https://blog.s23.moe/'
-    - name: '零狼 の 小窝'
-      url: 'https://zerowolf.cn/'
-    - name: '盐木的小破窝'
-      url: 'https://ski.ink'
-    - name: '萌新杰少の秘密基地'
-      url: 'https://imcys.com/'
-    - name: 'iVampireSP 的物语'
-      url: 'https://ivampiresp.com'
-    - name: '夏沫花火zzz🌙 (Muska_Ami)のLife'
-      url: 'https://blog.1l1.icu/'
-    - name: '木兰の日常'
-      url: 'https://nekosama.cn/'
-    - name: '铭心の博客'
-      url: 'https://www.mxin.moe'
-    - name: 'Lazy''s Blog'
-      url: 'https://blog.imlazy.ink:233/'
-    - name: '米露小窝'
-      url: 'https://www.milu.ink/'
-    - name: '星猩博客'
-      url: 'https://www.ltfei.cn/'
-    - name: '心雨博客'
-      url: 'https://xinyu.moe/'
-    - name: '墨染繁星のHOME'
-      url: 'https://uulin.cn'
-    - name: '薄荷の小屋'
-      url: 'https://blog.hoshiroko.com'
-    - name: 'Night1918 Blog'
-      url: 'https://blog.night1918.top/'
-    - name: 'Night1918'
-      url: 'https://blog.jyhao.cn'
-    - name: 'KafuuCoori'
-      url: 'https://www.kafuucoori.top'
-    - name: 'Canmi'
-      url: 'https://canmi21.github.io/'
-    - name: '小红帽'
-      url: 'https://www.xhmbbs.icu'
+    - name: "Nya Account"
+      url: "https://account.lolinya.net/"
+    - name: "杰出兽的小宇宙"
+      url: "https://www.jiecs.top/"
+    - name: "三三的博客"
+      url: "https://blog.icusec.cn/"
+    - name: "Xiwangly’s Blog"
+      url: "https://www.xiwangly.top"
+    - name: "白菜的漂流瓶"
+      url: "https://www.n-bc.top/"
+    - name: "橙汁喵"
+      url: "https://cheng.catnies.top"
+    - name: "夜灭の小窝"
+      url: "https://yujie.pro"
+    - name: "Frkの博客"
+      url: "https://www.frkovo.cn"
+    - name: "Canmi"
+      url: "https://arc.canmi.icu/"
+    - name: "砂纸の小屋"
+      url: "https://blog.dimeta.top/"
+    - name: "小小黑的个人小站"
+      url: "https://lonelyenderman.top"
+    - name: "KAMIASUKA’s Blog"
+      url: "https://kamiasuka.top"
+    - name: "御坂秋生の小窝"
+      url: "https://www.akio.top/"
+    - name: "烟墨的屑站点"
+      url: "https://blog.ymbit.cn/"
+    - name: "New_fei – 小破站"
+      url: "https://newfei.top"
+    - name: "包子哟"
+      url: "https://blog.bugjava.cn"
+    - name: "Steven Lynn's Blog"
+      url: "https://blog.stv.lol/"
+    - name: "High sunlight Lee 的博客"
+      url: "https://highsunlightlee.net/"
+    - name: "outovo博客"
+      url: "https://www.outovo.top/"
+    - name: "恐龙子的空间"
+      url: "https://www.buerka.cn/"
+    - name: "solstice23’s Blog"
+      url: "https://blog.s23.moe/"
+    - name: "零狼 の 小窝"
+      url: "https://zerowolf.cn/"
+    - name: "盐木的小破窝"
+      url: "https://ski.ink"
+    - name: "萌新杰少の秘密基地"
+      url: "https://imcys.com/"
+    - name: "iVampireSP 的物语"
+      url: "https://ivampiresp.com"
+    - name: "夏沫花火zzz🌙 (Muska_Ami)のLife"
+      url: "https://blog.1l1.icu/"
+    - name: "木兰の日常"
+      url: "https://nekosama.cn/"
+    - name: "铭心の博客"
+      url: "https://www.mxin.moe"
+    - name: "Lazy's Blog"
+      url: "https://blog.imlazy.ink:233/"
+    - name: "米露小窝"
+      url: "https://www.milu.ink/"
+    - name: "星猩博客"
+      url: "https://www.ltfei.cn/"
+    - name: "心雨博客"
+      url: "https://xinyu.moe/"
+    - name: "墨染繁星のHOME"
+      url: "https://uulin.cn"
+    - name: "薄荷の小屋"
+      url: "https://blog.hoshiroko.com"
+    - name: "Night1918 Blog"
+      url: "https://blog.night1918.top/"
+    - name: "Night1918"
+      url: "https://blog.jyhao.cn"
+    - name: "KafuuCoori"
+      url: "https://www.kafuucoori.top"
+    - name: "Canmi"
+      url: "https://canmi21.github.io/"
+    - name: "小红帽"
+      url: "https://www.xhmbbs.icu"

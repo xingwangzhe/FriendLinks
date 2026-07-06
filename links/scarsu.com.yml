@@ -1,28 +1,28 @@
 site:
-  name: 'scarsu.com'
-  url: 'https://www.scarsu.com/'
-  description: '友情链接'
-  links: '/friends'
+  name: "scarsu.com"
+  url: "https://www.scarsu.com/"
+  description: "友情链接"
+  links: "/friends"
   friends:
-    - name: '前端桃园 相信 W3C，遵从黑客文化，相信自己能改变世界'
-      url: 'http://www.taoweng.site/'
-    - name: 'Conge 跑步、育儿、习惯养成、冥想'
-      url: 'https://conge.livingwithfcs.org/'
-    - name: '碎言博客 编程、学习、记录'
-      url: 'https://suiyan.cc/'
-    - name: '知录 知录，留下每一个技术灵感。'
-      url: 'https://kacper.fun'
-    - name: '潘智祥 生活、读书、工作'
-      url: 'https://panzhixiang.cn'
-    - name: '秋雨De blog 编程、技术分享'
-      url: 'https://www.fallrain.cn/'
-    - name: '某科学的贝壳 Get busy living or get busy dying.'
-      url: 'https://blog.ning.moe/'
+    - name: "前端桃园 相信 W3C，遵从黑客文化，相信自己能改变世界"
+      url: "http://www.taoweng.site/"
+    - name: "Conge 跑步、育儿、习惯养成、冥想"
+      url: "https://conge.livingwithfcs.org/"
+    - name: "碎言博客 编程、学习、记录"
+      url: "https://suiyan.cc/"
+    - name: "知录 知录，留下每一个技术灵感。"
+      url: "https://kacper.fun"
+    - name: "潘智祥 生活、读书、工作"
+      url: "https://panzhixiang.cn"
+    - name: "秋雨De blog 编程、技术分享"
+      url: "https://www.fallrain.cn/"
+    - name: "某科学的贝壳 Get busy living or get busy dying."
+      url: "https://blog.ning.moe/"
     - name: 'lencx的博客 {"{折腾 ⇌ 迷茫 ⇌ 思考]ing，在路上..."}'
-      url: 'https://nofwl.com'
-    - name: '不才的博客 这是不才的博客，用于记录生活、学习笔记。专注WEB前端，全面发展，做一个有梦想又憨憨的咸鱼。'
-      url: 'https://www.notbucai.com/'
-    - name: '童欧巴博客 公众号《前端食堂》，吃好每一顿。'
-      url: 'https://hungryturbo.com'
-    - name: 'Daniel Wang 溺死在前端的浑水里。。。'
-      url: 'https://wangxitong.github.io/'
+      url: "https://nofwl.com"
+    - name: "不才的博客 这是不才的博客，用于记录生活、学习笔记。专注WEB前端，全面发展，做一个有梦想又憨憨的咸鱼。"
+      url: "https://www.notbucai.com/"
+    - name: "童欧巴博客 公众号《前端食堂》，吃好每一顿。"
+      url: "https://hungryturbo.com"
+    - name: "Daniel Wang 溺死在前端的浑水里。。。"
+      url: "https://wangxitong.github.io/"
