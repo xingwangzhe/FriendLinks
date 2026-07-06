@@ -39,7 +39,7 @@
   --color-secondary: var(--secondary);
   --color-secondary-foreground: var(--secondary-foreground);
   --color-secondary-accent: var(--secondary-accent);
-  --color-muted: var(--muted);
+  --color-muted: var(--muted-bg);
   --color-muted-foreground: var(--muted-foreground);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
