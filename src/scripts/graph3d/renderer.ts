@@ -106,8 +106,6 @@ export function createRenderer(container: HTMLElement, nodeCount: number, linkCo
   // Scene
   const scene = new THREE.Scene();
   scene.background = new THREE.Color(BG_COLOR);
-  // 雾效：远处星星逐渐隐入背景，增强纵深感
-  scene.fog = new THREE.FogExp2(BG_COLOR, 0.00005);
 
   // OrbitControls
   const controls = new OrbitControls(camera, renderer.domElement);
@@ -127,15 +125,10 @@ export function createRenderer(container: HTMLElement, nodeCount: number, linkCo
     transparent: true,
     depthWrite: false,
     blending: THREE.NormalBlending,
-    uniforms: {
-      fogColor: { value: new THREE.Color(BG_COLOR) },
-      fogDensity: { value: 0.00005 },
-    },
     vertexShader: `
       varying vec3 vColor;
       varying vec3 vNormal;
       varying vec3 vViewDir;
-      varying float vFogDepth;
 
       void main() {
         vColor = instanceColor;
@@ -143,27 +136,17 @@ export function createRenderer(container: HTMLElement, nodeCount: number, linkCo
         vNormal = normalize(mat3(instanceMatrix) * normal);
         vec4 mvPos = modelViewMatrix * worldPos;
         vViewDir = normalize(-mvPos.xyz);
-        vFogDepth = -mvPos.z;
         gl_Position = projectionMatrix * mvPos;
       }
     `,
     fragmentShader: `
-      uniform vec3 fogColor;
-      uniform float fogDensity;
-
       varying vec3 vColor;
       varying vec3 vNormal;
       varying vec3 vViewDir;
-      varying float vFogDepth;
 
       void main() {
         float alpha = 0.25;
         vec3 col = vColor * 0.7;
-        // 雾效
-        float fog = exp(-fogDensity * fogDensity * vFogDepth * vFogDepth);
-        fog = clamp(fog, 0.0, 1.0);
-        col = mix(fogColor, col, fog);
-        alpha *= fog;
         gl_FragColor = vec4(col, alpha);
       }
     `,
@@ -404,18 +387,14 @@ export function createNodeGlow(
     uniforms: { 
       glowTex: { value: glowTex },
       glowIntensity: { value: 1.0 },
-      fogColor: { value: new THREE.Color(BG_COLOR) },
-      fogDensity: { value: 0.00005 },
     },
     vertexShader: `
       attribute vec3 aCol;
       attribute float aSz;
       varying vec3 vCol;
-      varying float vFogDepth;
       void main() {
         vCol = aCol;
         vec4 mv = modelViewMatrix * vec4(position, 1.0);
-        vFogDepth = -mv.z;
         gl_PointSize = clamp(aSz * (320.0 / -mv.z), 1.5, 48.0);
         gl_Position = projectionMatrix * mv;
       }
@@ -423,15 +402,10 @@ export function createNodeGlow(
     fragmentShader: `
       uniform sampler2D glowTex;
       uniform float glowIntensity;
-      uniform vec3 fogColor;
-      uniform float fogDensity;
       varying vec3 vCol;
-      varying float vFogDepth;
       void main() {
         float a = texture2D(glowTex, gl_PointCoord).r;
-        float fog = exp(-fogDensity * fogDensity * vFogDepth * vFogDepth);
-        fog = clamp(fog, 0.0, 1.0);
-        gl_FragColor = vec4(mix(fogColor, vCol * 1.2 * glowIntensity, fog), a * 0.60 * fog);
+        gl_FragColor = vec4(vCol * 1.2 * glowIntensity, a * 0.60);
       }
     `,
     blending: THREE.AdditiveBlending,
