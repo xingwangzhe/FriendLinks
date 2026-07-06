@@ -119,21 +119,16 @@ export function createRenderer(container: HTMLElement, nodeCount: number, linkCo
   const nodeGeom = new THREE.SphereGeometry(1, NODE_SEGMENTS, NODE_SEGMENTS);
   const nodeMat = new THREE.ShaderMaterial({
     vertexShader: `
-      #include <common>
-      #include <instancing_pars_vertex>
-
       varying vec3 vColor;
       varying vec3 vNormal;
       varying vec3 vViewDir;
 
       void main() {
-        #include <begin_vertex>
-        #include <instancing_vertex>
-
         vColor = instanceColor;
-        // 均匀缩放 (15,15,15)，instanceMatrix 左上 3×3 即可正确变换法线
+        vec4 worldPos = instanceMatrix * vec4(position, 1.0);
+        // 均匀缩放 (15,15,15)，mat3(instanceMatrix) 即可正确变换法线
         vNormal = normalize(mat3(instanceMatrix) * normal);
-        vec4 mvPos = modelViewMatrix * vec4(transformed, 1.0);
+        vec4 mvPos = modelViewMatrix * worldPos;
         vViewDir = normalize(-mvPos.xyz);
         gl_Position = projectionMatrix * mvPos;
       }
