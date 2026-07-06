@@ -1,14 +1,16 @@
 site:
-  name: "bokey.space"
-  url: "https://bokey.space/"
-  description: "友情链接"
-  links: "/link"
+  name: Bokey Space
+  url: https://bokey.space/
+  description: |-
+    Bokey Space📍，希望在世界留下我的痕迹。我是Bokey，一名深圳的前端程序员，
+              在这里我会分享我的日常☕️、编程💻、成长✍🏻，我们都会成为自己想要的样子
+  links: /link
   friends:
-    - name: "Hans362不以物喜，不以己悲"
-      url: "https://blog.hans362.cn"
-    - name: "YoursaiYoursai"
-      url: "https://www.yoursai.cn"
-    - name: "SolitudeScrollSatellite yourself."
-      url: "https://subilan.win"
-    - name: "Arthals' ink所见高山远木，阔云流风；所幸岁月盈余，了无拘束"
-      url: "https://arthals.ink/"
+    - name: Hans362不以物喜，不以己悲
+      url: https://blog.hans362.cn
+    - name: YoursaiYoursai
+      url: https://www.yoursai.cn
+    - name: SolitudeScrollSatellite yourself.
+      url: https://subilan.win
+    - name: Arthals' ink所见高山远木，阔云流风；所幸岁月盈余，了无拘束
+      url: https://arthals.ink/

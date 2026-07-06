@@ -1,80 +1,80 @@
 site:
-  name: "shan333.cn"
-  url: "https://shan333.cn/"
-  description: "友情链接"
-  links: "/friends"
+  name: ShanSan
+  url: https://shan333.cn/
+  description: ShanSan blog rendered by the Astro migration POC.
+  links: /friends
   friends:
-    - name: "十年之约虫洞"
-      url: "https://www.foreverblog.cn/go.html"
-    - name: "雨帆Java, C#"
-      url: "https://yufan.me/"
-    - name: "xaoxuuvolantis作者, IOS"
-      url: "https://xaoxuu.com"
-    - name: "MashiroWeb前端"
-      url: "https://2heng.xin/"
-    - name: "嗜血星空earthBIM学习者"
-      url: "https://sxxkearth.github.io/"
-    - name: "Librarius's BlogC#"
-      url: "https://lloyar.github.io/"
-    - name: "Rinvay.H运维大佬"
-      url: "https://www.rinvay.cc/"
-    - name: "Hoe's Notes后端开发"
-      url: "https://www.hoehub.com"
-    - name: "lvlv's blogWeb前端"
-      url: "https://lvshaomei.github.io/"
-    - name: "辣椒の酱Java"
-      url: "https://removeif.github.io/"
-    - name: "MrGo123后端攻城狮"
-      url: "https://MrGo123.github.io/"
-    - name: "炎忍Kolin, Android"
-      url: "https://blog.imyan.ren/"
-    - name: "Tanger加油加油"
-      url: "https://redhat123456.github.io/"
-    - name: "悲伤的吉子树Springboot"
-      url: "https://berserker287.github.io/"
-    - name: "搅拌糖°技术不宅, Web开发"
-      url: "https://jiaobantang.github.io/"
-    - name: "HawkC++"
-      url: "https://hawkinchina.github.io/"
-    - name: "半叶子C"
-      url: "https://mebyz.cn/"
-    - name: "CNCF 云原生基金会https://www.cncf.io/"
-      url: "https://www.cncf.io/"
-    - name: "瑟瑟有一天我会死去"
-      url: "https://sesese.top"
-    - name: "hojunWeb开发"
-      url: "https://www.hojun.cn/"
-    - name: "教书先生Web开发"
-      url: "http://blog.oioweb.cn"
-    - name: "Bert Liu's Blog室内设计"
-      url: "https://liubo.design/"
-    - name: "楓の街以有涯随无涯"
-      url: "https://www.weingxing.cn/"
-    - name: "LiZiWu李自伍的个人技术博客 & 期待与你相逢"
-      url: "https://www.liziwu.net/"
-    - name: "果子酱Java, Golang"
-      url: "https://cak.moe/"
-    - name: "Don LexJava, Python"
-      url: "https://donlex.cn/"
-    - name: "清秋Python"
-      url: "https://sandsea.vip/"
-    - name: "云宝地Java"
-      url: "https://blog.yunbaodi.com"
-    - name: "残梦前端、JS"
-      url: "https://sunhang.top/"
-    - name: "张雄向阳生长，触碰流云"
-      url: "https://www.zhangxiong.net/"
-    - name: "洛尘曦Java, Python"
-      url: "https://www.sgyzyun.club/"
-    - name: "Nykee前端打杂狮/公路骑游党"
-      url: "https://www.nykee.cn/"
-    - name: "子翔一个努力学技术的小白（中学生）"
-      url: "https://www.weizixiang.com/"
-    - name: "我爱吃土豆一个爱吃土豆的程序员"
-      url: "https://itudo.cn/"
-    - name: "Copyright © 2018-2026 ShanSan"
-      url: "https://shansan.top"
-    - name: "draw.io"
-      url: "https://www.draw.io/"
-    - name: "Carbon"
-      url: "https://carbon.now.sh"
+    - name: 十年之约虫洞
+      url: https://www.foreverblog.cn/go.html
+    - name: 雨帆Java, C#
+      url: https://yufan.me/
+    - name: xaoxuuvolantis作者, IOS
+      url: https://xaoxuu.com
+    - name: MashiroWeb前端
+      url: https://2heng.xin/
+    - name: 嗜血星空earthBIM学习者
+      url: https://sxxkearth.github.io/
+    - name: Librarius's BlogC#
+      url: https://lloyar.github.io/
+    - name: Rinvay.H运维大佬
+      url: https://www.rinvay.cc/
+    - name: Hoe's Notes后端开发
+      url: https://www.hoehub.com
+    - name: lvlv's blogWeb前端
+      url: https://lvshaomei.github.io/
+    - name: 辣椒の酱Java
+      url: https://removeif.github.io/
+    - name: MrGo123后端攻城狮
+      url: https://MrGo123.github.io/
+    - name: 炎忍Kolin, Android
+      url: https://blog.imyan.ren/
+    - name: Tanger加油加油
+      url: https://redhat123456.github.io/
+    - name: 悲伤的吉子树Springboot
+      url: https://berserker287.github.io/
+    - name: 搅拌糖°技术不宅, Web开发
+      url: https://jiaobantang.github.io/
+    - name: HawkC++
+      url: https://hawkinchina.github.io/
+    - name: 半叶子C
+      url: https://mebyz.cn/
+    - name: CNCF 云原生基金会https://www.cncf.io/
+      url: https://www.cncf.io/
+    - name: 瑟瑟有一天我会死去
+      url: https://sesese.top
+    - name: hojunWeb开发
+      url: https://www.hojun.cn/
+    - name: 教书先生Web开发
+      url: http://blog.oioweb.cn
+    - name: Bert Liu's Blog室内设计
+      url: https://liubo.design/
+    - name: 楓の街以有涯随无涯
+      url: https://www.weingxing.cn/
+    - name: LiZiWu李自伍的个人技术博客 & 期待与你相逢
+      url: https://www.liziwu.net/
+    - name: 果子酱Java, Golang
+      url: https://cak.moe/
+    - name: Don LexJava, Python
+      url: https://donlex.cn/
+    - name: 清秋Python
+      url: https://sandsea.vip/
+    - name: 云宝地Java
+      url: https://blog.yunbaodi.com
+    - name: 残梦前端、JS
+      url: https://sunhang.top/
+    - name: 张雄向阳生长，触碰流云
+      url: https://www.zhangxiong.net/
+    - name: 洛尘曦Java, Python
+      url: https://www.sgyzyun.club/
+    - name: Nykee前端打杂狮/公路骑游党
+      url: https://www.nykee.cn/
+    - name: 子翔一个努力学技术的小白（中学生）
+      url: https://www.weizixiang.com/
+    - name: 我爱吃土豆一个爱吃土豆的程序员
+      url: https://itudo.cn/
+    - name: Copyright © 2018-2026 ShanSan
+      url: https://shansan.top
+    - name: draw.io
+      url: https://www.draw.io/
+    - name: Carbon
+      url: https://carbon.now.sh

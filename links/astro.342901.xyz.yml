@@ -1,10 +1,10 @@
 site:
-  name: "astro.342901.xyz"
-  url: "https://astro.342901.xyz/"
-  description: "友情链接"
-  links: "/friends"
+  name: 毕少侠 - 也在江湖
+  url: https://astro.342901.xyz/
+  description: 毕少侠 - 也在江湖
+  links: /friends
   friends:
-    - name: "geekswg.js.cool"
-      url: "https://geekswg.js.cool"
-    - name: "developer.mozilla.org"
-      url: "https://developer.mozilla.org"
+    - name: geekswg.js.cool
+      url: https://geekswg.js.cool
+    - name: developer.mozilla.org
+      url: https://developer.mozilla.org

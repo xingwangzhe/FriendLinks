@@ -1,10 +1,10 @@
 site:
-  name: "writequit.org"
-  url: "http://writequit.org/"
-  description: "友情链接"
-  links: "/"
+  name: :wq - Writequit
+  url: http://writequit.org/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Zsh"
-      url: "http://zsh.org/"
-    - name: "Matrix"
-      url: "https://matrix.org"
+    - name: Zsh
+      url: http://zsh.org/
+    - name: Matrix
+      url: https://matrix.org

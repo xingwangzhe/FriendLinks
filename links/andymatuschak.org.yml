@@ -1,14 +1,14 @@
 site:
-  name: "andymatuschak.org"
-  url: "http://andymatuschak.org/"
-  description: "友情链接"
-  links: "/"
+  name: Andy Matuschak
+  url: http://andymatuschak.org/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Pico"
-      url: "https://withpico.com"
-    - name: "R&D at Khan Academy"
-      url: "https://early.khanacademy.org"
-    - name: "OrbitA platform for memory system experiments"
-      url: "https://withorbit.com"
-    - name: "Khan Academy"
-      url: "https://khanacademy.org"
+    - name: Pico
+      url: https://withpico.com
+    - name: R&D at Khan Academy
+      url: https://early.khanacademy.org
+    - name: OrbitA platform for memory system experiments
+      url: https://withorbit.com
+    - name: Khan Academy
+      url: https://khanacademy.org

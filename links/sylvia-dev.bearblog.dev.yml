@@ -1,12 +1,18 @@
 site:
-  name: "sylvia-dev.bearblog.dev"
-  url: "https://sylvia-dev.bearblog.dev/"
-  description: "友情链接"
-  links: "/"
+  name: A digression
+  url: https://sylvia-dev.bearblog.dev/
+  description: |-
+    <style>
+    body { max-width: 70ch; margin: 0 auto; padding: 0 1em; }
+    </style>
+    Hello
+
+    Welcome to my sandbox. This is where I experiment & play with Bearblog...
+  links: /
   friends:
-    - name: "My brain dump"
-      url: "https://departure.blog"
-    - name: "Rosé Pine color palette"
-      url: "https://rosepinetheme.com/"
-    - name: "Bookshelf Town"
-      url: "https://bookshelf.town/"
+    - name: My brain dump
+      url: https://departure.blog
+    - name: Rosé Pine color palette
+      url: https://rosepinetheme.com/
+    - name: Bookshelf Town
+      url: https://bookshelf.town/

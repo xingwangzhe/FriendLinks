@@ -1,12 +1,12 @@
 site:
-  name: "blog.butanediol.me"
-  url: "https://blog.butanediol.me/"
-  description: "友情链接"
-  links: "/links"
+  name: Butanediol's Blog
+  url: https://blog.butanediol.me/
+  description: 记录个人写作，以及基于真实对话生成的 Dialogica 技术文章。
+  links: /links
   friends:
-    - name: "xMuu Blog 哈，你也在这里。 blog.xmuu.dev"
-      url: "https://blog.xmuu.dev"
-    - name: "栗木小站 搞点后现代 misakishiki.site"
-      url: "https://misakishiki.site"
-    - name: "汝南京 @EndureBlaze blog.imyan.ren"
-      url: "https://blog.imyan.ren"
+    - name: xMuu Blog 哈，你也在这里。 blog.xmuu.dev
+      url: https://blog.xmuu.dev
+    - name: 栗木小站 搞点后现代 misakishiki.site
+      url: https://misakishiki.site
+    - name: 汝南京 @EndureBlaze blog.imyan.ren
+      url: https://blog.imyan.ren

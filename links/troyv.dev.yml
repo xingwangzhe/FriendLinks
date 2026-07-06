@@ -1,14 +1,14 @@
 site:
-  name: "troyv.dev"
-  url: "https://www.troyv.dev/"
-  description: "友情链接"
-  links: "/"
+  name: www.troyv.dev
+  url: https://www.troyv.dev/
+  description: Watch as Troy Vassalotti learns his way around a computer.
+  links: /
   friends:
-    - name: "thisisa.band"
-      url: "https://thisisa.band/"
-    - name: "Bandcamp"
-      url: "https://frontroyalmd.bandcamp.com/"
-    - name: "website"
-      url: "https://www.frontroyalband.com/"
-    - name: "my Bandcamp"
-      url: "https://troyalllowercase.bandcamp.com/"
+    - name: thisisa.band
+      url: https://thisisa.band/
+    - name: Bandcamp
+      url: https://frontroyalmd.bandcamp.com/
+    - name: website
+      url: https://www.frontroyalband.com/
+    - name: my Bandcamp
+      url: https://troyalllowercase.bandcamp.com/

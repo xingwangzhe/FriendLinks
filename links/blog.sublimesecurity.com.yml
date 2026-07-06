@@ -1,8 +1,8 @@
 site:
-  name: "blog.sublimesecurity.com"
-  url: "https://blog.sublimesecurity.com/"
-  description: "友情链接"
-  links: "/"
+  name: Blog · Sublime Security
+  url: https://blog.sublimesecurity.com/
+  description: Sublime Security blog for the latest in email security trends, emerging attack types, ML + AI detection strategies, and product updates.
+  links: /
   friends:
-    - name: "EML Analyzer Analyze a single email"
-      url: "https://analyzer.sublime.security/"
+    - name: EML Analyzer Analyze a single email
+      url: https://analyzer.sublime.security/

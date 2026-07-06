@@ -1,12 +1,12 @@
 site:
-  name: "codecov.io"
-  url: "https://codecov.io/"
-  description: "友情链接"
-  links: "/"
+  name: "Codecov: Code Coverage Testing & Insights Solution"
+  url: https://codecov.io/
+  description: Ship high-quality code & spend less time debugging. Improve developer workflow, re-run flaky tests, & track JavaScript bundle size. Learn about our code quality & coverage tool here.
+  links: /
   friends:
-    - name: "Pro Support"
-      url: "https://codecovpro.zendesk.com/"
-    - name: "Enterprise Support"
-      url: "https://codecoventerprise.zendesk.com/"
-    - name: "Community"
-      url: "https://community.codecov.com/"
+    - name: Pro Support
+      url: https://codecovpro.zendesk.com/
+    - name: Enterprise Support
+      url: https://codecoventerprise.zendesk.com/
+    - name: Community
+      url: https://community.codecov.com/

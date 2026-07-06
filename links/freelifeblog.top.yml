@@ -1,34 +1,34 @@
 site:
-  name: "freelifeblog.top"
-  url: "https://freelifeblog.top/"
-  description: "友情链接"
-  links: "/links"
+  name: 代码笔记
+  url: https://freelifeblog.top/
+  description: 友情链接
+  links: /links
   friends:
-    - name: "耗子叔 CodeShell酷壳"
-      url: "https://coolshell.cn/"
-    - name: "卡瓦邦噶 信涛老师，网络运维大神"
-      url: "https://www.kawabangga.com/"
-    - name: "小林coding 图解系列作者"
-      url: "https://xiaolincoding.com/"
-    - name: "plantegg 任哥，网络底层系统启蒙老师"
-      url: "https://plantegg.github.io/"
-    - name: "鸟哥私房菜 linux上的启蒙老师"
-      url: "https://linux.vbird.org/"
-    - name: "Manjusaka 捕蛇者说"
-      url: "https://www.manjusaka.blog/"
-    - name: "tisonkun 夜天之书"
-      url: "https://www.tisonkun.org/"
-    - name: "煎鱼 Go资深爱好者"
-      url: "https://eddycjy.com/"
-    - name: "poetize 一位审美在线的bloger"
-      url: "https://poetize.cn/"
-    - name: "Mark Zhu 一個老的，不合格的程式員"
-      url: "https://blog.mygraphql.com/"
-    - name: "闲蛋🥚 一枚程序员,渴望财务自由"
-      url: "https://www.xiandanplay.com/"
-    - name: "bbruceyuan 用代码打点酱油"
-      url: "https://bruceyuan.com"
-    - name: "NGXHK 拥抱开源 拥抱未来"
-      url: "https://ngx.hk"
-    - name: "Linux运维笔记 学习是一种信仰，分享是一种快乐"
-      url: "https://blog.imdst.com/"
+    - name: 耗子叔 CodeShell酷壳
+      url: https://coolshell.cn/
+    - name: 卡瓦邦噶 信涛老师，网络运维大神
+      url: https://www.kawabangga.com/
+    - name: 小林coding 图解系列作者
+      url: https://xiaolincoding.com/
+    - name: plantegg 任哥，网络底层系统启蒙老师
+      url: https://plantegg.github.io/
+    - name: 鸟哥私房菜 linux上的启蒙老师
+      url: https://linux.vbird.org/
+    - name: Manjusaka 捕蛇者说
+      url: https://www.manjusaka.blog/
+    - name: tisonkun 夜天之书
+      url: https://www.tisonkun.org/
+    - name: 煎鱼 Go资深爱好者
+      url: https://eddycjy.com/
+    - name: poetize 一位审美在线的bloger
+      url: https://poetize.cn/
+    - name: Mark Zhu 一個老的，不合格的程式員
+      url: https://blog.mygraphql.com/
+    - name: 闲蛋🥚 一枚程序员,渴望财务自由
+      url: https://www.xiandanplay.com/
+    - name: bbruceyuan 用代码打点酱油
+      url: https://bruceyuan.com
+    - name: NGXHK 拥抱开源 拥抱未来
+      url: https://ngx.hk
+    - name: Linux运维笔记 学习是一种信仰，分享是一种快乐
+      url: https://blog.imdst.com/

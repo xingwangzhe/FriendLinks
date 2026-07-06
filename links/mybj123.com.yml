@@ -1,12 +1,12 @@
 site:
-  name: "mybj123.com"
-  url: "https://mybj123.com/"
-  description: "友情链接"
-  links: "/"
+  name: 码云笔记-专注 IT 技术实战分享与编程教程
+  url: https://mybj123.com/
+  description: 码云笔记 (mybj123.com) 专注分享 IT 技术干货，涵盖人工智能、编程开发、服务器运维、数据库等内容，提供实战教程、环境搭建、故障排查方案，助力程序员与运维人员高效解决技术难题。
+  links: /
   friends:
-    - name: "zzzmh博客"
-      url: "https://zzzmh.cn/"
-    - name: "老蒋部落"
-      url: "https://www.itbulu.com"
-    - name: "大鸟笔记"
-      url: "https://www.daniao.org/"
+    - name: zzzmh博客
+      url: https://zzzmh.cn/
+    - name: 老蒋部落
+      url: https://www.itbulu.com
+    - name: 大鸟笔记
+      url: https://www.daniao.org/

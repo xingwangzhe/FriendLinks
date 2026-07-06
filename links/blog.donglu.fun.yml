@@ -1,10 +1,10 @@
 site:
-  name: "blog.donglu.fun"
-  url: "https://blog.donglu.fun/"
-  description: "友情链接"
-  links: "/friend"
+  name: 东路的小巷子
+  url: https://blog.donglu.fun/
+  description: 网站描述 (Description Meta 标签)
+  links: /friend
   friends:
-    - name: "Allen"
-      url: "http://xiaode.tech/"
-    - name: "Bensz"
-      url: "https://blognas.hwb0307.com"
+    - name: Allen
+      url: http://xiaode.tech/
+    - name: Bensz
+      url: https://blognas.hwb0307.com

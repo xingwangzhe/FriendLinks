@@ -1,10 +1,10 @@
 site:
-  name: "firgt.eu.org"
-  url: "https://firgt.eu.org/"
-  description: "友情链接"
-  links: "/friends"
+  name: Firgt's Blog
+  url: https://firgt.eu.org/
+  description: 友情链接
+  links: /friends
   friends:
-    - name: "Karlblogs"
-      url: "https://karlbaey.top/"
-    - name: "AdproのBlog"
-      url: "https://blog.adproqwq.top/"
+    - name: Karlblogs
+      url: https://karlbaey.top/
+    - name: AdproのBlog
+      url: https://blog.adproqwq.top/

@@ -1,20 +1,20 @@
 site:
-  name: "rakhim.org"
-  url: "https://rakhim.org/"
-  description: "友情链接"
-  links: "/"
+  name: Rakhim's homepage
+  url: https://rakhim.org/
+  description: Rakhim's homepage. I build open source projects and write about technology, programming, and life.
+  links: /
   friends:
-    - name: "Blog"
-      url: "https://rakhim.exotext.com/"
-    - name: "exotext.com"
-      url: "https://exotext.com"
-    - name: "skyshelf.app"
-      url: "https://skyshelf.app/"
-    - name: "LobHN"
-      url: "https://lobhn.skyshelf.app/"
-    - name: "Dall-E Web Client"
-      url: "https://dalle.skyshelf.app/"
-    - name: "Codexpanse Podcast"
-      url: "https://podcast.codexpanse.com/"
-    - name: "Codexpanse"
-      url: "https://codexpanse.com"
+    - name: Blog
+      url: https://rakhim.exotext.com/
+    - name: exotext.com
+      url: https://exotext.com
+    - name: skyshelf.app
+      url: https://skyshelf.app/
+    - name: LobHN
+      url: https://lobhn.skyshelf.app/
+    - name: Dall-E Web Client
+      url: https://dalle.skyshelf.app/
+    - name: Codexpanse Podcast
+      url: https://podcast.codexpanse.com/
+    - name: Codexpanse
+      url: https://codexpanse.com

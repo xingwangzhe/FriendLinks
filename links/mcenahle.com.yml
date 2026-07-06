@@ -1,8 +1,8 @@
 site:
-  name: "mcenahle.com"
-  url: "https://mcenahle.com/"
-  description: "友情链接"
-  links: "/"
+  name: 首页
+  url: https://mcenahle.com/
+  description: 这是我的个人主页。 我平时就喜欢搞搞网站什么的，但不是“理工男”哦。 地区 学历 专业 IDE 兴趣 兴趣 所有站务文件列表
+  links: /
   friends:
-    - name: "个人成长记录"
-      url: "https://mcenahle.cn/"
+    - name: 个人成长记录
+      url: https://mcenahle.cn/

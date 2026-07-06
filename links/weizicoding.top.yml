@@ -1,18 +1,18 @@
 site:
-  name: "weizicoding.top"
-  url: "https://www.weizicoding.top/"
-  description: "友情链接"
-  links: "/link"
+  name: 约定的小镇
+  url: https://www.weizicoding.top/
+  description: 约定的小镇的个人博客，分享技术与生活。技术主要围绕使用 Go 语言构建高性能的 RPG、MMO 和 SLG 游戏后端，同时这个博客还记录了他在生活和学习中的点滴经历，充满启发与思考。网站界面简洁美观，内容丰富实用，人气互动活跃，涵盖了编程、生活、学习等多个领域，为读者提供了卓越的阅读体验。
+  links: /link
   friends:
-    - name: "狡猫三窝"
-      url: "https://slykiten.com/"
-    - name: "Airing 的小屋"
-      url: "https://ursb.me"
-    - name: "极客兔兔"
-      url: "https://geektutu.com/"
-    - name: "小土刀"
-      url: "https://www.wdxtub.com/"
-    - name: "DaiJun Wu"
-      url: "https://wudaijun.com/"
-    - name: "Eli Bendersky"
-      url: "https://eli.thegreenplace.net/"
+    - name: 狡猫三窝
+      url: https://slykiten.com/
+    - name: Airing 的小屋
+      url: https://ursb.me
+    - name: 极客兔兔
+      url: https://geektutu.com/
+    - name: 小土刀
+      url: https://www.wdxtub.com/
+    - name: DaiJun Wu
+      url: https://wudaijun.com/
+    - name: Eli Bendersky
+      url: https://eli.thegreenplace.net/

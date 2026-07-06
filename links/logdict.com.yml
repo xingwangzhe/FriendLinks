@@ -1,110 +1,110 @@
 site:
-  name: "logdict.com"
-  url: "https://www.logdict.com/"
-  description: "友情链接"
-  links: "/links"
+  name: LogDict - 日志字典
+  url: https://www.logdict.com/
+  description: 一个用于记录, 分享, 学习的平台
+  links: /links
   friends:
-    - name: "少数派 - 高效工作，品质生活 少数派致力于更好地运用数字产品或科学方法，帮助用户提升工作效率和生活品质"
-      url: "https://sspai.com/"
-    - name: "自在废物 一只兔子"
-      url: "https://rabithua.club"
-    - name: "zrxJuly's Blog 愿有前程可奔赴，亦有岁月可回首"
-      url: "https://zrxjuly.github.io/"
-    - name: "小陈博客 理想成为大牛的小陈同学"
-      url: "https://reinness.com"
-    - name: "XI溪 心怀善意在荆棘中穿行，即使被刺伤，亦不改初衷！"
-      url: "https://www.xiaoxuya.top"
-    - name: "开水泡饭的博客 个人学习博客,以一起学习进步，共同分享为原则，一起愉快的学习前端技术。所谓“开水泡饭”，就是开水煮剩饭。"
-      url: "https://www.kspf.xyz"
-    - name: "满心记 追求让人充实，分享让人快乐"
-      url: "https://blog.lovelu.top/"
-    - name: "漫川笔记 我在人间凑数的日子"
-      url: "https://www.mancs.cn/"
-    - name: "海底涝里没有鱼 平安喜乐，万事胜意"
-      url: "https://smileszh.cn"
-    - name: "神经蛙 种一棵树最好的时间是十年前，其次是现在。"
-      url: "https://hexo.sjava.cn/"
-    - name: "無.Flac‘s Blog Indulge in Sound Effects"
-      url: "https://w-flac.org.cn/"
-    - name: "刘俊辉个人博客 专注于系统运维、网络相关技术分享"
-      url: "https://www.ljh99.cn"
-    - name: "生活学习记录 七七的学习生活记录"
-      url: "https://www.sczhaoqi.ink"
-    - name: "HiPeach 妙不可言"
-      url: "https://blog.opeach.cn"
-    - name: "Jack’s Space 一切都是最好的安排"
-      url: "https://veryjack.com"
-    - name: "会飞的猫 记录时间带走的东西"
-      url: "https://blog.flycat.tech"
-    - name: "孤熵小狼 - 趁年轻，多闯荡 一个铁憨憨的流水账"
-      url: "https://blog.furen.link"
-    - name: "某科学的贝壳 Get busy living or get busy dying."
-      url: "https://blog.ning.moe"
-    - name: "虎了吧唧 研墨成浆，提笔思量"
-      url: "https://blog.hulebaji.me"
-    - name: "FKUN FKUN"
-      url: "https://blog.fkun.tech/"
-    - name: "没有楼的楼长 没有楼的楼长的咕咕咕博客"
-      url: "https://blog.sdnie.fun/"
-    - name: "空域 - 探索更大的世界 探索更大的世界"
-      url: "https://blog.moeworld.tech"
-    - name: "Haoyu的博客 恭喜，你发现了宝藏"
-      url: "https://g-haoyu.top/"
-    - name: "呓语梦轩 用心享受生活"
-      url: "https://blog.awaae001.top"
-    - name: "雨化田 又一个无名小格"
-      url: "https://blog.azite.cn"
-    - name: "Yulin Lewis' Blog 不想当写手的码农不是好咸鱼_(xз」∠)_"
-      url: "https://lewky.cn/"
-    - name: "Lanke 技术分享"
-      url: "https://www.blueke.top"
-    - name: "我剑也未尝不利 我剑也未尝不利,halo博客,个人网站,tch,denchouka"
-      url: "https://tch.cool/"
-    - name: "摸鱼の客栈 没事摸摸鱼，反正焦虑也解决不了问题"
-      url: "https://blog.hanbaka.cn/"
-    - name: "福福不服 不服就是不服。"
-      url: "https://ffbf.top"
-    - name: "哈利の小屋 Java小白的进阶之路"
-      url: "https://blog.kangyaocoding.top"
-    - name: "刘子健的博客 Liu Zijian的个人博客网站"
-      url: "https://blog.liuzijian.com/"
-    - name: "孤独の博客 孤独の博客是一个专注于PHP技术深度分析与个人成长记录的分享平台。一个对PHP技术充满好奇心的探索者，致力于"
-      url: "https://www.lone.top/"
-    - name: "九九小筑 满地都是六便士，他想抬头看见了月亮。"
-      url: "https://www.lujiujiu.site/"
-    - name: "阿锦在线 记录生活点滴"
-      url: "https://www.ajinol.com"
-    - name: "DeQ Code Blog deq 技术玩家,将技术转换为快乐"
-      url: "https://www.deq.plus"
-    - name: "钧言极客 一个独立个人博客，记录平凡生活中的一些感悟、分享生活点滴和折腾的新事物，与我一起记录每一次精彩瞬间。"
-      url: "https://www.jinjun.top/"
-    - name: "陵长镜的小博客 Everything collapses, but you rise."
-      url: "https://r1n.top/"
-    - name: "yngcy 夕拾天星，曦携明露"
-      url: "https://blog.yngcy.com/"
-    - name: "zhxy-CN の 小窝 喵~"
-      url: "https://owo.cab/"
-    - name: "九陌斋博客 每一条思想的道路都通向知识的繁华"
-      url: "https://blog.jiumoz.top/"
-    - name: "Lycoris的小破站 - Lycoris Lycoris、小破站、暴躁程序猿"
-      url: "https://www.lycoris.cloud/"
-    - name: "Handsome 心若有所向往,何惧道阻且长"
-      url: "https://www.lik.cc/"
-    - name: "7li7li博客站 这里是7li7li博客站"
-      url: "https://blog.7li7li.cn/"
-    - name: "栋dong的个人站点 个人站点，一些刷题日记和JAVA小项目，你可以在这里找到很多常用环境的安装教程和一些搜集到的脚本"
-      url: "https://itdong.me"
-    - name: "Rui Blog 不积跬步，无以至千里"
-      url: "https://www.ruiblog.top/"
-    - name: "苏洋's Blog 迷失的人迷失了 相逢的人会再相逢"
-      url: "https://www.yyb03.cn"
-    - name: "WQG WQG"
-      url: "https://wqg.life/"
-    - name: "于长野 努力寻找一生所爱的事业 （或者在存款耗尽前找到维持生计的工作）。不想被限定为程序开发，在探索 UI和交互设计，如"
-      url: "https://www.zzfw.cc/"
-    - name: "我的小破站 - 解锁未知，乐享已知。 解锁未知，乐享已知。"
-      url: "https://www.qiezechuan.cn"
-    - name: "censys"
-      url: "https://search.censys.io/"
-    - name: "shodan.io"
-      url: "https://www.shodan.io/"
+    - name: 少数派 - 高效工作，品质生活 少数派致力于更好地运用数字产品或科学方法，帮助用户提升工作效率和生活品质
+      url: https://sspai.com/
+    - name: 自在废物 一只兔子
+      url: https://rabithua.club
+    - name: zrxJuly's Blog 愿有前程可奔赴，亦有岁月可回首
+      url: https://zrxjuly.github.io/
+    - name: 小陈博客 理想成为大牛的小陈同学
+      url: https://reinness.com
+    - name: XI溪 心怀善意在荆棘中穿行，即使被刺伤，亦不改初衷！
+      url: https://www.xiaoxuya.top
+    - name: 开水泡饭的博客 个人学习博客,以一起学习进步，共同分享为原则，一起愉快的学习前端技术。所谓“开水泡饭”，就是开水煮剩饭。
+      url: https://www.kspf.xyz
+    - name: 满心记 追求让人充实，分享让人快乐
+      url: https://blog.lovelu.top/
+    - name: 漫川笔记 我在人间凑数的日子
+      url: https://www.mancs.cn/
+    - name: 海底涝里没有鱼 平安喜乐，万事胜意
+      url: https://smileszh.cn
+    - name: 神经蛙 种一棵树最好的时间是十年前，其次是现在。
+      url: https://hexo.sjava.cn/
+    - name: 無.Flac‘s Blog Indulge in Sound Effects
+      url: https://w-flac.org.cn/
+    - name: 刘俊辉个人博客 专注于系统运维、网络相关技术分享
+      url: https://www.ljh99.cn
+    - name: 生活学习记录 七七的学习生活记录
+      url: https://www.sczhaoqi.ink
+    - name: HiPeach 妙不可言
+      url: https://blog.opeach.cn
+    - name: Jack’s Space 一切都是最好的安排
+      url: https://veryjack.com
+    - name: 会飞的猫 记录时间带走的东西
+      url: https://blog.flycat.tech
+    - name: 孤熵小狼 - 趁年轻，多闯荡 一个铁憨憨的流水账
+      url: https://blog.furen.link
+    - name: 某科学的贝壳 Get busy living or get busy dying.
+      url: https://blog.ning.moe
+    - name: 虎了吧唧 研墨成浆，提笔思量
+      url: https://blog.hulebaji.me
+    - name: FKUN FKUN
+      url: https://blog.fkun.tech/
+    - name: 没有楼的楼长 没有楼的楼长的咕咕咕博客
+      url: https://blog.sdnie.fun/
+    - name: 空域 - 探索更大的世界 探索更大的世界
+      url: https://blog.moeworld.tech
+    - name: Haoyu的博客 恭喜，你发现了宝藏
+      url: https://g-haoyu.top/
+    - name: 呓语梦轩 用心享受生活
+      url: https://blog.awaae001.top
+    - name: 雨化田 又一个无名小格
+      url: https://blog.azite.cn
+    - name: Yulin Lewis' Blog 不想当写手的码农不是好咸鱼_(xз」∠)_
+      url: https://lewky.cn/
+    - name: Lanke 技术分享
+      url: https://www.blueke.top
+    - name: 我剑也未尝不利 我剑也未尝不利,halo博客,个人网站,tch,denchouka
+      url: https://tch.cool/
+    - name: 摸鱼の客栈 没事摸摸鱼，反正焦虑也解决不了问题
+      url: https://blog.hanbaka.cn/
+    - name: 福福不服 不服就是不服。
+      url: https://ffbf.top
+    - name: 哈利の小屋 Java小白的进阶之路
+      url: https://blog.kangyaocoding.top
+    - name: 刘子健的博客 Liu Zijian的个人博客网站
+      url: https://blog.liuzijian.com/
+    - name: 孤独の博客 孤独の博客是一个专注于PHP技术深度分析与个人成长记录的分享平台。一个对PHP技术充满好奇心的探索者，致力于
+      url: https://www.lone.top/
+    - name: 九九小筑 满地都是六便士，他想抬头看见了月亮。
+      url: https://www.lujiujiu.site/
+    - name: 阿锦在线 记录生活点滴
+      url: https://www.ajinol.com
+    - name: DeQ Code Blog deq 技术玩家,将技术转换为快乐
+      url: https://www.deq.plus
+    - name: 钧言极客 一个独立个人博客，记录平凡生活中的一些感悟、分享生活点滴和折腾的新事物，与我一起记录每一次精彩瞬间。
+      url: https://www.jinjun.top/
+    - name: 陵长镜的小博客 Everything collapses, but you rise.
+      url: https://r1n.top/
+    - name: yngcy 夕拾天星，曦携明露
+      url: https://blog.yngcy.com/
+    - name: zhxy-CN の 小窝 喵~
+      url: https://owo.cab/
+    - name: 九陌斋博客 每一条思想的道路都通向知识的繁华
+      url: https://blog.jiumoz.top/
+    - name: Lycoris的小破站 - Lycoris Lycoris、小破站、暴躁程序猿
+      url: https://www.lycoris.cloud/
+    - name: Handsome 心若有所向往,何惧道阻且长
+      url: https://www.lik.cc/
+    - name: 7li7li博客站 这里是7li7li博客站
+      url: https://blog.7li7li.cn/
+    - name: 栋dong的个人站点 个人站点，一些刷题日记和JAVA小项目，你可以在这里找到很多常用环境的安装教程和一些搜集到的脚本
+      url: https://itdong.me
+    - name: Rui Blog 不积跬步，无以至千里
+      url: https://www.ruiblog.top/
+    - name: 苏洋's Blog 迷失的人迷失了 相逢的人会再相逢
+      url: https://www.yyb03.cn
+    - name: WQG WQG
+      url: https://wqg.life/
+    - name: 于长野 努力寻找一生所爱的事业 （或者在存款耗尽前找到维持生计的工作）。不想被限定为程序开发，在探索 UI和交互设计，如
+      url: https://www.zzfw.cc/
+    - name: 我的小破站 - 解锁未知，乐享已知。 解锁未知，乐享已知。
+      url: https://www.qiezechuan.cn
+    - name: censys
+      url: https://search.censys.io/
+    - name: shodan.io
+      url: https://www.shodan.io/

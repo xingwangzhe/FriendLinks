@@ -1,12 +1,12 @@
 site:
-  name: "adactio.com"
-  url: "https://adactio.com/"
-  description: "友情链接"
-  links: "/links"
+  name: "Adactio: Jeremy Keith"
+  url: https://adactio.com/
+  description: Adactio is the website of Jeremy Keith, a web developer living in Brighton in southern England.
+  links: /links
   friends:
-    - name: "The Session"
-      url: "https://thesession.org/"
-    - name: "Storied Colors"
-      url: "https://storiedcolors.com/"
-    - name: "The Field Guide to CSS Grid Lanes"
-      url: "https://gridlanes.webkit.org/"
+    - name: The Session
+      url: https://thesession.org/
+    - name: Storied Colors
+      url: https://storiedcolors.com/
+    - name: The Field Guide to CSS Grid Lanes
+      url: https://gridlanes.webkit.org/

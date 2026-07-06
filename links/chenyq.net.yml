@@ -1,10 +1,10 @@
 site:
-  name: "chenyq.net"
-  url: "http://chenyq.net/"
-  description: "友情链接"
-  links: "/"
+  name: HTTP Server Test Page
+  url: http://chenyq.net/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Red Hat Inc."
-      url: "https://www.redhat.com/"
-    - name: "Planet"
-      url: "http://planet.centos.org/"
+    - name: Red Hat Inc.
+      url: https://www.redhat.com/
+    - name: Planet
+      url: http://planet.centos.org/

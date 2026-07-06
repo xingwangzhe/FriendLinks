@@ -1,20 +1,20 @@
 site:
-  name: "blog.jerion.cn"
-  url: "https://blog.jerion.cn/"
-  description: "友情链接"
-  links: "/friend"
+  name: JeriBLOG - JeriBLOG
+  url: https://blog.jerion.cn/
+  description: JeriBLOG - 基于 Go + Vue 的现代化博客系统
+  links: /friend
   friends:
-    - name: "菱风叙 CloudOps坤神"
-      url: "https://huangjingblog.cn/"
-    - name: "TriyBLOG - TriyBLOG垚神"
-      url: "https://www.triyaotu.cn"
-    - name: "人民万岁 | 人民万岁qian神"
-      url: "https://www.qianshuaiblog.cn/"
-    - name: "技术博客 - 深入技术世界散神"
-      url: "https://bananablog.cn/"
-    - name: "Lumifly - 平淡浮生，亦绽一寸清光林神"
-      url: "https://2233941.xyz/"
-    - name: "TALENTalen 的个人主页，一个专注技术、乐于探索的代码爱好者！"
-      url: "https://blog.talen.top/"
-    - name: "崔亮的博客-专注运维开发技术崔亮的个人博客，致力于分享运维开发等技术经验，由系统运维、脚本编程、devops等分类组成，涵盖了docker、k8s、vue、py"
-      url: "https://www.cuiliangblog.cn/"
+    - name: 菱风叙 CloudOps坤神
+      url: https://huangjingblog.cn/
+    - name: TriyBLOG - TriyBLOG垚神
+      url: https://www.triyaotu.cn
+    - name: 人民万岁 | 人民万岁qian神
+      url: https://www.qianshuaiblog.cn/
+    - name: 技术博客 - 深入技术世界散神
+      url: https://bananablog.cn/
+    - name: Lumifly - 平淡浮生，亦绽一寸清光林神
+      url: https://2233941.xyz/
+    - name: TALENTalen 的个人主页，一个专注技术、乐于探索的代码爱好者！
+      url: https://blog.talen.top/
+    - name: 崔亮的博客-专注运维开发技术崔亮的个人博客，致力于分享运维开发等技术经验，由系统运维、脚本编程、devops等分类组成，涵盖了docker、k8s、vue、py
+      url: https://www.cuiliangblog.cn/

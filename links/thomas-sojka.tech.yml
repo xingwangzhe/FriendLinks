@@ -1,12 +1,12 @@
 site:
-  name: "thomas-sojka.tech"
-  url: "https://thomas-sojka.tech/"
-  description: "友情链接"
-  links: "/"
+  name: Thomas Sojka - Software Engineer
+  url: https://thomas-sojka.tech/
+  description: data visualizations | frontend development | functional programming
+  links: /
   friends:
-    - name: "Pitch"
-      url: "https://pitch.com/"
-    - name: "comSysto"
-      url: "https://comsystoreply.de/"
-    - name: "code"
-      url: "https://fire-hands.now.sh/"
+    - name: Pitch
+      url: https://pitch.com/
+    - name: comSysto
+      url: https://comsystoreply.de/
+    - name: code
+      url: https://fire-hands.now.sh/

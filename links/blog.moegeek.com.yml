@@ -1,10 +1,10 @@
 site:
-  name: "blog.moegeek.com"
-  url: "http://blog.moegeek.com/"
-  description: "友情链接"
-  links: "/links"
+  name: MoeGeek的博客
+  url: http://blog.moegeek.com/
+  description: MoeGeek小胖 | 硬件改装、性能挖掘与工程实践，记录一个硬核玩家的数字重构之路。
+  links: /links
   friends:
-    - name: "iMaeGoo s Blog虹墨空间站"
-      url: "https://www.imaegoo.com/"
-    - name: "Jimmy"
-      url: "https://jimmycai.com"
+    - name: iMaeGoo s Blog虹墨空间站
+      url: https://www.imaegoo.com/
+    - name: Jimmy
+      url: https://jimmycai.com

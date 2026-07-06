@@ -1,114 +1,114 @@
 site:
-  name: "timochan.cn"
-  url: "https://www.timochan.cn/"
-  description: "友情链接"
-  links: "/friends"
+  name: TimochanのBlog · Let's start learning - TimochanのBlog
+  url: https://www.timochan.cn/
+  description: Let's start learning
+  links: /friends
   friends:
-    - name: "tinsir888's blogΗλύσια Πεδία ;-)"
-      url: "https://tinsir888.github.io"
-    - name: "gankudadiz的个人小站记录coding与生活。<127.0.0.1 is where the heart is>"
-      url: "https://blog.gankudadiz.com/"
-    - name: "没有楼的楼长的咕咕咕博客事已至此，木已成舟 (*≧ω≦*)"
-      url: "https://blog.sdnie.fun"
-    - name: "ZIKH26's BlogCTF-pwner"
-      url: "https://zikh26.github.io"
-    - name: "CWorld’s Blog求知若愚，虚怀若谷"
-      url: "https://cworld0.com"
-    - name: "夏的博客 Xia's blog我叫夏，是个笨蛋"
-      url: "https://xiau.net/"
-    - name: "明日が来ると信じてること自体が希望なんだ"
-      url: "https://kiseki.blog/"
-    - name: "Erhecy's Blognull"
-      url: "https://0u0.ren"
-    - name: "贰岛 博客blog of my daily miracle"
-      url: "https://cirno.me"
-    - name: "初之音聆听心中最初的声音"
-      url: "https://www.himiku.com"
-    - name: "百里飞洋の博客星河滚烫，无问西东。"
-      url: "https://blog.meta-code.top"
-    - name: "Citrons博客Citrons博客——年少时不要遇见令你惊艳的人"
-      url: "https://www.citrons.cn"
-    - name: "星空小站虽千万人吾往矣."
-      url: "https://www.m78.co"
-    - name: "Grtsinry43's Blog总之岁月漫长，然而值得等待"
-      url: "https://blog.grtsinry43.com"
-    - name: "RhoPaperの小站纸至执"
-      url: "https://rhopaper.top"
-    - name: "MR158走り続けるなら"
-      url: "https://mr158.cn"
-    - name: "奇趣保罗正在学习前后端技术的一只萌新！依旧在寻找着初恋的味道~"
-      url: "https://paul.ren"
-    - name: "狱杰的博客BUILD NEW WORLD WITH KEYBORD"
-      url: "https://uegee.com"
-    - name: "matto's blog天天摸鱼身体棒~"
-      url: "https://www.matto.top"
-    - name: "肖寒武的博客我歌月徘徊，我舞影零"
-      url: "https://www.xiaohanwu.com"
-    - name: "猫元异方二次元必备~"
-      url: "https://www.maoyv.com"
-    - name: "捞人的小站一起来玩吧~"
-      url: "https://zwh.moe"
-    - name: "咖啡豆子coffee的小站所有奇迹的始发点"
-      url: "https://blog.kfdzcoffee.cn"
-    - name: "Kurococ Liu被子外面很危险！"
-      url: "https://blog.lkurococ.top"
-    - name: "CAYZLHCODE IS POETRY"
-      url: "https://www.cayzlh.com"
-    - name: "静かな森致虚极，守静笃。"
-      url: "https://innei.in"
-    - name: "SycBlog始於初見，止於終老"
-      url: "https://www.8c6c.com"
-    - name: "沐云湘夕珍藏于心底的时光，是记忆深处最美的花"
-      url: "https://www.myxxts.com"
-    - name: "企鹅小屋企鹅小屋"
-      url: "https://qieo.me"
-    - name: "天翔TNXGの空间站明日尚未到来，希望凝于心上"
-      url: "https://tnxg.top"
-    - name: "墨迹笔记墨迹笔记，用书写连接你我"
-      url: "https://ink2link.cn"
-    - name: "莫莫逗狗Momo5418's Blog"
-      url: "https://blog.mocn.top"
-    - name: "Teror的客栈欢迎光临～"
-      url: "https://blog.trfox.top/"
-    - name: "Highlight记录生活点滴！"
-      url: "https://wanglin.blog"
-    - name: "Jayden's site为天地立心,为生民立命, 为往圣继绝学,为万世开太平。"
-      url: "https://xxu.do"
-    - name: "北熙宝宝如果恋爱有颜色，那一定是纯白色！"
-      url: "https://blog.beixibaobao.com"
-    - name: "iAnna天高地迥，觉宇宙之无穷；兴尽悲来，识盈虚之有数。"
-      url: "https://blog.ykqmain.com"
-    - name: "若志·随笔写点想写的东西，做点想做的事！"
-      url: "https://www.rz.sb"
-    - name: "数字田园的悠然漫步采菊东篱下，悠然见南山"
-      url: "https://www.gardenwalk.moe/"
-    - name: "Ant's 博客Just So So ..."
-      url: "https://blog.wryhf.com/"
-    - name: "折纸信笺独自在忧伤中拼凑快乐"
-      url: "https://zzz.moe"
-    - name: "CcoMm你要吃C4吗？"
-      url: "https://blog.ccomm.top"
-    - name: "吃土的小智我家还蛮大的.jpg"
-      url: "https://blog.chitudexiaozhi.com"
-    - name: "望夜菌的小窝change and challenge!"
-      url: "https://www.plsshenyun.top"
-    - name: "VirCloud's BlogLearning & Sharing"
-      url: "https://vircloud.net"
-    - name: "梦潇の秘密花园科技于心，深入于人"
-      url: "https://itakashi.zone"
-    - name: "凉心’s Blog我的故事只讲给你听"
-      url: "https://www.lxink.cn"
-    - name: "张恒华SDN研究者"
-      url: "https://zhh2001.github.io/"
-    - name: "一个薄荷95后懒癌博主一枚~"
-      url: "https://abohe.cn"
-    - name: "戴兜的小屋在迷失中寻找自我"
-      url: "https://daidr.me"
-    - name: "秉性之松有秉性且正直的松"
-      url: "https://blog.wibus.ren"
-    - name: "喵二の小博客喜欢分享一些东西 ୧(﹒ ᴗ﹒ )୨"
-      url: "https://www.miaoer.net"
-    - name: "Sakun Notebook一个声豚的自我救赎"
-      url: "https://www.sakun.space/"
-    - name: "Akara's Blog19 岁，是前端"
-      url: "https://blog.akr.moe"
+    - name: tinsir888's blogΗλύσια Πεδία ;-)
+      url: https://tinsir888.github.io
+    - name: gankudadiz的个人小站记录coding与生活。<127.0.0.1 is where the heart is>
+      url: https://blog.gankudadiz.com/
+    - name: 没有楼的楼长的咕咕咕博客事已至此，木已成舟 (*≧ω≦*)
+      url: https://blog.sdnie.fun
+    - name: ZIKH26's BlogCTF-pwner
+      url: https://zikh26.github.io
+    - name: CWorld’s Blog求知若愚，虚怀若谷
+      url: https://cworld0.com
+    - name: 夏的博客 Xia's blog我叫夏，是个笨蛋
+      url: https://xiau.net/
+    - name: 明日が来ると信じてること自体が希望なんだ
+      url: https://kiseki.blog/
+    - name: Erhecy's Blognull
+      url: https://0u0.ren
+    - name: 贰岛 博客blog of my daily miracle
+      url: https://cirno.me
+    - name: 初之音聆听心中最初的声音
+      url: https://www.himiku.com
+    - name: 百里飞洋の博客星河滚烫，无问西东。
+      url: https://blog.meta-code.top
+    - name: Citrons博客Citrons博客——年少时不要遇见令你惊艳的人
+      url: https://www.citrons.cn
+    - name: 星空小站虽千万人吾往矣.
+      url: https://www.m78.co
+    - name: Grtsinry43's Blog总之岁月漫长，然而值得等待
+      url: https://blog.grtsinry43.com
+    - name: RhoPaperの小站纸至执
+      url: https://rhopaper.top
+    - name: MR158走り続けるなら
+      url: https://mr158.cn
+    - name: 奇趣保罗正在学习前后端技术的一只萌新！依旧在寻找着初恋的味道~
+      url: https://paul.ren
+    - name: 狱杰的博客BUILD NEW WORLD WITH KEYBORD
+      url: https://uegee.com
+    - name: matto's blog天天摸鱼身体棒~
+      url: https://www.matto.top
+    - name: 肖寒武的博客我歌月徘徊，我舞影零
+      url: https://www.xiaohanwu.com
+    - name: 猫元异方二次元必备~
+      url: https://www.maoyv.com
+    - name: 捞人的小站一起来玩吧~
+      url: https://zwh.moe
+    - name: 咖啡豆子coffee的小站所有奇迹的始发点
+      url: https://blog.kfdzcoffee.cn
+    - name: Kurococ Liu被子外面很危险！
+      url: https://blog.lkurococ.top
+    - name: CAYZLHCODE IS POETRY
+      url: https://www.cayzlh.com
+    - name: 静かな森致虚极，守静笃。
+      url: https://innei.in
+    - name: SycBlog始於初見，止於終老
+      url: https://www.8c6c.com
+    - name: 沐云湘夕珍藏于心底的时光，是记忆深处最美的花
+      url: https://www.myxxts.com
+    - name: 企鹅小屋企鹅小屋
+      url: https://qieo.me
+    - name: 天翔TNXGの空间站明日尚未到来，希望凝于心上
+      url: https://tnxg.top
+    - name: 墨迹笔记墨迹笔记，用书写连接你我
+      url: https://ink2link.cn
+    - name: 莫莫逗狗Momo5418's Blog
+      url: https://blog.mocn.top
+    - name: Teror的客栈欢迎光临～
+      url: https://blog.trfox.top/
+    - name: Highlight记录生活点滴！
+      url: https://wanglin.blog
+    - name: Jayden's site为天地立心,为生民立命, 为往圣继绝学,为万世开太平。
+      url: https://xxu.do
+    - name: 北熙宝宝如果恋爱有颜色，那一定是纯白色！
+      url: https://blog.beixibaobao.com
+    - name: iAnna天高地迥，觉宇宙之无穷；兴尽悲来，识盈虚之有数。
+      url: https://blog.ykqmain.com
+    - name: 若志·随笔写点想写的东西，做点想做的事！
+      url: https://www.rz.sb
+    - name: 数字田园的悠然漫步采菊东篱下，悠然见南山
+      url: https://www.gardenwalk.moe/
+    - name: Ant's 博客Just So So ...
+      url: https://blog.wryhf.com/
+    - name: 折纸信笺独自在忧伤中拼凑快乐
+      url: https://zzz.moe
+    - name: CcoMm你要吃C4吗？
+      url: https://blog.ccomm.top
+    - name: 吃土的小智我家还蛮大的.jpg
+      url: https://blog.chitudexiaozhi.com
+    - name: 望夜菌的小窝change and challenge!
+      url: https://www.plsshenyun.top
+    - name: VirCloud's BlogLearning & Sharing
+      url: https://vircloud.net
+    - name: 梦潇の秘密花园科技于心，深入于人
+      url: https://itakashi.zone
+    - name: 凉心’s Blog我的故事只讲给你听
+      url: https://www.lxink.cn
+    - name: 张恒华SDN研究者
+      url: https://zhh2001.github.io/
+    - name: 一个薄荷95后懒癌博主一枚~
+      url: https://abohe.cn
+    - name: 戴兜的小屋在迷失中寻找自我
+      url: https://daidr.me
+    - name: 秉性之松有秉性且正直的松
+      url: https://blog.wibus.ren
+    - name: 喵二の小博客喜欢分享一些东西 ୧(﹒ ᴗ﹒ )୨
+      url: https://www.miaoer.net
+    - name: Sakun Notebook一个声豚的自我救赎
+      url: https://www.sakun.space/
+    - name: Akara's Blog19 岁，是前端
+      url: https://blog.akr.moe

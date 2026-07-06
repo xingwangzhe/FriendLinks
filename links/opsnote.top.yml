@@ -1,12 +1,12 @@
 site:
-  name: "opsnote.top"
-  url: "https://opsnote.top/"
-  description: "友情链接"
-  links: "/links"
+  name: 运维小记
+  url: https://opsnote.top/
+  description: 探索最新的云原生技术与运维实践！深入了解容器化、Kubernetes、微服务架构、自动化部署和监控的最佳实践。无论你是云原生新手还是资深专家，我们的深入分析、实用教程和行业动态更新都将助你一臂之力。提升你的技术栈，优化你的云环境，从这里开始！
+  links: /links
   friends:
-    - name: "木灵鱼儿 有梦就能远航"
-      url: "https://www.mulingyuer.com/"
-    - name: "郭飞的笔记"
-      url: "https://www.guofei.site/"
-    - name: "Suroy's Blog Carpe Diem"
-      url: "https://suroy.cn"
+    - name: 木灵鱼儿 有梦就能远航
+      url: https://www.mulingyuer.com/
+    - name: 郭飞的笔记
+      url: https://www.guofei.site/
+    - name: Suroy's Blog Carpe Diem
+      url: https://suroy.cn

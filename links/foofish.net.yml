@@ -1,10 +1,10 @@
 site:
-  name: "foofish.net"
-  url: "http://foofish.net/"
-  description: "友情链接"
-  links: "/"
+  name: 刘志军的博客 - FooFish
+  url: http://foofish.net/
+  description: 刘志军的博客
+  links: /
   friends:
-    - name: "Vimiix"
-      url: "https://www.vimiix.com/"
-    - name: "IT码农"
-      url: "https://tanqingbo.cn"
+    - name: Vimiix
+      url: https://www.vimiix.com/
+    - name: IT码农
+      url: https://tanqingbo.cn

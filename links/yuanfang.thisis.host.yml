@@ -1,12 +1,12 @@
 site:
-  name: "yuanfang.thisis.host"
-  url: "https://yuanfang.thisis.host/"
-  description: "友情链接"
-  links: "/friends"
+  name: 元芳你怎么看
+  url: https://yuanfang.thisis.host/
+  description: 琼楼挂月钓流云，梦里瑶台暂借春
+  links: /friends
   friends:
-    - name: "纸鹿摸鱼处"
-      url: "https://blog.zhilu.cyou/"
-    - name: "tiny-sky"
-      url: "https://tiny-sky.github.io/"
-    - name: "NexT.Gemini"
-      url: "https://theme-next.org/"
+    - name: 纸鹿摸鱼处
+      url: https://blog.zhilu.cyou/
+    - name: tiny-sky
+      url: https://tiny-sky.github.io/
+    - name: NexT.Gemini
+      url: https://theme-next.org/

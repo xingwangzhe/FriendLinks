@@ -1,100 +1,100 @@
 site:
-  name: "blog.zane-liu.com"
-  url: "https://blog.zane-liu.com/"
-  description: "友情链接"
-  links: "/friends.html"
+  name: Zane Liu's Blog
+  url: https://blog.zane-liu.com/
+  description: Zane Liu的个人博客
+  links: /friends.html
   friends:
-    - name: "旧个人主页"
-      url: "https://fhf.tw/"
-    - name: "Zeruns's Blog"
-      url: "https://blog.zeruns.tech"
-    - name: "萌卜兔"
-      url: "https://racns.com/"
-    - name: "Sanakeyの小站"
-      url: "https://keymoe.com"
-    - name: "Rat's Blog"
-      url: "https://www.moerats.com/"
-    - name: "神代綺凛"
-      url: "https://moe.best/"
-    - name: "静かな森"
-      url: "https://innei.ren/"
-    - name: "TomyJan"
-      url: "https://blog.tomys.top/"
-    - name: "喵二の小博客"
-      url: "https://www.miaoer.xyz"
-    - name: "fccの博客"
-      url: "https://www.amazefcc233.com/"
-    - name: "祈杰博客"
-      url: "https://www.qijieya.cn/"
-    - name: "Codeanime さくら荘 の 一只二刺猿"
-      url: "https://codeanime.cc/"
-    - name: "Syyyj 不想变成肥宅的小白技术宅"
-      url: "https://blog.刘昊然.com/"
-    - name: "Akilarの糖果屋 期待您的光临！"
-      url: "https://akilar.top/"
-    - name: "小胖の太空站 叫小胖哇~~~"
-      url: "https://myblog-six.vercel.app/"
-    - name: "HCLonely 一个懒人的博客"
-      url: "https://blog.hclonely.com/"
-    - name: "Vino 问渠那得清如许，为有源头活水来。"
-      url: "https://vino.run"
-    - name: "小N同学 青石落晚巷 故人未还乡"
-      url: "https://www.nesxc.com"
-    - name: "Tiger_Root博客 不管你扔几次骰子想要重来，人心都是不会变的。假话不能成为真相，事实无法变做谎言"
-      url: "https://blog.tigerroot.cn/"
-    - name: "DragonAdd's Blog 一枚入学新生"
-      url: "https://blog.dragonadd.xyz"
-    - name: "洋城才子'Blog 永远相信暂时的离别是为了更好的重逢"
-      url: "https://7yog.cn/"
-    - name: "珂泽小站 Accumulate richly and break forth vastly."
-      url: "https://www.kezez.com"
-    - name: "YHの屋 读书不觉已春深，一寸光阴一寸金"
-      url: "https://liyhil.com/"
-    - name: "寒曦朦博客 一曲肝肠断，何处觅知音！"
-      url: "https://hanximeng.com"
-    - name: "Mintimate's Blog 专注与你分享技术教程~"
-      url: "https://www.mintimate.cn"
-    - name: "诺仙の客栈 这里是诺仙の客栈，我在这里记录和分享我的点点滴滴！客官来看看啊~"
-      url: "https://nxvav.cn"
-    - name: "阿武的网志 在寻找自己的路上 向阳而生 逆风而行"
-      url: "https://blog.awu.cool"
-    - name: "Reself's Blog 我的童话深林不在阴雨绵绵"
-      url: "https://xiaobaicai.fun"
-    - name: "国光 宁静致远"
-      url: "https://www.sqlsec.com/"
-    - name: "習慣の孤獨 喜欢翻旧衣服口袋里面的钱"
-      url: "https://www.bibooo.cn/"
-    - name: "NEKO#ΦωΦ 聞こえるはずの声"
-      url: "https://blog.jamsg.cn"
-    - name: "CATOO 及时行乐啦~"
-      url: "https://catoo.info/"
-    - name: "一个小站 在互联网上淘金！"
-      url: "https://www.ygxz.in/"
-    - name: "AngelBlue'Blog 爱分享，爱技术，爱生活。"
-      url: "https://blog.angelblue.cn/"
-    - name: "Slcpの童话镇 你若盛开,阳光自来"
-      url: "https://slcp.top/"
-    - name: "WHost (*^▽^*)"
-      url: "https://whosts.cn/"
-    - name: "Rain Kavik's Blog 希望我们都能像对方一样勇敢！"
-      url: "https://www.rainkavik.com"
-    - name: "Dzの窝 求知若渴，虚心若愚"
-      url: "https://www.ecy.pink"
-    - name: "潘高的小站 IT套路深，必须瞎折腾"
-      url: "https://blog.pangao.vip"
-    - name: "月光海岸 用心创造快乐！"
-      url: "https://www.manction.com"
-    - name: "Gahotx Don't repeat yourself"
-      url: "https://gahotx.cn/"
-    - name: "忘忧草の小破站 这只是一个小破站而已！"
-      url: "https://owo.wyc.rest/"
-    - name: "Fomalhaut Future is now"
-      url: "https://www.fomal.cc"
-    - name: "Jay 出 技术、艺术、运动一个都不能少"
-      url: "https://tgcsblog.top"
-    - name: "将心向明月Blog 专注收录有意思的软件和网站"
-      url: "https://flzzz.com/"
-    - name: "猫羽のブログす 欢迎来到猫羽個人の小屋！"
-      url: "http://www.maoyv.cn"
-    - name: "©2020 CopyrightZane Liu"
-      url: "https://blog.fhf.tw/"
+    - name: 旧个人主页
+      url: https://fhf.tw/
+    - name: Zeruns's Blog
+      url: https://blog.zeruns.tech
+    - name: 萌卜兔
+      url: https://racns.com/
+    - name: Sanakeyの小站
+      url: https://keymoe.com
+    - name: Rat's Blog
+      url: https://www.moerats.com/
+    - name: 神代綺凛
+      url: https://moe.best/
+    - name: 静かな森
+      url: https://innei.ren/
+    - name: TomyJan
+      url: https://blog.tomys.top/
+    - name: 喵二の小博客
+      url: https://www.miaoer.xyz
+    - name: fccの博客
+      url: https://www.amazefcc233.com/
+    - name: 祈杰博客
+      url: https://www.qijieya.cn/
+    - name: Codeanime さくら荘 の 一只二刺猿
+      url: https://codeanime.cc/
+    - name: Syyyj 不想变成肥宅的小白技术宅
+      url: https://blog.刘昊然.com/
+    - name: Akilarの糖果屋 期待您的光临！
+      url: https://akilar.top/
+    - name: 小胖の太空站 叫小胖哇~~~
+      url: https://myblog-six.vercel.app/
+    - name: HCLonely 一个懒人的博客
+      url: https://blog.hclonely.com/
+    - name: Vino 问渠那得清如许，为有源头活水来。
+      url: https://vino.run
+    - name: 小N同学 青石落晚巷 故人未还乡
+      url: https://www.nesxc.com
+    - name: Tiger_Root博客 不管你扔几次骰子想要重来，人心都是不会变的。假话不能成为真相，事实无法变做谎言
+      url: https://blog.tigerroot.cn/
+    - name: DragonAdd's Blog 一枚入学新生
+      url: https://blog.dragonadd.xyz
+    - name: 洋城才子'Blog 永远相信暂时的离别是为了更好的重逢
+      url: https://7yog.cn/
+    - name: 珂泽小站 Accumulate richly and break forth vastly.
+      url: https://www.kezez.com
+    - name: YHの屋 读书不觉已春深，一寸光阴一寸金
+      url: https://liyhil.com/
+    - name: 寒曦朦博客 一曲肝肠断，何处觅知音！
+      url: https://hanximeng.com
+    - name: Mintimate's Blog 专注与你分享技术教程~
+      url: https://www.mintimate.cn
+    - name: 诺仙の客栈 这里是诺仙の客栈，我在这里记录和分享我的点点滴滴！客官来看看啊~
+      url: https://nxvav.cn
+    - name: 阿武的网志 在寻找自己的路上 向阳而生 逆风而行
+      url: https://blog.awu.cool
+    - name: Reself's Blog 我的童话深林不在阴雨绵绵
+      url: https://xiaobaicai.fun
+    - name: 国光 宁静致远
+      url: https://www.sqlsec.com/
+    - name: 習慣の孤獨 喜欢翻旧衣服口袋里面的钱
+      url: https://www.bibooo.cn/
+    - name: NEKO#ΦωΦ 聞こえるはずの声
+      url: https://blog.jamsg.cn
+    - name: CATOO 及时行乐啦~
+      url: https://catoo.info/
+    - name: 一个小站 在互联网上淘金！
+      url: https://www.ygxz.in/
+    - name: AngelBlue'Blog 爱分享，爱技术，爱生活。
+      url: https://blog.angelblue.cn/
+    - name: Slcpの童话镇 你若盛开,阳光自来
+      url: https://slcp.top/
+    - name: WHost (*^▽^*)
+      url: https://whosts.cn/
+    - name: Rain Kavik's Blog 希望我们都能像对方一样勇敢！
+      url: https://www.rainkavik.com
+    - name: Dzの窝 求知若渴，虚心若愚
+      url: https://www.ecy.pink
+    - name: 潘高的小站 IT套路深，必须瞎折腾
+      url: https://blog.pangao.vip
+    - name: 月光海岸 用心创造快乐！
+      url: https://www.manction.com
+    - name: Gahotx Don't repeat yourself
+      url: https://gahotx.cn/
+    - name: 忘忧草の小破站 这只是一个小破站而已！
+      url: https://owo.wyc.rest/
+    - name: Fomalhaut Future is now
+      url: https://www.fomal.cc
+    - name: Jay 出 技术、艺术、运动一个都不能少
+      url: https://tgcsblog.top
+    - name: 将心向明月Blog 专注收录有意思的软件和网站
+      url: https://flzzz.com/
+    - name: 猫羽のブログす 欢迎来到猫羽個人の小屋！
+      url: http://www.maoyv.cn
+    - name: ©2020 CopyrightZane Liu
+      url: https://blog.fhf.tw/

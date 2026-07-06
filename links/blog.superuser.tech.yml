@@ -1,20 +1,20 @@
 site:
-  name: "blog.superuser.tech"
-  url: "https://blog.superuser.tech/"
-  description: "友情链接"
-  links: "/friends.html"
+  name: superuser's blog
+  url: https://blog.superuser.tech/
+  description: There is superuser's Blog,这里是superuser的博客
+  links: /friends.html
   friends:
-    - name: "Ray Wolf 雷狼小站"
-      url: "https://blog.legendrw.xyz/"
-    - name: "RG's blog 一条咸鱼，咸鱼到懒得动"
-      url: "https://rg.mcalive.tech/"
-    - name: "Seven blog 不知道为何特别喜欢“7”"
-      url: "https://blog.xianglong.tech/"
-    - name: "Mcdarc 一位神秘的dalao"
-      url: "https://www.yqyet.cn/"
-    - name: "outtime 时光云运营者"
-      url: "https://blog.timewk.cn/"
-    - name: "Jankin's Blog 一位搞网安的学长"
-      url: "https://www.zjinchao.tech/"
-    - name: "海阔天空jht3 Java大佬"
-      url: "https://jht3.top"
+    - name: Ray Wolf 雷狼小站
+      url: https://blog.legendrw.xyz/
+    - name: RG's blog 一条咸鱼，咸鱼到懒得动
+      url: https://rg.mcalive.tech/
+    - name: Seven blog 不知道为何特别喜欢“7”
+      url: https://blog.xianglong.tech/
+    - name: Mcdarc 一位神秘的dalao
+      url: https://www.yqyet.cn/
+    - name: outtime 时光云运营者
+      url: https://blog.timewk.cn/
+    - name: Jankin's Blog 一位搞网安的学长
+      url: https://www.zjinchao.tech/
+    - name: 海阔天空jht3 Java大佬
+      url: https://jht3.top

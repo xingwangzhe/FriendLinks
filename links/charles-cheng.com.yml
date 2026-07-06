@@ -1,10 +1,10 @@
 site:
-  name: "charles-cheng.com"
-  url: "https://www.charles-cheng.com/"
-  description: "友情链接"
-  links: "/friends"
+  name: Charles Cheng
+  url: https://www.charles-cheng.com/
+  description: Charles Cheng is an engineer building AI Agent infra, with writing on Kubernetes, cloud-native systems, Claude Code, investing, career choices, and decision making.
+  links: /friends
   friends:
-    - name: "situ2001Explore with curiosity. Build with empathy."
-      url: "https://situ2001.com/"
-    - name: "zbwerUESTC / Cat Cult / Front-End Developer."
-      url: "https://blog.zbwer.work/"
+    - name: situ2001Explore with curiosity. Build with empathy.
+      url: https://situ2001.com/
+    - name: zbwerUESTC / Cat Cult / Front-End Developer.
+      url: https://blog.zbwer.work/

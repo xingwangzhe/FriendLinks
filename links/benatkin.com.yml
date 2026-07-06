@@ -1,14 +1,14 @@
 site:
-  name: "benatkin.com"
-  url: "https://benatkin.com/"
-  description: "友情链接"
-  links: "/"
+  name: web developer
+  url: https://benatkin.com/
+  description: web developer
+  links: /
   friends:
-    - name: "Cap’n Proto"
-      url: "https://capnproto.org/"
-    - name: "Protocol Buffers"
-      url: "https://protobuf.dev/"
-    - name: "Jimmy Fungus"
-      url: "http://jimmyfungus.com"
-    - name: "Khoi"
-      url: "http://kh01.me"
+    - name: Cap’n Proto
+      url: https://capnproto.org/
+    - name: Protocol Buffers
+      url: https://protobuf.dev/
+    - name: Jimmy Fungus
+      url: http://jimmyfungus.com
+    - name: Khoi
+      url: http://kh01.me

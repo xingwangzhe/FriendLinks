@@ -1,12 +1,12 @@
 site:
-  name: "gahing.top"
-  url: "https://www.gahing.top/"
-  description: "友情链接"
-  links: "/friends"
+  name: Gahing's blog
+  url: https://www.gahing.top/
+  description: 前端技术博客。包括大前端、服务端、通用技术
+  links: /friends
   friends:
-    - name: "Schaepher's Blog 深透理解，熟练运用；似懂非懂，其实不懂。"
-      url: "https://schaepher.github.io/"
-    - name: "CCC 的博客 真香"
-      url: "https://chuchencheng.com/"
-    - name: "Evan's blog 积跬步以至千里，喜欢学习喜欢你。"
-      url: "https://xugaoyi.com/"
+    - name: Schaepher's Blog 深透理解，熟练运用；似懂非懂，其实不懂。
+      url: https://schaepher.github.io/
+    - name: CCC 的博客 真香
+      url: https://chuchencheng.com/
+    - name: Evan's blog 积跬步以至千里，喜欢学习喜欢你。
+      url: https://xugaoyi.com/

@@ -1,12 +1,12 @@
 site:
-  name: "yanbin.blog"
-  url: "https://yanbin.blog/"
-  description: "友情链接"
-  links: "/"
+  name: 隔叶黄莺 Yanbin's Blog - 软件编程实践
+  url: https://yanbin.blog/
+  description: 崇尚原创, 实践心得, 软件编程技术研究与探索.深入Java, 流行框架Spring/Struts/Playframework/Hibernate/iBatis学习笔记, 动态脚本语言Perl/Groovy/Scala应用, 以及移动开发, 全面的Quartz学习文档,数据库与中间件技术
+  links: /
   friends:
-    - name: "卡瓦邦噶！"
-      url: "https://www.kawabangga.com/"
-    - name: "刘悦的技术博客"
-      url: "https://v3u.cn/"
-    - name: "mafeifan 的编程技术分享"
-      url: "https://blog.mafeifan.com/"
+    - name: 卡瓦邦噶！
+      url: https://www.kawabangga.com/
+    - name: 刘悦的技术博客
+      url: https://v3u.cn/
+    - name: mafeifan 的编程技术分享
+      url: https://blog.mafeifan.com/

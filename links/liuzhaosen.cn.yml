@@ -1,14 +1,14 @@
 site:
-  name: "liuzhaosen.cn"
-  url: "https://www.liuzhaosen.cn/"
-  description: "友情链接"
-  links: "/link"
+  name: 首页 - 刘兆森的个人网站
+  url: https://www.liuzhaosen.cn/
+  description: 这里是刘兆森博客的首页，一个用vue3+nuxt3搭建的个人网站，主要用于记录学习笔记，记录生活
+  links: /link
   friends:
-    - name: "frlo代码咖啡馆"
-      url: "https://frlo.tffa.top/"
-    - name: "POETIZE"
-      url: "https://poetize.cn"
-    - name: "孤芳不自赏的Blog"
-      url: "https://www.gfbzsblog.site"
-    - name: "👋 墨韵云阁"
-      url: "https://blog.luoyuanxiang.top"
+    - name: frlo代码咖啡馆
+      url: https://frlo.tffa.top/
+    - name: POETIZE
+      url: https://poetize.cn
+    - name: 孤芳不自赏的Blog
+      url: https://www.gfbzsblog.site
+    - name: 👋 墨韵云阁
+      url: https://blog.luoyuanxiang.top

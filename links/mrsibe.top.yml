@@ -1,18 +1,20 @@
 site:
-  name: "mrsibe.top"
-  url: "https://mrsibe.top/"
-  description: "友情链接"
-  links: "/friends"
+  name: 西贝的代码宇宙
+  url: https://mrsibe.top/
+  description: |-
+    这里是西贝的个人博客——一个计算机学生的成长轨迹，也是一片藏在代码里的宇宙。
+    从算法到天文，从调试到观星，我记录每一次调试成功的光，也捕捉每一次仰望星空的瞬间。
+  links: /friends
   friends:
-    - name: "梦辰の小窝Eagerly Anticipating Our Reunion"
-      url: "https://mc.mimeng.top"
-    - name: "Soulter's BlogThe world is your canvas!"
-      url: "https://blog.soulter.top/"
-    - name: "CAICAIIs.World愚者在月影之中怀抱虚妄"
-      url: "https://caicaiis.cc/"
-    - name: "Kinnari's Blog梦想是成为一只 fumo!"
-      url: "https://kinnari-blog.vercel.app/"
-    - name: "果果砸的博客果砸的博客"
-      url: "http://www.168hours.top:7777/"
-    - name: "FFrederickWelcome to my Alter Ego's site!"
-      url: "https://frederick2313072.github.io/"
+    - name: 梦辰の小窝Eagerly Anticipating Our Reunion
+      url: https://mc.mimeng.top
+    - name: Soulter's BlogThe world is your canvas!
+      url: https://blog.soulter.top/
+    - name: CAICAIIs.World愚者在月影之中怀抱虚妄
+      url: https://caicaiis.cc/
+    - name: Kinnari's Blog梦想是成为一只 fumo!
+      url: https://kinnari-blog.vercel.app/
+    - name: 果果砸的博客果砸的博客
+      url: http://www.168hours.top:7777/
+    - name: FFrederickWelcome to my Alter Ego's site!
+      url: https://frederick2313072.github.io/

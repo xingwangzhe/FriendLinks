@@ -1,16 +1,16 @@
 site:
-  name: "blog.ossq.cn"
-  url: "https://blog.ossq.cn/"
-  description: "友情链接"
-  links: "/"
+  name: OSSQ官网
+  url: https://blog.ossq.cn/
+  description: K8S集群,Jenkins使用教程,Docker容器,CI/CD工具,Openstack技术架构,Devops技术,Git发布等云计算相关技术。
+  links: /
   friends:
-    - name: "有人a的笔记"
-      url: "https://nicen.cn/"
-    - name: "陶小桃"
-      url: "https://www.52txr.cn"
-    - name: "陈坚浩博客"
-      url: "http://zh-cjh.com"
-    - name: "明月登楼"
-      url: "https://imydl.com"
-    - name: "将心向明月"
-      url: "https://flzzz.com"
+    - name: 有人a的笔记
+      url: https://nicen.cn/
+    - name: 陶小桃
+      url: https://www.52txr.cn
+    - name: 陈坚浩博客
+      url: http://zh-cjh.com
+    - name: 明月登楼
+      url: https://imydl.com
+    - name: 将心向明月
+      url: https://flzzz.com

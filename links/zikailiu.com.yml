@@ -1,10 +1,10 @@
 site:
-  name: "zikailiu.com"
-  url: "https://zikailiu.com/"
-  description: "友情链接"
-  links: "/about"
+  name: Zikai Liu
+  url: https://zikailiu.com/
+  description: I am a PhD student in Computer Science at ETH Zürich with Prof. Timothy Roscoe. I am generally interested in computer systems, including operating systems, architecture, compilers, and software engine
+  links: /about
   friends:
-    - name: "Department of Computer Science"
-      url: "https://inf.ethz.ch/"
-    - name: "ETH Zürich"
-      url: "https://ethz.ch/"
+    - name: Department of Computer Science
+      url: https://inf.ethz.ch/
+    - name: ETH Zürich
+      url: https://ethz.ch/

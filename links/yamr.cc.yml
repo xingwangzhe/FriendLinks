@@ -1,10 +1,10 @@
 site:
-  name: "yamr.cc"
-  url: "https://yamr.cc/"
-  description: "友情链接"
-  links: "/friends"
+  name: RC Blog - 技术分享与开发笔记
+  url: https://yamr.cc/
+  description: Yamrc的个人博客，专注于Typescript、Rust技术的业余实战经验分享。内容涵盖网络技术、serverless、云服务、站点优化及日常开发中和网上冲浪遇到的的问题排查与解决方案。
+  links: /friends
   friends:
-    - name: "AcoFork Blog Protect What You Love. 个人网站 博客"
-      url: "https://acofork.com/"
-    - name: "YSYError的博客 暴雨和风天之间我只看到了和 个人网站 博客"
-      url: "https://blog.ftcraft.top"
+    - name: AcoFork Blog Protect What You Love. 个人网站 博客
+      url: https://acofork.com/
+    - name: YSYError的博客 暴雨和风天之间我只看到了和 个人网站 博客
+      url: https://blog.ftcraft.top

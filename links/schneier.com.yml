@@ -1,14 +1,14 @@
 site:
-  name: "schneier.com"
-  url: "https://www.schneier.com/"
-  description: "友情链接"
-  links: "/link"
+  name: Schneier on Security -
+  url: https://www.schneier.com/
+  description: 友情链接
+  links: /link
   friends:
-    - name: "DuckDuckGo"
-      url: "https://duckduckgo.com/"
-    - name: "public-interest technologist"
-      url: "https://public-interest-tech.com/"
-    - name: "EFF"
-      url: "https://www.eff.org/"
-    - name: "Inrupt, Inc."
-      url: "https://inrupt.com/"
+    - name: DuckDuckGo
+      url: https://duckduckgo.com/
+    - name: public-interest technologist
+      url: https://public-interest-tech.com/
+    - name: EFF
+      url: https://www.eff.org/
+    - name: Inrupt, Inc.
+      url: https://inrupt.com/

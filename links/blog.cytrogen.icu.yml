@@ -1,104 +1,104 @@
 site:
-  name: "blog.cytrogen.icu"
-  url: "https://blog.cytrogen.icu/"
-  description: "友情链接"
-  links: "/links"
+  name: Cytrogen 的个人博客
+  url: https://blog.cytrogen.icu/
+  description: Cytrogen 的个人博客，Cytrogen's Blog
+  links: /links
   friends:
-    - name: "/var/log/gblab"
-      url: "https://lab.gb0.dev/"
-    - name: "2750 words"
-      url: "https://pathos.page/"
-    - name: "白熊阿丸的小屋"
-      url: "https://blog.bxaw.name/"
-    - name: "潮流周刊"
-      url: "https://weekly.tw93.fun/"
-    - name: "陈仓颉"
-      url: "https://imzm.im/"
-    - name: "东评西就"
-      url: "https://dongjunke.cn/"
-    - name: "仿生猫梦见电子猫粮"
-      url: "https://jefftay.com/"
-    - name: "非理勿试"
-      url: "https://www.ntiy.com/"
-    - name: "伏枥之间"
-      url: "https://leehenry.top/"
-    - name: "狐狸反走矣"
-      url: "https://blog.southfox.me/"
-    - name: "胡拉图"
-      url: "https://hulatu.com/"
-    - name: "極客死亡計劃"
-      url: "https://www.geedea.pro/"
-    - name: "老 T 博客"
-      url: "https://lawtee.com/"
-    - name: "刘郎阁"
-      url: "https://vjo.cc/"
-    - name: "莫比乌斯"
-      url: "https://onojyun.com/"
-    - name: "暖心向阳 335"
-      url: "https://nxxy335.top/"
-    - name: "破袜子"
-      url: "https://pewae.com/"
-    - name: "强少来了"
-      url: "https://www.fengxiaoqiang.com/"
-    - name: "三十海河"
-      url: "https://ihaihe.cn/"
-    - name: "四季・花开 —— 魏文超's Blog"
-      url: "https://www.weiwenchao.com/"
-    - name: "碎言 - SuiYan Blog"
-      url: "https://www.suiyan.cc/"
-    - name: "肖恩技术周刊"
-      url: "https://weekly.shawnxie.top/"
-    - name: "一直游到海水变蓝"
-      url: "https://nelsonboss.ink/"
-    - name: "纸鹿摸鱼处"
-      url: "https://blog.zhilu.site/"
-    - name: "周天记"
-      url: "https://zhoutian.com/"
-    - name: "主页 on Doin 的赛博空间"
-      url: "https://doin.pages.dev/"
-    - name: "子夜松声"
-      url: "https://xyzbz.cn/"
-    - name: "Airing 的博客"
-      url: "https://blog.ursb.me/"
-    - name: "Another Dayu"
-      url: "https://anotherdayu.com/"
-    - name: "est の 输入 输出和出入"
-      url: "https://blog.est.im/"
-    - name: "FAV0 周刊"
-      url: "https://fav0.com/"
-    - name: "Home on 梁某银的博客"
-      url: "https://liangmouyin.com/"
-    - name: "ImQi1"
-      url: "https://imqi1.com/"
-    - name: "J.F's BLOG"
-      url: "https://blog.zzbd.org/"
-    - name: "Jake Archibald's blog"
-      url: "https://jakearchibald.com/"
-    - name: "JustGoIdea"
-      url: "https://justgoidea.com/"
-    - name: "JustZht's EchoChamber"
-      url: "https://www.justzht.com/"
-    - name: "Learn More"
-      url: "http://study.tczhong.com/"
-    - name: "liuzhen932 的小窝"
-      url: "https://blog.liuzhen932.top/"
-    - name: "Owen 的博客"
-      url: "https://www.owenyoung.com/"
-    - name: "pseudoyu"
-      url: "https://www.pseudoyu.com/"
-    - name: "r0k1s#i"
-      url: "https://weblog.contained.love/"
-    - name: "Raye's Journey"
-      url: "https://rayepeng.net"
-    - name: "SkyWT"
-      url: "https://skywt.cn/"
-    - name: "So!azy"
-      url: "https://blog.solazy.me/"
-    - name: "Taober"
-      url: "https://www.taober.blog/"
-    - name: "Taxodium"
-      url: "https://taxodium.ink/"
-    - name: "Tw93 Blog"
-      url: "https://tw93.fun/"
-    - name: "Weekly on 子舒的博客"
-      url: "https://zishu.me"
+    - name: /var/log/gblab
+      url: https://lab.gb0.dev/
+    - name: 2750 words
+      url: https://pathos.page/
+    - name: 白熊阿丸的小屋
+      url: https://blog.bxaw.name/
+    - name: 潮流周刊
+      url: https://weekly.tw93.fun/
+    - name: 陈仓颉
+      url: https://imzm.im/
+    - name: 东评西就
+      url: https://dongjunke.cn/
+    - name: 仿生猫梦见电子猫粮
+      url: https://jefftay.com/
+    - name: 非理勿试
+      url: https://www.ntiy.com/
+    - name: 伏枥之间
+      url: https://leehenry.top/
+    - name: 狐狸反走矣
+      url: https://blog.southfox.me/
+    - name: 胡拉图
+      url: https://hulatu.com/
+    - name: 極客死亡計劃
+      url: https://www.geedea.pro/
+    - name: 老 T 博客
+      url: https://lawtee.com/
+    - name: 刘郎阁
+      url: https://vjo.cc/
+    - name: 莫比乌斯
+      url: https://onojyun.com/
+    - name: 暖心向阳 335
+      url: https://nxxy335.top/
+    - name: 破袜子
+      url: https://pewae.com/
+    - name: 强少来了
+      url: https://www.fengxiaoqiang.com/
+    - name: 三十海河
+      url: https://ihaihe.cn/
+    - name: 四季・花开 —— 魏文超's Blog
+      url: https://www.weiwenchao.com/
+    - name: 碎言 - SuiYan Blog
+      url: https://www.suiyan.cc/
+    - name: 肖恩技术周刊
+      url: https://weekly.shawnxie.top/
+    - name: 一直游到海水变蓝
+      url: https://nelsonboss.ink/
+    - name: 纸鹿摸鱼处
+      url: https://blog.zhilu.site/
+    - name: 周天记
+      url: https://zhoutian.com/
+    - name: 主页 on Doin 的赛博空间
+      url: https://doin.pages.dev/
+    - name: 子夜松声
+      url: https://xyzbz.cn/
+    - name: Airing 的博客
+      url: https://blog.ursb.me/
+    - name: Another Dayu
+      url: https://anotherdayu.com/
+    - name: est の 输入 输出和出入
+      url: https://blog.est.im/
+    - name: FAV0 周刊
+      url: https://fav0.com/
+    - name: Home on 梁某银的博客
+      url: https://liangmouyin.com/
+    - name: ImQi1
+      url: https://imqi1.com/
+    - name: J.F's BLOG
+      url: https://blog.zzbd.org/
+    - name: Jake Archibald's blog
+      url: https://jakearchibald.com/
+    - name: JustGoIdea
+      url: https://justgoidea.com/
+    - name: JustZht's EchoChamber
+      url: https://www.justzht.com/
+    - name: Learn More
+      url: http://study.tczhong.com/
+    - name: liuzhen932 的小窝
+      url: https://blog.liuzhen932.top/
+    - name: Owen 的博客
+      url: https://www.owenyoung.com/
+    - name: pseudoyu
+      url: https://www.pseudoyu.com/
+    - name: r0k1s#i
+      url: https://weblog.contained.love/
+    - name: Raye's Journey
+      url: https://rayepeng.net
+    - name: SkyWT
+      url: https://skywt.cn/
+    - name: So!azy
+      url: https://blog.solazy.me/
+    - name: Taober
+      url: https://www.taober.blog/
+    - name: Taxodium
+      url: https://taxodium.ink/
+    - name: Tw93 Blog
+      url: https://tw93.fun/
+    - name: Weekly on 子舒的博客
+      url: https://zishu.me

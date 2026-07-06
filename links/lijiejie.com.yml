@@ -1,12 +1,12 @@
 site:
-  name: "lijiejie.com"
-  url: "http://www.lijiejie.com/"
-  description: "友情链接"
-  links: "/"
+  name: 李劼杰的博客
+  url: http://www.lijiejie.com/
+  description: 李劼杰的生活记录
+  links: /
   friends:
-    - name: "wooyaa"
-      url: "http://wooyaa.me"
-    - name: "xiaoxia"
-      url: "http://xiaoxia.org"
-    - name: "eyes.sh"
-      url: "http://eyes.sh/"
+    - name: wooyaa
+      url: http://wooyaa.me
+    - name: xiaoxia
+      url: http://xiaoxia.org
+    - name: eyes.sh
+      url: http://eyes.sh/

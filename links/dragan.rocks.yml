@@ -1,8 +1,8 @@
 site:
-  name: "dragan.rocks"
-  url: "http://dragan.rocks/"
-  description: "友情链接"
-  links: "/"
+  name: Articles
+  url: http://dragan.rocks/
+  description: Dragan Djuric's Clojure Blog, Artificial Intelligence, Deep Learning, Bayesian Data Analysis, CUDA, GPU, OpenCL, Functional Programming, Probabilistic Programming, Data Science.
+  links: /
   friends:
-    - name: "These books fund my work! Please check them out."
-      url: "https://aiprobook.com"
+    - name: These books fund my work! Please check them out.
+      url: https://aiprobook.com

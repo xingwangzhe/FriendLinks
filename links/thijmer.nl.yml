@@ -1,14 +1,14 @@
 site:
-  name: "thijmer.nl"
-  url: "https://www.thijmer.nl/"
-  description: "友情链接"
-  links: "/"
+  name: Home - thijmer.nl
+  url: https://www.thijmer.nl/
+  description: Thijmen's portfolio and blog
+  links: /
   friends:
-    - name: "Typst"
-      url: "https://typst.app"
-    - name: "Fediring"
-      url: "https://fediring.net/"
-    - name: "Hotline webring"
-      url: "https://hotlinewebring.club/"
-    - name: "IndieWeb webring"
-      url: "https://🕸💍.ws"
+    - name: Typst
+      url: https://typst.app
+    - name: Fediring
+      url: https://fediring.net/
+    - name: Hotline webring
+      url: https://hotlinewebring.club/
+    - name: IndieWeb webring
+      url: https://🕸💍.ws

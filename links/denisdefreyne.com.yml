@@ -1,12 +1,12 @@
 site:
-  name: "denisdefreyne.com"
-  url: "https://denisdefreyne.com/"
-  description: "友情链接"
-  links: "/"
+  name: Home - Denis Defreyne
+  url: https://denisdefreyne.com/
+  description: The personal web site of Denis Defreyne
+  links: /
   friends:
-    - name: "Nanoc"
-      url: "https://nanoc.app"
-    - name: "closecontact"
-      url: "https://closecontact.club"
-    - name: "SoundCloud"
-      url: "https://soundcloud.com"
+    - name: Nanoc
+      url: https://nanoc.app
+    - name: closecontact
+      url: https://closecontact.club
+    - name: SoundCloud
+      url: https://soundcloud.com

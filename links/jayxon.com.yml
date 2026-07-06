@@ -1,142 +1,142 @@
 site:
-  name: "jayxon.com"
-  url: "https://www.jayxon.com/"
-  description: "友情链接"
-  links: "/links"
+  name: JayXon - Blog
+  url: https://www.jayxon.com/
+  description: Blog
+  links: /links
   friends:
-    - name: "一览无鱼"
-      url: "http://www.yl5y.com/"
-    - name: "藏剑山庄"
-      url: "http://blog.yanwen.org/"
-    - name: "孤雨博客"
-      url: "http://blog.gysf.org/"
-    - name: "游软轨迹"
-      url: "http://www.wanghualang.com/"
-    - name: "CCAV1和谐频道"
-      url: "http://www.ccav1.com"
-    - name: "数字流年"
-      url: "http://vpc.cc/"
-    - name: "aheadlead的博客"
-      url: "http://www.dlifep.com/"
-    - name: "在路上"
-      url: "http://sobaigu.com/"
-    - name: "齐码代码"
-      url: "http://www.7mdm.com"
-    - name: "诸葛草帽"
-      url: "http://zhugecaomao.jimdo.com/"
-    - name: "行客工作室"
-      url: "http://www.runker.net/"
-    - name: "疯子莫"
-      url: "http://www.moyanjun.cn/"
-    - name: "Firefly"
-      url: "http://bobylive.com"
-    - name: "轻狂志"
-      url: "http://www.flighty.cn/"
-    - name: "Oricon Music 日音日和"
-      url: "http://www.itfang.com/"
-    - name: "最美应用"
-      url: "http://www.isoftee.com/"
-    - name: "梧桐雨软件园"
-      url: "http://wutongyu.info/"
-    - name: "尘埃软件网"
-      url: "http://www.tmoke.com/"
-    - name: "速诺网"
-      url: "http://www.sonovo.net/"
-    - name: "Thiece"
-      url: "http://blog.thiece.cn/"
-    - name: "第八区"
-      url: "http://www.qzonn.com/"
-    - name: "分享盒子"
-      url: "http://www.pcfast.org/"
-    - name: "E剑忠晴’S Blog"
-      url: "http://ihuorong.cn/"
-    - name: "funBeta.net"
-      url: "http://funbeta.net/"
-    - name: "智享互联"
-      url: "http://www.zhiip.com"
-    - name: "Demon"
-      url: "http://demonc.com/"
-    - name: "绿色营"
-      url: "http://www.lvsing.com/"
-    - name: "街角晚灯"
-      url: "http://www.winjay.org/"
-    - name: "黑桃7"
-      url: "http://www.spade7.com/"
-    - name: "知彼而知己"
-      url: "http://www.heu8.com"
-    - name: "申杰博客"
-      url: "http://www.shenjieblog.com/"
-    - name: "独居e阁"
-      url: "http://www.5ieg.com/"
-    - name: "YuyiDesign"
-      url: "http://www.yuyidesign.com"
-    - name: "Black Hawk “心”的奇迹"
-      url: "http://hawk.uub.cc"
-    - name: "sunshine"
-      url: "http://www.ziydao.com"
-    - name: "闪电软件园"
-      url: "http://www.sd173.com"
-    - name: "林雨语林网"
-      url: "http://www.lin50.com"
-    - name: "花无涯"
-      url: "http://www.heixie.net"
-    - name: "工口绅士"
-      url: "http://erohentai.xxx/"
-    - name: "唯小轶"
-      url: "http://www.weiiyii.com"
-    - name: "Myfreedom614"
-      url: "http://openszone.com"
-    - name: "前端观察站"
-      url: "http://www.qianduanview.com"
-    - name: "QQ地带"
-      url: "http://www.oicqzone.com"
-    - name: "绿软天空"
-      url: "http://gssky.iesword.com/"
-    - name: "免费部落"
-      url: "http://www.mfbuluo.com"
-    - name: "陈医生"
-      url: "http://www.win7zhijia.cn"
-    - name: "龙笑天"
-      url: "http://www.longxiaotianxia.com"
-    - name: "前端小尚"
-      url: "http://www.xjchenhao.cn"
-    - name: "58说博客"
-      url: "http://blog.58shuo.cn"
-    - name: "Anybfans"
-      url: "http://www.anybfans.com"
-    - name: "Hooli"
-      url: "http://www.idongu.com"
-    - name: "alinxl"
-      url: "http://www.alinxl.com"
-    - name: "Hooli"
-      url: "http://me.hub.moe/"
-    - name: "Flippy"
-      url: "http://ewe.moe"
-    - name: "GAMESH"
-      url: "http://PSVWIFI.COM"
-    - name: "Sealt"
-      url: "http://www.ntrun.com/"
-    - name: "部落联盟360"
-      url: "http://www.bllm360.com"
-    - name: "可入眼"
-      url: "http://www.keruyan.com"
-    - name: "cardtime"
-      url: "https://cardtime.com.ph"
-    - name: "phrichjili"
-      url: "https://phrichjili.ph"
-    - name: "AmbroseRen"
-      url: "https://ambroseren.github.io"
-    - name: "PortableAppC"
-      url: "http://www.portableappc.com"
-    - name: "zd423"
-      url: "http://www.zdfans.com/"
-    - name: "代码疯子"
-      url: "http://www.programlife.net/"
-    - name: "爱玩电脑"
-      url: "http://www.iwanpc.com/"
-    - name: "独木成林"
-      url: "http://www.guofs.com/"
-    - name: "神刀网"
-      url: "http://www.shellsec.com/"
-    - name: "软件No1"
-      url: "http://www.rjno1.com/"
+    - name: 一览无鱼
+      url: http://www.yl5y.com/
+    - name: 藏剑山庄
+      url: http://blog.yanwen.org/
+    - name: 孤雨博客
+      url: http://blog.gysf.org/
+    - name: 游软轨迹
+      url: http://www.wanghualang.com/
+    - name: CCAV1和谐频道
+      url: http://www.ccav1.com
+    - name: 数字流年
+      url: http://vpc.cc/
+    - name: aheadlead的博客
+      url: http://www.dlifep.com/
+    - name: 在路上
+      url: http://sobaigu.com/
+    - name: 齐码代码
+      url: http://www.7mdm.com
+    - name: 诸葛草帽
+      url: http://zhugecaomao.jimdo.com/
+    - name: 行客工作室
+      url: http://www.runker.net/
+    - name: 疯子莫
+      url: http://www.moyanjun.cn/
+    - name: Firefly
+      url: http://bobylive.com
+    - name: 轻狂志
+      url: http://www.flighty.cn/
+    - name: Oricon Music 日音日和
+      url: http://www.itfang.com/
+    - name: 最美应用
+      url: http://www.isoftee.com/
+    - name: 梧桐雨软件园
+      url: http://wutongyu.info/
+    - name: 尘埃软件网
+      url: http://www.tmoke.com/
+    - name: 速诺网
+      url: http://www.sonovo.net/
+    - name: Thiece
+      url: http://blog.thiece.cn/
+    - name: 第八区
+      url: http://www.qzonn.com/
+    - name: 分享盒子
+      url: http://www.pcfast.org/
+    - name: E剑忠晴’S Blog
+      url: http://ihuorong.cn/
+    - name: funBeta.net
+      url: http://funbeta.net/
+    - name: 智享互联
+      url: http://www.zhiip.com
+    - name: Demon
+      url: http://demonc.com/
+    - name: 绿色营
+      url: http://www.lvsing.com/
+    - name: 街角晚灯
+      url: http://www.winjay.org/
+    - name: 黑桃7
+      url: http://www.spade7.com/
+    - name: 知彼而知己
+      url: http://www.heu8.com
+    - name: 申杰博客
+      url: http://www.shenjieblog.com/
+    - name: 独居e阁
+      url: http://www.5ieg.com/
+    - name: YuyiDesign
+      url: http://www.yuyidesign.com
+    - name: Black Hawk “心”的奇迹
+      url: http://hawk.uub.cc
+    - name: sunshine
+      url: http://www.ziydao.com
+    - name: 闪电软件园
+      url: http://www.sd173.com
+    - name: 林雨语林网
+      url: http://www.lin50.com
+    - name: 花无涯
+      url: http://www.heixie.net
+    - name: 工口绅士
+      url: http://erohentai.xxx/
+    - name: 唯小轶
+      url: http://www.weiiyii.com
+    - name: Myfreedom614
+      url: http://openszone.com
+    - name: 前端观察站
+      url: http://www.qianduanview.com
+    - name: QQ地带
+      url: http://www.oicqzone.com
+    - name: 绿软天空
+      url: http://gssky.iesword.com/
+    - name: 免费部落
+      url: http://www.mfbuluo.com
+    - name: 陈医生
+      url: http://www.win7zhijia.cn
+    - name: 龙笑天
+      url: http://www.longxiaotianxia.com
+    - name: 前端小尚
+      url: http://www.xjchenhao.cn
+    - name: 58说博客
+      url: http://blog.58shuo.cn
+    - name: Anybfans
+      url: http://www.anybfans.com
+    - name: Hooli
+      url: http://www.idongu.com
+    - name: alinxl
+      url: http://www.alinxl.com
+    - name: Hooli
+      url: http://me.hub.moe/
+    - name: Flippy
+      url: http://ewe.moe
+    - name: GAMESH
+      url: http://PSVWIFI.COM
+    - name: Sealt
+      url: http://www.ntrun.com/
+    - name: 部落联盟360
+      url: http://www.bllm360.com
+    - name: 可入眼
+      url: http://www.keruyan.com
+    - name: cardtime
+      url: https://cardtime.com.ph
+    - name: phrichjili
+      url: https://phrichjili.ph
+    - name: AmbroseRen
+      url: https://ambroseren.github.io
+    - name: PortableAppC
+      url: http://www.portableappc.com
+    - name: zd423
+      url: http://www.zdfans.com/
+    - name: 代码疯子
+      url: http://www.programlife.net/
+    - name: 爱玩电脑
+      url: http://www.iwanpc.com/
+    - name: 独木成林
+      url: http://www.guofs.com/
+    - name: 神刀网
+      url: http://www.shellsec.com/
+    - name: 软件No1
+      url: http://www.rjno1.com/

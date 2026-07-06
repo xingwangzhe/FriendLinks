@@ -1,14 +1,14 @@
 site:
-  name: "shiker.tech"
-  url: "https://shiker.tech/"
-  description: "友情链接"
-  links: "/links"
+  name: 橙序员小站
+  url: https://shiker.tech/
+  description: 欢迎访问本站，这里记录架构、算法与代码的一线实践，我们都为你提供丰富的知识和资源。
+  links: /links
   friends:
-    - name: "左手平凡 程序猿、垃圾佬的个人博客。"
-      url: "https://blog.perass.com/"
-    - name: "熊猫实验室 在Jupyter Lab做实验的Pandas"
-      url: "https://pandalab.me/"
-    - name: "Hello算法 算法入门书籍~"
-      url: "https://www.hello-algo.com/"
-    - name: "力扣 面试刷题网站"
-      url: "https://leetcode.cn"
+    - name: 左手平凡 程序猿、垃圾佬的个人博客。
+      url: https://blog.perass.com/
+    - name: 熊猫实验室 在Jupyter Lab做实验的Pandas
+      url: https://pandalab.me/
+    - name: Hello算法 算法入门书籍~
+      url: https://www.hello-algo.com/
+    - name: 力扣 面试刷题网站
+      url: https://leetcode.cn

@@ -1,12 +1,12 @@
 site:
-  name: "cirrus.twiddles.com"
-  url: "https://cirrus.twiddles.com/"
-  description: "友情链接"
-  links: "/links"
+  name: "Cirrus's Realm: James Nash's personal website"
+  url: https://cirrus.twiddles.com/
+  description: Personal site and blog of James Nash. Design system nerd, classically trained webmaster and occasional fashion terrorist.
+  links: /links
   friends:
-    - name: "Universal Design Tokens"
-      url: "https://udt.design/"
-    - name: "Cyberfinity"
-      url: "https://www.cyberfinity.net/"
-    - name: "Adonthell"
-      url: "https://adonthell.nongnu.org/"
+    - name: Universal Design Tokens
+      url: https://udt.design/
+    - name: Cyberfinity
+      url: https://www.cyberfinity.net/
+    - name: Adonthell
+      url: https://adonthell.nongnu.org/

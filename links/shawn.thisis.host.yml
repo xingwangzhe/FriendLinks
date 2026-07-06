@@ -1,12 +1,12 @@
 site:
-  name: "shawn.thisis.host"
-  url: "https://shawn.thisis.host/"
-  description: "友情链接"
-  links: "/friend"
+  name: Shawn的笔记
+  url: https://shawn.thisis.host/
+  description: 这里是 ShawnJeffersonWang 记录他想法的地方。
+  links: /friend
   friends:
-    - name: "纸鹿本鹿"
-      url: "https://blog.zhilu.cyou/"
-    - name: "Ph0m"
-      url: "https://blog.phom.space/"
-    - name: "Tiny-Sky"
-      url: "https://tiny-sky.github.io/"
+    - name: 纸鹿本鹿
+      url: https://blog.zhilu.cyou/
+    - name: Ph0m
+      url: https://blog.phom.space/
+    - name: Tiny-Sky
+      url: https://tiny-sky.github.io/

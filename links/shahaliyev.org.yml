@@ -1,20 +1,20 @@
 site:
-  name: "shahaliyev.org"
-  url: "https://shahaliyev.org/"
-  description: "友情链接"
-  links: "/"
+  name: Ismayil Shahaliyev
+  url: https://shahaliyev.org/
+  description: "{“en”=>”Computer Scientist International Chess Master”, “az”=>”Kompüter Alimi Beynəlxalq Şahmat Ustası”}"
+  links: /
   friends:
-    - name: "chris olah"
-      url: "https://colah.github.io/"
-    - name: "joel spolsky"
-      url: "https://joelonsoftware.com/"
-    - name: "michael nielsen"
-      url: "https://michaelnielsen.org/"
-    - name: "nat eliason"
-      url: "https://nateliason.com/"
-    - name: "scott aaronson"
-      url: "https://scottaaronson.blog/"
-    - name: "stephen wolfram"
-      url: "https://writings.stephenwolfram.com/"
-    - name: "terry tao"
-      url: "https://terrytao.wordpress.com/"
+    - name: chris olah
+      url: https://colah.github.io/
+    - name: joel spolsky
+      url: https://joelonsoftware.com/
+    - name: michael nielsen
+      url: https://michaelnielsen.org/
+    - name: nat eliason
+      url: https://nateliason.com/
+    - name: scott aaronson
+      url: https://scottaaronson.blog/
+    - name: stephen wolfram
+      url: https://writings.stephenwolfram.com/
+    - name: terry tao
+      url: https://terrytao.wordpress.com/

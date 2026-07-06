@@ -1,22 +1,22 @@
 site:
-  name: "jquery123.com"
-  url: "https://www.jquery123.com/"
-  description: "友情链接"
-  links: "/"
+  name: jQuery中文网
+  url: https://www.jquery123.com/
+  description: jQuery：用更少的代码完成更多工作！jQuery 是一个最流行的 JavaScript 工具库。
+  links: /
   friends:
-    - name: "Parcle"
-      url: "https://www.parclejs.cn/"
-    - name: "Biome"
-      url: "https://www.biomejs.cn/"
-    - name: "SASS"
-      url: "https://www.sasscss.com/"
-    - name: "Gulp"
-      url: "https://www.gulpjs.cn/"
-    - name: "Alpine.js"
-      url: "https://www.alpinejs.cn/"
-    - name: "Bun"
-      url: "https://www.bunjs.cn/"
-    - name: "Cheerio"
-      url: "https://www.cheerio.cn/"
-    - name: "Astro"
-      url: "https://www.astrojs.cn/"
+    - name: Parcle
+      url: https://www.parclejs.cn/
+    - name: Biome
+      url: https://www.biomejs.cn/
+    - name: SASS
+      url: https://www.sasscss.com/
+    - name: Gulp
+      url: https://www.gulpjs.cn/
+    - name: Alpine.js
+      url: https://www.alpinejs.cn/
+    - name: Bun
+      url: https://www.bunjs.cn/
+    - name: Cheerio
+      url: https://www.cheerio.cn/
+    - name: Astro
+      url: https://www.astrojs.cn/

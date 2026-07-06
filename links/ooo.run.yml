@@ -1,18 +1,18 @@
 site:
-  name: "ooo.run"
-  url: "https://ooo.run/"
-  description: "友情链接"
-  links: "/links"
+  name: O's World
+  url: https://ooo.run/
+  description: "O's World收录 77 篇文章，包括Docker Compose 新增 Init Containers：终于不用再写一堆一次性初始化服务了、开源项目: 把酷炫的 WebGL Shader 变成前端组件 - Paper Shaders 介绍、Sonnet 5 已发布，值得用吗？。"
+  links: /links
   friends:
-    - name: "KASUIEの次元 喜欢温柔的人"
-      url: "https://kasuie.cc"
-    - name: "微光zc的网络小窝 世界全剧终，欢迎来到my blog！、"
-      url: "https://wzcwzc10.github.io/"
-    - name: "Homulilly Aroes's Blog"
-      url: "https://homulilly.com"
-    - name: "Elykia 致以无暇之人"
-      url: "https://blog.elykia.cn/"
-    - name: "iMaeGoo's Blog 虹墨空间站"
-      url: "https://www.imaegoo.com/"
-    - name: "bbb-lsy07 科技激荡人文，洞见智慧本真。"
-      url: "https://blog.tsoo.net/"
+    - name: KASUIEの次元 喜欢温柔的人
+      url: https://kasuie.cc
+    - name: 微光zc的网络小窝 世界全剧终，欢迎来到my blog！、
+      url: https://wzcwzc10.github.io/
+    - name: Homulilly Aroes's Blog
+      url: https://homulilly.com
+    - name: Elykia 致以无暇之人
+      url: https://blog.elykia.cn/
+    - name: iMaeGoo's Blog 虹墨空间站
+      url: https://www.imaegoo.com/
+    - name: bbb-lsy07 科技激荡人文，洞见智慧本真。
+      url: https://blog.tsoo.net/

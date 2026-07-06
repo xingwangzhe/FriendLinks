@@ -1,24 +1,24 @@
 site:
-  name: "zmoe.com"
-  url: "https://zmoe.com/"
-  description: "友情链接"
-  links: "/links"
+  name: A/B's Blog
+  url: https://zmoe.com/
+  description: 欢迎来到A/B（B分之A）的博客，除了B分之A以外，还有朹方project，笨蛋军团，打工战士...这些都是我的网名。博客分享生活和技术。本站采用Wordpress+魔改主题搭建，站点的LOGO的人物是使用AI生成的，然后我再在上面PS上ZMOE的字样。本博客已不稳定地运营9年
+  links: /links
   friends:
-    - name: "Hi, DIYgod"
-      url: "https://diygod.cc/"
-    - name: "ZLA 小站"
-      url: "https://zla.pub/"
-    - name: "ZMTU"
-      url: "https://zmtu.com/"
-    - name: "FGHRSH"
-      url: "https://www.fghrsh.net"
-    - name: "imbytecat"
-      url: "https://www.imbytecat.com/"
-    - name: "夏槿的小屋"
-      url: "https://uniya.work/"
-    - name: "OneFour 查询"
-      url: "https://14.cx/"
-    - name: "HydricAcid"
-      url: "https://blog.hcl.moe"
-    - name: "iEmo"
-      url: "https://iemo.onll.cn/"
+    - name: Hi, DIYgod
+      url: https://diygod.cc/
+    - name: ZLA 小站
+      url: https://zla.pub/
+    - name: ZMTU
+      url: https://zmtu.com/
+    - name: FGHRSH
+      url: https://www.fghrsh.net
+    - name: imbytecat
+      url: https://www.imbytecat.com/
+    - name: 夏槿的小屋
+      url: https://uniya.work/
+    - name: OneFour 查询
+      url: https://14.cx/
+    - name: HydricAcid
+      url: https://blog.hcl.moe
+    - name: iEmo
+      url: https://iemo.onll.cn/

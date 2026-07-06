@@ -1,12 +1,12 @@
 site:
-  name: "senventise.com"
-  url: "https://www.senventise.com/"
-  description: "友情链接"
-  links: "/friends"
+  name: Senventise's Blog
+  url: https://www.senventise.com/
+  description: 友情链接
+  links: /friends
   friends:
-    - name: "芝士部落格"
-      url: "https://blog.youmuwhisper.space/"
-    - name: "篱落闲栈"
-      url: "https://blog.wittoy.com/"
-    - name: "无梦梦游记"
-      url: "https://bkryofu.cn/"
+    - name: 芝士部落格
+      url: https://blog.youmuwhisper.space/
+    - name: 篱落闲栈
+      url: https://blog.wittoy.com/
+    - name: 无梦梦游记
+      url: https://bkryofu.cn/

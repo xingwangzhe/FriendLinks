@@ -1,22 +1,22 @@
 site:
-  name: "my.hancel.org"
-  url: "https://my.hancel.org/"
-  description: "友情链接"
-  links: "/friends"
+  name: Hancel's Blog
+  url: https://my.hancel.org/
+  description: 人生而自由，却无往不在枷锁之中
+  links: /friends
   friends:
-    - name: "adlered"
-      url: "https://www.stackoverflow.wiki"
-    - name: "csfwff"
-      url: "https://www.sszsj.com/"
-    - name: "Gakkiyomi"
-      url: "http://gakkiyomi.me/"
-    - name: "Yui"
-      url: "https://www.lingmx.com/"
-    - name: "Lemon"
-      url: "https://chenxiaohui.eu.org/"
-    - name: "iwpz"
-      url: "https://iwpz.net/"
-    - name: "stillwarter"
-      url: "https://stillwarter.github.io/"
-    - name: "咕咕咕"
-      url: "https://cooooing.github.io/"
+    - name: adlered
+      url: https://www.stackoverflow.wiki
+    - name: csfwff
+      url: https://www.sszsj.com/
+    - name: Gakkiyomi
+      url: http://gakkiyomi.me/
+    - name: Yui
+      url: https://www.lingmx.com/
+    - name: Lemon
+      url: https://chenxiaohui.eu.org/
+    - name: iwpz
+      url: https://iwpz.net/
+    - name: stillwarter
+      url: https://stillwarter.github.io/
+    - name: 咕咕咕
+      url: https://cooooing.github.io/

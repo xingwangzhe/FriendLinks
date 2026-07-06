@@ -1,10 +1,10 @@
 site:
-  name: "m1hax.uk"
-  url: "https://m1hax.uk/"
-  description: "友情链接"
-  links: "/"
+  name: M1HAX Mountain Radio - Hiking, Mountaineering, Ham Radio & SOTA
+  url: https://m1hax.uk/
+  description: Summit journal and blog documenting hiking trail routes, mountaineering, ham radio projects, and Summits on the Air (SOTA) amateur radio activities.
+  links: /
   friends:
-    - name: "APRS.fi"
-      url: "https://aprs.fi/#!mt=osm&z=16&call=a%2FM1HAX-9&timerange=604800&tail=604800"
-    - name: "Webring Home"
-      url: "https://ring.fediverse.radio"
+    - name: APRS.fi
+      url: https://aprs.fi/#!mt=osm&z=16&call=a%2FM1HAX-9&timerange=604800&tail=604800
+    - name: Webring Home
+      url: https://ring.fediverse.radio

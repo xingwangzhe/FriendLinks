@@ -1,44 +1,44 @@
 site:
-  name: "therepl.net"
-  url: "https://www.therepl.net/"
-  description: "友情链接"
-  links: "/"
+  name: The REPL · The REPL
+  url: https://www.therepl.net/
+  description: Daniel Compton talks to Clojure and ClojureScript developers about the libraries and systems they have built. They dive into the nitty-gritty details and technical challenges the authors faced.
+  links: /
   friends:
-    - name: "Daniel Compton"
-      url: "https://danielcompton.net"
-    - name: "XTDB"
-      url: "https://xtdb.com"
-    - name: "Datomic"
-      url: "https://www.datomic.com"
-    - name: "Tonsky (Nikita Prokopov)"
-      url: "https://tonsky.me/"
+    - name: Daniel Compton
+      url: https://danielcompton.net
+    - name: XTDB
+      url: https://xtdb.com
+    - name: Datomic
+      url: https://www.datomic.com
+    - name: Tonsky (Nikita Prokopov)
+      url: https://tonsky.me/
     - name: "Google CEL: Common Expression Language"
-      url: "https://cel.dev"
-    - name: "JRuby"
-      url: "https://www.jruby.org"
-    - name: "ActiveState"
-      url: "https://www.activestate.com/"
-    - name: "Ingy.net personal website"
-      url: "https://resume.ingy.net/"
-    - name: "Quivre"
-      url: "https://www.quiv.re"
-    - name: "Wusoup"
-      url: "https://www.wusoup.com"
+      url: https://cel.dev
+    - name: JRuby
+      url: https://www.jruby.org
+    - name: ActiveState
+      url: https://www.activestate.com/
+    - name: Ingy.net personal website
+      url: https://resume.ingy.net/
+    - name: Quivre
+      url: https://www.quiv.re
+    - name: Wusoup
+      url: https://www.wusoup.com
     - name: "Clerk: Moldable Live Programming for Clojure - PX23 paper"
-      url: "https://px23.clerk.vision/"
-    - name: "Úll conference"
-      url: "https://2018.ull.ie"
-    - name: "Tools for Online Speech"
-      url: "https://tfos.co"
-    - name: "Biff website"
-      url: "https://biffweb.com"
-    - name: "Yakread"
-      url: "https://yakread.com"
-    - name: "ThinkFun"
-      url: "https://www.thinkfun.com/"
-    - name: "Google X"
-      url: "https://x.company"
-    - name: "maria.cloud"
-      url: "https://www.maria.cloud"
-    - name: "Brad Feld"
-      url: "https://feld.com"
+      url: https://px23.clerk.vision/
+    - name: Úll conference
+      url: https://2018.ull.ie
+    - name: Tools for Online Speech
+      url: https://tfos.co
+    - name: Biff website
+      url: https://biffweb.com
+    - name: Yakread
+      url: https://yakread.com
+    - name: ThinkFun
+      url: https://www.thinkfun.com/
+    - name: Google X
+      url: https://x.company
+    - name: maria.cloud
+      url: https://www.maria.cloud
+    - name: Brad Feld
+      url: https://feld.com

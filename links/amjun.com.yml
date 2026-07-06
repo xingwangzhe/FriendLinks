@@ -1,20 +1,20 @@
 site:
-  name: "amjun.com"
-  url: "https://www.amjun.com/"
-  description: "友情链接"
-  links: "/"
+  name: 阿蛮君博客 - 分享开发和运维技术教程、办公和学习的效率工具以及生活中的一些碎片化知识
+  url: https://www.amjun.com/
+  description: 阿蛮君博客主要以记录自己工作中开发、运维相关的技术教程为主，很多教程通过搜集整理互联网内容，并加以实践记录下来。同时还有很多软件的搭建以及使用教程，还分享一些日常工作学习生活中用到的效率工具和实用软件。
+  links: /
   friends:
-    - name: "二歪同学"
-      url: "https://www.waistu.com/"
-    - name: "艾自由网"
-      url: "https://www.ifree6.cn/"
-    - name: "诺言博客"
-      url: "https://www.nuoyo.cn"
-    - name: "新锐博客"
-      url: "https://blog.xrbk.cn"
-    - name: "海蓝岛"
-      url: "https://hailandao.com"
-    - name: "洋葱Blog"
-      url: "https://www.blogyc.cn"
-    - name: "天海博客"
-      url: "https://woolyun.com/"
+    - name: 二歪同学
+      url: https://www.waistu.com/
+    - name: 艾自由网
+      url: https://www.ifree6.cn/
+    - name: 诺言博客
+      url: https://www.nuoyo.cn
+    - name: 新锐博客
+      url: https://blog.xrbk.cn
+    - name: 海蓝岛
+      url: https://hailandao.com
+    - name: 洋葱Blog
+      url: https://www.blogyc.cn
+    - name: 天海博客
+      url: https://woolyun.com/

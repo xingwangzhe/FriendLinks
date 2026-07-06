@@ -1,10 +1,10 @@
 site:
-  name: "kinnerfisch.cn"
-  url: "https://kinnerfisch.cn/"
-  description: "友情链接"
-  links: "/"
+  name: KinnerFisch's blog
+  url: https://kinnerfisch.cn/
+  description: KinnerFisch's blog - 分享计算机技术、实用文件、杂谈等技术与实践经验的个人博客
+  links: /
   friends:
-    - name: "oines — 手記"
-      url: "https://oines.dev/"
-    - name: "Geekertao blog"
-      url: "https://www.geekertao.com/"
+    - name: oines — 手記
+      url: https://oines.dev/
+    - name: Geekertao blog
+      url: https://www.geekertao.com/

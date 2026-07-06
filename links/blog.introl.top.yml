@@ -1,14 +1,14 @@
 site:
-  name: "blog.introl.top"
-  description: "友情链接"
-  url: "https://blog.introl.top/"
-  links: "/friends"
+  name: Introl's Blog
+  description: 一个OIer的OI弱相关博客
+  url: https://blog.introl.top/
+  links: /friends
   friends:
-    - name: "时歌的博客 理解以真实为本，但真实本身并不会自动呈现 https://www.lapis.cafe"
-      url: "https://www.lapis.cafe"
-    - name: "LANSGANBS's Blog 红叶最多情，一舞寄相思。 https://www.lansganbs.cn/"
-      url: "https://www.lansganbs.cn/"
-    - name: "Qiwi说说 一名高中生的技术与成长记录 https://maxqi.top/"
-      url: "https://maxqi.top/"
-    - name: "橘智的安宁之地 共享博客&深度思考。 https://juzhiart.com"
-      url: "https://juzhiart.com"
+    - name: 时歌的博客 理解以真实为本，但真实本身并不会自动呈现 https://www.lapis.cafe
+      url: https://www.lapis.cafe
+    - name: LANSGANBS's Blog 红叶最多情，一舞寄相思。 https://www.lansganbs.cn/
+      url: https://www.lansganbs.cn/
+    - name: Qiwi说说 一名高中生的技术与成长记录 https://maxqi.top/
+      url: https://maxqi.top/
+    - name: 橘智的安宁之地 共享博客&深度思考。 https://juzhiart.com
+      url: https://juzhiart.com

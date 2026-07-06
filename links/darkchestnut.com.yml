@@ -1,10 +1,10 @@
 site:
-  name: "darkchestnut.com"
-  url: "https://www.darkchestnut.com/"
-  description: "友情链接"
-  links: "/about"
+  name: Dark Chestnut
+  url: https://www.darkchestnut.com/
+  description: A blog about Common Lisp, documenting things I learned while writing and deploying programs for use in production.
+  links: /about
   friends:
-    - name: "Git Lisa"
-      url: "https://www.gitlisa.com"
-    - name: "Forgejo"
-      url: "https://forgejo.org"
+    - name: Git Lisa
+      url: https://www.gitlisa.com
+    - name: Forgejo
+      url: https://forgejo.org

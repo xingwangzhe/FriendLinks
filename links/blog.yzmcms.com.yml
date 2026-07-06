@@ -1,16 +1,16 @@
 site:
-  name: "blog.yzmcms.com"
-  url: "https://blog.yzmcms.com/"
-  description: "友情链接"
-  links: "/"
+  name: 袁志蒙个人博客_YzmCMS博客
+  url: https://blog.yzmcms.com/
+  description: YzmCMS官方博客，袁志蒙的个人博客，学习并分享PHP、Linux、MySQL和前端技术等WEB知识，记录生活的点点滴滴，是一个互联网从业者值得收藏的网站。
+  links: /
   friends:
-    - name: "多骨鱼"
-      url: "https://www.duoguyu.com/"
-    - name: "叶子博客"
-      url: "https://www.yezismile.com"
-    - name: "封尘博客"
-      url: "https://lovefc.cn/"
-    - name: "王松_Striker"
-      url: "https://www.hackersb.cn/"
-    - name: "魏义齐博客"
-      url: "https://blog.weiyiqi.net/"
+    - name: 多骨鱼
+      url: https://www.duoguyu.com/
+    - name: 叶子博客
+      url: https://www.yezismile.com
+    - name: 封尘博客
+      url: https://lovefc.cn/
+    - name: 王松_Striker
+      url: https://www.hackersb.cn/
+    - name: 魏义齐博客
+      url: https://blog.weiyiqi.net/

@@ -1,12 +1,12 @@
 site:
-  name: "john.colagioia.net"
-  url: "https://john.colagioia.net/"
-  description: "友情链接"
-  links: "/link"
+  name: John Colagioia
+  url: https://john.colagioia.net/
+  description: 友情链接
+  links: /link
   friends:
-    - name: "Matrix"
-      url: "https://matrix.to/#/@jcolag:matrix.org"
-    - name: "Signal"
-      url: "https://signal.me/#eu/6x4C_EgG-Kc44nOQp2bou8C4aIIOKBDT3mfaR42f8xRGP28wHThBq5M4rQmRxvGV"
-    - name: "itch.io"
-      url: "https://jcolag.itch.io"
+    - name: Matrix
+      url: https://matrix.to/#/@jcolag:matrix.org
+    - name: Signal
+      url: https://signal.me/#eu/6x4C_EgG-Kc44nOQp2bou8C4aIIOKBDT3mfaR42f8xRGP28wHThBq5M4rQmRxvGV
+    - name: itch.io
+      url: https://jcolag.itch.io

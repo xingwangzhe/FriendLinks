@@ -1,22 +1,22 @@
 site:
-  name: "blog.glenjamin.co.uk"
-  url: "https://blog.glenjamin.co.uk/"
-  description: "友情链接"
-  links: "/"
+  name: Coding through the Glen
+  url: https://blog.glenjamin.co.uk/
+  description: Notes on Programming and Web Software
+  links: /
   friends:
-    - name: "Danny"
-      url: "http://thefallenphoenix.net/"
-    - name: "The devil's dictionary"
-      url: "http://www.thedevilsdictionary.com/"
-    - name: "App Dynamics"
-      url: "http://www.appdynamics.com/"
-    - name: "CLJSFiddle"
-      url: "http://cljsfiddle.net/"
-    - name: "leaflet.js"
-      url: "http://leafletjs.com/"
-    - name: "dimple.js"
-      url: "http://dimplejs.org/"
-    - name: "RSpec"
-      url: "http://rspec.info/"
-    - name: "iTerm2"
-      url: "http://www.iterm2.com/"
+    - name: Danny
+      url: http://thefallenphoenix.net/
+    - name: The devil's dictionary
+      url: http://www.thedevilsdictionary.com/
+    - name: App Dynamics
+      url: http://www.appdynamics.com/
+    - name: CLJSFiddle
+      url: http://cljsfiddle.net/
+    - name: leaflet.js
+      url: http://leafletjs.com/
+    - name: dimple.js
+      url: http://dimplejs.org/
+    - name: RSpec
+      url: http://rspec.info/
+    - name: iTerm2
+      url: http://www.iterm2.com/

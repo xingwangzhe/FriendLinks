@@ -1,94 +1,94 @@
 site:
-  name: "blog.fkun.tech"
-  url: "https://blog.fkun.tech/"
-  description: "友情链接"
-  links: "/friends.html"
+  name: FKUNのBLOG
+  url: https://blog.fkun.tech/
+  description: FKUNのBLOGへようこそ
+  links: /friends.html
   friends:
-    - name: "熊猫小A的博客"
-      url: "https://blog.imalan.cn"
-    - name: "The object Object"
-      url: "https://n0w0n.com"
-    - name: "smallclover"
-      url: "https://smallclover.github.io/"
-    - name: "diygod"
-      url: "https://diygod.me/"
-    - name: "Waxxh's Blog"
-      url: "https://waxxh.me/"
-    - name: "森纯博客"
-      url: "https://isenchun.cn/"
-    - name: "桜庭夜"
-      url: "https://yuuikic.com/"
-    - name: "Sonic853"
-      url: "https://blog.853lab.com/"
-    - name: "JosePhilo"
-      url: "https://josephilo.com/"
-    - name: "肥柴之家"
-      url: "https://www.bytecho.net/"
-    - name: "zkpeace"
-      url: "https://zkpeace.com/"
-    - name: "Nymane's Blog"
-      url: "https://www.nymane.xyz/"
-    - name: "沉舟侧畔"
-      url: "https://springwood.me/"
-    - name: "云游君"
-      url: "https://www.yunyoujun.cn/"
-    - name: "黑石博客"
-      url: "https://www.heson10.com/"
-    - name: "森木志"
-      url: "https://imxxz.cn/"
-    - name: "iVampireSPの物語"
-      url: "https://ivampiresp.com/"
-    - name: "Zeruns 's Blog"
-      url: "https://blog.zeruns.tech/"
-    - name: "萌豚 Moechu"
-      url: "https://moechu.cn"
-    - name: "江卮可乐"
-      url: "https://blog.ijann.com/"
-    - name: "Moeyuuko's Blog"
-      url: "https://blog.moeyuuko.top/"
-    - name: "赫赫文王"
-      url: "https://kqh.me/"
-    - name: "MyWifeAsuna"
-      url: "https://mywifeasuna.top/"
-    - name: "rYu1nser"
-      url: "https://iloli.moe/"
-    - name: "Mayx的博客"
-      url: "https://mabbs.github.io/"
-    - name: "阿卡林刘"
-      url: "https://www.akarinliu.com/"
-    - name: "Airing 的小屋"
-      url: "https://ursb.me/"
-    - name: "乱话三千描述"
-      url: "https://www.zanks.link/"
-    - name: "JiaoYuan's blog"
-      url: "https://yuanj.top/"
-    - name: "bbb-lsy07"
-      url: "https://blog.tsoo.net/"
-    - name: "梨尽兴"
-      url: "https://blog.ljx.icu/"
-    - name: "bbb-lsy07"
-      url: "https://blog.6uu.us/"
-    - name: "Artemisia"
-      url: "https://artemisia.icu"
-    - name: "bbb-lsy07"
-      url: "https://i.bbb-lsy07.sbs/"
-    - name: "ANHE"
-      url: "https://cuiyouxin.cn/"
-    - name: "bit15k"
-      url: "https://www.logdict.com"
-    - name: "Airing"
-      url: "https://blog.ursb.me"
-    - name: "fox"
-      url: "https://foolishfox.cn"
-    - name: "御宅男"
-      url: "https://blog.yzncms.com/"
-    - name: "不染轻裳"
-      url: "https://hesifan.top"
-    - name: "joinis"
-      url: "https://www.404creater.cn"
-    - name: "TAOG"
-      url: "https://taog.top"
-    - name: "NEKO"
-      url: "https://neko25.xyz"
-    - name: "August"
-      url: "https://blog.geek-cloud.top/"
+    - name: 熊猫小A的博客
+      url: https://blog.imalan.cn
+    - name: The object Object
+      url: https://n0w0n.com
+    - name: smallclover
+      url: https://smallclover.github.io/
+    - name: diygod
+      url: https://diygod.me/
+    - name: Waxxh's Blog
+      url: https://waxxh.me/
+    - name: 森纯博客
+      url: https://isenchun.cn/
+    - name: 桜庭夜
+      url: https://yuuikic.com/
+    - name: Sonic853
+      url: https://blog.853lab.com/
+    - name: JosePhilo
+      url: https://josephilo.com/
+    - name: 肥柴之家
+      url: https://www.bytecho.net/
+    - name: zkpeace
+      url: https://zkpeace.com/
+    - name: Nymane's Blog
+      url: https://www.nymane.xyz/
+    - name: 沉舟侧畔
+      url: https://springwood.me/
+    - name: 云游君
+      url: https://www.yunyoujun.cn/
+    - name: 黑石博客
+      url: https://www.heson10.com/
+    - name: 森木志
+      url: https://imxxz.cn/
+    - name: iVampireSPの物語
+      url: https://ivampiresp.com/
+    - name: Zeruns 's Blog
+      url: https://blog.zeruns.tech/
+    - name: 萌豚 Moechu
+      url: https://moechu.cn
+    - name: 江卮可乐
+      url: https://blog.ijann.com/
+    - name: Moeyuuko's Blog
+      url: https://blog.moeyuuko.top/
+    - name: 赫赫文王
+      url: https://kqh.me/
+    - name: MyWifeAsuna
+      url: https://mywifeasuna.top/
+    - name: rYu1nser
+      url: https://iloli.moe/
+    - name: Mayx的博客
+      url: https://mabbs.github.io/
+    - name: 阿卡林刘
+      url: https://www.akarinliu.com/
+    - name: Airing 的小屋
+      url: https://ursb.me/
+    - name: 乱话三千描述
+      url: https://www.zanks.link/
+    - name: JiaoYuan's blog
+      url: https://yuanj.top/
+    - name: bbb-lsy07
+      url: https://blog.tsoo.net/
+    - name: 梨尽兴
+      url: https://blog.ljx.icu/
+    - name: bbb-lsy07
+      url: https://blog.6uu.us/
+    - name: Artemisia
+      url: https://artemisia.icu
+    - name: bbb-lsy07
+      url: https://i.bbb-lsy07.sbs/
+    - name: ANHE
+      url: https://cuiyouxin.cn/
+    - name: bit15k
+      url: https://www.logdict.com
+    - name: Airing
+      url: https://blog.ursb.me
+    - name: fox
+      url: https://foolishfox.cn
+    - name: 御宅男
+      url: https://blog.yzncms.com/
+    - name: 不染轻裳
+      url: https://hesifan.top
+    - name: joinis
+      url: https://www.404creater.cn
+    - name: TAOG
+      url: https://taog.top
+    - name: NEKO
+      url: https://neko25.xyz
+    - name: August
+      url: https://blog.geek-cloud.top/

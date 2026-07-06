@@ -1,26 +1,26 @@
 site:
-  name: "undz.cn"
-  url: "https://undz.cn/"
-  description: "友情链接"
-  links: "/friends"
+  name: 主页
+  url: https://undz.cn/
+  description: AeYunDian的博客
+  links: /friends
   friends:
-    - name: "Bing🐣一个基于VuePress的个人博客"
-      url: "https://liubing.me/"
-    - name: "墨七墨染七弦月，笔耕半亩田。"
-      url: "https://mo7.cc/"
-    - name: "叶随风世界和平,身体健康。"
-      url: "https://yesuifeng.cc/"
-    - name: "UpXuu's blog逐光而上"
-      url: "https://upxuu.com/"
-    - name: "流欺の博客嗯对就是个博客"
-      url: "https://blog.lqay.cn/"
-    - name: "荒野孤灯荒野中的一盏孤灯，照亮夜里依然前行的人们!"
-      url: "https://www.80srz.com/"
-    - name: "二叉树树Protect What You Love"
-      url: "https://2x.nz/"
-    - name: "AJie’sBlog记录 AI 学习与探索之旅"
-      url: "https://www.promptnet.cn/"
-    - name: "蛋蛋之家一枚蛋蛋的自留地"
-      url: "https://wuqishi.com/"
-    - name: "李文君'sBlog记录生活，记录工作，记录身边有趣的事."
-      url: "https://loglib.cn/"
+    - name: Bing🐣一个基于VuePress的个人博客
+      url: https://liubing.me/
+    - name: 墨七墨染七弦月，笔耕半亩田。
+      url: https://mo7.cc/
+    - name: 叶随风世界和平,身体健康。
+      url: https://yesuifeng.cc/
+    - name: UpXuu's blog逐光而上
+      url: https://upxuu.com/
+    - name: 流欺の博客嗯对就是个博客
+      url: https://blog.lqay.cn/
+    - name: 荒野孤灯荒野中的一盏孤灯，照亮夜里依然前行的人们!
+      url: https://www.80srz.com/
+    - name: 二叉树树Protect What You Love
+      url: https://2x.nz/
+    - name: AJie’sBlog记录 AI 学习与探索之旅
+      url: https://www.promptnet.cn/
+    - name: 蛋蛋之家一枚蛋蛋的自留地
+      url: https://wuqishi.com/
+    - name: 李文君'sBlog记录生活，记录工作，记录身边有趣的事.
+      url: https://loglib.cn/

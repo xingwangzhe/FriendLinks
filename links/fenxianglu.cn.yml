@@ -1,14 +1,14 @@
 site:
-  name: "fenxianglu.cn"
-  url: "https://www.fenxianglu.cn/"
-  description: "友情链接"
-  links: "/"
+  name: 技术开发分享录
+  url: https://www.fenxianglu.cn/
+  description: 全栈技术、图文面试题、开发技巧、精品文章、常用工具、工作笔记、特色专栏、技术文档等总结分享
+  links: /
   friends:
-    - name: "剑客自媒体"
-      url: "http://jiankeweb.com/"
-    - name: "Mr. Ma's Blog"
-      url: "https://www.misterma.com/"
-    - name: "vipbic"
-      url: "https://www.vipbic.com/"
-    - name: "大志博客"
-      url: "https://czwang.top/"
+    - name: 剑客自媒体
+      url: http://jiankeweb.com/
+    - name: Mr. Ma's Blog
+      url: https://www.misterma.com/
+    - name: vipbic
+      url: https://www.vipbic.com/
+    - name: 大志博客
+      url: https://czwang.top/

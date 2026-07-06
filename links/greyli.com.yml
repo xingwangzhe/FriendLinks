@@ -1,10 +1,10 @@
 site:
-  name: "greyli.com"
-  url: "https://greyli.com/"
-  description: "友情链接"
-  links: "/"
+  name: 李辉 / Grey Li
+  url: https://greyli.com/
+  description: Hello，我是李辉（Grey Li），一个 Python 开发者。我是知乎专栏 Hello, Flask! 和技术书《Flask Web 开发实战》的作者。
+  links: /
   friends:
-    - name: "HelloFlask"
-      url: "https://helloflask.com"
-    - name: "代码厨房"
-      url: "https://codekitchen.community"
+    - name: HelloFlask
+      url: https://helloflask.com
+    - name: 代码厨房
+      url: https://codekitchen.community

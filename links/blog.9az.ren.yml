@@ -1,10 +1,10 @@
 site:
-  name: "blog.9az.ren"
-  url: "https://blog.9az.ren/"
-  description: "友情链接"
-  links: "/links.html"
+  name: 墨点拾光 - 拾光成影墨点为记
+  url: https://blog.9az.ren/
+  description: 墨点拾光是一个专注于网络技术、网站技术和运维技术分享的个人博客。内容涵盖Java、Spring Boot、Vue等前后端开发技术，以及运维相关教程，记录技术成长的点滴经验。
+  links: /links.html
   friends:
-    - name: "Hinai"
-      url: "https://blog.woo.moe"
-    - name: "IPv6"
-      url: "https://www.china-ipv6.cn/"
+    - name: Hinai
+      url: https://blog.woo.moe
+    - name: IPv6
+      url: https://www.china-ipv6.cn/

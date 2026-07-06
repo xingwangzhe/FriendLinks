@@ -1,10 +1,10 @@
 site:
-  name: "sean.taipei"
-  url: "https://www.sean.taipei/"
-  description: "友情链接"
-  links: "/"
+  name: 關於我
+  url: https://www.sean.taipei/
+  description: 自國中開始接觸程式，至今善於組合各種技巧，用來解決生活周遭的問題。
+  links: /
   friends:
-    - name: "台灣滑冰資訊站 skating.tw"
-      url: "https://skating.tw"
-    - name: "CTF"
-      url: "https://ctf.sean.cat/"
+    - name: 台灣滑冰資訊站 skating.tw
+      url: https://skating.tw
+    - name: CTF
+      url: https://ctf.sean.cat/

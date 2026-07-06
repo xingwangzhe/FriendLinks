@@ -1,10 +1,10 @@
 site:
-  name: "notes.sshwy.name"
-  url: "https://notes.sshwy.name/"
-  description: "友情链接"
-  links: "/"
+  name: Sshwy's Notes
+  url: https://notes.sshwy.name/
+  description: Sshwy 的个人博客
+  links: /
   friends:
-    - name: "Carol"
-      url: "https://carol-xrl.github.io/"
-    - name: "RainAir"
-      url: "https://blog.aor.sd.cn"
+    - name: Carol
+      url: https://carol-xrl.github.io/
+    - name: RainAir
+      url: https://blog.aor.sd.cn

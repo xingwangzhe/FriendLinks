@@ -1,14 +1,14 @@
 site:
-  name: "lijinke.cn"
-  url: "https://www.lijinke.cn/"
-  description: "友情链接"
-  links: "/links"
+  name: 李金珂的小屋
+  url: https://www.lijinke.cn/
+  description: 李金珂的小屋,博客,react,css3,html5,node.js,学习,文章
+  links: /links
   friends:
-    - name: "CaiCai"
-      url: "https://www.caicai.me"
-    - name: "CARA’S BLOG"
-      url: "https://caraws.github.io/"
-    - name: "Cody_’s Blog"
-      url: "https://www.wangqilong.net/"
-    - name: "霜序廿的个人网站"
-      url: "https://shuangxunian.github.io/"
+    - name: CaiCai
+      url: https://www.caicai.me
+    - name: CARA’S BLOG
+      url: https://caraws.github.io/
+    - name: Cody_’s Blog
+      url: https://www.wangqilong.net/
+    - name: 霜序廿的个人网站
+      url: https://shuangxunian.github.io/

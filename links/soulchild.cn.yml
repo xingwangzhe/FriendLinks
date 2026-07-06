@@ -1,10 +1,10 @@
 site:
-  name: "soulchild.cn"
-  url: "https://soulchild.cn/"
-  description: "友情链接"
-  links: "/friends"
+  name: SoulChild随笔记
+  url: https://soulchild.cn/
+  description: 小牛之路，一个记录运维开发、自动化运维、DevOps、Kubernetes、Docker、编程等技术笔记的博客，与您分享实用技巧和心得
+  links: /friends
   friends:
     - name: "@Lruihao"
-      url: "https://lruihao.cn"
+      url: https://lruihao.cn
     - name: "@猫公会"
-      url: "https://www.catguild.cn/"
+      url: https://www.catguild.cn/

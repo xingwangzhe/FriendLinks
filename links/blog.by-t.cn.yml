@@ -1,10 +1,10 @@
 site:
-  name: "blog.by-t.cn"
-  url: "https://blog.by-t.cn/"
-  description: "友情链接"
-  links: "/"
+  name: 听风博客_by
+  url: https://blog.by-t.cn/
+  description: 首页描述
+  links: /
   friends:
-    - name: "歪云互联"
-      url: "https://w.yyunl.cn/"
-    - name: "白猫博客"
-      url: "https://blog.caoor.cn/"
+    - name: 歪云互联
+      url: https://w.yyunl.cn/
+    - name: 白猫博客
+      url: https://blog.caoor.cn/

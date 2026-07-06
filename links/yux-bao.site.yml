@@ -1,24 +1,24 @@
 site:
-  name: "yux-bao.site"
-  description: "友情链接"
-  url: "https://yux-bao.site/"
-  links: "/friends"
+  name: 关于 - yuxbao's blog
+  description: 探索生活、技术与思维交织的个人博客。
+  url: https://yux-bao.site/
+  links: /friends
   friends:
-    - name: "信也のブログ一写代码的"
-      url: "https://shinya.click"
-    - name: "张洪Heo分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Axi's Blog一只可爱小猫"
-      url: "https://axi404.top"
-    - name: "澄健码上洞见，知行合一"
-      url: "https://penjc.cn"
-    - name: "HoeyTeacher, I'm on fire to improve!"
-      url: "https://zhenghaoyang.cn/"
-    - name: "阿涛の小破站Docker技术分享"
-      url: "https://emohe.cn"
-    - name: "KELIN’S RECORDS梦见什么写什么"
-      url: "https://www.kelin.ink"
-    - name: "牛牛技术客栈学习改变命运，分享创造价值"
-      url: "https://www.nnjskz.cn"
-    - name: "Neomelt’s BlogKeep looking, don’t settle"
-      url: "https://neomelt.cloud"
+    - name: 信也のブログ一写代码的
+      url: https://shinya.click
+    - name: 张洪Heo分享设计与科技生活
+      url: https://blog.zhheo.com/
+    - name: Axi's Blog一只可爱小猫
+      url: https://axi404.top
+    - name: 澄健码上洞见，知行合一
+      url: https://penjc.cn
+    - name: HoeyTeacher, I'm on fire to improve!
+      url: https://zhenghaoyang.cn/
+    - name: 阿涛の小破站Docker技术分享
+      url: https://emohe.cn
+    - name: KELIN’S RECORDS梦见什么写什么
+      url: https://www.kelin.ink
+    - name: 牛牛技术客栈学习改变命运，分享创造价值
+      url: https://www.nnjskz.cn
+    - name: Neomelt’s BlogKeep looking, don’t settle
+      url: https://neomelt.cloud

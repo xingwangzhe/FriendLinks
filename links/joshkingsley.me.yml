@@ -1,8 +1,15 @@
 site:
-  name: "joshkingsley.me"
-  url: "https://joshkingsley.me/"
-  description: "友情链接"
-  links: "/"
+  name: Josh Kingsley
+  url: https://joshkingsley.me/
+  description: |-
+    Hello World!
+
+    I'm a software engineer from the UK based in Cluj-Napoca, Romania 🇷🇴
+
+    I'm learning and writing about:
+    Distributed systems and data
+    Rust, ...
+  links: /
   friends:
-    - name: "Bear ʕ•ᴥ•ʔ"
-      url: "https://bearblog.dev"
+    - name: Bear ʕ•ᴥ•ʔ
+      url: https://bearblog.dev

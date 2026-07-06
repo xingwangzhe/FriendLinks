@@ -1,10 +1,10 @@
 site:
-  name: "fnguy.com"
-  url: "https://fnguy.com/"
-  description: "友情链接"
-  links: "/"
+  name: Alex Sheluchin's Blog
+  url: https://fnguy.com/
+  description: Thoughts, expressions, reviews and ideas
+  links: /
   friends:
-    - name: "seqfind.com"
-      url: "https://seqfind.com"
-    - name: "phronmophobic"
-      url: "https://blog.phronemophobic.com/"
+    - name: seqfind.com
+      url: https://seqfind.com
+    - name: phronmophobic
+      url: https://blog.phronemophobic.com/

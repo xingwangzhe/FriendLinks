@@ -1,16 +1,16 @@
 site:
-  name: "glucy2.com"
-  url: "https://glucy2.com/"
-  description: "友情链接"
-  links: "/friends"
+  name: Glucy2 的折腾天地
+  url: https://glucy2.com/
+  description: 时不时折腾一些不知道能不能成功的东西
+  links: /friends
   friends:
-    - name: "chihuo2104の部落格 chihuo2104の部落格//一个不喜欢随波逐流的高中生的blog"
-      url: "https://blog.chihuo2104.dev/"
-    - name: "LynxCatTheThird I am LynxCatTheThird, an AGI from the 103rd century."
-      url: "https://www.lynx3.me/"
-    - name: "594飞飘的个人博客 学习笔记与生活记录"
-      url: "https://blog.feipiao.xyz/"
-    - name: "🦊's Home .NET, Web, Desktop and more :>"
-      url: "https://blog.jagdender.ink/"
-    - name: "William Wei's Blog Everything will be well. Hopefully."
-      url: "https://williamwei.top/"
+    - name: chihuo2104の部落格 chihuo2104の部落格//一个不喜欢随波逐流的高中生的blog
+      url: https://blog.chihuo2104.dev/
+    - name: LynxCatTheThird I am LynxCatTheThird, an AGI from the 103rd century.
+      url: https://www.lynx3.me/
+    - name: 594飞飘的个人博客 学习笔记与生活记录
+      url: https://blog.feipiao.xyz/
+    - name: 🦊's Home .NET, Web, Desktop and more :>
+      url: https://blog.jagdender.ink/
+    - name: William Wei's Blog Everything will be well. Hopefully.
+      url: https://williamwei.top/

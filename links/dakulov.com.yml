@@ -1,14 +1,14 @@
 site:
-  name: "dakulov.com"
-  url: "https://dakulov.com/"
-  description: "友情链接"
-  links: "/"
+  name: Dmitriy Akulov
+  url: https://dakulov.com/
+  description: The founder of many tech companies and projects, most famous for jsDelivr, PerfOps and appfleet
+  links: /
   friends:
-    - name: "appfleet"
-      url: "https://appfleet.com"
-    - name: "PerfOps"
-      url: "https://perfops.net"
-    - name: "Prospect One"
-      url: "https://prospectone.io"
-    - name: "bashlogo.com"
-      url: "https://bashlogo.com/"
+    - name: appfleet
+      url: https://appfleet.com
+    - name: PerfOps
+      url: https://perfops.net
+    - name: Prospect One
+      url: https://prospectone.io
+    - name: bashlogo.com
+      url: https://bashlogo.com/

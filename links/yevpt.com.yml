@@ -1,8 +1,8 @@
 site:
-  name: "yevpt.com"
-  url: "https://www.yevpt.com/"
-  description: "友情链接"
-  links: "/"
+  name: 首页
+  url: https://www.yevpt.com/
+  description: 分享编程、工具与文学的个人博客
+  links: /
   friends:
-    - name: "Gin"
-      url: "https://gin-gonic.com"
+    - name: Gin
+      url: https://gin-gonic.com

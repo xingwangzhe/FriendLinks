@@ -1,18 +1,18 @@
 site:
-  name: "liuchenyang.top"
-  url: "http://liuchenyang.top/"
-  description: "友情链接"
-  links: "/"
+  name: 主页
+  url: http://liuchenyang.top/
+  description: 不积跬步无以至千里, 仰望星空还需脚踏实地。分享思想，留下痕迹。我是Liucy，上学就爱完电脑，高中就开始学Java、c#、Mysql、Linux，今从事Linux运维工程师,这里 记录Liucy的学习记录以及知识分享。 希望我的分享可以帮助更多的小伙伴， 如果觉得我的网站 ToLiucyLinux 的内容对你有帮助的话，还请点个免费的 Star，也是...
+  links: /
   friends:
-    - name: "程序员Leo欢迎大家来看看~"
-      url: "https://leocoder.cn/"
-    - name: "上冬十二到最后，竟庆幸于夕阳仍留在身上"
-      url: "https://oragekk.me/"
-    - name: "运维开发绿皮书放置运维开发笔记、搜集、摘录、实践，保持好奇心，看文需谨慎，后果很严重！"
-      url: "https://www.geekery.cn/"
-    - name: "崔亮的博客专注运维开发技术，传播更多原创运维与开发技术文章"
-      url: "https://www.cuiliangblog.cn/"
-    - name: "运维小弟专注技术积累，探索运维之道"
-      url: "https://www.srebro.cn/"
-    - name: "MengBo' Li Blog运维技术分享"
-      url: "https://blog.imdst.com/"
+    - name: 程序员Leo欢迎大家来看看~
+      url: https://leocoder.cn/
+    - name: 上冬十二到最后，竟庆幸于夕阳仍留在身上
+      url: https://oragekk.me/
+    - name: 运维开发绿皮书放置运维开发笔记、搜集、摘录、实践，保持好奇心，看文需谨慎，后果很严重！
+      url: https://www.geekery.cn/
+    - name: 崔亮的博客专注运维开发技术，传播更多原创运维与开发技术文章
+      url: https://www.cuiliangblog.cn/
+    - name: 运维小弟专注技术积累，探索运维之道
+      url: https://www.srebro.cn/
+    - name: MengBo' Li Blog运维技术分享
+      url: https://blog.imdst.com/

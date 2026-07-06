@@ -1,16 +1,16 @@
 site:
-  name: "jounal.izfsk.top"
-  url: "https://jounal.izfsk.top/"
-  description: "友情链接"
-  links: "/"
+  name: journalctl -u life.service
+  url: https://jounal.izfsk.top/
+  description: izfsk 的动态
+  links: /
   friends:
-    - name: "/saop.cc"
-      url: "https://saop.cc"
-    - name: "/lowbee.icu"
-      url: "https://www.lowbee.icu"
-    - name: "/blog.asyncx.top"
-      url: "https://blog.asyncx.top/"
-    - name: "/mskclover.com"
-      url: "https://mskclover.com/"
-    - name: "/blog.skyju.cc"
-      url: "https://blog.skyju.cc/"
+    - name: /saop.cc
+      url: https://saop.cc
+    - name: /lowbee.icu
+      url: https://www.lowbee.icu
+    - name: /blog.asyncx.top
+      url: https://blog.asyncx.top/
+    - name: /mskclover.com
+      url: https://mskclover.com/
+    - name: /blog.skyju.cc
+      url: https://blog.skyju.cc/

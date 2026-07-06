@@ -1,12 +1,12 @@
 site:
-  name: "vanten-s.com"
-  url: "https://vanten-s.com/"
-  description: "友情链接"
-  links: "/"
+  name: Vanten
+  url: https://vanten-s.com/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Matrix"
-      url: "https://matrix.to/#/@vanten-s:matrix.ungdata.org"
-    - name: "geekcode"
-      url: "https://geekcode.xyz"
-    - name: "fediring"
-      url: "https://fediring.net"
+    - name: Matrix
+      url: https://matrix.to/#/@vanten-s:matrix.ungdata.org
+    - name: geekcode
+      url: https://geekcode.xyz
+    - name: fediring
+      url: https://fediring.net

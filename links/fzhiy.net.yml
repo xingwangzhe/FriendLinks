@@ -1,20 +1,20 @@
 site:
-  name: "fzhiy.net"
-  url: "https://fzhiy.net/"
-  description: "友情链接"
-  links: "/links"
+  name: fzhiy's blog
+  url: https://fzhiy.net/
+  description: Hugo theme even example site.
+  links: /links
   friends:
-    - name: "阵雨兄’s Blog"
-      url: "https://blog.alttt.com/"
-    - name: "科学空间"
-      url: "https://kexue.fm/"
-    - name: "夜灭の小窝"
-      url: "https://yujie.pro/"
-    - name: "孙云增的博客"
-      url: "https://sunyunzeng.com/"
-    - name: "MiaoTony’s 小窝"
-      url: "https://miaotony.xyz/"
-    - name: "halfrost"
-      url: "https://halfrost.com/"
-    - name: "墨晗博客"
-      url: "https://xxh2001.ink/"
+    - name: 阵雨兄’s Blog
+      url: https://blog.alttt.com/
+    - name: 科学空间
+      url: https://kexue.fm/
+    - name: 夜灭の小窝
+      url: https://yujie.pro/
+    - name: 孙云增的博客
+      url: https://sunyunzeng.com/
+    - name: MiaoTony’s 小窝
+      url: https://miaotony.xyz/
+    - name: halfrost
+      url: https://halfrost.com/
+    - name: 墨晗博客
+      url: https://xxh2001.ink/

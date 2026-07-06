@@ -1,24 +1,26 @@
 site:
-  name: "blog.josephwilk.net"
-  url: "http://blog.josephwilk.net/"
-  description: "友情链接"
-  links: "/"
+  name: Joseph Wilk
+  url: http://blog.josephwilk.net/
+  description: |-
+    Exploring patterns as a means of documenting Clojure functions to aid recall and understanding. Whats the difference in Clojure between:
+    partition …
+  links: /
   friends:
-    - name: "Repl-Electric"
-      url: "http://www.repl-electric.com/"
-    - name: "desktop app"
-      url: "https://www.shazam.com/"
-    - name: "vertex shader art"
-      url: "http://www.vertexshaderart.com"
-    - name: "Supercollider"
-      url: "http://supercollider.github.io/"
-    - name: "Overtone"
-      url: "http://overtone.github.io/"
-    - name: "Freesound"
-      url: "https://www.freesound.org/"
-    - name: "Shader Toy"
-      url: "https://www.shadertoy.com"
-    - name: "Neurosky"
-      url: "http://www.neurosky.com"
-    - name: "Octopress"
-      url: "http://octopress.org"
+    - name: Repl-Electric
+      url: http://www.repl-electric.com/
+    - name: desktop app
+      url: https://www.shazam.com/
+    - name: vertex shader art
+      url: http://www.vertexshaderart.com
+    - name: Supercollider
+      url: http://supercollider.github.io/
+    - name: Overtone
+      url: http://overtone.github.io/
+    - name: Freesound
+      url: https://www.freesound.org/
+    - name: Shader Toy
+      url: https://www.shadertoy.com
+    - name: Neurosky
+      url: http://www.neurosky.com
+    - name: Octopress
+      url: http://octopress.org

@@ -1,12 +1,12 @@
 site:
-  name: "zhangtielei.com"
-  url: "http://zhangtielei.com/"
-  description: "友情链接"
-  links: "/"
+  name: 欢迎来到铁蕾的博客 - 铁蕾的个人博客
+  url: http://zhangtielei.com/
+  description: 欢迎来到铁蕾的博客 - 铁蕾的个人博客 - 作者:张铁蕾
+  links: /
   friends:
-    - name: "MathOverflow"
-      url: "http://mathoverflow.net/"
-    - name: "Android Developer"
-      url: "http://developer.android.com/"
-    - name: "干货集中营"
-      url: "http://gank.io/"
+    - name: MathOverflow
+      url: http://mathoverflow.net/
+    - name: Android Developer
+      url: http://developer.android.com/
+    - name: 干货集中营
+      url: http://gank.io/

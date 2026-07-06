@@ -1,10 +1,10 @@
 site:
-  name: "blog2.detectivelfy.top"
-  url: "https://blog2.detectivelfy.top/"
-  description: "友情链接"
-  links: "/friend"
+  name: DetLFYの博客
+  url: https://blog2.detectivelfy.top/
+  description: 二进制安全与软件安全分享交流
+  links: /friend
   friends:
-    - name: "Jmp.Cliff UCAS的同学，PWN✌️"
-      url: "http://jmpcliff.top"
-    - name: "iyheart FAFU的学弟，PWN&CRYPTO✌️"
-      url: "https://iyheart.github.io/"
+    - name: Jmp.Cliff UCAS的同学，PWN✌️
+      url: http://jmpcliff.top
+    - name: iyheart FAFU的学弟，PWN&CRYPTO✌️
+      url: https://iyheart.github.io/

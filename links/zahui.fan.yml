@@ -1,16 +1,16 @@
 site:
-  name: "zahui.fan"
-  url: "https://zahui.fan/"
-  description: "友情链接"
-  links: "/link"
+  name: 杂烩饭 - 张理坤的博客 - 运维技术分享
+  url: https://zahui.fan/
+  description: 张理坤的个人技术博客, 致力于分享运维开发等技术经验, 由系统运维、脚本编程、devops等分类组成, 涵盖了Docker、k8s、Python、Linux、Shell脚本、MySQL、Prometheus、ElasticSearch、虚拟化、Django、vue等内容。
+  links: /link
   friends:
-    - name: "Aria2NG"
-      url: "https://aria2.babudiu.com/"
-    - name: "把布丢 分享优秀软件"
-      url: "https://babudiu.com/"
-    - name: "要红的网站 运维日常"
-      url: "https://linyaohong.com/"
-    - name: "文涛的网站 运维日常"
-      url: "https://blog.vrzbq.com/"
-    - name: "崔亮的博客 专注运维开发技术，传播更多原创运维与开发技术文章"
-      url: "https://www.cuiliangblog.cn"
+    - name: Aria2NG
+      url: https://aria2.babudiu.com/
+    - name: 把布丢 分享优秀软件
+      url: https://babudiu.com/
+    - name: 要红的网站 运维日常
+      url: https://linyaohong.com/
+    - name: 文涛的网站 运维日常
+      url: https://blog.vrzbq.com/
+    - name: 崔亮的博客 专注运维开发技术，传播更多原创运维与开发技术文章
+      url: https://www.cuiliangblog.cn

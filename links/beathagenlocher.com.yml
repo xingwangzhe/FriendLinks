@@ -1,90 +1,90 @@
 site:
-  name: "beathagenlocher.com"
-  url: "https://beathagenlocher.com/"
-  description: "友情链接"
-  links: "/"
+  name: Beat Hagenlochers Digital Garden
+  url: https://beathagenlocher.com/
+  description: Beat's digital garden with notes and essays on Software Engineering, and other written thinking
+  links: /
   friends:
-    - name: "LessWrong"
-      url: "https://www.lesswrong.com/"
-    - name: "functional programming meetup"
-      url: "https://tu-lambda.github.io/"
-    - name: "fluid.tw"
-      url: "https://fluid.tw/"
-    - name: "slidev"
-      url: "https://sli.dev"
-    - name: "a simple DNS lookup tool"
-      url: "https://dns-lookup.jvns.ca/"
-    - name: "forgejo"
-      url: "https://forgejo.org/"
-    - name: "clan.lol Matrix Server"
-      url: "https://matrix.to/#/#clan:clan.lol"
-    - name: "Kanidm"
-      url: "https://kanidm.com/"
-    - name: "Actual"
-      url: "https://actualbudget.org/"
-    - name: "Diataxis"
-      url: "https://diataxis.fr"
-    - name: "Lix"
-      url: "https://lix.systems/"
-    - name: "Clan"
-      url: "https://clan.lol"
-    - name: "Frontier Tower"
-      url: "https://frontiertower.io/"
-    - name: "bunster"
-      url: "https://bunster.netlify.app/"
-    - name: "Solid Primitives"
-      url: "https://primitives.solidjs.community/"
-    - name: "Valibot"
-      url: "https://valibot.dev/"
-    - name: "Reveal JS"
-      url: "https://revealjs.com"
-    - name: "Nirvana"
-      url: "https://www.nirvanahq.com/"
-    - name: "Liberland"
-      url: "https://liberland.org/"
-    - name: "Quartz"
-      url: "https://quartz.jzhao.xyz/"
-    - name: "Socratica"
-      url: "https://www.socratica.info/"
-    - name: "The Quiet Rich"
-      url: "https://www.thequietrich.co/"
-    - name: "Monkeytype"
-      url: "https://monkeytype.com"
-    - name: "NAND to Tetris"
-      url: "https://www.nand2tetris.org/"
-    - name: "Twelve Days of Shell"
-      url: "https://12days.cmdchallenge.com/"
-    - name: "Command Challenge"
-      url: "https://cmdchallenge.com/"
-    - name: "Without /bin version"
-      url: "https://oops.cmdchallenge.com"
-    - name: "Joel Spolsky"
-      url: "https://www.joelonsoftware.com/"
-    - name: "Eli Tyre"
-      url: "https://elityre.com/"
-    - name: "Charity Entrepreneurship"
-      url: "https://www.charityentrepreneurship.com/"
-    - name: "PureScript"
-      url: "https://www.purescript.org/"
-    - name: "Super-Productivity"
-      url: "https://super-productivity.com/"
-    - name: "some"
-      url: "https://zero.rocicorp.dev/"
-    - name: "topics"
-      url: "https://jazz.tools/"
-    - name: "Local-first Conference"
-      url: "https://www.localfirstconf.com/"
-    - name: "Darklang"
-      url: "https://darklang.com/"
-    - name: "Amazing Marvin"
-      url: "https://amazingmarvin.com/"
-    - name: "Stepan Parunashvili"
-      url: "https://stopa.io/"
-    - name: "Hacker School"
-      url: "https://hacker-school.de"
-    - name: "Why Cryptocurrencies"
-      url: "https://whycryptocurrencies.com/"
-    - name: "my window manager"
-      url: "https://www.gnome.org/"
-    - name: "ReScript"
-      url: "https://rescript-lang.org/"
+    - name: LessWrong
+      url: https://www.lesswrong.com/
+    - name: functional programming meetup
+      url: https://tu-lambda.github.io/
+    - name: fluid.tw
+      url: https://fluid.tw/
+    - name: slidev
+      url: https://sli.dev
+    - name: a simple DNS lookup tool
+      url: https://dns-lookup.jvns.ca/
+    - name: forgejo
+      url: https://forgejo.org/
+    - name: clan.lol Matrix Server
+      url: https://matrix.to/#/#clan:clan.lol
+    - name: Kanidm
+      url: https://kanidm.com/
+    - name: Actual
+      url: https://actualbudget.org/
+    - name: Diataxis
+      url: https://diataxis.fr
+    - name: Lix
+      url: https://lix.systems/
+    - name: Clan
+      url: https://clan.lol
+    - name: Frontier Tower
+      url: https://frontiertower.io/
+    - name: bunster
+      url: https://bunster.netlify.app/
+    - name: Solid Primitives
+      url: https://primitives.solidjs.community/
+    - name: Valibot
+      url: https://valibot.dev/
+    - name: Reveal JS
+      url: https://revealjs.com
+    - name: Nirvana
+      url: https://www.nirvanahq.com/
+    - name: Liberland
+      url: https://liberland.org/
+    - name: Quartz
+      url: https://quartz.jzhao.xyz/
+    - name: Socratica
+      url: https://www.socratica.info/
+    - name: The Quiet Rich
+      url: https://www.thequietrich.co/
+    - name: Monkeytype
+      url: https://monkeytype.com
+    - name: NAND to Tetris
+      url: https://www.nand2tetris.org/
+    - name: Twelve Days of Shell
+      url: https://12days.cmdchallenge.com/
+    - name: Command Challenge
+      url: https://cmdchallenge.com/
+    - name: Without /bin version
+      url: https://oops.cmdchallenge.com
+    - name: Joel Spolsky
+      url: https://www.joelonsoftware.com/
+    - name: Eli Tyre
+      url: https://elityre.com/
+    - name: Charity Entrepreneurship
+      url: https://www.charityentrepreneurship.com/
+    - name: PureScript
+      url: https://www.purescript.org/
+    - name: Super-Productivity
+      url: https://super-productivity.com/
+    - name: some
+      url: https://zero.rocicorp.dev/
+    - name: topics
+      url: https://jazz.tools/
+    - name: Local-first Conference
+      url: https://www.localfirstconf.com/
+    - name: Darklang
+      url: https://darklang.com/
+    - name: Amazing Marvin
+      url: https://amazingmarvin.com/
+    - name: Stepan Parunashvili
+      url: https://stopa.io/
+    - name: Hacker School
+      url: https://hacker-school.de
+    - name: Why Cryptocurrencies
+      url: https://whycryptocurrencies.com/
+    - name: my window manager
+      url: https://www.gnome.org/
+    - name: ReScript
+      url: https://rescript-lang.org/

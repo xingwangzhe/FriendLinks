@@ -1,22 +1,22 @@
 site:
-  name: "lukebennett.dev"
-  url: "https://www.lukebennett.dev/"
-  description: "友情链接"
-  links: "/links"
+  name: Luke Bennett
+  url: https://www.lukebennett.dev/
+  description: Luke Bennett’s personal website
+  links: /links
   friends:
-    - name: "zod"
-      url: "https://zod.dev/"
-    - name: "react-hook-form"
-      url: "https://react-hook-form.com/"
-    - name: "Phiranno Designs"
-      url: "https://pd.design/"
-    - name: "Jason Lengstorf"
-      url: "https://jason.energy/"
-    - name: "Nick Jones ​"
-      url: "https://narrowdesign.com/"
-    - name: "Keystone"
-      url: "https://keystonejs.com/"
-    - name: "Panda CSS,"
-      url: "https://panda-css.com/"
-    - name: "Infinite Mac ​"
-      url: "https://infinitemac.org"
+    - name: zod
+      url: https://zod.dev/
+    - name: react-hook-form
+      url: https://react-hook-form.com/
+    - name: Phiranno Designs
+      url: https://pd.design/
+    - name: Jason Lengstorf
+      url: https://jason.energy/
+    - name: Nick Jones ​
+      url: https://narrowdesign.com/
+    - name: Keystone
+      url: https://keystonejs.com/
+    - name: Panda CSS,
+      url: https://panda-css.com/
+    - name: Infinite Mac ​
+      url: https://infinitemac.org

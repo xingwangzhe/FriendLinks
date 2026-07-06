@@ -1,14 +1,14 @@
 site:
-  name: "mingming.wang"
-  url: "https://mingming.wang/"
-  description: "友情链接"
-  links: "/friends"
+  name: 王明明的小站
+  url: https://mingming.wang/
+  description: 友情链接
+  links: /friends
   friends:
-    - name: "六月长河 桃"
-      url: "https://hugo.111520.xyz"
-    - name: "Debug客栈"
-      url: "https://blog.debuginn.com"
-    - name: "程序员鸡皮"
-      url: "https://www.xvzhu.cn"
-    - name: "Jimmy"
-      url: "https://jimmycai.com"
+    - name: 六月长河 桃
+      url: https://hugo.111520.xyz
+    - name: Debug客栈
+      url: https://blog.debuginn.com
+    - name: 程序员鸡皮
+      url: https://www.xvzhu.cn
+    - name: Jimmy
+      url: https://jimmycai.com

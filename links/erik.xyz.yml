@@ -1,20 +1,20 @@
 site:
-  name: "erik.xyz"
-  url: "https://erik.xyz/"
-  description: "友情链接"
-  links: "/"
+  name: 艾瑞可erik
+  url: https://erik.xyz/
+  description: 一只PHP开发的程序猿，偶尔做做运维、Goland、Python、Java、摄影、画画、写作、顺便睡觉，反正整站都搞过。
+  links: /
   friends:
-    - name: "XSS'OR"
-      url: "http://xssor.io"
-    - name: "rot13"
-      url: "https://rot13.com"
-    - name: "正则表达式验证"
-      url: "https://regex101.com"
-    - name: "云海鹰影博客"
-      url: "https://www.chaoswork.cn"
-    - name: "小兔博客"
-      url: "https://xtu2.com"
-    - name: "胡涂说"
-      url: "https://hutusi.com"
-    - name: "Ric's Blog"
-      url: "https://lichong.work"
+    - name: XSS'OR
+      url: http://xssor.io
+    - name: rot13
+      url: https://rot13.com
+    - name: 正则表达式验证
+      url: https://regex101.com
+    - name: 云海鹰影博客
+      url: https://www.chaoswork.cn
+    - name: 小兔博客
+      url: https://xtu2.com
+    - name: 胡涂说
+      url: https://hutusi.com
+    - name: Ric's Blog
+      url: https://lichong.work

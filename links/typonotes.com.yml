@@ -1,36 +1,36 @@
 site:
-  name: "typonotes.com"
-  url: "https://typonotes.com/"
-  description: "友情链接"
-  links: "/links"
+  name: 老麦的书房
+  url: https://typonotes.com/
+  description: 专注于IT互联网， 包括但不限于Go语言(golang)、DevOps、云原生等
+  links: /links
   friends:
-    - name: "Design by老麦"
-      url: "https://tangx.in/"
-    - name: "陈明勇的博客一个热爱技术，喜欢专研技术的程序员。"
-      url: "http://chenmingyong.cn/"
-    - name: "1024 CORES读懂第一个字后，世界便有了心跳。"
-      url: "https://weizicoding.cn/"
-    - name: "Nuck实验小白鼠"
-      url: "https://www.mletter.cn"
-    - name: "问道的小花园静水流深 行稳致远 敬天爱人 问道求是"
-      url: "https://www.zengzhiqi.top"
-    - name: "咸菜拌白饭 - 工作笔记"
-      url: "https://www.haoba.cc/"
-    - name: "biaoblog - 个人博客"
-      url: "http://biaoblog.cn"
-    - name: "六月长河桃李春风一杯酒，江湖夜雨十年灯"
-      url: "https://ttzz.eu.org/"
-    - name: "lyshark道，可道，非常道；名，可名，非常名。"
-      url: "https://www.lyshark.com/"
-    - name: "八尺妖剑惟有热爱，可抵岁月漫长!"
-      url: "https://www.waer.ltd"
-    - name: "言云纪编程学习与纪录"
-      url: "https://tanblog.cc"
-    - name: "三只小菜猿php/python攻城狮，网络爬虫。"
-      url: "https://louei.com/"
-    - name: "IT七剑客互联网中的持剑者，挥剑斩bug"
-      url: "https://de7v.com"
-    - name: "洛栀の小窝Look forward to meeting you in the sea of bits !"
-      url: "https://blog.luozhinet.com"
-    - name: "Ethan的博客Emacser重度使用者"
-      url: "https://zhangxingong.fun/"
+    - name: Design by老麦
+      url: https://tangx.in/
+    - name: 陈明勇的博客一个热爱技术，喜欢专研技术的程序员。
+      url: http://chenmingyong.cn/
+    - name: 1024 CORES读懂第一个字后，世界便有了心跳。
+      url: https://weizicoding.cn/
+    - name: Nuck实验小白鼠
+      url: https://www.mletter.cn
+    - name: 问道的小花园静水流深 行稳致远 敬天爱人 问道求是
+      url: https://www.zengzhiqi.top
+    - name: 咸菜拌白饭 - 工作笔记
+      url: https://www.haoba.cc/
+    - name: biaoblog - 个人博客
+      url: http://biaoblog.cn
+    - name: 六月长河桃李春风一杯酒，江湖夜雨十年灯
+      url: https://ttzz.eu.org/
+    - name: lyshark道，可道，非常道；名，可名，非常名。
+      url: https://www.lyshark.com/
+    - name: 八尺妖剑惟有热爱，可抵岁月漫长!
+      url: https://www.waer.ltd
+    - name: 言云纪编程学习与纪录
+      url: https://tanblog.cc
+    - name: 三只小菜猿php/python攻城狮，网络爬虫。
+      url: https://louei.com/
+    - name: IT七剑客互联网中的持剑者，挥剑斩bug
+      url: https://de7v.com
+    - name: 洛栀の小窝Look forward to meeting you in the sea of bits !
+      url: https://blog.luozhinet.com
+    - name: Ethan的博客Emacser重度使用者
+      url: https://zhangxingong.fun/

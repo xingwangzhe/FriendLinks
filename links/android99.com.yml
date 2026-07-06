@@ -1,68 +1,68 @@
 site:
-  name: "android99.com"
-  url: "https://android99.com/"
-  description: "友情链接"
-  links: "/link"
+  name: 边缘矩阵
+  url: https://android99.com/
+  description: Android 的博客
+  links: /link
   friends:
-    - name: "ClancyCC 要热爱生活啊！"
-      url: "https://clancycc.cn"
-    - name: "花生莲子粥 与世无争，不染于泥"
-      url: "https://blog.hslzz.cn"
-    - name: "Akilar の 糖果屋 欢迎光临糖果屋"
-      url: "https://akilar.top"
-    - name: "DragonJay My web3 blog"
-      url: "https://blog.dragonjay.top"
-    - name: "栖童 の 小站 越努力，越幸运"
-      url: "https://blog.linux-qitong.top"
-    - name: "语景小站 没有比脚更长的路，没有比人更高的山"
-      url: "https://rainview.net"
-    - name: "陈鑫磊的博客 这个人太懒了啥也没写……"
-      url: "https://www.cxl2020mc.top"
-    - name: "清羽飞扬 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
-      url: "https://blog.liushen.fun"
-    - name: "iMaeGoo's Blog 虹墨空间站"
-      url: "https://www.imaegoo.com"
-    - name: "极东魔术昼寝结社 23 岁，是学生"
-      url: "https://blog.jaoushingan.com"
-    - name: "葱苓小筑 Don't worry, be happy."
-      url: "https://blog.ciraos.top"
-    - name: "liangbm3's blog 总有人间一两风，填我十万八千梦。"
-      url: "https://liangbm3.site"
-    - name: "流川 星辰大海，未来可期"
-      url: "https://www.lcoo.cc"
-    - name: "沐印小站 时间不在于你拥有多少，而在于你如何使用！"
-      url: "https://c.undf.top"
-    - name: "Sumo 以傲慢和偏执"
-      url: "https://letianpai.osfs.top"
-    - name: "Ariasaka の 小窝 人有悲欢离合 月有阴晴圆缺"
-      url: "https://blog.yaria.top"
-    - name: "xinxin Evething is gonna be fine"
-      url: "https://xinxin-l.github.io"
-    - name: "Silvaire's Blog 生如夏花之绚烂，死如秋叶之静美。"
-      url: "https://qwq.blue"
-    - name: "贰猹的小窝 用这生命中的每一秒，给自己一个不后悔的未来"
-      url: "https://noionion.top"
-    - name: "WuWu 车万人万岁"
-      url: "https://koumakan.space"
-    - name: "LeonXie の 小窝 保持热爱，奔赴山海！"
-      url: "https://www.leonxie.cn"
-    - name: "Emnasop Blog In case I don't see you, good afternoon, good evening and good night..."
-      url: "https://emnasop.cn"
-    - name: "小冰博客 做个有梦想的人！"
-      url: "https://zfe.space"
-    - name: "Bleaz's Blog 不畏过往，不惧将来"
-      url: "https://blog.bleaz.net"
-    - name: "阿方的博客 现实的引力太过沉重，任何飞扬的思想都会砰然坠地。"
-      url: "https://fang.blog.miri.site"
-    - name: "BeaCox On the way to be a hacker"
-      url: "https://blog.beacox.space"
-    - name: "张洪 Heo 分享设计与科技生活"
-      url: "https://blog.zhheo.com"
-    - name: "冷筱华 无限殿堂"
-      url: "https://icemoe.moe"
-    - name: "绘星里 一起来绘制属于自己的星星！"
-      url: "https://blog.storia.ren"
-    - name: "辞琼 突破了瓶颈，发现还有瓶盖 qwq"
-      url: "https://blog.wsq127.top"
-    - name: "YuZhangWang 的领域 PLUSULTRA!"
-      url: "https://yuzhang.wang"
+    - name: ClancyCC 要热爱生活啊！
+      url: https://clancycc.cn
+    - name: 花生莲子粥 与世无争，不染于泥
+      url: https://blog.hslzz.cn
+    - name: Akilar の 糖果屋 欢迎光临糖果屋
+      url: https://akilar.top
+    - name: DragonJay My web3 blog
+      url: https://blog.dragonjay.top
+    - name: 栖童 の 小站 越努力，越幸运
+      url: https://blog.linux-qitong.top
+    - name: 语景小站 没有比脚更长的路，没有比人更高的山
+      url: https://rainview.net
+    - name: 陈鑫磊的博客 这个人太懒了啥也没写……
+      url: https://www.cxl2020mc.top
+    - name: 清羽飞扬 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜
+      url: https://blog.liushen.fun
+    - name: iMaeGoo's Blog 虹墨空间站
+      url: https://www.imaegoo.com
+    - name: 极东魔术昼寝结社 23 岁，是学生
+      url: https://blog.jaoushingan.com
+    - name: 葱苓小筑 Don't worry, be happy.
+      url: https://blog.ciraos.top
+    - name: liangbm3's blog 总有人间一两风，填我十万八千梦。
+      url: https://liangbm3.site
+    - name: 流川 星辰大海，未来可期
+      url: https://www.lcoo.cc
+    - name: 沐印小站 时间不在于你拥有多少，而在于你如何使用！
+      url: https://c.undf.top
+    - name: Sumo 以傲慢和偏执
+      url: https://letianpai.osfs.top
+    - name: Ariasaka の 小窝 人有悲欢离合 月有阴晴圆缺
+      url: https://blog.yaria.top
+    - name: xinxin Evething is gonna be fine
+      url: https://xinxin-l.github.io
+    - name: Silvaire's Blog 生如夏花之绚烂，死如秋叶之静美。
+      url: https://qwq.blue
+    - name: 贰猹的小窝 用这生命中的每一秒，给自己一个不后悔的未来
+      url: https://noionion.top
+    - name: WuWu 车万人万岁
+      url: https://koumakan.space
+    - name: LeonXie の 小窝 保持热爱，奔赴山海！
+      url: https://www.leonxie.cn
+    - name: Emnasop Blog In case I don't see you, good afternoon, good evening and good night...
+      url: https://emnasop.cn
+    - name: 小冰博客 做个有梦想的人！
+      url: https://zfe.space
+    - name: Bleaz's Blog 不畏过往，不惧将来
+      url: https://blog.bleaz.net
+    - name: 阿方的博客 现实的引力太过沉重，任何飞扬的思想都会砰然坠地。
+      url: https://fang.blog.miri.site
+    - name: BeaCox On the way to be a hacker
+      url: https://blog.beacox.space
+    - name: 张洪 Heo 分享设计与科技生活
+      url: https://blog.zhheo.com
+    - name: 冷筱华 无限殿堂
+      url: https://icemoe.moe
+    - name: 绘星里 一起来绘制属于自己的星星！
+      url: https://blog.storia.ren
+    - name: 辞琼 突破了瓶颈，发现还有瓶盖 qwq
+      url: https://blog.wsq127.top
+    - name: YuZhangWang 的领域 PLUSULTRA!
+      url: https://yuzhang.wang

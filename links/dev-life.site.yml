@@ -1,12 +1,12 @@
 site:
-  name: "dev-life.site"
-  url: "https://www.dev-life.site/"
-  description: "友情链接"
-  links: "/"
+  name: 自洽的程序员
+  url: https://www.dev-life.site/
+  description: 一本帮助程序员应对职场焦虑、倦怠、迷茫的指南。探讨程序员的工作哲学、方法论、人际关系和生活平衡。
+  links: /
   friends:
-    - name: "个人博客"
-      url: "https://www.dev-life.online/"
-    - name: "uiprompt"
-      url: "https://uiprompt.art/"
-    - name: "viral short maker"
-      url: "https://viralshortmaker.com/"
+    - name: 个人博客
+      url: https://www.dev-life.online/
+    - name: uiprompt
+      url: https://uiprompt.art/
+    - name: viral short maker
+      url: https://viralshortmaker.com/

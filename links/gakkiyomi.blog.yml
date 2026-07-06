@@ -1,12 +1,12 @@
 site:
-  name: "gakkiyomi.blog"
-  url: "http://gakkiyomi.blog/"
-  description: "友情链接"
-  links: "/links"
+  name: Gakkiyomi的博客
+  url: http://gakkiyomi.blog/
+  description: Java,Go,Python,DevOps 专业的技术博客
+  links: /links
   friends:
-    - name: "stillwarter 牛马猫，摸鱼派头号股东，现在是序列七，摸鱼看门人。"
-      url: "https://stillwarter.github.io/"
-    - name: "三月柳絮四月雨 我年华虚度，空有一身疲惫"
-      url: "https://lemon-cxh.github.io/"
-    - name: "唐墨夏 摸鱼派创始人之一"
-      url: "https://sszsj.com"
+    - name: stillwarter 牛马猫，摸鱼派头号股东，现在是序列七，摸鱼看门人。
+      url: https://stillwarter.github.io/
+    - name: 三月柳絮四月雨 我年华虚度，空有一身疲惫
+      url: https://lemon-cxh.github.io/
+    - name: 唐墨夏 摸鱼派创始人之一
+      url: https://sszsj.com

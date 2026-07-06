@@ -1,48 +1,48 @@
 site:
-  name: "baijunyao.com"
-  url: "http://baijunyao.com/"
-  description: "友情链接"
-  links: "/"
+  name: 白俊遥博客,技术博客,个人博客模板,php博客系统,设计模式
+  url: http://baijunyao.com/
+  description: 白俊遥的php博客,个人技术博客,分享免费个人博客模板,开源一些thinkphp,laravel相关的博客系统项目,bjy,blog和bjy,admin官网,写一些技术文章设计模式.
+  links: /
   friends:
-    - name: "Laravel学院"
-      url: "https://laravel.geekai.co"
-    - name: "Gary's Blog"
-      url: "https://garymeng.com"
-    - name: "吴钧泽博客"
-      url: "http://wujunze.com"
-    - name: "青春博客"
-      url: "http://loveteemo.com/"
-    - name: "koukou的博客"
-      url: "http://www.koukousky.com"
-    - name: "php程序员的笔记"
-      url: "http://www.phpernote.com"
-    - name: "玄玄博客"
-      url: "http://www.blogxuan.com"
-    - name: "小张个人博客_不忘初心"
-      url: "http://www.023xs.cn"
-    - name: "php自学网"
-      url: "http://zixuephp.net"
-    - name: "lulublog"
-      url: "https://lulublog.cn"
-    - name: "仙士可博客"
-      url: "http://www.php20.cn"
-    - name: "小风博客"
-      url: "http://www.hotxf.com"
-    - name: "二宝博客"
-      url: "https://www.708034.cn"
-    - name: "黄信强个人博客"
-      url: "http://www.hxinq.com"
-    - name: "赵华伟自媒体博客"
-      url: "http://www.chinacion.cn"
-    - name: "冯奎博客"
-      url: "https://fengkui.net"
-    - name: "程序猴博客"
-      url: "https://www.chenxuhou.com"
-    - name: "唐轶俊博客"
-      url: "https://www.phpbloger.com"
-    - name: "小周个人博客"
-      url: "https://www.css3er.com"
-    - name: "云海天教程"
-      url: "https://www.yht7.com"
-    - name: "风三郎博客"
-      url: "https://www.fengsanlang.cn"
+    - name: Laravel学院
+      url: https://laravel.geekai.co
+    - name: Gary's Blog
+      url: https://garymeng.com
+    - name: 吴钧泽博客
+      url: http://wujunze.com
+    - name: 青春博客
+      url: http://loveteemo.com/
+    - name: koukou的博客
+      url: http://www.koukousky.com
+    - name: php程序员的笔记
+      url: http://www.phpernote.com
+    - name: 玄玄博客
+      url: http://www.blogxuan.com
+    - name: 小张个人博客_不忘初心
+      url: http://www.023xs.cn
+    - name: php自学网
+      url: http://zixuephp.net
+    - name: lulublog
+      url: https://lulublog.cn
+    - name: 仙士可博客
+      url: http://www.php20.cn
+    - name: 小风博客
+      url: http://www.hotxf.com
+    - name: 二宝博客
+      url: https://www.708034.cn
+    - name: 黄信强个人博客
+      url: http://www.hxinq.com
+    - name: 赵华伟自媒体博客
+      url: http://www.chinacion.cn
+    - name: 冯奎博客
+      url: https://fengkui.net
+    - name: 程序猴博客
+      url: https://www.chenxuhou.com
+    - name: 唐轶俊博客
+      url: https://www.phpbloger.com
+    - name: 小周个人博客
+      url: https://www.css3er.com
+    - name: 云海天教程
+      url: https://www.yht7.com
+    - name: 风三郎博客
+      url: https://www.fengsanlang.cn

@@ -1,18 +1,18 @@
 site:
-  name: "karpathy.ai"
-  url: "https://karpathy.ai/"
-  description: "友情链接"
-  links: "/links"
+  name: Andrej Karpathy
+  url: https://karpathy.ai/
+  description: 友情链接
+  links: /links
   friends:
-    - name: "Vladlen Koltun"
-      url: "http://vladlen.info/"
-    - name: "course notes"
-      url: "https://cs231n.github.io/"
-    - name: "arxiv-sanity.com"
-      url: "http://www.arxiv-sanity.com/"
-    - name: "arxiv-sanity-lite"
-      url: "https://arxiv-sanity-lite.com"
-    - name: "cubing page"
-      url: "http://badmephisto.com/"
-    - name: "500-pound websites"
-      url: "https://motherfuckingwebsite.com/"
+    - name: Vladlen Koltun
+      url: http://vladlen.info/
+    - name: course notes
+      url: https://cs231n.github.io/
+    - name: arxiv-sanity.com
+      url: http://www.arxiv-sanity.com/
+    - name: arxiv-sanity-lite
+      url: https://arxiv-sanity-lite.com
+    - name: cubing page
+      url: http://badmephisto.com/
+    - name: 500-pound websites
+      url: https://motherfuckingwebsite.com/

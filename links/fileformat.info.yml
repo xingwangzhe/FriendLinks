@@ -1,42 +1,42 @@
 site:
-  name: "fileformat.info"
-  url: "https://www.fileformat.info/"
-  description: "友情链接"
-  links: "/"
+  name: "FileFormat.Info: The Digital Rosetta Stone"
+  url: https://www.fileformat.info/
+  description: FileFormat.Info is the source for file format standards, online file conversions, and detailed file specifications, including Unicode characters, MIME types and file extensions
+  links: /
   friends:
     - name: "Charcuterie: A Visual Unicode Explorer"
-      url: "https://charcuterie.elastiq.ch/#11198"
-    - name: "The Analog Computer Museum"
-      url: "https://www.analogmuseum.org/"
-    - name: "Unraveling the Web's Story - The History of the Web"
-      url: "https://thehistoryoftheweb.com/"
-    - name: "CERN 2019 WorldWideWeb Rebuild"
-      url: "https://worldwideweb.cern.ch/"
+      url: https://charcuterie.elastiq.ch/#11198
+    - name: The Analog Computer Museum
+      url: https://www.analogmuseum.org/
+    - name: Unraveling the Web's Story - The History of the Web
+      url: https://thehistoryoftheweb.com/
+    - name: CERN 2019 WorldWideWeb Rebuild
+      url: https://worldwideweb.cern.ch/
     - name: "SingleFile: Effortlessly Save and Preserve Web Pages"
-      url: "https://www.getsinglefile.com/"
-    - name: "Tabulator"
-      url: "https://tabulator.info/"
-    - name: "UnicodeSearch.org"
-      url: "https://www.unicodesearch.org/"
-    - name: "EmojiSearch.org"
-      url: "https://www.emojisearch.org/"
-    - name: "Data Foundation"
-      url: "https://datafoundation.org/"
+      url: https://www.getsinglefile.com/
+    - name: Tabulator
+      url: https://tabulator.info/
+    - name: UnicodeSearch.org
+      url: https://www.unicodesearch.org/
+    - name: EmojiSearch.org
+      url: https://www.emojisearch.org/
+    - name: Data Foundation
+      url: https://datafoundation.org/
     - name: "XBRL: a global standard for digital business reporting"
-      url: "https://www.xbrl.org/"
-    - name: "Drawing with zero-width characters- Ben Swerdlow"
-      url: "https://zw.swerdlow.dev/"
+      url: https://www.xbrl.org/
+    - name: Drawing with zero-width characters- Ben Swerdlow
+      url: https://zw.swerdlow.dev/
     - name: "Duper: a human-friendly extension of JSON"
-      url: "https://duper.dev.br/"
-    - name: "Digital Preservation Services - CLOCKSS"
-      url: "https://clockss.org/"
-    - name: "File Format Gallery for Kaitai Struct"
-      url: "https://formats.kaitai.io/"
+      url: https://duper.dev.br/
+    - name: Digital Preservation Services - CLOCKSS
+      url: https://clockss.org/
+    - name: File Format Gallery for Kaitai Struct
+      url: https://formats.kaitai.io/
     - name: "MAML: a new configuration language similar to JSON, YAML, and TOML"
-      url: "https://maml.dev/"
+      url: https://maml.dev/
     - name: "Markdoc: A powerful, flexible, Markdown-based authoring framework"
-      url: "https://markdoc.dev/"
+      url: https://markdoc.dev/
     - name: "OpenZL: a novel compression framework - Facebook"
-      url: "https://openzl.org/"
-    - name: "Early Xerox products and history - Xeroxnostalgia.com"
-      url: "https://xeroxnostalgia.com/"
+      url: https://openzl.org/
+    - name: Early Xerox products and history - Xeroxnostalgia.com
+      url: https://xeroxnostalgia.com/

@@ -1,20 +1,20 @@
 site:
-  name: "old.frank521.com"
-  url: "https://old.frank521.com/"
-  description: "友情链接"
-  links: "/links"
+  name: Frank笔记
+  url: https://old.frank521.com/
+  description: Frank笔记，记录蜕变后的自己。
+  links: /links
   friends:
-    - name: "暮光博客"
-      url: "https://muguang.me/"
-    - name: "flyzy小站"
-      url: "https://www.flyzy2005.com/"
-    - name: "马同学的BLOG"
-      url: "https://iwalyou.com/"
-    - name: "田儿的笔记"
-      url: "https://tian0616.com"
-    - name: "古是的博客"
-      url: "https://adminsun.com/"
-    - name: "YuZhangWang的领域"
-      url: "https://www.yuzhang.wang/"
-    - name: "Vanessa"
-      url: "http://vanessa.b3log.org"
+    - name: 暮光博客
+      url: https://muguang.me/
+    - name: flyzy小站
+      url: https://www.flyzy2005.com/
+    - name: 马同学的BLOG
+      url: https://iwalyou.com/
+    - name: 田儿的笔记
+      url: https://tian0616.com
+    - name: 古是的博客
+      url: https://adminsun.com/
+    - name: YuZhangWang的领域
+      url: https://www.yuzhang.wang/
+    - name: Vanessa
+      url: http://vanessa.b3log.org

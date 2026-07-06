@@ -1,8 +1,11 @@
 site:
-  name: "blog.kilosecond.com"
-  url: "http://blog.kilosecond.com/"
-  description: "友情链接"
-  links: "/"
+  name: Kilosecond Blog
+  url: http://blog.kilosecond.com/
+  description: |-
+    Or: Writing Goals with Pattern Matching I’d been looking for an excuse to use
+    core.logic for something,
+    and I finally created an opportunity …
+  links: /
   friends:
-    - name: "DreamHost"
-      url: "https://www.dreamhost.com/"
+    - name: DreamHost
+      url: https://www.dreamhost.com/

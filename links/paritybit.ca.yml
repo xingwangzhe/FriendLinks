@@ -1,134 +1,134 @@
 site:
-  name: "paritybit.ca"
-  url: "https://www.paritybit.ca/"
-  description: "友情链接"
-  links: "/links"
+  name: Welcome! - paritybit.ca
+  url: https://www.paritybit.ca/
+  description: The personal website and blog of Jake Bauer.
+  links: /links
   friends:
-    - name: "Killed by Google"
-      url: "https://killedbygoogle.com/"
-    - name: "Killed by Mozilla"
-      url: "https://killedbymozilla.com/"
-    - name: "Damaged Earth Catalog"
-      url: "https://damaged.bleu255.com/"
-    - name: "The ASCII Ribbon Campaign"
-      url: "http://www.asciiribbon.org"
-    - name: "Words and Buttons Online"
-      url: "https://wordsandbuttons.online/"
-    - name: "unixgraybeard.com"
-      url: "http://unixgraybeard.com/"
-    - name: "Should I Block Ads?"
-      url: "https://shouldiblockads.com/"
-    - name: "The Mediocre Programmer"
-      url: "http://themediocreprogrammer.com/"
-    - name: "Just for Fun. No, Really."
-      url: "https://justforfunnoreally.dev/"
-    - name: "A Hundred and Nineteen Things a Punkist Should Know"
-      url: "http://www.punk.ist/"
-    - name: "vimways.org"
-      url: "https://vimways.org/"
-    - name: "vimcasts.org"
-      url: "http://vimcasts.org/"
-    - name: "Huetone Colour Picker"
-      url: "https://huetone.ardov.me"
-    - name: "Tanaguru Contrast Finder"
-      url: "https://contrast-finder.tanaguru.com/"
-    - name: "WAVE Web Accessibility Validation Tool"
-      url: "https://wave.webaim.org/"
-    - name: "Website Carbon Calculator"
-      url: "https://www.websitecarbon.com/"
-    - name: "Guidelines for Brutalist Web Design"
-      url: "https://brutalist-web.design/"
-    - name: "No!Spec"
-      url: "https://www.nospec.com"
-    - name: "Documentation System"
-      url: "https://documentation.divio.com/"
-    - name: "(lambda (x) (create x))"
-      url: "https://lambdacreate.com"
-    - name: "/dev/lawyer"
-      url: "https://writing.kemitchell.com"
-    - name: "13brane"
-      url: "https://13brane.net/"
-    - name: "andreinc"
-      url: "https://www.andreinc.net/"
-    - name: "Andrew Kelley"
-      url: "https://andrewkelley.me/"
-    - name: "avery.cafe"
-      url: "https://avery.cafe/"
-    - name: "bertrand fan"
-      url: "https://bert.org/"
-    - name: "Causal Agency"
-      url: "https://text.causal.agency"
-    - name: "Codemadness"
-      url: "https://www.codemadness.org"
-    - name: "D00k"
-      url: "https://d00k.net/"
-    - name: "degrowther"
-      url: "https://degrowther.smol.pub"
-    - name: "Doing stupid things (with packets and OpenBSD)"
-      url: "https://doing-stupid-things.as59645.net/"
-    - name: "elly.town"
-      url: "https://elly.town"
-    - name: "Fabien Sanglard"
-      url: "https://fabiensanglard.net"
-    - name: "Frederic Cambus"
-      url: "https://www.cambus.net"
-    - name: "Freshman.tech"
-      url: "https://freshman.tech/"
-    - name: "Gosha Tcherednitchenko"
-      url: "https://gosha.net/"
-    - name: "Hundred Rabbits"
-      url: "https://100r.co"
-    - name: "In a stream of Random Thoughts .."
-      url: "https://randomthoughts.dk/"
-    - name: "j3s.sh"
-      url: "https://j3s.sh/"
-    - name: "joshua stein"
-      url: "https://jcs.org/"
-    - name: "macwright.com"
-      url: "https://macwright.com"
-    - name: "Mastering the Web - Roman Zolotarev"
-      url: "https://www.romanzolotarev.com/"
-    - name: "metasyn.pw"
-      url: "https://metasyn.pw"
-    - name: "N O D E"
-      url: "https://N-O-D-E.net"
-    - name: "NetworkProfile.org"
-      url: "https://blog.networkprofile.org/"
-    - name: "null program"
-      url: "https://nullprogram.com"
-    - name: "Oatmeal"
-      url: "https://eli.li"
-    - name: "ovelny"
-      url: "https://ovelny.sh/"
-    - name: "Subpixel Space"
-      url: "http://subpixel.space"
-    - name: "Ted Kaminski"
-      url: "http://www.tedinski.com/"
-    - name: "That grumpy BSD guy"
-      url: "https://bsdly.blogspot.com/"
-    - name: "Thomasorus"
-      url: "https://thomasorus.com/"
-    - name: "tonsky.me"
-      url: "https://tonsky.me/"
-    - name: "Vlad's Website"
-      url: "https://vlad.website/"
-    - name: "Wesley Aptekar-Cassels"
-      url: "https://blog.wesleyac.com"
-    - name: "Wesley's Notebook"
-      url: "https://notebook.wesleyac.com/"
-    - name: "www.makeworld.space"
-      url: "https://www.makeworld.space/"
-    - name: "~ajroach42.com"
-      url: "http://ajroach42.com/"
-    - name: "Übermotive"
-      url: "https://www.ubermotive.com"
-    - name: "Krebs on Security"
-      url: "https://krebsonsecurity.com"
-    - name: "OpenBSD Errata"
-      url: "https://www.undeadly.org/"
-    - name: "Programming in the 21st Century"
-      url: "http://prog21.dadgum.com/"
-    - name: "Tiny Brain Fans"
-      url: "https://tinybrain.fans/"
-    - name: "Fediring"
-      url: "https://fediring.net/"
+    - name: Killed by Google
+      url: https://killedbygoogle.com/
+    - name: Killed by Mozilla
+      url: https://killedbymozilla.com/
+    - name: Damaged Earth Catalog
+      url: https://damaged.bleu255.com/
+    - name: The ASCII Ribbon Campaign
+      url: http://www.asciiribbon.org
+    - name: Words and Buttons Online
+      url: https://wordsandbuttons.online/
+    - name: unixgraybeard.com
+      url: http://unixgraybeard.com/
+    - name: Should I Block Ads?
+      url: https://shouldiblockads.com/
+    - name: The Mediocre Programmer
+      url: http://themediocreprogrammer.com/
+    - name: Just for Fun. No, Really.
+      url: https://justforfunnoreally.dev/
+    - name: A Hundred and Nineteen Things a Punkist Should Know
+      url: http://www.punk.ist/
+    - name: vimways.org
+      url: https://vimways.org/
+    - name: vimcasts.org
+      url: http://vimcasts.org/
+    - name: Huetone Colour Picker
+      url: https://huetone.ardov.me
+    - name: Tanaguru Contrast Finder
+      url: https://contrast-finder.tanaguru.com/
+    - name: WAVE Web Accessibility Validation Tool
+      url: https://wave.webaim.org/
+    - name: Website Carbon Calculator
+      url: https://www.websitecarbon.com/
+    - name: Guidelines for Brutalist Web Design
+      url: https://brutalist-web.design/
+    - name: No!Spec
+      url: https://www.nospec.com
+    - name: Documentation System
+      url: https://documentation.divio.com/
+    - name: (lambda (x) (create x))
+      url: https://lambdacreate.com
+    - name: /dev/lawyer
+      url: https://writing.kemitchell.com
+    - name: 13brane
+      url: https://13brane.net/
+    - name: andreinc
+      url: https://www.andreinc.net/
+    - name: Andrew Kelley
+      url: https://andrewkelley.me/
+    - name: avery.cafe
+      url: https://avery.cafe/
+    - name: bertrand fan
+      url: https://bert.org/
+    - name: Causal Agency
+      url: https://text.causal.agency
+    - name: Codemadness
+      url: https://www.codemadness.org
+    - name: D00k
+      url: https://d00k.net/
+    - name: degrowther
+      url: https://degrowther.smol.pub
+    - name: Doing stupid things (with packets and OpenBSD)
+      url: https://doing-stupid-things.as59645.net/
+    - name: elly.town
+      url: https://elly.town
+    - name: Fabien Sanglard
+      url: https://fabiensanglard.net
+    - name: Frederic Cambus
+      url: https://www.cambus.net
+    - name: Freshman.tech
+      url: https://freshman.tech/
+    - name: Gosha Tcherednitchenko
+      url: https://gosha.net/
+    - name: Hundred Rabbits
+      url: https://100r.co
+    - name: In a stream of Random Thoughts ..
+      url: https://randomthoughts.dk/
+    - name: j3s.sh
+      url: https://j3s.sh/
+    - name: joshua stein
+      url: https://jcs.org/
+    - name: macwright.com
+      url: https://macwright.com
+    - name: Mastering the Web - Roman Zolotarev
+      url: https://www.romanzolotarev.com/
+    - name: metasyn.pw
+      url: https://metasyn.pw
+    - name: N O D E
+      url: https://N-O-D-E.net
+    - name: NetworkProfile.org
+      url: https://blog.networkprofile.org/
+    - name: null program
+      url: https://nullprogram.com
+    - name: Oatmeal
+      url: https://eli.li
+    - name: ovelny
+      url: https://ovelny.sh/
+    - name: Subpixel Space
+      url: http://subpixel.space
+    - name: Ted Kaminski
+      url: http://www.tedinski.com/
+    - name: That grumpy BSD guy
+      url: https://bsdly.blogspot.com/
+    - name: Thomasorus
+      url: https://thomasorus.com/
+    - name: tonsky.me
+      url: https://tonsky.me/
+    - name: Vlad's Website
+      url: https://vlad.website/
+    - name: Wesley Aptekar-Cassels
+      url: https://blog.wesleyac.com
+    - name: Wesley's Notebook
+      url: https://notebook.wesleyac.com/
+    - name: www.makeworld.space
+      url: https://www.makeworld.space/
+    - name: ~ajroach42.com
+      url: http://ajroach42.com/
+    - name: Übermotive
+      url: https://www.ubermotive.com
+    - name: Krebs on Security
+      url: https://krebsonsecurity.com
+    - name: OpenBSD Errata
+      url: https://www.undeadly.org/
+    - name: Programming in the 21st Century
+      url: http://prog21.dadgum.com/
+    - name: Tiny Brain Fans
+      url: https://tinybrain.fans/
+    - name: Fediring
+      url: https://fediring.net/

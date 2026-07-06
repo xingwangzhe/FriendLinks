@@ -1,12 +1,12 @@
 site:
-  name: "visuallylocated.com"
-  url: "http://www.visuallylocated.com/"
-  description: "友情链接"
-  links: "/"
+  name: XAML and GIS
+  url: http://www.visuallylocated.com/
+  description: XAML and GIS
+  links: /
   friends:
-    - name: "Home"
-      url: "http://visuallylocated.azurewebsites.net/"
-    - name: "json2csharp.com"
-      url: "http://json2csharp.com"
-    - name: "json2charp.com"
-      url: "http://json2charp.com"
+    - name: Home
+      url: http://visuallylocated.azurewebsites.net/
+    - name: json2csharp.com
+      url: http://json2csharp.com
+    - name: json2charp.com
+      url: http://json2charp.com

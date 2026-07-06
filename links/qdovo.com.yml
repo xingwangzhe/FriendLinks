@@ -1,18 +1,18 @@
 site:
-  name: "qdovo.com"
-  url: "https://www.qdovo.com/"
-  description: "友情链接"
-  links: "/friends"
+  name: 前端ovo
+  url: https://www.qdovo.com/
+  description: 专注于前端技术分享，css, js, vue, react - Jason Huang - 前端ovo
+  links: /friends
   friends:
-    - name: "shymean"
-      url: "https://shymean.com"
-    - name: "IceOfSummer"
-      url: "https://iceofsummer.github.io/"
-    - name: "七鳄の学习格"
-      url: "https://blog.gmcj0816.top/"
-    - name: "MHuiG"
-      url: "https://mhuig.top"
-    - name: "MengFanjun"
-      url: "https://mfjblog.top"
-    - name: "Akimoto"
-      url: "http://extingstudio.com"
+    - name: shymean
+      url: https://shymean.com
+    - name: IceOfSummer
+      url: https://iceofsummer.github.io/
+    - name: 七鳄の学习格
+      url: https://blog.gmcj0816.top/
+    - name: MHuiG
+      url: https://mhuig.top
+    - name: MengFanjun
+      url: https://mfjblog.top
+    - name: Akimoto
+      url: http://extingstudio.com

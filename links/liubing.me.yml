@@ -1,8 +1,8 @@
 site:
-  name: "liubing.me"
-  url: "https://liubing.me/"
-  description: "友情链接"
-  links: "/links"
+  name: 首页
+  url: https://liubing.me/
+  description: 一个基于VuePress的个人博客。
+  links: /links
   friends:
-    - name: "YXVM"
-      url: "https://yxvm.com/"
+    - name: YXVM
+      url: https://yxvm.com/

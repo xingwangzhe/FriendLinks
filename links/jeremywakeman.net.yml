@@ -1,10 +1,10 @@
 site:
-  name: "jeremywakeman.net"
-  url: "https://jeremywakeman.net/"
-  description: "友情链接"
-  links: "/"
+  name: Main page
+  url: https://jeremywakeman.net/
+  description: Homepage, project information, and interests
+  links: /
   friends:
-    - name: "hachyderm.io"
-      url: "https://hachyderm.io/"
-    - name: "pixelfed.social"
-      url: "https://pixelfed.social"
+    - name: hachyderm.io
+      url: https://hachyderm.io/
+    - name: pixelfed.social
+      url: https://pixelfed.social

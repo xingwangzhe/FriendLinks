@@ -1,22 +1,22 @@
 site:
-  name: "eloquentjavascript.net"
-  url: "https://eloquentjavascript.net/"
-  description: "友情链接"
-  links: "/"
+  name: Eloquent JavaScript
+  url: https://eloquentjavascript.net/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Péchane Sumi-e"
-      url: "http://www.pechane.com/"
-    - name: "Madalina Tantareanu"
-      url: "http://madalinatantareanu.com/"
-    - name: "regexper.com"
-      url: "https://regexper.com"
-    - name: "Thomas Palef"
-      url: "http://lessmilk.com"
-    - name: "Español (Spanish)"
-      url: "https://eloquent-javascript-es.vercel.app/"
-    - name: "فارسی (Persian)"
-      url: "http://eloquentjs.ir/"
-    - name: "Español (Spanish, partial)"
-      url: "https://eloquentjs-es.thedojo.mx/"
-    - name: "Български (Bulgarian)"
-      url: "https://to6esko.github.io/"
+    - name: Péchane Sumi-e
+      url: http://www.pechane.com/
+    - name: Madalina Tantareanu
+      url: http://madalinatantareanu.com/
+    - name: regexper.com
+      url: https://regexper.com
+    - name: Thomas Palef
+      url: http://lessmilk.com
+    - name: Español (Spanish)
+      url: https://eloquent-javascript-es.vercel.app/
+    - name: فارسی (Persian)
+      url: http://eloquentjs.ir/
+    - name: Español (Spanish, partial)
+      url: https://eloquentjs-es.thedojo.mx/
+    - name: Български (Bulgarian)
+      url: https://to6esko.github.io/

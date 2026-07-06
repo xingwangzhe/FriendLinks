@@ -1,16 +1,16 @@
 site:
-  name: "tom.lokhorst.eu"
-  url: "https://tom.lokhorst.eu/"
-  description: "友情链接"
-  links: "/"
+  name: Tom Lokhorst's blog
+  url: https://tom.lokhorst.eu/
+  description: 友情链接
+  links: /
   friends:
-    - name: "CocoaHeadsNL"
-      url: "https://cocoaheads.nl"
-    - name: "Do iOS"
-      url: "https://do-ios.nl"
-    - name: "Q42"
-      url: "https://q42.nl/"
-    - name: "Q42"
-      url: "https://q42.com"
-    - name: "Nonstrict"
-      url: "https://nonstrict.eu"
+    - name: CocoaHeadsNL
+      url: https://cocoaheads.nl
+    - name: Do iOS
+      url: https://do-ios.nl
+    - name: Q42
+      url: https://q42.nl/
+    - name: Q42
+      url: https://q42.com
+    - name: Nonstrict
+      url: https://nonstrict.eu

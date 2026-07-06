@@ -1,10 +1,10 @@
 site:
-  name: "blog.huanxinbot.com"
-  url: "https://blog.huanxinbot.com/"
-  description: "友情链接"
-  links: "/links.html"
+  name: 幻歆的博客
+  url: https://blog.huanxinbot.com/
+  description: 幻歆的博客
+  links: /links.html
   friends:
-    - name: "xiaoxian xiaoxian.org"
-      url: "https://xiaoxian.org"
-    - name: "量子猫步 me.shanshui.site"
-      url: "https://shanshui.site"
+    - name: xiaoxian xiaoxian.org
+      url: https://xiaoxian.org
+    - name: 量子猫步 me.shanshui.site
+      url: https://shanshui.site

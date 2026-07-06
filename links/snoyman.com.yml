@@ -1,12 +1,12 @@
 site:
-  name: "snoyman.com"
-  url: "https://www.snoyman.com/"
-  description: "友情链接"
-  links: "/"
+  name: Michael Snoyman - CTO / Engineering Executive
+  url: https://www.snoyman.com/
+  description: Michael Snoyman is a CTO and hands-on engineering executive building high-assurance production systems across fintech, blockchain, healthcare, and regulated domains.
+  links: /
   friends:
-    - name: "Yesod"
-      url: "https://www.yesodweb.com/"
-    - name: "Rust Book"
-      url: "https://www.beginrust.com/"
-    - name: "FP Complete"
-      url: "https://tech.fpcomplete.com/"
+    - name: Yesod
+      url: https://www.yesodweb.com/
+    - name: Rust Book
+      url: https://www.beginrust.com/
+    - name: FP Complete
+      url: https://tech.fpcomplete.com/

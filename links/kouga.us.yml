@@ -1,8 +1,8 @@
 site:
-  name: "kouga.us"
-  url: "http://kouga.us/"
-  description: "友情链接"
-  links: "/"
+  name: Kouga's Blog
+  url: http://kouga.us/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Traefik"
-      url: "https://traefik.io/"
+    - name: Traefik
+      url: https://traefik.io/

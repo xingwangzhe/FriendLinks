@@ -1,230 +1,230 @@
 site:
-  name: "nerdy.dev"
-  url: "https://nerdy.dev/"
-  description: "友情链接"
-  links: "/"
+  name: Adam Argyle
+  url: https://nerdy.dev/
+  description: "Website for Adam Argyle: Teacher, Speaker, CSSWG member, and creator of Open Props and VisBug."
+  links: /
   friends:
-    - name: "Jason Lengstorf"
-      url: "https://jason.energy/"
-    - name: "Kent C. Dodds"
-      url: "https://kentcdodds.com/"
-    - name: "Francesco Ciulla"
-      url: "https://francescociulla.com/"
-    - name: "Robbie"
-      url: "https://robbiethewagner.dev"
-    - name: "OpenClaw"
-      url: "https://openclaw.ai/"
-    - name: "Clerk"
-      url: "https://clerk.com/"
-    - name: "CSS Day 2026"
-      url: "https://cssday.nl/"
-    - name: "Slides"
-      url: "https://css-day-2026.netlify.app/"
-    - name: "Prop For That"
-      url: "https://prop-for-that.netlify.app/"
-    - name: 'Michael "Micky" Shimeles (AKA Rasmic)'
-      url: "https://www.rasmic.xyz/"
-    - name: "standard.site"
-      url: "https://standard.site"
-    - name: "Typecraft"
-      url: "https://typecraft.dev"
-    - name: "Expo"
-      url: "https://expo.dev/"
-    - name: "Brittany"
-      url: "https://brittanyellich.com"
-    - name: "<color-input>"
-      url: "https://color-input.netlify.app/"
-    - name: "PodRocket"
-      url: "https://podrocket.logrocket.com/"
-    - name: "Warp"
-      url: "https://oz.dev"
-    - name: "Terminal tools"
-      url: "https://cmux.com/"
-    - name: "Dave Rupert"
-      url: "http://daverupert.com/"
-    - name: "Chris Coyier"
-      url: "https://chriscoyier.net/"
-    - name: "dash.deno.com"
-      url: "https://dash.deno.com"
-    - name: "console.deno.com"
-      url: "https://console.deno.com"
-    - name: "Fresh 2"
-      url: "https://fresh.deno.dev"
-    - name: "Pokemon Go"
-      url: "https://www.pokemongo.com/"
-    - name: "Amelia Wattenberger"
-      url: "https://wattenberger.com/"
-    - name: "Rubber duck debugging"
-      url: "https://rubberduckdebugging.com/"
-    - name: "whiskey"
-      url: "https://whiskeyjypsi.com/"
-    - name: "Beer tracker"
-      url: "https://beer-dashboard-aa.netlify.app"
-    - name: "Whiskey tracker"
-      url: "https://whiskey-dashboard-aa.netlify.app"
-    - name: "My own guitar songbood"
-      url: "https://guitar-tabs-aa.netlify.app/"
-    - name: "My own banjo songbook"
-      url: "https://banjo-songbook.netlify.app"
-    - name: "Birthday tracker"
-      url: "https://birthday-tracker-aa.netlify.app"
-    - name: "Syntax"
-      url: "https://syntax.fm/"
-    - name: "March madCSS"
-      url: "https://www.madcss.com/"
-    - name: "Whiskey Web and Whatnot"
-      url: "https://whiskey.fm/"
-    - name: "gradient.style"
-      url: "https://gradient.style"
-    - name: "All Things Open"
-      url: "https://2025.allthingsopen.org/"
-    - name: "Shruti Kapoor"
-      url: "https://shrutikapoor.dev"
-    - name: "Naman Goel"
-      url: "https://nmn.sh/"
-    - name: "StyleX"
-      url: "https://stylexjs.com/"
-    - name: "Kevin Powell"
-      url: "https://www.kevinpowell.co/"
-    - name: "Paige"
-      url: "https://www.paigeniedringhaus.com/"
-    - name: "Bramus"
-      url: "https://www.bram.us/"
-    - name: "Front-End Fire"
-      url: "https://front-end-fire.com"
-    - name: "Warp"
-      url: "https://www.warp.dev/"
-    - name: "cascadiajs-2025.netlify.app"
-      url: "https://cascadiajs-2025.netlify.app"
-    - name: "DevTools FM"
-      url: "https://devtools.fm/"
-    - name: "The Working Draft"
-      url: "https://workingdraft.de/"
-    - name: "The Slides"
-      url: "https://css-day-2025.argyleink.deno.net"
-    - name: "anchoreum.com"
-      url: "https://anchoreum.com"
-    - name: "boot.dev"
-      url: "https://www.boot.dev/"
-    - name: "Backend Banter FM"
-      url: "https://www.backendbanter.fm/"
-    - name: "badatcss.com"
-      url: "https://badatcss.com"
-    - name: "Bramus"
-      url: "http://bram.us"
-    - name: "web.dev"
-      url: "https://web.dev"
-    - name: "developer.chrome.com"
-      url: "https://developer.chrome.com"
-    - name: "Species in Pieces"
-      url: "http://species-in-pieces.com"
-    - name: "Bryan James"
-      url: "https://visuals.brybry.co"
-    - name: "DevFest"
-      url: "https://devfest2024.gdgnantes.com/"
-    - name: "🩸🩸🩸 Slides 🩸🩸🩸"
-      url: "https://argyle-at-devfest-2024.netlify.app"
-    - name: "Una"
-      url: "https://una.im"
-    - name: "scroll-driven-animations.style"
-      url: "https://scroll-driven-animations.style/"
-    - name: "Miriam Suzanne"
-      url: "https://www.miriamsuzanne.com/"
-    - name: "Brad Frost"
-      url: "https://bradfrost.com/"
-    - name: "Open Props"
-      url: "https://open-props.style/"
-    - name: "clip-path transition"
-      url: "https://transition.style/"
-    - name: "my talk"
-      url: "https://smashing-freiburg-2024.netlify.app/"
-    - name: "Matthias Ott"
-      url: "https://matthiasott.com"
-    - name: "keyword alignment"
-      url: "https://anchor-tool.com/"
-    - name: "Wes Bos"
-      url: "https://wesbos.com"
-    - name: "Abdelrahman Awad"
-      url: "https://logaretm.com"
-    - name: "Frostapalooza"
-      url: "https://frostapalooza.com/"
-    - name: "tools for generating them"
-      url: "https://linear-easing-generator.netlify.app/"
-    - name: "Jason"
-      url: "https://www.learnwithjason.dev"
-    - name: "Rachel Andrew"
-      url: "https://rachelandrew.co.uk/"
-    - name: "August 17th"
-      url: "https://frostapalooza.bradfrost.com"
+    - name: Jason Lengstorf
+      url: https://jason.energy/
+    - name: Kent C. Dodds
+      url: https://kentcdodds.com/
+    - name: Francesco Ciulla
+      url: https://francescociulla.com/
+    - name: Robbie
+      url: https://robbiethewagner.dev
+    - name: OpenClaw
+      url: https://openclaw.ai/
+    - name: Clerk
+      url: https://clerk.com/
+    - name: CSS Day 2026
+      url: https://cssday.nl/
+    - name: Slides
+      url: https://css-day-2026.netlify.app/
+    - name: Prop For That
+      url: https://prop-for-that.netlify.app/
+    - name: Michael "Micky" Shimeles (AKA Rasmic)
+      url: https://www.rasmic.xyz/
+    - name: standard.site
+      url: https://standard.site
+    - name: Typecraft
+      url: https://typecraft.dev
+    - name: Expo
+      url: https://expo.dev/
+    - name: Brittany
+      url: https://brittanyellich.com
+    - name: <color-input>
+      url: https://color-input.netlify.app/
+    - name: PodRocket
+      url: https://podrocket.logrocket.com/
+    - name: Warp
+      url: https://oz.dev
+    - name: Terminal tools
+      url: https://cmux.com/
+    - name: Dave Rupert
+      url: http://daverupert.com/
+    - name: Chris Coyier
+      url: https://chriscoyier.net/
+    - name: dash.deno.com
+      url: https://dash.deno.com
+    - name: console.deno.com
+      url: https://console.deno.com
+    - name: Fresh 2
+      url: https://fresh.deno.dev
+    - name: Pokemon Go
+      url: https://www.pokemongo.com/
+    - name: Amelia Wattenberger
+      url: https://wattenberger.com/
+    - name: Rubber duck debugging
+      url: https://rubberduckdebugging.com/
+    - name: whiskey
+      url: https://whiskeyjypsi.com/
+    - name: Beer tracker
+      url: https://beer-dashboard-aa.netlify.app
+    - name: Whiskey tracker
+      url: https://whiskey-dashboard-aa.netlify.app
+    - name: My own guitar songbood
+      url: https://guitar-tabs-aa.netlify.app/
+    - name: My own banjo songbook
+      url: https://banjo-songbook.netlify.app
+    - name: Birthday tracker
+      url: https://birthday-tracker-aa.netlify.app
+    - name: Syntax
+      url: https://syntax.fm/
+    - name: March madCSS
+      url: https://www.madcss.com/
+    - name: Whiskey Web and Whatnot
+      url: https://whiskey.fm/
+    - name: gradient.style
+      url: https://gradient.style
+    - name: All Things Open
+      url: https://2025.allthingsopen.org/
+    - name: Shruti Kapoor
+      url: https://shrutikapoor.dev
+    - name: Naman Goel
+      url: https://nmn.sh/
+    - name: StyleX
+      url: https://stylexjs.com/
+    - name: Kevin Powell
+      url: https://www.kevinpowell.co/
+    - name: Paige
+      url: https://www.paigeniedringhaus.com/
+    - name: Bramus
+      url: https://www.bram.us/
+    - name: Front-End Fire
+      url: https://front-end-fire.com
+    - name: Warp
+      url: https://www.warp.dev/
+    - name: cascadiajs-2025.netlify.app
+      url: https://cascadiajs-2025.netlify.app
+    - name: DevTools FM
+      url: https://devtools.fm/
+    - name: The Working Draft
+      url: https://workingdraft.de/
+    - name: The Slides
+      url: https://css-day-2025.argyleink.deno.net
+    - name: anchoreum.com
+      url: https://anchoreum.com
+    - name: boot.dev
+      url: https://www.boot.dev/
+    - name: Backend Banter FM
+      url: https://www.backendbanter.fm/
+    - name: badatcss.com
+      url: https://badatcss.com
+    - name: Bramus
+      url: http://bram.us
+    - name: web.dev
+      url: https://web.dev
+    - name: developer.chrome.com
+      url: https://developer.chrome.com
+    - name: Species in Pieces
+      url: http://species-in-pieces.com
+    - name: Bryan James
+      url: https://visuals.brybry.co
+    - name: DevFest
+      url: https://devfest2024.gdgnantes.com/
+    - name: 🩸🩸🩸 Slides 🩸🩸🩸
+      url: https://argyle-at-devfest-2024.netlify.app
+    - name: Una
+      url: https://una.im
+    - name: scroll-driven-animations.style
+      url: https://scroll-driven-animations.style/
+    - name: Miriam Suzanne
+      url: https://www.miriamsuzanne.com/
+    - name: Brad Frost
+      url: https://bradfrost.com/
+    - name: Open Props
+      url: https://open-props.style/
+    - name: clip-path transition
+      url: https://transition.style/
+    - name: my talk
+      url: https://smashing-freiburg-2024.netlify.app/
+    - name: Matthias Ott
+      url: https://matthiasott.com
+    - name: keyword alignment
+      url: https://anchor-tool.com/
+    - name: Wes Bos
+      url: https://wesbos.com
+    - name: Abdelrahman Awad
+      url: https://logaretm.com
+    - name: Frostapalooza
+      url: https://frostapalooza.com/
+    - name: tools for generating them
+      url: https://linear-easing-generator.netlify.app/
+    - name: Jason
+      url: https://www.learnwithjason.dev
+    - name: Rachel Andrew
+      url: https://rachelandrew.co.uk/
+    - name: August 17th
+      url: https://frostapalooza.bradfrost.com
     - name: "@Mr. Smalls Theater"
-      url: "https://mrsmalls.com"
-    - name: "Lightning in a Bottle with CSS Custom Properties"
-      url: "https://epic-web-2024-at-property.netlify.app"
-    - name: "Jason Lengstorf"
-      url: "https://learnwithjason.dev/"
-    - name: "Listen"
-      url: "https://thecsspodcast.libsyn.com"
-    - name: "Hui"
-      url: "https://chenhuijing.com/#%F0%9F%96%8C"
-    - name: "juicy data"
-      url: "https://2023.stateofcss.com"
-    - name: "my partner"
-      url: "https://www.inkberrytattoo.com"
-    - name: "Cloudinary DevJams"
-      url: "https://training.cloudinary.com/"
-    - name: "joined"
-      url: "https://CS.Sjoy.lol"
-    - name: "Michelle Barker"
-      url: "https://css-irl.info"
-    - name: "Check out the slides"
-      url: "https://smashing-transitions.netlify.app/"
-    - name: "Jhey"
-      url: "https://jhey.dev/"
-    - name: "Jake"
-      url: "https://jakearchibald.com/"
-    - name: "daily.dev"
-      url: "https://daily.dev/"
-    - name: "CSS Cafe"
-      url: "https://www.css.cafe/"
-    - name: "Peep the slides"
-      url: "https://oh-snap.netlify.app/"
-    - name: "Learn with Jason"
-      url: "https://lwj.dev"
-    - name: "Designcember"
-      url: "https://designcember.com/"
-    - name: "Checkout the slides"
-      url: "https://2021-hd-color-at-css-camp.netlify.app/"
-    - name: "Peep the slides"
-      url: "https://2021-css-cafe.netlify.app"
-    - name: "Checkout the slides"
-      url: "https://2021-hover-conf-new-in-css.netlify.app/"
-    - name: "VisBug"
-      url: "http://visbug.web.app"
-    - name: "View the slides"
-      url: "https://2021-great-developer-tools.netlify.app"
-    - name: "conic.style"
-      url: "https://conic.style"
-    - name: "London CSS"
-      url: "https://www.londoncss.dev/"
-    - name: "Check out the slides"
-      url: "https://london-css-2020.netlify.app"
-    - name: "Corner at View Source Conf"
-      url: "https://2019.viewsourceconf.org/"
-    - name: "Travis Neilson"
-      url: "http://travisneilson.com/"
-    - name: 'Google Design "Method Podcast"'
-      url: "https://googledesignmethod.libsyn.com/"
-    - name: "Seattle Interactive Conf"
-      url: "https://seattleinteractive.com/"
-    - name: "See the slides"
-      url: "https://adam-at-sic-2019.netlify.app/"
-    - name: "TeeJungle"
-      url: "https://teejungle.net"
-    - name: "HTML5 DevConf"
-      url: "http://html5devconf.com"
-    - name: "Lively"
-      url: "https://getlive.ly/"
-    - name: "conic.style"
-      url: "https://www.conic.style/"
-    - name: "transition.style"
-      url: "https://www.transition.style/"
+      url: https://mrsmalls.com
+    - name: Lightning in a Bottle with CSS Custom Properties
+      url: https://epic-web-2024-at-property.netlify.app
+    - name: Jason Lengstorf
+      url: https://learnwithjason.dev/
+    - name: Listen
+      url: https://thecsspodcast.libsyn.com
+    - name: Hui
+      url: https://chenhuijing.com/#%F0%9F%96%8C
+    - name: juicy data
+      url: https://2023.stateofcss.com
+    - name: my partner
+      url: https://www.inkberrytattoo.com
+    - name: Cloudinary DevJams
+      url: https://training.cloudinary.com/
+    - name: joined
+      url: https://CS.Sjoy.lol
+    - name: Michelle Barker
+      url: https://css-irl.info
+    - name: Check out the slides
+      url: https://smashing-transitions.netlify.app/
+    - name: Jhey
+      url: https://jhey.dev/
+    - name: Jake
+      url: https://jakearchibald.com/
+    - name: daily.dev
+      url: https://daily.dev/
+    - name: CSS Cafe
+      url: https://www.css.cafe/
+    - name: Peep the slides
+      url: https://oh-snap.netlify.app/
+    - name: Learn with Jason
+      url: https://lwj.dev
+    - name: Designcember
+      url: https://designcember.com/
+    - name: Checkout the slides
+      url: https://2021-hd-color-at-css-camp.netlify.app/
+    - name: Peep the slides
+      url: https://2021-css-cafe.netlify.app
+    - name: Checkout the slides
+      url: https://2021-hover-conf-new-in-css.netlify.app/
+    - name: VisBug
+      url: http://visbug.web.app
+    - name: View the slides
+      url: https://2021-great-developer-tools.netlify.app
+    - name: conic.style
+      url: https://conic.style
+    - name: London CSS
+      url: https://www.londoncss.dev/
+    - name: Check out the slides
+      url: https://london-css-2020.netlify.app
+    - name: Corner at View Source Conf
+      url: https://2019.viewsourceconf.org/
+    - name: Travis Neilson
+      url: http://travisneilson.com/
+    - name: Google Design "Method Podcast"
+      url: https://googledesignmethod.libsyn.com/
+    - name: Seattle Interactive Conf
+      url: https://seattleinteractive.com/
+    - name: See the slides
+      url: https://adam-at-sic-2019.netlify.app/
+    - name: TeeJungle
+      url: https://teejungle.net
+    - name: HTML5 DevConf
+      url: http://html5devconf.com
+    - name: Lively
+      url: https://getlive.ly/
+    - name: conic.style
+      url: https://www.conic.style/
+    - name: transition.style
+      url: https://www.transition.style/

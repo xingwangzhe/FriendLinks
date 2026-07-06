@@ -1,58 +1,58 @@
 site:
-  name: "songxwn.com"
-  url: "https://songxwn.com/"
-  description: "友情链接"
-  links: "/links"
+  name: 网工格物 - Blog - 专注于 IT 基础架构、系统管理和开源工具的实战应用。内容深入浅出，适合系统管理员、网络工程师和 DevOps 爱好者。
+  url: https://songxwn.com/
+  description: 个人学习笔记分享
+  links: /links
   friends:
-    - name: "ZJBBLOG zj的个人博客"
-      url: "https://www.zjhuiwan.cn/"
-    - name: "零散坑 每天为无数Windows+Office 续命15552000秒的大膜法师"
-      url: "https://blog.03k.org/"
-    - name: "Fuckstp EBGP is the best IGP."
-      url: "https://blog.fuckstp.com"
-    - name: "jing8956 9102 年还想着从 0 开始建博客的人脑袋一定有问题"
-      url: "https://www.jing8956.com/"
-    - name: "Starx’s Home Let's gazing at the starry sky toghter someday."
-      url: "https://www.starx.ink/"
-    - name: "biaoblog - 个人博客 专注web开发技术分享"
-      url: "http://biaoblog.cn"
-    - name: "P3TERX ZONE 一个不知名的科技爱好者"
-      url: "https://p3terx.com"
-    - name: "Luminous’ Home 记录生活中的点滴，留下回忆与怀恋"
-      url: "https://luotianyi.vc"
-    - name: "Alex Zhao Blog Sharing and Learning"
-      url: "https://loopback.top/"
-    - name: "冰音Project 我的心里除了露娜大人已经装不下其他女人了"
-      url: "https://www.9bingyin.com/"
-    - name: "梦荟楼的后花园 干啥啥不行干饭第一名"
-      url: "https://oniya.cn/"
-    - name: "刘荣星的博客 一个关注Linux/BSD运维等相关知识的博客"
-      url: "https://www.liurongxing.com"
-    - name: "杨杨得亿 分享自己瞎折腾得一些痕迹。"
-      url: "https://yangpin.link"
-    - name: "Chaoszhu 好记性不如烂笔头"
-      url: "https://chaoszhu.com"
-    - name: "Eth.Young 这里记录着技术，写作，生活的点点滴滴。"
-      url: "https://www.ethyoung.me/"
-    - name: "百战百胜 互联网技术的后花园"
-      url: "https://www.51fire.xyz/"
-    - name: "只是一只猫 ChatGPT是互联网的有损压缩"
-      url: "https://onlyacat.com/"
-    - name: "Mr. Gu 三亩田"
-      url: "https://blog.bsdplus.com/"
-    - name: "卖坚果的怪叔叔 执行上下文"
-      url: "https://cuixinxin.cn/"
-    - name: "码中人的博客 程序员，是生活在代码中的人。"
-      url: "https://blog.mzh.ren/"
-    - name: "Freecl Freecl 的小站"
-      url: "https://clnote.cn/"
-    - name: "随心随风 全村唯一的希望"
-      url: "https://www.iarthit.com/"
-    - name: "lomtom 云原生、kubernetes"
-      url: "https://lomtom.cn/"
-    - name: "OlderFox 粉毛变态老狐狸的个人站"
-      url: "https://olderfox.com/"
-    - name: "阿猫的博客 记录AI、Go相关的技术探索，折腾新玩意，固定产出猫鱼周刊。"
-      url: "https://ameow.xyz/"
-    - name: "去码头整点薯条 人生不过三万天"
-      url: "https://guoyancheng.top/"
+    - name: ZJBBLOG zj的个人博客
+      url: https://www.zjhuiwan.cn/
+    - name: 零散坑 每天为无数Windows+Office 续命15552000秒的大膜法师
+      url: https://blog.03k.org/
+    - name: Fuckstp EBGP is the best IGP.
+      url: https://blog.fuckstp.com
+    - name: jing8956 9102 年还想着从 0 开始建博客的人脑袋一定有问题
+      url: https://www.jing8956.com/
+    - name: Starx’s Home Let's gazing at the starry sky toghter someday.
+      url: https://www.starx.ink/
+    - name: biaoblog - 个人博客 专注web开发技术分享
+      url: http://biaoblog.cn
+    - name: P3TERX ZONE 一个不知名的科技爱好者
+      url: https://p3terx.com
+    - name: Luminous’ Home 记录生活中的点滴，留下回忆与怀恋
+      url: https://luotianyi.vc
+    - name: Alex Zhao Blog Sharing and Learning
+      url: https://loopback.top/
+    - name: 冰音Project 我的心里除了露娜大人已经装不下其他女人了
+      url: https://www.9bingyin.com/
+    - name: 梦荟楼的后花园 干啥啥不行干饭第一名
+      url: https://oniya.cn/
+    - name: 刘荣星的博客 一个关注Linux/BSD运维等相关知识的博客
+      url: https://www.liurongxing.com
+    - name: 杨杨得亿 分享自己瞎折腾得一些痕迹。
+      url: https://yangpin.link
+    - name: Chaoszhu 好记性不如烂笔头
+      url: https://chaoszhu.com
+    - name: Eth.Young 这里记录着技术，写作，生活的点点滴滴。
+      url: https://www.ethyoung.me/
+    - name: 百战百胜 互联网技术的后花园
+      url: https://www.51fire.xyz/
+    - name: 只是一只猫 ChatGPT是互联网的有损压缩
+      url: https://onlyacat.com/
+    - name: Mr. Gu 三亩田
+      url: https://blog.bsdplus.com/
+    - name: 卖坚果的怪叔叔 执行上下文
+      url: https://cuixinxin.cn/
+    - name: 码中人的博客 程序员，是生活在代码中的人。
+      url: https://blog.mzh.ren/
+    - name: Freecl Freecl 的小站
+      url: https://clnote.cn/
+    - name: 随心随风 全村唯一的希望
+      url: https://www.iarthit.com/
+    - name: lomtom 云原生、kubernetes
+      url: https://lomtom.cn/
+    - name: OlderFox 粉毛变态老狐狸的个人站
+      url: https://olderfox.com/
+    - name: 阿猫的博客 记录AI、Go相关的技术探索，折腾新玩意，固定产出猫鱼周刊。
+      url: https://ameow.xyz/
+    - name: 去码头整点薯条 人生不过三万天
+      url: https://guoyancheng.top/

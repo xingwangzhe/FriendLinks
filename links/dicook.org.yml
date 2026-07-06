@@ -1,14 +1,14 @@
 site:
-  name: "dicook.org"
-  url: "https://www.dicook.org/"
-  description: "友情链接"
-  links: "/"
+  name: Di Cook
+  url: https://www.dicook.org/
+  description: 友情链接
+  links: /
   friends:
-    - name: "NUMBATs"
-      url: "https://numbat.space"
-    - name: "International Statistical Institute"
-      url: "https://www.isi-web.org"
-    - name: "The R Journal"
-      url: "https://journal.r-project.org"
-    - name: "Statistical Society of Australia"
-      url: "https://statsoc.org.au"
+    - name: NUMBATs
+      url: https://numbat.space
+    - name: International Statistical Institute
+      url: https://www.isi-web.org
+    - name: The R Journal
+      url: https://journal.r-project.org
+    - name: Statistical Society of Australia
+      url: https://statsoc.org.au

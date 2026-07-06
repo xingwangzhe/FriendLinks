@@ -1,14 +1,14 @@
 site:
-  name: "pfriedma.org"
-  url: "https://pfriedma.org/"
-  description: "友情链接"
-  links: "/"
+  name: Welcome to pfriedma.org
+  url: https://pfriedma.org/
+  description: 友情链接
+  links: /
   friends:
-    - name: "fediverse"
-      url: "https://jointhefediverse.net"
-    - name: "My Blogspot Blog"
-      url: "https://pfriedma.blogspot.com"
-    - name: "merichar.org"
-      url: "https://merichar.org"
-    - name: "Geek Ring"
-      url: "http://geekring.net"
+    - name: fediverse
+      url: https://jointhefediverse.net
+    - name: My Blogspot Blog
+      url: https://pfriedma.blogspot.com
+    - name: merichar.org
+      url: https://merichar.org
+    - name: Geek Ring
+      url: http://geekring.net

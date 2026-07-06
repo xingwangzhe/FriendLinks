@@ -1,10 +1,10 @@
 site:
-  name: "5ec.top"
-  url: "https://5ec.top/"
-  description: "友情链接"
-  links: "/"
+  name: 欢迎！
+  url: https://5ec.top/
+  description: 这是自娱自乐的小网站，希望里面的内容可以帮到你。 最近更新-技术文章 CVE-2017-1000405 Linux 内核内存子系统条件竞争漏洞 CVE-2022-0847 Linux 内核文件子系统 pipe_buffer 未初始化漏洞 深入理解 LibAFL：Mutator 篇（一） 深入理解 LibAFL：Executor 篇（一） CVE-2021-3156 sudo 堆溢出漏洞分析 Qem
+  links: /
   friends:
-    - name: "Obsidian"
-      url: "https://obsidian.md/"
-    - name: "Quartz"
-      url: "https://quartz.jzhao.xyz/"
+    - name: Obsidian
+      url: https://obsidian.md/
+    - name: Quartz
+      url: https://quartz.jzhao.xyz/

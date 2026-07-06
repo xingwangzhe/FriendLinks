@@ -1,10 +1,10 @@
 site:
-  name: "lara-aigmueller.at"
-  url: "https://lara-aigmueller.at/"
-  description: "友情链接"
-  links: "/"
+  name: Lara Aigmüller’s personal website
+  url: https://lara-aigmueller.at/
+  description: Personal website of Lara Aigmüller. Thoughts about web frontend development, music, and more…
+  links: /
   friends:
-    - name: "make music"
-      url: "https://www.laraamalia.at"
-    - name: "web applications and websites"
-      url: "https://www.scale.at"
+    - name: make music
+      url: https://www.laraamalia.at
+    - name: web applications and websites
+      url: https://www.scale.at

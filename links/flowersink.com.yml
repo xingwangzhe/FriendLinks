@@ -1,18 +1,18 @@
 site:
-  name: "flowersink.com"
-  url: "https://flowersink.com/"
-  description: "友情链接"
-  links: "/links"
+  name: 花墨
+  url: https://flowersink.com/
+  description: 花墨是再花的个人技术博客，记录 Angular、NestJS、前端开发与个人创作。
+  links: /links
   friends:
-    - name: "夏的博客"
-      url: "https://xiau.net"
-    - name: "哈冬猪的小站"
-      url: "https://hadongzhu.com"
-    - name: "ZTGD的小窝"
-      url: "https://ztgdblog.icu/"
-    - name: "CC米饭的小世界"
-      url: "https://world.ccrice.com"
-    - name: "咱们俩の博客"
-      url: "https://blog.zamlia.com"
-    - name: "HaydenBi"
-      url: "https://haydenbi.com"
+    - name: 夏的博客
+      url: https://xiau.net
+    - name: 哈冬猪的小站
+      url: https://hadongzhu.com
+    - name: ZTGD的小窝
+      url: https://ztgdblog.icu/
+    - name: CC米饭的小世界
+      url: https://world.ccrice.com
+    - name: 咱们俩の博客
+      url: https://blog.zamlia.com
+    - name: HaydenBi
+      url: https://haydenbi.com

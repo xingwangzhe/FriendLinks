@@ -1,10 +1,10 @@
 site:
-  name: "blog.mambojiang.site"
-  url: "https://blog.mambojiang.site/"
-  description: "友情链接"
-  links: "/links"
+  name: MamboJiang's Blog
+  url: https://blog.mambojiang.site/
+  description: MamboJiang's Blog
+  links: /links
   friends:
-    - name: "Fiveth一名学生、独立开发者、博主"
-      url: "https://blog.fiveth.cc"
-    - name: "Example SiteExample Site Description"
-      url: "https://example.com"
+    - name: Fiveth一名学生、独立开发者、博主
+      url: https://blog.fiveth.cc
+    - name: Example SiteExample Site Description
+      url: https://example.com

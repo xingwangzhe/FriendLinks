@@ -1,8 +1,8 @@
 site:
-  name: "cloudhypervisor.org"
-  url: "https://www.cloudhypervisor.org/"
-  description: "友情链接"
-  links: "/"
+  name: Cloud Hypervisor - Run Cloud Virtual Machines Securely and Efficiently
+  url: https://www.cloudhypervisor.org/
+  description: Cloud Hypervisor is an open source Virtual Machine Monitor (VMM) implemented in Rust that focuses on running modern, cloud workloads, with minimal hardware emulation.
+  links: /
   friends:
-    - name: "Doks"
-      url: "https://getdoks.org/"
+    - name: Doks
+      url: https://getdoks.org/

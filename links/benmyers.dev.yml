@@ -1,10 +1,10 @@
 site:
-  name: "benmyers.dev"
-  url: "https://benmyers.dev/"
-  description: "友情链接"
-  links: "/"
+  name: Ben Myers
+  url: https://benmyers.dev/
+  description: Web developer. Accessibility advocate. Human T-rex.
+  links: /
   friends:
-    - name: "Confluent"
-      url: "https://www.confluent.io"
-    - name: "Some Antics"
-      url: "https://someantics.dev/"
+    - name: Confluent
+      url: https://www.confluent.io
+    - name: Some Antics
+      url: https://someantics.dev/

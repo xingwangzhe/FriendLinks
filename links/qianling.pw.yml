@@ -1,10 +1,10 @@
 site:
-  name: "qianling.pw"
-  url: "https://qianling.pw/"
-  description: "友情链接"
-  links: "/links"
+  name: 首页 • 千灵
+  url: https://qianling.pw/
+  description: 千灵的个人博客
+  links: /links
   friends:
-    - name: "LanYunLanYun 的个人主页 / 技术博客"
-      url: "https://lanyundev.vercel.app/"
-    - name: "恶魔菌の记事簿恶魔菌的个人随笔与记事簿"
-      url: "https://meow3.family.blog/"
+    - name: LanYunLanYun 的个人主页 / 技术博客
+      url: https://lanyundev.vercel.app/
+    - name: 恶魔菌の记事簿恶魔菌的个人随笔与记事簿
+      url: https://meow3.family.blog/

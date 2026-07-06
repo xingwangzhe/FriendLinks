@@ -1,10 +1,10 @@
 site:
-  name: "heptari.uk"
-  url: "https://heptari.uk/"
-  description: "友情链接"
-  links: "/"
+  name: Heptari's Inn
+  url: https://heptari.uk/
+  description: A personal collection of engineering notes, observations and prose.
+  links: /
   friends:
-    - name: "VS Code"
-      url: "https://code.visualstudio.com/"
-    - name: "Obsidian"
-      url: "https://obsidian.md/"
+    - name: VS Code
+      url: https://code.visualstudio.com/
+    - name: Obsidian
+      url: https://obsidian.md/

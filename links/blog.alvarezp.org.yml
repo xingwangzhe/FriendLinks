@@ -1,10 +1,10 @@
 site:
-  name: "blog.alvarezp.org"
-  url: "http://blog.alvarezp.org/"
-  description: "友情链接"
-  links: "/about"
+  name: alvarezp
+  url: http://blog.alvarezp.org/
+  description: 友情链接
+  links: /about
   friends:
-    - name: "Iván Zenteno"
-      url: "http://ivan.zenteno.info/"
-    - name: "GeneratePress"
-      url: "https://generatepress.com"
+    - name: Iván Zenteno
+      url: http://ivan.zenteno.info/
+    - name: GeneratePress
+      url: https://generatepress.com

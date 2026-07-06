@@ -1,8 +1,8 @@
 site:
-  name: "blog.moewah.com"
-  url: "https://blog.moewah.com/"
-  description: "友情链接"
-  links: "/friends"
+  name: 喵斯基部落 - 运维之美，在乎折腾与分享
+  url: https://blog.moewah.com/
+  description: 喵斯基部落，专注自托管部署、服务器运维与SEO优化的技术博客。文章以实战教程为主，内容覆盖PVE虚拟化、群晖NAS、Docker部署、内网穿透、OpenWrt编译、服务器运维、SEO教程以及AI工具、AI技巧分享等，记录个人的技巧方法论、折腾过程与踩坑经验。
+  links: /friends
   friends:
-    - name: "云图札记 在云端俯瞰图景，在图景中寻找云的方向 Blog"
-      url: "https://blog.lzplus.top/"
+    - name: 云图札记 在云端俯瞰图景，在图景中寻找云的方向 Blog
+      url: https://blog.lzplus.top/

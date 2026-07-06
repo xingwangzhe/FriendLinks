@@ -1,32 +1,32 @@
 site:
-  name: "jackrusher.com"
-  url: "http://jackrusher.com/"
-  description: "友情链接"
-  links: "/"
+  name: "Jack Rusher: Multidisciplined"
+  url: http://jackrusher.com/
+  description: Jack Rusher’s web presence.
+  links: /
   friends:
-    - name: "Papers We Love"
-      url: "https://paperswelove.org"
-    - name: "Strange Loop"
-      url: "https://thestrangeloop.com/"
-    - name: "ClojuTRE"
-      url: "https://clojutre.org/"
-    - name: "Ivan Reese"
-      url: "https://ivanish.ca"
-    - name: "online version"
-      url: "https://px23.clerk.vision"
-    - name: "our paper"
-      url: "https://live24.clerk.vision"
-    - name: "Laokoon"
-      url: "https://www.laokoon.group"
-    - name: "Studio NAND"
-      url: "https://nand.io"
-    - name: "Futurium"
-      url: "https://futurium.de"
-    - name: "Maria"
-      url: "https://maria.cloud"
-    - name: "Matt Huebert"
-      url: "https://matt.is"
-    - name: "Dave Liepmann"
-      url: "http://www.daveliepmann.com"
-    - name: "ClojureD"
-      url: "https://clojured.de"
+    - name: Papers We Love
+      url: https://paperswelove.org
+    - name: Strange Loop
+      url: https://thestrangeloop.com/
+    - name: ClojuTRE
+      url: https://clojutre.org/
+    - name: Ivan Reese
+      url: https://ivanish.ca
+    - name: online version
+      url: https://px23.clerk.vision
+    - name: our paper
+      url: https://live24.clerk.vision
+    - name: Laokoon
+      url: https://www.laokoon.group
+    - name: Studio NAND
+      url: https://nand.io
+    - name: Futurium
+      url: https://futurium.de
+    - name: Maria
+      url: https://maria.cloud
+    - name: Matt Huebert
+      url: https://matt.is
+    - name: Dave Liepmann
+      url: http://www.daveliepmann.com
+    - name: ClojureD
+      url: https://clojured.de

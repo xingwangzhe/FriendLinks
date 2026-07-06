@@ -1,14 +1,14 @@
 site:
-  name: "loige.co"
-  url: "https://loige.co/"
-  description: "友情链接"
-  links: "/"
+  name: Luciano Mammino - Cloud Architect and Fullstack Developer
+  url: https://loige.co/
+  description: "The website of Luciano Mammino: Cloud Architect and Fullstack Developer"
+  links: /
   friends:
-    - name: "FourTheorem"
-      url: "https://fourtheorem.com"
-    - name: "Node.js Design PatternsThe top-tier book that will guide you through the design"
-      url: "https://nodejsdesignpatterns.com"
-    - name: "Crafting Lambda Functions in RustAn e-book to learn everything there is to know"
-      url: "https://rust-lambda.com"
-    - name: "Node.js Design Patterns"
-      url: "https://www.nodejsdesignpatterns.com/"
+    - name: FourTheorem
+      url: https://fourtheorem.com
+    - name: Node.js Design PatternsThe top-tier book that will guide you through the design
+      url: https://nodejsdesignpatterns.com
+    - name: Crafting Lambda Functions in RustAn e-book to learn everything there is to know
+      url: https://rust-lambda.com
+    - name: Node.js Design Patterns
+      url: https://www.nodejsdesignpatterns.com/

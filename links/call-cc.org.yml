@@ -1,10 +1,10 @@
 site:
-  name: "call-cc.org"
-  url: "http://www.call-cc.org/"
-  description: "友情链接"
-  links: "/"
+  name: CHICKEN Scheme
+  url: http://www.call-cc.org/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Scheme"
-      url: "http://schemers.org/"
-    - name: "Libera.Chat"
-      url: "https://libera.chat/"
+    - name: Scheme
+      url: http://schemers.org/
+    - name: Libera.Chat
+      url: https://libera.chat/

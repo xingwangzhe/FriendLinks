@@ -1,16 +1,18 @@
 site:
-  name: "miikka.me"
-  url: "https://miikka.me/"
-  description: "友情链接"
-  links: "/"
+  name: Miikka Koskinen
+  url: https://miikka.me/
+  description: |-
+    Hello! My name is Miikka Koskinen. I live in Helsinki, Finland. You might know me by the handle arcatan.
+    Professionally I’m a software engineer working as an independent consultant. I have extensive e
+  links: /
   friends:
-    - name: "quanttype"
-      url: "https://quanttype.net/"
-    - name: "Small Rapids"
-      url: "https://smallrapids.net/"
-    - name: "PyCon UK 2025"
-      url: "https://2025.pyconuk.org/"
-    - name: "Heart of Clojure"
-      url: "https://2024.heartofclojure.eu/"
-    - name: ":clojureD"
-      url: "https://clojured.de"
+    - name: quanttype
+      url: https://quanttype.net/
+    - name: Small Rapids
+      url: https://smallrapids.net/
+    - name: PyCon UK 2025
+      url: https://2025.pyconuk.org/
+    - name: Heart of Clojure
+      url: https://2024.heartofclojure.eu/
+    - name: :clojureD
+      url: https://clojured.de

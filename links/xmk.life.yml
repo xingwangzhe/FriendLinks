@@ -1,12 +1,12 @@
 site:
-  name: "xmk.life"
-  url: "https://xmk.life/"
-  description: "友情链接"
-  links: "/friends"
+  name: 首页
+  url: https://xmk.life/
+  description: 友情链接
+  links: /friends
   friends:
-    - name: "Sfcore"
-      url: "https://m82.org"
-    - name: "fishcpy的小破站 blog.fis.ink"
-      url: "https://blog.fis.ink"
-    - name: "UpXuu's blog upxuu.com"
-      url: "https://upxuu.com"
+    - name: Sfcore
+      url: https://m82.org
+    - name: fishcpy的小破站 blog.fis.ink
+      url: https://blog.fis.ink
+    - name: UpXuu's blog upxuu.com
+      url: https://upxuu.com

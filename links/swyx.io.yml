@@ -1,12 +1,12 @@
 site:
-  name: "swyx.io"
-  url: "https://www.swyx.io/"
-  description: "友情链接"
-  links: "/"
+  name: swyx's site
+  url: https://www.swyx.io/
+  description: The official site of Shawn @swyx Wang, a technologist and recovering finance geek.
+  links: /
   friends:
-    - name: "Latent Space"
-      url: "https://latent.space"
-    - name: "DevRel/DevTools newsletter"
-      url: "https://dx.tips/"
-    - name: "The Coding Career Handbook"
-      url: "https://learninpublic.org/"
+    - name: Latent Space
+      url: https://latent.space
+    - name: DevRel/DevTools newsletter
+      url: https://dx.tips/
+    - name: The Coding Career Handbook
+      url: https://learninpublic.org/

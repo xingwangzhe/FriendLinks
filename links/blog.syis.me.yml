@@ -1,10 +1,10 @@
 site:
-  name: "blog.syis.me"
-  url: "https://blog.syis.me/"
-  description: "友情链接"
-  links: "/friends"
+  name: Young's Blog
+  url: https://blog.syis.me/
+  description: Young's personal blog about technology, programming, and life insights
+  links: /friends
   friends:
-    - name: "Zeping's Code Life"
-      url: "https://bzp2010.me/"
-    - name: "CheverJohn's Website"
-      url: "https://blog.cheverjohn.me/"
+    - name: Zeping's Code Life
+      url: https://bzp2010.me/
+    - name: CheverJohn's Website
+      url: https://blog.cheverjohn.me/

@@ -1,12 +1,12 @@
 site:
-  name: "jingling.im"
-  url: "https://jingling.im/"
-  description: "友情链接"
-  links: "/friends"
+  name: 精灵王
+  url: https://jingling.im/
+  description: A personal blog by 精灵王, sharing thoughts on Java, system design, architecture, full-stack development, and everyday life.
+  links: /friends
   friends:
-    - name: "idealcloverStay simple, stay naive.Added on 2024-07-25"
-      url: "https://idealclover.top"
-    - name: "gq's blogPersonal space for gq (@zgq354), featuring daily reflections and variou"
-      url: "https://zgq.me"
-    - name: "Emoji RepoFree emojis in PNG and SVG formats. Copy and download 1,900+ emojis fo"
-      url: "https://emojirepo.org"
+    - name: idealcloverStay simple, stay naive.Added on 2024-07-25
+      url: https://idealclover.top
+    - name: gq's blogPersonal space for gq (@zgq354), featuring daily reflections and variou
+      url: https://zgq.me
+    - name: Emoji RepoFree emojis in PNG and SVG formats. Copy and download 1,900+ emojis fo
+      url: https://emojirepo.org

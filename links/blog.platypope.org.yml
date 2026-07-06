@@ -1,12 +1,12 @@
 site:
-  name: "blog.platypope.org"
-  url: "http://blog.platypope.org/"
-  description: "友情链接"
-  links: "/"
+  name: platypope.org / blog
+  url: http://blog.platypope.org/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Clojure/conj"
-      url: "http://clojure-conj.org/"
-    - name: "Disqus"
-      url: "http://disqus.com/"
-    - name: "the vendor"
-      url: "http://rpg.drivethrustuff.com/"
+    - name: Clojure/conj
+      url: http://clojure-conj.org/
+    - name: Disqus
+      url: http://disqus.com/
+    - name: the vendor
+      url: http://rpg.drivethrustuff.com/

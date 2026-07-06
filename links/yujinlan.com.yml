@@ -1,12 +1,12 @@
 site:
-  name: "yujinlan.com"
-  url: "https://www.yujinlan.com/"
-  description: "友情链接"
-  links: "/friends"
+  name: 小蘭同学
+  url: https://www.yujinlan.com/
+  description: 友情链接
+  links: /friends
   friends:
-    - name: "老张博客"
-      url: "https://laozhang.org"
-    - name: "网友小宋"
-      url: "https://xyzbz.cn"
-    - name: "壹個博客"
-      url: "https://oneblog.net/"
+    - name: 老张博客
+      url: https://laozhang.org
+    - name: 网友小宋
+      url: https://xyzbz.cn
+    - name: 壹個博客
+      url: https://oneblog.net/

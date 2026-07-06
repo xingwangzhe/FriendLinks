@@ -1,84 +1,84 @@
 site:
-  name: "mikublog.com"
-  url: "https://mikublog.com/"
-  description: "友情链接"
-  links: "/links"
+  name: 分享整个世界
+  url: https://mikublog.com/
+  description: 友情链接
+  links: /links
   friends:
-    - name: "Czp's Blog"
-      url: "https://www.hiczp.com/"
-    - name: "Dawnnnnnn"
-      url: "https://dawnnnnnn.com/"
-    - name: "FH云彩博客"
-      url: "https://yuncaioo.com/"
-    - name: "Gitiu’s Blog"
-      url: "https://www.gitiu.com"
-    - name: "KirimaSharo's Blog"
-      url: "https://kirimasharo.com/"
-    - name: "Lkeme"
-      url: "https://mudew.com/"
-    - name: "NyaMoe"
-      url: "https://www.nyamoe.com/"
-    - name: "Tim's Blog"
-      url: "https://timhbw.com/"
-    - name: "VirCloud's Blog"
-      url: "https://blog.vircloud.net/"
-    - name: "一个技术宅的小站"
-      url: "https://www.geekcj.com/"
-    - name: "一座堤的博客"
-      url: "https://www.yizuodi.cn"
-    - name: "七空幻音"
-      url: "https://www.acgxt.com/"
-    - name: "冰凌胧月的后宫"
-      url: "https://imiku.me/"
-    - name: "卡秋莎的小窝"
-      url: "https://katyusha.net"
-    - name: "晨旭的博客~"
-      url: "https://www.chenxublog.com/"
-    - name: "月宅酱"
-      url: "http://ikmoe.com/"
-    - name: "未元境界"
-      url: "http://molun.net/"
-    - name: "清靈語"
-      url: "https://qingly.me/"
-    - name: "独清独醒"
-      url: "https://www.foreverlong.cn"
-    - name: "華落博客"
-      url: "https://www.hualuoo.com/"
-    - name: "萌爪实验室"
-      url: "https://www.mengclaw.com/"
-    - name: "超能小紫"
-      url: "https://mok.moe/"
-    - name: "镜态极研"
-      url: "https://kagamiz.com/"
-    - name: "Hicool"
-      url: "https://www.hicool.icu"
-    - name: "Aiden"
-      url: "https://taron.top"
-    - name: "Xinger"
-      url: "https://xinger.ink"
-    - name: "Bnightning"
-      url: "https://blog.bnightning.cn"
-    - name: "Mikusa"
-      url: "https://www.himiku.com"
-    - name: "iferencz"
-      url: "https://iferencz.github.io/"
-    - name: "喵喵喵博客"
-      url: "https://www.miaomiaomiao.org"
-    - name: "Peterkirk"
-      url: "http://www.imcomeon.com"
-    - name: "FH云彩"
-      url: "https://www.yuncaioo.com"
-    - name: "ScarletDor"
-      url: "https://www.dorcandy.site/"
-    - name: "geekcj12"
-      url: "http://geekcj.com"
-    - name: "Waxxh"
-      url: "https://waxxh.me/"
-    - name: "Abyss.Cong"
-      url: "http://www.safly.org"
-    - name: "mrtcsy"
-      url: "https://secsb.com"
-    - name: "applemiku"
-      url: "http://applemiku.com/"
-    - name: "贴吧云签"
-      url: "https://tieba.52miku.cn"
+    - name: Czp's Blog
+      url: https://www.hiczp.com/
+    - name: Dawnnnnnn
+      url: https://dawnnnnnn.com/
+    - name: FH云彩博客
+      url: https://yuncaioo.com/
+    - name: Gitiu’s Blog
+      url: https://www.gitiu.com
+    - name: KirimaSharo's Blog
+      url: https://kirimasharo.com/
+    - name: Lkeme
+      url: https://mudew.com/
+    - name: NyaMoe
+      url: https://www.nyamoe.com/
+    - name: Tim's Blog
+      url: https://timhbw.com/
+    - name: VirCloud's Blog
+      url: https://blog.vircloud.net/
+    - name: 一个技术宅的小站
+      url: https://www.geekcj.com/
+    - name: 一座堤的博客
+      url: https://www.yizuodi.cn
+    - name: 七空幻音
+      url: https://www.acgxt.com/
+    - name: 冰凌胧月的后宫
+      url: https://imiku.me/
+    - name: 卡秋莎的小窝
+      url: https://katyusha.net
+    - name: 晨旭的博客~
+      url: https://www.chenxublog.com/
+    - name: 月宅酱
+      url: http://ikmoe.com/
+    - name: 未元境界
+      url: http://molun.net/
+    - name: 清靈語
+      url: https://qingly.me/
+    - name: 独清独醒
+      url: https://www.foreverlong.cn
+    - name: 華落博客
+      url: https://www.hualuoo.com/
+    - name: 萌爪实验室
+      url: https://www.mengclaw.com/
+    - name: 超能小紫
+      url: https://mok.moe/
+    - name: 镜态极研
+      url: https://kagamiz.com/
+    - name: Hicool
+      url: https://www.hicool.icu
+    - name: Aiden
+      url: https://taron.top
+    - name: Xinger
+      url: https://xinger.ink
+    - name: Bnightning
+      url: https://blog.bnightning.cn
+    - name: Mikusa
+      url: https://www.himiku.com
+    - name: iferencz
+      url: https://iferencz.github.io/
+    - name: 喵喵喵博客
+      url: https://www.miaomiaomiao.org
+    - name: Peterkirk
+      url: http://www.imcomeon.com
+    - name: FH云彩
+      url: https://www.yuncaioo.com
+    - name: ScarletDor
+      url: https://www.dorcandy.site/
+    - name: geekcj12
+      url: http://geekcj.com
+    - name: Waxxh
+      url: https://waxxh.me/
+    - name: Abyss.Cong
+      url: http://www.safly.org
+    - name: mrtcsy
+      url: https://secsb.com
+    - name: applemiku
+      url: http://applemiku.com/
+    - name: 贴吧云签
+      url: https://tieba.52miku.cn

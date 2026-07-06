@@ -1,18 +1,18 @@
 site:
-  name: "wutongyu.site"
-  url: "https://wutongyu.site/"
-  description: "友情链接"
-  links: "/friends"
+  name: Wutong Yu
+  url: https://wutongyu.site/
+  description: A streamlined Astro Antfu-style site with blog, projects, search, and theme switching.
+  links: /friends
   friends:
-    - name: "Anthony Fu 站在巨人的肩膀上 Vue、Vite 与开源生态的长期建设者。"
-      url: "https://antfu.me/"
-    - name: "pseudoyu Web3 / 写作 / Indie 独立开发、区块链与长期写作的交汇点。"
-      url: "https://www.pseudoyu.com/"
-    - name: "Hazenix的后端札记 全栈偏后端，写技术也写生活。"
-      url: "https://blog.hazenix.top"
-    - name: "huizhi's Aside 也许只是些碎碎念吧。"
-      url: "https://blog.huizhi.ink"
-    - name: "Seeridia's Home Seeridia 的小小小的大窝！"
-      url: "https://blog.seeridia.top"
-    - name: "miuo's blog 记录文章、笔记、实验和暂时不想丢掉的内容。"
-      url: "https://blog.miuo.me"
+    - name: Anthony Fu 站在巨人的肩膀上 Vue、Vite 与开源生态的长期建设者。
+      url: https://antfu.me/
+    - name: pseudoyu Web3 / 写作 / Indie 独立开发、区块链与长期写作的交汇点。
+      url: https://www.pseudoyu.com/
+    - name: Hazenix的后端札记 全栈偏后端，写技术也写生活。
+      url: https://blog.hazenix.top
+    - name: huizhi's Aside 也许只是些碎碎念吧。
+      url: https://blog.huizhi.ink
+    - name: Seeridia's Home Seeridia 的小小小的大窝！
+      url: https://blog.seeridia.top
+    - name: miuo's blog 记录文章、笔记、实验和暂时不想丢掉的内容。
+      url: https://blog.miuo.me

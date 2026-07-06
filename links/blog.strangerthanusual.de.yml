@@ -1,10 +1,10 @@
 site:
-  name: "blog.strangerthanusual.de"
-  url: "https://blog.strangerthanusual.de/"
-  description: "友情链接"
-  links: "/"
+  name: Stranger Than Usual
+  url: https://blog.strangerthanusual.de/
+  description: Ein Blog über meine Erlebnisse, Gedanken und Rants. Hauptsächlich Rants.
+  links: /
   friends:
-    - name: "savearoundtrip.com"
-      url: "https://savearoundtrip.com/"
-    - name: "Bahnhoroskop"
-      url: "https://bahnhoroskop.ggor.de/"
+    - name: savearoundtrip.com
+      url: https://savearoundtrip.com/
+    - name: Bahnhoroskop
+      url: https://bahnhoroskop.ggor.de/

@@ -1,10 +1,10 @@
 site:
-  name: "nixfox.ca"
-  url: "https://nixfox.ca/"
-  description: "友情链接"
-  links: "/"
+  name: NixFox - The NixFox Den
+  url: https://nixfox.ca/
+  description: The main homepage for nixfox.ca
+  links: /
   friends:
-    - name: "nixwebr.ing"
-      url: "https://nixwebr.ing"
-    - name: "☎️ hotline webring"
-      url: "https://hotlinewebring.club"
+    - name: nixwebr.ing
+      url: https://nixwebr.ing
+    - name: ☎️ hotline webring
+      url: https://hotlinewebring.club

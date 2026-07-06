@@ -1,24 +1,24 @@
 site:
-  name: "never.pet"
-  url: "https://never.pet/"
-  description: "友情链接"
-  links: "/"
+  name: About NeverBehave
+  url: https://never.pet/
+  description: 欸，是咕咕喵
+  links: /
   friends:
-    - name: "VSCode"
-      url: "https://code.visualstudio.com/"
-    - name: "NixOS"
-      url: "https://nixos.org"
-    - name: "Manjaro"
-      url: "https://manjaro.org"
-    - name: "Firefox"
-      url: "https://www.mozilla.org/"
-    - name: "Deemo & VOEZ"
-      url: "https://www.rayark.com"
-    - name: "Rhythm Doctor"
-      url: "https://rhythmdr.com/"
-    - name: "Geometry Dash"
-      url: "https://www.geometrydash.com/"
-    - name: "Ingress @NeverBehave"
-      url: "https://ingress.com"
-    - name: "WireCat AS399888"
-      url: "https://wirecat.net"
+    - name: VSCode
+      url: https://code.visualstudio.com/
+    - name: NixOS
+      url: https://nixos.org
+    - name: Manjaro
+      url: https://manjaro.org
+    - name: Firefox
+      url: https://www.mozilla.org/
+    - name: Deemo & VOEZ
+      url: https://www.rayark.com
+    - name: Rhythm Doctor
+      url: https://rhythmdr.com/
+    - name: Geometry Dash
+      url: https://www.geometrydash.com/
+    - name: Ingress @NeverBehave
+      url: https://ingress.com
+    - name: WireCat AS399888
+      url: https://wirecat.net

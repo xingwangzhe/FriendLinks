@@ -1,12 +1,12 @@
 site:
-  name: "blog.99diary.com"
-  url: "http://blog.99diary.com/"
-  description: "友情链接"
-  links: "/friend"
+  name: 久久日记本
+  url: http://blog.99diary.com/
+  description: 一次次回首，驻足良久，长街，已梦断在那个飘雪的年代，起笔，断段心情。
+  links: /friend
   friends:
-    - name: "Locez-用心体会,用情敲击"
-      url: "https://locez.com/"
-    - name: "Xcat Liu's Blog"
-      url: "http://blog.xcatliu.com/"
-    - name: "姬长信"
-      url: "https://blog.isoyu.com"
+    - name: Locez-用心体会,用情敲击
+      url: https://locez.com/
+    - name: Xcat Liu's Blog
+      url: http://blog.xcatliu.com/
+    - name: 姬长信
+      url: https://blog.isoyu.com

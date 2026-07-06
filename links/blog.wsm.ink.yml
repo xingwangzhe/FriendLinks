@@ -1,10 +1,10 @@
 site:
-  name: "blog.wsm.ink"
-  url: "https://blog.wsm.ink/"
-  description: "友情链接"
-  links: "/friends"
+  name: 黄油的百宝箱
+  url: https://blog.wsm.ink/
+  description: testing testing
+  links: /friends
   friends:
-    - name: "archeb"
-      url: "https://qwq.moe/"
-    - name: "Winslow Eric"
-      url: "http://www.winsloweric.cn"
+    - name: archeb
+      url: https://qwq.moe/
+    - name: Winslow Eric
+      url: http://www.winsloweric.cn

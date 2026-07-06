@@ -1,10 +1,10 @@
 site:
-  name: "blog.toastbubble.top"
-  description: "友情链接"
-  url: "https://blog.toastbubble.top/"
-  links: "/friends"
+  name: 吐司气泡
+  description: 友情链接
+  url: https://blog.toastbubble.top/
+  links: /friends
   friends:
     - name: "@Lruihao"
-      url: "https://lruihao.cn"
-    - name: "Obsidian"
-      url: "https://obsidian.md/"
+      url: https://lruihao.cn
+    - name: Obsidian
+      url: https://obsidian.md/

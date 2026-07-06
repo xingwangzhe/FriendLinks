@@ -1,16 +1,16 @@
 site:
-  name: "henriksonnergard.com"
-  url: "https://henriksonnergard.com/"
-  description: "友情链接"
-  links: "/links"
+  name: Henrik Sonnergård
+  url: https://henriksonnergard.com/
+  description: Personal website of Henrik Sonnergård, a Web Design Engineer based in Sweden.
+  links: /links
   friends:
-    - name: "The Component Gallery"
-      url: "https://component.gallery/"
-    - name: "CUBE CSS"
-      url: "https://cube.fyi/"
-    - name: "Accessibility Developer Guide"
-      url: "https://www.accessibility-developer-guide.com/"
-    - name: "Access for all"
-      url: "https://access-for-all.ch/"
-    - name: "Johnny Decimal"
-      url: "https://jdcm.al/"
+    - name: The Component Gallery
+      url: https://component.gallery/
+    - name: CUBE CSS
+      url: https://cube.fyi/
+    - name: Accessibility Developer Guide
+      url: https://www.accessibility-developer-guide.com/
+    - name: Access for all
+      url: https://access-for-all.ch/
+    - name: Johnny Decimal
+      url: https://jdcm.al/

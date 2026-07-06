@@ -1,504 +1,504 @@
 site:
-  name: "jonathangray.org"
-  url: "https://jonathangray.org/"
-  description: "友情链接"
-  links: "/links"
+  name: Jonathan W. Y. Gray
+  url: https://jonathangray.org/
+  description: "website for Jonathan W. Y. Gray (@jwyg), Co-Director of Centre for Digital Culture, Reader in Critical Infrastructure Studies at Department of Digital Humanities, King’s College London and co-founder "
+  links: /links
   friends:
-    - name: "Adam Tooze"
-      url: "https://adamtooze.com/"
-    - name: "Alasdair S. Roberts"
-      url: "https://aroberts.us/"
-    - name: "Alex Gil"
-      url: "https://www.elotroalex.com/"
-    - name: "Alex Wilkie"
-      url: "https://www.alexwilkie.org/"
-    - name: "Alison Powell"
-      url: "https://www.alisonpowell.ca/"
-    - name: "Angèle Christin"
-      url: "http://www.angelechristin.com/"
-    - name: "Anne Helmond"
-      url: "https://www.annehelmond.nl/"
-    - name: "Anne L. Washington"
-      url: "https://annewashington.com/"
-    - name: "Axel Meunier"
-      url: "https://axelmeunier.smvi.co/"
-    - name: "Becky Kazansky"
-      url: "https://beckykazansky.net/"
-    - name: "Bernard Dionysius Geoghegan"
-      url: "https://www.bernardg.com/"
-    - name: "Bernhard Rieder"
-      url: "https://thepoliticsofsystems.net/"
-    - name: "Bruno Latour"
-      url: "https://www.bruno-latour.fr/"
-    - name: "C. W. Anderson"
-      url: "https://www.cwanderson.org/"
-    - name: "Carlo De Gaetano"
-      url: "https://www.carlodegaetano.com/"
-    - name: "Catherine D’Ignazio"
-      url: "https://www.kanarinka.com/"
-    - name: "Cindy Kaiying Lin"
-      url: "https://lincindy.com/"
-    - name: "Chloë Arkenbout"
-      url: "https://www.chloearkenbout.com/"
-    - name: "Christina Dunbar-Hester"
-      url: "https://christinadunbarhester.wordpress.com/"
-    - name: "Crystal Abidin"
-      url: "https://wishcrys.com/"
-    - name: "Danny Lämmerhirt"
-      url: "https://dannylammerhirt.org/"
-    - name: "Dennis Yi Tenen"
-      url: "https://dennistenen.com/"
-    - name: "Diana Yeh"
-      url: "http://dianayeh.com/"
-    - name: "Ed Summers"
-      url: "https://inkdroid.org/"
-    - name: "Erik Borra"
-      url: "https://erikborra.net/"
-    - name: "Fernando van der Vlist"
-      url: "https://www.fernandovandervlist.nl/"
-    - name: "Francesca Sobande"
-      url: "https://www.francescasobande.com/"
-    - name: "Frédérique Aït-Touati"
-      url: "https://frederiqueaittouati.com/"
-    - name: "Gabriella Coleman"
-      url: "https://gabriellacoleman.org/"
-    - name: "Gillian Rose"
-      url: "https://visualmethodculture.wordpress.com/"
-    - name: "Gina Neff"
-      url: "https://ginaneff.com/"
-    - name: "Heather Ford"
-      url: "https://hblog.org/"
-    - name: "Helen V. Pritchard"
-      url: "https://www.helenpritchard.info/"
-    - name: "Howard Becker"
-      url: "https://howardsbecker.com/"
-    - name: "Janna Joceli Omena"
-      url: "https://thesocialplatforms.wordpress.com/"
-    - name: "Jennifer Gabrys"
-      url: "https://www.jennifergabrys.net/"
-    - name: "Jessica Marie Johnson"
-      url: "https://www.jessicamariejohnson.com/"
-    - name: "Jill Walker Rettberg"
-      url: "https://jilltxt.net/"
-    - name: "Johanna Drucker"
-      url: "https://www.johannadrucker.net/"
-    - name: "John Law"
-      url: "https://heterogeneities.net/"
-    - name: "Jonathan Sterne"
-      url: "https://sterneworks.org/"
-    - name: "Super Bon!"
-      url: "https://superbon.net/"
-    - name: "Julia Velkova"
-      url: "https://juliavelkova.org/"
-    - name: "Juliane Jarke"
-      url: "https://juliane.jarke.info/"
-    - name: "Jussi Parikka"
-      url: "https://jussiparikka.net/"
-    - name: "Karen Gregory"
-      url: "https://karengregoryphd.wordpress.com"
-    - name: "Kat Braybrooke"
-      url: "https://codekat.net/"
-    - name: "Kate Crawford"
-      url: "https://www.katecrawford.net/"
-    - name: "Katja Mayer"
-      url: "https://www.katjamayer.net/"
-    - name: "keisha bruce"
-      url: "https://www.keishabruce.com/"
-    - name: "Kevin Driscoll"
-      url: "https://kevindriscoll.info/"
-    - name: "Kim Fortun"
-      url: "https://kfortun.org/"
-    - name: "Lauren Klein"
-      url: "https://lklein.com/"
-    - name: "Liliana Bounegru"
-      url: "https://lilianabounegru.org"
-    - name: "Lisa Nakamura"
-      url: "https://lisanakamura.net/"
-    - name: "Lucy Kimbell"
-      url: "https://www.lucykimbell.com"
-    - name: "Lucy Suchman"
-      url: "https://robotfutures.wordpress.com/"
-    - name: "Mar Hicks"
-      url: "https://marhicks.com/"
-    - name: "Mark Graham"
-      url: "https://www.markgraham.space/"
-    - name: "Martin Eve"
-      url: "https://eve.gd/"
-    - name: "Mathieu Jacomy"
-      url: "https://reticular.hypotheses.org/"
-    - name: "Matthew Bui"
-      url: "http://matthewbui.com/"
-    - name: "Max Stadler"
-      url: "https://www.ultrabeige.de/"
-    - name: "Maya Livio"
-      url: "https://mayalivio.com/"
-    - name: "Mél Hogan"
-      url: "https://www.melhogan.com/"
-    - name: "Mercedes Bunz"
-      url: "https://mercedesbunz.net/"
-    - name: "Melissa Brown"
-      url: "https://blackfeminisms.com/"
-    - name: "Michael “Six” Silberman"
-      url: "https://wtf.tw/"
-    - name: "Mirko Tobias Schäfer"
-      url: "https://mtschaefer.net/"
-    - name: "Mitchell Whitelaw"
-      url: "https://mtchl.net/"
-    - name: "Morgan Currie"
-      url: "https://www.morgancurrie.com/"
-    - name: "Nick Seaver"
-      url: "https://nickseaver.net/"
-    - name: "Niki Cheong"
-      url: "https://www.bangsarboy.com/"
-    - name: "Noopur Raval"
-      url: "https://noopur.xyz/"
-    - name: "Noortje Marres"
-      url: "https://noortjemarres.net"
-    - name: "Paul Dourish"
-      url: "https://www.dourish.com/"
-    - name: "Payal Arora"
-      url: "https://payalarora.com/"
-    - name: "Rachel Kuo"
-      url: "https://www.rachelkuo.com/"
-    - name: "Rianna Walcott"
-      url: "http://www.riannawalcott.com/"
-    - name: "Rob Kitchin"
-      url: "https://www.kitchin.org/"
-    - name: "Roderic Crooks"
-      url: "https://www.rncrooks.info/"
-    - name: "Roopika Risam"
-      url: "https://www.roopikarisam.com/"
-    - name: "Ruha Benjamin"
-      url: "https://www.ruhabenjamin.com/"
-    - name: "Sabine Niederer"
-      url: "https://www.niederer.info/"
-    - name: "Safiya U. Noble"
-      url: "https://safiyaunoble.com/"
-    - name: "Sara Ahmed"
-      url: "https://feministkilljoys.com/"
-    - name: "Sasha Engelmann"
-      url: "http://www.sashaengelmann.com/"
-    - name: "Saskia Sassen"
-      url: "https://www.saskiasassen.com/"
-    - name: "Seth Lewis"
-      url: "https://sethlewis.org/"
-    - name: "Sheila Jasanoff"
-      url: "https://sheilajasanoff.org/"
-    - name: "Stefania Milan"
-      url: "https://stefaniamilan.net/"
-    - name: "Stuart Geiger"
-      url: "https://stuartgeiger.com/"
-    - name: "Sun-ha Hong"
-      url: "https://sunhahong.wordpress.com/"
-    - name: "Taina Bucher"
-      url: "https://tainabucher.com/"
-    - name: "temi lasade-anderson"
-      url: "https://www.temilasade.com/"
-    - name: "Tomás Sánchez Criado"
-      url: "https://tscriado.org/"
-    - name: "Tommaso Venturini"
-      url: "https://tommasoventurini.it"
-    - name: "Tracey P. Lauriault"
-      url: "https://traceyplauriault.wordpress.com/"
-    - name: "Urszula Pawlicka-Deger"
-      url: "https://pawlickadeger.com/"
-    - name: "Will Davies"
-      url: "https://williamdavies.blog/"
-    - name: "Winnie Soon"
-      url: "https://www.siusoon.net/"
-    - name: "xiaowei r. wang"
-      url: "https://www.xiaoweiwang.com/"
-    - name: "Yuriko Furuhata"
-      url: "https://www.yurikofuruhata.com/"
-    - name: "Yuk Hui"
-      url: "http://digitalmilieu.net/"
-    - name: "AI Now Institute (NYU)"
-      url: "https://ainowinstitute.org/"
-    - name: "App Studies Initiative"
-      url: "https://appstudies.org/"
-    - name: "ARIAS Amsterdam - Platform for Research through the Arts and Sciences"
-      url: "https://arias.amsterdam/"
-    - name: "Association for Computers and the Humanities"
-      url: "https://ach.org/"
-    - name: "Association of Internet Researchers"
-      url: "https://aoir.org/"
-    - name: "Alliance of Digital Humanities Organizations (ADHO)"
-      url: "https://adho.org/"
-    - name: "Center for Energy and Environmental Research in the Human Sciences (Rice Univers"
-      url: "https://culturesofenergy.com"
-    - name: "Center for Critical Race and Digital Studies (NYU)"
-      url: "https://www.criticalracedigitalstudies.com/"
-    - name: "Centre for the Study of the Networked Image (CSNI)"
-      url: "https://www.centreforthestudyof.net/"
-    - name: "Citizen Sense (Goldsmiths, University of London)"
-      url: "https://citizensense.net/"
-    - name: "Coalition for Independent Technology Research"
-      url: "https://independenttechresearch.org/"
-    - name: "Critical Infrastructure Studies Collective"
-      url: "https://cistudies.org/"
-    - name: "DAIR Institute"
-      url: "https://www.dair-institute.org/"
-    - name: "Data & Society"
-      url: "https://datasociety.net/"
-    - name: "Data as Relation (ITU Copenhagen)"
-      url: "https://dar.itu.dk/"
-    - name: "Data-Pop Alliance"
-      url: "https://datapopalliance.org/"
-    - name: "DATACTIVE (University of Amsterdam)"
-      url: "https://data-activism.net"
-    - name: "Datafied Society (Utrecht University)"
-      url: "https://datafiedsociety.nl/"
-    - name: "Density Design (Politecnico di Milano)"
-      url: "https://densitydesign.org"
-    - name: "Digital Aesthetics Research Center"
-      url: "https://darc.au.dk/"
-    - name: "Digital Ecologies"
-      url: "http://www.digicologies.com/"
-    - name: "Digital Methods Initiative (University of Amsterdam)"
-      url: "https://digitalmethods.net"
-    - name: "Discard Studies"
-      url: "https://discardstudies.com/"
-    - name: "DocNow"
-      url: "https://www.docnow.io/"
-    - name: "Doing STS"
-      url: "https://doingsts.com/"
-    - name: "European Association for Digital Humanities (EADH)"
-      url: "https://eadh.org/"
-    - name: "European Association for the Study of Science and Technology (EASST)"
-      url: "https://www.easst.net/"
-    - name: "Institute of Network Cultures"
-      url: "https://networkcultures.org/"
-    - name: "Life x Code"
-      url: "https://www.lifexcode.org/"
-    - name: "Low Carbon Research Methods"
-      url: "http://lowcarbonmethods.com/"
-    - name: "New Materialism"
-      url: "https://newmaterialism.eu/"
-    - name: "Network of Centers"
-      url: "https://networkofcenters.net/"
-    - name: "Political Economy Research Centre (Goldsmiths, University of London)"
-      url: "https://www.perc.org.uk/"
-    - name: "Seeing Data (University of Sheffield)"
-      url: "https://seeingdata.org/"
-    - name: "Socializing Finance"
-      url: "https://socfinance.wordpress.com/"
-    - name: "Society for Social Studies of Science (4S)"
-      url: "https://www.4sonline.org/"
-    - name: "Sociologists of Digital Things"
-      url: "https://sociologists.digital/"
-    - name: "Terra Critica"
-      url: "http://terracritica.net/"
-    - name: "Visual Methologies Collective (Amsterdam University of Applied Sciences)"
-      url: "https://www.visualmethodologies.org/"
-    - name: "archipelagos"
-      url: "http://archipelagosjournal.org/"
-    - name: "Avery Review"
-      url: "https://averyreview.com/"
-    - name: "boundary 2"
-      url: "https://www.boundary2.org/"
+    - name: Adam Tooze
+      url: https://adamtooze.com/
+    - name: Alasdair S. Roberts
+      url: https://aroberts.us/
+    - name: Alex Gil
+      url: https://www.elotroalex.com/
+    - name: Alex Wilkie
+      url: https://www.alexwilkie.org/
+    - name: Alison Powell
+      url: https://www.alisonpowell.ca/
+    - name: Angèle Christin
+      url: http://www.angelechristin.com/
+    - name: Anne Helmond
+      url: https://www.annehelmond.nl/
+    - name: Anne L. Washington
+      url: https://annewashington.com/
+    - name: Axel Meunier
+      url: https://axelmeunier.smvi.co/
+    - name: Becky Kazansky
+      url: https://beckykazansky.net/
+    - name: Bernard Dionysius Geoghegan
+      url: https://www.bernardg.com/
+    - name: Bernhard Rieder
+      url: https://thepoliticsofsystems.net/
+    - name: Bruno Latour
+      url: https://www.bruno-latour.fr/
+    - name: C. W. Anderson
+      url: https://www.cwanderson.org/
+    - name: Carlo De Gaetano
+      url: https://www.carlodegaetano.com/
+    - name: Catherine D’Ignazio
+      url: https://www.kanarinka.com/
+    - name: Cindy Kaiying Lin
+      url: https://lincindy.com/
+    - name: Chloë Arkenbout
+      url: https://www.chloearkenbout.com/
+    - name: Christina Dunbar-Hester
+      url: https://christinadunbarhester.wordpress.com/
+    - name: Crystal Abidin
+      url: https://wishcrys.com/
+    - name: Danny Lämmerhirt
+      url: https://dannylammerhirt.org/
+    - name: Dennis Yi Tenen
+      url: https://dennistenen.com/
+    - name: Diana Yeh
+      url: http://dianayeh.com/
+    - name: Ed Summers
+      url: https://inkdroid.org/
+    - name: Erik Borra
+      url: https://erikborra.net/
+    - name: Fernando van der Vlist
+      url: https://www.fernandovandervlist.nl/
+    - name: Francesca Sobande
+      url: https://www.francescasobande.com/
+    - name: Frédérique Aït-Touati
+      url: https://frederiqueaittouati.com/
+    - name: Gabriella Coleman
+      url: https://gabriellacoleman.org/
+    - name: Gillian Rose
+      url: https://visualmethodculture.wordpress.com/
+    - name: Gina Neff
+      url: https://ginaneff.com/
+    - name: Heather Ford
+      url: https://hblog.org/
+    - name: Helen V. Pritchard
+      url: https://www.helenpritchard.info/
+    - name: Howard Becker
+      url: https://howardsbecker.com/
+    - name: Janna Joceli Omena
+      url: https://thesocialplatforms.wordpress.com/
+    - name: Jennifer Gabrys
+      url: https://www.jennifergabrys.net/
+    - name: Jessica Marie Johnson
+      url: https://www.jessicamariejohnson.com/
+    - name: Jill Walker Rettberg
+      url: https://jilltxt.net/
+    - name: Johanna Drucker
+      url: https://www.johannadrucker.net/
+    - name: John Law
+      url: https://heterogeneities.net/
+    - name: Jonathan Sterne
+      url: https://sterneworks.org/
+    - name: Super Bon!
+      url: https://superbon.net/
+    - name: Julia Velkova
+      url: https://juliavelkova.org/
+    - name: Juliane Jarke
+      url: https://juliane.jarke.info/
+    - name: Jussi Parikka
+      url: https://jussiparikka.net/
+    - name: Karen Gregory
+      url: https://karengregoryphd.wordpress.com
+    - name: Kat Braybrooke
+      url: https://codekat.net/
+    - name: Kate Crawford
+      url: https://www.katecrawford.net/
+    - name: Katja Mayer
+      url: https://www.katjamayer.net/
+    - name: keisha bruce
+      url: https://www.keishabruce.com/
+    - name: Kevin Driscoll
+      url: https://kevindriscoll.info/
+    - name: Kim Fortun
+      url: https://kfortun.org/
+    - name: Lauren Klein
+      url: https://lklein.com/
+    - name: Liliana Bounegru
+      url: https://lilianabounegru.org
+    - name: Lisa Nakamura
+      url: https://lisanakamura.net/
+    - name: Lucy Kimbell
+      url: https://www.lucykimbell.com
+    - name: Lucy Suchman
+      url: https://robotfutures.wordpress.com/
+    - name: Mar Hicks
+      url: https://marhicks.com/
+    - name: Mark Graham
+      url: https://www.markgraham.space/
+    - name: Martin Eve
+      url: https://eve.gd/
+    - name: Mathieu Jacomy
+      url: https://reticular.hypotheses.org/
+    - name: Matthew Bui
+      url: http://matthewbui.com/
+    - name: Max Stadler
+      url: https://www.ultrabeige.de/
+    - name: Maya Livio
+      url: https://mayalivio.com/
+    - name: Mél Hogan
+      url: https://www.melhogan.com/
+    - name: Mercedes Bunz
+      url: https://mercedesbunz.net/
+    - name: Melissa Brown
+      url: https://blackfeminisms.com/
+    - name: Michael “Six” Silberman
+      url: https://wtf.tw/
+    - name: Mirko Tobias Schäfer
+      url: https://mtschaefer.net/
+    - name: Mitchell Whitelaw
+      url: https://mtchl.net/
+    - name: Morgan Currie
+      url: https://www.morgancurrie.com/
+    - name: Nick Seaver
+      url: https://nickseaver.net/
+    - name: Niki Cheong
+      url: https://www.bangsarboy.com/
+    - name: Noopur Raval
+      url: https://noopur.xyz/
+    - name: Noortje Marres
+      url: https://noortjemarres.net
+    - name: Paul Dourish
+      url: https://www.dourish.com/
+    - name: Payal Arora
+      url: https://payalarora.com/
+    - name: Rachel Kuo
+      url: https://www.rachelkuo.com/
+    - name: Rianna Walcott
+      url: http://www.riannawalcott.com/
+    - name: Rob Kitchin
+      url: https://www.kitchin.org/
+    - name: Roderic Crooks
+      url: https://www.rncrooks.info/
+    - name: Roopika Risam
+      url: https://www.roopikarisam.com/
+    - name: Ruha Benjamin
+      url: https://www.ruhabenjamin.com/
+    - name: Sabine Niederer
+      url: https://www.niederer.info/
+    - name: Safiya U. Noble
+      url: https://safiyaunoble.com/
+    - name: Sara Ahmed
+      url: https://feministkilljoys.com/
+    - name: Sasha Engelmann
+      url: http://www.sashaengelmann.com/
+    - name: Saskia Sassen
+      url: https://www.saskiasassen.com/
+    - name: Seth Lewis
+      url: https://sethlewis.org/
+    - name: Sheila Jasanoff
+      url: https://sheilajasanoff.org/
+    - name: Stefania Milan
+      url: https://stefaniamilan.net/
+    - name: Stuart Geiger
+      url: https://stuartgeiger.com/
+    - name: Sun-ha Hong
+      url: https://sunhahong.wordpress.com/
+    - name: Taina Bucher
+      url: https://tainabucher.com/
+    - name: temi lasade-anderson
+      url: https://www.temilasade.com/
+    - name: Tomás Sánchez Criado
+      url: https://tscriado.org/
+    - name: Tommaso Venturini
+      url: https://tommasoventurini.it
+    - name: Tracey P. Lauriault
+      url: https://traceyplauriault.wordpress.com/
+    - name: Urszula Pawlicka-Deger
+      url: https://pawlickadeger.com/
+    - name: Will Davies
+      url: https://williamdavies.blog/
+    - name: Winnie Soon
+      url: https://www.siusoon.net/
+    - name: xiaowei r. wang
+      url: https://www.xiaoweiwang.com/
+    - name: Yuriko Furuhata
+      url: https://www.yurikofuruhata.com/
+    - name: Yuk Hui
+      url: http://digitalmilieu.net/
+    - name: AI Now Institute (NYU)
+      url: https://ainowinstitute.org/
+    - name: App Studies Initiative
+      url: https://appstudies.org/
+    - name: ARIAS Amsterdam - Platform for Research through the Arts and Sciences
+      url: https://arias.amsterdam/
+    - name: Association for Computers and the Humanities
+      url: https://ach.org/
+    - name: Association of Internet Researchers
+      url: https://aoir.org/
+    - name: Alliance of Digital Humanities Organizations (ADHO)
+      url: https://adho.org/
+    - name: Center for Energy and Environmental Research in the Human Sciences (Rice Univers
+      url: https://culturesofenergy.com
+    - name: Center for Critical Race and Digital Studies (NYU)
+      url: https://www.criticalracedigitalstudies.com/
+    - name: Centre for the Study of the Networked Image (CSNI)
+      url: https://www.centreforthestudyof.net/
+    - name: Citizen Sense (Goldsmiths, University of London)
+      url: https://citizensense.net/
+    - name: Coalition for Independent Technology Research
+      url: https://independenttechresearch.org/
+    - name: Critical Infrastructure Studies Collective
+      url: https://cistudies.org/
+    - name: DAIR Institute
+      url: https://www.dair-institute.org/
+    - name: Data & Society
+      url: https://datasociety.net/
+    - name: Data as Relation (ITU Copenhagen)
+      url: https://dar.itu.dk/
+    - name: Data-Pop Alliance
+      url: https://datapopalliance.org/
+    - name: DATACTIVE (University of Amsterdam)
+      url: https://data-activism.net
+    - name: Datafied Society (Utrecht University)
+      url: https://datafiedsociety.nl/
+    - name: Density Design (Politecnico di Milano)
+      url: https://densitydesign.org
+    - name: Digital Aesthetics Research Center
+      url: https://darc.au.dk/
+    - name: Digital Ecologies
+      url: http://www.digicologies.com/
+    - name: Digital Methods Initiative (University of Amsterdam)
+      url: https://digitalmethods.net
+    - name: Discard Studies
+      url: https://discardstudies.com/
+    - name: DocNow
+      url: https://www.docnow.io/
+    - name: Doing STS
+      url: https://doingsts.com/
+    - name: European Association for Digital Humanities (EADH)
+      url: https://eadh.org/
+    - name: European Association for the Study of Science and Technology (EASST)
+      url: https://www.easst.net/
+    - name: Institute of Network Cultures
+      url: https://networkcultures.org/
+    - name: Life x Code
+      url: https://www.lifexcode.org/
+    - name: Low Carbon Research Methods
+      url: http://lowcarbonmethods.com/
+    - name: New Materialism
+      url: https://newmaterialism.eu/
+    - name: Network of Centers
+      url: https://networkofcenters.net/
+    - name: Political Economy Research Centre (Goldsmiths, University of London)
+      url: https://www.perc.org.uk/
+    - name: Seeing Data (University of Sheffield)
+      url: https://seeingdata.org/
+    - name: Socializing Finance
+      url: https://socfinance.wordpress.com/
+    - name: Society for Social Studies of Science (4S)
+      url: https://www.4sonline.org/
+    - name: Sociologists of Digital Things
+      url: https://sociologists.digital/
+    - name: Terra Critica
+      url: http://terracritica.net/
+    - name: Visual Methologies Collective (Amsterdam University of Applied Sciences)
+      url: https://www.visualmethodologies.org/
+    - name: archipelagos
+      url: http://archipelagosjournal.org/
+    - name: Avery Review
+      url: https://averyreview.com/
+    - name: boundary 2
+      url: https://www.boundary2.org/
     - name: "Catalyst: Feminism, Theory, and Technoscience"
-      url: "https://catalystjournal.org/"
-    - name: "Computational Culture"
-      url: "https://computationalculture.net/"
-    - name: "e-flux"
-      url: "https://www.e-flux.com/"
-    - name: "Engaging Science, Technology, and Society"
-      url: "https://estsjournal.org/"
-    - name: "Fibreculture Journal"
-      url: "https://fibreculturejournal.org/"
-    - name: "First Monday"
-      url: "https://firstmonday.org"
-    - name: "Journal of Open Humanities Data"
-      url: "https://openhumanitiesdata.metajnl.com/"
-    - name: "Journal of Peer Production"
-      url: "https://peerproduction.net/"
+      url: https://catalystjournal.org/
+    - name: Computational Culture
+      url: https://computationalculture.net/
+    - name: e-flux
+      url: https://www.e-flux.com/
+    - name: Engaging Science, Technology, and Society
+      url: https://estsjournal.org/
+    - name: Fibreculture Journal
+      url: https://fibreculturejournal.org/
+    - name: First Monday
+      url: https://firstmonday.org
+    - name: Journal of Open Humanities Data
+      url: https://openhumanitiesdata.metajnl.com/
+    - name: Journal of Peer Production
+      url: https://peerproduction.net/
     - name: "Krisis: Journal for Contemporary Philosophy"
-      url: "https://krisis.eu/"
-    - name: "Limn"
-      url: "https://limn.it/"
-    - name: "Mattering Press"
-      url: "https://www.matteringpress.org/"
-    - name: "Meatspace Press"
-      url: "https://meatspacepress.com/"
-    - name: "Media Theory"
-      url: "https://mediatheoryjournal.org/"
-    - name: "meson press"
-      url: "https://meson.press/"
-    - name: "New Left Review"
-      url: "https://newleftreview.org/"
-    - name: "Open Humanities Press"
-      url: "https://www.openhumanitiespress.org/"
-    - name: "Open Library of the Humanities"
-      url: "https://www.openlibhums.org/"
-    - name: "Pluto Press"
-      url: "https://www.plutobooks.com/"
-    - name: "Public Books"
-      url: "https://www.publicbooks.org/"
-    - name: "Punctum Books"
-      url: "https://punctumbooks.com/"
-    - name: "Radical Open Access"
-      url: "https://radicaloa.disruptivemedia.org.uk/"
-    - name: "Radical Philosophy"
-      url: "https://www.radicalphilosophy.com/"
-    - name: "Statistique et Société"
-      url: "https://statistique-et-societe.fr/"
-    - name: "Valuation Studies"
-      url: "https://valuationstudies.liu.se/"
-    - name: "Verso Books"
-      url: "https://www.versobooks.com/"
-    - name: "Zed Books"
-      url: "https://www.zedbooks.net/"
-    - name: "Amnesty Decoders"
-      url: "https://decoders.amnesty.org/"
-    - name: "Art + Feminism"
-      url: "https://artandfeminism.org/"
-    - name: "Autonomy"
-      url: "https://autonomy.work/"
-    - name: "besea.n"
-      url: "https://www.besean.co.uk/"
-    - name: "Black Lives Matter"
-      url: "https://blacklivesmatter.com/"
-    - name: "Campaign Against Arms Trade"
-      url: "https://www.caat.org.uk/"
-    - name: "Client Earth"
-      url: "https://www.clientearth.org/"
-    - name: "Climate Coalition"
-      url: "https://www.theclimatecoalition.org/"
-    - name: "Climate Strike"
-      url: "https://www.climatestrike.net/"
-    - name: "CND"
-      url: "https://cnduk.org/"
-    - name: "Common Wealth"
-      url: "https://common-wealth.co.uk/"
-    - name: "Corporate Europe Observatory"
-      url: "https://corporateeurope.org/"
-    - name: "Debt Resistance"
-      url: "https://debtresistance.uk/"
-    - name: "End Violence and Racism Against ESEA Communities"
-      url: "https://evresea.com/"
-    - name: "Fair Work Foundation"
-      url: "https://fair.work/"
-    - name: "Finance Uncovered"
-      url: "https://www.financeuncovered.org/"
-    - name: "Fridays for Future"
-      url: "https://fridaysforfuture.org/"
-    - name: "Friends of the Earth"
-      url: "https://friendsoftheearth.uk/"
-    - name: "Global Justice Now"
-      url: "https://www.globaljustice.org.uk/"
-    - name: "Internet Archive"
-      url: "https://archive.org/"
-    - name: "Just Banking"
-      url: "https://justbanking.org.uk/"
-    - name: "London Renters Union"
-      url: "https://londonrentersunion.org/"
-    - name: "Mozilla"
-      url: "https://www.mozilla.org/"
-    - name: "Natural History Museum"
-      url: "https://thenaturalhistorymuseum.org/"
-    - name: "New Economics Foundation"
-      url: "https://neweconomics.org/"
-    - name: "New Weather Institute"
-      url: "https://www.newweather.org/"
-    - name: "Open Knowledge Foundation"
-      url: "https://okfn.org/"
-    - name: "P2P Foundation"
-      url: "https://p2pfoundation.net/"
-    - name: "Platform"
-      url: "https://platformlondon.org/"
-    - name: "Platform Cooperativism Consortium"
-      url: "https://platform.coop/"
-    - name: "Plurality University"
-      url: "https://www.plurality-university.org/"
-    - name: "Racism and Technology Center"
-      url: "https://racismandtechnology.center/"
-    - name: "Rapid Transition Alliance"
-      url: "https://www.rapidtransition.org/"
-    - name: "Redecentralize"
-      url: "https://redecentralize.org/"
-    - name: "Research for Action"
-      url: "https://researchforaction.uk/"
-    - name: "Responsible Data"
-      url: "https://responsibledata.io/"
-    - name: "Responsible Tech"
-      url: "https://www.responsibletech.in/"
-    - name: "Right to Remain"
-      url: "https://righttoremain.org.uk/"
-    - name: "Right to Research Coalition"
-      url: "https://www.righttoresearch.org/"
-    - name: "School of Data"
-      url: "https://schoolofdata.org/"
-    - name: "Sisters Uncut"
-      url: "https://www.sistersuncut.org/"
-    - name: "Sunrise Movement"
-      url: "https://www.sunrisemovement.org/"
-    - name: "Superrr"
-      url: "https://superrr.net/"
-    - name: "Tactical Tech"
-      url: "https://tacticaltech.org"
-    - name: "Tax Justice Network"
-      url: "https://www.taxjustice.net/"
-    - name: "Tech Workers Coalition"
-      url: "https://techworkerscoalition.org/"
-    - name: "The Social Guarantee"
-      url: "https://www.socialguarantee.org/"
-    - name: "UK Student Climate Network"
-      url: "https://ukscn.org/"
-    - name: "UK Uncut"
-      url: "https://www.ukuncut.org/"
-    - name: "Unearthed (Greenpeace)"
-      url: "https://unearthed.greenpeace.org/"
-    - name: "We Own It"
-      url: "https://weownit.org.uk/"
-    - name: "Whose Knowledge?"
-      url: "https://whoseknowledge.org/"
-    - name: "Women’s Strike"
-      url: "https://womenstrike.org.uk/"
-    - name: "Carbon Brief"
-      url: "https://www.carbonbrief.org/"
-    - name: "Corporate Watch"
-      url: "https://corporatewatch.org/"
-    - name: "Democracy Now"
-      url: "https://www.democracynow.org/"
-    - name: "DeSmog"
-      url: "https://www.desmog.co.uk/"
-    - name: "DING"
-      url: "https://dingdingding.org/"
-    - name: "Dissent Magazine"
-      url: "https://www.dissentmagazine.org/"
-    - name: "gal-dem"
-      url: "https://gal-dem.com/"
-    - name: "Global Voices"
-      url: "https://globalvoices.org/"
-    - name: "Jacobin"
-      url: "https://jacobinmag.com/"
-    - name: "London Review of Books"
-      url: "https://www.lrb.co.uk/"
-    - name: "Lux Magazine"
-      url: "https://lux-magazine.com/"
-    - name: "Mother Jones"
-      url: "https://www.motherjones.com/"
-    - name: "n+1"
-      url: "https://nplusonemag.com/"
-    - name: "New Internationalist"
-      url: "https://newint.org/"
-    - name: "New Socialist"
-      url: "https://newsocialist.org.uk/"
-    - name: "Notes from Below"
-      url: "https://notesfrombelow.org/"
-    - name: "openDemocracy"
-      url: "https://opendemocracy.net/"
-    - name: "ProPublica"
-      url: "https://www.propublica.org/"
-    - name: "Real Life Magazine"
-      url: "https://reallifemag.com/"
-    - name: "Rest of World"
-      url: "https://restofworld.org/"
-    - name: "The Bureau of Investigative Journalism"
-      url: "https://www.thebureauinvestigates.com/"
-    - name: "The Media Fund"
-      url: "https://themediafund.org/"
-    - name: "The New Inquiry"
-      url: "https://thenewinquiry.com/"
-    - name: "Tribune"
-      url: "https://tribunemag.co.uk/"
+      url: https://krisis.eu/
+    - name: Limn
+      url: https://limn.it/
+    - name: Mattering Press
+      url: https://www.matteringpress.org/
+    - name: Meatspace Press
+      url: https://meatspacepress.com/
+    - name: Media Theory
+      url: https://mediatheoryjournal.org/
+    - name: meson press
+      url: https://meson.press/
+    - name: New Left Review
+      url: https://newleftreview.org/
+    - name: Open Humanities Press
+      url: https://www.openhumanitiespress.org/
+    - name: Open Library of the Humanities
+      url: https://www.openlibhums.org/
+    - name: Pluto Press
+      url: https://www.plutobooks.com/
+    - name: Public Books
+      url: https://www.publicbooks.org/
+    - name: Punctum Books
+      url: https://punctumbooks.com/
+    - name: Radical Open Access
+      url: https://radicaloa.disruptivemedia.org.uk/
+    - name: Radical Philosophy
+      url: https://www.radicalphilosophy.com/
+    - name: Statistique et Société
+      url: https://statistique-et-societe.fr/
+    - name: Valuation Studies
+      url: https://valuationstudies.liu.se/
+    - name: Verso Books
+      url: https://www.versobooks.com/
+    - name: Zed Books
+      url: https://www.zedbooks.net/
+    - name: Amnesty Decoders
+      url: https://decoders.amnesty.org/
+    - name: Art + Feminism
+      url: https://artandfeminism.org/
+    - name: Autonomy
+      url: https://autonomy.work/
+    - name: besea.n
+      url: https://www.besean.co.uk/
+    - name: Black Lives Matter
+      url: https://blacklivesmatter.com/
+    - name: Campaign Against Arms Trade
+      url: https://www.caat.org.uk/
+    - name: Client Earth
+      url: https://www.clientearth.org/
+    - name: Climate Coalition
+      url: https://www.theclimatecoalition.org/
+    - name: Climate Strike
+      url: https://www.climatestrike.net/
+    - name: CND
+      url: https://cnduk.org/
+    - name: Common Wealth
+      url: https://common-wealth.co.uk/
+    - name: Corporate Europe Observatory
+      url: https://corporateeurope.org/
+    - name: Debt Resistance
+      url: https://debtresistance.uk/
+    - name: End Violence and Racism Against ESEA Communities
+      url: https://evresea.com/
+    - name: Fair Work Foundation
+      url: https://fair.work/
+    - name: Finance Uncovered
+      url: https://www.financeuncovered.org/
+    - name: Fridays for Future
+      url: https://fridaysforfuture.org/
+    - name: Friends of the Earth
+      url: https://friendsoftheearth.uk/
+    - name: Global Justice Now
+      url: https://www.globaljustice.org.uk/
+    - name: Internet Archive
+      url: https://archive.org/
+    - name: Just Banking
+      url: https://justbanking.org.uk/
+    - name: London Renters Union
+      url: https://londonrentersunion.org/
+    - name: Mozilla
+      url: https://www.mozilla.org/
+    - name: Natural History Museum
+      url: https://thenaturalhistorymuseum.org/
+    - name: New Economics Foundation
+      url: https://neweconomics.org/
+    - name: New Weather Institute
+      url: https://www.newweather.org/
+    - name: Open Knowledge Foundation
+      url: https://okfn.org/
+    - name: P2P Foundation
+      url: https://p2pfoundation.net/
+    - name: Platform
+      url: https://platformlondon.org/
+    - name: Platform Cooperativism Consortium
+      url: https://platform.coop/
+    - name: Plurality University
+      url: https://www.plurality-university.org/
+    - name: Racism and Technology Center
+      url: https://racismandtechnology.center/
+    - name: Rapid Transition Alliance
+      url: https://www.rapidtransition.org/
+    - name: Redecentralize
+      url: https://redecentralize.org/
+    - name: Research for Action
+      url: https://researchforaction.uk/
+    - name: Responsible Data
+      url: https://responsibledata.io/
+    - name: Responsible Tech
+      url: https://www.responsibletech.in/
+    - name: Right to Remain
+      url: https://righttoremain.org.uk/
+    - name: Right to Research Coalition
+      url: https://www.righttoresearch.org/
+    - name: School of Data
+      url: https://schoolofdata.org/
+    - name: Sisters Uncut
+      url: https://www.sistersuncut.org/
+    - name: Sunrise Movement
+      url: https://www.sunrisemovement.org/
+    - name: Superrr
+      url: https://superrr.net/
+    - name: Tactical Tech
+      url: https://tacticaltech.org
+    - name: Tax Justice Network
+      url: https://www.taxjustice.net/
+    - name: Tech Workers Coalition
+      url: https://techworkerscoalition.org/
+    - name: The Social Guarantee
+      url: https://www.socialguarantee.org/
+    - name: UK Student Climate Network
+      url: https://ukscn.org/
+    - name: UK Uncut
+      url: https://www.ukuncut.org/
+    - name: Unearthed (Greenpeace)
+      url: https://unearthed.greenpeace.org/
+    - name: We Own It
+      url: https://weownit.org.uk/
+    - name: Whose Knowledge?
+      url: https://whoseknowledge.org/
+    - name: Women’s Strike
+      url: https://womenstrike.org.uk/
+    - name: Carbon Brief
+      url: https://www.carbonbrief.org/
+    - name: Corporate Watch
+      url: https://corporatewatch.org/
+    - name: Democracy Now
+      url: https://www.democracynow.org/
+    - name: DeSmog
+      url: https://www.desmog.co.uk/
+    - name: DING
+      url: https://dingdingding.org/
+    - name: Dissent Magazine
+      url: https://www.dissentmagazine.org/
+    - name: gal-dem
+      url: https://gal-dem.com/
+    - name: Global Voices
+      url: https://globalvoices.org/
+    - name: Jacobin
+      url: https://jacobinmag.com/
+    - name: London Review of Books
+      url: https://www.lrb.co.uk/
+    - name: Lux Magazine
+      url: https://lux-magazine.com/
+    - name: Mother Jones
+      url: https://www.motherjones.com/
+    - name: n+1
+      url: https://nplusonemag.com/
+    - name: New Internationalist
+      url: https://newint.org/
+    - name: New Socialist
+      url: https://newsocialist.org.uk/
+    - name: Notes from Below
+      url: https://notesfrombelow.org/
+    - name: openDemocracy
+      url: https://opendemocracy.net/
+    - name: ProPublica
+      url: https://www.propublica.org/
+    - name: Real Life Magazine
+      url: https://reallifemag.com/
+    - name: Rest of World
+      url: https://restofworld.org/
+    - name: The Bureau of Investigative Journalism
+      url: https://www.thebureauinvestigates.com/
+    - name: The Media Fund
+      url: https://themediafund.org/
+    - name: The New Inquiry
+      url: https://thenewinquiry.com/
+    - name: Tribune
+      url: https://tribunemag.co.uk/

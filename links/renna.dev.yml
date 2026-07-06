@@ -1,22 +1,22 @@
 site:
-  name: "renna.dev"
-  url: "https://renna.dev/"
-  description: "友情链接"
-  links: "/friends"
+  name: Renna's Blog
+  url: https://renna.dev/
+  description: 无人知晓的日常记事本
+  links: /friends
   friends:
-    - name: "白雲小鎮"
-      url: "https://cloudowo.com/"
-    - name: "/mnt/anyneko"
-      url: "https://aneko.moe"
-    - name: "雨山秋"
-      url: "https://aki.cat"
-    - name: "MBRjun-Blog"
-      url: "https://www.mbrjun.cn/"
-    - name: "雨宮 澪音"
-      url: "https://amamiyamion.github.io/"
-    - name: "chihuo2104の部落格"
-      url: "https://blog.chihuo2104.dev/"
-    - name: "鱼类观测研究所"
-      url: "https://with.fish/"
-    - name: "残页的小博客"
-      url: "https://blog.canyie.top/"
+    - name: 白雲小鎮
+      url: https://cloudowo.com/
+    - name: /mnt/anyneko
+      url: https://aneko.moe
+    - name: 雨山秋
+      url: https://aki.cat
+    - name: MBRjun-Blog
+      url: https://www.mbrjun.cn/
+    - name: 雨宮 澪音
+      url: https://amamiyamion.github.io/
+    - name: chihuo2104の部落格
+      url: https://blog.chihuo2104.dev/
+    - name: 鱼类观测研究所
+      url: https://with.fish/
+    - name: 残页的小博客
+      url: https://blog.canyie.top/

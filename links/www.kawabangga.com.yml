@@ -1,36 +1,84 @@
 site:
-  name: "卡瓦邦噶！"
-  url: "https://www.kawabangga.com/"
-  description: "卡瓦邦噶！"
-  links: "/links"
+  name: 卡瓦邦噶！
+  url: https://www.kawabangga.com/
+  description: 无法自制的人得不到自由。
+  links: /blogroll
   friends:
-    - name: "隔叶黄莺 Yanbin's Blog"
-      url: "https://yanbin.blog/"
-    - name: "辛未羊的网络日志"
-      url: "https://panqiincs.me/"
-    - name: "刘悦_刘悦的技术博客_LiuYue's Tech Blog"
-      url: "https://v3u.cn/"
-    - name: "木鸟杂记"
-      url: "https://www.qtmuniao.com/"
-    - name: "见字如面"
-      url: "https://hiwannz.com/"
-    - name: "Frost's Blog"
-      url: "https://frostming.com/"
-    - name: "Just For Fun"
-      url: "https://selfboot.cn/"
-    - name: "智慧锦囊"
-      url: "https://blog.wisepkg.com/"
-    - name: "云风的 BLOG"
-      url: "https://blog.codingnow.com/"
-    - name: "laike9m's blog"
-      url: "https://laike9m.com/"
-    - name: "依云's Blog"
-      url: "https://blog.lilydjwg.me/"
-    - name: "Henry Z's blog"
-      url: "https://changchen.me/"
-    - name: "陪她去流浪"
-      url: "https://blog.twofei.com/"
-    - name: "0x01 byte"
-      url: "https://1byte.io/"
-    - name: "卢昌海个人主页"
-      url: "https://www.changhai.org/"
+    - name: To Be With You
+      url: http://www.swj.name/
+    - name: joyme
+      url: http://myway5.com/
+    - name: hycwall
+      url: http://cathon.github.io/
+    - name: David Gu
+      url: https://clos.org/
+    - name: 梦里醉逍遥
+      url: http://liyaos.com/
+    - name: 云风
+      url: http://blog.codingnow.com/
+    - name: piglei
+      url: https://www.piglei.com/
+    - name: mrluanma
+      url: https://mrluanma.github.io/
+    - name: 隔叶黄莺
+      url: https://yanbin.blog/
+    - name: laike9m
+      url: https://laike9m.com
+    - name: 依云
+      url: https://blog.lilydjwg.me/
+    - name: 木制robot
+      url: http://woodenrobot.me/
+    - name: Armin Ronacher
+      url: http://lucumr.pocoo.org/
+    - name: Zoom.Quiet
+      url: http://wiki.zoomquiet.io/
+    - name: WKLKEN BUILDING
+      url: http://www.wklken.me/
+    - name: vimiix
+      url: https://www.vimiix.com/
+    - name: 瞬光
+      url: http://dtysky.moe/
+    - name: daya
+      url: https://changchen.me/
+    - name: 辛未羊的博客
+      url: https://panqiincs.me
+    - name: Drew DeVault
+      url: https://drewdevault.com/
+    - name: Adam Wen
+      url: https://darkof.me/
+    - name: manjusaka
+      url: https://manjusaka.itscoder.com/
+    - name: 刘悦的技术博客
+      url: https://v3u.cn/
+    - name: Muniao
+      url: https://www.qtmuniao.com/
+    - name: Frost Ming
+      url: https://frostming.com/
+    - name: 小明明
+      url: https://www.dongwm.com/
+    - name: lepture
+      url: https://lepture.com/
+    - name: antirez
+      url: http://antirez.com/latest/0
+    - name: Gregory Szorc
+      url: https://gregoryszorc.com
+    - name: 黄鸭
+      url: https://jiekun.dev/
+    - name: Nyanshell
+      url: https://nyanshell.com/
+    - name: 桃子
+      url: https://blog.twofei.com/
+    - name: Simon Tatham
+      url: https://www.chiark.greenend.org.uk/~sgtatham/
+    - name: 风云阁
+      url: https://ironfeet.me/
+    - name: yihong0618
+      url: https://github.com/yihong0618/gitblog
+    - name: 智慧锦囊
+      url: https://blog.wisepkg.com/
+    - name: 0x01 byte
+      url: https://1byte.io/
+    - name: 卢昌海
+      url: https://www.changhai.org/
+    - name: Leon Hwang
+      url: https://asphaltt.github.io/

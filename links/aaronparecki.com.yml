@@ -1,16 +1,16 @@
 site:
-  name: "aaronparecki.com"
-  url: "https://aaronparecki.com/"
-  description: "友情链接"
-  links: "/"
+  name: Aaron Parecki
+  url: https://aaronparecki.com/
+  description: 友情链接
+  links: /
   friends:
-    - name: "oauth.net"
-      url: "https://oauth.net/"
-    - name: "video production and livestreaming"
-      url: "https://aaronpk.tv"
-    - name: "OpenID"
-      url: "https://openid.net"
-    - name: "anomalily.world"
-      url: "https://anomalily.world/"
-    - name: "Webmention"
-      url: "https://webmention.net/"
+    - name: oauth.net
+      url: https://oauth.net/
+    - name: video production and livestreaming
+      url: https://aaronpk.tv
+    - name: OpenID
+      url: https://openid.net
+    - name: anomalily.world
+      url: https://anomalily.world/
+    - name: Webmention
+      url: https://webmention.net/

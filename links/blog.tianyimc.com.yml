@@ -1,10 +1,10 @@
 site:
-  name: "blog.tianyimc.com"
-  url: "https://blog.tianyimc.com/"
-  description: "友情链接"
-  links: "/links"
+  name: yimc
+  url: https://blog.tianyimc.com/
+  description: Will it appear in the home?
+  links: /links
   friends:
-    - name: "小男娘的博客 ٩(•̤̀ᵕ•̤́๑)٩"
-      url: "https://xiao.nanniang.de/"
-    - name: "新然字节 - RanBytes 红色蜗牛的全新然字节小站"
-      url: "https://www.ranbytes.com/"
+    - name: 小男娘的博客 ٩(•̤̀ᵕ•̤́๑)٩
+      url: https://xiao.nanniang.de/
+    - name: 新然字节 - RanBytes 红色蜗牛的全新然字节小站
+      url: https://www.ranbytes.com/

@@ -1,66 +1,66 @@
 site:
-  name: "blog.darylsun.page"
-  url: "https://blog.darylsun.page/"
-  description: "友情链接"
-  links: "/links"
+  name: Daryl Sun's Journal · Welcome!
+  url: https://blog.darylsun.page/
+  description: An online diary of a lady's misadventures in two worlds
+  links: /links
   friends:
-    - name: "Privacy Guides"
-      url: "https://www.privacyguides.org/"
-    - name: "Techlore"
-      url: "https://www.techlore.tech/"
-    - name: "Electric Frontier Foundation"
-      url: "https://www.eff.org/"
-    - name: "The New Oil"
-      url: "https://thenewoil.org/"
-    - name: "Watch Your Hack"
-      url: "https://watchyourhack.com/"
-    - name: "Digital Defense"
-      url: "https://digital-defense.io/"
-    - name: "switching.software"
-      url: "https://switching.software/"
-    - name: "European Alternatives"
-      url: "https://european-alternatives.eu/"
-    - name: "Trade-Free Directory"
-      url: "https://www.directory.trade-free.org/"
-    - name: "Have I Been Pwned?"
-      url: "https://haveibeenpwned.com/"
-    - name: "2FA Directory"
-      url: "https://2fa.directory/"
-    - name: "Passkeys.directory"
-      url: "https://passkeys.directory/"
-    - name: "Fediverse.Party"
-      url: "https://fediverse.party/"
-    - name: "Get Blogging!"
-      url: "https://getblogging.org/"
-    - name: "Johnny.Decimal"
-      url: "https://johnnydecimal.com/"
-    - name: "DNS Checker"
-      url: "https://dnschecker.org/"
-    - name: "Internet.nl"
-      url: "https://internet.nl/"
-    - name: "Fluid Typography Tool"
-      url: "https://fluidtypography.com/"
-    - name: "favicon.io"
-      url: "https://favicon.io/"
-    - name: "Squoosh"
-      url: "https://squoosh.app/"
-    - name: "ASCII Generator"
-      url: "https://ascii-generator.site/"
-    - name: "Photopea"
-      url: "https://www.photopea.com/"
-    - name: "cobalt"
-      url: "https://cobalt.tools/"
-    - name: "Programming Fonts"
-      url: "https://www.programmingfonts.org/"
-    - name: "Coding Font"
-      url: "https://www.codingfont.com/"
-    - name: "wttr.in"
-      url: "https://wttr.in/"
-    - name: "Kill the Newsletter!"
-      url: "https://kill-the-newsletter.com/"
-    - name: "Regex Generator"
-      url: "https://regex-generator.olafneumann.org/"
-    - name: "Wayward Webring"
-      url: "https://waywardweb.org"
-    - name: "my guestbook"
-      url: "https://darylsun.atabook.org/"
+    - name: Privacy Guides
+      url: https://www.privacyguides.org/
+    - name: Techlore
+      url: https://www.techlore.tech/
+    - name: Electric Frontier Foundation
+      url: https://www.eff.org/
+    - name: The New Oil
+      url: https://thenewoil.org/
+    - name: Watch Your Hack
+      url: https://watchyourhack.com/
+    - name: Digital Defense
+      url: https://digital-defense.io/
+    - name: switching.software
+      url: https://switching.software/
+    - name: European Alternatives
+      url: https://european-alternatives.eu/
+    - name: Trade-Free Directory
+      url: https://www.directory.trade-free.org/
+    - name: Have I Been Pwned?
+      url: https://haveibeenpwned.com/
+    - name: 2FA Directory
+      url: https://2fa.directory/
+    - name: Passkeys.directory
+      url: https://passkeys.directory/
+    - name: Fediverse.Party
+      url: https://fediverse.party/
+    - name: Get Blogging!
+      url: https://getblogging.org/
+    - name: Johnny.Decimal
+      url: https://johnnydecimal.com/
+    - name: DNS Checker
+      url: https://dnschecker.org/
+    - name: Internet.nl
+      url: https://internet.nl/
+    - name: Fluid Typography Tool
+      url: https://fluidtypography.com/
+    - name: favicon.io
+      url: https://favicon.io/
+    - name: Squoosh
+      url: https://squoosh.app/
+    - name: ASCII Generator
+      url: https://ascii-generator.site/
+    - name: Photopea
+      url: https://www.photopea.com/
+    - name: cobalt
+      url: https://cobalt.tools/
+    - name: Programming Fonts
+      url: https://www.programmingfonts.org/
+    - name: Coding Font
+      url: https://www.codingfont.com/
+    - name: wttr.in
+      url: https://wttr.in/
+    - name: Kill the Newsletter!
+      url: https://kill-the-newsletter.com/
+    - name: Regex Generator
+      url: https://regex-generator.olafneumann.org/
+    - name: Wayward Webring
+      url: https://waywardweb.org
+    - name: my guestbook
+      url: https://darylsun.atabook.org/

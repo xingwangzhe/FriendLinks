@@ -1,12 +1,12 @@
 site:
-  name: "joshnesbitt.dev"
-  url: "https://joshnesbitt.dev/"
-  description: "友情链接"
-  links: "/"
+  name: Hello · Josh Nesbitt
+  url: https://joshnesbitt.dev/
+  description: Josh Nesbitt is a software engineer and technical leader.
+  links: /
   friends:
-    - name: "Company"
-      url: "https://genio.co"
-    - name: "Consultancy"
-      url: "https://stac.works"
-    - name: "Cooking"
-      url: "https://joshnesbitt.cooking"
+    - name: Company
+      url: https://genio.co
+    - name: Consultancy
+      url: https://stac.works
+    - name: Cooking
+      url: https://joshnesbitt.cooking

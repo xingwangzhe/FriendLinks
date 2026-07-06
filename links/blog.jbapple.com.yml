@@ -1,24 +1,24 @@
 site:
-  name: "blog.jbapple.com"
-  url: "http://blog.jbapple.com/"
-  description: "友情链接"
-  links: "/"
+  name: Everyone Else is Crazy
+  url: http://blog.jbapple.com/
+  description: A blog about typed programming
+  links: /
   friends:
-    - name: "Epigram"
-      url: "http://www.e-pig.org/"
-    - name: "ATS"
-      url: "http://www.ats-lang.org/"
-    - name: "NuPrl"
-      url: "http://www.nuprl.org/"
-    - name: "Twelf"
-      url: "http://twelf.plparty.org/"
-    - name: "Isabelle"
-      url: "http://isabelle.in.tum.de/"
-    - name: "Coq"
-      url: "http://coq.inria.fr/"
-    - name: "Aldor"
-      url: "http://www.aldor.org/"
-    - name: "Guru"
-      url: "http://www.guru-lang.org/"
-    - name: "Matita"
-      url: "http://matita.cs.unibo.it/"
+    - name: Epigram
+      url: http://www.e-pig.org/
+    - name: ATS
+      url: http://www.ats-lang.org/
+    - name: NuPrl
+      url: http://www.nuprl.org/
+    - name: Twelf
+      url: http://twelf.plparty.org/
+    - name: Isabelle
+      url: http://isabelle.in.tum.de/
+    - name: Coq
+      url: http://coq.inria.fr/
+    - name: Aldor
+      url: http://www.aldor.org/
+    - name: Guru
+      url: http://www.guru-lang.org/
+    - name: Matita
+      url: http://matita.cs.unibo.it/

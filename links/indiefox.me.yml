@@ -1,12 +1,12 @@
 site:
-  name: "indiefox.me"
-  url: "https://indiefox.me/"
-  description: "友情链接"
-  links: "/"
+  name: Indie Fox
+  url: https://indiefox.me/
+  description: Insights, updates and stories from Fox
+  links: /
   friends:
-    - name: "MkImage"
-      url: "https://mkimage.ai"
-    - name: "MkDollar"
-      url: "https://mkdollar.com"
-    - name: "HaiTang"
-      url: "https://haitang.app"
+    - name: MkImage
+      url: https://mkimage.ai
+    - name: MkDollar
+      url: https://mkdollar.com
+    - name: HaiTang
+      url: https://haitang.app

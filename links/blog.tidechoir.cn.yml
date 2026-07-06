@@ -1,10 +1,10 @@
 site:
-  name: "blog.tidechoir.cn"
-  url: "https://blog.tidechoir.cn/"
-  description: "友情链接"
-  links: "/friend"
+  name: 消失在彩霞里的Blog
+  url: https://blog.tidechoir.cn/
+  description: 消失在彩霞里的Blog
+  links: /friend
   friends:
-    - name: "竹林里有冰的博客 竹林里有冰的博客"
-      url: "https://zhul.in/"
-    - name: "派大星的石头屋 派大星的石头屋"
-      url: "https://blog.cnpatrickstar.com/"
+    - name: 竹林里有冰的博客 竹林里有冰的博客
+      url: https://zhul.in/
+    - name: 派大星的石头屋 派大星的石头屋
+      url: https://blog.cnpatrickstar.com/

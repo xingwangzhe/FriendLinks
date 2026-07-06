@@ -1,14 +1,14 @@
 site:
-  name: "seabre.com"
-  url: "https://www.seabre.com/"
-  description: "友情链接"
-  links: "/"
+  name: "| Sean Brewer"
+  url: https://www.seabre.com/
+  description: I received my GitHub-themed U2F Yubikey this week. U2F is an open, standardized protocol for allowing people to authenticate with a device. It hasn& …
+  links: /
   friends:
-    - name: "Yubico"
-      url: "https://www.yubico.com/"
-    - name: "OpenCV"
-      url: "http://opencv.org"
-    - name: "Overtone"
-      url: "http://overtone.github.io/"
-    - name: "Light Table"
-      url: "http://www.lighttable.com/"
+    - name: Yubico
+      url: https://www.yubico.com/
+    - name: OpenCV
+      url: http://opencv.org
+    - name: Overtone
+      url: http://overtone.github.io/
+    - name: Light Table
+      url: http://www.lighttable.com/

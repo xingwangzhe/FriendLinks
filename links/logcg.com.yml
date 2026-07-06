@@ -1,18 +1,18 @@
 site:
-  name: "logcg.com"
-  url: "http://www.logcg.com/"
-  description: "友情链接"
-  links: "/"
+  name: 落格博客 - Log everything.
+  url: http://www.logcg.com/
+  description: Log everything.
+  links: /
   friends:
-    - name: "由落格博客驱动的 Swift 编程语言"
-      url: "https://www.cnswift.org"
-    - name: "笨土豆的IT小站"
-      url: "https://dmesg.app/"
-    - name: "默默的点滴"
-      url: "http://www.mobibrw.com"
-    - name: "扯远了"
-      url: "https://heshizi.com"
-    - name: "香蕉的博客"
-      url: "http://gaoryrt.com"
-    - name: "数字移民"
-      url: "https://blog.shuziyimin.org/"
+    - name: 由落格博客驱动的 Swift 编程语言
+      url: https://www.cnswift.org
+    - name: 笨土豆的IT小站
+      url: https://dmesg.app/
+    - name: 默默的点滴
+      url: http://www.mobibrw.com
+    - name: 扯远了
+      url: https://heshizi.com
+    - name: 香蕉的博客
+      url: http://gaoryrt.com
+    - name: 数字移民
+      url: https://blog.shuziyimin.org/

@@ -1,10 +1,13 @@
 site:
-  name: "ryanbasden.com"
-  url: "https://ryanbasden.com/"
-  description: "友情链接"
-  links: "/"
+  name: Ryan Basden
+  url: https://ryanbasden.com/
+  description: |-
+    Ryan Basden is a security
+    professional specializing in red team operations, penetration testing,
+    and enterprise security strategy. Owner of Empiric Security.
+  links: /
   friends:
-    - name: "Empiric Security (opens in new tab)"
-      url: "https://empiricsecurity.com"
-    - name: "shoot film (opens in new tab)"
-      url: "https://youmusthaveanicecamera.darkroom.com/"
+    - name: Empiric Security (opens in new tab)
+      url: https://empiricsecurity.com
+    - name: shoot film (opens in new tab)
+      url: https://youmusthaveanicecamera.darkroom.com/

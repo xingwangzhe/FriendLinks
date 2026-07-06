@@ -1,10 +1,10 @@
 site:
-  name: "kenvie.com"
-  url: "https://kenvie.com/"
-  description: "友情链接"
-  links: "/"
+  name: Kenvie's Blog
+  url: https://kenvie.com/
+  description: Kenvie 的个人技术博客，记录 AI Agent、编程开发、DevOps 运维、前后端工程、Windows/Linux 问题排查与效率工具实践。
+  links: /
   friends:
-    - name: "ialtone的小站"
-      url: "https://ialtone.xyz"
-    - name: "Cikian"
-      url: "https://www.cikian.cn/"
+    - name: ialtone的小站
+      url: https://ialtone.xyz
+    - name: Cikian
+      url: https://www.cikian.cn/

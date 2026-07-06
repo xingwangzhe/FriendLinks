@@ -1,12 +1,12 @@
 site:
-  name: "riverfox.neocities.org"
-  url: "https://riverfox.neocities.org/"
-  description: "友情链接"
-  links: "/"
+  name: River's Den
+  url: https://riverfox.neocities.org/
+  description: 友情链接
+  links: /
   friends:
     - name: "@fp32:d42.org"
-      url: "https://matrix.to/#/@fp32:4d2.org"
-    - name: "Fediring"
-      url: "https://fediring.net/"
-    - name: "Retronaut Webring"
-      url: "https://webring.dinhe.net/"
+      url: https://matrix.to/#/@fp32:4d2.org
+    - name: Fediring
+      url: https://fediring.net/
+    - name: Retronaut Webring
+      url: https://webring.dinhe.net/

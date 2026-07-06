@@ -1,10 +1,10 @@
 site:
-  name: "kelejun.cn"
-  url: "https://www.kelejun.cn/"
-  description: "友情链接"
-  links: "/friends"
+  name: 可乐君の小站
+  url: https://www.kelejun.cn/
+  description: 可乐君の小站
+  links: /friends
   friends:
-    - name: "notion"
-      url: "https://developers.notion.com"
-    - name: "windicss"
-      url: "https://windicss.org"
+    - name: notion
+      url: https://developers.notion.com
+    - name: windicss
+      url: https://windicss.org

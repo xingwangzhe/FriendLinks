@@ -1,10 +1,10 @@
 site:
-  name: "blog.g0tmi1k.com"
-  url: "https://blog.g0tmi1k.com/"
-  description: "友情链接"
-  links: "/"
+  name: g0tmi1k
+  url: https://blog.g0tmi1k.com/
+  description: g0tmi1k's personal blog about information security with how to guides, scripts and videos.
+  links: /
   friends:
-    - name: "Damn Vulnerable Web Application (DVWA)"
-      url: "http://dvwa.co.uk/"
-    - name: "Offensive Security"
-      url: "https://www.offensive-security.com/"
+    - name: Damn Vulnerable Web Application (DVWA)
+      url: http://dvwa.co.uk/
+    - name: Offensive Security
+      url: https://www.offensive-security.com/

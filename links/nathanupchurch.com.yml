@@ -1,162 +1,162 @@
 site:
-  name: "nathanupchurch.com"
-  url: "https://nathanupchurch.com/"
-  description: "友情链接"
-  links: "/links"
+  name: Nathan Upchurch
+  url: https://nathanupchurch.com/
+  description: The personal website and blog of Nathan Upchurch, where I write about incense, free and open source software, design, vegan cooking, music, and all sorts of other topics that I find interesting.
+  links: /links
   friends:
-    - name: "Creazilla"
-      url: "https://creazilla.com/"
-    - name: "Butterick’s Practical Typography"
-      url: "https://practicaltypography.com/"
-    - name: "Converseen"
-      url: "https://converseen.fasterland.net/"
-    - name: "darktable"
-      url: "https://www.darktable.org/"
-    - name: "digiKam"
-      url: "https://www.digikam.org/"
-    - name: "DisplayCAL"
-      url: "https://displaycal.net/"
-    - name: "G’MIC"
-      url: "https://gmic.eu/"
-    - name: "Glaxnimate"
-      url: "https://glaxnimate.org/"
-    - name: "Inkscape"
-      url: "https://inkscape.org/"
-    - name: "RawTherapee"
-      url: "https://www.rawtherapee.com/"
-    - name: "Scribus"
-      url: "https://www.scribus.net/"
-    - name: "Artvee"
-      url: "https://artvee.com/"
-    - name: "CocoMaterial"
-      url: "https://cocomaterial.com/"
-    - name: "Museo"
-      url: "https://museo.app/"
-    - name: "Collletttivo"
-      url: "https://www.collletttivo.it/"
-    - name: "Fontsource"
-      url: "https://fontsource.org/"
-    - name: "Fontspace"
-      url: "https://www.fontspace.com/"
-    - name: "Use & Modify"
-      url: "https://usemodify.com/"
-    - name: "freeCodeCamp"
-      url: "https://www.freecodecamp.org/"
-    - name: "saylor.org Academy"
-      url: "https://learn.saylor.org/"
-    - name: "Sophia Learning"
-      url: "https://www.sophia.org/"
-    - name: "KillerCoda"
-      url: "https://killercoda.com/"
-    - name: "Linux Upskill Challenge"
-      url: "https://linuxupskillchallenge.org/"
-    - name: "SadServers"
-      url: "https://sadservers.com/"
-    - name: "LibreTexts Commons"
-      url: "https://commons.libretexts.org/"
-    - name: "Milne Open Textbooks"
-      url: "https://milneopentextbooks.org/"
-    - name: "OER Commons"
-      url: "https://oercommons.org/"
-    - name: "openstax"
-      url: "https://openstax.org/"
-    - name: "ScotsHoose Yaldi"
-      url: "https://www.scotshooseyaldi.com/"
-    - name: "11tyCMS"
-      url: "https://11tycms.com/"
-    - name: "Pagefind"
-      url: "https://pagefind.app/"
-    - name: "Uncharted"
-      url: "https://uncharted.seanlunsford.com/"
-    - name: "Free Software Foundation"
-      url: "https://fsf.org"
-    - name: "Davey Dynamite"
-      url: "https://daveydynamite.neocities.org/"
-    - name: "Mercury Retro"
-      url: "https://calam.us/"
-    - name: "blogroll.org"
-      url: "https://blogroll.org/"
-    - name: "blogs.hn"
-      url: "https://blogs.hn/"
-    - name: "blogscroll.com"
-      url: "https://blogscroll.com/"
-    - name: "blogsearch.io"
-      url: "https://blogsearch.io/"
-    - name: "indieblog.page"
-      url: "https://indieblog.page/"
-    - name: "Mire"
-      url: "https://mire.meadow.cafe/"
-    - name: "Mwmbl"
-      url: "https://mwmbl.org/"
-    - name: "Mydora"
-      url: "https://mydora.restorativland.org/"
-    - name: "Raven"
-      url: "https://ravenreader.app/"
-    - name: "searchmysite.net"
-      url: "https://searchmysite.net/"
-    - name: "Wiby"
-      url: "https://wiby.me/"
-    - name: "Blot"
-      url: "https://blot.im/"
-    - name: "Button / badge generator"
-      url: "https://88x31.datakra.sh/"
-    - name: "GifCities"
-      url: "https://gifcities.org/"
-    - name: "goatcounter.com"
-      url: "https://www.goatcounter.com/"
-    - name: "Guestbooks"
-      url: "https://guestbooks.meadow.cafe/"
-    - name: "Guestbooks (2)"
-      url: "https://guestbooks.kamiscorner.xyz/"
-    - name: "Kitty"
-      url: "https://kitty.meadow.cafe/"
-    - name: "Mochi"
-      url: "https://mochi.meadow.cafe/"
-    - name: "Nekoweb"
-      url: "https://nekoweb.org/"
-    - name: "neocities.org"
-      url: "https://neocities.org/"
-    - name: "Pride button / badge generator"
-      url: "https://badge.les.bi/"
-    - name: "tamaNOTchi"
-      url: "https://tamanotchi.world/"
-    - name: "tilde.fun"
-      url: "https://tilde.fun/"
-    - name: "tildepages"
-      url: "https://tildepages.org/"
-    - name: "Tile-able website backgrounds"
-      url: "https://tiled-bg.blogspot.com/"
-    - name: "Userbar generator"
-      url: "https://350x19.datakra.sh/"
-    - name: "Standard Ebooks"
-      url: "https://standardebooks.org/"
-    - name: "TypeLit.io"
-      url: "https://www.typelit.io/"
-    - name: "Wee Windaes—A continuum o the Scots Leid"
-      url: "https://wee-windaes.nls.uk/"
-    - name: "Musopen"
-      url: "https://musopen.org/"
-    - name: "Autistici"
-      url: "https://www.autistici.org/"
-    - name: "Framasoft"
-      url: "https://framasoft.org"
-    - name: "Disroot"
-      url: "https://disroot.org/"
-    - name: "LibreDNS"
-      url: "https://libredns.gr/"
-    - name: "LibreOps"
-      url: "https://libreops.cc/"
-    - name: "opendesktop.org"
-      url: "https://www.opendesktop.org/"
-    - name: "weho.st"
-      url: "https://weho.st/"
-    - name: "intertapes.net"
-      url: "https://intertapes.net/"
-    - name: "FreeSound"
-      url: "https://freesound.org/"
-    - name: "LooperMan"
-      url: "https://www.looperman.com/"
-    - name: "Fediring"
-      url: "https://fediring.net/"
-    - name: "Geekring"
-      url: "https://geekring.net/"
+    - name: Creazilla
+      url: https://creazilla.com/
+    - name: Butterick’s Practical Typography
+      url: https://practicaltypography.com/
+    - name: Converseen
+      url: https://converseen.fasterland.net/
+    - name: darktable
+      url: https://www.darktable.org/
+    - name: digiKam
+      url: https://www.digikam.org/
+    - name: DisplayCAL
+      url: https://displaycal.net/
+    - name: G’MIC
+      url: https://gmic.eu/
+    - name: Glaxnimate
+      url: https://glaxnimate.org/
+    - name: Inkscape
+      url: https://inkscape.org/
+    - name: RawTherapee
+      url: https://www.rawtherapee.com/
+    - name: Scribus
+      url: https://www.scribus.net/
+    - name: Artvee
+      url: https://artvee.com/
+    - name: CocoMaterial
+      url: https://cocomaterial.com/
+    - name: Museo
+      url: https://museo.app/
+    - name: Collletttivo
+      url: https://www.collletttivo.it/
+    - name: Fontsource
+      url: https://fontsource.org/
+    - name: Fontspace
+      url: https://www.fontspace.com/
+    - name: Use & Modify
+      url: https://usemodify.com/
+    - name: freeCodeCamp
+      url: https://www.freecodecamp.org/
+    - name: saylor.org Academy
+      url: https://learn.saylor.org/
+    - name: Sophia Learning
+      url: https://www.sophia.org/
+    - name: KillerCoda
+      url: https://killercoda.com/
+    - name: Linux Upskill Challenge
+      url: https://linuxupskillchallenge.org/
+    - name: SadServers
+      url: https://sadservers.com/
+    - name: LibreTexts Commons
+      url: https://commons.libretexts.org/
+    - name: Milne Open Textbooks
+      url: https://milneopentextbooks.org/
+    - name: OER Commons
+      url: https://oercommons.org/
+    - name: openstax
+      url: https://openstax.org/
+    - name: ScotsHoose Yaldi
+      url: https://www.scotshooseyaldi.com/
+    - name: 11tyCMS
+      url: https://11tycms.com/
+    - name: Pagefind
+      url: https://pagefind.app/
+    - name: Uncharted
+      url: https://uncharted.seanlunsford.com/
+    - name: Free Software Foundation
+      url: https://fsf.org
+    - name: Davey Dynamite
+      url: https://daveydynamite.neocities.org/
+    - name: Mercury Retro
+      url: https://calam.us/
+    - name: blogroll.org
+      url: https://blogroll.org/
+    - name: blogs.hn
+      url: https://blogs.hn/
+    - name: blogscroll.com
+      url: https://blogscroll.com/
+    - name: blogsearch.io
+      url: https://blogsearch.io/
+    - name: indieblog.page
+      url: https://indieblog.page/
+    - name: Mire
+      url: https://mire.meadow.cafe/
+    - name: Mwmbl
+      url: https://mwmbl.org/
+    - name: Mydora
+      url: https://mydora.restorativland.org/
+    - name: Raven
+      url: https://ravenreader.app/
+    - name: searchmysite.net
+      url: https://searchmysite.net/
+    - name: Wiby
+      url: https://wiby.me/
+    - name: Blot
+      url: https://blot.im/
+    - name: Button / badge generator
+      url: https://88x31.datakra.sh/
+    - name: GifCities
+      url: https://gifcities.org/
+    - name: goatcounter.com
+      url: https://www.goatcounter.com/
+    - name: Guestbooks
+      url: https://guestbooks.meadow.cafe/
+    - name: Guestbooks (2)
+      url: https://guestbooks.kamiscorner.xyz/
+    - name: Kitty
+      url: https://kitty.meadow.cafe/
+    - name: Mochi
+      url: https://mochi.meadow.cafe/
+    - name: Nekoweb
+      url: https://nekoweb.org/
+    - name: neocities.org
+      url: https://neocities.org/
+    - name: Pride button / badge generator
+      url: https://badge.les.bi/
+    - name: tamaNOTchi
+      url: https://tamanotchi.world/
+    - name: tilde.fun
+      url: https://tilde.fun/
+    - name: tildepages
+      url: https://tildepages.org/
+    - name: Tile-able website backgrounds
+      url: https://tiled-bg.blogspot.com/
+    - name: Userbar generator
+      url: https://350x19.datakra.sh/
+    - name: Standard Ebooks
+      url: https://standardebooks.org/
+    - name: TypeLit.io
+      url: https://www.typelit.io/
+    - name: Wee Windaes—A continuum o the Scots Leid
+      url: https://wee-windaes.nls.uk/
+    - name: Musopen
+      url: https://musopen.org/
+    - name: Autistici
+      url: https://www.autistici.org/
+    - name: Framasoft
+      url: https://framasoft.org
+    - name: Disroot
+      url: https://disroot.org/
+    - name: LibreDNS
+      url: https://libredns.gr/
+    - name: LibreOps
+      url: https://libreops.cc/
+    - name: opendesktop.org
+      url: https://www.opendesktop.org/
+    - name: weho.st
+      url: https://weho.st/
+    - name: intertapes.net
+      url: https://intertapes.net/
+    - name: FreeSound
+      url: https://freesound.org/
+    - name: LooperMan
+      url: https://www.looperman.com/
+    - name: Fediring
+      url: https://fediring.net/
+    - name: Geekring
+      url: https://geekring.net/

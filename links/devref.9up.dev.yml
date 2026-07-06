@@ -1,64 +1,66 @@
 site:
-  name: "devref.9up.dev"
-  url: "https://devref.9up.dev/"
-  description: "友情链接"
-  links: "/"
+  name: |-
+    Quick Reference
+     &   Quick Reference
+  url: https://devref.9up.dev/
+  description: 友情链接
+  links: /
   friends:
-    - name: "ScreenSage Pro，在 macOS 上几分钟内录制精美的屏幕录像"
-      url: "https://screensage.pro/"
-    - name: "nyanon.online"
-      url: "https://quick-re.nyanon.online"
-    - name: "itzcy.com"
-      url: "https://reference.itzcy.com/"
-    - name: "666666.dev"
-      url: "https://cheat.666666.dev"
-    - name: "guoxudong.io"
-      url: "https://reference.guoxudong.io/"
-    - name: "zone.id"
-      url: "https://cyref.zone.id/"
-    - name: "itcent.cn"
-      url: "https://code.itcent.cn/"
-    - name: "jgeek.cn"
-      url: "http://reference.jgeek.cn/"
-    - name: "gaojs.com.cn"
-      url: "https://study.gaojs.com.cn"
-    - name: "ruiange.work"
-      url: "https://code.ruiange.work/"
-    - name: "sucan2233.cn"
-      url: "http://reference.sucan2233.cn"
-    - name: "liamng.de"
-      url: "https://refer.liamng.de"
-    - name: "hhxyrk.icu"
-      url: "http://hhxy.hhxyrk.icu/"
-    - name: "childish.vip"
-      url: "https://reference.childish.vip"
-    - name: "afetera.top"
-      url: "https://note.afetera.top"
-    - name: "trtuaazz.com"
-      url: "https://reference.trtuaazz.com"
-    - name: "xxcxx.lat"
-      url: "https://xxcxx.lat/"
-    - name: "fishlee.net"
-      url: "https://cr.fishlee.net/"
-    - name: "yunshangmanyou.com"
-      url: "https://quick.yunshangmanyou.com"
-    - name: "opzz.top"
-      url: "https://reference.opzz.top"
-    - name: "songbaixin.xin"
-      url: "https://home.songbaixin.xin:26009/"
-    - name: "notes-bin.top"
-      url: "https://notes-bin.top:10443"
-    - name: "dongdong741236.cn"
-      url: "https://code.dongdong741236.cn/"
-    - name: "7yueee.cn"
-      url: "https://memo.7yueee.cn/"
-    - name: "maisblog.cn"
-      url: "https://reference.maisblog.cn/"
-    - name: "cizai.io"
-      url: "https://reference.cizai.io"
-    - name: "hrzweb.xyz"
-      url: "https://r.hrzweb.xyz"
-    - name: "jeffjade.com"
-      url: "https://codehelp.jeffjade.com"
-    - name: "chenze.cloud"
-      url: "https://quick.chenze.cloud"
+    - name: ScreenSage Pro，在 macOS 上几分钟内录制精美的屏幕录像
+      url: https://screensage.pro/
+    - name: nyanon.online
+      url: https://quick-re.nyanon.online
+    - name: itzcy.com
+      url: https://reference.itzcy.com/
+    - name: 666666.dev
+      url: https://cheat.666666.dev
+    - name: guoxudong.io
+      url: https://reference.guoxudong.io/
+    - name: zone.id
+      url: https://cyref.zone.id/
+    - name: itcent.cn
+      url: https://code.itcent.cn/
+    - name: jgeek.cn
+      url: http://reference.jgeek.cn/
+    - name: gaojs.com.cn
+      url: https://study.gaojs.com.cn
+    - name: ruiange.work
+      url: https://code.ruiange.work/
+    - name: sucan2233.cn
+      url: http://reference.sucan2233.cn
+    - name: liamng.de
+      url: https://refer.liamng.de
+    - name: hhxyrk.icu
+      url: http://hhxy.hhxyrk.icu/
+    - name: childish.vip
+      url: https://reference.childish.vip
+    - name: afetera.top
+      url: https://note.afetera.top
+    - name: trtuaazz.com
+      url: https://reference.trtuaazz.com
+    - name: xxcxx.lat
+      url: https://xxcxx.lat/
+    - name: fishlee.net
+      url: https://cr.fishlee.net/
+    - name: yunshangmanyou.com
+      url: https://quick.yunshangmanyou.com
+    - name: opzz.top
+      url: https://reference.opzz.top
+    - name: songbaixin.xin
+      url: https://home.songbaixin.xin:26009/
+    - name: notes-bin.top
+      url: https://notes-bin.top:10443
+    - name: dongdong741236.cn
+      url: https://code.dongdong741236.cn/
+    - name: 7yueee.cn
+      url: https://memo.7yueee.cn/
+    - name: maisblog.cn
+      url: https://reference.maisblog.cn/
+    - name: cizai.io
+      url: https://reference.cizai.io
+    - name: hrzweb.xyz
+      url: https://r.hrzweb.xyz
+    - name: jeffjade.com
+      url: https://codehelp.jeffjade.com
+    - name: chenze.cloud
+      url: https://quick.chenze.cloud

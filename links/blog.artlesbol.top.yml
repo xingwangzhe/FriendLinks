@@ -1,16 +1,16 @@
 site:
-  name: "blog.artlesbol.top"
-  url: "https://blog.artlesbol.top/"
-  description: "友情链接"
-  links: "/friend"
+  name: Home - Artlesbol.top
+  url: https://blog.artlesbol.top/
+  description: Artlesbol的个人博客，主要发布技术文章和人生思考，有时候也会分享一些奇怪的东西。
+  links: /friend
   friends:
-    - name: "nelsonLearn more"
-      url: "https://nelsonboss.ink/"
-    - name: "DM-X~X~X实名上网Learn more"
-      url: "https://dmx20070206.github.io/"
-    - name: "sazikkkkLearn more"
-      url: "https://sazikk.top/"
-    - name: "SoloMapleLearn more"
-      url: "https://solomaple.github.io/"
-    - name: "SoulterLearn more"
-      url: "https://soulter.top/"
+    - name: nelsonLearn more
+      url: https://nelsonboss.ink/
+    - name: DM-X~X~X实名上网Learn more
+      url: https://dmx20070206.github.io/
+    - name: sazikkkkLearn more
+      url: https://sazikk.top/
+    - name: SoloMapleLearn more
+      url: https://solomaple.github.io/
+    - name: SoulterLearn more
+      url: https://soulter.top/

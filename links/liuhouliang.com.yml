@@ -1,12 +1,12 @@
 site:
-  name: "liuhouliang.com"
-  url: "https://liuhouliang.com/"
-  description: "友情链接"
-  links: "/links"
+  name: Liu Houliang
+  url: https://liuhouliang.com/
+  description: 日常落灰的个人博客，擅长面向搜索引擎编程。分享 Golang 开发、AI 和 NAS 折腾经验
+  links: /links
   friends:
-    - name: "Nan0inPsyLog We love CS,thus we can pwn the world"
-      url: "https://nan0in27.cn"
-    - name: "Nanhu Shijie 一个生活爱好者!"
-      url: "https://jolla.pp.ua"
-    - name: "Liu Zijian’s Blog Keep on going never give up"
-      url: "https://blog.liuzijian.com"
+    - name: Nan0inPsyLog We love CS,thus we can pwn the world
+      url: https://nan0in27.cn
+    - name: Nanhu Shijie 一个生活爱好者!
+      url: https://jolla.pp.ua
+    - name: Liu Zijian’s Blog Keep on going never give up
+      url: https://blog.liuzijian.com

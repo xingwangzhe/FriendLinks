@@ -1,20 +1,20 @@
 site:
-  name: "blog.eysnter.cn"
-  url: "https://blog.eysnter.cn/"
-  description: "友情链接"
-  links: "/friends"
+  name: Eysnter - 的小站
+  url: https://blog.eysnter.cn/
+  description: Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
+  links: /friends
   friends:
-    - name: "夏夜流萤 飞萤之火自无梦的长夜亮起，绽放在终竟的明天。 Blog"
-      url: "https://blog.cuteleaf.cn"
-    - name: "胖小白 爱健身,哎科技,爱生活! Blog"
-      url: "https://www.fatxiaobai.top/"
-    - name: "Hyde Blog 人心中的成见是一座大山 Blog"
-      url: "https://seasir.top/"
-    - name: "十三 站点描述：欲买桂花同载酒，终不似，少年游。 Docs"
-      url: "https://blog.nw177.cn"
-    - name: "雨雪冰屋 一隅雨雪一炉窝，可能会融化持久堆？ Blog"
-      url: "https://iamyukino.cn/"
-    - name: "Saimen Blog 读史可以明智,知古方能鉴今。 Blog"
-      url: "https://blog.z2m.store/"
+    - name: 夏夜流萤 飞萤之火自无梦的长夜亮起，绽放在终竟的明天。 Blog
+      url: https://blog.cuteleaf.cn
+    - name: 胖小白 爱健身,哎科技,爱生活! Blog
+      url: https://www.fatxiaobai.top/
+    - name: Hyde Blog 人心中的成见是一座大山 Blog
+      url: https://seasir.top/
+    - name: 十三 站点描述：欲买桂花同载酒，终不似，少年游。 Docs
+      url: https://blog.nw177.cn
+    - name: 雨雪冰屋 一隅雨雪一炉窝，可能会融化持久堆？ Blog
+      url: https://iamyukino.cn/
+    - name: Saimen Blog 读史可以明智,知古方能鉴今。 Blog
+      url: https://blog.z2m.store/
     - name: "| Umami"
-      url: "https://umami.is/"
+      url: https://umami.is/

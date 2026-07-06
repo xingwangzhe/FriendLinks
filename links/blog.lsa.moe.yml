@@ -1,24 +1,24 @@
 site:
-  name: "blog.lsa.moe"
-  url: "http://blog.lsa.moe/"
-  description: "友情链接"
-  links: "/friends"
+  name: Toka's Blog - Toka's Blog
+  url: http://blog.lsa.moe/
+  description: Toka's Blog,
+  links: /friends
   friends:
-    - name: "blog.xiaowanggua.top"
-      url: "https://blog.xiaowanggua.top/"
-    - name: "aidenpers.xyz"
-      url: "https://aidenpers.xyz/"
-    - name: "blog.lingxh.com"
-      url: "https://blog.lingxh.com/"
-    - name: "kamiya.dev"
-      url: "https://kamiya.dev/"
-    - name: "blog.irec.moe"
-      url: "https://blog.irec.moe/"
-    - name: "krau.top"
-      url: "https://krau.top/"
-    - name: "shiro.xiaot.moe"
-      url: "https://shiro.xiaot.moe/"
-    - name: "www.zyglq.cn"
-      url: "https://www.zyglq.cn/"
-    - name: "blog.moguq.top"
-      url: "https://blog.moguq.top/"
+    - name: blog.xiaowanggua.top
+      url: https://blog.xiaowanggua.top/
+    - name: aidenpers.xyz
+      url: https://aidenpers.xyz/
+    - name: blog.lingxh.com
+      url: https://blog.lingxh.com/
+    - name: kamiya.dev
+      url: https://kamiya.dev/
+    - name: blog.irec.moe
+      url: https://blog.irec.moe/
+    - name: krau.top
+      url: https://krau.top/
+    - name: shiro.xiaot.moe
+      url: https://shiro.xiaot.moe/
+    - name: www.zyglq.cn
+      url: https://www.zyglq.cn/
+    - name: blog.moguq.top
+      url: https://blog.moguq.top/

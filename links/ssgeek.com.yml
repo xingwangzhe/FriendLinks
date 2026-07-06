@@ -1,10 +1,10 @@
 site:
-  name: "ssgeek.com"
-  url: "https://www.ssgeek.com/"
-  description: "友情链接"
-  links: "/friends"
+  name: 山山仙人博客
+  url: https://www.ssgeek.com/
+  description: Blog
+  links: /friends
   friends:
-    - name: "运维咖啡吧"
-      url: "https://blog.ops-coffee.cn/"
-    - name: "SRE运维进阶之路"
-      url: "https://clay-wangzhi.com/"
+    - name: 运维咖啡吧
+      url: https://blog.ops-coffee.cn/
+    - name: SRE运维进阶之路
+      url: https://clay-wangzhi.com/

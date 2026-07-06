@@ -1,8 +1,8 @@
 site:
-  name: "blog.adamcameron.me"
-  url: "https://blog.adamcameron.me/"
-  description: "友情链接"
-  links: "/"
+  name: Adam Cameron's Dev Blog
+  url: https://blog.adamcameron.me/
+  description: Adam Cameron discusses his investigations into issues/challenges he encounters as a TDD-driven  developer & team lead.
+  links: /
   friends:
-    - name: "Lovable"
-      url: "https://lovable.dev/"
+    - name: Lovable
+      url: https://lovable.dev/

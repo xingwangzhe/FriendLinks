@@ -1,12 +1,12 @@
 site:
-  name: "morikka.me"
-  url: "https://morikka.me/"
-  description: "友情链接"
-  links: "/friend"
+  name: Morikka's Blog
+  url: https://morikka.me/
+  description: 我们所度过的每个平凡的日常，也许是连续发生的奇迹。
+  links: /friend
   friends:
-    - name: "Bluefissure’s Blog"
-      url: "https://blog.bluefissure.com/"
-    - name: "度假村"
-      url: "https://www.yocson.com/"
-    - name: "小球飞鱼"
-      url: "https://mantyke.icu/"
+    - name: Bluefissure’s Blog
+      url: https://blog.bluefissure.com/
+    - name: 度假村
+      url: https://www.yocson.com/
+    - name: 小球飞鱼
+      url: https://mantyke.icu/

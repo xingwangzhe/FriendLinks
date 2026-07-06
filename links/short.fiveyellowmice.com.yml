@@ -1,12 +1,14 @@
 site:
-  name: "short.fiveyellowmice.com"
-  url: "https://short.fiveyellowmice.com/"
-  description: "友情链接"
-  links: "/"
+  name: 首页
+  url: https://short.fiveyellowmice.com/
+  description: |-
+    FiveYellowMice 的短文章
+    对于博文来说太短，对于推文来说太长的内容。
+  links: /
   friends:
-    - name: "个人简介"
-      url: "https://fym.moe/"
-    - name: "Grav"
-      url: "https://getgrav.org"
-    - name: "Trilby Media"
-      url: "https://trilby.media"
+    - name: 个人简介
+      url: https://fym.moe/
+    - name: Grav
+      url: https://getgrav.org
+    - name: Trilby Media
+      url: https://trilby.media

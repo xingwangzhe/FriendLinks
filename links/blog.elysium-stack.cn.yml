@@ -1,112 +1,112 @@
 site:
-  name: "blog.elysium-stack.cn"
-  url: "https://blog.elysium-stack.cn/"
-  description: "友情链接"
-  links: "/friends"
+  name: ElysiumStack - 不会摄影的设计师不是优秀的旅行家
+  url: https://blog.elysium-stack.cn/
+  description: ElysiumStack - 探索技术与生活的交汇点，分享全栈技术、ACGN 文化与生活感悟的个人博客。
+  links: /friends
   friends:
-    - name: "I'm WhiteBear个人自留地Blog"
-      url: "https://whitebear.im"
-    - name: "哈喽！林墨白沉墨满纸，一笑若白。Blog"
-      url: "https://blog.lmb.blue"
-    - name: "寒士杰克喜欢捣鼓，不断进步！Blog"
-      url: "https://www.hansjack.com"
-    - name: "懋和道人李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。Blog"
-      url: "https://blog.dao.js.cn"
-    - name: "索玛Blog退网仙人"
-      url: "https://suo.ma"
-    - name: "hatch_blod自留地Hello!Blog"
-      url: "https://002.hk"
-    - name: "記緒漂流于记忆之川，泛思绪之舟。Blog"
-      url: "https://ttio.cc"
-    - name: "Snowykami OSSnowykami 的个人博客Blog"
-      url: "https://sfkm.me"
-    - name: "EDream的小破站人生没有绝对精彩，雨后或许没有彩虹，但后退一步确是失败。Blog"
-      url: "https://blog.edmc.cn"
-    - name: "Dangks' Blog记录・学习・分享・生活Blog"
-      url: "https://dangks.cn"
-    - name: "Qute一个分享技术和生活的博客Blog"
-      url: "https://blog.wfso.cn"
-    - name: "默小班一个初中生的小站点。Blog"
-      url: "https://www.memxb.top"
-    - name: "张洪Heo分享设计与科技生活Blog"
-      url: "https://blog.zhheo.com"
-    - name: "尘の个人博客一个高中生 UP 搭的博客 QwQBlog"
-      url: "https://blog.mcxiaochen.top"
-    - name: "喵喵喵……此心安处是吾乡Blog"
-      url: "https://nicocat.cc"
-    - name: "THW's BlogLive a good life meet slowlyBlog"
-      url: "https://blog.tianhw.top"
-    - name: "成烁BLOG致一锦程 探索不停Blog"
-      url: "https://blog.chengshuo.top"
-    - name: "Honesty花有重开日，人无再少年Blog"
-      url: "https://blog.hehouhui.cn"
-    - name: "宏尘极客专注于技术知识和NAS笔记等内容分享Blog"
-      url: "https://www.hcjike.com"
-    - name: "彬红茶日记个人生活笔记📒Blog"
-      url: "https://note.redcha.cn"
-    - name: "蘇SU在数字的海洋中，寻找属于自己的星辰。Blog"
-      url: "https://suus.me"
-    - name: "异数笔落惊风雨，诗成泣鬼神。Blog"
-      url: "https://www.yishu.pro"
-    - name: "致星极客 | To STAR创造属于你我的「奇迹」Blog"
-      url: "https://2star.top"
-    - name: "温柔鱼-vrou他还没有自我介绍呢Blog"
-      url: "https://blog.vrou.cn"
-    - name: "酥米的小站终有一日，寻梦中人Blog"
-      url: "https://www.sumi233.top"
-    - name: "XgrBlog学无止境Blog"
-      url: "https://xgrblog.cn"
-    - name: "Freedom2599的小破绽气味是记忆的超链接Blog"
-      url: "https://freedom2599.cn"
-    - name: "日勿の部落格岁月漫长，恒久热爱Blog"
-      url: "https://blog.085404.xyz"
-    - name: "Antx's Blog别怕路远，走一步就有一步的光亮。Blog"
-      url: "https://blog.antx.cc"
-    - name: "Enento焰白小站百次思考，千次落笔，刻下万次记忆Blog"
-      url: "https://www.enento.cloud"
-    - name: "gankudadiz的个人小站记录 coding 与生活。<127.0.0.1 is where the heart is>Blog"
-      url: "https://blog.gankudadiz.com"
-    - name: "枝动力の小站渺渺星海，唯我独芒！Blog"
-      url: "https://zhidongli.top"
-    - name: "Serenity热爱可抵岁月漫长Blog"
-      url: "https://www.aobp.cn"
-    - name: "企鹅的博客努力学习新的知识Blog"
-      url: "https://www.lydqe.com.cn"
-    - name: "蛋蛋之家一枚蛋蛋的自留地Blog"
-      url: "https://wuqishi.com"
-    - name: "Rinty雨屋活着就是一种伟大！Blog"
-      url: "https://rinty.xyz"
-    - name: "我剑也未尝不利对所有的烦恼说拜拜，对所有的快乐说嗨嗨～Blog"
-      url: "https://tch.cool"
-    - name: "壮壮博客运维开发 / 独立开发者 / 博主Blog"
-      url: "https://zhuangzhuang.io"
-    - name: "益友网站记生活点滴，留岁月温柔。Blog"
-      url: "https://blog.yiyou.bj.cn"
-    - name: "星河の外/* ShiDai's Personal Blog */Blog"
-      url: "https://blog.elsworld.cn:8443"
-    - name: "木因博客心在哪里收获就在哪里Blog"
-      url: "https://blog.muyin.site"
-    - name: "Xiaozheng's Blog一个热爱技术、喜欢折腾的小佬。 专注于后端开发。 记录生活，分享技术，探索未知。Blog"
-      url: "https://halo.bt.hyin.top"
-    - name: "咖啡豆子coffee的小站以真理的精神追求真理 Pursue truth in the spirit of truthBlog"
-      url: "https://blog.kfdzcoffee.cn"
-    - name: "bbb-lsy07科技激荡人文，洞见智慧本真。Blog"
-      url: "https://blog.tsoo.net"
-    - name: "羽天的驾驶舱物理発覚中。Blog"
-      url: "https://www.yutian233.top"
-    - name: "雨落秋垣我在，也可以不在。Blog"
-      url: "https://uniomo.com"
-    - name: "内密心書漂浮在互联网海面上的一盏小灯Blog"
-      url: "https://oortaka.top"
-    - name: "阿宏的随笔记录思考，持续协作Blog"
-      url: "https://iachieveall.com"
-    - name: "昊天兽王的日记本hallo！world！Blog"
-      url: "https://昊天兽王.top"
-    - name: "liveling的小破站前端开发者 / 独立开发者 / 博主Blog"
-      url: "https://www.liveling.top"
-    - name: "花开暖年热爱你来过的每一天星辰Blog"
-      url: "https://huakainuannian.cn"
-    - name: "梦涵LOVEの小窝一个一个小涵子的小 BLOG，一起来分享生活的小确幸吧～Blog"
-      url: "https://heyuhan.huohuo.ink"
-    - name: "Fry酥条の博客未来已来，尽在掌握！Blog"
-      url: "https://blog.fryfries13.cn"
+    - name: I'm WhiteBear个人自留地Blog
+      url: https://whitebear.im
+    - name: 哈喽！林墨白沉墨满纸，一笑若白。Blog
+      url: https://blog.lmb.blue
+    - name: 寒士杰克喜欢捣鼓，不断进步！Blog
+      url: https://www.hansjack.com
+    - name: 懋和道人李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。Blog
+      url: https://blog.dao.js.cn
+    - name: 索玛Blog退网仙人
+      url: https://suo.ma
+    - name: hatch_blod自留地Hello!Blog
+      url: https://002.hk
+    - name: 記緒漂流于记忆之川，泛思绪之舟。Blog
+      url: https://ttio.cc
+    - name: Snowykami OSSnowykami 的个人博客Blog
+      url: https://sfkm.me
+    - name: EDream的小破站人生没有绝对精彩，雨后或许没有彩虹，但后退一步确是失败。Blog
+      url: https://blog.edmc.cn
+    - name: Dangks' Blog记录・学习・分享・生活Blog
+      url: https://dangks.cn
+    - name: Qute一个分享技术和生活的博客Blog
+      url: https://blog.wfso.cn
+    - name: 默小班一个初中生的小站点。Blog
+      url: https://www.memxb.top
+    - name: 张洪Heo分享设计与科技生活Blog
+      url: https://blog.zhheo.com
+    - name: 尘の个人博客一个高中生 UP 搭的博客 QwQBlog
+      url: https://blog.mcxiaochen.top
+    - name: 喵喵喵……此心安处是吾乡Blog
+      url: https://nicocat.cc
+    - name: THW's BlogLive a good life meet slowlyBlog
+      url: https://blog.tianhw.top
+    - name: 成烁BLOG致一锦程 探索不停Blog
+      url: https://blog.chengshuo.top
+    - name: Honesty花有重开日，人无再少年Blog
+      url: https://blog.hehouhui.cn
+    - name: 宏尘极客专注于技术知识和NAS笔记等内容分享Blog
+      url: https://www.hcjike.com
+    - name: 彬红茶日记个人生活笔记📒Blog
+      url: https://note.redcha.cn
+    - name: 蘇SU在数字的海洋中，寻找属于自己的星辰。Blog
+      url: https://suus.me
+    - name: 异数笔落惊风雨，诗成泣鬼神。Blog
+      url: https://www.yishu.pro
+    - name: 致星极客 | To STAR创造属于你我的「奇迹」Blog
+      url: https://2star.top
+    - name: 温柔鱼-vrou他还没有自我介绍呢Blog
+      url: https://blog.vrou.cn
+    - name: 酥米的小站终有一日，寻梦中人Blog
+      url: https://www.sumi233.top
+    - name: XgrBlog学无止境Blog
+      url: https://xgrblog.cn
+    - name: Freedom2599的小破绽气味是记忆的超链接Blog
+      url: https://freedom2599.cn
+    - name: 日勿の部落格岁月漫长，恒久热爱Blog
+      url: https://blog.085404.xyz
+    - name: Antx's Blog别怕路远，走一步就有一步的光亮。Blog
+      url: https://blog.antx.cc
+    - name: Enento焰白小站百次思考，千次落笔，刻下万次记忆Blog
+      url: https://www.enento.cloud
+    - name: gankudadiz的个人小站记录 coding 与生活。<127.0.0.1 is where the heart is>Blog
+      url: https://blog.gankudadiz.com
+    - name: 枝动力の小站渺渺星海，唯我独芒！Blog
+      url: https://zhidongli.top
+    - name: Serenity热爱可抵岁月漫长Blog
+      url: https://www.aobp.cn
+    - name: 企鹅的博客努力学习新的知识Blog
+      url: https://www.lydqe.com.cn
+    - name: 蛋蛋之家一枚蛋蛋的自留地Blog
+      url: https://wuqishi.com
+    - name: Rinty雨屋活着就是一种伟大！Blog
+      url: https://rinty.xyz
+    - name: 我剑也未尝不利对所有的烦恼说拜拜，对所有的快乐说嗨嗨～Blog
+      url: https://tch.cool
+    - name: 壮壮博客运维开发 / 独立开发者 / 博主Blog
+      url: https://zhuangzhuang.io
+    - name: 益友网站记生活点滴，留岁月温柔。Blog
+      url: https://blog.yiyou.bj.cn
+    - name: 星河の外/* ShiDai's Personal Blog */Blog
+      url: https://blog.elsworld.cn:8443
+    - name: 木因博客心在哪里收获就在哪里Blog
+      url: https://blog.muyin.site
+    - name: Xiaozheng's Blog一个热爱技术、喜欢折腾的小佬。 专注于后端开发。 记录生活，分享技术，探索未知。Blog
+      url: https://halo.bt.hyin.top
+    - name: 咖啡豆子coffee的小站以真理的精神追求真理 Pursue truth in the spirit of truthBlog
+      url: https://blog.kfdzcoffee.cn
+    - name: bbb-lsy07科技激荡人文，洞见智慧本真。Blog
+      url: https://blog.tsoo.net
+    - name: 羽天的驾驶舱物理発覚中。Blog
+      url: https://www.yutian233.top
+    - name: 雨落秋垣我在，也可以不在。Blog
+      url: https://uniomo.com
+    - name: 内密心書漂浮在互联网海面上的一盏小灯Blog
+      url: https://oortaka.top
+    - name: 阿宏的随笔记录思考，持续协作Blog
+      url: https://iachieveall.com
+    - name: 昊天兽王的日记本hallo！world！Blog
+      url: https://昊天兽王.top
+    - name: liveling的小破站前端开发者 / 独立开发者 / 博主Blog
+      url: https://www.liveling.top
+    - name: 花开暖年热爱你来过的每一天星辰Blog
+      url: https://huakainuannian.cn
+    - name: 梦涵LOVEの小窝一个一个小涵子的小 BLOG，一起来分享生活的小确幸吧～Blog
+      url: https://heyuhan.huohuo.ink
+    - name: Fry酥条の博客未来已来，尽在掌握！Blog
+      url: https://blog.fryfries13.cn

@@ -1,8 +1,8 @@
 site:
-  name: "crc32.online"
-  url: "https://crc32.online/"
-  description: "友情链接"
-  links: "/"
+  name: CRC-32 Checksum Calculator - crc32.online
+  url: https://crc32.online/
+  description: Online implementation of CRC-32 (Cyclic Redundancy Check) algorithm. Easily calculate CRC32 checksum and find related resources.
+  links: /
   friends:
-    - name: "ESSE.TOOLS"
-      url: "https://esse.tools"
+    - name: ESSE.TOOLS
+      url: https://esse.tools

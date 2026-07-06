@@ -1,12 +1,12 @@
 site:
-  name: "blog.gsav.cn"
-  url: "https://blog.gsav.cn/"
-  description: "友情链接"
-  links: "/friend"
+  name: 孤山博客
+  url: https://blog.gsav.cn/
+  description: 专注Typecho博客主题开发、Linux服务器部署、前端CSS/PHP开发教程，分享轻量化简约建站方案与各类程序报错解决思路。
+  links: /friend
   friends:
-    - name: "ZERO开发 一个持续探索副业的独立开发者博客"
-      url: "https://www.zerofc.cn/"
-    - name: "Qeem ..."
-      url: "http://itstarqeem.space"
-    - name: "葱苓小筑 a small blog station"
-      url: "https://blog.ciraos.top/"
+    - name: ZERO开发 一个持续探索副业的独立开发者博客
+      url: https://www.zerofc.cn/
+    - name: Qeem ...
+      url: http://itstarqeem.space
+    - name: 葱苓小筑 a small blog station
+      url: https://blog.ciraos.top/

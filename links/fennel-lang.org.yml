@@ -1,18 +1,18 @@
 site:
-  name: "fennel-lang.org"
-  url: "https://fennel-lang.org/"
-  description: "友情链接"
-  links: "/"
+  name: the Fennel programming language
+  url: https://fennel-lang.org/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Lua"
-      url: "https://www.lua.org"
-    - name: "video"
-      url: "https://tic80.com"
-    - name: "game"
-      url: "https://love2d.org"
-    - name: "dev"
-      url: "https://www.minetest.net/"
-    - name: "window managers"
-      url: "https://awesomewm.org/"
-    - name: "bridged to Matrix."
-      url: "https://matrix.to/#/%23fennel:matrix.org"
+    - name: Lua
+      url: https://www.lua.org
+    - name: video
+      url: https://tic80.com
+    - name: game
+      url: https://love2d.org
+    - name: dev
+      url: https://www.minetest.net/
+    - name: window managers
+      url: https://awesomewm.org/
+    - name: bridged to Matrix.
+      url: https://matrix.to/#/%23fennel:matrix.org

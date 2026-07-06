@@ -1,10 +1,10 @@
 site:
-  name: "rinx.nz"
-  url: "https://rinx.nz/"
-  description: "友情链接"
-  links: "/friends"
+  name: 凛星的随笔
+  url: https://rinx.nz/
+  description: 凛星的随笔 - 摸爬滚打着前进的工科生
+  links: /friends
   friends:
-    - name: "T THW’s Blog 前途似海，来日方长"
-      url: "https://blog.tianhw.top"
-    - name: "二 二叉树树 爱你所爱"
-      url: "https://2x.nz/"
+    - name: T THW’s Blog 前途似海，来日方长
+      url: https://blog.tianhw.top
+    - name: 二 二叉树树 爱你所爱
+      url: https://2x.nz/

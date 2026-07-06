@@ -1,8 +1,8 @@
 site:
-  name: "simonb.com"
-  url: "http://simonb.com/"
-  description: "友情链接"
-  links: "/"
+  name: "simonb.com: home"
+  url: http://simonb.com/
+  description: this is the home page of simonb.com, a web site by simon blanchard
+  links: /
   friends:
-    - name: "Sphinx"
-      url: "http://sphinx-doc.org/"
+    - name: Sphinx
+      url: http://sphinx-doc.org/

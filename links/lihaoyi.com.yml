@@ -1,22 +1,22 @@
 site:
-  name: "lihaoyi.com"
-  url: "https://www.lihaoyi.com/"
-  description: "友情链接"
-  links: "/"
+  name: Haoyi's Programming Blog
+  url: https://www.lihaoyi.com/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Learn Scala"
-      url: "https://www.handsonscala.com/"
-    - name: "Erlang"
-      url: "https://www.erlang.org/"
-    - name: "Akka"
-      url: "http://akka.io/"
-    - name: "SBT build tool"
-      url: "https://www.scala-sbt.org/"
+    - name: Learn Scala
+      url: https://www.handsonscala.com/
+    - name: Erlang
+      url: https://www.erlang.org/
+    - name: Akka
+      url: http://akka.io/
+    - name: SBT build tool
+      url: https://www.scala-sbt.org/
     - name: "Ammonite: Scala Scripting"
-      url: "http://ammonite.io/"
-    - name: "Phabricator"
-      url: "https://www.phacility.com/"
-    - name: "Chipmunk2D"
-      url: "https://chipmunk-physics.net/"
-    - name: "Scala.js"
-      url: "http://www.scala-js.org/"
+      url: http://ammonite.io/
+    - name: Phabricator
+      url: https://www.phacility.com/
+    - name: Chipmunk2D
+      url: https://chipmunk-physics.net/
+    - name: Scala.js
+      url: http://www.scala-js.org/

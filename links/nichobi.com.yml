@@ -1,14 +1,14 @@
 site:
-  name: "nichobi.com"
-  url: "https://nichobi.com/"
-  description: "友情链接"
-  links: "/"
+  name: home of nichobi - Nicholas Boyd Isacsson
+  url: https://nichobi.com/
+  description: Nicholas Boyd Isacsson’s homepage, hub and project list, including programming, ASCII art and Linux stuff.
+  links: /
   friends:
-    - name: "Matrix"
-      url: "https://matrix.to/#/@nichobi:matrix.org"
-    - name: "Signal"
-      url: "https://signal.me/#u/nichobi.01"
-    - name: "Sonarr"
-      url: "https://sonarr.tv/"
-    - name: "ZIO"
-      url: "https://zio.dev/"
+    - name: Matrix
+      url: https://matrix.to/#/@nichobi:matrix.org
+    - name: Signal
+      url: https://signal.me/#u/nichobi.01
+    - name: Sonarr
+      url: https://sonarr.tv/
+    - name: ZIO
+      url: https://zio.dev/

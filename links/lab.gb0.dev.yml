@@ -1,52 +1,52 @@
 site:
-  name: "lab.gb0.dev"
-  url: "https://lab.gb0.dev/"
-  description: "友情链接"
-  links: "/friends"
+  name: /var/log/gblab
+  url: https://lab.gb0.dev/
+  description: 此处会不定时产生包含大量废话的日志文件
+  links: /friends
   friends:
-    - name: "chihuo2104の部落格"
-      url: "https://blog.chihuo2104.dev/"
-    - name: "Cynosura"
-      url: "https://cynosura.one"
-    - name: "Glucy2 的博客"
-      url: "https://glucy2.com"
-    - name: "Guanran928 的博客"
-      url: "https://blog.ny4.dev"
-    - name: "GZTime"
-      url: "https://blog.gzti.me/"
-    - name: "Hao_Tian"
-      url: "https://haotian22.top"
-    - name: "Huan's Log"
-      url: "https://rnmeow.com/"
-    - name: "Kimiblock's Blog"
-      url: "https://blog.kimiblock.top"
-    - name: "Let's fall in love"
-      url: "https://b.peteralexwain.me"
-    - name: "LynxCatTheThird"
-      url: "https://www.lynx3.me/"
-    - name: "Rain's Blog"
-      url: "https://blog.im.ci"
-    - name: "Remi's Blog"
-      url: "https://blog.remiki.ren/"
-    - name: "Restent's Notebook"
-      url: "https://blog.gxres.net"
-    - name: "Vigorous Pro"
-      url: "https://www.wevg.org"
-    - name: "weearc"
-      url: "https://blog.weearc.top"
-    - name: "WeepingDogel's Blog"
-      url: "https://weepingdogel.github.io/"
-    - name: "Yi-Jyun Pan"
-      url: "https://pan93.com"
-    - name: "Zhuym 的博客"
-      url: "https://zhuym-blog.vercel.app"
-    - name: "Zuoye's Blog"
-      url: "https://blog.zuoye.win/"
-    - name: "捞人的小站"
-      url: "https://zwh.moe/"
-    - name: "湛蓝的调色板"
-      url: "https://blog.nekoq.top"
-    - name: "玖只的尾巴"
-      url: "https://blog.yurzi.net"
-    - name: "風雪城"
-      url: "https://blog.chyk.ink"
+    - name: chihuo2104の部落格
+      url: https://blog.chihuo2104.dev/
+    - name: Cynosura
+      url: https://cynosura.one
+    - name: Glucy2 的博客
+      url: https://glucy2.com
+    - name: Guanran928 的博客
+      url: https://blog.ny4.dev
+    - name: GZTime
+      url: https://blog.gzti.me/
+    - name: Hao_Tian
+      url: https://haotian22.top
+    - name: Huan's Log
+      url: https://rnmeow.com/
+    - name: Kimiblock's Blog
+      url: https://blog.kimiblock.top
+    - name: Let's fall in love
+      url: https://b.peteralexwain.me
+    - name: LynxCatTheThird
+      url: https://www.lynx3.me/
+    - name: Rain's Blog
+      url: https://blog.im.ci
+    - name: Remi's Blog
+      url: https://blog.remiki.ren/
+    - name: Restent's Notebook
+      url: https://blog.gxres.net
+    - name: Vigorous Pro
+      url: https://www.wevg.org
+    - name: weearc
+      url: https://blog.weearc.top
+    - name: WeepingDogel's Blog
+      url: https://weepingdogel.github.io/
+    - name: Yi-Jyun Pan
+      url: https://pan93.com
+    - name: Zhuym 的博客
+      url: https://zhuym-blog.vercel.app
+    - name: Zuoye's Blog
+      url: https://blog.zuoye.win/
+    - name: 捞人的小站
+      url: https://zwh.moe/
+    - name: 湛蓝的调色板
+      url: https://blog.nekoq.top
+    - name: 玖只的尾巴
+      url: https://blog.yurzi.net
+    - name: 風雪城
+      url: https://blog.chyk.ink

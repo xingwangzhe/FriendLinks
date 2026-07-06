@@ -1,12 +1,21 @@
 site:
-  name: "blog.andrewshell.org"
-  url: "https://blog.andrewshell.org/"
-  description: "友情链接"
-  links: "/link"
+  name: Andrew Shell's Weblog
+  url: https://blog.andrewshell.org/
+  description: |-
+    Andrew Shell's Weblog
+
+
+        
+            
+            
+                Hi!, I'm Andrew Shell a Senior Web Engineer from Madison, WI.
+
+                I'm a software developer,...
+  links: /link
   friends:
-    - name: "Roam"
-      url: "https://roamresearch.com/"
-    - name: "IndieWeb Webring"
-      url: "https://🕸💍.ws"
-    - name: "Fediring"
-      url: "https://fediring.net/"
+    - name: Roam
+      url: https://roamresearch.com/
+    - name: IndieWeb Webring
+      url: https://🕸💍.ws
+    - name: Fediring
+      url: https://fediring.net/

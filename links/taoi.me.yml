@@ -1,16 +1,16 @@
 site:
-  name: "taoi.me"
-  url: "https://taoi.me/"
-  description: "友情链接"
-  links: "/friends"
+  name: 首页 - 小夏的个人空间
+  url: https://taoi.me/
+  description: 友情链接
+  links: /friends
   friends:
-    - name: "DaZiDian"
-      url: "https://dz1d.vip/"
-    - name: "I Am I"
-      url: "https://5ime.cn"
-    - name: "JerryGao's Blog"
-      url: "https://www.jerrygao.cn"
-    - name: "Bleaz's Blog"
-      url: "https://blog.bleaz.net"
-    - name: "AzKanna的小站"
-      url: "https://blog.azkanna.cn/"
+    - name: DaZiDian
+      url: https://dz1d.vip/
+    - name: I Am I
+      url: https://5ime.cn
+    - name: JerryGao's Blog
+      url: https://www.jerrygao.cn
+    - name: Bleaz's Blog
+      url: https://blog.bleaz.net
+    - name: AzKanna的小站
+      url: https://blog.azkanna.cn/

@@ -1,14 +1,14 @@
 site:
-  name: "wxwoo.top"
-  url: "https://wxwoo.top/"
-  description: "友情链接"
-  links: "/friends"
+  name: wxwoo's blog
+  url: https://wxwoo.top/
+  description: 友情链接
+  links: /friends
   friends:
-    - name: "wxwoo"
-      url: "http://wxwoo.github.io"
-    - name: "三级的蒟蒻的博客"
-      url: "https://blog.konnyaku.tk/"
-    - name: "lijiaan的博客"
-      url: "https://www.lijiaan.top/"
-    - name: "Steven_MengのBlog"
-      url: "https://stevenmhy.tk/"
+    - name: wxwoo
+      url: http://wxwoo.github.io
+    - name: 三级的蒟蒻的博客
+      url: https://blog.konnyaku.tk/
+    - name: lijiaan的博客
+      url: https://www.lijiaan.top/
+    - name: Steven_MengのBlog
+      url: https://stevenmhy.tk/

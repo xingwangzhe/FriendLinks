@@ -1,10 +1,10 @@
 site:
-  name: "deathtobullshit.com"
-  url: "https://deathtobullshit.com/"
-  description: "友情链接"
-  links: "/"
+  name: Death to Bullshit
+  url: https://deathtobullshit.com/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Brad Frost"
-      url: "http://bradfrost.com"
-    - name: "dark patterns"
-      url: "http://darkpatterns.org/"
+    - name: Brad Frost
+      url: http://bradfrost.com
+    - name: dark patterns
+      url: http://darkpatterns.org/

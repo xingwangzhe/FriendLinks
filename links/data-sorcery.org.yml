@@ -1,26 +1,26 @@
 site:
-  name: "data-sorcery.org"
-  url: "https://data-sorcery.org/"
-  description: "友情链接"
-  links: "/"
+  name: Data Sorcery with Clojure
+  url: https://data-sorcery.org/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Asymmetrical View"
-      url: "http://asymmetrical-view.com/"
-    - name: "Clojure on blip.tv"
-      url: "http://clojure.blip.tv/"
-    - name: "Disclojure"
-      url: "http://disclojure.org/"
-    - name: "Michael Fogus' blog"
-      url: "http://blog.fogus.me/"
-    - name: "Open Source Enabled"
-      url: "http://ossenabled.com/"
-    - name: "S-expressions"
-      url: "http://s-expressions.com/"
-    - name: "Journal of Statistical Software"
-      url: "http://www.jstatsoft.org/"
-    - name: "lindonslog"
-      url: "http://www.lindonslog.com"
-    - name: "alexott"
-      url: "http://alexott.blogspot.com"
-    - name: "Manage subscriptions"
-      url: "https://subscribe.wordpress.com/"
+    - name: Asymmetrical View
+      url: http://asymmetrical-view.com/
+    - name: Clojure on blip.tv
+      url: http://clojure.blip.tv/
+    - name: Disclojure
+      url: http://disclojure.org/
+    - name: Michael Fogus' blog
+      url: http://blog.fogus.me/
+    - name: Open Source Enabled
+      url: http://ossenabled.com/
+    - name: S-expressions
+      url: http://s-expressions.com/
+    - name: Journal of Statistical Software
+      url: http://www.jstatsoft.org/
+    - name: lindonslog
+      url: http://www.lindonslog.com
+    - name: alexott
+      url: http://alexott.blogspot.com
+    - name: Manage subscriptions
+      url: https://subscribe.wordpress.com/

@@ -1,34 +1,34 @@
 site:
-  name: "hyhforever.top"
-  url: "https://www.hyhforever.top/"
-  description: "友情链接"
-  links: "/links"
+  name: HYH's Blog
+  url: https://www.hyhforever.top/
+  description: 这是一个专注于网络安全、CTF 挑战和技术分享的个人博客，涵盖 Dockerlabs、HackMyVM、HTB 等平台的实战经验。网站内容丰富，适合安全爱好者和技术从业者深入学习与交流。
+  links: /links
   friends:
-    - name: "bamuwe"
-      url: "https://bamuwe.xyz/"
-    - name: "Aristore"
-      url: "https://www.aristore.top/"
-    - name: "qingheling"
-      url: "https://qingheling.github.io/"
-    - name: "yliken"
-      url: "https://yliken.github.io/"
-    - name: "skyarrow416"
-      url: "https://skyarrow416.github.io/"
-    - name: "Sunset Action"
-      url: "https://www.sunsetaction.top/"
-    - name: "C1trus"
-      url: "https://c1trus.top/"
-    - name: "s1rius"
-      url: "https://s1rius.space"
-    - name: "1900的小宇宙"
-      url: "https://blog.mlws1900.cn"
-    - name: "无星的小窝"
-      url: "https://blog.xingxiaowu.cn/"
-    - name: "Drama"
-      url: "https://www.ddddrama.top/"
-    - name: "小鹏的仓库"
-      url: "https://www.thehsp.cn"
-    - name: "GTFOBins"
-      url: "https://gtfobins.github.io/"
-    - name: "GTFOArgs"
-      url: "https://gtfoargs.github.io/#"
+    - name: bamuwe
+      url: https://bamuwe.xyz/
+    - name: Aristore
+      url: https://www.aristore.top/
+    - name: qingheling
+      url: https://qingheling.github.io/
+    - name: yliken
+      url: https://yliken.github.io/
+    - name: skyarrow416
+      url: https://skyarrow416.github.io/
+    - name: Sunset Action
+      url: https://www.sunsetaction.top/
+    - name: C1trus
+      url: https://c1trus.top/
+    - name: s1rius
+      url: https://s1rius.space
+    - name: 1900的小宇宙
+      url: https://blog.mlws1900.cn
+    - name: 无星的小窝
+      url: https://blog.xingxiaowu.cn/
+    - name: Drama
+      url: https://www.ddddrama.top/
+    - name: 小鹏的仓库
+      url: https://www.thehsp.cn
+    - name: GTFOBins
+      url: https://gtfobins.github.io/
+    - name: GTFOArgs
+      url: https://gtfoargs.github.io/#

@@ -1,30 +1,30 @@
 site:
-  name: "kuizuo.me"
-  url: "https://kuizuo.me/"
-  description: "友情链接"
-  links: "/friends"
+  name: 愧怍
+  url: https://kuizuo.me/
+  description: 是一个由愧怍创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。
+  links: /friends
   friends:
-    - name: "SkyWT"
-      url: "https://skywt.cn"
-    - name: "Fernando Prieto"
-      url: "https://fernandogprieto.com"
-    - name: "CWorld Blog"
-      url: "https://cworld0.com"
-    - name: "Simon He"
-      url: "https://simonme.netlify.app"
-    - name: "Shake"
-      url: "https://www.shaking.site"
-    - name: "Mas0n"
-      url: "https://mas0n.org/"
-    - name: "Innei"
-      url: "https://innei.in"
-    - name: "Meoo"
-      url: "https://cxorz.com"
-    - name: "云小逸"
-      url: "https://www.gerenbiji.com"
-    - name: "Jetzihan"
-      url: "https://www.jet-lab.site/"
-    - name: "Pincman"
-      url: "https://pincman.com"
-    - name: "LineXic书屋"
-      url: "https://linexic.top"
+    - name: SkyWT
+      url: https://skywt.cn
+    - name: Fernando Prieto
+      url: https://fernandogprieto.com
+    - name: CWorld Blog
+      url: https://cworld0.com
+    - name: Simon He
+      url: https://simonme.netlify.app
+    - name: Shake
+      url: https://www.shaking.site
+    - name: Mas0n
+      url: https://mas0n.org/
+    - name: Innei
+      url: https://innei.in
+    - name: Meoo
+      url: https://cxorz.com
+    - name: 云小逸
+      url: https://www.gerenbiji.com
+    - name: Jetzihan
+      url: https://www.jet-lab.site/
+    - name: Pincman
+      url: https://pincman.com
+    - name: LineXic书屋
+      url: https://linexic.top

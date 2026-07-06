@@ -1,14 +1,14 @@
 site:
-  name: "xiaoweio.com"
-  url: "https://www.xiaoweio.com/"
-  description: "友情链接"
-  links: "/links"
+  name: 小威博客
+  url: https://www.xiaoweio.com/
+  description: 友情链接
+  links: /links
   friends:
-    - name: "零贰博客"
-      url: "https://www.02id.com/"
-    - name: "憧憬点滴记忆"
-      url: "https://licoy.cn/"
-    - name: "8b2博客"
-      url: "https://www.8b2.com/"
-    - name: "包子博客"
-      url: "https://blog.52nyg.com/"
+    - name: 零贰博客
+      url: https://www.02id.com/
+    - name: 憧憬点滴记忆
+      url: https://licoy.cn/
+    - name: 8b2博客
+      url: https://www.8b2.com/
+    - name: 包子博客
+      url: https://blog.52nyg.com/

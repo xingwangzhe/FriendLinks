@@ -1,54 +1,54 @@
 site:
-  name: "blog.rxliuli.com"
-  url: "https://blog.rxliuli.com/"
-  description: "友情链接"
-  links: "/links"
+  name: rxliuli blog
+  url: https://blog.rxliuli.com/
+  description: 友情链接
+  links: /links
   friends:
-    - name: "Edge-coordinates 行走于世界边缘，荒原的拾荒人"
-      url: "https://blog.rezedge.com"
-    - name: "DeepChirp 深鸣的博客，主要记录技术与生活相关的内容"
-      url: "https://blog.deepchirp.com"
-    - name: "Jayden 为天地立心,为生民立命, 为往圣继绝学,为万世开太平。"
-      url: "https://xxu.do"
-    - name: "chenxi 行到水穷处，坐看云起时"
-      url: "https://chenxi-space.com"
-    - name: "雪月秋水 人在东京的肉翻大佬"
-      url: "https://blog.icehoney.me/"
-    - name: "CrownDaisy Less is more"
-      url: "https://crowndaisy.com/"
-    - name: "静かな森 致虚极，守静笃。"
-      url: "https://innei.ren/"
-    - name: "FiveYellowMice 一只可爱的黄鼠"
-      url: "https://short.fiveyellowmice.com/"
-    - name: "紺野さゆり 生而为人，我很抱歉。来世愿做一只橘喵 :)"
-      url: "https://blog.dreamfever.me/"
-    - name: "依云 百合仙子"
-      url: "https://blog.lilydjwg.me/"
-    - name: "NekoDeng 十万伏特皮卡丘，梦想是世界和平，想要发光发热"
-      url: "https://nekodeng.gitee.io/"
-    - name: "赫萝 「虽然咱长久以来被尊为神，且被束缚在这块土地上，但咱根本不是什么伟大的神。咱就是咱。咱是赫萝。」"
-      url: "https://blog.yoitsu.moe/"
-    - name: "新一 Hi! 上天不？"
-      url: "https://a-wing.top/"
-    - name: "iyzyi 热爱的话就坚持吧"
-      url: "http://blog.iyzyi.com/"
-    - name: "ajin Always be enthusiastic"
-      url: "https://ajin.cloud"
-    - name: "iseki 这里是 iseki 的笔记本呢"
-      url: "https://blog.iseki.space/"
-    - name: "haor 太阳请不要晒黑我的皮肤，请晒黑我爸爸妈妈的头发。"
-      url: "https://haor233.com/"
-    - name: "RaXianch 一个咸鱼码农的垃圾桶，pythoneer一枚。"
-      url: "https://blog.raxianch.moe/"
-    - name: "Szhshp's Szhshp's 的第三边境研究所"
-      url: "https://szhshp.org/"
-    - name: "StarryVoid 你好～，这里是 水果培育基地 (雾)~。其实是 StarryVoid 的私人博客网站"
-      url: "https://blog.starryvoid.com/"
-    - name: "Desvl's 主要是与数学有关的内容。可能内容不是很轻松有趣，但是我希望严格的数理语言能引人思考，从思考中获得兴趣。"
-      url: "http://desvl.xyz/"
-    - name: "Sukka 童话只美在真实却从不续写"
-      url: "https://blog.skk.moe/"
-    - name: "lzhpo 会打篮球的程序猿"
-      url: "http://www.lzhpo.com/"
-    - name: "狐狸菌 狐狸菌の秘密基地"
-      url: "http://www.smartfox.cc"
+    - name: Edge-coordinates 行走于世界边缘，荒原的拾荒人
+      url: https://blog.rezedge.com
+    - name: DeepChirp 深鸣的博客，主要记录技术与生活相关的内容
+      url: https://blog.deepchirp.com
+    - name: Jayden 为天地立心,为生民立命, 为往圣继绝学,为万世开太平。
+      url: https://xxu.do
+    - name: chenxi 行到水穷处，坐看云起时
+      url: https://chenxi-space.com
+    - name: 雪月秋水 人在东京的肉翻大佬
+      url: https://blog.icehoney.me/
+    - name: CrownDaisy Less is more
+      url: https://crowndaisy.com/
+    - name: 静かな森 致虚极，守静笃。
+      url: https://innei.ren/
+    - name: FiveYellowMice 一只可爱的黄鼠
+      url: https://short.fiveyellowmice.com/
+    - name: 紺野さゆり 生而为人，我很抱歉。来世愿做一只橘喵 :)
+      url: https://blog.dreamfever.me/
+    - name: 依云 百合仙子
+      url: https://blog.lilydjwg.me/
+    - name: NekoDeng 十万伏特皮卡丘，梦想是世界和平，想要发光发热
+      url: https://nekodeng.gitee.io/
+    - name: 赫萝 「虽然咱长久以来被尊为神，且被束缚在这块土地上，但咱根本不是什么伟大的神。咱就是咱。咱是赫萝。」
+      url: https://blog.yoitsu.moe/
+    - name: 新一 Hi! 上天不？
+      url: https://a-wing.top/
+    - name: iyzyi 热爱的话就坚持吧
+      url: http://blog.iyzyi.com/
+    - name: ajin Always be enthusiastic
+      url: https://ajin.cloud
+    - name: iseki 这里是 iseki 的笔记本呢
+      url: https://blog.iseki.space/
+    - name: haor 太阳请不要晒黑我的皮肤，请晒黑我爸爸妈妈的头发。
+      url: https://haor233.com/
+    - name: RaXianch 一个咸鱼码农的垃圾桶，pythoneer一枚。
+      url: https://blog.raxianch.moe/
+    - name: Szhshp's Szhshp's 的第三边境研究所
+      url: https://szhshp.org/
+    - name: StarryVoid 你好～，这里是 水果培育基地 (雾)~。其实是 StarryVoid 的私人博客网站
+      url: https://blog.starryvoid.com/
+    - name: Desvl's 主要是与数学有关的内容。可能内容不是很轻松有趣，但是我希望严格的数理语言能引人思考，从思考中获得兴趣。
+      url: http://desvl.xyz/
+    - name: Sukka 童话只美在真实却从不续写
+      url: https://blog.skk.moe/
+    - name: lzhpo 会打篮球的程序猿
+      url: http://www.lzhpo.com/
+    - name: 狐狸菌 狐狸菌の秘密基地
+      url: http://www.smartfox.cc

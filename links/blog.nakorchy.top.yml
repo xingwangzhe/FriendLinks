@@ -1,10 +1,10 @@
 site:
-  name: "blog.nakorchy.top"
-  url: "https://blog.nakorchy.top/"
-  description: "友情链接"
-  links: "/friends"
+  name: 沂夏 Blog - 一个分享、创作网站
+  url: https://blog.nakorchy.top/
+  description: 沂夏 Blog - 一个分享、创作网站
+  links: /friends
   friends:
-    - name: "blog.mysqil.com"
-      url: "https://blog.mysqil.com/"
-    - name: "blog.sakura.ink"
-      url: "https://blog.sakura.ink"
+    - name: blog.mysqil.com
+      url: https://blog.mysqil.com/
+    - name: blog.sakura.ink
+      url: https://blog.sakura.ink

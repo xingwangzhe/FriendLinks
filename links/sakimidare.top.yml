@@ -1,16 +1,16 @@
 site:
-  name: "sakimidare.top"
-  url: "https://www.sakimidare.top/"
-  description: "友情链接"
-  links: "/friends"
+  name: SakiMidare's Blog - A personal blog site.
+  url: https://www.sakimidare.top/
+  description: SakiMidare's Blog - A personal blog site.
+  links: /friends
   friends:
-    - name: "TheSky233's BlogAnd in that light..."
-      url: "https://thesky233.github.io/"
-    - name: "日落果的 Blog日落果的 Blog"
-      url: "https://blog.archlinux.tech/"
-    - name: "風雪城浩繁星空下的一场稚嫩的梦"
-      url: "https://blog.chyk.ink/"
-    - name: "Onear's BlogOnear's Blog"
-      url: "https://onear.eu.org"
-    - name: "井枝万事屋濂珠沉葬，玉碎琉璃"
-      url: "https://www.yorozumoon.cn/"
+    - name: TheSky233's BlogAnd in that light...
+      url: https://thesky233.github.io/
+    - name: 日落果的 Blog日落果的 Blog
+      url: https://blog.archlinux.tech/
+    - name: 風雪城浩繁星空下的一场稚嫩的梦
+      url: https://blog.chyk.ink/
+    - name: Onear's BlogOnear's Blog
+      url: https://onear.eu.org
+    - name: 井枝万事屋濂珠沉葬，玉碎琉璃
+      url: https://www.yorozumoon.cn/

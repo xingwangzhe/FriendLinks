@@ -1,14 +1,14 @@
 site:
-  name: "blog.chriswoodford.ca"
-  url: "https://blog.chriswoodford.ca/"
-  description: "友情链接"
-  links: "/"
+  name: Hacksonomy
+  url: https://blog.chriswoodford.ca/
+  description: Random Musings on Hacking, Philosophy, Music, and Las Vegas.
+  links: /
   friends:
-    - name: "Rails"
-      url: "http://rubyonrails.org/"
-    - name: "gobble.com"
-      url: "http://gobble.com"
-    - name: "hypaethralrecords.com"
-      url: "http://hypaethralrecords.com"
-    - name: "TITAN"
-      url: "http://titanslays.bandcamp.com"
+    - name: Rails
+      url: http://rubyonrails.org/
+    - name: gobble.com
+      url: http://gobble.com
+    - name: hypaethralrecords.com
+      url: http://hypaethralrecords.com
+    - name: TITAN
+      url: http://titanslays.bandcamp.com

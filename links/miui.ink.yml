@@ -1,22 +1,22 @@
 site:
-  name: "miui.ink"
-  url: "https://miui.ink/"
-  description: "友情链接"
-  links: "/friends"
+  name: 首页
+  url: https://miui.ink/
+  description: 友情链接
+  links: /friends
   friends:
-    - name: "Mikuの次行星 心有多宽，世界就有多远。"
-      url: "https://blog.sotkg.com/"
-    - name: "阿涛の小破站 分享一些Docker知识，记录一些碎碎念。"
-      url: "https://emohe.cn/"
-    - name: "柳铃的个人笔记 永远就是没有尽头，与天空一样，望不到尽头。"
-      url: "https://www.rmoe.top"
-    - name: "XxinRan’s World 停下脚步才注意到，世界被染得雪白。"
-      url: "https://www.xxinran.tech/"
-    - name: "存在证明的阿远 一个兴趣广泛的小废物"
-      url: "https://ayuan.ink"
-    - name: "Oyiso&#039;s Blog The shortest answ"
-      url: "https://oyiso.cn"
-    - name: "芙兰の小窝 少女祈祷中～"
-      url: "https://flandre.vip"
-    - name: "洛雨の小站 历史终将证明一切"
-      url: "https://blog.luotianyi.sbs/"
+    - name: Mikuの次行星 心有多宽，世界就有多远。
+      url: https://blog.sotkg.com/
+    - name: 阿涛の小破站 分享一些Docker知识，记录一些碎碎念。
+      url: https://emohe.cn/
+    - name: 柳铃的个人笔记 永远就是没有尽头，与天空一样，望不到尽头。
+      url: https://www.rmoe.top
+    - name: XxinRan’s World 停下脚步才注意到，世界被染得雪白。
+      url: https://www.xxinran.tech/
+    - name: 存在证明的阿远 一个兴趣广泛的小废物
+      url: https://ayuan.ink
+    - name: Oyiso&#039;s Blog The shortest answ
+      url: https://oyiso.cn
+    - name: 芙兰の小窝 少女祈祷中～
+      url: https://flandre.vip
+    - name: 洛雨の小站 历史终将证明一切
+      url: https://blog.luotianyi.sbs/

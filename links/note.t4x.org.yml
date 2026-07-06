@@ -1,12 +1,12 @@
 site:
-  name: "note.t4x.org"
-  url: "https://note.t4x.org/"
-  description: "友情链接"
-  links: "/links"
+  name: Byrd's Blog
+  url: https://note.t4x.org/
+  description: Byrd个人博客旨在记录个人学习、工作中遇到的运维问题、运维架构方案、IT运维、安全运维的相关知识，包括系统运维、脚本编程、操作系统教程、运维经验、脚本语言等。
+  links: /links
   friends:
-    - name: "风雪之隅"
-      url: "http://www.laruence.com"
-    - name: "Sumile's Blog"
-      url: "http://sumile.cn/"
-    - name: "michaelliunsky"
-      url: "https://blog.mkliu.top"
+    - name: 风雪之隅
+      url: http://www.laruence.com
+    - name: Sumile's Blog
+      url: http://sumile.cn/
+    - name: michaelliunsky
+      url: https://blog.mkliu.top

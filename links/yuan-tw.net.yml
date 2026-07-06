@@ -1,16 +1,16 @@
 site:
-  name: "yuan-tw.net"
-  url: "https://yuan-tw.net/"
-  description: "友情链接"
-  links: "/links"
+  name: Yuan
+  url: https://yuan-tw.net/
+  description: Yuan 是來自臺灣的網路技術愛好者與工程師，專注於網路架構、BGP、資安、系統維運、AI Agent 與 AI 應用程式開發。
+  links: /links
   friends:
-    - name: "NCSE Network"
-      url: "https://ncse.tw"
-    - name: "SCINT 北臺灣學生資訊社群"
-      url: "https://scint.org"
-    - name: "OsGa"
-      url: "https://osga.dev"
-    - name: "毛哥 EM"
-      url: "https://elvismao.com"
-    - name: "Jiang"
-      url: "https://longtai.org"
+    - name: NCSE Network
+      url: https://ncse.tw
+    - name: SCINT 北臺灣學生資訊社群
+      url: https://scint.org
+    - name: OsGa
+      url: https://osga.dev
+    - name: 毛哥 EM
+      url: https://elvismao.com
+    - name: Jiang
+      url: https://longtai.org

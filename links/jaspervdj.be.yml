@@ -1,18 +1,18 @@
 site:
-  name: "jaspervdj.be"
-  url: "http://jaspervdj.be/"
-  description: "友情链接"
-  links: "/"
+  name: jaspervdj - Home
+  url: http://jaspervdj.be/
+  description: Personal home page and blog of Jasper Van der Jeugt.
+  links: /
   friends:
-    - name: "Digital Asset"
-      url: "https://www.digitalasset.com/"
-    - name: "PureScript"
-      url: "https://www.purescript.org/"
-    - name: "双曲番 (sōkyoku-ban)"
-      url: "https://sokyokuban.com"
-    - name: "ZuriHac"
-      url: "https://zurihac.com/"
-    - name: "2021 ICFP Programming Contest"
-      url: "https://icfpcontest2021.github.io/"
-    - name: "Zeus WPI"
-      url: "https://zeus.gent/"
+    - name: Digital Asset
+      url: https://www.digitalasset.com/
+    - name: PureScript
+      url: https://www.purescript.org/
+    - name: 双曲番 (sōkyoku-ban)
+      url: https://sokyokuban.com
+    - name: ZuriHac
+      url: https://zurihac.com/
+    - name: 2021 ICFP Programming Contest
+      url: https://icfpcontest2021.github.io/
+    - name: Zeus WPI
+      url: https://zeus.gent/

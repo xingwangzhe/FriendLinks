@@ -1,12 +1,12 @@
 site:
-  name: "blog.lichenghao.cn"
-  url: "https://blog.lichenghao.cn/"
-  description: "友情链接"
-  links: "/friend"
+  name: 首页
+  url: https://blog.lichenghao.cn/
+  description: Good good study, day day up !
+  links: /friend
   friends:
-    - name: "MD 公式编辑器"
-      url: "https://math-editor.online/"
-    - name: "鳥哥的私房菜"
-      url: "https://linux.vbird.org/"
-    - name: "JavaGuide"
-      url: "https://javaguide.cn/"
+    - name: MD 公式编辑器
+      url: https://math-editor.online/
+    - name: 鳥哥的私房菜
+      url: https://linux.vbird.org/
+    - name: JavaGuide
+      url: https://javaguide.cn/

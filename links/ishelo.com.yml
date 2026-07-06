@@ -1,10 +1,10 @@
 site:
-  name: "ishelo.com"
-  url: "https://www.ishelo.com/"
-  description: "友情链接"
-  links: "/"
+  name: Helo's Blog
+  url: https://www.ishelo.com/
+  description: 分享生活的点点滴滴
+  links: /
   friends:
-    - name: "Hitokoto"
-      url: "https://hitokoto.cn/"
-    - name: "JsonBird"
-      url: "https://bird.ioliu.cn/"
+    - name: Hitokoto
+      url: https://hitokoto.cn/
+    - name: JsonBird
+      url: https://bird.ioliu.cn/

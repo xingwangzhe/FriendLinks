@@ -1,10 +1,10 @@
 site:
-  name: "home.sne.moe"
-  url: "https://home.sne.moe/"
-  description: "友情链接"
-  links: "/links"
+  name: Asai Home
+  url: https://home.sne.moe/
+  description: Asai Neko's personal homepage
+  links: /links
   friends:
-    - name: "Matrix @sugar:sne.moe"
-      url: "https://matrix.to/#/@sugar:sne.moe"
-    - name: "Network asai.network"
-      url: "https://asai.network"
+    - name: Matrix @sugar:sne.moe
+      url: https://matrix.to/#/@sugar:sne.moe
+    - name: Network asai.network
+      url: https://asai.network

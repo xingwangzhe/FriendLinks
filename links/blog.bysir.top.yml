@@ -1,16 +1,16 @@
 site:
-  name: "blog.bysir.top"
-  url: "https://blog.bysir.top/"
-  description: "友情链接"
-  links: "/links"
+  name: Bysir 的博客
+  url: https://blog.bysir.top/
+  description: Bysir 所写的技术博客、关于 Bysir。
+  links: /links
   friends:
-    - name: "开始使用"
-      url: "https://www.creght.com/"
-    - name: "merry"
-      url: "https://merrylmr.top/"
-    - name: "ache"
-      url: "https://blog.ache.fun/"
-    - name: "meow"
-      url: "https://meow.page/"
-    - name: "moonou"
-      url: "https://moonou.dev"
+    - name: 开始使用
+      url: https://www.creght.com/
+    - name: merry
+      url: https://merrylmr.top/
+    - name: ache
+      url: https://blog.ache.fun/
+    - name: meow
+      url: https://meow.page/
+    - name: moonou
+      url: https://moonou.dev

@@ -1,8 +1,8 @@
 site:
-  name: "fds.srt.pub"
-  url: "https://fds.srt.pub/"
-  description: "友情链接"
-  links: "/"
+  name: 主页
+  url: https://fds.srt.pub/
+  description: Grav is an easy to use, yet powerful, open source flat-file CMS
+  links: /
   friends:
-    - name: "Grav"
-      url: "https://getgrav.org"
+    - name: Grav
+      url: https://getgrav.org

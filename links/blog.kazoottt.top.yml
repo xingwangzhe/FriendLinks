@@ -1,18 +1,18 @@
 site:
-  name: "blog.kazoottt.top"
-  url: "https://blog.kazoottt.top/"
-  description: "友情链接"
-  links: "/friends"
+  name: 首页 - KazooTTT Blog
+  url: https://blog.kazoottt.top/
+  description: KazooTTT 的个人博客、笔记与项目。
+  links: /friends
   friends:
-    - name: "Yuang's Blog访问 →yuuuuang.com/"
-      url: "https://yuuuuang.com/"
-    - name: "思无道访问 →siwudao.github.io/"
-      url: "https://siwudao.github.io/"
-    - name: "poivre访问 →blog.poivrehxx.site/"
-      url: "https://blog.poivrehxx.site/"
-    - name: "Roi's Blog访问 →roi.moe/"
-      url: "https://roi.moe/"
-    - name: "edgeyu访问 →edgeyu.top/"
-      url: "https://edgeyu.top/"
-    - name: "Seyee's Blog访问 →seyee.cc/"
-      url: "https://seyee.cc/"
+    - name: Yuang's Blog访问 →yuuuuang.com/
+      url: https://yuuuuang.com/
+    - name: 思无道访问 →siwudao.github.io/
+      url: https://siwudao.github.io/
+    - name: poivre访问 →blog.poivrehxx.site/
+      url: https://blog.poivrehxx.site/
+    - name: Roi's Blog访问 →roi.moe/
+      url: https://roi.moe/
+    - name: edgeyu访问 →edgeyu.top/
+      url: https://edgeyu.top/
+    - name: Seyee's Blog访问 →seyee.cc/
+      url: https://seyee.cc/

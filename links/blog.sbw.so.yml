@@ -1,12 +1,12 @@
 site:
-  name: "blog.sbw.so"
-  url: "https://blog.sbw.so/"
-  description: "友情链接"
-  links: "/"
+  name: sbw Blog
+  url: https://blog.sbw.so/
+  description: 这里是一个关注 Linux、算法设计与应用技术的独立博客。希望与大家分享交流算法、Linux 等相关话题：）
+  links: /
   friends:
-    - name: "Felix's Blog"
-      url: "https://blog.felixc.at/"
-    - name: "南浦月博客"
-      url: "https://blog.nanpuyue.com/"
-    - name: "小竹's Blog"
-      url: "https://blog.justforlxz.com/"
+    - name: Felix's Blog
+      url: https://blog.felixc.at/
+    - name: 南浦月博客
+      url: https://blog.nanpuyue.com/
+    - name: 小竹's Blog
+      url: https://blog.justforlxz.com/

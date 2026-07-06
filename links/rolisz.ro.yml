@@ -1,10 +1,10 @@
 site:
-  name: "rolisz.ro"
-  url: "https://rolisz.ro/"
-  description: "友情链接"
-  links: "/"
+  name: rolisz's blog
+  url: https://rolisz.ro/
+  description: Thoughts of an LLM consultant
+  links: /
   friends:
-    - name: "Consulting"
-      url: "https://rolisz.com"
-    - name: "Ghost"
-      url: "https://ghost.org/"
+    - name: Consulting
+      url: https://rolisz.com
+    - name: Ghost
+      url: https://ghost.org/

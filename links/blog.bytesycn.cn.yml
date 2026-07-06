@@ -1,12 +1,12 @@
 site:
-  name: "blog.bytesycn.cn"
-  url: "https://blog.bytesycn.cn/"
-  description: "友情链接"
-  links: "/friends"
+  name: RyanZhang's Blog - 技术分享与人文随笔 - 开放知识，构建未来
+  url: https://blog.bytesycn.cn/
+  description: RyanZhang 的个人技术博客。专注于云计算、网络安全、Linux 运维、开源项目构建及全栈开发技术分享。同时记录生活随笔、诗与远方、民谣音乐感悟。秉持「开放知识 - 开放未来」理念，致力于在代码世界中寻找技术与人文的平衡。Keep building, keep thinking, keep creating.
+  links: /friends
   friends:
-    - name: "哆啦Xi梦 掌握 Spring/Java/Go 的鱿鱿，分享编程技巧与开发经验的个人博客 Blog"
-      url: "https://enums.cn"
-    - name: "Xuan's blog 分享技术教程和学习笔记 Blog"
-      url: "https://blog.ybyq.wang"
-    - name: "陶小桃Blog 热衷于分享日常和技术的机械专业小哥哥~ Blog"
-      url: "https://www.52txr.cn"
+    - name: 哆啦Xi梦 掌握 Spring/Java/Go 的鱿鱿，分享编程技巧与开发经验的个人博客 Blog
+      url: https://enums.cn
+    - name: Xuan's blog 分享技术教程和学习笔记 Blog
+      url: https://blog.ybyq.wang
+    - name: 陶小桃Blog 热衷于分享日常和技术的机械专业小哥哥~ Blog
+      url: https://www.52txr.cn

@@ -1,8 +1,8 @@
 site:
-  name: "flatpaper.nep.me"
-  url: "https://flatpaper.nep.me/"
-  description: "友情链接"
-  links: "/links"
+  name: Flatpaper Demo
+  url: https://flatpaper.nep.me/
+  description: Flatpaper Demo收录 20 篇文章，包括Hexo 中 `marked.smartypants` 与 `quotes` 配置详解、FlatPaper(v0.3.3) 文章、页面顶部图：top_img 与 post_top_img 配置、FlatPaper(v0.3.1) 主题重磅更新：优雅的朋友圈 (Friend Circle) 信息流。
+  links: /links
   friends:
-    - name: "Homulilly"
-      url: "https://homulilly.com/"
+    - name: Homulilly
+      url: https://homulilly.com/

@@ -1,12 +1,12 @@
 site:
-  name: "wsdjeg.net"
-  url: "https://wsdjeg.net/"
-  description: "友情链接"
-  links: "/"
+  name: Eric's Blog
+  url: https://wsdjeg.net/
+  description: 专注于编程技术、开源项目与生活感悟的独立博客
+  links: /
   friends:
-    - name: "chat.nvim"
-      url: "https://nvim.chat"
-    - name: "F-Droid"
-      url: "https://f-droid.org/"
-    - name: "Termux 官网"
-      url: "https://termux.org"
+    - name: chat.nvim
+      url: https://nvim.chat
+    - name: F-Droid
+      url: https://f-droid.org/
+    - name: Termux 官网
+      url: https://termux.org

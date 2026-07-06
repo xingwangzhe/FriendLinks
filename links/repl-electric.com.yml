@@ -1,12 +1,12 @@
 site:
-  name: "repl-electric.com"
-  url: "http://www.repl-electric.com/"
-  description: "友情链接"
-  links: "/"
+  name: Repl Electric - Live Coding
+  url: http://www.repl-electric.com/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Supercollider"
-      url: "http://supercollider.github.io"
-    - name: "Overtone"
-      url: "http://overtone.github.io/"
-    - name: "bandcamp"
-      url: "https://repl-electric.bandcamp.com/"
+    - name: Supercollider
+      url: http://supercollider.github.io
+    - name: Overtone
+      url: http://overtone.github.io/
+    - name: bandcamp
+      url: https://repl-electric.bandcamp.com/

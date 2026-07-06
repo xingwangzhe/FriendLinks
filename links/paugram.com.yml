@@ -1,100 +1,100 @@
 site:
-  name: "paugram.com"
-  url: "https://paugram.com/"
-  description: "友情链接"
-  links: "/friends"
+  name: 保罗的小宇宙
+  url: https://paugram.com/
+  description: Still single, still lonely.
+  links: /friends
   friends:
-    - name: "缤奇团队 原创二次元兴趣社团"
-      url: "https://www.binkic.com"
-    - name: "新科社团 技术宅划水社团"
-      url: "https://blog.xk86.cn"
-    - name: "练习小册 学生！"
-      url: "https://lhr.wiki"
-    - name: "小文的随想集 技术 · 人文 · 生活"
-      url: "https://www.littlechar.com"
-    - name: "陆陆侠 神奇陆陆侠的生活"
-      url: "https://llx.life"
-    - name: "Tasker The Star Guardian"
-      url: "https://taskeren.cn"
-    - name: "Herain 知识压榨我，我只能压榨时间"
-      url: "https://herainic.com"
-    - name: "YDJSIR 此时相望不相闻，愿逐月华流照君"
-      url: "https://ydjsir.com.cn"
-    - name: "922 的小世界 92222222"
-      url: "https://www.aifast.net"
-    - name: "CYRO4S"
-      url: "https://ralf.ren"
-    - name: "DIYgod"
-      url: "https://diygod.me"
-    - name: "GrainBear"
-      url: "https://www.grainbear.cn"
-    - name: "Shawn"
-      url: "http://shawnzeng.com"
-    - name: "折影轻梦"
-      url: "https://nexmoe.com"
-    - name: "WangMao"
-      url: "https://blog.wangmao.me"
-    - name: "小但扑通"
-      url: "https://heyijian.com"
-    - name: "泽泽社"
-      url: "https://91ntr.cn"
-    - name: "小尾巴"
-      url: "http://xiaowiba.com"
-    - name: "MR158"
-      url: "https://mr158.cn"
-    - name: "Tom"
-      url: "https://blog.tomhuang2000.com"
-    - name: "Lukachen"
-      url: "http://lukachen.com"
-    - name: "Sonic853"
-      url: "https://blog.853lab.com"
-    - name: "木先森"
-      url: "https://www.meizg.cn"
-    - name: "Mashiro"
-      url: "https://2heng.xin"
-    - name: "艾超博客"
-      url: "https://icharle.com"
-    - name: "猫与向日葵"
-      url: "https://nocilol.me"
-    - name: "Mikusa"
-      url: "https://www.himiku.com"
-    - name: "QWE"
-      url: "https://qwe7002.com"
-    - name: "浪花印象"
-      url: "https://lllh.cn"
-    - name: "静かな森"
-      url: "https://innei.ren"
-    - name: "Ohmyga"
-      url: "https://ohmyga.dev"
-    - name: "Mather"
-      url: "https://misaka.im"
-    - name: "tcdw"
-      url: "https://www.tcdw.net"
-    - name: "Zeka 的记事本"
-      url: "https://flag.zeka.cloud"
-    - name: "提莫酱的博客"
-      url: "https://www.timochan.cn"
-    - name: "小陈的辣鸡屋"
-      url: "https://99999.fun"
-    - name: "百里飞洋"
-      url: "https://blog.meta-code.top"
-    - name: "喵二の小博客"
-      url: "https://www.miaoer.net"
-    - name: "Suemor"
-      url: "https://www.suemor.com"
-    - name: "戴兜的小屋"
-      url: "https://im.daidr.me"
-    - name: "AkaraChen"
-      url: "https://akr.moe"
-    - name: "Recopec"
-      url: "https://blog.irec.moe"
-    - name: "LinMoQC"
-      url: "https://linmoe.cn"
-    - name: "如兔优伶"
-      url: "https://blog.rutua.cn"
-    - name: "曹老师"
-      url: "http://www.caolaoshi.men"
-    - name: "小白-白"
-      url: "https://www.fczbl.vip"
-    - name: "碧海长天"
-      url: "http://www.slidyy.com"
+    - name: 缤奇团队 原创二次元兴趣社团
+      url: https://www.binkic.com
+    - name: 新科社团 技术宅划水社团
+      url: https://blog.xk86.cn
+    - name: 练习小册 学生！
+      url: https://lhr.wiki
+    - name: 小文的随想集 技术 · 人文 · 生活
+      url: https://www.littlechar.com
+    - name: 陆陆侠 神奇陆陆侠的生活
+      url: https://llx.life
+    - name: Tasker The Star Guardian
+      url: https://taskeren.cn
+    - name: Herain 知识压榨我，我只能压榨时间
+      url: https://herainic.com
+    - name: YDJSIR 此时相望不相闻，愿逐月华流照君
+      url: https://ydjsir.com.cn
+    - name: 922 的小世界 92222222
+      url: https://www.aifast.net
+    - name: CYRO4S
+      url: https://ralf.ren
+    - name: DIYgod
+      url: https://diygod.me
+    - name: GrainBear
+      url: https://www.grainbear.cn
+    - name: Shawn
+      url: http://shawnzeng.com
+    - name: 折影轻梦
+      url: https://nexmoe.com
+    - name: WangMao
+      url: https://blog.wangmao.me
+    - name: 小但扑通
+      url: https://heyijian.com
+    - name: 泽泽社
+      url: https://91ntr.cn
+    - name: 小尾巴
+      url: http://xiaowiba.com
+    - name: MR158
+      url: https://mr158.cn
+    - name: Tom
+      url: https://blog.tomhuang2000.com
+    - name: Lukachen
+      url: http://lukachen.com
+    - name: Sonic853
+      url: https://blog.853lab.com
+    - name: 木先森
+      url: https://www.meizg.cn
+    - name: Mashiro
+      url: https://2heng.xin
+    - name: 艾超博客
+      url: https://icharle.com
+    - name: 猫与向日葵
+      url: https://nocilol.me
+    - name: Mikusa
+      url: https://www.himiku.com
+    - name: QWE
+      url: https://qwe7002.com
+    - name: 浪花印象
+      url: https://lllh.cn
+    - name: 静かな森
+      url: https://innei.ren
+    - name: Ohmyga
+      url: https://ohmyga.dev
+    - name: Mather
+      url: https://misaka.im
+    - name: tcdw
+      url: https://www.tcdw.net
+    - name: Zeka 的记事本
+      url: https://flag.zeka.cloud
+    - name: 提莫酱的博客
+      url: https://www.timochan.cn
+    - name: 小陈的辣鸡屋
+      url: https://99999.fun
+    - name: 百里飞洋
+      url: https://blog.meta-code.top
+    - name: 喵二の小博客
+      url: https://www.miaoer.net
+    - name: Suemor
+      url: https://www.suemor.com
+    - name: 戴兜的小屋
+      url: https://im.daidr.me
+    - name: AkaraChen
+      url: https://akr.moe
+    - name: Recopec
+      url: https://blog.irec.moe
+    - name: LinMoQC
+      url: https://linmoe.cn
+    - name: 如兔优伶
+      url: https://blog.rutua.cn
+    - name: 曹老师
+      url: http://www.caolaoshi.men
+    - name: 小白-白
+      url: https://www.fczbl.vip
+    - name: 碧海长天
+      url: http://www.slidyy.com

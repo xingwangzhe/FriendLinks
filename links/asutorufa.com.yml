@@ -1,12 +1,12 @@
 site:
-  name: "asutorufa.com"
-  url: "https://asutorufa.com/"
-  description: "友情链接"
-  links: "/friends"
+  name: Asutorufaのブログ
+  url: https://asutorufa.com/
+  description: こんにちは
+  links: /friends
   friends:
-    - name: "做一个有追求的人"
-      url: "http://spaceack.com/"
-    - name: "千玄子"
-      url: "https://zjuyk.gitlab.io"
-    - name: "敖武的博客"
-      url: "https://z.wiki/"
+    - name: 做一个有追求的人
+      url: http://spaceack.com/
+    - name: 千玄子
+      url: https://zjuyk.gitlab.io
+    - name: 敖武的博客
+      url: https://z.wiki/

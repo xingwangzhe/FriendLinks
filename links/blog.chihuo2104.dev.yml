@@ -1,98 +1,98 @@
 site:
-  name: "blog.chihuo2104.dev"
-  url: "https://blog.chihuo2104.dev/"
-  description: "友情链接"
-  links: "/friends"
+  name: chihuo2104の部落格
+  url: https://blog.chihuo2104.dev/
+  description: 友情链接
+  links: /friends
   friends:
-    - name: "wxwoo’s blog"
-      url: "https://wxwoo.top/"
-    - name: "lijiann的博客(a.k.a.小小小朋友的小小世界)"
-      url: "https://www.lijiaan.top/"
-    - name: "ctz"
-      url: "https://ctz45562.github.io"
-    - name: "挖站否"
-      url: "https://wzfou.com"
-    - name: "Ray"
-      url: "https://blog.mk1.io/"
-    - name: "柏园猫のBlog"
-      url: "https://nekomoe.xyz/"
-    - name: "白のblog"
-      url: "https://blog.mashiro.pro/"
-    - name: "洛仙璃の幻梦"
-      url: "https://mzwing.eu.org/"
-    - name: "欠陥電気の摸鱼小池"
-      url: "https://blog.apeiria.net/"
-    - name: "反応蒸留"
-      url: "https://blog.mjt.asia/"
-    - name: "vahiru’s Blog"
-      url: "https://vahiru.is-cute.cat/"
-    - name: "GBY"
-      url: "https://skina.cn/"
-    - name: "海上的宫殿(soha)"
-      url: "https://soha.moe"
-    - name: "欧阳淇淇の小屋"
-      url: "https://ouyangqiqi.cn/"
-    - name: "dpkg123的博客"
-      url: "https://dpkg123.site/"
-    - name: "呓语梦轩"
-      url: "https://blog.awaae001.top/"
-    - name: "FloatSheep"
-      url: "https://blog.hesiy.cn/"
-    - name: "/var/log/gblab"
-      url: "https://lab.gb0.dev/"
-    - name: "Restent’s Notebook"
-      url: "https://blog.gxres.net/"
-    - name: "Kevin8w的小窝"
-      url: "https://hugo.utermux.dev/"
-    - name: "liolok"
-      url: "https://liolok.com/"
-    - name: "MBRjun-Blog"
-      url: "https://www.libmbr.com/"
-    - name: "Rikki’s Blog"
-      url: "https://rikki.moe/"
-    - name: "Eddy Moments"
-      url: "https://blog.eddy.moe/"
-    - name: "Bingxin Blog"
-      url: "https://blog.byteloid.one/"
-    - name: "Esonhugh_namespace"
-      url: "https://eson.ninja/"
-    - name: "Zwh’s Blog"
-      url: "https://xlog.zwh.moe/"
-    - name: "March 7th’s blog"
-      url: "https://blog.0721.uk/"
-    - name: "風雪城"
-      url: "https://blog.chyk.ink/"
-    - name: "Glucy2的小天地"
-      url: "https://glucy2.com/"
-    - name: "老史尬侃"
-      url: "https://blog.stevezmt.top"
-    - name: "zzjzxq33’s blog"
-      url: "https://blog.akuamar1n.com/"
-    - name: "TuskedEvening0’s Blog"
-      url: "https://tuskede0.top/"
-    - name: "William Wei’s Blog"
-      url: "https://williamwei.top"
-    - name: "夏夜空"
-      url: "https://ryanmkr.eu.org/"
-    - name: "後戸の国"
-      url: "https://dustymind.cc/"
-    - name: "Guanran928的博客"
-      url: "https://blog.ny4.dev/"
-    - name: "Renna’s Blog"
-      url: "https://renna.dev/"
-    - name: "/mnt/anyneko"
-      url: "https://aneko.moe/"
-    - name: "雨山秋"
-      url: "https://aki.cat/"
-    - name: "Rikkaの小小窝"
-      url: "https://rikka.im/"
-    - name: "RupricaT"
-      url: "https://journal.purticra.icu/"
-    - name: "極客死亡計劃"
-      url: "https://www.geedea.pro/"
-    - name: "Yukina"
-      url: "https://blog.yukina.ink/"
-    - name: "GZTime"
-      url: "https://blog.gzti.me/"
-    - name: "lbyxiaolizi’s blog"
-      url: "https://blog.vh.gs/"
+    - name: wxwoo’s blog
+      url: https://wxwoo.top/
+    - name: lijiann的博客(a.k.a.小小小朋友的小小世界)
+      url: https://www.lijiaan.top/
+    - name: ctz
+      url: https://ctz45562.github.io
+    - name: 挖站否
+      url: https://wzfou.com
+    - name: Ray
+      url: https://blog.mk1.io/
+    - name: 柏园猫のBlog
+      url: https://nekomoe.xyz/
+    - name: 白のblog
+      url: https://blog.mashiro.pro/
+    - name: 洛仙璃の幻梦
+      url: https://mzwing.eu.org/
+    - name: 欠陥電気の摸鱼小池
+      url: https://blog.apeiria.net/
+    - name: 反応蒸留
+      url: https://blog.mjt.asia/
+    - name: vahiru’s Blog
+      url: https://vahiru.is-cute.cat/
+    - name: GBY
+      url: https://skina.cn/
+    - name: 海上的宫殿(soha)
+      url: https://soha.moe
+    - name: 欧阳淇淇の小屋
+      url: https://ouyangqiqi.cn/
+    - name: dpkg123的博客
+      url: https://dpkg123.site/
+    - name: 呓语梦轩
+      url: https://blog.awaae001.top/
+    - name: FloatSheep
+      url: https://blog.hesiy.cn/
+    - name: /var/log/gblab
+      url: https://lab.gb0.dev/
+    - name: Restent’s Notebook
+      url: https://blog.gxres.net/
+    - name: Kevin8w的小窝
+      url: https://hugo.utermux.dev/
+    - name: liolok
+      url: https://liolok.com/
+    - name: MBRjun-Blog
+      url: https://www.libmbr.com/
+    - name: Rikki’s Blog
+      url: https://rikki.moe/
+    - name: Eddy Moments
+      url: https://blog.eddy.moe/
+    - name: Bingxin Blog
+      url: https://blog.byteloid.one/
+    - name: Esonhugh_namespace
+      url: https://eson.ninja/
+    - name: Zwh’s Blog
+      url: https://xlog.zwh.moe/
+    - name: March 7th’s blog
+      url: https://blog.0721.uk/
+    - name: 風雪城
+      url: https://blog.chyk.ink/
+    - name: Glucy2的小天地
+      url: https://glucy2.com/
+    - name: 老史尬侃
+      url: https://blog.stevezmt.top
+    - name: zzjzxq33’s blog
+      url: https://blog.akuamar1n.com/
+    - name: TuskedEvening0’s Blog
+      url: https://tuskede0.top/
+    - name: William Wei’s Blog
+      url: https://williamwei.top
+    - name: 夏夜空
+      url: https://ryanmkr.eu.org/
+    - name: 後戸の国
+      url: https://dustymind.cc/
+    - name: Guanran928的博客
+      url: https://blog.ny4.dev/
+    - name: Renna’s Blog
+      url: https://renna.dev/
+    - name: /mnt/anyneko
+      url: https://aneko.moe/
+    - name: 雨山秋
+      url: https://aki.cat/
+    - name: Rikkaの小小窝
+      url: https://rikka.im/
+    - name: RupricaT
+      url: https://journal.purticra.icu/
+    - name: 極客死亡計劃
+      url: https://www.geedea.pro/
+    - name: Yukina
+      url: https://blog.yukina.ink/
+    - name: GZTime
+      url: https://blog.gzti.me/
+    - name: lbyxiaolizi’s blog
+      url: https://blog.vh.gs/

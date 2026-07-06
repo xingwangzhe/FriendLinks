@@ -1,32 +1,32 @@
 site:
-  name: "blog.aflybird.cn"
-  url: "https://blog.aflybird.cn/"
-  description: "友情链接"
-  links: "/friends"
+  name: 飞鸟记
+  url: https://blog.aflybird.cn/
+  description: 飞鸟记
+  links: /friends
   friends:
-    - name: '雨临Lewis的博客 "不想当写手的码农不是好咸鱼_(xз」∠)_"'
-      url: "https://lewky.cn"
-    - name: 'iyear "记录本是反抗"'
-      url: "https://blog.ljyngup.com/"
-    - name: 'Forever Young "生活 开源 技术"'
-      url: "http://erdengk.top/"
-    - name: 'NX の 博客 "这家伙真勤奋，什么都留下了"'
-      url: "https://www.nickxu.top"
-    - name: 'Ryan Ting''''s Blog "Just write as cheat sheet and fun. 🤪"'
-      url: "https://blog.ryantech.ltd/"
-    - name: 'Eson Namespace "菜鸡的小站 )"'
-      url: "https://eson.ninja/"
-    - name: 'psyqLK的日常 "生有热烈，藏与俗常"'
-      url: "https://blog.psyqlk.space"
-    - name: '戴兜的小屋 "Coding the world."'
-      url: "https://im.daidr.me"
-    - name: '金羊的部落阁 "在对人类的抽象的爱中，能爱的几乎永远是自己一个人。"'
-      url: "https://www.glodensheep.top/"
-    - name: '燎原的博客 "翻更高的山，见更美的风景"'
-      url: "https://blog.koisecret.site/"
-    - name: 'violet "Violet I Personal blog"'
-      url: "https://violetjam.github.io"
-    - name: 'Sun''''s Blog "自强不息，厚德载物"'
-      url: "https://www.iaesun.com"
-    - name: 'indigovoid "-"'
-      url: "https://indigovoid.github.io/"
+    - name: 雨临Lewis的博客 "不想当写手的码农不是好咸鱼_(xз」∠)_"
+      url: https://lewky.cn
+    - name: iyear "记录本是反抗"
+      url: https://blog.ljyngup.com/
+    - name: Forever Young "生活 开源 技术"
+      url: http://erdengk.top/
+    - name: NX の 博客 "这家伙真勤奋，什么都留下了"
+      url: https://www.nickxu.top
+    - name: Ryan Ting''s Blog "Just write as cheat sheet and fun. 🤪"
+      url: https://blog.ryantech.ltd/
+    - name: Eson Namespace "菜鸡的小站 )"
+      url: https://eson.ninja/
+    - name: psyqLK的日常 "生有热烈，藏与俗常"
+      url: https://blog.psyqlk.space
+    - name: 戴兜的小屋 "Coding the world."
+      url: https://im.daidr.me
+    - name: 金羊的部落阁 "在对人类的抽象的爱中，能爱的几乎永远是自己一个人。"
+      url: https://www.glodensheep.top/
+    - name: 燎原的博客 "翻更高的山，见更美的风景"
+      url: https://blog.koisecret.site/
+    - name: violet "Violet I Personal blog"
+      url: https://violetjam.github.io
+    - name: Sun''s Blog "自强不息，厚德载物"
+      url: https://www.iaesun.com
+    - name: indigovoid "-"
+      url: https://indigovoid.github.io/

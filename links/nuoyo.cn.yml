@@ -1,12 +1,12 @@
 site:
-  name: "nuoyo.cn"
-  url: "https://www.nuoyo.cn/"
-  description: "友情链接"
-  links: "/links"
+  name: 诺言博客 - 分享IT运维笔记和实战技巧的个人博客
+  url: https://www.nuoyo.cn/
+  description: 诺言博客主要以分享DevOps、自动化运维、Kubernetes、Docker等运维优秀实践经验个人博客，由系统运维、脚本编程、devops以及资源分享等分类组成，涵盖了DevOps、自动化运维、操作系统教程、运维经验、脚本语言、云计算、虚拟化、监控以及网络资源等；以运维学习为目标，记录生产环境中遇到的问题及解决方案
+  links: /links
   friends:
-    - name: "静鱼客栈"
-      url: "https://52jyu.cn"
-    - name: "彬红茶博客"
-      url: "https://blog.redcha.cn/"
-    - name: "text=ZqhQzanResources"
-      url: "https://www.zhuazan.com/"
+    - name: 静鱼客栈
+      url: https://52jyu.cn
+    - name: 彬红茶博客
+      url: https://blog.redcha.cn/
+    - name: text=ZqhQzanResources
+      url: https://www.zhuazan.com/

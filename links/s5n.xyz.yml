@@ -1,14 +1,14 @@
 site:
-  name: "s5n.xyz"
-  url: "https://s5n.xyz/"
-  description: "友情链接"
-  links: "/friends"
+  name: 索元的博客
+  url: https://s5n.xyz/
+  description: This is my cool site
+  links: /friends
   friends:
-    - name: "光溯星河"
-      url: "https://blog.tsio.top/"
-    - name: "secrun"
-      url: "https://sec.run/"
-    - name: "Mitchell’s Homepage"
-      url: "https://broken.life/"
-    - name: "残页的小博客"
-      url: "https://blog.canyie.top/"
+    - name: 光溯星河
+      url: https://blog.tsio.top/
+    - name: secrun
+      url: https://sec.run/
+    - name: Mitchell’s Homepage
+      url: https://broken.life/
+    - name: 残页的小博客
+      url: https://blog.canyie.top/

@@ -1,22 +1,22 @@
 site:
-  name: "rrees.me"
-  url: "https://rrees.me/"
-  description: "友情链接"
-  links: "/"
+  name: Echo One
+  url: https://rrees.me/
+  description: Sequentially arranged sentences composed of words (and punctuation)
+  links: /
   friends:
-    - name: "TransformGov website"
-      url: "https://www.transformgov.org.uk"
-    - name: "a business"
-      url: "https://www.restate.dev/"
-    - name: "Gem Cooperative"
-      url: "https://gem.coop/"
-    - name: "Copy symbols"
-      url: "https://symbol.wtf/"
-    - name: "this really interesting"
-      url: "https://e18e.dev/"
-    - name: "Jazzband"
-      url: "https://jazzband.co/"
-    - name: "Restate"
-      url: "https://restate.dev/"
-    - name: "Manage subscriptions"
-      url: "https://subscribe.wordpress.com/"
+    - name: TransformGov website
+      url: https://www.transformgov.org.uk
+    - name: a business
+      url: https://www.restate.dev/
+    - name: Gem Cooperative
+      url: https://gem.coop/
+    - name: Copy symbols
+      url: https://symbol.wtf/
+    - name: this really interesting
+      url: https://e18e.dev/
+    - name: Jazzband
+      url: https://jazzband.co/
+    - name: Restate
+      url: https://restate.dev/
+    - name: Manage subscriptions
+      url: https://subscribe.wordpress.com/

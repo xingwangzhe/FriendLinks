@@ -1,12 +1,12 @@
 site:
-  name: "konata9.cc"
-  url: "https://konata9.cc/"
-  description: "友情链接"
-  links: "/friends"
+  name: 此方的秘密基地
+  url: https://konata9.cc/
+  description: 此方的秘密基地是一个专注于前端开发、Node.js、Vue.js及全栈技术的个人博客。在这里，我分享高质量的编程教程、实用的技术心得、深度的开发经验以及生活中的点滴感悟。无论你是初学者还是资深开发者，都能在这里找到有价值的内容，让我们一起探索代码的乐趣，共同成长。
+  links: /friends
   friends:
-    - name: "qwq的个人博客"
-      url: "https://blog.qwqzy.top/"
-    - name: "LsAng"
-      url: "https://llds.cloud/"
-    - name: "vuepress-theme-plume"
-      url: "https://theme-plume.vuejs.press"
+    - name: qwq的个人博客
+      url: https://blog.qwqzy.top/
+    - name: LsAng
+      url: https://llds.cloud/
+    - name: vuepress-theme-plume
+      url: https://theme-plume.vuejs.press

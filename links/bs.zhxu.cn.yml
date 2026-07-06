@@ -1,8 +1,8 @@
 site:
-  name: "bs.zhxu.cn"
-  url: "https://bs.zhxu.cn/"
-  description: "友情链接"
-  links: "/links"
+  name: Bean Searcher
+  url: https://bs.zhxu.cn/
+  description: 专注高级查询的只读 ORM，天生支持联表，免 DTO/VO 转换，使一行代码实现复杂列表检索成为可能！
+  links: /links
   friends:
-    - name: "LiteFlow 🚀 轻量，快速，稳定可编排的组件式规则引擎。"
-      url: "https://liteflow.cc/"
+    - name: LiteFlow 🚀 轻量，快速，稳定可编排的组件式规则引擎。
+      url: https://liteflow.cc/

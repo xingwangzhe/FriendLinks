@@ -1,10 +1,10 @@
 site:
-  name: "blog.nundrum.net"
-  url: "http://blog.nundrum.net/"
-  description: "友情链接"
-  links: "/"
+  name: bits all the way down
+  url: http://blog.nundrum.net/
+  description: technical ramblings
+  links: /
   friends:
-    - name: "EUC World"
-      url: "https://euc.world/"
-    - name: "Cryogen"
-      url: "http://cryogenweb.org"
+    - name: EUC World
+      url: https://euc.world/
+    - name: Cryogen
+      url: http://cryogenweb.org

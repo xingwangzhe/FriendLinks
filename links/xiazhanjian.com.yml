@@ -1,14 +1,14 @@
 site:
-  name: "xiazhanjian.com"
-  url: "https://www.xiazhanjian.com/"
-  description: "友情链接"
-  links: "/links.html"
+  name: 下站见
+  url: https://www.xiazhanjian.com/
+  description: 出发去追寻梦想，有缘下一站再见
+  links: /links.html
   friends:
-    - name: "饭饭's Blog - 不忘初心，方得始终"
-      url: "https://ffis.me/"
-    - name: "日出一点一 - 在探索的路上永不止步"
-      url: "https://blog.sunriseydy.top/"
-    - name: "Sep blog"
-      url: "https://sep.cc"
-    - name: "程序员老猫 - 专注于后端技术分享，架构设计分享，面经分享，程序人生分享"
-      url: "https://blog.ktdaddy.com/"
+    - name: 饭饭's Blog - 不忘初心，方得始终
+      url: https://ffis.me/
+    - name: 日出一点一 - 在探索的路上永不止步
+      url: https://blog.sunriseydy.top/
+    - name: Sep blog
+      url: https://sep.cc
+    - name: 程序员老猫 - 专注于后端技术分享，架构设计分享，面经分享，程序人生分享
+      url: https://blog.ktdaddy.com/

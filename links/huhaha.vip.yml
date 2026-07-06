@@ -1,10 +1,10 @@
 site:
-  name: "huhaha.vip"
-  url: "https://www.huhaha.vip/"
-  description: "友情链接"
-  links: "/friends"
+  name: 小王的博客 - 一个上了年纪的猿人
+  url: https://www.huhaha.vip/
+  description: 欢迎来到小王的博客，这是一个专注于技术分享和个人成长的平台。在这里，你可以找到关于编程、操作系统、前端开发等方面的实用文章和教程。无论是初学者还是有一定经验的技术人员，都能从中受益。让我们一起探索技术的世界，共同进步！
+  links: /friends
   friends:
-    - name: "夏夜流萤 飞萤之火自无梦的长夜亮起，绽放在终竟的明天。 Blog"
-      url: "https://blog.cuteleaf.cn"
-    - name: "Hyde Blog 人心中的成见是一座大山 Framework"
-      url: "https://seasir.top/"
+    - name: 夏夜流萤 飞萤之火自无梦的长夜亮起，绽放在终竟的明天。 Blog
+      url: https://blog.cuteleaf.cn
+    - name: Hyde Blog 人心中的成见是一座大山 Framework
+      url: https://seasir.top/

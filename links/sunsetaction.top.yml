@@ -1,12 +1,12 @@
 site:
-  name: "sunsetaction.top"
-  url: "https://www.sunsetaction.top/"
-  description: "友情链接"
-  links: "/about"
+  name: 首页
+  url: https://www.sunsetaction.top/
+  description: Sunset的个人博客，记录生活学习点滴。分享网络安全、渗透测试、CTF writeup、技术文章等内容。
+  links: /about
   friends:
-    - name: "HackMyVM - 靶机练习平台https://hackmyvm.eu/"
-      url: "https://hackmyvm.eu/"
-    - name: "HackTheBox - 知名渗透练习平台https://www.hackthebox.com/"
-      url: "https://www.hackthebox.com/"
-    - name: "TheHackerRecipes- 渗透技巧https://www.thehacker.recipes/"
-      url: "https://www.thehacker.recipes/"
+    - name: HackMyVM - 靶机练习平台https://hackmyvm.eu/
+      url: https://hackmyvm.eu/
+    - name: HackTheBox - 知名渗透练习平台https://www.hackthebox.com/
+      url: https://www.hackthebox.com/
+    - name: TheHackerRecipes- 渗透技巧https://www.thehacker.recipes/
+      url: https://www.thehacker.recipes/

@@ -1,12 +1,12 @@
 site:
-  name: "ishadeed.com"
-  url: "https://ishadeed.com/"
-  description: "友情链接"
-  links: "/"
+  name: Home - Ahmad Shadeed
+  url: https://ishadeed.com/
+  description: Deep-dive CSS articles, modern CSS and visual CSS explanations.
+  links: /
   friends:
-    - name: "Learn more"
-      url: "https://thelayoutmaestro.com/"
-    - name: "Buy my book"
-      url: "https://debuggingcss.com/"
-    - name: "Defensive CSS"
-      url: "https://defensivecss.dev/"
+    - name: Learn more
+      url: https://thelayoutmaestro.com/
+    - name: Buy my book
+      url: https://debuggingcss.com/
+    - name: Defensive CSS
+      url: https://defensivecss.dev/

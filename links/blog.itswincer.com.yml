@@ -1,26 +1,26 @@
 site:
-  name: "blog.itswincer.com"
-  url: "https://blog.itswincer.com/"
-  description: "友情链接"
-  links: "/friends"
+  name: 首页 · Wincer's Blog
+  url: https://blog.itswincer.com/
+  description: 这里是 @Wincer,喜欢折腾新技术,却没多大耐心。个人博客会写得比较杂,包括日常吐槽、技术踩坑,偶尔会写正经一点的。欢迎订阅 RSS(•̀ᴗ•́)。
+  links: /friends
   friends:
-    - name: "Stray Episodefarer.org"
-      url: "https://farer.org/"
-    - name: "BLOG @ GIUEMgiuem.com"
-      url: "https://www.giuem.com/"
-    - name: "觉论blog.ryouissei.com"
-      url: "https://blog.ryouissei.com/"
-    - name: "幼稚园园长yzyyz.top"
-      url: "https://yzyyz.top/"
-    - name: "BobMaster's blogblog.hibobmaster.com"
-      url: "https://blog.hibobmaster.com/"
-    - name: "Lychee's blogblog.lycheeee.top"
-      url: "https://blog.lycheeee.top/"
-    - name: "Luyu Huang's Tech Blogluyuhuang.tech"
-      url: "https://luyuhuang.tech/"
-    - name: "Hi! 上天不?a-wing.top"
-      url: "https://a-wing.top/"
-    - name: "有间咖啡馆blog.cofex.net"
-      url: "https://blog.cofex.net/"
-    - name: "DSRBLOGblog.dsrkafuu.net"
-      url: "https://blog.dsrkafuu.net/"
+    - name: Stray Episodefarer.org
+      url: https://farer.org/
+    - name: BLOG @ GIUEMgiuem.com
+      url: https://www.giuem.com/
+    - name: 觉论blog.ryouissei.com
+      url: https://blog.ryouissei.com/
+    - name: 幼稚园园长yzyyz.top
+      url: https://yzyyz.top/
+    - name: BobMaster's blogblog.hibobmaster.com
+      url: https://blog.hibobmaster.com/
+    - name: Lychee's blogblog.lycheeee.top
+      url: https://blog.lycheeee.top/
+    - name: Luyu Huang's Tech Blogluyuhuang.tech
+      url: https://luyuhuang.tech/
+    - name: Hi! 上天不?a-wing.top
+      url: https://a-wing.top/
+    - name: 有间咖啡馆blog.cofex.net
+      url: https://blog.cofex.net/
+    - name: DSRBLOGblog.dsrkafuu.net
+      url: https://blog.dsrkafuu.net/

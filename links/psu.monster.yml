@@ -1,10 +1,10 @@
 site:
-  name: "psu.monster"
-  url: "https://psu.monster/"
-  description: "友情链接"
-  links: "/friends"
+  name: Psu's Blog
+  url: https://psu.monster/
+  description: 随便记录，开心就好
+  links: /friends
   friends:
-    - name: "Eric-Terminal的博客"
-      url: "https://blog.ericterminal.com"
-    - name: "Update my browser now"
-      url: "http://outdatedbrowser.com/"
+    - name: Eric-Terminal的博客
+      url: https://blog.ericterminal.com
+    - name: Update my browser now
+      url: http://outdatedbrowser.com/

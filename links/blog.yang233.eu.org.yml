@@ -1,14 +1,14 @@
 site:
-  name: "blog.yang233.eu.org"
-  url: "https://blog.yang233.eu.org/"
-  description: "友情链接"
-  links: "/friends"
+  name: 晓正杨博客 - 让代码更有价值，让学生生活不再枯燥
+  url: https://blog.yang233.eu.org/
+  description: 分享网络技术、服务器部署、静态网站搭建、CDN优化、无服务器架构、前后端开发等技术教程与实践经验的个人技术博客，专注于云原生、无服务器架构和前后端开发。
+  links: /friends
   friends:
-    - name: "THW’s Blog 前途似海，来日方长"
-      url: "https://tianhw.top"
-    - name: "AcoFork Blog Protect What You Love."
-      url: "https://blog.acofork.com/"
-    - name: "Onlyfork Blog 欢迎光临喵喵喵~"
-      url: "https://blog.2fo.cc/"
-    - name: "Analytics by Umami"
-      url: "https://umami.is"
+    - name: THW’s Blog 前途似海，来日方长
+      url: https://tianhw.top
+    - name: AcoFork Blog Protect What You Love.
+      url: https://blog.acofork.com/
+    - name: Onlyfork Blog 欢迎光临喵喵喵~
+      url: https://blog.2fo.cc/
+    - name: Analytics by Umami
+      url: https://umami.is

@@ -1,12 +1,12 @@
 site:
-  name: "balintmagyar.com"
-  url: "https://balintmagyar.com/"
-  description: "友情链接"
-  links: "/"
+  name: Bálint Magyar
+  url: https://balintmagyar.com/
+  description: Personal website of Bálint Magyar
+  links: /
   friends:
-    - name: "Try it out"
-      url: "https://moody.today/"
-    - name: "IndieWeb"
-      url: "https://🕸💍.ws"
-    - name: "Fediring"
-      url: "https://fediring.net/"
+    - name: Try it out
+      url: https://moody.today/
+    - name: IndieWeb
+      url: https://🕸💍.ws
+    - name: Fediring
+      url: https://fediring.net/

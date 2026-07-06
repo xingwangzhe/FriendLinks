@@ -1,12 +1,12 @@
 site:
-  name: "blog.qiulaidongfeng.uk"
-  url: "https://blog.qiulaidongfeng.uk/"
-  description: "友情链接"
-  links: "/"
+  name: 秋来冬风的博客
+  url: https://blog.qiulaidongfeng.uk/
+  description: Github用户qiulaidongfeng的个人博客，主要和Go语言以及网站建设（如使用Cloudflare,选择vps）等互联网技术有关。我是一位专业的软件设计师，欢迎访问我的博客。
+  links: /
   friends:
-    - name: "小白学网络"
-      url: "https://ljnws.cn/"
-    - name: "小改学习志"
-      url: "https://www.haoyu233.com/"
-    - name: "默小班"
-      url: "https://www.memxb.top/"
+    - name: 小白学网络
+      url: https://ljnws.cn/
+    - name: 小改学习志
+      url: https://www.haoyu233.com/
+    - name: 默小班
+      url: https://www.memxb.top/

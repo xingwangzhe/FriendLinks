@@ -1,10 +1,10 @@
 site:
-  name: "lejtzendesign.se"
-  url: "https://lejtzendesign.se/"
-  description: "友情链接"
-  links: "/"
+  name: "Lejtzén Design: webbyrå i Växjö av Vincent Lejtzén"
+  url: https://lejtzendesign.se/
+  description: Vincent Lejtzén är en frontend-utvecklare och digital skapare som driver en webbyrå i Växjö.
+  links: /
   friends:
-    - name: "röda dagar 2025"
-      url: "https://rodadagar.nu"
-    - name: "försäkra bil"
-      url: "https://forsakrabil.se"
+    - name: röda dagar 2025
+      url: https://rodadagar.nu
+    - name: försäkra bil
+      url: https://forsakrabil.se

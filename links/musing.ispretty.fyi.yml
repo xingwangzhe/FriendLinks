@@ -1,12 +1,12 @@
 site:
-  name: "musing.ispretty.fyi"
-  url: "https://musing.ispretty.fyi/"
-  description: "友情链接"
-  links: "/"
+  name: /musing/
+  url: https://musing.ispretty.fyi/
+  description: /leaf was here/
+  links: /
   friends:
-    - name: "/retronaut webring/"
-      url: "https://webring.dinhe.net/"
-    - name: "anemone"
-      url: "https://anemone.pages.dev/"
-    - name: "Bear ʕ•ᴥ•ʔ"
-      url: "https://bearblog.dev"
+    - name: /retronaut webring/
+      url: https://webring.dinhe.net/
+    - name: anemone
+      url: https://anemone.pages.dev/
+    - name: Bear ʕ•ᴥ•ʔ
+      url: https://bearblog.dev

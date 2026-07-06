@@ -1,66 +1,66 @@
 site:
-  name: "liw.fi"
-  url: "https://liw.fi/"
-  description: "友情链接"
-  links: "/links"
+  name: Lars Wirzenius
+  url: https://liw.fi/
+  description: 友情链接
+  links: /links
   friends:
-    - name: "Sanakirja"
-      url: "http://www.sanakirja.org/"
-    - name: "Kierrätys"
-      url: "http://www.kierratys.info/"
-    - name: "Typing"
-      url: "https://zty.pe/"
-    - name: "Practical typography"
-      url: "https://practicaltypography.com/"
-    - name: "indie"
-      url: "https://www.kinot.fi/"
-    - name: "Debugging Rules"
-      url: "http://www.debuggingrules.com/"
-    - name: "debian.org"
-      url: "http://www.debian.org/"
-    - name: "Monimetalli"
-      url: "http://monimetalli.net"
-    - name: "verkkokauppa"
-      url: "http://www.verkkokauppa.com"
-    - name: "Hetzner"
-      url: "https://www.hetzner.com/"
-    - name: "Online.net"
-      url: "https://www.online.net"
-    - name: "Scaleway"
-      url: "https://www.scaleway.com"
-    - name: "LCHost"
-      url: "https://lchost.uk/"
-    - name: "Amazon UK"
-      url: "http://www.amazon.co.uk/"
-    - name: "Better world books"
-      url: "https://www.betterworldbooks.com/"
-    - name: "Big Oliver"
-      url: "https://www.bigoliver.fi/"
-    - name: "Dandy"
-      url: "https://www.dandyhelsinki.fi/"
-    - name: "Sukkamestarit"
-      url: "https://sukkamestarit.fi/"
-    - name: "EFFI"
-      url: "http://www.effi.org/"
-    - name: "Burger Games"
-      url: "http://www.burgergames.com"
-    - name: "Tollef's free relay"
-      url: "http://freerelay.err.no/"
-    - name: "Hetzner Cloud"
-      url: "https://console.hetzner.cloud/"
-    - name: "Notes on OpenPGP for application developers"
-      url: "https://openpgp.dev/"
-    - name: "down?"
-      url: "http://downforeveryoneorjustme.com/"
-    - name: "Broadband speedchecker"
-      url: "https://www.broadbandspeedchecker.co.uk/"
-    - name: "fast.com"
-      url: "https://fast.com"
-    - name: "Maata pitkin"
-      url: "https://maatapitkin.net/"
-    - name: "Onebag"
-      url: "http://www.onebag.com/"
-    - name: "Redoxx"
-      url: "http://www.redoxx.com/"
-    - name: "fineli"
-      url: "http://www.fineli.fi/"
+    - name: Sanakirja
+      url: http://www.sanakirja.org/
+    - name: Kierrätys
+      url: http://www.kierratys.info/
+    - name: Typing
+      url: https://zty.pe/
+    - name: Practical typography
+      url: https://practicaltypography.com/
+    - name: indie
+      url: https://www.kinot.fi/
+    - name: Debugging Rules
+      url: http://www.debuggingrules.com/
+    - name: debian.org
+      url: http://www.debian.org/
+    - name: Monimetalli
+      url: http://monimetalli.net
+    - name: verkkokauppa
+      url: http://www.verkkokauppa.com
+    - name: Hetzner
+      url: https://www.hetzner.com/
+    - name: Online.net
+      url: https://www.online.net
+    - name: Scaleway
+      url: https://www.scaleway.com
+    - name: LCHost
+      url: https://lchost.uk/
+    - name: Amazon UK
+      url: http://www.amazon.co.uk/
+    - name: Better world books
+      url: https://www.betterworldbooks.com/
+    - name: Big Oliver
+      url: https://www.bigoliver.fi/
+    - name: Dandy
+      url: https://www.dandyhelsinki.fi/
+    - name: Sukkamestarit
+      url: https://sukkamestarit.fi/
+    - name: EFFI
+      url: http://www.effi.org/
+    - name: Burger Games
+      url: http://www.burgergames.com
+    - name: Tollef's free relay
+      url: http://freerelay.err.no/
+    - name: Hetzner Cloud
+      url: https://console.hetzner.cloud/
+    - name: Notes on OpenPGP for application developers
+      url: https://openpgp.dev/
+    - name: down?
+      url: http://downforeveryoneorjustme.com/
+    - name: Broadband speedchecker
+      url: https://www.broadbandspeedchecker.co.uk/
+    - name: fast.com
+      url: https://fast.com
+    - name: Maata pitkin
+      url: https://maatapitkin.net/
+    - name: Onebag
+      url: http://www.onebag.com/
+    - name: Redoxx
+      url: http://www.redoxx.com/
+    - name: fineli
+      url: http://www.fineli.fi/

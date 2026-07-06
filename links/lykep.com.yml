@@ -1,12 +1,12 @@
 site:
-  name: "lykep.com"
-  url: "http://www.lykep.com/"
-  description: "友情链接"
-  links: "/"
+  name: 零艺客
+  url: http://www.lykep.com/
+  description: 一个简单的个人博客，来自南部的一个小城市，个性不张扬，讨厌随波逐流，期望相逢的人会再相逢，相信着美好的事情将会发生。
+  links: /
   friends:
-    - name: "爱好者博客"
-      url: "https://www.87csn.com"
-    - name: "海量API"
-      url: "https://www.hlapi.cn"
-    - name: "星辰博客"
-      url: "https://www.xcboke.cn"
+    - name: 爱好者博客
+      url: https://www.87csn.com
+    - name: 海量API
+      url: https://www.hlapi.cn
+    - name: 星辰博客
+      url: https://www.xcboke.cn

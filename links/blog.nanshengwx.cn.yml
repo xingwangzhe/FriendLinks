@@ -1,18 +1,22 @@
 site:
-  name: "blog.nanshengwx.cn"
-  description: "友情链接"
-  url: "https://blog.nanshengwx.cn/"
-  links: "/friends"
+  name: 楠笙の博客｜成长日记
+  description: |-
+    建立这个网站的初衷就是记录自己生活的点点滴滴，学习游玩琐事等。正如俗话所说，
+        好脑不如个烂笔头，
+        有些事情有些人是值得我们去铭记的，这样子在以后回忆起来才不会感觉空空荡荡。<br>
+            <strong class='miaoShu'>祝屏幕前正在阅读我博客的你 —— 所念皆如愿，所行皆坦途，陌生人，天天开心！！！ </strong>
+  url: https://blog.nanshengwx.cn/
+  links: /friends
   friends:
-    - name: "绘星科技工坊 8 小时前"
-      url: "https://www.aobp.cn/"
-    - name: "张洪Heo 3 天前"
-      url: "https://blog.zhheo.com/"
-    - name: "云灿の随笔小站 4 天前"
-      url: "https://blog.yuncan.xyz/"
-    - name: "FunnyWii's Zone 5 天前"
-      url: "https://funnywii.com/"
-    - name: "向阳而生 6 天前"
-      url: "https://blog.7wate.com/"
-    - name: "小林酱博客 10 天前"
-      url: "https://blog.zxiaolin.com"
+    - name: 绘星科技工坊 8 小时前
+      url: https://www.aobp.cn/
+    - name: 张洪Heo 3 天前
+      url: https://blog.zhheo.com/
+    - name: 云灿の随笔小站 4 天前
+      url: https://blog.yuncan.xyz/
+    - name: FunnyWii's Zone 5 天前
+      url: https://funnywii.com/
+    - name: 向阳而生 6 天前
+      url: https://blog.7wate.com/
+    - name: 小林酱博客 10 天前
+      url: https://blog.zxiaolin.com

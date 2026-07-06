@@ -1,20 +1,20 @@
 site:
-  name: "davidroessli.com"
-  url: "https://davidroessli.com/"
-  description: "友情链接"
-  links: "/"
+  name: Welcome to david.roess.li's personal weblog
+  url: https://davidroessli.com/
+  description: Hello, my name is David Roessli. I am a freelance web designer and developer based in Geneva, Switzerland.
+  links: /
   friends:
-    - name: "I make websites"
-      url: "https://www.cybmed.com"
-    - name: "Kirby 5"
-      url: "https://getkirby.com/"
-    - name: "Raindrop.io"
-      url: "https://raindrop.io/"
-    - name: "The Chaos"
-      url: "https://thechaos.page/"
-    - name: "Fraude Design"
-      url: "https://fraude.design/"
-    - name: "StrawPoll"
-      url: "https://strawpoll.com"
-    - name: "An IndieWeb Webring"
-      url: "https://🕸💍.ws"
+    - name: I make websites
+      url: https://www.cybmed.com
+    - name: Kirby 5
+      url: https://getkirby.com/
+    - name: Raindrop.io
+      url: https://raindrop.io/
+    - name: The Chaos
+      url: https://thechaos.page/
+    - name: Fraude Design
+      url: https://fraude.design/
+    - name: StrawPoll
+      url: https://strawpoll.com
+    - name: An IndieWeb Webring
+      url: https://🕸💍.ws

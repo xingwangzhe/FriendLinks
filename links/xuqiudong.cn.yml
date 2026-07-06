@@ -1,18 +1,18 @@
 site:
-  name: "xuqiudong.cn"
-  url: "http://www.xuqiudong.cn/"
-  description: "友情链接"
-  links: "/"
+  name: 临窗旋墨的博客
+  url: http://www.xuqiudong.cn/
+  description: 临窗旋墨的博客,专注java技术,分享springboot,springcloud,mybatis,mysql,redis,maven,git,mq等常用技术或者框架的使用;源码分析,javaweb开发问题解决等
+  links: /
   friends:
-    - name: "临窗旋墨"
-      url: "http://xuqiudong.gitee.io/"
-    - name: "李锋镝的博客"
-      url: "https://www.lifengdi.com/"
-    - name: "蘑菇博客"
-      url: "http://www.moguit.cn/"
-    - name: "程序猿DD"
-      url: "https://blog.didispace.com/"
-    - name: "zzipsun.com个人博客"
-      url: "http://www.zzipsun.com/"
-    - name: "临窗旋墨github"
-      url: "https://xuqiudong.github.io/"
+    - name: 临窗旋墨
+      url: http://xuqiudong.gitee.io/
+    - name: 李锋镝的博客
+      url: https://www.lifengdi.com/
+    - name: 蘑菇博客
+      url: http://www.moguit.cn/
+    - name: 程序猿DD
+      url: https://blog.didispace.com/
+    - name: zzipsun.com个人博客
+      url: http://www.zzipsun.com/
+    - name: 临窗旋墨github
+      url: https://xuqiudong.github.io/

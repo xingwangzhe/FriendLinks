@@ -1,14 +1,14 @@
 site:
-  name: "blog.podsnap.com"
-  url: "https://blog.podsnap.com/"
-  description: "友情链接"
-  links: "/"
+  name: podsnap
+  url: https://blog.podsnap.com/
+  description: podsnap
+  links: /
   friends:
-    - name: "Recurse Center"
-      url: "http://recurse.com"
-    - name: "Dealbreaker"
-      url: "http://dealbreaker.com/"
-    - name: "Naked Capitalism"
-      url: "http://www.nakedcapitalism.com"
-    - name: "Language Hat"
-      url: "http://www.languagehat.com"
+    - name: Recurse Center
+      url: http://recurse.com
+    - name: Dealbreaker
+      url: http://dealbreaker.com/
+    - name: Naked Capitalism
+      url: http://www.nakedcapitalism.com
+    - name: Language Hat
+      url: http://www.languagehat.com

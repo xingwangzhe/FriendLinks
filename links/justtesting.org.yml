@@ -1,12 +1,12 @@
 site:
-  name: "justtesting.org"
-  url: "https://justtesting.org/"
-  description: "友情链接"
-  links: "/"
+  name: Just Testing
+  url: https://justtesting.org/
+  description: Welcome to the blog of Manuel M T Chakravarty. I am a computer scientist with a background in programming languages, parallel programming, distributed systems, and cryptography. My current research is
+  links: /
   friends:
-    - name: "Haskell for Mac"
-      url: "http://haskellformac.com"
-    - name: "IOHK"
-      url: "https://iohk.io"
-    - name: "YOW! Lambda Jam"
-      url: "https://lambdajam.yowconference.com.au"
+    - name: Haskell for Mac
+      url: http://haskellformac.com
+    - name: IOHK
+      url: https://iohk.io
+    - name: YOW! Lambda Jam
+      url: https://lambdajam.yowconference.com.au

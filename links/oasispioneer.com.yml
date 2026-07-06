@@ -1,10 +1,10 @@
 site:
-  name: "oasispioneer.com"
-  url: "https://www.oasispioneer.com/"
-  description: "友情链接"
-  links: "/links"
+  name: Styx Blog
+  url: https://www.oasispioneer.com/
+  description: Styx Blog 一个专注于分享 C++ 编程技术的个人博客
+  links: /links
   friends:
-    - name: "WishMeLz人间万事消磨尽，只有清香似旧时!"
-      url: "https://blog.itsse.cn/"
-    - name: "Jimmy"
-      url: "https://jimmycai.com"
+    - name: WishMeLz人间万事消磨尽，只有清香似旧时!
+      url: https://blog.itsse.cn/
+    - name: Jimmy
+      url: https://jimmycai.com

@@ -1,18 +1,18 @@
 site:
-  name: "blog.samibadawi.com"
-  url: "https://blog.samibadawi.com/"
-  description: "友情链接"
-  links: "/"
+  name: Languages and Logic
+  url: https://blog.samibadawi.com/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Unison-lang"
-      url: "https://www.unison-lang.org"
-    - name: "Unison Cloud"
-      url: "https://www.unison.cloud"
-    - name: "TensorFlow"
-      url: "https://www.tensorflow.org/"
-    - name: "Spacemacs"
-      url: "https://www.spacemacs.org/"
-    - name: "SpaceVim"
-      url: "https://spacevim.org/"
-    - name: "OCaml"
-      url: "https://ocaml.org/"
+    - name: Unison-lang
+      url: https://www.unison-lang.org
+    - name: Unison Cloud
+      url: https://www.unison.cloud
+    - name: TensorFlow
+      url: https://www.tensorflow.org/
+    - name: Spacemacs
+      url: https://www.spacemacs.org/
+    - name: SpaceVim
+      url: https://spacevim.org/
+    - name: OCaml
+      url: https://ocaml.org/

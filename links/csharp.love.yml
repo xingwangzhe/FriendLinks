@@ -1,10 +1,10 @@
 site:
-  name: "csharp.love"
-  url: "https://csharp.love/"
-  description: "友情链接"
-  links: "/"
+  name: Home - C# Love
+  url: https://csharp.love/
+  description: "C# Love : 一个又菜又爱玩的的非技术性博客，喜欢C#但是也研究其他技术。偶尔分享点自己生活中遇到的问题以及解决过程。"
+  links: /
   friends:
-    - name: "Shuax – 耍下"
-      url: "http://www.shuax.com/"
-    - name: "NtrQQ – 牛头人"
-      url: "http://ntrqq.net/"
+    - name: Shuax – 耍下
+      url: http://www.shuax.com/
+    - name: NtrQQ – 牛头人
+      url: http://ntrqq.net/

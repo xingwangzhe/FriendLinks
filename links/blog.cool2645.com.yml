@@ -1,8 +1,8 @@
 site:
-  name: "blog.cool2645.com"
-  url: "https://blog.cool2645.com/"
-  description: "友情链接"
-  links: "/"
+  name: 主页
+  url: https://blog.cool2645.com/
+  description: 2645 实验室是 2645 工作室的技术博客。
+  links: /
   friends:
-    - name: "Strapi"
-      url: "https://strapi.io/"
+    - name: Strapi
+      url: https://strapi.io/

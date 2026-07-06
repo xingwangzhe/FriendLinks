@@ -1,16 +1,16 @@
 site:
-  name: "gh0st.cn"
-  url: "http://gh0st.cn/"
-  description: "友情链接"
-  links: "/friends"
+  name: Chen's Blog
+  url: http://gh0st.cn/
+  description: Chen's Blog，分享安全领域的所思、所想、所学。
+  links: /friends
   friends:
-    - name: "Depy"
-      url: "https://rce.ink"
-    - name: "T4rn"
-      url: "https://www.hackerpoet.com/"
-    - name: "Powerviews"
-      url: "https://powerviews.github.io/"
-    - name: "三米前有蕉皮"
-      url: "https://blog.kali-team.cn/"
-    - name: "Cata1oc"
-      url: "https://cata1oc.github.io"
+    - name: Depy
+      url: https://rce.ink
+    - name: T4rn
+      url: https://www.hackerpoet.com/
+    - name: Powerviews
+      url: https://powerviews.github.io/
+    - name: 三米前有蕉皮
+      url: https://blog.kali-team.cn/
+    - name: Cata1oc
+      url: https://cata1oc.github.io

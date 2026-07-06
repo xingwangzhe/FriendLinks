@@ -1,10 +1,10 @@
 site:
-  name: "ericlippert.com"
-  url: "http://ericlippert.com/"
-  description: "友情链接"
-  links: "/"
+  name: Eric Lippert's blog
+  url: http://ericlippert.com/
+  description: Eric Lippert's blog
+  links: /
   friends:
-    - name: "Stratego"
-      url: "https://strategoxt.org/"
-    - name: "Manage subscriptions"
-      url: "https://subscribe.wordpress.com/"
+    - name: Stratego
+      url: https://strategoxt.org/
+    - name: Manage subscriptions
+      url: https://subscribe.wordpress.com/

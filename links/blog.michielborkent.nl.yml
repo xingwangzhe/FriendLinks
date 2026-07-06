@@ -1,20 +1,20 @@
 site:
-  name: "blog.michielborkent.nl"
-  url: "https://blog.michielborkent.nl/"
-  description: "友情链接"
-  links: "/"
+  name: REPL adventures
+  url: https://blog.michielborkent.nl/
+  description: A blog mostly about Clojure and ClojureScript.
+  links: /
   friends:
-    - name: "Clojurists Together"
-      url: "https://www.clojuriststogether.org/"
-    - name: "Clojurians Slack"
-      url: "https://clojurians.net/"
-    - name: "Clojurists Together"
-      url: "https://clojuriststogether.org/"
-    - name: "Roam Research"
-      url: "https://roamresearch.com/"
-    - name: "Nextjournal"
-      url: "https://nextjournal.com/"
-    - name: "Itonomi"
-      url: "https://itonomi.com"
-    - name: "Dutch Clojure Days 2026"
-      url: "https://clojuredays.org/"
+    - name: Clojurists Together
+      url: https://www.clojuriststogether.org/
+    - name: Clojurians Slack
+      url: https://clojurians.net/
+    - name: Clojurists Together
+      url: https://clojuriststogether.org/
+    - name: Roam Research
+      url: https://roamresearch.com/
+    - name: Nextjournal
+      url: https://nextjournal.com/
+    - name: Itonomi
+      url: https://itonomi.com
+    - name: Dutch Clojure Days 2026
+      url: https://clojuredays.org/

@@ -1,20 +1,20 @@
 site:
-  name: "wabk.net"
-  description: "友情链接"
-  url: "https://wabk.net/"
-  links: "/friends"
+  name: 博客系统
+  description: 友情链接
+  url: https://wabk.net/
+  links: /friends
   friends:
-    - name: "XUCANCHENG"
-      url: "http://xucancheng.cn/"
-    - name: "汀彵の汐"
-      url: "https://www.izznan.cn/"
-    - name: "柒柒"
-      url: "https://www.lwgzs.cn"
-    - name: "泠泫凝"
-      url: "https://lxnchan.cn"
-    - name: "远方博客"
-      url: "https://blog.ltyuanfang.cn/"
-    - name: "若志・随笔"
-      url: "https://www.rz.sb/"
-    - name: "小絮"
-      url: "https://www.gymxbl.com/"
+    - name: XUCANCHENG
+      url: http://xucancheng.cn/
+    - name: 汀彵の汐
+      url: https://www.izznan.cn/
+    - name: 柒柒
+      url: https://www.lwgzs.cn
+    - name: 泠泫凝
+      url: https://lxnchan.cn
+    - name: 远方博客
+      url: https://blog.ltyuanfang.cn/
+    - name: 若志・随笔
+      url: https://www.rz.sb/
+    - name: 小絮
+      url: https://www.gymxbl.com/

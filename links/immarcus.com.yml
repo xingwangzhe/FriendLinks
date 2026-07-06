@@ -1,8 +1,8 @@
 site:
-  name: "immarcus.com"
-  url: "https://immarcus.com/"
-  description: "友情链接"
-  links: "/about"
+  name: 欢迎
+  url: https://immarcus.com/
+  description: Hi, I'm Marcus.  欢迎来访本人的网站，这里有我简短的自我介绍。
+  links: /about
   friends:
-    - name: "NiceChord"
-      url: "https://nicechord.com"
+    - name: NiceChord
+      url: https://nicechord.com

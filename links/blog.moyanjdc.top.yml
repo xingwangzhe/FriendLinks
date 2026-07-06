@@ -1,12 +1,12 @@
 site:
-  name: "blog.moyanjdc.top"
-  url: "https://blog.moyanjdc.top/"
-  description: "友情链接"
-  links: "/friends.html"
+  name: MoYan's Blog
+  url: https://blog.moyanjdc.top/
+  description: A simple Blog of moyan.
+  links: /friends.html
   friends:
-    - name: "WoKuCreator"
-      url: "https://www.woku.link/"
-    - name: "❖星港◎Star☆"
-      url: "https://blog.starsharbor.com/"
-    - name: "猫猫头开发"
-      url: "https://www.meowhead.cn/"
+    - name: WoKuCreator
+      url: https://www.woku.link/
+    - name: ❖星港◎Star☆
+      url: https://blog.starsharbor.com/
+    - name: 猫猫头开发
+      url: https://www.meowhead.cn/

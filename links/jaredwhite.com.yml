@@ -1,10 +1,10 @@
 site:
-  name: "jaredwhite.com"
-  url: "https://jaredwhite.com/"
-  description: "友情链接"
-  links: "/"
+  name: "Jared White: Expressively publishing on the open web since 1996"
+  url: https://jaredwhite.com/
+  description: Expressively publishing on the open web since 1996. Entranced by Portland, Oregon since 2017.
+  links: /
   friends:
-    - name: "statichost.eu"
-      url: "https://statichost.eu"
-    - name: "That's what I do for a living!"
-      url: "https://www.whitefusion.studio"
+    - name: statichost.eu
+      url: https://statichost.eu
+    - name: That's what I do for a living!
+      url: https://www.whitefusion.studio

@@ -1,10 +1,10 @@
 site:
-  name: "blog.metaobject.com"
-  url: "http://blog.metaobject.com/"
-  description: "友情链接"
-  links: "/"
+  name: metablog
+  url: http://blog.metaobject.com/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Objective-S"
-      url: "https://objective.st"
-    - name: "Deployment from Scratch"
-      url: "https://deploymentfromscratch.com/"
+    - name: Objective-S
+      url: https://objective.st
+    - name: Deployment from Scratch
+      url: https://deploymentfromscratch.com/

@@ -1,12 +1,12 @@
 site:
-  name: "liangmouyin.com"
-  url: "https://liangmouyin.com/"
-  description: "友情链接"
-  links: "/links"
+  name: 梁某银的博客
+  url: https://liangmouyin.com/
+  description: 记录，分享，成长
+  links: /links
   friends:
-    - name: "Cytrogen 的个人博客"
-      url: "https://blog.cytrogen.icu/"
+    - name: Cytrogen 的个人博客
+      url: https://blog.cytrogen.icu/
     - name: "#UNTAG"
-      url: "https://utgd.net/"
-    - name: "Ratfactor"
-      url: "https://ratfactor.com/"
+      url: https://utgd.net/
+    - name: Ratfactor
+      url: https://ratfactor.com/

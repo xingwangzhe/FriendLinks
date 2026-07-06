@@ -1,14 +1,14 @@
 site:
-  name: "stuartbreckenridge.net"
-  url: "https://stuartbreckenridge.net/"
-  description: "友情链接"
-  links: "/"
+  name: Stuart Breckenridge
+  url: https://stuartbreckenridge.net/
+  description: Personal blog by Stuart Breckenridge. App development, Apple ecosystem, cycling, and more.
+  links: /
   friends:
-    - name: "Byline"
-      url: "https://www.bylinespec.org/"
-    - name: "Gobbler"
-      url: "https://gobbler.press"
-    - name: "Webmention.io"
-      url: "https://webmention.io"
-    - name: "brid.gy"
-      url: "https://brid.gy"
+    - name: Byline
+      url: https://www.bylinespec.org/
+    - name: Gobbler
+      url: https://gobbler.press
+    - name: Webmention.io
+      url: https://webmention.io
+    - name: brid.gy
+      url: https://brid.gy

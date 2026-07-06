@@ -1,10 +1,10 @@
 site:
-  name: "shiina.xyz"
-  url: "https://shiina.xyz/"
-  description: "友情链接"
-  links: "/friends"
+  name: Saku Shiina
+  url: https://shiina.xyz/
+  description: Saku Shiina (椎名 朔) is a full-stack engineer building high-performance web products with Astro, TypeScript, Rust, and Go. Based on the web.
+  links: /friends
   friends:
-    - name: "Blog"
-      url: "https://blog.rqwq.link"
-    - name: "Blog"
-      url: "https://example.com"
+    - name: Blog
+      url: https://blog.rqwq.link
+    - name: Blog
+      url: https://example.com

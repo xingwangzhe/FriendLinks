@@ -1,10 +1,10 @@
 site:
-  name: "eltr.ac"
-  url: "https://www.eltr.ac/"
-  description: "友情链接"
-  links: "/"
+  name: Eltrac
+  url: https://www.eltr.ac/
+  description: 友情链接
+  links: /
   friends:
-    - name: "极客死亡计划"
-      url: "https://www.geedea.pro"
-    - name: "eltrac@xmpp.earth"
-      url: "https://xmpp.link/#eltrac@xmpp.earth"
+    - name: 极客死亡计划
+      url: https://www.geedea.pro
+    - name: eltrac@xmpp.earth
+      url: https://xmpp.link/#eltrac@xmpp.earth

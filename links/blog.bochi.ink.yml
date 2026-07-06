@@ -1,26 +1,26 @@
 site:
-  name: "blog.bochi.ink"
-  url: "https://blog.bochi.ink/"
-  description: "友情链接"
-  links: "/friends"
+  name: 辣白菜的部落格
+  url: https://blog.bochi.ink/
+  description: A Blog Powered By Hexo
+  links: /friends
   friends:
-    - name: "Makito"
-      url: "https://www.keep.moe"
-    - name: "阿明の博客"
-      url: "http://hexo.zhangaming.com/"
-    - name: "动G Blog"
-      url: "https://verbg.com/"
-    - name: "InitCool"
-      url: "https://blog.nmslwsnd.com/"
-    - name: "咕噜小站"
-      url: "http://uulu.net/"
-    - name: "Limohan"
-      url: "http://limohan.cn/"
-    - name: "CtrlCV博客"
-      url: "https://www.hack-er.cn/"
-    - name: "XingYu ‘blog"
-      url: "https://www.itxy.tech"
-    - name: "我们博客"
-      url: "https://sewe.cc/"
-    - name: "Three"
-      url: "https://three-c.github.io/"
+    - name: Makito
+      url: https://www.keep.moe
+    - name: 阿明の博客
+      url: http://hexo.zhangaming.com/
+    - name: 动G Blog
+      url: https://verbg.com/
+    - name: InitCool
+      url: https://blog.nmslwsnd.com/
+    - name: 咕噜小站
+      url: http://uulu.net/
+    - name: Limohan
+      url: http://limohan.cn/
+    - name: CtrlCV博客
+      url: https://www.hack-er.cn/
+    - name: XingYu ‘blog
+      url: https://www.itxy.tech
+    - name: 我们博客
+      url: https://sewe.cc/
+    - name: Three
+      url: https://three-c.github.io/

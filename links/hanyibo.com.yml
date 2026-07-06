@@ -1,30 +1,30 @@
 site:
-  name: "hanyibo.com"
-  url: "https://www.hanyibo.com/"
-  description: "友情链接"
-  links: "/links.html"
+  name: 韩艺博的博客
+  url: https://www.hanyibo.com/
+  description: 韩艺博的个人博客，学习笔记，主要记录Python、网络、运维方面内容。
+  links: /links.html
   friends:
-    - name: "小兔博客"
-      url: "https://32mb.net/"
-    - name: "非理勿试"
-      url: "https://www.ntiy.com/"
-    - name: "LINPX"
-      url: "https://www.linpx.com/"
-    - name: "浅秋枫影"
-      url: "https://cuojue.org/"
-    - name: "SycBlog"
-      url: "https://www.php.wf"
-    - name: "欧阳博客"
-      url: "https://www.oyzm.cn/"
-    - name: "知我知行"
-      url: "https://www.lianst.com"
-    - name: "辣条网"
-      url: "https://www.latiao.org"
-    - name: "韩小韩博客"
-      url: "https://www.vvhan.com/"
-    - name: "BH4FWA"
-      url: "https://www.bh4fwa.com/"
-    - name: "mp4网"
-      url: "http://mp4wang.cc"
-    - name: "Burce"
-      url: "https://www.wubin.design"
+    - name: 小兔博客
+      url: https://32mb.net/
+    - name: 非理勿试
+      url: https://www.ntiy.com/
+    - name: LINPX
+      url: https://www.linpx.com/
+    - name: 浅秋枫影
+      url: https://cuojue.org/
+    - name: SycBlog
+      url: https://www.php.wf
+    - name: 欧阳博客
+      url: https://www.oyzm.cn/
+    - name: 知我知行
+      url: https://www.lianst.com
+    - name: 辣条网
+      url: https://www.latiao.org
+    - name: 韩小韩博客
+      url: https://www.vvhan.com/
+    - name: BH4FWA
+      url: https://www.bh4fwa.com/
+    - name: mp4网
+      url: http://mp4wang.cc
+    - name: Burce
+      url: https://www.wubin.design

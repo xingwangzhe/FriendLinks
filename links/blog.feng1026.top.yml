@@ -1,14 +1,14 @@
 site:
-  name: "blog.feng1026.top"
-  url: "https://blog.feng1026.top/"
-  description: "友情链接"
-  links: "/friends"
+  name: 枫落丰源 - 和你的日常，就是奇迹
+  url: https://blog.feng1026.top/
+  description: 枫落丰源的个人博客，记录编程开发、前端与 Astro 实践、折腾笔记、生活随想和 ACG 兴趣，分享 Qiufengluoye 在技术与日常中的探索。
+  links: /friends
   friends:
-    - name: "Mugzx's Blog ● 向上革命，向下实践。 挚友"
-      url: "https://blog.mugzx.top/"
-    - name: "MoXiify's Blog ● 做一条，逆流的鱼。 网友"
-      url: "https://note.moxiify.cn/"
-    - name: "LineXic 书屋 ● 难离难舍，想抱紧些 网友"
-      url: "https://www.linexic.top/"
-    - name: "张恒华 ● SDN 研究者 网友"
-      url: "https://zhh2001.github.io/"
+    - name: Mugzx's Blog ● 向上革命，向下实践。 挚友
+      url: https://blog.mugzx.top/
+    - name: MoXiify's Blog ● 做一条，逆流的鱼。 网友
+      url: https://note.moxiify.cn/
+    - name: LineXic 书屋 ● 难离难舍，想抱紧些 网友
+      url: https://www.linexic.top/
+    - name: 张恒华 ● SDN 研究者 网友
+      url: https://zhh2001.github.io/

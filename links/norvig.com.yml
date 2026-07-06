@@ -1,10 +1,10 @@
 site:
-  name: "norvig.com"
-  url: "https://norvig.com/"
-  description: "友情链接"
-  links: "/"
+  name: Peter Norvig
+  url: https://norvig.com/
+  description: 友情链接
+  links: /
   friends:
-    - name: "photo gallery"
-      url: "https://pn.smugmug.com"
-    - name: "Data Science in Context"
-      url: "https://datascienceincontext.com/"
+    - name: photo gallery
+      url: https://pn.smugmug.com
+    - name: Data Science in Context
+      url: https://datascienceincontext.com/

@@ -1,12 +1,12 @@
 site:
-  name: "ratfactor.com"
-  url: "https://ratfactor.com/"
-  description: "友情链接"
-  links: "/links"
+  name: Home - ratfactor
+  url: https://ratfactor.com/
+  description: 友情链接
+  links: /links
   friends:
-    - name: "Wiktionary"
-      url: "https://www.wiktionary.org/"
-    - name: "Internet Archive"
-      url: "http://archive.org/"
-    - name: "The Electronic Frontier Foundation"
-      url: "https://www.eff.org/"
+    - name: Wiktionary
+      url: https://www.wiktionary.org/
+    - name: Internet Archive
+      url: http://archive.org/
+    - name: The Electronic Frontier Foundation
+      url: https://www.eff.org/

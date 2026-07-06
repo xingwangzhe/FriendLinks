@@ -1,16 +1,19 @@
 site:
-  name: "griffenedge.com"
-  url: "https://griffenedge.com/"
-  description: "友情链接"
-  links: "/"
+  name: |-
+    Griffen Edge
+          -
+          User Experience Designer
+  url: https://griffenedge.com/
+  description: I'm Griffen, a user experience (UX) designer who believes good design has the power to make the world a better place.
+  links: /
   friends:
-    - name: "SSW Australia"
-      url: "https://www.ssw.com.au/"
-    - name: "TinaCMS"
-      url: "https://tina.io/"
-    - name: "Avanade"
-      url: "https://www.avanade.com/"
-    - name: "Sydney University Experience Designers"
-      url: "https://www.suede.org.au/"
-    - name: "Inner West Theatre Company"
-      url: "https://www.innerwesttheatre.com.au/"
+    - name: SSW Australia
+      url: https://www.ssw.com.au/
+    - name: TinaCMS
+      url: https://tina.io/
+    - name: Avanade
+      url: https://www.avanade.com/
+    - name: Sydney University Experience Designers
+      url: https://www.suede.org.au/
+    - name: Inner West Theatre Company
+      url: https://www.innerwesttheatre.com.au/

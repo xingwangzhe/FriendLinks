@@ -1,10 +1,10 @@
 site:
-  name: "mozzy.dev"
-  url: "https://mozzy.dev/"
-  description: "友情链接"
-  links: "/"
+  name: Hello, I'm Thomas - mozzy.dev
+  url: https://mozzy.dev/
+  description: The website of Thomas Morris aka mozzy.dev
+  links: /
   friends:
-    - name: "Hylia"
-      url: "https://hylia.website"
-    - name: "Eleventy"
-      url: "https://11ty.io/"
+    - name: Hylia
+      url: https://hylia.website
+    - name: Eleventy
+      url: https://11ty.io/

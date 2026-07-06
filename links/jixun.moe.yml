@@ -1,24 +1,29 @@
 site:
-  name: "jixun.moe"
-  url: "https://jixun.moe/"
-  description: "友情链接"
-  links: "/links"
+  name: 首页
+  url: https://jixun.moe/
+  description: |-
+    欢迎
+      #
+
+    这里是 Jixun 的首页，主要用来发布一些自己做的小工具。
+    你可以在导航找到部分工具的分类以及适用的方向。
+  links: /links
   friends:
-    - name: "个人博客"
-      url: "https://jixun.uk/"
-    - name: "qwe7002"
-      url: "https://qwe7002.com/"
-    - name: "吐槽大王部落格"
-      url: "https://www.tcdw.net/"
-    - name: "冰喵的博客"
-      url: "https://blog.morz.org/"
-    - name: "烧饼博客"
-      url: "https://u.sb/"
-    - name: "电酱的魔法实验室"
-      url: "https://blog.251.sh/"
-    - name: "lolly"
-      url: "https://lolly.cc/"
-    - name: "Ceplavia"
-      url: "https://www.ceplavia.com/"
-    - name: "ousfifty | 欧式fifty"
-      url: "https://blog.ous50.moe/"
+    - name: 个人博客
+      url: https://jixun.uk/
+    - name: qwe7002
+      url: https://qwe7002.com/
+    - name: 吐槽大王部落格
+      url: https://www.tcdw.net/
+    - name: 冰喵的博客
+      url: https://blog.morz.org/
+    - name: 烧饼博客
+      url: https://u.sb/
+    - name: 电酱的魔法实验室
+      url: https://blog.251.sh/
+    - name: lolly
+      url: https://lolly.cc/
+    - name: Ceplavia
+      url: https://www.ceplavia.com/
+    - name: ousfifty | 欧式fifty
+      url: https://blog.ous50.moe/

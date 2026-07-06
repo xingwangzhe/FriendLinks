@@ -1,8 +1,8 @@
 site:
-  name: "mxdyeah.top"
-  url: "https://www.mxdyeah.top/"
-  description: "友情链接"
-  links: "/"
+  name: Welcome To mxd's Planet - V5.0
+  url: https://www.mxdyeah.top/
+  description: 你好！欢迎来到我的个人主页！我是一个热爱技术的学生，在这里你可以找到我其他小站的链接。本站已用Tailwind CSS 重构。Hello! Welcome to my website! I'm a student who loves technology, and here you can find links to my other sites.
+  links: /
   friends:
-    - name: "My Blog"
-      url: "https://blog.mxdyeah.com/"
+    - name: My Blog
+      url: https://blog.mxdyeah.com/

@@ -1,12 +1,12 @@
 site:
-  name: "blog.soarli.top"
-  url: "https://blog.soarli.top/"
-  description: "友情链接"
-  links: "/"
+  name: soarli博客
+  url: https://blog.soarli.top/
+  description: 欢迎来到soarli博客，是一个充满魔力的地方！
+  links: /
   friends:
-    - name: "柒年的博客"
-      url: "https://blog.surpassing.top/"
-    - name: "Anoyer博客"
-      url: "https://anoyer.cn/"
-    - name: "LaoKey's Blog"
-      url: "https://www.laokey.com/"
+    - name: 柒年的博客
+      url: https://blog.surpassing.top/
+    - name: Anoyer博客
+      url: https://anoyer.cn/
+    - name: LaoKey's Blog
+      url: https://www.laokey.com/

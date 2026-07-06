@@ -1,10 +1,10 @@
 site:
-  name: "zhanzhang.me"
-  url: "https://zhanzhang.me/"
-  description: "友情链接"
-  links: "/friends"
+  name: 站长圈子 - 一群热爱互联网的人
+  url: https://zhanzhang.me/
+  description: 站长交流地，聊建站、谈人生、学优化、找资源、共成长。
+  links: /friends
   friends:
-    - name: "王先生"
-      url: "https://www.wangxiansheng.com"
-    - name: "LiMhy"
-      url: "https://i.lilog.cn/"
+    - name: 王先生
+      url: https://www.wangxiansheng.com
+    - name: LiMhy
+      url: https://i.lilog.cn/

@@ -1,10 +1,12 @@
 site:
-  name: "martymcgui.re"
-  url: "https://martymcgui.re/"
-  description: "友情链接"
-  links: "/"
+  name: Marty McGuire
+  url: https://martymcgui.re/
+  description: |-
+    Marty McGuire is a web developer in New York, NY.
+    He can be found posting cat pictures, streaming and podcasting, performing improv comedy, and building IndieWeb things. He also enjoys listening to po
+  links: /
   friends:
-    - name: "gRegor"
-      url: "https://gregorlove.com/"
-    - name: "Bookshop.org"
-      url: "https://bookshop.org/"
+    - name: gRegor
+      url: https://gregorlove.com/
+    - name: Bookshop.org
+      url: https://bookshop.org/

@@ -1,10 +1,10 @@
 site:
-  name: "oldj.net"
-  url: "https://oldj.net/"
-  description: "友情链接"
-  links: "/about"
+  name: oldj's blog
+  url: https://oldj.net/
+  description: oldj's blog
+  links: /about
   friends:
-    - name: "图几 / Tuji"
-      url: "https://tuji.app"
-    - name: "Publa"
-      url: "https://publa.app"
+    - name: 图几 / Tuji
+      url: https://tuji.app
+    - name: Publa
+      url: https://publa.app

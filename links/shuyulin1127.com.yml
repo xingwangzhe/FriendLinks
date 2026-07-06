@@ -1,10 +1,29 @@
 site:
-  name: "shuyulin1127.com"
-  url: "https://shuyulin1127.com/"
-  description: "友情链接"
-  links: "/about"
+  name: Shuyu Pixelart
+  url: https://shuyulin1127.com/
+  description: |-
+    這是 Shuyu 的 Bear Blog
+
+
+    kusudamered224
+
+
+    這是本站的 RSS
+
+
+    <br>
+    最新文章
+    {{ posts|limit:3 }}
+
+    <br>
+
+    shuyuart_88x31
+    shuyulin1127_88x31
+    shuyuicons_88x31
+    ...
+  links: /about
   friends:
-    - name: "Shuyu 的書櫃"
-      url: "https://shuyulin1127.blogspot.com"
-    - name: "Bear ʕ•ᴥ•ʔ"
-      url: "https://bearblog.dev"
+    - name: Shuyu 的書櫃
+      url: https://shuyulin1127.blogspot.com
+    - name: Bear ʕ•ᴥ•ʔ
+      url: https://bearblog.dev

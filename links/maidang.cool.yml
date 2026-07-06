@@ -1,8 +1,8 @@
 site:
-  name: "maidang.cool"
-  url: "http://www.maidang.cool/"
-  description: "友情链接"
-  links: "/"
+  name: 麦当的博客
+  url: http://www.maidang.cool/
+  description: 麦当的博客,记录自己学习网络安全的过程,分享关于网络安全技术与各种编程的文章
+  links: /
   friends:
-    - name: "ired"
-      url: "https://www.ired.team/"
+    - name: ired
+      url: https://www.ired.team/

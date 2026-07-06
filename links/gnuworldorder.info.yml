@@ -1,262 +1,262 @@
 site:
-  name: "gnuworldorder.info"
-  url: "https://gnuworldorder.info/"
-  description: "友情链接"
-  links: "/"
+  name: Gnu World Order
+  url: https://gnuworldorder.info/
+  description: GNU World Order Oggcast
+  links: /
   friends:
-    - name: "More 'Casts"
-      url: "http://thelinuxlink.net"
-    - name: "Hacker Public Radio"
-      url: "http://hackerpublicradio.org"
-    - name: "Slackware"
-      url: "http://slackware.com"
-    - name: "Slackermedia"
-      url: "http://slackermedia.info"
-    - name: "Fediring"
-      url: "https://fediring.net/"
-    - name: "OpenSUSE"
-      url: "https://www.opensuse.org/"
-    - name: "Fedora"
-      url: "https://getfedora.org"
-    - name: "Get Firefox"
-      url: "http://getfirefox.org"
-    - name: "fcitx"
-      url: "https://fcitx-im.org/"
-    - name: "learnlatex.org"
-      url: "https://www.learnlatex.org/"
-    - name: "Netfilter"
-      url: "https://www.netfilter.org"
-    - name: "Yunohost"
-      url: "https://yunohost.org"
-    - name: "GNU mpfr"
-      url: "https://www.mpfr.org/"
-    - name: "OpenNIC"
-      url: "https://opennic.org"
-    - name: "TechnicallyWeWrite.com"
-      url: "https://technicallywewrite.com"
-    - name: "Lensfun"
-      url: "https://lensfun.github.io/"
-    - name: "Jemalloc"
-      url: "http://jemalloc.net/"
-    - name: "Image Magick"
-      url: "https://imagemagick.org"
-    - name: "GJS Guide"
-      url: "https://gjs.guide/"
-    - name: "FSF"
-      url: "http://fsf.org"
-    - name: "Freecell-solver"
-      url: "https://fc-solve.shlomifish.org"
-    - name: "Editorconfig.org"
-      url: "https://editorconfig.org"
-    - name: "Drupal"
-      url: "https://drupal.org"
-    - name: "Grav"
-      url: "https://getgrav.org"
-    - name: "Sysadmin Signal"
-      url: "https://sysadminsignal.com"
-    - name: "rdiff-backup"
-      url: "https://rdiff-backup.net/"
-    - name: "Mageia"
-      url: "https://mageia.org"
-    - name: "K3s lightweight Kubernetes"
-      url: "https://k3s.io/"
-    - name: "Podman Desktop containers"
-      url: "https://podman-desktop.io/"
-    - name: "Sandstorm package manager"
-      url: "https://sandstorm.io/"
-    - name: "Cockatrice"
-      url: "https://cockatrice.github.io/"
-    - name: "Mythic Table"
-      url: "https://mythictable.com/"
-    - name: "Jitsi"
-      url: "https://meet.jit.si"
-    - name: "Slackbuilds.org"
-      url: "https://slackbuilds.org"
-    - name: "Pkgsrc"
-      url: "http://pkgsrc.org"
-    - name: "NetBSD"
-      url: "http://netbsd.org"
-    - name: "Slacky.eu"
-      url: "http://slacky.eu"
-    - name: "Slackonly.com"
-      url: "http://slackonly.com"
-    - name: "Digikam"
-      url: "https://www.digikam.org/"
-    - name: "Calligra"
-      url: "https://calligra.org"
-    - name: "Bluez-Qt"
-      url: "http://www.bluez.org/"
-    - name: "Yasm"
-      url: "http://yasm.tortall.net/"
-    - name: "Thinstation"
-      url: "https://thinstation.github.io"
-    - name: "OpenNX"
-      url: "http://opennx.net/"
-    - name: "Bitkeeper"
-      url: "http://bitkeeper.org"
-    - name: "strace"
-      url: "http://strace.io"
-    - name: "SCons"
-      url: "http://scons.org"
-    - name: "Perl tutorial"
-      url: "https://perltutorial.org"
-    - name: "Perl"
-      url: "https://perl.org/"
-    - name: "CPAN"
-      url: "https://cpan.org/"
-    - name: "LLVM"
-      url: "https://llvm.org"
-    - name: "LLVM"
-      url: "https://www.llvm.org"
-    - name: "Scheme programming language"
-      url: "https://www.scheme.com"
-    - name: "GNU COBOL"
-      url: "https://gnucobol.sourceforge.io/"
-    - name: "Adopt OpenJDK"
-      url: "https://adoptopenjdk.net"
-    - name: "Etoile"
-      url: "http://etoileos.com/"
-    - name: "Silverblue"
-      url: "https://silverblue.fedoraproject.org/"
-    - name: "GNOME 40"
-      url: "https://forty.gnome.org/"
-    - name: "Cmake"
-      url: "https://cmake.org"
-    - name: "sbcl"
-      url: "http://www.sbcl.org/"
-    - name: "Fennel"
-      url: "https://fennel-lang.org/"
-    - name: "OpenSuse MicroOS"
-      url: "https://microos.opensuse.org/"
-    - name: "Slackware"
-      url: "http://www.slackware.com/"
-    - name: "Rock Linux"
-      url: "http://rockylinux.org"
-    - name: "Cython"
-      url: "https://cython.org"
-    - name: "Gemini"
-      url: "https://gemini.circumlunar.space/"
-    - name: "Oh my Zsh"
-      url: "https://ohmyz.sh/"
-    - name: "Vim"
-      url: "http://vim.org"
-    - name: "Ogg Vorbis"
-      url: "http://xiph.org"
-    - name: "sudo"
-      url: "https://www.sudo.ws/"
-    - name: "SomaFM"
-      url: "http://somafm.com/"
-    - name: "SBopkg"
-      url: "https://sbopkg.org"
-    - name: "rzip.samba.org"
-      url: "https://rzip.samba.org/"
-    - name: "rpm.org"
-      url: "https://rpm.org/"
-    - name: "Fedora Linux"
-      url: "https://www.getfedora.org"
-    - name: "GNU Nano"
-      url: "https://www.nano-editor.org"
-    - name: "MariaDB"
-      url: "https://mariadb.org/"
-    - name: "OpenJam"
-      url: "http://openjam.io"
-    - name: "Linux Containers"
-      url: "http://linuxcontainers.org"
-    - name: "Debian"
-      url: "https://debian.org/"
-    - name: "Asciidoc"
-      url: "https://asciidoc.org/"
-    - name: "Docbook"
-      url: "https://docbook.org/"
-    - name: "joe website"
-      url: "https://joe-editor.sourceforge.io/"
-    - name: "Gphoto"
-      url: "https://www.gphoto.org"
-    - name: "Ghostscript"
-      url: "https://www.ghostscript.com/"
-    - name: "Mumble"
-      url: "https://www.mumble.info"
-    - name: "Makeself.io"
-      url: "https://www.makeself.io"
-    - name: "Bugzilla"
-      url: "https://www.bugzilla.org"
-    - name: "Mantis"
-      url: "https://www.mantisbt.org"
-    - name: "CUPS.org"
-      url: "https://www.cups.org"
-    - name: "World Health Organization"
-      url: "https://www.who.int/"
-    - name: "Podnutz.com"
-      url: "http://podnutz.com/"
-    - name: "JACK audio"
-      url: "https://jackaudio.org"
-    - name: "Pulse audio"
-      url: "https://pulseaudio.org"
-    - name: "opensource.com"
-      url: "http://opensource.com"
-    - name: "Freesvg.org"
-      url: "http://freesvg.org"
-    - name: "All Things Open"
-      url: "https://allthingsopen.org/"
-    - name: "Nextcloud.com"
-      url: "http://nextcloud.com"
-    - name: "Generate passwords with LessPass"
-      url: "http://lesspass.com/#/"
-    - name: "Generate passwords on ss64.com"
-      url: "http://ss64.com"
-    - name: "Church of the Subgenius"
-      url: "http://www.subgenius.com/"
-    - name: "Manufacturing slack at home"
-      url: "http://slackermedia.com"
-    - name: "LinuxQuestions.org"
-      url: "https://www.linuxquestions.org"
-    - name: "linuxquestions.org"
-      url: "http://linuxquestions.org"
-    - name: "Pico CMS"
-      url: "http://picocms.org/"
-    - name: "OpenPublicApp.com"
-      url: "http://www.openpublicapp.com/#!/"
-    - name: "webhosting.coop"
-      url: "https://webhosting.coop"
-    - name: "Purism"
-      url: "https://puri.sm/"
-    - name: "E (formerly Eelo)"
-      url: "http://e.foundation"
-    - name: "Krita"
-      url: "http://krita.org"
-    - name: "GIMP 2.10"
-      url: "http://gimp.org"
-    - name: "Appimage"
-      url: "http://appimage.org"
-    - name: "Flatpak"
-      url: "http://flatpak.org"
-    - name: "WINE"
-      url: "https://appdb.winehq.org/"
-    - name: "smartmontools"
-      url: "https://www.smartmontools.org/"
-    - name: "Itch.io"
-      url: "http://www.itch.io"
-    - name: "Lutris.net"
-      url: "http://www.lutris.net"
-    - name: "Fossil-scm.org"
-      url: "https://www.fossil-scm.org"
-    - name: "Fedberry"
-      url: "https://www.fedberry.org"
-    - name: "Luarocks.org"
-      url: "http://luarocks.org"
-    - name: "Lua.org"
-      url: "https://lua.org"
-    - name: "TekUI"
-      url: "http://tekui.neoscientists.org/"
-    - name: "notabug.org"
-      url: "https://notabug.org/"
-    - name: "mcelog.org"
-      url: "https://mcelog.org"
-    - name: "Porteus"
-      url: "http://porteus.org"
-    - name: "Android open source"
-      url: "https://source.android.com/"
-    - name: "Haiku"
-      url: "https://www.haiku-os.org/"
-    - name: "Linux from Scratch"
-      url: "http://www.linuxfromscratch.org"
+    - name: More 'Casts
+      url: http://thelinuxlink.net
+    - name: Hacker Public Radio
+      url: http://hackerpublicradio.org
+    - name: Slackware
+      url: http://slackware.com
+    - name: Slackermedia
+      url: http://slackermedia.info
+    - name: Fediring
+      url: https://fediring.net/
+    - name: OpenSUSE
+      url: https://www.opensuse.org/
+    - name: Fedora
+      url: https://getfedora.org
+    - name: Get Firefox
+      url: http://getfirefox.org
+    - name: fcitx
+      url: https://fcitx-im.org/
+    - name: learnlatex.org
+      url: https://www.learnlatex.org/
+    - name: Netfilter
+      url: https://www.netfilter.org
+    - name: Yunohost
+      url: https://yunohost.org
+    - name: GNU mpfr
+      url: https://www.mpfr.org/
+    - name: OpenNIC
+      url: https://opennic.org
+    - name: TechnicallyWeWrite.com
+      url: https://technicallywewrite.com
+    - name: Lensfun
+      url: https://lensfun.github.io/
+    - name: Jemalloc
+      url: http://jemalloc.net/
+    - name: Image Magick
+      url: https://imagemagick.org
+    - name: GJS Guide
+      url: https://gjs.guide/
+    - name: FSF
+      url: http://fsf.org
+    - name: Freecell-solver
+      url: https://fc-solve.shlomifish.org
+    - name: Editorconfig.org
+      url: https://editorconfig.org
+    - name: Drupal
+      url: https://drupal.org
+    - name: Grav
+      url: https://getgrav.org
+    - name: Sysadmin Signal
+      url: https://sysadminsignal.com
+    - name: rdiff-backup
+      url: https://rdiff-backup.net/
+    - name: Mageia
+      url: https://mageia.org
+    - name: K3s lightweight Kubernetes
+      url: https://k3s.io/
+    - name: Podman Desktop containers
+      url: https://podman-desktop.io/
+    - name: Sandstorm package manager
+      url: https://sandstorm.io/
+    - name: Cockatrice
+      url: https://cockatrice.github.io/
+    - name: Mythic Table
+      url: https://mythictable.com/
+    - name: Jitsi
+      url: https://meet.jit.si
+    - name: Slackbuilds.org
+      url: https://slackbuilds.org
+    - name: Pkgsrc
+      url: http://pkgsrc.org
+    - name: NetBSD
+      url: http://netbsd.org
+    - name: Slacky.eu
+      url: http://slacky.eu
+    - name: Slackonly.com
+      url: http://slackonly.com
+    - name: Digikam
+      url: https://www.digikam.org/
+    - name: Calligra
+      url: https://calligra.org
+    - name: Bluez-Qt
+      url: http://www.bluez.org/
+    - name: Yasm
+      url: http://yasm.tortall.net/
+    - name: Thinstation
+      url: https://thinstation.github.io
+    - name: OpenNX
+      url: http://opennx.net/
+    - name: Bitkeeper
+      url: http://bitkeeper.org
+    - name: strace
+      url: http://strace.io
+    - name: SCons
+      url: http://scons.org
+    - name: Perl tutorial
+      url: https://perltutorial.org
+    - name: Perl
+      url: https://perl.org/
+    - name: CPAN
+      url: https://cpan.org/
+    - name: LLVM
+      url: https://llvm.org
+    - name: LLVM
+      url: https://www.llvm.org
+    - name: Scheme programming language
+      url: https://www.scheme.com
+    - name: GNU COBOL
+      url: https://gnucobol.sourceforge.io/
+    - name: Adopt OpenJDK
+      url: https://adoptopenjdk.net
+    - name: Etoile
+      url: http://etoileos.com/
+    - name: Silverblue
+      url: https://silverblue.fedoraproject.org/
+    - name: GNOME 40
+      url: https://forty.gnome.org/
+    - name: Cmake
+      url: https://cmake.org
+    - name: sbcl
+      url: http://www.sbcl.org/
+    - name: Fennel
+      url: https://fennel-lang.org/
+    - name: OpenSuse MicroOS
+      url: https://microos.opensuse.org/
+    - name: Slackware
+      url: http://www.slackware.com/
+    - name: Rock Linux
+      url: http://rockylinux.org
+    - name: Cython
+      url: https://cython.org
+    - name: Gemini
+      url: https://gemini.circumlunar.space/
+    - name: Oh my Zsh
+      url: https://ohmyz.sh/
+    - name: Vim
+      url: http://vim.org
+    - name: Ogg Vorbis
+      url: http://xiph.org
+    - name: sudo
+      url: https://www.sudo.ws/
+    - name: SomaFM
+      url: http://somafm.com/
+    - name: SBopkg
+      url: https://sbopkg.org
+    - name: rzip.samba.org
+      url: https://rzip.samba.org/
+    - name: rpm.org
+      url: https://rpm.org/
+    - name: Fedora Linux
+      url: https://www.getfedora.org
+    - name: GNU Nano
+      url: https://www.nano-editor.org
+    - name: MariaDB
+      url: https://mariadb.org/
+    - name: OpenJam
+      url: http://openjam.io
+    - name: Linux Containers
+      url: http://linuxcontainers.org
+    - name: Debian
+      url: https://debian.org/
+    - name: Asciidoc
+      url: https://asciidoc.org/
+    - name: Docbook
+      url: https://docbook.org/
+    - name: joe website
+      url: https://joe-editor.sourceforge.io/
+    - name: Gphoto
+      url: https://www.gphoto.org
+    - name: Ghostscript
+      url: https://www.ghostscript.com/
+    - name: Mumble
+      url: https://www.mumble.info
+    - name: Makeself.io
+      url: https://www.makeself.io
+    - name: Bugzilla
+      url: https://www.bugzilla.org
+    - name: Mantis
+      url: https://www.mantisbt.org
+    - name: CUPS.org
+      url: https://www.cups.org
+    - name: World Health Organization
+      url: https://www.who.int/
+    - name: Podnutz.com
+      url: http://podnutz.com/
+    - name: JACK audio
+      url: https://jackaudio.org
+    - name: Pulse audio
+      url: https://pulseaudio.org
+    - name: opensource.com
+      url: http://opensource.com
+    - name: Freesvg.org
+      url: http://freesvg.org
+    - name: All Things Open
+      url: https://allthingsopen.org/
+    - name: Nextcloud.com
+      url: http://nextcloud.com
+    - name: Generate passwords with LessPass
+      url: http://lesspass.com/#/
+    - name: Generate passwords on ss64.com
+      url: http://ss64.com
+    - name: Church of the Subgenius
+      url: http://www.subgenius.com/
+    - name: Manufacturing slack at home
+      url: http://slackermedia.com
+    - name: LinuxQuestions.org
+      url: https://www.linuxquestions.org
+    - name: linuxquestions.org
+      url: http://linuxquestions.org
+    - name: Pico CMS
+      url: http://picocms.org/
+    - name: OpenPublicApp.com
+      url: http://www.openpublicapp.com/#!/
+    - name: webhosting.coop
+      url: https://webhosting.coop
+    - name: Purism
+      url: https://puri.sm/
+    - name: E (formerly Eelo)
+      url: http://e.foundation
+    - name: Krita
+      url: http://krita.org
+    - name: GIMP 2.10
+      url: http://gimp.org
+    - name: Appimage
+      url: http://appimage.org
+    - name: Flatpak
+      url: http://flatpak.org
+    - name: WINE
+      url: https://appdb.winehq.org/
+    - name: smartmontools
+      url: https://www.smartmontools.org/
+    - name: Itch.io
+      url: http://www.itch.io
+    - name: Lutris.net
+      url: http://www.lutris.net
+    - name: Fossil-scm.org
+      url: https://www.fossil-scm.org
+    - name: Fedberry
+      url: https://www.fedberry.org
+    - name: Luarocks.org
+      url: http://luarocks.org
+    - name: Lua.org
+      url: https://lua.org
+    - name: TekUI
+      url: http://tekui.neoscientists.org/
+    - name: notabug.org
+      url: https://notabug.org/
+    - name: mcelog.org
+      url: https://mcelog.org
+    - name: Porteus
+      url: http://porteus.org
+    - name: Android open source
+      url: https://source.android.com/
+    - name: Haiku
+      url: https://www.haiku-os.org/
+    - name: Linux from Scratch
+      url: http://www.linuxfromscratch.org

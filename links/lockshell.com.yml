@@ -1,18 +1,18 @@
 site:
-  name: "lockshell.com"
-  url: "https://lockshell.com/"
-  description: "友情链接"
-  links: "/links"
+  name: "|"
+  url: https://lockshell.com/
+  description: 络壳,投资理财,程序员,价值投资,科学上网,技术移民,Hugo
+  links: /links
   friends:
-    - name: "Startup Next Door"
-      url: "https://startupnextdoor.com/"
-    - name: "physixfan - 宇宙的心弦"
-      url: "https://www.physixfan.com/"
-    - name: "木子 k8s"
-      url: "https://blog.k8s.li/"
-    - name: "浮云的博客"
-      url: "https://last2win.com/"
-    - name: "lhw"
-      url: "https://blog.coelacanthus.moe"
-    - name: "老季博客"
-      url: "http://www.jiloc.com"
+    - name: Startup Next Door
+      url: https://startupnextdoor.com/
+    - name: physixfan - 宇宙的心弦
+      url: https://www.physixfan.com/
+    - name: 木子 k8s
+      url: https://blog.k8s.li/
+    - name: 浮云的博客
+      url: https://last2win.com/
+    - name: lhw
+      url: https://blog.coelacanthus.moe
+    - name: 老季博客
+      url: http://www.jiloc.com

@@ -1,54 +1,56 @@
 site:
-  name: "codehelp.jeffjade.com"
-  url: "https://codehelp.jeffjade.com/"
-  description: "友情链接"
-  links: "/"
+  name: |-
+    Quick Reference
+        & Quick Reference
+  url: https://codehelp.jeffjade.com/
+  description: 友情链接
+  links: /
   friends:
-    - name: "nihaosi.com"
-      url: "https://refs.nihaosi.com"
-    - name: "guoxudong.io"
-      url: "https://reference.guoxudong.io/"
-    - name: "666666.dev"
-      url: "https://cheat.666666.dev"
-    - name: "linzhe.top"
-      url: "https://linzhe.top/"
-    - name: "nuomiphp.com"
-      url: "https://reference.tool.nuomiphp.com/"
-    - name: "aoh.cc"
-      url: "https://aoh.cc/"
-    - name: "itcent.cn"
-      url: "https://code.itcent.cn/"
-    - name: "notes-bin.top"
-      url: "https://notes-bin.top"
-    - name: "tangcc.cn"
-      url: "https://web.tangcc.cn"
-    - name: "xadocker.cn"
-      url: "https://reference.xadocker.cn"
-    - name: "trtu.com.cn"
-      url: "https://reference.trtu.com.cn"
-    - name: "zhangyuanqian.top"
-      url: "https://reference.zhangyuanqian.top/"
-    - name: "chenze.cloud"
-      url: "https://quick.chenze.cloud"
-    - name: "guoyaxue.top"
-      url: "https://reference.guoyaxue.top/"
-    - name: "jgeek.cn"
-      url: "http://reference.jgeek.cn/"
-    - name: "itzcy.com"
-      url: "https://reference.itzcy.com/"
-    - name: "gaojs.com.cn"
-      url: "https://study.gaojs.com.cn"
-    - name: "xuyiyang.vip"
-      url: "https://reference.xuyiyang.vip/"
-    - name: "ruiange.work"
-      url: "https://code.ruiange.work/"
-    - name: "coderjia.cn"
-      url: "https://refer.coderjia.cn"
-    - name: "sucan2233.cn"
-      url: "http://reference.sucan2233.cn"
-    - name: "hrzweb.xyz"
-      url: "https://r.hrzweb.xyz"
-    - name: "9up.dev"
-      url: "https://devref.9up.dev"
-    - name: "cizai.io"
-      url: "https://reference.cizai.io"
+    - name: nihaosi.com
+      url: https://refs.nihaosi.com
+    - name: guoxudong.io
+      url: https://reference.guoxudong.io/
+    - name: 666666.dev
+      url: https://cheat.666666.dev
+    - name: linzhe.top
+      url: https://linzhe.top/
+    - name: nuomiphp.com
+      url: https://reference.tool.nuomiphp.com/
+    - name: aoh.cc
+      url: https://aoh.cc/
+    - name: itcent.cn
+      url: https://code.itcent.cn/
+    - name: notes-bin.top
+      url: https://notes-bin.top
+    - name: tangcc.cn
+      url: https://web.tangcc.cn
+    - name: xadocker.cn
+      url: https://reference.xadocker.cn
+    - name: trtu.com.cn
+      url: https://reference.trtu.com.cn
+    - name: zhangyuanqian.top
+      url: https://reference.zhangyuanqian.top/
+    - name: chenze.cloud
+      url: https://quick.chenze.cloud
+    - name: guoyaxue.top
+      url: https://reference.guoyaxue.top/
+    - name: jgeek.cn
+      url: http://reference.jgeek.cn/
+    - name: itzcy.com
+      url: https://reference.itzcy.com/
+    - name: gaojs.com.cn
+      url: https://study.gaojs.com.cn
+    - name: xuyiyang.vip
+      url: https://reference.xuyiyang.vip/
+    - name: ruiange.work
+      url: https://code.ruiange.work/
+    - name: coderjia.cn
+      url: https://refer.coderjia.cn
+    - name: sucan2233.cn
+      url: http://reference.sucan2233.cn
+    - name: hrzweb.xyz
+      url: https://r.hrzweb.xyz
+    - name: 9up.dev
+      url: https://devref.9up.dev
+    - name: cizai.io
+      url: https://reference.cizai.io

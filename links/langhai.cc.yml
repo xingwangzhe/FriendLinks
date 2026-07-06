@@ -1,16 +1,16 @@
 site:
-  name: "langhai.cc"
-  url: "https://langhai.cc/"
-  description: "友情链接"
-  links: "/"
+  name: 浪海博客 ~ IT技术分享和生活分享平台
+  url: https://langhai.cc/
+  description: 浪海博客一个由java构建的个人博客网站，用来分享个人技术文章、生活文章。
+  links: /
   friends:
-    - name: "layui"
-      url: "https://layui.dev/"
-    - name: "极客蜂巢(GeekHive)"
-      url: "https://www.gkhive.com/"
-    - name: "Java实战博客"
-      url: "https://www.zanglikun.com/"
-    - name: "飞飞哥博客"
-      url: "http://blog.feifeige.top/"
-    - name: "可为笔记"
-      url: "https://www.covo.cn/"
+    - name: layui
+      url: https://layui.dev/
+    - name: 极客蜂巢(GeekHive)
+      url: https://www.gkhive.com/
+    - name: Java实战博客
+      url: https://www.zanglikun.com/
+    - name: 飞飞哥博客
+      url: http://blog.feifeige.top/
+    - name: 可为笔记
+      url: https://www.covo.cn/

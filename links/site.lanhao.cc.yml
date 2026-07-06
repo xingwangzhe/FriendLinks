@@ -1,10 +1,10 @@
 site:
-  name: "site.lanhao.cc"
-  url: "https://site.lanhao.cc/"
-  description: "友情链接"
-  links: "/friends"
+  name: lanhao.site - Blog of LanHao
+  url: https://site.lanhao.cc/
+  description: lanhao.site - Blog of LanHao
+  links: /friends
   friends:
-    - name: "Ethan Don't stay awake for too long. Blog"
-      url: "https://hanlife02.com/"
-    - name: "Yixiaojiu 一个有趣的blog博主.（本链接仅为单向引用） Blog"
-      url: "https://note.yixiaojiu.top/"
+    - name: Ethan Don't stay awake for too long. Blog
+      url: https://hanlife02.com/
+    - name: Yixiaojiu 一个有趣的blog博主.（本链接仅为单向引用） Blog
+      url: https://note.yixiaojiu.top/

@@ -1,10 +1,10 @@
 site:
-  name: "blog.skyimk.com"
-  url: "https://blog.skyimk.com/"
-  description: "友情链接"
-  links: "/links.html"
+  name: 探索设计与美学的无限可能
+  url: https://blog.skyimk.com/
+  description: Skyimk 是一个基于Typecho主题的轻量化个人站，记录开发者与设计师的日常随想、技术实践与视觉探索。这里分享原创代码片段、设计思考、摄影随笔，旨在构建一个专注创作与沉淀的数字角落。
+  links: /links.html
   friends:
-    - name: "朱某的生活印记 没有销声匿迹，我在热爱生活"
-      url: "https://zhuxu.asia/"
-    - name: "易航博客"
-      url: "http://blog.yihang.info"
+    - name: 朱某的生活印记 没有销声匿迹，我在热爱生活
+      url: https://zhuxu.asia/
+    - name: 易航博客
+      url: http://blog.yihang.info

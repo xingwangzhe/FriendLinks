@@ -1,12 +1,12 @@
 site:
-  name: "iloli.love"
-  url: "https://iloli.love/"
-  description: "友情链接"
-  links: "/links"
+  name: 猫猫博客
+  url: https://iloli.love/
+  description: 猫猫摸大鱼的博客
+  links: /links
   friends:
-    - name: "LoliAPI 这里是LoliAPI,提供免费api服务的站点之一"
-      url: "https://www.loliapi.com/"
-    - name: "举个栗子 热衷于花里胡哨的"
-      url: "https://www.alcy.cc"
-    - name: "某科学的贝壳 Get busy living or get busy dying."
-      url: "https://blog.ning.moe"
+    - name: LoliAPI 这里是LoliAPI,提供免费api服务的站点之一
+      url: https://www.loliapi.com/
+    - name: 举个栗子 热衷于花里胡哨的
+      url: https://www.alcy.cc
+    - name: 某科学的贝壳 Get busy living or get busy dying.
+      url: https://blog.ning.moe

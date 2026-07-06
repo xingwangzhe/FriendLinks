@@ -1,10 +1,10 @@
 site:
-  name: "quantenzitrone.eu"
-  url: "https://quantenzitrone.eu/"
-  description: "友情链接"
-  links: "/"
+  name: Homepage - quantenzitrone.eu
+  url: https://quantenzitrone.eu/
+  description: 友情链接
+  links: /
   friends:
-    - name: "webring"
-      url: "https://nixwebr.ing"
+    - name: webring
+      url: https://nixwebr.ing
     - name: "[m] matrix"
-      url: "https://matrix.to/#/@zitrone:utwente.io"
+      url: https://matrix.to/#/@zitrone:utwente.io

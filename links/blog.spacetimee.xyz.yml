@@ -1,12 +1,12 @@
 site:
-  name: "blog.spacetimee.xyz"
-  url: "https://blog.spacetimee.xyz/"
-  description: "友情链接"
-  links: "/links"
+  name: SpaceTime Blog
+  url: https://blog.spacetimee.xyz/
+  description: A Tech Blog By Space Time ~
+  links: /links
   friends:
-    - name: "NiceBowlのBlog 一个不稳定的精神世界"
-      url: "https://nicebowl.fun/"
-    - name: "常青园晚のBlog 一个爱编程的极客"
-      url: "https://blog.catrol.cn/"
-    - name: "ObjShadow's Blog Maybe a Censorship Researcher."
-      url: "https://objshadow.pages.dev/"
+    - name: NiceBowlのBlog 一个不稳定的精神世界
+      url: https://nicebowl.fun/
+    - name: 常青园晚のBlog 一个爱编程的极客
+      url: https://blog.catrol.cn/
+    - name: ObjShadow's Blog Maybe a Censorship Researcher.
+      url: https://objshadow.pages.dev/

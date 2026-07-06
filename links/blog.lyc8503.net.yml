@@ -1,22 +1,22 @@
 site:
-  name: "blog.lyc8503.net"
-  url: "https://blog.lyc8503.net/"
-  description: "友情链接"
-  links: "/friends"
+  name: Lyc8503's blog
+  url: https://blog.lyc8503.net/
+  description: Hi, 欢迎你来到我的博客.这里主要是一些 Coding 相关的记录, 也随机掉落一些其他的日常记录及感想.应该算 stack-overflow full-stack developer, 所以博客里什么都有.厌恶迂腐与形式, 相信灵感,热爱,透明与包容的未来. More>本博客的所有内容, 除明确指明或引用的部分, 均为未使用生成式 AI 技术的原创内容. 英文版使用 LLM 辅助翻译.
+  links: /friends
   friends:
-    - name: "ydjsir’s Blog"
-      url: "https://ydjsir.com.cn/"
-    - name: "Bob’s blog"
-      url: "https://blog.bobh0724.net/"
-    - name: "Clansty"
-      url: "https://nyac.at/"
-    - name: "一缕执念"
-      url: "https://quas-modo.github.io/"
-    - name: "chariri"
-      url: "https://chariri.moe/"
-    - name: "神楽悠笙"
-      url: "https://blog.iyoroy.cn/"
-    - name: "Anfsity"
-      url: "https://www.anfstiy.me/"
-    - name: "Tokisaki Galaxy的博客"
-      url: "https://tokisaki.top/"
+    - name: ydjsir’s Blog
+      url: https://ydjsir.com.cn/
+    - name: Bob’s blog
+      url: https://blog.bobh0724.net/
+    - name: Clansty
+      url: https://nyac.at/
+    - name: 一缕执念
+      url: https://quas-modo.github.io/
+    - name: chariri
+      url: https://chariri.moe/
+    - name: 神楽悠笙
+      url: https://blog.iyoroy.cn/
+    - name: Anfsity
+      url: https://www.anfstiy.me/
+    - name: Tokisaki Galaxy的博客
+      url: https://tokisaki.top/

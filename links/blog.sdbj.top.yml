@@ -1,10 +1,10 @@
 site:
-  name: "blog.sdbj.top"
-  url: "https://blog.sdbj.top/"
-  description: "友情链接"
-  links: "/links.html"
+  name: 拾点笔记-技术笔记与工具集合分享
+  url: https://blog.sdbj.top/
+  description: 拾点笔记，记录分享开发历程上的点点滴滴，涵盖 PHP、Linux、视频处理等技术要点与工具分享。
+  links: /links.html
   friends:
-    - name: "敏锐者网络科技"
-      url: "https://www.mrz2516.com/"
-    - name: "墨尘博客"
-      url: "https://www.wizstudio.cn/"
+    - name: 敏锐者网络科技
+      url: https://www.mrz2516.com/
+    - name: 墨尘博客
+      url: https://www.wizstudio.cn/

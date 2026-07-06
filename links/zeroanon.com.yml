@@ -1,22 +1,22 @@
 site:
-  name: "zeroanon.com"
-  url: "https://zeroanon.com/"
-  description: "友情链接"
-  links: "/friends"
+  name: 个人网站
+  url: https://zeroanon.com/
+  description: ZeroAnon 的个人网站，记录项目、文章、技能、灵感收藏与个人随笔。
+  links: /friends
   friends:
-    - name: "繁星点点现代化简约静态博客"
-      url: "https://www.52013120.xyz"
-    - name: "程序员凌览全栈偏前端搬砖工、Node.js爱好者、掘金LV5优秀创作者"
-      url: "https://blog.code24.top"
-    - name: "23朵毒蘑菇一个简单的前端开发者"
-      url: "https://blog.dumogu.top"
-    - name: "Eeymoo's Blog记录、学习、分享技术与生活点滴"
-      url: "https://blog.eeymoo.com"
-    - name: "LsAng学习、探索中"
-      url: "https://llds.cloud"
-    - name: "upxuu's blog逐光而上!"
-      url: "https://upxuu.com"
-    - name: "MoZhi's Blog远方很远，步履不停，未来可期"
-      url: "https://blog.mozhix.top"
-    - name: "Inalineの小站此情可待成追忆，只是当时已惘然"
-      url: "https://inaline.net"
+    - name: 繁星点点现代化简约静态博客
+      url: https://www.52013120.xyz
+    - name: 程序员凌览全栈偏前端搬砖工、Node.js爱好者、掘金LV5优秀创作者
+      url: https://blog.code24.top
+    - name: 23朵毒蘑菇一个简单的前端开发者
+      url: https://blog.dumogu.top
+    - name: Eeymoo's Blog记录、学习、分享技术与生活点滴
+      url: https://blog.eeymoo.com
+    - name: LsAng学习、探索中
+      url: https://llds.cloud
+    - name: upxuu's blog逐光而上!
+      url: https://upxuu.com
+    - name: MoZhi's Blog远方很远，步履不停，未来可期
+      url: https://blog.mozhix.top
+    - name: Inalineの小站此情可待成追忆，只是当时已惘然
+      url: https://inaline.net

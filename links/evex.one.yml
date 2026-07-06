@@ -1,148 +1,148 @@
 site:
-  name: "evex.one"
-  url: "https://evex.one/"
-  description: "友情链接"
-  links: "/links"
+  name: Eval-EXEC
+  url: https://evex.one/
+  description: EXEC's Blog
+  links: /links
   friends:
-    - name: "needleful dot net"
-      url: "https://needleful.net/"
-    - name: "Baldur Bjarnason"
-      url: "https://www.baldurbjarnason.com/"
-    - name: "G Gundam"
-      url: "https://g-gundam.github.io/"
-    - name: "Micah Lerner"
-      url: "https://www.micahlerner.com/"
-    - name: "Jack Baty"
-      url: "https://baty.net/"
-    - name: "Matus Goljer"
-      url: "https://fuco1.github.io/"
-    - name: "学无止境"
-      url: "https://yibie.github.io/"
-    - name: "Michał Sapka"
-      url: "https://michal.sapka.me/"
-    - name: "andersmurphy"
-      url: "https://andersmurphy.com/"
-    - name: "Robin Linus"
-      url: "https://robinlinus.com/"
-    - name: "James O’Beirne"
-      url: "https://jameso.be/"
-    - name: "Lukasʼ Blog"
-      url: "https://lukaskalbertodt.github.io/"
-    - name: "苏子岳"
-      url: "https://liriansu.com/"
-    - name: "Holy on Dev"
-      url: "https://blog.jakubholy.net/"
-    - name: "JedXu"
-      url: "https://jedxu.info"
-    - name: "Lan Tian @Blog"
-      url: "https://lantian.pub/"
-    - name: "椒盐豆豉"
-      url: "https://blog.douchi.space"
-    - name: "探索子博客🍁"
-      url: "https://idx.best/"
-    - name: "静かな森"
-      url: "https://innei.in/"
-    - name: "土木坛子的博客"
-      url: "https://tumutanzi.com/"
-    - name: "Sulv’s Blog"
-      url: "https://www.sulvblog.cn"
-    - name: "Eric Wong 的博客"
-      url: "https://wsdjeg.net/"
-    - name: "Парящий Медведь"
-      url: "https://hoverbear.org/"
-    - name: "猫猫博客"
-      url: "https://catcat.blog/"
-    - name: "叶子的花园"
-      url: "https://mskclover.com/"
-    - name: "Random Thoughts ; The Sky Won’t Fall?"
-      url: "https://lars.ingebrigtsen.no/"
-    - name: "Matt Keeter"
-      url: "https://www.mattkeeter.com"
-    - name: "oimo"
-      url: "https://oimo.io/"
-    - name: "Vorner’s random stuff"
-      url: "https://vorner.github.io/"
-    - name: "tsunanet"
-      url: "https://blog.tsunanet.net/"
-    - name: "Natan Yellin"
-      url: "https://natanyellin.com/"
-    - name: "Ken Shirriff’s blog"
-      url: "https://www.righto.com/"
-    - name: "Lu Hui 的博客"
-      url: "https://newluhux.github.io"
-    - name: "午夜咖啡"
-      url: "https://jolestar.com/"
-    - name: "LemonHX 柠檬 🍋 浣熊酱~"
-      url: "https://lililikeuuu.lemonhx.moe/"
-    - name: "Julia Evans"
-      url: "https://jvns.ca/"
-    - name: "g4ba"
-      url: "https://g4ba.xyz"
-    - name: "ouuan"
-      url: "https://ouuan.github.io/"
-    - name: "小恶魔"
-      url: "https://blog.wu-boy.com/"
-    - name: "Keep Coding"
-      url: "https://liujiacai.net/"
-    - name: "GeekPlux"
-      url: "https://geekplux.com"
-    - name: "张驰原"
-      url: "https://pluskid.org/"
-    - name: "dr-qubit"
-      url: "https://www.dr-qubit.org"
-    - name: "MetroWind"
-      url: "http://darksair.org"
-    - name: "meain/blog"
-      url: "https://blog.meain.io/"
-    - name: "Gee Law’s Blog"
-      url: "https://geelaw.blog"
-    - name: "南有嘉鱼"
-      url: "https://blog.markhoo.com/"
-    - name: "Hi, DIYgod"
-      url: "https://diygod.me/"
-    - name: "Mike Perham"
-      url: "https://www.mikeperham.com/"
-    - name: "Pure White"
-      url: "https://www.purewhite.io/"
-    - name: "M-x Chris-An-Emacser | 一个 Emacs 爱好者的闲言碎语"
-      url: "https://chriszheng.science/"
-    - name: "VGOT Blog"
-      url: "https://blog.vgot.net/"
-    - name: "刘荣星的博客"
-      url: "https://www.liurongxing.com/"
-    - name: "银色子弹 — 银色子弹"
-      url: "https://silverrainz.me/"
-    - name: "iovxw"
-      url: "https://iovxw.net/"
-    - name: "橘子园"
-      url: "http://www.sfg.name/"
-    - name: "Coding Killed the Cat"
-      url: "https://codingkilledthecat.wordpress.com/"
-    - name: "Just lepture"
-      url: "https://lepture.com/"
-    - name: "那些電影教我的事 - Lessons from Movies"
-      url: "http://lessonsfrommovies.net/"
-    - name: "“刘悦的技术博客”"
-      url: "https://v3u.cn/"
-    - name: "李苦李"
-      url: "http://www.likuli.com/"
-    - name: "StoneMoe’s Blog"
-      url: "https://stone.moe/"
-    - name: "一只小白"
-      url: "https://blog.blanc.site/"
-    - name: "卡瓦邦噶！"
-      url: "https://www.kawabangga.com/"
-    - name: "Yang 的后花园"
-      url: "http://zhangxiaoyang.me/"
-    - name: "依云’s Blog"
-      url: "https://blog.lilydjwg.me/"
-    - name: "Dmitry Vyukov"
-      url: "http://www.1024cores.net"
-    - name: "青藤木鸟"
-      url: "https://www.qtmuniao.com/"
-    - name: "LoopJump"
-      url: "http://loopjump.com"
-    - name: "Paper Tail"
-      url: "https://www.the-paper-trail.org/"
-    - name: "Eli Bendersky’s website"
-      url: "https://eli.thegreenplace.net/"
+    - name: needleful dot net
+      url: https://needleful.net/
+    - name: Baldur Bjarnason
+      url: https://www.baldurbjarnason.com/
+    - name: G Gundam
+      url: https://g-gundam.github.io/
+    - name: Micah Lerner
+      url: https://www.micahlerner.com/
+    - name: Jack Baty
+      url: https://baty.net/
+    - name: Matus Goljer
+      url: https://fuco1.github.io/
+    - name: 学无止境
+      url: https://yibie.github.io/
+    - name: Michał Sapka
+      url: https://michal.sapka.me/
+    - name: andersmurphy
+      url: https://andersmurphy.com/
+    - name: Robin Linus
+      url: https://robinlinus.com/
+    - name: James O’Beirne
+      url: https://jameso.be/
+    - name: Lukasʼ Blog
+      url: https://lukaskalbertodt.github.io/
+    - name: 苏子岳
+      url: https://liriansu.com/
+    - name: Holy on Dev
+      url: https://blog.jakubholy.net/
+    - name: JedXu
+      url: https://jedxu.info
+    - name: Lan Tian @Blog
+      url: https://lantian.pub/
+    - name: 椒盐豆豉
+      url: https://blog.douchi.space
+    - name: 探索子博客🍁
+      url: https://idx.best/
+    - name: 静かな森
+      url: https://innei.in/
+    - name: 土木坛子的博客
+      url: https://tumutanzi.com/
+    - name: Sulv’s Blog
+      url: https://www.sulvblog.cn
+    - name: Eric Wong 的博客
+      url: https://wsdjeg.net/
+    - name: Парящий Медведь
+      url: https://hoverbear.org/
+    - name: 猫猫博客
+      url: https://catcat.blog/
+    - name: 叶子的花园
+      url: https://mskclover.com/
+    - name: Random Thoughts ; The Sky Won’t Fall?
+      url: https://lars.ingebrigtsen.no/
+    - name: Matt Keeter
+      url: https://www.mattkeeter.com
+    - name: oimo
+      url: https://oimo.io/
+    - name: Vorner’s random stuff
+      url: https://vorner.github.io/
+    - name: tsunanet
+      url: https://blog.tsunanet.net/
+    - name: Natan Yellin
+      url: https://natanyellin.com/
+    - name: Ken Shirriff’s blog
+      url: https://www.righto.com/
+    - name: Lu Hui 的博客
+      url: https://newluhux.github.io
+    - name: 午夜咖啡
+      url: https://jolestar.com/
+    - name: LemonHX 柠檬 🍋 浣熊酱~
+      url: https://lililikeuuu.lemonhx.moe/
+    - name: Julia Evans
+      url: https://jvns.ca/
+    - name: g4ba
+      url: https://g4ba.xyz
+    - name: ouuan
+      url: https://ouuan.github.io/
+    - name: 小恶魔
+      url: https://blog.wu-boy.com/
+    - name: Keep Coding
+      url: https://liujiacai.net/
+    - name: GeekPlux
+      url: https://geekplux.com
+    - name: 张驰原
+      url: https://pluskid.org/
+    - name: dr-qubit
+      url: https://www.dr-qubit.org
+    - name: MetroWind
+      url: http://darksair.org
+    - name: meain/blog
+      url: https://blog.meain.io/
+    - name: Gee Law’s Blog
+      url: https://geelaw.blog
+    - name: 南有嘉鱼
+      url: https://blog.markhoo.com/
+    - name: Hi, DIYgod
+      url: https://diygod.me/
+    - name: Mike Perham
+      url: https://www.mikeperham.com/
+    - name: Pure White
+      url: https://www.purewhite.io/
+    - name: M-x Chris-An-Emacser | 一个 Emacs 爱好者的闲言碎语
+      url: https://chriszheng.science/
+    - name: VGOT Blog
+      url: https://blog.vgot.net/
+    - name: 刘荣星的博客
+      url: https://www.liurongxing.com/
+    - name: 银色子弹 — 银色子弹
+      url: https://silverrainz.me/
+    - name: iovxw
+      url: https://iovxw.net/
+    - name: 橘子园
+      url: http://www.sfg.name/
+    - name: Coding Killed the Cat
+      url: https://codingkilledthecat.wordpress.com/
+    - name: Just lepture
+      url: https://lepture.com/
+    - name: 那些電影教我的事 - Lessons from Movies
+      url: http://lessonsfrommovies.net/
+    - name: “刘悦的技术博客”
+      url: https://v3u.cn/
+    - name: 李苦李
+      url: http://www.likuli.com/
+    - name: StoneMoe’s Blog
+      url: https://stone.moe/
+    - name: 一只小白
+      url: https://blog.blanc.site/
+    - name: 卡瓦邦噶！
+      url: https://www.kawabangga.com/
+    - name: Yang 的后花园
+      url: http://zhangxiaoyang.me/
+    - name: 依云’s Blog
+      url: https://blog.lilydjwg.me/
+    - name: Dmitry Vyukov
+      url: http://www.1024cores.net
+    - name: 青藤木鸟
+      url: https://www.qtmuniao.com/
+    - name: LoopJump
+      url: http://loopjump.com
+    - name: Paper Tail
+      url: https://www.the-paper-trail.org/
+    - name: Eli Bendersky’s website
+      url: https://eli.thegreenplace.net/

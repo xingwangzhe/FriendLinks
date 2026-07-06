@@ -1,10 +1,10 @@
 site:
-  name: "ygbks.com"
-  url: "http://www.ygbks.com/"
-  description: "友情链接"
-  links: "/links"
+  name: 宇哥博客-关注开发技术,分享资源。
+  url: http://www.ygbks.com/
+  description: 宇哥博客记录技术开发问题，WEB开发、微信开发技术、源码、软件分享。
+  links: /links
   friends:
-    - name: "Teacher Du"
-      url: "https://dusays.com"
-    - name: "魏义齐个人博客"
-      url: "https://blog.weiyiqi.net/"
+    - name: Teacher Du
+      url: https://dusays.com
+    - name: 魏义齐个人博客
+      url: https://blog.weiyiqi.net/

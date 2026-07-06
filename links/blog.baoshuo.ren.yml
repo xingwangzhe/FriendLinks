@@ -1,66 +1,66 @@
 site:
-  name: "blog.baoshuo.ren"
-  url: "https://blog.baoshuo.ren/"
-  description: "友情链接"
-  links: "/friends"
+  name: 宝硕博客
+  url: https://blog.baoshuo.ren/
+  description: 宝硕博客 —— Baoshuo (@renbaoshuo) 随便写东西的地方，以技术向博文为主，生活向博文为辅。
+  links: /friends
   friends:
-    - name: "Menci念念不忘，必有回响。"
-      url: "https://blog.men.ci"
-    - name: "烧饼博客"
-      url: "https://u.sb"
-    - name: "苏卡卡的有底洞童话只美在真实却从不续写"
-      url: "https://blog.skk.moe"
-    - name: "海上的宫殿"
-      url: "https://soha.moe/"
-    - name: "蚊Blog一些也许是你正在经历的日常"
-      url: "https://qwq.moe/"
-    - name: "Thinking Null又一个萌新~"
-      url: "https://awsl.blog"
-    - name: "Studying Father"
-      url: "https://studyingfather.com/"
-    - name: "Lan Tian @ Blog"
-      url: "https://lantian.pub/"
-    - name: "Garden in the WonderlandTechnical Diary"
-      url: "https://blog.yuuta.moe"
-    - name: "ChrAlpha's Blog你唯有拼尽全力，才能显得毫不费力"
-      url: "https://blog.ichr.me"
-    - name: "Shucheng LiHello, I'm Shucheng"
-      url: "https://snli.org/"
-    - name: "LovelyWei's 废纸篓A Noob."
-      url: "https://hex.moe"
-    - name: "涛叔有朋自远方来，不亦乐乎。"
-      url: "https://taoshu.in"
-    - name: "日下部 詩的空間小小的部落格"
-      url: "https://www.kskb.eu.org/"
-    - name: "麻雀的博客一只麻雀，是国家二级保护动物"
-      url: "https://blog.sparrowhe.top/"
-    - name: "mcfx's blog"
-      url: "https://mcfx.us"
-    - name: "Sun's Blog"
-      url: "https://www.6700.cc"
-    - name: "小莫のBase小小少年，没有烦恼。"
-      url: "https://mou.best"
-    - name: "倚窗，听雨凡人难以承受生活的全部真相，于是他们各执一端。"
-      url: "https://blog.coelacanthus.moe/"
-    - name: "Zikin的独立博客青春大概如你所说"
-      url: "https://zikin.org/"
-    - name: "Alanyhq"
-      url: "https://blog.alanyhq.com"
-    - name: "Moecast's Blog"
-      url: "https://blog.cas7.moe"
-    - name: "CSL 讲废话The end is always near."
-      url: "https://blog.cubercsl.site"
-    - name: "蒟蒻的博客"
-      url: "https://hee.ink"
-    - name: "kxxt 的小站一个没有分页功能和夜间模式的小破站"
-      url: "https://kxxt.dev"
-    - name: "Macin终身学习者在自由市场中的创造性表达"
-      url: "https://macin.org"
-    - name: "谷粒 Corn.Li玉米的咕咕咕小站"
-      url: "https://corn.li"
-    - name: "苍镜月's docs相信的心就是你的魔法!"
-      url: "https://cangjingyue.top"
-    - name: "拾星絮语银汉凝睫上，璇玑坠瞳渊~"
-      url: "https://owo.cab"
-    - name: "大雁向南灰当伪物有了超越真物的意志时，它便超越了真物。"
-      url: "https://dayanxiangnanfei.top"
+    - name: Menci念念不忘，必有回响。
+      url: https://blog.men.ci
+    - name: 烧饼博客
+      url: https://u.sb
+    - name: 苏卡卡的有底洞童话只美在真实却从不续写
+      url: https://blog.skk.moe
+    - name: 海上的宫殿
+      url: https://soha.moe/
+    - name: 蚊Blog一些也许是你正在经历的日常
+      url: https://qwq.moe/
+    - name: Thinking Null又一个萌新~
+      url: https://awsl.blog
+    - name: Studying Father
+      url: https://studyingfather.com/
+    - name: Lan Tian @ Blog
+      url: https://lantian.pub/
+    - name: Garden in the WonderlandTechnical Diary
+      url: https://blog.yuuta.moe
+    - name: ChrAlpha's Blog你唯有拼尽全力，才能显得毫不费力
+      url: https://blog.ichr.me
+    - name: Shucheng LiHello, I'm Shucheng
+      url: https://snli.org/
+    - name: LovelyWei's 废纸篓A Noob.
+      url: https://hex.moe
+    - name: 涛叔有朋自远方来，不亦乐乎。
+      url: https://taoshu.in
+    - name: 日下部 詩的空間小小的部落格
+      url: https://www.kskb.eu.org/
+    - name: 麻雀的博客一只麻雀，是国家二级保护动物
+      url: https://blog.sparrowhe.top/
+    - name: mcfx's blog
+      url: https://mcfx.us
+    - name: Sun's Blog
+      url: https://www.6700.cc
+    - name: 小莫のBase小小少年，没有烦恼。
+      url: https://mou.best
+    - name: 倚窗，听雨凡人难以承受生活的全部真相，于是他们各执一端。
+      url: https://blog.coelacanthus.moe/
+    - name: Zikin的独立博客青春大概如你所说
+      url: https://zikin.org/
+    - name: Alanyhq
+      url: https://blog.alanyhq.com
+    - name: Moecast's Blog
+      url: https://blog.cas7.moe
+    - name: CSL 讲废话The end is always near.
+      url: https://blog.cubercsl.site
+    - name: 蒟蒻的博客
+      url: https://hee.ink
+    - name: kxxt 的小站一个没有分页功能和夜间模式的小破站
+      url: https://kxxt.dev
+    - name: Macin终身学习者在自由市场中的创造性表达
+      url: https://macin.org
+    - name: 谷粒 Corn.Li玉米的咕咕咕小站
+      url: https://corn.li
+    - name: 苍镜月's docs相信的心就是你的魔法!
+      url: https://cangjingyue.top
+    - name: 拾星絮语银汉凝睫上，璇玑坠瞳渊~
+      url: https://owo.cab
+    - name: 大雁向南灰当伪物有了超越真物的意志时，它便超越了真物。
+      url: https://dayanxiangnanfei.top

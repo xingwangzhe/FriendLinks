@@ -1,14 +1,14 @@
 site:
-  name: "mmzsblog.cn"
-  url: "https://www.mmzsblog.cn/"
-  description: "友情链接"
-  links: "/links"
+  name: Java学习之道
+  url: https://www.mmzsblog.cn/
+  description: 程序员说：懒人更习惯于思考，再没有比编程更纯粹的事了！【Java学习之道：记录代码学习路上的点点滴滴！】本站内容涵盖生活故事、Java后端技术、SpringBoot、SpringCloud、微服务架构、大数据演进、高可用架构、中间件使用、系统监控等相关的研究与知识分享。
+  links: /links
   friends:
-    - name: "Java攻城狮"
-      url: "https://www.27wy.cn/"
-    - name: "牛牛技术客栈"
-      url: "https://oxoxtech.com"
-    - name: "Sky Blog"
-      url: "http://www.wanglingyue.com"
-    - name: "烟草的香味"
-      url: "http://hujingnb.com"
+    - name: Java攻城狮
+      url: https://www.27wy.cn/
+    - name: 牛牛技术客栈
+      url: https://oxoxtech.com
+    - name: Sky Blog
+      url: http://www.wanglingyue.com
+    - name: 烟草的香味
+      url: http://hujingnb.com

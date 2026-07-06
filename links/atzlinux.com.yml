@@ -1,12 +1,12 @@
 site:
-  name: "atzlinux.com"
-  url: "https://www.atzlinux.com/"
-  description: "友情链接"
-  links: "/"
+  name: 铜豌豆 Linux
+  url: https://www.atzlinux.com/
+  description: "《铜豌豆Linux》(英文名: atzlinux) 操作系统在 Debian 基础上，收集制作这些常用软件，一次性安装完成，节省大家定制 Debian 的时间,做到“开箱即用”。"
+  links: /
   friends:
-    - name: "Debian"
-      url: "https://www.debian.org"
-    - name: "向后移植 https://backports.debian.org/"
-      url: "https://backports.debian.org/"
-    - name: "Made with Bluefish HTML editor."
-      url: "http://bluefish.openoffice.nl"
+    - name: Debian
+      url: https://www.debian.org
+    - name: 向后移植 https://backports.debian.org/
+      url: https://backports.debian.org/
+    - name: Made with Bluefish HTML editor.
+      url: http://bluefish.openoffice.nl

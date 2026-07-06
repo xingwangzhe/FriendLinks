@@ -1,8 +1,8 @@
 site:
-  name: "blog.magpiebrain.com"
-  url: "https://blog.magpiebrain.com/"
-  description: "友情链接"
-  links: "/links"
+  name: magpiebrain
+  url: https://blog.magpiebrain.com/
+  description: See more here.
+  links: /links
   friends:
-    - name: "Manage subscriptions"
-      url: "https://subscribe.wordpress.com/"
+    - name: Manage subscriptions
+      url: https://subscribe.wordpress.com/

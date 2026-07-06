@@ -1,8 +1,8 @@
 site:
-  name: "blog.zmingu.com"
-  url: "https://blog.zmingu.com/"
-  description: "友情链接"
-  links: "/"
+  name: 振明的博客
+  url: https://blog.zmingu.com/
+  description: 振明的技术博客 - 分享虚幻引擎(UE5)游戏开发、VR/AR开发实战经验，以及C++编程技巧和日常开发心得。专注于游戏开发领域的技术笔记与教程分享。
+  links: /
   friends:
-    - name: "Silo-Clouds"
-      url: "https://www.silo-clouds.cn"
+    - name: Silo-Clouds
+      url: https://www.silo-clouds.cn

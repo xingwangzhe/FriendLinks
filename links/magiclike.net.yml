@@ -1,12 +1,12 @@
 site:
-  name: "magiclike.net"
-  url: "https://magiclike.net/"
-  description: "友情链接"
-  links: "/"
+  name: print("Hello World!")
+  url: https://magiclike.net/
+  description: 👋 Hey there, I'm MagicLike! - A Games 🎮, Tech 🤖 and Coding nerd 🤓. Welcome to my website!
+  links: /
   friends:
     - name: "@MagicLike"
-      url: "https://magiclike.itch.io"
-    - name: "Folding@home"
-      url: "https://foldingathome.org/"
-    - name: "Fediring"
-      url: "https://fediring.net"
+      url: https://magiclike.itch.io
+    - name: Folding@home
+      url: https://foldingathome.org/
+    - name: Fediring
+      url: https://fediring.net

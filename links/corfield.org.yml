@@ -1,14 +1,14 @@
 site:
-  name: "corfield.org"
-  url: "https://corfield.org/"
-  description: "友情链接"
-  links: "/"
+  name: An Architect's View
+  url: https://corfield.org/
+  description: Clojure, Software Design, Frameworks and more...
+  links: /
   friends:
-    - name: "Clojurists Together"
-      url: "https://www.clojuriststogether.org/"
-    - name: "clojure-doc.org"
-      url: "https://clojure-doc.org/"
-    - name: "Clojure/conj 2024"
-      url: "https://2024.clojure-conj.org/"
-    - name: "Cryogen"
-      url: "https://cryogenweb.org"
+    - name: Clojurists Together
+      url: https://www.clojuriststogether.org/
+    - name: clojure-doc.org
+      url: https://clojure-doc.org/
+    - name: Clojure/conj 2024
+      url: https://2024.clojure-conj.org/
+    - name: Cryogen
+      url: https://cryogenweb.org

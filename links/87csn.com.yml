@@ -1,16 +1,15 @@
 site:
-  name: "87csn.com"
-  url: "https://www.87csn.com/"
-  description: "友情链接"
-  links: "/"
+  name: 爱好者 - 热爱一切美好的事物
+  url: https://www.87csn.com/
+  description: 爱好者博客为您提供程序员知识,爱好者技术分享博客,爱好者博客详细讲解Linux、JAVA、PHP。
+  links: /
   friends:
-    - name: "缥缈博客"
-      url: "https://blog.btstu.cn/"
-    - name: "零艺客"
-      url: "http://www.lykep.com"
-    - name: "思有云 - IOIOX"
-      url: "https://www.ioiox.com"
-    - name: "ChatGPT"
-      url: "https://www.chatai.ee
-
-        "
+    - name: 缥缈博客
+      url: https://blog.btstu.cn/
+    - name: 零艺客
+      url: http://www.lykep.com
+    - name: 思有云 - IOIOX
+      url: https://www.ioiox.com
+    - name: ChatGPT
+      url: |
+        https://www.chatai.ee

@@ -1,18 +1,18 @@
 site:
-  name: "blog.zjuyk.site"
-  url: "https://blog.zjuyk.site/"
-  description: "友情链接"
-  links: "/friends"
+  name: 闻道录
+  url: https://blog.zjuyk.site/
+  description: 千玄子的博客
+  links: /friends
   friends:
-    - name: "Axionl 艾老师，笔名艾雨寒，ArchLinuxCN 打包者之一，会很有耐心的帮助新人解决问题"
-      url: "https://axionl.me/"
-    - name: "Losses Don 优秀的前端设计师（拥有心理学背景），很擅长制作 PPT，而且博客的布局和控件设计很有参考价值"
-      url: "https://roriri.one/"
-    - name: "BruceZhang 一只坏兔子，因为是电子包维护最多的人也被叫做电子兔，这只兔子满嘴骚话"
-      url: "https://brucezhang1993.github.io/"
-    - name: "AlynxZhou 周老师，很喜欢吹口琴，同时也是群里少数的 gnome 用户（受迫害"
-      url: "https://sh.alynx.one/"
-    - name: "Oldherl 老海尔是群里 400+ 岁的老人了，同时还是人肉字体识别机，文泉驿的好几个字体他都有参与贡献"
-      url: "https://blog.oldherl.one"
-    - name: "Weearc 相离相惜莫相忘，且行且歌且珍惜。什么？是 Arch 群里的 openSUSE 内鬼（"
-      url: "https://blog.weearc.top"
+    - name: Axionl 艾老师，笔名艾雨寒，ArchLinuxCN 打包者之一，会很有耐心的帮助新人解决问题
+      url: https://axionl.me/
+    - name: Losses Don 优秀的前端设计师（拥有心理学背景），很擅长制作 PPT，而且博客的布局和控件设计很有参考价值
+      url: https://roriri.one/
+    - name: BruceZhang 一只坏兔子，因为是电子包维护最多的人也被叫做电子兔，这只兔子满嘴骚话
+      url: https://brucezhang1993.github.io/
+    - name: AlynxZhou 周老师，很喜欢吹口琴，同时也是群里少数的 gnome 用户（受迫害
+      url: https://sh.alynx.one/
+    - name: Oldherl 老海尔是群里 400+ 岁的老人了，同时还是人肉字体识别机，文泉驿的好几个字体他都有参与贡献
+      url: https://blog.oldherl.one
+    - name: Weearc 相离相惜莫相忘，且行且歌且珍惜。什么？是 Arch 群里的 openSUSE 内鬼（
+      url: https://blog.weearc.top

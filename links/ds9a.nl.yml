@@ -1,14 +1,14 @@
 site:
-  name: "ds9a.nl"
-  url: "https://ds9a.nl/"
-  description: "友情链接"
-  links: "/"
+  name: Bert Hubert
+  url: https://ds9a.nl/
+  description: 友情链接
+  links: /
   friends:
-    - name: "PowerDNS"
-      url: "https://www.powerdns.com/"
-    - name: "galmon.eu"
-      url: "https://galmon.eu"
-    - name: "SkewDB"
-      url: "https://skewdb.org"
-    - name: "Old blog"
-      url: "http://bert-hubert.blogspot.com"
+    - name: PowerDNS
+      url: https://www.powerdns.com/
+    - name: galmon.eu
+      url: https://galmon.eu
+    - name: SkewDB
+      url: https://skewdb.org
+    - name: Old blog
+      url: http://bert-hubert.blogspot.com

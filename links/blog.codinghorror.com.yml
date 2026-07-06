@@ -1,60 +1,60 @@
 site:
-  name: "blog.codinghorror.com"
-  url: "https://blog.codinghorror.com/"
-  description: "友情链接"
-  links: "/"
+  name: Coding Horror
+  url: https://blog.codinghorror.com/
+  description: programming and human factors
+  links: /
   friends:
-    - name: "Discourse"
-      url: "https://www.discourse.org/"
-    - name: "Stack"
-      url: "https://www.stackexchange.com/"
-    - name: "RGMII"
-      url: "https://rgmii.org/"
-    - name: "TWiT network"
-      url: "https://twit.tv/"
-    - name: "claygrahamart.com"
-      url: "https://www.claygrahamart.com/"
-    - name: "Discourse"
-      url: "https://discourse.org"
-    - name: "Wesley Faulkner"
-      url: "https://wesleyfaulkner.com/"
-    - name: "Paris Martineau"
-      url: "https://parismartineau.com/"
-    - name: "my third startup"
-      url: "https://staygold.us/"
-    - name: "effectively helping"
-      url: "https://www.charitynavigator.org/"
-    - name: "Team Rubicon"
-      url: "https://teamrubiconusa.org/"
-    - name: "Children’s Hunger Fund"
-      url: "https://childrenshungerfund.org/"
-    - name: "PEN America"
-      url: "https://pen.org/"
-    - name: "First Generation Investors"
-      url: "https://www.firstgenerationinvestors.com/"
-    - name: "Planned Parenthood"
-      url: "https://www.plannedparenthood.org/"
-    - name: "VoteVets"
-      url: "https://votevets.org/"
-    - name: "Mastodon"
-      url: "https://joinmastodon.org/"
-    - name: "Ryan Broderick / Garbage Day"
-      url: "https://www.garbageday.email/"
-    - name: "Internet Archive"
-      url: "https://archive.org/"
-    - name: "Common Crawl Foundation"
-      url: "https://commoncrawl.org/"
-    - name: "DNA Lounge"
-      url: "https://www.dnalounge.com/"
-    - name: "Sharewell"
-      url: "https://sharewellnow.com/"
-    - name: "Civic Nation"
-      url: "https://civicnation.org/"
-    - name: "Alameda Food Bank"
-      url: "https://www.alamedafoodbank.org/"
-    - name: "Lever for Change"
-      url: "https://www.leverforchange.org/"
-    - name: "Ghost"
-      url: "https://ghost.org/"
-    - name: "Obox"
-      url: "https://oboxthemes.com"
+    - name: Discourse
+      url: https://www.discourse.org/
+    - name: Stack
+      url: https://www.stackexchange.com/
+    - name: RGMII
+      url: https://rgmii.org/
+    - name: TWiT network
+      url: https://twit.tv/
+    - name: claygrahamart.com
+      url: https://www.claygrahamart.com/
+    - name: Discourse
+      url: https://discourse.org
+    - name: Wesley Faulkner
+      url: https://wesleyfaulkner.com/
+    - name: Paris Martineau
+      url: https://parismartineau.com/
+    - name: my third startup
+      url: https://staygold.us/
+    - name: effectively helping
+      url: https://www.charitynavigator.org/
+    - name: Team Rubicon
+      url: https://teamrubiconusa.org/
+    - name: Children’s Hunger Fund
+      url: https://childrenshungerfund.org/
+    - name: PEN America
+      url: https://pen.org/
+    - name: First Generation Investors
+      url: https://www.firstgenerationinvestors.com/
+    - name: Planned Parenthood
+      url: https://www.plannedparenthood.org/
+    - name: VoteVets
+      url: https://votevets.org/
+    - name: Mastodon
+      url: https://joinmastodon.org/
+    - name: Ryan Broderick / Garbage Day
+      url: https://www.garbageday.email/
+    - name: Internet Archive
+      url: https://archive.org/
+    - name: Common Crawl Foundation
+      url: https://commoncrawl.org/
+    - name: DNA Lounge
+      url: https://www.dnalounge.com/
+    - name: Sharewell
+      url: https://sharewellnow.com/
+    - name: Civic Nation
+      url: https://civicnation.org/
+    - name: Alameda Food Bank
+      url: https://www.alamedafoodbank.org/
+    - name: Lever for Change
+      url: https://www.leverforchange.org/
+    - name: Ghost
+      url: https://ghost.org/
+    - name: Obox
+      url: https://oboxthemes.com

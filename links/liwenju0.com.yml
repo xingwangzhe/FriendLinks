@@ -1,34 +1,34 @@
 site:
-  name: "liwenju0.com"
-  url: "https://liwenju0.com/"
-  description: "友情链接"
-  links: "/"
+  name: 欢迎来到 - 文举的博客
+  url: https://liwenju0.com/
+  description: 欢迎来到 - 文举的博客 - 作者:李文举
+  links: /
   friends:
-    - name: "karpathy的博客"
-      url: "https://karpathy.github.io/"
-    - name: "谭升的博客"
-      url: "https://face2ai.com/"
-    - name: "科学空间"
-      url: "https://kexue.fm/"
-    - name: "铁蕾的博客"
-      url: "http://zhangtielei.com/"
-    - name: "巩鹏的博客"
-      url: "https://blog.lucida.me/"
-    - name: "唐巧的博客"
-      url: "https://blog.devtang.com/"
-    - name: "华校专的博客"
-      url: "http://www.huaxiaozhuan.com/"
-    - name: "jalammar的博客"
-      url: "http://jalammar.github.io/"
-    - name: "colah的博客"
-      url: "http://colah.github.io/"
-    - name: "ezyang的博客"
-      url: "http://blog.ezyang.com/"
-    - name: "郭飞的笔记"
-      url: "https://www.guofei.site/"
-    - name: "openai大佬lilian"
-      url: "https://lilianweng.github.io/"
-    - name: "中科院博士令宇"
-      url: "https://www.kppkkp.top/"
-    - name: "Keller Jordan"
-      url: "https://kellerjordan.github.io/"
+    - name: karpathy的博客
+      url: https://karpathy.github.io/
+    - name: 谭升的博客
+      url: https://face2ai.com/
+    - name: 科学空间
+      url: https://kexue.fm/
+    - name: 铁蕾的博客
+      url: http://zhangtielei.com/
+    - name: 巩鹏的博客
+      url: https://blog.lucida.me/
+    - name: 唐巧的博客
+      url: https://blog.devtang.com/
+    - name: 华校专的博客
+      url: http://www.huaxiaozhuan.com/
+    - name: jalammar的博客
+      url: http://jalammar.github.io/
+    - name: colah的博客
+      url: http://colah.github.io/
+    - name: ezyang的博客
+      url: http://blog.ezyang.com/
+    - name: 郭飞的笔记
+      url: https://www.guofei.site/
+    - name: openai大佬lilian
+      url: https://lilianweng.github.io/
+    - name: 中科院博士令宇
+      url: https://www.kppkkp.top/
+    - name: Keller Jordan
+      url: https://kellerjordan.github.io/

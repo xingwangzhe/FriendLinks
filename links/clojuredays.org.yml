@@ -1,24 +1,24 @@
 site:
-  name: "clojuredays.org"
-  url: "https://clojuredays.org/"
-  description: "友情链接"
-  links: "/"
+  name: Dutch Clojure Days 2026
+  url: https://clojuredays.org/
+  description: The Annual International Gathering of Clojure Enthusiasts and Practitioners in the Netherlands!
+  links: /
   friends:
-    - name: "blog.phronemophobic…"
-      url: "https://blog.phronemophobic.com"
-    - name: "tonsky.me"
-      url: "https://tonsky.me"
-    - name: "andersmurphy.com"
-      url: "https://andersmurphy.com"
-    - name: "www.wendyrandolph.c…"
-      url: "http://www.wendyrandolph.com"
-    - name: "Gaiwan"
-      url: "https://gaiwan.co"
-    - name: "blog.michielborkent…"
-      url: "https://blog.michielborkent.nl"
-    - name: "Carlo Sciolla"
-      url: "https://codehopper.nl"
-    - name: "Joost Diepenmaat"
-      url: "https://jomco.nl/"
-    - name: "Lubov Soltan"
-      url: "https://artistlubov.cohart.com/"
+    - name: blog.phronemophobic…
+      url: https://blog.phronemophobic.com
+    - name: tonsky.me
+      url: https://tonsky.me
+    - name: andersmurphy.com
+      url: https://andersmurphy.com
+    - name: www.wendyrandolph.c…
+      url: http://www.wendyrandolph.com
+    - name: Gaiwan
+      url: https://gaiwan.co
+    - name: blog.michielborkent…
+      url: https://blog.michielborkent.nl
+    - name: Carlo Sciolla
+      url: https://codehopper.nl
+    - name: Joost Diepenmaat
+      url: https://jomco.nl/
+    - name: Lubov Soltan
+      url: https://artistlubov.cohart.com/

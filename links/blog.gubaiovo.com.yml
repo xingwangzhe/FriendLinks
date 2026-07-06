@@ -1,12 +1,12 @@
 site:
-  name: "blog.gubaiovo.com"
-  url: "https://blog.gubaiovo.com/"
-  description: "友情链接"
-  links: "/links"
+  name: GuBai
+  url: https://blog.gubaiovo.com/
+  description: 友情链接
+  links: /links
   friends:
-    - name: "key's Blog"
-      url: "https://find-key.github.io/"
-    - name: "mmj's Blog"
-      url: "https://samzhaohx.github.io/"
-    - name: "Duo 云站"
-      url: "https://www.mduo.cloud/"
+    - name: key's Blog
+      url: https://find-key.github.io/
+    - name: mmj's Blog
+      url: https://samzhaohx.github.io/
+    - name: Duo 云站
+      url: https://www.mduo.cloud/

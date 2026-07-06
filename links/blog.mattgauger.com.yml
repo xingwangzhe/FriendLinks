@@ -1,8 +1,8 @@
 site:
-  name: "blog.mattgauger.com"
-  url: "https://blog.mattgauger.com/"
-  description: "友情链接"
-  links: "/about"
+  name: Matt Gauger
+  url: https://blog.mattgauger.com/
+  description: The blog of Matt Gauger, a programmer, maker, cyclist, reader, and boatbuilder. Lisp machines and chording keybords in the present, not the past.
+  links: /about
   friends:
-    - name: "Heroku"
-      url: "https://www.heroku.com"
+    - name: Heroku
+      url: https://www.heroku.com

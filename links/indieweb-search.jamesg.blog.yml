@@ -1,8 +1,8 @@
 site:
-  name: "indieweb-search.jamesg.blog"
-  url: "https://indieweb-search.jamesg.blog/"
-  description: "友情链接"
-  links: "/about"
+  name: IndieWeb Discover
+  url: https://indieweb-search.jamesg.blog/
+  description: 友情链接
+  links: /about
   friends:
-    - name: "blogroll.org"
-      url: "https://blogroll.org"
+    - name: blogroll.org
+      url: https://blogroll.org

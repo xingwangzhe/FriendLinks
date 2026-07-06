@@ -1,12 +1,12 @@
 site:
-  name: "aoi-recipes.site"
-  url: "https://www.aoi-recipes.site/"
-  description: "友情链接"
-  links: "/friends"
+  name: 菜谱小站
+  url: https://www.aoi-recipes.site/
+  description: 个人笔记博客
+  links: /friends
   friends:
-    - name: "吐槽大王部落洛"
-      url: "https://tcdw.net/"
-    - name: "stellarlane"
-      url: "https://stellarlane.github.io/"
-    - name: "Sotr's blog Stray birds of summer come to my window to sing and fly away."
-      url: "https://kira.moe/"
+    - name: 吐槽大王部落洛
+      url: https://tcdw.net/
+    - name: stellarlane
+      url: https://stellarlane.github.io/
+    - name: Sotr's blog Stray birds of summer come to my window to sing and fly away.
+      url: https://kira.moe/

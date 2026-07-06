@@ -1,56 +1,56 @@
 site:
-  name: "jiemin.com"
-  url: "https://www.jiemin.com/"
-  description: "友情链接"
-  links: "/"
+  name: 黄杰敏的博客
+  url: https://www.jiemin.com/
+  description: 友情链接
+  links: /
   friends:
-    - name: "DigBoy.com"
-      url: "http://www.digboy.com/"
-    - name: "Hi午夜"
-      url: "http://hiwuye.myds.me:7890/"
-    - name: "Slyar Home"
-      url: "http://www.slyar.com/"
-    - name: "互联网档案馆"
-      url: "https://archive.org/"
-    - name: "刘荣星的博客"
-      url: "http://www.liurongxing.com/"
-    - name: "土木坛子"
-      url: "https://tumutanzi.com/"
-    - name: "天一生水"
-      url: "https://www.jiangyu.org/"
-    - name: "学无止境"
-      url: "https://www.gtdstudy.com/"
-    - name: "小桥流水人家"
-      url: "http://baiqiuyi.com/"
-    - name: "小陈故事"
-      url: "https://www.chener.net/"
-    - name: "未来往事"
-      url: "https://felixway.cn/"
-    - name: "林海草原"
-      url: "https://lhcy.org/"
-    - name: "牧狼羊"
-      url: "http://yujan.com/"
-    - name: "祈星海"
-      url: "https://www.zzzzhi.com/"
-    - name: "缙哥哥的博客"
-      url: "https://www.dujin.org/"
-    - name: "羽亿江南"
-      url: "https://yyjn.org/"
-    - name: "荒野菲克"
-      url: "https://ficor.net/"
-    - name: "赞否网"
-      url: "http://www.zanfou.com/"
-    - name: "追梦人日记网"
-      url: "http://www.diary365.net/"
-    - name: "道天如是觀◎西岸"
-      url: "http://farbank.net/"
-    - name: "邹志强个人网站"
-      url: "http://www.zouzhiqiang.com/"
-    - name: "香水的博客"
-      url: "http://www.xsui.com/"
-    - name: "鸟叔の窝"
-      url: "https://thornbird.org/"
-    - name: "龙G笔记"
-      url: "https://www.izhailong.com"
-    - name: "龙天小筑"
-      url: "https://www.dragongod.net/"
+    - name: DigBoy.com
+      url: http://www.digboy.com/
+    - name: Hi午夜
+      url: http://hiwuye.myds.me:7890/
+    - name: Slyar Home
+      url: http://www.slyar.com/
+    - name: 互联网档案馆
+      url: https://archive.org/
+    - name: 刘荣星的博客
+      url: http://www.liurongxing.com/
+    - name: 土木坛子
+      url: https://tumutanzi.com/
+    - name: 天一生水
+      url: https://www.jiangyu.org/
+    - name: 学无止境
+      url: https://www.gtdstudy.com/
+    - name: 小桥流水人家
+      url: http://baiqiuyi.com/
+    - name: 小陈故事
+      url: https://www.chener.net/
+    - name: 未来往事
+      url: https://felixway.cn/
+    - name: 林海草原
+      url: https://lhcy.org/
+    - name: 牧狼羊
+      url: http://yujan.com/
+    - name: 祈星海
+      url: https://www.zzzzhi.com/
+    - name: 缙哥哥的博客
+      url: https://www.dujin.org/
+    - name: 羽亿江南
+      url: https://yyjn.org/
+    - name: 荒野菲克
+      url: https://ficor.net/
+    - name: 赞否网
+      url: http://www.zanfou.com/
+    - name: 追梦人日记网
+      url: http://www.diary365.net/
+    - name: 道天如是觀◎西岸
+      url: http://farbank.net/
+    - name: 邹志强个人网站
+      url: http://www.zouzhiqiang.com/
+    - name: 香水的博客
+      url: http://www.xsui.com/
+    - name: 鸟叔の窝
+      url: https://thornbird.org/
+    - name: 龙G笔记
+      url: https://www.izhailong.com
+    - name: 龙天小筑
+      url: https://www.dragongod.net/

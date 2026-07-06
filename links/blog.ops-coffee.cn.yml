@@ -1,16 +1,16 @@
 site:
-  name: "blog.ops-coffee.cn"
-  url: "https://blog.ops-coffee.cn/"
-  description: "友情链接"
-  links: "/friends"
+  name: 运维咖啡吧
+  url: https://blog.ops-coffee.cn/
+  description: 运维咖啡吧 - 享受技术带来的乐趣，体验生活给予的感动
+  links: /friends
   friends:
-    - name: "CODO"
-      url: "https://opendevops.cn"
-    - name: "阳明的博客"
-      url: "https://www.qikqiak.com"
-    - name: "nops"
-      url: "https://nops.icu/"
-    - name: "陆鉴鑫的博客"
-      url: "https://www.lujianxin.com/"
-    - name: "山山仙人博客"
-      url: "https://www.ssgeek.com"
+    - name: CODO
+      url: https://opendevops.cn
+    - name: 阳明的博客
+      url: https://www.qikqiak.com
+    - name: nops
+      url: https://nops.icu/
+    - name: 陆鉴鑫的博客
+      url: https://www.lujianxin.com/
+    - name: 山山仙人博客
+      url: https://www.ssgeek.com

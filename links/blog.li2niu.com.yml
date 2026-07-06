@@ -1,10 +1,10 @@
 site:
-  name: "blog.li2niu.com"
-  url: "https://blog.li2niu.com/"
-  description: "友情链接"
-  links: "/"
+  name: 本站介绍
+  url: https://blog.li2niu.com/
+  description: 本站内容包括但不限于微信公众号李二牛, 话题包括但不限于运动数码、马拉松训练等。
+  links: /
   friends:
-    - name: "小宇宙：牛言牛语|跑步科技播客"
-      url: "https://li2niu.podcast.xyz"
+    - name: 小宇宙：牛言牛语|跑步科技播客
+      url: https://li2niu.podcast.xyz
     - name: "GameraSnap: 佳明手表拍照控制器"
-      url: "https://garmintakephotos.com"
+      url: https://garmintakephotos.com

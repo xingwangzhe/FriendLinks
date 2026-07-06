@@ -1,58 +1,58 @@
 site:
-  name: "blog.nw177.cn"
-  url: "https://blog.nw177.cn/"
-  description: "友情链接"
-  links: "/friends"
+  name: 十三の博客 - 花有重开时，人无再少年。
+  url: https://blog.nw177.cn/
+  description: 十三 是一个记录折腾博客搭建教程、分享教程、随笔感悟，技术探索与生活记录，都在这里。
+  links: /friends
   friends:
-    - name: "Hyde Blog 人心中的成见是一座大山 Astro"
-      url: "https://seasir.top/"
-    - name: "RyuChan Ciallo～(∠・ω<)⌒★ Astro"
-      url: "https://ryu-chan.vercel.app/"
-    - name: "W3C技术联盟 让Web服务全人类 Astro"
-      url: "https://image.js.cn/"
-    - name: "One 上海修车spa足浴推拿反差狂魔one哥 Blog"
-      url: "https://onedayxyy.cn/"
-    - name: "楠枝小笺 安安静静地存在，就已经很好了。 Astro"
-      url: "https://www.nannax.top/"
-    - name: "Yubendan 内心充盈者，独行也如众。 Astro"
-      url: "https://yubendan.com/"
-    - name: "versus0 技术+算法blog。 Astro"
-      url: "https://blog.542000.xyz"
-    - name: "ZhiJing's Blog Go with the flow. Astro"
-      url: "https://iwexe.top"
-    - name: "星遐蝶梦 星穹漫遐，蝶携清梦。 Astro"
-      url: "https://blog.casto.top"
-    - name: "年华 分享生活和技术。 Astro"
-      url: "https://blog.520781.xyz"
-    - name: "THW's Blog 前途似海，来日方长 Astro"
-      url: "https://blog.tianhw.top"
-    - name: "Kiwi-Blog 我需要安静，听到世界的呼吸声 这里记录Kiwi的日常 Blog"
-      url: "https://www.ffaff.fun/"
-    - name: "White~Festa If you shout loud enough, you’ll be the one. Astro"
-      url: "https://white-festa.net"
-    - name: "番茄主理人 坐而言不如起而行. Astro"
-      url: "https://fqzlr.com/"
-    - name: "晓正杨博客 让代码更有价值，让学生生活不再枯燥 Astro"
-      url: "https://blog.7003410.xyz/"
-    - name: "小王的博客 一个上了年纪的猿人. Astro"
-      url: "https://www.huhaha.vip/"
-    - name: "Sigrika-善良耙耙柑🍊 记录我的二次元之旅 Astro"
-      url: "https://qwq.sigrika.cc/"
-    - name: "Nachcekoの小窝 1つの熱愛の2次元の小さい萌の新しい~ /.こんにちはnya~です Astro"
-      url: "https://tbmiao.dpdns.org"
-    - name: "Saimen Blog 读史可以明智,知古方能鉴今。 Blog"
-      url: "https://com.z2m.store"
-    - name: "Eysnter 你好 Astro"
-      url: "https://blog.eysnter.cn/"
-    - name: "小生 天生我材必有用，千金散尽还复来。 Blog"
-      url: "https://www.zsso.cn"
-    - name: "mccsjs 点一盏灯，等待一个迷路的夜🍁 Blog"
-      url: "https://blog.seln.cn"
-    - name: "橘智 共享博客&深度思考 Blog"
-      url: "https://juzhiart.com"
-    - name: "顾拾柒 分享、实践、学习 Blog"
-      url: "https://blog.olinl.com"
-    - name: "萌酷网 专属个人随笔博客，记录日常琐事、职场工作点滴、喜怒哀乐心情感悟，用文字留存平凡生活里的温柔与酷感习 Blog"
-      url: "https://www.moekuu.com"
+    - name: Hyde Blog 人心中的成见是一座大山 Astro
+      url: https://seasir.top/
+    - name: RyuChan Ciallo～(∠・ω<)⌒★ Astro
+      url: https://ryu-chan.vercel.app/
+    - name: W3C技术联盟 让Web服务全人类 Astro
+      url: https://image.js.cn/
+    - name: One 上海修车spa足浴推拿反差狂魔one哥 Blog
+      url: https://onedayxyy.cn/
+    - name: 楠枝小笺 安安静静地存在，就已经很好了。 Astro
+      url: https://www.nannax.top/
+    - name: Yubendan 内心充盈者，独行也如众。 Astro
+      url: https://yubendan.com/
+    - name: versus0 技术+算法blog。 Astro
+      url: https://blog.542000.xyz
+    - name: ZhiJing's Blog Go with the flow. Astro
+      url: https://iwexe.top
+    - name: 星遐蝶梦 星穹漫遐，蝶携清梦。 Astro
+      url: https://blog.casto.top
+    - name: 年华 分享生活和技术。 Astro
+      url: https://blog.520781.xyz
+    - name: THW's Blog 前途似海，来日方长 Astro
+      url: https://blog.tianhw.top
+    - name: Kiwi-Blog 我需要安静，听到世界的呼吸声 这里记录Kiwi的日常 Blog
+      url: https://www.ffaff.fun/
+    - name: White~Festa If you shout loud enough, you’ll be the one. Astro
+      url: https://white-festa.net
+    - name: 番茄主理人 坐而言不如起而行. Astro
+      url: https://fqzlr.com/
+    - name: 晓正杨博客 让代码更有价值，让学生生活不再枯燥 Astro
+      url: https://blog.7003410.xyz/
+    - name: 小王的博客 一个上了年纪的猿人. Astro
+      url: https://www.huhaha.vip/
+    - name: Sigrika-善良耙耙柑🍊 记录我的二次元之旅 Astro
+      url: https://qwq.sigrika.cc/
+    - name: Nachcekoの小窝 1つの熱愛の2次元の小さい萌の新しい~ /.こんにちはnya~です Astro
+      url: https://tbmiao.dpdns.org
+    - name: Saimen Blog 读史可以明智,知古方能鉴今。 Blog
+      url: https://com.z2m.store
+    - name: Eysnter 你好 Astro
+      url: https://blog.eysnter.cn/
+    - name: 小生 天生我材必有用，千金散尽还复来。 Blog
+      url: https://www.zsso.cn
+    - name: mccsjs 点一盏灯，等待一个迷路的夜🍁 Blog
+      url: https://blog.seln.cn
+    - name: 橘智 共享博客&深度思考 Blog
+      url: https://juzhiart.com
+    - name: 顾拾柒 分享、实践、学习 Blog
+      url: https://blog.olinl.com
+    - name: 萌酷网 专属个人随笔博客，记录日常琐事、职场工作点滴、喜怒哀乐心情感悟，用文字留存平凡生活里的温柔与酷感习 Blog
+      url: https://www.moekuu.com
     - name: "| Umami"
-      url: "https://umami.is/"
+      url: https://umami.is/

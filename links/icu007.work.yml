@@ -1,18 +1,18 @@
 site:
-  name: "icu007.work"
-  url: "https://icu007.work/"
-  description: "友情链接"
-  links: "/friends"
+  name: 记录我的学习笔记&日常生活
+  url: https://icu007.work/
+  description: 友情链接
+  links: /friends
   friends:
-    - name: "LeetCode"
-      url: "https://leetcode-cn.com/"
-    - name: "我的子站"
-      url: "https://icu007work.gitee.io/"
-    - name: "solstice23’s Blog"
-      url: "https://solstice23.top"
-    - name: "Wade的学习笔记"
-      url: "https://www.wadesays.xyz"
-    - name: "f2h2h1’s blog"
-      url: "https://f2h2h1.github.io"
-    - name: "盐汽水的海洋"
-      url: "https://www.yanqishui.work/"
+    - name: LeetCode
+      url: https://leetcode-cn.com/
+    - name: 我的子站
+      url: https://icu007work.gitee.io/
+    - name: solstice23’s Blog
+      url: https://solstice23.top
+    - name: Wade的学习笔记
+      url: https://www.wadesays.xyz
+    - name: f2h2h1’s blog
+      url: https://f2h2h1.github.io
+    - name: 盐汽水的海洋
+      url: https://www.yanqishui.work/

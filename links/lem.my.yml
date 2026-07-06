@@ -1,10 +1,10 @@
 site:
-  name: "lem.my"
-  url: "https://lem.my/"
-  description: "友情链接"
-  links: "/"
+  name: Lemuel De Los Santos
+  url: https://lem.my/
+  description: Personal website and portfolio.
+  links: /
   friends:
-    - name: "catppuccin webring"
-      url: "https://ctp-webr.ing"
-    - name: "nix webring"
-      url: "https://nixwebr.ing"
+    - name: catppuccin webring
+      url: https://ctp-webr.ing
+    - name: nix webring
+      url: https://nixwebr.ing

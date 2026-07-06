@@ -1,16 +1,16 @@
 site:
-  name: "emacsninja.com"
-  url: "https://emacsninja.com/"
-  description: "友情链接"
-  links: "/"
+  name: Emacs Ninja - Index
+  url: https://emacsninja.com/
+  description: 友情链接
+  links: /
   friends:
-    - name: "MELPA"
-      url: "https://melpa.org/"
-    - name: "source code"
-      url: "https://joern.io/"
-    - name: "the Bolt protocol"
-      url: "https://neo4j-client.net/"
-    - name: "Snow"
-      url: "http://snow-fort.org/"
-    - name: "Akku"
-      url: "https://akkuscm.org/"
+    - name: MELPA
+      url: https://melpa.org/
+    - name: source code
+      url: https://joern.io/
+    - name: the Bolt protocol
+      url: https://neo4j-client.net/
+    - name: Snow
+      url: http://snow-fort.org/
+    - name: Akku
+      url: https://akkuscm.org/

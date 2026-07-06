@@ -1,84 +1,84 @@
 site:
-  name: "xandra.cc"
-  url: "https://xandra.cc/"
-  description: "友情链接"
-  links: "/links"
+  name: the museum of alexandra
+  url: https://xandra.cc/
+  description: A personal website akin to the 2000s web, filled with essays, pixel art, and collaborative web projects promoting the independent and personal web. Best viewed on desktop.
+  links: /links
   friends:
-    - name: "let's learn together"
-      url: "https://letslearntogether.neocities.org/"
-    - name: "list-me"
-      url: "https://list-me.com"
-    - name: "indieseek.xyz"
-      url: "https://indieseek.xyz/"
-    - name: "peelopaalu"
-      url: "https://peelopaalu.neocities.org/"
-    - name: "gossip's web"
-      url: "https://gossipsweb.net/"
-    - name: "cliqued"
-      url: "https://cliqued.wings.nu/"
-    - name: "project clique"
-      url: "https://project.moudoku.com/"
-    - name: "wiby"
-      url: "https://wiby.me/"
-    - name: "the textfile directory"
-      url: "http://textfiles.com/"
-    - name: "a new session"
-      url: "https://anewsession.com/"
-    - name: "gossip's café"
-      url: "https://gossips.cafe/"
-    - name: "dollz revival"
-      url: "https://dollzrevival.neocities.org/"
-    - name: "arkm's world"
-      url: "https://arkmsworld.neocities.org/"
-    - name: "wobble town"
-      url: "https://wobble.town"
-    - name: "tamaNOTchi"
-      url: "https://tamanotchi.world/"
-    - name: "dr. kelly c. smith"
-      url: "https://kcs098.wixsite.com/"
-    - name: "socialist studies"
-      url: "https://socialiststudies.neocities.org/"
-    - name: "project gutenberg"
-      url: "https://www.gutenberg.org/"
-    - name: "a course in consciousness"
-      url: "https://courseinconsciousness.neocities.org/"
-    - name: "an eclectic library"
-      url: "https://eclectic-library.neocities.org/"
-    - name: "curlie"
-      url: "https://curlie.org/"
-    - name: "the web design museum"
-      url: "https://www.webdesignmuseum.org/"
-    - name: "broke ass stuart"
-      url: "https://brokeassstuart.com/"
-    - name: "flamedfury"
-      url: "https://flamedfury.com/"
-    - name: "yequari"
-      url: "https://yequari.com/"
-    - name: "cheapskate's guide"
-      url: "https://cheapskatesguide.org/"
-    - name: "zinzy.website"
-      url: "https://www.zinzy.website/"
-    - name: "adalah"
-      url: "https://www.adalah.org/"
-    - name: "black girls code"
-      url: "https://www.wearebgc.org/"
-    - name: "blue marble space"
-      url: "https://bluemarblespace.org/"
-    - name: "center for humane technology"
-      url: "https://www.humanetech.com/"
-    - name: "decolonize palestine"
-      url: "https://decolonizepalestine.com/"
-    - name: "doctors without borders"
-      url: "https://www.doctorswithoutborders.org/"
-    - name: "the lupus foundation of america"
-      url: "https://www.lupus.org/"
-    - name: "national center for transgender equality"
-      url: "https://transequality.org/"
-    - name: "national lgbtq task force"
-      url: "https://www.thetaskforce.org/"
-    - name: "native american rights fund"
-      url: "https://narf.org/"
-    - name: "norml"
-      url: "https://norml.org/"
-    - name: "showing up for racial justice"
-      url: "https://surj.org/"
+    - name: let's learn together
+      url: https://letslearntogether.neocities.org/
+    - name: list-me
+      url: https://list-me.com
+    - name: indieseek.xyz
+      url: https://indieseek.xyz/
+    - name: peelopaalu
+      url: https://peelopaalu.neocities.org/
+    - name: gossip's web
+      url: https://gossipsweb.net/
+    - name: cliqued
+      url: https://cliqued.wings.nu/
+    - name: project clique
+      url: https://project.moudoku.com/
+    - name: wiby
+      url: https://wiby.me/
+    - name: the textfile directory
+      url: http://textfiles.com/
+    - name: a new session
+      url: https://anewsession.com/
+    - name: gossip's café
+      url: https://gossips.cafe/
+    - name: dollz revival
+      url: https://dollzrevival.neocities.org/
+    - name: arkm's world
+      url: https://arkmsworld.neocities.org/
+    - name: wobble town
+      url: https://wobble.town
+    - name: tamaNOTchi
+      url: https://tamanotchi.world/
+    - name: dr. kelly c. smith
+      url: https://kcs098.wixsite.com/
+    - name: socialist studies
+      url: https://socialiststudies.neocities.org/
+    - name: project gutenberg
+      url: https://www.gutenberg.org/
+    - name: a course in consciousness
+      url: https://courseinconsciousness.neocities.org/
+    - name: an eclectic library
+      url: https://eclectic-library.neocities.org/
+    - name: curlie
+      url: https://curlie.org/
+    - name: the web design museum
+      url: https://www.webdesignmuseum.org/
+    - name: broke ass stuart
+      url: https://brokeassstuart.com/
+    - name: flamedfury
+      url: https://flamedfury.com/
+    - name: yequari
+      url: https://yequari.com/
+    - name: cheapskate's guide
+      url: https://cheapskatesguide.org/
+    - name: zinzy.website
+      url: https://www.zinzy.website/
+    - name: adalah
+      url: https://www.adalah.org/
+    - name: black girls code
+      url: https://www.wearebgc.org/
+    - name: blue marble space
+      url: https://bluemarblespace.org/
+    - name: center for humane technology
+      url: https://www.humanetech.com/
+    - name: decolonize palestine
+      url: https://decolonizepalestine.com/
+    - name: doctors without borders
+      url: https://www.doctorswithoutborders.org/
+    - name: the lupus foundation of america
+      url: https://www.lupus.org/
+    - name: national center for transgender equality
+      url: https://transequality.org/
+    - name: national lgbtq task force
+      url: https://www.thetaskforce.org/
+    - name: native american rights fund
+      url: https://narf.org/
+    - name: norml
+      url: https://norml.org/
+    - name: showing up for racial justice
+      url: https://surj.org/

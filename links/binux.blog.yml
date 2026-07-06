@@ -1,24 +1,24 @@
 site:
-  name: "binux.blog"
-  url: "https://binux.blog/"
-  description: "友情链接"
-  links: "/links"
+  name: Binuxの杂货铺
+  url: https://binux.blog/
+  description: 友情链接
+  links: /links
   friends:
-    - name: "LetsView"
-      url: "https://letsview.com/"
-    - name: "AirServer"
-      url: "https://www.airserver.com/"
-    - name: "MSS"
-      url: "https://python-mss.readthedocs.io/"
-    - name: "OBS"
-      url: "https://obsproject.com/"
-    - name: "tensorflow"
-      url: "https://www.tensorflow.org/"
-    - name: "Zerotier"
-      url: "https://www.zerotier.com/"
-    - name: "tinc"
-      url: "https://www.tinc-vpn.org/"
-    - name: "注册一个帐号"
-      url: "https://my.zerotier.com/"
-    - name: "WebTorrent"
-      url: "https://webtorrent.io/"
+    - name: LetsView
+      url: https://letsview.com/
+    - name: AirServer
+      url: https://www.airserver.com/
+    - name: MSS
+      url: https://python-mss.readthedocs.io/
+    - name: OBS
+      url: https://obsproject.com/
+    - name: tensorflow
+      url: https://www.tensorflow.org/
+    - name: Zerotier
+      url: https://www.zerotier.com/
+    - name: tinc
+      url: https://www.tinc-vpn.org/
+    - name: 注册一个帐号
+      url: https://my.zerotier.com/
+    - name: WebTorrent
+      url: https://webtorrent.io/

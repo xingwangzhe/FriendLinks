@@ -1,10 +1,10 @@
 site:
-  name: "mattstein.com"
-  url: "https://mattstein.com/"
-  description: "友情链接"
-  links: "/about"
+  name: Matt Stein
+  url: https://mattstein.com/
+  description: Curated collection of worthless blurbs.
+  links: /about
   friends:
-    - name: "Umami"
-      url: "https://umami.is"
-    - name: "devMode.fm Podcast"
-      url: "https://devmode.fm"
+    - name: Umami
+      url: https://umami.is
+    - name: devMode.fm Podcast
+      url: https://devmode.fm

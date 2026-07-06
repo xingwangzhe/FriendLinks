@@ -1,394 +1,394 @@
 site:
-  name: "stegrainer.com"
-  url: "https://stegrainer.com/"
-  description: "友情链接"
-  links: "/links"
+  name: Hi, I’m Ste Grainer.
+  url: https://stegrainer.com/
+  description: I’m a product design generalist based in Richmond, VA. I love learning from people, crafting accessible, intuitive designs, and building useful tools.
+  links: /links
   friends:
-    - name: "Hyperblam"
-      url: "https://hyperblam.how"
-    - name: "color-input web component"
-      url: "https://color-input.netlify.app"
-    - name: "oklch.fyi"
-      url: "https://oklch.fyi"
-    - name: "Pica"
-      url: "https://pica.joshpuckett.me"
-    - name: "Modalz Modalz Modalz"
-      url: "https://modalzmodalzmodalz.com/"
-    - name: "XOXO Explore"
-      url: "https://xoxofest.com"
-    - name: "Wiretext"
-      url: "https://wiretext.app"
-    - name: "Stuff Everybody Knows"
-      url: "https://stuffeverybodyknows.com"
-    - name: "Elena"
-      url: "https://elenajs.com"
-    - name: "Optician Sans"
-      url: "https://optician-sans.com"
-    - name: "Protocol Cards"
-      url: "https://protocolcards.com"
-    - name: "Channel Surfer"
-      url: "https://channelsurfer.tv/"
-    - name: "BaseWatch"
-      url: "https://basewatch.dev"
-    - name: "Type.lol"
-      url: "https://type.lol"
-    - name: "Open Graph Examples"
-      url: "https://opengraphexamples.com"
-    - name: "Current"
-      url: "https://www.currentreader.app/"
-    - name: "Indigo"
-      url: "https://indigostack.app"
-    - name: "Accessibility for Everyone"
-      url: "https://accessibilityforeveryone.site"
-    - name: "MTV Rewind"
-      url: "https://wantmymtv.vercel.app"
-    - name: "Knit Hello"
-      url: "https://www.knithello.com"
-    - name: "Strudel"
-      url: "https://strudel.cc"
-    - name: "Game Font Library"
-      url: "https://www.gamefontlibrary.com/"
-    - name: "Deceptive Patterns"
-      url: "https://www.deceptive.design/"
-    - name: "VoxCSS"
-      url: "https://voxcss.com/"
-    - name: "Printable Grid Paper"
-      url: "https://grid-paper.daverupert.com"
-    - name: "Modern Illustration"
-      url: "https://www.modernillustration.org"
-    - name: "A visual archive of BYTE"
-      url: "https://byte.tsundoku.io"
-    - name: "Fraunces"
-      url: "https://fraunces.undercase.xyz"
-    - name: "PlayPhrase"
-      url: "https://www.playphrase.me"
-    - name: "Hacker Laws"
-      url: "https://hacker-laws.com"
-    - name: "Laws of UX"
-      url: "https://lawsofux.com"
-    - name: "IDEA Instructions"
-      url: "https://idea-instructions.com"
-    - name: "Modern Font Stacks"
-      url: "https://modernfontstacks.com"
-    - name: "DesignShifts"
-      url: "https://www.designshifts.org"
-    - name: "Pointron"
-      url: "https://pointron.app"
-    - name: "Design Spells"
-      url: "https://www.designspells.com"
-    - name: "CSS HDR Gradients"
-      url: "https://gradient.style/"
-    - name: "Fold ’N Fly"
-      url: "https://www.foldnfly.com/"
-    - name: "Hacking with Swift"
-      url: "https://www.hackingwithswift.com"
-    - name: "Learn to Build Components That Work Anywhere"
-      url: "https://learn-wcs.com/"
-    - name: "Science Gothic"
-      url: "http://sciencegothic.com"
-    - name: "Archives.design"
-      url: "https://archives.design"
-    - name: "Open Design Docs"
-      url: "https://opendesigndocs.com/"
-    - name: "Design Principles"
-      url: "https://principles.design/"
-    - name: "Eloquent JavaScript"
-      url: "https://eloquentjavascript.net/"
-    - name: "Enhance"
-      url: "https://enhance.dev/"
-    - name: "Web Components bookmarks"
-      url: "https://webcomponents.today/"
-    - name: "Penpot"
-      url: "https://penpot.app/"
-    - name: "Design Systems Database"
-      url: "https://designsystems.surf/"
-    - name: "Monaspace"
-      url: "https://monaspace.githubnext.com/"
-    - name: "Strftime"
-      url: "https://strftime.net/"
-    - name: "Fontshare"
-      url: "https://www.fontshare.com/"
-    - name: "Frontend Practice"
-      url: "https://www.frontendpractice.com/"
-    - name: "Color.js"
-      url: "https://colorjs.io/"
-    - name: "The Component Gallery"
-      url: "https://component.gallery/"
-    - name: "Defensive CSS"
-      url: "https://defensivecss.dev/"
-    - name: "Standard Ebooks"
-      url: "https://standardebooks.org/"
-    - name: "Can I DevTools?"
-      url: "https://www.canidev.tools/"
-    - name: "808303.studio"
-      url: "https://808303.studio/"
-    - name: "RPG Tools"
-      url: "https://donjon.bin.sh/"
-    - name: "Design System Checklist"
-      url: "https://designsystemchecklist.com/"
-    - name: "Custom Shape Dividers"
-      url: "https://www.shapedivider.app/"
-    - name: "Heroicons"
-      url: "https://heroicons.com/"
-    - name: "Recursive Sans & Mono"
-      url: "https://www.recursive.design/"
-    - name: "Learning Music"
-      url: "https://learningmusic.ableton.com/"
-    - name: "HTML Head"
-      url: "https://htmlhead.dev/"
-    - name: "Spectrum"
-      url: "https://spectrum.adobe.com/"
-    - name: "Accessibility Support"
-      url: "https://a11ysupport.io/"
-    - name: "Gridsome"
-      url: "https://gridsome.org/"
-    - name: "Craft Cookbook"
-      url: "https://craftcookbook.net/"
-    - name: "Scrnshts"
-      url: "https://scrnshts.club/"
-    - name: "Zdog"
-      url: "https://zzz.dog/"
-    - name: "Animated Knots"
-      url: "https://www.animatedknots.com/"
-    - name: "Photopea"
-      url: "https://www.photopea.com/"
-    - name: "National Park Typeface"
-      url: "https://nationalparktypeface.com/"
-    - name: "JavaScript Event KeyCodes"
-      url: "http://keycode.info/"
-    - name: "CopyChar"
-      url: "https://copychar.cc/"
-    - name: "Piskel"
-      url: "https://www.piskelapp.com/"
-    - name: "Reveal.js"
-      url: "https://revealjs.com/"
-    - name: "Responsive Image Breakpoints Generator"
-      url: "https://www.responsivebreakpoints.com/"
-    - name: "Cut / Fold Templates"
-      url: "http://cutfoldtemplates.com/"
-    - name: "Static Site Boilerplate"
-      url: "http://staticsiteboilerplate.com/"
-    - name: "Reduct"
-      url: "https://reduct.video/"
-    - name: "The Pin Department"
-      url: "http://www.thepindepartment.com/"
-    - name: "Vectary"
-      url: "https://www.vectary.com/"
-    - name: "Django Packages"
-      url: "https://djangopackages.org/"
-    - name: "RegExr"
-      url: "https://regexr.com/"
-    - name: "dbdiagram.io"
-      url: "https://dbdiagram.io/"
-    - name: "ScrollOut"
-      url: "https://scroll-out.github.io/"
-    - name: "IndieWebify.Me - a guide to getting you on the IndieWeb"
-      url: "https://indiewebify.me/"
-    - name: "Omni Calculator"
-      url: "https://www.omnicalculator.com/"
-    - name: "The Modern Javascript Tutorial"
-      url: "https://javascript.info/"
-    - name: "CSS Doodle"
-      url: "https://css-doodle.com/"
-    - name: "PWABuilder"
-      url: "https://www.pwabuilder.com/"
-    - name: "Lapabooks"
-      url: "https://www.lapabooks.com/"
-    - name: "Glide.js"
-      url: "https://glidejs.com/"
-    - name: "Vue Design System"
-      url: "https://vueds.com/"
-    - name: "Rough.js"
-      url: "http://roughjs.com/"
-    - name: "Spirit"
-      url: "https://spiritapp.io/"
-    - name: "How to GraphQL"
-      url: "https://www.howtographql.com/"
-    - name: "30 Seconds of Code"
-      url: "https://30secondsofcode.org/"
-    - name: "Tracy"
-      url: "http://www.usetracy.com/"
-    - name: "Professional Web Typography"
-      url: "https://prowebtype.com/"
-    - name: "Matomo"
-      url: "https://matomo.org/"
-    - name: "Glyphs"
-      url: "https://glyphsapp.com/"
-    - name: "TONL"
-      url: "https://tonl.co/"
-    - name: "Aseprite"
-      url: "https://www.aseprite.org/"
-    - name: "Contrast for Mac"
-      url: "https://usecontrast.com/"
-    - name: "GravDept Field Manuals"
-      url: "http://manuals.gravitydept.com/"
-    - name: "Rev"
-      url: "https://www.rev.com/"
-    - name: "Kap"
-      url: "https://getkap.co/"
-    - name: "Open Source Guide"
-      url: "https://opensource.guide/"
-    - name: "Captain for Mac"
-      url: "https://getcaptain.co/"
-    - name: "Nudg.it"
-      url: "http://www.nudg.it/"
-    - name: "JavaScript 30"
-      url: "https://javascript30.com/"
-    - name: "CSS Reference"
-      url: "http://cssreference.io/"
-    - name: "clipboard.js"
-      url: "https://clipboardjs.com/"
-    - name: "You Might Not Need JavaScript"
-      url: "http://youmightnotneedjs.com/"
-    - name: "Fabricator"
-      url: "https://fbrctr.github.io/"
-    - name: "plainJS"
-      url: "https://plainjs.com/"
-    - name: "Staticman"
-      url: "https://staticman.net/"
-    - name: "WTF, forms?"
-      url: "http://wtfforms.com/"
-    - name: "Practical Typography"
-      url: "http://practicaltypography.com/"
-    - name: "Fractal"
-      url: "http://fractal.build/"
-    - name: "MarkSheet"
-      url: "http://marksheet.io/"
-    - name: "Alex.js"
-      url: "http://alexjs.com/"
-    - name: "Nicely Done"
-      url: "http://nicelydone.club/"
-    - name: "Zondicons"
-      url: "http://www.zondicons.com/"
-    - name: "Playbook, written by thoughtbot"
-      url: "http://playbook.thoughtbot.com/"
-    - name: "Devhints.io"
-      url: "https://devhints.io"
-    - name: "Collect UI"
-      url: "http://collectui.com/"
-    - name: "Lingo"
-      url: "https://www.lingoapp.com/"
-    - name: "Easing Functions Cheat Sheet"
-      url: "http://easings.net/"
-    - name: "Feature.js"
-      url: "http://featurejs.com/"
-    - name: "How to Make Sense of Any Mess"
-      url: "http://www.howtomakesenseofanymess.com/"
-    - name: "What Web Can Do Today"
-      url: "https://whatwebcando.today/"
-    - name: "Bliss.js"
-      url: "http://blissfuljs.com/"
-    - name: "Django Class-Based-View Inspector"
-      url: "http://ccbv.co.uk/"
-    - name: "ally.js"
-      url: "http://allyjs.io/"
-    - name: "Grid by Example"
-      url: "http://gridbyexample.com/"
-    - name: "UX Check"
-      url: "http://www.uxcheck.co/"
-    - name: "Glowforge"
-      url: "http://glowforge.com/"
-    - name: "MailChimp Style Guide"
-      url: "http://styleguide.mailchimp.com/"
-    - name: "Hemingway Editor"
-      url: "http://www.hemingwayapp.com/"
-    - name: "Quantity Queries Builder"
-      url: "http://quantityqueries.com/"
-    - name: "AudioJungle"
-      url: "http://audiojungle.net/"
-    - name: "Melody Loops"
-      url: "http://www.melodyloops.com/"
-    - name: "Emmet"
-      url: "http://emmet.io/"
-    - name: "The iOS Design Guidelines"
-      url: "http://iosdesign.ivomynttinen.com/"
-    - name: "Zoommy"
-      url: "http://zoommyapp.com/"
-    - name: "Type Detail"
-      url: "http://typedetail.com/"
-    - name: "CSS Animation"
-      url: "https://cssanimation.rocks/"
-    - name: "Fontstand"
-      url: "https://fontstand.com/"
-    - name: "Iconjar"
-      url: "http://geticonjar.com/"
-    - name: "Electron"
-      url: "http://electron.atom.io/"
-    - name: "Parsley"
-      url: "http://parsleyjs.org/"
-    - name: "UX Myths"
-      url: "http://uxmyths.com/"
-    - name: "ColorSafe.co"
-      url: "http://colorsafe.co/"
-    - name: "Canned Emails"
-      url: "http://www.cannedemails.com/"
-    - name: "Bensound"
-      url: "http://www.bensound.com/"
-    - name: "Tinychart"
-      url: "http://tinychart.co/"
-    - name: "Regular Expressions 101"
-      url: "https://regex101.com/"
-    - name: "Map Glyphs"
-      url: "http://mapglyphs.com/"
-    - name: "Meet the Ipsums"
-      url: "http://meettheipsums.com/"
-    - name: "Perf.Rocks"
-      url: "http://www.perf.rocks/"
-    - name: "CSS Stats"
-      url: "http://cssstats.com/"
-    - name: "Style Guide Resources"
-      url: "http://styleguides.io/"
-    - name: "IxD (Interaction Design) Checklist"
-      url: "http://ixdchecklist.com/"
-    - name: "New Old Stock"
-      url: "http://nos.twnsnd.co/"
-    - name: "Briefbox"
-      url: "http://briefbox.me/"
-    - name: "Typ.io"
-      url: "http://www.typ.io/"
-    - name: "wordmark.it"
-      url: "http://wordmark.it/"
-    - name: "CSS Guidelines"
-      url: "http://cssguidelin.es/"
-    - name: "Chart.js"
-      url: "http://www.chartjs.org"
-    - name: "Call to Idea"
-      url: "http://calltoidea.com/"
-    - name: "The Toolbox"
-      url: "http://thetoolbox.cc/"
-    - name: "TabPatterns"
-      url: "http://tabpatterns.com/"
-    - name: "Code Guide"
-      url: "http://codeguide.co/"
-    - name: "Responsive Email Resources"
-      url: "http://www.responsiveemailresources.com/"
-    - name: "First Run UX"
-      url: "https://first-run-ux.kryshiggins.com"
-    - name: "User Onboarding"
-      url: "http://www.useronboard.com/"
-    - name: "Chance.js"
-      url: "http://chancejs.com/"
-    - name: "Good Kickoff Meetings"
-      url: "http://goodkickoffmeetings.com/"
-    - name: "Responsive Navigation"
-      url: "http://responsivenavigation.net/"
-    - name: "Unheap"
-      url: "http://www.unheap.com/"
-    - name: "The Open Graph protocol"
-      url: "http://ogp.me/"
-    - name: "Style Tiles"
-      url: "http://styletil.es/"
-    - name: "The Kid Should See This."
-      url: "http://thekidshouldseethis.com/"
-    - name: "Highcharts"
-      url: "http://highcharts.com/"
-    - name: "The League of Moveable Type"
-      url: "http://www.theleagueofmoveabletype.com/"
-    - name: "Font Squirrel"
-      url: "http://www.fontsquirrel.com/"
-    - name: "The Elements of Typographic Style Applied to the Web"
-      url: "http://webtypography.net/"
-    - name: "MOO Custom Printing"
-      url: "http://www.moo.com/"
-    - name: "CSS Joy Webring"
-      url: "https://cs.sjoy.lol/"
+    - name: Hyperblam
+      url: https://hyperblam.how
+    - name: color-input web component
+      url: https://color-input.netlify.app
+    - name: oklch.fyi
+      url: https://oklch.fyi
+    - name: Pica
+      url: https://pica.joshpuckett.me
+    - name: Modalz Modalz Modalz
+      url: https://modalzmodalzmodalz.com/
+    - name: XOXO Explore
+      url: https://xoxofest.com
+    - name: Wiretext
+      url: https://wiretext.app
+    - name: Stuff Everybody Knows
+      url: https://stuffeverybodyknows.com
+    - name: Elena
+      url: https://elenajs.com
+    - name: Optician Sans
+      url: https://optician-sans.com
+    - name: Protocol Cards
+      url: https://protocolcards.com
+    - name: Channel Surfer
+      url: https://channelsurfer.tv/
+    - name: BaseWatch
+      url: https://basewatch.dev
+    - name: Type.lol
+      url: https://type.lol
+    - name: Open Graph Examples
+      url: https://opengraphexamples.com
+    - name: Current
+      url: https://www.currentreader.app/
+    - name: Indigo
+      url: https://indigostack.app
+    - name: Accessibility for Everyone
+      url: https://accessibilityforeveryone.site
+    - name: MTV Rewind
+      url: https://wantmymtv.vercel.app
+    - name: Knit Hello
+      url: https://www.knithello.com
+    - name: Strudel
+      url: https://strudel.cc
+    - name: Game Font Library
+      url: https://www.gamefontlibrary.com/
+    - name: Deceptive Patterns
+      url: https://www.deceptive.design/
+    - name: VoxCSS
+      url: https://voxcss.com/
+    - name: Printable Grid Paper
+      url: https://grid-paper.daverupert.com
+    - name: Modern Illustration
+      url: https://www.modernillustration.org
+    - name: A visual archive of BYTE
+      url: https://byte.tsundoku.io
+    - name: Fraunces
+      url: https://fraunces.undercase.xyz
+    - name: PlayPhrase
+      url: https://www.playphrase.me
+    - name: Hacker Laws
+      url: https://hacker-laws.com
+    - name: Laws of UX
+      url: https://lawsofux.com
+    - name: IDEA Instructions
+      url: https://idea-instructions.com
+    - name: Modern Font Stacks
+      url: https://modernfontstacks.com
+    - name: DesignShifts
+      url: https://www.designshifts.org
+    - name: Pointron
+      url: https://pointron.app
+    - name: Design Spells
+      url: https://www.designspells.com
+    - name: CSS HDR Gradients
+      url: https://gradient.style/
+    - name: Fold ’N Fly
+      url: https://www.foldnfly.com/
+    - name: Hacking with Swift
+      url: https://www.hackingwithswift.com
+    - name: Learn to Build Components That Work Anywhere
+      url: https://learn-wcs.com/
+    - name: Science Gothic
+      url: http://sciencegothic.com
+    - name: Archives.design
+      url: https://archives.design
+    - name: Open Design Docs
+      url: https://opendesigndocs.com/
+    - name: Design Principles
+      url: https://principles.design/
+    - name: Eloquent JavaScript
+      url: https://eloquentjavascript.net/
+    - name: Enhance
+      url: https://enhance.dev/
+    - name: Web Components bookmarks
+      url: https://webcomponents.today/
+    - name: Penpot
+      url: https://penpot.app/
+    - name: Design Systems Database
+      url: https://designsystems.surf/
+    - name: Monaspace
+      url: https://monaspace.githubnext.com/
+    - name: Strftime
+      url: https://strftime.net/
+    - name: Fontshare
+      url: https://www.fontshare.com/
+    - name: Frontend Practice
+      url: https://www.frontendpractice.com/
+    - name: Color.js
+      url: https://colorjs.io/
+    - name: The Component Gallery
+      url: https://component.gallery/
+    - name: Defensive CSS
+      url: https://defensivecss.dev/
+    - name: Standard Ebooks
+      url: https://standardebooks.org/
+    - name: Can I DevTools?
+      url: https://www.canidev.tools/
+    - name: 808303.studio
+      url: https://808303.studio/
+    - name: RPG Tools
+      url: https://donjon.bin.sh/
+    - name: Design System Checklist
+      url: https://designsystemchecklist.com/
+    - name: Custom Shape Dividers
+      url: https://www.shapedivider.app/
+    - name: Heroicons
+      url: https://heroicons.com/
+    - name: Recursive Sans & Mono
+      url: https://www.recursive.design/
+    - name: Learning Music
+      url: https://learningmusic.ableton.com/
+    - name: HTML Head
+      url: https://htmlhead.dev/
+    - name: Spectrum
+      url: https://spectrum.adobe.com/
+    - name: Accessibility Support
+      url: https://a11ysupport.io/
+    - name: Gridsome
+      url: https://gridsome.org/
+    - name: Craft Cookbook
+      url: https://craftcookbook.net/
+    - name: Scrnshts
+      url: https://scrnshts.club/
+    - name: Zdog
+      url: https://zzz.dog/
+    - name: Animated Knots
+      url: https://www.animatedknots.com/
+    - name: Photopea
+      url: https://www.photopea.com/
+    - name: National Park Typeface
+      url: https://nationalparktypeface.com/
+    - name: JavaScript Event KeyCodes
+      url: http://keycode.info/
+    - name: CopyChar
+      url: https://copychar.cc/
+    - name: Piskel
+      url: https://www.piskelapp.com/
+    - name: Reveal.js
+      url: https://revealjs.com/
+    - name: Responsive Image Breakpoints Generator
+      url: https://www.responsivebreakpoints.com/
+    - name: Cut / Fold Templates
+      url: http://cutfoldtemplates.com/
+    - name: Static Site Boilerplate
+      url: http://staticsiteboilerplate.com/
+    - name: Reduct
+      url: https://reduct.video/
+    - name: The Pin Department
+      url: http://www.thepindepartment.com/
+    - name: Vectary
+      url: https://www.vectary.com/
+    - name: Django Packages
+      url: https://djangopackages.org/
+    - name: RegExr
+      url: https://regexr.com/
+    - name: dbdiagram.io
+      url: https://dbdiagram.io/
+    - name: ScrollOut
+      url: https://scroll-out.github.io/
+    - name: IndieWebify.Me - a guide to getting you on the IndieWeb
+      url: https://indiewebify.me/
+    - name: Omni Calculator
+      url: https://www.omnicalculator.com/
+    - name: The Modern Javascript Tutorial
+      url: https://javascript.info/
+    - name: CSS Doodle
+      url: https://css-doodle.com/
+    - name: PWABuilder
+      url: https://www.pwabuilder.com/
+    - name: Lapabooks
+      url: https://www.lapabooks.com/
+    - name: Glide.js
+      url: https://glidejs.com/
+    - name: Vue Design System
+      url: https://vueds.com/
+    - name: Rough.js
+      url: http://roughjs.com/
+    - name: Spirit
+      url: https://spiritapp.io/
+    - name: How to GraphQL
+      url: https://www.howtographql.com/
+    - name: 30 Seconds of Code
+      url: https://30secondsofcode.org/
+    - name: Tracy
+      url: http://www.usetracy.com/
+    - name: Professional Web Typography
+      url: https://prowebtype.com/
+    - name: Matomo
+      url: https://matomo.org/
+    - name: Glyphs
+      url: https://glyphsapp.com/
+    - name: TONL
+      url: https://tonl.co/
+    - name: Aseprite
+      url: https://www.aseprite.org/
+    - name: Contrast for Mac
+      url: https://usecontrast.com/
+    - name: GravDept Field Manuals
+      url: http://manuals.gravitydept.com/
+    - name: Rev
+      url: https://www.rev.com/
+    - name: Kap
+      url: https://getkap.co/
+    - name: Open Source Guide
+      url: https://opensource.guide/
+    - name: Captain for Mac
+      url: https://getcaptain.co/
+    - name: Nudg.it
+      url: http://www.nudg.it/
+    - name: JavaScript 30
+      url: https://javascript30.com/
+    - name: CSS Reference
+      url: http://cssreference.io/
+    - name: clipboard.js
+      url: https://clipboardjs.com/
+    - name: You Might Not Need JavaScript
+      url: http://youmightnotneedjs.com/
+    - name: Fabricator
+      url: https://fbrctr.github.io/
+    - name: plainJS
+      url: https://plainjs.com/
+    - name: Staticman
+      url: https://staticman.net/
+    - name: WTF, forms?
+      url: http://wtfforms.com/
+    - name: Practical Typography
+      url: http://practicaltypography.com/
+    - name: Fractal
+      url: http://fractal.build/
+    - name: MarkSheet
+      url: http://marksheet.io/
+    - name: Alex.js
+      url: http://alexjs.com/
+    - name: Nicely Done
+      url: http://nicelydone.club/
+    - name: Zondicons
+      url: http://www.zondicons.com/
+    - name: Playbook, written by thoughtbot
+      url: http://playbook.thoughtbot.com/
+    - name: Devhints.io
+      url: https://devhints.io
+    - name: Collect UI
+      url: http://collectui.com/
+    - name: Lingo
+      url: https://www.lingoapp.com/
+    - name: Easing Functions Cheat Sheet
+      url: http://easings.net/
+    - name: Feature.js
+      url: http://featurejs.com/
+    - name: How to Make Sense of Any Mess
+      url: http://www.howtomakesenseofanymess.com/
+    - name: What Web Can Do Today
+      url: https://whatwebcando.today/
+    - name: Bliss.js
+      url: http://blissfuljs.com/
+    - name: Django Class-Based-View Inspector
+      url: http://ccbv.co.uk/
+    - name: ally.js
+      url: http://allyjs.io/
+    - name: Grid by Example
+      url: http://gridbyexample.com/
+    - name: UX Check
+      url: http://www.uxcheck.co/
+    - name: Glowforge
+      url: http://glowforge.com/
+    - name: MailChimp Style Guide
+      url: http://styleguide.mailchimp.com/
+    - name: Hemingway Editor
+      url: http://www.hemingwayapp.com/
+    - name: Quantity Queries Builder
+      url: http://quantityqueries.com/
+    - name: AudioJungle
+      url: http://audiojungle.net/
+    - name: Melody Loops
+      url: http://www.melodyloops.com/
+    - name: Emmet
+      url: http://emmet.io/
+    - name: The iOS Design Guidelines
+      url: http://iosdesign.ivomynttinen.com/
+    - name: Zoommy
+      url: http://zoommyapp.com/
+    - name: Type Detail
+      url: http://typedetail.com/
+    - name: CSS Animation
+      url: https://cssanimation.rocks/
+    - name: Fontstand
+      url: https://fontstand.com/
+    - name: Iconjar
+      url: http://geticonjar.com/
+    - name: Electron
+      url: http://electron.atom.io/
+    - name: Parsley
+      url: http://parsleyjs.org/
+    - name: UX Myths
+      url: http://uxmyths.com/
+    - name: ColorSafe.co
+      url: http://colorsafe.co/
+    - name: Canned Emails
+      url: http://www.cannedemails.com/
+    - name: Bensound
+      url: http://www.bensound.com/
+    - name: Tinychart
+      url: http://tinychart.co/
+    - name: Regular Expressions 101
+      url: https://regex101.com/
+    - name: Map Glyphs
+      url: http://mapglyphs.com/
+    - name: Meet the Ipsums
+      url: http://meettheipsums.com/
+    - name: Perf.Rocks
+      url: http://www.perf.rocks/
+    - name: CSS Stats
+      url: http://cssstats.com/
+    - name: Style Guide Resources
+      url: http://styleguides.io/
+    - name: IxD (Interaction Design) Checklist
+      url: http://ixdchecklist.com/
+    - name: New Old Stock
+      url: http://nos.twnsnd.co/
+    - name: Briefbox
+      url: http://briefbox.me/
+    - name: Typ.io
+      url: http://www.typ.io/
+    - name: wordmark.it
+      url: http://wordmark.it/
+    - name: CSS Guidelines
+      url: http://cssguidelin.es/
+    - name: Chart.js
+      url: http://www.chartjs.org
+    - name: Call to Idea
+      url: http://calltoidea.com/
+    - name: The Toolbox
+      url: http://thetoolbox.cc/
+    - name: TabPatterns
+      url: http://tabpatterns.com/
+    - name: Code Guide
+      url: http://codeguide.co/
+    - name: Responsive Email Resources
+      url: http://www.responsiveemailresources.com/
+    - name: First Run UX
+      url: https://first-run-ux.kryshiggins.com
+    - name: User Onboarding
+      url: http://www.useronboard.com/
+    - name: Chance.js
+      url: http://chancejs.com/
+    - name: Good Kickoff Meetings
+      url: http://goodkickoffmeetings.com/
+    - name: Responsive Navigation
+      url: http://responsivenavigation.net/
+    - name: Unheap
+      url: http://www.unheap.com/
+    - name: The Open Graph protocol
+      url: http://ogp.me/
+    - name: Style Tiles
+      url: http://styletil.es/
+    - name: The Kid Should See This.
+      url: http://thekidshouldseethis.com/
+    - name: Highcharts
+      url: http://highcharts.com/
+    - name: The League of Moveable Type
+      url: http://www.theleagueofmoveabletype.com/
+    - name: Font Squirrel
+      url: http://www.fontsquirrel.com/
+    - name: The Elements of Typographic Style Applied to the Web
+      url: http://webtypography.net/
+    - name: MOO Custom Printing
+      url: http://www.moo.com/
+    - name: CSS Joy Webring
+      url: https://cs.sjoy.lol/

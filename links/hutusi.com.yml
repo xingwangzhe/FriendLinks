@@ -1,98 +1,98 @@
 site:
-  name: "hutusi.com"
-  url: "https://hutusi.com/"
-  description: "友情链接"
-  links: "/links"
+  name: 胡涂说
+  url: https://hutusi.com/
+  description: 胡涂说博客/好奇心周刊
+  links: /links
   friends:
-    - name: "Limboy"
-      url: "https://limboy.me/"
-    - name: "Long Luo's Life Notes"
-      url: "https://www.longluo.me/"
-    - name: "Lil’Log"
-      url: "https://lilianweng.github.io/"
-    - name: "Shawn Wang @swyx"
-      url: "https://www.swyx.io/"
-    - name: "Maggie Appleton"
-      url: "https://maggieappleton.com/"
-    - name: "Sebastian Raschka"
-      url: "https://magazine.sebastianraschka.com/"
-    - name: "Simon Willison's Weblog"
-      url: "https://simonwillison.net/"
-    - name: "Kalzumeus Software"
-      url: "https://www.kalzumeus.com/"
-    - name: "Addy Osmani"
-      url: "https://addyosmani.com/"
-    - name: "OneV's Den"
-      url: "https://onevcat.com/"
-    - name: "谢益辉的个人博客"
-      url: "https://yihui.org/"
-    - name: "酷壳"
-      url: "https://coolshell.cn/"
-    - name: "极客兔兔"
-      url: "https://geektutu.com/"
-    - name: "Tim Qian的透明创业实验"
-      url: "https://blog.t9t.io/"
-    - name: "yihong - 从错误中学习"
-      url: "https://blog.yihong0618.me/"
-    - name: "Beyond the Void"
-      url: "https://byvoid.com/"
-    - name: "印记"
-      url: "https://yinji.org/"
-    - name: "食灯鬼"
-      url: "https://shidenggui.com/"
-    - name: "面向信仰编程"
-      url: "https://draveness.me/"
-    - name: "程序员的喵"
-      url: "https://catcoding.me/"
-    - name: "Conge"
-      url: "https://conge.github.io/"
-    - name: "Surmon"
-      url: "https://surmon.me"
-    - name: "云风的博客"
-      url: "https://blog.codingnow.com/"
-    - name: "卢昌海的博客"
-      url: "https://www.changhai.org/"
-    - name: "阳志平的网志"
-      url: "https://yangzhiping.com/"
-    - name: "Honesty"
-      url: "https://blog.hehouhui.cn"
-    - name: "特立独行的异类"
-      url: "https://www.demochen.com"
-    - name: "蓝卡"
-      url: "https://www.lanka.cn"
-    - name: "咕咚同学"
-      url: "http://gudong.site"
-    - name: "Airing 的博客"
-      url: "https://blog.ursb.me/"
-    - name: "SeerSu"
-      url: "https://suus.me/"
-    - name: "德普王's Blog"
-      url: "https://depp.wang"
-    - name: "潘智祥"
-      url: "https://panzhixiang.cn/"
-    - name: "Johnny @ Life Clips"
-      url: "https://dwith.com/"
-    - name: "闲言语"
-      url: "https://ret2neo.cn/"
-    - name: "有意栽花花满枝"
-      url: "https://blog.hjroyal.top"
-    - name: "长街短梦"
-      url: "https://wangyunzi.com/"
-    - name: "浮云翩迁之间"
-      url: "https://blognas.hwb0307.com"
-    - name: "雷烈"
-      url: "https://leilie.top"
-    - name: "Keanu-42's blog"
-      url: "https://keanu-42.cn/"
-    - name: "古是"
-      url: "https://adminsun.com/"
-    - name: "飞刀博客"
-      url: "https://www.feidaoboke.com/"
-    - name: "Jason"
-      url: "https://atjason.com/"
-    - name: "刘悦的技术博客"
-      url: "https://v3u.cn"
-    - name: "forecho's Blog"
-      url: "https://blog.forecho.com"
-    - name: "土木坛子"
-      url: "https://tumutanzi.com/"
+    - name: Limboy
+      url: https://limboy.me/
+    - name: Long Luo's Life Notes
+      url: https://www.longluo.me/
+    - name: Lil’Log
+      url: https://lilianweng.github.io/
+    - name: Shawn Wang @swyx
+      url: https://www.swyx.io/
+    - name: Maggie Appleton
+      url: https://maggieappleton.com/
+    - name: Sebastian Raschka
+      url: https://magazine.sebastianraschka.com/
+    - name: Simon Willison's Weblog
+      url: https://simonwillison.net/
+    - name: Kalzumeus Software
+      url: https://www.kalzumeus.com/
+    - name: Addy Osmani
+      url: https://addyosmani.com/
+    - name: OneV's Den
+      url: https://onevcat.com/
+    - name: 谢益辉的个人博客
+      url: https://yihui.org/
+    - name: 酷壳
+      url: https://coolshell.cn/
+    - name: 极客兔兔
+      url: https://geektutu.com/
+    - name: Tim Qian的透明创业实验
+      url: https://blog.t9t.io/
+    - name: yihong - 从错误中学习
+      url: https://blog.yihong0618.me/
+    - name: Beyond the Void
+      url: https://byvoid.com/
+    - name: 印记
+      url: https://yinji.org/
+    - name: 食灯鬼
+      url: https://shidenggui.com/
+    - name: 面向信仰编程
+      url: https://draveness.me/
+    - name: 程序员的喵
+      url: https://catcoding.me/
+    - name: Conge
+      url: https://conge.github.io/
+    - name: Surmon
+      url: https://surmon.me
+    - name: 云风的博客
+      url: https://blog.codingnow.com/
+    - name: 卢昌海的博客
+      url: https://www.changhai.org/
+    - name: 阳志平的网志
+      url: https://yangzhiping.com/
+    - name: Honesty
+      url: https://blog.hehouhui.cn
+    - name: 特立独行的异类
+      url: https://www.demochen.com
+    - name: 蓝卡
+      url: https://www.lanka.cn
+    - name: 咕咚同学
+      url: http://gudong.site
+    - name: Airing 的博客
+      url: https://blog.ursb.me/
+    - name: SeerSu
+      url: https://suus.me/
+    - name: 德普王's Blog
+      url: https://depp.wang
+    - name: 潘智祥
+      url: https://panzhixiang.cn/
+    - name: Johnny @ Life Clips
+      url: https://dwith.com/
+    - name: 闲言语
+      url: https://ret2neo.cn/
+    - name: 有意栽花花满枝
+      url: https://blog.hjroyal.top
+    - name: 长街短梦
+      url: https://wangyunzi.com/
+    - name: 浮云翩迁之间
+      url: https://blognas.hwb0307.com
+    - name: 雷烈
+      url: https://leilie.top
+    - name: Keanu-42's blog
+      url: https://keanu-42.cn/
+    - name: 古是
+      url: https://adminsun.com/
+    - name: 飞刀博客
+      url: https://www.feidaoboke.com/
+    - name: Jason
+      url: https://atjason.com/
+    - name: 刘悦的技术博客
+      url: https://v3u.cn
+    - name: forecho's Blog
+      url: https://blog.forecho.com
+    - name: 土木坛子
+      url: https://tumutanzi.com/

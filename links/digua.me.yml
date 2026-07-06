@@ -1,14 +1,14 @@
 site:
-  name: "digua.me"
-  url: "https://digua.me/"
-  description: "友情链接"
-  links: "/"
+  name: 地瓜
+  url: https://digua.me/
+  description: 地瓜的个人主页。
+  links: /
   friends:
-    - name: "博客 /"
-      url: "https://digua.moe"
-    - name: "哞菇 /"
-      url: "https://flag.moe/"
-    - name: "樱桃 /"
-      url: "https://sakura.moe/"
-    - name: "蚊子 /"
-      url: "https://qwq.moe/"
+    - name: 博客 /
+      url: https://digua.moe
+    - name: 哞菇 /
+      url: https://flag.moe/
+    - name: 樱桃 /
+      url: https://sakura.moe/
+    - name: 蚊子 /
+      url: https://qwq.moe/

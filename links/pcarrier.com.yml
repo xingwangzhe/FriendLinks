@@ -1,46 +1,46 @@
 site:
-  name: "pcarrier.com"
-  url: "https://pcarrier.com/"
-  description: "友情链接"
-  links: "/"
+  name: Pierre Carrier
+  url: https://pcarrier.com/
+  description: Personal website and forest of links
+  links: /
   friends:
-    - name: "󰘨 Matrix"
-      url: "https://matrix.to/#/@pcarrier:xmit.dev"
-    - name: " Signal"
-      url: "https://signal.me/#eu/3F4SRT9gHn9KobjJrSrl6UTIFhr3wK-VCw96hBdZE5xIu8wPaVFBkKqSAwrGATsX"
-    - name: "SpotifySRE"
-      url: "https://www.spotifyjobs.com"
-    - name: "AirbnbSRE"
-      url: "https://careers.airbnb.com"
-    - name: "󰑱xmitfounder"
-      url: "https://xmit.dev"
-    - name: "📧 cc.me"
-      url: "https://cc.me"
-    - name: "🏄 zz.surf"
-      url: "https://zz.surf"
-    - name: " blit.sh"
-      url: "https://blit.sh"
-    - name: "😉 onclebob.com"
-      url: "https://onclebob.com"
-    - name: "🛰️ xmit.co"
-      url: "https://xmit.co"
-    - name: "↷ ident.me"
-      url: "https://www.ident.me"
-    - name: "👋 found.as"
-      url: "https://be.found.as"
-    - name: "📁 libk.org"
-      url: "https://www.libk.org"
-    - name: "🤫 offrecord.ca"
-      url: "https://offrecord.ca/#lobby"
-    - name: "🛡️ armor64.org"
-      url: "https://armor64.org"
-    - name: "🔏 1pw.me"
-      url: "https://1pw.me"
-    - name: "🔐 0pw.me"
-      url: "https://0pw.me"
-    - name: " formic.id"
-      url: "https://formic.id"
-    - name: " zat.is"
-      url: "https://a.zat.is"
-    - name: "🤖 netescape.twin.so"
-      url: "https://netescape.twin.so"
+    - name: 󰘨 Matrix
+      url: https://matrix.to/#/@pcarrier:xmit.dev
+    - name:  Signal
+      url: https://signal.me/#eu/3F4SRT9gHn9KobjJrSrl6UTIFhr3wK-VCw96hBdZE5xIu8wPaVFBkKqSAwrGATsX
+    - name: SpotifySRE
+      url: https://www.spotifyjobs.com
+    - name: AirbnbSRE
+      url: https://careers.airbnb.com
+    - name: 󰑱xmitfounder
+      url: https://xmit.dev
+    - name: 📧 cc.me
+      url: https://cc.me
+    - name: 🏄 zz.surf
+      url: https://zz.surf
+    - name:  blit.sh
+      url: https://blit.sh
+    - name: 😉 onclebob.com
+      url: https://onclebob.com
+    - name: 🛰️ xmit.co
+      url: https://xmit.co
+    - name: ↷ ident.me
+      url: https://www.ident.me
+    - name: 👋 found.as
+      url: https://be.found.as
+    - name: 📁 libk.org
+      url: https://www.libk.org
+    - name: 🤫 offrecord.ca
+      url: https://offrecord.ca/#lobby
+    - name: 🛡️ armor64.org
+      url: https://armor64.org
+    - name: 🔏 1pw.me
+      url: https://1pw.me
+    - name: 🔐 0pw.me
+      url: https://0pw.me
+    - name:  formic.id
+      url: https://formic.id
+    - name:  zat.is
+      url: https://a.zat.is
+    - name: 🤖 netescape.twin.so
+      url: https://netescape.twin.so

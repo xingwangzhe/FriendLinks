@@ -1,82 +1,82 @@
 site:
-  name: "addesp.com"
-  url: "https://www.addesp.com/"
-  description: "友情链接"
-  links: "/links"
+  name: 寂静花园
+  url: https://www.addesp.com/
+  description: 寂静中交织着热情
+  links: /links
   friends:
-    - name: "ControlNet Blog永远13岁~"
-      url: "https://controlnet.space"
-    - name: "iMaeGoo’s Blog虹墨空间站"
-      url: "https://www.imaegoo.com"
-    - name: "OkYes! 技术博客念念不忘，必有回响。"
-      url: "https://2890.ltd/"
-    - name: "Ryan4yin's Space赞美快乐~ <= 运维、Kubernetes、Linux"
-      url: "https://ryan4yin.space/"
-    - name: "SARGIRI小纱雾赛高"
-      url: "https://blog.sagiri-web.com/"
-    - name: "Yo!🤞Troy那些看似不起波澜的日复一日 在某天会让你看到坚持的意义"
-      url: "https://www.yotroy.cool/"
-    - name: "Zeka 的记事本这个人很懒，什么都没有留下"
-      url: "https://flag.zeka.cloud"
-    - name: "乙未博客记录生活，分享与留存。"
-      url: "https://yvii.cn"
-    - name: "云游君的小站All at sea."
-      url: "https://www.yunyoujun.cn"
-    - name: "伍言Blog不已物喜,不以己悲,不求尽善尽美,但求无愧我心!"
-      url: "https://www.wuyanboke.cn"
-    - name: "夜街尘眨眼间，已是千年之外"
-      url: "https://aprilforest.cn"
-    - name: "弋钓草野如野草般一岁一枯荣"
-      url: "https://www.aliuying.com"
-    - name: "探索子在探索中学习"
-      url: "https://exploro.one"
-    - name: "新加卷的小宇宙明日登峰须造极，渺观宇宙我心宽"
-      url: "https://www.itpours.com"
-    - name: "明日が来ると信じてること自体が希望なんだ"
-      url: "https://kiseki.blog/"
-    - name: "杜老师说师者，传道，授业，解惑！"
-      url: "https://dusays.com"
-    - name: "糖菓·部落Never drown the flame of hope"
-      url: "https://candinya.com"
-    - name: "老兄de博客杂七杂八的分享"
-      url: "https://www.moec.top"
-    - name: "辛未羊人生如逆旅，我亦是行人"
-      url: "https://panqiincs.me"
-    - name: "長門有希信息统合思念体"
-      url: "https://blog.yuki-nagato.com/"
-    - name: "雁陎的自耕地坐于群星之上"
-      url: "https://www.sitstars.com"
-    - name: "霜序廿这家伙好懒╮(╯▽╰)╭"
-      url: "https://shuangxunian.github.io/"
-    - name: "博主 哔哗"
-      url: "https://www.lbihua.cn"
-    - name: "博主 云帆沧海"
-      url: "https://2288m.com"
-    - name: "博主 云帆沧海"
-      url: "https://yunfanch.com/"
-    - name: "博主 MCTG"
-      url: "http://blog.mctg69.xyz"
-    - name: "博主 南瓜奶酪"
-      url: "https://blog.china97.cn/"
-    - name: "博主 御宅男"
-      url: "https://blog.yzncms.com/"
-    - name: "博主 从南到北"
-      url: "https://ouoo.fun"
-    - name: "博主 Virus4"
-      url: "https://hsuyin.com"
-    - name: "博主 新加卷"
-      url: "https://www.hzq.life"
-    - name: "博主 kp"
-      url: "https://zkpeace.com"
-    - name: "博主 林林"
-      url: "https://www.linlinzzo.top"
-    - name: "博主 SurpriseLon"
-      url: "https://blog.furrysp.top"
-    - name: "博主 Thrower"
-      url: "https://thrower.cc"
-    - name: "博主 小太"
-      url: "https://baka.fun/"
-    - name: "博主 AweRailgun"
-      url: "https://miku.ie"
-    - name: "博主 至死不渝."
-      url: "http://www.qingkestart.top"
+    - name: ControlNet Blog永远13岁~
+      url: https://controlnet.space
+    - name: iMaeGoo’s Blog虹墨空间站
+      url: https://www.imaegoo.com
+    - name: OkYes! 技术博客念念不忘，必有回响。
+      url: https://2890.ltd/
+    - name: Ryan4yin's Space赞美快乐~ <= 运维、Kubernetes、Linux
+      url: https://ryan4yin.space/
+    - name: SARGIRI小纱雾赛高
+      url: https://blog.sagiri-web.com/
+    - name: Yo!🤞Troy那些看似不起波澜的日复一日 在某天会让你看到坚持的意义
+      url: https://www.yotroy.cool/
+    - name: Zeka 的记事本这个人很懒，什么都没有留下
+      url: https://flag.zeka.cloud
+    - name: 乙未博客记录生活，分享与留存。
+      url: https://yvii.cn
+    - name: 云游君的小站All at sea.
+      url: https://www.yunyoujun.cn
+    - name: 伍言Blog不已物喜,不以己悲,不求尽善尽美,但求无愧我心!
+      url: https://www.wuyanboke.cn
+    - name: 夜街尘眨眼间，已是千年之外
+      url: https://aprilforest.cn
+    - name: 弋钓草野如野草般一岁一枯荣
+      url: https://www.aliuying.com
+    - name: 探索子在探索中学习
+      url: https://exploro.one
+    - name: 新加卷的小宇宙明日登峰须造极，渺观宇宙我心宽
+      url: https://www.itpours.com
+    - name: 明日が来ると信じてること自体が希望なんだ
+      url: https://kiseki.blog/
+    - name: 杜老师说师者，传道，授业，解惑！
+      url: https://dusays.com
+    - name: 糖菓·部落Never drown the flame of hope
+      url: https://candinya.com
+    - name: 老兄de博客杂七杂八的分享
+      url: https://www.moec.top
+    - name: 辛未羊人生如逆旅，我亦是行人
+      url: https://panqiincs.me
+    - name: 長門有希信息统合思念体
+      url: https://blog.yuki-nagato.com/
+    - name: 雁陎的自耕地坐于群星之上
+      url: https://www.sitstars.com
+    - name: 霜序廿这家伙好懒╮(╯▽╰)╭
+      url: https://shuangxunian.github.io/
+    - name: 博主 哔哗
+      url: https://www.lbihua.cn
+    - name: 博主 云帆沧海
+      url: https://2288m.com
+    - name: 博主 云帆沧海
+      url: https://yunfanch.com/
+    - name: 博主 MCTG
+      url: http://blog.mctg69.xyz
+    - name: 博主 南瓜奶酪
+      url: https://blog.china97.cn/
+    - name: 博主 御宅男
+      url: https://blog.yzncms.com/
+    - name: 博主 从南到北
+      url: https://ouoo.fun
+    - name: 博主 Virus4
+      url: https://hsuyin.com
+    - name: 博主 新加卷
+      url: https://www.hzq.life
+    - name: 博主 kp
+      url: https://zkpeace.com
+    - name: 博主 林林
+      url: https://www.linlinzzo.top
+    - name: 博主 SurpriseLon
+      url: https://blog.furrysp.top
+    - name: 博主 Thrower
+      url: https://thrower.cc
+    - name: 博主 小太
+      url: https://baka.fun/
+    - name: 博主 AweRailgun
+      url: https://miku.ie
+    - name: 博主 至死不渝.
+      url: http://www.qingkestart.top

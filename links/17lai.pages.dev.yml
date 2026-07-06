@@ -1,10 +1,10 @@
 site:
-  name: "17lai.pages.dev"
-  url: "https://17lai.pages.dev/"
-  description: "友情链接"
-  links: "/friends"
+  name: "夜法之书 : ~软件驱动世界~个人独立技术博客，关于Linux,开源，Nas，Docker，嵌入式，理财，健身等主题！"
+  url: https://17lai.pages.dev/
+  description: ~软件驱动世界~个人独立技术博客，关于Linux,开源，Nas，Docker，嵌入式，理财，健身等主题！
+  links: /friends
   friends:
-    - name: "Linux命令"
-      url: "https://linux-command.17lai.site/"
-    - name: "bot.webpushr.com"
-      url: "https://bot.webpushr.com"
+    - name: Linux命令
+      url: https://linux-command.17lai.site/
+    - name: bot.webpushr.com
+      url: https://bot.webpushr.com

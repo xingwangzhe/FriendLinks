@@ -1,12 +1,12 @@
 site:
-  name: "nie.su"
-  url: "https://nie.su/"
-  description: "友情链接"
-  links: "/"
+  name: 涅槃收藏夹 - 一个懂你的导航
+  url: https://nie.su/
+  description: 涅槃导航是一个个性化的在线导航服务，所有收录站点由站长人工筛选并推荐，帮助用户快速找到所需信息。
+  links: /
   friends:
-    - name: "涅槃博客"
-      url: "https://niepan.org"
-    - name: "ZMKI"
-      url: "https://www.zmki.cn/"
-    - name: "Webstack"
-      url: "http://webstack.cc"
+    - name: 涅槃博客
+      url: https://niepan.org
+    - name: ZMKI
+      url: https://www.zmki.cn/
+    - name: Webstack
+      url: http://webstack.cc

@@ -1,16 +1,16 @@
 site:
-  name: "blog.luckyfishes.site"
-  description: "友情链接"
-  url: "https://blog.luckyfishes.site/"
-  links: "/friends"
+  name: 首页
+  description: 浏览最新文章、热门标签与博客更新趋势。
+  url: https://blog.luckyfishes.site/
+  links: /friends
   friends:
-    - name: "GuuGuai一个什么都可能会写的博客blog.guuguai.site"
-      url: "https://blog.guuguai.site/"
-    - name: "纸鹿本鹿纸鹿至麓不知路，支炉制露不止漉blog.zhilu.site"
-      url: "https://blog.zhilu.site/"
-    - name: "张洪Heo分享设计与科技生活blog.zhheo.com"
-      url: "https://blog.zhheo.com/"
-    - name: "BorryNothing.blog.borry.org"
-      url: "https://blog.borry.org/"
-    - name: "西建大iOS Club西建大较大和较为知名的科技类社团xauat.site"
-      url: "https://www.xauat.site/"
+    - name: GuuGuai一个什么都可能会写的博客blog.guuguai.site
+      url: https://blog.guuguai.site/
+    - name: 纸鹿本鹿纸鹿至麓不知路，支炉制露不止漉blog.zhilu.site
+      url: https://blog.zhilu.site/
+    - name: 张洪Heo分享设计与科技生活blog.zhheo.com
+      url: https://blog.zhheo.com/
+    - name: BorryNothing.blog.borry.org
+      url: https://blog.borry.org/
+    - name: 西建大iOS Club西建大较大和较为知名的科技类社团xauat.site
+      url: https://www.xauat.site/

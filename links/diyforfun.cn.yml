@@ -1,18 +1,18 @@
 site:
-  name: "diyforfun.cn"
-  url: "https://diyforfun.cn/"
-  description: "友情链接"
-  links: "/"
+  name: 爱折腾的老高博客
+  url: https://diyforfun.cn/
+  description: 我们对于折腾有着无限激情和乐趣，包括软路由器、NAS、各种迷你小主机、盒子等电子数码产品的日常分享。
+  links: /
   friends:
-    - name: "ping IP"
-      url: "http://ping.pe/"
-    - name: "硬件性能"
-      url: "http://cpu.userbenchmark.com/"
-    - name: "Jim's Blog"
-      url: "https://blog.jim.plus/"
-    - name: "我不是矿神"
-      url: "https://imnks.com/"
-    - name: "玩技e族"
-      url: "https://www.playezu.com/"
-    - name: "酷友社koolcenter"
-      url: "https://www.koolcenter.com/"
+    - name: ping IP
+      url: http://ping.pe/
+    - name: 硬件性能
+      url: http://cpu.userbenchmark.com/
+    - name: Jim's Blog
+      url: https://blog.jim.plus/
+    - name: 我不是矿神
+      url: https://imnks.com/
+    - name: 玩技e族
+      url: https://www.playezu.com/
+    - name: 酷友社koolcenter
+      url: https://www.koolcenter.com/

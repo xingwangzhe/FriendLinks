@@ -1,90 +1,90 @@
 site:
-  name: "chsmc.org"
-  url: "https://chsmc.org/"
-  description: "友情链接"
-  links: "/"
+  name: Chase McCoy
+  url: https://chsmc.org/
+  description: Chase McCoy explores, builds, & writes about the web.
+  links: /
   friends:
-    - name: "Alexander Obenauer"
-      url: "https://alexanderobenauer.com"
-    - name: "Amy Hupe"
-      url: "https://amyhupe.co.uk"
-    - name: "anhvn"
-      url: "https://anhvn.com"
-    - name: "Audacious Fox"
-      url: "https://audacious.blog"
-    - name: "Chen Hui Jing"
-      url: "https://chenhuijing.com"
-    - name: "Chris Coyier"
-      url: "https://chriscoyier.net"
-    - name: "Frank Chimero"
-      url: "https://frankchimero.com"
-    - name: "James Little"
-      url: "https://jameslittle.me"
-    - name: "Jim Nielsen"
-      url: "https://blog.jim-nielsen.com"
-    - name: "Jonnie Hallman"
-      url: "https://destroytoday.com"
-    - name: "Jules Forrest"
-      url: "https://julesforrest.com"
-    - name: "Justin Duke"
-      url: "https://jmduke.com"
-    - name: "Kicks Condor"
-      url: "https://kickscondor.com"
-    - name: "maya.land"
-      url: "https://maya.land"
-    - name: "Mu-An Chiou"
-      url: "https://muan.co"
-    - name: "Piper Haywood"
-      url: "https://piperhaywood.com"
-    - name: "pketh"
-      url: "https://pketh.org"
-    - name: "Robin Rendle"
-      url: "https://robinrendle.com"
-    - name: "Robin Sloan"
-      url: "https://robinsloan.com"
-    - name: "Soroush Khanlou"
-      url: "http://khanlou.com"
-    - name: "thesephist"
-      url: "https://thesephist.com"
-    - name: "Tom Critchlow"
-      url: "https://tomcritchlow.com"
-    - name: "Zach Leatherman"
-      url: "https://zachleat.com"
-    - name: "diffs.com"
-      url: "https://diffs.com"
-    - name: "Sunday Robotics"
-      url: "https://www.sunday.ai"
-    - name: "Homebridge"
-      url: "https://homebridge.io"
-    - name: "Tailscale"
-      url: "https://tailscale.com"
-    - name: "PM2"
-      url: "https://pm2.keymetrics.io"
-    - name: "Jim Robertus has brought LCARS to the web as a free to use, responsive HTML and"
-      url: "https://www.thelcars.com"
-    - name: "the Panama Playlists"
-      url: "https://panamaplaylists.com"
-    - name: "Hooked On The Past"
-      url: "http://www.hookedonthepast.com/"
-    - name: "Model Context Protocol"
-      url: "https://modelcontextprotocol.io"
-    - name: "Obsidian"
-      url: "https://obsidian.md"
+    - name: Alexander Obenauer
+      url: https://alexanderobenauer.com
+    - name: Amy Hupe
+      url: https://amyhupe.co.uk
+    - name: anhvn
+      url: https://anhvn.com
+    - name: Audacious Fox
+      url: https://audacious.blog
+    - name: Chen Hui Jing
+      url: https://chenhuijing.com
+    - name: Chris Coyier
+      url: https://chriscoyier.net
+    - name: Frank Chimero
+      url: https://frankchimero.com
+    - name: James Little
+      url: https://jameslittle.me
+    - name: Jim Nielsen
+      url: https://blog.jim-nielsen.com
+    - name: Jonnie Hallman
+      url: https://destroytoday.com
+    - name: Jules Forrest
+      url: https://julesforrest.com
+    - name: Justin Duke
+      url: https://jmduke.com
+    - name: Kicks Condor
+      url: https://kickscondor.com
+    - name: maya.land
+      url: https://maya.land
+    - name: Mu-An Chiou
+      url: https://muan.co
+    - name: Piper Haywood
+      url: https://piperhaywood.com
+    - name: pketh
+      url: https://pketh.org
+    - name: Robin Rendle
+      url: https://robinrendle.com
+    - name: Robin Sloan
+      url: https://robinsloan.com
+    - name: Soroush Khanlou
+      url: http://khanlou.com
+    - name: thesephist
+      url: https://thesephist.com
+    - name: Tom Critchlow
+      url: https://tomcritchlow.com
+    - name: Zach Leatherman
+      url: https://zachleat.com
+    - name: diffs.com
+      url: https://diffs.com
+    - name: Sunday Robotics
+      url: https://www.sunday.ai
+    - name: Homebridge
+      url: https://homebridge.io
+    - name: Tailscale
+      url: https://tailscale.com
+    - name: PM2
+      url: https://pm2.keymetrics.io
+    - name: Jim Robertus has brought LCARS to the web as a free to use, responsive HTML and
+      url: https://www.thelcars.com
+    - name: the Panama Playlists
+      url: https://panamaplaylists.com
+    - name: Hooked On The Past
+      url: http://www.hookedonthepast.com/
+    - name: Model Context Protocol
+      url: https://modelcontextprotocol.io
+    - name: Obsidian
+      url: https://obsidian.md
     - name: "The Notebook: A History of Thinking on Paper"
-      url: "https://roland-allen.com"
-    - name: "The Booksellers"
-      url: "https://booksellersdocumentary.com"
-    - name: "Era"
-      url: "https://era.app"
-    - name: "Glenn Harvey"
-      url: "https://glenn-harvey.com"
-    - name: "Plain Vanilla"
-      url: "https://plainvanillaweb.com"
-    - name: "kottke.org"
-      url: "https://kottke.org"
-    - name: "marco.org"
-      url: "https://marco.org"
-    - name: "waxy.org"
-      url: "https://waxy.org"
-    - name: "macwright.org"
-      url: "https://macwright.org"
+      url: https://roland-allen.com
+    - name: The Booksellers
+      url: https://booksellersdocumentary.com
+    - name: Era
+      url: https://era.app
+    - name: Glenn Harvey
+      url: https://glenn-harvey.com
+    - name: Plain Vanilla
+      url: https://plainvanillaweb.com
+    - name: kottke.org
+      url: https://kottke.org
+    - name: marco.org
+      url: https://marco.org
+    - name: waxy.org
+      url: https://waxy.org
+    - name: macwright.org
+      url: https://macwright.org

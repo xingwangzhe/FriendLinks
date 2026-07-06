@@ -1,14 +1,14 @@
 site:
-  name: "alex1222.com"
-  url: "https://alex1222.com/"
-  description: "友情链接"
-  links: "/"
+  name: The Knot
+  url: https://alex1222.com/
+  description: Alex personal Blog. Contain math, programming, and other things. Also contain some tools including base64 encoder/decoder, and some converter.
+  links: /
   friends:
-    - name: "EAimTY's Blog"
-      url: "https://www.eaimty.com"
-    - name: "Forever"
-      url: "https://xblog.aptzone.cc"
-    - name: "Unified.js"
-      url: "https://unifiedjs.com"
-    - name: "typst"
-      url: "https://typst.app/"
+    - name: EAimTY's Blog
+      url: https://www.eaimty.com
+    - name: Forever
+      url: https://xblog.aptzone.cc
+    - name: Unified.js
+      url: https://unifiedjs.com
+    - name: typst
+      url: https://typst.app/

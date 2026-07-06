@@ -1,10 +1,10 @@
 site:
-  name: "w3teal.is-a.dev"
-  url: "https://w3teal.is-a.dev/"
-  description: "友情链接"
-  links: "/"
+  name: user@w3teal.is-a.dev
+  url: https://w3teal.is-a.dev/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Fediring"
-      url: "https://fediring.net/"
-    - name: "silly city"
-      url: "https://silly.city/"
+    - name: Fediring
+      url: https://fediring.net/
+    - name: silly city
+      url: https://silly.city/

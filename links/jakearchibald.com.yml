@@ -1,10 +1,10 @@
 site:
-  name: "jakearchibald.com"
-  url: "https://jakearchibald.com/"
-  description: "友情链接"
-  links: "/"
+  name: Blog - JakeArchibald.com
+  url: https://jakearchibald.com/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Firefox"
-      url: "https://www.firefox.com/"
-    - name: "Podcast"
-      url: "https://offthemainthread.tech/"
+    - name: Firefox
+      url: https://www.firefox.com/
+    - name: Podcast
+      url: https://offthemainthread.tech/

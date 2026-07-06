@@ -1,14 +1,14 @@
 site:
-  name: "ginkogruen.net"
-  url: "https://ginkogruen.net/"
-  description: "友情链接"
-  links: "/"
+  name: "~"
+  url: https://ginkogruen.net/
+  description: 友情链接
+  links: /
   friends:
-    - name: "NixWebring"
-      url: "https://nixwebr.ing"
-    - name: "Gleam"
-      url: "https://gleam.run/"
-    - name: "Lustre"
-      url: "https://lustre.hexdocs.pm"
-    - name: "Nix"
-      url: "https://nixos.org/"
+    - name: NixWebring
+      url: https://nixwebr.ing
+    - name: Gleam
+      url: https://gleam.run/
+    - name: Lustre
+      url: https://lustre.hexdocs.pm
+    - name: Nix
+      url: https://nixos.org/

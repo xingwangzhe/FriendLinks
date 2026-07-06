@@ -1,10 +1,10 @@
 site:
-  name: "zhangxinxu.com"
-  url: "https://www.zhangxinxu.com/"
-  description: "友情链接"
-  links: "/"
+  name: 张鑫旭的个人主页
+  url: https://www.zhangxinxu.com/
+  description: 张鑫旭的个人博客首页，张鑫旭的技术作品，张鑫旭的生活成长
+  links: /
   friends:
-    - name: "日紫烟"
-      url: "http://riziyan.com/"
-    - name: "HTML并不简单"
-      url: "https://www.htmlapi.cn/"
+    - name: 日紫烟
+      url: http://riziyan.com/
+    - name: HTML并不简单
+      url: https://www.htmlapi.cn/

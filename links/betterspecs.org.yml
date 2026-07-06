@@ -1,8 +1,8 @@
 site:
-  name: "betterspecs.org"
-  url: "http://betterspecs.org/"
-  description: "友情链接"
-  links: "/"
+  name: Better Specs. Testing Guidelines for Developers.
+  url: http://betterspecs.org/
+  description: Better Specs is a collection of best practices developers  learned while testing apps that you can use to improve your coding  skills, or simply for inspiration.
+  links: /
   friends:
     - name: "{Lelylan Labs}"
-      url: "http://lelylan.com"
+      url: http://lelylan.com

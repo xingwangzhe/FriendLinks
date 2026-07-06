@@ -1,60 +1,60 @@
 site:
-  name: "frills.dev"
-  url: "https://frills.dev/"
-  description: "友情链接"
-  links: "/links"
+  name: Home - Frills
+  url: https://frills.dev/
+  description: Personal website of Frills
+  links: /links
   friends:
-    - name: "Amber Wilson"
-      url: "https://amberwilson.co.uk/"
-    - name: "Cassidy Williams"
-      url: "https://cassidoo.co"
-    - name: "Eevis"
-      url: "https://eevis.codes/"
-    - name: "flower.codes"
-      url: "https://flower.codes/"
-    - name: "jessica journals"
-      url: "https://jessicajournals.com"
-    - name: "Kitty Giraudel"
-      url: "https://kittygiraudel.com/"
-    - name: "Localghost"
-      url: "https://localghost.dev/"
-    - name: "Meadow 🌱"
-      url: "https://meadow.cafe/"
-    - name: "no happy nonsense"
-      url: "https://nohappynonsense.net/"
-    - name: "Paul C"
-      url: "https://paulcapewell.com"
-    - name: "Rose's Playground"
-      url: "https://roseyrobertson.neocities.org"
-    - name: "sleepy dev"
-      url: "https://sleepydev.neocities.org"
-    - name: "Stephanie Eckles"
-      url: "https://thinkdobecreate.com/"
-    - name: "Alex Jegtnes"
-      url: "https://jegtnes.com/"
-    - name: "goth hoblin"
-      url: "https://gothhoblin.me"
-    - name: "just nik"
-      url: "https://justnik.me/"
-    - name: "Justin Blogs Again!"
-      url: "https://teafuellednonsense.wordpress.com"
-    - name: "not so miserable"
-      url: "https://www.thenotsomiserable.co.uk"
-    - name: "owain.codes"
-      url: "https://owain.codes/"
-    - name: "cheyenne barton"
-      url: "https://cheyennebarton.com/"
-    - name: "furry little peach"
-      url: "https://www.furrylittlepeach.com"
-    - name: "Leigh Ellexson"
-      url: "https://leighellexson.com"
-    - name: "pansy"
-      url: "https://www.pansy-shop.com"
-    - name: "base 64 image converter"
-      url: "https://www.base64-image.de/"
-    - name: "goblin tools"
-      url: "https://goblin.tools/"
-    - name: "image anonymizer"
-      url: "https://picdefacer.com/"
-    - name: "indieblog.page"
-      url: "https://indieblog.page/"
+    - name: Amber Wilson
+      url: https://amberwilson.co.uk/
+    - name: Cassidy Williams
+      url: https://cassidoo.co
+    - name: Eevis
+      url: https://eevis.codes/
+    - name: flower.codes
+      url: https://flower.codes/
+    - name: jessica journals
+      url: https://jessicajournals.com
+    - name: Kitty Giraudel
+      url: https://kittygiraudel.com/
+    - name: Localghost
+      url: https://localghost.dev/
+    - name: Meadow 🌱
+      url: https://meadow.cafe/
+    - name: no happy nonsense
+      url: https://nohappynonsense.net/
+    - name: Paul C
+      url: https://paulcapewell.com
+    - name: Rose's Playground
+      url: https://roseyrobertson.neocities.org
+    - name: sleepy dev
+      url: https://sleepydev.neocities.org
+    - name: Stephanie Eckles
+      url: https://thinkdobecreate.com/
+    - name: Alex Jegtnes
+      url: https://jegtnes.com/
+    - name: goth hoblin
+      url: https://gothhoblin.me
+    - name: just nik
+      url: https://justnik.me/
+    - name: Justin Blogs Again!
+      url: https://teafuellednonsense.wordpress.com
+    - name: not so miserable
+      url: https://www.thenotsomiserable.co.uk
+    - name: owain.codes
+      url: https://owain.codes/
+    - name: cheyenne barton
+      url: https://cheyennebarton.com/
+    - name: furry little peach
+      url: https://www.furrylittlepeach.com
+    - name: Leigh Ellexson
+      url: https://leighellexson.com
+    - name: pansy
+      url: https://www.pansy-shop.com
+    - name: base 64 image converter
+      url: https://www.base64-image.de/
+    - name: goblin tools
+      url: https://goblin.tools/
+    - name: image anonymizer
+      url: https://picdefacer.com/
+    - name: indieblog.page
+      url: https://indieblog.page/

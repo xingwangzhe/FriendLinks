@@ -1,20 +1,20 @@
 site:
-  name: "blog.tinikov.com"
-  url: "https://blog.tinikov.com/"
-  description: "友情链接"
-  links: "/link"
+  name: TiniBlog
+  url: https://blog.tinikov.com/
+  description: 时间是唯一致死的毒药。
+  links: /link
   friends:
-    - name: "Scriptum Mistiviae"
-      url: "https://blog.mistivia.com/"
-    - name: "有希書簡"
-      url: "https://metanoise.in/"
-    - name: "Zakee's Planet"
-      url: "https://zak.ee/"
-    - name: "Starlite の世界へようこそ"
-      url: "https://starlite.me/"
-    - name: "なままめ"
-      url: "https://robinzed.wordpress.com/"
-    - name: "Indie💍"
-      url: "https://🕸💍.ws/"
-    - name: "Fedi💍"
-      url: "https://fediring.net"
+    - name: Scriptum Mistiviae
+      url: https://blog.mistivia.com/
+    - name: 有希書簡
+      url: https://metanoise.in/
+    - name: Zakee's Planet
+      url: https://zak.ee/
+    - name: Starlite の世界へようこそ
+      url: https://starlite.me/
+    - name: なままめ
+      url: https://robinzed.wordpress.com/
+    - name: Indie💍
+      url: https://🕸💍.ws/
+    - name: Fedi💍
+      url: https://fediring.net

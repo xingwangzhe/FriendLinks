@@ -1,56 +1,56 @@
 site:
-  name: "blog.huan666.de"
-  url: "https://blog.huan666.de/"
-  description: "友情链接"
-  links: "/friends"
+  name: 焕昭君的博客
+  url: https://blog.huan666.de/
+  description: 我的博客首页
+  links: /friends
   friends:
-    - name: "薇尔薇Go to work only for getting off work"
-      url: "https://www.vio.vin"
-    - name: "CC的博客我们永不消逝！"
-      url: "https://main.791197.xyz/"
-    - name: "轻风云云淡风轻，于事安然"
-      url: "https://blog.aaayun.cc/"
-    - name: "停云博客一个普普通通的博客，用于记录我的足迹。"
-      url: "https://tingyun.top"
-    - name: "Noospic星露谷农民"
-      url: "https://blog.noospic.me"
-    - name: "Sun Blog只有走在路上，才能摆脱局限，摆脱执着，让所有的选择、探寻、猜测、想象都生气勃勃"
-      url: "https://blog.csun.site/"
-    - name: "IKUN唱跳rap打篮球"
-      url: "https://blog.204090.xyz/"
-    - name: "Digital Echo随便记记"
-      url: "https://blog.netrical.com/"
-    - name: "lurk风吹哪页读哪页"
-      url: "https://633399.xyz"
-    - name: "无星技术为辅,业务为主"
-      url: "https://blog.xingxiaowu.cn/"
-    - name: "志夏の小破站一个路过的二次元技术宅"
-      url: "https://bok.zhixiaxia.top/"
-    - name: "Sunshine’s blog分享记录学习生活"
-      url: "https://kuiyr.de/"
-    - name: "ClevesA web developer who loves creating."
-      url: "https://cleves.me/"
-    - name: "星辰码记星辰之间，码出新天地！"
-      url: "https://blog.xinxingnet.cn/"
-    - name: "孙尾苏好久不见！"
-      url: "https://www.sunweisu.xyz/"
-    - name: "求知学习社持续分享时间精力管理、能力提升、学习成长等高效实用知识技巧"
-      url: "https://blog.zhishigongxiang.com/"
-    - name: "月微yuewei闲静则观书，欲知而望海"
-      url: "https://yueweix.com"
-    - name: "🕊️Lam’s Blog一個用於記錄個人學習筆記和知識分享的網誌"
-      url: "https://www.imlam.com/"
-    - name: "晴雀堂一位普通的学牲在记录自己的生活"
-      url: "https://blog.nbplus.eu.org/"
-    - name: "XeronFlow with life"
-      url: "https://www.040304.xyz/"
-    - name: "红石の空间站一个普通高中牲"
-      url: "https://hongshi.qzz.io"
-    - name: "码上拾光在代码间打捞落日余辉"
-      url: "https://codeshine.cn"
-    - name: "Simon’s Blog编程和生活中的无聊碎碎念,一名喜欢摇滚的程序猿。"
-      url: "https://blog.glemon.cn/"
-    - name: "赤坂的日常琐碎获得幸福是人生的目标"
-      url: "https://chiban.fyi"
-    - name: "for_the_zero的小站想要成为一个有趣的、厉害的、快乐的、善良的、……能被你记住的人"
-      url: "https://ftz.is-a.dev/"
+    - name: 薇尔薇Go to work only for getting off work
+      url: https://www.vio.vin
+    - name: CC的博客我们永不消逝！
+      url: https://main.791197.xyz/
+    - name: 轻风云云淡风轻，于事安然
+      url: https://blog.aaayun.cc/
+    - name: 停云博客一个普普通通的博客，用于记录我的足迹。
+      url: https://tingyun.top
+    - name: Noospic星露谷农民
+      url: https://blog.noospic.me
+    - name: Sun Blog只有走在路上，才能摆脱局限，摆脱执着，让所有的选择、探寻、猜测、想象都生气勃勃
+      url: https://blog.csun.site/
+    - name: IKUN唱跳rap打篮球
+      url: https://blog.204090.xyz/
+    - name: Digital Echo随便记记
+      url: https://blog.netrical.com/
+    - name: lurk风吹哪页读哪页
+      url: https://633399.xyz
+    - name: 无星技术为辅,业务为主
+      url: https://blog.xingxiaowu.cn/
+    - name: 志夏の小破站一个路过的二次元技术宅
+      url: https://bok.zhixiaxia.top/
+    - name: Sunshine’s blog分享记录学习生活
+      url: https://kuiyr.de/
+    - name: ClevesA web developer who loves creating.
+      url: https://cleves.me/
+    - name: 星辰码记星辰之间，码出新天地！
+      url: https://blog.xinxingnet.cn/
+    - name: 孙尾苏好久不见！
+      url: https://www.sunweisu.xyz/
+    - name: 求知学习社持续分享时间精力管理、能力提升、学习成长等高效实用知识技巧
+      url: https://blog.zhishigongxiang.com/
+    - name: 月微yuewei闲静则观书，欲知而望海
+      url: https://yueweix.com
+    - name: 🕊️Lam’s Blog一個用於記錄個人學習筆記和知識分享的網誌
+      url: https://www.imlam.com/
+    - name: 晴雀堂一位普通的学牲在记录自己的生活
+      url: https://blog.nbplus.eu.org/
+    - name: XeronFlow with life
+      url: https://www.040304.xyz/
+    - name: 红石の空间站一个普通高中牲
+      url: https://hongshi.qzz.io
+    - name: 码上拾光在代码间打捞落日余辉
+      url: https://codeshine.cn
+    - name: Simon’s Blog编程和生活中的无聊碎碎念,一名喜欢摇滚的程序猿。
+      url: https://blog.glemon.cn/
+    - name: 赤坂的日常琐碎获得幸福是人生的目标
+      url: https://chiban.fyi
+    - name: for_the_zero的小站想要成为一个有趣的、厉害的、快乐的、善良的、……能被你记住的人
+      url: https://ftz.is-a.dev/

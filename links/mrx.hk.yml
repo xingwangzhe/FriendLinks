@@ -1,16 +1,16 @@
 site:
-  name: "mrx.hk"
-  url: "https://mrx.hk/"
-  description: "友情链接"
-  links: "/links"
+  name: S4lix’s Blog
+  url: https://mrx.hk/
+  description: S4lix 的安全研究笔记 - 代码开发、恶意软件分析、逆向工程、漏洞挖掘、CTF、PWN 等
+  links: /links
   friends:
-    - name: "榆木 Penetration Test Engineer"
-      url: "https://chuibi.com/"
-    - name: "Gryffinbit Security Researcher"
-      url: "https://gryffinbit.top/"
-    - name: "Demon Security Researcher"
-      url: "https://www.ggsec.cn/"
-    - name: "Soreat_u Security Researcher"
-      url: "https://blog.soreatu.com/"
-    - name: "国光 Penetration Test Engineer"
-      url: "https://www.sqlsec.com/"
+    - name: 榆木 Penetration Test Engineer
+      url: https://chuibi.com/
+    - name: Gryffinbit Security Researcher
+      url: https://gryffinbit.top/
+    - name: Demon Security Researcher
+      url: https://www.ggsec.cn/
+    - name: Soreat_u Security Researcher
+      url: https://blog.soreatu.com/
+    - name: 国光 Penetration Test Engineer
+      url: https://www.sqlsec.com/

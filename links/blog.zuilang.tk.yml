@@ -1,78 +1,78 @@
 site:
-  name: "blog.zuilang.tk"
-  url: "https://blog.zuilang.tk/"
-  description: "友情链接"
-  links: "/links"
+  name: 秋澪的博客 - Akimio Blog
+  url: https://blog.zuilang.tk/
+  description: 秋澪的个人博客
+  links: /links
   friends:
-    - name: "个人主页"
-      url: "https://akimio.top"
-    - name: "Docker仓库"
-      url: "https://docker.akimio.top"
-    - name: "Excalidraw"
-      url: "https://excalidraw.akimio.top"
-    - name: "Splayer"
-      url: "https://music.akimio.top"
-    - name: "我不是咕咕鸽"
-      url: "https://blog.laoda.de/"
-    - name: "安知鱼"
-      url: "https://anzhiy.cn/"
-    - name: "杜老师说"
-      url: "https://dusays.com/"
-    - name: "小康博客"
-      url: "https://www.antmoe.com/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "爱吃肉的猫"
-      url: "https://meuicat.com/"
-    - name: "Leonus"
-      url: "https://blog.leonus.cn/"
-    - name: "小码同学"
-      url: "https://blog.hikki.site/"
-    - name: "舒夏博客"
-      url: "https://blog.sxbai.com/"
-    - name: "无人问津小站"
-      url: "https://wrwj.top/"
-    - name: "月楼博客"
-      url: "https://aiwmoon.github.io"
-    - name: "dpkg123的博客"
-      url: "https://dpkg123.top/"
-    - name: "李程ic"
-      url: "https://www.licic.net/"
-    - name: "landery小站"
-      url: "https://blog.landery.cn/"
-    - name: "wyj5211的小站"
-      url: "https://blog.wyj5211.me/"
-    - name: "柠萌の部落"
-      url: "https://www.lemonbuluo.eu.org/"
-    - name: "绯鞠的博客"
-      url: "https://loli.fj.cn"
-    - name: "半方池水半方田"
-      url: "https://uuanqin.top/"
-    - name: "轻笑Chuckle"
-      url: "https://www.qcqx.cn"
-    - name: "猪梨村"
-      url: "https://zoulicheng.cn/"
-    - name: "初之音"
-      url: "https://www.himiku.com/"
-    - name: "xiaoger"
-      url: "https://xiaoger.top/"
-    - name: "星河城野"
-      url: "https://blog.z-l.top/"
-    - name: "系统观察屋"
-      url: "https://www.xtgcw.cn/"
-    - name: "wyj5211的小站"
-      url: "https://blog.wyj5211.top/"
-    - name: "汌の小破站"
-      url: "https://blog.treo.top/"
-    - name: "Spirit's Eden"
-      url: "https://www.spiritfr.eu.org/"
-    - name: "爱吃猫的鱼BLOG"
-      url: "https://blog.talen.top/"
-    - name: "SITion-Safe"
-      url: "https://www.situpc.cn/"
-    - name: "Guhe Blog"
-      url: "https://blog.aevi.top/"
-    - name: "枫叶分享知识，认识世界"
-      url: "https://blog.aqcoder.cn"
-    - name: "顾梦不想满心遗憾，那就全力以赴."
-      url: "https://blog.jishuqin.cn/"
+    - name: 个人主页
+      url: https://akimio.top
+    - name: Docker仓库
+      url: https://docker.akimio.top
+    - name: Excalidraw
+      url: https://excalidraw.akimio.top
+    - name: Splayer
+      url: https://music.akimio.top
+    - name: 我不是咕咕鸽
+      url: https://blog.laoda.de/
+    - name: 安知鱼
+      url: https://anzhiy.cn/
+    - name: 杜老师说
+      url: https://dusays.com/
+    - name: 小康博客
+      url: https://www.antmoe.com/
+    - name: 张洪Heo
+      url: https://blog.zhheo.com/
+    - name: 爱吃肉的猫
+      url: https://meuicat.com/
+    - name: Leonus
+      url: https://blog.leonus.cn/
+    - name: 小码同学
+      url: https://blog.hikki.site/
+    - name: 舒夏博客
+      url: https://blog.sxbai.com/
+    - name: 无人问津小站
+      url: https://wrwj.top/
+    - name: 月楼博客
+      url: https://aiwmoon.github.io
+    - name: dpkg123的博客
+      url: https://dpkg123.top/
+    - name: 李程ic
+      url: https://www.licic.net/
+    - name: landery小站
+      url: https://blog.landery.cn/
+    - name: wyj5211的小站
+      url: https://blog.wyj5211.me/
+    - name: 柠萌の部落
+      url: https://www.lemonbuluo.eu.org/
+    - name: 绯鞠的博客
+      url: https://loli.fj.cn
+    - name: 半方池水半方田
+      url: https://uuanqin.top/
+    - name: 轻笑Chuckle
+      url: https://www.qcqx.cn
+    - name: 猪梨村
+      url: https://zoulicheng.cn/
+    - name: 初之音
+      url: https://www.himiku.com/
+    - name: xiaoger
+      url: https://xiaoger.top/
+    - name: 星河城野
+      url: https://blog.z-l.top/
+    - name: 系统观察屋
+      url: https://www.xtgcw.cn/
+    - name: wyj5211的小站
+      url: https://blog.wyj5211.top/
+    - name: 汌の小破站
+      url: https://blog.treo.top/
+    - name: Spirit's Eden
+      url: https://www.spiritfr.eu.org/
+    - name: 爱吃猫的鱼BLOG
+      url: https://blog.talen.top/
+    - name: SITion-Safe
+      url: https://www.situpc.cn/
+    - name: Guhe Blog
+      url: https://blog.aevi.top/
+    - name: 枫叶分享知识，认识世界
+      url: https://blog.aqcoder.cn
+    - name: 顾梦不想满心遗憾，那就全力以赴.
+      url: https://blog.jishuqin.cn/

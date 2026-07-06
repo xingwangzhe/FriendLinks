@@ -1,14 +1,14 @@
 site:
-  name: "stellaastra.dpdns.org"
-  url: "https://stellaastra.dpdns.org/"
-  description: "友情链接"
-  links: "/friends"
+  name: Stella Blog - TA Learning
+  url: https://stellaastra.dpdns.org/
+  description: Stella 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
+  links: /friends
   friends:
-    - name: "Fox_dream的博客 Fox_dream の 小站 Blog"
-      url: "https://moretoil.github.io/"
-    - name: "yousen的博客 机械结构设计师 Blog"
-      url: "http://www.yousen1.top"
-    - name: "流萤白沙のBlog 学习-记录-分享 Blog"
-      url: "https://lyrashore.com"
-    - name: "n0va 人工桌面 参与过的项目"
-      url: "https://n0va.mihoyo.com/#/"
+    - name: Fox_dream的博客 Fox_dream の 小站 Blog
+      url: https://moretoil.github.io/
+    - name: yousen的博客 机械结构设计师 Blog
+      url: http://www.yousen1.top
+    - name: 流萤白沙のBlog 学习-记录-分享 Blog
+      url: https://lyrashore.com
+    - name: n0va 人工桌面 参与过的项目
+      url: https://n0va.mihoyo.com/#/

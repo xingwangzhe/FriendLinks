@@ -1,12 +1,12 @@
 site:
-  name: "blog.langchain.dev"
-  url: "https://blog.langchain.dev/"
-  description: "友情链接"
-  links: "/"
+  name: LangChain Blog
+  url: https://blog.langchain.dev/
+  description: Explore tutorials, case studies, and technical insights on building AI agents with LangSmith, Deep Agents, LangGraph, and LangChain. Learn from experts.
+  links: /
   friends:
-    - name: "LangChain Academy"
-      url: "https://academy.langchain.com/"
-    - name: "Try LangSmith"
-      url: "https://smith.langchain.com/"
-    - name: "Trust Center"
-      url: "https://trust.langchain.com/"
+    - name: LangChain Academy
+      url: https://academy.langchain.com/
+    - name: Try LangSmith
+      url: https://smith.langchain.com/
+    - name: Trust Center
+      url: https://trust.langchain.com/

@@ -1,8 +1,8 @@
 site:
-  name: "opensourcery.blog"
-  url: "https://opensourcery.blog/"
-  description: "友情链接"
-  links: "/"
+  name: Open Sourcery
+  url: https://opensourcery.blog/
+  description: Kenneth Kalmer's tech blog - open source, Ruby, JavaScript, and more
+  links: /
   friends:
-    - name: "golem.io"
-      url: "https://golem.io"
+    - name: golem.io
+      url: https://golem.io

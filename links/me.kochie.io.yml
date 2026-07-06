@@ -1,22 +1,22 @@
 site:
-  name: "me.kochie.io"
-  url: "https://me.kochie.io/"
-  description: "友情链接"
-  links: "/"
+  name: About Robert Koch
+  url: https://me.kochie.io/
+  description: Hi, I'm Robert. This is my site, click through to see some of the content I've worked on. I'm an electrical and software engineer, based in Melbourne, Australia.
+  links: /
   friends:
-    - name: "Quarterzip AI"
-      url: "https://quarterzip.ai"
-    - name: "Redactive AI"
-      url: "https://redactive.ai"
-    - name: "Localz"
-      url: "https://localz.com"
-    - name: "wired"
-      url: "http://wired.org.au"
-    - name: "UNIHACK"
-      url: "https://unihack.net"
-    - name: "No. 03↗Contact TracingTechnology demonstration of a contact-tracing application"
-      url: "https://ct.vercel.app"
-    - name: "No. 04↗SpaceA small webapp that follows the mouse."
-      url: "https://kochie.space"
-    - name: "No. 05↗ParticlezA real-time n-body particle simulator for the web."
-      url: "https://3body.vercel.app"
+    - name: Quarterzip AI
+      url: https://quarterzip.ai
+    - name: Redactive AI
+      url: https://redactive.ai
+    - name: Localz
+      url: https://localz.com
+    - name: wired
+      url: http://wired.org.au
+    - name: UNIHACK
+      url: https://unihack.net
+    - name: No. 03↗Contact TracingTechnology demonstration of a contact-tracing application
+      url: https://ct.vercel.app
+    - name: No. 04↗SpaceA small webapp that follows the mouse.
+      url: https://kochie.space
+    - name: No. 05↗ParticlezA real-time n-body particle simulator for the web.
+      url: https://3body.vercel.app

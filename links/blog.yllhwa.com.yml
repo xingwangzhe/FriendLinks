@@ -1,12 +1,12 @@
 site:
-  name: "blog.yllhwa.com"
-  url: "https://blog.yllhwa.com/"
-  description: "友情链接"
-  links: "/friends"
+  name: yllhwa
+  url: https://blog.yllhwa.com/
+  description: yllhwa's blog.
+  links: /friends
   friends:
-    - name: "滑翔闪 ↗ 高中同学，经济学爱好者"
-      url: "https://blog.huaxiangshan.com/"
-    - name: "Flyan Lu ↗ 华科学长"
-      url: "https://fanlumaster.github.io/"
-    - name: "baozongwi ↗ SU 战队队长"
-      url: "https://baozongwi.xyz/"
+    - name: 滑翔闪 ↗ 高中同学，经济学爱好者
+      url: https://blog.huaxiangshan.com/
+    - name: Flyan Lu ↗ 华科学长
+      url: https://fanlumaster.github.io/
+    - name: baozongwi ↗ SU 战队队长
+      url: https://baozongwi.xyz/

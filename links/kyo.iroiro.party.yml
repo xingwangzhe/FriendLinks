@@ -1,10 +1,10 @@
 site:
-  name: "kyo.iroiro.party"
-  url: "https://kyo.iroiro.party/"
-  description: "友情链接"
-  links: "/"
+  name: 今日境
+  url: https://kyo.iroiro.party/
+  description: 今日(Kyou) is 共(Kyou) is 興(Kyou) is 狂(Kyou). A blog about Java, Emacs, Lisp, etc.
+  links: /
   friends:
-    - name: "Nikola"
-      url: "https://getnikola.com/"
-    - name: "craftering 🗘"
-      url: "https://craftering.systemcrafters.net"
+    - name: Nikola
+      url: https://getnikola.com/
+    - name: craftering 🗘
+      url: https://craftering.systemcrafters.net

@@ -1,16 +1,16 @@
 site:
-  name: "xrvs.net"
-  url: "https://xrvs.net/"
-  description: "友情链接"
-  links: "/"
+  name: xarvos
+  url: https://xrvs.net/
+  description: 友情链接
+  links: /
   friends:
-    - name: "loang.net"
-      url: "https://loang.net"
-    - name: "Only say hi"
-      url: "https://onlyhello.net/"
-    - name: "Fediring"
-      url: "https://fediring.net/"
-    - name: "hacker webring"
-      url: "https://ring.acab.dev"
-    - name: "Drew DeVault's blog"
-      url: "https://drewdevault.com"
+    - name: loang.net
+      url: https://loang.net
+    - name: Only say hi
+      url: https://onlyhello.net/
+    - name: Fediring
+      url: https://fediring.net/
+    - name: hacker webring
+      url: https://ring.acab.dev
+    - name: Drew DeVault's blog
+      url: https://drewdevault.com

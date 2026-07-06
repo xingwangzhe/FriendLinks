@@ -1,88 +1,88 @@
 site:
-  name: "liulantao.com"
-  url: "https://liulantao.com/"
-  description: "友情链接"
-  links: "/links"
+  name: Lax’ Programming Habits
+  url: https://liulantao.com/
+  description: 关于创意、代码、生活的各种思考。 探索知识、分享乐趣
+  links: /links
   friends:
-    - name: "yuedulijie.com"
-      url: "https://yuedulijie.com"
-    - name: "AnandTech && Architecture"
-      url: "http://www.anandtech.com"
-    - name: "Computer History Museum"
-      url: "http://www.computerhistory.org"
-    - name: "Linux Kernel Newbies"
-      url: "http://kernelnewbies.org"
-    - name: "Heavybit"
-      url: "http://www.heavybit.com"
-    - name: "Papers We Love"
-      url: "http://paperswelove.org"
-    - name: "Steve Souders"
-      url: "http://stevesouders.com"
-    - name: "Pete Keen"
-      url: "https://www.petekeen.net"
-    - name: "Joe Armstrong"
-      url: "http://joearms.github.io"
-    - name: "Steve Hanov"
-      url: "http://stevehanov.ca"
-    - name: "Meta-X86"
-      url: "http://meta-x86.blogspot.jp"
-    - name: "METABLOG"
-      url: "http://blog.metaobject.com"
-    - name: "Schneier on Security"
-      url: "https://www.schneier.com"
-    - name: "Ian Lewis"
-      url: "https://www.ianlewis.org"
-    - name: "The Netflix Tech Blog"
-      url: "http://techblog.netflix.com"
-    - name: "Code as Craft"
-      url: "http://codeascraft.com"
-    - name: "Learn Linux Commands & C Programming"
-      url: "http://blog.robertelder.org"
-    - name: "海量运维、运营规划之道"
-      url: "http://www.itkoala.com"
-    - name: "Better Specs { rspec guidelines with ruby }"
-      url: "http://betterspecs.org"
-    - name: "Git Reference"
-      url: "http://gitref.com"
-    - name: "PragProg"
-      url: "http://pragprog.com"
-    - name: "We ❤ Swift"
-      url: "http://www.weheartswift.com"
-    - name: "Sysadmin Casts"
-      url: "http://sysadmincasts.com"
-    - name: "Linux Gazette"
-      url: "http://linuxgazette.net"
-    - name: "Vitess"
-      url: "http://vitess.io"
-    - name: "VIM Tips Blog"
-      url: "http://www.vimtips-blog.com"
-    - name: "nope.c"
-      url: "http://nopedotc.com"
-    - name: "FnordMetric"
-      url: "http://fnordmetric.io"
-    - name: "CSS ICON"
-      url: "http://cssicon.space/"
-    - name: "三斗室"
-      url: "http://chenlinux.com"
-    - name: "人人都是DBA"
-      url: "http://rrdba.cn"
-    - name: "老谭笔记"
-      url: "http://www.tanhao.me"
-    - name: "IT干货网"
-      url: "http://iftti.com"
-    - name: "Demon"
-      url: "http://demonc.com"
-    - name: "KDr2"
-      url: "http://kdr2.com"
-    - name: "郑泽鑫博客"
-      url: "http://zhengzexin.com"
-    - name: "读唐诗"
-      url: "https://dutangshi.com"
-    - name: "1000bit 铅笔特刊"
-      url: "http://1000bit.com"
-    - name: "Ubuntu.io"
-      url: "http://ubuntu.io"
-    - name: "visplanet"
-      url: "http://visplanet.com"
-    - name: "Zen Habits"
-      url: "https://zenhabits.net"
+    - name: yuedulijie.com
+      url: https://yuedulijie.com
+    - name: AnandTech && Architecture
+      url: http://www.anandtech.com
+    - name: Computer History Museum
+      url: http://www.computerhistory.org
+    - name: Linux Kernel Newbies
+      url: http://kernelnewbies.org
+    - name: Heavybit
+      url: http://www.heavybit.com
+    - name: Papers We Love
+      url: http://paperswelove.org
+    - name: Steve Souders
+      url: http://stevesouders.com
+    - name: Pete Keen
+      url: https://www.petekeen.net
+    - name: Joe Armstrong
+      url: http://joearms.github.io
+    - name: Steve Hanov
+      url: http://stevehanov.ca
+    - name: Meta-X86
+      url: http://meta-x86.blogspot.jp
+    - name: METABLOG
+      url: http://blog.metaobject.com
+    - name: Schneier on Security
+      url: https://www.schneier.com
+    - name: Ian Lewis
+      url: https://www.ianlewis.org
+    - name: The Netflix Tech Blog
+      url: http://techblog.netflix.com
+    - name: Code as Craft
+      url: http://codeascraft.com
+    - name: Learn Linux Commands & C Programming
+      url: http://blog.robertelder.org
+    - name: 海量运维、运营规划之道
+      url: http://www.itkoala.com
+    - name: Better Specs { rspec guidelines with ruby }
+      url: http://betterspecs.org
+    - name: Git Reference
+      url: http://gitref.com
+    - name: PragProg
+      url: http://pragprog.com
+    - name: We ❤ Swift
+      url: http://www.weheartswift.com
+    - name: Sysadmin Casts
+      url: http://sysadmincasts.com
+    - name: Linux Gazette
+      url: http://linuxgazette.net
+    - name: Vitess
+      url: http://vitess.io
+    - name: VIM Tips Blog
+      url: http://www.vimtips-blog.com
+    - name: nope.c
+      url: http://nopedotc.com
+    - name: FnordMetric
+      url: http://fnordmetric.io
+    - name: CSS ICON
+      url: http://cssicon.space/
+    - name: 三斗室
+      url: http://chenlinux.com
+    - name: 人人都是DBA
+      url: http://rrdba.cn
+    - name: 老谭笔记
+      url: http://www.tanhao.me
+    - name: IT干货网
+      url: http://iftti.com
+    - name: Demon
+      url: http://demonc.com
+    - name: KDr2
+      url: http://kdr2.com
+    - name: 郑泽鑫博客
+      url: http://zhengzexin.com
+    - name: 读唐诗
+      url: https://dutangshi.com
+    - name: 1000bit 铅笔特刊
+      url: http://1000bit.com
+    - name: Ubuntu.io
+      url: http://ubuntu.io
+    - name: visplanet
+      url: http://visplanet.com
+    - name: Zen Habits
+      url: https://zenhabits.net

@@ -1,40 +1,40 @@
 site:
-  name: "brendaneich.com"
-  url: "https://brendaneich.com/"
-  description: "友情链接"
-  links: "/"
+  name: Brendan Eich
+  url: https://brendaneich.com/
+  description: 友情链接
+  links: /
   friends:
-    - name: "dotJS"
-      url: "https://www.dotjs.io/"
-    - name: "OTOY"
-      url: "https://otoy.com/"
-    - name: "BAT"
-      url: "https://basicattentiontoken.org/"
-    - name: "Pressable"
-      url: "https://pressable.com/"
-    - name: "asm.js"
-      url: "https://asmjs.org/"
-    - name: "Filip Pizlo"
-      url: "https://www.filpizlo.com/"
-    - name: "Mozilla"
-      url: "https://mozilla.org/"
-    - name: "Firefox"
-      url: "https://firefox.com/"
-    - name: "Firefox OS"
-      url: "https://firefoxos.com/"
-    - name: "Lukas Blakk"
-      url: "https://lukasblakk.com/"
-    - name: "25 years old"
-      url: "https://www.webat25.org/"
-    - name: "Spreadtrum Communications"
-      url: "https://www.spreadtrum.com/"
-    - name: "PhoneGap"
-      url: "https://phonegap.com/"
-    - name: "Andreas Gal"
-      url: "https://andreasgal.com/"
-    - name: "Desktop notification API"
-      url: "https://notifications.spec.whatwg.org/"
-    - name: "W3C"
-      url: "https://w3.org/"
-    - name: "open-source Internet services"
-      url: "https://services.mozilla.com/"
+    - name: dotJS
+      url: https://www.dotjs.io/
+    - name: OTOY
+      url: https://otoy.com/
+    - name: BAT
+      url: https://basicattentiontoken.org/
+    - name: Pressable
+      url: https://pressable.com/
+    - name: asm.js
+      url: https://asmjs.org/
+    - name: Filip Pizlo
+      url: https://www.filpizlo.com/
+    - name: Mozilla
+      url: https://mozilla.org/
+    - name: Firefox
+      url: https://firefox.com/
+    - name: Firefox OS
+      url: https://firefoxos.com/
+    - name: Lukas Blakk
+      url: https://lukasblakk.com/
+    - name: 25 years old
+      url: https://www.webat25.org/
+    - name: Spreadtrum Communications
+      url: https://www.spreadtrum.com/
+    - name: PhoneGap
+      url: https://phonegap.com/
+    - name: Andreas Gal
+      url: https://andreasgal.com/
+    - name: Desktop notification API
+      url: https://notifications.spec.whatwg.org/
+    - name: W3C
+      url: https://w3.org/
+    - name: open-source Internet services
+      url: https://services.mozilla.com/

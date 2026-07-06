@@ -1,8 +1,8 @@
 site:
-  name: "blog.mengguyi.com"
-  url: "https://blog.mengguyi.com/"
-  description: "友情链接"
-  links: "/"
+  name: 博客主页
+  url: https://blog.mengguyi.com/
+  description: 这里是孟古一的猫窝哦
+  links: /
   friends:
-    - name: "Debian 12"
-      url: "https://www.debian.org"
+    - name: Debian 12
+      url: https://www.debian.org

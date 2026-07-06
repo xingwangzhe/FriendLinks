@@ -1,12 +1,12 @@
 site:
-  name: "blog.mryxh.cn"
-  url: "http://blog.mryxh.cn/"
-  description: "友情链接"
-  links: "/"
+  name: 博客猫 - 技术改变生活
+  url: http://blog.mryxh.cn/
+  description: 博客猫,开发者笔记,程序员,博客园区,程序猿,程序媛,极客,码农,编程,代码,软件开发,开源
+  links: /
   friends:
-    - name: "biaoblog - 个人博客"
-      url: "http://biaoblog.cn"
-    - name: "郑文峰的博客"
-      url: "https://www.zhengwenfeng.com/"
-    - name: "秋码记录"
-      url: "https://qiucode.cn"
+    - name: biaoblog - 个人博客
+      url: http://biaoblog.cn
+    - name: 郑文峰的博客
+      url: https://www.zhengwenfeng.com/
+    - name: 秋码记录
+      url: https://qiucode.cn

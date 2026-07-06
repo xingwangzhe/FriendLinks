@@ -1,14 +1,14 @@
 site:
-  name: "nydragon.eu"
-  url: "https://nydragon.eu/"
-  description: "友情链接"
-  links: "/"
+  name: nydragon's corner
+  url: https://nydragon.eu/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Navidrome"
-      url: "https://navidrome.org/"
-    - name: "Forgejo"
-      url: "https://forgejo.org/"
-    - name: "Jellyfin"
-      url: "https://jellyfin.org/"
-    - name: "nixwebr.ing"
-      url: "https://nixwebr.ing"
+    - name: Navidrome
+      url: https://navidrome.org/
+    - name: Forgejo
+      url: https://forgejo.org/
+    - name: Jellyfin
+      url: https://jellyfin.org/
+    - name: nixwebr.ing
+      url: https://nixwebr.ing

@@ -1,40 +1,42 @@
 site:
-  name: "888333.xyz"
-  url: "https://888333.xyz/"
-  description: "友情链接"
-  links: "/links.html"
+  name: |-
+    83小驿站 -
+        记录生活中的灵感碎片
+  url: https://888333.xyz/
+  description: 记录生活中的灵感碎片
+  links: /links.html
   friends:
-    - name: "柒柒零分享屋 记录生活、分享兴趣"
-      url: "https://www.770a.cn"
-    - name: "乐修学院 记录生活、分享兴趣"
-      url: "https://www.loiu.cn"
-    - name: "壹影博客 记录生活、分享兴趣"
-      url: "https://bk.yyge.net/"
-    - name: "子夜歌 记录生活、分享兴趣"
-      url: "https://ziyege.com/"
-    - name: "肆零信息 记录生活、分享兴趣"
-      url: "https://40c.cn/"
-    - name: "TechCrafts 记录点点滴滴"
-      url: "https://www.techcrafts.cn/"
-    - name: "LHL's Blog 能烂尾的结局，过程一定很精彩"
-      url: "https://blog.lhl.one"
-    - name: "一楼没太阳 只有坏掉的东西才会停下来"
-      url: "https://blog.ylmty.cc"
-    - name: "鸿威的森林 谢鸿威博客"
-      url: "https://www.xiehongwei.cn"
-    - name: "小曹同学"
-      url: "https://caotx.cn/"
-    - name: "不语"
-      url: "https://zhuxu.asia/"
-    - name: "LHL"
-      url: "https://lhl.one"
-    - name: "平凡"
-      url: "http://blog.hzyo.cn"
-    - name: "清柠"
-      url: "https://qnbk.bbroot.com/"
-    - name: "小码同学"
-      url: "https://blog.hikki.site"
-    - name: "挺胸的男孩"
-      url: "http://hzyo.cn"
-    - name: "乔阳"
-      url: "https://blog.qiaoyangvy.cn/"
+    - name: 柒柒零分享屋 记录生活、分享兴趣
+      url: https://www.770a.cn
+    - name: 乐修学院 记录生活、分享兴趣
+      url: https://www.loiu.cn
+    - name: 壹影博客 记录生活、分享兴趣
+      url: https://bk.yyge.net/
+    - name: 子夜歌 记录生活、分享兴趣
+      url: https://ziyege.com/
+    - name: 肆零信息 记录生活、分享兴趣
+      url: https://40c.cn/
+    - name: TechCrafts 记录点点滴滴
+      url: https://www.techcrafts.cn/
+    - name: LHL's Blog 能烂尾的结局，过程一定很精彩
+      url: https://blog.lhl.one
+    - name: 一楼没太阳 只有坏掉的东西才会停下来
+      url: https://blog.ylmty.cc
+    - name: 鸿威的森林 谢鸿威博客
+      url: https://www.xiehongwei.cn
+    - name: 小曹同学
+      url: https://caotx.cn/
+    - name: 不语
+      url: https://zhuxu.asia/
+    - name: LHL
+      url: https://lhl.one
+    - name: 平凡
+      url: http://blog.hzyo.cn
+    - name: 清柠
+      url: https://qnbk.bbroot.com/
+    - name: 小码同学
+      url: https://blog.hikki.site
+    - name: 挺胸的男孩
+      url: http://hzyo.cn
+    - name: 乔阳
+      url: https://blog.qiaoyangvy.cn/

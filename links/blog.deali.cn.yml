@@ -1,10 +1,10 @@
 site:
-  name: "blog.deali.cn"
-  url: "http://blog.deali.cn/"
-  description: "友情链接"
-  links: "/"
+  name: 曦远博客 · StarBlog · 画星星高手 · 程序设计实验室
+  url: http://blog.deali.cn/
+  description: DealiAxy，曦远博客，画星星高手博客，程序设计实验室。专注于互联网热门新技术探索与团队敏捷开发实践，包括架构设计、机器学习与数据分析算法、移动端开发、Linux、Web前后端开发等技术分享。
+  links: /
   friends:
-    - name: "Dotnet9"
-      url: "https://dotnet9.com/"
-    - name: "LyShark"
-      url: "https://www.lyshark.com"
+    - name: Dotnet9
+      url: https://dotnet9.com/
+    - name: LyShark
+      url: https://www.lyshark.com

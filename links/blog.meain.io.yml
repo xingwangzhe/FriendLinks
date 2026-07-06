@@ -1,10 +1,10 @@
 site:
-  name: "blog.meain.io"
-  url: "https://blog.meain.io/"
-  description: "友情链接"
-  links: "/about"
+  name: meain/blog
+  url: https://blog.meain.io/
+  description: 友情链接
+  links: /about
   friends:
     - name: "@meain:matrix.io"
-      url: "https://matrix.to/#/@meain:matrix.org"
-    - name: "libera.chat"
-      url: "https://libera.chat/"
+      url: https://matrix.to/#/@meain:matrix.org
+    - name: libera.chat
+      url: https://libera.chat/

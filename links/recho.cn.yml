@@ -1,12 +1,12 @@
 site:
-  name: "recho.cn"
-  url: "https://www.recho.cn/"
-  description: "友情链接"
-  links: "/links"
+  name: 阅客网 - 专注于编程技术和资源分享
+  url: https://www.recho.cn/
+  description: www.recho.cn - 阅客网是一个专注于编程技术学习、实践和经验分享的技术分享网，面向开发者提供知识分享社区服务。该网站由系统运维、建站技术、SEO优化和资源分享等栏目组成，涵盖了Linux、SQL、HTML、PHP、Python、Java等技术领域。
+  links: /links
   friends:
-    - name: "氢快科技"
-      url: "https://www.h2fast.cn"
-    - name: "DeepSea's Home"
-      url: "https://58.qa"
-    - name: "耗子博客"
-      url: "https://hzbk.net"
+    - name: 氢快科技
+      url: https://www.h2fast.cn
+    - name: DeepSea's Home
+      url: https://58.qa
+    - name: 耗子博客
+      url: https://hzbk.net

@@ -1,8 +1,8 @@
 site:
-  name: "silverrainz.me"
-  url: "https://silverrainz.me/"
-  description: "友情链接"
-  links: "/"
+  name: 银色子弹
+  url: https://silverrainz.me/
+  description: "👤SilverRainZ 的结构化笔记系统。 最近更新 联系我吧 画廊 这里陈列一些我觉得还不错的技术练习、小创作以及正式的作品。/gallery.html 博客 我的博客，主要写一些编程相关的文章、介绍最近做的项目，也记录生活琐事。/blog/index.html 笔记 我的个人笔记，没有什么好阅读的，目录和内容都会不定期变动。/notes.html 笔记: 造型实验室, 读书笔记, 工具.."
+  links: /
   friends:
-    - name: "Sphinx"
-      url: "https://www.sphinx-doc.org/"
+    - name: Sphinx
+      url: https://www.sphinx-doc.org/

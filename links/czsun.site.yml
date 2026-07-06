@@ -1,10 +1,10 @@
 site:
-  name: "czsun.site"
-  url: "https://www.czsun.site/"
-  description: "友情链接"
-  links: "/"
+  name: Changzhi Sun - Homepage
+  url: https://www.czsun.site/
+  description: Homepage of Changzhi Sun
+  links: /
   friends:
-    - name: "project"
-      url: "https://ekar-leaderboard.github.io/"
-    - name: "AntNLP"
-      url: "https://antnlp.org/"
+    - name: project
+      url: https://ekar-leaderboard.github.io/
+    - name: AntNLP
+      url: https://antnlp.org/

@@ -1,16 +1,16 @@
 site:
-  name: "boinkor.net"
-  url: "http://boinkor.net/"
-  description: "友情链接"
-  links: "/"
+  name: Andreas Fuchs’ Journal
+  url: http://boinkor.net/
+  description: The personal website of Andreas Fuchs; I work on computer and human systems.
+  links: /
   friends:
-    - name: "undergoing"
-      url: "https://save-nix-together.org/"
-    - name: "Xe Iaso"
-      url: "https://xeiaso.net/"
-    - name: "SBCL"
-      url: "http://www.sbcl.org/"
-    - name: "Anki"
-      url: "https://apps.ankiweb.net/"
-    - name: "Fluent Forever"
-      url: "https://fluent-forever.com/"
+    - name: undergoing
+      url: https://save-nix-together.org/
+    - name: Xe Iaso
+      url: https://xeiaso.net/
+    - name: SBCL
+      url: http://www.sbcl.org/
+    - name: Anki
+      url: https://apps.ankiweb.net/
+    - name: Fluent Forever
+      url: https://fluent-forever.com/

@@ -1,10 +1,10 @@
 site:
-  name: "codlin.me"
-  url: "https://codlin.me/"
-  description: "友情链接"
-  links: "/"
+  name: 首頁
+  url: https://codlin.me/
+  description: 各種鱈魚滾鍵盤的雜記與其他酷酷的東西 (´,,•ω•,,)
+  links: /
   friends:
-    - name: "Kay"
-      url: "https://kaylousberg.itch.io"
-    - name: "Isa"
-      url: "https://tinytreats.itch.io/"
+    - name: Kay
+      url: https://kaylousberg.itch.io
+    - name: Isa
+      url: https://tinytreats.itch.io/

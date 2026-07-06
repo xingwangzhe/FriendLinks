@@ -1,10 +1,10 @@
 site:
-  name: "tjsky.net"
-  url: "https://www.tjsky.net/"
-  description: "友情链接"
-  links: "/"
+  name: 秋风于渭水 - 专注软件技巧与互联网折腾记录
+  url: https://www.tjsky.net/
+  description: 秋风于渭水的个人技术基地。这里记录了一个博主在 Chrome、Windows、Docker 和 WordPress 领域的“踩坑”与“填坑”实录。从 Manifest V2 扩展支持到 NAS 服务自托管，分享那些值得折腾的互联网技术与优质资源。
+  links: /
   friends:
-    - name: "Dongdong's Blog"
-      url: "https://ddw2019.com/"
-    - name: "串串狗小刊"
-      url: "https://www.ccgxk.com/"
+    - name: Dongdong's Blog
+      url: https://ddw2019.com/
+    - name: 串串狗小刊
+      url: https://www.ccgxk.com/

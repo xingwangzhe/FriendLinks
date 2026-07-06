@@ -1,12 +1,12 @@
 site:
-  name: "jamesbaum.co.uk"
-  url: "https://www.jamesbaum.co.uk/"
-  description: "友情链接"
-  links: "/"
+  name: James Baum
+  url: https://www.jamesbaum.co.uk/
+  description: 友情链接
+  links: /
   friends:
-    - name: "Chord generator"
-      url: "https://chordgenerator.xyz"
-    - name: "Ascii Picture"
-      url: "https://asciipicture.com"
-    - name: "BlueSky"
-      url: "https://whostolemyhat.bsky.social"
+    - name: Chord generator
+      url: https://chordgenerator.xyz
+    - name: Ascii Picture
+      url: https://asciipicture.com
+    - name: BlueSky
+      url: https://whostolemyhat.bsky.social

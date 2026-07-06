@@ -1,30 +1,30 @@
 site:
-  name: "tobyqin.cn"
-  url: "https://tobyqin.cn/"
-  description: "友情链接"
-  links: "/links"
+  name: Practice
+  url: https://tobyqin.cn/
+  description: A professional blog dedicated to sharing insights, experiences, and best practices in software engineering.
+  links: /links
   friends:
-    - name: "生成漂亮的代码片段"
-      url: "https://carbon.now.sh"
-    - name: "生成 Github 用的各种徽章"
-      url: "http://shields.io/#your-badge"
-    - name: "在线画流程图，思维导图"
-      url: "https://www.freedgo.com/"
-    - name: "用 ASCII 画流程图"
-      url: "http://asciiflow.com/"
-    - name: "逗比根据地"
-      url: "https://doub.bid"
-    - name: "风陵渡口"
-      url: "https://thief.one"
-    - name: "小胡子哥"
-      url: "https://www.barretlee.com/"
-    - name: "狼和凤凰"
-      url: "https://www.phodal.com/"
-    - name: "大象笔记"
-      url: "https://www.sunzhongwei.com/"
-    - name: "IOIOX"
-      url: "https://www.ioiox.com/"
-    - name: "无主界"
-      url: "https://www.idleleo.com/"
-    - name: "Lyric"
-      url: "https://lyric.im/"
+    - name: 生成漂亮的代码片段
+      url: https://carbon.now.sh
+    - name: 生成 Github 用的各种徽章
+      url: http://shields.io/#your-badge
+    - name: 在线画流程图，思维导图
+      url: https://www.freedgo.com/
+    - name: 用 ASCII 画流程图
+      url: http://asciiflow.com/
+    - name: 逗比根据地
+      url: https://doub.bid
+    - name: 风陵渡口
+      url: https://thief.one
+    - name: 小胡子哥
+      url: https://www.barretlee.com/
+    - name: 狼和凤凰
+      url: https://www.phodal.com/
+    - name: 大象笔记
+      url: https://www.sunzhongwei.com/
+    - name: IOIOX
+      url: https://www.ioiox.com/
+    - name: 无主界
+      url: https://www.idleleo.com/
+    - name: Lyric
+      url: https://lyric.im/

@@ -1,10 +1,12 @@
 site:
-  name: "text03.com"
-  url: "https://text03.com/"
-  description: "友情链接"
-  links: "/links"
+  name: Text03's Blog
+  url: https://text03.com/
+  description: |-
+    技术分享与生活随笔 | Text03's Blog
+    专注于分享编程技术，记录关于编程的思考和学习笔记，同时记录个人成长、生活感悟与旅行见闻。记得升龙
+  links: /links
   friends:
-    - name: "saveio ——萌春的个人Blog"
-      url: "https://mengchunm.github.io/"
-    - name: "久远诗邸"
-      url: "http://chosroes.com"
+    - name: saveio ——萌春的个人Blog
+      url: https://mengchunm.github.io/
+    - name: 久远诗邸
+      url: http://chosroes.com

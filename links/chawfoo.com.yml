@@ -1,10 +1,10 @@
 site:
-  name: "chawfoo.com"
-  url: "https://www.chawfoo.com/"
-  description: "友情链接"
-  links: "/friends"
+  name: 关于 - 付之一笑
+  url: https://www.chawfoo.com/
+  description: 付之一笑 — Charliefoo 的个人博客，专注于阅读、跑步、思考与创作，记录生活中的点滴感悟与技术探索。
+  links: /friends
   friends:
-    - name: "张洪Heo 分享设计与科技生活"
-      url: "https://blog.zhheo.com/"
-    - name: "Tangly的学习笔记 NotionNext的作者 NotNext"
-      url: "https://tangly1024.com/"
+    - name: 张洪Heo 分享设计与科技生活
+      url: https://blog.zhheo.com/
+    - name: Tangly的学习笔记 NotionNext的作者 NotNext
+      url: https://tangly1024.com/

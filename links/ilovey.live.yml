@@ -1,68 +1,68 @@
 site:
-  name: "ilovey.live"
-  url: "https://ilovey.live/"
-  description: "友情链接"
-  links: "/links"
+  name: 低调小熊猫
+  url: https://ilovey.live/
+  description: 友情链接
+  links: /links
   friends:
-    - name: "Ryan Wang Halo"
-      url: "https://ryanc.cc/"
-    - name: "Nico 妮可妮可妮"
-      url: "http://isnico.com/"
-    - name: "今今今生 医不自医，人不渡己"
-      url: "https://noheart.cn"
-    - name: "Vinking 一个安静的地方"
-      url: "https://vinking.top"
-    - name: "Revincx 可爱就是正义~"
-      url: "https://blog.revincx.icu/"
-    - name: "雨临Lewis的博客 赵子龙一身是胆，程序猿遍体皆肝"
-      url: "https://lewky.cn/"
-    - name: "冰橘的小窝 (⊙ω⊙)你找到我了"
-      url: "https://blog.moe233.net"
-    - name: "小简博客 楼外的蒹葭，傍晚的月亮，还有那鸡鸣寺的樱花"
-      url: "https://blog.ideaopen.cn"
-    - name: "朝圣'blog 不忘初心，方得始终。"
-      url: "https://www.mcpeach.cc"
-    - name: "ghostsf Do what i love and just do it !"
-      url: "https://ghostsf.com"
-    - name: "LKの小站 楽園🌸"
-      url: "https://blog.lkarrie.com/"
-    - name: "宇生の后花园 天堂还是地狱，我没有选择的权力，我只有被选择的命运"
-      url: "https://blog.yuse.cc"
-    - name: "淮城一只猫 永远年轻，永远热泪盈眶！"
-      url: "https://iiong.com"
-    - name: "墨泽 生命不息 折腾不止"
-      url: "https://blog.imzy.ink/"
-    - name: "烟霞志 空有烟霞之志，叹无水云之身。"
-      url: "https://simplestark.com/"
-    - name: "瞬间 Press 拿起相机，认真思考"
-      url: "https://tripper.press"
-    - name: "guqing’s blog 毕生所求无它，爱与自由而已"
-      url: "https://guqing.io"
-    - name: "青石坞 简单小屋,青青优雅..."
-      url: "http://www.qs5.org"
-    - name: "90码农历险记 90后写代码的农村人打怪升级的记录片"
-      url: "https://blog.gobyte.cn"
-    - name: "LongTao Ewige Wiederkunft"
-      url: "https://longtao.fun"
-    - name: "zzhack zzh + hack = zzhack"
-      url: "https://zzhack.fun"
-    - name: "AlgerFan Step by step, the sun"
-      url: "https://www.algerfan.cn"
-    - name: "GZTime Walking on the Time Axis."
-      url: "https://blog.gztime.cc/"
-    - name: "月光海岸 用心创造快乐！"
-      url: "https://www.manction.com"
-    - name: "一个小站 在互联网上淘金！"
-      url: "https://www.ygxz.in"
-    - name: "六月长河 桃李春风一杯酒，江湖夜雨十年灯"
-      url: "https://kingpo.vercel.app"
-    - name: "SAn Blog I'm SAn! like DIY树莓派"
-      url: "https://sanii.cn/"
-    - name: "顾梦 不想满心遗憾，那就全力以赴"
-      url: "https://blog.gumengyo.top"
-    - name: "LZHの小窝 凡是过往，皆为序章"
-      url: "https://blog.lzh.life"
-    - name: "ADLAMP 一个网工的博客:D"
-      url: "https://blog.adlamp.cn"
-    - name: "人生足迹 · 博客平台 分享生活与技术的精彩瞬间"
-      url: "https://blog.lifebus.top"
+    - name: Ryan Wang Halo
+      url: https://ryanc.cc/
+    - name: Nico 妮可妮可妮
+      url: http://isnico.com/
+    - name: 今今今生 医不自医，人不渡己
+      url: https://noheart.cn
+    - name: Vinking 一个安静的地方
+      url: https://vinking.top
+    - name: Revincx 可爱就是正义~
+      url: https://blog.revincx.icu/
+    - name: 雨临Lewis的博客 赵子龙一身是胆，程序猿遍体皆肝
+      url: https://lewky.cn/
+    - name: 冰橘的小窝 (⊙ω⊙)你找到我了
+      url: https://blog.moe233.net
+    - name: 小简博客 楼外的蒹葭，傍晚的月亮，还有那鸡鸣寺的樱花
+      url: https://blog.ideaopen.cn
+    - name: 朝圣'blog 不忘初心，方得始终。
+      url: https://www.mcpeach.cc
+    - name: ghostsf Do what i love and just do it !
+      url: https://ghostsf.com
+    - name: LKの小站 楽園🌸
+      url: https://blog.lkarrie.com/
+    - name: 宇生の后花园 天堂还是地狱，我没有选择的权力，我只有被选择的命运
+      url: https://blog.yuse.cc
+    - name: 淮城一只猫 永远年轻，永远热泪盈眶！
+      url: https://iiong.com
+    - name: 墨泽 生命不息 折腾不止
+      url: https://blog.imzy.ink/
+    - name: 烟霞志 空有烟霞之志，叹无水云之身。
+      url: https://simplestark.com/
+    - name: 瞬间 Press 拿起相机，认真思考
+      url: https://tripper.press
+    - name: guqing’s blog 毕生所求无它，爱与自由而已
+      url: https://guqing.io
+    - name: 青石坞 简单小屋,青青优雅...
+      url: http://www.qs5.org
+    - name: 90码农历险记 90后写代码的农村人打怪升级的记录片
+      url: https://blog.gobyte.cn
+    - name: LongTao Ewige Wiederkunft
+      url: https://longtao.fun
+    - name: zzhack zzh + hack = zzhack
+      url: https://zzhack.fun
+    - name: AlgerFan Step by step, the sun
+      url: https://www.algerfan.cn
+    - name: GZTime Walking on the Time Axis.
+      url: https://blog.gztime.cc/
+    - name: 月光海岸 用心创造快乐！
+      url: https://www.manction.com
+    - name: 一个小站 在互联网上淘金！
+      url: https://www.ygxz.in
+    - name: 六月长河 桃李春风一杯酒，江湖夜雨十年灯
+      url: https://kingpo.vercel.app
+    - name: SAn Blog I'm SAn! like DIY树莓派
+      url: https://sanii.cn/
+    - name: 顾梦 不想满心遗憾，那就全力以赴
+      url: https://blog.gumengyo.top
+    - name: LZHの小窝 凡是过往，皆为序章
+      url: https://blog.lzh.life
+    - name: ADLAMP 一个网工的博客:D
+      url: https://blog.adlamp.cn
+    - name: 人生足迹 · 博客平台 分享生活与技术的精彩瞬间
+      url: https://blog.lifebus.top

@@ -1,10 +1,10 @@
 site:
-  name: "blog.homulilly.com"
-  url: "http://blog.homulilly.com/"
-  description: "友情链接"
-  links: "/"
+  name: Homulilly
+  url: http://blog.homulilly.com/
+  description: Homulilly收录 116 篇文章，包括Hexo Theme Flatpaper 加入朋友圈大家庭、开发了一款适合查看图集的看图软件 ：Folio、修复 Apple Developer 邮箱与 Apple 账户邮箱不一致的问题。
+  links: /
   friends:
-    - name: "Folio"
-      url: "https://folio.nep.me"
-    - name: "Flatpaper"
-      url: "https://flatpaper.nep.me"
+    - name: Folio
+      url: https://folio.nep.me
+    - name: Flatpaper
+      url: https://flatpaper.nep.me

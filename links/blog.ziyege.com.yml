@@ -1,58 +1,60 @@
 site:
-  name: "blog.ziyege.com"
-  url: "https://blog.ziyege.com/"
-  description: "友情链接"
-  links: "/links.html"
+  name: |-
+    子夜歌 -
+        碧落山水间，品清韵悠扬
+  url: https://blog.ziyege.com/
+  description: 碧落山水间，品清韵悠扬
+  links: /links.html
   friends:
-    - name: "平凡博客 平凡博客的日常记录"
-      url: "https://888333.xyz/"
-    - name: "寒士杰克 喜欢捣鼓，不断进步！"
-      url: "https://www.hansjack.com/"
-    - name: "小枫的Blog 描述"
-      url: "https://blog.xiaofengqwq.com/"
-    - name: "秋記Autumn 秋記的日常记录"
-      url: "https://www.zhyok.cn/"
-    - name: "流情的博客 流尽千山万水，情深碧落黄泉"
-      url: "https://liuqingwushui.top/"
-    - name: "Lin's blog 以此林间笔墨纸，写尽世间温柔事"
-      url: "https://linyu.live/"
-    - name: "幻影博客 一个打工仔记录生活的网站，人生在世为何不留下一点生活的痕迹呢！"
-      url: "https://blog.52hyjs.com/"
-    - name: "BIIBII 记录生活中的技术脉搏"
-      url: "https://www.biibii.cn/"
-    - name: "Xuan's blog 分享技术教程和学习笔记"
-      url: "https://blog.ybyq.wang/"
-    - name: "老孙博客 资深网民"
-      url: "https://www.imsun.org/"
-    - name: "森木志 用你的手去写你的心"
-      url: "https://oxxx.cn/"
-    - name: "我 们 山河远阔，人间烟火"
-      url: "https://wumen.cn/"
-    - name: "落花雨记 落花雨，你飘摇的美丽，花香氤，把往日情勾起"
-      url: "https://www.luohuayu.cn/"
-    - name: "千江月 传承中医文化 分享中医古籍"
-      url: "https://asain.icu/"
-    - name: "依阑记梦blog 记录日常生活点点滴滴"
-      url: "https://yljm.com/"
-    - name: "目的地-Destination 前程似锦、未来可期、寻得良人、共赴白头，祝你也祝我。"
-      url: "https://chrison.cn/"
-    - name: "朱某的生活印记 没有销声匿迹，我在热爱生活"
-      url: "https://zhuxu.asia/"
-    - name: "IT老董博客 在繁杂的日常里，写一点自己的东西"
-      url: "https://www.itlaodong.com/"
-    - name: "似水流年 如花美眷，怎敌得过似水流年？"
-      url: "https://my1981.cn/"
-    - name: "语络 互联网分析"
-      url: "https://ay21.com/"
-    - name: "扶海浪子 IT技术，与个人琐碎的见闻想法！"
-      url: "https://htl.pub/"
-    - name: "小敏の晚风 欢迎莅临「小敏の晚风」"
-      url: "https://xmblog.chrislin.eu.org/"
-    - name: "傥师妹TangShiMei的小空间 想和你重新认识一次，从你叫什么开始"
-      url: "https://blog.224418.xyz/"
-    - name: "宗宗酱 宗宗酱"
-      url: "http://ygz.ink/"
-    - name: "Lzx's Blog 互联网+分享+科技+吐槽"
-      url: "https://www.liuzhixi.cn/"
-    - name: "瀚海星辰 分享温暖，感悟人生真谛"
-      url: "https://www.imuu.cn/"
+    - name: 平凡博客 平凡博客的日常记录
+      url: https://888333.xyz/
+    - name: 寒士杰克 喜欢捣鼓，不断进步！
+      url: https://www.hansjack.com/
+    - name: 小枫的Blog 描述
+      url: https://blog.xiaofengqwq.com/
+    - name: 秋記Autumn 秋記的日常记录
+      url: https://www.zhyok.cn/
+    - name: 流情的博客 流尽千山万水，情深碧落黄泉
+      url: https://liuqingwushui.top/
+    - name: Lin's blog 以此林间笔墨纸，写尽世间温柔事
+      url: https://linyu.live/
+    - name: 幻影博客 一个打工仔记录生活的网站，人生在世为何不留下一点生活的痕迹呢！
+      url: https://blog.52hyjs.com/
+    - name: BIIBII 记录生活中的技术脉搏
+      url: https://www.biibii.cn/
+    - name: Xuan's blog 分享技术教程和学习笔记
+      url: https://blog.ybyq.wang/
+    - name: 老孙博客 资深网民
+      url: https://www.imsun.org/
+    - name: 森木志 用你的手去写你的心
+      url: https://oxxx.cn/
+    - name: 我 们 山河远阔，人间烟火
+      url: https://wumen.cn/
+    - name: 落花雨记 落花雨，你飘摇的美丽，花香氤，把往日情勾起
+      url: https://www.luohuayu.cn/
+    - name: 千江月 传承中医文化 分享中医古籍
+      url: https://asain.icu/
+    - name: 依阑记梦blog 记录日常生活点点滴滴
+      url: https://yljm.com/
+    - name: 目的地-Destination 前程似锦、未来可期、寻得良人、共赴白头，祝你也祝我。
+      url: https://chrison.cn/
+    - name: 朱某的生活印记 没有销声匿迹，我在热爱生活
+      url: https://zhuxu.asia/
+    - name: IT老董博客 在繁杂的日常里，写一点自己的东西
+      url: https://www.itlaodong.com/
+    - name: 似水流年 如花美眷，怎敌得过似水流年？
+      url: https://my1981.cn/
+    - name: 语络 互联网分析
+      url: https://ay21.com/
+    - name: 扶海浪子 IT技术，与个人琐碎的见闻想法！
+      url: https://htl.pub/
+    - name: 小敏の晚风 欢迎莅临「小敏の晚风」
+      url: https://xmblog.chrislin.eu.org/
+    - name: 傥师妹TangShiMei的小空间 想和你重新认识一次，从你叫什么开始
+      url: https://blog.224418.xyz/
+    - name: 宗宗酱 宗宗酱
+      url: http://ygz.ink/
+    - name: Lzx's Blog 互联网+分享+科技+吐槽
+      url: https://www.liuzhixi.cn/
+    - name: 瀚海星辰 分享温暖，感悟人生真谛
+      url: https://www.imuu.cn/

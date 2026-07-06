@@ -1,28 +1,28 @@
 site:
-  name: "blog.eastonman.com"
-  url: "https://blog.eastonman.com/"
-  description: "友情链接"
-  links: "/friends"
+  name: Easton Man's Blog
+  url: https://blog.eastonman.com/
+  description: Easton Man的博客， 这里有计算机系统的知识。
+  links: /friends
   friends:
-    - name: "vaala.cat"
-      url: "https://vaala.cat/"
-    - name: "blog.gztime.cc"
-      url: "https://blog.gztime.cc/"
-    - name: "h3a.moe"
-      url: "https://h3a.moe/"
-    - name: "blog.cyyself.name"
-      url: "https://blog.cyyself.name/"
-    - name: "twd2.me"
-      url: "https://twd2.me/"
-    - name: "soha.moe"
-      url: "https://soha.moe/"
-    - name: "dingbangliu.codeberg.page"
-      url: "https://dingbangliu.codeberg.page/"
-    - name: "Harry Chen’s Blog"
-      url: "https://harrychen.xyz/"
-    - name: "面向信仰编程"
-      url: "https://draveness.me/"
-    - name: "星合の空·wu-kan"
-      url: "https://wu-kan.cn/"
-    - name: "杰哥的{运维，编程，调板子}小笔记"
-      url: "https://jia.je"
+    - name: vaala.cat
+      url: https://vaala.cat/
+    - name: blog.gztime.cc
+      url: https://blog.gztime.cc/
+    - name: h3a.moe
+      url: https://h3a.moe/
+    - name: blog.cyyself.name
+      url: https://blog.cyyself.name/
+    - name: twd2.me
+      url: https://twd2.me/
+    - name: soha.moe
+      url: https://soha.moe/
+    - name: dingbangliu.codeberg.page
+      url: https://dingbangliu.codeberg.page/
+    - name: Harry Chen’s Blog
+      url: https://harrychen.xyz/
+    - name: 面向信仰编程
+      url: https://draveness.me/
+    - name: 星合の空·wu-kan
+      url: https://wu-kan.cn/
+    - name: 杰哥的{运维，编程，调板子}小笔记
+      url: https://jia.je

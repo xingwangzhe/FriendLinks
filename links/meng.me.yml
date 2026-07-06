@@ -1,10 +1,10 @@
 site:
-  name: "meng.me"
-  url: "https://www.meng.me/"
-  description: "友情链接"
-  links: "/friends"
+  name: mGod
+  url: https://www.meng.me/
+  description: 欢迎来到mGod的博客，mgod个人博客记录着mgod的生活点滴、技术实践与学习成长。热爱写代码，也相信代码可以传递爱。MENG.ME —— 用代码书写温度。
+  links: /friends
   friends:
-    - name: "HCLonely 一个懒人的博客"
+    - name: HCLonely 一个懒人的博客
       url: "https://blog.hclonely.com/ "
-    - name: "wsbのblog 己所不欲，勿施于人"
+    - name: wsbのblog 己所不欲，勿施于人
       url: "https://wsbblog.cn "

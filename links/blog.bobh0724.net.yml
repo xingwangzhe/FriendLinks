@@ -1,12 +1,12 @@
 site:
-  name: "blog.bobh0724.net"
-  url: "https://blog.bobh0724.net/"
-  description: "友情链接"
-  links: "/links"
+  name: Bob's Blog of Nonsense
+  url: https://blog.bobh0724.net/
+  description: Whatever nonsense Bob thinks of goes here.
+  links: /links
   friends:
-    - name: "lyc8503"
-      url: "https://blog.lyc8503.net/"
-    - name: "My Matrix Account"
-      url: "https://matrix.to/#/@live_learn:mozilla.org"
-    - name: "BOOTSTRA.386"
-      url: "https://bootstra386.com/"
+    - name: lyc8503
+      url: https://blog.lyc8503.net/
+    - name: My Matrix Account
+      url: https://matrix.to/#/@live_learn:mozilla.org
+    - name: BOOTSTRA.386
+      url: https://bootstra386.com/

@@ -1,12 +1,12 @@
 site:
-  name: "bokro.cn"
-  url: "https://bokro.cn/"
-  description: "友情链接"
-  links: "/links"
+  name: 首页-心云小站
+  url: https://bokro.cn/
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  links: /links
   friends:
-    - name: "WindSpirit IT Just a human."
-      url: "https://www.leviatan.cn/"
-    - name: "无味杂言"
-      url: "https://blog.gxb.icu/"
-    - name: "Jimmy"
-      url: "https://jimmycai.com"
+    - name: WindSpirit IT Just a human.
+      url: https://www.leviatan.cn/
+    - name: 无味杂言
+      url: https://blog.gxb.icu/
+    - name: Jimmy
+      url: https://jimmycai.com

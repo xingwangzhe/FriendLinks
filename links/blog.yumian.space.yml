@@ -1,12 +1,12 @@
 site:
-  name: "blog.yumian.space"
-  url: "https://blog.yumian.space/"
-  description: "友情链接"
-  links: "/links"
+  name: 羽绵的个人博客
+  url: https://blog.yumian.space/
+  description: 友情链接
+  links: /links
   friends:
-    - name: "IcyBlog"
-      url: "https://blog.icybit.cn"
-    - name: "烟墨的屑站点"
-      url: "https://www.ymbit.cn"
-    - name: "落雪の自留地"
-      url: "https://www.lxhtt.cn"
+    - name: IcyBlog
+      url: https://blog.icybit.cn
+    - name: 烟墨的屑站点
+      url: https://www.ymbit.cn
+    - name: 落雪の自留地
+      url: https://www.lxhtt.cn

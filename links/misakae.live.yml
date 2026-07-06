@@ -1,18 +1,18 @@
 site:
-  name: "misakae.live"
-  url: "http://misakae.live/"
-  description: "友情链接"
-  links: "/friends"
+  name: 主页
+  url: http://misakae.live/
+  description: 主页入口：关于我、博客、游记/杂谈、友情链接。
+  links: /friends
   friends:
-    - name: "ZnCookie你与我的世界，从此而始"
-      url: "https://blog.zncookie.link/"
-    - name: "YOO_koishi舞萌痴|CS领域高手"
-      url: "https://www.yookoishi.com/"
-    - name: "Cheng_Yigui饱食而遨游，泛若不系之舟"
-      url: "https://zhaojiseng.github.io/"
-    - name: "编汐译梦CacheTide|云边的小旅店无人相伴的路，惝恍迷离的舞"
-      url: "https://cachetide.top/"
-    - name: "1nuoWe choose go to the Moon, not because it is easy, but beacuse it is hard"
-      url: "https://www.1nuo.me/"
-    - name: "WoshiluoOrz"
-      url: "https://woshiluo.com/"
+    - name: ZnCookie你与我的世界，从此而始
+      url: https://blog.zncookie.link/
+    - name: YOO_koishi舞萌痴|CS领域高手
+      url: https://www.yookoishi.com/
+    - name: Cheng_Yigui饱食而遨游，泛若不系之舟
+      url: https://zhaojiseng.github.io/
+    - name: 编汐译梦CacheTide|云边的小旅店无人相伴的路，惝恍迷离的舞
+      url: https://cachetide.top/
+    - name: 1nuoWe choose go to the Moon, not because it is easy, but beacuse it is hard
+      url: https://www.1nuo.me/
+    - name: WoshiluoOrz
+      url: https://woshiluo.com/

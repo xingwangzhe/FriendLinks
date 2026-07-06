@@ -1,12 +1,12 @@
 site:
-  name: "bbing.com.cn"
-  url: "https://bbing.com.cn/"
-  description: "友情链接"
-  links: "/friends"
+  name: ImCBC
+  url: https://bbing.com.cn/
+  description: 个人技术博客
+  links: /friends
   friends:
-    - name: "This Cute World"
-      url: "https://thiscute.world/"
-    - name: "杜老师说"
-      url: "https://dusays.com"
-    - name: "雨临Lewis的博客"
-      url: "https://lewky.cn"
+    - name: This Cute World
+      url: https://thiscute.world/
+    - name: 杜老师说
+      url: https://dusays.com
+    - name: 雨临Lewis的博客
+      url: https://lewky.cn

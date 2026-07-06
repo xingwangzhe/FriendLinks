@@ -1,26 +1,26 @@
 site:
-  name: "blog.ciriu.com"
-  url: "https://blog.ciriu.com/"
-  description: "友情链接"
-  links: "/link"
+  name: Maple Blog
+  url: https://blog.ciriu.com/
+  description: 分享网络技术、服务器部署、内网穿透、静态网站搭建、CDN优化、容器化部署等技术教程与实践经验的个人技术博客，专注于云原生、无服务器架构和前后端开发，作者为作者是云汐月，一名全栈开发者
+  links: /link
   friends:
-    - name: "二叉树树"
-      url: "https://2x.nz/"
-    - name: "青序栈"
-      url: "https://qxzhan.cn/"
-    - name: "fishcpy"
-      url: "https://blog.fis.ink"
-    - name: "鈴奈咲桜"
-      url: "https://blog.sakura.ink"
-    - name: "Tavre"
-      url: "https://blog.tsd.my"
-    - name: "云晓晨"
-      url: "https://blog.kaiqi.wang"
-    - name: "yunsen2025"
-      url: "https://blog.imysen.com"
-    - name: "开往?"
-      url: "https://www.travellings.cn/go.html"
-    - name: "测试NAT类型"
-      url: "https://nat.oowo.cc"
-    - name: "OpenList"
-      url: "https://list.oowo.cc"
+    - name: 二叉树树
+      url: https://2x.nz/
+    - name: 青序栈
+      url: https://qxzhan.cn/
+    - name: fishcpy
+      url: https://blog.fis.ink
+    - name: 鈴奈咲桜
+      url: https://blog.sakura.ink
+    - name: Tavre
+      url: https://blog.tsd.my
+    - name: 云晓晨
+      url: https://blog.kaiqi.wang
+    - name: yunsen2025
+      url: https://blog.imysen.com
+    - name: 开往?
+      url: https://www.travellings.cn/go.html
+    - name: 测试NAT类型
+      url: https://nat.oowo.cc
+    - name: OpenList
+      url: https://list.oowo.cc

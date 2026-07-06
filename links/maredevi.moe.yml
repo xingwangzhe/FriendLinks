@@ -1,22 +1,22 @@
 site:
-  name: "maredevi.moe"
-  url: "https://www.maredevi.moe/"
-  description: "友情链接"
-  links: "/about"
+  name: 序章
+  url: https://www.maredevi.moe/
+  description: A place to record my thoughts and share my knowledge.
+  links: /about
   friends:
-    - name: "BlogOfJunPickle"
-      url: "https://junpickle.github.io/"
-    - name: "PopHirasawa's Blog"
-      url: "https://pophirasawa.top"
-    - name: "Ruri 的博客"
-      url: "https://blog.meltyland.dev"
-    - name: "BIGSK 的博客"
-      url: "https://blog.ianxia.com/"
-    - name: "Yume Shoka"
-      url: "https://shoka.lostyu.me/"
-    - name: "字节君的博客"
-      url: "https://blog.lvbyte.top/"
-    - name: "Soulter's Blog"
-      url: "https://blog.soulter.top"
-    - name: "記緒漂流"
-      url: "https://ttio.cc"
+    - name: BlogOfJunPickle
+      url: https://junpickle.github.io/
+    - name: PopHirasawa's Blog
+      url: https://pophirasawa.top
+    - name: Ruri 的博客
+      url: https://blog.meltyland.dev
+    - name: BIGSK 的博客
+      url: https://blog.ianxia.com/
+    - name: Yume Shoka
+      url: https://shoka.lostyu.me/
+    - name: 字节君的博客
+      url: https://blog.lvbyte.top/
+    - name: Soulter's Blog
+      url: https://blog.soulter.top
+    - name: 記緒漂流
+      url: https://ttio.cc

@@ -1,14 +1,19 @@
 site:
-  name: "1byte.io"
-  url: "https://1byte.io/"
-  description: "友情链接"
-  links: "/links"
+  name: 0x01 byte
+  url: https://1byte.io/
+  description: |-
+    Hello.
+    我是江宏。这是我的个人博客。
+    我通常会写一些我自己的经历以及对感兴趣的各种话题的想法。
+    你可以：
+    对我了解更多 订阅 RSS 关注我以下平台的账号：
+  links: /links
   friends:
-    - name: "Kagi"
-      url: "https://kagi.com"
-    - name: "Udemy"
-      url: "https://www.udemy.com"
-    - name: "The Great Courses +"
-      url: "https://www.thegreatcoursesplus.com"
-    - name: "Master Class"
-      url: "https://www.masterclass.com"
+    - name: Kagi
+      url: https://kagi.com
+    - name: Udemy
+      url: https://www.udemy.com
+    - name: The Great Courses +
+      url: https://www.thegreatcoursesplus.com
+    - name: Master Class
+      url: https://www.masterclass.com

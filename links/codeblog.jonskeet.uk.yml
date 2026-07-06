@@ -1,10 +1,10 @@
 site:
-  name: "codeblog.jonskeet.uk"
-  url: "https://codeblog.jonskeet.uk/"
-  description: "友情链接"
-  links: "/"
+  name: Jon Skeet's coding blog
+  url: https://codeblog.jonskeet.uk/
+  description: 友情链接
+  links: /
   friends:
-    - name: "MoreLINQ"
-      url: "https://morelinq.github.io/"
-    - name: "Manage subscriptions"
-      url: "https://subscribe.wordpress.com/"
+    - name: MoreLINQ
+      url: https://morelinq.github.io/
+    - name: Manage subscriptions
+      url: https://subscribe.wordpress.com/

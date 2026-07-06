@@ -1,24 +1,24 @@
 site:
-  name: "blog.jeaye.com"
-  url: "https://blog.jeaye.com/"
-  description: "友情链接"
-  links: "/"
+  name: Jeaye's Blog
+  url: https://blog.jeaye.com/
+  description: I'm a leader, a problem solver, and a hacker with a passion for privacy and security.
+  links: /
   friends:
-    - name: "System76"
-      url: "https://system76.com/"
-    - name: "Datomic"
-      url: "http://www.datomic.com/"
-    - name: "codecov"
-      url: "https://codecov.io/"
-    - name: "weechat"
-      url: "https://weechat.org/"
-    - name: "JSON"
-      url: "http://json.org/"
-    - name: "BSON"
-      url: "http://bsonspec.org/"
-    - name: "Onyx"
-      url: "http://www.onyxplatform.org/"
-    - name: "Unity3D"
-      url: "http://madewith.unity.com/"
-    - name: "SBo"
-      url: "http://slackbuilds.org/"
+    - name: System76
+      url: https://system76.com/
+    - name: Datomic
+      url: http://www.datomic.com/
+    - name: codecov
+      url: https://codecov.io/
+    - name: weechat
+      url: https://weechat.org/
+    - name: JSON
+      url: http://json.org/
+    - name: BSON
+      url: http://bsonspec.org/
+    - name: Onyx
+      url: http://www.onyxplatform.org/
+    - name: Unity3D
+      url: http://madewith.unity.com/
+    - name: SBo
+      url: http://slackbuilds.org/

@@ -1,14 +1,14 @@
 site:
-  name: "sunmkt.uk"
-  url: "https://sunmkt.uk/"
-  description: "友情链接"
-  links: "/"
+  name: Sunset's Landing Page
+  url: https://sunmkt.uk/
+  description: Hello! I'm Sunset Mikoto. Full-stack developer, Windows & Linux user, Gamer.
+  links: /
   friends:
-    - name: "Matrix"
-      url: "https://matrix.to/#/@sunmkt:mozilla.org"
-    - name: "SearXNG"
-      url: "https://apps.disroot.org/"
-    - name: "Lianhe Zaobao"
-      url: "https://www.zaobao.com/"
-    - name: "VSCode"
-      url: "https://code.visualstudio.com/"
+    - name: Matrix
+      url: https://matrix.to/#/@sunmkt:mozilla.org
+    - name: SearXNG
+      url: https://apps.disroot.org/
+    - name: Lianhe Zaobao
+      url: https://www.zaobao.com/
+    - name: VSCode
+      url: https://code.visualstudio.com/

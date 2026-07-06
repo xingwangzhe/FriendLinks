@@ -1,22 +1,22 @@
 site:
-  name: "artemstar.com"
-  url: "https://artemstar.com/"
-  description: "友情链接"
-  links: "/links"
+  name: Blog · DevOps experience
+  url: https://artemstar.com/
+  description: Notes on infrastructure, tooling, and the small bits in between — Docker, Kubernetes, Terraform, Git, AWS.
+  links: /links
   friends:
-    - name: "BigKr"
-      url: "https://bigkr.com/"
-    - name: "AlmaLinuxCN"
-      url: "https://www.almalinux.com.cn/"
-    - name: "P.Cafe"
-      url: "https://p.cafe/"
-    - name: "FreeHost"
-      url: "https://freehost.work/"
-    - name: "MF8"
-      url: "https://mf8.biz/"
-    - name: "GEO.Fan"
-      url: "https://geo.fan/"
-    - name: "WebCasa"
-      url: "https://web.casa/"
-    - name: "HiEmdash"
-      url: "https://hiemdash.com/"
+    - name: BigKr
+      url: https://bigkr.com/
+    - name: AlmaLinuxCN
+      url: https://www.almalinux.com.cn/
+    - name: P.Cafe
+      url: https://p.cafe/
+    - name: FreeHost
+      url: https://freehost.work/
+    - name: MF8
+      url: https://mf8.biz/
+    - name: GEO.Fan
+      url: https://geo.fan/
+    - name: WebCasa
+      url: https://web.casa/
+    - name: HiEmdash
+      url: https://hiemdash.com/

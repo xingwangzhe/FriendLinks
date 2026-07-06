@@ -1,18 +1,18 @@
 site:
-  name: "owow.cc"
-  url: "https://owow.cc/"
-  description: "友情链接"
-  links: "/friends"
+  name: /var/log/waka-kanou
+  url: https://owow.cc/
+  description: 「若叶の日志」
+  links: /friends
   friends:
-    - name: "Website"
-      url: "https://dustella.net"
-    - name: "Website"
-      url: "https://blog.fifcom.cn"
-    - name: "Website"
-      url: "https://www.zhufucdev.com"
-    - name: "Website"
-      url: "https://blog.yizhou.ac.cn"
-    - name: "Website"
-      url: "https://ht.gd.cn"
-    - name: "Blog"
-      url: "https://qijieya.cn"
+    - name: Website
+      url: https://dustella.net
+    - name: Website
+      url: https://blog.fifcom.cn
+    - name: Website
+      url: https://www.zhufucdev.com
+    - name: Website
+      url: https://blog.yizhou.ac.cn
+    - name: Website
+      url: https://ht.gd.cn
+    - name: Blog
+      url: https://qijieya.cn

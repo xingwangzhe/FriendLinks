@@ -1,786 +1,786 @@
 site:
-  name: "blogscroll.com"
-  url: "https://blogscroll.com/"
-  description: "友情链接"
-  links: "/"
+  name: BlogScroll - Personal Blog & Site Directory
+  url: https://blogscroll.com/
+  description: An open directory of personal sites and blogs, maintained entirely on GitHub.
+  links: /
   friends:
-    - name: "Den Delimarsky"
-      url: "https://den.dev"
-    - name: "Adarsh DK"
-      url: "https://www.adarshdk.com"
-    - name: "Alessandro Mingione"
-      url: "https://www.ale.fyi/"
-    - name: "Alex Baldwin"
-      url: "https://www.alexbaldwin.com"
-    - name: "Allison Grayce Marshall"
-      url: "https://www.allisongrayce.com/"
-    - name: "Ánh Nguyễn"
-      url: "https://www.anh.ng"
-    - name: "Ariel Norling"
-      url: "http://arielnorling.com/"
-    - name: "Arjun"
-      url: "https://arjunmakesthings.github.io/"
-    - name: "Arjun Mahanti"
-      url: "https://mahanti.co"
-    - name: "Barbara Schussmann"
-      url: "https://barbaraschussmann.de"
-    - name: "Billy Tseng"
-      url: "https://www.billytseng.com"
-    - name: "Brad Cerasani"
-      url: "https://bradcerasani.me"
-    - name: "Caner Aras"
-      url: "https://www.caneraras.com"
-    - name: "Carl Barenbrug"
-      url: "https://carlbarenbrug.com/"
-    - name: "Charlie Deets"
-      url: "https://charliedeets.com"
-    - name: "Christopher Butler"
-      url: "https://www.chrbutler.com"
-    - name: "Craig Hooper"
-      url: "https://craighooper.xyz/"
-    - name: "Danilo Tanic"
-      url: "https://danilotanic.com"
-    - name: "David Newcomb"
-      url: "https://arbourtrary.com/"
-    - name: "David Schmudde"
-      url: "https://schmud.de"
-    - name: "Diego Alarcon"
-      url: "https://www.diegoar.space"
-    - name: "Dlay"
-      url: "https://dlay.eu"
-    - name: "Dylan James"
-      url: "https://www.dylan-james.co"
-    - name: "Edgar López"
-      url: "https://edgarlr.com"
-    - name: "Edin Abazi"
-      url: "https://www.edinabazi.com"
-    - name: "Eric Bailey"
-      url: "https://ericwbailey.website/"
-    - name: "Fabian Hemmert"
-      url: "http://www.fabianhemmert.com"
-    - name: "Femke van Schoonhoven"
-      url: "https://www.femke.design/"
-    - name: "Glauber"
-      url: "https://glauber.xyz"
-    - name: "Glenn Hitchcock"
-      url: "https://glenn.me/"
-    - name: "Gonzalo García Paz"
-      url: "https://www.gonzija.com"
-    - name: "Grant Purtle"
-      url: "https://grantpurtle.com"
-    - name: "Guilherme Simoes"
-      url: "https://guilhermesimoes.com/"
-    - name: "Jason Jun"
-      url: "https://www.jasonjun.dev"
-    - name: "Joesak Josefianoes"
-      url: "https://www.joesakjf.com"
-    - name: "John Reynolds"
-      url: "https://reynoldsj.co"
-    - name: "Jorge Arango"
-      url: "https://jarango.com/"
-    - name: "Josh Miller"
-      url: "http://jshmllr.com"
-    - name: "Julie Chabin"
-      url: "https://www.julie.design/"
-    - name: "Kelin Carolyn Zhang"
-      url: "https://www.carolynzhang.com"
-    - name: "Kevin Dukkon"
-      url: "https://www.kevdu.co"
-    - name: "Kurtis Beavers"
-      url: "http://www.kurtisbeavers.com/"
-    - name: "Lucas de França"
-      url: "https://www.luxonauta.com"
-    - name: "Luke Mitchell"
-      url: "https://interroban.gg"
-    - name: "Marc Astbury"
-      url: "https://marcastbury.com"
-    - name: "Marcelo Kunze"
-      url: "https://www.marcelokunze.com"
-    - name: "Matt Webb"
-      url: "https://interconnected.org"
-    - name: "Moritz Kindler"
-      url: "https://moritzkindler.com"
-    - name: "Naz Hamid"
-      url: "https://nazhamid.com"
-    - name: "Niklas Rosén"
-      url: "https://www.niklasrosen.se"
-    - name: "Nikolas Klein"
-      url: "http://nikolasklein.de"
-    - name: "Noah Buscher"
-      url: "https://noahbuscher.com"
-    - name: "Pierre Nel"
-      url: "https://pierre.io"
-    - name: "Pirijan"
-      url: "https://pketh.org"
-    - name: "PJ Onori"
-      url: "https://pjonori.blog/"
-    - name: "Pranathi Peri"
-      url: "https://pranathiperi.com"
-    - name: "Rachel Weil"
-      url: "http://www.nobadmemories.com/"
-    - name: "Ramsés Cabello"
-      url: "https://ramses.work"
-    - name: "Sam Solomon"
-      url: "https://solomon.io/"
-    - name: "Sara Clayton"
-      url: "https://www.saraclayton.com/"
-    - name: "Shawn Farsai"
-      url: "https://www.shawnfarsai.com/"
-    - name: "Simon Austerberry"
-      url: "https://www.simonausterberry.co.uk"
-    - name: "Stephanie Stimac"
-      url: "https://stephaniestimac.com/"
-    - name: "Stuart Regan"
-      url: "https://stuart.re"
-    - name: "Ted Goas"
-      url: "https://www.tedgoas.com"
-    - name: "Thao N."
-      url: "https://thaonf.com"
-    - name: "Thomas Rico"
-      url: "https://www.thomasri.co"
-    - name: "Thu Le"
-      url: "https://thu-le.com"
-    - name: "Toni Lijic"
-      url: "https://www.toni.li"
-    - name: "Trang Bui"
-      url: "https://trangbui.me/"
-    - name: "Patrick McKenzie"
-      url: "https://www.bitsaboutmoney.com/"
-    - name: "~hedy"
-      url: "https://home.hedy.dev/"
-    - name: "Aadhavan Srinivasan"
-      url: "https://twomorecents.org/"
-    - name: "Aaron Leonard"
-      url: "https://risingthumb.xyz/"
-    - name: "Abishek Muthian"
-      url: "https://abishekmuthian.com/"
-    - name: "Alex Murashko"
-      url: "https://alxmurashko.com"
-    - name: "Alex Schemagin"
-      url: "https://www.alexschemagin.com"
-    - name: "Alex Weichart"
-      url: "https://alexanderweichart.de/"
-    - name: "Alexey Staroselets"
-      url: "https://www.alexeystar.com/"
-    - name: "Andreas Gohr"
-      url: "https://www.splitbrain.org"
-    - name: "andrés ignacio torres"
-      url: "https://aitorres.com"
-    - name: "Andrew K. Dinh"
-      url: "https://andrewkdinh.com"
-    - name: "Andrey Ozornin"
-      url: "https://ozorn.in/"
-    - name: "Asmir"
-      url: "https://www.hiasmir.com"
-    - name: "Asterisk"
-      url: "https://asterisk.lol"
-    - name: "Ben Kuhn"
-      url: "https://www.benkuhn.net"
-    - name: "Benedict Neo"
-      url: "https://www.bneo.xyz/"
-    - name: "Benji Taylor"
-      url: "https://benji.org"
-    - name: "bewildered"
-      url: "https://bewilde.red/"
-    - name: "Book of Joe"
-      url: "https://www.bookofjoe.com"
-    - name: "Boris Kourtoukov"
-      url: "https://boris.kourtoukov.com"
-    - name: "Brajeshwar Oinam"
-      url: "https://brajeshwar.com/"
-    - name: "Bret Comnes"
-      url: "https://bret.io/"
-    - name: "Brian Devries"
-      url: "https://brianjdevries.com/"
-    - name: "Bryan Hogan"
-      url: "https://bryanhogan.com/"
-    - name: "Cassidy Williams"
-      url: "https://cassidoo.co"
-    - name: "Chris"
-      url: "https://entropicthoughts.com"
-    - name: "Christina Chen"
-      url: "https://christinalj.com/"
-    - name: "Christopher (Namchee)"
-      url: "https://www.namchee.dev"
-    - name: "Clinton Boys"
-      url: "https://www.mtsolitary.com/"
-    - name: "D. Bohdan"
-      url: "https://dbohdan.com/"
-    - name: "Dalton Rowe"
-      url: "https://daltonrowe.com/"
-    - name: "Darya Solomenko"
-      url: "https://www.solomenko.com"
-    - name: "Daryl Sun&#39;s Journal"
-      url: "https://blog.darylsun.page/"
-    - name: "Dave Stucky"
-      url: "https://stucky.tech/"
-    - name: "Derek Sivers"
-      url: "https://sive.rs"
-    - name: "dlmw blog"
-      url: "https://blog.dlmw.ch/"
-    - name: "Dominik Weber"
-      url: "https://weberdominik.com/"
-    - name: "Eric Thomas"
-      url: "https://ericthomas.ca"
-    - name: "Evan Pratten"
-      url: "https://ewpratten.com"
-    - name: "Everythings Better With Brentter"
-      url: "https://brentter.com"
-    - name: "Felix Almer"
-      url: "https://almer.dev/"
-    - name: "Gavin Anderegg"
-      url: "https://anderegg.ca"
-    - name: "Gregor Podjed"
-      url: "https://blog.gregtech.eu/"
-    - name: "Guillermo Esteves"
-      url: "https://www.giventotri.com/"
-    - name: "Gwern Branwen"
-      url: "https://gwern.net"
-    - name: "Gyan Anjay"
-      url: "https://bepbop.github.io"
-    - name: "Han Kruiger"
-      url: "https://www.hankruiger.com"
-    - name: "Harrison Broadbent"
-      url: "https://harrisonbroadbent.com"
-    - name: "Harsha K N"
-      url: "https://www.harshkn.com"
-    - name: "Hashin Jithu"
-      url: "https://blog.hashin.me/"
-    - name: "Hayo Bethlehem"
-      url: "https://hayobethlehem.nl"
-    - name: "Henrique Godoy"
-      url: "https://henriquegodoy.com/"
-    - name: "Ike Saunders"
-      url: "https://ikesau.co/"
-    - name: "Izzy Muerte"
-      url: "https://izzys.casa/"
-    - name: "J. Carlos Roldán"
-      url: "https://jcarlosroldan.com"
-    - name: "Jacob Filipp"
-      url: "https://jacobfilipp.com"
-    - name: "Jahir Fiquitiva"
-      url: "https://jahir.dev"
-    - name: "Jake Reich"
-      url: "https://www.jake-reich.co.uk/"
-    - name: "James"
-      url: "https://jamesg.blog"
-    - name: "Jamie Thingelstad"
-      url: "https://www.thingelstad.com/"
-    - name: "Jatin Nagpal"
-      url: "https://blog.jatinnagpal.com/"
-    - name: "joe jenett"
-      url: "https://simply.joejenett.com/"
-    - name: "John YS"
-      url: "https://blog.johnys.io"
-    - name: "Johnny Webber"
-      url: "https://johnnywebber.com"
-    - name: "Jon Ericson"
-      url: "https://jlericson.com"
-    - name: "Jordan Gonen"
-      url: "https://www.jordangonen.com"
-    - name: "JourneyToLunar"
-      url: "https://journeytolunar.com"
-    - name: "Just Another Internet Guy"
-      url: "https://justanotherinternetguy.github.io/"
-    - name: "Justus Perlwitz"
-      url: "https://www.justus.pw/"
-    - name: "Kemal"
-      url: "https://kemal.earth"
-    - name: "Kenneth Reitz"
-      url: "https://kennethreitz.org"
-    - name: "Kim Burgess"
-      url: "https://simple.industries/"
-    - name: "Lev Goncharov"
-      url: "https://www.goncharov.xyz/"
-    - name: "Lloyd Atkinson"
-      url: "https://www.lloydatkinson.net/"
-    - name: "Lu Wilson"
-      url: "https://www.todepond.com"
-    - name: "Mangesh"
-      url: "https://mangeshm.xyz/"
-    - name: "Marc Littlemore"
-      url: "https://marclittlemore.com"
-    - name: "Martin Irwin"
-      url: "http://martin-irwin.github.io/"
-    - name: "Martin Rue"
-      url: "https://martinrue.com"
-    - name: "Mathias Müller"
-      url: "https://mmathias.com/"
-    - name: "Matt Sephton"
-      url: "https://blog.gingerbeardman.com"
-    - name: "Max Bo"
-      url: "https://maxbo.me/"
-    - name: "Max Stoiber"
-      url: "https://mxstbr.com"
-    - name: "Max Weylandt"
-      url: "https://www.maxweylandt.com/"
-    - name: "Michael Kupietz"
-      url: "https://michaelkupietz.com/"
-    - name: "Mihir Naik"
-      url: "https://www.mihirnaik.com"
-    - name: "Mike Morris"
-      url: "https://one.mikro2nd.net/"
-    - name: "Monica Cellio"
-      url: "https://cellio.org/"
-    - name: "Mukesh Gupta"
-      url: "https://rmukeshgupta.com/"
-    - name: "Nathan Upchurch"
-      url: "https://nathanupchurch.com/"
-    - name: "Niels Gouman"
-      url: "https://nizzlay.com/"
-    - name: "Nikhil Vishnu"
-      url: "https://nikhilvishnu.com/"
-    - name: "Niklas Pivic"
-      url: "https://garden.pivic.com/"
-    - name: "Norman Koehring"
-      url: "https://koehr.ing"
-    - name: "Óscar Fernández"
-      url: "https://osc.garden/"
-    - name: "Paras Chopra"
-      url: "https://invertedpassion.com/"
-    - name: "Parth Patel"
-      url: "https://parth.ski"
-    - name: "Paul Cobbaut"
-      url: "https://cobbaut.be/"
-    - name: "Paul Lutus"
-      url: "https://arachnoid.com"
-    - name: "Pavel Kovar"
-      url: "https://pkworld.xyz/"
-    - name: "Pekka Laiho"
-      url: "https://laihoconsulting.com/"
-    - name: "Pete Ader"
-      url: "https://petesprojects.net/"
-    - name: "Pranit Bauva"
-      url: "https://bauva.com"
-    - name: "Rach Smith"
-      url: "https://rachsmith.com"
-    - name: "Raphael Pour"
-      url: "https://evilcookie.de/"
-    - name: "Raphael Salaja"
-      url: "https://www.raphaelsalaja.com"
-    - name: "Rico Trebeljahr"
-      url: "https://ricos.site"
-    - name: "Rinas"
-      url: "https://onerinas.com"
-    - name: "Rishikesh Sreehari"
-      url: "https://rishikeshs.com/"
-    - name: "Rob Kohr"
-      url: "https://robkohr.com/"
-    - name: "Robert Kingett"
-      url: "https://robertkingett.com/"
-    - name: "Ronalds Vilciņš"
-      url: "https://ronaldsvilcins.com/"
-    - name: "Roshan Shibu"
-      url: "https://www.roshanshibu.com/"
-    - name: "Rosia Evans"
-      url: "https://rosia.me"
-    - name: "Ruban SK"
-      url: "https://www.skruban.com/"
-    - name: "Scattershot"
-      url: "https://scattershot.blog/"
-    - name: "Shreyas Prakash"
-      url: "https://www.shreyasprakash.com"
-    - name: "Shyam Jos"
-      url: "https://shyamjos.com/"
-    - name: "Simon Vreeman"
-      url: "https://vreeman.com"
-    - name: "Simone"
-      url: "https://simone.computer"
-    - name: "sixey.es"
-      url: "https://sixey.es/"
-    - name: "Sofian Bettayeb"
-      url: "https://sofianbettayeb.com"
-    - name: "Spencer Scorcelletti"
-      url: "https://spenc.es/"
-    - name: "Stefan Imhoff"
-      url: "https://www.stefanimhoff.de"
-    - name: "Steven Scrawls"
-      url: "https://stevenscrawls.com"
-    - name: "Taylor Troesh"
-      url: "https://taylor.town"
-    - name: "Thomas Paulin"
-      url: "https://thomaspaulin.me/"
-    - name: "Tiago Rangel"
-      url: "https://tiagorangel.com"
-    - name: "Tim Romero"
-      url: "https://www.disruptingjapan.com"
-    - name: "Tom"
-      url: "https://ttntm.me/"
-    - name: "Tracy Durnell"
-      url: "https://tracydurnell.com"
-    - name: "Tyler Knows Nothing"
-      url: "https://tylerknowsnothing.com"
-    - name: "Udara Jay"
-      url: "https://udara.io"
-    - name: "Vedran Miletić"
-      url: "https://vedran.miletic.net/"
-    - name: "Victor Stanciu"
-      url: "https://tegowerk.eu/"
-    - name: "wargaluk"
-      url: "https://wargaluk.com/"
-    - name: "Will"
-      url: "https://ides.dev/"
-    - name: "William Hleucka"
-      url: "https://williamhleucka.com"
-    - name: "Winnie Lim"
-      url: "https://winnielim.org"
-    - name: "Winston Cooke"
-      url: "https://www.winstoncooke.com/"
-    - name: "Witte Grond"
-      url: "https://www.wittegrond.net/"
-    - name: "Yuval Adam"
-      url: "https://yuv.al"
-    - name: "Zygimantas Berziunas"
-      url: "https://zygimantas.com/"
-    - name: "Bill (ChillBillDill)"
-      url: "https://www.chillbilldill.com/"
-    - name: "Kaitlin McKinnon"
-      url: "https://www.kaitlinmckinnon.com"
-    - name: "Spaqin"
-      url: "https://spaq.in/"
-    - name: "Aayush Sahu"
-      url: "https://aayushsahu.com/"
-    - name: "Abhishek Banthia"
-      url: "https://abhishekbanthia.com/"
-    - name: "Alberto Llamas"
-      url: "https://www.deeplifelearning.com/"
-    - name: "Albin Groen"
-      url: "https://abgn.me"
-    - name: "Alex Tiniuc"
-      url: "https://tiniuc.com/"
-    - name: "Alexander Ameye"
-      url: "https://ameye.dev/"
-    - name: "Alexander Isora"
-      url: "https://isora.me/"
-    - name: "Alexander Zarebski"
-      url: "https://aezarebski.github.io"
-    - name: "Alok Menghrajani"
-      url: "https://www.quaxio.com/"
-    - name: "Amit Merchant"
-      url: "https://amitmerchant.com"
-    - name: "Amos"
-      url: "https://fasterthanli.me"
-    - name: "Andreas Jaggi"
-      url: "https://blog.x-way.org/"
-    - name: "Andrei Ciobanu"
-      url: "https://www.andreinc.net/"
-    - name: "Andrew Walpole"
-      url: "https://andrewwalpole.com/"
-    - name: "Andy Terrel"
-      url: "https://andy.terrel.us"
-    - name: "Aneesh Sathe"
-      url: "https://aneeshsathe.com"
-    - name: "Ash Connolly"
-      url: "https://ashconnolly.com"
-    - name: "Ash Smith"
-      url: "https://www.drashsmith.com/"
-    - name: "Ashish Bhatia"
-      url: "https://ashishb.net/"
-    - name: "Autodidacts"
-      url: "https://www.autodidacts.io/"
-    - name: "Aycan Gulez"
-      url: "https://lackofimagination.org/"
-    - name: "Ben Congdon"
-      url: "https://benjamincongdon.me"
-    - name: "Ben Hekster"
-      url: "https://www.hekster.org/"
-    - name: "Ben Weidig"
-      url: "https://belief-driven-design.com/"
-    - name: "Bernd Verst"
-      url: "https://bernd.dev/"
-    - name: "Brandur"
-      url: "https://brandur.org"
-    - name: "Brendan Lentz"
-      url: "https://www.brendanlentz.com/"
-    - name: "Brent Deverman"
-      url: "https://www.deverman.org/"
-    - name: "Brett Cannon"
-      url: "https://snarky.ca/"
-    - name: "Brian Hicks"
-      url: "https://bytes.zone"
-    - name: "Brian Mayer"
-      url: "https://blog.terminal.pink"
-    - name: "Brian Peek"
-      url: "https://brianpeek.com/"
-    - name: "Brittany Cheng"
-      url: "http://brittanycheng.com/"
-    - name: "Bryan Lee"
-      url: "https://www.bryanleetc.com/"
-    - name: "Bryce Kerley"
-      url: "https://blog.brycekerley.net/"
-    - name: "Bunnie"
-      url: "https://www.bunniestudios.com/"
-    - name: "Cahya Wibawa"
-      url: "https://cahyawibawa.com"
-    - name: "Caleb Jay Rogers"
-      url: "https://calebjay.com/"
-    - name: "Casey Primozic"
-      url: "https://cprimozic.net/"
-    - name: "Catalin Pit"
-      url: "https://catalins.tech"
-    - name: "Celestine Yeh"
-      url: "https://www.celestineyeh.com/"
-    - name: "Charlie Kindel"
-      url: "https://ceklog.kindel.com/"
-    - name: "Charmaine Lee"
-      url: "https://www.charmaineklee.com/"
-    - name: "Chloe Chia"
-      url: "https://chloechia.com/"
-    - name: "Christian Fei"
-      url: "https://cri.dev/"
-    - name: "Christina Warren"
-      url: "http://christina.is/"
-    - name: "Clément Sauvage"
-      url: "https://www.clemsau.com/"
-    - name: "Damien Guard"
-      url: "https://damieng.com"
-    - name: "Dan Slimmon"
-      url: "https://blog.danslimmon.com/"
-    - name: "Daniël de Kok"
-      url: "https://danieldk.eu/"
-    - name: "Daniel Grzelak"
-      url: "https://dagrz.com"
-    - name: "Darek Kay"
-      url: "https://darekkay.com/"
-    - name: "David Anson"
-      url: "https://dlaa.me/"
-    - name: "David Singleton"
-      url: "https://blog.singleton.io/"
-    - name: "Deborah Zhang"
-      url: "http://deborahzhang.com/"
-    - name: "Declan Chidlow"
-      url: "https://vale.rocks"
-    - name: "Dhrumil Patel"
-      url: "https://dhrumil.ca"
-    - name: "Didier Catz"
-      url: "https://didiercatz.com"
-    - name: "Doan Tran Minh Thanh"
-      url: "https://doantranminhthanh.com"
-    - name: "Duncan Mackenzie"
-      url: "https://www.duncanmackenzie.net/"
-    - name: "Dylan Fisher"
-      url: "https://www.dylanfisher.com"
-    - name: "Ed Freitas"
-      url: "https://www.edfreitas.me/"
-    - name: "Elias Hernandis"
-      url: "https://hernandis.me/"
-    - name: "Elmar Klausmeier"
-      url: "https://eklausmeier.goip.de"
-    - name: "Ephraim Duncan"
-      url: "https://duncan.land"
-    - name: "Erlend Sogge Heggen"
-      url: "https://blog.erlend.sh/"
-    - name: "Flavio Copes"
-      url: "https://flaviocopes.com"
-    - name: "Frederick Vanbrabant"
-      url: "https://frederickvanbrabant.com/"
-    - name: "Gabe Wolford"
-      url: "https://gabewolford.com"
-    - name: "Guillaume Lethuillier"
-      url: "https://glthr.com/"
-    - name: "Hamish Campbell"
-      url: "https://hamishcampbell.com"
-    - name: "Horace Guy"
-      url: "https://blog.horaceg.xyz/"
-    - name: "Hynek Schlawack"
-      url: "https://hynek.me/"
-    - name: "Igor Kulman"
-      url: "https://blog.kulman.sk"
-    - name: "Imran Khan"
-      url: "https://imran-khan.com"
-    - name: "İren Saltalı"
-      url: "https://irensaltali.com/"
-    - name: "Ivan Milosavljevic"
-      url: "https://thejavaguy.org/"
-    - name: "J. B. Crawford"
-      url: "https://jbcrawford.us/"
-    - name: "Jacques Corby-Tuech"
-      url: "https://www.jacquescorbytuech.com/"
-    - name: "Jeff Atwood"
-      url: "https://blog.codinghorror.com/"
-    - name: "Jeff Geerling"
-      url: "https://www.jeffgeerling.com"
-    - name: "Jeff Sandquist"
-      url: "https://www.jeffsandquist.com/"
-    - name: "Jeff Wilcox"
-      url: "https://jeffwilcox.blog/"
-    - name: "Jeremy Danyow"
-      url: "https://danyow.net/"
-    - name: "Jerred Shepherd"
-      url: "https://sjer.red/"
-    - name: "Jessie Frazelle"
-      url: "https://jess.dev/"
-    - name: "Joe Thor"
-      url: "https://joethor.dev"
-    - name: "John Gruber"
-      url: "https://daringfireball.net"
-    - name: "John Papa"
-      url: "https://johnpapa.net/"
-    - name: "Jonathan Rico"
-      url: "https://jonathan.rico.live/"
-    - name: "Julio Merino"
-      url: "https://jmmv.dev/"
-    - name: "Karn Wong"
-      url: "https://karnwong.me/"
-    - name: "Kart"
-      url: "http://blog.vashishtha.in/"
-    - name: "Kartik Agaram"
-      url: "https://akkartik.name"
-    - name: "Keith Cirkel"
-      url: "https://www.keithcirkel.co.uk/"
-    - name: "Ken Shirriff"
-      url: "https://www.righto.com/"
-    - name: "Kenan Yusuf"
-      url: "https://kyusuf.com"
-    - name: "Kilroy Jones"
-      url: "https://www.thespatula.io/"
-    - name: "Kory Becker"
-      url: "https://www.primaryobjects.com"
-    - name: "Larry O&#39;Brien"
-      url: "https://knowing.net"
-    - name: "Laurent Bugnion"
-      url: "https://galasoft.ch"
-    - name: "Lesley Lai"
-      url: "https://lesleylai.info/"
-    - name: "Luis Quintanilla"
-      url: "https://www.lqdev.me/"
-    - name: "Luke Salamone"
-      url: "https://blog.lukesalamone.com/"
-    - name: "Mahmud Ridwan"
-      url: "https://hjr265.me/"
-    - name: "Manpreet Kunnath"
-      url: "https://manpreet.fyi/"
-    - name: "Marek Gibney"
-      url: "https://www.gibney.org/"
-    - name: "Mariusz Szubryt"
-      url: "https://szubryt.net"
-    - name: "Max Bernstein"
-      url: "https://bernsteinbear.com"
-    - name: "Mayuko Inoue"
-      url: "https://www.hellomayuko.com/"
-    - name: "Mayur Bhoi"
-      url: "https://www.mayurbhoi.com"
-    - name: "Meg Risdal"
-      url: "https://meg.dev/"
-    - name: "Melvyn Laïly"
-      url: "https://zerowidthjoiner.net/"
-    - name: "Mijndert Stuij"
-      url: "https://mijndertstuij.nl"
-    - name: "Mikael Sargsyan"
-      url: "https://www.mishomike.dev"
-    - name: "Mike Kasberg"
-      url: "https://www.mikekasberg.com/"
-    - name: "Morten Nielsen"
-      url: "https://xaml.dev/"
-    - name: "Muhammad Raza"
-      url: "https://muhammadraza.me/"
-    - name: "Nelson Figueroa"
-      url: "https://nelson.cloud/"
-    - name: "Nicolas Bouliane"
-      url: "https://nicolasbouliane.com/"
-    - name: "Nicole Tietz"
-      url: "https://ntietz.com/"
-    - name: "Nicolò Gnudi"
-      url: "https://nickgnd.com/"
-    - name: "Niels Swimberghe"
-      url: "https://swimburger.net/"
-    - name: "Nikhil (Unsung Novelty)"
-      url: "https://www.unsungnovelty.org/"
-    - name: "Niklas Johannknecht"
-      url: "https://niklasjohannknecht.com"
-    - name: "Nikolay Ninarski"
-      url: "https://ninio.ninarski.com/"
-    - name: "Orville McDonald"
-      url: "https://orvillemcdonald.com/"
-    - name: "Outlore"
-      url: "https://outlore.dev/"
-    - name: "Paul Irish"
-      url: "https://www.paulirish.com/"
-    - name: "Paul Singh"
-      url: "https://somethingdecent.co.uk/"
-    - name: "Paul Stamatiou"
-      url: "https://paulstamatiou.com/"
-    - name: "Paul Tötterman"
-      url: "https://paul.totterman.name"
-    - name: "Peter Mekhaeil"
-      url: "https://www.petermekhaeil.com"
-    - name: "Philipp Cannons"
-      url: "https://philippcannons.com"
-    - name: "Rafał Pastuszak"
-      url: "https://untested.sonnet.io"
-    - name: "Ralf Jung"
-      url: "https://www.ralfj.de/"
-    - name: "Raphael Gaschignard"
-      url: "https://rtpg.co/"
-    - name: "Raphaël Rigo"
-      url: "https://syscall.eu/"
-    - name: "Redowan Delowar"
-      url: "https://rednafi.com/"
-    - name: "ReproDev"
-      url: "https://reprodev.com/"
-    - name: "Robert Heaton"
-      url: "https://robertheaton.com"
-    - name: "Rohan Kumar"
-      url: "https://seirdy.one/"
-    - name: "Rupert Carr"
-      url: "https://pert.dev"
-    - name: "Ryan Bagley"
-      url: "https://rb.ax/"
-    - name: "Ryan Lynch"
-      url: "https://ryanlynch.me"
-    - name: "Salman Ansari"
-      url: "https://salman.io/"
-    - name: "SaltyCrane"
-      url: "https://www.saltycrane.com/"
-    - name: "Sasha Kotlyar"
-      url: "https://trycatch.dev/"
-    - name: "Sasha Rosenbaum"
-      url: "https://www.sasharosenbaum.com/"
-    - name: "Scott Hanselman"
-      url: "https://www.hanselman.com/"
-    - name: "Sebastien Castiel"
-      url: "https://scastiel.dev"
-    - name: "Sébastien Dubois"
-      url: "https://www.dsebastien.net/"
-    - name: "Shaishav Kr"
-      url: "https://blog.shaishav.kr/"
-    - name: "Shariq Raza Qadri"
-      url: "https://cosmicqbit.dev"
-    - name: "Siraj Chokshi"
-      url: "https://sirajchokshi.com"
-    - name: "Stanko Tadic"
-      url: "https://muffinman.io/"
-    - name: "Steph Ango"
-      url: "https://stephango.com/"
-    - name: "Theia Vogel"
-      url: "https://vgel.me/"
-    - name: "Thejesh GN"
-      url: "https://thejeshgn.com"
-    - name: "Tim Cappalli"
-      url: "https://blog.timcappalli.me"
-    - name: "Tom Kennes"
-      url: "https://tomkennes.com"
-    - name: "Tsugu"
-      url: "https://tsugu.xyz"
-    - name: "Venn Stone"
-      url: "https://interfacinglinux.com/"
-    - name: "Victor Björklund"
-      url: "https://victorbjorklund.com/"
-    - name: "Vitalii Kovalenko"
-      url: "https://vk7.eu/"
-    - name: "Vito Chin"
-      url: "https://vitochin.com"
-    - name: "Vlad Iliescu"
-      url: "https://vladiliescu.net"
-    - name: "Vladimir Haltakov"
-      url: "https://haltakov.net/"
-    - name: "Vladimir Sivcevic"
-      url: "https://www.vladsiv.com/"
-    - name: "Yusuf Mohammad"
-      url: "https://ym2132.github.io"
-    - name: "Yusuke Tsutsumi"
-      url: "https://y.tsutsumi.io/"
-    - name: "Zachary Kanfer"
-      url: "https://zck.org/"
-    - name: "Zoe Chew"
-      url: "https://whizzoe.com/"
+    - name: Den Delimarsky
+      url: https://den.dev
+    - name: Adarsh DK
+      url: https://www.adarshdk.com
+    - name: Alessandro Mingione
+      url: https://www.ale.fyi/
+    - name: Alex Baldwin
+      url: https://www.alexbaldwin.com
+    - name: Allison Grayce Marshall
+      url: https://www.allisongrayce.com/
+    - name: Ánh Nguyễn
+      url: https://www.anh.ng
+    - name: Ariel Norling
+      url: http://arielnorling.com/
+    - name: Arjun
+      url: https://arjunmakesthings.github.io/
+    - name: Arjun Mahanti
+      url: https://mahanti.co
+    - name: Barbara Schussmann
+      url: https://barbaraschussmann.de
+    - name: Billy Tseng
+      url: https://www.billytseng.com
+    - name: Brad Cerasani
+      url: https://bradcerasani.me
+    - name: Caner Aras
+      url: https://www.caneraras.com
+    - name: Carl Barenbrug
+      url: https://carlbarenbrug.com/
+    - name: Charlie Deets
+      url: https://charliedeets.com
+    - name: Christopher Butler
+      url: https://www.chrbutler.com
+    - name: Craig Hooper
+      url: https://craighooper.xyz/
+    - name: Danilo Tanic
+      url: https://danilotanic.com
+    - name: David Newcomb
+      url: https://arbourtrary.com/
+    - name: David Schmudde
+      url: https://schmud.de
+    - name: Diego Alarcon
+      url: https://www.diegoar.space
+    - name: Dlay
+      url: https://dlay.eu
+    - name: Dylan James
+      url: https://www.dylan-james.co
+    - name: Edgar López
+      url: https://edgarlr.com
+    - name: Edin Abazi
+      url: https://www.edinabazi.com
+    - name: Eric Bailey
+      url: https://ericwbailey.website/
+    - name: Fabian Hemmert
+      url: http://www.fabianhemmert.com
+    - name: Femke van Schoonhoven
+      url: https://www.femke.design/
+    - name: Glauber
+      url: https://glauber.xyz
+    - name: Glenn Hitchcock
+      url: https://glenn.me/
+    - name: Gonzalo García Paz
+      url: https://www.gonzija.com
+    - name: Grant Purtle
+      url: https://grantpurtle.com
+    - name: Guilherme Simoes
+      url: https://guilhermesimoes.com/
+    - name: Jason Jun
+      url: https://www.jasonjun.dev
+    - name: Joesak Josefianoes
+      url: https://www.joesakjf.com
+    - name: John Reynolds
+      url: https://reynoldsj.co
+    - name: Jorge Arango
+      url: https://jarango.com/
+    - name: Josh Miller
+      url: http://jshmllr.com
+    - name: Julie Chabin
+      url: https://www.julie.design/
+    - name: Kelin Carolyn Zhang
+      url: https://www.carolynzhang.com
+    - name: Kevin Dukkon
+      url: https://www.kevdu.co
+    - name: Kurtis Beavers
+      url: http://www.kurtisbeavers.com/
+    - name: Lucas de França
+      url: https://www.luxonauta.com
+    - name: Luke Mitchell
+      url: https://interroban.gg
+    - name: Marc Astbury
+      url: https://marcastbury.com
+    - name: Marcelo Kunze
+      url: https://www.marcelokunze.com
+    - name: Matt Webb
+      url: https://interconnected.org
+    - name: Moritz Kindler
+      url: https://moritzkindler.com
+    - name: Naz Hamid
+      url: https://nazhamid.com
+    - name: Niklas Rosén
+      url: https://www.niklasrosen.se
+    - name: Nikolas Klein
+      url: http://nikolasklein.de
+    - name: Noah Buscher
+      url: https://noahbuscher.com
+    - name: Pierre Nel
+      url: https://pierre.io
+    - name: Pirijan
+      url: https://pketh.org
+    - name: PJ Onori
+      url: https://pjonori.blog/
+    - name: Pranathi Peri
+      url: https://pranathiperi.com
+    - name: Rachel Weil
+      url: http://www.nobadmemories.com/
+    - name: Ramsés Cabello
+      url: https://ramses.work
+    - name: Sam Solomon
+      url: https://solomon.io/
+    - name: Sara Clayton
+      url: https://www.saraclayton.com/
+    - name: Shawn Farsai
+      url: https://www.shawnfarsai.com/
+    - name: Simon Austerberry
+      url: https://www.simonausterberry.co.uk
+    - name: Stephanie Stimac
+      url: https://stephaniestimac.com/
+    - name: Stuart Regan
+      url: https://stuart.re
+    - name: Ted Goas
+      url: https://www.tedgoas.com
+    - name: Thao N.
+      url: https://thaonf.com
+    - name: Thomas Rico
+      url: https://www.thomasri.co
+    - name: Thu Le
+      url: https://thu-le.com
+    - name: Toni Lijic
+      url: https://www.toni.li
+    - name: Trang Bui
+      url: https://trangbui.me/
+    - name: Patrick McKenzie
+      url: https://www.bitsaboutmoney.com/
+    - name: ~hedy
+      url: https://home.hedy.dev/
+    - name: Aadhavan Srinivasan
+      url: https://twomorecents.org/
+    - name: Aaron Leonard
+      url: https://risingthumb.xyz/
+    - name: Abishek Muthian
+      url: https://abishekmuthian.com/
+    - name: Alex Murashko
+      url: https://alxmurashko.com
+    - name: Alex Schemagin
+      url: https://www.alexschemagin.com
+    - name: Alex Weichart
+      url: https://alexanderweichart.de/
+    - name: Alexey Staroselets
+      url: https://www.alexeystar.com/
+    - name: Andreas Gohr
+      url: https://www.splitbrain.org
+    - name: andrés ignacio torres
+      url: https://aitorres.com
+    - name: Andrew K. Dinh
+      url: https://andrewkdinh.com
+    - name: Andrey Ozornin
+      url: https://ozorn.in/
+    - name: Asmir
+      url: https://www.hiasmir.com
+    - name: Asterisk
+      url: https://asterisk.lol
+    - name: Ben Kuhn
+      url: https://www.benkuhn.net
+    - name: Benedict Neo
+      url: https://www.bneo.xyz/
+    - name: Benji Taylor
+      url: https://benji.org
+    - name: bewildered
+      url: https://bewilde.red/
+    - name: Book of Joe
+      url: https://www.bookofjoe.com
+    - name: Boris Kourtoukov
+      url: https://boris.kourtoukov.com
+    - name: Brajeshwar Oinam
+      url: https://brajeshwar.com/
+    - name: Bret Comnes
+      url: https://bret.io/
+    - name: Brian Devries
+      url: https://brianjdevries.com/
+    - name: Bryan Hogan
+      url: https://bryanhogan.com/
+    - name: Cassidy Williams
+      url: https://cassidoo.co
+    - name: Chris
+      url: https://entropicthoughts.com
+    - name: Christina Chen
+      url: https://christinalj.com/
+    - name: Christopher (Namchee)
+      url: https://www.namchee.dev
+    - name: Clinton Boys
+      url: https://www.mtsolitary.com/
+    - name: D. Bohdan
+      url: https://dbohdan.com/
+    - name: Dalton Rowe
+      url: https://daltonrowe.com/
+    - name: Darya Solomenko
+      url: https://www.solomenko.com
+    - name: Daryl Sun&#39;s Journal
+      url: https://blog.darylsun.page/
+    - name: Dave Stucky
+      url: https://stucky.tech/
+    - name: Derek Sivers
+      url: https://sive.rs
+    - name: dlmw blog
+      url: https://blog.dlmw.ch/
+    - name: Dominik Weber
+      url: https://weberdominik.com/
+    - name: Eric Thomas
+      url: https://ericthomas.ca
+    - name: Evan Pratten
+      url: https://ewpratten.com
+    - name: Everythings Better With Brentter
+      url: https://brentter.com
+    - name: Felix Almer
+      url: https://almer.dev/
+    - name: Gavin Anderegg
+      url: https://anderegg.ca
+    - name: Gregor Podjed
+      url: https://blog.gregtech.eu/
+    - name: Guillermo Esteves
+      url: https://www.giventotri.com/
+    - name: Gwern Branwen
+      url: https://gwern.net
+    - name: Gyan Anjay
+      url: https://bepbop.github.io
+    - name: Han Kruiger
+      url: https://www.hankruiger.com
+    - name: Harrison Broadbent
+      url: https://harrisonbroadbent.com
+    - name: Harsha K N
+      url: https://www.harshkn.com
+    - name: Hashin Jithu
+      url: https://blog.hashin.me/
+    - name: Hayo Bethlehem
+      url: https://hayobethlehem.nl
+    - name: Henrique Godoy
+      url: https://henriquegodoy.com/
+    - name: Ike Saunders
+      url: https://ikesau.co/
+    - name: Izzy Muerte
+      url: https://izzys.casa/
+    - name: J. Carlos Roldán
+      url: https://jcarlosroldan.com
+    - name: Jacob Filipp
+      url: https://jacobfilipp.com
+    - name: Jahir Fiquitiva
+      url: https://jahir.dev
+    - name: Jake Reich
+      url: https://www.jake-reich.co.uk/
+    - name: James
+      url: https://jamesg.blog
+    - name: Jamie Thingelstad
+      url: https://www.thingelstad.com/
+    - name: Jatin Nagpal
+      url: https://blog.jatinnagpal.com/
+    - name: joe jenett
+      url: https://simply.joejenett.com/
+    - name: John YS
+      url: https://blog.johnys.io
+    - name: Johnny Webber
+      url: https://johnnywebber.com
+    - name: Jon Ericson
+      url: https://jlericson.com
+    - name: Jordan Gonen
+      url: https://www.jordangonen.com
+    - name: JourneyToLunar
+      url: https://journeytolunar.com
+    - name: Just Another Internet Guy
+      url: https://justanotherinternetguy.github.io/
+    - name: Justus Perlwitz
+      url: https://www.justus.pw/
+    - name: Kemal
+      url: https://kemal.earth
+    - name: Kenneth Reitz
+      url: https://kennethreitz.org
+    - name: Kim Burgess
+      url: https://simple.industries/
+    - name: Lev Goncharov
+      url: https://www.goncharov.xyz/
+    - name: Lloyd Atkinson
+      url: https://www.lloydatkinson.net/
+    - name: Lu Wilson
+      url: https://www.todepond.com
+    - name: Mangesh
+      url: https://mangeshm.xyz/
+    - name: Marc Littlemore
+      url: https://marclittlemore.com
+    - name: Martin Irwin
+      url: http://martin-irwin.github.io/
+    - name: Martin Rue
+      url: https://martinrue.com
+    - name: Mathias Müller
+      url: https://mmathias.com/
+    - name: Matt Sephton
+      url: https://blog.gingerbeardman.com
+    - name: Max Bo
+      url: https://maxbo.me/
+    - name: Max Stoiber
+      url: https://mxstbr.com
+    - name: Max Weylandt
+      url: https://www.maxweylandt.com/
+    - name: Michael Kupietz
+      url: https://michaelkupietz.com/
+    - name: Mihir Naik
+      url: https://www.mihirnaik.com
+    - name: Mike Morris
+      url: https://one.mikro2nd.net/
+    - name: Monica Cellio
+      url: https://cellio.org/
+    - name: Mukesh Gupta
+      url: https://rmukeshgupta.com/
+    - name: Nathan Upchurch
+      url: https://nathanupchurch.com/
+    - name: Niels Gouman
+      url: https://nizzlay.com/
+    - name: Nikhil Vishnu
+      url: https://nikhilvishnu.com/
+    - name: Niklas Pivic
+      url: https://garden.pivic.com/
+    - name: Norman Koehring
+      url: https://koehr.ing
+    - name: Óscar Fernández
+      url: https://osc.garden/
+    - name: Paras Chopra
+      url: https://invertedpassion.com/
+    - name: Parth Patel
+      url: https://parth.ski
+    - name: Paul Cobbaut
+      url: https://cobbaut.be/
+    - name: Paul Lutus
+      url: https://arachnoid.com
+    - name: Pavel Kovar
+      url: https://pkworld.xyz/
+    - name: Pekka Laiho
+      url: https://laihoconsulting.com/
+    - name: Pete Ader
+      url: https://petesprojects.net/
+    - name: Pranit Bauva
+      url: https://bauva.com
+    - name: Rach Smith
+      url: https://rachsmith.com
+    - name: Raphael Pour
+      url: https://evilcookie.de/
+    - name: Raphael Salaja
+      url: https://www.raphaelsalaja.com
+    - name: Rico Trebeljahr
+      url: https://ricos.site
+    - name: Rinas
+      url: https://onerinas.com
+    - name: Rishikesh Sreehari
+      url: https://rishikeshs.com/
+    - name: Rob Kohr
+      url: https://robkohr.com/
+    - name: Robert Kingett
+      url: https://robertkingett.com/
+    - name: Ronalds Vilciņš
+      url: https://ronaldsvilcins.com/
+    - name: Roshan Shibu
+      url: https://www.roshanshibu.com/
+    - name: Rosia Evans
+      url: https://rosia.me
+    - name: Ruban SK
+      url: https://www.skruban.com/
+    - name: Scattershot
+      url: https://scattershot.blog/
+    - name: Shreyas Prakash
+      url: https://www.shreyasprakash.com
+    - name: Shyam Jos
+      url: https://shyamjos.com/
+    - name: Simon Vreeman
+      url: https://vreeman.com
+    - name: Simone
+      url: https://simone.computer
+    - name: sixey.es
+      url: https://sixey.es/
+    - name: Sofian Bettayeb
+      url: https://sofianbettayeb.com
+    - name: Spencer Scorcelletti
+      url: https://spenc.es/
+    - name: Stefan Imhoff
+      url: https://www.stefanimhoff.de
+    - name: Steven Scrawls
+      url: https://stevenscrawls.com
+    - name: Taylor Troesh
+      url: https://taylor.town
+    - name: Thomas Paulin
+      url: https://thomaspaulin.me/
+    - name: Tiago Rangel
+      url: https://tiagorangel.com
+    - name: Tim Romero
+      url: https://www.disruptingjapan.com
+    - name: Tom
+      url: https://ttntm.me/
+    - name: Tracy Durnell
+      url: https://tracydurnell.com
+    - name: Tyler Knows Nothing
+      url: https://tylerknowsnothing.com
+    - name: Udara Jay
+      url: https://udara.io
+    - name: Vedran Miletić
+      url: https://vedran.miletic.net/
+    - name: Victor Stanciu
+      url: https://tegowerk.eu/
+    - name: wargaluk
+      url: https://wargaluk.com/
+    - name: Will
+      url: https://ides.dev/
+    - name: William Hleucka
+      url: https://williamhleucka.com
+    - name: Winnie Lim
+      url: https://winnielim.org
+    - name: Winston Cooke
+      url: https://www.winstoncooke.com/
+    - name: Witte Grond
+      url: https://www.wittegrond.net/
+    - name: Yuval Adam
+      url: https://yuv.al
+    - name: Zygimantas Berziunas
+      url: https://zygimantas.com/
+    - name: Bill (ChillBillDill)
+      url: https://www.chillbilldill.com/
+    - name: Kaitlin McKinnon
+      url: https://www.kaitlinmckinnon.com
+    - name: Spaqin
+      url: https://spaq.in/
+    - name: Aayush Sahu
+      url: https://aayushsahu.com/
+    - name: Abhishek Banthia
+      url: https://abhishekbanthia.com/
+    - name: Alberto Llamas
+      url: https://www.deeplifelearning.com/
+    - name: Albin Groen
+      url: https://abgn.me
+    - name: Alex Tiniuc
+      url: https://tiniuc.com/
+    - name: Alexander Ameye
+      url: https://ameye.dev/
+    - name: Alexander Isora
+      url: https://isora.me/
+    - name: Alexander Zarebski
+      url: https://aezarebski.github.io
+    - name: Alok Menghrajani
+      url: https://www.quaxio.com/
+    - name: Amit Merchant
+      url: https://amitmerchant.com
+    - name: Amos
+      url: https://fasterthanli.me
+    - name: Andreas Jaggi
+      url: https://blog.x-way.org/
+    - name: Andrei Ciobanu
+      url: https://www.andreinc.net/
+    - name: Andrew Walpole
+      url: https://andrewwalpole.com/
+    - name: Andy Terrel
+      url: https://andy.terrel.us
+    - name: Aneesh Sathe
+      url: https://aneeshsathe.com
+    - name: Ash Connolly
+      url: https://ashconnolly.com
+    - name: Ash Smith
+      url: https://www.drashsmith.com/
+    - name: Ashish Bhatia
+      url: https://ashishb.net/
+    - name: Autodidacts
+      url: https://www.autodidacts.io/
+    - name: Aycan Gulez
+      url: https://lackofimagination.org/
+    - name: Ben Congdon
+      url: https://benjamincongdon.me
+    - name: Ben Hekster
+      url: https://www.hekster.org/
+    - name: Ben Weidig
+      url: https://belief-driven-design.com/
+    - name: Bernd Verst
+      url: https://bernd.dev/
+    - name: Brandur
+      url: https://brandur.org
+    - name: Brendan Lentz
+      url: https://www.brendanlentz.com/
+    - name: Brent Deverman
+      url: https://www.deverman.org/
+    - name: Brett Cannon
+      url: https://snarky.ca/
+    - name: Brian Hicks
+      url: https://bytes.zone
+    - name: Brian Mayer
+      url: https://blog.terminal.pink
+    - name: Brian Peek
+      url: https://brianpeek.com/
+    - name: Brittany Cheng
+      url: http://brittanycheng.com/
+    - name: Bryan Lee
+      url: https://www.bryanleetc.com/
+    - name: Bryce Kerley
+      url: https://blog.brycekerley.net/
+    - name: Bunnie
+      url: https://www.bunniestudios.com/
+    - name: Cahya Wibawa
+      url: https://cahyawibawa.com
+    - name: Caleb Jay Rogers
+      url: https://calebjay.com/
+    - name: Casey Primozic
+      url: https://cprimozic.net/
+    - name: Catalin Pit
+      url: https://catalins.tech
+    - name: Celestine Yeh
+      url: https://www.celestineyeh.com/
+    - name: Charlie Kindel
+      url: https://ceklog.kindel.com/
+    - name: Charmaine Lee
+      url: https://www.charmaineklee.com/
+    - name: Chloe Chia
+      url: https://chloechia.com/
+    - name: Christian Fei
+      url: https://cri.dev/
+    - name: Christina Warren
+      url: http://christina.is/
+    - name: Clément Sauvage
+      url: https://www.clemsau.com/
+    - name: Damien Guard
+      url: https://damieng.com
+    - name: Dan Slimmon
+      url: https://blog.danslimmon.com/
+    - name: Daniël de Kok
+      url: https://danieldk.eu/
+    - name: Daniel Grzelak
+      url: https://dagrz.com
+    - name: Darek Kay
+      url: https://darekkay.com/
+    - name: David Anson
+      url: https://dlaa.me/
+    - name: David Singleton
+      url: https://blog.singleton.io/
+    - name: Deborah Zhang
+      url: http://deborahzhang.com/
+    - name: Declan Chidlow
+      url: https://vale.rocks
+    - name: Dhrumil Patel
+      url: https://dhrumil.ca
+    - name: Didier Catz
+      url: https://didiercatz.com
+    - name: Doan Tran Minh Thanh
+      url: https://doantranminhthanh.com
+    - name: Duncan Mackenzie
+      url: https://www.duncanmackenzie.net/
+    - name: Dylan Fisher
+      url: https://www.dylanfisher.com
+    - name: Ed Freitas
+      url: https://www.edfreitas.me/
+    - name: Elias Hernandis
+      url: https://hernandis.me/
+    - name: Elmar Klausmeier
+      url: https://eklausmeier.goip.de
+    - name: Ephraim Duncan
+      url: https://duncan.land
+    - name: Erlend Sogge Heggen
+      url: https://blog.erlend.sh/
+    - name: Flavio Copes
+      url: https://flaviocopes.com
+    - name: Frederick Vanbrabant
+      url: https://frederickvanbrabant.com/
+    - name: Gabe Wolford
+      url: https://gabewolford.com
+    - name: Guillaume Lethuillier
+      url: https://glthr.com/
+    - name: Hamish Campbell
+      url: https://hamishcampbell.com
+    - name: Horace Guy
+      url: https://blog.horaceg.xyz/
+    - name: Hynek Schlawack
+      url: https://hynek.me/
+    - name: Igor Kulman
+      url: https://blog.kulman.sk
+    - name: Imran Khan
+      url: https://imran-khan.com
+    - name: İren Saltalı
+      url: https://irensaltali.com/
+    - name: Ivan Milosavljevic
+      url: https://thejavaguy.org/
+    - name: J. B. Crawford
+      url: https://jbcrawford.us/
+    - name: Jacques Corby-Tuech
+      url: https://www.jacquescorbytuech.com/
+    - name: Jeff Atwood
+      url: https://blog.codinghorror.com/
+    - name: Jeff Geerling
+      url: https://www.jeffgeerling.com
+    - name: Jeff Sandquist
+      url: https://www.jeffsandquist.com/
+    - name: Jeff Wilcox
+      url: https://jeffwilcox.blog/
+    - name: Jeremy Danyow
+      url: https://danyow.net/
+    - name: Jerred Shepherd
+      url: https://sjer.red/
+    - name: Jessie Frazelle
+      url: https://jess.dev/
+    - name: Joe Thor
+      url: https://joethor.dev
+    - name: John Gruber
+      url: https://daringfireball.net
+    - name: John Papa
+      url: https://johnpapa.net/
+    - name: Jonathan Rico
+      url: https://jonathan.rico.live/
+    - name: Julio Merino
+      url: https://jmmv.dev/
+    - name: Karn Wong
+      url: https://karnwong.me/
+    - name: Kart
+      url: http://blog.vashishtha.in/
+    - name: Kartik Agaram
+      url: https://akkartik.name
+    - name: Keith Cirkel
+      url: https://www.keithcirkel.co.uk/
+    - name: Ken Shirriff
+      url: https://www.righto.com/
+    - name: Kenan Yusuf
+      url: https://kyusuf.com
+    - name: Kilroy Jones
+      url: https://www.thespatula.io/
+    - name: Kory Becker
+      url: https://www.primaryobjects.com
+    - name: Larry O&#39;Brien
+      url: https://knowing.net
+    - name: Laurent Bugnion
+      url: https://galasoft.ch
+    - name: Lesley Lai
+      url: https://lesleylai.info/
+    - name: Luis Quintanilla
+      url: https://www.lqdev.me/
+    - name: Luke Salamone
+      url: https://blog.lukesalamone.com/
+    - name: Mahmud Ridwan
+      url: https://hjr265.me/
+    - name: Manpreet Kunnath
+      url: https://manpreet.fyi/
+    - name: Marek Gibney
+      url: https://www.gibney.org/
+    - name: Mariusz Szubryt
+      url: https://szubryt.net
+    - name: Max Bernstein
+      url: https://bernsteinbear.com
+    - name: Mayuko Inoue
+      url: https://www.hellomayuko.com/
+    - name: Mayur Bhoi
+      url: https://www.mayurbhoi.com
+    - name: Meg Risdal
+      url: https://meg.dev/
+    - name: Melvyn Laïly
+      url: https://zerowidthjoiner.net/
+    - name: Mijndert Stuij
+      url: https://mijndertstuij.nl
+    - name: Mikael Sargsyan
+      url: https://www.mishomike.dev
+    - name: Mike Kasberg
+      url: https://www.mikekasberg.com/
+    - name: Morten Nielsen
+      url: https://xaml.dev/
+    - name: Muhammad Raza
+      url: https://muhammadraza.me/
+    - name: Nelson Figueroa
+      url: https://nelson.cloud/
+    - name: Nicolas Bouliane
+      url: https://nicolasbouliane.com/
+    - name: Nicole Tietz
+      url: https://ntietz.com/
+    - name: Nicolò Gnudi
+      url: https://nickgnd.com/
+    - name: Niels Swimberghe
+      url: https://swimburger.net/
+    - name: Nikhil (Unsung Novelty)
+      url: https://www.unsungnovelty.org/
+    - name: Niklas Johannknecht
+      url: https://niklasjohannknecht.com
+    - name: Nikolay Ninarski
+      url: https://ninio.ninarski.com/
+    - name: Orville McDonald
+      url: https://orvillemcdonald.com/
+    - name: Outlore
+      url: https://outlore.dev/
+    - name: Paul Irish
+      url: https://www.paulirish.com/
+    - name: Paul Singh
+      url: https://somethingdecent.co.uk/
+    - name: Paul Stamatiou
+      url: https://paulstamatiou.com/
+    - name: Paul Tötterman
+      url: https://paul.totterman.name
+    - name: Peter Mekhaeil
+      url: https://www.petermekhaeil.com
+    - name: Philipp Cannons
+      url: https://philippcannons.com
+    - name: Rafał Pastuszak
+      url: https://untested.sonnet.io
+    - name: Ralf Jung
+      url: https://www.ralfj.de/
+    - name: Raphael Gaschignard
+      url: https://rtpg.co/
+    - name: Raphaël Rigo
+      url: https://syscall.eu/
+    - name: Redowan Delowar
+      url: https://rednafi.com/
+    - name: ReproDev
+      url: https://reprodev.com/
+    - name: Robert Heaton
+      url: https://robertheaton.com
+    - name: Rohan Kumar
+      url: https://seirdy.one/
+    - name: Rupert Carr
+      url: https://pert.dev
+    - name: Ryan Bagley
+      url: https://rb.ax/
+    - name: Ryan Lynch
+      url: https://ryanlynch.me
+    - name: Salman Ansari
+      url: https://salman.io/
+    - name: SaltyCrane
+      url: https://www.saltycrane.com/
+    - name: Sasha Kotlyar
+      url: https://trycatch.dev/
+    - name: Sasha Rosenbaum
+      url: https://www.sasharosenbaum.com/
+    - name: Scott Hanselman
+      url: https://www.hanselman.com/
+    - name: Sebastien Castiel
+      url: https://scastiel.dev
+    - name: Sébastien Dubois
+      url: https://www.dsebastien.net/
+    - name: Shaishav Kr
+      url: https://blog.shaishav.kr/
+    - name: Shariq Raza Qadri
+      url: https://cosmicqbit.dev
+    - name: Siraj Chokshi
+      url: https://sirajchokshi.com
+    - name: Stanko Tadic
+      url: https://muffinman.io/
+    - name: Steph Ango
+      url: https://stephango.com/
+    - name: Theia Vogel
+      url: https://vgel.me/
+    - name: Thejesh GN
+      url: https://thejeshgn.com
+    - name: Tim Cappalli
+      url: https://blog.timcappalli.me
+    - name: Tom Kennes
+      url: https://tomkennes.com
+    - name: Tsugu
+      url: https://tsugu.xyz
+    - name: Venn Stone
+      url: https://interfacinglinux.com/
+    - name: Victor Björklund
+      url: https://victorbjorklund.com/
+    - name: Vitalii Kovalenko
+      url: https://vk7.eu/
+    - name: Vito Chin
+      url: https://vitochin.com
+    - name: Vlad Iliescu
+      url: https://vladiliescu.net
+    - name: Vladimir Haltakov
+      url: https://haltakov.net/
+    - name: Vladimir Sivcevic
+      url: https://www.vladsiv.com/
+    - name: Yusuf Mohammad
+      url: https://ym2132.github.io
+    - name: Yusuke Tsutsumi
+      url: https://y.tsutsumi.io/
+    - name: Zachary Kanfer
+      url: https://zck.org/
+    - name: Zoe Chew
+      url: https://whizzoe.com/
