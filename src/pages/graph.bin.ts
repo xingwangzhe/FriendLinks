@@ -1,7 +1,7 @@
 import { loadSites } from "../utils/load-sites";
 import type { GraphNode, GraphLink, GraphCategory } from "../../types/graph";
 import { encode } from "msgpackr";
-import { printProgress, printDone, printTick } from "../utils/progress";
+import { printProgress, printDone } from "../utils/progress";
 import { simTick } from "@xingwangzhe/force-rs";
 
 function getHost(u: string): string {

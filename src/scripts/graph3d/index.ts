@@ -2,7 +2,7 @@
  * 3D 博客宇宙渲染模块（Three.js InstancedMesh）
  * 使用 Three.js 原生 InstancedMesh 替代 3d-force-graph
  */
-import Fuse from "fuse.js";
+import FlexSearch from "flexsearch";
 import * as THREE from "three";
 import { decode } from "msgpackr";
 import { PALETTE, hashToIndex, adjustHex, createTextSprite } from "./utils";
@@ -93,12 +93,15 @@ export function init3d(graphData: GraphData) {
     });
   });
 
-  // ── 4. 搜索索引 ──
-  const fuse = new Fuse(nodes, {
-    keys: ["name", "url", "id"],
-    threshold: 0.3,
-    includeScore: true,
-  });
+  // ── 4. 搜索索引（FlexSearch，37k+ 节点毫秒级响应）──
+  const searchIndex = new FlexSearch.Index({ tokenize: "forward" });
+  const searchStore = new Map<string, { id: string; name: string; url: string }>();
+  for (const n of nodes) {
+    const id = n.id;
+    const text = `${n.name || ""} ${n.url || ""} ${n.id}`;
+    searchIndex.add(id, text);
+    searchStore.set(id, { id, name: n.name || id, url: n.url || "" });
+  }
 
   // ── 5. 状态 ──
   let hoveredId: string | null = null;
@@ -349,7 +352,9 @@ export function init3d(graphData: GraphData) {
       #neighbor-panel.collapsed { width:36px; }
       #neighbor-panel.collapsed .np-body,
       #neighbor-panel.collapsed .np-node-name,
-      #neighbor-panel.collapsed .np-title { display:none; }
+      #neighbor-panel.collapsed .np-title,
+      #neighbor-panel.collapsed .np-search,
+      #neighbor-panel.collapsed .np-hint { display:none; }
       #neighbor-panel.collapsed .np-header { border-bottom:none; padding:0; }
       #neighbor-panel.collapsed .np-collapse-btn { transform:rotate(180deg); margin:4px auto; display:block; }
       #neighbor-panel.collapsed .np-close-btn { display:none; }
@@ -357,12 +362,19 @@ export function init3d(graphData: GraphData) {
       .np-title { font-size:13px; color:#aaa; flex:1; }
       .np-collapse-btn, .np-close-btn { background:none; border:none; color:#aaa; cursor:pointer; font-size:14px; padding:2px 6px; }
       .np-node-name { padding:8px 12px; font-size:14px; color:#fff; border-bottom:1px solid rgba(255,255,255,0.05); }
-      .np-body { overflow-y:auto; max-height:55vh; }
+      .np-search { padding:6px 12px; border-bottom:1px solid rgba(255,255,255,0.05); }
+      .np-search input { width:100%; box-sizing:border-box; padding:5px 8px; border:1px solid rgba(255,255,255,0.15);
+        border-radius:4px; background:rgba(255,255,255,0.08); color:#eee; font-size:12px; outline:none; }
+      .np-search input::placeholder { color:#666; }
+      .np-search input:focus { border-color:#4a9eff; }
+      .np-body { overflow-y:auto; max-height:45vh; }
       .np-item { display:flex; flex-direction:column; padding:8px 12px; cursor:pointer; border-bottom:1px solid rgba(255,255,255,0.03); }
       .np-item:hover { background:rgba(255,255,255,0.05); }
       .np-item-name { font-size:13px; color:#eee; }
       .np-item-url { font-size:11px; color:#888; margin-top:2px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
       .np-empty { padding:20px; text-align:center; color:#666; font-size:13px; }
+      .np-search-count { font-size:11px; color:#888; padding:4px 12px; text-align:right; border-bottom:1px solid rgba(255,255,255,0.03); }
+      .np-hint { font-size:10px; color:#555; padding:6px 12px; text-align:center; border-top:1px solid rgba(255,255,255,0.04); line-height:1.4; display:none; }
     `;
     document.head.appendChild(style);
   }
@@ -390,46 +402,69 @@ export function init3d(graphData: GraphData) {
     header.appendChild(closeBtn);
     const nodeName = document.createElement("div");
     nodeName.className = "np-node-name";
+    const searchWrap = document.createElement("div");
+    searchWrap.className = "np-search";
+    const searchInput = document.createElement("input");
+    searchInput.type = "text";
+    searchInput.placeholder = "搜索邻居…";
+    searchWrap.appendChild(searchInput);
+    const countInfo = document.createElement("div");
+    countInfo.className = "np-search-count";
     const body = document.createElement("div");
     body.className = "np-body";
+    const hint = document.createElement("div");
+    hint.className = "np-hint";
+    hint.textContent = "邻居过多时3D场景仅随机显示部分节点标签，全部节点均可在本面板搜索";
     panel.appendChild(header);
     panel.appendChild(nodeName);
+    panel.appendChild(searchWrap);
+    panel.appendChild(countInfo);
     panel.appendChild(body);
+    panel.appendChild(hint);
     collapseBtn.addEventListener("click", () => panel!.classList.toggle("collapsed"));
     closeBtn.addEventListener("click", () => panel!.classList.add("hidden"));
+    // 搜索过滤
+    let _allEntries: Array<{ id: string; name: string; url: string }> = [];
+    searchInput.addEventListener("input", () => {
+      const q = searchInput.value.trim().toLowerCase();
+      renderNeighborList(body, countInfo, _allEntries, q);
+    });
+    // 保存引用供 updateNeighborPanel 使用
+    (panel as any)._setEntries = (entries: typeof _allEntries) => {
+      _allEntries = entries;
+      searchInput.value = "";
+      renderNeighborList(body, countInfo, entries, "");
+      hint.style.display = entries.length > 30 ? "block" : "none";
+    };
     document.body.appendChild(panel);
     return panel;
   }
   const neighborPanel = createNeighborPanel();
 
-  function updateNeighborPanel(nodeId: string | null) {
-    if (!neighborPanel) return;
-    if (!nodeId) {
-      neighborPanel.classList.add("hidden");
-      return;
-    }
-    if (!neighborPanel.classList.contains("collapsed")) neighborPanel.classList.remove("hidden");
-    const focusedNode = nodes.find((n) => n.id === nodeId);
-    const nameEl = neighborPanel.querySelector(".np-node-name");
-    if (nameEl) nameEl.textContent = focusedNode ? focusedNode.name || focusedNode.id : nodeId;
-    const body = neighborPanel.querySelector(".np-body") as HTMLElement;
-    if (!body) return;
+  // 渲染邻居列表（支持搜索过滤）
+  function renderNeighborList(
+    body: HTMLElement,
+    countEl: HTMLElement,
+    entries: Array<{ id: string; name: string; url: string }>,
+    query: string,
+  ) {
     body.innerHTML = "";
-    const neighborIds = neighborMap.get(nodeId);
-    if (!neighborIds || neighborIds.size === 0) {
+    const filtered = query
+      ? entries.filter(
+          (e) => e.name.toLowerCase().includes(query) || e.url.toLowerCase().includes(query),
+        )
+      : entries;
+    countEl.textContent = query
+      ? `${filtered.length} / ${entries.length}`
+      : `${entries.length} 个邻居`;
+    if (filtered.length === 0) {
       const empty = document.createElement("div");
       empty.className = "np-empty";
-      empty.textContent = "无邻居节点";
+      empty.textContent = query ? "无匹配结果" : "无邻居节点";
       body.appendChild(empty);
       return;
     }
-    const entries: Array<{ id: string; name: string; url: string }> = [];
-    for (const nid of neighborIds) {
-      const node = nodes.find((n) => n.id === nid);
-      if (node) entries.push({ id: nid, name: node.name || nid, url: node.url || "" });
-    }
-    entries.sort((a, b) => a.url.localeCompare(b.url));
-    for (const entry of entries) {
+    for (const entry of filtered) {
       const item = document.createElement("div");
       item.className = "np-item";
       item.dataset.id = entry.id;
@@ -446,7 +481,34 @@ export function init3d(graphData: GraphData) {
     }
   }
 
-  // ── 10b. 邻居大字标签 ──
+  function updateNeighborPanel(nodeId: string | null) {
+    if (!neighborPanel) return;
+    if (!nodeId) {
+      neighborPanel.classList.add("hidden");
+      return;
+    }
+    if (!neighborPanel.classList.contains("collapsed")) neighborPanel.classList.remove("hidden");
+    const focusedNode = nodes.find((n) => n.id === nodeId);
+    const nameEl = neighborPanel.querySelector(".np-node-name");
+    if (nameEl) nameEl.textContent = focusedNode ? focusedNode.name || focusedNode.id : nodeId;
+    const body = neighborPanel.querySelector(".np-body") as HTMLElement;
+    if (!body) return;
+    const neighborIds = neighborMap.get(nodeId);
+    if (!neighborIds || neighborIds.size === 0) {
+      (neighborPanel as any)._setEntries?.([]);
+      return;
+    }
+    const entries: Array<{ id: string; name: string; url: string }> = [];
+    for (const nid of neighborIds) {
+      const node = nodes.find((n) => n.id === nid);
+      if (node) entries.push({ id: nid, name: node.name || nid, url: node.url || "" });
+    }
+    entries.sort((a, b) => a.url.localeCompare(b.url));
+    (neighborPanel as any)._setEntries?.(entries);
+  }
+
+  // ── 10b. 邻居大字标签（密度感知：巨型节点自动缩减标签量）──
+
   function clearNeighborLabels() {
     while (neighborLabelGroup.children.length > 0) {
       const sprite = neighborLabelGroup.children[0] as THREE.Sprite;
@@ -458,11 +520,33 @@ export function init3d(graphData: GraphData) {
     }
   }
 
+  /** 根据邻居总数计算应显示的标签数量 */
+  function calcVisibleLabelCount(total: number): number {
+    let visible: number;
+    if (total <= 30) visible = total;
+    else if (total <= 80) visible = Math.round(total * 0.7);
+    else if (total <= 200) visible = Math.round(total * 0.4);
+    else visible = Math.round(total * 0.2);
+    return Math.max(10, Math.min(total, visible, 80));
+  }
+
   function buildNeighborLabels(nodeId: string) {
     clearNeighborLabels();
     const neighborIds = neighborMap.get(nodeId);
     if (!neighborIds || neighborIds.size === 0) return;
-    for (const nid of neighborIds) {
+
+    // 随机打乱，公平选择显示节点
+    const shuffled = Array.from(neighborIds);
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+
+    const maxLabels = calcVisibleLabelCount(shuffled.length);
+    const top = shuffled.slice(0, maxLabels);
+    const hidden = shuffled.length - maxLabels;
+
+    for (const nid of top) {
       const node = nodes.find((n) => n.id === nid);
       if (!node || node.x == null) continue;
       const name = node.name || node.id;
@@ -472,6 +556,18 @@ export function init3d(graphData: GraphData) {
       (sprite as any)._neighborId = nid;
       (sprite as any)._neighborUrl = node.url || "";
       neighborLabelGroup.add(sprite);
+    }
+
+    // 隐藏节点统计标签
+    if (hidden > 0) {
+      const focusNode = nodes.find((n) => n.id === nodeId);
+      if (focusNode && focusNode.x != null) {
+        const moreSprite = createTextSprite(`+${hidden} 隐藏`, 1, 56);
+        moreSprite.position.set(focusNode.x, (focusNode.y || 0) - 36, focusNode.z || 0);
+        (moreSprite as any)._neighborId = null;
+        (moreSprite as any)._neighborUrl = "";
+        neighborLabelGroup.add(moreSprite);
+      }
     }
   }
 
@@ -728,10 +824,12 @@ export function init3d(graphData: GraphData) {
       }
     }
 
-    // 邻居大字标签：屏幕空间恒定大小（每帧更新）
+    // 邻居大字标签：屏幕空间恒定大小，按标签数量动态收缩
     if (neighborLabelGroup.children.length > 0) {
       const fovRad = (ctx.camera.fov * Math.PI) / 180;
-      const targetFraction = 0.04; // 占屏幕高度 4%
+      const count = neighborLabelGroup.children.length;
+      // 平滑收缩：1个标签 ~5%，50个~2.5%，200个~1%，500个~0.45%
+      const targetFraction = 0.05 / (1 + count / 50);
       for (const child of neighborLabelGroup.children) {
         const sprite = child as THREE.Sprite;
         const dist = ctx.camera.position.distanceTo(sprite.position);
@@ -1301,11 +1399,12 @@ export function init3d(graphData: GraphData) {
   // ── 19. 公开 API ──
   function find(query: string) {
     if (!query?.trim()) return [];
-    return fuse.search(query.trim()).map((r) => ({
-      id: r.item.id,
-      name: (r.item as any).name || r.item.id,
-      url: (r.item as any).url,
-    }));
+    const ids = searchIndex.search(query.trim(), { limit: 12 });
+    return ids.map((id) => searchStore.get(id as string)).filter(Boolean) as Array<{
+      id: string;
+      name: string;
+      url: string;
+    }>;
   }
 
   function getGraphData() {
