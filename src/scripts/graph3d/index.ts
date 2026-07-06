@@ -28,6 +28,10 @@ import type { GraphData } from "../../../types/graph";
 // ─── 常量 ──────────────────────────────────────────────────────────
 
 const FOCUS_NODE_SCALE = 1.5;
+/** 叠加线管最多沿几条边生成（巨型节点只显示部分连线，避免 GPU 爆炸） */
+const OVERLAY_MAX_EDGES = 200;
+/** 叠加线细分段数（低于基础线网的 6，减少 50% mesh 数量） */
+const OVERLAY_EDGE_SEGMENTS = 3;
 
 // ─── Tooltip ─────────────────────────────────────────────────────────────
 
@@ -175,6 +179,12 @@ export function init3d(graphData: GraphData) {
   const nodeIdToIndex = new Map<string, number>();
   nodes.forEach((n, i) => nodeIdToIndex.set(n.id, i));
 
+  // ── 6e. 可复用对象（聚焦缩放 / 导航用，避免 GC）──
+  const _focusScaleMatrix = new THREE.Matrix4();
+  const _focusScalePos = new THREE.Vector3();
+  const _focusScaleQuat = new THREE.Quaternion();
+  const _focusScaleSz = new THREE.Vector3();
+
   // ── 7. 渲染器 ──
   const ctx: RenderContext = createRenderer(container, nodes.length, linkArr.length);
 
@@ -189,7 +199,9 @@ export function init3d(graphData: GraphData) {
   updateAllNodePositions(ctx, nodes, nodeStates, degreeMap, maxDegree);
   // 从持久化恢复 bloom / glow 强度
   ctx.bloomPass.intensity = bloomStrength.value;
-  if (ctx.glowMaterial) { ctx.glowMaterial.uniforms.glowIntensity.value = nodeGlowIntensity.value; }
+  if (ctx.glowMaterial) {
+    ctx.glowMaterial.uniforms.glowIntensity.value = nodeGlowIntensity.value;
+  }
   updateLinkPositions(ctx, linkArr, nodeIdToIndex, nodes, linkOpacity.value);
   // 初始线条辉光
   updateLineGlow(ctx, lineGlowIntensity.value);
@@ -839,16 +851,13 @@ export function init3d(graphData: GraphData) {
 
       // 聚焦节点放大 1.5x
       if (isFocused) {
-        const m = new THREE.Matrix4();
         const deg = degreeMap[nd.id] || 1;
         const baseSz = nodeSize(deg, maxDegree);
         const bigSz = baseSz * FOCUS_NODE_SCALE;
-        m.compose(
-          new THREE.Vector3(nd.x ?? 0, nd.y ?? 0, nd.z ?? 0),
-          new THREE.Quaternion(),
-          new THREE.Vector3(bigSz, bigSz, bigSz),
-        );
-        ctx.nodes.setMatrixAt(i, m);
+        _focusScaleSz.set(bigSz, bigSz, bigSz);
+        _focusScalePos.set(nd.x ?? 0, nd.y ?? 0, nd.z ?? 0);
+        _focusScaleMatrix.compose(_focusScalePos, _focusScaleQuat, _focusScaleSz);
+        ctx.nodes.setMatrixAt(i, _focusScaleMatrix);
         ctx.nodes.instanceMatrix.needsUpdate = true;
       }
     }
@@ -989,8 +998,7 @@ export function init3d(graphData: GraphData) {
 
     // 粒子 CPU 更新（轻量，每帧都跑）
     updateParticles(ctx, delta);
-    // 粒子在动 → 需要渲染
-    _needsRender = true;
+    // 粒子在动 → 需要渲染（但粒子始终在动，不加无条件标记，交给后续节流）
 
     // ── 空闲计数（每帧 +1，用户交互重置）──
     _idleFrames++;
@@ -1098,14 +1106,18 @@ export function init3d(graphData: GraphData) {
     });
 
     const linkPos = ctx.linkLines.geometry.attributes.position.array as Float32Array;
-    const FLOATS_PER_EDGE = EDGE_SEGMENTS * 2 * 3;
-    for (let i = 0; i < links.length; i++) {
+    const FLOATS_PER_EDGE = EDGE_SEGMENTS * 2 * 3; // 基础线网是 6 段，取位置时步长不变
+    const STRIDE = EDGE_SEGMENTS / OVERLAY_EDGE_SEGMENTS; // 从 6 段中每 STRIDE 取 1 段
+    let edgeCount = 0;
+
+    for (let i = 0; i < links.length && edgeCount < OVERLAY_MAX_EDGES; i++) {
       if (links[i].source !== nodeId && links[i].target !== nodeId) continue;
+      edgeCount++;
       const base = i * FLOATS_PER_EDGE;
 
-      // 沿贝塞尔曲线创建分段圆柱，与连线曲线对齐
-      for (let j = 0; j < EDGE_SEGMENTS; j++) {
-        const segBase = base + j * 6;
+      // 沿贝塞尔曲线创建分段圆柱（等比抽取，减少 mesh 数量）
+      for (let j = 0; j < OVERLAY_EDGE_SEGMENTS; j++) {
+        const segBase = base + Math.round(j * STRIDE) * 6;
         start_v.set(linkPos[segBase], linkPos[segBase + 1], linkPos[segBase + 2]);
         end_v.set(linkPos[segBase + 3], linkPos[segBase + 4], linkPos[segBase + 5]);
         dir_v.subVectors(end_v, start_v);
@@ -1229,11 +1241,12 @@ export function init3d(graphData: GraphData) {
     if (idx == null) return;
     const nd = nodes[idx];
     if (nd.x == null) return;
-    const m = new THREE.Matrix4();
     const deg = degreeMap[id] || 1;
     const sz = nodeSize(deg, maxDegree);
-    m.compose(new THREE.Vector3(nd.x, nd.y ?? 0, nd.z ?? 0), new THREE.Quaternion(), new THREE.Vector3(sz, sz, sz));
-    ctx.nodes.setMatrixAt(idx, m);
+    _focusScaleSz.set(sz, sz, sz);
+    _focusScalePos.set(nd.x, nd.y ?? 0, nd.z ?? 0);
+    _focusScaleMatrix.compose(_focusScalePos, _focusScaleQuat, _focusScaleSz);
+    ctx.nodes.setMatrixAt(idx, _focusScaleMatrix);
     ctx.nodes.instanceMatrix.needsUpdate = true;
   }
 
