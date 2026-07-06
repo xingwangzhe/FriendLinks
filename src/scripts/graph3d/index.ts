@@ -156,6 +156,8 @@ export function init3d(graphData: GraphData) {
   const linkOpacity = { value: loadVal("link_opacity", 0) };
   const bloomStrength = { value: loadVal("bloom_strength", 0.08) };
   const labelShow = { value: loadVal("label_show", true) };
+  const autoRotate = { value: loadVal("auto_rotate", false) };
+  const autoRotateDir = { value: loadVal("auto_rotate_dir", 1) }; // 1=顺时针, -1=逆时针
 
   // ── 6c. 最大度数 ──
   const maxDegree = Math.max(...Object.values(degreeMap), 1);
@@ -342,6 +344,41 @@ export function init3d(graphData: GraphData) {
       row.style.cssText = "display:flex;align-items:center;";
       row.appendChild(cb);
       row.appendChild(cbLabel);
+      panel.appendChild(lbl);
+      panel.appendChild(row);
+    }
+
+    // ── 自动自转 ──
+    {
+      const lbl = document.createElement("label");
+      lbl.textContent = "自动自转";
+      lbl.style.cssText = "font-size:12px;color:#aaa;display:block;margin-bottom:4px;margin-top:10px;";
+      const cb = document.createElement("input");
+      cb.type = "checkbox";
+      cb.checked = autoRotate.value;
+      cb.style.cssText = "accent-color:#4a9eff;margin-right:6px;";
+      const cbLabel = document.createElement("span");
+      cbLabel.textContent = cb.checked ? "开" : "关";
+      cbLabel.style.cssText = "font-size:12px;color:#ccc;";
+      cb.addEventListener("change", () => {
+        autoRotate.value = cb.checked;
+        saveVal("auto_rotate", cb.checked);
+        cbLabel.textContent = cb.checked ? "开" : "关";
+        _idleFrames = 0;
+      });
+      const dirBtn = document.createElement("button");
+      dirBtn.textContent = autoRotateDir.value > 0 ? "↻ 顺" : "↺ 逆";
+      dirBtn.style.cssText = "margin-left:8px;font-size:11px;padding:2px 6px;border:1px solid rgba(255,255,255,0.15);border-radius:4px;background:transparent;color:#aaa;cursor:pointer;";
+      dirBtn.addEventListener("click", () => {
+        autoRotateDir.value = autoRotateDir.value > 0 ? -1 : 1;
+        saveVal("auto_rotate_dir", autoRotateDir.value);
+        dirBtn.textContent = autoRotateDir.value > 0 ? "↻ 顺" : "↺ 逆";
+      });
+      const row = document.createElement("div");
+      row.style.cssText = "display:flex;align-items:center;";
+      row.appendChild(cb);
+      row.appendChild(cbLabel);
+      row.appendChild(dirBtn);
       panel.appendChild(lbl);
       panel.appendChild(row);
     }
@@ -914,6 +951,15 @@ export function init3d(graphData: GraphData) {
       } else {
         flyExitRoll = 0;
       }
+	    }
+
+    // ── 自动自转（空闲时球幕漫游）──
+    if (autoRotate.value && !isFlyMode) {
+      // 用户交互后暂停 1s 再恢复自转
+      ctx.controls.autoRotate = _idleFrames > 60;
+      ctx.controls.autoRotateSpeed = 0.8 * autoRotateDir.value;
+    } else {
+      ctx.controls.autoRotate = false;
     }
 
     // 粒子 CPU 更新（轻量，每帧都跑）
