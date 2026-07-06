@@ -4,6 +4,10 @@
  */
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer.js";
+import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass.js";
+import { UnrealBloomPass } from "three/examples/jsm/postprocessing/UnrealBloomPass.js";
+import { OutputPass } from "three/examples/jsm/postprocessing/OutputPass.js";
 import type { GraphNode } from "../../../types/graph";
 
 // ─── 类型 ──────────────────────────────────────────────────────────
@@ -16,6 +20,8 @@ export interface RenderContext {
   nodes: THREE.InstancedMesh;
   linkLines: THREE.LineSegments;
   dummy: THREE.Object3D;
+  composer: EffectComposer;
+  bloomPass: UnrealBloomPass;
 }
 
 export interface NodeState {
@@ -90,7 +96,22 @@ export function createRenderer(container: HTMLElement, nodeCount: number, linkCo
 
   const dummy = new THREE.Object3D();
 
-  return { scene, camera, renderer, controls, nodes, linkLines, dummy };
+  // ── EffectComposer + Bloom ──
+  const composer = new EffectComposer(renderer);
+  composer.addPass(new RenderPass(scene, camera));
+
+  const bloomPass = new UnrealBloomPass(
+    new THREE.Vector2(width, height),
+    0.25,   // strength — 泛光强度
+    0.5,    // radius   — 泛光扩散半径
+    0.3,    // threshold — 亮度阈值（仅超过此亮度的区域产生泛光）
+  );
+  composer.addPass(bloomPass);
+
+  const outputPass = new OutputPass();
+  composer.addPass(outputPass);
+
+  return { scene, camera, renderer, controls, nodes, linkLines, dummy, composer, bloomPass };
 }
 
 // ─── 节点位置 + 颜色 ──────────────────────────────────────────────
@@ -228,6 +249,7 @@ export function animateCamera(
 }
 
 export function dispose(ctx: RenderContext) {
+  ctx.composer.dispose();
   ctx.renderer.dispose();
   ctx.nodes.geometry.dispose();
   (ctx.nodes.material as THREE.Material).dispose();

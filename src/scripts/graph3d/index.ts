@@ -307,6 +307,9 @@ export function init3d(graphData: GraphData) {
     addSliderRow(panel, "飞船速度", "5", "100", "5", String(MOVE_SPEED), (v) => {
       MOVE_SPEED = v;
     });
+    addSliderRow(panel, "泛光强度", "0", "2", "0.05", String(ctx.bloomPass.strength), (v) => {
+      ctx.bloomPass.strength = v;
+    });
 
     {
       const lbl = document.createElement("label");
@@ -887,7 +890,7 @@ export function init3d(graphData: GraphData) {
       }
     }
 
-    ctx.renderer.render(ctx.scene, ctx.camera);
+    ctx.composer.render();
   }
 
   // ── 13b. 邻居大字标签点击/右键（独立 Raycaster，在节点交互之前注册）──
@@ -1435,6 +1438,7 @@ export function init3d(graphData: GraphData) {
     for (const entry of entries) {
       const { width, height } = entry.contentRect;
       ctx.renderer.setSize(width, height);
+      ctx.composer.setSize(width, height);
       ctx.camera.aspect = width / height;
       ctx.camera.updateProjectionMatrix();
     }
