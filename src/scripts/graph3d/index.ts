@@ -1006,7 +1006,7 @@ export function init3d(graphData: GraphData) {
       if (!_fpsDisplay) {
         _fpsDisplay = document.createElement("div");
         _fpsDisplay.style.cssText =
-          "position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);z-index:10000;background:rgba(0,0,0,0.7);color:#0f0;padding:4px 8px;border-radius:4px;font:12px monospace;";
+          "position:absolute;top:0;left:50%;transform:translateX(-50%);z-index:10000;background:rgba(0,0,0,0.7);color:#0f0;padding:4px 8px;border-radius:4px;font:12px monospace;";
         document.getElementById("main")?.appendChild(_fpsDisplay);
       }
       const nodeCount = ctx.nodes.count;
@@ -1813,13 +1813,40 @@ function expandCompact(c: any): GraphData {
   };
 }
 
-export async function init3dFromUrl(url: string) {
-  const res = await fetch(url);
-  if (!res.ok) {
-    throw new Error(`获取图数据失败: ${res.status}`);
+export async function init3dFromUrl(coreUrl: string, signal?: AbortSignal, bezierUrl?: string) {
+  const [coreRes, bezierRes] = await Promise.all([
+    fetch(coreUrl, { signal }),
+    bezierUrl ? fetch(bezierUrl, { signal }).catch(() => null) : Promise.resolve(null),
+  ]);
+
+  if (!coreRes.ok) {
+    throw new Error(`获取图数据失败: ${coreRes.status}`);
   }
-  const buf = new Uint8Array(await res.arrayBuffer());
-  const raw = decode(buf) as any;
-  const data = raw.nid ? expandCompact(raw) : (raw as GraphData);
+
+  const [coreBuf, bezierBuf] = await Promise.all([
+    coreRes.arrayBuffer(),
+    bezierRes?.ok ? bezierRes.arrayBuffer() : Promise.resolve(null),
+  ]);
+
+  const core = decode(new Uint8Array(coreBuf)) as any;
+  const data = core.nid ? expandCompact(core) : (core as GraphData);
+
+  // 合并贝塞尔数据（可选，缺失时 init3d 内部走 updateLinkPositions 回退）
+  if (bezierBuf) {
+    try {
+      const bezier = decode(new Uint8Array(bezierBuf)) as any;
+      if (bezier.lpx) {
+        (data as any).bezier = {
+          lseg: bezier.lseg,
+          lpx: bezier.lpx,
+          lpy: bezier.lpy,
+          lpz: bezier.lpz,
+        };
+      }
+    } catch {
+      // bezier 解码失败，静默降级
+    }
+  }
+
   return init3d(data);
 }
