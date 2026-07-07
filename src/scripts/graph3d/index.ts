@@ -676,7 +676,7 @@ export function init3d(graphData: GraphData) {
       ur.textContent = entry.url;
       item.appendChild(nm);
       item.appendChild(ur);
-      item.addEventListener("click", () => focusNodeById(entry.id));
+      item.addEventListener("click", () => focusNode(entry.id));
       body.appendChild(item);
     }
   }
@@ -751,8 +751,10 @@ export function init3d(graphData: GraphData) {
       if (!node || node.x == null) continue;
       const name = node.name || node.id;
       if (name.length > 40) continue;
-      const sprite = createTextSprite(name, 1, 96);
-      sprite.position.set(node.x, (node.y || 0) + 10, node.z || 0);
+      const sprite = createTextSprite(name, 1, 128);
+      // 标签贴在节点球体表面上方
+      const sz = nodeSize(degreeMap[node.id] || 1, maxDegree);
+      sprite.position.set(node.x, (node.y || 0) + sz + 2, node.z || 0);
       (sprite as any)._neighborId = nid;
       (sprite as any)._neighborUrl = node.url || "";
       neighborLabelGroup.add(sprite);
@@ -763,7 +765,8 @@ export function init3d(graphData: GraphData) {
       const focusNode = nodes.find((n) => n.id === nodeId);
       if (focusNode && focusNode.x != null) {
         const moreSprite = createTextSprite(`+${hidden} 隐藏`, 1, 56);
-        moreSprite.position.set(focusNode.x, (focusNode.y || 0) - 36, focusNode.z || 0);
+        const focusSz = nodeSize(degreeMap[nodeId] || 1, maxDegree);
+        moreSprite.position.set(focusNode.x, (focusNode.y || 0) - focusSz - 12, focusNode.z || 0);
         (moreSprite as any)._neighborId = null;
         (moreSprite as any)._neighborUrl = "";
         neighborLabelGroup.add(moreSprite);
@@ -1098,7 +1101,7 @@ export function init3d(graphData: GraphData) {
     if (neighborLabelGroup.children.length > 0) {
       const fovRad = (ctx.camera.fov * Math.PI) / 180;
       const count = neighborLabelGroup.children.length;
-      const targetFraction = 0.05 / (1 + count / 50);
+      const targetFraction = 0.08 / (1 + count / 80);
       for (const child of neighborLabelGroup.children) {
         const sprite = child as THREE.Sprite;
         const dist = ctx.camera.position.distanceTo(sprite.position);
@@ -1168,7 +1171,7 @@ export function init3d(graphData: GraphData) {
     if (sprite && (sprite as any)._neighborId) {
       event.preventDefault();
       event.stopImmediatePropagation();
-      focusNodeById((sprite as any)._neighborId);
+      focusNode((sprite as any)._neighborId);
     }
   });
 
@@ -1353,7 +1356,14 @@ export function init3d(graphData: GraphData) {
     }
   };
 
-  // ── 15. 聚焦 + 搜索 ──
+  // ── 15. 聚焦（统一入口）──
+
+  /** 对外统一聚焦入口：总是先清除旧状态，再聚焦 */
+  function focusNode(id: string) {
+    clearHighlights();
+    focusNodeById(id);
+  }
+
   let _lastFocusedId: string | null = null;
 
   function focusNodeById(id: string) {
@@ -1436,7 +1446,7 @@ export function init3d(graphData: GraphData) {
         return false;
       }
     });
-    if (node) focusNodeById(node.id);
+    if (node) focusNode(node.id);
   }
 
   // ── 16. 飞船模式 ──
@@ -1774,7 +1784,8 @@ export function init3d(graphData: GraphData) {
 
   const api = {
     find,
-    focusNodeById,
+    focusNode,
+    focusNodeById, // 内部使用，不走 clearHighlights
     highlightNodesAndNeighbors,
     clearHighlights,
     focusByDomain,

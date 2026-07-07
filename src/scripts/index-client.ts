@@ -146,25 +146,20 @@ type SearchResult = { id: string; name: string; url?: string };
           try {
             clearLocalQueryParam();
           } catch {}
-          // First, clear previous highlights and then highlight node + neighbors (contour overlay)
-          try {
-            if (controller && (controller as any).clearHighlights) {
-              (controller as any).clearHighlights();
-            } else if (window.__graphApi && window.__graphApi.clearHighlights) {
-              window.__graphApi.clearHighlights();
-            }
-          } catch {}
+          // 统一聚焦：先清除旧状态再聚焦
+          const focus = (controller as any).focusNode || (window as any).__graphApi?.focusNode;
+          if (focus) {
+            focus(it.id);
+          } else if ((controller as any).focusNodeById) {
+            (controller as any).focusNodeById(it.id);
+          } else if ((window as any).__graphApi?.focusNodeById) {
+            (window as any).__graphApi.focusNodeById(it.id);
+          }
+          // 聚焦后再高亮邻居
           if (controller && (controller as any).highlightNodesAndNeighbors) {
             (controller as any).highlightNodesAndNeighbors([it.id]);
           } else if (window.__graphApi && window.__graphApi.highlightNodesAndNeighbors) {
             window.__graphApi.highlightNodesAndNeighbors([it.id]);
-          }
-
-          // Then focus the node (camera)
-          if (controller && (controller as any).focusNodeById) {
-            (controller as any).focusNodeById(it.id);
-          } else if (window.__graphApi && window.__graphApi.focusNodeById) {
-            window.__graphApi.focusNodeById(it.id);
           }
         } catch (err) {
           console.error(err);
@@ -265,10 +260,9 @@ type SearchResult = { id: string; name: string; url?: string };
           const idx = Math.floor(Math.random() * nodes.length);
           const node = nodes[idx];
           if (node?.id) {
-            if ((controller as any).focusNodeById) {
-              (controller as any).focusNodeById(node.id);
-            } else if ((window as any).__graphApi?.focusNodeById) {
-              (window as any).__graphApi.focusNodeById(node.id);
+            const focus = (controller as any).focusNode || (window as any).__graphApi?.focusNode;
+            if (focus) {
+              focus(node.id);
             }
           }
         }
