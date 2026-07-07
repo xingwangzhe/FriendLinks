@@ -1552,6 +1552,11 @@ export async function init3d(graphData: GraphData) {
   function handleFlyKey(e: KeyboardEvent, down: boolean) {
     if (!isFlyMode) return;
     const k = e.key.toLowerCase();
+    if (k === "x" && down) {
+      e.preventDefault();
+      exitFlyMode();
+      return;
+    }
     if (["w", "a", "s", "d", "r", "f", "q", "e", "shift"].includes(k)) {
       e.preventDefault();
       flyKeys[k] = down;
@@ -1569,7 +1574,13 @@ export async function init3d(graphData: GraphData) {
 
   function onPointerLockChange() {
     if (!isFlyMode) return;
-    if (!document.pointerLockElement) exitFlyMode();
+    // ESC 不再退出飞船模式，只是临时释放鼠标
+    // 点击 canvas 重新锁定，按 X 或点击按钮退出
+    if (!document.pointerLockElement) document.body.style.cursor = "default";
+    else document.body.style.cursor = "none";
+  }
+  function flyReLock() {
+    if (isFlyMode && !document.pointerLockElement) ctx.renderer.domElement.requestPointerLock?.();
   }
 
   // 预分配向量（避免 GC）
@@ -1749,6 +1760,7 @@ export async function init3d(graphData: GraphData) {
     reticleVelocity.y = 0;
     ctx.renderer.domElement.requestPointerLock?.();
     document.addEventListener("pointerlockchange", onPointerLockChange);
+    ctx.renderer.domElement.addEventListener("click", flyReLock);
     ctx.camera.rotation.order = "YXZ";
     flyCrosshair = createCrosshair();
     flyCrosshair.style.display = "block";
@@ -1788,6 +1800,7 @@ export async function init3d(graphData: GraphData) {
     if (flyOnKeyDown) document.removeEventListener("keydown", flyOnKeyDown);
     if (flyOnKeyUp) document.removeEventListener("keyup", flyOnKeyUp);
     if (flyOnMouseMove) ctx.renderer.domElement.removeEventListener("mousemove", flyOnMouseMove);
+    ctx.renderer.domElement.removeEventListener("click", flyReLock);
     flyOnKeyDown = flyOnKeyUp = flyOnMouseMove = null;
     document.removeEventListener("pointerlockchange", onPointerLockChange);
     try {
