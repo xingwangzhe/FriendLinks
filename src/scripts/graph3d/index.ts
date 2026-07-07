@@ -332,9 +332,9 @@ export function init3d(graphData: GraphData) {
   ctx.scene.add(neighborLabelGroup);
 
   let labelsCreated = new Set<number>(); // 改为 Set 追踪已创建的节点索引
-  const LABEL_MAX_FADE_START = 2000;
-  const LABEL_FADE_FULL = 600;
-  const LABEL_CREATE_DIST = 500; // 创建标签的最大相机距离
+  const LABEL_MAX_FADE_START = 800;
+  const LABEL_FADE_FULL = 300;
+  const LABEL_CREATE_DIST = 250; // 创建标签的最大相机距离
   const nodeIdToLabelIndex = new Map<string, number>(); // 反查 label index
   nodes.forEach((n, i) => nodeIdToLabelIndex.set(n.id, i));
 
@@ -357,8 +357,8 @@ export function init3d(graphData: GraphData) {
       const name = n.name || n.id;
       if (name.length > 40) continue;
       const sz = nodeSize(degreeMap[n.id] || 1, maxDegree);
-      const worldHeight = 4;
-      const sprite = createTextSprite(name, worldHeight, 32);
+      const worldHeight = 2;
+      const sprite = createTextSprite(name, worldHeight, 24);
       const offset = sz + worldHeight * 0.5 + 2;
       sprite.position.set(n.x!, n.y! + offset, n.z!);
       (sprite as any)._nodePos = { x: n.x, y: n.y, z: n.z };
@@ -370,7 +370,7 @@ export function init3d(graphData: GraphData) {
 
   // 定期销毁远离相机的标签（每 10 秒，距离 > 2000 超过 20 秒）
   let _lastPrune = 0;
-  const PRUNE_DIST = 1200;
+  const PRUNE_DIST = 600;
   const PRUNE_DELAY = 20000;
   function pruneLabels() {
     const now = performance.now();
