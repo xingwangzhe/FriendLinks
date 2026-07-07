@@ -750,10 +750,9 @@ export function init3d(graphData: GraphData) {
       if (!node || node.x == null) continue;
       const name = node.name || node.id;
       if (name.length > 40) continue;
-      const sprite = createTextSprite(name, 1, 112);
-      // 标签贴在节点球体表面上方
-      const sz = nodeSize(degreeMap[node.id] || 1, maxDegree);
-      sprite.position.set(node.x, (node.y || 0) + sz + 3, node.z || 0);
+      const sprite = createTextSprite(name, 1, 144);
+      // 暂存节点坐标，动画循环中做相机相对定位
+      (sprite as any)._nodePos3d = { x: node.x!, y: node.y || 0, z: node.z || 0 };
       (sprite as any)._neighborId = nid;
       (sprite as any)._neighborUrl = node.url || "";
       neighborLabelGroup.add(sprite);
@@ -763,9 +762,9 @@ export function init3d(graphData: GraphData) {
     if (hidden > 0) {
       const focusNode = nodes.find((n) => n.id === nodeId);
       if (focusNode && focusNode.x != null) {
-        const moreSprite = createTextSprite(`+${hidden} 隐藏`, 1, 56);
-        const focusSz = nodeSize(degreeMap[nodeId] || 1, maxDegree);
-        moreSprite.position.set(focusNode.x, (focusNode.y || 0) - focusSz - 12, focusNode.z || 0);
+        const moreSprite = createTextSprite(`+${hidden} 隐藏`, 1, 64);
+        moreSprite.position.set(focusNode.x, (focusNode.y || 0) - 26, focusNode.z || 0);
+        (moreSprite as any)._nodePos3d = { x: focusNode.x!, y: focusNode.y || 0, z: focusNode.z || 0 };
         (moreSprite as any)._neighborId = null;
         (moreSprite as any)._neighborUrl = "";
         neighborLabelGroup.add(moreSprite);
@@ -1096,13 +1095,26 @@ export function init3d(graphData: GraphData) {
       }
     }
 
-    // 邻居大字标签：屏幕空间恒定大小
+    // 邻居大字标签：屏幕空间恒定大小 + 相机相对位置
     if (neighborLabelGroup.children.length > 0) {
       const fovRad = (ctx.camera.fov * Math.PI) / 180;
       const count = neighborLabelGroup.children.length;
-      const targetFraction = 0.08 / (1 + count / 80);
+      const targetFraction = 0.10 / (1 + count / 60);
+      // 相机本地 "上" 方向
+      const _camUp = new THREE.Vector3(0, 1, 0).applyQuaternion(ctx.camera.quaternion);
+      const _nodeRadius = nodeSize(1, 1); // 统一节点半径
       for (const child of neighborLabelGroup.children) {
         const sprite = child as THREE.Sprite;
+        const np = (sprite as any)._nodePos3d;
+        if (np) {
+          // 隐藏统计标签放在节点下方，其余放在上方
+          const sign = (sprite as any)._neighborId === null ? -1 : 1;
+          sprite.position.set(
+            np.x + _camUp.x * (_nodeRadius + 6) * sign,
+            np.y + _camUp.y * (_nodeRadius + 6) * sign,
+            np.z + _camUp.z * (_nodeRadius + 6) * sign,
+          );
+        }
         const dist = ctx.camera.position.distanceTo(sprite.position);
         const worldH = Math.max(0.1, 2 * dist * Math.tan(fovRad / 2) * targetFraction);
         const curScale = sprite.scale;
