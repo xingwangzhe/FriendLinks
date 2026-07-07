@@ -6,7 +6,7 @@
  */
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
-import { BloomEffect, EffectComposer, EffectPass, RenderPass } from "postprocessing";
+import { InstancedMesh2 } from "@three.ez/instanced-mesh";
 import type { GraphNode } from "../../../types/graph";
 import { MAX_EDGE_SEGMENTS } from "../../utils/bezier";
 
@@ -17,11 +17,9 @@ export interface RenderContext {
   camera: THREE.PerspectiveCamera;
   renderer: THREE.WebGLRenderer;
   controls: OrbitControls;
-  nodes: THREE.InstancedMesh;
+  nodes: InstancedMesh2;
   linkLines: THREE.LineSegments;
   dummy: THREE.Object3D;
-  composer: EffectComposer;
-  bloomPass: BloomEffect;
   /** 边数组引用 */
   edgeRefs: EdgeData[];
 }
@@ -49,8 +47,8 @@ interface EdgeData {
 
 // ─── 常量 ──────────────────────────────────────────────────────────
 
-const NODE_SEGMENTS = 12;
-const NODE_HEIGHT_SEGMENTS = 8;
+const NODE_SEGMENTS = 6;
+const NODE_HEIGHT_SEGMENTS = 4;
 const BG_COLOR = 0x0f1115;
 /** 每条边细分为多少段线（最大，实际按边长自适应） */
 export const EDGE_SEGMENTS = MAX_EDGE_SEGMENTS;
@@ -87,7 +85,7 @@ export function createRenderer(container: HTMLElement, nodeCount: number, linkCo
   const camera = new THREE.PerspectiveCamera(75, width / height, 1, 500000);
   camera.position.set(0, 0, 1000);
 
-  // Renderer
+  // Renderer（WebGL）
   const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: "high-performance" });
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
   renderer.setSize(width, height);
@@ -108,42 +106,17 @@ export function createRenderer(container: HTMLElement, nodeCount: number, linkCo
   controls.minPolarAngle = 0;
   controls.maxPolarAngle = Math.PI * 2; // 上下贯通旋转
 
-  // 无需 scene lights — 自定义 ShaderMaterial 不使用 Three.js 内置光照
+  // 无需 scene lights — InstancedMesh2 + MeshBasicMaterial，无光照更轻量
 
-  // InstancedMesh: 单层球体 + 自定义 ShaderMaterial（菲涅尔 rim 光，比 MeshStandardMaterial 轻量 20x+）
   const nodeGeom = new THREE.SphereGeometry(1, NODE_SEGMENTS, NODE_HEIGHT_SEGMENTS);
-  const nodeMat = new THREE.ShaderMaterial({
+  const nodeMat = new THREE.MeshBasicMaterial({
     transparent: true,
+    opacity: 0.25,
     depthWrite: false,
-    blending: THREE.NormalBlending,
-    vertexShader: `
-      varying vec3 vColor;
-      varying vec3 vNormal;
-      varying vec3 vViewDir;
-
-      void main() {
-        vColor = instanceColor;
-        vec4 worldPos = instanceMatrix * vec4(position, 1.0);
-        vNormal = normalize(mat3(instanceMatrix) * normal);
-        vec4 mvPos = modelViewMatrix * worldPos;
-        vViewDir = normalize(-mvPos.xyz);
-        gl_Position = projectionMatrix * mvPos;
-      }
-    `,
-    fragmentShader: `
-      varying vec3 vColor;
-      varying vec3 vNormal;
-      varying vec3 vViewDir;
-
-      void main() {
-        float alpha = 0.25;
-        vec3 col = vColor * 0.7;
-        gl_FragColor = vec4(col, alpha);
-      }
-    `,
+    toneMapped: false,
   });
-  const nodes = new THREE.InstancedMesh(nodeGeom, nodeMat, nodeCount);
-  nodes.frustumCulled = false;
+  const nodes = new InstancedMesh2(nodeGeom, nodeMat, { capacity: nodeCount, renderer });
+  nodes.perObjectFrustumCulled = true;
   scene.add(nodes);
 
   // ── 贝塞尔曲线连线 (LineSegments) ──
@@ -168,18 +141,6 @@ export function createRenderer(container: HTMLElement, nodeCount: number, linkCo
 
   const dummy = new THREE.Object3D();
 
-  // ── EffectComposer + Bloom ──
-  const composer = new EffectComposer(renderer);
-  composer.addPass(new RenderPass(scene, camera));
-
-  const bloomPass = new BloomEffect({
-    intensity: 0.08,
-    radius: 0.5,
-    luminanceThreshold: 0.25,
-    resolutionScale: 0.5,
-  });
-  composer.addPass(new EffectPass(camera, bloomPass));
-
   return {
     scene,
     camera,
@@ -188,8 +149,6 @@ export function createRenderer(container: HTMLElement, nodeCount: number, linkCo
     nodes,
     linkLines,
     dummy,
-    composer,
-    bloomPass,
     edgeRefs: [],
   };
 }
@@ -284,8 +243,10 @@ export function updateAllNodePositions(
   degreeMap: Record<string, number>,
   maxDegree: number,
 ) {
-  const m = new THREE.Matrix4();
+  // 注册所有实例（标记 active+visible）
+  ctx.nodes.addInstances(nodes.length);
 
+  const m = new THREE.Matrix4();
   for (let i = 0; i < nodes.length; i++) {
     const n = nodes[i];
     const deg = degreeMap[n.id] || 1;
@@ -298,13 +259,13 @@ export function updateAllNodePositions(
     }
   }
 
-  ctx.nodes.instanceMatrix.needsUpdate = true;
-  if (ctx.nodes.instanceColor) ctx.nodes.instanceColor.needsUpdate = true;
+  ctx.nodes.computeBoundingBox();
+  ctx.nodes.computeBoundingSphere();
+  ctx.nodes.computeBVH();
 }
 
 export function setNodeColor(ctx: RenderContext, index: number, color: string) {
   ctx.nodes.setColorAt(index, new THREE.Color(color));
-  if (ctx.nodes.instanceColor) ctx.nodes.instanceColor.needsUpdate = true;
 }
 
 // ─── 相机 ──────────────────────────────────────────────────────────
@@ -383,7 +344,6 @@ export function animateCamera(
 }
 
 export function dispose(ctx: RenderContext) {
-  ctx.composer.dispose();
   ctx.renderer.dispose();
   ctx.nodes.geometry.dispose();
   (ctx.nodes.material as THREE.Material).dispose();

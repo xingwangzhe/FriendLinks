@@ -261,7 +261,6 @@ export function init3d(graphData: GraphData) {
   }
 
   const linkOpacity = { value: loadVal("link_opacity", 0) };
-  const bloomStrength = { value: loadVal("bloom_strength", 0.08) };
   const labelShow = { value: loadVal("label_show", true) };
   const maxOverlayEdges = { value: loadVal("max_overlay_edges", DEFAULT_MAX_OVERLAY_EDGES) };
 
@@ -291,8 +290,6 @@ export function init3d(graphData: GraphData) {
   }));
 
   updateAllNodePositions(ctx, nodes, nodeStates, degreeMap, maxDegree);
-  // 从持久化恢复 bloom 强度
-  ctx.bloomPass.intensity = bloomStrength.value;
 
   // ── 连线位置：优先使用构建时预计算的贝塞尔数据，否则运行时计算 ──
   const _bezier = (graphData as any).bezier as
@@ -542,11 +539,6 @@ export function init3d(graphData: GraphData) {
     addSliderRow(panel, "飞船速度", "5", "100", "5", String(MOVE_SPEED), (v) => {
       MOVE_SPEED = v;
     });
-    addSliderRow(panel, "泛光强度", "0", "2", "0.05", String(bloomStrength.value), (v) => {
-      bloomStrength.value = v;
-      ctx.bloomPass.intensity = v;
-      saveVal("bloom_strength", v);
-    });
 
     {
       const lbl = document.createElement("label");
@@ -565,33 +557,6 @@ export function init3d(graphData: GraphData) {
         cbLabel.textContent = cb.checked ? "显示" : "隐藏";
         if (cb.checked) ensureLabels(); // 开启时立即创建视野内标签
       });
-      const row = document.createElement("div");
-      row.style.cssText = "display:flex;align-items:center;";
-      row.appendChild(cb);
-      row.appendChild(cbLabel);
-      panel.appendChild(lbl);
-      panel.appendChild(row);
-    }
-
-    {
-      const lbl = document.createElement("label");
-      lbl.textContent = "Bloom 泛光";
-      lbl.style.cssText = "font-size:12px;color:#aaa;display:block;margin-bottom:4px;margin-top:10px;";
-      const cb = document.createElement("input");
-      cb.type = "checkbox";
-      cb.checked = loadVal("bloom_enabled", true);
-      cb.style.cssText = "accent-color:#4a9eff;margin-right:6px;";
-      const cbLabel = document.createElement("span");
-      cbLabel.textContent = cb.checked ? "开启" : "关闭";
-      cbLabel.style.cssText = "font-size:12px;color:#ccc;";
-      cb.addEventListener("change", () => {
-        const enabled = cb.checked;
-        saveVal("bloom_enabled", enabled);
-        cbLabel.textContent = enabled ? "开启" : "关闭";
-        ctx.bloomPass.intensity = enabled ? bloomStrength.value : 0;
-        _needsRender = true;
-      });
-      if (!cb.checked) ctx.bloomPass.intensity = 0;
       const row = document.createElement("div");
       row.style.cssText = "display:flex;align-items:center;";
       row.appendChild(cb);
@@ -1080,7 +1045,6 @@ export function init3d(graphData: GraphData) {
         _focusScalePos.set(nd.x ?? 0, nd.y ?? 0, nd.z ?? 0);
         _focusScaleMatrix.compose(_focusScalePos, _focusScaleQuat, _focusScaleSz);
         ctx.nodes.setMatrixAt(i, _focusScaleMatrix);
-        ctx.nodes.instanceMatrix.needsUpdate = true;
       }
     }
   }
@@ -1233,12 +1197,12 @@ export function init3d(graphData: GraphData) {
     // 空闲时逐步降低渲染帧率，减少 GPU 负担（尤其是 Bloom 后处理）
     if (_needsRender) {
       _needsRender = false;
-      ctx.composer.render();
+      ctx.renderer.render(ctx.scene, ctx.camera);
     } else {
       // 空闲逐渐降帧：<1s 60fps, 1-3s 30fps, 3-10s 15fps, >10s 8fps
       const throttleStep = _idleFrames < 60 ? 0 : _idleFrames < 180 ? 1 : _idleFrames < 600 ? 3 : 6;
       if (throttleStep === 0 || _idleFrames % (throttleStep + 1) === 0) {
-        ctx.composer.render();
+        ctx.renderer.render(ctx.scene, ctx.camera);
       }
     }
   }
@@ -1505,7 +1469,6 @@ export function init3d(graphData: GraphData) {
     _focusScalePos.set(nd.x, nd.y ?? 0, nd.z ?? 0);
     _focusScaleMatrix.compose(_focusScalePos, _focusScaleQuat, _focusScaleSz);
     ctx.nodes.setMatrixAt(idx, _focusScaleMatrix);
-    ctx.nodes.instanceMatrix.needsUpdate = true;
   }
 
   function highlightNodesAndNeighbors(ids: string[]) {
@@ -1872,7 +1835,6 @@ export function init3d(graphData: GraphData) {
     for (const entry of entries) {
       const { width, height } = entry.contentRect;
       ctx.renderer.setSize(width, height);
-      ctx.composer.setSize(width, height);
       ctx.camera.aspect = width / height;
       ctx.camera.updateProjectionMatrix();
     }
