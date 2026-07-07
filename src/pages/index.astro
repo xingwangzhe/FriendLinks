@@ -103,6 +103,7 @@ export const prerender = true;
         <Button id="opacity-toggle" variant="ghost" size="sm" aria-label="控制面板">控制面板</Button>
         <Button id="path-toggle" variant="ghost" size="sm" aria-label="路径查找">🔗 路径查找</Button>
         <Button id="btn-random" variant="ghost" size="sm" aria-label="随机博客">🎲 随机博客</Button>
+        <Button id="fullscreen-toggle" variant="ghost" size="sm" aria-label="全屏模式">⛶ 全屏模式</Button>
       </div>
     </div>
 
@@ -713,6 +714,38 @@ friends:
 	            if (api && api.toggleFlightMode) {
 	              const isFly = api.toggleFlightMode();
 	              flyBtn.textContent = isFly ? "🌐 球幕模式" : "🚀 飞船模式";
+	            }
+	          });
+	        }
+
+	        // 全屏模式切换
+	        const fsBtn = document.getElementById("fullscreen-toggle");
+	        if (fsBtn) {
+	          let fsEscTimes = 0, fsEscTimer = null;
+	          fsBtn.addEventListener("click", () => {
+	            if (!document.fullscreenElement) {
+	              document.documentElement.requestFullscreen().catch(() => {});
+	              fsBtn.textContent = "⛶ 退出全屏";
+	            } else {
+	              document.exitFullscreen().catch(() => {});
+	              fsBtn.textContent = "⛶ 全屏模式";
+	            }
+	          });
+	          document.addEventListener("fullscreenchange", () => {
+	            fsBtn.textContent = document.fullscreenElement ? "⛶ 退出全屏" : "⛶ 全屏模式";
+	          });
+	          // 快速双击 ESC 退出全屏
+	          document.addEventListener("keydown", (e) => {
+	            if (e.key === "Escape" && document.fullscreenElement) {
+	              const now = Date.now();
+	              if (now - fsEscTimes < 600) {
+	                document.exitFullscreen().catch(() => {});
+	                fsEscTimes = 0;
+	                if (fsEscTimer) { clearTimeout(fsEscTimer); fsEscTimer = null; }
+	              } else {
+	                fsEscTimes = now;
+	                fsEscTimer = setTimeout(() => { fsEscTimes = 0; fsEscTimer = null; }, 600);
+	              }
 	            }
 	          });
 	        }
