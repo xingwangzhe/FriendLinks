@@ -332,9 +332,9 @@ export function init3d(graphData: GraphData) {
   ctx.scene.add(neighborLabelGroup);
 
   let labelsCreated = new Set<number>(); // 改为 Set 追踪已创建的节点索引
-  const LABEL_MAX_FADE_START = 800;
-  const LABEL_FADE_FULL = 300;
-  const LABEL_CREATE_DIST = 250; // 创建标签的最大相机距离
+  const LABEL_MAX_FADE_START = 3000;
+  const LABEL_FADE_FULL = 1000;
+  const LABEL_CREATE_DIST = 600; // 创建标签的最大相机距离
   const nodeIdToLabelIndex = new Map<string, number>(); // 反查 label index
   nodes.forEach((n, i) => nodeIdToLabelIndex.set(n.id, i));
 
@@ -357,8 +357,8 @@ export function init3d(graphData: GraphData) {
       const name = n.name || n.id;
       if (name.length > 40) continue;
       const sz = nodeSize(degreeMap[n.id] || 1, maxDegree);
-      const worldHeight = 2;
-      const sprite = createTextSprite(name, worldHeight, 24);
+      const worldHeight = 12;
+      const sprite = createTextSprite(name, worldHeight, 48);
       const offset = sz + worldHeight * 0.5 + 2;
       sprite.position.set(n.x!, n.y! + offset, n.z!);
       (sprite as any)._nodePos = { x: n.x, y: n.y, z: n.z };
@@ -370,7 +370,7 @@ export function init3d(graphData: GraphData) {
 
   // 定期销毁远离相机的标签（每 10 秒，距离 > 2000 超过 20 秒）
   let _lastPrune = 0;
-  const PRUNE_DIST = 600;
+  const PRUNE_DIST = 1500;
   const PRUNE_DELAY = 20000;
   function pruneLabels() {
     const now = performance.now();
@@ -748,7 +748,7 @@ export function init3d(graphData: GraphData) {
       if (!node || node.x == null) continue;
       const name = node.name || node.id;
       if (name.length > 40) continue;
-      const sprite = createTextSprite(name, 1, 128);
+      const sprite = createTextSprite(name, 1, 96);
       // 暂存节点坐标，动画循环中做相机相对定位 + 屏幕空间缩放
       (sprite as any)._nodePos3d = { x: node.x!, y: node.y || 0, z: node.z || 0 };
       (sprite as any)._neighborId = nid;
@@ -761,7 +761,7 @@ export function init3d(graphData: GraphData) {
     if (fNode && fNode.x != null) {
       const fName = fNode.name || fNode.id;
       if (fName.length <= 40) {
-        const fSprite = createTextSprite(fName, 1, 144);
+        const fSprite = createTextSprite(fName, 1, 112);
         (fSprite as any)._nodePos3d = { x: fNode.x!, y: fNode.y || 0, z: fNode.z || 0 };
         (fSprite as any)._neighborId = nodeId;
         (fSprite as any)._isFocused = true;
@@ -1126,7 +1126,7 @@ export function init3d(graphData: GraphData) {
           );
         }
         const dist = ctx.camera.position.distanceTo(sprite.position);
-        const fraction = isFocused ? 0.18 / (1 + count / 40) : 0.14 / (1 + count / 80);
+        const fraction = isFocused ? 0.10 / (1 + count / 50) : 0.07 / (1 + count / 60);
         const worldH = Math.max(0.1, 2 * dist * Math.tan(fovRad / 2) * fraction);
         const curScale = sprite.scale;
         const aspect = curScale.y > 0 ? curScale.x / curScale.y : 1;
