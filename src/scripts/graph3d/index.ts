@@ -1724,7 +1724,8 @@ export async function init3d(graphData: GraphData) {
         <div><kbd>Q</kbd><kbd>E</kbd> 横滚</div>
         <div><kbd>Shift</kbd> 加速 3×</div>
         <div><kbd>Space</kbd> 自动驾驶 <span id="fly-autopilot-status" style="color:#888;">OFF</span></div>
-        <div style="color:#888;margin-top:4px;border-top:1px solid rgba(255,255,255,0.06);padding-top:4px;">准星瞄准 · 左键打开 · 惯性视角</div>
+        <div style="margin-top:4px;border-top:1px solid rgba(255,200,100,0.25);padding-top:4px;color:#ffc864;font-weight:700;"><kbd style="background:rgba(255,200,100,0.25);color:#ffc864;">X</kbd> 退出飞船模式</div>
+        <div style="color:#888;margin-top:2px;">准星瞄准 · 左键打开 · 惯性视角</div>
       </div>
       <style>
         #fly-control-panel kbd { display:inline-block;background:rgba(255,255,255,0.1);border-radius:3px;padding:0 5px;font-size:11px;color:#fff;margin:0 1px; }
