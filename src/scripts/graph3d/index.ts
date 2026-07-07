@@ -1097,7 +1097,7 @@ export function init3d(graphData: GraphData) {
     if (neighborLabelGroup.children.length > 0) {
       const fovRad = (ctx.camera.fov * Math.PI) / 180;
       const count = neighborLabelGroup.children.length;
-      const targetFraction = 0.10 / (1 + count / 60);
+      const targetFraction = 0.14 / (1 + count / 80);
       const _camUp = new THREE.Vector3(0, 1, 0).applyQuaternion(ctx.camera.quaternion);
       const _nodeRadius = nodeSize(1, 1);
       for (const child of neighborLabelGroup.children) {
