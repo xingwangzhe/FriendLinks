@@ -357,10 +357,8 @@ export function init3d(graphData: GraphData) {
       const name = n.name || n.id;
       if (name.length > 40) continue;
       const sz = nodeSize(degreeMap[n.id] || 1, maxDegree);
-      // 标签高度固定
-      const worldHeight = 10;
-      const sprite = createTextSprite(name, worldHeight);
-      // 标签贴在球体表面上方（radius + half label + gap）
+      const worldHeight = 16;
+      const sprite = createTextSprite(name, worldHeight, 72);
       const offset = sz + worldHeight * 0.5 + 2;
       sprite.position.set(n.x!, n.y! + offset, n.z!);
       (sprite as any)._nodePos = { x: n.x, y: n.y, z: n.z };
@@ -755,21 +753,7 @@ export function init3d(graphData: GraphData) {
       (sprite as any)._nodePos3d = { x: node.x!, y: node.y || 0, z: node.z || 0 };
       (sprite as any)._neighborId = nid;
       (sprite as any)._neighborUrl = node.url || "";
-      (sprite as any)._isFocusedLabel = false; // 子链标签
       neighborLabelGroup.add(sprite);
-    }
-
-    // 被聚焦节点自身的大标签
-    const fNode = nodes.find((n) => n.id === nodeId);
-    if (fNode && fNode.x != null) {
-      const fName = fNode.name || fNode.id;
-      if (fName.length <= 40) {
-        const fSprite = createTextSprite(fName, 1, 176);
-        fSprite.position.set(fNode.x!, (fNode.y || 0) + 36, fNode.z!);
-        (fSprite as any)._nodePos3d = { x: fNode.x!, y: fNode.y || 0, z: fNode.z || 0 };
-        (fSprite as any)._isFocusedLabel = true;
-        neighborLabelGroup.add(fSprite);
-      }
     }
 
     // 隐藏节点统计标签
@@ -1113,24 +1097,18 @@ export function init3d(graphData: GraphData) {
     if (neighborLabelGroup.children.length > 0) {
       const fovRad = (ctx.camera.fov * Math.PI) / 180;
       const count = neighborLabelGroup.children.length;
+      const targetFraction = 0.10 / (1 + count / 60);
       const _camUp = new THREE.Vector3(0, 1, 0).applyQuaternion(ctx.camera.quaternion);
-      const _nodeRadius = nodeSize(1, 1); // 统一节点半径
+      const _nodeRadius = nodeSize(1, 1);
       for (const child of neighborLabelGroup.children) {
         const sprite = child as THREE.Sprite;
-        const isFocused = (sprite as any)._isFocusedLabel;
-        // 主标签大，子链标签小
-        const targetFraction = isFocused
-          ? 0.16 / (1 + count / 40)
-          : 0.07 / (1 + count / 60);
         const np = (sprite as any)._nodePos3d;
         if (np) {
-          // 隐藏统计标签放在节点下方，主标签/子链标签在上方
-          const sign = (sprite as any)._neighborId === null && !isFocused ? -1 : 1;
-          const offset = isFocused ? _nodeRadius + 22 : _nodeRadius + 14;
+          const sign = (sprite as any)._neighborId === null ? -1 : 1;
           sprite.position.set(
-            np.x + _camUp.x * offset * sign,
-            np.y + _camUp.y * offset * sign,
-            np.z + _camUp.z * offset * sign,
+            np.x + _camUp.x * (_nodeRadius + 14) * sign,
+            np.y + _camUp.y * (_nodeRadius + 14) * sign,
+            np.z + _camUp.z * (_nodeRadius + 14) * sign,
           );
         }
         const dist = ctx.camera.position.distanceTo(sprite.position);
