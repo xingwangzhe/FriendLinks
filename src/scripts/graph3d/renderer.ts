@@ -4,9 +4,8 @@
  *
  * v2: 贝塞尔曲线连线 + 流动粒子
  */
-import * as THREE from "three";
+import * as THREE from "three/webgpu";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
-import { InstancedMesh2 } from "@three.ez/instanced-mesh";
 import type { GraphNode } from "../../../types/graph";
 import { MAX_EDGE_SEGMENTS } from "../../utils/bezier";
 
@@ -15,9 +14,9 @@ import { MAX_EDGE_SEGMENTS } from "../../utils/bezier";
 export interface RenderContext {
   scene: THREE.Scene;
   camera: THREE.PerspectiveCamera;
-  renderer: THREE.WebGLRenderer;
+  renderer: THREE.WebGPURenderer;
   controls: OrbitControls;
-  nodes: InstancedMesh2;
+  nodes: THREE.InstancedMesh;
   linkLines: THREE.LineSegments;
   dummy: THREE.Object3D;
   /** 边数组引用 */
@@ -78,19 +77,20 @@ function calcControlOffset(dx: number, dy: number, dz: number, len: number): { o
 
 // ─── 工厂 ──────────────────────────────────────────────────────────
 
-export function createRenderer(container: HTMLElement, nodeCount: number, linkCount: number): RenderContext {
+export async function createRenderer(container: HTMLElement, nodeCount: number, linkCount: number): Promise<RenderContext> {
   const { width, height } = container.getBoundingClientRect();
 
   // Camera（far=200k 配合 maxDistance 10x，支持极远视野俯瞰博客宇宙）
   const camera = new THREE.PerspectiveCamera(75, width / height, 1, 500000);
   camera.position.set(0, 0, 1000);
 
-  // Renderer（WebGL）
-  const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: "high-performance" });
+  // Renderer（WebGPU 优先，自动降级 WebGL）
+  const renderer = new THREE.WebGPURenderer({ antialias: true });
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
   renderer.setSize(width, height);
   renderer.setClearColor(BG_COLOR);
   container.appendChild(renderer.domElement);
+  await renderer.init();
 
   // Scene
   const scene = new THREE.Scene();
@@ -115,8 +115,8 @@ export function createRenderer(container: HTMLElement, nodeCount: number, linkCo
     depthWrite: false,
     toneMapped: false,
   });
-  const nodes = new InstancedMesh2(nodeGeom, nodeMat, { capacity: nodeCount, renderer });
-  nodes.perObjectFrustumCulled = true;
+  const nodes = new THREE.InstancedMesh(nodeGeom, nodeMat, nodeCount);
+  nodes.frustumCulled = false;
   scene.add(nodes);
 
   // ── 贝塞尔曲线连线 (LineSegments) ──
@@ -243,9 +243,6 @@ export function updateAllNodePositions(
   degreeMap: Record<string, number>,
   maxDegree: number,
 ) {
-  // 注册所有实例（标记 active+visible）
-  ctx.nodes.addInstances(nodes.length);
-
   const m = new THREE.Matrix4();
   for (let i = 0; i < nodes.length; i++) {
     const n = nodes[i];
@@ -259,13 +256,13 @@ export function updateAllNodePositions(
     }
   }
 
-  ctx.nodes.computeBoundingBox();
-  ctx.nodes.computeBoundingSphere();
-  ctx.nodes.computeBVH();
+  ctx.nodes.instanceMatrix.needsUpdate = true;
+  if (ctx.nodes.instanceColor) ctx.nodes.instanceColor.needsUpdate = true;
 }
 
 export function setNodeColor(ctx: RenderContext, index: number, color: string) {
   ctx.nodes.setColorAt(index, new THREE.Color(color));
+  if (ctx.nodes.instanceColor) ctx.nodes.instanceColor.needsUpdate = true;
 }
 
 // ─── 相机 ──────────────────────────────────────────────────────────

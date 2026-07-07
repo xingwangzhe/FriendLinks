@@ -153,7 +153,7 @@ function makeDraggable(el: HTMLElement, handle: HTMLElement) {
 
 // ─── 初始化 ──────────────────────────────────────────────────────────
 
-export function init3d(graphData: GraphData) {
+export async function init3d(graphData: GraphData) {
   const container = document.getElementById("main");
   if (!container) return null;
 
@@ -279,7 +279,7 @@ export function init3d(graphData: GraphData) {
   const _focusScaleSz = new THREE.Vector3();
 
   // ── 7. 渲染器 ──
-  const ctx: RenderContext = createRenderer(container, nodes.length, linkArr.length);
+  const ctx: RenderContext = await createRenderer(container, nodes.length, linkArr.length);
 
   const nodeStates: NodeState[] = nodes.map((n: any) => ({
     _cDefault: n._cDefault,
@@ -1045,6 +1045,7 @@ export function init3d(graphData: GraphData) {
         _focusScalePos.set(nd.x ?? 0, nd.y ?? 0, nd.z ?? 0);
         _focusScaleMatrix.compose(_focusScalePos, _focusScaleQuat, _focusScaleSz);
         ctx.nodes.setMatrixAt(i, _focusScaleMatrix);
+        ctx.nodes.instanceMatrix.needsUpdate = true;
       }
     }
   }
@@ -1469,6 +1470,7 @@ export function init3d(graphData: GraphData) {
     _focusScalePos.set(nd.x, nd.y ?? 0, nd.z ?? 0);
     _focusScaleMatrix.compose(_focusScalePos, _focusScaleQuat, _focusScaleSz);
     ctx.nodes.setMatrixAt(idx, _focusScaleMatrix);
+    ctx.nodes.instanceMatrix.needsUpdate = true;
   }
 
   function highlightNodesAndNeighbors(ids: string[]) {
