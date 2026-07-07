@@ -748,7 +748,7 @@ export function init3d(graphData: GraphData) {
       if (!node || node.x == null) continue;
       const name = node.name || node.id;
       if (name.length > 40) continue;
-      const sprite = createTextSprite(name, 1, 96);
+      const sprite = createTextSprite(name, 1, 72);
       // 暂存节点坐标，动画循环中做相机相对定位 + 屏幕空间缩放
       (sprite as any)._nodePos3d = { x: node.x!, y: node.y || 0, z: node.z || 0 };
       (sprite as any)._neighborId = nid;
@@ -761,7 +761,7 @@ export function init3d(graphData: GraphData) {
     if (fNode && fNode.x != null) {
       const fName = fNode.name || fNode.id;
       if (fName.length <= 40) {
-        const fSprite = createTextSprite(fName, 1, 112);
+        const fSprite = createTextSprite(fName, 1, 88);
         (fSprite as any)._nodePos3d = { x: fNode.x!, y: fNode.y || 0, z: fNode.z || 0 };
         (fSprite as any)._neighborId = nodeId;
         (fSprite as any)._isFocused = true;
@@ -773,7 +773,7 @@ export function init3d(graphData: GraphData) {
     if (hidden > 0) {
       const focusNode = nodes.find((n) => n.id === nodeId);
       if (focusNode && focusNode.x != null) {
-        const moreSprite = createTextSprite(`+${hidden} 隐藏`, 1, 72);
+        const moreSprite = createTextSprite(`+${hidden} 隐藏`, 1, 56);
         moreSprite.position.set(focusNode.x, (focusNode.y || 0) - 26, focusNode.z || 0);
         (moreSprite as any)._nodePos3d = { x: focusNode.x!, y: focusNode.y || 0, z: focusNode.z || 0 };
         (moreSprite as any)._neighborId = null;
@@ -1126,7 +1126,7 @@ export function init3d(graphData: GraphData) {
           );
         }
         const dist = ctx.camera.position.distanceTo(sprite.position);
-        const fraction = isFocused ? 0.10 / (1 + count / 50) : 0.07 / (1 + count / 60);
+        const fraction = isFocused ? 0.08 / (1 + count / 50) : 0.06 / (1 + count / 60);
         const worldH = Math.max(0.1, 2 * dist * Math.tan(fovRad / 2) * fraction);
         const curScale = sprite.scale;
         const aspect = curScale.y > 0 ? curScale.x / curScale.y : 1;
