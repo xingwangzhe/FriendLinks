@@ -26,8 +26,7 @@ import type { GraphData } from "../../../types/graph";
 // ─── 常量 ──────────────────────────────────────────────────────────
 
 const FOCUS_NODE_SCALE = 1.5;
-/** 叠加线管最多沿几条边生成（巨型节点只显示部分连线，避免 GPU 爆炸） */
-const OVERLAY_MAX_EDGES = 200;
+const DEFAULT_MAX_OVERLAY_EDGES = 300;
 
 // ─── Tooltip ─────────────────────────────────────────────────────────────
 
@@ -193,6 +192,7 @@ export function init3d(graphData: GraphData) {
   const linkOpacity = { value: loadVal("link_opacity", 0) };
   const bloomStrength = { value: loadVal("bloom_strength", 0.08) };
   const labelShow = { value: loadVal("label_show", true) };
+  const maxOverlayEdges = { value: loadVal("max_overlay_edges", DEFAULT_MAX_OVERLAY_EDGES) };
 
   // ── 6c. 最大度数 ──
   const maxDegree = Math.max(...Object.values(degreeMap), 1);
@@ -510,8 +510,15 @@ export function init3d(graphData: GraphData) {
       panel.appendChild(row);
     }
 
+    addSliderRow(panel, "连线数上限", "10", "500", "10", String(maxOverlayEdges.value), (v) => {
+      maxOverlayEdges.value = v;
+      saveVal("max_overlay_edges", v);
+      if (focusedId) buildNeighborLabels(focusedId); // 刷新邻居标签
+      _needsRender = true;
+    }, "");
+
     const hint = document.createElement("div");
-    hint.textContent = "⚙️ 左键拖拽旋转 · 右键拖拽平移 · 滚轮缩放";
+    hint.textContent = "右键点击节点聚焦 · 左键打开链接 · 拖拽旋转/平移";
     hint.style.cssText = "font-size:10px;color:#666;margin-top:10px;text-align:center;";
     panel.appendChild(hint);
     panel.style.cssText = `position:fixed;
@@ -615,7 +622,7 @@ export function init3d(graphData: GraphData) {
     body.className = "np-body";
     const hint = document.createElement("div");
     hint.className = "np-hint";
-    hint.textContent = "邻居过多时3D场景仅随机显示部分节点标签，全部节点均可在本面板搜索";
+    hint.textContent = "连线数上限可在控制面板调整，超出部分不显示标签";
     panel.appendChild(header);
     panel.appendChild(nodeName);
     panel.appendChild(searchWrap);
@@ -635,7 +642,7 @@ export function init3d(graphData: GraphData) {
       _allEntries = entries;
       searchInput.value = "";
       renderNeighborList(body, countInfo, entries, "");
-      hint.style.display = entries.length > 30 ? "block" : "none";
+      hint.style.display = entries.length > maxOverlayEdges.value ? "block" : "none";
     };
     document.body.appendChild(panel);
     return panel;
@@ -717,46 +724,29 @@ export function init3d(graphData: GraphData) {
     }
   }
 
-  /** 根据邻居总数计算应显示的标签数量 */
-  function calcVisibleLabelCount(total: number): number {
-    let visible: number;
-    if (total <= 30) visible = total;
-    else if (total <= 80) visible = Math.round(total * 0.7);
-    else if (total <= 200) visible = Math.round(total * 0.4);
-    else visible = Math.round(total * 0.2);
-    return Math.max(10, Math.min(total, visible, 80));
-  }
-
   function buildNeighborLabels(nodeId: string) {
     clearNeighborLabels();
     const neighborIds = neighborMap.get(nodeId);
     if (!neighborIds || neighborIds.size === 0) return;
 
-    // 随机打乱，公平选择显示节点
-    const shuffled = Array.from(neighborIds);
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-    }
+    const arr = Array.from(neighborIds);
+    // 显示全部邻居，上限由滑条控制
+    const limit = maxOverlayEdges.value;
+    const shown = arr.length > limit ? arr.slice(0, limit) : arr;
 
-    const maxLabels = calcVisibleLabelCount(shuffled.length);
-    const top = shuffled.slice(0, maxLabels);
-    const hidden = shuffled.length - maxLabels;
-
-    for (const nid of top) {
+    for (const nid of shown) {
       const node = nodes.find((n) => n.id === nid);
       if (!node || node.x == null) continue;
       const name = node.name || node.id;
       if (name.length > 40) continue;
       const sprite = createTextSprite(name, 1, 36);
-      // 暂存节点坐标，动画循环中做相机相对定位 + 屏幕空间缩放
       (sprite as any)._nodePos3d = { x: node.x!, y: node.y || 0, z: node.z || 0 };
       (sprite as any)._neighborId = nid;
       (sprite as any)._neighborUrl = node.url || "";
       neighborLabelGroup.add(sprite);
     }
 
-    // 被聚焦节点自己的标签（屏幕空间缩放，比子链稍大）
+    // 被聚焦节点自己的标签
     const fNode = nodes.find((n) => n.id === nodeId);
     if (fNode && fNode.x != null) {
       const fName = fNode.name || fNode.id;
@@ -766,19 +756,6 @@ export function init3d(graphData: GraphData) {
         (fSprite as any)._neighborId = nodeId;
         (fSprite as any)._isFocused = true;
         neighborLabelGroup.add(fSprite);
-      }
-    }
-
-    // 隐藏节点统计标签
-    if (hidden > 0) {
-      const focusNode = nodes.find((n) => n.id === nodeId);
-      if (focusNode && focusNode.x != null) {
-        const moreSprite = createTextSprite(`+${hidden} 隐藏`, 1, 28);
-        moreSprite.position.set(focusNode.x, (focusNode.y || 0) - 26, focusNode.z || 0);
-        (moreSprite as any)._nodePos3d = { x: focusNode.x!, y: focusNode.y || 0, z: focusNode.z || 0 };
-        (moreSprite as any)._neighborId = null;
-        (moreSprite as any)._neighborUrl = "";
-        neighborLabelGroup.add(moreSprite);
       }
     }
   }
@@ -1231,7 +1208,7 @@ export function init3d(graphData: GraphData) {
   });
 
   // ── 预构建 mesh 池 ──
-  const POOL_SIZE = OVERLAY_MAX_EDGES * EDGE_SEGMENTS;
+  const POOL_SIZE = 500 * EDGE_SEGMENTS; // 池容量，显示上限由滑条控制
   const overlayHaloPool: THREE.Mesh[] = [];
   const overlayCorePool: THREE.Mesh[] = [];
   for (let i = 0; i < POOL_SIZE; i++) {
@@ -1278,7 +1255,7 @@ export function init3d(graphData: GraphData) {
     let edgeCount = 0;
     let poolIdx = 0;
 
-    for (let i = 0; i < links.length && edgeCount < OVERLAY_MAX_EDGES; i++) {
+    for (let i = 0; i < links.length && edgeCount < maxOverlayEdges.value; i++) {
       if (links[i].source !== nodeId && links[i].target !== nodeId) continue;
       edgeCount++;
       const base = i * FLOATS_PER_EDGE;
