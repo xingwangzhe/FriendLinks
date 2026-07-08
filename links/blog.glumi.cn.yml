@@ -1,18 +1,36 @@
 site:
-  name: "陈陈菌博客"
-  url: "https://blog.glumi.cn/"
-  description: "一个计算机业余爱好者，喜欢折腾些有的没的，这里是我分享和记录的地方。"
-  links: "/links"
+  name: 陈陈菌博客
+  description: 一个计算机业余爱好者，喜欢折腾些有的没的，这里是我分享和记录的地方。
+  url: https://blog.glumi.cn/
+  links: /Links/
   friends:
-    - name: "森纯博客-记录生活和分享知识的个人博客网站"
-      url: "https://isenchun.cn/"
-    - name: "栖童の小站"
-      url: "https://blog.linux-qitong.top/"
-    - name: "Pinpe的云端"
-      url: "https://pinpe.top/"
-    - name: "17的主页"
-      url: "https://www.s17.cn/"
-    - name: "首页"
-      url: "https://mabbs.github.io/"
-    - name: "VnYzm的博客"
-      url: "https://vnyzm.top/"
+    - name: 森纯博客
+      url: https://isenchun.cn/
+      description: 记录生活和分享知识
+    - name: iNetech
+      url: https://blog.udp0.com
+      description: 凡心所向，素履所往
+    - name: 栖童の小站
+      url: https://blog.linux-qitong.top/
+      description: 越努力，越幸运
+    - name: Pinpe 的云端
+      url: https://pinpe.top/
+      description: 一个属于自己的云朵
+    - name: 17 的个人主页
+      url: https://www.s17.cn/
+      description: 奇奇怪怪
+    - name: Mayx 的博客
+      url: https://mabbs.github.io/
+      description: Mayx's Home Page
+    - name: VnYzm 的博客
+      url: https://vnyzm.top/
+      description: 分享技术心得和摸鱼感想
+    - name: 十年之约
+      url: https://www.foreverblog.cn
+      description: 博客圈
+    - name: BlogsClub
+      url: https://www.blogsclub.org
+      description: 博客圈
+    - name: 开往
+      url: https://www.travellings.cn
+      description: 博客圈
