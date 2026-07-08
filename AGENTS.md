@@ -3,10 +3,18 @@
 ## 📁 目录结构
 
 ```
-links/
-├── *.yml                    # 友链配置文件（每个 yml 对应一个站点）
-├── example.yml              # yml 格式示例（可参考）
-└── README.md                # 本文档
+links/                       # 友链 YAML 源文件（核心数据，8600+ 文件）
+docs/
+├── INTERACTIONS.md          # 3D 图交互系统（API/事件/面板）
+├── LABELS.md                # 3D 节点标签系统
+└── superpowers/
+    ├── plans/
+    └── specs/
+scripts/
+├── six-degrees.ts           # 六度分隔计算
+├── update-site-names.ts     # 批量更新站点名称
+└── validate-links.ts        # 友链数据校验
+src/                         # Astro + Three.js 项目源码
 ```
 
 **核心文件**: `links/*.yml` - 每个文件代表一个站点的友链配置
@@ -54,19 +62,12 @@ site:
 
 ### 添加新站点
 
-**方法 1: 手动创建**
 ```bash
 # 1. 创建 yml 文件（文件名 = URL 中的域名）
 touch links/example.com.yml
 
 # 2. 填写配置
 vim links/example.com.yml
-```
-
-**方法 2: 使用脚本生成**
-```bash
-# 提取友链后自动创建
-python3 scripts/extract-friends.py https://example.com/links
 ```
 
 ### 编辑现有站点
@@ -139,7 +140,7 @@ site:
   color: "#ff6600"  # 完整 6 位 16 进制色
 ```
 
-**不指定**：从默认 12 色调色板按域名哈希分配
+**不指定**：从默认 24 色调色板按域名哈希分配
 
 **常用色值**：
 - `#ff6600` - 橙色
@@ -169,31 +170,21 @@ bun run fmt          # 代码格式化
 ### 代码风格
 
 ```bash
-bun run lint         # oxlint 检查
+bun run lint         # oxlint + tsc 类型检查
 bun run fmt          # oxfmt 格式化
 bun run lint && bun run fmt  # 提交前检查
 ```
 
-### 清理脚本
+### 可用脚本
 
-`scripts/prune-irrelevant.ts` - 剔除不符合 AGENTS.md 标准的友链
-
-```bash
-bun run prune
-```
-
-**过滤规则**（`scripts/filter/` 目录）：
-
-| 文件 | 用途 |
+| 命令 | 用途 |
 |------|------|
-| `names.ts` | 名称关键词过滤（如"博客"、"blog"等） |
-| `urls.ts` | URL 模式匹配 |
-| `domains.ts` | 非博客域名列表 |
-| `sensitive.ts` | 敏感域名（SHA-256 哈希） |
-| `subdomains.ts` | 服务子域名前缀（如 `cdn.`、`img.`） |
-| `platforms.ts` | 托管平台列表（GitHub Pages、Vercel 等） |
-
-空文件会自动删除。
+| `bun run dev` | 启动 Astro 开发服务器 |
+| `bun run build` | 构建生产版本 |
+| `bun run validate` | 校验 `scripts/validate-links.ts` — 检查 YAML 格式和必填字段 |
+| `bun run six` | 运行 `scripts/six-degrees.ts` — 六度分隔分析 |
+| `bun run lint` | oxlint 代码检查 + TypeScript 类型检查 |
+| `bun run fmt` | oxfmt 格式化 `src/` 和 `links/` |
 
 ---
 
@@ -208,25 +199,6 @@ bun run prune
 ---
 
 ## 🛠️ 实用工具
-
-### 提取友链脚本
-
-`scripts/extract-friends.ts` - 从网站提取友链
-
-```bash
-# 手动提取
-bun run extract https://example.com/links
-
-# 自动创建 yml 文件
-bun run extract --create-yml https://example.com/links
-```
-
-### 清理脚本
-
-```bash
-bun run prune              # 剔除不符合标准的友链
-bun run prune --dry-run    # 预览将要删除的内容
-```
 
 ### 统计信息
 
@@ -243,6 +215,23 @@ for f in links/*.yml; do
 done
 ```
 
+### 格式化
+
+```bash
+# 格式化所有 YAML
+bun run fmt
+
+# 仅格式化某个文件
+bun run fmt links/example.com.yml
+```
+
+### 校验
+
+```bash
+# 校验所有 YAML 格式和必填字段
+bun run validate
+```
+
 ---
 
 ## 📖 常见问题
@@ -252,18 +241,6 @@ done
 **A**: 确保文件名与 URL 中的域名一致。例如：
 - URL: `https://example.com` → 文件名: `example.com.yml`
 - URL: `https://blog.example.com` → 文件名: `blog.example.com.yml`
-
-### Q: 如何批量更新友链？
-
-**A**: 使用提取脚本：
-```bash
-# 提取并自动创建 yml
-bun run extract --create-yml https://example.com/links
-
-# 手动提取后编辑
-bun run extract https://example.com/links
-vim links/example.com.yml
-```
 
 ### Q: 如何确认友链是否符合标准？
 
@@ -311,3 +288,14 @@ git commit -m "style: 格式化 example.com.yml"
 ```bash
 git push origin main
 ```
+
+---
+
+## 🔍 文档索引
+
+| 文件 | 内容 |
+|------|------|
+| `AGENTS.md` | **本文** — 友链管理操作指南 |
+| `README.md` | 项目总览、3D 渲染特性、本地开发 |
+| `docs/INTERACTIONS.md` | 3D 图交互系统 API、事件、面板 |
+| `docs/LABELS.md` | 3D 节点标签系统实现 |
