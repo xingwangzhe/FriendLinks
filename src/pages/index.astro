@@ -527,18 +527,8 @@ friends:
         }
       }
 
-      /* ── JS 动态面板响应式 ── */
-      /* 邻接面板桌面端默认 */
-      #neighbor-panel {
-        --np-right: 0px;
-        --np-top: 50%;
-        --np-transform: translateY(-50%);
-        --np-width: var(--neighbor-panel-width, 280px);
-        --np-max-height: 75vh;
-        --np-border-radius: 8px 0 0 8px;
-        --np-bottom: auto;
-        --np-left: auto;
-      }
+	      /* ── JS 动态面板响应式 ── */
+	      /* 邻接面板由 JS 注入 style 控制，此处无需声明 */
       /* 控制面板桌面端默认 */
       #graph-control-panel {
         --cp-bottom: 70px;
