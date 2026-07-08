@@ -1,4 +1,4 @@
-import { loadSites } from "../utils/load-sites";
+import { loadSites } from "../utils/sites";
 import { printProgress, printDone } from "../utils/progress";
 import { bfsMergedHistogram } from "@xingwangzhe/bfs-rs";
 

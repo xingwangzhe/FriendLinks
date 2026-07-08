@@ -1,12 +1,16 @@
+import { loadSites } from "../utils/sites";
 import { getBuildResult } from "../utils/build-graph";
 import { encode } from "msgpackr";
-import { printDone } from "../utils/progress";
+import { printProgress, printDone } from "../utils/progress";
 import { isFastMode } from "../utils/sample";
 import { zstdCompress } from "../utils/compress";
 
 export async function GET() {
   const startTime = performance.now();
-  const data = await getBuildResult();
+  printProgress("❶", "加载站点数据…", 0);
+  const sites = await loadSites();
+  printDone(`${sites.length} 个站点`);
+  const data = await getBuildResult(sites);
 
   const bezier = {
     lseg: data.lseg,

@@ -2,7 +2,7 @@
  * 图数据构建（共享模块，带模块级缓存）
  * 多个端点（graph-core, graph-bezier）复用同一次力导仿真结果
  */
-import { loadSites } from "./load-sites";
+import type { Site } from "../../types/site";
 import type { GraphNode, GraphLink, GraphCategory } from "../../types/graph";
 import { printProgress, printDone } from "./progress";
 import { simTick } from "@xingwangzhe/force-rs";
@@ -64,17 +64,11 @@ export interface BuildResult {
   lpz_max: number;
 }
 
-async function buildGraph(): Promise<BuildResult> {
+async function buildGraph(sites: Site[]): Promise<BuildResult> {
   const startTime = performance.now();
 
-  printProgress("❶", "加载站点数据…", 0);
-  const validSites = await loadSites(undefined, (i, total) => {
-    const pct = Math.round((i / total) * 100);
-    printProgress("❶", `${i}/${total} 站点已加载`, pct);
-  });
-  printDone(`${validSites.length} 个站点`);
-
-  const sites = validSites;
+  printProgress("❶", `构建图数据 (${sites.length} 个站点)…`, 0);
+  const validSites = sites;
   const categories: GraphCategory[] = [{ name: "site" }, { name: "friend" }];
   const nodes: GraphNode[] = [];
   const siteHostSet = new Set<string>();
@@ -436,9 +430,14 @@ async function buildGraph(): Promise<BuildResult> {
 // ── 模块级缓存：避免多个端点重复构建 ──
 let _cachedPromise: Promise<BuildResult> | null = null;
 
-export function getBuildResult(): Promise<BuildResult> {
+export function getBuildResult(sites: Site[]): Promise<BuildResult> {
   if (!_cachedPromise) {
-    _cachedPromise = buildGraph();
+    _cachedPromise = buildGraph(sites);
   }
   return _cachedPromise;
+}
+
+/** 清除构建缓存（用于测试/重构建） */
+export function clearBuildCache() {
+  _cachedPromise = null;
 }
