@@ -1996,10 +1996,15 @@ function expandCompact(c: any): GraphData {
     ...(nx ? { x: nx[i], y: ny[i], z: nz[i] } : {}),
     ...(ndeg ? { _degree: ndeg[i] } : {}),
   }));
-  const links = (c.ls || []).map((s: number, i: number) => ({
-    source: nid[s],
-    target: nid[c.lt[i]],
-  }));
+	  const links = (c.ls || []).map((s: number, i: number) => {
+	    const l: { source: string; target: string; symbol?: string[] } = {
+	      source: nid[s],
+	      target: nid[c.lt[i]],
+	    };
+	    // lsym[i] === 1 表示单向（旧数据无 lsym 时默认双向）
+	    if (c.lsym?.[i]) l.symbol = ["none", "arrow"];
+	    return l;
+	  });
   return {
     nodes,
     links,

@@ -12,22 +12,23 @@ export async function GET() {
   printDone(`${sites.length} 个站点`);
   const data = await getBuildResult(sites);
 
-  const compact = {
-    nid: data.nid,
-    nnm: data.nnm,
-    nur: data.nur,
-    nfa: data.nfa,
-    nde: data.nde,
-    nx: data.nx,
-    ny: data.ny,
-    nz: data.nz,
-    ls: data.ls,
-    lt: data.lt,
-    c: data.categories,
-    ndeg: data.ndeg,
-    ladj_off: data.ladj_off,
-    ladj: data.ladj,
-  };
+	  const compact = {
+	    nid: data.nid,
+	    nnm: data.nnm,
+	    nur: data.nur,
+	    nfa: data.nfa,
+	    nde: data.nde,
+	    nx: data.nx,
+	    ny: data.ny,
+	    nz: data.nz,
+	    ls: data.ls,
+	    lt: data.lt,
+	    lsym: data.lsym,
+	    c: data.categories,
+	    ndeg: data.ndeg,
+	    ladj_off: data.ladj_off,
+	    ladj: data.ladj,
+	  };
 
   const encoded = Buffer.from(encode(compact) as any);
   const body = isFastMode() ? encoded : await zstdCompress(encoded);

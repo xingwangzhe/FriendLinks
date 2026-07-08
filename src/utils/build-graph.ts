@@ -47,6 +47,8 @@ export interface BuildResult {
   nz: number[];
   ls: number[];
   lt: number[];
+  /** 有向标记，1=单向，0=双向（缺失时默认双向） */
+  lsym: number[];
   /** 预计算度数 + 邻接表（flat 数组） */
   ndeg: number[];
   ladj_off: number[];
@@ -263,18 +265,20 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
     nz.push(nd.z ?? 0);
   }
 
-  const idIndex = new Map<string, number>();
-  nid.forEach((id, i) => idIndex.set(id, i));
-  const ls: number[] = [];
-  const lt: number[] = [];
-  for (const l of linksArr) {
-    const si = idIndex.get(l.source);
-    const ti = idIndex.get(l.target);
-    if (si != null && ti != null) {
-      ls.push(si);
-      lt.push(ti);
-    }
-  }
+	  const idIndex = new Map<string, number>();
+	  nid.forEach((id, i) => idIndex.set(id, i));
+	  const ls: number[] = [];
+	  const lt: number[] = [];
+	  const lsym: number[] = [];
+	  for (const l of linksArr) {
+	    const si = idIndex.get(l.source);
+	    const ti = idIndex.get(l.target);
+	    if (si != null && ti != null) {
+	      ls.push(si);
+	      lt.push(ti);
+	      lsym.push(l.symbol ? 1 : 0);
+	    }
+	  }
 
   // ── 预计算邻接表 ──
   function buildAdjacency(nodeCount: number, srcs: number[], tgts: number[]) {
@@ -409,9 +413,10 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
     nx,
     ny,
     nz,
-    ls,
-    lt,
-    ndeg,
+	    ls,
+	    lt,
+	    lsym,
+	    ndeg,
     ladj_off,
     ladj,
     lseg: rawBezier.lseg,
