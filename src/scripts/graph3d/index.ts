@@ -372,11 +372,15 @@ export async function init3d(graphData: GraphData) {
     }
   }
 
-  function refreshLinkColors() {
-    (ctx.linkLines.material as THREE.LineBasicMaterial).opacity = linkOpacity.value;
-    saveVal("link_opacity", linkOpacity.value);
-    _needsRender = true;
-  }
+	  function refreshLinkColors() {
+	    const opacity = linkOpacity.value;
+	    (ctx.linkLines.material as THREE.LineBasicMaterial).opacity = opacity;
+	    // 同步更新叠加线（hover/focus 高亮）的透明度
+	    overlayHaloMat.opacity = opacity * (overlayHaloMat.userData._baseOpacity ?? 0.25);
+	    overlayCoreMat.opacity = opacity * (overlayCoreMat.userData._baseOpacity ?? 1);
+	    saveVal("link_opacity", opacity);
+	    _needsRender = true;
+	  }
 
   // ── 8. 标签系统 ──
   const labelGroup = new THREE.Group();
@@ -1300,19 +1304,21 @@ export async function init3d(graphData: GraphData) {
   const end_v = new THREE.Vector3();
   const dir_v = new THREE.Vector3();
 
-  // ── 共享材质（hover 和 focus 共用，运行时切换颜色/亮度）──
-  const overlayHaloMat = new THREE.MeshStandardMaterial({
-    emissiveIntensity: 0.4,
-    transparent: true,
-    opacity: 0.25,
-    depthWrite: false,
-  });
-  const overlayCoreMat = new THREE.MeshStandardMaterial({
-    emissiveIntensity: 0.7,
-    transparent: true,
-    opacity: 1,
-    depthWrite: false,
-  });
+	  // ── 共享材质（hover 和 focus 共用，运行时切换颜色/亮度）──
+	  const overlayHaloMat = new THREE.MeshStandardMaterial({
+	    emissiveIntensity: 0.4,
+	    transparent: true,
+	    opacity: 0.25,
+	    depthWrite: false,
+	  });
+	  overlayHaloMat.userData._baseOpacity = 0.25;
+	  const overlayCoreMat = new THREE.MeshStandardMaterial({
+	    emissiveIntensity: 0.7,
+	    transparent: true,
+	    opacity: 1,
+	    depthWrite: false,
+	  });
+	  overlayCoreMat.userData._baseOpacity = 1;
 
   // ── 预构建 mesh 池 ──
   const POOL_SIZE = 500 * EDGE_SEGMENTS; // 池容量，显示上限由滑条控制
@@ -1343,15 +1349,16 @@ export async function init3d(graphData: GraphData) {
       return;
     }
 
-    const baseColor = new THREE.Color(color);
-    const isFocus = focusedId === nodeId;
-    overlayHaloMat.color.copy(baseColor);
-    overlayHaloMat.emissive.copy(baseColor);
-    overlayHaloMat.emissiveIntensity = isFocus ? 0.8 : 0.4;
-    overlayHaloMat.opacity = isFocus ? 0.5 : 0.25;
-    overlayCoreMat.color.copy(baseColor);
-    overlayCoreMat.emissive.copy(baseColor);
-    overlayCoreMat.emissiveIntensity = isFocus ? 1.2 : 0.7;
+	    const baseColor = new THREE.Color(color);
+	    const isFocus = focusedId === nodeId;
+	    overlayHaloMat.color.copy(baseColor);
+	    overlayHaloMat.emissive.copy(baseColor);
+	    overlayHaloMat.emissiveIntensity = isFocus ? 0.8 : 0.4;
+	    overlayHaloMat.userData._baseOpacity = isFocus ? 0.5 : 0.25;
+	    overlayHaloMat.opacity = overlayHaloMat.userData._baseOpacity * linkOpacity.value;
+	    overlayCoreMat.color.copy(baseColor);
+	    overlayCoreMat.emissive.copy(baseColor);
+	    overlayCoreMat.emissiveIntensity = isFocus ? 1.2 : 0.7;
     overlayCoreMat.opacity = 1;
 
     const focusScale = isFocus ? 2 : 1;
