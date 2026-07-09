@@ -220,10 +220,10 @@ type SearchResult = { id: string; name: string; url?: string };
         } catch {}
         try {
           let list: SearchResult[] = [];
-          if (controller && (controller as any).find) {
-            list = await (controller as any).find(v);
-          } else if (window.__graphApi && window.__graphApi.find) {
-            list = await window.__graphApi.find(v);
+	          if (controller && (controller as any).find) {
+	            list = (controller as any).find(v);
+	          } else if (window.__graphApi && window.__graphApi.find) {
+	            list = window.__graphApi.find(v);
           }
           render((list || []).slice(0, 12));
         } catch (err) {

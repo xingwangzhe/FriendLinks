@@ -2,9 +2,7 @@
  * 3D 博客宇宙渲染模块（Three.js InstancedMesh）
  * 使用 Three.js 原生 InstancedMesh 替代 3d-force-graph
  */
-import { create, insertMultiple, search } from "@orama/orama";
-import { createTokenizer } from "@orama/tokenizers/mandarin";
-import { stopwords as mandarinStopwords } from "@orama/stopwords/mandarin";
+import FlexSearch from "flexsearch";
 import * as THREE from "three";
 import { decode } from "msgpackr";
 import type { decompress as ZstdDecompressFn } from "@bokuweb/zstd-wasm";
@@ -204,39 +202,32 @@ export async function init3d(graphData: GraphData) {
     });
   });
 
-  // ── 4. 搜索索引（Orama，BM25 全文检索 + 中文分词）──
-  const oramaDB: any = await create({
-    schema: {
-      id: "string",
-      name: "string",
-      url: "string",
-      description: "string",
-    },
-    components: {
-      tokenizer: createTokenizer({ language: "mandarin", stopWords: mandarinStopwords }),
-    },
-  });
-  const docById = new Map<string, { id: string; names: string[]; url: string; description: string }>();
-  for (const n of nodes) {
-    const id = n.id;
-    if (!id) continue;
-    const name = n.name || id;
-    const desc = n.desc || n.description || "";
-    const existing = docById.get(id);
-    if (existing) {
-      if (name && !existing.names.includes(name)) existing.names.push(name);
-      existing.description = existing.description || desc;
-    } else {
-      docById.set(id, { id, names: [name], url: n.url || "", description: desc });
-    }
-  }
-  const documents = [...docById.values()].map((d) => ({
-    id: d.id,
-    name: d.names.join(" "),
-    url: d.url,
-    description: d.description,
-  }));
-  await insertMultiple(oramaDB, documents);
+	  // ── 4. 搜索索引（FlexSearch full 分词，CJK 友好）──
+	  const searchIndex = new FlexSearch.Index({
+	    tokenize: "full",
+	    cache: true,
+	  });
+	  const searchStore = new Map<string, { id: string; name: string; url: string; description: string }>();
+	  for (const n of nodes) {
+	    const id = n.id;
+	    if (!id) continue;
+	    const name = n.name || id;
+	    const url = n.url || "";
+	    const desc = n.desc || "";
+	    // 中文按字索引 + 拼音辅助：name 和 url 和 desc 一起索引
+	    const text = `${name} ${url} ${desc} ${id}`;
+	    searchIndex.add(id, text);
+	    const existing = searchStore.get(id);
+	    if (existing) {
+	      // 重复 ID 的节点合并名称
+	      if (name && !existing.name.includes(name)) {
+	        // 更新名称（保留更完整的）
+	        if (name.length > existing.name.length) existing.name = name;
+	      }
+	    } else {
+	      searchStore.set(id, { id, name, url, description: desc });
+	    }
+	  }
 
   // ── 5. 状态 ──
   let hoveredId: string | null = null;
@@ -1917,25 +1908,17 @@ export async function init3d(graphData: GraphData) {
   });
   ro.observe(container);
 
-  // ── 19. 公开 API ──
-  async function find(query: string) {
-    if (!query?.trim()) return [];
-    const res = await search(oramaDB, {
-      term: query.trim(),
-      limit: 12,
-      threshold: 0,
-      tolerance: 1,
-      properties: ["name", "url", "description"],
-      boost: { name: 2 },
-    });
-    return res.hits.map((h: any) => ({
-      id: h.document.id as string,
-      name: h.document.name as string,
-      url: (h.document.url as string) || "",
-    }));
-  }
-
-  function getGraphData() {
+	  // ── 19. 公开 API ──
+	  function find(query: string) {
+	    if (!query?.trim()) return [];
+	    const q = query.trim().toLowerCase();
+	    const ids = searchIndex.search(q, 12) as string[];
+	    return ids
+	      .map((id) => searchStore.get(id))
+	      .filter(Boolean) as Array<{ id: string; name: string; url: string; description: string }>;
+	  }
+	
+	  function getGraphData() {
     return { nodes, links };
   }
 

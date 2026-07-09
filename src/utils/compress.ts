@@ -12,5 +12,5 @@ function ensureInit(): Promise<void> {
 
 export async function zstdCompress(buf: Buffer): Promise<Buffer> {
   await ensureInit();
-  return Buffer.from(zstdCompressRaw(new Uint8Array(buf), 19));
+  return Buffer.from(zstdCompressRaw(new Uint8Array(buf), 10));
 }
