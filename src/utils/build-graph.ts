@@ -69,6 +69,7 @@ export interface BuildResult {
 async function buildGraph(sites: Site[]): Promise<BuildResult> {
   const startTime = performance.now();
   const _funcStart = startTime;
+  const _log = (label: string) => console.log(`  [timing]  ${label}: ${((performance.now() - _funcStart) / 1000).toFixed(1)}s`);
 
   printProgress("❶", `构建图数据 (${sites.length} 个站点)…`, 0);
   const validSites = sites;
@@ -103,14 +104,15 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
 	      hostToId.set(host, siteId);
 	    }
 	  }
-	
+	  _log("构建核心节点+linkMap");
+
 	  const externalFriends: Array<{
 	    siteId: string;
 	    friend: { name: string; url: string; favicon?: string };
 	  }> = [];
 	
 	  for (const s of sites) {
-	    const sourceId = s.url; // 用完整 URL 作为 source 标识
+	    const sourceId = s.url;
 	    for (const f of s.friends) {
 	      const targetHost = getHost(f.url);
 	      if (siteHostSet.has(targetHost)) {
@@ -120,7 +122,8 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
 	      }
 	    }
 	  }
-	
+	  _log("处理友链关系");
+
 	  for (const { friend } of externalFriends) {
 	    const friendHost = getHost(friend.url);
 	    if (!hostToId.has(friendHost)) {
@@ -135,7 +138,8 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
 	      hostToId.set(friendHost, friendId);
 	    }
 	  }
-	
+	  _log("创建外部友链节点");
+
 	  const linksArr: GraphLink[] = [];
 	  const addedSiteLinks = new Set<string>();
 	
@@ -149,7 +153,6 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
 	      addedSiteLinks.add(pairKey);
 	
 	      const aLinksB = linkMap.get(sourceId)?.has(targetNorm);
-	      // 另一站点（hostname == targetNorm）是否也指向此站点（hostname == sourceHost）
 	      const bLinksA = [...linkMap.entries()].some(
 	        ([otherUrl, hosts]) => getHost(otherUrl) === targetNorm && hosts.has(sourceHost),
 	      );
@@ -164,13 +167,14 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
 	    }
 	  }
 	
-	  for (const { siteId, friend } of externalFriends) {
-	    const friendHost = getHost(friend.url);
-	    const friendId = hostToId.get(friendHost)!;
-	    linksArr.push({ source: siteId, target: friendId, symbol: ["none", "arrow"] });
-	  }
+		  for (const { siteId, friend } of externalFriends) {
+		    const friendHost = getHost(friend.url);
+		    const friendId = hostToId.get(friendHost)!;
+		    linksArr.push({ source: siteId, target: friendId, symbol: ["none", "arrow"] });
+		  }
+	  _log("构建 linksArr");
 
-  // ── 构建时 3D 力导布局 ──
+	  // ── 构建时 3D 力导布局 ──
   printProgress("❷", `${nodes.length} 节点 · ${linksArr.length} 边 · 力导仿真中…`, 0);
 
   const n = nodes.length;
@@ -222,8 +226,9 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
   const TIME_LIMIT_MS = FAST ? 30000 : 14 * 60 * 1000;
   const TICK_LOG_NEAR_END_MS = 30000;
 
-  printDone(`力导仿真就绪 · ${nodes.length} 节点 · θ=${forceOpts.theta}`);
-
+	  printDone(`力导仿真就绪 · ${nodes.length} 节点 · θ=${forceOpts.theta}`);
+	  _log("力导初始化完成");
+	
 	  const t0 = performance.now();
 	  console.log(`  [timing]  buildGraph 准备阶段: ${((t0 - _funcStart) / 1000).toFixed(1)}s`);
 	  const alphaMin = FAST ? 0.03 : 0.001;
