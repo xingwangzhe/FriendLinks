@@ -72,94 +72,102 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
   printProgress("❶", `构建图数据 (${sites.length} 个站点)…`, 0);
   const validSites = sites;
   const categories: GraphCategory[] = [{ name: "site" }, { name: "friend" }];
-  const nodes: GraphNode[] = [];
-  const siteHostSet = new Set<string>();
-
-  for (const s of sites) {
-    siteHostSet.add(getHost(s.url));
-  }
-
-  const linkMap = new Map<string, Set<string>>();
-  const hostToId = new Map<string, string>();
-
-  for (const s of sites) {
-    const host = getHost(s.url) || s.url;
-    const siteId = host;
-    const siteIcon = resolveFavicon(s.favicon);
-    nodes.push({
-      id: siteId,
-      name: s.name,
-      url: s.url,
-      favicon: siteIcon,
-      desc: s.description,
-      ...(s.color ? { color: s.color } : {}),
-    });
-    linkMap.set(host, new Set());
-    hostToId.set(host, siteId);
-  }
-
-  const externalFriends: Array<{
-    siteId: string;
-    friend: { name: string; url: string; favicon?: string };
-  }> = [];
-
-  for (const s of sites) {
-    const sourceNorm = getHost(s.url);
-    for (const f of s.friends) {
-      const targetHost = getHost(f.url);
-      if (siteHostSet.has(targetHost)) {
-        linkMap.get(sourceNorm)!.add(targetHost);
-      } else {
-        externalFriends.push({ siteId: sourceNorm, friend: f });
-      }
-    }
-  }
-
-  for (const { friend } of externalFriends) {
-    const friendHost = getHost(friend.url);
-    if (!hostToId.has(friendHost)) {
-      const friendId = friendHost || friend.url;
-      const friendIcon = resolveFavicon(friend.favicon);
-      nodes.push({
-        id: friendId,
-        name: friend.name,
-        url: friend.url,
-        favicon: friendIcon,
-      });
-      hostToId.set(friendHost, friendId);
-    }
-  }
-
-  const linksArr: GraphLink[] = [];
-  const addedSiteLinks = new Set<string>();
-
-  for (const [sourceHost, targetHosts] of linkMap) {
-    for (const targetNorm of targetHosts) {
-      const sourceId = hostToId.get(sourceHost)!;
-      const targetId = hostToId.get(targetNorm)!;
-      const pairKey = [sourceHost, targetNorm].sort().join("<->");
-
-      if (addedSiteLinks.has(pairKey)) continue;
-      addedSiteLinks.add(pairKey);
-
-      const aLinksB = linkMap.get(sourceHost)?.has(targetNorm);
-      const bLinksA = linkMap.get(targetNorm)?.has(sourceHost);
-
-      if (aLinksB && bLinksA) {
-        linksArr.push({ source: sourceId, target: targetId });
-      } else if (aLinksB) {
-        linksArr.push({ source: sourceId, target: targetId, symbol: ["none", "arrow"] });
-      } else if (bLinksA) {
-        linksArr.push({ source: targetId, target: sourceId, symbol: ["none", "arrow"] });
-      }
-    }
-  }
-
-  for (const { siteId, friend } of externalFriends) {
-    const friendHost = getHost(friend.url);
-    const friendId = hostToId.get(friendHost)!;
-    linksArr.push({ source: siteId, target: friendId, symbol: ["none", "arrow"] });
-  }
+	  const nodes: GraphNode[] = [];
+	  const siteHostSet = new Set<string>();
+	
+	  for (const s of sites) {
+	    siteHostSet.add(getHost(s.url));
+	  }
+	
+	  // linkMap: 用 site URL（唯一）做 key，value 是该站点 friend 的 hostname 集合
+	  const linkMap = new Map<string, Set<string>>();
+	  // hostToId: hostname → 第一个匹配站点的 URL（用于友链查找）
+	  const hostToId = new Map<string, string>();
+	
+	  for (const s of sites) {
+	    const host = getHost(s.url) || s.url;
+	    const siteId = s.url; // 用完整 URL 做唯一 ID，避免 hostname 冲突
+	    const siteIcon = resolveFavicon(s.favicon);
+	    nodes.push({
+	      id: siteId,
+	      name: s.name,
+	      url: s.url,
+	      favicon: siteIcon,
+	      desc: s.description,
+	      ...(s.color ? { color: s.color } : {}),
+	    });
+	    linkMap.set(siteId, new Set());
+	    // 只存第一个匹配的 hostname → URL，确保查找一致性
+	    if (!hostToId.has(host)) {
+	      hostToId.set(host, siteId);
+	    }
+	  }
+	
+	  const externalFriends: Array<{
+	    siteId: string;
+	    friend: { name: string; url: string; favicon?: string };
+	  }> = [];
+	
+	  for (const s of sites) {
+	    const sourceId = s.url; // 用完整 URL 作为 source 标识
+	    for (const f of s.friends) {
+	      const targetHost = getHost(f.url);
+	      if (siteHostSet.has(targetHost)) {
+	        linkMap.get(sourceId)!.add(targetHost);
+	      } else {
+	        externalFriends.push({ siteId: sourceId, friend: f });
+	      }
+	    }
+	  }
+	
+	  for (const { friend } of externalFriends) {
+	    const friendHost = getHost(friend.url);
+	    if (!hostToId.has(friendHost)) {
+	      const friendId = friendHost || friend.url;
+	      const friendIcon = resolveFavicon(friend.favicon);
+	      nodes.push({
+	        id: friendId,
+	        name: friend.name,
+	        url: friend.url,
+	        favicon: friendIcon,
+	      });
+	      hostToId.set(friendHost, friendId);
+	    }
+	  }
+	
+	  const linksArr: GraphLink[] = [];
+	  const addedSiteLinks = new Set<string>();
+	
+	  for (const [sourceId, targetHosts] of linkMap) {
+	    for (const targetNorm of targetHosts) {
+	      const targetId = hostToId.get(targetNorm)!;
+	      const sourceHost = getHost(sourceId);
+	      const pairKey = [sourceHost, targetNorm].sort().join("<->");
+	
+	      if (addedSiteLinks.has(pairKey)) continue;
+	      addedSiteLinks.add(pairKey);
+	
+	      const aLinksB = linkMap.get(sourceId)?.has(targetNorm);
+	      // 另一站点（hostname == targetNorm）是否也指向此站点（hostname == sourceHost）
+	      const bLinksA = [...linkMap.entries()].some(
+	        ([otherUrl, hosts]) => getHost(otherUrl) === targetNorm && hosts.has(sourceHost),
+	      );
+	
+	      if (aLinksB && bLinksA) {
+	        linksArr.push({ source: sourceId, target: targetId });
+	      } else if (aLinksB) {
+	        linksArr.push({ source: sourceId, target: targetId, symbol: ["none", "arrow"] });
+	      } else if (bLinksA) {
+	        linksArr.push({ source: targetId, target: sourceId, symbol: ["none", "arrow"] });
+	      }
+	    }
+	  }
+	
+	  for (const { siteId, friend } of externalFriends) {
+	    const friendHost = getHost(friend.url);
+	    const friendId = hostToId.get(friendHost)!;
+	    linksArr.push({ source: siteId, target: friendId, symbol: ["none", "arrow"] });
+	  }
 
   // ── 构建时 3D 力导布局 ──
   printProgress("❷", `${nodes.length} 节点 · ${linksArr.length} 边 · 力导仿真中…`, 0);
