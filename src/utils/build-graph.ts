@@ -68,6 +68,7 @@ export interface BuildResult {
 
 async function buildGraph(sites: Site[]): Promise<BuildResult> {
   const startTime = performance.now();
+  const _funcStart = startTime;
 
   printProgress("❶", `构建图数据 (${sites.length} 个站点)…`, 0);
   const validSites = sites;
@@ -223,8 +224,9 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
 
   printDone(`力导仿真就绪 · ${nodes.length} 节点 · θ=${forceOpts.theta}`);
 
-  const t0 = performance.now();
-  const alphaMin = FAST ? 0.03 : 0.001;
+	  const t0 = performance.now();
+	  console.log(`  [timing]  buildGraph 准备阶段: ${((t0 - _funcStart) / 1000).toFixed(1)}s`);
+	  const alphaMin = FAST ? 0.03 : 0.001;
   let actualTicks = 0;
   let stoppedByTime = false;
 
