@@ -7,7 +7,7 @@ import { sitesLoader } from "../src/utils/sites-loader";
  * 对应 links/*.yml 中 site.friends[] 的结构
  */
 const FriendSchema = z.object({
-  name: z.string(),
+  name: z.coerce.string(),
   url: z.string(),
   favicon: z.string().optional(),
 });
