@@ -373,12 +373,8 @@ export async function init3d(graphData: GraphData) {
   }
 
 	  function refreshLinkColors() {
-	    const opacity = linkOpacity.value;
-	    (ctx.linkLines.material as THREE.LineBasicMaterial).opacity = opacity;
-	    // 同步更新叠加线（hover/focus 高亮）的透明度
-	    overlayHaloMat.opacity = opacity * (overlayHaloMat.userData._baseOpacity ?? 0.25);
-	    overlayCoreMat.opacity = opacity * (overlayCoreMat.userData._baseOpacity ?? 1);
-	    saveVal("link_opacity", opacity);
+	    (ctx.linkLines.material as THREE.LineBasicMaterial).opacity = linkOpacity.value;
+	    saveVal("link_opacity", linkOpacity.value);
 	    _needsRender = true;
 	  }
 
@@ -1311,14 +1307,12 @@ export async function init3d(graphData: GraphData) {
 	    opacity: 0.25,
 	    depthWrite: false,
 	  });
-	  overlayHaloMat.userData._baseOpacity = 0.25;
 	  const overlayCoreMat = new THREE.MeshStandardMaterial({
 	    emissiveIntensity: 0.7,
 	    transparent: true,
 	    opacity: 1,
 	    depthWrite: false,
 	  });
-	  overlayCoreMat.userData._baseOpacity = 1;
 
   // ── 预构建 mesh 池 ──
   const POOL_SIZE = 500 * EDGE_SEGMENTS; // 池容量，显示上限由滑条控制
@@ -1354,8 +1348,7 @@ export async function init3d(graphData: GraphData) {
 	    overlayHaloMat.color.copy(baseColor);
 	    overlayHaloMat.emissive.copy(baseColor);
 	    overlayHaloMat.emissiveIntensity = isFocus ? 0.8 : 0.4;
-	    overlayHaloMat.userData._baseOpacity = isFocus ? 0.5 : 0.25;
-	    overlayHaloMat.opacity = overlayHaloMat.userData._baseOpacity * linkOpacity.value;
+	    overlayHaloMat.opacity = isFocus ? 0.5 : 0.25;
 	    overlayCoreMat.color.copy(baseColor);
 	    overlayCoreMat.emissive.copy(baseColor);
 	    overlayCoreMat.emissiveIntensity = isFocus ? 1.2 : 0.7;
