@@ -1,5 +1,9 @@
 # AGENTS - 友链管理指南
 
+> **⚠️ 关键规则：未经明确授权，禁止执行 `git push` 或任何推送操作！**
+> 所有本地修改必须先经用户确认，再由用户决定是否推送。
+> 任何时候需要推送，必须 ask 用户是否要 git push。
+
 ## 📁 目录结构
 
 ```
@@ -284,7 +288,7 @@ git add links/
 git commit -m "style: 格式化 example.com.yml"
 ```
 
-**注意**：不要自动 push，需要手动推送：
+**注意**：参见顶部规则——未经明确授权，禁止 git push：
 ```bash
 git push origin main
 ```
