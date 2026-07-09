@@ -1,48 +1,140 @@
 site:
-  name: 朋友们的博客展示站 - 免费友情链接
+  name: 友链展示站
   url: https://peng.you/
   description: 一个简洁现代的友情链接展示网站，汇聚优质博客与个人网站，支持 RSS 订阅和实时更新。
-  links: /
+  links: /links
   friends:
-    - name: "@fengc"
-      url: https://fengcblog.880200.xyz/
-    - name: "@J.sky"
-      url: https://www.suiyan.cc/
-    - name: "@毕大湿"
-      url: https://www.blackbzy.com/
-    - name: "@大路"
-      url: https://blog.ziyege.com/
-    - name: "@Chongxi"
-      url: https://xice.cx/
-    - name: "@Dayu"
-      url: https://anotherdayu.com/
-    - name: "@草东"
-      url: https://www.gaicas.com/
-    - name: "@菲克"
-      url: https://ficor.net/
-    - name: "@1900"
-      url: https://1900.live
-    - name: "@龙哥"
-      url: https://long.ge
-    - name: "@ZhouZhouZhou"
-      url: https://www.luohuayu.cn/
-    - name: "@missuo"
+    - name: Vincent's Notes
       url: https://missuo.me
-    - name: "@游钓四方"
-      url: https://lhasa.icu/
-    - name: "@dimlau"
-      url: https://kaix.in/
-    - name: "@Evan"
-      url: https://evan.xin/
-    - name: "@网遐"
-      url: https://blog.ct106.com
-    - name: "@李懋和"
-      url: https://www.dao.js.cn/
-    - name: "@mxdyeah"
-      url: https://blog.mxdyeah.com/
-    - name: "@妄司逸"
-      url: https://blog.flechazo.icu/
-    - name: "@Joe Hu"
-      url: https://hubeiqiao.com/
+    - name: fengc's Blog
+      url: https://fengcblog.880200.xyz/
+    - name: 1900 Blog
+      url: https://1900.live
     - name: 烧饼博客
       url: https://u.sb/
+    - name: Another Dayu
+      url: https://anotherdayu.com/
+    - name: mxd's Blog
+      url: https://blog.mxdyeah.com/
+    - name: 碎言
+      url: https://www.suiyan.cc/
+    - name: 荒野菲克
+      url: https://ficor.net/
+    - name: blackbzy
+      url: https://www.blackbzy.com/
+    - name: 无名博客
+      url: https://wuminboke.site/
+    - name: 龙哥
+      url: https://long.ge
+    - name: 印记
+      url: https://yinji.org
+    - name: Chongxiの咖啡屋
+      url: https://xice.cx/
+    - name: Joe Hu - Explorer · Builder · AI Tinkerer
+      url: https://hubeiqiao.com/
+    - name: 子夜歌
+      url: https://blog.ziyege.com/
+    - name: KAIX.IN
+      url: https://kaix.in/
+    - name: 旺东自留地
+      url: https://wang618.cn/
+    - name: Henry Z's blog
+      url: https://changchen.me
+    - name: Homulilly
+      url: https://homulilly.com/
+    - name: 草东日记
+      url: https://www.gaicas.com/
+    - name: Lindsay
+      url: https://lin.moe
+    - name: 落花雨记
+      url: https://www.luohuayu.cn/
+    - name: 游钓四方
+      url: https://lhasa.icu/
+    - name: Evan's Space
+      url: https://evan.xin/
+    - name: 听涛榭
+      url: https://blog.ct106.com
+    - name: 妄司逸
+      url: https://blog.flechazo.icu/
+    - name: 威言威语
+      url: https://www.weisay.com/blog/
+    - name: 依云's Blog
+      url: https://blog.lilydjwg.me/
+    - name: 刘果的小站
+      url: https://www.liu-guo.com/
+    - name: for_the_zero的主页
+      url: https://ftz.is-a.dev/
+    - name: 周良 Len
+      url: https://imzl.com/
+    - name: Kwx Blog
+      url: https://kwx.cc/
+    - name: 超能小紫
+      url: https://mok.moe/
+    - name: 搬砖日记
+      url: https://www.banzhuanriji.com/
+    - name: iBug
+      url: https://ibug.io/
+    - name: 仲小树
+      url: https://zxs.me
+    - name: 零域 - 叶彩blog
+      url: https://www.spacezero.top/
+    - name: 猫猫的博客
+      url: https://blog.xhdndmm.net/
+    - name: 致以无瑕之人
+      url: https://blog.elykia.cn/
+    - name: Honesty Blog
+      url: https://blog.hehouhui.cn
+    - name: Tao
+      url: https://tao.zz.ac/
+    - name: 漫漫长路
+      url: https://mmcl.net/
+    - name: 宝硕博客
+      url: https://blog.baoshuo.ren/
+    - name: Simon's Blog
+      url: https://song.al
+    - name: Nova Kwok's Awesome Blog
+      url: https://nova.moe/
+    - name: Sukka's Blog
+      url: https://blog.skk.moe/
+    - name: Jixun's Blog
+      url: https://jixun.uk/
+    - name: David Huang's Blog
+      url: https://blog.hjc.im/
+    - name: Hi, DIYgod
+      url: https://diygod.cc/
+    - name: JoyQi
+      url: https://joyqi.com/
+    - name: 郭泽宇
+      url: https://www.guozeyu.com/
+    - name: 蘑菇博客
+      url: https://home.ad/
+    - name: IceHoney
+      url: https://blog.icehoney.me/
+    - name: Phoenix's island
+      url: https://blog.phoenixlzx.com/
+    - name: 暮光博客
+      url: https://muguang.me/
+    - name: 蘑菇天文馆
+      url: https://blog.atr.me/
+    - name: zu1k
+      url: https://zu1k.com/
+    - name: Felix's Blog
+      url: https://felixc.at/
+    - name: stneng's blog
+      url: https://stneng.com/
+    - name: Debug 客栈
+      url: https://blog.debuginn.com
+    - name: C.Mr
+      url: https://c.mr/
+    - name: Shucheng Li
+      url: https://snli.org/blog/
+    - name: Windy 的个人主页
+      url: https://sss.ss/
+    - name: 创意基地
+      url: https://ab.cd
+    - name: 枫之落叶
+      url: https://blog.shiniv.com/
+    - name: 王先生
+      url: https://www.wangxiansheng.com/
+    - name: 阿呆日记
+      url: https://dai.ge/
