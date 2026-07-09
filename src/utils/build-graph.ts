@@ -140,22 +140,31 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
 	  }
 	  _log("创建外部友链节点");
 
-	  const linksArr: GraphLink[] = [];
-	  const addedSiteLinks = new Set<string>();
-	
-	  for (const [sourceId, targetHosts] of linkMap) {
-	    for (const targetNorm of targetHosts) {
-	      const targetId = hostToId.get(targetNorm)!;
-	      const sourceHost = getHost(sourceId);
-	      const pairKey = [sourceHost, targetNorm].sort().join("<->");
-	
-	      if (addedSiteLinks.has(pairKey)) continue;
-	      addedSiteLinks.add(pairKey);
-	
-	      const aLinksB = linkMap.get(sourceId)?.has(targetNorm);
-	      const bLinksA = [...linkMap.entries()].some(
-	        ([otherUrl, hosts]) => getHost(otherUrl) === targetNorm && hosts.has(sourceHost),
-	      );
+	const linksArr: GraphLink[] = [];
+	const addedSiteLinks = new Set<string>();
+
+	// 预计算 hostname → URLs 反查表，避免内层循环 O(n) 扫描
+	const hostToUrls = new Map<string, string[]>();
+	for (const [url, hosts] of linkMap) {
+	  const h = getHost(url);
+	  if (!hostToUrls.has(h)) hostToUrls.set(h, []);
+	  hostToUrls.get(h)!.push(url);
+	}
+
+	for (const [sourceId, targetHosts] of linkMap) {
+	  for (const targetNorm of targetHosts) {
+	    const targetId = hostToId.get(targetNorm)!;
+	    const sourceHost = getHost(sourceId);
+	    const pairKey = [sourceHost, targetNorm].sort().join("<->");
+
+	    if (addedSiteLinks.has(pairKey)) continue;
+	    addedSiteLinks.add(pairKey);
+
+	    const aLinksB = linkMap.get(sourceId)?.has(targetNorm);
+	    // 利用反查表 O(1) 判断另一站点是否也指向此站点
+	    const bLinksA = (hostToUrls.get(targetNorm) ?? []).some(
+	      (otherUrl) => otherUrl !== sourceId && linkMap.get(otherUrl)?.has(sourceHost),
+	    );
 	
 	      if (aLinksB && bLinksA) {
 	        linksArr.push({ source: sourceId, target: targetId });
