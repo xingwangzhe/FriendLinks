@@ -73,22 +73,24 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
 
   printProgress("❶", `构建图数据 (${sites.length} 个站点)…`, 0);
   const validSites = sites;
-  const categories: GraphCategory[] = [{ name: "site" }, { name: "friend" }];
+	  const categories: GraphCategory[] = [{ name: "site" }, { name: "friend" }];
 	  const nodes: GraphNode[] = [];
 	  const siteHostSet = new Set<string>();
-	
+
 	  for (const s of sites) {
 	    siteHostSet.add(getHost(s.url));
 	  }
-	
+
 	  // linkMap: 用 site URL（唯一）做 key，value 是该站点 friend 的 hostname 集合
 	  const linkMap = new Map<string, Set<string>>();
-	  // hostToId: hostname → 第一个匹配站点的 URL（用于友链查找）
+	  // hostToId: hostname → 第一个匹配站点的 URL（hostname 级查找用）
 	  const hostToId = new Map<string, string>();
-	
+	  // siteUrlMap: 标准化 URL → site URL（精确匹配用，优先于 hostname）
+	  const siteUrlMap = new Map<string, string>();
+
 	  for (const s of sites) {
 	    const host = getHost(s.url) || s.url;
-	    const siteId = s.url; // 用完整 URL 做唯一 ID，避免 hostname 冲突
+	    const siteId = s.url;
 	    const siteIcon = resolveFavicon(s.favicon);
 	    nodes.push({
 	      id: siteId,
@@ -99,10 +101,11 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
 	      ...(s.color ? { color: s.color } : {}),
 	    });
 	    linkMap.set(siteId, new Set());
-	    // 只存第一个匹配的 hostname → URL，确保查找一致性
 	    if (!hostToId.has(host)) {
 	      hostToId.set(host, siteId);
 	    }
+	    // 标准化 URL（去尾斜杠）作为精确匹配键
+	    siteUrlMap.set(siteId.replace(/\/+$/, ""), siteId);
 	  }
 	  _log("构建核心节点+linkMap");
 
@@ -110,12 +113,16 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
 	    siteId: string;
 	    friend: { name: string; url: string; favicon?: string };
 	  }> = [];
-	
+
 	  for (const s of sites) {
 	    const sourceId = s.url;
 	    for (const f of s.friends) {
 	      const targetHost = getHost(f.url);
-	      if (siteHostSet.has(targetHost)) {
+	      // 优先精确 URL 匹配，再降级到 hostname 匹配
+	      const exactTarget = siteUrlMap.get(f.url.replace(/\/+$/, ""));
+	      if (exactTarget) {
+	        linkMap.get(sourceId)!.add(getHost(exactTarget));
+	      } else if (siteHostSet.has(targetHost)) {
 	        linkMap.get(sourceId)!.add(targetHost);
 	      } else {
 	        externalFriends.push({ siteId: sourceId, friend: f });
