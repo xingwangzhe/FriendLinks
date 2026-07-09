@@ -253,7 +253,9 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
     (nodes[i] as any).z = s[b + 2];
   }
 
-  // ── 列式紧凑数据 ──
+	  const _simEnd = performance.now();
+
+	  // ── 列式紧凑数据 ──
   const nid: string[] = [];
   const nnm: string[] = [];
   const nur: string[] = [];
@@ -400,11 +402,15 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
     return { i16, min, max };
   }
 
-  const { ndeg, ladj_off, ladj } = buildAdjacency(nid.length, ls, lt);
-  const rawBezier = buildBezierPositions(nid.length, ls, lt, nx, ny, nz);
-  const qx = quantize(rawBezier.lpx);
-  const qy = quantize(rawBezier.lpy);
-  const qz = quantize(rawBezier.lpz);
+	  const { ndeg, ladj_off, ladj } = buildAdjacency(nid.length, ls, lt);
+	  const _dataEnd = performance.now();
+	  const rawBezier = buildBezierPositions(nid.length, ls, lt, nx, ny, nz);
+	  const qx = quantize(rawBezier.lpx);
+	  const qy = quantize(rawBezier.lpy);
+	  const qz = quantize(rawBezier.lpz);
+	  const _bezierEnd = performance.now();
+	  console.log(`  [timing]  力导+紧凑数据: ${((_dataEnd - _simEnd) / 1000).toFixed(1)}s`);
+	  console.log(`  [timing]  bezier 计算+量化: ${((_bezierEnd - _dataEnd) / 1000).toFixed(1)}s`);
 
   const elapsed = ((performance.now() - startTime) / 1000).toFixed(1);
   printDone(`图数据构建完成 · ${nodes.length} 节点 · ${linksArr.length} 边 · 耗时 ${elapsed}s`);

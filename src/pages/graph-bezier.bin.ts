@@ -7,10 +7,16 @@ import { zstdCompress } from "../utils/compress";
 
 export async function GET() {
   const startTime = performance.now();
+  const t = (label: string) =>
+    console.log(`  [timing] ${label}: ${((performance.now() - startTime) / 1000).toFixed(1)}s`);
+
   printProgress("❶", "加载站点数据…", 0);
   const sites = await loadSites();
   printDone(`${sites.length} 个站点`);
+  t("loadSites");
+
   const data = await getBuildResult(sites);
+  t("getBuildResult (force sim + bezier + quantize)");
 
   const bezier = {
     lseg: data.lseg,
@@ -26,7 +32,11 @@ export async function GET() {
   };
 
   const encoded = Buffer.from(encode(bezier) as any);
+  t("msgpackr encode");
+
   const body = isFastMode() ? encoded : await zstdCompress(encoded);
+  t("zstd compress");
+
   const elapsed = ((performance.now() - startTime) / 1000).toFixed(1);
   printDone(
     `/graph-bezier.bin 完成 · ${data.ls.length} 边 · ${(body.length / 1024 / 1024).toFixed(1)}MB · 耗时 ${elapsed}s`,
