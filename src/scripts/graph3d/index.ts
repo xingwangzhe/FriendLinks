@@ -643,10 +643,13 @@ export async function init3d(graphData: GraphData) {
 		      .np-body { overflow-y:auto; max-height:45vh; display:grid; grid-template-columns:repeat(3,1fr); gap:0 4px; align-content:start; }
 		      .np-section { display:flex; flex-direction:column; gap:1px; }
 		      .np-section-title { font-size:11px; color:#888; padding:6px 6px 4px; border-bottom:1px solid rgba(255,255,255,0.04); font-weight:600; text-align:center; }
-	      .np-item { display:flex; flex-direction:column; padding:5px 6px; cursor:pointer; border-radius:3px; }
-	      .np-item:hover { background:rgba(255,255,255,0.08); }
-	      .np-item-name { font-size:12px; color:#eee; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-	      .np-item-url { font-size:10px; color:#888; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+		      .np-item { display:flex; flex-direction:row; align-items:center; gap:4px; padding:5px 6px; cursor:pointer; border-radius:3px; }
+		      .np-item:hover { background:rgba(255,255,255,0.08); }
+		      .np-item-link { flex-shrink:0; display:inline-flex; align-items:center; justify-content:center; width:16px; height:16px; cursor:pointer; color:#666; border-radius:2px; }
+		      .np-item-link:hover { color:#4a9eff; background:rgba(74,158,255,0.12); }
+		      .np-item-content { display:flex; flex-direction:column; flex:1; min-width:0; }
+		      .np-item-name { font-size:12px; color:#eee; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+		      .np-item-url { font-size:10px; color:#888; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 	      .np-empty { padding:20px; text-align:center; color:#666; font-size:13px; grid-column:1/-1; }
 	      .np-search-count { font-size:11px; color:#888; padding:4px 12px; text-align:right; border-bottom:1px solid rgba(255,255,255,0.03); grid-column:1/-1; }
 		      .np-hint { font-size:10px; color:#555; padding:6px 12px; text-align:center; border-top:1px solid rgba(255,255,255,0.04); line-height:1.4; display:none; grid-column:1/-1; }
@@ -784,30 +787,45 @@ export async function init3d(graphData: GraphData) {
       return;
     }
 
-    function renderColumn(title: string, icon: string, entries: Array<{ id: string; name: string; url: string }>) {
-      const col = document.createElement("div");
-      col.className = "np-section";
-      const secTitle = document.createElement("div");
-      secTitle.className = "np-section-title";
-      secTitle.innerHTML = `<span>${icon} ${title}</span><span class="count">${entries.length}</span>`;
-      col.appendChild(secTitle);
-      for (const entry of entries) {
-        const item = document.createElement("div");
-        item.className = "np-item";
-        item.dataset.id = entry.id;
-        const nm = document.createElement("div");
-        nm.className = "np-item-name";
-        nm.textContent = entry.name;
-        const ur = document.createElement("div");
-        ur.className = "np-item-url";
-        ur.textContent = entry.url;
-        item.appendChild(nm);
-        item.appendChild(ur);
-        item.addEventListener("click", () => focusNode(entry.id));
-        col.appendChild(item);
-      }
-      body.appendChild(col);
-    }
+	    function renderColumn(title: string, icon: string, entries: Array<{ id: string; name: string; url: string }>) {
+	      const col = document.createElement("div");
+	      col.className = "np-section";
+	      const secTitle = document.createElement("div");
+	      secTitle.className = "np-section-title";
+	      secTitle.innerHTML = `<span>${icon} ${title}</span><span class="count">${entries.length}</span>`;
+	      col.appendChild(secTitle);
+	      for (const entry of entries) {
+	        const item = document.createElement("div");
+	        item.className = "np-item";
+	        item.dataset.id = entry.id;
+	        // 链接图标：点击直接打开网站，不触发聚焦
+	        const linkIcon = document.createElement("span");
+	        linkIcon.className = "np-item-link";
+	        linkIcon.innerHTML = `<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`;
+	        linkIcon.title = "打开网站";
+	        linkIcon.addEventListener("click", (e) => {
+	          e.stopPropagation();
+	          window.open(entry.url, "_blank", "noopener");
+	        });
+	        item.appendChild(linkIcon);
+	        // 文本内容（名称 + URL）
+	        const content = document.createElement("div");
+	        content.className = "np-item-content";
+	        const nm = document.createElement("div");
+	        nm.className = "np-item-name";
+	        nm.textContent = entry.name;
+	        const ur = document.createElement("div");
+	        ur.className = "np-item-url";
+	        ur.textContent = entry.url;
+	        content.appendChild(nm);
+	        content.appendChild(ur);
+	        item.appendChild(content);
+	        // 点击条目聚焦节点
+	        item.addEventListener("click", () => focusNode(entry.id));
+	        col.appendChild(item);
+	      }
+	      body.appendChild(col);
+	    }
 
     renderColumn("双链", "🔄", mutualFiltered);
     renderColumn("单链", "➡️", outgoingFiltered);
