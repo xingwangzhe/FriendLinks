@@ -51,7 +51,8 @@ self.addEventListener("fetch", (event) => {
   }
 
   // ② 图数据 → Network First（立即反映数据更新，离线时走缓存）
-  if (url.pathname === "/graph-core.bin") {
+  // 匹配带内容 hash 的 URL（如 /graph-core.a1b2c3d4e5f6.bin）
+  if (/\/graph-core\.[a-f0-9]+\.bin$/.test(url.pathname)) {
     event.respondWith(networkFirst(event.request));
     return;
   }

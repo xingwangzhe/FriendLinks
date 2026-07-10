@@ -17,7 +17,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro build && bun run scripts/hash-bin-files.ts",
     "preview": "astro preview",
     "lint": "oxlint src/ && tsc --noEmit",
     "fmt": "oxfmt src/ links/ --write",

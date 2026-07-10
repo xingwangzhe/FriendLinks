@@ -42,3 +42,9 @@ storage/
 
 # opencode 工具计划/会话产物
 .zcode/
+
+# Tencent Cloud EdgeOne
+.env
+.edgeone/*
+.tef_dist/*
+  
