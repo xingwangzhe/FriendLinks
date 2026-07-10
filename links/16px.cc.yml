@@ -4,7 +4,15 @@ site:
   description: 王小明的网络日常, 前端打工仔
   links: /links
   friends:
-    - name: 默小班 一个初中生的小站点。
+    - name: 默小班
       url: https://www.memxb.top/
-    - name: 阮一峰的个人网站[单向] 大佬
+      description: 一个初中生的小站点。
+    - name: azukiazusaのテックブログ2
+      url: https://azukiazusa.dev/blog/
+      description: 在 ssr、i11y 都有一点兴趣的不认识的霓虹友人
+    - name: EtherDream's Blog
+      url: https://www.cnblogs.com/index-html/
+      description: 网络攻防，js 骚操作
+    - name: 阮一峰的个人网站
       url: https://www.ruanyifeng.com/
+      description: 大佬

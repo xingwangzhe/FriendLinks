@@ -4,13 +4,18 @@ site:
   description: "友情链接"
   links: "/link"
   friends:
-    - name: "八角星一只可爱的技术佬"
+    - name: "八角星"
       url: "https://040216.xyz/"
-    - name: "雨帆浪漫之人"
+      description: 一只可爱的技术佬
+    - name: "雨帆"
       url: "https://yufan.me/"
-    - name: "Changbin’s Blog热爱分享的技术佬"
+      description: 浪漫之人
+    - name: "Changbin's Blog"
       url: "https://www.misterma.com/"
-    - name: "科学空间分享科学知识"
+      description: 热爱分享的技术佬
+    - name: "科学空间"
       url: "https://kexue.fm/"
-    - name: "Jeremy Feng分享数学知识"
+      description: 分享科学知识
+    - name: "Jeremy Feng"
       url: "https://fengchao.pro/"
+      description: 分享数学知识

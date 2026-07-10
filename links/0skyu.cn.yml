@@ -4,41 +4,67 @@ site:
   description: "友情链接"
   links: "/links"
   friends:
-    - name: "我爱你任静静我爱你"
-      url: "https://任静静.我爱你/"
-    - name: "空零备用站空中有零备用网站"
-      url: "https://sky6.ml/"
-    - name: "PinGo空零国外站"
-      url: "https://blog.imkl.net/"
-    - name: "青葱雅亭一切皆付笑谈中！"
-      url: "https://itciraos.com/"
-    - name: "MYW今日事,今日畢"
-      url: "https://immyw.com/"
-    - name: "时雨小栈搬砖侠・入门级码农"
-      url: "https://www.unlinus.cn/"
-    - name: "孙云增的博客极简生活，极致内涵"
-      url: "https://sunyunzeng.com/"
-    - name: "枋柚梓的猫会发光、繁星永存 记忆亘古不变"
-      url: "https://inkss.cn/"
-    - name: "CC’s Blog从未来再见"
-      url: "https://caicheng.xyz"
-    - name: "Narakue"
-      url: "http://sakuratears.cn"
-    - name: "Eurkonjmp 0x7c00"
-      url: "https://blog.eurkon.com"
-    - name: "林中鹿仙"
-      url: "https://zoukaixin.com"
-    - name: "天昕往者不谏 来者可追"
-      url: "https://sutianxin.top"
-    - name: "花猪佛系青年"
-      url: "https://cnhuazhu.gitee.io/"
-    - name: "贰猹的小窝用这生命中的每一秒，给自己一个不后悔的未来"
-      url: "https://noionion.top/"
-    - name: "清梦醉后不知天在水，满船清梦压星河"
-      url: "https://ahzoo.cn/"
-    - name: "Heyiki’s Blog梦在旅途，永不止步。"
-      url: "https://www.heyiki.top/"
-    - name: "泰戈尔のBlog智慧成就科技，科技改变生活。"
-      url: "https://www.iftiger.com"
-    - name: "张洪Heo产品设计师的知识博客"
-      url: "https://blog.zhheo.com/"
+    - name: 我爱你
+      url: https://任静静.我爱你/
+      description: 任静静我爱你
+    - name: 空零备用站
+      url: https://sky6.ml/
+      description: 空中有零备用网站
+    - name: PinGo
+      url: https://blog.imkl.net/
+      description: 空零国外站
+    - name: 林檎的伤迹
+      url: https://kureijinoringo.github.io/
+      description: 林檎的杂物间
+    - name: 青葱雅亭
+      url: https://itciraos.com/
+      description: 一切皆付笑谈中！
+    - name: Akilarの糖果屋
+      url: https://akilar.top/
+      description: 期待您的光临！
+    - name: MYW
+      url: https://immyw.com/
+      description: 今日事,今日畢
+    - name: 小嘉的部落格
+      url: https://blog.imzjw.cn
+      description: 好记性不如烂笔头
+    - name: 时雨小栈
+      url: https://www.unlinus.cn/
+      description: 搬砖侠・入门级码农
+    - name: 孙云增的博客
+      url: https://sunyunzeng.com/
+      description: 极简生活，极致内涵
+    - name: 枋柚梓的猫会发光
+      url: https://inkss.cn/
+      description: 繁星永存 记忆亘古不变
+    - name: CC's Blog
+      url: https://caicheng.xyz
+      description: 从未来再见
+    - name: Narakue
+      url: http://sakuratears.cn
+    - name: Eurkon
+      url: https://blog.eurkon.com
+      description: jmp 0x7c00
+    - name: 林中鹿仙
+      url: https://zoukaixin.com
+    - name: 天昕
+      url: https://sutianxin.top
+      description: 往者不谏 来者可追
+    - name: 花猪
+      url: https://cnhuazhu.gitee.io/
+      description: 佛系青年
+    - name: 贰猹的小窝
+      url: https://noionion.top/
+      description: 用这生命中的每一秒，给自己一个不后悔的未来
+    - name: 清梦
+      url: https://ahzoo.cn/
+      description: 醉后不知天在水，满船清梦压星河
+    - name: Heyiki's Blog
+      url: https://www.heyiki.top/
+      description: 梦在旅途，永不止步。
+    - name: 泰戈尔のBlog
+      url: https://www.iftiger.com
+      description: 智慧成就科技，科技改变生活。
+    - name: 张洪Heo
+      url: https://blog.zhheo.com/
+      description: 产品设计师的知识博客

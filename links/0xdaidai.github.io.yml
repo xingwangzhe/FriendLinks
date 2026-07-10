@@ -4,21 +4,36 @@ site:
   description: 这是我的全新 Hugo 网站
   links: /friends
   friends:
-    - name: or4nge 小橘子真好吃~
+    - name: or4nge
       url: https://or4ngesec.github.io/
-    - name: s0uthwood 逆向天花板
+      description: 小橘子真好吃~
+    - name: s0uthwood
       url: http://s0uthwood.github.io/
-    - name: triplewings next master of pwn
+      description: 逆向天花板
+    - name: t1anst
+      url: https://tianstcht.github.io/
+      description: GOD ttt
+    - name: triplewings
       url: https://kfxp12138.github.io/
-    - name: Mobilis In Mobili_ 中本航
+      description: next master of pwn
+    - name: Mobilis In Mobili_
       url: https://justloseit.top/
-    - name: ssgss web king, Doctor.Fu
+      description: 中本航
+    - name: ssgss
       url: https://fyhssgss.github.io/
-    - name: pil10w yet another web king
+      description: web king, Doctor.Fu
+    - name: pil10w
       url: https://g00dfe11ow.github.io/
-    - name: s1eepy know any except misc
+      description: yet another web king
+    - name: s1eepy
       url: https://xz1548.github.io/
-    - name: wood stay hungry stay foolish.
+      description: know any except misc
+    - name: wood
       url: https://wood1314.github.io/
-    - name: crazyman CTF还得看空白神
+      description: stay hungry stay foolish.
+    - name: crazyman
       url: https://crazymanarmy.github.io/
+      description: CTF还得看空白神
+    - name: xman
+      url: https://xiananren.github.io/
+      description: 安全启动先驱，ai金种子，游戏安全的👑

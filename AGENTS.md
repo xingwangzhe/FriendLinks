@@ -204,6 +204,24 @@ bun run lint && bun run fmt  # 提交前检查
 
 ## 🛠️ 实用工具
 
+### 爬虫工具（crawl4ai / crwl）
+
+**首选工具**：使用 `crawl4ai` 的 CLI 工具 `crwl` 抓取网页数据。
+
+```bash
+# 基本爬取 + markdown 输出
+crwl <url> -o markdown
+
+# BFS 深度爬取（限制页数）
+crwl <url> --deep-crawl bfs --max-pages 10
+
+# LLM 提取特定信息
+crwl <url> -q "提取内容"
+
+# 指定输出文件
+crwl <url> -o markdown > output.md
+```
+
 ### 统计信息
 
 ```bash
