@@ -83,29 +83,29 @@ export function adjustHex(hex: string, percent: number) {
     if (t < 1 / 2) return q;
     if (t < 2 / 3) return p + (q - p) * (2 / 3 - t) * 6;
     return p;
-	  };
-	  if (mx === mn) {
-	    const gv = Math.round(newL * 255);
-	    return rgbToHex(gv, gv, gv);
-	  }
-	  // HSL 标准色调计算（结果归一化到 [0, 1)，适配 hue2rgb）
-	  const delta = mx - mn;
-	  let hue: number;
-	  if (mx === rn) {
-	    hue = ((gn - bn) / delta) % 6;
-	    if (hue < 0) hue += 6;
-	  } else if (mx === gn) {
-	    hue = (bn - rn) / delta + 2;
-	  } else {
-	    hue = (rn - gn) / delta + 4;
-	  }
-	  hue /= 6; // 归一化到 [0, 1)
-	  const q = newL < 0.5 ? newL * (1 + s) : newL + s - newL * s;
-	  const p = 2 * newL - q;
-	  const rc = hue2rgb(p, q, hue + 1 / 3);
-	  const gc = hue2rgb(p, q, hue);
-	  const bc = hue2rgb(p, q, hue - 1 / 3);
-	  return rgbToHex(Math.round(rc * 255), Math.round(gc * 255), Math.round(bc * 255));
+  };
+  if (mx === mn) {
+    const gv = Math.round(newL * 255);
+    return rgbToHex(gv, gv, gv);
+  }
+  // HSL 标准色调计算（结果归一化到 [0, 1)，适配 hue2rgb）
+  const delta = mx - mn;
+  let hue: number;
+  if (mx === rn) {
+    hue = ((gn - bn) / delta) % 6;
+    if (hue < 0) hue += 6;
+  } else if (mx === gn) {
+    hue = (bn - rn) / delta + 2;
+  } else {
+    hue = (rn - gn) / delta + 4;
+  }
+  hue /= 6; // 归一化到 [0, 1)
+  const q = newL < 0.5 ? newL * (1 + s) : newL + s - newL * s;
+  const p = 2 * newL - q;
+  const rc = hue2rgb(p, q, hue + 1 / 3);
+  const gc = hue2rgb(p, q, hue);
+  const bc = hue2rgb(p, q, hue - 1 / 3);
+  return rgbToHex(Math.round(rc * 255), Math.round(gc * 255), Math.round(bc * 255));
 }
 
 /**

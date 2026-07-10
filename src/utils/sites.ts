@@ -49,10 +49,7 @@ export function clearSitesCache() {
  * 加载所有站点数据。
  * 使用 Node.js readdirSync/readFileSync 原生读取 + yaml 解析 + Zod 校验。
  */
-export async function loadSites(
-  _dir?: string,
-  onProgress?: (current: number, total: number) => void,
-): Promise<Site[]> {
+export async function loadSites(_dir?: string, onProgress?: (current: number, total: number) => void): Promise<Site[]> {
   if (_cachedSites) {
     onProgress?.(_cachedSites.length, _cachedSites.length);
     return _cachedSites;
@@ -63,7 +60,9 @@ export async function loadSites(
   const linksDir = _dir || join(process.cwd(), "links");
   let files: string[];
   try {
-    files = readdirSync(linksDir).filter((f) => f.endsWith(".yml")).sort();
+    files = readdirSync(linksDir)
+      .filter((f) => f.endsWith(".yml"))
+      .sort();
   } catch {
     printDone("无法读取 links 目录");
     return [];
@@ -109,9 +108,7 @@ export async function loadSites(
   }
 
   onProgress?.(files.length, files.length);
-  printDone(
-    `${allSites.length} 个站点${warnings > 0 ? ` (${warnings} 个警告)` : ""}`,
-  );
+  printDone(`${allSites.length} 个站点${warnings > 0 ? ` (${warnings} 个警告)` : ""}`);
 
   _cachedSites = allSites;
   return allSites;

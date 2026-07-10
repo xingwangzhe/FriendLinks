@@ -69,128 +69,129 @@ export interface BuildResult {
 async function buildGraph(sites: Site[]): Promise<BuildResult> {
   const startTime = performance.now();
   const _funcStart = startTime;
-  const _log = (label: string) => console.log(`  [timing]  ${label}: ${((performance.now() - _funcStart) / 1000).toFixed(1)}s`);
+  const _log = (label: string) =>
+    console.log(`  [timing]  ${label}: ${((performance.now() - _funcStart) / 1000).toFixed(1)}s`);
 
   printProgress("❶", `构建图数据 (${sites.length} 个站点)…`, 0);
   const validSites = sites;
-	  const categories: GraphCategory[] = [{ name: "site" }, { name: "friend" }];
-	  const nodes: GraphNode[] = [];
-	  const siteHostSet = new Set<string>();
+  const categories: GraphCategory[] = [{ name: "site" }, { name: "friend" }];
+  const nodes: GraphNode[] = [];
+  const siteHostSet = new Set<string>();
 
-	  for (const s of sites) {
-	    siteHostSet.add(getHost(s.url));
-	  }
+  for (const s of sites) {
+    siteHostSet.add(getHost(s.url));
+  }
 
-	  // linkMap: 用 site URL（唯一）做 key，value 是该站点 friend 的 hostname 集合
-	  const linkMap = new Map<string, Set<string>>();
-	  // hostToId: hostname → 第一个匹配站点的 URL（hostname 级查找用）
-	  const hostToId = new Map<string, string>();
-	  // siteUrlMap: 标准化 URL → site URL（精确匹配用，优先于 hostname）
-	  const siteUrlMap = new Map<string, string>();
+  // linkMap: 用 site URL（唯一）做 key，value 是该站点 friend 的 hostname 集合
+  const linkMap = new Map<string, Set<string>>();
+  // hostToId: hostname → 第一个匹配站点的 URL（hostname 级查找用）
+  const hostToId = new Map<string, string>();
+  // siteUrlMap: 标准化 URL → site URL（精确匹配用，优先于 hostname）
+  const siteUrlMap = new Map<string, string>();
 
-	  for (const s of sites) {
-	    const host = getHost(s.url) || s.url;
-	    const siteId = s.url;
-	    const siteIcon = resolveFavicon(s.favicon);
-	    nodes.push({
-	      id: siteId,
-	      name: s.name,
-	      url: s.url,
-	      favicon: siteIcon,
-	      desc: s.description,
-	      ...(s.color ? { color: s.color } : {}),
-	    });
-	    linkMap.set(siteId, new Set());
-	    if (!hostToId.has(host)) {
-	      hostToId.set(host, siteId);
-	    }
-	    // 标准化 URL（去尾斜杠）作为精确匹配键
-	    siteUrlMap.set(siteId.replace(/\/+$/, ""), siteId);
-	  }
-	  _log("构建核心节点+linkMap");
+  for (const s of sites) {
+    const host = getHost(s.url) || s.url;
+    const siteId = s.url;
+    const siteIcon = resolveFavicon(s.favicon);
+    nodes.push({
+      id: siteId,
+      name: s.name,
+      url: s.url,
+      favicon: siteIcon,
+      desc: s.description,
+      ...(s.color ? { color: s.color } : {}),
+    });
+    linkMap.set(siteId, new Set());
+    if (!hostToId.has(host)) {
+      hostToId.set(host, siteId);
+    }
+    // 标准化 URL（去尾斜杠）作为精确匹配键
+    siteUrlMap.set(siteId.replace(/\/+$/, ""), siteId);
+  }
+  _log("构建核心节点+linkMap");
 
-	  const externalFriends: Array<{
-	    siteId: string;
-	    friend: { name: string; url: string; favicon?: string };
-	  }> = [];
+  const externalFriends: Array<{
+    siteId: string;
+    friend: { name: string; url: string; favicon?: string };
+  }> = [];
 
-	  for (const s of sites) {
-	    const sourceId = s.url;
-	    for (const f of s.friends) {
-	      const targetHost = getHost(f.url);
-	      // 优先精确 URL 匹配，再降级到 hostname 匹配
-	      const exactTarget = siteUrlMap.get(f.url.replace(/\/+$/, ""));
-	      if (exactTarget) {
-	        linkMap.get(sourceId)!.add(getHost(exactTarget));
-	      } else if (siteHostSet.has(targetHost)) {
-	        linkMap.get(sourceId)!.add(targetHost);
-	      } else {
-	        externalFriends.push({ siteId: sourceId, friend: f });
-	      }
-	    }
-	  }
-	  _log("处理友链关系");
+  for (const s of sites) {
+    const sourceId = s.url;
+    for (const f of s.friends) {
+      const targetHost = getHost(f.url);
+      // 优先精确 URL 匹配，再降级到 hostname 匹配
+      const exactTarget = siteUrlMap.get(f.url.replace(/\/+$/, ""));
+      if (exactTarget) {
+        linkMap.get(sourceId)!.add(getHost(exactTarget));
+      } else if (siteHostSet.has(targetHost)) {
+        linkMap.get(sourceId)!.add(targetHost);
+      } else {
+        externalFriends.push({ siteId: sourceId, friend: f });
+      }
+    }
+  }
+  _log("处理友链关系");
 
-	  for (const { friend } of externalFriends) {
-	    const friendHost = getHost(friend.url);
-	    if (!hostToId.has(friendHost)) {
-	      const friendId = friendHost || friend.url;
-	      const friendIcon = resolveFavicon(friend.favicon);
-	      nodes.push({
-	        id: friendId,
-	        name: friend.name,
-	        url: friend.url,
-	        favicon: friendIcon,
-	      });
-	      hostToId.set(friendHost, friendId);
-	    }
-	  }
-	  _log("创建外部友链节点");
+  for (const { friend } of externalFriends) {
+    const friendHost = getHost(friend.url);
+    if (!hostToId.has(friendHost)) {
+      const friendId = friendHost || friend.url;
+      const friendIcon = resolveFavicon(friend.favicon);
+      nodes.push({
+        id: friendId,
+        name: friend.name,
+        url: friend.url,
+        favicon: friendIcon,
+      });
+      hostToId.set(friendHost, friendId);
+    }
+  }
+  _log("创建外部友链节点");
 
-	const linksArr: GraphLink[] = [];
-	const addedSiteLinks = new Set<string>();
+  const linksArr: GraphLink[] = [];
+  const addedSiteLinks = new Set<string>();
 
-	// 预计算 hostname → URLs 反查表，避免内层循环 O(n) 扫描
-	const hostToUrls = new Map<string, string[]>();
-	for (const [url, hosts] of linkMap) {
-	  const h = getHost(url);
-	  if (!hostToUrls.has(h)) hostToUrls.set(h, []);
-	  hostToUrls.get(h)!.push(url);
-	}
+  // 预计算 hostname → URLs 反查表，避免内层循环 O(n) 扫描
+  const hostToUrls = new Map<string, string[]>();
+  for (const [url, hosts] of linkMap) {
+    const h = getHost(url);
+    if (!hostToUrls.has(h)) hostToUrls.set(h, []);
+    hostToUrls.get(h)!.push(url);
+  }
 
-	for (const [sourceId, targetHosts] of linkMap) {
-	  for (const targetNorm of targetHosts) {
-	    const targetId = hostToId.get(targetNorm)!;
-	    const sourceHost = getHost(sourceId);
-	    const pairKey = [sourceHost, targetNorm].sort().join("<->");
+  for (const [sourceId, targetHosts] of linkMap) {
+    for (const targetNorm of targetHosts) {
+      const targetId = hostToId.get(targetNorm)!;
+      const sourceHost = getHost(sourceId);
+      const pairKey = [sourceHost, targetNorm].sort().join("<->");
 
-	    if (addedSiteLinks.has(pairKey)) continue;
-	    addedSiteLinks.add(pairKey);
+      if (addedSiteLinks.has(pairKey)) continue;
+      addedSiteLinks.add(pairKey);
 
-	    const aLinksB = linkMap.get(sourceId)?.has(targetNorm);
-	    // 利用反查表 O(1) 判断另一站点是否也指向此站点
-	    const bLinksA = (hostToUrls.get(targetNorm) ?? []).some(
-	      (otherUrl) => otherUrl !== sourceId && linkMap.get(otherUrl)?.has(sourceHost),
-	    );
-	
-	      if (aLinksB && bLinksA) {
-	        linksArr.push({ source: sourceId, target: targetId });
-	      } else if (aLinksB) {
-	        linksArr.push({ source: sourceId, target: targetId, symbol: ["none", "arrow"] });
-	      } else if (bLinksA) {
-	        linksArr.push({ source: targetId, target: sourceId, symbol: ["none", "arrow"] });
-	      }
-	    }
-	  }
-	
-		  for (const { siteId, friend } of externalFriends) {
-		    const friendHost = getHost(friend.url);
-		    const friendId = hostToId.get(friendHost)!;
-		    linksArr.push({ source: siteId, target: friendId, symbol: ["none", "arrow"] });
-		  }
-	  _log("构建 linksArr");
+      const aLinksB = linkMap.get(sourceId)?.has(targetNorm);
+      // 利用反查表 O(1) 判断另一站点是否也指向此站点
+      const bLinksA = (hostToUrls.get(targetNorm) ?? []).some(
+        (otherUrl) => otherUrl !== sourceId && linkMap.get(otherUrl)?.has(sourceHost),
+      );
 
-	  // ── 构建时 3D 力导布局 ──
+      if (aLinksB && bLinksA) {
+        linksArr.push({ source: sourceId, target: targetId });
+      } else if (aLinksB) {
+        linksArr.push({ source: sourceId, target: targetId, symbol: ["none", "arrow"] });
+      } else if (bLinksA) {
+        linksArr.push({ source: targetId, target: sourceId, symbol: ["none", "arrow"] });
+      }
+    }
+  }
+
+  for (const { siteId, friend } of externalFriends) {
+    const friendHost = getHost(friend.url);
+    const friendId = hostToId.get(friendHost)!;
+    linksArr.push({ source: siteId, target: friendId, symbol: ["none", "arrow"] });
+  }
+  _log("构建 linksArr");
+
+  // ── 构建时 3D 力导布局 ──
   printProgress("❷", `${nodes.length} 节点 · ${linksArr.length} 边 · 力导仿真中…`, 0);
 
   const n = nodes.length;
@@ -242,12 +243,12 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
   const TIME_LIMIT_MS = FAST ? 30000 : 14 * 60 * 1000;
   const TICK_LOG_NEAR_END_MS = 30000;
 
-	  printDone(`力导仿真就绪 · ${nodes.length} 节点 · θ=${forceOpts.theta}`);
-	  _log("力导初始化完成");
-	
-	  const t0 = performance.now();
-	  console.log(`  [timing]  buildGraph 准备阶段: ${((t0 - _funcStart) / 1000).toFixed(1)}s`);
-	  const alphaMin = FAST ? 0.03 : 0.001;
+  printDone(`力导仿真就绪 · ${nodes.length} 节点 · θ=${forceOpts.theta}`);
+  _log("力导初始化完成");
+
+  const t0 = performance.now();
+  console.log(`  [timing]  buildGraph 准备阶段: ${((t0 - _funcStart) / 1000).toFixed(1)}s`);
+  const alphaMin = FAST ? 0.03 : 0.001;
   let actualTicks = 0;
   let stoppedByTime = false;
 
@@ -276,9 +277,9 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
     (nodes[i] as any).z = s[b + 2];
   }
 
-	  const _simEnd = performance.now();
+  const _simEnd = performance.now();
 
-	  // ── 列式紧凑数据 ──
+  // ── 列式紧凑数据 ──
   const nid: string[] = [];
   const nnm: string[] = [];
   const nur: string[] = [];
@@ -425,15 +426,15 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
     return { i16, min, max };
   }
 
-	  const { ndeg, ladj_off, ladj } = buildAdjacency(nid.length, ls, lt);
-	  const _dataEnd = performance.now();
-	  const rawBezier = buildBezierPositions(nid.length, ls, lt, nx, ny, nz);
-	  const qx = quantize(rawBezier.lpx);
-	  const qy = quantize(rawBezier.lpy);
-	  const qz = quantize(rawBezier.lpz);
-	  const _bezierEnd = performance.now();
-	  console.log(`  [timing]  力导+紧凑数据: ${((_dataEnd - _simEnd) / 1000).toFixed(1)}s`);
-	  console.log(`  [timing]  bezier 计算+量化: ${((_bezierEnd - _dataEnd) / 1000).toFixed(1)}s`);
+  const { ndeg, ladj_off, ladj } = buildAdjacency(nid.length, ls, lt);
+  const _dataEnd = performance.now();
+  const rawBezier = buildBezierPositions(nid.length, ls, lt, nx, ny, nz);
+  const qx = quantize(rawBezier.lpx);
+  const qy = quantize(rawBezier.lpy);
+  const qz = quantize(rawBezier.lpz);
+  const _bezierEnd = performance.now();
+  console.log(`  [timing]  力导+紧凑数据: ${((_dataEnd - _simEnd) / 1000).toFixed(1)}s`);
+  console.log(`  [timing]  bezier 计算+量化: ${((_bezierEnd - _dataEnd) / 1000).toFixed(1)}s`);
 
   const elapsed = ((performance.now() - startTime) / 1000).toFixed(1);
   printDone(`图数据构建完成 · ${nodes.length} 节点 · ${linksArr.length} 边 · 耗时 ${elapsed}s`);

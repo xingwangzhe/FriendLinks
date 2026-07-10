@@ -202,32 +202,32 @@ export async function init3d(graphData: GraphData) {
     });
   });
 
-	  // ── 4. 搜索索引（FlexSearch full 分词，CJK 友好）──
-	  const searchIndex = new FlexSearch.Index({
-	    tokenize: "full",
-	    cache: true,
-	  });
-	  const searchStore = new Map<string, { id: string; name: string; url: string; description: string }>();
-	  for (const n of nodes) {
-	    const id = n.id;
-	    if (!id) continue;
-	    const name = n.name || id;
-	    const url = n.url || "";
-	    const desc = n.desc || "";
-	    // 中文按字索引 + 拼音辅助：name 和 url 和 desc 一起索引
-	    const text = `${name} ${url} ${desc} ${id}`;
-	    searchIndex.add(id, text);
-	    const existing = searchStore.get(id);
-	    if (existing) {
-	      // 重复 ID 的节点合并名称
-	      if (name && !existing.name.includes(name)) {
-	        // 更新名称（保留更完整的）
-	        if (name.length > existing.name.length) existing.name = name;
-	      }
-	    } else {
-	      searchStore.set(id, { id, name, url, description: desc });
-	    }
-	  }
+  // ── 4. 搜索索引（FlexSearch full 分词，CJK 友好）──
+  const searchIndex = new FlexSearch.Index({
+    tokenize: "full",
+    cache: true,
+  });
+  const searchStore = new Map<string, { id: string; name: string; url: string; description: string }>();
+  for (const n of nodes) {
+    const id = n.id;
+    if (!id) continue;
+    const name = n.name || id;
+    const url = n.url || "";
+    const desc = n.desc || "";
+    // 中文按字索引 + 拼音辅助：name 和 url 和 desc 一起索引
+    const text = `${name} ${url} ${desc} ${id}`;
+    searchIndex.add(id, text);
+    const existing = searchStore.get(id);
+    if (existing) {
+      // 重复 ID 的节点合并名称
+      if (name && !existing.name.includes(name)) {
+        // 更新名称（保留更完整的）
+        if (name.length > existing.name.length) existing.name = name;
+      }
+    } else {
+      searchStore.set(id, { id, name, url, description: desc });
+    }
+  }
 
   // ── 5. 状态 ──
   let hoveredId: string | null = null;
@@ -372,11 +372,11 @@ export async function init3d(graphData: GraphData) {
     }
   }
 
-	  function refreshLinkColors() {
-	    (ctx.linkLines.material as THREE.LineBasicMaterial).opacity = linkOpacity.value;
-	    saveVal("link_opacity", linkOpacity.value);
-	    _needsRender = true;
-	  }
+  function refreshLinkColors() {
+    (ctx.linkLines.material as THREE.LineBasicMaterial).opacity = linkOpacity.value;
+    saveVal("link_opacity", linkOpacity.value);
+    _needsRender = true;
+  }
 
   // ── 8. 标签系统 ──
   const labelGroup = new THREE.Group();
@@ -787,45 +787,45 @@ export async function init3d(graphData: GraphData) {
       return;
     }
 
-	    function renderColumn(title: string, icon: string, entries: Array<{ id: string; name: string; url: string }>) {
-	      const col = document.createElement("div");
-	      col.className = "np-section";
-	      const secTitle = document.createElement("div");
-	      secTitle.className = "np-section-title";
-	      secTitle.innerHTML = `<span>${icon} ${title}</span><span class="count">${entries.length}</span>`;
-	      col.appendChild(secTitle);
-	      for (const entry of entries) {
-	        const item = document.createElement("div");
-	        item.className = "np-item";
-	        item.dataset.id = entry.id;
-	        // 链接图标：点击直接打开网站，不触发聚焦
-	        const linkIcon = document.createElement("span");
-	        linkIcon.className = "np-item-link";
-	        linkIcon.innerHTML = `<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`;
-	        linkIcon.title = "打开网站";
-	        linkIcon.addEventListener("click", (e) => {
-	          e.stopPropagation();
-	          window.open(entry.url, "_blank", "noopener");
-	        });
-	        item.appendChild(linkIcon);
-	        // 文本内容（名称 + URL）
-	        const content = document.createElement("div");
-	        content.className = "np-item-content";
-	        const nm = document.createElement("div");
-	        nm.className = "np-item-name";
-	        nm.textContent = entry.name;
-	        const ur = document.createElement("div");
-	        ur.className = "np-item-url";
-	        ur.textContent = entry.url;
-	        content.appendChild(nm);
-	        content.appendChild(ur);
-	        item.appendChild(content);
-	        // 点击条目聚焦节点
-	        item.addEventListener("click", () => focusNode(entry.id));
-	        col.appendChild(item);
-	      }
-	      body.appendChild(col);
-	    }
+    function renderColumn(title: string, icon: string, entries: Array<{ id: string; name: string; url: string }>) {
+      const col = document.createElement("div");
+      col.className = "np-section";
+      const secTitle = document.createElement("div");
+      secTitle.className = "np-section-title";
+      secTitle.innerHTML = `<span>${icon} ${title}</span><span class="count">${entries.length}</span>`;
+      col.appendChild(secTitle);
+      for (const entry of entries) {
+        const item = document.createElement("div");
+        item.className = "np-item";
+        item.dataset.id = entry.id;
+        // 链接图标：点击直接打开网站，不触发聚焦
+        const linkIcon = document.createElement("span");
+        linkIcon.className = "np-item-link";
+        linkIcon.innerHTML = `<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`;
+        linkIcon.title = "打开网站";
+        linkIcon.addEventListener("click", (e) => {
+          e.stopPropagation();
+          window.open(entry.url, "_blank", "noopener");
+        });
+        item.appendChild(linkIcon);
+        // 文本内容（名称 + URL）
+        const content = document.createElement("div");
+        content.className = "np-item-content";
+        const nm = document.createElement("div");
+        nm.className = "np-item-name";
+        nm.textContent = entry.name;
+        const ur = document.createElement("div");
+        ur.className = "np-item-url";
+        ur.textContent = entry.url;
+        content.appendChild(nm);
+        content.appendChild(ur);
+        item.appendChild(content);
+        // 点击条目聚焦节点
+        item.addEventListener("click", () => focusNode(entry.id));
+        col.appendChild(item);
+      }
+      body.appendChild(col);
+    }
 
     renderColumn("双链", "🔄", mutualFiltered);
     renderColumn("单链", "➡️", outgoingFiltered);
@@ -1318,19 +1318,19 @@ export async function init3d(graphData: GraphData) {
   const end_v = new THREE.Vector3();
   const dir_v = new THREE.Vector3();
 
-	  // ── 共享材质（hover 和 focus 共用，运行时切换颜色/亮度）──
-	  const overlayHaloMat = new THREE.MeshStandardMaterial({
-	    emissiveIntensity: 0.4,
-	    transparent: true,
-	    opacity: 0.25,
-	    depthWrite: false,
-	  });
-	  const overlayCoreMat = new THREE.MeshStandardMaterial({
-	    emissiveIntensity: 0.7,
-	    transparent: true,
-	    opacity: 1,
-	    depthWrite: false,
-	  });
+  // ── 共享材质（hover 和 focus 共用，运行时切换颜色/亮度）──
+  const overlayHaloMat = new THREE.MeshStandardMaterial({
+    emissiveIntensity: 0.4,
+    transparent: true,
+    opacity: 0.25,
+    depthWrite: false,
+  });
+  const overlayCoreMat = new THREE.MeshStandardMaterial({
+    emissiveIntensity: 0.7,
+    transparent: true,
+    opacity: 1,
+    depthWrite: false,
+  });
 
   // ── 预构建 mesh 池 ──
   const POOL_SIZE = 500 * EDGE_SEGMENTS; // 池容量，显示上限由滑条控制
@@ -1361,15 +1361,15 @@ export async function init3d(graphData: GraphData) {
       return;
     }
 
-	    const baseColor = new THREE.Color(color);
-	    const isFocus = focusedId === nodeId;
-	    overlayHaloMat.color.copy(baseColor);
-	    overlayHaloMat.emissive.copy(baseColor);
-	    overlayHaloMat.emissiveIntensity = isFocus ? 0.8 : 0.4;
-	    overlayHaloMat.opacity = isFocus ? 0.5 : 0.25;
-	    overlayCoreMat.color.copy(baseColor);
-	    overlayCoreMat.emissive.copy(baseColor);
-	    overlayCoreMat.emissiveIntensity = isFocus ? 1.2 : 0.7;
+    const baseColor = new THREE.Color(color);
+    const isFocus = focusedId === nodeId;
+    overlayHaloMat.color.copy(baseColor);
+    overlayHaloMat.emissive.copy(baseColor);
+    overlayHaloMat.emissiveIntensity = isFocus ? 0.8 : 0.4;
+    overlayHaloMat.opacity = isFocus ? 0.5 : 0.25;
+    overlayCoreMat.color.copy(baseColor);
+    overlayCoreMat.emissive.copy(baseColor);
+    overlayCoreMat.emissiveIntensity = isFocus ? 1.2 : 0.7;
     overlayCoreMat.opacity = 1;
 
     const focusScale = isFocus ? 2 : 1;
@@ -1926,17 +1926,20 @@ export async function init3d(graphData: GraphData) {
   });
   ro.observe(container);
 
-	  // ── 19. 公开 API ──
-	  function find(query: string) {
-	    if (!query?.trim()) return [];
-	    const q = query.trim().toLowerCase();
-	    const ids = searchIndex.search(q, 12) as string[];
-	    return ids
-	      .map((id) => searchStore.get(id))
-	      .filter(Boolean) as Array<{ id: string; name: string; url: string; description: string }>;
-	  }
-	
-	  function getGraphData() {
+  // ── 19. 公开 API ──
+  function find(query: string) {
+    if (!query?.trim()) return [];
+    const q = query.trim().toLowerCase();
+    const ids = searchIndex.search(q, 12) as string[];
+    return ids.map((id) => searchStore.get(id)).filter(Boolean) as Array<{
+      id: string;
+      name: string;
+      url: string;
+      description: string;
+    }>;
+  }
+
+  function getGraphData() {
     return { nodes, links };
   }
 
