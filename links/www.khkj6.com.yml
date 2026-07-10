@@ -1,8 +1,16 @@
 site:
-  name: "空痕博客"
-  url: "https://www.khkj6.com/"
-  description: "空痕的个人技术博客，分享Web前端/后端开发、编程语言、实战项目及学习笔记。专注于解决实际开发中的疑难杂症，记录成长轨迹，与开发者共同进步。"
-  links: "/links"
+  name: 空痕博客
+  url: https://www.khkj6.com/
+  description: 编程学习分享
+  links: /friends.html
   friends:
-    - name: "易航博客"
-      url: "https://blog.yihang.info/"
+    - name: 安排博客
+      url: https://blog.qapid.cn
+    - name: 笒鬼鬼
+      url: https://blog.cenguigui.cn
+    - name: 易航博客
+      url: http://blog.bri6.cn
+    - name: 易航博客
+      url: http://blog.yihang.info/
+    - name: 小柚博客
+      url: https://ww5a.cn
