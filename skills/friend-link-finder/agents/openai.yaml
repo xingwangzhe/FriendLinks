@@ -1,0 +1,3 @@
+interface:
+  display_name: "Friend Link Finder"
+  short_description: "Locate a site's friend-links page, crawl it with crwl, filter by the FriendLinks AGENTS.md standard, and emit links/*.yml data."
