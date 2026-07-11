@@ -1,14 +1,30 @@
 site:
-  name: "Xue 的小小博客"
-  url: "https://bryantxue.com/"
-  description: "分享一些自己摸索的过程，希望能帮到你！"
-  links: "/links"
+  name: Xue 的小小博客
+  url: https://bryantxue.com/
+  description: 东拼西凑的小破博客
+  links: /my-friends
   friends:
-    - name: "loading..."
-      url: "https://xxxh.de/"
-    - name: "薇尔薇"
-      url: "https://www.vio.vin/"
-    - name: "风尘落微雨"
-      url: "https://www.weirain.com/"
-    - name: "主页"
-      url: "https://docs.fuukei.org/"
+    - name: DaMa
+      url: https://idama.top
+      description: 在NS的坛友
+    - name: Gmlxh
+      url: https://boke.lianghuigu.top/
+      description: 在DeepFlood的坛友哦！
+    - name: solaireh3
+      url: https://xxxh.de/
+      description: 在NS的坛友
+    - name: 折腾笔记
+      url: https://pbpz.net/
+      description: 在NS的坛友
+    - name: 桃花源记
+      url: https://blog.cccd.cloudns.be
+      description: 忽逢桃花林，夹岸数百步，中无杂树，芳草鲜美，落英缤纷。
+    - name: 荣6的博客
+      url: https://rong6.cn
+      description: 这家伙好懒╮(╯▽╰)╭
+    - name: 薇尔薇
+      url: https://www.vio.vin/
+      description: Go to work only for getting off work
+    - name: 风尘落微雨
+      url: https://www.weirain.com/
+      description: 探索无止境，以字句为足迹，记录每个思考的闪光点

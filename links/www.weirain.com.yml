@@ -1,32 +1,66 @@
 site:
-  name: "风尘落微雨"
-  url: "https://www.weirain.com/"
-  description: "探索技术边界，记录生活百态。风尘落微雨汇集了前沿技术教程与个人学习笔记，并不定期更新生活随笔。愿这里成为你获取知识、启迪思维的温暖互联网栖息地。"
-  links: "/links"
+  name: 微雨's Blog
+  url: https://www.weirain.com/
+  description: 记录生活，分享思考，探索无限可能
+  links: /index.php/friends.html
   friends:
-    - name: "Thun888"
-      url: "https://blog.hzchu.top/"
-    - name: "沉梦小站"
-      url: "https://cmxz.top/"
-    - name: "Oyiso's Blog"
-      url: "https://oyiso.cn/"
-    - name: "一世繁华"
-      url: "https://blog.hantaotao.top/"
-    - name: "JIPA233の小窝"
-      url: "https://imjipa.top/"
-    - name: "oneLN"
-      url: "https://oneln.org/"
-    - name: "XingJiのBlog"
-      url: "https://love.xingji.fun/"
-    - name: "SeaEpoch"
-      url: "https://www.seaepoch.com/"
-    - name: "Xue 的小小博客"
-      url: "https://bryantxue.com/"
-    - name: "Weichky's Blog"
-      url: "https://blog.weichky.com/"
-    - name: "Cloud09_Space"
-      url: "https://cloud09.space/"
-    - name: "LHL's Blog"
-      url: "https://blog.lhl.one/"
-    - name: "Pei"
-      url: "https://blog.goku.top/"
+    - name: Pei's Blog
+      url: https://blog.goku.top
+      description: 随记随看
+    - name: 沉梦小站
+      url: https://cmxz.top
+      description: 风带来故事的种子，时间使其发芽
+    - name: JIPA233の小窝
+      url: https://imjipa.top
+      description: Deed divides beings into lower and higher ones.
+    - name: SeaEpoch
+      url: https://www.seaepoch.com
+      description: 她站在那里，就像一个小小的永恒！
+    - name: 溯小容
+      url: https://suxiaorong.top
+      description: 世上本无事，庸人自扰之。
+    - name: 星空之下
+      url: https://blog.boranstars.top
+      description: 循此苦旅，终抵群星
+    - name: Corrain's blog
+      url: https://www.corrain.top
+      description: 心中有海，不赶浪潮
+    - name: XingJiのBlog
+      url: https://love.xingji.fun/
+      description: 迄今所有人生都大写着失败，但不妨碍我继续向前✨
+    - name: 小言的博客
+      url: https://ciyuani.com
+      description: 尽人事以听天命
+    - name: oneLN
+      url: https://oneln.org
+      description: 时间就是力量，你的时间就是你的力量
+    - name: 一世繁华
+      url: https://blog.hantaotao.top
+      description: 分享一二
+    - name: Xue 的小小博客
+      url: https://bryantxue.com
+      description: 以此苦旅，终抵星辰
+    - name: 喵羽茜
+      url: https://blog.klicn.com
+      description: 飞萤扑火，向死而生
+    - name: LHL's Blog
+      url: https://blog.lhl.one
+      description: 想把海洋里所有鱼都握在手里…
+    - name: Cloud09_Space
+      url: https://cloud09.space
+      description: 云零九空间
+    - name: Oyiso's Blog
+      url: https://oyiso.cn
+      description: The shortest answer is doing
+    - name: 小飞博客
+      url: https://blog.xffjs.com
+      description: 生活明朗，万物可爱，人间值得，未来可期。
+    - name: Thun888's Blog
+      url: https://blog.hzchu.top
+      description: 夏日当空，心如深渊
+    - name: Weichky's Blog
+      url: https://blog.weichky.com
+      description: 物不可穷也，故受之以未济。
+    - name: 陆小启Kairo
+      url: https://blog.luxq.space
+      description: 往者不谏，来者可追

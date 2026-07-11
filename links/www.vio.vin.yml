@@ -1,34 +1,51 @@
 site:
-  name: "薇尔薇"
-  url: "https://www.vio.vin/"
-  description: "We're not exactly in a position to be trusted with secrets, are we?"
-  links: "/links"
+  name: 薇尔薇
+  url: https://www.vio.vin/
+  description: Only the paranoid survive
+  links: /friends
   friends:
-    - name: "焕昭君的博客"
-      url: "https://blog.huan666.de/"
-    - name: "Incohua's Blog"
-      url: "https://blog.inmoe.org/"
-    - name: "小植同学"
-      url: "https://blog.xiaoztx.top/"
-    - name: "Xue 的小小博客"
-      url: "https://bryantxue.com/"
-    - name: "Cleves"
-      url: "https://cleves.me/"
-    - name: "for_the_zero的小站"
-      url: "https://ftz.is-a.dev/"
-    - name: "chrivs.com"
-      url: "https://chrivs.com/"
-    - name: "静かな森"
-      url: "https://innei.in/"
-    - name: "CC的博客"
-      url: "https://main.791197.xyz/"
-    - name: "YYsuni"
-      url: "https://www.yysuni.com/"
-    - name: "loading..."
-      url: "https://xxxh.de/"
-    - name: "主页"
-      url: "https://yanglixin.com/"
-    - name: "Jayden's site"
-      url: "https://xxu.do/"
-    - name: "薇尔薇"
-      url: "https://vio.moe/"
+    - name: 焕昭君
+      url: https://blog.huan666.de/
+      description: 知行合一，日拱一卒
+    - name: Incohua's Blog
+      url: https://blog.inmoe.org/
+      description: incohua的博客
+    - name: Xue的小小博客
+      url: https://bryantxue.com
+      description: 以此苦旅，终抵星辰
+    - name: Travis's Blog
+      url: https://chrivs.com/
+      description: 随手小记
+    - name: Cleves
+      url: https://cleves.me/
+      description: A web developer who loves creating.
+    - name: 小植同学
+      url: https://blog.xiaoztx.top/
+      description: 锦鲤相随，好运常伴
+    - name: 雪貂神社
+      url: https://ferret.icu
+      description: 🤔迟早有一天我要把bug修复
+    - name: for_the_zero的小站
+      url: https://ftz.is-a.dev/
+      description: Everywhere of Inexistence
+    - name: 贰拾肆行诗
+      url: https://hsuqnian.top/
+      description: 不惊、不惑、不扰。
+    - name: 静かな森
+      url: https://innei.in/
+      description: 致虚极，守静笃。
+    - name: YYsuni
+      url: https://www.yysuni.com
+      description: 是前端
+    - name: Jayden's site
+      url: https://xxu.do/
+      description: 为天地立心，为生民立命，为往圣继绝学，为万世开太平。
+    - name: solaireh3
+      url: https://xxxh.de/
+      description: 愛しの君とこの世のはたて
+    - name: CC的博客
+      url: https://main.791197.xyz/
+      description: 我们永不消逝！
+    - name: 离心
+      url: https://yanglixin.com/
+      description: Learn、Share、Create、Build
