@@ -1,16 +1,42 @@
 site:
-  name: "TNTのBLOG"
-  url: "https://blog.tnto.fun/"
-  description: "TNTのBLOG - 你好欢迎光临~"
-  links: "/links"
+  name: TNTの小破站
+  url: https://blog.tnto.fun/
+  description: 萝卜青菜，各有所爱~
+  links: /friends
   friends:
-    - name: "fishcpy的小破站"
-      url: "https://blog.fis.ink/"
-    - name: "鈴奈咲桜的Blog"
-      url: "https://blog.sakura.ink/"
-    - name: "域名更换说明"
-      url: "https://qxzhan.cn/"
-    - name: "青秒博客-新站点"
-      url: "https://blog.qmiao.top/"
-    - name: "默小班"
-      url: "https://www.memxb.top/"
+    - name: 星辰の笔记
+      url: https://blog.strarry.top/
+      description: Code | Think | Share | Repeat
+    - name: fishcpy的小破站
+      url: https://blog.fis.ink/
+      description: 非淡泊无以明志，非宁静无以致远
+    - name: yunsen2025 的小窝
+      url: https://www.yunsen2025.top
+      description: 纯粹的计算机爱好者
+    - name: 自由的博客
+      url: https://free2011.top/
+      description: 一名初中生的博客，热爱生活，热爱技术
+    - name: 鈴奈咲桜のBlog
+      url: https://blog.sakura.ink
+      description: 愛することを忘れないで
+    - name: GGGuoshifu の Blog
+      url: https://blog.mrguo.icu
+      description: 天助自助者
+    - name: 青序栈
+      url: https://qxzhan.cn/
+      description: 青序成栈·向简而生
+    - name: Tavre Blog
+      url: https://blog.tsd.my
+      description: 茫茫大海 我与你相遇
+    - name: 青杪的博客
+      url: https://blog.qmiao.top/
+      description: 一个分享日常的博客和一个老鸽子站长
+    - name: 小小白哦の Blog
+      url: https://odoorbell.vvvv.ee/
+      description: 一个 Blog
+    - name: 前端小白-博客
+      url: https://www.qian-qian.xyz
+      description: 这人很懒什么都没留下.
+    - name: 默小班
+      url: https://www.memxb.top/
+      description: 一个初中生的小站点
