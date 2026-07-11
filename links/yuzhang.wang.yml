@@ -1,100 +1,137 @@
 site:
   name: YuZhangWang的领域
-  url: https://www.yuzhang.wang/
+  url: https://yuzhang.wang/
   description: PLUSULTRA!
   links: /link
   friends:
-    - name: 鼠鼠在碎觉 我是不慎落入世界的一滴水墨
-      url: https://www.sszsj.cc
-    - name: 淡白记忆博客 记录所见所想
-      url: https://p00q.cn/
-    - name: Jeffrey的博客 左脑编程，右脑写诗
-      url: https://www.yejiefeng.com/
-    - name: 北屿 北屿小智障！
-      url: https://blog.bj-yan.top/
-    - name: 郑泽鑫的博客 with ❤️
-      url: https://zhengzexin.com/
-    - name: 进击的学霸的博客 代码写出来是给人看的，附带能在机器上运行
-      url: https://blog.lovem.fun/
-    - name: Legroft's blog legroft的划水日常
-      url: https://jinjis.cn/
-    - name: Achuan-2 闪闪发亮，闪闪发亮！
-      url: https://www.achuan-2.top/
-    - name: Ansen 半路出家的运维开发
-      url: https://www.lshell.com/
-    - name: 鸟不拉诗 品味生活，分享技术
-      url: https://niaobulashi.com/
-    - name: 查利鹏 每一篇文章都是一个成长的过程。
-      url: https://imzlp.com/
-    - name: Vigorous Pro The world can always use more heroes.
-      url: https://www.wevg.org
-    - name: D ღゝ◡╹)ノ❤️
-      url: https://88250.b3log.org/
-    - name: 云游君的小站 希望能成为一个有趣的人。
-      url: https://www.yunyoujun.cn
-    - name: 沈大力的窝 求知若饥，虚心若愚
+    - name: 沈大力的窝
       url: http://www.leeshen.net/
-    - name: Frank笔记 记录蜕变后的生活
+      description: 求知若饥，虚心若愚
+    - name: Frank笔记
       url: https://frank2019.me/
-    - name: GamerNoTitle GamerNoTitle的小屋哦~
+      description: 记录蜕变后的生活
+    - name: GoogTech
+      url: https://goog.tech/blog/
+      description: Developer, hacker, blogger, guitarist, marathoner and vlogger.
+    - name: 鸟不拉诗
+      url: https://niaobulashi.com/
+      description: 品味生活，分享技术
+    - name: Jeffrey的博客
+      url: https://www.yejiefeng.com/
+      description: 左脑编程，右脑写诗
+    - name: 查利鹏
+      url: https://imzlp.com/
+      description: 每一篇文章都是一个成长的过程。
+    - name: 鼠鼠在碎觉
+      url: https://www.sszsj.cc
+      description: 我是不慎落入世界的一滴水墨
+    - name: 北屿
+      url: https://blog.bj-yan.top/
+      description: 北屿小智障！
+    - name: Achuan-2
+      url: https://www.achuan-2.top/
+      description: 闪闪发亮，闪闪发亮！
+    - name: 云游君的小站
+      url: https://www.yunyoujun.cn
+      description: 希望能成为一个有趣的人。
+    - name: Legroft's blog
+      url: https://jinjis.cn/
+      description: legroft的划水日常
+    - name: GamerNoTitle
       url: https://bili33.top
-    - name: V 大前端的点滴生活
-      url: https://vanessa.b3log.org/
-    - name: 新加卷的小宇宙 明日登峰须造极，渺观宇宙我心宽
-      url: https://www.hzq.life/
-    - name: Ray 勿忘初心 方得始终
-      url: https://blog.r-ay.cn
-    - name: 弋钓草野 如野草般一岁一枯荣
-      url: https://www.aliuying.com/
-    - name: 旧时繁华 繁华似锦觅安宁,淡云流水度此生
-      url: https://blog.rain888.cn
-    - name: 沉舟侧畔 Blog 新生的力量，生机勃勃
-      url: https://springwood.me/
-    - name: 孤舟のBlog 19岁，是菜鸟
-      url: https://www.kcomi.com/
-    - name: 猫四叔 思绪来得快去得也快，偶尔会在这里停留
-      url: https://yuanj.top/
-    - name: 喵二の小博客 缘，妙不可言
-      url: https://www.miaoer.xyz/
-    - name: 汀彵の汐 好事多磨，浪漫不死
-      url: https://www.izznan.cn
-    - name: 一叶三秋 一只00后萌新伪后浪的咸鱼
-      url: https://ghser.com
-    - name: 代码改变世界 用一生追求技术，用代码改变世界！
-      url: https://codingchangeworld.com/
-    - name: Kurococ Liu 被子外面很危险！
-      url: https://blog.lkurococ.top/
-    - name: FANTASY博客 记录学习、生活的小站
-      url: https://blog.tigerxly.com/
-    - name: Khighness 炒菜K殿下
-      url: https://www.parak.top/
-    - name: Lafish的部落格 记录某小白的一旬成长
-      url: https://lafish.fun/
-    - name: Android 矩阵
-      url: https://android99.me
-    - name: 陆陆大顺 一路走 一路失去 也一路拥有
+      description: GamerNoTitle的小屋哦~
+    - name: 咕咚
+      url: https://gudong.site/
+      description: 热爱篮球的 Android 工程师
+    - name: D
+      url: https://88250.b3log.org/
+    - name: 进击的学霸的博客
+      url: https://blog.lovem.fun/
+      description: 代码写出来是给人看的，附带能在机器上运行
+    - name: Vigorous Pro
+      url: https://www.wevg.org
+      description: The world can always use more heroes.
+    - name: Ansen
+      url: https://www.lshell.com/
+      description: 半路出家的运维开发
+    - name: 淡白记忆博客
+      url: https://p00q.cn/
+      description: 记录所见所想
+    - name: 郑泽鑫的博客
+      url: https://zhengzexin.com/
+      description: with ❤️
+    - name: XR-SEC
+      url: https://xrsec.eu.org
+      description: 低调求发展，潜心习安全
+    - name: 陆陆大顺
       url: https://blog.shunnet.top/
-    - name: 乱谈府 也扯淡，也思考，也学习，也生活
+      description: 一路走 一路失去 也一路拥有
+    - name: Lafish的部落格
+      url: https://lafish.fun/
+      description: 记录某小白的一旬成长
+    - name: Kurococ Liu
+      url: https://blog.lkurococ.top/
+      description: 被子外面很危险！
+    - name: 代码改变世界
+      url: https://codingchangeworld.com/
+      description: 用一生追求技术，用代码改变世界！
+    - name: Ray
+      url: https://blog.r-ay.cn
+      description: 勿忘初心 方得始终
+    - name: 乱谈府
       url: https://laffitto.xyz
-    - name: Ethan.Tzy 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志
+      description: 也扯淡，也思考，也学习，也生活
+    - name: 沉舟侧畔 Blog
+      url: https://springwood.me/
+      description: 新生的力量，生机勃勃
+    - name: 汀彵の汐
+      url: https://www.izznan.cn
+      description: 好事多磨，浪漫不死
+    - name: 新加卷的小宇宙
+      url: https://www.hzq.life/
+      description: 明日登峰须造极，渺观宇宙我心宽
+    - name: Android
+      url: https://android99.me
+      description: 矩阵
+    - name: 孤舟のBlog
+      url: https://www.kcomi.com/
+      description: 19岁，是菜鸟
+    - name: 无境
+      url: https://www.drflower.top/
+      description: 梦想成为家里蹲的游戏开发萌新
+    - name: Ethan.Tzy
       url: https://fe32.top/
-    - name: 强仔博客 愿陪你慢慢长大
+      description: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志
+    - name: 一叶三秋
+      url: https://ghser.com
+      description: 一只00后萌新伪后浪的咸鱼
+    - name: 猫四叔
+      url: https://yuanj.top/
+      description: 思绪来得快去得也快，偶尔会在这里停留
+    - name: Khighness
+      url: https://www.parak.top/
+      description: 炒菜K殿下
+    - name: 旧时繁华
+      url: https://blog.rain888.cn
+      description: 繁华似锦觅安宁,淡云流水度此生
+    - name: 弋钓草野
+      url: https://www.aliuying.com/
+      description: 如野草般一岁一枯荣
+    - name: 强仔博客
       url: https://q6q.cc
-    - name: 蔡不菜和他的uU们 分享热爱与思考
+      description: 愿陪你慢慢长大
+    - name: 喵二の小博客
+      url: https://www.miaoer.xyz/
+      description: 缘，妙不可言
+    - name: 秉松博客
+      url: https://blog.wibus.ren/
+      description: 专注于Typecho和音乐作曲
+    - name: FANTASY博客
+      url: https://blog.tigerxly.com/
+      description: 记录学习、生活的小站
+    - name: 懒猫爱伸腰
+      url: https://guokm.cn
+      description: 一只菜鸟的日志
+    - name: 蔡不菜和他的uU们
       url: https://www.caibucai.top/
-    - name: 墨殇的技术博客 一个间歇性自闭，持续性没心没肺的逗比青年
-      url: https://www.inkdp.cn
-    - name: 记录高中生活 今天记点什么明天写点什么
-      url: https://www.11bi.co
-    - name: AyuのBlog 不忘初心，牢记使命
-      url: https://www.xiaoayu.xyz
-    - name: 一条咸鱼与狗 将微风吹向远方，纪念那个从未逝去的“你”
-      url: https://purefish.cn/
-    - name: 魂祈梦 在这里的都是dalao
-      url: https://oldsaltfish.top/
-    - name: JssDream 静以修身，俭以养德
-      url: https://www.hjava.cn/
-    - name: 孤影&墨香 一去天涯征程无尽头
-      url: https://www.gymxbl.com/
-    - name: 学习笔记 会写bug的程序员
-      url: http://blogstudy.cn/#/client
+      description: 分享热爱与思考
