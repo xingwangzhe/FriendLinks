@@ -1,28 +1,51 @@
 site:
-  name: 生活的点滴-是热爱呀
+  name: BobMaster's Blog
   url: https://blog.hibobmaster.com/
-  description: 友情链接
+  description: 生活的点滴-是热爱呀
   links: /friends
   friends:
-    - name: Steven’s Blog
+    - name: Dejavu's Blog
+      url: https://blog.dejavu.moe
+      description: Fun, Fun, Fun ~
+    - name: Steven's Blog
       url: https://blog.hly0928.com/
-    - name: Wincer’s Blog
+      description: 大学萌新的普通 Blog
+    - name: Wincer's Blog
       url: https://blog.itswincer.com/
+      description: 热爱IT，喜欢书籍和电影
     - name: 懒得勤快
       url: https://masuit.com/
+      description: 全栈开发者，互联网分享精神
+    - name: 木子
+      url: https://blog.k8s.li/
+      description: 真Kindler，运维师，EFF 电子前哨基金会成员
     - name: Eren の 宇宙船
       url: https://erenship.com/
+      description: 独立博客，记录生活，分享点滴
     - name: Benny 小土豆
       url: https://dmesg.app/
+      description: Benny大佬，经常看他晒猫
+    - name: 荒岛
+      url: https://lala.im/
+      description: 分享创造快乐
+    - name: 始终
+      url: https://liam.page/
+      description: 丈夫、工程师
     - name: 摩尔の镇 | モル·町
       url: https://www.mole9630.top/
+      description: 一座奇妙的小孤岛
     - name: 文君-阳光锡安
       url: https://zionofsun.wordpress.com/
+      description: 神之子，主之弟，生之客，人之友。
     - name: 悦书轩
       url: https://oldcoat.freeforums.net/
+      description: 以文会友，文学的花园
     - name: 私の気まぐれな世界
       url: https://blog.junfancy.com
-    - name: Luyu Huang’s Tech Blog
+      description: 在幻想與現實之間，記錄我的愛情與生活。
+    - name: Luyu Huang's Tech Blog
       url: https://luyuhuang.tech/
+      description: software engineer and game developer
     - name: David Revoy
       url: https://www.davidrevoy.com/
+      description: 一位将自由软件精神践行了近20年的艺术家
