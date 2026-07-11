@@ -1,10 +1,18 @@
 site:
-  name: Yo! Atlas here!
+  name: Atlasnow / 图图
   url: https://atlasnow.xyz/
-  description: 欢迎来到我的网站。要来一杯热茶，和我慢慢聊聊你的想法吗？
-  links: /links
+  description: 把灵感做成作品，把作品写成故事。
+  links: /#friends
   friends:
-    - name: Kevin Deng / 智子 轻舟已过万重山 / 卡卡,下命令吧！ sxzz.dev ↗
+    - name: QPomelo / 柚子
+      url: https://qpomelo.dev/
+      description: 咕咕咕中的独立开发者 / 识于微时,人生导航标
+    - name: sazanami / 十二
+      url: https://sazanami.icu/
+      description: 你在本网站见到的品味最高的人 / 他说：干吧！
+    - name: Kevin Deng / 智子
       url: https://sxzz.dev/
-    - name: 困困困困困困 / XC 到底有几个困困困困啊！ / 安卓开发 spacexc.net ↗
+      description: 轻舟已过万重山 / 卡卡,下命令吧！
+    - name: 困困困困困困 / XC
       url: https://spacexc.net/
+      description: 到底有几个困困困困啊！ / 安卓开发

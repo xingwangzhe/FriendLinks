@@ -1,28 +1,44 @@
 site:
-  name: 首页
+  name: h-jr.me
   url: https://www.jrhim.com/
   description: 一定要努力写文章！
   links: /friends
   friends:
-    - name: LMark lmark.cc 这是 LMark 的博客嗷
+    - name: LMark
       url: https://lmark.cc/
-    - name: 白 imbai.xin 随便吧
+      description: 这是 LMark 的博客嗷
+    - name: 白
       url: https://www.imbai.xin/
-    - name: 道宣 daoxuan.cc 己不由心，身又怎能由己
+      description: 随便吧
+    - name: 道宣
       url: https://daoxuan.cc/
-    - name: BiDuang blog.biduang.cn 嗨，欢迎来到冰屋小站！
+      description: 己不由心，身又怎能由己
+    - name: BiDuang
       url: https://blog.biduang.cn/
-    - name: Mo01iHt blog.mo01iht.top 乱把白云揉碎
+      description: 嗨，欢迎来到冰屋小站！
+    - name: Mo01iHt
       url: https://blog.mo01iht.top
-    - name: 张麦麦 maxchang.me 我的影子想要去飞翔，我的人还在地上。
+      description: 乱把白云揉碎
+    - name: 张麦麦
       url: https://maxchang.me
-    - name: sjfhsjfh sjfh.top sjfh here.
+      description: 我的影子想要去飞翔，我的人还在地上。
+    - name: sjfhsjfh
       url: https://sjfh.top/
-    - name: Mivik mivik.moe 兴趣使然の Programmer
+      description: sjfh here.
+    - name: Mivik
       url: https://mivik.moe/
-    - name: 伏枥之间 leehenry.top 莫听穿林打叶声，何妨吟啸且徐行。
+      description: 兴趣使然の Programmer
+    - name: 伏枥之间
       url: https://www.leehenry.top
-    - name: GPlane blog.gplane.win
+      description: 莫听穿林打叶声，何妨吟啸且徐行。
+    - name: GPlane
       url: https://blog.gplane.win/
-    - name: litlighilit lit.lighilit.top 我也不知道
+    - name: litlighilit
       url: https://lit.lighilit.top/
+      description: 我也不知道
+    - name: ParaN3xus
+      url: https://paran3xus.github.io/
+      description: 初学计算机专业，或者不专精计算机工程，甚至非计算机背景的人员
+    - name: Siqi Li
+      url: https://siqili2001.github.io/
+      description: 再来一碗米饭

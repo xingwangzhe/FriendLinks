@@ -4,13 +4,18 @@ site:
   description: Max Chang's personal website. Blog, learning, matters, thoughts.
   links: /friends
   friends:
-    - name: J JrHimself 石头和郁金香长在他头颅
+    - name: JrHimself
       url: https://jrhim.com
-    - name: N Nick's Blog 越平静，越汹涌
+      description: 石头和郁金香长在他头颅
+    - name: Nick's Blog
       url: https://nickchen.top
-    - name: S Shuai's Hut 推开门窗，让阳光雨露洒遍每个角落。
+      description: 越平静，越汹涌
+    - name: Shuai's Hut
       url: https://shuaiyuu.github.io
-    - name: 汐 汐涌及岸 盛年不重来，一日难再晨。及时当勉励，岁月不待人。
+      description: 推开门窗，让阳光雨露洒遍每个角落。
+    - name: 汐涌及岸
       url: https://coderxi.com
-    - name: 紫 紫升的博客 怕什么真理无穷，进一寸有一寸的欢喜。
+      description: 盛年不重来，一日难再晨。及时当勉励，岁月不待人。
+    - name: 紫升的博客
       url: https://blog.zisheng.pro
+      description: 怕什么真理无穷，进一寸有一寸的欢喜。

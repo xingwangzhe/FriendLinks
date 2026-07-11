@@ -1,14 +1,15 @@
 site:
   name: 汐涌及岸
   url: https://coderxi.com/
-  description: 友情链接
+  description: 盛年不重来，一日难再晨。及时当勉励，岁月不待人。
   links: /links
   friends:
-    - name: 张麦麦 我的影子想要去飞翔，我的人还在地上。
+    - name: 张麦麦
       url: https://maxchang.me
-    - name: Mox的笔记库 探索未曾设想的道路。
+      description: 我的影子想要去飞翔，我的人还在地上。
+    - name: Mox的笔记库
       url: https://mocusez.site
-    - name: Guo Le's Blog 生命是独立是自由是爱与和平
+      description: 探索未曾设想的道路。
+    - name: Guo Le's Blog
       url: https://blog.guole.fun/
-    - name: Markmap Universe Visualize your Markdown anywhere in the universe
-      url: https://markmap.org/
+      description: 生命是独立是自由是爱与和平

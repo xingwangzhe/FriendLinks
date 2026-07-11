@@ -1,54 +1,157 @@
 site:
-  name: "伏枥之间"
-  url: "https://www.leehenry.top/"
-  description: "伏枥之间 - WhistleWanderer"
-  links: "/links"
+  name: 伏枥之间
+  url: https://www.leehenry.top/
+  description: 伏枥之间 - WhistleWanderer
+  links: /friends
   friends:
-    - name: "極客死亡計劃"
-      url: "https://www.geedea.pro/"
-    - name: "西郊林野"
-      url: "https://blog.marshuni.fun/"
-    - name: "莫比乌斯"
-      url: "https://onojyun.com/"
-    - name: "小倪 | BioEZ"
-      url: "https://bioez.xyz/"
-    - name: "1sle"
-      url: "https://1sle29.github.io/"
-    - name: "鹅玉"
-      url: "https://ro3or.com/"
-    - name: "首页"
-      url: "https://goldenriver.site/"
-    - name: "ZY知识库"
-      url: "https://blog.pljzy.top/"
-    - name: "Teror的客栈"
-      url: "https://blog.trfox.top/"
-    - name: "纸鹿摸鱼处"
-      url: "https://blog.zhilu.site/"
-    - name: "再會，謝謝所有的魚"
-      url: "https://gregueria.icu/"
-    - name: "Carpe Diem"
-      url: "https://cry4o4n0tfound.cn/"
-    - name: "第三夏尔"
-      url: "https://thirdshire.com/"
-    - name: "Garden of Outlier"
-      url: "https://chlo.is/"
-    - name: "7rees"
-      url: "https://www.7rees.cc/"
-    - name: "ENCOM一号机"
-      url: "https://alanone.top/"
-    - name: "2750 words"
-      url: "https://pathos.page/"
-    - name: "椒盐豆豉"
-      url: "https://blog.douchi.space/"
-    - name: "Limboy's Digital Garden"
-      url: "https://limboy.me/"
-    - name: "Owen的博客"
-      url: "https://www.owenyoung.com/"
-    - name: "SkyWT"
-      url: "https://skywt.cn/"
-    - name: "非理勿试"
-      url: "https://www.ntiy.com/"
-    - name: "So!azy"
-      url: "https://blog.solazy.me/"
-    - name: "笔墨迹"
-      url: "https://blogscn.fun/"
+    # 知交
+    - name: Axi's Blog
+      url: https://axi404.top
+      description: 一只可爱小猫 Axi。
+    - name: secrun
+      url: https://sec.run
+      description: 一切的伟大背后，都有个微不足道的开始
+    - name: CDM258's BOX
+      url: http://www.cdm258.tech/
+      description: 最坏的 ctfer
+    - name: JrHimself
+      url: https://www.jrhim.com/
+      description: 过去一直去，未来一直来，只有现在
+    - name: 沈君豪 Junhao Shen
+      url: https://www.jhshen.cn/
+      description: I am Junhao Shen
+    # 云间
+    - name: 記緒漂流
+      url: https://ttio.cc/
+      description: 于记忆之川，泛思绪之舟
+    - name: 極客死亡計劃
+      url: https://www.geedea.pro/
+      description: 这里只有真情流露和赤裸的思考
+    - name: 西郊林野
+      url: https://blog.marshuni.fun/
+      description: 但行好事，莫问前程
+    - name: 莫比乌斯
+      url: https://mobius.blog/
+      description: 凡真实的，必会相遇
+    - name: 小倪 BioEZ
+      url: https://bioez.xyz/
+      description: 入口即化，生生不息
+    - name: 1sle
+      url: https://1sle29.github.io/
+      description: Measure Me Where I Live🏝
+    - name: 鹅玉
+      url: https://ro3or.com/
+      description: 我在飞翔，回时风与我盘旋
+    - name: 金色河流
+      url: https://goldenriver.site/
+      description: 记录我的思考、困惑和成长
+    - name: ZYBlog
+      url: https://blog.pljzy.top/
+      description: 一个技术探索与分享的平台
+    - name: Teror的客栈
+      url: https://blog.trfox.top/
+      description: 欢迎光临～
+    - name: Last Blog
+      url: https://blog.imlast.top
+      description: void of myself
+    - name: 纸鹿摸鱼处
+      url: https://blog.zhilu.site/
+      description: 纸鹿至麓不知路，支炉制露不止漉
+    - name: 谢谢所有的鱼
+      url: https://gregueria.icu/
+      description: 您首页的奶牛猫图片转发大使
+    - name: cry4o4N0tFound
+      url: https://cry4o4n0tfound.cn/
+      description: Just Study for Fun✨
+    - name: 第三夏尔
+      url: https://thirdshire.com/
+      description: 认真生活，积极摸鱼
+    - name: 路明笔记
+      url: https://luming.cool
+      description: 不慌张，不绝望，不狂妄，不投降
+    - name: Garden of Outlier
+      url: https://chlo.is/
+      description: An Element-chan who writes
+    - name: ENCOM一号机
+      url: https://alanone.top/
+      description: 1,000 lonely stars | Hiding in the cold
+    - name: Cytrogen
+      url: https://cytrogen.icu/
+      description: 万圣节恶魔的领地
+    - name: Taxodium
+      url: https://taxodium.ink/
+      description: The play goes on, write your verse
+    - name: 資工小廢物 - JN
+      url: https://blog.giveanornot.com/
+      description: 資工系畢業，但其實沒有很會寫程式
+    - name: 时歌
+      url: https://www.lapis.cafe/
+      description: 持续不断记录，意义自然浮现
+    - name: I'm Marcus
+      url: https://immarcus.com/
+      description: 保留时代洪流里的碎碎念
+    - name: 寒江在下雪
+      url: https://hanchan.vip/
+      description: I love you and I'm not an artist
+    - name: 7rees
+      url: https://www.7rees.cc/
+      description: 自由流动的树
+    # 远望
+    - name: 2750 words
+      url: https://pathos.page/
+      description: 写作是最好的思考方式
+    - name: 椒盐豆豉
+      url: https://blog.douchi.space/
+      description: 喜欢就买 不行就分 多喝热水 重启电脑
+    - name: 李鹏坤
+      url: https://www.lipk.org/
+      description: 向往山河大海，林荫小道
+    - name: Limboy
+      url: https://limboy.me/
+      description: 正在努力成为一个合格的独立创作者
+    - name: Owen
+      url: https://www.owenyoung.com/
+      description: 追求注意力自由而不是财富自由
+    - name: 非理勿试
+      url: https://www.ntiy.com/
+      description: Never Try It Yourself.
+    - name: atpX
+      url: https://atpx.com/
+      description: 要玩要写，只要音乐没停
+    - name: Bluepikachu
+      url: https://bluepika.life/
+      description: A Designer.
+    - name: SO!AZY
+      url: https://blog.solazy.me/
+      description: Just a Lazy Sol.
+    - name: 松易涅的写作分享站
+      url: https://www.sungyinieh.com/
+      description: 保持好奇，阅读与思考
+    - name: polebug's blog
+      url: https://polebug.github.io/
+      description: 保持思考｜等待｜斋戒
+    - name: 甜鱼/Ayu
+      url: https://ayu.land/
+      description: 三脚猫多面手，努力学习世界的一切
+    - name: SkyWT
+      url: https://skywt.cn/
+      description: 理想主義，我還年輕
+    # 同道
+    - name: 开往 Travellings
+      url: https://www.travellings.cn/
+      description: 友链接力，让网络开放起来
+    - name: 笔墨迹 Blogs·CN
+      url: https://blogscn.fun/
+      description: 致敬还在写博客的我们
+    - name: 十年之约 ForeverBlog
+      url: https://www.foreverblog.cn/
+      description: 一个人的寂寞，一群人的狂欢
+    - name: BlogsClub
+      url: https://www.blogsclub.org/
+      description: 独立且相互包容的博客俱乐部
+    - name: 博友圈
+      url: https://www.boyouquan.com/
+      description: 散落各处的孤岛连接广袤无垠的大陆
+    - name: An IndieWeb Webring
+      url: https://xn--sr8hvo.ws/
+      description: Weaving independent voices online

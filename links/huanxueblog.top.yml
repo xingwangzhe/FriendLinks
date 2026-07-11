@@ -1,68 +1,94 @@
 site:
-  name: 幻雪的博客 - 鱼跃此时，花开彼岸。
+  name: 幻雪的博客
   url: https://huanxueblog.top/
-  description: 一个小小小破站，欢迎您来参观
+  description: 鱼跃此时，花开彼岸。
   links: /link
   friends:
-    - name: 孪生博客
-      url: https://huanxue.love/
-    - name: 以图搜图站
-      url: https://yandex.com/
-    - name: 免费文字转语音
-      url: https://www.ttson.cn/
-    - name: c++手册
-      url: https://en.cppreference.com/
-    - name: c++手册2
-      url: https://cplusplus.com/
-    - name: 地球时刻气态
-      url: https://earth.nullschool.net/
-    - name: Echo 的小窝漂泊于互联网中的小窝
+    - name: 安知鱼
+      url: https://blog.anheyu.com/
+      description: 生活明朗，万物可爱
+    - name: Echo 的小窝
       url: https://www.liveout.cn/
-    - name: Kouseki愿岁并谢，与友长兮
+      description: 漂泊于互联网中的小窝
+    - name: Kouseki
       url: https://blog.kouseki.cn/
-    - name: 雨落波敛早上好中午好晚上好
+      description: 愿岁并谢，与友长兮
+    - name: 雨落波敛
       url: https://blog.yuluobolian.top/
-    - name: RedEyesの小窝在努力学网络的计科人
+      description: 早上好中午好晚上好
+    - name: kamiasuka的个人博客
+      url: https://kamiasuka.top/index.html
+    - name: RedEyesの小窝
       url: https://www.redeyes.top/
-    - name: 庭院一角诚邀您来一起发癫。
+      description: 在努力学网络的计科人
+    - name: Stephen’s blog
+      url: https://dphweb.cn/index/
+    - name: 庭院一角
       url: https://www.harrypan.cn/
-    - name: 爱拆家吃了大便学嵌入式的
+      description: 诚邀您来一起发癫。
+    - name: 爱拆家
       url: https://personalblog.top/
-    - name: 碎幻梦灬命里有时终须有，命里无时莫强求
+      description: 吃了大便学嵌入式的
+    - name: 碎幻梦灬
       url: https://blog.chenyudong.cn
-    - name: 零零猫博客一个有趣的博客
+      description: 命里有时终须有，命里无时莫强求
+    - name: 零零猫博客
       url: https://blog.00cat.cn
-    - name: 静若安然一个宁静的世界
+      description: 一个有趣的博客
+    - name: 静若安然
       url: https://www.imets.cn
-    - name: 夜雨柠檬踏实努力，远胜轻狂。
+      description: 一个宁静的世界
+    - name: 系统观察屋
+      url: https://www.xtgcw.cn/
+    - name: 夜雨柠檬
       url: https://blog.yeyulemon.top/
-    - name: DODOLAWit beyond measure is man’s greatest treasure.
+      description: 踏实努力，远胜轻狂。
+    - name: DODOLA
       url: https://dodolalorc.cn/
-    - name: Ball’s Blog记录互联网小白的成长历程～
+      description: Wit beyond measure is man’s greatest treasure.
+    - name: Ball’s Blog
       url: https://www.feiball.cn
-    - name: 梁仔社畜小窝
+      description: 记录互联网小白的成长历程～
+    - name: 梁仔
       url: https://www.liangjiahao.icu/
-    - name: 清羽飞扬柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜
+      description: 社畜小窝
+    - name: 清羽飞扬
       url: https://blog.qyliu.top/
-    - name: HiPeach妙不可言
+      description: 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜
+    - name: 炙焰博客
+      url: https://www.zhiyanx.cn
+    - name: HiPeach
       url: https://blog.opeach.cn
-    - name: UTTN我要当长毛文艺b
+      description: 妙不可言
+    - name: UTTN
       url: https://www.galgalgal.icu/
-    - name: 葱苓samaDon't worry, Be happy.
+      description: 我要当长毛文艺b
+    - name: 星知空
+      url: https://www.anxkj.top
+    - name: 葱苓sama
       url: https://blog.ciraos.top
-    - name: EfuAn Open Source worker.
+      description: Don’t worry, Be happy.
+    - name: Efu
       url: https://www.efu.me
-    - name: 哇子有人说：" 照片和视频都是有记忆的，每次翻开思绪就会拉回到以前的某一天。"我想，博客也是
+      description: An Open Source worker.
+    - name: 哇子
       url: https://blog.wazicode.top
-    - name: Aiyの小窝腐烂于花海，致死于所爱
+      description: 有人说："照片和视频都是有记忆的…"我想，博客也是
+    - name: Aiyの小窝
       url: https://aiy.1314zy.net
-    - name: LinuxWin青，取之于蓝，而青于蓝
+      description: 腐烂于花海，致死于所爱
+    - name: LinuxWin
       url: https://blog.liushen.fun/
-    - name: Tianli自知之明是最可贵的知识！
+      description: 青，取之于蓝，而青于蓝
+    - name: Tianli
       url: https://blog.tianli0.top/
-    - name: Akvicor’s Blog太棒了，我逐渐理解一切
+      description: 自知之明是最可贵的知识！
+    - name: Akvicor’s Blog
       url: https://blog.akvicor.com/
-    - name: bbb-lsy07科技激荡人文，洞见智慧本真。
+      description: 太棒了，我逐渐理解一切
+    - name: bbb-lsy07
       url: https://blog.6uu.us/
-    - name: Lifeline经世致用 自强不息
+      description: 科技激荡人文，洞见智慧本真。
+    - name: Lifeline
       url: https://lifelinest.github.io/
+      description: 经世致用 自强不息

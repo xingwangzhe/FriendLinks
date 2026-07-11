@@ -1,12 +1,18 @@
 site:
-  name: 我是，十二二二二二二
+  name: 十二
   url: https://sazanami.icu/
-  description: 友情链接
-  links: /links
+  description: 这是我的碎碎念小频道
+  links: /
   friends:
-    - name: QPomelo 独立开发者 qpomelo.de
+    - name: QPomelo
       url: https://qpomelo.dev/
-    - name: 智子 独立开发者 sxzz.dev
+      description: 独立开发者
+    - name: 智子
       url: https://sxzz.dev/
-    - name: Atlasnow / 图图 艺术家 atlasn
+      description: 独立开发者
+    - name: Atlasnow / 图图
       url: https://atlasnow.xyz
+      description: 艺术家
+    - name: Patrick.T
+      url: https://www.tzih.top
+      description: 设计工程师 / 动效设计师

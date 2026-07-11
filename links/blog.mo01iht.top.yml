@@ -1,18 +1,24 @@
 site:
-  name: Mo01iHt-Blog - 乱把白云揉碎。
+  name: Mo01iHt-Blog
   url: https://blog.mo01iht.top/
   description: 我闭上眼睛触摸星空，阅读宇宙留给我的盲文。
   links: /link
   friends:
-    - name: Lmark -记录一些小技巧|经验|知识
+    - name: Lmark
       url: https://lmark.cc/
-    - name: Bai 学会发现生活中的小确幸
+      description: 记录一些小技巧|经验|知识
+    - name: Bai
       url: https://www.imbai.cn/
-    - name: 加绒 这绵延的故事还未了
+      description: 学会发现生活中的小确幸
+    - name: 加绒
       url: https://www.jrhim.com/
-    - name: Annyufeng 归来仍是少年
+      description: 这绵延的故事还未了
+    - name: Annyufeng
       url: https://inew.tech/
-    - name: AcWing 学算法，就上AcWing
+      description: 归来仍是少年
+    - name: AcWing
       url: https://www.acwing.com/
-    - name: LeetCode 见证每1 bit成长
+      description: 学算法，就上AcWing
+    - name: LeetCode
       url: https://leetcode.cn/
+      description: 见证每1 bit成长
