@@ -1,16 +1,21 @@
 site:
-  name: "Jinyan's Blog"
-  url: "https://blog.yujinyan.me/"
-  description: "Yu Jinyan's personal site to blog his learnings of technology."
-  links: "/links"
+  name: Jinyan's Blog
+  url: https://blog.yujinyan.me/
+  description: Yu Jinyan's personal site to blog his learnings of technology.
+  links: /friends
   friends:
-    - name: "Shilin's Blog"
-      url: "https://edward40.com/"
-    - name: "PRIN BLOG"
-      url: "https://printempw.github.io/"
-    - name: "ISLAND"
-      url: "https://youngxhui.top/"
-    - name: "Luyu Huang's Blog"
-      url: "https://luyuhuang.tech/"
-    - name: "道轲的博客"
-      url: "https://dorck.cn/"
+    - name: Edward Elric's Blog
+      url: https://edward40.com/
+      description: Web Development, Rust, Programming Languages.
+    - name: Prin Blog
+      url: https://printempw.github.io
+      description: Fullstack Development.
+    - name: youngxhui's blog
+      url: https://youngxhui.top/posts/
+      description: Island
+    - name: Luyu Huang's Tech Blog
+      url: https://luyuhuang.tech/
+      description: programming, algorithm, mathematics, game design etc.
+    - name: Dorck's Blog
+      url: https://dorck.cn/
+      description: 编程语言/开源/极客路上的初行者
