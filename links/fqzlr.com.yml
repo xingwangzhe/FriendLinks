@@ -1,64 +1,93 @@
 site:
-  name: Fqzlr的博客 - Fqzlr
-  url: https://fqzlr.com/
+  name: Fqzlr的博客
+  url: https://www.fqzlr.com/
   description: fqzlr的个人技术博客，专注NAS分享、AI实践、学习笔记与技术总结，与个人成长分享。
   links: /friends
   friends:
-    - name: Blog 夏夜流萤 飞萤之火自无梦的长夜亮起，绽放在终竟的明天。 夏夜流萤 飞萤之火自无梦的长夜亮起，绽放在终竟的明天。
+    - name: 夏夜流萤
       url: https://blog.cuteleaf.cn/
-    - name: Blog 椰汁の主页 关关难过关关过,前路漫漫亦灿灿. 椰汁の主页 关关难过关关过,前路漫漫亦灿灿.
+      description: 飞萤之火自无梦的长夜亮起，绽放在终竟的明天。
+    - name: 椰汁の主页
       url: https://home.132614.xyz/
-    - name: Blog UpXuu 逐光而上！ UpXuu 逐光而上！
+      description: 关关难过关关过，前路漫漫亦灿灿。
+    - name: UpXuu
       url: https://upxuu.com
-    - name: Blog Re.Y.Ju.hao | 个人主页 先活着吧，其他的再想想 Re.Y.Ju.hao | 个人主页 先活着吧，其他的再想想
+      description: 逐光而上！
+    - name: Re.Y.Ju.hao
       url: http://irehao.42web.io/
-    - name: Blog 大熊 日常随笔与灵感收集小角落 大熊 日常随笔与灵感收集小角落
+      description: 先活着吧，其他的再想想
+    - name: 大熊
       url: https://halo.aizaibao.cn/
-    - name: Blog 年华 分享生活和技术。 年华 分享生活和技术。
+      description: 日常随笔与灵感收集小角落
+    - name: 年华
       url: https://blog.520781.xyz/
-    - name: Blog yukino 一个现充的个人博客网站！ yukino 一个现充的个人博客网站！
+      description: 分享生活和技术。
+    - name: yukino
       url: https://blog.ztyukino.com/
-    - name: Blog king-blog 这是一个很随便的网站 king-blog 这是一个很随便的网站
+      description: 一个现充的个人博客网站！
+    - name: king-blog
       url: https://www.888721.xyz
-    - name: Blog 冬月 分享自己的一些学习心得和生活琐事 冬月 分享自己的一些学习心得和生活琐事
+      description: 这是一个很随便的网站
+    - name: 冬月
       url: https://dongyue.org/
-    - name: Blog ZSSO 一步一印，自成风景。 ZSSO 一步一印，自成风景。
+      description: 分享自己的一些学习心得和生活琐事
+    - name: ZSSO
       url: https://www.zsso.net/
-    - name: Blog versus0 技术个人博客 versus0 技术个人博客
+      description: 一步一印，自成风景。
+    - name: versus0
       url: https://blog.542000.xyz/
-    - name: Blog 星遐蝶梦 星穹漫遐，蝶携清梦。 星遐蝶梦 星穹漫遐，蝶携清梦。
+      description: 技术个人博客
+    - name: 星遐蝶梦
       url: https://blog.casto.top/
-    - name: Blog 晴宙 保持热爱，持续创造 晴宙 保持热爱，持续创造
+      description: 星穹漫遐，蝶携清梦。
+    - name: 晴宙
       url: https://qingzhou.dpdns.org
-    - name: Blog Saimen blog 读史可以明智,知古方能鉴今 Saimen blog 读史可以明智,知古方能鉴今
+      description: 保持热爱，持续创造
+    - name: Saimen blog
       url: https://com.z2m.store
-    - name: Blog miuo 记录文章、笔记、实验和暂时不想丢掉的内容。 miuo 记录文章、笔记、实验和暂时不想丢掉的内容。
+      description: 读史可以明智，知古方能鉴今
+    - name: miuo
       url: https://blog.miuo.me/
-    - name: Blog my.vueko 来了 my.vueko 来了
+      description: 记录文章、笔记、实验和暂时不想丢掉的内容。
+    - name: my.vueko
       url: https://vuekoo.com/
-    - name: Blog YFBLOG - 幻新至简 随手笔记，技术心得分享. YFBLOG - 幻新至简 随手笔记，技术心得分享.
+      description: 来了
+    - name: YFBLOG - 幻新至简
       url: https://yfblog.asia/
-    - name: Blog 十三 欲买桂花同载酒，终不似，少年游。 十三 欲买桂花同载酒，终不似，少年游。
+      description: 随手笔记，技术心得分享.
+    - name: 十三
       url: https://blog.nw177.cn/
-    - name: Blog ZhiJing’s Blog Go with the flow. ZhiJing’s Blog Go with the flow.
+      description: 欲买桂花同载酒，终不似，少年游。
+    - name: ZhiJing's Blog
       url: https://iwexe.top
-    - name: Blog Sigrika-善良耙耙柑🍊 记录我的二次元之旅 Sigrika-善良耙耙柑🍊 记录我的二次元之旅
+      description: Go with the flow.
+    - name: Sigrika-善良耙耙柑
       url: https://qwq.sigrika.cc/
-    - name: Blog L!!!!ght 阳光正好，慢慢前行。 L!!!!ght 阳光正好，慢慢前行。
+      description: 记录我的二次元之旅
+    - name: L!!!!ght
       url: https://sunlight.kejk.cn/
-    - name: Blog 拾光の博客 拾取散落的时光碎片 拾光の博客 拾取散落的时光碎片
+      description: 阳光正好，慢慢前行。
+    - name: 拾光の博客
       url: https://mistfly.xyz/
-    - name: Blog 冰汐梦 当所有剑都归鞘时，真正的较量才刚刚开始——那是人心与天地的对弈。 冰汐梦 当所有剑都归鞘时，真正的较量才刚刚开始——那是人心与天地的对弈。
+      description: 拾取散落的时光碎片
+    - name: 冰汐梦
       url: https://blog.irier0023.xyz/
-    - name: Blog ysdy~Blog 人生苦短，摆烂优先 ysdy~Blog 人生苦短，摆烂优先
+      description: 当所有剑都归鞘时，真正的较量才刚刚开始
+    - name: ysdy~Blog
       url: https://ysdyblog.ccwu.cc/
-    - name: Blog 风起 无善无恶心之体，有善有恶意之动 风起 无善无恶心之体，有善有恶意之动
+      description: 人生苦短，摆烂优先
+    - name: 风起
       url: https://blog.windstart.top/
-    - name: Blog 小生 天生我材必有用，千金散尽还复来。 小生 天生我材必有用，千金散尽还复来。
+      description: 无善无恶心之体，有善有恶意之动
+    - name: 小生
       url: https://www.zsso.cn
-    - name: Blog Hyde Blog 人心中的成见是一座大山 Hyde Blog 人心中的成见是一座大山
+      description: 天生我材必有用，千金散尽还复来。
+    - name: Hyde Blog
       url: https://seasir.top/
-    - name: Blog gc的小站 综合性网站，希望对你有帮助 gc的小站 综合性网站，希望对你有帮助
+      description: 人心中的成见是一座大山
+    - name: gc的小站
       url: https://gcweb.cc
-    - name: Blog 他说 梁栋烨的博客网站。 他说 梁栋烨的博客网站。
+      description: 综合性网站，希望对你有帮助
+    - name: 他说
       url: https://090909.top/
+      description: 梁栋烨的博客网站。
