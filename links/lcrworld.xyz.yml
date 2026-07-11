@@ -1,24 +1,40 @@
 site:
-  name: "lcrworld的个人博客"
-  url: "https://lcrworld.xyz/"
-  description: "分享生活经验、技术文章、文字罐头与小说"
-  links: "/friend-links"
+  name: lcrworld's Blog
+  description: 井天乐(lcrworld)的个人博客，分享技术、项目与生活记录
+  url: https://lcrworld.xyz
+  links: /friend-links
   friends:
-    - name: "里世界"
-      url: "https://leenet.xyz/"
-    - name: "他说"
-      url: "https://090909.top/"
-    - name: "ziworld"
-      url: "https://blog.ziworld.top/"
-    - name: "UpXuu's blog"
-      url: "https://upxuu.com/"
-    - name: "天影大侠"
-      url: "https://blog.skyshadow.fun/"
-    - name: "小林酱博客"
-      url: "https://blog.zxiaolin.com/"
-    - name: "靈夢の小窝"
-      url: "https://rain.moe/"
-    - name: "前尘小筑"
-      url: "https://mnchen.cn/"
-    - name: "落樱大王"
-      url: "https://acblog.sakurafishermua.top/"
+    - name: 里世界
+      url: https://leenet.xyz
+      description: Welcome To The World Of Lee
+      avatar: https://leenet.xyz/avatar.png
+    - name: 他说
+      url: https://090909.top/
+      description: 梁栋烨的博客网站
+      avatar: https://090909.top/assets/images/logo.ico
+    - name: ziworld
+      url: https://blog.ziworld.top/
+      avatar: https://blog.ziworld.top/assect/images/avatar.webp
+    - name: UpXuu's blog
+      url: https://upxuu.com
+      description: 逐光而上
+      avatar: https://upxuu.com/images/me.jpg
+    - name: 天影大侠
+      url: https://blog.skyshadow.fun/
+      description: 在互联网上留下一个脚印
+      avatar: https://weavatar.com/avatar/7388ea4765a319d5f83fea61c3236384?s=1000
+    - name: 小林酱博客
+      url: https://blog.zxiaolin.com/
+      description: 记录生活,专注于自媒体资源分享
+      avatar: https://cdn.zxiaolin.com/imgas/humuziwt.png?imageView2/0/w/1200
+    - name: 靈夢の小窝
+      url: https://rain.moe/
+      description: 你在那里像风一样自由，就如同奇迹一般。
+      avatar: https://img.rain.moe/static/head.webp
+    - name: 前尘小筑
+      url: https://mnchen.cn/
+      description: 虽多尘色染，犹见墨痕浓
+      avatar: https://image.mnchen.cn/2023/12/mnochen.jpg
+    - name: 落樱大王
+      url: https://acblog.sakurafishermua.top/
+      description: 生如利刃，熔炉竟是我自己。
