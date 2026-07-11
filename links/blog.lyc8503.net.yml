@@ -1,22 +1,30 @@
 site:
   name: Lyc8503's blog
   url: https://blog.lyc8503.net/
-  description: Hi, 欢迎你来到我的博客.这里主要是一些 Coding 相关的记录, 也随机掉落一些其他的日常记录及感想.应该算 stack-overflow full-stack developer, 所以博客里什么都有.厌恶迂腐与形式, 相信灵感,热爱,透明与包容的未来. More>本博客的所有内容, 除明确指明或引用的部分, 均为未使用生成式 AI 技术的原创内容. 英文版使用 LLM 辅助翻译.
+  description: Hi, 欢迎你来到我的博客.这里主要是一些 Coding 相关的记录, 也随机掉落一些其他的日常记录及感想.
   links: /friends
   friends:
-    - name: ydjsir’s Blog
+    - name: ydjsir's Blog
       url: https://ydjsir.com.cn/
-    - name: Bob’s blog
+      description: 南雍随笔
+    - name: Bob's blog
       url: https://blog.bobh0724.net/
+      description: BOB'S BLOG OF NONSENSE
     - name: Clansty
       url: https://nyac.at/
+      description: 你好，这里是凌莞
     - name: 一缕执念
       url: https://quas-modo.github.io/
+      description: 我的笔记、杂感和随想录
     - name: chariri
       url: https://chariri.moe/
+      description: 茶栗栗屋
     - name: 神楽悠笙
       url: https://blog.iyoroy.cn/
+      description: 悠笙の开发日记
     - name: Anfsity
       url: https://www.anfstiy.me/
+      description: Anfsity
     - name: Tokisaki Galaxy的博客
       url: https://tokisaki.top/
+      description: Tokisaki Galaxy

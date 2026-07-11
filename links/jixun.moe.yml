@@ -1,29 +1,36 @@
 site:
-  name: 首页
+  name: Jixun 的项目集
   url: https://jixun.moe/
-  description: |-
-    欢迎
-      #
-
-    这里是 Jixun 的首页，主要用来发布一些自己做的小工具。
-    你可以在导航找到部分工具的分类以及适用的方向。
+  description: 这里是 Jixun 的首页，主要用来发布一些自己做的小工具。
   links: /links
   friends:
-    - name: 个人博客
-      url: https://jixun.uk/
     - name: qwe7002
       url: https://qwe7002.com/
+      description: Nico Ranshi(qwe7002) 的博客，对音乐和开发感兴趣。
     - name: 吐槽大王部落格
       url: https://www.tcdw.net/
+      description: tcdw 的博客。游戏、折腾、前端开发。
     - name: 冰喵的博客
       url: https://blog.morz.org/
+      description: 网络工程师，沉迷 vtb 不可自拔。
     - name: 烧饼博客
       url: https://u.sb/
+      description: 由 @Showfom 创办的网站，专注于服务器运维、专业域名投资分析的网站。
+    - name: InSb 的思维过山车
+      url: https://insbex.jixun.moe/
+      description: 主 .net/PowerShell 方向，对日语有研究。
     - name: 电酱的魔法实验室
       url: https://blog.251.sh/
+      description: 猫C 的博客 :3
     - name: lolly
       url: https://lolly.cc/
+      description: lolly 菊苣的博客。不过其实没啥东西
+    - name: 酋长
+      url: https://blog.1994.io/
+      description: 一些日常闲聊？嘛。
     - name: Ceplavia
       url: https://www.ceplavia.com/
+      description: 紫钻用户(百度贴吧用户名)的博客，主要围绕着游戏讨论。
     - name: ousfifty | 欧式fifty
       url: https://blog.ous50.moe/
+      description: 卡丁车爱好者。
