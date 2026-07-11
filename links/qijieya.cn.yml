@@ -1,136 +1,170 @@
 site:
-  name: "锦木祈杰"
-  url: "https://qijieya.cn/"
-  description: "友情链接"
-  links: "/links"
+  name: 锦木祈杰
+  url: https://qijieya.cn/
+  description: 因你而在的故事
+  links: /links
   friends:
-    - name: "iVampireSP 的物语 – 与所有美好的存在又多了一年的物语。"
-      url: "https://ivampiresp.com"
-    - name: "Lazy's Blog"
-      url: "https://blog.imlazy.ink:233/"
-    - name: "糸の窝"
-      url: "https://www.yuameshi.top/"
-    - name: "白露小站"
-      url: "https://mybailu.cn/"
-    - name: "白のblog – 向往技术力の彼方"
-      url: "https://blog.mashiro.pro"
-    - name: "某咸鱼的笔记"
-      url: "https://www.wunote.cn"
-    - name: "猫不吃鱼"
-      url: "https://starsei.com/"
-    - name: "YuanRetro"
-      url: "https://yuanshen.dev"
-    - name: "mskk 的个人博客"
-      url: "https://dorahonor.me"
-    - name: "lingviewの小站"
-      url: "https://lingview.xyz"
-    - name: "喵的咕7的小窝"
-      url: "https://miaodegu7.top"
-    - name: "BA4SBFのblog"
-      url: "https://ba4sbf.cn/"
-    - name: "云边的小旅店"
-      url: "https://cachetide.top/"
-    - name: "Kizumi_Blog – 往前走吧，别回头。"
-      url: "https://kizumi.site"
-    - name: "StarryMiku"
-      url: "https://starrymiku.com"
-    - name: "Nekro's SEKAI"
-      url: "https://www.nekro.top/"
-    - name: "洛雨の小站"
-      url: "https://luotianyi.eu/"
-    - name: "Tkong"
-      url: "http://www.tkong.net"
-    - name: "小乔的博客"
-      url: "https://zyq.today/"
-    - name: "Luminous' Home"
-      url: "https://luotianyi.vc"
-    - name: "醉月 の 酿酒屋 - 今日事, 今日毕"
-      url: "https://blog.catrol.cn/"
-    - name: "苏晓晴 博客"
-      url: "https://www.toubiec.cn/"
-    - name: "邓青峰的小窝"
-      url: "https://cndqf.cn/"
-    - name: "Scwizard的博客"
-      url: "http://scwizard.net/"
-    - name: "Yuki Nix(禰夕・有希)"
-      url: "https://www.nixyuki.com/"
-    - name: "SailTrack杂谈站"
-      url: "https://www.sailtrack.cn"
-    - name: "/var/log/waka-kanou"
-      url: "https://owow.cc/"
-    - name: "Starwaveの个人主页"
-      url: "http://starwave.cyzstudio.top"
-    - name: "Bingxin Home"
-      url: "https://blog.byteloid.one"
-    - name: "十玖八柒"
-      url: "https://blog.ahzoo.cn"
-    - name: "怪喵博客"
-      url: "https://blog.guaitech.org"
-    - name: "某科学的贝壳"
-      url: "https://blog.ning.moe"
-    - name: "MapleLeaf"
-      url: "https://mapleleaf.icu"
-    - name: "Bronya Zaychik"
-      url: "https://bronya-zaychik.cn/"
-    - name: "Fika"
-      url: "https://fika.ink/"
-    - name: "糖茶砌站"
-      url: "https://www.sg7z.com"
-    - name: "橘子博客"
-      url: "https://orangejuice.top"
-    - name: "安知鱼 - 生活明朗 万物可爱"
-      url: "https://blog.anheyu.com/"
-    - name: "墨点白|墨点白"
-      url: "https://nanwish.love"
-    - name: "烟霞志"
-      url: "https://simplestark.com"
-    - name: "后青春期的诗"
-      url: "https://alon.wang/"
-    - name: "Antergone"
-      url: "https://www.antergone.com/"
-    - name: "阿紫的博客网站"
-      url: "https://zijiancode.cn"
-    - name: "wsbのblog"
-      url: "https://wsbblog.cn"
-    - name: "欧阳淇淇的小屋"
-      url: "https://ouyangqiqi.cn/"
-    - name: "Zane Liu's Blog"
-      url: "https://blog.zane-liu.com/"
-    - name: "半勺阳光🌤️"
-      url: "http://zifyu.top"
-    - name: "六月是只猫 - 互联网技术分享指南"
-      url: "https://www.lyszm.com/"
-    - name: "MUKAPP - 人生苦短，生渺若尘"
-      url: "https://www.mukapp.top/"
-    - name: "诺依阁的日记簿"
-      url: "https://blog.nuoyis.net"
-    - name: "阿龙的笔记"
-      url: "https://www.alongw.cn/"
-    - name: "阳帆の小窝"
-      url: "https://blog.wolfyang.fan/"
-    - name: "Frkの博客"
-      url: "https://www.frkovo.cn"
-    - name: "雨后初晴社"
-      url: "https://www.rainafter.cn"
-    - name: "Davidの3号基地"
-      url: "https://www.david03.top"
-    - name: "FlyDay"
-      url: "http://www.flyday.top"
-    - name: "哈喽！林墨白"
-      url: "https://blog.lmb.blue/"
-    - name: "枫林灯语"
-      url: "https://blog.mfwt.top/"
-    - name: "Xiaomage's Blog"
-      url: "https://blog.xmgspace.me"
-    - name: "萌豚 Moechu"
-      url: "https://moechu.cn"
-    - name: "应龙笔记"
-      url: "https://www.silverdragon.cn/"
-    - name: "LoveApple14434的主页"
-      url: "https://loveapple.icu/"
-    - name: "摸鱼の客栈"
-      url: "https://blog.fwneko.com"
-    - name: "Aidens的博客"
-      url: "https://aidens-fox.codeberg.page/"
-    - name: "摸鱼の客栈"
-      url: "https://fwneko.com"
+    - name: iVampireSP 的物语
+      url: https://ivampiresp.com
+      description: 与所有美好的存在又多了一年的物语。
+    - name: Lazy's Blog
+      url: https://blog.imlazy.ink:233/
+      description: Share somethings with you
+    - name: 糸の窝
+      url: https://www.yuameshi.top/
+      description: 一个大废物的博客
+    - name: 白露小站
+      url: https://mybailu.cn/
+    - name: 白のblog
+      url: https://blog.mashiro.pro
+      description: 是一只只有一点点技术力的小白捏
+    - name: 某咸鱼的笔记
+      url: https://www.wunote.cn
+    - name: 猫不吃鱼
+      url: https://starsei.com/
+      description: 雾散处，玫瑰花开
+    - name: YuanRetro
+      url: https://yuanshen.dev
+      description: 这是一个成分复杂的小站喵～
+    - name: mskk 的个人博客
+      url: https://dorahonor.me
+    - name: lingviewの小站
+      url: https://lingview.xyz
+      description: 时间终将证明一切（）
+    - name: 喵的咕7的小窝
+      url: https://miaodegu7.top
+      description: 要努力！
+    - name: BA4SBFのblog
+      url: https://ba4sbf.cn/
+      description: 华风夏韵，洛水天依！
+    - name: 云边的小旅店
+      url: https://cachetide.top/
+      description: 无人相伴的路，惝恍迷离的舞
+    - name: Kizumi_Blog
+      url: https://kizumi.site
+      description: 往前走吧，别回头。
+    - name: StarryMiku
+      url: https://starrymiku.com
+      description: 我们都有自己的一片星空
+    - name: MtF.wiki
+      url: https://mtf.wiki
+    - name: Nekro's SEKAI
+      url: https://www.nekro.top/
+      description: 谢谢你在人群中找到我。
+    - name: 洛雨の小站
+      url: https://luotianyi.eu/
+      description: 历史终将证明一切
+    - name: Youlo_の星
+      url: https://youlo.abrdns.com:12172
+      description: 属于Youlo_个人的博客
+    - name: Tkong
+      url: http://www.tkong.net
+    - name: 小乔的博客
+      url: https://zyq.today/
+    - name: Luminous' Home
+      url: https://luotianyi.vc
+    - name: 醉月 の 酿酒屋
+      url: https://blog.catrol.cn/
+      description: 今日事, 今日毕
+    - name: 苏晓晴 博客
+      url: https://www.toubiec.cn/
+    - name: 邓青峰的小窝
+      url: https://cndqf.cn/
+    - name: Scwizard的博客
+      url: http://scwizard.net/
+    - name: Yuki Nix
+      url: https://www.nixyuki.com/
+    - name: SailTrack杂谈站
+      url: https://www.sailtrack.cn
+    - name: /var/log/waka-kanou
+      url: https://owow.cc/
+    - name: Starwaveの个人主页
+      url: http://starwave.cyzstudio.top
+    - name: Bingxin Home
+      url: https://blog.byteloid.one
+    - name: 十玖八柒
+      url: https://blog.ahzoo.cn
+    - name: 怪喵博客
+      url: https://blog.guaitech.org
+    - name: 某科学的贝壳
+      url: https://blog.ning.moe
+    - name: MapleLeaf
+      url: https://mapleleaf.icu
+    - name: Bronya Zaychik
+      url: https://bronya-zaychik.cn/
+    - name: Fika
+      url: https://fika.ink/
+    - name: 糖茶砌站
+      url: https://www.sg7z.com
+    - name: UtopiaXC Sites
+      url: https://www.utopiaxc.cn/
+    - name: 橘子博客
+      url: https://orangejuice.top
+    - name: 安知鱼
+      url: https://blog.anheyu.com/
+      description: 生活明朗 万物可爱
+    - name: 墨点白
+      url: https://nanwish.love
+    - name: 烟霞志
+      url: https://simplestark.com
+    - name: 后青春期的诗
+      url: https://alon.wang/
+    - name: Antergone
+      url: https://www.antergone.com/
+    - name: 阿紫的博客网站
+      url: https://zijiancode.cn
+    - name: wsbのblog
+      url: https://wsbblog.cn
+    - name: 欧阳淇淇的小屋
+      url: https://ouyangqiqi.cn/
+    - name: Zane Liu's Blog
+      url: https://blog.zane-liu.com/
+    - name: 半勺阳光
+      url: http://zifyu.top
+    - name: 六月是只猫
+      url: https://www.lyszm.com/
+      description: 互联网技术分享指南
+    - name: MUKAPP
+      url: https://www.mukapp.top/
+      description: 人生苦短，生渺若尘
+    - name: 诺依阁的日记簿
+      url: https://blog.nuoyis.net
+    - name: 阿龙的笔记
+      url: https://www.alongw.cn/
+    - name: 阳帆の小窝
+      url: https://blog.wolfyang.fan/
+    - name: Frkの博客
+      url: https://www.frkovo.cn
+    - name: 雨后初晴社
+      url: https://www.rainafter.cn
+    - name: Davidの3号基地
+      url: https://www.david03.top
+    - name: FlyDay
+      url: http://www.flyday.top
+    - name: 哈喽！林墨白
+      url: https://blog.lmb.blue/
+    - name: 枫林灯语
+      url: https://blog.mfwt.top/
+    - name: Xiaomage's Blog
+      url: https://blog.xmgspace.me
+    - name: 萌豚 Moechu
+      url: https://moechu.cn
+    - name: 应龙笔记
+      url: https://www.silverdragon.cn/
+    - name: LoveApple14434的主页
+      url: https://loveapple.icu/
+    - name: 摸鱼の客栈
+      url: https://blog.fwneko.com
+    - name: 贺云网
+      url: https://hecloud.top
+    - name: bbb-lsy07
+      url: https://blog.tsoo.net
+    - name: Serenity's Blog
+      url: https://www.aobp.cn
+    - name: 益友网站
+      url: https://blog.yiyou.bj.cn
+    - name: 香草的日记
+      url: https://www.xcnahida.cn
+      description: 与你的日常，便是奇迹！
+    - name: Aidens的博客
+      url: https://aidens-fox.codeberg.page/
