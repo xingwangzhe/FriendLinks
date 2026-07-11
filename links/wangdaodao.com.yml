@@ -1,56 +1,87 @@
 site:
-  name: "王叨叨"
-  url: "https://wangdaodao.com/"
-  description: "无叨叨，不博客！不懂用户体验的前端不是好爸爸……"
-  links: "/links"
+  name: 王叨叨
+  url: https://wangdaodao.com/
+  description: 无叨叨，不博客！不懂用户体验的前端不是好爸爸……
+  links: /link.html
   friends:
-    - name: "威言威语"
-      url: "https://www.weisay.com/"
-    - name: "崔话记"
-      url: "https://cuixiping.com/"
-    - name: "雾非雾"
-      url: "https://www.941741.xyz/"
-    - name: "粽叶加米"
-      url: "https://www.wordpace.com/"
-    - name: "老张博客"
-      url: "https://laozhang.org/"
-    - name: "灰常记忆"
-      url: "https://bestcherish.com/"
-    - name: "子夜松声"
-      url: "https://xyzbz.cn/"
-    - name: "落花雨记"
-      url: "https://www.luohuayu.cn/"
-    - name: "老谢博客"
-      url: "https://www.xj123.info/"
-    - name: "主页"
-      url: "https://www.xiaoten.com/"
-    - name: "扯远了扯远了"
-      url: "https://heshizi.com/"
-    - name: "乱码"
-      url: "https://luan.ma/"
-    - name: "土木坛子"
-      url: "https://tumutanzi.com/"
-    - name: "Jeffer.Z"
-      url: "https://www.jeffer.xyz/"
-    - name: "不曾长大-秦大叔的流水账"
-      url: "https://qfsyj.com/"
-    - name: "黑石博客"
-      url: "https://heson.me/"
-    - name: "且听书吟"
-      url: "https://yufan.me/"
-    - name: "LukaChen Blog"
-      url: "https://lukachen.com/"
-    - name: "思章老师"
-      url: "https://lisizhang.com/"
-    - name: "秋記Autumn鼠标点击"
-      url: "https://www.zhyok.cn/"
-    - name: "JoyQi"
-      url: "https://joyqi.com/"
-    - name: "笔墨迹"
-      url: "https://blogscn.fun/"
-    - name: "Giovan"
-      url: "https://www.giovan.cn/"
-    - name: "康丰日志"
-      url: "https://www.okang.top/"
-    - name: "御宅男の博客"
-      url: "https://blog.yzncms.com/"
+    - name: 老谢博客
+      url: https://www.xj123.info/
+      description: 老谢的个人博客，苦逼的互联网从业者，宅男一枚
+    - name: 羽毛の家
+      url: https://www.yumao.name/
+      description: 莫名其妙的失眠了
+    - name: 西门的后花园
+      url: https://ximan.org/
+      description: 一个热爱网络的年轻人的博客
+    - name: 羽中漫步
+      url: http://www.yzmb.me/
+      description: 羽中漫步是一个关注互联网文化创新的博客
+    - name: 小十博客
+      url: https://www.xiaoten.com/
+      description: 十分之十的小十
+    - name: 田伟博客
+      url: http://www.tianwei.org/
+      description: 生活日志，用博客记录生活
+    - name: 扯远了
+      url: https://heshizi.com/
+      description: 去发现，去改变
+    - name: 乱码
+      url: https://luan.ma/
+      description: 乱码的博客
+    - name: 土木坛子
+      url: https://tumutanzi.com/
+      description: 和光同尘、与时舒卷
+    - name: Jeffer.Z
+      url: https://www.jeffer.xyz/
+      description: 我在此处嗅到人间味道
+    - name: 涛叔
+      url: https://tao.zz.ac/
+      description: 大家好，我是涛叔
+    - name: 不曾长大
+      url: https://qfsyj.com/
+      description: 男人从未长大，只是玩具越来越贵！
+    - name: 黑石博客
+      url: https://heson.me/
+      description: 人生在勤，不索何获
+    - name: 叙
+      url: https://zvxi.cn/
+      description: 日常、梦境与阅读，皆是生命的叙事。
+    - name: 落花雨记
+      url: https://www.luohuayu.cn/
+      description: 记录生活与工作的个人博客
+    - name: 姜先森
+      url: https://jiangjizhong.com/
+      description: 言宜慢，心宜善
+    - name: 且听书吟
+      url: https://yufan.me/
+      description: 中国在住で、日本語勉強中なんです。
+    - name: 大大的小蜗牛
+      url: https://eallion.com/
+      description: 机会总是垂青于有准备的人
+    - name: LukaChen Blog
+      url: http://lukachen.com/
+      description: 一个PHP程序员
+    - name: VVavE
+      url: https://vvave.net/
+      description: 不忘初心，披荆斩棘。
+    - name: 格物致知
+      url: http://gaving.top/
+      description: It's never too old to learn
+    - name: 康丰日志
+      url: https://okang.top/
+      description: 心情随笔，也会收集一些网上好玩的东西
+    - name: Leyili花园
+      url: https://lcjlq.com/
+      description: 小小后花园～
+    - name: 东东博客
+      url: https://nihaha.com/
+      description: 城市与信仰
+    - name: 李思章
+      url: https://lisizhang.com/
+      description: When your legs get tired run with your heart
+    - name: 秋記Autumn
+      url: https://www.zhyok.cn/
+      description: 个人博客！网络、生活、日杂
+    - name: JoyQi
+      url: https://joyqi.com/
+      description: Write less
