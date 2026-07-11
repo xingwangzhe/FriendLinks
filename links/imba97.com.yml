@@ -1,18 +1,28 @@
 site:
-  name: imba97 Blog
+  name: imba久期 BLOG
   url: https://imba97.com/
-  description: 友情链接
+  description: 一个前端
   links: /links
   friends:
-    - name: 易姐的博客shakaianee.top
+    - name: 易姐的博客
       url: https://shakaianee.top
-    - name: 小码博客喜欢的东西就努力去追求，万一成功了呢！blog.hikki.site
+    - name: 言成言成啊
+      url: https://meethigher.top/blog
+      description: 相遇在更高处
+    - name: 小码博客
       url: https://blog.hikki.site
-    - name: whocarewuのblogblog.whocarewu.cn
+      description: 喜欢的东西就努力去追求，万一成功了呢！
+    - name: whocarewuのblog
       url: http://blog.whocarewu.cn
-    - name: PeterJXL从 01 开始peterjxl.com
+    - name: PeterJXL
       url: https://www.peterjxl.com
-    - name: imxizhen永远相信美好的事情即将发生imxizhen.cn
+      description: 从 01 开始
+    - name: imxizhen
       url: https://www.imxizhen.cn
-    - name: UpXuu’s blog逐光而上upxuu.com
+      description: 永远相信美好的事情即将发生
+    - name: ZMTU
+      url: https://zmtu.com
+      description: ACG二次元社区，我们的征途是星辰大海！
+    - name: UpXuu's blog
       url: https://upxuu.com
+      description: 逐光而上
