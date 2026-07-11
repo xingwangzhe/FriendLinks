@@ -4,39 +4,81 @@ site:
   description: 雾水的个人博客
   links: /links
   friends:
-    - name: 码志 mzlogin 的博客
+    - name: 码志
       url: https://mazhuang.org
-    - name: 辣椒の酱 辣椒の酱的博客
+      description: mzlogin 的博客
+    - name: 辣椒の酱
       url: https://removeif.github.io/
-    - name: 荷戟独彷徨 爱光学，爱生活，爱创造
+      description: 辣椒の酱的博客
+    - name: 宇宙湾
+      url: https://yuzhouwan.com/
+      description: 大数据与技术分享
+    - name: 荷戟独彷徨
       url: https://guanqr.com/
-    - name: yihong0618 热爱开源的折腾者
+      description: 爱光学，爱生活，爱创造
+    - name: 茂茂物语
+      url: https://notes.fe-mm.com
+      description: 前端知识 · 源码笔记 · 提效工具
+    - name: yihong0618
       url: https://yihong.run/
-    - name: wallleap Luwang's blog
+      description: 热爱开源的折腾者
+    - name: wallleap
       url: https://myblog.wallleap.cn
-    - name: XingHuiSama 赛博空间里的有趣灵魂
+      description: Luwang's blog
+    - name: XingHuiSama
       url: https://www.xinghuisama.top/
-    - name: Gens Note 卷土的笔记
+      description: 赛博空间里的有趣灵魂
+    - name: Gens Note
       url: https://gens.cn/
-    - name: 淼淼之森 程序员阿淼 · Java 学习路上的点滴
+      description: 卷土的笔记
+    - name: 淼淼之森
       url: https://www.mmzsblog.cn/
-    - name: 文科中的技术宅 文出身却爱技术 · 开源与好软件分享
+      description: 程序员阿淼 · Java 学习路上的点滴
+    - name: 文科中的技术宅
       url: https://townwang.com/
-    - name: 极客兔兔 7 天系列教程 · 有趣的开源项目
+      description: 文出身却爱技术 · 开源与好软件分享
+    - name: 极客兔兔
       url: https://geektutu.com/
-    - name: HelloWorld 的小博客 mzdluo123 的小博客
+      description: 7 天系列教程 · 有趣的开源项目
+    - name: Meekdai
+      url: https://blog.meekdai.com/
+      description: Meekdai 的折腾日志
+    - name: HelloWorld 的小博客
       url: https://mzdluo123.github.io/
-    - name: 澪叁妖六 澪叁妖六的博客
+      description: mzdluo123 的小博客
+    - name: SFLOG
+      url: https://github.com/platojobs/SFLOG
+      description: platojobs · 读书笔记与日常思考
+    - name: 澪叁妖六
       url: https://www.love0316.cn/
-    - name: 闲云野鸥 技术分享
+      description: 澪叁妖六的博客
+    - name: 荷戟独彷徨 vdoing
+      url: https://xugaoyi.com/
+      description: vuepress vdoing 主题作者
+    - name: 闲云野鸥
       url: https://cc-x-cloud.github.io/
-    - name: 糖醋鱼小破站 NotionNext 用户的小站
+      description: 技术分享
+    - name: 糖醋鱼小破站
       url: https://www.expoli.tech/
-    - name: 贾心奥利奥 贾心奥利奥的博客
+      description: NotionNext 用户的小站
+    - name: mqnu00
+      url: https://github.com/mqnu00
+      description: mqnu00 的个人博客
+    - name: 考拉的网络日志
+      url: https://www.kooola.com/
+      description: 考拉的网络日志
+    - name: 贾心奥利奥
       url: https://516518.xyz/
-    - name: XingCi 赛博空间里的有趣灵魂
+      description: 贾心奥利奥的博客
+    - name: XingCi
       url: https://www.xingci.cyou/
-    - name: 橘子の博客 与世界漫长交手，最终成为自己
+      description: 赛博空间里的有趣灵魂
+    - name: lnpbqc
+      url: https://github.com/lnpbqc
+      description: lnpbqc 的博客
+    - name: 橘子の博客
       url: https://www.originblog.xyz/
-    - name: 阿的宝藏之地 记录项目、数学思考与杂谈
+      description: 与世界漫长交手，最终成为自己
+    - name: 阿的宝藏之地
       url: https://nothing-new.icu/
+      description: 记录项目、数学思考与杂谈
