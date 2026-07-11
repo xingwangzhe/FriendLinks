@@ -1,14 +1,24 @@
 site:
-  name: 名侦探 - yukino
+  name: yukino
   url: https://blog.ztyukino.com/
-  description: 这是名侦探yukino的博客网站
+  description: 一个现充的个人博客网站
   links: /friends
   friends:
-    - name: fqzlr 坐而言不如起而行. Blog
+    - name: fqzlr
       url: https://fqzlr.com/
-    - name: UpXuu's blog 逐光而上 Blog
+      description: 坐而言不如起而行.
+    - name: xf_blog
+      url: https://lm-xiao-fen.github.io
+      description: 立志用 cloudflare workers,GitHub pages 和 vercel 做出整个互联网的up
+    - name: UpXuu's blog
       url: https://upxuu.com
-    - name: MmzMing 神人的博客 Blog
+      description: 逐光而上
+    - name: 团子和蛋糕
+      url: https://blog.tsh520.cn
+      description: 如果你喜欢那么欢迎来到我的世界！
+    - name: MmzMing
       url: https://tblog.mmzhiku.xyz
-    - name: NNNullptr南 数学生的古早拼贴风格网站 Blog
+      description: 神人的博客
+    - name: NNNullptr南
       url: https://xnmoe.com
+      description: 数学生的古早拼贴风格网站
