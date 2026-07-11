@@ -2,4 +2,9 @@ site:
   name: "Python 运维开发"
   url: "https://python-abc.xyz/"
   description: "一个 Python 运维开发者的工作学习笔记"
-  friends: []
+  links: "/x/friends"
+  friends:
+    - name: "里世界"
+      url: "https://leenet.xyz/"
+    - name: "Guf's Blog"
+      url: "https://xw.pw/"
