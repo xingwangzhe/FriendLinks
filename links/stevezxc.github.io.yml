@@ -1,8 +1,15 @@
 site:
-  name: "Stevezxc"
-  url: "https://stevezxc.github.io/"
-  description: "Ceaseless Seeker"
-  links: "/links"
+  name: Stevezxc
+  url: https://stevezxc.github.io/
+  description: Ceaseless Seeker
+  links: /friends.html
   friends:
-    - name: "Home"
-      url: "https://blog.candlest.cc/"
+    - name: Candlest
+      url: https://blog.candlest.cc/
+      description: 蜡烛
+    - name: Junlin
+      url: https://www.junlin-233.top/
+      description: 君宝
+    - name: Simon
+      url: https://zhuzihan.com/
+      description: 同是天涯沦落人 相逢何必曾相识
