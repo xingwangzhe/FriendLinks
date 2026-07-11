@@ -1,46 +1,84 @@
 site:
-  name: Home • Candlest 的博客
+  name: Candlest 的博客
   url: https://blog.candlest.cc/
-  description: Candlest 的博客，记录CS/AI 与生活
+  description: Fun and Meaningful Jobs.
   links: /links
   friends:
-    - name: SYSU 转专业手册中大学生整理的转专业信息与经验。
+    - name: 华南理工生存手册
+      url: https://manual.xn--xkrsa0ti6rf4cf98d.com/
+      description: 华工学生维护的校园经验与学习资料。
+    - name: OpenISE
+      url: https://openise.pages.dev/
+      description: 课程共享开源计划 中山大学智能工程学院课程资料
+    - name: SYSU 转专业手册
       url: https://sysu-remajor.github.io/
-    - name: taf.fyi关注塔菲谢谢喵
-      url: https://taf.fyi
+      description: 中大学生整理的转专业信息与经验。
+    - name: 时空云博客
+      url: https://blog.skyw.cc/
+      description: xy3的个人博客
+    - name: GZTime
+      url: https://blog.gzti.me/
+      description: Walking on the Time Axis.
     - name: Vergisst
       url: https://vergesst.github.io/#/blog/preface
-    - name: 时空云博客xy3的个人博客
-      url: https://blog.skyw.cc/
-    - name: 存在感消失的地方|ω•`)身处寒夜 把握星光✨
+    - name: taf.fyi
+      url: https://taf.fyi
+      description: 关注塔菲谢谢喵
+    - name: 存在感消失的地方|ω•`)
       url: https://akarin.dev/
-    - name: lone(thely314)Ciallo! World!
-      url: https://lonechan.space
-    - name: 夏槿的小屋A mixture and a rule breaker. Either outstanding or out.
+      description: 身处寒夜 把握星光✨
+    - name: cybersecurityerial
+      url: https://cybersecurityerial.github.io/echo_blog/
+      description: cybersecurityerial的博客
+    - name: 夏槿的小屋
       url: https://uniya.work/
-    - name: GZTimeWalking on the Time Axis.
-      url: https://blog.gzti.me/
-    - name: stevezxc07 年的 Z 哥
-      url: https://stevezxc.github.io/
-    - name: 淡air的小窝air而已，无需在意
-      url: https://air3912.cn
-    - name: 鱼檬檬AI浪潮下的小小避风港
-      url: https://yumengmeng.cn/
-    - name: misay哈基米
-      url: https://www.zt2misay2.cn
-    - name: 刃律RenAhsAcme你看到了吗？一切已经迎来了黎明。 Did you see? Everything has ushered in the dawn.
-      url: https://RenAhsAcme.github.io
-    - name: timlin15CSDIY领域大神
-      url: https://timlin15.github.io
-    - name: 柚栗yuri亚撒西……
-      url: https://kumikosoli.github.io/
-    - name: lbyxiaolizi's blog喵喵喵喵喵
-      url: https://blog.vh.gs
-    - name: 若木秋光ここから、始めましょう。一から…いいえ、ゼロから！
-      url: https://blog.rmqg.org/
-    - name: junlin实习领域大神
+      description: A mixture and a rule breaker. Either outstanding or out.
+    - name: lone
+      url: https://lonechan.space
+      description: Ciallo! World!
+    - name: junlin
       url: https://junlin-233.top/
-    - name: 洛仙璃の幻梦如光似幻，如影随形
+      description: 实习领域大神
+    - name: lbyxiaolizi's blog
+      url: https://blog.vh.gs
+      description: 喵喵喵喵喵
+    - name: 鱼檬檬
+      url: https://yumengmeng.cn/
+      description: AI浪潮下的小小避风港
+    - name: misay
+      url: https://www.zt2misay2.cn
+      description: 哈基米
+    - name: 刃律RenAhsAcme
+      url: https://RenAhsAcme.github.io
+      description: 你看到了吗？一切已经迎来了黎明。
+    - name: 苏油田
+      url: https://blog.suoilfield.cc/
+    - name: Dinosaur
+      url: https://betamos.me/
+      description: 音乐、游戏制作
+    - name: 柚栗yuri
+      url: https://kumikosoli.github.io/
+      description: 亚撒西……
+    - name: 若木秋光
+      url: https://blog.rmqg.org/
+      description: ここから、始めましょう。一から…いいえ、ゼロから！
+    - name: 淡air的小窝
+      url: https://air3912.cn
+      description: air而已，无需在意
+    - name: 洛仙璃の幻梦
       url: https://mzwing.eu.org
+      description: 如光似幻，如影随形
+    - name: Richard-Yi
+      url: https://richardyi-sysu.github.io/MyBlog/
+      description: 永远年轻，永远热爱，永远热泪盈眶
+    - name: timlin15
+      url: https://timlin15.github.io
+      description: CSDIY领域大神
+    - name: stevezxc
+      url: https://stevezxc.github.io/
+      description: 07 年的 Z 哥
+    - name: mike-unk
+      url: https://www.cnblogs.com/mike-unk
+      description: 排版大神
     - name: e7g
       url: https://e7g.github.io/
