@@ -1,10 +1,12 @@
 site:
-  name: Guf's Blog
-  url: https://xw.pw/
-  description: 友情链接
-  links: /link
+  name: "Guf's Blog"
+  url: "https://xw.pw/"
+  description: "一个喜欢打666的小菜鸡"
+  links: "/link"
   friends:
-    - name: 大松的个人网站 大松的个人网站。
-      url: http://xuziyao.com/
-    - name: 里世界 Welcome To The World Of Lee.
-      url: https://leenet.xyz/
+    - name: "古风小阁"
+      url: "https://gu-f.gitee.io/gfxg/"
+    - name: "大松的个人网站"
+      url: "http://xuziyao.com/"
+    - name: "里世界"
+      url: "https://leenet.xyz/"
