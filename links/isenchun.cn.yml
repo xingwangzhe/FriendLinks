@@ -1,98 +1,44 @@
 site:
-  name: 森纯博客-记录生活和分享知识的个人博客网站
+  name: 森纯博客
   url: https://isenchun.cn/
-  description: 森纯博客是一个记录生活,分享知识的个人博客。主要记录日常生活的点点滴滴,分享个人创业和学习的经验心得,茫茫人海中留下些许足迹。
+  description: 记录生活和分享知识
   links: /links
   friends:
-    - name: 陶小桃Blog
-      url: https://www.52txr.cn
-    - name: Oscaner
-      url: https://www.oscaner.com
-    - name: 胡家小子
-      url: https://www.boyhu.cn
-    - name: pmdgjjw
-      url: https://www.efgflight.top
-    - name: 苗锦洲
-      url: https://ordinaryroad.top
-    - name: tam
-      url: https://tamboke.com/
-    - name: 电子商务法
-      url: http://imjmj.com/
-    - name: 若志奕鑫
-      url: https://www.rz.sb
-    - name: 梁俊威
-      url: https://www.ljwei.com.cn
-    - name: 黄业兴博客
-      url: https://www.468427.com
-    - name: TAOG
-      url: https://iktao.cn
-    - name: 谭嘉成
-      url: https://www.tjcblog.com
-    - name: John.Cena
-      url: https://jcxiaozhan.gitee.io
-    - name: 陈陈菌
-      url: https://blog.glumi.cn
-    - name: 日记铺子
-      url: https://www.rjpz.net
-    - name: 百万链
-      url: https://www.baiwanlian.net/
-    - name: 石头记
-      url: http://www.szq.cool
-    - name: Lok
-      url: https://www.seeuh.com/
-    - name: Derek村长
-      url: https://blog.dosth.fun
-    - name: Diego
-      url: http://blog.diego.plus:5800
-    - name: john.cena
-      url: https://www.jcxiaozhan.top
-    - name: 王嘉宁
-      url: http://www.wjn1996.cn
-    - name: Sprite
-      url: https://shezw.com
-    - name: 许小逸
-      url: https://www.xuxiaoyi.top
-    - name: 徐征航
-      url: https://xzh.pub/
-    - name: 乐心湖
-      url: https://www.xn2001.com
-    - name: 爱摸鱼的阿恒
-      url: https://focuxin.com
-    - name: Moechu
-      url: https://moechu.cn
-    - name: benen005
-      url: http://benen005.cn
-    - name: 术与道
-      url: http://www.shuyudao.top
-    - name: 日记坊
-      url: http://rijifang.com
-    - name: Aw-yang
-      url: http://www.aw-yang.club/
-    - name: FKUN
-      url: https://fkun.tech/
-    - name: sking
+    - name: 程志辉博客
+      url: https://www.qqzmly.com
+      description: 文艺青年，记录生活中的点点滴滴
+      avatar: https://www.qqzmly.com/myphoto.jpg
+    - name: 拾光博客
       url: https://www.hiai.top
-    - name: Escher
-      url: https://jkgblog.com/
-    - name: 小奥纸
-      url: https://www.xiaoaozhi.cn
-    - name: 森屿博客
-      url: https://www.isenyu.cn
-    - name: 与梦城
-      url: https://www.gqink.cn
-    - name: 若志奕鑫的小站
-      url: https://www.zyiev.cn
-    - name: 刘大喵
-      url: https://ipwa.cn
-    - name: 徐征航
-      url: https://xuzhenghang.com
-    - name: 北漂的程序猿
-      url: http://www.bjcxy.club/
-    - name: 宏远博客
-      url: https://i97.me
-    - name: 刘晨晨
-      url: https://www.linguang.me
-    - name: 小小驿站网
-      url: http://xxinn.cn
-    - name: Hoe
-      url: http://www.hoehub.com
+      description: 一个有趣的IT资源分享网
+      avatar: https://www.hiai.top/yuan/favicon.png
+    - name: FKUN
+      url: https://fkun.tech
+      description: 分享摄影，生活，旅行等
+      avatar: https://fkun.tech/images/avatar.png
+    - name: 小ben成长手册
+      url: http://www.benen005.cn/
+      description: 知识分享和学习经验
+      avatar: https://ftp.bmp.ovh/imgs/2021/07/fdad0bae7e179c89.jpg
+    - name: 萌豚 Moechu
+      url: https://moechu.cn/
+      description: 一个不走心的个人站点
+    - name: 半隐小筑
+      url: https://shezw.com
+      description: 全栈开发
+      avatar: http://shezw.com/usr/plugins/cube3d/assets/images/face.png
+    - name: Derek村长
+      url: https://blog.dosth.fun/
+      description: 记录文字、分享技术
+      avatar: https://blog.dosth.fun/tx.jpg
+    - name: TAOG's Blog
+      url: https://iktao.cn/
+      description: TAOG's Blog
+    - name: Spirit
+      url: https://spiritx.xyz
+      description: 同学同道，终身相习
+      avatar: https://spiritx.xyz/wp-content/uploads/2018/12/tty.jpg
+    - name: 陈陈菌博客
+      url: https://blog.glumi.cn/
+      description: 计算机业余爱好者，喜欢折腾
+      avatar: https://blog.glumi.cn/favicon.ico
