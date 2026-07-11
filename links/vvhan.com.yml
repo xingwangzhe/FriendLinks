@@ -1,98 +1,133 @@
 site:
-  name: 韩小韩博客 - 不曾与你分享的时间,我在进步.
+  name: 韩小韩博客
   url: https://www.vvhan.com/
-  description: 韩小韩博客 专注于前开发与相关技术的实战分享，涵盖Vue框架、Node.js、Serverless等，并涉及Node、Python、Linux、Docker等领域。同时，博客也分享作者的生活、音乐和旅行的热爱。
+  description: 运气是计划之外的东西.
   links: /links
   friends:
-    - name: 冷筱宇的小窝一个喜欢折腾的青年
+    - name: 冷筱宇的小窝
       url: https://www.789dl.cn/
-    - name: LeeDaisen肯了个德的个人博客
+      description: 一个喜欢折腾的青年
+    - name: LeeDaisen
       url: https://leelaa.cn
-    - name: 摘繁华个人博客白衣无尘，亦如初见。
+      description: 肯了个德的个人博客
+    - name: 摘繁华个人博客
       url: https://blog.zhaifanhua.com
-    - name: 青萍叙事一个懂技术的产品汪🐶
+      description: 白衣无尘，亦如初见。
+    - name: 青萍叙事
       url: https://blog.lusyoe.com
-    - name: 唯知笔记探索知识的无限可能。
+      description: 一个懂技术的产品汪🐶
+    - name: 唯知笔记
       url: https://note.weizwz.com
-    - name: 晚风如诉人生没有无意义的经历！
+      description: 探索知识的无限可能。
+    - name: 晚风如诉
       url: https://lo3.cn
-    - name: Xujiayao's Blog没有个性，如何签名？
+      description: 人生没有无意义的经历！
+    - name: Xujiayao's Blog
       url: https://blog.xujiayao.com
-    - name: 周末晚的岛屿我见青山多妩媚，料青山见我应如是。
+      description: 没有个性，如何签名？
+    - name: 周末晚的岛屿
       url: https://blog.wkndnite-tech.cn
-    - name: M酷的Blog一个专注分享前端技术和趋势的博客
+      description: 我见青山多妩媚，料青山见我应如是。
+    - name: M酷的Blog
       url: https://bbchin.com
-    - name: 李庆林个人博客李庆林个人博客
+      description: 一个专注分享前端技术和趋势的博客
+    - name: 李庆林个人博客
       url: https://www.liqinglin0314.com
-    - name: 程志辉博客我这个人走的很慢，但我从不后退。
+    - name: 程志辉博客
       url: https://www.qqzmly.com
-    - name: 姚远A vegetable student
+      description: 我这个人走的很慢，但我从不后退。
+    - name: 姚远
       url: https://yaoyuan.vip
-    - name: 半粒糖博客人生必有痴，而后又成。
+      description: A vegetable student
+    - name: 半粒糖博客
       url: https://bltang.cc/
-    - name: 御宅男の博客分享一些技术文章，记录一些程序学习生涯中的问题，一同和您学习进步，来自御宅男的原创博客
+      description: 人生必有痴，而后又成。
+    - name: 御宅男の博客
       url: http://blog.yzncms.com/
-    - name: 左眼会陪右眼哭の博客干嘛这么想不开，要在脸上贴个输字！
+      description: 分享一些技术文章，记录一些程序学习生涯中的问题
+    - name: 左眼会陪右眼哭の博客
       url: https://qkongtao.cn/
-    - name: 九陌斋博客每一条思想的道路都通向知识的繁华！
+      description: 干嘛这么想不开，要在脸上贴个输字！
+    - name: 九陌斋博客
       url: https://blog.jiumoz.com
-    - name: Joe的博客Eternity is not a distance but a decision
+      description: 每一条思想的道路都通向知识的繁华！
+    - name: Joe的博客
       url: https://78.al
-    - name: BIIBII 博客记录生活中的技术脉搏。
+      description: Eternity is not a distance but a decision
+    - name: BIIBII 博客
       url: https://www.biibii.cn
-    - name: Jonty'Blog一个致力于提供各种最新免费的计算机技术、电脑技巧的技术博客。
+      description: 记录生活中的技术脉搏。
+    - name: Jonty'Blog
       url: https://nobb.cc
-    - name: 仲小树一个遥遥领先的网络邻居。
+      description: 一个致力于提供各种最新免费的计算机技术、电脑技巧的技术博客。
+    - name: 仲小树
       url: https://zxs.me
-    - name: 小维博客不曾与你分享的时间，我在进步。
+      description: 一个遥遥领先的网络邻居。
+    - name: 小维博客
       url: https://blog.isww.cn/
-    - name: 林羽凡林羽凡个人博客
+      description: 不曾与你分享的时间，我在进步。
+    - name: 林羽凡
       url: https://www.linyufan.com/
-    - name: webfem做有价值的博客
+    - name: webfem
       url: https://webfem.com
-    - name: 不冷博客听喜欢的歌，做喜欢的事。
+      description: 做有价值的博客
+    - name: 不冷博客
       url: https://www.buleng.xyz
+      description: 听喜欢的歌，做喜欢的事。
     - name: 春风吹浅秋枫影的博客
       url: https://cuojue.org
-    - name: 谜叶象限每一片叶子，都是未完成的坐标系。
+    - name: 谜叶象限
       url: https://baiwumm.com
-    - name: 阁主博客一个专业性的站点！
+      description: 每一片叶子，都是未完成的坐标系。
+    - name: 阁主博客
       url: https://www.mainblog.cn
-    - name: 李锋镝的博客星光不问赶路人，时光不负有心人。
+      description: 一个专业性的站点！
+    - name: 李锋镝的博客
       url: https://www.lifengdi.com/
-    - name: 小李同志满天繁星，有我想成为的那道光！
+      description: 星光不问赶路人，时光不负有心人。
+    - name: 小李同志
       url: https://xlzcx.top
-    - name: 问心斋一只狗的精神自留地
+      description: 满天繁星，有我想成为的那道光！
+    - name: 问心斋
       url: https://blog.ehnap.com
-    - name: 汀彵の汐斯人若彩虹，遇上方知有
+      description: 一只狗的精神自留地
+    - name: 汀彵の汐
       url: http://www.izznan.cn
-    - name: 清羽飞扬柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜.
+      description: 斯人若彩虹，遇上方知有
+    - name: 清羽飞扬
       url: https://blog.liushen.fun
-    - name: 韩艺博的博客韩艺博的个人博客，学习笔记
+      description: 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜.
+    - name: 韩艺博的博客
       url: https://www.hanyibo.com/
-    - name: 乙未极客记录生活分享与留存。
+    - name: 乙未极客
       url: https://www.yvii.cn
-    - name: 面条实验室折腾些什么玩意。
+      description: 记录生活分享与留存。
+    - name: 面条实验室
       url: https://miantiao.me
-    - name: 吃猫的鱼吃猫的鱼--一个优质的技术博客！
+      description: 折腾些什么玩意。
+    - name: 吃猫的鱼
       url: https://www.fish9.cn
-    - name: 技术松鼠学习，让视野更宽阔！
+      description: 吃猫的鱼--一个优质的技术博客！
+    - name: 技术松鼠
       url: https://www.jishusongshu.com
-    - name: Jiawei’s Blog和光同尘
+      description: 学习，让视野更开阔！
+    - name: Jiawei's Blog
       url: https://www.chujiaweicode.top
-    - name: LineXic书屋难离难舍，想抱紧些。
+      description: 和光同尘
+    - name: LineXic书屋
       url: https://linexic.top
-    - name: 倾城于你一个热爱分享的Typecho小站。
+      description: 难离难舍，想抱紧些。
+    - name: 倾城于你
       url: https://qninq.cn
-    - name: 陶其的个人博客当下，即是未来
+      description: 一个热爱分享的Typecho小站。
+    - name: 陶其的个人博客
       url: https://www.tqazy.com
+      description: 当下，即是未来
     - name: JASMIAM
       url: https://jasmiam.top
     - name: Galaxy
       url: https://lygalaxy.cn/
     - name: 天渺studio
       url: https://tianmiao.site
-    - name: 半粒糖博客
-      url: https://WWW.ulurl.com
     - name: James
       url: https://nasliangjian.mycloudnas.com:4443/
