@@ -1,40 +1,94 @@
 site:
   name: 寒寒的博客
   url: https://blog.alikia2x.com/
-  description: 欢迎来到寒寒的博客，这里会分享寒寒的技术教程、心得、学习笔记、生活记录等等，欢迎大家来玩~(≧▽≦)/~
+  description: 欢迎来到寒寒的博客，这里会分享寒寒的技术教程、心得、学习笔记、生活记录等等，欢迎大家来玩~
   links: /friends
   friends:
+    - name: 砍砍
+      url: https://www.qaq.wiki/
+      description: 对不起，是我太菜了。
+      avatar: https://blog.alikia2x.com/img/lakr.jpg
     - name: 十条倖
       url: https://nanakumo.github.io/
+      description: 猫和甜品，夏天和你。
+      avatar: https://blog.alikia2x.com/img/nanakumo.png
+    - name: 凛子
+      url: https://blog.rinkko.moe/
+      description: 退役OIer，现役MADer，喜欢摸鱼，热爱生活！
+      avatar: https://blog.alikia2x.com/img/rinkko.png
     - name: 星野玲
       url: https://blog.bling.moe
+      description: 一个喜欢信息技术、二次元的小透明。
+      avatar: https://blog.alikia2x.com/img/bling.jpg
     - name: 寒川詩音
       url: https://blog.shion-nya.moe/
+      description: 只是一隻被貓娘養大的狐娘
+      avatar: https://blog.alikia2x.com/img/shion.jpg
     - name: Candy Nya
       url: https://candinya.com/
+      description: Never drown the flame of hope
+      avatar: https://blog.alikia2x.com/img/candinya.png
     - name: XYenon's Blog
       url: https://blog.xyenon.bid/
+      description: PER ASPERA AD ASTRA
+      avatar: https://blog.alikia2x.com/img/xy.jpg
+    - name: PiCpo的阁楼
+      url: https://picpo.top/
+      description: FrontEnd/Pwn/Computer Science & Web Security Learner
+      avatar: https://blog.alikia2x.com/img/picpo.jpg
     - name: Pink Champagne
       url: https://pinkchampagne.moe/
+      description: 萌萌二次元大表哥，生料王
+      avatar: https://blog.alikia2x.com/img/pinkchampagne.jpg
     - name: Moeri落落格
       url: https://blog.bakalu.site/
+      description: 看一隻自稱貓娘的日常
+      avatar: https://blog.alikia2x.com/img/hokori.png
     - name: Nworm
       url: https://nworm.icu/
+      description: 一条咸鱼
+      avatar: https://blog.alikia2x.com/img/nworm.webp
     - name: 北熙宝宝
       url: https://blog.beixibaobao.com/
+      description: 如果恋爱有颜色，那一定是纯白色！
+      avatar: https://blog.alikia2x.com/img/beixi.jpg
     - name: Yumechi
       url: https://yumechi.jp/
+      description: いい夢を
+      avatar: https://blog.alikia2x.com/img/yumechi.jpg
+    - name: 老兄
+      url: https://www.moec.top/
+      description: 老兄de博客
+      avatar: https://blog.alikia2x.com/img/laoxiong.png
     - name: Skyone Blog
       url: https://www.skyone.host/
+      description: Skyone的个人博客
+      avatar: https://blog.alikia2x.com/img/Skyone.png
     - name: Bingxin Home
       url: https://blog.byteloid.one/
+      description: 好久不见
+      avatar: https://blog.alikia2x.com/img/march7th.jpg
+    - name: 路痴的平行世界
+      url: https://akaluchi.com/
+      description: 狂风拂面衣襟乱，红尘乐与快哉空。
+      avatar: https://blog.alikia2x.com/img/misscraft.png
     - name: Joseph Chris
       url: https://josephcz.xyz/
+      description: 生如逆旅 · 一苇以航
+      avatar: https://blog.alikia2x.com/img/joseph.png
     - name: Chlorine
       url: https://chlo.is/
+      description: An Element-chan who writes.
+      avatar: https://blog.alikia2x.com/img/Chlorine.webp
     - name: 洛雨の小站
       url: https://luotianyi.eu/
+      description: 历史终将证明一切
+      avatar: https://blog.alikia2x.com/img/luoyu.jpg
     - name: yido酱の小窝
       url: https://blog.jamyido.cn/
+      description: 技术小白，调教菜菜
+      avatar: https://blog.alikia2x.com/img/yido.png
     - name: 豆沙团子
       url: https://tuan-zi.cn/
+      description: 爱天依，爱画画，爱前端～
+      avatar: https://tuan-zi.cn/avatar.jpg
