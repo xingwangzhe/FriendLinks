@@ -1,21 +1,25 @@
 site:
   name: 陪她去流浪
   url: https://blog.twofei.com/
-  description: 友情链接
+  description: 桃子/桃紫的个人博客
   links: /friends
   friends:
     - name: Deep Router
       url: https://deeprouter.org
     - name: 土豆不好吃
       url: https://dmesg.app/
+      description: Remember me.
     - name: Xavierskip
       url: https://blog.xavierskip.com/
     - name: 且听书吟
       url: https://yufan.me/
+      description: 诗与梦想的远方
     - name: 卡瓦邦噶！
       url: https://www.kawabangga.com/
+      description: 无法自制的人得不到自由。
     - name: 小竹の笔记本
       url: https://notes.smallbamboo.cn
+      description: 这里是编程宇宙中一颗璀璨的星辰，照亮你探索知识的旅程。
     - name: 二进制怪兽的小黑屋
       url: https://www.binary-monster.top
     - name: 代码和段子手
@@ -32,3 +36,4 @@ site:
       url: https://zhxq.io
     - name: Ken's Blog
       url: https://www.xuzefeng.com/
+      description: 不以物喜，不以己悲
