@@ -8,7 +8,6 @@
         "@bokuweb/zstd-wasm": "^0.0.27",
         "@orama/orama": "^3.1.18",
         "@orama/stemmers": "^3.1.18",
-        "@orama/tokenizers": "^3.1.18",
         "@tabler/icons": "^3.44.0",
         "@tailwindcss/forms": "^0.5.11",
         "@xingwangzhe/bfs-rs": "^0.1.8",
@@ -245,8 +244,6 @@
     "@orama/orama": ["@orama/orama@3.1.18", "", {}, "sha512-a61ljmRVVyG5MC/698C8/FfFDw5a8LOIvyOLW5fztgUXqUpc1jOfQzOitSCbge657OgXXThmY3Tk8fpiDb4UcA=="],
 
     "@orama/stemmers": ["@orama/stemmers@3.1.18", "", {}, "sha512-xXs5fpiUvBs4jJZtnayJmUSomdxxiwwwvTbAzPHSyI6geLM7bxXHgpVlYz4JeMBycHX8bHF7j9m7F35BxhuZ8g=="],
-
-    "@orama/tokenizers": ["@orama/tokenizers@3.1.18", "", { "dependencies": { "@orama/orama": "3.1.18" } }, "sha512-Ra4dFddWZ7hCGPAehnd/6QZjlzQvczYSt1y1Fq4HteJqRu2yvfR6fXvxiUnKi+HIgJYPxKhebJEjvJdF8LYQWg=="],
 
     "@oslojs/encoding": ["@oslojs/encoding@1.1.0", "https://registry.npmmirror.com/@oslojs/encoding/-/encoding-1.1.0.tgz", {}, "sha512-70wQhgYmndg4GCPxPPxPGevRKqTIJ2Nh4OkiMWmDAVYsTQ+Ta7Sq+rPevXyXGdzr30/qZBnyOalCszoMxlyldQ=="],
 

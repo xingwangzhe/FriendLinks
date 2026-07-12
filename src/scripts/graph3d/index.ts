@@ -201,29 +201,71 @@ export async function init3d(graphData: GraphData) {
     });
   });
 
-  // ── 4. 搜索索引（Orama + 中文分词）──
+  // ── 4. 搜索索引（Orama + 自定义空格分割分词）──
+  // 策略：手动构建搜索文本（保留完整 hostname + CJK bigram），
+  // 用空格分割 tokenizer 确保查询和索引的分词完全一致
   const { create, insert, search: oramaSearch } = await import("@orama/orama");
-  const { createTokenizer } = await import("@orama/tokenizers/mandarin");
-  const tokenizer = await createTokenizer();
+
+  function _isCJK(c: number) {
+    return (c >= 0x4E00 && c <= 0x9FFF) || (c >= 0x3400 && c <= 0x4DBF);
+  }
+  function _cjkBigrams(text: string): string[] {
+    const r: string[] = [];
+    for (let i = 0; i < text.length - 1; i++) {
+      if (_isCJK(text.charCodeAt(i)) && _isCJK(text.charCodeAt(i + 1))) r.push(text.slice(i, i + 2));
+    }
+    return r;
+  }
+  function _extractHost(u: string): string {
+    try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return u; }
+  }
+  function _buildSearchText(name: string, url: string, desc: string): string {
+    const host = _extractHost(url);
+    const parts = host.split(".");
+    const tokens = new Set<string>();
+    // 完整 hostname（匹配 "xingwangzhe.fun" 搜域名）
+    tokens.add(host);
+    // 主域名（匹配 "xingwangzhe" 搜域名前缀）
+    if (parts.length >= 2) tokens.add(parts[0]);
+    // 站点名整体
+    tokens.add(name);
+    // 站点名中的 CJK bigram
+    for (const bg of _cjkBigrams(name)) tokens.add(bg);
+    // 描述中的 CJK bigram
+    if (desc) for (const bg of _cjkBigrams(desc)) tokens.add(bg);
+    return [...tokens].join(" ");
+  }
+
+  const spaceTokenizer = {
+    language: "space" as const,
+    stemmer: false as const,
+    stopWords: false as const,
+    tokenize(text: string) {
+      return text.split(/\s+/).filter(Boolean);
+    },
+  };
+
   const searchDB = await create({
     schema: {
       id: "string",
       name: "string",
       url: "string",
-      description: "string",
+      searchText: "string",
     },
-    components: { tokenizer },
+    components: { tokenizer: spaceTokenizer } as any,
   });
+
   const insertedIds = new Set<string>();
   for (const n of nodes) {
     const id = n.id;
     if (!id || insertedIds.has(id)) continue;
     insertedIds.add(id);
+    const searchText = _buildSearchText(n.name || id, n.url || "", n.desc || "");
     await insert(searchDB, {
       id,
       name: n.name || id,
       url: n.url || "",
-      description: n.desc || "",
+      searchText,
     });
   }
 
@@ -1931,15 +1973,13 @@ export async function init3d(graphData: GraphData) {
     if (!query?.trim()) return [];
     const results = await oramaSearch(searchDB, {
       term: query.trim(),
-      boost: { name: 4, url: 3, description: 1 },
       limit: 12,
     });
-    return results.hits.map((h) => h.document) as Array<{
-      id: string;
-      name: string;
-      url: string;
-      description: string;
-    }>;
+    return results.hits.map((h) => ({
+      id: h.document.id,
+      name: h.document.name,
+      url: h.document.url,
+    })) as Array<{ id: string; name: string; url: string }>;
   }
 
   function getGraphData() {
