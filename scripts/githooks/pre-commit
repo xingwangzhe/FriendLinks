@@ -1,0 +1,31 @@
+#!/bin/sh
+#
+# Git pre-commit hook: 提交前运行 YML 格式验证，必须无 warning 无 error
+#
+set -e
+
+echo "🔍 正在运行 YML 格式验证…"
+
+# 运行 validate，捕获 stdout+stderr
+OUTPUT=$(bun run validate 2>&1)
+EXIT_CODE=$?
+
+# 输出验证结果（给用户看）
+echo "$OUTPUT"
+
+# 检查是否有错误或警告
+if echo "$OUTPUT" | grep -qE '\[类型错误\]|⚠️'; then
+  echo ""
+  echo "❌ 提交被拒绝：YML 验证存在错误或警告，请修复后重试。"
+  exit 1
+fi
+
+# 检查退出码
+if [ "$EXIT_CODE" -ne 0 ]; then
+  echo ""
+  echo "❌ 提交被拒绝：YML 验证脚本异常退出。"
+  exit 1
+fi
+
+echo ""
+echo "✅ YML 格式验证通过，提交继续。"
