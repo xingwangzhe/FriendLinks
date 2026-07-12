@@ -2,7 +2,6 @@
  * 3D 博客宇宙渲染模块（Three.js InstancedMesh）
  * 使用 Three.js 原生 InstancedMesh 替代 3d-force-graph
  */
-import FlexSearch from "flexsearch";
 import * as THREE from "three";
 import { decode } from "msgpackr";
 import type { decompress as ZstdDecompressFn } from "@bokuweb/zstd-wasm";
@@ -202,31 +201,28 @@ export async function init3d(graphData: GraphData) {
     });
   });
 
-  // ── 4. 搜索索引（FlexSearch full 分词，CJK 友好）──
-  const searchIndex = new FlexSearch.Index({
-    tokenize: "full",
-    cache: true,
+  // ── 4. 搜索索引（Orama + 中文分词）──
+  const { create, insert, search: oramaSearch } = await import("@orama/orama");
+  const { createTokenizer } = await import("@orama/tokenizers/mandarin");
+  const tokenizer = await createTokenizer();
+  const searchDB = await create({
+    schema: {
+      id: "string",
+      name: "string",
+      url: "string",
+      description: "string",
+    },
+    components: { tokenizer },
   });
-  const searchStore = new Map<string, { id: string; name: string; url: string; description: string }>();
   for (const n of nodes) {
     const id = n.id;
     if (!id) continue;
-    const name = n.name || id;
-    const url = n.url || "";
-    const desc = n.desc || "";
-    // 中文按字索引 + 拼音辅助：name 和 url 和 desc 一起索引
-    const text = `${name} ${url} ${desc} ${id}`;
-    searchIndex.add(id, text);
-    const existing = searchStore.get(id);
-    if (existing) {
-      // 重复 ID 的节点合并名称
-      if (name && !existing.name.includes(name)) {
-        // 更新名称（保留更完整的）
-        if (name.length > existing.name.length) existing.name = name;
-      }
-    } else {
-      searchStore.set(id, { id, name, url, description: desc });
-    }
+    await insert(searchDB, {
+      id,
+      name: n.name || id,
+      url: n.url || "",
+      description: n.desc || "",
+    });
   }
 
   // ── 5. 状态 ──
@@ -1929,11 +1925,14 @@ export async function init3d(graphData: GraphData) {
   ro.observe(container);
 
   // ── 19. 公开 API ──
-  function find(query: string) {
+  async function find(query: string) {
     if (!query?.trim()) return [];
-    const q = query.trim().toLowerCase();
-    const ids = searchIndex.search(q, 12) as string[];
-    return ids.map((id) => searchStore.get(id)).filter(Boolean) as Array<{
+    const results = await oramaSearch(searchDB, {
+      term: query.trim(),
+      boost: { name: 4, url: 3, description: 1 },
+      limit: 12,
+    });
+    return results.hits.map((h) => h.document) as Array<{
       id: string;
       name: string;
       url: string;

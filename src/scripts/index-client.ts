@@ -223,9 +223,9 @@ type SearchResult = { id: string; name: string; url?: string };
         try {
           let list: SearchResult[] = [];
           if (controller && (controller as any).find) {
-            list = (controller as any).find(v);
+            list = await (controller as any).find(v);
           } else if (window.__graphApi && window.__graphApi.find) {
-            list = window.__graphApi.find(v);
+            list = await (window as any).__graphApi.find(v);
           }
           render((list || []).slice(0, 12));
         } catch (err) {
