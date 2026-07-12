@@ -214,9 +214,11 @@ export async function init3d(graphData: GraphData) {
     },
     components: { tokenizer },
   });
+  const insertedIds = new Set<string>();
   for (const n of nodes) {
     const id = n.id;
-    if (!id) continue;
+    if (!id || insertedIds.has(id)) continue;
+    insertedIds.add(id);
     await insert(searchDB, {
       id,
       name: n.name || id,
