@@ -50,8 +50,8 @@ type SearchResult = { id: string; name: string; url?: string };
 
       // 并行加载 Three.js 模块和下载图数据
       const modPromise = import("./graph3d/index");
-      const hashes = (window as any).__BIN_HASHES;
-      const coreUrl = hashes ? `/graph-core.${hashes.core}.bin` : "/graph-core.bin";
+      const timestamps = (window as any).__BIN_TIMESTAMPS;
+      const coreUrl = timestamps ? `/graph-core.${timestamps.core}.bin` : "/graph-core.bin";
       const fetchPromise = fetch(coreUrl, { signal: abort.signal }).then((r) => {
         if (!r.ok) throw new Error(`获取图数据失败: ${r.status}`);
         return r.arrayBuffer();

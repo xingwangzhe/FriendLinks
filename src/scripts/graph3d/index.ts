@@ -349,7 +349,7 @@ export async function init3d(graphData: GraphData) {
     if (_bezierLoaded || _bezierLoading) return;
     _bezierLoading = true;
     try {
-      const h = (window as any).__BIN_HASHES;
+      const h = (window as any).__BIN_TIMESTAMPS;
       const bezierUrl = h?.bezier ? `/graph-bezier.${h.bezier}.bin` : "/graph-bezier.bin";
       const res = await fetch(bezierUrl);
       if (!res.ok) return;
