@@ -23,16 +23,17 @@
     "fmt": "oxfmt src/ links/ --write",
     "fmt-check": "oxfmt src/ links/ --check",
     "validate": "bun run scripts/validate-links.ts",
-    "six": "bun run scripts/six-degrees.ts"
+    "six": "bun run scripts/six-degrees.ts",
+    "frontier": "bun run scripts/frontier-rank.ts"
   },
   "dependencies": {
     "@bokuweb/zstd-wasm": "^0.0.27",
     "@orama/orama": "^3.1.18",
     "@orama/stemmers": "^3.1.18",
-    "@tabler/icons": "^3.44.0",
+    "@tabler/icons": "^3.45.0",
     "@tailwindcss/forms": "^0.5.11",
-    "@xingwangzhe/bfs-rs": "^0.1.8",
-    "@xingwangzhe/force-rs": "^0.1.4",
+    "@xingwangzhe/bfs-rs": "^0.1.9",
+    "@xingwangzhe/force-rs": "^0.1.5",
     "astro": "7.1.0",
     "d3-force-3d": "^3.0.6",
     "msgpackr": "^2.0.4",
@@ -46,15 +47,15 @@
   "devDependencies": {
     "@spider-rs/spider-rs": "^0.0.163",
     "@spider-rs/spider-rs-linux-x64-gnu": "^0.0.157",
-    "@tailwindcss/vite": "^4.3.2",
+    "@tailwindcss/vite": "^4.3.3",
     "@types/node": "^26.1.1",
     "@types/three": "^0.185.1",
     "cheerio": "^1.2.0",
     "ky": "^2.0.2",
-    "oxfmt": "^0.58.0",
-    "oxlint": "^1.73.0",
+    "oxfmt": "^0.59.0",
+    "oxlint": "^1.74.0",
     "playwright": "^1.61.1",
-    "tailwindcss": "^4.3.2",
+    "tailwindcss": "^4.3.3",
     "typescript": "^7.0.2"
   }
 }

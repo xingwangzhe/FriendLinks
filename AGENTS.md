@@ -187,6 +187,7 @@ bun run lint && bun run fmt  # 提交前检查
 | `bun run build` | 构建生产版本 |
 | `bun run validate` | 校验 `scripts/validate-links.ts` — 检查 YAML 格式和必填字段 |
 | `bun run six` | 运行 `scripts/six-degrees.ts` — 六度分隔分析 |
+| `bun run frontier` | 运行 `scripts/frontier-rank.ts` — 按入度排序待扩网域名 |
 | `bun run lint` | oxlint 代码检查 + TypeScript 类型检查 |
 | `bun run fmt` | oxfmt 格式化 `src/` 和 `links/` |
 

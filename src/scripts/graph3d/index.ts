@@ -207,7 +207,7 @@ export async function init3d(graphData: GraphData) {
   const { create, insert, search: oramaSearch } = await import("@orama/orama");
 
   function _isCJK(c: number) {
-    return (c >= 0x4E00 && c <= 0x9FFF) || (c >= 0x3400 && c <= 0x4DBF);
+    return (c >= 0x4e00 && c <= 0x9fff) || (c >= 0x3400 && c <= 0x4dbf);
   }
   function _cjkBigrams(text: string): string[] {
     const r: string[] = [];
@@ -217,7 +217,11 @@ export async function init3d(graphData: GraphData) {
     return r;
   }
   function _extractHost(u: string): string {
-    try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return u; }
+    try {
+      return new URL(u).hostname.replace(/^www\./, "");
+    } catch {
+      return u;
+    }
   }
   function _buildSearchText(name: string, url: string, desc: string): string {
     const host = _extractHost(url);
