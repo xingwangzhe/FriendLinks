@@ -1,0 +1,77 @@
+# 友链审核规则。规则命中只生成审核建议，不会自动修改 links/。
+sensitiveTerms:
+  - 色情
+  - 淫秽
+  - 成人
+  - 色情片
+  - 番号
+  - sexwork
+  - porn
+  - pornographic
+  - hentai
+  - xxx
+  - nsfw
+  - casino
+  - gambling
+  - betting
+  - sportsbook
+  - poker
+  - 博彩
+  - 赌博
+  - 赌场
+  - 下注
+commercialTerms:
+  - 公司官网
+  - 企业官网
+  - 有限公司
+  - 服务商
+  - 外包
+  - 代运营
+  - 营销
+  - 推广
+  - 电商
+  - 商城
+  - 网站建设
+  - 小程序开发
+  - brand official
+  - corporate
+  - agency
+  - ecommerce
+  - official store
+directoryTerms:
+  - 导航
+  - 网站收录
+  - 博客收录
+  - 博客聚合
+  - 博客列表
+  - 博客索引
+  - 目录
+  - blogroll
+  - directory
+  - aggregator
+  - blog index
+  - link collection
+blogTerms:
+  - 博客
+  - 文章
+  - 随笔
+  - 日记
+  - 技术分享
+  - 独立博客
+  - blog
+  - posts
+  - articles
+  - journal
+  - portfolio
+  - rss
+  - atom
+platformTerms:
+  - github
+  - gitlab
+  - wordpress
+  - hexo
+  - hugo
+  - cdn
+  - 图床
+  - 短链
+  - 托管平台

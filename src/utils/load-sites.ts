@@ -8,7 +8,7 @@ function isString(v: unknown): v is string {
   return typeof v === "string";
 }
 
-function isValidUrl(u: unknown): u is string {
+export function isValidUrl(u: unknown): u is string {
   if (!isString(u)) return false;
   try {
     const url = new URL(u);

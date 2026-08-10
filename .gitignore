@@ -25,6 +25,9 @@ links/*.json
 public/*.json
 public/scripts/*.js
 
+# 审核/信誉查询缓存（开发调试用，不提交）
+.audit-reputation.json
+
 # 探测/爬虫产物（开发调试用，不提交）
 crawl_log.txt
 probe_result.txt

@@ -8,6 +8,7 @@
     "dist"
   ],
   "compilerOptions": {
+    "types": ["bun-types"],
     "skipLibCheck": true,
     "paths": {
       "@/*": ["./src/*"]

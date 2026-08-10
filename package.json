@@ -24,7 +24,9 @@
     "fmt-check": "oxfmt src/ links/ --check",
     "validate": "bun run scripts/validate-links.ts",
     "six": "bun run scripts/six-degrees.ts",
-    "frontier": "bun run scripts/frontier-rank.ts"
+    "frontier": "bun run scripts/frontier-rank.ts",
+    "audit": "bun run scripts/audit-links.ts",
+    "test": "bun test"
   },
   "dependencies": {
     "@bokuweb/zstd-wasm": "^0.0.27",
@@ -48,13 +50,17 @@
     "@spider-rs/spider-rs": "^0.0.163",
     "@spider-rs/spider-rs-linux-x64-gnu": "^0.0.157",
     "@tailwindcss/vite": "^4.3.3",
+    "@types/bun": "^1.3.14",
     "@types/node": "^26.2.0",
     "@types/three": "^0.185.4",
     "cheerio": "^1.2.0",
+    "ipaddr.js": "^2.5.0",
     "ky": "^2.0.2",
     "oxfmt": "^0.59.0",
     "oxlint": "^1.78.0",
+    "p-queue": "^9.3.3",
     "playwright": "^1.62.1",
+    "robots-parser": "^3.0.1",
     "tailwindcss": "^4.3.3",
     "typescript": "^7.0.2"
   }
