@@ -14,7 +14,7 @@
 
 import path from "node:path";
 import { loadSites } from "../src/utils/load-sites";
-import { bfsPath, bfsMergedHistogram, bfsOneHistogram } from "@xingwangzhe/bfs-rs";
+import { createBfsGraph, type BfsGraph } from "@xingwangzhe/bfs-rs";
 import type { Site } from "../types/site";
 
 // ═══════════════════════════════════════════════════════════════════
@@ -60,6 +60,8 @@ export interface NeighborMap {
   /** CSR 格式邻接数组（全图） */
   csrAdj: number[];
   csrOffsets: number[];
+  /** 预处理后的 Rust BFS 图句柄 */
+  bfsGraph: BfsGraph;
   /** 连通分量：每个节点属于哪个分量（hostname → componentIndex） */
   componentOf: Map<string, number>;
   /** 连通分量列表 */
@@ -113,6 +115,7 @@ export function buildGraph(sites: Site[]): NeighborMap {
   nodes.forEach((n, i) => nodeIndex.set(n.id, i));
 
   const { csrAdj, csrOffsets } = buildCSR(adjacency, nodeIndex);
+  const bfsGraph = createBfsGraph(new Uint32Array(csrAdj), new Uint32Array(csrOffsets), nodes.length);
 
   // 连通分量（预计算，供路径查找和统计剪枝使用）
   const components = findComponents(adjacency);
@@ -122,7 +125,7 @@ export function buildGraph(sites: Site[]): NeighborMap {
     for (const id of components[ci]) componentOf.set(id, ci);
   }
 
-  return { adjacency, nodeMap, nodeIndex, nodes, csrAdj, csrOffsets, componentOf, components };
+  return { adjacency, nodeMap, nodeIndex, nodes, csrAdj, csrOffsets, bfsGraph, componentOf, components };
 }
 
 /**
@@ -164,7 +167,7 @@ export function findPath(graph: NeighborMap, fromHost: string, toHost: string): 
   const toIdx = graph.nodeIndex.get(toHost);
   if (fromIdx == null || toIdx == null) return null;
 
-  const result = bfsPath(graph.csrAdj, graph.csrOffsets, graph.nodes.length, fromIdx, toIdx);
+  const result = graph.bfsGraph.path(fromIdx, toIdx);
   if (result.distance < 0) return null;
 
   return result.path.map((idx) => graph.nodes[idx].id);
@@ -215,7 +218,11 @@ export function getStats(graph: NeighborMap): GraphStats {
     if (comp.length >= BIG_THRESHOLD) {
       // 构建该分量的子图 CSR，喂给 Rust BFS
       const { csrAdj, csrOffsets } = buildComponentCSR(adjacency, nodeMap, comp);
-      const merged = bfsMergedHistogram(csrAdj, csrOffsets, comp.length);
+      const merged = createBfsGraph(
+        new Uint32Array(csrAdj),
+        new Uint32Array(csrOffsets),
+        comp.length,
+      ).mergedHistogram();
 
       if (merged.maxDistance > maxDiameter) maxDiameter = merged.maxDistance;
 
@@ -257,7 +264,7 @@ export function getStats(graph: NeighborMap): GraphStats {
   }
 
   const reachablePairs = Math.floor(totalOrderedPairs / 2);
-  const averagePathLength = reachablePairs > 0 ? (totalOrderedDistance / 2) / reachablePairs : 0;
+  const averagePathLength = reachablePairs > 0 ? totalOrderedDistance / 2 / reachablePairs : 0;
 
   // 转为 unordered pair 分布（用于返回）
   const unorderedDist = new Map<number, number>();
@@ -351,13 +358,16 @@ function bfsDistances(adjacency: Map<string, Set<string>>, start: string): Map<s
 /**
  * 单节点距离分布（剪枝：仅在同分量内可达）
  */
-export function getDistanceDistribution(graph: NeighborMap, host: string): {
+export function getDistanceDistribution(
+  graph: NeighborMap,
+  host: string,
+): {
   histogram: number[];
   maxDistance: number;
 } | null {
   const idx = graph.nodeIndex.get(host);
   if (idx == null) return null;
-  return bfsOneHistogram(graph.csrAdj, graph.csrOffsets, graph.nodes.length, idx);
+  return graph.bfsGraph.oneHistogram(idx);
 }
 
 /**

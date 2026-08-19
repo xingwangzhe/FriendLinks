@@ -1,6 +1,6 @@
 import { loadSites } from "../utils/sites";
 import { printProgress, printDone } from "../utils/progress";
-import { bfsMergedHistogram } from "@xingwangzhe/bfs-rs";
+import { createBfsGraph } from "@xingwangzhe/bfs-rs";
 
 function getHost(u: string): string {
   try {
@@ -159,11 +159,8 @@ export async function GET() {
   printProgress("❸", `全量 ${n} 节点, Rust bfsMergedHistogram…`, 10);
 
   const startBfs = performance.now();
-  const adjArr = Array.from(adjFlat);
-  const offArr = Array.from(offsets);
-
-  // Rust 侧一次调用，Mutex 合并全部直方图
-  const merged = bfsMergedHistogram(adjArr, offArr, n);
+  // Rust 侧一次调用，使用 prepared graph 避免 typed array → JS Array 转换
+  const merged = createBfsGraph(adjFlat, offsets, n).mergedHistogram();
 
   const degreeDist: Record<number, number> = {};
   for (let d = 0; d < merged.histogram.length; d++) {

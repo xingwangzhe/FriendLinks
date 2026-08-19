@@ -5,7 +5,7 @@
 import type { Site } from "../../types/site";
 import type { GraphNode, GraphLink, GraphCategory } from "../../types/graph";
 import { printProgress, printDone } from "./progress";
-import { simTick } from "@xingwangzhe/force-rs";
+import { createSimulation } from "@xingwangzhe/force-rs";
 import { isFastMode } from "./sample";
 import { bezier2, calcControlOffset, calcSegmentCount } from "./bezier";
 
@@ -223,7 +223,7 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
       linkSrcTgt[li++] = ti;
     }
   }
-  const linksFlat = Array.from(linkSrcTgt.slice(0, li));
+  const linksFlat = linkSrcTgt.slice(0, li);
 
   const REPULSION = 30000;
   const LINK_DISTANCE = 500;
@@ -235,7 +235,10 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
     theta: 0.8,
     velocityDecay: 0.1,
     alphaDecay: 0.02,
+    algorithm: "fast" as const,
   };
+
+  const simulation = createSimulation(linksFlat, n);
 
   const FAST = isFastMode();
   const TICKS_MAX = FAST ? 100 : 500;
@@ -252,9 +255,9 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
   let actualTicks = 0;
   let stoppedByTime = false;
 
-  let s: number[] = Array.from(state);
+  let s: Float64Array<ArrayBufferLike> = state;
   for (let i = 0; i < TICKS_MAX; i++) {
-    s = simTick(s, linksFlat, n, forceOpts);
+    s = simulation.tick(s, forceOpts);
     actualTicks++;
     const elapsed = performance.now() - t0;
     const tickPct = Math.round((i / TICKS_MAX) * 100);
