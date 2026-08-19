@@ -1,7 +1,8 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { dirname, join, relative } from "node:path";
+import { dirname, relative } from "node:path";
 import YAML from "yaml";
 import type { Site } from "../types/site";
+import { listYamlFiles } from "../src/utils/yaml-files";
 import { loadAuditRules, type AuditRules } from "./lib/audit-rules";
 import { classify, type Decision, type PageSignals } from "./lib/audit-classifier";
 import { createFetchQueue, fetchPage } from "./lib/audit-fetch";
@@ -52,6 +53,11 @@ interface AuditRecord {
 }
 
 const HELP = `audit-links — 生成友链准入审核报告（只读）
+
+说明:
+  该命令只生成启发式审核建议，不会修改 links/。关键词、RSS 和 <article>
+  只能将站点作为候选线索；在人工确认原创性、发布索引和永久链接前，
+  输出的 review 对应落库状态 unverified。
 
 用法:
   bun run audit [选项]
@@ -129,17 +135,6 @@ function parseArgs(argv: string[]): Options {
     if (!Number.isInteger(value) || value <= 0) throw new Error(`--${name} 必须是正整数`);
   }
   return opts;
-}
-
-async function listYamlFiles(dir: string): Promise<string[]> {
-  const entries = await (await import("node:fs/promises")).readdir(dir, { withFileTypes: true });
-  const files: string[] = [];
-  for (const entry of entries) {
-    const path = join(dir, entry.name);
-    if (entry.isDirectory()) files.push(...(await listYamlFiles(path)));
-    else if (entry.isFile() && /\.ya?ml$/i.test(entry.name)) files.push(path);
-  }
-  return files.sort();
 }
 
 function parseSite(file: string): Site | null {

@@ -1,16 +1,17 @@
 /**
  * 站点加载模块
  *
- * 使用 Node.js 原生 fs 读取 links/*.yml，
+ * 使用 Node.js 原生 fs 递归读取 links 目录下所有 .yml（支持嵌套子目录），
  * yaml 包解析 + Zod 校验，无 Content Collection 依赖。
  */
-import { readdirSync, readFileSync } from "node:fs";
-import { join } from "node:path";
+import { readFileSync } from "node:fs";
+import { join, relative } from "node:path";
 import YAML from "yaml";
 import { z } from "zod";
 import type { Site } from "../../types/site";
 import { printProgress, printDone } from "./progress";
 import { deterministicSample, isFastMode, getDevSampleSize } from "./sample";
+import { listYamlFilesSync } from "./yaml-files";
 
 // ── Zod Schema ──
 
@@ -60,20 +61,17 @@ export async function loadSites(_dir?: string, onProgress?: (current: number, to
   const linksDir = _dir || join(process.cwd(), "links");
   let files: string[];
   try {
-    files = readdirSync(linksDir)
-      .filter((f) => f.endsWith(".yml"))
-      .sort();
+    files = listYamlFilesSync(linksDir);
   } catch {
     printDone("无法读取 links 目录");
     return [];
   }
-
   let allSites: Site[] = [];
   let warnings = 0;
 
   for (let i = 0; i < files.length; i++) {
-    const fileName = files[i];
-    const filePath = join(linksDir, fileName);
+    const filePath = files[i];
+    const fileName = relative(linksDir, filePath);
 
     let text: string;
     try {

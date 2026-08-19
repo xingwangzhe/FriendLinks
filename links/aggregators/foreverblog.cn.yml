@@ -1,3 +1,14 @@
+# ── 数据源（用于更新 friends）────────────────
+# 站点: 十年之约 https://www.foreverblog.cn/
+# 类型: API（JSON，POST 分页 + CSRF）
+# 地址: POST https://www.foreverblog.cn/blogs （form: page=<n>&year=<加入年份>）
+#       年份可选 2017-2026；需先 GET /blogs.html 取会话 cookie 与 meta csrf-token
+#       请求头需带 X-CSRF-TOKEN 与 X-Requested-With: XMLHttpRequest
+# 方法: curl -c cookies.txt https://www.foreverblog.cn/blogs.html
+#       → 提取 csrf-token → POST page/year 循环，取 .data[] 的 {name, link→url, message→description}
+# 抓取时间: 2026-08-18 | 条目: 1930
+# ─────────────────────────────────────────
+
 site:
   name: 十年之约
   description: 十年之约 — 一个人的寂寞，一群人的狂欢。博客聚合社区。
@@ -3792,3 +3803,147 @@ site:
       url: https://yovey.me
     - name: 私密笔记
       url: https://simibiji.com
+    - name: 彼岸临窗
+      url: https://023.me/
+      description: 年轻的时候，我们很容易就放弃了很多事，但唯有写博客坚持至今，十年之约，我在路上。
+      avatar: https://gravatar.loli.net/avatar/eaa6d9633c95d34f13e23200e292d2fd?s=96&d=mp&r=g
+    - name: Memorial Trash
+      url: https://wenhate.work/
+      description: My memorial trash
+      avatar: https://gravatar.loli.net/avatar/1f314426549a7110125edb357701596d?s=96&d=mp&r=g
+    - name: 君子不器
+      url: https://www.colinjiang.com/
+      description: 君子不器，出自《论语·为政》， “形而上者谓之道，形而下者谓之器”，有学问、有修养的人不能拘于一才一艺。博主科林先生，是一个喜欢探索、研究、折腾的IT爱好者，建立独立博客是想在互联网上有一个属于自己的空间，记录生活、读书、旅行等。
+      avatar: https://gravatar.loli.net/avatar/e303bd7ade07b71f41288ddc5f9f1171?s=96&d=mp&r=g
+    - name: 岁有余生
+      url: https://www.syys.chat
+      description: 安于宿命 休于桑梓
+      avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=472632919&spec=100
+    - name: 老余博客
+      url: http://yuweiqing.com
+      description: 老余博客，记录生活日常点滴。
+      avatar: https://gravatar.loli.net/avatar/11500cab1abd430c926ffc48e73ebe0a?s=96&d=mp&r=g
+    - name: 三岛有纪夫
+      url: http://leay.net
+      description: day day up. 好耶！
+      avatar: https://gravatar.loli.net/avatar/48f038d5a69d7e4a817b9a29c23edfb9?s=96&d=mp&r=g
+    - name: 薄荷的猫草
+      url: https://abohe.cn
+      description: 我希望有个如你一般的人，如山间清爽的风，如古城温暖的光。从清晨到夜晚，由山野到书房。一切都没有关系。只要最后是你，就好。
+      avatar: https://gravatar.loli.net/avatar/85433813c4615fde7a8e01f1ea272814?s=96&d=mp&r=g
+    - name: UtopiaXC
+      url: https://www.utopiaxc.cn/
+      description: 尽管如此，世界依旧美丽
+      avatar: https://gravatar.loli.net/avatar/fa4a625bc5a1d07257eaecb5bf0931e3?s=96&d=mp&r=g
+    - name: 南巷清风
+      url: https://www.liaocp.cn/
+      description: 清风以北过南巷，南巷故人不知归。
+      avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2964556627&spec=100
+    - name: Hello Bibiu
+      url: https://www.bibiu.cc/
+      description: 出入相友,守望相助
+      avatar: https://gravatar.loli.net/avatar/dec66009bb11b14ea9e2cc1feb295d48?s=96&d=mp&r=g
+    - name: 阿锋的小宇宙
+      url: https://blog.feng.pub
+      description: 沧海一粟，微亮渺小一只虫。
+      avatar: https://gravatar.loli.net/avatar/868740183b995d2707e307ce0a89633a?s=96&d=mp&r=g
+    - name: 目的地-Destination
+      url: https://chrison.cn
+      description: 希望所有人，前程似锦、未来可期、寻得良人、共赴白头，祝你也祝我。
+      avatar: https://gravatar.loli.net/avatar/03ce846eef46a1b21c1bc5a4f03c2de1?s=96&d=mp&r=g
+    - name: 留声与视
+      url: https://nenufm.com
+      description: 从未如此简单有趣。
+      avatar: https://gravatar.loli.net/avatar/67a636a87ae4a3fd475b76bf378f8c73?s=96&d=mp&r=g
+    - name: 李洋博客
+      url: https://www.liblog.cn/
+      description: 专注个人博客搭建，分享网站运维技术！
+      avatar: https://gravatar.loli.net/avatar/485e991b24ce2099092b3ded6490605f?s=96&d=mp&r=g
+    - name: ChinaYuanGe的个人博客
+      url: https://cnyg.in/
+      description: 双手打造的二进制世界，只为将最好的一面展示给你。
+      avatar: https://gravatar.loli.net/avatar/ebdb5ada5e35fc86bfe32c421d4897f8?s=96&d=mp&r=g
+    - name: 清风博客
+      url: https://www.coollee.cn/
+      description: 十年、二十年后的我们会是怎么样的呢？来一起见证吧！永远年轻，永远热泪盈眶！相信十年后回头看时我们能一直保留着这片自留地！
+      avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2019&spec=100
+    - name: 梅之夏
+      url: https://blog.mcenahle.page/
+      description: Explore. Dream. Discover.
+      avatar: https://gravatar.loli.net/avatar/e1b0eb96a17f9b033ded5446abaa92eb?s=96&d=mp&r=g
+    - name: 凌云·LinYun
+      url: https://blog.linyunlink.top/
+      description: 桂枝松已绿，拂雪凌云端。直立云山，仰望苍穹，俯瞰山河，举目望去，乃万千世界，始道高！
+      avatar: https://gravatar.loli.net/avatar/023bc93070abcede67e6732d27d070e1?s=96&d=mp&r=g
+    - name: 挨踢路
+      url: https://itlu.net
+      description: 6年博客路,留下每一字|老狼记录生活,偶尔写点伪技术的独立博客
+      avatar: https://gravatar.loli.net/avatar/cc12095f740a5a04474c03813ee47ba9?s=96&d=mp&r=g
+    - name: 顶呱呱的快乐
+      url: https://wuw.li
+      description: 面朝大海 春暖花开
+      avatar: https://gravatar.loli.net/avatar/3c1dc276b7735587744513d6bc69ec69?s=96&d=mp&r=g
+    - name: 吾依旧博客
+      url: https://www.19-v.cn
+      description: hello
+      avatar: https://gravatar.loli.net/avatar/bf11984a77b2e28bcdb652478d82ed75?s=96&d=mp&r=g
+    - name: 又见梅林
+      url: https://www.ryanzm.cn/
+      description: 其诅咒黑暗，不如点燃一支蜡烛。
+      avatar: https://gravatar.loli.net/avatar/04815ae87bd631d8e659308fd90dc437?s=96&d=mp&r=g
+    - name: 听涛榭
+      url: https://blog.chentao1006.com/
+      description: 陈年往事莫再提， 涛声依旧笑声稀
+      avatar: https://gravatar.loli.net/avatar/5af73c06919a04861052eb0fdd4f8dc7?s=96&d=mp&r=g
+    - name: 在下厦门人
+      url: https://www.zxxmr.com/
+      description: 人生海海，山山而川，不过尔尔。
+      avatar: https://gravatar.loli.net/avatar/6fd3f561a6224fa654083a9f8398f33b?s=96&d=mp&r=g
+    - name: Quantum Bit
+      url: https://www.imiao.top
+      description: Never stop searching, even if only for a brief flash of light.
+      avatar: https://gravatar.loli.net/avatar/2986aeb0247221d7e44f79b6c216bc88?s=96&d=mp&r=g
+    - name: 司白画博客
+      url: https://blog.sibaihua.com/
+      description: 寻寻觅觅，冷冷清清，凄凄惨惨戚戚。
+      avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2833149928&spec=100
+    - name: Victor42
+      url: https://victor42.eth.limo
+      description: 从 2011 年坚持至今的中文独立博客，521 篇原创内容，横跨科学科普、数据分析、设计方法论、国内游记和开发者折腾记录。十年之约，承诺保持博客更新和活力。
+      avatar: https://gravatar.loli.net/avatar/b0beffcc75af12a62e49ea91c9c6a008?s=96&d=mp&r=g
+    - name: w君的网络日志
+      url: https://wjun.me/
+      description: 每个人都是一座孤岛，但每个人都是自己的观众。
+      avatar: https://gravatar.loli.net/avatar/985dedc039e2e9adad10f05460e867d7?s=96&d=mp&r=g
+    - name: TuringNest
+      url: https://blog.turingzy.cn/
+      description: 我是一名程序员，在图灵巢中我将分享我的一些经历、想法以及我创造的作品。
+      avatar: https://gravatar.loli.net/avatar/3744661e843455d1d8c96866a10d7cc2?s=96&d=mp&r=g
+    - name: 笔搁纸鸯
+      url: https://b.wihi.top/
+      description: 记我所想,记录生活,随心而为,仅此而已 URL Slug改为:在书桌上轻搁着一支名为梦想的笔，在其上空飞翔着一只名为热爱的纸飞机。不知何时，纸飞机落在了笔上，于是，笔搁纸鸯诞生了
+      avatar: https://gravatar.loli.net/avatar/169e2ad3dc27a69febf3ad75f424b0df?s=96&d=mp&r=g
+    - name: 轻风Blog
+      url: https://www.qingfengnb.cn
+      description: 茫茫人海，多么幸运遇见你!
+      avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=3512322302&spec=100
+    - name: SkyReeves
+      url: https://skyreeves.com/
+      description: 把生命浪费在美好的事物上
+      avatar: https://gravatar.loli.net/avatar/49317ee6c6993af215468288511ece34?s=96&d=mp&r=g
+    - name: 王一君Mew
+      url: https://wyjmew.cn/
+      description: 你奔向我的每一步，都是我心动的理由
+      avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2970429016&spec=100
+    - name: liseezn'blog
+      url: https://blog.liseezn.top/
+      description: 分享学习，项目，及教程
+      avatar: https://gravatar.loli.net/avatar/6f9e3fd68d73d0155772b192ff34e11d?s=96&d=mp&r=g
+    - name: 浮生hjz
+      url: https://huangjiazhang.com/
+      description: 计算机菜鸟，一个无名之辈
+      avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=1716074222&spec=100
+    - name: 咱们俩の博客
+      url: https://blog.zamlia.com
+      description: 高不可攀
+      avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=1361033362&spec=100

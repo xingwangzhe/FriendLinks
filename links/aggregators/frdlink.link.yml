@@ -1,0 +1,69 @@
+# ── 数据源（用于更新 friends）────────────────
+# 站点: 友链圈 https://www.frdlink.link/
+# 类型: SSR HTML（PHP，无公开 API）
+# 地址: 成员列表页 users.php（user-card-name = 名称, user-card-domain = 域名, 补 https://）
+#       描述需逐站访问 ajax/search-blogs.php?q=<名字> 获取，未收录
+# 方法: Chrome 访问 users.php → 提取 user-card 两字段 → 补全协议
+# 抓取时间: 2026-08-18 | 条目: 27
+# ─────────────────────────────────────────
+
+site:
+  name: 友链圈
+  url: https://www.frdlink.link
+  description: 站长聚集地
+  links: /links
+  friends:
+    - name: FRD Link博客
+      url: https://blog.frdlink.link
+    - name: 一望成欢🍀
+      url: https://wanqingcheng.cn
+    - name: 小王子
+      url: https://www.wanghao.me
+    - name: 姓王者
+      url: https://xingwangzhe.fun
+    - name: 蛋蛋之家
+      url: https://wuqishi.com
+    - name: 秋記Autumn
+      url: https://www.zhyok.cn
+    - name: 旺东自留地
+      url: https://wang618.cn
+    - name: 益友网站
+      url: https://blog.yiyou.bj.cn
+    - name: 星辰角落
+      url: https://ihello.cc
+    - name: 皮皮社
+      url: https://www.pipishe.com
+    - name: 阮一峰
+      url: https://www.ruanyifeng.com
+    - name: Fiee&#039;s BLog
+      url: https://www.aifiee.cn
+    - name: 浮生事
+      url: https://etom.top
+    - name: 黄鼠狼的树洞
+      url: https://blog.weasel6.cn
+    - name: 雨眠碎碎念
+      url: https://blog.yuumii.top
+    - name: 友情网址导航
+      url: https://www.heatsystem.cn
+    - name: Mystic Stars
+      url: https://www.mysticstars.cn
+    - name: 自助链大全
+      url: https://www.zizhulian.cc
+    - name: 小景
+      url: https://jingyuan-zheng.github.io
+    - name: 壹拾肆
+      url: https://www.kaaaaai.cn
+    - name: Ethan的避风港
+      url: https://www.ishana.cn
+    - name: 灵狐笑话
+      url: https://linghuw.cn
+    - name: 懋和道人
+      url: https://blog.dao.js.cn
+    - name: Serendipity
+      url: https://blog.liuhangyv.top
+    - name: 热衷于的博客
+      url: https://zooyoo.top
+    - name: 宗宗酱
+      url: https://ygz.ink
+    - name: Wangxinyang
+      url: https://wangxinyang.top

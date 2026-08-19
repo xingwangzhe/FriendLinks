@@ -1,0 +1,124 @@
+# ── 数据源（用于更新 friends）────────────────
+# 站点: 中文独立博客聚合列表 https://blogroll.online/
+# 类型: WordPress + Feedzy RSS 聚合（非营利中文独立博客聚合项目）
+# 地址: 完整收录列表在站内 Feedzy 导入配置中，未公开（/wp-json 无公开接口，
+#       /feedzy-category/blogs/ 会跳回首页，文章列表无分页）
+# 可用公开数据:
+#   1) 友情链接页 https://blogroll.online/links/  — <ul class=blogroll-links><li>
+#      <a href=站点>名称</a>[ — 描述]（约 29 个，注意站点已停用"友链星系"插件）
+#   2) 首页 https://blogroll.online/ 文章卡片的来源站点域名（Feedzy 聚合的近期文章，
+#      只覆盖最近有更新的博客，约十来个，随时间滚动）
+# 方法: curl 抓 /links/ 与首页 → 正则提取；首页来源域名按 URL 域名推导站点地址
+# 抓取时间: 2026-08-18 | 条目: 43（友链页 29 + 首页来源 14）
+# ─────────────────────────────────────────
+
+site:
+  name: 中文独立博客聚合列表
+  url: https://blogroll.online/
+  description: 中文独立博客聚合列表
+  links: /links
+  friends:
+    - name: 51chifun's blog
+      url: https://51chifun.cc.cd
+    - name: bbb-lsy07
+      url: https://blog.tsoo.net
+      description: 科技激荡人文，洞见智慧本真。
+    - name: Cuirx`Blog
+      url: https://cuirx.me
+    - name: FRDLink博客
+      url: https://blog.frdlink.link
+      description: 记录生活事
+    - name: HeeFox
+      url: https://heefox.com
+    - name: Liseezn'blog
+      url: https://blog.liseezn.top
+    - name: Melodify Blog
+      url: https://www.melodify.cn
+      description: Ciallo～(∠・ω< )⌒☆
+    - name: MJJZZ
+      url: https://www.mjjzz.com
+    - name: Rhex 论坛
+      url: https://rhex.im
+    - name: Tiger的小窝
+      url: https://blog.tigercoder.top
+      description: 一个普通人的博客，分享一些有的没的
+    - name: 加糖少冰
+      url: https://www.jiatang.top
+      description: 生活平淡，自己加糖
+    - name: 大佬论坛
+      url: https://dalao.net
+    - name: 女仆论坛
+      url: https://bt.sb
+    - name: 小熊酱の窝
+      url: https://bearstaryellowbear.cn
+      description: 时间自然会找到答案
+    - name: 小郑 Blog
+      url: https://halo.bt.hyin.top
+      description: 一个热爱技术、喜欢折腾的小佬。 专注于后端开发。 记录生活，分享技术，探索未知。
+    - name: 小鲨鱼的小站
+      url: https://xiaoshayublog.top
+      description: 个人小站
+    - name: 崔话记
+      url: https://cuixiping.com
+      description: 向着理想的方向，爬一会儿，躺一会儿
+    - name: 张洪Heo
+      url: https://blog.zhheo.com
+      description: 分享设计与科技生活
+    - name: 星鸿的博客
+      url: https://blog.xhsr.org.cn
+      description: 享受获取新知带来的喜悦。
+    - name: 梦涵LOVEの小窝
+      url: https://heyuhan.huohuo.ink
+      description: 一个一个小涵子的小BLOG，一起来分享生活的小确幸吧~
+    - name: 江湖人的技术栈
+      url: https://bbs.hk0.cc
+    - name: 益友网站
+      url: https://blog.yiyou.bj.cn
+    - name: 知行小记
+      url: https://swlt.work
+      description: 一个3D动画、摄影爱好者 东方众 希望我的作品你能喜欢❤️
+    - name: 秋記Autumn
+      url: https://www.zhyok.cn
+      description: 80后个人博客、网络日杂、生活记录。
+    - name: 繁华如风的小站
+      url: https://www.fhsf.cn
+      description: 醉后不知天在水,满船清梦压星河。
+    - name: 若时间无垠
+      url: https://blog.rsjwy.com
+      description: 愿你有鲁伯特之泪般的心 万物不摧 也有一人终知你心 稍纵即逝
+    - name: 贺云网
+      url: https://hecloud.top
+      description: 贺小云，个人技术博客，憧憬成为技术大佬！
+    - name: 逍遥社区
+      url: https://113.la
+    - name: 魚丸包粗麵
+      url: https://naeeo.com
+      description: 她说若我惜命证明我已老
+    - name: xingwangzhe.fun
+      url: https://xingwangzhe.fun
+    - name: zooyoo.top
+      url: https://zooyoo.top
+    - name: immarcus.com
+      url: https://immarcus.com
+    - name: 090909.top
+      url: https://090909.top
+    - name: bufanz.com
+      url: https://bufanz.com
+    - name: upxuu.com
+      url: https://upxuu.com
+    - name: blog.ops-coffee.com
+      url: https://blog.ops-coffee.com
+    - name: blog.southfox.me
+      url: https://blog.southfox.me
+    - name: peter267.github.io
+      url: https://peter267.github.io
+    - name: liuqingwushui.top
+      url: https://liuqingwushui.top
+    - name: detached.online
+      url: https://detached.online
+    - name: ygz.ink
+      url: https://ygz.ink
+    - name: blog.224418.xyz
+      url: https://blog.224418.xyz
+    - name: bi1mxy.github.io
+      url: https://bi1mxy.github.io

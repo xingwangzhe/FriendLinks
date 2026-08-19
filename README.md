@@ -124,7 +124,8 @@ site:
 ### 数据流
 
 ```
-links/*.yml  →  Content Collection (校验) →  build-graph.ts (力导布局+贝塞尔预计算)
+links/**/*.yml（排除保留目录 links/unverified/）
+               →  YAML Schema 校验 → build-graph.ts (力导布局+贝塞尔预计算)
                →  graph-core.bin.ts (msgpack+zstd) →  /graph-core.bin
                →  graph-bezier.bin.ts (msgpack+zstd) →  /graph-bezier.bin
                →  客户端 fetch → msgpackr 解码 → zstd 解压 → Three.js 3D 渲染
@@ -181,7 +182,9 @@ src/
 ├── css/                     # 样式文件（base/topbar）
 ├── styles/                  # Tailwind CSS v4 + Starwind 主题变量
 ├── lib/                     # 工具函数（cn/clsx）
-links/                       # 友链 YAML 源文件（核心数据）
+links/                       # 正式友链 YAML 源文件（核心数据）
+├── aggregators/            # 已确认的博客聚合型站点
+└── unverified/             # 待验证候选（默认不进入构建和数据端点）
 types/                       # TypeScript 类型定义
 ```
 
@@ -214,4 +217,3 @@ types/                       # TypeScript 类型定义
 | 搜索 | **FlexSearch** |
 | 数据序列化 | **msgpackr** |
 | 包管理器 | **Bun** |
-

@@ -1,3 +1,12 @@
+# ── 数据源（用于更新 friends）────────────────
+# 站点: 无聊湾 https://boringbay.com/
+# 类型: GitHub 数据文件（项目开源，成员列表存于仓库）
+# 地址: https://github.com/cantoblanco/boringbay/blob/main/resources/membership.json
+#       对象键为成员 ID，字段: domain(站点域名, 补 https://) / name / description / icon
+# 方法: Chrome 访问 GitHub blob 页 → 读取 textarea 中的 JSON → 提取四字段
+# 抓取时间: 2026-08-18 | 条目: 114
+# ─────────────────────────────────────────
+
 site:
   name: 无聊湾
   description: 博客导航与发现平台。
@@ -220,3 +229,27 @@ site:
       url: https://blog.zxiaolin.com
     - name: 翔宇工作流
       url: https://xiangyugongzuoliu.com
+    - name: The Boring Bay
+      url: https://boringbay.com
+      description: 无聊的人那么多～
+      avatar: /api/icon/boringbay.com
+    - name: 梅之夏
+      url: https://blog.mcenahle.page
+      description: Explore. Dream. Discover.
+      avatar: https://blog.mcenahle.page/img/icon.png
+    - name: 龙星划空
+      url: https://blog.furryawa.com
+      description: 人生近看是悲剧，远看是喜剧
+      avatar: https://blog.furryawa.com/images/atiq.png
+    - name: 如形の博客
+      url: https://blog.rusin7.com
+      description: 亲身体验，终生实践
+      avatar: https://blog.rusin7.com/favicon.ico
+    - name: 辞入森川
+      url: https://yuluo.xyz
+      description: 辞尽俗世纷扰，只身步入森与川。
+      avatar: https://yuluo.xyz/logo.jpg
+    - name: 晴雨笔记
+      url: https://memo.moieo.net
+      description: 素白清韵，简静安然
+      avatar: https://memo.moieo.net/favicon/favicon-dark-192.png

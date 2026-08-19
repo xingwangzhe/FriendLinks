@@ -69,10 +69,11 @@ export function classify(
   if (!blog.length && !page?.hasFeed && !(page?.articleCount ?? 0)) reasons.push("no-blog-signal");
 
   const hasHardExclude = safety.reasons.length > 0 || sensitive.length > 0 || Boolean(denyHit);
-  const hasReviewSignal =
-    commercial.length > 0 || directory.length > 0 || platform.length > 0 || reasons.includes("no-blog-signal");
+  // This classifier only sees metadata and heuristic page signals. None of
+  // them proves authorship, originality, a stable post index, or a qualifying
+  // permalink, so a non-excluded candidate still requires manual review.
   return {
-    decision: hasHardExclude ? "exclude" : hasReviewSignal ? "review" : "include",
+    decision: hasHardExclude ? "exclude" : "review",
     reasons: [...new Set(reasons)],
     signals,
   };

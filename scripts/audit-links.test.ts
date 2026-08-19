@@ -37,4 +37,50 @@ describe("audit classifier", () => {
     expect(result.decision).toBe("review");
     expect(result.reasons.some((reason) => reason.startsWith("directory-signal:"))).toBe(true);
   });
+
+  test("does not treat portfolio alone as blog evidence", () => {
+    const result = classify(
+      { name: "Personal Portfolio", description: "Selected design work", url: "https://example.com" },
+      rules,
+      deny,
+    );
+
+    expect(result.decision).toBe("review");
+    expect(result.signals.blogTerms).toBe(0);
+    expect(result.reasons).toContain("no-blog-signal");
+  });
+
+  test("keeps blog keywords as candidates for manual review", () => {
+    const result = classify(
+      { name: "My Blog", description: "Original posts and articles", url: "https://example.com" },
+      rules,
+      deny,
+    );
+
+    expect(result.signals.blogTerms).toBeGreaterThan(0);
+    expect(result.decision).toBe("review");
+  });
+
+  test("does not treat RSS or article counts as verified content", () => {
+    const result = classify({ name: "Personal Site", url: "https://example.com" }, rules, deny, {
+      hasFeed: true,
+      articleCount: 3,
+    });
+
+    expect(result.reasons).toContain("blog-feed");
+    expect(result.reasons).toContain("article-signal");
+    expect(result.decision).toBe("review");
+  });
+
+  test("does not let blog keywords override a hard exclusion", () => {
+    const result = classify(
+      { name: "My Blog", description: "Posts and articles", url: "https://github.com" },
+      rules,
+      deny,
+    );
+
+    expect(result.signals.blogTerms).toBeGreaterThan(0);
+    expect(result.decision).toBe("exclude");
+    expect(result.reasons).toContain("deny-host-exact");
+  });
 });

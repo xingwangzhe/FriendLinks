@@ -1,0 +1,140 @@
+# ── 数据源（用于更新 friends）────────────────
+# 站点: RSSBlog https://rssblog.imcbc.cn/（原 rssblog.cn，2026.04.28 后迁移至此域名）
+# 类型: 静态 HTML（服务端渲染，分页）
+# 地址: https://rssblog.imcbc.cn/member/（共 3 页：/member、/member/1/、/member/2/）
+# 方法: 解析 .card 卡片，取 .cardtitle 为 name、RSS 图标 onclick window.open(url) 为 RSS 地址，
+#       博客主页 URL = RSS 地址的 host；同一成员可能有多条记录（换过 RSS 域名），按 member hash 去重
+# 另提供全站 RSS 聚合: https://rssblog.imcbc.cn/rss（含全部成员最新文章）
+# 抓取时间: 2026-08-19 | 条目: 62
+# ─────────────────────────────────────────
+
+site:
+  name: RSSBlog
+  url: https://rssblog.imcbc.cn/
+  description: A Site for Blog RSS — 收录独立博客 RSS 的聚合平台（原 rssblog.cn 已迁移至此域名）
+  links: /member
+  friends:
+    - name: 翔宇工作流
+      url: https://xiangyugongzuoliu.com
+    - name: manateelazycat.github.io
+      url: https://manateelazycat.github.io
+    - name: 瓦解的生活记事
+      url: https://hin.cool
+    - name: ImCBC
+      url: https://imcbc.cn
+    - name: Macin
+      url: https://www.macin.org
+    - name: "Nicksxs's Blog"
+      url: https://nicksxs.me
+    - name: Bin Wang - My Personal Blog
+      url: https://www.binwang.me
+    - name: DearXuan的主页
+      url: https://blog.dearxuan.com
+    - name: 无妄当自持
+      url: https://www.insidentally.com
+    - name: 游钓四方
+      url: https://lhasa.icu
+    - name: 菲兹克斯喵
+      url: https://physnya.top
+    - name: "Randy's Blog"
+      url: https://lutaonan.com
+    - name: 未知文明
+      url: https://www.xwenming.com
+    - name: 威言威语
+      url: https://www.weisay.com
+    - name: Frank笔记
+      url: https://frank2019.me
+    - name: 把酒诗代码
+      url: https://102no.com
+    - name: imba97
+      url: https://imba97.cn
+    - name: 无名博客
+      url: https://wuminboke.site
+    - name: 辛未羊的网络日志
+      url: https://panqiincs.me
+    - name: 懋和道人
+      url: https://www.dao.js.cn
+    - name: "Luminous' Home"
+      url: https://luotianyi.vc
+    - name: This Cute World
+      url: https://thiscute.world
+    - name: 非理勿试
+      url: https://www.ntiy.com
+    - name: 谋生者 ICL
+      url: https://www.icl.site
+    - name: 杜老师说
+      url: https://dusays.com
+    - name: Jiajun的技术笔记
+      url: https://jiajunhuang.com
+    - name: Another Dayu
+      url: https://anotherdayu.com
+    - name: 框架師
+      url: https://www.mobaijun.com
+    - name: Just lepture
+      url: https://lepture.com
+    - name: 绘星里
+      url: https://blog.storical.space
+    - name: 4Ark
+      url: https://4ark.me
+    - name: Teobler - 失眠多梦，bug体质
+      url: https://teobler.com
+    - name: 岚天小窝
+      url: https://blog.ltya.top
+    - name: cmWeblog
+      url: https://muidar.com
+    - name: 云游君的小站
+      url: https://www.yunyoujun.cn
+    - name: 见字如面
+      url: https://hiwannz.com
+    - name: "yzqzss|一座桥在水上’s Blog"
+      url: https://blog.othing.xyz
+    - name: "Yulin Lewis' Blog"
+      url: https://lewky.cn
+    - name: 醉里博客
+      url: https://202271.xyz
+    - name: 汐塔魔法屋
+      url: https://blog.sinzmise.top
+    - name: "cywhat's blog"
+      url: https://cywhat.cn
+    - name: Moby
+      url: https://isfalse.pro
+    - name: "湘铭`Blog"
+      url: https://blog.xiangming.site
+    - name: 罗磊的独立博客
+      url: https://luolei.org
+    - name: Honesty·Blog
+      url: https://notion.hehouhui.cn
+    - name: Zikin 的独立博客
+      url: https://zikin.org
+    - name: "Barney's Blog"
+      url: https://hugo.bnblogs.cc
+    - name: Thrower的博客
+      url: https://thrower.cc
+    - name: "Peter's Blog"
+      url: https://www.rainogo.com
+    - name: SinGO博客
+      url: https://blog.xsnet.eu.org
+    - name: "Bing's Blog"
+      url: https://bbing.com.cn
+    - name: "FlyingSky's Blog"
+      url: https://blog.fsky7.com
+    - name: SinGO博客
+      url: https://blog.xsnetw.cf
+    - name: 冰哥笔记
+      url: https://www.bgbiji.com
+    - name: 近视眼逛博客
+      url: https://blog.dtz9.com
+    - name: Hello World
+      url: https://coonaa.cn
+    - name: 沐云湘夕—求索
+      url: https://quest.myxxts.club
+    - name: DearXuan的主页
+      url: https://www.dearxuan.top
+    - name: 面向信仰编程
+      url: https://draveness.me
+    - name: qinxs小站
+      url: https://7bxing.com
+    - name: 萤火之森
+      url: https://frankorz.com
+    - name: "Yuexun's Blog"
+      url: https://www.ahonn.me

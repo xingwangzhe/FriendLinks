@@ -1,3 +1,12 @@
+# ── 数据源（用于更新 friends）────────────────
+# 站点: 独立博客传送门 https://webteleporter.top/
+# 类型: Next.js SPA（成员数据客户端渲染，无公开 API）
+# 地址: https://webteleporter.top/list （成员列表，共56个，5页，每页12个）
+#       卡片 a[class*=font-bold] = 名称+真实 URL，同卡 p = 描述，badge = 分类(技术/生活)
+# 方法: Chrome 打开 /list → 点击"下一页"按钮逐页提取 → 汇总去重
+# 抓取时间: 2026-08-18 | 条目: 57
+# ─────────────────────────────────────────
+
 site:
   name: 传送门
   description: 独立博客传送门。
@@ -106,3 +115,21 @@ site:
       url: https://yijile.com
     - name: Zone''s blog
       url: https://zoooooone.github.io
+    - name: Alliot's blog
+      url: https://blog.alliot.tech/
+      description: Maker、 DevOps、 SRE .
+    - name: 热衷于的博客
+      url: https://zooyoo.top/
+      description: 一隅书斋，半盏清欢
+    - name: 黄鼠狼的树洞
+      url: https://blog.weasel6.cn/
+      description: 小黄的博客，记录生活中的美好
+    - name: 学历史
+      url: http://www.xuelishi.cn/
+      description: 高中历史学习网站
+    - name: 孤斗
+      url: https://d-d.design/
+      description: 做自己，不隨波逐流，不妥協
+    - name: 胡东东博客
+      url: https://blog.hudd.cn/
+      description: 优质的中文技术类博客，高质量的技术文章分析和讲解。

@@ -1,0 +1,200 @@
+# ── 数据源 ──────────────────────────────────────────────
+# 揪蝉 (hi.jiuchan.org) 是一个个人网站收录与随机访问平台。
+# 数据来自其 Next.js 前端调用的后端 API（从 JS chunk 中反编译获得端点）：
+#   GET https://api.jiuchan.org/website/open/list?page=<N>&size=10
+#   - 公开站点列表接口，size 固定为 10，共 7 页，62 条。
+#   - 返回字段：name=站点名, domain=域名, signature=站点描述,
+#     feedURL=订阅源, totalVisits/dayVisits=访问统计,
+#     platformName/categoryName=平台/分类。
+# 更新方式：循环抓取 page=1..7 即可，若 totalPage 变化请调整页数。
+# ──────────────────────────────────────────────────────
+
+site:
+  name: 揪蝉
+  url: https://hi.jiuchan.org
+  description: 个人网站收录与随机访问平台
+  links: /links
+  friends:
+    - name: 小王子
+      url: https://wanghao.me
+      description: 聆听小王子，守望成长，静待花开!
+    - name: Mayx
+      url: https://mayx.netlify.app
+      description: Mayx's Home Page
+    - name: 小简博客
+      url: https://blog.ixor.me
+      description: 闲来听花落，待云卷云舒
+    - name: AYaka
+      url: https://blog.ayaka0.top
+      description: 保护你所爱！❤
+    - name: 热衷于的博客
+      url: https://zooyoo.top
+      description: 一隅书斋，半盏清欢
+    - name: 小染笔记
+      url: https://onoe.cn
+      description: 不为人知的角落开满了花
+    - name: 学历史
+      url: https://xuelishi.cn
+      description: 高中历史学习博客
+    - name: 小赵De破宅
+      url: https://ziyis.cn
+      description: 让 美 好 持 续 发 生
+    - name: 懋和道人
+      url: https://www.dao.js.cn
+      description: 李懋和，内地上清茅山修行，书法、国画爱好者
+    - name: 瀚海星辰
+      url: https://www.imuu.cn
+      description: 分享温暖，感悟人生真谛。
+    - name: 轻雅阁
+      url: https://www.puresky.top
+      description: 新时代教师的日常！
+    - name: 陆小启
+      url: https://blog.zonox.top
+      description: 往者不谏，来者可追
+    - name: 青序栈
+      url: https://www.qixz.cn
+      description: 青序成栈·向简而生
+    - name: 宗宗酱
+      url: https://ygz.ink
+      description: 记录生活与工作
+    - name: 青桔
+      url: https://blog.qjqq.cn
+      description: 其他
+    - name: 萌新所闻
+      url: https://www.imxw.cn
+      description: 一个认真分享健康的博主
+    - name: 简纸
+      url: https://paper.ixor.me
+      description: 一张A4纸
+    - name: 雨后初晴社
+      url: https://www.rainafter.cn
+      description: 雨中，听雨声轻灵。雨后，赏水木清华
+    - name: 漫川
+      url: https://mancs.cn
+      description: 无限进步
+    - name: Mo的记事簿
+      url: https://blog.xiowo.net
+      description: 一个普普通通的记事簿
+    - name: FWBlog
+      url: https://blog.frwalker.top
+      description: 听风雨，问星辰，随心归
+    - name: 秘柯云仓
+      url: https://www.mioc.cn
+      description: 一个杂乱的网站
+    - name: 落憾
+      url: https://blog.luoh.org
+      description: 落人间，破三弦，忆李仙。
+    - name: 小久
+      url: https://xiaojiuaijc.top
+      description: 其他
+    - name: 皓子的小站
+      url: https://howiehz.top
+      description: 互联网是无边海洋，站点如孤岛，超链接为舟筏
+    - name: 新锐博客
+      url: https://www.xrbk.cn
+      description: 记录学习与分享资源
+    - name: 小亮的部落阁
+      url: https://blog.752132.xyz
+      description: 欲望以提升热忱，毅力以磨平高山
+    - name: 淡亦
+      url: https://www.lightalso.com
+      description: 山行野宿，孤身万里
+    - name: 凌尘k
+      url: https://b.icxk.cn
+      description: 于高山之巅,方见大河奔涌; 于群峰之上,更觉长风浩荡
+    - name: Amiya的书桌
+      url: https://blog.sayori.org
+      description: Amiya_desi的书桌，记录一个真实的想分享的人
+    - name: 平凡博客
+      url: https://blog.hzyo.cn
+      description: 平凡博客，记日常点滴，录工作难题与解法，悟生活体会，全面反映
+    - name: 荣6的博客
+      url: https://rong6.cn
+      description: 永远相信美好的事情即将发生！
+    - name: SSRFF
+      url: https://pic.ffnb.top
+      description: 远赴人间惊鸿宴 一睹人间盛世颜
+    - name: 姓王者的博客
+      url: https://xingwangzhe.fun
+      description: 学习，进步，创造无限可能
+    - name: 树洞
+      url: https://www.x8xx.cn
+      description: 其他
+    - name: 猫酣Mioz
+      url: https://mioz.life
+      description: 其他
+    - name: 木有枝枝
+      url: https://mp.weixin.qq.com
+      description: 言念君子，温其如玉。
+    - name: TH同学的世界
+      url: https://theng.cool
+      description: 诗酒趁年华
+    - name: 葱苓小筑
+      url: https://blog.ciraos.top
+      description: Don't worry, be happy.
+    - name: 石塘义工队
+      url: https://www.styg.org.cn
+      description: 其他
+    - name: 游钓四方
+      url: https://lhasa.icu
+      description: 长途骑行小学生，野钓路亚，振出并继爱好者
+    - name: szhshp
+      url: https://szhshp.org
+      description: 其他
+    - name: Mood
+      url: https://blog.moodlog.cn
+      description: 其他
+    - name: 世上云川
+      url: https://blog.ssyc.me
+      description: 若有韶月熹微，愿作流萤徂岁。
+    - name: 前尘小筑
+      url: https://mnchen.cn
+      description: 虽多尘色染，犹见墨痕浓
+    - name: 梦爱吃鱼
+      url: https://blog.bsgun.cn
+      description: 但愿日子清静抬头遇见满是柔情
+    - name: 东方月初
+      url: https://zhilu.biuxin.com
+      description: 人生的每一天，都在学习当中
+    - name: Peter
+      url: https://peter267.github.io
+      description: 无限进步
+    - name: 小林笔记
+      url: https://m.senlinm.cn
+      description: 轻生活，秒上签
+    - name: 轻风博客
+      url: https://qingfengnb.cn
+      description: 茫茫人海，多么幸运遇见你！
+    - name: 青序栈
+      url: https://qxzhan.cn
+      description: 青序成栈·向简而生
+    - name: 波普的温馨小阁
+      url: https://popfortress.github.io
+      description: A Tiny Website by Fortress.
+    - name: 老街里
+      url: https://laojieli.cn
+      description: 片刻即永恒
+    - name: 青梧博客
+      url: https://blog.ggxyq.cn
+      description: 循此苦旅，以抵繁星
+    - name: liuzhen932
+      url: https://blog.liuzhen932.top
+      description: 只要愿意去做，人无所不通
+    - name: leo
+      url: https://www.leorain.cn
+      description: 一个对技术和生活充满热爱的文艺型技术青年
+    - name: 汐塔魔法屋
+      url: https://blog.storical.space
+      description: 种下一颗故事的种子，让它带着魔法和奇迹生根发芽
+    - name: 陆小启
+      url: https://blog.luxq.space
+      description: 往者不谏，来者可追
+    - name: 蘇SU
+      url: https://suus.me
+      description: 在数字的海洋中，寻找属于自己的星辰
+    - name: leaf
+      url: https://ladfenemies.cc
+      description: 其他
+    - name: 伍柒柒
+      url: https://blog.efu.me
+      description: 只有迎风的风筝才会飞得更高

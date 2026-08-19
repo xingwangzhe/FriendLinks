@@ -1,3 +1,14 @@
+# ── 数据源（用于更新 friends）────────────────
+# 站点: 博客说 https://www.blogtalk.org/
+# 类型: SSR HTML 分页（无公开 API，数据随页面渲染）
+# 地址: https://www.blogtalk.org/blogs/page/N?sort=collect_time （每页10个，共25页约249站）
+#       卡片 article.blog-entry 中 .icon-and-title h4 = 名称
+#       .domain-name a 文本 = 域名（补 https:// 即站点 URL）
+#       .description p = 描述
+# 方法: Chrome 逐个访问 /blogs/page/1..25?sort=collect_time → DOM 提取三字段
+# 抓取时间: 2026-08-18 | 条目: 252
+# ─────────────────────────────────────────
+
 site:
   name: 博客说
   description: 博客聚合与发现平台。
@@ -474,3 +485,57 @@ site:
       url: https://www.memxb.top
     - name: 𝟞𝟙𝟡''𝕤 𝔹𝕃𝕆𝔾
       url: https://66619.eu.org
+    - name: 烧饼博客
+      url: https://u.sb
+      description: 记录一些技术笔记、踩坑实录和瞎折腾的心得。
+    - name: OK University
+      url: https://ok.edu.kg
+      description: 我们会利用这个网站学习写博客、网站维护等相关技能。当然也会用来记录自己做的一些有意思的事情。内容不限，但以各类技术相关文章为主。如果你对这个网站感兴趣的话，欢迎多来看看。
+    - name: Koimstの小站
+      url: https://blog.koimst.cn
+      description: Hello，我是 Koimst，一名计算机网络应用专业的中技学生。我喜欢在文字里安放情绪，在代码中寻找秩序。这里没有固定的主题，只有最真实的我 —— 会分享专业学习、代码实践与网络技术，也会写下日常随笔、内心思考与细碎感悟。生活与思绪，都在这里慢慢呈现。
+    - name: 翁国栋 · 镜间笔记
+      url: https://wengguodong.com
+      description: 写代码、看云、发呆，排名不分先后
+    - name: 伯正
+      url: https://chenbozheng.com
+      description: 伯正博客，是一个随笔记录读书心得、生活感悟、旅游随记的原创独立博客。
+    - name: Sunrise's blog
+      url: https://wowtang.top
+      description: 心境自成天地，地狱可化作桃源，天堂也能沦为苦海。
+    - name: SukのBlog
+      url: https://imsuk.cn
+      description: SukのBlog 是 Suk 的个人博客，专注分享建站教程、网站源码、服务器与宝塔面板实战、免费 API 接口与各类网络资源，偶尔记录生活日常与影视游戏。
+    - name: ABcloakPro 技术博客
+      url: https://www.abcloakpro.com/blog
+      description: ABcloakPro 技术博客专注分享 Web 应用架构、SaaS 系统设计、软件工程实践、云计算技术以及现代互联网产品开发经验。
+    - name: .NET技术博客
+      url: https://www.coderlog.net
+      description: 专注 .NET 和 C# 开发，分享实战技巧、性能优化、框架应用与 AI 开发趋势。
+    - name: yCENzh's Blog
+      url: https://fuwari.oh1.top
+      description: 我们把一束初见的光，折成口袋里的灯。 山海更迭、星霜轮转，心的罗盘仍指向同一片岸。 夜若深，就替彼此点一盏；路若远，就把愿望写在晨光上。 等雾散，你回头，我仍在——把走过的风，化作彼此的光。
+    - name: seisamuse
+      url: https://www.seis-jun.xyz
+      description: 好记性不如烂笔头。记录学习生活和感悟。
+    - name: Victor42
+      url: https://victor42.eth.limo
+      description: 自 2011 年持续更新至今的中文独立博客，521 篇原创。横跨自然科学科普、数据分析与 Excel、UI/UX 设计方法论、国内深度游记、开发者折腾记。INTJ 视角的自然、人文与技术观察。
+    - name: 石猫博客
+      url: https://blog.imshimao.com
+      description: 重投 就叫石猫好啦...
+    - name: 逍十一郎
+      url: https://blog.boguan.site
+      description: 这个网站是我给自己留的一块自留地。它不会把我包装成专家、导师、创业者或者什么成功人士。更准确地说，我只是一个普通程序员，白天上班，晚上和周末继续折腾 AI、写作、独立开发、产品想法、副业可能性，以及一些关于生活和人生意义的问题。
+    - name: Region-Blog
+      url: https://blog.393837.xyz
+      description: 这里有关于游戏、博客、科技相关的知识分享，我相信你可以在这里找到对你有用的内容。
+    - name: 三轮
+      url: https://shuiba.co
+      description: |-
+        Hi, I'm Shuibaco (水八口),
+        a self-taught web designer,
+        based in Kobe, Japan.
+    - name: 当下
+      url: https://blog.fueis.com
+      description: 当下 ← 九月 ← S.W.G ← Fの茶阁

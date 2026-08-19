@@ -14,6 +14,11 @@ const BUILD_TS = new Date()
 
 export default defineConfig({
   output: "static",
+  // Astro 7.2+ 实验性增量构建缓存：命中 getStaticPaths + cacheKey 的页面可跳过渲染
+  // 当前无 getStaticPaths 页面（均为静态页/GET 端点），启用后构建行为不变，为后续动态路由缓存做准备
+  experimental: {
+    incrementalBuild: true,
+  },
   vite: {
     plugins: [tailwindcss()],
     ssr: {

@@ -1,0 +1,1441 @@
+# ── 数据源（用于更新 friends）────────────────
+# 站点: MoreRSS https://www.morerss.com/zh/博客
+# 类型: SSR HTML（无公开 JSON API）
+# 地址: https://www.morerss.com/zh//博客 及分页 /zh//博客/<N>（共 22 页，前 21 页每页 33 条，末页 26 条）
+# 方法: 循环请求 page=1..22，取每个 a.feed-title（href=站点URL, 文本=名称），按 url 去重后整体重写
+# 注意: 该目录为"中文博客 RSS"精选列表（非全站数据库），站内另有 /tags_zh.php 标签页、/submit.php 提交入口。
+# 抓取时间: 2026-08-19 | 条目: 713
+# ─────────────────────────────────────────
+
+site:
+  name: MoreRSS
+  url: https://www.morerss.com/zh/%E5%8D%9A%E5%AE%A2
+  description: 发现和翻译 RSS feeds
+  links: /links
+  friends:
+    - name: 科技爱好者周刊
+      url: https://www.ruanyifeng.com/blog
+    - name: EST
+      url: https://est.im
+    - name: Zhijun TAN | 土木坛子
+      url: https://tumutanzi.com
+    - name: ZhangXinXu | 张鑫旭
+      url: https://www.zhangxinxu.com
+    - name: 1Q43 | 虹线
+      url: https://1q43.blog
+    - name: ZhangXinXu | 张鑫旭
+      url: https://www.zhangxinxu.com/wordpress
+    - name: onojyun | 莫比烏斯
+      url: https://onojyun.com
+    - name: Raymond | 雷蒙
+      url: https://raymondhouch.com
+    - name: Phodal | 黄峰达
+      url: https://www.phodal.com
+    - name: UNTAG
+      url: https://utgd.net
+    - name: Python猫
+      url: https://pythoncat.top
+    - name: Chiyuan Zhang | 张驰原
+      url: https://freemind.pluskid.org
+    - name: ZyZhang | 张智勇
+      url: https://www.zyzhang.com
+    - name: DevTang | 唐巧
+      url: https://blog.devtang.com
+    - name: Manatee LazyCat
+      url: https://manateelazycat.github.io
+    - name: lukefan | 范路
+      url: http://lukefan.com
+    - name: forecho | 蔡正海
+      url: https://blog.forecho.com
+    - name: WeiWuHui | 魏武挥
+      url: http://weiwuhui.com
+    - name: Oneday | 一天世界
+      url: https://blog.yitianshijie.net
+    - name: Jimmy Song | 宋净超
+      url: https://jimmysong.io
+    - name: SKYue | 拾月
+      url: https://www.skyue.com
+    - name: WiwiKuan | 官大為
+      url: https://wiwi.blog
+    - name: CodingNow | 云风
+      url: https://blog.codingnow.com
+    - name: afoo | 王福强
+      url: https://afoo.me
+    - name: ZhanBin | 詹斌
+      url: https://horse.im
+    - name: Zackwu | 无辄的栈
+      url: https://www.zackwu.com
+    - name: Ray Xiong | 四火
+      url: https://www.raychase.net
+    - name: DIYgod
+      url: https://diygod.cc
+    - name: liuyi | 61
+      url: https://61.life
+    - name: JustZht
+      url: https://www.justzht.com
+    - name: Fenng | 冯大辉
+      url: https://dbanotes.net
+    - name: Huang JiWei | 黄集伟
+      url: https://www.huangjiwei.com/blog
+    - name: JustYY | 小赖子
+      url: https://justyy.com
+    - name: Goidea | 槿呈
+      url: https://justgoidea.com
+    - name: Hutusi | 胡涂说
+      url: https://hutusi.com
+    - name: Dennis Li
+      url: https://www.domon.cn
+    - name: mikusa | 初之音
+      url: https://www.himiku.com
+    - name: HCLonely
+      url: https://blog.hclonely.com
+    - name: Louiscard | 吕江涛
+      url: https://louiscard.com
+    - name: TonyBai | 白明
+      url: https://tonybai.com
+    - name: happy xiao
+      url: https://happyxiao.com
+    - name: MacTalk | 池建强
+      url: https://macshuo.com
+    - name: HJiang | 江宏
+      url: https://1byte.io
+    - name: Owen Young
+      url: https://www.owenyoung.com
+    - name: shuiba | 水八口
+      url: https://blog.shuiba.co
+    - name: Kingname | 谢乾坤
+      url: https://www.kingname.info
+    - name: daimajia | 林善文
+      url: https://www.daimajia.com
+    - name: Yinji | 印记
+      url: https://yinji.org
+    - name: LuoLei | 罗磊
+      url: https://luolei.org
+    - name: Justin Yan | 枫影
+      url: https://justinyan.me
+    - name: Jason Ng | 阿禅
+      url: https://kenengba.com/post/author/jason5ng32
+    - name: Lei Mao | 毛磊
+      url: https://leimao.github.io
+    - name: BYVoid | 郭家宝
+      url: https://byvoid.com/zhs
+    - name: Hecaitou | 和菜头
+      url: https://www.hecaitou.com
+    - name: Innei | 拾一
+      url: https://innei.ren
+    - name: Tw93
+      url: https://tw93.fun
+    - name: ZiShu | 子舒
+      url: https://zishu.me
+    - name: AnZhihe | 安志合
+      url: https://chegva.com
+    - name: Chuan | 硅谷王川
+      url: https://chuan.us
+    - name: rxliuli | 琉璃
+      url: https://blog.rxliuli.com
+    - name: KAIX.IN
+      url: https://kaix.in
+    - name: auiou | 王志勇
+      url: http://www.auiou.com
+    - name: Ein Verne
+      url: https://blog.einverne.info
+    - name: Bestony | 白宦成
+      url: http://www.ixiqin.com
+    - name: obaby@mars
+      url: http://nai.dog
+    - name: Randy Lu | 卢涛南
+      url: http://lutaonan.com
+    - name: 数字移民
+      url: https://blog.shuziyimin.org
+    - name: Juby | 渚碧
+      url: https://jubeny.com
+    - name: Allen Hua
+      url: https://hellodk.cn
+    - name: MacTalk | 池建强
+      url: http://macshuo.com
+    - name: Macin
+      url: https://macin.org
+    - name: Markon Review
+      url: https://markonreview.com
+    - name: Lawtee | 法律小茶馆
+      url: https://lawtee.com
+    - name: YaYu | 雅余
+      url: https://yayu.net
+    - name: Miao Yu | 于淼
+      url: https://yufree.cn
+    - name: bang
+      url: https://blog.cnbang.net
+    - name: Wesley Lee
+      url: https://shinekid.com
+    - name: Jianshuo | 王建硕
+      url: https://home.wangjianshuo.com/cn
+    - name: Laoda | 咕咕
+      url: https://blog.laoda.de
+    - name: williamlong | 月光
+      url: https://www.williamlong.info
+    - name: Arlmy | 素生
+      url: https://z.arlmy.me
+    - name: Dayu | 大宇
+      url: https://anotherdayu.com
+    - name: EV 的日本生活记录
+      url: https://japan.einverne.info
+    - name: Jesse Chan | 大破进击
+      url: https://jesor.me
+    - name: 酷 壳 – CoolShell
+      url: https://coolshell.cn
+    - name: HelloDog | 王奥
+      url: http://wsgzao.github.io
+    - name: Pseudoyu
+      url: https://www.pseudoyu.com
+    - name: DiskSing | 黄大龙
+      url: https://disksing.com
+    - name: HJ | 杭建
+      url: https://rowkey.cn
+    - name: BYVoid | 郭家宝
+      url: https://www.byvoid.com
+    - name: LJF | 卢敬锋
+      url: https://ljf.com
+    - name: Yukang Chen | 程序员的喵
+      url: http://catcoding.me
+    - name: Jason
+      url: https://atjason.com
+    - name: Oilbeater
+      url: https://oilbeater.com
+    - name: loyhome | 落园
+      url: https://www.loyhome.com
+    - name: TjSky | 秋风于渭水
+      url: https://www.tjsky.net
+    - name: PJ Wu | 吳秉儒
+      url: https://pinchlime.com
+    - name: This cute world
+      url: https://thiscute.world
+    - name: Airing
+      url: https://ursb.me
+    - name: Vincent Yang
+      url: https://missuo.me
+    - name: Cat Chen | 陈广琛
+      url: https://chinese.catchen.me
+    - name: Darmau | 李大毛
+      url: https://darmau.design
+    - name: cyhone | 沉思录
+      url: https://www.cyhone.com
+    - name: MT | 面条
+      url: https://mt.ci
+    - name: Ramsay Leung
+      url: https://ramsayleung.github.io
+    - name: Simon
+      url: https://song.al
+    - name: sugar | 粥里有勺糖
+      url: https://sugarat.top
+    - name: Garan no dou
+      url: https://blog.ibireme.com
+    - name: Oz Explorer | 澳洲探索者
+      url: https://www.ozexplorers.com
+    - name: Guoxiaoli | 郭晓力
+      url: https://guoxiaoli.com
+    - name: Versun
+      url: https://versun.me
+    - name: EzraKnotLab
+      url: https://ezraknotlab.github.io
+    - name: Tim Qian
+      url: https://blog.t9t.io
+    - name: YukieYun | 云五
+      url: https://yukieyun.net
+    - name: TualatriX | 图拉鼎
+      url: https://imtx.me
+    - name: W4J1e | 瓦解
+      url: https://hin.cool
+    - name: fivestone | 五石
+      url: https://fivest.one
+    - name: Third Shire | 第三夏尔
+      url: https://thirdshire.com
+    - name: Mercury | 水星投资理财
+      url: https://mercurychong.blogspot.com
+    - name: Ameow | 阿猫
+      url: https://ameow.xyz
+    - name: Ourui | 欧雷
+      url: https://ourai.ws
+    - name: Yuko | 雨宫优子
+      url: https://yuukoamamiya.github.io
+    - name: WuSiYu
+      url: https://wusiyu.me
+    - name: Xindi Wang | 王心迪
+      url: https://pensieve.wangxindi.org
+    - name: WinDiscover | 独立微软博客
+      url: https://windiscover.com
+    - name: Hi iD | iD公社
+      url: https://www.hi-id.com
+    - name: panda995 | 熊猫不是猫
+      url: https://panda995.xyz
+    - name: Skywind | 林伟
+      url: https://www.skywind.me/blog
+    - name: JingFeng | 靜風說
+      url: http://www.jfsay.com
+    - name: Tinyfool | 郝培强
+      url: https://codechina.org
+    - name: Eltrac | 極客死亡計劃
+      url: https://www.geedea.pro
+    - name: Four happy | 四喜丸子
+      url: https://fourhappylions.com
+    - name: HuoJu | 霍炬
+      url: https://jhuo.ca
+    - name: iMaeGoo | 虹墨
+      url: https://www.imaegoo.com
+    - name: David Yin
+      url: https://seo.g2soft.net
+    - name: Tao Jiang
+      url: https://hijiangtao.github.io
+    - name: Teddy Chen | 搞笑談軟工
+      url: https://teddy-chen-tw.blogspot.com
+    - name: SunZhongWei | 孙仲维
+      url: https://www.sunzhongwei.com
+    - name: conge | 清阳
+      url: https://conge.github.io
+    - name: JadeYang | 杨琼璞
+      url: https://www.jeffjade.com
+    - name: iphyer | 桑弧蓬矢射四方
+      url: https://iphyer.github.io
+    - name: Just lepture
+      url: https://lepture.com
+    - name: KaiQu | 曲凯 | 42 章经
+      url: https://www.xiaoyuzhoufm.com/podcast/648b0b641c48983391a63f98
+    - name: Xuanwo | 漩涡
+      url: https://xuanwo.io
+    - name: Hawstein
+      url: https://hawstein.com
+    - name: Yutao Zhou | 失眠海峡
+      url: https://blog.imalan.cn
+    - name: ChrAlpha
+      url: https://blog.ichr.me
+    - name: Lai Xintao
+      url: https://www.kawabangga.com
+    - name: ISLAND
+      url: https://youngxhui.top
+    - name: DK - 王登科
+      url: https://greatdk.com
+    - name: CRIMX
+      url: https://blog.crimx.com
+    - name: lklog | 龙鲲
+      url: https://lklog.cn
+    - name: DeppWang | 德普王
+      url: https://depp.wang
+    - name: YunYouJun | 云游君
+      url: https://www.yunyoujun.cn
+    - name: WJD | 王佳冬
+      url: http://wjd.name
+    - name: Kai Xia | 夏恺
+      url: https://xiaket.github.io
+    - name: whyes | 朱小东
+      url: https://whyes.org
+    - name: alswl
+      url: https://blog.alswl.com
+    - name: Livid
+      url: https://livid.v2ex.com
+    - name: Yasking | 东东
+      url: https://blog.yasking.org
+    - name: Xulihang
+      url: https://blog.xulihang.me
+    - name: TareSky
+      url: https://taresky.com
+    - name: Yachen Liu
+      url: https://yach.me
+    - name: 庭说
+      url: https://tingtalk.me
+    - name: Kevinzhow | 周楷雯
+      url: https://blog.kevinzhow.com
+    - name: Weiming Dong | 小明
+      url: https://www.dongwm.com
+    - name: HeadSalon | 海德沙龙
+      url: https://headsalon.org
+    - name: Heo | 张洪
+      url: https://blog.zhheo.com
+    - name: smallyu
+      url: https://smallyu.net
+    - name: elmagnifico | 云浅雪
+      url: http://elmagnifico.tech
+    - name: lucifer | 路志鹏
+      url: https://lucifer.ren/blog
+    - name: TSBBLOG
+      url: https://tsb2blog.com
+    - name: Frost Ming
+      url: https://frostming.com
+    - name: Matrix67
+      url: http://www.matrix67.com/blog
+    - name: Halfrost | 冰霜之地
+      url: https://halfrost.com
+    - name: CHTsai | 蔡志浩
+      url: https://taiwan.chtsai.org
+    - name: Liuyx | 遥行
+      url: https://charlesliuyx.github.io
+    - name: Pinlyue | 频率
+      url: https://pinlyu.com
+    - name: Zhile | 知了
+      url: https://zhile.io
+    - name: Laike9m
+      url: https://laike9m.com/blog
+    - name: Joway
+      url: https://blog.joway.io
+    - name: HWChiu | 邱宏瑋
+      url: https://hwchiu.com
+    - name: Nansey
+      url: https://www.nansey.me
+    - name: Thetbw | 黑羽
+      url: https://blog.thetbw.xyz
+    - name: YeungYeah
+      url: https://scottyeung.top
+    - name: Timothy
+      url: https://xiaozhou.net
+    - name: Plum | 苏末末
+      url: https://plumz.me
+    - name: Seven | 小柒
+      url: https://blog.diqigan.cn
+    - name: fueis | 当下
+      url: https://blog.fueis.com
+    - name: YiHui | 谢益辉
+      url: https://yihui.name/cn
+    - name: idealclover | 翠翠
+      url: https://idealclover.top
+    - name: JmPotato | 耿海直
+      url: https://ipotato.me
+    - name: koobai | 空白生活
+      url: https://koobai.com
+    - name: oldj | 老杰
+      url: https://oldj.net
+    - name: Yocson | 散步中
+      url: https://www.yocson.com
+    - name: Josh Chen
+      url: https://www.josherich.me
+    - name: 子夜松声
+      url: https://xyzbz.cn
+    - name: Shadow Walker | 松烟阁
+      url: https://www.edony.ink
+    - name: physixfan
+      url: https://www.physixfan.com
+    - name: DuJun | 杜俊
+      url: https://dujun.io
+    - name: Wikimoe | 维基萌
+      url: https://www.wikimoe.com
+    - name: Mayx
+      url: https://mabbs.github.io
+    - name: iYuren | 山野愚人居
+      url: https://www.iyuren.com
+    - name: cnfeat | 笨方法学写作
+      url: https://www.cnfeat.com
+    - name: Latias94 | 萤火之森
+      url: http://frankorz.com
+    - name: IOErr | 读写错误
+      url: https://ioerr.github.io
+    - name: Cyrus Yip | 叶寻
+      url: https://cyrusyip.org
+    - name: AxionL
+      url: https://axionl.me
+    - name: Yuanxuan Wang
+      url: https://blog.yxwang.me
+    - name: xiantang | 咸糖
+      url: https://vim0.com
+    - name: Holmesian
+      url: https://holmesian.org
+    - name: Phuker
+      url: https://phuker.github.io
+    - name: shuizilong| 某岛
+      url: http://www.shuizilong.com/house
+    - name: After27
+      url: https://www.after27.me
+    - name: 深度投资笔记
+      url: https://deepinvest.org
+    - name: jdhao
+      url: https://jdhao.github.io
+    - name: Reimu | 木子
+      url: https://blog.k8s.li
+    - name: DGideas | 王万霖
+      url: https://dgideas.net
+    - name: I BCL
+      url: https://n0w0n.com
+    - name: JiaJe | 杰哥
+      url: https://jia.je
+    - name: QianGuYiHao | 千古壹号
+      url: https://www.qianguyihao.com
+    - name: gadore | 千里之豪
+      url: https://blog.gadore.top
+    - name: wangyurui | 太隐
+      url: https://wangyurui.com
+    - name: kily zhou
+      url: https://keelii.com
+    - name: ideawu | 吴祖洋
+      url: http://www.ideawu.net/blog
+    - name: dmesg | 小土豆
+      url: https://dmesg.app
+    - name: Diu
+      url: https://ddiu.io
+    - name: Luffy | 沈唁志
+      url: https://qq52o.me
+    - name: Jiajun Huang
+      url: https://jiajunhuang.com
+    - name: ChangHai | 卢昌海
+      url: https://www.changhai.org
+    - name: Retire50 | 博弈
+      url: https://retire50blog.wang
+    - name: Darksair
+      url: https://darksair.org/blog
+    - name: Joyqi | 祁宁
+      url: https://joyqi.com
+    - name: luozhiyun
+      url: https://www.luozhiyun.com
+    - name: xiaoronglv | 吕小荣
+      url: https://mednoter.com
+    - name: David Mao | 木遥
+      url: https://blog.farmostwood.net
+    - name: Spencer Woo
+      url: https://spencerwoo.com
+    - name: Yanhaijing | 颜海镜
+      url: https://yanhaijing.com
+    - name: Bryan
+      url: https://blog.singee.me
+    - name: LaoZhang | 老张
+      url: https://laozhang.org
+    - name: qtmuniao | 青藤木鸟
+      url: https://www.qtmuniao.com
+    - name: Elizen
+      url: https://elizen.me
+    - name: HUHUHANG
+      url: https://huhuhang.com
+    - name: DiGua | 地瓜
+      url: https://digua.moe
+    - name: GeekPlux
+      url: https://geekplux.com/posts
+    - name: uuzi | 兔哥
+      url: https://uuzi.net
+    - name: javis | 查令十字街 84 号
+      url: https://www.javis.me
+    - name: Bess Croft
+      url: https://blog.besscroft.com
+    - name: Diff | 客旅日记
+      url: https://diff.im/blog
+    - name: Ground Oddity
+      url: http://idle.systems
+    - name: chai2010 | 柴树杉
+      url: https://chai2010.cn
+    - name: Armin
+      url: https://arminli.com
+    - name: MiaoTony
+      url: https://miaotony.xyz
+    - name: HeYSH | 贺叶霜
+      url: https://blog.heysh.xyz
+    - name: Colobu | 鸟窝 晁岳攀
+      url: http://colobu.com
+    - name: Alan Chan | 詹雨安
+      url: https://www.alanchan.me
+    - name: Prologue | 槐序
+      url: https://prologue.dev
+    - name: Mrmad | 瘋先生
+      url: https://mrmad.com.tw
+    - name: 7Wate | 向阳而生
+      url: https://blog.7wate.com
+    - name: oheng | 飞觞醉月
+      url: https://oheng.com
+    - name: JasonkayZK | 张小凯
+      url: https://jasonkayzk.github.io
+    - name: CoderDD | 程序猿DD
+      url: https://blog.didispace.com
+    - name: Nic Lin
+      url: https://blog.niclin.tw
+    - name: Zhuoyun Wei
+      url: https://wzyboy.im
+    - name: Laisky | 莱斯基
+      url: https://blog.laisky.com
+    - name: VPS大玩家
+      url: https://www.vpsdawanjia.com
+    - name: MouT
+      url: https://mout.me
+    - name: Fatesinger | 大发
+      url: https://fatesinger.com
+    - name: Mohuishou
+      url: https://lailin.xyz
+    - name: mutoo | 木匣子
+      url: https://mutoo.im
+    - name: Eason Yang | 杨宇晨
+      url: https://easonyang.com
+    - name: Melede | 美樂地
+      url: https://meledee.com
+    - name: paul | 保罗
+      url: https://paugram.com
+    - name: 102no | 把酒诗代码
+      url: https://102no.com
+    - name: Usubeni Fantasy
+      url: https://ssshooter.com
+    - name: David Yu |余海峯
+      url: https://hfdavidyu.com
+    - name: Fei Zhao  | 靠谱熊
+      url: https://kaopubear.top/blog
+    - name: 52nlp | 我爱自然语言处理
+      url: https://www.52nlp.cn
+    - name: Gityuan | 袁辉辉
+      url: https://gityuan.com
+    - name: feihu
+      url: https://feihu.me/blog
+    - name: Jinjiang | 赵锦江
+      url: https://jiongks.name
+    - name: Noise
+      url: https://www.noiseblogs.top
+    - name: ChengPeiquan | 程沛权
+      url: https://chengpeiquan.com
+    - name: Onegao | 某高老师
+      url: https://someonegao.com
+    - name: mmmmm | 木木
+      url: https://immmmm.com
+    - name: Leonson | 浮云游子意
+      url: https://leonson.me
+    - name: JerryLee | 遨游
+      url: https://cdjax.com
+    - name: the5fire | 胡阳
+      url: https://www.the5fire.com
+    - name: Wang Ziting | 王子亭
+      url: https://jysperm.me
+    - name: Senlypan | 潘深练
+      url: https://www.panshenlian.com
+    - name: CodeSky | 敖天羽
+      url: https://codesky.me
+    - name: MaZhuang | 马壮
+      url: https://mazhuang.org
+    - name: Weishu | 田维术
+      url: https://weishu.me
+    - name: 1A23 Studio
+      url: https://1a23.com
+    - name: YangZhiPing | 阳志平
+      url: https://www.yangzhiping.com
+    - name: Soulteary | 苏洋
+      url: https://soulteary.com
+    - name: Dawei Ma
+      url: https://www.bmpi.dev
+    - name: Jerry Qu | 屈光宇
+      url: https://imququ.com
+    - name: eryajf | 二丫讲梵
+      url: https://wiki.eryajf.net
+    - name: GaoJin | 高金
+      url: https://igaojin.me
+    - name: Guoqing Zou
+      url: https://zgq.ink
+    - name: Liqiang | 格物致知
+      url: https://liqiang.io
+    - name: HiFeng
+      url: https://www.hicairo.com
+    - name: Yufan | 雨帆
+      url: https://yufan.me
+    - name: FlyingSky
+      url: https://blog.fsky7.com
+    - name: Stephen Leng | 冷金乘
+      url: https://stephenleng.com
+    - name: Huiris
+      url: https://huiris.com
+    - name: Lawrence LI
+      url: https://lawrenceli.me
+    - name: jinbo123 | 佐仔志
+      url: https://www.jinbo123.com
+    - name: DemoChen | 陈杨
+      url: https://demochen.com
+    - name: Manjusaka
+      url: https://www.manjusaka.blog
+    - name: ShinYongfan | 申永范
+      url: https://shenyongfan.com
+    - name: ShrekShao | 狄学长
+      url: https://shrekshao.github.io
+    - name: O3noBLOG
+      url: https://blog.othree.net
+    - name: E99p1ant
+      url: https://github.red
+    - name: ZDD | 张东东
+      url: https://zddhub.com
+    - name: Wei Jun
+      url: https://weijunext.com
+    - name: data4fun | 小数据不简单
+      url: https://data4fun.cc
+    - name: Vivaxy
+      url: https://vivaxyblog.github.io
+    - name: Jeffer.Z
+      url: https://www.jeffer.xyz
+    - name: DrPika | 强璐医生
+      url: https://blog.drpika.com
+    - name: Piglei | 朱雷
+      url: https://www.piglei.com
+    - name: Chawye Hsu
+      url: https://chawyehsu.com
+    - name: Dawner
+      url: https://dawner.top
+    - name: Airing Weekly
+      url: https://weekly.ursb.me
+    - name: Edzbe | 耳朵
+      url: http://www.edzbe.com
+    - name: HuangYang | 黄杨
+      url: https://blog.huangyang.me
+    - name: Lilydjwg | 依云
+      url: https://blog.lilydjwg.me
+    - name: Velas电波站
+      url: https://www.velasx.com
+    - name: szqp
+      url: https://www.szqp.site
+    - name: Muyun | 杜云
+      url: https://muyun.work
+    - name: Xieisabug
+      url: https://www.xiejingyang.com
+    - name: mvread | 最小可读
+      url: https://mvread.blog
+    - name: Droidyue | 技术小黑屋
+      url: https://droidyue.com
+    - name: Yinan
+      url: https://yinan.me
+    - name: leongao
+      url: https://leongao.com
+    - name: PSRSS | 痞事
+      url: https://www.psrss.com
+    - name: ReiAC
+      url: https://rei.ac
+    - name: shellc | 蟹壳
+      url: https://shellc.cn
+    - name: Zhaoolee | 方圆小站
+      url: https://fangyuanxiaozhan.com
+    - name: BlogFinder
+      url: https://bf.zzxworld.com
+    - name: Cysime Moflu
+      url: https://blog.cysi.me
+    - name: MountAye | 阿掖山
+      url: https://blog.mountaye.com
+    - name: Bingwhispers
+      url: https://cyril3.github.io
+    - name: Mukti | 费照君
+      url: https://feizhaojun.com
+    - name: 2750 words
+      url: https://pathos.page
+    - name: ddw | 冬冬
+      url: https://ddw2019.com
+    - name: Fernweh
+      url: https://blog.wohin.me
+    - name: sakanano | 魚の
+      url: https://blog.sakanano.moe
+    - name: Moreality
+      url: https://moreality.net
+    - name: Leo Van | 范叶亮
+      url: https://leovan.me
+    - name: Lipeng He
+      url: https://www.ouorz.com
+    - name: BAI YUN
+      url: https://baiyun.me
+    - name: QuMac | 攻城狮笔记
+      url: https://qumac.com
+    - name: 4Ark
+      url: https://4ark.me
+    - name: kymjs | 张涛
+      url: https://kymjs.com
+    - name: OWenT | 欧文韬
+      url: https://owent.net
+    - name: maxOS
+      url: https://maxoxo.me
+    - name: ZhangKe | 张可
+      url: https://zhangke.space
+    - name: Jacob Press
+      url: https://jacobzuo.github.io/blog/index.html
+    - name: ops coffee | 运维咖啡吧
+      url: https://blog.ops-coffee.cn
+    - name: 音视频开发进阶
+      url: https://glumes.com
+    - name: John Chou
+      url: https://blog.joouis.com
+    - name: 英文SEO实战
+      url: https://www.seoactionblog.com
+    - name: Pewae | 破袜子
+      url: https://pewae.com
+    - name: Xinyao Li | 李昕垚
+      url: http://xinyao.pub
+    - name: Andy Hsu
+      url: https://nn.ci
+    - name: gtdstudy | 学无止境
+      url: http://gtdstudy.com
+    - name: Weiyexing | 叶星优酸乳
+      url: https://weiyexing.win
+    - name: Yuechuan Xiao
+      url: https://yuechuanx.top
+    - name: Barret | 李靖
+      url: https://www.barretlee.com
+    - name: plausistory | 清言
+      url: https://plausistory.blog
+    - name: Meng | 小羽
+      url: https://blog.debuginn.com
+    - name: DouChi | 椒盐豆豉
+      url: https://blog.douchi.space
+    - name: Alexander D Huang
+      url: https://alxddh.github.io
+    - name: LearnData 开源笔记
+      url: https://newzone.top
+    - name: EdNovas
+      url: https://ednovas.xyz
+    - name: 軟體考古學家
+      url: https://blog.brachiosoft.com
+    - name: stille | 思有云
+      url: https://www.ioiox.com
+    - name: The Wandering Allison
+      url: https://thewanderingallison.github.io
+    - name: pipu | 皮普
+      url: https://pipuwong.com
+    - name: qncd | 尺宅杂记
+      url: http://www.qncd.com
+    - name: DHTalk
+      url: https://zhangdinghao.cn
+    - name: Nolla
+      url: https://cmgs.me
+    - name: JunHong Ren | 任峻宏
+      url: https://renny.ren
+    - name: Deepzz | 陈启敬
+      url: https://deepzz.com
+    - name: Lucien
+      url: https://blog.lucien.ink
+    - name: LiuYanDdong | 刘延栋
+      url: https://liuyandong.com
+    - name: Guyskk | 黄康德
+      url: https://blog.guyskk.com
+    - name: Innomad
+      url: https://innomad.io
+    - name: xlrocket | 效率火箭
+      url: https://xlrocket.blog
+    - name: Ouroboros | 兰卡斯特
+      url: https://utopia.pursuitus.com
+    - name: Xiaozhu | 小猪
+      url: https://xiaozhu.dev
+    - name: JieJiSS
+      url: https://blog.jiejiss.com
+    - name: Chen Junda
+      url: https://ddadaal.me
+    - name: juemuren | 掘墓人
+      url: https://juemuren4449.com
+    - name: Baoshuo | 宝硕
+      url: https://blog.baoshuo.ren
+    - name: chenshake | 陈沙克
+      url: http://www.chenshake.com
+    - name: johnbens
+      url: https://jiashejianyan.com
+    - name: wuxinhua
+      url: https://wuxinhua.com
+    - name: LiuGeZhou | 六个周
+      url: https://blog.liugezhou.online
+    - name: LiesAuer
+      url: https://www.liesauer.net
+    - name: Guoqi | 孙国旗
+      url: https://sunguoqi.com
+    - name: well well sleep
+      url: https://life.wellwellsleep.com
+    - name: Wukan | 阿倫
+      url: https://wukan.me
+    - name: Alili
+      url: https://alili.tech
+    - name: Rolen
+      url: https://rolen.wiki
+    - name: xiaoz | 邹修平
+      url: https://blog.xiaoz.org
+    - name: Bookfere | 书伴
+      url: https://bookfere.com
+    - name: SujJe | 苏杰
+      url: http://iamsujie.com
+    - name: 猫东东
+      url: https://del.pub
+    - name: Broca | 白洛嘉
+      url: https://brocalife.com
+    - name: Yige | 轶哥
+      url: https://www.wyr.me
+    - name: HuFangYun | 胡方运
+      url: https://hufangyun.com
+    - name: not LSD
+      url: https://notlsd.github.io
+    - name: ChungZH
+      url: https://blog.chungzh.cn
+    - name: Bodun Hu
+      url: https://www.bodunhu.com/blog
+    - name: ControlNet
+      url: https://controlnet.space
+    - name: I Am I
+      url: https://5ime.cn
+    - name: Alliot
+      url: https://www.iots.vip
+    - name: Derobukal
+      url: https://www.nosuchfield.com
+    - name: Ivone | 刘一峰
+      url: https://www.icebeer.top
+    - name: Clu
+      url: https://www.clu.so
+    - name: Tony Toy | 托尼哥的玩具
+      url: https://www.tony-bro.com
+    - name: ZhouTian | 周天记
+      url: https://zhoutian.com
+    - name: 李瑞豪
+      url: https://lruihao.cn
+    - name: yzqzss | 一座桥在水
+      url: https://blog.othing.xyz
+    - name: Redon | 一心
+      url: https://redon.cc
+    - name: ii74 | 朝舞
+      url: https://ii74.com
+    - name: star7th | 第七星尘
+      url: https://blog.star7th.com
+    - name: Jdon | 极道
+      url: https://www.jdon.com
+    - name: kelu | 血衫非弧
+      url: https://blog.kelu.org/atom.xml
+    - name: Dusays | 杜朋
+      url: https://dusays.com
+    - name: Hanximeng | 寒曦朦
+      url: https://hanximeng.com
+    - name: Xingbianren | 刘辰律师
+      url: https://xingbianren.cn
+    - name: mhcf | 梦幻辰风
+      url: https://www.mhcf.net
+    - name: FeiDao | 飞刀
+      url: https://www.feidaoboke.com
+    - name: Anran758
+      url: https://anran758.github.io/blog
+    - name: Zhulin | 竹林里有冰
+      url: https://zhul.in
+    - name: imwsl | 衛斯理
+      url: https://imwsl.com
+    - name: Howard Cheung
+      url: https://h-cheung.gitlab.io
+    - name: zhonger
+      url: https://blog.lui8.cn
+    - name: FGHRSH
+      url: https://www.fghrsh.net
+    - name: Synyan | 旅行漫记
+      url: https://synyan.cn
+    - name: Memzoine
+      url: https://memozine.me
+    - name: Mokeyjay
+      url: https://www.mokeyjay.com
+    - name: hxueh | 夏泉
+      url: https://www.hxueh.net
+    - name: Corey Chiu
+      url: https://coreychiu.com
+    - name: Isming | 码农明明桑
+      url: https://isming.me
+    - name: LarsCheng
+      url: https://www.larscheng.com
+    - name: 加菲猫的创客工坊
+      url: https://gaficat.com
+    - name: Geek
+      url: https://www.igeekbb.com
+    - name: zmrenwu | 追梦人物
+      url: https://www.zmrenwu.com
+    - name: PixelNest
+      url: https://ifttl.com
+    - name: Woody Huang
+      url: https://www.codewoody.com
+    - name: Dvel
+      url: https://dvel.me
+    - name: unmei | 相逢一场
+      url: https://unmei.cn
+    - name: OneV | 王巍
+      url: https://onevcat.com/#blog
+    - name: 为自己写代码
+      url: https://c4ys.com
+    - name: lhcy | 林海草原
+      url: https://lhcy.org
+    - name: WangDeer
+      url: https://w.toomore.us
+    - name: YoungForest
+      url: https://youngforest.github.io
+    - name: Sanguok | 山月
+      url: https://sanguok.com
+    - name: Lenix
+      url: https://blog.p2hp.com
+    - name: Lxn | 泠泫凝
+      url: https://lxnchan.cn
+    - name: feng.pub | 阿锋
+      url: https://feng.pub
+    - name: SB | 烧饼
+      url: https://u.sb
+    - name: fieldnotes
+      url: https://anthropology.fivest.one
+    - name: ZingLix
+      url: https://zinglix.xyz
+    - name: JiaJun Yeh | 葉家郡
+      url: https://xnum.github.io
+    - name: Dolingou
+      url: https://www.dolingou.com
+    - name: zzxworld | 自行
+      url: https://www.zzxworld.com
+    - name: Mobility
+      url: https://lichuanyang.top
+    - name: Slykiten | 狡猫三窝
+      url: https://slykiten.com/feed
+    - name: Amon | 猛猛如玉
+      url: https://amonxu.com
+    - name: Alan | 龚成
+      url: https://laogongshuo.com
+    - name: RobinWen | 罗宾
+      url: https://dbarobin.com
+    - name: Long Luo
+      url: https://www.longluo.me
+    - name: LenChou | 周良
+      url: https://imzl.com
+    - name: reuixiy
+      url: https://io-oi.me
+    - name: 博友圈 - 推荐文章
+      url: https://www.boyouquan.com/home
+    - name: Just For Fun
+      url: https://selfboot.cn
+    - name: Sogola | 王小嗨
+      url: https://sogola.com
+    - name: Alan Hsu
+      url: https://www.xmylog.com
+    - name: hanyang | 汉洋
+      url: https://hanyang.wtf
+    - name: YouXu | 徐宥
+      url: https://blog.youxu.info
+    - name: Aemon Cao
+      url: https://aemoncao.github.io
+    - name: Phition | 离别歌
+      url: https://www.leavesongs.com
+    - name: Never try it yourself | 非理勿试
+      url: https://www.ntiy.com
+    - name: Dejavu Moe
+      url: https://blog.dejavu.moe
+    - name: Yunfeng | 王云峰
+      url: https://vra.github.io
+    - name: Luyu Huang
+      url: https://luyuhuang.github.io
+    - name: Sanlun | 三輪
+      url: https://sanlun.bike
+    - name: aquausora | 澄沨
+      url: https://champhoon.xyz
+    - name: WuKaiPeng | 吴楷鹏
+      url: https://wukaipeng.com
+    - name: XieGuanglei | 一叶斋
+      url: https://xieguanglei.github.io
+    - name: Nicksxs
+      url: https://nicksxs.me
+    - name: henix | 遥远的街市
+      url: https://blog.henix.info
+    - name: OldPanda
+      url: https://old-panda.com
+    - name: Coco413
+      url: https://coco413.com
+    - name: V2XP 跨境
+      url: https://www.v2xp.com
+    - name: Wulu
+      url: https://wulu.zone
+    - name: KQH | 柯棋瀚
+      url: https://kqh.me
+    - name: HappyFou | 元否
+      url: https://www.happyfou.com
+    - name: Neuman
+      url: https://lineuman.github.io/blog
+    - name: Duan | 段先森
+      url: https://www.duanxiansen.com
+    - name: ykhx | 叶开红雪
+      url: https://yekaihongxue.com
+    - name: Surager
+      url: https://surager.pub
+    - name: mghio
+      url: https://www.mghio.cn
+    - name: Bosir | 水清无鱼
+      url: https://bosir.cn
+    - name: DengQN
+      url: https://dengqn.com
+    - name: AsyncX
+      url: https://blog.asyncx.top
+    - name: Binjoo | 冰剑
+      url: https://digu.plus
+    - name: Ethan
+      url: https://ethan-phu.github.io
+    - name: Andy | 烧麦
+      url: https://4311346.com
+    - name: XiaoZongLin | 肖宗林
+      url: https://www.xiaozonglin.cn
+    - name: villivateur | 冯锦瑾
+      url: https://blog.vvzero.com
+    - name: Dnevend |小学后生
+      url: http://dnevend.site
+    - name: Lixueduan | 李学端
+      url: https://www.lixueduan.com
+    - name: SHT | 开源之心
+      url: http://sht2019.cn
+    - name: TXY | 谭新宇
+      url: https://tanxinyu.work
+    - name: Bytecho | 字节星球
+      url: https://www.bytecho.net
+    - name: Lenciel
+      url: https://lenciel.com
+    - name: Ysicing | 缘生
+      url: https://ysicing.me
+    - name: Weirane
+      url: https://weirane.github.io
+    - name: wanghanyue | 寒星皓月
+      url: https://www.wanghanyue.com
+    - name: HouJoe
+      url: https://houjoe.me
+    - name: Weizhou | 维舟
+      url: https://weizhou.substack.com
+    - name: Phoenix Rain | 林汇平
+      url: https://blog.lhp-pku.top
+    - name: Weberson | 卫博生
+      url: https://www.webersongao.com
+    - name: Jerry Wong
+      url: https://crazywong.com
+    - name: MrHe | 老何
+      url: https://www.mrhe.net
+    - name: Kaffa
+      url: https://kaffa.im
+    - name: Frytea | 宋天伦
+      url: https://frytea.com
+    - name: Jack | 阿杰
+      url: https://veryjack.com
+    - name: uptoz | 小小
+      url: https://blog.uptoz.cn
+    - name: Sinyalee | 李新野
+      url: https://sinyalee.com/blog
+    - name: Gamea | 飘逝的风
+      url: https://gameapp.club
+    - name: bestcherish | 灰常记忆
+      url: https://bestcherish.com
+    - name: Qborfy
+      url: https://qborfy.com
+    - name: loikein | 浣心
+      url: https://blog.loikein.one
+    - name: linlinxing
+      url: https://linlinxing.com
+    - name: Nekonull | 卢之睿
+      url: https://nekonull.me
+    - name: TCXX | 甜欣屋
+      url: https://www.tcxx.info
+    - name: Meituan Tech | 美团技术团队
+      url: https://tech.meituan.com
+    - name: M-x Chris
+      url: https://chriszheng.science
+    - name: Wind | 风清云淡
+      url: https://wind.ink
+    - name: Banxian | 王半仙
+      url: https://banxian-w.com
+    - name: Kuact | 生活不在别处
+      url: https://www.kuact.com
+    - name: EV的投资笔记
+      url: https://invest.einverne.info
+    - name: Cali | 郭晓楠
+      url: https://cali.so
+    - name: Re Memory
+      url: https://flandre-scarlet.moe/blog
+    - name: iLiu | 老刘
+      url: https://iliu.org
+    - name: LiHan | 李寒
+      url: https://lihan3238.github.io
+    - name: ScarSu | 酥鱼
+      url: https://www.scarsu.com
+    - name: TaoShu | 涛叔
+      url: https://taoshu.in
+    - name: Wang Fenjin
+      url: https://www.wangfenjin.com
+    - name: Sherry | 燕渡寒潭
+      url: https://hisherry.com
+    - name: Feng
+      url: https://057000.xyz
+    - name: CheapY | 平替生活
+      url: https://cheapy.top
+    - name: Luffy | 蒙奇
+      url: http://luffy.cc
+    - name: YuHang | 陈昱行
+      url: https://yuhang.ch
+    - name: Shaun
+      url: https://cniter.github.io
+    - name: Jarod Zhang
+      url: https://jarodise.com
+    - name: Sliun | 理论派
+      url: https://sliun.com
+    - name: awumiao | 啊呜喵
+      url: https://blog.awumiao.org
+    - name: oceanum | 海边的木子
+      url: https://blog.oceanum.top
+    - name: Dailyio
+      url: https://iois.me
+    - name: numb | 双绞麻痹
+      url: https://numb.tech
+    - name: Bob Jiang | 姜信宝
+      url: https://www.bobjiang.com
+    - name: Chaofa Yuan
+      url: https://yuanchaofa.com
+    - name: Tracy | 小翠
+      url: https://tracyxc.com
+    - name: Ripple
+      url: https://hiripple.com
+    - name: GuoZH | 老郭种树
+      url: https://guozh.net
+    - name: Eltrac | 赵航
+      url: https://guhub.cn
+    - name: Jason Lee
+      url: https://blog.jasonleehere.com
+    - name: liudon | 流动
+      url: https://liudon.com
+    - name: wogong
+      url: https://wogong.net
+    - name: Mumulhl
+      url: https://mumulhl.eu.org
+    - name: Runye | 算法花园
+      url: https://blog.xiang578.com
+    - name: ZoDream
+      url: https://zodream.cn
+    - name: dai.ge | 阿呆
+      url: https://dai.ge
+    - name: morsoli | 莫尔索
+      url: https://liduos.com
+    - name: booop
+      url: https://booop.net
+    - name: wygx | 乌云盖雪
+      url: https://wygxmew.github.io
+    - name: liuziting
+      url: https://jingle.bio/liuziting
+    - name: JimmyLv | 吕靖
+      url: https://blog.jimmylv.info
+    - name: Spring Wood | 沉舟侧畔
+      url: https://springwood.me
+    - name: Liu Song
+      url: https://blog.lsong.org
+    - name: CC | 云谦
+      url: https://sorrycc.com
+    - name: ZhouGe | 忆往事
+      url: https://zhou.ge
+    - name: bxaw | 白熊阿丸
+      url: https://blog.bxaw.name
+    - name: Nanako
+      url: https://write.stelpolva.moe/nanako/feed
+    - name: Ziying Zheng
+      url: http://zhengziying.com
+    - name: Mag2677
+      url: https://mag267.github.io
+    - name: xiaowuleyi | 小吴乐意
+      url: https://www.xiaowuleyi.com
+    - name: Colin Zhang
+      url: https://blog.oyyko.com
+    - name: ZexWoo | 浴沂咏归
+      url: https://zexwoo.blog
+    - name: Yitao Li | 李一桃
+      url: https://yitaoli2023.github.io/yitaoli
+    - name: JUST FUN | 只是玩玩
+      url: https://1900.live
+    - name: Daily Productivity Sharing
+      url: https://letters.acacess.com/rss
+    - name: baiwulin | 白雾林
+      url: https://www.baiwulin.com
+    - name: p0werdown | 很少明白
+      url: https://p0werdown.com
+    - name: Frank
+      url: https://nyan.im
+    - name: mmbkz | 火喵
+      url: https://www.mmbkz.cn
+    - name: XingPing | 邢平
+      url: https://xingpingcn.top
+    - name: 清水 - 晨曦
+      url: https://watersfree.github.io
+    - name: Grey Li | 李辉
+      url: https://greyli.com
+    - name: Penbox
+      url: https://pen.box/zh
+    - name: MuteG ｜ 高云鹏
+      url: https://blog.mute-g.com
+    - name: smilejay | 笑遍世界
+      url: http://smilejay.cn
+    - name: changshiban | 唱诗班
+      url: https://changshiban.com
+    - name: axiaoxin | 阿小信
+      url: https://blog.axiaoxin.com
+    - name: ChaCat | 查猫
+      url: https://www.chawfoo.com
+    - name: Cao Yihan | 曹艺瀚
+      url: https://www.caoyihan.com
+    - name: super456 | 纵倾
+      url: https://super456.github.io
+    - name: Gorpeln Chen
+      url: https://gorpeln.top
+    - name: BaiCai | 白菜
+      url: https://blog.baicai.me
+    - name: Will | 台湾保哥
+      url: https://blog.miniasp.com
+    - name: WWY | 千千
+      url: https://wwyqianqian.github.io
+    - name: Chenshaowen | 陈少文
+      url: https://www.chenshaowen.com
+    - name: Viking | 张轩
+      url: https://vikingz.me
+    - name: KaiKaiLiu | 刘金凯
+      url: https://liujinkai.com
+    - name: linnana | 不二木子
+      url: https://www.linnana.me
+    - name: Wincer
+      url: https://blog.itswincer.com
+    - name: eallion | 蜗牛
+      url: https://eallion.com
+    - name: ChiCheng | 池骋
+      url: https://www.chicheng.run
+    - name: ipfans
+      url: https://www.4async.com
+    - name: zzbd
+      url: https://blog.zzbd.org
+    - name: txr | 陶小桃
+      url: https://www.52txr.cn
+    - name: Wannz | 王字
+      url: https://hiwannz.com
+    - name: SunGuoQi | 孙国旗
+      url: https://blog.sunguoqi.com
+    - name: Bojie Li | 李博杰
+      url: https://01.me
+    - name: 富裕者联盟
+      url: https://www.fuyuzhe.com
+    - name: 明天的乌云
+      url: https://blog.xlab.app
+    - name: JiTao | 姬涛
+      url: https://www.jitao.tech
+    - name: Raye Peng
+      url: https://rayepeng.net
+    - name: Glan
+      url: https://imglan.com
+    - name: PIM Geek
+      url: https://hintsnet.com
+    - name: SkyAo | 敖天羽
+      url: https://xsky.me
+    - name: S5S5 | 米随随
+      url: https://s5s5.me
+    - name: DanielJia
+      url: https://danieljia.com
+    - name: Jacky Wong
+      url: https://jw1.dev
+    - name: Qute
+      url: https://blog.wfso.cn
+    - name: kok
+      url: https://wocai.de
+    - name: Ceynri | 山风
+      url: https://ceynri.cn
+    - name: anheyu | 安知鱼
+      url: https://blog.anheyu.com
+    - name: Wenzi | 蚊子
+      url: https://www.xiabingbao.com
+    - name: LiuShen | 清羽飞扬
+      url: https://blog.liushen.fun
+    - name: Frost
+      url: https://frost-lee.github.io
+    - name: Yuanfan | 袁凡
+      url: https://yuanfan.rbind.io
+    - name: Kerminate
+      url: https://kerminate.me
+    - name: chapu | 柃夏
+      url: https://www.lxchapu.com
+    - name: Vicalloy | 天地一沙鸥
+      url: https://haoluobo.com
+    - name: Alex Tian
+      url: https://xblog.io
+    - name: HerBlue | 她的蓝
+      url: https://her.blue
+    - name: Teobler
+      url: https://teobler.com
+    - name: Hongtao | 郝鸿涛
+      url: https://hongtaoh.com/cn/blog
+    - name: Pan93
+      url: https://blog.pan93.com
+    - name: Hong
+      url: https://ciceroxiao.github.io/hong525
+    - name: EvenNotes | 逸文笔记
+      url: https://www.evennotes.cn
+    - name: GiGiGatGat | 嘰嘰乞乞
+      url: https://www.gigigatgat.ca
+    - name: Savouer | 夜未央
+      url: https://www.savouer.com
+    - name: FlyAsia
+      url: https://www.flyasia.co
+    - name: Jun | 章俊
+      url: https://www.junz.org
+    - name: WWJ | 夜行人
+      url: https://wwj718.github.io
+    - name: Chad Cheng
+      url: https://www.zhengchao.dev
+    - name: xiayf | 夏永锋
+      url: http://blog.xiayf.cn
+    - name: EE Archeology 电子考古学
+      url: http://7400.me
+    - name: zsx | 西行妖
+      url: https://my.toho.red
+    - name: Liuyang | 天行者YANG
+      url: https://www.skywalkerai.com
+    - name: MikeoPerfect
+      url: https://blog.mikeoperfect.com
+    - name: JavaTang | 爪哇堂
+      url: https://www.javatang.com
+    - name: Mebtte
+      url: https://mebtte.com
+    - name: Jser | 草依山
+      url: https://jser.me
+    - name: uuanqin | 吴万钦
+      url: https://uuanqin.top
+    - name: Aimer Neige
+      url: https://aimerneige.com/zh
+    - name: Jörmungandr
+      url: https://jormungandr.hashnode.dev
+    - name: Lanka | 蓝卡
+      url: https://www.lanka.cn
+    - name: 十年之约
+      url: https://www.foreverblog.cn
+    - name: Peiluming | 裴路明
+      url: https://blog.peiluming.com
+    - name: smj | 三文
+      url: https://smj.im
+    - name: Leolin | 拾风
+      url: https://www.leolin86.com
+    - name: ChenRui | 陈锐
+      url: https://www.chenrui.com
+    - name: Jiayi Liu | 刘嘉奕
+      url: https://jiayiliu.me
+    - name: Sophia | 火焰洞窟
+      url: https://sophiatazar.com
+    - name: Moonlight | 月夜
+      url: https://moonlt.site
+    - name: Zhenjia Zhou
+      url: https://lifeodyssey.github.io
+    - name: Lazypanda | 子来园
+      url: https://simplecoding.fun
+    - name: 小熊猫站起来
+      url: https://kumacat.pages.dev
+    - name: CoderBusy | 码农很忙
+      url: https://www.coderbusy.com
+    - name: Luozx
+      url: https://luozx.org
+    - name: 有用经验
+      url: https://yyjingyan.com
+    - name: Zhilu | 纸鹿
+      url: https://blog.zhilu.cyou
+    - name: emuia | 弋牧
+      url: https://emuia.com
+    - name: myhugg | 丹作百年
+      url: https://playet.cn
+    - name: f2h2h1
+      url: https://f2h2h1.github.io
+    - name: XiangyunHuang | 黄湘云
+      url: https://xiangyun.rbind.io
+    - name: Lijigang | 李继刚
+      url: https://www.lijigang.com
+    - name: lhasa | 游钓四方
+      url: https://lhasa.icu
+    - name: Kaijian Ye | 叶开楗
+      url: https://qq.md
+    - name: Tevin Zhang | 张天文
+      url: https://tevinzhang.com
+    - name: ZhangYingWei | 胡说
+      url: https://blog.zhangyingwei.com
+    - name: SatyrLee | 俟河清
+      url: https://naive514.top
+    - name: ZhengZiying | 郑子颖
+      url: https://zhengziying.com
+    - name: XuegaoGG | 雪糕
+      url: https://blog.xuegaogg.com
+    - name: JiaoYuan
+      url: https://yuanj.top
+    - name: YangK | 云无心
+      url: https://yangk.net/blog
+    - name: Sleeping Cat
+      url: https://sleepingcat.me
+    - name: Emmy | 小触手
+      url: https://heiheihei.ca
+    - name: Akimio | 秋澪
+      url: https://blog.akimio.top
+    - name: Damon | 韩宇
+      url: https://blog.hanyu.me
+    - name: No Coding Life
+      url: https://nocoding.life

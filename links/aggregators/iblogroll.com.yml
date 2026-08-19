@@ -1,0 +1,540 @@
+# ── 数据源（用于更新 friends）────────────────
+# 站点: IBLOGROLL https://iblogroll.com/
+# 类型: 静态HTML（SSR，无 API）
+# 地址: 首页 https://iblogroll.com/ 侧栏 .blog-cloud 列出全部博客（约180个）
+#       真实 URL 需逐个访问详情页 https://iblogroll.com/blog/<id>.html 中的"访问博客"链接
+# 方法: 抓首页提取 blog/<id>.html → 逐个抓详情页解析 h1(名称)/p(描述)/访问博客链接
+# 抓取时间: 2026-08-18 | 条目: 179
+# ─────────────────────────────────────────
+
+site:
+  name: IBLOGROLL
+  url: https://iblogroll.com/
+  description: 博客聚合与收录平台
+  links: /links
+  friends:
+    - name: 1900的灯泡店
+      url: https://1900.live/
+      description: 持续记录，分享成长。这里汇集了 47 篇文章，涵盖技术、生活与思考。
+    - name: Andy烧麦
+      url: https://4311346.com/
+      description: 持续记录，分享成长。这里汇集了 32 篇文章，涵盖技术、生活与思考。
+    - name: Ah新的生活小札
+      url: https://blog.ahxin.cn
+      description: 持续记录，分享成长。这里汇集了 23 篇文章，涵盖技术、生活与思考。
+    - name: Another Dayu
+      url: https://anotherdayu.com
+      description: 持续记录，分享成长。这里汇集了 52 篇文章，涵盖技术、生活与思考。
+    - name: Blog | Phodal - A Growth Engineer
+      url: http://www.phodal.com/blog/
+      description: 持续记录，分享成长。这里汇集了 25 篇文章，涵盖技术、生活与思考。
+    - name: 4G Spaces
+      url: http://blog.youxu.info
+      description: 持续记录，分享成长。这里汇集了 10 篇文章，涵盖技术、生活与思考。
+    - name: atpX
+      url: https://atpx.com/
+      description: 持续记录，分享成长。这里汇集了 11 篇文章，涵盖技术、生活与思考。
+    - name: Counting Stars💫
+      url: https://hux.ink/
+      description: 持续记录，分享成长。这里汇集了 183 篇文章，涵盖技术、生活与思考。
+    - name: Dabenshi Blog
+      url: https://dabenshi.cn/
+      description: 持续记录，分享成长。这里汇集了 10 篇文章，涵盖技术、生活与思考。
+    - name: fuXes的浮生闲话
+      url: https://fuxes.cn
+      description: 持续记录，分享成长。这里汇集了 22 篇文章，涵盖技术、生活与思考。
+    - name: Fatesinger
+      url: https://fatesinger.com
+      description: 持续记录，分享成长。这里汇集了 10 篇文章，涵盖技术、生活与思考。
+    - name: Gojira 哥斯拉
+      url: http://gojira.net/
+      description: 持续记录，分享成长。这里汇集了 10 篇文章，涵盖技术、生活与思考。
+    - name: Home on Elizen
+      url: https://elizen.me/
+      description: 持续记录，分享成长。这里汇集了 225 篇文章，涵盖技术、生活与思考。
+    - name: Jeffer.Z
+      url: https://www.jeffer.xyz
+      description: 持续记录，分享成长。这里汇集了 14 篇文章，涵盖技术、生活与思考。
+    - name: Jack&#x27;s Space
+      url: https://veryjack.com/
+      description: 持续记录，分享成长。这里汇集了 23 篇文章，涵盖技术、生活与思考。
+    - name: JiaoYuan&#x27;s blog
+      url: https://jiaoyuan.org/
+      description: 持续记录，分享成长。这里汇集了 139 篇文章，涵盖技术、生活与思考。
+    - name: JustGoIdea
+      url: https://justgoidea.com/
+      description: 持续记录，分享成长。这里汇集了 24 篇文章，涵盖技术、生活与思考。
+    - name: Justin写Plogs的地方
+      url: https://plogs.top/
+      description: 持续记录，分享成长。这里汇集了 10 篇文章，涵盖技术、生活与思考。
+    - name: Keyle&#x27;s Blog
+      url: https://vrast.cn/
+      description: 持续记录，分享成长。这里汇集了 32 篇文章，涵盖技术、生活与思考。
+    - name: Limboy&#x27;s Essays
+      url: https://limboy.me/
+      description: 持续记录，分享成长。这里汇集了 26 篇文章，涵盖技术、生活与思考。
+    - name: LMS
+      url: https://lms.im/
+      description: 持续记录，分享成长。这里汇集了 15 篇文章，涵盖技术、生活与思考。
+    - name: Moatkon&#x27;s Blog
+      url: https://blog.moatkon.com/
+      description: 持续记录，分享成长。这里汇集了 69 篇文章，涵盖技术、生活与思考。
+    - name: Ouroboros
+      url: https://blog.pursuitus.com/
+      description: 持续记录，分享成长。这里汇集了 19 篇文章，涵盖技术、生活与思考。
+    - name: pseudoyu
+      url: https://www.pseudoyu.com/
+      description: 持续记录，分享成长。这里汇集了 149 篇文章，涵盖技术、生活与思考。
+    - name: MoraEX
+      url: https://moraex.com
+      description: 持续记录，分享成长。这里汇集了 11 篇文章，涵盖技术、生活与思考。
+    - name: Shuibaco • 水八口
+      url: http://shuiba.co/
+      description: 持续记录，分享成长。这里汇集了 65 篇文章，涵盖技术、生活与思考。
+    - name: obaby 𝐢‍𝐧⃝ void
+      url: https://zhongxiaojie.cn/
+      description: 持续记录，分享成长。这里汇集了 73 篇文章，涵盖技术、生活与思考。
+    - name: COST ✕ JUNYAO
+      url: https://laomuzhu.cn/
+      description: 持续记录，分享成长。这里汇集了 10 篇文章，涵盖技术、生活与思考。
+    - name: So!azy
+      url: https://blog.solazy.me/
+      description: 持续记录，分享成长。这里汇集了 184 篇文章，涵盖技术、生活与思考。
+    - name: To the Lighthouse
+      url: https://owlswims.com/
+      description: 持续记录，分享成长。这里汇集了 10 篇文章，涵盖技术、生活与思考。
+    - name: winegrower | 种葡萄并酿酒的人
+      url: https://www.winegrower.cn/
+      description: 持续记录，分享成长。这里汇集了 26 篇文章，涵盖技术、生活与思考。
+    - name: YUNYI BLOG
+      url: https://yunyitang.me/
+      description: 持续记录，分享成长。这里汇集了 18 篇文章，涵盖技术、生活与思考。
+    - name: ZWWoOoOo
+      url: https://zww.me
+      description: 持续记录，分享成长。这里汇集了 19 篇文章，涵盖技术、生活与思考。
+    - name: 一介大叔
+      url: https://blog.tingyuyaji.com
+      description: 持续记录，分享成长。这里汇集了 10 篇文章，涵盖技术、生活与思考。
+    - name: YeungYeah&#x27;s Context
+      url: https://scottyeung.top/
+      description: 持续记录，分享成长。这里汇集了 17 篇文章，涵盖技术、生活与思考。
+    - name: 一派胡言
+      url: https://yipai.me
+      description: 持续记录，分享成长。这里汇集了 24 篇文章，涵盖技术、生活与思考。
+    - name: zzxworld
+      url: https://www.zzxworld.com
+      description: 持续记录，分享成长。这里汇集了 27 篇文章，涵盖技术、生活与思考。
+    - name: 七月的栀子
+      url: https://blog.qydzz.cn/
+      description: 持续记录，分享成长。这里汇集了 14 篇文章，涵盖技术、生活与思考。
+    - name: 三无青年
+      url: https://www.duanxiansen.com
+      description: 持续记录，分享成长。这里汇集了 12 篇文章，涵盖技术、生活与思考。
+    - name: 三輪
+      url: http://sanlun.bike/
+      description: 持续记录，分享成长。这里汇集了 15 篇文章，涵盖技术、生活与思考。
+    - name: 不可
+      url: https://www.chenrui.com/
+      description: 持续记录，分享成长。这里汇集了 28 篇文章，涵盖技术、生活与思考。
+    - name: 且听书吟
+      url: https://yufan.me/
+      description: 持续记录，分享成长。这里汇集了 31 篇文章，涵盖技术、生活与思考。
+    - name: 东评西就
+      url: https://dongjunke.cn/
+      description: 持续记录，分享成长。这里汇集了 31 篇文章，涵盖技术、生活与思考。
+    - name: 云风的 BLOG
+      url: https://blog.codingnow.com/
+      description: 持续记录，分享成长。这里汇集了 19 篇文章，涵盖技术、生活与思考。
+    - name: 云心怀鹤
+      url: https://bluehe.cn/
+      description: 持续记录，分享成长。这里汇集了 22 篇文章，涵盖技术、生活与思考。
+    - name: 人道观
+      url: https://zhuo.re
+      description: 持续记录，分享成长。这里汇集了 31 篇文章，涵盖技术、生活与思考。
+    - name: 仲平
+      url: https://blog.zopiya.com/
+      description: 持续记录，分享成长。这里汇集了 10 篇文章，涵盖技术、生活与思考。
+    - name: 伏枥之间
+      url: https://leehenry.top/
+      description: 持续记录，分享成长。这里汇集了 47 篇文章，涵盖技术、生活与思考。
+    - name: 伪医生律师的博客
+      url: https://chidd.net
+      description: 持续记录，分享成长。这里汇集了 21 篇文章，涵盖技术、生活与思考。
+    - name: 关关和六六 &#x27; blog
+      url: https://www.gmcllp.cn/
+      description: 持续记录，分享成长。这里汇集了 12 篇文章，涵盖技术、生活与思考。
+    - name: 刘郎阁
+      url: https://vjo.cc/
+      description: 持续记录，分享成长。这里汇集了 16 篇文章，涵盖技术、生活与思考。
+    - name: 卢昌海个人主页
+      url: http://www.changhai.org
+      description: 持续记录，分享成长。这里汇集了 32 篇文章，涵盖技术、生活与思考。
+    - name: 叶小明的博客
+      url: https://vimin.cc/
+      description: 持续记录，分享成长。这里汇集了 10 篇文章，涵盖技术、生活与思考。
+    - name: 优世界
+      url: https://usj.cc
+      description: 持续记录，分享成长。这里汇集了 162 篇文章，涵盖技术、生活与思考。
+    - name: 品味苏州
+      url: https://pwsz.com
+      description: 持续记录，分享成长。这里汇集了 41 篇文章，涵盖技术、生活与思考。
+    - name: 唐巧的博客
+      url: https://blog.devtang.com/
+      description: 持续记录，分享成长。这里汇集了 26 篇文章，涵盖技术、生活与思考。
+    - name: 嘀咕
+      url: https://digu.plus/
+      description: 持续记录，分享成长。这里汇集了 10 篇文章，涵盖技术、生活与思考。
+    - name: 土木坛子
+      url: https://tumutanzi.com
+      description: 持续记录，分享成长。这里汇集了 20 篇文章，涵盖技术、生活与思考。
+    - name: 大雄日记
+      url: https://199508.com
+      description: 持续记录，分享成长。这里汇集了 21 篇文章，涵盖技术、生活与思考。
+    - name: 好事发生
+      url: https://blog.hanyu.me/
+      description: 持续记录，分享成长。这里汇集了 14 篇文章，涵盖技术、生活与思考。
+    - name: 天一生水
+      url: https://www.jiangyu.org/
+      description: 持续记录，分享成长。这里汇集了 20 篇文章，涵盖技术、生活与思考。
+    - name: 如品之茗
+      url: https://blog.rpzm.com
+      description: 持续记录，分享成长。这里汇集了 50 篇文章，涵盖技术、生活与思考。
+    - name: 姓王者的博客
+      url: https://xingwangzhe.fun/
+      description: 持续记录，分享成长。这里汇集了 453 篇文章，涵盖技术、生活与思考。
+    - name: 威言威语
+      url: https://www.weisay.com/blog
+      description: 持续记录，分享成长。这里汇集了 21 篇文章，涵盖技术、生活与思考。
+    - name: 子夜松声
+      url: https://xyzbz.cn/
+      description: 持续记录，分享成长。这里汇集了 28 篇文章，涵盖技术、生活与思考。
+    - name: 子舒的博客
+      url: https://zishu.me/
+      description: 持续记录，分享成长。这里汇集了 321 篇文章，涵盖技术、生活与思考。
+    - name: 孤斗
+      url: https://d-d.design
+      description: 持续记录，分享成长。这里汇集了 57 篇文章，涵盖技术、生活与思考。
+    - name: 安静角落
+      url: https://wuziya.com/
+      description: 持续记录，分享成长。这里汇集了 13 篇文章，涵盖技术、生活与思考。
+    - name: 小王子
+      url: https://www.wanghao.me
+      description: 持续记录，分享成长。这里汇集了 35 篇文章，涵盖技术、生活与思考。
+    - name: 宗宗酱-（David编程老师）
+      url: https://ygz.ink
+      description: 持续记录，分享成长。这里汇集了 165 篇文章，涵盖技术、生活与思考。
+    - name: 小十的个人博客
+      url: https://www.xiaoten.com/
+      description: 持续记录，分享成长。这里汇集了 384 篇文章，涵盖技术、生活与思考。
+    - name: 小猪的窝
+      url: https://ezo.biz/
+      description: 持续记录，分享成长。这里汇集了 37 篇文章，涵盖技术、生活与思考。
+    - name: 小陈故事
+      url: https://www.chener.net/
+      description: 持续记录，分享成长。这里汇集了 19 篇文章，涵盖技术、生活与思考。
+    - name: 崔话记
+      url: https://cuixiping.com/blog/
+      description: 持续记录，分享成长。这里汇集了 54 篇文章，涵盖技术、生活与思考。
+    - name: 尺宅杂记
+      url: http://www.qncd.com
+      description: 持续记录，分享成长。这里汇集了 122 篇文章，涵盖技术、生活与思考。
+    - name: 张洪Heo
+      url: https://blog.zhheo.com/
+      description: 持续记录，分享成长。这里汇集了 80 篇文章，涵盖技术、生活与思考。
+    - name: 当下
+      url: http://blog.fueis.com/
+      description: 持续记录，分享成长。这里汇集了 10 篇文章，涵盖技术、生活与思考。
+    - name: 忘记了回忆
+      url: https://www.ltmltm.cn/bk/
+      description: 持续记录，分享成长。这里汇集了 40 篇文章，涵盖技术、生活与思考。
+    - name: 悠见YUFM
+      url: https://yufm.com
+      description: 持续记录，分享成长。这里汇集了 11 篇文章，涵盖技术、生活与思考。
+    - name: 心的道理
+      url: https://stephenleng.com/cn
+      description: 持续记录，分享成长。这里汇集了 33 篇文章，涵盖技术、生活与思考。
+    - name: 忆往事
+      url: https://zhou.ge/
+      description: 持续记录，分享成长。这里汇集了 21 篇文章，涵盖技术、生活与思考。
+    - name: 徐建伟
+      url: http://www.xulog.cn/
+      description: 持续记录，分享成长。这里汇集了 106 篇文章，涵盖技术、生活与思考。
+    - name: 愆伏
+      url: https://www.tortorse.com/
+      description: 持续记录，分享成长。这里汇集了 541 篇文章，涵盖技术、生活与思考。
+    - name: 我们叁
+      url: https://ihaihe.cn
+      description: 持续记录，分享成长。这里汇集了 117 篇文章，涵盖技术、生活与思考。
+    - name: 我的日志
+      url: https://ilogs.cn/
+      description: 持续记录，分享成长。这里汇集了 66 篇文章，涵盖技术、生活与思考。
+    - name: 拾光志
+      url: https://www.shiguang.xyz/
+      description: 持续记录，分享成长。这里汇集了 166 篇文章，涵盖技术、生活与思考。
+    - name: 挨踢路
+      url: https://itlu.net/
+      description: 持续记录，分享成长。这里汇集了 16 篇文章，涵盖技术、生活与思考。
+    - name: 拾风草堂
+      url: https://www.leolin86.com
+      description: 持续记录，分享成长。这里汇集了 40 篇文章，涵盖技术、生活与思考。
+    - name: 故事的程序猿
+      url: https://blog.lichenghao.cn/article
+      description: 持续记录，分享成长。这里汇集了 44 篇文章，涵盖技术、生活与思考。
+    - name: 拾月
+      url: https://www.skyue.com/
+      description: 持续记录，分享成长。这里汇集了 38 篇文章，涵盖技术、生活与思考。
+    - name: 旅行漫记
+      url: https://synyan.cn
+      description: 持续记录，分享成长。这里汇集了 57 篇文章，涵盖技术、生活与思考。
+    - name: 无名博客
+      url: https://wuminboke.site
+      description: 持续记录，分享成长。这里汇集了 22 篇文章，涵盖技术、生活与思考。
+    - name: 方糖博客
+      url: https://cms.fangtang.net/
+      description: 持续记录，分享成长。这里汇集了 1000 篇文章，涵盖技术、生活与思考。
+    - name: 昭君网志
+      url: https://www.luzhaojun.com
+      description: 持续记录，分享成长。这里汇集了 15 篇文章，涵盖技术、生活与思考。
+    - name: 暖心向阳335
+      url: https://nxxy335.top
+      description: 持续记录，分享成长。这里汇集了 55 篇文章，涵盖技术、生活与思考。
+    - name: 木木木木木
+      url: https://immmmm.com/
+      description: 持续记录，分享成长。这里汇集了 5 篇文章，涵盖技术、生活与思考。
+    - name: 杜老师说
+      url: https://dusays.com/
+      description: 持续记录，分享成长。这里汇集了 49 篇文章，涵盖技术、生活与思考。
+    - name: 朱小呆
+      url: https://zhujay.com
+      description: 持续记录，分享成长。这里汇集了 72 篇文章，涵盖技术、生活与思考。
+    - name: 松易涅的写作分享站
+      url: https://www.sungyinieh.com
+      description: 持续记录，分享成长。这里汇集了 36 篇文章，涵盖技术、生活与思考。
+    - name: 松烟阁
+      url: https://www.edony.ink
+      description: 持续记录，分享成长。这里汇集了 24 篇文章，涵盖技术、生活与思考。
+    - name: 林海草原
+      url: https://lhcy.org
+      description: 持续记录，分享成长。这里汇集了 14 篇文章，涵盖技术、生活与思考。
+    - name: 枫言枫语
+      url: https://justinyan.me
+      description: 持续记录，分享成长。这里汇集了 14 篇文章，涵盖技术、生活与思考。
+    - name: 森月台
+      url: https://moriform.com
+      description: 持续记录，分享成长。这里汇集了 12 篇文章，涵盖技术、生活与思考。
+    - name: 林羽凡博客
+      url: https://www.linyufan.com
+      description: 持续记录，分享成长。这里汇集了 117 篇文章，涵盖技术、生活与思考。
+    - name: 查令十字街 84 号
+      url: https://www.javis.me/
+      description: 持续记录，分享成长。这里汇集了 17 篇文章，涵盖技术、生活与思考。
+    - name: 森木志
+      url: https://oxxx.cn/
+      description: 持续记录，分享成长。这里汇集了 19 篇文章，涵盖技术、生活与思考。
+    - name: 極客死亡計劃
+      url: https://www.geedea.pro/
+      description: 持续记录，分享成长。这里汇集了 93 篇文章，涵盖技术、生活与思考。
+    - name: 楼船 𝑰𝑵𝑲𝑭𝑳𝑨𝑲𝑬
+      url: https://fravilion.top/
+      description: 持续记录，分享成长。这里汇集了 34 篇文章，涵盖技术、生活与思考。
+    - name: 槽边往事
+      url: https://www.hecaitou.com/
+      description: 持续记录，分享成长。这里汇集了 71 篇文章，涵盖技术、生活与思考。
+    - name: 水拍石
+      url: https://www.leitao.cn
+      description: 持续记录，分享成长。这里汇集了 71 篇文章，涵盖技术、生活与思考。
+    - name: 流情的博客
+      url: https://liuqingwushui.top/
+      description: 持续记录，分享成长。这里汇集了 58 篇文章，涵盖技术、生活与思考。
+    - name: 涵有闲
+      url: https://hyx.ink/
+      description: 持续记录，分享成长。这里汇集了 58 篇文章，涵盖技术、生活与思考。
+    - name: 满心博客
+      url: https://zhoutian.com/
+      description: 持续记录，分享成长。这里汇集了 35 篇文章，涵盖技术、生活与思考。
+    - name: 流浪天下
+      url: https://mecll.com
+      description: 持续记录，分享成长。这里汇集了 13 篇文章，涵盖技术、生活与思考。
+    - name: 游钓四方
+      url: https://blog.lhasa.icu
+      description: 持续记录，分享成长。这里汇集了 269 篇文章，涵盖技术、生活与思考。
+    - name: 漫漫长路。
+      url: https://mmcl.net/
+      description: 持续记录，分享成长。这里汇集了 11 篇文章，涵盖技术、生活与思考。
+    - name: 爱娃子
+      url: https://www.aiwazi.com
+      description: 持续记录，分享成长。这里汇集了 76 篇文章，涵盖技术、生活与思考。
+    - name: 爱情在线 博客
+      url: https://aqzx.com
+      description: 持续记录，分享成长。这里汇集了 25 篇文章，涵盖技术、生活与思考。
+    - name: 灰常记忆
+      url: https://bestcherish.com
+      description: 持续记录，分享成长。这里汇集了 15 篇文章，涵盖技术、生活与思考。
+    - name: 特立独行的异类
+      url: https://demochen.com/
+      description: 持续记录，分享成长。这里汇集了 12 篇文章，涵盖技术、生活与思考。
+    - name: 猪哥杂记
+      url: https://blog.dazhu1988.com/
+      description: 持续记录，分享成长。这里汇集了 10 篇文章，涵盖技术、生活与思考。
+    - name: 狡猫三窝
+      url: https://slykiten.com
+      description: 持续记录，分享成长。这里汇集了 17 篇文章，涵盖技术、生活与思考。
+    - name: 王如飞 Blog
+      url: https://wangrufei.com/
+      description: 持续记录，分享成长。这里汇集了 10 篇文章，涵盖技术、生活与思考。
+    - name: 王志勇-和平海底
+      url: http://www.auiou.com
+      description: 持续记录，分享成长。这里汇集了 54 篇文章，涵盖技术、生活与思考。
+    - name: 登山亦有道
+      url: https://chenyan98.cn
+      description: 持续记录，分享成长。这里汇集了 12 篇文章，涵盖技术、生活与思考。
+    - name: 瓦匠不舟
+      url: https://airy.ink
+      description: 持续记录，分享成长。这里汇集了 44 篇文章，涵盖技术、生活与思考。
+    - name: 白宦成
+      url: https://www.ixiqin.com
+      description: 持续记录，分享成长。这里汇集了 31 篇文章，涵盖技术、生活与思考。
+    - name: 理论派
+      url: https://sliun.com/
+      description: 持续记录，分享成长。这里汇集了 33 篇文章，涵盖技术、生活与思考。
+    - name: 白熊阿丸的小屋
+      url: https://blog.bxaw.name/
+      description: 持续记录，分享成长。这里汇集了 22 篇文章，涵盖技术、生活与思考。
+    - name: 皇家元林
+      url: https://hjyl.org
+      description: 持续记录，分享成长。这里汇集了 30 篇文章，涵盖技术、生活与思考。
+    - name: 目的地-Destination
+      url: https://chrison.cn/
+      description: 持续记录，分享成长。这里汇集了 54 篇文章，涵盖技术、生活与思考。
+    - name: 破袜子
+      url: https://pewae.com
+      description: 持续记录，分享成长。这里汇集了 30 篇文章，涵盖技术、生活与思考。
+    - name: 码农明明桑
+      url: https://isming.me/
+      description: 持续记录，分享成长。这里汇集了 118 篇文章，涵盖技术、生活与思考。
+    - name: 碎言
+      url: https://www.suiyan.cc
+      description: 持续记录，分享成长。这里汇集了 209 篇文章，涵盖技术、生活与思考。
+    - name: 秋风于渭水
+      url: https://www.tjsky.net
+      description: 持续记录，分享成长。这里汇集了 32 篇文章，涵盖技术、生活与思考。
+    - name: 程沛权 - 养了三只猫
+      url: https://chengpeiquan.com/
+      description: 持续记录，分享成长。这里汇集了 22 篇文章，涵盖技术、生活与思考。
+    - name: 粽叶加米
+      url: https://www.wordpace.com
+      description: 持续记录，分享成长。这里汇集了 11 篇文章，涵盖技术、生活与思考。
+    - name: 竹炉山房
+      url: https://synyan.cn/t
+      description: 持续记录，分享成长。这里汇集了 33 篇文章，涵盖技术、生活与思考。
+    - name: 空白Koobai
+      url: https://koobai.com/
+      description: 持续记录，分享成长。这里汇集了 275 篇文章，涵盖技术、生活与思考。
+    - name: 罗磊的独立博客
+      url: https://luolei.org
+      description: 持续记录，分享成长。这里汇集了 10 篇文章，涵盖技术、生活与思考。
+    - name: 紫慕碎碎念
+      url: https://90zm.net/
+      description: 持续记录，分享成长。这里汇集了 47 篇文章，涵盖技术、生活与思考。
+    - name: 美樂地
+      url: https://meledee.com
+      description: 持续记录，分享成长。这里汇集了 25 篇文章，涵盖技术、生活与思考。
+    - name: 羽翼博客
+      url: https://www.886a.top/
+      description: 持续记录，分享成长。这里汇集了 14 篇文章，涵盖技术、生活与思考。
+    - name: 老张博客
+      url: https://laozhang.org
+      description: 持续记录，分享成长。这里汇集了 34 篇文章，涵盖技术、生活与思考。
+    - name: 老T博客
+      url: https://lawtee.com/
+      description: 持续记录，分享成长。这里汇集了 463 篇文章，涵盖技术、生活与思考。
+    - name: 老街里
+      url: https://laojieli.cn/
+      description: 持续记录，分享成长。这里汇集了 1 篇文章，涵盖技术、生活与思考。
+    - name: 老朝奉
+      url: https://xn--otsr53afot.com/
+      description: 持续记录，分享成长。这里汇集了 34 篇文章，涵盖技术、生活与思考。
+    - name: 老麦笔记
+      url: https://www.iamlm.com/
+      description: 持续记录，分享成长。这里汇集了 10 篇文章，涵盖技术、生活与思考。
+    - name: 老刘博客
+      url: https://iliu.org/
+      description: 持续记录，分享成长。这里汇集了 1000 篇文章，涵盖技术、生活与思考。
+    - name: 胡东东博客 - hudd.cn
+      url: https://blog.hudd.cn/
+      description: 持续记录，分享成长。这里汇集了 11 篇文章，涵盖技术、生活与思考。
+    - name: 耳朵的主人
+      url: https://www.edzbe.com
+      description: 持续记录，分享成长。这里汇集了 26 篇文章，涵盖技术、生活与思考。
+    - name: 胡拉图的后花园
+      url: https://hulatu.com/
+      description: 持续记录，分享成长。这里汇集了 275 篇文章，涵盖技术、生活与思考。
+    - name: 西城往事
+      url: https://xifeng.net
+      description: 持续记录，分享成长。这里汇集了 99 篇文章，涵盖技术、生活与思考。
+    - name: 胡涂说
+      url: https://hutusi.com
+      description: 持续记录，分享成长。这里汇集了 119 篇文章，涵盖技术、生活与思考。
+    - name: 荒野菲克
+      url: https://ficor.net
+      description: 持续记录，分享成长。这里汇集了 75 篇文章，涵盖技术、生活与思考。
+    - name: 运维咖啡吧
+      url: https://blog.ops-coffee.com/atom.xml
+      description: 持续记录，分享成长。这里汇集了 22 篇文章，涵盖技术、生活与思考。
+    - name: 莫比乌斯
+      url: https://mobius.blog/
+      description: 持续记录，分享成长。这里汇集了 190 篇文章，涵盖技术、生活与思考。
+    - name: 虹线
+      url: https://1q43.blog
+      description: 持续记录，分享成长。这里汇集了 12 篇文章，涵盖技术、生活与思考。
+    - name: 豌豆花下猫
+      url: https://pythoncat.top/
+      description: 持续记录，分享成长。这里汇集了 106 篇文章，涵盖技术、生活与思考。
+    - name: 追忆白
+      url: https://www.zhuiyibai.cn/
+      description: 持续记录，分享成长。这里汇集了 11 篇文章，涵盖技术、生活与思考。
+    - name: 郑永博客
+      url: https://xptt.com
+      description: 持续记录，分享成长。这里汇集了 12 篇文章，涵盖技术、生活与思考。
+    - name: 遐说
+      url: https://blog.cuger.cn/
+      description: 持续记录，分享成长。这里汇集了 214 篇文章，涵盖技术、生活与思考。
+    - name: 酷 壳 – CoolShell
+      url: https://coolshell.cn
+      description: 持续记录，分享成长。这里汇集了 15 篇文章，涵盖技术、生活与思考。
+    - name: 陶小桃Blog
+      url: https://www.52txr.cn/
+      description: 持续记录，分享成长。这里汇集了 16 篇文章，涵盖技术、生活与思考。
+    - name: 阿锋的小宇宙
+      url: https://blog.feng.pub
+      description: 持续记录，分享成长。这里汇集了 43 篇文章，涵盖技术、生活与思考。
+    - name: 陈仓颉
+      url: https://imzm.im
+      description: 持续记录，分享成长。这里汇集了 44 篇文章，涵盖技术、生活与思考。
+    - name: 银河系漫游指南
+      url: https://www.stylefanr.org
+      description: 持续记录，分享成长。这里汇集了 10 篇文章，涵盖技术、生活与思考。
+    - name: 雅余  ·  茶余饭后，闲情雅致
+      url: https://yayu.net
+      description: 持续记录，分享成长。这里汇集了 24 篇文章，涵盖技术、生活与思考。
+    - name: 静风说
+      url: https://www.jfsay.com
+      description: 持续记录，分享成长。这里汇集了 50 篇文章，涵盖技术、生活与思考。
+    - name: 非学·派&#x27;
+      url: https://fxpai.com
+      description: 持续记录，分享成长。这里汇集了 49 篇文章，涵盖技术、生活与思考。
+    - name: 非理勿试
+      url: https://www.ntiy.com
+      description: 持续记录，分享成长。这里汇集了 13 篇文章，涵盖技术、生活与思考。
+    - name: 鸟叔の窝
+      url: https://thornbird.org/
+      description: 持续记录，分享成长。这里汇集了 21 篇文章，涵盖技术、生活与思考。
+    - name: 静かな森
+      url: https://innei.in
+      description: 持续记录，分享成长。这里汇集了 55 篇文章，涵盖技术、生活与思考。
+    - name: 飞絮落叶雪
+      url: https://www.mrhe.net
+      description: 持续记录，分享成长。这里汇集了 54 篇文章，涵盖技术、生活与思考。
+    - name: 黄鼠狼的树洞
+      url: https://blog.weasel6.cn/
+      description: 持续记录，分享成长。这里汇集了 19 篇文章，涵盖技术、生活与思考。

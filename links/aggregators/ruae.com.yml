@@ -1,0 +1,191 @@
+# ── 数据源说明 ─────────────────────────────────────────────
+# 站点：万界书简 (ruae.com) — 博客收录平台（洞府名录）
+# 数据获取方式（2026-08-18 实测）：
+#   1. 博客目录（洞府名录）在 https://ruae.com/blogs.php（重定向到 /blogs），
+#      表格每行含 站名 + 域名 + 状态，并带「访问原站」外链 <a href="真实URL" title="访问原站">。
+#   2. 分页参数：/blogs?sort=post_count&page=N（sort 可选 post_count/clicks/newest），
+#      每页 25 条，共 88 行（含 2 条重复，实际 86 个唯一站点）。
+#   3. 页面顶部「共收录 88 处洞府」与「共 88 条」可确认总数；状态含 正常/异常 等，
+#      异常站点仍在名录中，一并收录。
+#   4. 每个博客另有详情页 https://ruae.com/blog.php?id=<id>（含描述/订阅等，非必需）。
+# 更新方式：抓取 /blogs?sort=post_count&page=1..4，提取「访问原站」外链即可。
+# ────────────────────────────────────────────────────────────
+
+site:
+  name: 万界书简
+  url: https://ruae.com/about.php
+  description: 掌中观万界，一简纳千言
+  links: /links
+  friends:
+    - name: 千灵
+      url: https://qianling.pw
+    - name: 姓王者的博客
+      url: https://xingwangzhe.fun
+    - name: Counting Stars
+      url: https://hux.ink
+    - name: Zhou’s Notes
+      url: https://www.zhounote.com
+    - name: 新锐博客
+      url: https://blog.xrbk.cn
+    - name: seisamuse
+      url: https://www.seis-jun.xyz
+    - name: AIOVTUE-雪
+      url: https://daily.yybb.us
+    - name: 我剑也未尝不利
+      url: https://tch.cool
+    - name: liseezn
+      url: https://blog.liseezn.top
+    - name: 子夜歌
+      url: https://blog.ziyege.com
+    - name: 我爱怀旧网
+      url: https://www.52huaijiu.com
+    - name: 莫比乌斯
+      url: https://mobius.blog
+    - name: 王嘉祥
+      url: https://blog.jiaxiang.wang
+    - name: eatmoreduck
+      url: https://blog.xiaohuangyu.space
+    - name: 伯正
+      url: https://chenbozheng.com
+    - name: Gemsly's Blog
+      url: https://blog.gemslyho.org
+    - name: 星辰角落
+      url: https://ihello.cc
+    - name: 张洪Heo
+      url: https://blog.zhheo.com
+    - name: 买四个萝卜
+      url: https://blog.ylmty.cc
+    - name: 沉迷在 - Java.li - 无法自拔
+      url: https://java.li
+    - name: 爱娃子
+      url: https://www.aiwazi.com
+    - name: 崔话记
+      url: https://cuixiping.com
+    - name: 懋和道人
+      url: https://blog.dao.js.cn
+    - name: Holley's Blog
+      url: https://www.renhuali.cn
+    - name: ImQi1 / 棋
+      url: https://imqi1.com
+    - name: KOK博客
+      url: https://kok.plus
+    - name: 且听书吟
+      url: https://yufan.me
+    - name: Terrence
+      url: https://blog.mboker.cn
+    - name: 飞鲤的自留地
+      url: https://6mal.com
+    - name: 清枫的小窝
+      url: https://wp.qwq2022.top
+    - name: 运筹策工作室
+      url: https://www.yccsat.com
+    - name: Mind Mosaic
+      url: http://chevqiavg.top
+    - name: 思渡鸢的云栈
+      url: https://blog.sdy666.icu
+    - name: lznauy的技术小屋
+      url: https://lznauy.cn
+    - name: 非学·派
+      url: https://fxpai.com
+    - name: 允赫先森'sBlog
+      url: https://www.3v.hk
+    - name: 黄鼠狼的树洞
+      url: https://blog.weasel6.cn
+    - name: Modern Blog
+      url: https://blog.andyjin.website
+    - name: 林子浩的博客
+      url: https://linzihao.cn
+    - name: 未来往事
+      url: https://felixway.cn
+    - name: 我是军爸
+      url: https://me.xu19.com
+    - name: 星觅海的博客
+      url: https://www.xmhai.cn
+    - name: 叹惋博客
+      url: https://twbk.cn
+    - name: 热衷于的博客
+      url: https://zooyoo.top
+    - name: Happy花椒
+      url: https://www.quhj.com
+    - name: 朱小呆
+      url: https://zhujay.com
+    - name: 如是乎
+      url: http://rushihu.com
+    - name: 守望轩
+      url: https://www.watch-life.net
+    - name: mccsjs
+      url: https://blog.seln.cn
+    - name: Lin's Blog
+      url: https://linyu.live
+    - name: 熠想天开
+      url: https://fengyiyi.com
+    - name: 蒙需
+      url: https://jiangcl.com
+    - name: Suk's Blog
+      url: https://imsuk.cn
+    - name: HJZ的博客
+      url: https://blog.hjz0713.cn
+    - name: 轻淡时光
+      url: https://www.lybblog.cn
+    - name: 必练题 - I am
+      url: https://imxcy.cn
+    - name: aijun's blog
+      url: https://aijun.org
+    - name: 子夜松声
+      url: https://xyzbz.cn
+    - name: 17的主页
+      url: https://www.s17.cn
+    - name: 翁国栋 · 镜间笔记
+      url: https://wengguodong.com
+    - name: HanChan Blog
+      url: https://hanchan.vip/posts
+    - name: Mayx的博客
+      url: https://mabbs.github.io
+    - name: 在这里写写画画
+      url: https://www.rua.ink
+    - name: 枝语风笺
+      url: https://blog.chario.cn
+    - name: zelin Blog
+      url: https://zelin.ac.cn
+    - name: 手里有只毛毛虫
+      url: https://www.krjojo.com
+    - name: 周天记
+      url: https://zhoutian.com
+    - name: 晚夜的个人博客
+      url: https://www.iczrx.cn
+    - name: 淇云博客
+      url: https://www.88pq.cn
+    - name: 醉风云
+      url: https://www.zuifengyun.com
+    - name: 爱大海
+      url: https://www.idh.cc
+    - name: 银河系里的地球
+      url: https://www.nbdiqiu.top
+    - name: 加糖少冰
+      url: https://www.jiatang.top
+    - name: 私密笔记
+      url: https://simibiji.com
+    - name: Sunrise's blog
+      url: https://wowtang.top
+    - name: 别催
+      url: https://blog.biecui.com
+    - name: 周星的终身进化幼儿园
+      url: https://zhouxingimprov.work
+    - name: 云墨观窗
+      url: https://mojue88.com
+    - name: S星球
+      url: http://www.snbk.cn
+    - name: 黑桃三
+      url: https://heitaosan.com
+    - name: 半截の诗
+      url: https://sweetjing.cc
+    - name: YnsStudy
+      url: https://ynsstudy.cn
+    - name: 时光与我
+      url: https://timingme.com
+    - name: blackbzy
+      url: https://www.blackbzy.com
+    - name: 云汀记
+      url: https://uiii.top
+    - name: 感觉
+      url: https://gj.ink

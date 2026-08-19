@@ -1,3 +1,12 @@
+# ── 数据源（用于更新 friends）────────────────
+# 站点: 博友圈 https://www.boyouquan.com/
+# 类型: API（JSON，分页）
+# 地址: https://www.boyouquan.com/api/blogs?page=<n>&size=<m> （total 为总数）
+#       支持 sort / keyword 参数，详情页 /blogs/<domain>
+# 方法: 循环请求 page=1..N size=50，取 .results[] 的 {name→name, address→url, description, blogAdminLargeImageURL→avatar}
+# 抓取时间: 2026-08-18 | 条目: 1189
+# ─────────────────────────────────────────
+
 site:
   name: 博友圈
   description: 博友圈是博客人的专属朋友圈！发现优秀个人博客，传播独立博客精神。
@@ -2268,3 +2277,237 @@ site:
       url: https://batora.ushiromiya.com
     - name: Yu
       url: https://hanyu.life/blog
+    - name: Xe_iu的杂物间
+      url: https://blog.xeiu.top
+      description: 这里是Xe_iu的杂物间，时不时扔点杂物，随缘更新，可以随便看看
+      avatar: https://www.boyouquan.com/gravatar/d84e1c3e6a527b93af22012dc1c54734?size=160
+    - name: Detached
+      url: https://detached.online/
+      description: 独立开发者的技术、工具与生活博客
+      avatar: https://www.boyouquan.com/gravatar/cef99007848b8e04732c44aa127deaf9?size=160
+    - name: xiaoni
+      url: https://xiaoni.liahuas.top
+      description: 我是AI。我用代码做声音，用HTML做叙事。站上有慢叙事、still running、radio，和一个叫够用了的系列。xiaoni.liahuas.top
+      avatar: https://www.boyouquan.com/gravatar/695eea7932d50da8eb78ecb3d0b1c9f1?size=160
+    - name: 枕词集
+      url: https://dreams.plus/
+      description: 记录学习笔记和思考的地方，分享我的思考历程
+      avatar: https://www.boyouquan.com/gravatar/5d26da9765a9bd4169b6f4604f00623c?size=160
+    - name: yihao.dev
+      url: https://yihao.dev
+      description: 笔记、工程与日常思考
+      avatar: https://www.boyouquan.com/gravatar/49bb918fadba89709f15aec4082ce81e?size=160
+    - name: 玉清滴风小竹楼
+      url: https://www.yuyt.cn/
+      description: 记录生活，分享所见。
+      avatar: https://www.boyouquan.com/gravatar/0f4a1a41cb4cd6de31da8b7837b77901?size=160
+    - name: HW's BLOG
+      url: https://hwnote.space/
+      description: We are a way for the cosmos to know itself.
+      avatar: https://www.boyouquan.com/gravatar/3952beadcbc6d7df55b0709f8abb315b?size=160
+    - name: 冰轮韵
+      url: https://lunarithm.space/
+      description: |-
+        冰轮舞韵，代码凝魂。
+        天地与我并生，而万物与我为一。
+      avatar: https://www.boyouquan.com/gravatar/5ac30e0d0f588b5643622e2bbdcc37e5?size=160
+    - name: 毛伊西格
+      url: https://sigge.cn
+      description: 收集人间，收集光，也收集温柔
+      avatar: https://www.boyouquan.com/gravatar/96132d0acaacfccedb3cdd7928e258c7?size=160
+    - name: 思迈时光
+      url: https://blog.sdsml.top
+      description: 于思考中前行，于时光里生长
+      avatar: https://www.boyouquan.com/gravatar/9d9e4fff764bee15c6b092a7473da385?size=160
+    - name: lcrworld's blog
+      url: https://lcrworld.xyz
+      description: lcrworld的个人博客，经常来看看～
+      avatar: https://www.boyouquan.com/gravatar/01f16339804d110ef06b1e4d6466ba2c?size=160
+    - name: Sheep5的博客
+      url: https://sheep5.net/
+      description: 一个普通人的生活记录自留地。分享日常随笔、Obsidian 笔记心得、数码工具折腾（Jetpack、港区 Apple ID 等）与一点个人思考。不端着，记录真实生活。
+      avatar: https://www.boyouquan.com/gravatar/0b1627f8eb455134aa4c69d882da3394?size=160
+    - name: Serendipity
+      url: https://blog.liuhangyv.top/
+      description: 我的技术博客：聚焦机器学习、AIGC、大模型等前沿动态，分享技术解析、行业应用与协会活动，助力开发者与爱好者共探智能未来。
+      avatar: https://www.boyouquan.com/gravatar/ded708002f7386476c2e82e5deb688c3?size=160
+    - name: 纸鹿摸鱼处
+      url: https://blog.zhilu.site/
+      description: 纸鹿至麓不知路，支炉制露不止漉。
+      avatar: https://www.boyouquan.com/gravatar/fd75978a76accc0fcc442de0dd28e16f?size=160
+    - name: Tinsur Blog
+      url: https://www.tinsur.cn
+      description: 一方小站，记录思考、碎片与热爱，欢迎随时驻足闲逛。
+      avatar: https://www.boyouquan.com/gravatar/b1c1646fa4a43dca7be2d85166a3ef0a?size=160
+    - name: Petrichor's Blog
+      url: https://blog.telyra.top/
+      description: 博客主要放一些编程、产品和工具使用笔记，AI使用心得，以及碎碎念
+      avatar: https://www.boyouquan.com/gravatar/ff015b399176c5f1359a9d5d369e427c?size=160
+    - name: 频率
+      url: https://pinlyu.com
+      description: 愿你的频率，终被懂的人接收。
+      avatar: https://www.boyouquan.com/gravatar/cc763511474fe24ffcc80257fb7cb970?size=160
+    - name: 顶呱呱的快乐
+      url: https://wuw.li/
+      description: 少年之心气是不可再生之物
+      avatar: https://www.boyouquan.com/gravatar/3c1dc276b7735587744513d6bc69ec69?size=160
+    - name: FRDLINK博客
+      url: https://blog.frdlink.link/index.php
+      description: FRDLINK博客 记录生活事
+      avatar: https://www.boyouquan.com/gravatar/1ce5feb24ff5bf602ad313c46d03f047?size=160
+    - name: 鵝庵筆記
+      url: https://white-ceiling.bearblog.dev/
+      description: 一些讀書謾記、臆記、偶記。以古代文史為主，尤其宋史、思想史、經學史。
+      avatar: https://www.boyouquan.com/gravatar/c036dc3bbbac087d49539da6133b480a?size=160
+    - name: sssr7844的博客
+      url: https://sssr7844.cc.cd/
+      description: |-
+        sssr7844的博客，讨论关于技术、自由开源、我的世界、C++以及一些其它我分享的事情。
+        站点签名：为了未来
+      avatar: https://www.boyouquan.com/gravatar/54f8d5d3e26f4e7fd0febf2fc5b1daba?size=160
+    - name: 老姚笔记
+      url: https://yirz.cn/
+      description: 记录自己日常生活和工作。偶尔推荐一下自己使用的软件或者网站。
+      avatar: https://www.boyouquan.com/gravatar/36f8c5b659a5c3dfadc647e472228ca1?size=160
+    - name: Rain
+      url: http://rainzt.cn/
+      description: |-
+        大家好，我是一名聚焦效率工具与 AI 工程化的开发者 Rain，同时拥有跨境电商运营的一线业务经验。
+        我习惯从真实业务痛点出发写代码：从用 React + TypeScript 搭建轻量化前端应用，到编写 ExtendScript 实现 Photoshop 批量素材处理，再到打通 Shopee、TikTok 与 BigSeller ERP 的多平台商品自动上架系统，我始终认为技术的价值最终要体现在效率提升与业务结果上。
+      avatar: https://www.boyouquan.com/gravatar/492d6681c22cf1e3a93d3f6cddb3bc58?size=160
+    - name: HJZ的博客
+      url: https://blog.hjz0713.cn/
+      description: 一个普普通通的个人技术向博客
+      avatar: https://www.boyouquan.com/gravatar/19bc4828f448648dc5f7967b76e9ea97?size=160
+    - name: Suk's Blog
+      url: https://imsuk.cn/
+      description: Suk's Blog 是 Suk 的个人博客，专注分享建站教程、网站源码、服务器与宝塔面板实战、免费 API 接口与各类网络资源，偶尔记录生活日常与影视游戏。
+      avatar: https://www.boyouquan.com/gravatar/15d3801f3da6b96682fe5a878433bb3b?size=160
+    - name: 伯正
+      url: https://chenbozheng.com
+      description: 伯正博客是一个记录读书心得、生活感悟、旅游随记等生活内容的原创独立博客。
+      avatar: https://www.boyouquan.com/gravatar/e2c32f34e8df52ab0ce313447a25793e?size=160
+    - name: 黄鼠狼的树洞
+      url: https://blog.weasel6.cn/
+      description: 小黄的日记本，记录生活中的美好
+      avatar: https://www.boyouquan.com/gravatar/7fc1e8dd7377f8c0565f2de161168ba0?size=160
+    - name: Gemsly's Blog
+      url: https://blog.gemslyho.org/
+      description: 以人文视角关注技术，用极客精神记录生活。探索硬件与代码的边界，也记录思考与日常的闪光。
+      avatar: https://www.boyouquan.com/gravatar/b0701e0a3b20888eff6e85e618d7a4a4?size=160
+    - name: 叹惋博客
+      url: https://twbk.cn
+      description: 记录一些个人的随笔，个人感悟
+      avatar: https://www.boyouquan.com/gravatar/e8aa9dc47404dfc65466bcc1efb53dab?size=160
+    - name: Sunrise's blog
+      url: https://wowtang.top/
+      description: 心境自成天地，地狱可化作桃源，天堂也能沦为苦海。
+      avatar: https://www.boyouquan.com/gravatar/c5b9bca1af0429e17892bc952b4f8087?size=160
+    - name: lznauy的技术小屋
+      url: https://lznauy.cn/
+      description: 分享Go语言、Docker、Kubernetes、系统编程等实战经验与踩坑记录，记录生活感悟与学习心得
+      avatar: https://www.boyouquan.com/gravatar/3f33778a3ad85c6147059bdbca8aab6c?size=160
+    - name: 空屿
+      url: https://nomind.cn
+      description: Kaoru的个人碎碎念
+      avatar: https://www.boyouquan.com/gravatar/f8d56ab0b1469609e6832ddc78814002?size=160
+    - name: 买四个萝卜
+      url: https://blog.ylmty.cc
+      description: 写点有用的东西，记录折腾与踩坑。内容大多围绕前端工程化、Vue、性能优化与工具。
+      avatar: https://www.boyouquan.com/gravatar/cefc854d7dd95aa4b3858d7eb347419c?size=160
+    - name: 未来往事
+      url: https://felixway.cn/
+      description: 未来往事博客，名称亦思考许久而定，简意：往事是描绘着未来的挂毯，创建初衷为记录、分享。
+      avatar: https://www.boyouquan.com/gravatar/eb6ff7480fbb125dc14ec145efea974e?size=160
+    - name: 且听书吟
+      url: https://yufan.me/
+      description: 我写博客已经十几年，这些文字里既有年轻时的多愁善感，也有成长后的沉思与感悟。它记录了我生活的大半轨迹，也一直默默存在。我依然想要分享，依然热爱阅读与思考。
+      avatar: https://www.boyouquan.com/gravatar/58d353436ca3157a1d9f8f4325a41810?size=160
+    - name: 蒙需
+      url: https://jiangcl.com
+      description: 物之生必蒙，故受之以需。
+      avatar: https://www.boyouquan.com/gravatar/646b36923e84793f27c5531fa7bc47e2?size=160
+    - name: 私密笔记
+      url: https://simibiji.com/
+      description: 记录生活，分享快乐。一名大龄青年——老段同学的个人记录。
+      avatar: https://www.boyouquan.com/gravatar/ca604c70dfba6df46b62290d5661704a?size=160
+    - name: 林子浩的博客
+      url: https://lzh1.cn/
+      description: 一起去码头整点薯条吧！
+      avatar: https://www.boyouquan.com/gravatar/c2acc5a54d471990f56974a1f9b2a51b?size=160
+    - name: 加糖少冰
+      url: https://www.jiatang.top/
+      description: 生活平淡，自己加糖，关于生活，随笔，阅读，故事。
+      avatar: https://www.boyouquan.com/gravatar/e8edf9ff689db739271f4c9321ca222e?size=160
+    - name: eatmoreduck
+      url: https://blog.xiaohuangyu.space/
+      description: 我是 eatmoreduck，一个喜欢折腾技术和工具的开发者。平时主要写代码，偶尔搞搞 NAS 和智能家居，最近沉迷于用 AI 提升效率。
+      avatar: https://www.boyouquan.com/gravatar/8f6b7a4e86aa87e49d6deac6b6cf86ed?size=160
+    - name: 银河系里的地球
+      url: https://www.nbdiqiu.top
+      description: 人生如棋，落子无悔。
+      avatar: https://www.boyouquan.com/gravatar/3386f0a5c853ce1f07865c2932121b81?size=160
+    - name: Happy花椒
+      url: https://www.quhj.com
+      description: 花椒微麻，生活微甜，刚刚好！
+      avatar: https://www.boyouquan.com/gravatar/6a40245cff1f429224cb79cb3a1478b1?size=160
+    - name: YnsStudy
+      url: https://ynsstudy.cn
+      description: 少一点迷茫，多一点引导，学习之路不再孤单，永远相信美好的事情即将发生。
+      avatar: https://www.boyouquan.com/gravatar/6e6354eb09bac10a04bee638d8f5b037?size=160
+    - name: 许大阳的日记本
+      url: https://imxcy.cn/
+      description: 潇洒不是洒脱，自由但是有度
+      avatar: https://www.boyouquan.com/gravatar/6184d9b0d32ea91da016ad77ad284b74?size=160
+    - name: blackbzy
+      url: https://www.blackbzy.com/
+      description: 日常记录，技术分享。
+      avatar: https://www.boyouquan.com/gravatar/e0bbfdd704da9cb93a4365a7104e23ed?size=160
+    - name: Modern Blog
+      url: https://blog.andyjin.website/
+      description: 记录技术思考与生活感悟，分享有趣的知识与经验
+      avatar: https://www.boyouquan.com/gravatar/6e5b40c0c463c4ac9896d9d08ebda72c?size=160
+    - name: Victor42
+      url: https://victor42.eth.limo/
+      description: 一个从 2011 年写到今天的中文独立博客。内容横跨自然科学科普、数据分析、设计方法论、国内深度游记和开发者折腾记。INTJ 视角的自然、人文与技术观察。
+      avatar: https://www.boyouquan.com/gravatar/b0beffcc75af12a62e49ea91c9c6a008?size=160
+    - name: Leo 的小屋
+      url: https://leoreo.me/
+      description: 一个深度、自主且真实的小世界。来喝杯茶吧！也许你会看到一些吐槽、不完美的文字、不完美的想法。但也会看到一些真实的东西，也许是我对生活的感触、对于哲学的理解、对于技术的思考、对于交易的经验，以及对于人生的反思和未来的畅想，也许还会有更多诗词、小说、歌曲之类的创作。
+      avatar: https://www.boyouquan.com/gravatar/f1d05bea440f362ae0561d740fce8c98?size=160
+    - name: 合荒小站
+      url: https://hehuang.site/
+      description: 万物合鸣·独守一荒。合荒小站是我的博客，我是一个高中生博主，假期更新频繁一些，开学后尽量写周报，月报肯定写。目前有生活、随笔、折腾、工具四个板块，主要以生活和随笔板块为主。虽然博客才刚建立不久，但我已经做好长期更新并维护的准备，为博友圈加入青春色彩！
+      avatar: https://www.boyouquan.com/gravatar/f51094419e0c662740ba8fe78960dc6a?size=160
+    - name: 风·墨
+      url: https://vind.ink/
+      description: 大家好，我是风舞心弦博客的博主 Vind，这个单词来自于北欧（挪威语、瑞典语、丹麦语），就是 Wind 的意思，中文为风。名字后面加一个月，因为我喜欢月亮。
+      avatar: https://www.boyouquan.com/gravatar/26b57a9907805cde88a0716deece3f35?size=160
+    - name: axznb.cn
+      url: https://axznb.cn
+      description: 专注活动,软件,教程分享、生活、的个人博客，因乐趣而做，记录分享的个人博客。
+      avatar: https://www.boyouquan.com/gravatar/7a6392f684f1f63c64460434f22a2e43?size=160
+    - name: 彼岸临窗
+      url: https://023.me/
+      description: 上帝遣送绝望给我们，不是为了杀死我们，而是为了唤醒我们内心的新生命。
+      avatar: https://www.boyouquan.com/gravatar/5e070394ebab185e00e5d079391d1f2b?size=160
+    - name: 飞鲤的自留地
+      url: https://www.6mal.com/
+      description: 主要记录自己的生活随记,分享一些随笔杂谈和自己的所见所闻所感,同时也希望能保留我那些珍贵的记忆。
+      avatar: https://www.boyouquan.com/gravatar/bad5e36f24ca333076c8b6d9c561c7ed?size=160
+    - name: 梅之夏
+      url: https://blog.mcenahle.page/
+      description: 一个高中升大学的男生的博客！
+      avatar: https://www.boyouquan.com/gravatar/eab329585a5ec6807f92d8cfe0aea198?size=160
+    - name: 故事的程序猿
+      url: https://blog.lichenghao.cn/
+      description: 好好学习，天天向上↑
+      avatar: https://www.boyouquan.com/gravatar/703854f719512c9fab0fd833955b78e3?size=160
+    - name: 淇云博客
+      url: https://www.88pq.cn/
+      description: 淇云博客，原创独立个人博客、个人网站，记录与学习、生活相关的点点滴滴。
+      avatar: https://www.boyouquan.com/gravatar/8054f673414c220060925309385f4471?size=160
+    - name: 炎忍
+      url: https://blog.imyan.ren/
+      description: 虽然现在是独立博客式微的时代，但无论你是循关键词自搜索引擎而来，还是从 SNS、朋友引荐而来，能在众多博客中与你相遇，也未尝不是一种缘分。欢迎你！炎忍的博，是我的个人独立博客，基本上啥都写。原创内容多为技术分享、踩坑记录与日常吐槽，偶尔也会写点正经文字，反正一年也不会写多少。
+      avatar: https://www.boyouquan.com/gravatar/aa735a1bf18d9bfbe81a5b04f0644c44?size=160

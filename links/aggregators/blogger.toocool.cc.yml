@@ -1,0 +1,381 @@
+# ── 数据源（用于更新 friends）────────────────
+# 站点: BOZHU 博主导航 https://blogger.toocool.cc/
+# 类型: OneNav WordPress 主题；REST API 公开（/wp-json/wp/v2/sites，共 123 站）
+# 地址: 完整列表用 admin-ajax 分页获取（无需登录）：
+#       POST https://blogger.toocool.cc/wp-admin/admin-ajax.php
+#       body: action=load_big_posts&id=iow_big_posts_max-2&style=sites-default&orderby=date&page=N （每页10，共13页）
+#       卡片 .sites-item 中 a.sites-body[data-url] = 站点 URL；h3.item-title b = 名称
+#       .text-muted.text-xs = 描述
+# 注意: 首页"今天想读谁"是随机推荐(orderby=rand)，不是完整列表；最新 11 站需抓详情页
+#       /url/<id>.html 中 .site-go a[title=进入主页] 取 URL（已关闭站点无跳转则跳过）
+# 方法: curl 抓 13 页 admin-ajax → 正则提取；再补抓最新站详情页
+# 抓取时间: 2026-08-18 | 条目: 122（站点共 123，其中 1 站已关闭仅存档）
+# ─────────────────────────────────────────
+
+site:
+  name: BOZHU 博主导航
+  url: https://blogger.toocool.cc/
+  description: 博客导航平台
+  links: /links
+  friends:
+    - name: 很少明白
+      url: https://p0werdown.com
+      description: 一切都在无可挽回地走向恰饭。
+    - name: Owen的博客
+      url: https://www.owenyoung.com
+      description: 沉浸式翻译创始人
+    - name: 王佳冬中文博客
+      url: http://wjd.name
+      description: 关于旅行，关于互联网
+    - name: KAIX.IN
+      url: https://kaix.in
+      description: 写作作为一种思考
+    - name: 一直游到海水變藍
+      url: https://nelsonboss.ink
+      description: 一直游到海水變藍
+    - name: leoon
+      url: https://www.leoon.cn
+      description: 爱摄影的Leoon
+    - name: 廖雪峰的官方网站
+      url: https://liaoxuefeng.com
+      description: 研究互联网产品和技术，提供原创中文精品教程
+    - name: xulihang’s blog
+      url: https://blog.xulihang.me
+      description: 一个碌碌无为的英语专业学生
+    - name: 莫比乌斯
+      url: https://onojyun.com
+      description: 写作，一场自我悖驳的旅程
+    - name: 拾月
+      url: https://www.skyue.com
+      description: PC互联网遗民
+    - name: HerBlue她的蓝
+      url: https://her.blue
+      description: 阅读、旅行、电影、音乐
+    - name: Velas电波站
+      url: https://www.velasx.com
+      description: Velas电波站 · 非正常信号发射与搜寻装置
+    - name: 热衷于的博客
+      url: https://zooyoo.top
+      description: 进来坐坐吧～纷繁的互联网不会记住你我， 但此刻的快乐依然可以被传递
+    - name: 远飞闲记
+      url: https://heyuanfei.com
+      description: 一名热爱阅读、生活和思考的自由职业者
+    - name: 郝海龍
+      url: https://haohailong.net
+      description: 環尾堂主人
+    - name: Wulu’s Blog
+      url: https://wulu.zone
+      description: 盈科而后进。
+    - name: 张戈博客
+      url: https://zhang.ge
+      description: 关注IT运维技术及互联网
+    - name: Kloudy Shape
+      url: https://shape.kloudy.cn
+      description: 分享学习经验和生活点滴的个人博客
+    - name: 罗磊的独立博客
+      url: https://luolei.org
+      description: 前端工程师，俗称程序员，全世界走走逛逛拍拍
+    - name: 思有云
+      url: https://www.ioiox.com
+      description: 主要为分享个人生活和技术
+    - name: My Secret Rainbow
+      url: http://www.mysecretrainbow.com
+      description: 为设计师、学生和爱好者提供有价值的信息和灵感
+    - name: Tw93
+      url: https://tw93.fun
+      description: 一个喜欢开源和折腾的工程师
+    - name: 吕小荣
+      url: https://mednoter.com
+      description: 医学生毕业，做了两年产品经理，后靠编程混口饭吃，如今是个三流...
+    - name: 白宦成
+      url: https://www.ixiqin.com
+      description: Just Keep Shipping
+    - name: 微醺十月
+      url: http://www.cnu.cc/users/129929
+      description: 人像情绪写真摄影师
+    - name: Randy’s Blog
+      url: https://lutaonan.com
+      description: About life, technology and reading
+    - name: 狡猫三窝
+      url: https://slykiten.com
+      description: “美”不是一种外部标准，它是一种内在情感。那是爱。
+    - name: Airing 的博客
+      url: https://blog.ursb.me
+    - name: joojen Zhou
+      url: https://joojen.com
+      description: 升级人生系统
+    - name: 戴传庆
+      url: http://daichuanqing.com
+      description: Pixfun.ai创始人
+    - name: 流浪天下
+      url: https://maie.name
+      description: 背包行走，流浪天下
+    - name: 椒盐豆豉
+      url: https://blog.douchi.space
+      description: 写了二十年博客
+    - name: iTimothy
+      url: https://xiaozhou.net
+      description: Timothy的技术博客,记录技术以及生活点滴
+    - name: iNote
+      url: https://inote.xyz/zh
+      description: 在生活的海洋，投资的迷雾和创业的波涛中蹉跎前行
+    - name: xindoo的博客
+      url: https://zxs.io
+      description: 古典程序猿xindoo
+    - name: 猪哥杂记
+      url: https://blog.dazhu1988.com
+      description: 凡是遥远的地方对为都有一种诱惑,不是诱惑于美丽,就是诱惑于传说.
+    - name: Fengc's Photography Blog
+      url: https://fengcblog.880200.xyz
+      description: 欢迎来到我的摄影世界，让我们一起在镜头下发现生活之美。
+    - name: 王登科
+      url: https://greatdk.com
+      description: DK大佬，面包多创始人
+    - name: 雪儿Cher
+      url: https://cherstravel.com
+      description: 台湾桃园的作家、心怀自由流浪者相信孤单也是美好合
+    - name: 喂马劈柴
+      url: https://blog.shaoxiao.net
+      description: 一个媒介学习者的个人庭院
+    - name: 一方天地
+      url: https://www.emmmme.com
+      description: 心留一方天地，世界依旧美好
+    - name: 海布里天井
+      url: https://blog.feimind.xyz
+      description: 记录我，遇见你
+    - name: 威言威语
+      url: https://www.weisay.com/blog
+      description: 我愿像茶，苦涩留心，清香予人。
+    - name: 虹线
+      url: https://1q43.blog
+      description: 评论尸的自留地
+    - name: 宗宗酱
+      url: https://ygz.ink
+      description: 用文字和图片记录生活！
+    - name: Another Dayu
+      url: https://anotherdayu.com
+      description: Seize the day, gather ye rosebuds while ye may.
+    - name: Rico
+      url: https://blog.ricocc.com
+      description: 我是Rico，网页/UI设计师，目前主要专注在网页视觉开发...
+    - name: 耳朵的主人
+      url: https://www.edzbe.com
+      description: 耳朵的主人，以期刊的形式分享歌特、厄运、朋克、流行、后摇、重金属等小众风格音乐的电台博客，庆幸我还有耳朵，还可以是耳朵的主人。
+    - name: Macin
+      url: https://macin.org
+      description: 热爱生活，务实，不断精进
+    - name: 思考问题的熊
+      url: https://kaopubear.top/blog
+      description: 记录所思所学
+    - name: 火禅游记
+      url: https://www.huotravel.com
+      description: 分享小众目的地、游记攻略、禅修方法的博客
+    - name: ZLX STUDIO
+      url: https://blog.iooioio.com
+      description: 音频开发者社区
+    - name: Miao Yu
+      url: https://yufree.cn/cn
+      description: 于淼的个人网站
+    - name: Viking
+      url: https://vikingz.me
+      description: 全栈开发工程师，也是一位自由职业者/独立开发者。
+    - name: Seth Godin
+      url: https://seths.blog
+      description: 博客更新了一万多篇文章的营销大师
+    - name: Camarts
+      url: https://camarts.cn
+      description: "Camarts Photography: Works by Dandy Weng"
+    - name: Joway
+      url: https://blog.joway.io
+      description: Random Thoughts
+    - name: 仲平
+      url: https://zopiya.com
+      description: 记录着思绪、故事和偶尔的异想天开
+    - name: 张洪Heo
+      url: https://blog.zhheo.com
+      description: 产品设计师、独立开发者、设计与科技领域自媒体博主
+    - name: 李的日志
+      url: https://lilog.cn
+      description: 在阅读中沉淀，于随笔中抒怀
+    - name: Zhou's Notes 周大伟博客 周的笔记
+      url: https://www.zhounote.com
+      description: Zhou&#039;s Notes,不谈高深理论，只唠真心喜欢：足球、玩具、生活小事，做个有温度的个人分享站,作诗,有诗意地描写.这是我的个人网站,我的生活倒影,有诗意地记录自己的生活.
+    - name: XX’s Blog
+      url: https://xxchan.me
+      description: Just some random thoughts of mine.
+    - name: 扯远了
+      url: https://heshizi.com
+      description: 河石子的生活感悟、阅读心得、社会见闻以及自我提升博客。
+    - name: 老刘博客
+      url: https://iliu.org
+      description: 一个验光师和传统文化爱好者的博客
+    - name: 一颗小树
+      url: https://yeshu.cloud
+      description: In progress to be a product maker.
+    - name: 爱娃子
+      url: https://www.aiwazi.com
+      description: 一个95后青年的个人博客，从事于成套电器行业，偶尔分享电器设备知识、电工技术文章的博客。
+    - name: 空鸣深语
+      url: https://blog.deepchirp.com
+      description: 深鸣的博客，主要记录技术与生活相关的内容
+    - name: 甜菜欣欣
+      url: https://tcxx.info
+      description: 技术圈的欧阳娜娜，旅居美国硅谷
+    - name: Ouroboros
+      url: https://utopia.pursuitus.com
+      description: Just another Utopia.
+    - name: Battle Le
+      url: https://battlele.com
+      description: 用车轮丈量大地，视野所及是世界
+    - name: Limihu’s Blog
+      url: https://blog.limihu.com
+      description: 看世界，做自己
+    - name: 大破进击
+      url: https://jesor.me
+      description: 大破进击 | 廃人日志。
+    - name: 风记星辰
+      url: https://www.thyuu.com
+      description: 热爱你来过的每度温暖
+    - name: 麦克船长
+      url: https://www.mikecaptain.com
+      description: 麦克船长对于技术、产品、商业等领域的分享
+    - name: 姓王者的博客
+      url: https://xingwangzhe.fun
+      description: 探索、学习、进步、创造无限可能！
+    - name: 痞事PSRSS
+      url: https://www.psrss.com
+      description: 每个博客都有故事，用认真生活来治愈自己
+    - name: TualatriX
+      url: https://imtx.me
+      description: 图拉鼎的个人主页，分享围绕着独立产品开发、iOS 开发、Web 开发等心路历程。
+    - name: 无名博客
+      url: https://wuminboke.site
+      description: 总𢔶写点啥......
+    - name: Jason
+      url: https://atjason.com
+      description: 记录一位独立开发者的精进之路，分享自由职业者的生存方式。
+    - name: 白熊阿丸的小屋
+      url: https://blog.bxaw.name
+      description: 在这里可以看到一个真实的我，我会在这里书写我的一切
+    - name: 运维咖啡吧
+      url: https://blog.ops-coffee.cn
+      description: 享受技术带来的乐趣，体验生活给予的感动
+    - name: 非学·派
+      url: https://fxpai.com
+      description: 不与偏见和痼习为伍
+    - name: 山野愚人居
+      url: https://www.iyuren.com
+      description: 记录我的生活、所见、所闻、所想……
+    - name: lyunvy
+      url: https://blog.lyunvy.top
+      description: 错把良辰作素日，不识美景怨天时。
+    - name: 燕渡寒潭
+      url: https://hisherry.com
+      description: 别为活命而败坏生存之根
+    - name: Chlorine
+      url: https://chlo.is
+      description: The Secret Garden of some dumb Element-chan.
+    - name: 心的道理
+      url: https://stephenleng.com/cn
+    - name: 胡涂说
+      url: https://hutusi.com
+    - name: 尺宅杂记
+      url: http://www.qncd.com
+      description: 尺宅足自庇，寸田有余畦。
+    - name: 太隐
+      url: https://wangyurui.com
+      description: 一个人的思想发育史就是他的阅读史
+    - name: Mayx的博客
+      url: https://mabbs.github.io
+      description: Mayx’s Home Page
+    - name: happy xiao
+      url: https://happyxiao.com
+      description: 可乐周报作者
+    - name: 阮一峰的个人网站
+      url: https://www.ruanyifeng.com/blog
+      description: Ruan YiFeng's Personal Website
+    - name: 硅谷王川
+      url: https://chuan.us
+      description: 硅谷王川的个人博客
+    - name: maxOS
+      url: https://maxoxo.me
+      description: 探索产品设计、开发与增长，关注 SaaS 领域和 B2B 领域的商业化案例，了解成功的产品如何找到产品市场契合度。
+    - name: Kevin Blog
+      url: https://blog.kevinzhow.com/zh
+      description: All about life moments and my products.
+    - name: Hawstein’s Blog
+      url: https://hawstein.com
+      description: Hawstein's Blog
+    - name: Rethink
+      url: https://dengbiao.me
+      description: 白天是个PM，晚上也是个PM
+    - name: MacTalk
+      url: https://macshuo.com
+      description: 池建强的随想录 | 让创作成为一种生活方式
+    - name: 龙剑的技术分享
+      url: https://www.ljded.cn
+      description: 龙剑的技术分享 - 一个专注于技术分享的博客
+    - name: 皮普的数字花园
+      url: https://pipuwong.com
+      description: 记录学习、分享、创造，追求未来无限可能
+    - name: Guyskk的博客
+      url: https://blog.guyskk.com
+      description: 聊技术，谈生活，分享我的作品
+    - name: 欧雷流
+      url: https://ourai.ws
+      description: 这里有我对技术和语言的研究，也有对世界和生活的思考。
+    - name: GeekPlux
+      url: https://geekplux.com
+      description: Data Visualization &amp; Full-stack programmer
+    - name: ManateeLazyCat
+      url: https://manateelazycat.github.io
+      description: 一个放荡不羁、 努力追求简单生活的人
+    - name: 清枫的小窝
+      url: https://wp.qwq2022.top
+      description: 一个普通高中生搭建的个人blog，分享一些个人的思考以及其他有的没的
+    - name: 风雨行者
+      url: http://stuit.cn
+      description: 风雨行者，非著名历史学爱好者。主要包括历史，地理旅游摄影等方面内容。有行者说历史，行者微评论，给叫叫讲中国史等专题。
+    - name: 半撇的博客
+      url: https://www.banpie.info
+      description: 半撇私塾创始人
+    - name: 假设检验
+      url: https://jiashejianyan.com
+      description: 免费订阅的中文Newsletter，分享一切我感兴趣，受到启...
+    - name: 土木坛子
+      url: https://tumutanzi.com
+      description: 和光同尘、与时舒卷
+    - name: 空屿
+      url: https://pinaland.cn
+      description: 摄影,动漫,游戏,开箱,旅游,记录我的生活所见所闻
+    - name: 唐巧的博客
+      url: https://blog.devtang.com
+    - name: Limboy
+      url: https://limboy.me
+      description: RAC实践的国内先驱者
+    - name: 乐观主义
+      url: https://861204.xyz
+    - name: 白板报
+      url: https://wangpei.net
+      description: 著名编剧、自由撰稿人
+    - name: 槽边往事
+      url: https://www.hecaitou.com
+      description: 和菜头的博客
+    - name: 小强的时间管理博客
+      url: https://www.gtdlife.com
+      description: 高效率，慢生活
+    - name: So!azy
+      url: https://blog.solazy.me
+      description: Just a Lazy Sol...
+    - name: 一间生活·旅拍摄影
+      url: https://ncnccn.cn
+      description: 记录着发生过的事、遇见过的人、去过的地方。
+    - name: Fatesinger
+      url: https://fatesinger.com
+      description: 中文独立博客常青树，极简主义、长期主义。
+    - name: 雅余
+      url: https://yayu.net
+      description: 茶余饭后，闲情雅致
+    - name: 叶星优酸乳
+      url: https://weiyexing.win
+      description: 阅读是砍向内心冰封大海的斧头

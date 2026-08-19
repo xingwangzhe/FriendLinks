@@ -1,7 +1,7 @@
 /**
  * 批量更新站点名称和描述
  *
- * 扫描 links/*.yml，对名称=域名、描述=占位符 的站点，
+ * 递归扫描 links 目录下所有 .yml（支持嵌套子目录），对名称=域名、描述=占位符 的站点，
  * 访问首页提取 <title> 和 <meta description> 并更新 YAML。
  *
  * 用法: bun run scripts/update-site-names.ts
@@ -9,11 +9,12 @@
  * 跳过已更新的: SKIP_EXISTING=1 bun run scripts/update-site-names.ts
  */
 
-import { readdirSync, readFileSync, writeFileSync } from "node:fs";
-import { join, dirname } from "node:path";
+import { readFileSync, writeFileSync } from "node:fs";
+import { basename, join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import * as yaml from "yaml";
 import * as cheerio from "cheerio";
+import { listYamlFilesSync } from "../src/utils/yaml-files";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const linksDir = join(__dirname, "..", "links");
@@ -151,11 +152,7 @@ interface FileInfo {
 // Collect files that need updating
 const filesToUpdate: FileInfo[] = [];
 
-for (const fname of readdirSync(linksDir)) {
-  if (!fname.endsWith(".yml")) continue;
-  if (fname.startsWith("_")) continue;
-
-  const fpath = join(linksDir, fname);
+for (const fpath of listYamlFilesSync(linksDir).filter((file) => !basename(file).startsWith("_"))) {
   let raw: string;
   try {
     raw = readFileSync(fpath, "utf-8");

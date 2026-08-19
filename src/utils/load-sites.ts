@@ -1,8 +1,9 @@
-import { readdir, readFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import YAML from "yaml";
 import path from "node:path";
 import type { Site } from "../../types/site";
 import { deterministicSample, isFastMode, getDevSampleSize } from "./sample";
+import { listYamlFiles } from "./yaml-files";
 
 function isString(v: unknown): v is string {
   return typeof v === "string";
@@ -45,20 +46,6 @@ function isSite(obj: unknown): obj is Site {
   if (friends == null) return false;
   if (!Array.isArray(friends)) return false;
   return friends.every(isFriend);
-}
-
-async function listYamlFiles(dir: string): Promise<string[]> {
-  const entries = await readdir(dir, { withFileTypes: true });
-  const files: string[] = [];
-  for (const e of entries) {
-    const full = path.join(dir, e.name);
-    if (e.isDirectory()) {
-      files.push(...(await listYamlFiles(full)));
-    } else if (e.isFile() && (e.name.endsWith(".yml") || e.name.endsWith(".yaml"))) {
-      files.push(full);
-    }
-  }
-  return files;
 }
 
 async function parseAndValidate(file: string): Promise<Site | null> {

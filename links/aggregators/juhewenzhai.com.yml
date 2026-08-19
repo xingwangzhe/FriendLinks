@@ -1,0 +1,52 @@
+# ── 数据源（用于更新 friends）────────────────
+# 站点: 聚合文摘 https://juhewenzhai.com/（全网内容聚合订阅平台）
+# 类型: 静态 HTML（服务端渲染，无公开 JSON API）
+# 地址: https://juhewenzhai.com/plaza.php（订阅源广场，共 18 个订阅源，单页）
+# 方法: 解析 .site-card 卡片，取 .site-name 为 name、.site-url 为 url、
+#       .rss-line 为 RSS 地址、.art-tip 为已订阅文章数
+# 抓取时间: 2026-08-19 | 条目: 18
+# 注意: 含其自营博客 blog.juhewenzhai.com（站内自引）
+# ─────────────────────────────────────────
+
+site:
+  name: 聚合文摘
+  url: https://juhewenzhai.com/
+  description: 聚合文摘 — 专业 RSS 内容聚合订阅站点，一键收录全网博客、资讯专栏、优质文章源
+  links: /plaza.php
+  friends:
+    - name: liseezn Blog
+      url: https://blog.liseezn.top/
+    - name: 林霄阙
+      url: https://lxqgf.cn/
+    - name: 轻风Blog
+      url: https://qingfengnb.cn
+    - name: 黄鼠狼的树洞
+      url: https://blog.weasel6.cn/
+    - name: 热衷于的博客
+      url: https://zooyoo.top/
+    - name: 一望成欢🍀
+      url: https://wanqingcheng.cn
+    - name: Mayx的博客
+      url: https://mabbs.github.io/
+    - name: 天一生水
+      url: https://www.jiangyu.org/
+    - name: 一颗小树
+      url: https://yeshu.cloud/
+    - name: 一个博客
+      url: https://yigeboke.com
+    - name: 华立博客
+      url: https://renhuali.cn/
+    - name: 秋記Autumn
+      url: https://www.zhyok.cn
+    - name: "Fengc's Photography Blog"
+      url: https://fengcblog.880200.xyz
+    - name: 宗宗酱
+      url: https://ygz.ink
+    - name: 懋和道人
+      url: https://blog.dao.js.cn/
+    - name: 聚合文摘博客
+      url: http://blog.juhewenzhai.com/
+    - name: 周阿源
+      url: https://zhouayuan.com/
+    - name: "Zhou's Notes"
+      url: https://zhounote.com/

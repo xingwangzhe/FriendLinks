@@ -1,0 +1,314 @@
+# ── 数据源（用于更新 friends）────────────────
+# 站点: 你来啦！ https://nilai.la/（独立博客站长聚合平台，IP 地址映射虚拟地图坐标）
+# 类型: API（JSON；前端为 SPA，页面无 SSR 数据）
+# 地址: https://api-nll.zhongxiaojie.cn/api/v1/map/virtual/points/（一次返回全部站点）
+#       另有 map/geo/points/（天地图坐标）、map/users/、map/stats/ 等同数据集接口
+# 方法: 请求上述端点，取 points[] 的 name→name、url→url、description→描述
+# 抓取时间: 2026-08-19 | 条目: 102
+# 注意: 含站主自营工具（ip/anti-spam/shot.zhongxiaojie.cn、guimiquan.cn 等）与少量非博客收录，按平台原样保留
+# ─────────────────────────────────────────
+
+site:
+  name: 你来啦！
+  url: https://nilai.la/
+  description: 你来啦！— 独立博客站长聚合平台，以 IP 地址映射虚拟地图坐标，聚合全站 RSS 动态
+  links: /
+  friends:
+    - name: 第四世界
+      url: https://onewumi.com
+      description: "写给未来最好的信。"
+    - name: 懋和道人
+      url: https://blog.dao.js.cn
+      description: "李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。"
+    - name: Mayx的博客
+      url: https://mabbs.github.io
+      description: "Mayx's Home Page"
+    - name: 林子浩的日记
+      url: https://lzh1.cn
+      description: "一个努力写日记的博客站长。"
+    - name: 热衷于的博客
+      url: https://zooyoo.top
+      description: "一隅书斋，半盏清欢。一方静地，琐事闲观。"
+    - name: 我心向阳
+      url: https://hollowman.cn
+      description: "我心向阳补精神之钙 学无止境味灵魂之汤"
+    - name: 小十的个人博客
+      url: https://www.xiaoten.com
+      description: "调配电流、像素和代码的ISFP型导体。"
+    - name: 目的地-Destination
+      url: https://chrison.cn
+      description: "前程似锦、未来可期、寻得良人、共赴白头，祝你也祝我。"
+    - name: Echo
+      url: https://liveout.cn
+      description: "Life is code. I will debug it."
+    - name: 周阿源
+      url: https://zhouayuan.com
+      description: "专注原创毛绒与治愈插画"
+    - name: "Zhou's Notes"
+      url: https://www.zhounote.com
+      description: "不谈高深理论，只唠真心喜欢：足球、玩具、生活小事，做个有温度的个人分享站"
+    - name: 一个博客
+      url: https://yigeboke.com
+      description: "有趣且认真，记录日常生活的博客"
+    - name: 茗辰原
+      url: https://mingcy.cn
+      description: "茶香四溢，编程世界"
+    - name: 三股水
+      url: https://www.sangushui.com
+    - name: 破袜子
+      url: https://pewae.com
+      description: "一个脱离不了低级趣味的人"
+    - name: 南香香
+      url: http://99887766554433221100.cn/
+      description: "我是南香香，你会喜欢我吗"
+    - name: 紫慕碎碎念
+      url: https://90zm.net
+    - name: 梦不见的梦
+      url: https://www.friendcc.com
+    - name: 17的主页
+      url: https://www.s17.cn
+      description: "奇奇怪怪。"
+    - name: "Kevin's"
+      url: https://lyoo.net
+      description: "Kevin's - 摄影、分享、记录"
+    - name: 优世界
+      url: https://usj.cc
+      description: "记录生活的博客，博主是个00后"
+    - name: 皇家元林
+      url: https://hjyl.org
+    - name: 记录生活，精彩一刻
+      url: https://9sb.net
+      description: "发现不同的世界，记录精彩的瞬间"
+    - name: 游钓四方
+      url: https://blog.lhasa.icu
+      description: "千禧年小孩、长途骑行小学生、徒步登山爱好者、野钓路亚、振出并继、古典乐、古琴乐、野生程序员"
+    - name: 韩情脉脉
+      url: https://hxy.cc
+      description: "任何记录都是为了让以后有迹可循"
+    - name: 湘铭呀
+      url: https://xiangming.site
+    - name: 威言威语
+      url: https://www.weisay.com/blog
+      description: "我愿像茶，苦涩留心，清香予人。"
+    - name: 钟小姐
+      url: https://zhongxiaojie.com
+      description: "AI界的小学生，逆向分析工程师，闺蜜圈（大姨妈记录）APP开发者。"
+    - name: 浮生事
+      url: http://etom.top
+      description: "无根之言，只当笑谈。"
+    - name: 小王子
+      url: https://www.wanghao.me
+      description: "聆听小王子，守望成长，静待花开"
+    - name: 瓦匠不舟
+      url: https://airy.ink
+      description: "我口袋只剩玫瑰一片，此行又山高路远"
+    - name: 荒野菲克
+      url: https://ficor.net
+      description: "在路上的思绪与脚印"
+    - name: 我的日志
+      url: https://ilogs.cn
+      description: "记录平凡的生活"
+    - name: obaby 𝐢‍𝐧⃝ void
+      url: https://zhongxiaojie.cn
+      description: "程序媛 / 独立开发者 / 智商不稳定的女神经"
+    - name: 风舞心弦
+      url: https://fengwu.art
+      description: "风舞影 · 心萦弦 · Vind 绘境"
+    - name: 陶其的个人博客
+      url: https://www.tqazy.com
+      description: "当下，即是未来"
+    - name: 阿呆日记
+      url: https://dai.ge/
+      description: "我在人间凑数的日子"
+    - name: 闺蜜圈百科
+      url: https://wiki.guimiquan.cn
+      description: "更全面更权威的百科知识"
+    - name: 闺蜜圈APP
+      url: https://guimiquan.cn
+      description: "更简单更好用的大姨妈记录APP"
+    - name: zyq.today
+      url: https://zyq.today
+      description: "那年今日-小乔的博客"
+    - name: 辛未羊的网络日志
+      url: https://panqiincs.me/
+      description: "记录生活和学习"
+    - name: 轻淡时光
+      url: https://www.lybblog.cn
+      description: "爱与生活，皆在此处"
+    - name: 蛋蛋之家
+      url: https://wuqishi.com
+      description: "一枚蛋蛋的自留地"
+    - name: 虫洞【十年之约】
+      url: https://www.foreverblog.cn/go.html
+    - name: 若志随笔
+      url: https://rz.sb/
+      description: "愿世界安康，愿你我皆好！"
+    - name: 生活文案记录分享-网站建设-seo优化-朋友圈文案-文案大全-自由笔触
+      url: https://www.cshcp.com/
+      description: "自由笔触,记录分享生活中的碎碎念念,和收集到的朋友圈文案以及自己网站建设时摸索出来的一些seo优化的知识和技巧！"
+    - name: 耳朵的主人
+      url: https://www.edzbe.com/
+      description: "庆幸我们还有耳朵。"
+    - name: 美樂地
+      url: https://meledee.com
+      description: "Meledee.com"
+    - name: 绯鞠的博客
+      url: https://loli.fj.cn
+      description: 'MS4wLjABAAAA5qMD8Gzdcgq7HXUOviKB59i0-ybJ59jJvNzyaPt5XOsVNqP6DU7WLcoAXvdxvYdp💗<br><span style="color: red">本站所有文章仅作技术研究，请勿非法破坏，请遵守相关法律法规，后果自负</span>'
+    - name: 揽星
+      url: https://blog.zc.wiki/
+      description: "以时光为笔，终成岁月馈赠"
+    - name: 程序员关关
+      url: https://951008.com
+      description: "多读书 多看报 少刷抖音 多睡觉"
+    - name: 秫米
+      url: https://www.imiowo.com
+      description: "猫步轻敲"
+    - name: 碎言
+      url: https://www.suiyan.cc
+      description: "坚持深度阅读，持续写作输出，把固执与坚持，用在值得的事情上。"
+    - name: 皮皮社
+      url: https://www.pipishe.com
+      description: "皮一下～很开心"
+    - name: 清羽飞扬
+      url: https://blog.liushen.fun/
+      description: "柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜"
+    - name: 淇云博客
+      url: https://www.88pq.cn
+      description: "原创独立个人博客、个人网站，记录与学习、生活相关的点点滴滴"
+    - name: 梦之源泉
+      url: https://www.mzyq.com
+      description: "有梦才有未来"
+    - name: 梅之夏
+      url: https://blog.mcenahle.org.cn
+      description: "Explore. Dream. Discover."
+    - name: 杜郎俊赏
+      url: https://dujun.io
+    - name: 杜老师说
+      url: https://dusays.com
+      description: "运维技术分享博客"
+    - name: 时雨の一方净土🌈
+      url: https://noesis.love
+      description: "我在黄昏后醒来，窗外嬉闹的烟火唤醒了我的孤独"
+    - name: 文武科技柜
+      url: https://www.wangdu.site/
+      description: "文武科技社的后花园，免费软件、教程资源、NAS、黑苹果全面收录"
+    - name: 文案姐笔记
+      url: https://www.5186a.com
+      description: "文案姐笔记-文案姐资源网|文案姐封面|00后生活馆"
+    - name: 拍天空
+      url: https://pisky.asia/
+      description: "本站是一个专门发布天空照片的网站/app，如果你觉得你所在的城市天空照片美，就来这里分享吧！"
+    - name: 手里有只毛毛虫
+      url: https://www.krjojo.com/
+      description: "号角声起 - 等你启航"
+    - name: 慧行说-在知识的尽头,慢慢变老
+      url: https://liuyude.com
+      description: "在知识的尽头,慢慢变老"
+    - name: 彬红茶日记
+      url: https://note.redcha.cn
+      description: "个人生活笔记📒"
+    - name: 幻影博客
+      url: https://blog.52hyjs.com
+      description: "记录个人生活"
+    - name: 崔话记
+      url: https://cuixiping.com
+      description: "向着理想的方向，爬一会儿，躺一会儿"
+    - name: 小新笔记坊
+      url: https://xxbjf.com
+      description: "笔耕学思悟，细绘生活卷。"
+    - name: 小徐的流水时光
+      url: https://www.bugxu.top
+      description: "小徐的流水时光"
+    - name: 小小画廊
+      url: https://yao.best
+      description: "宝贝闺女学习画画的小作品"
+    - name: 小小博客
+      url: https://shagain.club
+      description: "技术分享"
+    - name: 安静的石头
+      url: https://www.cmdsir.com
+      description: "记录和分享生活中的点点滴滴"
+    - name: 学霸资源网
+      url: https://www.sosocom.cn
+      description: "学霸资源网"
+    - name: 夕格树洞
+      url: https://www.shitoucuo.com/
+      description: "夕格的碎碎念流水日常"
+    - name: 和和日志
+      url: https://yhehe.com/
+      description: "记录日常，整理心情"
+    - name: 周天记
+      url: https://zhoutian.com
+      description: "记录生活里的小美好"
+    - name: 博客星球
+      url: https://www.blogplanet.cn/
+      description: "每一个博客都是一个独立星球"
+    - name: 刘郎阁
+      url: https://vjo.cc/
+      description: "一个积极向上的生活探索者！"
+    - name: 六月是只猫
+      url: https://www.lyszm.com/
+      description: "生活，一半家长里短，一半山川湖海..."
+    - name: 倦意博客
+      url: https://jyblog.cn
+      description: "生命不息，折腾不止。"
+    - name: 似水流年
+      url: https://my1981.cn
+      description: "如花美眷，怎敌得过似水流年？"
+    - name: 云烟成雨
+      url: https://shiyu.dev/
+      description: "往事如烟，回首已惘然"
+    - name: 九月的风
+      url: https://sep.cc
+      description: "有一些希望和理想"
+    - name: 个站商店
+      url: https://storeweb.cn
+      description: "一个精致的带社交元素的博客收录平台"
+    - name: 东评西就
+      url: https://dongjunke.cn
+      description: "80 后互联网老司机，专注于科技互联网、社交媒体运营领域。"
+    - name: "Wcowin's Web"
+      url: https://wcowin.work
+      description: "循此苦旅，以达星辰"
+    - name: OhYee博客
+      url: https://www.ohyee.cc
+      description: "技术交流"
+    - name: "Ksable's 小屋"
+      url: https://blog.ksable.top
+      description: "我，一名高中生，昵称 kissablecho(ksable)，目前正在学海中垂死挣扎。|人生理想：无忧无虑，没心没肺地过日子"
+    - name: "Keyle's Blog"
+      url: https://vrast.cn/
+      description: "在这里记录一些偶尔冒出来转眼就会忘的灵感。"
+    - name: KaiQi.Wang
+      url: https://kaiqi.wang
+      description: "KaiQi.Wang,云晓晨,CatchWang"
+    - name: joojen Zhou
+      url: https://joojen.com
+      description: "joojen Zhou的个人网站 – 升级人生OS"
+    - name: Jeffer.Z的博客
+      url: https://www.jeffer.xyz/
+      description: "我在此处嗅到人间味道"
+    - name: ImQi1
+      url: https://imqi1.com
+      description: "ImQi1 - 做技术的分享者、生活的摄影师、时事的评论员。记录编程学习、生活点滴和时事评论的个人博客。"
+    - name: FGHRSH 的博客
+      url: https://www.fghrsh.net
+      description: "http://fp1.fghrsh.net/2017/10/11/d383a9ad4318c5b4332fe02845f5323a.jpg"
+    - name: "Evan's Space"
+      url: https://www.evan.xin
+      description: "Keep It Real"
+    - name: Echo小窝
+      url: https://www.liveout.cn
+      description: "Life is code. I will debug it."
+    - name: Dabenshi Blog
+      url: https://dabenshi.cn
+      description: "Dabenshi Blog"
+    - name: Baby归属地查询
+      url: https://ip.zhongxiaojie.cn/
+      description: "IP归属地查询"
+    - name: Baby反垃圾评论
+      url: https://anti-spam.zhongxiaojie.cn
+      description: "Baby anti-spam 反垃圾评论系统"
+    - name: 4in1网站截屏
+      url: https://shot.zhongxiaojie.cn

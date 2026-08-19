@@ -1,3 +1,14 @@
+# ── 数据源（用于更新 friends）────────────────
+# 站点: 笔墨迹 https://blogscn.fun/
+# 类型: SSR HTML 分页（Vite，无公开 API，数据随页面渲染）
+# 地址: https://blogscn.fun/blogs?page=N （每页18个，共13页约228站）
+#       卡片 .legacy-site-card 中 .legacy-site-identity h2 = 名称
+#       .legacy-site-domain = 域名（补 https:// 即站点 URL）
+#       .legacy-site-description title = 描述
+# 方法: 循环抓取 /blogs?page=1..13 → 正则提取卡片三字段
+# 抓取时间: 2026-08-18 | 条目: 241
+# ─────────────────────────────────────────
+
 site:
   name: 笔墨迹
   description: 博客聚合导航，发现更多有趣的博客。
@@ -374,3 +385,177 @@ site:
       url: https://blog.elysium-stack.cn
     - name: ElysiumStack
       url: https://www.duozai.cn
+    - name: 碎言
+      url: https://www.suiyan.cc
+      description: 几时归去，作个闲人。对一张琴，一壶酒，一溪云。
+    - name: 热衷于的博客
+      url: https://zooyoo.top
+      description: 静观不语，繁花落尽子规啼。曲终人不见，江上数峰青。
+    - name: Gemsly&#039;s Blog
+      url: https://blog.gemslyho.org
+      description: 以人文视角关注技术，用极客精神记录生活。探索硬件与代码的边界，也记录思考与日常的闪光。
+    - name: 睿朗的秘密基地
+      url: https://blog.iamcrl.cn
+      description: 睿朗的博客，会在这里更新一些文章o。
+    - name: 学历史
+      url: https://www.xuelishi.cn
+      description: 高中历史学习博客
+    - name: 胡拉图说
+      url: https://hulatu.com
+      description: 一位不谈专业，只聊生活的工科研究生。
+    - name: ZL Hunter的博客
+      url: https://zlhunter.top
+      description: |-
+        关于博客：定位是一个“逼着”自己思考、产出的地方，一个可以慢下来，不受拘束地表达的地方。
+        关于自己：工科类专业大学生，同时向往着理论的优美、技术的精妙、人文的沁润，啥都好奇但容易三分钟热度
+        写作方向：书评影评，技术博客，一点小说，碎碎念
+    - name: Detached
+      url: https://detached.online
+      description: 独立开发者的技术、工具与生活博客
+    - name: 没吃饱的天镜镜
+      url: https://blog.8765777.xyz
+      description: 𝓓𝓸𝓷&#039;𝓽  𝓬𝓪𝓻𝓮  𝓪𝓫𝓸𝓾𝓽  𝔀𝓸𝓻𝓵𝓭𝓵𝔂   𝓮𝔂𝓮𝓼  𝓽𝓸  𝓹𝓾𝓻𝓼𝓾𝓮  𝔂𝓸𝓾𝓻  𝓸𝔀𝓷  𝓵𝓲𝓰𝓱𝓽 不必在意世俗的眼光，去追寻属于你自己的光
+    - name: 乐土的小站
+      url: https://swlt.work
+      description: 在这里，我分享关于灵感、剧本、考据与生活方式的思考。每一篇文章都是精心策划的创意表达，旨在为读者带来启发。
+    - name: 黄鼠狼的树洞
+      url: https://blog.weasel6.cn
+      description: 小黄的博客，记录生活中的美好
+    - name: Serendipity
+      url: https://blog.liuhangyv.top
+      description: AI技术分享 × 行业动态 × 创新实践
+    - name: 毛伊西格
+      url: https://sigge.cn
+      description: 记录生活，记录摄影，记录个人开发者的事
+    - name: 逸树の小屋
+      url: https://474029.xyz
+      description: 逸枝向野，静木生风。
+    - name: 老姚笔记
+      url: https://yirz.cn
+      description: 日常生活和自己常用的软件、网站
+    - name: 鲸鱼尾巴
+      url: https://www.whtle.com
+      description: 鲸落十里，一念成山
+    - name: Amiya&#039;s书桌
+      url: https://blog.sayori.org
+      description: |-
+        博客里面会有我的日记，我的思考和我的分享
+        写作方向基本就是感兴趣就写
+        我是Amiya_desi，到处留痕，到处学习
+    - name: 梅之夏
+      url: https://blog.mcenahle.page
+      description: 一个使用 hexo 搭建的个人博客网站。
+    - name: Happy花椒
+      url: https://www.quhj.com
+      description: 花椒微麻，生活微甜，刚刚好！
+    - name: LiesAuer&#039;s Blog
+      url: https://www.liesauer.net
+      description: 好看的皮囊千篇一律，有趣的灵魂万里挑一
+    - name: 清枫の小窝
+      url: https://wp.qwq2022.top
+      description: 一个普通高中生搭建的个人blog，分享一些个人的思考以及其他有的没的
+    - name: 叹惋博客
+      url: https://twbk.cn
+      description: 写一些个人随笔
+    - name: SukのBlog
+      url: https://imsuk.cn
+      description: SukのBlog 是 Suk 的个人博客，专注分享建站教程、网站源码、服务器与宝塔面板实战、免费 API 接口与各类网络资源，偶尔记录生活日常与影视游戏。
+    - name: 文轩夜话
+      url: https://blog.awaae001.top
+      description: 可知是梦，何来的清醒？
+    - name: Castamere&#039;s blog
+      url: https://dino.castamerego.com
+      description: 代码美学
+    - name: 5had0w
+      url: https://www.5had0w.com
+      description: 一个游走在互联网边缘的影子，希望在这个世界留下一点痕迹。
+    - name: 文案姐笔记
+      url: https://www.5186a.com
+      description: 别难为自己，孤独比将就有趣多了。
+    - name: 鵝庵筆記
+      url: https://white-ceiling.bearblog.dev
+      description: 一些讀書謾記、臆記、偶記。以古代文史為主，尤其宋史、思想史、經學史。
+    - name: 王叨叨
+      url: https://wangdaodao.com
+      description: 无叨叨，不博客！不懂用户体验的前端不是好爸爸……
+    - name: 小曦的园子
+      url: https://xiaoxi.ac.cn
+      description: 打理好自己的园子
+    - name: 朝朝听雨
+      url: https://rainzt.cn
+      description: 物物而不物于物，念念而不念于念
+    - name: 思迈时光
+      url: https://blog.sdsml.top
+      description: 于思考中前行，于时光里生长
+    - name: 频率
+      url: https://pinlyu.com
+      description: 愿你的频率，终被懂的人接收。
+    - name: AIOVTUE-雪
+      url: https://daily.yybb.us
+      description: 雨滴会记录生命中的每一个瞬间
+    - name: 一望成欢🍀
+      url: https://wanqingcheng.cn
+      description: 一望成欢🍀记录烟火，珍藏热爱
+    - name: Mofei
+      url: https://www.mofei.life
+      description: 一个在芬兰的超级奶爸程序员
+    - name: 林霄阙
+      url: https://lxqgf.cn
+      description: 一个博客。
+    - name: 伯正
+      url: https://chenbozheng.com
+      description: 随笔记录点滴生活。有读书心得、生活感悟、旅行随记等内容。
+    - name: 西瓜猜字谜的博客
+      url: https://www.xiguacaizimi.top
+      description: 记录西瓜猜字谜的日常
+    - name: aijun&#039;s blog
+      url: https://aijun.org
+      description: aijun记录分享工作及生活等日常的博客
+    - name: 云墨观窗
+      url: https://mojue88.com
+      description: 静坐窗前以文字记录日常与所思
+    - name: Sheep5的博客
+      url: https://sheep5.net
+      description: 一个普通人的生活记录自留地。分享日常随笔、Obsidian 笔记心得、数码工具折腾（Jetpack、港区 Apple ID 等）与一点个人思考。不端着，记录真实生活。
+    - name: 我的学记|刘航宇的博客
+      url: https://ee.ac.cn
+      description: 刘航宇的博客-EE学术,本站旨在分享电子与计算机技术有关知识与本人生活、工作和学习的笔记
+    - name: 崔话记
+      url: https://cuixiping.com
+      description: 个人生活随笔。向着理想的方向，爬一会儿，躺一会儿
+    - name: 威言威语
+      url: https://www.weisay.com
+      description: 我愿像茶，苦涩留心，清香予人。
+    - name: YnsStudy
+      url: https://ynsstudy.cn
+      description: 少一点迷茫，多一点引导，学习之路不再孤单，永远相信美好的事情即将发生。
+    - name: lcrworld&#039;s blog
+      url: https://lcrworld.xyz
+      description: lcrworld的个人博客，分享技术，生活与思考
+    - name: 51chifun&#039;s blog
+      url: https://51chifun.cc.cd
+      description: 什么有趣就折腾什么
+    - name: 益友网站
+      url: https://www.yiyou.bj.cn
+      description: 记生活点滴，留岁月温柔。
+    - name: 竹秋自留地
+      url: https://www.zqzld.com
+      description: 竹秋自留地-注重分享，坚持原创分享！
+    - name: 胡东东博客
+      url: https://blog.hudd.cn
+      description: 优质的中文技术类博客，高质量的技术文章分析和讲解。
+    - name: 长安城何幸此相逢
+      url: https://www.hesme.com.cn
+      description: 长安城何幸此相逢网游玩家博客站点，以剑之名，相遇即是江湖。记录恶人谷兄弟的江湖路，分享游戏心得与成员风采。
+    - name: Borling&#039;s Blog
+      url: https://borling.daydayupup.com
+      description: 勇敢的人先享受世界✨
+    - name: 老街里
+      url: https://laojieli.cn
+      description: 一种宁静而落寞的气息
+    - name: Jinbo Blog
+      url: https://www.panjinbo.com
+      description: 技术，旅行与生活
+    - name: 冰剑
+      url: https://digu.plus
+      description: 这个博客还没有填写简介。

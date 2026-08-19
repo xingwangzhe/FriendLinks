@@ -1,0 +1,70 @@
+# ── 数据源（用于更新 friends）────────────────
+# 站点: 八零圈 https://www.80tz.cn/（自由、共享给原创博客写作一个空间）
+# 类型: API（JSON，分页；前端为 React SPA，页面无 SSR 数据）
+# 地址: https://www.80tz.cn/api/blogs?page=<n>&pageSize=10 （total=18，共 2 页）
+# 注意: 分页参数必须用 page=<n>（pageNo 无效，恒返回第 1 页）
+# 方法: 循环请求 page=1..2，取 results[] 的 name→name、address→url、rssAddress→RSS、description→描述
+# 抓取时间: 2026-08-19 | 条目: 18
+# 备注: 站主已提交博客审核（/blog-requests），截至 2026-08-19 API 尚未收录 xingwangzhe.fun，后续更新时留意
+# ─────────────────────────────────────────
+
+site:
+  name: 八零圈
+  url: https://www.80tz.cn/
+  description: 八零圈 — 自由、共享，给原创博客写作一个空间；收录独立博客并聚合 RSS
+  links: /
+  friends:
+    - name: 一望成欢🍀
+      url: https://wanqingcheng.cn/
+      description: "一望成欢🍀记录烟火，珍藏热爱"
+    - name: Inalineの小站
+      url: https://inaline.net/
+      description: "Inalineの小站整理编程干货、搜罗实用资源，偶尔也写写生活碎碎念。从入门教程到进阶技巧，从免费工具到学习心得——这里的一切，都是为了让你学得更轻松、玩得更开心。进来逛逛，总有一篇适合你！"
+    - name: 思迈时光
+      url: https://blog.sdsml.top
+      description: "于思考中前行，于时光里生长"
+    - name: 爱情在线
+      url: https://aqzx.com
+      description: "一个因网恋而建，然后碎碎念了20多年的个人站点。"
+    - name: 宗宗酱
+      url: https://ygz.ink
+      description: "用文字和图片记录生活。"
+    - name: 朝朝听雨
+      url: http://rainzt.cn/
+      description: "物物而不物于物，念念而不念于念"
+    - name: 张洪Heo
+      url: https://blog.zhheo.com/
+      description: "你好，很高兴认识你。我叫张洪Heo，是一名设计师、产品经理、独立开发者、博主。"
+    - name: 品味苏州
+      url: https://pwsz.com
+      description: "吴侬软语、小桥流水，最美在苏州。"
+    - name: 云奚小屋
+      url: https://yxgoa.cn/
+      description: "云奚小屋，收录世界美好瞬间！"
+    - name: sssr7844的博客
+      url: https://sssr7844.cc.cd/
+      description: "sssr7844的博客，讨论关于技术、自由开源、我的世界、C++以及一些其它我分享的事情。 站点签名：为了未来"
+    - name: 徐结华
+      url: https://xu219.cn/pyq
+      description: "徐结华的个人主页，动态，记事本"
+    - name: 黄鼠狼的树洞
+      url: https://blog.weasel6.cn/
+      description: "小黄的博客，记录生活中的美好"
+    - name: 轻风Blog
+      url: https://www.qingfengnb.cn/
+      description: "茫茫人海，多么幸运遇见你！"
+    - name: 热衷于的博客
+      url: https://zooyoo.top/
+      description: "网络偌大，相逢即是缘分。探索技术、钟情文字人文、愿意感受生活里的细碎美好，欢迎您常来驻足。也期待大家在评论区交流想法、分享观点，一同闲聊探讨。"
+    - name: 茗辰原
+      url: https://mingcy.cn/
+      description: "茶香四溢，编程世界。"
+    - name: 徐建伟
+      url: http://www.xulog.cn/
+      description: "徐建伟微博客是分享生活、随笔、经典、语录等一句话的个人微博，聚集了在QQ说说、微信、百度空间、新浪网易博客等平台发布的内容。"
+    - name: 益友网站
+      url: https://blog.yiyou.bj.cn
+      description: "记生活点滴，留岁月温柔。"
+    - name: 秋記Autumn
+      url: https://www.zhyok.cn/
+      description: "80后个人博客、网络日杂、生活记录。"

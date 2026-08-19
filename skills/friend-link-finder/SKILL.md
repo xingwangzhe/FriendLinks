@@ -3,9 +3,8 @@ name: friend-link-finder
 description: >-
   Locate a website's friend-links (友链 / blogroll) page or section, crawl it
   with `crwl -o markdown`, extract the friend-link list, filter out items that
-  fail the FriendLinks project's AGENTS.md admission standard (social-media
-  profiles, blog frameworks/tools, commercial sites, CDNs, doc-hosting
-  platforms, OS/project sites, pure navigation), and emit data in the
+  fail the FriendLinks project's AGENTS.md admission standard, route candidates
+  with insufficient evidence to `links/unverified/`, and emit data in the
   project's links/*.yml Site format (single site node + its friends as edges).
   Use when a user gives a URL and asks to add / update / overwrite a site's
   friend links, or to find a blog's link page.
@@ -15,8 +14,10 @@ description: >-
 
 ## Overview
 
-Given a site URL, produce or refresh a `links/<domain>.yml` entry for the
-FriendLinks project: one `site` node plus its `friends` as outgoing edges.
+Given a site URL, classify it first, then produce or refresh a verified
+`links/<domain>.yml`, a verified `links/aggregators/<domain>.yml`, or an
+unresolved `links/unverified/<domain>.yml` entry for the FriendLinks project:
+one `site` node plus its admitted `friends` as outgoing edges.
 The hard parts are (1) *finding* the links page and (2) *recovering* the list
 when the page is a client-rendered SPA that `crwl -o markdown` can't see. This
 skill covers both, then defers final admission decisions to
@@ -64,12 +65,19 @@ Then search `app.js` for friend data. Observed shapes:
 Strip `?from=` / `?utm_` tracking params from the final URLs.
 
 ### 5. Filter (per AGENTS.md)
-Apply the admission standard in `references/filtering.md`. Exclude social-media
-profiles, frameworks/tools, commercial sites, CDNs, doc platforms (e.g.
-yuque), OS/project sites, pure navigation. When unsure, include and flag for
-the user. Strip tracking params.
+Apply the three-state admission standard in `references/filtering.md` to the
+target site and to every extracted friend independently:
 
-### 6. Build / overwrite the yml
+- `include`: evidence establishes a qualifying `blog` or `blog-aggregator`;
+- `unverified`: access, authorship, originality, site type, or primary purpose
+  cannot be established; preserve it under `links/unverified/` for review;
+- `exclude`: a hard exclusion is confirmed, so do not create a node.
+
+Do not treat RSS, `<article>`, dates, page titles, framework fingerprints, or
+blog-like keywords as proof by themselves. Strip tracking parameters before
+comparing or writing URLs.
+
+### 6. Build / overwrite the YAML
 Structure (filename = site domain, e.g. `aira.cafe.yml`):
 ```yaml
 site:
@@ -81,20 +89,28 @@ site:
     - name: friend display name
       url: clean friend url
 ```
-- **Overwrite** when the file exists ("覆盖更新"): rewrite from the fresh crawl.
-- If the site has **no** friend-link page at all (only social links, e.g.
-  `wzq02.top`), still create the node with `friends: []` so inbound edges from
-  other sites resolve to a real node; note this in your report.
+- Write a verified blog to the appropriate normal `links/` category and a
+  verified aggregator to `links/aggregators/`.
+- Write an `unverified` candidate to `links/unverified/<domain>.yml`. Keep the
+  normal Site schema and record the reason label, evidence URLs, and review date
+  in leading YAML comments; do not add unsupported `review` or `type` fields.
+- **Overwrite** when the file exists ("覆盖更新"): rewrite it from the
+  fresh crawl without changing its admission state unless the new evidence
+  justifies that change.
+- A site that has no friend-link page may use `friends: []` only after its own
+  content independently proves that it is a qualifying blog. Never create an
+  empty node merely to retain a non-blog or unresolved site.
 
 ### 7. Validate & format
 ```bash
-bun run validate          # must pass; fix any type errors
-bun run fmt <file>        # format the new/changed file
+bun run validate                       # validate formal graph data
+bun run validate links/unverified      # validate candidates when applicable
+bun run fmt <file>                     # format the new/changed file
 ```
 
 ### 8. Report
-Summarize included vs excluded friends and the filtering rationale. **Do not
-`git push`** (AGENTS.md). Ask before committing.
+Summarize included, unverified, and excluded candidates and the filtering
+rationale. **Do not `git push`** (AGENTS.md). Ask before committing.
 
 ## Pitfalls
 

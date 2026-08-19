@@ -1,9 +1,27 @@
+# ── 数据源（用于更新 friends）────────────────
+# 站点: 若梦博客 https://www.rmbk.cc/
+# 类型: 静态 HTML（服务端渲染，分页），未发现公开 JSON API
+# 地址: https://www.rmbk.cc/blogs?sort=join&page=<n> （共 9 页，每页 10 条）
+#       支持 sort=join|update|view 排序，均为同一数据集
+# 方法: 循环请求 page=1..9，取每个 .blog-card 中的
+#       .blog-title（name）/ .blog-url（url）/ .blog-description（描述），按 url 去重
+# 抓取时间: 2026-08-19 | 条目: 82
+# 注意: 域名 DNS 被加速乐 WAF 劫持（103.120.90.116，TLS 握手被重置），
+#       需用备用 CDN IP 115.238.196.79 配合 `curl --resolve rmbk.cc:443:115.238.196.79` 访问
+# ─────────────────────────────────────────
+
 site:
   name: 若梦博客
   url: https://www.rmbk.cc/
   description: 若梦博客是一个专注于中文独立博客的聚合与收录平台，汇聚散落的文字星光。
   links: /blogs
   friends:
+    - name: Serendipity
+      url: https://blog.liuhangyv.top
+    - name: 老姚笔记
+      url: https://yirz.cn/
+    - name: 林子浩的日记
+      url: https://lzh1.cn/
     - name: 宇阳
       url: https://liuyuyang.net
     - name: 记录生活 精彩一刻
@@ -14,8 +32,6 @@ site:
       url: https://yigeboke.com
     - name: 蛋蛋之家
       url: https://wuqishi.com
-    - name: 华立博客
-      url: https://renhuali.cn/
     - name: 江博客
       url: https://www.lixuejiang.com
     - name: 灵的梦境
@@ -52,7 +68,7 @@ site:
       url: https://jefftay.com
     - name: 风雨行者
       url: http://stuit.cn
-    - name: 清枫的小窝
+    - name: 清枫の小窝
       url: https://wp.qwq2022.top
     - name: 傥师妹的小空间
       url: https://blog.224418.xyz/
@@ -64,7 +80,7 @@ site:
       url: https://www.886a.top
     - name: 落花雨记
       url: https://www.luohuayu.cn
-    - name: 资工小废物 - JN
+    - name: 資工小廢物 - JN
       url: https://blog.giveanornot.com
     - name: 竹秋自留地
       url: https://www.zqzld.com/
@@ -128,8 +144,6 @@ site:
       url: http://www.xulog.cn/
     - name: Mayx的博客
       url: https://mabbs.github.io/
-    - name: 温岭慈善义工石塘服务队
-      url: https://www.styg.org.cn/
     - name: 徐结华
       url: https://xu219.cn
     - name: 小生博客
@@ -138,8 +152,8 @@ site:
       url: https://ficor.net/
     - name: 朱小呆
       url: https://zhujay.com/
-    - name: 风舞心弦
-      url: https://fengwu.art/
+    - name: 风·墨
+      url: https://vind.ink/
     - name: 刘郎阁
       url: https://vjo.cc/
     - name: 多星宇博客
@@ -148,8 +162,6 @@ site:
       url: https://blog.lhasa.icu/
     - name: 允赫先森's Blog
       url: https://www.3v.hk/
-    - name: 磊磊落落
-      url: https://leileiluoluo.com/
     - name: 无名博客
       url: https://wuminboke.site/
     - name: 爱娃子

@@ -1,5 +1,5 @@
 /**
- * frontier-rank — 扫描 links/*.yml，找出「被友链引用但尚未建节点」的域名，
+ * frontier-rank — 递归扫描 links 目录下所有 .yml，找出「被友链引用但尚未建节点」的域名，
  * 按入度（被多少已收录站点链到）排序，并做 L1 硬排除标记。
  *
  * 用法（请在仓库根目录执行）：
@@ -247,7 +247,7 @@ async function main() {
   const dead = loadDeadHosts(join(process.cwd(), "dead.txt"));
   log(`[frontier-rank] dead.txt: ${dead.size} 条`);
 
-  log("[frontier-rank] 加载 links/*.yml …（约数千文件，可能需数秒）");
+  log("[frontier-rank] 加载 links/**/*.yml …（约数千文件，可能需数秒）");
   const t0 = performance.now();
   clearSiteCache();
   const sites = await loadSites("links");
