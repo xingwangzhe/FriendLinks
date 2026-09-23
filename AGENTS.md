@@ -4,9 +4,10 @@
 > 所有本地修改必须先经用户确认，再由用户决定是否推送。
 > 任何时候需要推送，必须 ask 用户是否要 git push。
 
-> **⚠️ 关键规则：未经用户明确要求，禁止在本地执行 `bun run build`！**
-> 本项目构建涉及 8600+ 友链文件与全量 BFS 图计算，耗时长（1 分钟以上），太浪费时间。
-> 默认只跑 `bun run lint` / `bun run validate` 等轻量校验；需要 build 验证时必须先征得用户同意。
+> **🚫🚫 最高优先级硬规则：未经用户明确允许，绝对禁止在本地执行 `bun run build`！**
+> 本项目构建涉及 8600+ 友链文件与全量 BFS 图计算，动辄 1 分钟以上，**太浪费时间**。
+> 无论任何场景（升级依赖、改代码、排查问题）都不得擅自 build；默认只跑 `bun run lint` / `bun run validate` 等轻量校验。
+> 确实需要 build 验证时，必须先问用户、得到明确同意后才能执行。违反此规则视为严重失误。
 
 ## 📁 目录结构
 
@@ -296,7 +297,7 @@ bun run lint && bun run fmt  # 提交前检查
 | 命令 | 用途 |
 |------|------|
 | `bun run dev` | 启动 Astro 开发服务器 |
-| `bun run build` | 构建生产版本 |
+| `bun run build` | 构建生产版本 ⚠️ **未经用户明确允许禁止执行**（见顶部硬规则） |
 | `bun run validate` | 校验 `scripts/validate-links.ts` — 检查 YAML 格式和必填字段 |
 | `bun run six` | 运行 `scripts/six-degrees.ts` — 六度分隔分析 |
 | `bun run frontier` | 运行 `scripts/frontier-rank.ts` — 按入度排序待扩网域名 |
