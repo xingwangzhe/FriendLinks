@@ -237,8 +237,8 @@ grep -rl "关键词" links/
 
 - 候选使用与正式站点完全相同的 YAML Schema 和域名文件名；不要增加 `review`、`type` 等 Schema 外字段。
 - 审核状态、原因码、证据 URL 和检查日期写在 YAML 顶部注释中。
-- 默认构建、`/all.json`、统计、图二进制端点、`validate`、`six`、`frontier`、站点名称更新和默认 `audit` 都必须跳过该目录。
-- 显式运行 `bun run validate links/unverified` 可以只校验候选结构；`bun run audit --dir links/unverified` 可以只审核候选。
+- 默认构建、`/all.json`、统计、图二进制端点、`validate`、`six` 和站点名称更新都必须跳过该目录。
+- 显式运行 `bun run validate links/unverified` 可以只校验候选结构。
 - 验证通过后，将文件移动到普通正式分类或 `links/aggregators/`；明确不合格后删除候选或移交审核报告。
 - 已确认合格的博客即使没有公开友链页，也可以使用 `friends: []`；空数组不能让非博客获得正式节点。
 - 格式化工具可以处理该目录；格式化不会改变候选状态，也不会令其进入图数据。
@@ -292,6 +292,8 @@ bun run fmt          # oxfmt 格式化
 bun run lint && bun run fmt  # 提交前检查
 ```
 
+过滤、准入审核和扩网筛选工具已移至 `outdated/`，暂时过时并已弃用；不作为当前可用命令或技能。详见 `outdated/README.md`。人工准入标准仍保留。
+
 ### 可用脚本
 
 | 命令 | 用途 |
@@ -300,8 +302,6 @@ bun run lint && bun run fmt  # 提交前检查
 | `bun run build` | 构建生产版本 ⚠️ **未经用户明确允许禁止执行**（见顶部硬规则） |
 | `bun run validate` | 校验 `scripts/validate-links.ts` — 检查 YAML 格式和必填字段 |
 | `bun run six` | 运行 `scripts/six-degrees.ts` — 六度分隔分析 |
-| `bun run frontier` | 运行 `scripts/frontier-rank.ts` — 按入度排序待扩网域名 |
-| `bun run audit` | 运行 `scripts/audit-links.ts` — 生成准入审核报告 |
 | `bun run lint` | oxlint 代码检查 + TypeScript 类型检查 |
 | `bun run fmt` | oxfmt 格式化 `src/` 和 `links/` |
 

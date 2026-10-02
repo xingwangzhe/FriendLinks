@@ -36,11 +36,7 @@ site:
 bun run validate links/unverified
 ```
 
-只生成本目录候选的审核报告：
-
-```bash
-bun run audit --dir links/unverified
-```
+旧自动审核工具已弃用并归档至 `outdated/`，见 [归档说明](../../outdated/README.md)。候选继续按以下标准人工复核。
 
 复核时按以下顺序执行：
 

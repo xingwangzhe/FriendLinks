@@ -5,7 +5,8 @@
     "**/*"
   ],
   "exclude": [
-    "dist"
+    "dist",
+    "outdated"
   ],
   "compilerOptions": {
     "types": ["bun-types"],

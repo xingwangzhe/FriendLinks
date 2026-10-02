@@ -24,8 +24,6 @@
     "fmt-check": "oxfmt src/ links/ --check",
     "validate": "bun run scripts/validate-links.ts",
     "six": "bun run scripts/six-degrees.ts",
-    "frontier": "bun run scripts/frontier-rank.ts",
-    "audit": "bun run scripts/audit-links.ts",
     "test": "bun test"
   },
   "dependencies": {
