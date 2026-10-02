@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-02",
+  "baseline": {
+    "rawRecords": 8711,
+    "rawFriendReferences": 131170,
+    "nodes": 49442,
+    "uniqueNodeIds": 49437,
+    "edges": 119232,
+    "selfLoops": 4,
+    "uniquePairs": 109448
+  },
+  "current": {
+    "rawRecords": 8710,
+    "mergedRecords": 33,
+    "rawFriendReferences": 130499,
+    "totalRawRecords": 8710,
+    "totalLogicalSites": 8677,
+    "logicalSites": 8677,
+    "normalizedFriendReferences": 120120,
+    "nodes": 49428,
+    "uniqueNodeIds": 49428,
+    "edges": 109539,
+    "selfLoops": 0,
+    "uniquePairs": 109539
+  },
+  "topologyMs": 2218.7841039999985,
+  "method": "Legacy graph assembly extracted from HEAD; shared pure topology only. No layout or all-pairs BFS.",
+  "oldStatsBfsFullUrlNodes": 70063,
+  "relationshipPreservation": {
+    "expectedDirectedRelations": 120120,
+    "actualDirectedRelations": 120120,
+    "missing": 0,
+    "additional": 0
+  }
+}

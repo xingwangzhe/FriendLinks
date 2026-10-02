@@ -1,0 +1,432 @@
+{
+  "checked_date": "2026-10-02",
+  "timezone": "Asia/Shanghai",
+  "method": "crwl live crawl and manual assessment; first pass plus targeted delayed recrawls",
+  "counts_records": {
+    "exclude": 3,
+    "include": 31,
+    "unverified": 8
+  },
+  "records": [
+    {
+      "file": "ally.ren.yml",
+      "name": "随手记博客",
+      "url": "https://www.ally.ren/",
+      "links": "/links",
+      "decision": "exclude",
+      "reason": "tool-or-product-primary",
+      "finding": "公众号开博和站内发布平台，文章属于同站用户空间；外部链接只是页尾友链。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/ally.ren.yml.md"
+    },
+    {
+      "file": "bf.zzxworld.com.yml",
+      "name": "BlogFinder",
+      "url": "https://bf.zzxworld.com/",
+      "links": "/s",
+      "decision": "include",
+      "reason": "",
+      "finding": "跨博客文章流、所有博客目录、具名来源和访问博客入口。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/bf-members.md"
+    },
+    {
+      "file": "blogger.toocool.cc.yml",
+      "name": "BOZHU 博主导航",
+      "url": "https://blogger.toocool.cc/",
+      "links": "/links",
+      "decision": "unverified",
+      "reason": "unverifiable",
+      "finding": "两次抓取失败；复抓为 ERR_CONNECTION_CLOSED。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/retry-blogger.md"
+    },
+    {
+      "file": "bloginc.cn.yml",
+      "name": "博客集",
+      "url": "https://bloginc.cn/",
+      "links": "/",
+      "decision": "include",
+      "reason": "",
+      "finding": "按主题分类独立博客，详情页给出原站 URL、访问博客及原文链接。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/bloginc-detail.md"
+    },
+    {
+      "file": "blogplanet.cn.yml",
+      "name": "博客星球",
+      "url": "https://blogplanet.cn/",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "博客星球按年份列出多个独立博客，名称与外部原站链接直接对应。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/blogplanet.cn.yml.md"
+    },
+    {
+      "file": "blogroll-network.alexsci.com.yml",
+      "name": "Blogroll Network Map",
+      "url": "https://blogroll-network.alexsci.com/",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "公开 OPML 博客关系网络与可浏览 feed 目录，提供来源、网站发现机制。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/blognetwork-discover.md"
+    },
+    {
+      "file": "blogroll.online.yml",
+      "name": "中文独立博客聚合列表",
+      "url": "https://blogroll.online/",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "跨多个独立博客的摘要文章流，文章直接链接原文，部分附作者名。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/blogroll.online.yml.md"
+    },
+    {
+      "file": "blogsclub.org.yml",
+      "name": "BlogsClub",
+      "url": "https://www.blogsclub.org/",
+      "links": "/members.html",
+      "decision": "include",
+      "reason": "",
+      "finding": "成员名录和文章流是一等入口；成员页实际列出大量博客及原站链接。与 www.blogsclub.org.yml 同一 URL，重复记录。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/blogsclub-members.md"
+    },
+    {
+      "file": "blogscn.fun.yml",
+      "name": "笔墨迹",
+      "url": "https://blogscn.fun/",
+      "links": "/blogs.html",
+      "decision": "include",
+      "reason": "",
+      "finding": "独立博客文章发现和站点目录；详情给出域名、作者归属及阅读原文入口。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/blogscn-detail.md"
+    },
+    {
+      "file": "blogtalk.org.yml",
+      "name": "博客说",
+      "url": "https://www.blogtalk.org/",
+      "links": "/blogs",
+      "decision": "include",
+      "reason": "",
+      "finding": "博客广场和跨博客 RSS 摘要，明确标注博客来源并提供外链参数。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/blogtalk.org.yml.md"
+    },
+    {
+      "file": "bo.ke.yml",
+      "name": "Bo.Ke",
+      "url": "https://bo.ke/",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "独立博客联盟、成员目录、标签及最新文章，阅读全文直达原文。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/bo.ke.yml.md"
+    },
+    {
+      "file": "boke.lu.yml",
+      "name": "博客录",
+      "url": "https://boke.lu/",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "首页有大量独立博客名录与包含原站 URL 的编码跳转；论坛附属存在，但博客发现仍是独立主要功能。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/boke.lu.yml.md"
+    },
+    {
+      "file": "bokehub.com.yml",
+      "name": "博客中心",
+      "url": "https://bokehub.com/home",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "博客广场提供多个独立博客、博客原站和最新原文跳转。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/bokehub-blogs.md"
+    },
+    {
+      "file": "bokelianmeng.com.yml",
+      "name": "博客联盟",
+      "url": "https://www.bokelianmeng.com/",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "主要为独立博客分类目录，详情有访问原站入口；附有常用工具分类，不代表每个条目都合格。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/bokelianmeng.com.yml.md"
+    },
+    {
+      "file": "bokequan.cn.yml",
+      "name": "博客圈",
+      "url": "https://bokequan.cn/",
+      "links": "/links",
+      "decision": "unverified",
+      "reason": "unverifiable",
+      "finding": "两次抓取失败；复抓为 ERR_CONNECTION_CLOSED。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/retry-bokequan.md"
+    },
+    {
+      "file": "boringbay.com.yml",
+      "name": "无聊湾",
+      "url": "https://boringbay.com/",
+      "links": "/",
+      "decision": "include",
+      "reason": "",
+      "finding": "持续公开的博客名录、随机探索与今日航线，具名卡片直接链接原站。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/boringbay.com.yml.md"
+    },
+    {
+      "file": "boyouquan.com.yml",
+      "name": "博友圈",
+      "url": "https://www.boyouquan.com/",
+      "links": "/blogs",
+      "decision": "include",
+      "reason": "",
+      "finding": "博客广场及具名 RSS 摘要流，阅读链接包含外部原文 URL；首轮动态数据不完整，补抓 home 后恢复。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/boyouquan-full.md"
+    },
+    {
+      "file": "dalao.net.yml",
+      "name": "大佬论坛",
+      "url": "https://www.dalao.net/",
+      "links": "/links",
+      "decision": "exclude",
+      "reason": "forum-primary",
+      "finding": "当前首页为中国域名论坛，以交易、投资、帖子和回复为核心，页尾普通友链不构成聚合站。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/dalao.net.yml.md"
+    },
+    {
+      "file": "dogerolls.com.yml",
+      "name": "蛋卷box技术博客收集",
+      "url": "https://dogerolls.com/",
+      "links": "/",
+      "decision": "include",
+      "reason": "",
+      "finding": "独立技术博客目录，表格逐条列出博客名、原站地址与标签，并有分页。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/dogerolls.com.yml.md"
+    },
+    {
+      "file": "eeenav.com.yml",
+      "name": "易博集 EboHub",
+      "url": "https://eeenav.com/blogs",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "仅以现有规范栏目 /blogs 收录：易博集有独立博客分类目录及详情页。母站是通用导航，不应把根域首页视作博客聚合站。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/eeenav.com.yml.md"
+    },
+    {
+      "file": "findblog.net.yml",
+      "name": "FindBlog",
+      "url": "https://www.findblog.net",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "公开精选/推荐跨博客 RSS 流，标注来源并链接博客；关于页明确独立博客发现定位。阅读器为附属功能。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/findblog-about.md"
+    },
+    {
+      "file": "foreverblog.cn.yml",
+      "name": "十年之约",
+      "url": "https://www.foreverblog.cn/",
+      "links": "/blogs.html",
+      "decision": "include",
+      "reason": "",
+      "finding": "长期公开的签约成员名录、订阅及文章入口，成员详情有查看原站链接；暂停新增不影响既有发现功能。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/forever-detail.md"
+    },
+    {
+      "file": "frdlink.link.yml",
+      "name": "友链圈",
+      "url": "https://www.frdlink.link",
+      "links": "/links",
+      "decision": "unverified",
+      "reason": "aggregator-not-blog-focused",
+      "finding": "当前页面自称友链，提供申请友链和复制全部，混有导航、论坛；存在同品牌个人博客，尚无法确认独立博客发现平台定位。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/frdlink.link.yml.md"
+    },
+    {
+      "file": "haozhan.wang.yml",
+      "name": "好站网",
+      "url": "https://haozhan.wang/",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "公开博客目录和多源摘要流，文章详情明确来源站点、RSS 地址和查看原文链接。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/haozhan-detail.md"
+    },
+    {
+      "file": "hi.jiuchan.org.yml",
+      "name": "揪蝉",
+      "url": "https://hi.jiuchan.org",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "发现页实际列出具名博客与访问原站链接；文档明确独立博客创作者和随机成员博客发现定位。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/hi-docs.md"
+    },
+    {
+      "file": "iblogroll.com.yml",
+      "name": "IBLOGROLL",
+      "url": "https://iblogroll.com/",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "公开多博客名录、具名 RSS 摘要文章流，原文直链。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/iblogroll.com.yml.md"
+    },
+    {
+      "file": "juhewenzhai.com.yml",
+      "name": "聚合文摘",
+      "url": "https://juhewenzhai.com/",
+      "links": "/plaza.php",
+      "decision": "exclude",
+      "reason": "aggregator-not-blog-focused;tool-or-product-primary",
+      "finding": "关于页明确全网 RSS 阅读工具定位，混合博客、专栏、资讯，自定义订阅/OPML/阅读进度为核心；不是专注独立博客发现。样本详情保留来源与原文链接，不能判成无来源采集。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/juhewenzhai-about.md"
+    },
+    {
+      "file": "langhai.net.yml",
+      "name": "浪海导航 ~ 收录各种类型的博客以及论坛网站",
+      "url": "https://www.langhai.net/",
+      "links": "/",
+      "decision": "unverified",
+      "reason": "aggregator-not-blog-focused",
+      "finding": "有大量博客及原站链接，但当前根页面同时是包含开源社区、云服务器、影音、素材、工具、邮箱等的综合导航；关于页提及博客收录，独立博客发现与通用导航的核心边界仍需复核。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/langhai.net.yml.md"
+    },
+    {
+      "file": "lanti.ng.yml",
+      "name": "兰亭序",
+      "url": "https://lanti.ng",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "延时补抓出现实际博客目录、作者文章流；/posts/qbCd 实际跳转到 SouthFox 原文。首抓零计数为动态数据尚未加载。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/lanti-delayed.md"
+    },
+    {
+      "file": "morerss.com.yml",
+      "name": "MoreRSS",
+      "url": "https://www.morerss.com/zh/%E5%8D%9A%E5%AE%A2",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "仅以现有 /zh/博客 栏目收录：具名独立博客目录、作者介绍、原站 URL 和订阅来源；不据此认定整个 MoreRSS 泛内容目录符合。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/morerss.com.yml.md"
+    },
+    {
+      "file": "nilai.la.yml",
+      "name": "你来啦！",
+      "url": "https://nilai.la/",
+      "links": "/",
+      "decision": "unverified",
+      "reason": "unverifiable",
+      "finding": "延时读取 /sites 可见 105 个站点名与简介，但 Markdown 未提取到可用的成员详情/原站导航；/feed 跳至登录。博客发现定位清楚，公开导向原站这一条件尚未证实。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/nilai-wait.md"
+    },
+    {
+      "file": "perass.com.yml",
+      "name": "博客之家",
+      "url": "https://www.perass.com/",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "博客之家按职业/主题/地区整理独立博客，卡片名称、详情及带编码原站 URL 的跳转可对应。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/perass.com.yml.md"
+    },
+    {
+      "file": "rmbk.cc.yml",
+      "name": "若梦博客",
+      "url": "https://www.rmbk.cc/",
+      "links": "/blogs",
+      "decision": "unverified",
+      "reason": "unverifiable",
+      "finding": "两次抓取失败；复抓为 ERR_EMPTY_RESPONSE。其他站的推荐不能替代本站验证。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/retry-rmbk.md"
+    },
+    {
+      "file": "rssblog.imcbc.cn.yml",
+      "name": "RSSBlog",
+      "url": "https://rssblog.imcbc.cn/",
+      "links": "/member",
+      "decision": "include",
+      "reason": "",
+      "finding": "明确 Blog RSS 定位，多来源文章标注博客名称并直接链接原文，另有成员目录。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/rssblog.imcbc.cn.yml.md"
+    },
+    {
+      "file": "ruae.com.yml",
+      "name": "万界书简",
+      "url": "https://ruae.com/about.php",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "关于页明确个人博客 RSS 聚合、摘要及原文引流；首页实有多博客文章流。当前 YAML 使用 /about.php，建议改为发现入口首页，需另行修改。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/ruae-home.md"
+    },
+    {
+      "file": "timqian.chinese-independent-blogs.yml",
+      "name": "中文独立博客列表",
+      "url": "https://github.com/timqian/chinese-independent-blogs",
+      "links": "/",
+      "decision": "include",
+      "reason": "",
+      "finding": "GitHub 项目正文是公开独立博客目录，逐条提供博客名、地址、RSS 与标签；不是账号资料页或平台首页，不因托管在 GitHub 而排除。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/timqian.chinese-independent-blogs.yml.md"
+    },
+    {
+      "file": "travellings.cn.yml",
+      "name": "开往 Travellings",
+      "url": "https://www.travellings.cn/",
+      "links": "/plain.html",
+      "decision": "include",
+      "reason": "",
+      "finding": "Webring/随机接力及公开成员名录，成员标注博客类别并链接原站。接受部分个人主页不等于整个项目失去跨博客发现功能；成员仍须逐一审核。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/travellings-list.md"
+    },
+    {
+      "file": "webteleporter.top.yml",
+      "name": "传送门",
+      "url": "https://webteleporter.top/",
+      "links": "/list",
+      "decision": "include",
+      "reason": "",
+      "finding": "关于页明确独立博客传送门定位，公开成员名录列出多个博客与原站，提供随机发现。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/teleporter-list.md"
+    },
+    {
+      "file": "www.80tz.cn.yml",
+      "name": "八零圈",
+      "url": "https://www.80tz.cn/",
+      "links": "/",
+      "decision": "unverified",
+      "reason": "unverifiable",
+      "finding": "首抓几乎空正文，复抓 HTTP 200 但 success=false，报告 Near-empty content / anti-bot protection；不是站点不合格的证据。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/retry-80tz.md"
+    },
+    {
+      "file": "www.blogsclub.org.yml",
+      "name": "BlogsClub",
+      "url": "https://www.blogsclub.org/",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "与 blogsclub.org.yml 完全相同 site.url，本站聚合条件符合，但属于重复记录，不是第二个独立聚合站。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/blogsclub-members.md"
+    },
+    {
+      "file": "ygz.ink.yml",
+      "name": "有个站",
+      "url": "https://www.ygz.ink/",
+      "links": "/links",
+      "decision": "include",
+      "reason": "",
+      "finding": "独立博客书架、公开博客分类和跨博客文章速览；摘要直接链接原文，其他导航为附属。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/ygz.ink.yml.md"
+    },
+    {
+      "file": "zhblogs.net.yml",
+      "name": "集博栈",
+      "url": "https://www.zhblogs.net/",
+      "links": "/links",
+      "decision": "unverified",
+      "reason": "unverifiable",
+      "finding": "两次抓取失败；复抓为 ERR_CONNECTION_CLOSED。",
+      "raw_evidence": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/aggregator-review-2026-10-02/evidence/retry-zhblogs.md"
+    }
+  ]
+}

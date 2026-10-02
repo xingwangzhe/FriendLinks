@@ -1,8 +1,17 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 evanser.top.yml:
+
 site:
-  name: "evans的小屋"
-  url: "https://www.evanser.top/"
-  description: "site.seo.description"
-  links: "/links"
+  name: evans的小屋
+  description: site.seo.description
+  url: https://www.evanser.top/
+  links: /links
   friends:
-    - name: "Keyle's Blog"
-      url: "https://vrast.cn/"
+    - name: Keyle's Blog
+      url: https://vrast.cn/
+    - name: 奇思妙想录
+      url: https://blog.nicebao.com/
+    - name: 紫慕碎碎念
+      url: https://90zm.net/
+  aliases:
+    - https://evanser.top/

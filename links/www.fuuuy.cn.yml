@@ -1,20 +1,68 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.fuuuy.cn.yml:
+
+# 原元数据: {"file":"www.fuuuy.cn.yml","name":"Brains","url":"https://www.fuuuy.cn/","description":"Brains - 让灵感成真，让想法实现。记录和分享学习心得及typecho技巧","links":"/links","friendReferences":7}
 site:
-  name: "Brains"
-  url: "https://www.fuuuy.cn/"
-  description: "Brains - 让灵感成真，让想法实现。记录和分享学习心得及typecho技巧"
-  links: "/links"
+  name: Brains - 灵感乌托邦
+  description: Brains - 让灵感成真，让想法实现。记录和分享学习心得及typecho技巧
+  url: http://www.fuuuy.cn/
+  links: /links.html
   friends:
-    - name: "idealclover"
-      url: "https://idealclover.top/"
-    - name: "木灵鱼儿"
-      url: "https://www.mulingyuer.com/"
-    - name: "小王先森"
-      url: "https://xwsir.cn/"
-    - name: "xcshare：Hydraulic Engineer，生活记录与感想！"
-      url: "https://xcshare.site/"
-    - name: "Jdeal"
-      url: "https://www.jdeal.cn/"
-    - name: "荒野孤灯"
-      url: "https://www.80srz.com/"
-    - name: "Jonty Blog"
-      url: "https://nobb.cc/"
+    - name: TypechoDoc
+      url: https://jrotty.github.io/
+    - name: Joe的博客
+      url: https://78.al/
+    - name: JK服-
+      url: https://www.jkfu.cn/
+    - name: idealclover
+      url: https://idealclover.top/
+    - name: 泽泽社
+      url: https://blog.zezeshe.com/
+    - name: 木灵鱼儿
+      url: https://www.mulingyuer.com/
+    - name: 小王先森
+      url: https://xwsir.cn/
+    - name: 规则之树
+      url: https://www.ruletree.club/
+    - name: 海滨擎蟹
+      url: https://www.seasidecrab.com/
+    - name: Tonm's Blog
+      url: https://owo-bo.cn/
+    - name: 罗小黑
+      url: https://www.aiyo99.com/
+    - name: 执念博客
+      url: https://zhinianboke.com/
+    - name: 梦一样的开始
+      url: https://awit.ltd/
+    - name: 尘遇
+      url: https://chenyu.me/
+    - name: 云与雾&Blog
+      url: https://blog.yunyuwu.cn/
+    - name: 素颜博客
+      url: https://blog.qqdsw8.cn/
+    - name: 阿张同学
+      url: https://www.cnnc404.com/
+    - name: 我不是矿神
+      url: https://imnks.com/
+    - name: IT不难技术家园
+      url: https://www.itbunan.xyz/
+    - name: 易航博客
+      url: https://blog.yihang.info/
+    - name: Jdeal
+      url: https://www.jdeal.cn/
+    - name: 风之涯技术博客
+      url: http://www.fengzhiya.cn/
+    - name: 明人居
+      url: https://mrju.cn/
+    - name: 荒野孤灯
+      url: https://www.80srz.com/
+    - name: 熊猫不是猫
+      url: https://panda995.xyz/
+    - name: 奉天博客
+      url: https://blog.ococn.cn/
+    - name: Seven'Blog
+      url: https://80ii.cn/
+    - name: Jonty'Blog
+      url: https://nobb.cc/
+    - name: xcshare：Hydraulic Engineer，生活记录与感想！
+      url: https://xcshare.site/

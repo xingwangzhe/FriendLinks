@@ -1,0 +1,38 @@
+{
+  "requested": "https://saroprock.com/",
+  "success": true,
+  "error": "timeout or empty result",
+  "url": "https://saroprock.com/",
+  "redirected_url": "https://saroprock.com/",
+  "redirected_status_code": 404,
+  "status_code": 404,
+  "error_message": "",
+  "metadata": {
+    "title": "404: NOT_FOUND",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 241,
+  "contentHash": "221d8627d591b504a1d20e6cbdb2deb4451319113dd6d3aeaef642968d517b53",
+  "links": {
+    "internal": [],
+    "external": [
+      {
+        "href": "https://vercel.com/docs/errors/deployment_not_found",
+        "text": "View Documentation",
+        "title": "",
+        "base_domain": "vercel.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/e8bdc0b1b0e3dd36.md",
+  "seconds": 7.9
+}

@@ -1,7 +1,10 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 blog.log4d.com.yml:
+
 site:
   name: Log4D
-  url: https://blog.alswl.com/
   description: 友情链接
+  url: https://blog.alswl.com/
   links: /links
   friends:
     - name: Elvasu
@@ -16,3 +19,7 @@ site:
       url: http://www.fanbing.net/
     - name: fatkun’s blog
       url: http://fatkun.com/
+    - name: English Blog
+      url: https://en.blog.alswl.com/
+  aliases:
+    - http://blog.log4d.com/

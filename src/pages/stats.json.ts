@@ -1,14 +1,8 @@
 import { loadSites } from "../utils/sites";
 import { printProgress, printDone } from "../utils/progress";
 import { createBfsGraph } from "@xingwangzhe/bfs-rs";
-
-function getHost(u: string): string {
-  try {
-    return new URL(u).hostname.toLowerCase();
-  } catch {
-    return u.toLowerCase();
-  }
-}
+import { buildTopology } from "../utils/graph-topology";
+import { summarizeTopology } from "../utils/graph-statistics";
 
 export async function GET() {
   const start = performance.now();
@@ -19,142 +13,14 @@ export async function GET() {
   });
   printDone(`${validSites.length} 站点加载完成`);
 
-  const siteHostSet = new Set<string>();
-  for (const s of validSites) siteHostSet.add(getHost(s.url));
-
-  const linkMap = new Map<string, Set<string>>();
-  for (const s of validSites) linkMap.set(getHost(s.url), new Set());
-
-  let externalFriendsCount = 0;
-  let totalFriendReferences = 0;
-  for (const s of validSites) {
-    const sourceNorm = getHost(s.url);
-    totalFriendReferences += s.friends.length;
-    for (const f of s.friends) {
-      const targetHost = getHost(f.url);
-      if (siteHostSet.has(targetHost)) linkMap.get(sourceNorm)!.add(targetHost);
-      else externalFriendsCount++;
-    }
-  }
-
-  const externalHosts = new Set<string>();
-  for (const s of validSites)
-    for (const f of s.friends) {
-      const h = getHost(f.url);
-      if (!siteHostSet.has(h)) externalHosts.add(h);
-    }
-
-  const stats = {
-    coreNodes: { count: validSites.length },
-    friendNodes: { count: externalHosts.size },
-    connections: {
-      coreToCore: { total: 0, bidirectional: 0, unidirectional: 0 },
-      coreToFriend: externalFriendsCount,
-      total: 0,
-    },
-    overview: {
-      totalNodes: validSites.length + externalHosts.size,
-      totalConnections: 0,
-    },
-    totalFriendReferences,
-  };
-
-  printProgress("❷", "计算核心节点连接…", 0);
-  const processedCoreLinks = new Set<string>();
-  const linkMapEntries = [...linkMap.entries()];
-  let linkProgress = 0;
-  for (const [sourceHost, targetHosts] of linkMapEntries) {
-    for (const targetNorm of targetHosts) {
-      const pairKey = [sourceHost, targetNorm].sort().join("<->");
-      if (processedCoreLinks.has(pairKey)) continue;
-      processedCoreLinks.add(pairKey);
-      if (sourceHost === targetNorm) continue;
-      const aLinksB = linkMap.get(sourceHost)?.has(targetNorm);
-      const bLinksA = linkMap.get(targetNorm)?.has(sourceHost);
-      stats.connections.coreToCore.total++;
-      if (aLinksB && bLinksA) stats.connections.coreToCore.bidirectional++;
-      else stats.connections.coreToCore.unidirectional++;
-    }
-    linkProgress++;
-    if (linkProgress % 500 === 0 || linkProgress === linkMapEntries.length) {
-      const pct = Math.round((linkProgress / linkMapEntries.length) * 100);
-      printProgress("❷", `核心连接 ${linkProgress}/${linkMapEntries.length}`, pct);
-    }
-  }
-  stats.connections.total = stats.connections.coreToCore.total + stats.connections.coreToFriend;
-  stats.overview.totalConnections = stats.connections.total;
-
-  // ── 度数统计（核心节点入度/出度）──
-  printProgress("❷", "计算度数统计…", 85);
-  const inDegMap = new Map<string, number>();
-  for (const s of validSites) inDegMap.set(getHost(s.url), 0);
-  for (const [, targets] of linkMap) {
-    for (const t of targets) {
-      inDegMap.set(t, (inDegMap.get(t) || 0) + 1);
-    }
-  }
-  const coreDegrees: Array<{ name: string; url: string; inDegree: number; outDegree: number }> = [];
-  for (const s of validSites) {
-    const host = getHost(s.url);
-    coreDegrees.push({
-      name: s.name,
-      url: s.url,
-      inDegree: inDegMap.get(host) ?? 0,
-      outDegree: linkMap.get(host)?.size ?? 0,
-    });
-  }
-  const topLinked = [...coreDegrees].sort((a, b) => b.inDegree - a.inDegree).slice(0, 10);
-  const topLinking = [...coreDegrees].sort((a, b) => b.outDegree - a.outDegree).slice(0, 10);
-  printProgress("❷", "度数统计完成", 90);
-
-  // 路由统计
-  const linkRoutes: Record<string, number> = {};
-  for (const s of validSites) if (s.links) linkRoutes[s.links] = (linkRoutes[s.links] || 0) + 1;
-  const linkRoutesSorted = Object.entries(linkRoutes)
-    .sort(([, a], [, b]) => b - a)
-    .map(([r, c]) => ({ route: r, count: c }));
-  printProgress("❷", "路由统计完成", 100);
-
-  // ── 全节点六度分隔统计 (via @xingwangzhe/bfs-rs) ──
-  printProgress("❸", "构建全节点图…", 0);
-
-  const urlSet = new Set<string>();
-  const urlToName = new Map<string, string>();
-  for (const s of validSites) {
-    urlSet.add(s.url);
-    urlToName.set(s.url, s.name);
-    for (const f of s.friends ?? []) {
-      urlSet.add(f.url);
-      if (!urlToName.has(f.url)) urlToName.set(f.url, f.name);
-    }
-  }
-  const allUrls = [...urlSet];
-  const n = allUrls.length;
-  const urlToIdx = new Map<string, number>();
-  allUrls.forEach((u, i) => urlToIdx.set(u, i));
-
-  // 构建 CSR 邻接表
-  const adj: number[][] = Array.from({ length: n }, () => []);
-  for (const s of validSites) {
-    const si = urlToIdx.get(s.url)!;
-    for (const f of s.friends ?? []) {
-      const ti = urlToIdx.get(f.url)!;
-      adj[si].push(ti);
-      adj[ti].push(si);
-    }
-  }
-
-  // 转为压缩邻接表 (CSR) 给 bfs-rs
-  const adjFlat = new Uint32Array(adj.reduce((sum, a) => sum + a.length, 0));
-  const offsets = new Uint32Array(n + 1);
-  let cursor = 0;
-  for (let i = 0; i < n; i++) {
-    offsets[i] = cursor;
-    for (const v of adj[i]) {
-      adjFlat[cursor++] = v;
-    }
-  }
-  offsets[n] = cursor;
+  const stats = summarizeTopology(validSites);
+  const { totalFriendReferences } = stats;
+  const topology = buildTopology(validSites);
+  const n = topology.nodes.length;
+  const index = new Map(topology.nodes.map((node, i) => [node.id, i]));
+  const adj = topology.nodes.map((node) => [...topology.adjacency.get(node.id)!].map((id) => index.get(id)!));
+  const adjFlat = new Uint32Array(topology.csrAdj);
+  const offsets = new Uint32Array(topology.csrOffsets);
 
   printProgress("❸", `全量 ${n} 节点, Rust bfsMergedHistogram…`, 10);
 
@@ -197,7 +63,7 @@ export async function GET() {
     }
   }
 
-  const mainComponentSize = Math.max(...compSizes);
+  const mainComponentSize = compSizes.length ? Math.max(...compSizes) : 0;
   const isolatedCount = compSizes.filter((s) => s === 1).length;
 
   // 从 BFS 直方图计算平均最短路径
@@ -238,7 +104,7 @@ export async function GET() {
     isolatedCount,
     compSizeDistribution,
     maxEdgeDistance: merged.maxDistance,
-    maxIntermediateVertices: merged.maxDistance - 1,
+    maxIntermediateVertices: Math.max(0, merged.maxDistance - 1),
     avgPathLength,
     edgeDistanceDistribution: degreeDist,
     intermediateVertexDistribution: intermediateDist,
@@ -247,10 +113,7 @@ export async function GET() {
 
   const finalStats = {
     ...stats,
-    linkRoutes: linkRoutesSorted,
     sixDegrees: sixDegreeStats,
-    topLinked,
-    topLinking,
   };
   const elapsed = ((performance.now() - start) / 1000).toFixed(1);
   printDone(

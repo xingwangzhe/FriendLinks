@@ -1,7 +1,10 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 blog.felixc.at.yml:
+
 site:
   name: Felix's Blog
-  url: http://felixc.at/
   description: "@felixonmars"
+  url: http://felixc.at/
   links: /friends
   friends:
     - name: CoelacanthusHex
@@ -9,7 +12,7 @@ site:
     - name: CSSLayer
       url: https://www.csslayer.info/
     - name: DCODE
-      url: https://c.ecl.me
+      url: https://c.ecl.me/
     - name: Estela
       url: https://estela.moe/
     - name: Frantic1048
@@ -17,7 +20,7 @@ site:
     - name: Hexchain Tong
       url: https://hexchain.org/
     - name: Hualet
-      url: http://hualet.org
+      url: https://hualet.org/
     - name: Justin Wong
       url: https://bigeagle.me/
     - name: Luigi Fan
@@ -43,9 +46,9 @@ site:
     - name: 好喝的粒粒橙
       url: http://blog.acgpl.us/
     - name: Ai.freedom
-      url: http://aifreedom.com
+      url: http://aifreedom.com/
     - name: ZWWoOoOo
-      url: http://zww.me/
+      url: https://zww.me/
     - name: A-shun
       url: http://www.a-shun.com/
     - name: nonozone
@@ -69,7 +72,7 @@ site:
     - name: 大猫猫
       url: http://rzcat.com/
     - name: 场主的 fqsoft
-      url: http://fqsoftblog.appspot.com
+      url: http://fqsoftblog.appspot.com/
     - name: Mengyao Li
       url: http://mengyao.li/
     - name: iceboy
@@ -79,6 +82,8 @@ site:
     - name: ELL
       url: http://ell.im/
     - name: kirigaya
-      url: http://blog.linuser.org
+      url: http://blog.linuser.org/
     - name: QR Code Business Card
-      url: http://ucardo.com
+      url: http://ucardo.com/
+  aliases:
+    - http://blog.felixc.at/

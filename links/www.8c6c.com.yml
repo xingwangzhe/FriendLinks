@@ -1,28 +1,75 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 php.wf.yml:
+
 site:
-  name: "SycBlog"
-  url: "https://www.8c6c.com/"
-  description: "始於初見，止於終老"
-  links: "/links"
+  name: SycBlog
+  description: 始於初見，止於終老
+  url: https://www.8c6c.com/
+  links: /links
   friends:
-    - name: "FGHRSH 的博客"
-      url: "https://www.fghrsh.net/"
-    - name: "Zohar's Blog"
-      url: "https://www.iwch.me/"
-    - name: "弋牧 -"
-      url: "https://emuia.com/"
-    - name: "香菇备忘录 Plus"
-      url: "https://siitake.cn/"
-    - name: "字节星球"
-      url: "https://www.bytecho.net/"
-    - name: "Nexmoe"
-      url: "https://nexmoe.com/"
-    - name: "米米的博客"
-      url: "https://zhangshuqiao.org/"
-    - name: "Aaron's Blog"
-      url: "https://hfo4.github.io/"
-    - name: "TimochanのBlog · Let's start learning"
-      url: "https://www.timochan.cn/"
-    - name: "萌博客"
-      url: "https://moe.blog/"
-    - name: "恶魔菌の记事簿"
-      url: "https://meow3.family.blog/"
+    - name: FGHRSH 的博客
+      url: https://www.fghrsh.net/
+    - name: Zohar's Blog
+      url: https://www.iwch.me/
+    - name: 弋牧 -
+      url: http://emuia.com/
+    - name: 香菇备忘录 Plus
+      url: https://siitake.cn/
+    - name: 字节星球
+      url: https://www.bytecho.net/
+    - name: Nexmoe
+      url: https://nexmoe.com/
+    - name: 米米的博客
+      url: https://zhangshuqiao.org/
+    - name: Aaron's Blog
+      url: https://hfo4.github.io/
+    - name: TimochanのBlog · Let's start learning
+      url: https://www.timochan.cn/
+    - name: 萌博客
+      url: https://moe.blog/
+    - name: 恶魔菌の记事簿
+      url: https://meow3.family.blog/
+    - name: 韩艺博 Blog
+      url: https://www.hanyibo.com/
+    - name: 梁Sir Blog
+      url: https://5sir.cn/
+    - name: 热心市民L先生
+      url: https://blog.oopsky.top/
+    - name: Troy
+      url: https://itroy.cc/
+    - name: 冰翼博客
+      url: https://icewing.cc/
+    - name: Torrk Blog
+      url: https://nico.cc/
+    - name: SangSir
+      url: https://sangsir.com/
+    - name: Mlooc
+      url: https://mlooc.cn/
+    - name: Xhofe's Blog
+      url: https://blog.nn.ci/
+    - name: 深海小涛
+      url: https://xtaolink.cn/
+    - name: 追梦人博客
+      url: https://dream.ren/
+    - name: Angel eyes
+      url: https://www.bibooo.cn/
+    - name: HXC博客
+      url: http://www.huxinchun.com/
+    - name: 小兔博客
+      url: https://www.32mb.net/
+    - name: 瑞瑞の小站
+      url: https://lkyhr.link/
+    - name: 狱杰的博客
+      url: https://uegee.com/
+    - name: MOLA&LIJay博客
+      url: https://blog.wljay.cn/
+    - name: LoCCaiの小窝
+      url: https://blog.loccai.top/
+    - name: Rainbow Girls
+      url: https://www.rainbow-girl.top/
+    - name: van_fantasy
+      url: https://www.tigerxly.com/
+    - name: 哭啼鬼
+      url: http://www.kutigui.cn/
+  aliases:
+    - https://www.php.wf/

@@ -8,14 +8,7 @@ import { printProgress, printDone } from "./progress";
 import { createSimulation } from "@xingwangzhe/force-rs";
 import { isFastMode } from "./sample";
 import { bezier2, calcControlOffset, calcSegmentCount } from "./bezier";
-
-function getHost(u: string): string {
-  try {
-    return new URL(u).hostname.toLowerCase();
-  } catch {
-    return u.toLowerCase();
-  }
-}
+import { buildTopology } from "./graph-topology";
 
 function isValidUrl(u: unknown): u is string {
   if (typeof u !== "string") return false;
@@ -73,123 +66,11 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
     console.log(`  [timing]  ${label}: ${((performance.now() - _funcStart) / 1000).toFixed(1)}s`);
 
   printProgress("❶", `构建图数据 (${sites.length} 个站点)…`, 0);
-  const validSites = sites;
+  const topology = buildTopology(sites);
   const categories: GraphCategory[] = [{ name: "site" }, { name: "friend" }];
-  const nodes: GraphNode[] = [];
-  const siteHostSet = new Set<string>();
-
-  for (const s of sites) {
-    siteHostSet.add(getHost(s.url));
-  }
-
-  // linkMap: 用 site URL（唯一）做 key，value 是该站点 friend 的 hostname 集合
-  const linkMap = new Map<string, Set<string>>();
-  // hostToId: hostname → 第一个匹配站点的 URL（hostname 级查找用）
-  const hostToId = new Map<string, string>();
-  // siteUrlMap: 标准化 URL → site URL（精确匹配用，优先于 hostname）
-  const siteUrlMap = new Map<string, string>();
-
-  for (const s of sites) {
-    const host = getHost(s.url) || s.url;
-    const siteId = s.url;
-    const siteIcon = resolveFavicon(s.favicon);
-    nodes.push({
-      id: siteId,
-      name: s.name,
-      url: s.url,
-      favicon: siteIcon,
-      desc: s.description,
-      ...(s.color ? { color: s.color } : {}),
-    });
-    linkMap.set(siteId, new Set());
-    if (!hostToId.has(host)) {
-      hostToId.set(host, siteId);
-    }
-    // 标准化 URL（去尾斜杠）作为精确匹配键
-    siteUrlMap.set(siteId.replace(/\/+$/, ""), siteId);
-  }
-  _log("构建核心节点+linkMap");
-
-  const externalFriends: Array<{
-    siteId: string;
-    friend: { name: string; url: string; favicon?: string };
-  }> = [];
-
-  for (const s of sites) {
-    const sourceId = s.url;
-    for (const f of s.friends) {
-      const targetHost = getHost(f.url);
-      // 优先精确 URL 匹配，再降级到 hostname 匹配
-      const exactTarget = siteUrlMap.get(f.url.replace(/\/+$/, ""));
-      if (exactTarget) {
-        linkMap.get(sourceId)!.add(getHost(exactTarget));
-      } else if (siteHostSet.has(targetHost)) {
-        linkMap.get(sourceId)!.add(targetHost);
-      } else {
-        externalFriends.push({ siteId: sourceId, friend: f });
-      }
-    }
-  }
-  _log("处理友链关系");
-
-  for (const { friend } of externalFriends) {
-    const friendHost = getHost(friend.url);
-    if (!hostToId.has(friendHost)) {
-      const friendId = friendHost || friend.url;
-      const friendIcon = resolveFavicon(friend.favicon);
-      nodes.push({
-        id: friendId,
-        name: friend.name,
-        url: friend.url,
-        favicon: friendIcon,
-      });
-      hostToId.set(friendHost, friendId);
-    }
-  }
-  _log("创建外部友链节点");
-
-  const linksArr: GraphLink[] = [];
-  const addedSiteLinks = new Set<string>();
-
-  // 预计算 hostname → URLs 反查表，避免内层循环 O(n) 扫描
-  const hostToUrls = new Map<string, string[]>();
-  for (const [url, hosts] of linkMap) {
-    const h = getHost(url);
-    if (!hostToUrls.has(h)) hostToUrls.set(h, []);
-    hostToUrls.get(h)!.push(url);
-  }
-
-  for (const [sourceId, targetHosts] of linkMap) {
-    for (const targetNorm of targetHosts) {
-      const targetId = hostToId.get(targetNorm)!;
-      const sourceHost = getHost(sourceId);
-      const pairKey = [sourceHost, targetNorm].sort().join("<->");
-
-      if (addedSiteLinks.has(pairKey)) continue;
-      addedSiteLinks.add(pairKey);
-
-      const aLinksB = linkMap.get(sourceId)?.has(targetNorm);
-      // 利用反查表 O(1) 判断另一站点是否也指向此站点
-      const bLinksA = (hostToUrls.get(targetNorm) ?? []).some(
-        (otherUrl) => otherUrl !== sourceId && linkMap.get(otherUrl)?.has(sourceHost),
-      );
-
-      if (aLinksB && bLinksA) {
-        linksArr.push({ source: sourceId, target: targetId });
-      } else if (aLinksB) {
-        linksArr.push({ source: sourceId, target: targetId, symbol: ["none", "arrow"] });
-      } else if (bLinksA) {
-        linksArr.push({ source: targetId, target: sourceId, symbol: ["none", "arrow"] });
-      }
-    }
-  }
-
-  for (const { siteId, friend } of externalFriends) {
-    const friendHost = getHost(friend.url);
-    const friendId = hostToId.get(friendHost)!;
-    linksArr.push({ source: siteId, target: friendId, symbol: ["none", "arrow"] });
-  }
-  _log("构建 linksArr");
+  const nodes: GraphNode[] = topology.nodes.map((node) => ({ ...node, favicon: resolveFavicon(node.favicon) }));
+  const linksArr: GraphLink[] = topology.links;
+  _log("共享身份解析与图拓扑");
 
   // ── 构建时 3D 力导布局 ──
   printProgress("❷", `${nodes.length} 节点 · ${linksArr.length} 边 · 力导仿真中…`, 0);
@@ -317,28 +198,6 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
     }
   }
 
-  // ── 预计算邻接表 ──
-  function buildAdjacency(nodeCount: number, srcs: number[], tgts: number[]) {
-    const ndeg = new Uint16Array(nodeCount);
-    for (let i = 0; i < srcs.length; i++) {
-      ndeg[srcs[i]]++;
-      ndeg[tgts[i]]++;
-    }
-    const ladj_off = new Uint32Array(nodeCount + 1);
-    for (let i = 0; i < nodeCount; i++) {
-      ladj_off[i + 1] = ladj_off[i] + ndeg[i];
-    }
-    const totalNeighborSlots = ladj_off[nodeCount];
-    const ladj = new Uint32Array(totalNeighborSlots);
-    const fillPtr = new Uint32Array(nodeCount);
-    for (let i = 0; i < srcs.length; i++) {
-      const tgt = tgts[i];
-      ladj[ladj_off[srcs[i]] + fillPtr[srcs[i]]++] = tgt;
-      ladj[ladj_off[tgt] + fillPtr[tgt]++] = srcs[i];
-    }
-    return { ndeg: Array.from(ndeg), ladj_off: Array.from(ladj_off), ladj: Array.from(ladj) };
-  }
-
   // ── 预计算贝塞尔曲线 ──
   function buildBezierPositions(
     nCount: number,
@@ -429,7 +288,9 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
     return { i16, min, max };
   }
 
-  const { ndeg, ladj_off, ladj } = buildAdjacency(nid.length, ls, lt);
+  const ladj_off = [...topology.csrOffsets];
+  const ladj = [...topology.csrAdj];
+  const ndeg = nodes.map((_, index) => ladj_off[index + 1] - ladj_off[index]);
   const _dataEnd = performance.now();
   const rawBezier = buildBezierPositions(nid.length, ls, lt, nx, ny, nz);
   const qx = quantize(rawBezier.lpx);
@@ -474,16 +335,19 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
 }
 
 // ── 模块级缓存：避免多个端点重复构建 ──
-let _cachedPromise: Promise<BuildResult> | null = null;
+let _cachedPromises = new WeakMap<Site[], Promise<BuildResult>>();
 
 export function getBuildResult(sites: Site[]): Promise<BuildResult> {
-  if (!_cachedPromise) {
-    _cachedPromise = buildGraph(sites);
+  let promise = _cachedPromises.get(sites);
+  if (!promise) {
+    promise = buildGraph(sites).catch((error) => {
+      _cachedPromises.delete(sites);
+      throw error;
+    });
+    _cachedPromises.set(sites, promise);
   }
-  return _cachedPromise;
+  return promise;
 }
-
-/** 清除构建缓存（用于测试/重构建） */
 export function clearBuildCache() {
-  _cachedPromise = null;
+  _cachedPromises = new WeakMap();
 }

@@ -1,18 +1,27 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 laneljc.cn.yml:
+
 site:
-  name: "Lane's Blog"
-  url: "https://www.laneljc.cn/"
-  description: "Hi there! 👋 My name is Lane, and I am currently studying Computer Science with a"
-  links: "/links"
+  name: Lane's Blog
+  description: Hi there! 👋 My name is Lane, and I am currently studying Computer Science with a
+  url: https://www.laneljc.cn/
+  links: /links
   friends:
-    - name: "Jayden's site"
-      url: "https://xxu.do/"
-    - name: "法律、科技和生活"
-      url: "https://lawtee.com/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "Home"
-      url: "https://arthals.ink/"
-    - name: "LineXic's website"
-      url: "https://www.linexic.top/"
-    - name: "Home"
-      url: "https://cworld0.com/"
+    - name: Jayden's site
+      url: https://xxu.do/
+    - name: 法律、科技和生活
+      url: https://lawtee.com/
+    - name: 张洪Heo
+      url: https://blog.zhheo.com/
+    - name: Home
+      url: https://arthals.ink/
+    - name: LineXic's website
+      url: https://www.linexic.top/
+    - name: Home
+      url: https://cworld0.com/
+    - name: Abnerhexu's Blog涉水阔波出四江，山高峻险势难量。有识乾坤物堪大，仍怜世间草木青。
+      url: https://hexu.shahe.org/
+    - name: Elainafan''s blog只因"现在"深爱其中
+      url: https://www.elainafan.one/
+  aliases:
+    - https://laneljc.cn/

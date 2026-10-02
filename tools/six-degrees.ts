@@ -16,13 +16,15 @@ import path from "node:path";
 import { loadSites } from "../src/utils/load-sites";
 import { createBfsGraph, type BfsGraph } from "@xingwangzhe/bfs-rs";
 import type { Site } from "../types/site";
+import { buildTopology } from "../src/utils/graph-topology";
+import { address, getCollectionInfo } from "../src/utils/site-identity";
 
 // ═══════════════════════════════════════════════════════════════════
 // 类型
 // ═══════════════════════════════════════════════════════════════════
 
 export interface GraphNode {
-  id: string; // hostname
+  id: string; // canonical URL or external identity
   name: string;
   url: string;
 }
@@ -52,9 +54,10 @@ export interface GraphStats {
 }
 
 export interface NeighborMap {
+  resolveId: (value: string) => string | undefined;
   adjacency: Map<string, Set<string>>;
   nodeMap: Map<string, GraphNode>;
-  /** hostname → index (for CSR conversion) */
+  /** 节点 ID → index (for CSR conversion) */
   nodeIndex: Map<string, number>;
   nodes: GraphNode[];
   /** CSR 格式邻接数组（全图） */
@@ -62,7 +65,7 @@ export interface NeighborMap {
   csrOffsets: number[];
   /** 预处理后的 Rust BFS 图句柄 */
   bfsGraph: BfsGraph;
-  /** 连通分量：每个节点属于哪个分量（hostname → componentIndex） */
+  /** 连通分量：每个节点属于哪个分量（节点 ID → componentIndex） */
   componentOf: Map<string, number>;
   /** 连通分量列表 */
   components: string[][];
@@ -72,42 +75,27 @@ export interface NeighborMap {
 // 核心函数
 // ═══════════════════════════════════════════════════════════════════
 
-function getHost(u: string): string {
-  try {
-    return new URL(u).hostname.toLowerCase();
-  } catch {
-    return u.toLowerCase();
-  }
-}
-
-/**
- * 从站点列表构建邻接图（含 CSR 格式，可直接喂给 bfs-rs）
- */
+/** Shared full topology, including external nodes. Does not run all-pairs BFS. */
 export function buildGraph(sites: Site[]): NeighborMap {
-  const adjacency = new Map<string, Set<string>>();
-  const nodeMap = new Map<string, GraphNode>();
-  const siteHostSet = new Set<string>();
-
-  for (const s of sites) {
-    siteHostSet.add(getHost(s.url));
-  }
-
-  for (const s of sites) {
-    const host = getHost(s.url);
-    nodeMap.set(host, { id: host, name: s.name, url: s.url });
-    adjacency.set(host, new Set());
-  }
-
-  for (const s of sites) {
-    const sourceHost = getHost(s.url);
-    for (const f of s.friends) {
-      const targetHost = getHost(f.url);
-      if (siteHostSet.has(targetHost)) {
-        adjacency.get(sourceHost)!.add(targetHost);
-        adjacency.get(targetHost)!.add(sourceHost); // 无向图：反向边
-      }
+  const topology = buildTopology(sites);
+  const adjacency = topology.adjacency;
+  const nodeMap = new Map<string, GraphNode>(topology.nodes.map((node) => [node.id, node]));
+  const { identity } = getCollectionInfo(sites);
+  const resolveId = (value: string): string | undefined => {
+    if (nodeMap.has(value)) return value;
+    const url = value.includes("://") ? value : `https://${value}`;
+    try {
+      const resolved = identity.targetId(url);
+      if (nodeMap.has(resolved)) return resolved;
+      // Hostname convenience is only for bare CLI host arguments, never out-of-scope URLs.
+      if (value.includes("://") || /[/?#]/.test(value)) return undefined;
+      const host = address(url).host;
+      const matches = topology.nodes.filter((node) => address(node.url).host === host);
+      return matches.length === 1 ? matches[0].id : undefined;
+    } catch {
+      return undefined;
     }
-  }
+  };
 
   // 构建 node → index 映射 + CSR
   const nodes = [...nodeMap.values()];
@@ -125,7 +113,7 @@ export function buildGraph(sites: Site[]): NeighborMap {
     for (const id of components[ci]) componentOf.set(id, ci);
   }
 
-  return { adjacency, nodeMap, nodeIndex, nodes, csrAdj, csrOffsets, bfsGraph, componentOf, components };
+  return { resolveId, adjacency, nodeMap, nodeIndex, nodes, csrAdj, csrOffsets, bfsGraph, componentOf, components };
 }
 
 /**
@@ -157,6 +145,11 @@ function buildCSR(
  * 剪枝：先检查连通分量，不在同一分量直接返回 null
  */
 export function findPath(graph: NeighborMap, fromHost: string, toHost: string): string[] | null {
+  const from = graph.resolveId(fromHost),
+    to = graph.resolveId(toHost);
+  if (!from || !to) return null;
+  fromHost = from;
+  toHost = to;
   // 剪枝：不同分量 → 无路径
   const fromComp = graph.componentOf.get(fromHost);
   const toComp = graph.componentOf.get(toHost);
@@ -365,7 +358,8 @@ export function getDistanceDistribution(
   histogram: number[];
   maxDistance: number;
 } | null {
-  const idx = graph.nodeIndex.get(host);
+  const resolved = graph.resolveId(host);
+  const idx = resolved ? graph.nodeIndex.get(resolved) : undefined;
   if (idx == null) return null;
   return graph.bfsGraph.oneHistogram(idx);
 }
@@ -464,7 +458,7 @@ async function main() {
   if (cmd === "path") {
     const [from, to] = [args[1], args[2]];
     if (!from || !to) {
-      console.error("用法: bun run tools/six-degrees.ts path <hostnameA> <hostnameB>");
+      console.error("用法: bun run tools/six-degrees.ts path <URL-or-host-A> <URL-or-host-B>");
       process.exit(1);
     }
     const route = findPath(graph, from, to);
@@ -480,10 +474,11 @@ async function main() {
   } else if (cmd === "neighbors") {
     const host = args[1];
     if (!host) {
-      console.error("用法: bun run tools/six-degrees.ts neighbors <hostname>");
+      console.error("用法: bun run tools/six-degrees.ts neighbors <URL-or-host>");
       process.exit(1);
     }
-    const nbrs = graph.adjacency.get(host);
+    const resolved = graph.resolveId(host);
+    const nbrs = resolved ? graph.adjacency.get(resolved) : undefined;
     if (!nbrs) {
       console.log(`未找到节点: ${host}`);
     } else {
@@ -496,7 +491,7 @@ async function main() {
   } else if (cmd === "dist") {
     const host = args[1];
     if (!host) {
-      console.error("用法: bun run tools/six-degrees.ts dist <hostname>");
+      console.error("用法: bun run tools/six-degrees.ts dist <URL-or-host>");
       process.exit(1);
     }
     const result = getDistanceDistribution(graph, host);

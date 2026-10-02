@@ -1,12 +1,36 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.eu5.cn.yml:
+
+# 原元数据: {"file":"www.eu5.cn.yml","name":"有个博客","url":"https://www.eu5.cn/","description":"记录个人生活，分享日常所得，这里有网站技术，网络技术，电脑技巧，个人感悟等等。","links":"/links","friendReferences":3}
 site:
-  name: "有个博客"
-  url: "https://www.eu5.cn/"
-  description: "记录个人生活，分享日常所得，这里有网站技术，网络技术，电脑技巧，个人感悟等等。"
-  links: "/links"
+  name: 有个博客
+  description: 记录个人生活，分享日常所得，这里有网站技术，网络技术，电脑技巧，个人感悟等等。
+  url: http://www.eu5.cn/
+  links: /
   friends:
-    - name: "JiaYu Blog"
-      url: "https://www.mybabya.com/"
-    - name: "严重浪漫 博客"
-      url: "https://www.bat69.com/"
-    - name: "互联网产品经理@唐杰"
-      url: "https://tangjie.me/"
+    - name: "0.618"
+      url: http://0618.us/
+    - name: JiaYu Blog
+      url: https://www.mybabya.com/
+    - name: XGhome's blog
+      url: http://www.xghome.com/
+    - name: 两个博客
+      url: http://www.bokeboke.net/
+    - name: 严重浪漫
+      url: http://www.bat69.com/
+    - name: 失去的地平线
+      url: http://www.w8o.net/
+    - name: 思Blog
+      url: http://www.4blog.cn/
+    - name: 枫芸志
+      url: http://witmax.cn/
+    - name: 毛毛虫博客
+      url: http://www.liwenjie.com/
+    - name: 赛飞的博客
+      url: http://www.saifei.net/
+    - name: 集思博客
+      url: http://giisi.com/
+    - name: 零下足迹
+      url: http://www.5013.org/
+    - name: 互联网产品经理@唐杰
+      url: https://tangjie.me/

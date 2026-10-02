@@ -1,137 +1,17 @@
-import { readFile } from "node:fs/promises";
-import YAML from "yaml";
-import path from "node:path";
 import type { Site } from "../../types/site";
-import { deterministicSample, isFastMode, getDevSampleSize } from "./sample";
-import { listYamlFiles } from "./yaml-files";
-
-function isString(v: unknown): v is string {
-  return typeof v === "string";
-}
-
-export function isValidUrl(u: unknown): u is string {
-  if (!isString(u)) return false;
+import { loadSiteCollection, clearCollectionCache } from "./site-collection";
+import { isFastMode, getDevSampleSize } from "./sample";
+export function isValidUrl(value: unknown): value is string {
+  if (typeof value !== "string") return false;
   try {
-    const url = new URL(u);
-    return url.protocol === "http:" || url.protocol === "https:";
+    return ["http:", "https:"].includes(new URL(value).protocol);
   } catch {
     return false;
   }
 }
-
-function isValidHexColor(c: unknown): c is string {
-  if (!isString(c)) return false;
-  return /^#[0-9a-fA-F]{6}$/.test(c);
-}
-
-function isFriend(obj: unknown): obj is { name: string; url: string; favicon?: string } {
-  if (!obj || typeof obj !== "object") return false;
-  const o = obj as any;
-  if (!isString(o.name)) return false;
-  if (!isValidUrl(o.url)) return false;
-  if (o.favicon != null && !isString(o.favicon)) return false;
-  return true;
-}
-
-function isSite(obj: unknown): obj is Site {
-  if (!obj || typeof obj !== "object") return false;
-  const o = obj as any;
-  if (!isString(o.name) || o.name.trim() === "") return false;
-  if (!isString(o.description) || o.description.trim() === "") return false;
-  if (!isValidUrl(o.url)) return false;
-  if (o.color != null && !isValidHexColor(o.color)) return false;
-  if (!isString(o.links) || o.links.trim() === "") return false;
-  if (o.favicon != null && !isValidUrl(o.favicon)) return false;
-  const friends = o.friends;
-  if (friends == null) return false;
-  if (!Array.isArray(friends)) return false;
-  return friends.every(isFriend);
-}
-
-async function parseAndValidate(file: string): Promise<Site | null> {
-  try {
-    const text = await readFile(file, "utf8");
-    const obj = YAML.parse(text);
-    if (!obj || typeof obj !== "object") {
-      console.error(`[类型错误] ${file}: 根节点不是对象`);
-      return null;
-    }
-    const site = (obj as any).site;
-    if (!isSite(site)) {
-      console.error(`[类型错误] ${file}: 不符合 Site 类型`);
-      const o = site as any;
-      if (!o || typeof o !== "object") {
-        console.error(" - site: 需要对象");
-      } else {
-        if (!isString(o.name) || o.name.trim() === "") console.error(" - site.name: 需要非空字符串");
-        if (!isString(o.description) || o.description.trim() === "")
-          console.error(" - site.description: 需要非空字符串");
-        if (!isValidUrl(o.url)) console.error(" - site.url: 需要合法 http/https URL");
-        if (!isString(o.links) || o.links.trim() === "")
-          console.error(" - site.links: 需要非空字符串（友链路由，如 /links /link /friends）");
-        if (!Array.isArray(o.friends)) console.error(" - site.friends: 需要数组");
-        else {
-          o.friends.forEach((f: any, idx: number) => {
-            if (!isFriend(f)) console.error(` - site.friends[${idx}]: 需要 { name: string; url: url }`);
-          });
-        }
-      }
-      return null;
-    }
-    return site;
-  } catch (e) {
-    console.error(`[解析失败] ${file}:`, (e as Error).message);
-    return null;
-  }
-}
-
-// ── 模块级缓存：避免多个端点重复加载 ──
-let _cacheKey: string | undefined;
-let _cachedSites: Site[] | null = null;
-
 export function clearSiteCache() {
-  _cacheKey = undefined;
-  _cachedSites = null;
+  clearCollectionCache();
 }
-
-const PARALLEL_BATCH = 128; // 并发上限，避免 fd 耗尽
-
-export async function loadSites(dir?: string, onProgress?: (current: number, total: number) => void): Promise<Site[]> {
-  const inputDir = dir ?? path.resolve("links");
-
-  // 缓存命中：同目录直接返回
-  if (_cachedSites && _cacheKey === inputDir) {
-    onProgress?.(_cachedSites.length, _cachedSites.length);
-    return _cachedSites;
-  }
-
-  let files = await listYamlFiles(inputDir);
-
-  // DEV 模式只取 100 个文件，跳过大量 IO
-  if (isFastMode() && files.length > getDevSampleSize()) {
-    files.sort();
-    files = deterministicSample(files, getDevSampleSize());
-  }
-
-  if (files.length === 0) {
-    console.log("未找到 YAML 文件。");
-    return [];
-  }
-
-  // 并行批量解析
-  const validSites: Site[] = [];
-  let completed = 0;
-  for (let b = 0; b < files.length; b += PARALLEL_BATCH) {
-    const batch = files.slice(b, b + PARALLEL_BATCH);
-    const results = await Promise.all(batch.map(parseAndValidate));
-    for (const site of results) {
-      if (site) validSites.push(site);
-      completed++;
-    }
-    onProgress?.(completed, files.length);
-  }
-
-  _cacheKey = inputDir;
-  _cachedSites = validSites;
-  return validSites;
+export function loadSites(dir?: string, onProgress?: (current: number, total: number) => void): Promise<Site[]> {
+  return loadSiteCollection(dir, isFastMode() ? getDevSampleSize() : Infinity, onProgress);
 }

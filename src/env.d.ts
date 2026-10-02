@@ -1,5 +1,8 @@
 /// <reference types="astro/client" />
 
+/** Astro 配置通过 Vite define 注入的 dev 正式站点抽样数。 */
+declare const __DEV_SAMPLE_SIZE__: number;
+
 declare module "msgpackr" {
   export function encode(data: any): Buffer | Uint8Array;
   export function decode(buffer: Uint8Array): any;

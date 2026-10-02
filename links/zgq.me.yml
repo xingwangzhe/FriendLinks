@@ -1,7 +1,10 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 blog.izgq.net.yml:
+
 site:
   name: gq‘s blog
-  url: https://zgq.me/
   description: 一些日常的思考和做过的东东...
+  url: https://zgq.me/
   links: /links
   friends:
     - name: 诟屍网协学长，算法大师，也是一名资深 Linux 玩家
@@ -15,7 +18,7 @@ site:
     - name: c10udlnk巾帼不让须眉的陈队，与 Tover 可谓是 CTF 界的双子星
       url: https://c10udlnk.top/
     - name: Elitedj优秀的 xCPCer，至今仍未见面的网上邻居（太忙啦！）
-      url: http://elitedj.me/
+      url: https://elitedj.me/
     - name: Chever John内心丰盛的开源狂热者，我愿称之为云原生大师
       url: https://www.cheverjohn.xyz/
     - name: Koh Hom为爱与自由奔赴远方的优秀师弟
@@ -42,3 +45,5 @@ site:
       url: https://demochen.com/
     - name: 精灵王专注于全栈开发技术分享和开源项目讨论
       url: https://jingling.im/
+  aliases:
+    - http://blog.izgq.net/

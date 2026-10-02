@@ -1,13 +1,16 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 www.axiu.me.yml:
+
 site:
   name: Axiu的blog
-  url: https://axiu.me/
   description: Describe the home page
+  url: https://axiu.me/
   links: /friends
   friends:
     - name: ZWWoOoOo
       url: https://zww.me/
     - name: 郑永博客
-      url: http://xptt.com/
+      url: https://xptt.com/
     - name: 夏小雪的星球漫步
       url: https://sizheng.org/
     - name: 不亦乐乎
@@ -16,3 +19,5 @@ site:
       url: https://immmmm.com/
     - name: 小蝴蝶
       url: http://xiaohudie.net/
+  aliases:
+    - https://www.axiu.me/

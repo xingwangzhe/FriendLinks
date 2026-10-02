@@ -1,12 +1,36 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.qcyoung.com.yml:
+
+# 原元数据: {"file":"www.qcyoung.com.yml","name":"青春样","url":"https://www.qcyoung.com/","description":"yangzj1992's blog | 前端 | 青春样 | 程序员 | 90后 |","links":"/links","friendReferences":3}
 site:
-  name: "青春样"
-  url: "https://www.qcyoung.com/"
-  description: "yangzj1992's blog | 前端 | 青春样 | 程序员 | 90后 |"
-  links: "/links"
+  name: 青春样
+  description: yangzj1992's blog | 前端 | 青春样 | 程序员 | 90后 |
+  url: http://www.qcyoung.com/
+  links: /links
   friends:
-    - name: "流浪小猫的博客"
-      url: "https://blog.xcatliu.com/"
-    - name: "在路上on the way"
-      url: "https://www.crifan.com/"
-    - name: "阮一峰的个人网站"
-      url: "https://www.ruanyifeng.com/"
+    - name: Kieran
+      url: http://go.kieran.top/
+    - name: DIYgod
+      url: https://www.anotherhome.net/
+    - name: Xcat Liu
+      url: https://blog.xcatliu.com/
+    - name: 寿百年
+      url: http://www.pddjs.com/
+    - name: 朱嘉伟
+      url: http://buzhundong.com/
+    - name: Cube Drone
+      url: http://cube-drone.com/
+    - name: 在路上
+      url: http://www.crifan.com/
+    - name: 十年踪迹的博客
+      url: https://www.h5jun.com/
+    - name: 美菜网
+      url: http://meicai.cn/
+    - name: Taobao FED
+      url: http://taobaofed.org/
+    - name: 众成翻译
+      url: https://www.zcfy.cc/
+    - name: Coding Pages
+      url: https://pages.coding.me/
+    - name: 阮一峰的个人网站
+      url: https://www.ruanyifeng.com/

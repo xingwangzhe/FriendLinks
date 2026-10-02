@@ -1,5 +1,7 @@
 # 3D 友链网络图高亮效果改进实现计划
 
+> 历史设计文档：保留当时方案与示例，不代表当前实现。2026-10-02 起 Astro 使用 `bunx --bun astro@latest`；当前搜索、标签和数据端点说明见 README、docs/INTERACTIONS.md 与 docs/LABELS.md。
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** 将 3D 友链网络图的灰度淡化高亮改为发光 + 放大高亮效果
@@ -213,7 +215,7 @@ git commit -m "feat(graph3d): replace grayscale highlight with glow + scale effe
 - [ ] **Step 1: 运行类型检查**
 
 ```bash
-npx tsc --noEmit
+bunx --bun -p typescript tsc --noEmit
 ```
 
 Expected: 无类型错误

@@ -1,10 +1,14 @@
 # 3D 图交互系统审计
 
+> 2026-10-02 同步：运行环境为 Bun，搜索使用 Orama。客户端路径查找使用 TypeScript BFS；Rust `bfs-rs` 用于构建端全图统计，`force-rs` 用于空间布局。贝塞尔数据从 `/graph-bezier.bin` 异步加载。
+
+dev 端点的正式站点数据受 Astro 的 `DEV_SAMPLE_SIZE` 配置控制；友链目标仍可生成额外节点。详见 [开发配置](DEV.md)。
+
 ## 黄线路径信息来源
 
 ### 数据获取
 ```
-astr: 输入起点/终点 → checkBothSelected()
+index.astro: 输入起点/终点 → checkBothSelected()
   → api.showShortestPath(fromId, toId)
   → findShortestPath(neighborMap, from, to)   // BFS，返回 string[] | null
   → path = [起点, n1, n2, ..., 终点]
@@ -30,7 +34,7 @@ showShortestPath 内部:
 
 | 方法 | 参数 | 返回 | 功能 |
 |------|------|------|------|
-| `find(query)` | `string` | `{id,name,url}[]` | FlexSearch 模糊搜索节点（毫秒级） |
+| `find(query)` | `string` | `Promise<{id,name,url}[]>` | Orama 模糊搜索节点（异步查询） |
 | `focusNodeById(id)` | `string` | `void` | 聚焦节点：高亮+本色光晕连线+邻居面板+相机飞行 |
 | `highlightNodesAndNeighbors(ids)` | `string[]` | `void` | 高亮节点及其邻居 |
 | `clearHighlights()` | — | `void` | 清除高亮和聚焦 |
@@ -72,7 +76,7 @@ showShortestPath 内部:
 | 路径下一步 | `path-next-btn` | click | `stepPathNext()` → `updatePathUI()` |
 | 路径清除 | `path-clear-btn` | click | `clearPathSelections()` |
 | 路径关闭 | `path-bar-close` | click | 隐藏路径栏 |
-| 搜索输入 | `graph-search` | input | FlexSearch 搜索 → 结果列表 |
+| 搜索输入 | `graph-search` | input | Orama 搜索 → 结果列表 |
 | 搜索清除 | `graph-search-clear` | click | 清空搜索+清除高亮 |
 
 ## 键盘事件
@@ -140,15 +144,16 @@ let pathOverlayGroup: THREE.Group | null;   // 金线管道组
 ## 数据流关键路径
 
 ```
-/graph.bin  → expandCompact() → {nodes, links} → init3d(graphData)
+/graph-core.bin → zstd 解压 → msgpackr 解码 → expandCompact() → {nodes, links} → init3d(graphData)
                                                  ├→ createRenderer()     → scene/camera/renderer/controls/InstancedMesh/links
                                                  ├→ createInteraction()  → raycaster/hover/click
-                                                 ├→ createLabels()       → Canvas Sprite labels
+                                                 ├→ ensureLabels()       → 按距离创建 Canvas Sprite labels
                                                  ├→ createControlPanel() → DOM panel
                                                  ├→ createNeighborPanel()→ DOM panel
                                                  ├→ buildPathOverlay()  → gold cylinders
                                                  └→ window.__graphApi   → API exposed
 ```
+
 
 ## 前端控件与浮动面板
 

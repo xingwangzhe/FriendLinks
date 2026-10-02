@@ -1,10 +1,16 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.forece.net.yml:
+
+# 原元数据: {"file":"www.forece.net.yml","name":"佛利斯博客","url":"https://www.forece.net/","description":"佛利斯博客是一个关注互联网和IT技术的博客,主要提供本人的国外生活日志,互联网资讯,IT技术和网络赚钱等相关信息。","links":"/links","friendReferences":2}
 site:
-  name: "佛利斯博客"
-  url: "https://www.forece.net/"
-  description: "佛利斯博客是一个关注互联网和IT技术的博客,主要提供本人的国外生活日志,互联网资讯,IT技术和网络赚钱等相关信息。"
-  links: "/links"
+  name: 佛利斯博客
+  description: 佛利斯博客是一个关注互联网和IT技术的博客,主要提供本人的国外生活日志,互联网资讯,IT技术和网络赚钱等相关信息。
+  url: http://www.forece.net/
+  links: /links
   friends:
-    - name: "Fatesinger"
-      url: "https://fatesinger.com/"
-    - name: "土木坛子"
-      url: "https://tumutanzi.com/"
+    - name: 加拿大海外直邮代购
+      url: http://www.herecanada.com/
+    - name: Fatesinger
+      url: https://fatesinger.com/
+    - name: 土木坛子
+      url: https://tumutanzi.com/

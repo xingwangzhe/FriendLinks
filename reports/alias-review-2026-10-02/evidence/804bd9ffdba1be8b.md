@@ -1,0 +1,53 @@
+AirTouchの小站[ 跳转到主要内容 / Skip to content ](https://www.xsl.im/#main-content)[ 📄🦌🙌🐟🏖️ ![AirTouchの小站](https://www.xsl.im/avatar.webp) AirTouch Stay Hungry, Stay Foolish ](https://www.xsl.im/)
+搜索`Ctrl+K`
+* [文章](https://www.xsl.im/)
+* [说说](https://www.xsl.im/bb/)
+* [友链](https://www.xsl.im/friends/)
+* [留言](https://www.xsl.im/comments/)
+* [鱼塘](https://www.xsl.im/fcircle/)
+* [归档](https://www.xsl.im/archive/)
+[](https://www.xsl.im/)[](https://github.com/AirTouch666)[](https://www.xsl.im/atom.xml)[](https://www.travellings.cn/go.html)
+[ 📄🦌🙌🐟🏖️ ![AirTouchの小站](https://www.xsl.im/avatar.webp) AirTouch Stay Hungry, Stay Foolish ](https://www.xsl.im/)
+精选文章
+按住 Shift 横向滚动 
+[![](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F01%2F12%2F6964dc9f2261d.webp&w=1024&q=100)记一次博客被攻击 记一次博客被攻击 1月6日 ](https://www.xsl.im/cyber-attack "博主的博客遭遇大规模DDoS攻击，博客被攻击后无法访问，账户被暂停服务，流量高达300G，请求来自20个国家地区。")[![](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F01%2F12%2F6964dd4a7ab93.webp&w=1024&q=100)Vercel & Cloudflare Worker 项目推荐（2） Vercel & Cloudflare Worker 项目推荐（2） 25年11月4日 ](https://www.xsl.im/vercel-cf-projects-2 "五个可以在 Vercel 和 Cloudflare Workers 上部署的项目，这些工具都是可以帮助我们在生活中更加便利的小工具，希望可以给大家带来一些灵感和兴趣。")[![](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F01%2F12%2F6964f608ded34.webp&w=1024&q=100)所有道听途说，终获眼见为实 所有道听途说，终获眼见为实 25年8月26日 ](https://www.xsl.im/european-travel "暑假我跟随学校前往欧洲研学旅行经历。从德国格劳豪开始，先后游览了法兰克福的罗马广场、科隆大教堂，布鲁塞尔的原子塔和黄金大广场以及尿尿小童像，之后前往巴黎参观凯旋门、香榭丽舍大街、巴黎圣母院、埃菲尔铁塔和卢浮宫。文章不仅描述了各地的文化和历史，还对比了中德教育体系的不同。通过这次旅行，学生们获得了书本外的认知和历史感受，对欧洲的历史文化和艺术有了更深刻的理解。")[![](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F01%2F12%2F6964dd149642b.webp&w=1024&q=100)腾讯云EdgeOne免费CDN加速你的网站 腾讯云EdgeOne免费CDN加速你的网站 25年7月11日 ](https://www.xsl.im/edgeone "获取并使用腾讯云 EdgeOne 免费版 CDN 加速服务，包括添加网站、配置IP优选、SSL证书申请以及免费版套餐的特点和限制，同时也分享了个人在网站加速和功能配置方面的体验，提到了边缘函数的支持和用量封顶策略等亮点信息。")[![](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F01%2F12%2F6964dd9eb26f7.webp&w=1024&q=100)给你的 Artalk 评论区配置验证码和垃圾评论检测 给你的 Artalk 评论区配置验证码和垃圾评论检测 25年11月16日 ](https://www.xsl.im/artalk-safety "防止有人在评论区恶意刷评论或者灌水，配置 Artalk 验证码和垃圾评论检测功能，Artalk 内置了图片验证码功能，并支持多种验证服务，此外，使用 Akismet 服务进行垃圾评论检测。")[![](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F01%2F12%2F6964f2ca2cbd8.webp&w=640&q=50)迁移 Umami Cloud 数据到自建的 Umami 迁移 Umami Cloud 数据到自建的 Umami 25年9月30日 ](https://www.xsl.im/umami-migration "Umami是一款注重隐私和简洁的现代网站流量分析工具，可以作为Google Analytics的替代品。由于Umami Cloud免费版数据保留期限只有1年且只能添加3个网站，博主将Umami Cloud数据迁移到自建的Umami。")[![](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F01%2F12%2F6964de3478a74.webp&w=640&q=50)Vercel & Github Actions 项目推荐（1） Vercel & Github Actions 项目推荐（1） 25年9月26日 ](https://www.xsl.im/vercel-gh-projects-1 "如何利用Vercel和Github Actions等平台部署简便的项目，包括友链朋友圈、Gemini api转发、Bing每日一图、IT-Tools工具集合以及wr.do域名服务集合等。")[![](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F01%2F12%2F6964f1e5d616a.webp&w=640&q=50)博客的图片应该存哪啊？ 博客的图片应该存哪啊？ 25年9月4日 ](https://www.xsl.im/blog-image "博客图片存储方案的方案有很多，当前存放于博客仓库的方案虽可控性好，但存在访问速度慢、构建提交速度慢的问题。曾用公益图床又面临速度慢、格式限制、修改不便和不稳定等问题。付费图床和自建图床各有成本和技术门槛。作者寻求更优方案，欢迎读者分享建议。")[![](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F01%2F12%2F6964f1e5e82e8.webp&w=640&q=50)利用CloudflareR2搭建免费图床 利用CloudflareR2搭建免费图床 25年2月7日 ](https://www.xsl.im/cloudflare-r2-images "利用 Cloudflare R2 搭建免费图床，包括购买R2计划、创建存储桶、设置存储桶以允许公共URL访问、自定义域、使用PicGo上传图片以及创建API令牌来配置PicGo。")[![](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F01%2F28%2F6979f888eea56.webp&w=640&q=50)修复Vercel部署hexo导致文章的更新时间错误 修复Vercel部署hexo导致文章的更新时间错误 25年8月25日 ](https://www.xsl.im/hexo-update-fix "在 Vercel 自动化部署 Hexo 博客时，文章更新时间错误的问题，可以使用Github Action来将Hexo自动化部署到Vercel。")[![](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F01%2F12%2F6964f07c3b10f.webp&w=640&q=50)IPv6反解域名？手把手带你搞 IPv6反解域名？手把手带你搞 25年10月11日 ](https://www.xsl.im/ipv6-reverse-dns "长长的 IPv6 反解域名很好玩，教大家也搞一个玩玩～")[![](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F01%2F12%2F6964f07c438c9.webp&w=640&q=50)用Obsidian插件增强Stellar写作体验 用Obsidian插件增强Stellar写作体验 25年9月18日 ](https://www.xsl.im/obsidian-stellar "如何通过安装和使用Obsidian插件来增强Stellar主题的写作体验，从而提升写作效率和舒适度。")
+[ 查看预览文章 ](https://www.xsl.im/preview)
+全部分类创建日期
+[![DNSMgr——聚合管理所有域名DNS解析+自动续签SSL证书并部署](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F02%2F28%2F69a2f14e84787.webp&w=640&q=50)DNSMgr——聚合管理所有域名DNS解析+自动续签SSL证书并部署 迁移博客至香港服务器，用 GitHub Actions 实现自动部署，却被 1Panel 证书申请卡住。尝试 Certimate 遇 API 适配问题，转而体验 DNSMgr 一站式证书与 DNS 管理。 2月28日 项目分享 738字  ](https://www.xsl.im/dnsmgr)## [雨云香港服务器简单测评 博主购买了雨云香港的服务器，给大家测评一下～ 2月6日 服务器测评 253字  ](https://www.xsl.im/rainyun-hk)## [七牛云 AI 狂送 token 实测到底怎么样 七牛云 AI 大模型最近狂送 1300w token，模型涵盖 Qwen、DeepSeek 等多家开源模型，用起来非常丝滑！ 2月4日 经验分享 269字  ](https://www.xsl.im/qiniuyun-ai)[![记一次博客被攻击](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F01%2F12%2F6964dc9f2261d.webp&w=1280&q=100)记一次博客被攻击 博主的博客遭遇大规模DDoS攻击，博客被攻击后无法访问，账户被暂停服务，流量高达300G，请求来自20个国家地区。 1月6日 随笔杂谈 369字  ](https://www.xsl.im/cyber-attack)[![给你的 Artalk 评论区配置验证码和垃圾评论检测](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F01%2F12%2F6964dd9eb26f7.webp&w=1280&q=100)给你的 Artalk 评论区配置验证码和垃圾评论检测 防止有人在评论区恶意刷评论或者灌水，配置 Artalk 验证码和垃圾评论检测功能，Artalk 内置了图片验证码功能，并支持多种验证服务，此外，使用 Akismet 服务进行垃圾评论检测。 25年11月16日 经验分享 574字  ](https://www.xsl.im/artalk-safety)## [抓紧上车！免费 E3 开发者账号又来了！ 微软的 Office 365 E3 它是一个面向企业的云办公套件，包含高效的协作工具、数据安全防护和合规管理功能，现在可以获取免费E3开发者账号。 25年11月15日 经验分享 346字  ](https://www.xsl.im/free-e3)[![Vercel & Cloudflare Worker 项目推荐（2）](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F01%2F12%2F6964dd4a7ab93.webp&w=1280&q=100)Vercel & Cloudflare Worker 项目推荐（2） 五个可以在 Vercel 和 Cloudflare Workers 上部署的项目，这些工具都是可以帮助我们在生活中更加便利的小工具，希望可以给大家带来一些灵感和兴趣。 25年11月4日 项目分享 1734字  ](https://www.xsl.im/vercel-cf-projects-2)## [用 Zmail 搭建自己的临时邮箱 用Zmail搭建自己的临时邮箱。方便在多个平台注册，只需满足有GitHub账号、域名托管在Cloudflare并能使用 workers 等条件，即可享受匿名邮箱服务。 25年10月19日 项目分享 372字  ](https://www.xsl.im/zmail)[![IPv6反解域名？手把手带你搞](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F01%2F12%2F6964f07c3b10f.webp&w=640&q=50)IPv6反解域名？手把手带你搞 长长的 IPv6 反解域名很好玩，教大家也搞一个玩玩～ 25年10月11日 经验分享 740字  ](https://www.xsl.im/ipv6-reverse-dns)[![用插件实现 Hexo AI 文章摘要](https://www.xsl.im/_vercel/image?url=https:%2F%2Fbu.dusays.com%2F2026%2F01%2F12%2F6964f730200cf.webp&w=640&q=50)用插件实现 Hexo AI 文章摘要 很多博客都有 AI 摘要的功能，不要眼馋，我教你使用 hexo-ai-summary-liushen 插件为博客文章生成AI摘要。 25年10月4日 博客DIY 1647字  ](https://www.xsl.im/ai-summary) 123456
+### 探索
+* [Atom订阅](https://www.xsl.im/atom.xml)
+* [开往](https://www.travellings.cn/go.html)
+* [异次元之旅](https://travel.moe/go.html)
+### 社交
+* [Github](https://github.com/AirTouch666)
+* me@airtouch.top
+### 信息
+* [主题: Clarity 3.6.0](https://github.com/L33Z22L11/blog-v3)
+* [主题和组件文档](https://blog.zhilu.site/theme)
+* [萌ICP备20250662号](https://icp.gov.moe/?keyword=20250662)
+### 统计
+* 访问量 49770
+* 访客数 22739
+* 阅读量 14653
+© 2026 AirTouch
+博客统计 运营时长
+    2年7个月 上次更新
+    2个月前 总字数
+    5.12万
+技术信息 构建平台
+     Vercel 图片存储
+     ![](https://cdn.dusays.com/favicon.ico) 去不图床 软件协议
+    MIT 文章许可
+    CC BY-NC-SA 4.0 规范域名
+    www.xsl.im Blog
+    3.6.0 Vue
+    ^3.5.26 Nuxt
+    ^4.2.2 Content
+    ^3.10.0 Node
+    v24.15.0 pnpm
+    10.27.0 OS
+    linux Arch
+    x64
+展开构建信息
+最新评论
+[ ![avatar](https://weavatar.com/avatar/08e6dbdb1b132ca3f632c0732afe944a872f7c49594fbcc69ea20b11a12d8b7d)Ginc7月28日 友链已添加贵站 站点名称：今夕何夕兮 站点描述：今夕何夕，三千繁华，见此良人，皆虚梦一场 站点地址：https://www.ginc.site/ 站点图标：https://cdn.jsdelivr.net/gh/Ginc-c/Ginc/Ginc.png  ](https://www.xsl.im/friends#atk-comment-462)[ ![avatar](https://weavatar.com/avatar/7e3dc62d2db6965f993ee5e0bc6dea56a8d401fcf5271b3029582ed25232ad0d)Mugzx7月20日 佬友的“最新评论”是用的绝对链接吗（） 貌似会闪烁一下再跳转（）  ](https://www.xsl.im/comments#atk-comment-461)[ ![avatar](https://weavatar.com/avatar/3c35448323392794406fdeaa01aa059fd9cefaefa578bab28bbcbd62ae56b80f)生辰八字算命7月18日 文章不错非常喜欢，支持一下  ](https://www.xsl.im/dnsmgr#atk-comment-460)[ ![avatar](https://weavatar.com/avatar/3c35448323392794406fdeaa01aa059fd9cefaefa578bab28bbcbd62ae56b80f)生辰八字算命7月16日 文章不错支持一下，非常喜欢  ](https://www.xsl.im/rainyun-hk#atk-comment-459)[ ![avatar](https://weavatar.com/avatar/3c35448323392794406fdeaa01aa059fd9cefaefa578bab28bbcbd62ae56b80f)免费算命7月16日 文章不错非常喜欢，支持一下  ](https://www.xsl.im/dnsmgr#atk-comment-458)

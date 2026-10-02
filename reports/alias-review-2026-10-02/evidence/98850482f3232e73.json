@@ -1,0 +1,143 @@
+{
+  "requested": "https://www.ethyoung.me/",
+  "success": true,
+  "error": "timeout or empty result",
+  "url": "https://www.ethyoung.me/",
+  "redirected_url": "https://ethyoung.me/",
+  "redirected_status_code": 200,
+  "status_code": 307,
+  "error_message": "",
+  "metadata": {
+    "title": "首页 | Ethan Young",
+    "description": "Ethan Young 的个人博客。前端开发、工程实践与产品构建。",
+    "keywords": null,
+    "author": "Ethan",
+    "og:type": "website",
+    "og:url": "https://www.ethyoung.me/",
+    "og:title": "首页 | Ethan Young",
+    "og:site_name": "Ethan Young",
+    "og:description": "Ethan Young 的个人博客。前端开发、工程实践与产品构建。",
+    "og:image": "https://www.ethyoung.me/og-image.webp"
+  },
+  "canonicals": [
+    "https://www.ethyoung.me/"
+  ],
+  "markdownLength": 1010,
+  "contentHash": "3994f9ce3d1c37632b8ab6e014c92353feff9bd39a1851c05b0e7ed9d52001ec",
+  "links": {
+    "internal": [
+      {
+        "href": "https://ethyoung.me/",
+        "text": "Magi",
+        "title": "",
+        "base_domain": "ethyoung.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://ethyoung.me/posts",
+        "text": "文章",
+        "title": "",
+        "base_domain": "ethyoung.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://ethyoung.me/notes",
+        "text": "笔记",
+        "title": "",
+        "base_domain": "ethyoung.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://ethyoung.me/projects",
+        "text": "项目",
+        "title": "",
+        "base_domain": "ethyoung.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://ethyoung.me/photos",
+        "text": "照片",
+        "title": "",
+        "base_domain": "ethyoung.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://ethyoung.me/atom.xml",
+        "text": "RSS",
+        "title": "",
+        "base_domain": "ethyoung.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://ethyoung.me/friends",
+        "text": "Friends",
+        "title": "",
+        "base_domain": "ethyoung.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://ethyoung.me/tags",
+        "text": "标签",
+        "title": "",
+        "base_domain": "ethyoung.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://github.com/AZenking",
+        "text": "",
+        "title": "GitHub",
+        "base_domain": "github.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/98850482f3232e73.md",
+  "seconds": 11.15
+}

@@ -1,12 +1,20 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.mgdw.org.yml:
+
+# 原元数据: {"file":"www.mgdw.org.yml","name":"MG镁元素","url":"https://www.mgdw.org/","description":"MG，大一学生，黑暗中的那束光。内容包括但不限于分享经验、体会、技巧、攻略。","links":"/links","friendReferences":3}
 site:
-  name: "MG镁元素"
-  url: "https://www.mgdw.org/"
-  description: "MG，大一学生，黑暗中的那束光。内容包括但不限于分享经验、体会、技巧、攻略。"
-  links: "/links"
+  name: MG镁元素 - 黑暗中的那束光
+  description: MG，大一学生，黑暗中的那束光。内容包括但不限于分享经验、体会、技巧、攻略。
+  url: http://www.mgdw.org/
+  links: /links
   friends:
-    - name: "Deserts"
-      url: "https://deserts.io/"
-    - name: "Fatesinger"
-      url: "https://fatesinger.com/"
-    - name: "笔记"
-      url: "https://biji.io/"
+    - name: Chencool
+      url: https://www.chencool.com/
+    - name: Deserts
+      url: https://deserts.io/
+    - name: Fatesinger
+      url: https://fatesinger.com/
+    - name: 小蝴蝶
+      url: http://xiaohudie.net/
+    - name: 笔记
+      url: https://biji.io/

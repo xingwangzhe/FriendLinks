@@ -1,12 +1,15 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
 site:
   name: 雅余  ·  茶余饭后，闲情雅致
-  url: https://yayu.net/
   description: 雅余 · 茶余饭后，闲情雅致
+  url: https://yayu.net/
   links: /links
   friends:
     - name: 网友小宋
-      url: https://xyzbz.cn
+      url: https://xyzbz.cn/
     - name: 我是军爸
-      url: https://me.xu19.com
+      url: https://me.xu19.com/
     - name: ejsoon
       url: https://ejsoon.win/
+  aliases:
+    - https://www.yayu.net/

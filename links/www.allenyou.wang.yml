@@ -1,40 +1,69 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 allenyou.wang.yml:
+
 site:
-  name: "秋实-Allenyou 的小窝"
-  url: "https://www.allenyou.wang/"
-  description: "稻花香里说丰年，听取 WA 声一片"
-  links: "/links"
+  name: 秋实-Allenyou 的小窝
+  description: 稻花香里说丰年，听取 WA 声一片
+  url: https://www.allenyou.wang/
+  links: /links
   friends:
-    - name: "无名博客"
-      url: "https://wuminboke.site/"
-    - name: "阿方的博客"
-      url: "https://fang.blog.miri.site/"
-    - name: "猎空のBlog"
-      url: "https://blog.lie-kong.top/"
-    - name: "狼林鱼池"
-      url: "https://blog.jiyu134.top/"
-    - name: "Honesty Blog"
-      url: "https://blog.hehouhui.cn/"
-    - name: "bbb-lsy07"
-      url: "https://blog.tsoo.net/"
-    - name: "布丁の小窝"
-      url: "https://www.furryowo.top/"
-    - name: "吐槽大王部落格"
-      url: "https://www.tcdw.net/"
-    - name: "Mello"
-      url: "https://www.rua.ink/"
-    - name: "fishcpy的小破站"
-      url: "https://blog.fis.ink/"
-    - name: "Pinpe的云端"
-      url: "https://pinpe.top/"
-    - name: "XME Notes Library"
-      url: "https://blog.xzadudu179.top/"
-    - name: "林泽凯的小站"
-      url: "https://www.linzekai.cn/"
-    - name: "挖站否-挖掘建站的乐趣"
-      url: "https://wzfou.com/"
-    - name: "Hello！I’m 中二病晚期"
-      url: "https://imfurry.com/"
-    - name: "孤熵小狼"
-      url: "https://blog.furen.link/"
-    - name: "逐暗者的麦田"
-      url: "https://www.iasuna.com/"
+    - name: 无名博客
+      url: https://wuminboke.site/
+    - name: 阿方的博客
+      url: https://fang.blog.miri.site/
+    - name: 猎空のBlog
+      url: https://blog.lie-kong.top/
+    - name: 狼林鱼池
+      url: https://blog.jiyu134.top/
+    - name: Honesty Blog
+      url: https://blog.hehouhui.cn/
+    - name: bbb-lsy07
+      url: https://blog.tsoo.net/
+    - name: 布丁の小窝
+      url: https://www.furryowo.top/
+    - name: 吐槽大王部落格
+      url: https://www.tcdw.net/
+    - name: Mello
+      url: https://www.rua.ink/
+    - name: fishcpy的小破站
+      url: https://blog.fis.ink/
+    - name: Pinpe的云端
+      url: https://pinpe.top/
+    - name: XME Notes Library
+      url: https://blog.xzadudu179.top/
+    - name: 林泽凯的小站
+      url: https://www.linzekai.cn/
+    - name: 挖站否-挖掘建站的乐趣
+      url: https://wzfou.com/
+    - name: Hello！I’m 中二病晚期
+      url: https://imfurry.com/
+    - name: 孤熵小狼
+      url: https://blog.furen.link/
+    - name: 逐暗者的麦田
+      url: https://www.iasuna.com/
+    - name: 夜白的小站
+      url: https://yebaiwn.top/
+    - name: Cznorth 的博客
+      url: https://www.cznorth.cn/
+    - name: Frederick's Blog
+      url: https://www.ooowl.net/
+    - name: LineXic 书屋
+      url: https://www.linexic.top/
+    - name: Farewe1ll's Blog
+      url: https://blog.farewe1ll.com/
+    - name: 缎金SatinAuの主页
+      url: https://satinau.cn/
+    - name: 冰轩
+      url: https://www.bingxuan.org/
+    - name: 搅局's blog
+      url: https://www.chinesehacker.org/
+    - name: 涛叔
+      url: https://tao.zz.ac/
+    - name: 紫光的现代小窝
+      url: https://zlight106.top/
+    - name: 圆周率的博客
+      url: https://yuanzj.top/
+    - name: MaxQi 的说说
+      url: https://maxqi.top/
+  aliases:
+    - https://allenyou.wang/

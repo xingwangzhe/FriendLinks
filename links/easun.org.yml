@@ -1,8 +1,13 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 www.easun.org.yml:
+
 site:
-  name: "Easun.org"
-  url: "https://easun.org/"
-  description: "Talk about Movable Type,Perl,Softwares and Journals"
-  links: "/links"
+  name: Easun.org
+  description: Talk about Movable Type,Perl,Softwares and Journals
+  url: https://easun.org/
+  links: /links
   friends:
-    - name: "JerryQu 的博客"
-      url: "https://imququ.com/"
+    - name: JerryQu 的博客
+      url: https://imququ.com/
+  aliases:
+    - https://www.easun.org/

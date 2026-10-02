@@ -1,20 +1,74 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.wjyyy.top.yml:
+
+# 原元数据: {"file":"www.wjyyy.top.yml","name":"wjyyy 博客","url":"https://www.wjyyy.top/","description":"wjyyy.top","links":"/links","friendReferences":7}
 site:
-  name: "wjyyy 博客"
-  url: "https://www.wjyyy.top/"
-  description: "wjyyy.top"
-  links: "/links"
+  name: wjyyy 博客 - wjyyy.top
+  description: HBOIer wjyyy的博客，收录一些题解、学习笔记、学习心得等。
+  url: http://www.wjyyy.top/
+  links: /friends
   friends:
-    - name: "蓝冰小站"
-      url: "https://icys.top/"
-    - name: "Studying Father's blog"
-      url: "https://studyingfather.com/"
-    - name: "KSkun's Blog"
-      url: "https://ksmeow.moe/"
-    - name: "xht37's blog"
-      url: "https://www.xht37.com/"
-    - name: "ViXbob的博客"
-      url: "https://vixbob.moe/"
-    - name: "ouuan的博客"
-      url: "https://ouuan.github.io/"
-    - name: "互联网产品经理@唐杰"
-      url: "https://tangjie.me/"
+    - name: Mayflyyh
+      url: http://www.mayflyyh.com/
+    - name: qnickx
+      url: https://qnickx.top/
+    - name: icy
+      url: https://icys.top/
+    - name: lrz
+      url: https://yclrz.github.io/
+    - name: qwqbear
+      url: http://qwqbear.coding.me/
+    - name: 叶ID
+      url: https://toxic2018.ml/
+    - name: FFjet
+      url: https://www.skyofwar.net/
+    - name: 文文殿下
+      url: https://www.syameimaru.com/
+    - name: zwc
+      url: http://zwcblog.top./
+    - name: Milky Way
+      url: https://milky-w.github.io/
+    - name: Xeonacid
+      url: https://xeonacid.xyz/
+    - name: Shq
+      url: https://blog.ishq.site/
+    - name: Studying Father
+      url: https://studyingfather.com/
+    - name: 17shou_VIP
+      url: https://www.17shou.vip/
+    - name: KSkun
+      url: https://ksmeow.moe/
+    - name: Logey
+      url: https://oi.logey.cn/
+    - name: xht37
+      url: https://www.xht37.com/
+    - name: ViXbob
+      url: https://vixbob.moe/
+    - name: decoration
+      url: https://blog.illusionalsky.cn/
+    - name: Siyuan
+      url: https://hydingsy.github.io/
+    - name: Rye_Catcher
+      url: https://rye-catcher.github.io/
+    - name: zgjjj
+      url: https://zgjjj.github.io/
+    - name: ouuan
+      url: https://ouuan.github.io/
+    - name: Sehnsucht
+      url: https://blog.sehnsucht.top/
+    - name: qwqbear
+      url: http://qwqbear.github.io/
+    - name: ChenZ01
+      url: https://chenz01.github.io/
+    - name: Arimi
+      url: http://www.arimi.top/
+    - name: yizr_cnyali
+      url: https://yizr-cnyali.ac/
+    - name: tarjin
+      url: http://ldq101.github.io/
+    - name: SDLTF
+      url: http://sdltf.info/
+    - name: 沈墨卿
+      url: https://xn--kiv483gv7d.top/
+    - name: 互联网产品经理@唐杰
+      url: https://tangjie.me/

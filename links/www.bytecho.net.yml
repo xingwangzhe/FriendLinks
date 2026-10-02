@@ -1,12 +1,39 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 bytecho.net.yml:
+
 site:
-  name: "字节星球"
-  url: "https://www.bytecho.net/"
-  description: "字节星球（原肥柴之家） - 致力于分享C++、Golang、前后端开发、数据结构与算法等计算机科学与技术内容以及个人生活日常。"
-  links: "/links"
+  name: 字节星球
+  description: 字节星球（原肥柴之家） - 致力于分享C++、Golang、前后端开发、数据结构与算法等计算机科学与技术内容以及个人生活日常。
+  url: https://www.bytecho.net/
+  links: /links
   friends:
-    - name: "白馬空谷"
-      url: "https://blog.mcloc.cn/"
-    - name: "花开陌上"
-      url: "https://moshanghua.net/"
-    - name: "Hran 的博客"
-      url: "https://get233.com/"
+    - name: 白馬空谷
+      url: https://blog.mcloc.cn/
+    - name: 花开陌上
+      url: https://moshanghua.net/
+    - name: Hran 的博客
+      url: https://get233.com/
+    - name: 妄司逸的小世界所见 所学 所感
+      url: https://blog.flechazo.icu/
+    - name: 菜鸡小窝菜鸡小窝
+      url: https://www.nmoe.cn/
+    - name: 吐司气泡🍞这里有多的吐司快来品鉴
+      url: https://blog.toastbubble.top/
+    - name: 禾令奇禾令奇
+      url: https://www.helingqi.com/
+    - name: 香菇社长香菇社长
+      url: https://siitake.cn/
+    - name: 赫赫文王赫赫文王
+      url: https://kqh.me/
+    - name: 晨鹤部落格Believe in openness
+      url: https://chenhe.me/
+    - name: SycBlogSycBlog
+      url: https://8c6c.com/
+    - name: 胡乱写写整理记录：草木一秋，总要留下些什么！
+      url: https://www.ppaa.fun/
+    - name: Wcowin's Blog循此苦旅，以达星辰
+      url: https://wcowin.work/
+    - name: kissthisrain前方的路途很遥远，加油
+      url: https://www.kissthisrain.cn/
+  aliases:
+    - https://bytecho.net/

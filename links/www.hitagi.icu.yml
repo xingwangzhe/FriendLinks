@@ -1,10 +1,21 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 hitagi.icu.yml:
+
 site:
-  name: "你所不知道的物語;"
-  url: "https://www.hitagi.icu/"
-  description: "萌之上，即爲蕩漾"
-  links: "/links"
+  name: 你所不知道的物語;
+  description: 萌之上，即爲蕩漾
+  url: https://www.hitagi.icu/
+  links: /links
   friends:
-    - name: "June's Blog"
-      url: "https://blog.june-pj.cn/"
-    - name: "Ariasakaの小窝"
-      url: "https://blog.yaria.top/"
+    - name: June's Blog
+      url: https://blog.june-pj.cn/
+    - name: Ariasakaの小窝
+      url: https://blog.yaria.top/
+    - name: Tianli 自知之明是最可贵的知识！
+      url: https://tianli-blog.club/
+    - name: 理随。 生而无畏，站至终章
+      url: https://lisui.top/
+    - name: 清羽飞扬 柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜
+      url: https://blog.qyliu.top/
+  aliases:
+    - https://hitagi.icu/

@@ -1,7 +1,10 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 tianxianzi.me.yml:
+
 site:
   name: 天仙子
-  url: https://www.tianxianzi.me/
   description: 个人生活博客
+  url: https://www.tianxianzi.me/
   links: /friends
   friends:
     - name: Homura's blog
@@ -80,7 +83,7 @@ site:
       url: https://ahxxm.com/
       description: N/A
     - name: Garden of Outlier
-      url: https://chlo.is
+      url: https://chlo.is/
       description: An Element-chan who writes.
     - name: 查令十字街 84 号
       url: https://www.javis.me/
@@ -97,3 +100,37 @@ site:
     - name: 東雲
       url: https://lllgoyour.com/
       description: 一直游到海水变蓝
+    - name: 掘火档案
+      url: https://www.digforfire.net/
+    - name: The New Yorker
+      url: https://www.newyorker.com/
+    - name: Paris Review
+      url: https://www.theparisreview.org/
+    - name: 村上春树
+      url: https://www.harukimurakami.com/
+    - name: 边角聊
+      url: https://leftovertalk.fm/
+    - name: Bangumi 番组计划
+      url: https://bangumi.tv/
+    - name: Nyaa
+      url: https://nyaa.si/
+    - name: SCP 基金会
+      url: https://scp-wiki-cn.wikidot.com/
+    - name: 黒沢ともよ
+      url: https://tomoyokurosawa.com/
+    - name: Kumiko as a Service
+      url: https://tvt.moe/
+    - name: 蔷薇花园
+      url: https://iirose.com/
+    - name: 小鹤音形
+      url: https://www.flypy.com/
+    - name: LKs 收集的神奇网站
+      url: https://lkssite.vip/
+    - name: Motherfucking website
+      url: https://motherfuckingwebsite.com/
+    - name: ShortPixel
+      url: https://shortpixel.com/
+    - name: Jimmy
+      url: https://jimmycai.com/
+  aliases:
+    - https://tianxianzi.me/

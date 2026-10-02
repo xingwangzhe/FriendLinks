@@ -1,24 +1,40 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.sh1no.icu.yml:
+
+# 原元数据: {"file":"www.sh1no.icu.yml","name":"Shino Channel","url":"https://www.sh1no.icu/","description":"Shino Channel","links":"/links","friendReferences":9}
 site:
-  name: "Shino Channel"
-  url: "https://www.sh1no.icu/"
-  description: "Shino Channel"
-  links: "/links"
+  name: Shino Channel
+  description: 友情链接
+  url: http://www.sh1no.icu/
+  links: /friends
   friends:
-    - name: "Nu1L Team"
-      url: "https://www.nu1l.com/"
-    - name: "cnss.io"
-      url: "https://cnss.io/"
-    - name: "Whirling-In-Rags"
-      url: "https://deepunk.icu/"
-    - name: "BLOG"
-      url: "https://wleukocytec.github.io/"
-    - name: "(>ᯅ<)"
-      url: "https://anff33.github.io/"
-    - name: "蓝冰小站"
-      url: "https://icys.top/"
-    - name: "Tim的杂货铺"
-      url: "https://timlzh.com/"
-    - name: "主页"
-      url: "https://cyril07.wiki/"
-    - name: "Fanllspd's Blog"
-      url: "https://fanllspd.com/"
+    - name: Nu1L
+      url: http://www.nu1l.com/
+    - name: CNSS
+      url: http://blog.cnss.io/
+    - name: XuKaFy
+      url: http://xukafy.github.io/
+    - name: Hurrison
+      url: https://hurrison.com/
+    - name: Boogipop
+      url: https://www.boogipop.com/
+    - name: Deepunk
+      url: https://deepunk.icu/
+    - name: leukocyte
+      url: https://wleukocytec.github.io/
+    - name: icy
+      url: https://icys.top/
+    - name: Timlzh
+      url: https://timlzh.com/
+    - name: Yaossg
+      url: https://yaossg.com/
+    - name: Fanllspd
+      url: https://fanllspd.com/
+    - name: Anff33
+      url: https://anff33.github.io/
+    - name: Cyril
+      url: https://cyril07.wiki/
+    - name: Orch1d
+      url: https://orch1d.icu/
+    - name: cnss.io
+      url: https://cnss.io/

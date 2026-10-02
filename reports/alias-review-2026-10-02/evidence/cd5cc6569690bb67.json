@@ -1,0 +1,63 @@
+{
+  "requested": "https://www.laomuzhu.cn/",
+  "success": true,
+  "error": "timeout or empty result",
+  "url": "https://www.laomuzhu.cn/",
+  "redirected_url": "https://www.laomuzhu.cn/",
+  "redirected_status_code": 200,
+  "status_code": 200,
+  "error_message": "",
+  "metadata": {
+    "title": "COST ✕ JUNYAO",
+    "description": "COST ✕ JUNYAO",
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 761,
+  "contentHash": "576b8fa091511797982ca5d3b57da668c12177e0393db1d94f48f4e60aa12adb",
+  "links": {
+    "internal": [
+      {
+        "href": "https://www.laomuzhu.cn/",
+        "text": "",
+        "title": "",
+        "base_domain": "laomuzhu.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://laomuzhu.cn/read",
+        "text": "Enjoy Read",
+        "title": "",
+        "base_domain": "laomuzhu.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://yao.ge",
+        "text": "博客",
+        "title": "",
+        "base_domain": "yao.ge",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/cd5cc6569690bb67.md",
+  "seconds": 13.08
+}

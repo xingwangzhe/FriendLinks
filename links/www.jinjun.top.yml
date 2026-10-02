@@ -1,46 +1,83 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 jinjun.top.yml:
+
 site:
-  name: "钧言极客"
-  url: "https://www.jinjun.top/"
-  description: "钧言极客（JINJUN.TOP）一个独立个人博客，记录平凡生活中的一些感悟、分享生活点滴和折腾的新事物，与我一起记录每一次精彩瞬间。"
-  links: "/links"
+  name: 钧言极客
+  description: 钧言极客（JINJUN.TOP）一个独立个人博客，记录平凡生活中的一些感悟、分享生活点滴和折腾的新事物，与我一起记录每一次精彩瞬间。
+  url: https://www.jinjun.top/
+  links: /links
   friends:
-    - name: "团团生活志"
-      url: "https://t-t.live/"
-    - name: "目的地-Destination"
-      url: "https://chrison.cn/"
-    - name: "风记星辰"
-      url: "https://www.thyuu.com/"
-    - name: "荒野孤灯"
-      url: "https://www.80srz.com/"
-    - name: "懋和道人-李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。"
-      url: "https://www.dao.js.cn/"
-    - name: "青桔气球"
-      url: "https://blog.qjqq.cn/"
-    - name: "梦爱吃鱼"
-      url: "https://blog.bsgun.cn/"
-    - name: "Spark’s Blog"
-      url: "https://www.aspark.cc/"
-    - name: "葱苓小筑"
-      url: "https://blog.ciraos.top/"
-    - name: "胜天半子"
-      url: "https://blog.291055.xyz/"
-    - name: "XingJiのBlog"
-      url: "https://love.xingji.fun/"
-    - name: "云端日志"
-      url: "https://57767.top/"
-    - name: "❖星港◎Star☆"
-      url: "https://blog.starsharbor.com/"
-    - name: "蒙需"
-      url: "https://jiangcl.com/"
-    - name: "叶泯希"
-      url: "https://blog.418121.xyz/"
-    - name: "陵长镜的小博客"
-      url: "https://r1n.top/"
-    - name: "LiuShen's Blog"
-      url: "https://blog.liushen.fun/"
-    - name: "陶小桃Blog"
-      url: "https://www.52txr.cn/"
-    - name: "Pinpe的云端"
-      url: "https://pinpe.top/"
-    - name: "『乙未极客』"
-      url: "https://www.yvii.cn/"
+    - name: 团团生活志
+      url: https://t-t.live/
+    - name: 目的地-Destination
+      url: https://chrison.cn/
+    - name: 风记星辰
+      url: https://www.thyuu.com/
+    - name: 荒野孤灯
+      url: https://www.80srz.com/
+    - name: 懋和道人-李懋和，俗名李栋梁。书法、国画爱好者，互联网安全与前端建设者。
+      url: https://www.dao.js.cn/
+    - name: 青桔气球
+      url: https://blog.qjqq.cn/
+    - name: 梦爱吃鱼
+      url: https://blog.bsgun.cn/
+    - name: Spark’s Blog
+      url: https://www.aspark.cc/
+    - name: 葱苓小筑
+      url: https://blog.ciraos.top/
+    - name: 胜天半子
+      url: https://blog.291055.xyz/
+    - name: XingJiのBlog
+      url: https://love.xingji.fun/
+    - name: 云端日志
+      url: https://57767.top/
+    - name: ❖星港◎Star☆
+      url: https://blog.starsharbor.com/
+    - name: 蒙需
+      url: https://jiangcl.com/
+    - name: 叶泯希
+      url: https://blog.418121.xyz/
+    - name: 陵长镜的小博客
+      url: https://r1n.top/
+    - name: LiuShen's Blog
+      url: https://blog.liushen.fun/
+    - name: 陶小桃Blog
+      url: https://www.52txr.cn/
+    - name: Pinpe的云端
+      url: https://pinpe.top/
+    - name: 『乙未极客』
+      url: https://www.yvii.cn/
+    - name: 极客乐趣不断学习、探索、创新
+      url: https://www.boke.fun/
+    - name: 心语难诉生活不止眼前的苟且，还有诗和远方！
+      url: https://xinyu19.com/
+    - name: 小俊博客不断学习、探索、创新
+      url: https://www.smalljun.com/
+    - name: peachRL的小站万亿及秭
+      url: https://wanyijizi.com/
+    - name: 城南旧事另一个平行世界的生活
+      url: https://els.cc/
+    - name: 倾城于你一个热爱分享的Typecho小站。
+      url: https://qninq.cn/
+    - name: iNetech Blog凡心所向，素履所往
+      url: https://blog.udp0.com/
+    - name: 颔首的博客颔首的博客 天曾缺掉的角,无非此等神采
+      url: https://www.38blog.com/
+    - name: 十三的小站分享生活中的趣事
+      url: https://www.123bk.cn/
+    - name: CrantPersonal Blog
+      url: https://www.crant.cn/
+    - name: 柒柒blog代码写的好不好，我DEBUG一下就知道了。
+      url: https://blog.lwgzs.cn/
+    - name: 一粒微尘撷光以望，纳星于瞳
+      url: https://blog.667408.xyz/
+    - name: 阿飞博客一个热爱书法的电脑爱好者！
+      url: https://www.liaao.cn/
+    - name: 江一铭一个读书人
+      url: https://jiangsihan.cn/
+    - name: 东东博客城市与信仰
+      url: https://nihaha.com/
+    - name: 中文博客列表尝试链接几乎所有的中文博客
+      url: https://zhblogs.ohyee.cc/
+  aliases:
+    - https://jinjun.top/

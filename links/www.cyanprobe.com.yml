@@ -1,12 +1,16 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.cyanprobe.com.yml:
+
+# 原元数据: {"file":"www.cyanprobe.com.yml","name":"CyanProbe探机博客","url":"https://www.cyanprobe.com/","description":"一个记录折腾和生活的博客,","links":"/links","friendReferences":3}
 site:
-  name: "CyanProbe探机博客"
-  url: "https://www.cyanprobe.com/"
-  description: "一个记录折腾和生活的博客,"
-  links: "/links"
+  name: CyanProbe探机博客
+  description: 一个记录折腾和生活的博客,
+  url: http://www.cyanprobe.com/
+  links: /
   friends:
-    - name: "山里来了攻城狮 | WILDLION"
-      url: "https://www.slll.info/"
-    - name: "木灵鱼儿"
-      url: "https://www.mulingyuer.com/"
-    - name: "Linux运维笔记|自动化运维攻城狮"
-      url: "https://blog.imdst.com/"
+    - name: 木灵鱼儿
+      url: https://www.mulingyuer.com/
+    - name: 山里来了攻城狮 | WILDLION
+      url: http://www.slll.info/
+    - name: Linux运维笔记|自动化运维攻城狮
+      url: https://blog.imdst.com/

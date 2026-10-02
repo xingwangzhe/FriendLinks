@@ -1,18 +1,34 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.slll.info.yml:
+
+# 原元数据: {"file":"www.slll.info.yml","name":"山里来了攻城狮 | WILDLION","url":"https://www.slll.info/","description":"山里来了攻城狮是一个面向网络/编程技术基础知识的原创技术型博客，涉及的分享内容涵盖linux \\ windows server \\ python等等","links":"/links","friendReferences":6}
 site:
-  name: "山里来了攻城狮 | WILDLION"
-  url: "https://www.slll.info/"
-  description: '山里来了攻城狮是一个面向网络/编程技术基础知识的原创技术型博客，涉及的分享内容涵盖linux \ windows server \ python等等'
-  links: "/links"
+  name: 山里来了攻城狮
+  description: 山里来了攻城狮是一个面向网络/编程技术基础知识的原创技术型博客，涉及的分享内容涵盖linux \  windows server \ python等等
+  url: http://www.slll.info/
+  links: /links
   friends:
-    - name: "JiaYu Blog"
-      url: "https://jiayu.mybabya.com/"
-    - name: "FROYO's Blog"
-      url: "https://www.izhuyue.com/"
-    - name: "CyanProbe探机博客"
-      url: "https://www.cyanprobe.com/"
-    - name: "灰常记忆"
-      url: "https://bestcherish.com/"
-    - name: "Repostone的转帖博客"
-      url: "https://repostone.home.blog/"
-    - name: "骤雨"
-      url: "https://hardrain980.com/"
+    - name: JiaYu博客
+      url: https://jiayu.mybabya.com/
+    - name: FROYO’s Blog
+      url: https://www.izhuyue.com/
+    - name: 天使羊波波闪耀光芒
+      url: http://www.live-in.org/
+    - name: 方块网络
+      url: http://www.cyanprobe.com/
+    - name: 伍小虎的博客
+      url: http://www.wxhu.net/
+    - name: 灰常记忆
+      url: https://bestcherish.com/
+    - name: 骤雨博客
+      url: https://www.hardrain980.com/
+    - name: 小左闲谈
+      url: http://blog.m1910.com/
+    - name: Patrik
+      url: http://patrik.cn/
+    - name: Hardrain
+      url: https://hardrain980.com/
+    - name: lidapao
+      url: http://www.307fuli.in/
+    - name: Repostone的转帖博客
+      url: https://repostone.home.blog/

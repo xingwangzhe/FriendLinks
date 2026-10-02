@@ -1,16 +1,21 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 gtdstudy.com.yml:
+
 site:
-  name: "Space Looming"
-  url: "https://www.gtdstudy.com/"
-  description: "Space Looming"
-  links: "/links"
+  name: Space Looming
+  description: Space Looming
+  url: https://www.gtdstudy.com/
+  links: /links
   friends:
-    - name: "见字如面"
-      url: "https://hiwannz.com/"
-    - name: "黄杰敏的博客"
-      url: "https://www.jiemin.com/"
-    - name: "Eval-EXEC"
-      url: "https://evex.one/"
-    - name: "Another Dayu"
-      url: "https://anotherdayu.com/"
+    - name: 见字如面
+      url: https://hiwannz.com/
+    - name: 黄杰敏的博客
+      url: https://www.jiemin.com/
+    - name: Eval-EXEC
+      url: https://evex.one/
+    - name: Another Dayu
+      url: https://anotherdayu.com/
     - name: "| Oilbeater 的自习室"
-      url: "https://oilbeater.com/"
+      url: https://oilbeater.com/
+  aliases:
+    - https://gtdstudy.com/

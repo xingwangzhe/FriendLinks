@@ -1,0 +1,17 @@
+{
+  "requested": "https://xgr.cab/",
+  "success": false,
+  "error": "timeout or empty result",
+  "url": "https://xgr.cab/",
+  "redirected_url": null,
+  "redirected_status_code": null,
+  "status_code": null,
+  "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://xgr.cab/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+  "metadata": null,
+  "canonicals": [],
+  "markdownLength": 0,
+  "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "links": {},
+  "markdown": "evidence/4e8818ea4725bb0b.md",
+  "seconds": 22.26
+}

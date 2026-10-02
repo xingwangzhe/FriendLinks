@@ -1,7 +1,10 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 www.eees.blog.yml:
+
 site:
   name: 唤青映记
-  url: https://blog.abloom.site/
   description: 友情链接
+  url: https://blog.abloom.site/
   links: /link/
   friends:
     - name: 皓然小站
@@ -20,3 +23,13 @@ site:
       url: https://www.xsl.im/
     - name: Liushen清羽飞扬
       url: https://blog.liushen.fun/
+    - name: 栖童の小站
+      url: https://blog.linux-qitong.top/
+    - name: 静かな森
+      url: https://innei.in/
+    - name: Anthony Fu
+      url: https://antfu.me/
+    - name: 無名小栈
+      url: https://blog.imsyy.top/
+  aliases:
+    - https://www.eees.blog/

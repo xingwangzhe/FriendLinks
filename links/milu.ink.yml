@@ -1,10 +1,15 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 www.milu.ink.yml:
+
 site:
   name: 米露小窝
-  url: https://milu.ink/
   description: 放弃个性,就和死了没什么区别
+  url: https://milu.ink/
   links: /
   friends:
     - name: 文派开源
       url: https://wenpai.org/
     - name: AxtonYao
-      url: https://flyhigher.top
+      url: https://flyhigher.top/
+  aliases:
+    - https://www.milu.ink/

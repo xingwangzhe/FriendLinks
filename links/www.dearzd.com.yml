@@ -1,22 +1,44 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.dearzd.com.yml:
+
+# 原元数据: {"file":"www.dearzd.com.yml","name":"咚门","url":"https://www.dearzd.com/","description":"她微笑关了窗","links":"/links","friendReferences":8}
 site:
-  name: "咚门"
-  url: "https://www.dearzd.com/"
-  description: "她微笑关了窗"
-  links: "/links"
+  name: 咚门 - 她微笑关了窗
+  description: 她微笑关了窗
+  url: http://www.dearzd.com/
+  links: /link/
   friends:
-    - name: "Elizen"
-      url: "https://elizen.me/"
-    - name: "JJ Lin Fan Club"
-      url: "https://jjlin.net/"
-    - name: "凉城"
-      url: "https://zhangleijuly.me/"
-    - name: "且听书吟"
-      url: "https://yufan.me/"
-    - name: "首页"
-      url: "https://immmmm.com/"
-    - name: "VOL.58 陈绮贞：用一把吉他，把生活写成诗的独立歌者"
-      url: "https://www.psrss.com/"
-    - name: "此间·我们"
-      url: "https://cijian.us/"
-    - name: "松鼠碎碎念"
-      url: "https://www.80-go.com/"
+    - name: 松鼠男
+      url: https://www.80-go.com/
+    - name: Elizen
+      url: https://elizen.me/
+    - name: MEOW
+      url: https://meows.love/
+    - name: 路易大叔
+      url: http://louishan.com/
+    - name: JJlin
+      url: http://jjlin.net/
+    - name: Dora
+      url: http://www.doraaa.com/
+    - name: Yang
+      url: http://leyeang.com/
+    - name: Artemis
+      url: http://zhangleijuly.me/
+    - name: 象牙塔
+      url: http://www.dreamxyt.net/
+    - name: 周小姐
+      url: http://oursgs.com/
+    - name: 有点蓝
+      url: http://bunengba.com/
+    - name: MurphyL
+      url: http://cijian.us/
+    - name: Coney
+      url: http://blog.uscooperate.com/
+    - name: Leyar
+      url: https://ileyar.com/
+    - name: 且听书吟
+      url: https://yufan.me/
+    - name: 首页
+      url: https://immmmm.com/
+    - name: VOL.58 陈绮贞：用一把吉他，把生活写成诗的独立歌者
+      url: https://www.psrss.com/

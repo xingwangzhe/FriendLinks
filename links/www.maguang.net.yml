@@ -1,20 +1,68 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.maguang.net.yml:
+
+# 原元数据: {"file":"www.maguang.net.yml","name":"半省堂","url":"https://www.maguang.net/","description":"半省堂","links":"/links","friendReferences":7}
 site:
-  name: "半省堂"
-  url: "https://www.maguang.net/"
-  description: "半省堂"
-  links: "/links"
+  name: 半省堂
+  description: 友情链接
+  url: http://www.maguang.net/
+  links: /link
   friends:
-    - name: "土木坛子"
-      url: "https://tumutanzi.com/"
-    - name: "随望淡思"
-      url: "https://www.lushaojun.com/"
-    - name: "佐仔志"
-      url: "https://www.jinbo123.com/"
-    - name: "南溟網"
-      url: "https://www.world10k.com/"
-    - name: "赫赫文王"
-      url: "https://kqh.me/"
-    - name: "老罗的博客"
-      url: "https://www.music4x.com/"
-    - name: "海交史"
-      url: "https://www.haijiaoshi.com/"
+    - name: 勺子哥
+      url: https://chenghouwen.com/
+    - name: 土木坛子
+      url: https://tumutanzi.com/
+    - name: 晴耕雨读
+      url: http://dapengde.com/
+    - name: 随望淡思
+      url: http://www.lushaojun.com/
+    - name: 方室网志
+      url: http://www.fangshi.org/
+    - name: 左岸读书
+      url: http://www.zreading.cn/
+    - name: 弈兰居
+      url: https://yilanju.com/
+    - name: 佐仔志
+      url: https://www.jinbo123.com/
+    - name: 萧婷教授
+      url: http://schottenhammer.net/
+    - name: 戴睿可博客
+      url: http://cn.derekyang.us/
+    - name: 从良未遂
+      url: http://www.ithmz.com/
+    - name: 赫赫文王
+      url: https://kqh.me/
+    - name: 辟雍堂
+      url: http://www.xiaoqh.cn/
+    - name: 老罗的博客
+      url: http://www.music4x.com/
+    - name: 非礼勿言
+      url: https://feiliwuyan.com/
+    - name: 哲尔夫
+      url: http://www.zeove.com/
+    - name: 碧云飘鹤
+      url: http://guangma.360doc.com/
+    - name: 海交史网站
+      url: https://www.haijiaoshi.com/
+    - name: 胶东书院
+      url: http://www.jdshuyuan.org/
+    - name: 老烟台网
+      url: http://www.laoyantai.org/
+    - name: 欧亚学研究
+      url: http://www.eurasianhistory.com/
+    - name: 泉州海交史博物馆
+      url: http://www.qzhjg.com/
+    - name: 上海图书馆
+      url: http://www.library.sh.cn/
+    - name: 赵胡胡
+      url: http://zhaohuhu.com/
+    - name: 萌图社
+      url: http://www.souacg.com/
+    - name: xiaochong
+      url: http://jijan.net/
+    - name: 方室网志
+      url: http://fangshi.org/
+    - name: kujihhoe
+      url: http://kujihhoe.com/
+    - name: 南溟網
+      url: https://www.world10k.com/

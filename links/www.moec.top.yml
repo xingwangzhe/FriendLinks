@@ -1,34 +1,67 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 moec.top.yml:
+
 site:
-  name: "老兄de博客"
-  url: "https://www.moec.top/"
-  description: "老兄de博客"
-  links: "/links"
+  name: 老兄de博客
+  description: 老兄de博客
+  url: https://www.moec.top/
+  links: /links
   friends:
-    - name: "萌贴士 –"
-      url: "https://moe.tips/"
-    - name: "KIENG博客-消失在人海"
-      url: "https://blog.kieng.cn/"
-    - name: "滄海矩阵"
-      url: "https://silverisky.com/"
-    - name: "云游君的小站"
-      url: "https://www.yunyoujun.cn/"
-    - name: "Moeyy"
-      url: "https://moeyy.cn/"
-    - name: "Luminous' Home"
-      url: "https://luotianyi.vc/"
-    - name: "拾星絮语"
-      url: "https://owo.cab/"
-    - name: "糖菓·部落"
-      url: "https://candinya.com/"
-    - name: "熔岩墨迹"
-      url: "https://magma.ink/"
-    - name: "是抹茶哦！"
-      url: "https://cha.moe/"
-    - name: "MZRME'S"
-      url: "https://mzrme.com/"
-    - name: "寒寒的博客"
-      url: "https://blog.alikia2x.com/"
-    - name: "Xiaoming's Blog"
-      url: "https://meinming.github.io/"
-    - name: "忆梦小站"
-      url: "https://www.onyi.net/"
+    - name: 萌贴士 –
+      url: https://moe.tips/
+    - name: KIENG博客-消失在人海
+      url: https://blog.kieng.cn/
+    - name: 滄海矩阵
+      url: https://silverisky.com/
+    - name: 云游君的小站
+      url: https://www.yunyoujun.cn/
+    - name: Moeyy
+      url: https://moeyy.cn/
+    - name: Luminous' Home
+      url: https://luotianyi.vc/
+    - name: 拾星絮语
+      url: https://owo.cab/
+    - name: 糖菓·部落
+      url: https://candinya.com/
+    - name: 熔岩墨迹
+      url: https://magma.ink/
+    - name: 是抹茶哦！
+      url: https://cha.moe/
+    - name: MZRME'S
+      url: https://mzrme.com/
+    - name: 寒寒的博客
+      url: https://blog.alikia2x.com/
+    - name: Xiaoming's Blog
+      url: https://meinming.github.io/
+    - name: 忆梦小站
+      url: https://www.onyi.net/
+    - name: Akilar の糖果屋
+      url: https://akilar.top/
+    - name: 咕萌小站
+      url: https://gmoe.cc/
+    - name: Dioxide.CN の时间轴
+      url: https://dioxide-cn.ink/
+    - name: 月色博客
+      url: https://www.vpsboom.com/
+    - name: 黄健周的创客空间
+      url: https://devhjz.com/
+    - name: Takumi の魔法世界
+      url: https://takumi748.icu/
+    - name: ADD-SP's blog
+      url: https://www.addesp.com/
+    - name: GOOPHER's Blog
+      url: https://goopher.tk/
+    - name: 深海小涛
+      url: https://xtaolink.cn/
+    - name: 吃土的小智
+      url: https://chitudexiaozhi.com/
+    - name: 冻葱 Tewi
+      url: https://dctewi.com/
+    - name: 花猪
+      url: https://cnhuazhu.gitee.io/
+    - name: 苍穹の下
+      url: https://www.blueskyxn.com/
+    - name: SenSteel
+      url: https://sensteel.cc/
+  aliases:
+    - https://moec.top/

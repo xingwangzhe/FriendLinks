@@ -1,6 +1,19 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.deq.plus.yml:
+
+# 原元数据: {"file":"www.deq.plus.yml","name":"DeQ Code Blog","url":"https://www.deq.plus/","description":"deq 技术玩家,将技术转换为快乐","links":"/links","friendReferences":0}
 site:
-  name: "DeQ Code Blog"
-  url: "https://www.deq.plus/"
-  description: "deq 技术玩家,将技术转换为快乐"
-  links: "/links"
-  friends: []
+  name: DeQ Code Blog
+  description: 江流宛转绕芳甸，月照花林皆似霰。
+  url: https://www.deq.plus/
+  links: /links
+  friends:
+    - name: 云留月的技术小站
+      url: https://www.cloudstaymoon.com/
+      description: 为折腾而生，为技术发烧
+    - name: LogDict - 日志字典
+      url: https://www.logdict.com/
+      description: 一个专注于记录, 分享, 学习的网站
+    - name: Handsome
+      url: https://www.lik.cc/
+      description: 心若有所向往，何惧道阻且长

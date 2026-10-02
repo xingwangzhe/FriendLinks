@@ -1,11 +1,14 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 www.lowbee.icu.yml:
+
 site:
   name: singleBee = 烤肉肉 = 小学生的秘密基地
-  url: https://lowbee.icu/
   description: aka 烤肉肉 || INTP/万金油/碎碎念制造机/居家办公中/尽量让自己热爱生活中/在自己的世界里吵吵闹闹地活着
+  url: https://lowbee.icu/
   links: /friends
   friends:
     - name: cos余弦の博客FE / ACG / 手工 / 深色模式强迫症 / INFP / 兴趣广泛养两只猫的老宅女 / remote
-      url: https://blog.cosine.ren
+      url: https://blog.cosine.ren/
     - name: 小熊小熊事务所世界第一可爱的熊爪蛋糕屋！
       url: https://sweetybear.github.io/
     - name: 鲨鲨深海鱼拒绝触礁把最棒的吊桥效应献给你
@@ -19,8 +22,10 @@ site:
     - name: 爱海天堂错误文件Across the Street, Cross one's Heart.
       url: https://naturaleki.one/
     - name: niraclerNiracler 的博物志长门大萌神会梦到外星羊吗？
-      url: https://niracler.com
+      url: https://niracler.com/
     - name: MotuesMotuesLike River!
-      url: https://www.motues.top
+      url: https://www.motues.top/
     - name: izfskizfsk's journallife.service - Human Life Service
       url: https://jounal.izfsk.top/
+  aliases:
+    - https://www.lowbee.icu/

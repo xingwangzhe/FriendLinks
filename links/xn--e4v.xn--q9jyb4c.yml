@@ -1,8 +1,32 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 椛.みんな.yml:
+
+# 原元数据: {"file":"椛.みんな.yml","name":"椛.みんな","url":"https://椛.みんな/","description":"友情链接","links":"/friends","friendReferences":11}
 site:
-  name: "椛とみんな"
-  url: "https://xn--e4v.xn--q9jyb4c/"
-  description: "椛とみんな"
-  links: "/links"
+  name: 椛とみんな
+  description: 椛とみんな
+  url: https://xn--e4v.xn--q9jyb4c/
+  links: /links
   friends:
-    - name: "mcfx's blog"
-      url: "https://mcfx.us/"
+    - name: mcfx's blog
+      url: https://mcfx.us/
+    - name: 笈川桐枝的小包包– 全新款的超级小包包～
+      url: https://blog.oikawa.moe/
+    - name: Billchenchina
+      url: https://billchen.bid/
+    - name: On The Luna - iks' blog
+      url: https://blog.iks.moe/
+    - name: 梓瑶233
+      url: https://ziyao233.github.io/
+    - name: ChaosAttractor's Blog - 生命本没有意义，但是如果世界被我改变了，那生命就有了意义
+      url: https://lostattractor.net/
+    - name: Piggy's Home
+      url: https://piggy.moe/
+    - name: Kiritake Kumi ‘s Blog
+      url: https://blog.yazawaniko.com/
+    - name: Ny3a
+      url: https://ny3a.github.io/
+    - name: rabbit's blog |
+      url: https://rabbithh.life/
+    - name: 云昔的小站 - Vincy云昔
+      url: https://blog.vincy1230.net/

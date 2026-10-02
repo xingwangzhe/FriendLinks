@@ -1,14 +1,22 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.sayxw.top.yml:
+
+# 原元数据: {"file":"www.sayxw.top.yml","name":"晴耕物语","url":"https://www.sayxw.top/","description":"一个被生活琐事淹没的随缘博主。","links":"/links","friendReferences":4}
 site:
-  name: "晴耕物语"
-  url: "https://www.sayxw.top/"
-  description: "一个被生活琐事淹没的随缘博主。"
-  links: "/links"
+  name: 晴耕物语 - 一个被生活琐事淹没的随缘博主。
+  description: 一个被生活琐事淹没的随缘博主。
+  url: http://www.sayxw.top/
+  links: /links.html
   friends:
-    - name: "DEAREND.WANG"
-      url: "https://dearend.wang/"
-    - name: "FGHRSH 的博客"
-      url: "https://www.fghrsh.net/"
-    - name: "青空之蓝"
-      url: "https://blog.ixk.me/"
-    - name: "三叶の小窝"
-      url: "https://blog.mitsuha.space/"
+    - name: 欲先知
+      url: https://dearend.wang/
+    - name: FGHRSH'BLOG
+      url: https://www.fghrsh.net/
+    - name: 青空之蓝
+      url: https://blog.ixk.me/
+    - name: 问少的小站
+      url: https://realneo.me/
+    - name: Siphilsの日常
+      url: https://eriri.ink/
+    - name: 三叶の小窝 (原季悠然)
+      url: https://blog.mitsuha.space/

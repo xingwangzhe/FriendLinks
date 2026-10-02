@@ -1,0 +1,50 @@
+{
+  "requested": "https://www.sanji.one/",
+  "success": false,
+  "error": "timeout or empty result",
+  "url": "https://www.sanji.one/",
+  "redirected_url": "https://www.sanji.one/",
+  "redirected_status_code": 403,
+  "status_code": 307,
+  "error_message": "Blocked by anti-bot protection: Cloudflare JS challenge",
+  "metadata": {
+    "title": "Just a moment...",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 503,
+  "contentHash": "1e54d23c466435fba291b3e643629a79890b344cb97578dc9cbdf7217fa447b3",
+  "links": {
+    "internal": [],
+    "external": [
+      {
+        "href": "https://www.cloudflare.com",
+        "text": "Cloudflare",
+        "title": "",
+        "base_domain": "cloudflare.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.cloudflare.com/privacypolicy/",
+        "text": "Privacy",
+        "title": "",
+        "base_domain": "cloudflare.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/329b2e687ba42588.md",
+  "seconds": 18.03
+}

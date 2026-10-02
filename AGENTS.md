@@ -59,6 +59,7 @@ site:
 | `site.name` | string | ✅ | 站点名称（显示在节点上） |
 | `site.description` | string | ✅ | 站点描述（鼠标悬停显示） |
 | `site.url` | string | ✅ | 站点 URL（也是文件名） |
+| `site.aliases` | string[] | ❌ | 已确认的同义入口，详见 docs/SITE-IDENTITY.md |
 | `site.color` | string | ❌ | 节点颜色，格式 `#RRGGBB` |
 | `site.links` | string | ❌ | 友链页面路由，默认 `/links` |
 | `site.friends[]` | array | ✅ | 友链数组 |
@@ -275,6 +276,10 @@ site:
 
 **本项目强制使用 Bun**
 
+Astro 的 `dev`、`build`、`preview` 脚本使用 `bunx --bun astro@latest`，强制以 Bun 运行；`@latest` 可能高于锁文件版本。CI 使用最新版 Bun，不再单独安装 Node.js。`@types/bun` 已作为开发依赖安装，`@types/node` 保留用于兼容 API。
+
+2026-10-02 更新记录：Astro 7.3.5、Three.js 0.186.1、oxlint 1.86.0、oxfmt 0.71.0、`@types/node` 26.6.4、`@types/bun` 1.4.2。`@xingwangzhe/bfs-rs` 和 `@xingwangzhe/force-rs` 均为 0.2.2。实际版本以 `package.json` 与 `bun.lock` 为准。
+
 ```bash
 bun install          # 安装依赖
 bun run <script>     # 运行脚本
@@ -283,6 +288,10 @@ bun run fmt          # 代码格式化
 ```
 
 **禁止**：npm、yarn、pnpm
+
+### dev 数据数量
+
+在 `astro.config.mjs` 顶部配置 `DEV_SAMPLE_SIZE`，默认 100；启动环境变量同名覆盖（如 `DEV_SAMPLE_SIZE=500 bun run dev`）。0 表示全量，仅接受非负安全整数，修改后重启。它限制正式站点抽样数，友链目标可能增加实际星球数；生产构建仍为全量。详见 `docs/DEV.md`。
 
 ### 代码风格
 
@@ -298,12 +307,15 @@ bun run lint && bun run fmt  # 提交前检查
 
 | 命令 | 用途 |
 |------|------|
-| `bun run dev` | 启动 Astro 开发服务器 |
+| `bun run dev` | 通过 Bun 启动最新 Astro 开发服务器 |
+| `bun run preview` | 通过 Bun 预览已有构建产物 |
 | `bun run build` | 构建生产版本 ⚠️ **未经用户明确允许禁止执行**（见顶部硬规则） |
 | `bun run validate` | 校验 `scripts/validate-links.ts` — 检查 YAML 格式和必填字段 |
 | `bun run six` | 运行 `scripts/six-degrees.ts` — 六度分隔分析 |
 | `bun run lint` | oxlint 代码检查 + TypeScript 类型检查 |
 | `bun run fmt` | oxfmt 格式化 `src/` 和 `links/` |
+| `bun run fmt-check` | 只检查格式，不写入文件 |
+| `bun run test` | 运行 Bun 测试 |
 
 ---
 
@@ -441,8 +453,11 @@ git push origin main
 |------|------|
 | `AGENTS.md` | **本文** — 友链管理操作指南 |
 | `README.md` | 项目总览、3D 渲染特性、本地开发 |
+| `docs/DEV.md` | dev 采样配置与全量模式 |
+| `docs/SITE-IDENTITY.md` | 相似站点筛选、别名证据、重复 YAML 合并及统一图口径 |
 | `docs/INTERACTIONS.md` | 3D 图交互系统 API、事件、面板 |
 | `docs/LABELS.md` | 3D 节点标签系统实现 |
+
 
 ### 前端组件约定
 
@@ -453,3 +468,13 @@ git push origin main
 开发验证使用 `bun run dev` 的抽样数据，运行 `bun run lint`、`bun test` 与改动文件格式检查；在系统浏览器检查拖拽、缩放、多窗口、固定暗色主题、搜索、参数持久化和飞行指针锁定。开发模式会清理本项目旧 Service Worker 缓存，避免加载过期控件代码。不得以生产构建替代 dev 检查。
 
 界面固定使用 daisyUI 暗色主题，与宇宙背景一致，不提供亮色模式或主题切换入口；系统浅色偏好及历史 `colorTheme` 本地设置均不影响页面。
+
+### 相似站点、同义地址与重复 YAML
+
+`site.url` 为规范入口，`site.aliases: string[]` 只记录有证据确认的旧地址与镜像。相似站名、域名、同作者或品牌仅作调查线索；优先用 `crwl` 检查真实跳转、canonical、文章内容及发布入口。验证页、停放页、抓取失败不能作为同义证据；独立栏目、语言站及子服务保留独立身份。身份合并不替代博客准入判断。
+
+已经指向同一规范入口的重复 YAML 可以直接实体合并，不需要再根据文件名推断域名关系。按稳定路径顺序保留主记录，补齐缺失的可选字段，合并 aliases 与友链并集，保存来源注释、原元数据和证据后删除重复文件。不能因为某文件友链较少而丢弃它的独有关系；同域多个栏目不能因文件名冲突强行合并。
+
+先建立完整身份映射再采样；图、统计、六度与 `/all.json` 共享逻辑集合。格式错误、别名冲突和迁移环使 `bun run validate` 非零退出。实体合并后检查逻辑记录和纯拓扑不变；新增别名则按最终身份检查关系保留。报告原始文件、逻辑站点与拓扑数量的区别，不把删文件直接等同于构建加速。
+
+临时脚本完成后清理，复核清单和证据保留为报告。不重新启用 `outdated/` 审核脚本，不擅自 build、运行全库 BFS、提交或推送。详细规则见 [站点身份与重复站点策略](docs/SITE-IDENTITY.md)。

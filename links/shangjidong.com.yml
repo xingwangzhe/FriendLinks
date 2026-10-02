@@ -1,7 +1,10 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 www.shangjidong.com.yml:
+
 site:
   name: 杀死一只知更鸟
-  url: https://shangjidong.com/
   description: 记录生活留住美好时刻 ，分享个人学习笔记
+  url: https://shangjidong.com/
   links: /friends.html
   friends:
     - name: 不如摸鱼去 世事太繁杂，不如摸鱼去
@@ -13,7 +16,7 @@ site:
     - name: 安知鱼 生活明朗，万物可爱
       url: https://blog.anheyu.com/
     - name: Echo 的小窝 漂泊于互联中的一个小窝
-      url: https://www.liveout.cn/
+      url: https://liveout.cn/
     - name: Leonus 进一寸有进一寸的欢喜。
       url: https://blog.leonus.cn/
     - name: 陈随易 前端之虎 陈随易
@@ -44,3 +47,7 @@ site:
       url: https://www.catchwang.com/
     - name: Kent Liao
       url: https://sanji.one/
+    - name: 首页
+      url: https://www.zhangchengwei.work/
+  aliases:
+    - https://www.shangjidong.com/

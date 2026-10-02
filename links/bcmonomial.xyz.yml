@@ -1,11 +1,14 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 www.bcmonomial.xyz.yml:
+
 site:
   name: 单项式的笔记本
-  url: https://bcmonomial.xyz/
   description: Because we come from everywhere, we all come from away!
+  url: https://bcmonomial.xyz/
   links: /links.html
   friends:
     - name: Benpigchu
-      url: https://benpigchu.com
+      url: https://benpigchu.com/
     - name: Ghost_chu
       url: https://www.ghostchu.com/
     - name: Eter's Blog
@@ -23,14 +26,20 @@ site:
     - name: Arthals' ink
       url: https://arthals.ink/
     - name: 百国茶室
-      url: https://doxide.pages.dev
+      url: https://doxide.pages.dev/
     - name: 妖居小憩
-      url: https://ye1f.xin
+      url: https://ye1f.xin/
     - name: Max's Zone
-      url: https://blog.maxxsoft.net
+      url: https://blog.maxxsoft.net/
     - name: HanzonoSerenya's Cafe
       url: https://blog.hananya.cafe/
     - name: Hydrate Craft 一个公益性的 Mastodon 实例
-      url: https://hydrate.space
+      url: https://hydrate.space/
     - name: 绫 Unknown Blog
-      url: https://nyan.best
+      url: https://nyan.best/
+    - name: 异次元之旅-萌ICP备
+      url: https://travel.moe/
+    - name: 友人C
+      url: https://www.ihewro.com/
+  aliases:
+    - https://www.bcmonomial.xyz/

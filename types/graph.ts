@@ -1,12 +1,5 @@
-export type Friend = { name: string; url: string; favicon?: string };
-export type Site = {
-  name: string;
-  description: string;
-  url: string;
-  favicon?: string;
-  color?: string;
-  friends: Friend[];
-};
+export type { Site } from "./site";
+export type Friend = import("./site").Site["friends"][number];
 
 export type GraphNode = {
   id: string;

@@ -1,0 +1,145 @@
+{
+  "requested": "https://www.tianxianzi.me/",
+  "success": true,
+  "error": "timeout or empty result",
+  "url": "https://www.tianxianzi.me/",
+  "redirected_url": "https://www.tianxianzi.me/",
+  "redirected_status_code": 200,
+  "status_code": 200,
+  "error_message": "",
+  "metadata": {
+    "title": "天仙子",
+    "description": "演示说明",
+    "keywords": null,
+    "author": null,
+    "og:title": "天仙子",
+    "og:description": "演示说明",
+    "og:url": "https://www.tianxianzi.me/",
+    "og:site_name": "天仙子",
+    "og:type": "website",
+    "og:updated_time": "2026-08-24T00:00:00+00:00",
+    "twitter:title": "天仙子",
+    "twitter:description": "演示说明"
+  },
+  "canonicals": [
+    "https://www.tianxianzi.me/"
+  ],
+  "markdownLength": 571,
+  "contentHash": "db1fc1a78d111a5a5dba643cd7d6dfa2e9f1b4c1232c1f038db0c58786ceb876",
+  "links": {
+    "internal": [
+      {
+        "href": "https://www.tianxianzi.me/",
+        "text": "主页",
+        "title": "",
+        "base_domain": "tianxianzi.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.tianxianzi.me/%E5%85%B3%E4%BA%8E/",
+        "text": "fish_line\n    \n        \n            \n                \n\n\n                \n\n\n            \n        \n    \n\n                \n                关于",
+        "title": "",
+        "base_domain": "tianxianzi.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.tianxianzi.me/archives/",
+        "text": "文章",
+        "title": "",
+        "base_domain": "tianxianzi.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.tianxianzi.me/search/",
+        "text": "搜索",
+        "title": "",
+        "base_domain": "tianxianzi.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.tianxianzi.me/friends/",
+        "text": "友链",
+        "title": "",
+        "base_domain": "tianxianzi.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.tianxianzi.me/links/",
+        "text": "链接",
+        "title": "",
+        "base_domain": "tianxianzi.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://gohugo.io/",
+        "text": "Hugo",
+        "title": "",
+        "base_domain": "gohugo.io",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://github.com/CaiJimmy/hugo-theme-stack",
+        "text": "Stack",
+        "title": "",
+        "base_domain": "github.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://jimmycai.com",
+        "text": "Jimmy",
+        "title": "",
+        "base_domain": "jimmycai.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/12bb14f1ac0c37db.md",
+  "seconds": 11.76
+}

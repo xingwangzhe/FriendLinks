@@ -1,14 +1,30 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.dragongod.net.yml:
+
+# 原元数据: {"file":"www.dragongod.net.yml","name":"龙天小筑","url":"https://www.dragongod.net/","description":"生活 技术 记录","links":"/links","friendReferences":4}
 site:
-  name: "龙天小筑"
-  url: "https://www.dragongod.net/"
-  description: "生活 技术 记录"
-  links: "/links"
+  name: 龙天小筑 - 生活 技术 记录
+  description: 生活 技术 记录
+  url: http://www.dragongod.net/
+  links: /
   friends:
-    - name: "香水的个人主页"
-      url: "https://xsui.com/"
-    - name: "Slyar Home"
-      url: "https://www.slyar.com/"
-    - name: "刘荣星的博客"
-      url: "https://www.liurongxing.com/"
-    - name: "黄杰敏的博客"
-      url: "https://www.jiemin.com/"
+    - name: perfume's space
+      url: https://xsui.com/
+    - name: Slyar Home
+      url: https://www.slyar.com/
+    - name: Xlbnas's Shelter
+      url: http://xlbnas.cn/
+    - name: 刘荣星的博客
+      url: https://www.liurongxing.com/
+    - name: 泰奧朵拉·蘭茨
+      url: http://www.susus.me/
+    - name: 牧狼羊博客
+      url: http://yujan.com/
+    - name: 西瓜的四颗铺路石
+      url: http://ssss.plus/
+    - name: 黄杰敏的博客
+      url: https://www.jiemin.com/
+    - name: 黑色午夜
+      url: http://hiwuye.com/
+    - name: frontopen2
+      url: http://www.frontopen.com/

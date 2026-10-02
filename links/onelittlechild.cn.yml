@@ -1,14 +1,19 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 lijiaan.top.yml:
+
 site:
   name: 小小小朋友的小小世界 - 这是小小小朋友的日常、代码、学习笔记！你可以看到有关代码、胡说八道、无聊吐槽等等
-  url: https://onelittlechild.cn/
   description: 这是小小小朋友的日常、代码、学习笔记！你可以看到有关代码、胡说八道、无聊吐槽等等
+  url: https://onelittlechild.cn/
   links: /friend
   friends:
     - name: wxwoo
       url: https://wxwoo.top/
     - name: 博瀚君
-      url: https://weibohan.com
+      url: https://weibohan.com/
     - name: chihuo2104
       url: https://blog.chihuo2104.dev/
     - name: lijiaan
-      url: https://lijiaan.top
+      url: https://lijiaan.top/
+  aliases:
+    - https://www.lijiaan.top/

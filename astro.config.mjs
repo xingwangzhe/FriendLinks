@@ -5,12 +5,21 @@ import { defineConfig } from "astro/config";
 // https://astro.build/config
 import path from "node:path";
 
+// DEV 正式站点抽样上限；0 表示全量。启动环境变量 DEV_SAMPLE_SIZE 优先。
+const DEV_SAMPLE_SIZE = 100;
+const rawDevSampleSize = process.env.DEV_SAMPLE_SIZE ?? DEV_SAMPLE_SIZE;
+const devSampleSize = Number(rawDevSampleSize);
+if (
+  (typeof rawDevSampleSize === "string" && !/^\d+$/.test(rawDevSampleSize)) ||
+  !Number.isSafeInteger(devSampleSize) ||
+  devSampleSize < 0
+) {
+  throw new Error("DEV_SAMPLE_SIZE 必须是非负安全整数：0 表示全量，正整数表示正式站点抽样上限。");
+}
+
 // 构建时间戳（UTC），格式：YYYY-MM-DD-HH-mm-ss
 // 用于替代内容 hash，方便直观查验构建时间
-const BUILD_TS = new Date()
-  .toISOString()
-  .replace(/[T:]/g, "-")
-  .slice(0, 19);
+const BUILD_TS = new Date().toISOString().replace(/[T:]/g, "-").slice(0, 19);
 
 export default defineConfig({
   output: "static",
@@ -20,6 +29,7 @@ export default defineConfig({
     incrementalBuild: true,
   },
   vite: {
+    define: { __DEV_SAMPLE_SIZE__: JSON.stringify(devSampleSize) },
     plugins: [tailwindcss()],
     ssr: {
       external: ["@xingwangzhe/bfs-rs", "@xingwangzhe/force-rs"],

@@ -1,5 +1,7 @@
 # 双节点最短路径查找 + 步进遍历 实现计划
 
+> 历史设计文档：保留当时方案与示例，不代表当前实现。2026-10-02 起 Astro 使用 `bunx --bun astro@latest`；当前搜索、标签和数据端点说明见 README、docs/INTERACTIONS.md 与 docs/LABELS.md。
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** 新增"路径查找"按钮 → 模态面板 → 两个 Fuse 搜索框分别选中起点/终点站点 → BFS 计算最短路径 → 黄色管道高亮路径 + 箭头标注方向 → 上一步/下一步按钮沿路径步进遍历。
@@ -471,7 +473,7 @@ function clearLocalEffects() {
 
 ```bash
 bun run lint
-bunx tsc --noEmit --pretty 2>&1 | grep -E "(index\.ts|pathfinder\.ts)" | head -10
+bunx --bun -p typescript tsc --noEmit --pretty 2>&1 | grep -E "(index\.ts|pathfinder\.ts)" | head -10
 ```
 
 - [ ] **Step 11: 更新 env.d.ts 类型声明**
@@ -899,7 +901,7 @@ document.addEventListener("keydown", function(e) {
 
 ```bash
 bun run lint
-bunx tsc --noEmit --pretty 2>&1 | grep -E "(index\.astro)" | head -10
+bunx --bun -p typescript tsc --noEmit --pretty 2>&1 | grep -E "(index\.astro)" | head -10
 ```
 
 - [ ] **Step 6: 提交**

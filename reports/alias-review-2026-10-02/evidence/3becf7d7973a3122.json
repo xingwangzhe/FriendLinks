@@ -1,0 +1,144 @@
+{
+  "requested": "https://www.xiaozonglin.cn/",
+  "success": true,
+  "error": "timeout or empty result",
+  "url": "https://www.xiaozonglin.cn/",
+  "redirected_url": "https://www.xiaozonglin.cn/",
+  "redirected_status_code": 200,
+  "status_code": 200,
+  "error_message": "",
+  "metadata": {
+    "title": "首页 | 林林杂语",
+    "description": "林林在这里记录读书和学习笔记",
+    "keywords": null,
+    "author": null,
+    "og:image": "https://www.xiaozonglin.cn/img/docusaurus-social-card.jpg",
+    "og:url": "https://www.xiaozonglin.cn/",
+    "og:locale": "zh_Hans",
+    "og:title": "首页 | 林林杂语",
+    "og:description": "林林在这里记录读书和学习笔记",
+    "twitter:card": "summary_large_image",
+    "twitter:image": "https://www.xiaozonglin.cn/img/docusaurus-social-card.jpg"
+  },
+  "canonicals": [
+    "https://www.xiaozonglin.cn/"
+  ],
+  "markdownLength": 905,
+  "contentHash": "97d880f646b1c3c59e842c9ab37901f1bc7b93731b297155ac2ed54ff04f3506",
+  "links": {
+    "internal": [
+      {
+        "href": "https://www.xiaozonglin.cn/",
+        "text": "跳到主要内容",
+        "title": "",
+        "base_domain": "xiaozonglin.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.xiaozonglin.cn/docs/golang/",
+        "text": "维基文档",
+        "title": "",
+        "base_domain": "xiaozonglin.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.xiaozonglin.cn/blog",
+        "text": "博客",
+        "title": "",
+        "base_domain": "xiaozonglin.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.xiaozonglin.cn/docs/intro",
+        "text": "笔记维基 📄",
+        "title": "",
+        "base_domain": "xiaozonglin.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.xiaozonglin.cn/about-me/",
+        "text": "关于林林",
+        "title": "",
+        "base_domain": "xiaozonglin.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.xiaozonglin.cn/friends/",
+        "text": "友情链接",
+        "title": "",
+        "base_domain": "xiaozonglin.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://github.com/Xiaozonglin",
+        "text": "GitHub",
+        "title": "",
+        "base_domain": "github.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://beian.miit.gov.cn/",
+        "text": "闽ICP备2023011626号-2",
+        "title": "",
+        "base_domain": "miit.gov.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://beian.mps.gov.cn/",
+        "text": "陕公网安备61019002003556号",
+        "title": "",
+        "base_domain": "mps.gov.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/3becf7d7973a3122.md",
+  "seconds": 11.8
+}

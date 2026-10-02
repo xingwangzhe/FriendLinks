@@ -1,18 +1,41 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 zhangchengwei.work.yml:
+
 site:
-  name: "首页"
-  url: "https://www.zhangchengwei.work/"
-  description: "张成威的个人网站（zhangchengwei.work），「文章存档」发布我对技术的思考，学习文章、笔记、心得，以及展示我的个人作品及简历等。开设的栏目：；开设"
-  links: "/links"
+  name: 首页
+  description: 张成威的个人网站（zhangchengwei.work），「文章存档」发布我对技术的思考，学习文章、笔记、心得，以及展示我的个人作品及简历等。开设的栏目：；开设
+  url: https://www.zhangchengwei.work/
+  links: /links
   friends:
-    - name: "杀死一只知更鸟"
-      url: "https://www.shangjidong.com/"
-    - name: "Bensz"
-      url: "https://blognas.hwb0307.com/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "粥里有勺糖视野修炼周刊 RSS 订阅RSS视野修炼周刊 RSS 订阅RSS主题ICP备案号"
-      url: "https://sugarat.top/"
-    - name: "飞刀博客"
-      url: "https://www.feidaoboke.com/"
-    - name: "阮一峰的个人网站"
-      url: "https://www.ruanyifeng.com/"
+    - name: 杀死一只知更鸟
+      url: https://shangjidong.com/
+    - name: Bensz
+      url: https://blognas.hwb0307.com/
+    - name: 张洪Heo
+      url: https://blog.zhheo.com/
+    - name: 粥里有勺糖视野修炼周刊 RSS 订阅RSS视野修炼周刊 RSS 订阅RSS主题ICP备案号
+      url: https://sugarat.top/
+    - name: 飞刀博客
+      url: https://www.feidaoboke.com/
+    - name: 阮一峰的个人网站
+      url: https://www.ruanyifeng.com/
+    - name: BlackCell
+      url: https://next.blackcell.top/
+    - name: yiwanbin
+      url: https://yiwanbin.top/
+    - name: 生活倒影
+      url: https://poetize.cn/
+    - name: 江咏之的笔记
+      url: https://jiangsihan.cn/
+    - name: clash节点
+      url: https://clashgithub.com/
+    - name: 刘未鹏
+      url: http://mindhacks.cn/
+    - name: 一介大叔
+      url: http://www.winature.com/
+    - name: 翁天信
+      url: https://www.dandyweng.com/
+    - name: 多鱼起始页
+      url: https://www.duoyu.link/
+  aliases:
+    - https://zhangchengwei.work/

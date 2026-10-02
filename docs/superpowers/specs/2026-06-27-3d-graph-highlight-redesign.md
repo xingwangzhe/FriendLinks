@@ -1,5 +1,7 @@
 # 3D 友链网络图高亮效果改进设计文档
 
+> 历史设计文档：保留当时方案与示例，不代表当前实现。2026-10-02 起 Astro 使用 `bunx --bun astro@latest`；当前搜索、标签和数据端点说明见 README、docs/INTERACTIONS.md 与 docs/LABELS.md。
+
 > 日期：2026-06-27
 > 主题：将灰度淡化高亮改为发光 + 放大高亮
 

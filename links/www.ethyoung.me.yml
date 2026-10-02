@@ -1,10 +1,21 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 ethyoung.me.yml:
+
 site:
-  name: "Readme"
-  url: "https://www.ethyoung.me/"
-  description: "👋 大家好，我是 Ethan Young，一名常驻南京的程序员，也是一位在生活中持续迭代的普通人"
-  links: "/links"
+  name: Readme
+  description: 👋 大家好，我是 Ethan Young，一名常驻南京的程序员，也是一位在生活中持续迭代的普通人
+  url: https://www.ethyoung.me/
+  links: /links
   friends:
-    - name: "欢迎👏🏻👏🏻👏🏻"
-      url: "https://z.wiki/"
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
+    - name: 欢迎👏🏻👏🏻👏🏻
+      url: https://z.wiki/
+    - name: 张洪Heo
+      url: https://blog.zhheo.com/
+    - name: 02 / 我要去巴萨 coyoteoutdoor.space
+      url: https://www.coyoteoutdoor.space:8095/
+    - name: 05 / 凌飞阁 llingfei.com
+      url: https://llingfei.com/
+    - name: 06 / xiaoming728 xiaoming728.com
+      url: https://xiaoming728.com/
+  aliases:
+    - https://ethyoung.me/

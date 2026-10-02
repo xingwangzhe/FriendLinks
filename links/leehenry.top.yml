@@ -1,11 +1,14 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 www.leehenry.top.yml:
+
 site:
   name: 伏枥之间 - WhistleWanderer
-  url: https://leehenry.top/
   description: 伏枥之间 - WhistleWanderer
+  url: https://leehenry.top/
   links: /friends
   friends:
     - name: secrun 一切的伟大背后，都有个微不足道的开始 勒勒叉，谦逊而随和，友善而强大，帮过我很多。现在是在信工所学网安的厉害博士生。
-      url: https://sec.run
+      url: https://sec.run/
     - name: CDM258's BOX 最坏的 ctfer
       url: http://www.cdm258.tech/
     - name: JrHimself 过去一直去，未来一直来，只有现在 加绒。十余年前在网上结识。虽到现在仍天各一方，但人生轨迹竟高度平行与重合。
@@ -19,23 +22,23 @@ site:
     - name: 莫比乌斯 凡真实的，必会相遇 ONO 将写作视为自我悖驳的旅程，永远为自己而写。他思考与写作的内驱力尤其令我敬佩。
       url: https://mobius.blog/
     - name: 小倪 BioEZ 入口即化，生生不息 小倪文笔雅致，站点现代，知识面甚是广博。「不平则鸣」「务去陈言」的态度令我受益良多。
-      url: https://bioez.xyz
+      url: https://bioez.xyz/
     - name: 1sle Measure Me Where I Live🏝 她选择将脉搏接入具体的世界，她使人确信善良拥有力量千钧，她透过泪水不断书写自己。她
       url: https://1sle29.github.io/
     - name: 金色河流 记录我的思考、困惑和成长 和我一样，Goldenriver 用「非典型理工男」自喻。他珍惜表达者的主体性，于喧哗众生中发声。
       url: https://goldenriver.site/
     - name: Teror的客栈 欢迎光临～
-      url: https://blog.trfox.top
+      url: https://blog.trfox.top/
     - name: Last Blog void of myself
-      url: https://blog.imlast.top
+      url: https://blog.imlast.top/
     - name: 纸鹿摸鱼处 纸鹿至麓不知路，支炉制露不止漉
       url: https://blog.zhilu.site/
     - name: cry4o4N0tFound Just Study for Fun✨
-      url: https://cry4o4n0tfound.cn
+      url: https://cry4o4n0tfound.cn/
     - name: 第三夏尔 认真生活，积极摸鱼
-      url: https://thirdshire.com
+      url: https://thirdshire.com/
     - name: 路明笔记 不慌张，不绝望，不狂妄，不投降
-      url: https://luming.cool
+      url: https://www.luming.cool/
     - name: Garden of Outlier An Element-chan who writes
       url: https://chlo.is/
     - name: ENCOM一号机 1,000 lonely stars | Hiding in the cold 有如接收到了宇宙中的某段电波。JA 有让所想与
@@ -78,3 +81,44 @@ site:
       url: https://ayu.land/
     - name: SkyWT 理想主義，我還年輕
       url: https://skywt.cn/
+    - name: Axi's Blog
+      url: https://axi404.top/
+      description: 一只可爱小猫 Axi。
+    - name: 西郊林野
+      url: https://blog.marshuni.fun/
+      description: 但行好事，莫问前程
+    - name: 鹅玉
+      url: https://ro3or.com/
+      description: 我在飞翔，回时风与我盘旋
+    - name: ZYBlog
+      url: https://blog.pljzy.top/
+      description: 一个技术探索与分享的平台
+    - name: 谢谢所有的鱼
+      url: https://gregueria.icu/
+      description: 您首页的奶牛猫图片转发大使
+    - name: atpX
+      url: https://atpx.com/
+      description: 要玩要写，只要音乐没停
+    - name: 松易涅的写作分享站
+      url: https://www.sungyinieh.com/
+      description: 保持好奇，阅读与思考
+    - name: 开往 Travellings
+      url: https://www.travellings.cn/
+      description: 友链接力，让网络开放起来
+    - name: 笔墨迹 Blogs·CN
+      url: https://blogscn.fun/
+      description: 致敬还在写博客的我们
+    - name: 十年之约 ForeverBlog
+      url: https://www.foreverblog.cn/
+      description: 一个人的寂寞，一群人的狂欢
+    - name: BlogsClub
+      url: https://www.blogsclub.org/
+      description: 独立且相互包容的博客俱乐部
+    - name: 博友圈
+      url: https://www.boyouquan.com/
+      description: 散落各处的孤岛连接广袤无垠的大陆
+    - name: An IndieWeb Webring
+      url: https://xn--sr8hvo.ws/
+      description: Weaving independent voices online
+  aliases:
+    - https://www.leehenry.top/

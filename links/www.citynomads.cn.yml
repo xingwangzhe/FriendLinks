@@ -1,18 +1,44 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.citynomads.cn.yml:
+
+# 原元数据: {"file":"www.citynomads.cn.yml","name":"与君闲记|再平凡的日子也值得记录！","url":"https://www.citynomads.cn/","description":"与君闲记|再平凡的日子也值得记录！","links":"/links","friendReferences":6}
 site:
-  name: "与君闲记|再平凡的日子也值得记录！"
-  url: "https://www.citynomads.cn/"
-  description: "与君闲记|再平凡的日子也值得记录！"
-  links: "/links"
+  name: citynomads.cn
+  description: 友情链接
+  url: http://www.citynomads.cn/
+  links: /links
   friends:
-    - name: "1900的灯泡店"
-      url: "https://1900.live/"
-    - name: "w候人兮猗"
-      url: "https://www.ahwgs.cn/"
-    - name: "VOL.58 陈绮贞：用一把吉他，把生活写成诗的独立歌者"
-      url: "https://www.psrss.com/"
-    - name: "貓魚"
-      url: "https://2cat.net/"
-    - name: "耳朵的主人"
-      url: "https://www.edzbe.com/"
-    - name: "ZKPEACE"
-      url: "https://zkpeace.com/"
+    - name: Wink
+      url: http://www.ahwgs.cn/
+    - name: 妖业蛋
+      url: http://yaoyedan.net/
+    - name: 未知素
+      url: https://www.psrss.com/
+    - name: 林间来信
+      url: http://byhsu.com/
+    - name: 猫鱼的小站
+      url: https://2cat.net/
+    - name: 盐酸小姐
+      url: http://www.misshcl.com/
+    - name: 立云图志
+      url: http://www.lopwon.com/
+    - name: 老猫与小猫
+      url: https://2meow.net/
+    - name: 耳朵的主人
+      url: https://www.edzbe.com/
+    - name: 胡和先个人博客
+      url: http://www.huhexian.com/
+    - name: 臻念|天堂
+      url: http://www.love90s.cc/
+    - name: 躬行笔记
+      url: https://www.fuzhoupyy.work/
+    - name: 追忆白
+      url: https://www.zhuiyibai.cn/
+    - name: 途中的树
+      url: https://zkpeace.com/
+    - name: 麦子花开
+      url: https://andan.me/
+    - name: 蚊子有点疼
+      url: https://www.wzydt.cn/
+    - name: 1900的灯泡店
+      url: https://1900.live/

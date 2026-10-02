@@ -1,8 +1,13 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.woria.xyz.yml:
+
+# 原元数据: {"file":"www.woria.xyz.yml","name":"WORIA","url":"https://www.woria.xyz/","description":"WORIA","links":"/links","friendReferences":1}
 site:
-  name: "WORIA"
-  url: "https://www.woria.xyz/"
-  description: "WORIA"
-  links: "/links"
+  name: WORIA
+  description: Welcome to my Blog!
+  url: https://www.woria.xyz/
+  links: /link/
   friends:
-    - name: "凝神长老和他的朋友们"
-      url: "https://www.jxtxzzw.com/"
+    - name: jxtxzzw
+      url: https://www.jxtxzzw.com/
+      description: 用志不分，乃凝于神。

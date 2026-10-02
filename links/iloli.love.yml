@@ -1,12 +1,17 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 www.iloli.love.yml:
+
 site:
   name: 猫猫博客
-  url: https://iloli.love/
   description: 猫猫摸大鱼的博客
+  url: https://iloli.love/
   links: /links
   friends:
     - name: LoliAPI 这里是LoliAPI,提供免费api服务的站点之一
       url: https://www.loliapi.com/
     - name: 举个栗子 热衷于花里胡哨的
-      url: https://www.alcy.cc
+      url: https://www.alcy.cc/
     - name: 某科学的贝壳 Get busy living or get busy dying.
-      url: https://blog.ning.moe
+      url: https://blog.ning.moe/
+  aliases:
+    - https://www.iloli.love/

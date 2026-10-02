@@ -1,7 +1,10 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 www.ximi.me.yml:
+
 site:
   name: 欢迎来到希米的小窝 - 希米的日志
-  url: https://ximi.me/
   description: 记录分享美好生活。
+  url: https://ximi.me/
   links: /links.html
   friends:
     - name: View site
@@ -34,3 +37,7 @@ site:
       url: https://ddlog.cn/
     - name: View site
       url: https://xgk.pw/
+    - name: 咕咚
+      url: https://gudong.site/
+  aliases:
+    - https://www.ximi.me/

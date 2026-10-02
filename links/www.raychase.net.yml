@@ -1,8 +1,14 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.raychase.net.yml:
+
+# 原元数据: {"file":"www.raychase.net.yml","name":"四火的唠叨","url":"https://www.raychase.net/","description":"四火的唠叨","links":"/links","friendReferences":1}
 site:
-  name: "四火的唠叨"
-  url: "https://www.raychase.net/"
-  description: "四火的唠叨"
-  links: "/links"
+  name: 四火的唠叨
+  description: 友情链接
+  url: http://www.raychase.net/
+  links: /
   friends:
-    - name: "酷 壳"
-      url: "https://coolshell.cn/"
+    - name: rayxiong.me
+      url: https://rayxiong.me/
+    - name: 酷 壳
+      url: https://coolshell.cn/

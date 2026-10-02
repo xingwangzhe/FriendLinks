@@ -1,0 +1,75 @@
+{
+  "requested": "https://www.lzhs.com/",
+  "success": true,
+  "error": "timeout or empty result",
+  "url": "https://www.lzhs.com/",
+  "redirected_url": "https://www.lzhs.com/",
+  "redirected_status_code": 200,
+  "status_code": 200,
+  "error_message": "",
+  "metadata": {
+    "title": "隔壁老刘 Lzh's Blog",
+    "description": "隔壁老刘的虚拟朋友圈",
+    "keywords": "隔壁老刘",
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 513,
+  "contentHash": "727eb7768c99720b275f2d1b4edf377ae21601577ead6858486a032c5c5c6036",
+  "links": {
+    "internal": [
+      {
+        "href": "https://www.lzhs.com/links.php",
+        "text": "友情链接",
+        "title": "",
+        "base_domain": "lzhs.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.lzhs.com/article/list",
+        "text": "文章列表",
+        "title": "",
+        "base_domain": "lzhs.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.lzhs.com/about.php",
+        "text": "关于博主",
+        "title": "",
+        "base_domain": "lzhs.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "javascript:;",
+        "text": "换一张",
+        "title": "",
+        "base_domain": "",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/4bd91455c3631caf.md",
+  "seconds": 7.59
+}

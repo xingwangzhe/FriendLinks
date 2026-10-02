@@ -1,0 +1,14 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 cubik65536.top.yml:
+
+site:
+  name: Qubik的小站
+  description: Recommended by<br/><i>Dr. Creative</i>
+  url: https://www.qubik65536.top/
+  links: /friends
+  friends:
+    - name: Qubik65536
+      url: https://qubik.top/
+  aliases:
+    - https://cubik65536.top/
+    - https://qubik65536.top/

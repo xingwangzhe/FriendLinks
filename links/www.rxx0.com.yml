@@ -1,10 +1,18 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 www.rxx0.com.yml:
+
+# 原元数据: {"file":"www.rxx0.com.yml","name":"RUBLOG-分享我的生活","url":"https://www.rxx0.com/","description":"分享使人快乐","links":"/links","friendReferences":2}
 site:
-  name: "RUBLOG-分享我的生活"
-  url: "https://www.rxx0.com/"
-  description: "分享使人快乐"
-  links: "/links"
+  name: RUBLOG-分享我的生活 - 分享使人快乐
+  description: 分享使人快乐
+  url: http://www.rxx0.com/
+  links: /
   friends:
-    - name: "严重浪漫 博客"
-      url: "https://www.bat69.com/"
-    - name: "Lovestu"
-      url: "https://www.lovestu.com/"
+    - name: 严重浪漫
+      url: https://www.bat9.com/
+    - name: 严重浪漫
+      url: http://www.bat69.com/
+    - name: AeroCore
+      url: https://aerocore.lovestu.com/
+    - name: Lovestu
+      url: https://www.lovestu.com/

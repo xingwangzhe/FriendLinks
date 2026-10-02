@@ -1,60 +1,173 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 northarea.tech.yml:
+
 site:
-  name: "North Area"
-  url: "https://www.northarea.tech/"
-  description: "咏奏妖华"
-  links: "/links"
+  name: North Area
+  description: 咏奏妖华
+  url: https://www.northarea.tech/
+  links: /links
   friends:
-    - name: "当下"
-      url: "https://fueis.com/"
-    - name: "狡猫三窝"
-      url: "https://slykiten.com/"
-    - name: "⑨BIE"
-      url: "https://9bie.org/"
-    - name: "云游君的小站"
-      url: "https://www.yunyoujun.cn/"
-    - name: "KirimaSharo's Blog"
-      url: "https://kirimasharo.com/"
-    - name: "第三夏尔"
-      url: "https://thirdshire.com/"
-    - name: "Davidの3号基地"
-      url: "https://www.david03.top/"
-    - name: "Dreamwings"
-      url: "https://www.dreamwings.cn/"
-    - name: "alice's scribbles"
-      url: "https://alicez.ink/"
-    - name: "神楽坂ニャン"
-      url: "https://lensual.space/"
-    - name: "Tsez's Blog"
-      url: "https://blog.tse.moe/"
-    - name: "沉舟侧畔 Blog"
-      url: "https://springwood.me/"
-    - name: "DrPika's Blog"
-      url: "https://blog.drpika.com/"
-    - name: "青空之蓝"
-      url: "https://blog.ixk.me/"
-    - name: "九十九封信"
-      url: "https://blog.99xin.me/"
-    - name: "Green Dolphin Dance"
-      url: "https://greendolphindance.com/"
-    - name: "橘纸柚的主页"
-      url: "https://uuz.bid/"
-    - name: "~ — Ayu"
-      url: "https://ayu.land/"
-    - name: "Mengru的空间"
-      url: "https://mengru.space/"
-    - name: "有夢書架"
-      url: "https://shoka.lostyu.me/"
-    - name: "DayDay.Plus"
-      url: "https://dayday.plus/"
-    - name: "Home"
-      url: "https://arthals.ink/"
-    - name: "7IN0SAN9"
-      url: "https://blog.7in0.me/"
-    - name: "Mo's Notebook"
-      url: "https://geonmoo.github.io/"
-    - name: "骤雨"
-      url: "https://hardrain980.com/"
-    - name: "云海花瑶"
-      url: "https://www.moeyao.cn/"
-    - name: "Erzbir's Blog"
-      url: "https://erzbir.com/"
+    - name: 当下
+      url: https://fueis.com/
+    - name: 狡猫三窝
+      url: https://slykiten.com/
+    - name: ⑨BIE
+      url: https://9bie.org/
+    - name: 云游君的小站
+      url: https://www.yunyoujun.cn/
+    - name: KirimaSharo's Blog
+      url: https://kirimasharo.com/
+    - name: 第三夏尔
+      url: https://thirdshire.com/
+    - name: Davidの3号基地
+      url: https://www.david03.top/
+    - name: Dreamwings
+      url: https://www.dreamwings.cn/
+    - name: alice's scribbles
+      url: https://alicez.ink/
+    - name: 神楽坂ニャン
+      url: https://lensual.space/
+    - name: Tsez's Blog
+      url: https://blog.tse.moe/
+    - name: 沉舟侧畔 Blog
+      url: https://springwood.me/
+    - name: DrPika's Blog
+      url: https://blog.drpika.com/
+    - name: 青空之蓝
+      url: https://blog.ixk.me/
+    - name: 九十九封信
+      url: https://blog.99xin.me/
+    - name: Green Dolphin Dance
+      url: https://greendolphindance.com/
+    - name: 橘纸柚的主页
+      url: https://uuz.bid/
+    - name: ~ — Ayu
+      url: https://ayu.land/
+    - name: Mengru的空间
+      url: https://mengru.space/
+    - name: 有夢書架
+      url: https://shoka.lostyu.me/
+    - name: DayDay.Plus
+      url: https://dayday.plus/
+    - name: Home
+      url: https://arthals.ink/
+    - name: 7IN0SAN9
+      url: https://blog.7in0.me/
+    - name: Mo's Notebook
+      url: https://geonmoo.github.io/
+    - name: 骤雨
+      url: https://hardrain980.com/
+    - name: 云海花瑶
+      url: https://www.moeyao.cn/
+    - name: Erzbir's Blog
+      url: https://erzbir.com/
+    - name: 魔法使之家
+      url: https://ero.ink/
+    - name: 梦衍社
+      url: http://www.mugetu.com/
+    - name: 细小胖次元的怠情势力
+      url: https://www.minipanz.com/
+    - name: 思想家公社
+      url: http://sobereva.com/
+    - name: 萌绘
+      url: https://www.moehui.com/
+    - name: Libgen
+      url: http://libgen.li/
+    - name: Acedemia
+      url: https://academia.stackexchange.com/
+    - name: Archive
+      url: http://archive.org/
+    - name: HackMD
+      url: https://hackmd.io/
+    - name: MAGA
+      url: https://mega.nz/
+    - name: connected papers
+      url: https://www.connectedpapers.com/
+    - name: xLog
+      url: https://xlog.app/
+    - name: SheronW
+      url: https://sheronw.xyz/
+    - name: 雅音宫羽
+      url: https://www.imasane.moe/
+    - name: KafeCat
+      url: https://kafecat.com/
+    - name: 猫梨
+      url: https://nek0ri.de/
+    - name: 七夏浅笑
+      url: https://www.julydate.com/
+    - name: Yuumi
+      url: https://yuumi.link/
+    - name: 静静
+      url: https://leak.moe/
+    - name: 稗田千秋
+      url: https://wind.moe/
+    - name: 非礼勿言
+      url: https://feiliwuyan.com/
+    - name: 茶姐姐
+      url: https://tea9.xyz/
+    - name: 浅川蓮
+      url: https://i.mixi.moe/
+    - name: High_sunlight
+      url: https://highsunlightlee.net/
+    - name: Loli Tech
+      url: https://satori.moe/
+    - name: 玩脱了的奶鱼
+      url: https://www.milkfish.site/
+    - name: 月宅
+      url: https://moegod.com/
+    - name: yufan
+      url: https://yufan.xlog.app/
+    - name: DIMPURR
+      url: http://im.dimpurr.com/
+    - name: Jrotty
+      url: https://kpi.xlog.app/
+    - name: SORA
+      url: http://sora.sound.moe/
+    - name: 颜海镜
+      url: https://yanhaijing.com/
+    - name: 果果喵
+      url: https://moe.xin/
+    - name: 花生Peadar
+      url: https://pea3nut.info/
+    - name: 恶魔菌の记事簿
+      url: https://meowqvq.site123.me/
+    - name: 雾琉璃
+      url: https://froyo.moe/
+    - name: Archeb
+      url: https://qwq.moe/
+    - name: 电磁泡ShellV
+      url: https://linux.dog/
+    - name: 天台
+      url: https://blog.terrace.ink/
+    - name: Sonic853
+      url: http://blog.853lab.com/
+    - name: paperneko
+      url: https://paperneko.moe/
+    - name: Peterxy
+      url: https://typeblog.net/
+    - name: Sukoshi
+      url: https://sukoshi.xyz/
+    - name: 90’s Blog
+      url: https://www.hedysx.com/
+    - name: 千灵
+      url: https://qianling.pw/
+    - name: 天仙子
+      url: https://www.tianxianzi.me/
+    - name: Mashiro
+      url: https://2heng.xin/
+    - name: 昼河万里
+      url: https://tothemoonriver.icu/
+    - name: 木皆之森
+      url: https://www.raobee.com/
+    - name: 千の津小姐的小窝
+      url: https://www.loricat.cn/
+    - name: 生如夏花
+      url: http://www.xiatian.name/
+    - name: Anoquan
+      url: https://anoquan.cn/
+    - name: 月月月子喵
+      url: https://haozi.moe/
+    - name: DIYgod
+      url: https://diygod.me/
+  aliases:
+    - https://northarea.tech/

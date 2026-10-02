@@ -1,8 +1,15 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 blog.moegeek.com.yml:
+
 site:
   name: MoeGeek的博客
-  url: https://blog.xpdbk.com/
   description: MoeGeek小胖 | 硬件改装、性能挖掘与工程实践，记录一个硬核玩家的数字重构之路。
+  url: https://blog.xpdbk.com/
   links: /links
   friends:
     - name: Jimmy
-      url: https://jimmycai.com
+      url: https://jimmycai.com/
+    - name: iMaeGoo s Blog虹墨空间站
+      url: https://www.imaegoo.com/
+  aliases:
+    - http://blog.moegeek.com/

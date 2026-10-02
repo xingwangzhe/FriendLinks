@@ -1,8 +1,14 @@
+# 2026-10-02: 同一规范入口的重复 YAML 合为一份，友链取并集；详见 reports/yaml-consolidation-2026-10-02/report.json。
+# 合并来源 blog.某昴.work.yml:
+
+# 原元数据: {"file":"blog.某昴.work.yml","name":"blog.某昴.work","url":"https://blog.某昴.work/","description":"友情链接","links":"/about","friendReferences":2}
 site:
-  name: "スバル"
-  url: "https://blog.xn--5ivs9a.work/"
-  description: "又一个WordPress站点"
-  links: "/links"
+  name: スバル
+  description: 又一个WordPress站点
+  url: https://blog.xn--5ivs9a.work/
+  links: /links
   friends:
-    - name: "无垠"
-      url: "https://flyhigher.top/"
+    - name: 无垠
+      url: https://flyhigher.top/
+    - name: wp.com
+      url: https://mao486.wordpress.com/

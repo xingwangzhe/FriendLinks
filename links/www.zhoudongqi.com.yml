@@ -1,10 +1,55 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 zhoudongqi.com.yml:
+
 site:
-  name: "瑾年-JinNianX-瑾年的学习记录-科技漫步"
-  url: "https://www.zhoudongqi.com/"
-  description: "分享每天学到的各类前沿技术，与学习中遇到的问题，供大家学习交流。"
-  links: "/links"
+  name: 瑾年-JinNianX-瑾年的学习记录-科技漫步
+  description: 分享每天学到的各类前沿技术，与学习中遇到的问题，供大家学习交流。
+  url: https://www.zhoudongqi.com/
+  links: /links
   friends:
-    - name: "MoeShin"
-      url: "https://moeshin.com/"
-    - name: "Joyer的博客"
-      url: "https://blog.joyer.top/"
+    - name: MoeShin
+      url: https://moeshin.com/
+    - name: Joyer的博客
+      url: https://blog.joyer.top/
+    - name: 欢迎访问
+      url: https://www.226yzy.com/
+    - name: 欢迎访问
+      url: https://www.ijinse.cn/
+    - name: 欢迎访问
+      url: https://www.bunian.cn/
+    - name: 欢迎访问
+      url: https://www.wangdongyou.com/
+    - name: 欢迎访问
+      url: https://blog.juanertu.com/
+    - name: 欢迎访问
+      url: https://emoao.com/
+    - name: 欢迎访问
+      url: https://bilubilu.cn/
+    - name: 欢迎访问
+      url: https://www.hack-gov.cn/
+    - name: 欢迎访问
+      url: http://www.shangs.org.cn/
+    - name: Biu
+      url: https://www.98dou.cn/
+    - name: Biu一下
+      url: https://blog.huran.xyz/
+    - name: 膜拜一下
+      url: https://www.wapriaily.com/
+    - name: 膜拜一下
+      url: https://www.weidaima.net/
+    - name: 膜拜一下
+      url: https://www.talkxj.com/
+    - name: 膜拜一下
+      url: https://www.iik2.com/
+    - name: 膜拜一下
+      url: https://www.hipyt.cn/
+    - name: 膜拜一下
+      url: https://sady0.com/
+    - name: 膜拜一下
+      url: https://www.czxcly.cn/
+    - name: wellcom to
+      url: https://www.rlfit.cn/
+    - name: JinNianX
+      url: http://jinnianx.cn/
+  aliases:
+    - https://zhoudongqi.com/

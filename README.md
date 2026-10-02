@@ -19,8 +19,9 @@ site:
   name: 我的博客
   description: 分享编程和技术相关的文章
   url: https://example.com
+  # aliases: [https://old.example.com/] # 可选，仅填写已确认的同义入口
   color: "#ff6600"       # 可选，自定义节点颜色（16 进制）
-  links: /links          # 友链页面路由（必填）
+  links: /links          # 可选，友链页面路由（默认 /links）
   friends:
     - name: 编程小站
       url: https://codehub.example.com
@@ -29,6 +30,38 @@ site:
 提交 PR 即可。
 
 > **友链页面路由**常见值：`/links`、`/link`、`/friends`、`/friend`、`/links.html` 等。
+
+---
+
+## 相似站点与重复记录策略
+
+一个逻辑站点只保留一份正式 YAML：`site.url` 是规范主入口，可选的 `site.aliases` 声明已确认的旧域名、镜像或其他入口。不同地址指向同一站点时，将地址记录为别名并合并重复文件；同作者运营的不同博客、同域名下的独立栏目仍分别保留。
+
+```yaml
+site:
+  name: HeyBlog
+  description: 独立博客发现与目录
+  url: https://www.heyblog.net/
+  aliases:
+    - https://www.zhblogs.net/
+  links: /site
+  friends: [] # 格式示例；迁移时保留现有友链并集
+```
+
+| 情况 | 处理策略 |
+| --- | --- |
+| 主地址规范化后相同，含 HTTP/HTTPS、末尾斜杠和国际化域名表示差异 | 自动解析为同一身份；整理为一份 YAML |
+| `www` 变体、相似域名、同名站点、托管镜像 | 只筛为候选，使用 `crwl` 检查跳转、canonical、内容与发布入口；确认后声明 aliases |
+| 同一作者、品牌或注册域下的不同站点；独立语言站或栏目 | 保留独立身份，不因归属相同直接合并 |
+| 验证页、停放页、访问失败或证据不足 | 不新增同义关系，保存待复核原因 |
+
+维护流程为“全量统计候选 → `crwl` 逐项复核 → 确认规范入口 → 合并 aliases 与友链并集 → 合并 YAML → 校验关系保留”。规范主记录优先提供元数据；合并来源和证据写入注释与报告。重复文件按稳定路径顺序确定主记录，缺失的可选字段从其他记录补齐。历史友链并集不代表逐条重新验证了当前有效性。
+
+加载器也会合并重复记录，先解析完整身份再进行开发采样；图、统计、六度工具和 `/all.json` 共用同一逻辑集合及拓扑。根入口覆盖同 host 路径，栏目按路径段边界和最长匹配归属；带查询参数的入口精确匹配。不同 hostname 必须显式声明别名，非默认端口保持区分。
+
+`bun run validate` 会检查格式、别名冲突和迁移环，错误时非零退出。整理时比较合并前后的逻辑记录与纯拓扑，必要时运行轻量测试；未经明确授权不运行 `bun run build`，不为去重重新启用 `outdated/` 的审核脚本。单纯合并已在加载时折叠的 YAML 不会再次减少图节点；性能改善应区分文件读取、拓扑规模与实际构建耗时。
+
+完整边界、操作步骤与统计字段见 [站点身份与重复站点策略](docs/SITE-IDENTITY.md)。2026-10-02 的处理记录见 [相似地址复核报告](reports/alias-review-2026-10-02/README.md)及 [重复 YAML 合并报告](reports/yaml-consolidation-2026-10-02/README.md)。
 
 ---
 
@@ -53,7 +86,7 @@ site:
 - **渲染节流** — 空闲自动降帧（60→30→15→8fps），减少 GPU 压力
 
 ### 路径查找
-- **BFS 最短路径** — Rust NAPI-RS 原生加速计算
+- **BFS 最短路径** — 浏览器端 TypeScript BFS；全图最短路径与六度分隔统计使用 Rust 原生模块
 - **金色贝塞尔管道** — 沿曲线分段圆柱，步进导航
 - **高亮覆盖** — 聚焦/悬停使用节点本色而非固定颜色
 
@@ -67,7 +100,7 @@ site:
 | 右键点击节点 | 聚焦该节点（相机拉近、光晕连线） |
 | 拖拽 | 旋转 3D 视角 |
 | 滚轮 | 缩放 |
-| 顶部搜索框 | FlexSearch 模糊搜索（毫秒级） |
+| 顶部搜索框 | Orama 搜索（域名分词与中文双字分词） |
 | URL `?local=域名` | 自动聚焦指定节点 |
 
 ### 控制面板（右下角齿轮按钮）
@@ -128,14 +161,14 @@ links/**/*.yml（排除保留目录 links/unverified/）
                →  YAML Schema 校验 → build-graph.ts (力导布局+贝塞尔预计算)
                →  graph-core.bin.ts (msgpack+zstd) →  /graph-core.bin
                →  graph-bezier.bin.ts (msgpack+zstd) →  /graph-bezier.bin
-               →  客户端 fetch → msgpackr 解码 → zstd 解压 → Three.js 3D 渲染
+               →  客户端 fetch → zstd 解压 → msgpackr 解码 → Three.js 3D 渲染
 ```
 
 ---
 
 ## 本地开发
 
-项目使用 **Bun** 管理依赖：
+项目使用 **Bun** 管理依赖和运行 Astro。开发、构建与预览脚本通过 `bunx --bun astro@latest` 启动，强制使用 Bun 运行时。
 
 ```bash
 # 安装依赖
@@ -144,13 +177,60 @@ bun install
 # 启动开发服务器
 bun run dev
 
-# 构建生产版本
+# 预览已有构建产物
+bun run preview
+
+# 构建生产版本（耗时较长，代理执行前必须获得用户明确授权）
 bun run build
 
-# 代码检查与格式化
+# 轻量检查
 bun run lint
+bun run fmt-check
+bun run validate
+
+# 写入格式化结果
 bun run fmt
 ```
+
+### dev 正式站点数量
+
+在 `astro.config.mjs` 顶部调整 `DEV_SAMPLE_SIZE`（默认 `100`），或在启动时用同名环境变量覆盖：
+
+```bash
+DEV_SAMPLE_SIZE=100 bun run dev  # 抽样最多 100 个正式站点
+DEV_SAMPLE_SIZE=500 bun run dev  # 临时改为最多 500 个
+DEV_SAMPLE_SIZE=0 bun run dev    # 加载全部正式站点
+```
+
+配置控制正式站点抽样数量，不是最终星球总数：友链目标仍可能生成额外星球。`0` 表示不限量；大于可用站点数时加载全部。只接受非负安全整数，非法值会在启动时报错。环境变量优先于配置常量，修改后重启开发服务器。生产构建始终加载全量正式数据。
+
+全量 dev 仍使用 dev 力导模拟参数，但可能明显增加加载和布局开销。详细说明见 [开发配置](docs/DEV.md)。
+
+### 运行版本与 CI
+
+`@latest` 会跟随 Astro 的最新发布版本，实际运行版本可能高于 `package.json` 和 `bun.lock` 中记录的版本。可用 `bunx --bun astro@latest --version` 检查实际 CLI 版本。
+
+GitHub Actions 使用 `oven-sh/setup-bun@v2` 安装最新版 Bun，然后执行 `bun install` 和 `bun run build`，不再单独安装 Node.js。源码中的 `node:fs`、`node:path` 等导入使用 Bun 的 Node.js 兼容 API。
+
+开发类型依赖包含 `@types/bun` 1.4.2 和 `@types/node` 26.6.4；保留 Node 类型用于兼容 API 与依赖声明。代码检查使用 oxlint 1.86.0 和 TypeScript，格式化使用 oxfmt 0.71.0。上述版本为 2026-10-02 的依赖更新记录，不代表今后的固定版本。
+
+### 站点准入与数据维护
+
+正式数据仅收录合格的个人博客、小型创作团队博客和博客聚合站。审核按公开可访问性、聚合功能或独立原创文章、运营主体及主要用途判断，不能仅凭 RSS、框架或站名认定。
+
+- `include`：博客放入普通 `links/` 分类；聚合站放入 `links/aggregators/`。
+- `unverified`：证据不足的候选放入 `links/unverified/`，默认不进入构建、端点和图分析。
+- `exclude`：明确不符合准入标准的站点不创建占位节点。
+
+完整准入规则见 [AGENTS.md](AGENTS.md)，候选注释格式见 [候选目录说明](links/unverified/README.md)。合格博客没有公开友链页时可以使用 `friends: []`。
+
+### 文档索引
+
+- [开发配置](docs/DEV.md)：dev 采样数量、环境变量和全量模式。
+- [交互系统](docs/INTERACTIONS.md)：图 API、路径查找与交互事件。
+- [标签系统](docs/LABELS.md)：Canvas Sprite、距离显隐与聚焦标签。
+- [维护指南](AGENTS.md)：数据格式、审核流程、命令和提交约束。
+- `docs/superpowers/`：历史设计与实施计划，具体实现以当前源码和维护文档为准。
 
 ### 项目结构
 
@@ -207,14 +287,16 @@ types/                       # TypeScript 类型定义
 
 | 层级 | 技术 |
 |------|------|
-| 框架 | **Astro 7** + Tailwind CSS v4 |
+| 框架 | **Astro 7.3.5** + Tailwind CSS v4 |
 | UI 组件 | **daisyUI**（Tailwind CSS）+ **WinBox**（窗口管理） |
-| 3D 引擎 | **Three.js** (r185) + EffectComposer + UnrealBloomPass |
-| 力导布局 | **d3-force-3d** + **Rust NAPI-ROS native addon**（`@xingwangzhe/force-rs`）|
-| BFS 路径 | **Rust NAPI-RS native addon**（`@xingwangzhe/bfs-rs`）|
-| 搜索 | **FlexSearch** |
+| 3D 引擎 | **Three.js 0.186.1** (r186) + EffectComposer + UnrealBloomPass |
+| 力导布局 | **Rust NAPI-RS 原生模块**（`@xingwangzhe/force-rs` 0.2.2）|
+| 全图 BFS 与六度分隔统计 | **Rust NAPI-RS 原生模块**（`@xingwangzhe/bfs-rs` 0.2.2）|
+| 客户端路径查找 | **TypeScript BFS**（无向无权图） |
+| 搜索 | **Orama** |
 | 数据序列化 | **msgpackr** |
 | 包管理器 | **Bun** |
+
 
 ## 前端控件与浮动面板
 

@@ -1,36 +1,73 @@
+#2026-10-02: crwl 验证同义入口后合并；证据见 reports/alias-review-2026-10-02/decisions.json。
+#合并来源 qladgk.com.yml:
+
 site:
-  name: "qlAD的技术笔记"
-  url: "https://www.qladgk.com/"
-  description: "qlAD的技术笔记，记录日常学习与开发中的点滴收获。分享编程实践、学习笔记和个人感悟，希望与同行共同进步，一起探索技术世界。"
-  links: "/links"
+  name: qlAD的技术笔记
+  description: qlAD的技术笔记，记录日常学习与开发中的点滴收获。分享编程实践、学习笔记和个人感悟，希望与同行共同进步，一起探索技术世界。
+  url: https://www.qladgk.com/
+  links: /links
   friends:
-    - name: "张洪Heo"
-      url: "https://blog.zhheo.com/"
-    - name: "eallion's Blog"
-      url: "https://www.eallion.com/"
-    - name: "宇阳"
-      url: "https://liuyuyang.net/"
-    - name: "草东日记"
-      url: "https://www.gaicas.com/"
-    - name: "首页"
-      url: "https://blog.anheyu.com/"
-    - name: "Leonus"
-      url: "https://blog.leonus.cn/"
-    - name: "REDEYESの小窝"
-      url: "https://www.redeyes.top/"
-    - name: "首页"
-      url: "https://blog.elykia.cn/"
-    - name: "爱吃肉的猫"
-      url: "https://meuicat.com/"
-    - name: "一个精美的个人博客,记录平时的学习笔记"
-      url: "https://www.xu69.com/"
-    - name: "Bore's Notes"
-      url: "https://bore.vip/"
-    - name: "ZLX STUDIO"
-      url: "https://blog.iooioio.com/"
-    - name: "Anyeの小站"
-      url: "https://www.anye.xyz/"
-    - name: "RE Blog"
-      url: "https://blog.randench.cn/"
-    - name: "Lufs's Blog"
-      url: "https://blog.isteed.cc/"
+    - name: 张洪Heo
+      url: https://blog.zhheo.com/
+    - name: eallion's Blog
+      url: https://www.eallion.com/
+    - name: 宇阳
+      url: https://liuyuyang.net/
+    - name: 草东日记
+      url: https://www.gaicas.com/
+    - name: 首页
+      url: https://blog.anheyu.com/
+    - name: Leonus
+      url: https://blog.leonus.cn/
+    - name: REDEYESの小窝
+      url: https://www.redeyes.top/
+    - name: 首页
+      url: https://blog.elykia.cn/
+    - name: 爱吃肉的猫
+      url: https://meuicat.com/
+    - name: 一个精美的个人博客,记录平时的学习笔记
+      url: https://www.xu69.com/
+    - name: Bore's Notes
+      url: https://bore.vip/
+    - name: ZLX STUDIO
+      url: https://blog.iooioio.com/
+    - name: Anyeの小站
+      url: https://www.anye.xyz/
+    - name: RE Blog
+      url: https://blog.randench.cn/
+    - name: Lufs's Blog
+      url: https://blog.isteed.cc/
+    - name: Spencer北京理工大学博士生
+      url: https://spencerwoo.com/
+    - name: 修远的小屋路漫漫其修远兮，吾将上下而求索
+      url: https://house.coderxst.top/
+    - name: 半方池水半方田只能懂一点点
+      url: https://uuanqin.top/
+    - name: 坠入星野的月🌙不以物喜，不以己悲。
+      url: https://www.uf4te.cn/
+    - name: 超光速我们的征途是星辰大海！
+      url: https://www.ftls.xyz/
+    - name: 陈圈圈一执一念一浮生，一悲一喜一枉然
+      url: https://coobk.com/
+    - name: 时光の流言是你把那座小城告诉了我。希望在这里能与你相遇，我的朋友，我的爱人。
+      url: https://blog.hansjack.top/
+    - name: 久流借由他人 寻找自我
+      url: https://www.jiuliu.top/
+    - name: ProriseProrise - 分享全栈技术与实战
+      url: https://prorise666.site/
+    - name: AntJust So So …
+      url: https://blog.wryhf.com/
+    - name: Pinpe 的云端一个属于自己的云朵
+      url: https://blog.pinpe.top/
+    - name: 旧絮记录生活
+      url: https://blog.ivil.top/
+    - name: 天渺studio
+      url: https://tianmiao.site/
+    - name: CBDT
+      url: http://www.weitao-jiang.cn/
+    - name: 草东
+      url: https://gaicas.com/
+    - name: Pinpe
+      url: https://pinpe.top/
+  aliases:
+    - https://qladgk.com/
