@@ -1,0 +1,62 @@
+{
+  "requested": "https://1995.yun/",
+  "success": true,
+  "error": "timeout or empty result",
+  "url": "https://1995.yun/",
+  "redirected_url": "https://1995.yun/",
+  "redirected_status_code": 200,
+  "status_code": 200,
+  "error_message": "",
+  "metadata": {
+    "title": "404 - 服务器已阵亡",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 704,
+  "contentHash": "e090cfb52154a19a8d2a874dfd914fe18af33d1c2a53b16e1122595209a24c5e",
+  "links": {
+    "internal": [],
+    "external": [
+      {
+        "href": "http://www.lornly.com",
+        "text": "www.lornly.com",
+        "title": "",
+        "base_domain": "lornly.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://beian.miit.gov.cn/",
+        "text": "鲁ICP备2026027595-2",
+        "title": "",
+        "base_domain": "miit.gov.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://wpa.qq.com/msgrd?menu=yes&site=qq&uin=7866313&v=3",
+        "text": "7866313",
+        "title": "",
+        "base_domain": "qq.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/ccfcd868cf260fad.md",
+  "seconds": 18.63
+}

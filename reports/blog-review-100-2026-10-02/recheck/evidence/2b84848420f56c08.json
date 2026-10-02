@@ -1,0 +1,38 @@
+{
+  "requested": "https://blog.imgb.space/",
+  "success": true,
+  "error": "timeout or empty result",
+  "url": "https://blog.imgb.space/",
+  "redirected_url": "https://blog.imgb.space/",
+  "redirected_status_code": 200,
+  "status_code": 200,
+  "error_message": "",
+  "metadata": {
+    "title": "哦唷，崩溃了！",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 139,
+  "contentHash": "429290b6cbbbfed97e0b6f28a5dd06d37c1f0e1ad9b241a7f762b3711506230c",
+  "links": {
+    "internal": [],
+    "external": [
+      {
+        "href": "https://gb0.dev/stopcode",
+        "text": "https://gb0.dev/stopcode",
+        "title": "",
+        "base_domain": "gb0.dev",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/2b84848420f56c08.md",
+  "seconds": 12.54
+}

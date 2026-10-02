@@ -1,0 +1,63 @@
+{
+  "requested": "http://pettw.lionfree.net/#",
+  "success": true,
+  "error": "timeout or empty result",
+  "url": "http://pettw.lionfree.net/#",
+  "redirected_url": "http://pettw.lionfree.net/#",
+  "redirected_status_code": 200,
+  "status_code": 200,
+  "error_message": "",
+  "metadata": {
+    "title": "Minecraft-P.E.T 伺服器→官網",
+    "description": "歡迎加入P.E.T伺服器IP:PETtw.online RC:26729345 Minecraft",
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 4058,
+  "contentHash": "6820393e470f22127125b4558f600a88e263fea9a34077d91e4c0502d08bfe33",
+  "links": {
+    "internal": [
+      {
+        "href": "http://pettw.lionfree.net",
+        "text": "P.E.T伺服器",
+        "title": "",
+        "base_domain": "lionfree.net",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "http://pettw.lionfree.net/",
+        "text": "介紹",
+        "title": "",
+        "base_domain": "lionfree.net",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://fb.com/PETServer",
+        "text": "Facebook",
+        "title": "",
+        "base_domain": "fb.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/188da8f58a14a79d.md",
+  "seconds": 14.27
+}

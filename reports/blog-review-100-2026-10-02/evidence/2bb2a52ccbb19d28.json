@@ -1,0 +1,49 @@
+{
+  "requested": "https://sivers.com/",
+  "success": true,
+  "url": "https://sivers.com/",
+  "redirected_url": "https://sivers.com/",
+  "redirected_status_code": 200,
+  "status_code": 200,
+  "error_message": "",
+  "metadata": {
+    "title": "buy Derek Sivers books",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 1209,
+  "contentHash": "bfcf471228b158c2d85c65f6cb44f5de92ea53489fc1884ccdc756c2fb734ecb",
+  "links": {
+    "internal": [],
+    "external": [
+      {
+        "href": "https://sive.rs/",
+        "text": "Derek Sivers",
+        "title": "",
+        "base_domain": "sive.rs",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://sive.rs/575k",
+        "text": "all profits go to charity",
+        "title": "",
+        "base_domain": "sive.rs",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/2bb2a52ccbb19d28.md",
+  "seconds": 15.25
+}

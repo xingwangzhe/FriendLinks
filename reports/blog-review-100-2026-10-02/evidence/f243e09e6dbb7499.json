@@ -1,0 +1,73 @@
+{
+  "requested": "https://kpi.xlog.app/",
+  "success": true,
+  "url": "https://kpi.xlog.app/",
+  "redirected_url": "https://kpi.xlog.app/",
+  "redirected_status_code": 530,
+  "status_code": 530,
+  "error_message": "",
+  "metadata": {
+    "title": "Origin DNS error | kpi.xlog.app | Cloudflare",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 1175,
+  "contentHash": "112393e6171f5204a90fd11563621f6661c243d9df27bf16030739b8cfc3a049",
+  "links": {
+    "internal": [],
+    "external": [
+      {
+        "href": "https://www.cloudflare.com/5xx-error-landing/",
+        "text": "Cloudflare",
+        "title": "",
+        "base_domain": "cloudflare.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1016/",
+        "text": "https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1016/",
+        "title": "",
+        "base_domain": "cloudflare.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://support.cloudflare.com/hc/en-us/articles/234979888-Error-1016-Origin-DNS-error",
+        "text": "Additional troubleshooting information here.",
+        "title": "",
+        "base_domain": "cloudflare.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.cloudflare.com/5xx-error-landing",
+        "text": "Cloudflare",
+        "title": "",
+        "base_domain": "cloudflare.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/f243e09e6dbb7499.md",
+  "seconds": 15.56
+}

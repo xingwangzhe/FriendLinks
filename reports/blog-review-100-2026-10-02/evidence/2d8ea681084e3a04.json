@@ -1,0 +1,122 @@
+{
+  "requested": "https://blog.fifcom.cn/links",
+  "success": true,
+  "url": "https://blog.fifcom.cn/links",
+  "redirected_url": "https://blog.fifcom.cn/links",
+  "redirected_status_code": 404,
+  "status_code": 404,
+  "error_message": "",
+  "metadata": {
+    "title": "404 Page not found | FIFCOM实验室",
+    "description": "咕→咕↑咕↓↑咕↓",
+    "keywords": "",
+    "author": "FIFCOM",
+    "og:title": "404 Page not found",
+    "og:description": "咕→咕↑咕↓↑咕↓",
+    "og:type": "website",
+    "og:url": "https://blog.fifcom.cn/404.html",
+    "og:image": "https://fifcom.cn/avatar/?transparent=1",
+    "og:site_name": "FIFCOM实验室",
+    "twitter:card": "summary_large_image",
+    "twitter:image": "https://fifcom.cn/avatar/?transparent=1",
+    "twitter:title": "404 Page not found",
+    "twitter:description": "咕→咕↑咕↓↑咕↓"
+  },
+  "canonicals": [
+    "https://blog.fifcom.cn/404.html"
+  ],
+  "markdownLength": 440,
+  "contentHash": "bdc7e747b9f7c65045c2dbc8be637bb71f83ba1bec96d1c80d5eaa655899bd01",
+  "links": {
+    "internal": [
+      {
+        "href": "https://blog.fifcom.cn/",
+        "text": "FIFCOM实验室",
+        "title": "FIFCOM实验室 (Alt + H)",
+        "base_domain": "fifcom.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.fifcom.cn/tags/",
+        "text": "标签",
+        "title": "标签",
+        "base_domain": "fifcom.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://fifcom.cn/",
+        "text": "主页",
+        "title": "主页",
+        "base_domain": "fifcom.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.fifcom.cn/tags/friends/",
+        "text": "朋友们",
+        "title": "朋友们",
+        "base_domain": "fifcom.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.fifcom.cn/links",
+        "text": "",
+        "title": "Go to Top (Alt + G)",
+        "base_domain": "fifcom.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://gohugo.io/",
+        "text": "Hugo",
+        "title": "",
+        "base_domain": "gohugo.io",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://git.io/hugopapermod",
+        "text": "PaperMod",
+        "title": "",
+        "base_domain": "git.io",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/2d8ea681084e3a04.md",
+  "seconds": 6.63
+}

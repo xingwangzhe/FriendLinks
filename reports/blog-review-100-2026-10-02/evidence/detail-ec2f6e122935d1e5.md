@@ -1,0 +1,137 @@
+[ ![](https://blog.gobyte.cn/images/ha-002-small.png) ](https://github.com/shanlanCoding)
+## 山岚
+### 半吊子全栈开发者
+Work in Home; Home is in 0713
+Toggle navigation
+  * [ 首页 ](https://blog.gobyte.cn/)
+  * [ 归档 ](https://blog.gobyte.cn/archives/)
+  * [ 分类 ](https://blog.gobyte.cn/categories/)
+  * [ 标签 ](https://blog.gobyte.cn/tags/)
+  * [ 友链 ](https://blog.gobyte.cn/links/)
+
+
+  * [](https://github.com/shanlanCoding)
+  * [](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=CWRgen1se2phZnxJeHgnamZk)
+
+
+### 公告
+人生短短几个秋
+### 分类
+  * [Java](https://blog.gobyte.cn/categories/Java/)4
+  * [JavaScript](https://blog.gobyte.cn/categories/JavaScript/)3
+  * [Python](https://blog.gobyte.cn/categories/Python/)1
+  * [windows](https://blog.gobyte.cn/categories/windows/)2
+  * [前端](https://blog.gobyte.cn/categories/%E5%89%8D%E7%AB%AF/)10
+  * [博客优化](https://blog.gobyte.cn/categories/%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/)8
+  * [变得更好](https://blog.gobyte.cn/categories/%E5%8F%98%E5%BE%97%E6%9B%B4%E5%A5%BD/)1
+  * [工具](https://blog.gobyte.cn/categories/%E5%B7%A5%E5%85%B7/)1
+  * [心情](https://blog.gobyte.cn/categories/%E5%BF%83%E6%83%85/)1
+  * [手机](https://blog.gobyte.cn/categories/%E6%89%8B%E6%9C%BA/)1
+  * [服务器](https://blog.gobyte.cn/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/)5
+  * [求职](https://blog.gobyte.cn/categories/%E6%B1%82%E8%81%8C/)4
+  * [设备](https://blog.gobyte.cn/categories/%E8%AE%BE%E5%A4%87/)1
+  * [骚操作](https://blog.gobyte.cn/categories/%E9%AA%9A%E6%93%8D%E4%BD%9C/)3
+
+
+### 标签
+  * [AutoJs](https://blog.gobyte.cn/tags/AutoJs/)3
+  * [Git](https://blog.gobyte.cn/tags/Git/)3
+  * [Hexo](https://blog.gobyte.cn/tags/Hexo/)6
+  * [Java](https://blog.gobyte.cn/tags/Java/)1
+  * [JavaScript](https://blog.gobyte.cn/tags/JavaScript/)2
+  * [Java面试题](https://blog.gobyte.cn/tags/Java%E9%9D%A2%E8%AF%95%E9%A2%98/)4
+  * [React](https://blog.gobyte.cn/tags/React/)8
+  * [Shell](https://blog.gobyte.cn/tags/Shell/)1
+  * [centOS](https://blog.gobyte.cn/tags/centOS/)1
+  * [java基础](https://blog.gobyte.cn/tags/java%E5%9F%BA%E7%A1%80/)1
+  * [java集合框架](https://blog.gobyte.cn/tags/java%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/)1
+  * [linux](https://blog.gobyte.cn/tags/linux/)1
+  * [nginx](https://blog.gobyte.cn/tags/nginx/)2
+  * [vue](https://blog.gobyte.cn/tags/vue/)1
+  * [windows 10](https://blog.gobyte.cn/tags/windows-10/)1
+  * [人脸识别](https://blog.gobyte.cn/tags/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB/)1
+  * [博客优化](https://blog.gobyte.cn/tags/%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/)1
+  * [吐槽](https://blog.gobyte.cn/tags/%E5%90%90%E6%A7%BD/)1
+  * [小米6](https://blog.gobyte.cn/tags/%E5%B0%8F%E7%B1%B36/)1
+  * [思维改变](https://blog.gobyte.cn/tags/%E6%80%9D%E7%BB%B4%E6%94%B9%E5%8F%98/)1
+  * [手机](https://blog.gobyte.cn/tags/%E6%89%8B%E6%9C%BA/)1
+  * [浏览器](https://blog.gobyte.cn/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/)1
+  * [爬虫](https://blog.gobyte.cn/tags/%E7%88%AC%E8%99%AB/)1
+  * [自定义手机号](https://blog.gobyte.cn/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%89%8B%E6%9C%BA%E5%8F%B7/)1
+  * [路由器](https://blog.gobyte.cn/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/)1
+
+
+### 标签云
+[AutoJs](https://blog.gobyte.cn/tags/AutoJs/) [Git](https://blog.gobyte.cn/tags/Git/) [Hexo](https://blog.gobyte.cn/tags/Hexo/) [Java](https://blog.gobyte.cn/tags/Java/) [JavaScript](https://blog.gobyte.cn/tags/JavaScript/) [Java面试题](https://blog.gobyte.cn/tags/Java%E9%9D%A2%E8%AF%95%E9%A2%98/) [React](https://blog.gobyte.cn/tags/React/) [Shell](https://blog.gobyte.cn/tags/Shell/) [centOS](https://blog.gobyte.cn/tags/centOS/) [java基础](https://blog.gobyte.cn/tags/java%E5%9F%BA%E7%A1%80/) [java集合框架](https://blog.gobyte.cn/tags/java%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/) [linux](https://blog.gobyte.cn/tags/linux/) [nginx](https://blog.gobyte.cn/tags/nginx/) [vue](https://blog.gobyte.cn/tags/vue/) [windows 10](https://blog.gobyte.cn/tags/windows-10/) [人脸识别](https://blog.gobyte.cn/tags/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB/) [博客优化](https://blog.gobyte.cn/tags/%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/) [吐槽](https://blog.gobyte.cn/tags/%E5%90%90%E6%A7%BD/) [小米6](https://blog.gobyte.cn/tags/%E5%B0%8F%E7%B1%B36/) [思维改变](https://blog.gobyte.cn/tags/%E6%80%9D%E7%BB%B4%E6%94%B9%E5%8F%98/) [手机](https://blog.gobyte.cn/tags/%E6%89%8B%E6%9C%BA/) [浏览器](https://blog.gobyte.cn/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/) [爬虫](https://blog.gobyte.cn/tags/%E7%88%AC%E8%99%AB/) [自定义手机号](https://blog.gobyte.cn/tags/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%89%8B%E6%9C%BA%E5%8F%B7/) [路由器](https://blog.gobyte.cn/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/)
+### 归档
+  * [四月 2021](https://blog.gobyte.cn/archives/2021/04/)1
+  * [五月 2020](https://blog.gobyte.cn/archives/2020/05/)2
+  * [三月 2020](https://blog.gobyte.cn/archives/2020/03/)1
+  * [二月 2020](https://blog.gobyte.cn/archives/2020/02/)3
+  * [一月 2020](https://blog.gobyte.cn/archives/2020/01/)1
+  * [十二月 2019](https://blog.gobyte.cn/archives/2019/12/)2
+  * [十一月 2019](https://blog.gobyte.cn/archives/2019/11/)4
+  * [十月 2019](https://blog.gobyte.cn/archives/2019/10/)2
+  * [九月 2019](https://blog.gobyte.cn/archives/2019/09/)1
+  * [八月 2019](https://blog.gobyte.cn/archives/2019/08/)11
+  * [七月 2019](https://blog.gobyte.cn/archives/2019/07/)9
+  * [六月 2019](https://blog.gobyte.cn/archives/2019/06/)9
+
+
+### 最新文章
+  * [Python](https://blog.gobyte.cn/categories/Python/)
+[51cto视频解析下载过程分析](https://blog.gobyte.cn/post/615d4220.html)
+2021-04-04
+  * [博客优化](https://blog.gobyte.cn/categories/%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96/)
+[pure主题valine留言板添加：昵称、邮箱必填必写功能](https://blog.gobyte.cn/post/e56fdb88.html)
+2020-05-22
+  * [设备](https://blog.gobyte.cn/categories/%E8%AE%BE%E5%A4%87/)
+[error:Missmatchins image and device刷机报错解决方法](https://blog.gobyte.cn/post/5613105b.html)
+2020-05-06
+  * [工具](https://blog.gobyte.cn/categories/%E5%B7%A5%E5%85%B7/)
+[解决微软EDGE浏览器在线大声朗读语音卡顿问题](https://blog.gobyte.cn/post/46726573.html)
+2020-03-15
+  * [JavaScript](https://blog.gobyte.cn/categories/JavaScript/)
+[海信A5自动开机打卡微信通知结束关机](https://blog.gobyte.cn/post/e6505ee3.html)
+2020-02-29
+
+
+# 归档: 2019/12
+共 2 篇文章
+###  [ 2019 ](https://blog.gobyte.cn/archives/2019/12/#collapse2019)
+[ 2019-12-07 AntD的一个警告解决方法-defaultvalue is invalid for getfielddecorator will set value please use option.initialvalue instead ](https://blog.gobyte.cn/post/7080982b.html) [ 2019-12-06 海信A5自动阅读打卡签到工具软件脚本APK ](https://blog.gobyte.cn/post/cbc43a97.html)
+  * [](https://github.com/shanlanCoding)
+  * [](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=CWRgen1se2phZnxJeHgnamZk)
+
+
+总访客 :   
+总阅读 : 
+Theme by [ cofess ](https://github.com/cofess)base on [pure](https://github.com/cofess/hexo-theme-pure). 
+×
+文章
+51cto视频解析下载过程分析
+@TOC 阅读须知本内容仅为本人学习计算机技术目的，若有侵权，还请联系。本文读者若用于非法目的，后果自行承担。 获取视频链接获取课程的所有单节链接https://edu.51cto.com/center/course/index/lesson-file-list?course_id&#x3D;118
+pure主题valine留言板添加：昵称、邮箱必填必写功能
+起因很多网友在留言的时候，懒得去添加自己的邮箱，导致即使我回复对方也无法收到通知，所以需要给留言板的邮箱字段增加必填的功能。 解决留言板使用的valine，该插件提供了必填的配置项，但是我使用的pure主题由于作者没有更新，所以对该功能不支持。下面开始对pure主题进行修改： 找到文件pure\la
+error:Missmatchins image and device刷机报错解决方法
+起因在我尝试给小米6进行线刷的时候，miFlash工具报错：error:Missmatchins image and device。从字面上理解是我的刷机包下载的不对，不是小米6的刷机包。实际上刷机包是正确的，而且我的手机也解锁了bootloader。 解决在我百思不得其解的时候，我只能按照线刷的流
+解决微软EDGE浏览器在线大声朗读语音卡顿问题
+新版的Chromium内核的edge浏览器添加了一个语音朗读的功能，配合F9的沉浸式阅读体验非常好，朗读效果堪比真人，测试语音链接：测试语音 问题但是使用过程中发现朗读时会经常卡顿，我猜测是网络原因导致，原因是我发现我使用的是“xiaoxiao”的女生online为在线朗读，搜索后发现使用的是微软云
+海信A5自动开机打卡微信通知结束关机
+# 须知 海信A5自动打卡、微信通知需要依托于“阅读小子”App，具体请看：海信A5自动阅读打卡签到工具软件脚本APK 电脑一台用于开启无障碍权限。阅读小子依托于“无障碍模式”实现，但是由于Android的一些特性，导致“无障碍模式”会在关机后失效，所以开机又需要手动打开，非常繁琐。所以如果想要实现
+页面
+(未命名)
+(未命名)
+(未命名)
+分类
+PythonPython
+博客优化博客优化
+设备设备
+工具工具
+JavaScriptJavaScript
+标签
+爬虫爬虫
+HexoHexo
+手机手机
+浏览器浏览器
+AutoJsAutoJs

@@ -14,7 +14,6 @@
 # 抓取时间: 2026-08-19 | 条目: 2701（API 全量 2709，去重后 2701）
 # ─────────────────────────────────────────
 
-
 # 迁移依据: https://www.heyblog.net/blog/2026081201（2026-08-12 项目合并公告）
 # 2026-10-02: 规范地址迁至 HeyBlog，保留旧地址作为 aliases；原友链数据保留。
 site:
@@ -100,8 +99,7 @@ site:
       description: "一个输出时尚、艺术、文化、观点的个人博客。
 
 
-        “锋利的人”是我给自己的标签，对一切人、事、物敏感，保留批判性思维，一个普通的、热爱生活的、或将路过你生命中的一位路人，以Love your
-        life, Love yourself 的态度在这里记录生活。"
+        “锋利的人”是我给自己的标签，对一切人、事、物敏感，保留批判性思维，一个普通的、热爱生活的、或将路过你生命中的一位路人，以Love your life, Love yourself 的态度在这里记录生活。"
     - name: 盐酸小姐
       url: http://www.misshcl.com
       description: 没有人像我一样
@@ -149,8 +147,7 @@ site:
       description: 记录编程建站优化的学习博客
     - name: 晚晴幽草轩
       url: https://www.jeffjade.com
-      description: It's only too late if you decide it is. Get busy living. or get
-        busy dying!
+      description: It's only too late if you decide it is. Get busy living. or get busy dying!
     - name: 三十里海河
       url: https://ihaihe.cn
     - name: TechKoala
@@ -749,8 +746,7 @@ site:
       description: Aurielの博客 - 生活的最佳状态，是冷冷清清的风风火火
     - name: 云烟博客
       url: https://www.yunyanck.cn
-      description: 云烟博客 www.yunyanck.cn ,分享热门建站源码，实用源码，普及网络安全知识 由云烟提供技术支持搭建的个人博客
-        记录着学习历程与未来发展
+      description: 云烟博客 www.yunyanck.cn ,分享热门建站源码，实用源码，普及网络安全知识 由云烟提供技术支持搭建的个人博客 记录着学习历程与未来发展
     - name: Aloxaf's Blog
       url: https://www.aloxaf.com
       description: 一只咸鱼的咸鱼博客
@@ -1025,8 +1021,7 @@ site:
       description: 诗与梦想的远方
     - name: 星尘独奏曲
       url: https://www.starduster.me
-      description: 这里是 Starduster 的个人站点，这里经常会有一些关于 Linux
-        运维和网络的学习笔记，有时候写点生活感想，也会有关于互联网的评论和吐槽。
+      description: 这里是 Starduster 的个人站点，这里经常会有一些关于 Linux 运维和网络的学习笔记，有时候写点生活感想，也会有关于互联网的评论和吐槽。
     - name: Orange
       url: https://blog.orange.tw
     - name: VnYzm的博客
@@ -1492,8 +1487,7 @@ site:
       description: 一个技术与生活为主，记录闲事杂事的博客
     - name: 碎言
       url: https://suiyan.cc
-      description: 记录并分享个人学习Python、JavaScript的过程和笔记。Life is short, You need JavaScript
-        and Python！
+      description: 记录并分享个人学习Python、JavaScript的过程和笔记。Life is short, You need JavaScript and Python！
     - name: AUGUS
       url: https://draugus.github.io
     - name: 白板报
@@ -1631,8 +1625,7 @@ site:
       description: 愿我如星君如月，夜夜流光相皎洁。
     - name: TheDrWu
       url: https://thedrwu.com
-      description: The tracking of my free-time creativity.  记录我业余时间的创造。 This is a
-        lynx and w3m compatible website.
+      description: The tracking of my free-time creativity.  记录我业余时间的创造。 This is a lynx and w3m compatible website.
     - name: 因为很想念
       url: https://ltmltm.cn/bk
       description: 想念童年美好时光，想念难忘的学生时代，想念初恋的感觉
@@ -1927,8 +1920,7 @@ site:
       url: https://blog.skrskrskrskr.com
     - name: 晓得博客
       url: https://www.pythonthree.com
-      description: 分享一些Wordpress建站技巧、Google
-        Ads优化分析和其他WordPress资源，使我们这些WordPress初学者可以改善站点，共同进步；
+      description: 分享一些Wordpress建站技巧、Google Ads优化分析和其他WordPress资源，使我们这些WordPress初学者可以改善站点，共同进步；
     - name: 铎鸣也
       url: https://zhengduo.wordpress.com
       description: 推文推动画以及个人日记
@@ -2161,8 +2153,7 @@ site:
       url: https://www.bawge.com
     - name: 浩楠博客
       url: https://denghaonan.com
-      description: 十年之约，恰好刚过了 25 岁生日，写下了十年问卷。十年后的自己 35
-        岁，不知那时又会是怎样。希望在下一个十年问卷之时，我依然还能在我的博客上写下另一份十年问卷。
+      description: 十年之约，恰好刚过了 25 岁生日，写下了十年问卷。十年后的自己 35 岁，不知那时又会是怎样。希望在下一个十年问卷之时，我依然还能在我的博客上写下另一份十年问卷。
     - name: 三毛笔记
       url: https://aboss.top
     - name: 唐巧的博客
@@ -2431,12 +2422,10 @@ site:
 
         这是一个叫做“语痴博客”的个人博客，由真_人工智障（rgzz666）撰写和运营。
 
-        作者会在此处记录一些我的生活经历所思所想。至于技术相关的内容，作者可能也会把其中具有参考价值的那些放在这里，但其余的大部分将会在GitHub或\
-        者博客园提供。"
+        作者会在此处记录一些我的生活经历所思所想。至于技术相关的内容，作者可能也会把其中具有参考价值的那些放在这里，但其余的大部分将会在GitHub或者博客园提供。"
     - name: Ar
       url: https://b.arsrna.cn
-      description: Ar-Sr-Na
-        云计算项目个人博客，主站www.arsrna.cn；旨在与大家分享开发过程的经历，帮助开发者或部分爱好者，例如前沿的近乎零成本高可用的Serverless；期待与大家一同进步实现梦想！
+      description: Ar-Sr-Na 云计算项目个人博客，主站www.arsrna.cn；旨在与大家分享开发过程的经历，帮助开发者或部分爱好者，例如前沿的近乎零成本高可用的Serverless；期待与大家一同进步实现梦想！
     - name: 醉沐斜阳
       url: https://balihe.cn
     - name: M
@@ -2759,8 +2748,7 @@ site:
       description: "#define __DESC ((void *)0)"
     - name: Rhys Wang's Blog
       url: https://www.nuyoahbk.com
-      description: Rhys Wang,Rhys
-        Wang博客,音乐分享,软件分享,网站教程,程序源码,站长工具,网络技术,模板插件,各类资源,各类教程,码农教程,精品软件,nuyoahbk.com,www.nuyoahbk.com
+      description: Rhys Wang,Rhys Wang博客,音乐分享,软件分享,网站教程,程序源码,站长工具,网络技术,模板插件,各类资源,各类教程,码农教程,精品软件,nuyoahbk.com,www.nuyoahbk.com
     - name: Gau's Blog
       url: https://oo.ct.ws
       description: 一零后的日常
@@ -3109,8 +3097,7 @@ site:
       description: 一个奔跑着的老男孩！
     - name: Battle le 的博客
       url: http://battlele.com
-      description: 十年是一段挺漫长的时间，什么事情能坚持做十年差不多也能成为大师了。本来写 blog
-        是为了记录生活，自娱自乐，发现有些文章能带给别人帮助，那就让我们一起走下去吧，想知道十年后再回首那是一种什么感觉。
+      description: 十年是一段挺漫长的时间，什么事情能坚持做十年差不多也能成为大师了。本来写 blog 是为了记录生活，自娱自乐，发现有些文章能带给别人帮助，那就让我们一起走下去吧，想知道十年后再回首那是一种什么感觉。
     - name: 人生若只如初见
       url: https://www.wxy97.com
       description: 王旭阳个人博客,全栈工程师一枚,Java,Golang,Python,Web,运维技术分享。
@@ -3519,8 +3506,7 @@ site:
       description: "一个深度、自主且真实的小世界。来喝杯茶吧！
 
 
-        也许你会看到一些吐槽、不完美的文字、不完美的想法。但也会看到一些真实的东西，也许是我对生活的感触、对于哲学的理解、对于技术的思考、对于交易的经\
-        验，以及对于人生的反思和未来的畅想，也许还会有更多诗词、小说、歌曲之类的创作。"
+        也许你会看到一些吐槽、不完美的文字、不完美的想法。但也会看到一些真实的东西，也许是我对生活的感触、对于哲学的理解、对于技术的思考、对于交易的经验，以及对于人生的反思和未来的畅想，也许还会有更多诗词、小说、歌曲之类的创作。"
     - name: 羽叶风雨
       url: https://yuye.fun
     - name: 付之一笑
@@ -3792,9 +3778,6 @@ site:
     - name: HaoKunT的博客
       url: https://hkvision.cn
       description: GIS学生党，喜欢学习新技术
-    - name: 阿锋的小宇宙
-      url: https://feng.pub
-      description: 沧海一粟，微亮渺小一只虫。
     - name: Nalanyinyun's Library
       url: https://nalanyinyun.work
       description: 日傘を差した物静かな天然素材
@@ -4698,8 +4681,7 @@ site:
         開源軟體、不專業軟體開發。"
     - name: YYwr's Blog
       url: http://www.yywr.net
-      description: "折腾博客这事在过了头几年的激情之后，我存档了旧文章，然后一直不死不活的放着不怎么动弹，订阅的一些老朋友大都消失不见。说实话，现实中\
-        有关系的人都不知道我还有这么个东西。这里算是我保持的最后一丝倔强了。
+      description: "折腾博客这事在过了头几年的激情之后，我存档了旧文章，然后一直不死不活的放着不怎么动弹，订阅的一些老朋友大都消失不见。说实话，现实中有关系的人都不知道我还有这么个东西。这里算是我保持的最后一丝倔强了。
 
         而今到了开口就该谈房子车子工作的年纪，更多的是留住一个肉体活着，灵魂也也要活着的念头"
     - name: Matsuri's Neverland
@@ -5006,8 +4988,7 @@ site:
       description: 总结Go语言学习之路，提供免费的Go语言学习教程，希望与大家一起学习进步。
     - name: Elizen
       url: https://elizen.me
-      description: There is only one thing in the world worse than being talked about,
-        and that is not being talked about.
+      description: There is only one thing in the world worse than being talked about, and that is not being talked about.
     - name: 荒野菲克
       url: https://ficor.net
       description: 在路上的思绪与脚印
@@ -5439,8 +5420,7 @@ site:
       description: 只有勇敢自由的灵魂，不断探索的好奇心,才能促使世界变得更加有趣。我是博主Jackie，Notion社区Jackieの生活觀察主理人，three.hedwig.pub的Newsletter主理人，通过我的视角来分享这个世界的“浮生”。
     - name: Fei's Tours &amp; Tales
       url: https://www.feifun.cn
-      description: 个人独立博客，分享全球旅行游记（澳大利亚房车自驾、日本F1观赛、北欧四国深度游、欧洲F1赛道巡礼、新西兰环岛、美国西海岸等）和技术DIY项目（Handheld
-        PC自制、E-ink打字机、3D打印等）。
+      description: 个人独立博客，分享全球旅行游记（澳大利亚房车自驾、日本F1观赛、北欧四国深度游、欧洲F1赛道巡礼、新西兰环岛、美国西海岸等）和技术DIY项目（Handheld PC自制、E-ink打字机、3D打印等）。
     - name: RyujoPad's Blog
       url: https://blog.higuchi.xyz
     - name: ChengQian
@@ -6062,8 +6042,6 @@ site:
       description: If you wanna achieve you gotta believe.
     - name: Mustang
       url: https://musta.ng
-    - name: obaby@mars
-      url: https://h4ck.org.cn
     - name: 莘家小站
       url: https://blog.jiawei.xin
     - name: 一叶知秋
@@ -6116,8 +6094,7 @@ site:
       description: 连朝溪雨溢荷塘，流水倾银万叶香
     - name: iyeslogo 壹手设计
       url: https://www.iyeslogo.com
-      description: iyeslogo
-        壹手设计（www.iyeslogo.com）网站创立于2007年，始终关注全球设计新闻、新标志新品牌新设计，提供一手设计资讯，壹手设计始终关注中国设计师的职业成长，以多维度分享设计经验，是国内设计行业从业者、品牌设计师必读的网站之一。壹手设计网站设有视觉派、设计电台、悦读、看电影、设计热榜、设计必修课、软件技巧、设计教程、品牌说、新标志、字体设计、设计灵感、不要抄袭等栏目版块。
+      description: iyeslogo 壹手设计（www.iyeslogo.com）网站创立于2007年，始终关注全球设计新闻、新标志新品牌新设计，提供一手设计资讯，壹手设计始终关注中国设计师的职业成长，以多维度分享设计经验，是国内设计行业从业者、品牌设计师必读的网站之一。壹手设计网站设有视觉派、设计电台、悦读、看电影、设计热榜、设计必修课、软件技巧、设计教程、品牌说、新标志、字体设计、设计灵感、不要抄袭等栏目版块。
     - name: 致永远
       url: https://www.aye.ink
       description: 莫道君行早 更有早行人

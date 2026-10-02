@@ -1,0 +1,113 @@
+{
+  "requested": "https://theparanoidtimes.org/faculty",
+  "source": "https://theparanoidtimes.org/",
+  "label": "Faculty of Organizational Sciences",
+  "success": true,
+  "status_code": 303,
+  "redirected_url": "https://theparanoidtimes.org/faculty/",
+  "error_message": "",
+  "metadata": {
+    "title": "My faculty · the paranoid times",
+    "description": "Dejan Josifović's portfolio|blog",
+    "keywords": "portfolio, blog, software, engineer",
+    "author": "Dejan Josifović",
+    "og:title": "The Paranoid Times",
+    "og:description": "Dejan Josifović's portfolio|blog",
+    "og:type": "portfolio.blog",
+    "og:url": "https://theparanoidtimes.org/faculty/",
+    "og:locale": "en_US",
+    "og:locale:alternate": "sr_RS"
+  },
+  "links": {
+    "internal": [
+      {
+        "href": "https://theparanoidtimes.org/",
+        "text": "theparanoidtimes",
+        "title": "",
+        "base_domain": "theparanoidtimes.org",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://theparanoidtimes.org/serve/tpt.asc",
+        "text": "pgp",
+        "title": "",
+        "base_domain": "theparanoidtimes.org",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://theparanoidtimes.org/feed.xml",
+        "text": "feed",
+        "title": "",
+        "base_domain": "theparanoidtimes.org",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://theparanoidtimes.org/privacy",
+        "text": "privacy",
+        "title": "",
+        "base_domain": "theparanoidtimes.org",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://theparanoidtimes.org/serve/master_dissertation_sr.pdf",
+        "text": "pdf_sr",
+        "title": "",
+        "base_domain": "theparanoidtimes.org",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://sr.ht/~tpt/",
+        "text": "sourcehut",
+        "title": "",
+        "base_domain": "sr.ht",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "http://www.fon.bg.ac.rs/",
+        "text": "Faculty of Organizational Sciences",
+        "title": "",
+        "base_domain": "bg.ac.rs",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/detail-fb2677982bce1425.md",
+  "markdownLength": 694
+}

@@ -1,0 +1,3743 @@
+{
+  "method": "25 records each with 0,1,2,3 friends; SHA256 deterministic selection, ordinary formal YAML only; not representative of whole repository",
+  "eligibleCounts": {
+    "0": 31,
+    "1": 1185,
+    "2": 1173,
+    "3": 941
+  },
+  "records": [
+    {
+      "file": "links/oldblog.kfdzcoffee.cn.yml",
+      "site": {
+        "name": "咖啡豆子的博客",
+        "url": "https://oldblog.kfdzcoffee.cn/",
+        "description": "个人博客",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/hnpvo.com.yml",
+      "site": {
+        "name": "郑州阳光义工|阳光下的志愿者 -  Powered by Discuz!",
+        "url": "https://www.hnpvo.com/",
+        "description": "郑州地区、义工团体、志愿者组织",
+        "links": "/",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/blog.rvalue.moe.yml",
+      "site": {
+        "name": "rvalue's blog",
+        "url": "https://blog.rvalue.moe/",
+        "description": "Blog of rvalue: Τhіnk οncе, сοdе ΝаΝcе;",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/redcha.cn.yml",
+      "site": {
+        "name": "Redcha",
+        "url": "https://redcha.cn/",
+        "description": "Redcha",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/blog.fifcom.cn.yml",
+      "site": {
+        "name": "FIFCOM实验室",
+        "url": "https://blog.fifcom.cn/",
+        "description": "咕→咕↑咕↓↑咕↓",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/blog.imwcr.cn.yml",
+      "site": {
+        "name": "Yuan_Tuo's Blog",
+        "url": "https://blog.imwcr.cn/",
+        "description": "Speech is silver, but silence is gold.",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/feisky.xyz.yml",
+      "site": {
+        "name": "Feisky",
+        "url": "https://feisky.xyz/",
+        "description": "极客时间专栏作者，专注于 Kubernetes、AI Infra、AI Agent 领域的深度技术分享，让 AI 成为你的第二大脑",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/firework.acuherb.xyz.yml",
+      "site": {
+        "name": "观颐斋",
+        "url": "https://firework.acuherb.xyz/",
+        "description": "观颐斋",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/note-of-me.top.yml",
+      "site": {
+        "name": "ノート of 我",
+        "url": "https://note-of-me.top/",
+        "description": "一个简单的笔记",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/jiushill.github.io.yml",
+      "site": {
+        "name": "Href",
+        "url": "https://jiushill.github.io/",
+        "description": "友链BGM:拔剑神曲 即刻安全 Hacking 木头的博客 hackhat社区 Xhong的博客",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/www.nekro.top.yml",
+      "site": {
+        "name": "Nekro",
+        "description": "Nekro 的个人主页，收集日常记录与网络足迹",
+        "url": "https://www.nekro.top/",
+        "links": "/",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/zh-v2.d2l.ai.yml",
+      "site": {
+        "name": "《动手学深度学习》 — 动手学深度学习 2.0.0 documentation",
+        "url": "https://zh-v2.d2l.ai/",
+        "description": "《动手学深度学习》 — 动手学深度学习 2.0.0 documentation",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/www.yunyoujun.cn.yml",
+      "site": {
+        "name": "云游君的小站",
+        "description": "希望能成为一个有趣的人",
+        "url": "https://www.yunyoujun.cn/",
+        "links": "/links",
+        "friends": [],
+        "aliases": [
+          "https://yunyoujun.cn/"
+        ]
+      }
+    },
+    {
+      "file": "links/blog.qqdsw8.cn.yml",
+      "site": {
+        "name": "素颜-温馨的技术博客",
+        "url": "https://blog.qqdsw8.cn/",
+        "description": "温馨的技术博客",
+        "links": "/",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/flwfdd.xyz.yml",
+      "site": {
+        "name": "flwfdd'space",
+        "url": "https://flwfdd.xyz/",
+        "description": "一个记录思考和分享知识的个人空间",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/sgfox.cc.yml",
+      "site": {
+        "name": "@sgfox",
+        "url": "https://sgfox.cc/",
+        "description": "@sgfox",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/lorexxar.cn.yml",
+      "site": {
+        "name": "LoRexxar's Blog",
+        "url": "https://lorexxar.cn/",
+        "description": "LoRexxar's Blog",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/jk.sb.yml",
+      "site": {
+        "name": "业余玩家",
+        "url": "https://jk.sb/",
+        "description": "业余玩家 - 个人记录",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/lsy22.com.yml",
+      "site": {
+        "name": "lsy",
+        "url": "https://lsy22.com/",
+        "description": "记录生活，分享所思",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/blog.zhsher.cn.yml",
+      "site": {
+        "name": "了一昂梁",
+        "url": "https://blog.zhsher.cn/",
+        "description": "从心",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/www.emohe.cn.yml",
+      "site": {
+        "name": "阿涛的小破站",
+        "url": "https://www.emohe.cn/",
+        "description": "阿涛的小破站 - Docker技术分享",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/antfu.me.yml",
+      "site": {
+        "name": "Anthony Fu",
+        "url": "https://antfu.me/",
+        "description": "Anthony Fu's Portfolio",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/wzq02.top.yml",
+      "site": {
+        "name": "WZQ'02",
+        "description": "WZQ'02 的个人主页，集中展示其在 B站、YouTube、nicovideo、Acfun 等平台的账号与作品",
+        "url": "https://wzq02.top/",
+        "links": "/about",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/blog.slanterns.net.yml",
+      "site": {
+        "name": "Slanterns' blog",
+        "url": "https://blog.slanterns.net/",
+        "description": "Slanterns' blog",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/pljzy.top.yml",
+      "site": {
+        "name": "ZY知识库 · ZY",
+        "url": "https://pljzy.top/",
+        "description": "ZY知识库 继承画星星博客，这是一个用于分享知识和经验的平台，我会在这里分享一些我学习和工作中的经验和心得，希望能够对你有所帮助。",
+        "links": "/links",
+        "friends": []
+      }
+    },
+    {
+      "file": "links/en.blog.alswl.com.yml",
+      "site": {
+        "name": "Log4D",
+        "url": "https://en.blog.alswl.com/",
+        "description": "友情链接",
+        "links": "/",
+        "friends": [
+          {
+            "name": "中文博客",
+            "url": "https://blog.alswl.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/542869246.github.io.yml",
+      "site": {
+        "name": "Felix",
+        "url": "https://542869246.github.io/",
+        "description": "周宇峰的博客",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "在线分享网",
+            "url": "https://www.52share.online/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.diudiudevil.cn.yml",
+      "site": {
+        "name": "黎明时刻 - 读书、笔记、复盘和思考",
+        "url": "https://blog.diudiudevil.cn/",
+        "description": "黎明时刻：读书、笔记、复盘和思考",
+        "links": "/friends",
+        "friends": [
+          {
+            "name": "夏夜流萤 飞萤之火自无梦的长夜亮起，绽放在终竟的明天。 博主推荐",
+            "url": "https://blog.cuteleaf.cn"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.closure.cc.yml",
+      "site": {
+        "name": "Making sure you're not a bot!",
+        "url": "https://blog.closure.cc/",
+        "description": "TTsdzb's Blog - 一些笔记或知识分享。",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "Techaro",
+            "url": "https://techaro.lol"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.hyosakura.com.yml",
+      "site": {
+        "name": "LovesAsunaの小窝 - 个人博客",
+        "url": "https://blog.hyosakura.com/",
+        "description": "个人博客",
+        "links": "/friends",
+        "friends": [
+          {
+            "name": "夏夜流萤飞萤之火自无梦的长夜亮起，绽放在终竟的明天。Blog",
+            "url": "https://blog.cuteleaf.cn"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/iquegui.com.yml",
+      "site": {
+        "name": "鹊归",
+        "url": "https://www.iquegui.com/",
+        "description": "鹊 · 归",
+        "links": "/links.html",
+        "friends": [
+          {
+            "name": "千江月",
+            "url": "https://asain.icu"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/xiaofuc.github.io.yml",
+      "site": {
+        "name": "xiaofuc's Blog",
+        "url": "https://xiaofuc.github.io/",
+        "description": "我爱故我在",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "Infernity's Blog",
+            "url": "https://infernity.top/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/fenguoerbian.netlify.app.yml",
+      "site": {
+        "name": "Under construction ...",
+        "url": "https://fenguoerbian.netlify.app/",
+        "description": "Hi, this is Fenguoerbian's blog site.",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "Maëlle Salmon",
+            "url": "https://masalmon.eu/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/prince213.top.yml",
+      "site": {
+        "name": "prince213.top",
+        "url": "https://prince213.top/",
+        "description": "友情链接",
+        "links": "/",
+        "friends": [
+          {
+            "name": "Matrix",
+            "url": "https://matrix.to/#/@prince213:matrix.org"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.zuoye.win.yml",
+      "site": {
+        "name": "Zuoye's Blog - Hi!",
+        "url": "https://blog.zuoye.win/",
+        "description": "一大堆作业的博客",
+        "links": "/friends",
+        "friends": [
+          {
+            "name": "mocong's blog一切客观实在",
+            "url": "https://mocong.dev/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/greyhathacker.net.yml",
+      "site": {
+        "name": "greyhathacker.net",
+        "url": "https://greyhathacker.net/",
+        "description": "友情链接",
+        "links": "/",
+        "friends": [
+          {
+            "name": "here",
+            "url": "http://dokan-dev.github.io/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/www.takagisan.top.yml",
+      "site": {
+        "name": "坂琴のBlog",
+        "url": "https://www.takagisan.top/",
+        "description": "记录自己的生活和学习的路程",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "空气力学先驱",
+            "url": "https://misakishiki.site/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/jiewei.xyz.yml",
+      "site": {
+        "name": "Jiewei Xiong",
+        "url": "https://jiewei.xyz/",
+        "description": "友情链接",
+        "links": "/links.html",
+        "friends": [
+          {
+            "name": "map of theories",
+            "url": "https://forkinganddividing.com"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/seaeye.cn.yml",
+      "site": {
+        "name": "B1ue1nWh1te - 深海之眼",
+        "url": "https://www.seaeye.cn/",
+        "description": "友情链接",
+        "links": "/",
+        "friends": [
+          {
+            "name": "pikachu",
+            "url": "https://hitcxy.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/tntxz.starsfire.top.yml",
+      "site": {
+        "name": "TNTXZ's Blog",
+        "url": "https://tntxz.starsfire.top/",
+        "description": "一个成分复杂的生物的个人博客.",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "安知鱼",
+            "url": "https://hexo.anheyu.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.timepas.cn.yml",
+      "site": {
+        "name": "时流TimePassBy",
+        "url": "https://blog.timepas.cn/",
+        "description": "分享开发、生活、网页搭建的小站",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "染念的笔记",
+            "url": "https://dyedd.cn/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/cwcu.com.cn.yml",
+      "site": {
+        "name": "陌漓的小窝",
+        "url": "https://cwcu.com.cn/",
+        "description": "陌漓的小窝",
+        "links": "/",
+        "friends": [
+          {
+            "name": "陌漓的小窝",
+            "url": "https://cwcu.cn"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/arielsalminen.com.yml",
+      "site": {
+        "name": "Ariel Salminen",
+        "url": "https://arielsalminen.com/",
+        "description": "Hello, I’m Ariel Salminen, a Design Systems Architect from Helsinki, Finland with 20 years of experience helping companies build tools for the web platform.",
+        "links": "/",
+        "friends": [
+          {
+            "name": "Vue Design System",
+            "url": "https://vueds.com"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/theparanoidtimes.org.yml",
+      "site": {
+        "name": "the paranoid times · Just like the name",
+        "url": "https://theparanoidtimes.org/",
+        "description": "Dejan Josifović's portfolio|blog",
+        "links": "/",
+        "friends": [
+          {
+            "name": "IGT",
+            "url": "https://www.igt.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.imgb.space.yml",
+      "site": {
+        "name": "哦唷，崩溃了！",
+        "url": "https://blog.imgb.space/",
+        "description": "哦唷，崩溃了！",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "[grassblock@home ~]$",
+            "url": "https://gb0.dev/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.qsuu.cn.yml",
+      "site": {
+        "name": "北海的鱼",
+        "url": "https://blog.qsuu.cn/",
+        "description": "大鹏一日同风起，扶摇直上九万里",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "赵阿卷",
+            "url": "https://blog.zwying.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/fairysen.com.yml",
+      "site": {
+        "name": "雾时之森 - 一个热衷折腾与尝试的小站",
+        "url": "https://fairysen.com/",
+        "description": "一个热爱折腾与挑战的小站，我在这里记录和分享我的互联网探索之旅！",
+        "links": "/friends",
+        "friends": [
+          {
+            "name": "Cuteen",
+            "url": "https://blog.zwying.com"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/b.storyo.cn.yml",
+      "site": {
+        "name": "故与南辞",
+        "url": "https://b.storyo.cn/",
+        "description": "site.seo.description",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "卖桃翁小窝",
+            "url": "https://ayakasuki.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/hugoblox.com.yml",
+      "site": {
+        "name": "hugoblox.com",
+        "url": "https://hugoblox.com/",
+        "description": "友情链接",
+        "links": "/",
+        "friends": [
+          {
+            "name": "Ownable",
+            "url": "https://ownable.dev"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/kaic.hidns.co.yml",
+      "site": {
+        "name": "CF反代可用性检测工具集",
+        "url": "https://kaic.hidns.co/",
+        "description": "高性能，实时检测，专业分析，一站式检测各类反代CF服务的可用性，确保您的网络连接畅通无阻",
+        "links": "/",
+        "friends": [
+          {
+            "name": "QingYun Blog",
+            "url": "https://blog.811520.xyz"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.kway.site.yml",
+      "site": {
+        "name": "季木的长廊",
+        "url": "https://blog.kway.site/",
+        "description": "最近更新的文章列表",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "vergessen java是世界上最好的语言",
+            "url": "https://www.vergessen.top/"
+          },
+          {
+            "name": "小游 二次元技术宅",
+            "url": "https://xiaoyou66.com"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/auiou.com.yml",
+      "site": {
+        "name": "王志勇的Blog-和平海底",
+        "url": "http://www.auiou.com/",
+        "description": "友情链接",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "青山绿水",
+            "url": "https://www.huhexian.com"
+          },
+          {
+            "name": "平顶山",
+            "url": "http://0375.me"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.imz.me.yml",
+      "site": {
+        "name": "Imz",
+        "url": "https://blog.imz.me/",
+        "description": "友情链接",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "❖星港◎Star☆",
+            "url": "https://blog.starsharbor.com/"
+          },
+          {
+            "name": "理随。",
+            "url": "https://lisui.top/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.skykey.fun.yml",
+      "site": {
+        "name": "Skykey's Home",
+        "url": "https://blog.skykey.fun/",
+        "description": "总有些惊奇的际遇，比方说当我遇见你。",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "张小飞",
+            "url": "https://www.cryfeifei.cn"
+          },
+          {
+            "name": "NexT.Gemini",
+            "url": "https://theme-next.org/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/galgamer.moe.yml",
+      "site": {
+        "name": "galgamer.moe",
+        "url": "https://galgamer.moe/",
+        "description": "友情链接",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "空域 - 晓空 blog来和我们一起来让世界变得更萌一些吧~",
+            "url": "https://blog.moeworld.tech/"
+          },
+          {
+            "name": "失落の小站Galgame 資源網盤 Shinnku.com",
+            "url": "https://shinnku.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/399s.com.yml",
+      "site": {
+        "name": "Hugo.Linの生活志 - It's My Life.",
+        "url": "https://399s.com/",
+        "description": "这儿是Hugo.Lin记录生活工作碎碎念的地儿。",
+        "links": "/friends",
+        "friends": [
+          {
+            "name": "路易大叔",
+            "url": "http://LouisHan.com/"
+          },
+          {
+            "name": "从良未遂",
+            "url": "http://www.ithmz.com"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/gmero.com.yml",
+      "site": {
+        "name": "gmero.com",
+        "url": "https://www.gmero.com/",
+        "description": "友情链接",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "[Oyiso's Blog] - The shortest answer is doing",
+            "url": "https://oyiso.cn"
+          },
+          {
+            "name": "[Roozen的小破站] - 技术宅男拯救世界！",
+            "url": "https://roozen.top"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/032.im.yml",
+      "site": {
+        "name": "Lux032 Blog",
+        "url": "https://032.im/",
+        "description": "Lux032 Blog",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "初之音",
+            "url": "https://www.himiku.com/"
+          },
+          {
+            "name": "さくら荘のタイズ",
+            "url": "https://blog.stardream.online/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/dereksivers.org.yml",
+      "site": {
+        "name": "Substack",
+        "url": "https://www.dereksivers.org/",
+        "description": "Author of Useful Not True, How to Live, Hell Yeah or No, Anything You Want, etc. I’ve been a musician, circus performer, entrepreneur, and speaker. I’m a slow thinker, explorer, xenophile, and love a ",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "Author",
+            "url": "https://sivers.com/"
+          },
+          {
+            "name": "MusicThoughts",
+            "url": "https://musicthoughts.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/rutua.cn.yml",
+      "site": {
+        "name": "rutua.cn",
+        "url": "https://www.rutua.cn/",
+        "description": "友情链接",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "coseroom",
+            "url": "https://coseroom.com/"
+          },
+          {
+            "name": "明月登楼",
+            "url": "https://www.imydl.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/milu.ink.yml",
+      "site": {
+        "name": "米露小窝",
+        "description": "放弃个性,就和死了没什么区别",
+        "url": "https://milu.ink/",
+        "links": "/",
+        "friends": [
+          {
+            "name": "文派开源",
+            "url": "https://wenpai.org/"
+          },
+          {
+            "name": "AxtonYao",
+            "url": "https://flyhigher.top/"
+          }
+        ],
+        "aliases": [
+          "https://www.milu.ink/"
+        ]
+      }
+    },
+    {
+      "file": "links/blog.gobyte.cn.yml",
+      "site": {
+        "name": "山岚 - 90码农历险记",
+        "url": "https://blog.gobyte.cn/",
+        "description": "全干开发者",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "MrBird-知名Java开源作者",
+            "url": "https://mrbird.cc"
+          },
+          {
+            "name": "淼淼之森的博客",
+            "url": "https://www.mmzsblog.cn/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/faehnri.ch.yml",
+      "site": {
+        "name": "faehnri.ch",
+        "url": "https://faehnri.ch/",
+        "description": "友情链接",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "Sound Test",
+            "url": "https://sndtst.com/"
+          },
+          {
+            "name": "Jurassic Systems",
+            "url": "https://jurassicsystems.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.lin-fun.com.yml",
+      "site": {
+        "name": "blog.lin-fun.com",
+        "url": "https://blog.lin-fun.com/",
+        "description": "友情链接",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "FurDevsFurDevs小动物开发社团",
+            "url": "https://furdevs.cn/"
+          },
+          {
+            "name": "FurChatWorld世界",
+            "url": "https://furcw.net/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/amirokd.dpdns.org.yml",
+      "site": {
+        "name": "amirokd.dpdns.org",
+        "url": "https://www.amirokd.dpdns.org/",
+        "description": "友情链接",
+        "links": "/",
+        "friends": [
+          {
+            "name": "轻NAS",
+            "url": "https://tiansoft.kodview.com/"
+          },
+          {
+            "name": "点击开启星辰之旅",
+            "url": "https://ys.mihoyo.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/www.xreak.top.yml",
+      "site": {
+        "name": "Xreak's Blog |创造|分享|",
+        "url": "https://www.xreak.top/",
+        "description": "Xreak's Blog 一个刷机和分享资源的小站",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "Yunsen的小窝 -",
+            "url": "https://blog.imysen.com/"
+          },
+          {
+            "name": "首页",
+            "url": "https://blog.crrashh.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/thk.kanzae.net.yml",
+      "site": {
+        "name": "自由な思考で語ろう",
+        "url": "https://thk.kanzae.net/",
+        "description": "自由な思考を大切にしたい。テーマを決めると、自由な思考の邪魔になる。論理的思考力を高め、知識を増やすことを目的に、その時その時に思いついたことをブログにして、書き綴っていきます。",
+        "links": "/",
+        "friends": [
+          {
+            "name": "A Gain Sierra",
+            "url": "https://again.lunaclear.com/"
+          },
+          {
+            "name": "cheshirex",
+            "url": "https://www.cheshirex.com"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/xun-cmd.github.io.yml",
+      "site": {
+        "name": "秃头的君寻酱",
+        "url": "https://xun-cmd.github.io/",
+        "description": "计算机学习、日常碎片",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "iyheart的博客",
+            "url": "https://iyheart.github.io/"
+          },
+          {
+            "name": "春之雪",
+            "url": "https://czxsblog.netlify.app/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/louiezong.com.yml",
+      "site": {
+        "name": "Louie Zong",
+        "url": "https://www.louiezong.com/",
+        "description": "友情链接",
+        "links": "/about",
+        "friends": [
+          {
+            "name": "Games",
+            "url": "https://everydaylouie.itch.io"
+          },
+          {
+            "name": "Bandcamp",
+            "url": "https://louiezong.bandcamp.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/acevs.com.yml",
+      "site": {
+        "name": "ACEVS",
+        "url": "https://acevs.com/",
+        "description": "ACEVS",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "相忘于江湖",
+            "url": "https://h4ck.org.cn/"
+          },
+          {
+            "name": "粽叶加米",
+            "url": "https://www.wordpace.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.noah0932.top.yml",
+      "site": {
+        "name": "NoahのBlog - 万物有灵且美，愿你我皆有光",
+        "description": "努力去发光，而不是被照亮",
+        "url": "https://blog.noah0932.top/",
+        "links": "/friends",
+        "friends": [
+          {
+            "name": "Cloud Blog",
+            "url": "https://blog.opennw.cn"
+          },
+          {
+            "name": "清羽飞扬",
+            "url": "https://blog.liushen.fun/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/nuel.pw.yml",
+      "site": {
+        "name": "nuel island",
+        "url": "https://nuel.pw/",
+        "description": "welcome to nuel island!",
+        "links": "/",
+        "friends": [
+          {
+            "name": "News",
+            "url": "http://nuel.news"
+          },
+          {
+            "name": "Globoform",
+            "url": "https://globoform.com"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/caramiki.com.yml",
+      "site": {
+        "name": "Cara Michele Ryan",
+        "url": "https://caramiki.com/",
+        "description": "友情链接",
+        "links": "/about",
+        "friends": [
+          {
+            "name": "day job",
+            "url": "https://www.unabridgedsoftware.com/"
+          },
+          {
+            "name": "a side company",
+            "url": "http://waterbeargames.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/dcutting.com.yml",
+      "site": {
+        "name": "Home · Derek Cutting",
+        "url": "https://dcutting.com/",
+        "description": "Portfolio and writing for Derek Cutting, a community builder, artist, technologist, and sound healer.",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "Figure It Out Website →",
+            "url": "https://figureitout.group"
+          },
+          {
+            "name": "SPAL Website →",
+            "url": "https://spal.club/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/pdp8.info.yml",
+      "site": {
+        "name": "pdp8.info",
+        "url": "https://pdp8.info/",
+        "description": "友情链接",
+        "links": "/",
+        "friends": [
+          {
+            "name": "fediring:",
+            "url": "https://fediring.net/"
+          },
+          {
+            "name": "faircamp:",
+            "url": "https://faircamp.webr.ing/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.zhipro.com.yml",
+      "site": {
+        "name": "求知学习社 - 持续分享实用知识与产品工具",
+        "url": "https://blog.zhipro.com/",
+        "description": "求知学习社 - 专注于**持续分享实用知识与产品工具**。致力和朋友们一起**用对工具，做好选择**，让我们在信息过载的时代能进一步拥有美好生活与提高工作学习品质效能。 (求知学习社 - 持续分享实用知识与产品工具)",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "星河避难所写代码，也写自己",
+            "url": "https://hejunjie.life"
+          },
+          {
+            "name": "青萍叙事一个懂技术的产品汪🐶",
+            "url": "https://blog.lusyoe.com"
+          },
+          {
+            "name": "Wcowin's Blog循此苦旅，以达星辰",
+            "url": "https://wcowin.work/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/www.the5fire.com.yml",
+      "site": {
+        "name": "the5fire",
+        "url": "https://www.the5fire.com/",
+        "description": "关于Python、 Django 、设计模式、系统（linux）、开源、学习心得、工作经验、招聘求职的总结分享",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "酷 壳",
+            "url": "https://coolshell.cn/"
+          },
+          {
+            "name": "XiaoHui.com",
+            "url": "https://www.xiaohui.com/"
+          },
+          {
+            "name": "刘悦_刘悦的技术博客_LiuYue's Tech Blog",
+            "url": "https://v3u.cn/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.nepakina.cn.yml",
+      "site": {
+        "name": "🥕萝卜兔农场🐇|拾荒基地",
+        "url": "https://blog.nepakina.cn/",
+        "description": "友情链接",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "BruisesL's blog 他还没有自我介绍呢",
+            "url": "https://bruisesl.github.io/"
+          },
+          {
+            "name": "TG小站 一个安静的小站",
+            "url": "https://3322898.cn"
+          },
+          {
+            "name": "华岁云小屋 华岁的日常",
+            "url": "https://www.vlo.cc/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/coderxi.com.yml",
+      "site": {
+        "name": "汐涌及岸",
+        "url": "https://coderxi.com/",
+        "description": "盛年不重来，一日难再晨。及时当勉励，岁月不待人。",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "张麦麦",
+            "url": "https://maxchang.me",
+            "description": "我的影子想要去飞翔，我的人还在地上。"
+          },
+          {
+            "name": "Mox的笔记库",
+            "url": "https://mocusez.site",
+            "description": "探索未曾设想的道路。"
+          },
+          {
+            "name": "Guo Le's Blog",
+            "url": "https://blog.guole.fun/",
+            "description": "生命是独立是自由是爱与和平"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/ikk.me.yml",
+      "site": {
+        "name": "kookxiang",
+        "url": "https://ikk.me/",
+        "description": "友情链接",
+        "links": "/",
+        "friends": [
+          {
+            "name": "kookxiang",
+            "url": "https://kk.sb"
+          },
+          {
+            "name": "JellyfinAnime / TV Show / Movie.",
+            "url": "https://bangumi.fun"
+          },
+          {
+            "name": "GuacamolePublic VM to run 115 pc / baidu netdisk etc.",
+            "url": "https://apps.kookxiang.cloud"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/yihui.org.yml",
+      "site": {
+        "name": "谢益辉",
+        "url": "https://yihui.org/",
+        "description": "Personal website of Yihui Xie; 谢益辉的个人网站",
+        "links": "/",
+        "friends": [
+          {
+            "name": "Di Cook",
+            "url": "https://www.dicook.org"
+          },
+          {
+            "name": "Heike Hofmann",
+            "url": "https://heike.github.io"
+          },
+          {
+            "name": "Capital of Statistics",
+            "url": "https://cosx.org"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/diyibailingyici.chuangdangjianghudewumingyouxia.cn.yml",
+      "site": {
+        "name": "第一百零一次闯荡江湖的无名游侠 - 喜悦无人可分享时, 才是人生最大的落寞",
+        "url": "https://diyibailingyici.chuangdangjianghudewumingyouxia.cn/",
+        "description": "英雄願望 〜アルゴイゥ卜~",
+        "links": "/",
+        "friends": [
+          {
+            "name": "泽泽社长",
+            "url": "https://kpi.xlog.app/"
+          },
+          {
+            "name": "微风忆夏",
+            "url": "https://sumiler.com/"
+          },
+          {
+            "name": "花开陌上",
+            "url": "https://moshanghua.net"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.hinswu.top.yml",
+      "site": {
+        "name": "HINS's Blog",
+        "url": "https://blog.hinswu.top/",
+        "description": "HINS的温馨小猫窝",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "Serenity's Blog 热爱可抵岁月漫长 技术",
+            "url": "https://www.aobp.cn"
+          },
+          {
+            "name": "chuzouX Blog 技术分享与实践 博客",
+            "url": "https://chuzoux.top/"
+          },
+          {
+            "name": "皮梦 の 茶馆 - Pimeng's Blog 杂鱼皮梦的博客 博客",
+            "url": "https://blog.07210700.xyz"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/gxroast.com.yml",
+      "site": {
+        "name": "冰狱博客 - 冷于形，简于心",
+        "url": "https://gxroast.com/",
+        "description": "冰狱博客，是一款主打极简冷感高颜值的个人博客系统，采用PHP+JavaScript开发，原生支持多分站功能，界面干净清爽，上手简单易用。",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "最美小栈 - 冷于形，简于心 最美小栈，是一款主打极简冷感高颜值的个人博客系统，采用PHP+JavaScript开发，基",
+            "url": "https://blog.xiaoxiao520.com/"
+          },
+          {
+            "name": "知年博客 - 心随岁月静安 知年博客，是一款主打极简冷感高颜值的个人博客系统，采用PHP+JavaScript开发，基于",
+            "url": "https://1995.yun/"
+          },
+          {
+            "name": "星月草 星月为伴，自在生长。 2026-06-19",
+            "url": "https://ysc1997.top/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.xlrt.top.yml",
+      "site": {
+        "name": "XLRT 的博客",
+        "url": "https://blog.xlrt.top/",
+        "description": "友情链接",
+        "links": "/link",
+        "friends": [
+          {
+            "name": "岚天小窝 一只鸽子住在这里～",
+            "url": "https://blog.ltya.top/"
+          },
+          {
+            "name": "BLxcwg666 の Blog 静かで奥深い",
+            "url": "http://blog.xcnya.cn/"
+          },
+          {
+            "name": "久流的个人小站 借由他人,寻找自我",
+            "url": "https://jiuliu.top/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/gahing.top.yml",
+      "site": {
+        "name": "Gahing's blog",
+        "url": "https://www.gahing.top/",
+        "description": "前端技术博客。包括大前端、服务端、通用技术",
+        "links": "/friends",
+        "friends": [
+          {
+            "name": "Schaepher's Blog 深透理解，熟练运用；似懂非懂，其实不懂。",
+            "url": "https://schaepher.github.io/"
+          },
+          {
+            "name": "CCC 的博客 真香",
+            "url": "https://chuchencheng.com/"
+          },
+          {
+            "name": "Evan's blog 积跬步以至千里，喜欢学习喜欢你。",
+            "url": "https://xugaoyi.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/小蔡.tw.yml",
+      "site": {
+        "name": "小蔡.tw",
+        "url": "https://小蔡.tw/",
+        "description": "友情链接",
+        "links": "/",
+        "friends": [
+          {
+            "name": "相關連結",
+            "url": "https://stust.org"
+          },
+          {
+            "name": "國中搞的官網",
+            "url": "http://pettw.lionfree.net/#"
+          },
+          {
+            "name": "後來買了網域的官網",
+            "url": "https://pettw.online"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/yuan1182.org.yml",
+      "site": {
+        "name": "大明朱元璋 · Personal Homepage",
+        "url": "https://yuan1182.org/",
+        "description": "友情链接",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "Kuriyona' Space 一个可爱的女孩子，17 岁中国高中生，宅，亚二次元，MtF 和兴趣使然的开发者 kuri",
+            "url": "https://kuriyona.com"
+          },
+          {
+            "name": "Here's Mars | 这里是毛毛 毛毛的个人主页 maao.cc",
+            "url": "https://maao.cc"
+          },
+          {
+            "name": "启动台の小窝 用代码改变世界 launchpadx.top",
+            "url": "https://launchpadx.top"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/pcp.moe.yml",
+      "site": {
+        "name": "Pink Champagne's homepage",
+        "url": "https://pcp.moe/",
+        "description": "Toy projects maker",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "Pyon Pyon Today",
+            "url": "https://pyonpyon.today/"
+          },
+          {
+            "name": "吐槽大王部落格",
+            "url": "https://www.tcdw.net/"
+          },
+          {
+            "name": "异次元之旅-萌ICP备",
+            "url": "https://travel.moe/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.moyanjdc.top.yml",
+      "site": {
+        "name": "MoYan's Blog",
+        "url": "https://blog.moyanjdc.top/",
+        "description": "A simple Blog of moyan.",
+        "links": "/friends.html",
+        "friends": [
+          {
+            "name": "WoKuCreator",
+            "url": "https://www.woku.link/"
+          },
+          {
+            "name": "❖星港◎Star☆",
+            "url": "https://blog.starsharbor.com/"
+          },
+          {
+            "name": "猫猫头开发",
+            "url": "https://www.meowhead.cn/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/pirogue.org.yml",
+      "site": {
+        "name": "pirogue",
+        "url": "https://pirogue.org/",
+        "description": "一个信息安全从业者的博客",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "lsh4ck's Blog",
+            "url": "https://www.lshack.cn/"
+          },
+          {
+            "name": "Yunen's Blog",
+            "url": "https://www.0x002.com/"
+          },
+          {
+            "name": "Zgao's blog",
+            "url": "https://zgao.top/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/mcenahle.cn.yml",
+      "site": {
+        "name": "个人成长记录 - mcenahle.cn",
+        "url": "https://mcenahle.cn/",
+        "description": "友情链接",
+        "links": "/",
+        "friends": [
+          {
+            "name": "舍弃 www 子域",
+            "url": "https://dropwww.com"
+          },
+          {
+            "name": "博客网站（梅之夏）",
+            "url": "https://blog.mcenahle.org.cn"
+          },
+          {
+            "name": "Davidの3号基地（一名医学生的博客网站）",
+            "url": "https://www.david03.top/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/everains.com.yml",
+      "site": {
+        "name": "everains.com",
+        "url": "https://www.everains.com/",
+        "description": "友情链接",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "中二小学长一个中二演员的日常博客……https://iwalyou.com/",
+            "url": "https://iwalyou.com/"
+          },
+          {
+            "name": "I Am Ihttps://5ime.cn/",
+            "url": "https://5ime.cn/"
+          },
+          {
+            "name": "↗香菇肥牛的博客https://qing.su/",
+            "url": "https://qing.su/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/lo-li.cn.yml",
+      "site": {
+        "name": "ZeroDream",
+        "url": "https://lo-li.cn/",
+        "description": "友情链接",
+        "links": "/",
+        "friends": [
+          {
+            "name": "免费映射",
+            "url": "https://www.natfrp.com/"
+          },
+          {
+            "name": "KasuganoSora",
+            "url": "https://www.kasuganosora.cn/"
+          },
+          {
+            "name": "ZeroDream",
+            "url": "https://www.zerodream.net/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.dreeam.me.yml",
+      "site": {
+        "name": "Dreeam的边缘临界",
+        "url": "https://blog.dreeam.me/",
+        "description": "123",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "wlingの秘密世界 这里有杯热咖啡呢~",
+            "url": "https://ling.crashvibe.cn/"
+          },
+          {
+            "name": "DongShaoNB's Blog 喜欢就坚持下去吧！",
+            "url": "https://blog.dsnb.cc/"
+          },
+          {
+            "name": "冰晶石的个人小站 专注于前沿技术分享的博客站",
+            "url": "https://blog.na3alf6.cn/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/www.91biu.work.yml",
+      "site": {
+        "name": "噗呲先生",
+        "url": "https://www.91biu.work/",
+        "description": "site.seo.description",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "行则将至",
+            "url": "https://feng.pub/"
+          },
+          {
+            "name": "记录美好生活",
+            "url": "https://hux6.com/"
+          },
+          {
+            "name": "韩小韩博客",
+            "url": "https://www.vvhan.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.tuep.cn.yml",
+      "site": {
+        "name": "淅筱TUEPの博客",
+        "url": "https://blog.tuep.cn/",
+        "description": "一只小垃圾的博客",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "站点迁移",
+            "url": "https://blog.6uu.us/"
+          },
+          {
+            "name": "iy.ink->bai.ink",
+            "url": "https://iy.ink/"
+          },
+          {
+            "name": "Bhao's Blog",
+            "url": "https://dwd.moe/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/blog.zoomquiet.io.yml",
+      "site": {
+        "name": "/ 是也乎(￣▽￣)\n/ ZoomQuiet.io",
+        "url": "https://blog.zoomquiet.io/",
+        "description": "友情链接",
+        "links": "/",
+        "friends": [
+          {
+            "name": "锈周刊",
+            "url": "https://weekly.rs.101.so/"
+          },
+          {
+            "name": "小红花Club",
+            "url": "https://xhh.club/"
+          },
+          {
+            "name": "inkscape",
+            "url": "http://www.inkscape.org/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/www.wolfhime.com.yml",
+      "site": {
+        "name": "wolfhime的设计",
+        "url": "https://www.wolfhime.com/",
+        "description": "wolfhime的设计",
+        "links": "/links",
+        "friends": [
+          {
+            "name": "FurryFandomClub",
+            "url": "https://furryfandomclub.cn/"
+          },
+          {
+            "name": "独鸽",
+            "url": "https://www.idove.games/"
+          },
+          {
+            "name": "Nothentai X Silent",
+            "url": "https://not-hentai.com/"
+          }
+        ]
+      }
+    },
+    {
+      "file": "links/imcxx.com.yml",
+      "site": {
+        "name": "轻风伴梦",
+        "url": "https://www.imcxx.com/",
+        "description": "和光同尘，结缘之始",
+        "links": "/",
+        "friends": [
+          {
+            "name": "忆梦小站",
+            "url": "https://www.onyi.net/"
+          },
+          {
+            "name": "方舟基地",
+            "url": "https://www.wnark.com"
+          },
+          {
+            "name": "Rat's Blog",
+            "url": "https://www.moerats.com/"
+          }
+        ]
+      }
+    }
+  ],
+  "urls": {
+    "https://oldblog.kfdzcoffee.cn/": [
+      {
+        "file": "links/oldblog.kfdzcoffee.cn.yml",
+        "role": "main"
+      }
+    ],
+    "https://oldblog.kfdzcoffee.cn/links": [
+      {
+        "file": "links/oldblog.kfdzcoffee.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.hnpvo.com/": [
+      {
+        "file": "links/hnpvo.com.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/hnpvo.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.rvalue.moe/": [
+      {
+        "file": "links/blog.rvalue.moe.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.rvalue.moe/links": [
+      {
+        "file": "links/blog.rvalue.moe.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://redcha.cn/": [
+      {
+        "file": "links/redcha.cn.yml",
+        "role": "main"
+      }
+    ],
+    "https://redcha.cn/links": [
+      {
+        "file": "links/redcha.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.fifcom.cn/": [
+      {
+        "file": "links/blog.fifcom.cn.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.fifcom.cn/links": [
+      {
+        "file": "links/blog.fifcom.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.imwcr.cn/": [
+      {
+        "file": "links/blog.imwcr.cn.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.imwcr.cn/links": [
+      {
+        "file": "links/blog.imwcr.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://feisky.xyz/": [
+      {
+        "file": "links/feisky.xyz.yml",
+        "role": "main"
+      }
+    ],
+    "https://feisky.xyz/links": [
+      {
+        "file": "links/feisky.xyz.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://firework.acuherb.xyz/": [
+      {
+        "file": "links/firework.acuherb.xyz.yml",
+        "role": "main"
+      }
+    ],
+    "https://firework.acuherb.xyz/links": [
+      {
+        "file": "links/firework.acuherb.xyz.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://note-of-me.top/": [
+      {
+        "file": "links/note-of-me.top.yml",
+        "role": "main"
+      }
+    ],
+    "https://note-of-me.top/links": [
+      {
+        "file": "links/note-of-me.top.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://jiushill.github.io/": [
+      {
+        "file": "links/jiushill.github.io.yml",
+        "role": "main"
+      }
+    ],
+    "https://jiushill.github.io/links": [
+      {
+        "file": "links/jiushill.github.io.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.nekro.top/": [
+      {
+        "file": "links/www.nekro.top.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/www.nekro.top.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://zh-v2.d2l.ai/": [
+      {
+        "file": "links/zh-v2.d2l.ai.yml",
+        "role": "main"
+      }
+    ],
+    "https://zh-v2.d2l.ai/links": [
+      {
+        "file": "links/zh-v2.d2l.ai.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.yunyoujun.cn/": [
+      {
+        "file": "links/www.yunyoujun.cn.yml",
+        "role": "main"
+      }
+    ],
+    "https://www.yunyoujun.cn/links": [
+      {
+        "file": "links/www.yunyoujun.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.qqdsw8.cn/": [
+      {
+        "file": "links/blog.qqdsw8.cn.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/blog.qqdsw8.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://flwfdd.xyz/": [
+      {
+        "file": "links/flwfdd.xyz.yml",
+        "role": "main"
+      }
+    ],
+    "https://flwfdd.xyz/links": [
+      {
+        "file": "links/flwfdd.xyz.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://sgfox.cc/": [
+      {
+        "file": "links/sgfox.cc.yml",
+        "role": "main"
+      }
+    ],
+    "https://sgfox.cc/links": [
+      {
+        "file": "links/sgfox.cc.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://lorexxar.cn/": [
+      {
+        "file": "links/lorexxar.cn.yml",
+        "role": "main"
+      }
+    ],
+    "https://lorexxar.cn/links": [
+      {
+        "file": "links/lorexxar.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://jk.sb/": [
+      {
+        "file": "links/jk.sb.yml",
+        "role": "main"
+      }
+    ],
+    "https://jk.sb/links": [
+      {
+        "file": "links/jk.sb.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://lsy22.com/": [
+      {
+        "file": "links/lsy22.com.yml",
+        "role": "main"
+      }
+    ],
+    "https://lsy22.com/links": [
+      {
+        "file": "links/lsy22.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.zhsher.cn/": [
+      {
+        "file": "links/blog.zhsher.cn.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.zhsher.cn/links": [
+      {
+        "file": "links/blog.zhsher.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.emohe.cn/": [
+      {
+        "file": "links/www.emohe.cn.yml",
+        "role": "main"
+      }
+    ],
+    "https://www.emohe.cn/links": [
+      {
+        "file": "links/www.emohe.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://antfu.me/": [
+      {
+        "file": "links/antfu.me.yml",
+        "role": "main"
+      }
+    ],
+    "https://antfu.me/links": [
+      {
+        "file": "links/antfu.me.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://wzq02.top/": [
+      {
+        "file": "links/wzq02.top.yml",
+        "role": "main"
+      }
+    ],
+    "https://wzq02.top/about": [
+      {
+        "file": "links/wzq02.top.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.slanterns.net/": [
+      {
+        "file": "links/blog.slanterns.net.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.slanterns.net/links": [
+      {
+        "file": "links/blog.slanterns.net.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://pljzy.top/": [
+      {
+        "file": "links/pljzy.top.yml",
+        "role": "main"
+      }
+    ],
+    "https://pljzy.top/links": [
+      {
+        "file": "links/pljzy.top.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://en.blog.alswl.com/": [
+      {
+        "file": "links/en.blog.alswl.com.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/en.blog.alswl.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.alswl.com/": [
+      {
+        "file": "links/en.blog.alswl.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://542869246.github.io/": [
+      {
+        "file": "links/542869246.github.io.yml",
+        "role": "main"
+      }
+    ],
+    "https://542869246.github.io/links": [
+      {
+        "file": "links/542869246.github.io.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.52share.online/": [
+      {
+        "file": "links/542869246.github.io.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.diudiudevil.cn/": [
+      {
+        "file": "links/blog.diudiudevil.cn.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.diudiudevil.cn/friends": [
+      {
+        "file": "links/blog.diudiudevil.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.cuteleaf.cn": [
+      {
+        "file": "links/blog.diudiudevil.cn.yml",
+        "role": "friend"
+      },
+      {
+        "file": "links/blog.hyosakura.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.closure.cc/": [
+      {
+        "file": "links/blog.closure.cc.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.closure.cc/links": [
+      {
+        "file": "links/blog.closure.cc.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://techaro.lol": [
+      {
+        "file": "links/blog.closure.cc.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.hyosakura.com/": [
+      {
+        "file": "links/blog.hyosakura.com.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.hyosakura.com/friends": [
+      {
+        "file": "links/blog.hyosakura.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.iquegui.com/": [
+      {
+        "file": "links/iquegui.com.yml",
+        "role": "main"
+      }
+    ],
+    "https://www.iquegui.com/links.html": [
+      {
+        "file": "links/iquegui.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://asain.icu": [
+      {
+        "file": "links/iquegui.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://xiaofuc.github.io/": [
+      {
+        "file": "links/xiaofuc.github.io.yml",
+        "role": "main"
+      }
+    ],
+    "https://xiaofuc.github.io/links": [
+      {
+        "file": "links/xiaofuc.github.io.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://infernity.top/": [
+      {
+        "file": "links/xiaofuc.github.io.yml",
+        "role": "friend"
+      }
+    ],
+    "https://fenguoerbian.netlify.app/": [
+      {
+        "file": "links/fenguoerbian.netlify.app.yml",
+        "role": "main"
+      }
+    ],
+    "https://fenguoerbian.netlify.app/links": [
+      {
+        "file": "links/fenguoerbian.netlify.app.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://masalmon.eu/": [
+      {
+        "file": "links/fenguoerbian.netlify.app.yml",
+        "role": "friend"
+      }
+    ],
+    "https://prince213.top/": [
+      {
+        "file": "links/prince213.top.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/prince213.top.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://matrix.to/#/@prince213:matrix.org": [
+      {
+        "file": "links/prince213.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.zuoye.win/": [
+      {
+        "file": "links/blog.zuoye.win.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.zuoye.win/friends": [
+      {
+        "file": "links/blog.zuoye.win.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://mocong.dev/": [
+      {
+        "file": "links/blog.zuoye.win.yml",
+        "role": "friend"
+      }
+    ],
+    "https://greyhathacker.net/": [
+      {
+        "file": "links/greyhathacker.net.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/greyhathacker.net.yml",
+        "role": "friends-page"
+      }
+    ],
+    "http://dokan-dev.github.io/": [
+      {
+        "file": "links/greyhathacker.net.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.takagisan.top/": [
+      {
+        "file": "links/www.takagisan.top.yml",
+        "role": "main"
+      }
+    ],
+    "https://www.takagisan.top/links": [
+      {
+        "file": "links/www.takagisan.top.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://misakishiki.site/": [
+      {
+        "file": "links/www.takagisan.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://jiewei.xyz/": [
+      {
+        "file": "links/jiewei.xyz.yml",
+        "role": "main"
+      }
+    ],
+    "https://jiewei.xyz/links.html": [
+      {
+        "file": "links/jiewei.xyz.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://forkinganddividing.com": [
+      {
+        "file": "links/jiewei.xyz.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.seaeye.cn/": [
+      {
+        "file": "links/seaeye.cn.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/seaeye.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://hitcxy.com/": [
+      {
+        "file": "links/seaeye.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://tntxz.starsfire.top/": [
+      {
+        "file": "links/tntxz.starsfire.top.yml",
+        "role": "main"
+      }
+    ],
+    "https://tntxz.starsfire.top/links": [
+      {
+        "file": "links/tntxz.starsfire.top.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://hexo.anheyu.com/": [
+      {
+        "file": "links/tntxz.starsfire.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.timepas.cn/": [
+      {
+        "file": "links/blog.timepas.cn.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.timepas.cn/links": [
+      {
+        "file": "links/blog.timepas.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://dyedd.cn/": [
+      {
+        "file": "links/blog.timepas.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://cwcu.com.cn/": [
+      {
+        "file": "links/cwcu.com.cn.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/cwcu.com.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://cwcu.cn": [
+      {
+        "file": "links/cwcu.com.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://arielsalminen.com/": [
+      {
+        "file": "links/arielsalminen.com.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/arielsalminen.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://vueds.com": [
+      {
+        "file": "links/arielsalminen.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://theparanoidtimes.org/": [
+      {
+        "file": "links/theparanoidtimes.org.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/theparanoidtimes.org.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.igt.com/": [
+      {
+        "file": "links/theparanoidtimes.org.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.imgb.space/": [
+      {
+        "file": "links/blog.imgb.space.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.imgb.space/links": [
+      {
+        "file": "links/blog.imgb.space.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://gb0.dev/": [
+      {
+        "file": "links/blog.imgb.space.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.qsuu.cn/": [
+      {
+        "file": "links/blog.qsuu.cn.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.qsuu.cn/links": [
+      {
+        "file": "links/blog.qsuu.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.zwying.com/": [
+      {
+        "file": "links/blog.qsuu.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://fairysen.com/": [
+      {
+        "file": "links/fairysen.com.yml",
+        "role": "main"
+      }
+    ],
+    "https://fairysen.com/friends": [
+      {
+        "file": "links/fairysen.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.zwying.com": [
+      {
+        "file": "links/fairysen.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://b.storyo.cn/": [
+      {
+        "file": "links/b.storyo.cn.yml",
+        "role": "main"
+      }
+    ],
+    "https://b.storyo.cn/links": [
+      {
+        "file": "links/b.storyo.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://ayakasuki.com/": [
+      {
+        "file": "links/b.storyo.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://hugoblox.com/": [
+      {
+        "file": "links/hugoblox.com.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/hugoblox.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://ownable.dev": [
+      {
+        "file": "links/hugoblox.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://kaic.hidns.co/": [
+      {
+        "file": "links/kaic.hidns.co.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/kaic.hidns.co.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.811520.xyz": [
+      {
+        "file": "links/kaic.hidns.co.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.kway.site/": [
+      {
+        "file": "links/blog.kway.site.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.kway.site/links": [
+      {
+        "file": "links/blog.kway.site.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.vergessen.top/": [
+      {
+        "file": "links/blog.kway.site.yml",
+        "role": "friend"
+      }
+    ],
+    "https://xiaoyou66.com": [
+      {
+        "file": "links/blog.kway.site.yml",
+        "role": "friend"
+      }
+    ],
+    "http://www.auiou.com/": [
+      {
+        "file": "links/auiou.com.yml",
+        "role": "main"
+      }
+    ],
+    "http://www.auiou.com/links": [
+      {
+        "file": "links/auiou.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.huhexian.com": [
+      {
+        "file": "links/auiou.com.yml",
+        "role": "friend"
+      }
+    ],
+    "http://0375.me": [
+      {
+        "file": "links/auiou.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.imz.me/": [
+      {
+        "file": "links/blog.imz.me.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.imz.me/links": [
+      {
+        "file": "links/blog.imz.me.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.starsharbor.com/": [
+      {
+        "file": "links/blog.imz.me.yml",
+        "role": "friend"
+      },
+      {
+        "file": "links/blog.moyanjdc.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://lisui.top/": [
+      {
+        "file": "links/blog.imz.me.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.skykey.fun/": [
+      {
+        "file": "links/blog.skykey.fun.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.skykey.fun/links": [
+      {
+        "file": "links/blog.skykey.fun.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.cryfeifei.cn": [
+      {
+        "file": "links/blog.skykey.fun.yml",
+        "role": "friend"
+      }
+    ],
+    "https://theme-next.org/": [
+      {
+        "file": "links/blog.skykey.fun.yml",
+        "role": "friend"
+      }
+    ],
+    "https://galgamer.moe/": [
+      {
+        "file": "links/galgamer.moe.yml",
+        "role": "main"
+      }
+    ],
+    "https://galgamer.moe/links": [
+      {
+        "file": "links/galgamer.moe.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.moeworld.tech/": [
+      {
+        "file": "links/galgamer.moe.yml",
+        "role": "friend"
+      }
+    ],
+    "https://shinnku.com/": [
+      {
+        "file": "links/galgamer.moe.yml",
+        "role": "friend"
+      }
+    ],
+    "https://399s.com/": [
+      {
+        "file": "links/399s.com.yml",
+        "role": "main"
+      }
+    ],
+    "https://399s.com/friends": [
+      {
+        "file": "links/399s.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "http://LouisHan.com/": [
+      {
+        "file": "links/399s.com.yml",
+        "role": "friend"
+      }
+    ],
+    "http://www.ithmz.com": [
+      {
+        "file": "links/399s.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.gmero.com/": [
+      {
+        "file": "links/gmero.com.yml",
+        "role": "main"
+      }
+    ],
+    "https://www.gmero.com/links": [
+      {
+        "file": "links/gmero.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://oyiso.cn": [
+      {
+        "file": "links/gmero.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://roozen.top": [
+      {
+        "file": "links/gmero.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://032.im/": [
+      {
+        "file": "links/032.im.yml",
+        "role": "main"
+      }
+    ],
+    "https://032.im/links": [
+      {
+        "file": "links/032.im.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.himiku.com/": [
+      {
+        "file": "links/032.im.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.stardream.online/": [
+      {
+        "file": "links/032.im.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.dereksivers.org/": [
+      {
+        "file": "links/dereksivers.org.yml",
+        "role": "main"
+      }
+    ],
+    "https://www.dereksivers.org/links": [
+      {
+        "file": "links/dereksivers.org.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://sivers.com/": [
+      {
+        "file": "links/dereksivers.org.yml",
+        "role": "friend"
+      }
+    ],
+    "https://musicthoughts.com/": [
+      {
+        "file": "links/dereksivers.org.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.rutua.cn/": [
+      {
+        "file": "links/rutua.cn.yml",
+        "role": "main"
+      }
+    ],
+    "https://www.rutua.cn/links": [
+      {
+        "file": "links/rutua.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://coseroom.com/": [
+      {
+        "file": "links/rutua.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.imydl.com/": [
+      {
+        "file": "links/rutua.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://milu.ink/": [
+      {
+        "file": "links/milu.ink.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/milu.ink.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://wenpai.org/": [
+      {
+        "file": "links/milu.ink.yml",
+        "role": "friend"
+      }
+    ],
+    "https://flyhigher.top/": [
+      {
+        "file": "links/milu.ink.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.gobyte.cn/": [
+      {
+        "file": "links/blog.gobyte.cn.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.gobyte.cn/links": [
+      {
+        "file": "links/blog.gobyte.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://mrbird.cc": [
+      {
+        "file": "links/blog.gobyte.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.mmzsblog.cn/": [
+      {
+        "file": "links/blog.gobyte.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://faehnri.ch/": [
+      {
+        "file": "links/faehnri.ch.yml",
+        "role": "main"
+      }
+    ],
+    "https://faehnri.ch/links": [
+      {
+        "file": "links/faehnri.ch.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://sndtst.com/": [
+      {
+        "file": "links/faehnri.ch.yml",
+        "role": "friend"
+      }
+    ],
+    "https://jurassicsystems.com/": [
+      {
+        "file": "links/faehnri.ch.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.lin-fun.com/": [
+      {
+        "file": "links/blog.lin-fun.com.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.lin-fun.com/links": [
+      {
+        "file": "links/blog.lin-fun.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://furdevs.cn/": [
+      {
+        "file": "links/blog.lin-fun.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://furcw.net/": [
+      {
+        "file": "links/blog.lin-fun.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.amirokd.dpdns.org/": [
+      {
+        "file": "links/amirokd.dpdns.org.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/amirokd.dpdns.org.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://tiansoft.kodview.com/": [
+      {
+        "file": "links/amirokd.dpdns.org.yml",
+        "role": "friend"
+      }
+    ],
+    "https://ys.mihoyo.com/": [
+      {
+        "file": "links/amirokd.dpdns.org.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.xreak.top/": [
+      {
+        "file": "links/www.xreak.top.yml",
+        "role": "main"
+      }
+    ],
+    "https://www.xreak.top/links": [
+      {
+        "file": "links/www.xreak.top.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.imysen.com/": [
+      {
+        "file": "links/www.xreak.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.crrashh.com/": [
+      {
+        "file": "links/www.xreak.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://thk.kanzae.net/": [
+      {
+        "file": "links/thk.kanzae.net.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/thk.kanzae.net.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://again.lunaclear.com/": [
+      {
+        "file": "links/thk.kanzae.net.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.cheshirex.com": [
+      {
+        "file": "links/thk.kanzae.net.yml",
+        "role": "friend"
+      }
+    ],
+    "https://xun-cmd.github.io/": [
+      {
+        "file": "links/xun-cmd.github.io.yml",
+        "role": "main"
+      }
+    ],
+    "https://xun-cmd.github.io/links": [
+      {
+        "file": "links/xun-cmd.github.io.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://iyheart.github.io/": [
+      {
+        "file": "links/xun-cmd.github.io.yml",
+        "role": "friend"
+      }
+    ],
+    "https://czxsblog.netlify.app/": [
+      {
+        "file": "links/xun-cmd.github.io.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.louiezong.com/": [
+      {
+        "file": "links/louiezong.com.yml",
+        "role": "main"
+      }
+    ],
+    "https://www.louiezong.com/about": [
+      {
+        "file": "links/louiezong.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://everydaylouie.itch.io": [
+      {
+        "file": "links/louiezong.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://louiezong.bandcamp.com/": [
+      {
+        "file": "links/louiezong.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://acevs.com/": [
+      {
+        "file": "links/acevs.com.yml",
+        "role": "main"
+      }
+    ],
+    "https://acevs.com/links": [
+      {
+        "file": "links/acevs.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://h4ck.org.cn/": [
+      {
+        "file": "links/acevs.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.wordpace.com/": [
+      {
+        "file": "links/acevs.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.noah0932.top/": [
+      {
+        "file": "links/blog.noah0932.top.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.noah0932.top/friends": [
+      {
+        "file": "links/blog.noah0932.top.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.opennw.cn": [
+      {
+        "file": "links/blog.noah0932.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.liushen.fun/": [
+      {
+        "file": "links/blog.noah0932.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://nuel.pw/": [
+      {
+        "file": "links/nuel.pw.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/nuel.pw.yml",
+        "role": "friends-page"
+      }
+    ],
+    "http://nuel.news": [
+      {
+        "file": "links/nuel.pw.yml",
+        "role": "friend"
+      }
+    ],
+    "https://globoform.com": [
+      {
+        "file": "links/nuel.pw.yml",
+        "role": "friend"
+      }
+    ],
+    "https://caramiki.com/": [
+      {
+        "file": "links/caramiki.com.yml",
+        "role": "main"
+      }
+    ],
+    "https://caramiki.com/about": [
+      {
+        "file": "links/caramiki.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.unabridgedsoftware.com/": [
+      {
+        "file": "links/caramiki.com.yml",
+        "role": "friend"
+      }
+    ],
+    "http://waterbeargames.com/": [
+      {
+        "file": "links/caramiki.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://dcutting.com/": [
+      {
+        "file": "links/dcutting.com.yml",
+        "role": "main"
+      }
+    ],
+    "https://dcutting.com/links": [
+      {
+        "file": "links/dcutting.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://figureitout.group": [
+      {
+        "file": "links/dcutting.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://spal.club/": [
+      {
+        "file": "links/dcutting.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://pdp8.info/": [
+      {
+        "file": "links/pdp8.info.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/pdp8.info.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://fediring.net/": [
+      {
+        "file": "links/pdp8.info.yml",
+        "role": "friend"
+      }
+    ],
+    "https://faircamp.webr.ing/": [
+      {
+        "file": "links/pdp8.info.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.zhipro.com/": [
+      {
+        "file": "links/blog.zhipro.com.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.zhipro.com/links": [
+      {
+        "file": "links/blog.zhipro.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://hejunjie.life": [
+      {
+        "file": "links/blog.zhipro.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.lusyoe.com": [
+      {
+        "file": "links/blog.zhipro.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://wcowin.work/": [
+      {
+        "file": "links/blog.zhipro.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.the5fire.com/": [
+      {
+        "file": "links/www.the5fire.com.yml",
+        "role": "main"
+      }
+    ],
+    "https://www.the5fire.com/links": [
+      {
+        "file": "links/www.the5fire.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://coolshell.cn/": [
+      {
+        "file": "links/www.the5fire.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.xiaohui.com/": [
+      {
+        "file": "links/www.the5fire.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://v3u.cn/": [
+      {
+        "file": "links/www.the5fire.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.nepakina.cn/": [
+      {
+        "file": "links/blog.nepakina.cn.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.nepakina.cn/links": [
+      {
+        "file": "links/blog.nepakina.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://bruisesl.github.io/": [
+      {
+        "file": "links/blog.nepakina.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://3322898.cn": [
+      {
+        "file": "links/blog.nepakina.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.vlo.cc/": [
+      {
+        "file": "links/blog.nepakina.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://coderxi.com/": [
+      {
+        "file": "links/coderxi.com.yml",
+        "role": "main"
+      }
+    ],
+    "https://coderxi.com/links": [
+      {
+        "file": "links/coderxi.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://maxchang.me": [
+      {
+        "file": "links/coderxi.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://mocusez.site": [
+      {
+        "file": "links/coderxi.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.guole.fun/": [
+      {
+        "file": "links/coderxi.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://ikk.me/": [
+      {
+        "file": "links/ikk.me.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/ikk.me.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://kk.sb": [
+      {
+        "file": "links/ikk.me.yml",
+        "role": "friend"
+      }
+    ],
+    "https://bangumi.fun": [
+      {
+        "file": "links/ikk.me.yml",
+        "role": "friend"
+      }
+    ],
+    "https://apps.kookxiang.cloud": [
+      {
+        "file": "links/ikk.me.yml",
+        "role": "friend"
+      }
+    ],
+    "https://yihui.org/": [
+      {
+        "file": "links/yihui.org.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/yihui.org.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.dicook.org": [
+      {
+        "file": "links/yihui.org.yml",
+        "role": "friend"
+      }
+    ],
+    "https://heike.github.io": [
+      {
+        "file": "links/yihui.org.yml",
+        "role": "friend"
+      }
+    ],
+    "https://cosx.org": [
+      {
+        "file": "links/yihui.org.yml",
+        "role": "friend"
+      }
+    ],
+    "https://diyibailingyici.chuangdangjianghudewumingyouxia.cn/": [
+      {
+        "file": "links/diyibailingyici.chuangdangjianghudewumingyouxia.cn.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/diyibailingyici.chuangdangjianghudewumingyouxia.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://kpi.xlog.app/": [
+      {
+        "file": "links/diyibailingyici.chuangdangjianghudewumingyouxia.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://sumiler.com/": [
+      {
+        "file": "links/diyibailingyici.chuangdangjianghudewumingyouxia.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://moshanghua.net": [
+      {
+        "file": "links/diyibailingyici.chuangdangjianghudewumingyouxia.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.hinswu.top/": [
+      {
+        "file": "links/blog.hinswu.top.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.hinswu.top/links": [
+      {
+        "file": "links/blog.hinswu.top.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.aobp.cn": [
+      {
+        "file": "links/blog.hinswu.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://chuzoux.top/": [
+      {
+        "file": "links/blog.hinswu.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.07210700.xyz": [
+      {
+        "file": "links/blog.hinswu.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://gxroast.com/": [
+      {
+        "file": "links/gxroast.com.yml",
+        "role": "main"
+      }
+    ],
+    "https://gxroast.com/links": [
+      {
+        "file": "links/gxroast.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.xiaoxiao520.com/": [
+      {
+        "file": "links/gxroast.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://1995.yun/": [
+      {
+        "file": "links/gxroast.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://ysc1997.top/": [
+      {
+        "file": "links/gxroast.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.xlrt.top/": [
+      {
+        "file": "links/blog.xlrt.top.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.xlrt.top/link": [
+      {
+        "file": "links/blog.xlrt.top.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.ltya.top/": [
+      {
+        "file": "links/blog.xlrt.top.yml",
+        "role": "friend"
+      }
+    ],
+    "http://blog.xcnya.cn/": [
+      {
+        "file": "links/blog.xlrt.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://jiuliu.top/": [
+      {
+        "file": "links/blog.xlrt.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.gahing.top/": [
+      {
+        "file": "links/gahing.top.yml",
+        "role": "main"
+      }
+    ],
+    "https://www.gahing.top/friends": [
+      {
+        "file": "links/gahing.top.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://schaepher.github.io/": [
+      {
+        "file": "links/gahing.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://chuchencheng.com/": [
+      {
+        "file": "links/gahing.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://xugaoyi.com/": [
+      {
+        "file": "links/gahing.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://小蔡.tw/": [
+      {
+        "file": "links/小蔡.tw.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/小蔡.tw.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://stust.org": [
+      {
+        "file": "links/小蔡.tw.yml",
+        "role": "friend"
+      }
+    ],
+    "http://pettw.lionfree.net/#": [
+      {
+        "file": "links/小蔡.tw.yml",
+        "role": "friend"
+      }
+    ],
+    "https://pettw.online": [
+      {
+        "file": "links/小蔡.tw.yml",
+        "role": "friend"
+      }
+    ],
+    "https://yuan1182.org/": [
+      {
+        "file": "links/yuan1182.org.yml",
+        "role": "main"
+      }
+    ],
+    "https://yuan1182.org/links": [
+      {
+        "file": "links/yuan1182.org.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://kuriyona.com": [
+      {
+        "file": "links/yuan1182.org.yml",
+        "role": "friend"
+      }
+    ],
+    "https://maao.cc": [
+      {
+        "file": "links/yuan1182.org.yml",
+        "role": "friend"
+      }
+    ],
+    "https://launchpadx.top": [
+      {
+        "file": "links/yuan1182.org.yml",
+        "role": "friend"
+      }
+    ],
+    "https://pcp.moe/": [
+      {
+        "file": "links/pcp.moe.yml",
+        "role": "main"
+      }
+    ],
+    "https://pcp.moe/links": [
+      {
+        "file": "links/pcp.moe.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://pyonpyon.today/": [
+      {
+        "file": "links/pcp.moe.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.tcdw.net/": [
+      {
+        "file": "links/pcp.moe.yml",
+        "role": "friend"
+      }
+    ],
+    "https://travel.moe/": [
+      {
+        "file": "links/pcp.moe.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.moyanjdc.top/": [
+      {
+        "file": "links/blog.moyanjdc.top.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.moyanjdc.top/friends.html": [
+      {
+        "file": "links/blog.moyanjdc.top.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.woku.link/": [
+      {
+        "file": "links/blog.moyanjdc.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.meowhead.cn/": [
+      {
+        "file": "links/blog.moyanjdc.top.yml",
+        "role": "friend"
+      }
+    ],
+    "https://pirogue.org/": [
+      {
+        "file": "links/pirogue.org.yml",
+        "role": "main"
+      }
+    ],
+    "https://pirogue.org/links": [
+      {
+        "file": "links/pirogue.org.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.lshack.cn/": [
+      {
+        "file": "links/pirogue.org.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.0x002.com/": [
+      {
+        "file": "links/pirogue.org.yml",
+        "role": "friend"
+      }
+    ],
+    "https://zgao.top/": [
+      {
+        "file": "links/pirogue.org.yml",
+        "role": "friend"
+      }
+    ],
+    "https://mcenahle.cn/": [
+      {
+        "file": "links/mcenahle.cn.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/mcenahle.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://dropwww.com": [
+      {
+        "file": "links/mcenahle.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.mcenahle.org.cn": [
+      {
+        "file": "links/mcenahle.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.david03.top/": [
+      {
+        "file": "links/mcenahle.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.everains.com/": [
+      {
+        "file": "links/everains.com.yml",
+        "role": "main"
+      }
+    ],
+    "https://www.everains.com/links": [
+      {
+        "file": "links/everains.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://iwalyou.com/": [
+      {
+        "file": "links/everains.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://5ime.cn/": [
+      {
+        "file": "links/everains.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://qing.su/": [
+      {
+        "file": "links/everains.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://lo-li.cn/": [
+      {
+        "file": "links/lo-li.cn.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/lo-li.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.natfrp.com/": [
+      {
+        "file": "links/lo-li.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.kasuganosora.cn/": [
+      {
+        "file": "links/lo-li.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.zerodream.net/": [
+      {
+        "file": "links/lo-li.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.dreeam.me/": [
+      {
+        "file": "links/blog.dreeam.me.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.dreeam.me/links": [
+      {
+        "file": "links/blog.dreeam.me.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://ling.crashvibe.cn/": [
+      {
+        "file": "links/blog.dreeam.me.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.dsnb.cc/": [
+      {
+        "file": "links/blog.dreeam.me.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.na3alf6.cn/": [
+      {
+        "file": "links/blog.dreeam.me.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.91biu.work/": [
+      {
+        "file": "links/www.91biu.work.yml",
+        "role": "main"
+      }
+    ],
+    "https://www.91biu.work/links": [
+      {
+        "file": "links/www.91biu.work.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://feng.pub/": [
+      {
+        "file": "links/www.91biu.work.yml",
+        "role": "friend"
+      }
+    ],
+    "https://hux6.com/": [
+      {
+        "file": "links/www.91biu.work.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.vvhan.com/": [
+      {
+        "file": "links/www.91biu.work.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.tuep.cn/": [
+      {
+        "file": "links/blog.tuep.cn.yml",
+        "role": "main"
+      }
+    ],
+    "https://blog.tuep.cn/links": [
+      {
+        "file": "links/blog.tuep.cn.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://blog.6uu.us/": [
+      {
+        "file": "links/blog.tuep.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://iy.ink/": [
+      {
+        "file": "links/blog.tuep.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://dwd.moe/": [
+      {
+        "file": "links/blog.tuep.cn.yml",
+        "role": "friend"
+      }
+    ],
+    "https://blog.zoomquiet.io/": [
+      {
+        "file": "links/blog.zoomquiet.io.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/blog.zoomquiet.io.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://weekly.rs.101.so/": [
+      {
+        "file": "links/blog.zoomquiet.io.yml",
+        "role": "friend"
+      }
+    ],
+    "https://xhh.club/": [
+      {
+        "file": "links/blog.zoomquiet.io.yml",
+        "role": "friend"
+      }
+    ],
+    "http://www.inkscape.org/": [
+      {
+        "file": "links/blog.zoomquiet.io.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.wolfhime.com/": [
+      {
+        "file": "links/www.wolfhime.com.yml",
+        "role": "main"
+      }
+    ],
+    "https://www.wolfhime.com/links": [
+      {
+        "file": "links/www.wolfhime.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://furryfandomclub.cn/": [
+      {
+        "file": "links/www.wolfhime.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.idove.games/": [
+      {
+        "file": "links/www.wolfhime.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://not-hentai.com/": [
+      {
+        "file": "links/www.wolfhime.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.imcxx.com/": [
+      {
+        "file": "links/imcxx.com.yml",
+        "role": "main"
+      },
+      {
+        "file": "links/imcxx.com.yml",
+        "role": "friends-page"
+      }
+    ],
+    "https://www.onyi.net/": [
+      {
+        "file": "links/imcxx.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.wnark.com": [
+      {
+        "file": "links/imcxx.com.yml",
+        "role": "friend"
+      }
+    ],
+    "https://www.moerats.com/": [
+      {
+        "file": "links/imcxx.com.yml",
+        "role": "friend"
+      }
+    ]
+  }
+}

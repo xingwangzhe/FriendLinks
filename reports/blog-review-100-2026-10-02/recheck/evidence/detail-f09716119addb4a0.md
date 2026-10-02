@@ -1,0 +1,138 @@
+[ 跳转至 ](https://wcowin.work/develop/Mywork/#_1)
+[ ![Wcowin's Blog](https://pic2.zhimg.com/100/v2-864dbf5fe2906aae3f5f18b491320a0d_r.jpg) ](https://wcowin.work/ "Wcowin's Blog")
+Wcowin's Blog 
+我的开发项目/作品/应用 
+  * [ 中文 ](https://wcowin.work/develop/Mywork/#edge-translate-chinese_simplified)
+  * [ English ](https://wcowin.work/develop/Mywork/#edge-translate-english)
+
+
+查找 
+[ Wcowin  ](https://github.com/Wcowin/Wcowin.github.io "前往仓库")
+  * [ 主页 ](https://wcowin.work/)
+  * [ 技术 ](https://wcowin.work/blog/indexblog/)
+  * [ 开发 ](https://wcowin.work/develop/)
+  * [ 科研 ](https://wcowin.work/research/)
+  * [ 闲聊 ](https://wcowin.work/relax/)
+  * [ 旅行 ](https://wcowin.work/trip/)
+  * [ 标签 ](https://wcowin.work/tags/)
+  * [ 留言板 ](https://wcowin.work/waline/)
+  * [ 朋友 ](https://wcowin.work/link/)
+  * [ 关于 ](https://wcowin.work/about/geren/)
+  * [ Mkdocs教程 ](https://wcowin.work/Mkdocs-Wcowin/)
+  * [ Zensical教程 ](https://wcowin.work/Zensical-Chinese-Tutorial/)
+
+
+[ ![Wcowin's Blog](https://pic2.zhimg.com/100/v2-864dbf5fe2906aae3f5f18b491320a0d_r.jpg) ](https://wcowin.work/ "Wcowin's Blog") Wcowin's Blog 
+[ Wcowin  ](https://github.com/Wcowin/Wcowin.github.io "前往仓库")
+  * [ 主页  ](https://wcowin.work/)
+  * [ 技术  ](https://wcowin.work/blog/indexblog/)
+  * [ 开发  ](https://wcowin.work/develop/)
+开发 
+    * [ AI  ](https://wcowin.work/develop/AI/)
+AI 
+      * [ AI工具(2026最新)  ](https://wcowin.work/develop/AItools/)
+      * [ AI Coding Agent：从代码补全到自主软件工程  ](https://wcowin.work/develop/AI/ai-coding-agent/)
+      * [ Prompt 工程入门  ](https://wcowin.work/develop/AI/prompt/)
+      * [ 上下文工程（Context Engineering）  ](https://wcowin.work/develop/AI/context-engineering/)
+      * [ AI Agent 入门  ](https://wcowin.work/develop/AI/agent/)
+      * [ Agentic AI：从 Chatbot 到可行动的智能体  ](https://wcowin.work/develop/AI/agentic-ai/)
+      * [ AI Agent 记忆系统深度解析  ](https://wcowin.work/develop/AI/memory-system/)
+      * [ What is MCP  ](https://wcowin.work/develop/AI/mcp/)
+      * [ A2A 协议（Agent-to-Agent）  ](https://wcowin.work/develop/AI/a2a/)
+      * [ RAG技术(检索增强生成)  ](https://wcowin.work/develop/AI/rag/)
+      * [ Skill 使用介绍  ](https://wcowin.work/develop/AI/skill/)
+      * [ 多智能体协作入门  ](https://wcowin.work/develop/AI/multi-agent/)
+      * [ 深度推理与测试时计算  ](https://wcowin.work/develop/AI/deep-reasoning/)
+      * [ AI 安全与对抗  ](https://wcowin.work/develop/AI/ai-security/)
+      * [ 具身智能：当 AI 拥有身体，物理世界迎来新纪元  ](https://wcowin.work/develop/AI/embodied-ai/)
+      * [ JEPA：联合嵌入预测架构——通往世界模型的非生成之路  ](https://wcowin.work/develop/AI/jepa/)
+      * [ Attention Residuals：Kimi架构创新  ](https://wcowin.work/develop/AI/attention-residuals/)
+      * [ Claude Code指南  ](https://wcowin.work/develop/Claude-Code/)
+      * [ Codex指南  ](https://wcowin.work/develop/ChatGPT/)
+      * [ CC Switch：Claude Code / Codex 模型切换工具  ](https://wcowin.work/develop/AI/cc-switch/)
+      * [ OpenClaw：本地开源AI助手  ](https://wcowin.work/develop/AI/openclaw/)
+      * [ Hermes Agent：自进化的 AI Agent  ](https://wcowin.work/develop/AI/hermes-agent/)
+      * [ nanobot：超轻量级 AI 助手  ](https://wcowin.work/develop/AI/nanobot/)
+      * [ DeepSeek Harness  ](https://wcowin.work/develop/AI/deepseek-harness/)
+    * [ Python 环境管理最佳实践  ](https://wcowin.work/develop/environment/)
+    * [ Anaconda 使用教程  ](https://wcowin.work/develop/Anaconda/)
+    * [ DeepSeek:从入门到精通  ](https://wcowin.work/develop/deepseek/)
+    * [ GitHub 解封指南——This account is flagged  ](https://wcowin.work/develop/GitHub-unblocked/)
+    * [ macOS开发  ](https://wcowin.work/develop/Mac-development/)
+macOS开发 
+      * [ Mac 开发环境检查清单  ](https://wcowin.work/develop/Mac-development/Mac-Development-Environment-Checklist/)
+      * [ Mac Shell 环境优化指南  ](https://wcowin.work/develop/Mac-development/Mac-Shell-Environment-Optimization/)
+      * [ OneClip 开发经验分享：从零到一  ](https://wcowin.work/develop/Mac-development/OneClip-Development-Experience/)
+      * [ OneClip 架构设计与核心模块解析  ](https://wcowin.work/develop/Mac-development/OneClip-Architecture-Design/)
+      * [ 应用分发签名——以 OneClip 为例  ](https://wcowin.work/develop/Mac-development/OneClip-Code-Signing-Guide/)
+      * [ PP-OCRv5 轻量级 OCR 识别方案使用指南  ](https://wcowin.work/develop/Mac-development/PP-OCRv5-Guide/)
+      * [ OneClip 原生 PP-OCRv5 ONNX 方案解析  ](https://wcowin.work/develop/Mac-development/PP-OCRv5-Native-ONNX-Guide/)
+    * [ 我的开发项目/作品/应用  ](https://wcowin.work/develop/Mywork/)
+我的开发项目/作品/应用 
+      * [ OneClip  ](https://wcowin.work/develop/Mywork/OneClip/)
+      * [ FinderClip  ](https://wcowin.work/develop/Mywork/Mac-Finder-Clipboard/)
+      * [ Wcowin for MkDocs主题  ](https://wcowin.work/develop/Mywork/mkdocs-wcowin/)
+      * [ Mkdocs相关插件  ](https://wcowin.work/develop/Mywork/mkdocsplugin/)
+      * [ 简单的JavaScript音乐播放器  ](https://wcowin.work/develop/Mywork/muplayer/)
+      * [ 基于OpenCV的人脸识别系统  ](https://wcowin.work/develop/Mywork/face-recognition/)
+      * [ 用AirScript脚本给女/男朋友发送每日早安邮件  ](https://wcowin.work/develop/Mywork/email/)
+      * [ 基于讯飞人脸算法的人脸比对  ](https://wcowin.work/develop/Mywork/face_compare/)
+      * [ 基于百度API和OpenCV的智能车牌识别程序  ](https://wcowin.work/develop/Mywork/opencv/)
+      * [ 利用百度API进行植物识别  ](https://wcowin.work/develop/Mywork/aizhiwu/)
+      * [ 设计作品  ](https://wcowin.work/develop/Mywork/design/)
+      * [ 油猴脚本作品  ](https://wcowin.work/develop/Mywork/tampermonkey/)
+    * [ 我的设备  ](https://wcowin.work/develop/mydevice/)
+    * Markdown  Markdown 
+      * [ Markdown指南  ](https://wcowin.work/develop/Markdown/markdown/)
+      * [ MWeb Pro  ](https://wcowin.work/develop/Markdown/MWeb/)
+    * [ Git 实用技巧  ](https://wcowin.work/develop/git/)
+    * 设计美学  设计美学 
+      * [ 唐·诺曼—情感设计的三个层次  ](https://wcowin.work/develop/designbeauty/db1/)
+      * [ 我对设计的一些观点  ](https://wcowin.work/develop/designbeauty/my-to-desihn/)
+    * [ 利用Lighthouse测试网站性能  ](https://wcowin.work/develop/lighthouse/)
+    * [ What is Github  ](https://wcowin.work/develop/Github/)
+    * [ 如何将 github pages 迁移到 vercel 上托管  ](https://wcowin.work/develop/vercel/)
+    * [ 大厂们的良心软件～  ](https://wcowin.work/develop/fenxiang/)
+    * [ 写给所有Mac用户的摸鱼指北  ](https://wcowin.work/develop/Mac/)
+    * [ 看源码才懂  ](https://wcowin.work/develop/kanyuanma/)
+  * [ 科研  ](https://wcowin.work/research/)
+  * [ 闲聊  ](https://wcowin.work/relax/)
+  * [ 旅行  ](https://wcowin.work/trip/)
+  * [ 标签  ](https://wcowin.work/tags/)
+  * [ 留言板  ](https://wcowin.work/waline/)
+  * [ 朋友  ](https://wcowin.work/link/)
+  * [ 关于  ](https://wcowin.work/about/geren/)
+  * [ Mkdocs教程  ](https://wcowin.work/Mkdocs-Wcowin/)
+  * [ Zensical教程  ](https://wcowin.work/Zensical-Chinese-Tutorial/)
+
+
+目录 
+  * [ OneClip  ](https://wcowin.work/develop/Mywork/#oneclip)
+  * [ FinderClip(为macOS Finder提供直观的剪切粘贴体验)  ](https://wcowin.work/develop/Mywork/#finderclipmacos-finder)
+  * [ Wcowin for MkDocs主题  ](https://wcowin.work/develop/Mywork/#wcowin-for-mkdocs)
+  * [ Mkdocs相关插件  ](https://wcowin.work/develop/Mywork/#mkdocs)
+
+
+  1. [ 主页  ](https://wcowin.work/)
+  2. [ 开发  ](https://wcowin.work/develop/)
+  3. [ 我的开发项目/作品/应用  ](https://wcowin.work/develop/Mywork/)
+
+
+# 我的开发项目/作品/应用[¶](https://wcowin.work/develop/Mywork/#_1 "Permanent link")
+## OneClip[¶](https://wcowin.work/develop/Mywork/#oneclip "Permanent link")
+[ Wcowin / OneClip OneClip 是一款专为 macOS 设计的剪贴板管理工具，提供主窗口、菜单栏操作、快速粘贴面板等多种使用方式， 支持多种格式内容管理、智能搜索和分类，让您的复制粘贴操作更加便捷高效。 471 29 MIT ](https://github.com/One-Clip/OneClip)
+## FinderClip(为macOS Finder提供直观的剪切粘贴体验)[¶](https://wcowin.work/develop/Mywork/#finderclipmacos-finder "Permanent link")
+[ Wcowin / Mac-Finder-Clipboard FinderClip 是一款免费开源且轻量级的 macOS 应用，让你可以在 Finder 中使用熟悉的 ⌘X 和 ⌘V 快捷键来剪切和移动文件。 90 MIT ](https://github.com/Wcowin/Mac-Finder-Clipboard)
+## Wcowin for MkDocs主题[¶](https://wcowin.work/develop/Mywork/#wcowin-for-mkdocs "Permanent link")
+[ Wcowin / Mkdocs-Wcowin MKDocs 中文教程 66 6 MIT ](https://github.com/Wcowin/Mkdocs-Wcowin)
+## Mkdocs相关插件[¶](https://wcowin.work/develop/Mywork/#mkdocs "Permanent link")
+[ Wcowin / Mkdocs-AI-Summary-Plus MKdocs AI摘要 5 1 MIT ](https://github.com/Wcowin/Mkdocs-AI-Summary-Plus)
+还有其他一些瞎折腾的东西，可以查看[人脸识别系统](https://wcowin.work/develop/Mywork/face-recognition/)、[MkDocs文档日期插件](https://wcowin.work/blog/websitebeauty/mkdocs-document-dates/)、[Mkdocs 阅读时间插件](https://wcowin.work/blog/websitebeauty/reading_time/)、[MKdocs页面添加相关文章推荐](https://wcowin.work/blog/websitebeauty/recommend/)
+[我的作品](https://wcowin.work/tags/#tag:%E6%88%91%E7%9A%84%E4%BD%9C%E5%93%81) 此页面有帮助吗？ 
+谢谢你的反馈！ 
+感谢您的反馈！ 
+回到页面顶部  [ 上一页  OneClip 原生 PP-OCRv5 ONNX 方案解析  ](https://wcowin.work/develop/Mac-development/PP-OCRv5-Native-ONNX-Guide/) [ 下一页  OneClip  ](https://wcowin.work/develop/Mywork/OneClip/)
+Copyright © 2022~2026 Wcowin 
+Made with [ Zensical ](https://zensical.org/)
+本站访问量：165,815
+[ ](https://picx.zhimg.com/80/v2-ff732fe4d4b59cd111ca0e4a6eb5e1a9_1440w.webp "picx.zhimg.com") [ ](https://t.me/Wcowin "t.me") [ ](https://x.com/intent/follow?screen_name=Wcowin_ "Twitter") [ ](https://github.com/Wcowin "Github") [ ](https://space.bilibili.com/1407028951/lists/4566631?type=series "space.bilibili.com")

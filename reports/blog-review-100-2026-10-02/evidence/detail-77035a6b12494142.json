@@ -1,0 +1,135 @@
+{
+  "requested": "https://blog.kway.site/articles/58",
+  "source": "https://blog.kway.site/",
+  "label": "博客系统重写、迁移之路",
+  "success": true,
+  "status_code": 200,
+  "redirected_url": "https://blog.kway.site/articles/58",
+  "error_message": "",
+  "metadata": {
+    "title": "季木的长廊 - 博客系统重写、迁移之路",
+    "description": "前言我的博客小站从 2019 年建站，到现在已经三年了。之前博客一直都是使用 WordPress 搭建的，WordPress 开箱即用以及各种丰富的插件和扩展也给我带来了很多的便利。在三年之间虽然没有产出过多少文章，但是网站好歹是一直在维护着的。在这期间也有换博客的想法，有看过 php 实现的其他博客系统比如说 typecho，也有看过静态的博客系统比如说 hexo 等等。但是作为一个开发者，我还是感觉自己去实现一个博客系统来做自己的博客会更合适一些，我比较喜欢代码的逻辑都能够在心里掌握的这种感觉。毕竟自",
+    "keywords": "myecho",
+    "author": null,
+    "og:title": "博客系统重写、迁移之路",
+    "og:description": "前言我的博客小站从 2019 年建站，到现在已经三年了。之前博客一直都是使用 WordPress 搭建的，WordPress 开箱即用以及各种丰富的插件和扩展也给我带来了很多的便利。在三年之间虽然没有产出过多少文章，但是网站好歹是一直在维护着的。在这期间也有换博客的想法，有看过 php 实现的其他博客系统比如说 typecho，也有看过静态的博客系统比如说 hexo 等等。但是作为一个开发者，我还是感觉自己去实现一个博客系统来做自己的博客会更合适一些，我比较喜欢代码的逻辑都能够在心里掌握的这种感觉。毕竟自",
+    "og:type": "article",
+    "og:url": "https://blog.kway.site/articles/58"
+  },
+  "links": {
+    "internal": [
+      {
+        "href": "https://blog.kway.site/",
+        "text": "季木的长廊",
+        "title": "",
+        "base_domain": "kway.site",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.kway.site/article/categories",
+        "text": "分类",
+        "title": "",
+        "base_domain": "kway.site",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.kway.site/tags",
+        "text": "标签",
+        "title": "",
+        "base_domain": "kway.site",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.kway.site/archive",
+        "text": "归档",
+        "title": "",
+        "base_domain": "kway.site",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.kway.site/links",
+        "text": "友链",
+        "title": "",
+        "base_domain": "kway.site",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.kway.site/?category_uid=iwar77s5eb39fb9d067f",
+        "text": "博客系统",
+        "title": "",
+        "base_domain": "kway.site",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.kway.site/articles/56",
+        "text": "← 上一篇\n          phaser学习(3)-创建第一个游戏",
+        "title": "",
+        "base_domain": "kway.site",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.kway.site/articles/58",
+        "text": "前言",
+        "title": "",
+        "base_domain": "kway.site",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://www.techempower.com/benchmarks/",
+        "text": "https://www.techempower.com/benchmarks/#section=data-r21",
+        "title": "",
+        "base_domain": "techempower.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/detail-77035a6b12494142.md",
+  "markdownLength": 3992
+}

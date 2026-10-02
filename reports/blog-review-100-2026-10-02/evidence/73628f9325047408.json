@@ -1,0 +1,116 @@
+{
+  "requested": "https://blog.kway.site/links",
+  "success": true,
+  "url": "https://blog.kway.site/links",
+  "redirected_url": "https://blog.kway.site/links",
+  "redirected_status_code": 200,
+  "status_code": 200,
+  "error_message": "",
+  "metadata": {
+    "title": "季木的长廊 - Links",
+    "description": "友情链接",
+    "keywords": "myecho",
+    "author": null,
+    "og:title": "友链",
+    "og:description": "友情链接",
+    "og:type": "website",
+    "og:url": "https://blog.kway.site/links"
+  },
+  "canonicals": [
+    "https://blog.kway.site/links"
+  ],
+  "markdownLength": 511,
+  "contentHash": "94c0a7f9c5bb849b6f93503e9ce93767ba675de80ef76f884690cec2ce0bec9f",
+  "links": {
+    "internal": [
+      {
+        "href": "https://blog.kway.site/",
+        "text": "季木的长廊",
+        "title": "",
+        "base_domain": "kway.site",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.kway.site/article/categories",
+        "text": "分类",
+        "title": "",
+        "base_domain": "kway.site",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.kway.site/tags",
+        "text": "标签",
+        "title": "",
+        "base_domain": "kway.site",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.kway.site/archive",
+        "text": "归档",
+        "title": "",
+        "base_domain": "kway.site",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.kway.site/links",
+        "text": "友链",
+        "title": "",
+        "base_domain": "kway.site",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://www.vergessen.top/",
+        "text": "vergessen\n          java是世界上最好的语言",
+        "title": "",
+        "base_domain": "vergessen.top",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://xiaoyou66.com",
+        "text": "小游\n          二次元技术宅",
+        "title": "",
+        "base_domain": "xiaoyou66.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/73628f9325047408.md",
+  "seconds": 21.5
+}

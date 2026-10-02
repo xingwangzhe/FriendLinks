@@ -1,0 +1,142 @@
+{
+  "requested": "https://mocong.dev/posts/%E4%BB%8E%E7%BA%BF%E6%80%A7%E8%87%AA%E7%BC%96%E7%A0%81%E5%99%A8%E5%88%B0%E5%8E%BB%E5%99%AA%E8%87%AA%E7%BC%96%E7%A0%81%E5%99%A8/",
+  "source": "https://mocong.dev/",
+  "label": "从线性自编码器到去噪自编码器：发展脉络与公式推导",
+  "success": true,
+  "status_code": 200,
+  "redirected_url": "https://mocong.dev/posts/%E4%BB%8E%E7%BA%BF%E6%80%A7%E8%87%AA%E7%BC%96%E7%A0%81%E5%99%A8%E5%88%B0%E5%8E%BB%E5%99%AA%E8%87%AA%E7%BC%96%E7%A0%81%E5%99%A8/",
+  "error_message": "",
+  "metadata": {
+    "title": "从线性自编码器到去噪自编码器：发展脉络与公式推导 - 📝Mocong's Blogs",
+    "description": "自编码器家族的发展主线：从等价于 PCA 的线性自编码器，到非线性深度自编码器，再到引入稀疏约束与加噪重建的稀疏/去噪自编码器；含完整公式推导、动机分析与四者对比。",
+    "keywords": null,
+    "author": null
+  },
+  "links": {
+    "internal": [
+      {
+        "href": "https://mocong.dev/",
+        "text": "📝Mocong's Blogs",
+        "title": "",
+        "base_domain": "mocong.dev",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://mocong.dev/about/",
+        "text": "说明",
+        "title": "",
+        "base_domain": "mocong.dev",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://mocong.dev/posts/",
+        "text": "文章",
+        "title": "",
+        "base_domain": "mocong.dev",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://mocong.dev/tags/",
+        "text": "标签",
+        "title": "",
+        "base_domain": "mocong.dev",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://mocong.dev/categories/",
+        "text": "分类",
+        "title": "",
+        "base_domain": "mocong.dev",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://mocong.dev/tags/autoencoder/",
+        "text": "#Autoencoder",
+        "title": "",
+        "base_domain": "mocong.dev",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://mocong.dev/tags/pca/",
+        "text": "#PCA",
+        "title": "",
+        "base_domain": "mocong.dev",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://mocong.dev/tags/machine-learning/",
+        "text": "#Machine Learning",
+        "title": "",
+        "base_domain": "mocong.dev",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://mocong.dev/categories/notes/",
+        "text": "Notes",
+        "title": "",
+        "base_domain": "mocong.dev",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://mocong.dev/posts/%E5%8F%98%E5%88%86%E6%8E%A8%E6%96%AD_elbo_kl_jensen/",
+        "text": "上一篇\nJensen 不等式 → KL 散度 → 最大化对数似然下界（ELBO）",
+        "title": "",
+        "base_domain": "mocong.dev",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": []
+  },
+  "markdown": "evidence/detail-d8fa404496d7668a.md",
+  "markdownLength": 6204
+}

@@ -1,0 +1,83 @@
+{
+  "requested": "https://vueds.com/example/",
+  "source": "https://vueds.com",
+  "label": "View example documentation",
+  "success": true,
+  "status_code": 200,
+  "redirected_url": "https://vueds.com/example/",
+  "error_message": "",
+  "metadata": {
+    "title": "Vue Design System",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "links": {
+    "internal": [
+      {
+        "href": "https://vueds.com/example/",
+        "text": "Getting Started",
+        "title": "",
+        "base_domain": "vueds.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://vueds.com/",
+        "text": "Vue Design System’s",
+        "title": "",
+        "base_domain": "vueds.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://github.com/arielsalminen/vue-design-system/blob/master/docs/getting-started.md",
+        "text": "/docs/getting-started.md",
+        "title": "",
+        "base_domain": "github.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://github.com/arielsalminen/vue-design-system/blob/master/docs/components/status/Components.vue",
+        "text": "/docs/components/status/Components.vue",
+        "title": "",
+        "base_domain": "github.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://github.com/vue-styleguidist/vue-styleguidist/",
+        "text": "Vue Styleguidist",
+        "title": "",
+        "base_domain": "github.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/detail-fe2b5ab76edfacff.md",
+  "markdownLength": 3242
+}

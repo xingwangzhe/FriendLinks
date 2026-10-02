@@ -1,0 +1,37 @@
+{
+  "requested": "https://stust.org",
+  "success": true,
+  "url": "https://stust.org",
+  "redirected_url": "https://stust.org/",
+  "redirected_status_code": 502,
+  "status_code": 502,
+  "error_message": "",
+  "metadata": {
+    "title": "stust.org | 502: Bad gateway",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 810,
+  "contentHash": "5e09d62a42bb0d5f843375a397bb2935cf7da23e89c104c23f58667fe3cee6d3",
+  "links": {
+    "internal": [],
+    "external": [
+      {
+        "href": "https://www.cloudflare.com/5xx-error-landing",
+        "text": "cloudflare.com",
+        "title": "",
+        "base_domain": "cloudflare.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/6a2dad523f97070a.md",
+  "seconds": 15.82
+}

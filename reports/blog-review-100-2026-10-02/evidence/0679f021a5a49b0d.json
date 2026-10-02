@@ -1,0 +1,49 @@
+{
+  "requested": "https://firework.acuherb.xyz/",
+  "success": true,
+  "url": "https://firework.acuherb.xyz/",
+  "redirected_url": "https://firework.acuherb.xyz/",
+  "redirected_status_code": 200,
+  "status_code": 200,
+  "error_message": "",
+  "metadata": {
+    "title": "观颐斋 · 烟花",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 205,
+  "contentHash": "1140b0baa2895815b98479736f58ba1739cde995f1e4ae09592cf2b9b83f0dbd",
+  "links": {
+    "internal": [
+      {
+        "href": "https://acuherb.xyz/",
+        "text": "观颐斋",
+        "title": "",
+        "base_domain": "acuherb.xyz",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://acuherb.xyz",
+        "text": "🏠",
+        "title": "",
+        "base_domain": "acuherb.xyz",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": []
+  },
+  "markdown": "evidence/0679f021a5a49b0d.md",
+  "seconds": 10.84
+}

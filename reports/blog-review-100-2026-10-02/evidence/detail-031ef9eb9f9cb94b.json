@@ -1,0 +1,82 @@
+{
+  "requested": "https://www.imcxx.com/post/45",
+  "source": "https://www.imcxx.com/",
+  "label": "Rclone+Nginx配置WebDav",
+  "success": true,
+  "status_code": 200,
+  "redirected_url": "https://www.imcxx.com/post/45",
+  "error_message": "",
+  "metadata": {
+    "title": "Rclone+Nginx配置WebDav · 轻风伴梦",
+    "description": "轻量化配置WebDav\n\n<!--more-->\n\n##rclone配置\n安装rclone：\n\n    apt install rclong -y\n\n配置守护程序：\n`nana /etc/systemd/system/rclone-dav.service`\n\n    [Unit]\n    Descr",
+    "keywords": null,
+    "author": null
+  },
+  "links": {
+    "internal": [
+      {
+        "href": "https://www.imcxx.com/post/45",
+        "text": "跳到正文",
+        "title": "",
+        "base_domain": "imcxx.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.imcxx.com/",
+        "text": "轻风伴梦",
+        "title": "",
+        "base_domain": "imcxx.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://one.imcxx.com",
+        "text": "网盘",
+        "title": "",
+        "base_domain": "imcxx.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.imcxx.com/admin",
+        "text": "管理",
+        "title": "",
+        "base_domain": "imcxx.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.imcxx.com/post/44",
+        "text": "HAProxy配置记录",
+        "title": "",
+        "base_domain": "imcxx.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": []
+  },
+  "markdown": "evidence/detail-031ef9eb9f9cb94b.md",
+  "markdownLength": 2005
+}

@@ -1,0 +1,58 @@
+{
+  "requested": "https://fediring.net/random",
+  "source": "https://fediring.net/",
+  "label": "fediring.net/random",
+  "success": true,
+  "status_code": 302,
+  "redirected_url": "https://www.luvan.org/betenoire",
+  "error_message": "",
+  "metadata": {
+    "title": "Making sure you're not a bot!",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "links": {
+    "internal": [],
+    "external": [
+      {
+        "href": "https://github.com/TecharoHQ/anubis",
+        "text": "Anubis",
+        "title": "",
+        "base_domain": "github.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://techaro.lol",
+        "text": "Techaro",
+        "title": "",
+        "base_domain": "techaro.lol",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://bsky.app/profile/celphase.bsky.social",
+        "text": "CELPHASE",
+        "title": "",
+        "base_domain": "bsky.app",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/detail-2d5100f37291668a.md",
+  "markdownLength": 1071
+}

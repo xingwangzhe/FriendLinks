@@ -1,0 +1,62 @@
+{
+  "requested": "https://www.imydl.com/",
+  "success": true,
+  "error": "timeout or empty result",
+  "url": "https://www.imydl.com/",
+  "redirected_url": "https://www.imydl.com/",
+  "redirected_status_code": 526,
+  "status_code": 526,
+  "error_message": "",
+  "metadata": {
+    "title": "imydl.com | 526: Invalid SSL certificate",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 1713,
+  "contentHash": "147b741513b0bb010c60ccfad1a9707c0dc2588e0abd5cf867a2b6b2a2e72a75",
+  "links": {
+    "internal": [],
+    "external": [
+      {
+        "href": "https://www.cloudflare.com/5xx-error-landing",
+        "text": "cloudflare.com",
+        "title": "",
+        "base_domain": "cloudflare.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-526/",
+        "text": "Error 526",
+        "title": "",
+        "base_domain": "cloudflare.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://developers.cloudflare.com/ssl/origin-configuration/origin-ca/",
+        "text": "Cloudflare Origin CA certificate",
+        "title": "",
+        "base_domain": "cloudflare.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/fddf47171eb81de3.md",
+  "seconds": 21.58
+}

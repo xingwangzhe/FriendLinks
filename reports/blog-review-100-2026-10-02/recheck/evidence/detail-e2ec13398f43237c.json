@@ -1,0 +1,83 @@
+{
+  "requested": "https://travel.moe/go.html",
+  "source": "https://travel.moe/",
+  "label": "",
+  "success": true,
+  "status_code": 308,
+  "redirected_url": "https://travel.moe/go",
+  "error_message": "",
+  "metadata": {
+    "title": null,
+    "description": "我们一起去萌站成员de星球旅行吧 ！-萌ICP备-异次元之旅",
+    "keywords": "异次元之旅,异次元旅行,跃迁,异次元宇宙,萌ICP备",
+    "author": null
+  },
+  "links": {
+    "internal": [
+      {
+        "href": "https://travel.moe",
+        "text": "主页",
+        "title": "",
+        "base_domain": "travel.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://travel.moe/moe-icon.zip",
+        "text": "",
+        "title": "",
+        "base_domain": "travel.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://analytic.travel.moe/share/JEJDazXxdqwyOx6Z/ecyTravel",
+        "text": "统计",
+        "title": "",
+        "base_domain": "travel.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://icp.gov.moe/join.php",
+        "text": "加入",
+        "title": "",
+        "base_domain": "icp.gov.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://icp.gov.moe/AboutMoeICP.html",
+        "text": "关于",
+        "title": "",
+        "base_domain": "icp.gov.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/detail-e2ec13398f43237c.md",
+  "markdownLength": 297
+}

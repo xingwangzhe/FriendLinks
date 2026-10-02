@@ -1,0 +1,76 @@
+{
+  "requested": "https://spal.club/",
+  "success": true,
+  "url": "https://spal.club/",
+  "redirected_url": "https://spal.club/",
+  "redirected_status_code": 200,
+  "status_code": 200,
+  "error_message": "",
+  "metadata": {
+    "title": "Home - Seattle Performing Arts Lovers",
+    "description": "A community of Seattleites who love live performance in all its forms.",
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [
+    "https://spal.club/"
+  ],
+  "markdownLength": 2271,
+  "contentHash": "6ef6fcf9051b537bc2a42c1d2d76d11080a91e06af48c07bb8eb58dca0bf7338",
+  "links": {
+    "internal": [
+      {
+        "href": "https://spal.club/",
+        "text": "Home",
+        "title": "",
+        "base_domain": "spal.club",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://spal.club/faq.html",
+        "text": "FAQ",
+        "title": "",
+        "base_domain": "spal.club",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://airtable.com/appC8JnbpRFWTOMs0/shrTKwvEAxo5f1BEP",
+        "text": "Join",
+        "title": "",
+        "base_domain": "airtable.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://airtable.com/appC8JnbpRFWTOMs0/shrys9o6TSJqBaR7F",
+        "text": "Invite",
+        "title": "",
+        "base_domain": "airtable.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/d305d013806a8313.md",
+  "seconds": 19.12
+}

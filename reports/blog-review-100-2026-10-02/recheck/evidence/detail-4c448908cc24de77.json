@@ -1,0 +1,21 @@
+{
+  "requested": "https://player.imysen.com",
+  "source": "https://blog.imysen.com/",
+  "label": "SPlayer音乐",
+  "success": false,
+  "status_code": 200,
+  "redirected_url": "https://player.imysen.com/#/",
+  "error_message": "Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (16007 bytes, 0 chars visible)",
+  "metadata": {
+    "title": "SPlayer",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "links": {
+    "internal": [],
+    "external": []
+  },
+  "markdown": "evidence/detail-4c448908cc24de77.md",
+  "markdownLength": 1
+}

@@ -1,0 +1,34 @@
+{
+  "requested": "https://forkinganddividing.com/references",
+  "source": "https://forkinganddividing.com",
+  "label": "References",
+  "success": true,
+  "status_code": 301,
+  "redirected_url": "https://forkinganddividing.com/references/",
+  "error_message": "",
+  "metadata": {
+    "title": "MotU - References",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "links": {
+    "internal": [
+      {
+        "href": "https://forkinganddividing.com/",
+        "text": "forking\n\t\t\tand\n\t\t\tdividing",
+        "title": "",
+        "base_domain": "forkinganddividing.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": []
+  },
+  "markdown": "evidence/detail-fa8e0de8f20a3e1d.md",
+  "markdownLength": 14402
+}

@@ -1,0 +1,209 @@
+{
+  "requested": "https://blog.fifcom.cn/posts/flume-common-source/",
+  "success": true,
+  "url": "https://blog.fifcom.cn/posts/flume-common-source/",
+  "redirected_url": "https://blog.fifcom.cn/posts/flume-common-source/",
+  "redirected_status_code": 200,
+  "status_code": 200,
+  "error_message": "",
+  "metadata": {
+    "title": "Flume 常用Source | FIFCOM实验室",
+    "description": "首先应确定master和slave上都安装了Flume，如果slave上没有，可以将master上的传过去\nscp -r /opt/flume/ root@slave1:/opt/ 配置一级Flume 在master上创建netcat-avro.conf，意思是一级flume从444端口收集信息，再从555端口以avro格式发到二级flume\ncd /opt/flume/conf vi netcat-avro.conf => a1.sources = r1 a1.channels = c1 a1.sinks = k1  a1.sources.r1.type = netcat a1.sources.r1.bind = master a1.sources.r1.port = 444  a1.sinks.k1.type = avro a1.sinks.k1.channel = c1 a1.sinks.k1.hostname=slave1 a1.sinks.k1.port = 555  a1.channels.c1.type = memory a1.channels.c1.capacity = 100 a1.channels.c1.transactionCapacity = 100  a1.sources.r1.channels = c1 a1.sinks.k1.channel = c1 <= 配置二级Flume 在slave上创建avro-logger.conf，意思是二级flume从555端口收集信息\ncd /opt/flume/conf vi avro-logger.conf => a1.sources = r1 a1.",
+    "keywords": "hadoop,flume",
+    "author": "FIFCOM",
+    "og:title": "Flume 常用Source",
+    "og:description": "首先应确定master和slave上都安装了Flume，如果slave上没有，可以将master上的传过去\nscp -r /opt/flume/ root@slave1:/opt/ 配置一级Flume 在master上创建netcat-avro.conf，意思是一级flume从444端口收集信息，再从555端口以avro格式发到二级flume\ncd /opt/flume/conf vi netcat-avro.conf => a1.sources = r1 a1.channels = c1 a1.sinks = k1  a1.sources.r1.type = netcat a1.sources.r1.bind = master a1.sources.r1.port = 444  a1.sinks.k1.type = avro a1.sinks.k1.channel = c1 a1.sinks.k1.hostname=slave1 a1.sinks.k1.port = 555  a1.channels.c1.type = memory a1.channels.c1.capacity = 100 a1.channels.c1.transactionCapacity = 100  a1.sources.r1.channels = c1 a1.sinks.k1.channel = c1 <= 配置二级Flume 在slave上创建avro-logger.conf，意思是二级flume从555端口收集信息\ncd /opt/flume/conf vi avro-logger.conf => a1.sources = r1 a1.",
+    "og:type": "article",
+    "og:url": "https://blog.fifcom.cn/posts/flume-common-source/",
+    "og:image": "https://fifcom.cn/avatar/?transparent=1",
+    "og:site_name": "FIFCOM实验室",
+    "twitter:card": "summary_large_image",
+    "twitter:image": "https://fifcom.cn/avatar/?transparent=1",
+    "twitter:title": "Flume 常用Source",
+    "twitter:description": "首先应确定master和slave上都安装了Flume，如果slave上没有，可以将master上的传过去\nscp -r /opt/flume/ root@slave1:/opt/ 配置一级Flume 在master上创建netcat-avro.conf，意思是一级flume从444端口收集信息，再从555端口以avro格式发到二级flume\ncd /opt/flume/conf vi netcat-avro.conf => a1.sources = r1 a1.channels = c1 a1.sinks = k1  a1.sources.r1.type = netcat a1.sources.r1.bind = master a1.sources.r1.port = 444  a1.sinks.k1.type = avro a1.sinks.k1.channel = c1 a1.sinks.k1.hostname=slave1 a1.sinks.k1.port = 555  a1.channels.c1.type = memory a1.channels.c1.capacity = 100 a1.channels.c1.transactionCapacity = 100  a1.sources.r1.channels = c1 a1.sinks.k1.channel = c1 <= 配置二级Flume 在slave上创建avro-logger.conf，意思是二级flume从555端口收集信息\ncd /opt/flume/conf vi avro-logger.conf => a1.sources = r1 a1.",
+    "article:section": "posts",
+    "article:published_time": "2022-05-11T00:00:00+08:00",
+    "article:modified_time": "2022-05-11T00:00:00+08:00"
+  },
+  "canonicals": [
+    "https://blog.fifcom.cn/posts/flume-common-source/"
+  ],
+  "markdownLength": 3247,
+  "contentHash": "084f1f8114724780c29716582b74ae02abe87bcdcaec313ee09a8ac283652b2f",
+  "links": {
+    "internal": [
+      {
+        "href": "https://blog.fifcom.cn/",
+        "text": "FIFCOM实验室",
+        "title": "FIFCOM实验室 (Alt + H)",
+        "base_domain": "fifcom.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.fifcom.cn/tags/",
+        "text": "标签",
+        "title": "标签",
+        "base_domain": "fifcom.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://fifcom.cn/",
+        "text": "主页",
+        "title": "主页",
+        "base_domain": "fifcom.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.fifcom.cn/tags/friends/",
+        "text": "朋友们",
+        "title": "朋友们",
+        "base_domain": "fifcom.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.fifcom.cn/posts/",
+        "text": "Posts",
+        "title": "",
+        "base_domain": "fifcom.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://fifcom.cn/aff/?from=61c389caa31f73f1601ace6ee9ebe3ed",
+        "text": "支持我",
+        "title": "",
+        "base_domain": "fifcom.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.fifcom.cn/posts/flume-common-source/",
+        "text": "#",
+        "title": "",
+        "base_domain": "fifcom.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.fifcom.cn/tags/hadoop/",
+        "text": "hadoop",
+        "title": "",
+        "base_domain": "fifcom.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.fifcom.cn/tags/flume/",
+        "text": "flume",
+        "title": "",
+        "base_domain": "fifcom.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.fifcom.cn/posts/flume-install/",
+        "text": "Next Page »\n\n安装Flume",
+        "title": "",
+        "base_domain": "fifcom.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://twitter.com/intent/tweet/?hashtags=hadoop%2Cflume&text=Flume+%E5%B8%B8%E7%94%A8Source&url=https%3A%2F%2Fblog.fifcom.cn%2Fposts%2Fflume-common-source%2F",
+        "text": "",
+        "title": "",
+        "base_domain": "twitter.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://telegram.me/share/url?text=Flume+%E5%B8%B8%E7%94%A8Source&url=https%3A%2F%2Fblog.fifcom.cn%2Fposts%2Fflume-common-source%2F",
+        "text": "",
+        "title": "",
+        "base_domain": "telegram.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://gohugo.io/",
+        "text": "Hugo",
+        "title": "",
+        "base_domain": "gohugo.io",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://git.io/hugopapermod",
+        "text": "PaperMod",
+        "title": "",
+        "base_domain": "git.io",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/supplement-fc61c4c3a2f3aee6.md",
+  "seconds": 25.69
+}

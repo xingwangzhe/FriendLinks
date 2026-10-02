@@ -1,0 +1,13 @@
+{
+  "requested": "https://xn--yets96g.tw/wp-content/uploads/2025/11/iPAS-資訊安全中級-scaled.jpeg",
+  "source": "https://小蔡.tw/",
+  "label": "iPAS 資訊安全中級",
+  "success": false,
+  "status_code": null,
+  "redirected_url": null,
+  "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: net::ERR_FAILED at https://xn--yets96g.tw/wp-content/uploads/2025/11/iPAS-%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E4%B8%AD%E7%B4%9A-scaled.jpeg\nCall log:\n  - navigating to \"https://xn--yets96g.tw/wp-content/uploads/2025/11/iPAS-%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E4%B8%AD%E7%B4%9A-scaled.jpeg\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+  "metadata": null,
+  "links": {},
+  "markdown": "evidence/detail-a7f2ed8623eadb1d.md",
+  "markdownLength": 0
+}

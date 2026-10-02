@@ -1,0 +1,61 @@
+{
+  "requested": "https://yuan1182.org/",
+  "success": true,
+  "url": "https://yuan1182.org/",
+  "redirected_url": "https://yuan1182.org/",
+  "redirected_status_code": 530,
+  "status_code": 530,
+  "error_message": "",
+  "metadata": {
+    "title": "Cloudflare Tunnel error | yuan1182.org | Cloudflare",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 982,
+  "contentHash": "664f5637c3d950f18e563bbcc0d74b166d15df1c0da2ea51c5037f27e9a668f8",
+  "links": {
+    "internal": [],
+    "external": [
+      {
+        "href": "https://www.cloudflare.com/5xx-error-landing/",
+        "text": "Cloudflare",
+        "title": "",
+        "base_domain": "cloudflare.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/routing-to-tunnel/lb/",
+        "text": "load balancing",
+        "title": "",
+        "base_domain": "cloudflare.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.cloudflare.com/5xx-error-landing",
+        "text": "Cloudflare",
+        "title": "",
+        "base_domain": "cloudflare.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/face8b24746a0b2b.md",
+  "seconds": 17.27
+}

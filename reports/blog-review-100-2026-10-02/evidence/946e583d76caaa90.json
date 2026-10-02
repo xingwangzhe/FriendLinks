@@ -1,0 +1,131 @@
+{
+  "requested": "https://www.louiezong.com/about",
+  "success": true,
+  "url": "https://www.louiezong.com/about",
+  "redirected_url": "https://www.louiezong.com/about",
+  "redirected_status_code": 200,
+  "status_code": 200,
+  "error_message": "",
+  "metadata": {
+    "title": "About — Louie Zong",
+    "description": "",
+    "keywords": null,
+    "author": null,
+    "og:site_name": "Louie Zong",
+    "og:title": "About — Louie Zong",
+    "og:url": "https://www.louiezong.com/about",
+    "og:type": "website",
+    "twitter:title": "About — Louie Zong",
+    "twitter:url": "https://www.louiezong.com/about",
+    "twitter:card": "summary"
+  },
+  "canonicals": [
+    "https://www.louiezong.com/about"
+  ],
+  "markdownLength": 1655,
+  "contentHash": "fa628391520276d66494090267f5bc0860a43325c3a1338afff04268df19e7c8",
+  "links": {
+    "internal": [
+      {
+        "href": "https://www.louiezong.com/",
+        "text": "Art",
+        "title": "",
+        "base_domain": "louiezong.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.louiezong.com/music",
+        "text": "Music",
+        "title": "",
+        "base_domain": "louiezong.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.louiezong.com/about",
+        "text": "About",
+        "title": "",
+        "base_domain": "louiezong.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.louiezong.com/page",
+        "text": "?",
+        "title": "",
+        "base_domain": "louiezong.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://everydaylouie.itch.io",
+        "text": "Games",
+        "title": "",
+        "base_domain": "itch.io",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://louiezong.bandcamp.com/",
+        "text": "Bandcamp",
+        "title": "",
+        "base_domain": "bandcamp.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://open.spotify.com/artist/7jOY91ZU7kn86slH3fBbaD",
+        "text": "Spotify",
+        "title": "",
+        "base_domain": "spotify.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCdkkQvJoB0kGgYHCYwSkdww",
+        "text": "Youtube.",
+        "title": "",
+        "base_domain": "youtube.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/946e583d76caaa90.md",
+  "seconds": 17.49
+}

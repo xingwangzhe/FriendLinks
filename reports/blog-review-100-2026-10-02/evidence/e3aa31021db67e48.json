@@ -1,0 +1,37 @@
+{
+  "requested": "https://jurassicsystems.com/",
+  "success": true,
+  "url": "https://jurassicsystems.com/",
+  "redirected_url": "https://jurassicsystems.com/",
+  "redirected_status_code": 200,
+  "status_code": 200,
+  "error_message": "",
+  "metadata": {
+    "title": "Jurassic Systems",
+    "description": "",
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 1080,
+  "contentHash": "6fc55c7f5aa1435a3f29fc2dcc0d1065bf95ff720753c1716e35728aeed2b00e",
+  "links": {
+    "internal": [
+      {
+        "href": "https://jurassicsystems.com/about",
+        "text": "",
+        "title": "",
+        "base_domain": "jurassicsystems.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": []
+  },
+  "markdown": "evidence/e3aa31021db67e48.md",
+  "seconds": 16.36
+}

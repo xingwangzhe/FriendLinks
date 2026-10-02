@@ -1,0 +1,243 @@
+{
+  "requested": "https://dyedd.cn/posts/taot-moe-speedup",
+  "success": true,
+  "error": "timeout or empty result",
+  "url": "https://dyedd.cn/posts/taot-moe-speedup",
+  "redirected_url": "https://dyedd.cn/posts/taot-moe-speedup",
+  "redirected_status_code": 200,
+  "status_code": 200,
+  "error_message": "",
+  "metadata": {
+    "title": "解读 TAOT：MoE 动态副本调度优化 EP 负载的新思路 - 染念的笔记",
+    "description": "解读 TAOT：MoE 动态副本调度优化 EP 负载的新思路",
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 7132,
+  "contentHash": "9bc4ea7d631822b80ba443f0e02dbc1d67855ffdd53b7b9e6d893d52fee094b7",
+  "links": {
+    "internal": [
+      {
+        "href": "https://dyedd.cn/",
+        "text": "🏠 首页",
+        "title": "",
+        "base_domain": "dyedd.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://dyedd.cn/posts",
+        "text": "📂 文章",
+        "title": "",
+        "base_domain": "dyedd.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://dyedd.cn/columns",
+        "text": "🧠 专栏",
+        "title": "",
+        "base_domain": "dyedd.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://dyedd.cn/projects",
+        "text": "🚀 项目",
+        "title": "",
+        "base_domain": "dyedd.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://dyedd.cn/friends",
+        "text": "👥 友链",
+        "title": "",
+        "base_domain": "dyedd.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://dyedd.cn/moments",
+        "text": "🎉 朋友圈",
+        "title": "",
+        "base_domain": "dyedd.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://dyedd.cn/tags/ai infra",
+        "text": "ai infra",
+        "title": "",
+        "base_domain": "dyedd.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://dyedd.cn/tags/moe",
+        "text": "moe",
+        "title": "",
+        "base_domain": "dyedd.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://dyedd.cn/tags/并行训练",
+        "text": "并行训练",
+        "title": "",
+        "base_domain": "dyedd.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://dyedd.cn/posts/taot-moe-speedup",
+        "text": "背景",
+        "title": "",
+        "base_domain": "dyedd.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://dyedd.cn/posts/lens_api",
+        "text": "lens|打造最强的个人LLM聚合网关系统",
+        "title": "",
+        "base_domain": "dyedd.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://arxiv.org/pdf/2608.03676",
+        "text": "https://arxiv.org/pdf/2608.03676",
+        "title": "",
+        "base_domain": "arxiv.org",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://github.com/baidu-baige/LoongForge",
+        "text": "https://github.com/baidu-baige/LoongForge",
+        "title": "",
+        "base_domain": "github.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://github.com/dyedd/serenade",
+        "text": "Powered by serenade",
+        "title": "",
+        "base_domain": "github.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://beian.miit.gov.cn/",
+        "text": "备案号:浙ICP备19020194号-1",
+        "title": "",
+        "base_domain": "miit.gov.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://github.com/dyedd",
+        "text": "",
+        "title": "",
+        "base_domain": "github.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "mailto:1176996982@qq.com",
+        "text": "",
+        "title": "",
+        "base_domain": "",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://qm.qq.com/cgi-bin/qm/qr?authKey=mq2RvfcTQxEgImX+XZv0tBeobeHX+wTaAxOXq7pEKdsUD+a2Hi7mIOBGEj2ZtSDJ&jump_from=webapi&k=nLIdzy8UC9VkZ0g2EwnoN1rwnxaYvFx0",
+        "text": "",
+        "title": "QQ",
+        "base_domain": "qq.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/supplement-f44f1eeceb08debd.md",
+  "seconds": 8.24
+}

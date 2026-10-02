@@ -7,7 +7,6 @@
 # 抓取时间: 2026-08-18 | 条目: 694
 # ─────────────────────────────────────────
 
-
 # 2026-10-02: 与 www.blogsclub.org.yml 重复记录合并，友链取并集去重。
 # 另一份记录的来源说明:
 
@@ -281,8 +280,6 @@ site:
       url: https://blog.418121.xyz/
     - name: 礼印外盒
       url: https://liyinwaihe.com/
-    - name: 阿锋的小宇宙
-      url: https://feng.pub/
     - name: 云边日落
       url: https://qinzhi.xyz/
     - name: 云志博客

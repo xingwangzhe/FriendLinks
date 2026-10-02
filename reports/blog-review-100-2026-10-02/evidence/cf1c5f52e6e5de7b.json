@@ -1,0 +1,74 @@
+{
+  "requested": "https://032.im/links",
+  "success": true,
+  "url": "https://032.im/links",
+  "redirected_url": "https://032.im/links",
+  "redirected_status_code": 404,
+  "status_code": 404,
+  "error_message": "",
+  "metadata": {
+    "title": "Page not found · GitHub Pages",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 590,
+  "contentHash": "98bdfb0a0fb56275363b5067415826a6d7bc03f2b1cc81f0781d4ea57712321f",
+  "links": {
+    "internal": [
+      {
+        "href": "https://032.im/",
+        "text": "",
+        "title": "",
+        "base_domain": "032.im",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://help.github.com/pages/",
+        "text": "Read the full documentation",
+        "title": "",
+        "base_domain": "github.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://githubstatus.com",
+        "text": "GitHub Status",
+        "title": "",
+        "base_domain": "githubstatus.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://twitter.com/githubstatus",
+        "text": "@githubstatus",
+        "title": "",
+        "base_domain": "twitter.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/cf1c5f52e6e5de7b.md",
+  "seconds": 12.27
+}

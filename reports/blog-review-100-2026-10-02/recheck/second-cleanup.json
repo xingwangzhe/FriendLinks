@@ -1,0 +1,831 @@
+{
+  "excludedUrls": [
+    "https://firework.acuherb.xyz/",
+    "https://www.nekro.top/",
+    "https://zh-v2.d2l.ai/",
+    "https://pljzy.top/",
+    "https://hugoblox.com/",
+    "https://kaic.hidns.co/",
+    "https://www.louiezong.com/",
+    "https://nuel.pw/",
+    "https://caramiki.com/",
+    "https://ikk.me/",
+    "https://www.52share.online/",
+    "https://techaro.lol/",
+    "https://matrix.to/#/@prince213:matrix.org",
+    "http://dokan-dev.github.io/",
+    "https://forkinganddividing.com/",
+    "https://vueds.com/",
+    "https://www.igt.com/",
+    "https://ownable.dev/",
+    "https://theme-next.org/",
+    "https://www.theme-next.org/",
+    "https://shinnku.com/",
+    "https://www.shinnku.com/",
+    "http://louishan.com/",
+    "https://sivers.com/",
+    "https://musicthoughts.com/",
+    "https://coseroom.com/",
+    "https://wenpai.org/",
+    "https://sndtst.com/",
+    "https://jurassicsystems.com/",
+    "https://furdevs.cn/",
+    "https://furcw.net/",
+    "https://ys.mihoyo.com/",
+    "https://everydaylouie.itch.io/",
+    "https://louiezong.bandcamp.com/",
+    "https://h4ck.org.cn/",
+    "https://www.unabridgedsoftware.com/",
+    "https://waterbeargames.com/",
+    "https://figureitout.group/",
+    "https://spal.club/",
+    "https://fediring.net/",
+    "https://faircamp.webr.ing/",
+    "https://heike.github.io/",
+    "https://pettw.online/",
+    "https://maao.cc/",
+    "https://dropwww.com/",
+    "https://www.natfrp.com/",
+    "https://www.zerodream.net/",
+    "https://www.zerodream.net/home",
+    "https://feng.pub/",
+    "https://furryfandomclub.cn/",
+    "https://not-hentai.com/",
+    "https://www.hnpvo.com/",
+    "https://sgfox.cc/",
+    "https://blog.lin-fun.com/",
+    "https://mcenahle.cn/",
+    "https://asain.icu",
+    "https://5744422763.channelpl.com/?d=asain.icu",
+    "https://foundaiextension.com/?tspid=i7vm7&clid=c*Q*INE0HUM",
+    "http://0375.me/",
+    "http://www.0375.me/",
+    "http://pettw.lionfree.net/",
+    "https://travel.moe/",
+    "https://www.mcenahle.cn",
+    "http://www.h4ck.org.cn/",
+    "https://www.pljzy.top/",
+    "https://www.ikk.me/"
+  ],
+  "deleted": [
+    {
+      "file": "links/blog.lin-fun.com.yml",
+      "url": "https://blog.lin-fun.com/",
+      "aliases": [],
+      "matched": "declared-identity",
+      "friends": 0
+    },
+    {
+      "file": "links/hnpvo.com.yml",
+      "url": "https://www.hnpvo.com/",
+      "aliases": [],
+      "matched": "declared-identity",
+      "friends": 0
+    },
+    {
+      "file": "links/mcenahle.cn.yml",
+      "url": "https://mcenahle.cn/",
+      "aliases": [],
+      "matched": "declared-identity",
+      "friends": 2
+    },
+    {
+      "file": "links/sgfox.cc.yml",
+      "url": "https://sgfox.cc/",
+      "aliases": [],
+      "matched": "declared-identity",
+      "friends": 0
+    },
+    {
+      "file": "links/www.pljzy.top.yml",
+      "url": "https://www.pljzy.top/",
+      "aliases": [],
+      "matched": "declared-identity",
+      "friends": 1
+    }
+  ],
+  "updated": [
+    {
+      "file": "links/66619.eu.org.yml",
+      "url": "https://66619.eu.org/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/alzt02.github.io.yml",
+      "url": "https://alzt02.github.io/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/asteri5m.icu.yml",
+      "url": "https://asteri5m.icu/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/auiou.com.yml",
+      "url": "http://www.auiou.com/",
+      "removed": [
+        {
+          "name": "平顶山",
+          "url": "http://0375.me",
+          "index": 1,
+          "matched": "http://0375.me/"
+        }
+      ]
+    },
+    {
+      "file": "links/bcmonomial.xyz.yml",
+      "url": "https://bcmonomial.xyz/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 15,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/blog.752132.xyz.yml",
+      "url": "https://blog.752132.xyz/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/blog.chiyo.uk.yml",
+      "url": "https://blog.chiyo.uk/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 1,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/blog.deepchirp.com.yml",
+      "url": "https://blog.deepchirp.com/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/blog.goodboyboy.top.yml",
+      "url": "https://blog.goodboyboy.top/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 16,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/blog.hzchu.top.yml",
+      "url": "https://blog.hzchu.top/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 17,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/blog.ichenfu.cn.yml",
+      "url": "https://blog.ichenfu.cn/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 11,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/blog.mcenahle.org.cn.yml",
+      "url": "https://blog.mcenahle.org.cn/",
+      "removed": [
+        {
+          "name": "🏡个人主页网站",
+          "url": "https://www.mcenahle.cn",
+          "index": 0,
+          "matched": "https://www.mcenahle.cn"
+        }
+      ]
+    },
+    {
+      "file": "links/blog.musnow.top.yml",
+      "url": "https://blog.musnow.top/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/blog.sayhi.moe.yml",
+      "url": "https://blog.sayhi.moe/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 1,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/blog.weichky.com.yml",
+      "url": "https://blog.weichky.com/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 11,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/blog.xyx404.dedyn.io.yml",
+      "url": "https://blog.xyx404.dedyn.io/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/blog.xzadudu179.top.yml",
+      "url": "https://blog.xzadudu179.top/",
+      "removed": [
+        {
+          "name": "LinFun_ 遇见更好的Fun",
+          "url": "https://blog.lin-fun.com",
+          "index": 13,
+          "matched": "declared-identity"
+        }
+      ]
+    },
+    {
+      "file": "links/blog.yuse.cc.yml",
+      "url": "https://blog.yuse.cc/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/blog.yvyang.top.yml",
+      "url": "https://blog.yvyang.top/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/blog.zhecydn.asia.yml",
+      "url": "https://blog.zhecydn.asia/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/blog.zhheo.com.yml",
+      "url": "https://blog.zhheo.com/",
+      "removed": [
+        {
+          "name": "千江月",
+          "url": "https://asain.icu/",
+          "index": 65,
+          "matched": "https://asain.icu"
+        }
+      ]
+    },
+    {
+      "file": "links/blog.ziyege.com.yml",
+      "url": "https://blog.ziyege.com/",
+      "removed": [
+        {
+          "name": "千江月 传承中医文化 分享中医古籍",
+          "url": "https://asain.icu/",
+          "index": 13,
+          "matched": "https://asain.icu"
+        }
+      ]
+    },
+    {
+      "file": "links/blog1.musnow.top.yml",
+      "url": "https://blog1.musnow.top/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/blog2.musnow.top.yml",
+      "url": "https://blog2.musnow.top/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/blog3.musnow.top.yml",
+      "url": "https://blog3.musnow.top/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/boiltask.com.yml",
+      "url": "https://boiltask.com/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/eqblog.com.yml",
+      "url": "https://eqblog.com/",
+      "removed": [
+        {
+          "name": "三更06",
+          "url": "http://sgfox.cc/",
+          "index": 9,
+          "matched": "declared-identity"
+        }
+      ]
+    },
+    {
+      "file": "links/ghyuav.netlify.app.yml",
+      "url": "https://ghyuav.netlify.app/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/greendolphindance.com.yml",
+      "url": "https://greendolphindance.com/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 4,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/imjipa.top.yml",
+      "url": "https://imjipa.top/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 1,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/iquegui.com.yml",
+      "url": "https://www.iquegui.com/",
+      "removed": [
+        {
+          "name": "千江月",
+          "url": "https://asain.icu",
+          "index": 0,
+          "matched": "https://asain.icu"
+        }
+      ]
+    },
+    {
+      "file": "links/kmar.top.yml",
+      "url": "https://kmar.top/",
+      "removed": [
+        {
+          "name": "千江月",
+          "url": "https://asain.icu/",
+          "index": 55,
+          "matched": "https://asain.icu"
+        }
+      ]
+    },
+    {
+      "file": "links/mcenahle.com.yml",
+      "url": "https://mcenahle.com/",
+      "removed": [
+        {
+          "name": "个人成长记录",
+          "url": "https://mcenahle.cn/",
+          "index": 0,
+          "matched": "declared-identity"
+        }
+      ]
+    },
+    {
+      "file": "links/mgrowup.com.yml",
+      "url": "https://mgrowup.com/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 14,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/mingcy.cn.yml",
+      "url": "https://mingcy.cn/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 26,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/note.glassfoxowo.com.yml",
+      "url": "https://note.glassfoxowo.com/",
+      "removed": [
+        {
+          "name": "L LinFun_ 遇见更好的Fun",
+          "url": "https://blog.lin-fun.com",
+          "index": 7,
+          "matched": "declared-identity"
+        }
+      ]
+    },
+    {
+      "file": "links/oyohyee.com.yml",
+      "url": "https://www.oyohyee.com/",
+      "removed": [
+        {
+          "name": "obaby@mars ⭐",
+          "url": "http://www.h4ck.org.cn",
+          "index": 0,
+          "matched": "http://www.h4ck.org.cn/"
+        }
+      ]
+    },
+    {
+      "file": "links/pcp.moe.yml",
+      "url": "https://pcp.moe/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 2,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/peter267.github.io.yml",
+      "url": "https://peter267.github.io/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 1,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/snbk.cn.yml",
+      "url": "http://www.snbk.cn/",
+      "removed": [
+        {
+          "name": "郑州阳光义工",
+          "url": "https://www.hnpvo.com",
+          "index": 0,
+          "matched": "declared-identity"
+        }
+      ]
+    },
+    {
+      "file": "links/theng.cool.yml",
+      "url": "https://theng.cool/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/tinsir888.github.io.yml",
+      "url": "https://tinsir888.github.io/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/valaxy.xscnet.cn.yml",
+      "url": "https://valaxy.xscnet.cn/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 2,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/www.fghrsh.net.yml",
+      "url": "https://www.fghrsh.net/",
+      "removed": [
+        {
+          "name": "相忘于江湖",
+          "url": "https://www.h4ck.org.cn/",
+          "index": 54,
+          "matched": "http://www.h4ck.org.cn/"
+        }
+      ]
+    },
+    {
+      "file": "links/www.gardenwalk.moe.yml",
+      "url": "https://www.gardenwalk.moe/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/www.love.tg.yml",
+      "url": "https://www.love.tg/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/www.ohyee.cc.yml",
+      "url": "https://www.ohyee.cc/",
+      "removed": [
+        {
+          "name": "相忘于江湖",
+          "url": "https://www.h4ck.org.cn/",
+          "index": 4,
+          "matched": "http://www.h4ck.org.cn/"
+        }
+      ]
+    },
+    {
+      "file": "links/www.rua.ink.yml",
+      "url": "https://www.rua.ink/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 12,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/www.sakun.space.yml",
+      "url": "https://www.sakun.space/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 9,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/www.ssnur.com.yml",
+      "url": "https://www.ssnur.com/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 15,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/www.weilog.me.yml",
+      "url": "https://www.weilog.me/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 11,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/www.xscnet.cn.yml",
+      "url": "https://www.xscnet.cn/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 1,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/www.xsl.im.yml",
+      "url": "https://www.xsl.im/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 28,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/www.yizhipikaqiu.top.yml",
+      "url": "https://www.yizhipikaqiu.top/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/wxweb.xyz.yml",
+      "url": "https://wxweb.xyz/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/xyx404.github.io.yml",
+      "url": "https://xyx404.github.io/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/xzadudu179.github.io.yml",
+      "url": "https://xzadudu179.github.io/",
+      "removed": [
+        {
+          "name": "异次元之旅-萌ICP备",
+          "url": "https://travel.moe/",
+          "index": 0,
+          "matched": "https://travel.moe/"
+        }
+      ]
+    },
+    {
+      "file": "links/ziyege.com.yml",
+      "url": "https://ziyege.com/",
+      "removed": [
+        {
+          "name": "千江月",
+          "url": "https://asain.icu",
+          "index": 15,
+          "matched": "https://asain.icu"
+        }
+      ]
+    },
+    {
+      "file": "links/zning.net.cn.yml",
+      "url": "https://www.zning.net.cn/",
+      "removed": [
+        {
+          "name": "KK的博客",
+          "url": "http://www.ikk.me/",
+          "index": 3,
+          "matched": "https://www.ikk.me/"
+        }
+      ]
+    },
+    {
+      "file": "links/小蔡.tw.yml",
+      "url": "https://小蔡.tw/",
+      "removed": [
+        {
+          "name": "國中搞的官網",
+          "url": "http://pettw.lionfree.net/#",
+          "index": 1,
+          "matched": "http://pettw.lionfree.net/"
+        }
+      ]
+    }
+  ],
+  "removedFriendReferences": 60,
+  "remainingMatchedReferences": 0
+}

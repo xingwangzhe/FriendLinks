@@ -1,0 +1,106 @@
+{
+  "requested": "https://pcp.moe/links",
+  "success": true,
+  "url": "https://pcp.moe/links",
+  "redirected_url": "https://pcp.moe/links",
+  "redirected_status_code": 404,
+  "status_code": 404,
+  "error_message": "",
+  "metadata": {
+    "title": "Pink Champagne's homepage",
+    "description": "Pink Champagne's homepage",
+    "keywords": null,
+    "author": null,
+    "og:title": "Pink Champagne's homepage",
+    "og:description": "Pink Champagne's homepage",
+    "og:url": "https://pcp.moe",
+    "og:image": "https://avatars.githubusercontent.com/u/45930107?v=4",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Pink Champagne's homepage",
+    "twitter:description": "Pink Champagne's homepage",
+    "twitter:image": "https://avatars.githubusercontent.com/u/45930107?v=4"
+  },
+  "canonicals": [],
+  "markdownLength": 443,
+  "contentHash": "d922b430403829d641b5484c735d253a658522022e6dd8f4be162cc8b0d102e5",
+  "links": {
+    "internal": [
+      {
+        "href": "https://pcp.moe/",
+        "text": "Home",
+        "title": "",
+        "base_domain": "pcp.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://pcp.moe/blog",
+        "text": "Blog",
+        "title": "",
+        "base_domain": "pcp.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://pcp.moe/friends",
+        "text": "Friends",
+        "title": "",
+        "base_domain": "pcp.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://pcp.moe/blog/posts/about-me",
+        "text": "About",
+        "title": "",
+        "base_domain": "pcp.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://icp.gov.moe/?keyword=20232304",
+        "text": "萌ICP备20232304号",
+        "title": "",
+        "base_domain": "icp.gov.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://travel.moe/go.html",
+        "text": "异次元之旅",
+        "title": "",
+        "base_domain": "travel.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/36173f13fd2c9e77.md",
+  "seconds": 20.92
+}

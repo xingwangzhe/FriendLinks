@@ -1,0 +1,74 @@
+{
+  "requested": "https://jiushill.github.io/links",
+  "success": true,
+  "url": "https://jiushill.github.io/links",
+  "redirected_url": "https://jiushill.github.io/links",
+  "redirected_status_code": 404,
+  "status_code": 404,
+  "error_message": "",
+  "metadata": {
+    "title": "Page not found · GitHub Pages",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 638,
+  "contentHash": "e027e145e49da266dd9ff507b6cf000353c912912d8230396e97e7168ecd1407",
+  "links": {
+    "internal": [
+      {
+        "href": "https://jiushill.github.io/",
+        "text": "",
+        "title": "",
+        "base_domain": "github.io",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://help.github.com/pages/",
+        "text": "Read the full documentation",
+        "title": "",
+        "base_domain": "github.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://githubstatus.com",
+        "text": "GitHub Status",
+        "title": "",
+        "base_domain": "githubstatus.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://twitter.com/githubstatus",
+        "text": "@githubstatus",
+        "title": "",
+        "base_domain": "twitter.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/e4321fc460300aad.md",
+  "seconds": 8.93
+}

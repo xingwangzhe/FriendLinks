@@ -1,0 +1,121 @@
+{
+  "requested": "https://pcp.moe/blog/posts/my-2024-summary",
+  "success": true,
+  "error": "timeout or empty result",
+  "url": "https://pcp.moe/blog/posts/my-2024-summary",
+  "redirected_url": "https://pcp.moe/blog/posts/my-2024-summary/",
+  "redirected_status_code": 200,
+  "status_code": 308,
+  "error_message": "",
+  "metadata": {
+    "title": "My 2024 summary - Pink Champagne's blog",
+    "description": "Looking back at my 2024.",
+    "keywords": null,
+    "author": null,
+    "og:title": "My 2024 summary - Pink Champagne's blog",
+    "og:description": "Looking back at my 2024.",
+    "og:type": "article",
+    "og:url": "https://pcp.moe/blog/posts/my-2024-summary",
+    "og:locale": "en",
+    "og:image": "https://avatars.githubusercontent.com/u/45930107?v=4",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "My 2024 summary - Pink Champagne's blog",
+    "twitter:description": "Looking back at my 2024.",
+    "twitter:image": "https://avatars.githubusercontent.com/u/45930107?v=4"
+  },
+  "canonicals": [],
+  "markdownLength": 564,
+  "contentHash": "011a2e88ab8d54527cbed67357b35cf03c5aa745611584369f163cad8038dcb1",
+  "links": {
+    "internal": [
+      {
+        "href": "https://pcp.moe/",
+        "text": "Home",
+        "title": "",
+        "base_domain": "pcp.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://pcp.moe/blog",
+        "text": "Blog",
+        "title": "",
+        "base_domain": "pcp.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://pcp.moe/friends",
+        "text": "Friends",
+        "title": "",
+        "base_domain": "pcp.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://pcp.moe/blog/posts/about-me",
+        "text": "About",
+        "title": "",
+        "base_domain": "pcp.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "text": "CC BY-NC-SA 4.0",
+        "title": "",
+        "base_domain": "creativecommons.org",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://icp.gov.moe/?keyword=20232304",
+        "text": "萌ICP备20232304号",
+        "title": "",
+        "base_domain": "icp.gov.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://travel.moe/go.html",
+        "text": "异次元之旅",
+        "title": "",
+        "base_domain": "travel.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/supplement-dcb3e6f37efe3516.md",
+  "seconds": 13.24
+}

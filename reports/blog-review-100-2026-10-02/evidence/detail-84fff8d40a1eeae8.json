@@ -1,0 +1,83 @@
+{
+  "requested": "https://spal.club/faq.html",
+  "source": "https://spal.club/",
+  "label": "FAQ",
+  "success": true,
+  "status_code": 200,
+  "redirected_url": "https://spal.club/faq.html",
+  "error_message": "",
+  "metadata": {
+    "title": "FAQ - Seattle Performing Arts Lovers",
+    "description": "A community of Seattleites who love live performance in all its forms.",
+    "keywords": null,
+    "author": null
+  },
+  "links": {
+    "internal": [
+      {
+        "href": "https://spal.club/",
+        "text": "Home",
+        "title": "",
+        "base_domain": "spal.club",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://spal.club/faq.html",
+        "text": "FAQ",
+        "title": "",
+        "base_domain": "spal.club",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://airtable.com/appC8JnbpRFWTOMs0/shrTKwvEAxo5f1BEP",
+        "text": "Join",
+        "title": "",
+        "base_domain": "airtable.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://airtable.com/appC8JnbpRFWTOMs0/shrys9o6TSJqBaR7F",
+        "text": "Invite",
+        "title": "",
+        "base_domain": "airtable.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://open.spotify.com/playlist/0tilDCwFB1aI1Y1hDGGfCd?si=0a1ee727e9804c8b",
+        "text": "SPAL Music of 2022",
+        "title": "",
+        "base_domain": "spotify.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/detail-84fff8d40a1eeae8.md",
+  "markdownLength": 2337
+}

@@ -1,0 +1,12 @@
+# [cara michele](https://caramiki.com/)
+  * [about](https://caramiki.com/about)
+  * [web](https://caramiki.com/web)
+  * [design](https://caramiki.com/design)
+  * [illustration](https://caramiki.com/illustration)
+  * [resume](https://caramiki.com/resume)
+
+
+## Illustration
+[ ![H is for Habitats](https://caramiki.com/images/illust_h-is-for-habitats_400x400.jpg) ](https://caramiki.com/images/illust_h-is-for-habitats.jpg) [ ![Acquire Buildings](https://caramiki.com/images/illust_acquire-buildings_400x400.jpg) ](https://caramiki.com/images/illust_acquire-buildings.jpg) [ ![Crown](https://caramiki.com/images/illust_kingmaker-crown_400x400.jpg) ](https://caramiki.com/images/illust_kingmaker-crown.jpg) [ ![Sceptre](https://caramiki.com/images/illust_kingmaker-sceptre_400x400.jpg) ](https://caramiki.com/images/illust_kingmaker-sceptre.jpg) [ ![Side Projects Club group](https://caramiki.com/images/illust_side-projects-club-group_400x400.jpg) ](https://caramiki.com/images/illust_side-projects-club-group.jpg) [ ![Flowers](https://caramiki.com/images/illust_beeeees-flowers_400x400.jpg) ](https://caramiki.com/images/illust_beeeees-flowers.jpg) [ ![For Jay](https://caramiki.com/images/illust_jayh_400x400.jpg) ](https://caramiki.com/images/illust_jayh.jpg) [ ![Cats](https://caramiki.com/images/illust_cats-against-humanity_400x400.jpg) ](https://caramiki.com/images/illust_cats-against-humanity.jpg) [ ![Kaleidoscope Fish](https://caramiki.com/images/illust_kaleidoscope-fish_400x400.jpg) ](https://caramiki.com/images/illust_kaleidoscope-fish.jpg) [ ![Discount Salmon card illustrations](https://caramiki.com/images/illust_discount-salmon-cards_400x400.jpg) ](https://caramiki.com/images/illust_discount-salmon-cards.jpg) [ ![Big Ben](https://caramiki.com/images/illust_big-ben_400x400.jpg) ](https://caramiki.com/images/illust_big-ben.jpg) [ ![Sage](https://caramiki.com/images/illust_sage_400x400.jpg) ](https://caramiki.com/images/illust_sage.jpg) [ ![Butterfly for Lydia](https://caramiki.com/images/illust_butterfly_400x400.jpg) ](https://caramiki.com/images/illust_butterfly.jpg) [ ![Jupersian](https://caramiki.com/images/illust_cat-jupiter_400x400.jpg) ](https://caramiki.com/images/illust_cat-jupiter.jpg) [ ![Moon](https://caramiki.com/images/illust_moon_400x400.jpg) ](https://caramiki.com/images/illust_moon.jpg) [ ![Alyce](https://caramiki.com/images/illust_alyce_400x400.jpg) ](https://caramiki.com/images/illust_alyce.jpg)
+![](https://caramiki.com/illustration/)
+[](https://caramiki.com/illustration/)[](https://caramiki.com/illustration/)

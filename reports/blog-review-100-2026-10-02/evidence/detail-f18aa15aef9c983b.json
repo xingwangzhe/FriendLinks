@@ -1,0 +1,13 @@
+{
+  "requested": "https://blog.811520.xyz/archives/2026/08/",
+  "source": "https://blog.811520.xyz",
+  "label": "2026年08月1篇",
+  "success": false,
+  "status_code": null,
+  "redirected_url": null,
+  "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://blog.811520.xyz/archives/2026/08/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+  "metadata": null,
+  "links": {},
+  "markdown": "evidence/detail-f18aa15aef9c983b.md",
+  "markdownLength": 0
+}

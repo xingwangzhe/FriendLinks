@@ -1,0 +1,3260 @@
+[
+  {
+    "url": "https://www.hnpvo.com/",
+    "role": "main",
+    "file": "links/hnpvo.com.yml",
+    "status": "exclude",
+    "reason": "forum-primary",
+    "note": "主站及 thread-12251-1-1.html 均显示志愿者社区、论坛分区、会员和回帖；Blog 是社区附属模块。",
+    "evidence": [
+      {
+        "requested": "https://www.hnpvo.com/",
+        "redirected_url": "https://www.hnpvo.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/1be572c8c5a9f9e2.md"
+      },
+      {
+        "requested": "https://www.hnpvo.com/thread-12251-1-1.html",
+        "redirected_url": "https://www.hnpvo.com/thread-12251-1-1.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-7252fd326b64ba22.md"
+      }
+    ]
+  },
+  {
+    "url": "https://redcha.cn/",
+    "role": "main",
+    "file": "links/redcha.cn.yml",
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "精选文章页仍只有摘要和图片，真实日记在另一 hostname；是否应迁移该入口或声明身份尚待确认，不据此删除。",
+    "evidence": [
+      {
+        "requested": "https://redcha.cn/",
+        "redirected_url": "https://redcha.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/39295c72bc3b8d02.md"
+      },
+      {
+        "requested": "https://note.redcha.cn/",
+        "redirected_url": "https://note.redcha.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-dccc5add55cd1412.md"
+      },
+      {
+        "requested": "https://redcha.cn/posts.html",
+        "redirected_url": "https://redcha.cn/posts.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/supplement-dc4568ceb0dc3c16.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.qqdsw8.cn/",
+    "role": "main",
+    "file": "links/blog.qqdsw8.cn.yml",
+    "status": "unverified",
+    "reason": "non-original-content",
+    "note": "第二轮已检查入口及可发现详情；首页以源码、资源下载和网络技巧分享为主；补抓尚未证明至少一篇作者原创文章。",
+    "evidence": [
+      {
+        "requested": "https://blog.qqdsw8.cn/",
+        "redirected_url": "https://blog.qqdsw8.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/0b6ea1f346916282.md"
+      },
+      {
+        "requested": "https://blog.qqdsw8.cn/archives/83/",
+        "redirected_url": "https://blog.qqdsw8.cn/archives/83/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-64582e0e9884d426.md"
+      }
+    ]
+  },
+  {
+    "url": "https://flwfdd.xyz/",
+    "role": "main",
+    "file": "links/flwfdd.xyz.yml",
+    "status": "unverified",
+    "reason": "knowledge-base-only",
+    "note": "第二轮已检查入口及可发现详情；补抓笔记为配置备忘录/课程材料；尚未证明当前主域有合格原创发布。博客链接位于另一子域。",
+    "evidence": [
+      {
+        "requested": "https://flwfdd.xyz/",
+        "redirected_url": "https://flwfdd.xyz/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/985ec8b2377272f2.md"
+      },
+      {
+        "requested": "https://flwfdd.xyz/notes",
+        "redirected_url": "https://flwfdd.xyz/notes/",
+        "status_code": 308,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-86426e11a58ba0d7.md"
+      },
+      {
+        "requested": "https://flwfdd.xyz/notes",
+        "redirected_url": "https://flwfdd.xyz/notes/",
+        "status_code": 308,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/supplement-86426e11a58ba0d7.md"
+      },
+      {
+        "requested": "https://flwfdd.xyz/notes/%E6%82%A8%E9%85%8D%E5%90%97",
+        "redirected_url": "https://flwfdd.xyz/notes/%E6%82%A8%E9%85%8D%E5%90%97/",
+        "status_code": 308,
+        "success": true,
+        "markdown": "evidence/supplement-c99a74c8535b0b1d.md"
+      }
+    ]
+  },
+  {
+    "url": "https://sgfox.cc/",
+    "role": "main",
+    "file": "links/sgfox.cc.yml",
+    "status": "exclude",
+    "reason": "homepage-only",
+    "note": "当前入口是社交账号和工具导航页；/china 是地图工具。www.sgfox.cc 另有博客，单独保留，不推断别名。",
+    "evidence": [
+      {
+        "requested": "https://sgfox.cc/",
+        "redirected_url": "https://sgfox.cc/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/815e4a0166f7bb4d.md"
+      },
+      {
+        "requested": "https://sgfox.cc/china",
+        "redirected_url": "https://sgfox.cc/china/",
+        "status_code": 301,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/supplement-aeea8e3afb8c5619.md"
+      }
+    ]
+  },
+  {
+    "url": "https://lsy22.com/",
+    "role": "main",
+    "file": "links/lsy22.com.yml",
+    "status": "include",
+    "reason": "",
+    "note": "主入口重定向到作者博客，已检查第一次出国旅行东南亚的独立游记正文。",
+    "evidence": [
+      {
+        "requested": "https://lsy22.com/",
+        "redirected_url": "https://blog.lsy22.com/",
+        "status_code": 301,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/2cb0e5c0c968145e.md"
+      },
+      {
+        "requested": "https://blog.lsy22.com/articles/life/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%87%BA%E5%9B%BD%E6%97%85%E8%A1%8C-%E4%B8%9C%E5%8D%97%E4%BA%9A",
+        "redirected_url": "https://blog.lsy22.com/articles/life/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%87%BA%E5%9B%BD%E6%97%85%E8%A1%8C-%E4%B8%9C%E5%8D%97%E4%BA%9A",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-305d4a9403b438d5.md"
+      }
+    ]
+  },
+  {
+    "url": "https://wzq02.top/",
+    "role": "main",
+    "file": "links/wzq02.top.yml",
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "再次抓到个人入口页；首轮曾出现博客栏目提示，当前未解析出其有效独立文章路由，不能仅凭抓取页面判定不存在。",
+    "evidence": [
+      {
+        "requested": "https://wzq02.top/",
+        "redirected_url": "https://wzq02.top/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/a5a525f3ff5423af.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.closure.cc/",
+    "role": "main",
+    "file": "links/blog.closure.cc.yml",
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；返回 Anubis 反爬挑战页，HTTP 200 并不代表获得博客正文。",
+    "evidence": [
+      {
+        "requested": "https://blog.closure.cc/",
+        "redirected_url": "https://blog.closure.cc/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/c175ec92c270e844.md"
+      }
+    ]
+  },
+  {
+    "url": "https://cwcu.com.cn/",
+    "role": "main",
+    "file": "links/cwcu.com.cn.yml",
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；主站抓取失败。",
+    "evidence": [
+      {
+        "requested": "https://cwcu.com.cn/",
+        "redirected_url": null,
+        "status_code": null,
+        "success": false,
+        "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: net::ERR_CONNECTION_CLOSED at https://cwcu.com.cn/\nCall log:\n  - navigating to \"https://cwcu.com.cn/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+        "markdown": "evidence/d89c3d15903fa719.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.imgb.space/",
+    "role": "main",
+    "file": "links/blog.imgb.space.yml",
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "当前仅显示模拟崩溃页，不能证明站点永久移除博客内容，保留待定。",
+    "evidence": [
+      {
+        "requested": "https://blog.imgb.space/",
+        "redirected_url": "https://blog.imgb.space/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/2b84848420f56c08.md"
+      }
+    ]
+  },
+  {
+    "url": "https://b.storyo.cn/",
+    "role": "main",
+    "file": "links/b.storyo.cn.yml",
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；主站访问失败，不能据此认定非博客。",
+    "evidence": [
+      {
+        "requested": "https://b.storyo.cn/",
+        "redirected_url": "https://b.storyo.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/bfde9c48a6dd923d.md"
+      },
+      {
+        "requested": "https://b.storyo.cn/archives/srlink",
+        "redirected_url": "https://b.storyo.cn/archives/srlink",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-4a1a3910e1376c84.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.dereksivers.org/",
+    "role": "main",
+    "file": "links/dereksivers.org.yml",
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；当前抓取只返回 Substack 订阅提示与作者介绍，未取得公开文章正文。",
+    "evidence": [
+      {
+        "requested": "https://www.dereksivers.org/",
+        "redirected_url": "https://www.dereksivers.org/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/4ae6e66352b7a766.md"
+      },
+      {
+        "requested": "https://www.dereksivers.org/profile/subscribers",
+        "redirected_url": "https://www.dereksivers.org/profile/subscribers",
+        "status_code": 404,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-ad67df4d2bffe509.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.rutua.cn/",
+    "role": "main",
+    "file": "links/rutua.cn.yml",
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；主站抓取失败。",
+    "evidence": [
+      {
+        "requested": "https://www.rutua.cn/",
+        "redirected_url": null,
+        "status_code": null,
+        "success": false,
+        "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.rutua.cn/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+        "markdown": "evidence/617669d82237ce54.md"
+      }
+    ]
+  },
+  {
+    "url": "https://faehnri.ch/",
+    "role": "main",
+    "file": "links/faehnri.ch.yml",
+    "status": "include",
+    "reason": "",
+    "note": "补查 The Curated Web，正文为作者二十年收藏网页、探索网络的个人经历和观点。",
+    "evidence": [
+      {
+        "requested": "https://faehnri.ch/",
+        "redirected_url": "https://faehnri.ch/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/8881dd5c216836cc.md"
+      },
+      {
+        "requested": "https://faehnri.ch/effluvium/",
+        "redirected_url": "https://faehnri.ch/effluvium/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-2d53003d61aad585.md"
+      },
+      {
+        "requested": "https://faehnri.ch/effluvium/2024/03/03",
+        "redirected_url": "https://faehnri.ch/effluvium/2024/03/03/",
+        "status_code": 301,
+        "success": true,
+        "markdown": "evidence/supplement-9df85e1a7661779b.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.lin-fun.com/",
+    "role": "main",
+    "file": "links/blog.lin-fun.com.yml",
+    "status": "exclude",
+    "reason": "homepage-only",
+    "note": "当前为个人介绍/联系/友链入口；历史记录路由重定向回相同主页，正文指向另一个 seiion.com 博客入口，无本站独立博文。",
+    "evidence": [
+      {
+        "requested": "https://blog.lin-fun.com/",
+        "redirected_url": "https://blog.lin-fun.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/739c4ddba8469e46.md"
+      },
+      {
+        "requested": "https://blog.lin-fun.com/record",
+        "redirected_url": "https://blog.lin-fun.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/supplement-25eee16fdf5507ba.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.amirokd.dpdns.org/",
+    "role": "main",
+    "file": "links/amirokd.dpdns.org.yml",
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；Cloudflare HTTP 403 封锁页，无法审核内容。",
+    "evidence": [
+      {
+        "requested": "https://www.amirokd.dpdns.org/",
+        "redirected_url": "https://www.amirokd.dpdns.org/",
+        "status_code": 403,
+        "success": false,
+        "error_message": "Blocked by anti-bot protection: HTTP 403 with HTML content (4674 bytes)",
+        "markdown": "evidence/1529dd7bcf006e03.md"
+      }
+    ]
+  },
+  {
+    "url": "https://xun-cmd.github.io/",
+    "role": "main",
+    "file": "links/xun-cmd.github.io.yml",
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；有个人学习文章索引，待正文确认原创实践，不能仅以博客标题准入。",
+    "evidence": [
+      {
+        "requested": "https://xun-cmd.github.io/",
+        "redirected_url": "https://xun-cmd.github.io/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/fb8e7aca502e7076.md"
+      },
+      {
+        "requested": "https://xun-cmd.github.io/2026/08/28/GAMES101/04/",
+        "redirected_url": "https://xun-cmd.github.io/2026/08/28/GAMES101/04/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-3c210a13afeb26bc.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.noah0932.top/",
+    "role": "main",
+    "file": "links/blog.noah0932.top.yml",
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；存在个人博客文章和生活栏目，补抓为归档页，尚未确认合格正文。",
+    "evidence": [
+      {
+        "requested": "https://blog.noah0932.top/",
+        "redirected_url": "https://blog.noah0932.top/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/e3cb61be3ca2c94a.md"
+      },
+      {
+        "requested": "https://blog.noah0932.top/posts/Zootropolis%202/",
+        "redirected_url": "https://blog.noah0932.top/posts/Zootropolis%202/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-88da81753d35a19c.md"
+      }
+    ]
+  },
+  {
+    "url": "https://pdp8.info/",
+    "role": "main",
+    "file": "links/pdp8.info.yml",
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "再次检查图片、音乐与攀岩目录；能看到原创媒体及部分语境，但独立发布条目形式仍不明确，保留待定。",
+    "evidence": [
+      {
+        "requested": "https://pdp8.info/",
+        "redirected_url": "https://pdp8.info/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/5269a76f4f198bc7.md"
+      },
+      {
+        "requested": "https://pdp8.info/pictures.html",
+        "redirected_url": "https://pdp8.info/pictures.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-bc05cb4c82797995.md"
+      },
+      {
+        "requested": "https://pdp8.info/music.html",
+        "redirected_url": "https://pdp8.info/music.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/supplement-aefe2159939c3a7e.md"
+      },
+      {
+        "requested": "https://pdp8.info/climbing.html",
+        "redirected_url": "https://pdp8.info/climbing.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/supplement-c8bd48f0a4b2c097.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.zhipro.com/",
+    "role": "main",
+    "file": "links/blog.zhipro.com.yml",
+    "status": "unverified",
+    "reason": "non-original-content",
+    "note": "第二轮已检查入口及可发现详情；工具和消费技巧文章索引存在；作者归属及原创发布证据尚不充分，不能凭通用教程标题判定。",
+    "evidence": [
+      {
+        "requested": "https://blog.zhipro.com/",
+        "redirected_url": "https://blog.zhipro.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/87a6f92b10bfb97e.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.the5fire.com/",
+    "role": "main",
+    "file": "links/www.the5fire.com.yml",
+    "status": "include",
+    "reason": "",
+    "note": "补查署名创作者滞后的快乐，含写作、录课及读者反馈的原创随笔。",
+    "evidence": [
+      {
+        "requested": "https://www.the5fire.com/",
+        "redirected_url": "https://www.the5fire.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/ecd4eab3535a079f.md"
+      },
+      {
+        "requested": "https://www.the5fire.com/%E7%BD%AE%E9%A1%B6--%E4%B8%AA%E4%BA%BA%E5%9B%9E%E5%BF%86%E5%BD%95%E4%B9%8B%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93%E7%B4%A2%E5%BC%95.html",
+        "redirected_url": "https://www.the5fire.com/%E7%BD%AE%E9%A1%B6--%E4%B8%AA%E4%BA%BA%E5%9B%9E%E5%BF%86%E5%BD%95%E4%B9%8B%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93%E7%B4%A2%E5%BC%95.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-245bf10c0e6dc230.md"
+      },
+      {
+        "requested": "https://www.the5fire.com/creator-s-happy-life.html",
+        "redirected_url": "https://www.the5fire.com/creator-s-happy-life.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/supplement-4ac39bf949b55eb0.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.nepakina.cn/",
+    "role": "main",
+    "file": "links/blog.nepakina.cn.yml",
+    "status": "include",
+    "reason": "",
+    "note": "已检查开放空间 UX 体验分析，含作者付费测试经历、问题分析与独立永久链接。",
+    "evidence": [
+      {
+        "requested": "https://blog.nepakina.cn/",
+        "redirected_url": "https://blog.nepakina.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/efbc8668a14f2478.md"
+      },
+      {
+        "requested": "https://blog.nepakina.cn/archives/开放空间ux体验",
+        "redirected_url": "https://blog.nepakina.cn/archives/%E5%BC%80%E6%94%BE%E7%A9%BA%E9%97%B4ux%E4%BD%93%E9%AA%8C",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-fb4fcbc97b60412f.md"
+      }
+    ]
+  },
+  {
+    "url": "https://coderxi.com/",
+    "role": "main",
+    "file": "links/coderxi.com.yml",
+    "status": "include",
+    "reason": "",
+    "note": "避开明确转载的 Win11 配置文，补查红米 K50 线刷记录，含本人反复刷机经历与后记。",
+    "evidence": [
+      {
+        "requested": "https://coderxi.com/",
+        "redirected_url": "https://coderxi.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/6fd5b8a7d307cc1a.md"
+      },
+      {
+        "requested": "https://coderxi.com/posts/toggle-folders-under-this-pc-in-windows-11",
+        "redirected_url": "https://coderxi.com/posts/toggle-folders-under-this-pc-in-windows-11",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-dc7a6db84ad78e59.md"
+      },
+      {
+        "requested": "https://coderxi.com/posts/redmi-k50-root-note",
+        "redirected_url": "https://coderxi.com/posts/redmi-k50-root-note",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/supplement-4563bf8d939fc96c.md"
+      }
+    ]
+  },
+  {
+    "url": "https://diyibailingyici.chuangdangjianghudewumingyouxia.cn/",
+    "role": "main",
+    "file": "links/diyibailingyici.chuangdangjianghudewumingyouxia.cn.yml",
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；个人站首页主要工具版本发布，版本日志本身不算合格博文；需确认其他栏目正文。",
+    "evidence": [
+      {
+        "requested": "https://diyibailingyici.chuangdangjianghudewumingyouxia.cn/",
+        "redirected_url": "https://diyibailingyici.chuangdangjianghudewumingyouxia.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/d4c43fd64bbc3d60.md"
+      },
+      {
+        "requested": "https://diyibailingyici.chuangdangjianghudewumingyouxia.cn/archives/435.html",
+        "redirected_url": "https://diyibailingyici.chuangdangjianghudewumingyouxia.cn/archives/435.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-d8f71234bd3a039c.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.hinswu.top/",
+    "role": "main",
+    "file": "links/blog.hinswu.top.yml",
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；两篇软件介绍/部署文有独立路由，尚需确认实质原创实践与内容主要用途。",
+    "evidence": [
+      {
+        "requested": "https://blog.hinswu.top/",
+        "redirected_url": "https://blog.hinswu.top/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/3f36dcb7dad87653.md"
+      },
+      {
+        "requested": "https://blog.hinswu.top/archives/wei-ming-ming-wen-zhang",
+        "redirected_url": "https://blog.hinswu.top/archives/wei-ming-ming-wen-zhang",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-a3b17dcd2ca8300e.md"
+      }
+    ]
+  },
+  {
+    "url": "https://gxroast.com/",
+    "role": "main",
+    "file": "links/gxroast.com.yml",
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；存在博客菜单与随笔入口，当前抓取主要是页面控件，尚未取得合格正文。",
+    "evidence": [
+      {
+        "requested": "https://gxroast.com/",
+        "redirected_url": "https://gxroast.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/f04bcb04fa788fb0.md"
+      },
+      {
+        "requested": "https://gxroast.com/docker",
+        "redirected_url": "https://gxroast.com/docker",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-482e843352e1edd3.md"
+      }
+    ]
+  },
+  {
+    "url": "https://小蔡.tw/",
+    "role": "main",
+    "file": "links/小蔡.tw.yml",
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；个人经历主页具有文章列表与赛事记录入口；自动详情选中证书图片，尚未确认公开博文正文。",
+    "evidence": [
+      {
+        "requested": "https://小蔡.tw/",
+        "redirected_url": "https://xn--yets96g.tw/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/521d920b2e3a2064.md"
+      },
+      {
+        "requested": "https://xn--yets96g.tw/2025/08/04/2025-ais3/",
+        "redirected_url": "https://xn--yets96g.tw/2025/08/04/2025-ais3/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-cf5cf0259fdcec7a.md"
+      }
+    ]
+  },
+  {
+    "url": "https://yuan1182.org/",
+    "role": "main",
+    "file": "links/yuan1182.org.yml",
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；Cloudflare Tunnel 1033 错误，未取得站点正文。",
+    "evidence": [
+      {
+        "requested": "https://yuan1182.org/",
+        "redirected_url": "https://yuan1182.org/",
+        "status_code": 530,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/face8b24746a0b2b.md"
+      }
+    ]
+  },
+  {
+    "url": "https://pcp.moe/",
+    "role": "main",
+    "file": "links/pcp.moe.yml",
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；Blog 栏目存在，详情为 About 个人简介，不作为合格博文证据。",
+    "evidence": [
+      {
+        "requested": "https://pcp.moe/",
+        "redirected_url": "https://pcp.moe/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/6057cd9a8f1cebe2.md"
+      },
+      {
+        "requested": "https://pcp.moe/blog/posts/about-me",
+        "redirected_url": "https://pcp.moe/blog/posts/about-me/",
+        "status_code": 308,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-bdacdc29d81bf580.md"
+      },
+      {
+        "requested": "https://pcp.moe/blog",
+        "redirected_url": "https://pcp.moe/blog/",
+        "status_code": 308,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/supplement-e76f6780a5c69a90.md"
+      },
+      {
+        "requested": "https://pcp.moe/blog/posts/my-goals-in-2025",
+        "redirected_url": "https://pcp.moe/blog/posts/my-goals-in-2025/",
+        "status_code": 308,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/supplement-b2d5ca0071beac06.md"
+      },
+      {
+        "requested": "https://pcp.moe/blog/posts/my-2024-summary",
+        "redirected_url": "https://pcp.moe/blog/posts/my-2024-summary/",
+        "status_code": 308,
+        "success": true,
+        "markdown": "evidence/supplement-dcb3e6f37efe3516.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.moyanjdc.top/",
+    "role": "main",
+    "file": "links/blog.moyanjdc.top.yml",
+    "status": "include",
+    "reason": "",
+    "note": "已检查色彩猎人梦醒后的随记，作者博客公开提供长篇创作正文和永久链接。",
+    "evidence": [
+      {
+        "requested": "https://blog.moyanjdc.top/",
+        "redirected_url": "https://blog.moyanjdc.top/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/9fc954654c27384f.md"
+      },
+      {
+        "requested": "https://blog.moyanjdc.top/archives/18/",
+        "redirected_url": "https://blog.moyanjdc.top/archives/18/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-ec57b5cf8866a509.md"
+      }
+    ]
+  },
+  {
+    "url": "https://mcenahle.cn/",
+    "role": "main",
+    "file": "links/mcenahle.cn.yml",
+    "status": "exclude",
+    "reason": "single-page-only",
+    "note": "个人主页内的原创短文为弹窗正文，没有独立条目 URL；其他可见入口为简介、技能、代码规范与工具。独立 blog.mcenahle.org.cn 的原创文章另行保留。",
+    "evidence": [
+      {
+        "requested": "https://mcenahle.cn/",
+        "redirected_url": "https://mcenahle.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/0a5002c0004cdbdc.md"
+      },
+      {
+        "requested": "https://mcenahle.cn/skills",
+        "redirected_url": "https://mcenahle.cn/skills",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-e3a11ecd74a01b3a.md"
+      }
+    ]
+  },
+  {
+    "url": "https://lo-li.cn/",
+    "role": "main",
+    "file": "links/lo-li.cn.yml",
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；个人索引可见近况与技术文章，本轮详情是软件项目改动说明，仍需核实合格生活/实践博文。",
+    "evidence": [
+      {
+        "requested": "https://lo-li.cn/",
+        "redirected_url": "https://lo-li.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/c06c52eb9a7523ba.md"
+      },
+      {
+        "requested": "https://lo-li.cn/1926",
+        "redirected_url": "https://lo-li.cn/1926",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-f30939bb0a4675d9.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.91biu.work/",
+    "role": "main",
+    "file": "links/www.91biu.work.yml",
+    "status": "unverified",
+    "reason": "non-original-content",
+    "note": "第二轮已检查入口及可发现详情；本轮详情为影视资源站介绍；大量索引不证明原创，需查至少一篇个人原创内容。",
+    "evidence": [
+      {
+        "requested": "https://www.91biu.work/",
+        "redirected_url": "https://www.91biu.work/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/85fcfd15c9ba98ed.md"
+      },
+      {
+        "requested": "https://www.91biu.work/archives/-guo-nei-mian-fei-netflix-ying-shi-wang-zhan--ya-nai-fei-ying-shi",
+        "redirected_url": "https://www.91biu.work/archives/-guo-nei-mian-fei-netflix-ying-shi-wang-zhan--ya-nai-fei-ying-shi",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-c512739d690f6a3b.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.tuep.cn/",
+    "role": "main",
+    "file": "links/blog.tuep.cn.yml",
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；作者个人实践摘要可见，详情为月份归档；不将 Q&A 或mod链接清单直接计为原创博文。",
+    "evidence": [
+      {
+        "requested": "https://blog.tuep.cn/",
+        "redirected_url": "https://blog.tuep.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/b64663c615b38c7f.md"
+      },
+      {
+        "requested": "https://blog.tuep.cn/index.php/introduction.html",
+        "redirected_url": "https://blog.tuep.cn/index.php/introduction.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-bbbb74b9d173e55d.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.zoomquiet.io/",
+    "role": "main",
+    "file": "links/blog.zoomquiet.io.yml",
+    "status": "include",
+    "reason": "",
+    "note": "已检查我这样用 GenAI，正文包含作者背景、实践与个人观点，非仅转载索引。",
+    "evidence": [
+      {
+        "requested": "https://blog.zoomquiet.io/",
+        "redirected_url": "https://blog.zoomquiet.io/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/322ca83f0e8b60fe.md"
+      },
+      {
+        "requested": "https://blog.zoomquiet.io/240704-aigcxzh-genai101.html",
+        "redirected_url": "https://blog.zoomquiet.io/240704-aigcxzh-genai101.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-0d7ee1b6652dc586.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.wolfhime.com/",
+    "role": "main",
+    "file": "links/www.wolfhime.com.yml",
+    "status": "include",
+    "reason": "",
+    "note": "个人创作站有独立世界观故事条目、公开目录和实质创作正文；按创作型数字花园判断。",
+    "evidence": [
+      {
+        "requested": "https://www.wolfhime.com/",
+        "redirected_url": "https://www.wolfhime.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/1638306bf45b8c2f.md"
+      },
+      {
+        "requested": "https://www.wolfhime.com/?p=346",
+        "redirected_url": "https://www.wolfhime.com/?p=346",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-f08b378cc24dfb25.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.imcxx.com/",
+    "role": "main",
+    "file": "links/imcxx.com.yml",
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；公开配置笔记和实质正文可读，但作者原创发布与手册/知识库边界尚需核实。",
+    "evidence": [
+      {
+        "requested": "https://www.imcxx.com/",
+        "redirected_url": "https://www.imcxx.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/d2400a4339feac63.md"
+      },
+      {
+        "requested": "https://www.imcxx.com/post/45",
+        "redirected_url": "https://www.imcxx.com/post/45",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-031ef9eb9f9cb94b.md"
+      }
+    ]
+  },
+  {
+    "url": "https://asain.icu",
+    "role": "friend",
+    "file": null,
+    "status": "exclude",
+    "reason": "tool-or-product-primary",
+    "note": "旧地址跳转到 FoundAI 浏览器搜索扩展安装推广页，核心为产品功能和 Add to Chrome。",
+    "evidence": [
+      {
+        "requested": "https://asain.icu",
+        "redirected_url": "https://foundaiextension.com/?tspid=i7vm7&clid=c*Q*INE0HUM",
+        "status_code": 302,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/0e52f47195e5a45e.md"
+      }
+    ]
+  },
+  {
+    "url": "https://infernity.top/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "non-original-content",
+    "note": "第二轮已检查入口及可发现详情；最新文章标注部分 AI 生成，存在其他技术笔记，须补查作者自己的实践正文后决定。",
+    "evidence": [
+      {
+        "requested": "https://infernity.top/",
+        "redirected_url": "https://infernity.top/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/b8fc673d8173b4a7.md"
+      },
+      {
+        "requested": "https://infernity.top/2026/07/08/OWASP-TOP-10-2025/",
+        "redirected_url": "https://infernity.top/2026/07/08/OWASP-TOP-10-2025/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-6a1a14398f82bc0f.md"
+      }
+    ]
+  },
+  {
+    "url": "https://mocong.dev/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "non-original-content",
+    "note": "第二轮已检查入口及可发现详情；存在文章索引，但部分文章明确标注模型生成，需核实至少一篇作者原创内容。",
+    "evidence": [
+      {
+        "requested": "https://mocong.dev/",
+        "redirected_url": "https://mocong.dev/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/e6fb2c9a01d915da.md"
+      },
+      {
+        "requested": "https://mocong.dev/posts/%E4%BB%8E%E7%BA%BF%E6%80%A7%E8%87%AA%E7%BC%96%E7%A0%81%E5%99%A8%E5%88%B0%E5%8E%BB%E5%99%AA%E8%87%AA%E7%BC%96%E7%A0%81%E5%99%A8/",
+        "redirected_url": "https://mocong.dev/posts/%E4%BB%8E%E7%BA%BF%E6%80%A7%E8%87%AA%E7%BC%96%E7%A0%81%E5%99%A8%E5%88%B0%E5%8E%BB%E5%99%AA%E8%87%AA%E7%BC%96%E7%A0%81%E5%99%A8/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-d8fa404496d7668a.md"
+      }
+    ]
+  },
+  {
+    "url": "https://hexo.anheyu.com/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://hexo.anheyu.com/",
+        "redirected_url": null,
+        "status_code": null,
+        "success": false,
+        "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://hexo.anheyu.com/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+        "markdown": "evidence/6ab65d2148af5fb3.md"
+      }
+    ]
+  },
+  {
+    "url": "https://dyedd.cn/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "补查 2025 年终总结，包含本人求职、工作与生活体验的实质原创正文。",
+    "evidence": [
+      {
+        "requested": "https://dyedd.cn/",
+        "redirected_url": "https://dyedd.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/084b2b5ffb63dc93.md"
+      },
+      {
+        "requested": "https://dyedd.cn/posts",
+        "redirected_url": "https://dyedd.cn/posts",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/supplement-b8451785c2d9f6bd.md"
+      },
+      {
+        "requested": "https://dyedd.cn/posts/taot-moe-speedup",
+        "redirected_url": "https://dyedd.cn/posts/taot-moe-speedup",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/supplement-f44f1eeceb08debd.md"
+      },
+      {
+        "requested": "https://dyedd.cn/posts/2025summary",
+        "redirected_url": "https://dyedd.cn/posts/2025summary",
+        "status_code": 200,
+        "success": true,
+        "markdown": "evidence/supplement-6f3d5a3fa1ec494c.md"
+      }
+    ]
+  },
+  {
+    "url": "https://cwcu.cn",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取失败。",
+    "evidence": [
+      {
+        "requested": "https://cwcu.cn",
+        "redirected_url": "https://cwcu.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/f2736ea8ac14e151.md"
+      },
+      {
+        "requested": "https://cwcu.cn/?p=515",
+        "redirected_url": "https://cwcu.cn/?p=515",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-e768f6f58693980c.md"
+      }
+    ]
+  },
+  {
+    "url": "https://gb0.dev/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://gb0.dev/",
+        "redirected_url": "https://gb0.dev/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/66e8374993f08d6a.md"
+      },
+      {
+        "requested": "https://lab.gb0.dev/blog/2024-NOthing",
+        "redirected_url": "https://lab.gb0.dev/blog/2024-NOthing",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-bff2d28371f0cfd9.md"
+      }
+    ]
+  },
+  {
+    "url": "https://ayakasuki.com/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查本人为 Twikoo 通知推送增加 Onebot 协议支持的实践与代码改造记录。",
+    "evidence": [
+      {
+        "requested": "https://ayakasuki.com/",
+        "redirected_url": "https://ayakasuki.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/4fa5cc9fe340a5a7.md"
+      },
+      {
+        "requested": "https://ayakasuki.com/posts/27a3d06d/",
+        "redirected_url": "https://ayakasuki.com/posts/27a3d06d/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-3aff62ce151fa8fb.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.811520.xyz",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://blog.811520.xyz",
+        "redirected_url": "https://blog.811520.xyz/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/c3629694d1f47574.md"
+      },
+      {
+        "requested": "https://blog.811520.xyz/post/2026/08/202608-agentrouter-proxy/",
+        "redirected_url": "https://blog.811520.xyz/post/2026/08/202608-agentrouter-proxy/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-83ced8a2c8d849b2.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.vergessen.top/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；返回 nginx 404，无法审查原内容。",
+    "evidence": [
+      {
+        "requested": "https://www.vergessen.top/",
+        "redirected_url": "https://www.vergessen.top/",
+        "status_code": 200,
+        "success": false,
+        "error_message": "Blocked by anti-bot protection: Structural: minimal_text on small page (137 bytes, 19 chars visible)",
+        "markdown": "evidence/75ef70cbe8421587.md"
+      }
+    ]
+  },
+  {
+    "url": "https://xiaoyou66.com",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查 2021 年终总结，包含作者生活、观影、工作及个人项目回顾。",
+    "evidence": [
+      {
+        "requested": "https://xiaoyou66.com",
+        "redirected_url": "https://xiaoyou66.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/1054aed2a0448f76.md"
+      },
+      {
+        "requested": "https://xiaoyou66.com/archives/2695/",
+        "redirected_url": "https://xiaoyou66.com/archives/2695/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-5c2619554b271b3d.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.huhexian.com",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取失败。",
+    "evidence": [
+      {
+        "requested": "https://www.huhexian.com",
+        "redirected_url": "https://www.huhexian.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/ca85b698b335b741.md"
+      }
+    ]
+  },
+  {
+    "url": "http://0375.me",
+    "role": "friend",
+    "file": null,
+    "status": "exclude",
+    "reason": "tool-or-product-primary",
+    "note": "跳转至 www.0375.me 的 8090 影视播放目录；已检查电影条目播放页，不是作者博客或独立博客目录。",
+    "evidence": [
+      {
+        "requested": "http://0375.me",
+        "redirected_url": "http://www.0375.me/",
+        "status_code": 301,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/623df283ec17623e.md"
+      },
+      {
+        "requested": "http://www.0375.me/abyi/woerzidenvren.html",
+        "redirected_url": "http://www.0375.me/abyi/woerzidenvren.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-154ca856e7ad64e0.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.starsharbor.com/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "页面明确公告迁移中；设备介绍可读，但有效独立博文暂未确认，未按加载数量为零删除。",
+    "evidence": [
+      {
+        "requested": "https://blog.starsharbor.com/",
+        "redirected_url": "https://blog.starsharbor.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/daa58d117d47eb9c.md"
+      },
+      {
+        "requested": "https://blog.starsharbor.com/equipment",
+        "redirected_url": "https://blog.starsharbor.com/equipment",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-1ec78531d9515286.md"
+      }
+    ]
+  },
+  {
+    "url": "https://lisui.top/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取失败。",
+    "evidence": [
+      {
+        "requested": "https://lisui.top/",
+        "redirected_url": null,
+        "status_code": null,
+        "success": false,
+        "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: net::ERR_CONNECTION_CLOSED at https://lisui.top/\nCall log:\n  - navigating to \"https://lisui.top/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+        "markdown": "evidence/833d8e6fba403b60.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.cryfeifei.cn",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取失败。",
+    "evidence": [
+      {
+        "requested": "https://www.cryfeifei.cn",
+        "redirected_url": null,
+        "status_code": null,
+        "success": false,
+        "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: Timeout 15000ms exceeded.\nCall log:\n  - navigating to \"https://www.cryfeifei.cn/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+        "markdown": "evidence/61606b35926e3413.md"
+      }
+    ]
+  },
+  {
+    "url": "http://www.ithmz.com",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取失败。",
+    "evidence": [
+      {
+        "requested": "http://www.ithmz.com",
+        "redirected_url": "http://www.ithmz.com/",
+        "status_code": 444,
+        "success": false,
+        "error_message": "Blocked by anti-bot protection: Structural: minimal_text, no_content_elements (39 bytes, 0 chars visible)",
+        "markdown": "evidence/92dcd84ec5a1b8ed.md"
+      }
+    ]
+  },
+  {
+    "url": "https://roozen.top",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://roozen.top",
+        "redirected_url": "https://roozen.top/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/5b71b6affc7aba09.md"
+      },
+      {
+        "requested": "https://roozen.top/upload/aurora-icon/demo_index.html",
+        "redirected_url": "https://roozen.top/upload/aurora-icon/demo_index.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-06b4233fae9e7ad4.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.himiku.com/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；返回 Anubis 反爬挑战页。",
+    "evidence": [
+      {
+        "requested": "https://www.himiku.com/",
+        "redirected_url": null,
+        "status_code": null,
+        "success": false,
+        "error_message": "Unexpected error in _crawl_web at line 632 in wrap_api_call (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/playwright/_impl/_connection.py):\nError: Page.content: Unable to retrieve content because the page is navigating and changing the content.\n\nCode context:\n 627           )\n 628           self._api_zone.set(parsed_st)\n 629           try:\n 630               return await cb()\n 631           except Exception as error:\n 632 →             raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\n 633           finally:\n 634               self._api_zone.set(None)\n 635   \n 636       def wrap_api_call_sync(\n 637           self, cb: Callable[[], Any], is_internal: bool = False, title: str = None",
+        "markdown": "evidence/b0ebb00524ee5966.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.stardream.online/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查 2022 霓虹游记，正文有作者旅游经历与长篇实质叙述。",
+    "evidence": [
+      {
+        "requested": "https://blog.stardream.online/",
+        "redirected_url": "https://blog.stardream.online/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/2253df293af21d2e.md"
+      },
+      {
+        "requested": "https://blog.stardream.online/posts/2022Japan/",
+        "redirected_url": "https://blog.stardream.online/posts/2022Japan/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-f4440e8229d9d778.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.imydl.com/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；返回 Cloudflare 526 源站证书错误。",
+    "evidence": [
+      {
+        "requested": "https://www.imydl.com/",
+        "redirected_url": "https://www.imydl.com/",
+        "status_code": 526,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/fddf47171eb81de3.md"
+      }
+    ]
+  },
+  {
+    "url": "https://tiansoft.kodview.com/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；返回页面不存在/网盘故障提示。",
+    "evidence": [
+      {
+        "requested": "https://tiansoft.kodview.com/",
+        "redirected_url": "https://tiansoft.kodview.com/",
+        "status_code": 404,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/d59919a818fba7d9.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.imysen.com/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://blog.imysen.com/",
+        "redirected_url": "https://blog.imysen.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/179cd03e37ad3cfb.md"
+      },
+      {
+        "requested": "https://player.imysen.com",
+        "redirected_url": "https://player.imysen.com/#/",
+        "status_code": 200,
+        "success": false,
+        "error_message": "Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (16007 bytes, 0 chars visible)",
+        "markdown": "evidence/detail-4c448908cc24de77.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.crrashh.com/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查作者探索字节 unpkg 镜像的实际比较与使用记录，公开独立文章 URL。",
+    "evidence": [
+      {
+        "requested": "https://blog.crrashh.com/",
+        "redirected_url": "https://blog.crrashh.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/bc16bc7d2c84b679.md"
+      },
+      {
+        "requested": "https://blog.crrashh.com/posts/21-bytedance-unpkg",
+        "redirected_url": "https://blog.crrashh.com/posts/21-bytedance-unpkg",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-aba0e8d4064e49b4.md"
+      }
+    ]
+  },
+  {
+    "url": "https://again.lunaclear.com/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://again.lunaclear.com/",
+        "redirected_url": "https://again.lunaclear.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/219934c83e7bb56f.md"
+      },
+      {
+        "requested": "https://again.lunaclear.com/knowledge/constellations/t5479/",
+        "redirected_url": "https://again.lunaclear.com/knowledge/constellations/t5479/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-334cae34092dc3c9.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.cheshirex.com",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "已检查本人链上体验正文，但首页存在大量 VPS 优惠与推广；主要用途与商业化边界尚待确认，不能以一篇个人文章直接解除疑点。",
+    "evidence": [
+      {
+        "requested": "https://www.cheshirex.com",
+        "redirected_url": "https://www.cheshirex.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/fea20e179910ef43.md"
+      },
+      {
+        "requested": "https://www.cheshirex.com/11070.html",
+        "redirected_url": "https://www.cheshirex.com/11070.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-795e9199d77cfd37.md"
+      }
+    ]
+  },
+  {
+    "url": "https://iyheart.github.io/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://iyheart.github.io/",
+        "redirected_url": "https://iyheart.github.io/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/4f6525307be1f19e.md"
+      },
+      {
+        "requested": "https://iyheart.github.io/2026/07/26/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/%E5%BD%A2%E5%BC%8F%E8%AF%AD%E8%A8%80%E4%B8%8E%E8%87%AA%E5%8A%A8%E6%9C%BA/%E5%BD%A2%E5%BC%8F%E8%AF%AD%E8%A8%80%E4%B8%8E%E8%87%AA%E5%8A%A8%E6%9C%BA/",
+        "redirected_url": "https://iyheart.github.io/2026/07/26/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/%E5%BD%A2%E5%BC%8F%E8%AF%AD%E8%A8%80%E4%B8%8E%E8%87%AA%E5%8A%A8%E6%9C%BA/%E5%BD%A2%E5%BC%8F%E8%AF%AD%E8%A8%80%E4%B8%8E%E8%87%AA%E5%8A%A8%E6%9C%BA/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-9caf244f1e9c126c.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.wordpace.com/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取未获得可审核正文。",
+    "evidence": [
+      {
+        "requested": "https://www.wordpace.com/",
+        "redirected_url": "https://www.wordpace.com/",
+        "status_code": 403,
+        "success": false,
+        "error_message": "Blocked by anti-bot protection: HTTP 403 with HTML content (23617 bytes)",
+        "markdown": "evidence/eb1d31eebe0d5d03.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.opennw.cn",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取未获得可审核正文。",
+    "evidence": [
+      {
+        "requested": "https://blog.opennw.cn",
+        "redirected_url": null,
+        "status_code": null,
+        "success": false,
+        "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: net::ERR_CONNECTION_CLOSED at https://blog.opennw.cn/\nCall log:\n  - navigating to \"https://blog.opennw.cn/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+        "markdown": "evidence/1119420135818ab8.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.liushen.fun/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查近期开发的四个开源项目，除项目信息外有作者毕业、工作与创作过程的实质个人记录。",
+    "evidence": [
+      {
+        "requested": "https://blog.liushen.fun/",
+        "redirected_url": "https://blog.liushen.fun/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/8442d38ef789e90e.md"
+      },
+      {
+        "requested": "https://blog.liushen.fun/posts/6a6de263/",
+        "redirected_url": "https://blog.liushen.fun/posts/6a6de263/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-1e12f54cfd42477c.md"
+      }
+    ]
+  },
+  {
+    "url": "http://nuel.news",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "补查公开 Newsletter 存档第20期，作者写剧本、试读和故事创作过程清楚，有稳定公开永久链接。",
+    "evidence": [
+      {
+        "requested": "http://nuel.news",
+        "redirected_url": "https://nuel.news/",
+        "status_code": 301,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/87021939205a6c6c.md"
+      },
+      {
+        "requested": "https://buttondown.com/nuel/archive/nuel-news-20-play-testing/",
+        "redirected_url": "https://buttondown.com/nuel/archive/nuel-news-20-play-testing/",
+        "status_code": 200,
+        "success": true,
+        "markdown": "evidence/supplement-f162a2921527209c.md"
+      }
+    ]
+  },
+  {
+    "url": "https://globoform.com",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "公开原创漫画/互动故事分集目录，/5 提供独立条目、作者创作说明及故事正文，符合媒体型博客边界。",
+    "evidence": [
+      {
+        "requested": "https://globoform.com",
+        "redirected_url": "https://globoform.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/2c46c2888377319a.md"
+      },
+      {
+        "requested": "https://globoform.com/5",
+        "redirected_url": "https://globoform.com/5/",
+        "status_code": 301,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-90a2bf21933ad7cc.md"
+      },
+      {
+        "requested": "https://globoform.com/5",
+        "redirected_url": "https://globoform.com/5/",
+        "status_code": 301,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/supplement-90a2bf21933ad7cc.md"
+      }
+    ]
+  },
+  {
+    "url": "https://hejunjie.life",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查本人把键盘输入变成热力图的开发经历、踩坑与设计思考。",
+    "evidence": [
+      {
+        "requested": "https://hejunjie.life",
+        "redirected_url": "https://hejunjie.life/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/6b55cc18b359902d.md"
+      },
+      {
+        "requested": "https://hejunjie.life/blog/cif84h2i",
+        "redirected_url": "https://hejunjie.life/blog/cif84h2i",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-e20a9077c7f20fcb.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.lusyoe.com",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://blog.lusyoe.com",
+        "redirected_url": "https://blog.lusyoe.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/21735b3f8683cf8d.md"
+      },
+      {
+        "requested": "https://blog.lusyoe.com/article/wecom-channel-tracking",
+        "redirected_url": "https://blog.lusyoe.com/article/wecom-channel-tracking",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-168800eec4230014.md"
+      }
+    ]
+  },
+  {
+    "url": "https://wcowin.work/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://wcowin.work/",
+        "redirected_url": "https://wcowin.work/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/7cc1f30b06c88b72.md"
+      },
+      {
+        "requested": "https://wcowin.work/develop/Mywork/",
+        "redirected_url": "https://wcowin.work/develop/Mywork/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-f09716119addb4a0.md"
+      }
+    ]
+  },
+  {
+    "url": "https://coolshell.cn/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://coolshell.cn/",
+        "redirected_url": "https://coolshell.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/35b9736327e69fc3.md"
+      },
+      {
+        "requested": "https://coolshell.cn/articles/22398.html",
+        "redirected_url": "https://coolshell.cn/articles/22398.html",
+        "status_code": 500,
+        "success": false,
+        "error_message": "Blocked by anti-bot protection: Structural: minimal_text on small page (2911 bytes, 10 chars visible)",
+        "markdown": "evidence/detail-fa463541f30e5939.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.xiaohui.com/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查我的 Google+ 帐号，正文说明作者个人使用经历和判断，发布入口公开可读。",
+    "evidence": [
+      {
+        "requested": "https://www.xiaohui.com/",
+        "redirected_url": "https://www.xiaohui.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/422a47e42f5ff34b.md"
+      },
+      {
+        "requested": "https://www.xiaohui.com/weekly/google-plus.htm",
+        "redirected_url": "https://www.xiaohui.com/weekly/google-plus.htm",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-ffccf1c9589bbb68.md"
+      }
+    ]
+  },
+  {
+    "url": "https://v3u.cn/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://v3u.cn/",
+        "redirected_url": "https://v3u.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/8417f42a7acbfa08.md"
+      },
+      {
+        "requested": "https://v3u.cn/a_id_52",
+        "redirected_url": "https://v3u.cn/a_id_52",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-a6862c1718b8c288.md"
+      }
+    ]
+  },
+  {
+    "url": "https://bruisesl.github.io/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://bruisesl.github.io/",
+        "redirected_url": "https://bruisesl.github.io/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/4a4b3d0d10148ba6.md"
+      },
+      {
+        "requested": "https://bruisesl.github.io/post/%E5%BE%85%E5%AE%8C%E6%88%90java-%E5%8F%8C%E4%BA%B2%E5%A7%94%E6%B4%BE%E6%A8%A1%E5%9E%8B/",
+        "redirected_url": "https://bruisesl.github.io/post/%E5%BE%85%E5%AE%8C%E6%88%90java-%E5%8F%8C%E4%BA%B2%E5%A7%94%E6%B4%BE%E6%A8%A1%E5%9E%8B/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-f48f96a10a34d919.md"
+      }
+    ]
+  },
+  {
+    "url": "https://3322898.cn",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://3322898.cn",
+        "redirected_url": "https://3322898.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/1fe36c9c9da6ad1e.md"
+      },
+      {
+        "requested": "https://3322898.cn/archives/1790088051071",
+        "redirected_url": "https://3322898.cn/archives/1790088051071",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-d76212c46527f41a.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.vlo.cc/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查 Rime 输入法折腾，包含作者设备问题、方案尝试、实际部署和个人选择。",
+    "evidence": [
+      {
+        "requested": "https://www.vlo.cc/",
+        "redirected_url": "https://www.vlo.cc/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/9d211618ec2e7030.md"
+      },
+      {
+        "requested": "https://www.vlo.cc/posts/jc/rime-input-method-configuration",
+        "redirected_url": "https://www.vlo.cc/posts/jc/rime-input-method-configuration",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-93489e30d18fe9b3.md"
+      }
+    ]
+  },
+  {
+    "url": "https://maxchang.me",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "补查 2025 打扫房间，含作者生活、学习和写作的长篇个人回顾。",
+    "evidence": [
+      {
+        "requested": "https://maxchang.me",
+        "redirected_url": "https://maxchang.me/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/b1c7c9d887e0b84e.md"
+      },
+      {
+        "requested": "https://maxchang.me/posts/",
+        "redirected_url": "https://maxchang.me/posts/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/supplement-d189d65d0bf3b8ed.md"
+      },
+      {
+        "requested": "https://maxchang.me/posts/2025-cleanup-my-room/",
+        "redirected_url": "https://maxchang.me/posts/2025-cleanup-my-room/",
+        "status_code": 200,
+        "success": true,
+        "markdown": "evidence/supplement-1ff8affe12af61eb.md"
+      }
+    ]
+  },
+  {
+    "url": "https://mocusez.site",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查 UNSW Katana 使用记录，有作者申请 GPU、测试、排队与运行的实践语境。",
+    "evidence": [
+      {
+        "requested": "https://mocusez.site",
+        "redirected_url": "https://mocusez.site/zh-CN/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/4cd79d380801bb38.md"
+      },
+      {
+        "requested": "https://mocusez.site/zh-CN/posts/d355",
+        "redirected_url": "https://mocusez.site/zh-CN/posts/d355/",
+        "status_code": 308,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-4f40ad4b797cf51b.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.guole.fun/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查国庆音乐节和长沙衡山游记，有原创旅行体验正文。",
+    "evidence": [
+      {
+        "requested": "https://blog.guole.fun/",
+        "redirected_url": "https://blog.guole.fun/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/f83163d07270d716.md"
+      },
+      {
+        "requested": "https://blog.guole.fun/posts/37863/",
+        "redirected_url": "https://blog.guole.fun/posts/37863/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-f6f5bfc5adaeacc4.md"
+      }
+    ]
+  },
+  {
+    "url": "https://bangumi.fun",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取未获得可审核正文。",
+    "evidence": [
+      {
+        "requested": "https://bangumi.fun",
+        "redirected_url": null,
+        "status_code": null,
+        "success": false,
+        "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: net::ERR_CONNECTION_CLOSED at https://bangumi.fun/\nCall log:\n  - navigating to \"https://bangumi.fun/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+        "markdown": "evidence/9f6b3f568523a731.md"
+      }
+    ]
+  },
+  {
+    "url": "https://apps.kookxiang.cloud",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取未获得可审核正文。",
+    "evidence": [
+      {
+        "requested": "https://apps.kookxiang.cloud",
+        "redirected_url": null,
+        "status_code": null,
+        "success": false,
+        "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: net::ERR_CONNECTION_CLOSED at https://apps.kookxiang.cloud/\nCall log:\n  - navigating to \"https://apps.kookxiang.cloud/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+        "markdown": "evidence/83a9822ecaf7ddf1.md"
+      }
+    ]
+  },
+  {
+    "url": "https://cosx.org",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "主站有署名原创文章且论坛分离；关于页显示全球志愿者、理事会及编辑部，是否属于本项目小型非机构团队范围仍不明确，未直接排除。",
+    "evidence": [
+      {
+        "requested": "https://cosx.org",
+        "redirected_url": "https://cosx.org/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/b4e44f1f1d2abaa1.md"
+      },
+      {
+        "requested": "https://cosx.org/2024/10/reading-man-vs-ai/",
+        "redirected_url": "https://cosx.org/2024/10/reading-man-vs-ai/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-131d0c2b274c0f40.md"
+      },
+      {
+        "requested": "https://cosx.org/about/",
+        "redirected_url": "https://cosx.org/about/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/supplement-5cd1e69813872854.md"
+      }
+    ]
+  },
+  {
+    "url": "https://kpi.xlog.app/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://kpi.xlog.app/",
+        "redirected_url": "https://kpi.xlog.app/",
+        "status_code": 530,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/f243e09e6dbb7499.md"
+      }
+    ]
+  },
+  {
+    "url": "https://sumiler.com/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://sumiler.com/",
+        "redirected_url": "https://sumiler.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/182aa87365ab0d2b.md"
+      },
+      {
+        "requested": "https://sumiler.com/article/1445",
+        "redirected_url": "https://sumiler.com/article/1445",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-9fdbb6621d4620b3.md"
+      }
+    ]
+  },
+  {
+    "url": "https://moshanghua.net",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://moshanghua.net",
+        "redirected_url": "https://moshanghua.net/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/69ca3731a33de4a4.md"
+      },
+      {
+        "requested": "https://moshanghua.net/archives/371.html",
+        "redirected_url": "https://moshanghua.net/archives/371.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-57a5e0a409af5ced.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.aobp.cn",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://www.aobp.cn",
+        "redirected_url": "https://www.aobp.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/f82fd96bc2f3cfc8.md"
+      }
+    ]
+  },
+  {
+    "url": "https://chuzoux.top/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查个人博客重建复活，包含本人高考、生活变化与恢复写作的回顾。",
+    "evidence": [
+      {
+        "requested": "https://chuzoux.top/",
+        "redirected_url": "https://chuzoux.top/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/3d98753cd42e34f7.md"
+      },
+      {
+        "requested": "https://chuzoux.top/posts/个人博客重建秽土转生/",
+        "redirected_url": "https://chuzoux.top/posts/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%87%8D%E5%BB%BA%E7%A7%BD%E5%9C%9F%E8%BD%AC%E7%94%9F/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-178d9c93b79c9520.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.07210700.xyz",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://blog.07210700.xyz",
+        "redirected_url": "https://blog.07210700.xyz/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/cf4fb49963f506a3.md"
+      },
+      {
+        "requested": "https://blog.07210700.xyz/posts/yunzai-install-notes/",
+        "redirected_url": "https://blog.07210700.xyz/posts/yunzai-install-notes/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-f0debf65e04e1853.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.xiaoxiao520.com/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://blog.xiaoxiao520.com/",
+        "redirected_url": "https://blog.xiaoxiao520.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/fb199a37dbca3353.md"
+      },
+      {
+        "requested": "https://blog.xiaoxiao520.com/im",
+        "redirected_url": "https://blog.xiaoxiao520.com/user",
+        "status_code": 302,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-8d837f4452d837ab.md"
+      }
+    ]
+  },
+  {
+    "url": "https://1995.yun/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://1995.yun/",
+        "redirected_url": "https://1995.yun/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/ccfcd868cf260fad.md"
+      }
+    ]
+  },
+  {
+    "url": "https://ysc1997.top/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://ysc1997.top/",
+        "redirected_url": "https://ysc1997.top/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/0318366efb3457f6.md"
+      },
+      {
+        "requested": "https://ysc1997.top/music",
+        "redirected_url": "https://ysc1997.top/music",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-317777f0675765ce.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.ltya.top/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取未获得可审核正文。",
+    "evidence": [
+      {
+        "requested": "https://blog.ltya.top/",
+        "redirected_url": null,
+        "status_code": null,
+        "success": false,
+        "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: net::ERR_CONNECTION_CLOSED at https://blog.ltya.top/\nCall log:\n  - navigating to \"https://blog.ltya.top/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+        "markdown": "evidence/c461210839c75ed0.md"
+      }
+    ]
+  },
+  {
+    "url": "http://blog.xcnya.cn/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "http://blog.xcnya.cn/",
+        "redirected_url": "https://blog.xcnya.cn/",
+        "status_code": 301,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/0da03cd9a64047c6.md"
+      }
+    ]
+  },
+  {
+    "url": "https://jiuliu.top/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "当前显示站点正在建设中；维护占位不是确认站点类型不合格的证据。",
+    "evidence": [
+      {
+        "requested": "https://jiuliu.top/",
+        "redirected_url": "https://www.jiuliu.top/",
+        "status_code": 301,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/91b54c29399488ac.md"
+      }
+    ]
+  },
+  {
+    "url": "https://schaepher.github.io/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查一些想法，作者将个人思考整理为公开独立文章并补充说明。",
+    "evidence": [
+      {
+        "requested": "https://schaepher.github.io/",
+        "redirected_url": "https://schaepher.github.io/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/edac9a6f596e839b.md"
+      },
+      {
+        "requested": "https://schaepher.github.io/2023/02/11/2022-insight/",
+        "redirected_url": "https://schaepher.github.io/2023/02/11/2022-insight/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-8b755d234f5aa194.md"
+      }
+    ]
+  },
+  {
+    "url": "https://chuchencheng.com/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查 Vue computed deep 监听踩坑，作者案例、源码分析和实践记录完整。",
+    "evidence": [
+      {
+        "requested": "https://chuchencheng.com/",
+        "redirected_url": "https://chuchencheng.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/c69d23d03dd6d77f.md"
+      },
+      {
+        "requested": "https://chuchencheng.com/2019/12/12/%E8%AE%B0%E5%BD%95%EF%BC%9AVue-computed%E5%AE%9E%E7%8E%B0deep%E7%9B%91%E5%90%AC%E8%B8%A9%E5%9D%91/",
+        "redirected_url": "https://chuchencheng.com/2019/12/12/%E8%AE%B0%E5%BD%95%EF%BC%9AVue-computed%E5%AE%9E%E7%8E%B0deep%E7%9B%91%E5%90%AC%E8%B8%A9%E5%9D%91/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-978a636de508820e.md"
+      }
+    ]
+  },
+  {
+    "url": "https://xugaoyi.com/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://xugaoyi.com/",
+        "redirected_url": "https://xugaoyi.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/5681d331fc6e2add.md"
+      },
+      {
+        "requested": "https://xugaoyi.com/pages/4643cd/",
+        "redirected_url": "https://xugaoyi.com/pages/4643cd/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-757a673228c6802f.md"
+      }
+    ]
+  },
+  {
+    "url": "https://stust.org",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://stust.org",
+        "redirected_url": "https://stust.org/",
+        "status_code": 502,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/6a2dad523f97070a.md"
+      }
+    ]
+  },
+  {
+    "url": "http://pettw.lionfree.net/#",
+    "role": "friend",
+    "file": null,
+    "status": "exclude",
+    "reason": "tool-or-product-primary",
+    "note": "Minecraft 服务器介绍、分流玩法、管理团队和联系表单；内容均为单页区块及模板演示，没有发布栏目。",
+    "evidence": [
+      {
+        "requested": "http://pettw.lionfree.net/#",
+        "redirected_url": "http://pettw.lionfree.net/#",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/188da8f58a14a79d.md"
+      },
+      {
+        "requested": "http://pettw.lionfree.net",
+        "redirected_url": "http://pettw.lionfree.net/",
+        "status_code": 502,
+        "success": false,
+        "error_message": "Blocked by anti-bot protection: Structural: minimal_text, no_content_elements (39 bytes, 0 chars visible)",
+        "markdown": "evidence/detail-4001e49e353cff0a.md"
+      }
+    ]
+  },
+  {
+    "url": "https://kuriyona.com",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://kuriyona.com",
+        "redirected_url": "https://kuriyona.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/141e03d472eebf98.md"
+      },
+      {
+        "requested": "https://kuriyona.com/timeline",
+        "redirected_url": "https://kuriyona.com/timeline/",
+        "status_code": 308,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-ee98a6382b1b244b.md"
+      }
+    ]
+  },
+  {
+    "url": "https://launchpadx.top",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查生产库恢复事故的个人实操经过、恢复数量、证据与反思。",
+    "evidence": [
+      {
+        "requested": "https://launchpadx.top",
+        "redirected_url": "https://launchpadx.top/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/31409d026a57bead.md"
+      },
+      {
+        "requested": "https://launchpadx.top/posts/tech/galera-cache-recovery-misjudgment-production-database",
+        "redirected_url": "https://launchpadx.top/posts/tech/galera-cache-recovery-misjudgment-production-database",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-44f97a7fc32493e4.md"
+      }
+    ]
+  },
+  {
+    "url": "https://pyonpyon.today/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查 Helix 键盘诞生记，包含作者选择、组装步骤、实物记录与独立链接。",
+    "evidence": [
+      {
+        "requested": "https://pyonpyon.today/",
+        "redirected_url": "https://pyonpyon.today/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/af260736d33af59c.md"
+      },
+      {
+        "requested": "https://pyonpyon.today/p/2023-01-helix-keyboard",
+        "redirected_url": "https://pyonpyon.today/p/2023-01-helix-keyboard/",
+        "status_code": 308,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-bda86d1bee4d4b62.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tcdw.net/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "入口重定向到 tcdw.net，已检查作者使用 AI 编程工具和制作群聊 Bot 的个人体验。",
+    "evidence": [
+      {
+        "requested": "https://www.tcdw.net/",
+        "redirected_url": "https://tcdw.net/",
+        "status_code": 301,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/968d6b93a034f5b8.md"
+      },
+      {
+        "requested": "https://tcdw.net/post/plastic-wan-phase-1/",
+        "redirected_url": "https://tcdw.net/post/plastic-wan-phase-1/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-4d53b886205b4880.md"
+      }
+    ]
+  },
+  {
+    "url": "https://travel.moe/",
+    "role": "friend",
+    "file": null,
+    "status": "exclude",
+    "reason": "aggregator-not-blog-focused",
+    "note": "核心为萌ICP备案成员站随机跳转；成员准入是一般网站质量与备案对接，未限定独立博客，属于泛站点导航。",
+    "evidence": [
+      {
+        "requested": "https://travel.moe/",
+        "redirected_url": "https://travel.moe/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/011fc3d8f6d5a387.md"
+      },
+      {
+        "requested": "https://travel.moe/go.html",
+        "redirected_url": "https://travel.moe/go",
+        "status_code": 308,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-e2ec13398f43237c.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.woku.link/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取未获得可审核正文。",
+    "evidence": [
+      {
+        "requested": "https://www.woku.link/",
+        "redirected_url": null,
+        "status_code": null,
+        "success": false,
+        "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: net::ERR_CONNECTION_CLOSED at https://www.woku.link/\nCall log:\n  - navigating to \"https://www.woku.link/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+        "markdown": "evidence/a83ec64486de2a9b.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.meowhead.cn/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取未获得可审核正文。",
+    "evidence": [
+      {
+        "requested": "https://www.meowhead.cn/",
+        "redirected_url": null,
+        "status_code": null,
+        "success": false,
+        "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: net::ERR_CONNECTION_CLOSED at https://www.meowhead.cn/\nCall log:\n  - navigating to \"https://www.meowhead.cn/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+        "markdown": "evidence/a8bfe3d689eef3e4.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.lshack.cn/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://www.lshack.cn/",
+        "redirected_url": "https://www.lshack.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/c55353b339e036cb.md"
+      },
+      {
+        "requested": "https://www.lshack.cn/store",
+        "redirected_url": "https://www.lshack.cn/store/",
+        "status_code": 301,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-f9a6652acc4132ac.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.0x002.com/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取未获得可审核正文。",
+    "evidence": [
+      {
+        "requested": "https://www.0x002.com/",
+        "redirected_url": null,
+        "status_code": null,
+        "success": false,
+        "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: net::ERR_CONNECTION_CLOSED at https://www.0x002.com/\nCall log:\n  - navigating to \"https://www.0x002.com/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+        "markdown": "evidence/f2fd08d76a8d0d4c.md"
+      }
+    ]
+  },
+  {
+    "url": "https://zgao.top/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://zgao.top/",
+        "redirected_url": "https://zgao.top/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/5d126094643775f4.md"
+      },
+      {
+        "requested": "https://zgao.top/2026/06/",
+        "redirected_url": "https://zgao.top/2026/06/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-f9bb0cb33492998c.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.mcenahle.org.cn",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查我特别的一天的署名原创随笔；与 mcenahle.cn 的单页主页分开判定。",
+    "evidence": [
+      {
+        "requested": "https://blog.mcenahle.org.cn",
+        "redirected_url": "https://blog.mcenahle.org.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/f540e29b07c1e336.md"
+      },
+      {
+        "requested": "https://blog.mcenahle.org.cn/2026/06/10/454.html",
+        "redirected_url": "https://blog.mcenahle.org.cn/2026/06/10/454.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-811abf0a2d4a156c.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.david03.top/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://www.david03.top/",
+        "redirected_url": "https://www.david03.top/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/71a641bb19159ef9.md"
+      },
+      {
+        "requested": "https://www.david03.top/index.php/cross.html",
+        "redirected_url": "https://www.david03.top/index.php/cross.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-ea38151e23510b83.md"
+      }
+    ]
+  },
+  {
+    "url": "https://iwalyou.com/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取未获得可审核正文。",
+    "evidence": [
+      {
+        "requested": "https://iwalyou.com/",
+        "redirected_url": null,
+        "status_code": null,
+        "success": false,
+        "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: net::ERR_CONNECTION_CLOSED at https://iwalyou.com/\nCall log:\n  - navigating to \"https://iwalyou.com/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+        "markdown": "evidence/4501465a50743499.md"
+      }
+    ]
+  },
+  {
+    "url": "https://5ime.cn/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "补查年度简报，独立文章含生活、工作、创作与个人经历的长篇正文。",
+    "evidence": [
+      {
+        "requested": "https://5ime.cn/",
+        "redirected_url": "https://5ime.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/a40e9d4f8c7ccaad.md"
+      },
+      {
+        "requested": "https://5ime.cn/archive",
+        "redirected_url": "https://5ime.cn/archive",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/supplement-80a16ee0b9ce3d47.md"
+      },
+      {
+        "requested": "https://5ime.cn/hello-2026.html",
+        "redirected_url": "https://5ime.cn/hello-2026.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/supplement-ef7ed5f9aa7a3d2c.md"
+      }
+    ]
+  },
+  {
+    "url": "https://qing.su/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查本人为邮件服务器实现 AI 摘要的实践、开源代码与署名正文。",
+    "evidence": [
+      {
+        "requested": "https://qing.su/",
+        "redirected_url": "https://qing.su/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/5dec992476d88b55.md"
+      },
+      {
+        "requested": "https://qing.su/article/automated-email-content-summary-stalwart.html",
+        "redirected_url": "https://qing.su/article/automated-email-content-summary-stalwart.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-d7ee6a2c34b27c58.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.kasuganosora.cn/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取未获得可审核正文。",
+    "evidence": [
+      {
+        "requested": "https://www.kasuganosora.cn/",
+        "redirected_url": null,
+        "status_code": null,
+        "success": false,
+        "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: net::ERR_CONNECTION_CLOSED at https://www.kasuganosora.cn/\nCall log:\n  - navigating to \"https://www.kasuganosora.cn/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+        "markdown": "evidence/02f3f3b53b5fdb56.md"
+      }
+    ]
+  },
+  {
+    "url": "https://ling.crashvibe.cn/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查我把 VSCode 删了换成 Zed，正文有本人工作流变化与工具使用的原创观点。",
+    "evidence": [
+      {
+        "requested": "https://ling.crashvibe.cn/",
+        "redirected_url": "https://ling.crashvibe.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/cb8283c2e80b1a3d.md"
+      },
+      {
+        "requested": "https://ling.crashvibe.cn/posts/tool/switched-from-vscode-to-zed",
+        "redirected_url": "https://ling.crashvibe.cn/posts/tool/switched-from-vscode-to-zed",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-906c53b72f9ab9cc.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.dsnb.cc/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://blog.dsnb.cc/",
+        "redirected_url": "https://blog.dsnb.cc/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/46663752dc0032f4.md"
+      },
+      {
+        "requested": "https://blog.dsnb.cc/posts/games/minecraft/maps/gskard/",
+        "redirected_url": "https://blog.dsnb.cc/posts/games/minecraft/maps/gskard/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-e89deede3dbdd6ed.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.na3alf6.cn/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://blog.na3alf6.cn/",
+        "redirected_url": "https://blog.na3alf6.cn/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/7674f556a2c472f2.md"
+      },
+      {
+        "requested": "https://blog.na3alf6.cn/posts/03a34d18",
+        "redirected_url": "https://blog.na3alf6.cn/posts/03a34d18",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-4d59bdc49e631c35.md"
+      }
+    ]
+  },
+  {
+    "url": "https://hux6.com/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://hux6.com/",
+        "redirected_url": "https://hux6.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/ca759c91d5e1cfad.md"
+      },
+      {
+        "requested": "https://hux6.com/cross.html",
+        "redirected_url": "https://hux6.com/cross.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-41cda48d33770247.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.vvhan.com/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://www.vvhan.com/",
+        "redirected_url": "https://www.vvhan.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/bf4be3ffe0b91945.md"
+      },
+      {
+        "requested": "https://www.vvhan.com/article/astro-theme-vhastro-theme",
+        "redirected_url": "https://www.vvhan.com/article/astro-theme-vhastro-theme",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-300d5089a1db4b0f.md"
+      }
+    ]
+  },
+  {
+    "url": "https://blog.6uu.us/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://blog.6uu.us/",
+        "redirected_url": "https://blog.tsoo.net/",
+        "status_code": 301,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/d2cacca2812e69d6.md"
+      },
+      {
+        "requested": "https://blog.tsoo.net/archives/mian-fei-zhu-ce.cyou-.bondding-ji-yu-ming",
+        "redirected_url": "https://blog.tsoo.net/archives/mian-fei-zhu-ce.cyou-.bondding-ji-yu-ming",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-a3f772f1a10d4476.md"
+      }
+    ]
+  },
+  {
+    "url": "https://iy.ink/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取未获得可审核正文。",
+    "evidence": [
+      {
+        "requested": "https://iy.ink/",
+        "redirected_url": "https://iy.ink/",
+        "status_code": 200,
+        "success": false,
+        "error_message": "Blocked by anti-bot protection: Structural: minimal_text, no_content_elements, script_heavy_shell (1841 bytes, 37 chars visible)",
+        "markdown": "evidence/7af013df4823503b.md"
+      }
+    ]
+  },
+  {
+    "url": "https://dwd.moe/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查 2025 年终总结，包含作者写作、生活和站点折腾的实质回顾。",
+    "evidence": [
+      {
+        "requested": "https://dwd.moe/",
+        "redirected_url": "https://dwd.moe/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/5ab35e6268516e21.md"
+      },
+      {
+        "requested": "https://dwd.moe/post/hi-2026",
+        "redirected_url": "https://dwd.moe/post/hi-2026",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-9443060f7063f3f7.md"
+      }
+    ]
+  },
+  {
+    "url": "https://weekly.rs.101.so/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取未获得可审核正文。",
+    "evidence": [
+      {
+        "requested": "https://weekly.rs.101.so/",
+        "redirected_url": null,
+        "status_code": null,
+        "success": false,
+        "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: net::ERR_SSL_PROTOCOL_ERROR at https://weekly.rs.101.so/\nCall log:\n  - navigating to \"https://weekly.rs.101.so/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+        "markdown": "evidence/0d913d09e2fd1422.md"
+      }
+    ]
+  },
+  {
+    "url": "https://xhh.club/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "有归属标注和博客来源，也包含泛技术内容；是否以独立博客发现为核心及摘要/镜像边界仍待核实。",
+    "evidence": [
+      {
+        "requested": "https://xhh.club/",
+        "redirected_url": "https://xhh.club/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/2835f8c4ba782290.md"
+      },
+      {
+        "requested": "https://xhh.club/e/1ECciL0woeAg7OFWidmh/",
+        "redirected_url": "https://xhh.club/e/1ECciL0woeAg7OFWidmh/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-d93f8f48152cec10.md"
+      }
+    ]
+  },
+  {
+    "url": "http://www.inkscape.org/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取未获得可审核正文。",
+    "evidence": [
+      {
+        "requested": "http://www.inkscape.org/",
+        "redirected_url": "http://www.inkscape.org/",
+        "status_code": 403,
+        "success": false,
+        "error_message": "Blocked by anti-bot protection: HTTP 403 with HTML content (144 bytes)",
+        "markdown": "evidence/3f88f70b4c7dfe33.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.idove.games/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "unverifiable",
+    "note": "第二轮已检查入口及可发现详情；抓取未获得可审核正文。",
+    "evidence": [
+      {
+        "requested": "https://www.idove.games/",
+        "redirected_url": null,
+        "status_code": null,
+        "success": false,
+        "error_message": "Unexpected error in _crawl_web at line 778 in _crawl_web (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/crawl4ai/async_crawler_strategy.py):\nError: Failed on navigating ACS-GOTO:\nPage.goto: net::ERR_CONNECTION_CLOSED at https://www.idove.games/\nCall log:\n  - navigating to \"https://www.idove.games/\", waiting until \"domcontentloaded\"\n\n\nCode context:\n 773                                   tag=\"GOTO\",\n 774                                   params={\"url\": url},\n 775                               )\n 776                               response = None\n 777                           else:\n 778 →                             raise RuntimeError(f\"Failed on navigating ACS-GOTO:\\n{str(e)}\")\n 779   \n 780                       # ──────────────────────────────────────────────────────────────\n 781                       # Walk the redirect chain.  Playwright returns only the last\n 782                       # hop, so we trace the `request.redirected_from` links until the\n 783                       # first response that differs from the final one and surface its",
+        "markdown": "evidence/fd8724108d9487d1.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.onyi.net/",
+    "role": "friend",
+    "file": null,
+    "status": "include",
+    "reason": "",
+    "note": "已检查 Depression 原创随笔正文及独立 URL，站点有公开文章栏目。",
+    "evidence": [
+      {
+        "requested": "https://www.onyi.net/",
+        "redirected_url": "https://www.onyi.net/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/f44f857c15a4c549.md"
+      },
+      {
+        "requested": "https://www.onyi.net/archives/333.html",
+        "redirected_url": "https://www.onyi.net/archives/333.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-2c04d7e958f92c62.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.wnark.com",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://www.wnark.com",
+        "redirected_url": "https://www.wnark.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/aa1b3bc469c87c53.md"
+      },
+      {
+        "requested": "https://www.wnark.com/cross.html",
+        "redirected_url": "https://www.wnark.com/cross.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-3525ca17c69c7a61.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.moerats.com/",
+    "role": "friend",
+    "file": null,
+    "status": "unverified",
+    "reason": "no-qualifying-post",
+    "note": "第二轮已检查入口及可发现详情；已检查入口；发布栏目/文章线索存在或页面用途未明，但本轮证据尚不足以确认至少一篇合格原创正文及主体范围。",
+    "evidence": [
+      {
+        "requested": "https://www.moerats.com/",
+        "redirected_url": "https://www.moerats.com/",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/632d1bbfdb534c64.md"
+      },
+      {
+        "requested": "https://www.moerats.com/cross.html",
+        "redirected_url": "https://www.moerats.com/cross.html",
+        "status_code": 200,
+        "success": true,
+        "error_message": "",
+        "markdown": "evidence/detail-6e0368340cdd188d.md"
+      }
+    ]
+  }
+]

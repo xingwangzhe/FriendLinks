@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://www.mcenahle.cn",
+    "status": "exclude",
+    "reason": "single-page-only",
+    "note": "全库反查发现的 www 变体已实际抓取，与对应已排除入口的用途一致；仅删除该确认地址，不据相似 hostname 推断其他地址。",
+    "evidence": [
+      {
+        "requested": "https://www.mcenahle.cn",
+        "redirected_url": "https://mcenahle.cn/",
+        "status_code": 302,
+        "success": true,
+        "markdown": "evidence/supplement-bd5670040411d23a.md"
+      }
+    ]
+  },
+  {
+    "url": "http://www.h4ck.org.cn",
+    "status": "exclude",
+    "reason": "homepage-only",
+    "note": "全库反查发现的 www 变体已实际抓取，与对应已排除入口的用途一致；仅删除该确认地址，不据相似 hostname 推断其他地址。",
+    "evidence": [
+      {
+        "requested": "http://www.h4ck.org.cn",
+        "redirected_url": "http://www.h4ck.org.cn/",
+        "status_code": 200,
+        "success": true,
+        "markdown": "evidence/supplement-10eb6bee00dacecf.md"
+      }
+    ]
+  },
+  {
+    "url": "https://www.pljzy.top/",
+    "status": "exclude",
+    "reason": "homepage-only",
+    "note": "全库反查发现的 www 变体已实际抓取，与对应已排除入口的用途一致；仅删除该确认地址，不据相似 hostname 推断其他地址。",
+    "evidence": [
+      {
+        "requested": "https://www.pljzy.top/",
+        "redirected_url": "https://www.pljzy.top/",
+        "status_code": 200,
+        "success": true,
+        "markdown": "evidence/supplement-349a844bcb978cd2.md"
+      }
+    ]
+  },
+  {
+    "url": "http://www.ikk.me/",
+    "status": "exclude",
+    "reason": "homepage-only",
+    "note": "全库反查发现的 www 变体已实际抓取，与对应已排除入口的用途一致；仅删除该确认地址，不据相似 hostname 推断其他地址。",
+    "evidence": [
+      {
+        "requested": "http://www.ikk.me/",
+        "redirected_url": "https://www.ikk.me/",
+        "status_code": 307,
+        "success": true,
+        "markdown": "evidence/supplement-8986a5e407985e8e.md"
+      }
+    ]
+  }
+]

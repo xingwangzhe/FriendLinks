@@ -1,0 +1,17 @@
+{
+  "requested": "https://www.himiku.com/",
+  "success": false,
+  "error": "timeout or empty result",
+  "url": "https://www.himiku.com/",
+  "redirected_url": null,
+  "redirected_status_code": null,
+  "status_code": null,
+  "error_message": "Unexpected error in _crawl_web at line 632 in wrap_api_call (../../../.local/share/uv/tools/crawl4ai/lib/python3.13/site-packages/playwright/_impl/_connection.py):\nError: Page.content: Unable to retrieve content because the page is navigating and changing the content.\n\nCode context:\n 627           )\n 628           self._api_zone.set(parsed_st)\n 629           try:\n 630               return await cb()\n 631           except Exception as error:\n 632 →             raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\n 633           finally:\n 634               self._api_zone.set(None)\n 635   \n 636       def wrap_api_call_sync(\n 637           self, cb: Callable[[], Any], is_internal: bool = False, title: str = None",
+  "metadata": null,
+  "canonicals": [],
+  "markdownLength": 0,
+  "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "links": {},
+  "markdown": "evidence/b0ebb00524ee5966.md",
+  "seconds": 19.44
+}

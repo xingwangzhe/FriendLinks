@@ -1,0 +1,182 @@
+{
+  "requested": "https://blog.rvalue.moe/links",
+  "success": true,
+  "url": "https://blog.rvalue.moe/links",
+  "redirected_url": "https://blog.rvalue.moe/links",
+  "redirected_status_code": 404,
+  "status_code": 404,
+  "error_message": "",
+  "metadata": {
+    "title": "404 页面没找到 - rvalue's blog",
+    "description": null,
+    "keywords": null,
+    "author": null,
+    "og:title": "404 Page not found",
+    "og:description": "Blog of rvalue: Τhіnk οncе, сοdе ΝаΝcе;",
+    "og:type": "website",
+    "og:url": "https://blog.rvalue.moe/404.html",
+    "og:image": "https://blog.rvalue.moe/logo.png",
+    "og:site_name": "rvalue's Blog",
+    "twitter:card": "summary_large_image",
+    "twitter:image": "https://blog.rvalue.moe/logo.png",
+    "twitter:title": "404 Page not found",
+    "twitter:description": "Blog of rvalue: Τhіnk οncе, сοdе ΝаΝcе;"
+  },
+  "canonicals": [
+    "https://blog.rvalue.moe/404.html"
+  ],
+  "markdownLength": 1198,
+  "contentHash": "2a1d8286fab49336b8c8fa4fdc0043207fb7e980b1d68cc3cb47c7f082ca99f0",
+  "links": {
+    "internal": [
+      {
+        "href": "https://blog.rvalue.moe/",
+        "text": "rvalue's blog",
+        "title": "rvalue's blog",
+        "base_domain": "rvalue.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.rvalue.moe/posts/",
+        "text": "文章",
+        "title": "",
+        "base_domain": "rvalue.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.rvalue.moe/tags/",
+        "text": "标签",
+        "title": "",
+        "base_domain": "rvalue.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.rvalue.moe/categories/",
+        "text": "分类",
+        "title": "",
+        "base_domain": "rvalue.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://rvalue.moe",
+        "text": "个人",
+        "title": "Personal Index",
+        "base_domain": "rvalue.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.rvalue.moe/about/",
+        "text": "About",
+        "title": "关于",
+        "base_domain": "rvalue.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.rvalue.moe/friends/",
+        "text": "Friends",
+        "title": "关于",
+        "base_domain": "rvalue.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://blog.rvalue.moe/links",
+        "text": "",
+        "title": "回到顶部",
+        "base_domain": "rvalue.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "javascript:void(0);",
+        "text": "",
+        "title": "搜索",
+        "base_domain": "",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://gohugo.io/",
+        "text": "Hugo",
+        "title": "Hugo 0.87.0",
+        "base_domain": "gohugo.io",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://github.com/dillonzq/LoveIt",
+        "text": "LoveIt",
+        "title": "LoveIt 0.2.11",
+        "base_domain": "github.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "text": "CC BY-NC 4.0",
+        "title": "",
+        "base_domain": "creativecommons.org",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/3b36ccfc9afa9628.md",
+  "seconds": 5.1
+}

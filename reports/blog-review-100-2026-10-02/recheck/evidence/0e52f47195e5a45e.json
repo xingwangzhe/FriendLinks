@@ -1,0 +1,51 @@
+{
+  "requested": "https://asain.icu",
+  "success": true,
+  "error": "timeout or empty result",
+  "url": "https://asain.icu",
+  "redirected_url": "https://foundaiextension.com/?tspid=i7vm7&clid=c*Q*INE0HUM",
+  "redirected_status_code": 200,
+  "status_code": 302,
+  "error_message": "",
+  "metadata": {
+    "title": "FoundAI - AI-Powered Search Extension | Chrome Web Store",
+    "description": "Enhance your search experience with FoundAI - AI-powered search extension for Chrome",
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 3482,
+  "contentHash": "6a0fa5d0a603124db9ecaa342deef7081ed764947256b7debdc6c63db2d64b2b",
+  "links": {
+    "internal": [
+      {
+        "href": "https://foundaiextension.com/?clid=c%2AQ%2AINE0HUM&tspid=i7vm7",
+        "text": "FoundAI",
+        "title": "",
+        "base_domain": "foundaiextension.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://chromewebstore.google.com/detail/foundai/ikhppoejmblmhjmhkccoghjkcbanndnb?clid=c%2AQ%2AINE0HUM&cs=a7edc6b9-e4cf-4696-b52c-89bd4e2b3db4&landing_pl_id=75eacb09-56e0-4912-b788-310ffd99f85b&pl_id=75eacb09-56e0-4912-b788-310ffd99f85b&tspid=i7vm7",
+        "text": "Add to Chrome",
+        "title": "",
+        "base_domain": "google.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/0e52f47195e5a45e.md",
+  "seconds": 13.19
+}

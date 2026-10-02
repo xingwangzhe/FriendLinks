@@ -1,0 +1,12 @@
+# [Derek Sivers](https://www.dereksivers.org/)
+SubscribeSign in
+[](https://substack.com?utm_content=island-desktop-nav-sidebar)[](https://substack.com/inbox?utm_content=island-desktop-nav-sidebar)[](https://substack.com/chat?utm_content=island-desktop-nav-sidebar)[](https://substack.com/activity?utm_content=island-desktop-nav-sidebar)[](https://substack.com/explore?utm_content=island-desktop-nav-sidebar)
+![](https://substackcdn.com/image/fetch/$s_!pytf!,w_88,h_88,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5c3a88d0-2101-4bd8-b81c-958d4f38e2e6_616x616.jpeg)
+# Derek Sivers
+Author of “Useful Not True”, “How to Live”, “Hell Yeah or No”, and more. I’ve been a musician, circus performer, entrepreneur, and speaker. I’m a slow thinker, explorer, xenophile, and I love a different point of view.
+Subscribe
+By subscribing, you agree Substack's [Terms of Use](https://substack.com/tos), and acknowledge its [Information Collection Notice](https://substack.com/ccpa#personal-data-collected) and [Privacy Policy](https://substack.com/privacy).
+No thanks
+© 2026 Sivers Inc · [Privacy](https://substack.com/privacy) ∙ [Terms](https://substack.com/tos) ∙ [Collection notice](https://substack.com/ccpa#personal-data-collected)
+[ Start your Substack](https://substack.com/signup?utm_source=substack&utm_medium=web&utm_content=footer)[Get the app](https://substack.com/app/app-store-redirect?utm_campaign=app-marketing&utm_content=web-footer-button)
+[Substack](https://substack.com) is the home for great culture

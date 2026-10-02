@@ -1,0 +1,31 @@
+{
+  "checkedOn": "2026-10-02",
+  "reviewedPreviouslyUnverifiedUrls": 132,
+  "recheckDecisions": {
+    "exclude": 8,
+    "unverified": 90,
+    "include": 34
+  },
+  "rootProbes": 132,
+  "detailProbes": 88,
+  "supplementProbes": 30,
+  "formalRecordsBefore": 8589,
+  "formalRecordsAfter": 8570,
+  "changedYamlFiles": 490,
+  "deletedYamlFiles": 19,
+  "updatedSurvivingYamlFiles": 471,
+  "removedReferencesFromSurvivingFiles": 517,
+  "originalReferencesInsideDeletedFiles": 512,
+  "totalRecordedReferencesRemoved": 1029,
+  "nonFriendMetadataChanges": 0,
+  "addedOrModifiedFriends": 0,
+  "errors": [],
+  "remainingMatchedReferences": 0,
+  "validation": {
+    "lint": "passed",
+    "validate": "8570 YAML / 8570 logical sites passed"
+  },
+  "buildRun": false,
+  "commitCreated": false,
+  "pushRun": false
+}

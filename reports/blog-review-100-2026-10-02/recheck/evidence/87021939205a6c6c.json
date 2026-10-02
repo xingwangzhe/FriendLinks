@@ -1,0 +1,50 @@
+{
+  "requested": "http://nuel.news",
+  "success": true,
+  "error": "timeout or empty result",
+  "url": "http://nuel.news",
+  "redirected_url": "https://nuel.news/",
+  "redirected_status_code": 200,
+  "status_code": 301,
+  "error_message": "",
+  "metadata": {
+    "title": "nuel news",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 614,
+  "contentHash": "fd9a85752f770bb4030c70c67f0814826fd61b5c34cc3cc9f4b83a5d6fb624cc",
+  "links": {
+    "internal": [],
+    "external": [
+      {
+        "href": "https://buttondown.com/nuel/archive/nuel-news-20-play-testing/",
+        "text": "Latest issue\n\t\t\n\t\tnuel news #20: Play Testing\n\t\tStoryboards and prototypes\n\t\tDec 17, 2025",
+        "title": "",
+        "base_domain": "buttondown.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://nuel.pw",
+        "text": "",
+        "title": "",
+        "base_domain": "nuel.pw",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/87021939205a6c6c.md",
+  "seconds": 16.02
+}

@@ -1,0 +1,37 @@
+{
+  "requested": "https://sndtst.com/",
+  "success": true,
+  "url": "https://sndtst.com/",
+  "redirected_url": "https://sndtst.com/",
+  "redirected_status_code": 200,
+  "status_code": 200,
+  "error_message": "",
+  "metadata": {
+    "title": "INEOLOGIC",
+    "description": null,
+    "keywords": null,
+    "author": null
+  },
+  "canonicals": [],
+  "markdownLength": 441,
+  "contentHash": "63c60c5b00904f7e3fa4102d59c887c078b40136b46779ff302e8885c1a189b0",
+  "links": {
+    "internal": [
+      {
+        "href": "https://sndtst.com/about/privacy/",
+        "text": "PRIVACY",
+        "title": "",
+        "base_domain": "sndtst.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": []
+  },
+  "markdown": "evidence/47bb3ddc797b2ff8.md",
+  "seconds": 16.89
+}

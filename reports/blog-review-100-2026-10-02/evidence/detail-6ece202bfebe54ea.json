@@ -1,0 +1,58 @@
+{
+  "requested": "https://faircamp.webr.ing/directory.html",
+  "source": "https://faircamp.webr.ing/",
+  "label": "Site Directory",
+  "success": true,
+  "status_code": 200,
+  "redirected_url": "https://faircamp.webr.ing/directory.html",
+  "error_message": "",
+  "metadata": {
+    "title": "Directory | Faircamp Webring",
+    "description": "Directory of independent artists and labels on the Faircamp Webring",
+    "keywords": null,
+    "author": null
+  },
+  "links": {
+    "internal": [
+      {
+        "href": "https://faircamp.webr.ing/",
+        "text": "← Back",
+        "title": "",
+        "base_domain": "webr.ing",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://faircamp.webr.ing",
+        "text": "Faircamp Webring",
+        "title": "",
+        "base_domain": "webr.ing",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://faircamp.webr.ing/directory.html",
+        "text": "Ring Order",
+        "title": "",
+        "base_domain": "webr.ing",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": []
+  },
+  "markdown": "evidence/detail-6ece202bfebe54ea.md",
+  "markdownLength": 658
+}

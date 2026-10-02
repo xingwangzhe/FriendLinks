@@ -1,0 +1,156 @@
+{
+  "requested": "https://maxchang.me",
+  "success": true,
+  "error": "timeout or empty result",
+  "url": "https://maxchang.me",
+  "redirected_url": "https://maxchang.me/",
+  "redirected_status_code": 200,
+  "status_code": 200,
+  "error_message": "",
+  "metadata": {
+    "title": "Max Chang",
+    "description": "Max Chang's personal website. Blog, learning, matters, thoughts.",
+    "keywords": null,
+    "author": "Max Chang",
+    "og:type": "website",
+    "og:url": "https://maxchang.me/",
+    "og:title": "Max Chang",
+    "og:description": "Max Chang's personal website. Blog, learning, matters, thoughts.",
+    "og:image": "https://maxchang.me/og-images/og-image.png",
+    "og:site_name": "maxchang.me",
+    "og:locale": "en_US"
+  },
+  "canonicals": [
+    "https://maxchang.me/"
+  ],
+  "markdownLength": 1629,
+  "contentHash": "2fd0f146ac6196a711be83660dbbc9d2a9418e5797e3af41c5b905abf8bbe8be",
+  "links": {
+    "internal": [
+      {
+        "href": "https://maxchang.me/",
+        "text": "Skip to content",
+        "title": "",
+        "base_domain": "maxchang.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://maxchang.me/posts/",
+        "text": "Blog",
+        "title": "Blog",
+        "base_domain": "maxchang.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://maxchang.me/projects/",
+        "text": "Projects",
+        "title": "Projects",
+        "base_domain": "maxchang.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://maxchang.me/friends/",
+        "text": "Friends",
+        "title": "Friends",
+        "base_domain": "maxchang.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://maxchang.me/about/",
+        "text": "About",
+        "title": "About",
+        "base_domain": "maxchang.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://maxchang.me/rss.xml",
+        "text": "",
+        "title": "RSS Feed",
+        "base_domain": "maxchang.me",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ],
+    "external": [
+      {
+        "href": "https://www.travellings.cn/go.html",
+        "text": "",
+        "title": "Travelling to another place",
+        "base_domain": "travellings.cn",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://github.com/maxchang3",
+        "text": "",
+        "title": "Max Chang on GitHub",
+        "base_domain": "github.com",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://astro.build",
+        "text": "Astro",
+        "title": "",
+        "base_domain": "astro.build",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      },
+      {
+        "href": "https://icp.gov.moe/?keyword=20213939",
+        "text": "20213939",
+        "title": "",
+        "base_domain": "icp.gov.moe",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "markdown": "evidence/b1c7c9d887e0b84e.md",
+  "seconds": 12.67
+}
