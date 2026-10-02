@@ -1,14 +1,11 @@
 ---
-import "../styles/starwind.css";
+import "../styles/app.css";
 import "../css/base.css";
 import "../css/topbar.css";
-import { Button } from "@/components/starwind/button";
-import { Spinner } from "@/components/starwind/spinner";
-import { Dialog, DialogContent, DialogTitle, DialogHeader, DialogTrigger } from "@/components/starwind/dialog";
 export const prerender = true;
 ---
 
-<html lang="zh-CN">
+<html lang="zh-CN" class="dark" data-theme="dark" style="color-scheme: dark;">
   <head>
     <meta charset="utf-8" />
     <link
@@ -21,26 +18,18 @@ export const prerender = true;
     <title>博客宇宙</title>
     <meta name="description" content="探索浩瀚的博客宇宙，寻找彼此之间的联系" />
     <link rel="preconnect" href="https://github.com" />
-	    <script is:inline>
-	      function initTheme() {
-	        const theme = localStorage.getItem("colorTheme");
-	        if (!theme) {
-	          if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-	            document.documentElement.classList.add("dark");
-	          }
-	        } else if (theme === "dark") {
-	          document.documentElement.classList.add("dark");
-	        } else {
-	          document.documentElement.classList.remove("dark");
-	        }
-	      }
-	      initTheme();
-	      document.addEventListener("astro:after-swap", initTheme);
-	    </script>
-	    <script is:inline>
+	    <script is:inline define:vars={{ enableServiceWorker: import.meta.env.PROD }}>
 	      if ("serviceWorker" in navigator) {
-	        window.addEventListener("load", () => {
-	          navigator.serviceWorker.register("/sw.js");
+	        window.addEventListener("load", async () => {
+	          if (enableServiceWorker) navigator.serviceWorker.register("/sw.js");
+            else {
+              const registrations = await navigator.serviceWorker.getRegistrations();
+              for (const registration of registrations) {
+                if (registration.active?.scriptURL === new URL("/sw.js", location.origin).href) await registration.unregister();
+              }
+              for (const key of await caches.keys()) if (key.startsWith("friendlinks-")) await caches.delete(key);
+              if (navigator.serviceWorker.controller?.scriptURL === new URL("/sw.js", location.origin).href) location.reload();
+            }
 	        });
 	      }
 	    </script>
@@ -75,10 +64,10 @@ export const prerender = true;
         <input
           id="graph-search"
           type="text"
-          placeholder="搜索站点名或域名 | 左键打开网站 | 右键聚焦节点"
+          placeholder="搜索站点名或域名，选择结果聚焦节点"
           autocomplete="off"
-        />
-        <button id="graph-search-clear" class="search-clear" aria-label="清空搜索" title="清空搜索">✖</button>
+         class="input input-bordered w-full" />
+        <button id="graph-search-clear" class="btn btn-sm search-clear" aria-label="清空搜索" title="清空搜索" >✖</button>
         <div id="graph-search-results" class="results" role="listbox"></div>
       </div>
     </div>
@@ -87,52 +76,42 @@ export const prerender = true;
     <!-- 首屏加载蒙版 -->
     <div id="loading-overlay">
       <div class="loading-box">
-        <Spinner class="size-10 text-[#4a9eff]" />
+        <span class="loading loading-spinner loading-lg" aria-label="正在加载"></span>
         <div class="loading-status">
           <span id="loading-text">正在探索博客宇宙...</span>
           <span id="loading-time" class="loading-time"></span>
         </div>
-        <div class="loading-bar-track">
-          <div id="loading-bar" class="loading-bar-fill"></div>
-        </div>
+        <progress max="100" class="progress progress-primary w-full" id="loading-bar" value="0" label="加载进度"></progress>
       </div>
     </div>
 
     <div class="top-buttons">
-      <button id="menu-toggle" class="top-button menu-toggle" aria-label="菜单" title="菜单">☰</button>
+      <button id="menu-toggle" class="btn btn-sm top-button menu-toggle" aria-label="菜单" title="菜单" >☰</button>
       <div class="top-buttons-group">
-        <Button id="fly-toggle" variant="ghost" size="sm" aria-label="切换飞船模式">🚀 飞船模式</Button>
-        <DialogTrigger for="about-dialog" asChild>
-          <Button id="about-toggle" variant="ghost" size="sm" aria-label="关于项目">关于</Button>
-        </DialogTrigger>
-        <DialogTrigger for="stats-dialog" asChild>
-          <Button id="stats-toggle" variant="ghost" size="sm" aria-label="查看统计信息">📊统计信息</Button>
-        </DialogTrigger>
-        <Button id="opacity-toggle" variant="ghost" size="sm" aria-label="控制面板">控制面板</Button>
-        <Button id="path-toggle" variant="ghost" size="sm" aria-label="路径查找">🔗 路径查找</Button>
-        <Button id="btn-random" variant="ghost" size="sm" aria-label="随机博客">🎲 随机博客</Button>
-        <Button id="fullscreen-toggle" variant="ghost" size="sm" aria-label="全屏模式">⛶ 全屏模式</Button>
+        <button id="fly-toggle"  aria-label="切换飞船模式" class="btn btn-sm">🚀 飞船模式</button>
+        <button id="about-toggle"  aria-label="关于项目" class="btn btn-sm">关于</button>
+        <button id="stats-toggle"  aria-label="查看统计信息" class="btn btn-sm">📊统计信息</button>
+        <button id="opacity-toggle"  aria-label="控制面板" class="btn btn-sm">控制面板</button>
+        <button id="path-toggle"  aria-label="路径查找" class="btn btn-sm">🔗 路径查找</button>
+        <button id="btn-random"  aria-label="随机博客" class="btn btn-sm">🎲 随机博客</button>
+        <button id="fullscreen-toggle"  aria-label="全屏模式" class="btn btn-sm">⛶ 全屏模式</button>
       </div>
     </div>
 
     <!-- 统计数据（构建时预埋，避免运行时 fetch） -->
 
     <!-- 统计弹窗 -->
-    <Dialog id="stats-dialog">
-      <DialogContent class="sm:max-w-3xl">
-        <DialogHeader>
-          <DialogTitle>📊 博客宇宙统计</DialogTitle>
-        </DialogHeader>
+    <section id="stats-dialog" class="panel-content" style="display:none">
+
+
         <div id="stats-content" class="space-y-4"></div>
-      </DialogContent>
-    </Dialog>
+
+    </section>
 
     <!-- 关于弹窗 -->
-    <Dialog id="about-dialog">
-      <DialogContent class="sm:max-w-2xl">
-        <DialogHeader>
-          <DialogTitle>关于博客宇宙</DialogTitle>
-        </DialogHeader>
+    <section id="about-dialog" class="panel-content" style="display:none">
+
+
         <div class="space-y-5 text-sm">
           <div class="grid gap-4 sm:grid-cols-2">
             <div class="rounded-lg border p-4">
@@ -188,9 +167,9 @@ friends:
             <a href="https://github.com/xingwangzhe/FriendLinks" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs hover:bg-muted transition-colors">GitHub 仓库</a>
           </div>
         </div>
-      </DialogContent>
-    </Dialog>
-    <!-- 路径查找底部栏 -->
+
+    </section>
+    <!-- 路径查找窗口内容 -->
     <div id="path-bar" class="path-bar">
       <div class="path-bar-row">
         <span class="path-bar-icon">🔗</span>
@@ -200,7 +179,7 @@ friends:
             type="text"
             placeholder="起点站点…"
             autocomplete="off"
-          />
+           class="input input-bordered w-full" />
           <div id="path-results-from" class="path-results" role="listbox"></div>
         </div>
         <span class="path-arrow">→</span>
@@ -210,411 +189,68 @@ friends:
             type="text"
             placeholder="终点站点…"
             autocomplete="off"
-          />
+           class="input input-bordered w-full" />
           <div id="path-results-to" class="path-results" role="listbox"></div>
         </div>
         <span id="path-step-indicator" class="path-step-info" style="display:none;"></span>
-        <button id="path-prev-btn" class="path-nav-btn" disabled title="上一步">◀</button>
-        <button id="path-next-btn" class="path-nav-btn" disabled title="下一步">▶</button>
-        <button id="path-clear-btn" class="path-nav-btn path-clear-btn" title="清除路径" style="display:none;">✕</button>
-        <button id="path-bar-close" class="path-nav-btn" title="关闭">−</button>
+        <button id="path-prev-btn" class="btn btn-sm path-nav-btn" disabled title="上一步" >◀</button>
+        <button id="path-next-btn" class="btn btn-sm path-nav-btn" disabled title="下一步" >▶</button>
+        <button id="path-clear-btn" class="btn btn-sm path-nav-btn path-clear-btn" title="清除路径" style="display:none;" >✕</button>
+        <button id="path-bar-close" class="btn btn-sm path-nav-btn" title="关闭" >−</button>
       </div>
       <div id="path-error" class="path-bar-error" style="display:none;"></div>
     </div>
-    <style>
-      /* 顶部按钮通用样式 */
-      .top-button {
-        padding: 6px 10px;
-        border: 1px solid var(--border);
-        border-radius: 6px;
-        background: var(--card-bg);
-        color: var(--text-color);
-        cursor: pointer;
-        pointer-events: auto;
-        font-size: 14px;
-        white-space: nowrap;
-        min-height: 36px;
-      }
-      .top-button:focus {
-        outline: 2px solid
-          color-mix(in srgb, var(--text-color) 20%, transparent);
-      }
 
-      /* 按钮容器 */
-      .top-buttons {
-        position: fixed;
-        top: 12px;
-        right: 12px;
-        z-index: 60;
-        display: flex;
-        gap: 8px;
-        align-items: flex-start;
-        pointer-events: auto;
-      }
-      .menu-toggle {
-        display: none;
-        font-size: 18px;
-        line-height: 1;
-        min-width: 36px;
-        min-height: 36px;
-      }
-      .top-buttons-group {
-        display: flex;
-        gap: 8px;
-        pointer-events: auto;
-      }
-
-      /* 覆盖可能存在的 id 选择器定位（来自 topbar.css），确保按钮在容器内正常布局 */
-      #stats-toggle {
-        position: relative !important;
-        top: auto !important;
-        right: auto !important;
-        z-index: 61 !important;
-      }
-
-      /* ── 移动端调整 ── */
-      @media (max-width: 640px) {
-        .top-buttons {
-          top: 8px;
-          right: 6px;
-          flex-direction: column;
-          align-items: flex-end;
-          gap: 4px;
-        }
-        .menu-toggle {
-          display: inline-block;
-          min-width: 44px;
-          min-height: 44px;
-          font-size: 20px;
-        }
-        .top-buttons-group {
-          display: none;
-          flex-direction: column;
-          gap: 4px;
-          background: var(--card-bg);
-          border: 1px solid var(--border);
-          border-radius: 8px;
-          padding: 6px;
-          box-shadow: 0 4px 12px rgba(0,0,0,.15);
-        }
-        .top-buttons-group.open {
-          display: flex;
-        }
-        .top-button {
-          font-size: 13px;
-          padding: 8px 12px;
-          min-height: 44px;
-        }
-      }
-
-      /* ── 平板端调整 (641-1024px) ── */
-      @media (min-width: 641px) and (max-width: 1024px) {
-        .top-buttons {
-          top: 10px;
-          right: 10px;
-          gap: 6px;
-        }
-        .top-button {
-          font-size: 13px;
-          padding: 5px 8px;
-        }
-      }
-
-      /* 首屏加载蒙版 */
-      #loading-overlay {
-        position: fixed;
-        inset: 0;
-        z-index: 9999;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: var(--bg, #0f1115);
-        transition: opacity 0.5s ease;
-      }
-      #loading-overlay.hidden {
-        opacity: 0;
-        pointer-events: none;
-      }
-      .loading-box {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 16px;
-      }
-      .loading-status {
-        display: flex;
-        flex-direction: column;
-        gap: 4px;
-        align-items: center;
-      }
-      .loading-status span {
-        font-size: 14px;
-        color: var(--text-color);
-        font-family: sans-serif;
-      }
-      .loading-time {
-        font-size: 12px !important;
-        color: var(--text-color) !important;
-        font-variant-numeric: tabular-nums;
-      }
-      .loading-bar-track {
-        width: 200px;
-        height: 3px;
-        background: var(--border);
-        border-radius: 2px;
-        overflow: hidden;
-      }
-      .loading-bar-fill {
-        height: 100%;
-        width: 0%;
-        background: linear-gradient(90deg, #4a9eff, #7c5cfc);
-        border-radius: 2px;
-        transition: width 0.3s ease;
-      }
-
-      /* 路径底部栏 */
-      #path-bar {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        z-index: 100;
-        background: var(--card-bg);
-        border-top: 1px solid var(--border);
-        box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.12);
-        padding: 8px 16px;
-        transform: translateY(100%);
-        transition: transform 0.3s ease;
-      }
-      #path-bar.show {
-        transform: translateY(0);
-      }
-      .path-bar-row {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        flex-wrap: wrap;
-      }
-      .path-bar-icon {
-        font-size: 16px;
-        flex-shrink: 0;
-      }
-      .path-arrow {
-        color: var(--text-color);
-        font-size: 14px;
-        flex-shrink: 0;
-      }
-      .path-search-wrap {
-        position: relative;
-        flex: 1;
-        min-width: 120px;
-        max-width: 220px;
-      }
-      .path-search-wrap input {
-        width: 100%;
-        height: 32px;
-        padding: 0 8px;
-        border: 1px solid var(--border);
-        border-radius: 6px;
-        background: var(--card-bg);
-        color: var(--text-color);
-        font-size: 13px;
-        box-sizing: border-box;
-      }
-      .path-search-wrap input:focus {
-        outline: 2px solid color-mix(in srgb, var(--text-color) 20%, transparent);
-      }
-      .path-results {
-        position: absolute;
-        bottom: 100%;
-        left: 0;
-        right: 0;
-        max-height: 200px;
-        overflow-y: auto;
-        background: var(--card-bg);
-        border: 1px solid var(--border);
-        border-radius: 6px;
-        box-shadow: 0 -6px 18px rgba(0, 0, 0, 0.12);
-        display: none;
-        z-index: 10;
-        margin-bottom: 4px;
-      }
-      .path-results .path-result-item {
-        padding: 6px 10px;
-        cursor: pointer;
-        font-size: 13px;
-        color: var(--text-color);
-      }
-      .path-results .path-result-item:hover {
-        background: color-mix(in srgb, var(--card-bg) 92%, black 8%);
-      }
-      .path-result-item .path-result-name {
-        font-weight: 600;
-      }
-      .path-result-item .path-result-url {
-        font-size: 11px;
-        color: var(--text-color);
-        margin-top: 2px;
-      }
-      .path-step-info {
-        font-size: 12px;
-        color: var(--text-color);
-        white-space: nowrap;
-        flex-shrink: 0;
-      }
-      .path-nav-btn {
-        height: 32px;
-        padding: 0 10px;
-        border: 1px solid var(--border);
-        border-radius: 6px;
-        background: var(--card-bg);
-        color: var(--text-color);
-        cursor: pointer;
-        font-size: 14px;
-        flex-shrink: 0;
-        white-space: nowrap;
-      }
-      .path-nav-btn:disabled {
-        opacity: 0.35;
-        cursor: not-allowed;
-      }
-      .path-nav-btn:not(:disabled):hover {
-        background: color-mix(in srgb, var(--card-bg) 92%, black 8%);
-      }
-      .path-clear-btn {
-        color: #e74c3c;
-        border-color: #e74c3c;
-      }
-      .path-clear-btn:hover {
-        background: rgba(231, 76, 60, 0.1) !important;
-      }
-      .path-bar-error {
-        color: #e74c3c;
-        font-size: 12px;
-        text-align: center;
-        padding: 4px 0 0 0;
-      }
-
-      /* ── 路径栏响应式 ── */
-      @media (max-width: 640px) {
-        #path-bar {
-          padding: 8px 8px;
-        }
-        .path-bar-row {
-          gap: 4px;
-        }
-        .path-search-wrap {
-          min-width: 80px;
-          max-width: none;
-          flex: 1 1 40%;
-        }
-        .path-search-wrap input {
-          height: 36px;
-          font-size: 14px;
-        }
-        .path-bar-icon {
-          display: none;
-        }
-        .path-nav-btn {
-          height: 36px;
-          padding: 0 8px;
-          font-size: 13px;
-        }
-      }
-      @media (max-width: 480px) {
-        .path-bar-row {
-          flex-wrap: wrap;
-        }
-        .path-search-wrap {
-          flex: 1 1 100%;
-          min-width: 0;
-        }
-        .path-arrow {
-          display: none;
-        }
-      }
-
-	      /* ── JS 动态面板响应式 ── */
-	      /* 邻接面板由 JS 注入 style 控制，此处无需声明 */
-      /* 控制面板桌面端默认 */
-      #graph-control-panel {
-        --cp-bottom: 70px;
-        --cp-right: 16px;
-        --cp-left: auto;
-        --cp-top: auto;
-        --cp-width: auto;
-        --cp-border-radius: 8px;
-        --cp-transform: none;
-      }
-      /* 飞船面板桌面端默认 */
-      #fly-control-panel {
-        --fp-bottom: 70px;
-        --fp-left: 16px;
-        --fp-right: auto;
-        --fp-top: auto;
-        --fp-max-width: 220px;
-      }
-      @media (max-width: 640px) {
-        #neighbor-panel {
-          --np-right: 0;
-          --np-top: auto;
-          --np-transform: none;
-          --np-bottom: 0;
-          --np-left: 0;
-          --np-width: 100%;
-          --np-max-height: 60vh;
-          --np-border-radius: 12px 12px 0 0;
-        }
-        #graph-control-panel {
-          --cp-bottom: 0;
-          --cp-right: 0;
-          --cp-left: 0;
-          --cp-width: 100%;
-          --cp-border-radius: 12px 12px 0 0;
-        }
-        #fly-control-panel {
-          --fp-bottom: 0;
-          --fp-left: 0;
-          --fp-right: 0;
-          --fp-max-width: none;
-          --fp-width: 100%;
-          --fp-border-radius: 12px 12px 0 0;
-        }
-      }
-	      @media (min-width: 641px) and (max-width: 1024px) {
-	        #neighbor-panel {
-	          --np-width: 540px;
-	        }
-	      }
-    </style>
     <script>
       import "../scripts/index-client.ts";
     </script>
-    <script lang="js">
-      (function () {
-        // 启用暗色模式（若无系统偏好则默认为暗色）
-        if (!localStorage.getItem("colorTheme")) {
-          document.documentElement.classList.add("dark");
-        }
+    <script>
+            import { registerPanel, showPanel, hidePanel, togglePanel, isPanelOpen } from "../scripts/ui/windows";
+      (async function () {
+
+        ["stats-dialog", "about-dialog", "path-bar"].forEach(id => registerPanel(document.getElementById(id)));
+        document.getElementById("about-toggle").addEventListener("click", e => togglePanel("about-dialog", e.currentTarget));
 
         // ── 统计弹窗：点击触发时加载数据 ──
         const statsContent = document.getElementById("stats-content");
 
         if (statsContent) {
-          const statsTrigger = document.querySelector('[data-dialog-for="stats-dialog"]');
+          const statsTrigger = document.getElementById("stats-toggle");
           if (statsTrigger) {
+            const loadStats = async () => {
+              statsContent.innerHTML = '<span class="loading loading-spinner" aria-label="加载统计"></span><p>加载统计信息…</p>';
+              try {
+                const response = await fetch("/stats.json");
+                if (!response.ok) throw new Error("统计加载失败");
+                const data = await response.json();
+                statsContent.innerHTML = renderStatsCards(data);
+                statsContent.querySelectorAll(".rounded-lg.border").forEach(block => {
+                  const card = document.createElement("div");
+                  card.className = "card bg-base-200 p-4";
+                  const body = document.createElement("div");
+                  body.append(...block.childNodes);
+                  card.append(body);
+                  block.replaceWith(card);
+                  card.querySelectorAll("span.font-bold").forEach(value => {
+                    const badge = document.createElement("span");
+                    badge.className = "badge badge-primary"; badge.textContent = value.textContent;
+                    value.replaceWith(badge);
+                  });
+                });
+              } catch {
+                statsContent.innerHTML = '<p role="alert">统计信息加载失败</p><button id="stats-retry" class="btn btn-sm">重试</button>';
+                document.getElementById("stats-retry").addEventListener("click", loadStats);
+              }
+            };
             statsTrigger.addEventListener("click", () => {
-              statsContent.innerHTML = '<div class="flex items-center justify-center py-10 text-muted-foreground text-sm">加载中...</div>';
-              fetch("/stats.json")
-                .then(r => r.ok ? r.json() : Promise.reject())
-                .then(data => { statsContent.innerHTML = renderStatsCards(data); })
-                .catch(() => { statsContent.innerHTML = '<div class="text-destructive text-sm text-center py-10">加载失败</div>'; });
+              togglePanel("stats-dialog", statsTrigger);
+              if (isPanelOpen("stats-dialog")) void loadStats();
             });
           }
         }
 
 		function renderStatsCards(data) {
+          const safe = value => String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;", "'":"&#39;"}[c]));
 		          const sd = data.sixDegrees;
 		          const dist = sd?.edgeDistanceDistribution || {};
 		          const distEntries = Object.entries(dist).filter(([d]) => Number(d) <= 20).sort(([a],[b])=>Number(a)-Number(b));
@@ -666,7 +302,7 @@ friends:
 		                  ${topLinked.slice(0, 6).map((n, i) => `
 		                    <div class="flex items-center gap-2 text-sm">
 		                      <span class="w-5 text-right shrink-0 ${i < 3 ? 'font-bold' : ''}" style="color:${['#ffd700','#c0c0c0','#cd7f32','#888','#888','#888'][i]}">${['🥇','🥈','🥉','④','⑤','⑥'][i]||'•'}</span>
-		                      <span class="text-muted-foreground truncate flex-1">${n.name}</span>
+		                      <span class="text-muted-foreground truncate flex-1">${safe(n.name)}</span>
 		                      <span class="font-bold text-xs">${n.inDegree}</span>
 		                    </div>
 		                  `).join('')}
@@ -681,7 +317,7 @@ friends:
 		                  ${topLinking.slice(0, 6).map((n, i) => `
 		                    <div class="flex items-center gap-2 text-sm">
 		                      <span class="w-5 text-right shrink-0 ${i < 3 ? 'font-bold' : ''}" style="color:${['#ffd700','#c0c0c0','#cd7f32','#888','#888','#888'][i]}">${['🥇','🥈','🥉','④','⑤','⑥'][i]||'•'}</span>
-		                      <span class="text-muted-foreground truncate flex-1">${n.name}</span>
+		                      <span class="text-muted-foreground truncate flex-1">${safe(n.name)}</span>
 		                      <span class="font-bold text-xs">${n.outDegree}</span>
 		                    </div>
 		                  `).join('')}
@@ -746,7 +382,7 @@ friends:
 		                    const maxRoute = Math.max(...(data.linkRoutes || []).map(x => x.count), 1);
 		                    const bw = Math.max(1, (r.count / maxRoute) * 100).toFixed(0);
 		                    return `<div class="flex items-center gap-2 text-xs">
-		                      <span class="font-mono text-muted-foreground truncate flex-1">${r.route}</span>
+		                      <span class="font-mono text-muted-foreground truncate flex-1">${safe(r.route)}</span>
 		                      <span class="h-3 rounded-sm" style="width:${bw}%;background:linear-gradient(90deg,#a78bfa,#7c3aed);min-width:2px"></span>
 		                      <span class="font-bold shrink-0">${r.count}</span>
 		                    </div>`;
@@ -834,13 +470,13 @@ friends:
 
         const showPathBar = () => {
           if (pathBar) {
-            pathBar.classList.add("show");
+            showPanel("path-bar", pathToggleBtn);
             if (pathFromInput) pathFromInput.focus();
           }
         };
         const hidePathBar = () => {
           // 仅隐藏底部栏，不清除路径高亮
-          if (pathBar) pathBar.classList.remove("show");
+          hidePanel("path-bar");
         };
         const clearPathSelections = () => {
           selectedFrom = null;
@@ -859,7 +495,7 @@ friends:
         // 切换按钮
         if (pathToggleBtn) {
           pathToggleBtn.addEventListener("click", () => {
-            if (pathBar && pathBar.classList.contains("show")) {
+            if (pathBar && isPanelOpen("path-bar")) {
               hidePathBar();
             } else {
               showPathBar();
@@ -880,10 +516,16 @@ friends:
           }
           for (let i = 0; i < Math.min(list.length, 8); i++) {
             const it = list[i];
-            const el = document.createElement("div");
+            const el = document.createElement("button"); el.className = "btn btn-sm";
+            el.classList.add("btn", "btn-ghost", "w-full");
             el.className = "path-result-item";
-            el.innerHTML = `<div class="path-result-name">${it.name}</div>
-              <div class="path-result-url">${it.url || ""}</div>`;
+            const name = document.createElement("div");
+            name.className = "path-result-name";
+            name.textContent = it.name;
+            const url = document.createElement("div");
+            url.className = "path-result-url";
+            url.textContent = it.url || "";
+            el.append(name, url);
             el.addEventListener("click", () => {
               onSelect(it);
               container.style.display = "none";
@@ -895,11 +537,11 @@ friends:
 
         // 起点搜索
         if (pathFromInput) {
-          pathFromInput.addEventListener("input", () => {
+          pathFromInput.addEventListener("input", async () => {
             const v = pathFromInput.value.trim();
             if (!v) { pathFromResults.style.display = "none"; return; }
             const api = getApi();
-            const list = api.find ? api.find(v) : [];
+            const list = api.find ? await api.find(v) : [];
             renderPathResults(pathFromResults, list, (item) => {
               selectedFrom = item;
               pathFromInput.value = item.name;
@@ -910,11 +552,11 @@ friends:
 
         // 终点搜索
         if (pathToInput) {
-          pathToInput.addEventListener("input", () => {
+          pathToInput.addEventListener("input", async () => {
             const v = pathToInput.value.trim();
             if (!v) { pathToResults.style.display = "none"; return; }
             const api = getApi();
-            const list = api.find ? api.find(v) : [];
+            const list = api.find ? await api.find(v) : [];
             renderPathResults(pathToResults, list, (item) => {
               selectedTo = item;
               pathToInput.value = item.name;
@@ -1002,7 +644,7 @@ friends:
 
         // ESC 关闭底部栏（不清除路径）
         document.addEventListener("keydown", (e) => {
-          if (e.key === "Escape" && pathBar && pathBar.classList.contains("show")) {
+          if (e.key === "Escape" && pathBar && isPanelOpen("path-bar")) {
             hidePathBar();
           }
         });

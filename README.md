@@ -169,9 +169,8 @@ src/
 │   │   ├── interaction.ts   # Raycaster 交互层
 │   │   ├── pathfinder.ts    # BFS 路径查找
 │   │   └── utils.ts         # 调色板、颜色工具、标签工厂
+│   ├── ui/                 # WinBox 窗口管理、边界约束和测试
 │   └── index-client.ts      # 客户端入口
-├── components/
-│   └── starwind/            # Starwind UI 组件（Button/Dialog/Spinner）
 ├── utils/
 │   ├── build-graph.ts       # 图构建（力导布局+贝塞尔预计算，模块级缓存）
 │   ├── sites.ts             # Astro Content Collection 站点加载
@@ -180,8 +179,7 @@ src/
 │   ├── sample.ts            # DEV 模式确定性采样
 │   └── progress.ts          # 构建进度条
 ├── css/                     # 样式文件（base/topbar）
-├── styles/                  # Tailwind CSS v4 + Starwind 主题变量
-├── lib/                     # 工具函数（cn/clsx）
+├── styles/                  # Tailwind CSS v4 + daisyUI 主题
 links/                       # 正式友链 YAML 源文件（核心数据）
 ├── aggregators/            # 已确认的博客聚合型站点
 └── unverified/             # 待验证候选（默认不进入构建和数据端点）
@@ -210,10 +208,20 @@ types/                       # TypeScript 类型定义
 | 层级 | 技术 |
 |------|------|
 | 框架 | **Astro 7** + Tailwind CSS v4 |
-| UI 组件 | **Starwind UI**（Button/Dialog/Spinner） |
+| UI 组件 | **daisyUI**（Tailwind CSS）+ **WinBox**（窗口管理） |
 | 3D 引擎 | **Three.js** (r185) + EffectComposer + UnrealBloomPass |
 | 力导布局 | **d3-force-3d** + **Rust NAPI-ROS native addon**（`@xingwangzhe/force-rs`）|
 | BFS 路径 | **Rust NAPI-RS native addon**（`@xingwangzhe/bfs-rs`）|
 | 搜索 | **FlexSearch** |
 | 数据序列化 | **msgpackr** |
 | 包管理器 | **Bun** |
+
+## 前端控件与浮动面板
+
+界面统一使用 Tailwind CSS v4 与 daisyUI 免费组件。按钮、输入框、滑块、开关、加载状态和统计卡片均采用原生 HTML，可叠加 Tailwind 工具类。
+
+统计、关于、控制、邻居、飞行控制和路径查找面板由 WinBox 管理。拖动标题栏移动，拖动边缘调整尺寸，最大化按钮切换大小；关闭后重开保留本次页面会话的位置、尺寸和状态。刷新恢复默认布局。标题栏获得焦点后方向键移动，Shift 加速，Escape 关闭并返回入口焦点。窄屏窗口限制在视口内，内容内部滚动。
+
+开发验证使用 `bun run dev` 的抽样数据，运行 `bun run lint`、`bun test` 与改动文件格式检查；在系统浏览器检查拖拽、缩放、多窗口、固定暗色主题、搜索、参数持久化和飞行指针锁定。开发模式会清理本项目旧 Service Worker 缓存，避免加载过期控件代码。不得以生产构建替代 dev 检查。
+
+界面固定使用 daisyUI 暗色主题，与宇宙背景一致，不提供亮色模式或主题切换入口；系统浅色偏好及历史 `colorTheme` 本地设置均不影响页面。

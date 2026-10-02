@@ -66,7 +66,7 @@ showShortestPath 内部:
 | 飞船模式 | `fly-toggle` | click | `toggleFlightMode()`，更新按钮文字 🚀↔🌐 |
 | 关于 | `about-toggle` | click | 显示关于弹窗 |
 | 统计信息 | `stats-toggle` | click | 显示统计弹窗(`fetch /stats.json`) |
-| 控制面板 | `opacity-toggle` | click | 显示/隐藏控制面板（连线透明度 / 飞船速度 / 泛光强度 / 节点辉光 / 线条辉光 / 节点标签 / 自动自转） |
+| 控制面板 | `opacity-toggle` | 可拖拽浮动窗口 | 显示/隐藏控制面板（连线透明度 / 飞船速度 / 泛光强度 / 节点辉光 / 线条辉光 / 节点标签 / 自动自转） |
 | 路径查找 | `path-toggle` | click | 显示/隐藏路径栏 |
 | 路径上一步 | `path-prev-btn` | click | `stepPathPrev()` → `updatePathUI()` |
 | 路径下一步 | `path-next-btn` | click | `stepPathNext()` → `updatePathUI()` |
@@ -90,12 +90,12 @@ showShortestPath 内部:
 
 | 面板 | DOM ID | 定位 | 显示条件 |
 |------|--------|------|---------|
-| 邻居面板 | `neighbor-panel` | 右侧居中（移动端底部弹出） | `focusNodeById()` 被调用时 |
-| 控制面板 | `graph-control-panel` | 右下（移动端底部通栏） | 点击控制面板按钮 |
-| 飞行控制面板 | `fly-control-panel` | 左下（移动端底部通栏） | 进入飞船模式 |
-| 路径栏 | `path-bar` | 底部 | 点击路径查找按钮 |
-| 统计弹窗 | `stats-dialog` | 居中遮罩 | 点击统计信息按钮 |
-| 关于弹窗 | `about-dialog` | 居中遮罩 | 点击关于按钮 |
+| 邻居面板 | `neighbor-panel` | 可拖拽浮动窗口 | `focusNodeById()` 被调用时 |
+| 控制面板 | `graph-control-panel` | 可拖拽浮动窗口 | 点击控制面板按钮 |
+| 飞行控制面板 | `fly-control-panel` | 可拖拽浮动窗口 | 进入飞船模式 |
+| 路径栏 | `path-bar` | 可拖拽浮动窗口 | 点击路径查找按钮 |
+| 统计弹窗 | `stats-dialog` | 可拖拽浮动窗口 | 点击统计信息按钮 |
+| 关于弹窗 | `about-dialog` | 可拖拽浮动窗口 | 点击关于按钮 |
 | FPS 监控 | (动态创建) | 左下（移动端右下） | 始终显示 |
 | Tooltip | `graph-tooltip` | 鼠标旁（自动避让视口边界） | hover 节点时 |
 | 加载蒙版 | `loading-overlay` | 全屏 | init3d 完成前 |
@@ -149,3 +149,13 @@ let pathOverlayGroup: THREE.Group | null;   // 金线管道组
                                                  ├→ buildPathOverlay()  → gold cylinders
                                                  └→ window.__graphApi   → API exposed
 ```
+
+## 前端控件与浮动面板
+
+界面统一使用 Tailwind CSS v4 与 daisyUI 免费组件。按钮、输入框、滑块、开关、加载状态和统计卡片均采用原生 HTML，可叠加 Tailwind 工具类。
+
+统计、关于、控制、邻居、飞行控制和路径查找面板由 WinBox 管理。拖动标题栏移动，拖动边缘调整尺寸，最大化按钮切换大小；关闭后重开保留本次页面会话的位置、尺寸和状态。刷新恢复默认布局。标题栏获得焦点后方向键移动，Shift 加速，Escape 关闭并返回入口焦点。窄屏窗口限制在视口内，内容内部滚动。
+
+开发验证使用 `bun run dev` 的抽样数据，运行 `bun run lint`、`bun test` 与改动文件格式检查；在系统浏览器检查拖拽、缩放、多窗口、固定暗色主题、搜索、参数持久化和飞行指针锁定。开发模式会清理本项目旧 Service Worker 缓存，避免加载过期控件代码。不得以生产构建替代 dev 检查。
+
+界面固定使用 daisyUI 暗色主题，与宇宙背景一致，不提供亮色模式或主题切换入口；系统浅色偏好及历史 `colorTheme` 本地设置均不影响页面。

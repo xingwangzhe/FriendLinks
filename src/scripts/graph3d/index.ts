@@ -1,3 +1,4 @@
+import { registerPanel, showPanel, hidePanel, togglePanel as toggleWindow } from "../ui/windows";
 /**
  * 3D 博客宇宙渲染模块（Three.js InstancedMesh）
  * 使用 Three.js 原生 InstancedMesh 替代 3d-force-graph
@@ -83,77 +84,6 @@ function createTooltip(): TooltipApi {
 }
 
 // ─── 可拖拽面板 ─────────────────────────────────────────────────────
-
-function makeDraggable(el: HTMLElement, handle: HTMLElement) {
-  let isDragging = false;
-  let startX = 0,
-    startY = 0;
-  let origLeft = 0,
-    origRight = 0,
-    origTop = 0,
-    origBottom = 0;
-
-  function initPos() {
-    const cs = getComputedStyle(el);
-    origLeft = parseFloat(cs.left) || 0;
-    origRight = parseFloat(cs.right) || 0;
-    origTop = parseFloat(cs.top) || 0;
-    origBottom = parseFloat(cs.bottom) || 0;
-  }
-
-  handle.style.cursor = "grab";
-  handle.addEventListener("mousedown", (e) => {
-    if ((e.target as HTMLElement).tagName === "BUTTON") return;
-    e.preventDefault();
-    isDragging = true;
-    handle.style.cursor = "grabbing";
-    initPos();
-    startX = e.clientX;
-    startY = e.clientY;
-    // 如果使用了 transform（如 translateY(-50%)），拖拽时移除并换算为 top
-    const xf = getComputedStyle(el).transform;
-    if (xf && xf !== "none") {
-      const rect = el.getBoundingClientRect();
-      el.style.top = rect.top + "px";
-      el.style.left = rect.left + "px";
-      el.style.right = "auto";
-      el.style.bottom = "auto";
-      el.style.transform = "none";
-      origLeft = rect.left;
-      origTop = rect.top;
-      origRight = 0;
-      origBottom = 0;
-    }
-  });
-
-  document.addEventListener("mousemove", (e) => {
-    if (!isDragging) return;
-    const dx = e.clientX - startX;
-    const dy = e.clientY - startY;
-    // Switch to left/top based positioning if currently right/bottom
-    if (origRight > 0 && origLeft === 0) {
-      el.style.removeProperty("right");
-      const initLeft = window.innerWidth - el.offsetWidth - origRight;
-      el.style.left = initLeft + dx + "px";
-    } else {
-      el.style.left = origLeft + dx + "px";
-    }
-    if (origBottom > 0 && origTop === 0) {
-      el.style.removeProperty("bottom");
-      const initTop = window.innerHeight - el.offsetHeight - origBottom;
-      el.style.top = initTop + dy + "px";
-    } else {
-      el.style.top = origTop + dy + "px";
-    }
-  });
-
-  document.addEventListener("mouseup", () => {
-    if (isDragging) {
-      isDragging = false;
-      handle.style.cursor = "grab";
-    }
-  });
-}
 
 // ─── 初始化 ──────────────────────────────────────────────────────────
 
@@ -506,7 +436,7 @@ export async function init3d(graphData: GraphData) {
   }
 
   // ── 9. 控制面板 ──
-  let MOVE_SPEED = 15;
+  let MOVE_SPEED = loadVal("flight_speed", 15);
   function createControlPanel() {
     let panel = document.getElementById("graph-control-panel") as HTMLElement | null;
     if (panel) return panel;
@@ -522,11 +452,12 @@ export async function init3d(graphData: GraphData) {
     titleEl.textContent = "控制面板";
     titleEl.style.cssText = "font-size:13px;color:#aaa;flex:1;";
     const closeBtn = document.createElement("button");
+    closeBtn.className = "btn btn-sm";
     closeBtn.textContent = "×";
     closeBtn.style.cssText =
       "background:none;border:none;color:#aaa;cursor:pointer;font-size:16px;padding:0 4px;line-height:1;";
     closeBtn.addEventListener("click", () => {
-      panel!.style.display = "none";
+      hidePanel(panel!.id);
     });
     header.appendChild(titleEl);
     header.appendChild(closeBtn);
@@ -547,6 +478,9 @@ export async function init3d(graphData: GraphData) {
       label.style.cssText = "font-size:12px;color:#aaa;display:block;margin-bottom:4px;margin-top:10px;";
       const slider = document.createElement("input");
       slider.type = "range";
+      slider.className = "range range-primary range-sm";
+      slider.setAttribute("aria-label", title);
+      slider.setAttribute("with-tooltip", "");
       slider.min = min;
       slider.max = max;
       slider.step = step;
@@ -556,7 +490,7 @@ export async function init3d(graphData: GraphData) {
       val.textContent = defaultValue + (unit || "");
       val.style.cssText = "font-size:11px;color:#aaa;margin-left:6px;";
       slider.addEventListener("input", () => {
-        const v = parseFloat(slider.value);
+        const v = Number(slider.value);
         val.textContent = slider.value + (unit || "");
         onChange(v);
       });
@@ -570,10 +504,12 @@ export async function init3d(graphData: GraphData) {
 
     addSliderRow(panel, "连线透明度", "0", "1", "0.05", String(linkOpacity.value), (v) => {
       linkOpacity.value = v;
+      saveVal("link_opacity", v);
       refreshLinkColors();
     });
     addSliderRow(panel, "飞船速度", "5", "100", "5", String(MOVE_SPEED), (v) => {
       MOVE_SPEED = v;
+      saveVal("flight_speed", v);
     });
 
     {
@@ -582,7 +518,11 @@ export async function init3d(graphData: GraphData) {
       lbl.style.cssText = "font-size:12px;color:#aaa;display:block;margin-bottom:4px;margin-top:10px;";
       const cb = document.createElement("input");
       cb.type = "checkbox";
+      cb.className = "toggle toggle-primary";
+      cb.setAttribute("aria-label", "节点标签");
       cb.checked = labelShow.value;
+
+      cb.textContent = "节点标签";
       cb.style.cssText = "accent-color:#4a9eff;margin-right:6px;";
       const cbLabel = document.createElement("span");
       cbLabel.textContent = cb.checked ? "显示" : "隐藏";
@@ -637,13 +577,13 @@ export async function init3d(graphData: GraphData) {
       border:1px solid rgba(255,255,255,0.1);
       padding:0 14px 10px;min-width:160px;display:none;font-family:sans-serif;overflow:hidden;`;
     document.body.appendChild(panel);
-    makeDraggable(panel, header);
+    registerPanel(panel);
     return panel;
   }
 
   const controlPanel = createControlPanel();
   function togglePanel() {
-    controlPanel.style.display = controlPanel.style.display === "none" ? "block" : "none";
+    toggleWindow(controlPanel.id, document.getElementById("opacity-toggle") || undefined);
   }
   (window as any).__toggleOpacityPanel = togglePanel;
 
@@ -716,9 +656,11 @@ export async function init3d(graphData: GraphData) {
     title.className = "np-title";
     title.textContent = "邻居节点";
     const collapseBtn = document.createElement("button");
+    collapseBtn.className = "btn btn-sm";
     collapseBtn.className = "np-collapse-btn";
     collapseBtn.textContent = "◀";
     const closeBtn = document.createElement("button");
+    closeBtn.className = "btn btn-sm";
     closeBtn.className = "np-close-btn";
     closeBtn.textContent = "×";
     header.appendChild(title);
@@ -729,6 +671,8 @@ export async function init3d(graphData: GraphData) {
     const searchWrap = document.createElement("div");
     searchWrap.className = "np-search";
     const searchInput = document.createElement("input");
+    searchInput.className = "input input-bordered w-full";
+    searchInput.setAttribute("aria-label", "搜索邻居");
     searchInput.type = "text";
     searchInput.placeholder = "搜索邻居…";
     searchWrap.appendChild(searchInput);
@@ -746,9 +690,8 @@ export async function init3d(graphData: GraphData) {
     panel.appendChild(body);
     panel.appendChild(hint);
     collapseBtn.addEventListener("click", () => panel!.classList.toggle("collapsed"));
-    closeBtn.addEventListener("click", () => panel!.classList.add("hidden"));
-    // 拖拽
-    makeDraggable(panel, header);
+    closeBtn.addEventListener("click", () => hidePanel(panel!.id));
+    // 窗口在内容插入 DOM 后挂载。
     // 搜索过滤
     let _categories: {
       mutual: Array<{ id: string; name: string; url: string }>;
@@ -756,7 +699,7 @@ export async function init3d(graphData: GraphData) {
       incoming: Array<{ id: string; name: string; url: string }>;
     } = { mutual: [], outgoing: [], incoming: [] };
     searchInput.addEventListener("input", () => {
-      const q = searchInput.value.trim().toLowerCase();
+      const q = (searchInput.value || "").trim().toLowerCase();
       renderNeighborCategories(body, countInfo, _categories, q);
     });
     // 保存引用供 updateNeighborPanel 使用
@@ -768,6 +711,7 @@ export async function init3d(graphData: GraphData) {
       hint.style.display = total > maxOverlayEdges.value ? "block" : "none";
     };
     document.body.appendChild(panel);
+    registerPanel(panel);
     return panel;
   }
   const neighborPanel = createNeighborPanel();
@@ -845,8 +789,9 @@ export async function init3d(graphData: GraphData) {
         item.className = "np-item";
         item.dataset.id = entry.id;
         // 链接图标：点击直接打开网站，不触发聚焦
-        const linkIcon = document.createElement("span");
-        linkIcon.className = "np-item-link";
+        const linkIcon = document.createElement("button");
+        linkIcon.className = "btn btn-ghost btn-xs np-item-link";
+        linkIcon.setAttribute("aria-label", `打开 ${entry.name} 网站`);
         linkIcon.innerHTML = `<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`;
         linkIcon.title = "打开网站";
         linkIcon.addEventListener("click", (e) => {
@@ -855,8 +800,9 @@ export async function init3d(graphData: GraphData) {
         });
         item.appendChild(linkIcon);
         // 文本内容（名称 + URL）
-        const content = document.createElement("div");
-        content.className = "np-item-content";
+        const content = document.createElement("button");
+        content.className = "btn btn-ghost h-auto np-item-content";
+        content.setAttribute("aria-label", `聚焦 ${entry.name}`);
         const nm = document.createElement("div");
         nm.className = "np-item-name";
         nm.textContent = entry.name;
@@ -881,10 +827,10 @@ export async function init3d(graphData: GraphData) {
   function updateNeighborPanel(nodeId: string | null) {
     if (!neighborPanel) return;
     if (!nodeId) {
-      neighborPanel.classList.add("hidden");
+      hidePanel(neighborPanel.id);
       return;
     }
-    if (!neighborPanel.classList.contains("collapsed")) neighborPanel.classList.remove("hidden");
+    showPanel(neighborPanel.id);
     const focusedNode = nodes.find((n) => n.id === nodeId);
     const nameEl = neighborPanel.querySelector(".np-node-name");
     if (nameEl) nameEl.textContent = focusedNode ? focusedNode.name || focusedNode.id : nodeId;
@@ -1660,6 +1606,17 @@ export async function init3d(graphData: GraphData) {
 
   function handleFlyKey(e: KeyboardEvent, down: boolean) {
     if (!isFlyMode) return;
+    if (
+      down &&
+      (e
+        .composedPath()
+        .some(
+          (el) =>
+            el instanceof HTMLElement && (el.closest(".app-window") || el.matches("input,input,input,input,textarea")),
+        ) ||
+        !document.pointerLockElement)
+    )
+      return;
     const k = e.key.toLowerCase();
     if (k === "x" && down) {
       e.preventDefault();
@@ -1686,10 +1643,10 @@ export async function init3d(graphData: GraphData) {
     // ESC 不再退出飞船模式，只是临时释放鼠标
     // 点击 canvas 重新锁定，按 X 或点击按钮退出
     if (!document.pointerLockElement) document.body.style.cursor = "default";
-    else document.body.style.cursor = "none";
+    else document.body.style.cursor = document.pointerLockElement ? "none" : "default";
   }
   function flyReLock() {
-    if (isFlyMode && !document.pointerLockElement) ctx.renderer.domElement.requestPointerLock?.();
+    if (isFlyMode && !document.pointerLockElement) void ctx.renderer.domElement.requestPointerLock?.();
   }
 
   // 预分配向量（避免 GC）
@@ -1823,8 +1780,8 @@ export async function init3d(graphData: GraphData) {
       <div class="fp-header" style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;cursor:grab;user-select:none;">
         <span style="font-weight:600;color:#fff;font-size:13px;">🚀 飞行控制</span>
         <div style="display:flex;gap:4px;">
-          <button class="fp-toggle-btn" style="background:none;border:none;color:#888;cursor:pointer;font-size:14px;padding:0 4px;">−</button>
-          <button class="fp-close-btn" style="background:none;border:none;color:#888;cursor:pointer;font-size:16px;padding:0 4px;line-height:1;">×</button>
+          <button size="s" class="btn btn-sm fp-toggle-btn" style="background:none;border:none;color:#888;cursor:pointer;font-size:14px;padding:0 4px;">−</button>
+          <button size="s" class="btn btn-sm fp-close-btn" style="background:none;border:none;color:#888;cursor:pointer;font-size:16px;padding:0 4px;line-height:1;">×</button>
         </div>
       </div>
       <div id="fly-panel-body">
@@ -1840,6 +1797,11 @@ export async function init3d(graphData: GraphData) {
         #fly-control-panel kbd { display:inline-block;background:rgba(255,255,255,0.1);border-radius:3px;padding:0 5px;font-size:11px;color:#fff;margin:0 1px; }
       </style>
     `;
+    const exit = document.createElement("button");
+    exit.className = "btn btn-sm";
+    exit.textContent = "退出飞船模式";
+    exit.addEventListener("click", exitFlyMode);
+    panel.appendChild(exit);
     document.body.appendChild(panel);
     const header = panel.querySelector(".fp-header") as HTMLElement;
     const toggle = panel.querySelector(".fp-toggle-btn") as HTMLElement;
@@ -1854,10 +1816,10 @@ export async function init3d(graphData: GraphData) {
     }
     if (closeBtn) {
       closeBtn.addEventListener("click", () => {
-        panel!.style.display = "none";
+        hidePanel(panel!.id);
       });
     }
-    if (header) makeDraggable(panel, header);
+    if (header) registerPanel(panel);
     return panel;
   }
 
@@ -1868,7 +1830,7 @@ export async function init3d(graphData: GraphData) {
     reticleOffset.y = 0;
     reticleVelocity.x = 0;
     reticleVelocity.y = 0;
-    ctx.renderer.domElement.requestPointerLock?.();
+    // 面板打开时保留指针；返回场景后由点击重新锁定。
     document.addEventListener("pointerlockchange", onPointerLockChange);
     ctx.renderer.domElement.addEventListener("click", flyReLock);
     // 切换旋转顺序前保存朝向，避免视觉闪烁
@@ -1877,7 +1839,7 @@ export async function init3d(graphData: GraphData) {
     ctx.camera.quaternion.copy(savedQuat);
     flyCrosshair = createCrosshair();
     flyCrosshair.style.display = "block";
-    document.body.style.cursor = "none";
+    document.body.style.cursor = document.pointerLockElement ? "none" : "default";
     flyOnKeyDown = (e) => handleFlyKey(e, true);
     flyOnKeyUp = (e) => handleFlyKey(e, false);
     document.addEventListener("keydown", flyOnKeyDown);
@@ -1894,7 +1856,7 @@ export async function init3d(graphData: GraphData) {
     (interaction as any).setFlyMode?.(true);
 
     flyControlPanel = createFlyControlPanel();
-    flyControlPanel.style.display = "block";
+    showPanel(flyControlPanel.id, document.getElementById("fly-toggle") || undefined);
     // 同步按钮文字
     const flyBtn = document.getElementById("fly-toggle");
     if (flyBtn) flyBtn.textContent = "🌐 球幕模式";
@@ -1924,7 +1886,7 @@ export async function init3d(graphData: GraphData) {
       flyCrosshair = null;
     }
     if (flyControlPanel) {
-      flyControlPanel.style.display = "none";
+      hidePanel(flyControlPanel.id);
       flyControlPanel = null;
     }
     (interaction as any).setFlyMode?.(false);
@@ -2008,6 +1970,7 @@ export async function init3d(graphData: GraphData) {
     ctx,
     updateLinkOpacity(v: number) {
       linkOpacity.value = v;
+      saveVal("link_opacity", v);
       refreshLinkColors();
     },
   };

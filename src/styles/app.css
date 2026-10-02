@@ -1,0 +1,319 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: dark --default;
+}
+@custom-variant dark (&:where(.dark, .dark *));
+@theme inline {
+  --color-muted-foreground: var(--color-base-content);
+  --color-foreground: var(--color-base-content);
+  --color-muted: var(--color-base-200);
+  --color-border: var(--color-base-300);
+  --color-background: var(--color-base-100);
+}
+:root {
+  --bg: var(--color-base-100);
+  --text-color: var(--color-base-content);
+  --card-bg: var(--color-base-200);
+  --border: var(--color-base-300);
+}
+
+.topbar {
+  z-index: 20;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  width: min(680px, calc(100% - 32px));
+}
+.topbar .title {
+  white-space: nowrap;
+}
+.topbar .search {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+}
+#graph-search {
+  width: 100%;
+}
+#graph-search-clear {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  z-index: 1;
+}
+.top-buttons {
+  position: fixed;
+  right: 16px;
+  top: 8px;
+  z-index: 20;
+}
+.top-buttons-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+  max-width: 760px;
+}
+.menu-toggle {
+  display: none;
+}
+#loading-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 20000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+}
+#loading-overlay.hidden {
+  display: none;
+}
+.loading-box {
+  width: min(400px, 85vw);
+  text-align: center;
+  padding: 32px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--card-bg);
+}
+.loading-status {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 20px 0;
+}
+.loading-time {
+  color: var(--color-base-content);
+  font-size: 12px;
+}
+.app-window {
+  border: 1px solid var(--color-base-300);
+  border-radius: var(--radius-box);
+  overflow: hidden;
+  background: var(--color-base-200);
+  color: var(--color-base-content);
+  box-shadow: var(--shadow-xl);
+}
+.app-window .wb-header {
+  background: var(--color-base-200);
+  color: var(--color-base-content);
+  border-bottom: 1px solid var(--color-base-300);
+}
+.app-window .wb-title {
+  font: 600 14px/35px var(--font-sans);
+}
+.app-window .wb-body {
+  background: var(--color-base-100);
+  color: var(--color-base-content);
+  overscroll-behavior: contain;
+}
+
+.app-window :focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: -2px;
+}
+.wb-body > #graph-control-panel,
+.wb-body > #neighbor-panel,
+.wb-body > #fly-control-panel,
+.wb-body > #path-bar,
+.wb-body > .panel-content {
+  position: static !important;
+  inset: auto !important;
+  transform: none !important;
+  translate: none !important;
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  max-height: none !important;
+  height: auto !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  padding: 20px !important;
+  background: transparent !important;
+  color: var(--color-base-content) !important;
+  display: block !important;
+  overflow: visible !important;
+  backdrop-filter: none !important;
+}
+.cp-header,
+.np-header,
+.fp-header {
+  display: none !important;
+}
+#graph-control-panel input[type="range"] {
+  width: 100%;
+  margin-block: 8px;
+}
+#graph-control-panel > label {
+  display: block;
+}
+#graph-control-panel input[type="checkbox"] {
+  width: 3rem;
+  min-width: 3rem;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+#graph-control-panel span,
+#graph-control-panel label,
+#graph-control-panel > div:last-child {
+  color: var(--color-base-content) !important;
+}
+.np-body {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  max-height: none !important;
+}
+.np-item {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+}
+.np-item:hover {
+  background: var(--color-base-200);
+}
+.np-node-name {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: var(--color-base-content) !important;
+}
+.np-item-name,
+.np-section-title {
+  color: var(--color-base-content) !important;
+}
+.np-item-url,
+.np-search-count,
+.np-hint {
+  color: var(--color-base-content) !important;
+  overflow-wrap: anywhere;
+}
+.np-search {
+  padding: 0 !important;
+  margin-bottom: 12px;
+}
+.np-search input {
+  width: 100%;
+}
+#fly-control-panel {
+  line-height: 1.8;
+}
+#fly-control-panel kbd {
+  background: var(--color-base-200) !important;
+  color: var(--color-base-content) !important;
+}
+#fly-control-panel button {
+  margin-top: 16px;
+}
+.path-bar-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+.path-search-wrap {
+  width: 100%;
+  position: relative;
+}
+.path-bar-icon,
+.path-arrow {
+  display: none;
+}
+.path-results {
+  display: none;
+  max-height: 220px;
+  overflow: auto;
+  padding-block: 6px;
+}
+.path-result-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+.path-result-item::part(base) {
+  justify-content: flex-start;
+  width: 100%;
+}
+.path-result-url {
+  font-size: 11px;
+  color: var(--color-base-content);
+  overflow-wrap: anywhere;
+}
+.path-bar-error {
+  color: var(--color-error);
+  padding-top: 12px;
+}
+#stats-content .card {
+  min-width: 0;
+}
+#stats-content {
+  font-size: 13px;
+  container-type: inline-size;
+}
+#stats-content > .grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+#stats-content .card {
+  grid-column: auto;
+}
+#stats-content .card:nth-child(n + 5) {
+  grid-column: 1/-1;
+}
+#stats-content .card > div {
+  padding: 16px;
+}
+@container (max-width:480px) {
+  #stats-content > .grid {
+    grid-template-columns: 1fr;
+  }
+}
+#stats-content .flex {
+  min-width: 0;
+}
+#stats-content .truncate {
+  min-width: 0;
+}
+#stats-content > .loading {
+  font-size: 28px;
+}
+#graph-search-results {
+  max-height: min(400px, 60vh);
+  overflow: auto;
+  background: var(--color-base-200);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+@media (max-width: 640px) {
+  .topbar {
+    top: 8px;
+    left: 8px;
+    width: calc(100% - 16px);
+    gap: 8px;
+  }
+  .topbar .title {
+    font-size: 14px;
+  }
+  .top-buttons {
+    top: 76px;
+    right: 8px;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .top-buttons-group {
+    display: none;
+    max-width: 220px;
+    padding: 8px;
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .top-buttons-group.open {
+    display: flex;
+  }
+  .np-body {
+    grid-template-columns: 1fr;
+  }
+}

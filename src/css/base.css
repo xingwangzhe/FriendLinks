@@ -1,12 +1,10 @@
 :root {
-  --bg: #0f1115;
-  --text-color: #e6eef8;
-  --muted-bg: #334455;
-  --card-bg: #0f1115;
-  --border: rgba(255, 255, 255, 0.06);
-  --overlay: rgba(0, 0, 0, 0.55);
-  --accent: #4da6ff;
-  --danger: #ff6b6b;
+  --bg: var(--color-base-100);
+  --text-color: var(--color-base-content);
+  --muted-bg: var(--color-base-200);
+  --card-bg: var(--color-base-200);
+  --border: var(--color-base-300);
+  --accent: var(--color-primary);
 }
 
 html,
@@ -20,29 +18,6 @@ body {
   overflow-x: hidden;
 }
 
-/* 响应式面板定位变量 — JS 动态面板引用这些变量而非硬编码位置 */
-:root {
-  --panel-right-offset: 8px;
-  --panel-bottom-offset: 70px;
-  --panel-left-offset: 8px;
-  --panel-top-offset: 8px;
-  --neighbor-panel-width: 660px;
-}
-
-@media (max-width: 640px) {
-  :root {
-    --panel-right-offset: 0px;
-    --panel-bottom-offset: 0px;
-    --panel-left-offset: 0px;
-    --neighbor-panel-width: 100%;
-  }
-}
-
-@media (min-width: 641px) and (max-width: 1024px) {
-  :root {
-    --neighbor-panel-width: 540px;
-  }
-}
 #main {
   position: fixed;
   top: 0;

@@ -5,7 +5,7 @@ type SearchResult = { id: string; name: string; url?: string };
   const loadingEl = document.getElementById("loading-overlay");
   const textEl = document.getElementById("loading-text");
   const timeEl = document.getElementById("loading-time");
-  const barEl = document.getElementById("loading-bar");
+  const barEl = document.getElementById("loading-bar") as HTMLProgressElement | null;
   const FETCH_TIMEOUT = 20000;
 
   const startTime = Date.now();
@@ -21,10 +21,11 @@ type SearchResult = { id: string; name: string; url?: string };
     if (timer) clearInterval(timer);
     if (textEl) textEl.textContent = msg;
     if (timeEl) timeEl.textContent = "";
-    if (barEl) barEl.style.width = "0%";
+    if (barEl) barEl.value = 0;
     let retryBtn = document.getElementById("loading-retry") as HTMLElement | null;
     if (!retryBtn) {
       retryBtn = document.createElement("button");
+      retryBtn.className = "btn btn-sm";
       retryBtn.id = "loading-retry";
       retryBtn.textContent = "重试";
       retryBtn.style.cssText =
@@ -32,7 +33,7 @@ type SearchResult = { id: string; name: string; url?: string };
         "background:transparent;color:#4a9eff;cursor:pointer;font-size:14px;";
       retryBtn.addEventListener("click", () => {
         retryBtn?.remove();
-        if (barEl) barEl.style.width = "0%";
+        if (barEl) barEl.value = 0;
         controller = null;
         startLoading();
       });
@@ -61,7 +62,7 @@ type SearchResult = { id: string; name: string; url?: string };
       clearTimeout(timeoutId);
 
       if (textEl) textEl.textContent = "下载图数据中...";
-      if (barEl) barEl.style.width = "30%";
+      if (barEl) barEl.value = 30;
 
       // 解码数据
       const { init3d, maybeDecompress, expandCompact } = mod;
@@ -71,7 +72,7 @@ type SearchResult = { id: string; name: string; url?: string };
       const data = core.nid ? expandCompact(core) : core;
 
       // 初始不加载 bezier.bin，首次交互时懒加载
-      controller = init3d(data);
+      controller = await init3d(data);
     } catch (err: any) {
       if (err?.name === "AbortError") {
         showError("下载超时，请检查网络后重试");
@@ -82,12 +83,12 @@ type SearchResult = { id: string; name: string; url?: string };
     }
 
     if (textEl) textEl.textContent = "渲染 3D 场景中...";
-    if (barEl) barEl.style.width = "70%";
+    if (barEl) barEl.value = 70;
 
     await new Promise((r) => requestAnimationFrame(r));
     await new Promise((r) => requestAnimationFrame(r));
 
-    if (barEl) barEl.style.width = "100%";
+    if (barEl) barEl.value = 100;
     updateTime();
 
     if (timer) clearInterval(timer);
@@ -154,11 +155,15 @@ type SearchResult = { id: string; name: string; url?: string };
     }
 
     for (const it of list) {
-      const el = document.createElement("div");
-      el.className = "item";
-      el.innerHTML = `<div style="font-weight:600">${
-        it.name
-      }</div><div style="font-size:12px;color:var(--text-color,#e6eef8)">${it.url ?? ""}</div>`;
+      const el = document.createElement("button");
+      el.className = "btn btn-ghost item w-full h-auto text-left";
+      const name = document.createElement("span");
+      name.className = "font-semibold";
+      name.textContent = it.name;
+      const url = document.createElement("span");
+      url.className = "text-xs opacity-70";
+      url.textContent = it.url ?? "";
+      el.append(name, url);
       el.onclick = () => {
         try {
           try {
@@ -338,5 +343,3 @@ if (menuToggle) {
     }
   });
 }
-
-export {};

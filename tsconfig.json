@@ -1,18 +1,13 @@
 {
   "extends": "astro/tsconfigs/strict",
-  "include": [
-    ".astro/types.d.ts",
-    "**/*"
-  ],
-  "exclude": [
-    "dist",
-    "outdated"
-  ],
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist", "outdated"],
   "compilerOptions": {
     "types": ["bun-types"],
     "skipLibCheck": true,
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "allowSyntheticDefaultImports": true
   }
 }

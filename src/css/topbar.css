@@ -65,7 +65,7 @@
   padding: 6px 10px;
   border-radius: 8px;
   border: 1px solid color-mix(in srgb, var(--border) 80%, black 20%);
-  background: rgba(16, 16, 16, 0.8);
+  background: var(--color-base-100);
   outline: none;
   font-size: 14px;
   color: var(--text-color);
