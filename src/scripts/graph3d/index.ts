@@ -44,15 +44,8 @@ function createTooltip(): TooltipApi {
   if (!el) {
     el = document.createElement("div");
     el.id = "graph-tooltip";
-    el.style.position = "fixed";
-    el.style.pointerEvents = "none";
-    el.style.zIndex = "9999";
-    el.style.background = "rgba(0,0,0,0.75)";
-    el.style.color = "#fff";
-    el.style.padding = "8px 10px";
-    el.style.borderRadius = "6px";
-    el.style.maxWidth = "320px";
-    el.style.fontSize = "13px";
+    el.className = "card bg-base-200 border border-base-300 shadow-xl text-base-content";
+    el.setAttribute("role", "tooltip");
     el.style.display = "none";
     document.body.appendChild(el);
   }
@@ -64,6 +57,8 @@ function createTooltip(): TooltipApi {
       el.innerHTML = "";
       el.appendChild(content);
       el.style.display = "block";
+      el.style.maxWidth = `${Math.min(320, window.innerWidth - 16)}px`;
+      el.style.maxHeight = `${Math.max(1, window.innerHeight - 16)}px`;
       // 自适应：不超出视口边界
       const vw = window.innerWidth;
       const vh = window.innerHeight;
@@ -1435,12 +1430,14 @@ export async function init3d(graphData: GraphData) {
     }
     if (n) {
       const content = document.createElement("div");
-      content.className = "graph-tooltip-content";
+      content.className = "card-body gap-2 p-4";
       const titleEl = document.createElement("strong");
+      titleEl.className = "card-title text-sm leading-snug break-words";
       titleEl.textContent = n.name || n.id;
       content.appendChild(titleEl);
       if (n.desc) {
         const d = document.createElement("div");
+        d.className = "text-xs leading-relaxed opacity-75 line-clamp-4";
         d.textContent = n.desc;
         content.appendChild(d);
       }
@@ -1450,7 +1447,7 @@ export async function init3d(graphData: GraphData) {
         a.target = "_blank";
         a.rel = "noopener";
         a.textContent = n.url;
-        a.style.color = "#87ceeb";
+        a.className = "link link-primary text-xs break-all";
         content.appendChild(a);
       }
       tooltip.show(
@@ -1463,10 +1460,14 @@ export async function init3d(graphData: GraphData) {
     }
   };
 
-  ctx.renderer.domElement.addEventListener("mousemove", (e: MouseEvent) => {
-    (window as any).__lastMouseX = e.clientX;
-    (window as any).__lastMouseY = e.clientY;
-  });
+  ctx.renderer.domElement.addEventListener(
+    "mousemove",
+    (e: MouseEvent) => {
+      (window as any).__lastMouseX = e.clientX;
+      (window as any).__lastMouseY = e.clientY;
+    },
+    { capture: true },
+  );
 
   interaction.onClick = (n: any) => {
     if ((window as any).__touchLongPress) return;
@@ -1685,14 +1686,14 @@ export async function init3d(graphData: GraphData) {
 
     if (bestNode) {
       const content = document.createElement("div");
-      content.className = "graph-tooltip-content";
+      content.className = "card-body gap-2 p-4";
       const titleEl = document.createElement("strong");
-      titleEl.className = "graph-tooltip-title";
+      titleEl.className = "card-title text-sm leading-snug break-words";
       titleEl.textContent = bestNode.name || bestNode.id;
       content.appendChild(titleEl);
       if (bestNode.desc) {
         const descEl = document.createElement("div");
-        descEl.className = "graph-tooltip-desc";
+        descEl.className = "text-xs leading-relaxed opacity-75 line-clamp-4";
         descEl.textContent = bestNode.desc;
         content.appendChild(descEl);
       }
@@ -1703,8 +1704,8 @@ export async function init3d(graphData: GraphData) {
         a.target = "_blank";
         a.rel = "noopener noreferrer";
         a.textContent = bestNode.url;
-        a.style.color = "#87ceeb";
-        a.style.textDecoration = "underline";
+        a.className = "link link-primary text-xs break-all";
+
         urlEl.appendChild(a);
         content.appendChild(urlEl);
       }

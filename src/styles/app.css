@@ -317,3 +317,13 @@
     grid-template-columns: 1fr;
   }
 }
+
+#graph-tooltip {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  width: max-content;
+  max-width: min(320px, calc(100vw - 16px));
+  overflow: hidden;
+  font-size: 13px;
+}
