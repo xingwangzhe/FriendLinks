@@ -251,6 +251,7 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
   const maxDegree = Math.max(...Object.values(degreeMap), 1);
   const savedQuality = loadVal<string>("render_quality", "low");
   let quality: RenderQuality = savedQuality === "high" || savedQuality === "balanced" ? savedQuality : "low";
+  let unlimitedFps = loadVal<unknown>("unlimited_fps", true) !== false;
   const qualityOptions = {
     low: { fps: 30, labels: 48, neighbors: 40 },
     balanced: { fps: 45, labels: 96, neighbors: 100 },
@@ -537,12 +538,39 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
       quality = qualitySelect.value as RenderQuality;
       saveVal("render_quality", quality);
       setRenderQuality(ctx, quality);
-      renderScheduler.setMaxFps(qualityOptions[quality].fps);
+      renderScheduler.setMaxFps(unlimitedFps ? Infinity : qualityOptions[quality].fps);
       labelsDirty = true;
       if (focusedId) buildNeighborLabels(focusedId);
       requestRender();
     });
     panel.append(qualityLabel, qualitySelect);
+
+    const fpsLabel = document.createElement("label");
+    fpsLabel.className = "label mt-2";
+    fpsLabel.textContent = "帧率上限";
+    const fpsSelect = document.createElement("select");
+    fpsSelect.className = "select select-bordered select-sm w-full";
+    fpsSelect.setAttribute("aria-label", "帧率上限");
+    for (const [value, text] of [
+      ["unlimited", "无限制（跟随屏幕刷新率）"],
+      ["auto", "跟随画质（30 / 45 / 60 FPS）"],
+    ]) {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = text;
+      fpsSelect.appendChild(option);
+    }
+    fpsSelect.value = unlimitedFps ? "unlimited" : "auto";
+    fpsSelect.addEventListener("change", () => {
+      unlimitedFps = fpsSelect.value === "unlimited";
+      saveVal("unlimited_fps", unlimitedFps);
+      renderScheduler.setMaxFps(unlimitedFps ? Infinity : qualityOptions[quality].fps);
+      requestRender();
+    });
+    const fpsHint = document.createElement("p");
+    fpsHint.className = "mt-1 text-xs text-base-content/60";
+    fpsHint.textContent = "仅影响活动帧率，静止时自动停绘。";
+    panel.append(fpsLabel, fpsSelect, fpsHint);
 
     addSliderRow(panel, "连线透明度", "0", "1", "0.05", String(linkOpacity.value), (v) => {
       linkOpacity.value = v;
@@ -1188,7 +1216,7 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
     requestFrame: requestAnimationFrame,
     cancelFrame: cancelAnimationFrame,
     isVisible: () => !document.hidden,
-    maxFps: qualityOptions[quality].fps,
+    maxFps: unlimitedFps ? Infinity : qualityOptions[quality].fps,
     onFrame(now) {
       const dt = lastFrameTime ? Math.min(0.05, (now - lastFrameTime) / 1000) : 1 / 60;
       lastFrameTime = now;
@@ -2103,6 +2131,7 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
         pointerLocked: document.pointerLockElement === ctx.renderer.domElement,
         pointerLockError,
         quality,
+        fpsLimit: unlimitedFps ? "unlimited" : qualityOptions[quality].fps,
         pixelRatio: ctx.renderer.getPixelRatio(),
         drawCalls: ctx.renderer.info.render.drawCalls,
         triangles: ctx.renderer.info.render.triangles,

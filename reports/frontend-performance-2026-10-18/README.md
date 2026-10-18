@@ -28,6 +28,8 @@
 - `audit-before.json` / `audit-after.json`、`transitive-update.log`、`transitive-smoke.json`：范围内传递依赖补丁及审计清零，保留 TS6；SVG 解码和 source-map 查询通过。
 - `*-security.log` / `output-security.json`：追加修复后的最终校验，84 tests / 4840 assertions、Astro check 无错误警告、构建成功，图数据/统计/坐标与补丁前完全一致。
 - `security-browser.json` / `final.jpg`：最终构建的可见页面与空闲停绘证明；飞行未锁定时首击未打开链接，该次实际锁定因文档焦点失败，未伪报成功。
+- `*-unlimited.log` / `output-unlimited.json`：按用户最后要求改为默认不限帧后的源码与构建校验，88 tests / 4875 assertions 全通过，Astro check 0 errors / 0 warnings / 7 hints，缓存构建 7.908s；图、统计和坐标与补丁前完全一致。
+- `unlimited-browser.json` / `unlimited.jpg`：无历史设置时默认无限制，画质独立、刷新持久化、停绘检查；另用连续 RAF 请求探针验证节能手动上限 30 帧/秒，无限制约每次浏览器 RAF 都绘制。探针是主动请求绘制的功能验证，不当作性能基准。
 
 ## 浏览器渲染探针
 

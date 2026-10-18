@@ -1,0 +1,116 @@
+{
+  "defaultWithoutPreference": {
+    "saved": null,
+    "stats": {
+      "backgroundBytes": 0,
+      "bezierLoaded": false,
+      "bezierLoading": false,
+      "drawCalls": 2,
+      "fpsLimit": "unlimited",
+      "frames": 2,
+      "labelCandidatesVisited": 0,
+      "labelCreates": 0,
+      "labelScans": 2,
+      "labels": 0,
+      "lines": 0,
+      "neighborLabels": 0,
+      "overlayBuilds": 0,
+      "overlayInstances": 0,
+      "pendingFrame": false,
+      "pendingLabelTask": false,
+      "pixelRatio": 1,
+      "pointerLockError": null,
+      "pointerLocked": false,
+      "quality": "low",
+      "renderCpuMs": 4.700000002980232,
+      "rendererTrackedBytes": 14904336,
+      "sceneObjects": 7,
+      "searchIndexLoading": false,
+      "searchIndexReady": false,
+      "triangles": 98129
+    }
+  },
+  "cappedInvalidationProbe": {
+    "elapsedMs": 1000,
+    "hidden": false,
+    "limit": 30,
+    "rafCallbacks": 61,
+    "renderedFrames": 30
+  },
+  "unlimitedInvalidationProbe": {
+    "elapsedMs": 1016.5999999999984,
+    "hidden": false,
+    "limit": "unlimited",
+    "rafCallbacks": 59,
+    "renderedFrames": 58
+  },
+  "qualitySwitch": {
+    "saved": "true",
+    "stats": {
+      "backgroundBytes": 0,
+      "bezierLoaded": false,
+      "bezierLoading": false,
+      "drawCalls": 2,
+      "fpsLimit": "unlimited",
+      "frames": 96,
+      "labelCandidatesVisited": 0,
+      "labelCreates": 0,
+      "labelScans": 3,
+      "labels": 0,
+      "lines": 0,
+      "neighborLabels": 0,
+      "overlayBuilds": 2,
+      "overlayInstances": 0,
+      "pendingFrame": false,
+      "pendingLabelTask": false,
+      "pixelRatio": 1,
+      "pointerLockError": null,
+      "pointerLocked": false,
+      "quality": "high",
+      "renderCpuMs": 0.5,
+      "rendererTrackedBytes": 14938519,
+      "sceneObjects": 9,
+      "searchIndexLoading": false,
+      "searchIndexReady": false,
+      "triangles": 98129
+    }
+  },
+  "afterReload": {
+    "idle": {
+      "frames": 0,
+      "labelScans": 0
+    },
+    "saved": "true",
+    "stats": {
+      "backgroundBytes": 0,
+      "bezierLoaded": false,
+      "bezierLoading": false,
+      "drawCalls": 2,
+      "fpsLimit": "unlimited",
+      "frames": 2,
+      "labelCandidatesVisited": 0,
+      "labelCreates": 0,
+      "labelScans": 2,
+      "labels": 0,
+      "lines": 0,
+      "neighborLabels": 0,
+      "overlayBuilds": 0,
+      "overlayInstances": 0,
+      "pendingFrame": false,
+      "pendingLabelTask": false,
+      "pixelRatio": 1,
+      "pointerLockError": null,
+      "pointerLocked": false,
+      "quality": "low",
+      "renderCpuMs": 2.5999999940395355,
+      "rendererTrackedBytes": 14904336,
+      "sceneObjects": 7,
+      "searchIndexLoading": false,
+      "searchIndexReady": false,
+      "triangles": 98129
+    }
+  },
+  "notes": [
+    "Continuous RAF invalidation is a functional cap probe, not a performance benchmark or screen FPS. The final RAF may still be queued at sampling."
+  ]
+}

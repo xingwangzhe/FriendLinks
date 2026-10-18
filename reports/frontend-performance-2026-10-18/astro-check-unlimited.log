@@ -1,0 +1,41 @@
+$ bun --bun astro check
+12:48:08 [types] Generated 135ms
+12:48:08 [check] Getting diagnostics for Astro files in /home/xingwangzhe/桌面/前端项目/FriendLinks...
+scripts/experiments/yaml-parse-common.ts:34:17 - warning ts(80006): This may be converted to an async function.
+
+34 export function parseWithWorkers(sources: Source[], count: number): Promise<ParseResult[]> {
+                   ~~~~~~~~~~~~~~~~
+
+src/winbox.d.ts:3:10 - warning ts(80003): Import may be converted to a default import.
+
+3   import WinBox = require("winbox");
+           ~~~~~~
+
+src/scripts/graph-search.test.ts:80:3 - warning ts(80007): 'await' has no effect on the type of this expression.
+
+80   await expect(createGraphSearchIndex(nodes, () => ++checks < 10)).rejects.toMatchObject({ name: "AbortError" });
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/utils/site-collection-cache.test.ts:33:5 - warning ts(80007): 'await' has no effect on the type of this expression.
+
+33     await expect(read()).rejects.toThrow("YAML 校验失败");
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/utils/site-collection.ts:51:4 - warning ts(6385): '(): ZodObject<{ name: ZodString; description: ZodString; url: ZodString; aliases: ZodOptional<ZodArray<ZodString>>; links: ZodOptional<...>; color: ZodOptional<...>; favicon: ZodOptional<...>; friends: ZodArray<...>; }, $loose>' is deprecated.
+
+51   .passthrough();
+      ~~~~~~~~~~~
+src/utils/site-collection.ts:48:10 - warning ts(6385): '(): ZodObject<{ name: ZodString; url: ZodString; favicon: ZodOptional<ZodString>; description: ZodOptional<ZodString>; avatar: ZodOptional<...>; }, $loose>' is deprecated.
+
+48         .passthrough(),
+            ~~~~~~~~~~~
+
+tools/six-degrees.ts:305:3 - warning ts(6133): 'nodeMap' is declared but its value is never read.
+
+305   nodeMap: Map<string, GraphNode>,
+      ~~~~~~~
+
+Result (82 files):
+- 0 errors
+- 0 warnings
+- 7 hints

@@ -1,0 +1,151 @@
+bun test v1.4.3 (c6da4a4d3)
+
+src/utils/build-artifact-cache.test.ts:
+(pass) verified build artifacts > roundtrips real arrays and rejects corruption or different inputs [5.90ms]
+(pass) verified build artifacts > invalidates same-version local native rebuilds, loader changes and source changes [7.69ms]
+
+src/utils/site-identity.test.ts:
+[合并提示] http://a.test/: 主记录 a；元数据差异 a, z
+(pass) site identity and topology > duplicate primaries preserve metadata priority, optional fields and friend union [1.95ms]
+[合并提示] https://new.test/: 主记录 new；元数据差异 new, middle, old
+(pass) site identity and topology > multi-level migrations preserve union, resolve references and eliminate self links [1.40ms]
+(pass) site identity and topology > conflicts and cycles contain files and addresses; invalid aliases fail [0.51ms]
+(pass) site identity and topology > explicit hosts, scoped paths, query entries, longest matching and ports [0.43ms]
+(pass) site identity and topology > unmatched multi-column hosts keep full URL; edges and statistics share identity [1.15ms]
+[合并提示] https://a.test/: 主记录 a；元数据差异 a, old
+[合并提示] https://a.test/: 主记录 a；元数据差异 a, old
+(pass) site identity and topology > all identities are established before deterministic sampling [1.50ms]
+(pass) site identity and topology > directory/sample cache isolation, invalidation and validation exit status [283.01ms]
+  ❶ ░░░░░░░░░░░░░░░░░░░░   0%  加载友链数据…
+  ❶ ████████████████████ 100%  3/3 站点已加载
+[合并提示] https://new.test/: 主记录 new.yml；元数据差异 new.yml, old.yml
+  ✔ ████████████████████ 100%  /all.json  2 站点，耗时 0.0s
+(pass) real all.json loader and six-degree adjacency use the same logical identity [50.21ms]
+
+src/utils/build-bezier.test.ts:
+(pass) compact build-time Bezier data > allocates exactly two scalar coordinates per segment on each axis [1.53ms]
+(pass) compact build-time Bezier data > keeps edge endpoints and shared segment endpoints continuous across invalid edges [1.00ms]
+(pass) compact build-time Bezier data > empty graphs and zero-length edges retain finite quantization bounds [1.56ms]
+(pass) compact build-time Bezier data > quantizes actual positive, negative and mixed axis ranges within one quantization step [0.68ms]
+(pass) compact Bezier endpoint encoding > encodes signed Int16 coordinate bytes without numeric Uint8 conversion [1.17ms]
+
+src/utils/compress.test.ts:
+(pass) build compression and browser decompression > empty round-trips through the browser WASM decoder [3.73ms]
+(pass) build compression and browser decompression > small UTF-8 metadata round-trips through the browser WASM decoder [0.68ms]
+(pass) build compression and browser decompression > every byte value round-trips through the browser WASM decoder [5.72ms]
+(pass) build compression and browser decompression > large deterministic binary round-trips through the browser WASM decoder [18.87ms]
+
+src/utils/site-collection-cache.test.ts:
+[cache] YAML: 0 reused, 2 parsed (2 source records; content hashes verified)
+[cache] YAML: 2 reused, 0 parsed (2 source records; content hashes verified)
+[cache] YAML: 1 reused, 1 parsed (2 source records; content hashes verified)
+[cache] YAML: 0 reused, 2 parsed (2 source records; content hashes verified)
+[cache] YAML: 1 reused, 1 parsed (2 source records; content hashes verified)
+(pass) parsed record cache detects edits, additions, renames, deletions and invalid YAML [41.19ms]
+
+src/utils/yaml-files.test.ts:
+(pass) YAML file discovery > reads YAML files from the root and ordinary nested directories [2.54ms]
+(pass) YAML file discovery > skips every nested unverified directory [1.90ms]
+(pass) YAML file discovery > reads candidates when unverified is the explicit scan root [1.10ms]
+(pass) YAML file discovery > returns the same stable order from synchronous and asynchronous scans [1.21ms]
+
+src/scripts/graph-search.test.ts:
+(pass) disabling unused property sorting preserves complete ranked search hits [132.43ms]
+(pass) index construction stops when the graph is disposed and a fresh attempt can succeed [3.51ms]
+
+src/scripts/graph3d/render-scheduler.test.ts:
+(pass) demand-driven render scheduler > coalesces repeated invalidations and requests no frames while idle [1.38ms]
+(pass) demand-driven render scheduler > retains an invalidation raised while rendering [0.39ms]
+(pass) demand-driven render scheduler > animates only while onFrame requests continuation [0.34ms]
+(pass) demand-driven render scheduler > pause cancels RAF, and resume renders immediately even within the FPS interval [0.34ms]
+(pass) demand-driven render scheduler > hidden scenes stop scheduling and resume with their latest invalidation [0.19ms]
+(pass) demand-driven render scheduler > throttles animation without starving pending changes or rounding 45 FPS down to 30 [1.52ms]
+(pass) demand-driven render scheduler > does not lose a single change requested before the next permitted frame [0.46ms]
+(pass) demand-driven render scheduler > updates the FPS limit and never restarts after disposal [0.45ms]
+(pass) demand-driven render scheduler > unlimited animation renders every browser RAF on 144 Hz and 240 Hz displays [2.28ms]
+(pass) demand-driven render scheduler > switches from a finite cap to unlimited and back without dropping pending animation [0.66ms]
+(pass) demand-driven render scheduler > unlimited mode still stops when idle, suspends when hidden and cancels pending frames [0.65ms]
+(pass) demand-driven render scheduler > rejects invalid initial and updated caps while retaining the active cap [1.15ms]
+
+src/scripts/graph3d/pathfinder.test.ts:
+(pass) shortest path > retains same-node, missing-node, empty ID and Set insertion-order behavior [0.38ms]
+(pass) shortest path > matches the previous BFS on random directed and undirected adjacency maps [27.37ms]
+(pass) shortest path > searches a wide frontier and preserves the path through its final entry [22.48ms]
+(pass) shortest path > reconstructs an entire long chain in start-to-end order [29.36ms]
+
+src/scripts/graph3d/label-candidates.test.ts:
+(pass) nearby label selection preserves distance, frustum, retention and stable ties [65.62ms]
+(pass) label retention radius does not create labels for distant unretained nodes [0.95ms]
+(pass) retained labels inside a neighboring cell enter the budget only once [0.96ms]
+
+src/scripts/graph3d/spatial-index.test.ts:
+(pass) spatial node picking > matches exact InstancedMesh triangle hits across silhouettes, misses and nearest nodes [99.25ms]
+(pass) spatial node picking > uses current focus scale and honors near/far clipping [1.86ms]
+(pass) spatial node picking > supports mesh world transforms, layer masks and stable overlapping hit order [2.27ms]
+(pass) spatial node picking > prunes thousands of unrelated instances before exact raycasting [90.51ms]
+(pass) spatial node picking > prunes occluded columns after the nearest exact hit and handles rays inside bounds [70.55ms]
+(pass) spatial node picking > uses analytical sphere hooks with nearest hits, stable ties, focus scale and clipping [8.43ms]
+
+src/scripts/graph3d/edge-geometry.test.ts:
+(pass) on-demand edge geometry > runtime samples preserve curve endpoints, shape and contiguous segments [3.51ms]
+(pass) on-demand edge geometry > compact curves retain variable edge offsets without fixed-stride padding [0.70ms]
+(pass) on-demand edge geometry > truncated compact input falls back to a complete runtime curve [0.41ms]
+(pass) on-demand edge geometry > missing endpoints and invalid indices have no drawable segments [0.21ms]
+(pass) on-demand edge geometry > hidden background allocates no graph buffers; revealing includes edges beyond the overlay limit [24.41ms]
+
+src/scripts/graph3d/renderer-camera.test.ts:
+(pass) camera animation lifecycle > replacing an animation leaves one frame chain and reaches the latest destination [7.41ms]
+(pass) camera animation lifecycle > fit and focus share cancellation; disposal stops pending work without resetting the target [4.65ms]
+(pass) camera animation lifecycle > zero-duration navigation completes immediately without a frame loop [5.86ms]
+
+src/scripts/graph3d/interaction.test.ts:
+(pass) indexed picking preserves hover, clicks, fly-center targeting and cleans up listeners [11.00ms]
+(pass) unchanged hover rays reuse exact picks while camera, scale, clip and layer changes invalidate them [6.74ms]
+(pass) flight node activation requires this canvas's pointer lock and preserves relock clicks [4.25ms]
+
+src/scripts/graph3d/background-edges.test.ts:
+(pass) indexed background edge buffers > preserves every Float32 endpoint and gradient while sharing contiguous vertices [4.63ms]
+(pass) indexed background edge buffers > preserves disjoint compact segment data without introducing connections [2.41ms]
+(pass) indexed background edge buffers > hiding disposes once and drops position, color and index allocations [5.65ms]
+
+src/scripts/graph3d/edge-sampling.test.ts:
+(pass) unique runtime vertices expand to the exact previous Float32 samples [13.77ms]
+(pass) compact unique vertices preserve discontinuous segments and Float32 equivalence [0.91ms]
+(pass) rebuilding static edge samples reuses endpoint lookups and invalid edges stay empty [0.88ms]
+
+src/scripts/graph3d/init-lifecycle.test.ts:
+(pass) an already aborted initialization does not touch the DOM [221.17ms]
+(pass) timing out during WASM loading cannot create a renderer later [193.21ms]
+(pass) timing out while renderer initialization waits releases its resources [205.24ms]
+(pass) a slower superseded renderer cannot overwrite the newer initialization [226.08ms]
+
+src/scripts/graph3d/binary-arrays.test.ts:
+(pass) compact signed coordinate bytes > retains existing Int16 values and aligned byte views without copying [0.64ms]
+(pass) compact signed coordinate bytes > recovers an odd-offset byte slice without surrounding sentinel bytes [0.62ms]
+(pass) compact signed coordinate bytes > decodes MessagePack binary at an odd byte offset [2.60ms]
+(pass) compact signed coordinate bytes > rejects truncated or non-binary coordinate data [0.48ms]
+
+src/scripts/graph3d/node-spheres.test.ts:
+(pass) compact GPU sphere impostors > reduces actual instance GPU attributes and triangle topology for the real node count [48.81ms]
+(pass) compact GPU sphere impostors > keeps exact CPU matrices, live focus radius and bounded sparse upload ranges [17.53ms]
+(pass) compact GPU sphere impostors > analytical ray hits respect current matrices, sphere edges, world transform and near/far [4.04ms]
+(pass) compact GPU sphere impostors > disposes owned visual and proxy resources once [4.78ms]
+
+src/scripts/ui/debounced-search.test.ts:
+(pass) coalesces queued input and clears a pending search without executing it [6.97ms]
+(pass) a slower old result cannot replace a newer result or survive clearing [5.94ms]
+(pass) clearing in-flight input invalidates its result even when the search ignores abort [22.08ms]
+(pass) a failed latest search can be retried and disposal cancels queued work [9.94ms]
+
+src/scripts/ui/window-geometry.test.ts:
+(pass) floating window viewport bounds > preserves a desktop layout already inside the viewport [0.27ms]
+(pass) floating window viewport bounds > shrinks oversized windows and keeps all edges accessible on mobile [0.21ms]
+(pass) floating window viewport bounds > constrains dragged windows without changing their size [0.25ms]
+
+src/scripts/ui/yield-to-main.test.ts:
+(pass) uses native scheduler continuation when available and a task fallback otherwise [3.32ms]
+
+ 88 pass
+ 0 fail
+ 4875 expect() calls
+Ran 88 tests across 22 files. [2.57s]

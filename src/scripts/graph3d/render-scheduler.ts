@@ -4,6 +4,7 @@ interface RenderSchedulerOptions {
   /** Return true while camera damping, flight, or another animation needs more frames. */
   onFrame: (timestamp: number) => boolean;
   isVisible?: () => boolean;
+  /** Infinity follows every browser RAF while frames are needed. */
   maxFps?: number;
 }
 
@@ -17,8 +18,9 @@ export interface RenderScheduler {
 }
 
 function frameInterval(maxFps: number): number {
+  if (maxFps === Infinity) return 0;
   if (!Number.isFinite(maxFps) || maxFps <= 0) {
-    throw new RangeError("maxFps must be a positive finite number");
+    throw new RangeError("maxFps must be a positive finite number or Infinity");
   }
   return 1000 / maxFps;
 }
