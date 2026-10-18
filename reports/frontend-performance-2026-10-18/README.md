@@ -25,6 +25,9 @@
 - `tests-final.log`、`lint-final.log`、`astro-check-final.log`、`format-final.log`、`validate-final.log`：最终源码校验。
 - `build.log` / `build-final.log`：同旧图的缓存构建 6.887 / 7.245s。`build-merged.log`：新关系使布局失效，完整重算 37.613s。后续小修的缓存构建单独记录，不重复全库计算。
 - `output-verification.json`：合并前与原始构建精确对照，站点/拓扑/统计与量化曲线通过；`output-final.json`：合并后独立完整产物校验。
+- `audit-before.json` / `audit-after.json`、`transitive-update.log`、`transitive-smoke.json`：范围内传递依赖补丁及审计清零，保留 TS6；SVG 解码和 source-map 查询通过。
+- `*-security.log` / `output-security.json`：追加修复后的最终校验，84 tests / 4840 assertions、Astro check 无错误警告、构建成功，图数据/统计/坐标与补丁前完全一致。
+- `security-browser.json` / `final.jpg`：最终构建的可见页面与空闲停绘证明；飞行未锁定时首击未打开链接，该次实际锁定因文档焦点失败，未伪报成功。
 
 ## 浏览器渲染探针
 

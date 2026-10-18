@@ -125,6 +125,9 @@ export function createInteraction(ctx: RenderContext, nodes: GraphNode[], maxNod
 
   // ── Click ──
   function handleClick(event: MouseEvent) {
+    // An unlocked flight click belongs to the pointer-lock handler, rather than
+    // the node at the retained center reticle.
+    if (_isFlyMode && document.pointerLockElement !== canvas) return;
     const node = getNodeAtMouse(event);
     if (node) ix.onClick?.(node);
   }
@@ -132,6 +135,7 @@ export function createInteraction(ctx: RenderContext, nodes: GraphNode[], maxNod
   // ── Right-click ──
   function handleContextMenu(event: MouseEvent) {
     event.preventDefault();
+    if (_isFlyMode && document.pointerLockElement !== canvas) return;
     const node = getNodeAtMouse(event);
     if (node) ix.onRightClick?.(node);
   }

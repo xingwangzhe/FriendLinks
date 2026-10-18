@@ -1319,6 +1319,7 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
 
   // 左键 → 打开邻居 URL
   ctx.renderer.domElement.addEventListener("click", (event: MouseEvent) => {
+    if (isFlyMode && document.pointerLockElement !== ctx.renderer.domElement) return;
     const sprite = hitTestNeighborSprite(event);
     if (sprite && (sprite as any)._neighborUrl) {
       event.stopImmediatePropagation();
@@ -1328,6 +1329,7 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
 
   // 右键 → 聚焦邻居节点
   ctx.renderer.domElement.addEventListener("contextmenu", (event: MouseEvent) => {
+    if (isFlyMode && document.pointerLockElement !== ctx.renderer.domElement) return;
     const sprite = hitTestNeighborSprite(event);
     if (sprite && (sprite as any)._neighborId) {
       event.preventDefault();

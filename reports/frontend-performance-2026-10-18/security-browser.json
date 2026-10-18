@@ -1,0 +1,41 @@
+{
+  "idle": {
+    "frames": 0,
+    "labelScans": 0
+  },
+  "notes": [
+    "The unlocked center click did not open a URL; pointer lock returned WrongDocumentError in this document focus state. Prior sampled-dev browser test separately verified successful pointer lock and movement."
+  ],
+  "relock": {
+    "error": "WrongDocumentError",
+    "locked": false,
+    "opens": 0
+  },
+  "stats": {
+    "backgroundBytes": 0,
+    "bezierLoaded": false,
+    "bezierLoading": false,
+    "drawCalls": 10,
+    "frames": 293,
+    "labelCandidatesVisited": 25,
+    "labelCreates": 0,
+    "labelScans": 59,
+    "labels": 0,
+    "lines": 0,
+    "neighborLabels": 41,
+    "overlayBuilds": 3,
+    "overlayInstances": 2090,
+    "pendingFrame": false,
+    "pendingLabelTask": false,
+    "pixelRatio": 1,
+    "pointerLockError": "WrongDocumentError",
+    "pointerLocked": false,
+    "quality": "low",
+    "renderCpuMs": 2.4000000059604645,
+    "rendererTrackedBytes": 17138322,
+    "sceneObjects": 50,
+    "searchIndexLoading": false,
+    "searchIndexReady": false,
+    "triangles": 148301
+  }
+}

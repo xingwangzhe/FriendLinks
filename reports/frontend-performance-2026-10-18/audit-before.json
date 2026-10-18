@@ -1,0 +1,24 @@
+{
+  "sharp": [
+    {
+      "id": 1241331,
+      "url": "https://github.com/advisories/GHSA-wq5f-xc86-pv6w",
+      "title": "sharp : Vulnerability in librsvg dependency CVE-2026-96889",
+      "severity": "high",
+      "vulnerable_versions": "<0.35.5",
+      "cwe": ["CWE-416", "CWE-1395"],
+      "cvss": { "score": 0, "vectorString": null }
+    }
+  ],
+  "source-map-js": [
+    {
+      "id": 1241209,
+      "url": "https://github.com/advisories/GHSA-68fv-2mgg-jv7q",
+      "title": "source-map-js allows event-loop denial of service through indexed source-map section offsets",
+      "severity": "high",
+      "vulnerable_versions": ">=1.0.0 <1.2.2",
+      "cwe": ["CWE-1284"],
+      "cvss": { "score": 7.5, "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H" }
+    }
+  ]
+}

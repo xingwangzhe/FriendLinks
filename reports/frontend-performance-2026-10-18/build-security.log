@@ -1,0 +1,174 @@
+$ bun scripts/build.ts
+[build] Bun 1.4.3, Astro 7.4.0, artifacts=enabled
+12:37:08 [types] Generated 97ms
+12:37:08 [build] output: "static"
+12:37:08 [build] mode: "static"
+12:37:08 [build] directory: /home/xingwangzhe/桌面/前端项目/FriendLinks/dist/
+12:37:08 [build] Collecting build info...
+12:37:08 [build] ✓ Completed in 161ms.
+12:37:08 [build] Building static entrypoints...
+/*! 🌼 daisyUI 5.7.50 */
+12:37:11 [vite] ✓ built in 3.44s
+12:37:12 [WARN] [vite] [plugin builtin:vite-reporter]
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+12:37:12 [vite] ✓ built in 1.04s
+12:37:12 [build] Rearranging server assets...
+
+ generating static routes
+12:37:13   ├─ /all.json  ❶ ░░░░░░░░░░░░░░░░░░░░   0%  加载友链数据…
+  ❶ ░░░░░░░░░░░░░░░░░░░░   1%  128/8571 站点已加载
+  ❶ █░░░░░░░░░░░░░░░░░░░   3%  256/8571 站点已加载
+  ❶ █░░░░░░░░░░░░░░░░░░░   4%  384/8571 站点已加载
+  ❶ █░░░░░░░░░░░░░░░░░░░   6%  512/8571 站点已加载
+  ❶ █░░░░░░░░░░░░░░░░░░░   7%  640/8571 站点已加载
+  ❶ ██░░░░░░░░░░░░░░░░░░   9%  768/8571 站点已加载
+  ❶ ██░░░░░░░░░░░░░░░░░░  10%  896/8571 站点已加载
+  ❶ ██░░░░░░░░░░░░░░░░░░  12%  1024/8571 站点已加载
+  ❶ ███░░░░░░░░░░░░░░░░░  13%  1152/8571 站点已加载
+  ❶ ███░░░░░░░░░░░░░░░░░  15%  1280/8571 站点已加载
+  ❶ ███░░░░░░░░░░░░░░░░░  16%  1408/8571 站点已加载
+  ❶ ████░░░░░░░░░░░░░░░░  18%  1536/8571 站点已加载
+  ❶ ████░░░░░░░░░░░░░░░░  19%  1664/8571 站点已加载
+  ❶ ████░░░░░░░░░░░░░░░░  21%  1792/8571 站点已加载
+  ❶ ████░░░░░░░░░░░░░░░░  22%  1920/8571 站点已加载
+  ❶ █████░░░░░░░░░░░░░░░  24%  2048/8571 站点已加载
+  ❶ █████░░░░░░░░░░░░░░░  25%  2176/8571 站点已加载
+  ❶ █████░░░░░░░░░░░░░░░  27%  2304/8571 站点已加载
+  ❶ ██████░░░░░░░░░░░░░░  28%  2432/8571 站点已加载
+  ❶ ██████░░░░░░░░░░░░░░  30%  2560/8571 站点已加载
+  ❶ ██████░░░░░░░░░░░░░░  31%  2688/8571 站点已加载
+  ❶ ███████░░░░░░░░░░░░░  33%  2816/8571 站点已加载
+  ❶ ███████░░░░░░░░░░░░░  34%  2944/8571 站点已加载
+  ❶ ███████░░░░░░░░░░░░░  36%  3072/8571 站点已加载
+  ❶ ███████░░░░░░░░░░░░░  37%  3200/8571 站点已加载
+  ❶ ████████░░░░░░░░░░░░  39%  3328/8571 站点已加载
+  ❶ ████████░░░░░░░░░░░░  40%  3456/8571 站点已加载
+  ❶ ████████░░░░░░░░░░░░  42%  3584/8571 站点已加载
+  ❶ █████████░░░░░░░░░░░  43%  3712/8571 站点已加载
+  ❶ █████████░░░░░░░░░░░  45%  3840/8571 站点已加载
+  ❶ █████████░░░░░░░░░░░  46%  3968/8571 站点已加载
+  ❶ ██████████░░░░░░░░░░  48%  4096/8571 站点已加载
+  ❶ ██████████░░░░░░░░░░  49%  4224/8571 站点已加载
+  ❶ ██████████░░░░░░░░░░  51%  4352/8571 站点已加载
+  ❶ ██████████░░░░░░░░░░  52%  4480/8571 站点已加载
+  ❶ ███████████░░░░░░░░░  54%  4608/8571 站点已加载
+  ❶ ███████████░░░░░░░░░  55%  4736/8571 站点已加载
+  ❶ ███████████░░░░░░░░░  57%  4864/8571 站点已加载
+  ❶ ████████████░░░░░░░░  58%  4992/8571 站点已加载
+  ❶ ████████████░░░░░░░░  60%  5120/8571 站点已加载
+  ❶ ████████████░░░░░░░░  61%  5248/8571 站点已加载
+  ❶ █████████████░░░░░░░  63%  5376/8571 站点已加载
+  ❶ █████████████░░░░░░░  64%  5504/8571 站点已加载
+  ❶ █████████████░░░░░░░  66%  5632/8571 站点已加载
+  ❶ █████████████░░░░░░░  67%  5760/8571 站点已加载
+  ❶ ██████████████░░░░░░  69%  5888/8571 站点已加载
+  ❶ ██████████████░░░░░░  70%  6016/8571 站点已加载
+  ❶ ██████████████░░░░░░  72%  6144/8571 站点已加载
+  ❶ ███████████████░░░░░  73%  6272/8571 站点已加载
+  ❶ ███████████████░░░░░  75%  6400/8571 站点已加载
+  ❶ ███████████████░░░░░  76%  6528/8571 站点已加载
+  ❶ ████████████████░░░░  78%  6656/8571 站点已加载
+  ❶ ████████████████░░░░  79%  6784/8571 站点已加载
+  ❶ ████████████████░░░░  81%  6912/8571 站点已加载
+  ❶ ████████████████░░░░  82%  7040/8571 站点已加载
+  ❶ █████████████████░░░  84%  7168/8571 站点已加载
+  ❶ █████████████████░░░  85%  7296/8571 站点已加载
+  ❶ █████████████████░░░  87%  7424/8571 站点已加载
+  ❶ ██████████████████░░  88%  7552/8571 站点已加载
+  ❶ ██████████████████░░  90%  7680/8571 站点已加载
+  ❶ ██████████████████░░  91%  7808/8571 站点已加载
+  ❶ ███████████████████░  93%  7936/8571 站点已加载
+  ❶ ███████████████████░  94%  8064/8571 站点已加载
+  ❶ ███████████████████░  96%  8192/8571 站点已加载
+  ❶ ███████████████████░  97%  8320/8571 站点已加载
+  ❶ ████████████████████  99%  8448/8571 站点已加载
+  ❶ ████████████████████ 100%  8571/8571 站点已加载
+[cache] YAML: 8571 reused, 0 parsed (8571 source records; content hashes verified)
+  ✔ ████████████████████ 100%  /all.json  8571 站点，耗时 2.0s
+ (+2.29s)
+12:37:15   ├─ /graph-bezier.bin  ❶ ░░░░░░░░░░░░░░░░░░░░   0%  加载站点数据…
+  ✔ ████████████████████ 100%  8571 个站点
+  [timing] loadSites: 0.0s
+  ❶ ░░░░░░░░░░░░░░░░░░░░   0%  构建图数据 (8571 个站点)…
+[cache] graph hit: 49064 nodes, 107528 edges (verified artifact)
+  [timing] getBuildResult (force sim + bezier + quantize): 0.9s
+  [timing] msgpackr encode: 1.2s
+[cache] zstd hit: 38080314 input bytes, 20792316 output bytes
+  [timing] zstd compress: 1.5s
+  ✔ ████████████████████ 100%  /graph-bezier.bin 完成 · 107528 边 · 19.8MB · 耗时 1.5s
+ (+1.98s)
+12:37:17   ├─ /graph-core.bin  ❶ ░░░░░░░░░░░░░░░░░░░░   0%  加载站点数据…
+  ✔ ████████████████████ 100%  8571 个站点
+[cache] zstd hit: 8351247 input bytes, 2982927 output bytes
+  ✔ ████████████████████ 100%  /graph-core.bin 完成 · 49064 节点 · 2.8MB · 耗时 0.5s
+ (+490ms)
+12:37:17   ├─ /stats.json  ❶ ░░░░░░░░░░░░░░░░░░░░   0%  加载友链数据…
+  ✔ ████████████████████ 100%  8571 站点加载完成
+[cache] stats hit: 49064 nodes (verified exact histogram)
+ (+315ms)
+12:37:18   ├─ /index.html (+14ms)
+12:37:18 ✓ Completed in 5.13s.
+
+12:37:18 [build] ✓ Completed in 9.75s.
+12:37:18 [build] 1 page(s) built in 9.92s
+12:37:18 [build] Complete!
+
+ build timings
+total 10.39s · 5 pages · output "static"
+
+Build phases
+  resolve config                       439ms   4.2% █·····················
+  setup                                160ms   1.5% ·▃····················
+    route discovery                      8ms   0.1% ·▁····················
+    vite config                         50ms   0.5% ·▁····················
+    content sync                        98ms   0.9% ·▂····················
+  prerender bundle                     3.44s  33.1% ·▄██████▇·············
+  client bundle                        1.04s  10.0% ········▁██▁··········
+  manifest injection                    11ms   0.1% ···········▁··········
+  rearrange assets                       1ms   0.0% ······················
+  generate pages                       5.13s  49.4% ···········███████████
+    prerenderer setup                   43ms   0.4% ···········▁··········
+
+Vite plugins (3.12s of the build)
+  @tailwindcss/vite:generate:build     2.61s        ··▅█████·▁············  4 calls · transform 2.61s
+  vite:css                             143ms        ·······▁▂▁············  12 calls · transform 142ms
+  @astro/plugin-incremental             99ms        ········▁·▁▁··········  301 calls · generateBundle 96ms · transform 3ms
+  vite:css-post                         58ms        ········▁·············  31 calls · renderChunk 54ms · generateBundle 2ms · transform 1ms
+  astro:session-provider                26ms        ·▁▁······▁············  820 calls · resolveId 26ms
+  astro:markdown                        25ms        ·▁▁···················  815 calls · resolveId 25ms
+  astro:scripts:page-ssr                23ms        ·▁····················  299 calls · transform 23ms
+  astro:vite-plugin-env                 23ms        ··▁···················  6 calls · transform 23ms
+
+Slowest files to bundle (2.85s in load/transform)
+  src/styles/app.css                   2.71s        ··▅█████▂·············  @tailwindcss/vite:generate:build 2.57s · vite:css 132ms
+  src/css/topbar.css                    29ms        ··▁···················  @tailwindcss/vite:generate:build 26ms · vite:css 2ms
+  …ldown/runtime.js (astro internal)    22ms        ·▁····················  astro:scripts:page-ssr 21ms
+  src/pages/index.astro                 21ms        ··▁···················  astro:build 16ms · astro:vite-plugin-env 5ms
+  winbox/dist/css/winbox.min.css        20ms        ·········▁············  @tailwindcss/vite:generate:build 11ms · vite:css 8ms
+  src/css/base.css                      12ms        ··▁···················  @tailwindcss/vite:generate:build 11ms
+  …b/zstd-wasm/dist/web/index.web.js    11ms        ·········▁············  vite:asset-import-meta-url 10ms
+  …ro/dist/actions/runtime/server.js     6ms        ··▁···················  astro:vite-plugin-env 6ms
+
+Page rendering (5.08s across 5 pages)
+  component render                     4.63s  44.6% ···········▇███████▄▆█
+  page pipeline                        453ms   4.4%
+
+Slowest pages (median 491ms · p95 2.29s)
+  /all.json                            2.29s
+  /graph-bezier.bin                    1.98s
+  /graph-core.bin                      491ms
+  /stats.json                          315ms
+  /                                     14ms
+
+[post-build] 构建时间戳（UTC）：2026-10-18-04-37-18
+[post-build] 共 3 个文件需要重命名：
+  _astro/index.CPEdmA6B.css  →  _astro/index.2026-10-18-04-37-18.css
+  graph-core.bin  →  graph-core.2026-10-18-04-37-18.bin
+  graph-bezier.bin  →  graph-bezier.2026-10-18-04-37-18.bin
+[post-build] index.html 引用已更新
+[post-build] sw.js 引用已更新
+[post-build] ✅ 完成 · 3 个文件已重命名
+[build timing] astro=11.441s post=0.047s total=11.487s

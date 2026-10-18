@@ -100,3 +100,11 @@ console.table({
 ```
 
 稳定后预期新增帧、标签查询和背景缓冲均为 0，两个待执行标志为 false；交互后可恢复绘制，结束后再次停绘。按需策略参考 [Three Rendering on Demand](https://threejs.org/manual/en/rendering-on-demand.html)。
+
+## 发布收尾复核
+
+主性能提交的 GitHub 构建已成功。随后使用 `bun update` 更新清单范围内的传递依赖，修复 sharp `<0.35.5` 的 [GHSA-wq5f-xc86-pv6w](https://github.com/advisories/GHSA-wq5f-xc86-pv6w) 和 source-map-js `<1.2.2` 的 [GHSA-68fv-2mgg-jv7q](https://github.com/advisories/GHSA-68fv-2mgg-jv7q)。最终安装 sharp 0.35.5、source-map-js 1.2.2，`bun audit --json` 返回 `{}` 并以 0 退出。SVG 解码和 source-map 查询 smoke 检查通过。TypeScript 继续固定 6.0.3，两个原生包均使用 registry 0.3.0，没有本地链接残留。
+
+飞行模式未锁定鼠标或锁定其它画布时，节点与邻居标签的点击不再打开 URL 或改变聚焦，首击继续传给重新锁定 handler；锁定当前画布后保留原行为。回归测试覆盖事件传递及轨道模式。最新页面实测该首击打开 URL 次数为 0；该次浏览器因文档焦点返回 `WrongDocumentError`，提示保留，成功锁定与移动的独立证据仍见前述抽样 dev 记录。
+
+收尾源码校验为 **84 tests、4840 assertions、0 failures**；lint 通过，Astro check 82 文件、0 errors、0 warnings、7 hints。校验并行时缓存构建为 11.487s，仅作为成功验证；与安全补丁前逐项对照，站点、关系、统计、全部节点坐标一致，位置差为 0。最新页面稳定后两秒新增帧和标签扫描均为 0，搜索索引仍未创建、背景数组为 0。证据见报告目录中的 `*-security.log`、`audit-*.json`、`transitive-smoke.json`、`output-security.json` 和 `security-browser.json`。
