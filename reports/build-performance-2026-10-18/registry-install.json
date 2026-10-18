@@ -1,0 +1,66 @@
+[
+  {
+    "name": "@xingwangzhe/force-rs",
+    "entry": "/home/xingwangzhe/桌面/前端项目/FriendLinks/node_modules/@xingwangzhe/force-rs/index.js",
+    "version": "0.3.0",
+    "symlink": false,
+    "binaries": [
+      {
+        "file": "force-rs.linux-arm64-gnu.node",
+        "sha256": "e8806c860696c90ed8ca6ef99a5bd6fe1418be8e53ad3f6832e759b312b8c11c"
+      },
+      {
+        "file": "force-rs.linux-x64-gnu.node",
+        "sha256": "92ee5eede9f51cbc9ca59933846bfc4989f5073fc8018c86ec79d34e100701a6"
+      },
+      {
+        "file": "force-rs.linux-x64-musl.node",
+        "sha256": "48aa39a42ebbb10adecba023227fe7b6409cd11746d93d24d7e5e81f78d697e3"
+      },
+      {
+        "file": "force-rs.darwin-x64.node",
+        "sha256": "e47e6af65abd667b21fad2f30b1ecb64859e59c8da0444862e68e8853d65c2fe"
+      },
+      {
+        "file": "force-rs.win32-x64-msvc.node",
+        "sha256": "7c39434d9f4ffa93c3c3c48603e78e582b6fbd39e8c26335c7f0fc956bf442ae"
+      },
+      {
+        "file": "force-rs.darwin-arm64.node",
+        "sha256": "c9dbe293f96f71965511cfdbdcb1666bd516ea3bc8d9c4aa89c39b073c51fd76"
+      }
+    ]
+  },
+  {
+    "name": "@xingwangzhe/bfs-rs",
+    "entry": "/home/xingwangzhe/桌面/前端项目/FriendLinks/node_modules/@xingwangzhe/bfs-rs/index.js",
+    "version": "0.3.0",
+    "symlink": false,
+    "binaries": [
+      {
+        "file": "bfs-rs.linux-arm64-gnu.node",
+        "sha256": "d8bc1a40f71f0f63a2113a4d4eb444ec89a8cc2ee604468679dda9158cd56e8d"
+      },
+      {
+        "file": "bfs-rs.linux-x64-gnu.node",
+        "sha256": "47cdc7f727a4de6cf97270bf409c30d622f2b337d9fe6b4882e58f7c838226ae"
+      },
+      {
+        "file": "bfs-rs.darwin-arm64.node",
+        "sha256": "c9ba1c925027714e00ac04a56bd9bab716024ae3138f03c3e3c2cf652383f526"
+      },
+      {
+        "file": "bfs-rs.win32-x64-msvc.node",
+        "sha256": "9fecf6dc38e7dcf22bc92d0f29382283bbea55b71a4757312d940b2ce3360ddd"
+      },
+      {
+        "file": "bfs-rs.linux-x64-musl.node",
+        "sha256": "77ae951c7a21dd2f89d26727f0f40a4d0a34c04b970c323a67ca534e127c248b"
+      },
+      {
+        "file": "bfs-rs.darwin-x64.node",
+        "sha256": "dd944f9d7130ca05999b1ef474441a482f6bf2d4a3b28b4bd5f968f8ed9dcc5c"
+      }
+    ]
+  }
+]

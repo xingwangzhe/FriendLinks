@@ -3,21 +3,10 @@
 /** Astro 配置通过 Vite define 注入的 dev 正式站点抽样数。 */
 declare const __DEV_SAMPLE_SIZE__: number;
 
-declare module "msgpackr" {
-  export function encode(data: any): Buffer | Uint8Array;
-  export function decode(buffer: Uint8Array): any;
-}
-
-declare module "d3-force-3d" {
-  export function forceSimulation(nodes?: any[], dimensions?: number): any;
-  export function forceLink(links?: any[]): any;
-  export function forceManyBody(): any;
-  export function forceCenter(x?: number, y?: number, z?: number): any;
-}
-
 interface Window {
   __graphApi?: {
-    find?: (q: string) => Array<{ id: string; name: string; url?: string }>;
+    find?: (q: string, signal?: AbortSignal) => Promise<Array<{ id: string; name: string; url: string }>>;
+    toggleFlightMode?: () => boolean;
     focusNodeById?: (id: string) => void;
     focusByDomain?: (domain: string) => void;
     highlightNodesAndNeighbors?: (ids: string[]) => void;

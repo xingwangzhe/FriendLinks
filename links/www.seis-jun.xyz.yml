@@ -1,0 +1,15 @@
+# 审核状态: include
+# 检查日期: 2026-10-18
+# 来源: 上游 links/seisamuse.yml；保留原站名和唯一友链，迁移旧扁平 Schema。
+# 入口证据: https://www.seis-jun.xyz/（200，无跨域跳转；未声明 rel=canonical，保留原 www 入口）
+# 博客与作者证据: https://www.seis-jun.xyz/blog/ https://www.seis-jun.xyz/about/
+# 原创内容证据: https://www.seis-jun.xyz/blog/2026-10-15-other-persons-stuff-is-always-good.html（公开生活随笔）
+# 友链证据: https://www.seis-jun.xyz/links/friends/（含莫比乌斯；旧 /friends 返回 404）
+site:
+  name: seisamuse
+  description: 记录地球科学研究、读书与生活的个人博客
+  url: https://www.seis-jun.xyz
+  links: /links/friends/
+  friends:
+    - name: 莫比乌斯
+      url: https://mobius.blog/

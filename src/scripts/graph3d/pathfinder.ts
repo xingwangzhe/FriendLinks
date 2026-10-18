@@ -8,29 +8,26 @@
 export function findShortestPath(neighborMap: Map<string, Set<string>>, from: string, to: string): string[] | null {
   if (from === to) return [from];
 
-  const visited = new Set<string>();
-  const parent = new Map<string, string>();
+  const parent = new Map<string, string | undefined>([[from, undefined]]);
   const queue: string[] = [from];
-  visited.add(from);
 
-  while (queue.length > 0) {
-    const current = queue.shift()!;
+  for (let head = 0; head < queue.length; head++) {
+    const current = queue[head];
     const neighbors = neighborMap.get(current);
     if (!neighbors) continue;
 
     for (const neighbor of neighbors) {
-      if (visited.has(neighbor)) continue;
-      visited.add(neighbor);
+      if (parent.has(neighbor)) continue;
       parent.set(neighbor, current);
       if (neighbor === to) {
         // 回溯构建路径
         const path: string[] = [];
         let node: string | undefined = to;
         while (node !== undefined) {
-          path.unshift(node);
+          path.push(node);
           node = parent.get(node);
         }
-        return path;
+        return path.reverse();
       }
       queue.push(neighbor);
     }

@@ -1,3 +1,5 @@
+import { createDebouncedSearch } from "./ui/debounced-search";
+
 type SearchResult = { id: string; name: string; url?: string };
 
 (async () => {
@@ -8,7 +10,7 @@ type SearchResult = { id: string; name: string; url?: string };
   const barEl = document.getElementById("loading-bar") as HTMLProgressElement | null;
   const FETCH_TIMEOUT = 20000;
 
-  const startTime = Date.now();
+  let startTime = Date.now();
   let timer: ReturnType<typeof setInterval> | null = null;
   function updateTime() {
     const ms = Date.now() - startTime;
@@ -43,12 +45,13 @@ type SearchResult = { id: string; name: string; url?: string };
 
   async function startLoading() {
     if (textEl) textEl.textContent = "加载模块中...";
-    timer = setInterval(updateTime, 50);
+    if (timer) clearInterval(timer);
+    startTime = Date.now();
+    timer = setInterval(updateTime, 100);
+    const abort = new AbortController();
+    const timeoutId = setTimeout(() => abort.abort(), FETCH_TIMEOUT);
 
     try {
-      const abort = new AbortController();
-      const timeoutId = setTimeout(() => abort.abort(), FETCH_TIMEOUT);
-
       // 并行加载 Three.js 模块和下载图数据
       const modPromise = import("./graph3d/index");
       const timestamps = (window as any).__BIN_TIMESTAMPS;
@@ -68,18 +71,23 @@ type SearchResult = { id: string; name: string; url?: string };
       const { init3d, maybeDecompress, expandCompact } = mod;
       const { decode } = await import("msgpackr");
       const coreRaw = await maybeDecompress(new Uint8Array(coreBuf));
+      abort.signal.throwIfAborted();
       const core = decode(coreRaw);
       const data = core.nid ? expandCompact(core) : core;
 
-      // 初始不加载 bezier.bin，首次交互时懒加载
-      controller = await init3d(data);
+      // 常规交互在本地按需采样曲线；不自动下载全图 bezier.bin。
+      // 预计算曲线仅由显式 loadBezierLazy() 或 init3dFromUrl(..., bezierUrl) 加载。
+      controller = await init3d(data, abort.signal);
     } catch (err: any) {
       if (err?.name === "AbortError") {
         showError("下载超时，请检查网络后重试");
       } else {
         showError(`加载失败: ${err?.message || "未知错误"}`);
       }
+      abort.abort();
       return;
+    } finally {
+      clearTimeout(timeoutId);
     }
 
     if (textEl) textEl.textContent = "渲染 3D 场景中...";
@@ -92,9 +100,7 @@ type SearchResult = { id: string; name: string; url?: string };
     updateTime();
 
     if (timer) clearInterval(timer);
-    setTimeout(() => {
-      if (loadingEl) loadingEl.classList.add("hidden");
-    }, 400);
+    loadingEl?.classList.add("hidden");
   }
 
   await startLoading();
@@ -165,6 +171,7 @@ type SearchResult = { id: string; name: string; url?: string };
       url.textContent = it.url ?? "";
       el.append(name, url);
       el.onclick = () => {
+        searchInput.cancel();
         try {
           try {
             clearLocalQueryParam();
@@ -194,49 +201,23 @@ type SearchResult = { id: string; name: string; url?: string };
     results.style.display = "block";
   }
 
+  const searchInput = createDebouncedSearch<SearchResult>(
+    async (query, signal) => {
+      clearLocalQueryParam();
+      const api = controller || window.__graphApi;
+      return api?.find ? await api.find(query, signal) : [];
+    },
+    (list) => render(list.slice(0, 12)),
+  );
+
   if (input) {
-    let searchTimer: ReturnType<typeof setTimeout> | null = null;
-    input.addEventListener("input", (ev: Event) => {
-      const target = ev.target as HTMLInputElement | null;
-      const v = target && target.value ? target.value.trim() : "";
-      // toggle clear button visibility
-      try {
-        if (clearBtn) {
-          if (v) {
-            clearBtn.style.display = "flex";
-            clearBtn.setAttribute("aria-hidden", "false");
-          } else {
-            clearBtn.style.display = "none";
-            clearBtn.setAttribute("aria-hidden", "true");
-          }
-        }
-      } catch {}
-      if (!v) {
-        if (searchTimer) {
-          clearTimeout(searchTimer);
-          searchTimer = null;
-        }
-        render([]);
-        return;
+    input.addEventListener("input", () => {
+      const value = input.value.trim();
+      if (clearBtn) {
+        clearBtn.style.display = value ? "flex" : "none";
+        clearBtn.setAttribute("aria-hidden", value ? "false" : "true");
       }
-      if (searchTimer) clearTimeout(searchTimer);
-      searchTimer = setTimeout(async () => {
-        searchTimer = null;
-        try {
-          clearLocalQueryParam();
-        } catch {}
-        try {
-          let list: SearchResult[] = [];
-          if (controller && (controller as any).find) {
-            list = await (controller as any).find(v);
-          } else if (window.__graphApi && window.__graphApi.find) {
-            list = await (window as any).__graphApi.find(v);
-          }
-          render((list || []).slice(0, 12));
-        } catch (err) {
-          console.error(err);
-        }
-      }, 150);
+      searchInput.update(value);
     });
   }
 
@@ -250,7 +231,7 @@ type SearchResult = { id: string; name: string; url?: string };
     clearBtn.addEventListener("click", () => {
       try {
         input.value = "";
-        render([]);
+        searchInput.clear();
         // call clearHighlights on controller or window.__graphApi
         if (controller && (controller as any).clearHighlights) {
           (controller as any).clearHighlights();

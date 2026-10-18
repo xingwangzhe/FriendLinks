@@ -1,0 +1,97 @@
+bun test v1.4.3 (c6da4a4d3)
+
+src/utils/build-artifact-cache.test.ts:
+(pass) verified build artifacts > roundtrips real arrays and rejects corruption or different inputs [12.67ms]
+(pass) verified build artifacts > invalidates same-version local native rebuilds, loader changes and source changes [10.31ms]
+
+src/utils/site-identity.test.ts:
+[合并提示] http://a.test/: 主记录 a；元数据差异 a, z
+(pass) site identity and topology > duplicate primaries preserve metadata priority, optional fields and friend union [2.41ms]
+[合并提示] https://new.test/: 主记录 new；元数据差异 new, middle, old
+(pass) site identity and topology > multi-level migrations preserve union, resolve references and eliminate self links [2.01ms]
+(pass) site identity and topology > conflicts and cycles contain files and addresses; invalid aliases fail [0.71ms]
+(pass) site identity and topology > explicit hosts, scoped paths, query entries, longest matching and ports [0.65ms]
+(pass) site identity and topology > unmatched multi-column hosts keep full URL; edges and statistics share identity [1.20ms]
+[合并提示] https://a.test/: 主记录 a；元数据差异 a, old
+[合并提示] https://a.test/: 主记录 a；元数据差异 a, old
+(pass) site identity and topology > all identities are established before deterministic sampling [1.18ms]
+(pass) site identity and topology > directory/sample cache isolation, invalidation and validation exit status [197.72ms]
+  ❶ ░░░░░░░░░░░░░░░░░░░░   0%  加载友链数据…
+  ❶ ████████████████████ 100%  3/3 站点已加载
+[合并提示] https://new.test/: 主记录 new.yml；元数据差异 new.yml, old.yml
+  ✔ ████████████████████ 100%  /all.json  2 站点，耗时 0.0s
+(pass) real all.json loader and six-degree adjacency use the same logical identity [24.91ms]
+
+src/utils/build-bezier.test.ts:
+(pass) compact build-time Bezier data > allocates exactly two scalar coordinates per segment on each axis [1.64ms]
+(pass) compact build-time Bezier data > keeps edge endpoints and shared segment endpoints continuous across invalid edges [0.59ms]
+(pass) compact build-time Bezier data > empty graphs and zero-length edges retain finite quantization bounds [0.79ms]
+(pass) compact build-time Bezier data > quantizes actual positive, negative and mixed axis ranges within one quantization step [0.56ms]
+(pass) compact Bezier endpoint encoding > encodes signed Int16 coordinate bytes without numeric Uint8 conversion [1.20ms]
+
+src/utils/compress.test.ts:
+(pass) build compression and browser decompression > empty round-trips through the browser WASM decoder [4.10ms]
+(pass) build compression and browser decompression > small UTF-8 metadata round-trips through the browser WASM decoder [4.66ms]
+(pass) build compression and browser decompression > every byte value round-trips through the browser WASM decoder [0.28ms]
+(pass) build compression and browser decompression > large deterministic binary round-trips through the browser WASM decoder [17.23ms]
+
+src/utils/site-collection-cache.test.ts:
+[cache] YAML: 0 reused, 2 parsed (2 source records; content hashes verified)
+[cache] YAML: 2 reused, 0 parsed (2 source records; content hashes verified)
+[cache] YAML: 1 reused, 1 parsed (2 source records; content hashes verified)
+[cache] YAML: 0 reused, 2 parsed (2 source records; content hashes verified)
+[cache] YAML: 1 reused, 1 parsed (2 source records; content hashes verified)
+(pass) parsed record cache detects edits, additions, renames, deletions and invalid YAML [31.31ms]
+
+src/utils/yaml-files.test.ts:
+(pass) YAML file discovery > reads YAML files from the root and ordinary nested directories [1.07ms]
+(pass) YAML file discovery > skips every nested unverified directory [1.20ms]
+(pass) YAML file discovery > reads candidates when unverified is the explicit scan root [0.59ms]
+(pass) YAML file discovery > returns the same stable order from synchronous and asynchronous scans [0.79ms]
+
+src/scripts/graph3d/render-scheduler.test.ts:
+(pass) demand-driven render scheduler > coalesces repeated invalidations and requests no frames while idle [0.61ms]
+(pass) demand-driven render scheduler > retains an invalidation raised while rendering [0.11ms]
+(pass) demand-driven render scheduler > animates only while onFrame requests continuation [0.07ms]
+(pass) demand-driven render scheduler > pause cancels RAF, and resume renders immediately even within the FPS interval [0.13ms]
+(pass) demand-driven render scheduler > hidden scenes stop scheduling and resume with their latest invalidation [0.13ms]
+(pass) demand-driven render scheduler > throttles animation without starving pending changes or rounding 45 FPS down to 30 [1.11ms]
+(pass) demand-driven render scheduler > does not lose a single change requested before the next permitted frame [0.20ms]
+(pass) demand-driven render scheduler > updates the FPS limit and never restarts after disposal [0.16ms]
+
+src/scripts/graph3d/spatial-index.test.ts:
+(pass) spatial node picking > matches exact InstancedMesh triangle hits across silhouettes, misses and nearest nodes [25.64ms]
+(pass) spatial node picking > uses current focus scale and honors near/far clipping [0.93ms]
+(pass) spatial node picking > supports mesh world transforms, layer masks and stable overlapping hit order [1.30ms]
+(pass) spatial node picking > prunes thousands of unrelated instances before exact raycasting [46.60ms]
+
+src/scripts/graph3d/edge-geometry.test.ts:
+(pass) on-demand edge geometry > runtime samples preserve curve endpoints, shape and contiguous segments [0.82ms]
+(pass) on-demand edge geometry > compact curves retain variable edge offsets without fixed-stride padding [0.19ms]
+(pass) on-demand edge geometry > truncated compact input falls back to a complete runtime curve [0.14ms]
+(pass) on-demand edge geometry > missing endpoints and invalid indices have no drawable segments [0.07ms]
+(pass) on-demand edge geometry > hidden background allocates no graph buffers; revealing includes edges beyond the overlay limit [8.09ms]
+
+src/scripts/graph3d/renderer-camera.test.ts:
+(pass) camera animation lifecycle > replacing an animation leaves one frame chain and reaches the latest destination [4.40ms]
+(pass) camera animation lifecycle > fit and focus share cancellation; disposal stops pending work without resetting the target [2.68ms]
+(pass) camera animation lifecycle > zero-duration navigation completes immediately without a frame loop [1.85ms]
+
+src/scripts/graph3d/interaction.test.ts:
+(pass) indexed picking preserves hover, clicks, fly-center targeting and cleans up listeners [6.02ms]
+
+src/scripts/graph3d/binary-arrays.test.ts:
+(pass) compact signed coordinate bytes > retains existing Int16 values and aligned byte views without copying [0.15ms]
+(pass) compact signed coordinate bytes > recovers an odd-offset byte slice without surrounding sentinel bytes [0.05ms]
+(pass) compact signed coordinate bytes > decodes MessagePack binary at an odd byte offset [0.45ms]
+(pass) compact signed coordinate bytes > rejects truncated or non-binary coordinate data [0.15ms]
+
+src/scripts/ui/window-geometry.test.ts:
+(pass) floating window viewport bounds > preserves a desktop layout already inside the viewport [0.11ms]
+(pass) floating window viewport bounds > shrinks oversized windows and keeps all edges accessible on mobile [0.02ms]
+(pass) floating window viewport bounds > constrains dragged windows without changing their size [0.02ms]
+
+ 52 pass
+ 0 fail
+ 914 expect() calls
+Ran 52 tests across 13 files. [770.00ms]

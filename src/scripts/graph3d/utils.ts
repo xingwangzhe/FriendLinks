@@ -110,7 +110,7 @@ export function adjustHex(hex: string, percent: number) {
 
 /**
  * 根据基础色生成 emissive 发光色
- * 将颜色调亮并增加饱和度，用于 Three.js MeshStandardMaterial.emissive
+ * 将颜色调亮并增加饱和度，用于节点与关系的状态颜色
  */
 export function getEmissiveColor(baseHex: string, intensity: number): string {
   // intensity: 0-1，越高越亮

@@ -1,0 +1,146 @@
+bun test v1.4.3 (c6da4a4d3)
+
+src/utils/build-artifact-cache.test.ts:
+(pass) verified build artifacts > roundtrips real arrays and rejects corruption or different inputs [4.21ms]
+(pass) verified build artifacts > invalidates same-version local native rebuilds, loader changes and source changes [2.42ms]
+
+src/utils/site-identity.test.ts:
+[合并提示] http://a.test/: 主记录 a；元数据差异 a, z
+(pass) site identity and topology > duplicate primaries preserve metadata priority, optional fields and friend union [0.95ms]
+[合并提示] https://new.test/: 主记录 new；元数据差异 new, middle, old
+(pass) site identity and topology > multi-level migrations preserve union, resolve references and eliminate self links [0.72ms]
+(pass) site identity and topology > conflicts and cycles contain files and addresses; invalid aliases fail [0.21ms]
+(pass) site identity and topology > explicit hosts, scoped paths, query entries, longest matching and ports [0.20ms]
+(pass) site identity and topology > unmatched multi-column hosts keep full URL; edges and statistics share identity [0.53ms]
+[合并提示] https://a.test/: 主记录 a；元数据差异 a, old
+[合并提示] https://a.test/: 主记录 a；元数据差异 a, old
+(pass) site identity and topology > all identities are established before deterministic sampling [0.30ms]
+(pass) site identity and topology > directory/sample cache isolation, invalidation and validation exit status [91.83ms]
+  ❶ ░░░░░░░░░░░░░░░░░░░░   0%  加载友链数据…
+  ❶ ████████████████████ 100%  3/3 站点已加载
+[合并提示] https://new.test/: 主记录 new.yml；元数据差异 new.yml, old.yml
+  ✔ ████████████████████ 100%  /all.json  2 站点，耗时 0.0s
+(pass) real all.json loader and six-degree adjacency use the same logical identity [16.50ms]
+
+src/utils/build-bezier.test.ts:
+(pass) compact build-time Bezier data > allocates exactly two scalar coordinates per segment on each axis [0.59ms]
+(pass) compact build-time Bezier data > keeps edge endpoints and shared segment endpoints continuous across invalid edges [0.26ms]
+(pass) compact build-time Bezier data > empty graphs and zero-length edges retain finite quantization bounds [0.37ms]
+(pass) compact build-time Bezier data > quantizes actual positive, negative and mixed axis ranges within one quantization step [0.24ms]
+(pass) compact Bezier endpoint encoding > encodes signed Int16 coordinate bytes without numeric Uint8 conversion [0.65ms]
+
+src/utils/compress.test.ts:
+(pass) build compression and browser decompression > empty round-trips through the browser WASM decoder [1.82ms]
+(pass) build compression and browser decompression > small UTF-8 metadata round-trips through the browser WASM decoder [2.77ms]
+(pass) build compression and browser decompression > every byte value round-trips through the browser WASM decoder [0.22ms]
+(pass) build compression and browser decompression > large deterministic binary round-trips through the browser WASM decoder [9.55ms]
+
+src/utils/site-collection-cache.test.ts:
+[cache] YAML: 0 reused, 2 parsed (2 source records; content hashes verified)
+[cache] YAML: 2 reused, 0 parsed (2 source records; content hashes verified)
+[cache] YAML: 1 reused, 1 parsed (2 source records; content hashes verified)
+[cache] YAML: 0 reused, 2 parsed (2 source records; content hashes verified)
+[cache] YAML: 1 reused, 1 parsed (2 source records; content hashes verified)
+(pass) parsed record cache detects edits, additions, renames, deletions and invalid YAML [18.06ms]
+
+src/utils/yaml-files.test.ts:
+(pass) YAML file discovery > reads YAML files from the root and ordinary nested directories [0.87ms]
+(pass) YAML file discovery > skips every nested unverified directory [1.05ms]
+(pass) YAML file discovery > reads candidates when unverified is the explicit scan root [0.52ms]
+(pass) YAML file discovery > returns the same stable order from synchronous and asynchronous scans [0.41ms]
+
+src/scripts/graph-search.test.ts:
+(pass) disabling unused property sorting preserves complete ranked search hits [47.24ms]
+(pass) index construction stops when the graph is disposed and a fresh attempt can succeed [1.11ms]
+
+src/scripts/graph3d/render-scheduler.test.ts:
+(pass) demand-driven render scheduler > coalesces repeated invalidations and requests no frames while idle [0.39ms]
+(pass) demand-driven render scheduler > retains an invalidation raised while rendering [0.07ms]
+(pass) demand-driven render scheduler > animates only while onFrame requests continuation [0.04ms]
+(pass) demand-driven render scheduler > pause cancels RAF, and resume renders immediately even within the FPS interval [0.18ms]
+(pass) demand-driven render scheduler > hidden scenes stop scheduling and resume with their latest invalidation [0.06ms]
+(pass) demand-driven render scheduler > throttles animation without starving pending changes or rounding 45 FPS down to 30 [1.32ms]
+(pass) demand-driven render scheduler > does not lose a single change requested before the next permitted frame [0.19ms]
+(pass) demand-driven render scheduler > updates the FPS limit and never restarts after disposal [0.20ms]
+
+src/scripts/graph3d/label-candidates.test.ts:
+(pass) nearby label selection preserves distance, frustum, retention and stable ties [28.85ms]
+(pass) label retention radius does not create labels for distant unretained nodes [0.47ms]
+
+src/scripts/graph3d/spatial-index.test.ts:
+(pass) spatial node picking > matches exact InstancedMesh triangle hits across silhouettes, misses and nearest nodes [18.56ms]
+(pass) spatial node picking > uses current focus scale and honors near/far clipping [0.99ms]
+(pass) spatial node picking > supports mesh world transforms, layer masks and stable overlapping hit order [0.97ms]
+(pass) spatial node picking > prunes thousands of unrelated instances before exact raycasting [23.35ms]
+
+src/scripts/graph3d/edge-geometry.test.ts:
+(pass) on-demand edge geometry > runtime samples preserve curve endpoints, shape and contiguous segments [0.75ms]
+(pass) on-demand edge geometry > compact curves retain variable edge offsets without fixed-stride padding [0.13ms]
+(pass) on-demand edge geometry > truncated compact input falls back to a complete runtime curve [0.12ms]
+(pass) on-demand edge geometry > missing endpoints and invalid indices have no drawable segments [0.04ms]
+89 |     expect(sampleSpy).not.toHaveBeenCalled();
+90 |     setLinkOpacity(context, 0.5);
+91 |     const segments = calcSegmentCount(Math.hypot(2000, 1000, 500));
+92 |     expect(context.linkLines.visible).toBe(true);
+93 |     expect(context.linkLines.geometry.drawRange.count).toBe(501 * segments * 2);
+94 |     expect(context.linkLines.geometry.getAttribute("position").array.length).toBe(501 * segments * 6);
+                                                                                  ^
+error: expect(received).toBe(expected)
+
+Expected: 48096
+Received: 25551
+
+      at <anonymous> (/home/xingwangzhe/桌面/前端项目/FriendLinks/src/scripts/graph3d/edge-geometry.test.ts:94:78)
+(fail) on-demand edge geometry > hidden background allocates no graph buffers; revealing includes edges beyond the overlay limit [6.69ms]
+
+src/scripts/graph3d/renderer-camera.test.ts:
+(pass) camera animation lifecycle > replacing an animation leaves one frame chain and reaches the latest destination [2.62ms]
+(pass) camera animation lifecycle > fit and focus share cancellation; disposal stops pending work without resetting the target [1.44ms]
+(pass) camera animation lifecycle > zero-duration navigation completes immediately without a frame loop [1.11ms]
+
+src/scripts/graph3d/interaction.test.ts:
+(pass) indexed picking preserves hover, clicks, fly-center targeting and cleans up listeners [3.06ms]
+
+src/scripts/graph3d/background-edges.test.ts:
+(pass) indexed background edge buffers > preserves every Float32 endpoint and gradient while sharing contiguous vertices [1.49ms]
+(pass) indexed background edge buffers > preserves disjoint compact segment data without introducing connections [0.46ms]
+(pass) indexed background edge buffers > hiding disposes once and drops position, color and index allocations [1.09ms]
+
+src/scripts/graph3d/edge-sampling.test.ts:
+(pass) unique runtime vertices expand to the exact previous Float32 samples [2.56ms]
+(pass) compact unique vertices preserve discontinuous segments and Float32 equivalence [0.37ms]
+(pass) rebuilding static edge samples reuses endpoint lookups and invalid edges stay empty [0.37ms]
+
+src/scripts/graph3d/binary-arrays.test.ts:
+(pass) compact signed coordinate bytes > retains existing Int16 values and aligned byte views without copying [0.12ms]
+(pass) compact signed coordinate bytes > recovers an odd-offset byte slice without surrounding sentinel bytes [0.06ms]
+(pass) compact signed coordinate bytes > decodes MessagePack binary at an odd byte offset [0.61ms]
+(pass) compact signed coordinate bytes > rejects truncated or non-binary coordinate data [0.18ms]
+
+src/scripts/graph3d/node-spheres.test.ts:
+(pass) compact GPU sphere impostors > reduces actual instance GPU attributes and triangle topology for the real node count [7.53ms]
+(pass) compact GPU sphere impostors > keeps exact CPU matrices, live focus radius and bounded sparse upload ranges [3.51ms]
+(pass) compact GPU sphere impostors > analytical ray hits respect current matrices, sphere edges, world transform and near/far [1.88ms]
+(pass) compact GPU sphere impostors > disposes owned visual and proxy resources once [1.43ms]
+
+src/scripts/ui/debounced-search.test.ts:
+(pass) coalesces queued input and clears a pending search without executing it [7.06ms]
+(pass) a slower old result cannot replace a newer result or survive clearing [2.77ms]
+(pass) clearing in-flight input invalidates its result even when the search ignores abort [2.53ms]
+(pass) a failed latest search can be retried and disposal cancels queued work [3.50ms]
+
+src/scripts/ui/window-geometry.test.ts:
+(pass) floating window viewport bounds > preserves a desktop layout already inside the viewport [0.13ms]
+(pass) floating window viewport bounds > shrinks oversized windows and keeps all edges accessible on mobile [0.02ms]
+(pass) floating window viewport bounds > constrains dragged windows without changing their size [0.01ms]
+
+src/scripts/ui/yield-to-main.test.ts:
+(pass) uses native scheduler continuation when available and a task fallback otherwise [1.49ms]
+
+1 tests failed:
+(fail) on-demand edge geometry > hidden background allocates no graph buffers; revealing includes edges beyond the overlay limit [6.69ms]
+
+ 70 pass
+ 1 fail
+ 2275 expect() calls
+Ran 71 tests across 20 files. [551.00ms]

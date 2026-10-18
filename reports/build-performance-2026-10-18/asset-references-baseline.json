@@ -1,0 +1,161 @@
+{
+  "note": "Literal js/css/wasm/bin/svg references in baseline emitted HTML, JS, CSS and service worker; templated runtime URLs require browser check.",
+  "references": [
+    {
+      "from": "index.html",
+      "reference": "/StreamlinePlumpColorWebFlat.svg",
+      "target": "StreamlinePlumpColorWebFlat.svg",
+      "exists": true
+    },
+    {
+      "from": "index.html",
+      "reference": "/sw.js",
+      "target": "sw.js",
+      "exists": true
+    },
+    {
+      "from": "index.html",
+      "reference": "/sw.js",
+      "target": "sw.js",
+      "exists": true
+    },
+    {
+      "from": "index.html",
+      "reference": "/sw.js",
+      "target": "sw.js",
+      "exists": true
+    },
+    {
+      "from": "index.html",
+      "reference": "/_astro/windows.2026-10-18-02-46-45.css",
+      "target": "_astro/windows.2026-10-18-02-46-45.css",
+      "exists": true
+    },
+    {
+      "from": "index.html",
+      "reference": "/_astro/index.2026-10-18-02-48-32.css",
+      "target": "_astro/index.2026-10-18-02-48-32.css",
+      "exists": true
+    },
+    {
+      "from": "index.html",
+      "reference": "/_astro/index.astro_astro_type_script_index_0_lang.2026-10-18-02-46-45.js",
+      "target": "_astro/index.astro_astro_type_script_index_0_lang.2026-10-18-02-46-45.js",
+      "exists": true
+    },
+    {
+      "from": "index.html",
+      "reference": "/_astro/index.astro_astro_type_script_index_1_lang.2026-10-18-02-46-45.js",
+      "target": "_astro/index.astro_astro_type_script_index_1_lang.2026-10-18-02-46-45.js",
+      "exists": true
+    },
+    {
+      "from": "sw.js",
+      "reference": "/graph-core.2026-10-18-02-48-32.bin",
+      "target": "graph-core.2026-10-18-02-48-32.bin",
+      "exists": true
+    },
+    {
+      "from": "_astro/index.web.2026-10-18-02-46-45.js",
+      "reference": "/_astro/zstd.2026-10-18-02-46-45.wasm",
+      "target": "_astro/zstd.2026-10-18-02-46-45.wasm",
+      "exists": true
+    },
+    {
+      "from": "_astro/graph3d.2026-10-18-02-46-45.js",
+      "reference": "./vendor-msgpackr.2026-10-18-02-46-45.js",
+      "target": "_astro/vendor-msgpackr.2026-10-18-02-46-45.js",
+      "exists": true
+    },
+    {
+      "from": "_astro/graph3d.2026-10-18-02-46-45.js",
+      "reference": "./index.astro_astro_type_script_index_0_lang.2026-10-18-02-46-45.js",
+      "target": "_astro/index.astro_astro_type_script_index_0_lang.2026-10-18-02-46-45.js",
+      "exists": true
+    },
+    {
+      "from": "_astro/graph3d.2026-10-18-02-46-45.js",
+      "reference": "./windows.2026-10-18-02-46-45.js",
+      "target": "_astro/windows.2026-10-18-02-46-45.js",
+      "exists": true
+    },
+    {
+      "from": "_astro/graph3d.2026-10-18-02-46-45.js",
+      "reference": "./vendor-three.2026-10-18-02-46-45.js",
+      "target": "_astro/vendor-three.2026-10-18-02-46-45.js",
+      "exists": true
+    },
+    {
+      "from": "_astro/graph3d.2026-10-18-02-46-45.js",
+      "reference": "./browser.2026-10-18-02-46-45.js",
+      "target": "_astro/browser.2026-10-18-02-46-45.js",
+      "exists": true
+    },
+    {
+      "from": "_astro/graph3d.2026-10-18-02-46-45.js",
+      "reference": "/graph-bezier.bin",
+      "target": "graph-bezier.bin",
+      "exists": false
+    },
+    {
+      "from": "_astro/graph3d.2026-10-18-02-46-45.js",
+      "reference": "./index.web.2026-10-18-02-46-45.js",
+      "target": "_astro/index.web.2026-10-18-02-46-45.js",
+      "exists": true
+    },
+    {
+      "from": "_astro/index.astro_astro_type_script_index_1_lang.2026-10-18-02-46-45.js",
+      "reference": "./windows.2026-10-18-02-46-45.js",
+      "target": "_astro/windows.2026-10-18-02-46-45.js",
+      "exists": true
+    },
+    {
+      "from": "_astro/index.astro_astro_type_script_index_0_lang.2026-10-18-02-46-45.js",
+      "reference": "_astro/graph3d.2026-10-18-02-46-45.js",
+      "target": "_astro/graph3d.2026-10-18-02-46-45.js",
+      "exists": true
+    },
+    {
+      "from": "_astro/index.astro_astro_type_script_index_0_lang.2026-10-18-02-46-45.js",
+      "reference": "_astro/vendor-msgpackr.2026-10-18-02-46-45.js",
+      "target": "_astro/vendor-msgpackr.2026-10-18-02-46-45.js",
+      "exists": true
+    },
+    {
+      "from": "_astro/index.astro_astro_type_script_index_0_lang.2026-10-18-02-46-45.js",
+      "reference": "_astro/windows.2026-10-18-02-46-45.js",
+      "target": "_astro/windows.2026-10-18-02-46-45.js",
+      "exists": true
+    },
+    {
+      "from": "_astro/index.astro_astro_type_script_index_0_lang.2026-10-18-02-46-45.js",
+      "reference": "_astro/windows.2026-10-18-02-46-45.css",
+      "target": "_astro/windows.2026-10-18-02-46-45.css",
+      "exists": true
+    },
+    {
+      "from": "_astro/index.astro_astro_type_script_index_0_lang.2026-10-18-02-46-45.js",
+      "reference": "_astro/vendor-three.2026-10-18-02-46-45.js",
+      "target": "_astro/vendor-three.2026-10-18-02-46-45.js",
+      "exists": true
+    },
+    {
+      "from": "_astro/index.astro_astro_type_script_index_0_lang.2026-10-18-02-46-45.js",
+      "reference": "./graph3d.2026-10-18-02-46-45.js",
+      "target": "_astro/graph3d.2026-10-18-02-46-45.js",
+      "exists": true
+    },
+    {
+      "from": "_astro/index.astro_astro_type_script_index_0_lang.2026-10-18-02-46-45.js",
+      "reference": "/graph-core.bin",
+      "target": "graph-core.bin",
+      "exists": false
+    },
+    {
+      "from": "_astro/index.astro_astro_type_script_index_0_lang.2026-10-18-02-46-45.js",
+      "reference": "./vendor-msgpackr.2026-10-18-02-46-45.js",
+      "target": "_astro/vendor-msgpackr.2026-10-18-02-46-45.js",
+      "exists": true
+    }
+  ]
+}

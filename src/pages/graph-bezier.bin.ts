@@ -20,13 +20,13 @@ export async function GET() {
 
   const bezier = {
     lseg: data.lseg,
-    lpx: data.lpx,
+    lpx: new Uint8Array(data.lpx.buffer, data.lpx.byteOffset, data.lpx.byteLength),
     lpx_min: data.lpx_min,
     lpx_max: data.lpx_max,
-    lpy: data.lpy,
+    lpy: new Uint8Array(data.lpy.buffer, data.lpy.byteOffset, data.lpy.byteLength),
     lpy_min: data.lpy_min,
     lpy_max: data.lpy_max,
-    lpz: data.lpz,
+    lpz: new Uint8Array(data.lpz.buffer, data.lpz.byteOffset, data.lpz.byteLength),
     lpz_min: data.lpz_min,
     lpz_max: data.lpz_max,
   };

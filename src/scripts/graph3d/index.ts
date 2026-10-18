@@ -1,4 +1,4 @@
-import { registerPanel, showPanel, hidePanel, togglePanel as toggleWindow } from "../ui/windows";
+import { registerPanel, showPanel, hidePanel, destroyPanel, togglePanel as toggleWindow } from "../ui/windows";
 /**
  * 3D 博客宇宙渲染模块（Three.js InstancedMesh）
  * 使用 Three.js 原生 InstancedMesh 替代 3d-force-graph
@@ -7,11 +7,16 @@ import * as THREE from "three";
 import { decode } from "msgpackr";
 import type { decompress as ZstdDecompressFn } from "@bokuweb/zstd-wasm";
 import { adjustHex, createTextSprite, hashToIndex, PALETTE } from "./utils";
-import { MAX_EDGE_SEGMENTS } from "../../utils/bezier";
+import { createRenderScheduler } from "./render-scheduler";
+import { asInt16 } from "./binary-arrays";
+import { LabelCandidateIndex } from "./label-candidates";
 import {
   animateCamera,
+  dispose as disposeRenderer,
   createRenderer,
-  EDGE_SEGMENTS,
+  setLinkOpacity,
+  setRenderQuality,
+  type RenderQuality,
   nodeSize,
   setNodeColor,
   updateAllNodePositions,
@@ -27,9 +32,6 @@ import type { GraphData } from "../../../types/graph";
 
 const FOCUS_NODE_SCALE = 1.5;
 const DEFAULT_MAX_OVERLAY_EDGES = 300;
-
-/** 贝塞尔段数缓存，供 buildOverlay 使用 */
-let _cachedLseg: number[] | null = null;
 
 // ─── Tooltip ─────────────────────────────────────────────────────────────
 
@@ -82,7 +84,18 @@ function createTooltip(): TooltipApi {
 
 // ─── 初始化 ──────────────────────────────────────────────────────────
 
-export async function init3d(graphData: GraphData) {
+let disposeActiveGraph: (() => void) | null = null;
+let graphGeneration = 0;
+if (import.meta.hot)
+  import.meta.hot.dispose(() => {
+    graphGeneration++;
+    disposeActiveGraph?.();
+  });
+
+export async function init3d(graphData: GraphData, signal?: AbortSignal) {
+  signal?.throwIfAborted();
+  const generation = ++graphGeneration;
+  disposeActiveGraph?.();
   const container = document.getElementById("main");
   if (!container) return null;
 
@@ -126,76 +139,35 @@ export async function init3d(graphData: GraphData) {
     });
   });
 
-  // ── 4. 搜索索引（Orama + 自定义空格分割分词）──
-  // 策略：手动构建搜索文本（保留完整 hostname + CJK bigram），
-  // 用空格分割 tokenizer 确保查询和索引的分词完全一致
-  const { create, insert, search: oramaSearch } = await import("@orama/orama");
+  // ── 4. 首次非空搜索时才建立 Orama 索引 ──
+  let searchIndexReady = false;
+  let searchIndexPromise: ReturnType<typeof buildSearchIndex> | null = null;
 
-  function _isCJK(c: number) {
-    return (c >= 0x4e00 && c <= 0x9fff) || (c >= 0x3400 && c <= 0x4dbf);
+  function assertSearchActive() {
+    if (disposed) throw new DOMException("Graph was disposed", "AbortError");
   }
-  function _cjkBigrams(text: string): string[] {
-    const r: string[] = [];
-    for (let i = 0; i < text.length - 1; i++) {
-      if (_isCJK(text.charCodeAt(i)) && _isCJK(text.charCodeAt(i + 1))) r.push(text.slice(i, i + 2));
+
+  async function buildSearchIndex() {
+    const { createGraphSearchIndex } = await import("../graph-search");
+    assertSearchActive();
+    return createGraphSearchIndex(nodes, () => !disposed);
+  }
+
+  function getSearchIndex() {
+    if (!searchIndexPromise) {
+      searchIndexPromise = buildSearchIndex()
+        .then((index) => {
+          assertSearchActive();
+          searchIndexReady = true;
+          return index;
+        })
+        .catch((error) => {
+          searchIndexPromise = null;
+          searchIndexReady = false;
+          throw error;
+        });
     }
-    return r;
-  }
-  function _extractHost(u: string): string {
-    try {
-      return new URL(u).hostname.replace(/^www\./, "");
-    } catch {
-      return u;
-    }
-  }
-  function _buildSearchText(name: string, url: string, desc: string): string {
-    const host = _extractHost(url);
-    const parts = host.split(".");
-    const tokens = new Set<string>();
-    // 完整 hostname（匹配 "xingwangzhe.fun" 搜域名）
-    tokens.add(host);
-    // 主域名（匹配 "xingwangzhe" 搜域名前缀）
-    if (parts.length >= 2) tokens.add(parts[0]);
-    // 站点名整体
-    tokens.add(name);
-    // 站点名中的 CJK bigram
-    for (const bg of _cjkBigrams(name)) tokens.add(bg);
-    // 描述中的 CJK bigram
-    if (desc) for (const bg of _cjkBigrams(desc)) tokens.add(bg);
-    return [...tokens].join(" ");
-  }
-
-  const spaceTokenizer = {
-    language: "space" as const,
-    stemmer: false as const,
-    stopWords: false as const,
-    tokenize(text: string) {
-      return text.split(/\s+/).filter(Boolean);
-    },
-  };
-
-  const searchDB = await create({
-    schema: {
-      id: "string",
-      name: "string",
-      url: "string",
-      searchText: "string",
-    },
-    components: { tokenizer: spaceTokenizer } as any,
-  });
-
-  const insertedIds = new Set<string>();
-  for (const n of nodes) {
-    const id = n.id;
-    if (!id || insertedIds.has(id)) continue;
-    insertedIds.add(id);
-    const searchText = _buildSearchText(n.name || id, n.url || "", n.desc || "");
-    await insert(searchDB, {
-      id,
-      name: n.name || id,
-      url: n.url || "",
-      searchText,
-    });
+    return searchIndexPromise;
   }
 
   // ── 5. 状态 ──
@@ -277,11 +249,31 @@ export async function init3d(graphData: GraphData) {
 
   // ── 6c. 最大度数 ──
   const maxDegree = Math.max(...Object.values(degreeMap), 1);
+  const savedQuality = loadVal<string>("render_quality", "low");
+  let quality: RenderQuality = savedQuality === "high" || savedQuality === "balanced" ? savedQuality : "low";
+  const qualityOptions = {
+    low: { fps: 30, labels: 48, neighbors: 40 },
+    balanced: { fps: 45, labels: 96, neighbors: 100 },
+    high: { fps: 60, labels: 160, neighbors: 300 },
+  };
 
   // ── 6d. 节点索引映射 ──
   const linkArr = links as Array<{ source: string; target: string }>;
   const nodeIdToIndex = new Map<string, number>();
   nodes.forEach((n, i) => nodeIdToIndex.set(n.id, i));
+  function getNode(id: string) {
+    const index = nodeIdToIndex.get(id);
+    return index === undefined ? undefined : nodes[index];
+  }
+  // Build incident-edge lookup once; hovering no longer scans the whole graph.
+  const incidentEdges = new Map<string, number[]>();
+  links.forEach((link, i) => {
+    for (const id of new Set([link.source, link.target])) {
+      const edges = incidentEdges.get(id) || [];
+      edges.push(i);
+      incidentEdges.set(id, edges);
+    }
+  });
 
   // ── 6e. 可复用对象（聚焦缩放 / 导航用，避免 GC）──
   const _focusScaleMatrix = new THREE.Matrix4();
@@ -291,6 +283,24 @@ export async function init3d(graphData: GraphData) {
 
   // ── 7. 渲染器 ──
   const ctx: RenderContext = await createRenderer(container, nodes.length, linkArr.length);
+  if (signal?.aborted || generation !== graphGeneration) {
+    ctx.controls.dispose();
+    disposeRenderer(ctx);
+    ctx.renderer.domElement.remove();
+    signal?.throwIfAborted();
+    return null;
+  }
+  let disposed = false;
+  const lazyAbort = new AbortController();
+
+  setRenderQuality(ctx, quality);
+  const perfStats = { frames: 0, labelScans: 0, labelCandidatesVisited: 0, labelCreates: 0, overlayBuilds: 0 };
+  // We own the frame loop, so retain the last frame's real draw counters until the next frame.
+  ctx.renderer.info.autoReset = false;
+  let renderCpuMs = 0;
+  function requestRender() {
+    ctx.requestRender();
+  }
 
   const nodeStates: NodeState[] = nodes.map((n: any) => ({
     _cDefault: n._cDefault,
@@ -305,12 +315,20 @@ export async function init3d(graphData: GraphData) {
   // ── 连线位置：优先使用构建时预计算的贝塞尔数据，否则运行时计算 ──
   const _bezier = (graphData as any).bezier;
   if (_bezier) {
-    applyBezierData(ctx, _bezier, linkArr, nodeIdToIndex, nodes, maxOverlayEdges.value, linkOpacity.value);
+    applyBezierData(
+      ctx,
+      _bezier,
+      linkArr,
+      nodeIdToIndex,
+      nodes,
+      maxOverlayEdges.value,
+      pathNodeIds ? 0 : linkOpacity.value,
+    );
   } else {
     updateLinkPositions(ctx, linkArr, nodeIdToIndex, nodes, linkOpacity.value);
   }
 
-  // ── bezier 懒加载（首次交互时触发）──
+  // ── 可选预计算曲线：仅由显式 API 请求，常规交互使用运行时曲线采样 ──
   let _bezierLoaded = !!_bezier;
   let _bezierLoading = false;
 
@@ -320,33 +338,58 @@ export async function init3d(graphData: GraphData) {
     try {
       const h = (window as any).__BIN_TIMESTAMPS;
       const bezierUrl = h?.bezier ? `/graph-bezier.${h.bezier}.bin` : "/graph-bezier.bin";
-      const res = await fetch(bezierUrl);
+      const res = await fetch(bezierUrl, { signal: lazyAbort.signal });
       if (!res.ok) return;
       const buf = await res.arrayBuffer();
+      if (disposed) return;
       const raw = await maybeDecompress(new Uint8Array(buf));
       const bezierData = decode(raw) as any;
       if (!bezierData.lpx) return;
 
-      const asI16 = (arr: any) =>
-        arr instanceof Int16Array ? arr : new Int16Array(arr.buffer, arr.byteOffset, arr.byteLength / 2);
+      const compactVertexCount = (bezierData.lseg as number[]).reduce((total, count) => total + count * 2, 0);
       const bz = {
         lseg: bezierData.lseg,
-        lpx: dequantize(asI16(bezierData.lpx), bezierData.lpx_min, bezierData.lpx_max),
-        lpy: dequantize(asI16(bezierData.lpy), bezierData.lpy_min, bezierData.lpy_max),
-        lpz: dequantize(asI16(bezierData.lpz), bezierData.lpz_min, bezierData.lpz_max),
+        lpx: dequantize(
+          asInt16(bezierData.lpx).subarray(0, compactVertexCount),
+          bezierData.lpx_min,
+          bezierData.lpx_max,
+        ),
+        lpy: dequantize(
+          asInt16(bezierData.lpy).subarray(0, compactVertexCount),
+          bezierData.lpy_min,
+          bezierData.lpy_max,
+        ),
+        lpz: dequantize(
+          asInt16(bezierData.lpz).subarray(0, compactVertexCount),
+          bezierData.lpz_min,
+          bezierData.lpz_max,
+        ),
       };
-      applyBezierData(ctx, bz, linkArr, nodeIdToIndex, nodes, maxOverlayEdges.value, linkOpacity.value);
+      if (disposed) return;
+      applyBezierData(
+        ctx,
+        bz,
+        linkArr,
+        nodeIdToIndex,
+        nodes,
+        maxOverlayEdges.value,
+        pathNodeIds ? 0 : linkOpacity.value,
+      );
       _bezierLoaded = true;
-      _needsRender = true;
+      const activeId = focusedId || hoveredId;
+      if (activeId && !pathNodeIds) buildOverlay(activeId, getNode(activeId)?._cDefault || "#ffffff");
+      requestRender();
     } catch {
-      // 静默降级为直线
+      // Keep the runtime curve on network/decode failure, and allow a later retry.
+    } finally {
+      _bezierLoading = false;
     }
   }
 
   function refreshLinkColors() {
-    (ctx.linkLines.material as THREE.LineBasicMaterial).opacity = linkOpacity.value;
+    setLinkOpacity(ctx, pathNodeIds ? 0 : linkOpacity.value);
     saveVal("link_opacity", linkOpacity.value);
-    _needsRender = true;
+    requestRender();
   }
 
   // ── 8. 标签系统 ──
@@ -363,71 +406,47 @@ export async function init3d(graphData: GraphData) {
   let labelsCreated = new Set<number>(); // 改为 Set 追踪已创建的节点索引
   const LABEL_MAX_FADE_START = 3000;
   const LABEL_FADE_FULL = 1000;
-  const LABEL_CREATE_DIST = 600; // 创建标签的最大相机距离
-  const nodeIdToLabelIndex = new Map<string, number>(); // 反查 label index
-  nodes.forEach((n, i) => nodeIdToLabelIndex.set(n.id, i));
 
-  function ensureLabels() {
-    const show = labelShow.value;
-    if (!show || focusedId) return; // 聚焦时关闭默认标签，避免与屏幕空间标签重叠
-    const camPos = ctx.camera.position;
-
-    for (let i = 0; i < nodes.length; i++) {
-      if (labelsCreated.has(i)) continue;
-      const n = nodes[i];
-      if (n.x == null) continue;
-      const dx = n.x - camPos.x,
-        dy = (n.y || 0) - camPos.y,
-        dz = (n.z || 0) - camPos.z;
-      const sqDist = dx * dx + dy * dy + dz * dz;
-      if (sqDist > LABEL_CREATE_DIST * LABEL_CREATE_DIST) continue;
-
-      labelsCreated.add(i);
-      const name = n.name || n.id;
-      if (name.length > 40) continue;
-      const sz = nodeSize(degreeMap[n.id] || 1, maxDegree);
-      const worldHeight = 12;
-      const sprite = createTextSprite(name, worldHeight, 48);
-      const offset = sz + worldHeight * 0.5 + 2;
-      sprite.position.set(n.x!, n.y! + offset, n.z!);
-      (sprite as any)._nodePos = { x: n.x, y: n.y, z: n.z };
-      (sprite as any)._nodeIndex = i; // 记录节点索引用于销毁
-      (sprite as any)._lastNear = performance.now();
-      labelGroup.add(sprite);
-    }
+  const labelFrustum = new THREE.Frustum();
+  const labelProjection = new THREE.Matrix4();
+  const labelPoint = new THREE.Vector3();
+  const labelCandidates = new LabelCandidateIndex(nodes);
+  function removeLabel(sprite: THREE.Sprite) {
+    labelsCreated.delete((sprite as any)._nodeIndex);
+    sprite.material.map?.dispose();
+    sprite.material.dispose();
+    labelGroup.remove(sprite);
   }
-
-  // 定期销毁远离相机的标签（每 10 秒，距离 > 2000 超过 20 秒）
-  let _lastPrune = 0;
-  const PRUNE_DIST = 1500;
-  const PRUNE_DELAY = 20000;
-  function pruneLabels() {
-    const now = performance.now();
-    if (now - _lastPrune < 10000) return;
-    _lastPrune = now;
-
-    const toRemove: THREE.Sprite[] = [];
-    for (const child of labelGroup.children) {
-      const sprite = child as THREE.Sprite;
-      const np = (sprite as any)._nodePos;
-      if (!np) continue;
-      const dx = np.x - ctx.camera.position.x;
-      const dy = np.y - ctx.camera.position.y;
-      const dz = np.z - ctx.camera.position.z;
-      const sqDist = dx * dx + dy * dy + dz * dz;
-      if (sqDist < PRUNE_DIST * PRUNE_DIST) {
-        (sprite as any)._lastNear = now;
-      } else if (now - ((sprite as any)._lastNear || now) > PRUNE_DELAY) {
-        toRemove.push(sprite);
-      }
+  // Called only after camera/settings changes. Bound both textures and creation per frame.
+  function ensureLabels(): boolean {
+    labelGroup.visible = labelShow.value && !focusedId;
+    if (!labelGroup.visible) return false;
+    perfStats.labelScans++;
+    const budget = qualityOptions[quality].labels;
+    const camPos = ctx.camera.position;
+    ctx.camera.updateMatrixWorld();
+    labelProjection.multiplyMatrices(ctx.camera.projectionMatrix, ctx.camera.matrixWorldInverse);
+    labelFrustum.setFromProjectionMatrix(labelProjection, ctx.camera.coordinateSystem);
+    const selected = labelCandidates.select(camPos, labelFrustum, budget, labelsCreated);
+    perfStats.labelCandidatesVisited += labelCandidates.lastVisited;
+    const retained = new Set(selected);
+    for (const child of labelGroup.children.slice()) {
+      if (!retained.has((child as any)._nodeIndex)) removeLabel(child as THREE.Sprite);
     }
-    for (const sprite of toRemove) {
-      const idx = (sprite as any)._nodeIndex;
-      if (idx != null) labelsCreated.delete(idx);
-      sprite.material.map?.dispose();
-      sprite.material.dispose();
-      labelGroup.remove(sprite);
+    const missing = selected.filter((index) => !labelsCreated.has(index));
+    const count = Math.min(4, missing.length);
+    for (let j = 0; j < count; j++) {
+      const i = missing[j],
+        n = nodes[i];
+      const sprite = createTextSprite(n.name || n.id, 12, 48);
+      sprite.position.set(n.x!, (n.y ?? 0) + nodeSize(1, 1) + 8, n.z ?? 0);
+      (sprite as any)._nodePos = { x: n.x!, y: n.y ?? 0, z: n.z ?? 0 };
+      (sprite as any)._nodeIndex = i;
+      labelsCreated.add(i);
+      labelGroup.add(sprite);
+      perfStats.labelCreates++;
     }
+    return count < missing.length;
   }
 
   // ── 9. 控制面板 ──
@@ -497,6 +516,34 @@ export async function init3d(graphData: GraphData) {
       parent.appendChild(row);
     }
 
+    const qualityLabel = document.createElement("label");
+    qualityLabel.className = "label mt-2";
+    qualityLabel.textContent = "渲染画质";
+    const qualitySelect = document.createElement("select");
+    qualitySelect.className = "select select-bordered select-sm w-full";
+    qualitySelect.setAttribute("aria-label", "渲染画质");
+    for (const [value, text] of [
+      ["low", "节能（推荐低配设备）"],
+      ["balanced", "均衡"],
+      ["high", "清晰"],
+    ]) {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = text;
+      qualitySelect.appendChild(option);
+    }
+    qualitySelect.value = quality;
+    qualitySelect.addEventListener("change", () => {
+      quality = qualitySelect.value as RenderQuality;
+      saveVal("render_quality", quality);
+      setRenderQuality(ctx, quality);
+      renderScheduler.setMaxFps(qualityOptions[quality].fps);
+      labelsDirty = true;
+      if (focusedId) buildNeighborLabels(focusedId);
+      requestRender();
+    });
+    panel.append(qualityLabel, qualitySelect);
+
     addSliderRow(panel, "连线透明度", "0", "1", "0.05", String(linkOpacity.value), (v) => {
       linkOpacity.value = v;
       saveVal("link_opacity", v);
@@ -526,7 +573,9 @@ export async function init3d(graphData: GraphData) {
         labelShow.value = cb.checked;
         saveVal("label_show", cb.checked);
         cbLabel.textContent = cb.checked ? "显示" : "隐藏";
-        if (cb.checked) ensureLabels(); // 开启时立即创建视野内标签
+        labelsDirty = true;
+        labelGroup.visible = cb.checked && !focusedId;
+        requestRender();
       });
       const row = document.createElement("div");
       row.style.cssText = "display:flex;align-items:center;";
@@ -546,14 +595,14 @@ export async function init3d(graphData: GraphData) {
       (v) => {
         maxOverlayEdges.value = v;
         saveVal("max_overlay_edges", v);
-        ctx.linkLines.geometry.setDrawRange(0, v * MAX_EDGE_SEGMENTS * 2);
+
         if (focusedId) {
           buildNeighborLabels(focusedId);
           // 同步重建 overlay 管道，使上限生效
-          const fn = nodes.find((n) => n.id === focusedId);
+          const fn = getNode(focusedId!);
           if (fn) buildOverlay(focusedId, new THREE.Color(fn._cDefault));
         }
-        _needsRender = true;
+        requestRender();
       },
       "",
     );
@@ -826,7 +875,7 @@ export async function init3d(graphData: GraphData) {
       return;
     }
     showPanel(neighborPanel.id);
-    const focusedNode = nodes.find((n) => n.id === nodeId);
+    const focusedNode = getNode(nodeId);
     const nameEl = neighborPanel.querySelector(".np-node-name");
     if (nameEl) nameEl.textContent = focusedNode ? focusedNode.name || focusedNode.id : nodeId;
     const body = neighborPanel.querySelector(".np-body") as HTMLElement;
@@ -842,7 +891,7 @@ export async function init3d(graphData: GraphData) {
     const outgoingOnly: Array<{ id: string; name: string; url: string }> = [];
     const incomingOnly: Array<{ id: string; name: string; url: string }> = [];
     for (const nid of allIds) {
-      const node = nodes.find((n) => n.id === nid);
+      const node = getNode(nid);
       if (!node) continue;
       const entry = { id: nid, name: node.name || nid, url: node.url || "" };
       const inOut = outgoing.has(nid);
@@ -877,11 +926,11 @@ export async function init3d(graphData: GraphData) {
 
     const arr = Array.from(neighborIds);
     // 显示全部邻居，上限由滑条控制
-    const limit = maxOverlayEdges.value;
+    const limit = Math.min(maxOverlayEdges.value, qualityOptions[quality].neighbors);
     const shown = arr.length > limit ? arr.slice(0, limit) : arr;
 
     for (const nid of shown) {
-      const node = nodes.find((n) => n.id === nid);
+      const node = getNode(nid);
       if (!node || node.x == null) continue;
       const name = node.name || node.id;
       if (name.length > 40) continue;
@@ -893,7 +942,7 @@ export async function init3d(graphData: GraphData) {
     }
 
     // 被聚焦节点自己的标签
-    const fNode = nodes.find((n) => n.id === nodeId);
+    const fNode = getNode(nodeId);
     if (fNode && fNode.x != null) {
       const fName = fNode.name || fNode.id;
       if (fName.length <= 40) {
@@ -930,7 +979,7 @@ export async function init3d(graphData: GraphData) {
     // 收集路径途经节点的 3D 坐标
     const pts: THREE.Vector3[] = [];
     for (const id of path) {
-      const node = nodes.find((n) => n.id === id);
+      const node = getNode(id);
       if (node && node.x != null) {
         pts.push(new THREE.Vector3(node.x, node.y ?? 0, node.z ?? 0));
       }
@@ -945,10 +994,8 @@ export async function init3d(graphData: GraphData) {
 
     // 核心管道（亮金色）
     const coreGeom = new THREE.TubeGeometry(curve, tubeRes, tubeRadius, radialSegs, false);
-    const coreMat = new THREE.MeshStandardMaterial({
-      color: 0xffd700,
-      emissive: new THREE.Color(0xffd700),
-      emissiveIntensity: 0.7,
+    const coreMat = new THREE.MeshBasicMaterial({
+      color: new THREE.Color(0xffd700).multiplyScalar(0.7),
       transparent: true,
       opacity: 1,
       depthWrite: false,
@@ -958,10 +1005,8 @@ export async function init3d(graphData: GraphData) {
 
     // 光晕管道（外发光，半透明，大一圈）
     const glowGeom = new THREE.TubeGeometry(curve, tubeRes, tubeRadius * 2.5, radialSegs, false);
-    const glowMat = new THREE.MeshStandardMaterial({
-      color: 0xffd700,
-      emissive: new THREE.Color(0xffd700),
-      emissiveIntensity: 0.3,
+    const glowMat = new THREE.MeshBasicMaterial({
+      color: new THREE.Color(0xffd700).multiplyScalar(0.3),
       transparent: true,
       opacity: 0.2,
       depthWrite: false,
@@ -972,39 +1017,50 @@ export async function init3d(graphData: GraphData) {
     ctx.scene.add(pathOverlayGroup);
   }
 
-  function refreshPathNodeColors() {
+  function refreshPathNodeColors(previousStep?: number) {
     if (!pathNodeIds) return;
+    if (previousStep !== undefined) {
+      const previous = nodeIdToIndex.get(pathNodeIds[previousStep]);
+      const current = nodeIdToIndex.get(pathNodeIds[pathStepIndex]);
+      if (previous !== undefined) setNodeColor(ctx, previous, "#FF8C00");
+      if (current !== undefined) setNodeColor(ctx, current, adjustHex(nodes[current]._cDefault, 70));
+      requestRender();
+      return;
+    }
     const pathSet = new Set(pathNodeIds);
     for (let i = 0; i < nodes.length; i++) {
       const nd = nodes[i];
       if (pathSet.has(nd.id)) {
         if (pathStepIndex >= 0 && nd.id === pathNodeIds[pathStepIndex]) {
-          setNodeColor(ctx, i, adjustHex(nd._cDefault, 70));
+          setNodeColor(ctx, i, adjustHex(nd._cDefault, 70), false);
         } else {
-          setNodeColor(ctx, i, "#FF8C00");
+          setNodeColor(ctx, i, "#FF8C00", false);
         }
       } else {
-        setNodeColor(ctx, i, nd._cDefault);
+        setNodeColor(ctx, i, nd._cDefault, false);
       }
     }
+    if (ctx.nodes.instanceColor) ctx.nodes.instanceColor.needsUpdate = true;
   }
 
   function showShortestPath(fromId: string, toId: string): string[] | null {
     const path = findShortestPath(neighborMap, fromId, toId);
     if (!path) return null;
     clearOldPathState();
+    if (focusedId) restoreNodeScale(focusedId);
     focusedId = null;
     highlightedSet.clear();
-    _needsRender = true;
+    labelsDirty = true;
+    requestRender();
     updateNeighborPanel(null);
     pathNodeIds = path;
     pathStepIndex = 0;
     refreshPathNodeColors();
     buildOverlay(null, 0xffffff); // 清除聚焦叠加线
     // 路径模式下隐藏普通连线，只显示金色路径管道
-    (ctx.linkLines.material as THREE.LineBasicMaterial).opacity = 0;
+    setLinkOpacity(ctx, 0);
     buildPathOverlay(path);
-    const first = nodes.find((n) => n.id === path[0]);
+    const first = getNode(path[0]);
     if (first && first.x != null) {
       const pad = 200;
       animateCamera(
@@ -1019,10 +1075,10 @@ export async function init3d(graphData: GraphData) {
 
   function stepPathNext(): boolean {
     if (!pathNodeIds || pathStepIndex >= pathNodeIds.length - 1) return false;
-    pathStepIndex++;
-    refreshPathNodeColors();
+    const previousStep = pathStepIndex++;
+    refreshPathNodeColors(previousStep);
     const nid = pathNodeIds[pathStepIndex];
-    const n = nodes.find((nd) => nd.id === nid);
+    const n = getNode(nid);
     if (n && n.x != null) {
       const pad = 200;
       animateCamera(ctx, { x: n.x + pad, y: n.y! + pad * 0.5, z: n.z! + pad }, { x: n.x!, y: n.y!, z: n.z! }, 600);
@@ -1032,10 +1088,10 @@ export async function init3d(graphData: GraphData) {
 
   function stepPathPrev(): boolean {
     if (!pathNodeIds || pathStepIndex <= 0) return false;
-    pathStepIndex--;
-    refreshPathNodeColors();
+    const previousStep = pathStepIndex--;
+    refreshPathNodeColors(previousStep);
     const nid = pathNodeIds[pathStepIndex];
-    const n = nodes.find((nd) => nd.id === nid);
+    const n = getNode(nid);
     if (n && n.x != null) {
       const pad = 200;
       animateCamera(ctx, { x: n.x + pad, y: n.y! + pad * 0.5, z: n.z! + pad }, { x: n.x!, y: n.y!, z: n.z! }, 600);
@@ -1045,9 +1101,10 @@ export async function init3d(graphData: GraphData) {
 
   function clearPath() {
     clearOldPathState();
-    _needsRender = true;
+    labelsDirty = true;
+    requestRender();
     refreshAllNodeColors();
-    (ctx.linkLines.material as THREE.LineBasicMaterial).opacity = linkOpacity.value;
+    setLinkOpacity(ctx, pathNodeIds ? 0 : linkOpacity.value);
   }
 
   function getPathInfo() {
@@ -1062,13 +1119,14 @@ export async function init3d(graphData: GraphData) {
 
   // ── 12. 颜色管理 ──
   function refreshAllNodeColors() {
+    const pathSet = pathNodeIds ? new Set(pathNodeIds) : null;
     for (let i = 0; i < nodes.length; i++) {
       const nd = nodes[i];
       let color: string;
       const isFocused = focusedId === nd.id;
       if (pathNodeIds && pathStepIndex >= 0 && nd.id === pathNodeIds[pathStepIndex]) {
         color = adjustHex(nd._cDefault, 70);
-      } else if (pathNodeIds && pathNodeIds.includes(nd.id)) {
+      } else if (pathSet?.has(nd.id)) {
         color = "#FF8C00";
       } else if (isFocused) {
         color = nd._cFocus;
@@ -1079,7 +1137,7 @@ export async function init3d(graphData: GraphData) {
       } else {
         color = nd._cDefault;
       }
-      setNodeColor(ctx, i, color);
+      setNodeColor(ctx, i, color, false);
 
       // 聚焦节点放大 1.5x
       if (isFocused) {
@@ -1093,165 +1151,157 @@ export async function init3d(graphData: GraphData) {
         ctx.nodes.instanceMatrix.needsUpdate = true;
       }
     }
+    if (ctx.nodes.instanceColor) ctx.nodes.instanceColor.needsUpdate = true;
   }
 
-  // ── 13. 动画循环 ──
-  let _lastCamPos = { x: 0, y: 0, z: 0 };
-  let _queryCamMove = true;
-  let _lblFrameSkip = 0;
-  let _lblCreateSkip = 0;
-
-  // FPS 监控
-  let _fpsFrames = 0;
-  let _fpsLastTime = performance.now();
-  let _fpsDisplay: HTMLElement | null = null;
-
-  function updateFPS() {
-    _fpsFrames++;
-    const now = performance.now();
-    if (now - _fpsLastTime >= 1000) {
-      const fps = Math.round(_fpsFrames / ((now - _fpsLastTime) / 1000));
-      _fpsFrames = 0;
-      _fpsLastTime = now;
-      if (!_fpsDisplay) {
-        _fpsDisplay = document.createElement("div");
-        _fpsDisplay.style.cssText =
-          "position:absolute;top:0;left:50%;transform:translateX(-50%);z-index:10000;background:rgba(0,0,0,0.7);color:#0f0;padding:4px 8px;border-radius:4px;font:12px monospace;";
-        document.getElementById("main")?.appendChild(_fpsDisplay);
+  // ── 13. 按需渲染：相机、画质和内容变化唤醒，静止时不申请下一帧 ──
+  let labelsDirty = true;
+  let labelsPending = false;
+  let lastLabelScan = -Infinity;
+  let labelScanTimer: ReturnType<typeof setTimeout> | null = null;
+  let lastFrameTime = 0;
+  let lastAutoHover = -Infinity;
+  const cameraUp = new THREE.Vector3();
+  const lastCameraPosition = new THREE.Vector3(Infinity, Infinity, Infinity);
+  const lastCameraQuaternion = new THREE.Quaternion();
+  const fpsDisplay = document.createElement("div");
+  fpsDisplay.style.cssText =
+    "position:absolute;top:0;left:50%;transform:translateX(-50%);z-index:10000;background:rgba(0,0,0,0.7);color:#0f0;padding:4px 8px;border-radius:4px;font:12px monospace;pointer-events:none;";
+  container.appendChild(fpsDisplay);
+  let fpsFrames = 0,
+    fpsSince = performance.now();
+  function flightActive() {
+    return (
+      isFlyMode &&
+      document.pointerLockElement === ctx.renderer.domElement &&
+      (flyAutoPilot ||
+        Object.values(flyKeys).some(Boolean) ||
+        Math.abs(reticleOffset.x) +
+          Math.abs(reticleOffset.y) +
+          Math.abs(reticleVelocity.x) +
+          Math.abs(reticleVelocity.y) +
+          Math.abs(rollVelocity) >
+          0.0001)
+    );
+  }
+  const renderScheduler = createRenderScheduler({
+    requestFrame: requestAnimationFrame,
+    cancelFrame: cancelAnimationFrame,
+    isVisible: () => !document.hidden,
+    maxFps: qualityOptions[quality].fps,
+    onFrame(now) {
+      const dt = lastFrameTime ? Math.min(0.05, (now - lastFrameTime) / 1000) : 1 / 60;
+      lastFrameTime = now;
+      let moving = false;
+      if (isFlyMode) {
+        moving = flightActive();
+        if (moving) flyLoop(dt);
+        if (!moving || now - lastAutoHover >= 120) {
+          updateAutoHover(nodes, ctx.camera);
+          lastAutoHover = now;
+        }
+      } else {
+        ctx.controls.dampingFactor = 1 - Math.pow(1 - 0.08, dt * 60);
+        moving = ctx.controls.update();
+        if (Math.abs(flyExitRoll) > 0.0001) {
+          ctx.camera.rotateZ(flyExitRoll);
+          flyExitRoll *= Math.pow(0.92, dt * 60);
+          moving = true;
+        } else flyExitRoll = 0;
       }
-      const nodeCount = ctx.nodes.count;
-      const labelCount = labelGroup.children.length;
-      _fpsDisplay.textContent = `FPS:${fps} | nodes:${nodeCount} | labels:${labelCount}`;
-    }
-  }
-
-  let _lastTime = performance.now();
-  let _needsRender = true;
-  let _idleFrames = 0;
-
-  // 用户交互（相机/悬停等）触发即时渲染
-  ctx.controls.addEventListener("change", () => {
-    _needsRender = true;
-    _idleFrames = 0;
-  });
-
-  function animateLoop() {
-    requestAnimationFrame(animateLoop);
-    const now = performance.now();
-    _lastTime = now;
-
-    // 标签：只在每 10 帧或空闲时才检查创建
-    if (++_lblCreateSkip >= 10 || _idleFrames > 120) {
-      _lblCreateSkip = 0;
-      ensureLabels();
-      pruneLabels();
-    }
-
-    updateFPS();
-
-    const camPos = ctx.camera.position;
-    const camMoved =
-      Math.abs(camPos.x - _lastCamPos.x) > 1 ||
-      Math.abs(camPos.y - _lastCamPos.y) > 1 ||
-      Math.abs(camPos.z - _lastCamPos.z) > 1;
-
-    if (camMoved || _queryCamMove) {
-      _lastCamPos.x = camPos.x;
-      _lastCamPos.y = camPos.y;
-      _lastCamPos.z = camPos.z;
-      _queryCamMove = false;
-      _needsRender = true;
-      _idleFrames = 0;
-
-      // 标签淡出（每 3 帧才跑一次，减少 CPU 消耗）
-      _lblFrameSkip++;
-      if (_lblFrameSkip >= 3 && labelGroup.children.length > 0) {
-        _lblFrameSkip = 0;
-        ensureLabels();
-        const show = labelShow.value;
-        for (const child of labelGroup.children) {
-          const sprite = child as THREE.Sprite;
-          const np = (sprite as any)._nodePos;
-          if (!np) continue;
-          if (!show || focusedId) {
-            sprite.visible = false;
-            continue;
-          }
-          const dx = np.x - camPos.x,
-            dy = np.y - camPos.y,
-            dz = np.z - camPos.z;
-          const sqDist = dx * dx + dy * dy + dz * dz;
-          if (sqDist > LABEL_MAX_FADE_START * LABEL_MAX_FADE_START) {
-            sprite.visible = false;
-          } else if (sqDist < LABEL_FADE_FULL * LABEL_FADE_FULL) {
-            sprite.visible = true;
-            sprite.material.opacity = 1;
-          } else {
-            sprite.visible = true;
-            sprite.material.opacity =
-              (LABEL_MAX_FADE_START - Math.sqrt(sqDist)) / (LABEL_MAX_FADE_START - LABEL_FADE_FULL);
-          }
+      const cameraChanged =
+        !lastCameraPosition.equals(ctx.camera.position) || !lastCameraQuaternion.equals(ctx.camera.quaternion);
+      if (cameraChanged) {
+        lastCameraPosition.copy(ctx.camera.position);
+        lastCameraQuaternion.copy(ctx.camera.quaternion);
+        labelsDirty = true;
+      }
+      labelGroup.visible = labelShow.value && !focusedId;
+      if (labelsDirty || labelsPending) {
+        if (now - lastLabelScan >= 150) {
+          if (labelScanTimer !== null) clearTimeout(labelScanTimer);
+          labelScanTimer = null;
+          labelsPending = ensureLabels();
+          lastLabelScan = now;
+          labelsDirty = false;
         }
       }
-    }
-
-    // 聚焦标签：屏幕空间缩放 + 相机相对定位
-    if (neighborLabelGroup.children.length > 0) {
-      const fovRad = (ctx.camera.fov * Math.PI) / 180;
-      const count = neighborLabelGroup.children.length;
-      const _camUp = new THREE.Vector3(0, 1, 0).applyQuaternion(ctx.camera.quaternion);
-      const _nodeRadius = nodeSize(1, 1);
-      for (const child of neighborLabelGroup.children) {
-        const sprite = child as THREE.Sprite;
-        const isFocused = (sprite as any)._isFocused;
-        const np = (sprite as any)._nodePos3d;
-        if (np) {
-          const sign = (sprite as any)._neighborId === null && !isFocused ? -1 : 1;
-          const offset = isFocused ? _nodeRadius + 20 : _nodeRadius + 14;
-          sprite.position.set(
-            np.x + _camUp.x * offset * sign,
-            np.y + _camUp.y * offset * sign,
-            np.z + _camUp.z * offset * sign,
+      // Reposition sprites only on a changed camera; quaternion catches orbit/roll in place.
+      {
+        for (const child of labelGroup.children) {
+          const sprite = child as THREE.Sprite,
+            np = (sprite as any)._nodePos;
+          const dist = labelPoint.set(np.x, np.y, np.z).distanceTo(ctx.camera.position);
+          sprite.visible = labelShow.value && !focusedId && dist < LABEL_MAX_FADE_START;
+          sprite.material.opacity = Math.max(
+            0,
+            Math.min(1, (LABEL_MAX_FADE_START - dist) / (LABEL_MAX_FADE_START - LABEL_FADE_FULL)),
           );
         }
-        const dist = ctx.camera.position.distanceTo(sprite.position);
-        const fraction = isFocused ? 0.04 / (1 + count / 50) : 0.03 / (1 + count / 60);
-        const worldH = Math.max(0.1, 2 * dist * Math.tan(fovRad / 2) * fraction);
-        const curScale = sprite.scale;
-        const aspect = curScale.y > 0 ? curScale.x / curScale.y : 1;
-        sprite.scale.set(worldH * aspect, worldH, 1);
       }
-    }
-
-    // 飞船模式 / OrbitControls
-    if (isFlyMode) {
-      flyLoop();
-    } else {
-      ctx.controls.update();
-      if (Math.abs(flyExitRoll) > 0.0001) {
-        ctx.camera.rotateZ(flyExitRoll);
-        flyExitRoll *= 0.92;
-      } else {
-        flyExitRoll = 0;
+      if (neighborLabelGroup.children.length) {
+        const count = neighborLabelGroup.children.length;
+        cameraUp.set(0, 1, 0).applyQuaternion(ctx.camera.quaternion);
+        const fovScale = 2 * Math.tan((ctx.camera.fov * Math.PI) / 360);
+        const viewHeight = Math.max(1, container.clientHeight);
+        for (const child of neighborLabelGroup.children) {
+          const sprite = child as THREE.Sprite,
+            np = (sprite as any)._nodePos3d;
+          const isFocused = (sprite as any)._isFocused;
+          const offset = nodeSize(1, 1) + (isFocused ? 20 : 14);
+          sprite.position.set(np.x + cameraUp.x * offset, np.y + cameraUp.y * offset, np.z + cameraUp.z * offset);
+          const dist = ctx.camera.position.distanceTo(sprite.position);
+          const pixelHeight = isFocused ? 24 : Math.max(12, 20 / (1 + count / 100));
+          const worldH = Math.max(0.1, (dist * fovScale * pixelHeight) / viewHeight);
+          const aspect = sprite.scale.y > 0 ? sprite.scale.x / sprite.scale.y : 1;
+          sprite.scale.set(worldH * aspect, worldH, 1);
+        }
       }
-    }
-
-    // ── 空闲计数（每帧 +1，用户交互重置）──
-    _idleFrames++;
-
-    // ── 渲染节流 ──
-    // 空闲时逐步降低渲染帧率，减少 GPU 负担（尤其是 Bloom 后处理）
-    if (_needsRender) {
-      _needsRender = false;
+      ctx.renderer.info.reset();
+      const renderStart = performance.now();
       ctx.renderer.render(ctx.scene, ctx.camera);
-    } else {
-      // 空闲逐渐降帧：<1s 60fps, 1-3s 30fps, 3-10s 15fps, >10s 8fps
-      const throttleStep = _idleFrames < 60 ? 0 : _idleFrames < 180 ? 1 : _idleFrames < 600 ? 3 : 6;
-      if (throttleStep === 0 || _idleFrames % (throttleStep + 1) === 0) {
-        ctx.renderer.render(ctx.scene, ctx.camera);
+      renderCpuMs = performance.now() - renderStart;
+      perfStats.frames++;
+      fpsFrames++;
+      // Label creation is spread over small batches. A deferred task wakes the
+      // next batch without redrawing identical GPU frames while waiting for it.
+      if ((labelsDirty || labelsPending) && labelScanTimer === null) {
+        labelScanTimer = setTimeout(
+          () => {
+            labelScanTimer = null;
+            requestRender();
+          },
+          Math.max(0, 150 - (now - lastLabelScan)),
+        );
       }
+      const continuing = moving || flightActive();
+      if (!continuing) {
+        fpsDisplay.textContent = `空闲停绘 | nodes:${nodes.length} | labels:${labelGroup.children.length}`;
+        fpsFrames = 0;
+        fpsSince = now;
+        lastFrameTime = 0;
+      } else if (now - fpsSince >= 1000) {
+        fpsDisplay.textContent = `FPS:${Math.round((fpsFrames * 1000) / (now - fpsSince))} | nodes:${nodes.length} | labels:${labelGroup.children.length}`;
+        fpsFrames = 0;
+        fpsSince = now;
+      }
+      return continuing;
+    },
+  });
+  ctx.requestRender = renderScheduler.request;
+  ctx.controls.addEventListener("change", requestRender);
+  function onVisibilityChange() {
+    lastFrameTime = 0;
+    if (document.hidden) {
+      if (labelScanTimer !== null) clearTimeout(labelScanTimer);
+      labelScanTimer = null;
+      renderScheduler.pause();
+    } else {
+      labelsDirty = true;
+      renderScheduler.resume();
     }
   }
+  document.addEventListener("visibilitychange", onVisibilityChange);
 
   // ── 13b. 邻居大字标签点击/右键（独立 Raycaster，在节点交互之前注册）──
   const spriteRaycaster = new THREE.Raycaster();
@@ -1288,16 +1338,17 @@ export async function init3d(graphData: GraphData) {
 
   // ── 14. 交互事件 ──
   const tooltip = createTooltip();
-  const interaction = createInteraction(ctx, nodes);
+  const interaction = createInteraction(ctx, nodes, FOCUS_NODE_SCALE);
 
-  // 高亮叠加线网（hover/focus 时显示，预构建 mesh 池，避免 GC）
+  // 高亮叠加线网：按需创建两批实例化圆柱。
   const overlayGroup = new THREE.Group();
   overlayGroup.visible = false;
   ctx.scene.add(overlayGroup);
 
   // ── 共享几何体 ──
-  const sharedHaloGeom = new THREE.CylinderGeometry(0.5, 0.5, 1, 6);
-  const sharedCoreGeom = new THREE.CylinderGeometry(0.18, 0.18, 1, 6);
+  // Adjacent segments meet; their interior end caps add overdraw with no visible benefit.
+  const sharedHaloGeom = new THREE.CylinderGeometry(0.5, 0.5, 1, 6, 1, true);
+  const sharedCoreGeom = new THREE.CylinderGeometry(0.18, 0.18, 1, 6, 1, true);
   const up_v = new THREE.Vector3(0, 1, 0);
   const quat_v = new THREE.Quaternion();
   const mid_v = new THREE.Vector3();
@@ -1306,114 +1357,95 @@ export async function init3d(graphData: GraphData) {
   const dir_v = new THREE.Vector3();
 
   // ── 共享材质（hover 和 focus 共用，运行时切换颜色/亮度）──
-  const overlayHaloMat = new THREE.MeshStandardMaterial({
-    emissiveIntensity: 0.4,
+  const overlayHaloMat = new THREE.MeshBasicMaterial({
     transparent: true,
     opacity: 0.25,
     depthWrite: false,
   });
-  const overlayCoreMat = new THREE.MeshStandardMaterial({
-    emissiveIntensity: 0.7,
+  const overlayCoreMat = new THREE.MeshBasicMaterial({
     transparent: true,
     opacity: 1,
     depthWrite: false,
   });
 
-  // ── 预构建 mesh 池 ──
-  const POOL_SIZE = 500 * EDGE_SEGMENTS; // 池容量，显示上限由滑条控制
-  const overlayHaloPool: THREE.Mesh[] = [];
-  const overlayCorePool: THREE.Mesh[] = [];
-  for (let i = 0; i < POOL_SIZE; i++) {
-    const halo = new THREE.Mesh(sharedHaloGeom, overlayHaloMat);
-    const core = new THREE.Mesh(sharedCoreGeom, overlayCoreMat);
-    halo.visible = false;
-    core.visible = false;
-    overlayGroup.add(halo);
-    overlayGroup.add(core);
-    overlayHaloPool.push(halo);
-    overlayCorePool.push(core);
+  let overlayHalo: THREE.InstancedMesh | null = null;
+  let overlayCore: THREE.InstancedMesh | null = null;
+  let overlayCapacity = 0;
+  const overlayTransform = new THREE.Object3D();
+  function reserveOverlay(capacity: number) {
+    if (capacity <= overlayCapacity) return;
+    if (overlayHalo && overlayCore) {
+      overlayGroup.remove(overlayHalo, overlayCore);
+      overlayHalo.dispose();
+      overlayCore.dispose();
+    }
+    overlayCapacity = capacity;
+    overlayHalo = new THREE.InstancedMesh(sharedHaloGeom, overlayHaloMat, capacity);
+    overlayCore = new THREE.InstancedMesh(sharedCoreGeom, overlayCoreMat, capacity);
+    overlayHalo.name = "overlay-halo";
+    overlayCore.name = "overlay-core";
+    overlayHalo.frustumCulled = overlayCore.frustumCulled = false;
+    overlayHalo.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
+    overlayCore.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
+    overlayGroup.add(overlayHalo, overlayCore);
   }
-  let _overlayPoolUsed = 0; // 当前已使用的 mesh 数量
 
   function buildOverlay(nodeId: string | null, color: THREE.ColorRepresentation) {
-    // 重置池
-    for (let i = 0; i < _overlayPoolUsed; i++) {
-      overlayHaloPool[i].visible = false;
-      overlayCorePool[i].visible = false;
-    }
-    _overlayPoolUsed = 0;
-
-    if (!nodeId) {
+    perfStats.overlayBuilds++;
+    if (!nodeId || !ctx.edgeStore) {
       overlayGroup.visible = false;
       return;
     }
-
+    const edges = (incidentEdges.get(nodeId) || []).slice(0, maxOverlayEdges.value);
+    if (!edges.length) {
+      overlayGroup.visible = false;
+      return;
+    }
+    reserveOverlay(edges.reduce((count, index) => count + ctx.edgeStore!.getSegmentCount(index), 0));
+    const halo = overlayHalo!,
+      core = overlayCore!;
     const baseColor = new THREE.Color(color);
     const isFocus = focusedId === nodeId;
-    overlayHaloMat.color.copy(baseColor);
-    overlayHaloMat.emissive.copy(baseColor);
-    overlayHaloMat.emissiveIntensity = isFocus ? 0.8 : 0.4;
+    overlayHaloMat.color.copy(baseColor).multiplyScalar(isFocus ? 0.8 : 0.4);
     overlayHaloMat.opacity = isFocus ? 0.5 : 0.25;
-    overlayCoreMat.color.copy(baseColor);
-    overlayCoreMat.emissive.copy(baseColor);
-    overlayCoreMat.emissiveIntensity = isFocus ? 1.2 : 0.7;
-    overlayCoreMat.opacity = 1;
-
+    overlayCoreMat.color.copy(baseColor).multiplyScalar(isFocus ? 1.2 : 0.7);
     const focusScale = isFocus ? 2 : 1;
-
-    const linkPos = ctx.linkLines.geometry.attributes.position.array as Float32Array;
-    const FLOATS_PER_EDGE = EDGE_SEGMENTS * 2 * 3; // buffer stride (fixed)
-    const lseg = _cachedLseg; // per-edge actual segment counts
-    let edgeCount = 0;
-    let poolIdx = 0;
-
-    for (let i = 0; i < links.length && edgeCount < maxOverlayEdges.value; i++) {
-      if (links[i].source !== nodeId && links[i].target !== nodeId) continue;
-      edgeCount++;
-      const base = i * FLOATS_PER_EDGE;
-      const segs = lseg ? lseg[i] || 6 : EDGE_SEGMENTS;
-
-      for (let j = 0; j < segs && poolIdx < POOL_SIZE; j++) {
-        const segBase = base + j * 6;
-        start_v.set(linkPos[segBase], linkPos[segBase + 1], linkPos[segBase + 2]);
-        end_v.set(linkPos[segBase + 3], linkPos[segBase + 4], linkPos[segBase + 5]);
+    let count = 0;
+    for (const edgeIndex of edges) {
+      const sample = ctx.edgeStore.sampleEdge(edgeIndex);
+      for (let j = 0; j < sample.segmentCount; j++) {
+        const base = j * 6,
+          pos = sample.positions;
+        start_v.set(pos[base], pos[base + 1], pos[base + 2]);
+        end_v.set(pos[base + 3], pos[base + 4], pos[base + 5]);
         dir_v.subVectors(end_v, start_v);
-        const segLen = dir_v.length();
-        if (segLen < 0.01) continue;
-        dir_v.normalize();
+        const len = dir_v.length();
+        if (len < 0.01) continue;
+        quat_v.setFromUnitVectors(up_v, dir_v.multiplyScalar(1 / len));
         mid_v.addVectors(start_v, end_v).multiplyScalar(0.5);
-        quat_v.setFromUnitVectors(up_v, dir_v);
-
-        const halo = overlayHaloPool[poolIdx];
-        const core = overlayCorePool[poolIdx];
-        poolIdx++;
-
-        halo.position.copy(mid_v);
-        halo.quaternion.copy(quat_v);
-        halo.scale.set(focusScale, segLen, focusScale);
-        halo.visible = true;
-
-        core.position.copy(mid_v);
-        core.quaternion.copy(quat_v);
-        core.scale.set(focusScale * 0.36, segLen, focusScale * 0.36);
-        core.visible = true;
+        overlayTransform.position.copy(mid_v);
+        overlayTransform.quaternion.copy(quat_v);
+        overlayTransform.scale.set(focusScale, len, focusScale);
+        overlayTransform.updateMatrix();
+        halo.setMatrixAt(count, overlayTransform.matrix);
+        overlayTransform.scale.set(focusScale * 0.36, len, focusScale * 0.36);
+        overlayTransform.updateMatrix();
+        core.setMatrixAt(count, overlayTransform.matrix);
+        count++;
       }
     }
-    _overlayPoolUsed = poolIdx;
-    overlayGroup.visible = true;
+    halo.count = core.count = count;
+    halo.instanceMatrix.needsUpdate = core.instanceMatrix.needsUpdate = true;
+    overlayGroup.visible = count > 0;
   }
 
   interaction.onHover = (n: any) => {
-    // 首次交互时触发 bezier 懒加载
-    if (!_bezierLoaded && !_bezierLoading && n) {
-      loadBezierLazy();
-    }
     const newHoveredId = n ? n.id : null;
     if (lastHoveredId === newHoveredId) return;
     const prevId = hoveredId;
     hoveredId = newHoveredId;
     lastHoveredId = newHoveredId;
-    _needsRender = true;
+    requestRender();
     if (prevId) {
       const pi = nodeIdToIndex.get(prevId);
       if (pi != null) setNodeColor(ctx, pi, nodes[pi]._cDefault);
@@ -1489,23 +1521,21 @@ export async function init3d(graphData: GraphData) {
     focusNodeById(id);
   }
 
-  let _lastFocusedId: string | null = null;
-
   function focusNodeById(id: string) {
     // 恢复上一个聚焦节点尺寸
     if (focusedId && focusedId !== id) {
       restoreNodeScale(focusedId);
     }
-    _lastFocusedId = focusedId;
     focusedId = id;
-    _needsRender = true;
+    labelsDirty = true;
+    requestRender();
     refreshAllNodeColors();
-    const focusNode = nodes.find((n) => n.id === id);
+    const focusNode = getNode(id);
     const focusOverlayColor = focusNode ? new THREE.Color(focusNode._cDefault) : new THREE.Color(0xffdd44);
     buildOverlay(id, focusOverlayColor);
     updateNeighborPanel(id);
     buildNeighborLabels(id);
-    const node = nodes.find((n) => n.id === id);
+    const node = getNode(id);
     if (node && node.x != null) {
       const pad = 250;
       animateCamera(
@@ -1538,7 +1568,8 @@ export async function init3d(graphData: GraphData) {
       const nbrs = neighborMap.get(id);
       if (nbrs) for (const nb of nbrs) highlightedSet.add(nb);
     }
-    _needsRender = true;
+    labelsDirty = true;
+    requestRender();
     refreshAllNodeColors();
   }
 
@@ -1552,7 +1583,8 @@ export async function init3d(graphData: GraphData) {
       buildOverlay(null, 0xffffff);
       clearNeighborLabels();
     }
-    _needsRender = true;
+    labelsDirty = true;
+    requestRender();
     refreshAllNodeColors();
   }
 
@@ -1592,6 +1624,17 @@ export async function init3d(graphData: GraphData) {
   let flyOnKeyUp: ((e: KeyboardEvent) => void) | null = null;
   let flyOnMouseMove: ((e: MouseEvent) => void) | null = null;
   let autoHoverId: string | null = null;
+  let pointerLockError: string | null = null;
+
+  function updatePointerLockStatus(message?: string) {
+    const status = document.getElementById("fly-pointer-status");
+    if (status)
+      status.textContent =
+        message ||
+        (document.pointerLockElement === ctx.renderer.domElement
+          ? "鼠标已锁定 · Esc 释放后暂停飞行"
+          : "点击宇宙画面锁定鼠标后飞行");
+  }
 
   function createCrosshair(): HTMLElement {
     let el = document.getElementById("fly-crosshair");
@@ -1609,21 +1652,23 @@ export async function init3d(graphData: GraphData) {
     if (!isFlyMode) return;
     if (
       down &&
-      (e
+      e
         .composedPath()
         .some(
           (el) =>
-            el instanceof HTMLElement && (el.closest(".app-window") || el.matches("input,input,input,input,textarea")),
-        ) ||
-        !document.pointerLockElement)
+            el instanceof HTMLElement &&
+            (el.closest(".app-window") || el.matches("input,textarea,select,[contenteditable]")),
+        )
     )
       return;
     const k = e.key.toLowerCase();
+    requestRender();
     if (k === "x" && down) {
       e.preventDefault();
       exitFlyMode();
       return;
     }
+    if (down && document.pointerLockElement !== ctx.renderer.domElement) return;
     if (["w", "a", "s", "d", "r", "f", "q", "e", "shift"].includes(k)) {
       e.preventDefault();
       flyKeys[k] = down;
@@ -1643,11 +1688,35 @@ export async function init3d(graphData: GraphData) {
     if (!isFlyMode) return;
     // ESC 不再退出飞船模式，只是临时释放鼠标
     // 点击 canvas 重新锁定，按 X 或点击按钮退出
-    if (!document.pointerLockElement) document.body.style.cursor = "default";
-    else document.body.style.cursor = document.pointerLockElement ? "none" : "default";
+    if (document.pointerLockElement !== ctx.renderer.domElement) {
+      document.body.style.cursor = "default";
+      for (const key of Object.keys(flyKeys)) flyKeys[key] = false;
+      reticleOffset.x = reticleOffset.y = reticleVelocity.x = reticleVelocity.y = rollVelocity = 0;
+      requestRender();
+    } else {
+      pointerLockError = null;
+      document.body.style.cursor = "none";
+      requestRender();
+    }
+    updatePointerLockStatus();
   }
-  function flyReLock() {
-    if (isFlyMode && !document.pointerLockElement) void ctx.renderer.domElement.requestPointerLock?.();
+  async function flyReLock() {
+    if (!isFlyMode || disposed || !ctx.renderer.domElement.isConnected || document.pointerLockElement) return;
+    if (!ctx.renderer.domElement.requestPointerLock) {
+      updatePointerLockStatus("当前浏览器不支持鼠标锁定，请使用轨道模式浏览");
+      return;
+    }
+    try {
+      await ctx.renderer.domElement.requestPointerLock();
+    } catch (error) {
+      pointerLockError = error instanceof DOMException ? error.name : "PointerLockError";
+      document.body.style.cursor = "default";
+      updatePointerLockStatus(
+        pointerLockError === "WrongDocumentError"
+          ? "请先激活浏览器窗口，再点击宇宙画面锁定鼠标"
+          : "鼠标未锁定，请再次点击宇宙画面；仍失败可退出飞船模式",
+      );
+    }
   }
 
   // 预分配向量（避免 GC）
@@ -1713,22 +1782,23 @@ export async function init3d(graphData: GraphData) {
     }
   }
 
-  function flyLoop() {
+  function flyLoop(dt: number) {
     if (!isFlyMode) return;
     const cam = ctx.camera;
 
+    const frameScale = dt * 60;
     // 弹簧力：偏移越大回中力越强
     const ax = -RETICLE_SPRING * reticleOffset.x - RETICLE_DAMPING * reticleVelocity.x;
     const ay = -RETICLE_SPRING * reticleOffset.y - RETICLE_DAMPING * reticleVelocity.y;
-    reticleVelocity.x += ax * 0.016;
-    reticleVelocity.y += ay * 0.016;
-    reticleOffset.x += reticleVelocity.x * 0.016;
-    reticleOffset.y += reticleVelocity.y * 0.016;
+    reticleVelocity.x += ax * dt;
+    reticleVelocity.y += ay * dt;
+    reticleOffset.x += reticleVelocity.x * dt;
+    reticleOffset.y += reticleVelocity.y * dt;
 
     // 准星偏移 → 相机本地轴旋转
     const rotScale = 0.15;
-    cam.rotateY(-reticleOffset.x * rotScale);
-    cam.rotateX(reticleOffset.y * rotScale);
+    cam.rotateY(-reticleOffset.x * rotScale * frameScale);
+    cam.rotateX(reticleOffset.y * rotScale * frameScale);
     if (cam.rotation.x > 1.48) cam.rotation.x = 1.48;
     if (cam.rotation.x < -1.48) cam.rotation.x = -1.48;
 
@@ -1740,7 +1810,7 @@ export async function init3d(graphData: GraphData) {
     }
 
     // WASD 飞行 + Q/E 横滚
-    const speed = (flyKeys.shift ? SHIFT_MULTIPLIER : 1) * MOVE_SPEED;
+    const speed = (flyKeys.shift ? SHIFT_MULTIPLIER : 1) * MOVE_SPEED * frameScale;
     if (flyAutoPilot || flyKeys.w) cam.translateZ(-speed);
     if (!flyAutoPilot && flyKeys.s) cam.translateZ(speed);
     if (flyKeys.a) cam.translateX(-speed);
@@ -1751,13 +1821,11 @@ export async function init3d(graphData: GraphData) {
     const ROLL_ACCEL = 0.008; // 每帧角加速度
     const ROLL_DAMPING = 0.88; // 松手后衰减系数
     const MAX_ROLL = 0.06; // 最大横滚角速度 (rad/frame)
-    if (flyKeys.q) rollVelocity += ROLL_ACCEL;
-    if (flyKeys.e) rollVelocity -= ROLL_ACCEL;
-    if (!flyKeys.q && !flyKeys.e) rollVelocity *= ROLL_DAMPING;
+    if (flyKeys.q) rollVelocity += ROLL_ACCEL * frameScale;
+    if (flyKeys.e) rollVelocity -= ROLL_ACCEL * frameScale;
+    if (!flyKeys.q && !flyKeys.e) rollVelocity *= Math.pow(ROLL_DAMPING, frameScale);
     rollVelocity = Math.max(-MAX_ROLL, Math.min(MAX_ROLL, rollVelocity));
-    cam.rotateZ(rollVelocity);
-
-    updateAutoHover(nodes, ctx.camera);
+    cam.rotateZ(rollVelocity * frameScale);
   }
 
   function createFlyControlPanel(): HTMLElement {
@@ -1793,6 +1861,7 @@ export async function init3d(graphData: GraphData) {
         <div><kbd>Space</kbd> 自动驾驶 <span id="fly-autopilot-status" style="color:#888;">OFF</span></div>
         <div style="margin-top:4px;border-top:1px solid rgba(255,200,100,0.25);padding-top:4px;color:#ffc864;font-weight:700;"><kbd style="background:rgba(255,200,100,0.25);color:#ffc864;">X</kbd> 退出飞船模式</div>
         <div style="color:#888;margin-top:2px;">准星瞄准 · 左键打开 · 惯性视角</div>
+        <div id="fly-pointer-status" role="status" class="text-xs opacity-70">点击宇宙画面锁定鼠标后飞行</div>
       </div>
       <style>
         #fly-control-panel kbd { display:inline-block;background:rgba(255,255,255,0.1);border-radius:3px;padding:0 5px;font-size:11px;color:#fff;margin:0 1px; }
@@ -1825,6 +1894,8 @@ export async function init3d(graphData: GraphData) {
   }
 
   function enterFlyMode() {
+    ctx.cancelCameraAnimation();
+    requestRender();
     isFlyMode = true;
     ctx.controls.enabled = false;
     reticleOffset.x = 0;
@@ -1840,12 +1911,14 @@ export async function init3d(graphData: GraphData) {
     ctx.camera.quaternion.copy(savedQuat);
     flyCrosshair = createCrosshair();
     flyCrosshair.style.display = "block";
-    document.body.style.cursor = document.pointerLockElement ? "none" : "default";
+    document.body.style.cursor = document.pointerLockElement === ctx.renderer.domElement ? "none" : "default";
     flyOnKeyDown = (e) => handleFlyKey(e, true);
     flyOnKeyUp = (e) => handleFlyKey(e, false);
     document.addEventListener("keydown", flyOnKeyDown);
     document.addEventListener("keyup", flyOnKeyUp);
     flyOnMouseMove = (e: MouseEvent) => {
+      if (document.pointerLockElement !== ctx.renderer.domElement) return;
+      requestRender();
       reticleVelocity.x += e.movementX * MOUSE_SENSITIVITY;
       reticleVelocity.y -= e.movementY * MOUSE_SENSITIVITY;
       const maxV = 200;
@@ -1854,7 +1927,7 @@ export async function init3d(graphData: GraphData) {
     };
     ctx.renderer.domElement.addEventListener("mousemove", flyOnMouseMove);
 
-    (interaction as any).setFlyMode?.(true);
+    interaction.setFlyMode(true);
 
     flyControlPanel = createFlyControlPanel();
     showPanel(flyControlPanel.id, document.getElementById("fly-toggle") || undefined);
@@ -1864,6 +1937,7 @@ export async function init3d(graphData: GraphData) {
   }
 
   function exitFlyMode() {
+    requestRender();
     isFlyMode = false;
     // 保存当前翻滚角度，切回球幕后持续保留
     flyExitRoll = ctx.camera.rotation.z;
@@ -1890,7 +1964,7 @@ export async function init3d(graphData: GraphData) {
       hidePanel(flyControlPanel.id);
       flyControlPanel = null;
     }
-    (interaction as any).setFlyMode?.(false);
+    interaction.setFlyMode(false);
     // 同步按钮文字
     const flyBtn = document.getElementById("fly-toggle");
     if (flyBtn) flyBtn.textContent = "🚀 飞船模式";
@@ -1922,36 +1996,78 @@ export async function init3d(graphData: GraphData) {
     ctx.controls.target.copy(center);
     ctx.controls.update();
   }
-  animateLoop();
+  requestRender();
 
   // ── 18. Resize ──
+  ctx.renderer.domElement.addEventListener("pointerdown", () => ctx.cancelCameraAnimation());
   const ro = new ResizeObserver((entries) => {
     for (const entry of entries) {
       const { width, height } = entry.contentRect;
+      if (width <= 0 || height <= 0) continue;
       ctx.renderer.setSize(width, height);
       ctx.camera.aspect = width / height;
       ctx.camera.updateProjectionMatrix();
+      labelsDirty = true;
+      requestRender();
     }
   });
   ro.observe(container);
 
   // ── 19. 公开 API ──
-  async function find(query: string) {
-    if (!query?.trim()) return [];
-    const results = await oramaSearch(searchDB, {
-      term: query.trim(),
-      limit: 12,
-    });
-    return results.hits.map((h) => ({
-      id: h.document.id,
-      name: h.document.name,
-      url: h.document.url,
-    })) as Array<{ id: string; name: string; url: string }>;
+  async function find(query: string, signal?: AbortSignal) {
+    if (!query?.trim() || disposed || signal?.aborted) return [];
+    try {
+      const index = await getSearchIndex();
+      if (disposed || signal?.aborted) return [];
+      const results = await index.find(query);
+      return disposed || signal?.aborted ? [] : results;
+    } catch (error) {
+      if (disposed && error instanceof DOMException && error.name === "AbortError") return [];
+      throw error;
+    }
   }
 
   function getGraphData() {
     return { nodes, links };
   }
+
+  function disposeGraph() {
+    if (disposed) return;
+    disposed = true;
+    searchIndexPromise = null;
+    searchIndexReady = false;
+    if (isFlyMode) exitFlyMode();
+    lazyAbort.abort();
+    ctx.controls.dispose();
+    renderScheduler.dispose();
+    if (labelScanTimer !== null) clearTimeout(labelScanTimer);
+    labelScanTimer = null;
+    document.removeEventListener("visibilitychange", onVisibilityChange);
+    ctx.controls.removeEventListener("change", requestRender);
+    ro.disconnect();
+    interaction.dispose();
+    clearOldPathState();
+    clearNeighborLabels();
+    for (const child of labelGroup.children.slice()) removeLabel(child as THREE.Sprite);
+    overlayHalo?.dispose();
+    overlayCore?.dispose();
+    sharedHaloGeom.dispose();
+    sharedCoreGeom.dispose();
+    overlayHaloMat.dispose();
+    overlayCoreMat.dispose();
+    for (const id of ["graph-control-panel", "neighbor-panel", "fly-control-panel"]) {
+      destroyPanel(id);
+      document.getElementById(id)?.remove();
+    }
+    tooltip.el.remove();
+    document.getElementById("fly-crosshair")?.remove();
+    disposeRenderer(ctx);
+    ctx.renderer.domElement.remove();
+    fpsDisplay.remove();
+    if (window.__graphApi === api) delete window.__graphApi;
+    if (disposeActiveGraph === disposeGraph) disposeActiveGraph = null;
+  }
+  disposeActiveGraph = disposeGraph;
 
   const api = {
     find,
@@ -1967,16 +2083,47 @@ export async function init3d(graphData: GraphData) {
     clearPath,
     getPathInfo,
     getGraphData,
-    loadBezierLazy, // 对外暴露，供 index-client 在需要时提前触发
+    loadBezierLazy, // 可选显式加载；常规悬停、聚焦和背景线显示均使用运行时采样
     ctx,
+    dispose: disposeGraph,
+    getPerformanceStats() {
+      let sceneObjects = 0;
+      ctx.scene.traverse(() => sceneObjects++);
+      return {
+        ...perfStats,
+        searchIndexReady,
+        searchIndexLoading: searchIndexPromise !== null && !searchIndexReady,
+        bezierLoaded: _bezierLoaded,
+        bezierLoading: _bezierLoading,
+        sceneObjects,
+        pendingFrame: renderScheduler.pending,
+        pendingLabelTask: labelScanTimer !== null,
+        pointerLocked: document.pointerLockElement === ctx.renderer.domElement,
+        pointerLockError,
+        quality,
+        pixelRatio: ctx.renderer.getPixelRatio(),
+        drawCalls: ctx.renderer.info.render.drawCalls,
+        triangles: ctx.renderer.info.render.triangles,
+        lines: ctx.renderer.info.render.lines,
+        renderCpuMs,
+        // Three.js accounting, not a measurement of total device VRAM.
+        rendererTrackedBytes: ctx.renderer.info.memory.total,
+        backgroundBytes:
+          (ctx.linkLines.geometry.getAttribute("position")?.array.byteLength || 0) +
+          (ctx.linkLines.geometry.getAttribute("color")?.array.byteLength || 0) +
+          (ctx.linkLines.geometry.index?.array.byteLength || 0),
+        overlayInstances: overlayGroup.visible ? overlayHalo?.count || 0 : 0,
+        labels: labelGroup.children.length,
+        neighborLabels: neighborLabelGroup.children.length,
+      };
+    },
     updateLinkOpacity(v: number) {
       linkOpacity.value = v;
       saveVal("link_opacity", v);
       refreshLinkColors();
     },
   };
-  (window as any).__graphApi = (window as any).__graphApi || {};
-  Object.assign((window as any).__graphApi, api); // merge，不用 Object.assign 合并
+  (window as any).__graphApi = api;
   return api;
 }
 
@@ -1993,85 +2140,8 @@ export function applyBezierData(
   maxOverlayEdges: number,
   linkOpacity: number,
 ) {
-  const pos = ctx.linkLines.geometry.attributes.position.array as Float32Array;
-  const { lseg, lpx, lpy, lpz: _lpz } = bezier;
-
-  // 从紧凑格式解包到固定尺寸的 GPU buffer（MAX_EDGE_SEGMENTS 段/边）
-  const MAX_VERTS_PER_EDGE = MAX_EDGE_SEGMENTS * 2;
-  let srcVert = 0;
-  for (let i = 0; i < linkArr.length; i++) {
-    const segs = lseg[i] || 6;
-    const srcVerts = segs * 2;
-    const dstBaseVert = i * MAX_VERTS_PER_EDGE;
-    const copyVerts = Math.min(MAX_VERTS_PER_EDGE, srcVerts);
-
-    for (let j = 0; j < copyVerts; j++) {
-      const srcIdx = srcVert + j;
-      pos[(dstBaseVert + j) * 3] = lpx[srcIdx] ?? 0;
-      pos[(dstBaseVert + j) * 3 + 1] = lpy[srcIdx] ?? 0;
-      pos[(dstBaseVert + j) * 3 + 2] = _lpz[srcIdx] ?? 0;
-    }
-    if (copyVerts < MAX_VERTS_PER_EDGE) {
-      const li = srcVert + copyVerts - 1;
-      const lx = lpx[li] ?? 0,
-        ly = lpy[li] ?? 0,
-        lz = _lpz[li] ?? 0;
-      for (let j = copyVerts; j < MAX_VERTS_PER_EDGE; j++) {
-        pos[(dstBaseVert + j) * 3] = lx;
-        pos[(dstBaseVert + j) * 3 + 1] = ly;
-        pos[(dstBaseVert + j) * 3 + 2] = lz;
-      }
-    }
-    srcVert += srcVerts;
-  }
-
-  // 设置边颜色（源→目标渐变）
-  const colArr = ctx.linkLines.geometry.attributes.color.array as Float32Array;
-  for (let i = 0; i < linkArr.length; i++) {
-    const l = linkArr[i];
-    const si = nodeIdToIndex.get(l.source);
-    const ti = nodeIdToIndex.get(l.target);
-    const srcCol = new THREE.Color(si != null ? (nodes[si] as any)._cDefault || "#ffffff" : "#ffffff");
-    const tgtCol = new THREE.Color(ti != null ? (nodes[ti] as any)._cDefault || "#ffffff" : "#ffffff");
-    for (let j = 0; j < MAX_EDGE_SEGMENTS; j++) {
-      const t0 = j / MAX_EDGE_SEGMENTS;
-      const t1 = (j + 1) / MAX_EDGE_SEGMENTS;
-      const base = (i * MAX_EDGE_SEGMENTS + j) * 6;
-      colArr[base] = srcCol.r + (tgtCol.r - srcCol.r) * t0;
-      colArr[base + 1] = srcCol.g + (tgtCol.g - srcCol.g) * t0;
-      colArr[base + 2] = srcCol.b + (tgtCol.b - srcCol.b) * t0;
-      colArr[base + 3] = srcCol.r + (tgtCol.r - srcCol.r) * t1;
-      colArr[base + 4] = srcCol.g + (tgtCol.g - srcCol.g) * t1;
-      colArr[base + 5] = srcCol.b + (tgtCol.b - srcCol.b) * t1;
-    }
-  }
-
-  ctx.linkLines.geometry.attributes.color.needsUpdate = true;
-  ctx.linkLines.geometry.attributes.position.needsUpdate = true;
-  ctx.linkLines.geometry.setDrawRange(0, maxOverlayEdges * MAX_EDGE_SEGMENTS * 2);
-  (ctx.linkLines.material as THREE.LineBasicMaterial).opacity = linkOpacity;
-
-  // 填充 edgeRefs
-  ctx.edgeRefs = linkArr.map((l) => {
-    const si = nodeIdToIndex.get(l.source);
-    const ti = nodeIdToIndex.get(l.target);
-    const sn = si != null ? nodes[si] : null;
-    const tn = ti != null ? nodes[ti] : null;
-    return {
-      sx: sn?.x ?? 0,
-      sy: sn?.y ?? 0,
-      sz: sn?.z ?? 0,
-      ex: tn?.x ?? 0,
-      ey: tn?.y ?? 0,
-      ez: tn?.z ?? 0,
-      cx: 0,
-      cy: 0,
-      cz: 0,
-    };
-  });
-
-  // 缓存 lseg 供 overlay 使用
-  _cachedLseg = lseg;
+  void maxOverlayEdges;
+  updateLinkPositions(ctx, linkArr, nodeIdToIndex, nodes, linkOpacity, bezier);
 }
 
 /** Int16 → Float32 反量化 */
@@ -2157,6 +2227,7 @@ export async function init3dFromUrl(coreUrl: string, signal?: AbortSignal, bezie
 
   // zstd 延迟初始化：仅在检测到 magic bytes 时动态加载 WASM
   const coreRaw = await maybeDecompress(new Uint8Array(coreBuf));
+  signal?.throwIfAborted();
   const core = decode(coreRaw) as any;
   const data = core.nid ? expandCompact(core) : (core as GraphData);
 
@@ -2166,15 +2237,12 @@ export async function init3dFromUrl(coreUrl: string, signal?: AbortSignal, bezie
       const bezierRaw = await maybeDecompress(new Uint8Array(bezierBuf));
       const bezier = decode(bezierRaw) as any;
       if (bezier.lpx) {
-        // msgpackr 将 Int16Array 解码为 Uint8Array（原始字节），
-        // 需通过 buffer 重解释为 Int16Array，而非逐元素拷贝
-        const asI16 = (arr: any) =>
-          arr instanceof Int16Array ? arr : new Int16Array(arr.buffer, arr.byteOffset, arr.byteLength / 2);
+        // Binary payloads may begin at an odd byte offset in the MessagePack frame.
         (data as any).bezier = {
           lseg: bezier.lseg,
-          lpx: dequantize(asI16(bezier.lpx), bezier.lpx_min, bezier.lpx_max),
-          lpy: dequantize(asI16(bezier.lpy), bezier.lpy_min, bezier.lpy_max),
-          lpz: dequantize(asI16(bezier.lpz), bezier.lpz_min, bezier.lpz_max),
+          lpx: dequantize(asInt16(bezier.lpx), bezier.lpx_min, bezier.lpx_max),
+          lpy: dequantize(asInt16(bezier.lpy), bezier.lpy_min, bezier.lpy_max),
+          lpz: dequantize(asInt16(bezier.lpz), bezier.lpz_min, bezier.lpz_max),
         };
       }
     } catch {
@@ -2182,5 +2250,6 @@ export async function init3dFromUrl(coreUrl: string, signal?: AbortSignal, bezie
     }
   }
 
-  return init3d(data);
+  signal?.throwIfAborted();
+  return init3d(data, signal);
 }

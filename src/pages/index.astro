@@ -81,7 +81,7 @@ export const prerender = true;
           <span id="loading-text">正在探索博客宇宙...</span>
           <span id="loading-time" class="loading-time"></span>
         </div>
-        <progress max="100" class="progress progress-primary w-full" id="loading-bar" value="0" label="加载进度"></progress>
+        <progress max="100" class="progress progress-primary w-full" id="loading-bar" value="0" aria-label="加载进度"></progress>
       </div>
     </div>
 
@@ -170,7 +170,7 @@ friends:
 
     </section>
     <!-- 路径查找窗口内容 -->
-    <div id="path-bar" class="path-bar">
+    <div id="path-bar" class="path-bar" style="display:none">
       <div class="path-bar-row">
         <span class="path-bar-icon">🔗</span>
         <div class="path-search-wrap">
@@ -205,11 +205,14 @@ friends:
       import "../scripts/index-client.ts";
     </script>
     <script>
-            import { registerPanel, showPanel, hidePanel, togglePanel, isPanelOpen } from "../scripts/ui/windows";
+            import { showPanel, hidePanel, togglePanel, isPanelOpen } from "../scripts/ui/windows";
+      import { createDebouncedSearch, type DebouncedSearch } from "../scripts/ui/debounced-search";
+      type SearchResult = { id: string; name: string; url?: string };
+      type StatsData = import("../../types/stats").StatsData;
       (async function () {
 
-        ["stats-dialog", "about-dialog", "path-bar"].forEach(id => registerPanel(document.getElementById(id)));
-        document.getElementById("about-toggle").addEventListener("click", e => togglePanel("about-dialog", e.currentTarget));
+        const aboutToggle = document.getElementById("about-toggle");
+        aboutToggle?.addEventListener("click", () => togglePanel("about-dialog", aboutToggle));
 
         // ── 统计弹窗：点击触发时加载数据 ──
         const statsContent = document.getElementById("stats-content");
@@ -217,30 +220,38 @@ friends:
         if (statsContent) {
           const statsTrigger = document.getElementById("stats-toggle");
           if (statsTrigger) {
-            const loadStats = async () => {
-              statsContent.innerHTML = '<span class="loading loading-spinner" aria-label="加载统计"></span><p>加载统计信息…</p>';
-              try {
-                const response = await fetch("/stats.json");
-                if (!response.ok) throw new Error("统计加载失败");
-                const data = await response.json();
-                statsContent.innerHTML = renderStatsCards(data);
-                statsContent.querySelectorAll(".rounded-lg.border").forEach(block => {
-                  const card = document.createElement("div");
-                  card.className = "card bg-base-200 p-4";
-                  const body = document.createElement("div");
-                  body.append(...block.childNodes);
-                  card.append(body);
-                  block.replaceWith(card);
-                  card.querySelectorAll("span.font-bold").forEach(value => {
-                    const badge = document.createElement("span");
-                    badge.className = "badge badge-primary"; badge.textContent = value.textContent;
-                    value.replaceWith(badge);
+            let statsLoaded = false;
+            let statsPending: Promise<void> | null = null;
+            const loadStats = () => {
+              if (statsLoaded) return Promise.resolve();
+              if (statsPending) return statsPending;
+              statsPending = (async () => {
+                statsContent.innerHTML = '<span class="loading loading-spinner" aria-label="加载统计"></span><p>加载统计信息…</p>';
+                try {
+                  const response = await fetch("/stats.json");
+                  if (!response.ok) throw new Error("统计加载失败");
+                  const data = await response.json();
+                  statsContent.innerHTML = renderStatsCards(data);
+                  statsContent.querySelectorAll(".rounded-lg.border").forEach(block => {
+                    const card = document.createElement("div");
+                    card.className = "card bg-base-200 p-4";
+                    const body = document.createElement("div");
+                    body.append(...block.childNodes);
+                    card.append(body);
+                    block.replaceWith(card);
+                    card.querySelectorAll("span.font-bold").forEach(value => {
+                      const badge = document.createElement("span");
+                      badge.className = "badge badge-primary"; badge.textContent = value.textContent;
+                      value.replaceWith(badge);
+                    });
                   });
-                });
-              } catch {
-                statsContent.innerHTML = '<p role="alert">统计信息加载失败</p><button id="stats-retry" class="btn btn-sm">重试</button>';
-                document.getElementById("stats-retry").addEventListener("click", loadStats);
-              }
+                  statsLoaded = true;
+                } catch {
+                  statsContent.innerHTML = '<p role="alert">统计信息加载失败</p><button id="stats-retry" class="btn btn-sm">重试</button>';
+                  document.getElementById("stats-retry")?.addEventListener("click", loadStats);
+                }
+              })().finally(() => { statsPending = null; });
+              return statsPending;
             };
             statsTrigger.addEventListener("click", () => {
               togglePanel("stats-dialog", statsTrigger);
@@ -249,8 +260,8 @@ friends:
           }
         }
 
-		function renderStatsCards(data) {
-          const safe = value => String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;", "'":"&#39;"}[c]));
+		function renderStatsCards(data: StatsData) {
+          const safe = (value: unknown) => String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;", "'":"&#39;"}[c] ?? c));
 		          const sd = data.sixDegrees;
 		          const dist = sd?.edgeDistanceDistribution || {};
 		          const distEntries = Object.entries(dist).filter(([d]) => Number(d) <= 20).sort(([a],[b])=>Number(a)-Number(b));
@@ -420,7 +431,8 @@ friends:
 	        // 全屏模式切换
 	        const fsBtn = document.getElementById("fullscreen-toggle");
 	        if (fsBtn) {
-	          let fsEscTimes = 0, fsEscTimer = null;
+	          let fsEscTimes = 0;
+            let fsEscTimer: ReturnType<typeof setTimeout> | null = null;
 	          fsBtn.addEventListener("click", () => {
 	            if (!document.fullscreenElement) {
 	              document.documentElement.requestFullscreen().catch(() => {});
@@ -452,33 +464,36 @@ friends:
 	        // ── 路径查找底部栏 ──────────────────────────────────────────
         const pathBar = document.getElementById("path-bar");
         const pathToggleBtn = document.getElementById("path-toggle");
-        const pathFromInput = document.getElementById("path-search-from");
-        const pathToInput = document.getElementById("path-search-to");
+        const pathFromInput = document.querySelector<HTMLInputElement>("#path-search-from");
+        const pathToInput = document.querySelector<HTMLInputElement>("#path-search-to");
         const pathFromResults = document.getElementById("path-results-from");
         const pathToResults = document.getElementById("path-results-to");
         const pathStepIndicator = document.getElementById("path-step-indicator");
-        const pathPrevBtn = document.getElementById("path-prev-btn");
-        const pathNextBtn = document.getElementById("path-next-btn");
+        const pathPrevBtn = document.querySelector<HTMLButtonElement>("#path-prev-btn");
+        const pathNextBtn = document.querySelector<HTMLButtonElement>("#path-next-btn");
         const pathClearBtn = document.getElementById("path-clear-btn");
         const pathBarClose = document.getElementById("path-bar-close");
         const pathError = document.getElementById("path-error");
 
-        let selectedFrom = null; // { id, name, url }
-        let selectedTo = null;
+        const pathSearches = new Map<HTMLInputElement, DebouncedSearch>();
+        let selectedFrom: SearchResult | null = null; // { id, name, url }
+        let selectedTo: SearchResult | null = null;
 
         const getApi = () => window.__graphApi || {};
 
         const showPathBar = () => {
           if (pathBar) {
-            showPanel("path-bar", pathToggleBtn);
+            showPanel("path-bar", pathToggleBtn ?? undefined);
             if (pathFromInput) pathFromInput.focus();
           }
         };
         const hidePathBar = () => {
           // 仅隐藏底部栏，不清除路径高亮
+          pathSearches.forEach(search => search.cancel());
           hidePanel("path-bar");
         };
         const clearPathSelections = () => {
+          pathSearches.forEach(search => search.clear());
           selectedFrom = null;
           selectedTo = null;
           if (pathFromInput) { pathFromInput.value = ""; }
@@ -508,7 +523,7 @@ friends:
         }
 
         // 搜索结果渲染
-        const renderPathResults = (container, list, onSelect) => {
+        const renderPathResults = (container: HTMLElement, list: SearchResult[], onSelect: (item: SearchResult) => void) => {
           container.innerHTML = "";
           if (!list || !list.length) {
             container.style.display = "none";
@@ -535,39 +550,43 @@ friends:
           container.style.display = "block";
         };
 
-        // 起点搜索
-        if (pathFromInput) {
-          pathFromInput.addEventListener("input", async () => {
-            const v = pathFromInput.value.trim();
-            if (!v) { pathFromResults.style.display = "none"; return; }
+        // Path input shares the same debounce and stale-result protection as the main search.
+        if (pathFromInput && pathFromResults) {
+          const search = createDebouncedSearch<SearchResult>(async (query, signal) => {
             const api = getApi();
-            const list = api.find ? await api.find(v) : [];
-            renderPathResults(pathFromResults, list, (item) => {
-              selectedFrom = item;
-              pathFromInput.value = item.name;
-              checkBothSelected();
-            });
+            return api.find ? await api.find(query, signal) : [];
+          }, (list) => renderPathResults(pathFromResults, list, (item) => {
+            search.cancel();
+            selectedFrom = item;
+            pathFromInput.value = item.name;
+            checkBothSelected();
+          }));
+          pathSearches.set(pathFromInput, search);
+          pathFromInput.addEventListener("input", () => {
+            selectedFrom = null;
+            search.update(pathFromInput.value);
           });
         }
-
-        // 终点搜索
-        if (pathToInput) {
-          pathToInput.addEventListener("input", async () => {
-            const v = pathToInput.value.trim();
-            if (!v) { pathToResults.style.display = "none"; return; }
+        if (pathToInput && pathToResults) {
+          const search = createDebouncedSearch<SearchResult>(async (query, signal) => {
             const api = getApi();
-            const list = api.find ? await api.find(v) : [];
-            renderPathResults(pathToResults, list, (item) => {
-              selectedTo = item;
-              pathToInput.value = item.name;
-              checkBothSelected();
-            });
+            return api.find ? await api.find(query, signal) : [];
+          }, (list) => renderPathResults(pathToResults, list, (item) => {
+            search.cancel();
+            selectedTo = item;
+            pathToInput.value = item.name;
+            checkBothSelected();
+          }));
+          pathSearches.set(pathToInput, search);
+          pathToInput.addEventListener("input", () => {
+            selectedTo = null;
+            search.update(pathToInput.value);
           });
         }
 
         // 两个站点都选定后自动计算路径
         const checkBothSelected = () => {
-          if (!selectedFrom || !selectedTo) return;
+          if (!selectedFrom || !selectedTo || !pathError || !pathStepIndicator || !pathClearBtn) return;
           const api = getApi();
           if (!api.showShortestPath) return;
 
@@ -598,7 +617,7 @@ friends:
         const updatePathUI = () => {
           const api = getApi();
           const info = api.getPathInfo ? api.getPathInfo() : null;
-          if (!info) return;
+          if (!info || !pathStepIndicator || !pathPrevBtn || !pathNextBtn) return;
 
           pathStepIndicator.textContent = `${info.currentStep + 1}/${info.totalSteps} 步`;
           pathPrevBtn.disabled = info.currentStep <= 0;
@@ -634,10 +653,13 @@ friends:
 
         // 点击外部关闭搜索结果
         document.addEventListener("click", (e) => {
+          if (!(e.target instanceof Node)) return;
           if (pathFromInput && pathFromResults && !pathFromInput.contains(e.target) && !pathFromResults.contains(e.target)) {
+            pathSearches.get(pathFromInput)?.cancel();
             pathFromResults.style.display = "none";
           }
           if (pathToInput && pathToResults && !pathToInput.contains(e.target) && !pathToResults.contains(e.target)) {
+            pathSearches.get(pathToInput)?.cancel();
             pathToResults.style.display = "none";
           }
         });

@@ -1,0 +1,76 @@
+{
+  "backend": "WebGPU",
+  "camera": {
+    "position": [-10844.737149174727, 794.7059256812327, -8195.140456230823],
+    "quaternion": [-0.15622985705189124, 0.3771722397422857, 0.06471252563850327, 0.9105743365364628]
+  },
+  "memory": {
+    "attributes": 19,
+    "attributesSize": 2075860,
+    "geometries": 5,
+    "indexAttributes": 4,
+    "indexAttributesSize": 336,
+    "indirectStorageAttributes": 0,
+    "indirectStorageAttributesSize": 0,
+    "programs": 8,
+    "programsSize": 12886,
+    "readbackBuffers": 0,
+    "readbackBuffersSize": 0,
+    "renderTargets": 1,
+    "storageAttributes": 0,
+    "storageAttributesSize": 0,
+    "textures": 12,
+    "texturesSize": 21517822,
+    "total": 23609096,
+    "uniformBuffers": 16,
+    "uniformBuffersSize": 2192
+  },
+  "render": {
+    "calls": 148,
+    "drawCalls": 9,
+    "frameCalls": 2,
+    "lines": 0,
+    "points": 0,
+    "timestamp": 0,
+    "triangles": 149403
+  },
+  "samples": [
+    25.100000001490116, 17.399999998509884, 19.200000002980232, 16.5, 22.099999994039536, 15.300000004470348, 16,
+    19.19999999552965, 14.700000002980232, 21.100000001490116, 14.400000005960464, 15.099999994039536,
+    24.100000001490116, 14.100000001490116, 19.5, 17.700000002980232, 23.19999999552965, 14.300000004470348,
+    16.700000002980232, 19.700000002980232
+  ],
+  "stats": {
+    "backgroundBytes": 0,
+    "bezierLoaded": false,
+    "bezierLoading": false,
+    "drawCalls": 9,
+    "frames": 26,
+    "labelCandidatesVisited": 2,
+    "labelCreates": 0,
+    "labelScans": 2,
+    "labels": 0,
+    "lines": 0,
+    "neighborLabels": 41,
+    "overlayBuilds": 1,
+    "overlayInstances": 2136,
+    "pendingFrame": false,
+    "pendingLabelTask": false,
+    "pixelRatio": 1,
+    "pointerLockError": null,
+    "pointerLocked": false,
+    "quality": "low",
+    "renderCpuMs": 0.7999999970197678,
+    "rendererTrackedBytes": 23609096,
+    "sceneObjects": 50,
+    "searchIndexLoading": false,
+    "searchIndexReady": false,
+    "triangles": 149403
+  },
+  "submits": [
+    2.399999998509884, 2, 2.299999997019768, 2, 2, 1.7000000029802322, 1.5, 1.7999999970197678, 2, 1.899999998509884,
+    1.8000000044703484, 2.1999999955296516, 2.100000001490116, 1.399999998509884, 1.399999998509884, 1.2000000029802322,
+    1.2999999970197678, 1.899999998509884, 1.4000000059604645, 1.600000001490116
+  ],
+  "viewport": [1920, 906]
+}

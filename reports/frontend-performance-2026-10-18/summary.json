@@ -1,0 +1,90 @@
+{
+  "fixture": {
+    "sites": 8570,
+    "nodes": 49064,
+    "edges": 107527,
+    "viewport": [1920, 906],
+    "DPR": 1
+  },
+  "method": "Each scene: three interleaved rounds, alternate order; 4 warmups +20 measured renders; CPU render followed by awaited WebGPU queue.onSubmittedWorkDone; no RAF cap during this synthetic probe. This is render completion latency, not screen FPS or pure GPU timestamp.",
+  "rounds": {
+    "overview": [
+      {
+        "round": 0,
+        "beforeMs": 7.300000000745058,
+        "afterMs": 3.399999998509884,
+        "reductionPercent": 53.42465755941272,
+        "beforeTriangles": 1766305,
+        "afterTriangles": 98129,
+        "beforeTrackedBytes": 34008639,
+        "afterTrackedBytes": 14904336
+      },
+      {
+        "round": 1,
+        "beforeMs": 7.149999998509884,
+        "afterMs": 3.5,
+        "reductionPercent": 51.048951038749266,
+        "beforeTriangles": 1766305,
+        "afterTriangles": 98129,
+        "beforeTrackedBytes": 34008639,
+        "afterTrackedBytes": 14904336
+      },
+      {
+        "round": 2,
+        "beforeMs": 8.549999997019768,
+        "afterMs": 4.050000000745058,
+        "reductionPercent": 52.631578922143305,
+        "beforeTriangles": 1766305,
+        "afterTriangles": 98129,
+        "beforeTrackedBytes": 34008639,
+        "afterTrackedBytes": 14904336
+      }
+    ],
+    "focus": [
+      {
+        "round": 0,
+        "beforeMs": 6.550000000745058,
+        "afterMs": 4.200000002980232,
+        "reductionPercent": 35.877862557213966,
+        "beforeTriangles": 1868843,
+        "afterTriangles": 149403,
+        "beforeTrackedBytes": 35795359,
+        "afterTrackedBytes": 16651016
+      },
+      {
+        "round": 1,
+        "beforeMs": 9.900000002235174,
+        "afterMs": 4.199999995529652,
+        "reductionPercent": 57.57575763049094,
+        "beforeTriangles": 1868843,
+        "afterTriangles": 149403,
+        "beforeTrackedBytes": 35795359,
+        "afterTrackedBytes": 16651016
+      },
+      {
+        "round": 2,
+        "beforeMs": 11.00000000372529,
+        "afterMs": 5.5,
+        "reductionPercent": 50.00000001693314,
+        "beforeTriangles": 1868843,
+        "afterTriangles": 149403,
+        "beforeTrackedBytes": 35795359,
+        "afterTrackedBytes": 16651016
+      }
+    ]
+  },
+  "finalData": {
+    "current": "/home/xingwangzhe/桌面/前端项目/FriendLinks/dist",
+    "baseline": null,
+    "sites": 8571,
+    "nodes": 49064,
+    "edges": 107528,
+    "bezierVertices": 6328774,
+    "checkedSegments": 3838,
+    "positionDifference": null,
+    "checkedAssetReferences": 33,
+    "timestampFallbackReferences": 2,
+    "statsSha256": "83616231130f3e7776c2d8991ee83bc32d2b8ac7dc93c3efc271a02d0d05f302",
+    "allSha256": "4219e28c3ba44bcad128bb74d2305e7929963a3e60d90cb93c94d879399b153e"
+  }
+}

@@ -1,0 +1,48 @@
+$ bun --bun astro check
+11:38:36 [types] Generated 97ms
+11:38:36 [check] Getting diagnostics for Astro files in /home/xingwangzhe/桌面/前端项目/FriendLinks...
+scripts/experiments/yaml-parse-common.ts:34:17 - warning ts(80006): This may be converted to an async function.
+
+34 export function parseWithWorkers(sources: Source[], count: number): Promise<ParseResult[]> {
+                   ~~~~~~~~~~~~~~~~
+
+src/winbox.d.ts:3:10 - warning ts(80003): Import may be converted to a default import.
+
+3   import WinBox = require("winbox");
+           ~~~~~~
+
+src/scripts/graph3d/index.ts:190:22 - warning ts(80007): 'await' has no effect on the type of this expression.
+
+190     const searchDB = await create({
+                         ~~~~~~~~~~~~~~
+191       schema: {
+    ~~~~~~~~~~~~~~~
+...
+197       components: { tokenizer: spaceTokenizer } as any,
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+198     });
+    ~~~~~~
+
+src/utils/site-collection-cache.test.ts:33:5 - warning ts(80007): 'await' has no effect on the type of this expression.
+
+33     await expect(read()).rejects.toThrow("YAML 校验失败");
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/utils/site-collection.ts:51:4 - warning ts(6385): '(): ZodObject<{ name: ZodString; description: ZodString; url: ZodString; aliases: ZodOptional<ZodArray<ZodString>>; links: ZodOptional<...>; color: ZodOptional<...>; favicon: ZodOptional<...>; friends: ZodArray<...>; }, $loose>' is deprecated.
+
+51   .passthrough();
+      ~~~~~~~~~~~
+src/utils/site-collection.ts:48:10 - warning ts(6385): '(): ZodObject<{ name: ZodString; url: ZodString; favicon: ZodOptional<ZodString>; description: ZodOptional<ZodString>; avatar: ZodOptional<...>; }, $loose>' is deprecated.
+
+48         .passthrough(),
+            ~~~~~~~~~~~
+
+tools/six-degrees.ts:305:3 - warning ts(6133): 'nodeMap' is declared but its value is never read.
+
+305   nodeMap: Map<string, GraphNode>,
+      ~~~~~~~
+
+Result (65 files):
+- 0 errors
+- 0 warnings
+- 7 hints

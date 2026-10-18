@@ -1,0 +1,69 @@
+{
+  "backend": "WebGPU",
+  "camera": {
+    "position": [-145.53084807824575, 5362.604675441572, -5498.117597210905],
+    "quaternion": [-0.2018480854420134, 0.3734384499083858, 0.08360821452912524, 0.9015601704804108]
+  },
+  "memory": {
+    "attributes": 8,
+    "attributesSize": 13150028,
+    "geometries": 2,
+    "indexAttributes": 1,
+    "indexAttributesSize": 432,
+    "indirectStorageAttributes": 0,
+    "indirectStorageAttributesSize": 0,
+    "programs": 4,
+    "programsSize": 6563,
+    "readbackBuffers": 0,
+    "readbackBuffersSize": 0,
+    "renderTargets": 1,
+    "storageAttributes": 0,
+    "storageAttributesSize": 0,
+    "textures": 2,
+    "texturesSize": 20874240,
+    "total": 34031679,
+    "uniformBuffers": 4,
+    "uniformBuffersSize": 416
+  },
+  "render": {
+    "calls": 52,
+    "drawCalls": 2,
+    "frameCalls": 2,
+    "lines": 0,
+    "points": 0,
+    "timestamp": 0,
+    "triangles": 1766305
+  },
+  "samples": [
+    8.300000004470348, 4.699999995529652, 4.899999998509884, 5.4000000059604645, 4.399999998509884, 4.299999997019768,
+    5.5, 5.899999998509884, 4.700000002980232, 4.699999995529652, 4.600000001490116, 5.200000002980232,
+    4.199999995529652, 5.300000004470348, 5.299999997019768, 5, 4.300000004470348, 5, 5.0999999940395355,
+    5.100000001490116
+  ],
+  "stats": {
+    "backgroundBytes": 0,
+    "bezierLoaded": false,
+    "bezierLoading": false,
+    "frames": 2,
+    "labelCreates": 0,
+    "labelScans": 2,
+    "labels": 0,
+    "neighborLabels": 0,
+    "overlayBuilds": 0,
+    "overlayInstances": 0,
+    "pendingFrame": false,
+    "pixelRatio": 1,
+    "quality": "low",
+    "sceneObjects": 6,
+    "searchIndexLoading": false,
+    "searchIndexReady": false
+  },
+  "submits": [
+    0.5, 0.5, 0.30000000447034836, 0.30000000447034836, 0.29999999701976776, 0.29999999701976776, 0.30000000447034836,
+    0.30000000447034836, 0.5, 0.29999999701976776, 0.30000000447034836, 0.3999999985098839, 0.29999999701976776,
+    0.20000000298023224, 0.29999999701976776, 0.10000000149011612, 0.30000000447034836, 0.29999999701976776,
+    0.29999999701976776, 0.30000000447034836
+  ],
+  "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "viewport": [1920, 906]
+}

@@ -5,9 +5,9 @@ on:
     branches:
       - main
     paths-ignore:
-      - '**/*.md'
+      - "**/*.md"
       - LICENSE
-      - '**/*.gitignore'
+      - "**/*.gitignore"
       - .editorconfig
       - docs/**
   pull_request:
@@ -29,7 +29,15 @@ jobs:
           bun-version: latest
 
       - name: Install dependencies
-        run: bun install
+        run: bun install --frozen-lockfile
+
+      - name: Restore verified build artifacts
+        uses: actions/cache@v6.1.0
+        with:
+          path: node_modules/.cache/friendlinks-build
+          key: friendlinks-build-${{ runner.os }}-${{ github.sha }}
+          restore-keys: |
+            friendlinks-build-${{ runner.os }}-
 
       - name: Build
         run: bun run build

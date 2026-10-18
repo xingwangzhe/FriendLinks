@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-18",
+  "runtime": "1.4.3",
+  "note": "Preliminary compression microbenchmark; simultaneous Rust compilation may affect CPU timings. Input bytes are exact native-decoded baseline build artifacts; output round trips checked with browser WASM decoder.",
+  "results": [
+    {
+      "kind": "core",
+      "variant": "wasm10",
+      "rawBytes": 8351167,
+      "rawSha256": "4c2208febfbbc49a15ebda8d48c603d58aa6d8366ba2fe64d4158a7ea9ceceba",
+      "baselineBytes": 3003905,
+      "outputBytes": 3003905,
+      "bytesVsBaselinePercent": 0,
+      "timesMs": [1156.051704, 1433.1301950000002, 1156.4439309999998],
+      "medianMs": 1156.4439309999998,
+      "wasmRoundTripExact": true
+    },
+    {
+      "kind": "core",
+      "variant": "native10",
+      "rawBytes": 8351167,
+      "rawSha256": "4c2208febfbbc49a15ebda8d48c603d58aa6d8366ba2fe64d4158a7ea9ceceba",
+      "baselineBytes": 3003905,
+      "outputBytes": 3003905,
+      "bytesVsBaselinePercent": 0,
+      "timesMs": [482.95516900000075, 451.94527800000014, 452.66338499999983],
+      "medianMs": 452.66338499999983,
+      "wasmRoundTripExact": true
+    },
+    {
+      "kind": "core",
+      "variant": "native6",
+      "rawBytes": 8351167,
+      "rawSha256": "4c2208febfbbc49a15ebda8d48c603d58aa6d8366ba2fe64d4158a7ea9ceceba",
+      "baselineBytes": 3003905,
+      "outputBytes": 3256841,
+      "bytesVsBaselinePercent": 8.420239654716111,
+      "timesMs": [307.9509390000003, 284.6761630000001, 310.84882000000016],
+      "medianMs": 307.9509390000003,
+      "wasmRoundTripExact": true
+    },
+    {
+      "kind": "core",
+      "variant": "native3",
+      "rawBytes": 8351167,
+      "rawSha256": "4c2208febfbbc49a15ebda8d48c603d58aa6d8366ba2fe64d4158a7ea9ceceba",
+      "baselineBytes": 3003905,
+      "outputBytes": 3381588,
+      "bytesVsBaselinePercent": 12.573067390613218,
+      "timesMs": [121.22346099999959, 167.8548690000007, 112.99167200000011],
+      "medianMs": 121.22346099999959,
+      "wasmRoundTripExact": true
+    },
+    {
+      "kind": "bezier",
+      "variant": "wasm10",
+      "rawBytes": 114002417,
+      "rawSha256": "9d2852f8ee1812926558f1ebc9ae32f20233eb13be181c8d82c2f8e06a6f2c71",
+      "baselineBytes": 8172190,
+      "outputBytes": 8172190,
+      "bytesVsBaselinePercent": 0,
+      "timesMs": [7535.016831, 6648.568595000001, 5882.100865],
+      "medianMs": 6648.568595000001,
+      "wasmRoundTripExact": true
+    },
+    {
+      "kind": "bezier",
+      "variant": "native10",
+      "rawBytes": 114002417,
+      "rawSha256": "9d2852f8ee1812926558f1ebc9ae32f20233eb13be181c8d82c2f8e06a6f2c71",
+      "baselineBytes": 8172190,
+      "outputBytes": 8172190,
+      "bytesVsBaselinePercent": 0,
+      "timesMs": [2339.1685380000017, 2605.701117999997, 2610.084029000005],
+      "medianMs": 2605.701117999997,
+      "wasmRoundTripExact": true
+    },
+    {
+      "kind": "bezier",
+      "variant": "native6",
+      "rawBytes": 114002417,
+      "rawSha256": "9d2852f8ee1812926558f1ebc9ae32f20233eb13be181c8d82c2f8e06a6f2c71",
+      "baselineBytes": 8172190,
+      "outputBytes": 10434863,
+      "bytesVsBaselinePercent": 27.6874742266149,
+      "timesMs": [1027.441101000004, 970.5079120000009, 922.4214499999944],
+      "medianMs": 970.5079120000009,
+      "wasmRoundTripExact": true
+    },
+    {
+      "kind": "bezier",
+      "variant": "native3",
+      "rawBytes": 114002417,
+      "rawSha256": "9d2852f8ee1812926558f1ebc9ae32f20233eb13be181c8d82c2f8e06a6f2c71",
+      "baselineBytes": 8172190,
+      "outputBytes": 13543421,
+      "bytesVsBaselinePercent": 65.72572345968462,
+      "timesMs": [517.696474000004, 496.42516699999396, 490.3593529999998],
+      "medianMs": 496.42516699999396,
+      "wasmRoundTripExact": true
+    }
+  ]
+}

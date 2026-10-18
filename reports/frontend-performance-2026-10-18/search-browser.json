@@ -1,0 +1,177 @@
+{
+  "baseline": {
+    "after": {
+      "backgroundBytes": 0,
+      "bezierLoaded": false,
+      "bezierLoading": false,
+      "frames": 2,
+      "labelCreates": 0,
+      "labelScans": 2,
+      "labels": 0,
+      "neighborLabels": 0,
+      "overlayBuilds": 0,
+      "overlayInstances": 0,
+      "pendingFrame": false,
+      "pixelRatio": 1,
+      "quality": "low",
+      "sceneObjects": 6,
+      "searchIndexLoading": false,
+      "searchIndexReady": true
+    },
+    "before": {
+      "backgroundBytes": 0,
+      "bezierLoaded": false,
+      "bezierLoading": false,
+      "frames": 2,
+      "labelCreates": 0,
+      "labelScans": 2,
+      "labels": 0,
+      "neighborLabels": 0,
+      "overlayBuilds": 0,
+      "overlayInstances": 0,
+      "pendingFrame": false,
+      "pixelRatio": 1,
+      "quality": "low",
+      "sceneObjects": 6,
+      "searchIndexLoading": false,
+      "searchIndexReady": false
+    },
+    "empty": [],
+    "emptyStats": {
+      "backgroundBytes": 0,
+      "bezierLoaded": false,
+      "bezierLoading": false,
+      "frames": 2,
+      "labelCreates": 0,
+      "labelScans": 2,
+      "labels": 0,
+      "neighborLabels": 0,
+      "overlayBuilds": 0,
+      "overlayInstances": 0,
+      "pendingFrame": false,
+      "pixelRatio": 1,
+      "quality": "low",
+      "sceneObjects": 6,
+      "searchIndexLoading": false,
+      "searchIndexReady": false
+    },
+    "firstConcurrentMs": 4059.400000005961,
+    "results": [
+      [
+        {
+          "id": "https://xingwangzhe.fun/",
+          "name": "姓王者的博客",
+          "url": "https://xingwangzhe.fun/"
+        }
+      ],
+      [
+        {
+          "id": "links.needhelp.icu",
+          "name": "博客宇宙",
+          "url": "https://links.needhelp.icu/"
+        }
+      ]
+    ]
+  },
+  "optimized": {
+    "after": {
+      "backgroundBytes": 0,
+      "bezierLoaded": false,
+      "bezierLoading": false,
+      "drawCalls": 2,
+      "frames": 2,
+      "labelCandidatesVisited": 2,
+      "labelCreates": 0,
+      "labelScans": 2,
+      "labels": 0,
+      "lines": 0,
+      "neighborLabels": 0,
+      "overlayBuilds": 0,
+      "overlayInstances": 0,
+      "pendingFrame": false,
+      "pendingLabelTask": false,
+      "pixelRatio": 1,
+      "pointerLockError": null,
+      "pointerLocked": false,
+      "quality": "low",
+      "renderCpuMs": 4.600000001490116,
+      "rendererTrackedBytes": 14904336,
+      "sceneObjects": 7,
+      "searchIndexLoading": false,
+      "searchIndexReady": true,
+      "triangles": 98129
+    },
+    "before": {
+      "backgroundBytes": 0,
+      "bezierLoaded": false,
+      "bezierLoading": false,
+      "drawCalls": 2,
+      "frames": 2,
+      "labelCandidatesVisited": 2,
+      "labelCreates": 0,
+      "labelScans": 2,
+      "labels": 0,
+      "lines": 0,
+      "neighborLabels": 0,
+      "overlayBuilds": 0,
+      "overlayInstances": 0,
+      "pendingFrame": false,
+      "pendingLabelTask": false,
+      "pixelRatio": 1,
+      "pointerLockError": null,
+      "pointerLocked": false,
+      "quality": "low",
+      "renderCpuMs": 4.600000001490116,
+      "rendererTrackedBytes": 14904336,
+      "sceneObjects": 7,
+      "searchIndexLoading": false,
+      "searchIndexReady": false,
+      "triangles": 98129
+    },
+    "empty": [],
+    "emptyStats": {
+      "backgroundBytes": 0,
+      "bezierLoaded": false,
+      "bezierLoading": false,
+      "drawCalls": 2,
+      "frames": 2,
+      "labelCandidatesVisited": 2,
+      "labelCreates": 0,
+      "labelScans": 2,
+      "labels": 0,
+      "lines": 0,
+      "neighborLabels": 0,
+      "overlayBuilds": 0,
+      "overlayInstances": 0,
+      "pendingFrame": false,
+      "pendingLabelTask": false,
+      "pixelRatio": 1,
+      "pointerLockError": null,
+      "pointerLocked": false,
+      "quality": "low",
+      "renderCpuMs": 4.600000001490116,
+      "rendererTrackedBytes": 14904336,
+      "sceneObjects": 7,
+      "searchIndexLoading": false,
+      "searchIndexReady": false,
+      "triangles": 98129
+    },
+    "firstConcurrentMs": 3770,
+    "results": [
+      [
+        {
+          "id": "https://xingwangzhe.fun/",
+          "name": "姓王者的博客",
+          "url": "https://xingwangzhe.fun/"
+        }
+      ],
+      [
+        {
+          "id": "links.needhelp.icu",
+          "name": "博客宇宙",
+          "url": "https://links.needhelp.icu/"
+        }
+      ]
+    ]
+  }
+}

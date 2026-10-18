@@ -1,0 +1,76 @@
+{
+  "overview": {
+    "canvasSize": [1920, 906],
+    "glError": 0,
+    "isWebGL": true,
+    "memory": {
+      "attributes": 5,
+      "attributesSize": 981396,
+      "geometries": 2,
+      "indexAttributes": 1,
+      "indexAttributesSize": 24,
+      "indirectStorageAttributes": 0,
+      "indirectStorageAttributesSize": 0,
+      "programs": 4,
+      "programsSize": 7054,
+      "readbackBuffers": 0,
+      "readbackBuffersSize": 0,
+      "renderTargets": 1,
+      "storageAttributes": 0,
+      "storageAttributesSize": 0,
+      "textures": 2,
+      "texturesSize": 13916160,
+      "total": 14905082,
+      "uniformBuffers": 4,
+      "uniformBuffersSize": 448
+    },
+    "render": {
+      "calls": 2,
+      "drawCalls": 2,
+      "frameCalls": 2,
+      "lines": 0,
+      "points": 0,
+      "timestamp": 0,
+      "triangles": 98129
+    }
+  },
+  "focusedBackground": {
+    "backgroundBytes": 77650264,
+    "camera": [-10844.737149174727, 794.7059256812327, -8195.140456230823],
+    "driver": "ANGLE (Intel, Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2), OpenGL ES 3.2)",
+    "glError": 0,
+    "isWebGL": true,
+    "memory": {
+      "attributes": 21,
+      "attributesSize": 54416180,
+      "geometries": 6,
+      "indexAttributes": 5,
+      "indexAttributesSize": 25310280,
+      "indirectStorageAttributes": 0,
+      "indirectStorageAttributesSize": 0,
+      "programs": 10,
+      "programsSize": 16374,
+      "readbackBuffers": 0,
+      "readbackBuffersSize": 0,
+      "renderTargets": 1,
+      "storageAttributes": 0,
+      "storageAttributesSize": 0,
+      "textures": 7,
+      "texturesSize": 14299072,
+      "total": 94043394,
+      "uniformBuffers": 12,
+      "uniformBuffersSize": 1488
+    },
+    "neighborLabels": 41,
+    "render": {
+      "calls": 4,
+      "drawCalls": 10,
+      "frameCalls": 2,
+      "lines": 3163743,
+      "points": 0,
+      "timestamp": 0,
+      "triangles": 149403
+    }
+  },
+  "method": "Official WebGPURenderer forceWebGL:true, separate renderer sharing current full scene; normal default WebGPU not disabled"
+}

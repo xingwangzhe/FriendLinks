@@ -5,10 +5,17 @@
 import type { Site } from "../../types/site";
 import type { GraphNode, GraphLink, GraphCategory } from "../../types/graph";
 import { printProgress, printDone } from "./progress";
-import { createSimulation } from "@xingwangzhe/force-rs";
+import { createSimulation, type SimulationResult } from "@xingwangzhe/force-rs";
 import { isFastMode } from "./sample";
-import { bezier2, calcControlOffset, calcSegmentCount } from "./bezier";
+import { buildBezierPositions, quantize } from "./build-bezier";
 import { buildTopology } from "./graph-topology";
+import {
+  artifactKey,
+  buildArtifacts,
+  buildCacheEnabled,
+  contentHash,
+  implementationFingerprint,
+} from "./build-artifact-cache";
 
 function isValidUrl(u: unknown): u is string {
   if (typeof u !== "string") return false;
@@ -27,8 +34,6 @@ const resolveFavicon = (fav: string | undefined) => {
 };
 
 export interface BuildResult {
-  nodes: GraphNode[];
-  linksArr: GraphLink[];
   categories: GraphCategory[];
   nid: string[];
   nnm: string[];
@@ -66,6 +71,30 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
     console.log(`  [timing]  ${label}: ${((performance.now() - _funcStart) / 1000).toFixed(1)}s`);
 
   printProgress("❶", `构建图数据 (${sites.length} 个站点)…`, 0);
+  const useCache = buildCacheEnabled();
+  const implementation = useCache
+    ? await implementationFingerprint(
+        [
+          "src/utils/build-graph.ts",
+          "src/utils/build-bezier.ts",
+          "src/utils/bezier.ts",
+          "src/utils/graph-topology.ts",
+          "src/utils/site-identity.ts",
+          "src/utils/sample.ts",
+          "src/utils/build-artifact-cache.ts",
+        ],
+        ["@xingwangzhe/force-rs"],
+      )
+    : null;
+  const cacheKey = implementation ? artifactKey({ sites, implementation }) : null;
+  if (cacheKey) {
+    const cached = await buildArtifacts.read<BuildResult>("graph", cacheKey);
+    if (cached) {
+      console.log(`[cache] graph hit: ${cached.nid.length} nodes, ${cached.ls.length} edges (verified artifact)`);
+      return cached;
+    }
+    console.log("[cache] graph miss: refreshing graph data");
+  }
   const topology = buildTopology(sites);
   const categories: GraphCategory[] = [{ name: "site" }, { name: "friend" }];
   const nodes: GraphNode[] = topology.nodes.map((node) => ({ ...node, favicon: resolveFavicon(node.favicon) }));
@@ -119,13 +148,9 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
     algorithm: "fast" as const,
   };
 
-  const simulation = createSimulation(linksFlat, n);
-
   const FAST = isFastMode();
   const TICKS_MAX = FAST ? 100 : 500;
-  const TICK_LOG = FAST ? 5 : 10;
   const TIME_LIMIT_MS = FAST ? 30000 : 14 * 60 * 1000;
-  const TICK_LOG_NEAR_END_MS = 30000;
 
   printDone(`力导仿真就绪 · ${nodes.length} 节点 · θ=${forceOpts.theta}`);
   _log("力导初始化完成");
@@ -133,24 +158,40 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
   const t0 = performance.now();
   console.log(`  [timing]  buildGraph 准备阶段: ${((t0 - _funcStart) / 1000).toFixed(1)}s`);
   const alphaMin = FAST ? 0.03 : 0.001;
-  let actualTicks = 0;
-  let stoppedByTime = false;
-
-  let s: Float64Array<ArrayBufferLike> = state;
-  for (let i = 0; i < TICKS_MAX; i++) {
-    s = simulation.tick(s, forceOpts);
-    actualTicks++;
-    const elapsed = performance.now() - t0;
-    const tickPct = Math.round((i / TICKS_MAX) * 100);
-    if (i % TICK_LOG === 0 || elapsed > TIME_LIMIT_MS - TICK_LOG_NEAR_END_MS) {
-      printProgress("❷", `tick ${i + 1}/${TICKS_MAX}  α=${s[s.length - 1].toFixed(4)}  ${n} 节点`, tickPct);
-    }
-    if (s[s.length - 1] < alphaMin) break;
-    if (elapsed > TIME_LIMIT_MS) {
-      stoppedByTime = true;
-      break;
-    }
+  // Descriptions, titles and icons are not force inputs. Reuse the layout when
+  // metadata changes, while the outer graph cache still refreshes that metadata.
+  const layoutKey = implementation
+    ? artifactKey({
+        implementation,
+        nodeIds: nodes.map((node) => node.id),
+        links: contentHash(new Uint8Array(linksFlat.buffer, linksFlat.byteOffset, linksFlat.byteLength)),
+        initial: contentHash(new Uint8Array(state.buffer)),
+        forceOpts,
+        maxTicks: TICKS_MAX,
+        alphaMin,
+      })
+    : null;
+  let layout = layoutKey ? await buildArtifacts.read<SimulationResult>("layout", layoutKey) : null;
+  if (
+    layout &&
+    (!(layout.state instanceof Float64Array) ||
+      layout.state.length !== state.length ||
+      !layout.state.every(Number.isFinite) ||
+      layout.stoppedByTime ||
+      !Number.isInteger(layout.ticks) ||
+      layout.ticks < 0 ||
+      layout.ticks > TICKS_MAX)
+  )
+    layout = null;
+  if (layout)
+    console.log(`[cache] layout hit: ${n} node positions, ${layout.ticks} ticks (topology and force inputs verified)`);
+  else {
+    if (layoutKey) console.log("[cache] layout miss: running complete force layout");
+    // Rust owns both state buffers, avoiding a ~2.4MB N-API result per tick.
+    layout = createSimulation(linksFlat, n).run(state, forceOpts, TICKS_MAX, alphaMin, TIME_LIMIT_MS);
+    if (layoutKey && !layout.stoppedByTime) await buildArtifacts.write("layout", layoutKey, layout);
   }
+  const { state: s, ticks: actualTicks, stoppedByTime } = layout;
   const totalSec = ((performance.now() - t0) / 1000).toFixed(1);
   printDone(`力导仿真完成 · ${actualTicks} tick · ${totalSec}s${stoppedByTime ? " (时间上限)" : ""}`);
 
@@ -198,96 +239,6 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
     }
   }
 
-  // ── 预计算贝塞尔曲线 ──
-  function buildBezierPositions(
-    nCount: number,
-    srcs: number[],
-    tgts: number[],
-    px: number[],
-    py: number[],
-    pz: number[],
-  ) {
-    const edgeCount = srcs.length;
-    const lseg = new Uint8Array(edgeCount);
-    let totalFloats = 0;
-    for (let i = 0; i < edgeCount; i++) {
-      const si = srcs[i];
-      const ti = tgts[i];
-      if (si >= nCount || ti >= nCount) {
-        lseg[i] = 6;
-        totalFloats += 6 * 2 * 3;
-        continue;
-      }
-      const dx = px[ti] - px[si],
-        dy = py[ti] - py[si],
-        dz = pz[ti] - pz[si];
-      const len = Math.sqrt(dx * dx + dy * dy + dz * dz) || 1;
-      lseg[i] = calcSegmentCount(len);
-      totalFloats += lseg[i] * 2 * 3;
-    }
-
-    const lpx = new Float32Array(totalFloats);
-    const lpy = new Float32Array(totalFloats);
-    const lpz = new Float32Array(totalFloats);
-    let cursor = 0;
-
-    for (let i = 0; i < edgeCount; i++) {
-      const si = srcs[i];
-      const ti = tgts[i];
-      if (si >= nCount || ti >= nCount) {
-        cursor += lseg[i] * 2 * 3;
-        continue;
-      }
-      const sx = px[si],
-        sy = py[si],
-        sz = pz[si];
-      const ex = px[ti],
-        ey = py[ti],
-        ez = pz[ti];
-      const dx = ex - sx,
-        dy = ey - sy,
-        dz = ez - sz;
-      const len = Math.sqrt(dx * dx + dy * dy + dz * dz) || 1;
-      const off = calcControlOffset(dx, dy, dz, len);
-      const bend = len * 0.15;
-      const cx = (sx + ex) / 2 + off.ox * bend;
-      const cy = (sy + ey) / 2 + off.oy * bend;
-      const cz = (sz + ez) / 2 + off.oz * bend;
-
-      const segs = lseg[i];
-      for (let j = 0; j < segs; j++) {
-        const t0 = j / segs;
-        const t1 = (j + 1) / segs;
-        lpx[cursor] = bezier2(sx, cx, ex, t0);
-        lpy[cursor] = bezier2(sy, cy, ey, t0);
-        lpz[cursor] = bezier2(sz, cz, ez, t0);
-        cursor++;
-        lpx[cursor] = bezier2(sx, cx, ex, t1);
-        lpy[cursor] = bezier2(sy, cy, ey, t1);
-        lpz[cursor] = bezier2(sz, cz, ez, t1);
-        cursor++;
-      }
-    }
-
-    return { lseg: Array.from(lseg), lpx, lpy, lpz };
-  }
-
-  /** Float32 → Int16 量化：精度 1/65535 范围，肉眼不可见 */
-  function quantize(arr: Float32Array): { i16: Int16Array; min: number; max: number } {
-    let min = Infinity,
-      max = -Infinity;
-    for (let i = 0; i < arr.length; i++) {
-      if (arr[i] < min) min = arr[i];
-      if (arr[i] > max) max = arr[i];
-    }
-    const range = max - min || 1;
-    const i16 = new Int16Array(arr.length);
-    for (let i = 0; i < arr.length; i++) {
-      i16[i] = Math.round(((arr[i] - min) / range) * 65535 - 32768);
-    }
-    return { i16, min, max };
-  }
-
   const ladj_off = [...topology.csrOffsets];
   const ladj = [...topology.csrAdj];
   const ndeg = nodes.map((_, index) => ladj_off[index + 1] - ladj_off[index]);
@@ -303,9 +254,7 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
   const elapsed = ((performance.now() - startTime) / 1000).toFixed(1);
   printDone(`图数据构建完成 · ${nodes.length} 节点 · ${linksArr.length} 边 · 耗时 ${elapsed}s`);
 
-  return {
-    nodes,
-    linksArr,
+  const result: BuildResult = {
     categories,
     nid,
     nnm,
@@ -332,6 +281,9 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
     lpz_min: qz.min,
     lpz_max: qz.max,
   };
+  // A layout cut short by a wall-time limit must never masquerade as a complete cached layout.
+  if (cacheKey && !stoppedByTime) await buildArtifacts.write("graph", cacheKey, result);
+  return result;
 }
 
 // ── 模块级缓存：避免多个端点重复构建 ──

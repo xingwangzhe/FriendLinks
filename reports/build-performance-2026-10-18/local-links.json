@@ -1,0 +1,27 @@
+{
+  "bun": "1.4.3",
+  "packages": [
+    {
+      "name": "@xingwangzhe/force-rs",
+      "entry": "/home/xingwangzhe/桌面/npm包/force-rs/index.js",
+      "version": "0.2.3",
+      "binaries": [
+        {
+          "file": "force-rs.linux-x64-gnu.node",
+          "sha256": "6a5ad482f164c31866171cf6135f2d31375da71b8b9f65fcbfd3bf8f29d618ca"
+        }
+      ]
+    },
+    {
+      "name": "@xingwangzhe/bfs-rs",
+      "entry": "/home/xingwangzhe/桌面/npm包/bfs-rs/index.js",
+      "version": "0.2.3",
+      "binaries": [
+        {
+          "file": "bfs-rs.linux-x64-gnu.node",
+          "sha256": "b4de06a5acd1fb82bd3812435e9baf2c8e75401969c74a62102d9027ce15d0c8"
+        }
+      ]
+    }
+  ]
+}

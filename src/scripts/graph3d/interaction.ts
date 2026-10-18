@@ -5,6 +5,7 @@
 import * as THREE from "three";
 import type { RenderContext } from "./renderer";
 import type { GraphNode } from "../../../types/graph";
+import { InstancedNodePicker } from "./spatial-index";
 
 export type HoverCallback = (node: GraphNode | null) => void;
 export type ClickCallback = (node: GraphNode) => void;
@@ -16,9 +17,14 @@ export interface InteractionContext {
   onClick: ClickCallback | null;
   onRightClick: ClickCallback | null;
   hoveredIndex: number | null;
+  setFlyMode: (enabled: boolean) => void;
+  dispose: () => void;
 }
 
-export function createInteraction(ctx: RenderContext, nodes: GraphNode[]): InteractionContext {
+export function createInteraction(ctx: RenderContext, nodes: GraphNode[], maxNodeScale = 1.5): InteractionContext {
+  let _isFlyMode = false;
+  let disposed = false;
+  const canvas = ctx.renderer.domElement;
   const ix: InteractionContext = {
     raycaster: new THREE.Raycaster(),
     mouse: new THREE.Vector2(),
@@ -26,17 +32,41 @@ export function createInteraction(ctx: RenderContext, nodes: GraphNode[]): Inter
     onClick: null,
     onRightClick: null,
     hoveredIndex: null,
+    setFlyMode: (enabled) => {
+      _isFlyMode = enabled;
+      hasCachedPick = false;
+    },
+    dispose: () => {
+      if (disposed) return;
+      disposed = true;
+      canvas.removeEventListener("mousemove", handleMouseMove);
+      canvas.removeEventListener("click", handleClick);
+      canvas.removeEventListener("contextmenu", handleContextMenu);
+      canvas.removeEventListener("pointerleave", clearHover);
+      clearHover();
+      picker.dispose();
+    },
   };
 
-  const allInstanced = [ctx.nodes];
+  const picker = new InstancedNodePicker(ctx.nodes, maxNodeScale);
+  const cachedRay = new THREE.Ray();
+  const cachedWorld = new THREE.Matrix4();
+  let hasCachedPick = false;
+  let cachedNear = 0;
+  let cachedFar = 0;
+  let cachedMatrixVersion = -1;
+  let cachedCount = -1;
+  let cachedLayerMask = -1;
+  let cachedRayLayerMask = -1;
+  let cachedNode: GraphNode | null = null;
+  let cachedIndex: number | null = null;
   let lastHoveredId: string | null = null;
-  let lastCheck = 0;
+  let lastCheck = -Infinity;
   const RAY_THROTTLE = 60; // ms
 
-  let _isFlyMode = false;
-
-  function getNodeAtMouse(event: MouseEvent): GraphNode | null {
+  function getNodeAtMouse(event: MouseEvent, reuseHover = false): GraphNode | null {
     const rect = ctx.renderer.domElement.getBoundingClientRect();
+    if (!rect.width || !rect.height) return null;
     // 飞船模式下指针锁定，用屏幕中心代替鼠标坐标
     const mx = _isFlyMode ? rect.width / 2 : event.clientX - rect.left;
     const my = _isFlyMode ? rect.height / 2 : event.clientY - rect.top;
@@ -44,57 +74,82 @@ export function createInteraction(ctx: RenderContext, nodes: GraphNode[]): Inter
     ix.mouse.y = -(my / rect.height) * 2 + 1;
     ix.raycaster.setFromCamera(ix.mouse, ctx.camera);
 
-    let closestDist = Infinity;
-    let closestIndex = -1;
-
-    for (const mesh of allInstanced) {
-      const intersects = ix.raycaster.intersectObject(mesh);
-      for (const hit of intersects) {
-        if (hit.distance < closestDist && hit.instanceId != null) {
-          closestDist = hit.distance;
-          closestIndex = hit.instanceId;
-        }
-      }
+    if (
+      reuseHover &&
+      hasCachedPick &&
+      cachedRay.equals(ix.raycaster.ray) &&
+      cachedWorld.equals(ctx.nodes.matrixWorld) &&
+      cachedNear === ix.raycaster.near &&
+      cachedFar === ix.raycaster.far &&
+      cachedMatrixVersion === ctx.nodes.instanceMatrix.version &&
+      cachedCount === ctx.nodes.count &&
+      cachedLayerMask === ctx.nodes.layers.mask &&
+      cachedRayLayerMask === ix.raycaster.layers.mask
+    ) {
+      ix.hoveredIndex = cachedIndex;
+      return cachedNode;
     }
-
-    if (closestIndex >= 0 && closestIndex < nodes.length) {
-      return nodes[closestIndex];
+    const closestIndex = picker.pick(ix.raycaster);
+    const node = closestIndex !== null && closestIndex < nodes.length ? nodes[closestIndex] : null;
+    if (reuseHover) {
+      cachedRay.copy(ix.raycaster.ray);
+      cachedWorld.copy(ctx.nodes.matrixWorld);
+      cachedNear = ix.raycaster.near;
+      cachedFar = ix.raycaster.far;
+      cachedMatrixVersion = ctx.nodes.instanceMatrix.version;
+      cachedCount = ctx.nodes.count;
+      cachedLayerMask = ctx.nodes.layers.mask;
+      cachedRayLayerMask = ix.raycaster.layers.mask;
+      cachedNode = node;
+      cachedIndex = closestIndex;
+      ix.hoveredIndex = closestIndex;
+      hasCachedPick = true;
     }
-    return null;
+    return node;
   }
 
-  // 供外部切换飞船模式时同步状态
-  (ix as any).setFlyMode = (v: boolean) => {
-    _isFlyMode = v;
-  };
-
   // ── Mouse move → hover (throttled) ──
-  ctx.renderer.domElement.addEventListener("mousemove", (event: MouseEvent) => {
+  function handleMouseMove(event: MouseEvent) {
     const now = performance.now();
     if (now - lastCheck < RAY_THROTTLE) return;
     lastCheck = now;
 
-    const node = getNodeAtMouse(event);
+    const node = getNodeAtMouse(event, true);
     const newId = node ? node.id : null;
 
     if (lastHoveredId !== newId) {
       lastHoveredId = newId;
       ix.onHover?.(node);
     }
-  });
+  }
 
   // ── Click ──
-  ctx.renderer.domElement.addEventListener("click", (event: MouseEvent) => {
+  function handleClick(event: MouseEvent) {
     const node = getNodeAtMouse(event);
     if (node) ix.onClick?.(node);
-  });
+  }
 
   // ── Right-click ──
-  ctx.renderer.domElement.addEventListener("contextmenu", (event: MouseEvent) => {
+  function handleContextMenu(event: MouseEvent) {
     event.preventDefault();
     const node = getNodeAtMouse(event);
     if (node) ix.onRightClick?.(node);
-  });
+  }
+
+  function clearHover() {
+    // Let re-entry pick immediately, even if the last check was under 60 ms ago.
+    lastCheck = -Infinity;
+    hasCachedPick = false;
+    ix.hoveredIndex = null;
+    if (lastHoveredId === null) return;
+    lastHoveredId = null;
+    ix.onHover?.(null);
+  }
+
+  canvas.addEventListener("mousemove", handleMouseMove);
+  canvas.addEventListener("click", handleClick);
+  canvas.addEventListener("contextmenu", handleContextMenu);
+  canvas.addEventListener("pointerleave", clearHover);
 
   return ix;
 }

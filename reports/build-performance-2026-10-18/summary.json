@@ -1,0 +1,107 @@
+{
+  "rows": [
+    {
+      "name": "baseline-full-1",
+      "wallSeconds": 110.97,
+      "maxRssKiB": 2582252,
+      "exitCode": 0
+    },
+    {
+      "name": "metadata-invalidation",
+      "wallSeconds": 15.35,
+      "maxRssKiB": 1333828,
+      "exitCode": 0
+    },
+    {
+      "name": "optimized-cold-1",
+      "wallSeconds": 2.42,
+      "maxRssKiB": 527872,
+      "exitCode": 1
+    },
+    {
+      "name": "optimized-cold-1b",
+      "wallSeconds": 47.09,
+      "maxRssKiB": 1269904,
+      "exitCode": 0
+    },
+    {
+      "name": "optimized-cold-2",
+      "wallSeconds": 50.71,
+      "maxRssKiB": 1409436,
+      "exitCode": 0
+    },
+    {
+      "name": "optimized-refresh-1",
+      "wallSeconds": 44.71,
+      "maxRssKiB": 1637468,
+      "exitCode": 0
+    },
+    {
+      "name": "optimized-refresh-2",
+      "wallSeconds": 40.47,
+      "maxRssKiB": 1589568,
+      "exitCode": 0
+    },
+    {
+      "name": "optimized-warm-1",
+      "wallSeconds": 7.54,
+      "maxRssKiB": 1303108,
+      "exitCode": 0
+    },
+    {
+      "name": "optimized-warm-2",
+      "wallSeconds": 7.36,
+      "maxRssKiB": 1354044,
+      "exitCode": 0
+    },
+    {
+      "name": "registry-cold-1",
+      "wallSeconds": 54.01,
+      "maxRssKiB": 1468548,
+      "exitCode": 0
+    },
+    {
+      "name": "registry-fill-1",
+      "wallSeconds": 42.25,
+      "maxRssKiB": 1630724,
+      "exitCode": 0
+    },
+    {
+      "name": "registry-warm-1",
+      "wallSeconds": 6.93,
+      "maxRssKiB": 1374632,
+      "exitCode": 0
+    },
+    {
+      "name": "registry-warm-2",
+      "wallSeconds": 7.07,
+      "maxRssKiB": 1306876,
+      "exitCode": 0
+    }
+  ],
+  "officialRegistry": {
+    "versions": {
+      "force": "0.3.0",
+      "bfs": "0.3.0"
+    },
+    "coldSeconds": 54.01,
+    "warmSeconds": [6.93, 7.07],
+    "warmMeanSeconds": 7,
+    "coldReductionPercent": 51.32918806884743,
+    "coldRssReductionPercent": 43.12917561880095
+  },
+  "typescript": {
+    "current": "6.0.3",
+    "latest": "7.0.2",
+    "keptByUserRequest": true
+  },
+  "validation": {
+    "tests": 52,
+    "assertions": 914,
+    "astroErrors": 0,
+    "astroWarnings": 0,
+    "astroHints": 7,
+    "typescript": "6.0.3",
+    "formatCheckedFiles": 42
+  }
+}

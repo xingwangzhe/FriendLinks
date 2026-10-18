@@ -1,0 +1,73 @@
+{
+  "before": {
+    "position": [-192.02965566468595, 622.6570700134794, 441.73507945168166],
+    "stats": {
+      "backgroundBytes": 0,
+      "bezierLoaded": false,
+      "bezierLoading": false,
+      "drawCalls": 2,
+      "frames": 61,
+      "labelCandidatesVisited": 3,
+      "labelCreates": 0,
+      "labelScans": 34,
+      "labels": 0,
+      "lines": 0,
+      "neighborLabels": 0,
+      "overlayBuilds": 0,
+      "overlayInstances": 0,
+      "pendingFrame": false,
+      "pendingLabelTask": false,
+      "pixelRatio": 1,
+      "pointerLockError": null,
+      "pointerLocked": true,
+      "quality": "low",
+      "renderCpuMs": 0.8999999985098839,
+      "rendererTrackedBytes": 20871736,
+      "sceneObjects": 7,
+      "searchIndexLoading": false,
+      "searchIndexReady": false,
+      "triangles": 1365
+    }
+  },
+  "after": {
+    "button": "🚀 飞船模式",
+    "position": [-215.02515524504616, 368.82394951940694, 190.08909232029868],
+    "stats": {
+      "backgroundBytes": 0,
+      "bezierLoaded": false,
+      "bezierLoading": false,
+      "drawCalls": 2,
+      "frames": 77,
+      "labelCandidatesVisited": 3,
+      "labelCreates": 0,
+      "labelScans": 39,
+      "labels": 0,
+      "lines": 0,
+      "neighborLabels": 0,
+      "overlayBuilds": 0,
+      "overlayInstances": 0,
+      "pendingFrame": true,
+      "pendingLabelTask": false,
+      "pixelRatio": 1,
+      "pointerLockError": null,
+      "pointerLocked": false,
+      "quality": "low",
+      "renderCpuMs": 0.6999999955296516,
+      "rendererTrackedBytes": 20871736,
+      "sceneObjects": 7,
+      "searchIndexLoading": false,
+      "searchIndexReady": false,
+      "triangles": 1365
+    },
+    "statsRequests": 1,
+    "status": "点击宇宙画面锁定鼠标后飞行",
+    "theme": "dark"
+  },
+  "notes": [
+    "682 nodes / 683 edges sampled dev",
+    "actual pointer lock succeeded after Page.bringToFront",
+    "held W 400ms changed camera; browser injected Escape did not release; document.exitPointerLock used",
+    "X after release exits flight",
+    "stats reopened with one fetch; dark theme; multiwindow and keyboard move verified"
+  ]
+}

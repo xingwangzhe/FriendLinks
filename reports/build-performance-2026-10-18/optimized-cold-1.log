@@ -1,0 +1,23 @@
+$ bun scripts/build.ts --force
+[build] Bun 1.4.3, Astro 7.4.0, artifacts=0
+11:07:39 [WARN] [content] data store cleared (force)
+11:07:39 [types] Generated 34ms
+11:07:39 [build] output: "static"
+11:07:39 [build] mode: "static"
+11:07:39 [build] directory: /home/xingwangzhe/桌面/前端项目/FriendLinks/dist/
+11:07:39 [build] Collecting build info...
+11:07:39 [build] ✓ Completed in 58ms.
+11:07:39 [build] Building static entrypoints...
+/*! 🌼 daisyUI 5.7.50 */
+11:07:41 [ERROR] [vite] ✗ Build failed in 1.44s
+[UNLOADABLE_DEPENDENCY] Could not load ../../npm包/bfs-rs/bfs-rs.linux-x64-gnu.node
+     ╭─[ ../../npm包/bfs-rs/index.js:295:26 ]
+     │
+ 295 │           return require('./bfs-rs.linux-x64-gnu.node')
+     │                          ──────────────┬──────────────
+     │                                        ╰──────────────── stream did not contain valid UTF-8
+─────╯
+
+  Location:
+    ../../npm包/bfs-rs/index.js:295:25
+error: script "build" exited with code 1

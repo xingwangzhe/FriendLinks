@@ -1,14 +1,16 @@
 /**
  * Three.js 原生渲染层
- * 替代 3d-force-graph：单层 InstancedMesh + LineSegments + OrbitControls
+ * 实例化球形替身 + indexed LineSegments + OrbitControls
  *
- * v2: 贝塞尔曲线连线 + 流动粒子
+ * WebGPU 优先，保留 Three.js WebGL fallback
  */
 import * as THREE from "three/webgpu";
-import { QuadraticBezierCurve3, Vector3 } from "three/webgpu";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import type { GraphNode } from "../../../types/graph";
 import { MAX_EDGE_SEGMENTS } from "../../utils/bezier";
+import { EdgeGeometryStore, type CompactBezierData } from "./edge-geometry";
+import { NodeSphereInstances } from "./node-spheres";
+import { createBackgroundEdgeGeometry, releaseBackgroundEdgeGeometry } from "./background-edges";
 
 // ─── 类型 ──────────────────────────────────────────────────────────
 
@@ -20,8 +22,12 @@ export interface RenderContext {
   nodes: THREE.InstancedMesh;
   linkLines: THREE.LineSegments;
   dummy: THREE.Object3D;
-  /** 边数组引用 */
-  edgeRefs: EdgeData[];
+  edgeStore: EdgeGeometryStore | null;
+  quality: RenderQuality;
+  /** Set by the render scheduler; camera animations invalidate each changed frame. */
+  requestRender: () => void;
+  cameraAnimating: boolean;
+  cancelCameraAnimation: () => void;
 }
 
 export interface NodeState {
@@ -32,61 +38,20 @@ export interface NodeState {
   _cDimmed: string;
 }
 
-/** 缓存的边几何数据（包括贝塞尔控制点） */
-interface EdgeData {
-  sx: number;
-  sy: number;
-  sz: number; // source
-  ex: number;
-  ey: number;
-  ez: number; // target
-  cx: number;
-  cy: number;
-  cz: number; // control point
-}
+export type RenderQuality = "low" | "balanced" | "high";
 
 // ─── 常量 ──────────────────────────────────────────────────────────
 
-const NODE_SEGMENTS = 6;
-const NODE_HEIGHT_SEGMENTS = 4;
 const BG_COLOR = 0x0f1115;
 /** 每条边细分为多少段线（最大，实际按边长自适应） */
 export const EDGE_SEGMENTS = MAX_EDGE_SEGMENTS;
-
-// ─── 预分配曲线采样（零GC复用） ──────────────────────────────────────
-
-const _v0 = new Vector3();
-const _v1 = new Vector3();
-const _vc = new Vector3();
-/** 共享 QuadraticBezierCurve3，通过更新引用 Vector3 来复用 */
-const _curve = new QuadraticBezierCurve3(_v0, _vc, _v1);
-/** 预分配的采样点数组 */
-const _pts: Vector3[] = [];
-for (let k = 0; k <= EDGE_SEGMENTS; k++) _pts.push(new Vector3());
-
-// ─── 贝塞尔工具 ──────────────────────────────────────────────────────
-
-/** 计算垂直于边方向的偏移方向（在 XZ 平面） */
-function calcControlOffset(dx: number, dy: number, dz: number, len: number): { ox: number; oy: number; oz: number } {
-  if (len < 0.001) return { ox: 0, oy: 0, oz: 1 };
-  const nx = dx / len,
-    ny = dy / len,
-    nz = dz / len;
-  // 叉积 (nx,ny,nz) × (0,1,0) = (nz, 0, -nx)，若边接近垂直则用 (1,0,0)
-  const up = Math.abs(ny) > 0.99 ? { x: 1, y: 0, z: 0 } : { x: 0, y: 1, z: 0 };
-  const ox = ny * up.z - nz * up.y;
-  const oy = nz * up.x - nx * up.z;
-  const oz = nx * up.y - ny * up.x;
-  const ol = Math.sqrt(ox * ox + oy * oy + oz * oz) || 1;
-  return { ox: ox / ol, oy: oy / ol, oz: oz / ol };
-}
 
 // ─── 工厂 ──────────────────────────────────────────────────────────
 
 export async function createRenderer(
   container: HTMLElement,
   nodeCount: number,
-  linkCount: number,
+  _linkCount: number,
 ): Promise<RenderContext> {
   const { width, height } = container.getBoundingClientRect();
 
@@ -95,8 +60,13 @@ export async function createRenderer(
   camera.position.set(0, 0, 1000);
 
   // Renderer（WebGPU 优先，自动降级 WebGL）
-  const renderer = new THREE.WebGPURenderer({ antialias: true });
-  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  // This opaque graph uses LDR colors; avoid the default half-float HDR target.
+  const renderer = new THREE.WebGPURenderer({
+    antialias: false,
+    alpha: false,
+    outputBufferType: THREE.UnsignedByteType,
+  });
+  renderer.setPixelRatio(1);
   renderer.setSize(width, height);
   renderer.setClearColor(BG_COLOR);
   container.appendChild(renderer.domElement);
@@ -116,27 +86,15 @@ export async function createRenderer(
   controls.minPolarAngle = 0;
   controls.maxPolarAngle = Math.PI * 2; // 上下贯通旋转
 
-  // 无需 scene lights — InstancedMesh2 + MeshBasicMaterial，无光照更轻量
+  // 无需 scene lights；节点与关系使用无光照材质
 
-  const nodeGeom = new THREE.SphereGeometry(1, NODE_SEGMENTS, NODE_HEIGHT_SEGMENTS);
-  const nodeMat = new THREE.MeshBasicMaterial({
-    transparent: true,
-    opacity: 0.25,
-    depthWrite: false,
-    toneMapped: false,
-  });
-  const nodes = new THREE.InstancedMesh(nodeGeom, nodeMat, nodeCount);
-  nodes.frustumCulled = false;
+  // GPU quad impostors; CPU sphere proxy retains the InstancedMesh picking API.
+  const nodes = new NodeSphereInstances(nodeCount);
   scene.add(nodes);
 
   // ── 贝塞尔曲线连线 (LineSegments) ──
-  // 每条边细分 EDGE_SEGMENTS 段，每段 2 个顶点 × 3 坐标 + 顶点颜色
-  const edgeVertsPerEdge = EDGE_SEGMENTS * 2 * 3;
+  // Background edges start hidden and allocate buffers only when requested.
   const linkGeom = new THREE.BufferGeometry();
-  const linkPositions = new Float32Array(linkCount * edgeVertsPerEdge);
-  const linkColors = new Float32Array(linkCount * EDGE_SEGMENTS * 2 * 3);
-  linkGeom.setAttribute("position", new THREE.BufferAttribute(linkPositions, 3));
-  linkGeom.setAttribute("color", new THREE.BufferAttribute(linkColors, 3));
   linkGeom.setDrawRange(0, 0);
   const linkMat = new THREE.LineBasicMaterial({
     vertexColors: true,
@@ -147,6 +105,7 @@ export async function createRenderer(
   });
   const linkLines = new THREE.LineSegments(linkGeom, linkMat);
   linkLines.frustumCulled = false;
+  linkLines.visible = false;
   scene.add(linkLines);
 
   const dummy = new THREE.Object3D();
@@ -159,7 +118,11 @@ export async function createRenderer(
     nodes,
     linkLines,
     dummy,
-    edgeRefs: [],
+    edgeStore: null,
+    quality: "low",
+    requestRender: () => {},
+    cameraAnimating: false,
+    cancelCameraAnimation: () => {},
   };
 }
 
@@ -171,80 +134,38 @@ export function updateLinkPositions(
   nodeIdToIndex: Map<string, number>,
   graphNodes: GraphNode[],
   opacity: number,
+  compact?: CompactBezierData,
 ) {
-  const pos = ctx.linkLines.geometry.attributes.position.array as Float32Array;
-  const col = ctx.linkLines.geometry.attributes.color.array as Float32Array;
-  const maxEdges = Math.min(links.length, pos.length / (EDGE_SEGMENTS * 2 * 3));
-  const edgeDataArr: EdgeData[] = [];
+  ctx.edgeStore = new EdgeGeometryStore(links, nodeIdToIndex, graphNodes, compact);
+  const previous = ctx.linkLines.geometry;
+  ctx.linkLines.geometry = new THREE.BufferGeometry();
+  ctx.linkLines.geometry.setDrawRange(0, 0);
+  previous.dispose();
+  setLinkOpacity(ctx, opacity);
+}
 
-  for (let i = 0; i < maxEdges; i++) {
-    const l = links[i];
-    const si = nodeIdToIndex.get(l.source);
-    const ti = nodeIdToIndex.get(l.target);
-    if (si == null || ti == null) {
-      edgeDataArr.push({ sx: 0, sy: 0, sz: 0, ex: 0, ey: 0, ez: 0, cx: 0, cy: 0, cz: 0 });
-      continue;
-    }
-    const sn = graphNodes[si];
-    const tn = graphNodes[ti];
-    const sx = sn.x ?? 0,
-      sy = sn.y ?? 0,
-      sz = sn.z ?? 0;
-    const ex = tn.x ?? 0,
-      ey = tn.y ?? 0,
-      ez = tn.z ?? 0;
-    const mx = (sx + ex) / 2,
-      my = (sy + ey) / 2,
-      mz = (sz + ez) / 2;
-    const dx = ex - sx,
-      dy = ey - sy,
-      dz = ez - sz;
-    const len = Math.sqrt(dx * dx + dy * dy + dz * dz) || 1;
-    const offset = calcControlOffset(dx, dy, dz, len);
-    const bend = len * 0.15;
-    const cx = mx + offset.ox * bend;
-    const cy = my + offset.oy * bend;
-    const cz = mz + offset.oz * bend;
-
-    edgeDataArr.push({ sx, sy, sz, ex, ey, ez, cx, cy, cz });
-
-    // 边颜色：源→目标渐变
-    const srcCol = new THREE.Color((sn as any)._cDefault || "#ffffff");
-    const tgtCol = new THREE.Color((tn as any)._cDefault || "#ffffff");
-
-    // 使用 Three.js QuadraticBezierCurve3 采样（零GC，复用预分配数组）
-    _v0.set(sx, sy, sz);
-    _vc.set(cx, cy, cz);
-    _v1.set(ex, ey, ez);
-    for (let k = 0; k <= EDGE_SEGMENTS; k++) {
-      _curve.getPoint(k / EDGE_SEGMENTS, _pts[k]);
-    }
-
-    for (let j = 0; j < EDGE_SEGMENTS; j++) {
-      const t0 = j / EDGE_SEGMENTS;
-      const t1 = (j + 1) / EDGE_SEGMENTS;
-      const base = (i * EDGE_SEGMENTS + j) * 6;
-      pos[base] = _pts[j].x;
-      pos[base + 1] = _pts[j].y;
-      pos[base + 2] = _pts[j].z;
-      pos[base + 3] = _pts[j + 1].x;
-      pos[base + 4] = _pts[j + 1].y;
-      pos[base + 5] = _pts[j + 1].z;
-      // 顶点颜色：按 t 在源→目标之间插值
-      col[base] = srcCol.r + (tgtCol.r - srcCol.r) * t0;
-      col[base + 1] = srcCol.g + (tgtCol.g - srcCol.g) * t0;
-      col[base + 2] = srcCol.b + (tgtCol.b - srcCol.b) * t0;
-      col[base + 3] = srcCol.r + (tgtCol.r - srcCol.r) * t1;
-      col[base + 4] = srcCol.g + (tgtCol.g - srcCol.g) * t1;
-      col[base + 5] = srcCol.b + (tgtCol.b - srcCol.b) * t1;
-    }
+/** Allocate packed, actual-segment background buffers only on the first visible use. */
+export function setLinkOpacity(ctx: RenderContext, opacity: number) {
+  const material = ctx.linkLines.material as THREE.LineBasicMaterial;
+  material.opacity = Math.max(0, Math.min(1, opacity));
+  const store = ctx.edgeStore;
+  ctx.linkLines.visible = material.opacity > 0 && store !== null;
+  if (!ctx.linkLines.visible) {
+    releaseBackgroundEdgeGeometry(ctx.linkLines);
+  } else if (store && !ctx.linkLines.geometry.hasAttribute("position")) {
+    const previous = ctx.linkLines.geometry;
+    ctx.linkLines.geometry = createBackgroundEdgeGeometry(store);
+    previous.dispose();
   }
+  ctx.requestRender();
+}
 
-  ctx.edgeRefs = edgeDataArr;
-  ctx.linkLines.geometry.attributes.position.needsUpdate = true;
-  ctx.linkLines.geometry.attributes.color.needsUpdate = true;
-  ctx.linkLines.geometry.setDrawRange(0, maxEdges * EDGE_SEGMENTS * 2);
-  (ctx.linkLines.material as THREE.LineBasicMaterial).opacity = opacity;
+/** Pixel density is adjustable without recreating the GPU context. */
+export function setRenderQuality(ctx: RenderContext, quality: RenderQuality) {
+  ctx.quality = quality;
+  const cap = quality === "high" ? 2 : quality === "balanced" ? 1.5 : 1;
+  ctx.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, cap));
+  ctx.requestRender();
 }
 
 // ─── 节点位置 + 颜色 ──────────────────────────────────────────────
@@ -262,15 +183,21 @@ export function updateAllNodePositions(
   maxDegree: number,
 ) {
   const m = new THREE.Matrix4();
+  const position = new THREE.Vector3();
+  const rotation = new THREE.Quaternion();
+  const scale = new THREE.Vector3();
+  const color = new THREE.Color();
   for (let i = 0; i < nodes.length; i++) {
     const n = nodes[i];
     const deg = degreeMap[n.id] || 1;
     const sz = nodeSize(deg, maxDegree);
-    m.compose(new THREE.Vector3(n.x ?? 0, n.y ?? 0, n.z ?? 0), new THREE.Quaternion(), new THREE.Vector3(sz, sz, sz));
+    position.set(n.x ?? 0, n.y ?? 0, n.z ?? 0);
+    scale.set(sz, sz, sz);
+    m.compose(position, rotation, scale);
     ctx.nodes.setMatrixAt(i, m);
 
     if (nodeStates[i]) {
-      ctx.nodes.setColorAt(i, new THREE.Color(nodeStates[i]._cDefault));
+      ctx.nodes.setColorAt(i, color.set(nodeStates[i]._cDefault));
     }
   }
 
@@ -278,9 +205,11 @@ export function updateAllNodePositions(
   if (ctx.nodes.instanceColor) ctx.nodes.instanceColor.needsUpdate = true;
 }
 
-export function setNodeColor(ctx: RenderContext, index: number, color: string) {
-  ctx.nodes.setColorAt(index, new THREE.Color(color));
-  if (ctx.nodes.instanceColor) ctx.nodes.instanceColor.needsUpdate = true;
+const nodeColor = new THREE.Color();
+
+export function setNodeColor(ctx: RenderContext, index: number, color: string, markUpdate = true) {
+  ctx.nodes.setColorAt(index, nodeColor.set(color));
+  if (markUpdate && ctx.nodes.instanceColor) ctx.nodes.instanceColor.needsUpdate = true;
 }
 
 // ─── 相机 ──────────────────────────────────────────────────────────
@@ -309,8 +238,9 @@ export function zoomToFit(
   const wCenter = new THREE.Vector3(cx / tw, cy / tw, cz / tw);
 
   const box = new THREE.Box3();
+  const point = new THREE.Vector3();
   for (const n of graphNodes) {
-    box.expandByPoint(new THREE.Vector3(n.x ?? 0, n.y ?? 0, n.z ?? 0));
+    box.expandByPoint(point.set(n.x ?? 0, n.y ?? 0, n.z ?? 0));
   }
   box.expandByScalar(padding);
   const size = new THREE.Vector3();
@@ -319,20 +249,8 @@ export function zoomToFit(
   const fov = ctx.camera.fov * (Math.PI / 180);
   const dist = maxDim / (2 * Math.tan(fov / 2));
 
-  const startPos = ctx.camera.position.clone();
-  const startTarget = ctx.controls.target.clone();
   const targetPos = wCenter.clone().add(new THREE.Vector3(0, 0, dist));
-  const startTime = performance.now();
-
-  function anim() {
-    const t = Math.min(1, (performance.now() - startTime) / ms);
-    const ease = 1 - Math.pow(1 - t, 3);
-    ctx.camera.position.lerpVectors(startPos, targetPos, ease);
-    ctx.controls.target.lerpVectors(startTarget, wCenter, ease);
-    ctx.controls.update();
-    if (t < 1) requestAnimationFrame(anim);
-  }
-  anim();
+  runCameraAnimation(ctx, targetPos, wCenter, ms);
 }
 
 export function animateCamera(
@@ -341,27 +259,56 @@ export function animateCamera(
   lookAt: { x: number; y: number; z: number },
   ms: number,
 ) {
-  const sp = ctx.camera.position.clone();
-  const st = ctx.controls.target.clone();
-  const ep = new THREE.Vector3(pos.x, pos.y, pos.z);
-  const et = new THREE.Vector3(lookAt.x, lookAt.y, lookAt.z);
-  const t0 = performance.now();
+  runCameraAnimation(ctx, new THREE.Vector3(pos.x, pos.y, pos.z), new THREE.Vector3(lookAt.x, lookAt.y, lookAt.z), ms);
+}
 
-  function anim() {
-    const t = Math.min(1, (performance.now() - t0) / ms);
-    const e = 1 - Math.pow(1 - t, 3);
-    ctx.camera.position.lerpVectors(sp, ep, e);
-    ctx.controls.target.lerpVectors(st, et, e);
+/** One animation chain per renderer; replacing/disposing it cancels the pending frame. */
+function runCameraAnimation(ctx: RenderContext, endPosition: THREE.Vector3, endTarget: THREE.Vector3, ms: number) {
+  ctx.cancelCameraAnimation();
+  const startPosition = ctx.camera.position.clone();
+  const startTarget = ctx.controls.target.clone();
+  const startTime = performance.now();
+  const duration = Number.isFinite(ms) ? Math.max(0, ms) : 0;
+  let frameId = 0;
+  let active = true;
+  ctx.cameraAnimating = true;
+  ctx.cancelCameraAnimation = () => {
+    active = false;
+    if (frameId) cancelAnimationFrame(frameId);
+    frameId = 0;
+    ctx.cameraAnimating = false;
+    ctx.cancelCameraAnimation = () => {};
+  };
+
+  function animate() {
+    if (!active) return;
+    frameId = 0;
+    const t = duration === 0 ? 1 : Math.min(1, Math.max(0, (performance.now() - startTime) / duration));
+    const ease = 1 - Math.pow(1 - t, 3);
+    ctx.camera.position.lerpVectors(startPosition, endPosition, ease);
+    ctx.controls.target.lerpVectors(startTarget, endTarget, ease);
     ctx.controls.update();
-    if (t < 1) requestAnimationFrame(anim);
+    ctx.requestRender();
+    if (!active) return;
+    if (t < 1) {
+      frameId = requestAnimationFrame(animate);
+    } else {
+      active = false;
+      ctx.cameraAnimating = false;
+      ctx.cancelCameraAnimation = () => {};
+    }
   }
-  anim();
+  animate();
 }
 
 export function dispose(ctx: RenderContext) {
+  ctx.cancelCameraAnimation();
   ctx.renderer.dispose();
-  ctx.nodes.geometry.dispose();
-  (ctx.nodes.material as THREE.Material).dispose();
+  if (ctx.nodes instanceof NodeSphereInstances) ctx.nodes.dispose();
+  else {
+    ctx.nodes.geometry.dispose();
+    (ctx.nodes.material as THREE.Material).dispose();
+  }
   ctx.linkLines.geometry.dispose();
   (ctx.linkLines.material as THREE.Material).dispose();
 }

@@ -1,0 +1,61 @@
+{
+  "package": "@xingwangzhe/force-rs",
+  "version": "0.3.0",
+  "commit": "dca2c89d43e3959c9df53cc011f37b845459e9a6",
+  "ciRun": "https://github.com/xingwangzhe/force-rs/actions/runs/39093226604",
+  "tarball": "https://registry.npmjs.org/@xingwangzhe/force-rs/-/force-rs-0.3.0.tgz",
+  "integrity": "sha512-8NcWXh598jWAw4HnxFY/H2m5rcfi1NlpAxwYvUHBP0th5Y+EXXAHl2xENYj44/dddkpRDLNHD+/W+oOI++t0AQ==",
+  "sha1": "af0c75056327799974c5305467bb7ddf6eb8b7e3",
+  "integrityVerified": true,
+  "nativeArtifacts": [
+    {
+      "file": "force-rs.darwin-arm64.node",
+      "sha256": "c9dbe293f96f71965511cfdbdcb1666bd516ea3bc8d9c4aa89c39b073c51fd76",
+      "matchesCIArtifact": true
+    },
+    {
+      "file": "force-rs.darwin-x64.node",
+      "sha256": "e47e6af65abd667b21fad2f30b1ecb64859e59c8da0444862e68e8853d65c2fe",
+      "matchesCIArtifact": true
+    },
+    {
+      "file": "force-rs.linux-arm64-gnu.node",
+      "sha256": "e8806c860696c90ed8ca6ef99a5bd6fe1418be8e53ad3f6832e759b312b8c11c",
+      "matchesCIArtifact": true
+    },
+    {
+      "file": "force-rs.linux-x64-gnu.node",
+      "sha256": "92ee5eede9f51cbc9ca59933846bfc4989f5073fc8018c86ec79d34e100701a6",
+      "matchesCIArtifact": true
+    },
+    {
+      "file": "force-rs.linux-x64-musl.node",
+      "sha256": "48aa39a42ebbb10adecba023227fe7b6409cd11746d93d24d7e5e81f78d697e3",
+      "matchesCIArtifact": true
+    },
+    {
+      "file": "force-rs.win32-x64-msvc.node",
+      "sha256": "7c39434d9f4ffa93c3c3c48603e78e582b6fbd39e8c26335c7f0fc956bf442ae",
+      "matchesCIArtifact": true
+    }
+  ],
+  "attestations": {
+    "url": "https://registry.npmjs.org/-/npm/v1/attestations/@xingwangzhe%2fforce-rs@0.3.0",
+    "provenance": {
+      "predicateType": "https://slsa.dev/provenance/v1"
+    }
+  },
+  "isolatedConsumer": {
+    "directory": "/tmp/force-rs-published-consumer-dca2c89",
+    "registryInstall": true,
+    "runtimes": ["Bun 1.4.3", "Node"],
+    "nodes": 49064,
+    "edges": 107527,
+    "ticks": 10,
+    "finiteStateValues": 294385,
+    "alpha": 0.8170728068875467,
+    "stoppedByTime": false,
+    "bindingSha256": "92ee5eede9f51cbc9ca59933846bfc4989f5073fc8018c86ec79d34e100701a6"
+  },
+  "ciConclusion": "success"
+}

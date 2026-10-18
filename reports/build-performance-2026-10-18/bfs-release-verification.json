@@ -1,0 +1,28 @@
+{
+  "version": "0.3.0",
+  "latest": "0.3.0",
+  "tarball": "https://registry.npmjs.org/@xingwangzhe/bfs-rs/-/bfs-rs-0.3.0.tgz",
+  "integrity": "sha512-gaZXkhZX2bFp7MvL4Ap7WJKeWC+LdS/y+RZQK51ZZus582K55v3nXo5GEyAfGY1RXunPdgiKWbFX9W1TcRQACw==",
+  "shasum": "037a904fca82d83b2981a47c479817cd62c009d1",
+  "files": [
+    "package/LICENSE",
+    "package/index.js",
+    "package/package.json",
+    "package/README.md",
+    "package/bfs-rs.darwin-arm64.node",
+    "package/bfs-rs.darwin-x64.node",
+    "package/bfs-rs.linux-arm64-gnu.node",
+    "package/bfs-rs.linux-x64-gnu.node",
+    "package/bfs-rs.linux-x64-musl.node",
+    "package/bfs-rs.win32-x64-msvc.node",
+    "package/index.d.ts"
+  ],
+  "binariesSha256": {
+    "bfs-rs.darwin-arm64.node": "c9ba1c925027714e00ac04a56bd9bab716024ae3138f03c3e3c2cf652383f526",
+    "bfs-rs.darwin-x64.node": "dd944f9d7130ca05999b1ef474441a482f6bf2d4a3b28b4bd5f968f8ed9dcc5c",
+    "bfs-rs.linux-arm64-gnu.node": "d8bc1a40f71f0f63a2113a4d4eb444ec89a8cc2ee604468679dda9158cd56e8d",
+    "bfs-rs.linux-x64-gnu.node": "47cdc7f727a4de6cf97270bf409c30d622f2b337d9fe6b4882e58f7c838226ae",
+    "bfs-rs.linux-x64-musl.node": "77ae951c7a21dd2f89d26727f0f40a4d0a34c04b970c323a67ca534e127c248b",
+    "bfs-rs.win32-x64-msvc.node": "9fecf6dc38e7dcf22bc92d0f29382283bbea55b71a4757312d940b2ce3360ddd"
+  }
+}

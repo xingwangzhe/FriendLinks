@@ -3,6 +3,14 @@ import { printProgress, printDone } from "../utils/progress";
 import { createBfsGraph } from "@xingwangzhe/bfs-rs";
 import { buildTopology } from "../utils/graph-topology";
 import { summarizeTopology } from "../utils/graph-statistics";
+import type { StatsData } from "../../types/stats";
+import { getCollectionInfo } from "../utils/site-identity";
+import {
+  artifactKey,
+  buildArtifacts,
+  buildCacheEnabled,
+  implementationFingerprint,
+} from "../utils/build-artifact-cache";
 
 export async function GET() {
   const start = performance.now();
@@ -13,12 +21,33 @@ export async function GET() {
   });
   printDone(`${validSites.length} 站点加载完成`);
 
+  const implementation = buildCacheEnabled()
+    ? await implementationFingerprint(
+        [
+          "src/pages/stats.json.ts",
+          "src/utils/graph-statistics.ts",
+          "src/utils/graph-topology.ts",
+          "src/utils/site-identity.ts",
+          "src/utils/build-artifact-cache.ts",
+        ],
+        ["@xingwangzhe/bfs-rs"],
+      )
+    : null;
+  const cacheKey = implementation
+    ? artifactKey({ sites: validSites, sourceCounts: getCollectionInfo(validSites).counts, implementation })
+    : null;
+  if (cacheKey) {
+    const cached = await buildArtifacts.read<StatsData>("stats", cacheKey);
+    if (cached) {
+      console.log(`[cache] stats hit: ${cached.overview.totalNodes} nodes (verified exact histogram)`);
+      return new Response(JSON.stringify(cached), { headers: { "Content-Type": "application/json" } });
+    }
+    console.log("[cache] stats miss: computing exact all-source BFS");
+  }
   const stats = summarizeTopology(validSites);
   const { totalFriendReferences } = stats;
   const topology = buildTopology(validSites);
   const n = topology.nodes.length;
-  const index = new Map(topology.nodes.map((node, i) => [node.id, i]));
-  const adj = topology.nodes.map((node) => [...topology.adjacency.get(node.id)!].map((id) => index.get(id)!));
   const adjFlat = new Uint32Array(topology.csrAdj);
   const offsets = new Uint32Array(topology.csrOffsets);
 
@@ -49,7 +78,8 @@ export async function GET() {
     while (head < q.length) {
       const u = q[head++];
       size++;
-      for (const v of adj[u]) {
+      for (let edge = offsets[u]; edge < offsets[u + 1]; edge++) {
+        const v = adjFlat[edge];
         if (comp[v] === -1) {
           comp[v] = compId;
           q.push(v);
@@ -111,7 +141,7 @@ export async function GET() {
     totalPairsConsidered: (n * (n - 1)) / 2,
   };
 
-  const finalStats = {
+  const finalStats: StatsData = {
     ...stats,
     sixDegrees: sixDegreeStats,
   };
@@ -120,6 +150,7 @@ export async function GET() {
     `/stats.json  ${validSites.length} 站点, ${totalFriendReferences} 友链引用, ${stats.connections.total} 连接, ${n} 节点全量BFS, 耗时 ${elapsed}s`,
   );
 
+  if (cacheKey) await buildArtifacts.write("stats", cacheKey, finalStats);
   return new Response(JSON.stringify(finalStats), {
     headers: { "Content-Type": "application/json" },
   });

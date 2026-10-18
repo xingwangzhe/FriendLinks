@@ -1,0 +1,60 @@
+{
+  "cancelled": [],
+  "edges": 107528,
+  "focusedRadius": 60,
+  "lazyAfterAbort": false,
+  "next": true,
+  "nextInfo": {
+    "currentId": "https://090909.top/",
+    "currentStep": 1,
+    "path": ["https://xingwangzhe.fun/", "https://090909.top/"],
+    "totalSteps": 2
+  },
+  "nodes": 49064,
+  "path": ["https://xingwangzhe.fun/", "https://090909.top/"],
+  "pathRadius": 40,
+  "previous": true,
+  "results": [
+    [
+      {
+        "id": "https://xingwangzhe.fun/",
+        "name": "姓王者的博客",
+        "url": "https://xingwangzhe.fun/"
+      }
+    ],
+    [
+      {
+        "id": "links.needhelp.icu",
+        "name": "博客宇宙",
+        "url": "https://links.needhelp.icu/"
+      }
+    ]
+  ],
+  "stats": {
+    "backgroundBytes": 0,
+    "bezierLoaded": false,
+    "bezierLoading": false,
+    "drawCalls": 2,
+    "frames": 2,
+    "labelCandidatesVisited": 0,
+    "labelCreates": 0,
+    "labelScans": 2,
+    "labels": 0,
+    "lines": 0,
+    "neighborLabels": 41,
+    "overlayBuilds": 3,
+    "overlayInstances": 2090,
+    "pendingFrame": true,
+    "pendingLabelTask": false,
+    "pixelRatio": 1,
+    "pointerLockError": null,
+    "pointerLocked": false,
+    "quality": "low",
+    "renderCpuMs": 4.399999998509884,
+    "rendererTrackedBytes": 14888976,
+    "sceneObjects": 50,
+    "searchIndexLoading": false,
+    "searchIndexReady": true,
+    "triangles": 98129
+  }
+}

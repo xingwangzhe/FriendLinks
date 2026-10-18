@@ -1,0 +1,35 @@
+{
+  "requests": [
+    {
+      "name": "http://127.0.0.1:4392/graph-bezier.2026-10-18-04-23-39.bin",
+      "size": 20792316
+    }
+  ],
+  "stats": {
+    "backgroundBytes": 0,
+    "bezierLoaded": true,
+    "bezierLoading": false,
+    "drawCalls": 10,
+    "frames": 22,
+    "labelCandidatesVisited": 0,
+    "labelCreates": 0,
+    "labelScans": 2,
+    "labels": 0,
+    "lines": 0,
+    "neighborLabels": 41,
+    "overlayBuilds": 4,
+    "overlayInstances": 2090,
+    "pendingFrame": true,
+    "pendingLabelTask": false,
+    "pixelRatio": 1,
+    "pointerLockError": null,
+    "pointerLocked": false,
+    "quality": "low",
+    "renderCpuMs": 1.7000000029802322,
+    "rendererTrackedBytes": 16900767,
+    "sceneObjects": 50,
+    "searchIndexLoading": false,
+    "searchIndexReady": true,
+    "triangles": 148301
+  }
+}
