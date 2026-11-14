@@ -2,7 +2,7 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/xingwangzhe/FriendLinks)
 
-> 探索浩瀚的博客宇宙，寻找彼此之间的联系。每个节点是一个博客，每条连线是一段友链关系。
+> 探索浩瀚的个人博客宇宙，寻找彼此之间的联系。每个节点是一个以文字文章为核心的个人博客，每条连线是一段友链关系。
 
 **法律合规说明：** 网站所有者和投稿者必须确保其发布内容及网站运营遵守中华人民共和国以及适用情况下的美利坚合众国法律法规。
 
@@ -10,9 +10,19 @@
 
 ---
 
+## 站点定位
+
+本站只收录个人文章博客，不接受博客聚合、导航站或内容平台。聚合与导航的发现功能与本站重复，内容平台则不属于个人博客。
+
+- **收录**：个人、笔名作者或小型非机构创作团队运营的文字博客；必须有公开文章索引、至少一篇原创正文和独立永久链接。
+- **允许混合**：博客可以同时包含技术、生活、随笔、日记、教程、摄影、视频或播客等次要内容，但文章写作必须是站点的主要用途。
+- **不收录**：纯作品集、纯照片/图库、纯视频/播客、纯个人主页、link-in-bio、在线简历，以及以产品、服务、社区或聚合为核心功能的站点。
+
+---
+
 ## 快速添加你的博客
 
-在 `links/{你的域名}.yml` 中填写：
+确认站点符合上述定位后，在 `links/{你的域名}.yml` 中填写：
 
 ```yaml
 site:
@@ -39,12 +49,12 @@ site:
 
 ```yaml
 site:
-  name: HeyBlog
-  description: 独立博客发现与目录
-  url: https://www.heyblog.net/
+  name: Example Blog
+  description: 记录技术、生活与阅读的个人博客
+  url: https://example.com/
   aliases:
-    - https://www.zhblogs.net/
-  links: /site
+    - https://old.example.com/
+  links: /links
   friends: [] # 格式示例；迁移时保留现有友链并集
 ```
 
@@ -220,11 +230,11 @@ GitHub Actions 使用 `oven-sh/setup-bun@v2` 安装最新版 Bun，然后执行 
 
 ### 站点准入与数据维护
 
-正式数据仅收录合格的个人博客、小型创作团队博客和博客聚合站。审核按公开可访问性、聚合功能或独立原创文章、运营主体及主要用途判断，不能仅凭 RSS、框架或站名认定。
+正式数据仅收录个人、笔名作者或小型非机构创作团队运营的文字博客。审核按公开可访问性、原创文章、文字内容占比、运营主体及主要用途判断，不能仅凭 RSS、框架或站名认定。
 
-- `include`：博客放入普通 `links/` 分类；聚合站放入 `links/aggregators/`。
-- `unverified`：证据不足的候选放入 `links/unverified/`，默认不进入构建、端点和图分析。
-- `exclude`：明确不符合准入标准的站点不创建占位节点。
+- `include`：合格的个人文章博客放入普通 `links/` 分类。
+- `unverified`：暂时无法确认是否为个人文章博客的候选放入 `links/unverified/`，默认不进入构建、端点和图分析。
+- `exclude`：纯作品集、纯照片、纯个人主页、博客聚合、导航站、社区、平台及其他不符合定位的站点不创建占位节点。
 
 完整准入规则见 [AGENTS.md](AGENTS.md)，候选注释格式见 [候选目录说明](links/unverified/README.md)。合格博客没有公开友链页时可以使用 `friends: []`。
 
@@ -266,7 +276,6 @@ src/
 ├── css/                     # 样式文件（base/topbar）
 ├── styles/                  # Tailwind CSS v4 + daisyUI 主题
 links/                       # 正式友链 YAML 源文件（核心数据）
-├── aggregators/            # 已确认的博客聚合型站点
 └── unverified/             # 待验证候选（默认不进入构建和数据端点）
 types/                       # TypeScript 类型定义
 ```
