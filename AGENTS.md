@@ -15,6 +15,7 @@
 links/                       # 友链 YAML 源文件（核心数据，8600+ 文件）
 ├── aggregators/            # 已确认的博客聚合型站点
 └── unverified/             # 待验证候选（不进入正式图数据）
+blacklist/                   # 域名 SHA-256 黑名单，按 1.json、2.json…排序
 docs/
 ├── INTERACTIONS.md          # 3D 图交互系统（API/事件/面板）
 ├── LABELS.md                # 3D 节点标签系统
@@ -22,10 +23,16 @@ docs/
     ├── plans/
     └── specs/
 scripts/
+├── blacklist.ts             # 添加、查询、列出域名哈希黑名单
 ├── six-degrees.ts           # 六度分隔计算
 ├── update-site-names.ts     # 批量更新站点名称
 └── validate-links.ts        # 友链数据校验
-src/                         # Astro + Three.js 项目源码
+src/
+├── integrations/
+│   └── blacklist.ts         # astro:build:start 黑名单钩子
+├── utils/
+│   └── blacklist.ts         # 域名规范化、哈希、加载与强制执行
+└── ...                      # Astro + Three.js 项目源码
 ```
 
 **核心文件**: `links/**/*.yml` - 每个文件代表一个站点的友链配置，支持嵌套子目录整理（如 `links/tech/`、`links/life/`）。保留目录 `links/unverified/` 仅存放待验证候选，默认构建、数据端点和图分析都必须跳过该目录。
@@ -246,6 +253,94 @@ grep -rl "关键词" links/
 
 ---
 
+## 🚫 域名哈希黑名单
+
+`blacklist/` 是独立于博客准入审核的硬排除层。黑名单只保存规范化域名的 SHA-256，不保存域名明文。主站和友链都按完整 hostname 精确匹配；`www.example.com`、`blog.example.com`、`example.com` 是三个不同域名。
+
+### 目录与 JSON 格式
+
+```text
+blacklist/
+├── README.md
+├── 1.json
+├── 2.json
+└── 3.json
+```
+
+- 文件名必须是从 `1` 开始的纯数字序号加 `.json`；禁止 `01.json`、零、负数、小数和非数字名称。
+- 文件按数值升序表示加入顺序，`1.json` 是第一条。新增时使用当前最大序号加一。
+- 读取时严格校验 JSON、`domainLength`、64 位小写或大写十六进制 SHA-256、非空 `reason`。
+- 同一 hash 在多个文件中重复时直接报错，构建失败。
+- `reason` 只写原因码或简短原因，不要回填域名明文、协议或完整 URL；加载和添加时都会拒绝 URL、域名样式文本及 IPv4 明文。
+
+```json
+{
+  "domainLength": 16,
+  "hash": "bd0054cb250b2bb60508c69cc475c5015b1627de407ce0ea50acaa9a00a16c94",
+  "reason": "示例排除原因"
+}
+```
+
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `domainLength` | number | 规范化 hostname 的字符长度 |
+| `hash` | string | `SHA-256(normalizedHostname)`，64 位十六进制 |
+| `reason` | string | 人工排除原因；不得包含 URL、域名或 IP 明文 |
+
+### 域名规范化与哈希
+
+唯一哈希输入是去掉协议、用户信息、端口、路径、查询参数、片段和末尾根点后的小写 hostname。
+
+```text
+https://Blog.Example.com:8443/path?q=1#part
+→ blog.example.com
+→ SHA-256("blog.example.com")
+```
+
+- 可以传完整 HTTP(S) URL、带路径的域名或裸域名；裸值先按 `https://` 解析。
+- 非 HTTP(S) 协议报错。
+- 不在哈希输入中包含协议、端口、路径、查询参数、片段、末尾 `.` 或大小写差异。
+- 不要把哈希当作加密或秘密；它只是避免仓库直接出现域名明文。
+- 需要添加时优先使用 CLI，禁止手算 hash 后随意创建文件。
+
+```bash
+bun run blacklist add "https://blog.example.com/path" "内容农场，非原创"
+bun run blacklist check blog.example.com
+bun run blacklist list
+```
+
+`add` 自动完成规范化、SHA-256、去重、顺序编号和 JSON 写入。`check` 只查询是否命中。`list` 输出序号、文件名、长度、hash 和原因，不反推域名。
+
+### 构建前自动排除
+
+`astro.config.mjs` 注册 `blacklistGuard()`。构建触发 `astro:build:start` 时，`enforceBlacklist()` 会在 Astro 读取正式图数据前递归扫描 `links/**/*.yml` 和 `links/**/*.yaml`，包括 `links/unverified/`。
+
+命中日志必须同时说明命中对象、排除动作和友链来源。格式示例：
+
+```text
+[links/main.yml] main.example.com 命中黑名单hash [64位hash] 原因 [排除原因]（黑名单条目 [1.json]）；域名属于主站，已删除主站 YAML
+[links/friends.yml] friend.example.com 命中黑名单hash [64位hash] 原因 [排除原因]（黑名单条目 [2.json]）；域名属于友链 [FriendName]，来源主站 [SiteName] (site.example.com)，已从 YAML 中抹去
+```
+
+- 主站命中：检查 `site.url` 与 `site.aliases[]`；任一命中则输出日志并删除整个 YAML。
+- 友链命中：检查 `site.friends[].url`；日志必须写明友链名称、来源主站名称和域名，命中项从数组中移除，其他友链、字段、顺序和 YAML 注释保留，然后写回文件。
+- 一个 YAML 可同时移除多个友链；重复构建应保持幂等，已删除的主站或友链不会再次出现。
+- 黑名单目录缺失、JSON 损坏、字段非法、编号非法或 hash 重复时构建直接失败，不静默跳过。
+- 该钩子只在构建生命周期执行，不修改开发服务器中的源文件。未经明确授权仍禁止运行 `bun run build`；用单元测试验证钩子逻辑。
+- JSON 与 git 中不得出现黑名单域名明文；`astro.log` 构建日志按上述格式输出域名、hash、原因和排除动作，便于定位主站或来源友链。
+
+### 自动与手动排除流程
+
+1. 审核确认站点必须硬排除后，先运行 `bun run blacklist add <URL或域名> "<原因>"`。
+2. 运行 `bun run blacklist check <URL或域名>` 确认命中。
+3. 提交 `blacklist/N.json` 和本次代码改动；下次获授权构建会自动删除主站 YAML 或抹去所有 YAML 中的该友链。
+4. 若只是普通准入审核的 `exclude`，按三态审核流程不创建节点即可；若历史数据中已有该站点，必须加入黑名单，避免只在单个文件中手工删除后再次回流。
+5. 需要解除黑名单时，删除对应数字 JSON，并从 git 恢复此前被自动删除的 YAML 或友链；不要复用旧序号。
+
+禁止用黑名单代替博客准入证据。黑名单是已知硬排除域的传播阻断层；`include`、`unverified`、`exclude` 的判定仍以人工审核证据为准。
+
+---
+
 ## 🎨 自定义节点颜色
 
 在 `site` 层级添加 `color` 字段：
@@ -312,6 +407,7 @@ bun run lint && bun run fmt  # 提交前检查
 | `bun run build` | 构建生产版本 ⚠️ **未经用户明确允许禁止执行**（见顶部硬规则） |
 | `bun run validate` | 校验 `scripts/validate-links.ts` — 检查 YAML 格式和必填字段 |
 | `bun run six` | 运行 `scripts/six-degrees.ts` — 六度分隔分析 |
+| `bun run blacklist add/check/list` | 添加、查询或列出域名 SHA-256 黑名单 |
 | `bun run lint` | oxlint 代码检查 + TypeScript 类型检查 |
 | `bun run fmt` | oxfmt 格式化 `src/` 和 `links/` |
 | `bun run fmt-check` | 只检查格式，不写入文件 |
