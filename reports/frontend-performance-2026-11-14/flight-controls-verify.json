@@ -1,0 +1,380 @@
+{
+  "command": "bun run verify:controls",
+  "url": "http://127.0.0.1:4322/",
+  "environment": {
+    "bun": "1.4.4",
+    "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "viewport": [
+      1576,
+      788
+    ],
+    "pointerLockMode": "native-then-mocked"
+  },
+  "checks": [
+    {
+      "name": "关于面板使用原生 dialog",
+      "pass": true,
+      "details": {
+        "open": true,
+        "content": true,
+        "winbox": 0
+      }
+    },
+    {
+      "name": "Escape 关闭面板",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "速度滑块随节点数量与体积密度更新",
+      "pass": true,
+      "details": {
+        "min": 1239,
+        "max": 8850,
+        "value": 3540,
+        "autoAttr": 3540,
+        "minExpected": 1239,
+        "maxExpected": 8850,
+        "valueExpected": 3540,
+        "autoExpected": 3540,
+        "nodeCount": 3607,
+        "volume": 582665439862245.4
+      }
+    },
+    {
+      "name": "速度滑块可调整并恢复自动基准",
+      "pass": true,
+      "details": {
+        "changedSpeed": 1239,
+        "resetSpeed": 3540,
+        "autoSpeed": 3540
+      }
+    },
+    {
+      "name": "控制面板挂载到 dialog",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "飞行 HUD 轻量且不拦截指针",
+      "pass": true,
+      "details": {
+        "hidden": false,
+        "pointerEvents": "none",
+        "height": 34.5,
+        "width": 815.25,
+        "legacyPanel": false,
+        "winbox": 0,
+        "exitHighlight": "oklch(0.82 0.189 84.429)"
+      }
+    },
+    {
+      "name": "鼠标只转向不位移",
+      "pass": true,
+      "details": {
+        "positionChange": 0,
+        "rotationChange": 0.196254
+      }
+    },
+    {
+      "name": "W 前进",
+      "pass": true,
+      "details": {
+        "distance": 1121,
+        "axisValue": 1121
+      }
+    },
+    {
+      "name": "S 后退",
+      "pass": true,
+      "details": {
+        "distance": 1121,
+        "axisValue": -1121
+      }
+    },
+    {
+      "name": "A 左移",
+      "pass": true,
+      "details": {
+        "distance": 1121,
+        "axisValue": -1121
+      }
+    },
+    {
+      "name": "D 右移",
+      "pass": true,
+      "details": {
+        "distance": 1120.646,
+        "axisValue": 1120.646
+      }
+    },
+    {
+      "name": "R 上升",
+      "pass": true,
+      "details": {
+        "distance": 1121,
+        "axisValue": 1121
+      }
+    },
+    {
+      "name": "F 下降",
+      "pass": true,
+      "details": {
+        "distance": 1121,
+        "axisValue": -1121
+      }
+    },
+    {
+      "name": "Shift 约 3 倍速",
+      "pass": true,
+      "details": {
+        "normalDistance": 1298,
+        "shiftDistance": 3894,
+        "ratio": 3
+      }
+    },
+    {
+      "name": "Q/E 横滚方向相反",
+      "pass": true,
+      "details": {
+        "qUpX": -0.601348,
+        "eUpX": 0.070598,
+        "keys": [],
+        "velocity": 0,
+        "eHeld": [
+          "e"
+        ],
+        "eActive": "fly-toggle"
+      }
+    },
+    {
+      "name": "无输入后停止绘帧",
+      "pass": true,
+      "details": {
+        "frameDelta": 0
+      }
+    },
+    {
+      "name": "X 退出飞船模式",
+      "pass": true,
+      "details": {
+        "hudHidden": true,
+        "buttonText": "🚀 飞船模式"
+      }
+    }
+  ],
+  "movementReport": {
+    "W 前进": {
+      "distance": 1121,
+      "axisValue": 1121
+    },
+    "S 后退": {
+      "distance": 1121,
+      "axisValue": -1121
+    },
+    "A 左移": {
+      "distance": 1121,
+      "axisValue": -1121
+    },
+    "D 右移": {
+      "distance": 1120.646,
+      "axisValue": 1120.646
+    },
+    "R 上升": {
+      "distance": 1121,
+      "axisValue": 1121
+    },
+    "F 下降": {
+      "distance": 1121,
+      "axisValue": -1121
+    }
+  },
+  "keyLog": [
+    {
+      "type": "keydown",
+      "code": "Escape",
+      "key": "Escape",
+      "target": "BUTTON",
+      "active": ""
+    },
+    {
+      "type": "keyup",
+      "code": "Escape",
+      "key": "Escape",
+      "target": "BUTTON",
+      "active": "about-toggle"
+    },
+    {
+      "type": "keydown",
+      "code": "KeyW",
+      "key": "w",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keyup",
+      "code": "KeyW",
+      "key": "w",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keydown",
+      "code": "KeyS",
+      "key": "s",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keyup",
+      "code": "KeyS",
+      "key": "s",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keydown",
+      "code": "KeyA",
+      "key": "a",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keyup",
+      "code": "KeyA",
+      "key": "a",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keydown",
+      "code": "KeyD",
+      "key": "d",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keyup",
+      "code": "KeyD",
+      "key": "d",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keydown",
+      "code": "KeyR",
+      "key": "r",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keyup",
+      "code": "KeyR",
+      "key": "r",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keydown",
+      "code": "KeyF",
+      "key": "f",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keyup",
+      "code": "KeyF",
+      "key": "f",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keydown",
+      "code": "KeyW",
+      "key": "w",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keyup",
+      "code": "KeyW",
+      "key": "w",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keydown",
+      "code": "ShiftLeft",
+      "key": "Shift",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keydown",
+      "code": "KeyW",
+      "key": "w",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keyup",
+      "code": "KeyW",
+      "key": "w",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keyup",
+      "code": "ShiftLeft",
+      "key": "Shift",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keydown",
+      "code": "KeyQ",
+      "key": "q",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keyup",
+      "code": "KeyQ",
+      "key": "q",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keydown",
+      "code": "KeyE",
+      "key": "e",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keyup",
+      "code": "KeyE",
+      "key": "e",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keydown",
+      "code": "KeyX",
+      "key": "x",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    },
+    {
+      "type": "keyup",
+      "code": "KeyX",
+      "key": "x",
+      "target": "BUTTON",
+      "active": "fly-toggle"
+    }
+  ],
+  "consoleErrors": [],
+  "screenshot": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/frontend-performance-2026-11-14/flight-hud.png",
+  "aboutScreenshot": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/frontend-performance-2026-11-14/native-dialog-about.png",
+  "controlScreenshot": "/home/xingwangzhe/桌面/前端项目/FriendLinks/reports/frontend-performance-2026-11-14/native-dialog-control.png"
+}

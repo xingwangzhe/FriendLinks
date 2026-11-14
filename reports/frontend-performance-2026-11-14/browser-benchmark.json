@@ -1,0 +1,187 @@
+{
+  "command": "bun run bench:ui",
+  "url": "http://127.0.0.1:4322/",
+  "environment": {
+    "bun": "1.4.4",
+    "playwright": "1.65.1",
+    "browser": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "viewport": [
+      1576,
+      788
+    ],
+    "devicePixelRatio": 1
+  },
+  "initial": {
+    "frames": 3,
+    "labelScans": 2,
+    "labelCandidatesVisited": 0,
+    "autoHoverScans": 0,
+    "autoHoverCandidates": 0,
+    "autoHoverCpuMs": 0,
+    "labelCreates": 0,
+    "overlayBuilds": 0,
+    "searchIndexReady": false,
+    "searchIndexLoading": false,
+    "bezierLoaded": false,
+    "bezierLoading": false,
+    "sceneObjects": 7,
+    "pendingFrame": false,
+    "pendingLabelTask": false,
+    "pointerLocked": false,
+    "pointerLockError": null,
+    "flightMode": false,
+    "flightKeys": [],
+    "flightRollVelocity": 0,
+    "flightSpeed": 3540,
+    "flightAutoSpeed": 3540,
+    "flightSpeedMin": 1239,
+    "flightSpeedMax": 8850,
+    "flightSpeedCount": 3607,
+    "flightSpeedVolume": 582665439862245.4,
+    "flightSpeedSpacing": 5446.168061377812,
+    "quality": "low",
+    "fpsLimit": "unlimited",
+    "pixelRatio": 1,
+    "drawCalls": 2,
+    "triangles": 7215,
+    "lines": 0,
+    "renderCpuMs": 0.8999999910593033,
+    "rendererTrackedBytes": 10013930,
+    "backgroundBytes": 0,
+    "overlayInstances": 0,
+    "labels": 0,
+    "neighborLabels": 0
+  },
+  "idle": {
+    "durationMs": 1500,
+    "frameDelta": 0,
+    "labelScanDelta": 0,
+    "pendingFrame": false,
+    "pendingLabelTask": false
+  },
+  "mouseLook": {
+    "positionChanged": false,
+    "orientationChanged": true,
+    "cameraBefore": {
+      "position": [
+        299.66110957670594,
+        284.00435849853034,
+        291.3070917429686
+      ],
+      "quaternion": [
+        -0.20184808544201344,
+        0.3734384499083858,
+        0.08360821452912522,
+        0.9015601704804108
+      ]
+    },
+    "cameraAfter": {
+      "position": [
+        299.66110957670594,
+        284.00435849853034,
+        291.3070917429686
+      ],
+      "quaternion": [
+        0.3283276554373976,
+        0.397766896263288,
+        0.8301095396636844,
+        -0.211897614595824
+      ]
+    },
+    "timeToIdleMs": 511.8670109999998,
+    "residualFramesBeforeIdle": 6,
+    "idleFrameDelta": 0
+  },
+  "forwardMovement": {
+    "durationMs": 1504.3560209999996,
+    "frameDelta": 90,
+    "labelScanDelta": 10,
+    "positionChanged": true,
+    "distance": 5309.815777809933,
+    "cameraBefore": {
+      "position": [
+        299.66110957670594,
+        284.00435849853034,
+        291.3070917429686
+      ],
+      "quaternion": [
+        0.33223250511806185,
+        0.3821752070385637,
+        0.8374022108453106,
+        -0.20572119710762887
+      ]
+    },
+    "cameraAfter": {
+      "position": [
+        -1791.8929567435662,
+        -3877.083598568776,
+        -2259.1619230634997
+      ],
+      "quaternion": [
+        0.33178846114810945,
+        0.387919756475991,
+        0.8344956734640099,
+        -0.20748891670262284
+      ]
+    },
+    "stats": {
+      "frames": 114,
+      "labelScans": 16,
+      "labelCandidatesVisited": 2,
+      "autoHoverScans": 33,
+      "autoHoverCandidates": 3,
+      "autoHoverCpuMs": 11.499999925494194,
+      "labelCreates": 0,
+      "overlayBuilds": 0,
+      "searchIndexReady": false,
+      "searchIndexLoading": false,
+      "bezierLoaded": false,
+      "bezierLoading": false,
+      "sceneObjects": 7,
+      "pendingFrame": true,
+      "pendingLabelTask": true,
+      "pointerLocked": true,
+      "pointerLockError": null,
+      "flightMode": true,
+      "flightKeys": [],
+      "flightRollVelocity": 0,
+      "flightSpeed": 3540,
+      "flightAutoSpeed": 3540,
+      "flightSpeedMin": 1239,
+      "flightSpeedMax": 8850,
+      "flightSpeedCount": 3607,
+      "flightSpeedVolume": 582665439862245.4,
+      "flightSpeedSpacing": 5446.168061377812,
+      "quality": "low",
+      "fpsLimit": "unlimited",
+      "pixelRatio": 1,
+      "drawCalls": 2,
+      "triangles": 7215,
+      "lines": 0,
+      "renderCpuMs": 0.5,
+      "rendererTrackedBytes": 10013930,
+      "backgroundBytes": 0,
+      "overlayInstances": 0,
+      "labels": 0,
+      "neighborLabels": 0
+    }
+  },
+  "settled": {
+    "durationMs": 1084.6160260000006,
+    "timeToIdleMs": 814.5623809999997,
+    "frameDelta": 3,
+    "idleFrameDelta": 0,
+    "labelScanDelta": 1,
+    "pendingFrame": false,
+    "pendingLabelTask": false
+  },
+  "consoleErrors": [],
+  "checks": {
+    "idleStopsRendering": true,
+    "mouseOnlyLooks": true,
+    "mouseReturnsToIdle": true,
+    "forwardMoves": true,
+    "releaseReturnsToIdle": true,
+    "noConsoleErrors": true
+  }
+}
