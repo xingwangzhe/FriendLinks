@@ -24,6 +24,7 @@
     "fmt-check": "oxfmt src/ links/ --check",
     "validate": "bun run scripts/validate-links.ts",
     "six": "bun run scripts/six-degrees.ts",
+    "blacklist": "bun scripts/blacklist.ts",
     "test": "bun test",
     "check": "bun --bun astro check",
     "bench": "bun scripts/experiments/frontend-interaction-bench.ts",
