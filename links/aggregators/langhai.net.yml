@@ -430,30 +430,6 @@ site:
     - name: 百度智能云
       url: https://cloud.baidu.com
       description: 百度智能云致力于为企业和开发者提供全球领先的人工智能、大数据和云计算服务，加速产业智能化转型升级。
-    - name: 知乎
-      url: https://www.zhihu.com
-      description: 与有共同兴趣的人分享知识和见解。
-    - name: 微博
-      url: https://weibo.com
-      description: 与朋友分享生活点滴。
-    - name: 小红书
-      url: https://www.xiaohongshu.com
-      description: 发现生活中的美好，记录和分享购物心得。
-    - name: 抖音
-      url: https://www.douyin.com
-      description: 记录美好生活。
-    - name: 微信
-      url: https://weixin.qq.com
-      description: 微信，是一个生活方式。
-    - name: QQ
-      url: https://im.qq.com
-      description: I'm QQ - 每一天，乐在沟通。
-    - name: 哔哩哔哩
-      url: https://www.bilibili.com
-      description: Bilibili 视频弹幕网站。
-    - name: YouTube
-      url: https://www.youtube.com
-      description: 探索精彩，分享无限。
     - name: YouTube 视频下载
       url: https://ytshorts.savetube.me
       description: 保存精彩瞬间。
@@ -532,9 +508,6 @@ site:
     - name: 在线工具
       url: https://tool.lu
       description: 你的工具箱。
-    - name: 微信读书
-      url: https://weread.qq.com
-      description: 微信读书电脑版。
     - name: 书栈网
       url: https://www.bookstack.cn
       description: IT 互联网开源编程书籍免费阅读与下载。
