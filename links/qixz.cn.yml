@@ -1,7 +1,11 @@
+# 贡献来源: 筱序二十 <qxbk@qq.com>，提交 4549da47；原 qxzhan.cn 于 272af1a2 迁移至此
 site:
   name: "青序栈"
   description: "青序成栈·向简而生"
   url: "https://www.qixz.cn/"
+  aliases:
+    - "https://qxzhan.cn/"
+    - "https://www.qxzhan.cn/"
   links: "/link"
   friends:
     - name: "安知鱼"

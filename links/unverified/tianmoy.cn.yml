@@ -1,3 +1,9 @@
+# 审核状态: unverified
+# 原因码: unverifiable
+# 检查日期: 2026-11-14
+# 证据: https://tianmoy.cn/ 当前返回 522，HTTPS 入口直接输出 Typecho index.php 源码，无法验证公开文章正文
+# 贡献来源: 摆烂领域大蛇 <19842332557@163.com>，提交 12825cc3
+# 备注: 保留贡献者站点；待站点恢复后复核首页、文章索引与原创正文
 "site":
   "name": "Tianmoy博客"
   "url": "https://tianmoy.cn/"
