@@ -46,8 +46,10 @@ storage/
 # opencode 工具计划/会话产物
 .zcode/
 
+# WorkBuddy 工具产物
+.workbuddy/
+
 # Tencent Cloud EdgeOne
 .env
 .edgeone/*
 .tef_dist/*
-  
