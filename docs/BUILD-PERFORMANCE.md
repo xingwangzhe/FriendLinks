@@ -89,6 +89,40 @@ POPCNT 通过运行时能力检测启用，旧 x86 CPU 保留通用实现，ARM 
 - 压缩输出缓存使用输入内容哈希、Bun 版本和压缩级别。所有缓存有 payload SHA-256 校验、原子写入和损坏回退；超过时间上限的未完成布局不落缓存。
 - CI 复用 `node_modules/.cache/friendlinks-build`；恢复旧快照后仍逐项校验输入。没有启用会让多个进程重复布局的 Astro prerender workers。
 
+### Astro 官方缓存键与本项目落点
+
+Astro 官方的 [incremental static builds](https://docs.astro.build/en/reference/experimental-flags/incremental-build/) 只允许跳过 `getStaticPaths()` 返回的页面，并且必须同时满足：
+
+- 该路径返回 `cacheKey`，值随页面数据变化；
+- 页面模块依赖图哈希未变化；
+- Astro 配置和项目依赖未变化；
+- `node_modules/.astro/`（或配置的 `cacheDir`）被保留并在 CI 中恢复。
+
+内容集合的 [loader digest](https://docs.astro.build/en/reference/content-loader-reference/#dataentrydigest) 可作为逐条目的稳定缓存键；它不是静态端点的 `cacheKey`，也不会自动跳过未声明 `getStaticPaths()` 的路由。
+
+本项目当前没有 Astro Content Collections，也没有动态 `getStaticPaths()` 路由：5 个产物是静态首页和 4 个固定端点，`node_modules/.astro/incremental-build.json` 的 `routes` 为空。因此 Astro 增量缓存目前不会跳过任何页面，构建速度来自下面的自定义内容摘要与产物缓存，而不是 `experimental.incrementalBuild`。
+
+当前缓存键标准：
+
+1. **内容集合源摘要**：对每个正式 YAML 的相对路径与实际 UTF-8 内容分别取 SHA-256，按路径稳定排序后再取一个总 SHA-256。新增、删除、重命名、同长度编辑和黑名单删除都会改变摘要。
+2. **合并站点快照**：键由源摘要、解析/身份实现指纹、采样实现哈希、采样规模和快照 schema 组成。命中时直接恢复合并后的 `Site[]` 与来源计数，省去重新做别名归并和友链去重。
+3. **跨端点快照键**：`snapshotArtifactKey(sites)` 对一个进程内不可变站点数组只计算一次，图和统计端点复用同一个摘要，避免重复序列化约 8 MB 站点对象。
+4. **图和统计产物**：键包含站点快照摘要、实现源码/native 指纹；统计额外包含原始记录计数。
+5. **布局与压缩**：布局键只包含拓扑、初始状态、力参数和实现/native 指纹；Zstd 键只包含输入内容哈希、级别和 Bun 版本。
+6. 所有缓存 payload 都有 SHA-256 校验、原子写入和损坏回退；时间上限截断的布局不得落缓存。
+
+未来增加逐站点动态页时，`getStaticPaths()` 的 `cacheKey` 应使用内容集合的 `entry.digest`（或等价的稳定内容摘要），禁止使用当前时间、PID、随机数或仅文件 mtime。CI 只恢复 `node_modules/.astro/` 和 `node_modules/.cache/friendlinks-build`，不要恢复整个工作区。
+
+2026-11-14 本机验证（Bun 1.4.4 / Astro 7.4.12）：
+
+| 场景 | 墙钟时间 | 关键命中 |
+| --- | ---: | --- |
+| 实现变更后的首轮构建 | 15.36 s | YAML 0 复用；图/布局 miss；Zstd hit；写入站点合并快照 |
+| 相同输入再构建 | **2.51 s** | YAML 8572 复用；站点快照 hit；图/布局/统计/Zstd 全部 hit |
+| 加速前相同输入构建 | 3.79 s | 有 YAML/图/布局/统计缓存，但每次重做身份合并 |
+
+热构建端点耗时：`/all.json` 328 ms、`/graph-bezier.bin` 336 ms、`/graph-core.bin` 91 ms、`/stats.json` 24 ms。合并站点快照缓存为 3.64 MB；`all.json` SHA-256 为 `df7070bbd927fe8dfe007460aeb4dabda306bda0cee9ed39e3c99259ce88a706`，统计 SHA-256 为 `62113432dcd1d0e0f04ccd542c65da18a6d7cb94ee61e35130fe3df4894e9233`，产物校验通过。
+
 ### 元数据变化与拓扑布局缓存
 
 布局单独以节点 ID 顺序、原始边索引字节、完整初始状态字节、力参数、最大 tick 数与 alpha 停止条件作为 key，并包含相同的实现、运行时和 native 指纹。标题、描述与图标变化仍使外层图数据缓存失效、更新输出元数据；只要拓扑及全部力输入不变，就能复用完整布局。缓存状态须为正确长度的有限 Float64Array，tick 数在范围内，且不能是时间上限截断的结果。

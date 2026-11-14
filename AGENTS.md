@@ -388,6 +388,15 @@ bun run fmt          # 代码格式化
 
 在 `astro.config.mjs` 顶部配置 `DEV_SAMPLE_SIZE`，默认 100；启动环境变量同名覆盖（如 `DEV_SAMPLE_SIZE=500 bun run dev`）。0 表示全量，仅接受非负安全整数，修改后重启。它限制正式站点抽样数，友链目标可能增加实际星球数；生产构建仍为全量。详见 `docs/DEV.md`。
 
+### 构建缓存键
+
+- Astro 官方 `cacheKey` 只对 `getStaticPaths()` 返回的页面生效；当前 5 个产物均为静态首页或固定端点，`node_modules/.astro/incremental-build.json` 的 `routes` 为空，不能把热构建速度归因于 Astro 增量缓存。
+- 本项目已因性能移除 Astro Content Collections。不要直接加回 `glob()`/自定义 loader；若确需恢复，必须先证明内容集合的数据存储、digest 与类型生成成本低于当前 `links/**/*.yml` 自定义集合缓存。
+- 当前内容集合键由相对路径 + 原始 UTF-8 内容的逐文件 SHA-256、稳定路径排序、解析/身份实现指纹、采样实现哈希和采样规模组成；合并后的 `Site[]` 与来源计数存入 `sites` 快照缓存。
+- 图和统计键复用 `snapshotArtifactKey(sites)`，布局键只含拓扑、初始状态、力参数和实现/native 指纹，Zstd 键只含输入哈希、级别和 Bun 版本。
+- 缓存键禁止使用当前时间、PID、随机数、仅文件 mtime 或与输出无关的绝对路径。修改关键实现或 native 文件后允许重建缓存，但必须校验产物。
+- 详细规则和实测数据见 `docs/BUILD-PERFORMANCE.md` 的“Astro 官方缓存键与本项目落点”。
+
 ### 代码风格
 
 ```bash
