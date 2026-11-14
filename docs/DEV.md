@@ -39,12 +39,12 @@ Astro 通过 Vite `define` 将值注入 `__DEV_SAMPLE_SIZE__`。`src/utils/sampl
 
 飞船模式只使用底部 HUD：半透明淡文字、`pointer-events: none`、不获取焦点；`X` 使用高亮提示退出。
 
-开发验证使用 `bun run dev` 的抽样数据，运行 `bun run lint`、`bun test`、`bun run verify:controls` 与改动文件格式检查；浏览器验收覆盖面板开关、鼠标只转向、WASD/RF 位移、Shift 加速、Q/E 横滚、X 退出、速度滑块和静止停绘。开发模式会清理本项目旧 Service Worker 缓存，避免加载过期控件代码。不得以生产构建替代 dev 检查。
+开发验证使用 `bun run dev` 的抽样数据，运行 `bun run lint`、`bun test`、`bun run verify:controls` 与改动文件格式检查；浏览器验收覆盖中键悬停提示、面板开关、鼠标只转向、WASD/RF 位移、Shift 加速、Q/E 横滚、X 退出水平恢复、速度滑块和静止停绘。开发模式会清理本项目旧 Service Worker 缓存，避免加载过期控件代码。不得以生产构建替代 dev 检查。
 
 ### 本次交互重构验证（2026-11-14）
 
 - `bun run lint` 与 `bun test` 通过。
-- `bun run verify:controls` 在系统 Chrome 验证原生面板、Escape 关闭、速度滑块自动范围和恢复自动、底部 HUD、鼠标只转向、WASD/RF 位移、Shift 加速、Q/E 横滚、静止停绘及 X 退出。
+- `bun run verify:controls` 在系统 Chrome 验证原生面板、Escape 关闭、速度滑块自动范围和恢复自动、底部 HUD、中键悬停提示、鼠标右移向上看且不位移、WASD/RF 位移、Shift 加速、Q/E 横滚、静止停绘及 X 退出水平恢复。
 - 证据写入 `reports/frontend-performance-2026-11-14/`。
 - 不执行生产构建、提交或推送。
 

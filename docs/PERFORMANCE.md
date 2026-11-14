@@ -2,6 +2,12 @@
 
 2026-10-18：默认性能优先。保留完整图、搜索、聚焦、路径与飞行功能，减少节点几何量、显存记账、候选扫描及空闲工作。跨仓库原生算法和构建缓存另见 [构建性能报告](BUILD-PERFORMANCE.md)。
 
+### 2026-11-14 稳定基准
+
+依赖已更新到当前清单最新版，Three.js 为 0.187.0。系统 Chrome 157 的抽样 dev 复测显示：首屏约 542ms 达到稳定空闲，随后 1500ms 内新增帧为 0；鼠标转向不改变相机位置且能回到停绘；持续 W 前进 1504.9ms 绘制 90 帧、移动 5309.88 单位，约 60 FPS；松键后 408ms 回稳，稳定后不再绘帧。浏览器检查无 Console 错误。
+
+CPU 合成微基准中，2048 节点遮挡列拾取中位约 0.036ms，10k 网格约 0.0065ms；共享曲线顶点采样约 0.616ms，未共享版本约 0.759ms。数字来自热缓存与单进程，只用于防止拾取和采样回退，不能解释为整页 FPS、GPU 完成时间或所有设备的表现。原始记录见 [基线浏览器数据](../reports/frontend-performance-2026-11-14/baseline-browser-benchmark.json)、[当前浏览器数据](../reports/frontend-performance-2026-11-14/browser-benchmark.json)和[交互微基准](../reports/frontend-performance-2026-11-14/interaction-microbench.json)。
+
 ## 全量图实测
 
 使用系统 Chrome 155、Intel Iris Xe / gen-12lp 集显，视口 1920×906、DPR=1、节能档。对照冻结在同一份 **49,064 节点、107,527 条边**的数据；新版 HTML 使用最终前端资源和旧图时间戳，避免上游新增站点改变布局后混入对比。每个场景交错测试三轮、交换先后顺序，每轮预热 4 次并测量 20 次。
@@ -105,7 +111,7 @@ console.table({
 
 主性能提交的 GitHub 构建已成功。随后使用 `bun update` 更新清单范围内的传递依赖，修复 sharp `<0.35.5` 的 [GHSA-wq5f-xc86-pv6w](https://github.com/advisories/GHSA-wq5f-xc86-pv6w) 和 source-map-js `<1.2.2` 的 [GHSA-68fv-2mgg-jv7q](https://github.com/advisories/GHSA-68fv-2mgg-jv7q)。最终安装 sharp 0.35.5、source-map-js 1.2.2，`bun audit --json` 返回 `{}` 并以 0 退出。SVG 解码和 source-map 查询 smoke 检查通过。TypeScript 继续固定 6.0.3，两个原生包均使用 registry 0.3.0，没有本地链接残留。
 
-飞行模式未锁定鼠标或锁定其它画布时，节点与邻居标签的点击不再打开 URL 或改变聚焦，首击继续传给重新锁定 handler；锁定当前画布后保留原行为。回归测试覆盖事件传递及轨道模式。最新页面实测该首击打开 URL 次数为 0；该次浏览器因文档焦点返回 `WrongDocumentError`，提示保留，成功锁定与移动的独立证据仍见前述抽样 dev 记录。
+飞行模式中，无论是否锁定当前画布，节点与邻居标签的点击都不再打开 URL 或改变聚焦；未锁定时首击继续传给重新锁定 handler。回归测试覆盖事件传递及轨道模式。系统 Chrome 还验证了中键在轨道模式回调 `window.open`、飞行鼠标不位移只转向，以及 Q/E 横滚后按 X 退出会保留视线方向并恢复水平地平线。
 
 收尾源码校验为 **84 tests、4840 assertions、0 failures**；lint 通过，Astro check 82 文件、0 errors、0 warnings、7 hints。校验并行时缓存构建为 11.487s，仅作为成功验证；与安全补丁前逐项对照，站点、关系、统计、全部节点坐标一致，位置差为 0。最新页面稳定后两秒新增帧和标签扫描均为 0，搜索索引仍未创建、背景数组为 0。证据见报告目录中的 `*-security.log`、`audit-*.json`、`transitive-smoke.json`、`output-security.json` 和 `security-browser.json`。
 
