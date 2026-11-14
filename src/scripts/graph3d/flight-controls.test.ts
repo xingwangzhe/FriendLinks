@@ -8,6 +8,7 @@ import {
   DEFAULT_FLIGHT_LOOK_SENSITIVITY,
   flightActionForKeyEvent,
   isEditableFlightTarget,
+  levelFlightCamera,
 } from "./flight-controls";
 
 function spread(count: number, extent: number) {
@@ -58,6 +59,21 @@ test("flight look applies yaw around the rolled ship's local up axis", () => {
   const after = direction(camera);
 
   expect(after.clone().sub(before).dot(localRight)).toBeGreaterThan(0.1);
+});
+
+test("leaving flight mode levels the horizon without changing the look direction", () => {
+  const camera = new PerspectiveCamera();
+  camera.rotateY(0.7);
+  camera.rotateX(0.4);
+  camera.rotateZ(0.55);
+  const before = direction(camera);
+
+  levelFlightCamera(camera);
+
+  const after = direction(camera);
+  const right = new Vector3(1, 0, 0).applyQuaternion(camera.quaternion);
+  expect(after.dot(before)).toBeGreaterThan(0.9999);
+  expect(right.y).toBeCloseTo(0, 5);
 });
 
 test("physical WASD controls map to translation actions even when key labels change", () => {

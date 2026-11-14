@@ -36,13 +36,15 @@ test("indexed picking preserves hover, clicks, fly-center targeting and cleans u
   const ix = createInteraction(ctx, [node]);
   const hovered: Array<GraphNode | null> = [];
   const clicked: GraphNode[] = [];
+  const middleClicked: GraphNode[] = [];
   const rightClicked: GraphNode[] = [];
   ix.onHover = (value) => hovered.push(value);
   ix.onClick = (value) => clicked.push(value);
+  ix.onMiddleClick = (value) => middleClicked.push(value);
   ix.onRightClick = (value) => rightClicked.push(value);
 
-  function dispatch(type: string, clientX: number, clientY: number) {
-    const event = Object.assign(new Event(type, { cancelable: true }), { clientX, clientY });
+  function dispatch(type: string, clientX: number, clientY: number, button = 0) {
+    const event = Object.assign(new Event(type, { cancelable: true }), { clientX, clientY, button });
     canvas.dispatchEvent(event);
     return event;
   }
@@ -65,6 +67,9 @@ test("indexed picking preserves hover, clicks, fly-center targeting and cleans u
     dispatch("click", 520, 530);
     dispatch("click", 20, 30);
     expect(clicked).toEqual([node]);
+    expect(dispatch("mousedown", 520, 530, 1).defaultPrevented).toBe(true);
+    expect(dispatch("auxclick", 520, 530, 1).defaultPrevented).toBe(true);
+    expect(middleClicked).toEqual([node]);
     expect(dispatch("contextmenu", 520, 530).defaultPrevented).toBe(true);
     expect(rightClicked).toEqual([node]);
 
@@ -72,9 +77,12 @@ test("indexed picking preserves hover, clicks, fly-center targeting and cleans u
     expect(ix.pickAtCenter()).toBe(node);
     expect(ix.lastPickCandidateCount).toBeGreaterThan(0);
     dispatch("click", 20, 30);
+    dispatch("mousedown", 20, 30, 1);
+    dispatch("auxclick", 20, 30, 1);
     dispatch("contextmenu", 20, 30);
-    expect(clicked).toEqual([node, node]);
-    expect(rightClicked).toEqual([node, node]);
+    expect(clicked).toEqual([node]);
+    expect(middleClicked).toEqual([node]);
+    expect(rightClicked).toEqual([node]);
     ix.setFlyMode(false);
     camera.rotation.y = Math.PI;
     camera.updateMatrixWorld();
@@ -82,7 +90,7 @@ test("indexed picking preserves hover, clicks, fly-center targeting and cleans u
     camera.rotation.y = 0;
     camera.updateMatrixWorld();
     dispatch("click", 20, 30);
-    expect(clicked).toEqual([node, node]);
+    expect(clicked).toEqual([node]);
 
     clock.mockReturnValue(300);
     dispatch("mousemove", 520, 530);
@@ -101,11 +109,14 @@ test("indexed picking preserves hover, clicks, fly-center targeting and cleans u
     clock.mockReturnValue(400);
     dispatch("mousemove", 520, 530);
     dispatch("click", 520, 530);
+    dispatch("mousedown", 520, 530, 1);
+    dispatch("auxclick", 520, 530, 1);
     expect(dispatch("contextmenu", 520, 530).defaultPrevented).toBe(false);
     dispatch("pointerleave", 20, 30);
     expect(hovered).toEqual([node, null, node, null, node, null]);
-    expect(clicked).toEqual([node, node]);
-    expect(rightClicked).toEqual([node, node]);
+    expect(clicked).toEqual([node]);
+    expect(middleClicked).toEqual([node]);
+    expect(rightClicked).toEqual([node]);
   } finally {
     ix.dispose();
     clock.mockRestore();
@@ -171,6 +182,7 @@ test("unchanged hover rays reuse exact picks while camera, scale, clip and layer
     expect(ix.hoveredIndex).toBe(0);
 
     // Explicit activation performs a new exact query, even after cached hover.
+    ix.setFlyMode(false);
     const event = Object.assign(new Event("click"), { clientX: 0, clientY: 0 });
     canvas.dispatchEvent(event);
     canvas.dispatchEvent(event);
@@ -186,7 +198,7 @@ test("unchanged hover rays reuse exact picks while camera, scale, clip and layer
   }
 });
 
-test("flight node activation requires this canvas's pointer lock and preserves relock clicks", () => {
+test("flight mouse activation is suppressed while orbit interactions still use the pointer", () => {
   class Canvas extends EventTarget {
     getBoundingClientRect() {
       return { left: 0, top: 0, width: 1000, height: 1000 };
@@ -233,8 +245,8 @@ test("flight node activation requires this canvas's pointer lock and preserves r
     pointerLock.document.pointerLockElement = canvas;
     activate("click");
     activate("contextmenu");
-    expect(clicked).toEqual([node]);
-    expect(rightClicked).toEqual([node]);
+    expect(clicked).toEqual([]);
+    expect(rightClicked).toEqual([]);
     expect(relockClicks).toBe(3);
 
     // Orbit interactions still use the physical pointer without requiring lock.
@@ -242,8 +254,8 @@ test("flight node activation requires this canvas's pointer lock and preserves r
     ix.setFlyMode(false);
     activate("click", 500, 500);
     activate("contextmenu", 500, 500);
-    expect(clicked).toEqual([node, node]);
-    expect(rightClicked).toEqual([node, node]);
+    expect(clicked).toEqual([node]);
+    expect(rightClicked).toEqual([node]);
   } finally {
     ix.dispose();
     pointerLock.restore();

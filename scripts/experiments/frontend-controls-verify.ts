@@ -96,6 +96,12 @@ async function waitForGraph(page: Page) {
   await page.waitForTimeout(700);
 }
 
+async function canvasCenter(page: Page) {
+  const box = await page.locator("#main canvas").boundingBox();
+  if (!box) throw new Error("Canvas unavailable for pointer verification");
+  return { x: Math.round(box.x + box.width / 2), y: Math.round(box.y + box.height / 2) };
+}
+
 async function cameraState(page: Page): Promise<CameraState> {
   return page.evaluate(() => {
     const camera = window.__graphApi!.ctx!.camera as unknown as {
@@ -198,6 +204,16 @@ async function main() {
   await page.bringToFront();
   await waitForGraph(page);
   await page.evaluate(() => {
+    const opened: unknown[] = [];
+    const originalOpen = window.open;
+    (window as unknown as { __verifyOpened: unknown[] }).__verifyOpened = opened;
+    (window as unknown as { __verifyOriginalOpen: typeof window.open }).__verifyOriginalOpen = originalOpen;
+    window.open = (...args: Parameters<typeof window.open>) => {
+      opened.push(args);
+      return null;
+    };
+  });
+  await page.evaluate(() => {
     (window as unknown as { __verifyKeys: unknown[] }).__verifyKeys = [];
     for (const type of ["keydown", "keyup"] as const) {
       document.addEventListener(
@@ -289,6 +305,40 @@ async function main() {
   await page.locator("dialog.app-panel[open] .app-panel-close").click();
   await page.waitForFunction(() => !document.querySelector("dialog.app-panel[open]"));
 
+  const focusTarget = await page.evaluate(() => {
+    const nodes = window.__graphApi!.getGraphData!().nodes as Array<{
+      id: string;
+      name: string;
+      url: string;
+      x?: number;
+      y?: number;
+      z?: number;
+    }>;
+    const node = nodes.find(
+      (candidate) => candidate.url && candidate.x != null && candidate.y != null && candidate.z != null,
+    );
+    if (!node) return null;
+    window.__graphApi!.focusNodeById!(node.id);
+    return { id: node.id, name: node.name, url: node.url };
+  });
+  if (!focusTarget) throw new Error("No positioned URL node available for hover verification");
+  await sleep(1_100);
+  const hoverCenter = await canvasCenter(page);
+  await page.mouse.move(hoverCenter.x, hoverCenter.y);
+  await page.waitForFunction(() => document.getElementById("graph-tooltip")?.style.display === "block", undefined, {
+    timeout: 5_000,
+  });
+  const tooltipText = await page.evaluate(() => document.getElementById("graph-tooltip")?.textContent ?? "");
+  await page.mouse.click(hoverCenter.x, hoverCenter.y, { button: "middle" });
+  await sleep(80);
+  const opened = await page.evaluate(() => (window as unknown as { __verifyOpened?: unknown[] }).__verifyOpened ?? []);
+  check(
+    "悬停提示中键在新标签页打开网站（不触发页面跳转）",
+    tooltipText.includes("中键在新标签页打开网站") &&
+      opened.some((entry) => Array.isArray(entry) && entry[0] === focusTarget.url),
+    { target: focusTarget, tooltipText, opened },
+  );
+
   await page.locator("#fly-toggle").click();
   const pointerLockMode = await ensurePointerLock(page);
   const hud = await page.evaluate(() => {
@@ -333,10 +383,19 @@ async function main() {
   const afterLook = await cameraState(page);
   const lookPositionChange = length(subtract(afterLook.position, beforeLook.position));
   const lookRotationChange = quaternionDistance(afterLook.quaternion, beforeLook.quaternion);
-  check("鼠标只转向不位移", lookPositionChange < 1e-6 && lookRotationChange > 0.01, {
-    positionChange: round(lookPositionChange),
-    rotationChange: round(lookRotationChange),
-  });
+  const lookDelta = subtract(afterLook.forward, beforeLook.forward);
+  const lookRight = dot(lookDelta, beforeLook.right);
+  const lookUp = dot(lookDelta, beforeLook.up);
+  check(
+    "鼠标右移向上看且不位移",
+    lookPositionChange < 1e-6 && lookRotationChange > 0.01 && lookRight > 0.02 && lookUp > 0.02,
+    {
+      positionChange: round(lookPositionChange),
+      rotationChange: round(lookRotationChange),
+      lookRight: round(lookRight),
+      lookUp: round(lookUp),
+    },
+  );
 
   const movementCases: Array<{
     label: string;
@@ -436,13 +495,38 @@ async function main() {
   check("无输入后停止绘帧", idleEnd - idleStart === 0, { frameDelta: idleEnd - idleStart });
 
   await page.screenshot({ path: screenshotPath, fullPage: false });
+  const rolledBeforeExit = await cameraState(page);
   await page.keyboard.press("x");
   await page.waitForFunction(() => document.getElementById("fly-hud")?.hidden === true);
   const exited = await page.evaluate(() => ({
     hudHidden: document.getElementById("fly-hud")?.hidden === true,
     buttonText: document.getElementById("fly-toggle")?.textContent?.trim(),
   }));
-  check("X 退出飞船模式", exited.hudHidden && exited.buttonText === "🚀 飞船模式", exited);
+  const exitedCamera = await cameraState(page);
+  const exitForwardPreserved = dot(rolledBeforeExit.forward, exitedCamera.forward);
+  const exitLeveled = Math.abs(exitedCamera.right[1]) < 0.02;
+  await sleep(700);
+  const exitIdleStart = await page.evaluate(() => window.__graphApi!.getPerformanceStats!().frames);
+  await sleep(500);
+  const exitIdleEnd = await page.evaluate(() => window.__graphApi!.getPerformanceStats!().frames);
+  check(
+    "X 退出飞船模式并恢复水平视野",
+    exited.hudHidden &&
+      exited.buttonText === "🚀 飞船模式" &&
+      exitForwardPreserved > 0.999 &&
+      exitLeveled &&
+      exitIdleEnd === exitIdleStart,
+    {
+      ...exited,
+      forwardPreserved: round(exitForwardPreserved),
+      rightY: round(exitedCamera.right[1]),
+      idleFrameDelta: exitIdleEnd - exitIdleStart,
+    },
+  );
+  await page.evaluate(() => {
+    const originalOpen = (window as unknown as { __verifyOriginalOpen?: typeof window.open }).__verifyOriginalOpen;
+    if (originalOpen) window.open = originalOpen;
+  });
 
   const failed = checks.filter((entry) => !entry.pass);
   const report = {

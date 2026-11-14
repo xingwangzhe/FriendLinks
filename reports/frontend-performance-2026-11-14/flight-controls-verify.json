@@ -56,6 +56,25 @@
       "details": {}
     },
     {
+      "name": "悬停提示中键在新标签页打开网站（不触发页面跳转）",
+      "pass": true,
+      "details": {
+        "target": {
+          "id": "http://429006.com/",
+          "name": "流行的日志",
+          "url": "http://429006.com/"
+        },
+        "tooltipText": "流行的日志友情链接http://429006.com/中键在新标签页打开网站",
+        "opened": [
+          [
+            "http://429006.com/",
+            "_blank",
+            "noopener,noreferrer"
+          ]
+        ]
+      }
+    },
+    {
       "name": "飞行 HUD 轻量且不拦截指针",
       "pass": true,
       "details": {
@@ -69,19 +88,21 @@
       }
     },
     {
-      "name": "鼠标只转向不位移",
+      "name": "鼠标右移向上看且不位移",
       "pass": true,
       "details": {
         "positionChange": 0,
-        "rotationChange": 0.196254
+        "rotationChange": 0.196254,
+        "lookRight": 0.33945,
+        "lookUp": 0.175093
       }
     },
     {
       "name": "W 前进",
       "pass": true,
       "details": {
-        "distance": 1121,
-        "axisValue": 1121
+        "distance": 1179.764,
+        "axisValue": 1179.764
       }
     },
     {
@@ -104,8 +125,8 @@
       "name": "D 右移",
       "pass": true,
       "details": {
-        "distance": 1120.646,
-        "axisValue": 1120.646
+        "distance": 1179.764,
+        "axisValue": 1179.764
       }
     },
     {
@@ -128,17 +149,17 @@
       "name": "Shift 约 3 倍速",
       "pass": true,
       "details": {
-        "normalDistance": 1298,
-        "shiftDistance": 3894,
-        "ratio": 3
+        "normalDistance": 1238.882,
+        "shiftDistance": 3892.938,
+        "ratio": 3.142299
       }
     },
     {
       "name": "Q/E 横滚方向相反",
       "pass": true,
       "details": {
-        "qUpX": -0.601348,
-        "eUpX": 0.070598,
+        "qUpX": -0.601349,
+        "eUpX": 0.070713,
         "keys": [],
         "velocity": 0,
         "eHeld": [
@@ -155,18 +176,21 @@
       }
     },
     {
-      "name": "X 退出飞船模式",
+      "name": "X 退出飞船模式并恢复水平视野",
       "pass": true,
       "details": {
         "hudHidden": true,
-        "buttonText": "🚀 飞船模式"
+        "buttonText": "🚀 飞船模式",
+        "forwardPreserved": 1,
+        "rightY": 0,
+        "idleFrameDelta": 0
       }
     }
   ],
   "movementReport": {
     "W 前进": {
-      "distance": 1121,
-      "axisValue": 1121
+      "distance": 1179.764,
+      "axisValue": 1179.764
     },
     "S 后退": {
       "distance": 1121,
@@ -177,8 +201,8 @@
       "axisValue": -1121
     },
     "D 右移": {
-      "distance": 1120.646,
-      "axisValue": 1120.646
+      "distance": 1179.764,
+      "axisValue": 1179.764
     },
     "R 上升": {
       "distance": 1121,
