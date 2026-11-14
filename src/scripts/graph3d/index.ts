@@ -26,6 +26,15 @@ import {
 } from "./renderer";
 import { createInteraction } from "./interaction";
 import { findShortestPath } from "./pathfinder";
+import {
+  applyFlightLook,
+  applyFlightRoll,
+  applyFlightTranslation,
+  computeFlightSpeed,
+  flightActionForKeyEvent,
+  isEditableFlightTarget,
+  type FlightAction,
+} from "./flight-controls";
 import type { GraphData } from "../../../types/graph";
 
 // ─── 常量 ──────────────────────────────────────────────────────────
@@ -295,7 +304,16 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
   const lazyAbort = new AbortController();
 
   setRenderQuality(ctx, quality);
-  const perfStats = { frames: 0, labelScans: 0, labelCandidatesVisited: 0, labelCreates: 0, overlayBuilds: 0 };
+  const perfStats = {
+    frames: 0,
+    labelScans: 0,
+    labelCandidatesVisited: 0,
+    autoHoverScans: 0,
+    autoHoverCandidates: 0,
+    autoHoverCpuMs: 0,
+    labelCreates: 0,
+    overlayBuilds: 0,
+  };
   // We own the frame loop, so retain the last frame's real draw counters until the next frame.
   ctx.renderer.info.autoReset = false;
   let renderCpuMs = 0;
@@ -451,32 +469,21 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
   }
 
   // ── 9. 控制面板 ──
-  let MOVE_SPEED = loadVal("flight_speed", 15);
+  const flightSpeedProfile = computeFlightSpeed(nodes);
+  const autoFlightSpeed = flightSpeedProfile.speed;
+  const flightSpeedMin = Math.max(50, Math.round(autoFlightSpeed * 0.35));
+  const flightSpeedMax = Math.max(flightSpeedMin + 100, Math.round(autoFlightSpeed * 2.5));
+  const flightSpeedStep = 1;
+  const savedSpeedScaleRaw = Number(loadVal<unknown>("flight_speed_scale", 1));
+  const savedSpeedScale = Number.isFinite(savedSpeedScaleRaw) ? Math.min(2.5, Math.max(0.35, savedSpeedScaleRaw)) : 1;
+  let MOVE_SPEED = Math.min(flightSpeedMax, Math.max(flightSpeedMin, Math.round(autoFlightSpeed * savedSpeedScale)));
   function createControlPanel() {
     let panel = document.getElementById("graph-control-panel") as HTMLElement | null;
     if (panel) return panel;
     panel = document.createElement("div");
     panel.id = "graph-control-panel";
-
-    // 标题栏（可拖拽 + X 关闭）
-    const header = document.createElement("div");
-    header.className = "cp-header";
-    header.style.cssText =
-      "display:flex;align-items:center;padding:6px 10px;border-bottom:1px solid rgba(255,255,255,0.08);cursor:grab;user-select:none;";
-    const titleEl = document.createElement("span");
-    titleEl.textContent = "控制面板";
-    titleEl.style.cssText = "font-size:13px;color:#aaa;flex:1;";
-    const closeBtn = document.createElement("button");
-    closeBtn.className = "btn btn-sm";
-    closeBtn.textContent = "×";
-    closeBtn.style.cssText =
-      "background:none;border:none;color:#aaa;cursor:pointer;font-size:16px;padding:0 4px;line-height:1;";
-    closeBtn.addEventListener("click", () => {
-      hidePanel(panel!.id);
-    });
-    header.appendChild(titleEl);
-    header.appendChild(closeBtn);
-    panel.appendChild(header);
+    panel.className = "panel-content control-panel";
+    panel.hidden = true;
 
     function addSliderRow(
       parent: HTMLElement,
@@ -500,21 +507,22 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
       slider.max = max;
       slider.step = step;
       slider.value = defaultValue;
-      slider.style.cssText = "width:100%;accent-color:#4a9eff;";
+      slider.style.cssText = "flex:1 1 auto;min-width:0;accent-color:#4a9eff;";
       const val = document.createElement("span");
       val.textContent = defaultValue + (unit || "");
-      val.style.cssText = "font-size:11px;color:#aaa;margin-left:6px;";
+      val.style.cssText = "flex:none;white-space:nowrap;font-size:11px;color:#aaa;margin-left:6px;";
       slider.addEventListener("input", () => {
         const v = Number(slider.value);
         val.textContent = slider.value + (unit || "");
         onChange(v);
       });
       const row = document.createElement("div");
-      row.style.cssText = "display:flex;align-items:center;";
+      row.style.cssText = "display:flex;align-items:center;gap:8px;";
       row.appendChild(slider);
       row.appendChild(val);
       parent.appendChild(label);
       parent.appendChild(row);
+      return { slider, valueEl: val, row };
     }
 
     const qualityLabel = document.createElement("label");
@@ -577,10 +585,39 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
       saveVal("link_opacity", v);
       refreshLinkColors();
     });
-    addSliderRow(panel, "飞船速度", "5", "100", "5", String(MOVE_SPEED), (v) => {
-      MOVE_SPEED = v;
-      saveVal("flight_speed", v);
+    const speedControl = addSliderRow(
+      panel,
+      "飞船速度",
+      String(flightSpeedMin),
+      String(flightSpeedMax),
+      String(flightSpeedStep),
+      String(MOVE_SPEED),
+      (v) => {
+        MOVE_SPEED = v;
+        saveVal("flight_speed_scale", v / autoFlightSpeed);
+      },
+      " 单位/秒",
+    );
+    speedControl.slider.id = "flight-speed-slider";
+    speedControl.slider.dataset.autoSpeed = String(autoFlightSpeed);
+    const speedHint = document.createElement("div");
+    speedHint.className = "mt-1 flex flex-wrap items-center justify-between gap-3 text-xs text-base-content/60";
+    const speedHintText = document.createElement("span");
+    speedHintText.textContent = `自动基准 ${autoFlightSpeed.toLocaleString()} 单位/秒 · ${flightSpeedProfile.count.toLocaleString()} 个星球按分布体积推算`;
+    const speedReset = document.createElement("button");
+    speedReset.type = "button";
+    speedReset.id = "flight-speed-reset";
+    speedReset.className = "btn btn-ghost btn-xs";
+    speedReset.textContent = "恢复自动";
+    speedReset.title = "恢复按当前星球数量和分布体积计算的自动速度";
+    speedReset.addEventListener("click", () => {
+      MOVE_SPEED = autoFlightSpeed;
+      speedControl.slider.value = String(autoFlightSpeed);
+      speedControl.valueEl.textContent = `${autoFlightSpeed} 单位/秒`;
+      saveVal("flight_speed_scale", 1);
     });
+    speedHint.append(speedHintText, speedReset);
+    panel.appendChild(speedHint);
 
     {
       const lbl = document.createElement("label");
@@ -637,17 +674,8 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
 
     const hint = document.createElement("div");
     hint.textContent = "右键点击节点聚焦 · 左键打开链接 · 拖拽旋转/平移";
-    hint.style.cssText = "font-size:10px;color:#666;margin-top:10px;text-align:center;";
+    hint.className = "text-xs opacity-50 mt-3 text-center";
     panel.appendChild(hint);
-    panel.style.cssText = `position:fixed;
-      bottom:var(--cp-bottom,70px);right:var(--cp-right,16px);
-      left:var(--cp-left,auto);top:var(--cp-top,auto);
-      width:var(--cp-width,auto);border-radius:var(--cp-border-radius,8px);
-      transform:var(--cp-transform,none);
-      z-index:9998;
-      background:rgba(30,30,40,0.85);backdrop-filter:blur(8px);
-      border:1px solid rgba(255,255,255,0.1);
-      padding:0 14px 10px;min-width:160px;display:none;font-family:sans-serif;overflow:hidden;`;
     document.body.appendChild(panel);
     registerPanel(panel);
     return panel;
@@ -660,84 +688,13 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
   (window as any).__toggleOpacityPanel = togglePanel;
 
   // ── 10. 邻居面板 ──
-  function createNeighborPanelStyle() {
-    if (document.getElementById("neighbor-panel-style")) return;
-    const style = document.createElement("style");
-    style.id = "neighbor-panel-style";
-    style.textContent = `
-      #neighbor-panel { position:fixed;
-        right:0; bottom:0; top:auto; left:auto; transform:none;
-        width:660px; max-height:75vh;
-        z-index:9997;
-        background:var(--card-bg,rgba(20,20,30,0.9));
-        backdrop-filter:blur(12px); border:1px solid rgba(255,255,255,0.1);
-        border-radius:8px 0 0 0;
-        overflow:hidden; font-family:sans-serif; transition:width 0.3s; }
-      @media (max-width: 640px) {
-        #neighbor-panel { right:0; top:auto; transform:none; bottom:0; left:0; width:100%; max-height:60vh; border-radius:12px 12px 0 0; }
-      }
-      @media (min-width: 641px) and (max-width: 1024px) {
-        #neighbor-panel { width:540px; }
-      }
-      #neighbor-panel.hidden { display:none; }
-      #neighbor-panel.collapsed { width:36px; }
-      #neighbor-panel.collapsed .np-body,
-      #neighbor-panel.collapsed .np-node-name,
-      #neighbor-panel.collapsed .np-title,
-      #neighbor-panel.collapsed .np-search,
-      #neighbor-panel.collapsed .np-hint { display:none; }
-      #neighbor-panel.collapsed .np-header { border-bottom:none; padding:0; }
-      #neighbor-panel.collapsed .np-collapse-btn { transform:rotate(180deg); margin:4px auto; display:block; }
-      #neighbor-panel.collapsed .np-close-btn { display:none; }
-      .np-header { display:flex; align-items:center; padding:10px 12px; border-bottom:1px solid rgba(255,255,255,0.08); cursor:grab; user-select:none; }
-      .np-title { font-size:13px; color:#aaa; flex:1; }
-      .np-collapse-btn, .np-close-btn { background:none; border:none; color:#aaa; cursor:pointer; font-size:14px; padding:2px 6px; }
-      .np-node-name { padding:8px 12px; font-size:14px; color:#fff; border-bottom:1px solid rgba(255,255,255,0.05); }
-      .np-search { padding:6px 12px; border-bottom:1px solid rgba(255,255,255,0.05); }
-      .np-search input { width:100%; box-sizing:border-box; padding:5px 8px; border:1px solid rgba(255,255,255,0.15);
-        border-radius:4px; background:rgba(255,255,255,0.08); color:#eee; font-size:12px; outline:none; }
-      .np-search input::placeholder { color:#666; }
-      .np-search input:focus { border-color:#4a9eff; }
-		      .np-body { overflow-y:auto; max-height:45vh; display:grid; grid-template-columns:repeat(3,1fr); gap:0 4px; align-content:start; }
-		      .np-section { display:flex; flex-direction:column; gap:1px; }
-		      .np-section-title { font-size:11px; color:#888; padding:6px 6px 4px; border-bottom:1px solid rgba(255,255,255,0.04); font-weight:600; text-align:center; }
-		      .np-item { display:flex; flex-direction:row; align-items:center; gap:4px; padding:5px 6px; cursor:pointer; border-radius:3px; }
-		      .np-item:hover { background:rgba(255,255,255,0.08); }
-		      .np-item-link { flex-shrink:0; display:inline-flex; align-items:center; justify-content:center; width:16px; height:16px; cursor:pointer; color:#666; border-radius:2px; }
-		      .np-item-link:hover { color:#4a9eff; background:rgba(74,158,255,0.12); }
-		      .np-item-content { display:flex; flex-direction:column; flex:1; min-width:0; }
-		      .np-item-name { font-size:12px; color:#eee; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-		      .np-item-url { font-size:10px; color:#888; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-	      .np-empty { padding:20px; text-align:center; color:#666; font-size:13px; grid-column:1/-1; }
-	      .np-search-count { font-size:11px; color:#888; padding:4px 12px; text-align:right; border-bottom:1px solid rgba(255,255,255,0.03); grid-column:1/-1; }
-		      .np-hint { font-size:10px; color:#555; padding:6px 12px; text-align:center; border-top:1px solid rgba(255,255,255,0.04); line-height:1.4; display:none; grid-column:1/-1; }
-	    `;
-    document.head.appendChild(style);
-  }
-
   function createNeighborPanel(): HTMLElement {
     let panel = document.getElementById("neighbor-panel") as HTMLElement | null;
     if (panel) return panel;
-    createNeighborPanelStyle();
     panel = document.createElement("div");
     panel.id = "neighbor-panel";
-    panel.classList.add("hidden");
-    const header = document.createElement("div");
-    header.className = "np-header";
-    const title = document.createElement("div");
-    title.className = "np-title";
-    title.textContent = "邻居节点";
-    const collapseBtn = document.createElement("button");
-    collapseBtn.className = "btn btn-sm";
-    collapseBtn.className = "np-collapse-btn";
-    collapseBtn.textContent = "◀";
-    const closeBtn = document.createElement("button");
-    closeBtn.className = "btn btn-sm";
-    closeBtn.className = "np-close-btn";
-    closeBtn.textContent = "×";
-    header.appendChild(title);
-    header.appendChild(collapseBtn);
-    header.appendChild(closeBtn);
+    panel.className = "panel-content neighbor-panel-content";
+    panel.hidden = true;
     const nodeName = document.createElement("div");
     nodeName.className = "np-node-name";
     const searchWrap = document.createElement("div");
@@ -755,15 +712,11 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
     const hint = document.createElement("div");
     hint.className = "np-hint";
     hint.textContent = "连线数上限可在控制面板调整，超出部分不显示标签";
-    panel.appendChild(header);
     panel.appendChild(nodeName);
     panel.appendChild(searchWrap);
     panel.appendChild(countInfo);
     panel.appendChild(body);
     panel.appendChild(hint);
-    collapseBtn.addEventListener("click", () => panel!.classList.toggle("collapsed"));
-    closeBtn.addEventListener("click", () => hidePanel(panel!.id));
-    // 窗口在内容插入 DOM 后挂载。
     // 搜索过滤
     let _categories: {
       mutual: Array<{ id: string; name: string; url: string }>;
@@ -1198,18 +1151,14 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
   container.appendChild(fpsDisplay);
   let fpsFrames = 0,
     fpsSince = performance.now();
+  function hasFlightControlInput() {
+    return !!(flyKeys.w || flyKeys.a || flyKeys.s || flyKeys.d || flyKeys.r || flyKeys.f || flyKeys.q || flyKeys.e);
+  }
   function flightActive() {
     return (
       isFlyMode &&
       document.pointerLockElement === ctx.renderer.domElement &&
-      (flyAutoPilot ||
-        Object.values(flyKeys).some(Boolean) ||
-        Math.abs(reticleOffset.x) +
-          Math.abs(reticleOffset.y) +
-          Math.abs(reticleVelocity.x) +
-          Math.abs(reticleVelocity.y) +
-          Math.abs(rollVelocity) >
-          0.0001)
+      (flyAutoPilot || hasFlightControlInput() || Math.abs(rollVelocity) > 1e-5)
     );
   }
   const renderScheduler = createRenderScheduler({
@@ -1225,7 +1174,7 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
         moving = flightActive();
         if (moving) flyLoop(dt);
         if (!moving || now - lastAutoHover >= 120) {
-          updateAutoHover(nodes, ctx.camera);
+          updateAutoHover();
           lastAutoHover = now;
         }
       } else {
@@ -1642,19 +1591,15 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
   let flyAutoPilot = false;
   let flyExitRoll = 0; // 退出飞船时保留的翻滚角
   const SHIFT_MULTIPLIER = 3;
-  const MOUSE_SENSITIVITY = 0.003;
-  const RETICLE_SPRING = 30;
-  const RETICLE_DAMPING = 12;
-  const reticleOffset = { x: 0, y: 0 };
-  const reticleVelocity = { x: 0, y: 0 };
   let rollVelocity = 0; // Q/E 横滚速度（带阻尼平滑）
   let flyCrosshair: HTMLElement | null = null;
-  let flyControlPanel: HTMLElement | null = null;
   let flyOnKeyDown: ((e: KeyboardEvent) => void) | null = null;
   let flyOnKeyUp: ((e: KeyboardEvent) => void) | null = null;
   let flyOnMouseMove: ((e: MouseEvent) => void) | null = null;
+  let flyOnBlur: (() => void) | null = null;
   let autoHoverId: string | null = null;
   let pointerLockError: string | null = null;
+  const _flightMove = new THREE.Vector3();
 
   function updatePointerLockStatus(message?: string) {
     const status = document.getElementById("fly-pointer-status");
@@ -1662,8 +1607,8 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
       status.textContent =
         message ||
         (document.pointerLockElement === ctx.renderer.domElement
-          ? "鼠标已锁定 · Esc 释放后暂停飞行"
-          : "点击宇宙画面锁定鼠标后飞行");
+          ? "鼠标已锁定 · 移动鼠标转向 · Esc 释放后暂停飞行"
+          : "点击宇宙画面锁定鼠标；WASD 只负责平移");
   }
 
   function createCrosshair(): HTMLElement {
@@ -1680,32 +1625,25 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
 
   function handleFlyKey(e: KeyboardEvent, down: boolean) {
     if (!isFlyMode) return;
-    if (
-      down &&
-      e
-        .composedPath()
-        .some(
-          (el) =>
-            el instanceof HTMLElement &&
-            (el.closest(".app-window") || el.matches("input,textarea,select,[contenteditable]")),
-        )
-    )
-      return;
-    const k = e.key.toLowerCase();
-    requestRender();
-    if (k === "x" && down) {
+    if (down && isEditableFlightTarget(e.target)) return;
+    const action = flightActionForKeyEvent(e);
+    if (!action) return;
+    if (action === "x" && down) {
       e.preventDefault();
       exitFlyMode();
       return;
     }
     if (down && document.pointerLockElement !== ctx.renderer.domElement) return;
-    if (["w", "a", "s", "d", "r", "f", "q", "e", "shift"].includes(k)) {
+    if (["w", "a", "s", "d", "r", "f", "q", "e", "shift"].includes(action)) {
       e.preventDefault();
-      flyKeys[k] = down;
+      if (flyKeys[action] === down) return;
+      flyKeys[action] = down;
+      requestRender();
     }
-    if (k === " " && down) {
+    if (action === " " && down && !e.repeat) {
       e.preventDefault();
       flyAutoPilot = !flyAutoPilot;
+      requestRender();
       const statusEl = document.getElementById("fly-autopilot-status");
       if (statusEl) {
         statusEl.textContent = flyAutoPilot ? "ON" : "OFF";
@@ -1721,7 +1659,7 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
     if (document.pointerLockElement !== ctx.renderer.domElement) {
       document.body.style.cursor = "default";
       for (const key of Object.keys(flyKeys)) flyKeys[key] = false;
-      reticleOffset.x = reticleOffset.y = reticleVelocity.x = reticleVelocity.y = rollVelocity = 0;
+      rollVelocity = 0;
       requestRender();
     } else {
       pointerLockError = null;
@@ -1749,35 +1687,17 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
     }
   }
 
-  // 预分配向量（避免 GC）
-  const _camPos_v = new THREE.Vector3();
-  const _forward_v = new THREE.Vector3();
-  const _toNode_v = new THREE.Vector3();
-
-  function updateAutoHover(_nodes: any[], cam: THREE.Camera) {
-    cam.updateMatrixWorld(true);
-    (cam as THREE.PerspectiveCamera).getWorldPosition(_camPos_v);
-    (cam as THREE.PerspectiveCamera).getWorldDirection(_forward_v);
-
-    let bestScore = -Infinity;
-    let bestNode: any = null;
-
-    for (const node of nodes) {
-      if (node.x == null) continue;
-      _toNode_v.set(node.x - _camPos_v.x, (node.y || 0) - _camPos_v.y, (node.z || 0) - _camPos_v.z);
-      const dist = _toNode_v.length();
-      if (dist > 100000) continue;
-      const dot = _forward_v.dot(_toNode_v) / dist;
-      if (dot < 0.85) continue; // 31° 窄锥体
-      const score = dot / (1 + dist * 0.005);
-      if (score > bestScore) {
-        bestScore = score;
-        bestNode = node;
-      }
-    }
+  function updateAutoHover() {
+    const started = performance.now();
+    perfStats.autoHoverScans++;
+    const bestNode = interaction.pickAtCenter();
+    perfStats.autoHoverCandidates += interaction.lastPickCandidateCount;
 
     const newId = bestNode ? bestNode.id : null;
-    if (newId === autoHoverId) return;
+    if (newId === autoHoverId) {
+      perfStats.autoHoverCpuMs += performance.now() - started;
+      return;
+    }
     autoHoverId = newId;
 
     if (flyCrosshair) flyCrosshair.classList.toggle("locked", !!newId);
@@ -1810,117 +1730,22 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
       }
       tooltip.show(content, window.innerWidth / 2 - 160, window.innerHeight / 2 + 20);
     }
+    perfStats.autoHoverCpuMs += performance.now() - started;
   }
 
   function flyLoop(dt: number) {
     if (!isFlyMode) return;
     const cam = ctx.camera;
-
-    const frameScale = dt * 60;
-    // 弹簧力：偏移越大回中力越强
-    const ax = -RETICLE_SPRING * reticleOffset.x - RETICLE_DAMPING * reticleVelocity.x;
-    const ay = -RETICLE_SPRING * reticleOffset.y - RETICLE_DAMPING * reticleVelocity.y;
-    reticleVelocity.x += ax * dt;
-    reticleVelocity.y += ay * dt;
-    reticleOffset.x += reticleVelocity.x * dt;
-    reticleOffset.y += reticleVelocity.y * dt;
-
-    // 准星偏移 → 相机本地轴旋转
-    const rotScale = 0.15;
-    cam.rotateY(-reticleOffset.x * rotScale * frameScale);
-    cam.rotateX(reticleOffset.y * rotScale * frameScale);
-    if (cam.rotation.x > 1.48) cam.rotation.x = 1.48;
-    if (cam.rotation.x < -1.48) cam.rotation.x = -1.48;
-
-    // 更新准星 DOM
-    if (flyCrosshair) {
-      const x = Math.round(reticleOffset.x),
-        y = Math.round(reticleOffset.y);
-      flyCrosshair.style.transform = `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`;
-    }
-
-    // WASD 飞行 + Q/E 横滚
-    const speed = (flyKeys.shift ? SHIFT_MULTIPLIER : 1) * MOVE_SPEED * frameScale;
-    if (flyAutoPilot || flyKeys.w) cam.translateZ(-speed);
-    if (!flyAutoPilot && flyKeys.s) cam.translateZ(speed);
-    if (flyKeys.a) cam.translateX(-speed);
-    if (flyKeys.d) cam.translateX(speed);
-    if (flyKeys.r) cam.translateY(speed);
-    if (flyKeys.f) cam.translateY(-speed);
-    // Q/E 横滚：带加速和阻尼的平滑过渡
-    const ROLL_ACCEL = 0.008; // 每帧角加速度
-    const ROLL_DAMPING = 0.88; // 松手后衰减系数
-    const MAX_ROLL = 0.06; // 最大横滚角速度 (rad/frame)
-    if (flyKeys.q) rollVelocity += ROLL_ACCEL * frameScale;
-    if (flyKeys.e) rollVelocity -= ROLL_ACCEL * frameScale;
-    if (!flyKeys.q && !flyKeys.e) rollVelocity *= Math.pow(ROLL_DAMPING, frameScale);
-    rollVelocity = Math.max(-MAX_ROLL, Math.min(MAX_ROLL, rollVelocity));
-    cam.rotateZ(rollVelocity * frameScale);
-  }
-
-  function createFlyControlPanel(): HTMLElement {
-    let panel = document.getElementById("fly-control-panel") as HTMLElement | null;
-    if (panel) return panel;
-    panel = document.createElement("div");
-    panel.id = "fly-control-panel";
-    panel.style.cssText = `
-      position:fixed;
-      bottom:var(--fp-bottom,70px); left:var(--fp-left,16px);
-      right:var(--fp-right,auto); top:var(--fp-top,auto);
-      width:var(--fp-width,auto); max-width:var(--fp-max-width,220px);
-      border-radius:var(--fp-border-radius,8px);
-      z-index:9998;
-      background:rgba(16,16,24,0.88);backdrop-filter:blur(8px);
-      border:1px solid rgba(255,255,255,0.08);
-      padding:0 12px 8px;font-family:sans-serif;font-size:12px;color:#ccc;
-      display:none;line-height:1.6;overflow:hidden;
-    `;
-    panel.innerHTML = `
-      <div class="fp-header" style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;cursor:grab;user-select:none;">
-        <span style="font-weight:600;color:#fff;font-size:13px;">🚀 飞行控制</span>
-        <div style="display:flex;gap:4px;">
-          <button size="s" class="btn btn-sm fp-toggle-btn" style="background:none;border:none;color:#888;cursor:pointer;font-size:14px;padding:0 4px;">−</button>
-          <button size="s" class="btn btn-sm fp-close-btn" style="background:none;border:none;color:#888;cursor:pointer;font-size:16px;padding:0 4px;line-height:1;">×</button>
-        </div>
-      </div>
-      <div id="fly-panel-body">
-        <div><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> 飞行</div>
-        <div><kbd>R</kbd> 上升 · <kbd>F</kbd> 下降</div>
-        <div><kbd>Q</kbd><kbd>E</kbd> 横滚</div>
-        <div><kbd>Shift</kbd> 加速 3×</div>
-        <div><kbd>Space</kbd> 自动驾驶 <span id="fly-autopilot-status" style="color:#888;">OFF</span></div>
-        <div style="margin-top:4px;border-top:1px solid rgba(255,200,100,0.25);padding-top:4px;color:#ffc864;font-weight:700;"><kbd style="background:rgba(255,200,100,0.25);color:#ffc864;">X</kbd> 退出飞船模式</div>
-        <div style="color:#888;margin-top:2px;">准星瞄准 · 左键打开 · 惯性视角</div>
-        <div id="fly-pointer-status" role="status" class="text-xs opacity-70">点击宇宙画面锁定鼠标后飞行</div>
-      </div>
-      <style>
-        #fly-control-panel kbd { display:inline-block;background:rgba(255,255,255,0.1);border-radius:3px;padding:0 5px;font-size:11px;color:#fff;margin:0 1px; }
-      </style>
-    `;
-    const exit = document.createElement("button");
-    exit.className = "btn btn-sm";
-    exit.textContent = "退出飞船模式";
-    exit.addEventListener("click", exitFlyMode);
-    panel.appendChild(exit);
-    document.body.appendChild(panel);
-    const header = panel.querySelector(".fp-header") as HTMLElement;
-    const toggle = panel.querySelector(".fp-toggle-btn") as HTMLElement;
-    const closeBtn = panel.querySelector(".fp-close-btn") as HTMLElement;
-    const bodyEl = panel.querySelector("#fly-panel-body") as HTMLElement;
-    if (toggle && bodyEl) {
-      toggle.addEventListener("click", () => {
-        const collapsed = bodyEl.style.display === "none";
-        bodyEl.style.display = collapsed ? "block" : "none";
-        toggle.textContent = collapsed ? "−" : "+";
-      });
-    }
-    if (closeBtn) {
-      closeBtn.addEventListener("click", () => {
-        hidePanel(panel!.id);
-      });
-    }
-    if (header) registerPanel(panel);
-    return panel;
+    applyFlightTranslation(
+      cam,
+      flyKeys as Partial<Record<FlightAction, boolean>>,
+      flyAutoPilot,
+      (flyKeys.shift ? SHIFT_MULTIPLIER : 1) * MOVE_SPEED,
+      dt,
+      _flightMove,
+    );
+    const rollInput = (flyKeys.q ? 1 : 0) - (flyKeys.e ? 1 : 0);
+    rollVelocity = applyFlightRoll(cam, rollVelocity, rollInput, dt);
   }
 
   function enterFlyMode() {
@@ -1928,11 +1753,7 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
     requestRender();
     isFlyMode = true;
     ctx.controls.enabled = false;
-    reticleOffset.x = 0;
-    reticleOffset.y = 0;
-    reticleVelocity.x = 0;
-    reticleVelocity.y = 0;
-    // 面板打开时保留指针；返回场景后由点击重新锁定。
+    rollVelocity = 0;
     document.addEventListener("pointerlockchange", onPointerLockChange);
     ctx.renderer.domElement.addEventListener("click", flyReLock);
     // 切换旋转顺序前保存朝向，避免视觉闪烁
@@ -1948,22 +1769,28 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
     document.addEventListener("keyup", flyOnKeyUp);
     flyOnMouseMove = (e: MouseEvent) => {
       if (document.pointerLockElement !== ctx.renderer.domElement) return;
-      requestRender();
-      reticleVelocity.x += e.movementX * MOUSE_SENSITIVITY;
-      reticleVelocity.y -= e.movementY * MOUSE_SENSITIVITY;
-      const maxV = 200;
-      reticleVelocity.x = Math.max(-maxV, Math.min(maxV, reticleVelocity.x));
-      reticleVelocity.y = Math.max(-maxV, Math.min(maxV, reticleVelocity.y));
+      if (applyFlightLook(ctx.camera, e.movementX, e.movementY)) {
+        labelsDirty = true;
+        requestRender();
+      }
     };
     ctx.renderer.domElement.addEventListener("mousemove", flyOnMouseMove);
+    flyOnBlur = () => {
+      for (const key of Object.keys(flyKeys)) flyKeys[key] = false;
+      rollVelocity = 0;
+      requestRender();
+    };
+    window.addEventListener("blur", flyOnBlur);
 
     interaction.setFlyMode(true);
 
-    flyControlPanel = createFlyControlPanel();
-    showPanel(flyControlPanel.id, document.getElementById("fly-toggle") || undefined);
+    const hud = document.getElementById("fly-hud");
+    if (hud) hud.hidden = false;
     // 同步按钮文字
     const flyBtn = document.getElementById("fly-toggle");
     if (flyBtn) flyBtn.textContent = "🌐 球幕模式";
+    updatePointerLockStatus();
+    void flyReLock();
   }
 
   function exitFlyMode() {
@@ -1980,8 +1807,9 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
     if (flyOnKeyDown) document.removeEventListener("keydown", flyOnKeyDown);
     if (flyOnKeyUp) document.removeEventListener("keyup", flyOnKeyUp);
     if (flyOnMouseMove) ctx.renderer.domElement.removeEventListener("mousemove", flyOnMouseMove);
+    if (flyOnBlur) window.removeEventListener("blur", flyOnBlur);
     ctx.renderer.domElement.removeEventListener("click", flyReLock);
-    flyOnKeyDown = flyOnKeyUp = flyOnMouseMove = null;
+    flyOnKeyDown = flyOnKeyUp = flyOnMouseMove = flyOnBlur = null;
     document.removeEventListener("pointerlockchange", onPointerLockChange);
     try {
       document.exitPointerLock?.();
@@ -1990,10 +1818,8 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
       flyCrosshair.style.display = "none";
       flyCrosshair = null;
     }
-    if (flyControlPanel) {
-      hidePanel(flyControlPanel.id);
-      flyControlPanel = null;
-    }
+    const hud = document.getElementById("fly-hud");
+    if (hud) hud.hidden = true;
     interaction.setFlyMode(false);
     // 同步按钮文字
     const flyBtn = document.getElementById("fly-toggle");
@@ -2085,7 +1911,7 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
     sharedCoreGeom.dispose();
     overlayHaloMat.dispose();
     overlayCoreMat.dispose();
-    for (const id of ["graph-control-panel", "neighbor-panel", "fly-control-panel"]) {
+    for (const id of ["graph-control-panel", "neighbor-panel"]) {
       destroyPanel(id);
       document.getElementById(id)?.remove();
     }
@@ -2130,6 +1956,16 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
         pendingLabelTask: labelScanTimer !== null,
         pointerLocked: document.pointerLockElement === ctx.renderer.domElement,
         pointerLockError,
+        flightMode: isFlyMode,
+        flightKeys: Object.keys(flyKeys).filter((key) => flyKeys[key]),
+        flightRollVelocity: rollVelocity,
+        flightSpeed: MOVE_SPEED,
+        flightAutoSpeed: autoFlightSpeed,
+        flightSpeedMin,
+        flightSpeedMax,
+        flightSpeedCount: flightSpeedProfile.count,
+        flightSpeedVolume: flightSpeedProfile.volume,
+        flightSpeedSpacing: flightSpeedProfile.spacing,
         quality,
         fpsLimit: unlimitedFps ? "unlimited" : qualityOptions[quality].fps,
         pixelRatio: ctx.renderer.getPixelRatio(),

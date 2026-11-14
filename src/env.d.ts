@@ -19,6 +19,45 @@ interface Window {
     stepPathPrev?: () => boolean;
     clearPath?: () => void;
     getPathInfo?: () => { path: string[]; totalSteps: number; currentStep: number; currentId: string | null } | null;
+    getPerformanceStats?: () => {
+      frames: number;
+      labelScans: number;
+      autoHoverScans: number;
+      autoHoverCandidates: number;
+      autoHoverCpuMs: number;
+      labelCreates: number;
+      renderCpuMs: number;
+      drawCalls: number;
+      triangles: number;
+      lines: number;
+      sceneObjects: number;
+      pendingFrame: boolean;
+      pendingLabelTask: boolean;
+      pointerLocked: boolean;
+      pointerLockError?: string | null;
+      flightMode: boolean;
+      flightKeys: string[];
+      flightRollVelocity: number;
+      flightSpeed: number;
+      flightAutoSpeed: number;
+      flightSpeedMin: number;
+      flightSpeedMax: number;
+      flightSpeedCount: number;
+      flightSpeedVolume: number;
+      flightSpeedSpacing: number;
+      quality: string;
+      fpsLimit: string | number;
+      pixelRatio: number;
+      rendererTrackedBytes: number;
+      labels: number;
+      neighborLabels: number;
+    };
+    ctx?: {
+      camera: {
+        position: { toArray: () => number[] };
+        quaternion: { toArray: () => number[] };
+      };
+    };
   };
   __toggleOpacityPanel?: () => void;
 }

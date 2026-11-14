@@ -1,144 +1,160 @@
-import WinBox from "winbox/src/js/winbox.js";
-import "winbox/dist/css/winbox.min.css";
+type PanelVariant = "side" | "wide" | "dock";
 
-const panels = new Map<string, WinBox>();
-const triggers = new Map<string, HTMLElement>();
+type PanelState = {
+  dialog: HTMLDialogElement;
+  content: HTMLElement;
+  title: string;
+  trigger: HTMLElement | null;
+  variant: PanelVariant;
+  destroying: boolean;
+};
+
+const panels = new Map<string, PanelState>();
 const titles: Record<string, string> = {
   "stats-dialog": "博客宇宙统计",
   "about-dialog": "关于博客宇宙",
   "graph-control-panel": "控制面板",
   "neighbor-panel": "邻居节点",
-  "fly-control-panel": "飞行控制",
   "path-bar": "路径查找",
 };
+const variants: Record<string, PanelVariant> = {
+  "stats-dialog": "wide",
+  "about-dialog": "wide",
+  "neighbor-panel": "side",
+  "path-bar": "dock",
+};
+let panelSequence = 0;
+let dialogSequence = 0;
 
-import { fitBounds } from "./window-geometry";
-
-function constrain(panel: WinBox) {
-  const rect = fitBounds(
-    Number(panel.x),
-    Number(panel.y),
-    Number(panel.width),
-    Number(panel.height),
-    innerWidth,
-    innerHeight,
-  );
-  if (rect.width !== panel.width || rect.height !== panel.height) panel.resize(rect.width, rect.height);
-  if (rect.x !== panel.x || rect.y !== panel.y) panel.move(rect.x, rect.y);
+function panelTitle(id: string) {
+  return titles[id] || "面板";
 }
 
-export function registerPanel(content: HTMLElement): WinBox {
+function panelVariant(id: string): PanelVariant {
+  return variants[id] || "side";
+}
+
+function focusTrigger(state: PanelState) {
+  const trigger = state.trigger;
+  if (trigger?.isConnected) trigger.focus({ preventScroll: true });
+}
+
+function restoreContent(content: HTMLElement) {
+  content.removeAttribute("hidden");
+  if (content.style.display === "none") content.style.removeProperty("display");
+}
+
+function createPanelShell(content: HTMLElement): PanelState {
   const id = content.id;
-  const existing = panels.get(id);
-  if (existing) return existing;
-  const large = id === "stats-dialog" || id === "about-dialog" || id === "neighbor-panel";
-  const bounds = fitBounds(
-    large ? 24 : innerWidth - 370,
-    140,
-    innerWidth <= 640 ? innerWidth - 16 : large ? 760 : 340,
-    id === "path-bar" ? 360 : large ? 560 : 420,
-    innerWidth,
-    innerHeight,
-  );
-  const panel = new WinBox({
-    title: titles[id] || id,
-    index: 10001 + panels.size,
-    mount: content,
-    class: ["app-window", "no-full", "no-min"],
-    hidden: true,
-    width: bounds.width,
-    height: bounds.height,
-    x: bounds.x,
-    y: bounds.y,
-    minwidth: Math.min(280, innerWidth - 16),
-    minheight: Math.min(180, innerHeight - 16),
-    top: 8,
-    right: 8,
-    bottom: 8,
-    left: 8,
-    onclose(force?: boolean) {
-      if (force) return false;
-      hidePanel(id);
-      return true;
-    },
+  const title = panelTitle(id);
+  const variant = panelVariant(id);
+  const titleId = `panel-title-${dialogSequence++}`;
+
+  const dialog = document.createElement("dialog");
+  dialog.className = `app-panel app-panel--${variant}`;
+  dialog.id = `panel-shell-${id}`;
+  dialog.dataset.panelId = id;
+  dialog.setAttribute("aria-labelledby", titleId);
+  dialog.tabIndex = -1;
+
+  const header = document.createElement("header");
+  header.className = "app-panel-header";
+
+  const heading = document.createElement("div");
+  heading.className = "app-panel-heading";
+  const eyebrow = document.createElement("span");
+  eyebrow.className = "app-panel-eyebrow";
+  eyebrow.textContent = "BLOG UNIVERSE";
+  const headingText = document.createElement("h2");
+  headingText.className = "app-panel-title";
+  headingText.id = titleId;
+  headingText.textContent = title;
+  heading.append(eyebrow, headingText);
+
+  const close = document.createElement("button");
+  close.type = "button";
+  close.className = "btn btn-ghost btn-sm btn-circle app-panel-close";
+  close.setAttribute("aria-label", `关闭${title}`);
+  close.title = "关闭";
+  close.textContent = "✕";
+  close.addEventListener("click", () => hidePanel(id));
+  header.append(heading, close);
+
+  const body = document.createElement("div");
+  body.className = "app-panel-body";
+  body.appendChild(content);
+  dialog.append(header, body);
+  document.body.appendChild(dialog);
+
+  const state: PanelState = { dialog, content, title, trigger: null, variant, destroying: false };
+  dialog.addEventListener("close", () => {
+    if (!state.destroying) focusTrigger(state);
   });
-  panels.set(id, panel);
-  content.classList.remove("hidden");
-  content.style.display = "block";
-  const root = panel.dom as HTMLElement;
-  root.setAttribute("role", "dialog");
-  root.setAttribute("aria-label", titles[id] || id);
-  const title = root.querySelector<HTMLElement>(".wb-title")!;
-  title.tabIndex = 0;
-  title.setAttribute("aria-label", `${titles[id]}，方向键移动窗口，Escape 关闭`);
-  root.querySelectorAll<HTMLElement>(".wb-control span").forEach((control) => {
-    control.tabIndex = 0;
-    control.setAttribute("role", "button");
-    control.setAttribute("aria-label", control.classList.contains("wb-close") ? "关闭面板" : "最大化或恢复面板");
-    control.addEventListener("keydown", (event) => {
-      if (event.key === "Enter" || event.key === " ") {
-        event.preventDefault();
-        control.click();
-      }
-    });
+  dialog.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || event.defaultPrevented) return;
+    event.preventDefault();
+    event.stopPropagation();
+    hidePanel(id);
   });
-  root.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") {
-      event.stopPropagation();
-      hidePanel(id);
-    }
-    if (event.target === title && ["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(event.key)) {
-      event.preventDefault();
-      const step = event.shiftKey ? 40 : 10;
-      panel.move(
-        Number(panel.x) + (event.key === "ArrowLeft" ? -step : event.key === "ArrowRight" ? step : 0),
-        Number(panel.y) + (event.key === "ArrowUp" ? -step : event.key === "ArrowDown" ? step : 0),
-      );
-      constrain(panel);
-    }
-  });
-  root.addEventListener("pointerdown", () => {
-    if (document.pointerLockElement) void document.exitPointerLock();
-    panel.focus();
-  });
-  for (const event of ["mousedown", "click", "dblclick", "wheel", "contextmenu"])
-    root.addEventListener(event, (e) => e.stopPropagation());
-  root.addEventListener("touchend", () => constrain(panel));
-  root.addEventListener("mouseup", () => constrain(panel));
-  return panel;
+  panels.set(id, state);
+  restoreContent(content);
+  return state;
+}
+
+function ensurePanel(content: HTMLElement): PanelState {
+  return panels.get(content.id) || createPanelShell(content);
+}
+
+export function registerPanel(content: HTMLElement): HTMLDialogElement {
+  return ensurePanel(content).dialog;
 }
 
 export function showPanel(id: string, trigger?: HTMLElement) {
   const content = document.getElementById(id);
   if (!content) return;
-  const panel = registerPanel(content);
-  if (trigger) triggers.set(id, trigger);
+  const state = ensurePanel(content);
+  if (trigger) state.trigger = trigger;
   if (document.pointerLockElement) void document.exitPointerLock();
-  panel.show().focus();
-  constrain(panel);
-  (panel.dom as HTMLElement).querySelector<HTMLElement>(".wb-title")?.focus({ preventScroll: true });
-}
-export function hidePanel(id: string) {
-  panels.get(id)?.hide();
-  triggers.get(id)?.focus({ preventScroll: true });
-}
-export function togglePanel(id: string, trigger?: HTMLElement) {
-  const panel = panels.get(id);
-  if (panel && !panel.hidden) hidePanel(id);
-  else showPanel(id, trigger);
-}
-export function isPanelOpen(id: string) {
-  return panels.has(id) && !panels.get(id)!.hidden;
-}
-export function destroyPanel(id: string) {
-  panels.get(id)?.close(true);
-  panels.delete(id);
-  triggers.delete(id);
+  if (!state.dialog.open) state.dialog.show();
+  state.dialog.style.zIndex = String(40 + panelSequence++);
+  state.dialog.classList.add("is-open");
 }
 
-window.addEventListener("resize", () => panels.forEach(constrain));
-document.addEventListener("mouseup", () =>
-  panels.forEach((panel) => {
-    if (!panel.hidden && !panel.max) constrain(panel);
-  }),
-);
+export function hidePanel(id: string) {
+  const state = panels.get(id);
+  if (!state?.dialog.open) {
+    if (state) focusTrigger(state);
+    return;
+  }
+  state.dialog.classList.remove("is-open");
+  state.dialog.close();
+}
+
+export function togglePanel(id: string, trigger?: HTMLElement) {
+  if (isPanelOpen(id)) hidePanel(id);
+  else showPanel(id, trigger);
+}
+
+export function isPanelOpen(id: string) {
+  return panels.get(id)?.dialog.open === true;
+}
+
+export function destroyPanel(id: string) {
+  const state = panels.get(id);
+  if (!state) return;
+  state.destroying = true;
+  if (state.dialog.open) state.dialog.close();
+  state.dialog.remove();
+  panels.delete(id);
+}
+
+document.addEventListener("keydown", (event) => {
+  if (event.key !== "Escape" || event.defaultPrevented) return;
+  if (document.pointerLockElement || document.fullscreenElement) return;
+  const open = [...panels.values()]
+    .filter((state) => state.dialog.open)
+    .sort((a, b) => Number(b.dialog.style.zIndex || 0) - Number(a.dialog.style.zIndex || 0));
+  if (!open.length) return;
+  event.preventDefault();
+  hidePanel(open[0].dialog.dataset.panelId!);
+});

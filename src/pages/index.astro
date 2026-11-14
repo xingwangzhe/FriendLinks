@@ -98,10 +98,20 @@ export const prerender = true;
       </div>
     </div>
 
-    <!-- 统计数据（构建时预埋，避免运行时 fetch） -->
+    <!-- 飞船模式 HUD：只保留底部淡文字，不拦截画面指针 -->
+    <div id="fly-hud" class="fly-hud" hidden role="status" aria-live="polite">
+      <span>鼠标转向</span>
+      <span><kbd>WASD</kbd> 平移</span>
+      <span><kbd>R</kbd>/<kbd>F</kbd> 升降</span>
+      <span><kbd>Q</kbd>/<kbd>E</kbd> 横滚</span>
+      <span><kbd>Shift</kbd> 加速</span>
+      <span><kbd>Space</kbd> 自动前进 <span id="fly-autopilot-status">OFF</span></span>
+      <span class="fly-hud-exit"><kbd>X</kbd> 退出飞船模式</span>
+      <span id="fly-pointer-status" class="fly-hud-status">点击宇宙画面锁定鼠标；WASD 只负责平移</span>
+    </div>
 
     <!-- 统计弹窗 -->
-    <section id="stats-dialog" class="panel-content" style="display:none">
+    <section id="stats-dialog" class="panel-content" hidden>
 
 
         <div id="stats-content" class="space-y-4"></div>
@@ -109,7 +119,7 @@ export const prerender = true;
     </section>
 
     <!-- 关于弹窗 -->
-    <section id="about-dialog" class="panel-content" style="display:none">
+    <section id="about-dialog" class="panel-content" hidden>
 
 
         <div class="space-y-5 text-sm">
@@ -170,7 +180,7 @@ friends:
 
     </section>
     <!-- 路径查找窗口内容 -->
-    <div id="path-bar" class="path-bar" style="display:none">
+    <div id="path-bar" class="path-bar" hidden>
       <div class="path-bar-row">
         <span class="path-bar-icon">🔗</span>
         <div class="path-search-wrap">
@@ -196,7 +206,7 @@ friends:
         <button id="path-prev-btn" class="btn btn-sm path-nav-btn" disabled title="上一步" >◀</button>
         <button id="path-next-btn" class="btn btn-sm path-nav-btn" disabled title="下一步" >▶</button>
         <button id="path-clear-btn" class="btn btn-sm path-nav-btn path-clear-btn" title="清除路径" style="display:none;" >✕</button>
-        <button id="path-bar-close" class="btn btn-sm path-nav-btn" title="关闭" >−</button>
+        <button id="path-bar-close" class="btn btn-sm path-nav-btn" title="关闭" aria-label="关闭路径查找">✕</button>
       </div>
       <div id="path-error" class="path-bar-error" style="display:none;"></div>
     </div>
