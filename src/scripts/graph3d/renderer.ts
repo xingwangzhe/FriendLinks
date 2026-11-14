@@ -65,6 +65,7 @@ export async function createRenderer(
     antialias: false,
     alpha: false,
     outputBufferType: THREE.UnsignedByteType,
+    powerPreference: "high-performance",
   });
   renderer.setPixelRatio(1);
   renderer.setSize(width, height);

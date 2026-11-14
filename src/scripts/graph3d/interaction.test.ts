@@ -69,11 +69,18 @@ test("indexed picking preserves hover, clicks, fly-center targeting and cleans u
     expect(rightClicked).toEqual([node]);
 
     ix.setFlyMode(true);
+    expect(ix.pickAtCenter()).toBe(node);
+    expect(ix.lastPickCandidateCount).toBeGreaterThan(0);
     dispatch("click", 20, 30);
     dispatch("contextmenu", 20, 30);
     expect(clicked).toEqual([node, node]);
     expect(rightClicked).toEqual([node, node]);
     ix.setFlyMode(false);
+    camera.rotation.y = Math.PI;
+    camera.updateMatrixWorld();
+    expect(ix.pickAtCenter()).toBeNull();
+    camera.rotation.y = 0;
+    camera.updateMatrixWorld();
     dispatch("click", 20, 30);
     expect(clicked).toEqual([node, node]);
 

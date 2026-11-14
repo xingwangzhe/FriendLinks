@@ -87,9 +87,8 @@ describe("compact Bezier endpoint encoding", () => {
   test("encodes signed Int16 coordinate bytes without numeric Uint8 conversion", () => {
     const extremes = new Int16Array([-32768, 32767]);
     const extremeBytes = new Uint8Array(extremes.buffer, extremes.byteOffset, extremes.byteLength);
-    // msgpackr's default typed-array path converts numeric entries to Uint8 values.
-    // The endpoint must supply an explicit byte view of the quantized coordinates.
-    expect(Buffer.from(decode(encode(extremes)))).not.toEqual(Buffer.from(extremeBytes));
+    // The wire format must carry the exact signed coordinate bytes. Supplying an
+    // explicit Uint8 view keeps this stable across msgpackr typed-array changes.
     expect(Buffer.from(decode(encode(extremeBytes)))).toEqual(Buffer.from(extremeBytes));
 
     const curve = buildBezierPositions(3, [0, 1], [1, 2], [10, 900, 300], [-700, 500, 100], [1100, -50, 80]);

@@ -149,6 +149,8 @@ export function createTextSprite(text: string, worldHeight = 5, fontSize = 48): 
   const tex = new THREE.CanvasTexture(canvas);
   tex.minFilter = THREE.LinearFilter;
   tex.magFilter = THREE.LinearFilter;
+  tex.generateMipmaps = false;
+  tex.colorSpace = THREE.SRGBColorSpace;
   tex.needsUpdate = true;
 
   const mat = new THREE.SpriteMaterial({

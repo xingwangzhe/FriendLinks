@@ -17,6 +17,8 @@ export interface InteractionContext {
   onClick: ClickCallback | null;
   onRightClick: ClickCallback | null;
   hoveredIndex: number | null;
+  lastPickCandidateCount: number;
+  pickAtCenter: () => GraphNode | null;
   setFlyMode: (enabled: boolean) => void;
   dispose: () => void;
 }
@@ -32,6 +34,39 @@ export function createInteraction(ctx: RenderContext, nodes: GraphNode[], maxNod
     onClick: null,
     onRightClick: null,
     hoveredIndex: null,
+    lastPickCandidateCount: 0,
+    pickAtCenter: () => {
+      const rect = canvas.getBoundingClientRect();
+      if (!rect.width || !rect.height) return null;
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+      const radius = 10;
+      const samples = [
+        [centerX, centerY],
+        [centerX - radius, centerY],
+        [centerX + radius, centerY],
+        [centerX, centerY - radius],
+        [centerX, centerY + radius],
+      ] as const;
+      let picked: GraphNode | null = null;
+      let bestScore = Infinity;
+      let candidates = 0;
+      for (const [x, y] of samples) {
+        ix.mouse.x = (x / rect.width) * 2 - 1;
+        ix.mouse.y = -(y / rect.height) * 2 + 1;
+        ix.raycaster.setFromCamera(ix.mouse, ctx.camera);
+        const index = picker.pick(ix.raycaster);
+        candidates += picker.lastCandidateCount;
+        if (index === null || index >= nodes.length) continue;
+        const score = (x - centerX) ** 2 + (y - centerY) ** 2;
+        if (score < bestScore) {
+          bestScore = score;
+          picked = nodes[index];
+        }
+      }
+      ix.lastPickCandidateCount = candidates;
+      return picked;
+    },
     setFlyMode: (enabled) => {
       _isFlyMode = enabled;
       hasCachedPick = false;
@@ -90,6 +125,7 @@ export function createInteraction(ctx: RenderContext, nodes: GraphNode[], maxNod
       return cachedNode;
     }
     const closestIndex = picker.pick(ix.raycaster);
+    ix.lastPickCandidateCount = picker.lastCandidateCount;
     const node = closestIndex !== null && closestIndex < nodes.length ? nodes[closestIndex] : null;
     if (reuseHover) {
       cachedRay.copy(ix.raycaster.ray);

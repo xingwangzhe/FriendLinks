@@ -4,6 +4,8 @@
  * warm-up are excluded. Both picking paths use the same triangle geometry/ray.
  */
 import * as THREE from "three";
+import { mkdir } from "node:fs/promises";
+import { dirname, resolve } from "node:path";
 import type { GraphNode } from "../../types/graph";
 import { EdgeGeometryStore } from "../../src/scripts/graph3d/edge-geometry";
 import { InstancedNodePicker } from "../../src/scripts/graph3d/spatial-index";
@@ -187,7 +189,7 @@ const original = measure(originalSamples);
 const shared = measure(sharedSamples);
 const report = {
   command: "bun scripts/experiments/frontend-interaction-bench.ts",
-  environment: { bun: Bun.version, platform: process.platform, arch: process.arch },
+  environment: { bun: Bun.version, three: THREE.REVISION, platform: process.platform, arch: process.arch },
   warmupRuns: 3,
   measuredRuns: 7,
   scope:
@@ -205,6 +207,9 @@ const report = {
     checksum,
   },
 };
-const path = new URL("../../reports/frontend-performance-2026-10-18/interaction-microbench.json", import.meta.url);
+const path = process.env.BENCH_REPORT
+  ? resolve(process.env.BENCH_REPORT)
+  : new URL("../../reports/frontend-performance-2026-10-18/interaction-microbench.json", import.meta.url).pathname;
+await mkdir(dirname(path), { recursive: true });
 await Bun.write(path, JSON.stringify(report, null, 2) + "\n");
 console.log(JSON.stringify(report));
