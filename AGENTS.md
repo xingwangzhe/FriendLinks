@@ -262,6 +262,8 @@ grep -rl "关键词" links/
 - 商业、产品或服务：官网、云服务、CDN、在线工具、软件发布页、课程销售、付费资源、建站获客、SEO 服务及作品集获客页。
 - 搜索引擎：Google、Bing、百度、Yandex、DuckDuckGo、Yahoo Search、搜狗、360、神马、Naver、Daum 等搜索入口。
 - 社交媒体：Facebook、Instagram、X、LinkedIn、Reddit、微博、豆瓣、知乎、Bilibili、小红书、Mastodon、Threads、Telegram、Discord、YouTube、微信及 QQ 社交入口等。
+- 社区、平台与内容站：论坛、问答、开放社区、个人社区、网址导航、网站收录、书签收藏夹、文档站、知识库、百科、RSS/资源聚合、内容农场、模板演示、纯作品集和个人主页。
+- 聚焦独立博客发现、索引和归属标注的 `blog-aggregator` 是例外，按聚合型准入规则保留，不得仅因“导航”或“聚合”字样入黑。
 - 只按已确认的完整 hostname 入黑；不得据根域字符串批量误伤内容站。`developers.google.com`、`engineering.fb.com` 等是内容页，不是搜索或社交主页。
 - `github.io`、`gitlab.io`、`gitee.io`、`codeberg.page`、`substack.com` 等是托管平台，不因平台域名本身入黑；平台上的个人博客仍按博客准入标准判断。
 
