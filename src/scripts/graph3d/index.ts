@@ -33,6 +33,7 @@ import {
   computeFlightSpeed,
   flightActionForKeyEvent,
   isEditableFlightTarget,
+  levelFlightCamera,
   type FlightAction,
 } from "./flight-controls";
 import type { GraphData } from "../../../types/graph";
@@ -87,6 +88,16 @@ function createTooltip(): TooltipApi {
       if (el) el.style.display = "none";
     },
   };
+}
+
+function appendMiddleClickHint(content: HTMLElement): void {
+  const hint = document.createElement("div");
+  hint.className = "flex items-center gap-2 text-[11px] opacity-60";
+  const key = document.createElement("kbd");
+  key.className = "kbd kbd-xs";
+  key.textContent = "中键";
+  hint.append(key, document.createTextNode("在新标签页打开网站"));
+  content.appendChild(hint);
 }
 
 // ─── 可拖拽面板 ─────────────────────────────────────────────────────
@@ -1179,12 +1190,7 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
         }
       } else {
         ctx.controls.dampingFactor = 1 - Math.pow(1 - 0.08, dt * 60);
-        moving = ctx.controls.update();
-        if (Math.abs(flyExitRoll) > 0.0001) {
-          ctx.camera.rotateZ(flyExitRoll);
-          flyExitRoll *= Math.pow(0.92, dt * 60);
-          moving = true;
-        } else flyExitRoll = 0;
+        ctx.controls.update();
       }
       const cameraChanged =
         !lastCameraPosition.equals(ctx.camera.position) || !lastCameraQuaternion.equals(ctx.camera.quaternion);
@@ -1192,6 +1198,7 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
         lastCameraPosition.copy(ctx.camera.position);
         lastCameraQuaternion.copy(ctx.camera.quaternion);
         labelsDirty = true;
+        if (!isFlyMode) moving = true;
       }
       labelGroup.visible = labelShow.value && !focusedId;
       if (labelsDirty || labelsPending) {
@@ -1460,6 +1467,7 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
         a.textContent = n.url;
         a.className = "link link-primary text-xs break-all";
         content.appendChild(a);
+        if (!isFlyMode) appendMiddleClickHint(content);
       }
       tooltip.show(
         content,
@@ -1483,6 +1491,9 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
   interaction.onClick = (n: any) => {
     if ((window as any).__touchLongPress) return;
     if (n.url) window.open(n.url, "_blank");
+  };
+  interaction.onMiddleClick = (n: any) => {
+    if (n.url) window.open(n.url, "_blank", "noopener,noreferrer");
   };
   interaction.onRightClick = (n: any) => {
     if (focusedId === n.id) {
@@ -1589,7 +1600,6 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
   let isFlyMode = false;
   const flyKeys: Record<string, boolean> = {};
   let flyAutoPilot = false;
-  let flyExitRoll = 0; // 退出飞船时保留的翻滚角
   const SHIFT_MULTIPLIER = 3;
   let rollVelocity = 0; // Q/E 横滚速度（带阻尼平滑）
   let flyCrosshair: HTMLElement | null = null;
@@ -1796,11 +1806,10 @@ export async function init3d(graphData: GraphData, signal?: AbortSignal) {
   function exitFlyMode() {
     requestRender();
     isFlyMode = false;
-    // 保存当前翻滚角度，切回球幕后持续保留
-    flyExitRoll = ctx.camera.rotation.z;
     // 同步 OrbitControls target 到当前视线方向
     const lookTarget = new THREE.Vector3();
     ctx.camera.getWorldDirection(lookTarget);
+    levelFlightCamera(ctx.camera);
     lookTarget.multiplyScalar(200).add(ctx.camera.position);
     ctx.controls.target.copy(lookTarget);
     ctx.controls.enabled = true;

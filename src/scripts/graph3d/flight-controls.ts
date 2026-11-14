@@ -128,6 +128,22 @@ export function applyFlightLook(
 }
 
 /**
+ * Remove residual bank after leaving flight mode while preserving the current
+ * look direction. Orbit mode should resume with a level horizon instead of
+ * inheriting an aircraft roll that makes the orbit controls feel inverted.
+ */
+export function levelFlightCamera(camera: Camera): void {
+  const forward = camera.getWorldDirection(new Vector3());
+  const right = new Vector3().crossVectors(forward, new Vector3(0, 1, 0));
+  if (right.lengthSq() < 1e-8) right.set(1, 0, 0);
+  else right.normalize();
+  const up = new Vector3().crossVectors(right, forward).normalize();
+  camera.up.copy(up);
+  camera.lookAt(camera.position.clone().add(forward));
+  camera.updateMatrixWorld();
+}
+
+/**
  * Derive a traversal speed from graph scale and spatial density.
  *
  * The bounding volume and node count give a characteristic spacing

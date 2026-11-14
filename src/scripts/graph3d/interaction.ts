@@ -15,6 +15,7 @@ export interface InteractionContext {
   mouse: THREE.Vector2;
   onHover: HoverCallback | null;
   onClick: ClickCallback | null;
+  onMiddleClick: ClickCallback | null;
   onRightClick: ClickCallback | null;
   hoveredIndex: number | null;
   lastPickCandidateCount: number;
@@ -32,6 +33,7 @@ export function createInteraction(ctx: RenderContext, nodes: GraphNode[], maxNod
     mouse: new THREE.Vector2(),
     onHover: null,
     onClick: null,
+    onMiddleClick: null,
     onRightClick: null,
     hoveredIndex: null,
     lastPickCandidateCount: 0,
@@ -76,6 +78,8 @@ export function createInteraction(ctx: RenderContext, nodes: GraphNode[], maxNod
       disposed = true;
       canvas.removeEventListener("mousemove", handleMouseMove);
       canvas.removeEventListener("click", handleClick);
+      canvas.removeEventListener("mousedown", handleMouseDown);
+      canvas.removeEventListener("auxclick", handleAuxClick);
       canvas.removeEventListener("contextmenu", handleContextMenu);
       canvas.removeEventListener("pointerleave", clearHover);
       clearHover();
@@ -161,17 +165,31 @@ export function createInteraction(ctx: RenderContext, nodes: GraphNode[], maxNod
 
   // ── Click ──
   function handleClick(event: MouseEvent) {
-    // An unlocked flight click belongs to the pointer-lock handler, rather than
-    // the node at the retained center reticle.
-    if (_isFlyMode && document.pointerLockElement !== canvas) return;
+    // Mouse buttons exclusively control pointer lock and orientation in flight.
+    // Never open a site because the reticle happened to rest on a node.
+    if (_isFlyMode) return;
     const node = getNodeAtMouse(event);
     if (node) ix.onClick?.(node);
+  }
+
+  // Middle-click opens a node without disturbing the current orbit view.
+  function handleMouseDown(event: MouseEvent) {
+    if (_isFlyMode || event.button !== 1) return;
+    if (getNodeAtMouse(event, true)) event.preventDefault();
+  }
+
+  function handleAuxClick(event: MouseEvent) {
+    if (_isFlyMode || event.button !== 1) return;
+    const node = getNodeAtMouse(event);
+    if (!node) return;
+    event.preventDefault();
+    ix.onMiddleClick?.(node);
   }
 
   // ── Right-click ──
   function handleContextMenu(event: MouseEvent) {
     event.preventDefault();
-    if (_isFlyMode && document.pointerLockElement !== canvas) return;
+    if (_isFlyMode) return;
     const node = getNodeAtMouse(event);
     if (node) ix.onRightClick?.(node);
   }
@@ -188,6 +206,8 @@ export function createInteraction(ctx: RenderContext, nodes: GraphNode[], maxNod
 
   canvas.addEventListener("mousemove", handleMouseMove);
   canvas.addEventListener("click", handleClick);
+  canvas.addEventListener("mousedown", handleMouseDown);
+  canvas.addEventListener("auxclick", handleAuxClick);
   canvas.addEventListener("contextmenu", handleContextMenu);
   canvas.addEventListener("pointerleave", clearHover);
 
