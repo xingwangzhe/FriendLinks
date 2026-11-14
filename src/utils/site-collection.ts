@@ -4,7 +4,15 @@ import YAML from "yaml";
 import { z } from "zod";
 import type { Site } from "../../types/site";
 import { listYamlFiles } from "./yaml-files";
-import { address, mergeSiteRecords, clearIdentityCache } from "./site-identity";
+import {
+  address,
+  mergeSiteRecords,
+  clearIdentityCache,
+  getCollectionInfo,
+  restoreCollectionCounts,
+  type SiteRecord,
+  type SourceCounts,
+} from "./site-identity";
 import { clearTopologyCache } from "./graph-topology";
 import { deterministicSample } from "./sample";
 import {
@@ -55,14 +63,23 @@ export function clearCollectionCache() {
   clearIdentityCache();
   clearTopologyCache();
 }
-export async function readSiteRecords(
+export type SiteRecordCollection = {
+  records: SiteRecord[];
+  sourceDigest: string | null;
+  implementation: string | null;
+  artifactCache: BuildArtifactCache | null;
+};
+
+export async function readSiteRecordCollection(
   dir: string,
   onProgress?: (current: number, total: number) => void,
   artifactCache: BuildArtifactCache | null = buildCacheEnabled() ? buildArtifacts : null,
-) {
+): Promise<SiteRecordCollection> {
   const files = await listYamlFiles(path.resolve(dir));
-  const records: Array<{ file: string; site: Site }> = [];
+  const records: SiteRecord[] = [];
   let parsedCacheKey: string | null = null;
+  let implementation: string | null = null;
+  let sourceDigest: string | null = null;
   let sourceText: Map<string, string> | null = null;
   const sourceHashes = new Map<string, string>();
   let previousRecords = new Map<string, { hash: string; site: Site }>();
@@ -78,7 +95,7 @@ export async function readSiteRecords(
         sourceHashes.set(path.relative(path.resolve(dir), file), contentHash(text));
       }
     }
-    const implementation = await implementationFingerprint(
+    implementation = await implementationFingerprint(
       [
         "src/utils/site-collection.ts",
         "src/utils/site-identity.ts",
@@ -86,6 +103,9 @@ export async function readSiteRecords(
         "src/utils/build-artifact-cache.ts",
       ],
       ["yaml", "zod"],
+    );
+    sourceDigest = artifactKey(
+      [...sourceHashes.entries()].sort(([left], [right]) => (left < right ? -1 : left > right ? 1 : 0)),
     );
     parsedCacheKey = implementation ? artifactKey({ directory: path.resolve(dir), implementation }) : null;
     const cached = parsedCacheKey
@@ -133,18 +153,57 @@ export async function readSiteRecords(
       );
     }
   }
-  return records;
+  return { records, sourceDigest, implementation, artifactCache };
+}
+
+export async function readSiteRecords(
+  dir: string,
+  onProgress?: (current: number, total: number) => void,
+  artifactCache: BuildArtifactCache | null = buildCacheEnabled() ? buildArtifacts : null,
+): Promise<SiteRecord[]> {
+  return (await readSiteRecordCollection(dir, onProgress, artifactCache)).records;
 }
 export function loadSiteCollection(
   dir = "links",
   sampleSize = Infinity,
   onProgress?: (current: number, total: number) => void,
+  artifactCache: BuildArtifactCache | null = buildCacheEnabled() ? buildArtifacts : null,
 ): Promise<Site[]> {
   const key = JSON.stringify([path.resolve(dir), sampleSize === Infinity ? "all" : sampleSize]);
   let pending = cache.get(key);
   if (!pending) {
-    pending = readSiteRecords(dir, onProgress)
-      .then((records) => mergeSiteRecords(records, (sites) => deterministicSample(sites, sampleSize)))
+    pending = readSiteRecordCollection(dir, onProgress, artifactCache)
+      .then(async (collection) => {
+        let snapshotKey: string | null = null;
+        if (collection.artifactCache && collection.implementation && collection.sourceDigest) {
+          const sampleFingerprint = contentHash(await readFile(path.resolve("src/utils/sample.ts"), "utf8"));
+          snapshotKey = artifactKey({
+            schema: 1,
+            sourceDigest: collection.sourceDigest,
+            implementation: collection.implementation,
+            sampleFingerprint,
+            sampleSize: sampleSize === Infinity ? "all" : sampleSize,
+          });
+          const cached = await collection.artifactCache.read<{ sites: Site[]; counts: SourceCounts }>(
+            "sites",
+            snapshotKey,
+          );
+          if (cached && Array.isArray(cached.sites) && cached.counts) {
+            restoreCollectionCounts(cached.sites, cached.counts);
+            console.log(`[cache] sites snapshot hit: ${cached.sites.length} merged sites`);
+            return cached.sites;
+          }
+          console.log("[cache] sites snapshot miss: rebuilding merged collection");
+        }
+        const sites = mergeSiteRecords(collection.records, (allSites) => deterministicSample(allSites, sampleSize));
+        if (snapshotKey && collection.artifactCache) {
+          await collection.artifactCache.write("sites", snapshotKey, {
+            sites,
+            counts: getCollectionInfo(sites).counts,
+          });
+        }
+        return sites;
+      })
       .catch((error) => {
         if (cache.get(key) === pending) cache.delete(key);
         throw error;

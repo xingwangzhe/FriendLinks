@@ -2,10 +2,23 @@ import { describe, test, expect } from "bun:test";
 import { mkdir, mkdtemp, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
-import { BuildArtifactCache, artifactKey, implementationFingerprint } from "./build-artifact-cache";
+import {
+  BuildArtifactCache,
+  artifactKey,
+  implementationFingerprint,
+  snapshotArtifactKey,
+} from "./build-artifact-cache";
 import { encode, decode } from "msgpackr";
 
 describe("verified build artifacts", () => {
+  test("snapshot keys reuse object identity and change with content", () => {
+    const first = { input: ["a", "b"], implementation: "v1" };
+    const key = snapshotArtifactKey(first);
+    expect(snapshotArtifactKey(first)).toBe(key);
+    expect(snapshotArtifactKey({ ...first })).toBe(key);
+    expect(snapshotArtifactKey({ ...first, implementation: "v2" })).not.toBe(key);
+  });
+
   test("roundtrips real arrays and rejects corruption or different inputs", async () => {
     const dir = await mkdtemp(path.join(os.tmpdir(), "friendlinks-cache-"));
     try {

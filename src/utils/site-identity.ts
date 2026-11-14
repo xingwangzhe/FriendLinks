@@ -64,6 +64,10 @@ export class SiteIdentity {
 }
 
 interface CollectionInfo {
+  identity: SiteIdentity | null;
+  counts: SourceCounts;
+}
+export interface ResolvedCollectionInfo {
   identity: SiteIdentity;
   counts: SourceCounts;
 }
@@ -71,10 +75,14 @@ let collectionInfo = new WeakMap<Site[], CollectionInfo>();
 export function clearIdentityCache() {
   collectionInfo = new WeakMap();
 }
-export function getCollectionInfo(sites: Site[]): CollectionInfo {
-  return (
-    collectionInfo.get(sites) ?? {
-      identity: new SiteIdentity(sites),
+export function restoreCollectionCounts(sites: Site[], counts: SourceCounts) {
+  collectionInfo.set(sites, { identity: null, counts });
+}
+export function getCollectionInfo(sites: Site[]): ResolvedCollectionInfo {
+  let info = collectionInfo.get(sites);
+  if (!info) {
+    info = {
+      identity: null,
       counts: {
         rawRecords: sites.length,
         mergedRecords: 0,
@@ -82,8 +90,11 @@ export function getCollectionInfo(sites: Site[]): CollectionInfo {
         totalRawRecords: sites.length,
         totalLogicalSites: sites.length,
       },
-    }
-  );
+    };
+    collectionInfo.set(sites, info);
+  }
+  info.identity ??= new SiteIdentity(sites);
+  return info as ResolvedCollectionInfo;
 }
 
 export function mergeSiteRecords(input: SiteRecord[], sample?: (sites: Site[]) => Site[]): Site[] {

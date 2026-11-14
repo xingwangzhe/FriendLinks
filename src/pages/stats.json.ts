@@ -10,6 +10,7 @@ import {
   buildArtifacts,
   buildCacheEnabled,
   implementationFingerprint,
+  snapshotArtifactKey,
 } from "../utils/build-artifact-cache";
 
 export async function GET() {
@@ -34,7 +35,12 @@ export async function GET() {
       )
     : null;
   const cacheKey = implementation
-    ? artifactKey({ sites: validSites, sourceCounts: getCollectionInfo(validSites).counts, implementation })
+    ? artifactKey({
+        schema: 2,
+        sites: snapshotArtifactKey(validSites),
+        sourceCounts: getCollectionInfo(validSites).counts,
+        implementation,
+      })
     : null;
   if (cacheKey) {
     const cached = await buildArtifacts.read<StatsData>("stats", cacheKey);

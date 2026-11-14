@@ -16,6 +16,15 @@ export function contentHash(value: string | Uint8Array) {
 export function artifactKey(value: unknown) {
   return contentHash(JSON.stringify(value));
 }
+const snapshotKeys = new WeakMap<object, string>();
+/** Reuse one content digest for an immutable in-memory snapshot across endpoints. */
+export function snapshotArtifactKey(value: object): string {
+  const cached = snapshotKeys.get(value);
+  if (cached) return cached;
+  const key = artifactKey(value);
+  snapshotKeys.set(value, key);
+  return key;
+}
 export async function implementationFingerprint(files: string[], packages: string[] = [], root = process.cwd()) {
   try {
     const require = createRequire(path.resolve(root, "package.json"));

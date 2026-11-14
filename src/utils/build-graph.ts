@@ -15,6 +15,7 @@ import {
   buildCacheEnabled,
   contentHash,
   implementationFingerprint,
+  snapshotArtifactKey,
 } from "./build-artifact-cache";
 
 function isValidUrl(u: unknown): u is string {
@@ -86,7 +87,9 @@ async function buildGraph(sites: Site[]): Promise<BuildResult> {
         ["@xingwangzhe/force-rs"],
       )
     : null;
-  const cacheKey = implementation ? artifactKey({ sites, implementation }) : null;
+  const cacheKey = implementation
+    ? artifactKey({ schema: 2, sites: snapshotArtifactKey(sites), implementation })
+    : null;
   if (cacheKey) {
     const cached = await buildArtifacts.read<BuildResult>("graph", cacheKey);
     if (cached) {
