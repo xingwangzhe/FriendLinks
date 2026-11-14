@@ -3,6 +3,4 @@ site:
   url: https://xuanzhi33.cn/
   description: 这是一个有趣的网站！内有简单游戏、简单工具等多个项目~
   links: /
-  friends:
-    - name: "{{ $t('go') }}"
-      url: https://www.travellings.cn/go.html
+  friends: []
