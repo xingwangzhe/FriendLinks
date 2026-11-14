@@ -121,9 +121,9 @@ async function main() {
   await page.bringToFront();
   await page.goto(url, { waitUntil: "domcontentloaded" });
   await page.waitForFunction(() => window.__graphApi !== undefined, undefined, { timeout: 90_000 });
-  await page.waitForTimeout(750);
+  const initialIdle = await waitForStableIdle(page, 10_000);
 
-  const initial = await getStats(page);
+  const initial = initialIdle.stats;
   await sleep(1500);
   const idleEnd = await getStats(page);
 
@@ -176,6 +176,10 @@ async function main() {
       devicePixelRatio: await page.evaluate(() => window.devicePixelRatio),
     },
     initial,
+    initialIdle: {
+      timeToIdleMs: initialIdle.timeToIdleMs,
+      idleFrameDelta: initialIdle.frameDelta,
+    },
     idle: {
       durationMs: 1500,
       frameDelta: idleEnd.frames - initial.frames,
