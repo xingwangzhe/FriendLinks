@@ -23,6 +23,7 @@ docs/
     └── specs/
 scripts/
 ├── blacklist.ts             # 添加、查询、列出域名哈希黑名单
+├── check-blacklist-links.ts # 只读扫描友链黑名单命中并输出 warning
 ├── six-degrees.ts           # 六度分隔计算
 ├── update-site-names.ts     # 批量更新站点名称
 └── validate-links.ts        # 友链数据校验
@@ -303,6 +304,8 @@ bun run blacklist list
 
 `add` 自动完成规范化、SHA-256、去重、顺序编号和 JSON 写入。`check` 只查询是否命中。`list` 输出序号、文件名、长度、hash 和原因，不反推域名。
 
+`.github/workflows/blacklist-dry-run.yml` 在 PR 和 push 时运行 `bun run blacklist:dry-run`。该检查递归扫描正式与待验证 YAML，只输出可能命中的 warning，不构建、不删除或写回文件；warning 会注明域名、命中原因和 YAML 文件，供贡献者复核。
+
 ### 构建前自动排除
 
 `astro.config.mjs` 注册 `blacklistGuard()`。构建触发 `astro:build:start` 时，`enforceBlacklist()` 会在 Astro 读取正式图数据前递归扫描 `links/**/*.yml` 和 `links/**/*.yaml`，包括 `links/unverified/`。
@@ -409,6 +412,7 @@ bun run lint && bun run fmt  # 提交前检查
 | `bun run validate` | 校验 `scripts/validate-links.ts` — 检查 YAML 格式和必填字段 |
 | `bun run six` | 运行 `scripts/six-degrees.ts` — 六度分隔分析 |
 | `bun run blacklist add/check/list` | 添加、查询或列出域名 SHA-256 黑名单 |
+| `bun run blacklist:dry-run` | 只读扫描全部友链 YAML，报告可能的黑名单命中，不构建或修改文件 |
 | `bun run lint` | oxlint 代码检查 + TypeScript 类型检查 |
 | `bun run fmt` | oxfmt 格式化 `src/` 和 `links/` |
 | `bun run fmt-check` | 只检查格式，不写入文件 |

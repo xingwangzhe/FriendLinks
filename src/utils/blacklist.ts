@@ -45,6 +45,11 @@ export type BlacklistEnforcementResult = {
   hits: BlacklistHit[];
 };
 
+export type BlacklistInspectionResult = {
+  filesScanned: number;
+  hits: BlacklistHit[];
+};
+
 /** Normalize a URL or bare host to the lowercase hostname used for hashing. */
 export function normalizeBlacklistDomain(value: string): string {
   const input = value.trim();
@@ -208,6 +213,75 @@ async function listAllYamlFiles(root: string): Promise<string[]> {
   }
   await walk(root);
   return files.sort();
+}
+
+/** Scan site and friend URLs without changing any YAML files. */
+export async function inspectBlacklist(
+  options: {
+    rootDir?: string;
+    linksDir?: string;
+    blacklistDir?: string;
+  } = {},
+): Promise<BlacklistInspectionResult> {
+  const rootDir = path.resolve(options.rootDir ?? process.cwd());
+  const linksDir = path.resolve(rootDir, options.linksDir ?? "links");
+  const index = await loadBlacklist(path.resolve(rootDir, options.blacklistDir ?? BLACKLIST_DIR));
+  const files: string[] = [];
+  for await (const relative of new Bun.Glob("**/*").scan({ cwd: linksDir, onlyFiles: true })) {
+    if (/\.ya?ml$/i.test(relative)) files.push(path.join(linksDir, relative));
+  }
+  files.sort();
+  const hits: BlacklistHit[] = [];
+
+  for (const file of files) {
+    const relative = path.relative(rootDir, file).split(path.sep).join("/");
+    const document = YAML.parseDocument(await Bun.file(file).text());
+    const site = document.get("site", true);
+    if (!YAML.isMap(site)) continue;
+
+    const siteUrl = scalarString(site.get("url", true));
+    const sourceSiteName = scalarString(site.get("name", true)) ?? undefined;
+    const sourceSiteDomain = displayDomain(siteUrl);
+    const siteDomains = [siteUrl];
+    const aliases = site.get("aliases", true);
+    if (YAML.isSeq(aliases)) {
+      for (const alias of aliases.items) siteDomains.push(scalarString(alias));
+    }
+
+    const mainHit = siteDomains.map((domain) => safeHit(domain, index)).find(Boolean);
+    if (mainHit) {
+      hits.push({
+        file: relative,
+        scope: "site",
+        domain: mainHit.domain,
+        hash: mainHit.hash,
+        reason: mainHit.reason,
+        entryFile: mainHit.file,
+      });
+      continue;
+    }
+
+    const friends = site.get("friends", true);
+    if (!YAML.isSeq(friends)) continue;
+    for (const friend of friends.items) {
+      if (!YAML.isMap(friend)) continue;
+      const friendHit = safeHit(scalarString(friend.get("url", true)), index);
+      if (!friendHit) continue;
+      hits.push({
+        file: relative,
+        scope: "friend",
+        domain: friendHit.domain,
+        hash: friendHit.hash,
+        reason: friendHit.reason,
+        entryFile: friendHit.file,
+        sourceSiteDomain,
+        sourceSiteName,
+        friendName: scalarString(friend.get("name", true)) ?? undefined,
+      });
+    }
+  }
+
+  return { filesScanned: files.length, hits };
 }
 
 function scalarString(node: unknown): string | null {

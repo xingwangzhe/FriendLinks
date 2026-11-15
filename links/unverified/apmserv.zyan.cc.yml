@@ -1,0 +1,12 @@
+# 审核状态: unverified
+# 原因码: unverifiable
+# 证据: http://apmserv.zyan.cc
+# 证据: http://zyan.cc/tech/
+# 检查日期: 2026-11-15
+# 备注: 页面文章链接指向另一 hostname，尚未核实跳转与规范域名；暂不创建独立正式节点。
+
+site:
+  name: 张宴的博客
+  description: Web 系统架构与底层研发文章。
+  url: http://apmserv.zyan.cc
+  friends: []

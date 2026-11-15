@@ -1,0 +1,11 @@
+# 审核状态: unverified
+# 原因码: unverifiable
+# 证据: https://asheblog.org/
+# 检查日期: 2026-11-15
+# 备注: 二次 crwl 只返回加载壳，尚未核实独立文章正文。
+
+site:
+  name: "Asheblog 咱们的阿射学长又回来了"
+  description: "记录个人生活、心情和作品的文字博客。"
+  url: https://asheblog.org/
+  friends: []

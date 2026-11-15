@@ -6,8 +6,6 @@ site:
   friends:
     - name: More 'Casts
       url: http://thelinuxlink.net
-    - name: Hacker Public Radio
-      url: http://hackerpublicradio.org
     - name: Slackware
       url: http://slackware.com
     - name: Slackermedia
@@ -16,8 +14,6 @@ site:
       url: https://www.opensuse.org/
     - name: Fedora
       url: https://getfedora.org
-    - name: Get Firefox
-      url: http://getfirefox.org
     - name: fcitx
       url: https://fcitx-im.org/
     - name: learnlatex.org
@@ -48,8 +44,6 @@ site:
       url: https://editorconfig.org
     - name: Drupal
       url: https://drupal.org
-    - name: Grav
-      url: https://getgrav.org
     - name: Sysadmin Signal
       url: https://sysadminsignal.com
     - name: rdiff-backup
@@ -80,8 +74,6 @@ site:
       url: http://slackonly.com
     - name: Digikam
       url: https://www.digikam.org/
-    - name: Calligra
-      url: https://calligra.org
     - name: Bluez-Qt
       url: http://www.bluez.org/
     - name: Yasm
@@ -90,8 +82,6 @@ site:
       url: https://thinstation.github.io
     - name: OpenNX
       url: http://opennx.net/
-    - name: Bitkeeper
-      url: http://bitkeeper.org
     - name: strace
       url: http://strace.io
     - name: SCons
@@ -103,15 +93,11 @@ site:
     - name: CPAN
       url: https://cpan.org/
     - name: LLVM
-      url: https://llvm.org
-    - name: LLVM
       url: https://www.llvm.org
     - name: Scheme programming language
       url: https://www.scheme.com
     - name: GNU COBOL
       url: https://gnucobol.sourceforge.io/
-    - name: Adopt OpenJDK
-      url: https://adoptopenjdk.net
     - name: Etoile
       url: http://etoileos.com/
     - name: Silverblue
@@ -130,12 +116,8 @@ site:
       url: http://www.slackware.com/
     - name: Rock Linux
       url: http://rockylinux.org
-    - name: Cython
-      url: https://cython.org
     - name: Gemini
       url: https://gemini.circumlunar.space/
-    - name: Oh my Zsh
-      url: https://ohmyz.sh/
     - name: Vim
       url: http://vim.org
     - name: Ogg Vorbis
@@ -154,16 +136,10 @@ site:
       url: https://www.getfedora.org
     - name: GNU Nano
       url: https://www.nano-editor.org
-    - name: MariaDB
-      url: https://mariadb.org/
     - name: OpenJam
       url: http://openjam.io
     - name: Linux Containers
       url: http://linuxcontainers.org
-    - name: Debian
-      url: https://debian.org/
-    - name: Asciidoc
-      url: https://asciidoc.org/
     - name: Docbook
       url: https://docbook.org/
     - name: joe website
@@ -194,8 +170,6 @@ site:
       url: http://opensource.com
     - name: Freesvg.org
       url: http://freesvg.org
-    - name: All Things Open
-      url: https://allthingsopen.org/
     - name: Nextcloud.com
       url: http://nextcloud.com
     - name: Generate passwords with LessPass
@@ -224,12 +198,8 @@ site:
       url: http://krita.org
     - name: GIMP 2.10
       url: http://gimp.org
-    - name: Appimage
-      url: http://appimage.org
     - name: Flatpak
       url: http://flatpak.org
-    - name: WINE
-      url: https://appdb.winehq.org/
     - name: smartmontools
       url: https://www.smartmontools.org/
     - name: Itch.io

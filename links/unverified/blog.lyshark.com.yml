@@ -1,0 +1,11 @@
+# 审核状态: unverified
+# 原因码: unverifiable
+# 证据: https://blog.lyshark.com/
+# 检查日期: 2026-11-15
+# 备注: 抓取失败、页面过短或访问受限，需补充查看公开文章与运营主体。
+
+site:
+  name: LyShark道，可道，非常道；名，可名，非常名。—— 老子《道德经》>=10s
+  description: 待核实的个人文章博客
+  url: https://blog.lyshark.com/
+  friends: []

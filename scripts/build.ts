@@ -3,15 +3,17 @@ import path from "node:path";
 
 const require = createRequire(path.resolve("package.json"));
 const args = process.argv.slice(2);
+const filter = args.includes("--filter");
 const force = args.includes("--force");
 const refresh = args.includes("--refresh-cache");
 const env = { ...process.env };
+env.FRIENDLINKS_BUILD_FILTER = filter ? "1" : "0";
 if (force) env.FRIENDLINKS_BUILD_CACHE = "0";
 else if (refresh) env.FRIENDLINKS_BUILD_CACHE = "refresh";
 const astroManifest = require.resolve("astro/package.json");
 const astroBin = path.join(path.dirname(astroManifest), "bin/astro.mjs");
 const astroVersion = require("astro/package.json").version;
-const astroArgs = args.filter((arg) => arg !== "--refresh-cache");
+const astroArgs = args.filter((arg) => arg !== "--refresh-cache" && arg !== "--filter");
 if (refresh && !force) astroArgs.push("--force");
 console.log(`[build] Bun ${Bun.version}, Astro ${astroVersion}, artifacts=${env.FRIENDLINKS_BUILD_CACHE || "enabled"}`);
 const start = performance.now();

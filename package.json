@@ -18,6 +18,7 @@
   "scripts": {
     "dev": "bunx --bun astro@latest dev",
     "build": "bun scripts/build.ts",
+    "build:filter": "bun scripts/build.ts --filter",
     "preview": "bunx --bun astro@latest preview",
     "lint": "oxlint src/ && tsc --noEmit",
     "fmt": "oxfmt src/ links/ --write",
@@ -25,6 +26,7 @@
     "validate": "bun run scripts/validate-links.ts",
     "six": "bun run scripts/six-degrees.ts",
     "blacklist": "bun scripts/blacklist.ts",
+    "blacklist:dry-run": "bun scripts/check-blacklist-links.ts",
     "test": "bun test",
     "check": "bun --bun astro check",
     "bench": "bun scripts/experiments/frontend-interaction-bench.ts",

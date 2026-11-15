@@ -10,7 +10,12 @@ on:
       - "**/*.gitignore"
       - .editorconfig
       - docs/**
+      - links/**
+      - blacklist/**
   pull_request:
+    paths-ignore:
+      - links/**
+      - blacklist/**
   workflow_dispatch:
 
 concurrency:

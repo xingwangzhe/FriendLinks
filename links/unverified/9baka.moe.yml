@@ -1,0 +1,10 @@
+# 审核状态: unverified
+# 原因码: unverifiable
+# 证据: https://9baka.moe/
+# 检查日期: 2026-11-15
+# 备注: 首轮 crwl 0 字符；二次 crwl 失败，0 字符。二次 crwl 抓取失败，需后续复核。
+site:
+  name: "BakaAwt"
+  description: "待验证候选站点；暂未确认是否符合个人文章博客准入标准。"
+  url: https://9baka.moe/
+  friends: []

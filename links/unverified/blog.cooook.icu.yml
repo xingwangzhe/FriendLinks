@@ -1,0 +1,11 @@
+# 审核状态: unverified
+# 原因码: unverifiable
+# 证据: https://blog.cooook.icu/
+# 检查日期: 2026-11-15
+# 备注: 首页抓取异常或被访问限制，需人工确认公开文章与运营主体。
+
+site:
+  name: cooook
+  description: 帆鸽鸽
+  url: https://blog.cooook.icu/
+  friends: []
