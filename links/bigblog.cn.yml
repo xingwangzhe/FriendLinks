@@ -1,6 +1,8 @@
 site:
   name: 大博客 - 态度改变生活
   url: https://www.bigblog.cn/
+  aliases:
+    - https://bigblog.cn/
   description: 狗子的个人博客，记录我一路走来的点滴，日常发一些唠唠叨叨的水文，偶尔发一些技术向文章（并不是），外加人菜瘾大的游戏玩家。
   links: /links
   friends:

@@ -1,6 +1,8 @@
 site:
   name: AHdark Blog
   url: https://ahdark.blog/
+  aliases:
+    - https://ahdark.com/
   description: AHdark Blog is a personal technology blog by AHdark, a full-stack developer born in 2007. The blog focuses on web development, DevOps, Kubernetes, GitHub Actions, TypeScript, Golang, and other related
   links: /
   friends:

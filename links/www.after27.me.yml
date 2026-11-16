@@ -1,6 +1,8 @@
 site:
   name: "After 27"
   url: "https://www.after27.me/"
+  aliases:
+    - https://after27.me/
   description: "After 27"
   links: "/links"
   friends:
